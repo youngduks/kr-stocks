@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "created": "2026-05-10",
+    "data_sources": {
+      "hl_xyz": "https://api.hyperliquid.xyz/info {type:metaAndAssetCtxs, dex:xyz}",
+      "hl_vntl": "https://api.hyperliquid.xyz/info {type:metaAndAssetCtxs, dex:vntl}",
+      "krw_rate": "https://api.upbit.com/v1/ticker?markets=KRW-USDT"
+    },
+    "total_symbols": 38,
+    "categories": ["korea", "us", "private", "global"]
+  },
+  "symbols": [
+    {"slug": "samsung", "ticker": "xyz:SMSN", "dex": "xyz", "name_ko": "삼성전자", "name_en": "Samsung Electronics", "category": "korea", "tier": 1, "share_ratio": 1.0, "regular_market": "KOSPI", "krx_code": "005930"},
+    {"slug": "hynix", "ticker": "xyz:SKHX", "dex": "xyz", "name_ko": "SK하이닉스", "name_en": "SK Hynix", "category": "korea", "tier": 1, "share_ratio": 0.143, "regular_market": "KOSPI", "krx_code": "000660", "note": "HL contract = ~7주 묶음 (정규장 1주 환산은 ratio 적용)"},
+    {"slug": "hyundai", "ticker": "xyz:HYUNDAI", "dex": "xyz", "name_ko": "현대차", "name_en": "Hyundai Motor", "category": "korea", "tier": 1, "share_ratio": 0.4, "regular_market": "KOSPI", "krx_code": "005380", "note": "HL contract = ~2.5주 묶음"},
+
+    {"slug": "kospi200", "ticker": "xyz:KR200", "dex": "xyz", "name_ko": "코스피200", "name_en": "KOSPI 200 Index", "category": "korea", "tier": 1, "is_index": true},
+    {"slug": "ewy", "ticker": "xyz:EWY", "dex": "xyz", "name_ko": "한국 ETF (EWY)", "name_en": "iShares MSCI South Korea ETF", "category": "korea", "tier": 1, "is_etf": true},
+    {"slug": "krw", "ticker": "xyz:KRW", "dex": "xyz", "name_ko": "원화 환율", "name_en": "USD/KRW", "category": "korea", "tier": 1, "is_fx": true},
+
+    {"slug": "tesla", "ticker": "xyz:TSLA", "dex": "xyz", "name_ko": "테슬라", "name_en": "Tesla", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NASDAQ"},
+    {"slug": "nvidia", "ticker": "xyz:NVDA", "dex": "xyz", "name_ko": "엔비디아", "name_en": "NVIDIA", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NASDAQ"},
+    {"slug": "apple", "ticker": "xyz:AAPL", "dex": "xyz", "name_ko": "애플", "name_en": "Apple", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NASDAQ"},
+    {"slug": "microsoft", "ticker": "xyz:MSFT", "dex": "xyz", "name_ko": "마이크로소프트", "name_en": "Microsoft", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NASDAQ"},
+    {"slug": "amd", "ticker": "xyz:AMD", "dex": "xyz", "name_ko": "AMD", "name_en": "AMD", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NASDAQ"},
+    {"slug": "google", "ticker": "xyz:GOOGL", "dex": "xyz", "name_ko": "구글", "name_en": "Alphabet", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NASDAQ"},
+    {"slug": "amazon", "ticker": "xyz:AMZN", "dex": "xyz", "name_ko": "아마존", "name_en": "Amazon", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NASDAQ"},
+    {"slug": "meta", "ticker": "xyz:META", "dex": "xyz", "name_ko": "메타", "name_en": "Meta", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NASDAQ"},
+    {"slug": "mstr", "ticker": "xyz:MSTR", "dex": "xyz", "name_ko": "마이크로스트래티지", "name_en": "MicroStrategy", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NASDAQ"},
+    {"slug": "netflix", "ticker": "xyz:NFLX", "dex": "xyz", "name_ko": "넷플릭스", "name_en": "Netflix", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NASDAQ"},
+    {"slug": "intel", "ticker": "xyz:INTC", "dex": "xyz", "name_ko": "인텔", "name_en": "Intel", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NASDAQ"},
+    {"slug": "palantir", "ticker": "xyz:PLTR", "dex": "xyz", "name_ko": "팔란티어", "name_en": "Palantir", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NASDAQ"},
+    {"slug": "coinbase", "ticker": "xyz:COIN", "dex": "xyz", "name_ko": "코인베이스", "name_en": "Coinbase", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NASDAQ"},
+    {"slug": "oracle", "ticker": "xyz:ORCL", "dex": "xyz", "name_ko": "오라클", "name_en": "Oracle", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NYSE"},
+    {"slug": "micron", "ticker": "xyz:MU", "dex": "xyz", "name_ko": "마이크론", "name_en": "Micron", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NASDAQ"},
+    {"slug": "costco", "ticker": "xyz:COST", "dex": "xyz", "name_ko": "코스트코", "name_en": "Costco", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NASDAQ"},
+    {"slug": "alibaba", "ticker": "xyz:BABA", "dex": "xyz", "name_ko": "알리바바", "name_en": "Alibaba", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NYSE"},
+    {"slug": "rivian", "ticker": "xyz:RIVN", "dex": "xyz", "name_ko": "리비안", "name_en": "Rivian", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NASDAQ"},
+    {"slug": "tsmc", "ticker": "xyz:TSM", "dex": "xyz", "name_ko": "TSMC", "name_en": "Taiwan Semiconductor", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NYSE"},
+    {"slug": "robinhood", "ticker": "xyz:HOOD", "dex": "xyz", "name_ko": "로빈후드", "name_en": "Robinhood", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NASDAQ"},
+    {"slug": "lilly", "ticker": "xyz:LLY", "dex": "xyz", "name_ko": "일라이릴리", "name_en": "Eli Lilly", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NYSE"},
+    {"slug": "circle", "ticker": "xyz:CRCL", "dex": "xyz", "name_ko": "서클(USDC)", "name_en": "Circle Internet (USDC)", "category": "us", "tier": 1, "share_ratio": 1.0, "regular_market": "NYSE"},
+
+    {"slug": "spacex", "ticker": "vntl:SPACEX", "dex": "vntl", "name_ko": "스페이스X", "name_en": "SpaceX (Private)", "category": "private", "tier": 1, "is_private": true, "implied_valuation_usd": 420000000000, "note": "비상장 — Hyperliquid Ventuals dex perp implied valuation"},
+    {"slug": "openai", "ticker": "vntl:OPENAI", "dex": "vntl", "name_ko": "오픈AI", "name_en": "OpenAI (Private)", "category": "private", "tier": 1, "is_private": true, "implied_valuation_usd": 300000000000, "note": "비상장 — Hyperliquid Ventuals dex perp"},
+    {"slug": "anthropic", "ticker": "vntl:ANTHROPIC", "dex": "vntl", "name_ko": "앤트로픽", "name_en": "Anthropic (Private)", "category": "private", "tier": 1, "is_private": true, "implied_valuation_usd": 170000000000, "note": "비상장 — Hyperliquid Ventuals dex perp (가장 활성)"},
+
+    {"slug": "sp500", "ticker": "xyz:SP500", "dex": "xyz", "name_ko": "S&P500", "name_en": "S&P 500 Index", "category": "global", "tier": 2, "is_index": true},
+    {"slug": "nikkei", "ticker": "xyz:JP225", "dex": "xyz", "name_ko": "니케이225", "name_en": "Nikkei 225", "category": "global", "tier": 2, "is_index": true},
+    {"slug": "nifty", "ticker": "xyz:NIFTY", "dex": "xyz", "name_ko": "니프티50", "name_en": "Nifty 50 (India)", "category": "global", "tier": 2, "is_index": true},
+    {"slug": "vix", "ticker": "xyz:VIX", "dex": "xyz", "name_ko": "VIX 공포지수", "name_en": "VIX Fear Index", "category": "global", "tier": 2, "is_index": true},
+    {"slug": "dxy", "ticker": "xyz:DXY", "dex": "xyz", "name_ko": "달러인덱스", "name_en": "Dollar Index", "category": "global", "tier": 2, "is_index": true},
+
+    {"slug": "gme", "ticker": "xyz:GME", "dex": "xyz", "name_ko": "게임스탑", "name_en": "GameStop", "category": "us", "tier": 2, "share_ratio": 1.0, "regular_market": "NYSE"},
+    {"slug": "rocketlab", "ticker": "xyz:RKLB", "dex": "xyz", "name_ko": "로켓랩", "name_en": "Rocket Lab", "category": "us", "tier": 2, "share_ratio": 1.0, "regular_market": "NASDAQ"},
+    {"slug": "draftkings", "ticker": "xyz:DKNG", "dex": "xyz", "name_ko": "드래프트킹스", "name_en": "DraftKings", "category": "us", "tier": 2, "share_ratio": 1.0, "regular_market": "NASDAQ"}
+  ]
+}

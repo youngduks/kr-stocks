@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/packages/pretendard/dist/web/variable/woff2/PretendardVariable.woff2") format("woff2-variations");
+}
+
+html, body {
+  background: #15181D;
+  color: #E6E8EB;
+  font-feature-settings: "tnum" 1, "ss01" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: #15181D; }
+::-webkit-scrollbar-thumb { background: #2E343F; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #3A4150; }
+
+.tabular { font-variant-numeric: tabular-nums; }
+
+/* Toss-style hover lift */
+.card-lift {
+  transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+.card-lift:hover { transform: translateY(-2px); }

@@ -49,10 +49,17 @@ export function PriceCard({ row }: { row: PriceRow }) {
           <span className={`tabular font-semibold ${isUp ? "text-accent-green" : isDn ? "text-accent-red" : "text-text-muted"}`}>
             {isUp ? "▲" : isDn ? "▼" : ""} {chg.toFixed(2)}%
           </span>
-          <span className="text-xs text-text-dim tabular">
-            {showSharePrefix ? `1주환산` : null}
-          </span>
+          <span className="text-[10px] text-text-dim tabular">24h</span>
         </div>
+
+        {m?.hl_premium_pct != null && (
+          <div className="mt-2 pt-2 border-t border-line/60 flex items-center justify-between text-xs tabular">
+            <span className="text-text-dim">vs 정규장</span>
+            <span className={`font-semibold ${m.hl_premium_pct > 0 ? "text-accent-blue" : m.hl_premium_pct < 0 ? "text-accent-red" : "text-text-muted"}`}>
+              {m.hl_premium_pct > 0 ? "+" : ""}{m.hl_premium_pct.toFixed(1)}%
+            </span>
+          </div>
+        )}
       </div>
     </Link>
   );

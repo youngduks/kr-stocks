@@ -27,6 +27,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       `${name} 주가`,
       `${name} 가격`,
       `${name} 실시간`,
+      `${name} 정규장 종가 대비`,
+      `${name} 야간 premium`,
       meta.is_private ? `${name} 시가총액` : `${name} 주식`,
     ],
     openGraph: { title: `${name} 24시간 시세`, description: desc, url, type: "website" },
@@ -123,12 +125,39 @@ export default async function SymbolPage({ params }: Props) {
           </div>
         </section>
 
+        {m.hl_premium_pct != null && m.regular_close_krw != null && (
+          <section className="mb-6 p-5 rounded-2xl bg-accent-blue/5 border border-accent-blue/20">
+            <div className="text-xs text-text-dim mb-3">정규장 종가 대비 HL premium (야간/주말 가격 압력)</div>
+            <div className="flex items-end justify-between gap-4 flex-wrap">
+              <div>
+                <div className="text-xs text-text-dim mb-1">정규장 종가</div>
+                <div className="text-xl font-semibold tabular text-text">
+                  ₩{Math.round(m.regular_close_krw).toLocaleString("ko-KR")}
+                  {m.regular_close_usd && <span className="text-xs text-text-dim ml-2">(${m.regular_close_usd.toFixed(2)})</span>}
+                </div>
+              </div>
+              <div className="text-right">
+                <div className="text-xs text-text-dim mb-1">HL premium</div>
+                <div className={`text-3xl font-bold tabular ${m.hl_premium_pct > 0 ? "text-accent-blue" : m.hl_premium_pct < 0 ? "text-accent-red" : "text-text-muted"}`}>
+                  {m.hl_premium_pct > 0 ? "▲ +" : m.hl_premium_pct < 0 ? "▼ " : ""}{m.hl_premium_pct.toFixed(2)}%
+                </div>
+              </div>
+            </div>
+            <div className="mt-3 text-[11px] text-text-dim leading-relaxed">
+              {m.hl_premium_pct > 5 ? "야간에 매수세 강함 — 시초가 갭업 가능성" : m.hl_premium_pct < -5 ? "야간에 매도세 강함 — 시초가 갭다운 가능성" : "정규장 수준에 가까운 가격"}
+              {" · "}
+              {m.regular_source === "naver" ? "출처: 네이버 금융" : "출처: Yahoo Finance"}
+            </div>
+          </section>
+        )}
+
         <section className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
           <Stat label="HL Mark Price" value={`$${m.mark_px_usd.toFixed(2)}`} />
           <Stat label="전일 종가" value={`$${m.prev_day_px_usd.toFixed(2)}`} />
           <Stat label="24h 거래대금" value={fmtVol(m.day_volume_usd)} />
           <Stat label="Open Interest" value={fmtNum(m.open_interest)} />
           <Stat label="Funding Rate" value={`${(m.funding * 100).toFixed(4)}%`} />
+          {m.regular_close_krw != null && <Stat label="정규장 종가" value={`₩${Math.round(m.regular_close_krw).toLocaleString("ko-KR")}`} />}
           {row.implied_valuation_usd && <Stat label="추정 valuation" value={fmtBig(row.implied_valuation_usd)} />}
           {row.regular_market && <Stat label="정규장" value={row.regular_market} />}
           {row.krx_code && <Stat label="KRX 종목코드" value={row.krx_code} />}

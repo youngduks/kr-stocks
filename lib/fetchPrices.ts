@@ -1,5 +1,6 @@
-// HL + Upbit 합성 (server-side fetch)
+// HL + Upbit 합성 (server-side fetch) + 정규장 종가 병합 (Naver/Yahoo)
 import { SYMBOLS, type SymbolMeta } from "./universe";
+import { fetchAllRegularCloses, type RegularClose } from "./regularClose";
 
 const HL_API = "https://api.hyperliquid.xyz/info";
 const UPBIT_API = "https://api.upbit.com/v1/ticker?markets=KRW-USDT";
@@ -23,6 +24,13 @@ export type PriceRow = SymbolMeta & {
     open_interest: number;
     day_volume_usd: number;
     funding: number;
+    /** 정규장 종가 (Naver KRW 또는 Yahoo USD) */
+    regular_close: number | null;
+    regular_close_krw: number | null;
+    regular_close_usd: number | null;
+    regular_source: "naver" | "yahoo" | null;
+    /** HL 가격 vs 정규장 종가 premium (%). 비상장/매핑 없으면 null */
+    hl_premium_pct: number | null;
   } | null;
 };
 
@@ -61,10 +69,11 @@ export async function fetchAllPrices(): Promise<{
   fx: { krw_per_usdt: number; change_24h_pct: number };
   symbols: PriceRow[];
 }> {
-  const [xyz, vntl, fx] = await Promise.all([
+  const [xyz, vntl, fx, regCloses] = await Promise.all([
     fetchHlDex("xyz"),
     fetchHlDex("vntl"),
     fetchKrwUsdt(),
+    fetchAllRegularCloses(),
   ]);
 
   const rows: PriceRow[] = SYMBOLS.map((sym) => {
@@ -78,6 +87,28 @@ export async function fetchAllPrices(): Promise<{
     const ratio = sym.share_ratio ?? null;
     const per_share_usd = ratio != null ? mark * ratio : null;
     const per_share_krw = ratio != null ? krw_price * ratio : null;
+
+    // 정규장 종가 + premium 계산
+    const rc: RegularClose | undefined = regCloses[sym.slug];
+    let regular_close_krw: number | null = null;
+    let regular_close_usd: number | null = null;
+    let hl_premium_pct: number | null = null;
+    if (rc) {
+      if (rc.currency === "KRW") {
+        regular_close_krw = rc.price;
+        regular_close_usd = fx.rate > 0 ? rc.price / fx.rate : null;
+      } else {
+        regular_close_usd = rc.price;
+        regular_close_krw = rc.price * fx.rate;
+      }
+      // HL vs 정규장 비교 — USD 기준 (환율 영향 제거)
+      // 단 ratio가 적용된 한국 주식은 per_share_usd 기준
+      const hlForCompare = per_share_usd ?? mark;
+      if (regular_close_usd && regular_close_usd > 0) {
+        hl_premium_pct = ((hlForCompare - regular_close_usd) / regular_close_usd) * 100;
+      }
+    }
+
     return {
       ...sym,
       market: {
@@ -90,6 +121,11 @@ export async function fetchAllPrices(): Promise<{
         open_interest: Number(ctx.openInterest ?? 0),
         day_volume_usd: round(Number(ctx.dayNtlVlm ?? 0), 2),
         funding: Number(ctx.funding ?? 0),
+        regular_close: rc?.price ?? null,
+        regular_close_krw: regular_close_krw != null ? round(regular_close_krw, 2) : null,
+        regular_close_usd: regular_close_usd != null ? round(regular_close_usd, 4) : null,
+        regular_source: rc?.source ?? null,
+        hl_premium_pct: hl_premium_pct != null ? round(hl_premium_pct, 2) : null,
       },
     };
   });

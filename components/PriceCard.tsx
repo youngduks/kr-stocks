@@ -3,8 +3,6 @@ import type { PriceRow } from "@/lib/fetchPrices";
 
 function formatKRW(n: number | null | undefined): string {
   if (n == null) return "—";
-  if (n >= 1_000_000) return (n / 10_000).toFixed(0) + "만";
-  if (n >= 100_000) return Math.round(n).toLocaleString("ko-KR");
   return Math.round(n).toLocaleString("ko-KR");
 }
 

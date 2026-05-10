@@ -15,10 +15,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const meta = bySlug(params.slug);
   if (!meta) return {};
   const name = meta.name_ko || meta.name_en || params.slug;
+  const url = `https://kr-stocks.com/${params.category}/${params.slug}`;
+  const desc = `${name} 실시간 24시간 가격. 정규장 휴장에도 끊김 없이 추적.${meta.is_private ? " 비상장 implied valuation 기준." : ""} Hyperliquid HIP-3 + 업비트 KRW/USDT 연동.`;
   return {
-    title: `${name} 24시간 시세 · KR Stocks`,
-    description: `${name} 실시간 24시간 가격. 정규장 휴장에도 추적. ${meta.is_private ? "비상장 implied valuation 기준." : ""}`,
-    keywords: [`${name} 24시간`, `${name} 야간 시세`, `${name} 주가`, `${name} 가격`],
+    title: `${name} 24시간 시세`,
+    description: desc,
+    keywords: [
+      `${name} 24시간`,
+      `${name} 야간 시세`,
+      `${name} 새벽 시세`,
+      `${name} 주가`,
+      `${name} 가격`,
+      `${name} 실시간`,
+      meta.is_private ? `${name} 시가총액` : `${name} 주식`,
+    ],
+    openGraph: { title: `${name} 24시간 시세`, description: desc, url, type: "website" },
+    twitter: { card: "summary_large_image", title: `${name} 24시간 시세`, description: desc },
+    alternates: { canonical: url },
   };
 }
 
@@ -36,8 +49,35 @@ export default async function SymbolPage({ params }: Props) {
   const colorClass = isUp ? "text-accent-green" : isDn ? "text-accent-red" : "text-text-muted";
   const label = CATEGORY_LABELS[row.category];
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FinancialProduct",
+    name: row.name_ko,
+    alternateName: row.name_en,
+    url: `https://kr-stocks.com/${row.category}/${row.slug}`,
+    description: `${row.name_ko} 24시간 실시간 시세 — Hyperliquid HIP-3 perp + 업비트 KRW/USDT 연동`,
+    offers: {
+      "@type": "Offer",
+      price: m.mark_px_usd,
+      priceCurrency: "USD",
+      availability: "https://schema.org/InStock",
+    },
+    ...(row.implied_valuation_usd && {
+      additionalProperty: {
+        "@type": "PropertyValue",
+        name: "Implied Valuation",
+        value: row.implied_valuation_usd,
+        unitText: "USD",
+      },
+    }),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header fxRate={data.fx.krw_per_usdt} fxChange={data.fx.change_24h_pct} />
 
       <main className="max-w-4xl mx-auto px-5 pt-6 pb-12">

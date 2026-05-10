@@ -2,15 +2,57 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "KR Stocks · 24시간 글로벌 자산 시세",
-  description: "삼성전자·SK하이닉스·현대차·테슬라·엔비디아·SpaceX·OpenAI·Anthropic 24시간 실시간 시세. 한국 야간/주말에도 끊김 없이 추적.",
-  keywords: ["야간 시세", "삼성전자 야간", "테슬라 24시간", "OpenAI 주가", "SpaceX 시가총액", "Anthropic 주가", "한국 주식 야간", "코스피 야간"],
-  openGraph: {
-    title: "KR Stocks — 24시간 글로벌 자산 시세",
-    description: "한국·미국·비상장 회사 38종목 24시간 실시간",
-    type: "website",
+  metadataBase: new URL("https://kr-stocks.com"),
+  title: {
+    default: "KR Stocks · 24시간 글로벌 자산 시세",
+    template: "%s · KR Stocks",
   },
-  robots: { index: true, follow: true },
+  description:
+    "삼성전자·SK하이닉스·현대차·테슬라·엔비디아·SpaceX·OpenAI·Anthropic 24시간 실시간 시세. 한국 야간/주말에도 끊김 없이 추적. Hyperliquid HIP-3 + 업비트 KRW/USDT 연동.",
+  keywords: [
+    "야간 시세",
+    "24시간 시세",
+    "삼성전자 야간 시세",
+    "SK하이닉스 야간 시세",
+    "현대차 야간",
+    "테슬라 24시간",
+    "엔비디아 24시간",
+    "OpenAI 주가",
+    "SpaceX 시가총액",
+    "Anthropic 주가",
+    "한국 주식 야간",
+    "코스피 야간 거래",
+    "비상장 빅테크 시세",
+    "하이퍼리퀴드 한국 주식",
+  ],
+  authors: [{ name: "KR Stocks" }],
+  category: "finance",
+  applicationName: "KR Stocks",
+  openGraph: {
+    type: "website",
+    siteName: "KR Stocks",
+    title: "KR Stocks · 24시간 글로벌 자산 시세",
+    description:
+      "한국·미국·비상장 (SpaceX/OpenAI/Anthropic) 39종목 24시간 실시간. 야간·주말 끊김 없이 추적.",
+    url: "https://kr-stocks.com",
+    locale: "ko_KR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "KR Stocks · 24시간 글로벌 자산 시세",
+    description:
+      "한국·미국·비상장 39종목 24시간 실시간. 야간·주말도 끊김 없이.",
+  },
+  alternates: {
+    canonical: "https://kr-stocks.com",
+    languages: { "ko-KR": "https://kr-stocks.com" },
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large" },
+  },
+  // verification: { google: "...", other: { "naver-site-verification": "..." } },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

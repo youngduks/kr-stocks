@@ -105,7 +105,14 @@ export async function fetchAllPrices(): Promise<{
       // 단 ratio가 적용된 한국 주식은 per_share_usd 기준
       const hlForCompare = per_share_usd ?? mark;
       if (regular_close_usd && regular_close_usd > 0) {
-        hl_premium_pct = ((hlForCompare - regular_close_usd) / regular_close_usd) * 100;
+        const raw = ((hlForCompare - regular_close_usd) / regular_close_usd) * 100;
+        // Sanity guard: |premium| > 50%면 데이터 신뢰 불가 (잘못된 fetch 가능성) → null
+        if (Math.abs(raw) <= 50) {
+          hl_premium_pct = raw;
+        } else {
+          regular_close_krw = null;
+          regular_close_usd = null;
+        }
       }
     }
 

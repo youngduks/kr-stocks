@@ -12,7 +12,7 @@ const MAPPING: Record<string, RegularSource> = {
   hynix: { source: "naver", code: "000660" },
   hyundai: { source: "naver", code: "005380" },
   // 한국 지수/ETF
-  kospi200: { source: "yahoo", symbol: "^KS200" },
+  kospi200: null, // Yahoo ^KS200 신뢰 불가 — 별도 source 찾을 때까지 보류
   ewy: { source: "yahoo", symbol: "EWY" },
   krw: null, // 환율 자체
 

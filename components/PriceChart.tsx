@@ -1,7 +1,15 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
-import { createChart, ColorType, type IChartApi, type ISeriesApi, type CandlestickData, type Time, LineStyle } from "lightweight-charts";
+import { useEffect, useMemo, useRef, useState } from "react";
+import {
+  createChart,
+  ColorType,
+  LineStyle,
+  type IChartApi,
+  type ISeriesApi,
+  type AreaData,
+  type Time,
+} from "lightweight-charts";
 import type { Candle } from "@/lib/fetchCandles";
 
 type Range = "1D" | "7D" | "1M";
@@ -19,6 +27,23 @@ export type PriceChartProps = {
   isKR: boolean;
   /** 표시 라벨 (예: "삼성전자") */
   name: string;
+};
+
+const COLOR = {
+  green: "#1FAE6F", // accent-green — 상승
+  blue: "#3182F6", // accent-blue — 하락
+  amber: "#F4A623", // 정규장 종가 점선
+  textMuted: "#8B95A1",
+  textDim: "#5C6370",
+  bg: "#15181D", // bg
+  bgCard: "#1F232B", // bg-card
+  grid: "rgba(139, 149, 161, 0.05)", // 거의 안 보이는 그리드
+};
+
+const RANGE_LABEL: Record<Range, string> = {
+  "1D": "24시간",
+  "7D": "7일",
+  "1M": "1개월",
 };
 
 function applyFx(bars: Candle[], fx: number): Candle[] {
@@ -51,7 +76,6 @@ function kstTickFormatter(time: number, tickMarkType: number): string {
   return f({ month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" });
 }
 
-/** crosshair 마우스/터치 hover 라벨 (한 봉 짚었을 때 우상단/툴팁 시간) */
 function kstCrosshairFormatter(time: number): string {
   const d = new Date(time * 1000);
   return (
@@ -69,21 +93,37 @@ function kstCrosshairFormatter(time: number): string {
 export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, fxRate, isKR, name }: PriceChartProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const chartRef = useRef<IChartApi | null>(null);
-  const seriesRef = useRef<ISeriesApi<"Candlestick"> | null>(null);
+  const seriesRef = useRef<ISeriesApi<"Area"> | null>(null);
   const [range, setRange] = useState<Range>("7D");
 
-  // KRW 차트로 변환 (한국 종목만)
-  const display1H = isKR ? applyFx(bars1H, fxRate) : bars1H;
-  const display4H = isKR ? applyFx(bars4H, fxRate) : bars4H;
+  const display1H = useMemo(() => (isKR ? applyFx(bars1H, fxRate) : bars1H), [bars1H, isKR, fxRate]);
+  const display4H = useMemo(() => (isKR ? applyFx(bars4H, fxRate) : bars4H), [bars4H, isKR, fxRate]);
 
-  // 토글별 데이터 slice
   const getDisplayBars = (r: Range): Candle[] => {
     if (r === "1M") return display4H;
-    if (r === "1D") return display1H.slice(-24); // 마지막 24개 (1시간 봉)
-    return display1H; // 7D
+    if (r === "1D") return display1H.slice(-24);
+    return display1H;
   };
 
-  // 정규장 종가 overlay 값
+  // range 기간 추세 (시작 close → 끝 close)
+  const periodMeta = useMemo(() => {
+    const bars = getDisplayBars(range);
+    if (bars.length < 2) {
+      return { changePct: 0, isUp: true, lineColor: COLOR.green, topColor: "rgba(31, 174, 111, 0.28)" };
+    }
+    const start = bars[0].close;
+    const end = bars[bars.length - 1].close;
+    const changePct = start > 0 ? ((end - start) / start) * 100 : 0;
+    const isUp = changePct >= 0;
+    return {
+      changePct,
+      isUp,
+      lineColor: isUp ? COLOR.green : COLOR.blue,
+      topColor: isUp ? "rgba(31, 174, 111, 0.28)" : "rgba(49, 130, 246, 0.28)",
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [range, display1H, display4H]);
+
   const regularClose = isKR ? regularCloseKrw : regularCloseUsd;
 
   useEffect(() => {
@@ -93,26 +133,38 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, f
       autoSize: true,
       layout: {
         background: { type: ColorType.Solid, color: "transparent" },
-        textColor: "#9ca3af",
-        fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+        textColor: COLOR.textMuted,
+        fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+        fontSize: 11,
       },
       grid: {
-        vertLines: { color: "rgba(148, 163, 184, 0.06)" },
-        horzLines: { color: "rgba(148, 163, 184, 0.06)" },
+        vertLines: { visible: false },
+        horzLines: { color: COLOR.grid },
       },
       timeScale: {
         timeVisible: true,
         secondsVisible: false,
-        borderColor: "rgba(148, 163, 184, 0.15)",
+        borderVisible: false,
         // KST (UTC+9) — 한국 retail 직관 일치
         tickMarkFormatter: ((time: Time, tickMarkType: number) =>
           kstTickFormatter(time as number, tickMarkType)) as any,
       },
       rightPriceScale: {
-        borderColor: "rgba(148, 163, 184, 0.15)",
+        borderVisible: false,
+        scaleMargins: { top: 0.15, bottom: 0.08 },
       },
       crosshair: {
-        mode: 1, // Magnet
+        mode: 1, // Magnet — 마우스 위치 가까운 봉으로 snap
+        vertLine: {
+          color: "rgba(139, 149, 161, 0.35)",
+          width: 1,
+          style: LineStyle.Dotted,
+          labelBackgroundColor: COLOR.bgCard,
+        },
+        horzLine: {
+          visible: false,
+          labelVisible: false,
+        },
       },
       handleScroll: { mouseWheel: true, pressedMouseMove: true, horzTouchDrag: true, vertTouchDrag: false },
       handleScale: { mouseWheel: true, pinch: true, axisPressedMouseMove: true },
@@ -123,13 +175,17 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, f
       },
     });
 
-    const series = chart.addCandlestickSeries({
-      upColor: "#10b981",      // accent-green (상승)
-      downColor: "#3b82f6",    // accent-blue (하락)
-      wickUpColor: "#10b981",
-      wickDownColor: "#3b82f6",
-      borderUpColor: "#10b981",
-      borderDownColor: "#3b82f6",
+    const series = chart.addAreaSeries({
+      lineColor: periodMeta.lineColor,
+      topColor: periodMeta.topColor,
+      bottomColor: periodMeta.lineColor + "00", // 투명
+      lineWidth: 2,
+      crosshairMarkerVisible: true,
+      crosshairMarkerRadius: 5,
+      crosshairMarkerBorderColor: periodMeta.lineColor,
+      crosshairMarkerBackgroundColor: COLOR.bg,
+      priceLineVisible: false,
+      lastValueVisible: true,
       priceFormat: {
         type: "custom",
         formatter: (p: number) => formatPrice(p, isKR),
@@ -140,28 +196,26 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, f
     chartRef.current = chart;
     seriesRef.current = series;
 
-    const initial = getDisplayBars(range);
-    series.setData(initial as CandlestickData<Time>[]);
+    const bars = getDisplayBars(range);
+    series.setData(
+      bars.map((b) => ({ time: b.time as Time, value: b.close })) as AreaData<Time>[]
+    );
 
-    // 정규장 종가 horizontal line overlay
+    // 정규장 종가 horizontal line (amber 점선) — 사이트 USP
     if (regularClose != null && regularClose > 0) {
       series.createPriceLine({
         price: regularClose,
-        color: "#f59e0b", // amber (한국 retail에게 익숙한 "기준선" 색)
+        color: COLOR.amber,
         lineWidth: 2,
         lineStyle: LineStyle.Dashed,
         axisLabelVisible: true,
-        title: isKR ? "정규장 종가" : "정규장",
+        title: "정규장",
       });
     }
 
     chart.timeScale().fitContent();
 
-    const onResize = () => chart.applyOptions({ autoSize: true });
-    window.addEventListener("resize", onResize);
-
     return () => {
-      window.removeEventListener("resize", onResize);
       chart.remove();
       chartRef.current = null;
       seriesRef.current = null;
@@ -169,37 +223,57 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, f
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // range 변경 시 데이터만 교체 (차트 재생성 X)
+  // range 변경 시 데이터 + 색상 동시 교체 (추세 따라 line/area 색 자동 전환)
   useEffect(() => {
     if (!seriesRef.current || !chartRef.current) return;
-    seriesRef.current.setData(getDisplayBars(range) as CandlestickData<Time>[]);
+    const bars = getDisplayBars(range);
+    seriesRef.current.setData(
+      bars.map((b) => ({ time: b.time as Time, value: b.close })) as AreaData<Time>[]
+    );
+    seriesRef.current.applyOptions({
+      lineColor: periodMeta.lineColor,
+      topColor: periodMeta.topColor,
+      bottomColor: periodMeta.lineColor + "00",
+      crosshairMarkerBorderColor: periodMeta.lineColor,
+    });
     chartRef.current.timeScale().fitContent();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [range]);
+  }, [range, periodMeta.lineColor, periodMeta.topColor]);
 
-  // 데이터 자체가 비어있는 경우 fallback
   const hasData = bars1H.length > 0 || bars4H.length > 0;
   if (!hasData) {
     return (
-      <div className="rounded-2xl bg-bg-card border border-line p-6 text-center">
+      <div className="rounded-3xl bg-bg-card border border-line/40 p-6 text-center">
         <div className="text-sm text-text-dim">차트 데이터를 불러올 수 없습니다.</div>
       </div>
     );
   }
 
+  const trendColorClass = periodMeta.isUp ? "text-accent-green" : "text-accent-blue";
+  const trendArrow = periodMeta.isUp ? "▲" : "▼";
+
   return (
-    <div className="rounded-2xl bg-bg-card border border-line p-4 md:p-5">
-      <div className="flex items-center justify-between mb-3">
-        <div className="text-sm font-semibold text-text-muted">{name} · 가격 차트</div>
-        <div className="flex gap-1 text-xs">
+    <div className="rounded-3xl bg-gradient-to-b from-bg-card to-bg-card/60 border border-line/40 p-5 md:p-6">
+      {/* 헤더: 기간 추세 + pill 토글 */}
+      <div className="flex items-center justify-between mb-4">
+        <div className="flex items-baseline gap-2 min-w-0">
+          <div className="text-[10px] text-text-dim font-semibold tracking-[0.12em] uppercase">
+            {RANGE_LABEL[range]} 추세
+          </div>
+          <div className={`text-sm font-bold tabular ${trendColorClass}`}>
+            {trendArrow} {periodMeta.isUp ? "+" : ""}
+            {periodMeta.changePct.toFixed(2)}%
+          </div>
+        </div>
+        <div className="inline-flex bg-bg-hover/60 rounded-full p-0.5 shrink-0">
           {(["1D", "7D", "1M"] as Range[]).map((r) => (
             <button
               key={r}
               onClick={() => setRange(r)}
-              className={`px-2.5 py-1 rounded-md font-semibold transition ${
+              className={`px-3 py-1 rounded-full text-[11px] font-bold transition-all ${
                 range === r
-                  ? "bg-accent-blue/15 text-accent-blue"
-                  : "bg-bg-hover/50 text-text-dim hover:text-text-muted"
+                  ? "bg-text text-bg shadow-sm"
+                  : "text-text-dim hover:text-text-muted"
               }`}
             >
               {r}
@@ -207,11 +281,17 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, f
           ))}
         </div>
       </div>
-      <div ref={containerRef} className="w-full h-[240px] md:h-[320px]" />
+
+      {/* 차트 본체 */}
+      <div ref={containerRef} className="w-full h-[260px] md:h-[340px]" />
+
+      {/* 정규장 종가 범례 (있을 때만) */}
       {regularClose != null && (
-        <div className="mt-2 text-[11px] text-text-dim leading-relaxed">
-          <span className="inline-block w-3 h-[2px] bg-accent-amber mr-1.5 align-middle" /> 점선 = {isKR ? "한국" : "미국"} 정규장 종가 (
-          {formatPrice(regularClose, isKR)})
+        <div className="mt-3 flex items-center gap-2 text-[11px] text-text-dim">
+          <span className="inline-block w-4 h-[2px] bg-accent-amber" style={{ borderTop: "2px dashed" }} />
+          <span>
+            점선 = {isKR ? "한국" : "미국"} 정규장 종가 · {formatPrice(regularClose, isKR)}
+          </span>
         </div>
       )}
     </div>

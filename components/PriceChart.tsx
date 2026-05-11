@@ -38,6 +38,34 @@ function formatPrice(n: number, isKR: boolean): string {
   return "$" + n.toFixed(4);
 }
 
+/** unix seconds → KST 시간축 라벨. tickMarkType: 0=Year, 1=Month, 2=DayOfMonth, 3=Time, 4=TimeWithSeconds */
+function kstTickFormatter(time: number, tickMarkType: number): string {
+  const d = new Date(time * 1000);
+  const f = (opts: Intl.DateTimeFormatOptions) =>
+    new Intl.DateTimeFormat("ko-KR", { timeZone: "Asia/Seoul", hour12: false, ...opts }).format(d);
+  if (tickMarkType === 0) return f({ year: "numeric" });
+  if (tickMarkType === 1) return f({ month: "short" });
+  if (tickMarkType === 2) return f({ month: "numeric", day: "numeric" });
+  if (tickMarkType === 3) return f({ hour: "2-digit", minute: "2-digit" });
+  if (tickMarkType === 4) return f({ hour: "2-digit", minute: "2-digit", second: "2-digit" });
+  return f({ month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" });
+}
+
+/** crosshair 마우스/터치 hover 라벨 (한 봉 짚었을 때 우상단/툴팁 시간) */
+function kstCrosshairFormatter(time: number): string {
+  const d = new Date(time * 1000);
+  return (
+    new Intl.DateTimeFormat("ko-KR", {
+      timeZone: "Asia/Seoul",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+    }).format(d) + " KST"
+  );
+}
+
 export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, fxRate, isKR, name }: PriceChartProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const chartRef = useRef<IChartApi | null>(null);
@@ -76,6 +104,9 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, f
         timeVisible: true,
         secondsVisible: false,
         borderColor: "rgba(148, 163, 184, 0.15)",
+        // KST (UTC+9) — 한국 retail 직관 일치
+        tickMarkFormatter: ((time: Time, tickMarkType: number) =>
+          kstTickFormatter(time as number, tickMarkType)) as any,
       },
       rightPriceScale: {
         borderColor: "rgba(148, 163, 184, 0.15)",
@@ -86,7 +117,9 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, f
       handleScroll: { mouseWheel: true, pressedMouseMove: true, horzTouchDrag: true, vertTouchDrag: false },
       handleScale: { mouseWheel: true, pinch: true, axisPressedMouseMove: true },
       localization: {
+        locale: "ko-KR",
         priceFormatter: (p: number) => formatPrice(p, isKR),
+        timeFormatter: ((time: Time) => kstCrosshairFormatter(time as number)) as any,
       },
     });
 

@@ -1,10 +1,22 @@
 import { fetchAllPrices } from "@/lib/fetchPrices";
+import { fetchCandleSet } from "@/lib/fetchCandles";
 import { bySlug, CATEGORY_LABELS } from "@/lib/universe";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import nextDynamic from "next/dynamic";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
+
+// lightweight-charts는 window 의존 → SSR 비활성 + 클라이언트만 렌더
+const PriceChart = nextDynamic(() => import("@/components/PriceChart").then((m) => m.PriceChart), {
+  ssr: false,
+  loading: () => (
+    <div className="rounded-2xl bg-bg-card border border-line p-6 text-center text-sm text-text-dim">
+      차트 로딩 중…
+    </div>
+  ),
+});
 
 export const revalidate = 30;
 export const dynamic = "force-dynamic";
@@ -41,7 +53,11 @@ export default async function SymbolPage({ params }: Props) {
   const meta = bySlug(params.slug);
   if (!meta || meta.category !== params.category) notFound();
 
-  const data = await fetchAllPrices();
+  // 가격 + 캔들 병렬 fetch (환율 종목은 차트 skip → 빈 set)
+  const candlesPromise = meta.is_fx
+    ? Promise.resolve({ bars1H: [], bars4H: [] })
+    : fetchCandleSet(meta.ticker);
+  const [data, candles] = await Promise.all([fetchAllPrices(), candlesPromise]);
   const row = data.symbols.find((r) => r.slug === params.slug);
   if (!row || !row.market) notFound();
 
@@ -194,6 +210,20 @@ export default async function SymbolPage({ params }: Props) {
               {" · "}
               {m.regular_source === "naver" ? "출처: 네이버 금융" : "출처: Yahoo Finance"}
             </div>
+          </section>
+        )}
+
+        {!row.is_fx && (candles.bars1H.length > 0 || candles.bars4H.length > 0) && (
+          <section className="mb-6">
+            <PriceChart
+              bars1H={candles.bars1H}
+              bars4H={candles.bars4H}
+              regularCloseUsd={m.regular_close_usd}
+              regularCloseKrw={m.regular_close_krw}
+              fxRate={data.fx.krw_per_usdt}
+              isKR={row.category === "korea"}
+              name={row.name_ko || row.name_en || row.slug}
+            />
           </section>
         )}
 

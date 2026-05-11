@@ -152,9 +152,7 @@ export default async function SymbolPage({ params }: Props) {
         {m.hl_premium_pct != null && m.regular_close_krw != null && (
           <section className="mb-6 p-5 rounded-2xl bg-accent-blue/5 border border-accent-blue/20">
             <div className="text-xs text-text-dim mb-3">
-              {row.category === "korea"
-                ? "한국 종가 대비 갭상승률 (야간/주말)"
-                : "정규장 종가 대비 HL premium (야간/주말 가격 압력)"}
+              정규장 종가 대비 HL premium (야간/주말 가격 압력)
             </div>
             <div className="flex items-end justify-between gap-4 flex-wrap">
               <div>
@@ -180,7 +178,7 @@ export default async function SymbolPage({ params }: Props) {
               </div>
               <div className="text-right">
                 <div className="text-xs text-text-dim mb-1">
-                  {row.category === "korea" ? "갭상승률" : "HL premium"}
+                  HL premium
                 </div>
                 <div className={`${row.category === "korea" ? "text-4xl md:text-5xl" : "text-3xl"} font-bold tabular ${m.hl_premium_pct > 0 ? "text-accent-green" : m.hl_premium_pct < 0 ? "text-accent-blue" : "text-text-muted"}`}>
                   {m.hl_premium_pct > 0 ? "▲ +" : m.hl_premium_pct < 0 ? "▼ " : ""}{m.hl_premium_pct.toFixed(2)}%

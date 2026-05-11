@@ -8,6 +8,7 @@ export const revalidate = 3600;
 
 // 운영자 referral link (사용자 가격 부담 없음, 거래 수수료 일부가 사이트 운영비로)
 const BINANCE_REF = "https://www.binance.com/register?ref=TROLLMANN";
+const BYBIT_REF = "https://www.bybit.com/invite?ref=OKWEGE";
 
 export const metadata: Metadata = {
   title: "한국에서 Hyperliquid 거래하는 법 — 비상장 빅테크 24h 가이드",
@@ -23,6 +24,8 @@ export const metadata: Metadata = {
     "Anthropic 주가 거래",
     "HIP-3 한국 거래",
     "Binance USDT 충전",
+    "Bybit USDT 충전",
+    "Bybit 한국 가입",
     "한국에서 비상장 perp 거래",
     "삼성전자 야간 거래",
   ],
@@ -80,19 +83,30 @@ export default async function HyperliquidOnrampGuide() {
             <div className="space-y-4">
               <div className="p-4 rounded-xl bg-bg-card border border-line">
                 <div className="text-xs text-accent-blue font-semibold mb-1 tracking-wider">STEP 1</div>
-                <h3 className="font-bold text-base mb-2">USDT 확보 (Binance)</h3>
+                <h3 className="font-bold text-base mb-2">USDT 확보 (Binance 또는 Bybit)</h3>
                 <p className="text-sm text-text-muted leading-relaxed mb-3">
-                  HL 은 USDT denominated 거래소입니다. 가장 일반적인 길은 Binance 에서
-                  KRW 또는 BTC → USDT 매수 후 사용. Binance 한국인 가입 가능, KYC 5분 정도.
+                  HL 은 USDT denominated 거래소입니다. Binance 또는 Bybit 에서
+                  KRW 또는 BTC → USDT 매수 후 사용. 두 거래소 모두 한국인 가입 가능, KYC 5분 정도.
+                  수수료·UI 취향에 따라 선택.
                 </p>
-                <a
-                  href={BINANCE_REF}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block px-4 py-2 rounded-lg bg-accent-blue/10 text-accent-blue hover:bg-accent-blue/20 text-sm font-semibold transition"
-                >
-                  Binance 가입하기 →
-                </a>
+                <div className="flex flex-wrap gap-2">
+                  <a
+                    href={BINANCE_REF}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-4 py-2 rounded-lg bg-accent-amber/10 text-accent-amber hover:bg-accent-amber/20 text-sm font-semibold transition"
+                  >
+                    Binance 가입하기 →
+                  </a>
+                  <a
+                    href={BYBIT_REF}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-4 py-2 rounded-lg bg-accent-blue/10 text-accent-blue hover:bg-accent-blue/20 text-sm font-semibold transition"
+                  >
+                    Bybit 가입하기 →
+                  </a>
+                </div>
                 <p className="text-[10px] text-text-dim mt-2 leading-relaxed">
                   ※ 위 링크는 운영자 referral 입니다. 사용자 가격 부담은 없으며,
                   거래 수수료의 일부가 kr-stocks.com 운영비로 사용됩니다.
@@ -124,8 +138,8 @@ export default async function HyperliquidOnrampGuide() {
                 <h3 className="font-bold text-base mb-2">USDT 입금 (Bridge)</h3>
                 <p className="text-sm text-text-muted leading-relaxed">
                   HL 사이트에서 "Deposit" 클릭 → 표시되는 Arbitrum 주소 복사 →
-                  Binance 에서 Arbitrum One network 로 USDT 출금. 5~10분 안에 HL 잔액 반영.
-                  최소 입금 5 USDT 권장 (수수료 절감).
+                  Binance / Bybit 에서 <span className="font-mono text-text">Arbitrum One</span> network 로 USDT 출금.
+                  5~10분 안에 HL 잔액 반영. 최소 입금 5 USDT 권장 (수수료 절감).
                 </p>
               </div>
 

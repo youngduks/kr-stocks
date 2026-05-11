@@ -7,7 +7,7 @@
       "hl_vntl": "https://api.hyperliquid.xyz/info {type:metaAndAssetCtxs, dex:vntl}",
       "krw_rate": "https://api.upbit.com/v1/ticker?markets=KRW-USDT"
     },
-    "total_symbols": 38,
+    "total_symbols": 37,
     "categories": [
       "korea",
       "us",
@@ -53,26 +53,6 @@
       "regular_market": "KOSPI",
       "krx_code": "005380",
       "note": "HL contract = ~2.5주 묶음"
-    },
-    {
-      "slug": "kospi200",
-      "ticker": "xyz:KR200",
-      "dex": "xyz",
-      "name_ko": "코스피200",
-      "name_en": "KOSPI 200 Index",
-      "category": "korea",
-      "tier": 1,
-      "is_index": true
-    },
-    {
-      "slug": "ewy",
-      "ticker": "xyz:EWY",
-      "dex": "xyz",
-      "name_ko": "한국 ETF (EWY)",
-      "name_en": "iShares MSCI South Korea ETF",
-      "category": "korea",
-      "tier": 1,
-      "is_etf": true
     },
     {
       "slug": "krw",

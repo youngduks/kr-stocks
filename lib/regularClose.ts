@@ -11,10 +11,9 @@ const MAPPING: Record<string, RegularSource> = {
   samsung: { source: "naver", code: "005930" },
   hynix: { source: "naver", code: "000660" },
   hyundai: { source: "naver", code: "005380" },
-  // 한국 지수/ETF
-  kospi200: null, // Yahoo ^KS200 신뢰 불가 — 별도 source 찾을 때까지 보류
-  ewy: { source: "yahoo", symbol: "EWY" },
+  // 환율
   krw: null, // 환율 자체
+  // (kospi200, ewy 제거 — HL 단위 매핑이 KRW로 보여 retail 혼동, 2026-05-11)
 
   // 미국 mega cap (Yahoo)
   tesla: { source: "yahoo", symbol: "TSLA" },

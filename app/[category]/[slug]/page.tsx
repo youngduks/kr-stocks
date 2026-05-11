@@ -107,6 +107,13 @@ export default async function SymbolPage({ params }: Props) {
                 {row.share_ratio != null && row.share_ratio !== 1.0 ? ` · 1주 환산 (HL contract = ${(1/row.share_ratio).toFixed(1)}주 묶음)` : ""}
               </div>
             </>
+          ) : row.is_index ? (
+            <>
+              <div className="text-4xl md:text-5xl font-bold tabular text-text mb-1">
+                {m.mark_px_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+              </div>
+              <div className="text-sm text-text-muted tabular">지수 (포인트)</div>
+            </>
           ) : row.is_private ? (
             <>
               <div className="text-4xl md:text-5xl font-bold tabular text-text mb-1">${m.mark_px_usd.toFixed(2)}</div>
@@ -133,7 +140,12 @@ export default async function SymbolPage({ params }: Props) {
               <div>
                 <div className="text-xs text-text-dim mb-1">정규장 종가</div>
                 <div className="text-xl font-semibold tabular text-text">
-                  {row.category === "korea" ? (
+                  {row.is_index ? (
+                    <>
+                      {(m.regular_close_usd ?? 0).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                      <span className="text-xs text-text-dim ml-2">(지수)</span>
+                    </>
+                  ) : row.category === "korea" ? (
                     <>
                       ₩{Math.round(m.regular_close_krw).toLocaleString("ko-KR")}
                       {m.regular_close_usd && <span className="text-xs text-text-dim ml-2">(${m.regular_close_usd.toFixed(2)})</span>}
@@ -162,17 +174,29 @@ export default async function SymbolPage({ params }: Props) {
         )}
 
         <section className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
-          <Stat label="HL Mark Price" value={`$${m.mark_px_usd.toFixed(2)}`} />
-          <Stat label="전일 종가" value={`$${m.prev_day_px_usd.toFixed(2)}`} />
+          <Stat
+            label={row.is_index ? "HL Mark (지수)" : "HL Mark Price"}
+            value={row.is_index
+              ? m.mark_px_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+              : `$${m.mark_px_usd.toFixed(2)}`}
+          />
+          <Stat
+            label="전일 종가"
+            value={row.is_index
+              ? m.prev_day_px_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+              : `$${m.prev_day_px_usd.toFixed(2)}`}
+          />
           <Stat label="24h 거래대금" value={fmtVol(m.day_volume_usd)} />
           <Stat label="Open Interest" value={fmtNum(m.open_interest)} />
           <Stat label="Funding Rate" value={`${(m.funding * 100).toFixed(4)}%`} />
           {m.regular_close_krw != null && (
             <Stat
               label="정규장 종가"
-              value={row.category === "korea"
-                ? `₩${Math.round(m.regular_close_krw).toLocaleString("ko-KR")}`
-                : `$${m.regular_close_usd?.toFixed(2) ?? "—"}`}
+              value={row.is_index
+                ? (m.regular_close_usd ?? 0).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+                : row.category === "korea"
+                  ? `₩${Math.round(m.regular_close_krw).toLocaleString("ko-KR")}`
+                  : `$${m.regular_close_usd?.toFixed(2) ?? "—"}`}
             />
           )}
           {row.implied_valuation_usd && <Stat label="추정 valuation" value={fmtBig(row.implied_valuation_usd)} />}

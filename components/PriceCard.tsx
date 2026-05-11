@@ -13,6 +13,12 @@ function formatUSD(n: number | null | undefined): string {
   return n.toFixed(4);
 }
 
+function formatIndex(n: number | null | undefined): string {
+  // 지수: $ 없이 숫자만, comma 포맷 (예: 7,387.60)
+  if (n == null) return "—";
+  return n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
 export function PriceCard({ row }: { row: PriceRow }) {
   const m = row.market;
   const chg = m?.change_24h_pct ?? 0;
@@ -26,10 +32,16 @@ export function PriceCard({ row }: { row: PriceRow }) {
   const displayUSD = m?.per_share_usd ?? m?.mark_px_usd ?? null;
   const showSharePrefix = m?.per_share_krw != null && row.share_ratio !== 1.0;
 
-  // 메인 통화: 한국 주식만 KRW 메인, 그 외 USD 메인
+  // 메인 통화: 한국 주식만 KRW 메인, 지수는 단위 없는 숫자, 그 외 USD 메인
   const isKR = cat === "korea";
-  const mainPrice = isKR ? `₩${formatKRW(displayKRW)}` : `$${formatUSD(displayUSD)}`;
-  const subPrice = row.is_fx
+  const isIndex = row.is_index === true;
+  const mainPrice = isIndex
+    ? formatIndex(displayUSD) // 지수: 7,387.60 같이 단위 없는 숫자
+    : isKR
+      ? `₩${formatKRW(displayKRW)}`
+      : `$${formatUSD(displayUSD)}`;
+  // 보조: 환율·지수는 의미 없으므로 null
+  const subPrice = (row.is_fx || isIndex)
     ? null
     : isKR
       ? (displayUSD != null ? `≈ $${formatUSD(displayUSD)}` : null)

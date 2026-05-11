@@ -8,13 +8,17 @@ const KEY_TOTAL = "kr-stocks:visits:total";
 const KEY_ONLINE = "kr-stocks:online"; // ZSET (member=sessionId, score=timestamp ms)
 const ONLINE_WINDOW_MS = 5 * 60 * 1000; // 5분 active session
 
+// URL fallback (Vercel env에 URL 누락 시 사용 — public endpoint라 노출 OK).
+// TOKEN은 반드시 env로 (secret).
+const FALLBACK_URL = "https://frank-liger-120993.upstash.io";
+
 let _redis: Redis | null = null;
 function redis(): Redis | null {
   if (_redis) return _redis;
-  if (!process.env.UPSTASH_REDIS_REST_URL || !process.env.UPSTASH_REDIS_REST_TOKEN) {
-    return null;
-  }
-  _redis = Redis.fromEnv();
+  const url = process.env.UPSTASH_REDIS_REST_URL || FALLBACK_URL;
+  const token = process.env.UPSTASH_REDIS_REST_TOKEN;
+  if (!url || !token) return null;
+  _redis = new Redis({ url, token });
   return _redis;
 }
 

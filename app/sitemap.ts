@@ -25,5 +25,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       : 0.5,
   }));
 
-  return [home, ...symbolPages];
+  const guides: MetadataRoute.Sitemap = [
+    {
+      url: `${base}/guide/hyperliquid-onramp`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+  ];
+
+  return [home, ...symbolPages, ...guides];
 }

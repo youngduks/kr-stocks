@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Footer() {
   return (
     <footer className="border-t border-line mt-12">
@@ -7,6 +9,16 @@ export function Footer() {
           <li>• 가격: <a href="https://hyperliquid.xyz" className="text-accent-blue hover:underline" target="_blank" rel="noopener">Hyperliquid HIP-3 (xyz, vntl) DEX perp</a></li>
           <li>• KRW 환율: <a href="https://upbit.com" className="text-accent-blue hover:underline" target="_blank" rel="noopener">Upbit KRW/USDT spot</a></li>
           <li>• 업데이트 주기: 30초</li>
+        </ul>
+
+        <div className="mb-3 text-text-muted font-semibold">가이드</div>
+        <ul className="space-y-1 mb-6">
+          <li>
+            • <Link href="/guide/hyperliquid-onramp" className="text-accent-blue hover:underline">
+                한국에서 Hyperliquid 거래하는 법
+              </Link>
+            {" "}— 비상장 빅테크 + 한국주식 야간 perp 단계별 안내
+          </li>
         </ul>
 
         <div className="mb-3 text-text-muted font-semibold">광고 · 제휴 문의</div>

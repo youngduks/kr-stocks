@@ -73,10 +73,12 @@ export function PriceCard({ row }: { row: PriceRow }) {
         </div>
 
         {m?.hl_premium_pct != null && (
-          <div className="mt-2 pt-2 border-t border-line/60 flex items-center justify-between text-xs tabular">
-            <span className="text-text-dim">vs 정규장</span>
-            <span className={`font-semibold ${m.hl_premium_pct > 0 ? "text-accent-blue" : m.hl_premium_pct < 0 ? "text-accent-red" : "text-text-muted"}`}>
-              {m.hl_premium_pct > 0 ? "+" : ""}{m.hl_premium_pct.toFixed(1)}%
+          <div className={`mt-2 pt-2 border-t border-line/60 flex items-center justify-between tabular ${isKR ? "text-sm" : "text-xs"}`}>
+            <span className="text-text-dim">
+              {isKR ? "한국 종가 대비" : "vs 정규장"}
+            </span>
+            <span className={`${isKR ? "text-base font-bold" : "font-semibold"} ${m.hl_premium_pct > 0 ? "text-accent-blue" : m.hl_premium_pct < 0 ? "text-accent-red" : "text-text-muted"}`}>
+              {m.hl_premium_pct > 0 ? "▲ +" : m.hl_premium_pct < 0 ? "▼ " : ""}{m.hl_premium_pct.toFixed(2)}%
             </span>
           </div>
         )}

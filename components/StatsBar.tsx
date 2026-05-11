@@ -67,16 +67,22 @@ export function StatsBar() {
   if (!stats || (stats.online === 0 && stats.total === 0)) return null;
 
   return (
-    <div className="flex items-center gap-2 text-[11px] text-text-dim tabular">
-      <span className="flex items-center gap-1">
-        <span className="inline-block w-2 h-2 rounded-full bg-accent-green animate-pulse"></span>
-        <span className="font-semibold text-accent-green">{fmt(stats.online)}</span>
-        <span className="hidden sm:inline">online</span>
+    <div className="flex items-center gap-2 text-[11px] tabular leading-tight">
+      <span className="flex flex-col items-end">
+        <span className="text-[9px] text-text-dim flex items-center gap-1">
+          <span className="inline-block w-1.5 h-1.5 rounded-full bg-accent-green animate-pulse"></span>
+          지금 접속
+        </span>
+        <span className="font-bold text-accent-green text-xs">
+          {fmt(stats.online)}<span className="text-[9px] text-text-dim font-normal ml-0.5">명</span>
+        </span>
       </span>
-      <span className="text-line">·</span>
-      <span className="flex items-center gap-1">
-        <span className="font-semibold text-text-muted">{fmt(stats.total)}</span>
-        <span className="hidden sm:inline">누적</span>
+      <span className="text-line text-base">·</span>
+      <span className="flex flex-col items-end">
+        <span className="text-[9px] text-text-dim">누적 접속</span>
+        <span className="font-bold text-text-muted text-xs">
+          {fmt(stats.total)}<span className="text-[9px] text-text-dim font-normal ml-0.5">명</span>
+        </span>
       </span>
     </div>
   );

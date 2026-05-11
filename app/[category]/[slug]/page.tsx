@@ -169,11 +169,21 @@ export default async function SymbolPage({ params }: Props) {
                 <div className={`${row.category === "korea" ? "text-4xl md:text-5xl" : "text-3xl"} font-bold tabular ${m.hl_premium_pct > 0 ? "text-accent-green" : m.hl_premium_pct < 0 ? "text-accent-blue" : "text-text-muted"}`}>
                   {m.hl_premium_pct > 0 ? "▲ +" : m.hl_premium_pct < 0 ? "▼ " : ""}{m.hl_premium_pct.toFixed(2)}%
                 </div>
-                {row.category === "korea" && (() => {
-                  const gap = Math.round((m.per_share_krw ?? m.krw_price) - m.regular_close_krw);
+                {(() => {
+                  // 갭 절댓값 — 한국 ₩, 미국 $
+                  let gap = 0;
+                  let gapText: string | null = null;
+                  if (row.category === "korea") {
+                    gap = Math.round((m.per_share_krw ?? m.krw_price) - m.regular_close_krw);
+                    gapText = `${gap > 0 ? "+" : gap < 0 ? "−" : ""}₩${Math.abs(gap).toLocaleString("ko-KR")}`;
+                  } else if (row.category === "us" && m.regular_close_usd != null) {
+                    gap = m.mark_px_usd - m.regular_close_usd;
+                    gapText = `${gap > 0 ? "+" : gap < 0 ? "−" : ""}$${Math.abs(gap).toFixed(2)}`;
+                  }
+                  if (gapText == null) return null;
                   return (
                     <div className={`text-sm font-semibold tabular mt-1 ${gap > 0 ? "text-accent-green" : gap < 0 ? "text-accent-blue" : "text-text-muted"}`}>
-                      {gap > 0 ? "+" : gap < 0 ? "−" : ""}₩{Math.abs(gap).toLocaleString("ko-KR")}
+                      {gapText}
                     </div>
                   );
                 })()}

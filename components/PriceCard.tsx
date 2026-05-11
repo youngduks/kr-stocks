@@ -73,9 +73,16 @@ export function PriceCard({ row }: { row: PriceRow }) {
         </div>
 
         {m?.hl_premium_pct != null && (() => {
-          const gapKrw = isKR && m.regular_close_krw != null
-            ? Math.round((m.per_share_krw ?? m.krw_price) - m.regular_close_krw)
-            : null;
+          const isUS = cat === "us";
+          // 갭 절댓값 — 한국주식은 ₩, 미국주식은 $
+          let gapText: string | null = null;
+          if (isKR && m.regular_close_krw != null) {
+            const g = Math.round((m.per_share_krw ?? m.krw_price) - m.regular_close_krw);
+            gapText = `${g > 0 ? "+" : g < 0 ? "−" : ""}₩${Math.abs(g).toLocaleString("ko-KR")}`;
+          } else if (isUS && m.regular_close_usd != null) {
+            const g = m.mark_px_usd - m.regular_close_usd;
+            gapText = `${g > 0 ? "+" : g < 0 ? "−" : ""}$${Math.abs(g).toFixed(2)}`;
+          }
           const premColor = m.hl_premium_pct > 0 ? "text-accent-green" : m.hl_premium_pct < 0 ? "text-accent-blue" : "text-text-muted";
           return (
             <div className={`mt-2 pt-2 border-t border-line/60 flex items-start justify-between tabular ${isKR ? "text-sm" : "text-xs"}`}>
@@ -84,9 +91,9 @@ export function PriceCard({ row }: { row: PriceRow }) {
               </span>
               <span className={`text-right ${isKR ? "text-base font-bold" : "font-semibold"} ${premColor}`}>
                 {m.hl_premium_pct > 0 ? "▲ +" : m.hl_premium_pct < 0 ? "▼ " : ""}{m.hl_premium_pct.toFixed(2)}%
-                {gapKrw != null && (
+                {gapText && (
                   <span className="block text-[11px] font-normal mt-0.5 opacity-90">
-                    {gapKrw > 0 ? "+" : gapKrw < 0 ? "−" : ""}₩{Math.abs(gapKrw).toLocaleString("ko-KR")}
+                    {gapText}
                   </span>
                 )}
               </span>

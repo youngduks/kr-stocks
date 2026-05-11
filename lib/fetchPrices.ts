@@ -83,10 +83,14 @@ export async function fetchAllPrices(): Promise<{
     const mark = Number(ctx.markPx ?? 0);
     const prev = Number(ctx.prevDayPx ?? 0) || mark;
     const chg = prev > 0 ? ((mark - prev) / prev) * 100 : 0;
-    const krw_price = mark * fx.rate;
+    // is_fx (환율 종목): HL mark가 이미 "1 USDT의 KRW 가격" 단위라
+    //   USDT 가격으로 오인해서 × fx.rate 곱하면 ₩2,170,000 같은 이중 곱셈 발생.
+    //   → krw_price = mark (그대로), USD 표시는 1.0 (1 USDT = $1).
+    const isFx = sym.is_fx === true;
+    const krw_price = isFx ? mark : mark * fx.rate;
     const ratio = sym.share_ratio ?? null;
-    const per_share_usd = ratio != null ? mark * ratio : null;
-    const per_share_krw = ratio != null ? krw_price * ratio : null;
+    const per_share_usd = (ratio != null && !isFx) ? mark * ratio : null;
+    const per_share_krw = (ratio != null && !isFx) ? krw_price * ratio : null;
 
     // 정규장 종가 + premium 계산
     const rc: RegularClose | undefined = regCloses[sym.slug];
@@ -119,8 +123,8 @@ export async function fetchAllPrices(): Promise<{
     return {
       ...sym,
       market: {
-        mark_px_usd: round(mark, 4),
-        prev_day_px_usd: round(prev, 4),
+        mark_px_usd: round(isFx ? 1.0 : mark, 4),
+        prev_day_px_usd: round(isFx ? 1.0 : prev, 4),
         change_24h_pct: round(chg, 3),
         krw_price: round(krw_price, 2),
         per_share_usd: per_share_usd != null ? round(per_share_usd, 4) : null,

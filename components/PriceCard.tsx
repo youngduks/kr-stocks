@@ -66,22 +66,33 @@ export function PriceCard({ row }: { row: PriceRow }) {
         </div>
 
         <div className="flex items-center justify-between text-sm">
-          <span className={`tabular font-semibold ${isUp ? "text-accent-green" : isDn ? "text-accent-red" : "text-text-muted"}`}>
+          <span className={`tabular font-semibold ${isUp ? "text-accent-green" : isDn ? "text-accent-blue" : "text-text-muted"}`}>
             {isUp ? "▲" : isDn ? "▼" : ""} {chg.toFixed(2)}%
           </span>
           <span className="text-[10px] text-text-dim tabular">24h</span>
         </div>
 
-        {m?.hl_premium_pct != null && (
-          <div className={`mt-2 pt-2 border-t border-line/60 flex items-center justify-between tabular ${isKR ? "text-sm" : "text-xs"}`}>
-            <span className="text-text-dim">
-              {isKR ? "한국 종가 대비" : "vs 정규장"}
-            </span>
-            <span className={`${isKR ? "text-base font-bold" : "font-semibold"} ${m.hl_premium_pct > 0 ? "text-accent-blue" : m.hl_premium_pct < 0 ? "text-accent-red" : "text-text-muted"}`}>
-              {m.hl_premium_pct > 0 ? "▲ +" : m.hl_premium_pct < 0 ? "▼ " : ""}{m.hl_premium_pct.toFixed(2)}%
-            </span>
-          </div>
-        )}
+        {m?.hl_premium_pct != null && (() => {
+          const gapKrw = isKR && m.regular_close_krw != null
+            ? Math.round((m.per_share_krw ?? m.krw_price) - m.regular_close_krw)
+            : null;
+          const premColor = m.hl_premium_pct > 0 ? "text-accent-green" : m.hl_premium_pct < 0 ? "text-accent-blue" : "text-text-muted";
+          return (
+            <div className={`mt-2 pt-2 border-t border-line/60 flex items-start justify-between tabular ${isKR ? "text-sm" : "text-xs"}`}>
+              <span className="text-text-dim pt-0.5">
+                {isKR ? "한국 종가 대비" : "vs 정규장"}
+              </span>
+              <span className={`text-right ${isKR ? "text-base font-bold" : "font-semibold"} ${premColor}`}>
+                {m.hl_premium_pct > 0 ? "▲ +" : m.hl_premium_pct < 0 ? "▼ " : ""}{m.hl_premium_pct.toFixed(2)}%
+                {gapKrw != null && (
+                  <span className="block text-[11px] font-normal mt-0.5 opacity-90">
+                    {gapKrw > 0 ? "+" : gapKrw < 0 ? "−" : ""}₩{Math.abs(gapKrw).toLocaleString("ko-KR")}
+                  </span>
+                )}
+              </span>
+            </div>
+          );
+        })()}
       </div>
     </Link>
   );

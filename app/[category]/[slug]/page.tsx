@@ -48,7 +48,7 @@ export default async function SymbolPage({ params }: Props) {
   const m = row.market;
   const isUp = m.change_24h_pct > 0;
   const isDn = m.change_24h_pct < 0;
-  const colorClass = isUp ? "text-accent-green" : isDn ? "text-accent-red" : "text-text-muted";
+  const colorClass = isUp ? "text-accent-green" : isDn ? "text-accent-blue" : "text-text-muted";
   const label = CATEGORY_LABELS[row.category];
 
   const jsonLd = {
@@ -166,9 +166,17 @@ export default async function SymbolPage({ params }: Props) {
                 <div className="text-xs text-text-dim mb-1">
                   {row.category === "korea" ? "갭상승률" : "HL premium"}
                 </div>
-                <div className={`${row.category === "korea" ? "text-4xl md:text-5xl" : "text-3xl"} font-bold tabular ${m.hl_premium_pct > 0 ? "text-accent-blue" : m.hl_premium_pct < 0 ? "text-accent-red" : "text-text-muted"}`}>
+                <div className={`${row.category === "korea" ? "text-4xl md:text-5xl" : "text-3xl"} font-bold tabular ${m.hl_premium_pct > 0 ? "text-accent-green" : m.hl_premium_pct < 0 ? "text-accent-blue" : "text-text-muted"}`}>
                   {m.hl_premium_pct > 0 ? "▲ +" : m.hl_premium_pct < 0 ? "▼ " : ""}{m.hl_premium_pct.toFixed(2)}%
                 </div>
+                {row.category === "korea" && (() => {
+                  const gap = Math.round((m.per_share_krw ?? m.krw_price) - m.regular_close_krw);
+                  return (
+                    <div className={`text-sm font-semibold tabular mt-1 ${gap > 0 ? "text-accent-green" : gap < 0 ? "text-accent-blue" : "text-text-muted"}`}>
+                      {gap > 0 ? "+" : gap < 0 ? "−" : ""}₩{Math.abs(gap).toLocaleString("ko-KR")}
+                    </div>
+                  );
+                })()}
               </div>
             </div>
             <div className="mt-3 text-[11px] text-text-dim leading-relaxed">

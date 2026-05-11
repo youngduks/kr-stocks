@@ -26,6 +26,15 @@ export function PriceCard({ row }: { row: PriceRow }) {
   const displayUSD = m?.per_share_usd ?? m?.mark_px_usd ?? null;
   const showSharePrefix = m?.per_share_krw != null && row.share_ratio !== 1.0;
 
+  // 메인 통화: 한국 주식만 KRW 메인, 그 외 USD 메인
+  const isKR = cat === "korea";
+  const mainPrice = isKR ? `₩${formatKRW(displayKRW)}` : `$${formatUSD(displayUSD)}`;
+  const subPrice = row.is_fx
+    ? null
+    : isKR
+      ? (displayUSD != null ? `≈ $${formatUSD(displayUSD)}` : null)
+      : (displayKRW != null ? `≈ ₩${formatKRW(displayKRW)}` : null);
+
   return (
     <Link href={href as any}>
       <div className="card-lift group bg-bg-card hover:bg-bg-hover border border-line hover:border-accent-blue/40 rounded-2xl p-5">
@@ -39,10 +48,9 @@ export function PriceCard({ row }: { row: PriceRow }) {
           {row.is_etf && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-blue/15 text-accent-blue font-semibold">ETF</span>}
         </div>
 
-        <div className="flex items-baseline gap-2 mb-1.5">
-          <div className="text-2xl font-bold tabular text-text">
-            {row.is_index || row.is_etf || row.is_private || row.is_fx ? `$${formatUSD(displayUSD)}` : `₩${formatKRW(displayKRW)}`}
-          </div>
+        <div className="flex flex-col gap-0.5 mb-1.5">
+          <div className="text-2xl font-bold tabular text-text">{mainPrice}</div>
+          {subPrice && <div className="text-[11px] text-text-dim tabular">{subPrice}</div>}
         </div>
 
         <div className="flex items-center justify-between text-sm">

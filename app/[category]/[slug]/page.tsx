@@ -97,26 +97,27 @@ export default async function SymbolPage({ params }: Props) {
 
         <section className="bg-bg-card border border-line rounded-2xl p-6 mb-6">
           <div className="text-xs text-text-dim mb-2">현재 시세 (24h perp)</div>
-          {row.share_ratio != null && row.share_ratio !== 1.0 ? (
+          {row.category === "korea" ? (
             <>
               <div className="text-4xl md:text-5xl font-bold tabular text-text mb-1">
-                ₩{Math.round(m.per_share_krw ?? 0).toLocaleString("ko-KR")}
+                ₩{Math.round(m.per_share_krw ?? m.krw_price).toLocaleString("ko-KR")}
               </div>
               <div className="text-sm text-text-muted tabular">
-                1주 환산 (HL contract = {(1/row.share_ratio).toFixed(1)}주 묶음 / ${m.per_share_usd?.toFixed(2)})
+                ≈ ${(m.per_share_usd ?? m.mark_px_usd).toFixed(2)}
+                {row.share_ratio != null && row.share_ratio !== 1.0 ? ` · 1주 환산 (HL contract = ${(1/row.share_ratio).toFixed(1)}주 묶음)` : ""}
               </div>
             </>
           ) : row.is_private ? (
             <>
               <div className="text-4xl md:text-5xl font-bold tabular text-text mb-1">${m.mark_px_usd.toFixed(2)}</div>
               <div className="text-sm text-text-muted tabular">
-                ₩{Math.round(m.krw_price).toLocaleString("ko-KR")} · 비상장 implied 가치 추적
+                ≈ ₩{Math.round(m.krw_price).toLocaleString("ko-KR")} · 비상장 implied 가치 추적
               </div>
             </>
           ) : (
             <>
               <div className="text-4xl md:text-5xl font-bold tabular text-text mb-1">${m.mark_px_usd.toFixed(2)}</div>
-              <div className="text-sm text-text-muted tabular">₩{Math.round(m.krw_price).toLocaleString("ko-KR")}</div>
+              <div className="text-sm text-text-muted tabular">≈ ₩{Math.round(m.krw_price).toLocaleString("ko-KR")}</div>
             </>
           )}
 
@@ -132,8 +133,17 @@ export default async function SymbolPage({ params }: Props) {
               <div>
                 <div className="text-xs text-text-dim mb-1">정규장 종가</div>
                 <div className="text-xl font-semibold tabular text-text">
-                  ₩{Math.round(m.regular_close_krw).toLocaleString("ko-KR")}
-                  {m.regular_close_usd && <span className="text-xs text-text-dim ml-2">(${m.regular_close_usd.toFixed(2)})</span>}
+                  {row.category === "korea" ? (
+                    <>
+                      ₩{Math.round(m.regular_close_krw).toLocaleString("ko-KR")}
+                      {m.regular_close_usd && <span className="text-xs text-text-dim ml-2">(${m.regular_close_usd.toFixed(2)})</span>}
+                    </>
+                  ) : (
+                    <>
+                      ${m.regular_close_usd?.toFixed(2) ?? "—"}
+                      <span className="text-xs text-text-dim ml-2">(₩{Math.round(m.regular_close_krw).toLocaleString("ko-KR")})</span>
+                    </>
+                  )}
                 </div>
               </div>
               <div className="text-right">
@@ -157,7 +167,14 @@ export default async function SymbolPage({ params }: Props) {
           <Stat label="24h 거래대금" value={fmtVol(m.day_volume_usd)} />
           <Stat label="Open Interest" value={fmtNum(m.open_interest)} />
           <Stat label="Funding Rate" value={`${(m.funding * 100).toFixed(4)}%`} />
-          {m.regular_close_krw != null && <Stat label="정규장 종가" value={`₩${Math.round(m.regular_close_krw).toLocaleString("ko-KR")}`} />}
+          {m.regular_close_krw != null && (
+            <Stat
+              label="정규장 종가"
+              value={row.category === "korea"
+                ? `₩${Math.round(m.regular_close_krw).toLocaleString("ko-KR")}`
+                : `$${m.regular_close_usd?.toFixed(2) ?? "—"}`}
+            />
+          )}
           {row.implied_valuation_usd && <Stat label="추정 valuation" value={fmtBig(row.implied_valuation_usd)} />}
           {row.regular_market && <Stat label="정규장" value={row.regular_market} />}
           {row.krx_code && <Stat label="KRX 종목코드" value={row.krx_code} />}

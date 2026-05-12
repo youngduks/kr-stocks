@@ -178,6 +178,11 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, a
       },
     });
 
+    // priceLine 값들 수집 — autoscale에 포함시켜 차트 영역 안에 보이게 함
+    const refLinePrices: number[] = [];
+    if (regularClose != null && regularClose > 0) refLinePrices.push(regularClose);
+    if (isKR && avgTargetKrw != null && avgTargetKrw > 0) refLinePrices.push(avgTargetKrw);
+
     const series = chart.addAreaSeries({
       lineColor: periodMeta.lineColor,
       topColor: periodMeta.topColor,
@@ -193,6 +198,23 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, a
         type: "custom",
         formatter: (p: number) => formatPrice(p, isKR),
         minMove: isKR ? 1 : 0.01,
+      },
+      // 정규장 종가 + 평균목표가가 항상 차트 영역 안에 보이게 Y축 자동 확장
+      autoscaleInfoProvider: (original: () => any) => {
+        const res = original();
+        if (!res || refLinePrices.length === 0) return res;
+        const minRef = Math.min(...refLinePrices);
+        const maxRef = Math.max(...refLinePrices);
+        if (!res.priceRange) {
+          return { ...res, priceRange: { minValue: minRef, maxValue: maxRef } };
+        }
+        return {
+          ...res,
+          priceRange: {
+            minValue: Math.min(res.priceRange.minValue, minRef),
+            maxValue: Math.max(res.priceRange.maxValue, maxRef),
+          },
+        };
       },
     });
 

@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 export const revalidate = 3600;
 
 // Operator referral links (no extra cost to user, trade-fee rebate funds site operations)
-const BINANCE_REF = "https://www.binance.com/register?ref=TROLLMANN";
+const BINANCE_REF = "https://www.binance.com/register?ref=KRSTOCKS";
 const BYBIT_REF = "https://www.bybit.com/invite?ref=OKWEGE";
 
 export const metadata: Metadata = {

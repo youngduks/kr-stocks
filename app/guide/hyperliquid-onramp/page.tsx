@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 export const revalidate = 3600;
 
 // 운영자 referral link (사용자 가격 부담 없음, 거래 수수료 일부가 사이트 운영비로)
-const BINANCE_REF = "https://www.binance.com/register?ref=TROLLMANN";
+const BINANCE_REF = "https://www.binance.com/register?ref=KRSTOCKS";
 const BYBIT_REF = "https://www.bybit.com/invite?ref=OKWEGE";
 
 export const metadata: Metadata = {

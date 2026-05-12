@@ -5,6 +5,9 @@ import { getConsensus, hasConsensus, enrichWithCurrentPrice } from "@/lib/consen
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ConsensusSection } from "@/components/ConsensusSection";
+import { FundingBar } from "@/components/FundingBar";
+import { TradingFlowCard } from "@/components/TradingFlowCard";
+import { getTradingFlow, hasTradingFlow } from "@/lib/tradingFlow";
 import nextDynamic from "next/dynamic";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -222,6 +225,18 @@ export default async function SymbolPage({ params }: Props) {
           const cdata = enrichWithCurrentPrice(raw, currentKrw);
           return <ConsensusSection data={cdata} locale="ko" />;
         })()}
+
+        {/* 외국인·기관 매매 동향 — 한국주식 3종만 (samsung/hynix/hyundai) */}
+        {hasTradingFlow(row.slug) && (() => {
+          const flow = getTradingFlow(row.slug);
+          if (!flow) return null;
+          return <TradingFlowCard data={flow} locale="ko" />;
+        })()}
+
+        {/* HL 거래자 포지션 (funding rate 기반) — 환율 제외 모든 종목 */}
+        {!row.is_fx && m.funding != null && (
+          <FundingBar funding={m.funding} locale="ko" />
+        )}
 
         {!row.is_fx && (candles.bars1H.length > 0 || candles.bars4H.length > 0) && (
           <section className="mb-6">

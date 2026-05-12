@@ -45,7 +45,11 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://kr-stocks.com",
-    languages: { "ko-KR": "https://kr-stocks.com" },
+    languages: {
+      "ko-KR": "https://kr-stocks.com",
+      "en-US": "https://kr-stocks.com/en",
+      "x-default": "https://kr-stocks.com",
+    },
   },
   robots: {
     index: true,

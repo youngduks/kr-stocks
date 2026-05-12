@@ -1,4 +1,54 @@
+"use client";
+
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { StatsBar } from "./StatsBar";
+
+function LangToggle() {
+  const pathname = usePathname() || "/";
+  const isEn = pathname === "/en" || pathname.startsWith("/en/");
+
+  // 현재 path → 반대 locale path 매핑
+  // /  ↔  /en
+  // /guide/hyperliquid-onramp  ↔  /en/guide/hyperliquid-onramp
+  // /korea/samsung 등 종목 상세는 한국어만 유지 (Phase 1) → 영어 클릭 시 /en (홈)으로
+  let koHref = "/";
+  let enHref = "/en";
+  if (isEn) {
+    // /en → /, /en/guide/hyperliquid-onramp → /guide/hyperliquid-onramp
+    const rest = pathname.replace(/^\/en/, "");
+    koHref = rest === "" ? "/" : rest;
+  } else {
+    // 영어 동등 경로 — 가이드만 매핑됨. 그 외 (/korea/...) → /en 홈
+    if (pathname === "/") enHref = "/en";
+    else if (pathname === "/guide/hyperliquid-onramp") enHref = "/en/guide/hyperliquid-onramp";
+    else enHref = "/en";
+  }
+
+  return (
+    <div className="hidden sm:inline-flex items-center text-[11px] tabular text-text-dim shrink-0">
+      <Link
+        href={koHref as any}
+        className={`px-1.5 py-0.5 rounded transition ${
+          !isEn ? "text-text font-semibold" : "hover:text-text-muted"
+        }`}
+        aria-current={!isEn ? "page" : undefined}
+      >
+        한국어
+      </Link>
+      <span className="text-text-dim/50">/</span>
+      <Link
+        href={enHref as any}
+        className={`px-1.5 py-0.5 rounded transition ${
+          isEn ? "text-text font-semibold" : "hover:text-text-muted"
+        }`}
+        aria-current={isEn ? "page" : undefined}
+      >
+        EN
+      </Link>
+    </div>
+  );
+}
 
 export function Header({ fxRate, fxChange }: { fxRate: number; fxChange: number }) {
   return (
@@ -12,8 +62,9 @@ export function Header({ fxRate, fxChange }: { fxRate: number; fxChange: number 
           </div>
         </div>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3 md:gap-4">
           <StatsBar />
+          <LangToggle />
           <div className="text-right">
             <div className="text-[11px] text-text-dim">USD/KRW</div>
             <div className="text-sm font-semibold tabular text-text">

@@ -87,7 +87,7 @@ export function PriceCard({ row }: { row: PriceRow }) {
           return (
             <div className={`mt-2 pt-2 border-t border-line/60 flex items-start justify-between gap-2 tabular ${isKR ? "text-sm" : "text-xs"}`}>
               <span className="text-text-dim pt-0.5 text-xs whitespace-nowrap shrink-0">
-                vs 정규장
+                정규장 대비
               </span>
               <span className={`text-right ${isKR ? "text-base font-bold" : "font-semibold"} ${premColor}`}>
                 {m.hl_premium_pct > 0 ? "▲ +" : m.hl_premium_pct < 0 ? "▼ " : ""}{m.hl_premium_pct.toFixed(2)}%

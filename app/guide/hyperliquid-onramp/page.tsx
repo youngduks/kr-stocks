@@ -40,7 +40,14 @@ export const metadata: Metadata = {
     title: "한국에서 Hyperliquid 거래하는 법",
     description: "비상장 빅테크 24h 거래 가이드",
   },
-  alternates: { canonical: "https://kr-stocks.com/guide/hyperliquid-onramp" },
+  alternates: {
+    canonical: "https://kr-stocks.com/guide/hyperliquid-onramp",
+    languages: {
+      "ko-KR": "https://kr-stocks.com/guide/hyperliquid-onramp",
+      "en-US": "https://kr-stocks.com/en/guide/hyperliquid-onramp",
+      "x-default": "https://kr-stocks.com/guide/hyperliquid-onramp",
+    },
+  },
 };
 
 export default async function HyperliquidOnrampGuide() {

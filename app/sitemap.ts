@@ -34,5 +34,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  return [home, ...symbolPages, ...guides];
+  // 영어 페이지 (Phase 1) — 홈 + 가이드만
+  const enPages: MetadataRoute.Sitemap = [
+    {
+      url: `${base}/en`,
+      lastModified: now,
+      changeFrequency: "hourly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/en/guide/hyperliquid-onramp`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+  ];
+
+  return [home, ...symbolPages, ...guides, ...enPages];
 }

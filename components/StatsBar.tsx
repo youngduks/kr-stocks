@@ -1,9 +1,15 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 const SESSION_KEY = "kr-stocks:sid";
 const POLL_INTERVAL_MS = 30_000;
+
+const I18N = {
+  ko: { online: "지금 접속", total: "누적 접속", unit: "명" },
+  en: { online: "Online", total: "Total", unit: "" },
+} as const;
 
 function getOrCreateSessionId(): string {
   if (typeof window === "undefined") return "";
@@ -18,15 +24,19 @@ function getOrCreateSessionId(): string {
   return sid;
 }
 
-function fmt(n: number): string {
+function fmt(n: number, locale: "ko" | "en" = "ko"): string {
   if (n >= 1_000_000) return (n / 1_000_000).toFixed(1) + "M";
   if (n >= 10_000) return (n / 1_000).toFixed(1) + "k";
   if (n >= 1_000) return (n / 1_000).toFixed(1) + "k";
-  return n.toLocaleString("ko-KR");
+  return n.toLocaleString(locale === "en" ? "en-US" : "ko-KR");
 }
 
 export function StatsBar() {
   const [stats, setStats] = useState<{ online: number; total: number } | null>(null);
+  const pathname = usePathname() || "/";
+  const isEn = pathname === "/en" || pathname.startsWith("/en/");
+  const locale: "ko" | "en" = isEn ? "en" : "ko";
+  const t = I18N[locale];
 
   useEffect(() => {
     let alive = true;
@@ -71,17 +81,19 @@ export function StatsBar() {
       <span className="flex flex-col items-end">
         <span className="text-[9px] text-text-dim flex items-center gap-1">
           <span className="inline-block w-1.5 h-1.5 rounded-full bg-accent-green animate-pulse"></span>
-          지금 접속
+          {t.online}
         </span>
         <span className="font-bold text-accent-green text-xs">
-          {fmt(stats.online)}<span className="text-[9px] text-text-dim font-normal ml-0.5">명</span>
+          {fmt(stats.online, locale)}
+          {t.unit && <span className="text-[9px] text-text-dim font-normal ml-0.5">{t.unit}</span>}
         </span>
       </span>
       <span className="text-line text-base">·</span>
       <span className="flex flex-col items-end">
-        <span className="text-[9px] text-text-dim">누적 접속</span>
+        <span className="text-[9px] text-text-dim">{t.total}</span>
         <span className="font-bold text-text-muted text-xs">
-          {fmt(stats.total)}<span className="text-[9px] text-text-dim font-normal ml-0.5">명</span>
+          {fmt(stats.total, locale)}
+          {t.unit && <span className="text-[9px] text-text-dim font-normal ml-0.5">{t.unit}</span>}
         </span>
       </span>
     </div>

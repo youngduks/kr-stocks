@@ -19,9 +19,10 @@ function LangToggle() {
     const rest = pathname.replace(/^\/en/, "");
     koHref = rest === "" ? "/" : rest;
   } else {
-    // 영어 동등 경로 — 가이드만 매핑됨. 그 외 (/korea/...) → /en 홈
+    // 영어 동등 경로 — 가이드 + 컨센서스 매핑. 그 외 (/korea/...) → /en 홈
     if (pathname === "/") enHref = "/en";
     else if (pathname === "/guide/hyperliquid-onramp") enHref = "/en/guide/hyperliquid-onramp";
+    else if (pathname === "/consensus") enHref = "/en/consensus";
     else enHref = "/en";
   }
 

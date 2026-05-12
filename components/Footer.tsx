@@ -11,8 +11,14 @@ export function Footer() {
           <li>• 업데이트 주기: 30초</li>
         </ul>
 
-        <div className="mb-3 text-text-muted font-semibold">가이드</div>
+        <div className="mb-3 text-text-muted font-semibold">분석 · 가이드</div>
         <ul className="space-y-1 mb-6">
+          <li>
+            • <Link href={"/consensus" as any} className="text-accent-blue hover:underline">
+                증권사 목표주가 컨센서스
+              </Link>
+            {" "}— 삼성전자 · SK하이닉스 · 현대차 13~14개 증권사 평균 목표가 + 상승여력
+          </li>
           <li>
             • <Link href="/guide/hyperliquid-onramp" className="text-accent-blue hover:underline">
                 한국에서 Hyperliquid 거래하는 법

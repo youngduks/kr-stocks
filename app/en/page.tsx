@@ -114,8 +114,15 @@ export default async function HomeEN() {
             <li>• Refresh: every 30 seconds</li>
           </ul>
 
-          <div className="mb-3 text-text-muted font-semibold">Guide</div>
+          <div className="mb-3 text-text-muted font-semibold">Analysis · Guide</div>
           <ul className="space-y-1 mb-6">
+            <li>
+              •{" "}
+              <Link href={"/en/consensus" as any} className="text-accent-blue hover:underline">
+                Korean Broker Consensus
+              </Link>{" "}
+              — Samsung · SK Hynix · Hyundai analyst price targets &amp; upside.
+            </li>
             <li>
               •{" "}
               <Link href={"/en/guide/hyperliquid-onramp" as any} className="text-accent-blue hover:underline">

@@ -1,0 +1,47 @@
+{
+  "slug": "samsung",
+  "ticker": "005930",
+  "name_ko": "삼성전자",
+  "name_en": "Samsung Electronics",
+  "updated_at": "2026-05-12T17:00:00+09:00",
+  "consensus": {
+    "avg_target_krw": 338462,
+    "median_target_krw": 330000,
+    "max_target_krw": 400000,
+    "max_broker": "미래에셋",
+    "min_target_krw": 300000,
+    "min_broker": "iM증권",
+    "opinion_count": 30,
+    "broker_count": 13
+  },
+  "opinion_distribution": {
+    "강력매수": 1,
+    "매수": 12,
+    "비중확대": 0,
+    "중립": 0,
+    "비중축소": 0,
+    "매도": 0
+  },
+  "brokers": [
+    { "broker": "미래에셋", "broker_en": "Mirae Asset", "opinion": "매수", "target_krw": 400000, "report_date": "2026-05-06" },
+    { "broker": "SK증권", "broker_en": "SK Securities", "opinion": "매수", "target_krw": 400000, "report_date": "2026-05-05" },
+    { "broker": "유진투자", "broker_en": "Eugene Investment", "opinion": "강력매수", "target_krw": 360000, "report_date": "2026-05-05" },
+    { "broker": "IBK", "broker_en": "IBK Securities", "opinion": "매수", "target_krw": 350000, "report_date": "2026-05-04" },
+    { "broker": "유안타", "broker_en": "Yuanta Securities", "opinion": "매수", "target_krw": 340000, "report_date": "2026-05-04" },
+    { "broker": "키움", "broker_en": "Kiwoom Securities", "opinion": "매수", "target_krw": 330000, "report_date": "2026-05-03" },
+    { "broker": "교보", "broker_en": "Kyobo Securities", "opinion": "매수", "target_krw": 330000, "report_date": "2026-05-03" },
+    { "broker": "한화", "broker_en": "Hanwha Investment", "opinion": "매수", "target_krw": 330000, "report_date": "2026-05-02" },
+    { "broker": "하나", "broker_en": "Hana Securities", "opinion": "매수", "target_krw": 330000, "report_date": "2026-05-02" },
+    { "broker": "대신", "broker_en": "Daishin Securities", "opinion": "매수", "target_krw": 330000, "report_date": "2026-05-01" },
+    { "broker": "iM증권", "broker_en": "iM Securities", "opinion": "매수", "target_krw": 300000, "report_date": "2026-04-30" },
+    { "broker": "신한", "broker_en": "Shinhan Securities", "opinion": "매수", "target_krw": 300000, "report_date": "2026-04-29" },
+    { "broker": "DS", "broker_en": "DS Investment", "opinion": "매수", "target_krw": 300000, "report_date": "2026-04-28" }
+  ],
+  "history": [
+    { "date": "2026-04-15", "avg_target_krw": 315000, "opinion_count": 7 },
+    { "date": "2026-04-20", "avg_target_krw": 320000, "opinion_count": 8 },
+    { "date": "2026-04-25", "avg_target_krw": 328000, "opinion_count": 10 },
+    { "date": "2026-05-01", "avg_target_krw": 335000, "opinion_count": 12 },
+    { "date": "2026-05-06", "avg_target_krw": 338462, "opinion_count": 13 }
+  ]
+}

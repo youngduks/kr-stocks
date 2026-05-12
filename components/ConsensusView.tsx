@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import type { BrokerOpinion, ConsensusData } from "@/lib/consensus";
 
 export type Locale = "ko" | "en";
@@ -32,6 +33,8 @@ const I18N = {
     disclaimer:
       "본 정보는 단순 참고용이며 투자 권유·자문이 아닙니다. 목표가는 시점에 따라 변경될 수 있습니다.",
     noCurrentPrice: "—",
+    seeStock: "종합 분석 보기",
+    seeStockSub: "HL 야간 · 정규장 · 외인·기관 · funding · 차트",
   },
   en: {
     title: "Korean Broker Consensus",
@@ -60,6 +63,8 @@ const I18N = {
     disclaimer:
       "For informational purposes only. Not investment advice. Targets may change over time.",
     noCurrentPrice: "—",
+    seeStock: "Full analysis",
+    seeStockSub: "HL overnight · Regular · Foreign flow · funding · chart",
   },
 } as const;
 
@@ -259,6 +264,26 @@ export function ConsensusView({
           </div>
         </div>
       </div>
+
+      {/* Cross-link: 종목 상세 페이지로 (USP 발견율 ↑) */}
+      <Link
+        href={`/korea/${active.slug}` as any}
+        className="group block p-4 rounded-2xl bg-gradient-to-r from-accent-blue/8 via-accent-purple/8 to-accent-green/8 border border-accent-blue/20 hover:border-accent-blue/50 transition-all"
+      >
+        <div className="flex items-center justify-between gap-3">
+          <div className="min-w-0 flex-1">
+            <div className="text-sm sm:text-base font-bold text-text group-hover:text-accent-blue transition truncate">
+              ▶ {displayName} {t.seeStock}
+            </div>
+            <div className="text-[10px] sm:text-[11px] text-text-dim mt-1 leading-relaxed">
+              {t.seeStockSub}
+            </div>
+          </div>
+          <div className="text-accent-blue text-2xl group-hover:translate-x-1 transition-transform shrink-0">
+            →
+          </div>
+        </div>
+      </Link>
 
       {/* 추이 + 분포 — 2 column */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">

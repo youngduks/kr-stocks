@@ -3,6 +3,7 @@ import { CATEGORY_LABELS, type SymbolMeta } from "@/lib/universe";
 import { PriceCard } from "@/components/PriceCard";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { HomeHero } from "@/components/HomeHero";
 
 export const revalidate = 30;
 export const dynamic = "force-dynamic";
@@ -30,6 +31,9 @@ export default async function Home() {
             <div>비상장 빅테크 포함. (SpaceX·OpenAI·Anthropic)</div>
           </div>
         </section>
+
+        {/* Hero box — 한국주식 3종 미리보기 + 종목 상세 직접 CTA (USP 발견율 ↑) */}
+        <HomeHero rows={data.symbols} locale="ko" />
 
         {grouped.map(({ cat, label, rows }) => (
           <section key={cat} className="mb-10">

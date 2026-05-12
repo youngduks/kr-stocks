@@ -2,6 +2,7 @@ import { fetchAllPrices } from "@/lib/fetchPrices";
 import { CATEGORY_LABELS, type SymbolMeta } from "@/lib/universe";
 import { PriceCard } from "@/components/PriceCard";
 import { Header } from "@/components/Header";
+import { HomeHero } from "@/components/HomeHero";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -66,6 +67,9 @@ export default async function HomeEN() {
             Uninterrupted live prices across Korean market hours. Unlisted big tech included (SpaceX · OpenAI · Anthropic).
           </p>
         </section>
+
+        {/* Hero box — Korean stocks deep-dive preview + direct CTA */}
+        <HomeHero rows={data.symbols} locale="en" />
 
         {grouped.map(({ cat, label, rows }) => (
           <section key={cat} className="mb-10">

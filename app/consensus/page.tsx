@@ -3,7 +3,6 @@ import { getAllConsensus, enrichWithCurrentPrice } from "@/lib/consensus";
 import { ConsensusView } from "@/components/ConsensusView";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import Link from "next/link";
 import type { Metadata } from "next";
 
 export const revalidate = 1800;
@@ -66,12 +65,10 @@ export default async function ConsensusPage() {
           <h1 className="text-2xl sm:text-3xl font-bold tracking-tight mb-2">
             증권사 목표주가 컨센서스
           </h1>
-          <p className="text-sm text-text-muted">
-            한국 13~14개 증권사 애널리스트 목표주가 종합 · 평균 vs 현재가 상승여력 시각화 ·{" "}
-            <Link href={"/" as any} className="text-accent-blue hover:underline">
-              홈으로
-            </Link>
-          </p>
+          <div className="text-sm text-text-muted leading-relaxed">
+            <div>한국 13~14개 증권사 애널리스트 목표주가 종합</div>
+            <div>평균 vs 현재가 상승여력 시각화</div>
+          </div>
         </section>
 
         <ConsensusView all={enriched} locale="ko" />

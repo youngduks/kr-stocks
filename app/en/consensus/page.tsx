@@ -3,7 +3,6 @@ import { getAllConsensus, enrichWithCurrentPrice } from "@/lib/consensus";
 import { ConsensusView } from "@/components/ConsensusView";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import Link from "next/link";
 import type { Metadata } from "next";
 
 export const revalidate = 1800;
@@ -65,12 +64,10 @@ export default async function ConsensusPageEN() {
           <h1 className="text-2xl sm:text-3xl font-bold tracking-tight mb-2">
             Korean Broker Consensus
           </h1>
-          <p className="text-sm text-text-muted">
-            Aggregated analyst price targets from 13~14 major Korean brokers ·{" "}
-            <Link href={"/en" as any} className="text-accent-blue hover:underline">
-              Back to home
-            </Link>
-          </p>
+          <div className="text-sm text-text-muted leading-relaxed">
+            <div>Aggregated analyst price targets from 13~14 major Korean brokers</div>
+            <div>Average target vs current price upside visualization</div>
+          </div>
         </section>
 
         <ConsensusView all={enriched} locale="en" />

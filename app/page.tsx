@@ -25,9 +25,10 @@ export default async function Home() {
       <main className="max-w-6xl mx-auto px-5 pt-6 pb-12">
         <section className="mb-8">
           <h1 className="text-2xl font-bold tracking-tight mb-2">24시간 글로벌 자산 시세</h1>
-          <p className="text-sm text-text-muted">
-            한국 정규장 휴장에도 끊기지 않는 실시간 가격. 비상장 빅테크 (SpaceX·OpenAI·Anthropic) 포함.
-          </p>
+          <div className="text-sm text-text-muted leading-relaxed">
+            <div>한국 정규장 휴장에도 끊기지 않는 실시간 가격.</div>
+            <div>비상장 빅테크 포함. (SpaceX·OpenAI·Anthropic)</div>
+          </div>
         </section>
 
         {grouped.map(({ cat, label, rows }) => (

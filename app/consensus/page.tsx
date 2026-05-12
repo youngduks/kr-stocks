@@ -9,21 +9,25 @@ export const revalidate = 1800;
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "증권사 목표주가 컨센서스 — 삼성전자·하이닉스·현대차",
+  title: "증권사 목표주가 분석 — 삼성전자·하이닉스·현대차",
   description:
-    "한국 13~14개 증권사 애널리스트 목표주가 종합. 평균 목표가 vs 현재가 상승여력 시각화. Hyperliquid 야간 + 정규장 + 컨센서스 3in1.",
+    "한국 13~14개 증권사 애널리스트 목표주가 종합. 평균 목표가 vs 현재가 상승여력 시각화. Hyperliquid 야간 + 정규장 + 증권사 분석 3in1.",
   keywords: [
     "삼성전자 목표주가",
     "SK하이닉스 목표주가",
     "현대차 목표주가",
+    "증권사 분석",
+    "삼성전자 컨센서스",
+    "SK하이닉스 컨센서스",
     "증권사 컨센서스",
     "애널리스트 목표가",
+    "한국 주식 분석",
     "한국 주식 컨센서스",
     "상승여력",
     "네이버 금융 리서치",
   ],
   openGraph: {
-    title: "증권사 목표주가 컨센서스 — kr-stocks.com",
+    title: "증권사 목표주가 분석 — kr-stocks.com",
     description:
       "삼성전자·SK하이닉스·현대차 증권사 평균 목표가 + 상승여력 + 13~14개 증권사 의견 종합.",
     url: "https://kr-stocks.com/consensus",
@@ -31,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "증권사 목표주가 컨센서스",
+    title: "증권사 목표주가 분석",
     description: "삼성전자·SK하이닉스·현대차 증권사 평균 목표가 + 상승여력.",
   },
   alternates: {
@@ -63,7 +67,7 @@ export default async function ConsensusPage() {
       <main className="max-w-6xl mx-auto px-5 pt-6 pb-12">
         <section className="mb-6">
           <h1 className="text-2xl sm:text-3xl font-bold tracking-tight mb-2">
-            증권사 목표주가 컨센서스
+            증권사 목표주가 분석
           </h1>
           <div className="text-sm text-text-muted leading-relaxed">
             <div>한국 13~14개 증권사 애널리스트 목표주가 종합</div>
@@ -74,7 +78,7 @@ export default async function ConsensusPage() {
         <ConsensusView all={enriched} locale="ko" />
 
         <div className="mt-10 p-4 rounded-xl bg-bg-card border border-line text-xs text-text-dim leading-relaxed">
-          <span className="font-semibold text-text-muted">컨센서스란?</span>{" "}
+          <span className="font-semibold text-text-muted">증권사 분석이란?</span>{" "}
           여러 증권사 애널리스트의 종목별 목표주가·투자의견을 모아 평균/중앙값으로
           요약한 지표입니다. 평균 목표가가 현재가보다 높으면 "상승여력 있음(▲)",
           낮으면 "조정 가능성(▼)"으로 해석되지만, 실제 주가는 다양한 요인에 좌우되므로

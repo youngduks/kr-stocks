@@ -216,7 +216,7 @@ export default async function SymbolPage({ params }: Props) {
           </section>
         )}
 
-        {/* 증권사 컨센서스 — 한국주식 3종에만 (삼성/하이닉스/현대차) */}
+        {/* 증권사 분석 — 한국주식 3종에만 (삼성/하이닉스/현대차) */}
         {hasConsensus(row.slug) && (() => {
           const raw = getConsensus(row.slug);
           if (!raw) return null;

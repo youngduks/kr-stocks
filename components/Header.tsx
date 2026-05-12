@@ -19,7 +19,7 @@ function LangToggle() {
     const rest = pathname.replace(/^\/en/, "");
     koHref = rest === "" ? "/" : rest;
   } else {
-    // 영어 동등 경로 — 가이드 + 컨센서스 매핑. 그 외 (/korea/...) → /en 홈
+    // 영어 동등 경로 — 가이드 + 분석 매핑. 그 외 (/korea/...) → /en 홈
     if (pathname === "/") enHref = "/en";
     else if (pathname === "/guide/hyperliquid-onramp") enHref = "/en/guide/hyperliquid-onramp";
     else if (pathname === "/consensus") enHref = "/en/consensus";
@@ -57,7 +57,7 @@ function PageNav() {
 
   // 현재 페이지가 어느 카테고리?
   // "주가" = 홈/카드 grid (/, /en, /korea/samsung, /us/tesla 같은 종목 상세)
-  // "컨센서스" = /consensus, /en/consensus
+  // "분석" = /consensus, /en/consensus
   // "가이드" = /guide/..., /en/guide/...
   const isConsensus = pathname === "/consensus" || pathname === "/en/consensus";
   const isGuide = pathname.includes("/guide/");
@@ -70,7 +70,7 @@ function PageNav() {
 
   const tabs: Array<{ key: string; href: string; ko: string; en: string; active: boolean }> = [
     { key: "prices", href: home, ko: "주가", en: "Prices", active: isPrices },
-    { key: "consensus", href: consensus, ko: "컨센서스", en: "Consensus", active: isConsensus },
+    { key: "consensus", href: consensus, ko: "증권사 분석", en: "Consensus", active: isConsensus },
     { key: "guide", href: guide, ko: "가이드", en: "Guide", active: isGuide },
   ];
 

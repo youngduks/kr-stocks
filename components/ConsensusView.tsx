@@ -7,7 +7,7 @@ export type Locale = "ko" | "en";
 
 const I18N = {
   ko: {
-    title: "증권사 목표주가 컨센서스",
+    title: "증권사 목표주가 분석",
     subtitle: "한국 증권사 애널리스트 목표주가 종합 — 네이버 금융 리서치 기준",
     avgTarget: "평균 목표가",
     median: "중앙값",
@@ -18,7 +18,7 @@ const I18N = {
     currentPrice: "현재가",
     upside: "상승여력",
     distribution: "투자의견 분포",
-    latestReports: "증권사별 최신 컨센서스",
+    latestReports: "증권사별 최신 분석",
     broker: "증권사",
     opinion: "투자의견",
     target: "목표가",

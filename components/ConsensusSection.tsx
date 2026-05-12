@@ -1,14 +1,14 @@
 import Link from "next/link";
 import type { ConsensusData } from "@/lib/consensus";
 
-// 종목 상세 페이지용 컴팩트 컨센서스 섹션
+// 종목 상세 페이지용 컴팩트 분석 섹션
 // /consensus 전체 페이지와 다르게 "이 종목 1개" + 핵심 4 카드 + 자세히 보기 링크
 
 export type Locale = "ko" | "en";
 
 const I18N = {
   ko: {
-    title: "증권사 목표주가 컨센서스",
+    title: "증권사 목표주가 분석",
     source: "네이버 금융 리서치",
     brokers: "증권사",
     units: "개",
@@ -17,7 +17,7 @@ const I18N = {
     median: "중앙값",
     max: "최고",
     min: "최저",
-    seeAll: "전체 컨센서스 보기 (증권사별 목표가 + 분포)",
+    seeAll: "전체 분석 보기 (증권사별 목표가 + 분포)",
     rangeFrom: "범위",
     disclaimer: "본 정보는 단순 참고용이며 투자 권유가 아닙니다.",
   },

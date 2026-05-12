@@ -15,7 +15,7 @@ export function Footer() {
         <ul className="space-y-1 mb-6">
           <li>
             • <Link href={"/consensus" as any} className="text-accent-blue hover:underline">
-                증권사 목표주가 컨센서스
+                증권사 목표주가 분석
               </Link>
             {" "}— 삼성전자 · SK하이닉스 · 현대차 13~14개 증권사 평균 목표가 + 상승여력
           </li>

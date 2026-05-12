@@ -26,10 +26,10 @@ function LangToggle() {
   }
 
   return (
-    <div className="hidden sm:inline-flex items-center text-[11px] tabular text-text-dim shrink-0">
+    <div className="inline-flex items-center text-[10px] sm:text-[11px] tabular text-text-dim shrink-0">
       <Link
         href={koHref as any}
-        className={`px-1.5 py-0.5 rounded transition ${
+        className={`px-1 sm:px-1.5 py-0.5 rounded transition ${
           !isEn ? "text-text font-semibold" : "hover:text-text-muted"
         }`}
         aria-current={!isEn ? "page" : undefined}
@@ -39,7 +39,7 @@ function LangToggle() {
       <span className="text-text-dim/50">/</span>
       <Link
         href={enHref as any}
-        className={`px-1.5 py-0.5 rounded transition ${
+        className={`px-1 sm:px-1.5 py-0.5 rounded transition ${
           isEn ? "text-text font-semibold" : "hover:text-text-muted"
         }`}
         aria-current={isEn ? "page" : undefined}
@@ -62,7 +62,7 @@ export function Header({ fxRate, fxChange }: { fxRate: number; fxChange: number 
           </div>
         </div>
 
-        <div className="flex items-center gap-3 md:gap-4">
+        <div className="flex items-center gap-1.5 sm:gap-3 md:gap-4">
           <StatsBar />
           <LangToggle />
           <div className="text-right">

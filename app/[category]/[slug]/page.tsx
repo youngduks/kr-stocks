@@ -1,8 +1,10 @@
 import { fetchAllPrices } from "@/lib/fetchPrices";
 import { fetchCandleSet } from "@/lib/fetchCandles";
 import { bySlug, CATEGORY_LABELS } from "@/lib/universe";
+import { getConsensus, hasConsensus, enrichWithCurrentPrice } from "@/lib/consensus";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { ConsensusSection } from "@/components/ConsensusSection";
 import nextDynamic from "next/dynamic";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -210,6 +212,16 @@ export default async function SymbolPage({ params }: Props) {
             </div>
           </section>
         )}
+
+        {/* 증권사 컨센서스 — 한국주식 3종에만 (삼성/하이닉스/현대차) */}
+        {hasConsensus(row.slug) && (() => {
+          const raw = getConsensus(row.slug);
+          if (!raw) return null;
+          // 현재가 우선순위: 정규장 종가 → HL per_share_krw
+          const currentKrw = m.regular_close_krw ?? m.per_share_krw ?? m.krw_price ?? null;
+          const cdata = enrichWithCurrentPrice(raw, currentKrw);
+          return <ConsensusSection data={cdata} locale="ko" />;
+        })()}
 
         {!row.is_fx && (candles.bars1H.length > 0 || candles.bars4H.length > 0) && (
           <section className="mb-6">

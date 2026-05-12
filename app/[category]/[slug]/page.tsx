@@ -230,6 +230,7 @@ export default async function SymbolPage({ params }: Props) {
               bars4H={candles.bars4H}
               regularCloseUsd={m.regular_close_usd}
               regularCloseKrw={m.regular_close_krw}
+              avgTargetKrw={hasConsensus(row.slug) ? getConsensus(row.slug)?.consensus.avg_target_krw : null}
               fxRate={data.fx.krw_per_usdt}
               isKR={row.category === "korea"}
               name={row.name_ko || row.name_en || row.slug}

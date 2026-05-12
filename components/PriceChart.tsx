@@ -21,6 +21,8 @@ export type PriceChartProps = {
   regularCloseUsd?: number | null;
   /** KRW 단위 정규장 종가 (한국 종목에서 KRW 차트일 때 사용) */
   regularCloseKrw?: number | null;
+  /** 증권사 평균 목표가 (KRW) — 한국주식 3종만, purple horizontal line overlay */
+  avgTargetKrw?: number | null;
   /** USDT/KRW 환율 — 한국 종목은 차트도 KRW 단위로 변환 */
   fxRate: number;
   /** 한국 종목 여부 — true면 KRW 차트 + KRW 종가 overlay */
@@ -33,6 +35,7 @@ const COLOR = {
   green: "#1FAE6F", // accent-green — 상승
   blue: "#3182F6", // accent-blue — 하락
   amber: "#F4A623", // 정규장 종가 점선
+  purple: "#9D7DEC", // accent-purple — 평균 목표가 점선
   textMuted: "#8B95A1",
   textDim: "#5C6370",
   bg: "#15181D", // bg
@@ -90,7 +93,7 @@ function kstCrosshairFormatter(time: number): string {
   );
 }
 
-export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, fxRate, isKR, name }: PriceChartProps) {
+export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, avgTargetKrw, fxRate, isKR, name }: PriceChartProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const chartRef = useRef<IChartApi | null>(null);
   const seriesRef = useRef<ISeriesApi<"Area"> | null>(null);
@@ -213,6 +216,19 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, f
       });
     }
 
+    // 평균 목표가 horizontal line (purple 점선) — 한국주식 3종만
+    // raoni/네이버/Yahoo 어디에도 없는 3in1 합성: 가격 + 정규장 + 평균목표가
+    if (isKR && avgTargetKrw != null && avgTargetKrw > 0) {
+      series.createPriceLine({
+        price: avgTargetKrw,
+        color: COLOR.purple,
+        lineWidth: 2,
+        lineStyle: LineStyle.Dashed,
+        axisLabelVisible: true,
+        title: "평균목표",
+      });
+    }
+
     chart.timeScale().fitContent();
 
     return () => {
@@ -285,13 +301,25 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, f
       {/* 차트 본체 */}
       <div ref={containerRef} className="w-full h-[260px] md:h-[340px]" />
 
-      {/* 정규장 종가 범례 (있을 때만) */}
-      {regularClose != null && (
-        <div className="mt-3 flex items-center gap-2 text-[11px] text-text-dim">
-          <span className="inline-block w-4 h-[2px] bg-accent-amber" style={{ borderTop: "2px dashed" }} />
-          <span>
-            점선 = {isKR ? "한국" : "미국"} 정규장 종가 · {formatPrice(regularClose, isKR)}
-          </span>
+      {/* 범례 (정규장 종가 + 평균 목표가) */}
+      {(regularClose != null || (isKR && avgTargetKrw != null)) && (
+        <div className="mt-3 flex flex-col gap-1.5 text-[11px] text-text-dim">
+          {regularClose != null && (
+            <div className="flex items-center gap-2">
+              <span className="inline-block w-4 h-[2px] bg-accent-amber" style={{ borderTop: "2px dashed" }} />
+              <span>
+                {isKR ? "한국" : "미국"} 정규장 종가 · {formatPrice(regularClose, isKR)}
+              </span>
+            </div>
+          )}
+          {isKR && avgTargetKrw != null && avgTargetKrw > 0 && (
+            <div className="flex items-center gap-2">
+              <span className="inline-block w-4 h-[2px] bg-accent-purple" style={{ borderTop: "2px dashed" }} />
+              <span>
+                증권사 평균 목표가 · {formatPrice(avgTargetKrw, true)}
+              </span>
+            </div>
+          )}
         </div>
       )}
     </div>

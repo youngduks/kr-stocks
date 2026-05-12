@@ -51,6 +51,53 @@ function LangToggle() {
   );
 }
 
+function PageNav() {
+  const pathname = usePathname() || "/";
+  const isEn = pathname === "/en" || pathname.startsWith("/en/");
+
+  // 현재 페이지가 어느 카테고리?
+  // "주가" = 홈/카드 grid (/, /en, /korea/samsung, /us/tesla 같은 종목 상세)
+  // "컨센서스" = /consensus, /en/consensus
+  // "가이드" = /guide/..., /en/guide/...
+  const isConsensus = pathname === "/consensus" || pathname === "/en/consensus";
+  const isGuide = pathname.includes("/guide/");
+  const isPrices = !isConsensus && !isGuide;
+
+  // locale에 맞는 href
+  const home = isEn ? "/en" : "/";
+  const consensus = isEn ? "/en/consensus" : "/consensus";
+  const guide = isEn ? "/en/guide/hyperliquid-onramp" : "/guide/hyperliquid-onramp";
+
+  const tabs: Array<{ key: string; href: string; ko: string; en: string; active: boolean }> = [
+    { key: "prices", href: home, ko: "주가", en: "Prices", active: isPrices },
+    { key: "consensus", href: consensus, ko: "컨센서스", en: "Consensus", active: isConsensus },
+    { key: "guide", href: guide, ko: "가이드", en: "Guide", active: isGuide },
+  ];
+
+  return (
+    <nav className="inline-flex items-center gap-0.5 sm:gap-1 text-xs sm:text-sm tabular shrink-0">
+      {tabs.map((t, i) => (
+        <span key={t.key} className="flex items-center">
+          <Link
+            href={t.href as any}
+            aria-current={t.active ? "page" : undefined}
+            className={`px-2 sm:px-2.5 py-1 rounded-md transition font-semibold ${
+              t.active
+                ? "bg-bg-card text-text border border-line"
+                : "text-text-dim hover:text-text hover:bg-bg-card/50 border border-transparent"
+            }`}
+          >
+            {isEn ? t.en : t.ko}
+          </Link>
+          {i < tabs.length - 1 && (
+            <span className="text-text-dim/30 mx-0.5 hidden sm:inline">·</span>
+          )}
+        </span>
+      ))}
+    </nav>
+  );
+}
+
 export function Header({ fxRate, fxChange }: { fxRate: number; fxChange: number }) {
   return (
     <header className="sticky top-0 z-30 backdrop-blur-md bg-bg/80 border-b border-line">
@@ -79,8 +126,9 @@ export function Header({ fxRate, fxChange }: { fxRate: number; fxChange: number 
           </div>
         </div>
 
-        {/* Row 2: 언어 토글 (우측 정렬, 독립 행) */}
-        <div className="mt-2 flex justify-end">
+        {/* Row 2: 페이지 네비 (좌측) + 언어 토글 (우측) */}
+        <div className="mt-2 flex items-center justify-between gap-3">
+          <PageNav />
           <LangToggle />
         </div>
       </div>

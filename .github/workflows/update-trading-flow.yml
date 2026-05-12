@@ -1,0 +1,59 @@
+name: Update Trading Flow (외인·기관)
+
+# 한국 정규장 마감 후 (KST 17:00 = UTC 08:00) 평일 자동 실행.
+# 네이버 금융 frgn.naver 스크랩 → data/trading_flow/*.json 갱신 → Vercel auto deploy.
+on:
+  schedule:
+    - cron: "0 8 * * 1-5"   # UTC 월~금 08:00 → KST 17:00
+  workflow_dispatch:          # 수동 실행도 허용
+
+permissions:
+  contents: write              # commit + push 권한
+
+concurrency:
+  group: update-trading-flow
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run scraper
+        run: node scripts/update-trading-flow.mjs
+
+      - name: Check for changes
+        id: diff
+        run: |
+          if git diff --quiet data/trading_flow/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes — skipping commit."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git diff --stat data/trading_flow/
+          fi
+
+      - name: Commit & push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name  "kr-stocks-bot"
+          git config user.email "bot@kr-stocks.com"
+          git add data/trading_flow/
+          DATE_KST=$(TZ=Asia/Seoul date +'%Y-%m-%d')
+          git commit -m "chore(data): auto-update trading flow ${DATE_KST}
+
+          외인·기관 5일 매매 누적 — 네이버 금융 frgn 스크랩.
+          Source: https://finance.naver.com/item/frgn.naver
+          "
+          git push

@@ -17,6 +17,8 @@ export type TradingFlowData = {
   name_ko: string;
   name_en: string;
   updated_at: string;
+  source?: string;   // "naver_finance_frgn" (Phase 2 auto-update)
+  note?: string;     // 추정 매매대금 정확도 안내
   daily: DailyFlow[];
   cumulative_5d: {
     foreign_won: number;

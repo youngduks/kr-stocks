@@ -3,17 +3,39 @@
   "ticker": "005930",
   "name_ko": "삼성전자",
   "name_en": "Samsung Electronics",
-  "updated_at": "2026-05-12T17:00:00+09:00",
+  "updated_at": "2026-05-13T08:18:43.539+09:00",
+  "source": "naver_finance_frgn",
+  "note": "추정 매매대금 = 종가 × 순매매량 (±5% 정확도)",
   "daily": [
-    { "date": "2026-05-06", "foreign_won": -82000000000, "institutional_won": 35000000000 },
-    { "date": "2026-05-07", "foreign_won": -45000000000, "institutional_won": 28000000000 },
-    { "date": "2026-05-08", "foreign_won": -38000000000, "institutional_won": 12000000000 },
-    { "date": "2026-05-09", "foreign_won": -68000000000, "institutional_won": 22000000000 },
-    { "date": "2026-05-12", "foreign_won": -52000000000, "institutional_won": 18000000000 }
+    {
+      "date": "2026-05-06",
+      "foreign_won": 3150022008000,
+      "institutional_won": -591149622000
+    },
+    {
+      "date": "2026-05-07",
+      "foreign_won": -2808486138000,
+      "institutional_won": 173458092000
+    },
+    {
+      "date": "2026-05-08",
+      "foreign_won": -2576509084500,
+      "institutional_won": 288541914000
+    },
+    {
+      "date": "2026-05-11",
+      "foreign_won": -2283406731000,
+      "institutional_won": 456567032000
+    },
+    {
+      "date": "2026-05-12",
+      "foreign_won": -2182961007000,
+      "institutional_won": -21802176000
+    }
   ],
   "cumulative_5d": {
-    "foreign_won": -285000000000,
-    "institutional_won": 115000000000,
-    "retail_won": 170000000000
+    "foreign_won": -6701340952500,
+    "institutional_won": 305615240000,
+    "retail_won": 6395725712500
   }
 }

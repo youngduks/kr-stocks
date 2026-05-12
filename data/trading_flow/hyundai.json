@@ -3,17 +3,39 @@
   "ticker": "005380",
   "name_ko": "현대차",
   "name_en": "Hyundai Motor",
-  "updated_at": "2026-05-12T17:00:00+09:00",
+  "updated_at": "2026-05-13T08:18:45.434+09:00",
+  "source": "naver_finance_frgn",
+  "note": "추정 매매대금 = 종가 × 순매매량 (±5% 정확도)",
   "daily": [
-    { "date": "2026-05-06", "foreign_won": -12000000000, "institutional_won": 28000000000 },
-    { "date": "2026-05-07", "foreign_won": 8000000000, "institutional_won": 15000000000 },
-    { "date": "2026-05-08", "foreign_won": -5000000000, "institutional_won": 22000000000 },
-    { "date": "2026-05-09", "foreign_won": -18000000000, "institutional_won": 35000000000 },
-    { "date": "2026-05-12", "foreign_won": -3000000000, "institutional_won": 18000000000 }
+    {
+      "date": "2026-05-06",
+      "foreign_won": 154477950000,
+      "institutional_won": -42006250000
+    },
+    {
+      "date": "2026-05-07",
+      "foreign_won": -33924176000,
+      "institutional_won": 20502768000
+    },
+    {
+      "date": "2026-05-08",
+      "foreign_won": 189772540000,
+      "institutional_won": 269226535000
+    },
+    {
+      "date": "2026-05-11",
+      "foreign_won": -4913476000,
+      "institutional_won": -2141490000
+    },
+    {
+      "date": "2026-05-12",
+      "foreign_won": -240756448000,
+      "institutional_won": -11911594000
+    }
   ],
   "cumulative_5d": {
-    "foreign_won": -30000000000,
-    "institutional_won": 118000000000,
-    "retail_won": -88000000000
+    "foreign_won": 64656390000,
+    "institutional_won": 233669969000,
+    "retail_won": -298326359000
   }
 }

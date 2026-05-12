@@ -3,17 +3,39 @@
   "ticker": "000660",
   "name_ko": "SK하이닉스",
   "name_en": "SK Hynix",
-  "updated_at": "2026-05-12T17:00:00+09:00",
+  "updated_at": "2026-05-13T08:18:44.487+09:00",
+  "source": "naver_finance_frgn",
+  "note": "추정 매매대금 = 종가 × 순매매량 (±5% 정확도)",
   "daily": [
-    { "date": "2026-05-06", "foreign_won": 125000000000, "institutional_won": -32000000000 },
-    { "date": "2026-05-07", "foreign_won": 88000000000, "institutional_won": -18000000000 },
-    { "date": "2026-05-08", "foreign_won": 52000000000, "institutional_won": -8000000000 },
-    { "date": "2026-05-09", "foreign_won": 142000000000, "institutional_won": -25000000000 },
-    { "date": "2026-05-12", "foreign_won": 98000000000, "institutional_won": -12000000000 }
+    {
+      "date": "2026-05-06",
+      "foreign_won": 188218363000,
+      "institutional_won": -204766299000
+    },
+    {
+      "date": "2026-05-07",
+      "foreign_won": -2593204052000,
+      "institutional_won": 483386462000
+    },
+    {
+      "date": "2026-05-08",
+      "foreign_won": -1811318694000,
+      "institutional_won": 305796564000
+    },
+    {
+      "date": "2026-05-11",
+      "foreign_won": -854608520000,
+      "institutional_won": 50192240000
+    },
+    {
+      "date": "2026-05-12",
+      "foreign_won": -2999478155000,
+      "institutional_won": -908967250000
+    }
   ],
   "cumulative_5d": {
-    "foreign_won": 505000000000,
-    "institutional_won": -95000000000,
-    "retail_won": -410000000000
+    "foreign_won": -8070391058000,
+    "institutional_won": -274358283000,
+    "retail_won": 8344749341000
   }
 }

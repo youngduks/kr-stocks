@@ -19,13 +19,36 @@ function formatIndex(n: number | null | undefined): string {
   return n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 
-export function PriceCard({ row }: { row: PriceRow }) {
+export type Locale = "ko" | "en";
+
+const i18n = {
+  ko: {
+    badgePrivate: "비상장",
+    badgeIndex: "지수",
+    badgeEtf: "ETF",
+    vsRegular: "정규장 대비",
+  },
+  en: {
+    badgePrivate: "Private",
+    badgeIndex: "Index",
+    badgeEtf: "ETF",
+    vsRegular: "vs Regular",
+  },
+} as const;
+
+export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Locale }) {
   const m = row.market;
   const chg = m?.change_24h_pct ?? 0;
   const isUp = chg > 0;
   const isDn = chg < 0;
   const cat = row.category;
-  const href = `/${cat}/${row.slug}`;
+  const t = i18n[locale];
+  // 영어 페이지는 카드 클릭 시에도 영어 컨텍스트 유지 (현재 Phase 1: 종목 상세는 한국어만이라 /en 유지 시 lang 토글로 돌아갈 수 있음)
+  const href = locale === "en" ? `/${cat}/${row.slug}` : `/${cat}/${row.slug}`;
+  // 종목명: 영어 페이지면 name_en 우선
+  const displayName = locale === "en"
+    ? (row.name_en || row.name_ko || row.slug)
+    : (row.name_ko || row.name_en || row.slug);
 
   // 표시 가격 결정
   const displayKRW = m?.per_share_krw ?? m?.krw_price ?? null;
@@ -52,12 +75,12 @@ export function PriceCard({ row }: { row: PriceRow }) {
       <div className="card-lift group bg-bg-card hover:bg-bg-hover border border-line hover:border-accent-blue/40 rounded-2xl p-5">
         <div className="flex items-start justify-between mb-3">
           <div className="flex flex-col gap-0.5 min-w-0">
-            <div className="text-base font-semibold text-text truncate">{row.name_ko || row.name_en}</div>
+            <div className="text-base font-semibold text-text truncate">{displayName}</div>
             <div className="text-xs text-text-dim font-medium tracking-wider">{row.ticker.split(":")[1]}</div>
           </div>
-          {row.is_private && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-purple/15 text-accent-purple font-semibold">비상장</span>}
-          {row.is_index && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-amber/15 text-accent-amber font-semibold">지수</span>}
-          {row.is_etf && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-blue/15 text-accent-blue font-semibold">ETF</span>}
+          {row.is_private && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-purple/15 text-accent-purple font-semibold">{t.badgePrivate}</span>}
+          {row.is_index && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-amber/15 text-accent-amber font-semibold">{t.badgeIndex}</span>}
+          {row.is_etf && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-blue/15 text-accent-blue font-semibold">{t.badgeEtf}</span>}
         </div>
 
         <div className="flex flex-col gap-0.5 mb-1.5">
@@ -87,7 +110,7 @@ export function PriceCard({ row }: { row: PriceRow }) {
           return (
             <div className={`mt-2 pt-2 border-t border-line/60 flex items-start justify-between gap-2 tabular ${isKR ? "text-sm" : "text-xs"}`}>
               <span className="text-text-dim pt-0.5 text-xs whitespace-nowrap shrink-0">
-                정규장 대비
+                {t.vsRegular}
               </span>
               <span className={`text-right ${isKR ? "text-base font-bold" : "font-semibold"} ${premColor}`}>
                 {m.hl_premium_pct > 0 ? "▲ +" : m.hl_premium_pct < 0 ? "▼ " : ""}{m.hl_premium_pct.toFixed(2)}%

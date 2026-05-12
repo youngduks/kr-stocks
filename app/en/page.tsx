@@ -77,7 +77,7 @@ export default async function HomeEN() {
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
               {rows.map((row) => (
-                <PriceCard key={row.slug} row={row} />
+                <PriceCard key={row.slug} row={row} locale="en" />
               ))}
             </div>
           </section>

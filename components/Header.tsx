@@ -65,13 +65,13 @@ export function Header({ fxRate, fxChange }: { fxRate: number; fxChange: number 
         <div className="flex items-center gap-1.5 sm:gap-3 md:gap-4">
           <StatsBar />
           <LangToggle />
-          <div className="text-right">
-            <div className="text-[11px] text-text-dim">USD/KRW</div>
-            <div className="text-sm font-semibold tabular text-text">
-              {fxRate.toFixed(2)}원
-              <span className={`ml-2 text-[11px] ${fxChange >= 0 ? "text-accent-green" : "text-accent-red"}`}>
-                {fxChange >= 0 ? "+" : ""}{fxChange.toFixed(2)}%
-              </span>
+          <div className="text-right leading-tight">
+            <div className="text-[10px] text-text-dim">USD/KRW</div>
+            <div className="text-xs sm:text-sm font-semibold tabular text-text mt-0.5">
+              ₩{fxRate.toFixed(2)}
+            </div>
+            <div className={`text-[10px] sm:text-[11px] tabular mt-0.5 ${fxChange >= 0 ? "text-accent-green" : "text-accent-red"}`}>
+              {fxChange >= 0 ? "+" : ""}{fxChange.toFixed(2)}%
             </div>
           </div>
         </div>

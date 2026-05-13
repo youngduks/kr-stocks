@@ -51,6 +51,14 @@ export type PriceRow = SymbolMeta & {
     /** NXT 시간외 가격 (한국주식·KRW). phase="nxt" 일 때 메인. */
     nxt_price_krw: number | null;
     nxt_price_usd: number | null;
+    /**
+     * 메인 가격의 변동률 (%) — phase 인지.
+     *  - live/nxt → 전일 대비 변동률 (네이버 fluctuationsRatio / yahoo 계산)
+     *  - closed → HL 24h chg (mark vs prevDayPx, change_24h_pct 동일)
+     */
+    main_change_pct: number;
+    /** 변동률 라벨 — "전일 대비" / "HL 24h" */
+    main_change_label: string;
   } | null;
 };
 
@@ -183,7 +191,7 @@ export async function fetchAllPrices(): Promise<{
         hl_premium_pct: hl_premium_pct != null ? round(hl_premium_pct, 2) : null,
         nxt_price_krw: nxt_price_krw != null ? round(nxt_price_krw, 2) : null,
         nxt_price_usd: nxt_price_usd != null ? round(nxt_price_usd, 4) : null,
-        // 시간대 인지 메인 가격 — 3-phase 분기
+        // 시간대 인지 메인 가격 + 변동률 — 3-phase 분기
         ...(() => {
           const phase = rc?.phase ?? "closed";
           const hlKrw = per_share_krw ?? krw_price;
@@ -204,11 +212,20 @@ export async function fetchAllPrices(): Promise<{
             mainUsd = hlUsd;
             mainSource = "hl_perp";
           }
+          // 변동률 phase 인지 :
+          //   live/nxt → 네이버/야후 전일 대비 ratio (메인 가격과 정합)
+          //   closed → HL 24h chg (mark vs prevDayPx, chg 변수 그대로)
+          const useRegularChg =
+            (phase === "live" || phase === "nxt") && rc?.fluctuationsRatio != null;
+          const mainChg = useRegularChg ? rc!.fluctuationsRatio! : chg;
+          const mainLabel = useRegularChg ? "전일 대비" : "HL 24h";
           return {
             main_display_krw: round(mainKrw, 2),
             main_display_usd: round(mainUsd, 4),
             main_source: mainSource,
             market_phase: phase,
+            main_change_pct: round(mainChg, 3),
+            main_change_label: mainLabel,
           };
         })(),
       },

@@ -38,7 +38,9 @@ const i18n = {
 
 export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Locale }) {
   const m = row.market;
-  const chg = m?.change_24h_pct ?? 0;
+  // phase 인지 변동률 — live/nxt: 전일 대비 / closed: HL 24h
+  const chg = m?.main_change_pct ?? m?.change_24h_pct ?? 0;
+  const chgLabel = m?.main_change_label ?? (locale === "en" ? "24h" : "24h");
   const isUp = chg > 0;
   const isDn = chg < 0;
   const cat = row.category;
@@ -145,9 +147,9 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
 
         <div className="flex items-center justify-between text-sm">
           <span className={`tabular font-semibold ${isUp ? "text-accent-green" : isDn ? "text-accent-blue" : "text-text-muted"}`}>
-            {isUp ? "▲" : isDn ? "▼" : ""} {chg.toFixed(2)}%
+            {isUp ? "▲" : isDn ? "▼" : ""} {Math.abs(chg).toFixed(2)}%
           </span>
-          <span className="text-[10px] text-text-dim tabular">24h</span>
+          <span className="text-[10px] text-text-dim tabular">{chgLabel}</span>
         </div>
 
         {m?.hl_premium_pct != null && (() => {

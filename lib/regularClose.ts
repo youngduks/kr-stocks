@@ -73,6 +73,14 @@ export type RegularClose = {
   phase: MarketPhase;
   /** NXT 시간외 가격 (한국주식·KRW 단위, phase="nxt"일 때 메인). */
   nxtPrice: number | null;
+  /**
+   * 메인 가격의 전일 대비 변동률 (%) — phase 매칭.
+   *  - live  → 네이버 fluctuationsRatio (KRX 장중 vs 전일 종가)
+   *  - nxt   → 네이버 overMarketPriceInfo.fluctuationsRatio (NXT vs 전일 종가)
+   *  - closed → null (UI 는 HL 24h chg fallback)
+   *  - yahoo (미국 live) → (mark - chartPreviousClose) / chartPreviousClose * 100
+   */
+  fluctuationsRatio: number | null;
   /** 마지막 거래 시각 (epoch sec). UI 보조. */
   tradedAt: number | null;
   currency: "USD" | "KRW";
@@ -108,6 +116,14 @@ async function fetchNaver(code: string): Promise<RegularClose | null> {
     const nxtPrice = Number.isFinite(overPrice) && overPrice > 0 ? overPrice : null;
     // phase 결정 — 우선순위: KRX 정규장 OPEN > NXT 시간외 OPEN > closed
     const phase: MarketPhase = isLive ? "live" : nxtPrice != null ? "nxt" : "closed";
+    // 전일 대비 변동률 — phase 매칭
+    let fluctuationsRatio: number | null = null;
+    const parseRatio = (v: any): number | null => {
+      const r = parseFloat(String(v ?? "").replace(/[,+%]/g, ""));
+      return Number.isFinite(r) ? r : null;
+    };
+    if (phase === "live") fluctuationsRatio = parseRatio(d?.fluctuationsRatio);
+    else if (phase === "nxt") fluctuationsRatio = parseRatio(omi?.fluctuationsRatio);
     // localTradedAt: ISO 8601 with KST offset (NXT 시간엔 omi.localTradedAt 가 더 최신)
     let tradedAt: number | null = null;
     try {
@@ -117,7 +133,7 @@ async function fetchNaver(code: string): Promise<RegularClose | null> {
     } catch {
       tradedAt = null;
     }
-    return { price: p, previousClose, isLive, phase, nxtPrice, tradedAt, currency: "KRW", source: "naver" };
+    return { price: p, previousClose, isLive, phase, nxtPrice, fluctuationsRatio, tradedAt, currency: "KRW", source: "naver" };
   } catch {
     return null;
   }
@@ -154,7 +170,12 @@ async function fetchYahoo(symbol: string): Promise<RegularClose | null> {
     const tradedAt = typeof meta?.regularMarketTime === "number" ? meta.regularMarketTime : null;
     // Yahoo (미국·글로벌) 는 NXT 개념 없음 — live / closed 2-phase 만
     const phase: MarketPhase = isLive ? "live" : "closed";
-    return { price: p, previousClose, isLive, phase, nxtPrice: null, tradedAt, currency, source: "yahoo" };
+    // 전일 대비 변동률 — live phase 만 계산 (closed 는 UI 에서 HL 24h fallback)
+    const fluctuationsRatio: number | null =
+      phase === "live" && previousClose != null && previousClose > 0
+        ? ((p - previousClose) / previousClose) * 100
+        : null;
+    return { price: p, previousClose, isLive, phase, nxtPrice: null, fluctuationsRatio, tradedAt, currency, source: "yahoo" };
   } catch {
     return null;
   }

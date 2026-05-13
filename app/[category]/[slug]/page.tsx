@@ -67,8 +67,11 @@ export default async function SymbolPage({ params }: Props) {
   if (!row || !row.market) notFound();
 
   const m = row.market;
-  const isUp = m.change_24h_pct > 0;
-  const isDn = m.change_24h_pct < 0;
+  // phase 인지 변동률 — live/nxt: 전일 대비 / closed: HL 24h
+  const mainChg = m.main_change_pct ?? m.change_24h_pct;
+  const mainChgLabel = m.main_change_label ?? "HL 24h";
+  const isUp = mainChg > 0;
+  const isDn = mainChg < 0;
   const colorClass = isUp ? "text-accent-green" : isDn ? "text-accent-blue" : "text-text-muted";
   const label = CATEGORY_LABELS[row.category];
 
@@ -245,7 +248,7 @@ export default async function SymbolPage({ params }: Props) {
           )}
 
           <div className={`mt-4 text-lg font-bold tabular ${colorClass}`}>
-            {isUp ? "▲" : isDn ? "▼" : ""} {m.change_24h_pct.toFixed(2)}% (HL 24h)
+            {isUp ? "▲" : isDn ? "▼" : ""} {Math.abs(mainChg).toFixed(2)}% ({mainChgLabel})
           </div>
         </section>
 

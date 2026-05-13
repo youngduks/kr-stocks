@@ -56,7 +56,14 @@ const MAPPING: Record<string, RegularSource> = {
 };
 
 export type RegularClose = {
+  /** 마지막 거래가 — 장중이면 실시간 변동, 장 마감 후면 그날 종가. */
   price: number;
+  /** 전일 종가 — 장중 비교 reference (안정값). */
+  previousClose: number | null;
+  /** 정규장 개장 여부 — true면 price = 실시간 장중가. */
+  isLive: boolean;
+  /** 마지막 거래 시각 (epoch sec). UI 보조. */
+  tradedAt: number | null;
   currency: "USD" | "KRW";
   source: "naver" | "yahoo";
 };
@@ -65,15 +72,30 @@ const UA = "Mozilla/5.0 (compatible; kr-stocks/1.0)";
 
 async function fetchNaver(code: string): Promise<RegularClose | null> {
   try {
+    // 장중엔 60s 캐시 (실시간성), 장 마감 후엔 30분 캐시 (서버 부하 ↓)
+    // → 항상 60s 로 안전 — fetchPrices 가 revalidate:30 호출하므로 일관
     const r = await fetch(`https://m.stock.naver.com/api/stock/${code}/basic`, {
       headers: { "User-Agent": UA },
-      next: { revalidate: 3600 }, // 1시간 캐시
+      next: { revalidate: 60 },
     });
     if (!r.ok) return null;
     const d: any = await r.json();
     const p = parseFloat(String(d?.closePrice ?? "").replace(/,/g, ""));
     if (!Number.isFinite(p) || p <= 0) return null;
-    return { price: p, currency: "KRW", source: "naver" };
+    // 전일 종가 = 현재가 - 전일 대비 변동
+    const diff = parseFloat(String(d?.compareToPreviousClosePrice ?? "0").replace(/,/g, ""));
+    const previousClose = Number.isFinite(diff) ? p - diff : null;
+    // marketStatus: "OPEN" | "CLOSE" | (그 외) → isLive
+    const isLive = String(d?.marketStatus ?? "").toUpperCase() === "OPEN";
+    // localTradedAt: ISO 8601 with KST offset
+    let tradedAt: number | null = null;
+    try {
+      const t = new Date(String(d?.localTradedAt ?? "")).getTime();
+      if (Number.isFinite(t)) tradedAt = Math.floor(t / 1000);
+    } catch {
+      tradedAt = null;
+    }
+    return { price: p, previousClose, isLive, tradedAt, currency: "KRW", source: "naver" };
   } catch {
     return null;
   }
@@ -86,7 +108,7 @@ async function fetchYahoo(symbol: string): Promise<RegularClose | null> {
     )}?range=1d&interval=1d`;
     const r = await fetch(url, {
       headers: { "User-Agent": UA },
-      next: { revalidate: 3600 },
+      next: { revalidate: 60 },
     });
     if (!r.ok) return null;
     const d: any = await r.json();
@@ -95,7 +117,20 @@ async function fetchYahoo(symbol: string): Promise<RegularClose | null> {
       meta?.regularMarketPrice ?? meta?.previousClose ?? meta?.chartPreviousClose ?? null;
     if (typeof p !== "number" || !Number.isFinite(p) || p <= 0) return null;
     const currency = meta?.currency === "KRW" ? "KRW" : "USD";
-    return { price: p, currency, source: "yahoo" };
+    const previousClose =
+      typeof meta?.chartPreviousClose === "number" && meta.chartPreviousClose > 0
+        ? meta.chartPreviousClose
+        : typeof meta?.previousClose === "number" && meta.previousClose > 0
+        ? meta.previousClose
+        : null;
+    // marketState 가 endpoint 별로 들쭉날쭉 → currentTradingPeriod.regular {start, end} epoch 로 판단
+    const period = meta?.currentTradingPeriod?.regular;
+    const nowSec = Math.floor(Date.now() / 1000);
+    const start = typeof period?.start === "number" ? period.start : null;
+    const end = typeof period?.end === "number" ? period.end : null;
+    const isLive = start != null && end != null ? nowSec >= start && nowSec < end : false;
+    const tradedAt = typeof meta?.regularMarketTime === "number" ? meta.regularMarketTime : null;
+    return { price: p, previousClose, isLive, tradedAt, currency, source: "yahoo" };
   } catch {
     return null;
   }

@@ -156,12 +156,24 @@ export default async function SymbolPage({ params }: Props) {
 
         {m.hl_premium_pct != null && m.regular_close_krw != null && (
           <section className="mb-6 p-5 rounded-2xl bg-accent-blue/5 border border-accent-blue/20">
-            <div className="text-xs text-text-dim mb-3">
-              정규장 종가 대비 프리미엄 (야간/주말 가격 압력)
+            <div className="flex items-center justify-between gap-3 mb-3">
+              <div className="text-xs text-text-dim">
+                {m.is_intraday_live ? "정규장 장중가 대비 프리미엄 (야간 가격 압력)" : "정규장 종가 대비 프리미엄 (야간/주말 가격 압력)"}
+              </div>
+              {m.is_intraday_live ? (
+                <span className="inline-flex items-center gap-1 text-[10px] font-bold tabular text-accent-green shrink-0">
+                  <span className="w-1.5 h-1.5 rounded-full bg-accent-green animate-pulse-soft" />
+                  LIVE
+                </span>
+              ) : (
+                <span className="text-[10px] font-semibold tabular text-text-dim shrink-0">CLOSED</span>
+              )}
             </div>
             <div className="flex items-end justify-between gap-4 flex-wrap">
               <div>
-                <div className="text-xs text-text-dim mb-1">정규장 종가</div>
+                <div className="text-xs text-text-dim mb-1">
+                  {m.is_intraday_live ? "현재 장중" : "정규장 종가"}
+                </div>
                 <div className="text-xl font-semibold tabular text-text">
                   {row.is_index ? (
                     <>
@@ -180,6 +192,15 @@ export default async function SymbolPage({ params }: Props) {
                     </>
                   )}
                 </div>
+                {/* 장중일 때만 전일 종가 한 줄 추가 (안정 reference) */}
+                {m.is_intraday_live && m.regular_prev_close_krw != null && (
+                  <div className="text-[11px] text-text-dim tabular mt-1">
+                    전일 종가{" "}
+                    {row.category === "korea"
+                      ? `₩${Math.round(m.regular_prev_close_krw).toLocaleString("ko-KR")}`
+                      : `$${(m.regular_prev_close_usd ?? 0).toFixed(2)}`}
+                  </div>
+                )}
               </div>
               <div className="text-right">
                 <div className="text-xs text-text-dim mb-1">
@@ -271,7 +292,7 @@ export default async function SymbolPage({ params }: Props) {
           <Stat label="Funding Rate" value={`${(m.funding * 100).toFixed(4)}%`} />
           {m.regular_close_krw != null && (
             <Stat
-              label="정규장 종가"
+              label={m.is_intraday_live ? "정규장 (장중)" : "정규장 종가"}
               value={row.is_index
                 ? (m.regular_close_usd ?? 0).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
                 : row.category === "korea"

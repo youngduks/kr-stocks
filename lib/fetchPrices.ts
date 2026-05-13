@@ -24,10 +24,15 @@ export type PriceRow = SymbolMeta & {
     open_interest: number;
     day_volume_usd: number;
     funding: number;
-    /** 정규장 종가 (Naver KRW 또는 Yahoo USD) */
+    /** 정규장 가격 (장중이면 실시간 변동, 장 마감 후면 그날 종가). Naver KRW 또는 Yahoo USD */
     regular_close: number | null;
     regular_close_krw: number | null;
     regular_close_usd: number | null;
+    /** 전일 종가 — 장중 비교 reference (안정값). 가용한 종목만. */
+    regular_prev_close_krw: number | null;
+    regular_prev_close_usd: number | null;
+    /** 정규장 개장 중 여부. true면 regular_close_* = 실시간 장중가. */
+    is_intraday_live: boolean;
     regular_source: "naver" | "yahoo" | null;
     /** HL 가격 vs 정규장 종가 premium (%). 비상장/매핑 없으면 null */
     hl_premium_pct: number | null;
@@ -92,18 +97,28 @@ export async function fetchAllPrices(): Promise<{
     const per_share_usd = (ratio != null && !isFx) ? mark * ratio : null;
     const per_share_krw = (ratio != null && !isFx) ? krw_price * ratio : null;
 
-    // 정규장 종가 + premium 계산
+    // 정규장 가격 (장중이면 실시간) + 전일 종가 + premium 계산
     const rc: RegularClose | undefined = regCloses[sym.slug];
     let regular_close_krw: number | null = null;
     let regular_close_usd: number | null = null;
+    let regular_prev_close_krw: number | null = null;
+    let regular_prev_close_usd: number | null = null;
     let hl_premium_pct: number | null = null;
     if (rc) {
       if (rc.currency === "KRW") {
         regular_close_krw = rc.price;
         regular_close_usd = fx.rate > 0 ? rc.price / fx.rate : null;
+        if (rc.previousClose != null && rc.previousClose > 0) {
+          regular_prev_close_krw = rc.previousClose;
+          regular_prev_close_usd = fx.rate > 0 ? rc.previousClose / fx.rate : null;
+        }
       } else {
         regular_close_usd = rc.price;
         regular_close_krw = rc.price * fx.rate;
+        if (rc.previousClose != null && rc.previousClose > 0) {
+          regular_prev_close_usd = rc.previousClose;
+          regular_prev_close_krw = rc.previousClose * fx.rate;
+        }
       }
       // HL vs 정규장 비교 — USD 기준 (환율 영향 제거)
       // 단 ratio가 적용된 한국 주식은 per_share_usd 기준
@@ -116,6 +131,8 @@ export async function fetchAllPrices(): Promise<{
         } else {
           regular_close_krw = null;
           regular_close_usd = null;
+          regular_prev_close_krw = null;
+          regular_prev_close_usd = null;
         }
       }
     }
@@ -135,6 +152,9 @@ export async function fetchAllPrices(): Promise<{
         regular_close: rc?.price ?? null,
         regular_close_krw: regular_close_krw != null ? round(regular_close_krw, 2) : null,
         regular_close_usd: regular_close_usd != null ? round(regular_close_usd, 4) : null,
+        regular_prev_close_krw: regular_prev_close_krw != null ? round(regular_prev_close_krw, 2) : null,
+        regular_prev_close_usd: regular_prev_close_usd != null ? round(regular_prev_close_usd, 4) : null,
+        is_intraday_live: rc?.isLive === true,
         regular_source: rc?.source ?? null,
         hl_premium_pct: hl_premium_pct != null ? round(hl_premium_pct, 2) : null,
       },

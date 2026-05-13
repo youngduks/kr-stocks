@@ -8,8 +8,9 @@ const I18N = {
     title: "HL 거래자 포지션",
     long: "LONG",
     short: "SHORT",
-    funding: "funding",
-    source: "Hyperliquid 8h funding 기준",
+    funding: "1H 펀딩",
+    aprLabel: "연환산 APR",
+    source: "Hyperliquid 1H funding 기준 (HL은 매시간 정산)",
     neutralLabel: "균형",
     longHeavy: "롱 우세",
     shortHeavy: "숏 우세",
@@ -18,8 +19,9 @@ const I18N = {
     title: "HL Trader Positioning",
     long: "LONG",
     short: "SHORT",
-    funding: "funding",
-    source: "Based on Hyperliquid 8h funding rate",
+    funding: "1H funding",
+    aprLabel: "Annualized APR",
+    source: "Based on Hyperliquid 1H funding rate (settled hourly)",
     neutralLabel: "Balanced",
     longHeavy: "Long heavy",
     shortHeavy: "Short heavy",
@@ -64,9 +66,16 @@ export function FundingBar({
     ? "text-accent-blue"
     : "text-text-muted";
 
-  // funding rate 표시 — 8h 기준 (×100 % 환산)
+  // funding rate 표시 — HL은 1H 정산 (매시간) → APR = 1H rate × 24 × 365 × 100
   const fundingPctText = (funding * 100).toFixed(4);
   const fundingSign = funding > 0 ? "+" : "";
+  const aprPct = funding * 24 * 365 * 100; // 연환산
+  const aprSign = aprPct > 0 ? "+" : "";
+  const aprText = Math.abs(aprPct) >= 100
+    ? aprPct.toFixed(0)
+    : aprPct.toFixed(2);
+  // 라오니와 다른 형님식 강조 — APR 큰 글씨로 trader 직격
+  const aprColor = aprPct > 0 ? "text-accent-green" : aprPct < 0 ? "text-accent-blue" : "text-text-muted";
 
   return (
     <section className="mb-6 p-4 rounded-2xl bg-bg-card border border-line">
@@ -101,6 +110,14 @@ export function FundingBar({
         <div className="text-accent-blue font-semibold">
           {shortPct.toFixed(0)}% {t.short}
         </div>
+      </div>
+
+      {/* APR 환산 — 라오니와 다른 형님식 별도 줄 강조 (trader 직격) */}
+      <div className="mt-3 pt-3 border-t border-line/40 flex items-baseline justify-between gap-2">
+        <span className="text-[11px] text-text-dim">{t.aprLabel}</span>
+        <span className={`text-base font-bold tabular ${aprColor}`}>
+          {aprSign}{aprText}%
+        </span>
       </div>
 
       <p className="mt-2 text-[10px] text-text-dim leading-relaxed">

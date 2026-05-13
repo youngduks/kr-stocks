@@ -215,10 +215,16 @@ export async function fetchAllPrices(): Promise<{
           // 변동률 phase 인지 :
           //   live/nxt → 네이버/야후 전일 대비 ratio (메인 가격과 정합)
           //   closed → HL 24h chg (mark vs prevDayPx, chg 변수 그대로)
+          // 라벨은 phase별로 차별 — 라오니 "5/13 종가 기준" 모방 회피, 형님 phase 인지 강조
           const useRegularChg =
             (phase === "live" || phase === "nxt") && rc?.fluctuationsRatio != null;
           const mainChg = useRegularChg ? rc!.fluctuationsRatio! : chg;
-          const mainLabel = useRegularChg ? "전일 대비" : "HL 24h";
+          const mainLabel =
+            phase === "live" && useRegularChg
+              ? "장중 변동"
+              : phase === "nxt" && useRegularChg
+              ? "NXT 변동"
+              : "HL 24h";
           return {
             main_display_krw: round(mainKrw, 2),
             main_display_usd: round(mainUsd, 4),

@@ -255,6 +255,25 @@ export default async function SymbolPage({ params }: Props) {
           <div className={`mt-4 text-lg font-bold tabular ${colorClass}`}>
             {isUp ? "▲" : isDn ? "▼" : ""} {Math.abs(mainChg).toFixed(2)}% ({mainChgLabel})
           </div>
+
+          {/* Hyperliquid 거래 CTA — 라오니 우상단 라운드 "거래" 모방 회피, 형님은 박스 하단 outline 버튼 + 거래소명 직접 */}
+          {!row.is_fx && (() => {
+            const sym = row.ticker.split(":")[1];
+            if (!sym) return null;
+            const tradeUrl = `https://app.hyperliquid.xyz/trade/${sym}`;
+            return (
+              <a
+                href={tradeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-accent-blue hover:text-accent-blue/80 px-3 py-1.5 rounded-lg border border-accent-blue/30 hover:border-accent-blue/60 hover:bg-accent-blue/5 transition-colors tabular"
+                aria-label="Hyperliquid 에서 거래"
+                title="Hyperliquid 트레이딩 페이지 열기 (외부)"
+              >
+                Hyperliquid 에서 거래 <span aria-hidden>↗</span>
+              </a>
+            );
+          })()}
         </section>
 
         {m.hl_premium_pct != null && m.regular_close_krw != null && (() => {

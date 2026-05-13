@@ -38,13 +38,19 @@ export type PriceRow = SymbolMeta & {
     hl_premium_pct: number | null;
     /**
      * 시간대 인지 메인 표시 가격 (UI 우선 사용).
-     *  - 정규장 장중 (is_intraday_live=true) + regular_close 가용 → regular_close
-     *  - 그 외 (장 마감/비상장/매핑 없음) → HL per_share (한국·미국·지수) / mark (비상장)
+     *  - "live"  KRX/NYSE 정규장 장중 → regular_close
+     *  - "nxt"   NXT 시간외 거래중 → nxt_price (한국주식 only)
+     *  - "closed" 휴장 → HL per_share / mark
      */
     main_display_krw: number | null;
     main_display_usd: number | null;
-    /** 메인 표시 가격의 소스 — UI 라벨 분기용. */
-    main_source: "regular_live" | "hl_perp";
+    /** 메인 표시 가격의 소스 — UI 라벨/색 분기. */
+    main_source: "regular_live" | "nxt_live" | "hl_perp";
+    /** 시장 phase — 동그라미 색 + 라벨 분기 (3-tier). */
+    market_phase: "live" | "nxt" | "closed";
+    /** NXT 시간외 가격 (한국주식·KRW). phase="nxt" 일 때 메인. */
+    nxt_price_krw: number | null;
+    nxt_price_usd: number | null;
   } | null;
 };
 
@@ -106,12 +112,14 @@ export async function fetchAllPrices(): Promise<{
     const per_share_usd = (ratio != null && !isFx) ? mark * ratio : null;
     const per_share_krw = (ratio != null && !isFx) ? krw_price * ratio : null;
 
-    // 정규장 가격 (장중이면 실시간) + 전일 종가 + premium 계산
+    // 정규장 가격 (장중이면 실시간) + 전일 종가 + NXT 시간외 + premium 계산
     const rc: RegularClose | undefined = regCloses[sym.slug];
     let regular_close_krw: number | null = null;
     let regular_close_usd: number | null = null;
     let regular_prev_close_krw: number | null = null;
     let regular_prev_close_usd: number | null = null;
+    let nxt_price_krw: number | null = null;
+    let nxt_price_usd: number | null = null;
     let hl_premium_pct: number | null = null;
     if (rc) {
       if (rc.currency === "KRW") {
@@ -121,6 +129,10 @@ export async function fetchAllPrices(): Promise<{
           regular_prev_close_krw = rc.previousClose;
           regular_prev_close_usd = fx.rate > 0 ? rc.previousClose / fx.rate : null;
         }
+        if (rc.nxtPrice != null && rc.nxtPrice > 0) {
+          nxt_price_krw = rc.nxtPrice;
+          nxt_price_usd = fx.rate > 0 ? rc.nxtPrice / fx.rate : null;
+        }
       } else {
         regular_close_usd = rc.price;
         regular_close_krw = rc.price * fx.rate;
@@ -128,6 +140,7 @@ export async function fetchAllPrices(): Promise<{
           regular_prev_close_usd = rc.previousClose;
           regular_prev_close_krw = rc.previousClose * fx.rate;
         }
+        // Yahoo (미국·글로벌) 는 nxtPrice null — 분기 불필요
       }
       // HL vs 정규장 비교 — USD 기준 (환율 영향 제거)
       // 단 ratio가 적용된 한국 주식은 per_share_usd 기준
@@ -142,6 +155,8 @@ export async function fetchAllPrices(): Promise<{
           regular_close_usd = null;
           regular_prev_close_krw = null;
           regular_prev_close_usd = null;
+          nxt_price_krw = null;
+          nxt_price_usd = null;
         }
       }
     }
@@ -166,16 +181,34 @@ export async function fetchAllPrices(): Promise<{
         is_intraday_live: rc?.isLive === true,
         regular_source: rc?.source ?? null,
         hl_premium_pct: hl_premium_pct != null ? round(hl_premium_pct, 2) : null,
-        // 시간대 인지 메인 가격 — 장중이면 정규장 실시간, 그 외엔 HL per_share
+        nxt_price_krw: nxt_price_krw != null ? round(nxt_price_krw, 2) : null,
+        nxt_price_usd: nxt_price_usd != null ? round(nxt_price_usd, 4) : null,
+        // 시간대 인지 메인 가격 — 3-phase 분기
         ...(() => {
-          const useRegular = rc?.isLive === true && regular_close_krw != null;
+          const phase = rc?.phase ?? "closed";
           const hlKrw = per_share_krw ?? krw_price;
           // isFx 종목은 mark가 KRW 단위 — USD 표시값은 1.0
           const hlUsd = per_share_usd ?? (isFx ? 1.0 : mark);
+          let mainKrw: number, mainUsd: number;
+          let mainSource: "regular_live" | "nxt_live" | "hl_perp";
+          if (phase === "live" && regular_close_krw != null) {
+            mainKrw = regular_close_krw;
+            mainUsd = regular_close_usd ?? hlUsd;
+            mainSource = "regular_live";
+          } else if (phase === "nxt" && nxt_price_krw != null) {
+            mainKrw = nxt_price_krw;
+            mainUsd = nxt_price_usd ?? hlUsd;
+            mainSource = "nxt_live";
+          } else {
+            mainKrw = hlKrw;
+            mainUsd = hlUsd;
+            mainSource = "hl_perp";
+          }
           return {
-            main_display_krw: round(useRegular ? regular_close_krw! : hlKrw, 2),
-            main_display_usd: round(useRegular && regular_close_usd != null ? regular_close_usd : hlUsd, 4),
-            main_source: (useRegular ? "regular_live" : "hl_perp") as "regular_live" | "hl_perp",
+            main_display_krw: round(mainKrw, 2),
+            main_display_usd: round(mainUsd, 4),
+            main_source: mainSource,
+            market_phase: phase,
           };
         })(),
       },

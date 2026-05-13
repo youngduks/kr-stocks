@@ -20,6 +20,8 @@ const I18N = {
     netBuy: "순매수",
     netSell: "순매도",
     live: "LIVE",
+    nxt: "NXT",
+    hyperliq: "Hyperliq",
     footer: "각 종목 탭 = HL 24h + 정규장 + 증권사 분석 + 외인·기관 + funding + 차트 한 화면",
   },
   en: {
@@ -33,6 +35,8 @@ const I18N = {
     netBuy: "Net Buy",
     netSell: "Net Sell",
     live: "LIVE",
+    nxt: "NXT",
+    hyperliq: "Hyperliq",
     footer: "Each ticker = HL 24h + Regular close + Broker consensus + Foreign/Institutional flow + funding + chart on one screen",
   },
 } as const;
@@ -96,6 +100,7 @@ export function HomeHero({
       foreignWon: flow?.cumulative_5d.foreign_won ?? null,
       institutionalWon: flow?.cumulative_5d.institutional_won ?? null,
       isLive: row.market.is_intraday_live === true,
+      phase: row.market.market_phase ?? "closed",
     };
   }).filter((x): x is NonNullable<typeof x> => x != null);
 
@@ -143,15 +148,24 @@ export function HomeHero({
                     <div className="text-sm sm:text-base font-bold text-text truncate group-hover:text-accent-blue transition">
                       {name}
                     </div>
-                    {item.isLive && (
-                      <span
-                        className="inline-flex items-center gap-1 text-[9px] sm:text-[10px] font-bold tabular text-accent-green shrink-0"
-                        title={locale === "en" ? "KRX market open" : "한국 정규장 거래중"}
-                      >
-                        <span className="w-1.5 h-1.5 rounded-full bg-accent-green animate-pulse-soft" />
-                        {t.live}
-                      </span>
-                    )}
+                    {(() => {
+                      // 3-phase pill — LIVE 🟢 / NXT 🟠 / Hyperliq 🔵
+                      const phaseCfg =
+                        item.phase === "live"
+                          ? { text: t.live, color: "text-accent-green", dot: "bg-accent-green", pulse: true, title: locale === "en" ? "KRX market open" : "한국 정규장 거래중" }
+                          : item.phase === "nxt"
+                          ? { text: t.nxt, color: "text-accent-amber", dot: "bg-accent-amber", pulse: true, title: locale === "en" ? "NXT after-hours" : "NXT 시간외 거래중" }
+                          : { text: t.hyperliq, color: "text-accent-blue", dot: "bg-accent-blue", pulse: false, title: locale === "en" ? "Hyperliquid 24h" : "Hyperliquid 24h 기준" };
+                      return (
+                        <span
+                          className={`inline-flex items-center gap-1 text-[9px] sm:text-[10px] font-bold tabular ${phaseCfg.color} shrink-0`}
+                          title={phaseCfg.title}
+                        >
+                          <span className={`w-1.5 h-1.5 rounded-full ${phaseCfg.dot} ${phaseCfg.pulse ? "animate-pulse-soft" : ""}`} />
+                          {phaseCfg.text}
+                        </span>
+                      );
+                    })()}
                   </div>
                   {item.currentKrw != null && item.avgTargetKrw != null && (
                     <div className="text-[10px] sm:text-[11px] text-text-dim tabular mt-0.5 leading-tight">

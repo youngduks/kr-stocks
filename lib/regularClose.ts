@@ -55,13 +55,24 @@ const MAPPING: Record<string, RegularSource> = {
   dxy: { source: "yahoo", symbol: "DX-Y.NYB" },
 };
 
+export type MarketPhase = "live" | "nxt" | "closed";
+
 export type RegularClose = {
   /** 마지막 거래가 — 장중이면 실시간 변동, 장 마감 후면 그날 종가. */
   price: number;
   /** 전일 종가 — 장중 비교 reference (안정값). */
   previousClose: number | null;
-  /** 정규장 개장 여부 — true면 price = 실시간 장중가. */
+  /** 정규장 개장 여부 — true면 price = 실시간 장중가. (live phase only) */
   isLive: boolean;
+  /**
+   * 시장 phase :
+   *  - "live"   KRX/NYSE 정규장 거래중
+   *  - "nxt"    NXT 시간외 거래중 (한국주식 only, 15:30~20:00 KST)
+   *  - "closed" 모두 휴장 (HL 24h perp 만 거래)
+   */
+  phase: MarketPhase;
+  /** NXT 시간외 가격 (한국주식·KRW 단위, phase="nxt"일 때 메인). */
+  nxtPrice: number | null;
   /** 마지막 거래 시각 (epoch sec). UI 보조. */
   tradedAt: number | null;
   currency: "USD" | "KRW";
@@ -87,15 +98,26 @@ async function fetchNaver(code: string): Promise<RegularClose | null> {
     const previousClose = Number.isFinite(diff) ? p - diff : null;
     // marketStatus: "OPEN" | "CLOSE" | (그 외) → isLive
     const isLive = String(d?.marketStatus ?? "").toUpperCase() === "OPEN";
-    // localTradedAt: ISO 8601 with KST offset
+    // NXT 시간외 — overMarketPriceInfo.overMarketStatus="OPEN" 일 때 nxt phase + overPrice 사용
+    const omi = d?.overMarketPriceInfo;
+    const overOpen =
+      omi != null && String(omi?.overMarketStatus ?? "").toUpperCase() === "OPEN";
+    const overPrice = overOpen
+      ? parseFloat(String(omi?.overPrice ?? "").replace(/,/g, ""))
+      : NaN;
+    const nxtPrice = Number.isFinite(overPrice) && overPrice > 0 ? overPrice : null;
+    // phase 결정 — 우선순위: KRX 정규장 OPEN > NXT 시간외 OPEN > closed
+    const phase: MarketPhase = isLive ? "live" : nxtPrice != null ? "nxt" : "closed";
+    // localTradedAt: ISO 8601 with KST offset (NXT 시간엔 omi.localTradedAt 가 더 최신)
     let tradedAt: number | null = null;
     try {
-      const t = new Date(String(d?.localTradedAt ?? "")).getTime();
+      const ts = phase === "nxt" ? String(omi?.localTradedAt ?? "") : String(d?.localTradedAt ?? "");
+      const t = new Date(ts).getTime();
       if (Number.isFinite(t)) tradedAt = Math.floor(t / 1000);
     } catch {
       tradedAt = null;
     }
-    return { price: p, previousClose, isLive, tradedAt, currency: "KRW", source: "naver" };
+    return { price: p, previousClose, isLive, phase, nxtPrice, tradedAt, currency: "KRW", source: "naver" };
   } catch {
     return null;
   }
@@ -130,7 +152,9 @@ async function fetchYahoo(symbol: string): Promise<RegularClose | null> {
     const end = typeof period?.end === "number" ? period.end : null;
     const isLive = start != null && end != null ? nowSec >= start && nowSec < end : false;
     const tradedAt = typeof meta?.regularMarketTime === "number" ? meta.regularMarketTime : null;
-    return { price: p, previousClose, isLive, tradedAt, currency, source: "yahoo" };
+    // Yahoo (미국·글로벌) 는 NXT 개념 없음 — live / closed 2-phase 만
+    const phase: MarketPhase = isLive ? "live" : "closed";
+    return { price: p, previousClose, isLive, phase, nxtPrice: null, tradedAt, currency, source: "yahoo" };
   } catch {
     return null;
   }

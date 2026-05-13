@@ -117,35 +117,81 @@ export default async function SymbolPage({ params }: Props) {
         </section>
 
         <section className="bg-bg-card border border-line rounded-2xl p-6 mb-6">
-          {/* 시간대 인지 라벨 — 장중이면 KRX/NYSE 장중, 그 외엔 HL 24h (HL 은 24/7 거래라 "야간" 부정확) */}
-          <div className="flex items-center justify-between gap-2 mb-2">
-            <div className="text-xs text-text-dim">
-              {m.main_source === "regular_live"
-                ? (row.category === "korea" ? "KRX 장중 거래가 (실시간)" : row.category === "us" ? "미국 정규장 거래가 (실시간)" : "정규장 거래가 (실시간)")
-                : "HL 24h 시세"}
-            </div>
-            {m.main_source === "regular_live" && (
-              <span className="inline-flex items-center gap-1 text-[10px] font-bold tabular text-accent-green shrink-0">
-                <span className="w-1.5 h-1.5 rounded-full bg-accent-green animate-pulse-soft" />
-                LIVE
-              </span>
-            )}
-          </div>
+          {/* 3-phase 라벨 + pill (LIVE 🟢 / NXT 🟠 / Hyperliq 🔵) — 시장 시간 자동 인지 */}
+          {(() => {
+            const phase = m.market_phase;
+            const phaseMeta =
+              phase === "live"
+                ? {
+                    label:
+                      row.category === "korea"
+                        ? "KRX 장중 거래가 (실시간)"
+                        : row.category === "us"
+                        ? "미국 정규장 거래가 (실시간)"
+                        : "정규장 거래가 (실시간)",
+                    pill: "LIVE",
+                    pillColor: "text-accent-green",
+                    dotColor: "bg-accent-green",
+                    pulse: true,
+                  }
+                : phase === "nxt"
+                ? {
+                    label: "NXT 시간외 거래가 (15:30~20:00 KST)",
+                    pill: "NXT",
+                    pillColor: "text-accent-amber",
+                    dotColor: "bg-accent-amber",
+                    pulse: true,
+                  }
+                : {
+                    label: "Hyperliquid HIP-3 perp (24h)",
+                    pill: "Hyperliq",
+                    pillColor: "text-accent-blue",
+                    dotColor: "bg-accent-blue",
+                    pulse: false,
+                  };
+            return (
+              <div className="flex items-center justify-between gap-2 mb-2">
+                <div className="text-xs text-text-dim">{phaseMeta.label}</div>
+                <span className={`inline-flex items-center gap-1 text-[10px] font-bold tabular ${phaseMeta.pillColor} shrink-0`}>
+                  <span className={`w-1.5 h-1.5 rounded-full ${phaseMeta.dotColor} ${phaseMeta.pulse ? "animate-pulse-soft" : ""}`} />
+                  {phaseMeta.pill}
+                </span>
+              </div>
+            );
+          })()}
           {row.category === "korea" ? (
             <>
               <div className="text-4xl md:text-5xl font-bold tabular text-text mb-1">
                 ₩{Math.round(m.main_display_krw ?? m.per_share_krw ?? m.krw_price).toLocaleString("ko-KR")}
               </div>
-              {/* 한국주식 = 한국 retail 직격 → 원화만, 달러 환산 X. 장중일 땐 HL 24h 비교 reference 만 표시. */}
-              {m.main_source === "regular_live" ? (
-                <div className="text-sm text-text-muted tabular">
-                  HL 24h ≈ ₩{Math.round(m.per_share_krw ?? m.krw_price).toLocaleString("ko-KR")}
-                </div>
-              ) : row.share_ratio != null && row.share_ratio !== 1.0 ? (
-                <div className="text-sm text-text-muted tabular">
-                  1주 환산 · HL contract = {(1/row.share_ratio).toFixed(1)}주 묶음
-                </div>
-              ) : null}
+              {/* 한국주식 = 원화만 (한국 retail 직격, 달러 환산 X) */}
+              {/* phase 별 보조 줄 — 종가 (작게, 항상) + HL 24h reference (closed phase 아닐 때) */}
+              <div className="mt-1 space-y-0.5">
+                {/* 종가 — 항상 표시. label 동적. */}
+                {(m.market_phase === "closed"
+                  ? m.regular_close_krw != null && (
+                      <div className="text-[12px] text-text-dim tabular">
+                        KRX 종가 ₩{Math.round(m.regular_close_krw).toLocaleString("ko-KR")}
+                      </div>
+                    )
+                  : m.regular_prev_close_krw != null && (
+                      <div className="text-[12px] text-text-dim tabular">
+                        전일 종가 ₩{Math.round(m.regular_prev_close_krw).toLocaleString("ko-KR")}
+                      </div>
+                    )) || null}
+                {/* HL 24h reference — live/nxt phase 일 때 (closed 모드엔 메인이 HL이라 중복 회피) */}
+                {m.market_phase !== "closed" && (
+                  <div className="text-sm text-text-muted tabular">
+                    HL 24h ≈ ₩{Math.round(m.per_share_krw ?? m.krw_price).toLocaleString("ko-KR")}
+                  </div>
+                )}
+                {/* share_ratio 정보 (closed phase + ratio ≠ 1.0 인 경우만) */}
+                {m.market_phase === "closed" && row.share_ratio != null && row.share_ratio !== 1.0 && (
+                  <div className="text-sm text-text-muted tabular">
+                    1주 환산 · HL contract = {(1/row.share_ratio).toFixed(1)}주 묶음
+                  </div>
+                )}
+              </div>
             </>
           ) : row.is_index ? (
             <>
@@ -155,6 +201,12 @@ export default async function SymbolPage({ params }: Props) {
               <div className="text-sm text-text-muted tabular">
                 {m.main_source === "regular_live" ? "정규장 지수 (포인트)" : "HL 24h 지수 (포인트)"}
               </div>
+              {/* 지수도 종가 한 줄 (작게) */}
+              {m.market_phase !== "closed" && m.regular_prev_close_usd != null && (
+                <div className="text-[12px] text-text-dim tabular mt-1">
+                  전일 종가 {m.regular_prev_close_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                </div>
+              )}
             </>
           ) : row.is_private ? (
             <>
@@ -171,6 +223,18 @@ export default async function SymbolPage({ params }: Props) {
                   ? <>HL 24h ≈ ${m.mark_px_usd.toFixed(2)}</>
                   : <>≈ ₩{Math.round(m.krw_price).toLocaleString("ko-KR")}</>}
               </div>
+              {/* 미국주식 종가 한 줄 (작게) */}
+              {m.market_phase === "closed"
+                ? m.regular_close_usd != null && (
+                    <div className="text-[12px] text-text-dim tabular mt-1">
+                      정규장 종가 ${m.regular_close_usd.toFixed(2)}
+                    </div>
+                  )
+                : m.regular_prev_close_usd != null && (
+                    <div className="text-[12px] text-text-dim tabular mt-1">
+                      전일 종가 ${m.regular_prev_close_usd.toFixed(2)}
+                    </div>
+                  )}
             </>
           )}
 

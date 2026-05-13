@@ -76,14 +76,23 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
           <div className="flex flex-col gap-0.5 min-w-0">
             <div className="flex items-center gap-1.5 min-w-0">
               <div className="text-base font-semibold text-text truncate">{displayName}</div>
-              {/* 정규장 LIVE indicator — 한국·미국·글로벌 종목만 (비상장 제외). */}
-              {m?.is_intraday_live && !row.is_private && (
-                <span
-                  className="inline-block w-1.5 h-1.5 rounded-full bg-accent-green animate-pulse-soft shrink-0"
-                  title={locale === "en" ? "Market open" : "정규장 거래중"}
-                  aria-label={locale === "en" ? "Market open" : "정규장 거래중"}
-                />
-              )}
+              {/* 3-phase dot — LIVE 🟢 / NXT 🟠 / Hyperliq 🔵. 비상장은 phase 자체 없음(아예 dot X). */}
+              {!row.is_private && m?.market_phase && (() => {
+                const phase = m.market_phase;
+                const cfg =
+                  phase === "live"
+                    ? { color: "bg-accent-green", pulse: true, title: locale === "en" ? "Market open (LIVE)" : "정규장 거래중" }
+                    : phase === "nxt"
+                    ? { color: "bg-accent-amber", pulse: true, title: locale === "en" ? "NXT after-hours" : "NXT 시간외 거래" }
+                    : { color: "bg-accent-blue", pulse: false, title: locale === "en" ? "Hyperliquid 24h" : "Hyperliquid 24h 기준" };
+                return (
+                  <span
+                    className={`inline-block w-1.5 h-1.5 rounded-full ${cfg.color} ${cfg.pulse ? "animate-pulse-soft" : ""} shrink-0`}
+                    title={cfg.title}
+                    aria-label={cfg.title}
+                  />
+                );
+              })()}
             </div>
             <div className="text-xs text-text-dim font-medium tracking-wider">{row.ticker.split(":")[1]}</div>
           </div>

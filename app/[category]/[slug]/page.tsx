@@ -329,25 +329,42 @@ export default async function SymbolPage({ params }: Props) {
                 <div className="text-xs text-text-dim mb-1">
                   프리미엄
                 </div>
-                <div className={`${row.category === "korea" ? "text-4xl md:text-5xl" : "text-3xl"} font-bold tabular ${m.hl_premium_pct > 0 ? "text-accent-green" : m.hl_premium_pct < 0 ? "text-accent-blue" : "text-text-muted"}`}>
-                  {m.hl_premium_pct > 0 ? "▲ +" : m.hl_premium_pct < 0 ? "▼ " : ""}{m.hl_premium_pct.toFixed(2)}%
-                </div>
                 {(() => {
-                  // 갭 절댓값 — 한국 ₩, 미국 $
+                  // phase 인지 premium — 박스 2 가격 (HL or KRX 종가) vs 박스 1 메인 가격 비교
+                  //   live  : 박스 2 HL, 박스 1 메인 KRX 장중 → (HL - KRX 장중) / KRX 장중
+                  //   nxt   : 박스 2 HL, 박스 1 메인 NXT → (HL - NXT) / NXT
+                  //   closed: 박스 2 KRX 종가, 박스 1 메인 HL → (HL - KRX 종가) / KRX 종가
+                  // 통일 : 기준 (denominator) = closed 면 regular_close, 그 외엔 main_display
+                  const refKrw = m.market_phase === "closed"
+                    ? m.regular_close_krw
+                    : (m.main_display_krw ?? m.regular_close_krw);
+                  const refUsd = m.market_phase === "closed"
+                    ? m.regular_close_usd
+                    : (m.main_display_usd ?? m.regular_close_usd);
+                  let pct = m.hl_premium_pct;
                   let gap = 0;
                   let gapText: string | null = null;
-                  if (row.category === "korea") {
-                    gap = Math.round((m.per_share_krw ?? m.krw_price) - m.regular_close_krw);
+                  if (row.category === "korea" && refKrw != null && refKrw > 0) {
+                    gap = Math.round((m.per_share_krw ?? m.krw_price) - refKrw);
+                    pct = (((m.per_share_krw ?? m.krw_price) - refKrw) / refKrw) * 100;
                     gapText = `${gap > 0 ? "+" : gap < 0 ? "−" : ""}₩${Math.abs(gap).toLocaleString("ko-KR")}`;
-                  } else if (row.category === "us" && m.regular_close_usd != null) {
-                    gap = m.mark_px_usd - m.regular_close_usd;
+                  } else if (row.category === "us" && refUsd != null && refUsd > 0) {
+                    gap = m.mark_px_usd - refUsd;
+                    pct = ((m.mark_px_usd - refUsd) / refUsd) * 100;
                     gapText = `${gap > 0 ? "+" : gap < 0 ? "−" : ""}$${Math.abs(gap).toFixed(2)}`;
                   }
-                  if (gapText == null) return null;
+                  const pctColor = pct > 0 ? "text-accent-green" : pct < 0 ? "text-accent-blue" : "text-text-muted";
                   return (
-                    <div className={`text-sm font-semibold tabular mt-1 ${gap > 0 ? "text-accent-green" : gap < 0 ? "text-accent-blue" : "text-text-muted"}`}>
-                      {gapText}
-                    </div>
+                    <>
+                      <div className={`${row.category === "korea" ? "text-4xl md:text-5xl" : "text-3xl"} font-bold tabular ${pctColor}`}>
+                        {pct > 0 ? "▲ +" : pct < 0 ? "▼ " : ""}{Math.abs(pct).toFixed(2)}%
+                      </div>
+                      {gapText && (
+                        <div className={`text-sm font-semibold tabular mt-1 ${gap > 0 ? "text-accent-green" : gap < 0 ? "text-accent-blue" : "text-text-muted"}`}>
+                          {gapText}
+                        </div>
+                      )}
+                    </>
                   );
                 })()}
               </div>

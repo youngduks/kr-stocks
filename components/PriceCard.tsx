@@ -157,23 +157,29 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
 
         {m?.hl_premium_pct != null && (() => {
           const isUS = cat === "us";
-          // 갭 절댓값 — 한국주식은 ₩, 미국주식은 $
+          // phase 인지 — 카드 메인 가격 vs KRX 종가 (메인이 NXT 면 NXT vs KRX 종가, 메인이 HL 면 HL vs KRX 종가).
+          // 형님 지적 : 차액이 메인 가격과 매칭되어야 retail 정합.
+          const mainKrw = m.main_display_krw ?? m.per_share_krw ?? m.krw_price;
+          const mainUsd = m.main_display_usd ?? m.mark_px_usd;
           let gapText: string | null = null;
-          if (isKR && m.regular_close_krw != null) {
-            const g = Math.round((m.per_share_krw ?? m.krw_price) - m.regular_close_krw);
+          let pct: number = m.hl_premium_pct;
+          if (isKR && m.regular_close_krw != null && m.regular_close_krw > 0) {
+            const g = Math.round(mainKrw - m.regular_close_krw);
+            pct = ((mainKrw - m.regular_close_krw) / m.regular_close_krw) * 100;
             gapText = `${g > 0 ? "+" : g < 0 ? "−" : ""}₩${Math.abs(g).toLocaleString("ko-KR")}`;
-          } else if (isUS && m.regular_close_usd != null) {
-            const g = m.mark_px_usd - m.regular_close_usd;
+          } else if (isUS && m.regular_close_usd != null && m.regular_close_usd > 0) {
+            const g = mainUsd - m.regular_close_usd;
+            pct = ((mainUsd - m.regular_close_usd) / m.regular_close_usd) * 100;
             gapText = `${g > 0 ? "+" : g < 0 ? "−" : ""}$${Math.abs(g).toFixed(2)}`;
           }
-          const premColor = m.hl_premium_pct > 0 ? "text-accent-green" : m.hl_premium_pct < 0 ? "text-accent-blue" : "text-text-muted";
+          const premColor = pct > 0 ? "text-accent-green" : pct < 0 ? "text-accent-blue" : "text-text-muted";
           return (
             <div className={`mt-2 pt-2 border-t border-line/60 flex items-start justify-between gap-2 tabular ${isKR ? "text-sm" : "text-xs"}`}>
               <span className="text-text-dim pt-0.5 text-xs whitespace-nowrap shrink-0">
                 {t.vsRegular}
               </span>
               <span className={`text-right ${isKR ? "text-base font-bold" : "font-semibold"} ${premColor}`}>
-                {m.hl_premium_pct > 0 ? "▲ +" : m.hl_premium_pct < 0 ? "▼ " : ""}{m.hl_premium_pct.toFixed(2)}%
+                {pct > 0 ? "▲ +" : pct < 0 ? "▼ " : ""}{Math.abs(pct).toFixed(2)}%
                 {gapText && (
                   <span className="block text-[11px] font-normal mt-0.5 opacity-90">
                     {gapText}

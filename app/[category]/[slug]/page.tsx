@@ -243,61 +243,66 @@ export default async function SymbolPage({ params }: Props) {
           </div>
         </section>
 
-        {m.hl_premium_pct != null && m.regular_close_krw != null && (
+        {m.hl_premium_pct != null && m.regular_close_krw != null && (() => {
+          // 박스 2 phase 3-way 분기 :
+          //   live  → "HL 24h 시세 vs 장중 프리미엄" + HL 가격 표시
+          //   nxt   → "HL 24h 시세 vs NXT 프리미엄" + HL 가격 표시
+          //   closed → "정규장 종가 대비 프리미엄 (야간/주말 가격 압력)" + 정규장 종가 표시
+          const phase = m.market_phase;
+          const showHL = phase === "live" || phase === "nxt";
+          const headerLabel =
+            phase === "live" ? "HL 24h 시세 vs 장중 프리미엄"
+            : phase === "nxt" ? "HL 24h 시세 vs NXT 프리미엄"
+            : "정규장 종가 대비 프리미엄 (야간/주말 가격 압력)";
+          const rightTag =
+            phase === "live" ? "HL 24h"
+            : phase === "nxt" ? "HL 24h"
+            : "CLOSED";
+          const priceLabel = showHL ? "HL 24h" : "정규장 종가";
+          return (
           <section className="mb-6 p-5 rounded-2xl bg-accent-blue/5 border border-accent-blue/20">
             <div className="flex items-center justify-between gap-3 mb-3">
-              <div className="text-xs text-text-dim">
-                {m.is_intraday_live ? "HL 24h 시세 vs 장중 프리미엄" : "정규장 종가 대비 프리미엄 (야간/주말 가격 압력)"}
-              </div>
-              {m.is_intraday_live ? (
-                <span className="text-[10px] font-semibold tabular text-text-dim shrink-0">HL 24h</span>
-              ) : (
-                <span className="text-[10px] font-semibold tabular text-text-dim shrink-0">CLOSED</span>
-              )}
+              <div className="text-xs text-text-dim">{headerLabel}</div>
+              <span className="text-[10px] font-semibold tabular text-text-dim shrink-0">{rightTag}</span>
             </div>
             <div className="flex items-end justify-between gap-4 flex-wrap">
               <div>
-                <div className="text-xs text-text-dim mb-1">
-                  {m.is_intraday_live ? "HL 24h" : "정규장 종가"}
-                </div>
+                <div className="text-xs text-text-dim mb-1">{priceLabel}</div>
                 <div className="text-xl font-semibold tabular text-text">
-                  {m.is_intraday_live ? (
-                    // 장중 = 첫 박스가 정규장 장중가 메인 → 이 박스엔 HL 24h 가격
+                  {showHL ? (
+                    // live/nxt = 첫 박스가 KRX 장중 또는 NXT 메인 → 이 박스엔 HL 24h 가격
                     row.is_index ? (
                       <>
                         {m.mark_px_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
                         <span className="text-xs text-text-dim ml-2">(지수)</span>
                       </>
                     ) : row.category === "korea" ? (
-                      // 한국주식 = 원화만 (달러 환산 X, 한국 retail 직격)
                       <>₩{Math.round(m.per_share_krw ?? m.krw_price).toLocaleString("ko-KR")}</>
                     ) : (
-                      // 미국/비상장 = 달러 메인 + 원화 보조 (한국 retail 원화 reference 원함)
                       <>
                         ${m.mark_px_usd.toFixed(2)}
                         <span className="text-xs text-text-dim ml-2">(₩{Math.round(m.krw_price).toLocaleString("ko-KR")})</span>
                       </>
                     )
                   ) : (
-                    // 장 마감 후 = 첫 박스가 HL 메인 → 이 박스엔 정규장 종가
+                    // closed = 첫 박스가 HL 메인 → 이 박스엔 정규장 종가
                     row.is_index ? (
                       <>
                         {(m.regular_close_usd ?? 0).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
                         <span className="text-xs text-text-dim ml-2">(지수)</span>
                       </>
                     ) : row.category === "korea" ? (
-                      // 한국주식 = 원화만
-                      <>₩{Math.round(m.regular_close_krw).toLocaleString("ko-KR")}</>
+                      <>₩{Math.round(m.regular_close_krw!).toLocaleString("ko-KR")}</>
                     ) : (
                       <>
                         ${m.regular_close_usd?.toFixed(2) ?? "—"}
-                        <span className="text-xs text-text-dim ml-2">(₩{Math.round(m.regular_close_krw).toLocaleString("ko-KR")})</span>
+                        <span className="text-xs text-text-dim ml-2">(₩{Math.round(m.regular_close_krw!).toLocaleString("ko-KR")})</span>
                       </>
                     )
                   )}
                 </div>
-                {/* 장중일 때 — 첫 박스가 KRX 장중가 메인이라 둘째 박스엔 전일 종가가 의미 있음 (HL 야간 비교 reference 부족) */}
-                {m.is_intraday_live && m.regular_prev_close_krw != null && (
+                {/* 전일 종가 줄 — live/nxt phase 일 때 표시 (closed 는 박스 1 에 KRX 종가 이미 노출) */}
+                {showHL && m.regular_prev_close_krw != null && (
                   <div className="text-[11px] text-text-dim tabular mt-1">
                     전일 종가{" "}
                     {row.category === "korea"
@@ -339,7 +344,8 @@ export default async function SymbolPage({ params }: Props) {
               {m.regular_source === "naver" ? "출처: 네이버 금융" : "출처: Yahoo Finance"}
             </div>
           </section>
-        )}
+          );
+        })()}
 
         {/* 증권사 분석 — 한국주식 3종에만 (삼성/하이닉스/현대차) */}
         {hasConsensus(row.slug) && (() => {
@@ -396,7 +402,7 @@ export default async function SymbolPage({ params }: Props) {
           <Stat label="Funding Rate" value={`${(m.funding * 100).toFixed(4)}%`} />
           {m.regular_close_krw != null && (
             <Stat
-              label={m.is_intraday_live ? "정규장 (장중)" : "정규장 종가"}
+              label={m.market_phase === "live" ? "정규장 (장중)" : m.market_phase === "nxt" ? "NXT 시간외" : "정규장 종가"}
               value={row.is_index
                 ? (m.regular_close_usd ?? 0).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
                 : row.category === "korea"

@@ -16,6 +16,7 @@ const I18N = {
     netBuy: "순매수",
     netSell: "순매도",
     source: "출처: KRX · 네이버 금융",
+    asOf: "기준",
   },
   en: {
     title: "Foreign · Institutional Trading Flow",
@@ -27,8 +28,22 @@ const I18N = {
     netBuy: "Net buy",
     netSell: "Net sell",
     source: "Source: KRX · Naver Finance",
+    asOf: "as of",
   },
 } as const;
+
+/** 마지막 거래일 라벨 — "5월 13일 기준" / "as of May 13" */
+function fmtAsOf(dateStr: string, locale: Locale): string {
+  // dateStr format: "2026-05-13"
+  if (!dateStr || dateStr.length < 10) return "";
+  const month = parseInt(dateStr.slice(5, 7), 10);
+  const day = parseInt(dateStr.slice(8, 10), 10);
+  if (locale === "en") {
+    const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    return `${monthNames[month - 1]} ${day}`;
+  }
+  return `${month}월 ${day}일`;
+}
 
 function FlowRow({
   label,
@@ -117,12 +132,20 @@ export function TradingFlowCard({
 }) {
   const t = I18N[locale];
   const c = data.cumulative_5d;
+  // 데이터 freshness — daily 마지막 거래일 (가장 최신) 활용 (5/13 형님 요청)
+  const lastDate = data.daily.length > 0 ? data.daily[data.daily.length - 1].date : "";
+  const asOfLabel = lastDate ? fmtAsOf(lastDate, locale) : "";
 
   return (
     <section className="mb-6 p-5 rounded-2xl bg-accent-green/5 border border-accent-green/20">
-      <div className="flex items-center justify-between mb-3 gap-2">
+      <div className="flex items-center justify-between mb-3 gap-2 flex-wrap">
         <div className="text-xs text-text-dim">
           {t.title} · <span className="text-text-muted">{t.period}</span>
+          {asOfLabel && (
+            <span className="ml-1.5 text-[10px] text-text-dim/80">
+              ({asOfLabel} {t.asOf})
+            </span>
+          )}
         </div>
         <div className="text-[10px] text-text-dim shrink-0">{t.source}</div>
       </div>

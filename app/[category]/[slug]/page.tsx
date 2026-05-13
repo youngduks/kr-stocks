@@ -151,7 +151,7 @@ export default async function SymbolPage({ params }: Props) {
                     pulse: true,
                   }
                 : {
-                    label: "Hyperliquid HIP-3 perp (24h)",
+                    label: "Hyperliquid 24시간 시세 (야간·휴장 활성)",
                     pill: "Hyperliquid",
                     pillColor: "text-accent-blue",
                     dotColor: "bg-accent-blue",
@@ -435,19 +435,19 @@ export default async function SymbolPage({ params }: Props) {
 
         <section className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
           <Stat
-            label={row.is_index ? "HL Mark (지수)" : "HL Mark Price"}
+            label={row.is_index ? "24h 시세 (지수)" : "24h 시세 (HL)"}
             value={row.is_index
               ? m.mark_px_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
               : `$${m.mark_px_usd.toFixed(2)}`}
           />
           <Stat
-            label="전일 종가"
+            label="HL 전일 종가"
             value={row.is_index
               ? m.prev_day_px_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
               : `$${m.prev_day_px_usd.toFixed(2)}`}
           />
-          <Stat label="24h 거래대금" value={fmtVol(m.day_volume_usd)} />
-          <Stat label="Open Interest" value={fmtNum(m.open_interest)} />
+          <Stat label="HL 24h 거래대금" value={fmtVol(m.day_volume_usd)} />
+          <Stat label="HL 미결제 약정" value={fmtNum(m.open_interest)} />
           {/* Funding Rate tile 제거 (2026-05-13) — 주식 retail 타겟에 코인 metric 잡음 */}
           {m.regular_close_krw != null && (
             <Stat
@@ -472,7 +472,7 @@ export default async function SymbolPage({ params }: Props) {
 
         <section className="p-5 rounded-xl bg-accent-blue/5 border border-accent-blue/20 text-sm text-text-muted">
           <div className="font-semibold text-text mb-1">📊 데이터 출처</div>
-          가격: Hyperliquid {row.dex} dex perp ({row.ticker}) · 환율: Upbit KRW/USDT · 업데이트 30초
+          가격: Hyperliquid 24시간 시세 ({row.ticker}) · 환율: Upbit KRW/USDT · 업데이트 30초
         </section>
       </main>
 

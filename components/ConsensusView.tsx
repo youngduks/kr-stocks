@@ -19,6 +19,8 @@ const I18N = {
     brokerCount: "증권사",
     currentPrice: "현재가",
     upside: "상승여력",
+    upsideRef: "증권사 평균 대비",
+    upsideArrow: "→",
     distribution: "투자의견 분포",
     latestReports: "증권사별 최신 분석",
     broker: "증권사",
@@ -49,6 +51,8 @@ const I18N = {
     brokerCount: "Brokers",
     currentPrice: "Current",
     upside: "Upside",
+    upsideRef: "vs avg broker target",
+    upsideArrow: "→",
     distribution: "Opinion distribution",
     latestReports: "Latest broker reports",
     broker: "Broker",
@@ -197,7 +201,11 @@ export function ConsensusView({
         </div>
         {c.upside_pct != null && c.current_price_krw != null && (
           <div className="text-right">
-            <div className="text-[11px] text-text-dim">{t.upside}</div>
+            {/* 라벨 — "상승여력 (증권사 평균 대비)" reference 명시 (종목 상세 ConsensusSection 과 통일, 5/13) */}
+            <div className="text-[11px] text-text-dim">
+              {t.upside}
+              <span className="ml-1 text-[10px] opacity-80">({t.upsideRef})</span>
+            </div>
             <div
               className={`text-2xl sm:text-3xl font-bold tabular ${
                 c.upside_pct > 0
@@ -210,9 +218,11 @@ export function ConsensusView({
               {c.upside_pct > 0 ? "▲ +" : c.upside_pct < 0 ? "▼ " : ""}
               {Math.abs(c.upside_pct).toFixed(2)}%
             </div>
-            <div className="text-[10px] text-text-dim tabular mt-0.5">
-              {t.currentPrice} {t.krwSymbol}
-              {fmtKRW(c.current_price_krw)}
+            {/* breakdown — "현재 ₩X → 평균 ₩Y" 양쪽 가격 노출 (계산 과정 가시화) */}
+            <div className="text-[10px] text-text-dim tabular mt-0.5 whitespace-nowrap">
+              {t.currentPrice} {t.krwSymbol}{fmtKRW(c.current_price_krw)}
+              {" "}{t.upsideArrow}{" "}
+              {t.krwSymbol}{fmtKRW(c.avg_target_krw)}
             </div>
           </div>
         )}

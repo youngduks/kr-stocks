@@ -29,6 +29,15 @@ function formatIndex(n: number | null | undefined): string {
   return n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 
+/** 거래대금 컴팩트 — "$58M / $1.2B / $850k" (활성도 시그널) */
+function formatVolCompact(n: number | null | undefined): string {
+  if (n == null || !Number.isFinite(n) || n <= 0) return "—";
+  if (n >= 1e9) return `$${(n / 1e9).toFixed(1)}B`;
+  if (n >= 1e6) return `$${(n / 1e6).toFixed(0)}M`;
+  if (n >= 1e3) return `$${(n / 1e3).toFixed(0)}k`;
+  return `$${Math.round(n)}`;
+}
+
 export type Locale = "ko" | "en";
 
 const i18n = {
@@ -45,6 +54,7 @@ const i18n = {
     longFavor: "상승 베팅 우세",
     shortFavor: "하락 베팅 우세",
     balanced: "균형",
+    volLabel: "24h 거래", // 활성도 시그널 (5/13)
   },
   en: {
     badgePrivate: "Private",
@@ -57,6 +67,7 @@ const i18n = {
     longFavor: "Bullish bets dominant",
     shortFavor: "Bearish bets dominant",
     balanced: "Balanced",
+    volLabel: "24h vol",
   },
 } as const;
 
@@ -238,17 +249,26 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
             : isBear
             ? "text-accent-blue"
             : "text-text-muted";
+          // 24h 거래대금 — 우측 mini (활성도 시그널, 5/13 형님 요청)
+          const volText = formatVolCompact(m?.day_volume_usd);
           return (
             <div className="mt-2 pt-2 border-t border-line/40">
-              <div className="text-[10px] text-text-dim tabular leading-tight">
-                📊{" "}
-                <span className={isBull ? "text-accent-green" : "text-text-dim"}>
-                  ↑{t.sentLong} {longPct.toFixed(0)}%
-                </span>
-                <span className="text-text-dim/60"> / </span>
-                <span className={isBear ? "text-accent-blue" : "text-text-dim"}>
-                  ↓{t.sentShort} {shortPct.toFixed(0)}%
-                </span>
+              <div className="flex items-center justify-between gap-2 text-[10px] text-text-dim tabular leading-tight">
+                <div>
+                  📊{" "}
+                  <span className={isBull ? "text-accent-green" : "text-text-dim"}>
+                    ↑{t.sentLong} {longPct.toFixed(0)}%
+                  </span>
+                  <span className="text-text-dim/60"> / </span>
+                  <span className={isBear ? "text-accent-blue" : "text-text-dim"}>
+                    ↓{t.sentShort} {shortPct.toFixed(0)}%
+                  </span>
+                </div>
+                {volText !== "—" && (
+                  <div className="text-text-dim/80 shrink-0">
+                    💰 {volText}
+                  </div>
+                )}
               </div>
               <div className="mt-0.5 text-[10px] text-text-dim tabular leading-tight">
                 {t.fundingLabel} {fundingSign}{fundingPctText}%{" "}

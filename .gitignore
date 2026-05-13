@@ -4,3 +4,9 @@ node_modules/
 .DS_Store
 *.log
 .vercel
+
+# 백업 파일 — `.bak-YYYY-MM-DD-suffix` 컨벤션, untracked 유지 (5/13)
+*.bak-*
+
+# TypeScript 빌드 캐시
+tsconfig.tsbuildinfo

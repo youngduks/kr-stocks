@@ -22,6 +22,7 @@ const I18N = {
     min: "최저",
     seeAll: "전체 분석 보기 (증권사별 목표가 + 분포)",
     rangeFrom: "범위",
+    sourceFooter: "출처: 네이버 금융 리서치 (한국 13~14개 증권사 평균 목표주가)",
     disclaimer: "본 정보는 단순 참고용이며 투자 권유가 아닙니다.",
   },
   en: {
@@ -39,6 +40,7 @@ const I18N = {
     min: "Low",
     seeAll: "View full consensus (broker-level targets & distribution)",
     rangeFrom: "Range",
+    sourceFooter: "Source: Naver Finance Research (13–14 Korean broker avg targets)",
     disclaimer: "For informational purposes only. Not investment advice.",
   },
 } as const;
@@ -147,13 +149,14 @@ export function ConsensusSection({
         </div>
       </div>
 
-      {/* 자세히 보기 + disclaimer */}
+      {/* 자세히 보기 + 출처 + disclaimer */}
       <Link
         href={consensusHref as any}
         className="block text-[11px] text-accent-blue hover:underline mb-2"
       >
         → {t.seeAll}
       </Link>
+      <p className="text-[10px] text-text-dim/80 leading-relaxed mb-1">{t.sourceFooter}</p>
       <p className="text-[10px] text-text-dim leading-relaxed">{t.disclaimer}</p>
     </section>
   );

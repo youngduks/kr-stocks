@@ -7,13 +7,15 @@
       "hl_vntl": "https://api.hyperliquid.xyz/info {type:metaAndAssetCtxs, dex:vntl}",
       "krw_rate": "https://api.upbit.com/v1/ticker?markets=KRW-USDT"
     },
-    "total_symbols": 37,
+    "total_symbols": 44,
     "categories": [
       "korea",
       "us",
       "private",
-      "global"
-    ]
+      "global",
+      "themes"
+    ],
+    "updated": "2026-05-13"
   },
   "symbols": [
     {
@@ -424,6 +426,85 @@
       "tier": 2,
       "share_ratio": 1.0,
       "regular_market": "NASDAQ"
+    },
+    {
+      "slug": "kospi200",
+      "ticker": "xyz:KR200",
+      "dex": "xyz",
+      "name_ko": "코스피200",
+      "name_en": "KOSPI 200",
+      "category": "korea",
+      "tier": 1,
+      "is_index": true,
+      "regular_market": "KRX",
+      "note": "코스피200 지수 — 한국 대표 지수 perp"
+    },
+    {
+      "slug": "ewy",
+      "ticker": "xyz:EWY",
+      "dex": "xyz",
+      "name_ko": "MSCI 한국 ETF",
+      "name_en": "iShares MSCI South Korea ETF",
+      "category": "korea",
+      "tier": 1,
+      "is_etf": true,
+      "regular_market": "NYSE",
+      "note": "외국인이 한국 시장 보는 대표 ETF"
+    },
+    {
+      "slug": "defense",
+      "ticker": "vntl:DEFENSE",
+      "dex": "vntl",
+      "name_ko": "방산 테마",
+      "name_en": "Defense Theme",
+      "category": "themes",
+      "tier": 1,
+      "is_etf": true,
+      "note": "방산 테마 ETF — K-방산 (한화에어로·LIG넥스원) 흐름 연관"
+    },
+    {
+      "slug": "nuclear",
+      "ticker": "vntl:NUCLEAR",
+      "dex": "vntl",
+      "name_ko": "원전 테마",
+      "name_en": "Nuclear Theme",
+      "category": "themes",
+      "tier": 1,
+      "is_etf": true,
+      "note": "원전·SMR 테마 — K-원전 르네상스 흐름 연관"
+    },
+    {
+      "slug": "semis",
+      "ticker": "vntl:SEMIS",
+      "dex": "vntl",
+      "name_ko": "반도체 테마",
+      "name_en": "Semiconductors Theme",
+      "category": "themes",
+      "tier": 1,
+      "is_etf": true,
+      "note": "반도체 테마 ETF — 한국 메모리 슈퍼사이클 연관"
+    },
+    {
+      "slug": "mag7",
+      "ticker": "vntl:MAG7",
+      "dex": "vntl",
+      "name_ko": "M7 빅테크",
+      "name_en": "Magnificent 7",
+      "category": "themes",
+      "tier": 1,
+      "is_etf": true,
+      "note": "미국 빅테크 7종 추종 (NVDA·MSFT·AAPL·META·GOOGL·AMZN·TSLA)"
+    },
+    {
+      "slug": "energy",
+      "ticker": "vntl:ENERGY",
+      "dex": "vntl",
+      "name_ko": "에너지 테마",
+      "name_en": "Energy Theme",
+      "category": "themes",
+      "tier": 1,
+      "is_etf": true,
+      "note": "에너지 테마 ETF — 유가·가스 종합"
     }
   ]
 }

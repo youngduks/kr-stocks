@@ -7,7 +7,7 @@ export type SymbolMeta = {
   dex: "xyz" | "vntl";
   name_ko?: string;
   name_en?: string;
-  category: "korea" | "us" | "private" | "global";
+  category: "korea" | "us" | "private" | "global" | "themes";
   tier: number;
   is_private?: boolean;
   is_index?: boolean;
@@ -35,4 +35,5 @@ export const CATEGORY_LABELS: Record<SymbolMeta["category"], { ko: string; en: s
   us: { ko: "미국 주식", en: "US Stocks", emoji: "🇺🇸" },
   private: { ko: "비상장 회사", en: "Private", emoji: "🚀" },
   global: { ko: "글로벌 지수", en: "Global Index", emoji: "🌐" },
+  themes: { ko: "테마 ETF", en: "Theme ETF", emoji: "🎯" },
 };

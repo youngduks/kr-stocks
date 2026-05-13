@@ -10,12 +10,60 @@
   src: url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/packages/pretendard/dist/web/variable/woff2/PretendardVariable.woff2") format("woff2-variations");
 }
 
+/* ──────────────────────────────────────────────
+   Theme tokens — RGB triplet (Tailwind opacity modifier 지원)
+     rgb(var(--bg) / <alpha-value>)  →  bg-bg-card/70 활성
+   ─────────────────────────────────────────────── */
+
+/* DARK (기본 — Toss-style) */
+:root,
+[data-theme="dark"] {
+  --bg:        21 24 29;     /* #15181D */
+  --bg-card:   31 35 43;     /* #1F232B */
+  --bg-hover:  38 43 53;     /* #262B35 */
+  --line:      46 52 63;     /* #2E343F */
+  --text:      230 232 235;  /* #E6E8EB */
+  --text-muted:139 149 161;  /* #8B95A1 */
+  --text-dim:  92 99 112;    /* #5C6370 */
+  --accent-blue:   49 130 246;  /* #3182F6 */
+  --accent-green:  31 174 111;  /* #1FAE6F */
+  --accent-red:    225 75 75;   /* #E14B4B */
+  --accent-amber:  244 166 35;  /* #F4A623 */
+  --accent-purple: 157 125 236; /* #9D7DEC */
+  --scrollbar-thumb:       46 52 63;
+  --scrollbar-thumb-hover: 58 65 80;
+  --live-glow: 31 174 111;
+  color-scheme: dark;
+}
+
+/* LIGHT (한국 retail · 네이버 금융 친화) */
+[data-theme="light"] {
+  --bg:        247 248 250;  /* #F7F8FA — Toss 라이트 톤 */
+  --bg-card:   255 255 255;  /* #FFFFFF */
+  --bg-hover:  242 244 246;  /* #F2F4F6 */
+  --line:      229 232 235;  /* #E5E8EB */
+  --text:      25 31 40;     /* #191F28 — Toss black */
+  --text-muted:78 89 104;    /* #4E5968 */
+  --text-dim:  139 149 161;  /* #8B95A1 */
+  --accent-blue:   49 130 246;  /* #3182F6 (Toss blue 유지) */
+  --accent-green:  22 163 74;   /* #16A34A — 라이트 진한 톤 */
+  --accent-red:    220 38 38;   /* #DC2626 */
+  --accent-amber:  217 119 6;   /* #D97706 */
+  --accent-purple: 124 58 237;  /* #7C3AED */
+  --scrollbar-thumb:       209 214 219;
+  --scrollbar-thumb-hover: 176 184 193;
+  --live-glow: 22 163 74;
+  color-scheme: light;
+}
+
+/* theme toggle smooth transition (첫 paint 후) */
 html, body {
-  background: #15181D;
-  color: #E6E8EB;
+  background: rgb(var(--bg));
+  color: rgb(var(--text));
   font-feature-settings: "tnum" 1, "ss01" 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.18s ease, color 0.18s ease;
 }
 
 body {
@@ -23,9 +71,9 @@ body {
 }
 
 ::-webkit-scrollbar { width: 8px; height: 8px; }
-::-webkit-scrollbar-track { background: #15181D; }
-::-webkit-scrollbar-thumb { background: #2E343F; border-radius: 4px; }
-::-webkit-scrollbar-thumb:hover { background: #3A4150; }
+::-webkit-scrollbar-track { background: rgb(var(--bg)); }
+::-webkit-scrollbar-thumb { background: rgb(var(--scrollbar-thumb)); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: rgb(var(--scrollbar-thumb-hover)); }
 
 .tabular { font-variant-numeric: tabular-nums; }
 

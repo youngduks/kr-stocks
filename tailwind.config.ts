@@ -2,27 +2,29 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"],
+  darkMode: ["class", '[data-theme="dark"]'],
   theme: {
     extend: {
       colors: {
-        // 토스/뱅크샐러드 풍 토큰
+        // 토스/뱅크샐러드 풍 토큰 — CSS variable 참조 (theme 분기)
+        // Tailwind opacity modifier (bg-bg-card/70 등) 활성화 위해 RGB triplet
         bg: {
-          DEFAULT: "#15181D",   // 가장 어두운 배경 (Toss dark)
-          card: "#1F232B",      // 카드 배경
-          hover: "#262B35",
+          DEFAULT: "rgb(var(--bg) / <alpha-value>)",
+          card:    "rgb(var(--bg-card) / <alpha-value>)",
+          hover:   "rgb(var(--bg-hover) / <alpha-value>)",
         },
-        line: "#2E343F",
+        line: "rgb(var(--line) / <alpha-value>)",
         text: {
-          DEFAULT: "#E6E8EB",
-          muted: "#8B95A1",
-          dim: "#5C6370",
+          DEFAULT: "rgb(var(--text) / <alpha-value>)",
+          muted:   "rgb(var(--text-muted) / <alpha-value>)",
+          dim:     "rgb(var(--text-dim) / <alpha-value>)",
         },
         accent: {
-          blue: "#3182F6",      // Toss blue
-          green: "#1FAE6F",     // 상승 (Toss green)
-          red: "#E14B4B",       // 하락
-          amber: "#F4A623",
-          purple: "#9D7DEC",
+          blue:   "rgb(var(--accent-blue) / <alpha-value>)",
+          green:  "rgb(var(--accent-green) / <alpha-value>)",
+          red:    "rgb(var(--accent-red) / <alpha-value>)",
+          amber:  "rgb(var(--accent-amber) / <alpha-value>)",
+          purple: "rgb(var(--accent-purple) / <alpha-value>)",
         },
       },
       fontFamily: {

@@ -3,6 +3,26 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { StatsBar } from "./StatsBar";
+import { useTheme } from "./ThemeProvider";
+
+function ThemeToggle() {
+  const { theme, toggle, mounted } = useTheme();
+  // mount 전(SSR)엔 dark 아이콘 고정 — hydration mismatch 회피
+  const isDark = mounted ? theme === "dark" : true;
+  return (
+    <button
+      type="button"
+      onClick={toggle}
+      aria-label={isDark ? "라이트 모드로 전환" : "다크 모드로 전환"}
+      title={isDark ? "라이트 모드" : "다크 모드"}
+      className="inline-flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-md text-text-dim hover:text-text hover:bg-bg-card/70 border border-transparent hover:border-line transition shrink-0"
+    >
+      <span className="text-sm sm:text-base leading-none" aria-hidden="true">
+        {isDark ? "🌙" : "☀️"}
+      </span>
+    </button>
+  );
+}
 
 function LangToggle() {
   const pathname = usePathname() || "/";
@@ -105,7 +125,7 @@ export function Header({ fxRate, fxChange }: { fxRate: number; fxChange: number 
         {/* Row 1: 로고 + StatsBar + FX */}
         <div className="flex items-center justify-between gap-3">
           <div className="flex items-center gap-3 min-w-0">
-            <div className="w-2.5 h-2.5 rounded-full bg-accent-green animate-pulse-soft shadow-[0_0_12px_#1FAE6F] flex-shrink-0" />
+            <div className="w-2.5 h-2.5 rounded-full bg-accent-green animate-pulse-soft shadow-[0_0_12px_rgb(var(--live-glow))] flex-shrink-0" />
             <div className="min-w-0">
               <div className="text-base font-bold text-text tracking-tight">KR Stocks</div>
               <div className="text-[11px] text-text-dim font-medium hidden sm:block">24h Global Markets</div>
@@ -126,10 +146,13 @@ export function Header({ fxRate, fxChange }: { fxRate: number; fxChange: number 
           </div>
         </div>
 
-        {/* Row 2: 페이지 네비 (좌측) + 언어 토글 (우측) */}
+        {/* Row 2: 페이지 네비 (좌측) + 테마/언어 토글 (우측) */}
         <div className="mt-2 flex items-center justify-between gap-3">
           <PageNav />
-          <LangToggle />
+          <div className="flex items-center gap-1 sm:gap-2">
+            <ThemeToggle />
+            <LangToggle />
+          </div>
         </div>
       </div>
     </header>

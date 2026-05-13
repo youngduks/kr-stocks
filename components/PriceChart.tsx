@@ -11,6 +11,7 @@ import {
   type Time,
 } from "lightweight-charts";
 import type { Candle } from "@/lib/fetchCandles";
+import { useTheme } from "./ThemeProvider";
 
 type Range = "1D" | "7D" | "1M";
 
@@ -31,16 +32,30 @@ export type PriceChartProps = {
   name: string;
 };
 
-const COLOR = {
-  green: "#1FAE6F", // accent-green — 상승
-  blue: "#3182F6", // accent-blue — 하락
-  amber: "#F4A623", // 정규장 종가 점선
-  purple: "#9D7DEC", // accent-purple — 평균 목표가 점선
-  textMuted: "#8B95A1",
-  textDim: "#5C6370",
-  bg: "#15181D", // bg
-  bgCard: "#1F232B", // bg-card
-  grid: "rgba(139, 149, 161, 0.05)", // 거의 안 보이는 그리드
+type ChartColors = {
+  green: string; blue: string; amber: string; purple: string;
+  textMuted: string; textDim: string; bg: string; bgCard: string;
+  grid: string; crosshair: string; topGreen: string; topBlue: string;
+};
+
+const COLOR_DARK: ChartColors = {
+  green: "#1FAE6F", blue: "#3182F6", amber: "#F4A623", purple: "#9D7DEC",
+  textMuted: "#8B95A1", textDim: "#5C6370",
+  bg: "#15181D", bgCard: "#1F232B",
+  grid: "rgba(139, 149, 161, 0.05)",
+  crosshair: "rgba(139, 149, 161, 0.35)",
+  topGreen: "rgba(31, 174, 111, 0.28)",
+  topBlue: "rgba(49, 130, 246, 0.28)",
+};
+
+const COLOR_LIGHT: ChartColors = {
+  green: "#16A34A", blue: "#3182F6", amber: "#D97706", purple: "#7C3AED",
+  textMuted: "#4E5968", textDim: "#8B95A1",
+  bg: "#FFFFFF", bgCard: "#F7F8FA",
+  grid: "rgba(78, 89, 104, 0.08)",
+  crosshair: "rgba(78, 89, 104, 0.35)",
+  topGreen: "rgba(22, 163, 74, 0.18)",
+  topBlue: "rgba(49, 130, 246, 0.18)",
 };
 
 const RANGE_LABEL: Record<Range, string> = {
@@ -98,6 +113,11 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, a
   const chartRef = useRef<IChartApi | null>(null);
   const seriesRef = useRef<ISeriesApi<"Area"> | null>(null);
   const [range, setRange] = useState<Range>("7D");
+  const { theme } = useTheme();
+  const COLOR: ChartColors = useMemo(
+    () => (theme === "light" ? COLOR_LIGHT : COLOR_DARK),
+    [theme]
+  );
 
   const display1H = useMemo(() => (isKR ? applyFx(bars1H, fxRate) : bars1H), [bars1H, isKR, fxRate]);
   const display4H = useMemo(() => (isKR ? applyFx(bars4H, fxRate) : bars4H), [bars4H, isKR, fxRate]);
@@ -112,7 +132,7 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, a
   const periodMeta = useMemo(() => {
     const bars = getDisplayBars(range);
     if (bars.length < 2) {
-      return { changePct: 0, isUp: true, lineColor: COLOR.green, topColor: "rgba(31, 174, 111, 0.28)" };
+      return { changePct: 0, isUp: true, lineColor: COLOR.green, topColor: COLOR.topGreen };
     }
     const start = bars[0].close;
     const end = bars[bars.length - 1].close;
@@ -122,10 +142,10 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, a
       changePct,
       isUp,
       lineColor: isUp ? COLOR.green : COLOR.blue,
-      topColor: isUp ? "rgba(31, 174, 111, 0.28)" : "rgba(49, 130, 246, 0.28)",
+      topColor: isUp ? COLOR.topGreen : COLOR.topBlue,
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [range, display1H, display4H]);
+  }, [range, display1H, display4H, COLOR]);
 
   const regularClose = isKR ? regularCloseKrw : regularCloseUsd;
 
@@ -159,7 +179,7 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, a
       crosshair: {
         mode: 1, // Magnet — 마우스 위치 가까운 봉으로 snap
         vertLine: {
-          color: "rgba(139, 149, 161, 0.35)",
+          color: COLOR.crosshair,
           width: 1,
           style: LineStyle.Dotted,
           labelBackgroundColor: COLOR.bgCard,
@@ -258,8 +278,9 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, a
       chartRef.current = null;
       seriesRef.current = null;
     };
+    // theme 변경 시 chart 재생성 (lightweight-charts 색상은 한 번 set 후 변경 한계가 있어 단순 재생성)
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [theme]);
 
   // range 변경 시 데이터 + 색상 동시 교체 (추세 따라 line/area 색 자동 전환)
   useEffect(() => {

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import type { BrokerOpinion, ConsensusData } from "@/lib/consensus";
+import { useTheme } from "./ThemeProvider";
 
 export type Locale = "ko" | "en";
 
@@ -152,7 +153,11 @@ export function ConsensusView({
     histVals[histVals.length - 1] >= histVals[0]
       ? "text-accent-green"
       : "text-accent-blue";
-  const histStrokeColor = histVals[histVals.length - 1] >= histVals[0] ? "#1FAE6F" : "#3182F6";
+  const { theme } = useTheme();
+  const isUpHist = histVals[histVals.length - 1] >= histVals[0];
+  const histStrokeColor = isUpHist
+    ? (theme === "light" ? "#16A34A" : "#1FAE6F")
+    : "#3182F6";
 
   return (
     <div className="space-y-6">

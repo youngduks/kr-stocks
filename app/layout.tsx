@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { ThemeProvider, THEME_INIT_SCRIPT } from "@/components/ThemeProvider";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://kr-stocks.com"),
@@ -61,8 +62,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ko">
-      <body className="min-h-screen bg-bg text-text">{children}</body>
+    <html lang="ko" data-theme="dark" suppressHydrationWarning>
+      <head>
+        {/* 첫 paint 전 theme 적용 — flicker 0 */}
+        <script
+          dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }}
+        />
+      </head>
+      <body className="min-h-screen bg-bg text-text">
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
     </html>
   );
 }

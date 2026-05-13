@@ -11,8 +11,8 @@ export const dynamic = "force-dynamic";
 export default async function Home() {
   const data = await fetchAllPrices();
 
-  // 카테고리 순서: korea → themes → private → us → global (한국 retail 페르소나 우선)
-  const order: SymbolMeta["category"][] = ["korea", "themes", "private", "us", "global"];
+  // 카테고리 순서 (형님 명시): 한국주식 → 비상장 → 미국주식 → ETF(테마) → 글로벌 지수
+  const order: SymbolMeta["category"][] = ["korea", "private", "us", "themes", "global"];
   const grouped = order.map((cat) => ({
     cat,
     label: CATEGORY_LABELS[cat],

@@ -49,7 +49,8 @@ export const metadata: Metadata = {
 export default async function HomeEN() {
   const data = await fetchAllPrices();
 
-  const order: SymbolMeta["category"][] = ["korea", "themes", "private", "us", "global"];
+  // Category order: Korea → Private → US → Themes ETF → Global Index
+  const order: SymbolMeta["category"][] = ["korea", "private", "us", "themes", "global"];
   const grouped = order.map((cat) => ({
     cat,
     label: CATEGORY_LABELS[cat],

@@ -170,18 +170,23 @@ export default async function SymbolPage({ params }: Props) {
               {/* 한국주식 = 원화만 (한국 retail 직격, 달러 환산 X) */}
               {/* phase 별 보조 줄 — 종가 (작게, 항상) + HL 24h reference (closed phase 아닐 때) */}
               <div className="mt-1 space-y-0.5">
-                {/* 종가 — 항상 표시. label 동적. */}
-                {(m.market_phase === "closed"
-                  ? m.regular_close_krw != null && (
-                      <div className="text-[12px] text-text-dim tabular">
-                        KRX 종가 ₩{Math.round(m.regular_close_krw).toLocaleString("ko-KR")}
-                      </div>
-                    )
-                  : m.regular_prev_close_krw != null && (
-                      <div className="text-[12px] text-text-dim tabular">
-                        전일 종가 ₩{Math.round(m.regular_prev_close_krw).toLocaleString("ko-KR")}
-                      </div>
-                    )) || null}
+                {/* 정규장 종가 — phase별 동적 라벨 :
+                    - live  → "전일 종가" (메인 = KRX 장중, 전일 reference)
+                    - nxt   → "KRX 종가" (메인 = NXT, 당일 KRX 15:30 마감 가격) ★ NEW
+                    - closed → "KRX 종가" (마지막 거래일 종가) */}
+                {m.market_phase === "nxt" && m.regular_close_krw != null ? (
+                  <div className="text-[12px] text-text-dim tabular">
+                    KRX 종가 ₩{Math.round(m.regular_close_krw).toLocaleString("ko-KR")}
+                  </div>
+                ) : m.market_phase === "closed" && m.regular_close_krw != null ? (
+                  <div className="text-[12px] text-text-dim tabular">
+                    KRX 종가 ₩{Math.round(m.regular_close_krw).toLocaleString("ko-KR")}
+                  </div>
+                ) : m.regular_prev_close_krw != null ? (
+                  <div className="text-[12px] text-text-dim tabular">
+                    전일 종가 ₩{Math.round(m.regular_prev_close_krw).toLocaleString("ko-KR")}
+                  </div>
+                ) : null}
                 {/* HL 24h reference — live/nxt phase 일 때 (closed 모드엔 메인이 HL이라 중복 회피) */}
                 {m.market_phase !== "closed" && (
                   <div className="text-sm text-text-muted tabular">

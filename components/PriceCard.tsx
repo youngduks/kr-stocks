@@ -130,9 +130,9 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
         <div className="flex flex-col gap-0.5 mb-1.5">
           <div className="text-2xl font-bold tabular text-text">{mainPrice}</div>
           {subPrice && <div className="text-[11px] text-text-dim tabular">{subPrice}</div>}
-          {/* 장 종료 후 종가 줄 — closed phase 일 때 박스 하단 작게 표시 (형님 요청) */}
-          {m?.market_phase === "closed" && (() => {
-            // 비상장은 regular_close 매핑 없음 → null 반환
+          {/* 정규장 종가 줄 — nxt + closed phase 표시 (live phase는 메인이 이미 KRX 장중이라 중복 회피) */}
+          {/* 비상장은 regular_close 매핑 없음 → null 자동 */}
+          {m?.market_phase && m.market_phase !== "live" && (() => {
             if (isIndex && m.regular_close_usd != null) {
               const v = m.regular_close_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
               return <div className="text-[10px] text-text-dim tabular">{locale === "en" ? `Reg close ${v}` : `정규장 종가 ${v}`}</div>;

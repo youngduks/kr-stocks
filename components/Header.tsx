@@ -7,18 +7,36 @@ import { useTheme } from "./ThemeProvider";
 
 function ThemeToggle() {
   const { theme, toggle, mounted } = useTheme();
+  const pathname = usePathname() || "/";
+  const isEn = pathname === "/en" || pathname.startsWith("/en/");
   // mount 전(SSR)엔 dark 아이콘 고정 — hydration mismatch 회피
   const isDark = mounted ? theme === "dark" : true;
+  // 라벨 + a11y 영어 분기 (형님 5/13 요청)
+  const label = isEn ? "Theme" : "화면모드";
+  const ariaSwitch = isEn
+    ? isDark
+      ? "Switch to light mode"
+      : "Switch to dark mode"
+    : isDark
+      ? "라이트 모드로 전환"
+      : "다크 모드로 전환";
+  const titleAttr = isEn
+    ? isDark
+      ? "Light mode"
+      : "Dark mode"
+    : isDark
+      ? "라이트 모드"
+      : "다크 모드";
   return (
     <button
       type="button"
       onClick={toggle}
-      aria-label={isDark ? "라이트 모드로 전환" : "다크 모드로 전환"}
-      title={isDark ? "라이트 모드" : "다크 모드"}
+      aria-label={ariaSwitch}
+      title={titleAttr}
       className="inline-flex items-center justify-center gap-1 sm:gap-1.5 h-7 sm:h-8 px-2 rounded-md text-text-dim hover:text-text hover:bg-bg-card/70 border border-transparent hover:border-line transition shrink-0"
     >
-      {/* 형님 요청: 아이콘만 있으면 무엇인지 모호 → '화면모드' 라벨 명시 */}
-      <span className="text-[10px] sm:text-[11px] leading-none">화면모드</span>
+      {/* 라벨: 아이콘만 있으면 무엇인지 모호 → 한국어 '화면모드' / 영어 'Theme' (5/13) */}
+      <span className="text-[10px] sm:text-[11px] leading-none">{label}</span>
       <span className="text-sm sm:text-base leading-none" aria-hidden="true">
         {isDark ? "🌙" : "☀️"}
       </span>

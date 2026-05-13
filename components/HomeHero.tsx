@@ -59,15 +59,28 @@ const I18N = {
   },
 } as const;
 
-function fmtKRW(n: number): string {
+// 가격 (목표가/현재가) — 한국어: "X만", 영어: "X.XK" 단위
+function fmtKRW(n: number, locale: Locale = "ko"): string {
+  if (locale === "en") {
+    // 영어 — comma-grouped raw KRW (예: ₩338,462). 자릿수 많아도 retail 친숙
+    if (n >= 1_000_000) return n.toLocaleString("en-US", { maximumFractionDigits: 0 });
+    return n.toLocaleString("en-US");
+  }
   if (n >= 1_000_000) {
     return `${(n / 10000).toFixed(0)}만`;
   }
   return n.toLocaleString("ko-KR");
 }
 
+// 외인·기관 매매 누적 — 한국어: 조/억/만, 영어: T/B/M won
 function fmtFlowKRW(won: number, locale: Locale): string {
   const abs = Math.abs(won);
+  if (locale === "en") {
+    if (abs >= 1_000_000_000_000) return `${(abs / 1_000_000_000_000).toFixed(1)}T won`;
+    if (abs >= 1_000_000_000) return `${(abs / 1_000_000_000).toFixed(0)}B won`;
+    if (abs >= 1_000_000) return `${(abs / 1_000_000).toFixed(0)}M won`;
+    return `${abs.toLocaleString("en-US")} won`;
+  }
   const eok = abs / 100_000_000;
   if (eok >= 10000) return `${(eok / 10000).toFixed(1)}조`;
   if (eok >= 1) return `${eok.toFixed(0)}억`;
@@ -210,12 +223,12 @@ export function HomeHero({
                   </div>
                   {item.currentKrw != null && item.avgTargetKrw != null && (
                     <div className="text-[10px] sm:text-[11px] text-text-dim tabular mt-0.5 leading-tight">
-                      ₩{fmtKRW(Math.round(item.currentKrw))}
+                      ₩{fmtKRW(Math.round(item.currentKrw), locale)}
                       {/* Hyperliquid phase 일 때 달러 보조 inline — 형님 5/13 요청 */}
                       {item.phase === "closed" && item.currentUsd != null && (
                         <span className="text-text-dim/70"> (≈${item.currentUsd.toFixed(2)})</span>
                       )}
-                      {" "}→ ₩{fmtKRW(item.avgTargetKrw)}{" "}
+                      {" "}→ ₩{fmtKRW(item.avgTargetKrw, locale)}{" "}
                       <span className="text-text-dim/70">{t.avgRef}</span>
                     </div>
                   )}

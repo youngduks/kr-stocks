@@ -86,7 +86,7 @@ export default async function ConsensusPageEN() {
         </div>
       </main>
 
-      <Footer />
+      <Footer locale="en" />
     </>
   );
 }

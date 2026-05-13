@@ -3,6 +3,7 @@ import { CATEGORY_LABELS, type SymbolMeta } from "@/lib/universe";
 import { PriceCard } from "@/components/PriceCard";
 import { Header } from "@/components/Header";
 import { HomeHero } from "@/components/HomeHero";
+import { Footer } from "@/components/Footer";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -95,68 +96,15 @@ export default async function HomeEN() {
         </div>
 
         <p className="mt-6 text-[11px] text-text-dim leading-relaxed">
-          Note: card labels (e.g. "정규장 대비") remain in Korean — full English localization for ticker pages is in progress.
-          For the Korean version, click <Link href={"/" as any} className="text-accent-blue hover:underline">한국어</Link> on top.
+          For the Korean version, click{" "}
+          <Link href={"/" as any} className="text-accent-blue hover:underline">
+            한국어
+          </Link>{" "}
+          in the top header.
         </p>
       </main>
 
-      <footer className="border-t border-line mt-12">
-        <div className="max-w-6xl mx-auto px-5 py-8 text-xs text-text-dim leading-6">
-          <div className="mb-3 text-text-muted font-semibold">Data Sources</div>
-          <ul className="space-y-1 mb-6">
-            <li>
-              • Prices:{" "}
-              <a href="https://hyperliquid.xyz" className="text-accent-blue hover:underline" target="_blank" rel="noopener">
-                Hyperliquid HIP-3 (xyz, vntl) DEX perp
-              </a>
-            </li>
-            <li>
-              • FX:{" "}
-              <a href="https://upbit.com" className="text-accent-blue hover:underline" target="_blank" rel="noopener">
-                Upbit KRW/USDT spot
-              </a>
-            </li>
-            <li>• Refresh: every 30 seconds</li>
-          </ul>
-
-          <div className="mb-3 text-text-muted font-semibold">Analysis · Guide</div>
-          <ul className="space-y-1 mb-6">
-            <li>
-              •{" "}
-              <Link href={"/en/consensus" as any} className="text-accent-blue hover:underline">
-                Korean Broker Consensus
-              </Link>{" "}
-              — Samsung · SK Hynix · Hyundai analyst price targets &amp; upside.
-            </li>
-            <li>
-              •{" "}
-              <Link href={"/en/guide/hyperliquid-onramp" as any} className="text-accent-blue hover:underline">
-                How to trade Hyperliquid from Korea
-              </Link>{" "}
-              — step-by-step onramp for private big tech &amp; Korean stock perps.
-            </li>
-          </ul>
-
-          <div className="mb-3 text-text-muted font-semibold">Advertising · Partnerships</div>
-          <ul className="space-y-1 mb-6">
-            <li>
-              •{" "}
-              <a href="mailto:contact@kr-stocks.com?subject=%5BAd%20Inquiry%5D%20kr-stocks.com" className="text-accent-blue hover:underline">
-                contact@kr-stocks.com
-              </a>
-            </li>
-            <li>• Banner · native · broker/exchange affiliate welcome</li>
-            <li>• Response: within 24h on weekdays</li>
-          </ul>
-
-          <div className="mb-3 text-text-muted font-semibold">Disclaimer</div>
-          <p className="mb-3">
-            This service is for informational purposes only and is not investment advice or solicitation. Prices shown are perp DEX
-            quotes and may diverge from regular-session exchange prices. Private company prices are implied-valuation estimates.
-          </p>
-          <p className="text-text-dim">© 2026 KR Stocks. Not investment advice.</p>
-        </div>
-      </footer>
+      <Footer locale="en" />
     </>
   );
 }

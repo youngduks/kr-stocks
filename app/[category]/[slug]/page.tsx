@@ -201,12 +201,18 @@ export default async function SymbolPage({ params }: Props) {
               <div className="text-sm text-text-muted tabular">
                 {m.main_source === "regular_live" ? "정규장 지수 (포인트)" : "HL 24h 지수 (포인트)"}
               </div>
-              {/* 지수도 종가 한 줄 (작게) */}
-              {m.market_phase !== "closed" && m.regular_prev_close_usd != null && (
-                <div className="text-[12px] text-text-dim tabular mt-1">
-                  전일 종가 {m.regular_prev_close_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
-                </div>
-              )}
+              {/* 지수 종가 줄 — phase별 분기 (closed 도 표시되도록 누락 fix) */}
+              {m.market_phase === "closed"
+                ? m.regular_close_usd != null && (
+                    <div className="text-[12px] text-text-dim tabular mt-1">
+                      정규장 종가 {m.regular_close_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                    </div>
+                  )
+                : m.regular_prev_close_usd != null && (
+                    <div className="text-[12px] text-text-dim tabular mt-1">
+                      전일 종가 {m.regular_prev_close_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                    </div>
+                  )}
             </>
           ) : row.is_private ? (
             <>

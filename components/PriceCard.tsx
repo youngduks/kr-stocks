@@ -125,6 +125,22 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
         <div className="flex flex-col gap-0.5 mb-1.5">
           <div className="text-2xl font-bold tabular text-text">{mainPrice}</div>
           {subPrice && <div className="text-[11px] text-text-dim tabular">{subPrice}</div>}
+          {/* 장 종료 후 종가 줄 — closed phase 일 때 박스 하단 작게 표시 (형님 요청) */}
+          {m?.market_phase === "closed" && (() => {
+            // 비상장은 regular_close 매핑 없음 → null 반환
+            if (isIndex && m.regular_close_usd != null) {
+              const v = m.regular_close_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+              return <div className="text-[10px] text-text-dim tabular">{locale === "en" ? `Reg close ${v}` : `정규장 종가 ${v}`}</div>;
+            }
+            if (isKR && m.regular_close_krw != null) {
+              const v = Math.round(m.regular_close_krw).toLocaleString("ko-KR");
+              return <div className="text-[10px] text-text-dim tabular">{locale === "en" ? `KRX close ₩${v}` : `KRX 종가 ₩${v}`}</div>;
+            }
+            if (!isKR && !isIndex && !row.is_private && m.regular_close_usd != null) {
+              return <div className="text-[10px] text-text-dim tabular">{locale === "en" ? `Reg close $${m.regular_close_usd.toFixed(2)}` : `정규장 종가 $${m.regular_close_usd.toFixed(2)}`}</div>;
+            }
+            return null;
+          })()}
         </div>
 
         <div className="flex items-center justify-between text-sm">

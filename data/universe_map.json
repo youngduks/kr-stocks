@@ -7,7 +7,7 @@
       "hl_vntl": "https://api.hyperliquid.xyz/info {type:metaAndAssetCtxs, dex:vntl}",
       "krw_rate": "https://api.upbit.com/v1/ticker?markets=KRW-USDT"
     },
-    "total_symbols": 44,
+    "total_symbols": 42,
     "categories": [
       "korea",
       "us",
@@ -426,30 +426,6 @@
       "tier": 2,
       "share_ratio": 1.0,
       "regular_market": "NASDAQ"
-    },
-    {
-      "slug": "kospi200",
-      "ticker": "xyz:KR200",
-      "dex": "xyz",
-      "name_ko": "코스피200",
-      "name_en": "KOSPI 200",
-      "category": "korea",
-      "tier": 1,
-      "is_index": true,
-      "regular_market": "KRX",
-      "note": "코스피200 지수 — 한국 대표 지수 perp"
-    },
-    {
-      "slug": "ewy",
-      "ticker": "xyz:EWY",
-      "dex": "xyz",
-      "name_ko": "MSCI 한국 ETF",
-      "name_en": "iShares MSCI South Korea ETF",
-      "category": "korea",
-      "tier": 1,
-      "is_etf": true,
-      "regular_market": "NYSE",
-      "note": "외국인이 한국 시장 보는 대표 ETF"
     },
     {
       "slug": "defense",

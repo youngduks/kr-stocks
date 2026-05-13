@@ -1,14 +1,8 @@
 import Link from "next/link";
 import type { PriceRow } from "@/lib/fetchPrices";
 
-// HL 거래 직링크 — 카테고리/dex 무관 ticker 기반 (xyz/vntl 모두 동일 경로)
-// 라오니의 우상단 "거래 ↗" 모방 회피: 형님은 "HL ↗" 거래소명 직접 (USP 강조)
-function buildHlTradeUrl(row: PriceRow): string | null {
-  if (row.is_fx) return null; // 환율은 trading 대상 아님
-  const sym = row.ticker.split(":")[1];
-  if (!sym) return null;
-  return `https://app.hyperliquid.xyz/trade/${sym}`;
-}
+// 페르소나 재정의 (2026-05-13): 한국 주식 retail 타겟. HL은 24시간 시세 source 만,
+// 거래 라우팅 CTA 미노출 (코인 트레이더 페르소나 회피, 주식 정보 사이트 정체성 명확화).
 
 function formatKRW(n: number | null | undefined): string {
   if (n == null) return "—";
@@ -36,14 +30,12 @@ const i18n = {
     badgeIndex: "지수",
     badgeEtf: "ETF",
     vsRegular: "정규장 대비",
-    tradeOn: "HL",
   },
   en: {
     badgePrivate: "Private",
     badgeIndex: "Index",
     badgeEtf: "ETF",
     vsRegular: "vs Regular",
-    tradeOn: "HL",
   },
 } as const;
 
@@ -132,29 +124,10 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
               })()}
             </div>
           </div>
-          {/* 우측: 거래 CTA + 배지 stack — 라오니 우상단 라운드 "거래" 모방 회피, 형님은 ghost text "HL ↗" 거래소명 직접 */}
-          <div className="flex flex-col items-end gap-1 shrink-0">
-            {(() => {
-              const tradeUrl = buildHlTradeUrl(row);
-              if (!tradeUrl) return null;
-              return (
-                <a
-                  href={tradeUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={(e) => e.stopPropagation()}
-                  className="text-[10px] font-semibold text-accent-blue/70 hover:text-accent-blue tabular whitespace-nowrap leading-none"
-                  aria-label={locale === "en" ? "Trade on Hyperliquid" : "Hyperliquid 에서 거래"}
-                  title={locale === "en" ? "Open Hyperliquid trading page" : "Hyperliquid 트레이딩 페이지 열기"}
-                >
-                  {t.tradeOn} ↗
-                </a>
-              );
-            })()}
-            {row.is_private && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-purple/15 text-accent-purple font-semibold whitespace-nowrap">{t.badgePrivate}</span>}
-            {row.is_index && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-amber/15 text-accent-amber font-semibold whitespace-nowrap">{t.badgeIndex}</span>}
-            {row.is_etf && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-blue/15 text-accent-blue font-semibold whitespace-nowrap">{t.badgeEtf}</span>}
-          </div>
+          {/* 우측 배지 — 가로 자연 자리 (whitespace-nowrap 으로 세로 깨짐 방지) */}
+          {row.is_private && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-purple/15 text-accent-purple font-semibold whitespace-nowrap shrink-0">{t.badgePrivate}</span>}
+          {row.is_index && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-amber/15 text-accent-amber font-semibold whitespace-nowrap shrink-0">{t.badgeIndex}</span>}
+          {row.is_etf && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-blue/15 text-accent-blue font-semibold whitespace-nowrap shrink-0">{t.badgeEtf}</span>}
         </div>
 
         <div className="flex flex-col gap-0.5 mb-1.5">

@@ -5,7 +5,7 @@ import { getConsensus, hasConsensus, enrichWithCurrentPrice } from "@/lib/consen
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ConsensusSection } from "@/components/ConsensusSection";
-import { FundingBar } from "@/components/FundingBar";
+// FundingBar (1H 펀딩 + LONG/SHORT 비율) 제거 (2026-05-13) — 한국 주식 retail 타겟에 코인 트레이더 metric 잡음
 import { TradingFlowCard } from "@/components/TradingFlowCard";
 import { getTradingFlow, hasTradingFlow } from "@/lib/tradingFlow";
 import nextDynamic from "next/dynamic";
@@ -255,25 +255,6 @@ export default async function SymbolPage({ params }: Props) {
           <div className={`mt-4 text-lg font-bold tabular ${colorClass}`}>
             {isUp ? "▲" : isDn ? "▼" : ""} {Math.abs(mainChg).toFixed(2)}% ({mainChgLabel})
           </div>
-
-          {/* Hyperliquid 거래 CTA — 라오니 우상단 라운드 "거래" 모방 회피, 형님은 박스 하단 outline 버튼 + 거래소명 직접 */}
-          {!row.is_fx && (() => {
-            const sym = row.ticker.split(":")[1];
-            if (!sym) return null;
-            const tradeUrl = `https://app.hyperliquid.xyz/trade/${sym}`;
-            return (
-              <a
-                href={tradeUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-accent-blue hover:text-accent-blue/80 px-3 py-1.5 rounded-lg border border-accent-blue/30 hover:border-accent-blue/60 hover:bg-accent-blue/5 transition-colors tabular"
-                aria-label="Hyperliquid 에서 거래"
-                title="Hyperliquid 트레이딩 페이지 열기 (외부)"
-              >
-                Hyperliquid 에서 거래 <span aria-hidden>↗</span>
-              </a>
-            );
-          })()}
         </section>
 
         {m.hl_premium_pct != null && m.regular_close_krw != null && (() => {
@@ -414,10 +395,7 @@ export default async function SymbolPage({ params }: Props) {
           return <TradingFlowCard data={flow} locale="ko" />;
         })()}
 
-        {/* HL 거래자 포지션 (funding rate 기반) — 환율 제외 모든 종목 */}
-        {!row.is_fx && m.funding != null && (
-          <FundingBar funding={m.funding} locale="ko" />
-        )}
+        {/* FundingBar 사용 제거 (2026-05-13) — 펀딩/롱숏 비율은 코인 트레이더 metric, 주식 retail 타겟에 잡음 */}
 
         {!row.is_fx && (candles.bars1H.length > 0 || candles.bars4H.length > 0) && (
           <section className="mb-6">
@@ -449,7 +427,7 @@ export default async function SymbolPage({ params }: Props) {
           />
           <Stat label="24h 거래대금" value={fmtVol(m.day_volume_usd)} />
           <Stat label="Open Interest" value={fmtNum(m.open_interest)} />
-          <Stat label="Funding Rate" value={`${(m.funding * 100).toFixed(4)}%`} />
+          {/* Funding Rate tile 제거 (2026-05-13) — 주식 retail 타겟에 코인 metric 잡음 */}
           {m.regular_close_krw != null && (
             <Stat
               label={m.market_phase === "live" ? "정규장 (장중)" : m.market_phase === "nxt" ? "NXT 시간외" : "정규장 종가"}

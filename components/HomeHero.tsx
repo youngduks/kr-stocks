@@ -19,6 +19,7 @@ const I18N = {
     institutional: "기관",
     netBuy: "순매수",
     netSell: "순매도",
+    live: "LIVE",
     footer: "각 종목 탭 = HL 야간 + 정규장 + 증권사 분석 + 외인·기관 + funding + 차트 한 화면",
   },
   en: {
@@ -31,6 +32,7 @@ const I18N = {
     institutional: "Institution",
     netBuy: "Net Buy",
     netSell: "Net Sell",
+    live: "LIVE",
     footer: "Each ticker = HL overnight + Regular close + Broker consensus + Foreign/Institutional flow + funding + chart on one screen",
   },
 } as const;
@@ -91,6 +93,7 @@ export function HomeHero({
       upsidePct,
       foreignWon: flow?.cumulative_5d.foreign_won ?? null,
       institutionalWon: flow?.cumulative_5d.institutional_won ?? null,
+      isLive: row.market.is_intraday_live === true,
     };
   }).filter((x): x is NonNullable<typeof x> => x != null);
 
@@ -134,8 +137,19 @@ export function HomeHero({
               <div className="flex sm:flex-col items-center sm:items-stretch justify-between sm:justify-start gap-3 p-3 sm:p-4 rounded-xl bg-bg-card/70 hover:bg-bg-card border border-line/60 hover:border-accent-blue/40 transition-all">
                 {/* 좌측 (모바일) / 상단 (데스크탑): 종목명 + 현재가 → 목표가 */}
                 <div className="flex-1 sm:flex-none min-w-0">
-                  <div className="text-sm sm:text-base font-bold text-text truncate group-hover:text-accent-blue transition">
-                    {name}
+                  <div className="flex items-center gap-1.5 min-w-0">
+                    <div className="text-sm sm:text-base font-bold text-text truncate group-hover:text-accent-blue transition">
+                      {name}
+                    </div>
+                    {item.isLive && (
+                      <span
+                        className="inline-flex items-center gap-1 text-[9px] sm:text-[10px] font-bold tabular text-accent-green shrink-0"
+                        title={locale === "en" ? "KRX market open" : "한국 정규장 거래중"}
+                      >
+                        <span className="w-1.5 h-1.5 rounded-full bg-accent-green animate-pulse-soft" />
+                        {t.live}
+                      </span>
+                    )}
                   </div>
                   {item.currentKrw != null && item.avgTargetKrw != null && (
                     <div className="text-[10px] sm:text-[11px] text-text-dim tabular mt-0.5 leading-tight">

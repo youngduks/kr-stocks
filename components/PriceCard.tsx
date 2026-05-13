@@ -75,7 +75,17 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
       <div className="card-lift group bg-bg-card hover:bg-bg-hover border border-line hover:border-accent-blue/40 rounded-2xl p-5">
         <div className="flex items-start justify-between mb-3">
           <div className="flex flex-col gap-0.5 min-w-0">
-            <div className="text-base font-semibold text-text truncate">{displayName}</div>
+            <div className="flex items-center gap-1.5 min-w-0">
+              <div className="text-base font-semibold text-text truncate">{displayName}</div>
+              {/* 정규장 LIVE indicator — 한국·미국·글로벌 종목만 (비상장 제외). */}
+              {m?.is_intraday_live && !row.is_private && (
+                <span
+                  className="inline-block w-1.5 h-1.5 rounded-full bg-accent-green animate-pulse-soft shrink-0"
+                  title={locale === "en" ? "Market open" : "정규장 거래중"}
+                  aria-label={locale === "en" ? "Market open" : "정규장 거래중"}
+                />
+              )}
+            </div>
             <div className="text-xs text-text-dim font-medium tracking-wider">{row.ticker.split(":")[1]}</div>
           </div>
           {row.is_private && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-purple/15 text-accent-purple font-semibold">{t.badgePrivate}</span>}

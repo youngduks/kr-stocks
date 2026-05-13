@@ -18,8 +18,10 @@ const I18N = {
     sentLong: "상승",
     sentShort: "하락",
     fundingLabel: "펀딩",
-    longFavor: "롱포지션 유리",
-    shortFavor: "숏포지션 유리",
+    // 형님 5/13 지적: "롱포지션 유리" = 수익 함의 (모순) / "상승 베팅 우세" = 베팅 비율 (정확)
+    // FundingBar(종목 상세) + PriceCard(카드 grid) 와 라벨 통일 — 3-screen 일관성 확보
+    longFavor: "상승 베팅 우세",
+    shortFavor: "하락 베팅 우세",
     balanced: "균형",
     current: "현재",
     avgTarget: "평균목표",
@@ -41,8 +43,8 @@ const I18N = {
     sentLong: "Bull",
     sentShort: "Bear",
     fundingLabel: "Funding",
-    longFavor: "Long favored",
-    shortFavor: "Short favored",
+    longFavor: "Bullish bets dominant",
+    shortFavor: "Bearish bets dominant",
     balanced: "Balanced",
     current: "Now",
     avgTarget: "Avg Target",

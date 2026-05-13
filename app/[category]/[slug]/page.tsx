@@ -8,9 +8,6 @@ import { ConsensusSection } from "@/components/ConsensusSection";
 // FundingBar 재도입 (2026-05-13) — retail 친화 "24시간 시장 sentiment" 라벨로 변환,
 // 코인 metric (펀딩%, APR) 제거하고 상승/하락 베팅 비율만 가시화
 import { FundingBar } from "@/components/FundingBar";
-// 🐋 최근 고래 활동 박스 (2026-05-13 Path B) — Stateless, HL recentTrades sample
-import { WhaleFlowBox } from "@/components/WhaleFlowBox";
-import { fetchWhaleFlow } from "@/lib/hlWhale";
 import { TradingFlowCard } from "@/components/TradingFlowCard";
 import { getTradingFlow, hasTradingFlow } from "@/lib/tradingFlow";
 import nextDynamic from "next/dynamic";
@@ -63,17 +60,13 @@ export default async function SymbolPage({ params }: Props) {
   const meta = bySlug(params.slug);
   if (!meta || meta.category !== params.category) notFound();
 
-  // 가격 + 캔들 + 🐋 고래 sample 병렬 fetch (환율 종목은 차트·고래 skip)
+  // 가격 + 캔들 병렬 fetch (환율 종목은 차트 skip)
   const candlesPromise = meta.is_fx
     ? Promise.resolve({ bars1H: [], bars4H: [] })
     : fetchCandleSet(meta.ticker);
-  const whaleFlowPromise = meta.is_fx
-    ? Promise.resolve(null)
-    : fetchWhaleFlow(meta.ticker, 5000); // $5k threshold
-  const [data, candles, whaleFlow] = await Promise.all([
+  const [data, candles] = await Promise.all([
     fetchAllPrices(),
     candlesPromise,
-    whaleFlowPromise,
   ]);
   const row = data.symbols.find((r) => r.slug === params.slug);
   if (!row || !row.market) notFound();
@@ -423,11 +416,6 @@ export default async function SymbolPage({ params }: Props) {
         {/* 24시간 시장 sentiment — HL 거래자 포지션 기반 (코인 metric 숨김, 상승/하락 베팅 비율만 표시) */}
         {!row.is_fx && m.funding != null && (
           <FundingBar funding={m.funding} locale="ko" />
-        )}
-
-        {/* 🐋 최근 고래 활동 — Stateless sample (Path B, 2026-05-13) */}
-        {!row.is_fx && whaleFlow && (
-          <WhaleFlowBox flow={whaleFlow} locale="ko" />
         )}
 
         {!row.is_fx && (candles.bars1H.length > 0 || candles.bars4H.length > 0) && (

@@ -130,22 +130,6 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
         <div className="flex flex-col gap-0.5 mb-1.5">
           <div className="text-2xl font-bold tabular text-text">{mainPrice}</div>
           {subPrice && <div className="text-[11px] text-text-dim tabular">{subPrice}</div>}
-          {/* 정규장 종가 줄 — nxt + closed phase 표시 (live phase는 메인이 이미 KRX 장중이라 중복 회피) */}
-          {/* 비상장은 regular_close 매핑 없음 → null 자동 */}
-          {m?.market_phase && m.market_phase !== "live" && (() => {
-            if (isIndex && m.regular_close_usd != null) {
-              const v = m.regular_close_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-              return <div className="text-[10px] text-text-dim tabular">{locale === "en" ? `Reg close ${v}` : `정규장 종가 ${v}`}</div>;
-            }
-            if (isKR && m.regular_close_krw != null) {
-              const v = Math.round(m.regular_close_krw).toLocaleString("ko-KR");
-              return <div className="text-[10px] text-text-dim tabular">{locale === "en" ? `KRX close ₩${v}` : `KRX 종가 ₩${v}`}</div>;
-            }
-            if (!isKR && !isIndex && !row.is_private && m.regular_close_usd != null) {
-              return <div className="text-[10px] text-text-dim tabular">{locale === "en" ? `Reg close $${m.regular_close_usd.toFixed(2)}` : `정규장 종가 $${m.regular_close_usd.toFixed(2)}`}</div>;
-            }
-            return null;
-          })()}
         </div>
 
         <div className="flex items-center justify-between text-sm">
@@ -188,6 +172,23 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
               </span>
             </div>
           );
+        })()}
+
+        {/* 정규장 종가 줄 — premium 박스 아래 (형님 요청: KRX 종가 → 정규장 대비 아래로 이동). nxt + closed phase 표시. */}
+        {/* 비상장은 regular_close 매핑 없음 → null 자동 */}
+        {m?.market_phase && m.market_phase !== "live" && (() => {
+          if (isIndex && m.regular_close_usd != null) {
+            const v = m.regular_close_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            return <div className="mt-1.5 text-[10px] text-text-dim tabular">{locale === "en" ? `Reg close ${v}` : `정규장 종가 ${v}`}</div>;
+          }
+          if (isKR && m.regular_close_krw != null) {
+            const v = Math.round(m.regular_close_krw).toLocaleString("ko-KR");
+            return <div className="mt-1.5 text-[10px] text-text-dim tabular">{locale === "en" ? `KRX close ₩${v}` : `KRX 종가 ₩${v}`}</div>;
+          }
+          if (!isKR && !isIndex && !row.is_private && m.regular_close_usd != null) {
+            return <div className="mt-1.5 text-[10px] text-text-dim tabular">{locale === "en" ? `Reg close $${m.regular_close_usd.toFixed(2)}` : `정규장 종가 $${m.regular_close_usd.toFixed(2)}`}</div>;
+          }
+          return null;
         })()}
       </div>
     </Link>

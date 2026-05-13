@@ -74,11 +74,14 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
   return (
     <Link href={href as any}>
       <div className="card-lift group bg-bg-card hover:bg-bg-hover border border-line hover:border-accent-blue/40 rounded-2xl p-5">
-        <div className="flex items-start justify-between mb-3">
-          <div className="flex flex-col gap-0.5 min-w-0">
-            <div className="flex items-center gap-1.5 min-w-0">
-              <div className="text-base font-semibold text-text truncate">{displayName}</div>
-              {/* 3-phase dot + 텍스트 — 정규장 🟢 / NXT 🟠 / Hyperliquid 🔵. 비상장은 phase 자체 없음. */}
+        <div className="flex items-start justify-between mb-3 gap-2">
+          <div className="flex flex-col gap-0.5 min-w-0 flex-1">
+            {/* 종목명 — 한 줄 단독 (truncate 자유, phase pill 끼지 않음) */}
+            <div className="text-base font-semibold text-text truncate">{displayName}</div>
+            {/* ticker + phase pill 같은 줄 (작은 글씨, 카드 공간 절약) */}
+            <div className="flex items-center gap-2 min-w-0">
+              <span className="text-xs text-text-dim font-medium tracking-wider shrink-0 whitespace-nowrap">{row.ticker.split(":")[1]}</span>
+              {/* 3-phase dot + 텍스트 — 정규장 🟢 / NXT 🟠 / Hyperliquid 🔵. 비상장 phase 없음. */}
               {!row.is_private && m?.market_phase && (() => {
                 const phase = m.market_phase;
                 const cfg =
@@ -107,21 +110,21 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
                       };
                 return (
                   <span
-                    className={`inline-flex items-center gap-1 text-[9px] font-semibold tabular ${cfg.textColor} shrink-0`}
+                    className={`inline-flex items-center gap-1 text-[10px] font-semibold tabular ${cfg.textColor} shrink min-w-0 truncate`}
                     title={cfg.title}
                     aria-label={cfg.title}
                   >
-                    <span className={`inline-block w-1.5 h-1.5 rounded-full ${cfg.color} ${cfg.pulse ? "animate-pulse-soft" : ""}`} />
-                    {cfg.label}
+                    <span className={`inline-block w-1.5 h-1.5 rounded-full ${cfg.color} ${cfg.pulse ? "animate-pulse-soft" : ""} shrink-0`} />
+                    <span className="truncate">{cfg.label}</span>
                   </span>
                 );
               })()}
             </div>
-            <div className="text-xs text-text-dim font-medium tracking-wider">{row.ticker.split(":")[1]}</div>
           </div>
-          {row.is_private && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-purple/15 text-accent-purple font-semibold">{t.badgePrivate}</span>}
-          {row.is_index && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-amber/15 text-accent-amber font-semibold">{t.badgeIndex}</span>}
-          {row.is_etf && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-blue/15 text-accent-blue font-semibold">{t.badgeEtf}</span>}
+          {/* 우측 배지 — 가로 자연 자리 (whitespace-nowrap 으로 세로 깨짐 방지) */}
+          {row.is_private && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-purple/15 text-accent-purple font-semibold whitespace-nowrap shrink-0">{t.badgePrivate}</span>}
+          {row.is_index && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-amber/15 text-accent-amber font-semibold whitespace-nowrap shrink-0">{t.badgeIndex}</span>}
+          {row.is_etf && <span className="text-[10px] px-2 py-0.5 rounded-md bg-accent-blue/15 text-accent-blue font-semibold whitespace-nowrap shrink-0">{t.badgeEtf}</span>}
         </div>
 
         <div className="flex flex-col gap-0.5 mb-1.5">

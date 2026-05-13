@@ -14,6 +14,9 @@ const I18N = {
     units: "개",
     avgTarget: "평균 목표가",
     upside: "상승여력",
+    upsideRef: "증권사 평균 대비", // 첫 방문자가 "뭘 기준으로?" 헷갈리지 않게 명시
+    upsideBreakdown: "현재", // "현재 ₩X → 평균 ₩Y" breakdown
+    upsideArrow: "→",
     median: "중앙값",
     max: "최고",
     min: "최저",
@@ -28,6 +31,9 @@ const I18N = {
     units: "",
     avgTarget: "Avg target",
     upside: "Upside",
+    upsideRef: "vs avg broker target",
+    upsideBreakdown: "Now",
+    upsideArrow: "→",
     median: "Median",
     max: "High",
     min: "Low",
@@ -93,13 +99,21 @@ export function ConsensusSection({
 
         {upside != null && c.current_price_krw != null && (
           <div className="text-right">
-            <div className="text-xs text-text-dim mb-1">{t.upside}</div>
+            {/* 라벨 — "상승여력" 큰 글자 + "(증권사 평균 대비)" 작은 sub 한 줄에 배치
+                형님 지적: 첫 방문자가 "뭘 기준으로?" 헷갈리지 않게 reference 명시 */}
+            <div className="text-xs text-text-dim mb-1">
+              {t.upside}
+              <span className="ml-1 text-[10px] opacity-80">({t.upsideRef})</span>
+            </div>
             <div className={`text-3xl md:text-4xl font-bold tabular ${upsideColor}`}>
               {upside > 0 ? "▲ +" : upside < 0 ? "▼ " : ""}
               {Math.abs(upside).toFixed(2)}%
             </div>
-            <div className="text-[11px] text-text-dim tabular mt-1">
-              vs ₩{fmtKRW(Math.round(c.current_price_krw))}
+            {/* 명시적 breakdown — "현재 ₩X → 평균 ₩Y" 양쪽 가격 노출 */}
+            <div className="text-[11px] text-text-dim tabular mt-1 whitespace-nowrap">
+              {t.upsideBreakdown} ₩{fmtKRW(Math.round(c.current_price_krw))}
+              {" "}{t.upsideArrow}{" "}
+              ₩{fmtKRW(c.avg_target_krw)}
             </div>
           </div>
         )}

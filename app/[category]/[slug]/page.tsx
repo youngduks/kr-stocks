@@ -5,7 +5,9 @@ import { getConsensus, hasConsensus, enrichWithCurrentPrice } from "@/lib/consen
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ConsensusSection } from "@/components/ConsensusSection";
-// FundingBar (1H 펀딩 + LONG/SHORT 비율) 제거 (2026-05-13) — 한국 주식 retail 타겟에 코인 트레이더 metric 잡음
+// FundingBar 재도입 (2026-05-13) — retail 친화 "24시간 시장 sentiment" 라벨로 변환,
+// 코인 metric (펀딩%, APR) 제거하고 상승/하락 베팅 비율만 가시화
+import { FundingBar } from "@/components/FundingBar";
 import { TradingFlowCard } from "@/components/TradingFlowCard";
 import { getTradingFlow, hasTradingFlow } from "@/lib/tradingFlow";
 import nextDynamic from "next/dynamic";
@@ -395,7 +397,10 @@ export default async function SymbolPage({ params }: Props) {
           return <TradingFlowCard data={flow} locale="ko" />;
         })()}
 
-        {/* FundingBar 사용 제거 (2026-05-13) — 펀딩/롱숏 비율은 코인 트레이더 metric, 주식 retail 타겟에 잡음 */}
+        {/* 24시간 시장 sentiment — HL 거래자 포지션 기반 (코인 metric 숨김, 상승/하락 베팅 비율만 표시) */}
+        {!row.is_fx && m.funding != null && (
+          <FundingBar funding={m.funding} locale="ko" />
+        )}
 
         {!row.is_fx && (candles.bars1H.length > 0 || candles.bars4H.length > 0) && (
           <section className="mb-6">

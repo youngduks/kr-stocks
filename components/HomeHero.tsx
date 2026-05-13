@@ -19,9 +19,9 @@ const I18N = {
     institutional: "기관",
     netBuy: "순매수",
     netSell: "순매도",
-    live: "LIVE",
+    live: "정규장",
     nxt: "NXT",
-    hyperliq: "Hyperliq",
+    hyperliq: "Hyperliquid",
     footer: "각 종목 탭 = HL 24h + 정규장 + 증권사 분석 + 외인·기관 + funding + 차트 한 화면",
   },
   en: {
@@ -34,9 +34,9 @@ const I18N = {
     institutional: "Institution",
     netBuy: "Net Buy",
     netSell: "Net Sell",
-    live: "LIVE",
+    live: "Regular",
     nxt: "NXT",
-    hyperliq: "Hyperliq",
+    hyperliq: "Hyperliquid",
     footer: "Each ticker = HL 24h + Regular close + Broker consensus + Foreign/Institutional flow + funding + chart on one screen",
   },
 } as const;

@@ -129,7 +129,7 @@ export default async function SymbolPage({ params }: Props) {
                         : row.category === "us"
                         ? "미국 정규장 거래가 (실시간)"
                         : "정규장 거래가 (실시간)",
-                    pill: "LIVE",
+                    pill: "정규장",
                     pillColor: "text-accent-green",
                     dotColor: "bg-accent-green",
                     pulse: true,
@@ -144,7 +144,7 @@ export default async function SymbolPage({ params }: Props) {
                   }
                 : {
                     label: "Hyperliquid HIP-3 perp (24h)",
-                    pill: "Hyperliq",
+                    pill: "Hyperliquid",
                     pillColor: "text-accent-blue",
                     dotColor: "bg-accent-blue",
                     pulse: false,

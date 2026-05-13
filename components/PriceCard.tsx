@@ -76,21 +76,42 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
           <div className="flex flex-col gap-0.5 min-w-0">
             <div className="flex items-center gap-1.5 min-w-0">
               <div className="text-base font-semibold text-text truncate">{displayName}</div>
-              {/* 3-phase dot — LIVE 🟢 / NXT 🟠 / Hyperliq 🔵. 비상장은 phase 자체 없음(아예 dot X). */}
+              {/* 3-phase dot + 텍스트 — 정규장 🟢 / NXT 🟠 / Hyperliquid 🔵. 비상장은 phase 자체 없음. */}
               {!row.is_private && m?.market_phase && (() => {
                 const phase = m.market_phase;
                 const cfg =
                   phase === "live"
-                    ? { color: "bg-accent-green", pulse: true, title: locale === "en" ? "Market open (LIVE)" : "정규장 거래중" }
+                    ? {
+                        color: "bg-accent-green",
+                        textColor: "text-accent-green",
+                        pulse: true,
+                        label: locale === "en" ? "Regular" : "정규장",
+                        title: locale === "en" ? "Market open" : "정규장 거래중",
+                      }
                     : phase === "nxt"
-                    ? { color: "bg-accent-amber", pulse: true, title: locale === "en" ? "NXT after-hours" : "NXT 시간외 거래" }
-                    : { color: "bg-accent-blue", pulse: false, title: locale === "en" ? "Hyperliquid 24h" : "Hyperliquid 24h 기준" };
+                    ? {
+                        color: "bg-accent-amber",
+                        textColor: "text-accent-amber",
+                        pulse: true,
+                        label: "NXT",
+                        title: locale === "en" ? "NXT after-hours" : "NXT 시간외 거래",
+                      }
+                    : {
+                        color: "bg-accent-blue",
+                        textColor: "text-accent-blue",
+                        pulse: false,
+                        label: "Hyperliquid",
+                        title: locale === "en" ? "Hyperliquid 24h" : "Hyperliquid 24h 기준",
+                      };
                 return (
                   <span
-                    className={`inline-block w-1.5 h-1.5 rounded-full ${cfg.color} ${cfg.pulse ? "animate-pulse-soft" : ""} shrink-0`}
+                    className={`inline-flex items-center gap-1 text-[9px] font-semibold tabular ${cfg.textColor} shrink-0`}
                     title={cfg.title}
                     aria-label={cfg.title}
-                  />
+                  >
+                    <span className={`inline-block w-1.5 h-1.5 rounded-full ${cfg.color} ${cfg.pulse ? "animate-pulse-soft" : ""}`} />
+                    {cfg.label}
+                  </span>
                 );
               })()}
             </div>

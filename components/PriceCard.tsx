@@ -50,9 +50,9 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
     ? (row.name_en || row.name_ko || row.slug)
     : (row.name_ko || row.name_en || row.slug);
 
-  // 표시 가격 결정
-  const displayKRW = m?.per_share_krw ?? m?.krw_price ?? null;
-  const displayUSD = m?.per_share_usd ?? m?.mark_px_usd ?? null;
+  // 표시 가격 결정 — 시간대 인지 메인 (장중 = 정규장 실시간, 그 외 = HL 야간)
+  const displayKRW = m?.main_display_krw ?? m?.per_share_krw ?? m?.krw_price ?? null;
+  const displayUSD = m?.main_display_usd ?? m?.per_share_usd ?? m?.mark_px_usd ?? null;
   const showSharePrefix = m?.per_share_krw != null && row.share_ratio !== 1.0;
 
   // 메인 통화: 한국 주식만 KRW 메인, 지수는 단위 없는 숫자, 그 외 USD 메인

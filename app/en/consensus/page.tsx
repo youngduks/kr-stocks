@@ -48,10 +48,14 @@ export default async function ConsensusPageEN() {
   const all = getAllConsensus();
   const prices = await fetchAllPrices();
 
+  // 현재가 — 시간대 인지 메인 가격 (장중=KRX 실시간, 그 외=HL 야간) + 상승여력 enrich
   const enriched = all.map((c) => {
     const symbol = prices.symbols.find((s) => s.slug === c.slug);
     const cur =
-      symbol?.market?.regular_close_krw ?? symbol?.market?.per_share_krw ?? null;
+      symbol?.market?.main_display_krw ??
+      symbol?.market?.regular_close_krw ??
+      symbol?.market?.per_share_krw ??
+      null;
     return enrichWithCurrentPrice(c, cur);
   });
 

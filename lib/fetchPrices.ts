@@ -36,6 +36,15 @@ export type PriceRow = SymbolMeta & {
     regular_source: "naver" | "yahoo" | null;
     /** HL 가격 vs 정규장 종가 premium (%). 비상장/매핑 없으면 null */
     hl_premium_pct: number | null;
+    /**
+     * 시간대 인지 메인 표시 가격 (UI 우선 사용).
+     *  - 정규장 장중 (is_intraday_live=true) + regular_close 가용 → regular_close
+     *  - 그 외 (장 마감/비상장/매핑 없음) → HL per_share (한국·미국·지수) / mark (비상장)
+     */
+    main_display_krw: number | null;
+    main_display_usd: number | null;
+    /** 메인 표시 가격의 소스 — UI 라벨 분기용. */
+    main_source: "regular_live" | "hl_perp";
   } | null;
 };
 
@@ -157,6 +166,18 @@ export async function fetchAllPrices(): Promise<{
         is_intraday_live: rc?.isLive === true,
         regular_source: rc?.source ?? null,
         hl_premium_pct: hl_premium_pct != null ? round(hl_premium_pct, 2) : null,
+        // 시간대 인지 메인 가격 — 장중이면 정규장 실시간, 그 외엔 HL per_share
+        ...(() => {
+          const useRegular = rc?.isLive === true && regular_close_krw != null;
+          const hlKrw = per_share_krw ?? krw_price;
+          // isFx 종목은 mark가 KRW 단위 — USD 표시값은 1.0
+          const hlUsd = per_share_usd ?? (isFx ? 1.0 : mark);
+          return {
+            main_display_krw: round(useRegular ? regular_close_krw! : hlKrw, 2),
+            main_display_usd: round(useRegular && regular_close_usd != null ? regular_close_usd : hlUsd, 4),
+            main_source: (useRegular ? "regular_live" : "hl_perp") as "regular_live" | "hl_perp",
+          };
+        })(),
       },
     };
   });

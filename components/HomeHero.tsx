@@ -72,7 +72,9 @@ export function HomeHero({
     const consensus = allConsensus.find((c) => c.slug === slug);
     const flow = getTradingFlow(slug);
 
+    // 시간대 인지 메인 가격 — 장중이면 KRX 장중가, 그 외엔 HL 야간가
     const currentKrw =
+      row.market.main_display_krw ??
       row.market.regular_close_krw ??
       row.market.per_share_krw ??
       row.market.krw_price ??

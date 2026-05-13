@@ -14,8 +14,13 @@ const I18N = {
     sub: "탭하면 한 화면에 다 있음",
     upside: "상승여력",
     upsideRef: "(컨센 기준)", // 첫 방문자가 "뭘 기준?" 헷갈리지 않게 sub 라벨
+    avgRef: "(증권사 예측 평균)", // 현재가 → 목표가 화살표 우측 reference 명시
     sentLong: "상승",
     sentShort: "하락",
+    fundingLabel: "펀딩",
+    longFavor: "롱포지션 유리",
+    shortFavor: "숏포지션 유리",
+    balanced: "균형",
     current: "현재",
     avgTarget: "평균목표",
     foreign: "외인",
@@ -32,8 +37,13 @@ const I18N = {
     sub: "Tap any ticker for full analysis",
     upside: "Upside",
     upsideRef: "(vs avg target)",
+    avgRef: "(avg broker target)",
     sentLong: "Bull",
     sentShort: "Bear",
+    fundingLabel: "Funding",
+    longFavor: "Long favored",
+    shortFavor: "Short favored",
+    balanced: "Balanced",
     current: "Now",
     avgTarget: "Avg Target",
     foreign: "Foreign",
@@ -103,7 +113,8 @@ export function HomeHero({
         ((consensus.consensus.avg_target_krw - currentKrw) / currentKrw) * 100;
     }
 
-    // 시장 sentiment — HL funding rate 기반 (코인 metric 노출 X, 상승/하락 베팅 비율만)
+    // 시장 sentiment — HL funding rate 기반 (코인 metric 일부 노출: 펀딩비 % + 유리 라벨)
+    // 형님 5/13 요청: 펀딩비 + '롱포지션 유리/숏포지션 유리' 라벨 추가
     const funding = row.market.funding ?? null;
     const longPct =
       funding != null && !isNaN(funding) ? fundingToLongPct(funding) : null;
@@ -120,6 +131,7 @@ export function HomeHero({
       isLive: row.market.is_intraday_live === true,
       phase: row.market.market_phase ?? "closed",
       longPct,
+      funding, // raw 펀딩비 (% 표시 + favor 분기용)
     };
   }).filter((x): x is NonNullable<typeof x> => x != null);
 
@@ -188,7 +200,8 @@ export function HomeHero({
                   </div>
                   {item.currentKrw != null && item.avgTargetKrw != null && (
                     <div className="text-[10px] sm:text-[11px] text-text-dim tabular mt-0.5 leading-tight">
-                      ₩{fmtKRW(Math.round(item.currentKrw))} → ₩{fmtKRW(item.avgTargetKrw)}
+                      ₩{fmtKRW(Math.round(item.currentKrw))} → ₩{fmtKRW(item.avgTargetKrw)}{" "}
+                      <span className="text-text-dim/70">{t.avgRef}</span>
                     </div>
                   )}
                   {item.foreignWon != null && (
@@ -204,22 +217,44 @@ export function HomeHero({
                       </span>
                     </div>
                   )}
-                  {/* 시장 sentiment — HL 거래자 포지션 기반 상승/하락 베팅 비율 (간략 한 줄) */}
-                  {item.longPct != null && (() => {
+                  {/* 시장 sentiment — HL 거래자 포지션 기반 (5/13 형님 요청)
+                      줄 1: ↑상승 X% / ↓하락 Y% (베팅 비율)
+                      줄 2: 펀딩 +0.0X% · 롱포지션 유리 / 숏포지션 유리 (펀딩비 + 유리 라벨) */}
+                  {item.longPct != null && item.funding != null && (() => {
                     const shortPct = 100 - item.longPct;
-                    const isBull = item.longPct > 52;
-                    const isBear = item.longPct < 48;
+                    const isBull = item.funding > 0.00001;
+                    const isBear = item.funding < -0.00001;
+                    const fundingPctText = (item.funding * 100).toFixed(4);
+                    const fundingSign = item.funding > 0 ? "+" : "";
+                    const favorLabel = isBull
+                      ? t.longFavor
+                      : isBear
+                      ? t.shortFavor
+                      : t.balanced;
+                    const favorColor = isBull
+                      ? "text-accent-green"
+                      : isBear
+                      ? "text-accent-blue"
+                      : "text-text-muted";
                     return (
-                      <div className="text-[10px] text-text-dim tabular mt-1 leading-tight">
-                        📊{" "}
-                        <span className={isBull ? "text-accent-green" : "text-text-dim"}>
-                          ↑{t.sentLong} {item.longPct.toFixed(0)}%
-                        </span>
-                        <span className="text-text-dim/60"> / </span>
-                        <span className={isBear ? "text-accent-blue" : "text-text-dim"}>
-                          ↓{t.sentShort} {shortPct.toFixed(0)}%
-                        </span>
-                      </div>
+                      <>
+                        <div className="text-[10px] text-text-dim tabular mt-1 leading-tight">
+                          📊{" "}
+                          <span className={isBull ? "text-accent-green" : "text-text-dim"}>
+                            ↑{t.sentLong} {item.longPct.toFixed(0)}%
+                          </span>
+                          <span className="text-text-dim/60"> / </span>
+                          <span className={isBear ? "text-accent-blue" : "text-text-dim"}>
+                            ↓{t.sentShort} {shortPct.toFixed(0)}%
+                          </span>
+                        </div>
+                        <div className="text-[10px] text-text-dim tabular mt-0.5 leading-tight">
+                          {t.fundingLabel} {fundingSign}{fundingPctText}%{" "}
+                          <span className={`font-semibold ${favorColor}`}>
+                            · {favorLabel}
+                          </span>
+                        </div>
+                      </>
                     );
                   })()}
                 </div>

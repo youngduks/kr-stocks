@@ -15,8 +15,10 @@ function ThemeToggle() {
       onClick={toggle}
       aria-label={isDark ? "라이트 모드로 전환" : "다크 모드로 전환"}
       title={isDark ? "라이트 모드" : "다크 모드"}
-      className="inline-flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-md text-text-dim hover:text-text hover:bg-bg-card/70 border border-transparent hover:border-line transition shrink-0"
+      className="inline-flex items-center justify-center gap-1 sm:gap-1.5 h-7 sm:h-8 px-2 rounded-md text-text-dim hover:text-text hover:bg-bg-card/70 border border-transparent hover:border-line transition shrink-0"
     >
+      {/* 형님 요청: 아이콘만 있으면 무엇인지 모호 → '화면모드' 라벨 명시 */}
+      <span className="text-[10px] sm:text-[11px] leading-none">화면모드</span>
       <span className="text-sm sm:text-base leading-none" aria-hidden="true">
         {isDark ? "🌙" : "☀️"}
       </span>

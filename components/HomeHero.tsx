@@ -20,7 +20,7 @@ const I18N = {
     netBuy: "순매수",
     netSell: "순매도",
     live: "LIVE",
-    footer: "각 종목 탭 = HL 야간 + 정규장 + 증권사 분석 + 외인·기관 + funding + 차트 한 화면",
+    footer: "각 종목 탭 = HL 24h + 정규장 + 증권사 분석 + 외인·기관 + funding + 차트 한 화면",
   },
   en: {
     title: "🔥 Korean Stocks Deep Dive",
@@ -33,7 +33,7 @@ const I18N = {
     netBuy: "Net Buy",
     netSell: "Net Sell",
     live: "LIVE",
-    footer: "Each ticker = HL overnight + Regular close + Broker consensus + Foreign/Institutional flow + funding + chart on one screen",
+    footer: "Each ticker = HL 24h + Regular close + Broker consensus + Foreign/Institutional flow + funding + chart on one screen",
   },
 } as const;
 

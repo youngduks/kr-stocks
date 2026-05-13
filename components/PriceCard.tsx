@@ -63,12 +63,11 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
     : isKR
       ? `₩${formatKRW(displayKRW)}`
       : `$${formatUSD(displayUSD)}`;
-  // 보조: 환율·지수는 의미 없으므로 null
-  const subPrice = (row.is_fx || isIndex)
+  // 보조: 환율·지수·한국주식은 원화 그 자체라 보조 표시 불필요 (한국 retail 직격)
+  //       미국주식/비상장 = 달러 메인 → 원화 보조 (한국 retail 환산 reference 원함)
+  const subPrice = (row.is_fx || isIndex || isKR)
     ? null
-    : isKR
-      ? (displayUSD != null ? `≈ $${formatUSD(displayUSD)}` : null)
-      : (displayKRW != null ? `≈ ₩${formatKRW(displayKRW)}` : null);
+    : (displayKRW != null ? `≈ ₩${formatKRW(displayKRW)}` : null);
 
   return (
     <Link href={href as any}>

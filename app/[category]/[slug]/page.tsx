@@ -117,12 +117,12 @@ export default async function SymbolPage({ params }: Props) {
         </section>
 
         <section className="bg-bg-card border border-line rounded-2xl p-6 mb-6">
-          {/* 시간대 인지 라벨 — 장중이면 KRX/NYSE 장중, 그 외엔 HL 야간 */}
+          {/* 시간대 인지 라벨 — 장중이면 KRX/NYSE 장중, 그 외엔 HL 24h (HL 은 24/7 거래라 "야간" 부정확) */}
           <div className="flex items-center justify-between gap-2 mb-2">
             <div className="text-xs text-text-dim">
               {m.main_source === "regular_live"
                 ? (row.category === "korea" ? "KRX 장중 거래가 (실시간)" : row.category === "us" ? "미국 정규장 거래가 (실시간)" : "정규장 거래가 (실시간)")
-                : "HL 야간 perp 시세 (24h)"}
+                : "HL 24h 시세"}
             </div>
             {m.main_source === "regular_live" && (
               <span className="inline-flex items-center gap-1 text-[10px] font-bold tabular text-accent-green shrink-0">
@@ -136,11 +136,16 @@ export default async function SymbolPage({ params }: Props) {
               <div className="text-4xl md:text-5xl font-bold tabular text-text mb-1">
                 ₩{Math.round(m.main_display_krw ?? m.per_share_krw ?? m.krw_price).toLocaleString("ko-KR")}
               </div>
-              <div className="text-sm text-text-muted tabular">
-                {m.main_source === "regular_live"
-                  ? <>HL 야간 ≈ ₩{Math.round(m.per_share_krw ?? m.krw_price).toLocaleString("ko-KR")}</>
-                  : <>≈ ${(m.per_share_usd ?? m.mark_px_usd).toFixed(2)}{row.share_ratio != null && row.share_ratio !== 1.0 ? ` · 1주 환산 (HL contract = ${(1/row.share_ratio).toFixed(1)}주 묶음)` : ""}</>}
-              </div>
+              {/* 한국주식 = 한국 retail 직격 → 원화만, 달러 환산 X. 장중일 땐 HL 24h 비교 reference 만 표시. */}
+              {m.main_source === "regular_live" ? (
+                <div className="text-sm text-text-muted tabular">
+                  HL 24h ≈ ₩{Math.round(m.per_share_krw ?? m.krw_price).toLocaleString("ko-KR")}
+                </div>
+              ) : row.share_ratio != null && row.share_ratio !== 1.0 ? (
+                <div className="text-sm text-text-muted tabular">
+                  1주 환산 · HL contract = {(1/row.share_ratio).toFixed(1)}주 묶음
+                </div>
+              ) : null}
             </>
           ) : row.is_index ? (
             <>
@@ -148,7 +153,7 @@ export default async function SymbolPage({ params }: Props) {
                 {(m.main_display_usd ?? m.mark_px_usd).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
               </div>
               <div className="text-sm text-text-muted tabular">
-                {m.main_source === "regular_live" ? "정규장 지수 (포인트)" : "HL perp 지수 (포인트)"}
+                {m.main_source === "regular_live" ? "정규장 지수 (포인트)" : "HL 24h 지수 (포인트)"}
               </div>
             </>
           ) : row.is_private ? (
@@ -163,7 +168,7 @@ export default async function SymbolPage({ params }: Props) {
               <div className="text-4xl md:text-5xl font-bold tabular text-text mb-1">${(m.main_display_usd ?? m.mark_px_usd).toFixed(2)}</div>
               <div className="text-sm text-text-muted tabular">
                 {m.main_source === "regular_live"
-                  ? <>HL 야간 ≈ ${m.mark_px_usd.toFixed(2)}</>
+                  ? <>HL 24h ≈ ${m.mark_px_usd.toFixed(2)}</>
                   : <>≈ ₩{Math.round(m.krw_price).toLocaleString("ko-KR")}</>}
               </div>
             </>
@@ -178,7 +183,7 @@ export default async function SymbolPage({ params }: Props) {
           <section className="mb-6 p-5 rounded-2xl bg-accent-blue/5 border border-accent-blue/20">
             <div className="flex items-center justify-between gap-3 mb-3">
               <div className="text-xs text-text-dim">
-                {m.is_intraday_live ? "HL 야간 시세 vs 장중 프리미엄" : "정규장 종가 대비 프리미엄 (야간/주말 가격 압력)"}
+                {m.is_intraday_live ? "HL 24h 시세 vs 장중 프리미엄" : "정규장 종가 대비 프리미엄 (야간/주말 가격 압력)"}
               </div>
               {m.is_intraday_live ? (
                 <span className="text-[10px] font-semibold tabular text-text-dim shrink-0">HL 24h</span>
@@ -189,22 +194,21 @@ export default async function SymbolPage({ params }: Props) {
             <div className="flex items-end justify-between gap-4 flex-wrap">
               <div>
                 <div className="text-xs text-text-dim mb-1">
-                  {m.is_intraday_live ? "HL 야간 perp" : "정규장 종가"}
+                  {m.is_intraday_live ? "HL 24h" : "정규장 종가"}
                 </div>
                 <div className="text-xl font-semibold tabular text-text">
                   {m.is_intraday_live ? (
-                    // 장중 = 첫 박스가 정규장 장중가 메인 → 이 박스엔 HL 야간 가격
+                    // 장중 = 첫 박스가 정규장 장중가 메인 → 이 박스엔 HL 24h 가격
                     row.is_index ? (
                       <>
                         {m.mark_px_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
                         <span className="text-xs text-text-dim ml-2">(지수)</span>
                       </>
                     ) : row.category === "korea" ? (
-                      <>
-                        ₩{Math.round(m.per_share_krw ?? m.krw_price).toLocaleString("ko-KR")}
-                        <span className="text-xs text-text-dim ml-2">(${(m.per_share_usd ?? m.mark_px_usd).toFixed(2)})</span>
-                      </>
+                      // 한국주식 = 원화만 (달러 환산 X, 한국 retail 직격)
+                      <>₩{Math.round(m.per_share_krw ?? m.krw_price).toLocaleString("ko-KR")}</>
                     ) : (
+                      // 미국/비상장 = 달러 메인 + 원화 보조 (한국 retail 원화 reference 원함)
                       <>
                         ${m.mark_px_usd.toFixed(2)}
                         <span className="text-xs text-text-dim ml-2">(₩{Math.round(m.krw_price).toLocaleString("ko-KR")})</span>
@@ -218,10 +222,8 @@ export default async function SymbolPage({ params }: Props) {
                         <span className="text-xs text-text-dim ml-2">(지수)</span>
                       </>
                     ) : row.category === "korea" ? (
-                      <>
-                        ₩{Math.round(m.regular_close_krw).toLocaleString("ko-KR")}
-                        {m.regular_close_usd && <span className="text-xs text-text-dim ml-2">(${m.regular_close_usd.toFixed(2)})</span>}
-                      </>
+                      // 한국주식 = 원화만
+                      <>₩{Math.round(m.regular_close_krw).toLocaleString("ko-KR")}</>
                     ) : (
                       <>
                         ${m.regular_close_usd?.toFixed(2) ?? "—"}

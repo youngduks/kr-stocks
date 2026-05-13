@@ -35,7 +35,7 @@ const I18N = {
       "본 정보는 단순 참고용이며 투자 권유·자문이 아닙니다. 목표가는 시점에 따라 변경될 수 있습니다.",
     noCurrentPrice: "—",
     seeStock: "종합 분석 보기",
-    seeStockSub: "HL 야간 · 정규장 · 외인·기관 · funding · 차트",
+    seeStockSub: "HL 24h · 정규장 · 외인·기관 · funding · 차트",
   },
   en: {
     title: "Korean Broker Consensus",
@@ -65,7 +65,7 @@ const I18N = {
       "For informational purposes only. Not investment advice. Targets may change over time.",
     noCurrentPrice: "—",
     seeStock: "Full analysis",
-    seeStockSub: "HL overnight · Regular · Foreign flow · funding · chart",
+    seeStockSub: "HL 24h · Regular · Foreign flow · funding · chart",
   },
 } as const;
 

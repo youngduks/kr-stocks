@@ -4,6 +4,13 @@ import type { PriceRow } from "@/lib/fetchPrices";
 // 페르소나 재정의 (2026-05-13): 한국 주식 retail 타겟. HL은 24시간 시세 source 만,
 // 거래 라우팅 CTA 미노출 (코인 트레이더 페르소나 회피, 주식 정보 사이트 정체성 명확화).
 
+// HL funding rate → 상승 베팅 % (FundingBar / HomeHero 와 동일 heuristic)
+// 음수 funding = 숏 우세, 양수 = 롱 우세
+function fundingToLongPct(funding: number): number {
+  const raw = 50 + funding * 10000;
+  return Math.max(5, Math.min(95, raw));
+}
+
 function formatKRW(n: number | null | undefined): string {
   if (n == null) return "—";
   return Math.round(n).toLocaleString("ko-KR");
@@ -30,12 +37,24 @@ const i18n = {
     badgeIndex: "지수",
     badgeEtf: "ETF",
     vsRegular: "정규장 대비",
+    sentLong: "상승",
+    sentShort: "하락",
+    fundingLabel: "펀딩",
+    longFavor: "롱포지션 유리",
+    shortFavor: "숏포지션 유리",
+    balanced: "균형",
   },
   en: {
     badgePrivate: "Private",
     badgeIndex: "Index",
     badgeEtf: "ETF",
     vsRegular: "vs Regular",
+    sentLong: "Bull",
+    sentShort: "Bear",
+    fundingLabel: "Funding",
+    longFavor: "Long favored",
+    shortFavor: "Short favored",
+    balanced: "Balanced",
   },
 } as const;
 
@@ -192,6 +211,45 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
             return <div className="mt-1.5 text-[10px] text-text-dim tabular">{locale === "en" ? `Reg close $${m.regular_close_usd.toFixed(2)}` : `정규장 종가 $${m.regular_close_usd.toFixed(2)}`}</div>;
           }
           return null;
+        })()}
+
+        {/* 시장 sentiment — HL 거래자 포지션 기반 (형님 5/13 요청 확장: 미국주식·비상장·테마·지수 모두 노출)
+            줄 1: 📊 ↑상승 X% / ↓하락 Y% (베팅 비율)
+            줄 2: 펀딩 +0.0X% · 롱포지션 유리 / 숏포지션 유리 / 균형
+            환율(is_fx)은 funding 의미 약함 → 자동 hide */}
+        {!row.is_fx && m?.funding != null && !isNaN(m.funding) && (() => {
+          const longPct = fundingToLongPct(m.funding);
+          const shortPct = 100 - longPct;
+          const isBull = m.funding > 0.00001;
+          const isBear = m.funding < -0.00001;
+          const fundingPctText = (m.funding * 100).toFixed(4);
+          const fundingSign = m.funding > 0 ? "+" : "";
+          const favorLabel = isBull ? t.longFavor : isBear ? t.shortFavor : t.balanced;
+          const favorColor = isBull
+            ? "text-accent-green"
+            : isBear
+            ? "text-accent-blue"
+            : "text-text-muted";
+          return (
+            <div className="mt-2 pt-2 border-t border-line/40">
+              <div className="text-[10px] text-text-dim tabular leading-tight">
+                📊{" "}
+                <span className={isBull ? "text-accent-green" : "text-text-dim"}>
+                  ↑{t.sentLong} {longPct.toFixed(0)}%
+                </span>
+                <span className="text-text-dim/60"> / </span>
+                <span className={isBear ? "text-accent-blue" : "text-text-dim"}>
+                  ↓{t.sentShort} {shortPct.toFixed(0)}%
+                </span>
+              </div>
+              <div className="mt-0.5 text-[10px] text-text-dim tabular leading-tight">
+                {t.fundingLabel} {fundingSign}{fundingPctText}%{" "}
+                <span className={`font-semibold ${favorColor}`}>
+                  · {favorLabel}
+                </span>
+              </div>
+            </div>
+          );
         })()}
       </div>
     </Link>

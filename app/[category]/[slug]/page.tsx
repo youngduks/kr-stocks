@@ -195,12 +195,25 @@ export default async function SymbolPage({ params }: Props) {
                     HL 24h ≈ ₩{Math.round(m.per_share_krw ?? m.krw_price).toLocaleString("ko-KR")}
                   </div>
                 )}
-                {/* share_ratio 정보 (closed phase + ratio ≠ 1.0 인 경우만) */}
-                {m.market_phase === "closed" && row.share_ratio != null && row.share_ratio !== 1.0 && (
-                  <div className="text-sm text-text-muted tabular">
-                    1주 환산 · HL contract = {(1/row.share_ratio).toFixed(1)}주 묶음
-                  </div>
-                )}
+                {/* Hyperliquid phase 한국주식 — 메인 ₩ 옆에 작게 달러 보조 (형님 5/13 요청)
+                    + share_ratio 정보 (ratio ≠ 1.0 인 경우만 추가 표기) */}
+                {m.market_phase === "closed" && (() => {
+                  const usd = m.main_display_usd ?? m.per_share_usd ?? m.mark_px_usd;
+                  if (usd == null) return null;
+                  const usdText = usd >= 10000
+                    ? usd.toLocaleString("en-US", { maximumFractionDigits: 0 })
+                    : usd >= 1
+                      ? usd.toFixed(2)
+                      : usd.toFixed(4);
+                  const ratioInfo = row.share_ratio != null && row.share_ratio !== 1.0
+                    ? ` · HL contract = ${(1/row.share_ratio).toFixed(1)}주 묶음`
+                    : "";
+                  return (
+                    <div className="text-sm text-text-muted tabular">
+                      ≈ ${usdText}{ratioInfo}
+                    </div>
+                  );
+                })()}
               </div>
             </>
           ) : row.is_index ? (

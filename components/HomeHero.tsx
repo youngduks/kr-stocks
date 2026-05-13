@@ -121,11 +121,19 @@ export function HomeHero({
     const longPct =
       funding != null && !isNaN(funding) ? fundingToLongPct(funding) : null;
 
+    // 한국주식 Hyperliquid phase 달러 보조 — 형님 5/13 요청: HL로 표현할 때 작게 달러도 표시
+    const currentUsd =
+      row.market.main_display_usd ??
+      row.market.per_share_usd ??
+      row.market.mark_px_usd ??
+      null;
+
     return {
       slug,
       name_ko: row.name_ko ?? slug,
       name_en: row.name_en ?? slug,
       currentKrw,
+      currentUsd,
       avgTargetKrw: consensus?.consensus.avg_target_krw ?? null,
       upsidePct,
       foreignWon: flow?.cumulative_5d.foreign_won ?? null,
@@ -202,7 +210,12 @@ export function HomeHero({
                   </div>
                   {item.currentKrw != null && item.avgTargetKrw != null && (
                     <div className="text-[10px] sm:text-[11px] text-text-dim tabular mt-0.5 leading-tight">
-                      ₩{fmtKRW(Math.round(item.currentKrw))} → ₩{fmtKRW(item.avgTargetKrw)}{" "}
+                      ₩{fmtKRW(Math.round(item.currentKrw))}
+                      {/* Hyperliquid phase 일 때 달러 보조 inline — 형님 5/13 요청 */}
+                      {item.phase === "closed" && item.currentUsd != null && (
+                        <span className="text-text-dim/70"> (≈${item.currentUsd.toFixed(2)})</span>
+                      )}
+                      {" "}→ ₩{fmtKRW(item.avgTargetKrw)}{" "}
                       <span className="text-text-dim/70">{t.avgRef}</span>
                     </div>
                   )}

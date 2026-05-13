@@ -13,6 +13,9 @@ const I18N = {
     title: "🔥 한국주식 종합 분석",
     sub: "탭하면 한 화면에 다 있음",
     upside: "상승여력",
+    upsideRef: "(컨센 기준)", // 첫 방문자가 "뭘 기준?" 헷갈리지 않게 sub 라벨
+    sentLong: "상승",
+    sentShort: "하락",
     current: "현재",
     avgTarget: "평균목표",
     foreign: "외인",
@@ -22,12 +25,15 @@ const I18N = {
     live: "정규장",
     nxt: "NXT",
     hyperliq: "Hyperliquid",
-    footer: "각 종목 탭 = HL 24h + 정규장 + 증권사 분석 + 외인·기관 + funding + 차트 한 화면",
+    footer: "각 종목 탭 = HL 24h + 정규장 + 증권사 분석 + 외인·기관 + 시장 sentiment + 차트 한 화면",
   },
   en: {
     title: "🔥 Korean Stocks Deep Dive",
     sub: "Tap any ticker for full analysis",
     upside: "Upside",
+    upsideRef: "(vs avg target)",
+    sentLong: "Bull",
+    sentShort: "Bear",
     current: "Now",
     avgTarget: "Avg Target",
     foreign: "Foreign",
@@ -37,7 +43,7 @@ const I18N = {
     live: "Regular",
     nxt: "NXT",
     hyperliq: "Hyperliquid",
-    footer: "Each ticker = HL 24h + Regular close + Broker consensus + Foreign/Institutional flow + funding + chart on one screen",
+    footer: "Each ticker = HL 24h + Regular close + Broker consensus + Foreign/Institutional flow + Market sentiment + chart on one screen",
   },
 } as const;
 
@@ -57,6 +63,13 @@ function fmtFlowKRW(won: number, locale: Locale): string {
 }
 
 const KOREA_SLUGS = ["samsung", "hynix", "hyundai"] as const;
+
+// HL funding rate → 상승 베팅 % (FundingBar 와 동일 heuristic, 단순 텍스트만 노출)
+// 음수 funding = 숏 우세 / 양수 funding = 롱 우세
+function fundingToLongPct(funding: number): number {
+  const raw = 50 + funding * 10000;
+  return Math.max(5, Math.min(95, raw));
+}
 
 export function HomeHero({
   rows,
@@ -90,6 +103,11 @@ export function HomeHero({
         ((consensus.consensus.avg_target_krw - currentKrw) / currentKrw) * 100;
     }
 
+    // 시장 sentiment — HL funding rate 기반 (코인 metric 노출 X, 상승/하락 베팅 비율만)
+    const funding = row.market.funding ?? null;
+    const longPct =
+      funding != null && !isNaN(funding) ? fundingToLongPct(funding) : null;
+
     return {
       slug,
       name_ko: row.name_ko ?? slug,
@@ -101,6 +119,7 @@ export function HomeHero({
       institutionalWon: flow?.cumulative_5d.institutional_won ?? null,
       isLive: row.market.is_intraday_live === true,
       phase: row.market.market_phase ?? "closed",
+      longPct,
     };
   }).filter((x): x is NonNullable<typeof x> => x != null);
 
@@ -185,17 +204,38 @@ export function HomeHero({
                       </span>
                     </div>
                   )}
+                  {/* 시장 sentiment — HL 거래자 포지션 기반 상승/하락 베팅 비율 (간략 한 줄) */}
+                  {item.longPct != null && (() => {
+                    const shortPct = 100 - item.longPct;
+                    const isBull = item.longPct > 52;
+                    const isBear = item.longPct < 48;
+                    return (
+                      <div className="text-[10px] text-text-dim tabular mt-1 leading-tight">
+                        📊{" "}
+                        <span className={isBull ? "text-accent-green" : "text-text-dim"}>
+                          ↑{t.sentLong} {item.longPct.toFixed(0)}%
+                        </span>
+                        <span className="text-text-dim/60"> / </span>
+                        <span className={isBear ? "text-accent-blue" : "text-text-dim"}>
+                          ↓{t.sentShort} {shortPct.toFixed(0)}%
+                        </span>
+                      </div>
+                    );
+                  })()}
                 </div>
 
-                {/* 우측 (모바일) / 하단 (데스크탑): 상승여력 */}
+                {/* 우측 (모바일) / 하단 (데스크탑): 상승여력 + (컨센 기준) sub 라벨 */}
                 {item.upsidePct != null && (
                   <div className="text-right sm:text-left shrink-0">
-                    <div className="text-[9px] sm:text-[10px] text-text-dim">
+                    <div className="text-[9px] sm:text-[10px] text-text-dim leading-tight">
                       {t.upside}
                     </div>
                     <div className={`text-lg sm:text-2xl font-bold tabular ${upsideColor} leading-tight`}>
                       {isUp ? "▲ +" : isDn ? "▼ " : ""}
                       {Math.abs(item.upsidePct).toFixed(1)}%
+                    </div>
+                    <div className="text-[9px] text-text-dim/80 leading-tight mt-0.5">
+                      {t.upsideRef}
                     </div>
                   </div>
                 )}

@@ -70,11 +70,11 @@ export default function NotFound() {
             <div className="text-xs text-text-dim">implied valuation 24h 추적</div>
           </Link>
           <Link
-            href="/about"
+            href="/guide/korean-overnight-prices"
             className="p-4 rounded-2xl bg-bg-card hover:bg-bg-hover border border-line transition"
           >
-            <div className="text-sm font-semibold text-text mb-1">ℹ️ 사이트 소개</div>
-            <div className="text-xs text-text-dim">데이터 출처 · 빌더 narrative</div>
+            <div className="text-sm font-semibold text-text mb-1">📖 야간 가격 가이드</div>
+            <div className="text-xs text-text-dim">삼성전자 야간 가격 확인법</div>
           </Link>
         </div>
 

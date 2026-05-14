@@ -50,15 +50,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "daily",
       priority: 0.92, // 한국 retail mainstream 키워드 (목표주가) — 高 priority
     },
-    {
-      url: `${base}/about`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.6,
-    },
   ];
 
-  // 영어 페이지 — 홈 + 가이드 + 컨센서스 + about
+  // 영어 페이지 — 홈 + 가이드 + 컨센서스
   const enPages: MetadataRoute.Sitemap = [
     {
       url: `${base}/en`,
@@ -77,12 +71,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "daily",
       priority: 0.85,
-    },
-    {
-      url: `${base}/en/about`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.55,
     },
   ];
 

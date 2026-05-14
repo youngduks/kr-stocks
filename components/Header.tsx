@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { StatsBar } from "./StatsBar";
 import { useTheme } from "./ThemeProvider";
+import { SearchPalette } from "./SearchPalette";
 
 function ThemeToggle() {
   const { theme, toggle, mounted } = useTheme();
@@ -166,10 +167,11 @@ export function Header({ fxRate, fxChange }: { fxRate: number; fxChange: number 
           </div>
         </div>
 
-        {/* Row 2: 페이지 네비 (좌측) + 테마/언어 토글 (우측) */}
+        {/* Row 2: 페이지 네비 (좌측) + 검색 / 테마 / 언어 토글 (우측) */}
         <div className="mt-2 flex items-center justify-between gap-3">
           <PageNav />
           <div className="flex items-center gap-1 sm:gap-2">
+            <SearchPalette />
             <ThemeToggle />
             <LangToggle />
           </div>

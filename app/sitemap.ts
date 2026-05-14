@@ -33,14 +33,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
+      url: `${base}/guide/korean-overnight-prices`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.88, // "삼성전자 야간" / "한국주식 24시간" — 한국 retail mainstream
+    },
+    {
+      url: `${base}/guide/nxt-after-hours`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.82, // "NXT 시간외" 키워드
+    },
+    {
       url: `${base}/consensus`,
       lastModified: now,
       changeFrequency: "daily",
       priority: 0.92, // 한국 retail mainstream 키워드 (목표주가) — 高 priority
     },
+    {
+      url: `${base}/about`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
   ];
 
-  // 영어 페이지 — 홈 + 가이드 + 컨센서스
+  // 영어 페이지 — 홈 + 가이드 + 컨센서스 + about
   const enPages: MetadataRoute.Sitemap = [
     {
       url: `${base}/en`,
@@ -59,6 +77,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "daily",
       priority: 0.85,
+    },
+    {
+      url: `${base}/en/about`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.55,
     },
   ];
 

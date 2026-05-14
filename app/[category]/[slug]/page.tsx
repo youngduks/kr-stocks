@@ -9,6 +9,7 @@ import { ConsensusSection } from "@/components/ConsensusSection";
 // 코인 metric (펀딩%, APR) 제거하고 상승/하락 베팅 비율만 가시화
 import { FundingBar } from "@/components/FundingBar";
 import { TradingFlowCard } from "@/components/TradingFlowCard";
+import { ShareButton } from "@/components/ShareButton";
 import { getTradingFlow, hasTradingFlow } from "@/lib/tradingFlow";
 import nextDynamic from "next/dynamic";
 import { notFound } from "next/navigation";
@@ -103,11 +104,93 @@ export default async function SymbolPage({ params }: Props) {
     }),
   };
 
+  // BreadcrumbList Schema — Google rich snippet (5/14)
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "kr-stocks.com",
+        item: "https://kr-stocks.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: label.ko,
+        item: `https://kr-stocks.com/${row.category}`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: row.name_ko,
+        item: `https://kr-stocks.com/${row.category}/${row.slug}`,
+      },
+    ],
+  };
+
+  // FAQPage Schema — 종목별 retail Q&A (5/14)
+  const faqLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: `${row.name_ko} 야간 가격은 어떻게 확인하나요?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `${row.name_ko}는 KRX 정규장 (09:00~15:30 KST) 마감 후 NXT 시간외 (15:30~20:00 KST) + Hyperliquid HIP-3 perp (20:00~익일 08:00) 로 24시간 가격 추적이 가능합니다. kr-stocks.com 은 세 phase 를 자동 전환해서 메인 가격으로 표시합니다.`,
+        },
+      },
+      {
+        "@type": "Question",
+        name: `${row.name_ko} 실시간 시세는 정확한가요?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `정규장·NXT 시간외 가격은 네이버 금융 (KRX 공식 데이터) 기준이며 30초마다 갱신됩니다. 야간 Hyperliquid 가격은 글로벌 perp 시장 가격으로 정규장 시초가와 차이날 수 있으며 참고용입니다.`,
+        },
+      },
+      ...(row.category === "korea"
+        ? [
+            {
+              "@type": "Question",
+              name: `${row.name_ko} 증권사 평균 목표주가는 얼마인가요?`,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: `kr-stocks.com 에서 ${row.name_ko} 종목 상세 페이지를 보면 한국 13~14개 증권사 평균 목표주가 + 상승여력 + 외국인·기관 5일 누적 매매 동향을 한 화면에서 확인할 수 있습니다. 출처: 네이버 금융 리서치.`,
+              },
+            },
+          ]
+        : []),
+      ...(row.is_private
+        ? [
+            {
+              "@type": "Question",
+              name: `${row.name_ko} 비상장 주가는 어떻게 추정되나요?`,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: `${row.name_ko}는 비상장 회사로 implied valuation 기반의 추정 가격입니다. Hyperliquid HIP-3 perp 가격을 share 단위로 환산한 값이며, 정식 거래 가격이 아닌 참고용입니다.`,
+              },
+            },
+          ]
+        : []),
+    ],
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
       />
       <Header fxRate={data.fx.krw_per_usdt} fxChange={data.fx.change_24h_pct} />
 
@@ -120,8 +203,19 @@ export default async function SymbolPage({ params }: Props) {
             {row.is_private && <span className="text-xs px-2 py-1 rounded-md bg-accent-purple/15 text-accent-purple font-semibold">비상장 perp</span>}
             {row.is_index && <span className="text-xs px-2 py-1 rounded-md bg-accent-amber/15 text-accent-amber font-semibold">지수</span>}
           </div>
-          <h1 className="text-3xl md:text-4xl font-bold tracking-tight">{row.name_ko}</h1>
-          <div className="text-sm text-text-muted mt-1">{row.name_en} · <span className="font-mono text-xs">{row.ticker}</span></div>
+          <div className="flex items-start justify-between gap-3">
+            <div className="min-w-0 flex-1">
+              <h1 className="text-3xl md:text-4xl font-bold tracking-tight">{row.name_ko}</h1>
+              <div className="text-sm text-text-muted mt-1">{row.name_en} · <span className="font-mono text-xs">{row.ticker}</span></div>
+            </div>
+            {/* Share 버튼 — viral 마찰 0 (Web Share API + clipboard fallback, 5/14) */}
+            <ShareButton
+              url={`https://kr-stocks.com/${row.category}/${row.slug}`}
+              title={`${row.name_ko} 24시간 시세 — kr-stocks.com`}
+              text={`${row.name_ko} 24시간 가격 추적 — 정규장 + NXT + Hyperliquid 통합`}
+              locale="ko"
+            />
+          </div>
         </section>
 
         <section className="bg-bg-card border border-line rounded-2xl p-6 mb-6">

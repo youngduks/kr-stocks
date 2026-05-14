@@ -14,6 +14,9 @@ const I18N = {
       "삼성전자 · SK하이닉스 · 현대차 13~14개 증권사 평균 목표가 + 상승여력",
     guideTitle: "한국에서 Hyperliquid 거래하는 법",
     guideDesc: "비상장 빅테크 + 한국주식 야간 perp 단계별 안내",
+    aboutTitle: "사이트 소개",
+    aboutDesc: "데이터 출처 · 빌더 narrative · disclaimer",
+    aboutHref: "/about",
     adTitle: "광고 · 제휴 문의",
     adAffiliate: "배너 · 네이티브 · 증권사/거래소 affiliate 제휴 환영",
     adResponse: "응답: 평일 24h 이내",
@@ -39,6 +42,9 @@ const I18N = {
     guideTitle: "How to trade Hyperliquid from Korea",
     guideDesc:
       "Step-by-step onramp for private big tech + Korean stock overnight perps",
+    aboutTitle: "About this site",
+    aboutDesc: "Data sources · builder narrative · disclaimer",
+    aboutHref: "/en/about",
     adTitle: "Advertising · Partnerships",
     adAffiliate: "Banner · native · broker/exchange affiliate welcome",
     adResponse: "Response: within 24h on weekdays",
@@ -111,6 +117,16 @@ export function Footer({ locale = "ko" }: { locale?: Locale } = {}) {
               {t.guideTitle}
             </Link>{" "}
             — {t.guideDesc}
+          </li>
+          <li>
+            •{" "}
+            <Link
+              href={t.aboutHref as any}
+              className="text-accent-blue hover:underline"
+            >
+              {t.aboutTitle}
+            </Link>{" "}
+            — {t.aboutDesc}
           </li>
         </ul>
 

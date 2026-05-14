@@ -113,12 +113,13 @@ export function ShareButton({
     );
   }
 
+  // 기본 variant — 종목 상세 h1 우측에 잘 보이게 강조 (5/14 형님 지적: 못 찾음)
   return (
     <button
       type="button"
       onClick={handleClick}
       aria-label={t.label}
-      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs sm:text-sm font-semibold text-text bg-bg-card hover:bg-bg-hover border border-line hover:border-accent-blue/50 transition"
+      className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs sm:text-sm font-semibold text-white bg-accent-blue hover:bg-accent-blue/90 border border-accent-blue shadow-sm transition shrink-0"
     >
       <ShareIcon />
       <span>{copied ? t.copied : t.label}</span>

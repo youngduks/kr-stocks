@@ -5,6 +5,7 @@ import Link from "next/link";
 import { getAllConsensus } from "@/lib/consensus";
 import { getTradingFlow } from "@/lib/tradingFlow";
 import type { PriceRow } from "@/lib/fetchPrices";
+import { ShareButton } from "./ShareButton";
 
 export type Locale = "ko" | "en";
 
@@ -162,11 +163,24 @@ export function HomeHero({
 
   return (
     <section className="mb-8 p-5 sm:p-6 rounded-2xl bg-gradient-to-br from-accent-blue/8 via-accent-purple/5 to-accent-green/8 border border-line">
-      <div className="flex items-baseline justify-between mb-4 gap-2">
-        <h2 className="text-base sm:text-lg font-bold tracking-tight text-text">
-          {t.title}
-        </h2>
-        <span className="text-[10px] sm:text-[11px] text-text-dim">{t.sub}</span>
+      <div className="flex items-center justify-between mb-4 gap-2 flex-wrap">
+        <div className="min-w-0 flex-1">
+          <h2 className="text-base sm:text-lg font-bold tracking-tight text-text">
+            {t.title}
+          </h2>
+          <div className="text-[10px] sm:text-[11px] text-text-dim mt-0.5">{t.sub}</div>
+        </div>
+        {/* 사이트 자체 공유 버튼 (5/14 형님 지적: 종목 상세에만 있어서 못 찾음) */}
+        <ShareButton
+          url={locale === "en" ? "https://kr-stocks.com/en" : "https://kr-stocks.com"}
+          title={locale === "en"
+            ? "kr-stocks.com — 24h Korean & Global Stocks"
+            : "kr-stocks.com — 24시간 한국·글로벌 주식 시세"}
+          text={locale === "en"
+            ? "Regular hours + NXT + Hyperliquid 24/7. Korean broker consensus, foreign flow, private big tech."
+            : "정규장 + NXT 시간외 + 야간 24시간. 증권사 컨센 + 외인기관 + 비상장 빅테크."}
+          locale={locale}
+        />
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-3">

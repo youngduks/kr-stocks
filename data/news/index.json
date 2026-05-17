@@ -1,0 +1,27 @@
+{
+  "updated_at": "2026-05-17T14:13:55.272Z",
+  "sources": [
+    {
+      "id": "hankyung",
+      "name": "한국경제"
+    },
+    {
+      "id": "mt",
+      "name": "머니투데이"
+    },
+    {
+      "id": "yonhap_econ",
+      "name": "연합뉴스 경제"
+    },
+    {
+      "id": "yonhap_intl",
+      "name": "연합뉴스 국제"
+    }
+  ],
+  "categories": {
+    "intl": 50,
+    "samsung": 19,
+    "hynix": 1,
+    "hyundai": 4
+  }
+}

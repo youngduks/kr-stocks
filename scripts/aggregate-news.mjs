@@ -43,9 +43,15 @@ const FILTERS = {
     "이재용","엑시노스",
   ],
   hynix: [
+    // 종목 직격
     "SK하이닉스","SK Hynix","하이닉스",
-    "DRAM","D램","HBM3","HBM4","HBM3E",
-    "곽노정","마이크론","Micron",
+    "DRAM","D램","HBM","HBM3","HBM4","HBM3E","HBM3e",
+    "곽노정",
+    // 경쟁사 (hynix와 같은 산업)
+    "마이크론","Micron","CXMT",
+    // 한국 반도체 산업 macro (form님 hynix 관심 = 메모리 산업 전반)
+    "메모리","반도체","낸드","NAND",
+    "엔비디아","Nvidia","TSMC","AI 반도체",
   ],
   hyundai: [
     // 종목 specific only — 일반 "전기차"/"EV" 빼고 종목 직격 키워드만
@@ -139,13 +145,14 @@ async function fetchSource(src) {
 // ─────────────────────────────────────────────────────────────
 
 function categorize(article) {
-  // (1) Negative filter — title+desc에 사회복지/연예/부동산 키워드 있으면 즉시 drop
-  const fullText = `${article.title} ${article.desc}`.toLowerCase();
-  if (NEGATIVE_KEYWORDS.some((k) => fullText.includes(k.toLowerCase()))) {
+  // NEGATIVE + POSITIVE 둘 다 title only — 대칭 처리
+  // (description 매칭 시 hynix·samsung 종목 기사가 무관 단어로 drop되는 false negative 발생)
+  const title = article.title.toLowerCase();
+  // (1) Negative filter — title에 사회복지/연예/지자체/부동산 단어 있으면 즉시 drop
+  if (NEGATIVE_KEYWORDS.some((k) => title.includes(k.toLowerCase()))) {
     return [];
   }
-  // (2) Positive filter — title만 매칭 (description noise 제거)
-  const title = article.title.toLowerCase();
+  // (2) Positive filter — title 매칭
   const cats = [];
   for (const [cat, kws] of Object.entries(FILTERS)) {
     if (kws.some((k) => title.includes(k.toLowerCase()))) cats.push(cat);

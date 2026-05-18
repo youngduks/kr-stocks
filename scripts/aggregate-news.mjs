@@ -19,11 +19,21 @@ const SOURCES = [
 
 const FILTERS = {
   intl: [
-    "전쟁","우크라","이스라엘","가자","하마스","러시아",
-    "Fed","FOMC","연준","CPI","PCE","고용지표",
-    "트럼프","바이든","관세","tariff",
-    "미중","중국 수출","중국 제재","대만","반도체 수출통제",
-    "WTI","유가","원자재","달러 인덱스","DXY",
+    // 전쟁 (한정적 phrase)
+    "우크라","우크라이나","이스라엘","가자지구","하마스",
+    "러시아 침공","푸틴","젤렌스키","ICBM","핵무기",
+    // 미국 통화·매크로
+    "Fed","FOMC","연준","파월","CPI","PCE","고용지표","비농업",
+    // 정치 (외교)
+    "트럼프","바이든","해리스","백악관","국무부",
+    // 무역·관세
+    "관세","tariff","무역전쟁",
+    // 미중·대만
+    "미중","중국 수출","중국 제재","대만 해협","대만 침공","반도체 수출통제",
+    // 원자재 (한정 phrase — "고유가 지원금" 같은 noise 제거)
+    "WTI 유가","Brent","원유 가격","달러 인덱스","DXY",
+    // 영문 macro
+    "Trump","Biden","Powell","Putin","Zelensky",
   ],
   samsung: [
     "삼성전자","Samsung Electronics","삼전",
@@ -34,17 +44,31 @@ const FILTERS = {
   ],
   hynix: [
     "SK하이닉스","SK Hynix","하이닉스",
-    "DRAM","D램","낸드","HBM3","HBM4","HBM3E",
-    "곽노정",
+    "DRAM","D램","HBM3","HBM4","HBM3E",
+    "곽노정","마이크론","Micron",
   ],
   hyundai: [
+    // 종목 specific only — 일반 "전기차"/"EV" 빼고 종목 직격 키워드만
     "현대자동차","현대차","Hyundai Motor",
-    "아이오닉","Ioniq","EV6","제네시스",
-    "전기차","EV","수소차","FCEV",
+    "아이오닉","Ioniq",
     "정의선","장재훈",
-    "현대모비스","기아",
+    "현대모비스",
   ],
 };
+
+// Negative filter — 모든 카테고리에 적용. 매칭 시 article drop.
+// 사회복지/연예/스포츠/부동산 noise 제거.
+const NEGATIVE_KEYWORDS = [
+  // 사회복지
+  "복지","지원금","아동","육아","주거 권리","건강보험","교육비","급식",
+  // 연예/스포츠
+  "감독","배우","가수","연예","아이돌","드라마","영화",
+  "축구","야구","올림픽","월드컵","KBO","MLB","아시안컵",
+  // 부동산
+  "아파트 분양","전세","월세","청약",
+  // 일반 사회
+  "범죄","사건","교통사고","화재",
+];
 
 const MAX_PER_CATEGORY = 50;
 
@@ -105,10 +129,16 @@ async function fetchSource(src) {
 // ─────────────────────────────────────────────────────────────
 
 function categorize(article) {
-  const text = `${article.title} ${article.desc}`.toLowerCase();
+  // (1) Negative filter — title+desc에 사회복지/연예/부동산 키워드 있으면 즉시 drop
+  const fullText = `${article.title} ${article.desc}`.toLowerCase();
+  if (NEGATIVE_KEYWORDS.some((k) => fullText.includes(k.toLowerCase()))) {
+    return [];
+  }
+  // (2) Positive filter — title만 매칭 (description noise 제거)
+  const title = article.title.toLowerCase();
   const cats = [];
   for (const [cat, kws] of Object.entries(FILTERS)) {
-    if (kws.some((k) => text.includes(k.toLowerCase()))) cats.push(cat);
+    if (kws.some((k) => title.includes(k.toLowerCase()))) cats.push(cat);
   }
   return cats;
 }

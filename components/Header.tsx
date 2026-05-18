@@ -99,19 +99,23 @@ function PageNav() {
   // 현재 페이지가 어느 카테고리?
   // "주가" = 홈/카드 grid (/, /en, /korea/samsung, /us/tesla 같은 종목 상세)
   // "분석" = /consensus, /en/consensus
+  // "뉴스" = /news (국제정세 + 삼성/하이닉스/현대차)
   // "가이드" = /guide/..., /en/guide/...
   const isConsensus = pathname === "/consensus" || pathname === "/en/consensus";
+  const isNews = pathname === "/news" || pathname.startsWith("/news/");
   const isGuide = pathname.includes("/guide/");
-  const isPrices = !isConsensus && !isGuide;
+  const isPrices = !isConsensus && !isNews && !isGuide;
 
-  // locale에 맞는 href
+  // locale에 맞는 href (뉴스룸은 현재 한국어 only — EN에서도 /news로 fallback)
   const home = isEn ? "/en" : "/";
   const consensus = isEn ? "/en/consensus" : "/consensus";
+  const news = "/news";
   const guide = isEn ? "/en/guide/hyperliquid-onramp" : "/guide/hyperliquid-onramp";
 
   const tabs: Array<{ key: string; href: string; ko: string; en: string; active: boolean }> = [
     { key: "prices", href: home, ko: "주가", en: "Prices", active: isPrices },
     { key: "consensus", href: consensus, ko: "증권사 분석", en: "Consensus", active: isConsensus },
+    { key: "news", href: news, ko: "뉴스", en: "News", active: isNews },
     { key: "guide", href: guide, ko: "가이드", en: "Guide", active: isGuide },
   ];
 

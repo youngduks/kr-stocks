@@ -12,6 +12,8 @@ const I18N = {
     consensusTitle: "증권사 목표주가 분석",
     consensusDesc:
       "삼성전자 · SK하이닉스 · 현대차 13~14개 증권사 평균 목표가 + 상승여력",
+    newsTitle: "뉴스룸",
+    newsDesc: "국제정세 · 삼성전자 · SK하이닉스 · 현대차 — 한경/머투/연합 30분 단위 필터링",
     guideTitle: "한국에서 Hyperliquid 거래하는 법",
     guideDesc: "비상장 빅테크 + 한국주식 야간 perp 단계별 안내",
     adTitle: "광고 · 제휴 문의",
@@ -22,6 +24,7 @@ const I18N = {
       "본 서비스는 정보 제공만을 목적으로 하며, 투자 권유·자문·예측이 아닙니다. 표시 가격은 perp DEX 시세로 정규장 거래소 가격과 차이가 있을 수 있습니다. 비상장 회사 가격은 implied valuation 기반의 추정치입니다.",
     copyrightSuffix: "Not investment advice.",
     consensusHref: "/consensus",
+    newsHref: "/news",
     guideHref: "/guide/hyperliquid-onramp",
     mailtoSubject: "[광고문의] kr-stocks.com",
     mailtoBody:
@@ -36,6 +39,8 @@ const I18N = {
     consensusTitle: "Korean Broker Consensus",
     consensusDesc:
       "Samsung · SK Hynix · Hyundai — 13~14 Korean broker avg target & upside",
+    newsTitle: "Newsroom",
+    newsDesc: "Global politics · Samsung · SK Hynix · Hyundai — auto-aggregated from KR media every 30 min",
     guideTitle: "How to trade Hyperliquid from Korea",
     guideDesc:
       "Step-by-step onramp for private big tech + Korean stock overnight perps",
@@ -47,6 +52,7 @@ const I18N = {
       "This service is for informational purposes only and is not investment advice or solicitation. Prices shown are perp DEX quotes and may diverge from regular-session exchange prices. Private company prices are implied-valuation estimates.",
     copyrightSuffix: "Not investment advice.",
     consensusHref: "/en/consensus",
+    newsHref: "/news",
     guideHref: "/en/guide/hyperliquid-onramp",
     mailtoSubject: "[Ad Inquiry] kr-stocks.com",
     mailtoBody:
@@ -101,6 +107,16 @@ export function Footer({ locale = "ko" }: { locale?: Locale } = {}) {
               {t.consensusTitle}
             </Link>{" "}
             — {t.consensusDesc}
+          </li>
+          <li>
+            •{" "}
+            <Link
+              href={t.newsHref as any}
+              className="text-accent-blue hover:underline"
+            >
+              {t.newsTitle}
+            </Link>{" "}
+            — {t.newsDesc}
           </li>
           <li>
             •{" "}

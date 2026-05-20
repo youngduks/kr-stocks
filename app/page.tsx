@@ -4,6 +4,7 @@ import { PriceCard } from "@/components/PriceCard";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { HomeHero } from "@/components/HomeHero";
+import { PollWidget } from "@/components/PollWidget";
 
 export const revalidate = 30;
 export const dynamic = "force-dynamic";
@@ -34,6 +35,11 @@ export default async function Home() {
 
         {/* Hero box — 한국주식 3종 미리보기 + 종목 상세 직접 CTA (USP 발견율 ↑) */}
         <HomeHero rows={data.symbols} locale="ko" />
+
+        <PollWidget
+          pollId="samsung-strike-2026-05-21"
+          question="내일(5/21) 삼성전자 파업 전 타결한다?"
+        />
 
         {grouped.map(({ cat, label, rows }) => (
           <section key={cat} className="mb-10">

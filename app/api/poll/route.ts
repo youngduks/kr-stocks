@@ -4,9 +4,9 @@ import { getPoll, vote, type PollChoice } from "@/lib/poll";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-// Poll registry. 5/21 23:59 KST = 5/21 14:59 UTC
+// Poll registry. 5/21 09:00 KST = 5/21 00:00 UTC
 const POLLS: Record<string, { closedAt: string }> = {
-  "samsung-strike-2026-05-21": { closedAt: "2026-05-21T14:59:00.000Z" },
+  "samsung-strike-2026-05-21": { closedAt: "2026-05-21T00:00:00.000Z" },
 };
 
 function getClosedAt(pollId: string): string | null {

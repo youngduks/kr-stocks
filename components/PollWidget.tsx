@@ -44,9 +44,11 @@ function formatCloseDate(iso: string): string {
 
 export function PollWidget({
   pollId,
+  title,
   question,
 }: {
   pollId: string;
+  title: string;
   question: string;
 }) {
   const [result, setResult] = useState<PollResult | null>(null);
@@ -114,12 +116,15 @@ export function PollWidget({
 
   return (
     <div className="rounded-xl bg-bg-card border border-line p-4 mb-6">
-      <div className="flex items-baseline justify-between gap-3 mb-3 flex-wrap">
-        <div className="text-sm font-semibold text-text">🗳️ {question}</div>
-        <div className="text-[11px] text-text-dim">
-          재미로 ㅎ · {total}명 참여
-          {closeStr && !isClosed ? ` · ${closeStr} 마감` : ""}
+      <div className="mb-3">
+        <div className="flex items-baseline justify-between gap-3 flex-wrap mb-1">
+          <div className="text-base font-bold text-text">🗳️ {title}</div>
+          <div className="text-[11px] text-text-dim">
+            재미로 ㅎ · {total}명 참여
+            {closeStr && !isClosed ? ` · ${closeStr} 마감` : ""}
+          </div>
         </div>
+        <div className="text-sm text-text-muted">{question}</div>
       </div>
 
       {!voted && !isClosed && (

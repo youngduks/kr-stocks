@@ -27,6 +27,7 @@ export default async function Home() {
       <main className="max-w-6xl mx-auto px-5 pt-6 pb-12">
         <PollWidget
           pollId="samsung-strike-2026-05-21"
+          title="인간지표"
           question="내일(5/21) 삼성전자 파업 전 타결한다?"
         />
 

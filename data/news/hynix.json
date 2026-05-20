@@ -1,8 +1,43 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-20T13:35:33.420Z",
-  "count": 4,
+  "updated_at": "2026-05-20T16:51:36.926Z",
+  "count": 7,
   "items": [
+    {
+      "title": "반도체 셧다운 막았다…노사 성과급 제도화·배분율 전격 합의",
+      "link": "https://www.hankyung.com/article/2026052102131",
+      "source": "한국경제",
+      "ts": 1779290589000,
+      "pub": "Thu, 21 May 2026 00:23:09 +0900"
+    },
+    {
+      "title": "[속보]삼전, 반도체 특별성과급 신설…한도없이 사업성과의 10.5%",
+      "link": "https://www.hankyung.com/article/2026052001867",
+      "source": "한국경제",
+      "ts": 1779288414000,
+      "pub": "Wed, 20 May 2026 23:46:54 +0900"
+    },
+    {
+      "title": "엔비디아 실적데이…뉴욕증시,반도체주식들 상승",
+      "link": "https://www.hankyung.com/article/202605200158i",
+      "source": "한국경제",
+      "ts": 1779287207000,
+      "pub": "Wed, 20 May 2026 23:26:47 +0900"
+    },
+    {
+      "title": "뉴욕증시, 엔비디아 실적발표 앞두고 상승 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260520192800009",
+      "source": "연합뉴스 국제",
+      "ts": 1779285859000,
+      "pub": "Wed, 20 May 2026 23:04:19 +0900"
+    },
+    {
+      "title": "ASML \"AI·위성·로봇 수요로 반도체 당분간 공급 부족\"",
+      "link": "https://www.hankyung.com/article/202605200118i",
+      "source": "한국경제",
+      "ts": 1779285335000,
+      "pub": "Wed, 20 May 2026 22:55:35 +0900"
+    },
     {
       "title": "'반도체 운명 걸렸다'…삼전닉스 개미들 밤잠 설치게 될 이유",
       "link": "https://www.hankyung.com/article/202605209330g",
@@ -11,25 +46,11 @@
       "pub": "Wed, 20 May 2026 21:02:22 +0900"
     },
     {
-      "title": "지방도 반도체·방산 특수…창원·청주 매매 50% 급증",
-      "link": "https://www.hankyung.com/article/202605208235i",
-      "source": "한국경제",
-      "ts": 1779269402000,
-      "pub": "Wed, 20 May 2026 18:30:02 +0900"
-    },
-    {
       "title": "\"목표는 엔비디아 생태계 구축\"…젠슨 황, 135조원 뿌려",
       "link": "https://www.yna.co.kr/view/AKR20260520137800009",
       "source": "연합뉴스 국제",
       "ts": 1779260871000,
       "pub": "Wed, 20 May 2026 16:07:51 +0900"
-    },
-    {
-      "title": "삼전·하닉에 도전…中 양대 메모리업체 IPO 준비 잰걸음",
-      "link": "https://www.yna.co.kr/view/AKR20260520076300009",
-      "source": "연합뉴스 국제",
-      "ts": 1779243488000,
-      "pub": "Wed, 20 May 2026 11:18:08 +0900"
     }
   ]
 }

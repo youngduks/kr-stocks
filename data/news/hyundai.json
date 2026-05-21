@@ -1,6 +1,21 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-05-21T08:29:44.968Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-05-21T11:49:23.613Z",
+  "count": 2,
+  "items": [
+    {
+      "title": "HL만도 '휴머노이드 기업' 변신…\"로봇 관절로 테슬라 공략\"",
+      "link": "https://www.hankyung.com/article/2026052125661",
+      "source": "한국경제",
+      "ts": 1779356015000,
+      "pub": "Thu, 21 May 2026 18:33:35 +0900"
+    },
+    {
+      "title": "스트라드비젼, &#039;AWS 서밋&#039;서 피지컬 AI 데이터 전략 발표",
+      "link": "https://www.mt.co.kr/future/2026/05/21/2026052116470583224",
+      "source": "머니투데이",
+      "ts": 1779355069000,
+      "pub": "Thu, 21 May 2026 18:17:49 +0900"
+    }
+  ]
 }

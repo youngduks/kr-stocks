@@ -4,7 +4,6 @@ import { PriceCard } from "@/components/PriceCard";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { HomeHero } from "@/components/HomeHero";
-import { PollWidget } from "@/components/PollWidget";
 
 export const revalidate = 30;
 export const dynamic = "force-dynamic";
@@ -25,12 +24,6 @@ export default async function Home() {
       <Header fxRate={data.fx.krw_per_usdt} fxChange={data.fx.change_24h_pct} />
 
       <main className="max-w-6xl mx-auto px-5 pt-6 pb-12">
-        <PollWidget
-          pollId="samsung-strike-2026-05-21"
-          title="인간지표"
-          question="내일(5/21) 삼성전자 파업 전 타결한다?"
-        />
-
         <section className="mb-8">
           <h1 className="text-2xl font-bold tracking-tight mb-2">24시간 글로벌 자산 시세</h1>
           <div className="text-sm text-text-muted leading-relaxed">

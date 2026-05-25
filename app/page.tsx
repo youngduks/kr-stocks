@@ -5,8 +5,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { HomeHero } from "@/components/HomeHero";
 
-export const revalidate = 30;
-export const dynamic = "force-dynamic";
+export const revalidate = 120; // ISR 캐시 30s → 120s (Free tier 최적화, 5/25)
 
 export default async function Home() {
   const data = await fetchAllPrices();

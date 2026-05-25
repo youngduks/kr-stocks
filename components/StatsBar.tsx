@@ -4,7 +4,8 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 
 const SESSION_KEY = "kr-stocks:sid";
-const POLL_INTERVAL_MS = 30_000;
+const POLL_INTERVAL_MS = 120_000; // 2분 폴링 (Free tier 최적화, 5/25)
+const VISIT_REFRESH_MS = 4 * 60_000; // 4분당 1회 visit POST (ZSET 5분 만료 직전)
 
 const I18N = {
   ko: { online: "지금 접속", total: "누적 접속", unit: "명" },
@@ -41,32 +42,37 @@ export function StatsBar() {
   useEffect(() => {
     let alive = true;
     const sid = getOrCreateSessionId();
+    let lastVisitTs = 0;
 
-    // 첫 방문 — POST /api/visit
-    fetch("/api/visit", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ sessionId: sid }),
-    })
-      .then((r) => r.json())
-      .then((d) => {
-        if (alive && d && typeof d.online === "number") setStats({ online: d.online, total: d.total });
-      })
-      .catch(() => {});
-
-    // 30초마다 폴링 + 자기 세션 유지 위해 visit ping
-    const tick = () => {
-      fetch("/api/visit", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ sessionId: sid }),
-      })
-        .then((r) => r.json())
-        .then((d) => {
-          if (alive && d && typeof d.online === "number") setStats({ online: d.online, total: d.total });
-        })
-        .catch(() => {});
+    // visit POST는 4분에 1번만, 나머지는 stats GET (write→read 분리, Vercel invocation 절감)
+    const tick = async () => {
+      try {
+        const now = Date.now();
+        const needVisit = now - lastVisitTs >= VISIT_REFRESH_MS;
+        if (needVisit) {
+          lastVisitTs = now;
+          const r = await fetch("/api/visit", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ sessionId: sid }),
+          });
+          const d = await r.json();
+          if (alive && d && typeof d.online === "number") {
+            setStats({ online: d.online, total: d.total });
+          }
+        } else {
+          const r = await fetch("/api/stats", { cache: "no-store" });
+          const d = await r.json();
+          if (alive && d && typeof d.online === "number") {
+            setStats({ online: d.online, total: d.total });
+          }
+        }
+      } catch {
+        /* ignore */
+      }
     };
+
+    tick(); // 즉시 1회 (visit POST + stats 반영)
     const id = setInterval(tick, POLL_INTERVAL_MS);
     return () => {
       alive = false;

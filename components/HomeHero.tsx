@@ -2,7 +2,6 @@
 // USP 발견율 ↑: user가 카드 grid 보기 전에 "탭하면 더 깊이 있다" 인지
 
 import Link from "next/link";
-import { getAllConsensus } from "@/lib/consensus";
 import { getTradingFlow } from "@/lib/tradingFlow";
 import type { PriceRow } from "@/lib/fetchPrices";
 import { ShareButton } from "./ShareButton";
@@ -14,8 +13,8 @@ const I18N = {
     title: "🔥 한국주식 종합 분석",
     sub: "탭하면 한 화면에 다 있음",
     upside: "상승여력",
-    upsideRef: "(컨센 기준)", // 첫 방문자가 "뭘 기준?" 헷갈리지 않게 sub 라벨
-    avgRef: "(증권사 예측 평균)", // 현재가 → 목표가 화살표 우측 reference 명시
+    upsideRef: "(HL 24h vs 정규장)", // 형님 5/24: 컨센 의미 약함 → HL prem 기준
+    avgRef: "(HL 24h)", // 화살표 우측 = HL 24h KRW 가격
     sentLong: "상승",
     sentShort: "하락",
     fundingLabel: "펀딩",
@@ -39,8 +38,8 @@ const I18N = {
     title: "🔥 Korean Stocks Deep Dive",
     sub: "Tap any ticker for full analysis",
     upside: "Upside",
-    upsideRef: "(vs avg target)",
-    avgRef: "(avg broker target)",
+    upsideRef: "(HL 24h vs regular)",
+    avgRef: "(HL 24h)",
     sentLong: "Bull",
     sentShort: "Bear",
     fundingLabel: "Funding",
@@ -105,29 +104,30 @@ export function HomeHero({
   locale?: Locale;
 }) {
   const t = I18N[locale];
-  const allConsensus = getAllConsensus();
 
   // 한국주식 3종 enrich
   const items = KOREA_SLUGS.map((slug) => {
     const row = rows.find((r) => r.slug === slug);
     if (!row || !row.market) return null;
 
-    const consensus = allConsensus.find((c) => c.slug === slug);
     const flow = getTradingFlow(slug);
 
-    // 시간대 인지 메인 가격 — 장중이면 KRX 장중가, 그 외엔 HL 야간가
+    // 좌측(화살표 시작) = 정규장 종가. 모든 phase에서 일관 (형님 5/24 지시: 컨센 자리에 HL 대체)
     const currentKrw =
-      row.market.main_display_krw ??
       row.market.regular_close_krw ??
       row.market.per_share_krw ??
+      row.market.main_display_krw ??
       row.market.krw_price ??
       null;
 
-    let upsidePct: number | null = null;
-    if (consensus && currentKrw && currentKrw > 0) {
-      upsidePct =
-        ((consensus.consensus.avg_target_krw - currentKrw) / currentKrw) * 100;
-    }
+    // 우측(화살표 끝) = HL 24h KRW 가격. premium %로 갭 시각화
+    const hlPriceKrw =
+      row.market.krw_price ??
+      row.market.main_display_krw ??
+      null;
+
+    // 상승여력 = HL premium % (정규장 종가 대비 HL 24h 가격)
+    const upsidePct: number | null = row.market.hl_premium_pct ?? null;
 
     // 시장 sentiment — HL funding rate 기반 (코인 metric 일부 노출: 펀딩비 % + 유리 라벨)
     // 형님 5/13 요청: 펀딩비 + '롱포지션 유리/숏포지션 유리' 라벨 추가
@@ -148,7 +148,7 @@ export function HomeHero({
       name_en: row.name_en ?? slug,
       currentKrw,
       currentUsd,
-      avgTargetKrw: consensus?.consensus.avg_target_krw ?? null,
+      avgTargetKrw: hlPriceKrw, // 변수명 호환: 화살표 우측 = HL 24h KRW
       upsidePct,
       foreignWon: flow?.cumulative_5d.foreign_won ?? null,
       institutionalWon: flow?.cumulative_5d.institutional_won ?? null,

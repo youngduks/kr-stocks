@@ -330,6 +330,10 @@ export function HomeHero({
                 {/* 우측 (모바일) / 하단 (데스크탑): 상승여력 단기(HL) + 중장기(컨센) 동시 표시 */}
                 {(item.upsideShortPct != null || item.upsideLongPct != null) && (
                   <div className="text-right sm:text-left shrink-0">
+                    {/* 공통 헤더: 상승여력 (형님 5/25 지시: 단어 자체가 빠져있어서 추가) */}
+                    <div className="text-[10px] sm:text-[11px] font-semibold text-text-muted leading-tight mb-1.5">
+                      📈 {t.upside}
+                    </div>
                     {/* 단기 = HL premium % (정규장 종가 대비 HL 24h) */}
                     {item.upsideShortPct != null && (
                       <div className="leading-tight">

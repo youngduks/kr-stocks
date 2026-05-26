@@ -1,8 +1,80 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-26T19:53:53.427Z",
-  "count": 6,
+  "updated_at": "2026-05-26T21:27:14.745Z",
+  "count": 14,
   "items": [
+    {
+      "title": "美 S&P500·나스닥, 메모리주 급등에 최고치 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260527005251072",
+      "source": "연합뉴스 국제",
+      "ts": 1779829876000,
+      "pub": "Wed, 27 May 2026 06:11:16 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "중동전쟁에도 기업심리 개선…반도체 수출·소비회복 영향",
+      "link": "https://www.mt.co.kr/economy/2026/05/27/2026052616285153449",
+      "source": "머니투데이",
+      "ts": 1779829200000,
+      "pub": "Wed, 27 May 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한·미 반도체 인재 한자리에…교육부, 학생 교류 행사 개최",
+      "link": "https://www.mt.co.kr/policy/2026/05/27/2026052617233798852",
+      "source": "머니투데이",
+      "ts": 1779829200000,
+      "pub": "Wed, 27 May 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전 이어 마이크론도 '1조달러 클럽'…SK하이닉스도 눈앞",
+      "link": "https://www.hankyung.com/article/2026052704257",
+      "source": "한국경제",
+      "ts": 1779829055000,
+      "pub": "Wed, 27 May 2026 05:57:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아 출신 보강한 포티투닷..현대차그룹 '자율주행' 가속",
+      "link": "https://www.mt.co.kr/industry/2026/05/27/2026052614562317535",
+      "source": "머니투데이",
+      "ts": 1779828300000,
+      "pub": "Wed, 27 May 2026 05:45:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美마이크론도 '시총 1조달러 클럽' 가입…UBS 목표가 3배로 상향",
+      "link": "https://www.yna.co.kr/view/AKR20260527006500072",
+      "source": "연합뉴스 국제",
+      "ts": 1779828182000,
+      "pub": "Wed, 27 May 2026 05:43:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "마이크론 19% 폭등...S&P500·나스닥 사상 최고치 [뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/05/27/2026052705252518554",
+      "source": "머니투데이",
+      "ts": 1779827206000,
+      "pub": "Wed, 27 May 2026 05:26:46 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "SK하이닉스에 '40억 올인' 한 개미…\"3주 만에 11억 벌어\" 계좌 인증",
+      "link": "https://www.mt.co.kr/society/2026/05/27/2026052705093413456",
+      "source": "머니투데이",
+      "ts": 1779827142000,
+      "pub": "Wed, 27 May 2026 05:25:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 S&P500·나스닥, 메모리주 급등에 최고치 마감",
+      "link": "https://www.yna.co.kr/view/AKR20260527005200072",
+      "source": "연합뉴스 국제",
+      "ts": 1779826513000,
+      "pub": "Wed, 27 May 2026 05:15:13 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "美 증시, 이란 협상 기대로 상승 출발…반도체주 상승 주도",
       "link": "https://www.hankyung.com/article/202605260344i",
@@ -41,14 +113,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779778453000,
       "pub": "Tue, 26 May 2026 15:54:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "화웨이, '타오의 법칙'으로 TSMC·삼전 추격…\"2031년 1.4나노\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260526021051009",
-      "source": "연합뉴스 국제",
-      "ts": 1779763411000,
-      "pub": "Tue, 26 May 2026 11:43:31 +0900",
       "sentiment": "neutral"
     }
   ]

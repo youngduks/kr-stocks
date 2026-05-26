@@ -1,10 +1,10 @@
 name: Aggregate News (국제정세 + 삼성·하이닉스·현대차)
 
-# 2시간마다 한국 경제뉴스 RSS aggregator + 키워드 필터 → data/news/*.json
-# 5/25: Vercel free tier 최적화 — 30min → 2h (ISR rebuild invocation 75% 감소)
+# 매 시간 한국 경제뉴스 RSS aggregator + 키워드 필터 → data/news/*.json
+# 5/26: 신선도 ↑ (2h → 1h). Vercel invocation 영향 minimal (build minutes만 추가 사용)
 on:
   schedule:
-    - cron: "0 */2 * * *"   # every 2h (UTC) — Vercel free tier 최적화 (5/25)
+    - cron: "0 * * * *"   # every 1h (UTC) — 신선도 ↑ (5/26)
   workflow_dispatch:           # 수동 실행 허용
 
 permissions:

@@ -1,22 +1,54 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-26T14:36:57.770Z",
-  "count": 6,
+  "updated_at": "2026-05-26T17:51:00.610Z",
+  "count": 10,
   "items": [
+    {
+      "title": "트럼프, '건강 이상설' 거듭 일축…\"검진서 모든 게 정상\"",
+      "link": "https://www.yna.co.kr/view/AKR20260527002400071",
+      "source": "연합뉴스 국제",
+      "ts": 1779816980000,
+      "pub": "Wed, 27 May 2026 02:36:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 이란과 합의-폭격 기로서 '캠프데이비드 내각회의'",
+      "link": "https://www.yna.co.kr/view/AKR20260527001800071",
+      "source": "연합뉴스 국제",
+      "ts": 1779812785000,
+      "pub": "Wed, 27 May 2026 01:26:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 가는 프랑스 대선후보들…'유럽 안보 리더' 경쟁",
+      "link": "https://www.yna.co.kr/view/AKR20260527000800081",
+      "source": "연합뉴스 국제",
+      "ts": 1779811459000,
+      "pub": "Wed, 27 May 2026 01:04:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "푸틴, 카자흐스탄 간다…석유 수송 확대 등 논의",
+      "link": "https://www.yna.co.kr/view/AKR20260526179000109",
+      "source": "연합뉴스 국제",
+      "ts": 1779808183000,
+      "pub": "Wed, 27 May 2026 00:09:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘군, 레바논 남부 지상전 확대…\"옐로라인 넘었다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260526178900079",
+      "source": "연합뉴스 국제",
+      "ts": 1779807171000,
+      "pub": "Tue, 26 May 2026 23:52:51 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"극우 이스라엘 장관의 구호선단 활동가 조롱은 국내 정치용\"",
       "link": "https://www.yna.co.kr/view/AKR20260526175700081",
       "source": "연합뉴스 국제",
       "ts": 1779803487000,
       "pub": "Tue, 26 May 2026 22:51:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘 대사관, 한국 활동가 '학대 주장'에 \"전면 부인…신빙성 의문\"",
-      "link": "https://www.mt.co.kr/politics/2026/05/26/2026052619315939990",
-      "source": "머니투데이",
-      "ts": 1779792063000,
-      "pub": "Tue, 26 May 2026 19:41:03 +0900",
       "sentiment": "neutral"
     },
     {

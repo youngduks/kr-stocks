@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-26T14:36:57.772Z",
-  "count": 7,
+  "updated_at": "2026-05-26T17:51:00.612Z",
+  "count": 6,
   "items": [
+    {
+      "title": "美 증시, 이란 협상 기대로 상승 출발…반도체주 상승 주도",
+      "link": "https://www.hankyung.com/article/202605260344i",
+      "source": "한국경제",
+      "ts": 1779804282000,
+      "pub": "Tue, 26 May 2026 23:04:42 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "UBS \"메모리칩 장기계약 수혜\"…마이크론 목표가 2배 넘게 올려",
       "link": "https://www.hankyung.com/article/202605260313i",
@@ -41,22 +49,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779763411000,
       "pub": "Tue, 26 May 2026 11:43:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "TSMC 질주 덕에…대만 증시 시총, 인도 제치고 세계 5위",
-      "link": "https://www.yna.co.kr/view/AKR20260526067000009",
-      "source": "연합뉴스 국제",
-      "ts": 1779760673000,
-      "pub": "Tue, 26 May 2026 10:57:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "화웨이 \"TSMC와 격차 좁힐 기술 개발…2031년 1.4나노 칩 생산\"",
-      "link": "https://www.yna.co.kr/view/AKR20260526021000009",
-      "source": "연합뉴스 국제",
-      "ts": 1779755184000,
-      "pub": "Tue, 26 May 2026 09:26:24 +0900",
       "sentiment": "neutral"
     }
   ]

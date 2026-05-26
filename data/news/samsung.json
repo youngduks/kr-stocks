@@ -1,14 +1,103 @@
 {
   "category": "samsung",
-  "updated_at": "2026-05-25T21:02:43.861Z",
-  "count": 1,
+  "updated_at": "2026-05-26T03:19:17.289Z",
+  "count": 12,
   "items": [
     {
-      "title": "\"반도체 6억, 우린 600만원?\" DX 불만에도...삼전 합의안 '가결' 무게",
-      "link": "https://www.mt.co.kr/industry/2026/05/26/2026052519553063867",
+      "title": "[오늘 이 종목] 美 미사일 공급난 수혜주부터 HBM4 모멘텀까지… 김민수 대표의 '시선집중' 주도주",
+      "link": "https://www.mt.co.kr/stock/2026/05/26/2026052612067079393",
       "source": "머니투데이",
-      "ts": 1779736320000,
-      "pub": "Tue, 26 May 2026 04:12:00 +0900"
+      "ts": 1779765073000,
+      "pub": "Tue, 26 May 2026 12:11:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 DX직원 '외부 AI' 쓴다…내달 공식 도입",
+      "link": "https://www.mt.co.kr/industry/2026/05/26/2026052611090251491",
+      "source": "머니투데이",
+      "ts": 1779764585000,
+      "pub": "Tue, 26 May 2026 12:03:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "화웨이, '타오의 법칙'으로 TSMC·삼전 추격…\"2031년 1.4나노\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260526021051009",
+      "source": "연합뉴스 국제",
+      "ts": 1779763411000,
+      "pub": "Tue, 26 May 2026 11:43:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"합리적 대안 위해 싸울 것\"…삼성전자, 노·노 갈등 격화",
+      "link": "https://www.hankyung.com/article/2026052686467",
+      "source": "한국경제",
+      "ts": 1779761606000,
+      "pub": "Tue, 26 May 2026 11:13:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "초고수는 삼전닉스 차익실현…순매수 1위 종목은 'OOO'",
+      "link": "https://www.hankyung.com/article/202605268642i",
+      "source": "한국경제",
+      "ts": 1779760802000,
+      "pub": "Tue, 26 May 2026 11:00:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성운용, 삼성전자·SK하이닉스 2배 추종 ETF 출시",
+      "link": "https://www.hankyung.com/article/202605268404i",
+      "source": "한국경제",
+      "ts": 1779760603000,
+      "pub": "Tue, 26 May 2026 10:56:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "카카오페이증권, RIA 5만좌…엔비디아·테슬라 팔고 삼전닉스 매수",
+      "link": "https://www.yna.co.kr/view/AKR20260526057000008",
+      "source": "연합뉴스 경제",
+      "ts": 1779758927000,
+      "pub": "Tue, 26 May 2026 10:28:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성운용, '삼전닉스' 단일종목 레버리지 상장…\"현물납입방식\"",
+      "link": "https://www.yna.co.kr/view/AKR20260526036200008",
+      "source": "연합뉴스 경제",
+      "ts": 1779757202000,
+      "pub": "Tue, 26 May 2026 10:00:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"HBM 속 'ICE' 심었다\"…SK하이닉스, 발열 잡는 신기술 공개",
+      "link": "https://www.hankyung.com/article/202605268328g",
+      "source": "한국경제",
+      "ts": 1779757079000,
+      "pub": "Tue, 26 May 2026 09:57:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, 종전 기대 장중 8100선 위로…삼전닉스 '사상 최고가'",
+      "link": "https://www.hankyung.com/article/2026052680346",
+      "source": "한국경제",
+      "ts": 1779755755000,
+      "pub": "Tue, 26 May 2026 09:35:55 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[특징주] SK하이닉스 사상 첫 '200만 닉스'…삼성전자도 1.9%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260526034800008",
+      "source": "연합뉴스 경제",
+      "ts": 1779755006000,
+      "pub": "Tue, 26 May 2026 09:23:26 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "AI발 메모리 호황 속 경고음…\"폭락 사이클 반복 가능\"",
+      "link": "https://www.yna.co.kr/view/AKR20260526011900072",
+      "source": "연합뉴스 국제",
+      "ts": 1779748338000,
+      "pub": "Tue, 26 May 2026 07:32:18 +0900",
+      "sentiment": "negative"
     }
   ]
 }

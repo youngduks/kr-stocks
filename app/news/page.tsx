@@ -10,7 +10,28 @@ type NewsItem = {
   source: string;
   ts: number;
   pub: string;
+  sentiment?: "positive" | "negative" | "neutral"; // 5/26 추가
 };
+
+function sentimentBadge(s?: NewsItem["sentiment"]) {
+  if (s === "positive") {
+    return {
+      label: "호재",
+      bg: "rgba(34,197,94,0.12)",
+      color: "#22c55e",
+      border: "rgba(34,197,94,0.35)",
+    };
+  }
+  if (s === "negative") {
+    return {
+      label: "악재",
+      bg: "rgba(59,130,246,0.12)",
+      color: "#3b82f6",
+      border: "rgba(59,130,246,0.35)",
+    };
+  }
+  return null;
+}
 
 type CategoryFile = {
   category: string;
@@ -92,21 +113,42 @@ export default async function NewsPage() {
               <p style={{ fontSize: "0.85rem", opacity: 0.5 }}>아직 수집된 기사가 없습니다.</p>
             ) : (
               <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.6rem" }}>
-                {file.items.slice(0, 15).map((it) => (
-                  <li key={it.link}>
-                    <a
-                      href={it.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{ textDecoration: "none", color: "inherit", display: "block" }}
-                    >
-                      <div style={{ fontSize: "0.9rem", lineHeight: 1.35, marginBottom: "0.2rem" }}>{it.title}</div>
-                      <div style={{ fontSize: "0.7rem", opacity: 0.6 }}>
-                        {it.source} · {relativeTime(it.ts)}
-                      </div>
-                    </a>
-                  </li>
-                ))}
+                {file.items.slice(0, 15).map((it) => {
+                  const badge = sentimentBadge(it.sentiment);
+                  return (
+                    <li key={it.link}>
+                      <a
+                        href={it.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ textDecoration: "none", color: "inherit", display: "block" }}
+                      >
+                        <div style={{ fontSize: "0.9rem", lineHeight: 1.35, marginBottom: "0.2rem", display: "flex", alignItems: "flex-start", gap: "0.4rem", flexWrap: "wrap" }}>
+                          {badge && (
+                            <span style={{
+                              flex: "0 0 auto",
+                              fontSize: "0.65rem",
+                              fontWeight: 700,
+                              padding: "0.1rem 0.35rem",
+                              borderRadius: 4,
+                              background: badge.bg,
+                              color: badge.color,
+                              border: `1px solid ${badge.border}`,
+                              lineHeight: 1.4,
+                              marginTop: "0.1rem",
+                            }}>
+                              {badge.label}
+                            </span>
+                          )}
+                          <span style={{ flex: "1 1 auto" }}>{it.title}</span>
+                        </div>
+                        <div style={{ fontSize: "0.7rem", opacity: 0.6 }}>
+                          {it.source} · {relativeTime(it.ts)}
+                        </div>
+                      </a>
+                    </li>
+                  );
+                })}
               </ul>
             )}
           </section>

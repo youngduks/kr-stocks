@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-05-26T21:27:14.745Z",
-  "count": 9,
+  "updated_at": "2026-05-26T22:59:55.019Z",
+  "count": 11,
   "items": [
+    {
+      "title": "삼전 잠정합의 찬반투표 오늘 마감…가결 유력 속 내부 갈등 과제",
+      "link": "https://www.hankyung.com/article/2026052704667",
+      "source": "한국경제",
+      "ts": 1779831034000,
+      "pub": "Wed, 27 May 2026 06:30:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"중국판 하이닉스 뜬다\"…삼전 노사 다툰 사이 뭉칫돈 몰린 곳",
+      "link": "https://www.hankyung.com/article/2026052689506",
+      "source": "한국경제",
+      "ts": 1779831004000,
+      "pub": "Wed, 27 May 2026 06:30:04 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美 S&P500·나스닥, 메모리주 급등에 최고치 마감(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260527005251072",

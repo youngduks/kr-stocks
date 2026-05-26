@@ -1,30 +1,38 @@
 {
   "category": "samsung",
-  "updated_at": "2026-05-26T07:35:20.809Z",
-  "count": 3,
+  "updated_at": "2026-05-26T14:36:57.771Z",
+  "count": 4,
   "items": [
     {
-      "title": "TIGER 삼전·하닉 2배 상품 출시…\"유동성 공급으로 승부\"",
-      "link": "https://www.mt.co.kr/stock/2026/05/26/2026052614344899180",
-      "source": "머니투데이",
-      "ts": 1779780273000,
-      "pub": "Tue, 26 May 2026 16:24:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 주택자금 대출에 들썩…동탄·수지 이어 송파까지 '관심 집중'",
-      "link": "https://www.mt.co.kr/estate/2026/05/26/2026052516221816683",
-      "source": "머니투데이",
-      "ts": 1779779886000,
-      "pub": "Tue, 26 May 2026 16:18:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미래에셋운용, 내일 '삼전닉스' 레버리지 상장…\"유동성·현금납입\"",
-      "link": "https://www.hankyung.com/article/2026052690736",
+      "title": "UBS \"메모리칩 장기계약 수혜\"…마이크론 목표가 2배 넘게 올려",
+      "link": "https://www.hankyung.com/article/202605260313i",
       "source": "한국경제",
-      "ts": 1779779391000,
-      "pub": "Tue, 26 May 2026 16:09:51 +0900",
+      "ts": 1779802399000,
+      "pub": "Tue, 26 May 2026 22:33:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "법원, 삼전 초기업노조 '교섭 중지' 가처분 기각…\"막을 권리 없다\"",
+      "link": "https://www.mt.co.kr/society/2026/05/26/2026052618340255245",
+      "source": "머니투데이",
+      "ts": 1779790345000,
+      "pub": "Tue, 26 May 2026 19:12:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "화웨이, '타오의 법칙'으로 TSMC·삼전 추격…\"2031년 1.4나노\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260526021052009",
+      "source": "연합뉴스 국제",
+      "ts": 1779780205000,
+      "pub": "Tue, 26 May 2026 16:23:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "화웨이, '타오의 법칙'으로 TSMC·삼전 추격…\"2031년 1.4나노\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260526021051009",
+      "source": "연합뉴스 국제",
+      "ts": 1779763411000,
+      "pub": "Tue, 26 May 2026 11:43:31 +0900",
       "sentiment": "neutral"
     }
   ]

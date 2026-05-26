@@ -1,14 +1,54 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-26T07:35:20.807Z",
-  "count": 1,
+  "updated_at": "2026-05-26T14:36:57.770Z",
+  "count": 6,
   "items": [
     {
-      "title": "\"트럼프 행정부, 美 전염병 전문가와 WHO 사이 직접 소통도 차단\"",
-      "link": "https://www.mt.co.kr/world/2026/05/26/2026052615165313515",
+      "title": "\"극우 이스라엘 장관의 구호선단 활동가 조롱은 국내 정치용\"",
+      "link": "https://www.yna.co.kr/view/AKR20260526175700081",
+      "source": "연합뉴스 국제",
+      "ts": 1779803487000,
+      "pub": "Tue, 26 May 2026 22:51:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 대사관, 한국 활동가 '학대 주장'에 \"전면 부인…신빙성 의문\"",
+      "link": "https://www.mt.co.kr/politics/2026/05/26/2026052619315939990",
       "source": "머니투데이",
-      "ts": 1779780164000,
-      "pub": "Tue, 26 May 2026 16:22:44 +0900",
+      "ts": 1779792063000,
+      "pub": "Tue, 26 May 2026 19:41:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"백악관 솔직해야\"…의사가 본 트럼프 '건강 적신호' 뭐길래",
+      "link": "https://www.hankyung.com/article/2026052601777",
+      "source": "한국경제",
+      "ts": 1779790391000,
+      "pub": "Tue, 26 May 2026 19:13:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'드론 공포' 발트 3국, 우크라에 방공호 노하우 타진",
+      "link": "https://www.yna.co.kr/view/AKR20260526159300098",
+      "source": "연합뉴스 국제",
+      "ts": 1779786941000,
+      "pub": "Tue, 26 May 2026 18:15:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "내달 80세 트럼프, 정례 건강검진 앞 '이상설' 다시 제기",
+      "link": "https://www.yna.co.kr/view/AKR20260526156100009",
+      "source": "연합뉴스 국제",
+      "ts": 1779786033000,
+      "pub": "Tue, 26 May 2026 18:00:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "오레시니크·스톰섀도…러·우크라 이번엔 미사일 난타전",
+      "link": "https://www.yna.co.kr/view/AKR20260526147300109",
+      "source": "연합뉴스 국제",
+      "ts": 1779783617000,
+      "pub": "Tue, 26 May 2026 17:20:17 +0900",
       "sentiment": "neutral"
     }
   ]

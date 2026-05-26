@@ -1,14 +1,62 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-26T07:35:20.810Z",
-  "count": 1,
+  "updated_at": "2026-05-26T14:36:57.772Z",
+  "count": 7,
   "items": [
     {
-      "title": "휴림에이텍, 로봇사업 인수 완료…\"반도체·완성차 공정 정조준\"",
-      "link": "https://www.mt.co.kr/stock/2026/05/26/2026052614492449777",
-      "source": "머니투데이",
-      "ts": 1779777480000,
-      "pub": "Tue, 26 May 2026 15:38:00 +0900",
+      "title": "UBS \"메모리칩 장기계약 수혜\"…마이크론 목표가 2배 넘게 올려",
+      "link": "https://www.hankyung.com/article/202605260313i",
+      "source": "한국경제",
+      "ts": 1779802399000,
+      "pub": "Tue, 26 May 2026 22:33:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "블룸버그 \"반도체 보너스, 한국 물가와 주택 시장 압박\" 경고",
+      "link": "https://www.hankyung.com/article/202605260254i",
+      "source": "한국경제",
+      "ts": 1779796534000,
+      "pub": "Tue, 26 May 2026 20:55:34 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "화웨이, '타오의 법칙'으로 TSMC·삼전 추격…\"2031년 1.4나노\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260526021052009",
+      "source": "연합뉴스 국제",
+      "ts": 1779780205000,
+      "pub": "Tue, 26 May 2026 16:23:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "블룸버그 이코노믹스 \"반도체 성과급, 한은 금리인상 가능성 ↑\"",
+      "link": "https://www.yna.co.kr/view/AKR20260526129400009",
+      "source": "연합뉴스 국제",
+      "ts": 1779778453000,
+      "pub": "Tue, 26 May 2026 15:54:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "화웨이, '타오의 법칙'으로 TSMC·삼전 추격…\"2031년 1.4나노\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260526021051009",
+      "source": "연합뉴스 국제",
+      "ts": 1779763411000,
+      "pub": "Tue, 26 May 2026 11:43:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "TSMC 질주 덕에…대만 증시 시총, 인도 제치고 세계 5위",
+      "link": "https://www.yna.co.kr/view/AKR20260526067000009",
+      "source": "연합뉴스 국제",
+      "ts": 1779760673000,
+      "pub": "Tue, 26 May 2026 10:57:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "화웨이 \"TSMC와 격차 좁힐 기술 개발…2031년 1.4나노 칩 생산\"",
+      "link": "https://www.yna.co.kr/view/AKR20260526021000009",
+      "source": "연합뉴스 국제",
+      "ts": 1779755184000,
+      "pub": "Tue, 26 May 2026 09:26:24 +0900",
       "sentiment": "neutral"
     }
   ]

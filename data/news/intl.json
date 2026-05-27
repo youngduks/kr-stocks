@@ -1,8 +1,72 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-27T16:32:07.387Z",
-  "count": 22,
+  "updated_at": "2026-05-27T19:12:57.935Z",
+  "count": 25,
   "items": [
+    {
+      "title": "백악관 \"'미군 철수' 이란매체 보도 사실 아냐\"",
+      "link": "https://www.mt.co.kr/world/2026/05/28/2026052803285476299",
+      "source": "머니투데이",
+      "ts": 1779907394000,
+      "pub": "Thu, 28 May 2026 03:43:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"협상 지금까진 만족못해…중러엔 이란 HEU 못넘겨\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260528001951071",
+      "source": "연합뉴스 국제",
+      "ts": 1779906454000,
+      "pub": "Thu, 28 May 2026 03:27:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 종전협상 지금까지는 만족할 수준 아냐\"",
+      "link": "https://www.mt.co.kr/world/2026/05/28/2026052803013335309",
+      "source": "머니투데이",
+      "ts": 1779905081000,
+      "pub": "Thu, 28 May 2026 03:04:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘군, 레바논 남부 전역에 대피령…휴전 후 처음",
+      "link": "https://www.yna.co.kr/view/AKR20260528003200079",
+      "source": "연합뉴스 국제",
+      "ts": 1779904455000,
+      "pub": "Thu, 28 May 2026 02:54:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 제재 완화, 고농축 우라늄 포기만으론 안 돼\"",
+      "link": "https://www.mt.co.kr/world/2026/05/28/2026052802503637037",
+      "source": "머니투데이",
+      "ts": 1779904362000,
+      "pub": "Thu, 28 May 2026 02:52:42 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프 \"이란의 고농축우라늄 포기와 제재완화 못바꿔\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260528001451071",
+      "source": "연합뉴스 국제",
+      "ts": 1779902363000,
+      "pub": "Thu, 28 May 2026 02:19:23 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[속보] 트럼프 \"중·러가 이란의 고농축우라늄 가져가면 불편할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260528002700071",
+      "source": "연합뉴스 국제",
+      "ts": 1779901703000,
+      "pub": "Thu, 28 May 2026 02:08:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 이란과 종전 협상에 \"지금까지는 만족하지 않아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260528001900071",
+      "source": "연합뉴스 국제",
+      "ts": 1779899389000,
+      "pub": "Thu, 28 May 2026 01:29:49 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"트럼프, 이란 압박용 '합의 타결' 일방 발표 가능성\"",
       "link": "https://www.yna.co.kr/view/AKR20260528001700079",
@@ -50,14 +114,6 @@
       "ts": 1779881742000,
       "pub": "Wed, 27 May 2026 20:35:42 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"분위기 파악 못하는 트럼프\"...중동국 강요에 빈살만 분노",
-      "link": "https://www.mt.co.kr/world/2026/05/27/2026052717261544442",
-      "source": "머니투데이",
-      "ts": 1779877283000,
-      "pub": "Wed, 27 May 2026 19:21:23 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "교황, 러·우크라 확전 우려…\"우려 속에 지켜보고 있다\"",
@@ -145,38 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779849739000,
       "pub": "Wed, 27 May 2026 11:42:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 '아브라함 협정' 압박에 빈살만 격분…'NO' 100번 말해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260527078800009",
-      "source": "연합뉴스 국제",
-      "ts": 1779849350000,
-      "pub": "Wed, 27 May 2026 11:35:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 픽' 연전연승…美텍사스 경선서 '마가' 팩스턴 승리",
-      "link": "https://www.yna.co.kr/view/AKR20260527075100075",
-      "source": "연합뉴스 국제",
-      "ts": 1779848526000,
-      "pub": "Wed, 27 May 2026 11:22:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 '오락가락' SNS에 美·이란 협상 또 혼선 가중",
-      "link": "https://www.yna.co.kr/view/AKR20260527060300009",
-      "source": "연합뉴스 국제",
-      "ts": 1779845299000,
-      "pub": "Wed, 27 May 2026 10:28:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "USTR 대표 \"글로벌 10% 관세, 7월 만료 후 재부과 가능\"",
-      "link": "https://www.yna.co.kr/view/AKR20260527060200009",
-      "source": "연합뉴스 국제",
-      "ts": 1779845140000,
-      "pub": "Wed, 27 May 2026 10:25:40 +0900",
       "sentiment": "neutral"
     }
   ]

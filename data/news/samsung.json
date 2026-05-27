@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-05-27T16:32:07.389Z",
-  "count": 8,
+  "updated_at": "2026-05-27T19:12:57.937Z",
+  "count": 11,
   "items": [
+    {
+      "title": "[사설]삼전 노사합의안 타결, 후폭풍의 시작",
+      "link": "https://www.mt.co.kr/opinion/2026/05/28/2026052713561458665",
+      "source": "머니투데이",
+      "ts": 1779908700000,
+      "pub": "Thu, 28 May 2026 04:05:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼전닉스 2배 베팅\" 간 큰 개미들...ETF 나오자마자 '2조' 폭풍매수",
+      "link": "https://www.mt.co.kr/stock/2026/05/28/2026052720044135064",
+      "source": "머니투데이",
+      "ts": 1779908400000,
+      "pub": "Thu, 28 May 2026 04:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"2차전지 랠리 지금부터 시작\" 삼전닉스 쉬면 무섭게 오른다?[부꾸미]",
+      "link": "https://www.mt.co.kr/stock/2026/05/28/2026052717043413391",
+      "source": "머니투데이",
+      "ts": 1779906600000,
+      "pub": "Thu, 28 May 2026 03:30:00 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "\"삼전닉스 언제까지 올라요?\"…개미들 놀랄 증권가 전망 [분석+]",
       "link": "https://www.hankyung.com/article/2026052721286",

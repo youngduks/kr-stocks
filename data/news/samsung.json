@@ -1,47 +1,23 @@
 {
   "category": "samsung",
-  "updated_at": "2026-05-27T08:58:54.952Z",
-  "count": 12,
+  "updated_at": "2026-05-27T12:20:15.860Z",
+  "count": 8,
   "items": [
     {
-      "title": "삼전닉스 레버리지 첫날…개미 2.1조원 '폭풍매수'",
-      "link": "https://www.hankyung.com/article/2026052725671",
+      "title": "'중국 메모리 굴기' CXMT 상장 초읽기…6조5천억원 조달 목표",
+      "link": "https://www.yna.co.kr/view/AKR20260527161700083",
+      "source": "연합뉴스 국제",
+      "ts": 1779880072000,
+      "pub": "Wed, 27 May 2026 20:07:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼전닉스 2배로 벌자\" 우르르 몰리더니…불만 폭발한 까닭",
+      "link": "https://www.hankyung.com/article/2026052727157",
       "source": "한국경제",
-      "ts": 1779871925000,
-      "pub": "Wed, 27 May 2026 17:52:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"나쁜 합의\"…삼성전자 합의안 가결",
-      "link": "https://www.hankyung.com/article/2026052725811",
-      "source": "한국경제",
-      "ts": 1779871737000,
-      "pub": "Wed, 27 May 2026 17:48:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 노사 협상 마침표 찍었지만…내부 갈등·주주반발은 숙제",
-      "link": "https://www.mt.co.kr/industry/2026/05/27/2026052709363530586",
-      "source": "머니투데이",
-      "ts": 1779870000000,
-      "pub": "Wed, 27 May 2026 17:20:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼전닉스 2배 ETF 떴다\" 개미 2조 폭식…\"이 시간, 변동성 폭탄\" 경고",
-      "link": "https://www.mt.co.kr/stock/2026/05/27/2026052713571931335",
-      "source": "머니투데이",
-      "ts": 1779869356000,
-      "pub": "Wed, 27 May 2026 17:09:16 +0900",
+      "ts": 1779878655000,
+      "pub": "Wed, 27 May 2026 19:44:15 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "삼성전자, 21조 규모 추정 성과급용 자사주 매입 곧 나선다",
-      "link": "https://www.mt.co.kr/stock/2026/05/27/2026052716262736893",
-      "source": "머니투데이",
-      "ts": 1779867493000,
-      "pub": "Wed, 27 May 2026 16:38:13 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "SK하이닉스, 시총 '1조달러 클럽' 진입…삼전 이어 국내 두번째(종합)",
@@ -90,14 +66,6 @@
       "ts": 1779849316000,
       "pub": "Wed, 27 May 2026 11:35:16 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "美 S&P500·나스닥, 메모리주 급등에 최고치 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260527005251072",
-      "source": "연합뉴스 국제",
-      "ts": 1779829876000,
-      "pub": "Wed, 27 May 2026 06:11:16 +0900",
-      "sentiment": "positive"
     }
   ]
 }

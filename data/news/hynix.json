@@ -1,30 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-27T08:58:54.954Z",
-  "count": 20,
+  "updated_at": "2026-05-27T12:20:15.861Z",
+  "count": 13,
   "items": [
     {
-      "title": "서희건설은 어떻게 반도체 랠리 수혜주가 됐나",
-      "link": "https://www.hankyung.com/article/2026052725721",
-      "source": "한국경제",
-      "ts": 1779871852000,
-      "pub": "Wed, 27 May 2026 17:50:52 +0900",
-      "sentiment": "positive"
+      "title": "'중국 메모리 굴기' CXMT 상장 초읽기…6조5천억원 조달 목표",
+      "link": "https://www.yna.co.kr/view/AKR20260527161700083",
+      "source": "연합뉴스 국제",
+      "ts": 1779880072000,
+      "pub": "Wed, 27 May 2026 20:07:52 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "글로벌 반도체 랠리…SK하이닉스·마이크론도 시총 '1조 달러 클럽'",
-      "link": "https://www.hankyung.com/article/202605271855i",
+      "title": "하이닉스도 1조달러 클럽 합류…한국, 미국외 유일한 1조클럽 2개 보유",
+      "link": "https://www.hankyung.com/article/202605272678i",
       "source": "한국경제",
-      "ts": 1779871238000,
-      "pub": "Wed, 27 May 2026 17:40:38 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "정윤석 대표 \"韓 반도체 초순수 시장 5조로 커질 것\"",
-      "link": "https://www.hankyung.com/article/2026052724851",
-      "source": "한국경제",
-      "ts": 1779870875000,
-      "pub": "Wed, 27 May 2026 17:34:35 +0900",
+      "ts": 1779877000000,
+      "pub": "Wed, 27 May 2026 19:16:40 +0900",
       "sentiment": "neutral"
     },
     {
@@ -33,30 +25,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779870144000,
       "pub": "Wed, 27 May 2026 17:22:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "브레인웍스, AI 반도체 해외 실증 지원사업 주관사 선정",
-      "link": "https://www.mt.co.kr/industry/2026/05/27/2026052712551413886",
-      "source": "머니투데이",
-      "ts": 1779869584000,
-      "pub": "Wed, 27 May 2026 17:13:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 반도체 훈풍, 대만 가권지수 1.68% 올라 또 사상최고치[Asia마감]",
-      "link": "https://www.mt.co.kr/world/2026/05/27/2026052716141033169",
-      "source": "머니투데이",
-      "ts": 1779869243000,
-      "pub": "Wed, 27 May 2026 17:07:23 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "조단위 증가한 반도체 레버리지…단일종목 상품도 수급에 가세",
-      "link": "https://www.mt.co.kr/stock/2026/05/27/2026052715053897822",
-      "source": "머니투데이",
-      "ts": 1779868409000,
-      "pub": "Wed, 27 May 2026 16:53:29 +0900",
       "sentiment": "neutral"
     },
     {
@@ -137,30 +105,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779839714000,
       "pub": "Wed, 27 May 2026 08:55:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "퀄컴-바이트댄스 AI칩 공급 계약…엔비디아 독주 흔든다",
-      "link": "https://www.yna.co.kr/view/AKR20260527010800009",
-      "source": "연합뉴스 국제",
-      "ts": 1779832693000,
-      "pub": "Wed, 27 May 2026 06:58:13 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "美 S&P500·나스닥, 메모리주 급등에 최고치 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260527005251072",
-      "source": "연합뉴스 국제",
-      "ts": 1779829876000,
-      "pub": "Wed, 27 May 2026 06:11:16 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "美마이크론도 '시총 1조달러 클럽' 가입…UBS 목표가 3배로 상향",
-      "link": "https://www.yna.co.kr/view/AKR20260527006500072",
-      "source": "연합뉴스 국제",
-      "ts": 1779828182000,
-      "pub": "Wed, 27 May 2026 05:43:02 +0900",
       "sentiment": "neutral"
     }
   ]

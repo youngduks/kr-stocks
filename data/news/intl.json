@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-27T08:58:54.951Z",
-  "count": 20,
+  "updated_at": "2026-05-27T12:20:15.859Z",
+  "count": 22,
   "items": [
+    {
+      "title": "수용자 폭증·관리부실…트럼프 취임 후 ICE 구금자 자살 급증",
+      "link": "https://www.yna.co.kr/view/AKR20260527163200009",
+      "source": "연합뉴스 국제",
+      "ts": 1779881742000,
+      "pub": "Wed, 27 May 2026 20:35:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"분위기 파악 못하는 트럼프\"...중동국 강요에 빈살만 분노",
+      "link": "https://www.mt.co.kr/world/2026/05/27/2026052717261544442",
+      "source": "머니투데이",
+      "ts": 1779877283000,
+      "pub": "Wed, 27 May 2026 19:21:23 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "교황, 러·우크라 확전 우려…\"우려 속에 지켜보고 있다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260527158400109",
+      "source": "연합뉴스 국제",
+      "ts": 1779876811000,
+      "pub": "Wed, 27 May 2026 19:13:31 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "우크라 종전 협상 'EU 역할론'…푸틴 상대할 특사 물색",
+      "link": "https://www.yna.co.kr/view/AKR20260527150700081",
+      "source": "연합뉴스 국제",
+      "ts": 1779873111000,
+      "pub": "Wed, 27 May 2026 18:11:51 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "우크라 탄약 지원 삐걱…공동구매 참여국 반토막",
       "link": "https://www.yna.co.kr/view/AKR20260527147700082",
@@ -145,22 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779837448000,
       "pub": "Wed, 27 May 2026 08:17:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "USTR \"미중 관세감면 수출품 45조원 규모…품목결정 의견수렴\"",
-      "link": "https://www.yna.co.kr/view/AKR20260527010500071",
-      "source": "연합뉴스 국제",
-      "ts": 1779832386000,
-      "pub": "Wed, 27 May 2026 06:53:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"악천후로 캠프데이비드 아닌 백악관서 27일 내각회의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260527007900071",
-      "source": "연합뉴스 국제",
-      "ts": 1779830088000,
-      "pub": "Wed, 27 May 2026 06:14:48 +0900",
       "sentiment": "neutral"
     }
   ]

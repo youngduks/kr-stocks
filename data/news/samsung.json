@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-05-27T12:20:15.860Z",
+  "updated_at": "2026-05-27T16:32:07.389Z",
   "count": 8,
   "items": [
+    {
+      "title": "\"삼전닉스 언제까지 올라요?\"…개미들 놀랄 증권가 전망 [분석+]",
+      "link": "https://www.hankyung.com/article/2026052721286",
+      "source": "한국경제",
+      "ts": 1779886802000,
+      "pub": "Wed, 27 May 2026 22:00:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'중국 메모리 굴기' CXMT 상장 초읽기…6조5천억원 조달 목표",
       "link": "https://www.yna.co.kr/view/AKR20260527161700083",
@@ -10,14 +18,6 @@
       "ts": 1779880072000,
       "pub": "Wed, 27 May 2026 20:07:52 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼전닉스 2배로 벌자\" 우르르 몰리더니…불만 폭발한 까닭",
-      "link": "https://www.hankyung.com/article/2026052727157",
-      "source": "한국경제",
-      "ts": 1779878655000,
-      "pub": "Wed, 27 May 2026 19:44:15 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "SK하이닉스, 시총 '1조달러 클럽' 진입…삼전 이어 국내 두번째(종합)",

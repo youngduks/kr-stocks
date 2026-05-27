@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-27T12:20:15.859Z",
+  "updated_at": "2026-05-27T16:32:07.387Z",
   "count": 22,
   "items": [
+    {
+      "title": "\"트럼프, 이란 압박용 '합의 타결' 일방 발표 가능성\"",
+      "link": "https://www.yna.co.kr/view/AKR20260528001700079",
+      "source": "연합뉴스 국제",
+      "ts": 1779899189000,
+      "pub": "Thu, 28 May 2026 01:26:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란의 고농축우라늄 포기와 제재완화 못바꿔\"",
+      "link": "https://www.yna.co.kr/view/AKR20260528001400071",
+      "source": "연합뉴스 국제",
+      "ts": 1779898305000,
+      "pub": "Thu, 28 May 2026 01:11:45 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[속보] 트럼프, 이란과 종전 협상에 \"지금까지는 만족하지 않아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260528001500071",
+      "source": "연합뉴스 국제",
+      "ts": 1779898179000,
+      "pub": "Thu, 28 May 2026 01:09:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "백악관 \"이란과 MOU에 '미군철수 포함' 이란방송 보도는 날조\"",
+      "link": "https://www.yna.co.kr/view/AKR20260528000700071",
+      "source": "연합뉴스 국제",
+      "ts": 1779895778000,
+      "pub": "Thu, 28 May 2026 00:29:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프가 낙점한 '마가 후보' 텍사스 경선 승리에 민주당 웃는다",
+      "link": "https://www.yna.co.kr/view/AKR20260527171400071",
+      "source": "연합뉴스 국제",
+      "ts": 1779894032000,
+      "pub": "Thu, 28 May 2026 00:00:32 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "수용자 폭증·관리부실…트럼프 취임 후 ICE 구금자 자살 급증",
       "link": "https://www.yna.co.kr/view/AKR20260527163200009",
@@ -137,46 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779845140000,
       "pub": "Wed, 27 May 2026 10:25:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 또 다단계 협상…\"가자 평화구상처럼 결국 좌초 우려\"",
-      "link": "https://www.yna.co.kr/view/AKR20260527057400009",
-      "source": "연합뉴스 국제",
-      "ts": 1779844558000,
-      "pub": "Wed, 27 May 2026 10:15:58 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "트럼프, 과학기술 자문위원으로 본디 前법무장관 임명",
-      "link": "https://www.yna.co.kr/view/AKR20260527046000009",
-      "source": "연합뉴스 국제",
-      "ts": 1779843600000,
-      "pub": "Wed, 27 May 2026 10:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "비대칭전술·드론·AI…이란·우크라에서 목격된 미래의 전쟁",
-      "link": "https://www.yna.co.kr/view/AKR20260527038400009",
-      "source": "연합뉴스 국제",
-      "ts": 1779841407000,
-      "pub": "Wed, 27 May 2026 09:23:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘, 중동 담판 와중에 레바논 지상전…민간인 희생 속출(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260526178951079",
-      "source": "연합뉴스 국제",
-      "ts": 1779838096000,
-      "pub": "Wed, 27 May 2026 08:28:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 1기 백악관 출신 민간인이 베네수 '비공식 총독' 역할\"",
-      "link": "https://www.yna.co.kr/view/AKR20260527023300071",
-      "source": "연합뉴스 국제",
-      "ts": 1779837448000,
-      "pub": "Wed, 27 May 2026 08:17:28 +0900",
       "sentiment": "neutral"
     }
   ]

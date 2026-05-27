@@ -1,8 +1,64 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-26T22:59:55.020Z",
-  "count": 16,
+  "updated_at": "2026-05-27T00:07:03.890Z",
+  "count": 21,
   "items": [
+    {
+      "title": "'메모리 슈퍼사이클' 탓에 비용급증…샤오미 '어닝쇼크'",
+      "link": "https://www.mt.co.kr/world/2026/05/27/2026052708092712374",
+      "source": "머니투데이",
+      "ts": 1779839853000,
+      "pub": "Wed, 27 May 2026 08:57:33 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "美마이크론도 '시총 1조달러 클럽' 가입…UBS 목표가 3배로 상향(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260527006551072",
+      "source": "연합뉴스 국제",
+      "ts": 1779839714000,
+      "pub": "Wed, 27 May 2026 08:55:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "마이크론 19% 급등, 시총 1조달러 돌파…\"80% 추가 상승 여력\" 극찬",
+      "link": "https://www.mt.co.kr/world/2026/05/27/2026052708351914517",
+      "source": "머니투데이",
+      "ts": 1779839481000,
+      "pub": "Wed, 27 May 2026 08:51:21 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'55만전자' 전망 나왔다, SK하이닉스는 목표가 380만원-미래",
+      "link": "https://www.mt.co.kr/stock/2026/05/27/2026052708273230124",
+      "source": "머니투데이",
+      "ts": 1779838140000,
+      "pub": "Wed, 27 May 2026 08:29:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"SK하이닉스, LTA 본격화와 HBM 고객 다변화 기대…목표가↑\"-미래",
+      "link": "https://www.hankyung.com/article/2026052706256",
+      "source": "한국경제",
+      "ts": 1779836759000,
+      "pub": "Wed, 27 May 2026 08:05:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"28년까지 공급 부족\" 마이크론 20% 폭등…숨겨진 랠리 원인은 유동성 [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202605270562i",
+      "source": "한국경제",
+      "ts": 1779836727000,
+      "pub": "Wed, 27 May 2026 08:05:27 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "마이크론 폭등에 나스닥·S&P500 최고치 마감 [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026052705386",
+      "source": "한국경제",
+      "ts": 1779834730000,
+      "pub": "Wed, 27 May 2026 07:32:10 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "퀄컴-바이트댄스 AI칩 공급 계약…엔비디아 독주 흔든다",
       "link": "https://www.yna.co.kr/view/AKR20260527010800009",
@@ -98,22 +154,6 @@
       "ts": 1779804282000,
       "pub": "Tue, 26 May 2026 23:04:42 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "UBS \"메모리칩 장기계약 수혜\"…마이크론 목표가 2배 넘게 올려",
-      "link": "https://www.hankyung.com/article/202605260313i",
-      "source": "한국경제",
-      "ts": 1779802399000,
-      "pub": "Tue, 26 May 2026 22:33:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "블룸버그 \"반도체 보너스, 한국 물가와 주택 시장 압박\" 경고",
-      "link": "https://www.hankyung.com/article/202605260254i",
-      "source": "한국경제",
-      "ts": 1779796534000,
-      "pub": "Tue, 26 May 2026 20:55:34 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "화웨이, '타오의 법칙'으로 TSMC·삼전 추격…\"2031년 1.4나노\"(종합2보)",

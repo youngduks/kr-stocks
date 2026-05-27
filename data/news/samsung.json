@@ -1,8 +1,40 @@
 {
   "category": "samsung",
-  "updated_at": "2026-05-26T22:59:55.019Z",
-  "count": 11,
+  "updated_at": "2026-05-27T00:07:03.889Z",
+  "count": 12,
   "items": [
+    {
+      "title": "삼성전자 잠정합의안 투표 오늘 오전 마감…가결 전망에 무게",
+      "link": "https://www.mt.co.kr/industry/2026/05/27/2026052708322616776",
+      "source": "머니투데이",
+      "ts": 1779840013000,
+      "pub": "Wed, 27 May 2026 09:00:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'메모리 슈퍼사이클' 탓에 비용급증…샤오미 '어닝쇼크'",
+      "link": "https://www.mt.co.kr/world/2026/05/27/2026052708092712374",
+      "source": "머니투데이",
+      "ts": 1779839853000,
+      "pub": "Wed, 27 May 2026 08:57:33 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"SK하이닉스, LTA 본격화와 HBM 고객 다변화 기대…목표가↑\"-미래",
+      "link": "https://www.hankyung.com/article/2026052706256",
+      "source": "한국경제",
+      "ts": 1779836759000,
+      "pub": "Wed, 27 May 2026 08:05:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"215% 올랐는데, 삼전닉스 언제 빼야할까\"…전문가 예측은?",
+      "link": "https://www.hankyung.com/article/202605260058i",
+      "source": "한국경제",
+      "ts": 1779836411000,
+      "pub": "Wed, 27 May 2026 08:00:11 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼전 잠정합의 찬반투표 오늘 마감…가결 유력 속 내부 갈등 과제",
       "link": "https://www.hankyung.com/article/2026052704667",
@@ -58,30 +90,6 @@
       "ts": 1779826513000,
       "pub": "Wed, 27 May 2026 05:15:13 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "삼전닉스 팔았다간 후회?...\"연내 1만피 간다\" 장밋빛 전망",
-      "link": "https://www.mt.co.kr/stock/2026/05/27/2026052620080996941",
-      "source": "머니투데이",
-      "ts": 1779822540000,
-      "pub": "Wed, 27 May 2026 04:09:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"국민연금도 수익률 대박\"...삼전닉스 놀라운 질주, 8천피 재돌파",
-      "link": "https://www.mt.co.kr/stock/2026/05/27/2026052620001554725",
-      "source": "머니투데이",
-      "ts": 1779822120000,
-      "pub": "Wed, 27 May 2026 04:02:00 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "UBS \"메모리칩 장기계약 수혜\"…마이크론 목표가 2배 넘게 올려",
-      "link": "https://www.hankyung.com/article/202605260313i",
-      "source": "한국경제",
-      "ts": 1779802399000,
-      "pub": "Tue, 26 May 2026 22:33:19 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "화웨이, '타오의 법칙'으로 TSMC·삼전 추격…\"2031년 1.4나노\"(종합2보)",

@@ -1,14 +1,22 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-05-27T00:07:03.890Z",
-  "count": 1,
+  "updated_at": "2026-05-27T05:08:13.014Z",
+  "count": 2,
   "items": [
     {
-      "title": "엔비디아 출신 보강한 포티투닷..현대차그룹 '자율주행' 가속",
-      "link": "https://www.mt.co.kr/industry/2026/05/27/2026052614562317535",
+      "title": "코나아이, 부국증권과 토큰증권 협력 본격화...\"지역개발 투자 모델 추진\"",
+      "link": "https://www.mt.co.kr/living/2026/05/27/2026052714002771606",
       "source": "머니투데이",
-      "ts": 1779828300000,
-      "pub": "Wed, 27 May 2026 05:45:00 +0900",
+      "ts": 1779858461000,
+      "pub": "Wed, 27 May 2026 14:07:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대모비스, 자회사형 장애인 표준사업장 '모아빛' 출범",
+      "link": "https://www.hankyung.com/article/202605271402g",
+      "source": "한국경제",
+      "ts": 1779847522000,
+      "pub": "Wed, 27 May 2026 11:05:22 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,88 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-27T00:07:03.888Z",
+  "updated_at": "2026-05-27T05:08:13.010Z",
   "count": 23,
   "items": [
+    {
+      "title": "USTR 대표 \"美 10% 대체 관세, 7월 시한 지나도 또 부과 가능\"",
+      "link": "https://www.mt.co.kr/world/2026/05/27/2026052711373256376",
+      "source": "머니투데이",
+      "ts": 1779849970000,
+      "pub": "Wed, 27 May 2026 11:46:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미국, 핵무기용 플루토늄을 민간 원전에 쓴다",
+      "link": "https://www.yna.co.kr/view/AKR20260527081200009",
+      "source": "연합뉴스 국제",
+      "ts": 1779849739000,
+      "pub": "Wed, 27 May 2026 11:42:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프 '아브라함 협정' 압박에 빈살만 격분…'NO' 100번 말해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260527078800009",
+      "source": "연합뉴스 국제",
+      "ts": 1779849350000,
+      "pub": "Wed, 27 May 2026 11:35:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'생일 기념' 백악관에 UFC 경기장 세운 트럼프…정치 활용 논란",
+      "link": "https://www.mt.co.kr/world/2026/05/27/2026052710443085153",
+      "source": "머니투데이",
+      "ts": 1779849239000,
+      "pub": "Wed, 27 May 2026 11:33:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'트럼프 픽' 연전연승…美텍사스 경선서 '마가' 팩스턴 승리",
+      "link": "https://www.yna.co.kr/view/AKR20260527075100075",
+      "source": "연합뉴스 국제",
+      "ts": 1779848526000,
+      "pub": "Wed, 27 May 2026 11:22:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 '오락가락' SNS에 美·이란 협상 또 혼선 가중",
+      "link": "https://www.yna.co.kr/view/AKR20260527060300009",
+      "source": "연합뉴스 국제",
+      "ts": 1779845299000,
+      "pub": "Wed, 27 May 2026 10:28:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "USTR 대표 \"글로벌 10% 관세, 7월 만료 후 재부과 가능\"",
+      "link": "https://www.yna.co.kr/view/AKR20260527060200009",
+      "source": "연합뉴스 국제",
+      "ts": 1779845140000,
+      "pub": "Wed, 27 May 2026 10:25:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 또 다단계 협상…\"가자 평화구상처럼 결국 좌초 우려\"",
+      "link": "https://www.yna.co.kr/view/AKR20260527057400009",
+      "source": "연합뉴스 국제",
+      "ts": 1779844558000,
+      "pub": "Wed, 27 May 2026 10:15:58 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프, 과학기술 자문위원으로 본디 前법무장관 임명",
+      "link": "https://www.yna.co.kr/view/AKR20260527046000009",
+      "source": "연합뉴스 국제",
+      "ts": 1779843600000,
+      "pub": "Wed, 27 May 2026 10:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "비대칭전술·드론·AI…이란·우크라에서 목격된 미래의 전쟁",
+      "link": "https://www.yna.co.kr/view/AKR20260527038400009",
+      "source": "연합뉴스 국제",
+      "ts": 1779841407000,
+      "pub": "Wed, 27 May 2026 09:23:27 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이스라엘, 중동 담판 와중에 레바논 지상전…민간인 희생 속출(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260526178951079",
@@ -20,35 +100,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "네타냐후 \"하마스 신임 수장 공격…레바논 공습 강화\"",
-      "link": "https://www.mt.co.kr/world/2026/05/27/2026052707102378227",
-      "source": "머니투데이",
-      "ts": 1779836088000,
-      "pub": "Wed, 27 May 2026 07:54:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"서학개미 초긴장\"…트럼프의 워시, 금리 못 내리는 이유 [심성미의 중앙은행 워치]",
-      "link": "https://www.hankyung.com/article/202605268993i",
-      "source": "한국경제",
-      "ts": 1779832802000,
-      "pub": "Wed, 27 May 2026 07:00:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "USTR \"미중 관세감면 수출품 45조원 규모…품목결정 의견수렴\"",
       "link": "https://www.yna.co.kr/view/AKR20260527010500071",
       "source": "연합뉴스 국제",
       "ts": 1779832386000,
       "pub": "Wed, 27 May 2026 06:53:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란문제 해법 찾을까…트럼프 \"내일 백악관서 내각회의\"",
-      "link": "https://www.mt.co.kr/world/2026/05/27/2026052706250849445",
-      "source": "머니투데이",
-      "ts": 1779831402000,
-      "pub": "Wed, 27 May 2026 06:36:42 +0900",
       "sentiment": "neutral"
     },
     {
@@ -60,59 +116,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, '합의·공습 기로' 속 캠프데이비드 내각회의 소집",
-      "link": "https://www.hankyung.com/article/2026052704297",
-      "source": "한국경제",
-      "ts": 1779829409000,
-      "pub": "Wed, 27 May 2026 06:03:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프가 막아도 美기업 청정E 구매 올해도 '질주'[넷제로글로벌스터디]",
-      "link": "https://www.mt.co.kr/industry/2026/05/27/2026052519060783135",
-      "source": "머니투데이",
-      "ts": 1779828600000,
-      "pub": "Wed, 27 May 2026 05:50:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'80세' 트럼프, 건강 이상설 일축…\"검진 결과 모두 완벽\"",
-      "link": "https://www.mt.co.kr/world/2026/05/27/2026052705153697144",
-      "source": "머니투데이",
-      "ts": 1779827525000,
-      "pub": "Wed, 27 May 2026 05:32:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 내각회의 소집…'이란 종전 협상' 논의할 듯",
-      "link": "https://www.mt.co.kr/world/2026/05/27/2026052705002045680",
-      "source": "머니투데이",
-      "ts": 1779825728000,
-      "pub": "Wed, 27 May 2026 05:02:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "공화 다수인 美사우스캐롤라이나 州상원, 트럼프에 반기",
       "link": "https://www.yna.co.kr/view/AKR20260527003900071",
       "source": "연합뉴스 국제",
       "ts": 1779823712000,
       "pub": "Wed, 27 May 2026 04:28:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'우라늄 처리' 한발 물러선 트럼프… 종전협상 물꼬 트이나",
-      "link": "https://www.mt.co.kr/world/2026/05/27/2026052620104882159",
-      "source": "머니투데이",
-      "ts": 1779822780000,
-      "pub": "Wed, 27 May 2026 04:13:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 캠프 데이비드 내각회의 개최…'결정적 순간' 될까 [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202605270401i",
-      "source": "한국경제",
-      "ts": 1779821081000,
-      "pub": "Wed, 27 May 2026 03:44:41 +0900",
       "sentiment": "neutral"
     },
     {
@@ -177,14 +185,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779786033000,
       "pub": "Tue, 26 May 2026 18:00:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "오레시니크·스톰섀도…러·우크라 이번엔 미사일 난타전",
-      "link": "https://www.yna.co.kr/view/AKR20260526147300109",
-      "source": "연합뉴스 국제",
-      "ts": 1779783617000,
-      "pub": "Tue, 26 May 2026 17:20:17 +0900",
       "sentiment": "neutral"
     }
   ]

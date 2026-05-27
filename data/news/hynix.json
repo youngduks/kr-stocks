@@ -1,15 +1,39 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-27T00:07:03.890Z",
-  "count": 21,
+  "updated_at": "2026-05-27T05:08:13.013Z",
+  "count": 9,
   "items": [
     {
-      "title": "'메모리 슈퍼사이클' 탓에 비용급증…샤오미 '어닝쇼크'",
-      "link": "https://www.mt.co.kr/world/2026/05/27/2026052708092712374",
+      "title": "'반도체 투톱' 삼전닉스 나란히 신고가…\"주가 거품? 아직도 저평가\"",
+      "link": "https://www.mt.co.kr/stock/2026/05/27/2026052712072378601",
       "source": "머니투데이",
-      "ts": 1779839853000,
-      "pub": "Wed, 27 May 2026 08:57:33 +0900",
+      "ts": 1779856024000,
+      "pub": "Wed, 27 May 2026 13:27:04 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'시총 1경' TSMC·엔비디아 저녁 회동…\"양사 밀접히 협조 중\"",
+      "link": "https://www.yna.co.kr/view/AKR20260527085800009",
+      "source": "연합뉴스 국제",
+      "ts": 1779850097000,
+      "pub": "Wed, 27 May 2026 11:48:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전, 파업은 막았지만…\"반도체만 돈잔치\" 내전 불씨 활활 [종합]",
+      "link": "https://www.hankyung.com/article/202605271387g",
+      "source": "한국경제",
+      "ts": 1779848106000,
+      "pub": "Wed, 27 May 2026 11:15:06 +0900",
       "sentiment": "negative"
+    },
+    {
+      "title": "TSMC 회장, '성과급 감소' 루머에 출장 취소하고 직원들과 소통",
+      "link": "https://www.yna.co.kr/view/AKR20260527054900009",
+      "source": "연합뉴스 국제",
+      "ts": 1779844896000,
+      "pub": "Wed, 27 May 2026 10:21:36 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "美마이크론도 '시총 1조달러 클럽' 가입…UBS 목표가 3배로 상향(종합)",
@@ -20,60 +44,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "마이크론 19% 급등, 시총 1조달러 돌파…\"80% 추가 상승 여력\" 극찬",
-      "link": "https://www.mt.co.kr/world/2026/05/27/2026052708351914517",
-      "source": "머니투데이",
-      "ts": 1779839481000,
-      "pub": "Wed, 27 May 2026 08:51:21 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'55만전자' 전망 나왔다, SK하이닉스는 목표가 380만원-미래",
-      "link": "https://www.mt.co.kr/stock/2026/05/27/2026052708273230124",
-      "source": "머니투데이",
-      "ts": 1779838140000,
-      "pub": "Wed, 27 May 2026 08:29:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"SK하이닉스, LTA 본격화와 HBM 고객 다변화 기대…목표가↑\"-미래",
-      "link": "https://www.hankyung.com/article/2026052706256",
-      "source": "한국경제",
-      "ts": 1779836759000,
-      "pub": "Wed, 27 May 2026 08:05:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"28년까지 공급 부족\" 마이크론 20% 폭등…숨겨진 랠리 원인은 유동성 [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202605270562i",
-      "source": "한국경제",
-      "ts": 1779836727000,
-      "pub": "Wed, 27 May 2026 08:05:27 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "마이크론 폭등에 나스닥·S&P500 최고치 마감 [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026052705386",
-      "source": "한국경제",
-      "ts": 1779834730000,
-      "pub": "Wed, 27 May 2026 07:32:10 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "퀄컴-바이트댄스 AI칩 공급 계약…엔비디아 독주 흔든다",
       "link": "https://www.yna.co.kr/view/AKR20260527010800009",
       "source": "연합뉴스 국제",
       "ts": 1779832693000,
       "pub": "Wed, 27 May 2026 06:58:13 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "\"중국판 하이닉스 뜬다\"…삼전 노사 다툰 사이 뭉칫돈 몰린 곳",
-      "link": "https://www.hankyung.com/article/2026052689506",
-      "source": "한국경제",
-      "ts": 1779831004000,
-      "pub": "Wed, 27 May 2026 06:30:04 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "美 S&P500·나스닥, 메모리주 급등에 최고치 마감(종합)",
@@ -84,59 +60,11 @@
       "sentiment": "positive"
     },
     {
-      "title": "중동전쟁에도 기업심리 개선…반도체 수출·소비회복 영향",
-      "link": "https://www.mt.co.kr/economy/2026/05/27/2026052616285153449",
-      "source": "머니투데이",
-      "ts": 1779829200000,
-      "pub": "Wed, 27 May 2026 06:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한·미 반도체 인재 한자리에…교육부, 학생 교류 행사 개최",
-      "link": "https://www.mt.co.kr/policy/2026/05/27/2026052617233798852",
-      "source": "머니투데이",
-      "ts": 1779829200000,
-      "pub": "Wed, 27 May 2026 06:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전 이어 마이크론도 '1조달러 클럽'…SK하이닉스도 눈앞",
-      "link": "https://www.hankyung.com/article/2026052704257",
-      "source": "한국경제",
-      "ts": 1779829055000,
-      "pub": "Wed, 27 May 2026 05:57:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아 출신 보강한 포티투닷..현대차그룹 '자율주행' 가속",
-      "link": "https://www.mt.co.kr/industry/2026/05/27/2026052614562317535",
-      "source": "머니투데이",
-      "ts": 1779828300000,
-      "pub": "Wed, 27 May 2026 05:45:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美마이크론도 '시총 1조달러 클럽' 가입…UBS 목표가 3배로 상향",
       "link": "https://www.yna.co.kr/view/AKR20260527006500072",
       "source": "연합뉴스 국제",
       "ts": 1779828182000,
       "pub": "Wed, 27 May 2026 05:43:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "마이크론 19% 폭등...S&P500·나스닥 사상 최고치 [뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/05/27/2026052705252518554",
-      "source": "머니투데이",
-      "ts": 1779827206000,
-      "pub": "Wed, 27 May 2026 05:26:46 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "SK하이닉스에 '40억 올인' 한 개미…\"3주 만에 11억 벌어\" 계좌 인증",
-      "link": "https://www.mt.co.kr/society/2026/05/27/2026052705093413456",
-      "source": "머니투데이",
-      "ts": 1779827142000,
-      "pub": "Wed, 27 May 2026 05:25:42 +0900",
       "sentiment": "neutral"
     },
     {
@@ -146,30 +74,6 @@
       "ts": 1779826513000,
       "pub": "Wed, 27 May 2026 05:15:13 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "美 증시, 이란 협상 기대로 상승 출발…반도체주 상승 주도",
-      "link": "https://www.hankyung.com/article/202605260344i",
-      "source": "한국경제",
-      "ts": 1779804282000,
-      "pub": "Tue, 26 May 2026 23:04:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "화웨이, '타오의 법칙'으로 TSMC·삼전 추격…\"2031년 1.4나노\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260526021052009",
-      "source": "연합뉴스 국제",
-      "ts": 1779780205000,
-      "pub": "Tue, 26 May 2026 16:23:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "블룸버그 이코노믹스 \"반도체 성과급, 한은 금리인상 가능성 ↑\"",
-      "link": "https://www.yna.co.kr/view/AKR20260526129400009",
-      "source": "연합뉴스 국제",
-      "ts": 1779778453000,
-      "pub": "Tue, 26 May 2026 15:54:13 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-27T21:44:43.558Z",
-  "count": 13,
+  "updated_at": "2026-05-27T23:08:21.647Z",
+  "count": 12,
   "items": [
+    {
+      "title": "종전 기대감에 3대지수 사상 최고치 마감…반도체는 '숨고르기' [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026052830346",
+      "source": "한국경제",
+      "ts": 1779920694000,
+      "pub": "Thu, 28 May 2026 07:24:54 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "3대 지수 일제히 사상 최고치…AI 반도체 '숨고르기'[뉴욕마감]",
       "link": "https://www.mt.co.kr/world/2026/05/28/2026052805491887826",
@@ -25,14 +33,6 @@
       "source": "한국경제",
       "ts": 1779894631000,
       "pub": "Thu, 28 May 2026 00:10:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "대만 \"금지된 엔비디아 칩, 일본·홍콩 거쳐 중국으로 밀수\"",
-      "link": "https://www.hankyung.com/article/202605272789i",
-      "source": "한국경제",
-      "ts": 1779887271000,
-      "pub": "Wed, 27 May 2026 22:07:51 +0900",
       "sentiment": "neutral"
     },
     {
@@ -81,14 +81,6 @@
       "source": "연합뉴스 경제",
       "ts": 1779859144000,
       "pub": "Wed, 27 May 2026 14:19:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼성전자, 베트남에 반도체 테스트 공장 건설 계획\"",
-      "link": "https://www.yna.co.kr/view/AKR20260527106800009",
-      "source": "연합뉴스 국제",
-      "ts": 1779859081000,
-      "pub": "Wed, 27 May 2026 14:18:01 +0900",
       "sentiment": "neutral"
     },
     {

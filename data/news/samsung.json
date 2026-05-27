@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-05-27T21:44:43.540Z",
-  "count": 11,
+  "updated_at": "2026-05-27T23:08:21.646Z",
+  "count": 12,
   "items": [
+    {
+      "title": "찬밥 신세였는데 '대반전'…삼전닉스 주가 폭등한 진짜 이유",
+      "link": "https://www.hankyung.com/article/2026052725211",
+      "source": "한국경제",
+      "ts": 1779919206000,
+      "pub": "Thu, 28 May 2026 07:00:06 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼전닉스 올해 84.5조 처분…외국인 매도의 진실",
+      "link": "https://www.hankyung.com/article/202605282899i",
+      "source": "한국경제",
+      "ts": 1779919203000,
+      "pub": "Thu, 28 May 2026 07:00:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'이재용 회장도 탄다'…벤츠 S클래스 꺾고 '1위' 등극한 車",
+      "link": "https://www.hankyung.com/article/202605272287g",
+      "source": "한국경제",
+      "ts": 1779915606000,
+      "pub": "Thu, 28 May 2026 06:00:06 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[사설]삼전 노사합의안 타결, 후폭풍의 시작",
       "link": "https://www.mt.co.kr/opinion/2026/05/28/2026052713561458665",
@@ -26,14 +50,6 @@
       "ts": 1779906600000,
       "pub": "Thu, 28 May 2026 03:30:00 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "\"삼전닉스 언제까지 올라요?\"…개미들 놀랄 증권가 전망 [분석+]",
-      "link": "https://www.hankyung.com/article/2026052721286",
-      "source": "한국경제",
-      "ts": 1779886802000,
-      "pub": "Wed, 27 May 2026 22:00:02 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "'중국 메모리 굴기' CXMT 상장 초읽기…6조5천억원 조달 목표",
@@ -65,14 +81,6 @@
       "source": "연합뉴스 경제",
       "ts": 1779859833000,
       "pub": "Wed, 27 May 2026 14:30:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼성전자, 베트남에 반도체 테스트 공장 건설 계획\"",
-      "link": "https://www.yna.co.kr/view/AKR20260527106800009",
-      "source": "연합뉴스 국제",
-      "ts": 1779859081000,
-      "pub": "Wed, 27 May 2026 14:18:01 +0900",
       "sentiment": "neutral"
     },
     {

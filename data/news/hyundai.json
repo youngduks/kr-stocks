@@ -1,8 +1,16 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-05-27T21:44:43.571Z",
+  "updated_at": "2026-05-27T23:08:21.648Z",
   "count": 3,
   "items": [
+    {
+      "title": "\"현대차, 피지컬 AI 대표 주자…목표가 120만원으로 상향\"-KB",
+      "link": "https://www.hankyung.com/article/2026052830916",
+      "source": "한국경제",
+      "ts": 1779922651000,
+      "pub": "Thu, 28 May 2026 07:57:31 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[여의도 클라쓰] '한올바이오파마, 현대차, 에이팩트' 클라쓰 올릴 종목은?",
       "link": "https://www.mt.co.kr/stock/2026/05/28/2026052721057030715",
@@ -17,14 +25,6 @@
       "source": "머니투데이",
       "ts": 1779908640000,
       "pub": "Thu, 28 May 2026 04:04:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "현대모비스, 자회사형 장애인 표준사업장 '모아빛' 출범",
-      "link": "https://www.yna.co.kr/view/AKR20260527035700003",
-      "source": "연합뉴스 경제",
-      "ts": 1779847209000,
-      "pub": "Wed, 27 May 2026 11:00:09 +0900",
       "sentiment": "neutral"
     }
   ]

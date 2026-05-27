@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-27T21:44:43.485Z",
-  "count": 27,
+  "updated_at": "2026-05-27T23:08:21.645Z",
+  "count": 31,
   "items": [
+    {
+      "title": "'옐로라인' 넘은 이스라엘, 레바논 남부 대피령…미-이란 협상 변수",
+      "link": "https://www.mt.co.kr/world/2026/05/28/2026052807442761840",
+      "source": "머니투데이",
+      "ts": 1779923241000,
+      "pub": "Thu, 28 May 2026 08:07:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "질 바이든 \"2024년 대선토론때 남편 뇌졸중 걸린줄 알았다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260528016400071",
+      "source": "연합뉴스 국제",
+      "ts": 1779921793000,
+      "pub": "Thu, 28 May 2026 07:43:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美연준 쿡 이사 \"인플레 잘못된 방향으로…지속시 금리인상\"",
+      "link": "https://www.yna.co.kr/view/AKR20260528014800072",
+      "source": "연합뉴스 국제",
+      "ts": 1779920803000,
+      "pub": "Thu, 28 May 2026 07:26:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 \"농축우라늄·호르무즈는 레드라인\"…트럼프 압박에 맞대응",
+      "link": "https://www.hankyung.com/article/2026052830287",
+      "source": "한국경제",
+      "ts": 1779920190000,
+      "pub": "Thu, 28 May 2026 07:16:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 모기지금리 9개월 만에 최고치…소비자 심리 위축에 '찬물' 더해 [Fed워치]",
+      "link": "https://www.hankyung.com/article/202605282979i",
+      "source": "한국경제",
+      "ts": 1779917189000,
+      "pub": "Thu, 28 May 2026 06:26:29 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "트럼프 \"이란 협상 불충분\"…군사옵션 재개 가능성 압박",
+      "link": "https://www.hankyung.com/article/2026052829857",
+      "source": "한국경제",
+      "ts": 1779917147000,
+      "pub": "Thu, 28 May 2026 06:25:47 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "러시아 신형탄도미사일 맞은 우크라이나, 미국에 'SOS'",
       "link": "https://www.yna.co.kr/view/AKR20260528005900099",
@@ -58,14 +106,6 @@
       "ts": 1779904455000,
       "pub": "Thu, 28 May 2026 02:54:15 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란 제재 완화, 고농축 우라늄 포기만으론 안 돼\"",
-      "link": "https://www.mt.co.kr/world/2026/05/28/2026052802503637037",
-      "source": "머니투데이",
-      "ts": 1779904362000,
-      "pub": "Thu, 28 May 2026 02:52:42 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "트럼프 \"이란의 고농축우라늄 포기와 제재완화 못바꿔\"(종합)",
@@ -209,14 +249,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779863406000,
       "pub": "Wed, 27 May 2026 15:30:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 '아브라함 협정' 압박에 빈살만 격분…'NO' 100번 말해\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260527078851009",
-      "source": "연합뉴스 국제",
-      "ts": 1779858116000,
-      "pub": "Wed, 27 May 2026 14:01:56 +0900",
       "sentiment": "neutral"
     }
   ]

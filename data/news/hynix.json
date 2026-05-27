@@ -1,15 +1,111 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-27T05:08:13.013Z",
-  "count": 9,
+  "updated_at": "2026-05-27T08:58:54.954Z",
+  "count": 20,
   "items": [
     {
-      "title": "'반도체 투톱' 삼전닉스 나란히 신고가…\"주가 거품? 아직도 저평가\"",
-      "link": "https://www.mt.co.kr/stock/2026/05/27/2026052712072378601",
-      "source": "머니투데이",
-      "ts": 1779856024000,
-      "pub": "Wed, 27 May 2026 13:27:04 +0900",
+      "title": "서희건설은 어떻게 반도체 랠리 수혜주가 됐나",
+      "link": "https://www.hankyung.com/article/2026052725721",
+      "source": "한국경제",
+      "ts": 1779871852000,
+      "pub": "Wed, 27 May 2026 17:50:52 +0900",
       "sentiment": "positive"
+    },
+    {
+      "title": "글로벌 반도체 랠리…SK하이닉스·마이크론도 시총 '1조 달러 클럽'",
+      "link": "https://www.hankyung.com/article/202605271855i",
+      "source": "한국경제",
+      "ts": 1779871238000,
+      "pub": "Wed, 27 May 2026 17:40:38 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "정윤석 대표 \"韓 반도체 초순수 시장 5조로 커질 것\"",
+      "link": "https://www.hankyung.com/article/2026052724851",
+      "source": "한국경제",
+      "ts": 1779870875000,
+      "pub": "Wed, 27 May 2026 17:34:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "TSMC회장, '성과급 삭감설'에 진화 나서…\"작년대비 30%이상 ↑\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260527054951009",
+      "source": "연합뉴스 국제",
+      "ts": 1779870144000,
+      "pub": "Wed, 27 May 2026 17:22:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "브레인웍스, AI 반도체 해외 실증 지원사업 주관사 선정",
+      "link": "https://www.mt.co.kr/industry/2026/05/27/2026052712551413886",
+      "source": "머니투데이",
+      "ts": 1779869584000,
+      "pub": "Wed, 27 May 2026 17:13:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 반도체 훈풍, 대만 가권지수 1.68% 올라 또 사상최고치[Asia마감]",
+      "link": "https://www.mt.co.kr/world/2026/05/27/2026052716141033169",
+      "source": "머니투데이",
+      "ts": 1779869243000,
+      "pub": "Wed, 27 May 2026 17:07:23 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "조단위 증가한 반도체 레버리지…단일종목 상품도 수급에 가세",
+      "link": "https://www.mt.co.kr/stock/2026/05/27/2026052715053897822",
+      "source": "머니투데이",
+      "ts": 1779868409000,
+      "pub": "Wed, 27 May 2026 16:53:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스, 시총 '1조달러 클럽' 진입…삼전 이어 국내 두번째(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260527050051008",
+      "source": "연합뉴스 경제",
+      "ts": 1779865409000,
+      "pub": "Wed, 27 May 2026 16:03:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아 칩 일본 거쳐 중국 밀반출 확인…대만 첫 단속",
+      "link": "https://www.yna.co.kr/view/AKR20260527119300009",
+      "source": "연합뉴스 국제",
+      "ts": 1779864046000,
+      "pub": "Wed, 27 May 2026 15:40:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'시총 1경' TSMC·엔비디아 저녁 회동…\"양사 밀접히 협조 중\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260527085851009",
+      "source": "연합뉴스 국제",
+      "ts": 1779862789000,
+      "pub": "Wed, 27 May 2026 15:19:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "기획처, AI반도체 스타트업계와 투자 간담회…\"적극 재정 지원\"",
+      "link": "https://www.yna.co.kr/view/AKR20260527105300002",
+      "source": "연합뉴스 경제",
+      "ts": 1779859144000,
+      "pub": "Wed, 27 May 2026 14:19:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼성전자, 베트남에 반도체 테스트 공장 건설 계획\"",
+      "link": "https://www.yna.co.kr/view/AKR20260527106800009",
+      "source": "연합뉴스 국제",
+      "ts": 1779859081000,
+      "pub": "Wed, 27 May 2026 14:18:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코트라, 도쿄서 '한일 비즈니스 플라자'…AI·반도체 협력 도모",
+      "link": "https://www.yna.co.kr/view/AKR20260527083800003",
+      "source": "연합뉴스 경제",
+      "ts": 1779858007000,
+      "pub": "Wed, 27 May 2026 14:00:07 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "'시총 1경' TSMC·엔비디아 저녁 회동…\"양사 밀접히 협조 중\"",
@@ -20,12 +116,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "삼전, 파업은 막았지만…\"반도체만 돈잔치\" 내전 불씨 활활 [종합]",
-      "link": "https://www.hankyung.com/article/202605271387g",
-      "source": "한국경제",
-      "ts": 1779848106000,
-      "pub": "Wed, 27 May 2026 11:15:06 +0900",
-      "sentiment": "negative"
+      "title": "미래에셋 \"삼성전자 55만원, SK하이닉스 380만원…목표가↑\"",
+      "link": "https://www.yna.co.kr/view/AKR20260527081100008",
+      "source": "연합뉴스 경제",
+      "ts": 1779849316000,
+      "pub": "Wed, 27 May 2026 11:35:16 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "TSMC 회장, '성과급 감소' 루머에 출장 취소하고 직원들과 소통",
@@ -66,14 +162,6 @@
       "ts": 1779828182000,
       "pub": "Wed, 27 May 2026 05:43:02 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "美 S&P500·나스닥, 메모리주 급등에 최고치 마감",
-      "link": "https://www.yna.co.kr/view/AKR20260527005200072",
-      "source": "연합뉴스 국제",
-      "ts": 1779826513000,
-      "pub": "Wed, 27 May 2026 05:15:13 +0900",
-      "sentiment": "positive"
     }
   ]
 }

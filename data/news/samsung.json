@@ -1,31 +1,39 @@
 {
   "category": "samsung",
-  "updated_at": "2026-05-28T06:00:55.659Z",
-  "count": 6,
+  "updated_at": "2026-05-28T10:43:51.122Z",
+  "count": 5,
   "items": [
     {
-      "title": "삼전닉스는 올랐는데...\"2배 뛰는 거 아니었어?\" 레버리지 ETF 하락, 왜",
-      "link": "https://www.mt.co.kr/stock/2026/05/28/2026052814182928837",
-      "source": "머니투데이",
-      "ts": 1779946144000,
-      "pub": "Thu, 28 May 2026 14:29:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "신현송 \"삼성전자 성과급, 양극화 심화 않는 범위서 하는 것이 바람직\"",
-      "link": "https://www.mt.co.kr/economy/2026/05/28/2026052813222163498",
-      "source": "머니투데이",
-      "ts": 1779946046000,
-      "pub": "Thu, 28 May 2026 14:27:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'광풍' 삼전닉스 레버리지 ETF…'현물·선물형' 어떤 상품이 좋을까",
-      "link": "https://www.hankyung.com/article/202605284300i",
+      "title": "삼성전자 턱밑까지 온 SK하이닉스…'시총 1위' 왕관 흔드나",
+      "link": "https://www.hankyung.com/article/202605285185g",
       "source": "한국경제",
-      "ts": 1779945632000,
-      "pub": "Thu, 28 May 2026 14:20:32 +0900",
+      "ts": 1779959536000,
+      "pub": "Thu, 28 May 2026 18:12:16 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 美서 파운드리 생태계 협력 확대…사업 반등도 시동",
+      "link": "https://www.mt.co.kr/industry/2026/05/28/2026052814225124399",
+      "source": "머니투데이",
+      "ts": 1779957664000,
+      "pub": "Thu, 28 May 2026 17:41:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[일문일답] 신현송 한은총재 \"삼전 성과급에 물가 상승 압력 생길 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260528123700002",
+      "source": "연합뉴스 경제",
+      "ts": 1779950916000,
+      "pub": "Thu, 28 May 2026 15:48:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자, 2.4% 하락 마감…SK하이닉스는 2% 올라(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260528035451008",
+      "source": "연합뉴스 경제",
+      "ts": 1779950711000,
+      "pub": "Thu, 28 May 2026 15:45:11 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "한은 총재 \"삼성전자 성과급에 물가 상승 압력 생길 것\"",
@@ -33,22 +41,6 @@
       "source": "연합뉴스 경제",
       "ts": 1779936872000,
       "pub": "Thu, 28 May 2026 11:54:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 한은 총재 \"삼성전자 성과급, 물가 상승 압력 만들 것\"",
-      "link": "https://www.hankyung.com/article/2026052840557",
-      "source": "한국경제",
-      "ts": 1779936325000,
-      "pub": "Thu, 28 May 2026 11:45:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 한은 총재 \"삼성전자 성과급에 물가 상승 압력 생길 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260528086300002",
-      "source": "연합뉴스 경제",
-      "ts": 1779935914000,
-      "pub": "Thu, 28 May 2026 11:38:34 +0900",
       "sentiment": "neutral"
     }
   ]

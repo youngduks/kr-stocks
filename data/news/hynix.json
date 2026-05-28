@@ -1,63 +1,87 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-28T06:00:55.660Z",
-  "count": 12,
+  "updated_at": "2026-05-28T10:43:51.124Z",
+  "count": 14,
   "items": [
     {
-      "title": "반도체 호황에 성장률 2.0→2.6%…한은, 금리 인상 시그널 강화",
-      "link": "https://www.mt.co.kr/economy/2026/05/28/2026052813562373192",
+      "title": "'칩 설계 솔루션' 잇다반도체, ISO26262인증…\"고객도 인증 효과\"",
+      "link": "https://www.mt.co.kr/future/2026/05/28/2026052816403349152",
       "source": "머니투데이",
-      "ts": 1779947584000,
-      "pub": "Thu, 28 May 2026 14:53:04 +0900",
+      "ts": 1779964200000,
+      "pub": "Thu, 28 May 2026 19:30:00 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[더벨]티로보틱스, 반도체 유리기판 이송로봇 일본 특허 등록",
-      "link": "https://www.mt.co.kr/stock/2026/05/28/2026052814359616291",
-      "source": "머니투데이",
-      "ts": 1779947047000,
-      "pub": "Thu, 28 May 2026 14:44:07 +0900",
+      "title": "국민성장펀드, '국산 AI 반도체' 퓨리오사AI에 8천억 직접투자",
+      "link": "https://www.yna.co.kr/view/AKR20260528176900002",
+      "source": "연합뉴스 경제",
+      "ts": 1779964152000,
+      "pub": "Thu, 28 May 2026 19:29:12 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "반도체 갈등 심상찮더니…中, 남중국해서 네덜란드 군함 쫓아냈다",
-      "link": "https://www.mt.co.kr/world/2026/05/28/2026052812022124793",
-      "source": "머니투데이",
-      "ts": 1779945054000,
-      "pub": "Thu, 28 May 2026 14:10:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔닷라이트, 엔비디아 GTC서 '연체 에셋 시뮬레이션' 최초 공개",
-      "link": "https://www.mt.co.kr/future/2026/05/28/2026052808590542903",
-      "source": "머니투데이",
-      "ts": 1779944400000,
-      "pub": "Thu, 28 May 2026 14:00:00 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "한은 \"올해 성장률 2.6%·물가 2.7%…반도체가 중동 리스크 압도\"",
-      "link": "https://www.mt.co.kr/economy/2026/05/28/2026052813041288395",
-      "source": "머니투데이",
-      "ts": 1779943764000,
-      "pub": "Thu, 28 May 2026 13:49:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체회사 마블, 실적 좋았지만 높아진 주가 견인엔 부족…1.4% 하락",
-      "link": "https://www.mt.co.kr/world/2026/05/28/2026052813265521201",
-      "source": "머니투데이",
-      "ts": 1779943504000,
-      "pub": "Thu, 28 May 2026 13:45:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한은, 올해 성장률 2.6%로 상향…반도체 낙관 땐 성장률 3%대",
-      "link": "https://www.hankyung.com/article/2026052842507",
+      "title": "[기고] 대학 강의실로 들어간 반도체 장비",
+      "link": "https://www.hankyung.com/article/2026052850291",
       "source": "한국경제",
-      "ts": 1779943439000,
-      "pub": "Thu, 28 May 2026 13:43:59 +0900",
-      "sentiment": "positive"
+      "ts": 1779960277000,
+      "pub": "Thu, 28 May 2026 18:24:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 턱밑까지 온 SK하이닉스…'시총 1위' 왕관 흔드나",
+      "link": "https://www.hankyung.com/article/202605285185g",
+      "source": "한국경제",
+      "ts": 1779959536000,
+      "pub": "Thu, 28 May 2026 18:12:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "마이크론, 아직도 싸다?…美 3대 지수 동시 신고점 후 일어난 일[오미주]",
+      "link": "https://www.mt.co.kr/world/2026/05/28/2026052815542859002",
+      "source": "머니투데이",
+      "ts": 1779959100000,
+      "pub": "Thu, 28 May 2026 18:05:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "전력소자산업협회·AIT기술사업협동조합, '韓 반도체 미래' 세미나",
+      "link": "https://www.mt.co.kr/industry/2026/05/28/2026052814351734926",
+      "source": "머니투데이",
+      "ts": 1779957927000,
+      "pub": "Thu, 28 May 2026 17:45:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아가 성장 돕는다…산업용 로보틱스 인피니크, '엔업' 선정",
+      "link": "https://www.mt.co.kr/future/2026/05/28/2026052814002030767",
+      "source": "머니투데이",
+      "ts": 1779957900000,
+      "pub": "Thu, 28 May 2026 17:45:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "화웨이 '반도체 여왕' 허팅보 \"타우 법칙, 제재 뚫은 고속도로\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260528087551009",
+      "source": "연합뉴스 국제",
+      "ts": 1779957072000,
+      "pub": "Thu, 28 May 2026 17:31:12 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "FT \"닷컴버블 이래 최고 성과 향하는 반도체 종목들\"",
+      "link": "https://www.yna.co.kr/view/AKR20260528142600009",
+      "source": "연합뉴스 국제",
+      "ts": 1779953051000,
+      "pub": "Thu, 28 May 2026 16:24:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자, 2.4% 하락 마감…SK하이닉스는 2% 올라(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260528035451008",
+      "source": "연합뉴스 경제",
+      "ts": 1779950711000,
+      "pub": "Thu, 28 May 2026 15:45:11 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "한은 \"올해 성장률 2.0→2.6% 상향…반도체 낙관 전망시 3%대\"(종합2보)",
@@ -90,14 +114,6 @@
       "ts": 1779937114000,
       "pub": "Thu, 28 May 2026 11:58:34 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 호조에…한은, 올해 성장률 전망치 2.0→2.6% 상향(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260528048351002",
-      "source": "연합뉴스 경제",
-      "ts": 1779930642000,
-      "pub": "Thu, 28 May 2026 10:10:42 +0900",
-      "sentiment": "positive"
     }
   ]
 }

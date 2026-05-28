@@ -3,15 +3,10 @@
   "ticker": "005930",
   "name_ko": "삼성전자",
   "name_en": "Samsung Electronics",
-  "updated_at": "2026-05-27T20:35:37.251+09:00",
+  "updated_at": "2026-05-28T20:36:06.561+09:00",
   "source": "naver_finance_frgn",
   "note": "추정 매매대금 = 종가 × 순매매량 (±5% 정확도)",
   "daily": [
-    {
-      "date": "2026-05-20",
-      "foreign_won": -1582405704000,
-      "institutional_won": 760873212000
-    },
     {
       "date": "2026-05-21",
       "foreign_won": 1099890688500,
@@ -31,11 +26,16 @@
       "date": "2026-05-27",
       "foreign_won": -84171111000,
       "institutional_won": 476127528000
+    },
+    {
+      "date": "2026-05-28",
+      "foreign_won": -1549350937500,
+      "institutional_won": -483261819000
     }
   ],
   "cumulative_5d": {
-    "foreign_won": -1001318448000,
-    "institutional_won": 2380787460500,
-    "retail_won": -1379469012500
+    "foreign_won": -968263681500,
+    "institutional_won": 1136652429500,
+    "retail_won": -168388748000
   }
 }

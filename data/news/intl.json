@@ -1,8 +1,128 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-28T10:43:51.121Z",
-  "count": 14,
+  "updated_at": "2026-05-28T14:27:30.059Z",
+  "count": 24,
   "items": [
+    {
+      "title": "뉴욕증시, 美-이란 교전·PCE·GDP 소화하며 하락 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260528189600009",
+      "source": "연합뉴스 국제",
+      "ts": 1779977001000,
+      "pub": "Thu, 28 May 2026 23:03:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 행정부, 올 여름 쿠바 붕괴 가능성 관측…\"군사 회의 진행\"",
+      "link": "https://www.mt.co.kr/world/2026/05/28/2026052821335720849",
+      "source": "머니투데이",
+      "ts": 1779975848000,
+      "pub": "Thu, 28 May 2026 22:44:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "4월 미국 PCE 2년 11개월만에 최고치…이란 전쟁·고유가 여파",
+      "link": "https://www.mt.co.kr/world/2026/05/28/2026052822221485815",
+      "source": "머니투데이",
+      "ts": 1779975793000,
+      "pub": "Thu, 28 May 2026 22:43:13 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "美 '트럼프계좌' 7월4일 출시…임기중 출생아 1인당 150만원 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260528188200071",
+      "source": "연합뉴스 국제",
+      "ts": 1779975537000,
+      "pub": "Thu, 28 May 2026 22:38:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 4월 PCE물가 전년대비 3.8%↑…고유가에 오름폭 확대(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260528186151072",
+      "source": "연합뉴스 국제",
+      "ts": 1779974842000,
+      "pub": "Thu, 28 May 2026 22:27:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 미국 PCE 전년 대비 3.8% 상승, 2년11개월만에 최고",
+      "link": "https://www.mt.co.kr/world/2026/05/28/2026052821503460433",
+      "source": "머니투데이",
+      "ts": 1779972737000,
+      "pub": "Thu, 28 May 2026 21:52:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 4월 PCE 연 3.8%↑…약 3년만에 최고",
+      "link": "https://www.hankyung.com/article/202605285391i",
+      "source": "한국경제",
+      "ts": 1779972595000,
+      "pub": "Thu, 28 May 2026 21:49:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘군, 레바논 수도 베이루트 공습 3주 만에 재개",
+      "link": "https://www.yna.co.kr/view/AKR20260528186500079",
+      "source": "연합뉴스 국제",
+      "ts": 1779972409000,
+      "pub": "Thu, 28 May 2026 21:46:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 4월 PCE물가 전년대비 3.8%↑…2년 11개월만에 최고",
+      "link": "https://www.yna.co.kr/view/AKR20260528186100072",
+      "source": "연합뉴스 국제",
+      "ts": 1779972143000,
+      "pub": "Thu, 28 May 2026 21:42:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美 4월 PCE물가 전년대비 3.8%↑…2년 11개월만에 최고",
+      "link": "https://www.hankyung.com/article/2026052853867",
+      "source": "한국경제",
+      "ts": 1779971649000,
+      "pub": "Thu, 28 May 2026 21:34:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美 4월 PCE물가 전년대비 3.8%↑…2년 11개월만에 최고",
+      "link": "https://www.yna.co.kr/view/AKR20260528185400072",
+      "source": "연합뉴스 국제",
+      "ts": 1779971529000,
+      "pub": "Thu, 28 May 2026 21:32:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라, EU 대출금으로 스웨덴 전투기 20대 산다",
+      "link": "https://www.yna.co.kr/view/AKR20260528183100082",
+      "source": "연합뉴스 국제",
+      "ts": 1779971462000,
+      "pub": "Thu, 28 May 2026 21:31:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 나포 활동가 \"한국 영사 다이어트하냐 조롱\"...외교부 \"사실무근\"",
+      "link": "https://www.mt.co.kr/society/2026/05/28/2026052820543027808",
+      "source": "머니투데이",
+      "ts": 1779969420000,
+      "pub": "Thu, 28 May 2026 20:57:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프가 무역장벽 세울 때 중국은 아프리카 관세 철폐",
+      "link": "https://www.mt.co.kr/world/2026/05/28/2026052818023183324",
+      "source": "머니투데이",
+      "ts": 1779967620000,
+      "pub": "Thu, 28 May 2026 20:27:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 연준 관리들 \"지금은 인플레에 집중해야\" 한 목소리",
+      "link": "https://www.hankyung.com/article/202605285284i",
+      "source": "한국경제",
+      "ts": 1779966175000,
+      "pub": "Thu, 28 May 2026 20:02:55 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "EU, 중국 상대 수입할당제·관세 등 세이프가드 사용 확대 방침(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260528141451009",
@@ -73,46 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779933373000,
       "pub": "Thu, 28 May 2026 10:56:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, 대만산 일부 수입품 관세 면제…2월 무역협정 이행",
-      "link": "https://www.yna.co.kr/view/AKR20260528053800009",
-      "source": "연합뉴스 국제",
-      "ts": 1779931448000,
-      "pub": "Thu, 28 May 2026 10:24:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 친서방 아르메니아 총리 지지…러 \"가스공급 중단\" 위협",
-      "link": "https://www.yna.co.kr/view/AKR20260528037900009",
-      "source": "연합뉴스 국제",
-      "ts": 1779931033000,
-      "pub": "Thu, 28 May 2026 10:17:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러 은행들, 우크라 드론 방공망 '자체 부담'…직원들 무기소지",
-      "link": "https://www.yna.co.kr/view/AKR20260528046300009",
-      "source": "연합뉴스 국제",
-      "ts": 1779930699000,
-      "pub": "Thu, 28 May 2026 10:11:39 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "영국 정보수장 \"우크라전쟁 러시아군 전사자 50만명\"",
-      "link": "https://www.yna.co.kr/view/AKR20260528023500009",
-      "source": "연합뉴스 국제",
-      "ts": 1779926396000,
-      "pub": "Thu, 28 May 2026 08:59:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "종전합의 가까운 것 맞나…트럼프-이란 핵심쟁점 이견 또 돌출",
-      "link": "https://www.yna.co.kr/view/AKR20260528019400071",
-      "source": "연합뉴스 국제",
-      "ts": 1779924010000,
-      "pub": "Thu, 28 May 2026 08:20:10 +0900",
       "sentiment": "neutral"
     }
   ]

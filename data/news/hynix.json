@@ -1,14 +1,94 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-28T01:53:17.404Z",
+  "updated_at": "2026-05-28T06:00:55.660Z",
   "count": 12,
   "items": [
     {
-      "title": "반도체가 살렸다…한은, 성장률 전망치 2.0%→2.6% 대폭 상향",
-      "link": "https://www.hankyung.com/article/202605283704i",
+      "title": "반도체 호황에 성장률 2.0→2.6%…한은, 금리 인상 시그널 강화",
+      "link": "https://www.mt.co.kr/economy/2026/05/28/2026052813562373192",
+      "source": "머니투데이",
+      "ts": 1779947584000,
+      "pub": "Thu, 28 May 2026 14:53:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[더벨]티로보틱스, 반도체 유리기판 이송로봇 일본 특허 등록",
+      "link": "https://www.mt.co.kr/stock/2026/05/28/2026052814359616291",
+      "source": "머니투데이",
+      "ts": 1779947047000,
+      "pub": "Thu, 28 May 2026 14:44:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 갈등 심상찮더니…中, 남중국해서 네덜란드 군함 쫓아냈다",
+      "link": "https://www.mt.co.kr/world/2026/05/28/2026052812022124793",
+      "source": "머니투데이",
+      "ts": 1779945054000,
+      "pub": "Thu, 28 May 2026 14:10:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔닷라이트, 엔비디아 GTC서 '연체 에셋 시뮬레이션' 최초 공개",
+      "link": "https://www.mt.co.kr/future/2026/05/28/2026052808590542903",
+      "source": "머니투데이",
+      "ts": 1779944400000,
+      "pub": "Thu, 28 May 2026 14:00:00 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "한은 \"올해 성장률 2.6%·물가 2.7%…반도체가 중동 리스크 압도\"",
+      "link": "https://www.mt.co.kr/economy/2026/05/28/2026052813041288395",
+      "source": "머니투데이",
+      "ts": 1779943764000,
+      "pub": "Thu, 28 May 2026 13:49:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체회사 마블, 실적 좋았지만 높아진 주가 견인엔 부족…1.4% 하락",
+      "link": "https://www.mt.co.kr/world/2026/05/28/2026052813265521201",
+      "source": "머니투데이",
+      "ts": 1779943504000,
+      "pub": "Thu, 28 May 2026 13:45:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한은, 올해 성장률 2.6%로 상향…반도체 낙관 땐 성장률 3%대",
+      "link": "https://www.hankyung.com/article/2026052842507",
       "source": "한국경제",
-      "ts": 1779931430000,
-      "pub": "Thu, 28 May 2026 10:23:50 +0900",
+      "ts": 1779943439000,
+      "pub": "Thu, 28 May 2026 13:43:59 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "한은 \"올해 성장률 2.0→2.6% 상향…반도체 낙관 전망시 3%대\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260528048352002",
+      "source": "연합뉴스 경제",
+      "ts": 1779942651000,
+      "pub": "Thu, 28 May 2026 13:30:51 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "반도체 갈등 봉합될까…'美압박' 속 네덜란드 장관, 7월 방중",
+      "link": "https://www.yna.co.kr/view/AKR20260528093300009",
+      "source": "연합뉴스 국제",
+      "ts": 1779940395000,
+      "pub": "Thu, 28 May 2026 12:53:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한은 총재 \"반도체 호황에 세수 증가…국민 전체에 낙수효과\"",
+      "link": "https://www.yna.co.kr/view/AKR20260528092500002",
+      "source": "연합뉴스 경제",
+      "ts": 1779937481000,
+      "pub": "Thu, 28 May 2026 12:04:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 한은 총재 \"반도체 호황에 세수 증가…국민 전체에 낙수효과\"",
+      "link": "https://www.yna.co.kr/view/AKR20260528091700002",
+      "source": "연합뉴스 경제",
+      "ts": 1779937114000,
+      "pub": "Thu, 28 May 2026 11:58:34 +0900",
       "sentiment": "neutral"
     },
     {
@@ -18,86 +98,6 @@
       "ts": 1779930642000,
       "pub": "Thu, 28 May 2026 10:10:42 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "중소제조업 생산 감소세 탈출해 1.8% 반등…반도체·자동차 견인",
-      "link": "https://www.yna.co.kr/view/AKR20260528040500030",
-      "source": "연합뉴스 경제",
-      "ts": 1779928737000,
-      "pub": "Thu, 28 May 2026 09:38:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "티로보틱스, 반도체 유리기판 이송로봇 일본 특허 등록",
-      "link": "https://www.mt.co.kr/stock/2026/05/28/2026052809274228966",
-      "source": "머니투데이",
-      "ts": 1779928193000,
-      "pub": "Thu, 28 May 2026 09:29:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피 장중 소폭 반등...이차전지·완성차는 강세, 반도체는 혼조 [마켓라이브]",
-      "link": "https://www.hankyung.com/article/202605283072i",
-      "source": "한국경제",
-      "ts": 1779927951000,
-      "pub": "Thu, 28 May 2026 09:25:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼성전자, 장초반 1%대 하락…SK하이닉스는 2%대↓",
-      "link": "https://www.yna.co.kr/view/AKR20260528035400008",
-      "source": "연합뉴스 경제",
-      "ts": 1779927363000,
-      "pub": "Thu, 28 May 2026 09:16:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "메모리 빅3, 시총 1조달러 슈퍼랠리",
-      "link": "https://www.hankyung.com/article/2026052725841",
-      "source": "한국경제",
-      "ts": 1779926967000,
-      "pub": "Thu, 28 May 2026 09:09:27 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "신한자산운용 AI반도체톱2플러스 순자산 3조5천억원 돌파",
-      "link": "https://www.yna.co.kr/view/AKR20260528027800008",
-      "source": "연합뉴스 경제",
-      "ts": 1779925614000,
-      "pub": "Thu, 28 May 2026 08:46:54 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[마켓뷰] 반도체 주도 랠리 vs 급등 부담감…코스피 향방은",
-      "link": "https://www.yna.co.kr/view/AKR20260528020900008",
-      "source": "연합뉴스 경제",
-      "ts": 1779923165000,
-      "pub": "Thu, 28 May 2026 08:06:05 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'중국 메모리 굴기' CXMT 상장 초읽기…6조5천억원 조달 목표",
-      "link": "https://www.yna.co.kr/view/AKR20260527161700083",
-      "source": "연합뉴스 국제",
-      "ts": 1779880072000,
-      "pub": "Wed, 27 May 2026 20:07:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "TSMC회장, '성과급 삭감설'에 진화 나서…\"작년대비 30%이상 ↑\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260527054951009",
-      "source": "연합뉴스 국제",
-      "ts": 1779870144000,
-      "pub": "Wed, 27 May 2026 17:22:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스, 시총 '1조달러 클럽' 진입…삼전 이어 국내 두번째(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260527050051008",
-      "source": "연합뉴스 경제",
-      "ts": 1779865409000,
-      "pub": "Wed, 27 May 2026 16:03:29 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

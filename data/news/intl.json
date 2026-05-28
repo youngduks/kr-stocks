@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-28T01:53:17.401Z",
+  "updated_at": "2026-05-28T06:00:55.657Z",
   "count": 26,
   "items": [
+    {
+      "title": "'총격 취소' 백악관 기자단 만찬 다시 연다…트럼프 참석할까",
+      "link": "https://www.mt.co.kr/world/2026/05/28/2026052811392992510",
+      "source": "머니투데이",
+      "ts": 1779946129000,
+      "pub": "Thu, 28 May 2026 14:28:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 덕에 살았다?…이슬람 희생 제물 될뻔 한 방글라 물소",
+      "link": "https://www.hankyung.com/article/2026052841417",
+      "source": "한국경제",
+      "ts": 1779944780000,
+      "pub": "Thu, 28 May 2026 14:06:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"농축우라늄과 제재 해제 교환 아니다\" 거듭 강조",
+      "link": "https://www.hankyung.com/article/202605284082i",
+      "source": "한국경제",
+      "ts": 1779937840000,
+      "pub": "Thu, 28 May 2026 12:10:40 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "美, '트럼프 충성' 베네수엘라 임시대통령 마약수사 중단",
+      "link": "https://www.yna.co.kr/view/AKR20260528071900009",
+      "source": "연합뉴스 국제",
+      "ts": 1779934850000,
+      "pub": "Thu, 28 May 2026 11:20:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "CBS '트럼프 눈치보기' 폭로한 간판 프로그램 기자, 재계약 무산",
+      "link": "https://www.yna.co.kr/view/AKR20260528075000075",
+      "source": "연합뉴스 국제",
+      "ts": 1779934659000,
+      "pub": "Thu, 28 May 2026 11:17:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美, 저가형 드론 기업에 자금 지원 추진…트럼프 장남 업체 포함",
+      "link": "https://www.yna.co.kr/view/AKR20260528066000009",
+      "source": "연합뉴스 국제",
+      "ts": 1779933373000,
+      "pub": "Thu, 28 May 2026 10:56:13 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美, 대만산 일부 수입품 관세 면제…2월 무역협정 이행",
       "link": "https://www.yna.co.kr/view/AKR20260528053800009",
@@ -26,22 +74,6 @@
       "ts": 1779930699000,
       "pub": "Thu, 28 May 2026 10:11:39 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "中, 아프리카 무관세로 트럼프 관세 공세 맞불",
-      "link": "https://www.hankyung.com/article/202605283394i",
-      "source": "한국경제",
-      "ts": 1779928106000,
-      "pub": "Thu, 28 May 2026 09:28:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "영국 정보수장 \"우크라전 러시아군 전사자 50만명 육박\"",
-      "link": "https://www.hankyung.com/article/2026052833727",
-      "source": "한국경제",
-      "ts": 1779926934000,
-      "pub": "Thu, 28 May 2026 09:08:54 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "영국 정보수장 \"우크라전쟁 러시아군 전사자 50만명\"",
@@ -177,38 +209,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779894032000,
       "pub": "Thu, 28 May 2026 00:00:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "수용자 폭증·관리부실…트럼프 취임 후 ICE 구금자 자살 급증",
-      "link": "https://www.yna.co.kr/view/AKR20260527163200009",
-      "source": "연합뉴스 국제",
-      "ts": 1779881742000,
-      "pub": "Wed, 27 May 2026 20:35:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "교황, 러·우크라 확전 우려…\"우려 속에 지켜보고 있다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260527158400109",
-      "source": "연합뉴스 국제",
-      "ts": 1779876811000,
-      "pub": "Wed, 27 May 2026 19:13:31 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "우크라 종전 협상 'EU 역할론'…푸틴 상대할 특사 물색",
-      "link": "https://www.yna.co.kr/view/AKR20260527150700081",
-      "source": "연합뉴스 국제",
-      "ts": 1779873111000,
-      "pub": "Wed, 27 May 2026 18:11:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 탄약 지원 삐걱…공동구매 참여국 반토막",
-      "link": "https://www.yna.co.kr/view/AKR20260527147700082",
-      "source": "연합뉴스 국제",
-      "ts": 1779871254000,
-      "pub": "Wed, 27 May 2026 17:40:54 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-28T20:03:40.452Z",
-  "count": 29,
+  "updated_at": "2026-05-28T22:25:31.252Z",
+  "count": 28,
   "items": [
+    {
+      "title": "\"美정부, 현재까지 30조원 관세환급…총 예상규모의 12%\"",
+      "link": "https://www.yna.co.kr/view/AKR20260529009700071",
+      "source": "연합뉴스 국제",
+      "ts": 1780004072000,
+      "pub": "Fri, 29 May 2026 06:34:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '엡스틴에 외설편지' 보도 WSJ 상대 15조원 재소송",
+      "link": "https://www.yna.co.kr/view/AKR20260529006000071",
+      "source": "연합뉴스 국제",
+      "ts": 1779998611000,
+      "pub": "Fri, 29 May 2026 05:03:31 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "EU, '요르단강 서안 폭력' 이스라엘 정착운동가 제재",
       "link": "https://www.yna.co.kr/view/AKR20260529003100082",
@@ -116,14 +132,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[속보] 미국 PCE 전년 대비 3.8% 상승, 2년11개월만에 최고",
-      "link": "https://www.mt.co.kr/world/2026/05/28/2026052821503460433",
-      "source": "머니투데이",
-      "ts": 1779972737000,
-      "pub": "Thu, 28 May 2026 21:52:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美 4월 PCE 연 3.8%↑…약 3년만에 최고",
       "link": "https://www.hankyung.com/article/202605285391i",
       "source": "한국경제",
@@ -169,22 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779971462000,
       "pub": "Thu, 28 May 2026 21:31:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘 나포 활동가 \"한국 영사 다이어트하냐 조롱\"...외교부 \"사실무근\"",
-      "link": "https://www.mt.co.kr/society/2026/05/28/2026052820543027808",
-      "source": "머니투데이",
-      "ts": 1779969420000,
-      "pub": "Thu, 28 May 2026 20:57:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 연준 관리들 \"지금은 인플레에 집중해야\" 한 목소리",
-      "link": "https://www.hankyung.com/article/202605285284i",
-      "source": "한국경제",
-      "ts": 1779966175000,
-      "pub": "Thu, 28 May 2026 20:02:55 +0900",
       "sentiment": "neutral"
     },
     {

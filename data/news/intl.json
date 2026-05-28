@@ -1,14 +1,62 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-27T23:08:21.645Z",
-  "count": 31,
+  "updated_at": "2026-05-28T01:53:17.401Z",
+  "count": 26,
   "items": [
     {
-      "title": "'옐로라인' 넘은 이스라엘, 레바논 남부 대피령…미-이란 협상 변수",
-      "link": "https://www.mt.co.kr/world/2026/05/28/2026052807442761840",
-      "source": "머니투데이",
-      "ts": 1779923241000,
-      "pub": "Thu, 28 May 2026 08:07:21 +0900",
+      "title": "美, 대만산 일부 수입품 관세 면제…2월 무역협정 이행",
+      "link": "https://www.yna.co.kr/view/AKR20260528053800009",
+      "source": "연합뉴스 국제",
+      "ts": 1779931448000,
+      "pub": "Thu, 28 May 2026 10:24:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 친서방 아르메니아 총리 지지…러 \"가스공급 중단\" 위협",
+      "link": "https://www.yna.co.kr/view/AKR20260528037900009",
+      "source": "연합뉴스 국제",
+      "ts": 1779931033000,
+      "pub": "Thu, 28 May 2026 10:17:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러 은행들, 우크라 드론 방공망 '자체 부담'…직원들 무기소지",
+      "link": "https://www.yna.co.kr/view/AKR20260528046300009",
+      "source": "연합뉴스 국제",
+      "ts": 1779930699000,
+      "pub": "Thu, 28 May 2026 10:11:39 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "中, 아프리카 무관세로 트럼프 관세 공세 맞불",
+      "link": "https://www.hankyung.com/article/202605283394i",
+      "source": "한국경제",
+      "ts": 1779928106000,
+      "pub": "Thu, 28 May 2026 09:28:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "영국 정보수장 \"우크라전 러시아군 전사자 50만명 육박\"",
+      "link": "https://www.hankyung.com/article/2026052833727",
+      "source": "한국경제",
+      "ts": 1779926934000,
+      "pub": "Thu, 28 May 2026 09:08:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "영국 정보수장 \"우크라전쟁 러시아군 전사자 50만명\"",
+      "link": "https://www.yna.co.kr/view/AKR20260528023500009",
+      "source": "연합뉴스 국제",
+      "ts": 1779926396000,
+      "pub": "Thu, 28 May 2026 08:59:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "종전합의 가까운 것 맞나…트럼프-이란 핵심쟁점 이견 또 돌출",
+      "link": "https://www.yna.co.kr/view/AKR20260528019400071",
+      "source": "연합뉴스 국제",
+      "ts": 1779924010000,
+      "pub": "Thu, 28 May 2026 08:20:10 +0900",
       "sentiment": "neutral"
     },
     {
@@ -25,30 +73,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779920803000,
       "pub": "Thu, 28 May 2026 07:26:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 \"농축우라늄·호르무즈는 레드라인\"…트럼프 압박에 맞대응",
-      "link": "https://www.hankyung.com/article/2026052830287",
-      "source": "한국경제",
-      "ts": 1779920190000,
-      "pub": "Thu, 28 May 2026 07:16:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 모기지금리 9개월 만에 최고치…소비자 심리 위축에 '찬물' 더해 [Fed워치]",
-      "link": "https://www.hankyung.com/article/202605282979i",
-      "source": "한국경제",
-      "ts": 1779917189000,
-      "pub": "Thu, 28 May 2026 06:26:29 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "트럼프 \"이란 협상 불충분\"…군사옵션 재개 가능성 압박",
-      "link": "https://www.hankyung.com/article/2026052829857",
-      "source": "한국경제",
-      "ts": 1779917147000,
-      "pub": "Thu, 28 May 2026 06:25:47 +0900",
       "sentiment": "neutral"
     },
     {
@@ -76,27 +100,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "백악관 \"'미군 철수' 이란매체 보도 사실 아냐\"",
-      "link": "https://www.mt.co.kr/world/2026/05/28/2026052803285476299",
-      "source": "머니투데이",
-      "ts": 1779907394000,
-      "pub": "Thu, 28 May 2026 03:43:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"협상 지금까진 만족못해…중러엔 이란 HEU 못넘겨\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260528001951071",
       "source": "연합뉴스 국제",
       "ts": 1779906454000,
       "pub": "Thu, 28 May 2026 03:27:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란 종전협상 지금까지는 만족할 수준 아냐\"",
-      "link": "https://www.mt.co.kr/world/2026/05/28/2026052803013335309",
-      "source": "머니투데이",
-      "ts": 1779905081000,
-      "pub": "Thu, 28 May 2026 03:04:41 +0900",
       "sentiment": "neutral"
     },
     {
@@ -201,54 +209,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779871254000,
       "pub": "Wed, 27 May 2026 17:40:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘, 하마스 새 군사수장 제거…\"가자주민 외부 이주 추진\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260527116851009",
-      "source": "연합뉴스 국제",
-      "ts": 1779867899000,
-      "pub": "Wed, 27 May 2026 16:44:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 900억짜리 트럼프 팔순 잔치…백악관 앞마당서 UFC '격투 쇼'",
-      "link": "https://www.yna.co.kr/view/AKR20260527136500704",
-      "source": "연합뉴스 국제",
-      "ts": 1779867861000,
-      "pub": "Wed, 27 May 2026 16:44:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "바이든, 기밀유출 의혹 육성파일 공개 앞두고 美법무부 제소",
-      "link": "https://www.yna.co.kr/view/AKR20260527133600009",
-      "source": "연합뉴스 국제",
-      "ts": 1779866895000,
-      "pub": "Wed, 27 May 2026 16:28:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "유엔 대체한다던 트럼프 평화위원회 돈없어 개점휴업",
-      "link": "https://www.yna.co.kr/view/AKR20260527127900009",
-      "source": "연합뉴스 국제",
-      "ts": 1779865234000,
-      "pub": "Wed, 27 May 2026 16:00:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "유럽 커지는 공포…\"푸틴, 우크라전 흐름 바꾸려 확전할 가능성\"",
-      "link": "https://www.yna.co.kr/view/AKR20260527125300009",
-      "source": "연합뉴스 국제",
-      "ts": 1779864471000,
-      "pub": "Wed, 27 May 2026 15:47:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘, 가자 공습해 하마스 새 군사수장 살해",
-      "link": "https://www.yna.co.kr/view/AKR20260527116800009",
-      "source": "연합뉴스 국제",
-      "ts": 1779863406000,
-      "pub": "Wed, 27 May 2026 15:30:06 +0900",
       "sentiment": "neutral"
     }
   ]

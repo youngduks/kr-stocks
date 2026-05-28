@@ -1,31 +1,23 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-05-27T23:08:21.648Z",
-  "count": 3,
+  "updated_at": "2026-05-28T01:53:17.406Z",
+  "count": 2,
   "items": [
     {
-      "title": "\"현대차, 피지컬 AI 대표 주자…목표가 120만원으로 상향\"-KB",
-      "link": "https://www.hankyung.com/article/2026052830916",
-      "source": "한국경제",
-      "ts": 1779922651000,
-      "pub": "Thu, 28 May 2026 07:57:31 +0900",
-      "sentiment": "neutral"
+      "title": "[특징주] 현대모비스, 증권가 목표가 줄상향 속 52주 신고가",
+      "link": "https://www.yna.co.kr/view/AKR20260528039600008",
+      "source": "연합뉴스 경제",
+      "ts": 1779928229000,
+      "pub": "Thu, 28 May 2026 09:30:29 +0900",
+      "sentiment": "positive"
     },
     {
-      "title": "[여의도 클라쓰] '한올바이오파마, 현대차, 에이팩트' 클라쓰 올릴 종목은?",
-      "link": "https://www.mt.co.kr/stock/2026/05/28/2026052721057030715",
-      "source": "머니투데이",
-      "ts": 1779917039000,
-      "pub": "Thu, 28 May 2026 06:23:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'엔비디아맨' 또 영입… 현대차, 자율주행 솔루션 고도화 나선다",
-      "link": "https://www.mt.co.kr/industry/2026/05/28/2026052719571144722",
-      "source": "머니투데이",
-      "ts": 1779908640000,
-      "pub": "Thu, 28 May 2026 04:04:00 +0900",
-      "sentiment": "neutral"
+      "title": "신한투자 \"현대모비스, 피지컬AI로 재평가…목표가 상향\"",
+      "link": "https://www.yna.co.kr/view/AKR20260528023900008",
+      "source": "연합뉴스 경제",
+      "ts": 1779924546000,
+      "pub": "Thu, 28 May 2026 08:29:06 +0900",
+      "sentiment": "positive"
     }
   ]
 }

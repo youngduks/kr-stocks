@@ -1,39 +1,79 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-27T23:08:21.647Z",
+  "updated_at": "2026-05-28T01:53:17.404Z",
   "count": 12,
   "items": [
     {
-      "title": "종전 기대감에 3대지수 사상 최고치 마감…반도체는 '숨고르기' [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026052830346",
+      "title": "반도체가 살렸다…한은, 성장률 전망치 2.0%→2.6% 대폭 상향",
+      "link": "https://www.hankyung.com/article/202605283704i",
       "source": "한국경제",
-      "ts": 1779920694000,
-      "pub": "Thu, 28 May 2026 07:24:54 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "3대 지수 일제히 사상 최고치…AI 반도체 '숨고르기'[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/05/28/2026052805491887826",
-      "source": "머니투데이",
-      "ts": 1779915549000,
-      "pub": "Thu, 28 May 2026 05:59:09 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'엔비디아맨' 또 영입… 현대차, 자율주행 솔루션 고도화 나선다",
-      "link": "https://www.mt.co.kr/industry/2026/05/28/2026052719571144722",
-      "source": "머니투데이",
-      "ts": 1779908640000,
-      "pub": "Thu, 28 May 2026 04:04:00 +0900",
+      "ts": 1779931430000,
+      "pub": "Thu, 28 May 2026 10:23:50 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "지스케일러 컨콜이 반도체 차익실현 빌미 됐다? [빈난새의 개장전요것만]",
-      "link": "https://www.hankyung.com/article/202605272860i",
-      "source": "한국경제",
-      "ts": 1779894631000,
-      "pub": "Thu, 28 May 2026 00:10:31 +0900",
+      "title": "반도체 호조에…한은, 올해 성장률 전망치 2.0→2.6% 상향(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260528048351002",
+      "source": "연합뉴스 경제",
+      "ts": 1779930642000,
+      "pub": "Thu, 28 May 2026 10:10:42 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "중소제조업 생산 감소세 탈출해 1.8% 반등…반도체·자동차 견인",
+      "link": "https://www.yna.co.kr/view/AKR20260528040500030",
+      "source": "연합뉴스 경제",
+      "ts": 1779928737000,
+      "pub": "Thu, 28 May 2026 09:38:57 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "티로보틱스, 반도체 유리기판 이송로봇 일본 특허 등록",
+      "link": "https://www.mt.co.kr/stock/2026/05/28/2026052809274228966",
+      "source": "머니투데이",
+      "ts": 1779928193000,
+      "pub": "Thu, 28 May 2026 09:29:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피 장중 소폭 반등...이차전지·완성차는 강세, 반도체는 혼조 [마켓라이브]",
+      "link": "https://www.hankyung.com/article/202605283072i",
+      "source": "한국경제",
+      "ts": 1779927951000,
+      "pub": "Thu, 28 May 2026 09:25:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자, 장초반 1%대 하락…SK하이닉스는 2%대↓",
+      "link": "https://www.yna.co.kr/view/AKR20260528035400008",
+      "source": "연합뉴스 경제",
+      "ts": 1779927363000,
+      "pub": "Thu, 28 May 2026 09:16:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "메모리 빅3, 시총 1조달러 슈퍼랠리",
+      "link": "https://www.hankyung.com/article/2026052725841",
+      "source": "한국경제",
+      "ts": 1779926967000,
+      "pub": "Thu, 28 May 2026 09:09:27 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "신한자산운용 AI반도체톱2플러스 순자산 3조5천억원 돌파",
+      "link": "https://www.yna.co.kr/view/AKR20260528027800008",
+      "source": "연합뉴스 경제",
+      "ts": 1779925614000,
+      "pub": "Thu, 28 May 2026 08:46:54 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[마켓뷰] 반도체 주도 랠리 vs 급등 부담감…코스피 향방은",
+      "link": "https://www.yna.co.kr/view/AKR20260528020900008",
+      "source": "연합뉴스 경제",
+      "ts": 1779923165000,
+      "pub": "Thu, 28 May 2026 08:06:05 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "'중국 메모리 굴기' CXMT 상장 초읽기…6조5천억원 조달 목표",
@@ -57,46 +97,6 @@
       "source": "연합뉴스 경제",
       "ts": 1779865409000,
       "pub": "Wed, 27 May 2026 16:03:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아 칩 일본 거쳐 중국 밀반출 확인…대만 첫 단속",
-      "link": "https://www.yna.co.kr/view/AKR20260527119300009",
-      "source": "연합뉴스 국제",
-      "ts": 1779864046000,
-      "pub": "Wed, 27 May 2026 15:40:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'시총 1경' TSMC·엔비디아 저녁 회동…\"양사 밀접히 협조 중\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260527085851009",
-      "source": "연합뉴스 국제",
-      "ts": 1779862789000,
-      "pub": "Wed, 27 May 2026 15:19:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "기획처, AI반도체 스타트업계와 투자 간담회…\"적극 재정 지원\"",
-      "link": "https://www.yna.co.kr/view/AKR20260527105300002",
-      "source": "연합뉴스 경제",
-      "ts": 1779859144000,
-      "pub": "Wed, 27 May 2026 14:19:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코트라, 도쿄서 '한일 비즈니스 플라자'…AI·반도체 협력 도모",
-      "link": "https://www.yna.co.kr/view/AKR20260527083800003",
-      "source": "연합뉴스 경제",
-      "ts": 1779858007000,
-      "pub": "Wed, 27 May 2026 14:00:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미래에셋 \"삼성전자 55만원, SK하이닉스 380만원…목표가↑\"",
-      "link": "https://www.yna.co.kr/view/AKR20260527081100008",
-      "source": "연합뉴스 경제",
-      "ts": 1779849316000,
-      "pub": "Wed, 27 May 2026 11:35:16 +0900",
       "sentiment": "neutral"
     }
   ]

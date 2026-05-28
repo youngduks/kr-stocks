@@ -1,14 +1,78 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-28T14:27:30.059Z",
-  "count": 24,
+  "updated_at": "2026-05-28T17:55:14.997Z",
+  "count": 29,
   "items": [
+    {
+      "title": "이스라엘 성폭력 의혹 다룬 유엔보고서 앞두고 이스라엘 격분",
+      "link": "https://www.yna.co.kr/view/AKR20260529001600072",
+      "source": "연합뉴스 국제",
+      "ts": 1779983934000,
+      "pub": "Fri, 29 May 2026 00:58:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 정부, 이번엔 트럼프 장남이 지분가진 드론 회사 투자하나?",
+      "link": "https://www.hankyung.com/article/202605295456i",
+      "source": "한국경제",
+      "ts": 1779982349000,
+      "pub": "Fri, 29 May 2026 00:32:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "네타냐후 \"이스라엘군에 가자지구 70% 장악 지시했다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260529000800079",
+      "source": "연합뉴스 국제",
+      "ts": 1779982295000,
+      "pub": "Fri, 29 May 2026 00:31:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"美·이란, 60일 휴전연장 MOU 합의…트럼프 승인 남아\"",
+      "link": "https://www.mt.co.kr/world/2026/05/29/2026052900164455421",
+      "source": "머니투데이",
+      "ts": 1779981657000,
+      "pub": "Fri, 29 May 2026 00:20:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 얼굴넣은 250불 지폐 추진…법적 장벽에 현실화는 의문",
+      "link": "https://www.yna.co.kr/view/AKR20260528191400071",
+      "source": "연합뉴스 국제",
+      "ts": 1779980773000,
+      "pub": "Fri, 29 May 2026 00:06:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美매체 \"종전 MOU 협상 마무리됐으나 트럼프 최종승인 남아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260528191300071",
+      "source": "연합뉴스 국제",
+      "ts": 1779980359000,
+      "pub": "Thu, 28 May 2026 23:59:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美·이란 휴전 연장 합의하나…美매체 \"트럼프 승인만 남아\"",
+      "link": "https://www.hankyung.com/article/202605285439i",
+      "source": "한국경제",
+      "ts": 1779980090000,
+      "pub": "Thu, 28 May 2026 23:54:50 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "뉴욕증시, 美-이란 교전·PCE·GDP 소화하며 하락 출발",
       "link": "https://www.yna.co.kr/view/AKR20260528189600009",
       "source": "연합뉴스 국제",
       "ts": 1779977001000,
       "pub": "Thu, 28 May 2026 23:03:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중동發 물가 고공행진…美 4월 PCE 3.8% 상승",
+      "link": "https://www.hankyung.com/article/2026052854221",
+      "source": "한국경제",
+      "ts": 1779975993000,
+      "pub": "Thu, 28 May 2026 22:46:33 +0900",
       "sentiment": "neutral"
     },
     {
@@ -169,30 +233,6 @@
       "source": "연합뉴스 경제",
       "ts": 1779948832000,
       "pub": "Thu, 28 May 2026 15:13:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, '트럼프 충성' 베네수엘라 임시대통령 마약수사 중단",
-      "link": "https://www.yna.co.kr/view/AKR20260528071900009",
-      "source": "연합뉴스 국제",
-      "ts": 1779934850000,
-      "pub": "Thu, 28 May 2026 11:20:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "CBS '트럼프 눈치보기' 폭로한 간판 프로그램 기자, 재계약 무산",
-      "link": "https://www.yna.co.kr/view/AKR20260528075000075",
-      "source": "연합뉴스 국제",
-      "ts": 1779934659000,
-      "pub": "Thu, 28 May 2026 11:17:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, 저가형 드론 기업에 자금 지원 추진…트럼프 장남 업체 포함",
-      "link": "https://www.yna.co.kr/view/AKR20260528066000009",
-      "source": "연합뉴스 국제",
-      "ts": 1779933373000,
-      "pub": "Thu, 28 May 2026 10:56:13 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,38 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-29T12:39:38.836Z",
-  "count": 9,
+  "updated_at": "2026-05-29T16:34:07.454Z",
+  "count": 5,
   "items": [
+    {
+      "title": "\"하이닉스보다 더 올랐다\"…올 들어 700% 넘게 급등한 회사 [종목+]",
+      "link": "https://www.hankyung.com/article/2026052969706",
+      "source": "한국경제",
+      "ts": 1780059601000,
+      "pub": "Fri, 29 May 2026 22:00:01 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "보스반도체, 인텔·삼성 파운드리 출신 홍하오 전략고문 선임",
       "link": "https://www.mt.co.kr/future/2026/05/29/2026052916335925453",
       "source": "머니투데이",
       "ts": 1780052520000,
       "pub": "Fri, 29 May 2026 20:02:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼성 반도체 이·퇴직률 1%대\"",
-      "link": "https://www.hankyung.com/article/2026052974311",
-      "source": "한국경제",
-      "ts": 1780046560000,
-      "pub": "Fri, 29 May 2026 18:22:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'반도체 위기'땐 기존 계약 파기…EU, 생산명령권 도입",
-      "link": "https://www.hankyung.com/article/2026052974141",
-      "source": "한국경제",
-      "ts": 1780046362000,
-      "pub": "Fri, 29 May 2026 18:19:22 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"반도체주 사기엔 늦었나\" 불기둥 구경만?...\"아직도 저평가\" 초우량주 보니[오미주]",
-      "link": "https://www.mt.co.kr/world/2026/05/29/2026052917361055759",
-      "source": "머니투데이",
-      "ts": 1780046043000,
-      "pub": "Fri, 29 May 2026 18:14:03 +0900",
       "sentiment": "neutral"
     },
     {
@@ -58,22 +42,6 @@
       "ts": 1780020002000,
       "pub": "Fri, 29 May 2026 11:00:02 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "유럽판 칩스법, 반도체 공급위기때 기존계약 강제 파기 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260529011300009",
-      "source": "연합뉴스 국제",
-      "ts": 1780005263000,
-      "pub": "Fri, 29 May 2026 06:54:23 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "앤트로픽 몸값, 오픈AI도 제쳐…삼성전자·하이닉스도 투자 참여(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260529005051091",
-      "source": "연합뉴스 국제",
-      "ts": 1779998261000,
-      "pub": "Fri, 29 May 2026 04:57:41 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

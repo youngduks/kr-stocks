@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-28T22:25:31.252Z",
-  "count": 28,
+  "updated_at": "2026-05-29T00:01:08.906Z",
+  "count": 26,
   "items": [
+    {
+      "title": "\"트럼프, 이스라엘 등 동맹에 이란과 종전합의 초안 공유\"",
+      "link": "https://www.yna.co.kr/view/AKR20260529025600009",
+      "source": "연합뉴스 국제",
+      "ts": 1780010594000,
+      "pub": "Fri, 29 May 2026 08:23:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "베선트 장관 \"이란과 MOU, 트럼프에 달려…나쁜 합의 없다\"",
+      "link": "https://www.mt.co.kr/world/2026/05/29/2026052906585741950",
+      "source": "머니투데이",
+      "ts": 1780010419000,
+      "pub": "Fri, 29 May 2026 08:20:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하나증권 \"연준, 금리 인하 타이밍 놓친 듯…연내 동결 전망\"",
+      "link": "https://www.yna.co.kr/view/AKR20260529022900008",
+      "source": "연합뉴스 경제",
+      "ts": 1780009941000,
+      "pub": "Fri, 29 May 2026 08:12:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[외신 에스프레소] 중국산 폭격에 무너지는 유럽, '관세 폭탄' 빼들 수밖에 없는 이유",
+      "link": "https://www.hankyung.com/article/202605295628i",
+      "source": "한국경제",
+      "ts": 1780009192000,
+      "pub": "Fri, 29 May 2026 07:59:52 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"美정부, 현재까지 30조원 관세환급…총 예상규모의 12%\"",
       "link": "https://www.yna.co.kr/view/AKR20260529009700071",
@@ -52,14 +84,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"美·이란, 60일 휴전연장 MOU 합의…트럼프 승인 남아\"",
-      "link": "https://www.mt.co.kr/world/2026/05/29/2026052900164455421",
-      "source": "머니투데이",
-      "ts": 1779981657000,
-      "pub": "Fri, 29 May 2026 00:20:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 얼굴넣은 250불 지폐 추진…법적 장벽에 현실화는 의문",
       "link": "https://www.yna.co.kr/view/AKR20260528191400071",
       "source": "연합뉴스 국제",
@@ -92,30 +116,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "중동發 물가 고공행진…美 4월 PCE 3.8% 상승",
-      "link": "https://www.hankyung.com/article/2026052854221",
-      "source": "한국경제",
-      "ts": 1779975993000,
-      "pub": "Thu, 28 May 2026 22:46:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 행정부, 올 여름 쿠바 붕괴 가능성 관측…\"군사 회의 진행\"",
-      "link": "https://www.mt.co.kr/world/2026/05/28/2026052821335720849",
-      "source": "머니투데이",
-      "ts": 1779975848000,
-      "pub": "Thu, 28 May 2026 22:44:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "4월 미국 PCE 2년 11개월만에 최고치…이란 전쟁·고유가 여파",
-      "link": "https://www.mt.co.kr/world/2026/05/28/2026052822221485815",
-      "source": "머니투데이",
-      "ts": 1779975793000,
-      "pub": "Thu, 28 May 2026 22:43:13 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "美 '트럼프계좌' 7월4일 출시…임기중 출생아 1인당 150만원 지원",
       "link": "https://www.yna.co.kr/view/AKR20260528188200071",
       "source": "연합뉴스 국제",
@@ -132,14 +132,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "美 4월 PCE 연 3.8%↑…약 3년만에 최고",
-      "link": "https://www.hankyung.com/article/202605285391i",
-      "source": "한국경제",
-      "ts": 1779972595000,
-      "pub": "Thu, 28 May 2026 21:49:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "이스라엘군, 레바논 수도 베이루트 공습 3주 만에 재개",
       "link": "https://www.yna.co.kr/view/AKR20260528186500079",
       "source": "연합뉴스 국제",
@@ -153,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779972143000,
       "pub": "Thu, 28 May 2026 21:42:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 美 4월 PCE물가 전년대비 3.8%↑…2년 11개월만에 최고",
-      "link": "https://www.hankyung.com/article/2026052853867",
-      "source": "한국경제",
-      "ts": 1779971649000,
-      "pub": "Thu, 28 May 2026 21:34:09 +0900",
       "sentiment": "neutral"
     },
     {

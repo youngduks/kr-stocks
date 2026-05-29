@@ -1,8 +1,40 @@
 {
   "category": "samsung",
-  "updated_at": "2026-05-28T22:25:31.253Z",
-  "count": 5,
+  "updated_at": "2026-05-29T00:01:08.907Z",
+  "count": 8,
   "items": [
+    {
+      "title": "LG유플, 실제 통신망에서 6G 핵심 기술 검증한다…삼성전자와 맞손",
+      "link": "https://www.mt.co.kr/tech/2026/05/29/2026052908303538946",
+      "source": "머니투데이",
+      "ts": 1780012080000,
+      "pub": "Fri, 29 May 2026 08:48:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 차세대 AI칩 주도권 굳히기...세계 첫 HBM4E 12단 샘플 공급",
+      "link": "https://www.mt.co.kr/industry/2026/05/29/2026052908073976907",
+      "source": "머니투데이",
+      "ts": 1780011579000,
+      "pub": "Fri, 29 May 2026 08:39:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]삼성전자, 세계 최초 HBM4E 12단 샘플 출하",
+      "link": "https://www.mt.co.kr/industry/2026/05/29/2026052908023846078",
+      "source": "머니투데이",
+      "ts": 1780009414000,
+      "pub": "Fri, 29 May 2026 08:03:34 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "반도체 좋다더니 소부장은 -11%…'삼전닉스 2배'가 밸류체인 흔든다",
+      "link": "https://www.hankyung.com/article/202605284800i",
+      "source": "한국경제",
+      "ts": 1780009210000,
+      "pub": "Fri, 29 May 2026 08:00:10 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"20대 삼전·하닉 신혼부부, 16억 집 사러 왔어요\" 알고보니…",
       "link": "https://www.hankyung.com/article/2026052854007",
@@ -17,14 +49,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779998261000,
       "pub": "Fri, 29 May 2026 04:57:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"놀고먹다 공고 나와서 '성과급 6억'\"…삼전 직원 자랑 글 '시끌'",
-      "link": "https://www.hankyung.com/article/2026052853757",
-      "source": "한국경제",
-      "ts": 1779971536000,
-      "pub": "Thu, 28 May 2026 21:32:16 +0900",
       "sentiment": "neutral"
     },
     {

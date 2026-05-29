@@ -1,8 +1,48 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-28T22:25:31.254Z",
-  "count": 10,
+  "updated_at": "2026-05-29T00:01:08.908Z",
+  "count": 12,
   "items": [
+    {
+      "title": "삼성전자, 차세대 AI칩 주도권 굳히기...세계 첫 HBM4E 12단 샘플 공급",
+      "link": "https://www.mt.co.kr/industry/2026/05/29/2026052908073976907",
+      "source": "머니투데이",
+      "ts": 1780011579000,
+      "pub": "Fri, 29 May 2026 08:39:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "KB證, SK하이닉스 목표가 380만원 제시…\"이제 마라톤 5km 지점\"",
+      "link": "https://www.yna.co.kr/view/AKR20260529027000008",
+      "source": "연합뉴스 경제",
+      "ts": 1780011081000,
+      "pub": "Fri, 29 May 2026 08:31:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]삼성전자, 세계 최초 HBM4E 12단 샘플 출하",
+      "link": "https://www.mt.co.kr/industry/2026/05/29/2026052908023846078",
+      "source": "머니투데이",
+      "ts": 1780009414000,
+      "pub": "Fri, 29 May 2026 08:03:34 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "반도체 좋다더니 소부장은 -11%…'삼전닉스 2배'가 밸류체인 흔든다",
+      "link": "https://www.hankyung.com/article/202605284800i",
+      "source": "한국경제",
+      "ts": 1780009210000,
+      "pub": "Fri, 29 May 2026 08:00:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"SK하이닉스, 여전히 저평가…내년 영업익 454조원 전망\"-KB",
+      "link": "https://www.hankyung.com/article/2026052956006",
+      "source": "한국경제",
+      "ts": 1780007711000,
+      "pub": "Fri, 29 May 2026 07:35:11 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "유럽판 칩스법, 반도체 공급위기때 기존계약 강제 파기 추진",
       "link": "https://www.yna.co.kr/view/AKR20260529011300009",
@@ -25,14 +65,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779998261000,
       "pub": "Fri, 29 May 2026 04:57:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"반도체 벨트 지켜야\"…이준석, 유의동 공개 지지 호소",
-      "link": "https://www.hankyung.com/article/2026052854327",
-      "source": "한국경제",
-      "ts": 1779978298000,
-      "pub": "Thu, 28 May 2026 23:24:58 +0900",
       "sentiment": "neutral"
     },
     {
@@ -66,22 +98,6 @@
       "ts": 1779950711000,
       "pub": "Thu, 28 May 2026 15:45:11 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "한은 \"올해 성장률 2.0→2.6% 상향…반도체 낙관 전망시 3%대\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260528048352002",
-      "source": "연합뉴스 경제",
-      "ts": 1779942651000,
-      "pub": "Thu, 28 May 2026 13:30:51 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "한은 총재 \"반도체 호황에 세수 증가…국민 전체에 낙수효과\"",
-      "link": "https://www.yna.co.kr/view/AKR20260528092500002",
-      "source": "연합뉴스 경제",
-      "ts": 1779937481000,
-      "pub": "Thu, 28 May 2026 12:04:41 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

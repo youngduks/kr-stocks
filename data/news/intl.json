@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-29T19:26:03.541Z",
-  "count": 32,
+  "updated_at": "2026-05-29T21:31:04.615Z",
+  "count": 34,
   "items": [
+    {
+      "title": "유엔, 러·이스라엘 '분쟁 성폭력' 첫 블랙리스트 추가",
+      "link": "https://www.yna.co.kr/view/AKR20260530005800072",
+      "source": "연합뉴스 국제",
+      "ts": 1780084837000,
+      "pub": "Sat, 30 May 2026 05:00:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "종전 MOU 관련 백악관 회의 종료…NYT \"트럼프, 아직 결정안해\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260530005751071",
+      "source": "연합뉴스 국제",
+      "ts": 1780084024000,
+      "pub": "Sat, 30 May 2026 04:47:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"美-이란 MOU 승인여부 회의 종료\"…트럼프, 곧 결정 발표할 듯",
+      "link": "https://www.yna.co.kr/view/AKR20260530005700071",
+      "source": "연합뉴스 국제",
+      "ts": 1780082995000,
+      "pub": "Sat, 30 May 2026 04:29:55 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美법원, '트럼프-케네디 센터' 명칭 제동…\"트럼프 이름 빼야\"",
       "link": "https://www.yna.co.kr/view/AKR20260530005100071",
@@ -250,14 +274,6 @@
       "ts": 1780023469000,
       "pub": "Fri, 29 May 2026 11:57:49 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 장남 배경 드론업체 주가, 美 정부 지원 기대감에 57%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260529061400009",
-      "source": "연합뉴스 국제",
-      "ts": 1780018841000,
-      "pub": "Fri, 29 May 2026 10:40:41 +0900",
-      "sentiment": "positive"
     }
   ]
 }

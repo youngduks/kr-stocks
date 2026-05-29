@@ -1,54 +1,38 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-29T09:32:05.241Z",
-  "count": 11,
+  "updated_at": "2026-05-29T12:39:38.836Z",
+  "count": 9,
   "items": [
     {
-      "title": "\"반도체주 사기엔 늦었나\" 불기둥 구경만?...\"아직도 저평가\" 초우량주는[오미주]",
+      "title": "보스반도체, 인텔·삼성 파운드리 출신 홍하오 전략고문 선임",
+      "link": "https://www.mt.co.kr/future/2026/05/29/2026052916335925453",
+      "source": "머니투데이",
+      "ts": 1780052520000,
+      "pub": "Fri, 29 May 2026 20:02:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼성 반도체 이·퇴직률 1%대\"",
+      "link": "https://www.hankyung.com/article/2026052974311",
+      "source": "한국경제",
+      "ts": 1780046560000,
+      "pub": "Fri, 29 May 2026 18:22:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'반도체 위기'땐 기존 계약 파기…EU, 생산명령권 도입",
+      "link": "https://www.hankyung.com/article/2026052974141",
+      "source": "한국경제",
+      "ts": 1780046362000,
+      "pub": "Fri, 29 May 2026 18:19:22 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"반도체주 사기엔 늦었나\" 불기둥 구경만?...\"아직도 저평가\" 초우량주 보니[오미주]",
       "link": "https://www.mt.co.kr/world/2026/05/29/2026052917361055759",
       "source": "머니투데이",
       "ts": 1780046043000,
       "pub": "Fri, 29 May 2026 18:14:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 덕에 수출·성장률 '뜀박질'",
-      "link": "https://www.hankyung.com/article/2026052974261",
-      "source": "한국경제",
-      "ts": 1780045657000,
-      "pub": "Fri, 29 May 2026 18:07:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'기술의 삼성'…석달 만에 차세대 HBM 공급",
-      "link": "https://www.hankyung.com/article/2026052974201",
-      "source": "한국경제",
-      "ts": 1780045449000,
-      "pub": "Fri, 29 May 2026 18:04:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스 시총, 삼전 추월 가능성은 [한경 프리미엄9 TODAY]",
-      "link": "https://www.hankyung.com/article/2026052974441",
-      "source": "한국경제",
-      "ts": 1780045276000,
-      "pub": "Fri, 29 May 2026 18:01:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 덕에 '초유의 호황'…\"보험까지 깼다\" 서민은 '한숨'",
-      "link": "https://www.hankyung.com/article/2026052974671",
-      "source": "한국경제",
-      "ts": 1780044469000,
-      "pub": "Fri, 29 May 2026 17:47:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 소부장 투매…우울한 코스닥",
-      "link": "https://www.hankyung.com/article/2026052974571",
-      "source": "한국경제",
-      "ts": 1780044067000,
-      "pub": "Fri, 29 May 2026 17:41:07 +0900",
       "sentiment": "neutral"
     },
     {

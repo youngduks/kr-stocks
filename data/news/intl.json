@@ -1,22 +1,38 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-29T09:32:05.239Z",
+  "updated_at": "2026-05-29T12:39:38.834Z",
   "count": 18,
   "items": [
+    {
+      "title": "폴란드 \"젤렌스키 훈장 박탈\"…과거사 갈등 재점화",
+      "link": "https://www.yna.co.kr/view/AKR20260529169700082",
+      "source": "연합뉴스 국제",
+      "ts": 1780057580000,
+      "pub": "Fri, 29 May 2026 21:26:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "장수 집착하는 73세 푸틴…\"수명 연장·불사 연구에 40조 투입\"",
+      "link": "https://www.hankyung.com/article/2026052976217",
+      "source": "한국경제",
+      "ts": 1780052584000,
+      "pub": "Fri, 29 May 2026 20:03:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 때리던 러 드론, 방향 틀어 나토 영토 덮쳤다",
+      "link": "https://www.hankyung.com/article/2026052975417",
+      "source": "한국경제",
+      "ts": 1780047030000,
+      "pub": "Fri, 29 May 2026 18:30:30 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 이란 재건 '450조원 펀드' 추진…중동국에 지원 요청",
       "link": "https://www.hankyung.com/article/2026052974081",
       "source": "한국경제",
       "ts": 1780045918000,
       "pub": "Fri, 29 May 2026 18:11:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"60일 휴전·호르무즈 개방\"…트럼프 사인만 남았다",
-      "link": "https://www.hankyung.com/article/2026052974681",
-      "source": "한국경제",
-      "ts": 1780045022000,
-      "pub": "Fri, 29 May 2026 17:57:02 +0900",
       "sentiment": "neutral"
     },
     {
@@ -42,14 +58,6 @@
       "ts": 1780040943000,
       "pub": "Fri, 29 May 2026 16:49:03 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"종전 MOU, 트럼프 승인만 남아\"…日·대만, 사상 최고치 [Asia마감]",
-      "link": "https://www.mt.co.kr/world/2026/05/29/2026052916224328205",
-      "source": "머니투데이",
-      "ts": 1780039671000,
-      "pub": "Fri, 29 May 2026 16:27:51 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "장수 집착하는 73세 푸틴…연구비 40조원 투입",
@@ -137,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779998611000,
       "pub": "Fri, 29 May 2026 05:03:31 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "EU, '요르단강 서안 폭력' 이스라엘 정착운동가 제재",
-      "link": "https://www.yna.co.kr/view/AKR20260529003100082",
-      "source": "연합뉴스 국제",
-      "ts": 1779990836000,
-      "pub": "Fri, 29 May 2026 02:53:56 +0900",
       "sentiment": "negative"
     }
   ]

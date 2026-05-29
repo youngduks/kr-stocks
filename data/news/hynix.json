@@ -1,14 +1,102 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-29T00:01:08.908Z",
-  "count": 12,
+  "updated_at": "2026-05-29T05:03:51.908Z",
+  "count": 15,
   "items": [
     {
-      "title": "삼성전자, 차세대 AI칩 주도권 굳히기...세계 첫 HBM4E 12단 샘플 공급",
-      "link": "https://www.mt.co.kr/industry/2026/05/29/2026052908073976907",
+      "title": "에프앤가이드 지수 추종 ETF, 순자산 77조원 돌파…\"반도체 강세\"",
+      "link": "https://www.mt.co.kr/stock/2026/05/29/2026052911303543210",
       "source": "머니투데이",
-      "ts": 1780011579000,
-      "pub": "Fri, 29 May 2026 08:39:39 +0900",
+      "ts": 1780030177000,
+      "pub": "Fri, 29 May 2026 13:49:37 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "김정관 산업장관 \"반도체 이윤 미래 경쟁력 재투자에 우선 활용돼야\"",
+      "link": "https://www.mt.co.kr/economy/2026/05/29/2026052913352398533",
+      "source": "머니투데이",
+      "ts": 1780029729000,
+      "pub": "Fri, 29 May 2026 13:42:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'자율주행 반도체' 까지 만든 BYD…\"R&D에 19조원 투자\"",
+      "link": "https://www.mt.co.kr/world/2026/05/29/2026052912281995448",
+      "source": "머니투데이",
+      "ts": 1780028713000,
+      "pub": "Fri, 29 May 2026 13:25:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[더벨]한울반도체, 본업 회복·계열사 성장 기반 경영계획 발표",
+      "link": "https://www.mt.co.kr/stock/2026/05/29/2026052913149627721",
+      "source": "머니투데이",
+      "ts": 1780028156000,
+      "pub": "Fri, 29 May 2026 13:15:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[오늘 이 종목] AI 반도체부터 MLCC· 우주항공까지… 강재헌 부장의 '시선집중' 핵심 전략",
+      "link": "https://www.mt.co.kr/stock/2026/05/29/2026052812397043823",
+      "source": "머니투데이",
+      "ts": 1780025152000,
+      "pub": "Fri, 29 May 2026 12:25:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "디든로보틱스, 대만 '컴퓨텍스' 엔비디아 부스서 피지컬AI 기술 선보인다",
+      "link": "https://www.mt.co.kr/future/2026/05/29/2026052909093630664",
+      "source": "머니투데이",
+      "ts": 1780023600000,
+      "pub": "Fri, 29 May 2026 12:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"역시 삼전닉스\" 기대했는데…반도체레버리지 투자자 울상, 왜?",
+      "link": "https://www.mt.co.kr/stock/2026/05/29/2026052911195721034",
+      "source": "머니투데이",
+      "ts": 1780021466000,
+      "pub": "Fri, 29 May 2026 11:24:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"다시 앞서간다\"...초고수가 선택한 1위 반도체 기업은?",
+      "link": "https://www.hankyung.com/article/202605296223i",
+      "source": "한국경제",
+      "ts": 1780020871000,
+      "pub": "Fri, 29 May 2026 11:14:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "검찰, '반도체 소재 가격 담합 의혹' 소부장 기업 3곳 압수수색",
+      "link": "https://www.mt.co.kr/society/2026/05/29/2026052910512639947",
+      "source": "머니투데이",
+      "ts": 1780020181000,
+      "pub": "Fri, 29 May 2026 11:03:01 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "반도체 호황·증시 호조에…4월 국세 55.2조, 작년보다 6.3조↑",
+      "link": "https://www.yna.co.kr/view/AKR20260529059600002",
+      "source": "연합뉴스 경제",
+      "ts": 1780020002000,
+      "pub": "Fri, 29 May 2026 11:00:02 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "반도체發 성과급·증시 호황에 국세도 훈풍…4월까지 21.9조 더 걷혀",
+      "link": "https://www.mt.co.kr/economy/2026/05/29/2026052908080475771",
+      "source": "머니투데이",
+      "ts": 1780020000000,
+      "pub": "Fri, 29 May 2026 11:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[마켓라이브] 코스피 1.59% 상승 중… 반도체·전자부품 강세, 외국인 매도세 지속 [오전10시 시황]",
+      "link": "https://www.hankyung.com/article/202605296282i",
+      "source": "한국경제",
+      "ts": 1780018691000,
+      "pub": "Fri, 29 May 2026 10:38:11 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,30 +108,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[속보]삼성전자, 세계 최초 HBM4E 12단 샘플 출하",
-      "link": "https://www.mt.co.kr/industry/2026/05/29/2026052908023846078",
-      "source": "머니투데이",
-      "ts": 1780009414000,
-      "pub": "Fri, 29 May 2026 08:03:34 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "반도체 좋다더니 소부장은 -11%…'삼전닉스 2배'가 밸류체인 흔든다",
-      "link": "https://www.hankyung.com/article/202605284800i",
-      "source": "한국경제",
-      "ts": 1780009210000,
-      "pub": "Fri, 29 May 2026 08:00:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"SK하이닉스, 여전히 저평가…내년 영업익 454조원 전망\"-KB",
-      "link": "https://www.hankyung.com/article/2026052956006",
-      "source": "한국경제",
-      "ts": 1780007711000,
-      "pub": "Fri, 29 May 2026 07:35:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "유럽판 칩스법, 반도체 공급위기때 기존계약 강제 파기 추진",
       "link": "https://www.yna.co.kr/view/AKR20260529011300009",
       "source": "연합뉴스 국제",
@@ -52,52 +116,12 @@
       "sentiment": "negative"
     },
     {
-      "title": "\"AI 인프라·반도체주 올라타라\"…특허기술이 선정한 포트폴리오 [인터뷰+]",
-      "link": "https://www.hankyung.com/article/2026052846906",
-      "source": "한국경제",
-      "ts": 1780003801000,
-      "pub": "Fri, 29 May 2026 06:30:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "앤트로픽 몸값, 오픈AI도 제쳐…삼성전자·하이닉스도 투자 참여(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260529005051091",
       "source": "연합뉴스 국제",
       "ts": 1779998261000,
       "pub": "Fri, 29 May 2026 04:57:41 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "국민성장펀드, '국산 AI 반도체' 퓨리오사AI에 8천억 직접투자",
-      "link": "https://www.yna.co.kr/view/AKR20260528176900002",
-      "source": "연합뉴스 경제",
-      "ts": 1779964152000,
-      "pub": "Thu, 28 May 2026 19:29:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "화웨이 '반도체 여왕' 허팅보 \"타우 법칙, 제재 뚫은 고속도로\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260528087551009",
-      "source": "연합뉴스 국제",
-      "ts": 1779957072000,
-      "pub": "Thu, 28 May 2026 17:31:12 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "FT \"닷컴버블 이래 최고 성과 향하는 반도체 종목들\"",
-      "link": "https://www.yna.co.kr/view/AKR20260528142600009",
-      "source": "연합뉴스 국제",
-      "ts": 1779953051000,
-      "pub": "Thu, 28 May 2026 16:24:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼성전자, 2.4% 하락 마감…SK하이닉스는 2% 올라(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260528035451008",
-      "source": "연합뉴스 경제",
-      "ts": 1779950711000,
-      "pub": "Thu, 28 May 2026 15:45:11 +0900",
-      "sentiment": "negative"
     }
   ]
 }

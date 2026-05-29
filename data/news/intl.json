@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-29T00:01:08.906Z",
-  "count": 26,
+  "updated_at": "2026-05-29T05:03:51.906Z",
+  "count": 24,
   "items": [
+    {
+      "title": "日, 우크라이나군 훈련 지원 위해 NATO에 자위대 첫 파견",
+      "link": "https://www.yna.co.kr/view/AKR20260529093500073",
+      "source": "연합뉴스 국제",
+      "ts": 1780030677000,
+      "pub": "Fri, 29 May 2026 13:57:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 우크라 \"신형 그리펜 20대 도입\"…스웨덴 \"구형 16대는 기증\"",
+      "link": "https://www.yna.co.kr/view/AKR20260529083300704",
+      "source": "연합뉴스 국제",
+      "ts": 1780023469000,
+      "pub": "Fri, 29 May 2026 11:57:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "버티는 이란에 경제 압박 높이는 美…트럼프 행정부, 연일 추가 제재",
+      "link": "https://www.mt.co.kr/world/2026/05/29/2026052910470137589",
+      "source": "머니투데이",
+      "ts": 1780020623000,
+      "pub": "Fri, 29 May 2026 11:10:23 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "250달러 지폐에 트럼프 얼굴을?...법 뜯어고쳐 우상화하나",
+      "link": "https://www.mt.co.kr/world/2026/05/29/2026052909254637306",
+      "source": "머니투데이",
+      "ts": 1780020277000,
+      "pub": "Fri, 29 May 2026 11:04:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 장남 배경 드론업체 주가, 美 정부 지원 기대감에 57%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260529061400009",
+      "source": "연합뉴스 국제",
+      "ts": 1780018841000,
+      "pub": "Fri, 29 May 2026 10:40:41 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'트럼프 집토끼' 비대졸 백인도 고물가에 이탈…반대 54%",
+      "link": "https://www.yna.co.kr/view/AKR20260529045500009",
+      "source": "연합뉴스 국제",
+      "ts": 1780015974000,
+      "pub": "Fri, 29 May 2026 09:52:54 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"트럼프, 이스라엘 등 동맹에 이란과 종전합의 초안 공유\"",
       "link": "https://www.yna.co.kr/view/AKR20260529025600009",
@@ -12,27 +60,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "베선트 장관 \"이란과 MOU, 트럼프에 달려…나쁜 합의 없다\"",
-      "link": "https://www.mt.co.kr/world/2026/05/29/2026052906585741950",
-      "source": "머니투데이",
-      "ts": 1780010419000,
-      "pub": "Fri, 29 May 2026 08:20:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "하나증권 \"연준, 금리 인하 타이밍 놓친 듯…연내 동결 전망\"",
       "link": "https://www.yna.co.kr/view/AKR20260529022900008",
       "source": "연합뉴스 경제",
       "ts": 1780009941000,
       "pub": "Fri, 29 May 2026 08:12:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[외신 에스프레소] 중국산 폭격에 무너지는 유럽, '관세 폭탄' 빼들 수밖에 없는 이유",
-      "link": "https://www.hankyung.com/article/202605295628i",
-      "source": "한국경제",
-      "ts": 1780009192000,
-      "pub": "Fri, 29 May 2026 07:59:52 +0900",
       "sentiment": "neutral"
     },
     {
@@ -68,14 +100,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 정부, 이번엔 트럼프 장남이 지분가진 드론 회사 투자하나?",
-      "link": "https://www.hankyung.com/article/202605295456i",
-      "source": "한국경제",
-      "ts": 1779982349000,
-      "pub": "Fri, 29 May 2026 00:32:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "네타냐후 \"이스라엘군에 가자지구 70% 장악 지시했다\"",
       "link": "https://www.yna.co.kr/view/AKR20260529000800079",
       "source": "연합뉴스 국제",
@@ -97,14 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779980359000,
       "pub": "Thu, 28 May 2026 23:59:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美·이란 휴전 연장 합의하나…美매체 \"트럼프 승인만 남아\"",
-      "link": "https://www.hankyung.com/article/202605285439i",
-      "source": "한국경제",
-      "ts": 1779980090000,
-      "pub": "Thu, 28 May 2026 23:54:50 +0900",
       "sentiment": "neutral"
     },
     {
@@ -177,38 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1779959811000,
       "pub": "Thu, 28 May 2026 18:16:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "EU, 중국 상대 수입할당제·관세 등 세이프가드 사용 확대 방침",
-      "link": "https://www.yna.co.kr/view/AKR20260528141400009",
-      "source": "연합뉴스 국제",
-      "ts": 1779951304000,
-      "pub": "Thu, 28 May 2026 15:55:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "연준 부의장 \"인플레 위험 여전히 상승쪽 기울어\"",
-      "link": "https://www.yna.co.kr/view/AKR20260528132700009",
-      "source": "연합뉴스 국제",
-      "ts": 1779950620000,
-      "pub": "Thu, 28 May 2026 15:43:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "키르기스스탄, 중동·우크라 두 전쟁에 오른 연료가격 한시 규제",
-      "link": "https://www.yna.co.kr/view/AKR20260528123100009",
-      "source": "연합뉴스 국제",
-      "ts": 1779948846000,
-      "pub": "Thu, 28 May 2026 15:14:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "대구세관, 중동 수출 지역업체에 관세 환급금 지급",
-      "link": "https://www.yna.co.kr/view/AKR20260528130300053",
-      "source": "연합뉴스 경제",
-      "ts": 1779948832000,
-      "pub": "Thu, 28 May 2026 15:13:52 +0900",
       "sentiment": "neutral"
     }
   ]

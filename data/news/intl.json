@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-30T01:56:36.602Z",
-  "count": 33,
+  "updated_at": "2026-05-30T05:42:51.549Z",
+  "count": 30,
   "items": [
+    {
+      "title": "對이란협상 '최종결정' 내린다던 트럼프, 고민 길어지나",
+      "link": "https://www.yna.co.kr/view/AKR20260530027700071",
+      "source": "연합뉴스 국제",
+      "ts": 1780107303000,
+      "pub": "Sat, 30 May 2026 11:15:03 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "미 법원 \"트럼프 케네디 센터 이름에서 '트럼프' 빼라\"",
       "link": "https://www.mt.co.kr/world/2026/05/30/2026053009372083860",
@@ -65,14 +73,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780092398000,
       "pub": "Sat, 30 May 2026 07:06:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 종전 최종 결정 못 하고 백악관 회의 종료\"",
-      "link": "https://www.mt.co.kr/world/2026/05/30/2026053006510452451",
-      "source": "머니투데이",
-      "ts": 1780091767000,
-      "pub": "Sat, 30 May 2026 06:56:07 +0900",
       "sentiment": "neutral"
     },
     {
@@ -241,30 +241,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780040943000,
       "pub": "Fri, 29 May 2026 16:49:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "장수 집착하는 73세 푸틴…연구비 40조원 투입",
-      "link": "https://www.yna.co.kr/view/AKR20260529126800009",
-      "source": "연합뉴스 국제",
-      "ts": 1780037994000,
-      "pub": "Fri, 29 May 2026 15:59:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] 젤렌스키 \"스웨덴 그리펜 전투기 36대 확보\"",
-      "link": "https://www.yna.co.kr/view/AKR20260529123900704",
-      "source": "연합뉴스 국제",
-      "ts": 1780037421000,
-      "pub": "Fri, 29 May 2026 15:50:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘군, '전파방해 불가' 광섬유 드론 공격에 골머리",
-      "link": "https://www.yna.co.kr/view/AKR20260529123400009",
-      "source": "연합뉴스 국제",
-      "ts": 1780037140000,
-      "pub": "Fri, 29 May 2026 15:45:40 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-30T05:42:51.549Z",
-  "count": 30,
+  "updated_at": "2026-05-30T08:14:32.569Z",
+  "count": 29,
   "items": [
+    {
+      "title": "트럼프 생일 백악관 UFC에 미군 관중 모집…\"여행비 자부담\"",
+      "link": "https://www.mt.co.kr/world/2026/05/30/2026053016350092372",
+      "source": "머니투데이",
+      "ts": 1780126821000,
+      "pub": "Sat, 30 May 2026 16:40:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"UAE, 이란 수십 차례 공습…美·이스라엘과 공조 정황\"",
+      "link": "https://www.mt.co.kr/world/2026/05/30/2026053016013864813",
+      "source": "머니투데이",
+      "ts": 1780125892000,
+      "pub": "Sat, 30 May 2026 16:24:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "술 대신 콜라 마시는 트럼프…건강검진 결과 봤더니",
+      "link": "https://www.hankyung.com/article/2026053081407",
+      "source": "한국경제",
+      "ts": 1780122489000,
+      "pub": "Sat, 30 May 2026 15:28:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 주치의 \"트럼프 건강 매우 좋지만 체중감량 권고\"",
+      "link": "https://www.yna.co.kr/view/AKR20260530040300009",
+      "source": "연합뉴스 국제",
+      "ts": 1780120526000,
+      "pub": "Sat, 30 May 2026 14:55:26 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "對이란협상 '최종결정' 내린다던 트럼프, 고민 길어지나",
       "link": "https://www.yna.co.kr/view/AKR20260530027700071",
@@ -28,14 +60,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'이란 종전' 최종 결정 못 내린 트럼프…이란 \"기준 없고 변덕스러워\"",
-      "link": "https://www.mt.co.kr/world/2026/05/30/2026053009004712938",
-      "source": "머니투데이",
-      "ts": 1780099512000,
-      "pub": "Sat, 30 May 2026 09:05:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, '이란과 종전' 합의 결론 없이 종료",
       "link": "https://www.hankyung.com/article/2026053078687",
       "source": "한국경제",
@@ -49,14 +73,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780093438000,
       "pub": "Sat, 30 May 2026 07:23:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 백악관 \"트럼프, 자신의 레드라인에 만족하는 합의만 할 것\"",
-      "link": "https://www.hankyung.com/article/2026053078557",
-      "source": "한국경제",
-      "ts": 1780092639000,
-      "pub": "Sat, 30 May 2026 07:10:39 +0900",
       "sentiment": "neutral"
     },
     {
@@ -129,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780077685000,
       "pub": "Sat, 30 May 2026 03:01:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"종전협상 최종 결정 위해 회의\"…호르무즈 개방엔 이견 [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202605307776i",
-      "source": "한국경제",
-      "ts": 1780073333000,
-      "pub": "Sat, 30 May 2026 01:48:53 +0900",
       "sentiment": "neutral"
     },
     {
@@ -225,22 +233,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780042349000,
       "pub": "Fri, 29 May 2026 17:12:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘군, 민항기에 '드론 오인' 사격 정황…조사 착수",
-      "link": "https://www.yna.co.kr/view/AKR20260529139400079",
-      "source": "연합뉴스 국제",
-      "ts": 1780041171000,
-      "pub": "Fri, 29 May 2026 16:52:51 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[영상] 러 드론, 우크라 인접 루마니아 아파트에 충돌…\"2명 부상\"",
-      "link": "https://www.yna.co.kr/view/AKR20260529137300704",
-      "source": "연합뉴스 국제",
-      "ts": 1780040943000,
-      "pub": "Fri, 29 May 2026 16:49:03 +0900",
       "sentiment": "neutral"
     }
   ]

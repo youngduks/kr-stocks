@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-30T08:14:32.569Z",
-  "count": 29,
+  "updated_at": "2026-05-30T10:43:14.486Z",
+  "count": 27,
   "items": [
+    {
+      "title": "대중 강경발언 자제한 헤그세스…미중관계 '안정기조' 반영",
+      "link": "https://www.yna.co.kr/view/AKR20260530050200009",
+      "source": "연합뉴스 국제",
+      "ts": 1780130669000,
+      "pub": "Sat, 30 May 2026 17:44:29 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 생일 백악관 UFC에 미군 관중 모집…\"여행비 자부담\"",
       "link": "https://www.mt.co.kr/world/2026/05/30/2026053016350092372",
@@ -44,27 +52,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "미 법원 \"트럼프 케네디 센터 이름에서 '트럼프' 빼라\"",
-      "link": "https://www.mt.co.kr/world/2026/05/30/2026053009372083860",
-      "source": "머니투데이",
-      "ts": 1780104835000,
-      "pub": "Sat, 30 May 2026 10:33:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "10년만에 캐나다 방문한 中외교수장 \"대중국 수출 100% 늘 수도\"",
       "link": "https://www.yna.co.kr/view/AKR20260530020800009",
       "source": "연합뉴스 국제",
       "ts": 1780099823000,
       "pub": "Sat, 30 May 2026 09:10:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '이란과 종전' 합의 결론 없이 종료",
-      "link": "https://www.hankyung.com/article/2026053078687",
-      "source": "한국경제",
-      "ts": 1780094927000,
-      "pub": "Sat, 30 May 2026 07:48:47 +0900",
       "sentiment": "neutral"
     },
     {
@@ -225,14 +217,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780057580000,
       "pub": "Fri, 29 May 2026 21:26:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] 러 드론, 이젠 우크라 인접 루마니아 아파트에 '쾅'",
-      "link": "https://www.yna.co.kr/view/AKR20260529145000704",
-      "source": "연합뉴스 국제",
-      "ts": 1780042349000,
-      "pub": "Fri, 29 May 2026 17:12:29 +0900",
       "sentiment": "neutral"
     }
   ]

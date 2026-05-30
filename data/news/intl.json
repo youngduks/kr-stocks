@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-29T23:02:00.786Z",
-  "count": 38,
+  "updated_at": "2026-05-30T01:56:36.602Z",
+  "count": 33,
   "items": [
+    {
+      "title": "미 법원 \"트럼프 케네디 센터 이름에서 '트럼프' 빼라\"",
+      "link": "https://www.mt.co.kr/world/2026/05/30/2026053009372083860",
+      "source": "머니투데이",
+      "ts": 1780104835000,
+      "pub": "Sat, 30 May 2026 10:33:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "10년만에 캐나다 방문한 中외교수장 \"대중국 수출 100% 늘 수도\"",
+      "link": "https://www.yna.co.kr/view/AKR20260530020800009",
+      "source": "연합뉴스 국제",
+      "ts": 1780099823000,
+      "pub": "Sat, 30 May 2026 09:10:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'이란 종전' 최종 결정 못 내린 트럼프…이란 \"기준 없고 변덕스러워\"",
+      "link": "https://www.mt.co.kr/world/2026/05/30/2026053009004712938",
+      "source": "머니투데이",
+      "ts": 1780099512000,
+      "pub": "Sat, 30 May 2026 09:05:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '이란과 종전' 합의 결론 없이 종료",
+      "link": "https://www.hankyung.com/article/2026053078687",
+      "source": "한국경제",
+      "ts": 1780094927000,
+      "pub": "Sat, 30 May 2026 07:48:47 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "백악관 \"트럼프, 자신의 레드라인에 만족하는 합의만 할 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260530012300071",
@@ -124,27 +156,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"이란 종전협상 최종결정 위해 지금부터 백악관서 회의\"",
-      "link": "https://www.mt.co.kr/world/2026/05/30/2026053000260137922",
-      "source": "머니투데이",
-      "ts": 1780068498000,
-      "pub": "Sat, 30 May 2026 00:28:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"종전협상 최종결정 위해 백악관서 회의\"…MOU 임박한듯",
       "link": "https://www.yna.co.kr/view/AKR20260530000400071",
       "source": "연합뉴스 국제",
       "ts": 1780067302000,
       "pub": "Sat, 30 May 2026 00:08:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"매몰된 HEU, 美가 발굴해 파괴할것…이란과 공조\"",
-      "link": "https://www.hankyung.com/article/2026053077447",
-      "source": "한국경제",
-      "ts": 1780067162000,
-      "pub": "Sat, 30 May 2026 00:06:02 +0900",
       "sentiment": "neutral"
     },
     {
@@ -156,35 +172,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "현대차 '멕시코 우회로' 막히나…\"미국산 50% 넘어야 무관세\"",
-      "link": "https://www.mt.co.kr/world/2026/05/30/2026052923550023114",
-      "source": "머니투데이",
-      "ts": 1780066822000,
-      "pub": "Sat, 30 May 2026 00:00:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, TV토론 참사 회고한 바이든 부인에 \"무대로 달려갔어야\"",
       "link": "https://www.yna.co.kr/view/AKR20260529177000071",
       "source": "연합뉴스 국제",
       "ts": 1780066744000,
       "pub": "Fri, 29 May 2026 23:59:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란, 핵무기 금지 동의하고 호르무즈 즉시 개방돼야\"",
-      "link": "https://www.hankyung.com/article/2026052977397",
-      "source": "한국경제",
-      "ts": 1780066685000,
-      "pub": "Fri, 29 May 2026 23:58:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"종전협상 최종결정 위해 백악관 상황실서 회의\"",
-      "link": "https://www.hankyung.com/article/2026052977387",
-      "source": "한국경제",
-      "ts": 1780066639000,
-      "pub": "Fri, 29 May 2026 23:57:19 +0900",
       "sentiment": "neutral"
     },
     {
@@ -217,14 +209,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780061888000,
       "pub": "Fri, 29 May 2026 22:38:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"이스라엘 사라져야 평화\"…이란 혁명수비대, 트럼프 '도박꾼' 맹비난",
-      "link": "https://www.hankyung.com/article/2026052976647",
-      "source": "한국경제",
-      "ts": 1780058127000,
-      "pub": "Fri, 29 May 2026 21:35:27 +0900",
       "sentiment": "neutral"
     },
     {
@@ -281,30 +265,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780037140000,
       "pub": "Fri, 29 May 2026 15:45:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러시아, 우크라전 올해 84조원 초과지출 전망…예산 '쥐어짜기'",
-      "link": "https://www.yna.co.kr/view/AKR20260529115800009",
-      "source": "연합뉴스 국제",
-      "ts": 1780035407000,
-      "pub": "Fri, 29 May 2026 15:16:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "日, 우크라이나군 훈련 지원 위해 NATO에 자위대 첫 파견",
-      "link": "https://www.yna.co.kr/view/AKR20260529093500073",
-      "source": "연합뉴스 국제",
-      "ts": 1780030677000,
-      "pub": "Fri, 29 May 2026 13:57:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 우크라 \"신형 그리펜 20대 도입\"…스웨덴 \"구형 16대는 기증\"",
-      "link": "https://www.yna.co.kr/view/AKR20260529083300704",
-      "source": "연합뉴스 국제",
-      "ts": 1780023469000,
-      "pub": "Fri, 29 May 2026 11:57:49 +0900",
       "sentiment": "neutral"
     }
   ]

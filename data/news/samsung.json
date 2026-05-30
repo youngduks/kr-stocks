@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-05-30T20:01:43.051Z",
+  "updated_at": "2026-05-30T21:49:17.432Z",
   "count": 5,
   "items": [
+    {
+      "title": "\"동탄도 20억\" 삼전닉스 성과급에 경기 남부 '들썩'...집값 견인",
+      "link": "https://www.mt.co.kr/estate/2026/05/31/2026052915550556800",
+      "source": "머니투데이",
+      "ts": 1780175100000,
+      "pub": "Sun, 31 May 2026 06:05:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[영상] 삼성전자 역대급 성과급에도 웃지 못하는 이유",
       "link": "https://www.yna.co.kr/view/AKR20260529151400797",
@@ -33,14 +41,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780037667000,
       "pub": "Fri, 29 May 2026 15:54:27 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'삼전닉스 쏠림·레버리지' 우려? 상승장임에도 공포지수 급등",
-      "link": "https://www.yna.co.kr/view/AKR20260529075800008",
-      "source": "연합뉴스 경제",
-      "ts": 1780021366000,
-      "pub": "Fri, 29 May 2026 11:22:46 +0900",
       "sentiment": "negative"
     }
   ]

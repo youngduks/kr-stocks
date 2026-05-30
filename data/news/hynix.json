@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-30T20:01:43.053Z",
-  "count": 4,
+  "updated_at": "2026-05-30T21:49:17.433Z",
+  "count": 6,
   "items": [
+    {
+      "title": "SK하이닉스도 임협 시즌…\"우리도 주택대출 5억\" 요구 부상",
+      "link": "https://www.yna.co.kr/view/AKR20260529157800003",
+      "source": "연합뉴스 경제",
+      "ts": 1780174500000,
+      "pub": "Sun, 31 May 2026 05:55:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "韓경제 이끄는 반도체…생산 13% 늘 때 임금 일자리 2% 증가",
+      "link": "https://www.yna.co.kr/view/AKR20260530056300002",
+      "source": "연합뉴스 경제",
+      "ts": 1780174022000,
+      "pub": "Sun, 31 May 2026 05:47:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 훈풍 부는데…성장률·소득 증가율 격차 2년만에 최대",
+      "link": "https://www.yna.co.kr/view/AKR20260530002600002",
+      "source": "연합뉴스 경제",
+      "ts": 1780174020000,
+      "pub": "Sun, 31 May 2026 05:47:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"음식료·반도체주서 뽑아라\"…6.6만 팬덤 모은 가치투자클럽 [인터뷰+]",
       "link": "https://www.hankyung.com/article/2026052841716",
@@ -26,14 +50,6 @@
       "ts": 1780032051000,
       "pub": "Fri, 29 May 2026 14:20:51 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 호황·증시 호조에…4월 국세 55.2조, 작년보다 6.3조↑",
-      "link": "https://www.yna.co.kr/view/AKR20260529059600002",
-      "source": "연합뉴스 경제",
-      "ts": 1780020002000,
-      "pub": "Fri, 29 May 2026 11:00:02 +0900",
-      "sentiment": "positive"
     }
   ]
 }

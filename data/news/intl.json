@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-30T20:01:43.050Z",
+  "updated_at": "2026-05-30T21:49:17.431Z",
   "count": 25,
   "items": [
+    {
+      "title": "스페이스X 상장, 미중 우주경쟁 격화되나? [차이나는 중국]",
+      "link": "https://www.mt.co.kr/opinion/2026/05/31/2026052816454367532",
+      "source": "머니투데이",
+      "ts": 1780174800000,
+      "pub": "Sun, 31 May 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"우크라 드론, 자포리자 원전 공격\"…러-우 공격 지속",
       "link": "https://www.yna.co.kr/view/AKR20260531002300099",
@@ -193,14 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780066547000,
       "pub": "Fri, 29 May 2026 23:55:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "네타냐후 \"이스라엘군, 레바논 남부 리타니강 넘었다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260529175800079",
-      "source": "연합뉴스 국제",
-      "ts": 1780063457000,
-      "pub": "Fri, 29 May 2026 23:04:17 +0900",
       "sentiment": "neutral"
     }
   ]

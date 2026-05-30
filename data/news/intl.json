@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-30T21:49:17.431Z",
-  "count": 25,
+  "updated_at": "2026-05-30T22:45:20.061Z",
+  "count": 21,
   "items": [
+    {
+      "title": "[뉴욕증시-주간전망] 트럼프 '최종 결단'은 매도 버튼일까…비농업 고용도 주시",
+      "link": "https://www.yna.co.kr/view/AKR20260531005300009",
+      "source": "연합뉴스 국제",
+      "ts": 1780178402000,
+      "pub": "Sun, 31 May 2026 07:00:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "스페이스X 상장, 미중 우주경쟁 격화되나? [차이나는 중국]",
       "link": "https://www.mt.co.kr/opinion/2026/05/31/2026052816454367532",
@@ -161,46 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780069079000,
       "pub": "Sat, 30 May 2026 00:37:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"종전협상 최종결정 위해 백악관서 회의\"…MOU 임박한듯",
-      "link": "https://www.yna.co.kr/view/AKR20260530000400071",
-      "source": "연합뉴스 국제",
-      "ts": 1780067302000,
-      "pub": "Sat, 30 May 2026 00:08:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"매몰된 HEU, 美가 발굴해 파괴할것…이란과 공조\"",
-      "link": "https://www.yna.co.kr/view/AKR20260529177900071",
-      "source": "연합뉴스 국제",
-      "ts": 1780066857000,
-      "pub": "Sat, 30 May 2026 00:00:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, TV토론 참사 회고한 바이든 부인에 \"무대로 달려갔어야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260529177000071",
-      "source": "연합뉴스 국제",
-      "ts": 1780066744000,
-      "pub": "Fri, 29 May 2026 23:59:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란, 핵무기 금지 동의하고 호르무즈 즉시 개방돼야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260529177700071",
-      "source": "연합뉴스 국제",
-      "ts": 1780066595000,
-      "pub": "Fri, 29 May 2026 23:56:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"종전협상 최종결정 위해 백악관 상황실서 회의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260529177600071",
-      "source": "연합뉴스 국제",
-      "ts": 1780066547000,
-      "pub": "Fri, 29 May 2026 23:55:47 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-31T06:46:27.888Z",
-  "count": 8,
+  "updated_at": "2026-05-31T09:40:59.751Z",
+  "count": 6,
   "items": [
+    {
+      "title": "[데스크 칼럼] 메모리 파티, 계속되길 바라지만",
+      "link": "https://www.hankyung.com/article/2026053190501",
+      "source": "한국경제",
+      "ts": 1780215682000,
+      "pub": "Sun, 31 May 2026 17:21:22 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "월가, 반도체 강세장 이어질지 주목 [뉴욕·상하이 주간증시 전망]",
       "link": "https://www.hankyung.com/article/202605318912i",
@@ -12,36 +20,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'반도체 호황'에 올해 명목성장률 24년만에 10%대 가능성",
-      "link": "https://www.hankyung.com/article/2026053188867",
-      "source": "한국경제",
-      "ts": 1780204857000,
-      "pub": "Sun, 31 May 2026 14:20:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "한은 \"경제안보 시대, 반도체 등 핵심 제조공정 국내 유지해야\"",
       "link": "https://www.yna.co.kr/view/AKR20260530049200002",
       "source": "연합뉴스 경제",
       "ts": 1780196407000,
       "pub": "Sun, 31 May 2026 12:00:07 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "반도체·자동차 투자도 안보가 좌우...한은 \"경제안보 영향 확대\"",
-      "link": "https://www.mt.co.kr/economy/2026/05/31/2026052917363569873",
-      "source": "머니투데이",
-      "ts": 1780196400000,
-      "pub": "Sun, 31 May 2026 12:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 또 해냈다…마이크론 꺾고 사상 첫 '세계 1위' 등극",
-      "link": "https://www.hankyung.com/article/202605318664i",
-      "source": "한국경제",
-      "ts": 1780191014000,
-      "pub": "Sun, 31 May 2026 10:30:14 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "SK하이닉스도 임협 시즌…\"우리도 주택대출 5억\" 요구 부상",

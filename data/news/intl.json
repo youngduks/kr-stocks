@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-31T06:46:27.886Z",
-  "count": 18,
+  "updated_at": "2026-05-31T09:40:59.749Z",
+  "count": 17,
   "items": [
+    {
+      "title": "막내린 샹그릴라대화…미중 대립 누그러졌지만 미·유럽은 이견",
+      "link": "https://www.yna.co.kr/view/AKR20260531043000084",
+      "source": "연합뉴스 국제",
+      "ts": 1780217686000,
+      "pub": "Sun, 31 May 2026 17:54:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "공화당 반발에 흔들리는 '사법 피해자 기금'…백악관서도 폐지론",
+      "link": "https://www.yna.co.kr/view/AKR20260531045900009",
+      "source": "연합뉴스 국제",
+      "ts": 1780217303000,
+      "pub": "Sun, 31 May 2026 17:48:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘군, 레바논 남부 지상전 확대…요충지 '보포르' 장악",
+      "link": "https://www.yna.co.kr/view/AKR20260531034900079",
+      "source": "연합뉴스 국제",
+      "ts": 1780214110000,
+      "pub": "Sun, 31 May 2026 16:55:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'최종 결정' 미룬 트럼프, 종전안 고쳐썼다 \"합의 근접…결렬시 공격\"",
+      "link": "https://www.mt.co.kr/world/2026/05/31/2026053114001946224",
+      "source": "머니투데이",
+      "ts": 1780210161000,
+      "pub": "Sun, 31 May 2026 15:49:21 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "인지 장애 검사 '정상' 받은 트럼프 \"'엄청난 지능' 인정됐다\"",
       "link": "https://www.hankyung.com/article/2026053189017",
@@ -20,30 +52,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "고민 길어지는 트럼프…국내 반발과 이란 사이에서 고심",
-      "link": "https://www.hankyung.com/article/202605318811i",
-      "source": "한국경제",
-      "ts": 1780203534000,
-      "pub": "Sun, 31 May 2026 13:58:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 며느리 인터뷰서 '이란 종전협상' 언급...\"매우 좋은 합의 근접\"",
-      "link": "https://www.mt.co.kr/world/2026/05/31/2026053113122413081",
-      "source": "머니투데이",
-      "ts": 1780203482000,
-      "pub": "Sun, 31 May 2026 13:58:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 이란에 종전 MOU 수정안 발송…\"합의 조건 강화\"",
-      "link": "https://www.hankyung.com/article/2026053188287",
-      "source": "한국경제",
-      "ts": 1780199783000,
-      "pub": "Sun, 31 May 2026 12:56:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"트럼프 종전MOU  불승인…이란에 합의조건 강화한 수정안 발송\"",
       "link": "https://www.yna.co.kr/view/AKR20260531027800009",
       "source": "연합뉴스 국제",
@@ -57,14 +65,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780196027000,
       "pub": "Sun, 31 May 2026 11:53:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 금리 인상설에…FOMC 투표권자 카시카리가 꺼낸 한 마디 [심성미의 중앙은행 워치]",
-      "link": "https://www.hankyung.com/article/202605318730i",
-      "source": "한국경제",
-      "ts": 1780195770000,
-      "pub": "Sun, 31 May 2026 11:49:30 +0900",
       "sentiment": "neutral"
     },
     {
@@ -121,14 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780107303000,
       "pub": "Sat, 30 May 2026 11:15:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "10년만에 캐나다 방문한 中외교수장 \"대중국 수출 100% 늘 수도\"",
-      "link": "https://www.yna.co.kr/view/AKR20260530020800009",
-      "source": "연합뉴스 국제",
-      "ts": 1780099823000,
-      "pub": "Sat, 30 May 2026 09:10:23 +0900",
       "sentiment": "neutral"
     },
     {

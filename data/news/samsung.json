@@ -1,39 +1,23 @@
 {
   "category": "samsung",
-  "updated_at": "2026-05-31T06:46:27.887Z",
-  "count": 8,
+  "updated_at": "2026-05-31T09:40:59.751Z",
+  "count": 5,
   "items": [
     {
-      "title": "코스피 연일 최고치 행진…'삼전·닉스' 쏠림 심하지만 \"더 간다\"",
+      "title": "[데스크 칼럼] 메모리 파티, 계속되길 바라지만",
+      "link": "https://www.hankyung.com/article/2026053190501",
+      "source": "한국경제",
+      "ts": 1780215682000,
+      "pub": "Sun, 31 May 2026 17:21:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스가 이끈 '전인미답' 국장…변동성 심해도 \"더 오른다\"",
       "link": "https://www.mt.co.kr/stock/2026/05/31/2026053112582743859",
       "source": "머니투데이",
       "ts": 1780208719000,
       "pub": "Sun, 31 May 2026 15:25:19 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\"삼전닉스 믿었다간 큰 코 다친다\"…역대급 빚투에 '경고' [노정동의 어쩌다 투자자]",
-      "link": "https://www.hankyung.com/article/2026052968886",
-      "source": "한국경제",
-      "ts": 1780204871000,
-      "pub": "Sun, 31 May 2026 14:21:11 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "삼성전자 또 해냈다…마이크론 꺾고 사상 첫 '세계 1위' 등극",
-      "link": "https://www.hankyung.com/article/202605318664i",
-      "source": "한국경제",
-      "ts": 1780191014000,
-      "pub": "Sun, 31 May 2026 10:30:14 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'삼전닉스' 임원도 주가 대박…'수익률 400%' 159억 찍었다",
-      "link": "https://www.hankyung.com/article/2026053186337",
-      "source": "한국경제",
-      "ts": 1780190209000,
-      "pub": "Sun, 31 May 2026 10:16:49 +0900",
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "title": "'불기둥' 삼전닉스 주요임원 자사주 수익률 보니…최대 400%",
@@ -58,14 +42,6 @@
       "ts": 1780038557000,
       "pub": "Fri, 29 May 2026 16:09:17 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "[특징주] 삼성전자, 5.8% 급등 마감…하닉도 1.9% 올라(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260529037251008",
-      "source": "연합뉴스 경제",
-      "ts": 1780038247000,
-      "pub": "Fri, 29 May 2026 16:04:07 +0900",
-      "sentiment": "positive"
     }
   ]
 }

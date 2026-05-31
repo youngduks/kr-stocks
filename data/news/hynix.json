@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-31T11:25:49.695Z",
-  "count": 9,
+  "updated_at": "2026-05-31T13:10:03.285Z",
+  "count": 11,
   "items": [
+    {
+      "title": "PC 시장 진출하는 엔비디아…첫 윈도 PC 공개 예정",
+      "link": "https://www.yna.co.kr/view/AKR20260531054000009",
+      "source": "연합뉴스 국제",
+      "ts": 1780227625000,
+      "pub": "Sun, 31 May 2026 20:40:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "보은 반도체 가스제조업체서 폭발 추정 사고…포스핀 가스 누출",
+      "link": "https://www.hankyung.com/article/2026053192877",
+      "source": "한국경제",
+      "ts": 1780226028000,
+      "pub": "Sun, 31 May 2026 20:13:48 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "'삼성·하이닉스' 새마을금고 탄탄",
       "link": "https://www.hankyung.com/article/2026053191321",
@@ -28,7 +44,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "엔비디아, 11년만에 노트북용 칩 도전",
+      "title": "엔비디아, MS와 손잡고 '인공지능 PC' 선보인다",
       "link": "https://www.hankyung.com/article/2026053191491",
       "source": "한국경제",
       "ts": 1780220332000,

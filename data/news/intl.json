@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-31T11:25:49.694Z",
-  "count": 22,
+  "updated_at": "2026-05-31T13:10:03.282Z",
+  "count": 23,
   "items": [
+    {
+      "title": "막내린 샹그릴라대화…미중 대립 누그러졌지만 미-유럽은 이견(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260531043051084",
+      "source": "연합뉴스 국제",
+      "ts": 1780228341000,
+      "pub": "Sun, 31 May 2026 20:52:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘군, 레바논 남부 지상전 확대…요충지 '보포르' 장악(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260531034951079",
+      "source": "연합뉴스 국제",
+      "ts": 1780226553000,
+      "pub": "Sun, 31 May 2026 20:22:33 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美-이란 휴전 앞뒀는데… 이스라엘, 레바논 전략적 요충지 보포르 점령",
       "link": "https://www.mt.co.kr/world/2026/05/31/2026053119444971064",
@@ -20,7 +36,7 @@
       "sentiment": "negative"
     },
     {
-      "title": "뉴욕·상하이 증시, 美증시 변수는 '종전MOU·비농업 고용'",
+      "title": "美증시 변수는 '종전MOU·비농업 고용'",
       "link": "https://www.hankyung.com/article/2026053190971",
       "source": "한국경제",
       "ts": 1780221052000,
@@ -41,14 +57,6 @@
       "source": "한국경제",
       "ts": 1780220167000,
       "pub": "Sun, 31 May 2026 18:36:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 '종전 MOU' 사인 안했다…이란에 추가 조건 요구",
-      "link": "https://www.hankyung.com/article/2026053191091",
-      "source": "한국경제",
-      "ts": 1780219904000,
-      "pub": "Sun, 31 May 2026 18:31:44 +0900",
       "sentiment": "neutral"
     },
     {

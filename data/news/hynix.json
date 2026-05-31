@@ -1,8 +1,48 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-31T20:46:32.289Z",
-  "count": 11,
+  "updated_at": "2026-05-31T21:46:42.777Z",
+  "count": 16,
   "items": [
+    {
+      "title": "메모리 가격 두배 폭등하자 삼성·LG 전자제품 원가부담 껑충",
+      "link": "https://www.yna.co.kr/view/AKR20260529163600003",
+      "source": "연합뉴스 경제",
+      "ts": 1780261500000,
+      "pub": "Mon, 1 Jun 2026 06:05:00 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "은행권 \"시장금리, 3∼4회 인상 반영…AI·반도체 비중 확대\"",
+      "link": "https://www.yna.co.kr/view/AKR20260531051500002",
+      "source": "연합뉴스 경제",
+      "ts": 1780261021000,
+      "pub": "Mon, 1 Jun 2026 05:57:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 '화력' 여전… 사상 최고치 찍은 코스피 9000 갈까",
+      "link": "https://www.mt.co.kr/stock/2026/06/01/2026053119545024073",
+      "source": "머니투데이",
+      "ts": 1780254240000,
+      "pub": "Mon, 01 Jun 2026 04:04:00 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'전기 먹는 하마' 자동체 반도체 1위 기업의 확신…\"탈탄소가 경쟁력\"",
+      "link": "https://www.mt.co.kr/industry/2026/06/01/2026052707503866566",
+      "source": "머니투데이",
+      "ts": 1780254007000,
+      "pub": "Mon, 01 Jun 2026 04:00:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[사설] 반도체는 공공재가 아니라 사적 재화이다",
+      "link": "https://www.mt.co.kr/opinion/2026/06/01/2026053113561431205",
+      "source": "머니투데이",
+      "ts": 1780254000000,
+      "pub": "Mon, 01 Jun 2026 04:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "마이크론 '1조달러' 진입에 美서도 AI 거품논란 재점화",
       "link": "https://www.yna.co.kr/view/AKR20260601000800072",

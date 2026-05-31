@@ -1,8 +1,48 @@
 {
   "category": "samsung",
-  "updated_at": "2026-05-31T20:46:32.288Z",
-  "count": 3,
+  "updated_at": "2026-05-31T21:46:42.776Z",
+  "count": 8,
   "items": [
+    {
+      "title": "메모리 가격 두배 폭등하자 삼성·LG 전자제품 원가부담 껑충",
+      "link": "https://www.yna.co.kr/view/AKR20260529163600003",
+      "source": "연합뉴스 경제",
+      "ts": 1780261500000,
+      "pub": "Mon, 1 Jun 2026 06:05:00 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[우보세]삼전닉스 레버리지 광풍 누가 부추겼나",
+      "link": "https://www.mt.co.kr/opinion/2026/06/01/2026052915480764073",
+      "source": "머니투데이",
+      "ts": 1780259400000,
+      "pub": "Mon, 01 Jun 2026 05:30:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'사업보국' 이어가는 이재용… 올초부터 사회기여 방안 검토",
+      "link": "https://www.mt.co.kr/industry/2026/06/01/2026053119492129532",
+      "source": "머니투데이",
+      "ts": 1780255260000,
+      "pub": "Mon, 01 Jun 2026 04:21:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스도 없어서 못 산다…\"생존 걸려\" 재생e 확보 '발등에 불'",
+      "link": "https://www.mt.co.kr/industry/2026/06/01/2026051407245019778",
+      "source": "머니투데이",
+      "ts": 1780255207000,
+      "pub": "Mon, 01 Jun 2026 04:20:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "농부가 판 전기로 삼전닉스 공장 돌린다…논밭서 자라는 RE100 해법",
+      "link": "https://www.mt.co.kr/industry/2026/06/01/2026051406120975373",
+      "source": "머니투데이",
+      "ts": 1780254607000,
+      "pub": "Mon, 01 Jun 2026 04:10:07 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "마이크론 제치고 삼성 車메모리 1위",
       "link": "https://www.hankyung.com/article/2026053191471",

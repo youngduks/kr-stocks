@@ -1,6 +1,7 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import Link from "next/link";
+import AffiliateStrip from "@/components/AffiliateStrip";
 
 export const revalidate = 1800; // 30분 ISR
 
@@ -154,6 +155,8 @@ export default async function NewsPage() {
           </section>
         ))}
       </div>
+
+      <AffiliateStrip />
 
       <footer style={{ marginTop: "2rem", fontSize: "0.75rem", opacity: 0.5, lineHeight: 1.5 }}>
         <p>

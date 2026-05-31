@@ -4,6 +4,7 @@ import { PriceCard } from "@/components/PriceCard";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { HomeHero } from "@/components/HomeHero";
+import AffiliateStrip from "@/components/AffiliateStrip";
 
 export const revalidate = 120; // ISR 캐시 30s → 120s (Free tier 최적화, 5/25)
 
@@ -54,6 +55,8 @@ export default async function Home() {
           <span className="font-semibold text-text-muted">⏱ 마지막 업데이트:</span> {new Date(data.fetched_at).toLocaleString("ko-KR", { timeZone: "Asia/Seoul" })}
           <span className="ml-3 text-text-dim">(30초마다 자동 갱신)</span>
         </div>
+
+        <AffiliateStrip />
       </main>
 
       <Footer />

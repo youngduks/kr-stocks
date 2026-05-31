@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-31T22:46:52.963Z",
-  "count": 26,
+  "updated_at": "2026-05-31T23:55:45.161Z",
+  "count": 22,
   "items": [
+    {
+      "title": "트럼프 \"이란, 핵무기 개발은 물론 구매도 안돼…이란도 동의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260601015400071",
+      "source": "연합뉴스 국제",
+      "ts": 1780268353000,
+      "pub": "Mon, 1 Jun 2026 07:59:13 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "베선트 \"트럼프, 군사·경제적 수단 동원 이란 합의 이행시킬 것\"",
       "link": "https://www.mt.co.kr/world/2026/06/01/2026060105121122787",
@@ -84,36 +92,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "美-이란 휴전 앞뒀는데… 이스라엘, 레바논 전략적 요충지 보포르 점령",
-      "link": "https://www.mt.co.kr/world/2026/05/31/2026053119444971064",
-      "source": "머니투데이",
-      "ts": 1780224955000,
-      "pub": "Sun, 31 May 2026 19:55:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "中기업 앞다퉈 모로코에 공장…EU '관세회피 수출기지' 우려",
       "link": "https://www.yna.co.kr/view/AKR20260531049100085",
       "source": "연합뉴스 국제",
       "ts": 1780221864000,
       "pub": "Sun, 31 May 2026 19:04:24 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "美증시 변수는 '종전MOU·비농업 고용'",
-      "link": "https://www.hankyung.com/article/2026053190971",
-      "source": "한국경제",
-      "ts": 1780221052000,
-      "pub": "Sun, 31 May 2026 18:50:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"美 판매차 '미국산 부품' 50% 써야\"",
-      "link": "https://www.hankyung.com/article/2026053191411",
-      "source": "한국경제",
-      "ts": 1780220264000,
-      "pub": "Sun, 31 May 2026 18:37:44 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "막내린 샹그릴라대화…미중 대립 누그러졌지만 미·유럽은 이견",
@@ -193,22 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780162384000,
       "pub": "Sun, 31 May 2026 02:33:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "국제유가, 트럼프 종전협상 최종결정 앞두고 하락…브렌트 2%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260530005400072",
-      "source": "연합뉴스 경제",
-      "ts": 1780082496000,
-      "pub": "Sat, 30 May 2026 04:21:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "달러-원, 최종 결정 준비하는 트럼프에 오름폭 축소…1,504.70원 마감",
-      "link": "https://www.yna.co.kr/view/AKR20260530003500002",
-      "source": "연합뉴스 경제",
-      "ts": 1780078376000,
-      "pub": "Sat, 30 May 2026 03:12:56 +0900",
       "sentiment": "neutral"
     }
   ]

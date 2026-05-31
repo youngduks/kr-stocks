@@ -1,8 +1,40 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-31T22:46:52.965Z",
-  "count": 16,
+  "updated_at": "2026-05-31T23:55:45.188Z",
+  "count": 14,
   "items": [
+    {
+      "title": "[더벨]마음AI, NVIDIA 기반 Physical AI 전문인재 양성 본격화",
+      "link": "https://www.mt.co.kr/stock/2026/06/01/2026060108449690128",
+      "source": "머니투데이",
+      "ts": 1780271183000,
+      "pub": "Mon, 01 Jun 2026 08:46:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "유진투자 \"반도체 제외 코스피 4,100∼4,200 추정…양극화 심화\"",
+      "link": "https://www.yna.co.kr/view/AKR20260601019400008",
+      "source": "연합뉴스 경제",
+      "ts": 1780270227000,
+      "pub": "Mon, 1 Jun 2026 08:30:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한울반도체 \"김기원 부회장, 자사주 매입…주주가치 제고·책임경영\"",
+      "link": "https://www.mt.co.kr/stock/2026/06/01/2026060108031392659",
+      "source": "머니투데이",
+      "ts": 1780269841000,
+      "pub": "Mon, 01 Jun 2026 08:24:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"에코프로에이치엔, 반도체 팹 증설 수혜주\"-DS",
+      "link": "https://www.hankyung.com/article/2026060194636",
+      "source": "한국경제",
+      "ts": 1780267837000,
+      "pub": "Mon, 01 Jun 2026 07:50:37 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "메모리 가격 두배 폭등하자 삼성·LG 전자제품 원가부담 껑충",
       "link": "https://www.yna.co.kr/view/AKR20260529163600003",
@@ -28,22 +60,6 @@
       "sentiment": "positive"
     },
     {
-      "title": "'전기 먹는 하마' 자동체 반도체 1위 기업의 확신…\"탈탄소가 경쟁력\"",
-      "link": "https://www.mt.co.kr/industry/2026/06/01/2026052707503866566",
-      "source": "머니투데이",
-      "ts": 1780254007000,
-      "pub": "Mon, 01 Jun 2026 04:00:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[사설] 반도체는 공공재가 아니라 사적 재화이다",
-      "link": "https://www.mt.co.kr/opinion/2026/06/01/2026053113561431205",
-      "source": "머니투데이",
-      "ts": 1780254000000,
-      "pub": "Mon, 01 Jun 2026 04:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "마이크론 '1조달러' 진입에 美서도 AI 거품논란 재점화",
       "link": "https://www.yna.co.kr/view/AKR20260601000800072",
       "source": "연합뉴스 국제",
@@ -66,38 +82,6 @@
       "ts": 1780226028000,
       "pub": "Sun, 31 May 2026 20:13:48 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "삼성전기 담은 ETF 강세…반도체주 '고공행진' 계속",
-      "link": "https://www.hankyung.com/article/2026053191011",
-      "source": "한국경제",
-      "ts": 1780220912000,
-      "pub": "Sun, 31 May 2026 18:48:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "마이크론 제치고 삼성 車메모리 1위",
-      "link": "https://www.hankyung.com/article/2026053191471",
-      "source": "한국경제",
-      "ts": 1780220345000,
-      "pub": "Sun, 31 May 2026 18:39:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아, MS와 손잡고 '인공지능 PC' 선보인다",
-      "link": "https://www.hankyung.com/article/2026053191491",
-      "source": "한국경제",
-      "ts": 1780220332000,
-      "pub": "Sun, 31 May 2026 18:38:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 노조 임단협서 주택자금대출 5억 요구할 듯",
-      "link": "https://www.hankyung.com/article/2026053191421",
-      "source": "한국경제",
-      "ts": 1780220303000,
-      "pub": "Sun, 31 May 2026 18:38:23 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "한은 \"경제안보 시대, 반도체 등 핵심 제조공정 국내 유지해야\"",

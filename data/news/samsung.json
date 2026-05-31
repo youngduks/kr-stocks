@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-05-31T22:46:52.965Z",
+  "updated_at": "2026-05-31T23:55:45.186Z",
   "count": 10,
   "items": [
+    {
+      "title": "삼성전자 덕에…삼성생명, 한 달 만에 54% 폭등한 이유",
+      "link": "https://www.hankyung.com/article/202605295906i",
+      "source": "한국경제",
+      "ts": 1780266604000,
+      "pub": "Mon, 01 Jun 2026 07:30:04 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "[소셜＋] \"의대 비켜라\"…직업체험관서 청소년 사로잡은 '삼전닉스'",
       "link": "https://www.yna.co.kr/view/AKR20260528161600505",
@@ -65,14 +73,6 @@
       "source": "머니투데이",
       "ts": 1780254607000,
       "pub": "Mon, 01 Jun 2026 04:10:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "마이크론 제치고 삼성 車메모리 1위",
-      "link": "https://www.hankyung.com/article/2026053191471",
-      "source": "한국경제",
-      "ts": 1780220345000,
-      "pub": "Sun, 31 May 2026 18:39:05 +0900",
       "sentiment": "neutral"
     },
     {

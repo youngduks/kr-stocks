@@ -1,15 +1,31 @@
 {
   "category": "samsung",
-  "updated_at": "2026-05-31T02:11:50.412Z",
-  "count": 10,
+  "updated_at": "2026-05-31T06:46:27.887Z",
+  "count": 8,
   "items": [
     {
-      "title": "'5조 결단' 이재용 회장…삼성, 올초부터 \"이익 나눠야\" 사회공헌 논의",
-      "link": "https://www.mt.co.kr/industry/2026/05/31/2026053013423717645",
+      "title": "코스피 연일 최고치 행진…'삼전·닉스' 쏠림 심하지만 \"더 간다\"",
+      "link": "https://www.mt.co.kr/stock/2026/05/31/2026053112582743859",
       "source": "머니투데이",
-      "ts": 1780191000000,
-      "pub": "Sun, 31 May 2026 10:30:00 +0900",
-      "sentiment": "neutral"
+      "ts": 1780208719000,
+      "pub": "Sun, 31 May 2026 15:25:19 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"삼전닉스 믿었다간 큰 코 다친다\"…역대급 빚투에 '경고' [노정동의 어쩌다 투자자]",
+      "link": "https://www.hankyung.com/article/2026052968886",
+      "source": "한국경제",
+      "ts": 1780204871000,
+      "pub": "Sun, 31 May 2026 14:21:11 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "삼성전자 또 해냈다…마이크론 꺾고 사상 첫 '세계 1위' 등극",
+      "link": "https://www.hankyung.com/article/202605318664i",
+      "source": "한국경제",
+      "ts": 1780191014000,
+      "pub": "Sun, 31 May 2026 10:30:14 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "'삼전닉스' 임원도 주가 대박…'수익률 400%' 159억 찍었다",
@@ -20,35 +36,11 @@
       "sentiment": "positive"
     },
     {
-      "title": "수십조원 자사주 매입+HBM4E 세계 첫 출하…삼성전자 주가 고공행진",
-      "link": "https://www.mt.co.kr/stock/2026/05/31/2026052918022396095",
-      "source": "머니투데이",
-      "ts": 1780185739000,
-      "pub": "Sun, 31 May 2026 09:02:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"이불 팔아 1년 영업익 269억\"...삼전닉스에 132억 투자 '3배' 벌었다",
-      "link": "https://www.mt.co.kr/stock/2026/05/31/2026053107194757436",
-      "source": "머니투데이",
-      "ts": 1780180810000,
-      "pub": "Sun, 31 May 2026 07:40:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "'불기둥' 삼전닉스 주요임원 자사주 수익률 보니…최대 400%",
       "link": "https://www.yna.co.kr/view/AKR20260530045700008",
       "source": "연합뉴스 경제",
       "ts": 1780180500000,
       "pub": "Sun, 31 May 2026 07:35:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"동탄도 20억\" 삼전닉스 성과급에 경기 남부 '들썩'...집값 견인",
-      "link": "https://www.mt.co.kr/estate/2026/05/31/2026052915550556800",
-      "source": "머니투데이",
-      "ts": 1780175100000,
-      "pub": "Sun, 31 May 2026 06:05:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -74,14 +66,6 @@
       "ts": 1780038247000,
       "pub": "Fri, 29 May 2026 16:04:07 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "'삼전닉스 쏠림' 우려속…\"주도주 쏠림, 버블 후반에 반복\"",
-      "link": "https://www.yna.co.kr/view/AKR20260529121300008",
-      "source": "연합뉴스 경제",
-      "ts": 1780037667000,
-      "pub": "Fri, 29 May 2026 15:54:27 +0900",
-      "sentiment": "negative"
     }
   ]
 }

@@ -1,23 +1,47 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-31T02:11:50.414Z",
-  "count": 7,
+  "updated_at": "2026-05-31T06:46:27.888Z",
+  "count": 8,
   "items": [
     {
-      "title": "수십조원 자사주 매입+HBM4E 세계 첫 출하…삼성전자 주가 고공행진",
-      "link": "https://www.mt.co.kr/stock/2026/05/31/2026052918022396095",
-      "source": "머니투데이",
-      "ts": 1780185739000,
-      "pub": "Sun, 31 May 2026 09:02:19 +0900",
+      "title": "월가, 반도체 강세장 이어질지 주목 [뉴욕·상하이 주간증시 전망]",
+      "link": "https://www.hankyung.com/article/202605318912i",
+      "source": "한국경제",
+      "ts": 1780206265000,
+      "pub": "Sun, 31 May 2026 14:44:25 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"다른 반도체주 오를 때 뭐했지?\"…1/4 토막 났다가 반등 시작",
-      "link": "https://www.hankyung.com/article/202605297461i",
+      "title": "'반도체 호황'에 올해 명목성장률 24년만에 10%대 가능성",
+      "link": "https://www.hankyung.com/article/2026053188867",
       "source": "한국경제",
-      "ts": 1780185616000,
-      "pub": "Sun, 31 May 2026 09:00:16 +0900",
+      "ts": 1780204857000,
+      "pub": "Sun, 31 May 2026 14:20:57 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "한은 \"경제안보 시대, 반도체 등 핵심 제조공정 국내 유지해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260530049200002",
+      "source": "연합뉴스 경제",
+      "ts": 1780196407000,
+      "pub": "Sun, 31 May 2026 12:00:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체·자동차 투자도 안보가 좌우...한은 \"경제안보 영향 확대\"",
+      "link": "https://www.mt.co.kr/economy/2026/05/31/2026052917363569873",
+      "source": "머니투데이",
+      "ts": 1780196400000,
+      "pub": "Sun, 31 May 2026 12:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 또 해냈다…마이크론 꺾고 사상 첫 '세계 1위' 등극",
+      "link": "https://www.hankyung.com/article/202605318664i",
+      "source": "한국경제",
+      "ts": 1780191014000,
+      "pub": "Sun, 31 May 2026 10:30:14 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "SK하이닉스도 임협 시즌…\"우리도 주택대출 5억\" 요구 부상",
@@ -41,22 +65,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780174020000,
       "pub": "Sun, 31 May 2026 05:47:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"음식료·반도체주서 뽑아라\"…6.6만 팬덤 모은 가치투자클럽 [인터뷰+]",
-      "link": "https://www.hankyung.com/article/2026052841716",
-      "source": "한국경제",
-      "ts": 1780136780000,
-      "pub": "Sat, 30 May 2026 19:26:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 초과이익 두고 노동장관 '분배'…산업장관은 '투자'(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260529099151003",
-      "source": "연합뉴스 경제",
-      "ts": 1780035257000,
-      "pub": "Fri, 29 May 2026 15:14:17 +0900",
       "sentiment": "neutral"
     }
   ]

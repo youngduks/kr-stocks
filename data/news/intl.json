@@ -1,22 +1,70 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-31T02:11:50.411Z",
-  "count": 20,
+  "updated_at": "2026-05-31T06:46:27.886Z",
+  "count": 18,
   "items": [
     {
-      "title": "80세 트럼프, 심장 나이는 66세...주치의 \"건강한데 살 빼세요\"",
-      "link": "https://www.mt.co.kr/world/2026/05/31/2026053108580711081",
-      "source": "머니투데이",
-      "ts": 1780188076000,
-      "pub": "Sun, 31 May 2026 09:41:16 +0900",
+      "title": "인지 장애 검사 '정상' 받은 트럼프 \"'엄청난 지능' 인정됐다\"",
+      "link": "https://www.hankyung.com/article/2026053189017",
+      "source": "한국경제",
+      "ts": 1780205448000,
+      "pub": "Sun, 31 May 2026 14:30:48 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 최종 결정 미루는 사이…美국방 \"필요시 대이란 군사개입 재개\"",
-      "link": "https://www.mt.co.kr/world/2026/05/31/2026053108282885270",
+      "title": "中, 日에 \"군국주의\" 직격…日 \"핵무기 대량보유국이 할말 아냐\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260531013351083",
+      "source": "연합뉴스 국제",
+      "ts": 1780204853000,
+      "pub": "Sun, 31 May 2026 14:20:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "고민 길어지는 트럼프…국내 반발과 이란 사이에서 고심",
+      "link": "https://www.hankyung.com/article/202605318811i",
+      "source": "한국경제",
+      "ts": 1780203534000,
+      "pub": "Sun, 31 May 2026 13:58:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 며느리 인터뷰서 '이란 종전협상' 언급...\"매우 좋은 합의 근접\"",
+      "link": "https://www.mt.co.kr/world/2026/05/31/2026053113122413081",
       "source": "머니투데이",
-      "ts": 1780186287000,
-      "pub": "Sun, 31 May 2026 09:11:27 +0900",
+      "ts": 1780203482000,
+      "pub": "Sun, 31 May 2026 13:58:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 이란에 종전 MOU 수정안 발송…\"합의 조건 강화\"",
+      "link": "https://www.hankyung.com/article/2026053188287",
+      "source": "한국경제",
+      "ts": 1780199783000,
+      "pub": "Sun, 31 May 2026 12:56:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프 종전MOU  불승인…이란에 합의조건 강화한 수정안 발송\"",
+      "link": "https://www.yna.co.kr/view/AKR20260531027800009",
+      "source": "연합뉴스 국제",
+      "ts": 1780198543000,
+      "pub": "Sun, 31 May 2026 12:35:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "주일 이란대사 \"종전 MOU 서명까지 트럼프 신용안해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260531025400073",
+      "source": "연합뉴스 국제",
+      "ts": 1780196027000,
+      "pub": "Sun, 31 May 2026 11:53:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 금리 인상설에…FOMC 투표권자 카시카리가 꺼낸 한 마디 [심성미의 중앙은행 워치]",
+      "link": "https://www.hankyung.com/article/202605318730i",
+      "source": "한국경제",
+      "ts": 1780195770000,
+      "pub": "Sun, 31 May 2026 11:49:30 +0900",
       "sentiment": "neutral"
     },
     {
@@ -33,14 +81,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780178402000,
       "pub": "Sun, 31 May 2026 07:00:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "스페이스X 상장, 미중 우주경쟁 격화되나? [차이나는 중국]",
-      "link": "https://www.mt.co.kr/opinion/2026/05/31/2026052816454367532",
-      "source": "머니투데이",
-      "ts": 1780174800000,
-      "pub": "Sun, 31 May 2026 06:00:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -89,62 +129,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780099823000,
       "pub": "Sat, 30 May 2026 09:10:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "백악관 \"트럼프, 자신의 레드라인에 만족하는 합의만 할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260530012300071",
-      "source": "연합뉴스 국제",
-      "ts": 1780093438000,
-      "pub": "Sat, 30 May 2026 07:23:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美법원 \"케네디센터서 트럼프 이름 빼야\"…트럼프 '발끈'(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260530005151071",
-      "source": "연합뉴스 국제",
-      "ts": 1780092468000,
-      "pub": "Sat, 30 May 2026 07:07:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 백악관 \"트럼프, 자신의 레드라인에 만족하는 합의만 할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260530011500071",
-      "source": "연합뉴스 국제",
-      "ts": 1780092398000,
-      "pub": "Sat, 30 May 2026 07:06:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "유엔, 러·이스라엘 '분쟁 성폭력' 첫 블랙리스트 추가",
-      "link": "https://www.yna.co.kr/view/AKR20260530005800072",
-      "source": "연합뉴스 국제",
-      "ts": 1780084837000,
-      "pub": "Sat, 30 May 2026 05:00:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "종전 MOU 관련 백악관 회의 종료…NYT \"트럼프, 아직 결정안해\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260530005751071",
-      "source": "연합뉴스 국제",
-      "ts": 1780084024000,
-      "pub": "Sat, 30 May 2026 04:47:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"美-이란 MOU 승인여부 회의 종료\"…트럼프, 곧 결정 발표할 듯",
-      "link": "https://www.yna.co.kr/view/AKR20260530005700071",
-      "source": "연합뉴스 국제",
-      "ts": 1780082995000,
-      "pub": "Sat, 30 May 2026 04:29:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美법원, '트럼프-케네디 센터' 명칭 제동…\"트럼프 이름 빼야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260530005100071",
-      "source": "연합뉴스 국제",
-      "ts": 1780082569000,
-      "pub": "Sat, 30 May 2026 04:22:49 +0900",
       "sentiment": "neutral"
     },
     {

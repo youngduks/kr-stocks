@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-31T13:10:03.282Z",
-  "count": 23,
+  "updated_at": "2026-05-31T15:10:18.156Z",
+  "count": 24,
   "items": [
+    {
+      "title": "백악관 경제위원장 \"이란, 트럼프 조건 수용에 큰 압박 받아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260531057600071",
+      "source": "연합뉴스 국제",
+      "ts": 1780238369000,
+      "pub": "Sun, 31 May 2026 23:39:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "월러 연준이사 \"스테이블코인, 美통화정책 영향력 확대할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260531057500072",
+      "source": "연합뉴스 경제",
+      "ts": 1780238148000,
+      "pub": "Sun, 31 May 2026 23:35:48 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "막내린 샹그릴라대화…미중 대립 누그러졌지만 미-유럽은 이견(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260531043051084",
@@ -161,14 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780120526000,
       "pub": "Sat, 30 May 2026 14:55:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "對이란협상 '최종결정' 내린다던 트럼프, 고민 길어지나",
-      "link": "https://www.yna.co.kr/view/AKR20260530027700071",
-      "source": "연합뉴스 국제",
-      "ts": 1780107303000,
-      "pub": "Sat, 30 May 2026 11:15:03 +0900",
       "sentiment": "neutral"
     },
     {

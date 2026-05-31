@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-05-31T21:46:42.776Z",
-  "count": 8,
+  "updated_at": "2026-05-31T22:46:52.965Z",
+  "count": 10,
   "items": [
+    {
+      "title": "[소셜＋] \"의대 비켜라\"…직업체험관서 청소년 사로잡은 '삼전닉스'",
+      "link": "https://www.yna.co.kr/view/AKR20260528161600505",
+      "source": "연합뉴스 경제",
+      "ts": 1780264200000,
+      "pub": "Mon, 1 Jun 2026 06:50:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "영업익 절반으로 '삼전닉스' 산 침구회사…500억 '잭팟' 터졌다",
+      "link": "https://www.hankyung.com/article/2026060193857",
+      "source": "한국경제",
+      "ts": 1780262857000,
+      "pub": "Mon, 01 Jun 2026 06:27:37 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "메모리 가격 두배 폭등하자 삼성·LG 전자제품 원가부담 껑충",
       "link": "https://www.yna.co.kr/view/AKR20260529163600003",
@@ -10,6 +26,14 @@
       "ts": 1780261500000,
       "pub": "Mon, 1 Jun 2026 06:05:00 +0900",
       "sentiment": "positive"
+    },
+    {
+      "title": "\"갓 졸업한 고3 모셔갑니다\"…삼전닉스 러브콜 받는 학교",
+      "link": "https://www.hankyung.com/article/2026053191571",
+      "source": "한국경제",
+      "ts": 1780261217000,
+      "pub": "Mon, 01 Jun 2026 06:00:17 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "[우보세]삼전닉스 레버리지 광풍 누가 부추겼나",
@@ -57,14 +81,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780180500000,
       "pub": "Sun, 31 May 2026 07:35:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 삼성전자 역대급 성과급에도 웃지 못하는 이유",
-      "link": "https://www.yna.co.kr/view/AKR20260529151400797",
-      "source": "연합뉴스 경제",
-      "ts": 1780044483000,
-      "pub": "Fri, 29 May 2026 17:48:03 +0900",
       "sentiment": "neutral"
     }
   ]

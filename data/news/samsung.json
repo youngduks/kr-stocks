@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-05-30T23:51:01.236Z",
-  "count": 7,
+  "updated_at": "2026-05-31T02:11:50.412Z",
+  "count": 10,
   "items": [
+    {
+      "title": "'5조 결단' 이재용 회장…삼성, 올초부터 \"이익 나눠야\" 사회공헌 논의",
+      "link": "https://www.mt.co.kr/industry/2026/05/31/2026053013423717645",
+      "source": "머니투데이",
+      "ts": 1780191000000,
+      "pub": "Sun, 31 May 2026 10:30:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'삼전닉스' 임원도 주가 대박…'수익률 400%' 159억 찍었다",
+      "link": "https://www.hankyung.com/article/2026053186337",
+      "source": "한국경제",
+      "ts": 1780190209000,
+      "pub": "Sun, 31 May 2026 10:16:49 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "수십조원 자사주 매입+HBM4E 세계 첫 출하…삼성전자 주가 고공행진",
+      "link": "https://www.mt.co.kr/stock/2026/05/31/2026052918022396095",
+      "source": "머니투데이",
+      "ts": 1780185739000,
+      "pub": "Sun, 31 May 2026 09:02:19 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"이불 팔아 1년 영업익 269억\"...삼전닉스에 132억 투자 '3배' 벌었다",
       "link": "https://www.mt.co.kr/stock/2026/05/31/2026053107194757436",

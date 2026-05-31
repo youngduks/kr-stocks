@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-30T23:51:01.237Z",
-  "count": 6,
+  "updated_at": "2026-05-31T02:11:50.414Z",
+  "count": 7,
   "items": [
+    {
+      "title": "수십조원 자사주 매입+HBM4E 세계 첫 출하…삼성전자 주가 고공행진",
+      "link": "https://www.mt.co.kr/stock/2026/05/31/2026052918022396095",
+      "source": "머니투데이",
+      "ts": 1780185739000,
+      "pub": "Sun, 31 May 2026 09:02:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"다른 반도체주 오를 때 뭐했지?\"…1/4 토막 났다가 반등 시작",
+      "link": "https://www.hankyung.com/article/202605297461i",
+      "source": "한국경제",
+      "ts": 1780185616000,
+      "pub": "Sun, 31 May 2026 09:00:16 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "SK하이닉스도 임협 시즌…\"우리도 주택대출 5억\" 요구 부상",
       "link": "https://www.yna.co.kr/view/AKR20260529157800003",
@@ -41,14 +57,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780035257000,
       "pub": "Fri, 29 May 2026 15:14:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 초과이익 두고 노동장관 '분배'…산업장관은 '투자'",
-      "link": "https://www.yna.co.kr/view/AKR20260529099100003",
-      "source": "연합뉴스 경제",
-      "ts": 1780032051000,
-      "pub": "Fri, 29 May 2026 14:20:51 +0900",
       "sentiment": "neutral"
     }
   ]

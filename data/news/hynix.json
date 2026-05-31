@@ -1,22 +1,46 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-31T09:40:59.751Z",
-  "count": 6,
+  "updated_at": "2026-05-31T11:25:49.695Z",
+  "count": 9,
   "items": [
     {
-      "title": "[데스크 칼럼] 메모리 파티, 계속되길 바라지만",
-      "link": "https://www.hankyung.com/article/2026053190501",
+      "title": "'삼성·하이닉스' 새마을금고 탄탄",
+      "link": "https://www.hankyung.com/article/2026053191321",
       "source": "한국경제",
-      "ts": 1780215682000,
-      "pub": "Sun, 31 May 2026 17:21:22 +0900",
+      "ts": 1780222404000,
+      "pub": "Sun, 31 May 2026 19:13:24 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "월가, 반도체 강세장 이어질지 주목 [뉴욕·상하이 주간증시 전망]",
-      "link": "https://www.hankyung.com/article/202605318912i",
+      "title": "삼성전기 담은 ETF 강세…반도체주 '고공행진' 계속",
+      "link": "https://www.hankyung.com/article/2026053191011",
       "source": "한국경제",
-      "ts": 1780206265000,
-      "pub": "Sun, 31 May 2026 14:44:25 +0900",
+      "ts": 1780220912000,
+      "pub": "Sun, 31 May 2026 18:48:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성, 마이크론 제치고 車메모리 1위",
+      "link": "https://www.hankyung.com/article/2026053191471",
+      "source": "한국경제",
+      "ts": 1780220345000,
+      "pub": "Sun, 31 May 2026 18:39:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아, 11년만에 노트북용 칩 도전",
+      "link": "https://www.hankyung.com/article/2026053191491",
+      "source": "한국경제",
+      "ts": 1780220332000,
+      "pub": "Sun, 31 May 2026 18:38:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "임단협 앞둔 SK하이닉스…노조 \"주택대출 5억 달라\"",
+      "link": "https://www.hankyung.com/article/2026053191421",
+      "source": "한국경제",
+      "ts": 1780220303000,
+      "pub": "Sun, 31 May 2026 18:38:23 +0900",
       "sentiment": "neutral"
     },
     {

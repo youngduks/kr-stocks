@@ -1,14 +1,14 @@
 {
   "category": "samsung",
-  "updated_at": "2026-05-31T09:40:59.751Z",
-  "count": 5,
+  "updated_at": "2026-05-31T11:25:49.695Z",
+  "count": 4,
   "items": [
     {
-      "title": "[데스크 칼럼] 메모리 파티, 계속되길 바라지만",
-      "link": "https://www.hankyung.com/article/2026053190501",
+      "title": "삼성, 마이크론 제치고 車메모리 1위",
+      "link": "https://www.hankyung.com/article/2026053191471",
       "source": "한국경제",
-      "ts": 1780215682000,
-      "pub": "Sun, 31 May 2026 17:21:22 +0900",
+      "ts": 1780220345000,
+      "pub": "Sun, 31 May 2026 18:39:05 +0900",
       "sentiment": "neutral"
     },
     {
@@ -34,14 +34,6 @@
       "ts": 1780044483000,
       "pub": "Fri, 29 May 2026 17:48:03 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "'삼전닉스 쏠림·레버리지' 우려? 상승장인데도 공포지수 급등(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260529075851008",
-      "source": "연합뉴스 경제",
-      "ts": 1780038557000,
-      "pub": "Fri, 29 May 2026 16:09:17 +0900",
-      "sentiment": "negative"
     }
   ]
 }

@@ -47,8 +47,8 @@ jobs:
       - name: Commit & push
         if: steps.diff.outputs.changed == 'true'
         run: |
-          git config user.name  "kr-stocks-bot"
-          git config user.email "bot@kr-stocks.com"
+          git config user.name  "youngduks"
+          git config user.email "130581659+youngduks@users.noreply.github.com"
           git add data/news/
           DATE_KST=$(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M')
           git commit -m "chore(news): auto-aggregate ${DATE_KST} KST

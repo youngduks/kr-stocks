@@ -164,7 +164,8 @@ export function HomeHero({
       name_en: row.name_en ?? slug,
       currentKrw,
       currentUsd,
-      avgTargetKrw: hlPriceKrw, // 화살표 우측 = HL 24h KRW
+      avgTargetKrw: hlPriceKrw, // 화살표 우측 = HL 24h KRW (단기 절대 목표가)
+      avgTargetLongKrw: consensus ? consensus.consensus.avg_target_krw : null, // 중장기 절대 목표가 (컨센 평균)
       upsideShortPct, // 단기 = HL premium %
       upsideLongPct,  // 중장기 = 컨센 vs 정규장
       foreignWon: flow?.cumulative_5d.foreign_won ?? null,
@@ -343,6 +344,11 @@ export function HomeHero({
                         <div className={`text-base sm:text-xl font-bold tabular ${shortColor}`}>
                           {shortIsUp ? "▲ +" : shortIsDn ? "▼ " : ""}{Math.abs(item.upsideShortPct).toFixed(2)}%
                         </div>
+                        {item.avgTargetKrw != null && (
+                          <div className="text-[10px] sm:text-[11px] text-text-dim tabular leading-tight">
+                            ₩{fmtKRW(Math.round(item.avgTargetKrw), locale)}
+                          </div>
+                        )}
                       </div>
                     )}
                     {/* 중장기 = 컨센 평균목표 vs 정규장 종가 */}
@@ -354,6 +360,11 @@ export function HomeHero({
                         <div className={`text-sm sm:text-lg font-bold tabular ${longColor}`}>
                           {longIsUp ? "▲ +" : longIsDn ? "▼ " : ""}{Math.abs(item.upsideLongPct).toFixed(1)}%
                         </div>
+                        {item.avgTargetLongKrw != null && (
+                          <div className="text-[10px] sm:text-[11px] text-text-dim tabular leading-tight">
+                            ₩{fmtKRW(Math.round(item.avgTargetLongKrw), locale)}
+                          </div>
+                        )}
                       </div>
                     )}
                   </div>

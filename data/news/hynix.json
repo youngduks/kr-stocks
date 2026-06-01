@@ -1,14 +1,126 @@
 {
   "category": "hynix",
-  "updated_at": "2026-05-31T23:55:45.188Z",
-  "count": 14,
+  "updated_at": "2026-06-01T02:40:54.469Z",
+  "count": 21,
   "items": [
     {
-      "title": "[더벨]마음AI, NVIDIA 기반 Physical AI 전문인재 양성 본격화",
-      "link": "https://www.mt.co.kr/stock/2026/06/01/2026060108449690128",
+      "title": "삼성전자-성호전자, 실리콘 포토닉스 공동 개발…AI 반도체 병목 해소 나선다",
+      "link": "https://www.mt.co.kr/stock/2026/06/01/2026060111260287030",
       "source": "머니투데이",
-      "ts": 1780271183000,
-      "pub": "Mon, 01 Jun 2026 08:46:23 +0900",
+      "ts": 1780281265000,
+      "pub": "Mon, 01 Jun 2026 11:34:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "5월에도 질주한 반도체…한국 수출 42% 돌파 '역대 최고'",
+      "link": "https://www.yna.co.kr/view/AKR20260601068600003",
+      "source": "연합뉴스 경제",
+      "ts": 1780281150000,
+      "pub": "Mon, 1 Jun 2026 11:32:30 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"PC 새시대\" 젠슨황 대만 '좌표' 찍었다…엔비디아 PC, 시장 흔들까",
+      "link": "https://www.mt.co.kr/world/2026/06/01/2026060109510427506",
+      "source": "머니투데이",
+      "ts": 1780280984000,
+      "pub": "Mon, 01 Jun 2026 11:29:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "화웨이 부회장, '타우 법칙' 공개 속 전체 반도체업계 참여 호소",
+      "link": "https://www.yna.co.kr/view/AKR20260601070300009",
+      "source": "연합뉴스 국제",
+      "ts": 1780280899000,
+      "pub": "Mon, 1 Jun 2026 11:28:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자, 10% 가까이 급등…SK하이닉스 상승 전환(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260601036551008",
+      "source": "연합뉴스 경제",
+      "ts": 1780280020000,
+      "pub": "Mon, 1 Jun 2026 11:13:40 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "메모리 랠리 거세지는 논쟁…\"더 간다\" vs \"닷컴버블 닮아\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260601000851072",
+      "source": "연합뉴스 국제",
+      "ts": 1780279923000,
+      "pub": "Mon, 1 Jun 2026 11:12:03 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[뉴스프레소] 뉴욕증시, 사상 최고치 랠리… 엔비디아, 컴퓨텍스서 또 한번 혁신 예고",
+      "link": "https://www.mt.co.kr/world/2026/06/01/2026060110517087212",
+      "source": "머니투데이",
+      "ts": 1780279543000,
+      "pub": "Mon, 01 Jun 2026 11:05:43 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "AI 반도체 타고 유리기판 뜨자…팸텍, 웨이퍼 로봇 기업 통째로 인수",
+      "link": "https://www.hankyung.com/article/202606010219i",
+      "source": "한국경제",
+      "ts": 1780278076000,
+      "pub": "Mon, 01 Jun 2026 10:41:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"석유보다 비싼 메모리칩\"…빅3 시총이 오일 빅3 웃돈다",
+      "link": "https://www.yna.co.kr/view/AKR20260601027200009",
+      "source": "연합뉴스 국제",
+      "ts": 1780278011000,
+      "pub": "Mon, 1 Jun 2026 10:40:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"한국 AI 안보인다고?\" SK하이닉스 성공 비결에 '국산 AI, 독파모' 있다",
+      "link": "https://www.mt.co.kr/tech/2026/06/01/2026060109090434798",
+      "source": "머니투데이",
+      "ts": 1780276945000,
+      "pub": "Mon, 01 Jun 2026 10:22:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"스페이스X 공모자금 어디로?…메모리 넘어 베팅\"",
+      "link": "https://www.yna.co.kr/view/AKR20260601011500009",
+      "source": "연합뉴스 국제",
+      "ts": 1780275287000,
+      "pub": "Mon, 1 Jun 2026 09:54:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한화운용 \"글로벌HBM반도체 ETF 순자산 1조원 클럽 입성\"",
+      "link": "https://www.yna.co.kr/view/AKR20260601045600008",
+      "source": "연합뉴스 경제",
+      "ts": 1780275257000,
+      "pub": "Mon, 1 Jun 2026 09:54:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[마켓 라이브] 코스피 8600→8700 돌파…반도체·LG그룹주 급등",
+      "link": "https://www.hankyung.com/article/202606019940i",
+      "source": "한국경제",
+      "ts": 1780274774000,
+      "pub": "Mon, 01 Jun 2026 09:46:14 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[특징주] 삼성전자, 장 초반 2%대 상승…SK하이닉스는 하락",
+      "link": "https://www.yna.co.kr/view/AKR20260601036500008",
+      "source": "연합뉴스 경제",
+      "ts": 1780273986000,
+      "pub": "Mon, 1 Jun 2026 09:33:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] '슈퍼 사이클' 반도체 5월 수출 372억달러…역대 1위",
+      "link": "https://www.yna.co.kr/view/AKR20260601025000003",
+      "source": "연합뉴스 경제",
+      "ts": 1780272007000,
+      "pub": "Mon, 1 Jun 2026 09:00:07 +0900",
       "sentiment": "neutral"
     },
     {
@@ -17,22 +129,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780270227000,
       "pub": "Mon, 1 Jun 2026 08:30:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한울반도체 \"김기원 부회장, 자사주 매입…주주가치 제고·책임경영\"",
-      "link": "https://www.mt.co.kr/stock/2026/06/01/2026060108031392659",
-      "source": "머니투데이",
-      "ts": 1780269841000,
-      "pub": "Mon, 01 Jun 2026 08:24:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"에코프로에이치엔, 반도체 팹 증설 수혜주\"-DS",
-      "link": "https://www.hankyung.com/article/2026060194636",
-      "source": "한국경제",
-      "ts": 1780267837000,
-      "pub": "Mon, 01 Jun 2026 07:50:37 +0900",
       "sentiment": "neutral"
     },
     {
@@ -52,14 +148,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "반도체 '화력' 여전… 사상 최고치 찍은 코스피 9000 갈까",
-      "link": "https://www.mt.co.kr/stock/2026/06/01/2026053119545024073",
-      "source": "머니투데이",
-      "ts": 1780254240000,
-      "pub": "Mon, 01 Jun 2026 04:04:00 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "마이크론 '1조달러' 진입에 美서도 AI 거품논란 재점화",
       "link": "https://www.yna.co.kr/view/AKR20260601000800072",
       "source": "연합뉴스 국제",
@@ -76,43 +164,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "보은 반도체 가스제조업체서 폭발 추정 사고…포스핀 가스 누출",
-      "link": "https://www.hankyung.com/article/2026053192877",
-      "source": "한국경제",
-      "ts": 1780226028000,
-      "pub": "Sun, 31 May 2026 20:13:48 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "한은 \"경제안보 시대, 반도체 등 핵심 제조공정 국내 유지해야\"",
       "link": "https://www.yna.co.kr/view/AKR20260530049200002",
       "source": "연합뉴스 경제",
       "ts": 1780196407000,
       "pub": "Sun, 31 May 2026 12:00:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스도 임협 시즌…\"우리도 주택대출 5억\" 요구 부상",
-      "link": "https://www.yna.co.kr/view/AKR20260529157800003",
-      "source": "연합뉴스 경제",
-      "ts": 1780174500000,
-      "pub": "Sun, 31 May 2026 05:55:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "韓경제 이끄는 반도체…생산 13% 늘 때 임금 일자리 2% 증가",
-      "link": "https://www.yna.co.kr/view/AKR20260530056300002",
-      "source": "연합뉴스 경제",
-      "ts": 1780174022000,
-      "pub": "Sun, 31 May 2026 05:47:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 훈풍 부는데…성장률·소득 증가율 격차 2년만에 최대",
-      "link": "https://www.yna.co.kr/view/AKR20260530002600002",
-      "source": "연합뉴스 경제",
-      "ts": 1780174020000,
-      "pub": "Sun, 31 May 2026 05:47:00 +0900",
       "sentiment": "neutral"
     }
   ]

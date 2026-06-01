@@ -1,46 +1,86 @@
 {
   "category": "intl",
-  "updated_at": "2026-05-31T23:55:45.161Z",
-  "count": 22,
+  "updated_at": "2026-06-01T02:40:54.466Z",
+  "count": 23,
   "items": [
+    {
+      "title": "관세 가상계좌 납부 금융기관 '우리은행'·'우정사업본부' 추가",
+      "link": "https://www.mt.co.kr/policy/2026/06/01/2026060110565578742",
+      "source": "머니투데이",
+      "ts": 1780281061000,
+      "pub": "Mon, 01 Jun 2026 11:31:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[게시판] 관세청, 관세 가상계좌 납부기관 '우리은행·우체국'으로 확대",
+      "link": "https://www.yna.co.kr/view/AKR20260601071200002",
+      "source": "연합뉴스 경제",
+      "ts": 1780280802000,
+      "pub": "Mon, 1 Jun 2026 11:26:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "관세청장 \"정부 출범 1년간 마약 3.2t 적발…개청 이래 최대\"",
+      "link": "https://www.yna.co.kr/view/AKR20260601067000002",
+      "source": "연합뉴스 경제",
+      "ts": 1780279932000,
+      "pub": "Mon, 1 Jun 2026 11:12:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이스라엘, 미국에 레바논 수도 베이루트 공습확대 요청\"",
+      "link": "https://www.yna.co.kr/view/AKR20260601064200009",
+      "source": "연합뉴스 국제",
+      "ts": 1780279165000,
+      "pub": "Mon, 1 Jun 2026 10:59:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] EU 철강 관세에 노조 임단협까지…철강주 약세",
+      "link": "https://www.yna.co.kr/view/AKR20260601059500008",
+      "source": "연합뉴스 경제",
+      "ts": 1780278149000,
+      "pub": "Mon, 1 Jun 2026 10:42:29 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "젤렌스키 \"우크라, 모든 종류 드론 보유…EU와 대규모 협정 앞둬\"",
+      "link": "https://www.yna.co.kr/view/AKR20260601058700009",
+      "source": "연합뉴스 국제",
+      "ts": 1780278005000,
+      "pub": "Mon, 1 Jun 2026 10:40:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라·가자 이어…트럼프, 이란도 '냉혹한 현실의 벽'",
+      "link": "https://www.yna.co.kr/view/AKR20260601026600009",
+      "source": "연합뉴스 국제",
+      "ts": 1780277134000,
+      "pub": "Mon, 1 Jun 2026 10:25:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"인지력 검사 만점\"…건강 자랑에 '의문 남았다' 지적도(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260601001551071",
+      "source": "연합뉴스 국제",
+      "ts": 1780272207000,
+      "pub": "Mon, 1 Jun 2026 09:03:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "펜스 前부통령 \"트럼프 2기 행정부, 보수주의 원칙서 벗어났다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260601024800009",
+      "source": "연합뉴스 국제",
+      "ts": 1780271939000,
+      "pub": "Mon, 1 Jun 2026 08:58:59 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "트럼프 \"이란, 핵무기 개발은 물론 구매도 안돼…이란도 동의\"",
       "link": "https://www.yna.co.kr/view/AKR20260601015400071",
       "source": "연합뉴스 국제",
       "ts": 1780268353000,
       "pub": "Mon, 1 Jun 2026 07:59:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "베선트 \"트럼프, 군사·경제적 수단 동원 이란 합의 이행시킬 것\"",
-      "link": "https://www.mt.co.kr/world/2026/06/01/2026060105121122787",
-      "source": "머니투데이",
-      "ts": 1780263991000,
-      "pub": "Mon, 01 Jun 2026 06:46:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "브로드컴·HPE·사이버 보안주 실적…고용지표도 관심[이번주 美 증시는]",
-      "link": "https://www.mt.co.kr/world/2026/06/01/2026053117475540956",
-      "source": "머니투데이",
-      "ts": 1780259700000,
-      "pub": "Mon, 01 Jun 2026 05:35:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 종전 MOU 최종승인 미뤘다",
-      "link": "https://www.mt.co.kr/world/2026/06/01/2026053119495259950",
-      "source": "머니투데이",
-      "ts": 1780254420000,
-      "pub": "Mon, 01 Jun 2026 04:07:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 이름 빼라\" 美법원, 케네디센터 개명 제동",
-      "link": "https://www.mt.co.kr/world/2026/06/01/2026053119523059418",
-      "source": "머니투데이",
-      "ts": 1780254240000,
-      "pub": "Mon, 01 Jun 2026 04:04:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -145,38 +185,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780196027000,
       "pub": "Sun, 31 May 2026 11:53:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 '바퀴달린 킬러로봇' 대거 투입…전쟁 판도 바꿨다",
-      "link": "https://www.yna.co.kr/view/AKR20260531006200009",
-      "source": "연합뉴스 국제",
-      "ts": 1780181437000,
-      "pub": "Sun, 31 May 2026 07:50:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[뉴욕증시-주간전망] 트럼프 '최종 결단'은 매도 버튼일까…비농업 고용도 주시",
-      "link": "https://www.yna.co.kr/view/AKR20260531005300009",
-      "source": "연합뉴스 국제",
-      "ts": 1780178402000,
-      "pub": "Sun, 31 May 2026 07:00:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"우크라 드론, 자포리자 원전 공격\"…러-우 공격 지속",
-      "link": "https://www.yna.co.kr/view/AKR20260531002300099",
-      "source": "연합뉴스 국제",
-      "ts": 1780169196000,
-      "pub": "Sun, 31 May 2026 04:26:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 케네디센터 판결 거듭 비난…\"판사 아내 급진좌파 인사\"",
-      "link": "https://www.yna.co.kr/view/AKR20260531001900071",
-      "source": "연합뉴스 국제",
-      "ts": 1780162384000,
-      "pub": "Sun, 31 May 2026 02:33:04 +0900",
       "sentiment": "neutral"
     }
   ]

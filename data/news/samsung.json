@@ -1,15 +1,95 @@
 {
   "category": "samsung",
-  "updated_at": "2026-05-31T23:55:45.186Z",
-  "count": 10,
+  "updated_at": "2026-06-01T02:40:54.468Z",
+  "count": 13,
   "items": [
     {
-      "title": "삼성전자 덕에…삼성생명, 한 달 만에 54% 폭등한 이유",
-      "link": "https://www.hankyung.com/article/202605295906i",
-      "source": "한국경제",
-      "ts": 1780266604000,
-      "pub": "Mon, 01 Jun 2026 07:30:04 +0900",
+      "title": "삼성전자-성호전자, 실리콘 포토닉스 공동 개발…AI 반도체 병목 해소 나선다",
+      "link": "https://www.mt.co.kr/stock/2026/06/01/2026060111260287030",
+      "source": "머니투데이",
+      "ts": 1780281265000,
+      "pub": "Mon, 01 Jun 2026 11:34:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자, 10% 가까이 급등…SK하이닉스 상승 전환(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260601036551008",
+      "source": "연합뉴스 경제",
+      "ts": 1780280020000,
+      "pub": "Mon, 1 Jun 2026 11:13:40 +0900",
       "sentiment": "positive"
+    },
+    {
+      "title": "메모리 랠리 거세지는 논쟁…\"더 간다\" vs \"닷컴버블 닮아\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260601000851072",
+      "source": "연합뉴스 국제",
+      "ts": 1780279923000,
+      "pub": "Mon, 1 Jun 2026 11:12:03 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "코스피, 장중 사상 첫 8,800선 돌파…삼성전자 9%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20260601066300008",
+      "source": "연합뉴스 경제",
+      "ts": 1780279233000,
+      "pub": "Mon, 1 Jun 2026 11:00:33 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼성전자 주가 34만원 넘어 신고가…단일종목 최초 시총 2000조 돌파",
+      "link": "https://www.mt.co.kr/stock/2026/06/01/2026060110515494802",
+      "source": "머니투데이",
+      "ts": 1780278754000,
+      "pub": "Mon, 01 Jun 2026 10:52:34 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"석유보다 비싼 메모리칩\"…빅3 시총이 오일 빅3 웃돈다",
+      "link": "https://www.yna.co.kr/view/AKR20260601027200009",
+      "source": "연합뉴스 국제",
+      "ts": 1780278011000,
+      "pub": "Mon, 1 Jun 2026 10:40:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 삼성전자, 사상 첫 단일 종목 시총 2000조 돌파",
+      "link": "https://www.mt.co.kr/stock/2026/06/01/2026060110343292559",
+      "source": "머니투데이",
+      "ts": 1780277707000,
+      "pub": "Mon, 01 Jun 2026 10:35:07 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "주주단체 \"국회는 선거 전 '삼성전자 위법배당' 관련 입장 밝혀야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260601049400004",
+      "source": "연합뉴스 경제",
+      "ts": 1780275878000,
+      "pub": "Mon, 1 Jun 2026 10:04:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"스페이스X 공모자금 어디로?…메모리 넘어 베팅\"",
+      "link": "https://www.yna.co.kr/view/AKR20260601011500009",
+      "source": "연합뉴스 국제",
+      "ts": 1780275287000,
+      "pub": "Mon, 1 Jun 2026 09:54:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한화운용 \"글로벌HBM반도체 ETF 순자산 1조원 클럽 입성\"",
+      "link": "https://www.yna.co.kr/view/AKR20260601045600008",
+      "source": "연합뉴스 경제",
+      "ts": 1780275257000,
+      "pub": "Mon, 1 Jun 2026 09:54:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자, 장 초반 2%대 상승…SK하이닉스는 하락",
+      "link": "https://www.yna.co.kr/view/AKR20260601036500008",
+      "source": "연합뉴스 경제",
+      "ts": 1780273986000,
+      "pub": "Mon, 1 Jun 2026 09:33:06 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "[소셜＋] \"의대 비켜라\"…직업체험관서 청소년 사로잡은 '삼전닉스'",
@@ -20,68 +100,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "영업익 절반으로 '삼전닉스' 산 침구회사…500억 '잭팟' 터졌다",
-      "link": "https://www.hankyung.com/article/2026060193857",
-      "source": "한국경제",
-      "ts": 1780262857000,
-      "pub": "Mon, 01 Jun 2026 06:27:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "메모리 가격 두배 폭등하자 삼성·LG 전자제품 원가부담 껑충",
       "link": "https://www.yna.co.kr/view/AKR20260529163600003",
       "source": "연합뉴스 경제",
       "ts": 1780261500000,
       "pub": "Mon, 1 Jun 2026 06:05:00 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "\"갓 졸업한 고3 모셔갑니다\"…삼전닉스 러브콜 받는 학교",
-      "link": "https://www.hankyung.com/article/2026053191571",
-      "source": "한국경제",
-      "ts": 1780261217000,
-      "pub": "Mon, 01 Jun 2026 06:00:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[우보세]삼전닉스 레버리지 광풍 누가 부추겼나",
-      "link": "https://www.mt.co.kr/opinion/2026/06/01/2026052915480764073",
-      "source": "머니투데이",
-      "ts": 1780259400000,
-      "pub": "Mon, 01 Jun 2026 05:30:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'사업보국' 이어가는 이재용… 올초부터 사회기여 방안 검토",
-      "link": "https://www.mt.co.kr/industry/2026/06/01/2026053119492129532",
-      "source": "머니투데이",
-      "ts": 1780255260000,
-      "pub": "Mon, 01 Jun 2026 04:21:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스도 없어서 못 산다…\"생존 걸려\" 재생e 확보 '발등에 불'",
-      "link": "https://www.mt.co.kr/industry/2026/06/01/2026051407245019778",
-      "source": "머니투데이",
-      "ts": 1780255207000,
-      "pub": "Mon, 01 Jun 2026 04:20:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "농부가 판 전기로 삼전닉스 공장 돌린다…논밭서 자라는 RE100 해법",
-      "link": "https://www.mt.co.kr/industry/2026/06/01/2026051406120975373",
-      "source": "머니투데이",
-      "ts": 1780254607000,
-      "pub": "Mon, 01 Jun 2026 04:10:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'불기둥' 삼전닉스 주요임원 자사주 수익률 보니…최대 400%",
-      "link": "https://www.yna.co.kr/view/AKR20260530045700008",
-      "source": "연합뉴스 경제",
-      "ts": 1780180500000,
-      "pub": "Sun, 31 May 2026 07:35:00 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

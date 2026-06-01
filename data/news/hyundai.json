@@ -1,22 +1,30 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-06-01T14:49:43.031Z",
-  "count": 4,
+  "updated_at": "2026-06-01T19:51:01.082Z",
+  "count": 5,
   "items": [
+    {
+      "title": "'부품난 여파' 현대차 판매량 두달째 주춤",
+      "link": "https://www.mt.co.kr/industry/2026/06/02/2026060120062715517",
+      "source": "머니투데이",
+      "ts": 1780340820000,
+      "pub": "Tue, 02 Jun 2026 04:07:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[오피셜] 현대모비스, NBA 1라운드 베즐리 영입+프림 복귀... 외인 구성 완료",
+      "link": "https://www.mt.co.kr/sports/2026/06/02/2026060201191388279",
+      "source": "머니투데이",
+      "ts": 1780331855000,
+      "pub": "Tue, 02 Jun 2026 01:37:35 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"일본, 美 '제네시스 미션' 참여…中과의 기술 경쟁서 우위 확보 의도\"",
       "link": "https://www.mt.co.kr/world/2026/06/01/2026060119083748486",
       "source": "머니투데이",
       "ts": 1780309409000,
       "pub": "Mon, 01 Jun 2026 19:23:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "현대차 부품난에 팰리세이드 판매 76%↓…기아는 전기차 '질주'",
-      "link": "https://www.mt.co.kr/industry/2026/06/01/2026060116231180094",
-      "source": "머니투데이",
-      "ts": 1780303743000,
-      "pub": "Mon, 01 Jun 2026 17:49:03 +0900",
       "sentiment": "neutral"
     },
     {

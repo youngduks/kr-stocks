@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-01T14:49:43.031Z",
-  "count": 18,
+  "updated_at": "2026-06-01T19:51:01.081Z",
+  "count": 15,
   "items": [
+    {
+      "title": "젠슨황·K메모리 '깐부동맹' 시즌2",
+      "link": "https://www.mt.co.kr/industry/2026/06/02/2026060120053160456",
+      "source": "머니투데이",
+      "ts": 1780340760000,
+      "pub": "Tue, 02 Jun 2026 04:06:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[사설]또 반도체 볼모 파업위협, '노봉법' 청구서",
+      "link": "https://www.mt.co.kr/opinion/2026/06/02/2026060114232418034",
+      "source": "머니투데이",
+      "ts": 1780340700000,
+      "pub": "Tue, 02 Jun 2026 04:05:00 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[사설]반도체 의존한 수출 신기록, 그늘도 짚어야",
+      "link": "https://www.mt.co.kr/opinion/2026/06/02/2026060116514890043",
+      "source": "머니투데이",
+      "ts": 1780340400000,
+      "pub": "Tue, 02 Jun 2026 04:00:00 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "젠슨 황 \"엔비디아, 한국 로보틱스에 투자하겠다\"",
       "link": "https://www.hankyung.com/article/2026060117721",
@@ -33,38 +57,6 @@
       "source": "머니투데이",
       "ts": 1780305600000,
       "pub": "Mon, 01 Jun 2026 18:20:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"급등했지만 더 오른다?\" 메모리·CPU에 올인…엔비디아는 외면[서학픽]",
-      "link": "https://www.mt.co.kr/world/2026/06/01/2026060112295057343",
-      "source": "머니투데이",
-      "ts": 1780304700000,
-      "pub": "Mon, 01 Jun 2026 18:05:00 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "SK㈜ 미래성장 담당 및 SK하이닉스 에너지TF 사장에 정승일",
-      "link": "https://www.mt.co.kr/industry/2026/06/01/2026060117503726847",
-      "source": "머니투데이",
-      "ts": 1780304012000,
-      "pub": "Mon, 01 Jun 2026 17:53:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젠슨 황의 한국 HBM 동맹에 웃고 있는 대만 메모리 기업",
-      "link": "https://www.mt.co.kr/industry/2026/06/01/2026060116563164846",
-      "source": "머니투데이",
-      "ts": 1780303800000,
-      "pub": "Mon, 01 Jun 2026 17:50:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"CPU는 지휘자, GPU는 오케스트라\"..엔비디아-韓 협력 더 넓고·깊어진다",
-      "link": "https://www.mt.co.kr/industry/2026/06/01/2026060114261379464",
-      "source": "머니투데이",
-      "ts": 1780301987000,
-      "pub": "Mon, 01 Jun 2026 17:19:47 +0900",
       "sentiment": "neutral"
     },
     {
@@ -130,22 +122,6 @@
       "ts": 1780279923000,
       "pub": "Mon, 1 Jun 2026 11:12:03 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "\"석유보다 비싼 메모리칩\"…빅3 시총이 오일 빅3 웃돈다",
-      "link": "https://www.yna.co.kr/view/AKR20260601027200009",
-      "source": "연합뉴스 국제",
-      "ts": 1780278011000,
-      "pub": "Mon, 1 Jun 2026 10:40:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"스페이스X 공모자금 어디로?…메모리 넘어 베팅\"",
-      "link": "https://www.yna.co.kr/view/AKR20260601011500009",
-      "source": "연합뉴스 국제",
-      "ts": 1780275287000,
-      "pub": "Mon, 1 Jun 2026 09:54:47 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

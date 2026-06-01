@@ -1,8 +1,48 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-01T14:49:43.028Z",
-  "count": 16,
+  "updated_at": "2026-06-01T19:51:01.080Z",
+  "count": 15,
   "items": [
+    {
+      "title": "코스피 또 사상 '최고'… 개미, 올해 삼전닉스 53조 순매수",
+      "link": "https://www.mt.co.kr/stock/2026/06/02/2026060120191644430",
+      "source": "머니투데이",
+      "ts": 1780341600000,
+      "pub": "Tue, 02 Jun 2026 04:20:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "레미콘운송노조 '삼전닉스' 볼모 잡고 파업 예고",
+      "link": "https://www.mt.co.kr/industry/2026/06/02/2026060120110154470",
+      "source": "머니투데이",
+      "ts": 1780341120000,
+      "pub": "Tue, 02 Jun 2026 04:12:00 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "젠슨황·K메모리 '깐부동맹' 시즌2",
+      "link": "https://www.mt.co.kr/industry/2026/06/02/2026060120053160456",
+      "source": "머니투데이",
+      "ts": 1780340760000,
+      "pub": "Tue, 02 Jun 2026 04:06:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "5년 연속 '호암상' 찾은 이재용… '인재제일' 철학 잇는다",
+      "link": "https://www.mt.co.kr/industry/2026/06/02/2026060120020834879",
+      "source": "머니투데이",
+      "ts": 1780340640000,
+      "pub": "Tue, 02 Jun 2026 04:04:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'삼전닉스' 날개 달고… 5월 수출 878억弗",
+      "link": "https://www.mt.co.kr/economy/2026/06/02/2026060119474162873",
+      "source": "머니투데이",
+      "ts": 1780340400000,
+      "pub": "Tue, 02 Jun 2026 04:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"주가 61만원 간다\"…삼성전자 또 역대급 전망에 '들썩' [종목+]",
       "link": "https://www.hankyung.com/article/2026060114866",
@@ -33,38 +73,6 @@
       "source": "머니투데이",
       "ts": 1780305600000,
       "pub": "Mon, 01 Jun 2026 18:20:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"급등했지만 더 오른다?\" 메모리·CPU에 올인…엔비디아는 외면[서학픽]",
-      "link": "https://www.mt.co.kr/world/2026/06/01/2026060112295057343",
-      "source": "머니투데이",
-      "ts": 1780304700000,
-      "pub": "Mon, 01 Jun 2026 18:05:00 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'신고가' 삼전닉스 \"지금도 할인중\"…61만전자·400만닉스 파격 전망",
-      "link": "https://www.mt.co.kr/stock/2026/06/01/2026060117530839690",
-      "source": "머니투데이",
-      "ts": 1780304264000,
-      "pub": "Mon, 01 Jun 2026 17:57:44 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "젠슨 황의 한국 HBM 동맹에 웃고 있는 대만 메모리 기업",
-      "link": "https://www.mt.co.kr/industry/2026/06/01/2026060116563164846",
-      "source": "머니투데이",
-      "ts": 1780303800000,
-      "pub": "Mon, 01 Jun 2026 17:50:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "달리는 삼전닉스에 올라탄 코스피…코스피 쏠림 현상 걱정없다?",
-      "link": "https://www.mt.co.kr/stock/2026/06/01/2026060116551629114",
-      "source": "머니투데이",
-      "ts": 1780300878000,
-      "pub": "Mon, 01 Jun 2026 17:01:18 +0900",
       "sentiment": "neutral"
     },
     {
@@ -114,22 +122,6 @@
       "ts": 1780279233000,
       "pub": "Mon, 1 Jun 2026 11:00:33 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "\"석유보다 비싼 메모리칩\"…빅3 시총이 오일 빅3 웃돈다",
-      "link": "https://www.yna.co.kr/view/AKR20260601027200009",
-      "source": "연합뉴스 국제",
-      "ts": 1780278011000,
-      "pub": "Mon, 1 Jun 2026 10:40:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"스페이스X 공모자금 어디로?…메모리 넘어 베팅\"",
-      "link": "https://www.yna.co.kr/view/AKR20260601011500009",
-      "source": "연합뉴스 국제",
-      "ts": 1780275287000,
-      "pub": "Mon, 1 Jun 2026 09:54:47 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

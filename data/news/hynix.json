@@ -1,8 +1,40 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-01T19:51:01.081Z",
-  "count": 15,
+  "updated_at": "2026-06-01T22:28:54.454Z",
+  "count": 16,
   "items": [
+    {
+      "title": "[시선강탈] 제주반도체 vs 대한전선 vs 레인보우로보틱스, 공략법은?",
+      "link": "https://www.mt.co.kr/stock/2026/06/02/2026060206277072750",
+      "source": "머니투데이",
+      "ts": 1780351024000,
+      "pub": "Tue, 02 Jun 2026 06:57:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'트럼프 반전'에 '엔비디아 칩' 더했다…3대지수 사상 최고치[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/06/02/2026060206415854759",
+      "source": "머니투데이",
+      "ts": 1780350557000,
+      "pub": "Tue, 02 Jun 2026 06:49:17 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "뉴욕증시 3대지수, 유가상승에도 최고치 마감…엔비디아 6%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260602007851072",
+      "source": "연합뉴스 국제",
+      "ts": 1780347153000,
+      "pub": "Tue, 2 Jun 2026 05:52:33 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[기고]반도체 호황을 다시 읽어야 할 때",
+      "link": "https://www.mt.co.kr/opinion/2026/06/02/2026060115072542401",
+      "source": "머니투데이",
+      "ts": 1780347000000,
+      "pub": "Tue, 02 Jun 2026 05:50:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "젠슨황·K메모리 '깐부동맹' 시즌2",
       "link": "https://www.mt.co.kr/industry/2026/06/02/2026060120053160456",
@@ -52,14 +84,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"땡큐 코리아\" 외친 젠슨 황, 더 돈독해진 엔비디아·K메모리 '깐부'",
-      "link": "https://www.mt.co.kr/industry/2026/06/01/2026060115515453112",
-      "source": "머니투데이",
-      "ts": 1780305600000,
-      "pub": "Mon, 01 Jun 2026 18:20:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[특징주] '대장주' 삼전이 10% 급등…SK하이닉스도 1%대 상승(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260601036552008",
       "source": "연합뉴스 경제",
@@ -100,27 +124,11 @@
       "sentiment": "positive"
     },
     {
-      "title": "화웨이 부회장, '타우 법칙' 공개 속 전체 반도체업계 참여 호소",
-      "link": "https://www.yna.co.kr/view/AKR20260601070300009",
-      "source": "연합뉴스 국제",
-      "ts": 1780280899000,
-      "pub": "Mon, 1 Jun 2026 11:28:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[특징주] 삼성전자, 10% 가까이 급등…SK하이닉스 상승 전환(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260601036551008",
       "source": "연합뉴스 경제",
       "ts": 1780280020000,
       "pub": "Mon, 1 Jun 2026 11:13:40 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "메모리 랠리 거세지는 논쟁…\"더 간다\" vs \"닷컴버블 닮아\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260601000851072",
-      "source": "연합뉴스 국제",
-      "ts": 1780279923000,
-      "pub": "Mon, 1 Jun 2026 11:12:03 +0900",
       "sentiment": "positive"
     }
   ]

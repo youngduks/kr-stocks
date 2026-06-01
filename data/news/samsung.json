@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-01T19:51:01.080Z",
-  "count": 15,
+  "updated_at": "2026-06-01T22:28:54.453Z",
+  "count": 13,
   "items": [
+    {
+      "title": "쌀 나는 논에서 '산업의 쌀' 키울 전기 수확…삼전 RE100 해법 찾았다",
+      "link": "https://www.mt.co.kr/industry/2026/06/02/2026060122443967383",
+      "source": "머니투데이",
+      "ts": 1780347600000,
+      "pub": "Tue, 02 Jun 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "코스피 또 사상 '최고'… 개미, 올해 삼전닉스 53조 순매수",
       "link": "https://www.mt.co.kr/stock/2026/06/02/2026060120191644430",
@@ -60,22 +68,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'34만전자' 주가 불 뿜더니…이재용 회장 주식 재산 '60조' 돌파",
-      "link": "https://www.mt.co.kr/stock/2026/06/01/2026060119543242682",
-      "source": "머니투데이",
-      "ts": 1780311744000,
-      "pub": "Mon, 01 Jun 2026 20:02:24 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\"땡큐 코리아\" 외친 젠슨 황, 더 돈독해진 엔비디아·K메모리 '깐부'",
-      "link": "https://www.mt.co.kr/industry/2026/06/01/2026060115515453112",
-      "source": "머니투데이",
-      "ts": 1780305600000,
-      "pub": "Mon, 01 Jun 2026 18:20:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[특징주] '대장주' 삼전이 10% 급등…SK하이닉스도 1%대 상승(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260601036552008",
       "source": "연합뉴스 경제",
@@ -105,14 +97,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780280020000,
       "pub": "Mon, 1 Jun 2026 11:13:40 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "메모리 랠리 거세지는 논쟁…\"더 간다\" vs \"닷컴버블 닮아\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260601000851072",
-      "source": "연합뉴스 국제",
-      "ts": 1780279923000,
-      "pub": "Mon, 1 Jun 2026 11:12:03 +0900",
       "sentiment": "positive"
     },
     {

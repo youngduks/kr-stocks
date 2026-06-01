@@ -1,8 +1,88 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-01T19:51:01.074Z",
-  "count": 34,
+  "updated_at": "2026-06-01T22:28:54.452Z",
+  "count": 39,
   "items": [
+    {
+      "title": "[속보] 트럼프 \"다음주 내 이란과 휴전 연장·호르무즈 재개방 이뤄질 것\"",
+      "link": "https://www.mt.co.kr/world/2026/06/02/2026060206523057837",
+      "source": "머니투데이",
+      "ts": 1780351576000,
+      "pub": "Tue, 02 Jun 2026 07:06:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"1주일내 '휴전연장·호르무즈 개방' 합의 예상\"",
+      "link": "https://www.yna.co.kr/view/AKR20260602015300071",
+      "source": "연합뉴스 국제",
+      "ts": 1780351357000,
+      "pub": "Tue, 2 Jun 2026 07:02:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프 행정부, 여야 반발 속 사법 피해 보상 기금 포기할 듯\"",
+      "link": "https://www.mt.co.kr/world/2026/06/02/2026060205341132069",
+      "source": "머니투데이",
+      "ts": 1780350653000,
+      "pub": "Tue, 02 Jun 2026 06:50:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"다음주 이란과 휴전 연장·호르무즈 개방 합의 예상\"",
+      "link": "https://www.hankyung.com/article/2026060218867",
+      "source": "한국경제",
+      "ts": 1780350620000,
+      "pub": "Tue, 02 Jun 2026 06:50:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'트럼프 반전'에 '엔비디아 칩' 더했다…3대지수 사상 최고치[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/06/02/2026060206415854759",
+      "source": "머니투데이",
+      "ts": 1780350557000,
+      "pub": "Tue, 02 Jun 2026 06:49:17 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[속보] 트럼프 \"다음주 이란과 휴전 연장·호르무즈 개방 합의 예상\"",
+      "link": "https://www.yna.co.kr/view/AKR20260602013900009",
+      "source": "연합뉴스 국제",
+      "ts": 1780350481000,
+      "pub": "Tue, 2 Jun 2026 06:48:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[인&아웃] 트럼프의 국가 브랜드 사유화",
+      "link": "https://www.yna.co.kr/view/AKR20260601092600546",
+      "source": "연합뉴스 국제",
+      "ts": 1780349401000,
+      "pub": "Tue, 2 Jun 2026 06:30:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"미·이란 대화 진행 중…이스라엘·헤즈볼라 교전 중단\"",
+      "link": "https://www.hankyung.com/article/2026060218587",
+      "source": "한국경제",
+      "ts": 1780348378000,
+      "pub": "Tue, 02 Jun 2026 06:12:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"레바논과 국경 다시 긋자\"는 이스라엘…이란전 휴전 '뜨거운 감자'로 [이상은의 워싱턴나우]",
+      "link": "https://www.hankyung.com/article/202606021819i",
+      "source": "한국경제",
+      "ts": 1780345210000,
+      "pub": "Tue, 02 Jun 2026 05:20:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 여야 반발 직면한 '사법 피해자 기금' 철회할 듯\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260602001151071",
+      "source": "연합뉴스 국제",
+      "ts": 1780344228000,
+      "pub": "Tue, 2 Jun 2026 05:03:48 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"대선 패배 상처만 들춰\"…바이든 여사 회고록 홍보 구설수",
       "link": "https://www.yna.co.kr/view/AKR20260602005900071",
@@ -132,7 +212,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"美에 좋은 이란 합의할 것…편히 앉아 지켜보라\"",
+      "title": "트럼프 \"이란과 합의, 美에 유리하게 할것…편히 앉아 지켜보라\"",
       "link": "https://www.yna.co.kr/view/AKR20260601162900071",
       "source": "연합뉴스 국제",
       "ts": 1780320261000,
@@ -145,14 +225,6 @@
       "source": "한국경제",
       "ts": 1780319523000,
       "pub": "Mon, 01 Jun 2026 22:12:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "일본, 韓·中·대만산 철강 제품 반덤핑 조사…\"추가 관세 여부 판단\"",
-      "link": "https://www.mt.co.kr/world/2026/06/01/2026060117592798622",
-      "source": "머니투데이",
-      "ts": 1780304912000,
-      "pub": "Mon, 01 Jun 2026 18:08:32 +0900",
       "sentiment": "neutral"
     },
     {
@@ -228,22 +300,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "이스라엘, 레바논 침공 확대해 美-이란 종전협상 재뿌리나",
-      "link": "https://www.yna.co.kr/view/AKR20260601084100009",
-      "source": "연합뉴스 국제",
-      "ts": 1780283591000,
-      "pub": "Mon, 1 Jun 2026 12:13:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미국, 이스라엘·레바논에 휴전 압박…\"이번 주 추가 회담\"",
-      "link": "https://www.yna.co.kr/view/AKR20260601083600009",
-      "source": "연합뉴스 국제",
-      "ts": 1780283284000,
-      "pub": "Mon, 1 Jun 2026 12:08:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[게시판] 관세청, 관세 가상계좌 납부기관 '우리은행·우체국'으로 확대",
       "link": "https://www.yna.co.kr/view/AKR20260601071200002",
       "source": "연합뉴스 경제",
@@ -258,22 +314,6 @@
       "ts": 1780279932000,
       "pub": "Mon, 1 Jun 2026 11:12:12 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"이스라엘, 미국에 레바논 수도 베이루트 공습확대 요청\"",
-      "link": "https://www.yna.co.kr/view/AKR20260601064200009",
-      "source": "연합뉴스 국제",
-      "ts": 1780279165000,
-      "pub": "Mon, 1 Jun 2026 10:59:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] EU 철강 관세에 노조 임단협까지…철강주 약세",
-      "link": "https://www.yna.co.kr/view/AKR20260601059500008",
-      "source": "연합뉴스 경제",
-      "ts": 1780278149000,
-      "pub": "Mon, 1 Jun 2026 10:42:29 +0900",
-      "sentiment": "negative"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-06-01T19:51:01.082Z",
-  "count": 5,
+  "updated_at": "2026-06-01T22:28:54.454Z",
+  "count": 3,
   "items": [
     {
       "title": "'부품난 여파' 현대차 판매량 두달째 주춤",
@@ -20,27 +20,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"일본, 美 '제네시스 미션' 참여…中과의 기술 경쟁서 우위 확보 의도\"",
-      "link": "https://www.mt.co.kr/world/2026/06/01/2026060119083748486",
-      "source": "머니투데이",
-      "ts": 1780309409000,
-      "pub": "Mon, 01 Jun 2026 19:23:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "삼전닉스·현대차·LG엔솔 등 4개 개별주식 위클리옵션 29일 상장",
       "link": "https://www.yna.co.kr/view/AKR20260601090900008",
       "source": "연합뉴스 경제",
       "ts": 1780288504000,
       "pub": "Mon, 1 Jun 2026 13:35:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "日, 美 '제네시스 미션' 참여…5년간 AI분야 7천500억원 투자",
-      "link": "https://www.yna.co.kr/view/AKR20260601077100073",
-      "source": "연합뉴스 국제",
-      "ts": 1780282641000,
-      "pub": "Mon, 1 Jun 2026 11:57:21 +0900",
       "sentiment": "neutral"
     }
   ]

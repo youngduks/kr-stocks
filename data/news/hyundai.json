@@ -1,6 +1,55 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-06-01T02:40:54.470Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-06-01T08:23:04.802Z",
+  "count": 6,
+  "items": [
+    {
+      "title": "현대차, 5월 판매 32만5473대…전년 대비 7.7% 감소",
+      "link": "https://www.hankyung.com/article/202606011213g",
+      "source": "한국경제",
+      "ts": 1780298714000,
+      "pub": "Mon, 01 Jun 2026 16:25:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대자동차, 5월 32만5473대 판매…전년比 7.7% ↓",
+      "link": "https://www.mt.co.kr/industry/2026/06/01/2026060116170211448",
+      "source": "머니투데이",
+      "ts": 1780298510000,
+      "pub": "Mon, 01 Jun 2026 16:21:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젠슨 황 이번주 방한…최태원·구광모·정의선·박정원 만난다",
+      "link": "https://www.hankyung.com/article/202606011179i",
+      "source": "한국경제",
+      "ts": 1780297884000,
+      "pub": "Mon, 01 Jun 2026 16:11:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대자동차, '더 뉴 그랜저' 흥행 돌풍…사전계약 1만대 돌파",
+      "link": "https://www.hankyung.com/article/2026060101011",
+      "source": "한국경제",
+      "ts": 1780297340000,
+      "pub": "Mon, 01 Jun 2026 16:02:20 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼전닉스·현대차·LG엔솔 등 4개 개별주식 위클리옵션 29일 상장",
+      "link": "https://www.yna.co.kr/view/AKR20260601090900008",
+      "source": "연합뉴스 경제",
+      "ts": 1780288504000,
+      "pub": "Mon, 1 Jun 2026 13:35:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "日, 美 '제네시스 미션' 참여…5년간 AI분야 7천500억원 투자",
+      "link": "https://www.yna.co.kr/view/AKR20260601077100073",
+      "source": "연합뉴스 국제",
+      "ts": 1780282641000,
+      "pub": "Mon, 1 Jun 2026 11:57:21 +0900",
+      "sentiment": "neutral"
+    }
+  ]
 }

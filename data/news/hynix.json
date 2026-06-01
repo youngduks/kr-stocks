@@ -1,15 +1,103 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-01T02:40:54.469Z",
-  "count": 21,
+  "updated_at": "2026-06-01T08:23:04.801Z",
+  "count": 19,
   "items": [
     {
-      "title": "삼성전자-성호전자, 실리콘 포토닉스 공동 개발…AI 반도체 병목 해소 나선다",
-      "link": "https://www.mt.co.kr/stock/2026/06/01/2026060111260287030",
+      "title": "\"CPU는 지휘자, GPU는 오케스트라\"..엔비디아-韓 협력 더 넓고·깊어진다",
+      "link": "https://www.mt.co.kr/industry/2026/06/01/2026060114261379464",
       "source": "머니투데이",
-      "ts": 1780281265000,
-      "pub": "Mon, 01 Jun 2026 11:34:25 +0900",
+      "ts": 1780301987000,
+      "pub": "Mon, 01 Jun 2026 17:19:47 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 ETF도 양극화…'AI 수혜' 여부에 개인투자자 선택 갈렸다",
+      "link": "https://www.mt.co.kr/stock/2026/06/01/2026060115272932746",
+      "source": "머니투데이",
+      "ts": 1780300645000,
+      "pub": "Mon, 01 Jun 2026 16:57:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SKT, 엔비디아 GTC서 AI 파트너로 소개…하이닉스 반도체 팹에 '디지털트윈' 구축",
+      "link": "https://www.mt.co.kr/tech/2026/06/01/2026060116054261788",
+      "source": "머니투데이",
+      "ts": 1780300612000,
+      "pub": "Mon, 01 Jun 2026 16:56:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "글로벌 톱4 완성차 업체에 광반도체 칩 공급한 서울반도체",
+      "link": "https://www.hankyung.com/article/202606011291i",
+      "source": "한국경제",
+      "ts": 1780300028000,
+      "pub": "Mon, 01 Jun 2026 16:47:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "메모리값 폭등에 수요 침체 '직격탄'…삼성··LG전자 '비상'",
+      "link": "https://www.hankyung.com/article/202606011239i",
+      "source": "한국경제",
+      "ts": 1780299560000,
+      "pub": "Mon, 01 Jun 2026 16:39:20 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "반도체 기판 시장 '삼전닉스'처럼 뜨겁다",
+      "link": "https://www.hankyung.com/article/2026060101171",
+      "source": "한국경제",
+      "ts": 1780297937000,
+      "pub": "Mon, 01 Jun 2026 16:12:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전·하닉 반도체 공장 볼모로…파업 예고한 레미콘운송노조",
+      "link": "https://www.mt.co.kr/living/2026/06/01/2026060111421369313",
+      "source": "머니투데이",
+      "ts": 1780297685000,
+      "pub": "Mon, 01 Jun 2026 16:08:05 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[특징주] '대장주' 삼전이 10% 급등…SK하이닉스도 1%대 상승(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260601036552008",
+      "source": "연합뉴스 경제",
+      "ts": 1780296668000,
+      "pub": "Mon, 1 Jun 2026 15:51:08 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "연금도 반도체 열풍…'삼전닉스' 65% 담는 전략까지 등장",
+      "link": "https://www.hankyung.com/article/2026053190591",
+      "source": "한국경제",
+      "ts": 1780296221000,
+      "pub": "Mon, 01 Jun 2026 15:43:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"엔비디아, 한국 업체 등과도 연구용 로봇 개발 협력\"",
+      "link": "https://www.yna.co.kr/view/AKR20260601118000009",
+      "source": "연합뉴스 국제",
+      "ts": 1780294445000,
+      "pub": "Mon, 1 Jun 2026 15:14:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK증권, 삼성전자 61만원·하이닉스 400만원으로 목표가↑",
+      "link": "https://www.yna.co.kr/view/AKR20260601107300008",
+      "source": "연합뉴스 경제",
+      "ts": 1780293447000,
+      "pub": "Mon, 1 Jun 2026 14:57:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "5월에도 질주한 반도체…한국 수출 42% 돌파 '역대 최고'(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260601068651003",
+      "source": "연합뉴스 경제",
+      "ts": 1780288537000,
+      "pub": "Mon, 1 Jun 2026 13:35:37 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "5월에도 질주한 반도체…한국 수출 42% 돌파 '역대 최고'",
@@ -18,14 +106,6 @@
       "ts": 1780281150000,
       "pub": "Mon, 1 Jun 2026 11:32:30 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "\"PC 새시대\" 젠슨황 대만 '좌표' 찍었다…엔비디아 PC, 시장 흔들까",
-      "link": "https://www.mt.co.kr/world/2026/06/01/2026060109510427506",
-      "source": "머니투데이",
-      "ts": 1780280984000,
-      "pub": "Mon, 01 Jun 2026 11:29:44 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "화웨이 부회장, '타우 법칙' 공개 속 전체 반도체업계 참여 호소",
@@ -52,35 +132,11 @@
       "sentiment": "positive"
     },
     {
-      "title": "[뉴스프레소] 뉴욕증시, 사상 최고치 랠리… 엔비디아, 컴퓨텍스서 또 한번 혁신 예고",
-      "link": "https://www.mt.co.kr/world/2026/06/01/2026060110517087212",
-      "source": "머니투데이",
-      "ts": 1780279543000,
-      "pub": "Mon, 01 Jun 2026 11:05:43 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "AI 반도체 타고 유리기판 뜨자…팸텍, 웨이퍼 로봇 기업 통째로 인수",
-      "link": "https://www.hankyung.com/article/202606010219i",
-      "source": "한국경제",
-      "ts": 1780278076000,
-      "pub": "Mon, 01 Jun 2026 10:41:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"석유보다 비싼 메모리칩\"…빅3 시총이 오일 빅3 웃돈다",
       "link": "https://www.yna.co.kr/view/AKR20260601027200009",
       "source": "연합뉴스 국제",
       "ts": 1780278011000,
       "pub": "Mon, 1 Jun 2026 10:40:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"한국 AI 안보인다고?\" SK하이닉스 성공 비결에 '국산 AI, 독파모' 있다",
-      "link": "https://www.mt.co.kr/tech/2026/06/01/2026060109090434798",
-      "source": "머니투데이",
-      "ts": 1780276945000,
-      "pub": "Mon, 01 Jun 2026 10:22:25 +0900",
       "sentiment": "neutral"
     },
     {
@@ -92,83 +148,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "한화운용 \"글로벌HBM반도체 ETF 순자산 1조원 클럽 입성\"",
-      "link": "https://www.yna.co.kr/view/AKR20260601045600008",
-      "source": "연합뉴스 경제",
-      "ts": 1780275257000,
-      "pub": "Mon, 1 Jun 2026 09:54:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[마켓 라이브] 코스피 8600→8700 돌파…반도체·LG그룹주 급등",
-      "link": "https://www.hankyung.com/article/202606019940i",
-      "source": "한국경제",
-      "ts": 1780274774000,
-      "pub": "Mon, 01 Jun 2026 09:46:14 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[특징주] 삼성전자, 장 초반 2%대 상승…SK하이닉스는 하락",
-      "link": "https://www.yna.co.kr/view/AKR20260601036500008",
-      "source": "연합뉴스 경제",
-      "ts": 1780273986000,
-      "pub": "Mon, 1 Jun 2026 09:33:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] '슈퍼 사이클' 반도체 5월 수출 372억달러…역대 1위",
-      "link": "https://www.yna.co.kr/view/AKR20260601025000003",
-      "source": "연합뉴스 경제",
-      "ts": 1780272007000,
-      "pub": "Mon, 1 Jun 2026 09:00:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "유진투자 \"반도체 제외 코스피 4,100∼4,200 추정…양극화 심화\"",
-      "link": "https://www.yna.co.kr/view/AKR20260601019400008",
-      "source": "연합뉴스 경제",
-      "ts": 1780270227000,
-      "pub": "Mon, 1 Jun 2026 08:30:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "메모리 가격 두배 폭등하자 삼성·LG 전자제품 원가부담 껑충",
-      "link": "https://www.yna.co.kr/view/AKR20260529163600003",
-      "source": "연합뉴스 경제",
-      "ts": 1780261500000,
-      "pub": "Mon, 1 Jun 2026 06:05:00 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "은행권 \"시장금리, 3∼4회 인상 반영…AI·반도체 비중 확대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260531051500002",
-      "source": "연합뉴스 경제",
-      "ts": 1780261021000,
-      "pub": "Mon, 1 Jun 2026 05:57:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "마이크론 '1조달러' 진입에 美서도 AI 거품논란 재점화",
       "link": "https://www.yna.co.kr/view/AKR20260601000800072",
       "source": "연합뉴스 국제",
       "ts": 1780247699000,
       "pub": "Mon, 1 Jun 2026 02:14:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "PC 시장 진출하는 엔비디아…첫 윈도 PC 공개 예정",
-      "link": "https://www.yna.co.kr/view/AKR20260531054000009",
-      "source": "연합뉴스 국제",
-      "ts": 1780227625000,
-      "pub": "Sun, 31 May 2026 20:40:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한은 \"경제안보 시대, 반도체 등 핵심 제조공정 국내 유지해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260530049200002",
-      "source": "연합뉴스 경제",
-      "ts": 1780196407000,
-      "pub": "Sun, 31 May 2026 12:00:07 +0900",
       "sentiment": "neutral"
     }
   ]

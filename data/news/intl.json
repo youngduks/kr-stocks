@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-01T08:23:04.799Z",
+  "updated_at": "2026-06-01T14:49:43.027Z",
   "count": 23,
   "items": [
+    {
+      "title": "트럼프 \"이란과 좋은 합의 될 것\"…민주·공화 비판론자 직격",
+      "link": "https://www.hankyung.com/article/2026060117607",
+      "source": "한국경제",
+      "ts": 1780320846000,
+      "pub": "Mon, 01 Jun 2026 22:34:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"美에 좋은 이란 합의할 것…편히 앉아 지켜보라\"",
+      "link": "https://www.yna.co.kr/view/AKR20260601162900071",
+      "source": "연합뉴스 국제",
+      "ts": 1780320261000,
+      "pub": "Mon, 1 Jun 2026 22:24:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "파월 \"정부의 중앙은행 정치적 공세, 국민 신뢰 손상\"",
+      "link": "https://www.hankyung.com/article/202606011746i",
+      "source": "한국경제",
+      "ts": 1780319523000,
+      "pub": "Mon, 01 Jun 2026 22:12:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "일본, 韓·中·대만산 철강 제품 반덤핑 조사…\"추가 관세 여부 판단\"",
+      "link": "https://www.mt.co.kr/world/2026/06/01/2026060117592798622",
+      "source": "머니투데이",
+      "ts": 1780304912000,
+      "pub": "Mon, 01 Jun 2026 18:08:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 연방정부 변호사 1만명 '엑소더스'…트럼프 \"해고된 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260601149500009",
+      "source": "연합뉴스 국제",
+      "ts": 1780304723000,
+      "pub": "Mon, 1 Jun 2026 18:05:23 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[쇼츠] '우크라 드론 공포' 러, '500불짜리' 요격 드론 '욜카' 투입",
       "link": "https://www.yna.co.kr/view/AKR20260601142900704",
@@ -146,46 +186,6 @@
       "ts": 1780271939000,
       "pub": "Mon, 1 Jun 2026 08:58:59 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "트럼프 \"이란, 핵무기 개발은 물론 구매도 안돼…이란도 동의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260601015400071",
-      "source": "연합뉴스 국제",
-      "ts": 1780268353000,
-      "pub": "Mon, 1 Jun 2026 07:59:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"건강검진 결과 극도로 좋아…인지력 검사서 만점\"",
-      "link": "https://www.yna.co.kr/view/AKR20260601001500071",
-      "source": "연합뉴스 국제",
-      "ts": 1780253478000,
-      "pub": "Mon, 1 Jun 2026 03:51:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"백악관 연회장에 워싱턴 지킬 드론시설…소송 기각돼야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260601000500071",
-      "source": "연합뉴스 국제",
-      "ts": 1780244493000,
-      "pub": "Mon, 1 Jun 2026 01:21:33 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "백악관 경제위원장 \"이란, 트럼프 조건 수용에 큰 압박 받아\"",
-      "link": "https://www.yna.co.kr/view/AKR20260531057600071",
-      "source": "연합뉴스 국제",
-      "ts": 1780238369000,
-      "pub": "Sun, 31 May 2026 23:39:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "월러 연준이사 \"스테이블코인, 美통화정책 영향력 확대할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260531057500072",
-      "source": "연합뉴스 국제",
-      "ts": 1780238148000,
-      "pub": "Sun, 31 May 2026 23:35:48 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

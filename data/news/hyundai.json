@@ -1,39 +1,23 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-06-01T08:23:04.802Z",
-  "count": 6,
+  "updated_at": "2026-06-01T14:49:43.031Z",
+  "count": 4,
   "items": [
     {
-      "title": "현대차, 5월 판매 32만5473대…전년 대비 7.7% 감소",
-      "link": "https://www.hankyung.com/article/202606011213g",
-      "source": "한국경제",
-      "ts": 1780298714000,
-      "pub": "Mon, 01 Jun 2026 16:25:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "현대자동차, 5월 32만5473대 판매…전년比 7.7% ↓",
-      "link": "https://www.mt.co.kr/industry/2026/06/01/2026060116170211448",
+      "title": "\"일본, 美 '제네시스 미션' 참여…中과의 기술 경쟁서 우위 확보 의도\"",
+      "link": "https://www.mt.co.kr/world/2026/06/01/2026060119083748486",
       "source": "머니투데이",
-      "ts": 1780298510000,
-      "pub": "Mon, 01 Jun 2026 16:21:50 +0900",
+      "ts": 1780309409000,
+      "pub": "Mon, 01 Jun 2026 19:23:29 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "젠슨 황 이번주 방한…최태원·구광모·정의선·박정원 만난다",
-      "link": "https://www.hankyung.com/article/202606011179i",
-      "source": "한국경제",
-      "ts": 1780297884000,
-      "pub": "Mon, 01 Jun 2026 16:11:24 +0900",
+      "title": "현대차 부품난에 팰리세이드 판매 76%↓…기아는 전기차 '질주'",
+      "link": "https://www.mt.co.kr/industry/2026/06/01/2026060116231180094",
+      "source": "머니투데이",
+      "ts": 1780303743000,
+      "pub": "Mon, 01 Jun 2026 17:49:03 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "현대자동차, '더 뉴 그랜저' 흥행 돌풍…사전계약 1만대 돌파",
-      "link": "https://www.hankyung.com/article/2026060101011",
-      "source": "한국경제",
-      "ts": 1780297340000,
-      "pub": "Mon, 01 Jun 2026 16:02:20 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "삼전닉스·현대차·LG엔솔 등 4개 개별주식 위클리옵션 29일 상장",

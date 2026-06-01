@@ -1,8 +1,64 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-01T08:23:04.801Z",
-  "count": 19,
+  "updated_at": "2026-06-01T14:49:43.031Z",
+  "count": 18,
   "items": [
+    {
+      "title": "젠슨 황 \"엔비디아, 한국 로보틱스에 투자하겠다\"",
+      "link": "https://www.hankyung.com/article/2026060117721",
+      "source": "한국경제",
+      "ts": 1780323093000,
+      "pub": "Mon, 01 Jun 2026 23:11:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아, 윈도우 PC시장 진출…인텔·AMD가 주도한 'x86'체제에 도전",
+      "link": "https://www.hankyung.com/article/202606011730i",
+      "source": "한국경제",
+      "ts": 1780316136000,
+      "pub": "Mon, 01 Jun 2026 21:15:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아, 대학에 판매할 로봇시스템에 中유니트리 선정",
+      "link": "https://www.hankyung.com/article/202606011665i",
+      "source": "한국경제",
+      "ts": 1780310553000,
+      "pub": "Mon, 01 Jun 2026 19:42:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"땡큐 코리아\" 외친 젠슨 황, 더 돈독해진 엔비디아·K메모리 '깐부'",
+      "link": "https://www.mt.co.kr/industry/2026/06/01/2026060115515453112",
+      "source": "머니투데이",
+      "ts": 1780305600000,
+      "pub": "Mon, 01 Jun 2026 18:20:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"급등했지만 더 오른다?\" 메모리·CPU에 올인…엔비디아는 외면[서학픽]",
+      "link": "https://www.mt.co.kr/world/2026/06/01/2026060112295057343",
+      "source": "머니투데이",
+      "ts": 1780304700000,
+      "pub": "Mon, 01 Jun 2026 18:05:00 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "SK㈜ 미래성장 담당 및 SK하이닉스 에너지TF 사장에 정승일",
+      "link": "https://www.mt.co.kr/industry/2026/06/01/2026060117503726847",
+      "source": "머니투데이",
+      "ts": 1780304012000,
+      "pub": "Mon, 01 Jun 2026 17:53:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젠슨 황의 한국 HBM 동맹에 웃고 있는 대만 메모리 기업",
+      "link": "https://www.mt.co.kr/industry/2026/06/01/2026060116563164846",
+      "source": "머니투데이",
+      "ts": 1780303800000,
+      "pub": "Mon, 01 Jun 2026 17:50:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"CPU는 지휘자, GPU는 오케스트라\"..엔비디아-韓 협력 더 넓고·깊어진다",
       "link": "https://www.mt.co.kr/industry/2026/06/01/2026060114261379464",
@@ -12,68 +68,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "반도체 ETF도 양극화…'AI 수혜' 여부에 개인투자자 선택 갈렸다",
-      "link": "https://www.mt.co.kr/stock/2026/06/01/2026060115272932746",
-      "source": "머니투데이",
-      "ts": 1780300645000,
-      "pub": "Mon, 01 Jun 2026 16:57:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SKT, 엔비디아 GTC서 AI 파트너로 소개…하이닉스 반도체 팹에 '디지털트윈' 구축",
-      "link": "https://www.mt.co.kr/tech/2026/06/01/2026060116054261788",
-      "source": "머니투데이",
-      "ts": 1780300612000,
-      "pub": "Mon, 01 Jun 2026 16:56:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "글로벌 톱4 완성차 업체에 광반도체 칩 공급한 서울반도체",
-      "link": "https://www.hankyung.com/article/202606011291i",
-      "source": "한국경제",
-      "ts": 1780300028000,
-      "pub": "Mon, 01 Jun 2026 16:47:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "메모리값 폭등에 수요 침체 '직격탄'…삼성··LG전자 '비상'",
-      "link": "https://www.hankyung.com/article/202606011239i",
-      "source": "한국경제",
-      "ts": 1780299560000,
-      "pub": "Mon, 01 Jun 2026 16:39:20 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "반도체 기판 시장 '삼전닉스'처럼 뜨겁다",
-      "link": "https://www.hankyung.com/article/2026060101171",
-      "source": "한국경제",
-      "ts": 1780297937000,
-      "pub": "Mon, 01 Jun 2026 16:12:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전·하닉 반도체 공장 볼모로…파업 예고한 레미콘운송노조",
-      "link": "https://www.mt.co.kr/living/2026/06/01/2026060111421369313",
-      "source": "머니투데이",
-      "ts": 1780297685000,
-      "pub": "Mon, 01 Jun 2026 16:08:05 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "[특징주] '대장주' 삼전이 10% 급등…SK하이닉스도 1%대 상승(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260601036552008",
       "source": "연합뉴스 경제",
       "ts": 1780296668000,
       "pub": "Mon, 1 Jun 2026 15:51:08 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "연금도 반도체 열풍…'삼전닉스' 65% 담는 전략까지 등장",
-      "link": "https://www.hankyung.com/article/2026053190591",
-      "source": "한국경제",
-      "ts": 1780296221000,
-      "pub": "Mon, 01 Jun 2026 15:43:41 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "\"엔비디아, 한국 업체 등과도 연구용 로봇 개발 협력\"",
@@ -145,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780275287000,
       "pub": "Mon, 1 Jun 2026 09:54:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "마이크론 '1조달러' 진입에 美서도 AI 거품논란 재점화",
-      "link": "https://www.yna.co.kr/view/AKR20260601000800072",
-      "source": "연합뉴스 국제",
-      "ts": 1780247699000,
-      "pub": "Mon, 1 Jun 2026 02:14:59 +0900",
       "sentiment": "neutral"
     }
   ]

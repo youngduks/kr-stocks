@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-02T18:30:20.053Z",
-  "count": 9,
+  "updated_at": "2026-06-02T21:40:16.731Z",
+  "count": 7,
   "items": [
+    {
+      "title": "MS, 애플 맥미니에 반격…엔비디아 손잡고 AI용 PC 공개",
+      "link": "https://www.hankyung.com/article/202606034020i",
+      "source": "한국경제",
+      "ts": 1780426975000,
+      "pub": "Wed, 03 Jun 2026 04:02:55 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"D램 공급난에 HBM 협상력 커져…내년 계약가격 몇배 상승 전망\"",
       "link": "https://www.yna.co.kr/view/AKR20260602145300003",
@@ -49,30 +57,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780361397000,
       "pub": "Tue, 2 Jun 2026 09:49:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 변동성 확대속 삼전, 2%대 상승…하이닉스는 약세",
-      "link": "https://www.yna.co.kr/view/AKR20260602043900008",
-      "source": "연합뉴스 경제",
-      "ts": 1780360028000,
-      "pub": "Tue, 2 Jun 2026 09:27:08 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[특징주] SKT, '엔비디아 파트너' 부각에 장 초반 10%대 급등",
-      "link": "https://www.yna.co.kr/view/AKR20260602041900008",
-      "source": "연합뉴스 경제",
-      "ts": 1780359886000,
-      "pub": "Tue, 2 Jun 2026 09:24:46 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[테크스냅] 노타, 엔비디아 파트너 행사 패널…피지컬 AI 비전 공유",
-      "link": "https://www.yna.co.kr/view/AKR20260602038900017",
-      "source": "연합뉴스 경제",
-      "ts": 1780359683000,
-      "pub": "Tue, 2 Jun 2026 09:21:23 +0900",
       "sentiment": "neutral"
     }
   ]

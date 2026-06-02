@@ -1,22 +1,30 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-02T18:30:20.051Z",
+  "updated_at": "2026-06-02T21:40:16.729Z",
   "count": 30,
   "items": [
+    {
+      "title": "트럼프, 정보기관 총괄 DNI 수장 대행에 비전문 '충성파' 기용(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260602169151071",
+      "source": "연합뉴스 국제",
+      "ts": 1780430074000,
+      "pub": "Wed, 3 Jun 2026 04:54:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "팔레스타인 유물 탐낸 이스라엘…'영토 병합' 비판에 입법 중단",
+      "link": "https://www.yna.co.kr/view/AKR20260603006300079",
+      "source": "연합뉴스 국제",
+      "ts": 1780429597000,
+      "pub": "Wed, 3 Jun 2026 04:46:37 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'총격 파행' 백악관기자協 만찬 7월24일 재개최…트럼프도 참석(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260603002651071",
       "source": "연합뉴스 국제",
       "ts": 1780424653000,
       "pub": "Wed, 3 Jun 2026 03:24:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"종전협상 중단은 가짜뉴스…오늘까지 계속 대화 중\"",
-      "link": "https://www.mt.co.kr/world/2026/06/03/2026060303022892716",
-      "source": "머니투데이",
-      "ts": 1780423482000,
-      "pub": "Wed, 03 Jun 2026 03:04:42 +0900",
       "sentiment": "neutral"
     },
     {
@@ -233,14 +241,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780379009000,
       "pub": "Tue, 2 Jun 2026 14:43:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 미국산 철강·알루미늄 85% 이상 쓰면 관세 10%로 우대",
-      "link": "https://www.yna.co.kr/view/AKR20260602083400009",
-      "source": "연합뉴스 국제",
-      "ts": 1780368381000,
-      "pub": "Tue, 2 Jun 2026 11:46:21 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,31 +1,15 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-02T10:00:10.757Z",
-  "count": 14,
+  "updated_at": "2026-06-02T14:05:31.266Z",
+  "count": 11,
   "items": [
     {
-      "title": "젠슨 황, SK하이닉스 부스 방문해…\"제발 더 만들어줘\" 깜짝 메모",
-      "link": "https://www.hankyung.com/article/2026060236997",
-      "source": "한국경제",
-      "ts": 1780390165000,
-      "pub": "Tue, 02 Jun 2026 17:49:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "물가·금리·환율 '3高' 가속화…'반도체 소외계층' 고통 커질 듯",
-      "link": "https://www.hankyung.com/article/2026060237201",
-      "source": "한국경제",
-      "ts": 1780389932000,
-      "pub": "Tue, 02 Jun 2026 17:45:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[이정호 칼럼] 포스트 반도체, K휴머노이드",
-      "link": "https://www.hankyung.com/article/2026060236891",
-      "source": "한국경제",
-      "ts": 1780389789000,
-      "pub": "Tue, 02 Jun 2026 17:43:09 +0900",
-      "sentiment": "neutral"
+      "title": "[급등수사본부] 간섭 없이 전파를 전달하는 필터 개발 '케이엠더블유' vs 메모리 반도체 설계 기업  '제주반도체'",
+      "link": "https://www.mt.co.kr/stock/2026/06/02/2026060219077030223",
+      "source": "머니투데이",
+      "ts": 1780395656000,
+      "pub": "Tue, 02 Jun 2026 19:20:56 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "\"D램 공급난에 HBM 협상력 커져…내년 계약가격 몇배 상승 전망\"",
@@ -105,14 +89,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780359683000,
       "pub": "Tue, 2 Jun 2026 09:21:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美이민규제에 엔비디아만 외국인 고용↑…AI인재 기본급만 7억원",
-      "link": "https://www.yna.co.kr/view/AKR20260602031400091",
-      "source": "연합뉴스 국제",
-      "ts": 1780357990000,
-      "pub": "Tue, 2 Jun 2026 08:53:10 +0900",
       "sentiment": "neutral"
     }
   ]

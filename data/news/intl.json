@@ -1,8 +1,64 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-02T10:00:10.756Z",
-  "count": 14,
+  "updated_at": "2026-06-02T14:05:31.263Z",
+  "count": 17,
   "items": [
+    {
+      "title": "우크라 방공망 뚫은 러 미사일…젤렌스키 \"패트리엇 절실\"",
+      "link": "https://www.yna.co.kr/view/AKR20260602166900109",
+      "source": "연합뉴스 국제",
+      "ts": 1780408652000,
+      "pub": "Tue, 2 Jun 2026 22:57:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 사모펀드출신 주택금융청장을 국가정보국장 대행에 기용",
+      "link": "https://www.yna.co.kr/view/AKR20260602169100071",
+      "source": "연합뉴스 국제",
+      "ts": 1780408479000,
+      "pub": "Tue, 2 Jun 2026 22:54:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 EU 가입 길 열리나…헝가리 총리 \"양국관계 새 장\"",
+      "link": "https://www.yna.co.kr/view/AKR20260602167300082",
+      "source": "연합뉴스 국제",
+      "ts": 1780407455000,
+      "pub": "Tue, 2 Jun 2026 22:37:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"나 아니었으면 감옥 갔을 사람이\"…트럼프, 네타냐후에 격노(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260602039151009",
+      "source": "연합뉴스 국제",
+      "ts": 1780406762000,
+      "pub": "Tue, 2 Jun 2026 22:26:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 정부, 농기계 및 건설장비 관세 25%→15%로 인하",
+      "link": "https://www.hankyung.com/article/202606023905i",
+      "source": "한국경제",
+      "ts": 1780405113000,
+      "pub": "Tue, 02 Jun 2026 21:58:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러, 우크라 대공습 직후 \"오늘이라도 종전 가능\"",
+      "link": "https://www.yna.co.kr/view/AKR20260602159900108",
+      "source": "연합뉴스 국제",
+      "ts": 1780400166000,
+      "pub": "Tue, 2 Jun 2026 20:36:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "유로존 5월 CPI 연 3.2%↑…\"유럽중앙은행 다음주 금리인상 확실\"",
+      "link": "https://www.hankyung.com/article/202606023834i",
+      "source": "한국경제",
+      "ts": 1780396598000,
+      "pub": "Tue, 02 Jun 2026 19:36:38 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 '교전 중단' 선언 후에도 이스라엘·헤즈볼라 공방",
       "link": "https://www.yna.co.kr/view/AKR20260602148100079",
@@ -25,14 +81,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780391596000,
       "pub": "Tue, 2 Jun 2026 18:13:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"대선 패배 상처 들춰\"…바이든 여사 회고록 논란",
-      "link": "https://www.hankyung.com/article/2026060236581",
-      "source": "한국경제",
-      "ts": 1780390385000,
-      "pub": "Tue, 02 Jun 2026 17:53:05 +0900",
       "sentiment": "neutral"
     },
     {
@@ -89,30 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780364686000,
       "pub": "Tue, 2 Jun 2026 10:44:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"나 아니었으면 감옥갔을 사람이\"…트럼프, 네타냐후에 격노",
-      "link": "https://www.yna.co.kr/view/AKR20260602039100009",
-      "source": "연합뉴스 국제",
-      "ts": 1780360076000,
-      "pub": "Tue, 2 Jun 2026 09:27:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 호르무즈 개방 확약 원해 MOU초안 돌려보내\"",
-      "link": "https://www.yna.co.kr/view/AKR20260602029000009",
-      "source": "연합뉴스 국제",
-      "ts": 1780357117000,
-      "pub": "Tue, 2 Jun 2026 08:38:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"1주일내 '휴전연장·호르무즈 개방' 합의 예상\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260602017900071",
-      "source": "연합뉴스 국제",
-      "ts": 1780353354000,
-      "pub": "Tue, 2 Jun 2026 07:35:54 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -16,7 +16,7 @@ export default function Loading() {
         <div className="text-center py-12">
           <div className="inline-block w-8 h-8 border-2 border-accent-blue border-t-transparent rounded-full animate-spin mb-4" />
           <div className="text-sm text-text-muted">가격 정보 불러오는 중…</div>
-          <div className="text-[10px] text-text-dim mt-1">Hyperliquid · 네이버 · 업비트</div>
+          <div className="text-[10px] text-text-dim mt-1">Binance · Hyperliquid · 네이버 · 업비트</div>
         </div>
 
         {/* skeleton card grid (시각 안정 — 빈 화면 회피) */}

@@ -15,10 +15,10 @@ const I18N = {
     sub: "탭하면 한 화면에 다 있음",
     upside: "상승여력",
     upsideShort: "단기",
-    upsideShortRef: "(HL 24h)",
+    upsideShortRef: "(Binance 24h)",
     upsideLong: "중장기",
     upsideLongRef: "(컨센)",
-    avgRef: "(HL 24h)", // 화살표 우측 = HL 24h KRW 가격
+    avgRef: "(Binance 24h)", // 화살표 우측 = HL 24h KRW 가격
     sentLong: "상승",
     sentShort: "하락",
     fundingLabel: "펀딩",
@@ -35,18 +35,18 @@ const I18N = {
     netSell: "순매도",
     live: "정규장",
     nxt: "NXT",
-    hyperliq: "Hyperliquid",
-    footer: "각 종목 탭 = HL 24h + 정규장 + 증권사 분석 + 외인·기관 + 시장 sentiment + 차트 한 화면",
+    hyperliq: "Binance",
+    footer: "각 종목 탭 = Binance 24h + 정규장 + 증권사 분석 + 외인·기관 + 시장 sentiment + 차트 한 화면",
   },
   en: {
     title: "🔥 Korean Stocks Deep Dive",
     sub: "Tap any ticker for full analysis",
     upside: "Upside",
     upsideShort: "Short-term",
-    upsideShortRef: "(HL 24h)",
+    upsideShortRef: "(Binance 24h)",
     upsideLong: "Long-term",
     upsideLongRef: "(consensus)",
-    avgRef: "(HL 24h)",
+    avgRef: "(Binance 24h)",
     sentLong: "Bull",
     sentShort: "Bear",
     fundingLabel: "Funding",
@@ -61,8 +61,8 @@ const I18N = {
     netSell: "Net Sell",
     live: "Regular",
     nxt: "NXT",
-    hyperliq: "Hyperliquid",
-    footer: "Each ticker = HL 24h + Regular close + Broker consensus + Foreign/Institutional flow + Market sentiment + chart on one screen",
+    hyperliq: "Binance",
+    footer: "Each ticker = Binance 24h + Regular close + Broker consensus + Foreign/Institutional flow + Market sentiment + chart on one screen",
   },
 } as const;
 
@@ -250,7 +250,7 @@ export function HomeHero({
                           ? { text: t.live, color: "text-accent-green", dot: "bg-accent-green", pulse: true, title: locale === "en" ? "KRX market open" : "한국 정규장 거래중" }
                           : item.phase === "nxt"
                           ? { text: t.nxt, color: "text-accent-amber", dot: "bg-accent-amber", pulse: true, title: locale === "en" ? "NXT after-hours" : "NXT 시간외 거래중" }
-                          : { text: t.hyperliq, color: "text-accent-blue", dot: "bg-accent-blue", pulse: false, title: locale === "en" ? "Hyperliquid 24h" : "Hyperliquid 24h 기준" };
+                          : { text: t.hyperliq, color: "text-accent-blue", dot: "bg-accent-blue", pulse: false, title: locale === "en" ? "Binance 24h" : "Binance 24h 기준" };
                       return (
                         <span
                           className={`inline-flex items-center gap-1 text-[9px] sm:text-[10px] font-bold tabular ${phaseCfg.color} shrink-0`}

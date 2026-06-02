@@ -73,9 +73,10 @@ export default async function SymbolPage({ params }: Props) {
   if (!row || !row.market) notFound();
 
   const m = row.market;
-  // phase 인지 변동률 — live/nxt: 전일 대비 / closed: HL 24h
+  const isBn = row.source === "binance"; // 한국주식 3종 = Binance 선물 소스 (그 외 = Hyperliquid)
+  // phase 인지 변동률 — live/nxt: 전일 대비 / closed: 24h
   const mainChg = m.main_change_pct ?? m.change_24h_pct;
-  const mainChgLabel = m.main_change_label ?? "HL 24h";
+  const mainChgLabel = m.main_change_label ?? (isBn ? "Binance 24h" : "HL 24h");
   const isUp = mainChg > 0;
   const isDn = mainChg < 0;
   const colorClass = isUp ? "text-accent-green" : isDn ? "text-accent-blue" : "text-text-muted";
@@ -245,8 +246,8 @@ export default async function SymbolPage({ params }: Props) {
                     pulse: true,
                   }
                 : {
-                    label: "Hyperliquid 24시간 시세 (야간·휴장 활성)",
-                    pill: "Hyperliquid",
+                    label: isBn ? "Binance 선물 24시간 시세 (야간·휴장 활성)" : "Hyperliquid 24시간 시세 (야간·휴장 활성)",
+                    pill: isBn ? "Binance" : "Hyperliquid",
                     pillColor: "text-accent-blue",
                     dotColor: "bg-accent-blue",
                     pulse: false,
@@ -289,7 +290,7 @@ export default async function SymbolPage({ params }: Props) {
                 {/* HL 24h reference — live/nxt phase 일 때 (closed 모드엔 메인이 HL이라 중복 회피) */}
                 {m.market_phase !== "closed" && (
                   <div className="text-sm text-text-muted tabular">
-                    HL 24h ≈ ₩{Math.round(m.per_share_krw ?? m.krw_price).toLocaleString("ko-KR")}
+                    {isBn ? "Binance 24h" : "HL 24h"} ≈ ₩{Math.round(m.per_share_krw ?? m.krw_price).toLocaleString("ko-KR")}
                   </div>
                 )}
                 {/* Hyperliquid phase 한국주식 — 메인 ₩ 옆에 작게 달러 보조 (형님 5/13 요청)
@@ -376,15 +377,16 @@ export default async function SymbolPage({ params }: Props) {
           //   closed → "정규장 종가 대비 프리미엄 (야간/주말 가격 압력)" + 정규장 종가 표시
           const phase = m.market_phase;
           const showHL = phase === "live" || phase === "nxt";
+          const srcTag = isBn ? "Binance 24h" : "HL 24h";
           const headerLabel =
-            phase === "live" ? "HL 24h 시세 vs 장중 프리미엄"
-            : phase === "nxt" ? "HL 24h 시세 vs NXT 프리미엄"
+            phase === "live" ? `${srcTag} 시세 vs 장중 프리미엄`
+            : phase === "nxt" ? `${srcTag} 시세 vs NXT 프리미엄`
             : "정규장 종가 대비 프리미엄 (야간/주말 가격 압력)";
           const rightTag =
-            phase === "live" ? "HL 24h"
-            : phase === "nxt" ? "HL 24h"
+            phase === "live" ? srcTag
+            : phase === "nxt" ? srcTag
             : "CLOSED";
-          const priceLabel = showHL ? "HL 24h" : "정규장 종가";
+          const priceLabel = showHL ? srcTag : "정규장 종가";
           return (
           <section className="mb-6 p-5 rounded-2xl bg-accent-blue/5 border border-accent-blue/20">
             <div className="flex items-center justify-between gap-3 mb-3">
@@ -509,7 +511,7 @@ export default async function SymbolPage({ params }: Props) {
 
         {/* 24시간 시장 sentiment — HL 거래자 포지션 기반 (코인 metric 숨김, 상승/하락 베팅 비율만 표시) */}
         {!row.is_fx && m.funding != null && (
-          <FundingBar funding={m.funding} locale="ko" />
+          <FundingBar funding={m.funding} locale="ko" source={row.source} />
         )}
 
         {!row.is_fx && (candles.bars1H.length > 0 || candles.bars4H.length > 0) && (
@@ -529,19 +531,19 @@ export default async function SymbolPage({ params }: Props) {
 
         <section className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
           <Stat
-            label={row.is_index ? "24h 시세 (지수)" : "24h 시세 (HL)"}
+            label={row.is_index ? "24h 시세 (지수)" : isBn ? "24h 시세 (Binance)" : "24h 시세 (HL)"}
             value={row.is_index
               ? m.mark_px_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
               : `$${m.mark_px_usd.toFixed(2)}`}
           />
           <Stat
-            label="HL 전일 종가"
+            label={isBn ? "Binance 전일 종가" : "HL 전일 종가"}
             value={row.is_index
               ? m.prev_day_px_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
               : `$${m.prev_day_px_usd.toFixed(2)}`}
           />
-          <Stat label="HL 24h 거래대금" value={fmtVol(m.day_volume_usd)} />
-          <Stat label="HL 미결제 약정" value={fmtNum(m.open_interest)} />
+          <Stat label={isBn ? "Binance 24h 거래대금" : "HL 24h 거래대금"} value={fmtVol(m.day_volume_usd)} />
+          <Stat label={isBn ? "Binance 미결제 약정" : "HL 미결제 약정"} value={fmtNum(m.open_interest)} />
           {/* Funding Rate tile 제거 (2026-05-13) — 주식 retail 타겟에 코인 metric 잡음 */}
           {m.regular_close_krw != null && (
             <Stat

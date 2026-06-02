@@ -11,6 +11,7 @@ const I18N = {
     long: "상승 예상",
     short: "하락 예상",
     source: "Hyperliquid 24h 거래자 포지션 기반",
+    sourceBinance: "Binance 선물 24h 포지션 기반",
     neutralLabel: "균형",
     longHeavy: "상승 베팅 우세",
     shortHeavy: "하락 베팅 우세",
@@ -20,6 +21,7 @@ const I18N = {
     long: "Bullish",
     short: "Bearish",
     source: "Based on Hyperliquid 24h trader positioning",
+    sourceBinance: "Based on Binance futures 24h positioning",
     neutralLabel: "Balanced",
     longHeavy: "Bullish bets dominant",
     shortHeavy: "Bearish bets dominant",
@@ -40,9 +42,11 @@ function fundingToLongPct(funding: number): number {
 export function FundingBar({
   funding,
   locale = "ko",
+  source,
 }: {
   funding: number | null | undefined;
   locale?: Locale;
+  source?: "hl" | "binance";
 }) {
   if (funding == null || isNaN(funding)) return null;
   const t = I18N[locale];
@@ -96,7 +100,7 @@ export function FundingBar({
       </div>
 
       <p className="mt-3 text-[10px] text-text-dim leading-relaxed">
-        {t.source}
+        {source === "binance" ? t.sourceBinance : t.source}
       </p>
     </section>
   );

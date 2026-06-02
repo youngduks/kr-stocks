@@ -269,7 +269,7 @@ export async function fetchAllPrices(): Promise<{
               : phase === "nxt" && useRegularChg
               ? "NXT 변동"
               : sym.source === "binance"
-              ? "바이낸스 24h"
+              ? "Binance 24h"
               : "HL 24h";
           return {
             main_display_krw: round(mainKrw, 2),

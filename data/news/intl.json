@@ -1,22 +1,62 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-02T00:05:21.443Z",
-  "count": 35,
+  "updated_at": "2026-06-02T05:21:23.876Z",
+  "count": 22,
   "items": [
+    {
+      "title": "미국산 철강·알루미늄 많이 쓰면 관세 10% 우대…트럼프 조정안 발표",
+      "link": "https://www.mt.co.kr/world/2026/06/02/2026060213240896330",
+      "source": "머니투데이",
+      "ts": 1780375376000,
+      "pub": "Tue, 02 Jun 2026 13:42:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 철강·알루미늄 관세 조정…농기계 관세 25%→15%",
+      "link": "https://www.hankyung.com/article/2026060228557",
+      "source": "한국경제",
+      "ts": 1780368769000,
+      "pub": "Tue, 02 Jun 2026 11:52:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 미국산 철강·알루미늄 85% 이상 쓰면 관세 10%로 우대",
+      "link": "https://www.yna.co.kr/view/AKR20260602083400009",
+      "source": "연합뉴스 국제",
+      "ts": 1780368381000,
+      "pub": "Tue, 2 Jun 2026 11:46:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 시진핑과 정상회담서 '우크라전 종식 도와달라' 촉구\"",
+      "link": "https://www.yna.co.kr/view/AKR20260602074600083",
+      "source": "연합뉴스 국제",
+      "ts": 1780366439000,
+      "pub": "Tue, 2 Jun 2026 11:13:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中상하이자동차, 스페인에 첫 EU공장 설립 추진…관세 장벽 대응",
+      "link": "https://www.yna.co.kr/view/AKR20260602067400083",
+      "source": "연합뉴스 국제",
+      "ts": 1780364686000,
+      "pub": "Tue, 2 Jun 2026 10:44:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"나 아니었으면 감옥갔을 사람이\"…트럼프, 네타냐후에 격노",
+      "link": "https://www.yna.co.kr/view/AKR20260602039100009",
+      "source": "연합뉴스 국제",
+      "ts": 1780360076000,
+      "pub": "Tue, 2 Jun 2026 09:27:56 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"트럼프, 호르무즈 개방 확약 원해 MOU초안 돌려보내\"",
       "link": "https://www.yna.co.kr/view/AKR20260602029000009",
       "source": "연합뉴스 국제",
       "ts": 1780357117000,
       "pub": "Tue, 2 Jun 2026 08:38:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"다음주 중 이란과 휴전 연장·호르무즈 재개방 이뤄질 것\"",
-      "link": "https://www.mt.co.kr/world/2026/06/02/2026060207152471208",
-      "source": "머니투데이",
-      "ts": 1780354132000,
-      "pub": "Tue, 02 Jun 2026 07:48:52 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,44 +68,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[속보] 트럼프 \"다음주 내 이란과 휴전 연장·호르무즈 재개방 이뤄질 것\"",
-      "link": "https://www.mt.co.kr/world/2026/06/02/2026060206523057837",
-      "source": "머니투데이",
-      "ts": 1780351576000,
-      "pub": "Tue, 02 Jun 2026 07:06:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"1주일내 '휴전연장·호르무즈 개방' 합의 예상\"",
       "link": "https://www.yna.co.kr/view/AKR20260602015300071",
       "source": "연합뉴스 국제",
       "ts": 1780351357000,
       "pub": "Tue, 2 Jun 2026 07:02:37 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 행정부, 여야 반발 속 사법 피해 보상 기금 포기할 듯\"",
-      "link": "https://www.mt.co.kr/world/2026/06/02/2026060205341132069",
-      "source": "머니투데이",
-      "ts": 1780350653000,
-      "pub": "Tue, 02 Jun 2026 06:50:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"다음주 이란과 휴전 연장·호르무즈 개방 합의 예상\"",
-      "link": "https://www.hankyung.com/article/2026060218867",
-      "source": "한국경제",
-      "ts": 1780350620000,
-      "pub": "Tue, 02 Jun 2026 06:50:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 반전'에 '엔비디아 칩' 더했다…3대지수 사상 최고치[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/06/02/2026060206415854759",
-      "source": "머니투데이",
-      "ts": 1780350557000,
-      "pub": "Tue, 02 Jun 2026 06:49:17 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "[속보] 트럼프 \"다음주 이란과 휴전 연장·호르무즈 개방 합의 예상\"",
@@ -81,22 +89,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780349401000,
       "pub": "Tue, 2 Jun 2026 06:30:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"미·이란 대화 진행 중…이스라엘·헤즈볼라 교전 중단\"",
-      "link": "https://www.hankyung.com/article/2026060218587",
-      "source": "한국경제",
-      "ts": 1780348378000,
-      "pub": "Tue, 02 Jun 2026 06:12:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"레바논과 국경 다시 긋자\"는 이스라엘…이란전 휴전 '뜨거운 감자'로 [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202606021819i",
-      "source": "한국경제",
-      "ts": 1780345210000,
-      "pub": "Tue, 02 Jun 2026 05:20:10 +0900",
       "sentiment": "neutral"
     },
     {
@@ -185,102 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780329858000,
       "pub": "Tue, 2 Jun 2026 01:04:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 좋은 합의 될 것\"…민주·공화 비판론자 직격",
-      "link": "https://www.hankyung.com/article/2026060117607",
-      "source": "한국경제",
-      "ts": 1780320846000,
-      "pub": "Mon, 01 Jun 2026 22:34:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 합의, 美에 유리하게 할것…편히 앉아 지켜보라\"",
-      "link": "https://www.yna.co.kr/view/AKR20260601162900071",
-      "source": "연합뉴스 국제",
-      "ts": 1780320261000,
-      "pub": "Mon, 1 Jun 2026 22:24:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "파월 \"정부의 중앙은행 정치적 공세, 국민 신뢰 손상\"",
-      "link": "https://www.hankyung.com/article/202606011746i",
-      "source": "한국경제",
-      "ts": 1780319523000,
-      "pub": "Mon, 01 Jun 2026 22:12:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 연방정부 변호사 1만명 '엑소더스'…트럼프 \"해고된 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260601149500009",
-      "source": "연합뉴스 국제",
-      "ts": 1780304723000,
-      "pub": "Mon, 1 Jun 2026 18:05:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] '우크라 드론 공포' 러, '500불짜리' 요격 드론 '욜카' 투입",
-      "link": "https://www.yna.co.kr/view/AKR20260601142900704",
-      "source": "연합뉴스 국제",
-      "ts": 1780301442000,
-      "pub": "Mon, 1 Jun 2026 17:10:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 푸틴 경호원 손 포착 '비밀무기'…러 요격드론 '욜카' 전투 투입",
-      "link": "https://www.yna.co.kr/view/AKR20260601137000704",
-      "source": "연합뉴스 국제",
-      "ts": 1780299936000,
-      "pub": "Mon, 1 Jun 2026 16:45:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"이란전쟁發 물가 충격, 우크라전 때보다 약할 듯\"",
-      "link": "https://www.yna.co.kr/view/AKR20260601125700009",
-      "source": "연합뉴스 국제",
-      "ts": 1780297947000,
-      "pub": "Mon, 1 Jun 2026 16:12:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] EU 철강 관세에 노조 임단협까지…철강주 상승장서 약세 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260601059551008",
-      "source": "연합뉴스 경제",
-      "ts": 1780297466000,
-      "pub": "Mon, 1 Jun 2026 16:04:26 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "멕시코 대통령 \"미국이 내정간섭\"…트럼프 행정부 맹비난",
-      "link": "https://www.yna.co.kr/view/AKR20260601126000009",
-      "source": "연합뉴스 국제",
-      "ts": 1780297302000,
-      "pub": "Mon, 1 Jun 2026 16:01:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "떠나는 파월 '용기있는 사람들 상' 수상",
-      "link": "https://www.yna.co.kr/view/AKR20260601120600009",
-      "source": "연합뉴스 경제",
-      "ts": 1780296570000,
-      "pub": "Mon, 1 Jun 2026 15:49:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "K푸드, 중국 수출길 넓어진다…등록절차 개선·품목 확대",
-      "link": "https://www.yna.co.kr/view/AKR20260601110400017",
-      "source": "연합뉴스 경제",
-      "ts": 1780292873000,
-      "pub": "Mon, 1 Jun 2026 14:47:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[게시판] 관세청, 관세 가상계좌 납부기관 '우리은행·우체국'으로 확대",
-      "link": "https://www.yna.co.kr/view/AKR20260601071200002",
-      "source": "연합뉴스 경제",
-      "ts": 1780280802000,
-      "pub": "Mon, 1 Jun 2026 11:26:42 +0900",
       "sentiment": "neutral"
     }
   ]

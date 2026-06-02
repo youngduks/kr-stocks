@@ -1,8 +1,112 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-02T00:05:21.446Z",
-  "count": 16,
+  "updated_at": "2026-06-02T05:21:23.878Z",
+  "count": 18,
   "items": [
+    {
+      "title": "'TIGER 코스닥액티브' ETF 상장… \"반도체 소부장 등 성장주 투자\"",
+      "link": "https://www.mt.co.kr/stock/2026/06/02/2026060210464092531",
+      "source": "머니투데이",
+      "ts": 1780375800000,
+      "pub": "Tue, 02 Jun 2026 13:50:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 필수장비 EUV 도입 한 달 빨라진다…검사절차 개선",
+      "link": "https://www.mt.co.kr/economy/2026/06/02/2026060211221637570",
+      "source": "머니투데이",
+      "ts": 1780375552000,
+      "pub": "Tue, 02 Jun 2026 13:45:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'무늬만 특례시' 벗어난 용인시, 반도체 소부장 산단 심의 직접 한다",
+      "link": "https://www.mt.co.kr/policy/2026/06/02/2026060213193555380",
+      "source": "머니투데이",
+      "ts": 1780375481000,
+      "pub": "Tue, 02 Jun 2026 13:44:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[뉴스프레소] 뉴욕증시, 연일 사상 최고치… 엔비디아 6% 급등 VS 인텔 5% 하락",
+      "link": "https://www.mt.co.kr/world/2026/06/02/2026060212187023740",
+      "source": "머니투데이",
+      "ts": 1780373121000,
+      "pub": "Tue, 02 Jun 2026 13:05:21 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[오늘 이 종목] AI CCL 슈퍼사이클부터 HBM · 유리기판까지… 김민수 대표의 '시선집중' 핵심 전략",
+      "link": "https://www.mt.co.kr/stock/2026/06/02/2026060212057085572",
+      "source": "머니투데이",
+      "ts": 1780371351000,
+      "pub": "Tue, 02 Jun 2026 12:35:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[단독] 반도체 필수 소재...SK그룹, 웨이퍼 세계 3위 '실트론' 매각 제동",
+      "link": "https://www.mt.co.kr/industry/2026/06/02/2026060208540692097",
+      "source": "머니투데이",
+      "ts": 1780369115000,
+      "pub": "Tue, 02 Jun 2026 11:58:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한국 증시, 반도체 랠리로 인도 제쳐…시가총액 세계 6위",
+      "link": "https://www.hankyung.com/article/2026060227517",
+      "source": "한국경제",
+      "ts": 1780366912000,
+      "pub": "Tue, 02 Jun 2026 11:21:52 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼성운용, 'AI반도체톱플러스' ETF 순자산 4조원 돌파",
+      "link": "https://www.yna.co.kr/view/AKR20260602075200008",
+      "source": "연합뉴스 경제",
+      "ts": 1780366333000,
+      "pub": "Tue, 2 Jun 2026 11:12:13 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"중국軍 연계 대학들, 엔비디아 H200 확보 추구 확인\"",
+      "link": "https://www.yna.co.kr/view/AKR20260602042000009",
+      "source": "연합뉴스 국제",
+      "ts": 1780362695000,
+      "pub": "Tue, 2 Jun 2026 10:11:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK에코플랜트, 용인 반도체 클러스터서 온열질환 예방 캠페인",
+      "link": "https://www.yna.co.kr/view/AKR20260602050900003",
+      "source": "연합뉴스 경제",
+      "ts": 1780361397000,
+      "pub": "Tue, 2 Jun 2026 09:49:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 변동성 확대속 삼전, 2%대 상승…하이닉스는 약세",
+      "link": "https://www.yna.co.kr/view/AKR20260602043900008",
+      "source": "연합뉴스 경제",
+      "ts": 1780360028000,
+      "pub": "Tue, 2 Jun 2026 09:27:08 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[특징주] SKT, '엔비디아 파트너' 부각에 장 초반 10%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20260602041900008",
+      "source": "연합뉴스 경제",
+      "ts": 1780359886000,
+      "pub": "Tue, 2 Jun 2026 09:24:46 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[테크스냅] 노타, 엔비디아 파트너 행사 패널…피지컬 AI 비전 공유",
+      "link": "https://www.yna.co.kr/view/AKR20260602038900017",
+      "source": "연합뉴스 경제",
+      "ts": 1780359683000,
+      "pub": "Tue, 2 Jun 2026 09:21:23 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美이민규제에 엔비디아만 외국인 고용↑…AI인재 기본급만 7억원",
       "link": "https://www.yna.co.kr/view/AKR20260602031400091",
@@ -36,99 +140,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "탈탄소는 골치? \"실익 주는 전략\"…자동차 반도체 1위 기업 청사진",
-      "link": "https://www.mt.co.kr/industry/2026/06/02/2026060123345454697",
-      "source": "머니투데이",
-      "ts": 1780354800000,
-      "pub": "Tue, 02 Jun 2026 08:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI랠리에 3대 지수 또 최고치…엔비디아 6%↑ [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026060218996",
-      "source": "한국경제",
-      "ts": 1780351969000,
-      "pub": "Tue, 02 Jun 2026 07:12:49 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[시선강탈] 제주반도체 vs 대한전선 vs 레인보우로보틱스, 공략법은?",
-      "link": "https://www.mt.co.kr/stock/2026/06/02/2026060206277072750",
-      "source": "머니투데이",
-      "ts": 1780351024000,
-      "pub": "Tue, 02 Jun 2026 06:57:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 반전'에 '엔비디아 칩' 더했다…3대지수 사상 최고치[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/06/02/2026060206415854759",
-      "source": "머니투데이",
-      "ts": 1780350557000,
-      "pub": "Tue, 02 Jun 2026 06:49:17 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "뉴욕증시 3대지수, 유가상승에도 최고치 마감…엔비디아 6%↑(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260602007851072",
       "source": "연합뉴스 국제",
       "ts": 1780347153000,
       "pub": "Tue, 2 Jun 2026 05:52:33 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[기고]반도체 호황을 다시 읽어야 할 때",
-      "link": "https://www.mt.co.kr/opinion/2026/06/02/2026060115072542401",
-      "source": "머니투데이",
-      "ts": 1780347000000,
-      "pub": "Tue, 02 Jun 2026 05:50:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젠슨 황 \"엔비디아, 한국 로보틱스에 투자하겠다\"",
-      "link": "https://www.hankyung.com/article/2026060117721",
-      "source": "한국경제",
-      "ts": 1780323093000,
-      "pub": "Mon, 01 Jun 2026 23:11:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아, 윈도우 PC시장 진출…인텔·AMD가 주도한 'x86'체제에 도전",
-      "link": "https://www.hankyung.com/article/202606011730i",
-      "source": "한국경제",
-      "ts": 1780316136000,
-      "pub": "Mon, 01 Jun 2026 21:15:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] '대장주' 삼전이 10% 급등…SK하이닉스도 1%대 상승(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260601036552008",
-      "source": "연합뉴스 경제",
-      "ts": 1780296668000,
-      "pub": "Mon, 1 Jun 2026 15:51:08 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "SK증권, 삼성전자 61만원·하이닉스 400만원으로 목표가↑",
-      "link": "https://www.yna.co.kr/view/AKR20260601107300008",
-      "source": "연합뉴스 경제",
-      "ts": 1780293447000,
-      "pub": "Mon, 1 Jun 2026 14:57:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "5월에도 질주한 반도체…한국 수출 42% 돌파 '역대 최고'(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260601068651003",
-      "source": "연합뉴스 경제",
-      "ts": 1780288537000,
-      "pub": "Mon, 1 Jun 2026 13:35:37 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "5월에도 질주한 반도체…한국 수출 42% 돌파 '역대 최고'",
-      "link": "https://www.yna.co.kr/view/AKR20260601068600003",
-      "source": "연합뉴스 경제",
-      "ts": 1780281150000,
-      "pub": "Mon, 1 Jun 2026 11:32:30 +0900",
       "sentiment": "positive"
     }
   ]

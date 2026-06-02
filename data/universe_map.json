@@ -5,6 +5,7 @@
     "data_sources": {
       "hl_xyz": "https://api.hyperliquid.xyz/info {type:metaAndAssetCtxs, dex:xyz}",
       "hl_vntl": "https://api.hyperliquid.xyz/info {type:metaAndAssetCtxs, dex:vntl}",
+      "binance_stocks": "https://fapi.binance.com/fapi/v1 (ticker/24hr + premiumIndex + openInterest) — 삼성/하이닉스/현대차 (2026-06-02 상장)",
       "krw_rate": "https://api.upbit.com/v1/ticker?markets=KRW-USDT"
     },
     "total_symbols": 42,
@@ -20,8 +21,10 @@
   "symbols": [
     {
       "slug": "samsung",
-      "ticker": "xyz:SMSN",
+      "ticker": "binance:SAMSUNG",
       "dex": "xyz",
+      "source": "binance",
+      "binance_symbol": "SAMSUNGUSDT",
       "name_ko": "삼성전자",
       "name_en": "Samsung Electronics",
       "category": "korea",
@@ -32,29 +35,31 @@
     },
     {
       "slug": "hynix",
-      "ticker": "xyz:SKHX",
+      "ticker": "binance:SKHYNIX",
       "dex": "xyz",
+      "source": "binance",
+      "binance_symbol": "SKHYNIXUSDT",
       "name_ko": "SK하이닉스",
       "name_en": "SK Hynix",
       "category": "korea",
       "tier": 1,
       "share_ratio": 1.0,
       "regular_market": "KOSPI",
-      "krx_code": "000660",
-      "note": "HL contract = ~7주 묶음 (정규장 1주 환산은 ratio 적용)"
+      "krx_code": "000660"
     },
     {
       "slug": "hyundai",
-      "ticker": "xyz:HYUNDAI",
+      "ticker": "binance:HYUNDAI",
       "dex": "xyz",
+      "source": "binance",
+      "binance_symbol": "HYUNDAIUSDT",
       "name_ko": "현대차",
       "name_en": "Hyundai Motor",
       "category": "korea",
       "tier": 1,
       "share_ratio": 1.0,
       "regular_market": "KOSPI",
-      "krx_code": "005380",
-      "note": "HL contract = ~2.5주 묶음"
+      "krx_code": "005380"
     },
     {
       "slug": "krw",

@@ -4,6 +4,7 @@ import { fetchAllRegularCloses, type RegularClose } from "./regularClose";
 
 const HL_API = "https://api.hyperliquid.xyz/info";
 const UPBIT_API = "https://api.upbit.com/v1/ticker?markets=KRW-USDT";
+const BINANCE_FAPI = "https://fapi.binance.com/fapi/v1";
 
 type HlAssetCtx = {
   markPx: string;
@@ -92,21 +93,64 @@ async function fetchKrwUsdt(): Promise<{ rate: number; change_24h_pct: number }>
   };
 }
 
+// Binance USDT-M 선물 — 한국주식 perp (삼성/하이닉스/현대차, 2026-06-02 상장).
+// HL 과 동일한 HlAssetCtx shape 로 정규화해 다운스트림 로직 재사용.
+async function fetchBinanceOne(symbol: string): Promise<[string, HlAssetCtx] | null> {
+  const opt = { headers: { "User-Agent": "Mozilla/5.0" }, next: { revalidate: 30 } } as const;
+  try {
+    const [tkR, piR, oiR] = await Promise.all([
+      fetch(`${BINANCE_FAPI}/ticker/24hr?symbol=${symbol}`, opt),
+      fetch(`${BINANCE_FAPI}/premiumIndex?symbol=${symbol}`, opt),
+      fetch(`${BINANCE_FAPI}/openInterest?symbol=${symbol}`, opt),
+    ]);
+    if (!tkR.ok) return null;
+    const t: any = await tkR.json();
+    const p: any = piR.ok ? await piR.json() : {};
+    const o: any = oiR.ok ? await oiR.json() : {};
+    const ctx: HlAssetCtx = {
+      markPx: String(t.lastPrice ?? "0"),
+      prevDayPx: String(t.openPrice ?? t.lastPrice ?? "0"),
+      openInterest: String(o.openInterest ?? "0"),
+      dayNtlVlm: String(t.quoteVolume ?? "0"),
+      funding: String(p.lastFundingRate ?? "0"),
+    };
+    return [symbol, ctx];
+  } catch {
+    return null;
+  }
+}
+
+async function fetchBinanceStocks(symbols: string[]): Promise<Map<string, HlAssetCtx>> {
+  const out = new Map<string, HlAssetCtx>();
+  if (symbols.length === 0) return out;
+  const results = await Promise.all(symbols.map(fetchBinanceOne));
+  for (const r of results) if (r) out.set(r[0], r[1]);
+  return out;
+}
+
 export async function fetchAllPrices(): Promise<{
   fetched_at: number;
   fx: { krw_per_usdt: number; change_24h_pct: number };
   symbols: PriceRow[];
 }> {
-  const [xyz, vntl, fx, regCloses] = await Promise.all([
+  const binanceSymbols = SYMBOLS.filter((s) => s.source === "binance" && s.binance_symbol).map(
+    (s) => s.binance_symbol!
+  );
+  const [xyz, vntl, fx, regCloses, binance] = await Promise.all([
     fetchHlDex("xyz"),
     fetchHlDex("vntl"),
     fetchKrwUsdt(),
     fetchAllRegularCloses(),
+    fetchBinanceStocks(binanceSymbols),
   ]);
 
   const rows: PriceRow[] = SYMBOLS.map((sym) => {
-    const src = sym.dex === "xyz" ? xyz : vntl;
-    const ctx = src.get(sym.ticker);
+    const ctx =
+      sym.source === "binance"
+        ? sym.binance_symbol
+          ? binance.get(sym.binance_symbol)
+          : undefined
+        : (sym.dex === "xyz" ? xyz : vntl).get(sym.ticker);
     if (!ctx) return { ...sym, market: null };
     const mark = Number(ctx.markPx ?? 0);
     const prev = Number(ctx.prevDayPx ?? 0) || mark;
@@ -224,6 +268,8 @@ export async function fetchAllPrices(): Promise<{
               ? "장중 변동"
               : phase === "nxt" && useRegularChg
               ? "NXT 변동"
+              : sym.source === "binance"
+              ? "바이낸스 24h"
               : "HL 24h";
           return {
             main_display_krw: round(mainKrw, 2),

@@ -64,7 +64,7 @@ export default async function SymbolPage({ params }: Props) {
   // 가격 + 캔들 병렬 fetch (환율 종목은 차트 skip)
   const candlesPromise = meta.is_fx
     ? Promise.resolve({ bars1H: [], bars4H: [] })
-    : fetchCandleSet(meta.ticker);
+    : fetchCandleSet(meta.ticker, { source: meta.source, binanceSymbol: meta.binance_symbol });
   const [data, candles] = await Promise.all([
     fetchAllPrices(),
     candlesPromise,
@@ -566,7 +566,7 @@ export default async function SymbolPage({ params }: Props) {
 
         <section className="p-5 rounded-xl bg-accent-blue/5 border border-accent-blue/20 text-sm text-text-muted">
           <div className="font-semibold text-text mb-1">📊 데이터 출처</div>
-          가격: Hyperliquid 24시간 시세 ({row.ticker}) · 환율: Upbit KRW/USDT · 업데이트 30초
+          가격: {row.source === "binance" ? "Binance USDT-M 선물" : "Hyperliquid"} 24시간 시세 ({row.ticker}) · 환율: Upbit KRW/USDT · 업데이트 30초
         </section>
       </main>
 

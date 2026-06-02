@@ -5,6 +5,10 @@ export type SymbolMeta = {
   slug: string;
   ticker: string;
   dex: "xyz" | "vntl";
+  /** 시세 소스 — 미지정/"hl"이면 Hyperliquid(dex), "binance"면 Binance USDT-M 선물. */
+  source?: "hl" | "binance";
+  /** source="binance"일 때 fapi 심볼 (예: SAMSUNGUSDT). */
+  binance_symbol?: string;
   name_ko?: string;
   name_en?: string;
   category: "korea" | "us" | "private" | "global" | "themes";

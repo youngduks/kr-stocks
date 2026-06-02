@@ -135,8 +135,15 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
                         color: "bg-accent-blue",
                         textColor: "text-accent-blue",
                         pulse: false,
-                        label: "Hyperliquid",
-                        title: locale === "en" ? "Hyperliquid 24h" : "Hyperliquid 24h 기준",
+                        label: row.source === "binance" ? "Binance" : "Hyperliquid",
+                        title:
+                          row.source === "binance"
+                            ? locale === "en"
+                              ? "Binance futures 24h"
+                              : "Binance 선물 24h 기준"
+                            : locale === "en"
+                            ? "Hyperliquid 24h"
+                            : "Hyperliquid 24h 기준",
                       };
                 return (
                   <span

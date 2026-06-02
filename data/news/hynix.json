@@ -1,8 +1,56 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-01T22:28:54.454Z",
+  "updated_at": "2026-06-02T00:05:21.446Z",
   "count": 16,
   "items": [
+    {
+      "title": "美이민규제에 엔비디아만 외국인 고용↑…AI인재 기본급만 7억원",
+      "link": "https://www.yna.co.kr/view/AKR20260602031400091",
+      "source": "연합뉴스 국제",
+      "ts": 1780357990000,
+      "pub": "Tue, 2 Jun 2026 08:53:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "메모리값 상승 여파에…\"글로벌 OLED 재료 구매액 전망 12.8%↓\"",
+      "link": "https://www.yna.co.kr/view/AKR20260602030800003",
+      "source": "연합뉴스 경제",
+      "ts": 1780357664000,
+      "pub": "Tue, 2 Jun 2026 08:47:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "키움증권, 삼전 43만원·하이닉스 260만원으로 목표가 상향",
+      "link": "https://www.yna.co.kr/view/AKR20260602028500008",
+      "source": "연합뉴스 경제",
+      "ts": 1780356905000,
+      "pub": "Tue, 2 Jun 2026 08:35:05 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "iM증권 \"반도체로 고유가 충격 이겨내…수출 호황 당분간 계속\"",
+      "link": "https://www.yna.co.kr/view/AKR20260602025000008",
+      "source": "연합뉴스 경제",
+      "ts": 1780355551000,
+      "pub": "Tue, 2 Jun 2026 08:12:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "탈탄소는 골치? \"실익 주는 전략\"…자동차 반도체 1위 기업 청사진",
+      "link": "https://www.mt.co.kr/industry/2026/06/02/2026060123345454697",
+      "source": "머니투데이",
+      "ts": 1780354800000,
+      "pub": "Tue, 02 Jun 2026 08:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI랠리에 3대 지수 또 최고치…엔비디아 6%↑ [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026060218996",
+      "source": "한국경제",
+      "ts": 1780351969000,
+      "pub": "Tue, 02 Jun 2026 07:12:49 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "[시선강탈] 제주반도체 vs 대한전선 vs 레인보우로보틱스, 공략법은?",
       "link": "https://www.mt.co.kr/stock/2026/06/02/2026060206277072750",
@@ -36,30 +84,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "젠슨황·K메모리 '깐부동맹' 시즌2",
-      "link": "https://www.mt.co.kr/industry/2026/06/02/2026060120053160456",
-      "source": "머니투데이",
-      "ts": 1780340760000,
-      "pub": "Tue, 02 Jun 2026 04:06:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[사설]또 반도체 볼모 파업위협, '노봉법' 청구서",
-      "link": "https://www.mt.co.kr/opinion/2026/06/02/2026060114232418034",
-      "source": "머니투데이",
-      "ts": 1780340700000,
-      "pub": "Tue, 02 Jun 2026 04:05:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[사설]반도체 의존한 수출 신기록, 그늘도 짚어야",
-      "link": "https://www.mt.co.kr/opinion/2026/06/02/2026060116514890043",
-      "source": "머니투데이",
-      "ts": 1780340400000,
-      "pub": "Tue, 02 Jun 2026 04:00:00 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "젠슨 황 \"엔비디아, 한국 로보틱스에 투자하겠다\"",
       "link": "https://www.hankyung.com/article/2026060117721",
       "source": "한국경제",
@@ -76,28 +100,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "엔비디아, 대학에 판매할 로봇시스템에 中유니트리 선정",
-      "link": "https://www.hankyung.com/article/202606011665i",
-      "source": "한국경제",
-      "ts": 1780310553000,
-      "pub": "Mon, 01 Jun 2026 19:42:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[특징주] '대장주' 삼전이 10% 급등…SK하이닉스도 1%대 상승(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260601036552008",
       "source": "연합뉴스 경제",
       "ts": 1780296668000,
       "pub": "Mon, 1 Jun 2026 15:51:08 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "\"엔비디아, 한국 업체 등과도 연구용 로봇 개발 협력\"",
-      "link": "https://www.yna.co.kr/view/AKR20260601118000009",
-      "source": "연합뉴스 국제",
-      "ts": 1780294445000,
-      "pub": "Mon, 1 Jun 2026 15:14:05 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "SK증권, 삼성전자 61만원·하이닉스 400만원으로 목표가↑",
@@ -121,14 +129,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780281150000,
       "pub": "Mon, 1 Jun 2026 11:32:30 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[특징주] 삼성전자, 10% 가까이 급등…SK하이닉스 상승 전환(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260601036551008",
-      "source": "연합뉴스 경제",
-      "ts": 1780280020000,
-      "pub": "Mon, 1 Jun 2026 11:13:40 +0900",
       "sentiment": "positive"
     }
   ]

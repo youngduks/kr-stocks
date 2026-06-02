@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-01T22:28:54.453Z",
-  "count": 13,
+  "updated_at": "2026-06-02T00:05:21.445Z",
+  "count": 8,
   "items": [
+    {
+      "title": "메모리값 상승 여파에…\"글로벌 OLED 재료 구매액 전망 12.8%↓\"",
+      "link": "https://www.yna.co.kr/view/AKR20260602030800003",
+      "source": "연합뉴스 경제",
+      "ts": 1780357664000,
+      "pub": "Tue, 2 Jun 2026 08:47:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "키움증권, 삼전 43만원·하이닉스 260만원으로 목표가 상향",
+      "link": "https://www.yna.co.kr/view/AKR20260602028500008",
+      "source": "연합뉴스 경제",
+      "ts": 1780356905000,
+      "pub": "Tue, 2 Jun 2026 08:35:05 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "쌀 나는 논에서 '산업의 쌀' 키울 전기 수확…삼전 RE100 해법 찾았다",
       "link": "https://www.mt.co.kr/industry/2026/06/02/2026060122443967383",
@@ -20,51 +36,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "레미콘운송노조 '삼전닉스' 볼모 잡고 파업 예고",
-      "link": "https://www.mt.co.kr/industry/2026/06/02/2026060120110154470",
-      "source": "머니투데이",
-      "ts": 1780341120000,
-      "pub": "Tue, 02 Jun 2026 04:12:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "젠슨황·K메모리 '깐부동맹' 시즌2",
-      "link": "https://www.mt.co.kr/industry/2026/06/02/2026060120053160456",
-      "source": "머니투데이",
-      "ts": 1780340760000,
-      "pub": "Tue, 02 Jun 2026 04:06:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "5년 연속 '호암상' 찾은 이재용… '인재제일' 철학 잇는다",
-      "link": "https://www.mt.co.kr/industry/2026/06/02/2026060120020834879",
-      "source": "머니투데이",
-      "ts": 1780340640000,
-      "pub": "Tue, 02 Jun 2026 04:04:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'삼전닉스' 날개 달고… 5월 수출 878억弗",
-      "link": "https://www.mt.co.kr/economy/2026/06/02/2026060119474162873",
-      "source": "머니투데이",
-      "ts": 1780340400000,
-      "pub": "Tue, 02 Jun 2026 04:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"주가 61만원 간다\"…삼성전자 또 역대급 전망에 '들썩' [종목+]",
       "link": "https://www.hankyung.com/article/2026060114866",
       "source": "한국경제",
       "ts": 1780318801000,
       "pub": "Mon, 01 Jun 2026 22:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'연봉 수억' 삼전닉스 직원들 행운 알고 보니…'놀라운 결과'",
-      "link": "https://www.hankyung.com/article/2026060114351",
-      "source": "한국경제",
-      "ts": 1780312183000,
-      "pub": "Mon, 01 Jun 2026 20:09:43 +0900",
       "sentiment": "neutral"
     },
     {
@@ -90,22 +66,6 @@
       "ts": 1780288504000,
       "pub": "Mon, 1 Jun 2026 13:35:04 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼성전자, 10% 가까이 급등…SK하이닉스 상승 전환(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260601036551008",
-      "source": "연합뉴스 경제",
-      "ts": 1780280020000,
-      "pub": "Mon, 1 Jun 2026 11:13:40 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "코스피, 장중 사상 첫 8,800선 돌파…삼성전자 9%대 급등",
-      "link": "https://www.yna.co.kr/view/AKR20260601066300008",
-      "source": "연합뉴스 경제",
-      "ts": 1780279233000,
-      "pub": "Mon, 1 Jun 2026 11:00:33 +0900",
-      "sentiment": "positive"
     }
   ]
 }

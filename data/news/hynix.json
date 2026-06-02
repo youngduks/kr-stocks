@@ -1,8 +1,40 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-02T21:40:16.731Z",
-  "count": 7,
+  "updated_at": "2026-06-02T23:26:07.020Z",
+  "count": 10,
   "items": [
+    {
+      "title": "'SK하이닉스 대박' 전원주, 호텔 뷔페 쐈다...\"왜 이렇게 살았나 싶어\"",
+      "link": "https://www.mt.co.kr/entertainment/2026/06/03/2026060307222710570",
+      "source": "머니투데이",
+      "ts": 1780439276000,
+      "pub": "Wed, 03 Jun 2026 07:27:56 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "반도체로 지방 살리고 경쟁력 확보도…'수도권 배제' 논란은 여전",
+      "link": "https://www.mt.co.kr/economy/2026/06/03/2026060217142575800",
+      "source": "머니투데이",
+      "ts": 1780438200000,
+      "pub": "Wed, 03 Jun 2026 07:10:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "ETF에도 '빚투'…반도체 상품 신용잔고 한달새 급증",
+      "link": "https://www.yna.co.kr/view/AKR20260602146700008",
+      "source": "연합뉴스 경제",
+      "ts": 1780438200000,
+      "pub": "Wed, 3 Jun 2026 07:10:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[단독]\"나라땅 사용료 0원\"…지방 반도체 산단에 파격 지원 쏟아진다",
+      "link": "https://www.mt.co.kr/economy/2026/06/03/2026060216182990762",
+      "source": "머니투데이",
+      "ts": 1780437600000,
+      "pub": "Wed, 03 Jun 2026 07:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "MS, 애플 맥미니에 반격…엔비디아 손잡고 AI용 PC 공개",
       "link": "https://www.hankyung.com/article/202606034020i",
@@ -34,14 +66,6 @@
       "ts": 1780382783000,
       "pub": "Tue, 2 Jun 2026 15:46:23 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "대만 시장조사업체 \"2분기 D램 가격 60%대 인상 가능성\"",
-      "link": "https://www.yna.co.kr/view/AKR20260602114700009",
-      "source": "연합뉴스 국제",
-      "ts": 1780380343000,
-      "pub": "Tue, 2 Jun 2026 15:05:43 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "삼성운용, 'AI반도체톱플러스' ETF 순자산 4조원 돌파",

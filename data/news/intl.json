@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-02T21:40:16.729Z",
-  "count": 30,
+  "updated_at": "2026-06-02T23:26:07.018Z",
+  "count": 36,
   "items": [
+    {
+      "title": "트럼프, AI 보안검증 행정명령 서명…초안 대비 검증기간 단축",
+      "link": "https://www.yna.co.kr/view/AKR20260603016900009",
+      "source": "연합뉴스 국제",
+      "ts": 1780441707000,
+      "pub": "Wed, 3 Jun 2026 08:08:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘·레바논, 美중재로 평화협상 재개…'60일 긴장 완화' 논의",
+      "link": "https://www.mt.co.kr/world/2026/06/03/2026060306565342138",
+      "source": "머니투데이",
+      "ts": 1780437617000,
+      "pub": "Wed, 03 Jun 2026 07:00:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 행정부 해상 풍력발전 취소에 뉴욕州 등 소송",
+      "link": "https://www.yna.co.kr/view/AKR20260603011200072",
+      "source": "연합뉴스 국제",
+      "ts": 1780436956000,
+      "pub": "Wed, 3 Jun 2026 06:49:16 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프, 미 최고 정보수장에 충성파 주택금융청장 발탁...공화당도 우려",
+      "link": "https://www.mt.co.kr/world/2026/06/03/2026060306382578324",
+      "source": "머니투데이",
+      "ts": 1780436567000,
+      "pub": "Wed, 03 Jun 2026 06:42:47 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "이스라엘·레바논 워싱턴서 회담재개…美국무 \"문제는 헤즈볼라\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260602169051071",
+      "source": "연합뉴스 국제",
+      "ts": 1780436300000,
+      "pub": "Wed, 3 Jun 2026 06:38:20 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 정보기관 총괄 DNI 수장 대행에 비전문 '충성파' 기용(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260602169151071",
@@ -20,11 +60,35 @@
       "sentiment": "neutral"
     },
     {
+      "title": "'총격범 난입 중단' 백악관기자협회 만찬 재개최…트럼프 참석",
+      "link": "https://www.mt.co.kr/world/2026/06/03/2026060304360944082",
+      "source": "머니투데이",
+      "ts": 1780429118000,
+      "pub": "Wed, 03 Jun 2026 04:38:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 \"301조 조사 결과 곧 발표\"…한국 등 70개국 관세 사정권",
+      "link": "https://www.mt.co.kr/world/2026/06/03/2026060303474775576",
+      "source": "머니투데이",
+      "ts": 1780426358000,
+      "pub": "Wed, 03 Jun 2026 03:52:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "'총격 파행' 백악관기자協 만찬 7월24일 재개최…트럼프도 참석(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260603002651071",
       "source": "연합뉴스 국제",
       "ts": 1780424653000,
       "pub": "Wed, 3 Jun 2026 03:24:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"종전협상 중단은 가짜뉴스…오늘까지 계속 대화 중\"",
+      "link": "https://www.mt.co.kr/world/2026/06/03/2026060303022892716",
+      "source": "머니투데이",
+      "ts": 1780423482000,
+      "pub": "Wed, 03 Jun 2026 03:04:42 +0900",
       "sentiment": "neutral"
     },
     {
@@ -225,22 +289,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780383697000,
       "pub": "Tue, 2 Jun 2026 16:01:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, 브라질에 25% 보복 관세 추진…무역법 301조 동원",
-      "link": "https://www.yna.co.kr/view/AKR20260602120700009",
-      "source": "연합뉴스 국제",
-      "ts": 1780381885000,
-      "pub": "Tue, 2 Jun 2026 15:31:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "알바니아 바다거북 서식지에 트럼프 사위 리조트…특혜의혹 수사",
-      "link": "https://www.yna.co.kr/view/AKR20260602101400009",
-      "source": "연합뉴스 국제",
-      "ts": 1780379009000,
-      "pub": "Tue, 2 Jun 2026 14:43:29 +0900",
       "sentiment": "neutral"
     }
   ]

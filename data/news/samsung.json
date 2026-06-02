@@ -1,8 +1,48 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-02T05:21:23.877Z",
-  "count": 11,
+  "updated_at": "2026-06-02T10:00:10.757Z",
+  "count": 9,
   "items": [
+    {
+      "title": "메타 제친 삼성전자, 글로벌 시총 '톱10'",
+      "link": "https://www.hankyung.com/article/2026060237081",
+      "source": "한국경제",
+      "ts": 1780391133000,
+      "pub": "Tue, 02 Jun 2026 18:05:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"D램 공급난에 HBM 협상력 커져…내년 계약가격 몇배 상승 전망\"",
+      "link": "https://www.yna.co.kr/view/AKR20260602145300003",
+      "source": "연합뉴스 경제",
+      "ts": 1780389337000,
+      "pub": "Tue, 2 Jun 2026 17:35:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, 또 사상 최고 8,801…삼전, 글로벌 시총 10위로(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260602130900008",
+      "source": "연합뉴스 경제",
+      "ts": 1780385244000,
+      "pub": "Tue, 2 Jun 2026 16:27:24 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼전, 메타 제치고 글로벌 시총 10위…한때 테슬라 추월도(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260602079851008",
+      "source": "연합뉴스 경제",
+      "ts": 1780384971000,
+      "pub": "Tue, 2 Jun 2026 16:22:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼전, 3%대 상승으로 코스피 지켰다…하이닉스 약보합(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260602043951008",
+      "source": "연합뉴스 경제",
+      "ts": 1780383242000,
+      "pub": "Tue, 2 Jun 2026 15:54:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "한투운용, '고배당주+삼전닉스' 커버드콜액티브 ETF 상장",
       "link": "https://www.yna.co.kr/view/AKR20260602097400008",
@@ -12,51 +52,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"장중 9위 테슬라도 제쳐\"...삼성전자 시총, 첫 세계 10위권",
-      "link": "https://www.mt.co.kr/stock/2026/06/02/2026060212581966403",
-      "source": "머니투데이",
-      "ts": 1780373804000,
-      "pub": "Tue, 02 Jun 2026 13:16:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'삼전닉스' 급등에 인도 제친 한국 증시...시총 세계 6위로 껑충",
-      "link": "https://www.mt.co.kr/world/2026/06/02/2026060212015851208",
-      "source": "머니투데이",
-      "ts": 1780373211000,
-      "pub": "Tue, 02 Jun 2026 13:06:51 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "한투운용, '고배당주+삼전닉스' 커버드콜 액티브 ETF 출시",
-      "link": "https://www.hankyung.com/article/2026060229146",
-      "source": "한국경제",
-      "ts": 1780372807000,
-      "pub": "Tue, 02 Jun 2026 13:00:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[오늘 이 종목] AI CCL 슈퍼사이클부터 HBM · 유리기판까지… 김민수 대표의 '시선집중' 핵심 전략",
-      "link": "https://www.mt.co.kr/stock/2026/06/02/2026060212057085572",
-      "source": "머니투데이",
-      "ts": 1780371351000,
-      "pub": "Tue, 02 Jun 2026 12:35:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "삼성전자, 장중 메타 제치고 글로벌 시가총액 10위로",
       "link": "https://www.yna.co.kr/view/AKR20260602079800008",
       "source": "연합뉴스 경제",
       "ts": 1780367170000,
       "pub": "Tue, 2 Jun 2026 11:26:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼전 팔고 바이오주 담자\"…롤러코스피에 1% 초고수 몰려간 곳",
-      "link": "https://www.hankyung.com/article/202606022561i",
-      "source": "한국경제",
-      "ts": 1780365877000,
-      "pub": "Tue, 02 Jun 2026 11:04:37 +0900",
       "sentiment": "neutral"
     },
     {
@@ -74,22 +74,6 @@
       "ts": 1780360028000,
       "pub": "Tue, 2 Jun 2026 09:27:08 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "메모리값 상승 여파에…\"글로벌 OLED 재료 구매액 전망 12.8%↓\"",
-      "link": "https://www.yna.co.kr/view/AKR20260602030800003",
-      "source": "연합뉴스 경제",
-      "ts": 1780357664000,
-      "pub": "Tue, 2 Jun 2026 08:47:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "키움증권, 삼전 43만원·하이닉스 260만원으로 목표가 상향",
-      "link": "https://www.yna.co.kr/view/AKR20260602028500008",
-      "source": "연합뉴스 경제",
-      "ts": 1780356905000,
-      "pub": "Tue, 2 Jun 2026 08:35:05 +0900",
-      "sentiment": "positive"
     }
   ]
 }

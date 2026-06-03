@@ -1,8 +1,64 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-03T20:45:56.934Z",
-  "count": 26,
+  "updated_at": "2026-06-03T22:57:36.244Z",
+  "count": 32,
   "items": [
+    {
+      "title": "수세 몰린 트럼프...미 하원, 이란 전쟁 종결 결의안 채택",
+      "link": "https://www.mt.co.kr/world/2026/06/04/2026060407082949050",
+      "source": "머니투데이",
+      "ts": 1780526589000,
+      "pub": "Thu, 04 Jun 2026 07:43:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "김정은, 새 핵물질 생산공장 시찰…\"핵무기 기하급수적 강화\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/04/2026060406554193464",
+      "source": "머니투데이",
+      "ts": 1780525265000,
+      "pub": "Thu, 04 Jun 2026 07:21:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"UFC 경기 끝나고 프랑스 G7 행사 참석할 것\"",
+      "link": "https://www.mt.co.kr/world/2026/06/04/2026060406163113538",
+      "source": "머니투데이",
+      "ts": 1780524471000,
+      "pub": "Thu, 04 Jun 2026 07:07:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美국무 \"이란과 HEU 처리 논의중…트럼프, 내달 나토회의 참석\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260603100252071",
+      "source": "연합뉴스 국제",
+      "ts": 1780524362000,
+      "pub": "Thu, 4 Jun 2026 07:06:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 협상 잘 진행중…이번 주말에라도 합의 가능\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260604036751071",
+      "source": "연합뉴스 국제",
+      "ts": 1780523725000,
+      "pub": "Thu, 4 Jun 2026 06:55:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "쿠웨이트 공습에도...트럼프 \"이란과 종전 협상 잘 진행중\"",
+      "link": "https://www.mt.co.kr/world/2026/06/04/2026060406060029370",
+      "source": "머니투데이",
+      "ts": 1780520986000,
+      "pub": "Thu, 04 Jun 2026 06:09:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 협상 잘 진행중…이번 주말에라도 합의 가능\"",
+      "link": "https://www.yna.co.kr/view/AKR20260604036700071",
+      "source": "연합뉴스 국제",
+      "ts": 1780519557000,
+      "pub": "Thu, 4 Jun 2026 05:45:57 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 佛개최 G7회의 참석 공식화…\"백악관 UFC경기뒤 참석\"",
       "link": "https://www.yna.co.kr/view/AKR20260604032800071",
@@ -20,6 +76,22 @@
       "sentiment": "neutral"
     },
     {
+      "title": "美 \"강제노동 차단 미흡\"… 韓 등 60개국 10~12.5% 관세 추진",
+      "link": "https://www.mt.co.kr/world/2026/06/04/2026060320152388657",
+      "source": "머니투데이",
+      "ts": 1780513200000,
+      "pub": "Thu, 04 Jun 2026 04:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"협상 지속\" 트럼프 발언에도… 美·이란, 무력충돌 여전",
+      "link": "https://www.mt.co.kr/world/2026/06/04/2026060320152378471",
+      "source": "머니투데이",
+      "ts": 1780513200000,
+      "pub": "Thu, 04 Jun 2026 04:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "우크라 '러시아판 다보스포럼' 앞서 상트페테르부르크 공습(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260603060751099",
       "source": "연합뉴스 국제",
@@ -33,14 +105,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780509681000,
       "pub": "Thu, 4 Jun 2026 03:01:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美·이란 무력충돌 속 트럼프 \"모즈타바 만나길 원해\"",
-      "link": "https://www.hankyung.com/article/2026060353201",
-      "source": "한국경제",
-      "ts": 1780503024000,
-      "pub": "Thu, 04 Jun 2026 01:10:24 +0900",
       "sentiment": "neutral"
     },
     {
@@ -193,22 +257,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780441707000,
       "pub": "Wed, 3 Jun 2026 08:08:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 행정부 해상 풍력발전 취소에 뉴욕州 등 소송",
-      "link": "https://www.yna.co.kr/view/AKR20260603011200072",
-      "source": "연합뉴스 국제",
-      "ts": 1780436956000,
-      "pub": "Wed, 3 Jun 2026 06:49:16 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "이스라엘·레바논 워싱턴서 회담재개…美국무 \"문제는 헤즈볼라\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260602169051071",
-      "source": "연합뉴스 국제",
-      "ts": 1780436300000,
-      "pub": "Wed, 3 Jun 2026 06:38:20 +0900",
       "sentiment": "neutral"
     }
   ]

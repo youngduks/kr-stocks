@@ -1,14 +1,46 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-03T20:45:56.937Z",
-  "count": 9,
+  "updated_at": "2026-06-03T22:57:36.247Z",
+  "count": 12,
   "items": [
     {
-      "title": "EU \"역내에 첨단 반도체 생산 파운드리 건설 추진\"",
-      "link": "https://www.hankyung.com/article/202606045529i",
-      "source": "한국경제",
-      "ts": 1780500859000,
-      "pub": "Thu, 04 Jun 2026 00:34:19 +0900",
+      "title": "\"반도체 더 만들어달라\"는 젠슨 황...SK실트론 매각 멈춘 SK그룹",
+      "link": "https://www.mt.co.kr/industry/2026/06/04/2026060322361518031",
+      "source": "머니투데이",
+      "ts": 1780524000000,
+      "pub": "Thu, 04 Jun 2026 07:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 훈풍에 대중국 무역수지 4년 만에 흑자전환 유력",
+      "link": "https://www.yna.co.kr/view/AKR20260603054400003",
+      "source": "연합뉴스 경제",
+      "ts": 1780520701000,
+      "pub": "Thu, 4 Jun 2026 06:05:01 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "기업 강제이전 '채찍'보다 정책지원 '당근'… K반도체 저변 확대",
+      "link": "https://www.mt.co.kr/economy/2026/06/04/2026060322033676538",
+      "source": "머니투데이",
+      "ts": 1780513800000,
+      "pub": "Thu, 04 Jun 2026 04:10:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아 새 깐부?… 'CCL 안정화' 두산 찍었나",
+      "link": "https://www.mt.co.kr/industry/2026/06/04/2026060321235968654",
+      "source": "머니투데이",
+      "ts": 1780513440000,
+      "pub": "Thu, 04 Jun 2026 04:04:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 산단, 지방에만 짓고 혜택 몰아준다",
+      "link": "https://www.mt.co.kr/economy/2026/06/04/2026060321092286509",
+      "source": "머니투데이",
+      "ts": 1780513200000,
+      "pub": "Thu, 04 Jun 2026 04:00:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -65,14 +97,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780382783000,
       "pub": "Tue, 2 Jun 2026 15:46:23 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "삼성운용, 'AI반도체톱플러스' ETF 순자산 4조원 돌파",
-      "link": "https://www.yna.co.kr/view/AKR20260602075200008",
-      "source": "연합뉴스 경제",
-      "ts": 1780366333000,
-      "pub": "Tue, 2 Jun 2026 11:12:13 +0900",
       "sentiment": "positive"
     }
   ]

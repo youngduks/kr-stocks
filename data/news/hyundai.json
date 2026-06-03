@@ -1,8 +1,32 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-06-02T23:26:07.020Z",
-  "count": 2,
+  "updated_at": "2026-06-03T02:38:29.448Z",
+  "count": 5,
   "items": [
+    {
+      "title": "기아, 미국 현대차그룹공장서 '스포티지 하이브리드' 첫 생산",
+      "link": "https://www.mt.co.kr/industry/2026/06/03/2026060310253541462",
+      "source": "머니투데이",
+      "ts": 1780451305000,
+      "pub": "Wed, 03 Jun 2026 10:48:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대차그룹, 한국·프랑스 수교 140주년 기념 문화예술 후원",
+      "link": "https://www.mt.co.kr/industry/2026/06/03/2026060310131781786",
+      "source": "머니투데이",
+      "ts": 1780451214000,
+      "pub": "Wed, 03 Jun 2026 10:46:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대차그룹, 아틀라스 글로벌 영업 본격화…하반기 미국 세일즈 로드쇼",
+      "link": "https://www.mt.co.kr/industry/2026/06/03/2026060209580091418",
+      "source": "머니투데이",
+      "ts": 1780443000000,
+      "pub": "Wed, 03 Jun 2026 08:30:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "현대차·기아, 5월 美판매 나란히 증가…하이브리드 '역대 최고'",
       "link": "https://www.yna.co.kr/view/AKR20260603002400091",

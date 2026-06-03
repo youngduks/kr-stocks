@@ -63,6 +63,7 @@ function LangToggle() {
     // 영어 동등 경로 — 가이드 + 분석 매핑. 그 외 (/korea/...) → /en 홈
     if (pathname === "/") enHref = "/en";
     else if (pathname === "/guide/hyperliquid-onramp") enHref = "/en/guide/hyperliquid-onramp";
+    else if (pathname === "/guide/binance-korea-stocks") enHref = "/en/guide/binance-korea-stocks";
     else if (pathname === "/consensus") enHref = "/en/consensus";
     else enHref = "/en";
   }

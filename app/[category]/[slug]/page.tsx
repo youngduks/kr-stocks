@@ -566,6 +566,30 @@ export default async function SymbolPage({ params }: Props) {
           </section>
         )}
 
+        {/* 거래 방법 CTA — 한국주식 3종 (휴장에도 24h 거래 가능: 바이낸스 + HL) */}
+        {row.category === "korea" && (
+          <section className="mb-6 p-5 rounded-xl bg-accent-amber/5 border border-accent-amber/20">
+            <div className="font-semibold text-text mb-1 text-sm">💱 {row.name_ko} 24시간 거래하는 법</div>
+            <p className="text-xs text-text-muted leading-relaxed mb-3">
+              KRX 휴장 시간에도 {row.name_ko}를 long/short 거래할 수 있습니다. 가입부터 진입까지 단계별 안내:
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <Link
+                href="/guide/binance-korea-stocks"
+                className="inline-block px-4 py-2 rounded-lg bg-accent-amber/10 text-accent-amber hover:bg-accent-amber/20 text-sm font-semibold transition"
+              >
+                바이낸스로 거래하는 법 →
+              </Link>
+              <Link
+                href="/guide/hyperliquid-onramp"
+                className="inline-block px-4 py-2 rounded-lg bg-accent-blue/10 text-accent-blue hover:bg-accent-blue/20 text-sm font-semibold transition"
+              >
+                하이퍼리퀴드로 거래하는 법 →
+              </Link>
+            </div>
+          </section>
+        )}
+
         <section className="p-5 rounded-xl bg-accent-blue/5 border border-accent-blue/20 text-sm text-text-muted">
           <div className="font-semibold text-text mb-1">📊 데이터 출처</div>
           가격: {row.source === "binance" ? "Binance USDT-M 선물" : "Hyperliquid"} 24시간 시세 ({row.ticker}) · 환율: Upbit KRW/USDT · 업데이트 30초

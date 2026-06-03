@@ -1,8 +1,96 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-03T12:29:16.193Z",
-  "count": 30,
+  "updated_at": "2026-06-03T17:55:13.356Z",
+  "count": 28,
   "items": [
+    {
+      "title": "美·이란 무력충돌 속 트럼프 \"모즈타바 만나길 원해\"",
+      "link": "https://www.hankyung.com/article/2026060353201",
+      "source": "한국경제",
+      "ts": 1780503024000,
+      "pub": "Thu, 04 Jun 2026 01:10:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "네타냐후, '욕설' 트럼프 불화설 일축 \"주요 사안 의견 같아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260604003500108",
+      "source": "연합뉴스 국제",
+      "ts": 1780501311000,
+      "pub": "Thu, 4 Jun 2026 00:41:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"호르무즈 봉쇄 9월 갈수도\"…마벨·인텔 또 급등 이유 [빈난새의 개장전요것만]",
+      "link": "https://www.hankyung.com/article/202606035442i",
+      "source": "한국경제",
+      "ts": 1780498825000,
+      "pub": "Thu, 04 Jun 2026 00:00:25 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "트럼프, 종전 협상 담판?...\"이란 최고지도자 만날 수 있다\"",
+      "link": "https://www.mt.co.kr/world/2026/06/03/2026060323460696992",
+      "source": "머니투데이",
+      "ts": 1780497997000,
+      "pub": "Wed, 03 Jun 2026 23:46:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美국무 \"레바논·이스라엘, 오늘 공동성명·행동계획 발표하길\"",
+      "link": "https://www.yna.co.kr/view/AKR20260603100200071",
+      "source": "연합뉴스 국제",
+      "ts": 1780497986000,
+      "pub": "Wed, 3 Jun 2026 23:46:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"모즈타바, 종전 협상 분명히 관여…언젠가 만날 것\" [종합]",
+      "link": "https://www.hankyung.com/article/2026060354327",
+      "source": "한국경제",
+      "ts": 1780497610000,
+      "pub": "Wed, 03 Jun 2026 23:40:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"모즈타바, 협상 관여…만나고 싶고, 아마 언젠가 만날것\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260603078651009",
+      "source": "연합뉴스 국제",
+      "ts": 1780495920000,
+      "pub": "Wed, 3 Jun 2026 23:12:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러 외무차관 \"영토 보전 공격당하면 핵무기로 대응 가능\"",
+      "link": "https://www.yna.co.kr/view/AKR20260603091600108",
+      "source": "연합뉴스 국제",
+      "ts": 1780494304000,
+      "pub": "Wed, 3 Jun 2026 22:45:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美, 12.5% 강제노동 관세 예고…정부 \"이익균형 원칙 훼손 않도록 최선\"",
+      "link": "https://www.mt.co.kr/economy/2026/06/03/2026060321115362858",
+      "source": "머니투데이",
+      "ts": 1780491190000,
+      "pub": "Wed, 03 Jun 2026 21:53:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미, '강제노동' 60개국에 10∼12.5% 관세예고…한국 12.5%(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260603044452009",
+      "source": "연합뉴스 경제",
+      "ts": 1780490816000,
+      "pub": "Wed, 3 Jun 2026 21:46:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정부, 미국 12.5% 관세 예고에 \"조만간 USTR 측과 논의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260603082800003",
+      "source": "연합뉴스 경제",
+      "ts": 1780489613000,
+      "pub": "Wed, 3 Jun 2026 21:26:53 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"모즈타바 하메네이, 이란 협상에 관여…만나고 싶다\"",
       "link": "https://www.yna.co.kr/view/AKR20260603078600009",
@@ -36,38 +124,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[속보] 트럼프 \"이란과 협상 빠르게 전개…좋은 일 생길 것\"",
-      "link": "https://www.hankyung.com/article/2026060350967",
-      "source": "한국경제",
-      "ts": 1780482827000,
-      "pub": "Wed, 03 Jun 2026 19:33:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란 모즈타바, 협상 관여…만나고 싶다\"",
-      "link": "https://www.hankyung.com/article/2026060350887",
-      "source": "한국경제",
-      "ts": 1780482581000,
-      "pub": "Wed, 03 Jun 2026 19:29:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 '강제노동 제품 수입' 빌미로 韓에 12.5% 관세 예고",
-      "link": "https://www.hankyung.com/article/2026060349491",
-      "source": "한국경제",
-      "ts": 1780481887000,
-      "pub": "Wed, 03 Jun 2026 19:18:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 \"한국 등 강제노동제품 금지 미흡 60개국 12.5% 관세\"",
-      "link": "https://www.hankyung.com/article/202606035055i",
-      "source": "한국경제",
-      "ts": 1780481188000,
-      "pub": "Wed, 03 Jun 2026 19:06:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 상호관세 대체 '301조 관세' 윤곽…韓 '15%' 지키기 사활",
       "link": "https://www.yna.co.kr/view/AKR20260603065300009",
       "source": "연합뉴스 국제",
@@ -89,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780474016000,
       "pub": "Wed, 3 Jun 2026 17:06:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "USTR, 韓 포함 60개국 '강제노동 관세' 예고…靑 \"이익균형 훼손 않도록 최선\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/03/2026060316074462981",
-      "source": "머니투데이",
-      "ts": 1780473666000,
-      "pub": "Wed, 03 Jun 2026 17:01:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -177,70 +225,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780429597000,
       "pub": "Wed, 3 Jun 2026 04:46:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'총격 파행' 백악관기자協 만찬 7월24일 재개최…트럼프도 참석(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260603002651071",
-      "source": "연합뉴스 국제",
-      "ts": 1780424653000,
-      "pub": "Wed, 3 Jun 2026 03:24:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"美-이란 대화중단은 가짜뉴스…오늘까지도 대화 계속\"",
-      "link": "https://www.yna.co.kr/view/AKR20260603003300071",
-      "source": "연합뉴스 국제",
-      "ts": 1780421421000,
-      "pub": "Wed, 3 Jun 2026 02:30:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"美-이란 대화중단은 가짜뉴스…오늘도 대화중\"",
-      "link": "https://www.yna.co.kr/view/AKR20260603003200071",
-      "source": "연합뉴스 국제",
-      "ts": 1780420201000,
-      "pub": "Wed, 3 Jun 2026 02:10:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'총격사태로 파행' 백악관기자協 만찬 7월24일 다시 개최",
-      "link": "https://www.yna.co.kr/view/AKR20260603002600071",
-      "source": "연합뉴스 국제",
-      "ts": 1780419679000,
-      "pub": "Wed, 3 Jun 2026 02:01:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 '교전 중단' 선언 후에도 이스라엘·헤즈볼라 공방(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260602148151079",
-      "source": "연합뉴스 국제",
-      "ts": 1780418941000,
-      "pub": "Wed, 3 Jun 2026 01:49:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 EU 가입 길 열리나…헝가리 \"양국관계 새 장\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260602167351082",
-      "source": "연합뉴스 국제",
-      "ts": 1780418516000,
-      "pub": "Wed, 3 Jun 2026 01:41:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "푸틴, 5일 경제포럼서 한정 中부주석과 회동",
-      "link": "https://www.yna.co.kr/view/AKR20260603002200108",
-      "source": "연합뉴스 국제",
-      "ts": 1780417332000,
-      "pub": "Wed, 3 Jun 2026 01:22:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美USTR 대표, 관세 부과 근거될 301조 조사결과 \"몇주내 공개\"",
-      "link": "https://www.yna.co.kr/view/AKR20260603001000071",
-      "source": "연합뉴스 국제",
-      "ts": 1780415201000,
-      "pub": "Wed, 3 Jun 2026 00:46:41 +0900",
       "sentiment": "neutral"
     }
   ]

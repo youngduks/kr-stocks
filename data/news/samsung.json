@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-03T12:29:16.194Z",
-  "count": 8,
+  "updated_at": "2026-06-03T17:55:13.358Z",
+  "count": 10,
   "items": [
+    {
+      "title": "EU \"역내에 첨단 반도체 생산 파운드리 건설 추진\"",
+      "link": "https://www.hankyung.com/article/202606045529i",
+      "source": "한국경제",
+      "ts": 1780500859000,
+      "pub": "Thu, 04 Jun 2026 00:34:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[포토] 삼성전자 협력사 도우미로 나선 수출입은행",
+      "link": "https://www.hankyung.com/article/2026060349831",
+      "source": "한국경제",
+      "ts": 1780500704000,
+      "pub": "Thu, 04 Jun 2026 00:31:44 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "수은, 삼성전자 협력사 재생에너지 전환 컨설팅 비용 지원 협약",
       "link": "https://www.yna.co.kr/view/AKR20260603018800002",

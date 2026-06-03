@@ -1,14 +1,22 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-03T02:38:29.445Z",
-  "count": 30,
+  "updated_at": "2026-06-03T07:30:21.899Z",
+  "count": 27,
   "items": [
     {
-      "title": "\"보안 검증기간 '90일→30일'로 단축\"…트럼프, 'AI 행정명령' 서명",
-      "link": "https://www.mt.co.kr/world/2026/06/03/2026060310233763314",
-      "source": "머니투데이",
-      "ts": 1780450768000,
-      "pub": "Wed, 03 Jun 2026 10:39:28 +0900",
+      "title": "미, '강제노동' 60개국에 10∼12.5% 관세예고…한국 12.5%(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260603044451009",
+      "source": "연합뉴스 국제",
+      "ts": 1780469153000,
+      "pub": "Wed, 3 Jun 2026 15:45:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미, '강제노동' 60개국에 10∼12.5% 관세예고…한국은 12.5%",
+      "link": "https://www.yna.co.kr/view/AKR20260603044400009",
+      "source": "연합뉴스 국제",
+      "ts": 1780464652000,
+      "pub": "Wed, 3 Jun 2026 14:30:52 +0900",
       "sentiment": "neutral"
     },
     {
@@ -132,14 +140,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 네타냐후에 \"당신 미쳤나\" 경고",
-      "link": "https://www.hankyung.com/article/2026060239591",
-      "source": "한국경제",
-      "ts": 1780415136000,
-      "pub": "Wed, 03 Jun 2026 00:45:36 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "실리 챙긴 베네수 임시대통령, '트럼프 올인' 마차도는 야인신세",
       "link": "https://www.yna.co.kr/view/AKR20260603000600087",
       "source": "연합뉴스 국제",
@@ -217,30 +217,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780400166000,
       "pub": "Tue, 2 Jun 2026 20:36:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 '교전 중단' 선언 후에도 이스라엘·헤즈볼라 공방",
-      "link": "https://www.yna.co.kr/view/AKR20260602148100079",
-      "source": "연합뉴스 국제",
-      "ts": 1780391902000,
-      "pub": "Tue, 2 Jun 2026 18:18:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러 \"외국인 떠나라\" 경고 후 우크라 대공습…110여명 사상(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260602047252009",
-      "source": "연합뉴스 국제",
-      "ts": 1780391620000,
-      "pub": "Tue, 2 Jun 2026 18:13:40 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "안보리 이사국들, 미국만 빼고 \"이스라엘, 레바논서 철군해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260602150600009",
-      "source": "연합뉴스 국제",
-      "ts": 1780391596000,
-      "pub": "Tue, 2 Jun 2026 18:13:16 +0900",
       "sentiment": "neutral"
     }
   ]

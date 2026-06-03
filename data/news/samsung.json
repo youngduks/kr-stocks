@@ -1,23 +1,15 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-03T02:38:29.446Z",
-  "count": 11,
+  "updated_at": "2026-06-03T07:30:21.900Z",
+  "count": 9,
   "items": [
     {
-      "title": "삼성전자, '스티로폼 165톤 재활용' 가전 포장재로 쓴다",
-      "link": "https://www.mt.co.kr/industry/2026/06/03/2026060310511287877",
-      "source": "머니투데이",
-      "ts": 1780452321000,
-      "pub": "Wed, 03 Jun 2026 11:05:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼전보다 삼전우 사라\"…ETF가 외면한 우선주, 저평가·특별배당 매력 부각",
-      "link": "https://www.hankyung.com/article/202606023773i",
+      "title": "\"삼전 말고 '이 전자' 샀더니\"…300% 폭등에 개미들 '환호'",
+      "link": "https://www.hankyung.com/article/2026060345767",
       "source": "한국경제",
-      "ts": 1780443546000,
-      "pub": "Wed, 03 Jun 2026 08:39:06 +0900",
-      "sentiment": "neutral"
+      "ts": 1780464926000,
+      "pub": "Wed, 03 Jun 2026 14:35:26 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "수은, 삼성전자 협력사 재생에너지 전환 컨설팅 비용 지원 협약",
@@ -81,14 +73,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780367170000,
       "pub": "Tue, 2 Jun 2026 11:26:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우리운용 '삼성전자+현대차+채권' ETF 출시",
-      "link": "https://www.yna.co.kr/view/AKR20260602047800008",
-      "source": "연합뉴스 경제",
-      "ts": 1780361288000,
-      "pub": "Tue, 2 Jun 2026 09:48:08 +0900",
       "sentiment": "neutral"
     }
   ]

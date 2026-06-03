@@ -1,14 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-03T02:38:29.448Z",
-  "count": 10,
+  "updated_at": "2026-06-03T07:30:21.901Z",
+  "count": 8,
   "items": [
     {
-      "title": "5월 반도체·전력 테마에 뭉칫돈… 차기 주도 ETF는?",
-      "link": "https://www.mt.co.kr/stock/2026/06/03/2026060215445098284",
-      "source": "머니투데이",
-      "ts": 1780453800000,
-      "pub": "Wed, 03 Jun 2026 11:30:00 +0900",
+      "title": "OECD, 올해 韓성장률 1.7→2.6%…\"반도체 수요에 더 오를 수도\"",
+      "link": "https://www.yna.co.kr/view/AKR20260603043100002",
+      "source": "연합뉴스 경제",
+      "ts": 1780470001000,
+      "pub": "Wed, 3 Jun 2026 16:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[단독] 엔비디아, 한국에 AI기술센터 설립 속도…부지는 새만금 유력",
+      "link": "https://www.hankyung.com/article/202606034510i",
+      "source": "한국경제",
+      "ts": 1780465330000,
+      "pub": "Wed, 03 Jun 2026 14:42:10 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,27 +28,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "2만원대 산 SK하이닉스, 236만원 됐는데…전원주 후회한 까닭",
-      "link": "https://www.hankyung.com/article/2026060341587",
-      "source": "한국경제",
-      "ts": 1780441223000,
-      "pub": "Wed, 03 Jun 2026 08:00:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "ETF에도 '빚투'…반도체 상품 신용잔고 한달새 급증",
       "link": "https://www.yna.co.kr/view/AKR20260602146700008",
       "source": "연합뉴스 경제",
       "ts": 1780438200000,
       "pub": "Wed, 3 Jun 2026 07:10:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "MS, 애플 맥미니에 반격…엔비디아 손잡고 AI용 PC 공개",
-      "link": "https://www.hankyung.com/article/202606034020i",
-      "source": "한국경제",
-      "ts": 1780426975000,
-      "pub": "Wed, 03 Jun 2026 04:02:55 +0900",
       "sentiment": "neutral"
     },
     {
@@ -74,14 +66,6 @@
       "ts": 1780366333000,
       "pub": "Tue, 2 Jun 2026 11:12:13 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "SK에코플랜트, 용인 반도체 클러스터서 온열질환 예방 캠페인",
-      "link": "https://www.yna.co.kr/view/AKR20260602050900003",
-      "source": "연합뉴스 경제",
-      "ts": 1780361397000,
-      "pub": "Tue, 2 Jun 2026 09:49:57 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

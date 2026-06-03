@@ -165,6 +165,14 @@ export default async function HyperliquidOnrampGuide() {
                 <p className="text-sm text-text-muted leading-relaxed mt-2">
                   long / short 포지션 entry, leverage 설정 (1x ~ 10x 권장).
                 </p>
+                <p className="text-xs text-text-dim leading-relaxed mt-3">
+                  💡 삼성·SK하이닉스·현대차만 거래한다면, 외부 지갑·브릿지 없이
+                  계정 하나로 끝나는{" "}
+                  <Link href="/guide/binance-korea-stocks" className="text-accent-amber hover:underline font-semibold">
+                    바이낸스 한국주식 선물 거래 가이드
+                  </Link>
+                  가 더 간단합니다.
+                </p>
               </div>
             </div>
           </section>

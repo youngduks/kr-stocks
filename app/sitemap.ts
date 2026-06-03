@@ -33,6 +33,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
+      url: `${base}/guide/binance-korea-stocks`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.88, // "바이낸스 삼성전자 선물" — 신규 상장 키워드, 한국 retail
+    },
+    {
       url: `${base}/guide/korean-overnight-prices`,
       lastModified: now,
       changeFrequency: "weekly",

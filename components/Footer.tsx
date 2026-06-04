@@ -128,22 +128,22 @@ export function Footer({ locale = "ko" }: { locale?: Locale } = {}) {
           <li>
             •{" "}
             <Link
-              href={t.guideHref as any}
-              className="text-accent-blue hover:underline"
-            >
-              {t.guideTitle}
-            </Link>{" "}
-            — {t.guideDesc}
-          </li>
-          <li>
-            •{" "}
-            <Link
               href={t.guideBinanceHref as any}
               className="text-accent-blue hover:underline"
             >
               {t.guideBinanceTitle}
             </Link>{" "}
             — {t.guideBinanceDesc}
+          </li>
+          <li>
+            •{" "}
+            <Link
+              href={t.guideHref as any}
+              className="text-accent-blue hover:underline"
+            >
+              {t.guideTitle}
+            </Link>{" "}
+            — {t.guideDesc}
           </li>
         </ul>
 

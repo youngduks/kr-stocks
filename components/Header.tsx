@@ -111,7 +111,7 @@ function PageNav() {
   const home = isEn ? "/en" : "/";
   const consensus = isEn ? "/en/consensus" : "/consensus";
   const news = "/news";
-  const guide = isEn ? "/en/guide/hyperliquid-onramp" : "/guide/hyperliquid-onramp";
+  const guide = isEn ? "/en/guide/binance-korea-stocks" : "/guide/binance-korea-stocks";
 
   const tabs: Array<{ key: string; href: string; ko: string; en: string; active: boolean }> = [
     { key: "prices", href: home, ko: "주가", en: "Prices", active: isPrices },

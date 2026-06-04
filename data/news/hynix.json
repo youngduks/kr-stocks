@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-04T19:12:15.297Z",
-  "count": 5,
+  "updated_at": "2026-06-04T21:22:05.037Z",
+  "count": 7,
   "items": [
+    {
+      "title": "뉴욕증시, 반도체 매도에 혼조마감…다우 1.7%↑·나스닥 0.1%↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260605004851072",
+      "source": "연합뉴스 국제",
+      "ts": 1780606466000,
+      "pub": "Fri, 5 Jun 2026 05:54:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 반도체 랠리 숨고르기 속 혼조 마감…마이크론 8%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260605004800072",
+      "source": "연합뉴스 국제",
+      "ts": 1780604131000,
+      "pub": "Fri, 5 Jun 2026 05:15:31 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "\"우리도 깐부\" 최태원, TSMC 손 잡는다",
       "link": "https://www.mt.co.kr/industry/2026/06/05/2026060419373514270",

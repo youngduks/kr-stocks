@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-04T00:28:22.440Z",
-  "count": 8,
+  "updated_at": "2026-06-04T05:49:25.000Z",
+  "count": 5,
   "items": [
+    {
+      "title": "삼전닉스 무섭게 뒤쫓는 중국…\"1년 새 매출 445% 폭증\"",
+      "link": "https://www.hankyung.com/article/202606047306g",
+      "source": "한국경제",
+      "ts": 1780547178000,
+      "pub": "Thu, 04 Jun 2026 13:26:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "박정수 \"삼성전자 주식 8만원대 몇천주 샀는데\"…깜짝 고백",
+      "link": "https://www.hankyung.com/article/202606046783H",
+      "source": "한국경제",
+      "ts": 1780539358000,
+      "pub": "Thu, 04 Jun 2026 11:15:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼전·하닉, 장초반 동반약세",
+      "link": "https://www.yna.co.kr/view/AKR20260604078100008",
+      "source": "연합뉴스 경제",
+      "ts": 1780532939000,
+      "pub": "Thu, 4 Jun 2026 09:28:59 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "삼성전자, 1분기 글로벌 TV시장 점유율 31%…21년 연속 1위",
       "link": "https://www.yna.co.kr/view/AKR20260604064000003",
@@ -17,54 +41,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780531798000,
       "pub": "Thu, 4 Jun 2026 09:09:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "수은, 삼성전자 협력사 재생에너지 전환 컨설팅 비용 지원 협약",
-      "link": "https://www.yna.co.kr/view/AKR20260603018800002",
-      "source": "연합뉴스 경제",
-      "ts": 1780442889000,
-      "pub": "Wed, 3 Jun 2026 08:28:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전·닉스 레버리지로 쏠렸나…'자금유출' 침울한 코스닥",
-      "link": "https://www.yna.co.kr/view/AKR20260602076000008",
-      "source": "연합뉴스 경제",
-      "ts": 1780437660000,
-      "pub": "Wed, 3 Jun 2026 07:01:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"D램 공급난에 HBM 협상력 커져…내년 계약가격 몇배 상승 전망\"",
-      "link": "https://www.yna.co.kr/view/AKR20260602145300003",
-      "source": "연합뉴스 경제",
-      "ts": 1780389337000,
-      "pub": "Tue, 2 Jun 2026 17:35:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피, 또 사상 최고 8,801…삼전, 글로벌 시총 10위로(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260602130900008",
-      "source": "연합뉴스 경제",
-      "ts": 1780385244000,
-      "pub": "Tue, 2 Jun 2026 16:27:24 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "삼전, 메타 제치고 글로벌 시총 10위…한때 테슬라 추월도(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260602079851008",
-      "source": "연합뉴스 경제",
-      "ts": 1780384971000,
-      "pub": "Tue, 2 Jun 2026 16:22:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼전, 3%대 상승으로 코스피 지켰다…하이닉스 약보합(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260602043951008",
-      "source": "연합뉴스 경제",
-      "ts": 1780383242000,
-      "pub": "Tue, 2 Jun 2026 15:54:02 +0900",
       "sentiment": "neutral"
     }
   ]

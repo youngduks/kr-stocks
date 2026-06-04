@@ -1,46 +1,46 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-04T00:28:22.440Z",
-  "count": 13,
+  "updated_at": "2026-06-04T05:49:25.002Z",
+  "count": 7,
   "items": [
     {
-      "title": "젠슨 황 온다는데 하이닉스 던졌다?…상위 1% 고수의 속내는",
-      "link": "https://www.hankyung.com/article/202606046305i",
+      "title": "서울 아파트값 0.25% 상승…반도체 호재에 동탄 '고공 행진'",
+      "link": "https://www.hankyung.com/article/202606047288i",
       "source": "한국경제",
-      "ts": 1780531205000,
-      "pub": "Thu, 04 Jun 2026 09:00:05 +0900",
+      "ts": 1780549204000,
+      "pub": "Thu, 04 Jun 2026 14:00:04 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "CPU 공급 불안에...美 전력반도체·칩 장비기업 주목받아",
-      "link": "https://www.hankyung.com/article/202606046191i",
-      "source": "한국경제",
-      "ts": 1780530980000,
-      "pub": "Thu, 04 Jun 2026 08:56:20 +0900",
+      "title": "TSMC 회장, '향후 수년간 TSMC 성장 확신'",
+      "link": "https://www.yna.co.kr/view/AKR20260604117600009",
+      "source": "연합뉴스 국제",
+      "ts": 1780541978000,
+      "pub": "Thu, 4 Jun 2026 11:59:38 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "최태원, TSMC 회장과 회동…AI 반도체 '삼각동맹' 강화",
-      "link": "https://www.hankyung.com/article/2026060463067",
-      "source": "한국경제",
-      "ts": 1780528725000,
-      "pub": "Thu, 04 Jun 2026 08:18:45 +0900",
-      "sentiment": "neutral"
+      "title": "반도체 호조에 레버리지 투자 사상 최대…한은 \"포모 경계해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260604112700002",
+      "source": "연합뉴스 경제",
+      "ts": 1780540253000,
+      "pub": "Thu, 4 Jun 2026 11:30:53 +0900",
+      "sentiment": "positive"
     },
     {
-      "title": "[단독] 현대차그룹·엔비디아 AI거점, 새만금에 짓나",
-      "link": "https://www.hankyung.com/article/2026060349701",
+      "title": "[마켓 라이브]코스피 1.6% 하락 중… 외국인 2.5조 순매도, 반도체·IT 약세[오전 10시 시황]",
+      "link": "https://www.hankyung.com/article/202606046376i",
       "source": "한국경제",
-      "ts": 1780528206000,
-      "pub": "Thu, 04 Jun 2026 08:10:06 +0900",
-      "sentiment": "neutral"
+      "ts": 1780540246000,
+      "pub": "Thu, 04 Jun 2026 11:30:46 +0900",
+      "sentiment": "negative"
     },
     {
-      "title": "1년만에 '텐배거' 된 SK하이닉스, ADR 상장 후 주가 전망해보니",
-      "link": "https://www.hankyung.com/article/202606023323i",
-      "source": "한국경제",
-      "ts": 1780528204000,
-      "pub": "Thu, 04 Jun 2026 08:10:04 +0900",
+      "title": "원주시-폴리텍대학-디에스테크노, 반도체 인재 양성 본격화",
+      "link": "https://www.yna.co.kr/view/AKR20260604112600062",
+      "source": "연합뉴스 경제",
+      "ts": 1780539789000,
+      "pub": "Thu, 4 Jun 2026 11:23:09 +0900",
       "sentiment": "neutral"
     },
     {
@@ -58,54 +58,6 @@
       "ts": 1780494236000,
       "pub": "Wed, 3 Jun 2026 22:43:56 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "OECD, 올해 韓성장률 1.7→2.6%…\"반도체 수요에 더 오를 수도\"",
-      "link": "https://www.yna.co.kr/view/AKR20260603043100002",
-      "source": "연합뉴스 경제",
-      "ts": 1780470001000,
-      "pub": "Wed, 3 Jun 2026 16:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"반도체는 어렵지만 야시장은 쉽다\"…세심히 설계된 젠슨황 행보",
-      "link": "https://www.yna.co.kr/view/AKR20260603032600009",
-      "source": "연합뉴스 국제",
-      "ts": 1780451973000,
-      "pub": "Wed, 3 Jun 2026 10:59:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "ETF에도 '빚투'…반도체 상품 신용잔고 한달새 급증",
-      "link": "https://www.yna.co.kr/view/AKR20260602146700008",
-      "source": "연합뉴스 경제",
-      "ts": 1780438200000,
-      "pub": "Wed, 3 Jun 2026 07:10:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"D램 공급난에 HBM 협상력 커져…내년 계약가격 몇배 상승 전망\"",
-      "link": "https://www.yna.co.kr/view/AKR20260602145300003",
-      "source": "연합뉴스 경제",
-      "ts": 1780389337000,
-      "pub": "Tue, 2 Jun 2026 17:35:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼전, 3%대 상승으로 코스피 지켰다…하이닉스 약보합(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260602043951008",
-      "source": "연합뉴스 경제",
-      "ts": 1780383242000,
-      "pub": "Tue, 2 Jun 2026 15:54:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] SKT, '엔비디아 파트너' 부각에 11% 급등 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260602041951008",
-      "source": "연합뉴스 경제",
-      "ts": 1780382783000,
-      "pub": "Tue, 2 Jun 2026 15:46:23 +0900",
-      "sentiment": "positive"
     }
   ]
 }

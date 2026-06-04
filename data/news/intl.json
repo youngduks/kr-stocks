@@ -1,38 +1,70 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-04T00:28:22.439Z",
-  "count": 35,
+  "updated_at": "2026-06-04T05:49:24.999Z",
+  "count": 28,
   "items": [
+    {
+      "title": "美 301조 조사에도…김정관 \"韓 관세 15% 이내 재확인\"",
+      "link": "https://www.hankyung.com/article/2026060473727",
+      "source": "한국경제",
+      "ts": 1780548804000,
+      "pub": "Thu, 04 Jun 2026 13:53:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "김정관, 러트닉과 화상면담 \"한국 관세, 15% 상한선 재확인\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260604063451003",
+      "source": "연합뉴스 경제",
+      "ts": 1780547920000,
+      "pub": "Thu, 4 Jun 2026 13:38:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미국 실효관세율, 10대 수출국 중 한국 6위…일본보다 낮아",
+      "link": "https://www.yna.co.kr/view/AKR20260604072400003",
+      "source": "연합뉴스 경제",
+      "ts": 1780542008000,
+      "pub": "Thu, 4 Jun 2026 12:00:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 온통 '불바다'…우크라, 왜 1,100㎞ 상트페테르부르크 때렸나",
+      "link": "https://www.yna.co.kr/view/AKR20260604119500704",
+      "source": "연합뉴스 국제",
+      "ts": 1780541810000,
+      "pub": "Thu, 4 Jun 2026 11:56:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘·레바논, 美중재로 휴전 이행 합의…\"이란 개입 반대\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260604061051009",
+      "source": "연합뉴스 국제",
+      "ts": 1780536992000,
+      "pub": "Thu, 4 Jun 2026 10:36:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "환율, 美관세·중동 영향에 1,530원대 개장…금융위기 후 처음(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260604077151002",
+      "source": "연합뉴스 경제",
+      "ts": 1780536203000,
+      "pub": "Thu, 4 Jun 2026 10:23:23 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "美 추가관세 예고에 日 \"기존 합의 이상 부과 안 될 것\" 확인",
+      "link": "https://www.yna.co.kr/view/AKR20260604079600073",
+      "source": "연합뉴스 국제",
+      "ts": 1780534221000,
+      "pub": "Thu, 4 Jun 2026 09:50:21 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "통상본부장, USTR대표 면담 \"기존 관세합의 준수 의향 재확인\"",
       "link": "https://www.yna.co.kr/view/AKR20260604063400003",
       "source": "연합뉴스 경제",
       "ts": 1780530950000,
       "pub": "Thu, 4 Jun 2026 08:55:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "백악관, 연방 보조금에 정치적 심사 기준 도입 추진",
-      "link": "https://www.hankyung.com/article/202606046353i",
-      "source": "한국경제",
-      "ts": 1780530317000,
-      "pub": "Thu, 04 Jun 2026 08:45:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Fed '점도표' 손보는 워시…월가 향한 금리 신호 바뀌나",
-      "link": "https://www.hankyung.com/article/202606046327i",
-      "source": "한국경제",
-      "ts": 1780529761000,
-      "pub": "Thu, 04 Jun 2026 08:36:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "바이든은 '경쟁' 트럼프는 '안정'…美의 달라진 대중전략 [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202606035243i",
-      "source": "한국경제",
-      "ts": 1780529313000,
-      "pub": "Thu, 04 Jun 2026 08:28:33 +0900",
       "sentiment": "neutral"
     },
     {
@@ -44,35 +76,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"케빈 워시의 '체제 전환'…미 Fed, 정치와 연계성 높아질 것\"-대신",
-      "link": "https://www.hankyung.com/article/2026060462726",
-      "source": "한국경제",
-      "ts": 1780528217000,
-      "pub": "Thu, 04 Jun 2026 08:10:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] 미 국무부 \"이스라엘·레바논, 휴전 합의\"",
       "link": "https://www.yna.co.kr/view/AKR20260604059000009",
       "source": "연합뉴스 국제",
       "ts": 1780527963000,
       "pub": "Thu, 4 Jun 2026 08:06:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 美국무부 \"이스라엘·레바논 휴전 합의…헤즈볼라 철수 조건\"",
-      "link": "https://www.hankyung.com/article/2026060462697",
-      "source": "한국경제",
-      "ts": 1780527867000,
-      "pub": "Thu, 04 Jun 2026 08:04:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[외신 에스프레소] 트럼프 \"AI 모델, 출시 30일 전 정부 검토 받아라\"",
-      "link": "https://www.hankyung.com/article/202606046217i",
-      "source": "한국경제",
-      "ts": 1780527741000,
-      "pub": "Thu, 04 Jun 2026 08:02:21 +0900",
       "sentiment": "neutral"
     },
     {
@@ -174,17 +182,9 @@
     {
       "title": "미, '강제노동' 60개국에 10∼12.5% 관세예고…한국 12.5%(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260603044452009",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1780490816000,
       "pub": "Wed, 3 Jun 2026 21:46:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "정부, 미국 12.5% 관세 예고에 \"조만간 USTR 측과 논의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260603082800003",
-      "source": "연합뉴스 경제",
-      "ts": 1780489613000,
-      "pub": "Wed, 3 Jun 2026 21:26:53 +0900",
       "sentiment": "neutral"
     },
     {
@@ -225,62 +225,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780478533000,
       "pub": "Wed, 3 Jun 2026 18:22:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 '러시아판 다보스포럼' 개막 앞서 상트페테르부르크 공습",
-      "link": "https://www.yna.co.kr/view/AKR20260603060700099",
-      "source": "연합뉴스 국제",
-      "ts": 1780476856000,
-      "pub": "Wed, 3 Jun 2026 17:54:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中, 美 '강제노동' 추가관세 예고에 반발…\"정치적 조작 반대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260603056800083",
-      "source": "연합뉴스 국제",
-      "ts": 1780474016000,
-      "pub": "Wed, 3 Jun 2026 17:06:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 폴란드에 핵무기 배치?…\"미, 유럽에 핵자산 확대 극비 논의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260603055400704",
-      "source": "연합뉴스 국제",
-      "ts": 1780473208000,
-      "pub": "Wed, 3 Jun 2026 16:53:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미, '강제노동' 60개국에 10∼12.5% 관세예고…한국 12.5%(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260603044451009",
-      "source": "연합뉴스 국제",
-      "ts": 1780469153000,
-      "pub": "Wed, 3 Jun 2026 15:45:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미, '강제노동' 60개국에 10∼12.5% 관세예고…한국은 12.5%",
-      "link": "https://www.yna.co.kr/view/AKR20260603044400009",
-      "source": "연합뉴스 국제",
-      "ts": 1780464652000,
-      "pub": "Wed, 3 Jun 2026 14:30:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 콜롬비아 극우 대선후보 지지…\"나처럼 국민 사랑해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260603029800071",
-      "source": "연합뉴스 국제",
-      "ts": 1780449568000,
-      "pub": "Wed, 3 Jun 2026 10:19:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, '미중무역위' 의견수렴…\"관세 줄일 中 비민감 품목 파악\"",
-      "link": "https://www.yna.co.kr/view/AKR20260603022700071",
-      "source": "연합뉴스 국제",
-      "ts": 1780445174000,
-      "pub": "Wed, 3 Jun 2026 09:06:14 +0900",
       "sentiment": "neutral"
     }
   ]

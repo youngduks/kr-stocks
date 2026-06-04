@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-04T21:22:05.037Z",
-  "count": 7,
+  "updated_at": "2026-06-04T23:00:06.749Z",
+  "count": 8,
   "items": [
+    {
+      "title": "브로드컴 쇼크에 반도체 매도·비기술주 매수",
+      "link": "https://www.yna.co.kr/view/AKR20260605011000009",
+      "source": "연합뉴스 국제",
+      "ts": 1780612345000,
+      "pub": "Fri, 5 Jun 2026 07:32:25 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "반도체 매도에 엇갈린 증시…다우 사상 최고치[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/06/05/2026060506535524521",
+      "source": "머니투데이",
+      "ts": 1780610342000,
+      "pub": "Fri, 05 Jun 2026 06:59:02 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "뉴욕증시, 반도체 매도에 혼조마감…다우 1.7%↑·나스닥 0.1%↓(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260605004851072",
@@ -33,14 +49,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780554667000,
       "pub": "Thu, 4 Jun 2026 15:31:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "TSMC 회장, '향후 수년간 TSMC 성장 확신'",
-      "link": "https://www.yna.co.kr/view/AKR20260604117600009",
-      "source": "연합뉴스 국제",
-      "ts": 1780541978000,
-      "pub": "Thu, 4 Jun 2026 11:59:38 +0900",
       "sentiment": "neutral"
     },
     {

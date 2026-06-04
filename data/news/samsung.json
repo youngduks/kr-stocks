@@ -1,46 +1,30 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-04T05:49:25.000Z",
-  "count": 5,
+  "updated_at": "2026-06-04T09:41:34.531Z",
+  "count": 3,
   "items": [
     {
-      "title": "삼전닉스 무섭게 뒤쫓는 중국…\"1년 새 매출 445% 폭증\"",
-      "link": "https://www.hankyung.com/article/202606047306g",
+      "title": "\"삼전·닉스 오르면 이자도 쑥\"…원금보장 예금 나왔다 [퇴근길 30초 경제]",
+      "link": "https://www.hankyung.com/article/2026060478407",
       "source": "한국경제",
-      "ts": 1780547178000,
-      "pub": "Thu, 04 Jun 2026 13:26:18 +0900",
+      "ts": 1780562531000,
+      "pub": "Thu, 04 Jun 2026 17:42:11 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "박정수 \"삼성전자 주식 8만원대 몇천주 샀는데\"…깜짝 고백",
-      "link": "https://www.hankyung.com/article/202606046783H",
-      "source": "한국경제",
-      "ts": 1780539358000,
-      "pub": "Thu, 04 Jun 2026 11:15:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼전·하닉, 장초반 동반약세",
-      "link": "https://www.yna.co.kr/view/AKR20260604078100008",
+      "title": "[특징주] 브로드컴발 쇼크에 삼전·하닉 2%대 하락 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260604078151008",
       "source": "연합뉴스 경제",
-      "ts": 1780532939000,
-      "pub": "Thu, 4 Jun 2026 09:28:59 +0900",
+      "ts": 1780556282000,
+      "pub": "Thu, 4 Jun 2026 15:58:02 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "삼성전자, 1분기 글로벌 TV시장 점유율 31%…21년 연속 1위",
-      "link": "https://www.yna.co.kr/view/AKR20260604064000003",
-      "source": "연합뉴스 경제",
-      "ts": 1780532170000,
-      "pub": "Thu, 4 Jun 2026 09:16:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 헬스 앱 개편…갤럭시 워치 신기능 공개",
-      "link": "https://www.yna.co.kr/view/AKR20260604062200017",
-      "source": "연합뉴스 경제",
-      "ts": 1780531798000,
-      "pub": "Thu, 4 Jun 2026 09:09:58 +0900",
+      "title": "모건스탠리 \"메모리 병목, '칩플레이션' 야기\"",
+      "link": "https://www.yna.co.kr/view/AKR20260604147300009",
+      "source": "연합뉴스 국제",
+      "ts": 1780554667000,
+      "pub": "Thu, 4 Jun 2026 15:31:07 +0900",
       "sentiment": "neutral"
     }
   ]

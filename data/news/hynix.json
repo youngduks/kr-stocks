@@ -1,14 +1,30 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-04T05:49:25.002Z",
-  "count": 7,
+  "updated_at": "2026-06-04T09:41:34.532Z",
+  "count": 6,
   "items": [
     {
-      "title": "서울 아파트값 0.25% 상승…반도체 호재에 동탄 '고공 행진'",
-      "link": "https://www.hankyung.com/article/202606047288i",
+      "title": "증설 나선 LG이노텍 \"2030년 반도체 기판 매출 3조\"",
+      "link": "https://www.hankyung.com/article/2026060480781",
       "source": "한국경제",
-      "ts": 1780549204000,
-      "pub": "Thu, 04 Jun 2026 14:00:04 +0900",
+      "ts": 1780562190000,
+      "pub": "Thu, 04 Jun 2026 17:36:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"엔비디아 의존 줄여라\"…K-AI칩 생태계 커진다",
+      "link": "https://www.hankyung.com/article/2026060480631",
+      "source": "한국경제",
+      "ts": 1780561871000,
+      "pub": "Thu, 04 Jun 2026 17:31:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "모건스탠리 \"메모리 병목, '칩플레이션' 야기\"",
+      "link": "https://www.yna.co.kr/view/AKR20260604147300009",
+      "source": "연합뉴스 국제",
+      "ts": 1780554667000,
+      "pub": "Thu, 4 Jun 2026 15:31:07 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,35 +44,11 @@
       "sentiment": "positive"
     },
     {
-      "title": "[마켓 라이브]코스피 1.6% 하락 중… 외국인 2.5조 순매도, 반도체·IT 약세[오전 10시 시황]",
-      "link": "https://www.hankyung.com/article/202606046376i",
-      "source": "한국경제",
-      "ts": 1780540246000,
-      "pub": "Thu, 04 Jun 2026 11:30:46 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "원주시-폴리텍대학-디에스테크노, 반도체 인재 양성 본격화",
       "link": "https://www.yna.co.kr/view/AKR20260604112600062",
       "source": "연합뉴스 경제",
       "ts": 1780539789000,
       "pub": "Thu, 4 Jun 2026 11:23:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 훈풍에 대중국 무역수지 4년 만에 흑자전환 유력",
-      "link": "https://www.yna.co.kr/view/AKR20260603054400003",
-      "source": "연합뉴스 경제",
-      "ts": 1780520701000,
-      "pub": "Thu, 4 Jun 2026 06:05:01 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "EU '기술 주권' 강화 시동…반도체·AI·클라우드 자립 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260603091300081",
-      "source": "연합뉴스 국제",
-      "ts": 1780494236000,
-      "pub": "Wed, 3 Jun 2026 22:43:56 +0900",
       "sentiment": "neutral"
     }
   ]

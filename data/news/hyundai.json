@@ -1,14 +1,22 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-06-04T05:49:25.003Z",
-  "count": 1,
+  "updated_at": "2026-06-04T09:41:34.533Z",
+  "count": 2,
   "items": [
     {
-      "title": "[부고] 김영빈(현대모비스 부사장)씨 부친상",
-      "link": "https://www.hankyung.com/article/202606047113i",
+      "title": "테슬라 모델Y의 질주…쏘렌토 넘어 韓 판매 1위",
+      "link": "https://www.hankyung.com/article/2026060480731",
       "source": "한국경제",
-      "ts": 1780540333000,
-      "pub": "Thu, 04 Jun 2026 11:32:13 +0900",
+      "ts": 1780562351000,
+      "pub": "Thu, 04 Jun 2026 17:39:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "5월 美 친환경차 판매량 신기록 쓴 현대차·기아",
+      "link": "https://www.hankyung.com/article/2026060480791",
+      "source": "한국경제",
+      "ts": 1780562271000,
+      "pub": "Thu, 04 Jun 2026 17:37:51 +0900",
       "sentiment": "neutral"
     }
   ]

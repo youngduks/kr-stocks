@@ -1,15 +1,71 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-04T05:49:24.999Z",
-  "count": 28,
+  "updated_at": "2026-06-04T09:41:34.530Z",
+  "count": 22,
   "items": [
     {
-      "title": "美 301조 조사에도…김정관 \"韓 관세 15% 이내 재확인\"",
-      "link": "https://www.hankyung.com/article/2026060473727",
-      "source": "한국경제",
-      "ts": 1780548804000,
-      "pub": "Thu, 04 Jun 2026 13:53:24 +0900",
+      "title": "독일 안보리 이사국 탈락 수모…이스라엘 편들다 미움 샀나",
+      "link": "https://www.yna.co.kr/view/AKR20260604180000082",
+      "source": "연합뉴스 국제",
+      "ts": 1780564183000,
+      "pub": "Thu, 4 Jun 2026 18:09:43 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "\"빼앗긴 땅보다 더 탈환했다\"…우크라 드론전 통했나",
+      "link": "https://www.yna.co.kr/view/AKR20260604174200109",
+      "source": "연합뉴스 국제",
+      "ts": 1780563590000,
+      "pub": "Thu, 4 Jun 2026 17:59:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "에너지 위기설·美 추가관세 우려에 환율 급등…\"쏠림 과해\"",
+      "link": "https://www.hankyung.com/article/2026060481851",
+      "source": "한국경제",
+      "ts": 1780563237000,
+      "pub": "Thu, 04 Jun 2026 17:53:57 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "관세·유가 '겹악재'…환율 1540원대로 치솟아",
+      "link": "https://www.hankyung.com/article/2026060481651",
+      "source": "한국경제",
+      "ts": 1780563222000,
+      "pub": "Thu, 04 Jun 2026 17:53:42 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"예쁜데 눈에 증오가…\" 트럼프, 여기자에 또 외모 막말 파문",
+      "link": "https://www.hankyung.com/article/2026060474667",
+      "source": "한국경제",
+      "ts": 1780562703000,
+      "pub": "Thu, 04 Jun 2026 17:45:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 국방 \"휴전 발표했지만, 레바논 내 군사 작전은 계속\"",
+      "link": "https://www.yna.co.kr/view/AKR20260604177800079",
+      "source": "연합뉴스 국제",
+      "ts": 1780561946000,
+      "pub": "Thu, 4 Jun 2026 17:32:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 법무장관에 '성추문 사건' 변호한 블랜치 낙점",
+      "link": "https://www.yna.co.kr/view/AKR20260604157000009",
+      "source": "연합뉴스 국제",
+      "ts": 1780555372000,
+      "pub": "Thu, 4 Jun 2026 15:42:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "농식품부, 대중국 K푸드 수출 비관세장벽 대응 설명회 개최",
+      "link": "https://www.yna.co.kr/view/AKR20260604138200030",
+      "source": "연합뉴스 경제",
+      "ts": 1780554601000,
+      "pub": "Thu, 4 Jun 2026 15:30:01 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "김정관, 러트닉과 화상면담 \"한국 관세, 15% 상한선 재확인\"(종합)",
@@ -57,14 +113,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780534221000,
       "pub": "Thu, 4 Jun 2026 09:50:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "통상본부장, USTR대표 면담 \"기존 관세합의 준수 의향 재확인\"",
-      "link": "https://www.yna.co.kr/view/AKR20260604063400003",
-      "source": "연합뉴스 경제",
-      "ts": 1780530950000,
-      "pub": "Thu, 4 Jun 2026 08:55:50 +0900",
       "sentiment": "neutral"
     },
     {
@@ -129,102 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780517348000,
       "pub": "Thu, 4 Jun 2026 05:09:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 '러시아판 다보스포럼' 앞서 상트페테르부르크 공습(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260603060751099",
-      "source": "연합뉴스 국제",
-      "ts": 1780512031000,
-      "pub": "Thu, 4 Jun 2026 03:40:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 '깜짝' 방문 나토 사무총장 \"러시아 점점 더 절박\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260603074451099",
-      "source": "연합뉴스 국제",
-      "ts": 1780509681000,
-      "pub": "Thu, 4 Jun 2026 03:01:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "네타냐후, '욕설' 트럼프 불화설 일축 \"주요 사안 의견 같아\"",
-      "link": "https://www.yna.co.kr/view/AKR20260604003500108",
-      "source": "연합뉴스 국제",
-      "ts": 1780501311000,
-      "pub": "Thu, 4 Jun 2026 00:41:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美국무 \"레바논·이스라엘, 오늘 공동성명·행동계획 발표하길\"",
-      "link": "https://www.yna.co.kr/view/AKR20260603100200071",
-      "source": "연합뉴스 국제",
-      "ts": 1780497986000,
-      "pub": "Wed, 3 Jun 2026 23:46:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"모즈타바, 협상 관여…만나고 싶고, 아마 언젠가 만날것\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260603078651009",
-      "source": "연합뉴스 국제",
-      "ts": 1780495920000,
-      "pub": "Wed, 3 Jun 2026 23:12:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러 외무차관 \"영토 보전 공격당하면 핵무기로 대응 가능\"",
-      "link": "https://www.yna.co.kr/view/AKR20260603091600108",
-      "source": "연합뉴스 국제",
-      "ts": 1780494304000,
-      "pub": "Wed, 3 Jun 2026 22:45:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미, '강제노동' 60개국에 10∼12.5% 관세예고…한국 12.5%(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260603044452009",
-      "source": "연합뉴스 국제",
-      "ts": 1780490816000,
-      "pub": "Wed, 3 Jun 2026 21:46:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"모즈타바 하메네이, 이란 협상에 관여…만나고 싶다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260603078600009",
-      "source": "연합뉴스 국제",
-      "ts": 1780487484000,
-      "pub": "Wed, 3 Jun 2026 20:51:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] 폴란드에 핵무기 배치?…\"미, 유럽에 핵 자산 확대 검토\"",
-      "link": "https://www.yna.co.kr/view/AKR20260603077300704",
-      "source": "연합뉴스 국제",
-      "ts": 1780486161000,
-      "pub": "Wed, 3 Jun 2026 20:29:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란 모즈타바 하메네이 만나고 싶다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260603076100009",
-      "source": "연합뉴스 국제",
-      "ts": 1780484708000,
-      "pub": "Wed, 3 Jun 2026 20:05:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "나토 사무총장, 4개월 만에 우크라 '깜짝' 방문",
-      "link": "https://www.yna.co.kr/view/AKR20260603074400099",
-      "source": "연합뉴스 국제",
-      "ts": 1780483911000,
-      "pub": "Wed, 3 Jun 2026 19:51:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 상호관세 대체 '301조 관세' 윤곽…韓 '15%' 지키기 사활",
-      "link": "https://www.yna.co.kr/view/AKR20260603065300009",
-      "source": "연합뉴스 국제",
-      "ts": 1780478533000,
-      "pub": "Wed, 3 Jun 2026 18:22:13 +0900",
       "sentiment": "neutral"
     }
   ]

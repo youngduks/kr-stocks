@@ -1,30 +1,86 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-03T22:57:36.244Z",
-  "count": 32,
+  "updated_at": "2026-06-04T00:28:22.439Z",
+  "count": 35,
   "items": [
     {
-      "title": "수세 몰린 트럼프...미 하원, 이란 전쟁 종결 결의안 채택",
-      "link": "https://www.mt.co.kr/world/2026/06/04/2026060407082949050",
-      "source": "머니투데이",
-      "ts": 1780526589000,
-      "pub": "Thu, 04 Jun 2026 07:43:09 +0900",
+      "title": "통상본부장, USTR대표 면담 \"기존 관세합의 준수 의향 재확인\"",
+      "link": "https://www.yna.co.kr/view/AKR20260604063400003",
+      "source": "연합뉴스 경제",
+      "ts": 1780530950000,
+      "pub": "Thu, 4 Jun 2026 08:55:50 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "김정은, 새 핵물질 생산공장 시찰…\"핵무기 기하급수적 강화\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/04/2026060406554193464",
-      "source": "머니투데이",
-      "ts": 1780525265000,
-      "pub": "Thu, 04 Jun 2026 07:21:05 +0900",
+      "title": "백악관, 연방 보조금에 정치적 심사 기준 도입 추진",
+      "link": "https://www.hankyung.com/article/202606046353i",
+      "source": "한국경제",
+      "ts": 1780530317000,
+      "pub": "Thu, 04 Jun 2026 08:45:17 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"UFC 경기 끝나고 프랑스 G7 행사 참석할 것\"",
-      "link": "https://www.mt.co.kr/world/2026/06/04/2026060406163113538",
-      "source": "머니투데이",
-      "ts": 1780524471000,
-      "pub": "Thu, 04 Jun 2026 07:07:51 +0900",
+      "title": "Fed '점도표' 손보는 워시…월가 향한 금리 신호 바뀌나",
+      "link": "https://www.hankyung.com/article/202606046327i",
+      "source": "한국경제",
+      "ts": 1780529761000,
+      "pub": "Thu, 04 Jun 2026 08:36:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "바이든은 '경쟁' 트럼프는 '안정'…美의 달라진 대중전략 [이상은의 워싱턴나우]",
+      "link": "https://www.hankyung.com/article/202606035243i",
+      "source": "한국경제",
+      "ts": 1780529313000,
+      "pub": "Thu, 04 Jun 2026 08:28:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘·레바논, 미국 중재로 휴전 합의",
+      "link": "https://www.yna.co.kr/view/AKR20260604061000009",
+      "source": "연합뉴스 국제",
+      "ts": 1780529115000,
+      "pub": "Thu, 4 Jun 2026 08:25:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"케빈 워시의 '체제 전환'…미 Fed, 정치와 연계성 높아질 것\"-대신",
+      "link": "https://www.hankyung.com/article/2026060462726",
+      "source": "한국경제",
+      "ts": 1780528217000,
+      "pub": "Thu, 04 Jun 2026 08:10:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 미 국무부 \"이스라엘·레바논, 휴전 합의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260604059000009",
+      "source": "연합뉴스 국제",
+      "ts": 1780527963000,
+      "pub": "Thu, 4 Jun 2026 08:06:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美국무부 \"이스라엘·레바논 휴전 합의…헤즈볼라 철수 조건\"",
+      "link": "https://www.hankyung.com/article/2026060462697",
+      "source": "한국경제",
+      "ts": 1780527867000,
+      "pub": "Thu, 04 Jun 2026 08:04:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[외신 에스프레소] 트럼프 \"AI 모델, 출시 30일 전 정부 검토 받아라\"",
+      "link": "https://www.hankyung.com/article/202606046217i",
+      "source": "한국경제",
+      "ts": 1780527741000,
+      "pub": "Thu, 04 Jun 2026 08:02:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "EU 철강관세 폭탄 4주 앞…韓, 무관세 쿼터 확보에 막판 사활",
+      "link": "https://www.yna.co.kr/view/AKR20260604011100098",
+      "source": "연합뉴스 국제",
+      "ts": 1780527602000,
+      "pub": "Thu, 4 Jun 2026 08:00:02 +0900",
       "sentiment": "neutral"
     },
     {
@@ -41,14 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780523725000,
       "pub": "Thu, 4 Jun 2026 06:55:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "쿠웨이트 공습에도...트럼프 \"이란과 종전 협상 잘 진행중\"",
-      "link": "https://www.mt.co.kr/world/2026/06/04/2026060406060029370",
-      "source": "머니투데이",
-      "ts": 1780520986000,
-      "pub": "Thu, 04 Jun 2026 06:09:46 +0900",
       "sentiment": "neutral"
     },
     {
@@ -73,22 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780517348000,
       "pub": "Thu, 4 Jun 2026 05:09:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 \"강제노동 차단 미흡\"… 韓 등 60개국 10~12.5% 관세 추진",
-      "link": "https://www.mt.co.kr/world/2026/06/04/2026060320152388657",
-      "source": "머니투데이",
-      "ts": 1780513200000,
-      "pub": "Thu, 04 Jun 2026 04:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"협상 지속\" 트럼프 발언에도… 美·이란, 무력충돌 여전",
-      "link": "https://www.mt.co.kr/world/2026/06/04/2026060320152378471",
-      "source": "머니투데이",
-      "ts": 1780513200000,
-      "pub": "Thu, 04 Jun 2026 04:00:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -249,14 +281,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780445174000,
       "pub": "Wed, 3 Jun 2026 09:06:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, AI 보안검증 행정명령 서명…초안 대비 검증기간 단축",
-      "link": "https://www.yna.co.kr/view/AKR20260603016900009",
-      "source": "연합뉴스 국제",
-      "ts": 1780441707000,
-      "pub": "Wed, 3 Jun 2026 08:08:27 +0900",
       "sentiment": "neutral"
     }
   ]

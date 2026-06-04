@@ -1,14 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-03T22:57:36.245Z",
-  "count": 9,
+  "updated_at": "2026-06-04T00:28:22.440Z",
+  "count": 8,
   "items": [
     {
-      "title": "수은, 삼성전자와 해외진출 중소 협력사 ESG 장벽 낮춘다",
-      "link": "https://www.mt.co.kr/finance/2026/06/04/2026060314253958405",
-      "source": "머니투데이",
-      "ts": 1780520400000,
-      "pub": "Thu, 04 Jun 2026 06:00:00 +0900",
+      "title": "삼성전자, 1분기 글로벌 TV시장 점유율 31%…21년 연속 1위",
+      "link": "https://www.yna.co.kr/view/AKR20260604064000003",
+      "source": "연합뉴스 경제",
+      "ts": 1780532170000,
+      "pub": "Thu, 4 Jun 2026 09:16:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 헬스 앱 개편…갤럭시 워치 신기능 공개",
+      "link": "https://www.yna.co.kr/view/AKR20260604062200017",
+      "source": "연합뉴스 경제",
+      "ts": 1780531798000,
+      "pub": "Thu, 4 Jun 2026 09:09:58 +0900",
       "sentiment": "neutral"
     },
     {
@@ -57,22 +65,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780383242000,
       "pub": "Tue, 2 Jun 2026 15:54:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한투운용, '고배당주+삼전닉스' 커버드콜액티브 ETF 상장",
-      "link": "https://www.yna.co.kr/view/AKR20260602097400008",
-      "source": "연합뉴스 경제",
-      "ts": 1780375272000,
-      "pub": "Tue, 2 Jun 2026 13:41:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 장중 메타 제치고 글로벌 시가총액 10위로",
-      "link": "https://www.yna.co.kr/view/AKR20260602079800008",
-      "source": "연합뉴스 경제",
-      "ts": 1780367170000,
-      "pub": "Tue, 2 Jun 2026 11:26:10 +0900",
       "sentiment": "neutral"
     }
   ]

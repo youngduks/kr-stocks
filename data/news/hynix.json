@@ -1,14 +1,46 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-03T22:57:36.247Z",
-  "count": 12,
+  "updated_at": "2026-06-04T00:28:22.440Z",
+  "count": 13,
   "items": [
     {
-      "title": "\"반도체 더 만들어달라\"는 젠슨 황...SK실트론 매각 멈춘 SK그룹",
-      "link": "https://www.mt.co.kr/industry/2026/06/04/2026060322361518031",
-      "source": "머니투데이",
-      "ts": 1780524000000,
-      "pub": "Thu, 04 Jun 2026 07:00:00 +0900",
+      "title": "젠슨 황 온다는데 하이닉스 던졌다?…상위 1% 고수의 속내는",
+      "link": "https://www.hankyung.com/article/202606046305i",
+      "source": "한국경제",
+      "ts": 1780531205000,
+      "pub": "Thu, 04 Jun 2026 09:00:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "CPU 공급 불안에...美 전력반도체·칩 장비기업 주목받아",
+      "link": "https://www.hankyung.com/article/202606046191i",
+      "source": "한국경제",
+      "ts": 1780530980000,
+      "pub": "Thu, 04 Jun 2026 08:56:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "최태원, TSMC 회장과 회동…AI 반도체 '삼각동맹' 강화",
+      "link": "https://www.hankyung.com/article/2026060463067",
+      "source": "한국경제",
+      "ts": 1780528725000,
+      "pub": "Thu, 04 Jun 2026 08:18:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[단독] 현대차그룹·엔비디아 AI거점, 새만금에 짓나",
+      "link": "https://www.hankyung.com/article/2026060349701",
+      "source": "한국경제",
+      "ts": 1780528206000,
+      "pub": "Thu, 04 Jun 2026 08:10:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "1년만에 '텐배거' 된 SK하이닉스, ADR 상장 후 주가 전망해보니",
+      "link": "https://www.hankyung.com/article/202606023323i",
+      "source": "한국경제",
+      "ts": 1780528204000,
+      "pub": "Thu, 04 Jun 2026 08:10:04 +0900",
       "sentiment": "neutral"
     },
     {
@@ -18,30 +50,6 @@
       "ts": 1780520701000,
       "pub": "Thu, 4 Jun 2026 06:05:01 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "기업 강제이전 '채찍'보다 정책지원 '당근'… K반도체 저변 확대",
-      "link": "https://www.mt.co.kr/economy/2026/06/04/2026060322033676538",
-      "source": "머니투데이",
-      "ts": 1780513800000,
-      "pub": "Thu, 04 Jun 2026 04:10:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아 새 깐부?… 'CCL 안정화' 두산 찍었나",
-      "link": "https://www.mt.co.kr/industry/2026/06/04/2026060321235968654",
-      "source": "머니투데이",
-      "ts": 1780513440000,
-      "pub": "Thu, 04 Jun 2026 04:04:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 산단, 지방에만 짓고 혜택 몰아준다",
-      "link": "https://www.mt.co.kr/economy/2026/06/04/2026060321092286509",
-      "source": "머니투데이",
-      "ts": 1780513200000,
-      "pub": "Thu, 04 Jun 2026 04:00:00 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "EU '기술 주권' 강화 시동…반도체·AI·클라우드 자립 추진",

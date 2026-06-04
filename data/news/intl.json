@@ -1,8 +1,64 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-04T12:37:15.124Z",
-  "count": 18,
+  "updated_at": "2026-06-04T16:16:14.037Z",
+  "count": 21,
   "items": [
+    {
+      "title": "\"미·러, 베링해협 '푸틴-트럼프' 터널 협정 체결 예정\"",
+      "link": "https://www.yna.co.kr/view/AKR20260604200300108",
+      "source": "연합뉴스 국제",
+      "ts": 1780587052000,
+      "pub": "Fri, 5 Jun 2026 00:30:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프1기때 안보보좌관했던 볼턴, 기밀유출혐의 유죄인정할듯\"",
+      "link": "https://www.yna.co.kr/view/AKR20260604201000071",
+      "source": "연합뉴스 국제",
+      "ts": 1780585960000,
+      "pub": "Fri, 5 Jun 2026 00:12:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 혁명수비대, 이스라엘군 '전쟁전 지점' 철수 요구(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260604192551009",
+      "source": "연합뉴스 국제",
+      "ts": 1780585413000,
+      "pub": "Fri, 5 Jun 2026 00:03:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 레바논-이스라엘 휴전·브로드컴 실적 소화하며 혼조 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260604199800009",
+      "source": "연합뉴스 국제",
+      "ts": 1780583386000,
+      "pub": "Thu, 4 Jun 2026 23:29:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '이란전쟁 권한 제한' 하원 결의안 통과에 \"비애국적\"",
+      "link": "https://www.yna.co.kr/view/AKR20260604198400071",
+      "source": "연합뉴스 국제",
+      "ts": 1780580300000,
+      "pub": "Thu, 4 Jun 2026 22:38:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "독일 호텔 '유대인 숙박 금지'…이스라엘 \"나치 시대냐\"",
+      "link": "https://www.yna.co.kr/view/AKR20260604197200082",
+      "source": "연합뉴스 국제",
+      "ts": 1780579588000,
+      "pub": "Thu, 4 Jun 2026 22:26:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "헤즈볼라, 이스라엘-레바논 휴전 합의 거부…\"점령군 철수해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260604198200079",
+      "source": "연합뉴스 국제",
+      "ts": 1780579328000,
+      "pub": "Thu, 4 Jun 2026 22:22:08 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이란 혁명수비대, 이스라엘군 '전쟁전 지점' 철수 요구",
       "link": "https://www.yna.co.kr/view/AKR20260604192500009",
@@ -17,6 +73,14 @@
       "source": "연합뉴스 국제",
       "ts": 1780566717000,
       "pub": "Thu, 4 Jun 2026 18:51:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"미·이스라엘, 전쟁 패배 후 이란 분열 시도\"…모즈타바, 단결 촉구",
+      "link": "https://www.mt.co.kr/world/2026/06/04/2026060418325919973",
+      "source": "머니투데이",
+      "ts": 1780566611000,
+      "pub": "Thu, 04 Jun 2026 18:50:11 +0900",
       "sentiment": "neutral"
     },
     {
@@ -105,46 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780534221000,
       "pub": "Thu, 4 Jun 2026 09:50:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘·레바논, 미국 중재로 휴전 합의",
-      "link": "https://www.yna.co.kr/view/AKR20260604061000009",
-      "source": "연합뉴스 국제",
-      "ts": 1780529115000,
-      "pub": "Thu, 4 Jun 2026 08:25:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 미 국무부 \"이스라엘·레바논, 휴전 합의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260604059000009",
-      "source": "연합뉴스 국제",
-      "ts": 1780527963000,
-      "pub": "Thu, 4 Jun 2026 08:06:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "EU 철강관세 폭탄 4주 앞…韓, 무관세 쿼터 확보에 막판 사활",
-      "link": "https://www.yna.co.kr/view/AKR20260604011100098",
-      "source": "연합뉴스 국제",
-      "ts": 1780527602000,
-      "pub": "Thu, 4 Jun 2026 08:00:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美국무 \"이란과 HEU 처리 논의중…트럼프, 내달 나토회의 참석\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260603100252071",
-      "source": "연합뉴스 국제",
-      "ts": 1780524362000,
-      "pub": "Thu, 4 Jun 2026 07:06:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 협상 잘 진행중…이번 주말에라도 합의 가능\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260604036751071",
-      "source": "연합뉴스 국제",
-      "ts": 1780523725000,
-      "pub": "Thu, 4 Jun 2026 06:55:25 +0900",
       "sentiment": "neutral"
     }
   ]

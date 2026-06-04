@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-04T09:41:34.530Z",
-  "count": 22,
+  "updated_at": "2026-06-04T12:37:15.124Z",
+  "count": 18,
   "items": [
+    {
+      "title": "이란 혁명수비대, 이스라엘군 '전쟁전 지점' 철수 요구",
+      "link": "https://www.yna.co.kr/view/AKR20260604192500009",
+      "source": "연합뉴스 국제",
+      "ts": 1780570395000,
+      "pub": "Thu, 4 Jun 2026 19:53:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 'EU 가입' 협상 첫 단추 끼운다…\"15일 개시 전망\"",
+      "link": "https://www.yna.co.kr/view/AKR20260604186700098",
+      "source": "연합뉴스 국제",
+      "ts": 1780566717000,
+      "pub": "Thu, 4 Jun 2026 18:51:57 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "독일 안보리 이사국 탈락 수모…이스라엘 편들다 미움 샀나",
       "link": "https://www.yna.co.kr/view/AKR20260604180000082",
@@ -17,30 +33,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780563590000,
       "pub": "Thu, 4 Jun 2026 17:59:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "에너지 위기설·美 추가관세 우려에 환율 급등…\"쏠림 과해\"",
-      "link": "https://www.hankyung.com/article/2026060481851",
-      "source": "한국경제",
-      "ts": 1780563237000,
-      "pub": "Thu, 04 Jun 2026 17:53:57 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "관세·유가 '겹악재'…환율 1540원대로 치솟아",
-      "link": "https://www.hankyung.com/article/2026060481651",
-      "source": "한국경제",
-      "ts": 1780563222000,
-      "pub": "Thu, 04 Jun 2026 17:53:42 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"예쁜데 눈에 증오가…\" 트럼프, 여기자에 또 외모 막말 파문",
-      "link": "https://www.hankyung.com/article/2026060474667",
-      "source": "한국경제",
-      "ts": 1780562703000,
-      "pub": "Thu, 04 Jun 2026 17:45:03 +0900",
       "sentiment": "neutral"
     },
     {
@@ -153,30 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780523725000,
       "pub": "Thu, 4 Jun 2026 06:55:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 협상 잘 진행중…이번 주말에라도 합의 가능\"",
-      "link": "https://www.yna.co.kr/view/AKR20260604036700071",
-      "source": "연합뉴스 국제",
-      "ts": 1780519557000,
-      "pub": "Thu, 4 Jun 2026 05:45:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 佛개최 G7회의 참석 공식화…\"백악관 UFC경기뒤 참석\"",
-      "link": "https://www.yna.co.kr/view/AKR20260604032800071",
-      "source": "연합뉴스 국제",
-      "ts": 1780517732000,
-      "pub": "Thu, 4 Jun 2026 05:15:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美국무 \"이란과 HEU 처리 논의중…트럼프, 내달 나토회의 참석\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260603100251071",
-      "source": "연합뉴스 국제",
-      "ts": 1780517348000,
-      "pub": "Thu, 4 Jun 2026 05:09:08 +0900",
       "sentiment": "neutral"
     }
   ]

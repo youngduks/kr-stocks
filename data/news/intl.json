@@ -1,8 +1,72 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-05T12:30:24.169Z",
-  "count": 18,
+  "updated_at": "2026-06-05T15:47:39.837Z",
+  "count": 20,
   "items": [
+    {
+      "title": "\"시진핑, 트럼프-김정은 만나게 해 북러밀착 약화하려 할 수도\"",
+      "link": "https://www.yna.co.kr/view/AKR20260606000500071",
+      "source": "연합뉴스 국제",
+      "ts": 1780673773000,
+      "pub": "Sat, 6 Jun 2026 00:36:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "영프독 정상, 주말 런던 회동…젤렌스키도 참석",
+      "link": "https://www.yna.co.kr/view/AKR20260605160600081",
+      "source": "연합뉴스 국제",
+      "ts": 1780671103000,
+      "pub": "Fri, 5 Jun 2026 23:51:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러 특사 \"'푸틴-트럼프 터널' 중국도 참여할 수 있을 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260605157900108",
+      "source": "연합뉴스 국제",
+      "ts": 1780668971000,
+      "pub": "Fri, 5 Jun 2026 23:16:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 비농업 고용지표 소화하며 하락 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260605158700009",
+      "source": "연합뉴스 국제",
+      "ts": 1780667874000,
+      "pub": "Fri, 5 Jun 2026 22:57:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미 5월 고용 17만2천명 '깜짝 증가'…연준 금리인상 예상↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260605154952072",
+      "source": "연합뉴스 국제",
+      "ts": 1780666706000,
+      "pub": "Fri, 5 Jun 2026 22:38:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"우리 부채는 GDP 15.6%, 프랑스는?\"…佛경제 조롱한 푸틴",
+      "link": "https://www.yna.co.kr/view/AKR20260605155900081",
+      "source": "연합뉴스 국제",
+      "ts": 1780666144000,
+      "pub": "Fri, 5 Jun 2026 22:29:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'푸틴과 종전 담판' 젤렌스키 제안에…마크롱 \"때 됐다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260605155500098",
+      "source": "연합뉴스 국제",
+      "ts": 1780664344000,
+      "pub": "Fri, 5 Jun 2026 21:59:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "루마니아 또 드론 비상…이번엔 우크라 해상 드론 폭발(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260605139951109",
+      "source": "연합뉴스 국제",
+      "ts": 1780662483000,
+      "pub": "Fri, 5 Jun 2026 21:28:03 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "김정관 \"301조 추가 관세 우려에 러트닉이 '걱정말라'고 해\"",
       "link": "https://www.yna.co.kr/view/AKR20260605153400003",
@@ -41,14 +105,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780651360000,
       "pub": "Fri, 5 Jun 2026 18:22:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 건강보고서에 탈모약 복용 기록 빠져…투명성 논란\"",
-      "link": "https://www.hankyung.com/article/2026060502607",
-      "source": "한국경제",
-      "ts": 1780650244000,
-      "pub": "Fri, 05 Jun 2026 18:04:04 +0900",
       "sentiment": "neutral"
     },
     {
@@ -105,46 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780612736000,
       "pub": "Fri, 5 Jun 2026 07:38:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란전, 문서상으로든 군사적으로든 우리가 승리할것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260605008600071",
-      "source": "연합뉴스 국제",
-      "ts": 1780609466000,
-      "pub": "Fri, 5 Jun 2026 06:44:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 대표 드론제조사 \"北, 러서 드론전 배워…대단한 발전\"",
-      "link": "https://www.yna.co.kr/view/AKR20260604194800073",
-      "source": "연합뉴스 국제",
-      "ts": 1780606801000,
-      "pub": "Fri, 5 Jun 2026 06:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "헤즈볼라도 이스라엘도 불만인 휴전합의…종전협상에 암운",
-      "link": "https://www.yna.co.kr/view/AKR20260605004000079",
-      "source": "연합뉴스 국제",
-      "ts": 1780602159000,
-      "pub": "Fri, 5 Jun 2026 04:42:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "첫 임기 때 탈모약 먹던 트럼프…이제는 복용 관뒀나",
-      "link": "https://www.yna.co.kr/view/AKR20260605003900071",
-      "source": "연합뉴스 국제",
-      "ts": 1780602045000,
-      "pub": "Fri, 5 Jun 2026 04:40:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "국제유가, 이스라엘·레바논 휴전합의에 반락…WTI 3%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260605003600072",
-      "source": "연합뉴스 국제",
-      "ts": 1780600671000,
-      "pub": "Fri, 5 Jun 2026 04:17:51 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,48 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-05T12:30:24.170Z",
-  "count": 11,
+  "updated_at": "2026-06-05T15:47:39.839Z",
+  "count": 14,
   "items": [
+    {
+      "title": "금리 급등에 반도체·소형주 와르르...엔비디아 메모리 축소 진실은 [빈난새의 개장전요것만]",
+      "link": "https://www.hankyung.com/article/202606060532i",
+      "source": "한국경제",
+      "ts": 1780674011000,
+      "pub": "Sat, 06 Jun 2026 00:40:11 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "소맥 마시며 \"More HBM!\"…'4개의 선물' 안긴 젠슨 황 \"한국 바빠질 것\"",
+      "link": "https://www.mt.co.kr/industry/2026/06/05/2026060522272323529",
+      "source": "머니투데이",
+      "ts": 1780666765000,
+      "pub": "Fri, 05 Jun 2026 22:39:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'브로드컴 쇼크'에 반도체 패닉셀…증권가 \"저가매수 기회\" [분석+]",
+      "link": "https://www.hankyung.com/article/2026060500626",
+      "source": "한국경제",
+      "ts": 1780664401000,
+      "pub": "Fri, 05 Jun 2026 22:00:01 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "서울 '콕' 집은 젠슨 황…한국에 엔비디아 AI 거점 들어오나",
+      "link": "https://www.hankyung.com/article/2026060504537",
+      "source": "한국경제",
+      "ts": 1780663107000,
+      "pub": "Fri, 05 Jun 2026 21:38:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'산타'가 된 젠슨 황과 회장님들…HBM칩스, 바나나우유, 식혜 뿌렸다",
+      "link": "https://www.mt.co.kr/industry/2026/06/05/2026060521031215102",
+      "source": "머니투데이",
+      "ts": 1780661138000,
+      "pub": "Fri, 05 Jun 2026 21:05:38 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "엔비디아, 한국 AI기술센터 설립 착수…젠슨 황 \"서울 유력\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260605141051017",
@@ -12,11 +52,19 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'HBM칩' 나눠준 젠슨황…삼겹살에 소주, 노래방 뒤풀이까지 [영상]",
-      "link": "https://www.hankyung.com/article/202606050428g",
-      "source": "한국경제",
-      "ts": 1780658890000,
-      "pub": "Fri, 05 Jun 2026 20:28:10 +0900",
+      "title": "'소맥+깻잎 쌈' 먹던 젠슨 황, 거리 나오더니…\"More HBM!\" 외쳤다",
+      "link": "https://www.mt.co.kr/industry/2026/06/05/2026060520261756754",
+      "source": "머니투데이",
+      "ts": 1780658970000,
+      "pub": "Fri, 05 Jun 2026 20:29:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젠슨 황, 시민들에게 \"한국 매우 중요한 곳…더 많은 HBM 필요\"",
+      "link": "https://www.mt.co.kr/industry/2026/06/05/2026060520035834650",
+      "source": "머니투데이",
+      "ts": 1780657524000,
+      "pub": "Fri, 05 Jun 2026 20:05:24 +0900",
       "sentiment": "neutral"
     },
     {
@@ -66,30 +114,6 @@
       "ts": 1780615651000,
       "pub": "Fri, 5 Jun 2026 08:27:31 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "브로드컴 쇼크에 반도체 매도·비기술주 매수",
-      "link": "https://www.yna.co.kr/view/AKR20260605011000009",
-      "source": "연합뉴스 국제",
-      "ts": 1780612345000,
-      "pub": "Fri, 5 Jun 2026 07:32:25 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "뉴욕증시, 반도체 매도에 혼조마감…다우 1.7%↑·나스닥 0.1%↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260605004851072",
-      "source": "연합뉴스 국제",
-      "ts": 1780606466000,
-      "pub": "Fri, 5 Jun 2026 05:54:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 반도체 랠리 숨고르기 속 혼조 마감…마이크론 8%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260605004800072",
-      "source": "연합뉴스 국제",
-      "ts": 1780604131000,
-      "pub": "Fri, 5 Jun 2026 05:15:31 +0900",
-      "sentiment": "positive"
     }
   ]
 }

@@ -1,30 +1,54 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-05T12:30:24.170Z",
-  "count": 6,
+  "updated_at": "2026-06-05T15:47:39.839Z",
+  "count": 9,
   "items": [
     {
-      "title": "'HBM칩' 나눠준 젠슨황…삼겹살에 소주, 노래방 뒤풀이까지 [영상]",
-      "link": "https://www.hankyung.com/article/202606050428g",
+      "title": "금리 급등에 반도체·소형주 와르르...엔비디아 메모리 축소 진실은 [빈난새의 개장전요것만]",
+      "link": "https://www.hankyung.com/article/202606060532i",
       "source": "한국경제",
-      "ts": 1780658890000,
-      "pub": "Fri, 05 Jun 2026 20:28:10 +0900",
+      "ts": 1780674011000,
+      "pub": "Sat, 06 Jun 2026 00:40:11 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "소맥 마시며 \"More HBM!\"…'4개의 선물' 안긴 젠슨 황 \"한국 바빠질 것\"",
+      "link": "https://www.mt.co.kr/industry/2026/06/05/2026060522272323529",
+      "source": "머니투데이",
+      "ts": 1780666765000,
+      "pub": "Fri, 05 Jun 2026 22:39:25 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "삼성전자 '5년간 5兆 사회공헌' 본격 시동",
+      "title": "'산타'가 된 젠슨 황과 회장님들…HBM칩스, 바나나우유, 식혜 뿌렸다",
+      "link": "https://www.mt.co.kr/industry/2026/06/05/2026060521031215102",
+      "source": "머니투데이",
+      "ts": 1780661138000,
+      "pub": "Fri, 05 Jun 2026 21:05:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'소맥+깻잎 쌈' 먹던 젠슨 황, 거리 나오더니…\"More HBM!\" 외쳤다",
+      "link": "https://www.mt.co.kr/industry/2026/06/05/2026060520261756754",
+      "source": "머니투데이",
+      "ts": 1780658970000,
+      "pub": "Fri, 05 Jun 2026 20:29:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젠슨 황, 시민들에게 \"한국 매우 중요한 곳…더 많은 HBM 필요\"",
+      "link": "https://www.mt.co.kr/industry/2026/06/05/2026060520035834650",
+      "source": "머니투데이",
+      "ts": 1780657524000,
+      "pub": "Fri, 05 Jun 2026 20:05:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 '5년간 5조원 사회공헌' 본격 시동",
       "link": "https://www.hankyung.com/article/2026060501411",
       "source": "한국경제",
       "ts": 1780657201000,
       "pub": "Fri, 05 Jun 2026 20:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "스페이스X로 몰려가는 증시 자금…'삼전닉스' 조정 시작됐나",
-      "link": "https://www.hankyung.com/article/2026060502141",
-      "source": "한국경제",
-      "ts": 1780649855000,
-      "pub": "Fri, 05 Jun 2026 17:57:35 +0900",
       "sentiment": "neutral"
     },
     {

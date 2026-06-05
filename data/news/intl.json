@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-05T09:27:21.497Z",
-  "count": 14,
+  "updated_at": "2026-06-05T12:30:24.169Z",
+  "count": 18,
   "items": [
+    {
+      "title": "김정관 \"301조 추가 관세 우려에 러트닉이 '걱정말라'고 해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260605153400003",
+      "source": "연합뉴스 경제",
+      "ts": 1780661498000,
+      "pub": "Fri, 5 Jun 2026 21:11:38 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "레바논 의회의장 \"이스라엘군·헤즈볼라 남부서 동시 철수 지지\"",
+      "link": "https://www.yna.co.kr/view/AKR20260605152500079",
+      "source": "연합뉴스 국제",
+      "ts": 1780659945000,
+      "pub": "Fri, 5 Jun 2026 20:45:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이스라엘, 아제르바이잔에도 비밀 군사기지…대이란 작전 준비\"",
+      "link": "https://www.yna.co.kr/view/AKR20260605151500009",
+      "source": "연합뉴스 국제",
+      "ts": 1780658708000,
+      "pub": "Fri, 5 Jun 2026 20:25:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러 \"푸틴, 젤렌스키 서한 받았다…종전협상 재개되길\"",
+      "link": "https://www.yna.co.kr/view/AKR20260605150500108",
+      "source": "연합뉴스 국제",
+      "ts": 1780657008000,
+      "pub": "Fri, 5 Jun 2026 19:56:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "日언론 \"미중회담 직후 시주석 방북 조율…中, 공격 외교\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260605072351073",
+      "source": "연합뉴스 국제",
+      "ts": 1780651360000,
+      "pub": "Fri, 5 Jun 2026 18:22:40 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"트럼프 건강보고서에 탈모약 복용 기록 빠져…투명성 논란\"",
       "link": "https://www.hankyung.com/article/2026060502607",
@@ -105,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780600671000,
       "pub": "Fri, 5 Jun 2026 04:17:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"미·러, 베링해협 '푸틴-트럼프' 터널 협정 체결 예정\"",
-      "link": "https://www.yna.co.kr/view/AKR20260604200300108",
-      "source": "연합뉴스 국제",
-      "ts": 1780587052000,
-      "pub": "Fri, 5 Jun 2026 00:30:52 +0900",
       "sentiment": "neutral"
     }
   ]

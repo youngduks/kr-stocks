@@ -1,14 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-05T09:27:21.500Z",
-  "count": 10,
+  "updated_at": "2026-06-05T12:30:24.170Z",
+  "count": 11,
   "items": [
     {
-      "title": "하이닉스 담은 美 AI ETF '고공행진'",
-      "link": "https://www.hankyung.com/article/2026060501881",
+      "title": "엔비디아, 한국 AI기술센터 설립 착수…젠슨 황 \"서울 유력\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260605141051017",
+      "source": "연합뉴스 경제",
+      "ts": 1780660881000,
+      "pub": "Fri, 5 Jun 2026 21:01:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'HBM칩' 나눠준 젠슨황…삼겹살에 소주, 노래방 뒤풀이까지 [영상]",
+      "link": "https://www.hankyung.com/article/202606050428g",
       "source": "한국경제",
-      "ts": 1780648946000,
-      "pub": "Fri, 05 Jun 2026 17:42:26 +0900",
+      "ts": 1780658890000,
+      "pub": "Fri, 05 Jun 2026 20:28:10 +0900",
       "sentiment": "neutral"
     },
     {

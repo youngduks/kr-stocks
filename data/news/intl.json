@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-05T17:45:53.197Z",
-  "count": 20,
+  "updated_at": "2026-06-05T19:29:18.268Z",
+  "count": 22,
   "items": [
+    {
+      "title": "트럼프, 정보조직 '칼질' 맡기려 비전문측근 정보수장 발탁했나",
+      "link": "https://www.yna.co.kr/view/AKR20260606003600072",
+      "source": "연합뉴스 국제",
+      "ts": 1780683559000,
+      "pub": "Sat, 6 Jun 2026 03:19:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "비트코인 한때 6만달러선 무너져…트럼프 2기 당선 후 처음",
+      "link": "https://www.yna.co.kr/view/AKR20260606003900091",
+      "source": "연합뉴스 국제",
+      "ts": 1780683367000,
+      "pub": "Sat, 6 Jun 2026 03:16:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "모즈타바 최측근 \"트럼프가 37조 동결 해제로 협상교착 풀어야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260606003300071",
+      "source": "연합뉴스 국제",
+      "ts": 1780682532000,
+      "pub": "Sat, 6 Jun 2026 03:02:12 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美, '시진핑 방북'에 \"미중 정상, '北비핵화' 공동목표 재확인\"",
       "link": "https://www.yna.co.kr/view/AKR20260606002300071",
@@ -153,14 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780640939000,
       "pub": "Fri, 5 Jun 2026 15:28:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 행정부, 오픈AI 등 AI기업들 지분 확보 검토\"",
-      "link": "https://www.yna.co.kr/view/AKR20260605041400009",
-      "source": "연합뉴스 국제",
-      "ts": 1780620582000,
-      "pub": "Fri, 5 Jun 2026 09:49:42 +0900",
       "sentiment": "neutral"
     }
   ]

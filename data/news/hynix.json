@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-05T17:45:53.200Z",
+  "updated_at": "2026-06-05T19:29:18.271Z",
   "count": 13,
   "items": [
+    {
+      "title": "달러-원, 美 반도체주 급락에 공포 전이…1,560원선도 뚫렸다",
+      "link": "https://www.yna.co.kr/view/AKR20260606004500002",
+      "source": "연합뉴스 경제",
+      "ts": 1780685748000,
+      "pub": "Sat, 6 Jun 2026 03:55:48 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "금리 급등에 반도체·소형주 와르르...엔비디아 메모리 축소 진실은 [빈난새의 개장전요것만]",
       "link": "https://www.hankyung.com/article/202606060532i",
@@ -97,14 +105,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780619784000,
       "pub": "Fri, 5 Jun 2026 09:36:24 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "미국발 반도체 찬바람에 코스피 급락…매도 사이드카 발동",
-      "link": "https://www.yna.co.kr/view/AKR20260605031251008",
-      "source": "연합뉴스 경제",
-      "ts": 1780618492000,
-      "pub": "Fri, 5 Jun 2026 09:14:52 +0900",
       "sentiment": "negative"
     }
   ]

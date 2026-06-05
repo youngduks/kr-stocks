@@ -1,8 +1,48 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-04T23:00:06.749Z",
-  "count": 8,
+  "updated_at": "2026-06-05T00:10:53.915Z",
+  "count": 12,
   "items": [
+    {
+      "title": "삼성증권 \"하반기 엔비디아 밸류체인 관심 재개 기대\"",
+      "link": "https://www.yna.co.kr/view/AKR20260605025100008",
+      "source": "연합뉴스 경제",
+      "ts": 1780616481000,
+      "pub": "Fri, 5 Jun 2026 08:41:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "김시우, PGA 투어 메모리얼 토너먼트 1R 공동 23위…임성재 33위",
+      "link": "https://www.yna.co.kr/view/AKR20260605022200007",
+      "source": "연합뉴스 국제",
+      "ts": 1780615651000,
+      "pub": "Fri, 5 Jun 2026 08:27:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 4월 경상흑자 282억9000만 달러…반도체 타고 역대 2위",
+      "link": "https://www.hankyung.com/article/2026060586297",
+      "source": "한국경제",
+      "ts": 1780614626000,
+      "pub": "Fri, 05 Jun 2026 08:10:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"피에스케이, 반도체 전공정 테마 '최선호주'…목표가↑\"-하나",
+      "link": "https://www.hankyung.com/article/2026060586366",
+      "source": "한국경제",
+      "ts": 1780614608000,
+      "pub": "Fri, 05 Jun 2026 08:10:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "4월 경상흑자 282억9천만달러…반도체 수출 호조 등에 역대 2위",
+      "link": "https://www.yna.co.kr/view/AKR20260605014500002",
+      "source": "연합뉴스 경제",
+      "ts": 1780614002000,
+      "pub": "Fri, 5 Jun 2026 08:00:02 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "브로드컴 쇼크에 반도체 매도·비기술주 매수",
       "link": "https://www.yna.co.kr/view/AKR20260605011000009",
@@ -12,12 +52,12 @@
       "sentiment": "negative"
     },
     {
-      "title": "반도체 매도에 엇갈린 증시…다우 사상 최고치[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/06/05/2026060506535524521",
-      "source": "머니투데이",
-      "ts": 1780610342000,
-      "pub": "Fri, 05 Jun 2026 06:59:02 +0900",
-      "sentiment": "positive"
+      "title": "다우 사상 최고에도 브로드컴 급락에 반도체주 부진 [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026060585066",
+      "source": "한국경제",
+      "ts": 1780611768000,
+      "pub": "Fri, 05 Jun 2026 07:22:48 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "뉴욕증시, 반도체 매도에 혼조마감…다우 1.7%↑·나스닥 0.1%↓(종합)",
@@ -34,14 +74,6 @@
       "ts": 1780604131000,
       "pub": "Fri, 5 Jun 2026 05:15:31 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "\"우리도 깐부\" 최태원, TSMC 손 잡는다",
-      "link": "https://www.mt.co.kr/industry/2026/06/05/2026060419373514270",
-      "source": "머니투데이",
-      "ts": 1780600200000,
-      "pub": "Fri, 05 Jun 2026 04:10:00 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "모건스탠리 \"메모리 병목, '칩플레이션' 야기\"",

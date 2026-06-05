@@ -1,38 +1,38 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-04T23:00:06.747Z",
-  "count": 29,
+  "updated_at": "2026-06-05T00:10:53.914Z",
+  "count": 25,
   "items": [
+    {
+      "title": "젤렌스키, 푸틴에 \"만나 얘기하자\"…공개서한으로 종전협상 압박",
+      "link": "https://www.yna.co.kr/view/AKR20260605021200009",
+      "source": "연합뉴스 국제",
+      "ts": 1780616333000,
+      "pub": "Fri, 5 Jun 2026 08:38:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[외신 에스프레소 영상] 유럽으로 몰려가는 중국차…관세 장벽에도 점유율 급성장",
+      "link": "https://www.hankyung.com/article/202606058588i",
+      "source": "한국경제",
+      "ts": 1780614880000,
+      "pub": "Fri, 05 Jun 2026 08:14:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 USTR \"합의는 합의\"…301조 우려에도 관세 상한 존중 시사",
+      "link": "https://www.hankyung.com/article/2026060585427",
+      "source": "한국경제",
+      "ts": 1780613572000,
+      "pub": "Fri, 05 Jun 2026 07:52:52 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "美무역대표 \"합의는 합의\"…기존 무역합의 관세 상한 존중 시사",
       "link": "https://www.yna.co.kr/view/AKR20260605014900071",
       "source": "연합뉴스 국제",
       "ts": 1780612736000,
       "pub": "Fri, 5 Jun 2026 07:38:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키 대통령 \"러 국민도 평화 원해\"...공개서한서 정상회담 요청",
-      "link": "https://www.mt.co.kr/world/2026/06/05/2026060506321893552",
-      "source": "머니투데이",
-      "ts": 1780611985000,
-      "pub": "Fri, 05 Jun 2026 07:26:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 석탄 인프라에 7억달러 지원…'바이든 친환경' 뒤집기 속도",
-      "link": "https://www.mt.co.kr/world/2026/06/05/2026060507214174888",
-      "source": "머니투데이",
-      "ts": 1780611816000,
-      "pub": "Fri, 05 Jun 2026 07:23:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "베링해협에 '푸틴-트럼프' 해저터널?...러 경제특사 \"설계 협정 예정\"",
-      "link": "https://www.mt.co.kr/world/2026/06/05/2026060505222942145",
-      "source": "머니투데이",
-      "ts": 1780610347000,
-      "pub": "Fri, 05 Jun 2026 06:59:07 +0900",
       "sentiment": "neutral"
     },
     {
@@ -73,30 +73,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780600671000,
       "pub": "Fri, 5 Jun 2026 04:17:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "매파 날아든 연준… 금리인상론 고개 든다",
-      "link": "https://www.mt.co.kr/world/2026/06/05/2026060419382376045",
-      "source": "머니투데이",
-      "ts": 1780599600000,
-      "pub": "Fri, 05 Jun 2026 04:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "외인 자금이탈·유가·관세… 삼중고에 갇힌 원화 가치",
-      "link": "https://www.mt.co.kr/economy/2026/06/05/2026060419573750389",
-      "source": "머니투데이",
-      "ts": 1780599600000,
-      "pub": "Fri, 05 Jun 2026 04:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美하원도 종전결의안 채택… 트럼프 '딜레마'",
-      "link": "https://www.mt.co.kr/world/2026/06/05/2026060419382458579",
-      "source": "머니투데이",
-      "ts": 1780599600000,
-      "pub": "Fri, 05 Jun 2026 04:00:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -226,14 +202,6 @@
       "ts": 1780542008000,
       "pub": "Thu, 4 Jun 2026 12:00:08 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "환율, 美관세·중동 영향에 1,530원대 개장…금융위기 후 처음(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260604077151002",
-      "source": "연합뉴스 경제",
-      "ts": 1780536203000,
-      "pub": "Thu, 4 Jun 2026 10:23:23 +0900",
-      "sentiment": "negative"
     }
   ]
 }

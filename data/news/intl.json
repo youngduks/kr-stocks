@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-05T15:47:39.837Z",
+  "updated_at": "2026-06-05T17:45:53.197Z",
   "count": 20,
   "items": [
+    {
+      "title": "美, '시진핑 방북'에 \"미중 정상, '北비핵화' 공동목표 재확인\"",
+      "link": "https://www.yna.co.kr/view/AKR20260606002300071",
+      "source": "연합뉴스 국제",
+      "ts": 1780678988000,
+      "pub": "Sat, 6 Jun 2026 02:03:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "푸틴 \"젤렌스키 서한 무례, 만남 무의미…러군 계속하라\"",
+      "link": "https://www.yna.co.kr/view/AKR20260606001700108",
+      "source": "연합뉴스 국제",
+      "ts": 1780677107000,
+      "pub": "Sat, 6 Jun 2026 01:31:47 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"시진핑, 트럼프-김정은 만나게 해 북러밀착 약화하려 할 수도\"",
       "link": "https://www.yna.co.kr/view/AKR20260606000500071",
@@ -145,22 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780620582000,
       "pub": "Fri, 5 Jun 2026 09:49:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키, 푸틴에 \"만나 얘기하자\"…공개서한으로 종전협상 압박",
-      "link": "https://www.yna.co.kr/view/AKR20260605021200009",
-      "source": "연합뉴스 국제",
-      "ts": 1780616333000,
-      "pub": "Fri, 5 Jun 2026 08:38:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美무역대표 \"합의는 합의\"…기존 무역합의 관세 상한 존중 시사",
-      "link": "https://www.yna.co.kr/view/AKR20260605014900071",
-      "source": "연합뉴스 국제",
-      "ts": 1780612736000,
-      "pub": "Fri, 5 Jun 2026 07:38:56 +0900",
       "sentiment": "neutral"
     }
   ]

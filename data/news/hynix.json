@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-05T21:15:43.486Z",
-  "count": 13,
+  "updated_at": "2026-06-05T22:56:30.403Z",
+  "count": 10,
   "items": [
     {
       "title": "달러-원, 美 반도체주 급락에 공포 전이…1,560원선도 뚫렸다",
@@ -68,14 +68,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "젠슨 황, 시민들에게 \"한국 매우 중요한 곳…더 많은 HBM 필요\"",
-      "link": "https://www.mt.co.kr/industry/2026/06/05/2026060520035834650",
-      "source": "머니투데이",
-      "ts": 1780657524000,
-      "pub": "Fri, 05 Jun 2026 20:05:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "인텔, 반도체 공장에 히타치 AI시스템 채택…\"TSMC·삼성 추격\"",
       "link": "https://www.yna.co.kr/view/AKR20260605107700009",
       "source": "연합뉴스 국제",
@@ -90,22 +82,6 @@
       "ts": 1780633884000,
       "pub": "Fri, 5 Jun 2026 13:31:24 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "日 산업용 로봇 수주 전년비 17% 증가…\"반도체 설비투자 영향\"",
-      "link": "https://www.yna.co.kr/view/AKR20260605048800073",
-      "source": "연합뉴스 국제",
-      "ts": 1780622638000,
-      "pub": "Fri, 5 Jun 2026 10:23:58 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'검은 금요일' 코스피, 6% 급락해 8,000대…반도체주 '휘청'(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260605036000008",
-      "source": "연합뉴스 경제",
-      "ts": 1780619784000,
-      "pub": "Fri, 5 Jun 2026 09:36:24 +0900",
-      "sentiment": "negative"
     }
   ]
 }

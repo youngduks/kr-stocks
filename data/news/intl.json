@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-05T21:15:43.483Z",
-  "count": 26,
+  "updated_at": "2026-06-05T22:56:30.400Z",
+  "count": 29,
   "items": [
+    {
+      "title": "트럼프 \"합의든 강경 방식이든 이란서 매우 빨리 빠질 시점\"",
+      "link": "https://www.yna.co.kr/view/AKR20260606013100071",
+      "source": "연합뉴스 국제",
+      "ts": 1780698581000,
+      "pub": "Sat, 6 Jun 2026 07:29:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[위클리 건강] 1년 새 6㎏ 찐 80세 트럼프…노년기 체중증가 괜찮을까",
+      "link": "https://www.yna.co.kr/view/AKR20260604155000530",
+      "source": "연합뉴스 국제",
+      "ts": 1780696861000,
+      "pub": "Sat, 6 Jun 2026 07:01:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美정부, AI기업 지분 보유 검토…트럼프 \"곧 그들과 만날 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260606008400071",
+      "source": "연합뉴스 경제",
+      "ts": 1780695521000,
+      "pub": "Sat, 6 Jun 2026 06:38:41 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이란과 MOU 가까워졌나…美협상팀, '핵무기 고향' 오크리지 방문",
       "link": "https://www.yna.co.kr/view/AKR20260606005600071",

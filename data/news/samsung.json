@@ -1,30 +1,30 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-05T00:10:53.915Z",
+  "updated_at": "2026-06-05T05:08:48.371Z",
   "count": 3,
   "items": [
+    {
+      "title": "\"삼전·하닉 사도 원화는 안 사\"…치솟는 환율, 무슨 일이 [빈난새의 빈틈없이월가]",
+      "link": "https://www.hankyung.com/article/202606058432i",
+      "source": "한국경제",
+      "ts": 1780630202000,
+      "pub": "Fri, 05 Jun 2026 12:30:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼전·닉스, 장초반 급락…각각 6%·8%대 하락세",
+      "link": "https://www.yna.co.kr/view/AKR20260605034000008",
+      "source": "연합뉴스 경제",
+      "ts": 1780618927000,
+      "pub": "Fri, 5 Jun 2026 09:22:07 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "김시우, PGA 투어 메모리얼 토너먼트 1R 공동 23위…임성재 33위",
       "link": "https://www.yna.co.kr/view/AKR20260605022200007",
       "source": "연합뉴스 국제",
       "ts": 1780615651000,
       "pub": "Fri, 5 Jun 2026 08:27:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 브로드컴발 쇼크에 삼전·하닉 2%대 하락 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260604078151008",
-      "source": "연합뉴스 경제",
-      "ts": 1780556282000,
-      "pub": "Thu, 4 Jun 2026 15:58:02 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "모건스탠리 \"메모리 병목, '칩플레이션' 야기\"",
-      "link": "https://www.yna.co.kr/view/AKR20260604147300009",
-      "source": "연합뉴스 국제",
-      "ts": 1780554667000,
-      "pub": "Thu, 4 Jun 2026 15:31:07 +0900",
       "sentiment": "neutral"
     }
   ]

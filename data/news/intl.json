@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-05T00:10:53.914Z",
-  "count": 25,
+  "updated_at": "2026-06-05T05:08:48.370Z",
+  "count": 17,
   "items": [
+    {
+      "title": "\"트럼프 행정부, 오픈AI 등 AI기업들 지분 확보 검토\"",
+      "link": "https://www.yna.co.kr/view/AKR20260605041400009",
+      "source": "연합뉴스 국제",
+      "ts": 1780620582000,
+      "pub": "Fri, 5 Jun 2026 09:49:42 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "젤렌스키, 푸틴에 \"만나 얘기하자\"…공개서한으로 종전협상 압박",
       "link": "https://www.yna.co.kr/view/AKR20260605021200009",
@@ -10,22 +18,6 @@
       "ts": 1780616333000,
       "pub": "Fri, 5 Jun 2026 08:38:53 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[외신 에스프레소 영상] 유럽으로 몰려가는 중국차…관세 장벽에도 점유율 급성장",
-      "link": "https://www.hankyung.com/article/202606058588i",
-      "source": "한국경제",
-      "ts": 1780614880000,
-      "pub": "Fri, 05 Jun 2026 08:14:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 USTR \"합의는 합의\"…301조 우려에도 관세 상한 존중 시사",
-      "link": "https://www.hankyung.com/article/2026060585427",
-      "source": "한국경제",
-      "ts": 1780613572000,
-      "pub": "Fri, 05 Jun 2026 07:52:52 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "美무역대표 \"합의는 합의\"…기존 무역합의 관세 상한 존중 시사",
@@ -145,62 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780566717000,
       "pub": "Thu, 4 Jun 2026 18:51:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "독일 안보리 이사국 탈락 수모…이스라엘 편들다 미움 샀나",
-      "link": "https://www.yna.co.kr/view/AKR20260604180000082",
-      "source": "연합뉴스 국제",
-      "ts": 1780564183000,
-      "pub": "Thu, 4 Jun 2026 18:09:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"빼앗긴 땅보다 더 탈환했다\"…우크라 드론전 통했나",
-      "link": "https://www.yna.co.kr/view/AKR20260604174200109",
-      "source": "연합뉴스 국제",
-      "ts": 1780563590000,
-      "pub": "Thu, 4 Jun 2026 17:59:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘 국방 \"휴전 발표했지만, 레바논 내 군사 작전은 계속\"",
-      "link": "https://www.yna.co.kr/view/AKR20260604177800079",
-      "source": "연합뉴스 국제",
-      "ts": 1780561946000,
-      "pub": "Thu, 4 Jun 2026 17:32:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 법무장관에 '성추문 사건' 변호한 블랜치 낙점",
-      "link": "https://www.yna.co.kr/view/AKR20260604157000009",
-      "source": "연합뉴스 국제",
-      "ts": 1780555372000,
-      "pub": "Thu, 4 Jun 2026 15:42:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "농식품부, 대중국 K푸드 수출 비관세장벽 대응 설명회 개최",
-      "link": "https://www.yna.co.kr/view/AKR20260604138200030",
-      "source": "연합뉴스 경제",
-      "ts": 1780554601000,
-      "pub": "Thu, 4 Jun 2026 15:30:01 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "김정관, 러트닉과 화상면담 \"한국 관세, 15% 상한선 재확인\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260604063451003",
-      "source": "연합뉴스 경제",
-      "ts": 1780547920000,
-      "pub": "Thu, 4 Jun 2026 13:38:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미국 실효관세율, 10대 수출국 중 한국 6위…일본보다 낮아",
-      "link": "https://www.yna.co.kr/view/AKR20260604072400003",
-      "source": "연합뉴스 경제",
-      "ts": 1780542008000,
-      "pub": "Thu, 4 Jun 2026 12:00:08 +0900",
       "sentiment": "neutral"
     }
   ]

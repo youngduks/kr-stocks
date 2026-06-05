@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-05T05:08:48.371Z",
-  "count": 11,
+  "updated_at": "2026-06-05T09:27:21.500Z",
+  "count": 10,
   "items": [
+    {
+      "title": "하이닉스 담은 美 AI ETF '고공행진'",
+      "link": "https://www.hankyung.com/article/2026060501881",
+      "source": "한국경제",
+      "ts": 1780648946000,
+      "pub": "Fri, 05 Jun 2026 17:42:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "인텔, 반도체 공장에 히타치 AI시스템 채택…\"TSMC·삼성 추격\"",
+      "link": "https://www.yna.co.kr/view/AKR20260605107700009",
+      "source": "연합뉴스 국제",
+      "ts": 1780642644000,
+      "pub": "Fri, 5 Jun 2026 15:57:24 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "TSMC 회장 \"AI 수요 대비해 美 애리조나 공장 부지 추가 확보\"",
       "link": "https://www.yna.co.kr/view/AKR20260605074300009",
@@ -18,14 +34,6 @@
       "ts": 1780622638000,
       "pub": "Fri, 5 Jun 2026 10:23:58 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "AI·반도체 인재 전쟁…일본, 전국에 과학영재 거점 구축",
-      "link": "https://www.hankyung.com/article/202606058978i",
-      "source": "한국경제",
-      "ts": 1780620877000,
-      "pub": "Fri, 05 Jun 2026 09:54:37 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "'검은 금요일' 코스피, 6% 급락해 8,000대…반도체주 '휘청'(종합)",
@@ -44,28 +52,12 @@
       "sentiment": "negative"
     },
     {
-      "title": "삼성증권 \"하반기 엔비디아 밸류체인 관심 재개 기대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260605025100008",
-      "source": "연합뉴스 경제",
-      "ts": 1780616481000,
-      "pub": "Fri, 5 Jun 2026 08:41:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "김시우, PGA 투어 메모리얼 토너먼트 1R 공동 23위…임성재 33위",
       "link": "https://www.yna.co.kr/view/AKR20260605022200007",
       "source": "연합뉴스 국제",
       "ts": 1780615651000,
       "pub": "Fri, 5 Jun 2026 08:27:31 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "4월 경상흑자 282억9천만달러…반도체 수출 호조 등에 역대 2위",
-      "link": "https://www.yna.co.kr/view/AKR20260605014500002",
-      "source": "연합뉴스 경제",
-      "ts": 1780614002000,
-      "pub": "Fri, 5 Jun 2026 08:00:02 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "브로드컴 쇼크에 반도체 매도·비기술주 매수",

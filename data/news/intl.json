@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-05T05:08:48.370Z",
-  "count": 17,
+  "updated_at": "2026-06-05T09:27:21.497Z",
+  "count": 14,
   "items": [
+    {
+      "title": "\"트럼프 건강보고서에 탈모약 복용 기록 빠져…투명성 논란\"",
+      "link": "https://www.hankyung.com/article/2026060502607",
+      "source": "한국경제",
+      "ts": 1780650244000,
+      "pub": "Fri, 05 Jun 2026 18:04:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "출구 안 보이는 러·우크라 전쟁…민간인 사상자 눈덩이",
+      "link": "https://www.yna.co.kr/view/AKR20260605124200109",
+      "source": "연합뉴스 국제",
+      "ts": 1780649221000,
+      "pub": "Fri, 5 Jun 2026 17:47:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 러 자폭 드론 직격에도 끄떡없는 우크라 방탄 험비",
+      "link": "https://www.yna.co.kr/view/AKR20260605117100704",
+      "source": "연합뉴스 국제",
+      "ts": 1780644631000,
+      "pub": "Fri, 5 Jun 2026 16:30:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라지원법 美하원 통과…\"공화 18명 반기에 트럼프 또 타격\"",
+      "link": "https://www.yna.co.kr/view/AKR20260605113200009",
+      "source": "연합뉴스 국제",
+      "ts": 1780642625000,
+      "pub": "Fri, 5 Jun 2026 15:57:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프가 사면·감형해준 의회폭동범들 중 최소 97명 재범",
+      "link": "https://www.yna.co.kr/view/AKR20260605104500009",
+      "source": "연합뉴스 국제",
+      "ts": 1780640939000,
+      "pub": "Fri, 5 Jun 2026 15:28:59 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"트럼프 행정부, 오픈AI 등 AI기업들 지분 확보 검토\"",
       "link": "https://www.yna.co.kr/view/AKR20260605041400009",
@@ -62,7 +102,7 @@
     {
       "title": "국제유가, 이스라엘·레바논 휴전합의에 반락…WTI 3%↓",
       "link": "https://www.yna.co.kr/view/AKR20260605003600072",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1780600671000,
       "pub": "Fri, 5 Jun 2026 04:17:51 +0900",
       "sentiment": "neutral"
@@ -73,70 +113,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780587052000,
       "pub": "Fri, 5 Jun 2026 00:30:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프1기때 안보보좌관했던 볼턴, 기밀유출혐의 유죄인정할듯\"",
-      "link": "https://www.yna.co.kr/view/AKR20260604201000071",
-      "source": "연합뉴스 국제",
-      "ts": 1780585960000,
-      "pub": "Fri, 5 Jun 2026 00:12:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 혁명수비대, 이스라엘군 '전쟁전 지점' 철수 요구(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260604192551009",
-      "source": "연합뉴스 국제",
-      "ts": 1780585413000,
-      "pub": "Fri, 5 Jun 2026 00:03:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 레바논-이스라엘 휴전·브로드컴 실적 소화하며 혼조 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260604199800009",
-      "source": "연합뉴스 국제",
-      "ts": 1780583386000,
-      "pub": "Thu, 4 Jun 2026 23:29:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '이란전쟁 권한 제한' 하원 결의안 통과에 \"비애국적\"",
-      "link": "https://www.yna.co.kr/view/AKR20260604198400071",
-      "source": "연합뉴스 국제",
-      "ts": 1780580300000,
-      "pub": "Thu, 4 Jun 2026 22:38:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "독일 호텔 '유대인 숙박 금지'…이스라엘 \"나치 시대냐\"",
-      "link": "https://www.yna.co.kr/view/AKR20260604197200082",
-      "source": "연합뉴스 국제",
-      "ts": 1780579588000,
-      "pub": "Thu, 4 Jun 2026 22:26:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "헤즈볼라, 이스라엘-레바논 휴전 합의 거부…\"점령군 철수해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260604198200079",
-      "source": "연합뉴스 국제",
-      "ts": 1780579328000,
-      "pub": "Thu, 4 Jun 2026 22:22:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 혁명수비대, 이스라엘군 '전쟁전 지점' 철수 요구",
-      "link": "https://www.yna.co.kr/view/AKR20260604192500009",
-      "source": "연합뉴스 국제",
-      "ts": 1780570395000,
-      "pub": "Thu, 4 Jun 2026 19:53:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 'EU 가입' 협상 첫 단추 끼운다…\"15일 개시 전망\"",
-      "link": "https://www.yna.co.kr/view/AKR20260604186700098",
-      "source": "연합뉴스 국제",
-      "ts": 1780566717000,
-      "pub": "Thu, 4 Jun 2026 18:51:57 +0900",
       "sentiment": "neutral"
     }
   ]

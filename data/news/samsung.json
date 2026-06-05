@@ -1,15 +1,23 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-05T05:08:48.371Z",
-  "count": 3,
+  "updated_at": "2026-06-05T09:27:21.498Z",
+  "count": 4,
   "items": [
     {
-      "title": "\"삼전·하닉 사도 원화는 안 사\"…치솟는 환율, 무슨 일이 [빈난새의 빈틈없이월가]",
-      "link": "https://www.hankyung.com/article/202606058432i",
+      "title": "스페이스X로 몰려가는 증시 자금…'삼전닉스' 조정 시작됐나",
+      "link": "https://www.hankyung.com/article/2026060502141",
       "source": "한국경제",
-      "ts": 1780630202000,
-      "pub": "Fri, 05 Jun 2026 12:30:02 +0900",
+      "ts": 1780649855000,
+      "pub": "Fri, 05 Jun 2026 17:57:35 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼전·닉스, 급락 마감…각각 6%·9%대 하락(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260605034051008",
+      "source": "연합뉴스 경제",
+      "ts": 1780641648000,
+      "pub": "Fri, 5 Jun 2026 15:40:48 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "[특징주] 삼전·닉스, 장초반 급락…각각 6%·8%대 하락세",

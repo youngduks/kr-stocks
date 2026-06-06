@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-06T20:03:03.392Z",
-  "count": 32,
+  "updated_at": "2026-06-06T21:54:47.790Z",
+  "count": 31,
   "items": [
+    {
+      "title": "미국 301조·EU 철강 고율 관세…한국 통상전략 또 시험대",
+      "link": "https://www.yna.co.kr/view/AKR20260606041700003",
+      "source": "연합뉴스 경제",
+      "ts": 1780781700000,
+      "pub": "Sun, 7 Jun 2026 06:35:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프식 '투자의 민주화'...퇴직연금을 사모펀드에 개방하면?",
+      "link": "https://www.mt.co.kr/world/2026/06/07/2026060115404184841",
+      "source": "머니투데이",
+      "ts": 1780779600000,
+      "pub": "Sun, 07 Jun 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'은행규제 강화론자' 美연준 이사 \"규제완화 단기 흥분제 불과\"",
       "link": "https://www.yna.co.kr/view/AKR20260607002400072",
@@ -97,14 +113,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780709194000,
       "pub": "Sat, 6 Jun 2026 10:26:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 대통령 \"이란 협상 곧...매우 빨리 빠져나올 것\"",
-      "link": "https://www.mt.co.kr/world/2026/06/06/2026060609465240449",
-      "source": "머니투데이",
-      "ts": 1780709180000,
-      "pub": "Sat, 06 Jun 2026 10:26:20 +0900",
       "sentiment": "neutral"
     },
     {
@@ -233,22 +241,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780667874000,
       "pub": "Fri, 5 Jun 2026 22:57:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미 5월 고용 17만2천명 '깜짝 증가'…연준 금리인상 예상↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260605154952072",
-      "source": "연합뉴스 국제",
-      "ts": 1780666706000,
-      "pub": "Fri, 5 Jun 2026 22:38:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"우리 부채는 GDP 15.6%, 프랑스는?\"…佛경제 조롱한 푸틴",
-      "link": "https://www.yna.co.kr/view/AKR20260605155900081",
-      "source": "연합뉴스 국제",
-      "ts": 1780666144000,
-      "pub": "Fri, 5 Jun 2026 22:29:04 +0900",
       "sentiment": "neutral"
     },
     {

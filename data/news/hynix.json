@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-06T00:00:39.108Z",
-  "count": 10,
+  "updated_at": "2026-06-06T04:45:07.577Z",
+  "count": 6,
   "items": [
+    {
+      "title": "AI發 훈풍에 뭉칫돈 몰린 반도체·전력 ETF… 차기 투자처는?",
+      "link": "https://www.mt.co.kr/stock/2026/06/06/2026060518210684376",
+      "source": "머니투데이",
+      "ts": 1780707600000,
+      "pub": "Sat, 06 Jun 2026 10:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 다음은 바이오?…장수 시대 포트폴리오의 새 축",
+      "link": "https://www.hankyung.com/article/202606059750i",
+      "source": "한국경제",
+      "ts": 1780704123000,
+      "pub": "Sat, 06 Jun 2026 09:02:03 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "나스닥 4% 투매…① 메모리 정점? ② 메타도 증자? ③ 머스크 거부한 S&P [김현석의 월스트리트나우]",
       "link": "https://www.hankyung.com/article/202606060558i",
@@ -20,46 +36,6 @@
       "sentiment": "negative"
     },
     {
-      "title": "금리 급등에 반도체·소형주 와르르...엔비디아 메모리 축소 진실은 [빈난새의 개장전요것만]",
-      "link": "https://www.hankyung.com/article/202606060532i",
-      "source": "한국경제",
-      "ts": 1780674011000,
-      "pub": "Sat, 06 Jun 2026 00:40:11 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "소맥 마시며 \"More HBM!\"…'4개의 선물' 안긴 젠슨 황 \"한국 바빠질 것\"",
-      "link": "https://www.mt.co.kr/industry/2026/06/05/2026060522272323529",
-      "source": "머니투데이",
-      "ts": 1780666765000,
-      "pub": "Fri, 05 Jun 2026 22:39:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'브로드컴 쇼크'에 반도체 패닉셀…증권가 \"저가매수 기회\" [분석+]",
-      "link": "https://www.hankyung.com/article/2026060500626",
-      "source": "한국경제",
-      "ts": 1780664401000,
-      "pub": "Fri, 05 Jun 2026 22:00:01 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "서울 '콕' 집은 젠슨 황…한국에 엔비디아 AI 거점 들어오나",
-      "link": "https://www.hankyung.com/article/2026060504537",
-      "source": "한국경제",
-      "ts": 1780663107000,
-      "pub": "Fri, 05 Jun 2026 21:38:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'산타'가 된 젠슨 황과 회장님들…HBM칩스, 바나나우유, 식혜 뿌렸다",
-      "link": "https://www.mt.co.kr/industry/2026/06/05/2026060521031215102",
-      "source": "머니투데이",
-      "ts": 1780661138000,
-      "pub": "Fri, 05 Jun 2026 21:05:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "엔비디아, 한국 AI기술센터 설립 착수…젠슨 황 \"서울 유력\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260605141051017",
       "source": "연합뉴스 경제",
@@ -73,14 +49,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780642644000,
       "pub": "Fri, 5 Jun 2026 15:57:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "TSMC 회장 \"AI 수요 대비해 美 애리조나 공장 부지 추가 확보\"",
-      "link": "https://www.yna.co.kr/view/AKR20260605074300009",
-      "source": "연합뉴스 국제",
-      "ts": 1780633884000,
-      "pub": "Fri, 5 Jun 2026 13:31:24 +0900",
       "sentiment": "neutral"
     }
   ]

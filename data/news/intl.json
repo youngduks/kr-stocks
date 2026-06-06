@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-06T09:52:10.812Z",
-  "count": 37,
+  "updated_at": "2026-06-06T11:15:28.211Z",
+  "count": 32,
   "items": [
+    {
+      "title": "\"알바니아 못 팔아\"…트럼프 사위 리조트 반대 시위 확산",
+      "link": "https://www.yna.co.kr/view/AKR20260606045900081",
+      "source": "연합뉴스 국제",
+      "ts": 1780739999000,
+      "pub": "Sat, 6 Jun 2026 18:59:59 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"北도움 없이는 못 버텨\"…푸틴 긁은 젤렌스키, 내부분열 노렸나",
       "link": "https://www.yna.co.kr/view/AKR20260606043100081",
@@ -18,22 +26,6 @@
       "ts": 1780730721000,
       "pub": "Sat, 6 Jun 2026 16:25:21 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "\"출생지가 죄인가\"…美 법원, 트럼프 행정부 '반이민 조치' 무효화",
-      "link": "https://www.mt.co.kr/world/2026/06/06/2026060614183398617",
-      "source": "머니투데이",
-      "ts": 1780725053000,
-      "pub": "Sat, 06 Jun 2026 14:50:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란, 자존심 세…결국 합의할 수밖에 없을 것\"",
-      "link": "https://www.mt.co.kr/world/2026/06/06/2026060614091679796",
-      "source": "머니투데이",
-      "ts": 1780723110000,
-      "pub": "Sat, 06 Jun 2026 14:18:30 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "美·이란 합의 막는 동결자금…\"트럼프에 정치적 지뢰밭\"",
@@ -73,22 +65,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780709194000,
       "pub": "Sat, 6 Jun 2026 10:26:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 대통령 \"이란 협상 곧...매우 빨리 빠져나올 것\"",
-      "link": "https://www.mt.co.kr/world/2026/06/06/2026060609465240449",
-      "source": "머니투데이",
-      "ts": 1780709180000,
-      "pub": "Sat, 06 Jun 2026 10:26:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키 제안 거절한 푸틴 \"대면 회담 무의미...러군 힘내달라\"",
-      "link": "https://www.mt.co.kr/world/2026/06/06/2026060608315146495",
-      "source": "머니투데이",
-      "ts": 1780706938000,
-      "pub": "Sat, 06 Jun 2026 09:48:58 +0900",
       "sentiment": "neutral"
     },
     {
@@ -281,22 +257,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780657008000,
       "pub": "Fri, 5 Jun 2026 19:56:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "日언론 \"미중회담 직후 시주석 방북 조율…中, 공격 외교\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260605072351073",
-      "source": "연합뉴스 국제",
-      "ts": 1780651360000,
-      "pub": "Fri, 5 Jun 2026 18:22:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "출구 안 보이는 러·우크라 전쟁…민간인 사상자 눈덩이",
-      "link": "https://www.yna.co.kr/view/AKR20260605124200109",
-      "source": "연합뉴스 국제",
-      "ts": 1780649221000,
-      "pub": "Fri, 5 Jun 2026 17:47:01 +0900",
       "sentiment": "neutral"
     }
   ]

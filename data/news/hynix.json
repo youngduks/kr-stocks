@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-06T04:45:07.577Z",
+  "updated_at": "2026-06-06T07:39:43.193Z",
   "count": 6,
   "items": [
+    {
+      "title": "뉴욕증시 반도체주 와르르…엔비디아 등 시총 하루새 2천조 증발",
+      "link": "https://www.yna.co.kr/view/AKR20260606037800009",
+      "source": "연합뉴스 국제",
+      "ts": 1780727596000,
+      "pub": "Sat, 6 Jun 2026 15:33:16 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "AI發 훈풍에 뭉칫돈 몰린 반도체·전력 ETF… 차기 투자처는?",
       "link": "https://www.mt.co.kr/stock/2026/06/06/2026060518210684376",
@@ -41,14 +49,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780660881000,
       "pub": "Fri, 5 Jun 2026 21:01:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "인텔, 반도체 공장에 히타치 AI시스템 채택…\"TSMC·삼성 추격\"",
-      "link": "https://www.yna.co.kr/view/AKR20260605107700009",
-      "source": "연합뉴스 국제",
-      "ts": 1780642644000,
-      "pub": "Fri, 5 Jun 2026 15:57:24 +0900",
       "sentiment": "neutral"
     }
   ]

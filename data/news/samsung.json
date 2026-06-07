@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-07T06:57:09.576Z",
-  "count": 4,
+  "updated_at": "2026-06-07T09:57:16.305Z",
+  "count": 5,
   "items": [
+    {
+      "title": "'삼전닉스' 영업익 150조…2분기 또 사상최대 전망",
+      "link": "https://www.hankyung.com/article/2026060717701",
+      "source": "한국경제",
+      "ts": 1780823879000,
+      "pub": "Sun, 07 Jun 2026 18:17:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 다음으로 많이 매매된 '이 종목'…상승세 걱정 없다는데",
+      "link": "https://www.mt.co.kr/stock/2026/06/07/2026060717395184618",
+      "source": "머니투데이",
+      "ts": 1780822174000,
+      "pub": "Sun, 07 Jun 2026 17:49:34 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "임성재, PGA 투어 메모리얼 3R 20위…아쉬운 폭우 중단",
       "link": "https://www.yna.co.kr/view/AKR20260607010300007",
@@ -10,14 +26,6 @@
       "ts": 1780788539000,
       "pub": "Sun, 7 Jun 2026 08:28:59 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"내 주식은 왜 이래?\"…삼전·LG 폭등 뒤 개미들 한숨 이유",
-      "link": "https://www.hankyung.com/article/2026060712067",
-      "source": "한국경제",
-      "ts": 1780787956000,
-      "pub": "Sun, 07 Jun 2026 08:19:16 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "삼전닉스 '쏠림'에…코스피 오를 때 하락종목 더 많았다",

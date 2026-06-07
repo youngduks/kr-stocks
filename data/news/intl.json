@@ -1,8 +1,72 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-07T19:04:02.624Z",
-  "count": 23,
+  "updated_at": "2026-06-07T20:58:55.919Z",
+  "count": 29,
   "items": [
+    {
+      "title": "트럼프 \"이란과 최종합의 매우 근접…10일까지 합의할 가능성\"",
+      "link": "https://www.yna.co.kr/view/AKR20260608005700071",
+      "source": "연합뉴스 국제",
+      "ts": 1780865440000,
+      "pub": "Mon, 8 Jun 2026 05:50:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "CPI 발표, 긴축 발작 이어지나…스페이스X 상장, 오라클 실적[이번주 美 증시는]",
+      "link": "https://www.mt.co.kr/world/2026/06/08/2026060612342889418",
+      "source": "머니투데이",
+      "ts": 1780864500000,
+      "pub": "Mon, 08 Jun 2026 05:35:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란, 이스라엘 겨냥 미사일 공격…'베이루트 공습에 보복'(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260608003051079",
+      "source": "연합뉴스 국제",
+      "ts": 1780863925000,
+      "pub": "Mon, 8 Jun 2026 05:25:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프 생일 백악관 UFC경기 못하게 해달라\"…소송 제기돼",
+      "link": "https://www.yna.co.kr/view/AKR20260608004300071",
+      "source": "연합뉴스 국제",
+      "ts": 1780863516000,
+      "pub": "Mon, 8 Jun 2026 05:18:36 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"전쟁 없을거라 보장 안했다\"는 트럼프, 공약파기·거짓말 논란",
+      "link": "https://www.yna.co.kr/view/AKR20260608003400071",
+      "source": "연합뉴스 국제",
+      "ts": 1780861100000,
+      "pub": "Mon, 8 Jun 2026 04:38:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 이란 혁명수비대 \"이스라엘 반격시 뼈아픈 타격 직면\"",
+      "link": "https://www.yna.co.kr/view/AKR20260608003300079",
+      "source": "연합뉴스 국제",
+      "ts": 1780860296000,
+      "pub": "Mon, 8 Jun 2026 04:24:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란, 이스라엘 겨냥 미사일 발사…베이루트 공습 보복인 듯",
+      "link": "https://www.yna.co.kr/view/AKR20260608003000079",
+      "source": "연합뉴스 국제",
+      "ts": 1780860038000,
+      "pub": "Mon, 8 Jun 2026 04:20:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 이스라엘군 \"이란발 미사일 식별…방공망 대응\"",
+      "link": "https://www.yna.co.kr/view/AKR20260608002800079",
+      "source": "연합뉴스 국제",
+      "ts": 1780859171000,
+      "pub": "Mon, 8 Jun 2026 04:06:11 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"이란과 합의불발시 타격한 뒤 고농축우라늄 회수\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260607055051071",
@@ -138,22 +202,6 @@
       "ts": 1780739999000,
       "pub": "Sat, 6 Jun 2026 18:59:59 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"北도움 없이는 못 버텨\"…푸틴 긁은 젤렌스키, 내부분열 노렸나",
-      "link": "https://www.yna.co.kr/view/AKR20260606043100081",
-      "source": "연합뉴스 국제",
-      "ts": 1780736449000,
-      "pub": "Sat, 6 Jun 2026 18:00:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "서방 제재 비웃는 푸틴 측근들…호화 제트기 타고 해외 여행",
-      "link": "https://www.yna.co.kr/view/AKR20260606039200009",
-      "source": "연합뉴스 국제",
-      "ts": 1780730721000,
-      "pub": "Sat, 6 Jun 2026 16:25:21 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "美정부, AI기업 지분 보유 검토…트럼프 \"곧 그들과 만날 것\"",

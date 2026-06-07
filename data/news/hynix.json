@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-07T19:04:02.625Z",
-  "count": 17,
+  "updated_at": "2026-06-07T20:58:55.921Z",
+  "count": 15,
   "items": [
+    {
+      "title": "외부 의존 줄인다…유럽 반도체·AI 주권 강화 시동",
+      "link": "https://www.mt.co.kr/industry/2026/06/08/2026060615480965685",
+      "source": "머니투데이",
+      "ts": 1780860000000,
+      "pub": "Mon, 08 Jun 2026 04:20:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젠슨 황 \"엔비디아, 韓과 함께 성장\" 전방위 K파트너십 기대감",
+      "link": "https://www.mt.co.kr/industry/2026/06/08/2026060719573675695",
+      "source": "머니투데이",
+      "ts": 1780859100000,
+      "pub": "Mon, 08 Jun 2026 04:05:00 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "\"더 많은 HBM\" 외친 젠슨 황  '메모리 몸값' 앞으로 더 뛴다",
       "link": "https://www.mt.co.kr/industry/2026/06/08/2026060718442940224",
@@ -20,14 +36,6 @@
       "sentiment": "positive"
     },
     {
-      "title": "깐부 회동 중 \"More HBM!\" 외쳤다…SK-엔비디아 'AI 협력' 발표 예고",
-      "link": "https://www.mt.co.kr/industry/2026/06/07/2026060721031499884",
-      "source": "머니투데이",
-      "ts": 1780833942000,
-      "pub": "Sun, 07 Jun 2026 21:05:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"더 많은 HBM 필요해!\"…또 열린 2차 '깐부회동' 분위기는?",
       "link": "https://www.hankyung.com/article/2026060719007",
       "source": "한국경제",
@@ -41,22 +49,6 @@
       "source": "한국경제",
       "ts": 1780829493000,
       "pub": "Sun, 07 Jun 2026 19:51:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'오늘도 산타 모드' 젠슨 황은 치킨, 최태원은 식혜…\"More HBM\"",
-      "link": "https://www.mt.co.kr/industry/2026/06/07/2026060719261091556",
-      "source": "머니투데이",
-      "ts": 1780828227000,
-      "pub": "Sun, 07 Jun 2026 19:30:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'어게인 깐부' 젠슨 황, 최태원 또 만났다…몰려든 시민들 \"엔비디아 사랑해\"",
-      "link": "https://www.mt.co.kr/industry/2026/06/07/2026060718525916145",
-      "source": "머니투데이",
-      "ts": 1780826302000,
-      "pub": "Sun, 07 Jun 2026 18:58:22 +0900",
       "sentiment": "neutral"
     },
     {
@@ -113,14 +105,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780778820000,
       "pub": "Sun, 7 Jun 2026 05:47:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시 반도체주 와르르…엔비디아 등 시총 하루새 2천조 증발",
-      "link": "https://www.yna.co.kr/view/AKR20260606037800009",
-      "source": "연합뉴스 국제",
-      "ts": 1780727596000,
-      "pub": "Sat, 6 Jun 2026 15:33:16 +0900",
       "sentiment": "neutral"
     },
     {

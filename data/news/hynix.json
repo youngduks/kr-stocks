@@ -1,15 +1,55 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-07T09:57:16.306Z",
-  "count": 19,
+  "updated_at": "2026-06-07T11:44:26.942Z",
+  "count": 22,
   "items": [
     {
-      "title": "'반도체 효과' 동탄 집값 급등…광명도 뜀박질",
-      "link": "https://www.hankyung.com/article/2026060717641",
+      "title": "\"더 많은 HBM 필요해!\"…또 열린 2차 '깐부회동' 분위기는?",
+      "link": "https://www.hankyung.com/article/2026060719007",
       "source": "한국경제",
-      "ts": 1780823975000,
-      "pub": "Sun, 07 Jun 2026 18:19:35 +0900",
-      "sentiment": "positive"
+      "ts": 1780831478000,
+      "pub": "Sun, 07 Jun 2026 20:24:38 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "SK와 엔비디아, 내일 'AI 협력' 발표…젠슨 황 \"새 계획 세운다\"",
+      "link": "https://www.mt.co.kr/industry/2026/06/07/2026060720085637994",
+      "source": "머니투데이",
+      "ts": 1780831153000,
+      "pub": "Sun, 07 Jun 2026 20:19:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI 반도체 ETF 강세…고배당·금융주도 상승",
+      "link": "https://www.hankyung.com/article/2026060716891",
+      "source": "한국경제",
+      "ts": 1780829493000,
+      "pub": "Sun, 07 Jun 2026 19:51:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'오늘도 산타 모드' 젠슨 황은 치킨, 최태원은 식혜…\"More HBM\"",
+      "link": "https://www.mt.co.kr/industry/2026/06/07/2026060719261091556",
+      "source": "머니투데이",
+      "ts": 1780828227000,
+      "pub": "Sun, 07 Jun 2026 19:30:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'어게인 깐부' 젠슨 황, 최태원 또 만났다…몰려든 시민들 \"엔비디아 사랑해\"",
+      "link": "https://www.mt.co.kr/industry/2026/06/07/2026060718525916145",
+      "source": "머니투데이",
+      "ts": 1780826302000,
+      "pub": "Sun, 07 Jun 2026 18:58:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아 올라탄 네이버…'AI 팩토리' 수출 본격화",
+      "link": "https://www.hankyung.com/article/2026060717921",
+      "source": "한국경제",
+      "ts": 1780825020000,
+      "pub": "Sun, 07 Jun 2026 18:37:00 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "크래프톤 장병규 \"엔비디아 AI PC칩 도입해 'PUBG 앨라이' 만든다\"",
@@ -65,22 +105,6 @@
       "source": "머니투데이",
       "ts": 1780821363000,
       "pub": "Sun, 07 Jun 2026 17:36:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"아직 출시 전인데…\" 엔비디아 화제의 AI PC, 게이머에 깜짝 선물한 젠슨 황",
-      "link": "https://www.mt.co.kr/tech/2026/06/07/2026060716241832323",
-      "source": "머니투데이",
-      "ts": 1780817543000,
-      "pub": "Sun, 07 Jun 2026 16:32:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'한국과의 인연' 강조한 젠슨 황 \"e스포츠가 엔비디아 키웠다\"",
-      "link": "https://www.mt.co.kr/tech/2026/06/07/2026060714540891144",
-      "source": "머니투데이",
-      "ts": 1780813221000,
-      "pub": "Sun, 07 Jun 2026 15:20:21 +0900",
       "sentiment": "neutral"
     },
     {

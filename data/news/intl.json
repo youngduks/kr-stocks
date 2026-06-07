@@ -1,14 +1,22 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-07T09:57:16.304Z",
+  "updated_at": "2026-06-07T11:44:26.940Z",
   "count": 20,
   "items": [
     {
-      "title": "트럼프식 포퓰리즘…\"AI기업 지분, 국민들에 배당\"",
-      "link": "https://www.hankyung.com/article/2026060717521",
-      "source": "한국경제",
-      "ts": 1780823966000,
-      "pub": "Sun, 07 Jun 2026 18:19:26 +0900",
+      "title": "젤렌스키 \"러, 체르노빌 사용후핵연료 저장시설 의도적 공격\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260607041351079",
+      "source": "연합뉴스 국제",
+      "ts": 1780831317000,
+      "pub": "Sun, 7 Jun 2026 20:21:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "LG엔솔, 미국 관세 환급 절차 착수…환급금 1천억원 넘을 듯",
+      "link": "https://www.yna.co.kr/view/AKR20260607047600003",
+      "source": "연합뉴스 경제",
+      "ts": 1780828782000,
+      "pub": "Sun, 7 Jun 2026 19:39:42 +0900",
       "sentiment": "neutral"
     },
     {
@@ -121,14 +129,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780709194000,
       "pub": "Sat, 6 Jun 2026 10:26:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 중재 안통하나…이스라엘, 헤즈볼라 반발에 레바논 맹폭",
-      "link": "https://www.yna.co.kr/view/AKR20260606018000009",
-      "source": "연합뉴스 국제",
-      "ts": 1780704472000,
-      "pub": "Sat, 6 Jun 2026 09:07:52 +0900",
       "sentiment": "neutral"
     },
     {

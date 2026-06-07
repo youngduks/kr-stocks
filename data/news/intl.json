@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-07T20:58:55.919Z",
-  "count": 29,
+  "updated_at": "2026-06-07T22:03:28.632Z",
+  "count": 33,
   "items": [
+    {
+      "title": "이스라엘군 \"명령 내려지는 즉시 이란에 강력한 타격\"",
+      "link": "https://www.yna.co.kr/view/AKR20260608010000009",
+      "source": "연합뉴스 국제",
+      "ts": 1780869308000,
+      "pub": "Mon, 8 Jun 2026 06:55:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 최종합의 매우 근접…10일까지 합의할 가능성\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260608005751071",
+      "source": "연합뉴스 국제",
+      "ts": 1780869270000,
+      "pub": "Mon, 8 Jun 2026 06:54:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 이스라엘군 \"명령 내려지는 즉시 이란에 강력한 타격\"",
+      "link": "https://www.hankyung.com/article/2026060820737",
+      "source": "한국경제",
+      "ts": 1780868115000,
+      "pub": "Mon, 08 Jun 2026 06:35:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 이스라엘군 \"명령 내려지는 즉시 이란에 강력한 타격\"",
+      "link": "https://www.yna.co.kr/view/AKR20260608008700009",
+      "source": "연합뉴스 국제",
+      "ts": 1780867952000,
+      "pub": "Mon, 8 Jun 2026 06:32:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란, 이스라엘에 미사일 발사…트럼프 \"이스라엘 보복 말릴 것\"",
+      "link": "https://www.mt.co.kr/world/2026/06/08/2026060805514170598",
+      "source": "머니투데이",
+      "ts": 1780866548000,
+      "pub": "Mon, 08 Jun 2026 06:09:08 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"이란과 최종합의 매우 근접…10일까지 합의할 가능성\"",
       "link": "https://www.yna.co.kr/view/AKR20260608005700071",
@@ -193,14 +233,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780754009000,
       "pub": "Sat, 6 Jun 2026 22:53:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"알바니아 못 팔아\"…트럼프 사위 리조트 반대 시위 확산",
-      "link": "https://www.yna.co.kr/view/AKR20260606045900081",
-      "source": "연합뉴스 국제",
-      "ts": 1780739999000,
-      "pub": "Sat, 6 Jun 2026 18:59:59 +0900",
       "sentiment": "neutral"
     },
     {

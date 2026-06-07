@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-07T20:58:55.921Z",
-  "count": 15,
+  "updated_at": "2026-06-07T22:03:28.634Z",
+  "count": 16,
   "items": [
+    {
+      "title": "\"더 많이 만들어달라\" 젠슨 황 한마디에…메모리값 또 뛴다",
+      "link": "https://www.mt.co.kr/industry/2026/06/08/2026060709595383146",
+      "source": "머니투데이",
+      "ts": 1780868400000,
+      "pub": "Mon, 08 Jun 2026 06:40:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "TSMC가 '인재 육성' 주도…'산학협력'이 키우는 대만 반도체 생태계",
+      "link": "https://www.mt.co.kr/industry/2026/06/08/2026060711305950285",
+      "source": "머니투데이",
+      "ts": 1780866000000,
+      "pub": "Mon, 08 Jun 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "외부 의존 줄인다…유럽 반도체·AI 주권 강화 시동",
       "link": "https://www.mt.co.kr/industry/2026/06/08/2026060615480965685",
@@ -18,14 +34,6 @@
       "ts": 1780859100000,
       "pub": "Mon, 08 Jun 2026 04:05:00 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "\"더 많은 HBM\" 외친 젠슨 황  '메모리 몸값' 앞으로 더 뛴다",
-      "link": "https://www.mt.co.kr/industry/2026/06/08/2026060718442940224",
-      "source": "머니투데이",
-      "ts": 1780858800000,
-      "pub": "Mon, 08 Jun 2026 04:00:00 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "[사설] '반도체 달러'넘쳐도 환율 급등 방치 안된다",

@@ -1,22 +1,38 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-07T02:29:22.651Z",
-  "count": 24,
+  "updated_at": "2026-06-07T06:57:09.575Z",
+  "count": 21,
   "items": [
     {
-      "title": "'AI 역풍' 의식했나, 트럼프 \"AI기업 지분인수 검토…국민 혜택\"",
-      "link": "https://www.mt.co.kr/world/2026/06/07/2026060709275685695",
-      "source": "머니투데이",
-      "ts": 1780795996000,
-      "pub": "Sun, 07 Jun 2026 10:33:16 +0900",
+      "title": "[단독] 美 정부, 상호관세 환급…LG엔솔 1000억 돌려받는다",
+      "link": "https://www.hankyung.com/article/202606071505i",
+      "source": "한국경제",
+      "ts": 1780810810000,
+      "pub": "Sun, 07 Jun 2026 14:40:10 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "北김여정 \"미중, 비핵화 동의한 적 없어…핵보유국 지위 절대불퇴\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/07/2026060709072243904",
+      "title": "이란 \"37조 동결자산 풀어달라\" vs \"트럼프, 중동 피해복구에 쓸것\"",
+      "link": "https://www.mt.co.kr/world/2026/06/07/2026060711371711878",
       "source": "머니투데이",
-      "ts": 1780791877000,
-      "pub": "Sun, 07 Jun 2026 09:24:37 +0900",
+      "ts": 1780804316000,
+      "pub": "Sun, 07 Jun 2026 12:51:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "푸틴-젤렌스키 설전 와중에 러 제2도시에 대규모 드론 공격",
+      "link": "https://www.yna.co.kr/view/AKR20260607023800009",
+      "source": "연합뉴스 국제",
+      "ts": 1780803788000,
+      "pub": "Sun, 7 Jun 2026 12:43:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "김여정 \"미중 비핵화 합의는 날조\"…시진핑 방북 D-1 '사전 차단'",
+      "link": "https://www.mt.co.kr/politics/2026/06/07/2026060709372022745",
+      "source": "머니투데이",
+      "ts": 1780802614000,
+      "pub": "Sun, 07 Jun 2026 12:23:34 +0900",
       "sentiment": "neutral"
     },
     {
@@ -124,35 +140,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"합의든 강경 방식이든 이란서 매우 빨리 빠질 시점\"",
-      "link": "https://www.yna.co.kr/view/AKR20260606013100071",
-      "source": "연합뉴스 국제",
-      "ts": 1780698581000,
-      "pub": "Sat, 6 Jun 2026 07:29:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[위클리 건강] 1년 새 6㎏ 찐 80세 트럼프…노년기 체중증가 괜찮을까",
-      "link": "https://www.yna.co.kr/view/AKR20260604155000530",
-      "source": "연합뉴스 국제",
-      "ts": 1780696861000,
-      "pub": "Sat, 6 Jun 2026 07:01:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美정부, AI기업 지분 보유 검토…트럼프 \"곧 그들과 만날 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260606008400071",
       "source": "연합뉴스 경제",
       "ts": 1780695521000,
       "pub": "Sat, 6 Jun 2026 06:38:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란과 MOU 가까워졌나…美협상팀, '핵무기 고향' 오크리지 방문",
-      "link": "https://www.yna.co.kr/view/AKR20260606005600071",
-      "source": "연합뉴스 국제",
-      "ts": 1780690566000,
-      "pub": "Sat, 6 Jun 2026 05:16:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -169,22 +161,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780687860000,
       "pub": "Sat, 6 Jun 2026 04:31:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 정보조직 '칼질' 맡기려 비전문측근 정보수장 발탁했나",
-      "link": "https://www.yna.co.kr/view/AKR20260606003600072",
-      "source": "연합뉴스 국제",
-      "ts": 1780683559000,
-      "pub": "Sat, 6 Jun 2026 03:19:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "비트코인 한때 6만달러선 무너져…트럼프 2기 당선 후 처음",
-      "link": "https://www.yna.co.kr/view/AKR20260606003900091",
-      "source": "연합뉴스 국제",
-      "ts": 1780683367000,
-      "pub": "Sat, 6 Jun 2026 03:16:07 +0900",
       "sentiment": "neutral"
     },
     {

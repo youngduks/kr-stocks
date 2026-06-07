@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-06T23:55:31.261Z",
-  "count": 9,
+  "updated_at": "2026-06-07T02:29:22.654Z",
+  "count": 12,
   "items": [
+    {
+      "title": "현대硏 \"반도체 호황에 경기 회복 국면…'K자 양극화'는 우려\"",
+      "link": "https://www.yna.co.kr/view/AKR20260606043700002",
+      "source": "연합뉴스 경제",
+      "ts": 1780797604000,
+      "pub": "Sun, 7 Jun 2026 11:00:04 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "황승택 하나증권 센터장 \"장기투자한다면 AI 반도체·우주항공 유망\"",
+      "link": "https://www.hankyung.com/article/202606061037i",
+      "source": "한국경제",
+      "ts": 1780795901000,
+      "pub": "Sun, 07 Jun 2026 10:31:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"반도체 장비용 부품\" 아이코어, 딥테크·포스트 팁스 모두 선정",
+      "link": "https://www.mt.co.kr/future/2026/06/07/2026060515183026118",
+      "source": "머니투데이",
+      "ts": 1780791979000,
+      "pub": "Sun, 07 Jun 2026 09:26:19 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "임성재, PGA 투어 메모리얼 3R 20위…아쉬운 폭우 중단",
       "link": "https://www.yna.co.kr/view/AKR20260607010300007",
@@ -28,12 +52,12 @@
       "sentiment": "negative"
     },
     {
-      "title": "반도체 호황에도…OECD \"내년 韓 잠재성장률 사상 첫 1.5% 하회\"",
+      "title": "반도체 호황에도…OECD 내년 韓 잠재성장률 1.4%대 역대 최저",
       "link": "https://www.yna.co.kr/view/AKR20260606041400002",
       "source": "연합뉴스 경제",
       "ts": 1780779181000,
       "pub": "Sun, 7 Jun 2026 05:53:01 +0900",
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "title": "한국 1분기 성장률 OECD 2위…반도체 특수에 연 3%도 바라본다",

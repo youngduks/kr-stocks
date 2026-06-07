@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-06T23:55:31.258Z",
-  "count": 26,
+  "updated_at": "2026-06-07T02:29:22.651Z",
+  "count": 24,
   "items": [
+    {
+      "title": "'AI 역풍' 의식했나, 트럼프 \"AI기업 지분인수 검토…국민 혜택\"",
+      "link": "https://www.mt.co.kr/world/2026/06/07/2026060709275685695",
+      "source": "머니투데이",
+      "ts": 1780795996000,
+      "pub": "Sun, 07 Jun 2026 10:33:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "北김여정 \"미중, 비핵화 동의한 적 없어…핵보유국 지위 절대불퇴\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/07/2026060709072243904",
+      "source": "머니투데이",
+      "ts": 1780791877000,
+      "pub": "Sun, 07 Jun 2026 09:24:37 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 못 믿겠다…EU 가입 줄 서는 유럽",
       "link": "https://www.yna.co.kr/view/AKR20260605147500098",
@@ -169,38 +185,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780683367000,
       "pub": "Sat, 6 Jun 2026 03:16:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "모즈타바 최측근 \"트럼프가 37조 동결 해제로 협상교착 풀어야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260606003300071",
-      "source": "연합뉴스 국제",
-      "ts": 1780682532000,
-      "pub": "Sat, 6 Jun 2026 03:02:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, '시진핑 방북'에 \"미중 정상, '北비핵화' 공동목표 재확인\"",
-      "link": "https://www.yna.co.kr/view/AKR20260606002300071",
-      "source": "연합뉴스 국제",
-      "ts": 1780678988000,
-      "pub": "Sat, 6 Jun 2026 02:03:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "푸틴 \"젤렌스키 서한 무례, 만남 무의미…러군 계속하라\"",
-      "link": "https://www.yna.co.kr/view/AKR20260606001700108",
-      "source": "연합뉴스 국제",
-      "ts": 1780677107000,
-      "pub": "Sat, 6 Jun 2026 01:31:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"시진핑, 트럼프-김정은 만나게 해 북러밀착 약화하려 할 수도\"",
-      "link": "https://www.yna.co.kr/view/AKR20260606000500071",
-      "source": "연합뉴스 국제",
-      "ts": 1780673773000,
-      "pub": "Sat, 6 Jun 2026 00:36:13 +0900",
       "sentiment": "neutral"
     },
     {

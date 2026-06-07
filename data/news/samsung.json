@@ -1,6 +1,6 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-06T23:55:31.259Z",
+  "updated_at": "2026-06-07T02:29:22.653Z",
   "count": 4,
   "items": [
     {
@@ -12,20 +12,20 @@
       "sentiment": "neutral"
     },
     {
+      "title": "\"내 주식은 왜 이래?\"…삼전·LG 폭등 뒤 개미들 한숨 이유",
+      "link": "https://www.hankyung.com/article/2026060712067",
+      "source": "한국경제",
+      "ts": 1780787956000,
+      "pub": "Sun, 07 Jun 2026 08:19:16 +0900",
+      "sentiment": "positive"
+    },
+    {
       "title": "삼전닉스 '쏠림'에…코스피 오를 때 하락종목 더 많았다",
       "link": "https://www.yna.co.kr/view/AKR20260606031100008",
       "source": "연합뉴스 경제",
       "ts": 1780785300000,
       "pub": "Sun, 7 Jun 2026 07:35:00 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"어제 레버리지 샀더니…\" 삼전닉스 급락에 개미들 '멘붕'",
-      "link": "https://www.hankyung.com/article/2026060607267",
-      "source": "한국경제",
-      "ts": 1780719697000,
-      "pub": "Sat, 06 Jun 2026 13:21:37 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "[특징주] 삼전·닉스, 급락 마감…각각 6%·9%대 하락(종합)",

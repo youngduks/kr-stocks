@@ -4,6 +4,7 @@ import { PriceCard } from "@/components/PriceCard";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { HomeHero } from "@/components/HomeHero";
+import { PollWidget } from "@/components/PollWidget";
 import AffiliateStrip from "@/components/AffiliateStrip";
 
 export const revalidate = 120; // ISR 캐시 30s → 120s (Free tier 최적화, 5/25)
@@ -34,6 +35,15 @@ export default async function Home() {
 
         {/* Hero box — 한국주식 3종 미리보기 + 종목 상세 직접 CTA (USP 발견율 ↑) */}
         <HomeHero rows={data.symbols} locale="ko" />
+
+        {/* 인간지표 — 내일 상승/하락 투표 (NXT 프리장 오픈 전 마감) */}
+        <PollWidget
+          pollId="market-updown-2026-06-08"
+          title="인간지표 — 내일 상승 vs 하락"
+          question="6/8(월) 한국 증시, 오를까요 내릴까요?"
+          yesLabel="📈 상승"
+          noLabel="📉 하락"
+        />
 
         {grouped.map(({ cat, label, rows }) => (
           <section key={cat} className="mb-10">

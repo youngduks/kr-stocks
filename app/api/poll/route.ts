@@ -7,6 +7,8 @@ export const dynamic = "force-dynamic";
 // Poll registry. 5/21 09:00 KST = 5/21 00:00 UTC
 const POLLS: Record<string, { closedAt: string }> = {
   "samsung-strike-2026-05-21": { closedAt: "2026-05-21T00:00:00.000Z" },
+  // 인간지표 — 내일(6/8 월) 상승 vs 하락. 마감 = NXT 프리장 오픈 6/8 08:00 KST = 6/7 23:00 UTC
+  "market-updown-2026-06-08": { closedAt: "2026-06-07T23:00:00.000Z" },
 };
 
 function getClosedAt(pollId: string): string | null {

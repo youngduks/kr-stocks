@@ -46,10 +46,14 @@ export function PollWidget({
   pollId,
   title,
   question,
+  yesLabel = "👍 YES",
+  noLabel = "👎 NO",
 }: {
   pollId: string;
   title: string;
   question: string;
+  yesLabel?: string;
+  noLabel?: string;
 }) {
   const [result, setResult] = useState<PollResult | null>(null);
   const [loading, setLoading] = useState(false);
@@ -134,14 +138,14 @@ export function PollWidget({
             disabled={loading}
             className="rounded-lg border border-line bg-bg py-3 text-sm font-bold text-text disabled:opacity-50 hover:border-text-muted transition"
           >
-            👍 YES (타결한다)
+            {yesLabel}
           </button>
           <button
             onClick={() => castVote("no")}
             disabled={loading}
             className="rounded-lg border border-line bg-bg py-3 text-sm font-bold text-text disabled:opacity-50 hover:border-text-muted transition"
           >
-            👎 NO (안 한다)
+            {noLabel}
           </button>
         </div>
       )}
@@ -151,7 +155,7 @@ export function PollWidget({
           <div>
             <div className="flex items-center justify-between text-xs text-text-muted mb-1">
               <span className={voted === "yes" ? "font-bold text-text" : ""}>
-                👍 YES{voted === "yes" ? " (투표함)" : ""}
+                {yesLabel}{voted === "yes" ? " (투표함)" : ""}
               </span>
               <span>
                 {yesPct}% · {result.yes}표
@@ -167,7 +171,7 @@ export function PollWidget({
           <div>
             <div className="flex items-center justify-between text-xs text-text-muted mb-1">
               <span className={voted === "no" ? "font-bold text-text" : ""}>
-                👎 NO{voted === "no" ? " (투표함)" : ""}
+                {noLabel}{voted === "no" ? " (투표함)" : ""}
               </span>
               <span>
                 {noPct}% · {result.no}표

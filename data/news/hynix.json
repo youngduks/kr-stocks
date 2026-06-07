@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-07T11:44:26.942Z",
-  "count": 22,
+  "updated_at": "2026-06-07T13:17:30.409Z",
+  "count": 12,
   "items": [
     {
       "title": "\"더 많은 HBM 필요해!\"…또 열린 2차 '깐부회동' 분위기는?",
@@ -12,14 +12,6 @@
       "sentiment": "negative"
     },
     {
-      "title": "SK와 엔비디아, 내일 'AI 협력' 발표…젠슨 황 \"새 계획 세운다\"",
-      "link": "https://www.mt.co.kr/industry/2026/06/07/2026060720085637994",
-      "source": "머니투데이",
-      "ts": 1780831153000,
-      "pub": "Sun, 07 Jun 2026 20:19:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "AI 반도체 ETF 강세…고배당·금융주도 상승",
       "link": "https://www.hankyung.com/article/2026060716891",
       "source": "한국경제",
@@ -28,83 +20,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'오늘도 산타 모드' 젠슨 황은 치킨, 최태원은 식혜…\"More HBM\"",
-      "link": "https://www.mt.co.kr/industry/2026/06/07/2026060719261091556",
-      "source": "머니투데이",
-      "ts": 1780828227000,
-      "pub": "Sun, 07 Jun 2026 19:30:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'어게인 깐부' 젠슨 황, 최태원 또 만났다…몰려든 시민들 \"엔비디아 사랑해\"",
-      "link": "https://www.mt.co.kr/industry/2026/06/07/2026060718525916145",
-      "source": "머니투데이",
-      "ts": 1780826302000,
-      "pub": "Sun, 07 Jun 2026 18:58:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "엔비디아 올라탄 네이버…'AI 팩토리' 수출 본격화",
       "link": "https://www.hankyung.com/article/2026060717921",
       "source": "한국경제",
       "ts": 1780825020000,
       "pub": "Sun, 07 Jun 2026 18:37:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "크래프톤 장병규 \"엔비디아 AI PC칩 도입해 'PUBG 앨라이' 만든다\"",
-      "link": "https://www.mt.co.kr/tech/2026/06/07/2026060717300985076",
-      "source": "머니투데이",
-      "ts": 1780823261000,
-      "pub": "Sun, 07 Jun 2026 18:07:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[포토] '박정원 구단주와 포옹' 두산베어스 승요 도전한 엔비디아 젠슨황",
-      "link": "https://www.mt.co.kr/sports/2026/06/07/2026060717380422527",
-      "source": "머니투데이",
-      "ts": 1780821509000,
-      "pub": "Sun, 07 Jun 2026 17:38:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[포토] '고 코리아!' 두산베어스 승요 도전한 엔비디아 젠슨황",
-      "link": "https://www.mt.co.kr/sports/2026/06/07/2026060717364258066",
-      "source": "머니투데이",
-      "ts": 1780821440000,
-      "pub": "Sun, 07 Jun 2026 17:37:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[한번에쓱] 팬미팅 방불케하는 '잠실이 들썩' 두산베어스 승요 도전한 엔비디아 젠슨 황",
-      "link": "https://www.mt.co.kr/sports/2026/06/07/2026060717291895094",
-      "source": "머니투데이",
-      "ts": 1780821425000,
-      "pub": "Sun, 07 Jun 2026 17:37:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[포토] '잠실이 들썩' 두산베어스 승요 도전한 엔비디아 젠슨황",
-      "link": "https://www.mt.co.kr/sports/2026/06/07/2026060717362622197",
-      "source": "머니투데이",
-      "ts": 1780821403000,
-      "pub": "Sun, 07 Jun 2026 17:36:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[포토] '잠실이 들썩' 엔비디아 젠슨황",
-      "link": "https://www.mt.co.kr/sports/2026/06/07/2026060717360341134",
-      "source": "머니투데이",
-      "ts": 1780821388000,
-      "pub": "Sun, 07 Jun 2026 17:36:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[포토] '잠실이 들썩' 두산베어스 승요 도전한 엔비디아 젠슨황",
-      "link": "https://www.mt.co.kr/sports/2026/06/07/2026060717354495805",
-      "source": "머니투데이",
-      "ts": 1780821363000,
-      "pub": "Sun, 07 Jun 2026 17:36:03 +0900",
       "sentiment": "neutral"
     },
     {

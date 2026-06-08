@@ -1,8 +1,56 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-08T12:20:26.634Z",
-  "count": 6,
+  "updated_at": "2026-06-08T16:43:12.445Z",
+  "count": 12,
   "items": [
+    {
+      "title": "\"하루 만에 20% 날렸다\" 패닉…'삼전닉스' 급락에 '비상' [분석+]",
+      "link": "https://www.hankyung.com/article/2026060838606",
+      "source": "한국경제",
+      "ts": 1780923603000,
+      "pub": "Mon, 08 Jun 2026 22:00:03 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[단독] 테크윙 \"메모리 빅3에 HBM4 장비 납품\"",
+      "link": "https://www.hankyung.com/article/2026060840111",
+      "source": "한국경제",
+      "ts": 1780923542000,
+      "pub": "Mon, 08 Jun 2026 21:59:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'삼전닉스'도 무너졌는데…폭락장서 네이버만 웃은 이유 [종목+]",
+      "link": "https://www.hankyung.com/article/2026060839326",
+      "source": "한국경제",
+      "ts": 1780916402000,
+      "pub": "Mon, 08 Jun 2026 20:00:02 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'삼전닉스-엔비디아' 중장기 기술동맹 강화…\"더 큰 그림으로\"",
+      "link": "https://www.mt.co.kr/industry/2026/06/08/2026060819122933987",
+      "source": "머니투데이",
+      "ts": 1780916172000,
+      "pub": "Mon, 08 Jun 2026 19:56:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "전영현 \"젠슨 황과 좋은 얘기 많이 나눠\"…HBM4·파운드리 협력 강화",
+      "link": "https://www.mt.co.kr/industry/2026/06/08/2026060816032582779",
+      "source": "머니투데이",
+      "ts": 1780915025000,
+      "pub": "Mon, 08 Jun 2026 19:37:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스-엔비디아 '깐부동맹' 가속화..단순 공급 넘어 공동 개발까지",
+      "link": "https://www.mt.co.kr/industry/2026/06/08/2026060817285361633",
+      "source": "머니투데이",
+      "ts": 1780909201000,
+      "pub": "Mon, 08 Jun 2026 18:00:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "코스피 시총, 6천조원 초반으로↓…삼전도 글로벌 11위로 밀려",
       "link": "https://www.yna.co.kr/view/AKR20260608152700008",

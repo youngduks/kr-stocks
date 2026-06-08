@@ -1,10 +1,66 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-08T12:20:26.633Z",
-  "count": 32,
+  "updated_at": "2026-06-08T16:43:12.443Z",
+  "count": 40,
   "items": [
     {
-      "title": "트럼프,\"이스라엘·이란 즉각 총격 중단\"촉구…이란은 응답",
+      "title": "이스라엘 국방 \"헤즈볼라가 공격하면 베이루트 또 때릴 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260609000500079",
+      "source": "연합뉴스 국제",
+      "ts": 1780931747000,
+      "pub": "Tue, 9 Jun 2026 00:15:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "가상화폐거래소 FTX 창업자 뱅크먼-프리드, 트럼프에 사면 요청",
+      "link": "https://www.yna.co.kr/view/AKR20260609000400072",
+      "source": "연합뉴스 국제",
+      "ts": 1780931510000,
+      "pub": "Tue, 9 Jun 2026 00:11:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 '발포 중단' 요구 뒤 이란 \"이스라엘 작전 중지\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260608177051009",
+      "source": "연합뉴스 국제",
+      "ts": 1780930997000,
+      "pub": "Tue, 9 Jun 2026 00:03:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이스라엘, 대이란 공격 중단 결정…헤즈볼라와 교전은 계속\"",
+      "link": "https://www.yna.co.kr/view/AKR20260608181200079",
+      "source": "연합뉴스 국제",
+      "ts": 1780924978000,
+      "pub": "Mon, 8 Jun 2026 22:22:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘도 이란 공격 중단하기로…\"트럼프 요청 따른 것\"",
+      "link": "https://www.mt.co.kr/world/2026/06/08/2026060822053943897",
+      "source": "머니투데이",
+      "ts": 1780924764000,
+      "pub": "Mon, 08 Jun 2026 22:19:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프-네타냐후 통화…이스라엘, 이란 대응책 결론 못 내려\"",
+      "link": "https://www.yna.co.kr/view/AKR20260608179200079",
+      "source": "연합뉴스 국제",
+      "ts": 1780922576000,
+      "pub": "Mon, 8 Jun 2026 21:42:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란군 \"이스라엘 고통스럽게 응징…군사 작전 종료\"",
+      "link": "https://www.mt.co.kr/world/2026/06/08/2026060820581934534",
+      "source": "머니투데이",
+      "ts": 1780920754000,
+      "pub": "Mon, 08 Jun 2026 21:12:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프,\"이스라엘·이란 즉각 총격 중단\" 촉구…이란은 응답",
       "link": "https://www.hankyung.com/article/202606084368i",
       "source": "한국경제",
       "ts": 1780920119000,
@@ -44,6 +100,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "트럼프, 이스라엘·이란에 \"교전 즉시 멈춰라\"…\"양측 모두 휴전 원해\"",
+      "link": "https://www.mt.co.kr/world/2026/06/08/2026060820091020996",
+      "source": "머니투데이",
+      "ts": 1780917829000,
+      "pub": "Mon, 08 Jun 2026 20:23:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "트럼프 \"이스라엘·이란 즉각 '사격' 중단하라\" 촉구",
       "link": "https://www.hankyung.com/article/2026060843477",
       "source": "한국경제",
@@ -76,6 +140,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "인터뷰 도중 박차고 일어선 트럼프…\"당신 언론도 부정선거 알고 있다\"",
+      "link": "https://www.mt.co.kr/world/2026/06/08/2026060819080398314",
+      "source": "머니투데이",
+      "ts": 1780915108000,
+      "pub": "Mon, 08 Jun 2026 19:38:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "트럼프, 이스라엘·이란에 \"즉각 멈춰라\" 공습 자제 촉구",
       "link": "https://www.yna.co.kr/view/AKR20260608171100009",
       "source": "연합뉴스 국제",
@@ -97,14 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780912613000,
       "pub": "Mon, 8 Jun 2026 18:56:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이스라엘·이란, '사격' 즉각 중단해야\"",
-      "link": "https://www.hankyung.com/article/2026060842537",
-      "source": "한국경제",
-      "ts": 1780912328000,
-      "pub": "Mon, 08 Jun 2026 18:52:08 +0900",
       "sentiment": "neutral"
     },
     {
@@ -137,6 +201,22 @@
       "source": "연합뉴스 국제",
       "ts": 1780908219000,
       "pub": "Mon, 8 Jun 2026 17:43:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 하메네이 암살에 놀란 푸틴? 러, 경호체계 전면 점검",
+      "link": "https://www.mt.co.kr/world/2026/06/08/2026060816201812235",
+      "source": "머니투데이",
+      "ts": 1780908118000,
+      "pub": "Mon, 08 Jun 2026 17:41:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "외교부, 美 국무부 인권담당 차관보 면담…\"인권 증진 노력 공유\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/08/2026060817151883399",
+      "source": "머니투데이",
+      "ts": 1780907527000,
+      "pub": "Mon, 08 Jun 2026 17:32:07 +0900",
       "sentiment": "neutral"
     },
     {
@@ -242,22 +322,6 @@
       "ts": 1780899475000,
       "pub": "Mon, 8 Jun 2026 15:17:55 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘, 이란 군사시설 보복 타격…테헤란 등에 폭발음",
-      "link": "https://www.yna.co.kr/view/AKR20260608072500009",
-      "source": "연합뉴스 국제",
-      "ts": 1780884367000,
-      "pub": "Mon, 8 Jun 2026 11:06:07 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[속보] 이스라엘군 \"이란 서부·중부 표적 공습\"…테헤란 등 폭발음",
-      "link": "https://www.yna.co.kr/view/AKR20260608068600009",
-      "source": "연합뉴스 국제",
-      "ts": 1780882760000,
-      "pub": "Mon, 8 Jun 2026 10:39:20 +0900",
-      "sentiment": "negative"
     }
   ]
 }

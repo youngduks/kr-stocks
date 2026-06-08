@@ -1,15 +1,23 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-06-08T12:20:26.636Z",
-  "count": 1,
+  "updated_at": "2026-06-08T16:43:12.447Z",
+  "count": 2,
   "items": [
     {
-      "title": "이순남 \"위기 때마다 등판한 정의선…기아 살린 브랜드 혁신\"",
-      "link": "https://www.hankyung.com/article/2026060841261",
-      "source": "한국경제",
-      "ts": 1780911749000,
-      "pub": "Mon, 08 Jun 2026 18:42:29 +0900",
-      "sentiment": "negative"
+      "title": "'케미' 돋보인 정의선-젠슨 황..평냉 대접하고 '새만금 AI밸리' 투자 제안",
+      "link": "https://www.mt.co.kr/industry/2026/06/08/2026060817032482561",
+      "source": "머니투데이",
+      "ts": 1780908600000,
+      "pub": "Mon, 08 Jun 2026 17:50:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정의선이 제안한 새만금 프로젝트, 젠슨 황은 'AI 밸리'라고 불렀다",
+      "link": "https://www.mt.co.kr/industry/2026/06/08/2026060816464066630",
+      "source": "머니투데이",
+      "ts": 1780907792000,
+      "pub": "Mon, 08 Jun 2026 17:36:32 +0900",
+      "sentiment": "neutral"
     }
   ]
 }

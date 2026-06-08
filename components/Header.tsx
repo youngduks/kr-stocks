@@ -130,7 +130,7 @@ function PageNav() {
           <Link
             href={t.href as any}
             aria-current={t.active ? "page" : undefined}
-            className={`px-2 sm:px-2.5 py-1 rounded-md transition font-semibold ${
+            className={`px-2 sm:px-2.5 py-1 rounded-md transition font-semibold whitespace-nowrap ${
               t.active
                 ? "bg-bg-card text-text border border-line"
                 : "text-text-dim hover:text-text hover:bg-bg-card/50 border border-transparent"
@@ -175,14 +175,16 @@ export function Header({ fxRate, fxChange }: { fxRate: number; fxChange: number 
           </div>
         </div>
 
-        {/* Row 2: 페이지 네비 (좌측) + 검색 / 테마 / 언어 토글 (우측) */}
-        <div className="mt-2 flex items-center justify-between gap-3">
+        {/* Row 2: 페이지 네비 — 한 줄 풀폭 (탭이 두 줄로 깨지지 않게) */}
+        <div className="mt-2">
           <PageNav />
-          <div className="flex items-center gap-1 sm:gap-2 shrink-0">
-            <SearchPalette />
-            <ThemeToggle />
-            <LangToggle />
-          </div>
+        </div>
+
+        {/* Row 3: 검색 / 테마 / 언어 토글 — 별도 줄, 우측 정렬 */}
+        <div className="mt-2 flex items-center justify-end gap-1 sm:gap-2">
+          <SearchPalette />
+          <ThemeToggle />
+          <LangToggle />
         </div>
       </div>
     </header>

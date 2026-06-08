@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 type PollChoice = "yes" | "no";
 type PollResult = {
@@ -48,12 +49,14 @@ export function PollWidget({
   question,
   yesLabel = "👍 YES",
   noLabel = "👎 NO",
+  historyHref,
 }: {
   pollId: string;
   title: string;
   question: string;
   yesLabel?: string;
   noLabel?: string;
+  historyHref?: string;
 }) {
   const [result, setResult] = useState<PollResult | null>(null);
   const [loading, setLoading] = useState(false);
@@ -193,6 +196,15 @@ export function PollWidget({
       )}
 
       {err && <div className="text-[11px] text-red-500 mt-2">{err}</div>}
+
+      {historyHref && (
+        <Link
+          href={historyHref as any}
+          className="mt-3 inline-block text-[11px] text-text-dim hover:text-text-muted transition"
+        >
+          📊 지난 투표 결과 · 적중률 보기 →
+        </Link>
+      )}
     </div>
   );
 }

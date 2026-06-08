@@ -14,6 +14,8 @@ const I18N = {
       "삼성전자 · SK하이닉스 · 현대차 13~14개 증권사 평균 목표가 + 상승여력",
     newsTitle: "뉴스룸",
     newsDesc: "국제정세 · 삼성전자 · SK하이닉스 · 현대차 — 한경/머투/연합 30분 단위 필터링",
+    pollTitle: "인간지표 — 개미 투표 vs 실제 결과",
+    pollDesc: "내일 상승/하락 집단예측 vs 실제 결과 · 적중률 공개",
     guideTitle: "한국에서 Hyperliquid 거래하는 법",
     guideDesc: "비상장 빅테크 + 한국주식 야간 perp 단계별 안내",
     guideBinanceTitle: "바이낸스에서 한국주식 거래하는 법",
@@ -27,6 +29,7 @@ const I18N = {
     copyrightSuffix: "Not investment advice.",
     consensusHref: "/consensus",
     newsHref: "/news",
+    pollHref: "/poll",
     guideHref: "/guide/hyperliquid-onramp",
     guideBinanceHref: "/guide/binance-korea-stocks",
     mailtoSubject: "[광고문의] kr-stocks.com",
@@ -44,6 +47,8 @@ const I18N = {
       "Samsung · SK Hynix · Hyundai — 13~14 Korean broker avg target & upside",
     newsTitle: "Newsroom",
     newsDesc: "Global politics · Samsung · SK Hynix · Hyundai — auto-aggregated from KR media every 30 min",
+    pollTitle: "Sentiment — Crowd Vote vs Reality",
+    pollDesc: "Retail up/down crowd prediction vs actual market result · hit-rate",
     guideTitle: "How to trade Hyperliquid from Korea",
     guideDesc:
       "Step-by-step onramp for private big tech + Korean stock overnight perps",
@@ -59,6 +64,7 @@ const I18N = {
     copyrightSuffix: "Not investment advice.",
     consensusHref: "/en/consensus",
     newsHref: "/news",
+    pollHref: "/poll",
     guideHref: "/en/guide/hyperliquid-onramp",
     guideBinanceHref: "/en/guide/binance-korea-stocks",
     mailtoSubject: "[Ad Inquiry] kr-stocks.com",
@@ -124,6 +130,16 @@ export function Footer({ locale = "ko" }: { locale?: Locale } = {}) {
               {t.newsTitle}
             </Link>{" "}
             — {t.newsDesc}
+          </li>
+          <li>
+            •{" "}
+            <Link
+              href={t.pollHref as any}
+              className="text-accent-blue hover:underline"
+            >
+              {t.pollTitle}
+            </Link>{" "}
+            — {t.pollDesc}
           </li>
           <li>
             •{" "}

@@ -105,23 +105,26 @@ function PageNav() {
   const isConsensus = pathname === "/consensus" || pathname === "/en/consensus";
   const isNews = pathname === "/news" || pathname.startsWith("/news/");
   const isGuide = pathname.includes("/guide/");
-  const isPrices = !isConsensus && !isNews && !isGuide;
+  const isPoll = pathname === "/poll" || pathname.startsWith("/poll/") || pathname === "/en/poll";
+  const isPrices = !isConsensus && !isNews && !isGuide && !isPoll;
 
   // locale에 맞는 href (뉴스룸은 현재 한국어 only — EN에서도 /news로 fallback)
   const home = isEn ? "/en" : "/";
   const consensus = isEn ? "/en/consensus" : "/consensus";
   const news = "/news";
+  const poll = "/poll";
   const guide = isEn ? "/en/guide/binance-korea-stocks" : "/guide/binance-korea-stocks";
 
   const tabs: Array<{ key: string; href: string; ko: string; en: string; active: boolean }> = [
     { key: "prices", href: home, ko: "주가", en: "Prices", active: isPrices },
     { key: "consensus", href: consensus, ko: "증권사 분석", en: "Consensus", active: isConsensus },
     { key: "news", href: news, ko: "뉴스", en: "News", active: isNews },
+    { key: "poll", href: poll, ko: "인간지표", en: "Poll", active: isPoll },
     { key: "guide", href: guide, ko: "가이드", en: "Guide", active: isGuide },
   ];
 
   return (
-    <nav className="inline-flex items-center gap-0.5 sm:gap-1 text-xs sm:text-sm tabular shrink-0">
+    <nav className="flex items-center gap-0.5 sm:gap-1 text-xs sm:text-sm tabular min-w-0 overflow-x-auto">
       {tabs.map((t, i) => (
         <span key={t.key} className="flex items-center">
           <Link
@@ -175,7 +178,7 @@ export function Header({ fxRate, fxChange }: { fxRate: number; fxChange: number 
         {/* Row 2: 페이지 네비 (좌측) + 검색 / 테마 / 언어 토글 (우측) */}
         <div className="mt-2 flex items-center justify-between gap-3">
           <PageNav />
-          <div className="flex items-center gap-1 sm:gap-2">
+          <div className="flex items-center gap-1 sm:gap-2 shrink-0">
             <SearchPalette />
             <ThemeToggle />
             <LangToggle />

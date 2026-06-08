@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-08T19:14:15.862Z",
-  "count": 11,
+  "updated_at": "2026-06-08T21:41:13.554Z",
+  "count": 10,
   "items": [
+    {
+      "title": "\"삼전닉스 끝난거 아니냐\" 공포…전문가 \"비중 늘릴 기회\"",
+      "link": "https://www.hankyung.com/article/2026060841141",
+      "source": "한국경제",
+      "ts": 1780952409000,
+      "pub": "Tue, 09 Jun 2026 06:00:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 손잡은 엔비디아…AI 동맹 '더 큰 그림' 그린다",
+      "link": "https://www.mt.co.kr/industry/2026/06/09/2026060820283053434",
+      "source": "머니투데이",
+      "ts": 1780952400000,
+      "pub": "Tue, 09 Jun 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"하루 만에 20% 날렸다\" 패닉…'삼전닉스' 급락에 '비상' [분석+]",
       "link": "https://www.hankyung.com/article/2026060838606",
@@ -26,22 +42,6 @@
       "ts": 1780916402000,
       "pub": "Mon, 08 Jun 2026 20:00:02 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "'삼전닉스-엔비디아' 중장기 기술동맹 강화…\"더 큰 그림으로\"",
-      "link": "https://www.mt.co.kr/industry/2026/06/08/2026060819122933987",
-      "source": "머니투데이",
-      "ts": 1780916172000,
-      "pub": "Mon, 08 Jun 2026 19:56:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "전영현 \"젠슨 황과 좋은 얘기 많이 나눠\"…HBM4·파운드리 협력 강화",
-      "link": "https://www.mt.co.kr/industry/2026/06/08/2026060816032582779",
-      "source": "머니투데이",
-      "ts": 1780915025000,
-      "pub": "Mon, 08 Jun 2026 19:37:05 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "코스피 시총, 6천조원 초반으로↓…삼전도 글로벌 11위로 밀려",
@@ -82,14 +82,6 @@
       "ts": 1780882373000,
       "pub": "Mon, 8 Jun 2026 10:32:53 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스·코스피 급락, 반도체 피크아웃?…전문가 \"저가매수 기회\"",
-      "link": "https://www.yna.co.kr/view/AKR20260608059800008",
-      "source": "연합뉴스 경제",
-      "ts": 1780881978000,
-      "pub": "Mon, 8 Jun 2026 10:26:18 +0900",
-      "sentiment": "negative"
     }
   ]
 }

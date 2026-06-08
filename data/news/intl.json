@@ -1,30 +1,70 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-08T19:14:15.860Z",
-  "count": 45,
+  "updated_at": "2026-06-08T21:41:13.552Z",
+  "count": 44,
   "items": [
     {
-      "title": "지표·전문가는 '美금리인상' 가리켰다… 16일 FOMC 주목",
-      "link": "https://www.mt.co.kr/world/2026/06/09/2026060820170684643",
-      "source": "머니투데이",
-      "ts": 1780945380000,
-      "pub": "Tue, 09 Jun 2026 04:03:00 +0900",
+      "title": "트럼프, 법무장관에 본인 형사사건 변호인 출신 블랜치 지명(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260609006451071",
+      "source": "연합뉴스 국제",
+      "ts": 1780952538000,
+      "pub": "Tue, 9 Jun 2026 06:02:18 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"금리 내려야\"… 워시 데뷔전 압박",
-      "link": "https://www.mt.co.kr/world/2026/06/09/2026060820190659726",
+      "title": "이스라엘·이란 '공격 중단'에 한숨 돌린 증시…반도체주 급반등[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/06/09/2026060905414768932",
       "source": "머니투데이",
-      "ts": 1780945320000,
-      "pub": "Tue, 09 Jun 2026 04:02:00 +0900",
+      "ts": 1780951499000,
+      "pub": "Tue, 09 Jun 2026 05:44:59 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 'H-1B 비자 10만달러 수수료' 제동…美법원, 첫 무효 판결",
-      "link": "https://www.mt.co.kr/world/2026/06/09/2026060903070294574",
+      "title": "美상원 유권자법 발목에 트럼프 발끈…\"의사규칙 담당관 잘라야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260609007600071",
+      "source": "연합뉴스 국제",
+      "ts": 1780950859000,
+      "pub": "Tue, 9 Jun 2026 05:34:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美법무장관에 트럼프 변호인 출신 인사 임명",
+      "link": "https://www.mt.co.kr/world/2026/06/09/2026060905100358672",
       "source": "머니투데이",
-      "ts": 1780942206000,
-      "pub": "Tue, 09 Jun 2026 03:10:06 +0900",
+      "ts": 1780949502000,
+      "pub": "Tue, 09 Jun 2026 05:11:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 법무장관에 본인 형사사건 변호인 출신 블랜치 지명",
+      "link": "https://www.yna.co.kr/view/AKR20260609006400071",
+      "source": "연합뉴스 국제",
+      "ts": 1780948793000,
+      "pub": "Tue, 9 Jun 2026 04:59:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'닉스 팬' 트럼프, 파이널 3차전 뜬다... 경호원·철조망 깔린 뉴욕, 대통령 직관 소식에 거리 봉쇄",
+      "link": "https://www.mt.co.kr/sports/2026/06/09/2026060903055021310",
+      "source": "머니투데이",
+      "ts": 1780948790000,
+      "pub": "Tue, 09 Jun 2026 04:59:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 케네디센터, 법원 명령에 '트럼프' 이름 철거 착수",
+      "link": "https://www.yna.co.kr/view/AKR20260609006300071",
+      "source": "연합뉴스 국제",
+      "ts": 1780948522000,
+      "pub": "Tue, 9 Jun 2026 04:55:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프, 법무장관 후보로 본인 변호인 출신 블랜치 지명",
+      "link": "https://www.yna.co.kr/view/AKR20260609006000071",
+      "source": "연합뉴스 국제",
+      "ts": 1780947916000,
+      "pub": "Tue, 9 Jun 2026 04:45:16 +0900",
       "sentiment": "neutral"
     },
     {
@@ -50,14 +90,6 @@
       "ts": 1780938795000,
       "pub": "Tue, 9 Jun 2026 02:13:15 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "트럼프 \"발포 중단\" 압박에…이스라엘·이란 상호공격 중지 선언",
-      "link": "https://www.mt.co.kr/world/2026/06/09/2026060902034335005",
-      "source": "머니투데이",
-      "ts": 1780938316000,
-      "pub": "Tue, 09 Jun 2026 02:05:16 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "이스라엘 국방 \"헤즈볼라가 공격하면 베이루트 또 때릴 것\"",
@@ -92,27 +124,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "이스라엘도 이란 공격 중단하기로…\"트럼프 요청 따른 것\"",
-      "link": "https://www.mt.co.kr/world/2026/06/08/2026060822053943897",
-      "source": "머니투데이",
-      "ts": 1780924764000,
-      "pub": "Mon, 08 Jun 2026 22:19:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"트럼프-네타냐후 통화…이스라엘, 이란 대응책 결론 못 내려\"",
       "link": "https://www.yna.co.kr/view/AKR20260608179200079",
       "source": "연합뉴스 국제",
       "ts": 1780922576000,
       "pub": "Mon, 8 Jun 2026 21:42:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란군 \"이스라엘 고통스럽게 응징…군사 작전 종료\"",
-      "link": "https://www.mt.co.kr/world/2026/06/08/2026060820581934534",
-      "source": "머니투데이",
-      "ts": 1780920754000,
-      "pub": "Mon, 08 Jun 2026 21:12:34 +0900",
       "sentiment": "neutral"
     },
     {
@@ -156,14 +172,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 이스라엘·이란에 \"교전 즉시 멈춰라\"…\"양측 모두 휴전 원해\"",
-      "link": "https://www.mt.co.kr/world/2026/06/08/2026060820091020996",
-      "source": "머니투데이",
-      "ts": 1780917829000,
-      "pub": "Mon, 08 Jun 2026 20:23:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"이스라엘·이란 즉각 '사격' 중단하라\" 촉구",
       "link": "https://www.hankyung.com/article/2026060843477",
       "source": "한국경제",
@@ -193,14 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780916633000,
       "pub": "Mon, 8 Jun 2026 20:03:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "인터뷰 도중 박차고 일어선 트럼프…\"당신 언론도 부정선거 알고 있다\"",
-      "link": "https://www.mt.co.kr/world/2026/06/08/2026060819080398314",
-      "source": "머니투데이",
-      "ts": 1780915108000,
-      "pub": "Mon, 08 Jun 2026 19:38:28 +0900",
       "sentiment": "neutral"
     },
     {
@@ -354,14 +354,6 @@
       "ts": 1780902116000,
       "pub": "Mon, 8 Jun 2026 16:01:56 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "트럼프 1기 안보보좌관 볼턴 \"이란과 잘못된 협상, 핵경쟁 촉발\"",
-      "link": "https://www.yna.co.kr/view/AKR20260608131700009",
-      "source": "연합뉴스 국제",
-      "ts": 1780899475000,
-      "pub": "Mon, 8 Jun 2026 15:17:55 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-08T07:26:22.212Z",
-  "count": 7,
+  "updated_at": "2026-06-08T12:20:26.634Z",
+  "count": 6,
   "items": [
+    {
+      "title": "코스피 시총, 6천조원 초반으로↓…삼전도 글로벌 11위로 밀려",
+      "link": "https://www.yna.co.kr/view/AKR20260608152700008",
+      "source": "연합뉴스 경제",
+      "ts": 1780905661000,
+      "pub": "Mon, 8 Jun 2026 17:01:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼전닉스 급락, 반도체 피크아웃?…전문가 \"저가매수 기회\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260608059851008",
@@ -17,22 +25,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780900922000,
       "pub": "Mon, 8 Jun 2026 15:42:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "KB운용, 삼전닉스 절반 담은 채권 혼합 공모펀드 출시",
-      "link": "https://www.mt.co.kr/stock/2026/06/08/2026060814353354122",
-      "source": "머니투데이",
-      "ts": 1780900902000,
-      "pub": "Mon, 08 Jun 2026 15:41:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'삼전닉스 볼모' 레미콘운송노조…수도권 믹서트럭 1만대 멈췄다",
-      "link": "https://www.mt.co.kr/living/2026/06/08/2026060811204746664",
-      "source": "머니투데이",
-      "ts": 1780899591000,
-      "pub": "Mon, 08 Jun 2026 15:19:51 +0900",
       "sentiment": "neutral"
     },
     {

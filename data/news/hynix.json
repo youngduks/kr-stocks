@@ -1,14 +1,38 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-08T07:26:22.213Z",
-  "count": 14,
+  "updated_at": "2026-06-08T12:20:26.635Z",
+  "count": 12,
   "items": [
     {
-      "title": "반도체주 나흘만에 주가 25% 떨어졌는데…증권가 \"싸게 살 기회\"",
-      "link": "https://www.mt.co.kr/stock/2026/06/08/2026060815443273596",
-      "source": "머니투데이",
-      "ts": 1780903471000,
-      "pub": "Mon, 08 Jun 2026 16:24:31 +0900",
+      "title": "[속보] 전영현 \"젠슨 황과 중장기적 반도체 공동 개발 등 좋은 이야기\"",
+      "link": "https://www.hankyung.com/article/2026060842677",
+      "source": "한국경제",
+      "ts": 1780912642000,
+      "pub": "Mon, 08 Jun 2026 18:57:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"조선·건설·반도체·AI 선도\"…이달의 엔지니어상 6인 수상",
+      "link": "https://www.hankyung.com/article/2026060841301",
+      "source": "한국경제",
+      "ts": 1780911613000,
+      "pub": "Mon, 08 Jun 2026 18:40:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"15% 떨어져야 했는데 50% 폭등\"…SK하이닉스레버리지에 무슨 일이",
+      "link": "https://www.hankyung.com/article/202606084202i",
+      "source": "한국경제",
+      "ts": 1780911488000,
+      "pub": "Mon, 08 Jun 2026 18:38:08 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "하이닉스 8% 떨어졌는데…ACE단일종목 레버리지 50%↑'이상거래'(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260608146651008",
+      "source": "연합뉴스 경제",
+      "ts": 1780906498000,
+      "pub": "Mon, 8 Jun 2026 17:14:58 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,44 +52,12 @@
       "sentiment": "negative"
     },
     {
-      "title": "국산 AI 반도체 기업, 중동 공략 속도낸다",
-      "link": "https://www.hankyung.com/article/2026060827321",
-      "source": "한국경제",
-      "ts": 1780901873000,
-      "pub": "Mon, 08 Jun 2026 15:57:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "삼전닉스 급락, 반도체 피크아웃?…전문가 \"저가매수 기회\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260608059851008",
       "source": "연합뉴스 경제",
       "ts": 1780901735000,
       "pub": "Mon, 8 Jun 2026 15:55:35 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "[속보] 젠슨 황 엔비디아 CEO, 성남 네이버 본사 도착",
-      "link": "https://www.hankyung.com/article/2026060837307",
-      "source": "한국경제",
-      "ts": 1780901467000,
-      "pub": "Mon, 08 Jun 2026 15:51:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "구광모가 키운 AI, 엔비디아 협력으로 '날개'",
-      "link": "https://www.mt.co.kr/industry/2026/06/08/2026060813542067454",
-      "source": "머니투데이",
-      "ts": 1780900800000,
-      "pub": "Mon, 08 Jun 2026 15:40:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI 반도체 그 이후 기회는…벤처시장 인사이트 쏟아진 '벤처포럼'",
-      "link": "https://www.mt.co.kr/future/2026/06/08/2026060814010058946",
-      "source": "머니투데이",
-      "ts": 1780900200000,
-      "pub": "Mon, 08 Jun 2026 15:30:00 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "반도체발 급락에 코스피·코스닥, 잇단 서킷브레이커(종합2보)",
@@ -106,14 +98,6 @@
       "ts": 1780881978000,
       "pub": "Mon, 8 Jun 2026 10:26:18 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "반도체 업체 마벨, 이달말 S&P 500 지수 편입",
-      "link": "https://www.yna.co.kr/view/AKR20260608048800009",
-      "source": "연합뉴스 국제",
-      "ts": 1780879766000,
-      "pub": "Mon, 8 Jun 2026 09:49:26 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

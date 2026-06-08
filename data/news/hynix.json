@@ -1,8 +1,48 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-08T21:41:13.554Z",
-  "count": 16,
+  "updated_at": "2026-06-08T23:06:34.455Z",
+  "count": 20,
   "items": [
+    {
+      "title": "'유출 사고' 딛고 일어선 SK텔레콤…엔비디아 손잡고 '10만 텔레콤' 굳히나",
+      "link": "https://www.hankyung.com/article/202606083446i",
+      "source": "한국경제",
+      "ts": 1780959155000,
+      "pub": "Tue, 09 Jun 2026 07:52:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "기술주 반등에 美증시 상승…반도체주 급등",
+      "link": "https://www.hankyung.com/article/202606094609i",
+      "source": "한국경제",
+      "ts": 1780958376000,
+      "pub": "Tue, 09 Jun 2026 07:39:36 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "반도체 반등에 나스닥 0.9% 올랐지만…다우 소폭 하락 [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026060946316",
+      "source": "한국경제",
+      "ts": 1780958260000,
+      "pub": "Tue, 09 Jun 2026 07:37:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이러다 반도체 공사 멈출라\"…삼성·SK도 '초긴장' 하는 이유",
+      "link": "https://www.hankyung.com/article/2026060841001",
+      "source": "한국경제",
+      "ts": 1780956005000,
+      "pub": "Tue, 09 Jun 2026 07:00:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[시선강탈] 일진전기 vs 삼성전기 vs SK하이닉스, 공략법은?",
+      "link": "https://www.mt.co.kr/stock/2026/06/09/2026060900017058437",
+      "source": "머니투데이",
+      "ts": 1780955736000,
+      "pub": "Tue, 09 Jun 2026 06:55:36 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "SK하이닉스 임단협 이달 개시…\"내외부 상황 고려해 잘 대처하자\"",
       "link": "https://www.hankyung.com/article/2026060945507",
@@ -25,14 +65,6 @@
       "source": "머니투데이",
       "ts": 1780951499000,
       "pub": "Tue, 09 Jun 2026 05:44:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SKT·네이버 찾은 젠슨황, 엔비디아 생태계로 韓 기업과 결속 노린다",
-      "link": "https://www.mt.co.kr/tech/2026/06/09/2026060820164892773",
-      "source": "머니투데이",
-      "ts": 1780946280000,
-      "pub": "Tue, 09 Jun 2026 04:18:00 +0900",
       "sentiment": "neutral"
     },
     {

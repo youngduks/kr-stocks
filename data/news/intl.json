@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-08T21:41:13.552Z",
-  "count": 44,
+  "updated_at": "2026-06-08T23:06:34.452Z",
+  "count": 36,
   "items": [
+    {
+      "title": "트럼프 \"네타냐후에 조심하지 않으면 혼자 남을 거라 했다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260609014100071",
+      "source": "연합뉴스 국제",
+      "ts": 1780957928000,
+      "pub": "Tue, 9 Jun 2026 07:32:08 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 법무장관에 본인 형사사건 변호인 출신 블랜치 지명(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260609006451071",
@@ -132,22 +140,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프,\"이스라엘·이란 즉각 총격 중단\" 촉구…이란은 응답",
-      "link": "https://www.hankyung.com/article/202606084368i",
-      "source": "한국경제",
-      "ts": 1780920119000,
-      "pub": "Mon, 08 Jun 2026 21:01:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란군 \"작전 중지\" 선언…트럼프 요구 1시간 만에 발표",
-      "link": "https://www.hankyung.com/article/2026060843657",
-      "source": "한국경제",
-      "ts": 1780919579000,
-      "pub": "Mon, 08 Jun 2026 20:52:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 '발포 중단' 요구 뒤…이란군 \"이스라엘 작전 중지\"",
       "link": "https://www.yna.co.kr/view/AKR20260608177000009",
       "source": "연합뉴스 국제",
@@ -157,26 +149,10 @@
     },
     {
       "title": "[속보] 이란군 \"이스라엘 대응 작전 중단…목적 달성\"",
-      "link": "https://www.hankyung.com/article/2026060843547",
-      "source": "한국경제",
-      "ts": 1780918006000,
-      "pub": "Mon, 08 Jun 2026 20:26:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 이란군 \"이스라엘 대응 작전 중단…목적 달성\"",
       "link": "https://www.yna.co.kr/view/AKR20260608176800009",
       "source": "연합뉴스 국제",
       "ts": 1780917894000,
       "pub": "Mon, 8 Jun 2026 20:24:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이스라엘·이란 즉각 '사격' 중단하라\" 촉구",
-      "link": "https://www.hankyung.com/article/2026060843477",
-      "source": "한국경제",
-      "ts": 1780917439000,
-      "pub": "Mon, 08 Jun 2026 20:17:19 +0900",
       "sentiment": "neutral"
     },
     {
@@ -314,46 +290,6 @@
       "ts": 1780904607000,
       "pub": "Mon, 8 Jun 2026 16:43:27 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "이란 \"美·이스라엘, 이란 공격 조율…불화설은 의문\"",
-      "link": "https://www.yna.co.kr/view/AKR20260608151600009",
-      "source": "연합뉴스 국제",
-      "ts": 1780904295000,
-      "pub": "Mon, 8 Jun 2026 16:38:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] 이름은 '댄서', 성능은 '무자비'…러 드론 잡는 우크라 비밀병기",
-      "link": "https://www.yna.co.kr/view/AKR20260608146200704",
-      "source": "연합뉴스 국제",
-      "ts": 1780903352000,
-      "pub": "Mon, 8 Jun 2026 16:22:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "다시 화염 휩싸인 이스라엘-이란…종전협상 최대위기",
-      "link": "https://www.yna.co.kr/view/AKR20260608143000009",
-      "source": "연합뉴스 국제",
-      "ts": 1780902777000,
-      "pub": "Mon, 8 Jun 2026 16:12:57 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[영상] 빨라진 러 자폭 드론 잡는다…우크라 AI 요격 드론 '댄서' 공개",
-      "link": "https://www.yna.co.kr/view/AKR20260608140600704",
-      "source": "연합뉴스 국제",
-      "ts": 1780902261000,
-      "pub": "Mon, 8 Jun 2026 16:04:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "英여당, 이스라엘 정착촌 사업 비판…정부에 제재 촉구",
-      "link": "https://www.yna.co.kr/view/AKR20260608118000009",
-      "source": "연합뉴스 국제",
-      "ts": 1780902116000,
-      "pub": "Mon, 8 Jun 2026 16:01:56 +0900",
-      "sentiment": "negative"
     }
   ]
 }

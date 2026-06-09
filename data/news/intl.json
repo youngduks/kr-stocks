@@ -1,15 +1,47 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-09T10:26:18.185Z",
-  "count": 21,
+  "updated_at": "2026-06-09T13:35:53.034Z",
+  "count": 24,
   "items": [
     {
-      "title": "트럼프 \"네타냐후에 이란 재공격시 '혼자가 될 수 있다' 경고\"",
-      "link": "https://www.mt.co.kr/world/2026/06/09/2026060918012491406",
-      "source": "머니투데이",
-      "ts": 1781000622000,
-      "pub": "Tue, 09 Jun 2026 19:23:42 +0900",
-      "sentiment": "negative"
+      "title": "영국·프랑스 등 6개국, 이스라엘 극우 장관 등 입국 금지",
+      "link": "https://www.yna.co.kr/view/AKR20260609172100081",
+      "source": "연합뉴스 국제",
+      "ts": 1781010782000,
+      "pub": "Tue, 9 Jun 2026 22:13:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'친러' 불가리아 새 정부, 우크라 무기 지원 중단 방침",
+      "link": "https://www.yna.co.kr/view/AKR20260609170800109",
+      "source": "연합뉴스 국제",
+      "ts": 1781008515000,
+      "pub": "Tue, 9 Jun 2026 21:35:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"강력한 합의할 것…이란 핵무기 불허\"",
+      "link": "https://www.yna.co.kr/view/AKR20260609168800009",
+      "source": "연합뉴스 국제",
+      "ts": 1781006809000,
+      "pub": "Tue, 9 Jun 2026 21:06:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 전쟁 종식 2~3일 내 합의\"…믿을 수 있나",
+      "link": "https://www.hankyung.com/article/202606096771i",
+      "source": "한국경제",
+      "ts": 1781005137000,
+      "pub": "Tue, 09 Jun 2026 20:38:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 2~3일 내 매우 훌륭한 합의 이룰 것\"",
+      "link": "https://www.hankyung.com/article/2026060967117",
+      "source": "한국경제",
+      "ts": 1781002871000,
+      "pub": "Tue, 09 Jun 2026 20:01:11 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "[포토] 케네디 센터서 '트럼프' 이름 뺀다",
@@ -161,14 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780964561000,
       "pub": "Tue, 9 Jun 2026 09:22:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"네타냐후에 조심하지 않으면 혼자 남을 거라 했다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260609014100071",
-      "source": "연합뉴스 국제",
-      "ts": 1780957928000,
-      "pub": "Tue, 9 Jun 2026 07:32:08 +0900",
       "sentiment": "neutral"
     }
   ]

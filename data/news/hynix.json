@@ -1,15 +1,23 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-09T10:26:18.188Z",
-  "count": 11,
+  "updated_at": "2026-06-09T13:35:53.036Z",
+  "count": 8,
   "items": [
     {
-      "title": "[급등수사본부] 엔비디아와 피지컬 AI 협력 기대 고조 '현대차' vs 메모리 3사에 반도체 테스트 장비 공급 '테크윙'",
-      "link": "https://www.mt.co.kr/stock/2026/06/09/2026060918577055768",
-      "source": "머니투데이",
-      "ts": 1781000255000,
-      "pub": "Tue, 09 Jun 2026 19:17:35 +0900",
-      "sentiment": "positive"
+      "title": "호남·충청권에 삼성전자·SK하이닉스 반도체 신규투자안 검토",
+      "link": "https://www.yna.co.kr/view/AKR20260609170700003",
+      "source": "연합뉴스 경제",
+      "ts": 1781010363000,
+      "pub": "Tue, 9 Jun 2026 22:06:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美, BYD·CXMT등 188개 기업 '中 군사기업' 목록에…불이익 예고",
+      "link": "https://www.hankyung.com/article/202606096709i",
+      "source": "한국경제",
+      "ts": 1781000606000,
+      "pub": "Tue, 09 Jun 2026 19:23:26 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "한진만 \"TSMC 추격, 10년 20년 걸리든 해낼 것\"",
@@ -17,38 +25,6 @@
       "source": "한국경제",
       "ts": 1780997822000,
       "pub": "Tue, 09 Jun 2026 18:37:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "김정호 \"초고속 S램까지 쌓는 메모리 타운, 피지컬 AI 핵심 될 것\"",
-      "link": "https://www.hankyung.com/article/2026060965651",
-      "source": "한국경제",
-      "ts": 1780996663000,
-      "pub": "Tue, 09 Jun 2026 18:17:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "보이저 회장부터 HBM 선구자까지 총출동",
-      "link": "https://www.hankyung.com/article/2026060965631",
-      "source": "한국경제",
-      "ts": 1780996381000,
-      "pub": "Tue, 09 Jun 2026 18:13:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체학과 합격선, 한의대급으로 상승…\"삼전닉스 직행 티켓\"",
-      "link": "https://www.hankyung.com/article/2026060965151",
-      "source": "한국경제",
-      "ts": 1780996123000,
-      "pub": "Tue, 09 Jun 2026 18:08:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체주 급반등에 살아난 亞증시…닛케이 2.17%↑ [Asia마감]",
-      "link": "https://www.mt.co.kr/world/2026/06/09/2026060916101288237",
-      "source": "머니투데이",
-      "ts": 1780992933000,
-      "pub": "Tue, 09 Jun 2026 17:15:33 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,15 +1,31 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-09T01:57:05.696Z",
-  "count": 8,
+  "updated_at": "2026-06-09T06:04:39.688Z",
+  "count": 7,
   "items": [
     {
-      "title": "'AI 지각생' 애플, 갤럭시 AI 넘을 혁신은 없었다[IT썰]",
-      "link": "https://www.mt.co.kr/tech/2026/06/09/2026060908204255727",
-      "source": "머니투데이",
-      "ts": 1780968864000,
-      "pub": "Tue, 09 Jun 2026 10:34:24 +0900",
+      "title": "고영, AI 메모리 '소캠2' 검사시장 진입…국내 메모리社 첫 수주",
+      "link": "https://www.hankyung.com/article/202606095844i",
+      "source": "한국경제",
+      "ts": 1780982003000,
+      "pub": "Tue, 09 Jun 2026 14:13:23 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"솔직히 놀랐다\"…이재용 결단에 삼성 임원들도 '감탄'",
+      "link": "https://www.hankyung.com/article/202606095339g",
+      "source": "한국경제",
+      "ts": 1780981201000,
+      "pub": "Tue, 09 Jun 2026 14:00:01 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 급등에 '팔천피' 회복…코스닥은 소부장·바이오 '쌍끌이'",
+      "link": "https://www.hankyung.com/article/2026060957886",
+      "source": "한국경제",
+      "ts": 1780981047000,
+      "pub": "Tue, 09 Jun 2026 13:57:27 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "[게시판] 롯데카드, 삼성전자 구독료 할인 '삼성구독엔로카' 출시",
@@ -18,22 +34,6 @@
       "ts": 1780966610000,
       "pub": "Tue, 9 Jun 2026 09:56:50 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "미 전쟁부, 알리바바·BYD·창신메모리 찍어 \"중국군대 돕는 기업\"",
-      "link": "https://www.mt.co.kr/world/2026/06/09/2026060908263447864",
-      "source": "머니투데이",
-      "ts": 1780966380000,
-      "pub": "Tue, 09 Jun 2026 09:53:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "TIGER 삼전·닉스 단일종목 레버리지 개인 순매수 '3조' 돌파",
-      "link": "https://www.hankyung.com/article/2026060950827",
-      "source": "한국경제",
-      "ts": 1780966284000,
-      "pub": "Tue, 09 Jun 2026 09:51:24 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "TIGER 삼전·닉스 단일종목 레버리지 개인 순매수 3조 돌파",
@@ -57,14 +57,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780964162000,
       "pub": "Tue, 9 Jun 2026 09:16:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피 시총, 6천조원 초반으로↓…삼전도 글로벌 11위로 밀려",
-      "link": "https://www.yna.co.kr/view/AKR20260608152700008",
-      "source": "연합뉴스 경제",
-      "ts": 1780905661000,
-      "pub": "Mon, 8 Jun 2026 17:01:01 +0900",
       "sentiment": "neutral"
     }
   ]

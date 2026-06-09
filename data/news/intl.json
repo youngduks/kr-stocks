@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-09T21:29:02.184Z",
-  "count": 29,
+  "updated_at": "2026-06-09T23:09:00.670Z",
+  "count": 24,
   "items": [
+    {
+      "title": "美중소기업인 \"관세 15%든 25%든 상관없어…불확실성이 더 문제\"",
+      "link": "https://www.yna.co.kr/view/AKR20260609110800072",
+      "source": "연합뉴스 국제",
+      "ts": 1781046005000,
+      "pub": "Wed, 10 Jun 2026 08:00:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[르포] 트럼프 '美우선' 발맞춰 안방생산 늘리는 기업들…조지아를 가다",
+      "link": "https://www.yna.co.kr/view/AKR20260610005500072",
+      "source": "연합뉴스 국제",
+      "ts": 1781046003000,
+      "pub": "Wed, 10 Jun 2026 08:00:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "은둔은 이제 그만…SNS서 스타 된 '바이든의 아픈손가락'",
+      "link": "https://www.yna.co.kr/view/AKR20260610020600071",
+      "source": "연합뉴스 국제",
+      "ts": 1781045356000,
+      "pub": "Wed, 10 Jun 2026 07:49:16 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美헬기 추락에 트럼프 보복 예고…휴전 국면 다시 흔들리나",
       "link": "https://www.hankyung.com/article/2026061069617",
@@ -34,14 +58,6 @@
       "ts": 1781032297000,
       "pub": "Wed, 10 Jun 2026 04:11:37 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 팔순 잔치 망치게 생겼다\" UFC 백악관 야외 대회, '폭우·벌레' 악천후 탓에 무산 위기",
-      "link": "https://www.mt.co.kr/sports/2026/06/10/2026061000145660598",
-      "source": "머니투데이",
-      "ts": 1781031960000,
-      "pub": "Wed, 10 Jun 2026 04:06:00 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "트럼프 \"이란이 호르무즈 순찰하던 美헬기 격추…반드시 대응\"",
@@ -140,22 +156,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"이란 전쟁 종식 2~3일 내 합의\"…믿을 수 있나",
-      "link": "https://www.hankyung.com/article/202606096771i",
-      "source": "한국경제",
-      "ts": 1781005137000,
-      "pub": "Tue, 09 Jun 2026 20:38:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 2~3일 내 매우 훌륭한 합의 이룰 것\"",
-      "link": "https://www.hankyung.com/article/2026060967117",
-      "source": "한국경제",
-      "ts": 1781002871000,
-      "pub": "Tue, 09 Jun 2026 20:01:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "젤렌스키 \"러, 유럽·美로부터 고립…경제는 붕괴 직전\"",
       "link": "https://www.yna.co.kr/view/AKR20260609155500081",
       "source": "연합뉴스 국제",
@@ -193,46 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780989310000,
       "pub": "Tue, 9 Jun 2026 16:15:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "호르무즈 근처에 미군 헬기 추락…트럼프 \"조종사들 무사\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260609095851009",
-      "source": "연합뉴스 국제",
-      "ts": 1780985528000,
-      "pub": "Tue, 9 Jun 2026 15:12:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 협상 막판 단계…2∼3일 내 타결 기대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260609121500009",
-      "source": "연합뉴스 국제",
-      "ts": 1780985282000,
-      "pub": "Tue, 9 Jun 2026 15:08:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "FT \"AI 스파이, 푸틴 보호 시스템에 위협\"",
-      "link": "https://www.yna.co.kr/view/AKR20260609097100009",
-      "source": "연합뉴스 국제",
-      "ts": 1780984775000,
-      "pub": "Tue, 9 Jun 2026 14:59:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "중·러·인도 '3국 협력' 푸틴 거론에…中 맞장구 \"소통 원해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260609110000009",
-      "source": "연합뉴스 국제",
-      "ts": 1780982462000,
-      "pub": "Tue, 9 Jun 2026 14:21:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 편지로 긁고 드론으로 때리고…우크라, 러시아 흔들기 가속",
-      "link": "https://www.yna.co.kr/view/AKR20260609106500704",
-      "source": "연합뉴스 국제",
-      "ts": 1780982356000,
-      "pub": "Tue, 9 Jun 2026 14:19:16 +0900",
       "sentiment": "neutral"
     }
   ]

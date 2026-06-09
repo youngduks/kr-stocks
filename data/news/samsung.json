@@ -1,8 +1,48 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-09T21:29:02.185Z",
-  "count": 4,
+  "updated_at": "2026-06-09T23:09:00.671Z",
+  "count": 10,
   "items": [
+    {
+      "title": "\"삼성전자, 3분기 영업익 100조원 웃돌 것…CXMT 상장은 호재\"-KB",
+      "link": "https://www.hankyung.com/article/2026061070486",
+      "source": "한국경제",
+      "ts": 1781045008000,
+      "pub": "Wed, 10 Jun 2026 07:43:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자도 안했는데…카카오 오늘 첫 파업",
+      "link": "https://www.hankyung.com/article/2026061070287",
+      "source": "한국경제",
+      "ts": 1781044864000,
+      "pub": "Wed, 10 Jun 2026 07:41:04 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"삼성전자 성과급 믿고 샀어요\"…동탄 국평 20억 뚫었다",
+      "link": "https://www.hankyung.com/article/2026060965161",
+      "source": "한국경제",
+      "ts": 1781042402000,
+      "pub": "Wed, 10 Jun 2026 07:00:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 미국 DNA분석장비기업 추가 투자해 1대주주 지위",
+      "link": "https://www.yna.co.kr/view/AKR20260610013300003",
+      "source": "연합뉴스 경제",
+      "ts": 1781041310000,
+      "pub": "Wed, 10 Jun 2026 06:41:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼전닉스보다 낫다\"…불붙은 동탄 집값 [주간이집]",
+      "link": "https://www.hankyung.com/article/2026060956866",
+      "source": "한국경제",
+      "ts": 1781040603000,
+      "pub": "Wed, 10 Jun 2026 06:30:03 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[속보]삼성전자, 美 '엘리먼트 바이오사이언스' 1대 주주 지위 확보",
       "link": "https://www.mt.co.kr/industry/2026/06/10/2026061006110912849",
@@ -17,6 +57,14 @@
       "source": "연합뉴스 경제",
       "ts": 1781038861000,
       "pub": "Wed, 10 Jun 2026 06:01:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "20% 빠졌는데 지금 사라?…삼전·SK하닉에 무슨 일이",
+      "link": "https://www.hankyung.com/article/2026060965541",
+      "source": "한국경제",
+      "ts": 1781038806000,
+      "pub": "Wed, 10 Jun 2026 06:00:06 +0900",
       "sentiment": "neutral"
     },
     {

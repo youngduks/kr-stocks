@@ -1,22 +1,46 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-09T21:29:02.186Z",
+  "updated_at": "2026-06-09T23:09:00.672Z",
   "count": 15,
   "items": [
+    {
+      "title": "바다 떠나 육지로 간 '검은 반도체'",
+      "link": "https://www.hankyung.com/article/2026060964491",
+      "source": "한국경제",
+      "ts": 1781046008000,
+      "pub": "Wed, 10 Jun 2026 08:00:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "JP모간운용 \"반도체 슈퍼사이클 장기화…'AI 위너' 여럿 나올 것\"",
+      "link": "https://www.hankyung.com/article/202606096411i",
+      "source": "한국경제",
+      "ts": 1781046007000,
+      "pub": "Wed, 10 Jun 2026 08:00:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼성전자, 3분기 영업익 100조원 웃돌 것…CXMT 상장은 호재\"-KB",
+      "link": "https://www.hankyung.com/article/2026061070486",
+      "source": "한국경제",
+      "ts": 1781045008000,
+      "pub": "Wed, 10 Jun 2026 07:43:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[시선강탈] 테크윙 vs 삼양엔씨켐 vs 제주반도체, 공략법은?",
+      "link": "https://www.mt.co.kr/stock/2026/06/10/2026061006317080513",
+      "source": "머니투데이",
+      "ts": 1781043121000,
+      "pub": "Wed, 10 Jun 2026 07:12:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성전자, 작년 설비·R&D에 90조 투자…반도체 기업 중 1위",
       "link": "https://www.yna.co.kr/view/AKR20260609155900003",
       "source": "연합뉴스 경제",
       "ts": 1781038861000,
       "pub": "Wed, 10 Jun 2026 06:01:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"반도체 고점 시기상조…지금 저가매수 기회\"",
-      "link": "https://www.hankyung.com/article/2026060965541",
-      "source": "한국경제",
-      "ts": 1781038806000,
-      "pub": "Wed, 10 Jun 2026 06:00:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -84,14 +108,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "美, BYD·CXMT등 188개 기업 '中 군사기업' 목록에…불이익 예고",
-      "link": "https://www.hankyung.com/article/202606096709i",
-      "source": "한국경제",
-      "ts": 1781000606000,
-      "pub": "Tue, 09 Jun 2026 19:23:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[특징주] '30만전자'·'200만닉스' 회복…하이닉스 상승률 역대 최대(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260609041251008",
       "source": "연합뉴스 경제",
@@ -100,28 +116,12 @@
       "sentiment": "positive"
     },
     {
-      "title": "ASML CEO \"EU 반도체 공급망 개입은 금물…자생 기업 키워야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260609122800009",
-      "source": "연합뉴스 국제",
-      "ts": 1780986155000,
-      "pub": "Tue, 9 Jun 2026 15:22:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "'전날 이상거래' 하이닉스 레버리지, 급락해 '정상가격' 거래(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260609072251008",
       "source": "연합뉴스 경제",
       "ts": 1780971221000,
       "pub": "Tue, 9 Jun 2026 11:13:41 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "거래소 \"하이닉스 레버리지 ETF 3종, 투자유의종목으로 적출\"",
-      "link": "https://www.yna.co.kr/view/AKR20260609072200008",
-      "source": "연합뉴스 경제",
-      "ts": 1780969979000,
-      "pub": "Tue, 9 Jun 2026 10:52:59 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

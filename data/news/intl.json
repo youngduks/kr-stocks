@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-08T23:06:34.452Z",
-  "count": 36,
+  "updated_at": "2026-06-09T01:57:05.694Z",
+  "count": 26,
   "items": [
+    {
+      "title": "트럼프 행정부, 뉴욕에 최대 규모 ICE 요원 투입 예고",
+      "link": "https://www.yna.co.kr/view/AKR20260609067400009",
+      "source": "연합뉴스 국제",
+      "ts": 1780969243000,
+      "pub": "Tue, 9 Jun 2026 10:40:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "캐나다-美 연결 국제대교, 트럼프 위협 불구 이달 개통",
+      "link": "https://www.yna.co.kr/view/AKR20260609062000009",
+      "source": "연합뉴스 국제",
+      "ts": 1780967791000,
+      "pub": "Tue, 9 Jun 2026 10:16:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "같은 80세의 다른 생일…트럼프는 UFC, 바이든은 가족 브런치",
+      "link": "https://www.yna.co.kr/view/AKR20260609048900009",
+      "source": "연합뉴스 국제",
+      "ts": 1780965783000,
+      "pub": "Tue, 9 Jun 2026 09:43:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이젠 파열음 수준…트럼프는 종전·네타냐후는 확전해야 산다",
+      "link": "https://www.yna.co.kr/view/AKR20260609036400009",
+      "source": "연합뉴스 국제",
+      "ts": 1780965503000,
+      "pub": "Tue, 9 Jun 2026 09:38:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "유럽에 스태그플레이션 공포…우크라전·호르무즈 연쇄 충격파",
+      "link": "https://www.yna.co.kr/view/AKR20260609039400009",
+      "source": "연합뉴스 국제",
+      "ts": 1780964561000,
+      "pub": "Tue, 9 Jun 2026 09:22:41 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"네타냐후에 조심하지 않으면 혼자 남을 거라 했다\"",
       "link": "https://www.yna.co.kr/view/AKR20260609014100071",
@@ -20,14 +60,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "이스라엘·이란 '공격 중단'에 한숨 돌린 증시…반도체주 급반등[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/06/09/2026060905414768932",
-      "source": "머니투데이",
-      "ts": 1780951499000,
-      "pub": "Tue, 09 Jun 2026 05:44:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美상원 유권자법 발목에 트럼프 발끈…\"의사규칙 담당관 잘라야\"",
       "link": "https://www.yna.co.kr/view/AKR20260609007600071",
       "source": "연합뉴스 국제",
@@ -36,27 +68,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "美법무장관에 트럼프 변호인 출신 인사 임명",
-      "link": "https://www.mt.co.kr/world/2026/06/09/2026060905100358672",
-      "source": "머니투데이",
-      "ts": 1780949502000,
-      "pub": "Tue, 09 Jun 2026 05:11:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, 법무장관에 본인 형사사건 변호인 출신 블랜치 지명",
       "link": "https://www.yna.co.kr/view/AKR20260609006400071",
       "source": "연합뉴스 국제",
       "ts": 1780948793000,
       "pub": "Tue, 9 Jun 2026 04:59:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'닉스 팬' 트럼프, 파이널 3차전 뜬다... 경호원·철조망 깔린 뉴욕, 대통령 직관 소식에 거리 봉쇄",
-      "link": "https://www.mt.co.kr/sports/2026/06/09/2026060903055021310",
-      "source": "머니투데이",
-      "ts": 1780948790000,
-      "pub": "Tue, 09 Jun 2026 04:59:50 +0900",
       "sentiment": "neutral"
     },
     {
@@ -193,102 +209,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780913571000,
       "pub": "Mon, 8 Jun 2026 19:12:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 사위 리조트 사업 논란…EU도 \"알바니아 EU 가입 악영향\"",
-      "link": "https://www.yna.co.kr/view/AKR20260608168200098",
-      "source": "연합뉴스 국제",
-      "ts": 1780912613000,
-      "pub": "Mon, 8 Jun 2026 18:56:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프, 이스라엘·이란에 \"즉각 멈춰라\" 교전중단 촉구",
-      "link": "https://www.yna.co.kr/view/AKR20260608169500009",
-      "source": "연합뉴스 국제",
-      "ts": 1780912233000,
-      "pub": "Mon, 8 Jun 2026 18:50:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘군 \"이란과 교전 며칠 지속 대비…전면전 가능성도\"",
-      "link": "https://www.yna.co.kr/view/AKR20260608167300079",
-      "source": "연합뉴스 국제",
-      "ts": 1780911019000,
-      "pub": "Mon, 8 Jun 2026 18:30:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"테헤란서 큰 폭발음 들려…이스라엘 드론 격추\"",
-      "link": "https://www.yna.co.kr/view/AKR20260608162700009",
-      "source": "연합뉴스 국제",
-      "ts": 1780908695000,
-      "pub": "Mon, 8 Jun 2026 17:51:35 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "튀르키예 장관 \"예루살렘 다시 우리 손에\"…이스라엘 발끈",
-      "link": "https://www.yna.co.kr/view/AKR20260608154700108",
-      "source": "연합뉴스 국제",
-      "ts": 1780908219000,
-      "pub": "Mon, 8 Jun 2026 17:43:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] 인터뷰하다 말고 자리 박찬 트럼프",
-      "link": "https://www.yna.co.kr/view/AKR20260608159500704",
-      "source": "연합뉴스 국제",
-      "ts": 1780907352000,
-      "pub": "Mon, 8 Jun 2026 17:29:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] \"중국 핵탄두 수, 620기\"…\"ICBM 발사대 수는 미·러 추월\"",
-      "link": "https://www.yna.co.kr/view/AKR20260608157600704",
-      "source": "연합뉴스 국제",
-      "ts": 1780906911000,
-      "pub": "Mon, 8 Jun 2026 17:21:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] \"이제 그만합시다. 갑시다\"…설전에 인터뷰 중단한 트럼프",
-      "link": "https://www.yna.co.kr/view/AKR20260608155800704",
-      "source": "연합뉴스 국제",
-      "ts": 1780906043000,
-      "pub": "Mon, 8 Jun 2026 17:07:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘군 \"이란 방공망에 대규모 공습…복구한 방어체계 파괴\"",
-      "link": "https://www.yna.co.kr/view/AKR20260608156400079",
-      "source": "연합뉴스 국제",
-      "ts": 1780905999000,
-      "pub": "Mon, 8 Jun 2026 17:06:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란군 \"석유화학 단지 피격…이스라엘에 그대로 보복\"",
-      "link": "https://www.yna.co.kr/view/AKR20260608155200009",
-      "source": "연합뉴스 국제",
-      "ts": 1780905555000,
-      "pub": "Mon, 8 Jun 2026 16:59:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "후티 반군 \"이스라엘 선박 홍해 통행 전면 차단할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260608153300079",
-      "source": "연합뉴스 국제",
-      "ts": 1780905013000,
-      "pub": "Mon, 8 Jun 2026 16:50:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "CCTV 수백만시간 뒤지는 AI…푸틴 경호체계까지 흔들어",
-      "link": "https://www.yna.co.kr/view/AKR20260608148700009",
-      "source": "연합뉴스 국제",
-      "ts": 1780904607000,
-      "pub": "Mon, 8 Jun 2026 16:43:27 +0900",
       "sentiment": "neutral"
     }
   ]

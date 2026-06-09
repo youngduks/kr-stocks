@@ -1,38 +1,62 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-08T23:06:34.454Z",
+  "updated_at": "2026-06-09T01:57:05.696Z",
   "count": 8,
   "items": [
     {
-      "title": "\"삼전닉스 끝난거 아니냐\" 공포…전문가 \"비중 늘릴 기회\"",
-      "link": "https://www.hankyung.com/article/2026060841141",
-      "source": "한국경제",
-      "ts": 1780952409000,
-      "pub": "Tue, 09 Jun 2026 06:00:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 손잡은 엔비디아…AI 동맹 '더 큰 그림' 그린다",
-      "link": "https://www.mt.co.kr/industry/2026/06/09/2026060820283053434",
+      "title": "'AI 지각생' 애플, 갤럭시 AI 넘을 혁신은 없었다[IT썰]",
+      "link": "https://www.mt.co.kr/tech/2026/06/09/2026060908204255727",
       "source": "머니투데이",
-      "ts": 1780952400000,
-      "pub": "Tue, 09 Jun 2026 06:00:00 +0900",
+      "ts": 1780968864000,
+      "pub": "Tue, 09 Jun 2026 10:34:24 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"하루 만에 20% 날렸다\" 패닉…'삼전닉스' 급락에 '비상' [분석+]",
-      "link": "https://www.hankyung.com/article/2026060838606",
-      "source": "한국경제",
-      "ts": 1780923603000,
-      "pub": "Mon, 08 Jun 2026 22:00:03 +0900",
-      "sentiment": "negative"
+      "title": "[게시판] 롯데카드, 삼성전자 구독료 할인 '삼성구독엔로카' 출시",
+      "link": "https://www.yna.co.kr/view/AKR20260609056700002",
+      "source": "연합뉴스 경제",
+      "ts": 1780966610000,
+      "pub": "Tue, 9 Jun 2026 09:56:50 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "[단독] 테크윙 \"메모리 빅3에 HBM4 장비 납품\"",
-      "link": "https://www.hankyung.com/article/2026060840111",
+      "title": "미 전쟁부, 알리바바·BYD·창신메모리 찍어 \"중국군대 돕는 기업\"",
+      "link": "https://www.mt.co.kr/world/2026/06/09/2026060908263447864",
+      "source": "머니투데이",
+      "ts": 1780966380000,
+      "pub": "Tue, 09 Jun 2026 09:53:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "TIGER 삼전·닉스 단일종목 레버리지 개인 순매수 '3조' 돌파",
+      "link": "https://www.hankyung.com/article/2026060950827",
       "source": "한국경제",
-      "ts": 1780923542000,
-      "pub": "Mon, 08 Jun 2026 21:59:02 +0900",
+      "ts": 1780966284000,
+      "pub": "Tue, 09 Jun 2026 09:51:24 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "TIGER 삼전·닉스 단일종목 레버리지 개인 순매수 3조 돌파",
+      "link": "https://www.yna.co.kr/view/AKR20260609046900008",
+      "source": "연합뉴스 경제",
+      "ts": 1780965206000,
+      "pub": "Tue, 9 Jun 2026 09:33:26 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'당장 출근하고 싶은 기업' 1·2위는 SK하이닉스·삼성전자",
+      "link": "https://www.yna.co.kr/view/AKR20260609039100003",
+      "source": "연합뉴스 경제",
+      "ts": 1780964535000,
+      "pub": "Tue, 9 Jun 2026 09:22:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼전·닉스 반등…'30만전자'·'200만닉스' 회복",
+      "link": "https://www.yna.co.kr/view/AKR20260609041200008",
+      "source": "연합뉴스 경제",
+      "ts": 1780964162000,
+      "pub": "Tue, 9 Jun 2026 09:16:02 +0900",
       "sentiment": "neutral"
     },
     {
@@ -41,30 +65,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780905661000,
       "pub": "Mon, 8 Jun 2026 17:01:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 급락, 반도체 피크아웃?…전문가 \"저가매수 기회\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260608059851008",
-      "source": "연합뉴스 경제",
-      "ts": 1780901735000,
-      "pub": "Mon, 8 Jun 2026 15:55:35 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[특징주] 삼전·닉스, 10%·7%↓…'30만전자'·'200만닉스' 붕괴(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260608041451008",
-      "source": "연합뉴스 경제",
-      "ts": 1780900922000,
-      "pub": "Mon, 8 Jun 2026 15:42:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스, 한미반도체 TC본더 442억원 발주…\"HBM4 생산 확대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260608112600003",
-      "source": "연합뉴스 경제",
-      "ts": 1780894527000,
-      "pub": "Mon, 8 Jun 2026 13:55:27 +0900",
       "sentiment": "neutral"
     }
   ]

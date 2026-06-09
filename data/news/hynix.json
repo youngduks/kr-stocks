@@ -1,78 +1,78 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-08T23:06:34.455Z",
-  "count": 20,
+  "updated_at": "2026-06-09T01:57:05.697Z",
+  "count": 13,
   "items": [
     {
-      "title": "'유출 사고' 딛고 일어선 SK텔레콤…엔비디아 손잡고 '10만 텔레콤' 굳히나",
-      "link": "https://www.hankyung.com/article/202606083446i",
-      "source": "한국경제",
-      "ts": 1780959155000,
-      "pub": "Tue, 09 Jun 2026 07:52:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "기술주 반등에 美증시 상승…반도체주 급등",
-      "link": "https://www.hankyung.com/article/202606094609i",
-      "source": "한국경제",
-      "ts": 1780958376000,
-      "pub": "Tue, 09 Jun 2026 07:39:36 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "반도체 반등에 나스닥 0.9% 올랐지만…다우 소폭 하락 [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026060946316",
-      "source": "한국경제",
-      "ts": 1780958260000,
-      "pub": "Tue, 09 Jun 2026 07:37:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"이러다 반도체 공사 멈출라\"…삼성·SK도 '초긴장' 하는 이유",
-      "link": "https://www.hankyung.com/article/2026060841001",
-      "source": "한국경제",
-      "ts": 1780956005000,
-      "pub": "Tue, 09 Jun 2026 07:00:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[시선강탈] 일진전기 vs 삼성전기 vs SK하이닉스, 공략법은?",
-      "link": "https://www.mt.co.kr/stock/2026/06/09/2026060900017058437",
+      "title": "폴라리스AI, 엔비디아 파트너 MDS테크와 산업현장형 AI 인프라 구축",
+      "link": "https://www.mt.co.kr/stock/2026/06/09/2026060910042694914",
       "source": "머니투데이",
-      "ts": 1780955736000,
-      "pub": "Tue, 09 Jun 2026 06:55:36 +0900",
+      "ts": 1780968038000,
+      "pub": "Tue, 09 Jun 2026 10:20:38 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "SK하이닉스 임단협 이달 개시…\"내외부 상황 고려해 잘 대처하자\"",
-      "link": "https://www.hankyung.com/article/2026060945507",
+      "title": "SK하이닉스는 6% 뛰는데…ACE 단일종목레버리지는 급락?",
+      "link": "https://www.hankyung.com/article/2026060950676",
       "source": "한국경제",
-      "ts": 1780953940000,
-      "pub": "Tue, 09 Jun 2026 06:25:40 +0900",
-      "sentiment": "neutral"
+      "ts": 1780967128000,
+      "pub": "Tue, 09 Jun 2026 10:05:28 +0900",
+      "sentiment": "negative"
     },
     {
-      "title": "삼전닉스 손잡은 엔비디아…AI 동맹 '더 큰 그림' 그린다",
-      "link": "https://www.mt.co.kr/industry/2026/06/09/2026060820283053434",
-      "source": "머니투데이",
-      "ts": 1780952400000,
-      "pub": "Tue, 09 Jun 2026 06:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘·이란 '공격 중단'에 한숨 돌린 증시…반도체주 급반등[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/06/09/2026060905414768932",
-      "source": "머니투데이",
-      "ts": 1780951499000,
-      "pub": "Tue, 09 Jun 2026 05:44:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 증시, 저가 매수 들어 오며 반도체주 중심으로 반등",
-      "link": "https://www.hankyung.com/article/202606084445i",
+      "title": "반도체 다음은 로봇?…국내 로봇주 투자전략 짜보니",
+      "link": "https://www.hankyung.com/article/202606094763i",
       "source": "한국경제",
-      "ts": 1780928307000,
-      "pub": "Mon, 08 Jun 2026 23:18:27 +0900",
+      "ts": 1780966912000,
+      "pub": "Tue, 09 Jun 2026 10:01:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미 전쟁부, 알리바바·BYD·창신메모리 찍어 \"중국군대 돕는 기업\"",
+      "link": "https://www.mt.co.kr/world/2026/06/09/2026060908263447864",
+      "source": "머니투데이",
+      "ts": 1780966380000,
+      "pub": "Tue, 09 Jun 2026 09:53:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "韓여야의원들 대만 방문…\"지정학 도전 대응·반도체 등 논의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260609052600083",
+      "source": "연합뉴스 국제",
+      "ts": 1780966317000,
+      "pub": "Tue, 9 Jun 2026 09:51:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "30만전자·200만닉스 회복…중동 긴장 완화·美 반도체주 강세",
+      "link": "https://www.hankyung.com/article/2026060949676",
+      "source": "한국경제",
+      "ts": 1780964774000,
+      "pub": "Tue, 09 Jun 2026 09:26:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'당장 출근하고 싶은 기업' 1·2위는 SK하이닉스·삼성전자",
+      "link": "https://www.yna.co.kr/view/AKR20260609039100003",
+      "source": "연합뉴스 경제",
+      "ts": 1780964535000,
+      "pub": "Tue, 9 Jun 2026 09:22:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 젠슨 황 \"엔비디아, SK·네이버와 협력 빠르게 진행될 것\"",
+      "link": "https://www.hankyung.com/article/2026060949737",
+      "source": "한국경제",
+      "ts": 1780964303000,
+      "pub": "Tue, 09 Jun 2026 09:18:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'K엔비디아 연맹'에 주목하는 상위1% 고수들…이들이 담은 종목은?",
+      "link": "https://www.hankyung.com/article/202606094857i",
+      "source": "한국경제",
+      "ts": 1780963953000,
+      "pub": "Tue, 09 Jun 2026 09:12:33 +0900",
       "sentiment": "neutral"
     },
     {
@@ -81,22 +81,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780927447000,
       "pub": "Mon, 8 Jun 2026 23:04:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "배경훈 \"엔비디아, 韓에 AI 가속기 최우선 공급\"",
-      "link": "https://www.hankyung.com/article/2026060844191",
-      "source": "한국경제",
-      "ts": 1780926503000,
-      "pub": "Mon, 08 Jun 2026 22:48:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[단독] 테크윙 \"메모리 빅3에 HBM4 장비 납품\"",
-      "link": "https://www.hankyung.com/article/2026060840111",
-      "source": "한국경제",
-      "ts": 1780923542000,
-      "pub": "Mon, 08 Jun 2026 21:59:02 +0900",
       "sentiment": "neutral"
     },
     {
@@ -121,46 +105,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780902437000,
       "pub": "Mon, 8 Jun 2026 16:07:17 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "삼전닉스 급락, 반도체 피크아웃?…전문가 \"저가매수 기회\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260608059851008",
-      "source": "연합뉴스 경제",
-      "ts": 1780901735000,
-      "pub": "Mon, 8 Jun 2026 15:55:35 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "반도체발 급락에 코스피·코스닥, 잇단 서킷브레이커(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260608041352008",
-      "source": "연합뉴스 경제",
-      "ts": 1780898400000,
-      "pub": "Mon, 8 Jun 2026 15:00:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "SK하이닉스, 한미반도체 TC본더 442억원 발주…\"HBM4 생산 확대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260608112600003",
-      "source": "연합뉴스 경제",
-      "ts": 1780894527000,
-      "pub": "Mon, 8 Jun 2026 13:55:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] SKT·네이버, '엔비디아 협력'에 급락장서 강세(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260608078551008",
-      "source": "연합뉴스 경제",
-      "ts": 1780886774000,
-      "pub": "Mon, 8 Jun 2026 11:46:14 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[특징주] SKT, 급락장서 '나홀로' 급등…'엔비디아 협력'에 7%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260608078500008",
-      "source": "연합뉴스 경제",
-      "ts": 1780885144000,
-      "pub": "Mon, 8 Jun 2026 11:19:04 +0900",
       "sentiment": "negative"
     }
   ]

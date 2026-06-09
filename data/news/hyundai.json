@@ -1,6 +1,55 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-06-08T23:06:34.457Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-06-09T01:57:05.698Z",
+  "count": 6,
+  "items": [
+    {
+      "title": "하나운용, '현대차·기아 50% 편입' 채권혼합 ETF 상장",
+      "link": "https://www.yna.co.kr/view/AKR20260609070900008",
+      "source": "연합뉴스 경제",
+      "ts": 1780969464000,
+      "pub": "Tue, 9 Jun 2026 10:44:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"성능 높이고 가격 낮췄다\"..현대차, '2027 아이오닉 5' 출시",
+      "link": "https://www.mt.co.kr/industry/2026/06/09/2026060909342299482",
+      "source": "머니투데이",
+      "ts": 1780965587000,
+      "pub": "Tue, 09 Jun 2026 09:39:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"저 차, 왜 빠르지?\" 페라리도 당황한 제네시스의 질주 [조두현의 테이스티드라이브]",
+      "link": "https://www.hankyung.com/article/202606023061i",
+      "source": "한국경제",
+      "ts": 1780965529000,
+      "pub": "Tue, 09 Jun 2026 09:38:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성운용, 현대차그룹 로봇 밸류체인 핵심기업 투자 ETF 상장",
+      "link": "https://www.yna.co.kr/view/AKR20260609037300008",
+      "source": "연합뉴스 경제",
+      "ts": 1780963692000,
+      "pub": "Tue, 9 Jun 2026 09:08:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "KODEX 현대차로보틱스밸류체인TOP3플러스 ETF 상장",
+      "link": "https://www.hankyung.com/article/202606094901i",
+      "source": "한국경제",
+      "ts": 1780963623000,
+      "pub": "Tue, 09 Jun 2026 09:07:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "IBK투자 \"현대모비스, 그룹 로봇전략 수혜…목표가 상향\"",
+      "link": "https://www.yna.co.kr/view/AKR20260609031100008",
+      "source": "연합뉴스 경제",
+      "ts": 1780962246000,
+      "pub": "Tue, 9 Jun 2026 08:44:06 +0900",
+      "sentiment": "positive"
+    }
+  ]
 }

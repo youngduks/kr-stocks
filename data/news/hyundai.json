@@ -1,14 +1,22 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-06-09T06:04:39.689Z",
+  "updated_at": "2026-06-09T10:26:18.188Z",
   "count": 3,
   "items": [
     {
-      "title": "젠슨 황도 \"사랑해요 현대차그룹\"…퇴직연금에 가득 담으려면",
-      "link": "https://www.hankyung.com/article/202606095598i",
+      "title": "[급등수사본부] 엔비디아와 피지컬 AI 협력 기대 고조 '현대차' vs 메모리 3사에 반도체 테스트 장비 공급 '테크윙'",
+      "link": "https://www.mt.co.kr/stock/2026/06/09/2026060918577055768",
+      "source": "머니투데이",
+      "ts": 1781000255000,
+      "pub": "Tue, 09 Jun 2026 19:17:35 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "현대차, 새만금에 AI 밸리…SK도 호남 투자 검토",
+      "link": "https://www.hankyung.com/article/2026060965841",
       "source": "한국경제",
-      "ts": 1780977606000,
-      "pub": "Tue, 09 Jun 2026 13:00:06 +0900",
+      "ts": 1780997035000,
+      "pub": "Tue, 09 Jun 2026 18:23:55 +0900",
       "sentiment": "neutral"
     },
     {
@@ -17,14 +25,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780969464000,
       "pub": "Tue, 9 Jun 2026 10:44:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성운용, 현대차그룹 로봇 밸류체인 핵심기업 투자 ETF 상장",
-      "link": "https://www.yna.co.kr/view/AKR20260609037300008",
-      "source": "연합뉴스 경제",
-      "ts": 1780963692000,
-      "pub": "Tue, 9 Jun 2026 09:08:12 +0900",
       "sentiment": "neutral"
     }
   ]

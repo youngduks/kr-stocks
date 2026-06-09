@@ -1,63 +1,55 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-09T06:04:39.688Z",
-  "count": 7,
+  "updated_at": "2026-06-09T10:26:18.187Z",
+  "count": 6,
   "items": [
     {
-      "title": "고영, AI 메모리 '소캠2' 검사시장 진입…국내 메모리社 첫 수주",
-      "link": "https://www.hankyung.com/article/202606095844i",
-      "source": "한국경제",
-      "ts": 1780982003000,
-      "pub": "Tue, 09 Jun 2026 14:13:23 +0900",
+      "title": "[급등수사본부] 엔비디아와 피지컬 AI 협력 기대 고조 '현대차' vs 메모리 3사에 반도체 테스트 장비 공급 '테크윙'",
+      "link": "https://www.mt.co.kr/stock/2026/06/09/2026060918577055768",
+      "source": "머니투데이",
+      "ts": 1781000255000,
+      "pub": "Tue, 09 Jun 2026 19:17:35 +0900",
       "sentiment": "positive"
     },
     {
-      "title": "\"솔직히 놀랐다\"…이재용 결단에 삼성 임원들도 '감탄'",
-      "link": "https://www.hankyung.com/article/202606095339g",
+      "title": "김정호 \"초고속 S램까지 쌓는 메모리 타운, 피지컬 AI 핵심 될 것\"",
+      "link": "https://www.hankyung.com/article/2026060965651",
       "source": "한국경제",
-      "ts": 1780981201000,
-      "pub": "Tue, 09 Jun 2026 14:00:01 +0900",
+      "ts": 1780996663000,
+      "pub": "Tue, 09 Jun 2026 18:17:43 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "삼전닉스 급등에 '팔천피' 회복…코스닥은 소부장·바이오 '쌍끌이'",
-      "link": "https://www.hankyung.com/article/2026060957886",
+      "title": "보이저 회장부터 HBM 선구자까지 총출동",
+      "link": "https://www.hankyung.com/article/2026060965631",
       "source": "한국경제",
-      "ts": 1780981047000,
-      "pub": "Tue, 09 Jun 2026 13:57:27 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[게시판] 롯데카드, 삼성전자 구독료 할인 '삼성구독엔로카' 출시",
-      "link": "https://www.yna.co.kr/view/AKR20260609056700002",
-      "source": "연합뉴스 경제",
-      "ts": 1780966610000,
-      "pub": "Tue, 9 Jun 2026 09:56:50 +0900",
+      "ts": 1780996381000,
+      "pub": "Tue, 09 Jun 2026 18:13:01 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "TIGER 삼전·닉스 단일종목 레버리지 개인 순매수 3조 돌파",
-      "link": "https://www.yna.co.kr/view/AKR20260609046900008",
-      "source": "연합뉴스 경제",
-      "ts": 1780965206000,
-      "pub": "Tue, 9 Jun 2026 09:33:26 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'당장 출근하고 싶은 기업' 1·2위는 SK하이닉스·삼성전자",
-      "link": "https://www.yna.co.kr/view/AKR20260609039100003",
-      "source": "연합뉴스 경제",
-      "ts": 1780964535000,
-      "pub": "Tue, 9 Jun 2026 09:22:15 +0900",
+      "title": "반도체학과 합격선, 한의대급으로 상승…\"삼전닉스 직행 티켓\"",
+      "link": "https://www.hankyung.com/article/2026060965151",
+      "source": "한국경제",
+      "ts": 1780996123000,
+      "pub": "Tue, 09 Jun 2026 18:08:43 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[특징주] 삼전·닉스 반등…'30만전자'·'200만닉스' 회복",
-      "link": "https://www.yna.co.kr/view/AKR20260609041200008",
-      "source": "연합뉴스 경제",
-      "ts": 1780964162000,
-      "pub": "Tue, 9 Jun 2026 09:16:02 +0900",
+      "title": "삼전닉스 하반기 더 갈 수 있을까 [한경 프리미엄9 TODAY]",
+      "link": "https://www.hankyung.com/article/2026060965131",
+      "source": "한국경제",
+      "ts": 1780996091000,
+      "pub": "Tue, 09 Jun 2026 18:08:11 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 파업 90분전 극적타결 뒷얘기는..노조 \"긴급조정권 거론\"",
+      "link": "https://www.mt.co.kr/industry/2026/06/09/2026060915111155194",
+      "source": "머니투데이",
+      "ts": 1780995600000,
+      "pub": "Tue, 09 Jun 2026 18:00:00 +0900",
+      "sentiment": "negative"
     }
   ]
 }

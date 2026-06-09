@@ -1,8 +1,88 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-09T06:04:39.687Z",
-  "count": 23,
+  "updated_at": "2026-06-09T10:26:18.185Z",
+  "count": 21,
   "items": [
+    {
+      "title": "트럼프 \"네타냐후에 이란 재공격시 '혼자가 될 수 있다' 경고\"",
+      "link": "https://www.mt.co.kr/world/2026/06/09/2026060918012491406",
+      "source": "머니투데이",
+      "ts": 1781000622000,
+      "pub": "Tue, 09 Jun 2026 19:23:42 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[포토] 케네디 센터서 '트럼프' 이름 뺀다",
+      "link": "https://www.hankyung.com/article/2026060965941",
+      "source": "한국경제",
+      "ts": 1780997390000,
+      "pub": "Tue, 09 Jun 2026 18:29:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키 \"러, 유럽·美로부터 고립…경제는 붕괴 직전\"",
+      "link": "https://www.yna.co.kr/view/AKR20260609155500081",
+      "source": "연합뉴스 국제",
+      "ts": 1780995381000,
+      "pub": "Tue, 9 Jun 2026 17:56:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'에너지난' 크림반도 계속 때리는 우크라…약한 고리 노렸나",
+      "link": "https://www.yna.co.kr/view/AKR20260609152200109",
+      "source": "연합뉴스 국제",
+      "ts": 1780994601000,
+      "pub": "Tue, 9 Jun 2026 17:43:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 방탄유리 뒤의 트럼프…뉴욕 닉스 경기 찾았다가 거센 야유",
+      "link": "https://www.yna.co.kr/view/AKR20260609142900704",
+      "source": "연합뉴스 국제",
+      "ts": 1780990784000,
+      "pub": "Tue, 9 Jun 2026 16:39:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘-헤즈볼라 충돌 희생양 레바논…\"다시 내전 소용돌이로\"",
+      "link": "https://www.yna.co.kr/view/AKR20260609133400009",
+      "source": "연합뉴스 국제",
+      "ts": 1780989889000,
+      "pub": "Tue, 9 Jun 2026 16:24:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 민주당 후보 역전에 또 '음모론'…중간선거 불복 포석?",
+      "link": "https://www.yna.co.kr/view/AKR20260609137700009",
+      "source": "연합뉴스 국제",
+      "ts": 1780989310000,
+      "pub": "Tue, 9 Jun 2026 16:15:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "호르무즈 근처에 미군 헬기 추락…트럼프 \"조종사들 무사\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260609095851009",
+      "source": "연합뉴스 국제",
+      "ts": 1780985528000,
+      "pub": "Tue, 9 Jun 2026 15:12:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 협상 막판 단계…2∼3일 내 타결 기대\"",
+      "link": "https://www.yna.co.kr/view/AKR20260609121500009",
+      "source": "연합뉴스 국제",
+      "ts": 1780985282000,
+      "pub": "Tue, 9 Jun 2026 15:08:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "FT \"AI 스파이, 푸틴 보호 시스템에 위협\"",
+      "link": "https://www.yna.co.kr/view/AKR20260609097100009",
+      "source": "연합뉴스 국제",
+      "ts": 1780984775000,
+      "pub": "Tue, 9 Jun 2026 14:59:35 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "중·러·인도 '3국 협력' 푸틴 거론에…中 맞장구 \"소통 원해\"",
       "link": "https://www.yna.co.kr/view/AKR20260609110000009",
@@ -17,14 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780982356000,
       "pub": "Tue, 9 Jun 2026 14:19:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 압력솥 가동\"…부정선거 억지 쓰다 '조롱 밈' 됐다",
-      "link": "https://www.hankyung.com/article/2026060957597",
-      "source": "한국경제",
-      "ts": 1780981388000,
-      "pub": "Tue, 09 Jun 2026 14:03:08 +0900",
       "sentiment": "neutral"
     },
     {
@@ -97,94 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780957928000,
       "pub": "Tue, 9 Jun 2026 07:32:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 법무장관에 본인 형사사건 변호인 출신 블랜치 지명(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260609006451071",
-      "source": "연합뉴스 국제",
-      "ts": 1780952538000,
-      "pub": "Tue, 9 Jun 2026 06:02:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美상원 유권자법 발목에 트럼프 발끈…\"의사규칙 담당관 잘라야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260609007600071",
-      "source": "연합뉴스 국제",
-      "ts": 1780950859000,
-      "pub": "Tue, 9 Jun 2026 05:34:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 법무장관에 본인 형사사건 변호인 출신 블랜치 지명",
-      "link": "https://www.yna.co.kr/view/AKR20260609006400071",
-      "source": "연합뉴스 국제",
-      "ts": 1780948793000,
-      "pub": "Tue, 9 Jun 2026 04:59:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 케네디센터, 법원 명령에 '트럼프' 이름 철거 착수",
-      "link": "https://www.yna.co.kr/view/AKR20260609006300071",
-      "source": "연합뉴스 국제",
-      "ts": 1780948522000,
-      "pub": "Tue, 9 Jun 2026 04:55:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프, 법무장관 후보로 본인 변호인 출신 블랜치 지명",
-      "link": "https://www.yna.co.kr/view/AKR20260609006000071",
-      "source": "연합뉴스 국제",
-      "ts": 1780947916000,
-      "pub": "Tue, 9 Jun 2026 04:45:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "LA시장 선거서 민주당 후보 득세에 트럼프·머스크, 음모론 제기",
-      "link": "https://www.yna.co.kr/view/AKR20260609003300075",
-      "source": "연합뉴스 국제",
-      "ts": 1780941530000,
-      "pub": "Tue, 9 Jun 2026 02:58:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, 비핵화 빠진 북중회담에 \"트럼프-시진핑 北비핵화목표 공유\"",
-      "link": "https://www.yna.co.kr/view/AKR20260609002800071",
-      "source": "연합뉴스 국제",
-      "ts": 1780940376000,
-      "pub": "Tue, 9 Jun 2026 02:39:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"'사자굴'로 들어가는 트럼프\"…사상 첫 NBA 파이널 직관 대통령",
-      "link": "https://www.yna.co.kr/view/AKR20260609002500071",
-      "source": "연합뉴스 국제",
-      "ts": 1780938795000,
-      "pub": "Tue, 9 Jun 2026 02:13:15 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "이스라엘 국방 \"헤즈볼라가 공격하면 베이루트 또 때릴 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260609000500079",
-      "source": "연합뉴스 국제",
-      "ts": 1780931747000,
-      "pub": "Tue, 9 Jun 2026 00:15:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "가상화폐거래소 FTX 창업자 뱅크먼-프리드, 트럼프에 사면 요청",
-      "link": "https://www.yna.co.kr/view/AKR20260609000400072",
-      "source": "연합뉴스 국제",
-      "ts": 1780931510000,
-      "pub": "Tue, 9 Jun 2026 00:11:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 '발포 중단' 요구 뒤 이란 \"이스라엘 작전 중지\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260608177051009",
-      "source": "연합뉴스 국제",
-      "ts": 1780930997000,
-      "pub": "Tue, 9 Jun 2026 00:03:17 +0900",
       "sentiment": "neutral"
     }
   ]

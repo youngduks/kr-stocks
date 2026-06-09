@@ -1,22 +1,70 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-09T06:04:39.688Z",
-  "count": 7,
+  "updated_at": "2026-06-09T10:26:18.188Z",
+  "count": 11,
   "items": [
     {
-      "title": "고영, AI 메모리 '소캠2' 검사시장 진입…국내 메모리社 첫 수주",
-      "link": "https://www.hankyung.com/article/202606095844i",
-      "source": "한국경제",
-      "ts": 1780982003000,
-      "pub": "Tue, 09 Jun 2026 14:13:23 +0900",
+      "title": "[급등수사본부] 엔비디아와 피지컬 AI 협력 기대 고조 '현대차' vs 메모리 3사에 반도체 테스트 장비 공급 '테크윙'",
+      "link": "https://www.mt.co.kr/stock/2026/06/09/2026060918577055768",
+      "source": "머니투데이",
+      "ts": 1781000255000,
+      "pub": "Tue, 09 Jun 2026 19:17:35 +0900",
       "sentiment": "positive"
     },
     {
-      "title": "\"반도체 경력 대리급 추천 좀\"…채팅창 열어 인재 찾는다",
-      "link": "https://www.hankyung.com/article/202606095615g",
+      "title": "한진만 \"TSMC 추격, 10년 20년 걸리든 해낼 것\"",
+      "link": "https://www.hankyung.com/article/2026060965981",
       "source": "한국경제",
-      "ts": 1780973794000,
-      "pub": "Tue, 09 Jun 2026 11:56:34 +0900",
+      "ts": 1780997822000,
+      "pub": "Tue, 09 Jun 2026 18:37:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "김정호 \"초고속 S램까지 쌓는 메모리 타운, 피지컬 AI 핵심 될 것\"",
+      "link": "https://www.hankyung.com/article/2026060965651",
+      "source": "한국경제",
+      "ts": 1780996663000,
+      "pub": "Tue, 09 Jun 2026 18:17:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "보이저 회장부터 HBM 선구자까지 총출동",
+      "link": "https://www.hankyung.com/article/2026060965631",
+      "source": "한국경제",
+      "ts": 1780996381000,
+      "pub": "Tue, 09 Jun 2026 18:13:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체학과 합격선, 한의대급으로 상승…\"삼전닉스 직행 티켓\"",
+      "link": "https://www.hankyung.com/article/2026060965151",
+      "source": "한국경제",
+      "ts": 1780996123000,
+      "pub": "Tue, 09 Jun 2026 18:08:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체주 급반등에 살아난 亞증시…닛케이 2.17%↑ [Asia마감]",
+      "link": "https://www.mt.co.kr/world/2026/06/09/2026060916101288237",
+      "source": "머니투데이",
+      "ts": 1780992933000,
+      "pub": "Tue, 09 Jun 2026 17:15:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] '30만전자'·'200만닉스' 회복…하이닉스 상승률 역대 최대(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260609041251008",
+      "source": "연합뉴스 경제",
+      "ts": 1780990889000,
+      "pub": "Tue, 9 Jun 2026 16:41:29 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "ASML CEO \"EU 반도체 공급망 개입은 금물…자생 기업 키워야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260609122800009",
+      "source": "연합뉴스 국제",
+      "ts": 1780986155000,
+      "pub": "Tue, 9 Jun 2026 15:22:35 +0900",
       "sentiment": "neutral"
     },
     {
@@ -41,22 +89,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780966317000,
       "pub": "Tue, 9 Jun 2026 09:51:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'당장 출근하고 싶은 기업' 1·2위는 SK하이닉스·삼성전자",
-      "link": "https://www.yna.co.kr/view/AKR20260609039100003",
-      "source": "연합뉴스 경제",
-      "ts": 1780964535000,
-      "pub": "Tue, 9 Jun 2026 09:22:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 중동 갈등 완화·반도체주 반등에 상승 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260608183000009",
-      "source": "연합뉴스 국제",
-      "ts": 1780927447000,
-      "pub": "Mon, 8 Jun 2026 23:04:07 +0900",
       "sentiment": "neutral"
     }
   ]

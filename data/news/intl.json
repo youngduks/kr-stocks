@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-09T13:35:53.034Z",
-  "count": 24,
+  "updated_at": "2026-06-09T16:24:40.963Z",
+  "count": 25,
   "items": [
+    {
+      "title": "영국·프랑스 등 6개국, 이스라엘 극우 장관 등 입국 금지(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260609172151081",
+      "source": "연합뉴스 국제",
+      "ts": 1781019025000,
+      "pub": "Wed, 10 Jun 2026 00:30:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘군 참모총장 \"이란에 더 가혹한 타격 계획했었다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260609175700079",
+      "source": "연합뉴스 국제",
+      "ts": 1781017285000,
+      "pub": "Wed, 10 Jun 2026 00:01:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美행정부, 트럼프 80세 생일 이벤트 앞두고 'UFC 띄우기'",
+      "link": "https://www.yna.co.kr/view/AKR20260609175600071",
+      "source": "연합뉴스 국제",
+      "ts": 1781017226000,
+      "pub": "Wed, 10 Jun 2026 00:00:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'운명의 CPI' 앞두고 불안한 시장…끝없는 스페이스X 밸류 논쟁 [빈난새의 개장전요것만]",
+      "link": "https://www.hankyung.com/article/202606096856i",
+      "source": "한국경제",
+      "ts": 1781017012000,
+      "pub": "Tue, 09 Jun 2026 23:56:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "EU \"우크라전 참전 러시아 군인 유럽 입국 금지\"",
+      "link": "https://www.yna.co.kr/view/AKR20260609175200098",
+      "source": "연합뉴스 국제",
+      "ts": 1781016747000,
+      "pub": "Tue, 9 Jun 2026 23:52:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라·라트비아, 드론 공동 생산 협정",
+      "link": "https://www.yna.co.kr/view/AKR20260609174700109",
+      "source": "연합뉴스 국제",
+      "ts": 1781016401000,
+      "pub": "Tue, 9 Jun 2026 23:46:41 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "영국·프랑스 등 6개국, 이스라엘 극우 장관 등 입국 금지",
       "link": "https://www.yna.co.kr/view/AKR20260609172100081",
@@ -41,14 +89,6 @@
       "source": "한국경제",
       "ts": 1781002871000,
       "pub": "Tue, 09 Jun 2026 20:01:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[포토] 케네디 센터서 '트럼프' 이름 뺀다",
-      "link": "https://www.hankyung.com/article/2026060965941",
-      "source": "한국경제",
-      "ts": 1780997390000,
-      "pub": "Tue, 09 Jun 2026 18:29:50 +0900",
       "sentiment": "neutral"
     },
     {
@@ -161,38 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780969243000,
       "pub": "Tue, 9 Jun 2026 10:40:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "캐나다-美 연결 국제대교, 트럼프 위협 불구 이달 개통",
-      "link": "https://www.yna.co.kr/view/AKR20260609062000009",
-      "source": "연합뉴스 국제",
-      "ts": 1780967791000,
-      "pub": "Tue, 9 Jun 2026 10:16:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "같은 80세의 다른 생일…트럼프는 UFC, 바이든은 가족 브런치",
-      "link": "https://www.yna.co.kr/view/AKR20260609048900009",
-      "source": "연합뉴스 국제",
-      "ts": 1780965783000,
-      "pub": "Tue, 9 Jun 2026 09:43:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이젠 파열음 수준…트럼프는 종전·네타냐후는 확전해야 산다",
-      "link": "https://www.yna.co.kr/view/AKR20260609036400009",
-      "source": "연합뉴스 국제",
-      "ts": 1780965503000,
-      "pub": "Tue, 9 Jun 2026 09:38:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "유럽에 스태그플레이션 공포…우크라전·호르무즈 연쇄 충격파",
-      "link": "https://www.yna.co.kr/view/AKR20260609039400009",
-      "source": "연합뉴스 국제",
-      "ts": 1780964561000,
-      "pub": "Tue, 9 Jun 2026 09:22:41 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,40 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-09T13:35:53.036Z",
-  "count": 8,
+  "updated_at": "2026-06-09T16:24:40.965Z",
+  "count": 11,
   "items": [
+    {
+      "title": "'D램 1위' 삼성, 점유율 더 늘었다",
+      "link": "https://www.hankyung.com/article/2026060968261",
+      "source": "한국경제",
+      "ts": 1781019523000,
+      "pub": "Wed, 10 Jun 2026 00:38:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 규제 비웃는 中…\"해외자회사 이용해 TSMC서 AI칩 생산 가능\"",
+      "link": "https://www.hankyung.com/article/202606096852i",
+      "source": "한국경제",
+      "ts": 1781015792000,
+      "pub": "Tue, 09 Jun 2026 23:36:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 유가하락·반도체주 이틀째 반등에 상승",
+      "link": "https://www.hankyung.com/article/202606096845i",
+      "source": "한국경제",
+      "ts": 1781014366000,
+      "pub": "Tue, 09 Jun 2026 23:12:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자·SK하이닉스 반도체 공장, 호남에 들어오나",
+      "link": "https://www.hankyung.com/article/2026060968247",
+      "source": "한국경제",
+      "ts": 1781011804000,
+      "pub": "Tue, 09 Jun 2026 22:30:04 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "호남·충청권에 삼성전자·SK하이닉스 반도체 신규투자안 검토",
       "link": "https://www.yna.co.kr/view/AKR20260609170700003",
@@ -57,14 +89,6 @@
       "source": "연합뉴스 경제",
       "ts": 1780969979000,
       "pub": "Tue, 9 Jun 2026 10:52:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "韓여야의원들 대만 방문…\"지정학 도전 대응·반도체 등 논의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260609052600083",
-      "source": "연합뉴스 국제",
-      "ts": 1780966317000,
-      "pub": "Tue, 9 Jun 2026 09:51:57 +0900",
       "sentiment": "neutral"
     }
   ]

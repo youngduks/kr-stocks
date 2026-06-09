@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-09T16:24:40.963Z",
-  "count": 25,
+  "updated_at": "2026-06-09T19:06:06.954Z",
+  "count": 26,
   "items": [
+    {
+      "title": "트럼프 \"이란이 호르무즈 순찰하던 美헬기 격추…반드시 대응\"",
+      "link": "https://www.yna.co.kr/view/AKR20260610002800071",
+      "source": "연합뉴스 국제",
+      "ts": 1781024746000,
+      "pub": "Wed, 10 Jun 2026 02:05:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'에너지난' 크림반도 계속 때리는 우크라…약한 고리 노렸나(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260609152251109",
+      "source": "연합뉴스 국제",
+      "ts": 1781023829000,
+      "pub": "Wed, 10 Jun 2026 01:50:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"이란의 美아파치헬기 격추에 반드시 대응할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260610002200071",
+      "source": "연합뉴스 국제",
+      "ts": 1781023462000,
+      "pub": "Wed, 10 Jun 2026 01:44:22 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "영국·프랑스 등 6개국, 이스라엘 극우 장관 등 입국 금지(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260609172151081",
@@ -185,22 +209,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780971968000,
       "pub": "Tue, 9 Jun 2026 11:26:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "푸틴·네타냐후 영장 청구했던 ICC 검사장, '성비위' 직무정지",
-      "link": "https://www.yna.co.kr/view/AKR20260609075400009",
-      "source": "연합뉴스 국제",
-      "ts": 1780971285000,
-      "pub": "Tue, 9 Jun 2026 11:14:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 행정부, 뉴욕에 최대 규모 ICE 요원 투입 예고",
-      "link": "https://www.yna.co.kr/view/AKR20260609067400009",
-      "source": "연합뉴스 국제",
-      "ts": 1780969243000,
-      "pub": "Tue, 9 Jun 2026 10:40:43 +0900",
       "sentiment": "neutral"
     }
   ]

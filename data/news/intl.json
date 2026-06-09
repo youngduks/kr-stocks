@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-09T19:06:06.954Z",
-  "count": 26,
+  "updated_at": "2026-06-09T21:29:02.184Z",
+  "count": 29,
   "items": [
+    {
+      "title": "美헬기 추락에 트럼프 보복 예고…휴전 국면 다시 흔들리나",
+      "link": "https://www.hankyung.com/article/2026061069617",
+      "source": "한국경제",
+      "ts": 1781040058000,
+      "pub": "Wed, 10 Jun 2026 06:20:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 이란에 '아파치 격추' 보복예고…호르무즈 긴장수위↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260610002851071",
+      "source": "연합뉴스 국제",
+      "ts": 1781037754000,
+      "pub": "Wed, 10 Jun 2026 05:42:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"美정부, '관세 일괄환급은 못해' 버티기…비용부담 노린듯\"",
+      "link": "https://www.yna.co.kr/view/AKR20260610007100071",
+      "source": "연합뉴스 국제",
+      "ts": 1781036659000,
+      "pub": "Wed, 10 Jun 2026 05:24:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"호르무즈 추락 美헬기, 이란 공격에 대응할 것\"",
+      "link": "https://www.mt.co.kr/world/2026/06/10/2026061004090628163",
+      "source": "머니투데이",
+      "ts": 1781032297000,
+      "pub": "Wed, 10 Jun 2026 04:11:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프 팔순 잔치 망치게 생겼다\" UFC 백악관 야외 대회, '폭우·벌레' 악천후 탓에 무산 위기",
+      "link": "https://www.mt.co.kr/sports/2026/06/10/2026061000145660598",
+      "source": "머니투데이",
+      "ts": 1781031960000,
+      "pub": "Wed, 10 Jun 2026 04:06:00 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "트럼프 \"이란이 호르무즈 순찰하던 美헬기 격추…반드시 대응\"",
       "link": "https://www.yna.co.kr/view/AKR20260610002800071",
@@ -193,22 +233,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780982356000,
       "pub": "Tue, 9 Jun 2026 14:19:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 만류에 총구 내렸지만…이란·이스라엘 재공격 불씨 여전",
-      "link": "https://www.yna.co.kr/view/AKR20260609083400009",
-      "source": "연합뉴스 국제",
-      "ts": 1780972738000,
-      "pub": "Tue, 9 Jun 2026 11:38:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'뉴요커 출신' 트럼프, 닉스 파이널 찾았다가 야유 세례",
-      "link": "https://www.yna.co.kr/view/AKR20260609083300071",
-      "source": "연합뉴스 국제",
-      "ts": 1780971968000,
-      "pub": "Tue, 9 Jun 2026 11:26:08 +0900",
       "sentiment": "neutral"
     }
   ]

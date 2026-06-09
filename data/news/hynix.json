@@ -1,8 +1,48 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-09T19:06:06.956Z",
-  "count": 11,
+  "updated_at": "2026-06-09T21:29:02.186Z",
+  "count": 15,
   "items": [
+    {
+      "title": "삼성전자, 작년 설비·R&D에 90조 투자…반도체 기업 중 1위",
+      "link": "https://www.yna.co.kr/view/AKR20260609155900003",
+      "source": "연합뉴스 경제",
+      "ts": 1781038861000,
+      "pub": "Wed, 10 Jun 2026 06:01:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"반도체 고점 시기상조…지금 저가매수 기회\"",
+      "link": "https://www.hankyung.com/article/2026060965541",
+      "source": "한국경제",
+      "ts": 1781038806000,
+      "pub": "Wed, 10 Jun 2026 06:00:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체주 또 하락…'美헬기 추락'에 방향성 잃은 증시[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/06/10/2026061005293885817",
+      "source": "머니투데이",
+      "ts": 1781037172000,
+      "pub": "Wed, 10 Jun 2026 05:32:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체가 끌어올린 韓 경제… 명목성장률 50년만에 최고",
+      "link": "https://www.mt.co.kr/economy/2026/06/10/2026060920110634036",
+      "source": "머니투데이",
+      "ts": 1781032320000,
+      "pub": "Wed, 10 Jun 2026 04:12:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 중소형주까지 급반등… 팔천피 탈환",
+      "link": "https://www.mt.co.kr/stock/2026/06/10/2026060919571243475",
+      "source": "머니투데이",
+      "ts": 1781032200000,
+      "pub": "Wed, 10 Jun 2026 04:10:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'D램 1위' 삼성, 점유율 더 늘었다",
       "link": "https://www.hankyung.com/article/2026060968261",
@@ -49,14 +89,6 @@
       "source": "한국경제",
       "ts": 1781000606000,
       "pub": "Tue, 09 Jun 2026 19:23:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한진만 \"TSMC 추격, 10년 20년 걸리든 해낼 것\"",
-      "link": "https://www.hankyung.com/article/2026060965981",
-      "source": "한국경제",
-      "ts": 1780997822000,
-      "pub": "Tue, 09 Jun 2026 18:37:02 +0900",
       "sentiment": "neutral"
     },
     {

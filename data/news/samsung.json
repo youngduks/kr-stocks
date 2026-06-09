@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-09T19:06:06.955Z",
-  "count": 2,
+  "updated_at": "2026-06-09T21:29:02.185Z",
+  "count": 4,
   "items": [
+    {
+      "title": "[속보]삼성전자, 美 '엘리먼트 바이오사이언스' 1대 주주 지위 확보",
+      "link": "https://www.mt.co.kr/industry/2026/06/10/2026061006110912849",
+      "source": "머니투데이",
+      "ts": 1781039599000,
+      "pub": "Wed, 10 Jun 2026 06:13:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 작년 설비·R&D에 90조 투자…반도체 기업 중 1위",
+      "link": "https://www.yna.co.kr/view/AKR20260609155900003",
+      "source": "연합뉴스 경제",
+      "ts": 1781038861000,
+      "pub": "Wed, 10 Jun 2026 06:01:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성전자·SK하이닉스 반도체 공장, 호남에 들어오나",
       "link": "https://www.hankyung.com/article/2026060968247",

@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-10T17:49:50.923Z",
-  "count": 7,
+  "updated_at": "2026-06-10T20:08:51.436Z",
+  "count": 5,
   "items": [
     {
       "title": "유재석 만난 젠슨 황의 고백…\"한국 덕에 엔비디아도 성공\"",
@@ -36,27 +36,11 @@
       "sentiment": "negative"
     },
     {
-      "title": "최태원 \"반도체 차기 공장입지, 종합적으로 고려해 결정\"",
-      "link": "https://www.yna.co.kr/view/AKR20260610029000073",
-      "source": "연합뉴스 국제",
-      "ts": 1781060411000,
-      "pub": "Wed, 10 Jun 2026 12:00:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "반도체 호황에 작년 기업 수익성 개선…'한계기업' 비중도 최고",
       "link": "https://www.yna.co.kr/view/AKR20260610082500002",
       "source": "연합뉴스 경제",
       "ts": 1781060401000,
       "pub": "Wed, 10 Jun 2026 12:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "日라피더스, 英·伊 반도체 연구기관과 공동 R&D 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260610092000073",
-      "source": "연합뉴스 국제",
-      "ts": 1781059367000,
-      "pub": "Wed, 10 Jun 2026 11:42:47 +0900",
       "sentiment": "neutral"
     }
   ]

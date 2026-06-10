@@ -1,38 +1,54 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-09T23:09:00.672Z",
-  "count": 15,
+  "updated_at": "2026-06-10T02:09:34.104Z",
+  "count": 8,
   "items": [
     {
-      "title": "바다 떠나 육지로 간 '검은 반도체'",
-      "link": "https://www.hankyung.com/article/2026060964491",
+      "title": "반도체 반등 하루 만에 꺾여…나스닥 1% 하락",
+      "link": "https://www.hankyung.com/article/202606107625i",
       "source": "한국경제",
-      "ts": 1781046008000,
-      "pub": "Wed, 10 Jun 2026 08:00:08 +0900",
+      "ts": 1781053520000,
+      "pub": "Wed, 10 Jun 2026 10:05:20 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "JP모간운용 \"반도체 슈퍼사이클 장기화…'AI 위너' 여럿 나올 것\"",
-      "link": "https://www.hankyung.com/article/202606096411i",
+      "title": "한미반도체, HBM4 장비 수주 기대감에 반등세",
+      "link": "https://www.hankyung.com/article/2026061075426",
       "source": "한국경제",
-      "ts": 1781046007000,
-      "pub": "Wed, 10 Jun 2026 08:00:07 +0900",
+      "ts": 1781052351000,
+      "pub": "Wed, 10 Jun 2026 09:45:51 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[마켓 라이브] 반도체·보험 약세에 코스피 하락 출발…코스닥은 개인 매수에 소폭 상승",
+      "link": "https://www.hankyung.com/article/202606107486i",
+      "source": "한국경제",
+      "ts": 1781051708000,
+      "pub": "Wed, 10 Jun 2026 09:35:08 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "UBS, '반도체 장비 슈퍼사이클 초입' 평가",
+      "link": "https://www.yna.co.kr/view/AKR20260610034200009",
+      "source": "연합뉴스 국제",
+      "ts": 1781050830000,
+      "pub": "Wed, 10 Jun 2026 09:20:30 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"삼성전자, 3분기 영업익 100조원 웃돌 것…CXMT 상장은 호재\"-KB",
-      "link": "https://www.hankyung.com/article/2026061070486",
+      "title": "'양자컴퓨터의 엔비디아' 아이온큐…'매출 1억달러' 달성",
+      "link": "https://www.hankyung.com/article/202606096329i",
       "source": "한국경제",
-      "ts": 1781045008000,
-      "pub": "Wed, 10 Jun 2026 07:43:28 +0900",
+      "ts": 1781050483000,
+      "pub": "Wed, 10 Jun 2026 09:14:43 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[시선강탈] 테크윙 vs 삼양엔씨켐 vs 제주반도체, 공략법은?",
-      "link": "https://www.mt.co.kr/stock/2026/06/10/2026061006317080513",
-      "source": "머니투데이",
-      "ts": 1781043121000,
-      "pub": "Wed, 10 Jun 2026 07:12:01 +0900",
+      "title": "KB證 \"삼성전자, 中 CXMT 상장 계기로 경쟁력 재평가될 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260610028500008",
+      "source": "연합뉴스 경제",
+      "ts": 1781048237000,
+      "pub": "Wed, 10 Jun 2026 08:37:17 +0900",
       "sentiment": "neutral"
     },
     {
@@ -44,84 +60,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "반도체주 또 하락…'美헬기 추락'에 방향성 잃은 증시[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/06/10/2026061005293885817",
-      "source": "머니투데이",
-      "ts": 1781037172000,
-      "pub": "Wed, 10 Jun 2026 05:32:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체가 끌어올린 韓 경제… 명목성장률 50년만에 최고",
-      "link": "https://www.mt.co.kr/economy/2026/06/10/2026060920110634036",
-      "source": "머니투데이",
-      "ts": 1781032320000,
-      "pub": "Wed, 10 Jun 2026 04:12:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 중소형주까지 급반등… 팔천피 탈환",
-      "link": "https://www.mt.co.kr/stock/2026/06/10/2026060919571243475",
-      "source": "머니투데이",
-      "ts": 1781032200000,
-      "pub": "Wed, 10 Jun 2026 04:10:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'D램 1위' 삼성, 점유율 더 늘었다",
-      "link": "https://www.hankyung.com/article/2026060968261",
-      "source": "한국경제",
-      "ts": 1781019523000,
-      "pub": "Wed, 10 Jun 2026 00:38:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 규제 비웃는 中…\"해외자회사 이용해 TSMC서 AI칩 생산 가능\"",
-      "link": "https://www.hankyung.com/article/202606096852i",
-      "source": "한국경제",
-      "ts": 1781015792000,
-      "pub": "Tue, 09 Jun 2026 23:36:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 유가하락·반도체주 이틀째 반등에 상승",
-      "link": "https://www.hankyung.com/article/202606096845i",
-      "source": "한국경제",
-      "ts": 1781014366000,
-      "pub": "Tue, 09 Jun 2026 23:12:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자·SK하이닉스 반도체 공장, 호남에 들어오나",
-      "link": "https://www.hankyung.com/article/2026060968247",
-      "source": "한국경제",
-      "ts": 1781011804000,
-      "pub": "Tue, 09 Jun 2026 22:30:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "호남·충청권에 삼성전자·SK하이닉스 반도체 신규투자안 검토",
       "link": "https://www.yna.co.kr/view/AKR20260609170700003",
       "source": "연합뉴스 경제",
       "ts": 1781010363000,
       "pub": "Tue, 9 Jun 2026 22:06:03 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] '30만전자'·'200만닉스' 회복…하이닉스 상승률 역대 최대(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260609041251008",
-      "source": "연합뉴스 경제",
-      "ts": 1780990889000,
-      "pub": "Tue, 9 Jun 2026 16:41:29 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'전날 이상거래' 하이닉스 레버리지, 급락해 '정상가격' 거래(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260609072251008",
-      "source": "연합뉴스 경제",
-      "ts": 1780971221000,
-      "pub": "Tue, 9 Jun 2026 11:13:41 +0900",
-      "sentiment": "negative"
     }
   ]
 }

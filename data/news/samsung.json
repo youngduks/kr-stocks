@@ -1,30 +1,30 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-09T23:09:00.671Z",
-  "count": 10,
+  "updated_at": "2026-06-10T02:09:34.104Z",
+  "count": 6,
   "items": [
     {
-      "title": "\"삼성전자, 3분기 영업익 100조원 웃돌 것…CXMT 상장은 호재\"-KB",
-      "link": "https://www.hankyung.com/article/2026061070486",
+      "title": "한미반도체, HBM4 장비 수주 기대감에 반등세",
+      "link": "https://www.hankyung.com/article/2026061075426",
       "source": "한국경제",
-      "ts": 1781045008000,
-      "pub": "Wed, 10 Jun 2026 07:43:28 +0900",
-      "sentiment": "neutral"
+      "ts": 1781052351000,
+      "pub": "Wed, 10 Jun 2026 09:45:51 +0900",
+      "sentiment": "positive"
     },
     {
-      "title": "삼성전자도 안했는데…카카오 오늘 첫 파업",
-      "link": "https://www.hankyung.com/article/2026061070287",
-      "source": "한국경제",
-      "ts": 1781044864000,
-      "pub": "Wed, 10 Jun 2026 07:41:04 +0900",
+      "title": "[특징주] 삼전·닉스, 장초반 2%대 약세",
+      "link": "https://www.yna.co.kr/view/AKR20260610041800008",
+      "source": "연합뉴스 경제",
+      "ts": 1781050768000,
+      "pub": "Wed, 10 Jun 2026 09:19:28 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "\"삼성전자 성과급 믿고 샀어요\"…동탄 국평 20억 뚫었다",
-      "link": "https://www.hankyung.com/article/2026060965161",
-      "source": "한국경제",
-      "ts": 1781042402000,
-      "pub": "Wed, 10 Jun 2026 07:00:02 +0900",
+      "title": "KB證 \"삼성전자, 中 CXMT 상장 계기로 경쟁력 재평가될 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260610028500008",
+      "source": "연합뉴스 경제",
+      "ts": 1781048237000,
+      "pub": "Wed, 10 Jun 2026 08:37:17 +0900",
       "sentiment": "neutral"
     },
     {
@@ -36,43 +36,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"삼전닉스보다 낫다\"…불붙은 동탄 집값 [주간이집]",
-      "link": "https://www.hankyung.com/article/2026060956866",
-      "source": "한국경제",
-      "ts": 1781040603000,
-      "pub": "Wed, 10 Jun 2026 06:30:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]삼성전자, 美 '엘리먼트 바이오사이언스' 1대 주주 지위 확보",
-      "link": "https://www.mt.co.kr/industry/2026/06/10/2026061006110912849",
-      "source": "머니투데이",
-      "ts": 1781039599000,
-      "pub": "Wed, 10 Jun 2026 06:13:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "삼성전자, 작년 설비·R&D에 90조 투자…반도체 기업 중 1위",
       "link": "https://www.yna.co.kr/view/AKR20260609155900003",
       "source": "연합뉴스 경제",
       "ts": 1781038861000,
       "pub": "Wed, 10 Jun 2026 06:01:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "20% 빠졌는데 지금 사라?…삼전·SK하닉에 무슨 일이",
-      "link": "https://www.hankyung.com/article/2026060965541",
-      "source": "한국경제",
-      "ts": 1781038806000,
-      "pub": "Wed, 10 Jun 2026 06:00:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자·SK하이닉스 반도체 공장, 호남에 들어오나",
-      "link": "https://www.hankyung.com/article/2026060968247",
-      "source": "한국경제",
-      "ts": 1781011804000,
-      "pub": "Tue, 09 Jun 2026 22:30:04 +0900",
       "sentiment": "neutral"
     },
     {

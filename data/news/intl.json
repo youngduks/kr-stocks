@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-09T23:09:00.670Z",
-  "count": 24,
+  "updated_at": "2026-06-10T02:09:34.102Z",
+  "count": 22,
   "items": [
+    {
+      "title": "'트럼프 측근' 그레이엄 의원, 상원 예비선거 승리…본선 직행",
+      "link": "https://www.yna.co.kr/view/AKR20260610072200071",
+      "source": "연합뉴스 국제",
+      "ts": 1781055681000,
+      "pub": "Wed, 10 Jun 2026 10:41:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란이 美 헬기 격추\"…美 보복공격 개시",
+      "link": "https://www.hankyung.com/article/202606107308i",
+      "source": "한국경제",
+      "ts": 1781050269000,
+      "pub": "Wed, 10 Jun 2026 09:11:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美의회, 100조원 이민단속예산 처리…트럼프 임기말까지 재원확보",
+      "link": "https://www.yna.co.kr/view/AKR20260610033600071",
+      "source": "연합뉴스 국제",
+      "ts": 1781049923000,
+      "pub": "Wed, 10 Jun 2026 09:05:23 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美중소기업인 \"관세 15%든 25%든 상관없어…불확실성이 더 문제\"",
       "link": "https://www.yna.co.kr/view/AKR20260609110800072",
@@ -28,14 +52,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "美헬기 추락에 트럼프 보복 예고…휴전 국면 다시 흔들리나",
-      "link": "https://www.hankyung.com/article/2026061069617",
-      "source": "한국경제",
-      "ts": 1781040058000,
-      "pub": "Wed, 10 Jun 2026 06:20:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, 이란에 '아파치 격추' 보복예고…호르무즈 긴장수위↑(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260610002851071",
       "source": "연합뉴스 국제",
@@ -52,11 +68,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"호르무즈 추락 美헬기, 이란 공격에 대응할 것\"",
-      "link": "https://www.mt.co.kr/world/2026/06/10/2026061004090628163",
-      "source": "머니투데이",
-      "ts": 1781032297000,
-      "pub": "Wed, 10 Jun 2026 04:11:37 +0900",
+      "title": "안끝나는 이란전에 중간선거 빨간불…부정선거 불지피는 트럼프",
+      "link": "https://www.yna.co.kr/view/AKR20260610003800071",
+      "source": "연합뉴스 국제",
+      "ts": 1781027508000,
+      "pub": "Wed, 10 Jun 2026 02:51:48 +0900",
       "sentiment": "neutral"
     },
     {
@@ -105,14 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781017226000,
       "pub": "Wed, 10 Jun 2026 00:00:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'운명의 CPI' 앞두고 불안한 시장…끝없는 스페이스X 밸류 논쟁 [빈난새의 개장전요것만]",
-      "link": "https://www.hankyung.com/article/202606096856i",
-      "source": "한국경제",
-      "ts": 1781017012000,
-      "pub": "Tue, 09 Jun 2026 23:56:52 +0900",
       "sentiment": "neutral"
     },
     {
@@ -169,30 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1780994601000,
       "pub": "Tue, 9 Jun 2026 17:43:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 방탄유리 뒤의 트럼프…뉴욕 닉스 경기 찾았다가 거센 야유",
-      "link": "https://www.yna.co.kr/view/AKR20260609142900704",
-      "source": "연합뉴스 국제",
-      "ts": 1780990784000,
-      "pub": "Tue, 9 Jun 2026 16:39:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘-헤즈볼라 충돌 희생양 레바논…\"다시 내전 소용돌이로\"",
-      "link": "https://www.yna.co.kr/view/AKR20260609133400009",
-      "source": "연합뉴스 국제",
-      "ts": 1780989889000,
-      "pub": "Tue, 9 Jun 2026 16:24:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 민주당 후보 역전에 또 '음모론'…중간선거 불복 포석?",
-      "link": "https://www.yna.co.kr/view/AKR20260609137700009",
-      "source": "연합뉴스 국제",
-      "ts": 1780989310000,
-      "pub": "Tue, 9 Jun 2026 16:15:10 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,56 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-10T06:57:12.215Z",
-  "count": 9,
+  "updated_at": "2026-06-10T10:52:29.515Z",
+  "count": 12,
   "items": [
+    {
+      "title": "앰코, 광주에 1조 투자 검토…반도체 후공정 공장 증설",
+      "link": "https://www.yna.co.kr/view/AKR20260610165100054",
+      "source": "연합뉴스 경제",
+      "ts": 1781086905000,
+      "pub": "Wed, 10 Jun 2026 19:21:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 8월 美 증시 입성…21조원 실탄 장전",
+      "link": "https://www.hankyung.com/article/202606109197i",
+      "source": "한국경제",
+      "ts": 1781086341000,
+      "pub": "Wed, 10 Jun 2026 19:12:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "직업계고 변화 이끄는 정부…'新산업' AI·반도체 학과 확대",
+      "link": "https://www.hankyung.com/article/2026061089921",
+      "source": "한국경제",
+      "ts": 1781085604000,
+      "pub": "Wed, 10 Jun 2026 19:00:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI 반도체주 운명의 날…4%대 인플레·오라클 실적 발표[오미주]",
+      "link": "https://www.mt.co.kr/world/2026/06/10/2026061012223877772",
+      "source": "머니투데이",
+      "ts": 1781082300000,
+      "pub": "Wed, 10 Jun 2026 18:05:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'가격 안올린다'던 TSMC, 칩 가격인상 시사 \"인플레탓 비용상승\"",
+      "link": "https://www.mt.co.kr/world/2026/06/10/2026061016121999016",
+      "source": "머니투데이",
+      "ts": 1781079311000,
+      "pub": "Wed, 10 Jun 2026 17:15:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "최태원 SK회장 \"반도체 차기 공장입지 종합 검토, 해외도 선택지\"",
+      "link": "https://www.mt.co.kr/industry/2026/06/10/2026061016380993075",
+      "source": "머니투데이",
+      "ts": 1781079304000,
+      "pub": "Wed, 10 Jun 2026 17:15:04 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[특징주] 삼성전자·하이닉스, 각각 6.1%·7.5% 급락(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260610041851008",
@@ -12,35 +60,11 @@
       "sentiment": "negative"
     },
     {
-      "title": "디지털트윈으로 반도체 공사현장 관리…이안, 가상융합대상 '대상' 영예",
-      "link": "https://www.mt.co.kr/tech/2026/06/10/2026061014421484248",
-      "source": "머니투데이",
-      "ts": 1781072737000,
-      "pub": "Wed, 10 Jun 2026 15:25:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젠슨황이 틀렸다? \"AI신기술 도입 지연\" 분석, 반도체株 '주르륵'",
-      "link": "https://www.mt.co.kr/world/2026/06/10/2026061009432953419",
-      "source": "머니투데이",
-      "ts": 1781070388000,
-      "pub": "Wed, 10 Jun 2026 14:46:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "최태원 \"반도체 차기 공장입지, 종합적으로 고려해 결정\"",
       "link": "https://www.yna.co.kr/view/AKR20260610029000073",
       "source": "연합뉴스 국제",
       "ts": 1781060411000,
       "pub": "Wed, 10 Jun 2026 12:00:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "최태원 \"키옥시아 투자 수익, 日과 반도체 협력에 재투자할 것\"",
-      "link": "https://www.hankyung.com/article/202606107829i",
-      "source": "한국경제",
-      "ts": 1781060403000,
-      "pub": "Wed, 10 Jun 2026 12:00:03 +0900",
       "sentiment": "neutral"
     },
     {

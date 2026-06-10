@@ -1,8 +1,88 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-10T14:16:10.235Z",
-  "count": 22,
+  "updated_at": "2026-06-10T17:49:50.920Z",
+  "count": 29,
   "items": [
+    {
+      "title": "트럼프 \"오늘 더 강하게 공격하겠다\"…이란 \"굳게 맞설 것\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260611002052071",
+      "source": "연합뉴스 국제",
+      "ts": 1781112090000,
+      "pub": "Thu, 11 Jun 2026 02:21:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"어제 이어 오늘 이란 더 강하게 다시 공격할 것\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260611002051071",
+      "source": "연합뉴스 국제",
+      "ts": 1781110646000,
+      "pub": "Thu, 11 Jun 2026 01:57:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"어제 이어 오늘 이란 더 강하게 다시 공격할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611002000071",
+      "source": "연합뉴스 국제",
+      "ts": 1781107823000,
+      "pub": "Thu, 11 Jun 2026 01:10:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"이란과 완전히 협상돼…그들은 서명만 하면 돼\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611001700071",
+      "source": "연합뉴스 국제",
+      "ts": 1781107307000,
+      "pub": "Thu, 11 Jun 2026 01:01:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"오늘 이란 더 강하게 다시 공격할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611001400071",
+      "source": "연합뉴스 국제",
+      "ts": 1781106787000,
+      "pub": "Thu, 11 Jun 2026 00:53:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"외국인 도감청법, 美안보에 중요…의회에 연장 요청\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611000800071",
+      "source": "연합뉴스 국제",
+      "ts": 1781105382000,
+      "pub": "Thu, 11 Jun 2026 00:29:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란군 대변인 \"이란 위협하는 트럼프에 강력한 응징\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611000700009",
+      "source": "연합뉴스 국제",
+      "ts": 1781105106000,
+      "pub": "Thu, 11 Jun 2026 00:25:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李대통령, EU에 철강관세·탄소세 도입 우려 표명",
+      "link": "https://www.hankyung.com/article/2026061093591",
+      "source": "한국경제",
+      "ts": 1781100510000,
+      "pub": "Wed, 10 Jun 2026 23:08:30 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프 \"이란, 협상 너무 오래 끌어…대가 치러야 할 것\"",
+      "link": "https://www.hankyung.com/article/2026061093491",
+      "source": "한국경제",
+      "ts": 1781100074000,
+      "pub": "Wed, 10 Jun 2026 23:01:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 CPI 3년來 최고…연내 금리인상 힘실려",
+      "link": "https://www.hankyung.com/article/2026061093481",
+      "source": "한국경제",
+      "ts": 1781099965000,
+      "pub": "Wed, 10 Jun 2026 22:59:25 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "뉴욕증시, 미-이란 갈등·CPI 소화하며 하락 출발",
       "link": "https://www.yna.co.kr/view/AKR20260610177600009",
@@ -18,14 +98,6 @@
       "ts": 1781094752000,
       "pub": "Wed, 10 Jun 2026 21:32:32 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란 발전소·교량 공격할 수도\"…합의 지지부진하자 공습 경고",
-      "link": "https://www.mt.co.kr/world/2026/06/10/2026061021085682506",
-      "source": "머니투데이",
-      "ts": 1781094324000,
-      "pub": "Wed, 10 Jun 2026 21:25:24 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "[속보] 트럼프 \"협상 시간 끄는 이란에 대응해 새 공습 명령할 수도\"",
@@ -65,14 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781091199000,
       "pub": "Wed, 10 Jun 2026 20:33:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란 협상 너무 끌어…대가 치를 때 됐다\"",
-      "link": "https://www.mt.co.kr/world/2026/06/10/2026061020161384044",
-      "source": "머니투데이",
-      "ts": 1781090765000,
-      "pub": "Wed, 10 Jun 2026 20:26:05 +0900",
       "sentiment": "neutral"
     },
     {
@@ -169,14 +233,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781065344000,
       "pub": "Wed, 10 Jun 2026 13:22:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 측근' 그레이엄 의원, 상원 예비선거 승리…본선 직행",
-      "link": "https://www.yna.co.kr/view/AKR20260610072200071",
-      "source": "연합뉴스 국제",
-      "ts": 1781055681000,
-      "pub": "Wed, 10 Jun 2026 10:41:21 +0900",
       "sentiment": "neutral"
     }
   ]

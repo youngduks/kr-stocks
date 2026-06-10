@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-10T14:16:10.237Z",
-  "count": 10,
+  "updated_at": "2026-06-10T17:49:50.923Z",
+  "count": 7,
   "items": [
+    {
+      "title": "유재석 만난 젠슨 황의 고백…\"한국 덕에 엔비디아도 성공\"",
+      "link": "https://www.hankyung.com/article/2026061093747",
+      "source": "한국경제",
+      "ts": 1781103387000,
+      "pub": "Wed, 10 Jun 2026 23:56:27 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"삼전닉스 고맙다\"…인천공항도 '반도체 특수'에 웃는 이유",
       "link": "https://www.hankyung.com/article/2026061089811",
@@ -17,30 +25,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781086905000,
       "pub": "Wed, 10 Jun 2026 19:21:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'엔비디아 핵심 파트너 뜬다'…SK하이닉스, 美상장 초읽기",
-      "link": "https://www.hankyung.com/article/202606109197i",
-      "source": "한국경제",
-      "ts": 1781086341000,
-      "pub": "Wed, 10 Jun 2026 19:12:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "직업계고 변화 이끄는 정부…'新산업' AI·반도체 학과 확대",
-      "link": "https://www.hankyung.com/article/2026061089921",
-      "source": "한국경제",
-      "ts": 1781085604000,
-      "pub": "Wed, 10 Jun 2026 19:00:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI 반도체주 운명의 날…4%대 인플레·오라클 실적 발표[오미주]",
-      "link": "https://www.mt.co.kr/world/2026/06/10/2026061012223877772",
-      "source": "머니투데이",
-      "ts": 1781082300000,
-      "pub": "Wed, 10 Jun 2026 18:05:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -73,14 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781059367000,
       "pub": "Wed, 10 Jun 2026 11:42:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "TSMC \"인플레로 비용 상승…반도체 가격 인상 가능성 배제 안해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260610085200009",
-      "source": "연합뉴스 국제",
-      "ts": 1781058430000,
-      "pub": "Wed, 10 Jun 2026 11:27:10 +0900",
       "sentiment": "neutral"
     }
   ]

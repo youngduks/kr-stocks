@@ -1,54 +1,30 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-10T02:09:34.104Z",
-  "count": 6,
+  "updated_at": "2026-06-10T06:57:12.214Z",
+  "count": 3,
   "items": [
     {
-      "title": "한미반도체, HBM4 장비 수주 기대감에 반등세",
-      "link": "https://www.hankyung.com/article/2026061075426",
-      "source": "한국경제",
-      "ts": 1781052351000,
-      "pub": "Wed, 10 Jun 2026 09:45:51 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[특징주] 삼전·닉스, 장초반 2%대 약세",
-      "link": "https://www.yna.co.kr/view/AKR20260610041800008",
+      "title": "[특징주] 삼성전자·하이닉스, 각각 6.1%·7.5% 급락(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260610041851008",
       "source": "연합뉴스 경제",
-      "ts": 1781050768000,
-      "pub": "Wed, 10 Jun 2026 09:19:28 +0900",
+      "ts": 1781073930000,
+      "pub": "Wed, 10 Jun 2026 15:45:30 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "KB證 \"삼성전자, 中 CXMT 상장 계기로 경쟁력 재평가될 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260610028500008",
-      "source": "연합뉴스 경제",
-      "ts": 1781048237000,
-      "pub": "Wed, 10 Jun 2026 08:37:17 +0900",
+      "title": "16년 전 이건희의 특명…삼성전자가 '유전자 분석 기업' 품은 이유는?",
+      "link": "https://www.mt.co.kr/industry/2026/06/10/2026061013304364663",
+      "source": "머니투데이",
+      "ts": 1781071201000,
+      "pub": "Wed, 10 Jun 2026 15:00:01 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "삼성전자, 미국 DNA분석장비기업 추가 투자해 1대주주 지위",
-      "link": "https://www.yna.co.kr/view/AKR20260610013300003",
-      "source": "연합뉴스 경제",
-      "ts": 1781041310000,
-      "pub": "Wed, 10 Jun 2026 06:41:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 작년 설비·R&D에 90조 투자…반도체 기업 중 1위",
-      "link": "https://www.yna.co.kr/view/AKR20260609155900003",
-      "source": "연합뉴스 경제",
-      "ts": 1781038861000,
-      "pub": "Wed, 10 Jun 2026 06:01:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "호남·충청권에 삼성전자·SK하이닉스 반도체 신규투자안 검토",
-      "link": "https://www.yna.co.kr/view/AKR20260609170700003",
-      "source": "연합뉴스 경제",
-      "ts": 1781010363000,
-      "pub": "Tue, 9 Jun 2026 22:06:03 +0900",
+      "title": "\"이재용·정의선·최태원 중 '찐친'은…\" 젠슨 황 '유 퀴즈' PICK은",
+      "link": "https://www.hankyung.com/article/202606108042i",
+      "source": "한국경제",
+      "ts": 1781069423000,
+      "pub": "Wed, 10 Jun 2026 14:30:23 +0900",
       "sentiment": "neutral"
     }
   ]

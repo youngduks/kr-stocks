@@ -1,31 +1,71 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-10T02:09:34.104Z",
-  "count": 8,
+  "updated_at": "2026-06-10T06:57:12.215Z",
+  "count": 9,
   "items": [
     {
-      "title": "반도체 반등 하루 만에 꺾여…나스닥 1% 하락",
-      "link": "https://www.hankyung.com/article/202606107625i",
-      "source": "한국경제",
-      "ts": 1781053520000,
-      "pub": "Wed, 10 Jun 2026 10:05:20 +0900",
+      "title": "[특징주] 삼성전자·하이닉스, 각각 6.1%·7.5% 급락(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260610041851008",
+      "source": "연합뉴스 경제",
+      "ts": 1781073930000,
+      "pub": "Wed, 10 Jun 2026 15:45:30 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "디지털트윈으로 반도체 공사현장 관리…이안, 가상융합대상 '대상' 영예",
+      "link": "https://www.mt.co.kr/tech/2026/06/10/2026061014421484248",
+      "source": "머니투데이",
+      "ts": 1781072737000,
+      "pub": "Wed, 10 Jun 2026 15:25:37 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "한미반도체, HBM4 장비 수주 기대감에 반등세",
-      "link": "https://www.hankyung.com/article/2026061075426",
-      "source": "한국경제",
-      "ts": 1781052351000,
-      "pub": "Wed, 10 Jun 2026 09:45:51 +0900",
-      "sentiment": "positive"
+      "title": "젠슨황이 틀렸다? \"AI신기술 도입 지연\" 분석, 반도체株 '주르륵'",
+      "link": "https://www.mt.co.kr/world/2026/06/10/2026061009432953419",
+      "source": "머니투데이",
+      "ts": 1781070388000,
+      "pub": "Wed, 10 Jun 2026 14:46:28 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "[마켓 라이브] 반도체·보험 약세에 코스피 하락 출발…코스닥은 개인 매수에 소폭 상승",
-      "link": "https://www.hankyung.com/article/202606107486i",
+      "title": "최태원 \"반도체 차기 공장입지, 종합적으로 고려해 결정\"",
+      "link": "https://www.yna.co.kr/view/AKR20260610029000073",
+      "source": "연합뉴스 국제",
+      "ts": 1781060411000,
+      "pub": "Wed, 10 Jun 2026 12:00:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "최태원 \"키옥시아 투자 수익, 日과 반도체 협력에 재투자할 것\"",
+      "link": "https://www.hankyung.com/article/202606107829i",
       "source": "한국경제",
-      "ts": 1781051708000,
-      "pub": "Wed, 10 Jun 2026 09:35:08 +0900",
-      "sentiment": "negative"
+      "ts": 1781060403000,
+      "pub": "Wed, 10 Jun 2026 12:00:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 호황에 작년 기업 수익성 개선…'한계기업' 비중도 최고",
+      "link": "https://www.yna.co.kr/view/AKR20260610082500002",
+      "source": "연합뉴스 경제",
+      "ts": 1781060401000,
+      "pub": "Wed, 10 Jun 2026 12:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "日라피더스, 英·伊 반도체 연구기관과 공동 R&D 추진",
+      "link": "https://www.yna.co.kr/view/AKR20260610092000073",
+      "source": "연합뉴스 국제",
+      "ts": 1781059367000,
+      "pub": "Wed, 10 Jun 2026 11:42:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "TSMC \"인플레로 비용 상승…반도체 가격 인상 가능성 배제 안해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260610085200009",
+      "source": "연합뉴스 국제",
+      "ts": 1781058430000,
+      "pub": "Wed, 10 Jun 2026 11:27:10 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "UBS, '반도체 장비 슈퍼사이클 초입' 평가",
@@ -33,38 +73,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781050830000,
       "pub": "Wed, 10 Jun 2026 09:20:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'양자컴퓨터의 엔비디아' 아이온큐…'매출 1억달러' 달성",
-      "link": "https://www.hankyung.com/article/202606096329i",
-      "source": "한국경제",
-      "ts": 1781050483000,
-      "pub": "Wed, 10 Jun 2026 09:14:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "KB證 \"삼성전자, 中 CXMT 상장 계기로 경쟁력 재평가될 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260610028500008",
-      "source": "연합뉴스 경제",
-      "ts": 1781048237000,
-      "pub": "Wed, 10 Jun 2026 08:37:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 작년 설비·R&D에 90조 투자…반도체 기업 중 1위",
-      "link": "https://www.yna.co.kr/view/AKR20260609155900003",
-      "source": "연합뉴스 경제",
-      "ts": 1781038861000,
-      "pub": "Wed, 10 Jun 2026 06:01:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "호남·충청권에 삼성전자·SK하이닉스 반도체 신규투자안 검토",
-      "link": "https://www.yna.co.kr/view/AKR20260609170700003",
-      "source": "연합뉴스 경제",
-      "ts": 1781010363000,
-      "pub": "Tue, 9 Jun 2026 22:06:03 +0900",
       "sentiment": "neutral"
     }
   ]

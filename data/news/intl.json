@@ -1,22 +1,54 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-10T02:09:34.102Z",
-  "count": 22,
+  "updated_at": "2026-06-10T06:57:12.213Z",
+  "count": 13,
   "items": [
+    {
+      "title": "\"트럼프, 무력충돌 뒤에도 '이란과 합의 근접' 판단\"",
+      "link": "https://www.yna.co.kr/view/AKR20260610132300009",
+      "source": "연합뉴스 국제",
+      "ts": 1781073913000,
+      "pub": "Wed, 10 Jun 2026 15:45:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란, 걸프국들 향해 \"美·이스라엘 공격 막을 책임 있다\" 경고",
+      "link": "https://www.yna.co.kr/view/AKR20260610125000009",
+      "source": "연합뉴스 국제",
+      "ts": 1781072462000,
+      "pub": "Wed, 10 Jun 2026 15:21:02 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "지역별 첨단전략산업 밀착 지원…관세청 '원스톱 지원팀' 가동",
+      "link": "https://www.yna.co.kr/view/AKR20260610113900002",
+      "source": "연합뉴스 경제",
+      "ts": 1781071201000,
+      "pub": "Wed, 10 Jun 2026 15:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "샌더스가 민 정치신인·트럼프 측근, 美상원 중간선거로 직행(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260610066051072",
+      "source": "연합뉴스 국제",
+      "ts": 1781069366000,
+      "pub": "Wed, 10 Jun 2026 14:29:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[동정] 이종욱 관세청장, 튀니지 대표단 면담…K-원산지관리시스템 보급",
+      "link": "https://www.yna.co.kr/view/AKR20260610098100002",
+      "source": "연합뉴스 경제",
+      "ts": 1781065344000,
+      "pub": "Wed, 10 Jun 2026 13:22:24 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'트럼프 측근' 그레이엄 의원, 상원 예비선거 승리…본선 직행",
       "link": "https://www.yna.co.kr/view/AKR20260610072200071",
       "source": "연합뉴스 국제",
       "ts": 1781055681000,
       "pub": "Wed, 10 Jun 2026 10:41:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란이 美 헬기 격추\"…美 보복공격 개시",
-      "link": "https://www.hankyung.com/article/202606107308i",
-      "source": "한국경제",
-      "ts": 1781050269000,
-      "pub": "Wed, 10 Jun 2026 09:11:09 +0900",
       "sentiment": "neutral"
     },
     {
@@ -73,110 +105,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781027508000,
       "pub": "Wed, 10 Jun 2026 02:51:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란이 호르무즈 순찰하던 美헬기 격추…반드시 대응\"",
-      "link": "https://www.yna.co.kr/view/AKR20260610002800071",
-      "source": "연합뉴스 국제",
-      "ts": 1781024746000,
-      "pub": "Wed, 10 Jun 2026 02:05:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'에너지난' 크림반도 계속 때리는 우크라…약한 고리 노렸나(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260609152251109",
-      "source": "연합뉴스 국제",
-      "ts": 1781023829000,
-      "pub": "Wed, 10 Jun 2026 01:50:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란의 美아파치헬기 격추에 반드시 대응할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260610002200071",
-      "source": "연합뉴스 국제",
-      "ts": 1781023462000,
-      "pub": "Wed, 10 Jun 2026 01:44:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "영국·프랑스 등 6개국, 이스라엘 극우 장관 등 입국 금지(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260609172151081",
-      "source": "연합뉴스 국제",
-      "ts": 1781019025000,
-      "pub": "Wed, 10 Jun 2026 00:30:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘군 참모총장 \"이란에 더 가혹한 타격 계획했었다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260609175700079",
-      "source": "연합뉴스 국제",
-      "ts": 1781017285000,
-      "pub": "Wed, 10 Jun 2026 00:01:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美행정부, 트럼프 80세 생일 이벤트 앞두고 'UFC 띄우기'",
-      "link": "https://www.yna.co.kr/view/AKR20260609175600071",
-      "source": "연합뉴스 국제",
-      "ts": 1781017226000,
-      "pub": "Wed, 10 Jun 2026 00:00:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "EU \"우크라전 참전 러시아 군인 유럽 입국 금지\"",
-      "link": "https://www.yna.co.kr/view/AKR20260609175200098",
-      "source": "연합뉴스 국제",
-      "ts": 1781016747000,
-      "pub": "Tue, 9 Jun 2026 23:52:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라·라트비아, 드론 공동 생산 협정",
-      "link": "https://www.yna.co.kr/view/AKR20260609174700109",
-      "source": "연합뉴스 국제",
-      "ts": 1781016401000,
-      "pub": "Tue, 9 Jun 2026 23:46:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "영국·프랑스 등 6개국, 이스라엘 극우 장관 등 입국 금지",
-      "link": "https://www.yna.co.kr/view/AKR20260609172100081",
-      "source": "연합뉴스 국제",
-      "ts": 1781010782000,
-      "pub": "Tue, 9 Jun 2026 22:13:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'친러' 불가리아 새 정부, 우크라 무기 지원 중단 방침",
-      "link": "https://www.yna.co.kr/view/AKR20260609170800109",
-      "source": "연합뉴스 국제",
-      "ts": 1781008515000,
-      "pub": "Tue, 9 Jun 2026 21:35:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"강력한 합의할 것…이란 핵무기 불허\"",
-      "link": "https://www.yna.co.kr/view/AKR20260609168800009",
-      "source": "연합뉴스 국제",
-      "ts": 1781006809000,
-      "pub": "Tue, 9 Jun 2026 21:06:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키 \"러, 유럽·美로부터 고립…경제는 붕괴 직전\"",
-      "link": "https://www.yna.co.kr/view/AKR20260609155500081",
-      "source": "연합뉴스 국제",
-      "ts": 1780995381000,
-      "pub": "Tue, 9 Jun 2026 17:56:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'에너지난' 크림반도 계속 때리는 우크라…약한 고리 노렸나",
-      "link": "https://www.yna.co.kr/view/AKR20260609152200109",
-      "source": "연합뉴스 국제",
-      "ts": 1780994601000,
-      "pub": "Tue, 9 Jun 2026 17:43:21 +0900",
       "sentiment": "neutral"
     }
   ]

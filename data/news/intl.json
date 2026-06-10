@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-10T20:08:51.434Z",
-  "count": 34,
+  "updated_at": "2026-06-10T22:46:24.479Z",
+  "count": 35,
   "items": [
+    {
+      "title": "트럼프 \"이란 더 강하게 타격\"…나스닥 2% 급락 [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026061195616",
+      "source": "한국경제",
+      "ts": 1781129945000,
+      "pub": "Thu, 11 Jun 2026 07:19:05 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"작년 백악관 상황실서 엡스틴 대책회의…참모진 진흙탕 싸움\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611014300072",
+      "source": "연합뉴스 국제",
+      "ts": 1781129127000,
+      "pub": "Thu, 11 Jun 2026 07:05:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 유엔대사 \"트럼프, 외교적 해결 원하면 위협발언 자제해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611014400072",
+      "source": "연합뉴스 국제",
+      "ts": 1781127913000,
+      "pub": "Thu, 11 Jun 2026 06:45:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 안보팀 회의서 이란공격 논의…대규모 단기작전 검토\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611010400071",
+      "source": "연합뉴스 국제",
+      "ts": 1781126221000,
+      "pub": "Thu, 11 Jun 2026 06:17:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "불난 데 기름 붓나…트럼프 \"나는 인플레가 너무 좋아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611009300071",
+      "source": "연합뉴스 국제",
+      "ts": 1781125202000,
+      "pub": "Thu, 11 Jun 2026 06:00:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 트럼프 '이란 추가 타격' 경고에 하락…나스닥 2%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260611007200072",
+      "source": "연합뉴스 국제",
+      "ts": 1781122347000,
+      "pub": "Thu, 11 Jun 2026 05:12:27 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "美 검찰, 2021년 트럼프 계좌 폐쇄한 주요 은행 수사",
       "link": "https://www.yna.co.kr/view/AKR20260611005900072",
@@ -140,14 +188,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[속보] 트럼프 \"협상 시간 끄는 이란에 대응해 새 공습 명령할 수도\"",
-      "link": "https://www.hankyung.com/article/2026061092707",
-      "source": "한국경제",
-      "ts": 1781091986000,
-      "pub": "Wed, 10 Jun 2026 20:46:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] 트럼프 \"협상 시간끄는 이란에 대응해 새 공습 명령할 수도\"",
       "link": "https://www.yna.co.kr/view/AKR20260610171500071",
       "source": "연합뉴스 국제",
@@ -164,27 +204,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[속보] 트럼프 \"이란 발전소·교량 겨냥 새 공습 가까워져\"",
-      "link": "https://www.hankyung.com/article/2026061092657",
-      "source": "한국경제",
-      "ts": 1781091543000,
-      "pub": "Wed, 10 Jun 2026 20:39:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"이란, 협상 너무 오래 끌었다…대가 치러야 할 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260610171000009",
       "source": "연합뉴스 국제",
       "ts": 1781091199000,
       "pub": "Wed, 10 Jun 2026 20:33:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란, 협상 너무 오래 끌어…대가 치러야\"",
-      "link": "https://www.hankyung.com/article/2026061092557",
-      "source": "한국경제",
-      "ts": 1781089996000,
-      "pub": "Wed, 10 Jun 2026 20:13:16 +0900",
       "sentiment": "neutral"
     },
     {
@@ -244,27 +268,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "이란, 걸프국들 향해 \"美·이스라엘 공격 막을 책임 있다\" 경고",
-      "link": "https://www.yna.co.kr/view/AKR20260610125000009",
-      "source": "연합뉴스 국제",
-      "ts": 1781072462000,
-      "pub": "Wed, 10 Jun 2026 15:21:02 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "지역별 첨단전략산업 밀착 지원…관세청 '원스톱 지원팀' 가동",
       "link": "https://www.yna.co.kr/view/AKR20260610113900002",
       "source": "연합뉴스 경제",
       "ts": 1781071201000,
       "pub": "Wed, 10 Jun 2026 15:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "샌더스가 민 정치신인·트럼프 측근, 美상원 중간선거로 직행(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260610066051072",
-      "source": "연합뉴스 국제",
-      "ts": 1781069366000,
-      "pub": "Wed, 10 Jun 2026 14:29:26 +0900",
       "sentiment": "neutral"
     },
     {

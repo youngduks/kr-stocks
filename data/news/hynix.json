@@ -1,22 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-10T20:08:51.436Z",
+  "updated_at": "2026-06-10T22:46:24.481Z",
   "count": 5,
   "items": [
+    {
+      "title": "최태원 \"日에 AI 데이터센터 구축…엔비디아와 협력, 반도체 공장도 검토\"",
+      "link": "https://www.hankyung.com/article/202606119553i",
+      "source": "한국경제",
+      "ts": 1781129917000,
+      "pub": "Thu, 11 Jun 2026 07:18:37 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "유재석 만난 젠슨 황의 고백…\"한국 덕에 엔비디아도 성공\"",
       "link": "https://www.hankyung.com/article/2026061093747",
       "source": "한국경제",
       "ts": 1781103387000,
       "pub": "Wed, 10 Jun 2026 23:56:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼전닉스 고맙다\"…인천공항도 '반도체 특수'에 웃는 이유",
-      "link": "https://www.hankyung.com/article/2026061089811",
-      "source": "한국경제",
-      "ts": 1781092803000,
-      "pub": "Wed, 10 Jun 2026 21:00:03 +0900",
       "sentiment": "neutral"
     },
     {

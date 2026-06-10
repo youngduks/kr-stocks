@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-10T10:52:29.515Z",
-  "count": 12,
+  "updated_at": "2026-06-10T14:16:10.237Z",
+  "count": 10,
   "items": [
+    {
+      "title": "\"삼전닉스 고맙다\"…인천공항도 '반도체 특수'에 웃는 이유",
+      "link": "https://www.hankyung.com/article/2026061089811",
+      "source": "한국경제",
+      "ts": 1781092803000,
+      "pub": "Wed, 10 Jun 2026 21:00:03 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "앰코, 광주에 1조 투자 검토…반도체 후공정 공장 증설",
       "link": "https://www.yna.co.kr/view/AKR20260610165100054",
@@ -12,7 +20,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "SK하이닉스 8월 美 증시 입성…21조원 실탄 장전",
+      "title": "'엔비디아 핵심 파트너 뜬다'…SK하이닉스, 美상장 초읽기",
       "link": "https://www.hankyung.com/article/202606109197i",
       "source": "한국경제",
       "ts": 1781086341000,
@@ -33,22 +41,6 @@
       "source": "머니투데이",
       "ts": 1781082300000,
       "pub": "Wed, 10 Jun 2026 18:05:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'가격 안올린다'던 TSMC, 칩 가격인상 시사 \"인플레탓 비용상승\"",
-      "link": "https://www.mt.co.kr/world/2026/06/10/2026061016121999016",
-      "source": "머니투데이",
-      "ts": 1781079311000,
-      "pub": "Wed, 10 Jun 2026 17:15:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "최태원 SK회장 \"반도체 차기 공장입지 종합 검토, 해외도 선택지\"",
-      "link": "https://www.mt.co.kr/industry/2026/06/10/2026061016380993075",
-      "source": "머니투데이",
-      "ts": 1781079304000,
-      "pub": "Wed, 10 Jun 2026 17:15:04 +0900",
       "sentiment": "neutral"
     },
     {
@@ -89,14 +81,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781058430000,
       "pub": "Wed, 10 Jun 2026 11:27:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "UBS, '반도체 장비 슈퍼사이클 초입' 평가",
-      "link": "https://www.yna.co.kr/view/AKR20260610034200009",
-      "source": "연합뉴스 국제",
-      "ts": 1781050830000,
-      "pub": "Wed, 10 Jun 2026 09:20:30 +0900",
       "sentiment": "neutral"
     }
   ]

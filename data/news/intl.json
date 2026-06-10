@@ -1,8 +1,88 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-10T10:52:29.513Z",
-  "count": 14,
+  "updated_at": "2026-06-10T14:16:10.235Z",
+  "count": 22,
   "items": [
+    {
+      "title": "뉴욕증시, 미-이란 갈등·CPI 소화하며 하락 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260610177600009",
+      "source": "연합뉴스 국제",
+      "ts": 1781099587000,
+      "pub": "Wed, 10 Jun 2026 22:53:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"협상 시간끄는 이란의 발전소·교량 새 공습 가까워져\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260610171051009",
+      "source": "연합뉴스 국제",
+      "ts": 1781094752000,
+      "pub": "Wed, 10 Jun 2026 21:32:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 발전소·교량 공격할 수도\"…합의 지지부진하자 공습 경고",
+      "link": "https://www.mt.co.kr/world/2026/06/10/2026061021085682506",
+      "source": "머니투데이",
+      "ts": 1781094324000,
+      "pub": "Wed, 10 Jun 2026 21:25:24 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[속보] 트럼프 \"협상 시간 끄는 이란에 대응해 새 공습 명령할 수도\"",
+      "link": "https://www.hankyung.com/article/2026061092707",
+      "source": "한국경제",
+      "ts": 1781091986000,
+      "pub": "Wed, 10 Jun 2026 20:46:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"협상 시간끄는 이란에 대응해 새 공습 명령할 수도\"",
+      "link": "https://www.yna.co.kr/view/AKR20260610171500071",
+      "source": "연합뉴스 국제",
+      "ts": 1781091888000,
+      "pub": "Wed, 10 Jun 2026 20:44:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"이란 발전소·교량 겨냥 새 공습 가까워져\"",
+      "link": "https://www.yna.co.kr/view/AKR20260610171300071",
+      "source": "연합뉴스 국제",
+      "ts": 1781091745000,
+      "pub": "Wed, 10 Jun 2026 20:42:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"이란 발전소·교량 겨냥 새 공습 가까워져\"",
+      "link": "https://www.hankyung.com/article/2026061092657",
+      "source": "한국경제",
+      "ts": 1781091543000,
+      "pub": "Wed, 10 Jun 2026 20:39:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란, 협상 너무 오래 끌었다…대가 치러야 할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260610171000009",
+      "source": "연합뉴스 국제",
+      "ts": 1781091199000,
+      "pub": "Wed, 10 Jun 2026 20:33:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 협상 너무 끌어…대가 치를 때 됐다\"",
+      "link": "https://www.mt.co.kr/world/2026/06/10/2026061020161384044",
+      "source": "머니투데이",
+      "ts": 1781090765000,
+      "pub": "Wed, 10 Jun 2026 20:26:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란, 협상 너무 오래 끌어…대가 치러야\"",
+      "link": "https://www.hankyung.com/article/2026061092557",
+      "source": "한국경제",
+      "ts": 1781089996000,
+      "pub": "Wed, 10 Jun 2026 20:13:16 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이스라엘 여당 \"네타냐후 차기 총선 출마…재선 도전\"",
       "link": "https://www.yna.co.kr/view/AKR20260610165800079",
@@ -25,14 +105,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781084436000,
       "pub": "Wed, 10 Jun 2026 18:40:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 공격했지만 트럼프 여전히 \"합의 임박\" 판단, 왜?",
-      "link": "https://www.mt.co.kr/world/2026/06/10/2026061017123642604",
-      "source": "머니투데이",
-      "ts": 1781081760000,
-      "pub": "Wed, 10 Jun 2026 17:56:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -105,14 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781055681000,
       "pub": "Wed, 10 Jun 2026 10:41:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美의회, 100조원 이민단속예산 처리…트럼프 임기말까지 재원확보",
-      "link": "https://www.yna.co.kr/view/AKR20260610033600071",
-      "source": "연합뉴스 국제",
-      "ts": 1781049923000,
-      "pub": "Wed, 10 Jun 2026 09:05:23 +0900",
       "sentiment": "neutral"
     }
   ]

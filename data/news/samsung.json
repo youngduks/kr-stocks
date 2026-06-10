@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-10T10:52:29.515Z",
-  "count": 1,
+  "updated_at": "2026-06-10T14:16:10.237Z",
+  "count": 3,
   "items": [
+    {
+      "title": "\"삼전닉스 고맙다\"…인천공항도 '반도체 특수'에 웃는 이유",
+      "link": "https://www.hankyung.com/article/2026061089811",
+      "source": "한국경제",
+      "ts": 1781092803000,
+      "pub": "Wed, 10 Jun 2026 21:00:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼전닉스 직원 성과급은 무효\"…분노한 개미들 '집단행동'",
+      "link": "https://www.hankyung.com/article/202606108378g",
+      "source": "한국경제",
+      "ts": 1781092802000,
+      "pub": "Wed, 10 Jun 2026 21:00:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[특징주] 삼성전자·하이닉스, 각각 6.1%·7.5% 급락(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260610041851008",

@@ -1,26 +1,90 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-11T05:19:34.034Z",
-  "count": 13,
+  "updated_at": "2026-06-11T10:02:32.087Z",
+  "count": 15,
   "items": [
     {
-      "title": "한울반도체 \"관계사 엑사리온, 엔비디아 커넥트 프로그램 회원사 선정\"",
-      "link": "https://www.mt.co.kr/stock/2026/06/11/2026061111522292860",
-      "source": "머니투데이",
-      "ts": 1781153377000,
-      "pub": "Thu, 11 Jun 2026 13:49:37 +0900",
+      "title": "김용범 \"韓, 반도체·데이터센터·피지컬AI 묶어 핵심 거점으로\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611159000001",
+      "source": "연합뉴스 경제",
+      "ts": 1781170614000,
+      "pub": "Thu, 11 Jun 2026 18:36:54 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[더벨]한울반도체 \"엑사리온, 엔비디아 커넥트 프로그램 선정\"",
-      "link": "https://www.mt.co.kr/stock/2026/06/11/2026061112359617857",
+      "title": "보스반도체, NXP 출신 '디르크 라이머' 유럽 영업부사장으로 선임",
+      "link": "https://www.mt.co.kr/future/2026/06/11/2026061116183671707",
       "source": "머니투데이",
-      "ts": 1781152020000,
-      "pub": "Thu, 11 Jun 2026 13:27:00 +0900",
+      "ts": 1781170200000,
+      "pub": "Thu, 11 Jun 2026 18:30:00 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "하이닉스 신규 투자 검토에 조상호 \"사활 걸고 유치 나서보겠다\"",
+      "title": "기업들이 먼저 \"학생 보내달라\" 러브콜…'귀한 몸' 반도체高",
+      "link": "https://www.hankyung.com/article/2026061115211",
+      "source": "한국경제",
+      "ts": 1781169200000,
+      "pub": "Thu, 11 Jun 2026 18:13:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우리운용 \"반도체BIG2플러스 펀드 1년 수익률 74%…독보적 1위\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611149300008",
+      "source": "연합뉴스 경제",
+      "ts": 1781165436000,
+      "pub": "Thu, 11 Jun 2026 17:10:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성 반도체 공사 현장까지 발목…\"피해 25% 급증\" 레미콘 파업 후폭풍",
+      "link": "https://www.mt.co.kr/estate/2026/06/11/2026061114370147382",
+      "source": "머니투데이",
+      "ts": 1781163739000,
+      "pub": "Thu, 11 Jun 2026 16:42:19 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[인터뷰] 캐시우드 \"테슬라 손잡은 삼전 주목…반도체 분할 매수해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611134700008",
+      "source": "연합뉴스 경제",
+      "ts": 1781163298000,
+      "pub": "Thu, 11 Jun 2026 16:34:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"TSMC, 미국서 특허권 침해소송 당해…이달 중 예비판정 전망\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611135500009",
+      "source": "연합뉴스 국제",
+      "ts": 1781162293000,
+      "pub": "Thu, 11 Jun 2026 16:18:13 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"삼전닉스 직원들 집보러 와요\"…훈풍 탄 반도체 벨트 부동산",
+      "link": "https://www.yna.co.kr/view/AKR20260611130100003",
+      "source": "연합뉴스 경제",
+      "ts": 1781161681000,
+      "pub": "Thu, 11 Jun 2026 16:08:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] '30만전자' 내준 삼전, 하이닉스 2.6%↑…외인 순매수(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260611045751008",
+      "source": "연합뉴스 경제",
+      "ts": 1781161448000,
+      "pub": "Thu, 11 Jun 2026 16:04:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 올해 국내 브랜드 가치 1위…SK하이닉스 톱10 진입",
+      "link": "https://www.yna.co.kr/view/AKR20260611118400003",
+      "source": "연합뉴스 경제",
+      "ts": 1781157771000,
+      "pub": "Thu, 11 Jun 2026 15:02:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하이닉스 신규투자에 세종시장 당선인 \"사활 걸고 유치 나서겠다\"",
       "link": "https://www.yna.co.kr/view/AKR20260611088100063",
       "source": "연합뉴스 경제",
       "ts": 1781146801000,
@@ -33,22 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781146300000,
       "pub": "Thu, 11 Jun 2026 11:51:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체로 영역 넓히는 한솔그룹...\"사업재편으로 신성장동력 찾는다\"",
-      "link": "https://www.mt.co.kr/living/2026/06/11/2026061110380753368",
-      "source": "머니투데이",
-      "ts": 1781145325000,
-      "pub": "Thu, 11 Jun 2026 11:35:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"CXMT 상장해도 끄떡없다\"…투자 초고수의 픽은 '삼성전자'",
-      "link": "https://www.hankyung.com/article/202606110288i",
-      "source": "한국경제",
-      "ts": 1781144153000,
-      "pub": "Thu, 11 Jun 2026 11:15:53 +0900",
       "sentiment": "neutral"
     },
     {
@@ -73,38 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781138183000,
       "pub": "Thu, 11 Jun 2026 09:36:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] '30만전자' 내준 삼성전자…하이닉스는 혼조",
-      "link": "https://www.yna.co.kr/view/AKR20260611045700008",
-      "source": "연합뉴스 경제",
-      "ts": 1781137941000,
-      "pub": "Thu, 11 Jun 2026 09:32:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미래에셋 \"반도체TOP10커버드콜액티브 6월 분배금 주당 215원\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611048000008",
-      "source": "연합뉴스 경제",
-      "ts": 1781137756000,
-      "pub": "Thu, 11 Jun 2026 09:29:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 특수에 날개 단 수출…이달 초 85.9% 늘어 역대 최대치(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260611038251002",
-      "source": "연합뉴스 경제",
-      "ts": 1781137653000,
-      "pub": "Thu, 11 Jun 2026 09:27:33 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "삼성·SK 반도체 지방 투자 검토…광주 첨단3지구 '주목'",
-      "link": "https://www.yna.co.kr/view/AKR20260610069400054",
-      "source": "연합뉴스 경제",
-      "ts": 1781135296000,
-      "pub": "Thu, 11 Jun 2026 08:48:16 +0900",
       "sentiment": "neutral"
     }
   ]

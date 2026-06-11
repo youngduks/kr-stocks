@@ -1,14 +1,102 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-11T05:19:34.032Z",
-  "count": 23,
+  "updated_at": "2026-06-11T10:02:32.085Z",
+  "count": 18,
   "items": [
     {
-      "title": "트럼프 \"토마호크 49발로 이란 공습…합의 안하면 내일 박살\"",
-      "link": "https://www.hankyung.com/article/2026061101347",
-      "source": "한국경제",
-      "ts": 1781143322000,
-      "pub": "Thu, 11 Jun 2026 11:02:02 +0900",
+      "title": "푸틴 지지율 떨어지자…불편한 여론조사 결과 '증발'",
+      "link": "https://www.yna.co.kr/view/AKR20260611159200081",
+      "source": "연합뉴스 국제",
+      "ts": 1781170706000,
+      "pub": "Thu, 11 Jun 2026 18:38:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李대통령, EU에 '철강관세 우호 고려' 요청…靑 \"좋은결과 기대\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260611145551001",
+      "source": "연합뉴스 경제",
+      "ts": 1781168445000,
+      "pub": "Thu, 11 Jun 2026 18:00:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"李대통령, EU에 韓 철강관세 우호적 고려 강력 요청…좋은 결과 있을 것\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/11/2026061117475331476",
+      "source": "머니투데이",
+      "ts": 1781167886000,
+      "pub": "Thu, 11 Jun 2026 17:51:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"총리 계속하고 싶을까\"…네타냐후 총선 재출마, 전쟁 변수로",
+      "link": "https://www.mt.co.kr/world/2026/06/11/2026061116063690567",
+      "source": "머니투데이",
+      "ts": 1781166697000,
+      "pub": "Thu, 11 Jun 2026 17:31:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李대통령, EU에 '철강관세 우호 고려' 요청…靑 \"좋은결과 기대\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611145500001",
+      "source": "연합뉴스 경제",
+      "ts": 1781165660000,
+      "pub": "Thu, 11 Jun 2026 17:14:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 사거리 3천㎞ 우크라 순항미사일 '플라밍고'…러 군수공장 타격",
+      "link": "https://www.yna.co.kr/view/AKR20260611148300704",
+      "source": "연합뉴스 국제",
+      "ts": 1781165264000,
+      "pub": "Thu, 11 Jun 2026 17:07:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"대만의 AI칩 對중국 수출 통제 논의는 '기술냉전'의 일부\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611132100009",
+      "source": "연합뉴스 국제",
+      "ts": 1781163854000,
+      "pub": "Thu, 11 Jun 2026 16:44:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 李대통령, EU에 '철강관세 韓에 대한 우호적 고려' 강력요청",
+      "link": "https://www.yna.co.kr/view/AKR20260611138800001",
+      "source": "연합뉴스 경제",
+      "ts": 1781162664000,
+      "pub": "Thu, 11 Jun 2026 16:24:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 행정부, 맘다니-콜롬비아 대통령 '좌파 회동' 제동",
+      "link": "https://www.yna.co.kr/view/AKR20260611133600009",
+      "source": "연합뉴스 국제",
+      "ts": 1781161450000,
+      "pub": "Thu, 11 Jun 2026 16:04:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美국무부 부장관 \"아세안에 LNG·LPG 판매 증대 모색\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611131300084",
+      "source": "연합뉴스 국제",
+      "ts": 1781160869000,
+      "pub": "Thu, 11 Jun 2026 15:54:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라전 1천569일째…끝모를 전투에 1차대전보다 길어진 잔혹사",
+      "link": "https://www.yna.co.kr/view/AKR20260611125200009",
+      "source": "연합뉴스 국제",
+      "ts": 1781160164000,
+      "pub": "Thu, 11 Jun 2026 15:42:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"AI 기업들과 회의…국민 '환원' 방안 논의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611099500009",
+      "source": "연합뉴스 국제",
+      "ts": 1781156149000,
+      "pub": "Thu, 11 Jun 2026 14:35:49 +0900",
       "sentiment": "neutral"
     },
     {
@@ -52,139 +140,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "키움증권 \"美 5월 CPI, 에너지발 충격 전방위 확산은 제한적\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611032200008",
-      "source": "연합뉴스 경제",
-      "ts": 1781134988000,
-      "pub": "Thu, 11 Jun 2026 08:43:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"북미무역협정 연장 생각 없다\"",
       "link": "https://www.yna.co.kr/view/AKR20260611025500009",
       "source": "연합뉴스 국제",
       "ts": 1781134851000,
       "pub": "Thu, 11 Jun 2026 08:40:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"미군 공습 곧 멈출것…내가 이란 당국자와 직접 대화\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611031200071",
-      "source": "연합뉴스 국제",
-      "ts": 1781134543000,
-      "pub": "Thu, 11 Jun 2026 08:35:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"작년 백악관 상황실서 엡스틴 대책회의…참모진 진흙탕 싸움\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611014300072",
-      "source": "연합뉴스 국제",
-      "ts": 1781129127000,
-      "pub": "Thu, 11 Jun 2026 07:05:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 유엔대사 \"트럼프, 외교적 해결 원하면 위협발언 자제해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611014400072",
-      "source": "연합뉴스 국제",
-      "ts": 1781127913000,
-      "pub": "Thu, 11 Jun 2026 06:45:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 안보팀 회의서 이란공격 논의…대규모 단기작전 검토\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611010400071",
-      "source": "연합뉴스 국제",
-      "ts": 1781126221000,
-      "pub": "Thu, 11 Jun 2026 06:17:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "불난 데 기름 붓나…트럼프 \"나는 인플레가 너무 좋아\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611009300071",
-      "source": "연합뉴스 국제",
-      "ts": 1781125202000,
-      "pub": "Thu, 11 Jun 2026 06:00:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 트럼프 '이란 추가 타격' 경고에 하락…나스닥 2%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260611007200072",
-      "source": "연합뉴스 국제",
-      "ts": 1781122347000,
-      "pub": "Thu, 11 Jun 2026 05:12:27 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "美 검찰, 2021년 트럼프 계좌 폐쇄한 주요 은행 수사",
-      "link": "https://www.yna.co.kr/view/AKR20260611005900072",
-      "source": "연합뉴스 국제",
-      "ts": 1781120176000,
-      "pub": "Thu, 11 Jun 2026 04:36:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"호르무즈 통과선박 지원 비밀작전…1억배럴 이상 공급\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611004500071",
-      "source": "연합뉴스 국제",
-      "ts": 1781115955000,
-      "pub": "Thu, 11 Jun 2026 03:25:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"그간 상선 200여척 호르무즈 통과…1억배럴 이상 공급\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611004000071",
-      "source": "연합뉴스 국제",
-      "ts": 1781114279000,
-      "pub": "Thu, 11 Jun 2026 02:57:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"지난달 미군에 호르무즈 통과 선박 지원 비밀작전 지시\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611003900071",
-      "source": "연합뉴스 국제",
-      "ts": 1781114066000,
-      "pub": "Thu, 11 Jun 2026 02:54:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"오늘 더 강하게 공격하겠다\"…이란 \"굳게 맞설 것\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260611002052071",
-      "source": "연합뉴스 국제",
-      "ts": 1781112090000,
-      "pub": "Thu, 11 Jun 2026 02:21:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"어제 이어 오늘 이란 더 강하게 다시 공격할 것\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260611002051071",
-      "source": "연합뉴스 국제",
-      "ts": 1781110646000,
-      "pub": "Thu, 11 Jun 2026 01:57:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"어제 이어 오늘 이란 더 강하게 다시 공격할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611002000071",
-      "source": "연합뉴스 국제",
-      "ts": 1781107823000,
-      "pub": "Thu, 11 Jun 2026 01:10:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란과 완전히 협상돼…그들은 서명만 하면 돼\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611001700071",
-      "source": "연합뉴스 국제",
-      "ts": 1781107307000,
-      "pub": "Thu, 11 Jun 2026 01:01:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"오늘 이란 더 강하게 다시 공격할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611001400071",
-      "source": "연합뉴스 국제",
-      "ts": 1781106787000,
-      "pub": "Thu, 11 Jun 2026 00:53:07 +0900",
       "sentiment": "neutral"
     }
   ]

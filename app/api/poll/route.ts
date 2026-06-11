@@ -13,6 +13,8 @@ const POLLS: Record<string, { closedAt: string }> = {
   "market-updown-2026-06-09": { closedAt: "2026-06-08T23:00:00.000Z" },
   // 인간지표 — 내일(6/10 수) 상승 vs 하락. 마감 = NXT 프리장 오픈 6/10 08:00 KST = 6/9 23:00 UTC
   "market-updown-2026-06-10": { closedAt: "2026-06-09T23:00:00.000Z" },
+  // 인간지표 — 내일(6/12 금) 상승 vs 하락. 마감 = NXT 프리장 오픈 6/12 08:00 KST = 6/11 23:00 UTC
+  "market-updown-2026-06-12": { closedAt: "2026-06-11T23:00:00.000Z" },
 };
 
 function getClosedAt(pollId: string): string | null {

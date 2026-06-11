@@ -1,7 +1,7 @@
 /**
  * scripts/update-poll.mjs
  *
- * 매일 평일 16:15 KST (07:15 UTC) GitHub Actions에서 실행.
+ * 매일 평일 15:45 KST (06:45 UTC) GitHub Actions에서 실행.
  * 1. 오늘 마감된 투표 결과 → data/polls/history.json 최상단에 추가
  * 2. 다음 거래일 투표 → app/api/poll/route.ts POLLS 오브젝트에 추가
  * 3. app/page.tsx PollWidget → 다음 거래일로 업데이트
@@ -250,7 +250,7 @@ async function main() {
     console.log(`[update-poll] ${nextId} 이미 route.ts에 존재 → skip`);
   } else {
     // closedAt: 다음 거래일 08:00 KST = 전날 23:00 UTC
-    const closedAtDate = new Date(`${nextDay}T08:00:00+09:00`);
+    const closedAtDate = new Date(`${nextDay}T09:00:00+09:00`);
     // 실제로는 전날 23:00 UTC
     const closedAt = new Date(closedAtDate.getTime() - 9 * 60 * 60 * 1000)
       .toISOString()
@@ -271,7 +271,7 @@ async function main() {
     })();
 
     const newLine =
-      `  // 인간지표 — 내일(${shortNext}) 상승 vs 하락. 마감 = NXT 프리장 오픈 ${shortNext} 08:00 KST = ${shortPrev} 23:00 UTC\n` +
+      `  // 인간지표 — 내일(${shortNext}) 상승 vs 하락. 마감 = 장 시작 전 ${shortNext} 09:00 KST = ${nextDay} 00:00 UTC\n` +
       `  "${nextId}": { closedAt: "${closedAt}" },`;
 
     // POLLS 오브젝트 닫는 }; 바로 앞에 삽입

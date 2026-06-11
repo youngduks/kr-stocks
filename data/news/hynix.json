@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-11T10:02:32.087Z",
-  "count": 15,
+  "updated_at": "2026-06-11T14:28:55.595Z",
+  "count": 10,
   "items": [
     {
       "title": "김용범 \"韓, 반도체·데이터센터·피지컬AI 묶어 핵심 거점으로\"",
@@ -12,36 +12,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "보스반도체, NXP 출신 '디르크 라이머' 유럽 영업부사장으로 선임",
-      "link": "https://www.mt.co.kr/future/2026/06/11/2026061116183671707",
-      "source": "머니투데이",
-      "ts": 1781170200000,
-      "pub": "Thu, 11 Jun 2026 18:30:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "기업들이 먼저 \"학생 보내달라\" 러브콜…'귀한 몸' 반도체高",
-      "link": "https://www.hankyung.com/article/2026061115211",
-      "source": "한국경제",
-      "ts": 1781169200000,
-      "pub": "Thu, 11 Jun 2026 18:13:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "우리운용 \"반도체BIG2플러스 펀드 1년 수익률 74%…독보적 1위\"",
       "link": "https://www.yna.co.kr/view/AKR20260611149300008",
       "source": "연합뉴스 경제",
       "ts": 1781165436000,
       "pub": "Thu, 11 Jun 2026 17:10:36 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "삼성 반도체 공사 현장까지 발목…\"피해 25% 급증\" 레미콘 파업 후폭풍",
-      "link": "https://www.mt.co.kr/estate/2026/06/11/2026061114370147382",
-      "source": "머니투데이",
-      "ts": 1781163739000,
-      "pub": "Thu, 11 Jun 2026 16:42:19 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "[인터뷰] 캐시우드 \"테슬라 손잡은 삼전 주목…반도체 분할 매수해야\"",
@@ -100,28 +76,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'중동쇼크' 취업자 감소 전환…반도체 활황에도 제조업 14만↓(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260610175952002",
-      "source": "연합뉴스 경제",
-      "ts": 1781143144000,
-      "pub": "Thu, 11 Jun 2026 10:59:04 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "AI 투자 열풍 속 대만 TSMC 5월 매출 20조원…역대 최대 기록",
       "link": "https://www.yna.co.kr/view/AKR20260611068200083",
       "source": "연합뉴스 국제",
       "ts": 1781141574000,
       "pub": "Thu, 11 Jun 2026 10:32:54 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "최태원 \"日, 반도체공장 훌륭한 후보지…日서 AI팩토리도 가동\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611047700073",
-      "source": "연합뉴스 국제",
-      "ts": 1781138183000,
-      "pub": "Thu, 11 Jun 2026 09:36:23 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

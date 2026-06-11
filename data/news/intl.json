@@ -1,8 +1,80 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-11T10:02:32.085Z",
-  "count": 18,
+  "updated_at": "2026-06-11T14:28:55.594Z",
+  "count": 20,
   "items": [
+    {
+      "title": "\"서안 점령지 농산물, 이스라엘산 둔갑해 EU 유입\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611176300081",
+      "source": "연합뉴스 국제",
+      "ts": 1781186559000,
+      "pub": "Thu, 11 Jun 2026 23:02:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"오늘 밤 이란 강력 타격…석유 시설 장악할 것\"",
+      "link": "https://www.hankyung.com/article/2026061118231",
+      "source": "한국경제",
+      "ts": 1781186415000,
+      "pub": "Thu, 11 Jun 2026 23:00:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"오늘밤 對이란 폭격, 더 크고 더 강력할것\"",
+      "link": "https://www.hankyung.com/article/2026061118057",
+      "source": "한국경제",
+      "ts": 1781183046000,
+      "pub": "Thu, 11 Jun 2026 22:04:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"오늘밤 對이란 폭격, 더 크고 더 강력할것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611175100071",
+      "source": "연합뉴스 국제",
+      "ts": 1781182911000,
+      "pub": "Thu, 11 Jun 2026 22:01:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 사흘째 이란공격 예고…\"머잖아 석유인프라 거점 점령\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611174100071",
+      "source": "연합뉴스 국제",
+      "ts": 1781182206000,
+      "pub": "Thu, 11 Jun 2026 21:50:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"머지 않아 베네수처럼 이란 석유·가스 시장 장악\"",
+      "link": "https://www.hankyung.com/article/2026061117817",
+      "source": "한국경제",
+      "ts": 1781181019000,
+      "pub": "Thu, 11 Jun 2026 21:30:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 이란 강력 타격 예고…\"머잖아 석유 인프라 거점 확보\"",
+      "link": "https://www.hankyung.com/article/2026061117797",
+      "source": "한국경제",
+      "ts": 1781180963000,
+      "pub": "Thu, 11 Jun 2026 21:29:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"머지 않아 베네수처럼 이란 석유·가스 시장 장악\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611171800071",
+      "source": "연합뉴스 국제",
+      "ts": 1781180895000,
+      "pub": "Thu, 11 Jun 2026 21:28:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"오늘밤 이란 매우 강력히 타격\"…사흘째 공격 예고",
+      "link": "https://www.yna.co.kr/view/AKR20260611171700071",
+      "source": "연합뉴스 국제",
+      "ts": 1781180865000,
+      "pub": "Thu, 11 Jun 2026 21:27:45 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "푸틴 지지율 떨어지자…불편한 여론조사 결과 '증발'",
       "link": "https://www.yna.co.kr/view/AKR20260611159200081",
@@ -17,22 +89,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781168445000,
       "pub": "Thu, 11 Jun 2026 18:00:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"李대통령, EU에 韓 철강관세 우호적 고려 강력 요청…좋은 결과 있을 것\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/11/2026061117475331476",
-      "source": "머니투데이",
-      "ts": 1781167886000,
-      "pub": "Thu, 11 Jun 2026 17:51:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"총리 계속하고 싶을까\"…네타냐후 총선 재출마, 전쟁 변수로",
-      "link": "https://www.mt.co.kr/world/2026/06/11/2026061116063690567",
-      "source": "머니투데이",
-      "ts": 1781166697000,
-      "pub": "Thu, 11 Jun 2026 17:31:37 +0900",
       "sentiment": "neutral"
     },
     {
@@ -105,46 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781142573000,
       "pub": "Thu, 11 Jun 2026 10:49:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프·모디, 내주 프랑스 G7 정상회의 때 별도 회담 가능성",
-      "link": "https://www.yna.co.kr/view/AKR20260611064400104",
-      "source": "연합뉴스 국제",
-      "ts": 1781140872000,
-      "pub": "Thu, 11 Jun 2026 10:21:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"토마호크 49발로 이란 공습…합의 안하면 내일 박살\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260611034651071",
-      "source": "연합뉴스 국제",
-      "ts": 1781139757000,
-      "pub": "Thu, 11 Jun 2026 10:02:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"시진핑은 빼줘\"…오픈AI \"中연계 추정 AI·관세 여론조작 적발\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611054900091",
-      "source": "연합뉴스 국제",
-      "ts": 1781139518000,
-      "pub": "Thu, 11 Jun 2026 09:58:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"미군 공습 곧 멈출것…내가 이란 당국자와 직접 대화\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611034600071",
-      "source": "연합뉴스 국제",
-      "ts": 1781135453000,
-      "pub": "Thu, 11 Jun 2026 08:50:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"북미무역협정 연장 생각 없다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611025500009",
-      "source": "연합뉴스 국제",
-      "ts": 1781134851000,
-      "pub": "Thu, 11 Jun 2026 08:40:51 +0900",
       "sentiment": "neutral"
     }
   ]

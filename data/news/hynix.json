@@ -1,23 +1,103 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-11T00:07:30.028Z",
-  "count": 6,
+  "updated_at": "2026-06-11T05:19:34.034Z",
+  "count": 13,
   "items": [
     {
-      "title": "'반도체 호황' 안방으로…삼성전자 'K-로청' 대중화 속도",
-      "link": "https://www.hankyung.com/article/202606119797g",
-      "source": "한국경제",
-      "ts": 1781135836000,
-      "pub": "Thu, 11 Jun 2026 08:57:16 +0900",
+      "title": "한울반도체 \"관계사 엑사리온, 엔비디아 커넥트 프로그램 회원사 선정\"",
+      "link": "https://www.mt.co.kr/stock/2026/06/11/2026061111522292860",
+      "source": "머니투데이",
+      "ts": 1781153377000,
+      "pub": "Thu, 11 Jun 2026 13:49:37 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "반도체·AI 투매 확대...美 소비재·유통·에너지 주목",
-      "link": "https://www.hankyung.com/article/202606119579i",
-      "source": "한국경제",
-      "ts": 1781135301000,
-      "pub": "Thu, 11 Jun 2026 08:48:21 +0900",
+      "title": "[더벨]한울반도체 \"엑사리온, 엔비디아 커넥트 프로그램 선정\"",
+      "link": "https://www.mt.co.kr/stock/2026/06/11/2026061112359617857",
+      "source": "머니투데이",
+      "ts": 1781152020000,
+      "pub": "Thu, 11 Jun 2026 13:27:00 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "하이닉스 신규 투자 검토에 조상호 \"사활 걸고 유치 나서보겠다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611088100063",
+      "source": "연합뉴스 경제",
+      "ts": 1781146801000,
+      "pub": "Thu, 11 Jun 2026 12:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "독일 로봇기업, 엔비디아 등서 2.1조원 유치",
+      "link": "https://www.yna.co.kr/view/AKR20260611087600009",
+      "source": "연합뉴스 국제",
+      "ts": 1781146300000,
+      "pub": "Thu, 11 Jun 2026 11:51:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체로 영역 넓히는 한솔그룹...\"사업재편으로 신성장동력 찾는다\"",
+      "link": "https://www.mt.co.kr/living/2026/06/11/2026061110380753368",
+      "source": "머니투데이",
+      "ts": 1781145325000,
+      "pub": "Thu, 11 Jun 2026 11:35:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"CXMT 상장해도 끄떡없다\"…투자 초고수의 픽은 '삼성전자'",
+      "link": "https://www.hankyung.com/article/202606110288i",
+      "source": "한국경제",
+      "ts": 1781144153000,
+      "pub": "Thu, 11 Jun 2026 11:15:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'중동쇼크' 취업자 감소 전환…반도체 활황에도 제조업 14만↓(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260610175952002",
+      "source": "연합뉴스 경제",
+      "ts": 1781143144000,
+      "pub": "Thu, 11 Jun 2026 10:59:04 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "AI 투자 열풍 속 대만 TSMC 5월 매출 20조원…역대 최대 기록",
+      "link": "https://www.yna.co.kr/view/AKR20260611068200083",
+      "source": "연합뉴스 국제",
+      "ts": 1781141574000,
+      "pub": "Thu, 11 Jun 2026 10:32:54 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "최태원 \"日, 반도체공장 훌륭한 후보지…日서 AI팩토리도 가동\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611047700073",
+      "source": "연합뉴스 국제",
+      "ts": 1781138183000,
+      "pub": "Thu, 11 Jun 2026 09:36:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] '30만전자' 내준 삼성전자…하이닉스는 혼조",
+      "link": "https://www.yna.co.kr/view/AKR20260611045700008",
+      "source": "연합뉴스 경제",
+      "ts": 1781137941000,
+      "pub": "Thu, 11 Jun 2026 09:32:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미래에셋 \"반도체TOP10커버드콜액티브 6월 분배금 주당 215원\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611048000008",
+      "source": "연합뉴스 경제",
+      "ts": 1781137756000,
+      "pub": "Thu, 11 Jun 2026 09:29:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 특수에 날개 단 수출…이달 초 85.9% 늘어 역대 최대치(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260611038251002",
+      "source": "연합뉴스 경제",
+      "ts": 1781137653000,
+      "pub": "Thu, 11 Jun 2026 09:27:33 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "삼성·SK 반도체 지방 투자 검토…광주 첨단3지구 '주목'",
@@ -26,30 +106,6 @@
       "ts": 1781135296000,
       "pub": "Thu, 11 Jun 2026 08:48:16 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"메모리 공급  6주→24주로 확대…삼전닉스 수요 더 강해져\"-KB",
-      "link": "https://www.hankyung.com/article/2026061196226",
-      "source": "한국경제",
-      "ts": 1781132594000,
-      "pub": "Thu, 11 Jun 2026 08:03:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "앰코, 광주에 1조 투자 검토…반도체 후공정 공장 증설",
-      "link": "https://www.yna.co.kr/view/AKR20260610165100054",
-      "source": "연합뉴스 경제",
-      "ts": 1781086905000,
-      "pub": "Wed, 10 Jun 2026 19:21:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼성전자·하이닉스, 각각 6.1%·7.5% 급락(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260610041851008",
-      "source": "연합뉴스 경제",
-      "ts": 1781073930000,
-      "pub": "Wed, 10 Jun 2026 15:45:30 +0900",
-      "sentiment": "negative"
     }
   ]
 }

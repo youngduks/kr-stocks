@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-10T22:46:24.480Z",
-  "count": 1,
+  "updated_at": "2026-06-11T00:07:30.027Z",
+  "count": 3,
   "items": [
+    {
+      "title": "'반도체 호황' 안방으로…삼성전자 'K-로청' 대중화 속도",
+      "link": "https://www.hankyung.com/article/202606119797g",
+      "source": "한국경제",
+      "ts": 1781135836000,
+      "pub": "Thu, 11 Jun 2026 08:57:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"메모리 공급  6주→24주로 확대…삼전닉스 수요 더 강해져\"-KB",
+      "link": "https://www.hankyung.com/article/2026061196226",
+      "source": "한국경제",
+      "ts": 1781132594000,
+      "pub": "Thu, 11 Jun 2026 08:03:14 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[특징주] 삼성전자·하이닉스, 각각 6.1%·7.5% 급락(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260610041851008",

@@ -1,22 +1,38 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-10T22:46:24.481Z",
-  "count": 5,
+  "updated_at": "2026-06-11T00:07:30.028Z",
+  "count": 6,
   "items": [
     {
-      "title": "최태원 \"日에 AI 데이터센터 구축…엔비디아와 협력, 반도체 공장도 검토\"",
-      "link": "https://www.hankyung.com/article/202606119553i",
+      "title": "'반도체 호황' 안방으로…삼성전자 'K-로청' 대중화 속도",
+      "link": "https://www.hankyung.com/article/202606119797g",
       "source": "한국경제",
-      "ts": 1781129917000,
-      "pub": "Thu, 11 Jun 2026 07:18:37 +0900",
+      "ts": 1781135836000,
+      "pub": "Thu, 11 Jun 2026 08:57:16 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "유재석 만난 젠슨 황의 고백…\"한국 덕에 엔비디아도 성공\"",
-      "link": "https://www.hankyung.com/article/2026061093747",
+      "title": "반도체·AI 투매 확대...美 소비재·유통·에너지 주목",
+      "link": "https://www.hankyung.com/article/202606119579i",
       "source": "한국경제",
-      "ts": 1781103387000,
-      "pub": "Wed, 10 Jun 2026 23:56:27 +0900",
+      "ts": 1781135301000,
+      "pub": "Thu, 11 Jun 2026 08:48:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성·SK 반도체 지방 투자 검토…광주 첨단3지구 '주목'",
+      "link": "https://www.yna.co.kr/view/AKR20260610069400054",
+      "source": "연합뉴스 경제",
+      "ts": 1781135296000,
+      "pub": "Thu, 11 Jun 2026 08:48:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"메모리 공급  6주→24주로 확대…삼전닉스 수요 더 강해져\"-KB",
+      "link": "https://www.hankyung.com/article/2026061196226",
+      "source": "한국경제",
+      "ts": 1781132594000,
+      "pub": "Thu, 11 Jun 2026 08:03:14 +0900",
       "sentiment": "neutral"
     },
     {
@@ -34,14 +50,6 @@
       "ts": 1781073930000,
       "pub": "Wed, 10 Jun 2026 15:45:30 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "반도체 호황에 작년 기업 수익성 개선…'한계기업' 비중도 최고",
-      "link": "https://www.yna.co.kr/view/AKR20260610082500002",
-      "source": "연합뉴스 경제",
-      "ts": 1781060401000,
-      "pub": "Wed, 10 Jun 2026 12:00:01 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

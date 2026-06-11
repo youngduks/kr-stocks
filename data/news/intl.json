@@ -1,8 +1,72 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-10T22:46:24.479Z",
-  "count": 35,
+  "updated_at": "2026-06-11T00:07:30.026Z",
+  "count": 36,
   "items": [
+    {
+      "title": "트럼프 \"미군 공습 곧 멈출것…내가 이란 당국자와 직접 대화\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611034600071",
+      "source": "연합뉴스 국제",
+      "ts": 1781135453000,
+      "pub": "Thu, 11 Jun 2026 08:50:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 이란 매체 \"트럼프의 이란 접촉 주장 거짓…전쟁회피 의도\"",
+      "link": "https://www.hankyung.com/article/2026061198107",
+      "source": "한국경제",
+      "ts": 1781135118000,
+      "pub": "Thu, 11 Jun 2026 08:45:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "키움증권 \"美 5월 CPI, 에너지발 충격 전방위 확산은 제한적\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611032200008",
+      "source": "연합뉴스 경제",
+      "ts": 1781134988000,
+      "pub": "Thu, 11 Jun 2026 08:43:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"북미무역협정 연장 생각 없다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611025500009",
+      "source": "연합뉴스 국제",
+      "ts": 1781134851000,
+      "pub": "Thu, 11 Jun 2026 08:40:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"난 인플레이션 사랑해\"…논란되자 \"맥락없는 보도\"",
+      "link": "https://www.hankyung.com/article/2026061196247",
+      "source": "한국경제",
+      "ts": 1781134813000,
+      "pub": "Thu, 11 Jun 2026 08:40:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"미군 공습 곧 멈출것…내가 이란 당국자와 직접 대화\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611031200071",
+      "source": "연합뉴스 국제",
+      "ts": 1781134543000,
+      "pub": "Thu, 11 Jun 2026 08:35:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"이란 당국자들과 직접 대화…폭격 곧 중단될 것\"",
+      "link": "https://www.hankyung.com/article/2026061197197",
+      "source": "한국경제",
+      "ts": 1781133923000,
+      "pub": "Thu, 11 Jun 2026 08:25:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 GE 어플라이언스 CEO \"美 공장 지으라면서 설비 수입에 관세\"",
+      "link": "https://www.hankyung.com/article/202606119608i",
+      "source": "한국경제",
+      "ts": 1781133841000,
+      "pub": "Thu, 11 Jun 2026 08:24:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"이란 더 강하게 타격\"…나스닥 2% 급락 [뉴욕증시 브리핑]",
       "link": "https://www.hankyung.com/article/2026061195616",
@@ -148,30 +212,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "李대통령, EU에 철강관세·탄소세 도입 우려 표명",
-      "link": "https://www.hankyung.com/article/2026061093591",
-      "source": "한국경제",
-      "ts": 1781100510000,
-      "pub": "Wed, 10 Jun 2026 23:08:30 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "트럼프 \"이란, 협상 너무 오래 끌어…대가 치러야 할 것\"",
-      "link": "https://www.hankyung.com/article/2026061093491",
-      "source": "한국경제",
-      "ts": 1781100074000,
-      "pub": "Wed, 10 Jun 2026 23:01:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 CPI 3년來 최고…연내 금리인상 힘실려",
-      "link": "https://www.hankyung.com/article/2026061093481",
-      "source": "한국경제",
-      "ts": 1781099965000,
-      "pub": "Wed, 10 Jun 2026 22:59:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "뉴욕증시, 미-이란 갈등·CPI 소화하며 하락 출발",
       "link": "https://www.yna.co.kr/view/AKR20260610177600009",
       "source": "연합뉴스 국제",
@@ -233,38 +273,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781084436000,
       "pub": "Wed, 10 Jun 2026 18:40:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라, 패트리엇 대체할 요격 미사일 발사 시험 성공",
-      "link": "https://www.yna.co.kr/view/AKR20260610138700009",
-      "source": "연합뉴스 국제",
-      "ts": 1781076195000,
-      "pub": "Wed, 10 Jun 2026 16:23:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 훨씬 대담해졌다…이제 대리세력 위해 이스라엘 본토 직격",
-      "link": "https://www.yna.co.kr/view/AKR20260610135800009",
-      "source": "연합뉴스 국제",
-      "ts": 1781075445000,
-      "pub": "Wed, 10 Jun 2026 16:10:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"중국도 동등한 강대국\"…트럼프, 급선회에 아시아 좌불안석",
-      "link": "https://www.yna.co.kr/view/AKR20260610136300009",
-      "source": "연합뉴스 국제",
-      "ts": 1781075238000,
-      "pub": "Wed, 10 Jun 2026 16:07:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 무력충돌 뒤에도 '이란과 합의 근접' 판단\"",
-      "link": "https://www.yna.co.kr/view/AKR20260610132300009",
-      "source": "연합뉴스 국제",
-      "ts": 1781073913000,
-      "pub": "Wed, 10 Jun 2026 15:45:13 +0900",
       "sentiment": "neutral"
     },
     {

@@ -2,7 +2,7 @@ name: Update Poll (인간지표 자동 로테이션)
 
 on:
   schedule:
-    - cron: "15 7 * * 1-5" # 평일 07:15 UTC = 16:15 KST
+    - cron: "45 6 * * 1-5" # 평일 06:45 UTC = 15:45 KST (장 마감 15분 후)
   workflow_dispatch:
 
 permissions:

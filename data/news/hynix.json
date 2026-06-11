@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-11T14:28:55.595Z",
-  "count": 10,
+  "updated_at": "2026-06-11T18:00:40.734Z",
+  "count": 9,
   "items": [
+    {
+      "title": "\"AI 너무 비싸요\" 불붙은 경제성 논란...반도체는 \"정점 멀었다\" [빈난새의 개장전요것만]",
+      "link": "https://www.hankyung.com/article/202606111852i",
+      "source": "한국경제",
+      "ts": 1781190798000,
+      "pub": "Fri, 12 Jun 2026 00:13:18 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "김용범 \"韓, 반도체·데이터센터·피지컬AI 묶어 핵심 거점으로\"",
       "link": "https://www.yna.co.kr/view/AKR20260611159000001",
@@ -66,22 +74,6 @@
       "ts": 1781146801000,
       "pub": "Thu, 11 Jun 2026 12:00:01 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "독일 로봇기업, 엔비디아 등서 2.1조원 유치",
-      "link": "https://www.yna.co.kr/view/AKR20260611087600009",
-      "source": "연합뉴스 국제",
-      "ts": 1781146300000,
-      "pub": "Thu, 11 Jun 2026 11:51:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI 투자 열풍 속 대만 TSMC 5월 매출 20조원…역대 최대 기록",
-      "link": "https://www.yna.co.kr/view/AKR20260611068200083",
-      "source": "연합뉴스 국제",
-      "ts": 1781141574000,
-      "pub": "Thu, 11 Jun 2026 10:32:54 +0900",
-      "sentiment": "positive"
     }
   ]
 }

@@ -1,8 +1,104 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-11T14:28:55.594Z",
-  "count": 20,
+  "updated_at": "2026-06-11T18:00:40.732Z",
+  "count": 34,
   "items": [
+    {
+      "title": "트럼프 \"오늘 저녁 예정 이란 공습 취소\"…사실상 협상타결 시사",
+      "link": "https://www.yna.co.kr/view/AKR20260612004900071",
+      "source": "연합뉴스 국제",
+      "ts": 1781200200000,
+      "pub": "Fri, 12 Jun 2026 02:50:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"이란과의 논의, 이란 최고지도부에 전달돼 승인받아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260612004600071",
+      "source": "연합뉴스 국제",
+      "ts": 1781199516000,
+      "pub": "Fri, 12 Jun 2026 02:38:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"서명식 일시·장소 곧 발표\"…이란과 사실상 합의한듯",
+      "link": "https://www.yna.co.kr/view/AKR20260612004500071",
+      "source": "연합뉴스 국제",
+      "ts": 1781199467000,
+      "pub": "Fri, 12 Jun 2026 02:37:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"오늘 저녁 예정된 이란 공습 취소\"",
+      "link": "https://www.yna.co.kr/view/AKR20260612004000071",
+      "source": "연합뉴스 국제",
+      "ts": 1781199220000,
+      "pub": "Fri, 12 Jun 2026 02:33:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 연장 요청에도…미 하원, '외국인 도·감청법' 부결",
+      "link": "https://www.mt.co.kr/world/2026/06/12/2026061201222377882",
+      "source": "머니투데이",
+      "ts": 1781195171000,
+      "pub": "Fri, 12 Jun 2026 01:26:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'트럼프픽' 美정보국장 대행, 현직 국장에 \"오늘까지만 일해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260612001300071",
+      "source": "연합뉴스 국제",
+      "ts": 1781194100000,
+      "pub": "Fri, 12 Jun 2026 01:08:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "WP \"한중일 강제노동 관세 왜 같나\" 비판에 美무역대표 반박 서한",
+      "link": "https://www.yna.co.kr/view/AKR20260612000800071",
+      "source": "연합뉴스 국제",
+      "ts": 1781192245000,
+      "pub": "Fri, 12 Jun 2026 00:37:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프가 요구한 '외국인 도감청법' 연장안, 하원서 부결",
+      "link": "https://www.yna.co.kr/view/AKR20260612000500071",
+      "source": "연합뉴스 국제",
+      "ts": 1781191340000,
+      "pub": "Fri, 12 Jun 2026 00:22:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프가 제동 걸었던 '미-캐나다 대교' 개통 전격 연기",
+      "link": "https://www.yna.co.kr/view/AKR20260612000200072",
+      "source": "연합뉴스 국제",
+      "ts": 1781190568000,
+      "pub": "Fri, 12 Jun 2026 00:09:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프 저주 깨뜨렸다\" 뉴욕을 구한 건 '팝스타' 테일러? 29점차 대역전승 주인공으로 지목",
+      "link": "https://www.mt.co.kr/sports/2026/06/12/2026061122295918365",
+      "source": "머니투데이",
+      "ts": 1781190120000,
+      "pub": "Fri, 12 Jun 2026 00:02:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘, 프랑스 기자 입국 거부·추방…\"언론자유 저해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260611177300081",
+      "source": "연합뉴스 국제",
+      "ts": 1781188710000,
+      "pub": "Thu, 11 Jun 2026 23:38:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 사흘째 이란공격 예고…\"머잖아 하르그섬·석유거점 점령\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260611174151071",
+      "source": "연합뉴스 국제",
+      "ts": 1781187839000,
+      "pub": "Thu, 11 Jun 2026 23:23:59 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"서안 점령지 농산물, 이스라엘산 둔갑해 EU 유입\"",
       "link": "https://www.yna.co.kr/view/AKR20260611176300081",
@@ -17,6 +113,14 @@
       "source": "한국경제",
       "ts": 1781186415000,
       "pub": "Thu, 11 Jun 2026 23:00:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"하르그섬 차지하고 싶다\"…이란 석유 생명줄 건드리나",
+      "link": "https://www.mt.co.kr/world/2026/06/11/2026061122470314937",
+      "source": "머니투데이",
+      "ts": 1781186253000,
+      "pub": "Thu, 11 Jun 2026 22:57:33 +0900",
       "sentiment": "neutral"
     },
     {
@@ -41,6 +145,14 @@
       "source": "연합뉴스 국제",
       "ts": 1781182206000,
       "pub": "Thu, 11 Jun 2026 21:50:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"오늘 밤 이란 매우 강하게 타격…하르그섬 점령\"",
+      "link": "https://www.mt.co.kr/world/2026/06/11/2026061121320671655",
+      "source": "머니투데이",
+      "ts": 1781181954000,
+      "pub": "Thu, 11 Jun 2026 21:45:54 +0900",
       "sentiment": "neutral"
     },
     {
@@ -73,6 +185,14 @@
       "source": "연합뉴스 국제",
       "ts": 1781180865000,
       "pub": "Thu, 11 Jun 2026 21:27:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"李 대통령, EU에 韓 철강 관세 우호적 고려 강력 요청…좋은 결과 기대\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/11/2026061118511443414",
+      "source": "머니투데이",
+      "ts": 1781179051000,
+      "pub": "Thu, 11 Jun 2026 20:57:31 +0900",
       "sentiment": "neutral"
     },
     {
@@ -153,14 +273,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781156149000,
       "pub": "Thu, 11 Jun 2026 14:35:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 비밀항로 암시했나…호르무즈 선박 오만쪽 절벽붙어 암행",
-      "link": "https://www.yna.co.kr/view/AKR20260611061700009",
-      "source": "연합뉴스 국제",
-      "ts": 1781142573000,
-      "pub": "Thu, 11 Jun 2026 10:49:33 +0900",
       "sentiment": "neutral"
     }
   ]

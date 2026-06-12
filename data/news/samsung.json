@@ -1,14 +1,30 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-11T23:13:00.405Z",
-  "count": 9,
+  "updated_at": "2026-06-12T02:15:56.203Z",
+  "count": 6,
   "items": [
     {
-      "title": "\"AI 돈잔치 시작됐다\"…'삼전닉스' 투자 확대에 폭등한 종목 [종목+]",
-      "link": "https://www.hankyung.com/article/2026061112556",
+      "title": "\"100만원·노트북 뿌릴거야\"…삼전닉스 세금 삼키는 교육청 [김익환의 부처 핸즈업]",
+      "link": "https://www.hankyung.com/article/202606122455i",
       "source": "한국경제",
-      "ts": 1781213403000,
-      "pub": "Fri, 12 Jun 2026 06:30:03 +0900",
+      "ts": 1781226765000,
+      "pub": "Fri, 12 Jun 2026 10:12:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼전, 가장 싼 주식인데 안 샀다고?\"…4조 굴리는 큰손의 일침",
+      "link": "https://www.hankyung.com/article/202606122194i",
+      "source": "한국경제",
+      "ts": 1781225309000,
+      "pub": "Fri, 12 Jun 2026 09:48:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 미국발 훈풍에 삼성전자·하이닉스 장초반 9%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20260612041900008",
+      "source": "연합뉴스 경제",
+      "ts": 1781223587000,
+      "pub": "Fri, 12 Jun 2026 09:19:47 +0900",
       "sentiment": "positive"
     },
     {
@@ -17,14 +33,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781203789000,
       "pub": "Fri, 12 Jun 2026 03:49:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[포토] 삼성전자, 가격 낮춘 '스팀 로봇청소기' 출시",
-      "link": "https://www.hankyung.com/article/2026061114381",
-      "source": "한국경제",
-      "ts": 1781192899000,
-      "pub": "Fri, 12 Jun 2026 00:48:19 +0900",
       "sentiment": "neutral"
     },
     {
@@ -41,38 +49,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781163298000,
       "pub": "Thu, 11 Jun 2026 16:34:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼전닉스 직원들 집보러 와요\"…훈풍 탄 반도체 벨트 부동산",
-      "link": "https://www.yna.co.kr/view/AKR20260611130100003",
-      "source": "연합뉴스 경제",
-      "ts": 1781161681000,
-      "pub": "Thu, 11 Jun 2026 16:08:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] '30만전자' 내준 삼전, 하이닉스 2.6%↑…외인 순매수(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260611045751008",
-      "source": "연합뉴스 경제",
-      "ts": 1781161448000,
-      "pub": "Thu, 11 Jun 2026 16:04:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "박수현 \"삼전·닉스 대규모 투자 대응…당선인으로서 유치 활동\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611117700063",
-      "source": "연합뉴스 경제",
-      "ts": 1781158933000,
-      "pub": "Thu, 11 Jun 2026 15:22:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 올해 국내 브랜드 가치 1위…SK하이닉스 톱10 진입",
-      "link": "https://www.yna.co.kr/view/AKR20260611118400003",
-      "source": "연합뉴스 경제",
-      "ts": 1781157771000,
-      "pub": "Thu, 11 Jun 2026 15:02:51 +0900",
       "sentiment": "neutral"
     }
   ]

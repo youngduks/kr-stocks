@@ -1,15 +1,55 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-11T23:13:00.405Z",
-  "count": 11,
+  "updated_at": "2026-06-12T02:15:56.203Z",
+  "count": 10,
   "items": [
     {
-      "title": "트럼프 '이란 합의' 시사 뉴욕증시 급등…반도체주 상승 견인 [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026061220026",
+      "title": "한미반도체 \"500억 규모 스페이스X 주식 장내 매수 결정\"",
+      "link": "https://www.hankyung.com/article/2026061224336",
       "source": "한국경제",
-      "ts": 1781216309000,
-      "pub": "Fri, 12 Jun 2026 07:18:29 +0900",
+      "ts": 1781225951000,
+      "pub": "Fri, 12 Jun 2026 09:59:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한미반도체, 스페이스X에 500억 베팅…\"미래 성장성에 투자\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260612038751008",
+      "source": "연합뉴스 경제",
+      "ts": 1781225432000,
+      "pub": "Fri, 12 Jun 2026 09:50:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"머스크의 미래에 베팅\"…한미반도체, 스페이스X 주식 500억원어치 산다",
+      "link": "https://www.hankyung.com/article/202606122423i",
+      "source": "한국경제",
+      "ts": 1781224534000,
+      "pub": "Fri, 12 Jun 2026 09:35:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[마켓 라이브] 미·이란 종전 기대감·반도체 급등에 코스피 6.63%·코스닥 3.73% 출발 [오전 9시10분 시황]",
+      "link": "https://www.hankyung.com/article/202606122195i",
+      "source": "한국경제",
+      "ts": 1781223679000,
+      "pub": "Fri, 12 Jun 2026 09:21:19 +0900",
       "sentiment": "positive"
+    },
+    {
+      "title": "[특징주] 미국발 훈풍에 삼성전자·하이닉스 장초반 9%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20260612041900008",
+      "source": "연합뉴스 경제",
+      "ts": 1781223587000,
+      "pub": "Fri, 12 Jun 2026 09:19:47 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "한미반도체 \"스페이스X에 500억원 출자\"",
+      "link": "https://www.yna.co.kr/view/AKR20260612038700008",
+      "source": "연합뉴스 경제",
+      "ts": 1781223032000,
+      "pub": "Fri, 12 Jun 2026 09:10:32 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "'삼전닉스·실리콘 칼라' 아시나요…NYT가 소개한 韓반도체 열풍",
@@ -17,14 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781203789000,
       "pub": "Fri, 12 Jun 2026 03:49:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"AI 너무 비싸요\" 불붙은 경제성 논란...반도체는 \"정점 멀었다\" [빈난새의 개장전요것만]",
-      "link": "https://www.hankyung.com/article/202606111852i",
-      "source": "한국경제",
-      "ts": 1781190798000,
-      "pub": "Fri, 12 Jun 2026 00:13:18 +0900",
       "sentiment": "neutral"
     },
     {
@@ -49,46 +81,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781163298000,
       "pub": "Thu, 11 Jun 2026 16:34:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"TSMC, 미국서 특허권 침해소송 당해…이달 중 예비판정 전망\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611135500009",
-      "source": "연합뉴스 국제",
-      "ts": 1781162293000,
-      "pub": "Thu, 11 Jun 2026 16:18:13 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"삼전닉스 직원들 집보러 와요\"…훈풍 탄 반도체 벨트 부동산",
-      "link": "https://www.yna.co.kr/view/AKR20260611130100003",
-      "source": "연합뉴스 경제",
-      "ts": 1781161681000,
-      "pub": "Thu, 11 Jun 2026 16:08:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] '30만전자' 내준 삼전, 하이닉스 2.6%↑…외인 순매수(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260611045751008",
-      "source": "연합뉴스 경제",
-      "ts": 1781161448000,
-      "pub": "Thu, 11 Jun 2026 16:04:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 올해 국내 브랜드 가치 1위…SK하이닉스 톱10 진입",
-      "link": "https://www.yna.co.kr/view/AKR20260611118400003",
-      "source": "연합뉴스 경제",
-      "ts": 1781157771000,
-      "pub": "Thu, 11 Jun 2026 15:02:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스 신규투자에 세종시장 당선인 \"사활 걸고 유치 나서겠다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611088100063",
-      "source": "연합뉴스 경제",
-      "ts": 1781146801000,
-      "pub": "Thu, 11 Jun 2026 12:00:01 +0900",
       "sentiment": "neutral"
     }
   ]

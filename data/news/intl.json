@@ -1,30 +1,54 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-11T23:13:00.404Z",
-  "count": 48,
+  "updated_at": "2026-06-12T02:15:56.201Z",
+  "count": 39,
   "items": [
+    {
+      "title": "\"미국조립\" 트럼프폰 까보니 2년 묵은 구형 중국폰에 금빛칠",
+      "link": "https://www.yna.co.kr/view/AKR20260612067900009",
+      "source": "연합뉴스 국제",
+      "ts": 1781229290000,
+      "pub": "Fri, 12 Jun 2026 10:54:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 이란 공습 취소에 증시 환호…'팔천피' 단숨에 회복",
+      "link": "https://www.hankyung.com/article/2026061224376",
+      "source": "한국경제",
+      "ts": 1781225153000,
+      "pub": "Fri, 12 Jun 2026 09:45:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 최종 조율 단계\"…건설株 동반 강세",
+      "link": "https://www.hankyung.com/article/2026061224386",
+      "source": "한국경제",
+      "ts": 1781224626000,
+      "pub": "Fri, 12 Jun 2026 09:37:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "워싱턴 한복판에 등장한 '8647'…트럼프 반대 암호에 당국 수사",
+      "link": "https://www.yna.co.kr/view/AKR20260612031500009",
+      "source": "연합뉴스 국제",
+      "ts": 1781221968000,
+      "pub": "Fri, 12 Jun 2026 08:52:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 '이란과 합의' 시사에 달러화 한달여만 최대폭 하락",
+      "link": "https://www.yna.co.kr/view/AKR20260612023400009",
+      "source": "연합뉴스 국제",
+      "ts": 1781219626000,
+      "pub": "Fri, 12 Jun 2026 08:13:46 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[마켓뷰] 트럼프 '이란과 합의' 시사…코스피, 8천피 탈환 나서나",
       "link": "https://www.yna.co.kr/view/AKR20260612024700008",
       "source": "연합뉴스 경제",
       "ts": 1781218954000,
       "pub": "Fri, 12 Jun 2026 08:02:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 '이란 합의' 시사 뉴욕증시 급등…반도체주 상승 견인 [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026061220026",
-      "source": "한국경제",
-      "ts": 1781216309000,
-      "pub": "Fri, 12 Jun 2026 07:18:29 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "강제노동 관세로 '설전' 벌인 美 USTR 대표와 워싱턴포스트 [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202606121932i",
-      "source": "한국경제",
-      "ts": 1781214900000,
-      "pub": "Fri, 12 Jun 2026 06:55:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -44,27 +68,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "美항소법원, 트럼프 '10% 글로벌관세 무효판결' 집행 일시정지 연장",
-      "link": "https://www.hankyung.com/article/2026061219487",
-      "source": "한국경제",
-      "ts": 1781212306000,
-      "pub": "Fri, 12 Jun 2026 06:11:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美항소법원, 2심 기간 '10% 글로벌관세' 효력 유지 결정",
       "link": "https://www.yna.co.kr/view/AKR20260612012300072",
       "source": "연합뉴스 국제",
       "ts": 1781211623000,
       "pub": "Fri, 12 Jun 2026 06:00:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 훌륭한 합의…주말 유럽서 서명식 열 수도\"",
-      "link": "https://www.hankyung.com/article/2026061219277",
-      "source": "한국경제",
-      "ts": 1781211527000,
-      "pub": "Fri, 12 Jun 2026 05:58:47 +0900",
       "sentiment": "neutral"
     },
     {
@@ -81,14 +89,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781210749000,
       "pub": "Fri, 12 Jun 2026 05:45:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 협정 곧 발표\"…이란 매체 \"당국이 승인할 가능성\" [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202606121897i",
-      "source": "한국경제",
-      "ts": 1781209168000,
-      "pub": "Fri, 12 Jun 2026 05:19:28 +0900",
       "sentiment": "neutral"
     },
     {
@@ -121,22 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781207404000,
       "pub": "Fri, 12 Jun 2026 04:50:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란, 협정에 따라 핵무기 보유하지 않을 것\"",
-      "link": "https://www.hankyung.com/article/202606121907i",
-      "source": "한국경제",
-      "ts": 1781207214000,
-      "pub": "Fri, 12 Jun 2026 04:46:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란과 며칠 내 합의…유럽서 서명될 것\"",
-      "link": "https://www.hankyung.com/article/202606121906i",
-      "source": "한국경제",
-      "ts": 1781206913000,
-      "pub": "Fri, 12 Jun 2026 04:41:53 +0900",
       "sentiment": "neutral"
     },
     {
@@ -276,22 +260,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"오늘 밤 이란 강력 타격…석유 시설 장악할 것\"",
-      "link": "https://www.hankyung.com/article/2026061118231",
-      "source": "한국경제",
-      "ts": 1781186415000,
-      "pub": "Thu, 11 Jun 2026 23:00:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"오늘밤 對이란 폭격, 더 크고 더 강력할것\"",
-      "link": "https://www.hankyung.com/article/2026061118057",
-      "source": "한국경제",
-      "ts": 1781183046000,
-      "pub": "Thu, 11 Jun 2026 22:04:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] 트럼프 \"오늘밤 對이란 폭격, 더 크고 더 강력할것\"",
       "link": "https://www.yna.co.kr/view/AKR20260611175100071",
       "source": "연합뉴스 국제",
@@ -305,22 +273,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781182206000,
       "pub": "Thu, 11 Jun 2026 21:50:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"머지 않아 베네수처럼 이란 석유·가스 시장 장악\"",
-      "link": "https://www.hankyung.com/article/2026061117817",
-      "source": "한국경제",
-      "ts": 1781181019000,
-      "pub": "Thu, 11 Jun 2026 21:30:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 이란 강력 타격 예고…\"머잖아 석유 인프라 거점 확보\"",
-      "link": "https://www.hankyung.com/article/2026061117797",
-      "source": "한국경제",
-      "ts": 1781180963000,
-      "pub": "Thu, 11 Jun 2026 21:29:23 +0900",
       "sentiment": "neutral"
     },
     {
@@ -340,14 +292,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "푸틴 지지율 떨어지자…불편한 여론조사 결과 '증발'",
-      "link": "https://www.yna.co.kr/view/AKR20260611159200081",
-      "source": "연합뉴스 국제",
-      "ts": 1781170706000,
-      "pub": "Thu, 11 Jun 2026 18:38:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "李대통령, EU에 '철강관세 우호 고려' 요청…靑 \"좋은결과 기대\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260611145551001",
       "source": "연합뉴스 경제",
@@ -361,22 +305,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781165660000,
       "pub": "Thu, 11 Jun 2026 17:14:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 사거리 3천㎞ 우크라 순항미사일 '플라밍고'…러 군수공장 타격",
-      "link": "https://www.yna.co.kr/view/AKR20260611148300704",
-      "source": "연합뉴스 국제",
-      "ts": 1781165264000,
-      "pub": "Thu, 11 Jun 2026 17:07:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"대만의 AI칩 對중국 수출 통제 논의는 '기술냉전'의 일부\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611132100009",
-      "source": "연합뉴스 국제",
-      "ts": 1781163854000,
-      "pub": "Thu, 11 Jun 2026 16:44:14 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,22 +1,38 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-12T02:15:56.203Z",
+  "updated_at": "2026-06-12T07:11:15.991Z",
   "count": 6,
   "items": [
     {
-      "title": "\"100만원·노트북 뿌릴거야\"…삼전닉스 세금 삼키는 교육청 [김익환의 부처 핸즈업]",
-      "link": "https://www.hankyung.com/article/202606122455i",
-      "source": "한국경제",
-      "ts": 1781226765000,
-      "pub": "Fri, 12 Jun 2026 10:12:45 +0900",
+      "title": "日닛케이지수 2.8% 상승…낸드플래시업체 키옥시아, 시총 1위",
+      "link": "https://www.yna.co.kr/view/AKR20260612125900073",
+      "source": "연합뉴스 국제",
+      "ts": 1781247858000,
+      "pub": "Fri, 12 Jun 2026 16:04:18 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"삼전, 가장 싼 주식인데 안 샀다고?\"…4조 굴리는 큰손의 일침",
-      "link": "https://www.hankyung.com/article/202606122194i",
+      "title": "[특징주] 美훈풍에 삼전·닉스↑…'32만전자'·'215만닉스' 회복(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260612041951008",
+      "source": "연합뉴스 경제",
+      "ts": 1781247586000,
+      "pub": "Fri, 12 Jun 2026 15:59:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "英 '삼전·닉스 3배'…美 삼성전기 2배, 해외서 불붙은 韓주식 레버리지",
+      "link": "https://www.hankyung.com/article/202606123346i",
       "source": "한국경제",
-      "ts": 1781225309000,
-      "pub": "Fri, 12 Jun 2026 09:48:29 +0900",
+      "ts": 1781246862000,
+      "pub": "Fri, 12 Jun 2026 15:47:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이재용 회장 직접 답해달라\"…뿔난 개미들, 삼성 사옥 앞 기자회견",
+      "link": "https://www.hankyung.com/article/202606122996g",
+      "source": "한국경제",
+      "ts": 1781242498000,
+      "pub": "Fri, 12 Jun 2026 14:34:58 +0900",
       "sentiment": "neutral"
     },
     {
@@ -33,22 +49,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781203789000,
       "pub": "Fri, 12 Jun 2026 03:49:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 평택공장 출하 막은 레미콘 휴업…장기화 국면",
-      "link": "https://www.yna.co.kr/view/AKR20260611146700003",
-      "source": "연합뉴스 경제",
-      "ts": 1781165050000,
-      "pub": "Thu, 11 Jun 2026 17:04:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[인터뷰] 캐시우드 \"테슬라 손잡은 삼전 주목…반도체 분할 매수해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611134700008",
-      "source": "연합뉴스 경제",
-      "ts": 1781163298000,
-      "pub": "Thu, 11 Jun 2026 16:34:58 +0900",
       "sentiment": "neutral"
     }
   ]

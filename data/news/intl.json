@@ -1,30 +1,46 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-12T02:15:56.201Z",
-  "count": 39,
+  "updated_at": "2026-06-12T07:11:15.990Z",
+  "count": 31,
   "items": [
+    {
+      "title": "트럼프, 하원 탄핵가결 기록 삭제 추진…공화당 결의안 제출",
+      "link": "https://www.yna.co.kr/view/AKR20260612104800009",
+      "source": "연합뉴스 국제",
+      "ts": 1781242830000,
+      "pub": "Fri, 12 Jun 2026 14:40:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 급반전 트럼프…\"이란 박살\" → \"이란과 훌륭한 합의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260612082100704",
+      "source": "연합뉴스 국제",
+      "ts": 1781233503000,
+      "pub": "Fri, 12 Jun 2026 12:05:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美기술기업들, '차이나머니' 거부…투자장벽까지 높이는 미중경쟁",
+      "link": "https://www.yna.co.kr/view/AKR20260612079500009",
+      "source": "연합뉴스 국제",
+      "ts": 1781232379000,
+      "pub": "Fri, 12 Jun 2026 11:46:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "WSJ \"5월 근원 PCE 상승률 전월보다 커질 전망\"",
+      "link": "https://www.yna.co.kr/view/AKR20260612071100009",
+      "source": "연합뉴스 국제",
+      "ts": 1781230575000,
+      "pub": "Fri, 12 Jun 2026 11:16:15 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"미국조립\" 트럼프폰 까보니 2년 묵은 구형 중국폰에 금빛칠",
       "link": "https://www.yna.co.kr/view/AKR20260612067900009",
       "source": "연합뉴스 국제",
       "ts": 1781229290000,
       "pub": "Fri, 12 Jun 2026 10:54:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 이란 공습 취소에 증시 환호…'팔천피' 단숨에 회복",
-      "link": "https://www.hankyung.com/article/2026061224376",
-      "source": "한국경제",
-      "ts": 1781225153000,
-      "pub": "Fri, 12 Jun 2026 09:45:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 최종 조율 단계\"…건설株 동반 강세",
-      "link": "https://www.hankyung.com/article/2026061224386",
-      "source": "한국경제",
-      "ts": 1781224626000,
-      "pub": "Fri, 12 Jun 2026 09:37:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -233,86 +249,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781190568000,
       "pub": "Fri, 12 Jun 2026 00:09:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘, 프랑스 기자 입국 거부·추방…\"언론자유 저해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611177300081",
-      "source": "연합뉴스 국제",
-      "ts": 1781188710000,
-      "pub": "Thu, 11 Jun 2026 23:38:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 사흘째 이란공격 예고…\"머잖아 하르그섬·석유거점 점령\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260611174151071",
-      "source": "연합뉴스 국제",
-      "ts": 1781187839000,
-      "pub": "Thu, 11 Jun 2026 23:23:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"서안 점령지 농산물, 이스라엘산 둔갑해 EU 유입\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611176300081",
-      "source": "연합뉴스 국제",
-      "ts": 1781186559000,
-      "pub": "Thu, 11 Jun 2026 23:02:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"오늘밤 對이란 폭격, 더 크고 더 강력할것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611175100071",
-      "source": "연합뉴스 국제",
-      "ts": 1781182911000,
-      "pub": "Thu, 11 Jun 2026 22:01:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 사흘째 이란공격 예고…\"머잖아 석유인프라 거점 점령\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611174100071",
-      "source": "연합뉴스 국제",
-      "ts": 1781182206000,
-      "pub": "Thu, 11 Jun 2026 21:50:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"머지 않아 베네수처럼 이란 석유·가스 시장 장악\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611171800071",
-      "source": "연합뉴스 국제",
-      "ts": 1781180895000,
-      "pub": "Thu, 11 Jun 2026 21:28:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"오늘밤 이란 매우 강력히 타격\"…사흘째 공격 예고",
-      "link": "https://www.yna.co.kr/view/AKR20260611171700071",
-      "source": "연합뉴스 국제",
-      "ts": 1781180865000,
-      "pub": "Thu, 11 Jun 2026 21:27:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "李대통령, EU에 '철강관세 우호 고려' 요청…靑 \"좋은결과 기대\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260611145551001",
-      "source": "연합뉴스 경제",
-      "ts": 1781168445000,
-      "pub": "Thu, 11 Jun 2026 18:00:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "李대통령, EU에 '철강관세 우호 고려' 요청…靑 \"좋은결과 기대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260611145500001",
-      "source": "연합뉴스 경제",
-      "ts": 1781165660000,
-      "pub": "Thu, 11 Jun 2026 17:14:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 李대통령, EU에 '철강관세 韓에 대한 우호적 고려' 강력요청",
-      "link": "https://www.yna.co.kr/view/AKR20260611138800001",
-      "source": "연합뉴스 경제",
-      "ts": 1781162664000,
-      "pub": "Thu, 11 Jun 2026 16:24:24 +0900",
       "sentiment": "neutral"
     }
   ]

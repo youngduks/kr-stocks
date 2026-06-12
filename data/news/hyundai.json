@@ -1,6 +1,39 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-06-12T11:33:25.515Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-06-12T14:30:55.897Z",
+  "count": 4,
+  "items": [
+    {
+      "title": "'르망 24' 첫 출전 제네시스…'마그마 GT 콘셉트' 내장 공개",
+      "link": "https://www.hankyung.com/article/202606123690g",
+      "source": "한국경제",
+      "ts": 1781265602000,
+      "pub": "Fri, 12 Jun 2026 21:00:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "제네시스 '르망24시' 데뷔…유럽 프리미엄 시장 공략 가속",
+      "link": "https://www.hankyung.com/article/2026061237301",
+      "source": "한국경제",
+      "ts": 1781265601000,
+      "pub": "Fri, 12 Jun 2026 21:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "제네시스, 유럽 전역으로 뻗는다…2027년까지 총 11개국 진출",
+      "link": "https://www.mt.co.kr/industry/2026/06/12/2026061206470669618",
+      "source": "머니투데이",
+      "ts": 1781265600000,
+      "pub": "Fri, 12 Jun 2026 21:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "새로 쓰는 모터스포츠 역사…제네시스, '르망 24시간' 하이퍼 클래스 데뷔",
+      "link": "https://www.mt.co.kr/industry/2026/06/12/2026061205194499348",
+      "source": "머니투데이",
+      "ts": 1781265600000,
+      "pub": "Fri, 12 Jun 2026 21:00:00 +0900",
+      "sentiment": "neutral"
+    }
+  ]
 }

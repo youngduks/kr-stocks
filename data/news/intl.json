@@ -1,14 +1,70 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-12T14:30:55.893Z",
-  "count": 18,
+  "updated_at": "2026-06-12T17:30:09.398Z",
+  "count": 21,
   "items": [
+    {
+      "title": "푸틴, 러 장병 만나 \"드론이 파리처럼 맴돌아, 문제 이해해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260613001100108",
+      "source": "연합뉴스 국제",
+      "ts": 1781278808000,
+      "pub": "Sat, 13 Jun 2026 00:40:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "케네디센터 이사회, '트럼프 이름 삭제' 법원명령에 불복 나서",
+      "link": "https://www.yna.co.kr/view/AKR20260613001200071",
+      "source": "연합뉴스 국제",
+      "ts": 1781278726000,
+      "pub": "Sat, 13 Jun 2026 00:38:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "합의서명 임박했다던 트럼프, 갑자기 이란 맹비난…\"정말 비열\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260612169851071",
+      "source": "연합뉴스 국제",
+      "ts": 1781277832000,
+      "pub": "Sat, 13 Jun 2026 00:23:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 국방 \"이란 핵저지 독자 능력 유지…레바논 철군 안해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260612171600079",
+      "source": "연합뉴스 국제",
+      "ts": 1781276476000,
+      "pub": "Sat, 13 Jun 2026 00:01:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 합의 후에 유럽이 도움 될수도\"",
+      "link": "https://www.yna.co.kr/view/AKR20260612170700109",
+      "source": "연합뉴스 국제",
+      "ts": 1781275610000,
+      "pub": "Fri, 12 Jun 2026 23:46:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "네타냐후 \"내가 있는한 이란 핵무기 못가져…트럼프도 동의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260612170100079",
+      "source": "연합뉴스 국제",
+      "ts": 1781274600000,
+      "pub": "Fri, 12 Jun 2026 23:30:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "합의서명 임박했다던 트럼프, 갑자기 이란 맹비난…\"정말 비열\"",
       "link": "https://www.yna.co.kr/view/AKR20260612169800071",
       "source": "연합뉴스 국제",
       "ts": 1781274137000,
       "pub": "Fri, 12 Jun 2026 23:22:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 \"2주 전 초안대로 논의\"…트럼프, 결국 동결자산 풀어주나",
+      "link": "https://www.hankyung.com/article/2026061239721",
+      "source": "한국경제",
+      "ts": 1781273476000,
+      "pub": "Fri, 12 Jun 2026 23:11:16 +0900",
       "sentiment": "neutral"
     },
     {
@@ -41,14 +97,6 @@
       "source": "한국경제",
       "ts": 1781260522000,
       "pub": "Fri, 12 Jun 2026 19:35:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 추가요구 반영 안해\"…이란이 밝힌 '타결 진전' 배경은 [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202606123820i",
-      "source": "한국경제",
-      "ts": 1781255904000,
-      "pub": "Fri, 12 Jun 2026 18:18:24 +0900",
       "sentiment": "neutral"
     },
     {
@@ -121,30 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781229290000,
       "pub": "Fri, 12 Jun 2026 10:54:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "워싱턴 한복판에 등장한 '8647'…트럼프 반대 암호에 당국 수사",
-      "link": "https://www.yna.co.kr/view/AKR20260612031500009",
-      "source": "연합뉴스 국제",
-      "ts": 1781221968000,
-      "pub": "Fri, 12 Jun 2026 08:52:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 '이란과 합의' 시사에 달러화 한달여만 최대폭 하락",
-      "link": "https://www.yna.co.kr/view/AKR20260612023400009",
-      "source": "연합뉴스 국제",
-      "ts": 1781219626000,
-      "pub": "Fri, 12 Jun 2026 08:13:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 방금 훌륭한 합의\"…이란 \"최종결정 안내려\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260612009352071",
-      "source": "연합뉴스 국제",
-      "ts": 1781213820000,
-      "pub": "Fri, 12 Jun 2026 06:37:00 +0900",
       "sentiment": "neutral"
     }
   ]

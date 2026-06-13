@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-13T21:00:47.171Z",
-  "count": 26,
+  "updated_at": "2026-06-13T22:52:39.880Z",
+  "count": 29,
   "items": [
+    {
+      "title": "트럼프 \"이란 합의 14일 서명\"…호르무즈 해협 개방 예고",
+      "link": "https://www.hankyung.com/article/2026061446537",
+      "source": "한국경제",
+      "ts": 1781388615000,
+      "pub": "Sun, 14 Jun 2026 07:10:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특파원시선] 반년 만에 트럼프 이름 떼어낸 케네디센터",
+      "link": "https://www.yna.co.kr/view/AKR20260614000200071",
+      "source": "연합뉴스 국제",
+      "ts": 1781388373000,
+      "pub": "Sun, 14 Jun 2026 07:06:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[뉴욕증시-주간전망] 이란 종전 MOU 서명만 남았다…워시는 FOMC 첫 등판",
+      "link": "https://www.yna.co.kr/view/AKR20260614006700009",
+      "source": "연합뉴스 국제",
+      "ts": 1781388001000,
+      "pub": "Sun, 14 Jun 2026 07:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"14일 이란과 종전·비핵화 합의\"…'온라인 전자서명' 추진",
+      "link": "https://www.mt.co.kr/world/2026/06/14/2026061406403388840",
+      "source": "머니투데이",
+      "ts": 1781387603000,
+      "pub": "Sun, 14 Jun 2026 06:53:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 합의 14일 서명 예정\"…美매체 \"전자서명할것\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260614001552071",
+      "source": "연합뉴스 국제",
+      "ts": 1781385463000,
+      "pub": "Sun, 14 Jun 2026 06:17:43 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "불안 요인 부각되는 러시아…우크라이나 전쟁 흐름 변화",
       "link": "https://www.mt.co.kr/world/2026/06/14/2026061116561169895",
@@ -28,7 +68,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "호르무즈 비용징수 명시적 반대 안한 트럼프... 핵물질 이란 파괴 가능성 언급",
+      "title": "호르무즈 비용징수 명시적 반대 안한 트럼프…핵물질 이란 파괴 가능성 언급",
       "link": "https://www.hankyung.com/article/202606144566i",
       "source": "한국경제",
       "ts": 1781373116000,
@@ -193,22 +233,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781274137000,
       "pub": "Fri, 12 Jun 2026 23:22:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라, 공세 강화하나…\"동맹국에 30조원 추가 지원 요청\"",
-      "link": "https://www.yna.co.kr/view/AKR20260612166200109",
-      "source": "연합뉴스 국제",
-      "ts": 1781270209000,
-      "pub": "Fri, 12 Jun 2026 22:16:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 드론 공세 속…올해도 러시아 항공우주박람회 취소",
-      "link": "https://www.yna.co.kr/view/AKR20260612165000108",
-      "source": "연합뉴스 국제",
-      "ts": 1781268370000,
-      "pub": "Fri, 12 Jun 2026 21:46:10 +0900",
       "sentiment": "neutral"
     }
   ]

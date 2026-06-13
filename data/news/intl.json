@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-13T17:08:37.045Z",
-  "count": 21,
+  "updated_at": "2026-06-13T19:05:58.133Z",
+  "count": 24,
   "items": [
+    {
+      "title": "트럼프 \"이란과 합의 14일 서명…직후 모두에 호르무즈 개방\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260614001551071",
+      "source": "연합뉴스 국제",
+      "ts": 1781373743000,
+      "pub": "Sun, 14 Jun 2026 03:02:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"모든게 안정된 적절한때 이란의 고농축우라늄 제거\"",
+      "link": "https://www.yna.co.kr/view/AKR20260614002100071",
+      "source": "연합뉴스 국제",
+      "ts": 1781371678000,
+      "pub": "Sun, 14 Jun 2026 02:27:58 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"이란과 합의 14일에 서명…서명직후 호르무즈 개방\"",
       "link": "https://www.yna.co.kr/view/AKR20260614001500071",
@@ -49,6 +65,14 @@
       "source": "한국경제",
       "ts": 1781331746000,
       "pub": "Sat, 13 Jun 2026 15:22:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"마약 조직 '트렌 데 아라과' 수장 사살…베네수와 공조\"",
+      "link": "https://www.mt.co.kr/world/2026/06/13/2026061312572926884",
+      "source": "머니투데이",
+      "ts": 1781324294000,
+      "pub": "Sat, 13 Jun 2026 13:18:14 +0900",
       "sentiment": "neutral"
     },
     {

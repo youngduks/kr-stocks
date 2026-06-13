@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-12T23:06:22.845Z",
-  "count": 8,
+  "updated_at": "2026-06-13T02:08:36.853Z",
+  "count": 7,
   "items": [
+    {
+      "title": "\"오늘 점심은 최현석이 직접 서빙\"…삼전닉스, '회사밥' 전쟁 [권용훈의 트렌드워치]",
+      "link": "https://www.hankyung.com/article/202606110373i",
+      "source": "한국경제",
+      "ts": 1781301605000,
+      "pub": "Sat, 13 Jun 2026 07:00:05 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "韓이 장악한 '원전 파운드리' 중심엔 두산에너빌리티·BHI",
       "link": "https://www.hankyung.com/article/2026061237821",
@@ -20,7 +28,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "이재용, 페라리 회장과 '브로맨스'…\"더 열심히 해야죠\"",
+      "title": "페라리 회장과 폰 보며 활짝…이재용 \"더 열심히 해야죠\"",
       "link": "https://www.hankyung.com/article/202606134035i",
       "source": "한국경제",
       "ts": 1781292451000,
@@ -33,14 +41,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781290205000,
       "pub": "Sat, 13 Jun 2026 03:50:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "수도권 레미콘노조 휴업 닷새째…\"삼전 등 117곳 공사 차질\"",
-      "link": "https://www.hankyung.com/article/202606123950i",
-      "source": "한국경제",
-      "ts": 1781270109000,
-      "pub": "Fri, 12 Jun 2026 22:15:09 +0900",
       "sentiment": "neutral"
     },
     {
@@ -58,14 +58,6 @@
       "ts": 1781247586000,
       "pub": "Fri, 12 Jun 2026 15:59:46 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 미국발 훈풍에 삼성전자·하이닉스 장초반 9%대 급등",
-      "link": "https://www.yna.co.kr/view/AKR20260612041900008",
-      "source": "연합뉴스 경제",
-      "ts": 1781223587000,
-      "pub": "Fri, 12 Jun 2026 09:19:47 +0900",
-      "sentiment": "positive"
     }
   ]
 }

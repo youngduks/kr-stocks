@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-12T23:06:22.844Z",
-  "count": 19,
+  "updated_at": "2026-06-13T02:08:36.852Z",
+  "count": 20,
   "items": [
+    {
+      "title": "트럼프 \"군사공격으로 마약조직 '트렌 데 아라과' 리더 제거\"",
+      "link": "https://www.yna.co.kr/view/AKR20260613029500071",
+      "source": "연합뉴스 국제",
+      "ts": 1781315221000,
+      "pub": "Sat, 13 Jun 2026 10:47:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 이름 지키려던 케네디센터 '제동'…법원, 집행정지 기각",
+      "link": "https://www.hankyung.com/article/2026061342217",
+      "source": "한국경제",
+      "ts": 1781312955000,
+      "pub": "Sat, 13 Jun 2026 10:09:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"미군, 지난달 '이란 HEU 탈취' 지상군 옵션 보고…트럼프가 보류\"",
+      "link": "https://www.yna.co.kr/view/AKR20260613024600071",
+      "source": "연합뉴스 국제",
+      "ts": 1781311857000,
+      "pub": "Sat, 13 Jun 2026 09:50:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "케네디센터 '트럼프 이름' 지키기 좌절…삭제 중단신청 기각(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260613001251071",
+      "source": "연합뉴스 국제",
+      "ts": 1781310865000,
+      "pub": "Sat, 13 Jun 2026 09:34:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美·이란 MOU서명 '초읽기'…핵무기 포기·경제적 보상 주고받는다",
+      "link": "https://www.yna.co.kr/view/AKR20260613009200071",
+      "source": "연합뉴스 국제",
+      "ts": 1781307165000,
+      "pub": "Sat, 13 Jun 2026 08:32:45 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "혼쭐난 독일 총리, 트럼프에 '생일 축하' 손편지",
       "link": "https://www.yna.co.kr/view/AKR20260613005000082",
@@ -76,14 +116,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "이란 \"2주 전 초안대로 논의\"…트럼프, 결국 동결자산 풀어주나",
-      "link": "https://www.hankyung.com/article/2026061239721",
-      "source": "한국경제",
-      "ts": 1781273476000,
-      "pub": "Fri, 12 Jun 2026 23:11:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "우크라, 공세 강화하나…\"동맹국에 30조원 추가 지원 요청\"",
       "link": "https://www.yna.co.kr/view/AKR20260612166200109",
       "source": "연합뉴스 국제",
@@ -97,14 +129,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781268370000,
       "pub": "Fri, 12 Jun 2026 21:46:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "네타냐후 이스라엘 총리 \"트럼프와 '이란 핵무기 불용'에 동의\"",
-      "link": "https://www.hankyung.com/article/2026061239427",
-      "source": "한국경제",
-      "ts": 1781266978000,
-      "pub": "Fri, 12 Jun 2026 21:22:58 +0900",
       "sentiment": "neutral"
     },
     {
@@ -137,22 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781249086000,
       "pub": "Fri, 12 Jun 2026 16:24:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 하원 탄핵가결 기록 삭제 추진…공화당 결의안 제출",
-      "link": "https://www.yna.co.kr/view/AKR20260612104800009",
-      "source": "연합뉴스 국제",
-      "ts": 1781242830000,
-      "pub": "Fri, 12 Jun 2026 14:40:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 급반전 트럼프…\"이란 박살\" → \"이란과 훌륭한 합의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260612082100704",
-      "source": "연합뉴스 국제",
-      "ts": 1781233503000,
-      "pub": "Fri, 12 Jun 2026 12:05:03 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,7 +1,7 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-13T11:45:48.105Z",
-  "count": 23,
+  "updated_at": "2026-06-13T13:21:42.732Z",
+  "count": 20,
   "items": [
     {
       "title": "\"미군, '이란 우라늄 탈취' 지상군 옵션 보고…트럼프가 보류\"(종합)",
@@ -36,35 +36,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"미군, 국제 마약조직 '트렌 데 아라과' 지도자 제거\"",
-      "link": "https://www.hankyung.com/article/2026061342717",
-      "source": "한국경제",
-      "ts": 1781316201000,
-      "pub": "Sat, 13 Jun 2026 11:03:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"군사공격으로 마약조직 '트렌 데 아라과' 리더 제거\"",
       "link": "https://www.yna.co.kr/view/AKR20260613029500071",
       "source": "연합뉴스 국제",
       "ts": 1781315221000,
       "pub": "Sat, 13 Jun 2026 10:47:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'와' 백악관서 '사상 최초' UFC 개최 문제없다! 법원, 중지 신청 기각 \"美 건국 250주년 기념\"",
-      "link": "https://www.mt.co.kr/sports/2026/06/13/2026061310173646213",
-      "source": "머니투데이",
-      "ts": 1781314740000,
-      "pub": "Sat, 13 Jun 2026 10:39:00 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "트럼프 이름 지키려던 케네디센터 '제동'…법원, 집행정지 기각",
-      "link": "https://www.hankyung.com/article/2026061342217",
-      "source": "한국경제",
-      "ts": 1781312955000,
-      "pub": "Sat, 13 Jun 2026 10:09:15 +0900",
       "sentiment": "neutral"
     },
     {

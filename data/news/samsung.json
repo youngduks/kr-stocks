@@ -1,7 +1,7 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-13T09:49:49.835Z",
-  "count": 4,
+  "updated_at": "2026-06-13T11:45:48.106Z",
+  "count": 5,
   "items": [
     {
       "title": "이재용 \"伊는 특별한 국가\"…페라리 회장 \"韓, 영감 주는 시장\"",
@@ -9,6 +9,14 @@
       "source": "한국경제",
       "ts": 1781322930000,
       "pub": "Sat, 13 Jun 2026 12:55:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "韓 제조업 관심 실감? 이재용 회장 \"저희가 더 열심히 해야죠\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/13/2026061311141854240",
+      "source": "머니투데이",
+      "ts": 1781319600000,
+      "pub": "Sat, 13 Jun 2026 12:00:00 +0900",
       "sentiment": "neutral"
     },
     {

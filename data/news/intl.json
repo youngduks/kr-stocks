@@ -1,14 +1,38 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-13T19:05:58.133Z",
-  "count": 24,
+  "updated_at": "2026-06-13T21:00:47.171Z",
+  "count": 26,
   "items": [
+    {
+      "title": "불안 요인 부각되는 러시아…우크라이나 전쟁 흐름 변화",
+      "link": "https://www.mt.co.kr/world/2026/06/14/2026061116561169895",
+      "source": "머니투데이",
+      "ts": 1781384400000,
+      "pub": "Sun, 14 Jun 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "추억회상? 러브콜 염두?…트럼프, SNS에 북미정상회담 사진 올려",
+      "link": "https://www.yna.co.kr/view/AKR20260614002900071",
+      "source": "연합뉴스 국제",
+      "ts": 1781377233000,
+      "pub": "Sun, 14 Jun 2026 04:00:33 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"이란과 합의 14일 서명…직후 모두에 호르무즈 개방\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260614001551071",
       "source": "연합뉴스 국제",
       "ts": 1781373743000,
       "pub": "Sun, 14 Jun 2026 03:02:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "호르무즈 비용징수 명시적 반대 안한 트럼프... 핵물질 이란 파괴 가능성 언급",
+      "link": "https://www.hankyung.com/article/202606144566i",
+      "source": "한국경제",
+      "ts": 1781373116000,
+      "pub": "Sun, 14 Jun 2026 02:51:56 +0900",
       "sentiment": "neutral"
     },
     {
@@ -65,14 +89,6 @@
       "source": "한국경제",
       "ts": 1781331746000,
       "pub": "Sat, 13 Jun 2026 15:22:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"마약 조직 '트렌 데 아라과' 수장 사살…베네수와 공조\"",
-      "link": "https://www.mt.co.kr/world/2026/06/13/2026061312572926884",
-      "source": "머니투데이",
-      "ts": 1781324294000,
-      "pub": "Sat, 13 Jun 2026 13:18:14 +0900",
       "sentiment": "neutral"
     },
     {

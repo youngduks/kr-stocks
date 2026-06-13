@@ -1,38 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-13T02:08:36.853Z",
-  "count": 7,
+  "updated_at": "2026-06-13T06:45:38.109Z",
+  "count": 4,
   "items": [
     {
-      "title": "\"오늘 점심은 최현석이 직접 서빙\"…삼전닉스, '회사밥' 전쟁 [권용훈의 트렌드워치]",
-      "link": "https://www.hankyung.com/article/202606110373i",
+      "title": "이재용 \"伊는 특별한 국가\"…페라리 회장 \"韓, 영감 주는 시장\"",
+      "link": "https://www.hankyung.com/article/2026061343137",
       "source": "한국경제",
-      "ts": 1781301605000,
-      "pub": "Sat, 13 Jun 2026 07:00:05 +0900",
+      "ts": 1781322930000,
+      "pub": "Sat, 13 Jun 2026 12:55:30 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "韓이 장악한 '원전 파운드리' 중심엔 두산에너빌리티·BHI",
-      "link": "https://www.hankyung.com/article/2026061237821",
+      "title": "[KIW2026 다시보기 영상] 맨딥 싱 \"하이퍼 스케일러 투자 줄어도 메모리는 간다\"",
+      "link": "https://www.hankyung.com/article/202606123651i",
       "source": "한국경제",
-      "ts": 1781298007000,
-      "pub": "Sat, 13 Jun 2026 06:00:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[포토] 이재용·페라리 회장 한-이탈리아 비즈니스 라운드테이블 참석",
-      "link": "https://www.hankyung.com/article/202606134045i",
-      "source": "한국경제",
-      "ts": 1781293995000,
-      "pub": "Sat, 13 Jun 2026 04:53:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "페라리 회장과 폰 보며 활짝…이재용 \"더 열심히 해야죠\"",
-      "link": "https://www.hankyung.com/article/202606134035i",
-      "source": "한국경제",
-      "ts": 1781292451000,
-      "pub": "Sat, 13 Jun 2026 04:27:31 +0900",
+      "ts": 1781316005000,
+      "pub": "Sat, 13 Jun 2026 11:00:05 +0900",
       "sentiment": "neutral"
     },
     {
@@ -41,14 +25,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781290205000,
       "pub": "Sat, 13 Jun 2026 03:50:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "日닛케이지수 2.8% 상승…낸드플래시업체 키옥시아, 시총 1위",
-      "link": "https://www.yna.co.kr/view/AKR20260612125900073",
-      "source": "연합뉴스 국제",
-      "ts": 1781247858000,
-      "pub": "Fri, 12 Jun 2026 16:04:18 +0900",
       "sentiment": "neutral"
     },
     {

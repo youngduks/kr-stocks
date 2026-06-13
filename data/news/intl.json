@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-13T02:08:36.852Z",
-  "count": 20,
+  "updated_at": "2026-06-13T06:45:38.108Z",
+  "count": 21,
   "items": [
+    {
+      "title": "美법원, 국립공원 노예자료 철거 중단 명령…트럼프 지시에 제동",
+      "link": "https://www.yna.co.kr/view/AKR20260613040900009",
+      "source": "연합뉴스 국제",
+      "ts": 1781332713000,
+      "pub": "Sat, 13 Jun 2026 15:38:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"미군, 국제 마약조직 '트렌 데 아라과' 지도자 제거\"",
+      "link": "https://www.hankyung.com/article/2026061342717",
+      "source": "한국경제",
+      "ts": 1781316201000,
+      "pub": "Sat, 13 Jun 2026 11:03:21 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"군사공격으로 마약조직 '트렌 데 아라과' 리더 제거\"",
       "link": "https://www.yna.co.kr/view/AKR20260613029500071",
@@ -153,14 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781251477000,
       "pub": "Fri, 12 Jun 2026 17:04:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 워싱턴 한복판에 나타난 숫자 '8647'…백악관 \"용납하지 않겠다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260612130400704",
-      "source": "연합뉴스 국제",
-      "ts": 1781249086000,
-      "pub": "Fri, 12 Jun 2026 16:24:46 +0900",
       "sentiment": "neutral"
     }
   ]

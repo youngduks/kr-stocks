@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-13T22:52:39.880Z",
-  "count": 29,
+  "updated_at": "2026-06-13T23:57:10.633Z",
+  "count": 26,
   "items": [
+    {
+      "title": "법원 명령에 트럼프 이름 떼어낸 케네디센터…작업 장면 생중계",
+      "link": "https://www.yna.co.kr/view/AKR20260614009600009",
+      "source": "연합뉴스 국제",
+      "ts": 1781391851000,
+      "pub": "Sun, 14 Jun 2026 08:04:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '월가 관할' 검사장도 본인 사건 변호인단 출신 발탁",
+      "link": "https://www.yna.co.kr/view/AKR20260614009700071",
+      "source": "연합뉴스 국제",
+      "ts": 1781391798000,
+      "pub": "Sun, 14 Jun 2026 08:03:18 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"이란 합의 14일 서명\"…호르무즈 해협 개방 예고",
       "link": "https://www.hankyung.com/article/2026061446537",
@@ -28,27 +44,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"14일 이란과 종전·비핵화 합의\"…'온라인 전자서명' 추진",
-      "link": "https://www.mt.co.kr/world/2026/06/14/2026061406403388840",
-      "source": "머니투데이",
-      "ts": 1781387603000,
-      "pub": "Sun, 14 Jun 2026 06:53:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"이란과 합의 14일 서명 예정\"…美매체 \"전자서명할것\"(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260614001552071",
       "source": "연합뉴스 국제",
       "ts": 1781385463000,
       "pub": "Sun, 14 Jun 2026 06:17:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "불안 요인 부각되는 러시아…우크라이나 전쟁 흐름 변화",
-      "link": "https://www.mt.co.kr/world/2026/06/14/2026061116561169895",
-      "source": "머니투데이",
-      "ts": 1781384400000,
-      "pub": "Sun, 14 Jun 2026 06:00:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -121,14 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781332713000,
       "pub": "Sat, 13 Jun 2026 15:38:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"사살 성공\"…베네수엘라 갱단 은신처 '폭파 순간' [영상]",
-      "link": "https://www.hankyung.com/article/2026061343817",
-      "source": "한국경제",
-      "ts": 1781331746000,
-      "pub": "Sat, 13 Jun 2026 15:22:26 +0900",
       "sentiment": "neutral"
     },
     {
@@ -217,22 +209,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781275610000,
       "pub": "Fri, 12 Jun 2026 23:46:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "네타냐후 \"내가 있는한 이란 핵무기 못가져…트럼프도 동의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260612170100079",
-      "source": "연합뉴스 국제",
-      "ts": 1781274600000,
-      "pub": "Fri, 12 Jun 2026 23:30:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "합의서명 임박했다던 트럼프, 갑자기 이란 맹비난…\"정말 비열\"",
-      "link": "https://www.yna.co.kr/view/AKR20260612169800071",
-      "source": "연합뉴스 국제",
-      "ts": 1781274137000,
-      "pub": "Fri, 12 Jun 2026 23:22:17 +0900",
       "sentiment": "neutral"
     }
   ]

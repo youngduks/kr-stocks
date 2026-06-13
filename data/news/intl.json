@@ -1,14 +1,30 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-13T06:45:38.108Z",
+  "updated_at": "2026-06-13T09:49:49.834Z",
   "count": 21,
   "items": [
+    {
+      "title": "\"미군, '이란 우라늄 탈취' 지상군 옵션 보고…트럼프가 보류\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260613024651071",
+      "source": "연합뉴스 국제",
+      "ts": 1781340152000,
+      "pub": "Sat, 13 Jun 2026 17:42:32 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美법원, 국립공원 노예자료 철거 중단 명령…트럼프 지시에 제동",
       "link": "https://www.yna.co.kr/view/AKR20260613040900009",
       "source": "연합뉴스 국제",
       "ts": 1781332713000,
       "pub": "Sat, 13 Jun 2026 15:38:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"사살 성공\"…베네수엘라 갱단 은신처 '폭파 순간' [영상]",
+      "link": "https://www.hankyung.com/article/2026061343817",
+      "source": "한국경제",
+      "ts": 1781331746000,
+      "pub": "Sat, 13 Jun 2026 15:22:26 +0900",
       "sentiment": "neutral"
     },
     {
@@ -153,22 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781254863000,
       "pub": "Fri, 12 Jun 2026 18:01:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"종전 MOU에 '이스라엘의 헤즈볼라 공격 전면 중단' 포함\"",
-      "link": "https://www.yna.co.kr/view/AKR20260612140800079",
-      "source": "연합뉴스 국제",
-      "ts": 1781251996000,
-      "pub": "Fri, 12 Jun 2026 17:13:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] 워싱턴 잔디밭에 숫자 '8647'…트럼프 생일 앞두고 '발칵'",
-      "link": "https://www.yna.co.kr/view/AKR20260612137600704",
-      "source": "연합뉴스 국제",
-      "ts": 1781251477000,
-      "pub": "Fri, 12 Jun 2026 17:04:37 +0900",
       "sentiment": "neutral"
     }
   ]

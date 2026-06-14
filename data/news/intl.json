@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-14T15:05:31.208Z",
-  "count": 33,
+  "updated_at": "2026-06-14T17:06:46.480Z",
+  "count": 37,
   "items": [
+    {
+      "title": "레바논상황 변수되나…'생일에 서명 예고' 트럼프 \"모두 자제를\"",
+      "link": "https://www.yna.co.kr/view/AKR20260615002000071",
+      "source": "연합뉴스 국제",
+      "ts": 1781456033000,
+      "pub": "Mon, 15 Jun 2026 01:53:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "소말릴란드 대통령, '유일 수교국' 이스라엘 첫 국빈방문",
+      "link": "https://www.yna.co.kr/view/AKR20260615001800099",
+      "source": "연합뉴스 국제",
+      "ts": 1781455295000,
+      "pub": "Mon, 15 Jun 2026 01:41:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키·푸틴, 팔순 맞은 트럼프와 통화…\"전쟁 상황 논의\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260614052552109",
+      "source": "연합뉴스 국제",
+      "ts": 1781454831000,
+      "pub": "Mon, 15 Jun 2026 01:33:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키, 생일맞은 트럼프와 통화…\"외교 전반 의견 교환\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260614052551109",
+      "source": "연합뉴스 국제",
+      "ts": 1781452136000,
+      "pub": "Mon, 15 Jun 2026 00:48:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 이스라엘의 레바논 공습 비판…\"모든 당사자 자제해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260614054751071",
+      "source": "연합뉴스 국제",
+      "ts": 1781450777000,
+      "pub": "Mon, 15 Jun 2026 00:26:17 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[속보] 트럼프 \"평화합의에 매우 근접…모든 당사자 자제해야\"",
       "link": "https://www.yna.co.kr/view/AKR20260615000200071",
@@ -92,7 +132,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "Fed 신임의장, 첫 정례회의 주재",
+      "title": "뉴욕·상하이 증시…Fed 신임의장, 첫 정례회의 주재",
       "link": "https://www.hankyung.com/article/2026061452931",
       "source": "한국경제",
       "ts": 1781431065000,
@@ -100,19 +140,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"곧 이란과 합의\"…호르무즈 열리나",
+      "title": "이란 협상 돌발 변수 된 트럼프 '생일 종전'",
       "link": "https://www.hankyung.com/article/2026061453211",
       "source": "한국경제",
       "ts": 1781429943000,
       "pub": "Sun, 14 Jun 2026 18:39:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[포토] 케네디센터에서 철거되는 '트럼프 간판'",
-      "link": "https://www.hankyung.com/article/2026061453261",
-      "source": "한국경제",
-      "ts": 1781429791000,
-      "pub": "Sun, 14 Jun 2026 18:36:31 +0900",
       "sentiment": "neutral"
     },
     {

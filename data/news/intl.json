@@ -1,8 +1,64 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-14T12:56:31.875Z",
-  "count": 29,
+  "updated_at": "2026-06-14T15:05:31.208Z",
+  "count": 33,
   "items": [
+    {
+      "title": "[속보] 트럼프 \"평화합의에 매우 근접…모든 당사자 자제해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260615000200071",
+      "source": "연합뉴스 국제",
+      "ts": 1781449277000,
+      "pub": "Mon, 15 Jun 2026 00:01:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프, 이스라엘의 레바논공격 비난 \"일어나지 말았어야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260614054700071",
+      "source": "연합뉴스 국제",
+      "ts": 1781449075000,
+      "pub": "Sun, 14 Jun 2026 23:57:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "백악관 상황실 회의 녹음·유출됐나…NYT기자들 신간 파장 예고",
+      "link": "https://www.yna.co.kr/view/AKR20260614054300071",
+      "source": "연합뉴스 국제",
+      "ts": 1781448526000,
+      "pub": "Sun, 14 Jun 2026 23:48:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘군 \"베이루트 공습 후 이란의 보복 공격 대비 태세\"",
+      "link": "https://www.yna.co.kr/view/AKR20260614054000079",
+      "source": "연합뉴스 국제",
+      "ts": 1781447974000,
+      "pub": "Sun, 14 Jun 2026 23:39:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 \"이스라엘의 레바논 공습 계속되면 美와 협상지속 불가능\"",
+      "link": "https://www.mt.co.kr/world/2026/06/14/2026061423203753545",
+      "source": "머니투데이",
+      "ts": 1781447151000,
+      "pub": "Sun, 14 Jun 2026 23:25:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키 \"G7 회의서 드론 협력 확대 등 타진\"",
+      "link": "https://www.yna.co.kr/view/AKR20260614052500109",
+      "source": "연합뉴스 국제",
+      "ts": 1781445457000,
+      "pub": "Sun, 14 Jun 2026 22:57:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란, 이스라엘의 베이루트 공습 반발…\"美와 협상지속 불가능\"",
+      "link": "https://www.yna.co.kr/view/AKR20260614052000079",
+      "source": "연합뉴스 국제",
+      "ts": 1781442681000,
+      "pub": "Sun, 14 Jun 2026 22:11:21 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 지휘소 공습(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260614048851079",
@@ -209,30 +265,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781332713000,
       "pub": "Sat, 13 Jun 2026 15:38:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"군사공격으로 마약조직 '트렌 데 아라과' 리더 제거\"",
-      "link": "https://www.yna.co.kr/view/AKR20260613029500071",
-      "source": "연합뉴스 국제",
-      "ts": 1781315221000,
-      "pub": "Sat, 13 Jun 2026 10:47:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"미군, 지난달 '이란 HEU 탈취' 지상군 옵션 보고…트럼프가 보류\"",
-      "link": "https://www.yna.co.kr/view/AKR20260613024600071",
-      "source": "연합뉴스 국제",
-      "ts": 1781311857000,
-      "pub": "Sat, 13 Jun 2026 09:50:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "케네디센터 '트럼프 이름' 지키기 좌절…삭제 중단신청 기각(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260613001251071",
-      "source": "연합뉴스 국제",
-      "ts": 1781310865000,
-      "pub": "Sat, 13 Jun 2026 09:34:25 +0900",
       "sentiment": "neutral"
     }
   ]

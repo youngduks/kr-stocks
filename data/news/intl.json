@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-14T17:06:46.480Z",
-  "count": 37,
+  "updated_at": "2026-06-14T19:06:42.356Z",
+  "count": 34,
   "items": [
+    {
+      "title": "트럼프, 이스라엘의 레바논 공습에 \"서명 몇시간 지연…화났다\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260614054752071",
+      "source": "연합뉴스 국제",
+      "ts": 1781457333000,
+      "pub": "Mon, 15 Jun 2026 02:15:33 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "레바논상황 변수되나…'생일에 서명 예고' 트럼프 \"모두 자제를\"",
       "link": "https://www.yna.co.kr/view/AKR20260615002000071",
@@ -76,14 +84,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "이란 \"이스라엘의 레바논 공습 계속되면 美와 협상지속 불가능\"",
-      "link": "https://www.mt.co.kr/world/2026/06/14/2026061423203753545",
-      "source": "머니투데이",
-      "ts": 1781447151000,
-      "pub": "Sun, 14 Jun 2026 23:25:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "젤렌스키 \"G7 회의서 드론 협력 확대 등 타진\"",
       "link": "https://www.yna.co.kr/view/AKR20260614052500109",
       "source": "연합뉴스 국제",
@@ -105,14 +105,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781440206000,
       "pub": "Sun, 14 Jun 2026 21:30:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "청와대 \"트럼프 노력 지지…호르무즈 개방 기대\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/14/2026061421230731303",
-      "source": "머니투데이",
-      "ts": 1781439866000,
-      "pub": "Sun, 14 Jun 2026 21:24:26 +0900",
       "sentiment": "neutral"
     },
     {
@@ -148,14 +140,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "변동성 커진 증시…케빈 워시의 첫 FOMC '주목'",
-      "link": "https://www.mt.co.kr/stock/2026/06/14/2026061417481649783",
-      "source": "머니투데이",
-      "ts": 1781427754000,
-      "pub": "Sun, 14 Jun 2026 18:02:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "영국, 러 '그림자함대' 유조선 첫 나포…\"푸틴 불법전쟁에 타격\"",
       "link": "https://www.yna.co.kr/view/AKR20260614042600098",
       "source": "연합뉴스 국제",
@@ -170,14 +154,6 @@
       "ts": 1781424781000,
       "pub": "Sun, 14 Jun 2026 17:13:01 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "사상 처음 백악관 UFC 열린다! '돌주먹' 페레이라, 시릴 간 잡고 UFC 최초 '3체급 챔프' 신화 쓰나",
-      "link": "https://www.mt.co.kr/sports/2026/06/14/2026061416090164674",
-      "source": "머니투데이",
-      "ts": 1781422540000,
-      "pub": "Sun, 14 Jun 2026 16:35:40 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "미·이란 종전 MOU 임박에도 이스라엘, 레바논 맹공",

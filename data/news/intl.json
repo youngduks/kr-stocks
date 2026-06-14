@@ -1,10 +1,34 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-14T02:56:18.810Z",
-  "count": 24,
+  "updated_at": "2026-06-14T07:17:19.912Z",
+  "count": 23,
   "items": [
     {
-      "title": "'핵무기급 AI'라던 앤스로픽 페이블5, 출시 사흘만에 \"판매 중단\"",
+      "title": "미·이란 종전 MOU 임박에도 이스라엘, 레바논 맹공",
+      "link": "https://www.yna.co.kr/view/AKR20260614031000009",
+      "source": "연합뉴스 국제",
+      "ts": 1781416745000,
+      "pub": "Sun, 14 Jun 2026 14:59:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 \"14일 서명 없다…트럼프, 생일 맞춰 종전 MOU 고집\"",
+      "link": "https://www.hankyung.com/article/2026061450827",
+      "source": "한국경제",
+      "ts": 1781415787000,
+      "pub": "Sun, 14 Jun 2026 14:43:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 혁명수비대 \"미국, 트럼프 생일에 MOU 서명 고집\"",
+      "link": "https://www.yna.co.kr/view/AKR20260614029300009",
+      "source": "연합뉴스 국제",
+      "ts": 1781415426000,
+      "pub": "Sun, 14 Jun 2026 14:37:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'핵무기급 AI'라던 앤스로픽 페이블5, 출시 사흘만에 \"서비스 중단\"",
       "link": "https://www.hankyung.com/article/202606144811i",
       "source": "한국경제",
       "ts": 1781402244000,
@@ -41,14 +65,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781391798000,
       "pub": "Sun, 14 Jun 2026 08:03:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란 합의 14일 서명\"…호르무즈 해협 개방 예고",
-      "link": "https://www.hankyung.com/article/2026061446537",
-      "source": "한국경제",
-      "ts": 1781388615000,
-      "pub": "Sun, 14 Jun 2026 07:10:15 +0900",
       "sentiment": "neutral"
     },
     {
@@ -89,14 +105,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781373743000,
       "pub": "Sun, 14 Jun 2026 03:02:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "호르무즈 비용징수 명시적 반대 안한 트럼프…핵물질 이란 파괴 가능성 언급",
-      "link": "https://www.hankyung.com/article/202606144566i",
-      "source": "한국경제",
-      "ts": 1781373116000,
-      "pub": "Sun, 14 Jun 2026 02:51:56 +0900",
       "sentiment": "neutral"
     },
     {
@@ -177,22 +185,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781307165000,
       "pub": "Sat, 13 Jun 2026 08:32:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "혼쭐난 독일 총리, 트럼프에 '생일 축하' 손편지",
-      "link": "https://www.yna.co.kr/view/AKR20260613005000082",
-      "source": "연합뉴스 국제",
-      "ts": 1781287802000,
-      "pub": "Sat, 13 Jun 2026 03:10:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 종전 MOU 서명 시기에 \"주말이나 월요일에 가능할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260613004100071",
-      "source": "연합뉴스 국제",
-      "ts": 1781285769000,
-      "pub": "Sat, 13 Jun 2026 02:36:09 +0900",
       "sentiment": "neutral"
     }
   ]

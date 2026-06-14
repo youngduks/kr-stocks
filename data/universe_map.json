@@ -72,6 +72,18 @@
       "is_fx": true
     },
     {
+      "slug": "spacex",
+      "ticker": "xyz:SPCX",
+      "dex": "xyz",
+      "name_ko": "스페이스X",
+      "name_en": "SpaceX",
+      "category": "us",
+      "tier": 1,
+      "is_private": false,
+      "share_ratio": 1.0,
+      "regular_market": "NASDAQ"
+    },
+    {
       "slug": "tesla",
       "ticker": "xyz:TSLA",
       "dex": "xyz",
@@ -312,18 +324,6 @@
       "tier": 1,
       "share_ratio": 1.0,
       "regular_market": "NYSE"
-    },
-    {
-      "slug": "spacex",
-      "ticker": "xyz:SPCX",
-      "dex": "xyz",
-      "name_ko": "스페이스X",
-      "name_en": "SpaceX",
-      "category": "us",
-      "tier": 1,
-      "is_private": false,
-      "share_ratio": 1.0,
-      "regular_market": "NASDAQ"
     },
     {
       "slug": "openai",

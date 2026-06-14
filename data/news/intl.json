@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-13T23:57:10.633Z",
-  "count": 26,
+  "updated_at": "2026-06-14T02:56:18.810Z",
+  "count": 24,
   "items": [
+    {
+      "title": "'핵무기급 AI'라던 앤스로픽 페이블5, 출시 사흘만에 \"판매 중단\"",
+      "link": "https://www.hankyung.com/article/202606144811i",
+      "source": "한국경제",
+      "ts": 1781402244000,
+      "pub": "Sun, 14 Jun 2026 10:57:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'이란 종전' 앞둔 트럼프, 김정은과 산책 사진 깜짝 공개…왜?",
+      "link": "https://www.hankyung.com/article/2026061448247",
+      "source": "한국경제",
+      "ts": 1781399932000,
+      "pub": "Sun, 14 Jun 2026 10:18:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "신임 Fed 의장 첫 FOMC 메시지 주목…中 소매지표 발표도 예정 [뉴욕·상하이증시 주간전망]",
+      "link": "https://www.hankyung.com/article/202606144803i",
+      "source": "한국경제",
+      "ts": 1781398549000,
+      "pub": "Sun, 14 Jun 2026 09:55:49 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "법원 명령에 트럼프 이름 떼어낸 케네디센터…작업 장면 생중계",
       "link": "https://www.yna.co.kr/view/AKR20260614009600009",
@@ -169,46 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781285769000,
       "pub": "Sat, 13 Jun 2026 02:36:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "푸틴, 러 장병 만나 \"드론이 파리처럼 맴돌아, 문제 이해해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260613001100108",
-      "source": "연합뉴스 국제",
-      "ts": 1781278808000,
-      "pub": "Sat, 13 Jun 2026 00:40:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "케네디센터 이사회, '트럼프 이름 삭제' 법원명령에 불복 나서",
-      "link": "https://www.yna.co.kr/view/AKR20260613001200071",
-      "source": "연합뉴스 국제",
-      "ts": 1781278726000,
-      "pub": "Sat, 13 Jun 2026 00:38:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "합의서명 임박했다던 트럼프, 갑자기 이란 맹비난…\"정말 비열\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260612169851071",
-      "source": "연합뉴스 국제",
-      "ts": 1781277832000,
-      "pub": "Sat, 13 Jun 2026 00:23:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘 국방 \"이란 핵저지 독자 능력 유지…레바논 철군 안해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260612171600079",
-      "source": "연합뉴스 국제",
-      "ts": 1781276476000,
-      "pub": "Sat, 13 Jun 2026 00:01:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 합의 후에 유럽이 도움 될수도\"",
-      "link": "https://www.yna.co.kr/view/AKR20260612170700109",
-      "source": "연합뉴스 국제",
-      "ts": 1781275610000,
-      "pub": "Fri, 12 Jun 2026 23:46:50 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,9 +1,7 @@
-import { promises as fs } from "node:fs";
-import path from "node:path";
 import Link from "next/link";
 import AffiliateStrip from "@/components/AffiliateStrip";
 
-export const revalidate = 1800; // 30분 ISR
+export const revalidate = 3600; // 1시간 ISR — GitHub raw fetch, 빌드 없이 갱신
 
 type NewsItem = {
   title: string;
@@ -11,7 +9,7 @@ type NewsItem = {
   source: string;
   ts: number;
   pub: string;
-  sentiment?: "positive" | "negative" | "neutral"; // 5/26 추가
+  sentiment?: "positive" | "negative" | "neutral";
 };
 
 function sentimentBadge(s?: NewsItem["sentiment"]) {
@@ -48,11 +46,16 @@ const CATEGORIES: { id: string; label: string; emoji: string }[] = [
   { id: "hyundai", label: "현대차", emoji: "🚗" },
 ];
 
+const GITHUB_RAW =
+  "https://raw.githubusercontent.com/youngduks/kr-stocks/main/data/news";
+
 async function loadCategory(cat: string): Promise<CategoryFile | null> {
   try {
-    const file = path.join(process.cwd(), "data", "news", `${cat}.json`);
-    const raw = await fs.readFile(file, "utf-8");
-    return JSON.parse(raw) as CategoryFile;
+    const res = await fetch(`${GITHUB_RAW}/${cat}.json`, {
+      next: { revalidate: 3600 },
+    });
+    if (!res.ok) return null;
+    return (await res.json()) as CategoryFile;
   } catch {
     return null;
   }
@@ -83,7 +86,7 @@ export default async function NewsPage() {
       <header style={{ marginBottom: "1.5rem" }}>
         <h1 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "0.25rem" }}>뉴스룸</h1>
         <p style={{ fontSize: "0.85rem", opacity: 0.7 }}>
-          국제정세 · 삼성전자 · SK하이닉스 · 현대차 — 한경 / 머투 / 연합뉴스에서 키워드 필터링 (30분마다 갱신)
+          국제정세 · 삼성전자 · SK하이닉스 · 현대차 — 한경 / 머투 / 연합뉴스에서 키워드 필터링 (1시간마다 갱신)
           {latestUpdate && (
             <>
               {" · 마지막 업데이트 "}

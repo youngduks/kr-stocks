@@ -41,9 +41,9 @@ const MAPPING: Record<string, RegularSource> = {
   gme: { source: "yahoo", symbol: "GME" },
   rocketlab: { source: "yahoo", symbol: "RKLB" },
   draftkings: { source: "yahoo", symbol: "DKNG" },
+  spacex: { source: "yahoo", symbol: "SPCX" },
 
   // 비상장 — 정규장 없음
-  spacex: null,
   openai: null,
   anthropic: null,
 

@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-14T10:43:35.504Z",
-  "count": 24,
+  "updated_at": "2026-06-14T12:56:31.875Z",
+  "count": 29,
   "items": [
+    {
+      "title": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 지휘소 공습(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260614048851079",
+      "source": "연합뉴스 국제",
+      "ts": 1781440206000,
+      "pub": "Sun, 14 Jun 2026 21:30:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "청와대 \"트럼프 노력 지지…호르무즈 개방 기대\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/14/2026061421230731303",
+      "source": "머니투데이",
+      "ts": 1781439866000,
+      "pub": "Sun, 14 Jun 2026 21:24:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 목표물 공습",
+      "link": "https://www.yna.co.kr/view/AKR20260614048800079",
+      "source": "연합뉴스 국제",
+      "ts": 1781434845000,
+      "pub": "Sun, 14 Jun 2026 20:00:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 이스라엘군 \"베이루트 남쪽 외곽 헤즈볼라 타격\"",
+      "link": "https://www.yna.co.kr/view/AKR20260614048100079",
+      "source": "연합뉴스 국제",
+      "ts": 1781433605000,
+      "pub": "Sun, 14 Jun 2026 19:40:05 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "Fed 신임의장, 첫 정례회의 주재",
       "link": "https://www.hankyung.com/article/2026061452931",
@@ -28,6 +60,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "변동성 커진 증시…케빈 워시의 첫 FOMC '주목'",
+      "link": "https://www.mt.co.kr/stock/2026/06/14/2026061417481649783",
+      "source": "머니투데이",
+      "ts": 1781427754000,
+      "pub": "Sun, 14 Jun 2026 18:02:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "영국, 러 '그림자함대' 유조선 첫 나포…\"푸틴 불법전쟁에 타격\"",
       "link": "https://www.yna.co.kr/view/AKR20260614042600098",
       "source": "연합뉴스 국제",
@@ -42,6 +82,14 @@
       "ts": 1781424781000,
       "pub": "Sun, 14 Jun 2026 17:13:01 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "사상 처음 백악관 UFC 열린다! '돌주먹' 페레이라, 시릴 간 잡고 UFC 최초 '3체급 챔프' 신화 쓰나",
+      "link": "https://www.mt.co.kr/sports/2026/06/14/2026061416090164674",
+      "source": "머니투데이",
+      "ts": 1781422540000,
+      "pub": "Sun, 14 Jun 2026 16:35:40 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "미·이란 종전 MOU 임박에도 이스라엘, 레바논 맹공",
@@ -185,14 +233,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781310865000,
       "pub": "Sat, 13 Jun 2026 09:34:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美·이란 MOU서명 '초읽기'…핵무기 포기·경제적 보상 주고받는다",
-      "link": "https://www.yna.co.kr/view/AKR20260613009200071",
-      "source": "연합뉴스 국제",
-      "ts": 1781307165000,
-      "pub": "Sat, 13 Jun 2026 08:32:45 +0900",
       "sentiment": "neutral"
     }
   ]

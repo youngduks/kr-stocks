@@ -38,9 +38,9 @@ export default async function Home() {
 
         {/* 인간지표 — 내일 상승/하락 투표 (NXT 프리장 오픈 전 마감). 지난 결과 → /poll */}
         <PollWidget
-          pollId="us-market-2026-06-16"
-          title="인간지표 — 미국 증시 상승 vs 하락"
-          question="6/16(월) 미국 증시 (SpaceX 상장), 오를까요 내릴까요?"
+          pollId="market-updown-2026-06-15"
+          title="인간지표 — 내일 상승 vs 하락"
+          question="6/15(월) 한국 증시, 오를까요 내릴까요?"
           yesLabel="📈 상승"
           noLabel="📉 하락"
           historyHref="/poll"

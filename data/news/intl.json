@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-14T07:17:19.912Z",
-  "count": 23,
+  "updated_at": "2026-06-14T10:43:35.504Z",
+  "count": 24,
   "items": [
+    {
+      "title": "Fed 신임의장, 첫 정례회의 주재",
+      "link": "https://www.hankyung.com/article/2026061452931",
+      "source": "한국경제",
+      "ts": 1781431065000,
+      "pub": "Sun, 14 Jun 2026 18:57:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"곧 이란과 합의\"…호르무즈 열리나",
+      "link": "https://www.hankyung.com/article/2026061453211",
+      "source": "한국경제",
+      "ts": 1781429943000,
+      "pub": "Sun, 14 Jun 2026 18:39:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[포토] 케네디센터에서 철거되는 '트럼프 간판'",
+      "link": "https://www.hankyung.com/article/2026061453261",
+      "source": "한국경제",
+      "ts": 1781429791000,
+      "pub": "Sun, 14 Jun 2026 18:36:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "영국, 러 '그림자함대' 유조선 첫 나포…\"푸틴 불법전쟁에 타격\"",
+      "link": "https://www.yna.co.kr/view/AKR20260614042600098",
+      "source": "연합뉴스 국제",
+      "ts": 1781427539000,
+      "pub": "Sun, 14 Jun 2026 17:58:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미·이란 종전 MOU 임박에도…이스라엘·헤즈볼라 무력충돌 계속(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260614031051009",
+      "source": "연합뉴스 국제",
+      "ts": 1781424781000,
+      "pub": "Sun, 14 Jun 2026 17:13:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "미·이란 종전 MOU 임박에도 이스라엘, 레바논 맹공",
       "link": "https://www.yna.co.kr/view/AKR20260614031000009",
@@ -12,43 +52,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "이란 \"14일 서명 없다…트럼프, 생일 맞춰 종전 MOU 고집\"",
-      "link": "https://www.hankyung.com/article/2026061450827",
-      "source": "한국경제",
-      "ts": 1781415787000,
-      "pub": "Sun, 14 Jun 2026 14:43:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "이란 혁명수비대 \"미국, 트럼프 생일에 MOU 서명 고집\"",
       "link": "https://www.yna.co.kr/view/AKR20260614029300009",
       "source": "연합뉴스 국제",
       "ts": 1781415426000,
       "pub": "Sun, 14 Jun 2026 14:37:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'핵무기급 AI'라던 앤스로픽 페이블5, 출시 사흘만에 \"서비스 중단\"",
-      "link": "https://www.hankyung.com/article/202606144811i",
-      "source": "한국경제",
-      "ts": 1781402244000,
-      "pub": "Sun, 14 Jun 2026 10:57:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'이란 종전' 앞둔 트럼프, 김정은과 산책 사진 깜짝 공개…왜?",
-      "link": "https://www.hankyung.com/article/2026061448247",
-      "source": "한국경제",
-      "ts": 1781399932000,
-      "pub": "Sun, 14 Jun 2026 10:18:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "신임 Fed 의장 첫 FOMC 메시지 주목…中 소매지표 발표도 예정 [뉴욕·상하이증시 주간전망]",
-      "link": "https://www.hankyung.com/article/202606144803i",
-      "source": "한국경제",
-      "ts": 1781398549000,
-      "pub": "Sun, 14 Jun 2026 09:55:49 +0900",
       "sentiment": "neutral"
     },
     {

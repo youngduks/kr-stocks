@@ -315,14 +315,13 @@
     },
     {
       "slug": "spacex",
-      "ticker": "vntl:SPACEX",
-      "dex": "vntl",
+      "ticker": "xyz:SPCX",
+      "dex": "xyz",
       "name_ko": "스페이스X",
       "name_en": "SpaceX",
       "category": "us",
       "tier": 1,
       "is_private": false,
-      "note": "상장 — 데이터소스(ticker/dex) 실제 거래소 정보로 업데이트 필요",
       "share_ratio": 1.0,
       "regular_market": "NASDAQ"
     },

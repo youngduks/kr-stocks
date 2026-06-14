@@ -7,17 +7,12 @@ export const dynamic = "force-dynamic";
 // Poll registry. 5/21 09:00 KST = 5/21 00:00 UTC
 const POLLS: Record<string, { closedAt: string }> = {
   "samsung-strike-2026-05-21": { closedAt: "2026-05-21T00:00:00.000Z" },
-  // 인간지표 — 6/8(월) 상승 vs 하락. 마감 = NXT 프리장 오픈 6/8 08:00 KST = 6/7 23:00 UTC. (마감·확정 → poll history)
   "market-updown-2026-06-08": { closedAt: "2026-06-07T23:00:00.000Z" },
-  // 인간지표 — 내일(6/9 화) 상승 vs 하락. 마감 = NXT 프리장 오픈 6/9 08:00 KST = 6/8 23:00 UTC
   "market-updown-2026-06-09": { closedAt: "2026-06-08T23:00:00.000Z" },
-  // 인간지표 — 내일(6/10 수) 상승 vs 하락. 마감 = NXT 프리장 오픈 6/10 08:00 KST = 6/9 23:00 UTC
   "market-updown-2026-06-10": { closedAt: "2026-06-09T23:00:00.000Z" },
-  // 인간지표 — 내일(6/12 금) 상승 vs 하락. 마감 = 장 시작 전 6/12 09:00 KST = 6/12 00:00 UTC
   "market-updown-2026-06-12": { closedAt: "2026-06-12T00:00:00.000Z" },
-  // 인간지표 — 내일(6/15 월) 상승 vs 하락. 마감 = 장 시작 전 6/15 월 09:00 KST = 2026-06-15 00:00 UTC
-  "market-updown-2026-06-15": { closedAt: "2026-06-14T15:00:00.000Z" },
-
+  // 인간지표 — 미국 증시 6/16(월). 마감 = NYSE 개장 직전 9:30 AM ET = 6/16 22:30 KST = 6/16 13:30 UTC
+  "us-market-2026-06-16": { closedAt: "2026-06-16T13:30:00.000Z" },
 };
 
 function getClosedAt(pollId: string): string | null {

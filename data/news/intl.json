@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-14T20:58:27.892Z",
-  "count": 34,
+  "updated_at": "2026-06-14T22:07:25.908Z",
+  "count": 36,
   "items": [
+    {
+      "title": "트럼프 \"이란과 협상 타결\"…개전 106일만에 사실상 종전합의",
+      "link": "https://www.yna.co.kr/view/AKR20260615008351071",
+      "source": "연합뉴스 국제",
+      "ts": 1781473656000,
+      "pub": "Mon, 15 Jun 2026 06:47:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"호르무즈 통행료 없이 개방…美 해상봉쇄 즉시 해제\"",
+      "link": "https://www.yna.co.kr/view/AKR20260615008400071",
+      "source": "연합뉴스 국제",
+      "ts": 1781472855000,
+      "pub": "Mon, 15 Jun 2026 06:34:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"이란과의 협상 타결\"",
+      "link": "https://www.yna.co.kr/view/AKR20260615008300071",
+      "source": "연합뉴스 국제",
+      "ts": 1781472786000,
+      "pub": "Mon, 15 Jun 2026 06:33:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"서명 1시간 전인데 왜 때리나\"…트럼프, 이스라엘 공습에 격노",
+      "link": "https://www.hankyung.com/article/2026061555957",
+      "source": "한국경제",
+      "ts": 1781471285000,
+      "pub": "Mon, 15 Jun 2026 06:08:05 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 서반구 전략 통하나…페루·콜롬비아 대선서 우파 '승기'",
       "link": "https://www.yna.co.kr/view/AKR20260615004100087",
@@ -140,14 +172,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "이란 협상 돌발 변수 된 트럼프 '생일 종전'",
-      "link": "https://www.hankyung.com/article/2026061453211",
-      "source": "한국경제",
-      "ts": 1781429943000,
-      "pub": "Sun, 14 Jun 2026 18:39:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "영국, 러 '그림자함대' 유조선 첫 나포…\"푸틴 불법전쟁에 타격\"",
       "link": "https://www.yna.co.kr/view/AKR20260614042600098",
       "source": "연합뉴스 국제",
@@ -265,14 +289,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781367619000,
       "pub": "Sun, 14 Jun 2026 01:20:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"미군, '이란 우라늄 탈취' 지상군 옵션 보고…트럼프가 보류\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260613024651071",
-      "source": "연합뉴스 국제",
-      "ts": 1781340152000,
-      "pub": "Sat, 13 Jun 2026 17:42:32 +0900",
       "sentiment": "neutral"
     }
   ]

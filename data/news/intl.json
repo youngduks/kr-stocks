@@ -1,8 +1,96 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-15T00:00:08.364Z",
+  "updated_at": "2026-06-15T04:27:08.944Z",
   "count": 36,
   "items": [
+    {
+      "title": "\"하루 27건 글 올리는데도\"…트럼프, 건강 우려 계속",
+      "link": "https://www.hankyung.com/article/2026061568347",
+      "source": "한국경제",
+      "ts": 1781496490000,
+      "pub": "Mon, 15 Jun 2026 13:08:10 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프 팔순…하루 27건 게시물 올려도 세간 건강우려 지속",
+      "link": "https://www.yna.co.kr/view/AKR20260615089200009",
+      "source": "연합뉴스 국제",
+      "ts": 1781493324000,
+      "pub": "Mon, 15 Jun 2026 12:15:24 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[미·이란 종전] 오바마 \"트럼프 핵 합의, 기존보다 크게 낫지 않을 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260615089400075",
+      "source": "연합뉴스 국제",
+      "ts": 1781493039000,
+      "pub": "Mon, 15 Jun 2026 12:10:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] '106일 만에' 이란전쟁 사실상 종료…불만 터져 나오는 이스라엘",
+      "link": "https://www.yna.co.kr/view/AKR20260615080700704",
+      "source": "연합뉴스 국제",
+      "ts": 1781490274000,
+      "pub": "Mon, 15 Jun 2026 11:24:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[미·이란 종전] 트럼프 최측근 의원도 \"우려스럽다\"…의회 견제 예고",
+      "link": "https://www.yna.co.kr/view/AKR20260615074400071",
+      "source": "연합뉴스 국제",
+      "ts": 1781489041000,
+      "pub": "Mon, 15 Jun 2026 11:04:01 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프는 샴페인 터뜨렸는데…\"1500만원 줘도 못 구한다\" 비명",
+      "link": "https://www.hankyung.com/article/202606156542i",
+      "source": "한국경제",
+      "ts": 1781488820000,
+      "pub": "Mon, 15 Jun 2026 11:00:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[미·이란 종전] \"나쁜 합의\"…불만 터져나오는 이스라엘",
+      "link": "https://www.yna.co.kr/view/AKR20260615042600009",
+      "source": "연합뉴스 국제",
+      "ts": 1781484204000,
+      "pub": "Mon, 15 Jun 2026 09:43:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[미·이란 종전] 트럼프 \"호르무즈 통행료 영구면제…네타냐후, 美에 고마워해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260615041900071",
+      "source": "연합뉴스 국제",
+      "ts": 1781483984000,
+      "pub": "Mon, 15 Jun 2026 09:39:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[미·이란 종전] \"이란, 트럼프 생일 피하려 자정까지 기다렸다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260615042000009",
+      "source": "연합뉴스 국제",
+      "ts": 1781483828000,
+      "pub": "Mon, 15 Jun 2026 09:37:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[미·이란 종전] 서명식에 밴스·갈리바프…\"트럼프 참석할 수도\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260615016652071",
+      "source": "연합뉴스 국제",
+      "ts": 1781483113000,
+      "pub": "Mon, 15 Jun 2026 09:25:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[미·이란 종전] 서명식에 밴스·갈리바프 참석…\"트럼프 참석할 수도\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260615016651071",
+      "source": "연합뉴스 국제",
+      "ts": 1781481269000,
+      "pub": "Mon, 15 Jun 2026 08:54:29 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[미·이란 종전] 주먹 들었지만 타협 갈망했던 트럼프…유가·여론악화 부담",
       "link": "https://www.yna.co.kr/view/AKR20260525001000071",
@@ -20,14 +108,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[속보] 트럼프 \"19일 합의 서명되자마자 호르무즈 개방될 것\"",
-      "link": "https://www.hankyung.com/article/2026061557147",
-      "source": "한국경제",
-      "ts": 1781477141000,
-      "pub": "Mon, 15 Jun 2026 07:45:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] 트럼프 \"19일 합의 서명되자마자 호르무즈해협 개방될 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260615018100071",
       "source": "연합뉴스 국제",
@@ -41,14 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781476507000,
       "pub": "Mon, 15 Jun 2026 07:35:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"호르무즈 개방…美 해상 봉쇄 즉시 해제\"",
-      "link": "https://www.hankyung.com/article/2026061556657",
-      "source": "한국경제",
-      "ts": 1781474679000,
-      "pub": "Mon, 15 Jun 2026 07:04:39 +0900",
       "sentiment": "neutral"
     },
     {
@@ -217,78 +289,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781424781000,
       "pub": "Sun, 14 Jun 2026 17:13:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미·이란 종전 MOU 임박에도 이스라엘, 레바논 맹공",
-      "link": "https://www.yna.co.kr/view/AKR20260614031000009",
-      "source": "연합뉴스 국제",
-      "ts": 1781416745000,
-      "pub": "Sun, 14 Jun 2026 14:59:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 혁명수비대 \"미국, 트럼프 생일에 MOU 서명 고집\"",
-      "link": "https://www.yna.co.kr/view/AKR20260614029300009",
-      "source": "연합뉴스 국제",
-      "ts": 1781415426000,
-      "pub": "Sun, 14 Jun 2026 14:37:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "법원 명령에 트럼프 이름 떼어낸 케네디센터…작업 장면 생중계",
-      "link": "https://www.yna.co.kr/view/AKR20260614009600009",
-      "source": "연합뉴스 국제",
-      "ts": 1781391851000,
-      "pub": "Sun, 14 Jun 2026 08:04:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '월가 관할' 검사장도 본인 사건 변호인단 출신 발탁",
-      "link": "https://www.yna.co.kr/view/AKR20260614009700071",
-      "source": "연합뉴스 국제",
-      "ts": 1781391798000,
-      "pub": "Sun, 14 Jun 2026 08:03:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특파원시선] 반년 만에 트럼프 이름 떼어낸 케네디센터",
-      "link": "https://www.yna.co.kr/view/AKR20260614000200071",
-      "source": "연합뉴스 국제",
-      "ts": 1781388373000,
-      "pub": "Sun, 14 Jun 2026 07:06:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[뉴욕증시-주간전망] 이란 종전 MOU 서명만 남았다…워시는 FOMC 첫 등판",
-      "link": "https://www.yna.co.kr/view/AKR20260614006700009",
-      "source": "연합뉴스 국제",
-      "ts": 1781388001000,
-      "pub": "Sun, 14 Jun 2026 07:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 합의 14일 서명 예정\"…美매체 \"전자서명할것\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260614001552071",
-      "source": "연합뉴스 국제",
-      "ts": 1781385463000,
-      "pub": "Sun, 14 Jun 2026 06:17:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "추억회상? 러브콜 염두?…트럼프, SNS에 북미정상회담 사진 올려",
-      "link": "https://www.yna.co.kr/view/AKR20260614002900071",
-      "source": "연합뉴스 국제",
-      "ts": 1781377233000,
-      "pub": "Sun, 14 Jun 2026 04:00:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 합의 14일 서명…직후 모두에 호르무즈 개방\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260614001551071",
-      "source": "연합뉴스 국제",
-      "ts": 1781373743000,
-      "pub": "Sun, 14 Jun 2026 03:02:23 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-14T22:07:25.908Z",
+  "updated_at": "2026-06-15T00:00:08.364Z",
   "count": 36,
   "items": [
+    {
+      "title": "[미·이란 종전] 주먹 들었지만 타협 갈망했던 트럼프…유가·여론악화 부담",
+      "link": "https://www.yna.co.kr/view/AKR20260525001000071",
+      "source": "연합뉴스 경제",
+      "ts": 1781480320000,
+      "pub": "Mon, 15 Jun 2026 08:38:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"19일 합의 서명되자마자 호르무즈 개방될 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260615019800071",
+      "source": "연합뉴스 국제",
+      "ts": 1781477794000,
+      "pub": "Mon, 15 Jun 2026 07:56:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"19일 합의 서명되자마자 호르무즈 개방될 것\"",
+      "link": "https://www.hankyung.com/article/2026061557147",
+      "source": "한국경제",
+      "ts": 1781477141000,
+      "pub": "Mon, 15 Jun 2026 07:45:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"19일 합의 서명되자마자 호르무즈해협 개방될 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260615018100071",
+      "source": "연합뉴스 국제",
+      "ts": 1781477021000,
+      "pub": "Mon, 15 Jun 2026 07:43:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[미·이란 종전] 밴스 美부통령 \"서명식에 트럼프 참석할수도\"",
+      "link": "https://www.yna.co.kr/view/AKR20260615016600071",
+      "source": "연합뉴스 국제",
+      "ts": 1781476507000,
+      "pub": "Mon, 15 Jun 2026 07:35:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"호르무즈 개방…美 해상 봉쇄 즉시 해제\"",
+      "link": "https://www.hankyung.com/article/2026061556657",
+      "source": "한국경제",
+      "ts": 1781474679000,
+      "pub": "Mon, 15 Jun 2026 07:04:39 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"이란과 협상 타결\"…개전 106일만에 사실상 종전합의",
       "link": "https://www.yna.co.kr/view/AKR20260615008351071",
@@ -25,14 +73,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781472786000,
       "pub": "Mon, 15 Jun 2026 06:33:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"서명 1시간 전인데 왜 때리나\"…트럼프, 이스라엘 공습에 격노",
-      "link": "https://www.hankyung.com/article/2026061555957",
-      "source": "한국경제",
-      "ts": 1781471285000,
-      "pub": "Mon, 15 Jun 2026 06:08:05 +0900",
       "sentiment": "neutral"
     },
     {
@@ -164,14 +204,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "뉴욕·상하이 증시…Fed 신임의장, 첫 정례회의 주재",
-      "link": "https://www.hankyung.com/article/2026061452931",
-      "source": "한국경제",
-      "ts": 1781431065000,
-      "pub": "Sun, 14 Jun 2026 18:57:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "영국, 러 '그림자함대' 유조선 첫 나포…\"푸틴 불법전쟁에 타격\"",
       "link": "https://www.yna.co.kr/view/AKR20260614042600098",
       "source": "연합뉴스 국제",
@@ -257,38 +289,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781373743000,
       "pub": "Sun, 14 Jun 2026 03:02:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"모든게 안정된 적절한때 이란의 고농축우라늄 제거\"",
-      "link": "https://www.yna.co.kr/view/AKR20260614002100071",
-      "source": "연합뉴스 국제",
-      "ts": 1781371678000,
-      "pub": "Sun, 14 Jun 2026 02:27:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 합의 14일에 서명…서명직후 호르무즈 개방\"",
-      "link": "https://www.yna.co.kr/view/AKR20260614001500071",
-      "source": "연합뉴스 국제",
-      "ts": 1781370227000,
-      "pub": "Sun, 14 Jun 2026 02:03:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란과 합의 14일에 서명 예정\"",
-      "link": "https://www.yna.co.kr/view/AKR20260614001100071",
-      "source": "연합뉴스 국제",
-      "ts": 1781369504000,
-      "pub": "Sun, 14 Jun 2026 01:51:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, G7 정상회의서 호르무즈 기뢰 제거 동참 요구할 듯",
-      "link": "https://www.yna.co.kr/view/AKR20260614000700071",
-      "source": "연합뉴스 국제",
-      "ts": 1781367619000,
-      "pub": "Sun, 14 Jun 2026 01:20:19 +0900",
       "sentiment": "neutral"
     }
   ]

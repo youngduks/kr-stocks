@@ -1,14 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-15T20:20:21.949Z",
-  "count": 4,
+  "updated_at": "2026-06-15T22:54:17.933Z",
+  "count": 5,
   "items": [
     {
-      "title": "반도체로 떠받쳤던 성장률 '청신호'… 올해 2% 후반대 찍나",
-      "link": "https://www.mt.co.kr/economy/2026/06/16/2026061519544815458",
-      "source": "머니투데이",
-      "ts": 1781550300000,
-      "pub": "Tue, 16 Jun 2026 04:05:00 +0900",
+      "title": "AI 반도체 수요에 수출물가 11개월째 상승",
+      "link": "https://www.hankyung.com/article/2026061681657",
+      "source": "한국경제",
+      "ts": 1781560306000,
+      "pub": "Tue, 16 Jun 2026 06:51:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 수요 증가에 5월 수출물가지수 11개월째 상승",
+      "link": "https://www.yna.co.kr/view/AKR20260615154300002",
+      "source": "연합뉴스 경제",
+      "ts": 1781557200000,
+      "pub": "Tue, 16 Jun 2026 06:00:00 +0900",
       "sentiment": "neutral"
     },
     {

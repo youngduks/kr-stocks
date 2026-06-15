@@ -1,14 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-15T04:27:08.946Z",
-  "count": 1,
+  "updated_at": "2026-06-15T10:49:15.262Z",
+  "count": 2,
   "items": [
     {
-      "title": "[특징주] 종전 합의에 삼전·닉스 5~6%대 급등",
-      "link": "https://www.yna.co.kr/view/AKR20260615037400008",
+      "title": "15일 걸리던 TV 낙하시험 2일로…삼성전자 DX '디지털 트윈' 시동",
+      "link": "https://www.hankyung.com/article/2026061577001",
+      "source": "한국경제",
+      "ts": 1781515514000,
+      "pub": "Mon, 15 Jun 2026 18:25:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 종전합의에 삼전·닉스 급등…'33만전자'·'228만닉스'(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260615037451008",
       "source": "연합뉴스 경제",
-      "ts": 1781482598000,
-      "pub": "Mon, 15 Jun 2026 09:16:38 +0900",
+      "ts": 1781506728000,
+      "pub": "Mon, 15 Jun 2026 15:58:48 +0900",
       "sentiment": "positive"
     }
   ]

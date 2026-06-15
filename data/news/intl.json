@@ -1,15 +1,79 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-15T04:27:08.944Z",
-  "count": 36,
+  "updated_at": "2026-06-15T10:49:15.261Z",
+  "count": 20,
   "items": [
     {
-      "title": "\"하루 27건 글 올리는데도\"…트럼프, 건강 우려 계속",
-      "link": "https://www.hankyung.com/article/2026061568347",
+      "title": "[포토] '美 독립 250주년' UFC 행사 참석한 트럼프",
+      "link": "https://www.hankyung.com/article/2026061577181",
       "source": "한국경제",
-      "ts": 1781496490000,
-      "pub": "Mon, 15 Jun 2026 13:08:10 +0900",
+      "ts": 1781514867000,
+      "pub": "Mon, 15 Jun 2026 18:14:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "잊혀진 러·우크라, 종전 언제쯤",
+      "link": "https://www.hankyung.com/article/2026061577141",
+      "source": "한국경제",
+      "ts": 1781514417000,
+      "pub": "Mon, 15 Jun 2026 18:06:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "60일 추가 협상이 '본게임'…이란 핵무기 처리 결론낸다",
+      "link": "https://www.hankyung.com/article/2026061577571",
+      "source": "한국경제",
+      "ts": 1781514375000,
+      "pub": "Mon, 15 Jun 2026 18:06:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "1500달러짜리 드론에 'TACO' 택한 트럼프",
+      "link": "https://www.hankyung.com/article/2026061577581",
+      "source": "한국경제",
+      "ts": 1781514309000,
+      "pub": "Mon, 15 Jun 2026 18:05:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "시진핑, 미중 경쟁 속 과학기술 자립자강·인재양성 강조",
+      "link": "https://www.yna.co.kr/view/AKR20260615151200083",
+      "source": "연합뉴스 국제",
+      "ts": 1781512766000,
+      "pub": "Mon, 15 Jun 2026 17:39:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[미·이란 종전] 이스라엘 국방 \"레바논서 철군 안해… 이란 도발시 타격\"",
+      "link": "https://www.yna.co.kr/view/AKR20260615139800079",
+      "source": "연합뉴스 국제",
+      "ts": 1781509000000,
+      "pub": "Mon, 15 Jun 2026 16:36:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[미·이란 종전] 이스라엘 극우 장관 \"종전 합의, 우리 구속 못해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260615127200079",
+      "source": "연합뉴스 국제",
+      "ts": 1781505897000,
+      "pub": "Mon, 15 Jun 2026 15:44:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"佛 디지털세 폐지하라\"…와인·샴페인 100% 관세 경고",
+      "link": "https://www.yna.co.kr/view/AKR20260615115300009",
+      "source": "연합뉴스 국제",
+      "ts": 1781503133000,
+      "pub": "Mon, 15 Jun 2026 14:58:53 +0900",
       "sentiment": "negative"
+    },
+    {
+      "title": "[미·이란 종전] 국제사회 일제히 환영…속상한 이스라엘만 침묵(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260615042251009",
+      "source": "연합뉴스 국제",
+      "ts": 1781503091000,
+      "pub": "Mon, 15 Jun 2026 14:58:11 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "트럼프 팔순…하루 27건 게시물 올려도 세간 건강우려 지속",
@@ -42,14 +106,6 @@
       "ts": 1781489041000,
       "pub": "Mon, 15 Jun 2026 11:04:01 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "트럼프는 샴페인 터뜨렸는데…\"1500만원 줘도 못 구한다\" 비명",
-      "link": "https://www.hankyung.com/article/202606156542i",
-      "source": "한국경제",
-      "ts": 1781488820000,
-      "pub": "Mon, 15 Jun 2026 11:00:20 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "[미·이란 종전] \"나쁜 합의\"…불만 터져나오는 이스라엘",
@@ -94,7 +150,7 @@
     {
       "title": "[미·이란 종전] 주먹 들었지만 타협 갈망했던 트럼프…유가·여론악화 부담",
       "link": "https://www.yna.co.kr/view/AKR20260525001000071",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1781480320000,
       "pub": "Mon, 15 Jun 2026 08:38:40 +0900",
       "sentiment": "neutral"
@@ -105,190 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781477794000,
       "pub": "Mon, 15 Jun 2026 07:56:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"19일 합의 서명되자마자 호르무즈해협 개방될 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260615018100071",
-      "source": "연합뉴스 국제",
-      "ts": 1781477021000,
-      "pub": "Mon, 15 Jun 2026 07:43:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[미·이란 종전] 밴스 美부통령 \"서명식에 트럼프 참석할수도\"",
-      "link": "https://www.yna.co.kr/view/AKR20260615016600071",
-      "source": "연합뉴스 국제",
-      "ts": 1781476507000,
-      "pub": "Mon, 15 Jun 2026 07:35:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 협상 타결\"…개전 106일만에 사실상 종전합의",
-      "link": "https://www.yna.co.kr/view/AKR20260615008351071",
-      "source": "연합뉴스 국제",
-      "ts": 1781473656000,
-      "pub": "Mon, 15 Jun 2026 06:47:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"호르무즈 통행료 없이 개방…美 해상봉쇄 즉시 해제\"",
-      "link": "https://www.yna.co.kr/view/AKR20260615008400071",
-      "source": "연합뉴스 국제",
-      "ts": 1781472855000,
-      "pub": "Mon, 15 Jun 2026 06:34:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란과의 협상 타결\"",
-      "link": "https://www.yna.co.kr/view/AKR20260615008300071",
-      "source": "연합뉴스 국제",
-      "ts": 1781472786000,
-      "pub": "Mon, 15 Jun 2026 06:33:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 서반구 전략 통하나…페루·콜롬비아 대선서 우파 '승기'",
-      "link": "https://www.yna.co.kr/view/AKR20260615004100087",
-      "source": "연합뉴스 국제",
-      "ts": 1781467218000,
-      "pub": "Mon, 15 Jun 2026 05:00:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 이스라엘의 레바논 공습에 \"서명 몇시간 지연…화났다\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260614054752071",
-      "source": "연합뉴스 국제",
-      "ts": 1781457333000,
-      "pub": "Mon, 15 Jun 2026 02:15:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "레바논상황 변수되나…'생일에 서명 예고' 트럼프 \"모두 자제를\"",
-      "link": "https://www.yna.co.kr/view/AKR20260615002000071",
-      "source": "연합뉴스 국제",
-      "ts": 1781456033000,
-      "pub": "Mon, 15 Jun 2026 01:53:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "소말릴란드 대통령, '유일 수교국' 이스라엘 첫 국빈방문",
-      "link": "https://www.yna.co.kr/view/AKR20260615001800099",
-      "source": "연합뉴스 국제",
-      "ts": 1781455295000,
-      "pub": "Mon, 15 Jun 2026 01:41:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키·푸틴, 팔순 맞은 트럼프와 통화…\"전쟁 상황 논의\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260614052552109",
-      "source": "연합뉴스 국제",
-      "ts": 1781454831000,
-      "pub": "Mon, 15 Jun 2026 01:33:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키, 생일맞은 트럼프와 통화…\"외교 전반 의견 교환\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260614052551109",
-      "source": "연합뉴스 국제",
-      "ts": 1781452136000,
-      "pub": "Mon, 15 Jun 2026 00:48:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 이스라엘의 레바논 공습 비판…\"모든 당사자 자제해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260614054751071",
-      "source": "연합뉴스 국제",
-      "ts": 1781450777000,
-      "pub": "Mon, 15 Jun 2026 00:26:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"평화합의에 매우 근접…모든 당사자 자제해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260615000200071",
-      "source": "연합뉴스 국제",
-      "ts": 1781449277000,
-      "pub": "Mon, 15 Jun 2026 00:01:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프, 이스라엘의 레바논공격 비난 \"일어나지 말았어야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260614054700071",
-      "source": "연합뉴스 국제",
-      "ts": 1781449075000,
-      "pub": "Sun, 14 Jun 2026 23:57:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "백악관 상황실 회의 녹음·유출됐나…NYT기자들 신간 파장 예고",
-      "link": "https://www.yna.co.kr/view/AKR20260614054300071",
-      "source": "연합뉴스 국제",
-      "ts": 1781448526000,
-      "pub": "Sun, 14 Jun 2026 23:48:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘군 \"베이루트 공습 후 이란의 보복 공격 대비 태세\"",
-      "link": "https://www.yna.co.kr/view/AKR20260614054000079",
-      "source": "연합뉴스 국제",
-      "ts": 1781447974000,
-      "pub": "Sun, 14 Jun 2026 23:39:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키 \"G7 회의서 드론 협력 확대 등 타진\"",
-      "link": "https://www.yna.co.kr/view/AKR20260614052500109",
-      "source": "연합뉴스 국제",
-      "ts": 1781445457000,
-      "pub": "Sun, 14 Jun 2026 22:57:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란, 이스라엘의 베이루트 공습 반발…\"美와 협상지속 불가능\"",
-      "link": "https://www.yna.co.kr/view/AKR20260614052000079",
-      "source": "연합뉴스 국제",
-      "ts": 1781442681000,
-      "pub": "Sun, 14 Jun 2026 22:11:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 지휘소 공습(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260614048851079",
-      "source": "연합뉴스 국제",
-      "ts": 1781440206000,
-      "pub": "Sun, 14 Jun 2026 21:30:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 목표물 공습",
-      "link": "https://www.yna.co.kr/view/AKR20260614048800079",
-      "source": "연합뉴스 국제",
-      "ts": 1781434845000,
-      "pub": "Sun, 14 Jun 2026 20:00:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 이스라엘군 \"베이루트 남쪽 외곽 헤즈볼라 타격\"",
-      "link": "https://www.yna.co.kr/view/AKR20260614048100079",
-      "source": "연합뉴스 국제",
-      "ts": 1781433605000,
-      "pub": "Sun, 14 Jun 2026 19:40:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "영국, 러 '그림자함대' 유조선 첫 나포…\"푸틴 불법전쟁에 타격\"",
-      "link": "https://www.yna.co.kr/view/AKR20260614042600098",
-      "source": "연합뉴스 국제",
-      "ts": 1781427539000,
-      "pub": "Sun, 14 Jun 2026 17:58:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미·이란 종전 MOU 임박에도…이스라엘·헤즈볼라 무력충돌 계속(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260614031051009",
-      "source": "연합뉴스 국제",
-      "ts": 1781424781000,
-      "pub": "Sun, 14 Jun 2026 17:13:01 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,38 +1,94 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-15T10:49:15.261Z",
+  "updated_at": "2026-06-15T16:12:25.265Z",
   "count": 20,
   "items": [
     {
-      "title": "[포토] '美 독립 250주년' UFC 행사 참석한 트럼프",
-      "link": "https://www.hankyung.com/article/2026061577181",
-      "source": "한국경제",
-      "ts": 1781514867000,
-      "pub": "Mon, 15 Jun 2026 18:14:27 +0900",
+      "title": "EU, 푸틴 '고해 사제' 등 러시아 개인·단체 추가 제재",
+      "link": "https://www.yna.co.kr/view/AKR20260616001400098",
+      "source": "연합뉴스 국제",
+      "ts": 1781539232000,
+      "pub": "Tue, 16 Jun 2026 01:00:32 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "영국총리 겨냥 방화 우크라인 유죄평결…\"배후에 러시아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260616001300085",
+      "source": "연합뉴스 국제",
+      "ts": 1781538583000,
+      "pub": "Tue, 16 Jun 2026 00:49:43 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "잊혀진 러·우크라, 종전 언제쯤",
-      "link": "https://www.hankyung.com/article/2026061577141",
-      "source": "한국경제",
-      "ts": 1781514417000,
-      "pub": "Mon, 15 Jun 2026 18:06:57 +0900",
+      "title": "[속보] 美당국자 \"트럼프·밴스, 이란 갈리바프가 MOU 서명했다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260616001200071",
+      "source": "연합뉴스 국제",
+      "ts": 1781538412000,
+      "pub": "Tue, 16 Jun 2026 00:46:52 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "60일 추가 협상이 '본게임'…이란 핵무기 처리 결론낸다",
-      "link": "https://www.hankyung.com/article/2026061577571",
-      "source": "한국경제",
-      "ts": 1781514375000,
-      "pub": "Mon, 15 Jun 2026 18:06:15 +0900",
+      "title": "[미·이란 종전] 美전문가들 \"쟁점 해결못해…트럼프, 전략적 실패\"",
+      "link": "https://www.yna.co.kr/view/AKR20260616000300071",
+      "source": "연합뉴스 국제",
+      "ts": 1781536927000,
+      "pub": "Tue, 16 Jun 2026 00:22:07 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "1500달러짜리 드론에 'TACO' 택한 트럼프",
-      "link": "https://www.hankyung.com/article/2026061577581",
+      "title": "트럼프 \"호르무즈 해협에 갇혔던 유조선들 빠져나가기 시작\"",
+      "link": "https://www.hankyung.com/article/202606158011i",
       "source": "한국경제",
-      "ts": 1781514309000,
-      "pub": "Mon, 15 Jun 2026 18:05:09 +0900",
+      "ts": 1781534367000,
+      "pub": "Mon, 15 Jun 2026 23:39:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[미·이란 종전] 이스라엘 극우 장관들 \"종전 합의, 우리 구속 못해\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260615127251079",
+      "source": "연합뉴스 국제",
+      "ts": 1781531372000,
+      "pub": "Mon, 15 Jun 2026 22:49:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 건국일에 '트럼프 집회' 열린다…86만발 폭죽까지 준비",
+      "link": "https://www.hankyung.com/article/2026061579767",
+      "source": "한국경제",
+      "ts": 1781530997000,
+      "pub": "Mon, 15 Jun 2026 22:43:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[미·이란 종전] 이스라엘 국방 \"레바논서 철군 안해… 이란 도발시 타격\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260615139851079",
+      "source": "연합뉴스 국제",
+      "ts": 1781530663000,
+      "pub": "Mon, 15 Jun 2026 22:37:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"석유 실은 선박들 호르무즈서 빠져나오기 시작\"",
+      "link": "https://www.yna.co.kr/view/AKR20260615169300071",
+      "source": "연합뉴스 국제",
+      "ts": 1781530519000,
+      "pub": "Mon, 15 Jun 2026 22:35:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 美건국 250주년 행사에도 '트럼프 집회' 이름붙여",
+      "link": "https://www.yna.co.kr/view/AKR20260615168400071",
+      "source": "연합뉴스 국제",
+      "ts": 1781529296000,
+      "pub": "Mon, 15 Jun 2026 22:14:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"프랑스, 디지털세 철폐 안 하면 와인에 100% 관세\"",
+      "link": "https://www.hankyung.com/article/202606157881i",
+      "source": "한국경제",
+      "ts": 1781520764000,
+      "pub": "Mon, 15 Jun 2026 19:52:44 +0900",
       "sentiment": "neutral"
     },
     {
@@ -106,62 +162,6 @@
       "ts": 1781489041000,
       "pub": "Mon, 15 Jun 2026 11:04:01 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "[미·이란 종전] \"나쁜 합의\"…불만 터져나오는 이스라엘",
-      "link": "https://www.yna.co.kr/view/AKR20260615042600009",
-      "source": "연합뉴스 국제",
-      "ts": 1781484204000,
-      "pub": "Mon, 15 Jun 2026 09:43:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[미·이란 종전] 트럼프 \"호르무즈 통행료 영구면제…네타냐후, 美에 고마워해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260615041900071",
-      "source": "연합뉴스 국제",
-      "ts": 1781483984000,
-      "pub": "Mon, 15 Jun 2026 09:39:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[미·이란 종전] \"이란, 트럼프 생일 피하려 자정까지 기다렸다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260615042000009",
-      "source": "연합뉴스 국제",
-      "ts": 1781483828000,
-      "pub": "Mon, 15 Jun 2026 09:37:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[미·이란 종전] 서명식에 밴스·갈리바프…\"트럼프 참석할 수도\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260615016652071",
-      "source": "연합뉴스 국제",
-      "ts": 1781483113000,
-      "pub": "Mon, 15 Jun 2026 09:25:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[미·이란 종전] 서명식에 밴스·갈리바프 참석…\"트럼프 참석할 수도\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260615016651071",
-      "source": "연합뉴스 국제",
-      "ts": 1781481269000,
-      "pub": "Mon, 15 Jun 2026 08:54:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[미·이란 종전] 주먹 들었지만 타협 갈망했던 트럼프…유가·여론악화 부담",
-      "link": "https://www.yna.co.kr/view/AKR20260525001000071",
-      "source": "연합뉴스 국제",
-      "ts": 1781480320000,
-      "pub": "Mon, 15 Jun 2026 08:38:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"19일 합의 서명되자마자 호르무즈 개방될 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260615019800071",
-      "source": "연합뉴스 국제",
-      "ts": 1781477794000,
-      "pub": "Mon, 15 Jun 2026 07:56:34 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

@@ -13,6 +13,9 @@ const POLLS: Record<string, { closedAt: string }> = {
   "market-updown-2026-06-12": { closedAt: "2026-06-12T00:00:00.000Z" },
   // 인간지표 — 6/15(월) 한국 증시. 마감 = 월요일 정규장 오픈 09:00 KST = 2026-06-15 00:00 UTC (주말 내내 투표 가능)
   "market-updown-2026-06-15": { closedAt: "2026-06-15T00:00:00.000Z" },
+  // 인간지표 — 내일(6/16 화) 상승 vs 하락. 마감 = 장 시작 전 6/16 화 09:00 KST = 2026-06-16 00:00 UTC
+  "market-updown-2026-06-16": { closedAt: "2026-06-15T15:00:00.000Z" },
+
 };
 
 function getClosedAt(pollId: string): string | null {

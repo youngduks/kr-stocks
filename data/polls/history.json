@@ -1,6 +1,19 @@
 {
   "polls": [
     {
+      "pollId": "market-updown-2026-06-15",
+      "date": "2026-06-15",
+      "dateLabel": "6/15 (월)",
+      "question": "6/15(월) 한국 증시, 오를까요 내릴까요?",
+      "yesLabel": "📈 상승",
+      "noLabel": "📉 하락",
+      "yes": 39,
+      "no": 7,
+      "outcome": "flat",
+      "outcomeDetail": "시장 데이터 미확인",
+      "resolvedAt": "2026-06-15T12:54:48.004Z"
+    },
+    {
       "pollId": "market-updown-2026-06-12",
       "date": "2026-06-12",
       "dateLabel": "6/12 (금)",

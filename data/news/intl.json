@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-16T20:35:37.388Z",
-  "count": 37,
+  "updated_at": "2026-06-16T22:46:46.518Z",
+  "count": 32,
   "items": [
+    {
+      "title": "트럼프, 무기 공급망에도 국방물자생산법 발동",
+      "link": "https://www.yna.co.kr/view/AKR20260617012800009",
+      "source": "연합뉴스 국제",
+      "ts": 1781647703000,
+      "pub": "Wed, 17 Jun 2026 07:08:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이재명 대통령 부부, 트럼프 옆자리에 '딱'…G7 공식만찬",
+      "link": "https://www.mt.co.kr/politics/2026/06/17/2026061706455941055",
+      "source": "머니투데이",
+      "ts": 1781646467000,
+      "pub": "Wed, 17 Jun 2026 06:47:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "원유 판매 허용·재건 지원까지…트럼프, '이란 퍼주기' 논란 [이상은의 워싱턴나우]",
+      "link": "https://www.hankyung.com/article/202606170519i",
+      "source": "한국경제",
+      "ts": 1781646430000,
+      "pub": "Wed, 17 Jun 2026 06:47:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李 대통령 \"北 문제, 중동처럼 주도해주길\"…트럼프 \"노력하겠다\"",
+      "link": "https://www.hankyung.com/article/2026061705177",
+      "source": "한국경제",
+      "ts": 1781644443000,
+      "pub": "Wed, 17 Jun 2026 06:14:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'부실합의' 비판에 뿔난 트럼프…\"MOU 전문 낭독하겠다\" [이상은의 워싱턴나우]",
+      "link": "https://www.hankyung.com/article/202606170453i",
+      "source": "한국경제",
+      "ts": 1781643558000,
+      "pub": "Wed, 17 Jun 2026 05:59:18 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"백악관 연회장 공사비 급증…트럼프 '세금 안쓴다'더니 말바꿔\"",
       "link": "https://www.yna.co.kr/view/AKR20260617006600071",
@@ -36,7 +76,7 @@
       "sentiment": "negative"
     },
     {
-      "title": "G7 정상회의서 트럼프 만난 李 “北 문제 평화적 해결 주도” 요청",
+      "title": "G7 정상회의서 트럼프 만난 李…\"北 문제 평화적 해결 주도\" 요청",
       "link": "https://www.hankyung.com/article/202606170479i",
       "source": "한국경제",
       "ts": 1781633994000,
@@ -50,22 +90,6 @@
       "ts": 1781633764000,
       "pub": "Wed, 17 Jun 2026 03:16:04 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "李 대통령, G7서 트럼프 만나 \"北 문제 해결 주도해달라, 중동처럼\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/17/2026061701514310619",
-      "source": "머니투데이",
-      "ts": 1781628816000,
-      "pub": "Wed, 17 Jun 2026 01:53:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]李 대통령, 트럼프에 \"북한 문제 평화적 해결 주도해 달라\" 요청",
-      "link": "https://www.mt.co.kr/politics/2026/06/17/2026061701440219509",
-      "source": "머니투데이",
-      "ts": 1781628306000,
-      "pub": "Wed, 17 Jun 2026 01:45:06 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "러 외무 \"EU가 우크라 가입시키면 결국 와해\"",
@@ -116,14 +140,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"며칠 내로 이란 종전 협정 기자회견…의회 검증 받겠다\"",
-      "link": "https://www.mt.co.kr/world/2026/06/16/2026061622434368272",
-      "source": "머니투데이",
-      "ts": 1781618106000,
-      "pub": "Tue, 16 Jun 2026 22:55:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "헤즈볼라 \"이란, '이스라엘 철군 없인 美와 핵합의 없다' 확약\"",
       "link": "https://www.yna.co.kr/view/AKR20260616169200079",
       "source": "연합뉴스 국제",
@@ -137,14 +153,6 @@
       "source": "한국경제",
       "ts": 1781617687000,
       "pub": "Tue, 16 Jun 2026 22:48:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이재명 대통령, G7 정상회의 시작…기념촬영서 트럼프와 30초 대화",
-      "link": "https://www.mt.co.kr/politics/2026/06/16/2026061622352685174",
-      "source": "머니투데이",
-      "ts": 1781617375000,
-      "pub": "Tue, 16 Jun 2026 22:42:55 +0900",
       "sentiment": "neutral"
     },
     {
@@ -172,22 +180,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"이란, 핵 무기 절대 못 가져...가지려 한다면 지옥 같은 재앙\"",
-      "link": "https://www.mt.co.kr/world/2026/06/16/2026061622043285851",
-      "source": "머니투데이",
-      "ts": 1781615588000,
-      "pub": "Tue, 16 Jun 2026 22:13:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]이재명 대통령, G7 정상회의 기념촬영…트럼프와 대화도",
-      "link": "https://www.mt.co.kr/politics/2026/06/16/2026061622115229951",
-      "source": "머니투데이",
-      "ts": 1781615583000,
-      "pub": "Tue, 16 Jun 2026 22:13:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프·다카이치 G7서 '5분 환담'…\"자위대 파견 언급 없어\"",
       "link": "https://www.yna.co.kr/view/AKR20260616167400073",
       "source": "연합뉴스 국제",
@@ -204,27 +196,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 1기 참모 \"이란이 트럼프 갖고 놀아…기름값에 안보 팔았다\"",
-      "link": "https://www.mt.co.kr/world/2026/06/16/2026061621004749130",
-      "source": "머니투데이",
-      "ts": 1781612032000,
-      "pub": "Tue, 16 Jun 2026 21:13:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"이란, 핵무기 확보하려 하면 지옥 같은 재앙 닥칠 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260616161400081",
       "source": "연합뉴스 국제",
       "ts": 1781607378000,
       "pub": "Tue, 16 Jun 2026 19:56:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미국 농락 당했나…\"이란, 트럼프 '갖고 놀며' 유리하게 합의\"",
-      "link": "https://www.hankyung.com/article/2026061602157",
-      "source": "한국경제",
-      "ts": 1781605035000,
-      "pub": "Tue, 16 Jun 2026 19:17:15 +0900",
       "sentiment": "neutral"
     },
     {
@@ -281,22 +257,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781586125000,
       "pub": "Tue, 16 Jun 2026 14:02:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "PGIM \"연준, 올해 3회 금리 인상 예상\"",
-      "link": "https://www.yna.co.kr/view/AKR20260616058500009",
-      "source": "연합뉴스 국제",
-      "ts": 1781577502000,
-      "pub": "Tue, 16 Jun 2026 11:38:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "정부, 미국 무역법 301조 관세 예고에 범부처 대책회의",
-      "link": "https://www.yna.co.kr/view/AKR20260616054300003",
-      "source": "연합뉴스 경제",
-      "ts": 1781575203000,
-      "pub": "Tue, 16 Jun 2026 11:00:03 +0900",
       "sentiment": "neutral"
     }
   ]

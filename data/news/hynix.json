@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-16T20:35:37.391Z",
-  "count": 4,
+  "updated_at": "2026-06-16T22:46:46.675Z",
+  "count": 7,
   "items": [
+    {
+      "title": "파생상품發 변동성에 반도체주 급락…나스닥 1%대 하락 [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026061706146",
+      "source": "한국경제",
+      "ts": 1781648866000,
+      "pub": "Wed, 17 Jun 2026 07:27:46 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[시선강탈] 산일전기 vs 한미반도체 vs 비에이치아이, 공략법은?",
+      "link": "https://www.mt.co.kr/stock/2026/06/17/2026061700237032633",
+      "source": "머니투데이",
+      "ts": 1781646359000,
+      "pub": "Wed, 17 Jun 2026 06:45:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "유가 떨어지자 반도체주 '팔자'…스페이스X 시총 5위 안착[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/06/17/2026061706155877301",
+      "source": "머니투데이",
+      "ts": 1781644692000,
+      "pub": "Wed, 17 Jun 2026 06:18:12 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "엔비디아 \"AI 투자 실탄\" 회사채 38조원 발행",
       "link": "https://www.mt.co.kr/world/2026/06/17/2026061619563174505",

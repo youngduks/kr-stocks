@@ -1,22 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-16T06:22:39.112Z",
-  "count": 7,
+  "updated_at": "2026-06-16T12:01:52.143Z",
+  "count": 3,
   "items": [
     {
-      "title": "K반도체 독주 끝?…다가오는 고금리의 역습",
-      "link": "https://www.hankyung.com/article/202606169385i",
-      "source": "한국경제",
-      "ts": 1781587449000,
-      "pub": "Tue, 16 Jun 2026 14:24:09 +0900",
+      "title": "美반도체 AMD 리사 수 부친, 대만 총통부 고문 임명돼",
+      "link": "https://www.yna.co.kr/view/AKR20260616147700009",
+      "source": "연합뉴스 국제",
+      "ts": 1781598982000,
+      "pub": "Tue, 16 Jun 2026 17:36:22 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "삼성 준감위 \"반도체 지방투자, 정치논리에 좌우돼선 안 돼\"",
-      "link": "https://www.hankyung.com/article/2026061694617",
-      "source": "한국경제",
-      "ts": 1781587281000,
-      "pub": "Tue, 16 Jun 2026 14:21:21 +0900",
+      "title": "[특징주] 제너셈, SK하이닉스와 반도체 장비 공급계약에 상승(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260616035751008",
+      "source": "연합뉴스 경제",
+      "ts": 1781592524000,
+      "pub": "Tue, 16 Jun 2026 15:48:44 +0900",
       "sentiment": "neutral"
     },
     {
@@ -25,38 +25,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781578831000,
       "pub": "Tue, 16 Jun 2026 12:00:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "KT, 메모리 선구매 지원…협력사 공급망 리스크 줄인다",
-      "link": "https://www.yna.co.kr/view/AKR20260616042800017",
-      "source": "연합뉴스 경제",
-      "ts": 1781570238000,
-      "pub": "Tue, 16 Jun 2026 09:37:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성운용, 'KODEX AI반도체TOP2플러스' ETF에 SK스퀘어 편입",
-      "link": "https://www.yna.co.kr/view/AKR20260616035900008",
-      "source": "연합뉴스 경제",
-      "ts": 1781568982000,
-      "pub": "Tue, 16 Jun 2026 09:16:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 제너셈, SK하이닉스와 반도체 장비 공급계약에 15%대 급등",
-      "link": "https://www.yna.co.kr/view/AKR20260616035700008",
-      "source": "연합뉴스 경제",
-      "ts": 1781568927000,
-      "pub": "Tue, 16 Jun 2026 09:15:27 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "엔비디아, 5년 만에 회사채 발행 검토…최소 30조원 규모",
-      "link": "https://www.yna.co.kr/view/AKR20260616002900075",
-      "source": "연합뉴스 국제",
-      "ts": 1781544273000,
-      "pub": "Tue, 16 Jun 2026 02:24:33 +0900",
       "sentiment": "neutral"
     }
   ]

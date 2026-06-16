@@ -1,8 +1,176 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-16T12:01:52.140Z",
-  "count": 19,
+  "updated_at": "2026-06-16T17:53:06.323Z",
+  "count": 32,
   "items": [
+    {
+      "title": "李 대통령, G7서 트럼프 만나 \"北 문제 해결 주도해달라, 중동처럼\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/17/2026061701514310619",
+      "source": "머니투데이",
+      "ts": 1781628816000,
+      "pub": "Wed, 17 Jun 2026 01:53:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]李 대통령, 트럼프에 \"북한 문제 평화적 해결 주도해 달라\" 요청",
+      "link": "https://www.mt.co.kr/politics/2026/06/17/2026061701440219509",
+      "source": "머니투데이",
+      "ts": 1781628306000,
+      "pub": "Wed, 17 Jun 2026 01:45:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러 외무 \"EU가 우크라 가입시키면 결국 와해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260617001200108",
+      "source": "연합뉴스 국제",
+      "ts": 1781627925000,
+      "pub": "Wed, 17 Jun 2026 01:38:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"백악관 'UFC 대회' 겨냥한 공격 음모에…\" FBI 국장의 고백",
+      "link": "https://www.hankyung.com/article/2026061604437",
+      "source": "한국경제",
+      "ts": 1781620465000,
+      "pub": "Tue, 16 Jun 2026 23:34:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 증시, 연준 회의 첫날 혼조세…스페이스X, MS·아마존 시총 제쳐",
+      "link": "https://www.hankyung.com/article/202606160437i",
+      "source": "한국경제",
+      "ts": 1781619672000,
+      "pub": "Tue, 16 Jun 2026 23:21:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중동 위기 넘긴 G7, 우크라전 종식 위해 대러 압박 강화",
+      "link": "https://www.yna.co.kr/view/AKR20260616170100081",
+      "source": "연합뉴스 국제",
+      "ts": 1781619129000,
+      "pub": "Tue, 16 Jun 2026 23:12:09 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "美FBI국장 \"백악관 UFC 공격 음모 저지…다수 인물 구금\"",
+      "link": "https://www.yna.co.kr/view/AKR20260616169800071",
+      "source": "연합뉴스 국제",
+      "ts": 1781618768000,
+      "pub": "Tue, 16 Jun 2026 23:06:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, FOMC 대기하며 상승 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260616169700009",
+      "source": "연합뉴스 국제",
+      "ts": 1781618189000,
+      "pub": "Tue, 16 Jun 2026 22:56:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"며칠 내로 이란 종전 협정 기자회견…의회 검증 받겠다\"",
+      "link": "https://www.mt.co.kr/world/2026/06/16/2026061622434368272",
+      "source": "머니투데이",
+      "ts": 1781618106000,
+      "pub": "Tue, 16 Jun 2026 22:55:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "헤즈볼라 \"이란, '이스라엘 철군 없인 美와 핵합의 없다' 확약\"",
+      "link": "https://www.yna.co.kr/view/AKR20260616169200079",
+      "source": "연합뉴스 국제",
+      "ts": 1781617730000,
+      "pub": "Tue, 16 Jun 2026 22:48:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李대통령, G7 회의서 트럼프 대면…마크롱엔 \"아임 쏘 해피\"",
+      "link": "https://www.hankyung.com/article/2026061604217",
+      "source": "한국경제",
+      "ts": 1781617687000,
+      "pub": "Tue, 16 Jun 2026 22:48:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이재명 대통령, G7 정상회의 시작…기념촬영서 트럼프와 30초 대화",
+      "link": "https://www.mt.co.kr/politics/2026/06/16/2026061622352685174",
+      "source": "머니투데이",
+      "ts": 1781617375000,
+      "pub": "Tue, 16 Jun 2026 22:42:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 李대통령, G7 정상회의 환영행사 참석…트럼프도 대면",
+      "link": "https://www.hankyung.com/article/2026061604117",
+      "source": "한국경제",
+      "ts": 1781616334000,
+      "pub": "Tue, 16 Jun 2026 22:25:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란, 핵무기 확보하려 하면 지옥 같은 재앙 닥칠 것\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260616161451081",
+      "source": "연합뉴스 국제",
+      "ts": 1781616047000,
+      "pub": "Tue, 16 Jun 2026 22:20:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "유럽의회, 美 무역협정 승인…트럼프 마감시한 맞춰",
+      "link": "https://www.yna.co.kr/view/AKR20260616167800098",
+      "source": "연합뉴스 국제",
+      "ts": 1781615778000,
+      "pub": "Tue, 16 Jun 2026 22:16:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란, 핵 무기 절대 못 가져...가지려 한다면 지옥 같은 재앙\"",
+      "link": "https://www.mt.co.kr/world/2026/06/16/2026061622043285851",
+      "source": "머니투데이",
+      "ts": 1781615588000,
+      "pub": "Tue, 16 Jun 2026 22:13:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]이재명 대통령, G7 정상회의 기념촬영…트럼프와 대화도",
+      "link": "https://www.mt.co.kr/politics/2026/06/16/2026061622115229951",
+      "source": "머니투데이",
+      "ts": 1781615583000,
+      "pub": "Tue, 16 Jun 2026 22:13:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프·다카이치 G7서 '5분 환담'…\"자위대 파견 언급 없어\"",
+      "link": "https://www.yna.co.kr/view/AKR20260616167400073",
+      "source": "연합뉴스 국제",
+      "ts": 1781615454000,
+      "pub": "Tue, 16 Jun 2026 22:10:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'푸틴 풍자' 러 반체제 작가 폴란드서 피살(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260616138151082",
+      "source": "연합뉴스 국제",
+      "ts": 1781614793000,
+      "pub": "Tue, 16 Jun 2026 21:59:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 1기 참모 \"이란이 트럼프 갖고 놀아…기름값에 안보 팔았다\"",
+      "link": "https://www.mt.co.kr/world/2026/06/16/2026061621004749130",
+      "source": "머니투데이",
+      "ts": 1781612032000,
+      "pub": "Tue, 16 Jun 2026 21:13:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"백악관, 클로드 접근권 획득한 한국 통신사 '중국 연계' 의심\"",
+      "link": "https://www.mt.co.kr/world/2026/06/16/2026061619141349997",
+      "source": "머니투데이",
+      "ts": 1781610112000,
+      "pub": "Tue, 16 Jun 2026 20:41:52 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"이란, 핵무기 확보하려 하면 지옥 같은 재앙 닥칠 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260616161400081",
@@ -89,70 +257,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781575203000,
       "pub": "Tue, 16 Jun 2026 11:00:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "英, 우크라에 핵연료 제공…러시아 그림자 함대 등 제재 강화",
-      "link": "https://www.yna.co.kr/view/AKR20260616048100009",
-      "source": "연합뉴스 국제",
-      "ts": 1781571449000,
-      "pub": "Tue, 16 Jun 2026 09:57:29 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "푸틴, 시진핑 생일축하로 밀월 과시…中매체는 '인민영수' 부각",
-      "link": "https://www.yna.co.kr/view/AKR20260616039600083",
-      "source": "연합뉴스 국제",
-      "ts": 1781570743000,
-      "pub": "Tue, 16 Jun 2026 09:45:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[미·이란 종전] 트럼프 압박에 이스라엘·헤즈볼라 교전 일단 완화",
-      "link": "https://www.yna.co.kr/view/AKR20260616029500009",
-      "source": "연합뉴스 국제",
-      "ts": 1781569945000,
-      "pub": "Tue, 16 Jun 2026 09:32:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'무거운 입' 강조한 워시…연준 20년 소통 관행 끝나나",
-      "link": "https://www.yna.co.kr/view/AKR20260616029400009",
-      "source": "연합뉴스 국제",
-      "ts": 1781569868000,
-      "pub": "Tue, 16 Jun 2026 09:31:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키, 푸틴에 종전담판 제의…\"미국·프랑스서 직접 만나자\"",
-      "link": "https://www.yna.co.kr/view/AKR20260616030300009",
-      "source": "연합뉴스 국제",
-      "ts": 1781568947000,
-      "pub": "Tue, 16 Jun 2026 09:15:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[미·이란 종전] \"트럼프, 한국기업 등 참여하는 이란 재건기금 추진\"",
-      "link": "https://www.yna.co.kr/view/AKR20260616023200009",
-      "source": "연합뉴스 국제",
-      "ts": 1781568049000,
-      "pub": "Tue, 16 Jun 2026 09:00:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴섬 캘리포니아주지사 \"트럼프가 표적수사…내가 대권주자여서\"",
-      "link": "https://www.yna.co.kr/view/AKR20260616025000075",
-      "source": "연합뉴스 국제",
-      "ts": 1781566703000,
-      "pub": "Tue, 16 Jun 2026 08:38:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[미·이란 종전] 트럼프·갈리바프, MOU 서명…\"한장반짜리 대략적 문서\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260616000652071",
-      "source": "연합뉴스 국제",
-      "ts": 1781566279000,
-      "pub": "Tue, 16 Jun 2026 08:31:19 +0900",
       "sentiment": "neutral"
     }
   ]

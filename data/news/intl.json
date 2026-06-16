@@ -1,8 +1,72 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-16T00:22:15.523Z",
-  "count": 28,
+  "updated_at": "2026-06-16T06:22:39.110Z",
+  "count": 25,
   "items": [
+    {
+      "title": "호주 경찰, 이스라엘군의 구호활동가 성폭행·학대 혐의 조사",
+      "link": "https://www.yna.co.kr/view/AKR20260616088800084",
+      "source": "연합뉴스 국제",
+      "ts": 1781586125000,
+      "pub": "Tue, 16 Jun 2026 14:02:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "PGIM \"연준, 올해 3회 금리 인상 예상\"",
+      "link": "https://www.yna.co.kr/view/AKR20260616058500009",
+      "source": "연합뉴스 국제",
+      "ts": 1781577502000,
+      "pub": "Tue, 16 Jun 2026 11:38:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정부, 미국 무역법 301조 관세 예고에 범부처 대책회의",
+      "link": "https://www.yna.co.kr/view/AKR20260616054300003",
+      "source": "연합뉴스 경제",
+      "ts": 1781575203000,
+      "pub": "Tue, 16 Jun 2026 11:00:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "英, 우크라에 핵연료 제공…러시아 그림자 함대 등 제재 강화",
+      "link": "https://www.yna.co.kr/view/AKR20260616048100009",
+      "source": "연합뉴스 국제",
+      "ts": 1781571449000,
+      "pub": "Tue, 16 Jun 2026 09:57:29 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "푸틴, 시진핑 생일축하로 밀월 과시…中매체는 '인민영수' 부각",
+      "link": "https://www.yna.co.kr/view/AKR20260616039600083",
+      "source": "연합뉴스 국제",
+      "ts": 1781570743000,
+      "pub": "Tue, 16 Jun 2026 09:45:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[미·이란 종전] 트럼프 압박에 이스라엘·헤즈볼라 교전 일단 완화",
+      "link": "https://www.yna.co.kr/view/AKR20260616029500009",
+      "source": "연합뉴스 국제",
+      "ts": 1781569945000,
+      "pub": "Tue, 16 Jun 2026 09:32:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'무거운 입' 강조한 워시…연준 20년 소통 관행 끝나나",
+      "link": "https://www.yna.co.kr/view/AKR20260616029400009",
+      "source": "연합뉴스 국제",
+      "ts": 1781569868000,
+      "pub": "Tue, 16 Jun 2026 09:31:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키, 푸틴에 종전담판 제의…\"미국·프랑스서 직접 만나자\"",
+      "link": "https://www.yna.co.kr/view/AKR20260616030300009",
+      "source": "연합뉴스 국제",
+      "ts": 1781568947000,
+      "pub": "Tue, 16 Jun 2026 09:15:47 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[미·이란 종전] \"트럼프, 한국기업 등 참여하는 이란 재건기금 추진\"",
       "link": "https://www.yna.co.kr/view/AKR20260616023200009",
@@ -25,30 +89,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781566279000,
       "pub": "Tue, 16 Jun 2026 08:31:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "인플레 걱정? 더 큰 게 있다…Fed가 정말 금리 '인하할' 이유 [김현석의 퀵브리프]",
-      "link": "https://www.hankyung.com/article/202606168331i",
-      "source": "한국경제",
-      "ts": 1781566031000,
-      "pub": "Tue, 16 Jun 2026 08:27:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[외신 에스프레소 영상] 미국-이란 휴전 합의에 이스라엘 반발…트럼프, 중동 정책 딜레마 직면",
-      "link": "https://www.hankyung.com/article/202606168333i",
-      "source": "한국경제",
-      "ts": 1781565344000,
-      "pub": "Tue, 16 Jun 2026 08:15:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[외신 에스프레소] 백악관이 사용을 금지시킨 미국 AI...뜻밖에 웃고 있는 중국?",
-      "link": "https://www.hankyung.com/article/202606168304i",
-      "source": "한국경제",
-      "ts": 1781564765000,
-      "pub": "Tue, 16 Jun 2026 08:06:05 +0900",
       "sentiment": "neutral"
     },
     {
@@ -162,70 +202,6 @@
       "ts": 1781536927000,
       "pub": "Tue, 16 Jun 2026 00:22:07 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[미·이란 종전] 이스라엘 극우 장관들 \"종전 합의, 우리 구속 못해\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260615127251079",
-      "source": "연합뉴스 국제",
-      "ts": 1781531372000,
-      "pub": "Mon, 15 Jun 2026 22:49:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[미·이란 종전] 이스라엘 국방 \"레바논서 철군 안해… 이란 도발시 타격\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260615139851079",
-      "source": "연합뉴스 국제",
-      "ts": 1781530663000,
-      "pub": "Mon, 15 Jun 2026 22:37:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"석유 실은 선박들 호르무즈서 빠져나오기 시작\"",
-      "link": "https://www.yna.co.kr/view/AKR20260615169300071",
-      "source": "연합뉴스 국제",
-      "ts": 1781530519000,
-      "pub": "Mon, 15 Jun 2026 22:35:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 美건국 250주년 행사에도 '트럼프 집회' 이름붙여",
-      "link": "https://www.yna.co.kr/view/AKR20260615168400071",
-      "source": "연합뉴스 국제",
-      "ts": 1781529296000,
-      "pub": "Mon, 15 Jun 2026 22:14:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "시진핑, 미중 경쟁 속 과학기술 자립자강·인재양성 강조",
-      "link": "https://www.yna.co.kr/view/AKR20260615151200083",
-      "source": "연합뉴스 국제",
-      "ts": 1781512766000,
-      "pub": "Mon, 15 Jun 2026 17:39:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[미·이란 종전] 이스라엘 국방 \"레바논서 철군 안해… 이란 도발시 타격\"",
-      "link": "https://www.yna.co.kr/view/AKR20260615139800079",
-      "source": "연합뉴스 국제",
-      "ts": 1781509000000,
-      "pub": "Mon, 15 Jun 2026 16:36:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[미·이란 종전] 이스라엘 극우 장관 \"종전 합의, 우리 구속 못해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260615127200079",
-      "source": "연합뉴스 국제",
-      "ts": 1781505897000,
-      "pub": "Mon, 15 Jun 2026 15:44:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"佛 디지털세 폐지하라\"…와인·샴페인 100% 관세 경고",
-      "link": "https://www.yna.co.kr/view/AKR20260615115300009",
-      "source": "연합뉴스 국제",
-      "ts": 1781503133000,
-      "pub": "Mon, 15 Jun 2026 14:58:53 +0900",
-      "sentiment": "negative"
     }
   ]
 }

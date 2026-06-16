@@ -1,8 +1,64 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-15T22:54:17.933Z",
-  "count": 5,
+  "updated_at": "2026-06-16T00:22:15.525Z",
+  "count": 10,
   "items": [
+    {
+      "title": "삼성운용, 'KODEX AI반도체TOP2플러스' ETF에 SK스퀘어 편입",
+      "link": "https://www.yna.co.kr/view/AKR20260616035900008",
+      "source": "연합뉴스 경제",
+      "ts": 1781568982000,
+      "pub": "Tue, 16 Jun 2026 09:16:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 제너셈, SK하이닉스와 반도체 장비 공급계약에 15%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20260616035700008",
+      "source": "연합뉴스 경제",
+      "ts": 1781568927000,
+      "pub": "Tue, 16 Jun 2026 09:15:27 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "DB증권 \"AI 투자 시 엔비디아 GPU 렌탈 비용 추이 참고 가능\"",
+      "link": "https://www.yna.co.kr/view/AKR20260616025100008",
+      "source": "연합뉴스 경제",
+      "ts": 1781566804000,
+      "pub": "Tue, 16 Jun 2026 08:40:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아, 250억달러 회사채 발행…AI 생태계 자금조달 가속",
+      "link": "https://www.hankyung.com/article/202606168385i",
+      "source": "한국경제",
+      "ts": 1781566373000,
+      "pub": "Tue, 16 Jun 2026 08:32:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"뜨거운 여름이 온다\"…스페이스X 또 19%↑, 극단까지 뛴 메모리 [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202606168237i",
+      "source": "한국경제",
+      "ts": 1781564630000,
+      "pub": "Tue, 16 Jun 2026 08:03:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"심텍, 엔비디아 베라루빈 양산 시 최대 수혜 기대…목표가↑\"-대신",
+      "link": "https://www.hankyung.com/article/2026061682336",
+      "source": "한국경제",
+      "ts": 1781563274000,
+      "pub": "Tue, 16 Jun 2026 07:41:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"6월에만 95% 올랐다\"…반도체·2차전지 쌍끌이에 불기둥 세운 후성",
+      "link": "https://www.hankyung.com/article/202606157423i",
+      "source": "한국경제",
+      "ts": 1781562896000,
+      "pub": "Tue, 16 Jun 2026 07:34:56 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "AI 반도체 수요에 수출물가 11개월째 상승",
       "link": "https://www.hankyung.com/article/2026061681657",
@@ -25,22 +81,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781544273000,
       "pub": "Tue, 16 Jun 2026 02:24:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 \"60일뒤 통행료\" 시사...엔비디아, 5년만 부채 발행 [빈난새의 개장전요것만]",
-      "link": "https://www.hankyung.com/article/202606158025i",
-      "source": "한국경제",
-      "ts": 1781535868000,
-      "pub": "Tue, 16 Jun 2026 00:04:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아도 30조원 규모 채권 발행, 자금 조달 나서",
-      "link": "https://www.hankyung.com/article/202606158006i",
-      "source": "한국경제",
-      "ts": 1781535523000,
-      "pub": "Mon, 15 Jun 2026 23:58:43 +0900",
       "sentiment": "neutral"
     }
   ]

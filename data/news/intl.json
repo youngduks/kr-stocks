@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-15T22:54:17.931Z",
-  "count": 25,
+  "updated_at": "2026-06-16T00:22:15.523Z",
+  "count": 28,
   "items": [
+    {
+      "title": "[미·이란 종전] \"트럼프, 한국기업 등 참여하는 이란 재건기금 추진\"",
+      "link": "https://www.yna.co.kr/view/AKR20260616023200009",
+      "source": "연합뉴스 국제",
+      "ts": 1781568049000,
+      "pub": "Tue, 16 Jun 2026 09:00:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴섬 캘리포니아주지사 \"트럼프가 표적수사…내가 대권주자여서\"",
+      "link": "https://www.yna.co.kr/view/AKR20260616025000075",
+      "source": "연합뉴스 국제",
+      "ts": 1781566703000,
+      "pub": "Tue, 16 Jun 2026 08:38:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[미·이란 종전] 트럼프·갈리바프, MOU 서명…\"한장반짜리 대략적 문서\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260616000652071",
+      "source": "연합뉴스 국제",
+      "ts": 1781566279000,
+      "pub": "Tue, 16 Jun 2026 08:31:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "인플레 걱정? 더 큰 게 있다…Fed가 정말 금리 '인하할' 이유 [김현석의 퀵브리프]",
+      "link": "https://www.hankyung.com/article/202606168331i",
+      "source": "한국경제",
+      "ts": 1781566031000,
+      "pub": "Tue, 16 Jun 2026 08:27:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[외신 에스프레소 영상] 미국-이란 휴전 합의에 이스라엘 반발…트럼프, 중동 정책 딜레마 직면",
+      "link": "https://www.hankyung.com/article/202606168333i",
+      "source": "한국경제",
+      "ts": 1781565344000,
+      "pub": "Tue, 16 Jun 2026 08:15:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[외신 에스프레소] 백악관이 사용을 금지시킨 미국 AI...뜻밖에 웃고 있는 중국?",
+      "link": "https://www.hankyung.com/article/202606168304i",
+      "source": "한국경제",
+      "ts": 1781564765000,
+      "pub": "Tue, 16 Jun 2026 08:06:05 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"이색깔이 아닌데\"…트럼프가 공들인 파랑연못, 녹조류로 뒤덮여",
       "link": "https://www.yna.co.kr/view/AKR20260616017600071",
@@ -116,27 +164,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"호르무즈 해협에 갇혔던 유조선들 빠져나가기 시작\"",
-      "link": "https://www.hankyung.com/article/202606158011i",
-      "source": "한국경제",
-      "ts": 1781534367000,
-      "pub": "Mon, 15 Jun 2026 23:39:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[미·이란 종전] 이스라엘 극우 장관들 \"종전 합의, 우리 구속 못해\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260615127251079",
       "source": "연합뉴스 국제",
       "ts": 1781531372000,
       "pub": "Mon, 15 Jun 2026 22:49:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 건국일에 '트럼프 집회' 열린다…86만발 폭죽까지 준비",
-      "link": "https://www.hankyung.com/article/2026061579767",
-      "source": "한국경제",
-      "ts": 1781530997000,
-      "pub": "Mon, 15 Jun 2026 22:43:17 +0900",
       "sentiment": "neutral"
     },
     {
@@ -194,14 +226,6 @@
       "ts": 1781503133000,
       "pub": "Mon, 15 Jun 2026 14:58:53 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "[미·이란 종전] 국제사회 일제히 환영…속상한 이스라엘만 침묵(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260615042251009",
-      "source": "연합뉴스 국제",
-      "ts": 1781503091000,
-      "pub": "Mon, 15 Jun 2026 14:58:11 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

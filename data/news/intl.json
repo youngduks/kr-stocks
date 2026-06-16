@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-16T17:53:06.323Z",
-  "count": 32,
+  "updated_at": "2026-06-16T20:35:37.388Z",
+  "count": 37,
   "items": [
+    {
+      "title": "\"백악관 연회장 공사비 급증…트럼프 '세금 안쓴다'더니 말바꿔\"",
+      "link": "https://www.yna.co.kr/view/AKR20260617006600071",
+      "source": "연합뉴스 국제",
+      "ts": 1781641904000,
+      "pub": "Wed, 17 Jun 2026 05:31:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "종전합의에도 이스라엘-헤즈볼라 공방…이란 \"가혹한 대응\" 경고",
+      "link": "https://www.yna.co.kr/view/AKR20260617004900079",
+      "source": "연합뉴스 국제",
+      "ts": 1781637845000,
+      "pub": "Wed, 17 Jun 2026 04:24:05 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "이스라엘, 종전협상 배제에 MOU도 깜깜이…\"美, 열람요구 거절\"",
+      "link": "https://www.mt.co.kr/world/2026/06/17/2026061704155242885",
+      "source": "머니투데이",
+      "ts": 1781637553000,
+      "pub": "Wed, 17 Jun 2026 04:19:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"美, 이스라엘의 '종전MOU' 열람 요구 거절…사전 유출 우려\"",
+      "link": "https://www.yna.co.kr/view/AKR20260617003800071",
+      "source": "연합뉴스 국제",
+      "ts": 1781635571000,
+      "pub": "Wed, 17 Jun 2026 03:46:11 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "G7 정상회의서 트럼프 만난 李 “北 문제 평화적 해결 주도” 요청",
+      "link": "https://www.hankyung.com/article/202606170479i",
+      "source": "한국경제",
+      "ts": 1781633994000,
+      "pub": "Wed, 17 Jun 2026 03:19:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중동 위기 넘긴 G7, 우크라전 종식 위해 대러 압박 강화(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260616170151081",
+      "source": "연합뉴스 국제",
+      "ts": 1781633764000,
+      "pub": "Wed, 17 Jun 2026 03:16:04 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "李 대통령, G7서 트럼프 만나 \"北 문제 해결 주도해달라, 중동처럼\"",
       "link": "https://www.mt.co.kr/politics/2026/06/17/2026061701514310619",
@@ -161,14 +209,6 @@
       "source": "머니투데이",
       "ts": 1781612032000,
       "pub": "Tue, 16 Jun 2026 21:13:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"백악관, 클로드 접근권 획득한 한국 통신사 '중국 연계' 의심\"",
-      "link": "https://www.mt.co.kr/world/2026/06/16/2026061619141349997",
-      "source": "머니투데이",
-      "ts": 1781610112000,
-      "pub": "Tue, 16 Jun 2026 20:41:52 +0900",
       "sentiment": "neutral"
     },
     {

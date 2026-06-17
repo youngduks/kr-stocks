@@ -1,14 +1,30 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-17T21:55:35.068Z",
-  "count": 8,
+  "updated_at": "2026-06-17T23:15:53.188Z",
+  "count": 9,
   "items": [
     {
-      "title": "\"고졸은 R&D 안 된다고?\"…SK하이닉스 '스펙 파괴' 나섰다",
-      "link": "https://www.hankyung.com/article/2026061725341",
-      "source": "한국경제",
-      "ts": 1781693949000,
-      "pub": "Wed, 17 Jun 2026 19:59:09 +0900",
+      "title": "삼성 파운드리, 전력관리 반도체도 수주…AI 생태계 넓힌다",
+      "link": "https://www.mt.co.kr/industry/2026/06/18/2026061715410261308",
+      "source": "머니투데이",
+      "ts": 1781732400000,
+      "pub": "Thu, 18 Jun 2026 06:40:00 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "美 연내 금리 인상 시사에 증시 흔들…반도체는 선방[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/06/18/2026061805484380713",
+      "source": "머니투데이",
+      "ts": 1781729519000,
+      "pub": "Thu, 18 Jun 2026 05:51:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"해상풍력, 반도체 경쟁력과 직결\"…10배 앞선 대만의 제언",
+      "link": "https://www.mt.co.kr/industry/2026/06/18/2026061620121898690",
+      "source": "머니투데이",
+      "ts": 1781729400000,
+      "pub": "Thu, 18 Jun 2026 05:50:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -42,14 +58,6 @@
       "ts": 1781679574000,
       "pub": "Wed, 17 Jun 2026 15:59:34 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "\"美, 딥시크·CXMT 등 中기업 100여곳 블랙리스트 등재 보류\"",
-      "link": "https://www.yna.co.kr/view/AKR20260617126200009",
-      "source": "연합뉴스 국제",
-      "ts": 1781679162000,
-      "pub": "Wed, 17 Jun 2026 15:52:42 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "[특징주] SK하이닉스, 사상 첫 250만 닉스…삼전도 상승전환(종합)",

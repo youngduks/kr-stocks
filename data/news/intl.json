@@ -1,8 +1,64 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-17T05:58:20.307Z",
-  "count": 21,
+  "updated_at": "2026-06-17T10:50:19.287Z",
+  "count": 13,
   "items": [
+    {
+      "title": "李, 트럼프에 \"北문제 해결 주도해달라\"",
+      "link": "https://www.hankyung.com/article/2026061725861",
+      "source": "한국경제",
+      "ts": 1781686606000,
+      "pub": "Wed, 17 Jun 2026 17:56:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 관심사, 북한으로 옮겨가나",
+      "link": "https://www.hankyung.com/article/2026061726681",
+      "source": "한국경제",
+      "ts": 1781686462000,
+      "pub": "Wed, 17 Jun 2026 17:54:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"형제를 팔아넘겼다\"…종전 합의 '패싱' 이스라엘서 '분노'",
+      "link": "https://www.yna.co.kr/view/AKR20260617150800079",
+      "source": "연합뉴스 국제",
+      "ts": 1781685215000,
+      "pub": "Wed, 17 Jun 2026 17:33:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "G7 정상회의 중에도 교전 계속…우크라군 수호이 폭격기 추락",
+      "link": "https://www.yna.co.kr/view/AKR20260617138500109",
+      "source": "연합뉴스 국제",
+      "ts": 1781684107000,
+      "pub": "Wed, 17 Jun 2026 17:15:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "외국인, 코스피 4거래일만에 '팔자'…미 FOMC 후 돌아올까",
+      "link": "https://www.yna.co.kr/view/AKR20260617129700008",
+      "source": "연합뉴스 경제",
+      "ts": 1781682051000,
+      "pub": "Wed, 17 Jun 2026 16:40:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "모디 인도 총리, 트럼프 앞에서 \"오늘날 세계는 신뢰 부족\" 직격",
+      "link": "https://www.yna.co.kr/view/AKR20260617128000104",
+      "source": "연합뉴스 국제",
+      "ts": 1781679213000,
+      "pub": "Wed, 17 Jun 2026 15:53:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "세제실장 \"관세 인하 혜택, 소비자에게 가도록 철저 관리\"",
+      "link": "https://www.yna.co.kr/view/AKR20260617105500002",
+      "source": "연합뉴스 경제",
+      "ts": 1781676002000,
+      "pub": "Wed, 17 Jun 2026 15:00:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[영상] 모스크바 최대 정유시설 '활활'…우크라 장거리 드론 '맹공'",
       "link": "https://www.yna.co.kr/view/AKR20260617082500704",
@@ -28,14 +84,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "코스피, FOMC 결과 앞두고 소폭 하락…외국인 순매도 전환(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260617045900008",
-      "source": "연합뉴스 경제",
-      "ts": 1781656969000,
-      "pub": "Wed, 17 Jun 2026 09:42:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "씨티 \"연준, 9월부터 금리인하 전망…노동시장 약화 전제\"",
       "link": "https://www.yna.co.kr/view/AKR20260617026400009",
       "source": "연합뉴스 국제",
@@ -57,118 +105,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781641904000,
       "pub": "Wed, 17 Jun 2026 05:31:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "종전합의에도 이스라엘-헤즈볼라 공방…이란 \"가혹한 대응\" 경고",
-      "link": "https://www.yna.co.kr/view/AKR20260617004900079",
-      "source": "연합뉴스 국제",
-      "ts": 1781637845000,
-      "pub": "Wed, 17 Jun 2026 04:24:05 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"美, 이스라엘의 '종전MOU' 열람 요구 거절…사전 유출 우려\"",
-      "link": "https://www.yna.co.kr/view/AKR20260617003800071",
-      "source": "연합뉴스 국제",
-      "ts": 1781635571000,
-      "pub": "Wed, 17 Jun 2026 03:46:11 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "중동 위기 넘긴 G7, 우크라전 종식 위해 대러 압박 강화(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260616170151081",
-      "source": "연합뉴스 국제",
-      "ts": 1781633764000,
-      "pub": "Wed, 17 Jun 2026 03:16:04 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "러 외무 \"EU가 우크라 가입시키면 결국 와해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260617001200108",
-      "source": "연합뉴스 국제",
-      "ts": 1781627925000,
-      "pub": "Wed, 17 Jun 2026 01:38:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "중동 위기 넘긴 G7, 우크라전 종식 위해 대러 압박 강화",
-      "link": "https://www.yna.co.kr/view/AKR20260616170100081",
-      "source": "연합뉴스 국제",
-      "ts": 1781619129000,
-      "pub": "Tue, 16 Jun 2026 23:12:09 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "美FBI국장 \"백악관 UFC 공격 음모 저지…다수 인물 구금\"",
-      "link": "https://www.yna.co.kr/view/AKR20260616169800071",
-      "source": "연합뉴스 국제",
-      "ts": 1781618768000,
-      "pub": "Tue, 16 Jun 2026 23:06:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, FOMC 대기하며 상승 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260616169700009",
-      "source": "연합뉴스 국제",
-      "ts": 1781618189000,
-      "pub": "Tue, 16 Jun 2026 22:56:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "헤즈볼라 \"이란, '이스라엘 철군 없인 美와 핵합의 없다' 확약\"",
-      "link": "https://www.yna.co.kr/view/AKR20260616169200079",
-      "source": "연합뉴스 국제",
-      "ts": 1781617730000,
-      "pub": "Tue, 16 Jun 2026 22:48:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란, 핵무기 확보하려 하면 지옥 같은 재앙 닥칠 것\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260616161451081",
-      "source": "연합뉴스 국제",
-      "ts": 1781616047000,
-      "pub": "Tue, 16 Jun 2026 22:20:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "유럽의회, 美 무역협정 승인…트럼프 마감시한 맞춰",
-      "link": "https://www.yna.co.kr/view/AKR20260616167800098",
-      "source": "연합뉴스 국제",
-      "ts": 1781615778000,
-      "pub": "Tue, 16 Jun 2026 22:16:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프·다카이치 G7서 '5분 환담'…\"자위대 파견 언급 없어\"",
-      "link": "https://www.yna.co.kr/view/AKR20260616167400073",
-      "source": "연합뉴스 국제",
-      "ts": 1781615454000,
-      "pub": "Tue, 16 Jun 2026 22:10:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'푸틴 풍자' 러 반체제 작가 폴란드서 피살(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260616138151082",
-      "source": "연합뉴스 국제",
-      "ts": 1781614793000,
-      "pub": "Tue, 16 Jun 2026 21:59:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란, 핵무기 확보하려 하면 지옥 같은 재앙 닥칠 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260616161400081",
-      "source": "연합뉴스 국제",
-      "ts": 1781607378000,
-      "pub": "Tue, 16 Jun 2026 19:56:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러, '푸틴과 G7서 대화' 젤렌스키 제안에 \"초청 없었다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260616158400108",
-      "source": "연합뉴스 국제",
-      "ts": 1781604319000,
-      "pub": "Tue, 16 Jun 2026 19:05:19 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,64 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-17T05:58:20.310Z",
-  "count": 4,
+  "updated_at": "2026-06-17T10:50:19.289Z",
+  "count": 8,
   "items": [
+    {
+      "title": "구윤철 \"AX에 예산·세제 등 지원…남부권 반도체 혁신벨트로\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260617070751002",
+      "source": "연합뉴스 경제",
+      "ts": 1781688455000,
+      "pub": "Wed, 17 Jun 2026 18:27:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "신현송 \"반도체 성과급, 물가 상승 요인 부상\"",
+      "link": "https://www.hankyung.com/article/2026061726221",
+      "source": "한국경제",
+      "ts": 1781687438000,
+      "pub": "Wed, 17 Jun 2026 18:10:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "구윤철 \"AX에 예산·세제 등 지원…남부권 반도체 혁신벨트로\"",
+      "link": "https://www.yna.co.kr/view/AKR20260617070700002",
+      "source": "연합뉴스 경제",
+      "ts": 1781686806000,
+      "pub": "Wed, 17 Jun 2026 18:00:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"美, 딥시크·CXMT 등 中기업 100여곳 블랙리스트 등재 보류\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260617126251009",
+      "source": "연합뉴스 국제",
+      "ts": 1781682438000,
+      "pub": "Wed, 17 Jun 2026 16:47:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] SK하이닉스, 사상 첫 250만 닉스…삼전도 상승마감(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260617042652008",
+      "source": "연합뉴스 경제",
+      "ts": 1781679574000,
+      "pub": "Wed, 17 Jun 2026 15:59:34 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"美, 딥시크·CXMT 등 中기업 100여곳 블랙리스트 등재 보류\"",
+      "link": "https://www.yna.co.kr/view/AKR20260617126200009",
+      "source": "연합뉴스 국제",
+      "ts": 1781679162000,
+      "pub": "Wed, 17 Jun 2026 15:52:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] SK하이닉스, 사상 첫 250만 닉스…삼전도 상승전환(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260617042651008",
+      "source": "연합뉴스 경제",
+      "ts": 1781676393000,
+      "pub": "Wed, 17 Jun 2026 15:06:33 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "[속보] SK하이닉스, 장중 5%대 급등…사상 첫 '250만 닉스'",
       "link": "https://www.yna.co.kr/view/AKR20260617111900008",
@@ -10,30 +66,6 @@
       "ts": 1781674981000,
       "pub": "Wed, 17 Jun 2026 14:43:01 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "신기루 \"하이닉스 샀더니 하루 만에…\" 주식 투자 근황 공개",
-      "link": "https://www.hankyung.com/article/2026061714377",
-      "source": "한국경제",
-      "ts": 1781662008000,
-      "pub": "Wed, 17 Jun 2026 11:06:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "수출입은행, 두산 태국 반도체 생산거점 구축에 1억달러 지원",
-      "link": "https://www.yna.co.kr/view/AKR20260617065000002",
-      "source": "연합뉴스 경제",
-      "ts": 1781660241000,
-      "pub": "Wed, 17 Jun 2026 10:37:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼전, 장초반 2%대 하락…SK하이닉스는 상승전환",
-      "link": "https://www.yna.co.kr/view/AKR20260617042600008",
-      "source": "연합뉴스 경제",
-      "ts": 1781655974000,
-      "pub": "Wed, 17 Jun 2026 09:26:14 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

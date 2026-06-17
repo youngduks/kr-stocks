@@ -1,15 +1,31 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-17T05:58:20.308Z",
-  "count": 1,
+  "updated_at": "2026-06-17T10:50:19.288Z",
+  "count": 3,
   "items": [
     {
-      "title": "[특징주] 삼전, 장초반 2%대 하락…SK하이닉스는 상승전환",
-      "link": "https://www.yna.co.kr/view/AKR20260617042600008",
+      "title": "삼전·하닉 성과급에…한은 \"전 산업 임금상승 이어 물가 자극\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260617086551002",
       "source": "연합뉴스 경제",
-      "ts": 1781655974000,
-      "pub": "Wed, 17 Jun 2026 09:26:14 +0900",
+      "ts": 1781683178000,
+      "pub": "Wed, 17 Jun 2026 16:59:38 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] SK하이닉스, 사상 첫 250만 닉스…삼전도 상승마감(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260617042652008",
+      "source": "연합뉴스 경제",
+      "ts": 1781679574000,
+      "pub": "Wed, 17 Jun 2026 15:59:34 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[특징주] SK하이닉스, 사상 첫 250만 닉스…삼전도 상승전환(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260617042651008",
+      "source": "연합뉴스 경제",
+      "ts": 1781676393000,
+      "pub": "Wed, 17 Jun 2026 15:06:33 +0900",
+      "sentiment": "positive"
     }
   ]
 }

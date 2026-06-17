@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-16T22:46:46.531Z",
-  "count": 1,
+  "updated_at": "2026-06-17T00:07:51.217Z",
+  "count": 4,
   "items": [
+    {
+      "title": "삼전닉스, 동반 약세…美 반도체 급락 영향",
+      "link": "https://www.mt.co.kr/stock/2026/06/17/2026061709054148657",
+      "source": "머니투데이",
+      "ts": 1781654789000,
+      "pub": "Wed, 17 Jun 2026 09:06:29 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"삼성전자, 목표가 53만…2Q 영업익 91조 추정\"-DS",
+      "link": "https://www.mt.co.kr/stock/2026/06/17/2026061708474424986",
+      "source": "머니투데이",
+      "ts": 1781653963000,
+      "pub": "Wed, 17 Jun 2026 08:52:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼성전자, 내년 영업익 524조원…테일러 팹 돈 벌어다 줄 것\"-DS",
+      "link": "https://www.hankyung.com/article/2026061707916",
+      "source": "한국경제",
+      "ts": 1781652416000,
+      "pub": "Wed, 17 Jun 2026 08:26:56 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[특징주] 삼전 1.8% 상승마감…하닉은 한때 240만원선 터치(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260616036651008",

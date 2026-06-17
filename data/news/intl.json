@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-16T22:46:46.518Z",
-  "count": 32,
+  "updated_at": "2026-06-17T00:07:51.216Z",
+  "count": 28,
   "items": [
+    {
+      "title": "씨티 \"연준, 9월부터 금리인하 전망…노동시장 약화 전제\"",
+      "link": "https://www.yna.co.kr/view/AKR20260617026400009",
+      "source": "연합뉴스 국제",
+      "ts": 1781654184000,
+      "pub": "Wed, 17 Jun 2026 08:56:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 에너지 드라이브...美 알래스카 발전사업 급부상",
+      "link": "https://www.mt.co.kr/industry/2026/06/17/2026061617592625481",
+      "source": "머니투데이",
+      "ts": 1781652600000,
+      "pub": "Wed, 17 Jun 2026 08:30:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[외신 에스프레소 영상]휴전 합의 이끌어낸 트럼프…유럽 동맹국은 '독자 노선' 준비",
+      "link": "https://www.hankyung.com/article/202606170717i",
+      "source": "한국경제",
+      "ts": 1781652072000,
+      "pub": "Wed, 17 Jun 2026 08:21:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[마켓뷰] 9천피 도전? 숨고르기?…코스피, FOMC 경계감",
+      "link": "https://www.yna.co.kr/view/AKR20260617019200008",
+      "source": "연합뉴스 경제",
+      "ts": 1781651809000,
+      "pub": "Wed, 17 Jun 2026 08:16:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "말 줄이려는 새 연준 의장…시장 소통 시험대",
+      "link": "https://www.hankyung.com/article/202606170701i",
+      "source": "한국경제",
+      "ts": 1781651556000,
+      "pub": "Wed, 17 Jun 2026 08:12:36 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 무기 공급망에도 국방물자생산법 발동",
       "link": "https://www.yna.co.kr/view/AKR20260617012800009",
@@ -17,30 +57,6 @@
       "source": "머니투데이",
       "ts": 1781646467000,
       "pub": "Wed, 17 Jun 2026 06:47:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "원유 판매 허용·재건 지원까지…트럼프, '이란 퍼주기' 논란 [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202606170519i",
-      "source": "한국경제",
-      "ts": 1781646430000,
-      "pub": "Wed, 17 Jun 2026 06:47:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "李 대통령 \"北 문제, 중동처럼 주도해주길\"…트럼프 \"노력하겠다\"",
-      "link": "https://www.hankyung.com/article/2026061705177",
-      "source": "한국경제",
-      "ts": 1781644443000,
-      "pub": "Wed, 17 Jun 2026 06:14:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'부실합의' 비판에 뿔난 트럼프…\"MOU 전문 낭독하겠다\" [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202606170453i",
-      "source": "한국경제",
-      "ts": 1781643558000,
-      "pub": "Wed, 17 Jun 2026 05:59:18 +0900",
       "sentiment": "neutral"
     },
     {
@@ -60,28 +76,12 @@
       "sentiment": "negative"
     },
     {
-      "title": "이스라엘, 종전협상 배제에 MOU도 깜깜이…\"美, 열람요구 거절\"",
-      "link": "https://www.mt.co.kr/world/2026/06/17/2026061704155242885",
-      "source": "머니투데이",
-      "ts": 1781637553000,
-      "pub": "Wed, 17 Jun 2026 04:19:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"美, 이스라엘의 '종전MOU' 열람 요구 거절…사전 유출 우려\"",
       "link": "https://www.yna.co.kr/view/AKR20260617003800071",
       "source": "연합뉴스 국제",
       "ts": 1781635571000,
       "pub": "Wed, 17 Jun 2026 03:46:11 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "G7 정상회의서 트럼프 만난 李…\"北 문제 평화적 해결 주도\" 요청",
-      "link": "https://www.hankyung.com/article/202606170479i",
-      "source": "한국경제",
-      "ts": 1781633994000,
-      "pub": "Wed, 17 Jun 2026 03:19:54 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "중동 위기 넘긴 G7, 우크라전 종식 위해 대러 압박 강화(종합)",
@@ -97,22 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781627925000,
       "pub": "Wed, 17 Jun 2026 01:38:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"백악관 'UFC 대회' 겨냥한 공격 음모에…\" FBI 국장의 고백",
-      "link": "https://www.hankyung.com/article/2026061604437",
-      "source": "한국경제",
-      "ts": 1781620465000,
-      "pub": "Tue, 16 Jun 2026 23:34:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 증시, 연준 회의 첫날 혼조세…스페이스X, MS·아마존 시총 제쳐",
-      "link": "https://www.hankyung.com/article/202606160437i",
-      "source": "한국경제",
-      "ts": 1781619672000,
-      "pub": "Tue, 16 Jun 2026 23:21:12 +0900",
       "sentiment": "neutral"
     },
     {
@@ -145,22 +129,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781617730000,
       "pub": "Tue, 16 Jun 2026 22:48:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "李대통령, G7 회의서 트럼프 대면…마크롱엔 \"아임 쏘 해피\"",
-      "link": "https://www.hankyung.com/article/2026061604217",
-      "source": "한국경제",
-      "ts": 1781617687000,
-      "pub": "Tue, 16 Jun 2026 22:48:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 李대통령, G7 정상회의 환영행사 참석…트럼프도 대면",
-      "link": "https://www.hankyung.com/article/2026061604117",
-      "source": "한국경제",
-      "ts": 1781616334000,
-      "pub": "Tue, 16 Jun 2026 22:25:34 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,144 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-17T17:43:37.173Z",
-  "count": 34,
+  "updated_at": "2026-06-17T19:57:08.202Z",
+  "count": 44,
   "items": [
+    {
+      "title": "푸틴, 러 카잔 개최 아세안 정상회의 참석…G7 견제",
+      "link": "https://www.yna.co.kr/view/AKR20260618009300108",
+      "source": "연합뉴스 국제",
+      "ts": 1781725621000,
+      "pub": "Thu, 18 Jun 2026 04:47:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "워시 \"포워드 가이던스 생략…연준 정책 운영 검토 TF 출범\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618008200072",
+      "source": "연합뉴스 국제",
+      "ts": 1781724635000,
+      "pub": "Thu, 18 Jun 2026 04:30:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "국제유가 \"합의안 최종아냐\" 트럼프 발언에 반등…브렌트 0.7%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260618009100072",
+      "source": "연합뉴스 경제",
+      "ts": 1781724089000,
+      "pub": "Thu, 18 Jun 2026 04:21:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "워시의 美연준 '완화편향' 문구 삭제…점도표는 연내인상 반영",
+      "link": "https://www.yna.co.kr/view/AKR20260618007400072",
+      "source": "연합뉴스 경제",
+      "ts": 1781722996000,
+      "pub": "Thu, 18 Jun 2026 04:03:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"EU, 푸틴 측과 간단한 외교 접촉…소통 채널 여는 차원\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618007700098",
+      "source": "연합뉴스 국제",
+      "ts": 1781722971000,
+      "pub": "Thu, 18 Jun 2026 04:02:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "마크롱, 절대왕정 상징 베르사유궁서 트럼프 초청 만찬",
+      "link": "https://www.yna.co.kr/view/AKR20260618006800081",
+      "source": "연합뉴스 국제",
+      "ts": 1781722297000,
+      "pub": "Thu, 18 Jun 2026 03:51:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美, '워시체제' 첫 FOMC서 금리 또 동결…연내 인상 가능성(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260618002551071",
+      "source": "연합뉴스 국제",
+      "ts": 1781721687000,
+      "pub": "Thu, 18 Jun 2026 03:41:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "점도표 찍지 않은 워시…매파색 짙어진 Fed [Fed워치]",
+      "link": "https://www.hankyung.com/article/202606183069i",
+      "source": "한국경제",
+      "ts": 1781720775000,
+      "pub": "Thu, 18 Jun 2026 03:26:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "매파색 강해진 Fed, 물가 전망 상향…\"고금리 더 오래 간다\" [Fed 워치]",
+      "link": "https://www.hankyung.com/article/202606183068i",
+      "source": "한국경제",
+      "ts": 1781719963000,
+      "pub": "Thu, 18 Jun 2026 03:12:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美연준, 연말 개인소비지출 가격지수 2.7%서 3.6%로 상향",
+      "link": "https://www.yna.co.kr/view/AKR20260618004900071",
+      "source": "연합뉴스 국제",
+      "ts": 1781719694000,
+      "pub": "Thu, 18 Jun 2026 03:08:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美연준, 올해말 기준금리 중간값 3.4%에서 3.8%로 상향",
+      "link": "https://www.yna.co.kr/view/AKR20260618004600071",
+      "source": "연합뉴스 국제",
+      "ts": 1781719626000,
+      "pub": "Thu, 18 Jun 2026 03:07:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Fed, 기준금리 3.5~3.75% 만장일치 동결…\"인플레 여전히 높다\" [Fed 워치]",
+      "link": "https://www.hankyung.com/article/202606183064i",
+      "source": "한국경제",
+      "ts": 1781719529000,
+      "pub": "Thu, 18 Jun 2026 03:05:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[2보] 美연준, '워시 의장 체제' 첫 FOMC서 금리 또 동결",
+      "link": "https://www.yna.co.kr/view/AKR20260618002500071",
+      "source": "연합뉴스 국제",
+      "ts": 1781719414000,
+      "pub": "Thu, 18 Jun 2026 03:03:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[1보] 美연준, 네차례 연속 금리 동결…3.50∼3.75% 유지",
+      "link": "https://www.yna.co.kr/view/AKR20260618002400071",
+      "source": "연합뉴스 국제",
+      "ts": 1781719262000,
+      "pub": "Thu, 18 Jun 2026 03:01:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美 Fed, 기준금리 연 3.5~3.75%로 동결 [Fed워치]",
+      "link": "https://www.hankyung.com/article/202606183059i",
+      "source": "한국경제",
+      "ts": 1781719244000,
+      "pub": "Thu, 18 Jun 2026 03:00:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"핵무기막는 '트럼프 합의'…이란, 합의 미준수시 폭격\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260618002151081",
+      "source": "연합뉴스 국제",
+      "ts": 1781718995000,
+      "pub": "Thu, 18 Jun 2026 02:56:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "달러-원, FOMC 결과 앞두고 상승폭 확대…1,515.50원 마감",
+      "link": "https://www.yna.co.kr/view/AKR20260618002700002",
+      "source": "연합뉴스 경제",
+      "ts": 1781718147000,
+      "pub": "Thu, 18 Jun 2026 02:42:27 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"시진핑·푸틴, 이란 관련 중립 지켜줘 감사\"",
       "link": "https://www.yna.co.kr/view/AKR20260618002100081",
@@ -124,14 +260,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "이 대통령, G7 만찬서 트럼프와 2시간 대화…무슨 대화 나눴나",
-      "link": "https://www.mt.co.kr/politics/2026/06/17/2026061720524230496",
-      "source": "머니투데이",
-      "ts": 1781697295000,
-      "pub": "Wed, 17 Jun 2026 20:54:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] 李대통령, 트럼프와 환담…종전협상·호르무즈 항행 논의",
       "link": "https://www.hankyung.com/article/2026061729257",
       "source": "한국경제",
@@ -156,38 +284,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[속보]\"트럼프 대통령, 李 대통령을 '강한 지도자'로 평가\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/17/2026061720220041384",
-      "source": "머니투데이",
-      "ts": 1781695888000,
-      "pub": "Wed, 17 Jun 2026 20:31:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한미 회담 없었지만…李 대통령, G7 만찬서 트럼프와 2시간 '밀착 대화'",
-      "link": "https://www.mt.co.kr/politics/2026/06/17/2026061720290028182",
-      "source": "머니투데이",
-      "ts": 1781695841000,
-      "pub": "Wed, 17 Jun 2026 20:30:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 또 변덕?...\"종전 MOU 최종본 아냐, 마음에 안 들면 다시 폭탄\"",
-      "link": "https://www.mt.co.kr/world/2026/06/17/2026061720171418088",
-      "source": "머니투데이",
-      "ts": 1781695593000,
-      "pub": "Wed, 17 Jun 2026 20:26:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]\"이재명 대통령, G7 만찬서 트럼프 대통령과 2시간 친밀 대화\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/17/2026061720084975401",
-      "source": "머니투데이",
-      "ts": 1781695414000,
-      "pub": "Wed, 17 Jun 2026 20:23:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"이란 MOU 최종안 아냐…맘에 안들면 공습 복귀\"",
       "link": "https://www.yna.co.kr/view/AKR20260617167800009",
       "source": "연합뉴스 국제",
@@ -201,14 +297,6 @@
       "source": "한국경제",
       "ts": 1781694620000,
       "pub": "Wed, 17 Jun 2026 20:10:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "영국 5월 CPI, 전년비 2.8%↑…전망치 하회",
-      "link": "https://www.mt.co.kr/world/2026/06/17/2026061720024565937",
-      "source": "머니투데이",
-      "ts": 1781694606000,
-      "pub": "Wed, 17 Jun 2026 20:10:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -265,14 +353,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781676002000,
       "pub": "Wed, 17 Jun 2026 15:00:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 모스크바 최대 정유시설 '활활'…우크라 장거리 드론 '맹공'",
-      "link": "https://www.yna.co.kr/view/AKR20260617082500704",
-      "source": "연합뉴스 국제",
-      "ts": 1781664608000,
-      "pub": "Wed, 17 Jun 2026 11:50:08 +0900",
       "sentiment": "neutral"
     }
   ]

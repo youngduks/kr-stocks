@@ -1,8 +1,72 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-17T19:57:08.202Z",
-  "count": 44,
+  "updated_at": "2026-06-17T21:55:35.065Z",
+  "count": 50,
   "items": [
+    {
+      "title": "트럼프 \"유권자 ID법 없이 외국인 도·감청법 서명 않겠다\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260618000351071",
+      "source": "연합뉴스 국제",
+      "ts": 1781732359000,
+      "pub": "Thu, 18 Jun 2026 06:39:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"동결자산 어느시점엔 돌려줘야…이란 합의안지키면 폭격\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260618002152081",
+      "source": "연합뉴스 국제",
+      "ts": 1781730787000,
+      "pub": "Thu, 18 Jun 2026 06:13:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "워시, 연준 소통체계 대개편 예고…선제안내 없애고 TF 신설(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260618008251072",
+      "source": "연합뉴스 국제",
+      "ts": 1781729480000,
+      "pub": "Thu, 18 Jun 2026 05:51:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[전문] \"이란, 핵무기 획득·개발 안한다\"…미·이란 종전 MOU",
+      "link": "https://www.yna.co.kr/view/AKR20260618010200071",
+      "source": "연합뉴스 국제",
+      "ts": 1781729102000,
+      "pub": "Thu, 18 Jun 2026 05:45:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "연준 금리인상 기대강화에 美주식·채권 동반하락…달러는 강세(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260618010351072",
+      "source": "연합뉴스 경제",
+      "ts": 1781728608000,
+      "pub": "Thu, 18 Jun 2026 05:36:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美, '워시체제' 첫 FOMC서 금리 또 동결…연내 인하→인상 전환(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260618002552071",
+      "source": "연합뉴스 국제",
+      "ts": 1781727810000,
+      "pub": "Thu, 18 Jun 2026 05:23:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 美연준 금리인상 기대강화에 하락…다우 1%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260618010300072",
+      "source": "연합뉴스 경제",
+      "ts": 1781726821000,
+      "pub": "Thu, 18 Jun 2026 05:07:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[일문일답] 워시 \"성명서 간결·단순해져…현재 상황 최대한 담았다\" [Fed 워치]",
+      "link": "https://www.hankyung.com/article/202606183088i",
+      "source": "한국경제",
+      "ts": 1781726433000,
+      "pub": "Thu, 18 Jun 2026 05:00:33 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "푸틴, 러 카잔 개최 아세안 정상회의 참석…G7 견제",
       "link": "https://www.yna.co.kr/view/AKR20260618009300108",
@@ -17,6 +81,14 @@
       "source": "연합뉴스 국제",
       "ts": 1781724635000,
       "pub": "Thu, 18 Jun 2026 04:30:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "워시의 첫 FOMC…\"미래 예고 안 한다\" 포워드 가이던스 폐기 [Fed 워치]",
+      "link": "https://www.hankyung.com/article/202606183085i",
+      "source": "한국경제",
+      "ts": 1781724588000,
+      "pub": "Thu, 18 Jun 2026 04:29:48 +0900",
       "sentiment": "neutral"
     },
     {
@@ -308,14 +380,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 동맹국 돈으로 '이란에 454조원 퍼주기'…비판 거세질듯",
-      "link": "https://www.hankyung.com/article/202606172767i",
-      "source": "한국경제",
-      "ts": 1781691413000,
-      "pub": "Wed, 17 Jun 2026 19:16:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"형제를 팔아넘겼다\"…종전 합의 '패싱' 이스라엘서 '분노'",
       "link": "https://www.yna.co.kr/view/AKR20260617150800079",
       "source": "연합뉴스 국제",
@@ -337,22 +401,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781682051000,
       "pub": "Wed, 17 Jun 2026 16:40:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "모디 인도 총리, 트럼프 앞에서 \"오늘날 세계는 신뢰 부족\" 직격",
-      "link": "https://www.yna.co.kr/view/AKR20260617128000104",
-      "source": "연합뉴스 국제",
-      "ts": 1781679213000,
-      "pub": "Wed, 17 Jun 2026 15:53:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "세제실장 \"관세 인하 혜택, 소비자에게 가도록 철저 관리\"",
-      "link": "https://www.yna.co.kr/view/AKR20260617105500002",
-      "source": "연합뉴스 경제",
-      "ts": 1781676002000,
-      "pub": "Wed, 17 Jun 2026 15:00:02 +0900",
       "sentiment": "neutral"
     }
   ]

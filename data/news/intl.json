@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-17T00:07:51.216Z",
-  "count": 28,
+  "updated_at": "2026-06-17T05:58:20.307Z",
+  "count": 21,
   "items": [
+    {
+      "title": "[영상] 모스크바 최대 정유시설 '활활'…우크라 장거리 드론 '맹공'",
+      "link": "https://www.yna.co.kr/view/AKR20260617082500704",
+      "source": "연합뉴스 국제",
+      "ts": 1781664608000,
+      "pub": "Wed, 17 Jun 2026 11:50:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[게시판] 법무부, 중동·우크라 진출 기업 대상 '법률지원 세미나'",
+      "link": "https://www.yna.co.kr/view/AKR20260617074400004",
+      "source": "연합뉴스 경제",
+      "ts": 1781662210000,
+      "pub": "Wed, 17 Jun 2026 11:10:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 공화의원들도 트럼프 '이란 합의' 세부내용 몰라 당혹",
+      "link": "https://www.yna.co.kr/view/AKR20260617051300009",
+      "source": "연합뉴스 국제",
+      "ts": 1781657697000,
+      "pub": "Wed, 17 Jun 2026 09:54:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, FOMC 결과 앞두고 소폭 하락…외국인 순매도 전환(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260617045900008",
+      "source": "연합뉴스 경제",
+      "ts": 1781656969000,
+      "pub": "Wed, 17 Jun 2026 09:42:49 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "씨티 \"연준, 9월부터 금리인하 전망…노동시장 약화 전제\"",
       "link": "https://www.yna.co.kr/view/AKR20260617026400009",
@@ -12,51 +44,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 에너지 드라이브...美 알래스카 발전사업 급부상",
-      "link": "https://www.mt.co.kr/industry/2026/06/17/2026061617592625481",
-      "source": "머니투데이",
-      "ts": 1781652600000,
-      "pub": "Wed, 17 Jun 2026 08:30:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[외신 에스프레소 영상]휴전 합의 이끌어낸 트럼프…유럽 동맹국은 '독자 노선' 준비",
-      "link": "https://www.hankyung.com/article/202606170717i",
-      "source": "한국경제",
-      "ts": 1781652072000,
-      "pub": "Wed, 17 Jun 2026 08:21:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[마켓뷰] 9천피 도전? 숨고르기?…코스피, FOMC 경계감",
-      "link": "https://www.yna.co.kr/view/AKR20260617019200008",
-      "source": "연합뉴스 경제",
-      "ts": 1781651809000,
-      "pub": "Wed, 17 Jun 2026 08:16:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "말 줄이려는 새 연준 의장…시장 소통 시험대",
-      "link": "https://www.hankyung.com/article/202606170701i",
-      "source": "한국경제",
-      "ts": 1781651556000,
-      "pub": "Wed, 17 Jun 2026 08:12:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, 무기 공급망에도 국방물자생산법 발동",
       "link": "https://www.yna.co.kr/view/AKR20260617012800009",
       "source": "연합뉴스 국제",
       "ts": 1781647703000,
       "pub": "Wed, 17 Jun 2026 07:08:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이재명 대통령 부부, 트럼프 옆자리에 '딱'…G7 공식만찬",
-      "link": "https://www.mt.co.kr/politics/2026/06/17/2026061706455941055",
-      "source": "머니투데이",
-      "ts": 1781646467000,
-      "pub": "Wed, 17 Jun 2026 06:47:47 +0900",
       "sentiment": "neutral"
     },
     {
@@ -177,54 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781604319000,
       "pub": "Tue, 16 Jun 2026 19:05:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[미·이란 종전] 볼턴 \"이란, 트럼프 갖고놀며 유리한 합의 끌어내\"",
-      "link": "https://www.yna.co.kr/view/AKR20260616154900098",
-      "source": "연합뉴스 국제",
-      "ts": 1781602525000,
-      "pub": "Tue, 16 Jun 2026 18:35:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라, G7회의 앞두고 '대화' 공세…'푸틴 고립' 노림수",
-      "link": "https://www.yna.co.kr/view/AKR20260616145200109",
-      "source": "연합뉴스 국제",
-      "ts": 1781598366000,
-      "pub": "Tue, 16 Jun 2026 17:26:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[미·이란 종전] 에르도안 \"이스라엘 선동에 전쟁…방해 공작 경계\"",
-      "link": "https://www.yna.co.kr/view/AKR20260616143200108",
-      "source": "연합뉴스 국제",
-      "ts": 1781596723000,
-      "pub": "Tue, 16 Jun 2026 16:58:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'푸틴 풍자' 러시아 망명작가 폴란드서 피살",
-      "link": "https://www.yna.co.kr/view/AKR20260616138100082",
-      "source": "연합뉴스 국제",
-      "ts": 1781595446000,
-      "pub": "Tue, 16 Jun 2026 16:37:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[미·이란 종전] \"트럼프, 한국기업 등 참여하는 이란 재건기금 추진\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260616023251009",
-      "source": "연합뉴스 국제",
-      "ts": 1781591502000,
-      "pub": "Tue, 16 Jun 2026 15:31:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "호주 경찰, 이스라엘군의 구호활동가 성폭행·학대 혐의 조사",
-      "link": "https://www.yna.co.kr/view/AKR20260616088800084",
-      "source": "연합뉴스 국제",
-      "ts": 1781586125000,
-      "pub": "Tue, 16 Jun 2026 14:02:05 +0900",
       "sentiment": "neutral"
     }
   ]

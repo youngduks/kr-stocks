@@ -1,22 +1,30 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-17T10:50:19.289Z",
-  "count": 8,
+  "updated_at": "2026-06-17T14:22:48.028Z",
+  "count": 9,
   "items": [
+    {
+      "title": "NYT \"반도체 열풍에 기술 패권 한국·대만으로…중국 소외\"",
+      "link": "https://www.mt.co.kr/world/2026/06/17/2026061720071496908",
+      "source": "머니투데이",
+      "ts": 1781698677000,
+      "pub": "Wed, 17 Jun 2026 21:17:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"고졸은 R&D 안 된다고?\"…SK하이닉스 '스펙 파괴' 나섰다",
+      "link": "https://www.hankyung.com/article/2026061725341",
+      "source": "한국경제",
+      "ts": 1781693949000,
+      "pub": "Wed, 17 Jun 2026 19:59:09 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "구윤철 \"AX에 예산·세제 등 지원…남부권 반도체 혁신벨트로\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260617070751002",
       "source": "연합뉴스 경제",
       "ts": 1781688455000,
       "pub": "Wed, 17 Jun 2026 18:27:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "신현송 \"반도체 성과급, 물가 상승 요인 부상\"",
-      "link": "https://www.hankyung.com/article/2026061726221",
-      "source": "한국경제",
-      "ts": 1781687438000,
-      "pub": "Wed, 17 Jun 2026 18:10:38 +0900",
       "sentiment": "neutral"
     },
     {

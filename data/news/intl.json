@@ -1,23 +1,167 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-17T10:50:19.287Z",
-  "count": 13,
+  "updated_at": "2026-06-17T14:22:48.025Z",
+  "count": 27,
   "items": [
     {
-      "title": "李, 트럼프에 \"北문제 해결 주도해달라\"",
-      "link": "https://www.hankyung.com/article/2026061725861",
-      "source": "한국경제",
-      "ts": 1781686606000,
-      "pub": "Wed, 17 Jun 2026 17:56:46 +0900",
+      "title": "뉴욕증시, 케빈 워시 첫 FOMC 대기하며 상승 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260617174900009",
+      "source": "연합뉴스 국제",
+      "ts": 1781704240000,
+      "pub": "Wed, 17 Jun 2026 22:50:40 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 관심사, 북한으로 옮겨가나",
-      "link": "https://www.hankyung.com/article/2026061726681",
+      "title": "워시의 첫 FOMC…인플레 압력에 '금리동결 확실시'",
+      "link": "https://www.hankyung.com/article/202606172969i",
       "source": "한국경제",
-      "ts": 1781686462000,
-      "pub": "Wed, 17 Jun 2026 17:54:22 +0900",
+      "ts": 1781702575000,
+      "pub": "Wed, 17 Jun 2026 22:22:55 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "백악관 UFC 테러 음모 용의자, 19세도 있었다…모친 신고로 적발",
+      "link": "https://www.hankyung.com/article/2026061729497",
+      "source": "한국경제",
+      "ts": 1781701390000,
+      "pub": "Wed, 17 Jun 2026 22:03:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 제대로 행동하지 않으면 다시 폭탄 투하\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260617167851009",
+      "source": "연합뉴스 국제",
+      "ts": 1781700663000,
+      "pub": "Wed, 17 Jun 2026 21:51:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 李대통령에 \"한반도 문제 진전 위해 필요한 역할 할 것\" [종합]",
+      "link": "https://www.hankyung.com/article/2026061729187",
+      "source": "한국경제",
+      "ts": 1781698508000,
+      "pub": "Wed, 17 Jun 2026 21:15:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "백악관 UFC 테러 음모 19세 용의자 모친 신고로 적발",
+      "link": "https://www.yna.co.kr/view/AKR20260617170600009",
+      "source": "연합뉴스 국제",
+      "ts": 1781697903000,
+      "pub": "Wed, 17 Jun 2026 21:05:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이 대통령, G7 만찬서 트럼프와 2시간 대화…무슨 대화 나눴나",
+      "link": "https://www.mt.co.kr/politics/2026/06/17/2026061720524230496",
+      "source": "머니투데이",
+      "ts": 1781697295000,
+      "pub": "Wed, 17 Jun 2026 20:54:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 李대통령, 트럼프와 환담…종전협상·호르무즈 항행 논의",
+      "link": "https://www.hankyung.com/article/2026061729257",
+      "source": "한국경제",
+      "ts": 1781696991000,
+      "pub": "Wed, 17 Jun 2026 20:49:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 靑 \"트럼프, 李대통령에 '강한 지도자' 평가…평화 기여 기대감\"",
+      "link": "https://www.hankyung.com/article/2026061729237",
+      "source": "한국경제",
+      "ts": 1781696944000,
+      "pub": "Wed, 17 Jun 2026 20:49:04 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[속보] 靑 \"트럼프, 한반도 문제 진전 위해 역할하겠단 의지 표명\"",
+      "link": "https://www.hankyung.com/article/2026061729097",
+      "source": "한국경제",
+      "ts": 1781696111000,
+      "pub": "Wed, 17 Jun 2026 20:35:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]\"트럼프 대통령, 李 대통령을 '강한 지도자'로 평가\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/17/2026061720220041384",
+      "source": "머니투데이",
+      "ts": 1781695888000,
+      "pub": "Wed, 17 Jun 2026 20:31:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한미 회담 없었지만…李 대통령, G7 만찬서 트럼프와 2시간 '밀착 대화'",
+      "link": "https://www.mt.co.kr/politics/2026/06/17/2026061720290028182",
+      "source": "머니투데이",
+      "ts": 1781695841000,
+      "pub": "Wed, 17 Jun 2026 20:30:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 또 변덕?...\"종전 MOU 최종본 아냐, 마음에 안 들면 다시 폭탄\"",
+      "link": "https://www.mt.co.kr/world/2026/06/17/2026061720171418088",
+      "source": "머니투데이",
+      "ts": 1781695593000,
+      "pub": "Wed, 17 Jun 2026 20:26:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]\"이재명 대통령, G7 만찬서 트럼프 대통령과 2시간 친밀 대화\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/17/2026061720084975401",
+      "source": "머니투데이",
+      "ts": 1781695414000,
+      "pub": "Wed, 17 Jun 2026 20:23:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 MOU 최종안 아냐…맘에 안들면 공습 복귀\"",
+      "link": "https://www.yna.co.kr/view/AKR20260617167800009",
+      "source": "연합뉴스 국제",
+      "ts": 1781694952000,
+      "pub": "Wed, 17 Jun 2026 20:15:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 MOU 최종안 아냐…맘에 안들면 공습 복귀\"",
+      "link": "https://www.hankyung.com/article/2026061728777",
+      "source": "한국경제",
+      "ts": 1781694620000,
+      "pub": "Wed, 17 Jun 2026 20:10:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "영국 5월 CPI, 전년비 2.8%↑…전망치 하회",
+      "link": "https://www.mt.co.kr/world/2026/06/17/2026061720024565937",
+      "source": "머니투데이",
+      "ts": 1781694606000,
+      "pub": "Wed, 17 Jun 2026 20:10:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"이란 MOU 최종안 아냐…맘에 안들면 공습 복귀\"",
+      "link": "https://www.yna.co.kr/view/AKR20260617166600009",
+      "source": "연합뉴스 국제",
+      "ts": 1781694322000,
+      "pub": "Wed, 17 Jun 2026 20:05:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 동맹국 돈으로 '이란에 454조원 퍼주기'…비판 거세질듯",
+      "link": "https://www.hankyung.com/article/202606172767i",
+      "source": "한국경제",
+      "ts": 1781691413000,
+      "pub": "Wed, 17 Jun 2026 19:16:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "워시 첫 FOMC, 올 금리 전망 '인상' 선회?…레버리지 사상 최대 기술주 불안[오미주]",
+      "link": "https://www.mt.co.kr/world/2026/06/17/2026061715161664313",
+      "source": "머니투데이",
+      "ts": 1781687100000,
+      "pub": "Wed, 17 Jun 2026 18:05:00 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "\"형제를 팔아넘겼다\"…종전 합의 '패싱' 이스라엘서 '분노'",
@@ -68,43 +212,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[게시판] 법무부, 중동·우크라 진출 기업 대상 '법률지원 세미나'",
-      "link": "https://www.yna.co.kr/view/AKR20260617074400004",
-      "source": "연합뉴스 경제",
-      "ts": 1781662210000,
-      "pub": "Wed, 17 Jun 2026 11:10:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美 공화의원들도 트럼프 '이란 합의' 세부내용 몰라 당혹",
       "link": "https://www.yna.co.kr/view/AKR20260617051300009",
       "source": "연합뉴스 국제",
       "ts": 1781657697000,
       "pub": "Wed, 17 Jun 2026 09:54:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "씨티 \"연준, 9월부터 금리인하 전망…노동시장 약화 전제\"",
-      "link": "https://www.yna.co.kr/view/AKR20260617026400009",
-      "source": "연합뉴스 국제",
-      "ts": 1781654184000,
-      "pub": "Wed, 17 Jun 2026 08:56:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 무기 공급망에도 국방물자생산법 발동",
-      "link": "https://www.yna.co.kr/view/AKR20260617012800009",
-      "source": "연합뉴스 국제",
-      "ts": 1781647703000,
-      "pub": "Wed, 17 Jun 2026 07:08:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"백악관 연회장 공사비 급증…트럼프 '세금 안쓴다'더니 말바꿔\"",
-      "link": "https://www.yna.co.kr/view/AKR20260617006600071",
-      "source": "연합뉴스 국제",
-      "ts": 1781641904000,
-      "pub": "Wed, 17 Jun 2026 05:31:44 +0900",
       "sentiment": "neutral"
     }
   ]

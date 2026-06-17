@@ -1,8 +1,80 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-17T14:22:48.025Z",
-  "count": 27,
+  "updated_at": "2026-06-17T17:43:37.173Z",
+  "count": 34,
   "items": [
+    {
+      "title": "트럼프 \"시진핑·푸틴, 이란 관련 중립 지켜줘 감사\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618002100081",
+      "source": "연합뉴스 국제",
+      "ts": 1781717001000,
+      "pub": "Thu, 18 Jun 2026 02:23:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "마크롱 \"트럼프도 러 협상 의지 없다는 점 인정…진정한 변화\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618001400081",
+      "source": "연합뉴스 국제",
+      "ts": 1781713380000,
+      "pub": "Thu, 18 Jun 2026 01:23:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"이스라엘에 종전 MOU 사본 보내\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618001600081",
+      "source": "연합뉴스 국제",
+      "ts": 1781713222000,
+      "pub": "Thu, 18 Jun 2026 01:20:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 \"종전 MOU, 이스라엘의 레바논 공격 중단 포함\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618001500083",
+      "source": "연합뉴스 국제",
+      "ts": 1781712966000,
+      "pub": "Thu, 18 Jun 2026 01:16:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "안보 지형 급변에…핀란드, '핵무기 빗장' 풀었다",
+      "link": "https://www.yna.co.kr/view/AKR20260618000800098",
+      "source": "연합뉴스 국제",
+      "ts": 1781712309000,
+      "pub": "Thu, 18 Jun 2026 01:05:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"유권자 ID법 없이 외국인 도·감청법 서명 않겠다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618000300071",
+      "source": "연합뉴스 국제",
+      "ts": 1781712176000,
+      "pub": "Thu, 18 Jun 2026 01:02:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘군 \"헤즈볼라 드론 공격에 5명 부상…보복 포격\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618001100079",
+      "source": "연합뉴스 국제",
+      "ts": 1781712071000,
+      "pub": "Thu, 18 Jun 2026 01:01:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美조지아 주지사 공화 예비선거서 트럼프가 지지한 후보 '쓴잔'",
+      "link": "https://www.yna.co.kr/view/AKR20260618000200009",
+      "source": "연합뉴스 국제",
+      "ts": 1781709163000,
+      "pub": "Thu, 18 Jun 2026 00:12:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "FOMC 앞둔 뉴욕증시,금리 동결 예상하며 혼조세",
+      "link": "https://www.hankyung.com/article/202606172997i",
+      "source": "한국경제",
+      "ts": 1781706295000,
+      "pub": "Wed, 17 Jun 2026 23:24:55 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "뉴욕증시, 케빈 워시 첫 FOMC 대기하며 상승 출발",
       "link": "https://www.yna.co.kr/view/AKR20260617174900009",
@@ -156,14 +228,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "워시 첫 FOMC, 올 금리 전망 '인상' 선회?…레버리지 사상 최대 기술주 불안[오미주]",
-      "link": "https://www.mt.co.kr/world/2026/06/17/2026061715161664313",
-      "source": "머니투데이",
-      "ts": 1781687100000,
-      "pub": "Wed, 17 Jun 2026 18:05:00 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "\"형제를 팔아넘겼다\"…종전 합의 '패싱' 이스라엘서 '분노'",
       "link": "https://www.yna.co.kr/view/AKR20260617150800079",
       "source": "연합뉴스 국제",
@@ -209,14 +273,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781664608000,
       "pub": "Wed, 17 Jun 2026 11:50:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 공화의원들도 트럼프 '이란 합의' 세부내용 몰라 당혹",
-      "link": "https://www.yna.co.kr/view/AKR20260617051300009",
-      "source": "연합뉴스 국제",
-      "ts": 1781657697000,
-      "pub": "Wed, 17 Jun 2026 09:54:57 +0900",
       "sentiment": "neutral"
     }
   ]

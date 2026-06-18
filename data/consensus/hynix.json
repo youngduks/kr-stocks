@@ -3,7 +3,7 @@
   "ticker": "000660",
   "name_ko": "SK하이닉스",
   "name_en": "SK Hynix",
-  "updated_at": "2026-05-12T17:00:00+09:00",
+  "updated_at": "2026-06-18T12:04:58.922Z",
   "consensus": {
     "avg_target_krw": 1898571,
     "median_target_krw": 1900000,
@@ -23,26 +23,144 @@
     "매도": 0
   },
   "brokers": [
-    { "broker": "미래에셋", "broker_en": "Mirae Asset", "opinion": "매수", "target_krw": 2700000, "report_date": "2026-05-06" },
-    { "broker": "유진투자", "broker_en": "Eugene Investment", "opinion": "강력매수", "target_krw": 2300000, "report_date": "2026-05-05" },
-    { "broker": "메리츠", "broker_en": "Meritz Securities", "opinion": "매수", "target_krw": 2100000, "report_date": "2026-05-05" },
-    { "broker": "SK증권", "broker_en": "SK Securities", "opinion": "매수", "target_krw": 2100000, "report_date": "2026-05-04" },
-    { "broker": "한화", "broker_en": "Hanwha Investment", "opinion": "매수", "target_krw": 2000000, "report_date": "2026-05-04" },
-    { "broker": "대신", "broker_en": "Daishin Securities", "opinion": "매수", "target_krw": 1950000, "report_date": "2026-05-03" },
-    { "broker": "유안타", "broker_en": "Yuanta Securities", "opinion": "매수", "target_krw": 1950000, "report_date": "2026-05-03" },
-    { "broker": "IBK", "broker_en": "IBK Securities", "opinion": "매수", "target_krw": 1950000, "report_date": "2026-05-02" },
-    { "broker": "키움", "broker_en": "Kiwoom Securities", "opinion": "비중확대", "target_krw": 1900000, "report_date": "2026-05-02" },
-    { "broker": "신한", "broker_en": "Shinhan Securities", "opinion": "매수", "target_krw": 1900000, "report_date": "2026-05-01" },
-    { "broker": "교보", "broker_en": "Kyobo Securities", "opinion": "매수", "target_krw": 1900000, "report_date": "2026-05-01" },
-    { "broker": "하나", "broker_en": "Hana Securities", "opinion": "매수", "target_krw": 1900000, "report_date": "2026-04-30" },
-    { "broker": "DS", "broker_en": "DS Investment", "opinion": "매수", "target_krw": 1830000, "report_date": "2026-04-29" },
-    { "broker": "iM증권", "broker_en": "iM Securities", "opinion": "매수", "target_krw": 1500300, "report_date": "2026-04-28" }
+    {
+      "broker": "미래에셋",
+      "broker_en": "Mirae Asset",
+      "opinion": "매수",
+      "target_krw": 2700000,
+      "report_date": "2026-05-06"
+    },
+    {
+      "broker": "유진투자",
+      "broker_en": "Eugene Investment",
+      "opinion": "강력매수",
+      "target_krw": 2300000,
+      "report_date": "2026-05-05"
+    },
+    {
+      "broker": "메리츠",
+      "broker_en": "Meritz Securities",
+      "opinion": "매수",
+      "target_krw": 2100000,
+      "report_date": "2026-05-05"
+    },
+    {
+      "broker": "SK증권",
+      "broker_en": "SK Securities",
+      "opinion": "매수",
+      "target_krw": 2100000,
+      "report_date": "2026-05-04"
+    },
+    {
+      "broker": "한화",
+      "broker_en": "Hanwha Investment",
+      "opinion": "매수",
+      "target_krw": 2000000,
+      "report_date": "2026-05-04"
+    },
+    {
+      "broker": "대신",
+      "broker_en": "Daishin Securities",
+      "opinion": "매수",
+      "target_krw": 1950000,
+      "report_date": "2026-05-03"
+    },
+    {
+      "broker": "유안타",
+      "broker_en": "Yuanta Securities",
+      "opinion": "매수",
+      "target_krw": 1950000,
+      "report_date": "2026-05-03"
+    },
+    {
+      "broker": "IBK",
+      "broker_en": "IBK Securities",
+      "opinion": "매수",
+      "target_krw": 1950000,
+      "report_date": "2026-05-02"
+    },
+    {
+      "broker": "키움",
+      "broker_en": "Kiwoom Securities",
+      "opinion": "비중확대",
+      "target_krw": 1900000,
+      "report_date": "2026-05-02"
+    },
+    {
+      "broker": "신한",
+      "broker_en": "Shinhan Securities",
+      "opinion": "매수",
+      "target_krw": 1900000,
+      "report_date": "2026-05-01"
+    },
+    {
+      "broker": "교보",
+      "broker_en": "Kyobo Securities",
+      "opinion": "매수",
+      "target_krw": 1900000,
+      "report_date": "2026-05-01"
+    },
+    {
+      "broker": "하나",
+      "broker_en": "Hana Securities",
+      "opinion": "매수",
+      "target_krw": 1900000,
+      "report_date": "2026-04-30"
+    },
+    {
+      "broker": "DS",
+      "broker_en": "DS Investment",
+      "opinion": "매수",
+      "target_krw": 1830000,
+      "report_date": "2026-04-29"
+    },
+    {
+      "broker": "iM증권",
+      "broker_en": "iM Securities",
+      "opinion": "매수",
+      "target_krw": 1500300,
+      "report_date": "2026-04-28"
+    }
   ],
   "history": [
-    { "date": "2026-04-15", "avg_target_krw": 1750000, "opinion_count": 8 },
-    { "date": "2026-04-20", "avg_target_krw": 1810000, "opinion_count": 10 },
-    { "date": "2026-04-25", "avg_target_krw": 1860000, "opinion_count": 12 },
-    { "date": "2026-05-01", "avg_target_krw": 1885000, "opinion_count": 13 },
-    { "date": "2026-05-06", "avg_target_krw": 1898571, "opinion_count": 14 }
-  ]
+    {
+      "date": "2026-04-15",
+      "avg_target_krw": 1750000,
+      "opinion_count": 8
+    },
+    {
+      "date": "2026-04-20",
+      "avg_target_krw": 1810000,
+      "opinion_count": 10
+    },
+    {
+      "date": "2026-04-25",
+      "avg_target_krw": 1860000,
+      "opinion_count": 12
+    },
+    {
+      "date": "2026-05-01",
+      "avg_target_krw": 1885000,
+      "opinion_count": 13
+    },
+    {
+      "date": "2026-05-06",
+      "avg_target_krw": 1898571,
+      "opinion_count": 14
+    },
+    {
+      "date": "2026-06-18",
+      "avg_target_krw": 2835000,
+      "opinion_count": 30
+    }
+  ],
+  "naver_snapshot": {
+    "opinion_score": 4,
+    "opinion_label": "매수",
+    "avg_target_krw": 2835000,
+    "high_52w_krw": 2738000,
+    "low_52w_krw": 242000,
+    "source": "finance.naver.com",
+    "fetched_at": "2026-06-18T12:04:58.922Z"
+  }
 }

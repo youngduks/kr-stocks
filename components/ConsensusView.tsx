@@ -38,6 +38,11 @@ const I18N = {
     noCurrentPrice: "—",
     seeStock: "종합 분석 보기",
     seeStockSub: "Binance 24h · 정규장 · 외인·기관 · funding · 차트",
+    naverSnapshot: "네이버 컨센서스 종합 (실시간)",
+    opinionScore: "투자의견 평점",
+    high52w: "52주 최고",
+    low52w: "52주 최저",
+    individualReports: "개별 증권사 리포트",
   },
   en: {
     title: "Korean Broker Consensus",
@@ -70,6 +75,11 @@ const I18N = {
     noCurrentPrice: "—",
     seeStock: "Full analysis",
     seeStockSub: "Binance 24h · Regular · Foreign flow · funding · chart",
+    naverSnapshot: "Naver Consensus Summary (live)",
+    opinionScore: "Opinion score",
+    high52w: "52w High",
+    low52w: "52w Low",
+    individualReports: "Individual broker reports",
   },
 } as const;
 
@@ -227,6 +237,53 @@ export function ConsensusView({
           </div>
         )}
       </div>
+
+      {/* 네이버 종합 컨센서스 — 매일 자동 갱신 (brokers 배열과 별도 출처) */}
+      {active.naver_snapshot && (
+        <div className="bg-bg-card border border-accent-purple/30 rounded-xl p-4">
+          <div className="flex items-center justify-between gap-2 flex-wrap mb-2">
+            <div className="text-[11px] font-bold text-accent-purple tracking-wide uppercase">
+              {t.naverSnapshot}
+            </div>
+            <div className="text-[10px] text-text-dim tabular">
+              {fmtUpdated(active.naver_snapshot.fetched_at, locale)} KST
+            </div>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            <div>
+              <div className="text-[10px] text-text-dim">{t.avgTarget}</div>
+              <div className="text-lg sm:text-xl font-bold tabular text-accent-purple mt-1">
+                {t.krwSymbol}{fmtKRW(active.naver_snapshot.avg_target_krw)}
+              </div>
+            </div>
+            <div>
+              <div className="text-[10px] text-text-dim">{t.opinionScore}</div>
+              <div className="text-lg sm:text-xl font-bold tabular text-accent-green mt-1">
+                {active.naver_snapshot.opinion_score.toFixed(2)}
+                <span className="ml-2 text-xs font-semibold text-text-muted">
+                  {active.naver_snapshot.opinion_label}
+                </span>
+              </div>
+            </div>
+            {active.naver_snapshot.high_52w_krw != null && (
+              <div>
+                <div className="text-[10px] text-text-dim">{t.high52w}</div>
+                <div className="text-lg sm:text-xl font-bold tabular text-text mt-1">
+                  {t.krwSymbol}{fmtKRW(active.naver_snapshot.high_52w_krw)}
+                </div>
+              </div>
+            )}
+            {active.naver_snapshot.low_52w_krw != null && (
+              <div>
+                <div className="text-[10px] text-text-dim">{t.low52w}</div>
+                <div className="text-lg sm:text-xl font-bold tabular text-text mt-1">
+                  {t.krwSymbol}{fmtKRW(active.naver_snapshot.low_52w_krw)}
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
 
       {/* 메인 카드 5개 grid */}
       <div className="grid grid-cols-2 md:grid-cols-5 gap-3">

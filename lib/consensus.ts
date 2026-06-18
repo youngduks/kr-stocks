@@ -42,6 +42,19 @@ export type ConsensusData = {
   opinion_distribution: Record<BrokerOpinion, number>;
   brokers: BrokerReport[];
   history: ConsensusHistory[];
+  // 네이버 금융 종합 페이지에서 자동 스크래핑한 최신 컨센서스 요약.
+  // brokers 배열의 개별 리포트와 별개로 매일 갱신됨.
+  naver_snapshot?: NaverConsensusSnapshot;
+};
+
+export type NaverConsensusSnapshot = {
+  opinion_score: number; // 1.0(매도) ~ 5.0(강력매수)
+  opinion_label: string; // "매수" / "중립" 등 네이버 표기
+  avg_target_krw: number;
+  high_52w_krw: number | null;
+  low_52w_krw: number | null;
+  source: string;
+  fetched_at: string;
 };
 
 const ALL_CONSENSUS: Record<string, ConsensusData> = {

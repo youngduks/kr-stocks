@@ -9,8 +9,8 @@
       "noLabel": "📉 하락",
       "yes": 4,
       "no": 3,
-      "outcome": "flat",
-      "outcomeDetail": "시장 데이터 미확인",
+      "outcome": "up",
+      "outcomeDetail": "코스피 상승 — 삼성전자 +1.02%, SK하이닉스 +5.84%, 현대차 −3.44%",
       "resolvedAt": "2026-06-17T11:23:52.302Z"
     },
     {
@@ -22,8 +22,8 @@
       "noLabel": "📉 하락",
       "yes": 5,
       "no": 1,
-      "outcome": "flat",
-      "outcomeDetail": "시장 데이터 미확인",
+      "outcome": "up",
+      "outcomeDetail": "코스피 상승 — 삼성전자 +1.78%, SK하이닉스 +4.11%, 현대차 −1.08%",
       "resolvedAt": "2026-06-16T11:57:52.226Z"
     },
     {
@@ -35,9 +35,9 @@
       "noLabel": "📉 하락",
       "yes": 39,
       "no": 7,
-      "outcome": "flat",
-      "outcomeDetail": "시장 데이터 미확인",
-      "resolvedAt": "2026-06-15T12:54:48.004Z"
+      "outcome": "up",
+      "outcomeDetail": "코스피 상승 — 삼성전자 +4.50%, SK하이닉스 +6.42%, 현대차 +6.59%",
+      "resolvedAt": "2026-06-15T06:30:00.000Z"
     },
     {
       "pollId": "market-updown-2026-06-12",
@@ -48,9 +48,9 @@
       "noLabel": "📉 하락",
       "yes": 13,
       "no": 0,
-      "outcome": "flat",
-      "outcomeDetail": "시장 데이터 미확인",
-      "resolvedAt": "2026-06-12T10:53:32.504Z"
+      "outcome": "up",
+      "outcomeDetail": "코스피 상승 — 삼성전자 +7.86%, SK하이닉스 +2.33%, 현대차 +1.68%",
+      "resolvedAt": "2026-06-12T06:30:00.000Z"
     },
     {
       "pollId": "market-updown-2026-06-10",

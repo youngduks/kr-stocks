@@ -102,8 +102,8 @@ async function fetchNaverClose(symbol) {
     if (!res.ok) return null;
     const text = await res.text();
 
-    // <item date="20260610" open="..." close="299000" ... />
-    const matches = [...text.matchAll(/<item date="(\d{8})"[^>]*close="(\d+)"/g)];
+    // 포맷: <item data="YYYYMMDD|open|high|low|close|volume" />
+    const matches = [...text.matchAll(/<item data="(\d{8})\|\d+\|\d+\|\d+\|(\d+)\|\d+"/g)];
     if (matches.length < 2) return null;
 
     // 가장 최근 두 항목

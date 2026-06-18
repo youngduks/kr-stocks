@@ -1,7 +1,7 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-18T17:53:29.883Z",
-  "count": 7,
+  "updated_at": "2026-06-18T20:08:27.313Z",
+  "count": 5,
   "items": [
     {
       "title": "[급등수사본부] 마이크론 HBM 생산라인 납품 부각 '아이엠티' vs 유전체 분석 전문 바이오기업 '제이에스링크'",
@@ -17,14 +17,6 @@
       "source": "한국경제",
       "ts": 1781775462000,
       "pub": "Thu, 18 Jun 2026 18:37:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 뒤늦게 샀어도 \"돈 벌었다\"...천장 뚫고 시총 합산 4000조",
-      "link": "https://www.mt.co.kr/stock/2026/06/18/2026061816561095685",
-      "source": "머니투데이",
-      "ts": 1781770164000,
-      "pub": "Thu, 18 Jun 2026 17:09:24 +0900",
       "sentiment": "neutral"
     },
     {
@@ -50,14 +42,6 @@
       "ts": 1781751606000,
       "pub": "Thu, 18 Jun 2026 12:00:06 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "애플 \"메모리 대란에 아이폰 가격인상 불가피\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618077700009",
-      "source": "연합뉴스 국제",
-      "ts": 1781748698000,
-      "pub": "Thu, 18 Jun 2026 11:11:38 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

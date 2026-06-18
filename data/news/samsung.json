@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-18T02:33:29.747Z",
+  "updated_at": "2026-06-18T07:25:32.111Z",
   "count": 5,
   "items": [
+    {
+      "title": "[특징주] SK하이닉스, 사상 첫 270만닉스…삼전도 4.6% 상승마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260618044351008",
+      "source": "연합뉴스 경제",
+      "ts": 1781766107000,
+      "pub": "Thu, 18 Jun 2026 16:01:47 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "알투스 \"'금융 블록체인 서비스' 사업 시동…기관용 파운드리 되겠다\"",
+      "link": "https://www.hankyung.com/article/2026061843376",
+      "source": "한국경제",
+      "ts": 1781765161000,
+      "pub": "Thu, 18 Jun 2026 15:46:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 레버리지 최대 36.9% 손실…금감원, 소비자경보 '주의'",
+      "link": "https://www.yna.co.kr/view/AKR20260618066500002",
+      "source": "연합뉴스 경제",
+      "ts": 1781751606000,
+      "pub": "Thu, 18 Jun 2026 12:00:06 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "애플 \"메모리 대란에 아이폰 가격인상 불가피\"",
       "link": "https://www.yna.co.kr/view/AKR20260618077700009",
@@ -17,30 +41,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781747343000,
       "pub": "Thu, 18 Jun 2026 10:49:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] SK하이닉스, 사상 첫 260만닉스 터치…삼전은 소폭하락",
-      "link": "https://www.yna.co.kr/view/AKR20260618044300008",
-      "source": "연합뉴스 경제",
-      "ts": 1781742520000,
-      "pub": "Thu, 18 Jun 2026 09:28:40 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "삼성전자, AI가전·스마트싱스 기반 '삼성 AI 모듈러 홈' 출시",
-      "link": "https://www.yna.co.kr/view/AKR20260618029900003",
-      "source": "연합뉴스 경제",
-      "ts": 1781740959000,
-      "pub": "Thu, 18 Jun 2026 09:02:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스, 차세대 AI 메모리 HBM4E 12단 샘플 공급",
-      "link": "https://www.hankyung.com/article/202606183452g",
-      "source": "한국경제",
-      "ts": 1781740835000,
-      "pub": "Thu, 18 Jun 2026 09:00:35 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,48 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-18T02:33:29.747Z",
-  "count": 11,
+  "updated_at": "2026-06-18T07:25:32.112Z",
+  "count": 8,
   "items": [
+    {
+      "title": "[특징주] SK하이닉스, 사상 첫 270만닉스…삼전도 4.6% 상승마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260618044351008",
+      "source": "연합뉴스 경제",
+      "ts": 1781766107000,
+      "pub": "Thu, 18 Jun 2026 16:01:47 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'기피 전공'의 반란…광업·재료공학, 전기차·반도체 타고 몸값 '폭등' [차이나 워치]",
+      "link": "https://www.hankyung.com/article/202606184744i",
+      "source": "한국경제",
+      "ts": 1781765252000,
+      "pub": "Thu, 18 Jun 2026 15:47:32 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "트럼프 \"애플, 인텔과 미국서 칩 생산\"…美반도체 부활 '강조'",
+      "link": "https://www.hankyung.com/article/2026061846917",
+      "source": "한국경제",
+      "ts": 1781764702000,
+      "pub": "Thu, 18 Jun 2026 15:38:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "대만, 韓 차세대 전력반도체 개발 가속에 \"R&D 예산 늘려야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618104800009",
+      "source": "연합뉴스 국제",
+      "ts": 1781760400000,
+      "pub": "Thu, 18 Jun 2026 14:26:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "대만 TSMC, 앰코와 10년 장기계약…미국 공급망 구축 속도",
+      "link": "https://www.yna.co.kr/view/AKR20260618092200009",
+      "source": "연합뉴스 국제",
+      "ts": 1781758762000,
+      "pub": "Thu, 18 Jun 2026 13:59:22 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "제주도, 감귤·돼지고기 대신 반도체 '훨훨'…수출액 384% 급등",
       "link": "https://www.yna.co.kr/view/AKR20260618078300056",
@@ -25,70 +65,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781747343000,
       "pub": "Thu, 18 Jun 2026 10:49:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[포토] SK하이닉스, 260만원 돌파",
-      "link": "https://www.hankyung.com/article/202606183687i",
-      "source": "한국경제",
-      "ts": 1781744293000,
-      "pub": "Thu, 18 Jun 2026 09:58:13 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[마켓라이브] 코스피 장중 8900선 돌파 후 상승폭 축소… 반도체 강세 속 코스닥 2%대 하락 [오전 10시 시황]",
-      "link": "https://www.hankyung.com/article/202606183598i",
-      "source": "한국경제",
-      "ts": 1781743241000,
-      "pub": "Thu, 18 Jun 2026 09:40:41 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "올스프링 \"韓증시, 반도체 넘어선 다변화된 기회의 장\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618046500008",
-      "source": "연합뉴스 경제",
-      "ts": 1781743193000,
-      "pub": "Thu, 18 Jun 2026 09:39:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] SK하이닉스, 사상 첫 260만닉스 터치…삼전은 소폭하락",
-      "link": "https://www.yna.co.kr/view/AKR20260618044300008",
-      "source": "연합뉴스 경제",
-      "ts": 1781742520000,
-      "pub": "Thu, 18 Jun 2026 09:28:40 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "SK하이닉스, 차세대 AI 메모리 HBM4E 12단 샘플 공급",
-      "link": "https://www.hankyung.com/article/202606183452g",
-      "source": "한국경제",
-      "ts": 1781740835000,
-      "pub": "Thu, 18 Jun 2026 09:00:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "대신증권 \"SK스퀘어, 하이닉스 추가 상승 반영…목표가↑\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618030300008",
-      "source": "연합뉴스 경제",
-      "ts": 1781739385000,
-      "pub": "Thu, 18 Jun 2026 08:36:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "구윤철 \"AX에 예산·세제 등 지원…남부권 반도체 혁신벨트로\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260617070751002",
-      "source": "연합뉴스 경제",
-      "ts": 1781688455000,
-      "pub": "Wed, 17 Jun 2026 18:27:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "구윤철 \"AX에 예산·세제 등 지원…남부권 반도체 혁신벨트로\"",
-      "link": "https://www.yna.co.kr/view/AKR20260617070700002",
-      "source": "연합뉴스 경제",
-      "ts": 1781686806000,
-      "pub": "Wed, 17 Jun 2026 18:00:06 +0900",
       "sentiment": "neutral"
     }
   ]

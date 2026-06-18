@@ -1,8 +1,64 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-18T02:33:29.746Z",
-  "count": 47,
+  "updated_at": "2026-06-18T07:25:32.110Z",
+  "count": 33,
   "items": [
+    {
+      "title": "트럼프 \"애플, 인텔과 미국서 칩 생산\"…美반도체 부활 '강조'",
+      "link": "https://www.hankyung.com/article/2026061846917",
+      "source": "한국경제",
+      "ts": 1781764702000,
+      "pub": "Thu, 18 Jun 2026 15:38:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"애플, 인텔과 협력해 미국서 칩 생산하기로\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618115300009",
+      "source": "연합뉴스 국제",
+      "ts": 1781763540000,
+      "pub": "Thu, 18 Jun 2026 15:19:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 계좌 개설 논란…美은행 전 임원 \"문제 제기하자 해고\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618119700009",
+      "source": "연합뉴스 국제",
+      "ts": 1781763367000,
+      "pub": "Thu, 18 Jun 2026 15:16:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "aT, 농축산물 할당관세 전담기구 신설 추진…사후관리 강화",
+      "link": "https://www.yna.co.kr/view/AKR20260618113900030",
+      "source": "연합뉴스 경제",
+      "ts": 1781763096000,
+      "pub": "Thu, 18 Jun 2026 15:11:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"금리 힌트 안 준다\"…Fed 의장 워시 스타일에 월가 '초긴장'",
+      "link": "https://www.hankyung.com/article/202606184281i",
+      "source": "한국경제",
+      "ts": 1781761900000,
+      "pub": "Thu, 18 Jun 2026 14:51:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "매파 돌변한 Fed 비웃었다…9천피 뚫은 '이유 있는 반란' [분석+]",
+      "link": "https://www.hankyung.com/article/2026061843076",
+      "source": "한국경제",
+      "ts": 1781758280000,
+      "pub": "Thu, 18 Jun 2026 13:51:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"레이건이 무덤서 뒤척\"…트럼프의 이란 빅딜에 공화당마저 술렁",
+      "link": "https://www.yna.co.kr/view/AKR20260618090100009",
+      "source": "연합뉴스 국제",
+      "ts": 1781752064000,
+      "pub": "Thu, 18 Jun 2026 12:07:44 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'17억달러 퍼주기' 비판하더니…트럼프, 이란에 3천억 달러 제시",
       "link": "https://www.yna.co.kr/view/AKR20260618061400009",
@@ -44,14 +100,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "매파 FOMC도 뚫었다…개미들 1조 베팅에 '9천피' 초읽기",
-      "link": "https://www.hankyung.com/article/2026061835246",
-      "source": "한국경제",
-      "ts": 1781742669000,
-      "pub": "Thu, 18 Jun 2026 09:31:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "겨우 132단어 FOMC 성명…'무거운 입' 워시 소신 반영",
       "link": "https://www.yna.co.kr/view/AKR20260618030600009",
       "source": "연합뉴스 국제",
@@ -60,35 +108,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "하반기 LNG·LPG 할당관세 0%…과일농축액 등 원료 9종 신규적용",
-      "link": "https://www.yna.co.kr/view/AKR20260617145500002",
-      "source": "연합뉴스 경제",
-      "ts": 1781740801000,
-      "pub": "Thu, 18 Jun 2026 09:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한투증권, FOMC '매파적' 평가속 \"美연준, 연내 금리동결 전망\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618029000008",
-      "source": "연합뉴스 경제",
-      "ts": 1781739577000,
-      "pub": "Thu, 18 Jun 2026 08:39:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "이란 초교 공습참사 '이란 짓'이라던 트럼프 \"실수는 누구나\"",
       "link": "https://www.yna.co.kr/view/AKR20260618030700009",
       "source": "연합뉴스 국제",
       "ts": 1781739103000,
       "pub": "Thu, 18 Jun 2026 08:31:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[마켓뷰] '매파적' FOMC…'9천피'까지 135p 남겨둔 코스피 향배는",
-      "link": "https://www.yna.co.kr/view/AKR20260618021700008",
-      "source": "연합뉴스 경제",
-      "ts": 1781736954000,
-      "pub": "Thu, 18 Jun 2026 07:55:54 +0900",
       "sentiment": "neutral"
     },
     {
@@ -118,7 +142,7 @@
     {
       "title": "내리라고 임명했는데…'워시의 연준' 첫회의서 금리인상 시사(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260618007451072",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1781733389000,
       "pub": "Thu, 18 Jun 2026 06:56:29 +0900",
       "sentiment": "neutral"
@@ -166,7 +190,7 @@
     {
       "title": "연준 금리인상 기대강화에 美주식·채권 동반하락…달러는 강세(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260618010351072",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1781728608000,
       "pub": "Thu, 18 Jun 2026 05:36:48 +0900",
       "sentiment": "neutral"
@@ -182,7 +206,7 @@
     {
       "title": "뉴욕증시, 美연준 금리인상 기대강화에 하락…다우 1%↓",
       "link": "https://www.yna.co.kr/view/AKR20260618010300072",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1781726821000,
       "pub": "Thu, 18 Jun 2026 05:07:01 +0900",
       "sentiment": "neutral"
@@ -206,7 +230,7 @@
     {
       "title": "국제유가 \"합의안 최종아냐\" 트럼프 발언에 반등…브렌트 0.7%↑",
       "link": "https://www.yna.co.kr/view/AKR20260618009100072",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1781724089000,
       "pub": "Thu, 18 Jun 2026 04:21:29 +0900",
       "sentiment": "neutral"
@@ -214,7 +238,7 @@
     {
       "title": "워시의 美연준 '완화편향' 문구 삭제…점도표는 연내인상 반영",
       "link": "https://www.yna.co.kr/view/AKR20260618007400072",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1781722996000,
       "pub": "Thu, 18 Jun 2026 04:03:16 +0900",
       "sentiment": "neutral"
@@ -241,142 +265,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781721687000,
       "pub": "Thu, 18 Jun 2026 03:41:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 美연준, 연말 개인소비지출 가격지수 2.7%서 3.6%로 상향",
-      "link": "https://www.yna.co.kr/view/AKR20260618004900071",
-      "source": "연합뉴스 국제",
-      "ts": 1781719694000,
-      "pub": "Thu, 18 Jun 2026 03:08:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 美연준, 올해말 기준금리 중간값 3.4%에서 3.8%로 상향",
-      "link": "https://www.yna.co.kr/view/AKR20260618004600071",
-      "source": "연합뉴스 국제",
-      "ts": 1781719626000,
-      "pub": "Thu, 18 Jun 2026 03:07:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[2보] 美연준, '워시 의장 체제' 첫 FOMC서 금리 또 동결",
-      "link": "https://www.yna.co.kr/view/AKR20260618002500071",
-      "source": "연합뉴스 국제",
-      "ts": 1781719414000,
-      "pub": "Thu, 18 Jun 2026 03:03:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[1보] 美연준, 네차례 연속 금리 동결…3.50∼3.75% 유지",
-      "link": "https://www.yna.co.kr/view/AKR20260618002400071",
-      "source": "연합뉴스 국제",
-      "ts": 1781719262000,
-      "pub": "Thu, 18 Jun 2026 03:01:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"핵무기막는 '트럼프 합의'…이란, 합의 미준수시 폭격\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260618002151081",
-      "source": "연합뉴스 국제",
-      "ts": 1781718995000,
-      "pub": "Thu, 18 Jun 2026 02:56:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "달러-원, FOMC 결과 앞두고 상승폭 확대…1,515.50원 마감",
-      "link": "https://www.yna.co.kr/view/AKR20260618002700002",
-      "source": "연합뉴스 경제",
-      "ts": 1781718147000,
-      "pub": "Thu, 18 Jun 2026 02:42:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"시진핑·푸틴, 이란 관련 중립 지켜줘 감사\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618002100081",
-      "source": "연합뉴스 국제",
-      "ts": 1781717001000,
-      "pub": "Thu, 18 Jun 2026 02:23:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "마크롱 \"트럼프도 러 협상 의지 없다는 점 인정…진정한 변화\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618001400081",
-      "source": "연합뉴스 국제",
-      "ts": 1781713380000,
-      "pub": "Thu, 18 Jun 2026 01:23:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이스라엘에 종전 MOU 사본 보내\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618001600081",
-      "source": "연합뉴스 국제",
-      "ts": 1781713222000,
-      "pub": "Thu, 18 Jun 2026 01:20:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 \"종전 MOU, 이스라엘의 레바논 공격 중단 포함\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618001500083",
-      "source": "연합뉴스 국제",
-      "ts": 1781712966000,
-      "pub": "Thu, 18 Jun 2026 01:16:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "안보 지형 급변에…핀란드, '핵무기 빗장' 풀었다",
-      "link": "https://www.yna.co.kr/view/AKR20260618000800098",
-      "source": "연합뉴스 국제",
-      "ts": 1781712309000,
-      "pub": "Thu, 18 Jun 2026 01:05:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"유권자 ID법 없이 외국인 도·감청법 서명 않겠다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618000300071",
-      "source": "연합뉴스 국제",
-      "ts": 1781712176000,
-      "pub": "Thu, 18 Jun 2026 01:02:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘군 \"헤즈볼라 드론 공격에 5명 부상…보복 포격\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618001100079",
-      "source": "연합뉴스 국제",
-      "ts": 1781712071000,
-      "pub": "Thu, 18 Jun 2026 01:01:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美조지아 주지사 공화 예비선거서 트럼프가 지지한 후보 '쓴잔'",
-      "link": "https://www.yna.co.kr/view/AKR20260618000200009",
-      "source": "연합뉴스 국제",
-      "ts": 1781709163000,
-      "pub": "Thu, 18 Jun 2026 00:12:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 케빈 워시 첫 FOMC 대기하며 상승 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260617174900009",
-      "source": "연합뉴스 국제",
-      "ts": 1781704240000,
-      "pub": "Wed, 17 Jun 2026 22:50:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란 제대로 행동하지 않으면 다시 폭탄 투하\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260617167851009",
-      "source": "연합뉴스 국제",
-      "ts": 1781700663000,
-      "pub": "Wed, 17 Jun 2026 21:51:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "백악관 UFC 테러 음모 19세 용의자 모친 신고로 적발",
-      "link": "https://www.yna.co.kr/view/AKR20260617170600009",
-      "source": "연합뉴스 국제",
-      "ts": 1781697903000,
-      "pub": "Wed, 17 Jun 2026 21:05:03 +0900",
       "sentiment": "neutral"
     }
   ]

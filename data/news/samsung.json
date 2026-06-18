@@ -1,47 +1,47 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-17T23:15:53.187Z",
+  "updated_at": "2026-06-18T02:33:29.747Z",
   "count": 5,
   "items": [
     {
-      "title": "100만원 팔면 70만원 남는다…\"제발 팔아줘\" 삼전닉스에 줄 선 빅테크",
-      "link": "https://www.mt.co.kr/industry/2026/06/18/2026061416095315641",
-      "source": "머니투데이",
-      "ts": 1781736300000,
-      "pub": "Thu, 18 Jun 2026 07:45:00 +0900",
+      "title": "애플 \"메모리 대란에 아이폰 가격인상 불가피\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618077700009",
+      "source": "연합뉴스 국제",
+      "ts": 1781748698000,
+      "pub": "Thu, 18 Jun 2026 11:11:38 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "삼성 파운드리, 전력관리 반도체도 수주…AI 생태계 넓힌다",
-      "link": "https://www.mt.co.kr/industry/2026/06/18/2026061715410261308",
-      "source": "머니투데이",
-      "ts": 1781732400000,
-      "pub": "Thu, 18 Jun 2026 06:40:00 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "삼전·하닉 성과급에…한은 \"전 산업 임금상승 이어 물가 자극\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260617086551002",
+      "title": "KB운용 '삼성전자SK하이닉스채권혼합50' ETF 순자산 4조원 넘어",
+      "link": "https://www.yna.co.kr/view/AKR20260618072600008",
       "source": "연합뉴스 경제",
-      "ts": 1781683178000,
-      "pub": "Wed, 17 Jun 2026 16:59:38 +0900",
+      "ts": 1781747343000,
+      "pub": "Thu, 18 Jun 2026 10:49:03 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[특징주] SK하이닉스, 사상 첫 250만 닉스…삼전도 상승마감(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260617042652008",
+      "title": "[특징주] SK하이닉스, 사상 첫 260만닉스 터치…삼전은 소폭하락",
+      "link": "https://www.yna.co.kr/view/AKR20260618044300008",
       "source": "연합뉴스 경제",
-      "ts": 1781679574000,
-      "pub": "Wed, 17 Jun 2026 15:59:34 +0900",
+      "ts": 1781742520000,
+      "pub": "Thu, 18 Jun 2026 09:28:40 +0900",
       "sentiment": "positive"
     },
     {
-      "title": "[특징주] SK하이닉스, 사상 첫 250만 닉스…삼전도 상승전환(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260617042651008",
+      "title": "삼성전자, AI가전·스마트싱스 기반 '삼성 AI 모듈러 홈' 출시",
+      "link": "https://www.yna.co.kr/view/AKR20260618029900003",
       "source": "연합뉴스 경제",
-      "ts": 1781676393000,
-      "pub": "Wed, 17 Jun 2026 15:06:33 +0900",
-      "sentiment": "positive"
+      "ts": 1781740959000,
+      "pub": "Thu, 18 Jun 2026 09:02:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스, 차세대 AI 메모리 HBM4E 12단 샘플 공급",
+      "link": "https://www.hankyung.com/article/202606183452g",
+      "source": "한국경제",
+      "ts": 1781740835000,
+      "pub": "Thu, 18 Jun 2026 09:00:35 +0900",
+      "sentiment": "neutral"
     }
   ]
 }

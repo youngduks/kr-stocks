@@ -1,30 +1,78 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-17T23:15:53.188Z",
-  "count": 9,
+  "updated_at": "2026-06-18T02:33:29.747Z",
+  "count": 11,
   "items": [
     {
-      "title": "삼성 파운드리, 전력관리 반도체도 수주…AI 생태계 넓힌다",
-      "link": "https://www.mt.co.kr/industry/2026/06/18/2026061715410261308",
-      "source": "머니투데이",
-      "ts": 1781732400000,
-      "pub": "Thu, 18 Jun 2026 06:40:00 +0900",
+      "title": "제주도, 감귤·돼지고기 대신 반도체 '훨훨'…수출액 384% 급등",
+      "link": "https://www.yna.co.kr/view/AKR20260618078300056",
+      "source": "연합뉴스 경제",
+      "ts": 1781748966000,
+      "pub": "Thu, 18 Jun 2026 11:16:06 +0900",
       "sentiment": "positive"
     },
     {
-      "title": "美 연내 금리 인상 시사에 증시 흔들…반도체는 선방[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/06/18/2026061805484380713",
-      "source": "머니투데이",
-      "ts": 1781729519000,
-      "pub": "Thu, 18 Jun 2026 05:51:59 +0900",
+      "title": "애플 \"메모리 대란에 아이폰 가격인상 불가피\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618077700009",
+      "source": "연합뉴스 국제",
+      "ts": 1781748698000,
+      "pub": "Thu, 18 Jun 2026 11:11:38 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"해상풍력, 반도체 경쟁력과 직결\"…10배 앞선 대만의 제언",
-      "link": "https://www.mt.co.kr/industry/2026/06/18/2026061620121898690",
-      "source": "머니투데이",
-      "ts": 1781729400000,
-      "pub": "Thu, 18 Jun 2026 05:50:00 +0900",
+      "title": "KB운용 '삼성전자SK하이닉스채권혼합50' ETF 순자산 4조원 넘어",
+      "link": "https://www.yna.co.kr/view/AKR20260618072600008",
+      "source": "연합뉴스 경제",
+      "ts": 1781747343000,
+      "pub": "Thu, 18 Jun 2026 10:49:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[포토] SK하이닉스, 260만원 돌파",
+      "link": "https://www.hankyung.com/article/202606183687i",
+      "source": "한국경제",
+      "ts": 1781744293000,
+      "pub": "Thu, 18 Jun 2026 09:58:13 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[마켓라이브] 코스피 장중 8900선 돌파 후 상승폭 축소… 반도체 강세 속 코스닥 2%대 하락 [오전 10시 시황]",
+      "link": "https://www.hankyung.com/article/202606183598i",
+      "source": "한국경제",
+      "ts": 1781743241000,
+      "pub": "Thu, 18 Jun 2026 09:40:41 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "올스프링 \"韓증시, 반도체 넘어선 다변화된 기회의 장\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618046500008",
+      "source": "연합뉴스 경제",
+      "ts": 1781743193000,
+      "pub": "Thu, 18 Jun 2026 09:39:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] SK하이닉스, 사상 첫 260만닉스 터치…삼전은 소폭하락",
+      "link": "https://www.yna.co.kr/view/AKR20260618044300008",
+      "source": "연합뉴스 경제",
+      "ts": 1781742520000,
+      "pub": "Thu, 18 Jun 2026 09:28:40 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "SK하이닉스, 차세대 AI 메모리 HBM4E 12단 샘플 공급",
+      "link": "https://www.hankyung.com/article/202606183452g",
+      "source": "한국경제",
+      "ts": 1781740835000,
+      "pub": "Thu, 18 Jun 2026 09:00:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "대신증권 \"SK스퀘어, 하이닉스 추가 상승 반영…목표가↑\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618030300008",
+      "source": "연합뉴스 경제",
+      "ts": 1781739385000,
+      "pub": "Thu, 18 Jun 2026 08:36:25 +0900",
       "sentiment": "neutral"
     },
     {
@@ -42,38 +90,6 @@
       "ts": 1781686806000,
       "pub": "Wed, 17 Jun 2026 18:00:06 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"美, 딥시크·CXMT 등 中기업 100여곳 블랙리스트 등재 보류\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260617126251009",
-      "source": "연합뉴스 국제",
-      "ts": 1781682438000,
-      "pub": "Wed, 17 Jun 2026 16:47:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] SK하이닉스, 사상 첫 250만 닉스…삼전도 상승마감(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260617042652008",
-      "source": "연합뉴스 경제",
-      "ts": 1781679574000,
-      "pub": "Wed, 17 Jun 2026 15:59:34 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[특징주] SK하이닉스, 사상 첫 250만 닉스…삼전도 상승전환(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260617042651008",
-      "source": "연합뉴스 경제",
-      "ts": 1781676393000,
-      "pub": "Wed, 17 Jun 2026 15:06:33 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[속보] SK하이닉스, 장중 5%대 급등…사상 첫 '250만 닉스'",
-      "link": "https://www.yna.co.kr/view/AKR20260617111900008",
-      "source": "연합뉴스 경제",
-      "ts": 1781674981000,
-      "pub": "Wed, 17 Jun 2026 14:43:01 +0900",
-      "sentiment": "positive"
     }
   ]
 }

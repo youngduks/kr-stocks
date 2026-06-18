@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-18T14:42:45.150Z",
-  "count": 20,
+  "updated_at": "2026-06-18T17:53:29.882Z",
+  "count": 28,
   "items": [
+    {
+      "title": "뉴욕 이어 워싱턴까지 '좌클릭 시장' 임박…트럼프 \"좋지 않아\"",
+      "link": "https://www.mt.co.kr/world/2026/06/19/2026061902303922524",
+      "source": "머니투데이",
+      "ts": 1781804664000,
+      "pub": "Fri, 19 Jun 2026 02:44:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "G7 지원 확인한 우크라…\"모스크바 겨냥 2년만에 최대 공격\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260618144151109",
+      "source": "연합뉴스 국제",
+      "ts": 1781799815000,
+      "pub": "Fri, 19 Jun 2026 01:23:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]밴스 \"이란이 혜택 받는다는 인식 잘못...이란, 당장 핵무기 만들 능력 없어\"",
+      "link": "https://www.hankyung.com/article/202606195477i",
+      "source": "한국경제",
+      "ts": 1781797806000,
+      "pub": "Fri, 19 Jun 2026 00:50:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러 외무 \"우크라군 표적 겨냥해 대규모 공습 예정\"",
+      "link": "https://www.yna.co.kr/view/AKR20260619000400108",
+      "source": "연합뉴스 국제",
+      "ts": 1781797093000,
+      "pub": "Fri, 19 Jun 2026 00:38:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "MOU서명후 엇갈린 풍경…트럼프 '비판 방어', 이란대통령 '인증샷'",
+      "link": "https://www.yna.co.kr/view/AKR20260619000900071",
+      "source": "연합뉴스 국제",
+      "ts": 1781796839000,
+      "pub": "Fri, 19 Jun 2026 00:33:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"프린터 구해줘\"…종전 MOU 서명, 트럼프의 '베르사유 깜짝쇼'",
+      "link": "https://www.yna.co.kr/view/AKR20260618175400081",
+      "source": "연합뉴스 국제",
+      "ts": 1781795362000,
+      "pub": "Fri, 19 Jun 2026 00:09:22 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "푸틴 \"미·이란 종전 합의 환영, 중동 정세 안정되길\"",
       "link": "https://www.yna.co.kr/view/AKR20260618174100108",
@@ -17,6 +65,14 @@
       "source": "한국경제",
       "ts": 1781789175000,
       "pub": "Thu, 18 Jun 2026 22:26:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"日 다카이치에 이란 군사 개입 의사 물었으나 거절 당해\"",
+      "link": "https://www.mt.co.kr/world/2026/06/18/2026061820365680154",
+      "source": "머니투데이",
+      "ts": 1781783740000,
+      "pub": "Thu, 18 Jun 2026 20:55:40 +0900",
       "sentiment": "neutral"
     },
     {
@@ -92,11 +148,35 @@
       "sentiment": "neutral"
     },
     {
+      "title": "마크롱 옆에서 트럼프 서명, 이란도 인증샷 화답…스위스 회담은?",
+      "link": "https://www.mt.co.kr/world/2026/06/18/2026061816475044303",
+      "source": "머니투데이",
+      "ts": 1781772006000,
+      "pub": "Thu, 18 Jun 2026 17:40:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 '쓱쓱' 종전 MOU 서명, 증시 환호…日 또 최고치[Asia마감]",
+      "link": "https://www.mt.co.kr/world/2026/06/18/2026061817181093112",
+      "source": "머니투데이",
+      "ts": 1781771152000,
+      "pub": "Thu, 18 Jun 2026 17:25:52 +0900",
+      "sentiment": "positive"
+    },
+    {
       "title": "연준 금리인상 시사에도 日증시 'AI 훈풍'…종가 첫 71,000대",
       "link": "https://www.yna.co.kr/view/AKR20260618145300073",
       "source": "연합뉴스 국제",
       "ts": 1781770641000,
       "pub": "Thu, 18 Jun 2026 17:17:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 인텔-애플 칩 협력 자랑…\"난 미국에 돈벌어주는 대통령\"",
+      "link": "https://www.mt.co.kr/world/2026/06/18/2026061814150045636",
+      "source": "머니투데이",
+      "ts": 1781770461000,
+      "pub": "Thu, 18 Jun 2026 17:14:21 +0900",
       "sentiment": "neutral"
     },
     {
@@ -145,22 +225,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781752064000,
       "pub": "Thu, 18 Jun 2026 12:07:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'17억달러 퍼주기' 비판하더니…트럼프, 이란에 3천억 달러 제시",
-      "link": "https://www.yna.co.kr/view/AKR20260618061400009",
-      "source": "연합뉴스 국제",
-      "ts": 1781747416000,
-      "pub": "Thu, 18 Jun 2026 10:50:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키 사진과 마크롱의 계산…트럼프 마음 움직인 G7 외교전",
-      "link": "https://www.yna.co.kr/view/AKR20260618066300009",
-      "source": "연합뉴스 국제",
-      "ts": 1781746938000,
-      "pub": "Thu, 18 Jun 2026 10:42:18 +0900",
       "sentiment": "neutral"
     }
   ]

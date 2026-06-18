@@ -1,8 +1,40 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-18T07:25:32.111Z",
-  "count": 5,
+  "updated_at": "2026-06-18T11:43:33.451Z",
+  "count": 7,
   "items": [
+    {
+      "title": "애플 잘 나가는데 삼성 '비상'…갤럭시 워치, 나홀로 '역주행'",
+      "link": "https://www.hankyung.com/article/2026061853397",
+      "source": "한국경제",
+      "ts": 1781781578000,
+      "pub": "Thu, 18 Jun 2026 20:19:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스도 베팅하더니…무섭게 큰 앤트로픽 '한국 상륙'",
+      "link": "https://www.hankyung.com/article/202606172444g",
+      "source": "한국경제",
+      "ts": 1781775462000,
+      "pub": "Thu, 18 Jun 2026 18:37:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼전닉스 랠리 언제 끝나요\"…투자 전문가의 '깜짝' 전망",
+      "link": "https://www.hankyung.com/article/2026061851711",
+      "source": "한국경제",
+      "ts": 1781773475000,
+      "pub": "Thu, 18 Jun 2026 18:04:35 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[코스피 9,000] 상승률 1위·삼전닉스 비중 54%…주목할 기록들",
+      "link": "https://www.yna.co.kr/view/AKR20260618111600008",
+      "source": "연합뉴스 경제",
+      "ts": 1781768180000,
+      "pub": "Thu, 18 Jun 2026 16:36:20 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[특징주] SK하이닉스, 사상 첫 270만닉스…삼전도 4.6% 상승마감(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260618044351008",
@@ -10,14 +42,6 @@
       "ts": 1781766107000,
       "pub": "Thu, 18 Jun 2026 16:01:47 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "알투스 \"'금융 블록체인 서비스' 사업 시동…기관용 파운드리 되겠다\"",
-      "link": "https://www.hankyung.com/article/2026061843376",
-      "source": "한국경제",
-      "ts": 1781765161000,
-      "pub": "Thu, 18 Jun 2026 15:46:01 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "삼전닉스 레버리지 최대 36.9% 손실…금감원, 소비자경보 '주의'",
@@ -33,14 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781748698000,
       "pub": "Thu, 18 Jun 2026 11:11:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "KB운용 '삼성전자SK하이닉스채권혼합50' ETF 순자산 4조원 넘어",
-      "link": "https://www.yna.co.kr/view/AKR20260618072600008",
-      "source": "연합뉴스 경제",
-      "ts": 1781747343000,
-      "pub": "Thu, 18 Jun 2026 10:49:03 +0900",
       "sentiment": "neutral"
     }
   ]

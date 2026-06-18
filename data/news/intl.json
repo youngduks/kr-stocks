@@ -1,14 +1,110 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-18T07:25:32.110Z",
-  "count": 33,
+  "updated_at": "2026-06-18T11:43:33.450Z",
+  "count": 22,
   "items": [
     {
-      "title": "트럼프 \"애플, 인텔과 미국서 칩 생산\"…美반도체 부활 '강조'",
-      "link": "https://www.hankyung.com/article/2026061846917",
+      "title": "트럼프식 나토 재편 본격화…\"유럽 주둔 미군 6개월간 재검토\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260618152351098",
+      "source": "연합뉴스 국제",
+      "ts": 1781781831000,
+      "pub": "Thu, 18 Jun 2026 20:23:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 인텔 '애플칩 생산' 공식화…시간외 급등",
+      "link": "https://www.hankyung.com/article/2026061853291",
       "source": "한국경제",
-      "ts": 1781764702000,
-      "pub": "Thu, 18 Jun 2026 15:38:22 +0900",
+      "ts": 1781779969000,
+      "pub": "Thu, 18 Jun 2026 19:52:49 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"철수 안해\" 이스라엘군, 레바논 남부 주둔군 최신 지도 공개",
+      "link": "https://www.yna.co.kr/view/AKR20260618167000079",
+      "source": "연합뉴스 국제",
+      "ts": 1781779719000,
+      "pub": "Thu, 18 Jun 2026 19:48:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 외무 \"'아파르트헤이트' 비유 EU 외교수장과 단절\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618166300079",
+      "source": "연합뉴스 국제",
+      "ts": 1781778952000,
+      "pub": "Thu, 18 Jun 2026 19:35:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러·우크라, 교전 격화 속 전사자 시신 교환",
+      "link": "https://www.yna.co.kr/view/AKR20260618163700109",
+      "source": "연합뉴스 국제",
+      "ts": 1781777532000,
+      "pub": "Thu, 18 Jun 2026 19:12:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"다카이치에 이란전 군사 개입 타진…거절당해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618162500073",
+      "source": "연합뉴스 국제",
+      "ts": 1781776409000,
+      "pub": "Thu, 18 Jun 2026 18:53:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러 \"유럽, G7서 트럼프에 해로운 생각 주입\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618162300108",
+      "source": "연합뉴스 국제",
+      "ts": 1781775575000,
+      "pub": "Thu, 18 Jun 2026 18:39:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[월드&포토] 베르사유궁서 종전 MOU 서명한 트럼프…마크롱 \"브라보\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618157800081",
+      "source": "연합뉴스 국제",
+      "ts": 1781774776000,
+      "pub": "Thu, 18 Jun 2026 18:26:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이스라엘, 레바논 투입 지상군 유지 위해 美와 완강한 협상\"",
+      "link": "https://www.yna.co.kr/view/AKR20260618159000079",
+      "source": "연합뉴스 국제",
+      "ts": 1781773698000,
+      "pub": "Thu, 18 Jun 2026 18:08:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李 대통령, 19일 순방 브리핑…트럼프와 대화 공개하나",
+      "link": "https://www.hankyung.com/article/2026061851991",
+      "source": "한국경제",
+      "ts": 1781773055000,
+      "pub": "Thu, 18 Jun 2026 17:57:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "연준 금리인상 시사에도 日증시 'AI 훈풍'…종가 첫 71,000대",
+      "link": "https://www.yna.co.kr/view/AKR20260618145300073",
+      "source": "연합뉴스 국제",
+      "ts": 1781770641000,
+      "pub": "Thu, 18 Jun 2026 17:17:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "매파적 연준에 국고채 금리 동반 상승…3년물 연 3.750%(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260618146400008",
+      "source": "연합뉴스 경제",
+      "ts": 1781769235000,
+      "pub": "Thu, 18 Jun 2026 16:53:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "무역위원회, 태국산 동관 제품에 4.93∼8.41％ 반덤핑관세",
+      "link": "https://www.yna.co.kr/view/AKR20260618092400003",
+      "source": "연합뉴스 경제",
+      "ts": 1781767801000,
+      "pub": "Thu, 18 Jun 2026 16:30:01 +0900",
       "sentiment": "neutral"
     },
     {
@@ -36,22 +132,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"금리 힌트 안 준다\"…Fed 의장 워시 스타일에 월가 '초긴장'",
-      "link": "https://www.hankyung.com/article/202606184281i",
-      "source": "한국경제",
-      "ts": 1781761900000,
-      "pub": "Thu, 18 Jun 2026 14:51:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "매파 돌변한 Fed 비웃었다…9천피 뚫은 '이유 있는 반란' [분석+]",
-      "link": "https://www.hankyung.com/article/2026061843076",
-      "source": "한국경제",
-      "ts": 1781758280000,
-      "pub": "Thu, 18 Jun 2026 13:51:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"레이건이 무덤서 뒤척\"…트럼프의 이란 빅딜에 공화당마저 술렁",
       "link": "https://www.yna.co.kr/view/AKR20260618090100009",
       "source": "연합뉴스 국제",
@@ -76,14 +156,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "증권가 \"워시의 첫 연준, 금리동결에도 파격적 변화 가능성\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618064400008",
-      "source": "연합뉴스 경제",
-      "ts": 1781746250000,
-      "pub": "Thu, 18 Jun 2026 10:30:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美의 기류 변화?…\"국무부 차관보, 암참 홍콩 방미단 회동 예정\"",
       "link": "https://www.yna.co.kr/view/AKR20260618063800009",
       "source": "연합뉴스 국제",
@@ -105,166 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781741034000,
       "pub": "Thu, 18 Jun 2026 09:03:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 초교 공습참사 '이란 짓'이라던 트럼프 \"실수는 누구나\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618030700009",
-      "source": "연합뉴스 국제",
-      "ts": 1781739103000,
-      "pub": "Thu, 18 Jun 2026 08:31:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "백악관 \"트럼프, 이란과의 종전 MOU 서명\"…美언론 \"발효 개시\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260618015752071",
-      "source": "연합뉴스 국제",
-      "ts": 1781736898000,
-      "pub": "Thu, 18 Jun 2026 07:54:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "백악관 \"트럼프, 이란과의 종전 MOU 서명\"…美언론 \"발효 개시\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618015751071",
-      "source": "연합뉴스 국제",
-      "ts": 1781734207000,
-      "pub": "Thu, 18 Jun 2026 07:10:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "룰라 대통령…\"트럼프, 브라질 대선서 손떼라\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618016400087",
-      "source": "연합뉴스 국제",
-      "ts": 1781733935000,
-      "pub": "Thu, 18 Jun 2026 07:05:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "내리라고 임명했는데…'워시의 연준' 첫회의서 금리인상 시사(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260618007451072",
-      "source": "연합뉴스 국제",
-      "ts": 1781733389000,
-      "pub": "Thu, 18 Jun 2026 06:56:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 백악관 당국자 \"트럼프, 이란과의 종전 MOU 서명했다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618015700071",
-      "source": "연합뉴스 국제",
-      "ts": 1781733048000,
-      "pub": "Thu, 18 Jun 2026 06:50:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"유권자 ID법 없이 외국인 도·감청법 서명 않겠다\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260618000351071",
-      "source": "연합뉴스 국제",
-      "ts": 1781732359000,
-      "pub": "Thu, 18 Jun 2026 06:39:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"동결자산 어느시점엔 돌려줘야…이란 합의안지키면 폭격\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260618002152081",
-      "source": "연합뉴스 국제",
-      "ts": 1781730787000,
-      "pub": "Thu, 18 Jun 2026 06:13:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "워시, 연준 소통체계 대개편 예고…선제안내 없애고 TF 신설(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260618008251072",
-      "source": "연합뉴스 국제",
-      "ts": 1781729480000,
-      "pub": "Thu, 18 Jun 2026 05:51:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[전문] \"이란, 핵무기 획득·개발 안한다\"…미·이란 종전 MOU",
-      "link": "https://www.yna.co.kr/view/AKR20260618010200071",
-      "source": "연합뉴스 국제",
-      "ts": 1781729102000,
-      "pub": "Thu, 18 Jun 2026 05:45:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "연준 금리인상 기대강화에 美주식·채권 동반하락…달러는 강세(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260618010351072",
-      "source": "연합뉴스 국제",
-      "ts": 1781728608000,
-      "pub": "Thu, 18 Jun 2026 05:36:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, '워시체제' 첫 FOMC서 금리 또 동결…연내 인하→인상 전환(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260618002552071",
-      "source": "연합뉴스 국제",
-      "ts": 1781727810000,
-      "pub": "Thu, 18 Jun 2026 05:23:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 美연준 금리인상 기대강화에 하락…다우 1%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260618010300072",
-      "source": "연합뉴스 국제",
-      "ts": 1781726821000,
-      "pub": "Thu, 18 Jun 2026 05:07:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "푸틴, 러 카잔 개최 아세안 정상회의 참석…G7 견제",
-      "link": "https://www.yna.co.kr/view/AKR20260618009300108",
-      "source": "연합뉴스 국제",
-      "ts": 1781725621000,
-      "pub": "Thu, 18 Jun 2026 04:47:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "워시 \"포워드 가이던스 생략…연준 정책 운영 검토 TF 출범\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618008200072",
-      "source": "연합뉴스 국제",
-      "ts": 1781724635000,
-      "pub": "Thu, 18 Jun 2026 04:30:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "국제유가 \"합의안 최종아냐\" 트럼프 발언에 반등…브렌트 0.7%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260618009100072",
-      "source": "연합뉴스 국제",
-      "ts": 1781724089000,
-      "pub": "Thu, 18 Jun 2026 04:21:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "워시의 美연준 '완화편향' 문구 삭제…점도표는 연내인상 반영",
-      "link": "https://www.yna.co.kr/view/AKR20260618007400072",
-      "source": "연합뉴스 국제",
-      "ts": 1781722996000,
-      "pub": "Thu, 18 Jun 2026 04:03:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"EU, 푸틴 측과 간단한 외교 접촉…소통 채널 여는 차원\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618007700098",
-      "source": "연합뉴스 국제",
-      "ts": 1781722971000,
-      "pub": "Thu, 18 Jun 2026 04:02:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "마크롱, 절대왕정 상징 베르사유궁서 트럼프 초청 만찬",
-      "link": "https://www.yna.co.kr/view/AKR20260618006800081",
-      "source": "연합뉴스 국제",
-      "ts": 1781722297000,
-      "pub": "Thu, 18 Jun 2026 03:51:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, '워시체제' 첫 FOMC서 금리 또 동결…연내 인상 가능성(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260618002551071",
-      "source": "연합뉴스 국제",
-      "ts": 1781721687000,
-      "pub": "Thu, 18 Jun 2026 03:41:27 +0900",
       "sentiment": "neutral"
     }
   ]

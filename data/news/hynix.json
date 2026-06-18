@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-18T07:25:32.112Z",
-  "count": 8,
+  "updated_at": "2026-06-18T11:43:33.451Z",
+  "count": 5,
   "items": [
     {
       "title": "[특징주] SK하이닉스, 사상 첫 270만닉스…삼전도 4.6% 상승마감(종합)",
@@ -10,22 +10,6 @@
       "ts": 1781766107000,
       "pub": "Thu, 18 Jun 2026 16:01:47 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "'기피 전공'의 반란…광업·재료공학, 전기차·반도체 타고 몸값 '폭등' [차이나 워치]",
-      "link": "https://www.hankyung.com/article/202606184744i",
-      "source": "한국경제",
-      "ts": 1781765252000,
-      "pub": "Thu, 18 Jun 2026 15:47:32 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "트럼프 \"애플, 인텔과 미국서 칩 생산\"…美반도체 부활 '강조'",
-      "link": "https://www.hankyung.com/article/2026061846917",
-      "source": "한국경제",
-      "ts": 1781764702000,
-      "pub": "Thu, 18 Jun 2026 15:38:22 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "대만, 韓 차세대 전력반도체 개발 가속에 \"R&D 예산 늘려야\"",
@@ -57,14 +41,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781748698000,
       "pub": "Thu, 18 Jun 2026 11:11:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "KB운용 '삼성전자SK하이닉스채권혼합50' ETF 순자산 4조원 넘어",
-      "link": "https://www.yna.co.kr/view/AKR20260618072600008",
-      "source": "연합뉴스 경제",
-      "ts": 1781747343000,
-      "pub": "Thu, 18 Jun 2026 10:49:03 +0900",
       "sentiment": "neutral"
     }
   ]

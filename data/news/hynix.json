@@ -1,15 +1,39 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-18T20:08:27.314Z",
+  "updated_at": "2026-06-18T22:50:30.104Z",
   "count": 5,
   "items": [
     {
-      "title": "[급등수사본부] 마이크론 HBM 생산라인 납품 부각 '아이엠티' vs 유전체 분석 전문 바이오기업 '제이에스링크'",
-      "link": "https://www.mt.co.kr/stock/2026/06/18/2026061818537029859",
-      "source": "머니투데이",
-      "ts": 1781777434000,
-      "pub": "Thu, 18 Jun 2026 19:10:34 +0900",
+      "title": "아마존, AI 칩 외부 판매 추진…엔비디아 아성 도전",
+      "link": "https://www.yna.co.kr/view/AKR20260619013100009",
+      "source": "연합뉴스 국제",
+      "ts": 1781820013000,
+      "pub": "Fri, 19 Jun 2026 07:00:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'호재 만발' SK하이닉스, 시총 1위 넘보는데…향후 변수는? [종목+]",
+      "link": "https://www.hankyung.com/article/2026061853056",
+      "source": "한국경제",
+      "ts": 1781818205000,
+      "pub": "Fri, 19 Jun 2026 06:30:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 반도체 랠리 재개에 강세 마감…나스닥 1.9%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260619005851072",
+      "source": "연합뉴스 국제",
+      "ts": 1781814965000,
+      "pub": "Fri, 19 Jun 2026 05:36:05 +0900",
       "sentiment": "positive"
+    },
+    {
+      "title": "뉴욕증시, 반도체 강세에 상승 마감…나스닥 1.9%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260619005800072",
+      "source": "연합뉴스 국제",
+      "ts": 1781813343000,
+      "pub": "Fri, 19 Jun 2026 05:09:03 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "[특징주] SK하이닉스, 사상 첫 270만닉스…삼전도 4.6% 상승마감(종합)",
@@ -17,30 +41,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781766107000,
       "pub": "Thu, 18 Jun 2026 16:01:47 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "대만, 韓 차세대 전력반도체 개발 가속에 \"R&D 예산 늘려야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618104800009",
-      "source": "연합뉴스 국제",
-      "ts": 1781760400000,
-      "pub": "Thu, 18 Jun 2026 14:26:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "대만 TSMC, 앰코와 10년 장기계약…미국 공급망 구축 속도",
-      "link": "https://www.yna.co.kr/view/AKR20260618092200009",
-      "source": "연합뉴스 국제",
-      "ts": 1781758762000,
-      "pub": "Thu, 18 Jun 2026 13:59:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "제주도, 감귤·돼지고기 대신 반도체 '훨훨'…수출액 384% 급등",
-      "link": "https://www.yna.co.kr/view/AKR20260618078300056",
-      "source": "연합뉴스 경제",
-      "ts": 1781748966000,
-      "pub": "Thu, 18 Jun 2026 11:16:06 +0900",
       "sentiment": "positive"
     }
   ]

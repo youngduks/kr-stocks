@@ -1,8 +1,104 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-19T11:12:15.305Z",
-  "count": 25,
+  "updated_at": "2026-06-19T14:39:13.415Z",
+  "count": 35,
   "items": [
+    {
+      "title": "트럼프 1기 에너지장관 \"MOU, 이란에 엄청난 도움…이란에 관대\"",
+      "link": "https://www.yna.co.kr/view/AKR20260619169600071",
+      "source": "연합뉴스 국제",
+      "ts": 1781878862000,
+      "pub": "Fri, 19 Jun 2026 23:21:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 '사진 애원' 주장에…멜로니 \"날조된 얘기\" 반박",
+      "link": "https://www.hankyung.com/article/2026061976967",
+      "source": "한국경제",
+      "ts": 1781877467000,
+      "pub": "Fri, 19 Jun 2026 22:57:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"멜로니가 사진 찍어달라 애원\"…멜로니 \"날조된 얘기\"",
+      "link": "https://www.yna.co.kr/view/AKR20260619168400109",
+      "source": "연합뉴스 국제",
+      "ts": 1781876484000,
+      "pub": "Fri, 19 Jun 2026 22:41:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미국 \"이스라엘·헤즈볼라 휴전 합의...19일 오후 4시 발효\"",
+      "link": "https://www.mt.co.kr/stock/2026/06/19/2026061922274975440",
+      "source": "머니투데이",
+      "ts": 1781876165000,
+      "pub": "Fri, 19 Jun 2026 22:36:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"무력충돌 이스라엘-헤즈볼라, 美·카타르 중재로 휴전 합의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260619168900079",
+      "source": "연합뉴스 국제",
+      "ts": 1781876118000,
+      "pub": "Fri, 19 Jun 2026 22:35:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"절박했던 건 미국 아닌 이란\"…트럼프, 종전 합의 비판 정면 반박",
+      "link": "https://www.hankyung.com/article/2026061976787",
+      "source": "한국경제",
+      "ts": 1781875934000,
+      "pub": "Fri, 19 Jun 2026 22:32:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란, 이스라엘의 레바논 공습 규탄…\"책임은 미국에\"",
+      "link": "https://www.yna.co.kr/view/AKR20260619168200079",
+      "source": "연합뉴스 국제",
+      "ts": 1781874644000,
+      "pub": "Fri, 19 Jun 2026 22:10:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"절박했던 건 미국 아닌 이란…60일 끝까지 지켜보겠다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260619168300071",
+      "source": "연합뉴스 국제",
+      "ts": 1781874388000,
+      "pub": "Fri, 19 Jun 2026 22:06:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 강경 매체들 \"이스라엘 휴전 위반…호르무즈 재봉쇄해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260619167900009",
+      "source": "연합뉴스 국제",
+      "ts": 1781873458000,
+      "pub": "Fri, 19 Jun 2026 21:50:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "1470만 달러짜리 '녹조라떼'…트럼프 야심작의 민낯",
+      "link": "https://www.hankyung.com/article/2026061976317",
+      "source": "한국경제",
+      "ts": 1781871858000,
+      "pub": "Fri, 19 Jun 2026 21:24:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프가 눈독 들인 그린란드…노르웨이도 총영사관 개설",
+      "link": "https://www.yna.co.kr/view/AKR20260619165900098",
+      "source": "연합뉴스 국제",
+      "ts": 1781871357000,
+      "pub": "Fri, 19 Jun 2026 21:15:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미·이란 협상, 이스라엘·헤즈볼라 무력충돌 격화에 '급제동'(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260619145951079",
+      "source": "연합뉴스 국제",
+      "ts": 1781869833000,
+      "pub": "Fri, 19 Jun 2026 20:50:33 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"트럼프, 고유가 겁먹어 이란과 합의\"…미국 유력지들 일제히 비판",
       "link": "https://www.yna.co.kr/view/AKR20260619159600009",
@@ -20,27 +116,35 @@
       "sentiment": "neutral"
     },
     {
-      "title": "李대통령 \"대북 제재 실효성 없다는 점, 트럼프도 공감했다\"",
-      "link": "https://www.hankyung.com/article/2026061974701",
-      "source": "한국경제",
-      "ts": 1781859523000,
-      "pub": "Fri, 19 Jun 2026 17:58:43 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "李 \"트럼프, 北核 해법 묻고 美군함 10척 빠른 건조 요청\"",
-      "link": "https://www.hankyung.com/article/2026061974781",
-      "source": "한국경제",
-      "ts": 1781859133000,
-      "pub": "Fri, 19 Jun 2026 17:52:13 +0900",
+      "title": "美·이란 19일 스위스 회담 무산…이스라엘 레바논 공습이 원인?",
+      "link": "https://www.mt.co.kr/world/2026/06/19/2026061917361175042",
+      "source": "머니투데이",
+      "ts": 1781858942000,
+      "pub": "Fri, 19 Jun 2026 17:49:02 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"이란의 무조건적인 항복\"…트럼프 정부, 협상결과 방어 '진땀' [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202606197351i",
-      "source": "한국경제",
-      "ts": 1781858865000,
-      "pub": "Fri, 19 Jun 2026 17:47:45 +0900",
+      "title": "\"살 빼야\" 의사 권고...트럼프도 못 피한 '급찐살' 경고, 이유 있었다",
+      "link": "https://www.mt.co.kr/thebio/2026/06/19/2026061915112929881",
+      "source": "머니투데이",
+      "ts": 1781857740000,
+      "pub": "Fri, 19 Jun 2026 17:29:00 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "매파적 연준에 달러 가치 13개월만에 최고…인플레이션이 변수",
+      "link": "https://www.mt.co.kr/world/2026/06/19/2026061917042241237",
+      "source": "머니투데이",
+      "ts": 1781857114000,
+      "pub": "Fri, 19 Jun 2026 17:18:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"정상회담보다 나았다\"…李대통령이 공개한 트럼프와 '90분 대화'",
+      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061916440020909",
+      "source": "머니투데이",
+      "ts": 1781856649000,
+      "pub": "Fri, 19 Jun 2026 17:10:49 +0900",
       "sentiment": "neutral"
     },
     {
@@ -49,6 +153,14 @@
       "source": "연합뉴스 국제",
       "ts": 1781856637000,
       "pub": "Fri, 19 Jun 2026 17:10:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "종전에 뜨고 연준에 눌린 비트코인…6만2000달러 제자리걸음",
+      "link": "https://www.mt.co.kr/stock/2026/06/19/2026061916542498117",
+      "source": "머니투데이",
+      "ts": 1781856101000,
+      "pub": "Fri, 19 Jun 2026 17:01:41 +0900",
       "sentiment": "neutral"
     },
     {
@@ -169,38 +281,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781821895000,
       "pub": "Fri, 19 Jun 2026 07:31:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美당국자 \"北비핵화, 트럼프 정부 정책 우선순위서 매우 높아\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260619005351071",
-      "source": "연합뉴스 국제",
-      "ts": 1781817258000,
-      "pub": "Fri, 19 Jun 2026 06:14:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "주유엔 이스라엘 대사 \"미·이란 협상 시작일 뿐…트럼프 신뢰\"",
-      "link": "https://www.yna.co.kr/view/AKR20260619006600072",
-      "source": "연합뉴스 국제",
-      "ts": 1781814461000,
-      "pub": "Fri, 19 Jun 2026 05:27:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"오바마보다 더 퍼준다\"…이란과 MOU로 궁지 몰리는 트럼프",
-      "link": "https://www.yna.co.kr/view/AKR20260619005400071",
-      "source": "연합뉴스 국제",
-      "ts": 1781812885000,
-      "pub": "Fri, 19 Jun 2026 05:01:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美당국자 \"北비핵화, 트럼프 정부 정책 우선순위서 매우 높아\"",
-      "link": "https://www.yna.co.kr/view/AKR20260619005300071",
-      "source": "연합뉴스 국제",
-      "ts": 1781811462000,
-      "pub": "Fri, 19 Jun 2026 04:37:42 +0900",
       "sentiment": "neutral"
     }
   ]

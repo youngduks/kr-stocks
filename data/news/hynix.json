@@ -1,22 +1,54 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-18T22:50:30.104Z",
-  "count": 5,
+  "updated_at": "2026-06-19T00:19:01.397Z",
+  "count": 9,
   "items": [
+    {
+      "title": "인텔, SK하이닉스 사장 출신 이석희 영입",
+      "link": "https://www.yna.co.kr/view/AKR20260619030900009",
+      "source": "연합뉴스 국제",
+      "ts": 1781827794000,
+      "pub": "Fri, 19 Jun 2026 09:09:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 “인텔 지원”...美 반도체주 '불기둥' 기세 주목",
+      "link": "https://www.hankyung.com/article/202606195623i",
+      "source": "한국경제",
+      "ts": 1781826364000,
+      "pub": "Fri, 19 Jun 2026 08:46:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이석희 前 SK하이닉스 CEO, 인텔 파운드리 합류",
+      "link": "https://www.hankyung.com/article/202606195720i",
+      "source": "한국경제",
+      "ts": 1781825193000,
+      "pub": "Fri, 19 Jun 2026 08:26:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체가 끌어올린 美증시…나스닥 1.9% 급등",
+      "link": "https://www.hankyung.com/article/202606195657i",
+      "source": "한국경제",
+      "ts": 1781824273000,
+      "pub": "Fri, 19 Jun 2026 08:11:13 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "AI가 쓸어간 반도체…아이폰·갤럭시 가격 밀어 올린다 [프라이스&]",
+      "link": "https://www.hankyung.com/article/202606185278i",
+      "source": "한국경제",
+      "ts": 1781823616000,
+      "pub": "Fri, 19 Jun 2026 08:00:16 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "아마존, AI 칩 외부 판매 추진…엔비디아 아성 도전",
       "link": "https://www.yna.co.kr/view/AKR20260619013100009",
       "source": "연합뉴스 국제",
       "ts": 1781820013000,
       "pub": "Fri, 19 Jun 2026 07:00:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'호재 만발' SK하이닉스, 시총 1위 넘보는데…향후 변수는? [종목+]",
-      "link": "https://www.hankyung.com/article/2026061853056",
-      "source": "한국경제",
-      "ts": 1781818205000,
-      "pub": "Fri, 19 Jun 2026 06:30:05 +0900",
       "sentiment": "neutral"
     },
     {

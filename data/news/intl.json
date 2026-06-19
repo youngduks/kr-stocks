@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-18T22:50:30.102Z",
-  "count": 29,
+  "updated_at": "2026-06-19T00:19:01.395Z",
+  "count": 27,
   "items": [
+    {
+      "title": "트럼프 “인텔 지원”...美 반도체주 '불기둥' 기세 주목",
+      "link": "https://www.hankyung.com/article/202606195623i",
+      "source": "한국경제",
+      "ts": 1781826364000,
+      "pub": "Fri, 19 Jun 2026 08:46:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李 대통령, 순방 성과 직접 브리핑…트럼프 90분 대화 내용 주목",
+      "link": "https://www.hankyung.com/article/2026061957537",
+      "source": "한국경제",
+      "ts": 1781825263000,
+      "pub": "Fri, 19 Jun 2026 08:27:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[외신 에스프레소]Fed 금리 동결했지만…다음 수는 인상 쪽으로",
+      "link": "https://www.hankyung.com/article/202606195734i",
+      "source": "한국경제",
+      "ts": 1781824555000,
+      "pub": "Fri, 19 Jun 2026 08:15:55 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "핵보유 않겠단 이란, 北 전철 밟을까…물어보니 답 피한 트럼프",
       "link": "https://www.yna.co.kr/view/AKR20260619017100071",
@@ -68,14 +92,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[속보] 밴스 \"이란이 혜택 받는다는 인식 잘못…이란, 당장 핵무기 만들 능력 없어\"",
-      "link": "https://www.hankyung.com/article/202606195477i",
-      "source": "한국경제",
-      "ts": 1781797806000,
-      "pub": "Fri, 19 Jun 2026 00:50:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "러 외무 \"우크라군 표적 겨냥해 대규모 공습 예정\"",
       "link": "https://www.yna.co.kr/view/AKR20260619000400108",
       "source": "연합뉴스 국제",
@@ -108,28 +124,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"모스크바도 불탈 것\"…우크라, 개전 후 최대 규모 드론 공습",
-      "link": "https://www.hankyung.com/article/2026061854447",
-      "source": "한국경제",
-      "ts": 1781789175000,
-      "pub": "Thu, 18 Jun 2026 22:26:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프식 나토 재편 본격화…\"유럽 주둔 미군 6개월간 재검토\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260618152351098",
       "source": "연합뉴스 국제",
       "ts": 1781781831000,
       "pub": "Thu, 18 Jun 2026 20:23:51 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 인텔 '애플칩 생산' 공식화…시간외 급등",
-      "link": "https://www.hankyung.com/article/2026061853291",
-      "source": "한국경제",
-      "ts": 1781779969000,
-      "pub": "Thu, 18 Jun 2026 19:52:49 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "\"철수 안해\" 이스라엘군, 레바논 남부 주둔군 최신 지도 공개",
@@ -209,22 +209,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781767801000,
       "pub": "Thu, 18 Jun 2026 16:30:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"애플, 인텔과 협력해 미국서 칩 생산하기로\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618115300009",
-      "source": "연합뉴스 국제",
-      "ts": 1781763540000,
-      "pub": "Thu, 18 Jun 2026 15:19:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 계좌 개설 논란…美은행 전 임원 \"문제 제기하자 해고\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618119700009",
-      "source": "연합뉴스 국제",
-      "ts": 1781763367000,
-      "pub": "Thu, 18 Jun 2026 15:16:07 +0900",
       "sentiment": "neutral"
     },
     {

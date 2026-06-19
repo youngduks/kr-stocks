@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-19T19:23:12.387Z",
-  "count": 35,
+  "updated_at": "2026-06-19T20:59:54.994Z",
+  "count": 33,
   "items": [
+    {
+      "title": "트럼프, 주말 캠프 데이비드행…'이란 MOU 대책' 논의할 듯",
+      "link": "https://www.yna.co.kr/view/AKR20260620002800071",
+      "source": "연합뉴스 국제",
+      "ts": 1781897343000,
+      "pub": "Sat, 20 Jun 2026 04:29:03 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美언론 \"트럼프, 이스라엘측과 통화해 헤즈볼라와 휴전 요구\"",
       "link": "https://www.yna.co.kr/view/AKR20260620002400071",
@@ -156,22 +164,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"살 빼야\" 의사 권고...트럼프도 못 피한 '급찐살' 경고, 이유 있었다",
-      "link": "https://www.mt.co.kr/thebio/2026/06/19/2026061915112929881",
-      "source": "머니투데이",
-      "ts": 1781857740000,
-      "pub": "Fri, 19 Jun 2026 17:29:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "매파적 연준에 달러 가치 13개월만에 최고…인플레이션이 변수",
-      "link": "https://www.mt.co.kr/world/2026/06/19/2026061917042241237",
-      "source": "머니투데이",
-      "ts": 1781857114000,
-      "pub": "Fri, 19 Jun 2026 17:18:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"北에 관심 가질 때\"…李대통령의 단계적 비핵화 모색하나",
       "link": "https://www.yna.co.kr/view/AKR20260619142000504",
       "source": "연합뉴스 국제",
@@ -273,14 +265,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781830897000,
       "pub": "Fri, 19 Jun 2026 10:01:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"세계경제공황 막기위해 이란과 합의…내권력 한계없다\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260619003851071",
-      "source": "연합뉴스 국제",
-      "ts": 1781828797000,
-      "pub": "Fri, 19 Jun 2026 09:26:37 +0900",
       "sentiment": "neutral"
     }
   ]

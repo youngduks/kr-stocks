@@ -1,14 +1,38 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-19T06:06:31.364Z",
-  "count": 6,
+  "updated_at": "2026-06-19T11:12:15.307Z",
+  "count": 8,
   "items": [
     {
-      "title": "[속보]李대통령 \"교황, 갤럭시 쓰고 현대차 탄다고 해…각별한 관심\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061914335461484",
-      "source": "머니투데이",
-      "ts": 1781847287000,
-      "pub": "Fri, 19 Jun 2026 14:34:47 +0900",
+      "title": "\"갤럭시 쓰고 현대차 타는 교황\"…레오 14세의 남다른 한국 사랑",
+      "link": "https://www.yna.co.kr/view/AKR20260619157300109",
+      "source": "연합뉴스 국제",
+      "ts": 1781864892000,
+      "pub": "Fri, 19 Jun 2026 19:28:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전 상승률 추월…'1등주' 넘보는 하이닉스",
+      "link": "https://www.hankyung.com/article/2026061973941",
+      "source": "한국경제",
+      "ts": 1781859339000,
+      "pub": "Fri, 19 Jun 2026 17:55:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 하닉, '280만닉스' 터치후 오름폭 반납…삼전은 2.3%↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260619044651008",
+      "source": "연합뉴스 경제",
+      "ts": 1781853265000,
+      "pub": "Fri, 19 Jun 2026 16:14:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "막강 자금력 애플도 메모리칩 품귀에 굴욕",
+      "link": "https://www.yna.co.kr/view/AKR20260619112800009",
+      "source": "연합뉴스 국제",
+      "ts": 1781850584000,
+      "pub": "Fri, 19 Jun 2026 15:29:44 +0900",
       "sentiment": "neutral"
     },
     {
@@ -17,14 +41,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781836473000,
       "pub": "Fri, 19 Jun 2026 11:34:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피 9300 직행…1% 초고수는 삼전닉스 보다 현대차 더 담았다",
-      "link": "https://www.hankyung.com/article/202606196306i",
-      "source": "한국경제",
-      "ts": 1781834408000,
-      "pub": "Fri, 19 Jun 2026 11:00:08 +0900",
       "sentiment": "neutral"
     },
     {

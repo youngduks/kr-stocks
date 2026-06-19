@@ -1,14 +1,78 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-19T06:06:31.362Z",
-  "count": 33,
+  "updated_at": "2026-06-19T11:12:15.305Z",
+  "count": 25,
   "items": [
     {
-      "title": "[속보]李대통령 \"방위 스스로 책임, 전작권 왜 미국이 갖느냐…너무 당연해 트럼프에 일부러 얘기 안해\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061914452725079",
-      "source": "머니투데이",
-      "ts": 1781847986000,
-      "pub": "Fri, 19 Jun 2026 14:46:26 +0900",
+      "title": "\"트럼프, 고유가 겁먹어 이란과 합의\"…미국 유력지들 일제히 비판",
+      "link": "https://www.yna.co.kr/view/AKR20260619159600009",
+      "source": "연합뉴스 국제",
+      "ts": 1781864908000,
+      "pub": "Fri, 19 Jun 2026 19:28:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뻔뻔한 트럼프 \"세계 대공황 막기 위해 이란과 종전 합의\"",
+      "link": "https://www.hankyung.com/article/2026061974381",
+      "source": "한국경제",
+      "ts": 1781860869000,
+      "pub": "Fri, 19 Jun 2026 18:21:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李대통령 \"대북 제재 실효성 없다는 점, 트럼프도 공감했다\"",
+      "link": "https://www.hankyung.com/article/2026061974701",
+      "source": "한국경제",
+      "ts": 1781859523000,
+      "pub": "Fri, 19 Jun 2026 17:58:43 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "李 \"트럼프, 北核 해법 묻고 美군함 10척 빠른 건조 요청\"",
+      "link": "https://www.hankyung.com/article/2026061974781",
+      "source": "한국경제",
+      "ts": 1781859133000,
+      "pub": "Fri, 19 Jun 2026 17:52:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이란의 무조건적인 항복\"…트럼프 정부, 협상결과 방어 '진땀' [이상은의 워싱턴나우]",
+      "link": "https://www.hankyung.com/article/202606197351i",
+      "source": "한국경제",
+      "ts": 1781858865000,
+      "pub": "Fri, 19 Jun 2026 17:47:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"北에 관심 가질 때\"…李대통령의 단계적 비핵화 모색하나",
+      "link": "https://www.yna.co.kr/view/AKR20260619142000504",
+      "source": "연합뉴스 국제",
+      "ts": 1781856637000,
+      "pub": "Fri, 19 Jun 2026 17:10:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[쇼츠] 러 전자전 먹통 만드는 우크라 신무기 공개",
+      "link": "https://www.yna.co.kr/view/AKR20260619140000704",
+      "source": "연합뉴스 국제",
+      "ts": 1781855608000,
+      "pub": "Fri, 19 Jun 2026 16:53:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 18㎞ 상공 기구서 발사…우크라, '전자전 무력화' 미사일 공개",
+      "link": "https://www.yna.co.kr/view/AKR20260619128300704",
+      "source": "연합뉴스 국제",
+      "ts": 1781854018000,
+      "pub": "Fri, 19 Jun 2026 16:26:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 레바논 공습에…미·이란, 첫 후속협상부터 '삐걱'",
+      "link": "https://www.yna.co.kr/view/AKR20260619114000009",
+      "source": "연합뉴스 국제",
+      "ts": 1781850721000,
+      "pub": "Fri, 19 Jun 2026 15:32:01 +0900",
       "sentiment": "neutral"
     },
     {
@@ -17,62 +81,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781847178000,
       "pub": "Fri, 19 Jun 2026 14:32:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]李대통령, 트럼프에 \"다른나라 대하는 방식으로 북핵 문제 접근하면 안돼\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061914205692092",
-      "source": "머니투데이",
-      "ts": 1781846514000,
-      "pub": "Fri, 19 Jun 2026 14:21:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]李대통령 \"트럼프, G7 첫 행사 기념촬영 때 '북한 문제 어떻게 돼가요' 물어\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061914182042829",
-      "source": "머니투데이",
-      "ts": 1781846380000,
-      "pub": "Fri, 19 Jun 2026 14:19:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]李대통령 \"트럼프에 한반도 긴장 완화·평화 정착 역할 재차 당부\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061914171097654",
-      "source": "머니투데이",
-      "ts": 1781846270000,
-      "pub": "Fri, 19 Jun 2026 14:17:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]李대통령 \"마크롱, G7 만찬서 트럼프와 자리 붙였다고 해…감사드린다\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061914154238911",
-      "source": "머니투데이",
-      "ts": 1781846179000,
-      "pub": "Fri, 19 Jun 2026 14:16:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]李대통령 \"트럼프 한미·한미일 협력 중요성 거론…공감 표명\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061914133042203",
-      "source": "머니투데이",
-      "ts": 1781846044000,
-      "pub": "Fri, 19 Jun 2026 14:14:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]李대통령 \"트럼프, 군함 10척 빠르게 건조 가능하냐 질문…가능하다고 답해\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061914121213828",
-      "source": "머니투데이",
-      "ts": 1781845974000,
-      "pub": "Fri, 19 Jun 2026 14:12:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]李대통령 \"EU 방문은 철강 관세할당제도 발효 때문…전략적 파트너 韓 각별한 배려 당부\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061914093289351",
-      "source": "머니투데이",
-      "ts": 1781845809000,
-      "pub": "Fri, 19 Jun 2026 14:10:09 +0900",
       "sentiment": "neutral"
     },
     {
@@ -114,14 +122,6 @@
       "ts": 1781835356000,
       "pub": "Fri, 19 Jun 2026 11:15:56 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "Fed 매파적 행보에 1540원 재돌파한 환율",
-      "link": "https://www.hankyung.com/article/202606196333i",
-      "source": "한국경제",
-      "ts": 1781834197000,
-      "pub": "Fri, 19 Jun 2026 10:56:37 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "\"부적격자 美시민권 박탈해라\"…트럼프 행정부 소송 건수 급증",
@@ -201,70 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781811462000,
       "pub": "Fri, 19 Jun 2026 04:37:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"헤즈볼라·이스라엘 포함 모든 전선에서 휴전 기대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260619003800071",
-      "source": "연합뉴스 국제",
-      "ts": 1781808014000,
-      "pub": "Fri, 19 Jun 2026 03:40:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "G7 지원 확인한 우크라…\"모스크바 겨냥 2년만에 최대 공격\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260618144151109",
-      "source": "연합뉴스 국제",
-      "ts": 1781799815000,
-      "pub": "Fri, 19 Jun 2026 01:23:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러 외무 \"우크라군 표적 겨냥해 대규모 공습 예정\"",
-      "link": "https://www.yna.co.kr/view/AKR20260619000400108",
-      "source": "연합뉴스 국제",
-      "ts": 1781797093000,
-      "pub": "Fri, 19 Jun 2026 00:38:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "MOU서명후 엇갈린 풍경…트럼프 '비판 방어', 이란대통령 '인증샷'",
-      "link": "https://www.yna.co.kr/view/AKR20260619000900071",
-      "source": "연합뉴스 국제",
-      "ts": 1781796839000,
-      "pub": "Fri, 19 Jun 2026 00:33:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"프린터 구해줘\"…종전 MOU 서명, 트럼프의 '베르사유 깜짝쇼'",
-      "link": "https://www.yna.co.kr/view/AKR20260618175400081",
-      "source": "연합뉴스 국제",
-      "ts": 1781795362000,
-      "pub": "Fri, 19 Jun 2026 00:09:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "푸틴 \"미·이란 종전 합의 환영, 중동 정세 안정되길\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618174100108",
-      "source": "연합뉴스 국제",
-      "ts": 1781789849000,
-      "pub": "Thu, 18 Jun 2026 22:37:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프식 나토 재편 본격화…\"유럽 주둔 미군 6개월간 재검토\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260618152351098",
-      "source": "연합뉴스 국제",
-      "ts": 1781781831000,
-      "pub": "Thu, 18 Jun 2026 20:23:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"철수 안해\" 이스라엘군, 레바논 남부 주둔군 최신 지도 공개",
-      "link": "https://www.yna.co.kr/view/AKR20260618167000079",
-      "source": "연합뉴스 국제",
-      "ts": 1781779719000,
-      "pub": "Thu, 18 Jun 2026 19:48:39 +0900",
       "sentiment": "neutral"
     }
   ]

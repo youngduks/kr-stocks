@@ -1,30 +1,70 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-19T06:06:31.365Z",
-  "count": 12,
+  "updated_at": "2026-06-19T11:12:15.307Z",
+  "count": 17,
   "items": [
+    {
+      "title": "신현송 총재 \"반도체 호황이 낮은 성장률·중립금리 바꿀 수도\"",
+      "link": "https://www.hankyung.com/article/202606197525i",
+      "source": "한국경제",
+      "ts": 1781862323000,
+      "pub": "Fri, 19 Jun 2026 18:45:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"인프라 투자·제2 반도체 발굴…초과세수로 'AI 세상' 대비해야\"",
+      "link": "https://www.hankyung.com/article/2026061974731",
+      "source": "한국경제",
+      "ts": 1781860089000,
+      "pub": "Fri, 19 Jun 2026 18:08:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전 상승률 추월…'1등주' 넘보는 하이닉스",
+      "link": "https://www.hankyung.com/article/2026061973941",
+      "source": "한국경제",
+      "ts": 1781859339000,
+      "pub": "Fri, 19 Jun 2026 17:55:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 시총 2000조 돌파",
+      "link": "https://www.hankyung.com/article/2026061974761",
+      "source": "한국경제",
+      "ts": 1781859302000,
+      "pub": "Fri, 19 Jun 2026 17:55:02 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "반도체發 '슈퍼 모멘텀'…이번에는 진짜 다를까",
+      "link": "https://www.hankyung.com/article/2026061974791",
+      "source": "한국경제",
+      "ts": 1781858934000,
+      "pub": "Fri, 19 Jun 2026 17:48:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "국내증시 장중 시총 첫 8천조·하이닉스 2천조 돌파 후 후퇴(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260619044752008",
+      "source": "연합뉴스 경제",
+      "ts": 1781853601000,
+      "pub": "Fri, 19 Jun 2026 16:20:01 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "막강 자금력 애플도 메모리칩 품귀에 굴욕",
+      "link": "https://www.yna.co.kr/view/AKR20260619112800009",
+      "source": "연합뉴스 국제",
+      "ts": 1781850584000,
+      "pub": "Fri, 19 Jun 2026 15:29:44 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[시간들] SK하이닉스의 학력폐지가 마냥 반갑지 않은 까닭",
       "link": "https://www.yna.co.kr/view/AKR20260619090300546",
       "source": "연합뉴스 경제",
       "ts": 1781847310000,
       "pub": "Fri, 19 Jun 2026 14:35:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "ACE 글로벌반도체TOP4 Plus, 10만원 돌파…반도체ETF 중 최단기",
-      "link": "https://www.mt.co.kr/stock/2026/06/19/2026061914065426073",
-      "source": "머니투데이",
-      "ts": 1781845974000,
-      "pub": "Fri, 19 Jun 2026 14:12:54 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "엠케이전자, 동부엔텍 매각…반도체 소부장 사업 집중 선언",
-      "link": "https://www.mt.co.kr/stock/2026/06/19/2026061913581711191",
-      "source": "머니투데이",
-      "ts": 1781845613000,
-      "pub": "Fri, 19 Jun 2026 14:06:53 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-19T14:39:13.417Z",
+  "updated_at": "2026-06-19T17:10:24.157Z",
   "count": 11,
   "items": [
+    {
+      "title": "[포토] 美 테크 콘퍼런스 참가한 SK하이닉스",
+      "link": "https://www.hankyung.com/article/2026061974231",
+      "source": "한국경제",
+      "ts": 1781883033000,
+      "pub": "Sat, 20 Jun 2026 00:30:33 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "신현송 총재 \"반도체 호황이 낮은 성장률·중립금리 바꿀 수도\"",
       "link": "https://www.hankyung.com/article/202606197525i",
@@ -81,14 +89,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781827794000,
       "pub": "Fri, 19 Jun 2026 09:09:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "아마존, AI 칩 외부 판매 추진…엔비디아 아성 도전",
-      "link": "https://www.yna.co.kr/view/AKR20260619013100009",
-      "source": "연합뉴스 국제",
-      "ts": 1781820013000,
-      "pub": "Fri, 19 Jun 2026 07:00:13 +0900",
       "sentiment": "neutral"
     }
   ]

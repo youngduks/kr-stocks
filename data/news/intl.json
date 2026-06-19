@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-19T14:39:13.415Z",
-  "count": 35,
+  "updated_at": "2026-06-19T17:10:24.154Z",
+  "count": 28,
   "items": [
+    {
+      "title": "오바마 \"상황 이란전쟁 이전과 같거나 더 나빠\"…트럼프에 반격",
+      "link": "https://www.yna.co.kr/view/AKR20260620000800071",
+      "source": "연합뉴스 국제",
+      "ts": 1781885894000,
+      "pub": "Sat, 20 Jun 2026 01:18:14 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 1기 에너지장관 \"MOU, 이란에 엄청난 도움…이란에 관대\"",
       "link": "https://www.yna.co.kr/view/AKR20260619169600071",
@@ -25,14 +33,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781876484000,
       "pub": "Fri, 19 Jun 2026 22:41:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미국 \"이스라엘·헤즈볼라 휴전 합의...19일 오후 4시 발효\"",
-      "link": "https://www.mt.co.kr/stock/2026/06/19/2026061922274975440",
-      "source": "머니투데이",
-      "ts": 1781876165000,
-      "pub": "Fri, 19 Jun 2026 22:36:05 +0900",
       "sentiment": "neutral"
     },
     {
@@ -116,51 +116,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "美·이란 19일 스위스 회담 무산…이스라엘 레바논 공습이 원인?",
-      "link": "https://www.mt.co.kr/world/2026/06/19/2026061917361175042",
-      "source": "머니투데이",
-      "ts": 1781858942000,
-      "pub": "Fri, 19 Jun 2026 17:49:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"살 빼야\" 의사 권고...트럼프도 못 피한 '급찐살' 경고, 이유 있었다",
-      "link": "https://www.mt.co.kr/thebio/2026/06/19/2026061915112929881",
-      "source": "머니투데이",
-      "ts": 1781857740000,
-      "pub": "Fri, 19 Jun 2026 17:29:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "매파적 연준에 달러 가치 13개월만에 최고…인플레이션이 변수",
-      "link": "https://www.mt.co.kr/world/2026/06/19/2026061917042241237",
-      "source": "머니투데이",
-      "ts": 1781857114000,
-      "pub": "Fri, 19 Jun 2026 17:18:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"정상회담보다 나았다\"…李대통령이 공개한 트럼프와 '90분 대화'",
-      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061916440020909",
-      "source": "머니투데이",
-      "ts": 1781856649000,
-      "pub": "Fri, 19 Jun 2026 17:10:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"北에 관심 가질 때\"…李대통령의 단계적 비핵화 모색하나",
       "link": "https://www.yna.co.kr/view/AKR20260619142000504",
       "source": "연합뉴스 국제",
       "ts": 1781856637000,
       "pub": "Fri, 19 Jun 2026 17:10:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "종전에 뜨고 연준에 눌린 비트코인…6만2000달러 제자리걸음",
-      "link": "https://www.mt.co.kr/stock/2026/06/19/2026061916542498117",
-      "source": "머니투데이",
-      "ts": 1781856101000,
-      "pub": "Fri, 19 Jun 2026 17:01:41 +0900",
       "sentiment": "neutral"
     },
     {
@@ -265,22 +225,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781828797000,
       "pub": "Fri, 19 Jun 2026 09:26:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "핵보유 않겠단 이란, 北 전철 밟을까…물어보니 답 피한 트럼프",
-      "link": "https://www.yna.co.kr/view/AKR20260619017100071",
-      "source": "연합뉴스 국제",
-      "ts": 1781822832000,
-      "pub": "Fri, 19 Jun 2026 07:47:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "MOU뒤 엇갈린 풍경…트럼프는 방어·이란은 과시 모드(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260619000951071",
-      "source": "연합뉴스 국제",
-      "ts": 1781821895000,
-      "pub": "Fri, 19 Jun 2026 07:31:35 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-19T17:10:24.154Z",
-  "count": 28,
+  "updated_at": "2026-06-19T19:23:12.387Z",
+  "count": 35,
   "items": [
+    {
+      "title": "美언론 \"트럼프, 이스라엘측과 통화해 헤즈볼라와 휴전 요구\"",
+      "link": "https://www.yna.co.kr/view/AKR20260620002400071",
+      "source": "연합뉴스 국제",
+      "ts": 1781893139000,
+      "pub": "Sat, 20 Jun 2026 03:18:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "달러-원, 이스라엘·헤즈볼라 휴전에 하락 후 되돌림…1,531원 마감",
+      "link": "https://www.yna.co.kr/view/AKR20260620002000002",
+      "source": "연합뉴스 경제",
+      "ts": 1781890971000,
+      "pub": "Sat, 20 Jun 2026 02:42:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미국·이란 후속협상 시작부터 삐걱…이스라엘, 레바논 공습에 발목",
+      "link": "https://www.mt.co.kr/world/2026/06/20/2026062002173463496",
+      "source": "머니투데이",
+      "ts": 1781889592000,
+      "pub": "Sat, 20 Jun 2026 02:19:52 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "오바마 \"상황 이란전쟁 이전과 같거나 더 나빠\"…트럼프에 반격",
       "link": "https://www.yna.co.kr/view/AKR20260620000800071",
@@ -33,6 +57,14 @@
       "source": "연합뉴스 국제",
       "ts": 1781876484000,
       "pub": "Fri, 19 Jun 2026 22:41:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미국 \"이스라엘·헤즈볼라 휴전 합의...19일 오후 4시 발효\"",
+      "link": "https://www.mt.co.kr/stock/2026/06/19/2026061922274975440",
+      "source": "머니투데이",
+      "ts": 1781876165000,
+      "pub": "Fri, 19 Jun 2026 22:36:05 +0900",
       "sentiment": "neutral"
     },
     {
@@ -113,6 +145,30 @@
       "source": "한국경제",
       "ts": 1781860869000,
       "pub": "Fri, 19 Jun 2026 18:21:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美·이란 19일 스위스 회담 무산…이스라엘 레바논 공습이 원인?",
+      "link": "https://www.mt.co.kr/world/2026/06/19/2026061917361175042",
+      "source": "머니투데이",
+      "ts": 1781858942000,
+      "pub": "Fri, 19 Jun 2026 17:49:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"살 빼야\" 의사 권고...트럼프도 못 피한 '급찐살' 경고, 이유 있었다",
+      "link": "https://www.mt.co.kr/thebio/2026/06/19/2026061915112929881",
+      "source": "머니투데이",
+      "ts": 1781857740000,
+      "pub": "Fri, 19 Jun 2026 17:29:00 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "매파적 연준에 달러 가치 13개월만에 최고…인플레이션이 변수",
+      "link": "https://www.mt.co.kr/world/2026/06/19/2026061917042241237",
+      "source": "머니투데이",
+      "ts": 1781857114000,
+      "pub": "Fri, 19 Jun 2026 17:18:34 +0900",
       "sentiment": "neutral"
     },
     {

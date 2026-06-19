@@ -1,30 +1,158 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-19T00:19:01.395Z",
-  "count": 27,
+  "updated_at": "2026-06-19T06:06:31.362Z",
+  "count": 33,
   "items": [
     {
-      "title": "트럼프 “인텔 지원”...美 반도체주 '불기둥' 기세 주목",
-      "link": "https://www.hankyung.com/article/202606195623i",
-      "source": "한국경제",
-      "ts": 1781826364000,
-      "pub": "Fri, 19 Jun 2026 08:46:04 +0900",
+      "title": "[속보]李대통령 \"방위 스스로 책임, 전작권 왜 미국이 갖느냐…너무 당연해 트럼프에 일부러 얘기 안해\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061914452725079",
+      "source": "머니투데이",
+      "ts": 1781847986000,
+      "pub": "Fri, 19 Jun 2026 14:46:26 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "李 대통령, 순방 성과 직접 브리핑…트럼프 90분 대화 내용 주목",
-      "link": "https://www.hankyung.com/article/2026061957537",
-      "source": "한국경제",
-      "ts": 1781825263000,
-      "pub": "Fri, 19 Jun 2026 08:27:43 +0900",
+      "title": "美 추가관세 앞둔 스리랑카 \"강제노동 상품 수입 걸러내겠다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260619099900009",
+      "source": "연합뉴스 국제",
+      "ts": 1781847178000,
+      "pub": "Fri, 19 Jun 2026 14:32:58 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[외신 에스프레소]Fed 금리 동결했지만…다음 수는 인상 쪽으로",
-      "link": "https://www.hankyung.com/article/202606195734i",
+      "title": "[속보]李대통령, 트럼프에 \"다른나라 대하는 방식으로 북핵 문제 접근하면 안돼\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061914205692092",
+      "source": "머니투데이",
+      "ts": 1781846514000,
+      "pub": "Fri, 19 Jun 2026 14:21:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]李대통령 \"트럼프, G7 첫 행사 기념촬영 때 '북한 문제 어떻게 돼가요' 물어\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061914182042829",
+      "source": "머니투데이",
+      "ts": 1781846380000,
+      "pub": "Fri, 19 Jun 2026 14:19:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]李대통령 \"트럼프에 한반도 긴장 완화·평화 정착 역할 재차 당부\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061914171097654",
+      "source": "머니투데이",
+      "ts": 1781846270000,
+      "pub": "Fri, 19 Jun 2026 14:17:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]李대통령 \"마크롱, G7 만찬서 트럼프와 자리 붙였다고 해…감사드린다\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061914154238911",
+      "source": "머니투데이",
+      "ts": 1781846179000,
+      "pub": "Fri, 19 Jun 2026 14:16:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]李대통령 \"트럼프 한미·한미일 협력 중요성 거론…공감 표명\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061914133042203",
+      "source": "머니투데이",
+      "ts": 1781846044000,
+      "pub": "Fri, 19 Jun 2026 14:14:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]李대통령 \"트럼프, 군함 10척 빠르게 건조 가능하냐 질문…가능하다고 답해\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061914121213828",
+      "source": "머니투데이",
+      "ts": 1781845974000,
+      "pub": "Fri, 19 Jun 2026 14:12:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]李대통령 \"EU 방문은 철강 관세할당제도 발효 때문…전략적 파트너 韓 각별한 배려 당부\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061914093289351",
+      "source": "머니투데이",
+      "ts": 1781845809000,
+      "pub": "Fri, 19 Jun 2026 14:10:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "백악관 \"밴스, 스위스行 연기\"…미·이란 후속협상 개시 지연(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260619079000009",
+      "source": "연합뉴스 국제",
+      "ts": 1781841163000,
+      "pub": "Fri, 19 Jun 2026 12:52:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "관세 부과에 대미 경상흑자 6년 만에 축소…중국엔 4년째 적자",
+      "link": "https://www.yna.co.kr/view/AKR20260619050200002",
+      "source": "연합뉴스 경제",
+      "ts": 1781838000000,
+      "pub": "Fri, 19 Jun 2026 12:00:00 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[영상] 우크라 드론에 처참히 뚫린 모스크바…공중 솟구친 정유소 뚜껑",
+      "link": "https://www.yna.co.kr/view/AKR20260619072100704",
+      "source": "연합뉴스 국제",
+      "ts": 1781836474000,
+      "pub": "Fri, 19 Jun 2026 11:34:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "상장 예고한 오픈AI, 트럼프 행정부 AI정책 짠 고문도 영입",
+      "link": "https://www.yna.co.kr/view/AKR20260619069000075",
+      "source": "연합뉴스 국제",
+      "ts": 1781835692000,
+      "pub": "Fri, 19 Jun 2026 11:21:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "백악관 \"밴스, 스위스行 연기\"…미·이란 후속협상 개시 지연",
+      "link": "https://www.yna.co.kr/view/AKR20260619068000009",
+      "source": "연합뉴스 국제",
+      "ts": 1781835356000,
+      "pub": "Fri, 19 Jun 2026 11:15:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Fed 매파적 행보에 1540원 재돌파한 환율",
+      "link": "https://www.hankyung.com/article/202606196333i",
       "source": "한국경제",
-      "ts": 1781824555000,
-      "pub": "Fri, 19 Jun 2026 08:15:55 +0900",
+      "ts": 1781834197000,
+      "pub": "Fri, 19 Jun 2026 10:56:37 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"부적격자 美시민권 박탈해라\"…트럼프 행정부 소송 건수 급증",
+      "link": "https://www.yna.co.kr/view/AKR20260619060800009",
+      "source": "연합뉴스 국제",
+      "ts": 1781833617000,
+      "pub": "Fri, 19 Jun 2026 10:46:57 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[속보] 백악관, 밴스 스위스行 연기…이란과 후속협상 개시 지연",
+      "link": "https://www.yna.co.kr/view/AKR20260619057800009",
+      "source": "연합뉴스 국제",
+      "ts": 1781832120000,
+      "pub": "Fri, 19 Jun 2026 10:22:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 미사일 오히려 용인한 트럼프…뒤통수 맞은 걸프국 황당",
+      "link": "https://www.yna.co.kr/view/AKR20260619049500009",
+      "source": "연합뉴스 국제",
+      "ts": 1781830897000,
+      "pub": "Fri, 19 Jun 2026 10:01:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"세계경제공황 막기위해 이란과 합의…내권력 한계없다\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260619003851071",
+      "source": "연합뉴스 국제",
+      "ts": 1781828797000,
+      "pub": "Fri, 19 Jun 2026 09:26:37 +0900",
       "sentiment": "neutral"
     },
     {
@@ -137,86 +265,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781779719000,
       "pub": "Thu, 18 Jun 2026 19:48:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘 외무 \"'아파르트헤이트' 비유 EU 외교수장과 단절\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618166300079",
-      "source": "연합뉴스 국제",
-      "ts": 1781778952000,
-      "pub": "Thu, 18 Jun 2026 19:35:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러·우크라, 교전 격화 속 전사자 시신 교환",
-      "link": "https://www.yna.co.kr/view/AKR20260618163700109",
-      "source": "연합뉴스 국제",
-      "ts": 1781777532000,
-      "pub": "Thu, 18 Jun 2026 19:12:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"다카이치에 이란전 군사 개입 타진…거절당해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618162500073",
-      "source": "연합뉴스 국제",
-      "ts": 1781776409000,
-      "pub": "Thu, 18 Jun 2026 18:53:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러 \"유럽, G7서 트럼프에 해로운 생각 주입\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618162300108",
-      "source": "연합뉴스 국제",
-      "ts": 1781775575000,
-      "pub": "Thu, 18 Jun 2026 18:39:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[월드&포토] 베르사유궁서 종전 MOU 서명한 트럼프…마크롱 \"브라보\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618157800081",
-      "source": "연합뉴스 국제",
-      "ts": 1781774776000,
-      "pub": "Thu, 18 Jun 2026 18:26:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"이스라엘, 레바논 투입 지상군 유지 위해 美와 완강한 협상\"",
-      "link": "https://www.yna.co.kr/view/AKR20260618159000079",
-      "source": "연합뉴스 국제",
-      "ts": 1781773698000,
-      "pub": "Thu, 18 Jun 2026 18:08:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "연준 금리인상 시사에도 日증시 'AI 훈풍'…종가 첫 71,000대",
-      "link": "https://www.yna.co.kr/view/AKR20260618145300073",
-      "source": "연합뉴스 국제",
-      "ts": 1781770641000,
-      "pub": "Thu, 18 Jun 2026 17:17:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "매파적 연준에 국고채 금리 동반 상승…3년물 연 3.750%(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260618146400008",
-      "source": "연합뉴스 경제",
-      "ts": 1781769235000,
-      "pub": "Thu, 18 Jun 2026 16:53:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "무역위원회, 태국산 동관 제품에 4.93∼8.41％ 반덤핑관세",
-      "link": "https://www.yna.co.kr/view/AKR20260618092400003",
-      "source": "연합뉴스 경제",
-      "ts": 1781767801000,
-      "pub": "Thu, 18 Jun 2026 16:30:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "aT, 농축산물 할당관세 전담기구 신설 추진…사후관리 강화",
-      "link": "https://www.yna.co.kr/view/AKR20260618113900030",
-      "source": "연합뉴스 경제",
-      "ts": 1781763096000,
-      "pub": "Thu, 18 Jun 2026 15:11:36 +0900",
       "sentiment": "neutral"
     }
   ]

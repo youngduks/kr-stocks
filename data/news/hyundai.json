@@ -1,6 +1,31 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-06-19T00:19:01.397Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-06-19T06:06:31.365Z",
+  "count": 3,
+  "items": [
+    {
+      "title": "[속보]李대통령 \"교황, 갤럭시 쓰고 현대차 탄다고 해…각별한 관심\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/19/2026061914335461484",
+      "source": "머니투데이",
+      "ts": 1781847287000,
+      "pub": "Fri, 19 Jun 2026 14:34:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대차 질주에 가려진 기아…증권가 \"재평가 가능성 주목\"",
+      "link": "https://www.hankyung.com/article/202606184856i",
+      "source": "한국경제",
+      "ts": 1781843402000,
+      "pub": "Fri, 19 Jun 2026 13:30:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피 9300 직행…1% 초고수는 삼전닉스 보다 현대차 더 담았다",
+      "link": "https://www.hankyung.com/article/202606196306i",
+      "source": "한국경제",
+      "ts": 1781834408000,
+      "pub": "Fri, 19 Jun 2026 11:00:08 +0900",
+      "sentiment": "neutral"
+    }
+  ]
 }

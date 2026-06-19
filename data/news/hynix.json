@@ -1,46 +1,78 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-19T00:19:01.397Z",
-  "count": 9,
+  "updated_at": "2026-06-19T06:06:31.365Z",
+  "count": 12,
   "items": [
+    {
+      "title": "[시간들] SK하이닉스의 학력폐지가 마냥 반갑지 않은 까닭",
+      "link": "https://www.yna.co.kr/view/AKR20260619090300546",
+      "source": "연합뉴스 경제",
+      "ts": 1781847310000,
+      "pub": "Fri, 19 Jun 2026 14:35:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "ACE 글로벌반도체TOP4 Plus, 10만원 돌파…반도체ETF 중 최단기",
+      "link": "https://www.mt.co.kr/stock/2026/06/19/2026061914065426073",
+      "source": "머니투데이",
+      "ts": 1781845974000,
+      "pub": "Fri, 19 Jun 2026 14:12:54 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "엠케이전자, 동부엔텍 매각…반도체 소부장 사업 집중 선언",
+      "link": "https://www.mt.co.kr/stock/2026/06/19/2026061913581711191",
+      "source": "머니투데이",
+      "ts": 1781845613000,
+      "pub": "Fri, 19 Jun 2026 14:06:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "세계 메모리 시장 올해 1천500조 전망…AI붐에 1년새 4배로",
+      "link": "https://www.yna.co.kr/view/AKR20260619073700003",
+      "source": "연합뉴스 경제",
+      "ts": 1781836473000,
+      "pub": "Fri, 19 Jun 2026 11:34:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "다카이치, 내달 인도 방문…\"아삼주 반도체공장에 日투자 촉진\"",
+      "link": "https://www.yna.co.kr/view/AKR20260619064000073",
+      "source": "연합뉴스 국제",
+      "ts": 1781834333000,
+      "pub": "Fri, 19 Jun 2026 10:58:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "국내증시 시총 첫 8천조…하이닉스 2천조, 삼전 추격(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260619044751008",
+      "source": "연합뉴스 경제",
+      "ts": 1781833579000,
+      "pub": "Fri, 19 Jun 2026 10:46:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "국내증시 시총 첫 8천조…하이닉스 2천조, 삼전 바짝 추격",
+      "link": "https://www.yna.co.kr/view/AKR20260619044700008",
+      "source": "연합뉴스 경제",
+      "ts": 1781830151000,
+      "pub": "Fri, 19 Jun 2026 09:49:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 하이닉스 사상 첫 '280만닉스'…삼전도 신고가 경신",
+      "link": "https://www.yna.co.kr/view/AKR20260619044600008",
+      "source": "연합뉴스 경제",
+      "ts": 1781829932000,
+      "pub": "Fri, 19 Jun 2026 09:45:32 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "인텔, SK하이닉스 사장 출신 이석희 영입",
       "link": "https://www.yna.co.kr/view/AKR20260619030900009",
       "source": "연합뉴스 국제",
       "ts": 1781827794000,
       "pub": "Fri, 19 Jun 2026 09:09:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 “인텔 지원”...美 반도체주 '불기둥' 기세 주목",
-      "link": "https://www.hankyung.com/article/202606195623i",
-      "source": "한국경제",
-      "ts": 1781826364000,
-      "pub": "Fri, 19 Jun 2026 08:46:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이석희 前 SK하이닉스 CEO, 인텔 파운드리 합류",
-      "link": "https://www.hankyung.com/article/202606195720i",
-      "source": "한국경제",
-      "ts": 1781825193000,
-      "pub": "Fri, 19 Jun 2026 08:26:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체가 끌어올린 美증시…나스닥 1.9% 급등",
-      "link": "https://www.hankyung.com/article/202606195657i",
-      "source": "한국경제",
-      "ts": 1781824273000,
-      "pub": "Fri, 19 Jun 2026 08:11:13 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "AI가 쓸어간 반도체…아이폰·갤럭시 가격 밀어 올린다 [프라이스&]",
-      "link": "https://www.hankyung.com/article/202606185278i",
-      "source": "한국경제",
-      "ts": 1781823616000,
-      "pub": "Fri, 19 Jun 2026 08:00:16 +0900",
       "sentiment": "neutral"
     },
     {
@@ -66,14 +98,6 @@
       "ts": 1781813343000,
       "pub": "Fri, 19 Jun 2026 05:09:03 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] SK하이닉스, 사상 첫 270만닉스…삼전도 4.6% 상승마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260618044351008",
-      "source": "연합뉴스 경제",
-      "ts": 1781766107000,
-      "pub": "Thu, 18 Jun 2026 16:01:47 +0900",
-      "sentiment": "positive"
     }
   ]
 }

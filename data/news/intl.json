@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-19T20:59:54.994Z",
-  "count": 33,
+  "updated_at": "2026-06-19T22:04:48.207Z",
+  "count": 35,
   "items": [
+    {
+      "title": "오바마 \"이란전쟁 전보다 상황 나빠\"…트럼프에 혹평",
+      "link": "https://www.mt.co.kr/world/2026/06/20/2026062006585369340",
+      "source": "머니투데이",
+      "ts": 1781906605000,
+      "pub": "Sat, 20 Jun 2026 07:03:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"60일 내 합의를…아니면 이란 마음에 안드는 일 할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260620006300071",
+      "source": "연합뉴스 국제",
+      "ts": 1781903680000,
+      "pub": "Sat, 20 Jun 2026 06:14:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란은 베트남처럼, 우크라이나는 한국처럼 [PADO]",
+      "link": "https://www.mt.co.kr/world/2026/06/20/2026061921571040718",
+      "source": "머니투데이",
+      "ts": 1781902800000,
+      "pub": "Sat, 20 Jun 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 주말 캠프 데이비드행…'이란 MOU 대책' 논의할 듯",
       "link": "https://www.yna.co.kr/view/AKR20260620002800071",
@@ -153,14 +177,6 @@
       "source": "한국경제",
       "ts": 1781860869000,
       "pub": "Fri, 19 Jun 2026 18:21:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美·이란 19일 스위스 회담 무산…이스라엘 레바논 공습이 원인?",
-      "link": "https://www.mt.co.kr/world/2026/06/19/2026061917361175042",
-      "source": "머니투데이",
-      "ts": 1781858942000,
-      "pub": "Fri, 19 Jun 2026 17:49:02 +0900",
       "sentiment": "neutral"
     },
     {

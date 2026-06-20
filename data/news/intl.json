@@ -1,22 +1,22 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-20T16:15:23.057Z",
-  "count": 36,
+  "updated_at": "2026-06-20T18:03:54.230Z",
+  "count": 34,
   "items": [
+    {
+      "title": "트럼프 \"지지율 올리려 사진 요청\"…멜로니 \"본인 지지율 보길\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260620043751009",
+      "source": "연합뉴스 국제",
+      "ts": 1781972700000,
+      "pub": "Sun, 21 Jun 2026 01:25:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"오바마, 수십억달러 퍼줬지만 할일 못해…내가 바꿨다\"",
       "link": "https://www.yna.co.kr/view/AKR20260621000400071",
       "source": "연합뉴스 국제",
       "ts": 1781970502000,
       "pub": "Sun, 21 Jun 2026 00:48:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 \"호르무즈 해협 재봉쇄..미·이스라엘 종전 MOU 위반\"",
-      "link": "https://www.mt.co.kr/world/2026/06/20/2026062022332579240",
-      "source": "머니투데이",
-      "ts": 1781963436000,
-      "pub": "Sat, 20 Jun 2026 22:50:36 +0900",
       "sentiment": "neutral"
     },
     {
@@ -33,14 +33,6 @@
       "source": "한국경제",
       "ts": 1781961872000,
       "pub": "Sat, 20 Jun 2026 22:24:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 이란군 \"호르무즈 다시 봉쇄…미·이스라엘 탓\"",
-      "link": "https://www.mt.co.kr/world/2026/06/20/2026062022195857835",
-      "source": "머니투데이",
-      "ts": 1781961637000,
-      "pub": "Sat, 20 Jun 2026 22:20:37 +0900",
       "sentiment": "neutral"
     },
     {
@@ -273,14 +265,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781855608000,
       "pub": "Fri, 19 Jun 2026 16:53:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 18㎞ 상공 기구서 발사…우크라, '전자전 무력화' 미사일 공개",
-      "link": "https://www.yna.co.kr/view/AKR20260619128300704",
-      "source": "연합뉴스 국제",
-      "ts": 1781854018000,
-      "pub": "Fri, 19 Jun 2026 16:26:58 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-20T07:40:57.953Z",
-  "count": 35,
+  "updated_at": "2026-06-20T10:24:58.703Z",
+  "count": 31,
   "items": [
+    {
+      "title": "아슬아슬 레바논 휴전…\"이스라엘, 휴전 이튿날 공습\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260620035251009",
+      "source": "연합뉴스 국제",
+      "ts": 1781947136000,
+      "pub": "Sat, 20 Jun 2026 18:18:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러 무기 허점 잘아는 우크라…동맹국들에 분석데이터 공개",
+      "link": "https://www.yna.co.kr/view/AKR20260620036200109",
+      "source": "연합뉴스 국제",
+      "ts": 1781942369000,
+      "pub": "Sat, 20 Jun 2026 16:59:29 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프의 비방에도…美가톨릭 신자 78%, 교황 레오14세 지지",
       "link": "https://www.yna.co.kr/view/AKR20260620033700009",
@@ -17,22 +33,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781935879000,
       "pub": "Sat, 20 Jun 2026 15:11:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "수출 제한하더니…트럼프 \"앤트로픽, 국가 안보 위협으로 안 본다\"",
-      "link": "https://www.mt.co.kr/world/2026/06/20/2026062010452084199",
-      "source": "머니투데이",
-      "ts": 1781921169000,
-      "pub": "Sat, 20 Jun 2026 11:06:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"사진 애원\"vs\"날조된 얘기\" 트럼프-멜로니 또 충돌…외교회담도 취소",
-      "link": "https://www.mt.co.kr/world/2026/06/20/2026062009484093054",
-      "source": "머니투데이",
-      "ts": 1781918838000,
-      "pub": "Sat, 20 Jun 2026 10:27:18 +0900",
       "sentiment": "neutral"
     },
     {
@@ -68,30 +68,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'후속 협상' 급한 미국…\"이스라엘-레바논, 23~25일 워싱턴서 회담\"",
-      "link": "https://www.mt.co.kr/world/2026/06/20/2026062008263553178",
-      "source": "머니투데이",
-      "ts": 1781912473000,
-      "pub": "Sat, 20 Jun 2026 08:41:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"60일 내 합의 없으면, 호르무즈 원유 수송 중단될 수도\"",
-      "link": "https://www.mt.co.kr/world/2026/06/20/2026062007401967343",
-      "source": "머니투데이",
-      "ts": 1781909804000,
-      "pub": "Sat, 20 Jun 2026 07:56:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 이란 공습 1년만에 캠프 데이비드행…'퍼주기 논란' 대응 논의",
-      "link": "https://www.mt.co.kr/world/2026/06/20/2026062007321777938",
-      "source": "머니투데이",
-      "ts": 1781908558000,
-      "pub": "Sat, 20 Jun 2026 07:35:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"이란, 60일 내 합의 없으면 원치 않는 조치 할 것\"",
       "link": "https://www.hankyung.com/article/2026062077977",
       "source": "한국경제",
@@ -113,14 +89,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781906971000,
       "pub": "Sat, 20 Jun 2026 07:09:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "오바마 \"이란전쟁 전보다 상황 나빠\"…트럼프에 혹평",
-      "link": "https://www.mt.co.kr/world/2026/06/20/2026062006585369340",
-      "source": "머니투데이",
-      "ts": 1781906605000,
-      "pub": "Sat, 20 Jun 2026 07:03:25 +0900",
       "sentiment": "neutral"
     },
     {

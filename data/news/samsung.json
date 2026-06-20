@@ -1,22 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-20T21:58:29.106Z",
-  "count": 5,
+  "updated_at": "2026-06-20T23:05:15.996Z",
+  "count": 4,
   "items": [
+    {
+      "title": "\"메타버스주에 삼전닉스?\" 너도나도 담는다…ETF 삼킨 반도체 '투톱'",
+      "link": "https://www.mt.co.kr/stock/2026/06/21/2026061914560564698",
+      "source": "머니투데이",
+      "ts": 1781996400000,
+      "pub": "Sun, 21 Jun 2026 08:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "불장에 \"삼전닉스 사면 무조건 돈 번다\"…영끌 개미들 '풀베팅' [분석+]",
       "link": "https://www.hankyung.com/article/2026061970946",
       "source": "한국경제",
       "ts": 1781954011000,
       "pub": "Sat, 20 Jun 2026 20:13:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"갤럭시 쓰고 현대차 타는 교황\"…레오 14세의 남다른 한국 사랑",
-      "link": "https://www.yna.co.kr/view/AKR20260619157300109",
-      "source": "연합뉴스 국제",
-      "ts": 1781864892000,
-      "pub": "Fri, 19 Jun 2026 19:28:12 +0900",
       "sentiment": "neutral"
     },
     {
@@ -33,14 +33,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781836473000,
       "pub": "Fri, 19 Jun 2026 11:34:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "국내증시 시총 첫 8천조…하이닉스 2천조, 삼전 추격(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260619044751008",
-      "source": "연합뉴스 경제",
-      "ts": 1781833579000,
-      "pub": "Fri, 19 Jun 2026 10:46:19 +0900",
       "sentiment": "neutral"
     }
   ]

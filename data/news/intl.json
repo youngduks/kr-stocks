@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-20T21:58:29.105Z",
-  "count": 34,
+  "updated_at": "2026-06-20T23:05:15.995Z",
+  "count": 40,
   "items": [
+    {
+      "title": "[특파원 시선] '제국의 부활' 꿈꾸는가…\"권력 한계 없다\"는 트럼프",
+      "link": "https://www.yna.co.kr/view/AKR20260620020700071",
+      "source": "연합뉴스 국제",
+      "ts": 1781993221000,
+      "pub": "Sun, 21 Jun 2026 07:07:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"호르무즈 통행료, 미국이 징수할수도\"…이란 봉쇄에 맞불",
+      "link": "https://www.mt.co.kr/world/2026/06/21/2026062107002775181",
+      "source": "머니투데이",
+      "ts": 1781993073000,
+      "pub": "Sun, 21 Jun 2026 07:04:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프 쇼크 극복, EU·CPTPP 중심 '제3극' 구축해야\"",
+      "link": "https://www.mt.co.kr/world/2026/06/21/2026061913013032743",
+      "source": "머니투데이",
+      "ts": 1781989200000,
+      "pub": "Sun, 21 Jun 2026 06:00:00 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "트럼프 \"美, 이란과 합의 불발시 호르무즈 통행료 부과할수도\"",
       "link": "https://www.yna.co.kr/view/AKR20260621002700071",
@@ -17,6 +41,14 @@
       "source": "연합뉴스 국제",
       "ts": 1781983735000,
       "pub": "Sun, 21 Jun 2026 04:28:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 \"호르무즈 재봉쇄\"…'이스라엘 변수' 종전 MOU 이틀만에 흔들",
+      "link": "https://www.mt.co.kr/world/2026/06/21/2026062101222963443",
+      "source": "머니투데이",
+      "ts": 1781973198000,
+      "pub": "Sun, 21 Jun 2026 01:33:18 +0900",
       "sentiment": "neutral"
     },
     {
@@ -36,6 +68,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "이란 \"호르무즈 해협 재봉쇄..미·이스라엘 종전 MOU 위반\"",
+      "link": "https://www.mt.co.kr/world/2026/06/20/2026062022332579240",
+      "source": "머니투데이",
+      "ts": 1781963436000,
+      "pub": "Sat, 20 Jun 2026 22:50:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "이란군 \"호르무즈 재봉쇄…미·이스라엘 종전 MOU 위반 탓\"",
       "link": "https://www.yna.co.kr/view/AKR20260620045400009",
       "source": "연합뉴스 국제",
@@ -49,6 +89,14 @@
       "source": "한국경제",
       "ts": 1781961872000,
       "pub": "Sat, 20 Jun 2026 22:24:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 이란군 \"호르무즈 다시 봉쇄…미·이스라엘 탓\"",
+      "link": "https://www.mt.co.kr/world/2026/06/20/2026062022195857835",
+      "source": "머니투데이",
+      "ts": 1781961637000,
+      "pub": "Sat, 20 Jun 2026 22:20:37 +0900",
       "sentiment": "neutral"
     },
     {

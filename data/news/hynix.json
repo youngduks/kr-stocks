@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-20T21:58:29.107Z",
-  "count": 7,
+  "updated_at": "2026-06-20T23:05:15.997Z",
+  "count": 8,
   "items": [
+    {
+      "title": "\"메타버스주에 삼전닉스?\" 너도나도 담는다…ETF 삼킨 반도체 '투톱'",
+      "link": "https://www.mt.co.kr/stock/2026/06/21/2026061914560564698",
+      "source": "머니투데이",
+      "ts": 1781996400000,
+      "pub": "Sun, 21 Jun 2026 08:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[뉴욕증시-주간전망] 또 닫힌 호르무즈…美 인플레·마이크론 실적 주목",
+      "link": "https://www.yna.co.kr/view/AKR20260621006600009",
+      "source": "연합뉴스 국제",
+      "ts": 1781992800000,
+      "pub": "Sun, 21 Jun 2026 07:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'셔세권' 띄운 반도체발 유동성…내년까지 50조이상 풀릴 수도",
       "link": "https://www.yna.co.kr/view/AKR20260619107800003",
@@ -49,14 +65,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781836473000,
       "pub": "Fri, 19 Jun 2026 11:34:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "국내증시 시총 첫 8천조…하이닉스 2천조, 삼전 추격(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260619044751008",
-      "source": "연합뉴스 경제",
-      "ts": 1781833579000,
-      "pub": "Fri, 19 Jun 2026 10:46:19 +0900",
       "sentiment": "neutral"
     }
   ]

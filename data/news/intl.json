@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-19T23:58:20.444Z",
-  "count": 37,
+  "updated_at": "2026-06-20T03:26:29.656Z",
+  "count": 38,
   "items": [
+    {
+      "title": "수출 제한하더니…트럼프 \"앤트로픽, 국가 안보 위협으로 안 본다\"",
+      "link": "https://www.mt.co.kr/world/2026/06/20/2026062010452084199",
+      "source": "머니투데이",
+      "ts": 1781921169000,
+      "pub": "Sat, 20 Jun 2026 11:06:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"사진 애원\"vs\"날조된 얘기\" 트럼프-멜로니 또 충돌…외교회담도 취소",
+      "link": "https://www.mt.co.kr/world/2026/06/20/2026062009484093054",
+      "source": "머니투데이",
+      "ts": 1781918838000,
+      "pub": "Sat, 20 Jun 2026 10:27:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"친절한 연준씨 이제 없다\"…워시 Fed의 진짜 뜻 [빈난새의 빈틈없이월가]",
+      "link": "https://www.hankyung.com/article/202606207724i",
+      "source": "한국경제",
+      "ts": 1781917212000,
+      "pub": "Sat, 20 Jun 2026 10:00:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 특사단 스위스행…미·이란 실무협상 재개 움직임",
+      "link": "https://www.hankyung.com/article/2026062078907",
+      "source": "한국경제",
+      "ts": 1781915475000,
+      "pub": "Sat, 20 Jun 2026 09:31:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 특사, 스위스로 출발…이란 대면협상 재시동",
+      "link": "https://www.yna.co.kr/view/AKR20260620016000009",
+      "source": "연합뉴스 국제",
+      "ts": 1781913667000,
+      "pub": "Sat, 20 Jun 2026 09:01:07 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"美워싱턴 '리플렉팅풀' 사업, 트럼프 후원 업체가 수의계약\"",
       "link": "https://www.yna.co.kr/view/AKR20260620015800071",
@@ -180,14 +220,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "1470만 달러짜리 '녹조라떼'…트럼프 야심작의 민낯",
-      "link": "https://www.hankyung.com/article/2026061976317",
-      "source": "한국경제",
-      "ts": 1781871858000,
-      "pub": "Fri, 19 Jun 2026 21:24:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프가 눈독 들인 그린란드…노르웨이도 총영사관 개설",
       "link": "https://www.yna.co.kr/view/AKR20260619165900098",
       "source": "연합뉴스 국제",
@@ -274,30 +306,6 @@
       "ts": 1781836474000,
       "pub": "Fri, 19 Jun 2026 11:34:34 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "상장 예고한 오픈AI, 트럼프 행정부 AI정책 짠 고문도 영입",
-      "link": "https://www.yna.co.kr/view/AKR20260619069000075",
-      "source": "연합뉴스 국제",
-      "ts": 1781835692000,
-      "pub": "Fri, 19 Jun 2026 11:21:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "백악관 \"밴스, 스위스行 연기\"…미·이란 후속협상 개시 지연",
-      "link": "https://www.yna.co.kr/view/AKR20260619068000009",
-      "source": "연합뉴스 국제",
-      "ts": 1781835356000,
-      "pub": "Fri, 19 Jun 2026 11:15:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"부적격자 美시민권 박탈해라\"…트럼프 행정부 소송 건수 급증",
-      "link": "https://www.yna.co.kr/view/AKR20260619060800009",
-      "source": "연합뉴스 국제",
-      "ts": 1781833617000,
-      "pub": "Fri, 19 Jun 2026 10:46:57 +0900",
-      "sentiment": "negative"
     }
   ]
 }

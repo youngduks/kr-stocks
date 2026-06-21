@@ -1,15 +1,39 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-21T07:23:17.432Z",
-  "count": 2,
+  "updated_at": "2026-06-21T10:58:28.456Z",
+  "count": 5,
   "items": [
     {
-      "title": "고액 자산가들 픽은 SK하이닉스…서진시스템·삼성전자우도 담았다",
-      "link": "https://www.hankyung.com/article/202606218673i",
+      "title": "삼전닉스 돈잔치가 살린다?…적자 위기 건보 '4.6조 대박'",
+      "link": "https://www.hankyung.com/article/2026062189191",
       "source": "한국경제",
-      "ts": 1782020953000,
-      "pub": "Sun, 21 Jun 2026 14:49:13 +0900",
+      "ts": 1782034515000,
+      "pub": "Sun, 21 Jun 2026 18:35:15 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "삼성전자, 평택캠퍼스 '마지막 반도체 공장' 본격 착공",
+      "link": "https://www.hankyung.com/article/2026062189891",
+      "source": "한국경제",
+      "ts": 1782034231000,
+      "pub": "Sun, 21 Jun 2026 18:30:31 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "삼성, 글로벌 전략회의…HBM 공급 확대 점검",
+      "link": "https://www.hankyung.com/article/2026062189881",
+      "source": "한국경제",
+      "ts": 1782033865000,
+      "pub": "Sun, 21 Jun 2026 18:24:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "의대보다 '삼전닉스'…반도체학과 인기 폭발",
+      "link": "https://www.hankyung.com/article/2026062188961",
+      "source": "한국경제",
+      "ts": 1782033659000,
+      "pub": "Sun, 21 Jun 2026 18:20:59 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "[특징주] 하닉, '280만닉스' 터치후 오름폭 반납…삼전은 2.3%↓(종합)",

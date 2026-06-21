@@ -1,14 +1,30 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-21T17:16:53.044Z",
-  "count": 8,
+  "updated_at": "2026-06-21T19:12:13.967Z",
+  "count": 10,
   "items": [
+    {
+      "title": "메모리 가격에 팀 쿡도 절레절레… 날개 편 'D램'",
+      "link": "https://www.mt.co.kr/industry/2026/06/22/2026062119420448104",
+      "source": "머니투데이",
+      "ts": 1782068700000,
+      "pub": "Mon, 22 Jun 2026 04:05:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "LG 경영진, 엔비디아 방문…차세대 AI 협력 본격 논의",
       "link": "https://www.hankyung.com/article/2026062191141",
       "source": "한국경제",
       "ts": 1782051332000,
       "pub": "Sun, 21 Jun 2026 23:15:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"캘리포니아 초대\" 2주만에 LG그룹, 엔비디아 본사로 대규모 출장",
+      "link": "https://www.mt.co.kr/industry/2026/06/21/2026062120272981703",
+      "source": "머니투데이",
+      "ts": 1782042871000,
+      "pub": "Sun, 21 Jun 2026 20:54:31 +0900",
       "sentiment": "neutral"
     },
     {

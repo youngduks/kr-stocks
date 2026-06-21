@@ -1,15 +1,23 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-20T23:05:15.997Z",
-  "count": 8,
+  "updated_at": "2026-06-21T02:33:45.847Z",
+  "count": 7,
   "items": [
     {
-      "title": "\"메타버스주에 삼전닉스?\" 너도나도 담는다…ETF 삼킨 반도체 '투톱'",
-      "link": "https://www.mt.co.kr/stock/2026/06/21/2026061914560564698",
-      "source": "머니투데이",
-      "ts": 1781996400000,
-      "pub": "Sun, 21 Jun 2026 08:00:00 +0900",
-      "sentiment": "neutral"
+      "title": "코스피 최고치 랠리 이어갈까…美지표·마이크론 실적 주목 [주간전망]",
+      "link": "https://www.hankyung.com/article/2026061956506",
+      "source": "한국경제",
+      "ts": 1782001671000,
+      "pub": "Sun, 21 Jun 2026 09:27:51 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"반도체로 갈아탈까\"…'9000피' 랠리에 연금개미들 환승?",
+      "link": "https://www.hankyung.com/article/202606196241i",
+      "source": "한국경제",
+      "ts": 1781996408000,
+      "pub": "Sun, 21 Jun 2026 08:00:08 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "[뉴욕증시-주간전망] 또 닫힌 호르무즈…美 인플레·마이크론 실적 주목",
@@ -36,14 +44,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "김용범 \"반도체 호황 과실, 청년·취약층·미래산업으로 연결해야\"",
-      "link": "https://www.hankyung.com/article/2026062079957",
-      "source": "한국경제",
-      "ts": 1781929981000,
-      "pub": "Sat, 20 Jun 2026 13:33:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "국내증시 장중 시총 첫 8천조·하이닉스 2천조 돌파 후 후퇴(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260619044752008",
       "source": "연합뉴스 경제",
@@ -57,14 +57,6 @@
       "source": "연합뉴스 경제",
       "ts": 1781847310000,
       "pub": "Fri, 19 Jun 2026 14:35:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "세계 메모리 시장 올해 1천500조 전망…AI붐에 1년새 4배로",
-      "link": "https://www.yna.co.kr/view/AKR20260619073700003",
-      "source": "연합뉴스 경제",
-      "ts": 1781836473000,
-      "pub": "Fri, 19 Jun 2026 11:34:33 +0900",
       "sentiment": "neutral"
     }
   ]

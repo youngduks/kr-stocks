@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-20T23:05:15.995Z",
-  "count": 40,
+  "updated_at": "2026-06-21T02:33:45.846Z",
+  "count": 35,
   "items": [
+    {
+      "title": "러시아 연료대란 조짐…우크라, 정유시설 집중타격해 경제 충격",
+      "link": "https://www.yna.co.kr/view/AKR20260621021000009",
+      "source": "연합뉴스 국제",
+      "ts": 1782008074000,
+      "pub": "Sun, 21 Jun 2026 11:14:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미국, 관세 회피 단속 강화…무협 \"수출기업 철저 대비해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260621019100003",
+      "source": "연합뉴스 경제",
+      "ts": 1782007200000,
+      "pub": "Sun, 21 Jun 2026 11:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "언론인·생태학자…이스라엘 무차별 공습에 민간인 참사 되풀이",
+      "link": "https://www.yna.co.kr/view/AKR20260621014600009",
+      "source": "연합뉴스 국제",
+      "ts": 1782002320000,
+      "pub": "Sun, 21 Jun 2026 09:38:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '총리 그만하고 싶냐' 네타냐후에 레바논 휴전 압박",
+      "link": "https://www.yna.co.kr/view/AKR20260621009900009",
+      "source": "연합뉴스 국제",
+      "ts": 1781998548000,
+      "pub": "Sun, 21 Jun 2026 08:35:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 합의 불발시…미국이 호르무즈 통행료 부과\"",
+      "link": "https://www.hankyung.com/article/2026062183217",
+      "source": "한국경제",
+      "ts": 1781993621000,
+      "pub": "Sun, 21 Jun 2026 07:13:41 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[특파원 시선] '제국의 부활' 꿈꾸는가…\"권력 한계 없다\"는 트럼프",
       "link": "https://www.yna.co.kr/view/AKR20260620020700071",
@@ -10,22 +50,6 @@
       "ts": 1781993221000,
       "pub": "Sun, 21 Jun 2026 07:07:01 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"호르무즈 통행료, 미국이 징수할수도\"…이란 봉쇄에 맞불",
-      "link": "https://www.mt.co.kr/world/2026/06/21/2026062107002775181",
-      "source": "머니투데이",
-      "ts": 1781993073000,
-      "pub": "Sun, 21 Jun 2026 07:04:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 쇼크 극복, EU·CPTPP 중심 '제3극' 구축해야\"",
-      "link": "https://www.mt.co.kr/world/2026/06/21/2026061913013032743",
-      "source": "머니투데이",
-      "ts": 1781989200000,
-      "pub": "Sun, 21 Jun 2026 06:00:00 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "트럼프 \"美, 이란과 합의 불발시 호르무즈 통행료 부과할수도\"",
@@ -41,14 +65,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781983735000,
       "pub": "Sun, 21 Jun 2026 04:28:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 \"호르무즈 재봉쇄\"…'이스라엘 변수' 종전 MOU 이틀만에 흔들",
-      "link": "https://www.mt.co.kr/world/2026/06/21/2026062101222963443",
-      "source": "머니투데이",
-      "ts": 1781973198000,
-      "pub": "Sun, 21 Jun 2026 01:33:18 +0900",
       "sentiment": "neutral"
     },
     {
@@ -68,14 +84,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "이란 \"호르무즈 해협 재봉쇄..미·이스라엘 종전 MOU 위반\"",
-      "link": "https://www.mt.co.kr/world/2026/06/20/2026062022332579240",
-      "source": "머니투데이",
-      "ts": 1781963436000,
-      "pub": "Sat, 20 Jun 2026 22:50:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "이란군 \"호르무즈 재봉쇄…미·이스라엘 종전 MOU 위반 탓\"",
       "link": "https://www.yna.co.kr/view/AKR20260620045400009",
       "source": "연합뉴스 국제",
@@ -89,14 +97,6 @@
       "source": "한국경제",
       "ts": 1781961872000,
       "pub": "Sat, 20 Jun 2026 22:24:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 이란군 \"호르무즈 다시 봉쇄…미·이스라엘 탓\"",
-      "link": "https://www.mt.co.kr/world/2026/06/20/2026062022195857835",
-      "source": "머니투데이",
-      "ts": 1781961637000,
-      "pub": "Sat, 20 Jun 2026 22:20:37 +0900",
       "sentiment": "neutral"
     },
     {
@@ -153,22 +153,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781935879000,
       "pub": "Sat, 20 Jun 2026 15:11:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"친절한 연준씨 이제 없다\"…워시 Fed의 진짜 뜻 [빈난새의 빈틈없이월가]",
-      "link": "https://www.hankyung.com/article/202606207724i",
-      "source": "한국경제",
-      "ts": 1781917212000,
-      "pub": "Sat, 20 Jun 2026 10:00:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 특사단 스위스행…미·이란 실무협상 재개 움직임",
-      "link": "https://www.hankyung.com/article/2026062078907",
-      "source": "한국경제",
-      "ts": 1781915475000,
-      "pub": "Sat, 20 Jun 2026 09:31:15 +0900",
       "sentiment": "neutral"
     },
     {
@@ -298,30 +282,6 @@
       "ts": 1781871357000,
       "pub": "Fri, 19 Jun 2026 21:15:57 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "미·이란 협상, 이스라엘·헤즈볼라 무력충돌 격화에 '급제동'(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260619145951079",
-      "source": "연합뉴스 국제",
-      "ts": 1781869833000,
-      "pub": "Fri, 19 Jun 2026 20:50:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 고유가 겁먹어 이란과 합의\"…미국 유력지들 일제히 비판",
-      "link": "https://www.yna.co.kr/view/AKR20260619159600009",
-      "source": "연합뉴스 국제",
-      "ts": 1781864908000,
-      "pub": "Fri, 19 Jun 2026 19:28:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "관세 부과에 대미 경상흑자 6년 만에 축소…중국엔 4년째 적자",
-      "link": "https://www.yna.co.kr/view/AKR20260619050200002",
-      "source": "연합뉴스 경제",
-      "ts": 1781838000000,
-      "pub": "Fri, 19 Jun 2026 12:00:00 +0900",
-      "sentiment": "negative"
     }
   ]
 }

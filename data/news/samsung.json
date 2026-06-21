@@ -1,8 +1,56 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-21T21:03:01.734Z",
-  "count": 6,
+  "updated_at": "2026-06-21T22:58:34.771Z",
+  "count": 9,
   "items": [
+    {
+      "title": "\"삼성생명, 삼성전자 지분가치 재평가 필요…목표가↑\"",
+      "link": "https://www.hankyung.com/article/2026062292906",
+      "source": "한국경제",
+      "ts": 1782082278000,
+      "pub": "Mon, 22 Jun 2026 07:51:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"MSCI 신흥시장 4년만의 어닝 서프라이즈…삼전닉스 등 주도\"",
+      "link": "https://www.yna.co.kr/view/AKR20260622009500009",
+      "source": "연합뉴스 국제",
+      "ts": 1782080200000,
+      "pub": "Mon, 22 Jun 2026 07:16:40 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"그때 삼전·닉스 샀으면\"...'돈 못 번 이유' 5명 중 1명 \"내 탓\"",
+      "link": "https://www.mt.co.kr/finance/2026/06/22/2026061715140890186",
+      "source": "머니투데이",
+      "ts": 1782077400000,
+      "pub": "Mon, 22 Jun 2026 06:30:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우등생 아들도 \"엄마, 고졸이 낫겠어\"...삼전닉스 꿈꾸고 마이스터고 우르르",
+      "link": "https://www.mt.co.kr/policy/2026/06/22/2026062115181371312",
+      "source": "머니투데이",
+      "ts": 1782076800000,
+      "pub": "Mon, 22 Jun 2026 06:20:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "존경할 만한 리치맨, 이재용 2년 연속 '1위'…해외선 워런 버핏 차지",
+      "link": "https://www.mt.co.kr/finance/2026/06/22/2026061711024111012",
+      "source": "머니투데이",
+      "ts": 1782075600000,
+      "pub": "Mon, 22 Jun 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "메모리 가격에 팀 쿡도 절레절레… 날개 편 'D램'",
+      "link": "https://www.mt.co.kr/industry/2026/06/22/2026062119420448104",
+      "source": "머니투데이",
+      "ts": 1782068700000,
+      "pub": "Mon, 22 Jun 2026 04:05:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"스마트폰 때문에 더 불편\"…삼성전자가 꺼낸 '비장의 무기'",
       "link": "https://www.hankyung.com/article/2026062190947",
@@ -25,30 +73,6 @@
       "source": "한국경제",
       "ts": 1782034231000,
       "pub": "Sun, 21 Jun 2026 18:30:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성, 글로벌 전략회의…HBM 공급 확대 점검",
-      "link": "https://www.hankyung.com/article/2026062189881",
-      "source": "한국경제",
-      "ts": 1782033865000,
-      "pub": "Sun, 21 Jun 2026 18:24:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "의대보다 '삼전닉스'…반도체학과 인기 폭발",
-      "link": "https://www.hankyung.com/article/2026062188961",
-      "source": "한국경제",
-      "ts": 1782033659000,
-      "pub": "Sun, 21 Jun 2026 18:20:59 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[특징주] 하닉, '280만닉스' 터치후 오름폭 반납…삼전은 2.3%↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260619044651008",
-      "source": "연합뉴스 경제",
-      "ts": 1781853265000,
-      "pub": "Fri, 19 Jun 2026 16:14:25 +0900",
       "sentiment": "neutral"
     }
   ]

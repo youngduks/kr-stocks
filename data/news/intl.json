@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-21T21:03:01.733Z",
-  "count": 34,
+  "updated_at": "2026-06-21T22:58:34.769Z",
+  "count": 42,
   "items": [
+    {
+      "title": "美-이란 파행 와중…네타냐후 \"레바논 계속 주둔, 핵무기 절대 안 돼\"",
+      "link": "https://www.mt.co.kr/world/2026/06/22/2026062207193766552",
+      "source": "머니투데이",
+      "ts": 1782082654000,
+      "pub": "Mon, 22 Jun 2026 07:57:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 멜로니 또 저격…\"우린 지켜줬지만 이탈리아는 이란문제 외면\"",
+      "link": "https://www.mt.co.kr/world/2026/06/22/2026062206184774634",
+      "source": "머니투데이",
+      "ts": 1782077883000,
+      "pub": "Mon, 22 Jun 2026 06:38:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 더 세게 때릴 것\"…첫날부터 꼬인 종전 협상",
+      "link": "https://www.hankyung.com/article/2026062292027",
+      "source": "한국경제",
+      "ts": 1782076975000,
+      "pub": "Mon, 22 Jun 2026 06:22:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 스타머 사임설에 부채질…\"그는 실패, 영국 총리직 물러날 것\"",
+      "link": "https://www.mt.co.kr/world/2026/06/22/2026062205323271541",
+      "source": "머니투데이",
+      "ts": 1782075195000,
+      "pub": "Mon, 22 Jun 2026 05:53:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 위협에 협상장 떠난 이란...\"재개 위한 비공식 대화 중\"",
+      "link": "https://www.mt.co.kr/world/2026/06/22/2026062205080998345",
+      "source": "머니투데이",
+      "ts": 1782074305000,
+      "pub": "Mon, 22 Jun 2026 05:38:25 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "레바논사태에 트럼프는 이란공격 위협…MOU후 첫협상부터 '삐걱'",
       "link": "https://www.yna.co.kr/view/AKR20260622003700071",
@@ -12,11 +52,35 @@
       "sentiment": "neutral"
     },
     {
+      "title": "마이크론 실적, 반도체주 분수령…PCE 물가 주목[이번주 美 증시는]",
+      "link": "https://www.mt.co.kr/stock/2026/06/22/2026062020124067894",
+      "source": "머니투데이",
+      "ts": 1782074100000,
+      "pub": "Mon, 22 Jun 2026 05:35:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "트럼프, 갈등중인 伊총리에 \"우린지켜줬는데 당신들은 외면했다\"",
       "link": "https://www.yna.co.kr/view/AKR20260622003100071",
       "source": "연합뉴스 국제",
       "ts": 1782073923000,
       "pub": "Mon, 22 Jun 2026 05:32:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美·이란 협상 80분만에 파행…트럼프 \"말조심\" 위협에 협상장 이탈",
+      "link": "https://www.mt.co.kr/world/2026/06/22/2026062204233693966",
+      "source": "머니투데이",
+      "ts": 1782070008000,
+      "pub": "Mon, 22 Jun 2026 04:26:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "오바마 \"美정세, 전쟁 전보다 나쁘다\" 트럼프 저격",
+      "link": "https://www.mt.co.kr/world/2026/06/22/2026062119441141130",
+      "source": "머니투데이",
+      "ts": 1782069600000,
+      "pub": "Mon, 22 Jun 2026 04:20:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -73,6 +137,14 @@
       "source": "연합뉴스 국제",
       "ts": 1782052378000,
       "pub": "Sun, 21 Jun 2026 23:32:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "종전 협상 중인데...트럼프 \"이란, 대리세력 안 막으면 다시 타격\"",
+      "link": "https://www.mt.co.kr/world/2026/06/21/2026062122533481343",
+      "source": "머니투데이",
+      "ts": 1782050460000,
+      "pub": "Sun, 21 Jun 2026 23:01:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -257,14 +329,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781947136000,
       "pub": "Sat, 20 Jun 2026 18:18:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러 무기 허점 잘아는 우크라…동맹국들에 분석데이터 공개",
-      "link": "https://www.yna.co.kr/view/AKR20260620036200109",
-      "source": "연합뉴스 국제",
-      "ts": 1781942369000,
-      "pub": "Sat, 20 Jun 2026 16:59:29 +0900",
       "sentiment": "neutral"
     },
     {

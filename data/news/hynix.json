@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-21T21:03:01.735Z",
-  "count": 9,
+  "updated_at": "2026-06-21T22:58:34.772Z",
+  "count": 11,
   "items": [
+    {
+      "title": "반도체 랠리 쭉 갈까…이번주 '마이크론' 실적에 쏠린 눈",
+      "link": "https://www.hankyung.com/article/202606218652i",
+      "source": "한국경제",
+      "ts": 1782081766000,
+      "pub": "Mon, 22 Jun 2026 07:42:46 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "반도체 성과급발 인플레 현실화하나…저소득층 '삼중고' 우려",
       "link": "https://www.yna.co.kr/view/AKR20260621041300002",
@@ -10,6 +18,30 @@
       "ts": 1782075181000,
       "pub": "Mon, 22 Jun 2026 05:53:01 +0900",
       "sentiment": "negative"
+    },
+    {
+      "title": "마이크론 실적, 반도체주 분수령…PCE 물가 주목[이번주 美 증시는]",
+      "link": "https://www.mt.co.kr/stock/2026/06/22/2026062020124067894",
+      "source": "머니투데이",
+      "ts": 1782074100000,
+      "pub": "Mon, 22 Jun 2026 05:35:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "일만피 고지 넘나… 마이크론 실적 분수령",
+      "link": "https://www.mt.co.kr/stock/2026/06/22/2026062119460786692",
+      "source": "머니투데이",
+      "ts": 1782069600000,
+      "pub": "Mon, 22 Jun 2026 04:20:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "메모리 가격에 팀 쿡도 절레절레… 날개 편 'D램'",
+      "link": "https://www.mt.co.kr/industry/2026/06/22/2026062119420448104",
+      "source": "머니투데이",
+      "ts": 1782068700000,
+      "pub": "Mon, 22 Jun 2026 04:05:00 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "LG 경영진, 엔비디아 방문…차세대 AI 협력 본격 논의",
@@ -20,28 +52,20 @@
       "sentiment": "neutral"
     },
     {
+      "title": "\"캘리포니아 초대\" 2주만에 LG그룹, 엔비디아 본사로 대규모 출장",
+      "link": "https://www.mt.co.kr/industry/2026/06/21/2026062120272981703",
+      "source": "머니투데이",
+      "ts": 1782042871000,
+      "pub": "Sun, 21 Jun 2026 20:54:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "삼성전자, 평택캠퍼스 '마지막 반도체 공장' 본격 착공",
       "link": "https://www.hankyung.com/article/2026062189891",
       "source": "한국경제",
       "ts": 1782034231000,
       "pub": "Sun, 21 Jun 2026 18:30:31 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "삼성, 글로벌 전략회의…HBM 공급 확대 점검",
-      "link": "https://www.hankyung.com/article/2026062189881",
-      "source": "한국경제",
-      "ts": 1782033865000,
-      "pub": "Sun, 21 Jun 2026 18:24:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "의대보다 '삼전닉스'…반도체학과 인기 폭발",
-      "link": "https://www.hankyung.com/article/2026062188961",
-      "source": "한국경제",
-      "ts": 1782033659000,
-      "pub": "Sun, 21 Jun 2026 18:20:59 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "中, 대일 희토류 월수출 1년만 최저…日반도체장비 中매출도 감소",
@@ -66,14 +90,6 @@
       "ts": 1781987460000,
       "pub": "Sun, 21 Jun 2026 05:31:00 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "국내증시 장중 시총 첫 8천조·하이닉스 2천조 돌파 후 후퇴(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260619044752008",
-      "source": "연합뉴스 경제",
-      "ts": 1781853601000,
-      "pub": "Fri, 19 Jun 2026 16:20:01 +0900",
-      "sentiment": "positive"
     }
   ]
 }

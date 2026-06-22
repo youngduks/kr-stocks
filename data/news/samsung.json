@@ -1,46 +1,86 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-22T00:10:08.494Z",
-  "count": 10,
+  "updated_at": "2026-06-22T06:18:39.958Z",
+  "count": 11,
   "items": [
     {
-      "title": "\"또 그대로?\" 갤럭시S27, 카메라 센서 6년째 재탕하나 [IT썰]",
-      "link": "https://www.mt.co.kr/tech/2026/06/22/2026062208194425762",
+      "title": "개인투자자\"올해 일만피 간다\"…10명 중 7명 삼전닉스 레버리지 '관심'",
+      "link": "https://www.mt.co.kr/stock/2026/06/22/2026062213091973553",
       "source": "머니투데이",
-      "ts": 1782086570000,
-      "pub": "Mon, 22 Jun 2026 09:02:50 +0900",
+      "ts": 1782108121000,
+      "pub": "Mon, 22 Jun 2026 15:02:01 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"삼성생명, 목표가 59만…삼성전자 지분가치 반영\"-대신",
-      "link": "https://www.mt.co.kr/stock/2026/06/22/2026062208215315748",
+      "title": "이찬진 금감원장 \"삼전닉스 레버리지 ETF 막았어야…후회\"",
+      "link": "https://www.mt.co.kr/stock/2026/06/22/2026062213501126287",
       "source": "머니투데이",
-      "ts": 1782085362000,
-      "pub": "Mon, 22 Jun 2026 08:42:42 +0900",
+      "ts": 1782108000000,
+      "pub": "Mon, 22 Jun 2026 15:00:00 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "iM증권 \"내년까지 반도체 호황\"…'삼전닉스' 목표가 20%대↑",
-      "link": "https://www.yna.co.kr/view/AKR20260622018800008",
+      "title": "SK하이닉스에 '시총 1위' 내준 삼성전자, 하락 전환...코스피도 '약세'",
+      "link": "https://www.mt.co.kr/stock/2026/06/22/2026062214032138046",
+      "source": "머니투데이",
+      "ts": 1782104693000,
+      "pub": "Mon, 22 Jun 2026 14:04:53 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "SK하이닉스, 삼성전자 시총 첫 추월…26년 만에 코스피 지각변동",
+      "link": "https://www.hankyung.com/article/202606220331i",
+      "source": "한국경제",
+      "ts": 1782102700000,
+      "pub": "Mon, 22 Jun 2026 13:31:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스, 삼전 제치고 코스피 시총 1위…25년만 대장주 교체(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260622063151008",
       "source": "연합뉴스 경제",
-      "ts": 1782084588000,
-      "pub": "Mon, 22 Jun 2026 08:29:48 +0900",
+      "ts": 1782100961000,
+      "pub": "Mon, 22 Jun 2026 13:02:41 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"삼전닉스는 성과급 잔치라던데\"…벌어지는 격차에 '한숨'",
-      "link": "https://www.hankyung.com/article/2026062292917",
+      "title": "[속보] SK하이닉스, 삼성전자 제치고 코스피 시총 1위 등극",
+      "link": "https://www.hankyung.com/article/2026062203127",
       "source": "한국경제",
-      "ts": 1782082844000,
-      "pub": "Mon, 22 Jun 2026 08:00:44 +0900",
+      "ts": 1782099852000,
+      "pub": "Mon, 22 Jun 2026 12:44:12 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"삼성생명, 삼성전자 지분가치 재평가 필요…목표가↑\"",
-      "link": "https://www.hankyung.com/article/2026062292906",
-      "source": "한국경제",
-      "ts": 1782082278000,
-      "pub": "Mon, 22 Jun 2026 07:51:18 +0900",
+      "title": "[속보] SK하이닉스, 삼성전자 제치고 코스피 시총 1위 등극",
+      "link": "https://www.yna.co.kr/view/AKR20260622083100008",
+      "source": "연합뉴스 경제",
+      "ts": 1782099813000,
+      "pub": "Mon, 22 Jun 2026 12:43:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "시총 1위 위협하는 SK하이닉스…삼전의 98%까지 추격",
+      "link": "https://www.yna.co.kr/view/AKR20260622063100008",
+      "source": "연합뉴스 경제",
+      "ts": 1782093401000,
+      "pub": "Mon, 22 Jun 2026 10:56:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[머니톡스] 삼전닉스가 만든 '반세권'…'차화정' 기억 잊었나",
+      "link": "https://www.yna.co.kr/view/AKR20260622027100546",
+      "source": "연합뉴스 경제",
+      "ts": 1782088143000,
+      "pub": "Mon, 22 Jun 2026 09:29:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자, 장초반 2%대 하락 중…하닉은 0.65%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260622036600008",
+      "source": "연합뉴스 경제",
+      "ts": 1782088121000,
+      "pub": "Mon, 22 Jun 2026 09:28:41 +0900",
       "sentiment": "neutral"
     },
     {
@@ -50,38 +90,6 @@
       "ts": 1782080200000,
       "pub": "Mon, 22 Jun 2026 07:16:40 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "\"그때 삼전·닉스 샀으면\"...'돈 못 번 이유' 5명 중 1명 \"내 탓\"",
-      "link": "https://www.mt.co.kr/finance/2026/06/22/2026061715140890186",
-      "source": "머니투데이",
-      "ts": 1782077400000,
-      "pub": "Mon, 22 Jun 2026 06:30:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우등생 아들도 \"엄마, 고졸이 낫겠어\"...삼전닉스 꿈꾸고 마이스터고 우르르",
-      "link": "https://www.mt.co.kr/policy/2026/06/22/2026062115181371312",
-      "source": "머니투데이",
-      "ts": 1782076800000,
-      "pub": "Mon, 22 Jun 2026 06:20:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "존경할 만한 리치맨, 이재용 2년 연속 '1위'…해외선 워런 버핏 차지",
-      "link": "https://www.mt.co.kr/finance/2026/06/22/2026061711024111012",
-      "source": "머니투데이",
-      "ts": 1782075600000,
-      "pub": "Mon, 22 Jun 2026 06:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"스마트폰 때문에 더 불편\"…삼성전자가 꺼낸 '비장의 무기'",
-      "link": "https://www.hankyung.com/article/2026062190947",
-      "source": "한국경제",
-      "ts": 1782044102000,
-      "pub": "Sun, 21 Jun 2026 21:15:02 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

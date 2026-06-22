@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-22T00:10:08.493Z",
-  "count": 39,
+  "updated_at": "2026-06-22T06:18:39.957Z",
+  "count": 22,
   "items": [
+    {
+      "title": "226억 들이부었는데 녹조발생 '굴욕'…트럼프 \"정신나간 이들 탓\"",
+      "link": "https://www.mt.co.kr/world/2026/06/22/2026062211095989759",
+      "source": "머니투데이",
+      "ts": 1782107191000,
+      "pub": "Mon, 22 Jun 2026 14:46:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이 사진 한장에 파탄 위기…트럼프-멜로니 '설전 폭발'",
+      "link": "https://www.hankyung.com/article/2026062298967",
+      "source": "한국경제",
+      "ts": 1782094185000,
+      "pub": "Mon, 22 Jun 2026 11:09:45 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프 지지받은 '우파 호랑이', 첫 도전서 콜롬비아 대권 예약",
+      "link": "https://www.yna.co.kr/view/AKR20260622041600087",
+      "source": "연합뉴스 국제",
+      "ts": 1782090877000,
+      "pub": "Mon, 22 Jun 2026 10:14:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키 '민간인 학살' 역사 논쟁에 폴란드 최고훈장 반납(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260622029600009",
+      "source": "연합뉴스 국제",
+      "ts": 1782088570000,
+      "pub": "Mon, 22 Jun 2026 09:36:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"경제 역대 최고\" 트럼프 자화자찬…여론조사선 최저 평가",
+      "link": "https://www.yna.co.kr/view/AKR20260622028100009",
+      "source": "연합뉴스 경제",
+      "ts": 1782086721000,
+      "pub": "Mon, 22 Jun 2026 09:05:21 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "'연준 선제안내 없애면 금리 올라갈 것'…전문가들 경고",
       "link": "https://www.yna.co.kr/view/AKR20260622019100009",
@@ -20,62 +60,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "워시의 Fed 가이던스 축소, 미국 차입비용 상승 우려",
-      "link": "https://www.hankyung.com/article/202606229380i",
-      "source": "한국경제",
-      "ts": 1782083779000,
-      "pub": "Mon, 22 Jun 2026 08:16:19 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[외신 에스프레소 영상] 워시 연준 의장의 '포워드 가이던스 폐지' 시사… 요동치는 美 국채 시장",
-      "link": "https://www.hankyung.com/article/202606229357i",
-      "source": "한국경제",
-      "ts": 1782083487000,
-      "pub": "Mon, 22 Jun 2026 08:11:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美-이란 파행 와중…네타냐후 \"레바논 계속 주둔, 핵무기 절대 안 돼\"",
-      "link": "https://www.mt.co.kr/world/2026/06/22/2026062207193766552",
-      "source": "머니투데이",
-      "ts": 1782082654000,
-      "pub": "Mon, 22 Jun 2026 07:57:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 멜로니 또 저격…\"우린 지켜줬지만 이탈리아는 이란문제 외면\"",
-      "link": "https://www.mt.co.kr/world/2026/06/22/2026062206184774634",
-      "source": "머니투데이",
-      "ts": 1782077883000,
-      "pub": "Mon, 22 Jun 2026 06:38:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란 더 세게 때릴 것\"…첫날부터 꼬인 종전 협상",
-      "link": "https://www.hankyung.com/article/2026062292027",
-      "source": "한국경제",
-      "ts": 1782076975000,
-      "pub": "Mon, 22 Jun 2026 06:22:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 스타머 사임설에 부채질…\"그는 실패, 영국 총리직 물러날 것\"",
-      "link": "https://www.mt.co.kr/world/2026/06/22/2026062205323271541",
-      "source": "머니투데이",
-      "ts": 1782075195000,
-      "pub": "Mon, 22 Jun 2026 05:53:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 위협에 협상장 떠난 이란...\"재개 위한 비공식 대화 중\"",
-      "link": "https://www.mt.co.kr/world/2026/06/22/2026062205080998345",
-      "source": "머니투데이",
-      "ts": 1782074305000,
-      "pub": "Mon, 22 Jun 2026 05:38:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "레바논사태에 트럼프는 이란공격 위협…MOU후 첫협상부터 '삐걱'",
       "link": "https://www.yna.co.kr/view/AKR20260622003700071",
       "source": "연합뉴스 국제",
@@ -84,35 +68,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "마이크론 실적, 반도체주 분수령…PCE 물가 주목[이번주 美 증시는]",
-      "link": "https://www.mt.co.kr/stock/2026/06/22/2026062020124067894",
-      "source": "머니투데이",
-      "ts": 1782074100000,
-      "pub": "Mon, 22 Jun 2026 05:35:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, 갈등중인 伊총리에 \"우린지켜줬는데 당신들은 외면했다\"",
       "link": "https://www.yna.co.kr/view/AKR20260622003100071",
       "source": "연합뉴스 국제",
       "ts": 1782073923000,
       "pub": "Mon, 22 Jun 2026 05:32:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美·이란 협상 80분만에 파행…트럼프 \"말조심\" 위협에 협상장 이탈",
-      "link": "https://www.mt.co.kr/world/2026/06/22/2026062204233693966",
-      "source": "머니투데이",
-      "ts": 1782070008000,
-      "pub": "Mon, 22 Jun 2026 04:26:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "오바마 \"美정세, 전쟁 전보다 나쁘다\" 트럼프 저격",
-      "link": "https://www.mt.co.kr/world/2026/06/22/2026062119441141130",
-      "source": "머니투데이",
-      "ts": 1782069600000,
-      "pub": "Mon, 22 Jun 2026 04:20:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -217,102 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782029114000,
       "pub": "Sun, 21 Jun 2026 17:05:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키, '민간인 학살' 과거사 논쟁에 폴란드 최고훈장 반납",
-      "link": "https://www.yna.co.kr/view/AKR20260621025300009",
-      "source": "연합뉴스 국제",
-      "ts": 1782016381000,
-      "pub": "Sun, 21 Jun 2026 13:33:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中企, 美철강 관세에 \"채산성 악화 우려…대미협상 강화해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260620041400030",
-      "source": "연합뉴스 경제",
-      "ts": 1782010803000,
-      "pub": "Sun, 21 Jun 2026 12:00:03 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "알바니아 반부패시위 '들불'…진원은 트럼프 사위의 리조트 개발",
-      "link": "https://www.yna.co.kr/view/AKR20260621021300009",
-      "source": "연합뉴스 국제",
-      "ts": 1782010243000,
-      "pub": "Sun, 21 Jun 2026 11:50:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러시아 연료대란 조짐…우크라, 정유시설 집중타격해 경제 충격",
-      "link": "https://www.yna.co.kr/view/AKR20260621021000009",
-      "source": "연합뉴스 국제",
-      "ts": 1782008074000,
-      "pub": "Sun, 21 Jun 2026 11:14:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미국, 관세 회피 단속 강화…무협 \"수출기업 철저 대비해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260621019100003",
-      "source": "연합뉴스 경제",
-      "ts": 1782007200000,
-      "pub": "Sun, 21 Jun 2026 11:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "언론인·생태학자…이스라엘 무차별 공습에 민간인 참사 되풀이",
-      "link": "https://www.yna.co.kr/view/AKR20260621014600009",
-      "source": "연합뉴스 국제",
-      "ts": 1782002320000,
-      "pub": "Sun, 21 Jun 2026 09:38:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '총리 그만하고 싶냐' 네타냐후에 레바논 휴전 압박",
-      "link": "https://www.yna.co.kr/view/AKR20260621009900009",
-      "source": "연합뉴스 국제",
-      "ts": 1781998548000,
-      "pub": "Sun, 21 Jun 2026 08:35:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특파원 시선] '제국의 부활' 꿈꾸는가…\"권력 한계 없다\"는 트럼프",
-      "link": "https://www.yna.co.kr/view/AKR20260620020700071",
-      "source": "연합뉴스 국제",
-      "ts": 1781993221000,
-      "pub": "Sun, 21 Jun 2026 07:07:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"美, 이란과 합의 불발시 호르무즈 통행료 부과할수도\"",
-      "link": "https://www.yna.co.kr/view/AKR20260621002700071",
-      "source": "연합뉴스 국제",
-      "ts": 1781984653000,
-      "pub": "Sun, 21 Jun 2026 04:44:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란과 합의불발시 美 호르무즈 통행료 부과할수도\"",
-      "link": "https://www.yna.co.kr/view/AKR20260621002500071",
-      "source": "연합뉴스 국제",
-      "ts": 1781983735000,
-      "pub": "Sun, 21 Jun 2026 04:28:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"지지율 올리려 사진 요청\"…멜로니 \"본인 지지율 보길\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260620043751009",
-      "source": "연합뉴스 국제",
-      "ts": 1781972700000,
-      "pub": "Sun, 21 Jun 2026 01:25:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"오바마, 수십억달러 퍼줬지만 할일 못해…내가 바꿨다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260621000400071",
-      "source": "연합뉴스 국제",
-      "ts": 1781970502000,
-      "pub": "Sun, 21 Jun 2026 00:48:22 +0900",
       "sentiment": "neutral"
     }
   ]

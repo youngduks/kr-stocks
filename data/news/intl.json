@@ -1,14 +1,30 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-22T22:30:07.880Z",
-  "count": 24,
+  "updated_at": "2026-06-22T23:58:56.699Z",
+  "count": 21,
   "items": [
     {
-      "title": "이란 핵 사찰 수용…트럼프식 '햇볕정책' 성공할까 [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202606231589i",
+      "title": "트럼프, 양자컴 행정명령 서명…\"2028년 실용화·2031년 보안 완료\"",
+      "link": "https://www.hankyung.com/article/2026062317167",
       "source": "한국경제",
-      "ts": 1782163555000,
-      "pub": "Tue, 23 Jun 2026 06:25:55 +0900",
+      "ts": 1782170584000,
+      "pub": "Tue, 23 Jun 2026 08:23:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"양자컴퓨팅 실제 사용 서둘러라\" 행정명령",
+      "link": "https://www.yna.co.kr/view/AKR20260623022400009",
+      "source": "연합뉴스 국제",
+      "ts": 1782169243000,
+      "pub": "Tue, 23 Jun 2026 08:00:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"미국 태양광업체들, 한국산 셀 '관세우회' 의혹 조사 청원\"",
+      "link": "https://www.yna.co.kr/view/AKR20260623020100009",
+      "source": "연합뉴스 국제",
+      "ts": 1782168937000,
+      "pub": "Tue, 23 Jun 2026 07:55:37 +0900",
       "sentiment": "neutral"
     },
     {
@@ -68,44 +84,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "19년간 美 Fed 이끈 그린스펀 前의장 별세",
-      "link": "https://www.hankyung.com/article/2026062214611",
-      "source": "한국경제",
-      "ts": 1782146135000,
-      "pub": "Tue, 23 Jun 2026 01:35:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"이스라엘·헤즈볼라 전쟁에 레바논 주택 1만1천여채 완파\"",
       "link": "https://www.yna.co.kr/view/AKR20260623001900079",
       "source": "연합뉴스 국제",
       "ts": 1782143822000,
       "pub": "Tue, 23 Jun 2026 00:57:02 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "레이건부터 부시까지…美 경제황금기 이끈 'Fed의 전설'",
-      "link": "https://www.hankyung.com/article/2026062214631",
-      "source": "한국경제",
-      "ts": 1782143079000,
-      "pub": "Tue, 23 Jun 2026 00:44:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "세계 경제 쥐락펴락…그린스펀 前 연준 의장 별세 '향년 100세' [종합]",
-      "link": "https://www.hankyung.com/article/2026062214727",
-      "source": "한국경제",
-      "ts": 1782138863000,
-      "pub": "Mon, 22 Jun 2026 23:34:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'연준의 마에스트로'인가 '금융위기 주범'인가…그린스펀 전 의장 별세 [Fed워치]",
-      "link": "https://www.hankyung.com/article/202606221458i",
-      "source": "한국경제",
-      "ts": 1782135986000,
-      "pub": "Mon, 22 Jun 2026 22:46:26 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "그린스펀 前연준의장 별세…美4대정권 19년간 세계경제 쥐락펴락(종합)",
@@ -122,14 +106,6 @@
       "ts": 1782135509000,
       "pub": "Mon, 22 Jun 2026 22:38:29 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "'최고의 연준의장' '금융위기 초래' 상반되는 평가 받았던 앨런 그린스펀 별세",
-      "link": "https://www.hankyung.com/article/202606221435i",
-      "source": "한국경제",
-      "ts": 1782131876000,
-      "pub": "Mon, 22 Jun 2026 21:37:56 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "'19년 재임' 앨런 그린스펀 前연준 의장 별세…향년 100세",

@@ -1,8 +1,40 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-21T22:58:34.771Z",
-  "count": 9,
+  "updated_at": "2026-06-22T00:10:08.494Z",
+  "count": 10,
   "items": [
+    {
+      "title": "\"또 그대로?\" 갤럭시S27, 카메라 센서 6년째 재탕하나 [IT썰]",
+      "link": "https://www.mt.co.kr/tech/2026/06/22/2026062208194425762",
+      "source": "머니투데이",
+      "ts": 1782086570000,
+      "pub": "Mon, 22 Jun 2026 09:02:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼성생명, 목표가 59만…삼성전자 지분가치 반영\"-대신",
+      "link": "https://www.mt.co.kr/stock/2026/06/22/2026062208215315748",
+      "source": "머니투데이",
+      "ts": 1782085362000,
+      "pub": "Mon, 22 Jun 2026 08:42:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "iM증권 \"내년까지 반도체 호황\"…'삼전닉스' 목표가 20%대↑",
+      "link": "https://www.yna.co.kr/view/AKR20260622018800008",
+      "source": "연합뉴스 경제",
+      "ts": 1782084588000,
+      "pub": "Mon, 22 Jun 2026 08:29:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼전닉스는 성과급 잔치라던데\"…벌어지는 격차에 '한숨'",
+      "link": "https://www.hankyung.com/article/2026062292917",
+      "source": "한국경제",
+      "ts": 1782082844000,
+      "pub": "Mon, 22 Jun 2026 08:00:44 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"삼성생명, 삼성전자 지분가치 재평가 필요…목표가↑\"",
       "link": "https://www.hankyung.com/article/2026062292906",
@@ -44,35 +76,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "메모리 가격에 팀 쿡도 절레절레… 날개 편 'D램'",
-      "link": "https://www.mt.co.kr/industry/2026/06/22/2026062119420448104",
-      "source": "머니투데이",
-      "ts": 1782068700000,
-      "pub": "Mon, 22 Jun 2026 04:05:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"스마트폰 때문에 더 불편\"…삼성전자가 꺼낸 '비장의 무기'",
       "link": "https://www.hankyung.com/article/2026062190947",
       "source": "한국경제",
       "ts": 1782044102000,
       "pub": "Sun, 21 Jun 2026 21:15:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 돈잔치가 살린다?…적자 위기 건보 '4.6조 대박'",
-      "link": "https://www.hankyung.com/article/2026062189191",
-      "source": "한국경제",
-      "ts": 1782034515000,
-      "pub": "Sun, 21 Jun 2026 18:35:15 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "삼성전자, 평택캠퍼스 '마지막 반도체 공장' 본격 착공",
-      "link": "https://www.hankyung.com/article/2026062189891",
-      "source": "한국경제",
-      "ts": 1782034231000,
-      "pub": "Sun, 21 Jun 2026 18:30:31 +0900",
       "sentiment": "neutral"
     }
   ]

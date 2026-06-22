@@ -1,8 +1,80 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-21T22:58:34.772Z",
-  "count": 11,
+  "updated_at": "2026-06-22T00:10:08.495Z",
+  "count": 17,
   "items": [
+    {
+      "title": "\"SK하이닉스, 실적 변동성 낮춰…목표가 430만원\"-한화",
+      "link": "https://www.mt.co.kr/stock/2026/06/22/2026062207570178412",
+      "source": "머니투데이",
+      "ts": 1782086528000,
+      "pub": "Mon, 22 Jun 2026 09:02:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "NH아문디운용, K-반도체 ETF에 SK스퀘어 신규 편입",
+      "link": "https://www.yna.co.kr/view/AKR20260622028400008",
+      "source": "연합뉴스 경제",
+      "ts": 1782086473000,
+      "pub": "Mon, 22 Jun 2026 09:01:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "6월 1~20일 수출 '역대 최대' 경신…반도체 255억달러",
+      "link": "https://www.mt.co.kr/economy/2026/06/22/2026062208212566271",
+      "source": "머니투데이",
+      "ts": 1782086400000,
+      "pub": "Mon, 22 Jun 2026 09:00:00 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[속보]6월 1~20일 수출 60.4%↑…반도체 188.4% 증가",
+      "link": "https://www.mt.co.kr/economy/2026/06/22/2026062208204579755",
+      "source": "머니투데이",
+      "ts": 1782086400000,
+      "pub": "Mon, 22 Jun 2026 09:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한울반도체, 중기부 국책과제 통한 MLCC AI검사장비 고도화 추진",
+      "link": "https://www.mt.co.kr/stock/2026/06/22/2026062208090969926",
+      "source": "머니투데이",
+      "ts": 1782084593000,
+      "pub": "Mon, 22 Jun 2026 08:29:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "iM증권 \"내년까지 반도체 호황\"…'삼전닉스' 목표가 20%대↑",
+      "link": "https://www.yna.co.kr/view/AKR20260622018800008",
+      "source": "연합뉴스 경제",
+      "ts": 1782084588000,
+      "pub": "Mon, 22 Jun 2026 08:29:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"SK스퀘어, 하이닉스 배당금으로 M&A 나설 전망…목표가↑\"-NH",
+      "link": "https://www.hankyung.com/article/2026062293956",
+      "source": "한국경제",
+      "ts": 1782083881000,
+      "pub": "Mon, 22 Jun 2026 08:18:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한투증권, 반도체 '비중 확대' 유지…\"실적 여전히 우상향\"",
+      "link": "https://www.yna.co.kr/view/AKR20260622017100008",
+      "source": "연합뉴스 경제",
+      "ts": 1782083706000,
+      "pub": "Mon, 22 Jun 2026 08:15:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK스퀘어, 반도체 M&A 후보 지속 검토 중…목표가 270만-NH",
+      "link": "https://www.mt.co.kr/stock/2026/06/22/2026062208025096682",
+      "source": "머니투데이",
+      "ts": 1782083024000,
+      "pub": "Mon, 22 Jun 2026 08:03:44 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "반도체 랠리 쭉 갈까…이번주 '마이크론' 실적에 쏠린 눈",
       "link": "https://www.hankyung.com/article/202606218652i",
@@ -28,19 +100,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "일만피 고지 넘나… 마이크론 실적 분수령",
+      "title": "돌아온 외국인, '1만피' 넘을까...마이크론 실적이 분수령",
       "link": "https://www.mt.co.kr/stock/2026/06/22/2026062119460786692",
       "source": "머니투데이",
       "ts": 1782069600000,
       "pub": "Mon, 22 Jun 2026 04:20:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "메모리 가격에 팀 쿡도 절레절레… 날개 편 'D램'",
-      "link": "https://www.mt.co.kr/industry/2026/06/22/2026062119420448104",
-      "source": "머니투데이",
-      "ts": 1782068700000,
-      "pub": "Mon, 22 Jun 2026 04:05:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -49,22 +113,6 @@
       "source": "한국경제",
       "ts": 1782051332000,
       "pub": "Sun, 21 Jun 2026 23:15:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"캘리포니아 초대\" 2주만에 LG그룹, 엔비디아 본사로 대규모 출장",
-      "link": "https://www.mt.co.kr/industry/2026/06/21/2026062120272981703",
-      "source": "머니투데이",
-      "ts": 1782042871000,
-      "pub": "Sun, 21 Jun 2026 20:54:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 평택캠퍼스 '마지막 반도체 공장' 본격 착공",
-      "link": "https://www.hankyung.com/article/2026062189891",
-      "source": "한국경제",
-      "ts": 1782034231000,
-      "pub": "Sun, 21 Jun 2026 18:30:31 +0900",
       "sentiment": "neutral"
     },
     {

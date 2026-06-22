@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-21T22:58:34.769Z",
-  "count": 42,
+  "updated_at": "2026-06-22T00:10:08.493Z",
+  "count": 39,
   "items": [
+    {
+      "title": "'연준 선제안내 없애면 금리 올라갈 것'…전문가들 경고",
+      "link": "https://www.yna.co.kr/view/AKR20260622019100009",
+      "source": "연합뉴스 국제",
+      "ts": 1782084647000,
+      "pub": "Mon, 22 Jun 2026 08:30:47 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "레바논사태에 트럼프는 이란공격 위협…사안별 이견에 밤샘협상(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260622012500009",
+      "source": "연합뉴스 국제",
+      "ts": 1782084293000,
+      "pub": "Mon, 22 Jun 2026 08:24:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "워시의 Fed 가이던스 축소, 미국 차입비용 상승 우려",
+      "link": "https://www.hankyung.com/article/202606229380i",
+      "source": "한국경제",
+      "ts": 1782083779000,
+      "pub": "Mon, 22 Jun 2026 08:16:19 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[외신 에스프레소 영상] 워시 연준 의장의 '포워드 가이던스 폐지' 시사… 요동치는 美 국채 시장",
+      "link": "https://www.hankyung.com/article/202606229357i",
+      "source": "한국경제",
+      "ts": 1782083487000,
+      "pub": "Mon, 22 Jun 2026 08:11:27 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美-이란 파행 와중…네타냐후 \"레바논 계속 주둔, 핵무기 절대 안 돼\"",
       "link": "https://www.mt.co.kr/world/2026/06/22/2026062207193766552",
@@ -140,14 +172,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "종전 협상 중인데...트럼프 \"이란, 대리세력 안 막으면 다시 타격\"",
-      "link": "https://www.mt.co.kr/world/2026/06/21/2026062122533481343",
-      "source": "머니투데이",
-      "ts": 1782050460000,
-      "pub": "Sun, 21 Jun 2026 23:01:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"이란이 레바논 대리세력 막지 않으면 다시 타격할 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260621049800071",
       "source": "연합뉴스 국제",
@@ -177,14 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782039028000,
       "pub": "Sun, 21 Jun 2026 19:50:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"러시아-우크라이나 전쟁 후 미사일 생산 年 60% 증가\"",
-      "link": "https://www.hankyung.com/article/2026062189821",
-      "source": "한국경제",
-      "ts": 1782034274000,
-      "pub": "Sun, 21 Jun 2026 18:31:14 +0900",
       "sentiment": "neutral"
     },
     {
@@ -297,46 +313,6 @@
       "source": "연합뉴스 국제",
       "ts": 1781970502000,
       "pub": "Sun, 21 Jun 2026 00:48:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란군 \"호르무즈 재봉쇄…미·이스라엘 종전 MOU 위반 탓\"",
-      "link": "https://www.yna.co.kr/view/AKR20260620045400009",
-      "source": "연합뉴스 국제",
-      "ts": 1781962289000,
-      "pub": "Sat, 20 Jun 2026 22:31:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 이란군 \"호르무즈 다시 봉쇄…미·이스라엘 탓\"",
-      "link": "https://www.yna.co.kr/view/AKR20260620044800009",
-      "source": "연합뉴스 국제",
-      "ts": 1781961323000,
-      "pub": "Sat, 20 Jun 2026 22:15:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"伊총리, 지지율 위해 '사진 찍자' 계속 요청\" 거듭 주장",
-      "link": "https://www.yna.co.kr/view/AKR20260620043700009",
-      "source": "연합뉴스 국제",
-      "ts": 1781959397000,
-      "pub": "Sat, 20 Jun 2026 21:43:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "아슬아슬 레바논 휴전…\"이스라엘, 휴전 이튿날 공습\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260620035251009",
-      "source": "연합뉴스 국제",
-      "ts": 1781947136000,
-      "pub": "Sat, 20 Jun 2026 18:18:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "달러-원, 이스라엘·헤즈볼라 휴전에 하락 후 되돌림…1,531원 마감",
-      "link": "https://www.yna.co.kr/view/AKR20260620002000002",
-      "source": "연합뉴스 경제",
-      "ts": 1781890971000,
-      "pub": "Sat, 20 Jun 2026 02:42:51 +0900",
       "sentiment": "neutral"
     }
   ]

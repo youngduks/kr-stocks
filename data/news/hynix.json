@@ -1,38 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-22T12:41:38.392Z",
-  "count": 13,
+  "updated_at": "2026-06-22T17:24:18.985Z",
+  "count": 10,
   "items": [
+    {
+      "title": "\"망해가던 하이닉스 138배 키워\"…'경영인 최태원' 재평가 [강경주의 테크X]",
+      "link": "https://www.hankyung.com/article/2026062209446",
+      "source": "한국경제",
+      "ts": 1782133202000,
+      "pub": "Mon, 22 Jun 2026 22:00:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'SK하이닉스 2배 추종' 홍콩ETF…펀드 비용 순자산 40% 폭증 주의보",
       "link": "https://www.hankyung.com/article/202606221408i",
       "source": "한국경제",
       "ts": 1782129907000,
       "pub": "Mon, 22 Jun 2026 21:05:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[급등수사본부] 반도체 선단 공정 관련 수혜 기업 '브이엠' vs 시스템 반도체 팹리스 업체 '파두'",
-      "link": "https://www.mt.co.kr/stock/2026/06/22/2026062219077088990",
-      "source": "머니투데이",
-      "ts": 1782123637000,
-      "pub": "Mon, 22 Jun 2026 19:20:37 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "스페이스X, 4일간 약 3조원 순매수…반도체 3배 레버리지, 또 잭팟[서학픽]",
-      "link": "https://www.mt.co.kr/world/2026/06/22/2026062120285246566",
-      "source": "머니투데이",
-      "ts": 1782119100000,
-      "pub": "Mon, 22 Jun 2026 18:05:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "강훈식, 반도체 호황 '초과세수'에 \"미래세대 사업에 집중투자\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/22/2026062216493946200",
-      "source": "머니투데이",
-      "ts": 1782115245000,
-      "pub": "Mon, 22 Jun 2026 17:00:45 +0900",
       "sentiment": "neutral"
     },
     {
@@ -97,14 +81,6 @@
       "source": "연합뉴스 경제",
       "ts": 1782093401000,
       "pub": "Mon, 22 Jun 2026 10:56:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "마이크론 24일 실적 발표에 주목",
-      "link": "https://www.yna.co.kr/view/AKR20260622030300009",
-      "source": "연합뉴스 국제",
-      "ts": 1782087636000,
-      "pub": "Mon, 22 Jun 2026 09:20:36 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,58 +1,74 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-22T06:18:39.959Z",
-  "count": 19,
+  "updated_at": "2026-06-22T12:41:38.392Z",
+  "count": 13,
   "items": [
     {
-      "title": "하이닉스보다 더 오른 SK스퀘어...이 ETF에 20% 넘게 담겼다",
-      "link": "https://www.hankyung.com/article/202606220368i",
+      "title": "'SK하이닉스 2배 추종' 홍콩ETF…펀드 비용 순자산 40% 폭증 주의보",
+      "link": "https://www.hankyung.com/article/202606221408i",
       "source": "한국경제",
-      "ts": 1782106562000,
-      "pub": "Mon, 22 Jun 2026 14:36:02 +0900",
+      "ts": 1782129907000,
+      "pub": "Mon, 22 Jun 2026 21:05:07 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"반도체 우려할 때 아니다\"…더 사도 되는 이유 봤더니",
-      "link": "https://www.hankyung.com/article/202606220379i",
-      "source": "한국경제",
-      "ts": 1782104778000,
-      "pub": "Mon, 22 Jun 2026 14:06:18 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "SK하이닉스에 '시총 1위' 내준 삼성전자, 하락 전환...코스피도 '약세'",
-      "link": "https://www.mt.co.kr/stock/2026/06/22/2026062214032138046",
+      "title": "[급등수사본부] 반도체 선단 공정 관련 수혜 기업 '브이엠' vs 시스템 반도체 팹리스 업체 '파두'",
+      "link": "https://www.mt.co.kr/stock/2026/06/22/2026062219077088990",
       "source": "머니투데이",
-      "ts": 1782104693000,
-      "pub": "Mon, 22 Jun 2026 14:04:53 +0900",
-      "sentiment": "negative"
+      "ts": 1782123637000,
+      "pub": "Mon, 22 Jun 2026 19:20:37 +0900",
+      "sentiment": "positive"
     },
     {
-      "title": "[더벨]한울반도체, MLCC AI 검사장비 고도화 추진",
-      "link": "https://www.mt.co.kr/stock/2026/06/22/2026062213569651100",
+      "title": "스페이스X, 4일간 약 3조원 순매수…반도체 3배 레버리지, 또 잭팟[서학픽]",
+      "link": "https://www.mt.co.kr/world/2026/06/22/2026062120285246566",
       "source": "머니투데이",
-      "ts": 1782104426000,
-      "pub": "Mon, 22 Jun 2026 14:00:26 +0900",
+      "ts": 1782119100000,
+      "pub": "Mon, 22 Jun 2026 18:05:00 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "SK하이닉스, 삼성전자 시총 첫 추월…26년 만에 코스피 지각변동",
-      "link": "https://www.hankyung.com/article/202606220331i",
-      "source": "한국경제",
-      "ts": 1782102700000,
-      "pub": "Mon, 22 Jun 2026 13:31:40 +0900",
+      "title": "강훈식, 반도체 호황 '초과세수'에 \"미래세대 사업에 집중투자\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/22/2026062216493946200",
+      "source": "머니투데이",
+      "ts": 1782115245000,
+      "pub": "Mon, 22 Jun 2026 17:00:45 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "26년 '삼성 천하' 끝났다…SK하이닉스, 코스피 새 대장주 등극 [종합]",
-      "link": "https://www.hankyung.com/article/2026062203336",
-      "source": "한국경제",
-      "ts": 1782101205000,
-      "pub": "Mon, 22 Jun 2026 13:06:45 +0900",
+      "title": "하이닉스, 삼전 제치고 시총 1위…우선주 포함시 삼전 1위 사수(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260622063152008",
+      "source": "연합뉴스 경제",
+      "ts": 1782114751000,
+      "pub": "Mon, 22 Jun 2026 16:52:31 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "SK하이닉스, 삼전 제치고 코스피 시총 1위…25년만 대장주 교체(종합)",
+      "title": "아이티엠반도체 \"종속회사 ITM에 307억원 출자\"",
+      "link": "https://www.yna.co.kr/view/AKR20260622125600008",
+      "source": "연합뉴스 경제",
+      "ts": 1782114418000,
+      "pub": "Mon, 22 Jun 2026 16:46:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] LG그룹주, 엔비디아와 피지컬AI 협력 논의 소식에 상승(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260622034551008",
+      "source": "연합뉴스 경제",
+      "ts": 1782110886000,
+      "pub": "Mon, 22 Jun 2026 15:48:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"AI 반도체 붐에 車 디스플레이칩도 쑥쑥…대만 하이맥스 약진\"",
+      "link": "https://www.yna.co.kr/view/AKR20260622109800009",
+      "source": "연합뉴스 국제",
+      "ts": 1782108912000,
+      "pub": "Mon, 22 Jun 2026 15:15:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하이닉스, 삼전 제치고 시총 1위…우선주 포함시 삼전 1위 사수(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260622063151008",
       "source": "연합뉴스 경제",
       "ts": 1782100961000,
@@ -61,34 +77,10 @@
     },
     {
       "title": "[속보] SK하이닉스, 삼성전자 제치고 코스피 시총 1위 등극",
-      "link": "https://www.hankyung.com/article/2026062203127",
-      "source": "한국경제",
-      "ts": 1782099852000,
-      "pub": "Mon, 22 Jun 2026 12:44:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] SK하이닉스, 삼성전자 제치고 코스피 시총 1위 등극",
       "link": "https://www.yna.co.kr/view/AKR20260622083100008",
       "source": "연합뉴스 경제",
       "ts": 1782099813000,
       "pub": "Mon, 22 Jun 2026 12:43:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "화장실 기업의 반도체 도전...AI 부품에 8000억원 투자",
-      "link": "https://www.hankyung.com/article/202606229211i",
-      "source": "한국경제",
-      "ts": 1782097207000,
-      "pub": "Mon, 22 Jun 2026 12:00:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 던진 1% 초고수, 남몰래 쓸어담은 종목의 정체는",
-      "link": "https://www.hankyung.com/article/202606220248i",
-      "source": "한국경제",
-      "ts": 1782096854000,
-      "pub": "Mon, 22 Jun 2026 11:54:14 +0900",
       "sentiment": "neutral"
     },
     {
@@ -108,51 +100,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "한화증권, SK하이닉스 목표가 430만원으로 상향…\"호실적 지속\"",
-      "link": "https://www.yna.co.kr/view/AKR20260622058200008",
-      "source": "연합뉴스 경제",
-      "ts": 1782091725000,
-      "pub": "Mon, 22 Jun 2026 10:28:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성운용 \"'삼성 글로벌반도체펀드' 순자산 1조원 돌파\"",
-      "link": "https://www.yna.co.kr/view/AKR20260622055900008",
-      "source": "연합뉴스 경제",
-      "ts": 1782091180000,
-      "pub": "Mon, 22 Jun 2026 10:19:40 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[특징주] LG그룹주, 엔비디아와 피지컬AI 협력 논의 소식에 강세",
-      "link": "https://www.yna.co.kr/view/AKR20260622034500008",
-      "source": "연합뉴스 경제",
-      "ts": 1782087900000,
-      "pub": "Mon, 22 Jun 2026 09:25:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "마이크론 24일 실적 발표에 주목",
       "link": "https://www.yna.co.kr/view/AKR20260622030300009",
       "source": "연합뉴스 국제",
       "ts": 1782087636000,
       "pub": "Mon, 22 Jun 2026 09:20:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "6월 중순 수출 620억달러, 역대 최대…반도체 비중 40% 넘어(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260622029151002",
-      "source": "연합뉴스 경제",
-      "ts": 1782087436000,
-      "pub": "Mon, 22 Jun 2026 09:17:16 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "NH아문디운용, K-반도체 ETF에 SK스퀘어 신규 편입",
-      "link": "https://www.yna.co.kr/view/AKR20260622028400008",
-      "source": "연합뉴스 경제",
-      "ts": 1782086473000,
-      "pub": "Mon, 22 Jun 2026 09:01:13 +0900",
       "sentiment": "neutral"
     }
   ]

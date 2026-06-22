@@ -1,23 +1,87 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-22T06:18:39.957Z",
-  "count": 22,
+  "updated_at": "2026-06-22T12:41:38.390Z",
+  "count": 15,
   "items": [
     {
-      "title": "226억 들이부었는데 녹조발생 '굴욕'…트럼프 \"정신나간 이들 탓\"",
-      "link": "https://www.mt.co.kr/world/2026/06/22/2026062211095989759",
+      "title": "'최고의 연준의장' '금융위기 초래' 평가 받은 앨런 그린스펀 별세",
+      "link": "https://www.hankyung.com/article/202606221435i",
+      "source": "한국경제",
+      "ts": 1782131876000,
+      "pub": "Mon, 22 Jun 2026 21:37:56 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "앨런 그린스펀 전 연준 의장 별세…향년 100세",
+      "link": "https://www.mt.co.kr/world/2026/06/22/2026062220242866398",
       "source": "머니투데이",
-      "ts": 1782107191000,
-      "pub": "Mon, 22 Jun 2026 14:46:31 +0900",
+      "ts": 1782129494000,
+      "pub": "Mon, 22 Jun 2026 20:58:14 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "이 사진 한장에 파탄 위기…트럼프-멜로니 '설전 폭발'",
-      "link": "https://www.hankyung.com/article/2026062298967",
-      "source": "한국경제",
-      "ts": 1782094185000,
-      "pub": "Mon, 22 Jun 2026 11:09:45 +0900",
-      "sentiment": "negative"
+      "title": "'19년 재임' 앨런 그린스펀 前연준 의장 별세…향년 100세",
+      "link": "https://www.yna.co.kr/view/AKR20260622157300071",
+      "source": "연합뉴스 국제",
+      "ts": 1782129393000,
+      "pub": "Mon, 22 Jun 2026 20:56:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 그린스펀 전 美연준 의장 별세…향년 100세",
+      "link": "https://www.yna.co.kr/view/AKR20260622157000071",
+      "source": "연합뉴스 국제",
+      "ts": 1782128845000,
+      "pub": "Mon, 22 Jun 2026 20:47:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 사면초가…이란은 공세 키우고 이스라엘·공화당 화낸다",
+      "link": "https://www.yna.co.kr/view/AKR20260622150100009",
+      "source": "연합뉴스 국제",
+      "ts": 1782124617000,
+      "pub": "Mon, 22 Jun 2026 19:36:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'프라하의 트럼프' 체코 정부, 공영방송 수신료 폐지 추진",
+      "link": "https://www.yna.co.kr/view/AKR20260622137000098",
+      "source": "연합뉴스 국제",
+      "ts": 1782117777000,
+      "pub": "Mon, 22 Jun 2026 17:42:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[쇼츠] 러, 우크라 드론 막다 정유공장 불태웠나",
+      "link": "https://www.yna.co.kr/view/AKR20260622131700704",
+      "source": "연합뉴스 국제",
+      "ts": 1782114274000,
+      "pub": "Mon, 22 Jun 2026 16:44:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] '뚜껑 열린 정유소' 영상 반전?…\"우크라 드론 막다 러가 오폭\"",
+      "link": "https://www.yna.co.kr/view/AKR20260622124000704",
+      "source": "연합뉴스 국제",
+      "ts": 1782112712000,
+      "pub": "Mon, 22 Jun 2026 16:18:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 트럼프의 새 에어포스원…\"전례 없는 호화, 내 취향\"",
+      "link": "https://www.yna.co.kr/view/AKR20260622122800704",
+      "source": "연합뉴스 국제",
+      "ts": 1782112338000,
+      "pub": "Mon, 22 Jun 2026 16:12:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"리플렉팅 풀 훼손 체포\" 위협 후 벌써 5명 체포",
+      "link": "https://www.yna.co.kr/view/AKR20260622116600009",
+      "source": "연합뉴스 국제",
+      "ts": 1782110843000,
+      "pub": "Mon, 22 Jun 2026 15:47:23 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "트럼프 지지받은 '우파 호랑이', 첫 도전서 콜롬비아 대권 예약",
@@ -38,7 +102,7 @@
     {
       "title": "\"경제 역대 최고\" 트럼프 자화자찬…여론조사선 최저 평가",
       "link": "https://www.yna.co.kr/view/AKR20260622028100009",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1782086721000,
       "pub": "Mon, 22 Jun 2026 09:05:21 +0900",
       "sentiment": "positive"
@@ -57,126 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782084293000,
       "pub": "Mon, 22 Jun 2026 08:24:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "레바논사태에 트럼프는 이란공격 위협…MOU후 첫협상부터 '삐걱'",
-      "link": "https://www.yna.co.kr/view/AKR20260622003700071",
-      "source": "연합뉴스 국제",
-      "ts": 1782074126000,
-      "pub": "Mon, 22 Jun 2026 05:35:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 갈등중인 伊총리에 \"우린지켜줬는데 당신들은 외면했다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260622003100071",
-      "source": "연합뉴스 국제",
-      "ts": 1782073923000,
-      "pub": "Mon, 22 Jun 2026 05:32:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 발언 반박 주이스라엘 美대사, \"SNS 보니 아직 안잘렸다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260622002100079",
-      "source": "연합뉴스 국제",
-      "ts": 1782067499000,
-      "pub": "Mon, 22 Jun 2026 03:44:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 위협에 美·이란 스위스 협상 파행…이란측 협상장 이탈(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260622001251071",
-      "source": "연합뉴스 국제",
-      "ts": 1782062802000,
-      "pub": "Mon, 22 Jun 2026 02:26:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"이란 협상단, 트럼프 위협 반발해 스위스 협상장 떠나\"",
-      "link": "https://www.yna.co.kr/view/AKR20260622001200071",
-      "source": "연합뉴스 국제",
-      "ts": 1782061667000,
-      "pub": "Mon, 22 Jun 2026 02:07:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '우라늄농축권 유지' 이란대통령 발언에 \"입 조심하라\"",
-      "link": "https://www.yna.co.kr/view/AKR20260622001100071",
-      "source": "연합뉴스 국제",
-      "ts": 1782061509000,
-      "pub": "Mon, 22 Jun 2026 02:05:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키 '민간인 학살' 역사 논쟁에 폴란드 최고훈장 반납(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260621025351009",
-      "source": "연합뉴스 국제",
-      "ts": 1782053439000,
-      "pub": "Sun, 21 Jun 2026 23:50:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"영국 총리 사임할 것…이민·에너지서 큰 실패\"",
-      "link": "https://www.yna.co.kr/view/AKR20260621051000071",
-      "source": "연합뉴스 국제",
-      "ts": 1782052711000,
-      "pub": "Sun, 21 Jun 2026 23:38:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘 국방 \"레바논 위협 제거에 제한 없어…군대 철수 안해\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260621046151079",
-      "source": "연합뉴스 국제",
-      "ts": 1782052378000,
-      "pub": "Sun, 21 Jun 2026 23:32:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란이 레바논 대리세력 막지 않으면 다시 타격할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260621049800071",
-      "source": "연합뉴스 국제",
-      "ts": 1782049872000,
-      "pub": "Sun, 21 Jun 2026 22:51:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란이 레바논 대리세력 막지 않으면 다시 타격할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260621049700071",
-      "source": "연합뉴스 국제",
-      "ts": 1782049053000,
-      "pub": "Sun, 21 Jun 2026 22:37:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘 국방 \"레바논 위협 제거에 제한 없어…군대 철수 안해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260621046100079",
-      "source": "연합뉴스 국제",
-      "ts": 1782041365000,
-      "pub": "Sun, 21 Jun 2026 20:29:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "100년 반짝이던 리플렉팅풀 졸지에 음모론…트럼프 \"체포\" 위협",
-      "link": "https://www.yna.co.kr/view/AKR20260621040200009",
-      "source": "연합뉴스 국제",
-      "ts": 1782039028000,
-      "pub": "Sun, 21 Jun 2026 19:50:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘인 92% \"이란과 전쟁·종전 합의 승자는 이란\"",
-      "link": "https://www.yna.co.kr/view/AKR20260621039300079",
-      "source": "연합뉴스 국제",
-      "ts": 1782031869000,
-      "pub": "Sun, 21 Jun 2026 17:51:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘 극우장관 \"헤즈볼라 무장해제까지 레바논에 군대 주둔\"",
-      "link": "https://www.yna.co.kr/view/AKR20260621035900079",
-      "source": "연합뉴스 국제",
-      "ts": 1782029114000,
-      "pub": "Sun, 21 Jun 2026 17:05:14 +0900",
       "sentiment": "neutral"
     }
   ]

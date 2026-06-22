@@ -1,22 +1,38 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-22T20:31:54.599Z",
-  "count": 6,
+  "updated_at": "2026-06-22T22:30:07.881Z",
+  "count": 8,
   "items": [
     {
-      "title": "원금 녹으면 어쩌려고...\"10조 더 넣어\" 삼전닉스 2배 '아찔 베팅'",
-      "link": "https://www.mt.co.kr/stock/2026/06/23/2026062219541826219",
-      "source": "머니투데이",
-      "ts": 1782158220000,
-      "pub": "Tue, 23 Jun 2026 04:57:00 +0900",
+      "title": "'삼전닉스' 성과급·주가 호조에…집값·임금 상승 기대감",
+      "link": "https://www.hankyung.com/article/2026062316107",
+      "source": "한국경제",
+      "ts": 1782165744000,
+      "pub": "Tue, 23 Jun 2026 07:02:24 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "靑 \"반도체 세수 미래세대에 집중 투자\"…李대통령, 이재용 회동",
+      "link": "https://www.hankyung.com/article/2026062315497",
+      "source": "한국경제",
+      "ts": 1782162823000,
+      "pub": "Tue, 23 Jun 2026 06:13:43 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"삼전닉스 레버리지ETF 드러눕더라도 막았어야\"",
-      "link": "https://www.mt.co.kr/stock/2026/06/23/2026062219432454573",
-      "source": "머니투데이",
-      "ts": 1782155100000,
-      "pub": "Tue, 23 Jun 2026 04:05:00 +0900",
+      "title": "'삼전닉스' 성과급·주가 상승에 집값·임금 상승 기대도↑",
+      "link": "https://www.yna.co.kr/view/AKR20260622133700002",
+      "source": "연합뉴스 경제",
+      "ts": 1782162006000,
+      "pub": "Tue, 23 Jun 2026 06:00:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "마이크론, 앤트로픽과 AI인프라 협약…메모리 공급·투자 계약",
+      "link": "https://www.yna.co.kr/view/AKR20260623009600091",
+      "source": "연합뉴스 국제",
+      "ts": 1782161551000,
+      "pub": "Tue, 23 Jun 2026 05:52:31 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,14 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-22T20:31:54.600Z",
-  "count": 11,
+  "updated_at": "2026-06-22T22:30:07.881Z",
+  "count": 10,
   "items": [
     {
-      "title": "25년만에 바뀐 코스피 왕좌… SK하이닉스 '시총1위'",
-      "link": "https://www.mt.co.kr/stock/2026/06/23/2026062219452584397",
-      "source": "머니투데이",
-      "ts": 1782155040000,
-      "pub": "Tue, 23 Jun 2026 04:04:00 +0900",
+      "title": "靑 \"반도체 세수 미래세대에 집중 투자\"…李대통령, 이재용 회동",
+      "link": "https://www.hankyung.com/article/2026062315497",
+      "source": "한국경제",
+      "ts": 1782162823000,
+      "pub": "Tue, 23 Jun 2026 06:13:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "마이크론, 앤트로픽과 AI인프라 협약…메모리 공급·투자 계약",
+      "link": "https://www.yna.co.kr/view/AKR20260623009600091",
+      "source": "연합뉴스 국제",
+      "ts": 1782161551000,
+      "pub": "Tue, 23 Jun 2026 05:52:31 +0900",
       "sentiment": "neutral"
     },
     {
@@ -26,14 +34,6 @@
       "ts": 1782129907000,
       "pub": "Mon, 22 Jun 2026 21:05:07 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[급등수사본부] 반도체 선단 공정 관련 수혜 기업 '브이엠' vs 시스템 반도체 팹리스 업체 '파두'",
-      "link": "https://www.mt.co.kr/stock/2026/06/22/2026062219077088990",
-      "source": "머니투데이",
-      "ts": 1782123637000,
-      "pub": "Mon, 22 Jun 2026 19:20:37 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "하이닉스, 삼전 제치고 시총 1위…우선주 포함시 삼전 1위 사수(종합2보)",
@@ -81,14 +81,6 @@
       "source": "연합뉴스 경제",
       "ts": 1782099813000,
       "pub": "Mon, 22 Jun 2026 12:43:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "본업보다 낫네…日욕조·세제 회사, 반도체 사업서 재미 '쏠쏠'",
-      "link": "https://www.yna.co.kr/view/AKR20260622075600073",
-      "source": "연합뉴스 국제",
-      "ts": 1782095510000,
-      "pub": "Mon, 22 Jun 2026 11:31:50 +0900",
       "sentiment": "neutral"
     }
   ]

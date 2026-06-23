@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-23T22:58:05.081Z",
-  "count": 18,
+  "updated_at": "2026-06-23T23:53:31.298Z",
+  "count": 17,
   "items": [
+    {
+      "title": "美법률기업, 트럼프 행정부의 앤트로픽 AI 수출금지에 소송",
+      "link": "https://www.yna.co.kr/view/AKR20260624025000091",
+      "source": "연합뉴스 국제",
+      "ts": 1782256117000,
+      "pub": "Wed, 24 Jun 2026 08:08:37 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "10번 시도 끝에…美상원서 트럼프 대이란 전쟁 저지 결의안 통과",
       "link": "https://www.yna.co.kr/view/AKR20260624008400071",
@@ -17,6 +25,14 @@
       "source": "연합뉴스 국제",
       "ts": 1782247250000,
       "pub": "Wed, 24 Jun 2026 05:40:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美하원 이어 상원도…'이란전쟁 중단' 결의안 통과, 트럼프에 제동",
+      "link": "https://www.mt.co.kr/world/2026/06/24/2026062405294888195",
+      "source": "머니투데이",
+      "ts": 1782246904000,
+      "pub": "Wed, 24 Jun 2026 05:35:04 +0900",
       "sentiment": "neutral"
     },
     {
@@ -60,35 +76,11 @@
       "sentiment": "negative"
     },
     {
-      "title": "푸틴 \"나토, 러시아와 전쟁 준비\"…서방 군비 확대 비판",
-      "link": "https://www.hankyung.com/article/2026062338827",
-      "source": "한국경제",
-      "ts": 1782221322000,
-      "pub": "Tue, 23 Jun 2026 22:28:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"미국 농산물 사라\"…이란 \"돈 쓸 곳 우리가 결정\"",
-      "link": "https://www.hankyung.com/article/202606233854i",
-      "source": "한국경제",
-      "ts": 1782219655000,
-      "pub": "Tue, 23 Jun 2026 22:00:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "젤렌스키, 우크라 재건회의 불참…폴란드와 역사갈등 여파",
       "link": "https://www.yna.co.kr/view/AKR20260623171000109",
       "source": "연합뉴스 국제",
       "ts": 1782218211000,
       "pub": "Tue, 23 Jun 2026 21:36:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란, 최고 수준 핵사찰 합의\"…이란 부인에 반박",
-      "link": "https://www.hankyung.com/article/2026062338467",
-      "source": "한국경제",
-      "ts": 1782217876000,
-      "pub": "Tue, 23 Jun 2026 21:31:16 +0900",
       "sentiment": "neutral"
     },
     {

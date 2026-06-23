@@ -1,8 +1,120 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-23T22:58:05.083Z",
-  "count": 8,
+  "updated_at": "2026-06-23T23:53:31.299Z",
+  "count": 22,
   "items": [
+    {
+      "title": "2028년까지 메모리 부족…\"330만닉스 간다\" 목표가 상향-현대차증권",
+      "link": "https://www.mt.co.kr/stock/2026/06/24/2026062408384085950",
+      "source": "머니투데이",
+      "ts": 1782258243000,
+      "pub": "Wed, 24 Jun 2026 08:44:03 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼전닉스 반도체공장 지은 '그 기술'…싱가포르 국가 공인받았다",
+      "link": "https://www.hankyung.com/article/202606233465i",
+      "source": "한국경제",
+      "ts": 1782257958000,
+      "pub": "Wed, 24 Jun 2026 08:39:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "KB증권 \"SK하이닉스, 12% 조정은 비중 확대 기회…목표가 유지\"",
+      "link": "https://www.yna.co.kr/view/AKR20260624027900008",
+      "source": "연합뉴스 경제",
+      "ts": 1782257460000,
+      "pub": "Wed, 24 Jun 2026 08:31:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체주 차익실현 쏟아져...美 유통·바이오 순환매 주목",
+      "link": "https://www.hankyung.com/article/202606244035i",
+      "source": "한국경제",
+      "ts": 1782257419000,
+      "pub": "Wed, 24 Jun 2026 08:30:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[외신 에스프레소]반도체주, 금리 공포와 AI 지출 우려로 월가 하락세 주도",
+      "link": "https://www.hankyung.com/article/202606244237i",
+      "source": "한국경제",
+      "ts": 1782256983000,
+      "pub": "Wed, 24 Jun 2026 08:23:03 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "SK하이닉스, 업황은 오히려 더 좋다…조정은 비중 확대 기회-KB",
+      "link": "https://www.mt.co.kr/stock/2026/06/24/2026062408202215375",
+      "source": "머니투데이",
+      "ts": 1782256887000,
+      "pub": "Wed, 24 Jun 2026 08:21:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI 투자 부담에 반도체주 급락…나스닥 2.21% 하락",
+      "link": "https://www.hankyung.com/article/202606244181i",
+      "source": "한국경제",
+      "ts": 1782256694000,
+      "pub": "Wed, 24 Jun 2026 08:18:14 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "하나증권 \"ISC, 반도체 테스트소켓 장기계약 협의…목표가↑\"",
+      "link": "https://www.yna.co.kr/view/AKR20260624026000008",
+      "source": "연합뉴스 경제",
+      "ts": 1782256496000,
+      "pub": "Wed, 24 Jun 2026 08:14:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"SK하이닉스, 변한 건 심리 뿐…조정은 비중 확대 기회\"-KB",
+      "link": "https://www.hankyung.com/article/2026062441806",
+      "source": "한국경제",
+      "ts": 1782256025000,
+      "pub": "Wed, 24 Jun 2026 08:07:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[마켓뷰] 美반도체도 급락…코스피 반등할까, 추가 조정 받을까",
+      "link": "https://www.yna.co.kr/view/AKR20260624022800008",
+      "source": "연합뉴스 경제",
+      "ts": 1782255932000,
+      "pub": "Wed, 24 Jun 2026 08:05:32 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"ISC, 반도체 소켓도 장기공급계약 움직임…목표가↑\"-하나",
+      "link": "https://www.mt.co.kr/stock/2026/06/24/2026062407580772640",
+      "source": "머니투데이",
+      "ts": 1782255793000,
+      "pub": "Wed, 24 Jun 2026 08:03:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'시총 1위의 저주' 진짜일까…SK하이닉스가 깨운 징크스",
+      "link": "https://www.hankyung.com/article/202606233394i",
+      "source": "한국경제",
+      "ts": 1782255613000,
+      "pub": "Wed, 24 Jun 2026 08:00:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "13% 폭락한 마이크론, 머스크 저격한 손정의…\"건강한 조정\"이라는 월가 [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202606243956i",
+      "source": "한국경제",
+      "ts": 1782255211000,
+      "pub": "Wed, 24 Jun 2026 07:53:31 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "반도체 투매에 주요지수 또 급락…마이크론 13%↓ [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026062440596",
+      "source": "한국경제",
+      "ts": 1782253797000,
+      "pub": "Wed, 24 Jun 2026 07:29:57 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "몸값 60%가 삼성전자…반도체 훈풍에 이 종목도 '들썩'",
       "link": "https://www.hankyung.com/article/202606233754i",
@@ -10,6 +122,14 @@
       "ts": 1782252005000,
       "pub": "Wed, 24 Jun 2026 07:00:05 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "'AI 거품론' 덮친 미 증시...반도체주 폭락, 나스닥 2.2%↓[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/06/24/2026062406063743863",
+      "source": "머니투데이",
+      "ts": 1782249238000,
+      "pub": "Wed, 24 Jun 2026 06:13:58 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "뉴욕증시, AI·반도체주 매도세에 하락…나스닥 2.2%↓(종합)",
@@ -26,14 +146,6 @@
       "ts": 1782248408000,
       "pub": "Wed, 24 Jun 2026 06:00:08 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "삼성·SK, 호남·충청 반도체 투자 검토…수백조원 규모 거론",
-      "link": "https://www.hankyung.com/article/2026062338317",
-      "source": "한국경제",
-      "ts": 1782216220000,
-      "pub": "Tue, 23 Jun 2026 21:03:40 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "삼성·SK, 호남·충청 반도체 클러스터 투자규모 수백조원 거론",

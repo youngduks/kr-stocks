@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-23T22:58:05.082Z",
-  "count": 6,
+  "updated_at": "2026-06-23T23:53:31.299Z",
+  "count": 7,
   "items": [
+    {
+      "title": "2028년까지 메모리 부족…\"330만닉스 간다\" 목표가 상향-현대차증권",
+      "link": "https://www.mt.co.kr/stock/2026/06/24/2026062408384085950",
+      "source": "머니투데이",
+      "ts": 1782258243000,
+      "pub": "Wed, 24 Jun 2026 08:44:03 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼전닉스 반도체공장 지은 '그 기술'…싱가포르 국가 공인받았다",
+      "link": "https://www.hankyung.com/article/202606233465i",
+      "source": "한국경제",
+      "ts": 1782257958000,
+      "pub": "Wed, 24 Jun 2026 08:39:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "갤럭시 워치 데이터, 신약 개발에 쓴다…삼성-알체디스 맞손",
+      "link": "https://www.mt.co.kr/tech/2026/06/24/2026062408060874688",
+      "source": "머니투데이",
+      "ts": 1782257345000,
+      "pub": "Wed, 24 Jun 2026 08:29:05 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "몸값 60%가 삼성전자…반도체 훈풍에 이 종목도 '들썩'",
       "link": "https://www.hankyung.com/article/202606233754i",
@@ -10,14 +34,6 @@
       "ts": 1782252005000,
       "pub": "Wed, 24 Jun 2026 07:00:05 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"하닉 시총, 삼전 넘으면 붕괴\"…한 달 전 이미 '경고' 나왔다 [돈앤톡]",
-      "link": "https://www.hankyung.com/article/2026062333366",
-      "source": "한국경제",
-      "ts": 1782212412000,
-      "pub": "Tue, 23 Jun 2026 20:00:12 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "\"우리가 제2의 삼전닉스 되겠다\"…정부, 벤처기업과 현장 간담회(종합)",
@@ -41,14 +57,6 @@
       "source": "연합뉴스 경제",
       "ts": 1782192318000,
       "pub": "Tue, 23 Jun 2026 14:25:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "1분기 기업 성장성·수익성 큰 폭↑…'삼전·닉스' 외에도 개선",
-      "link": "https://www.yna.co.kr/view/AKR20260623083300002",
-      "source": "연합뉴스 경제",
-      "ts": 1782183600000,
-      "pub": "Tue, 23 Jun 2026 12:00:00 +0900",
       "sentiment": "neutral"
     }
   ]

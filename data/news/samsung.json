@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-23T07:37:29.542Z",
-  "count": 9,
+  "updated_at": "2026-06-23T10:52:45.453Z",
+  "count": 6,
   "items": [
+    {
+      "title": "\"우리가 제2의 삼전닉스 되겠다\"…정부, 벤처기업과 현장 간담회(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260623078451030",
+      "source": "연합뉴스 경제",
+      "ts": 1782203426000,
+      "pub": "Tue, 23 Jun 2026 17:30:26 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'잘나가던' 삼전·닉스, 12%대 폭락…하락률 17년여만 최대(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260623043452008",
@@ -10,38 +18,6 @@
       "ts": 1782198956000,
       "pub": "Tue, 23 Jun 2026 16:15:56 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "삼성 HBM 핵심 거점 찾은 이재용…차세대 반도체 전략 점검",
-      "link": "https://www.hankyung.com/article/2026062330367",
-      "source": "한국경제",
-      "ts": 1782194752000,
-      "pub": "Tue, 23 Jun 2026 15:05:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"나 없으면 HBM 못 만든다\"…한미반도체, 내년 '1조 클럽' 달성 전망",
-      "link": "https://www.hankyung.com/article/202606232712i",
-      "source": "한국경제",
-      "ts": 1782194400000,
-      "pub": "Tue, 23 Jun 2026 15:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "법원 \"투표 배제 영향 작다\"…삼성전자 임금협약 가처분 기각",
-      "link": "https://www.hankyung.com/article/2026062330037",
-      "source": "한국경제",
-      "ts": 1782194205000,
-      "pub": "Tue, 23 Jun 2026 14:56:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"잘 먹고 갑니다\" 삼전 던진 외국인…스페이스X로 갈아타더니",
-      "link": "https://www.hankyung.com/article/2026062329347",
-      "source": "한국경제",
-      "ts": 1782193218000,
-      "pub": "Tue, 23 Jun 2026 14:40:18 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "외국인, 삼성전자 보유율 47.52%…약 13년만에 최저수준",

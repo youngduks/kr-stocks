@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-23T07:37:29.542Z",
-  "count": 11,
+  "updated_at": "2026-06-23T10:52:45.454Z",
+  "count": 9,
   "items": [
+    {
+      "title": "SK하이닉스, CEO 직속 '미래 반도체 전략 조직' 신설",
+      "link": "https://www.hankyung.com/article/2026062335701",
+      "source": "한국경제",
+      "ts": 1782206429000,
+      "pub": "Tue, 23 Jun 2026 18:20:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "김정관 장관 \"반도체 초과세수, 자원안보 강화에 써야\"",
+      "link": "https://www.hankyung.com/article/2026062336241",
+      "source": "한국경제",
+      "ts": 1782206094000,
+      "pub": "Tue, 23 Jun 2026 18:14:54 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "1분기 기업 영업이익률 13.2% 역대 최고…반도체 제외해도 개선(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260623083351002",
@@ -28,30 +44,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "삼성 HBM 핵심 거점 찾은 이재용…차세대 반도체 전략 점검",
-      "link": "https://www.hankyung.com/article/2026062330367",
-      "source": "한국경제",
-      "ts": 1782194752000,
-      "pub": "Tue, 23 Jun 2026 15:05:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"나 없으면 HBM 못 만든다\"…한미반도체, 내년 '1조 클럽' 달성 전망",
-      "link": "https://www.hankyung.com/article/202606232712i",
-      "source": "한국경제",
-      "ts": 1782194400000,
-      "pub": "Tue, 23 Jun 2026 15:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 ADR 상장 초읽기…이번주 금감원에 증권신고서 낸다",
-      "link": "https://www.hankyung.com/article/202606232918i",
-      "source": "한국경제",
-      "ts": 1782193642000,
-      "pub": "Tue, 23 Jun 2026 14:47:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"퀄컴, AI칩 스타트업 인수협상 막바지…엔비디아 도전 발판\"",
       "link": "https://www.yna.co.kr/view/AKR20260623075200009",
       "source": "연합뉴스 국제",
@@ -66,14 +58,6 @@
       "ts": 1782181182000,
       "pub": "Tue, 23 Jun 2026 11:19:42 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "반도체 핵심부품 멤브레인 관세 없앴다…\"업계 경쟁력에 도움\"",
-      "link": "https://www.yna.co.kr/view/AKR20260623042700002",
-      "source": "연합뉴스 경제",
-      "ts": 1782176490000,
-      "pub": "Tue, 23 Jun 2026 10:01:30 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "마이크론 실적, 높아진 눈높이 충족하나",

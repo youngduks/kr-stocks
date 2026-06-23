@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-23T07:37:29.541Z",
+  "updated_at": "2026-06-23T10:52:45.452Z",
   "count": 15,
   "items": [
+    {
+      "title": "日, 우크라 재건사업 수십억엔 펀드 조성",
+      "link": "https://www.hankyung.com/article/2026062336301",
+      "source": "한국경제",
+      "ts": 1782206219000,
+      "pub": "Tue, 23 Jun 2026 18:16:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정부, 망고 할당관세 적용 연장…계란 수입·할인 확대 추진",
+      "link": "https://www.yna.co.kr/view/AKR20260623159200030",
+      "source": "연합뉴스 경제",
+      "ts": 1782205247000,
+      "pub": "Tue, 23 Jun 2026 18:00:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美법원, 트럼프표 '유권자 검증 DB'에 제동…\"신성한 권리 위협\"",
+      "link": "https://www.yna.co.kr/view/AKR20260623157500009",
+      "source": "연합뉴스 국제",
+      "ts": 1782205135000,
+      "pub": "Tue, 23 Jun 2026 17:58:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "나토 수장, '트럼프 달래기'…연례 정상회의 앞두고 방미",
+      "link": "https://www.yna.co.kr/view/AKR20260623156200098",
+      "source": "연합뉴스 국제",
+      "ts": 1782205090000,
+      "pub": "Tue, 23 Jun 2026 17:58:10 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "남미, 치안·경제 불안에 트럼프식 우파 포퓰리즘 확산",
       "link": "https://www.yna.co.kr/view/AKR20260623121900009",
@@ -33,14 +65,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782178346000,
       "pub": "Tue, 23 Jun 2026 10:32:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 핵심부품 멤브레인 관세 없앴다…\"업계 경쟁력에 도움\"",
-      "link": "https://www.yna.co.kr/view/AKR20260623042700002",
-      "source": "연합뉴스 경제",
-      "ts": 1782176490000,
-      "pub": "Tue, 23 Jun 2026 10:01:30 +0900",
       "sentiment": "neutral"
     },
     {
@@ -97,30 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782160250000,
       "pub": "Tue, 23 Jun 2026 05:30:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라, 러 위성통신센터 공격…모스크바 공항 4곳 한때 폐쇄(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260622083452009",
-      "source": "연합뉴스 국제",
-      "ts": 1782150489000,
-      "pub": "Tue, 23 Jun 2026 02:48:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란, '핵 투명성' 보장 위해 주요 사찰 동의할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260623003800071",
-      "source": "연합뉴스 국제",
-      "ts": 1782150001000,
-      "pub": "Tue, 23 Jun 2026 02:40:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"이스라엘·헤즈볼라 전쟁에 레바논 주택 1만1천여채 완파\"",
-      "link": "https://www.yna.co.kr/view/AKR20260623001900079",
-      "source": "연합뉴스 국제",
-      "ts": 1782143822000,
-      "pub": "Tue, 23 Jun 2026 00:57:02 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-23T21:22:20.949Z",
-  "count": 9,
+  "updated_at": "2026-06-23T22:58:05.083Z",
+  "count": 8,
   "items": [
+    {
+      "title": "몸값 60%가 삼성전자…반도체 훈풍에 이 종목도 '들썩'",
+      "link": "https://www.hankyung.com/article/202606233754i",
+      "source": "한국경제",
+      "ts": 1782252005000,
+      "pub": "Wed, 24 Jun 2026 07:00:05 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "뉴욕증시, AI·반도체주 매도세에 하락…나스닥 2.2%↓(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260624006851072",
@@ -58,22 +66,6 @@
       "ts": 1782194802000,
       "pub": "Tue, 23 Jun 2026 15:06:42 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"퀄컴, AI칩 스타트업 인수협상 막바지…엔비디아 도전 발판\"",
-      "link": "https://www.yna.co.kr/view/AKR20260623075200009",
-      "source": "연합뉴스 국제",
-      "ts": 1782181580000,
-      "pub": "Tue, 23 Jun 2026 11:26:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] SK하이닉스·삼성전자, 장중 5%대 동반 급락(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260623043451008",
-      "source": "연합뉴스 경제",
-      "ts": 1782181182000,
-      "pub": "Tue, 23 Jun 2026 11:19:42 +0900",
-      "sentiment": "negative"
     }
   ]
 }

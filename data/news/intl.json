@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-23T10:52:45.452Z",
+  "updated_at": "2026-06-23T13:35:09.179Z",
   "count": 15,
   "items": [
+    {
+      "title": "젤렌스키, 우크라 재건회의 불참…폴란드와 역사갈등 여파",
+      "link": "https://www.yna.co.kr/view/AKR20260623171000109",
+      "source": "연합뉴스 국제",
+      "ts": 1782218211000,
+      "pub": "Tue, 23 Jun 2026 21:36:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란, 최고 수준 핵사찰 합의\"…이란 부인에 반박",
+      "link": "https://www.hankyung.com/article/2026062338467",
+      "source": "한국경제",
+      "ts": 1782217876000,
+      "pub": "Tue, 23 Jun 2026 21:31:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란, 최고 수준 핵 사찰 전면 동의\" 거듭 주장",
+      "link": "https://www.yna.co.kr/view/AKR20260623169800009",
+      "source": "연합뉴스 국제",
+      "ts": 1782217839000,
+      "pub": "Tue, 23 Jun 2026 21:30:39 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "日, 우크라 재건사업 수십억엔 펀드 조성",
       "link": "https://www.hankyung.com/article/2026062336301",
@@ -97,30 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782168937000,
       "pub": "Tue, 23 Jun 2026 07:55:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란 약속 안지키면 해야할 일 할 것…미국 존중해야\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260623008651071",
-      "source": "연합뉴스 국제",
-      "ts": 1782162502000,
-      "pub": "Tue, 23 Jun 2026 06:08:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 콜롬비아 대권유력 우파후보에 \"강력한 관계 구축하자\"",
-      "link": "https://www.yna.co.kr/view/AKR20260623008400071",
-      "source": "연합뉴스 국제",
-      "ts": 1782160680000,
-      "pub": "Tue, 23 Jun 2026 05:38:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 협상 순조…약속 안지키면 해야할 일 할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260623008600071",
-      "source": "연합뉴스 국제",
-      "ts": 1782160250000,
-      "pub": "Tue, 23 Jun 2026 05:30:50 +0900",
       "sentiment": "neutral"
     }
   ]

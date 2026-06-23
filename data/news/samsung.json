@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-23T10:52:45.453Z",
+  "updated_at": "2026-06-23T13:35:09.180Z",
   "count": 6,
   "items": [
+    {
+      "title": "\"하닉 시총, 삼전 넘으면 붕괴\"…한 달 전 경고 나왔었다 [돈앤톡]",
+      "link": "https://www.hankyung.com/article/2026062333366",
+      "source": "한국경제",
+      "ts": 1782212412000,
+      "pub": "Tue, 23 Jun 2026 20:00:12 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "\"우리가 제2의 삼전닉스 되겠다\"…정부, 벤처기업과 현장 간담회(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260623078451030",
@@ -42,14 +50,6 @@
       "ts": 1782181182000,
       "pub": "Tue, 23 Jun 2026 11:19:42 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "마이크론, 앤트로픽과 AI인프라 협약…메모리 공급·투자 계약",
-      "link": "https://www.yna.co.kr/view/AKR20260623009600091",
-      "source": "연합뉴스 국제",
-      "ts": 1782161551000,
-      "pub": "Tue, 23 Jun 2026 05:52:31 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

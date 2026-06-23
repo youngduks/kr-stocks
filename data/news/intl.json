@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-23T13:35:09.179Z",
-  "count": 15,
+  "updated_at": "2026-06-23T16:19:30.289Z",
+  "count": 16,
   "items": [
+    {
+      "title": "우크라 공세에…푸틴 \"평화회담 유리한 조건 만들려 공격 이어가\"",
+      "link": "https://www.yna.co.kr/view/AKR20260624000900108",
+      "source": "연합뉴스 국제",
+      "ts": 1782230872000,
+      "pub": "Wed, 24 Jun 2026 01:07:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "EU, 우크라·폴란드 역사 갈등 고조에 \"푸틴만 웃는다\" 우려(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260623171051109",
+      "source": "연합뉴스 국제",
+      "ts": 1782227055000,
+      "pub": "Wed, 24 Jun 2026 00:04:15 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "푸틴 \"나토, 러시아와 전쟁 준비\"…서방 군비 확대 비판",
+      "link": "https://www.hankyung.com/article/2026062338827",
+      "source": "한국경제",
+      "ts": 1782221322000,
+      "pub": "Tue, 23 Jun 2026 22:28:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"미국 농산물 사라\"…이란 \"돈 쓸 곳 우리가 결정\"",
+      "link": "https://www.hankyung.com/article/202606233854i",
+      "source": "한국경제",
+      "ts": 1782219655000,
+      "pub": "Tue, 23 Jun 2026 22:00:55 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "젤렌스키, 우크라 재건회의 불참…폴란드와 역사갈등 여파",
       "link": "https://www.yna.co.kr/view/AKR20260623171000109",
@@ -25,14 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782217839000,
       "pub": "Tue, 23 Jun 2026 21:30:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "日, 우크라 재건사업 수십억엔 펀드 조성",
-      "link": "https://www.hankyung.com/article/2026062336301",
-      "source": "한국경제",
-      "ts": 1782206219000,
-      "pub": "Tue, 23 Jun 2026 18:16:59 +0900",
       "sentiment": "neutral"
     },
     {
@@ -105,22 +129,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782173387000,
       "pub": "Tue, 23 Jun 2026 09:09:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"양자컴퓨팅 실제 사용 서둘러라\" 행정명령",
-      "link": "https://www.yna.co.kr/view/AKR20260623022400009",
-      "source": "연합뉴스 국제",
-      "ts": 1782169243000,
-      "pub": "Tue, 23 Jun 2026 08:00:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"미국 태양광업체들, 한국산 셀 '관세우회' 의혹 조사 청원\"",
-      "link": "https://www.yna.co.kr/view/AKR20260623020100009",
-      "source": "연합뉴스 국제",
-      "ts": 1782168937000,
-      "pub": "Tue, 23 Jun 2026 07:55:37 +0900",
       "sentiment": "neutral"
     }
   ]

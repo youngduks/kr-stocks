@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-23T19:00:42.587Z",
-  "count": 16,
+  "updated_at": "2026-06-23T21:22:20.948Z",
+  "count": 18,
   "items": [
+    {
+      "title": "10번 시도 끝에…美상원서 트럼프 대이란 전쟁 저지 결의안 통과",
+      "link": "https://www.yna.co.kr/view/AKR20260624008400071",
+      "source": "연합뉴스 국제",
+      "ts": 1782247617000,
+      "pub": "Wed, 24 Jun 2026 05:46:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 공정 합의 노력…IAEA, 적당한 시기 이란 갈것\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260624003151071",
+      "source": "연합뉴스 국제",
+      "ts": 1782247250000,
+      "pub": "Wed, 24 Jun 2026 05:40:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 행정부, 공공의료보험 부정수급자 대규모 기소",
+      "link": "https://www.yna.co.kr/view/AKR20260624006600072",
+      "source": "연합뉴스 국제",
+      "ts": 1782246470000,
+      "pub": "Wed, 24 Jun 2026 05:27:50 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "트럼프 \"IAEA 사찰단, 적당한 시기에 이란 현장 투입될 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260624003100071",
@@ -121,14 +145,6 @@
       "source": "연합뉴스 경제",
       "ts": 1782185669000,
       "pub": "Tue, 23 Jun 2026 12:34:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "BofA \"연준, 9월부터 연내 3회 금리인상 예상\"",
-      "link": "https://www.yna.co.kr/view/AKR20260623059700009",
-      "source": "연합뉴스 국제",
-      "ts": 1782178346000,
-      "pub": "Tue, 23 Jun 2026 10:32:26 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,15 +1,47 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-22T23:58:56.700Z",
+  "updated_at": "2026-06-23T03:26:47.604Z",
   "count": 7,
   "items": [
     {
-      "title": "[속보] 삼성전자, HBM4 매출 업계 최초 10억달러 돌파",
-      "link": "https://www.hankyung.com/article/2026062316427",
+      "title": "1분기 기업 성장성·수익성 큰 폭↑…'삼전·닉스' 외에도 개선",
+      "link": "https://www.yna.co.kr/view/AKR20260623083300002",
+      "source": "연합뉴스 경제",
+      "ts": 1782183600000,
+      "pub": "Tue, 23 Jun 2026 12:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] SK하이닉스·삼성전자, 장중 5%대 동반 급락(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260623043451008",
+      "source": "연합뉴스 경제",
+      "ts": 1782181182000,
+      "pub": "Tue, 23 Jun 2026 11:19:42 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "조정장에도 반도체 담았다…1% 초고수, SK하이닉스·삼성전자 집중 매수",
+      "link": "https://www.hankyung.com/article/202606232487i",
       "source": "한국경제",
-      "ts": 1782169343000,
-      "pub": "Tue, 23 Jun 2026 08:02:23 +0900",
-      "sentiment": "positive"
+      "ts": 1782181103000,
+      "pub": "Tue, 23 Jun 2026 11:18:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젠슨 황 \"HBM 더 달라\" 요청하더니…삼전닉스 경쟁 불 붙었다",
+      "link": "https://www.hankyung.com/article/202606231974g",
+      "source": "한국경제",
+      "ts": 1782177737000,
+      "pub": "Tue, 23 Jun 2026 10:22:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] SK하이닉스, 장초반 2%대 하락…삼전도 3.8%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260623043400008",
+      "source": "연합뉴스 경제",
+      "ts": 1782174740000,
+      "pub": "Tue, 23 Jun 2026 09:32:20 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "'삼전닉스' 성과급·주가 상승에 집값·임금 상승 기대도↑",
@@ -25,38 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782161551000,
       "pub": "Tue, 23 Jun 2026 05:52:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스, 삼전 제치고 시총 1위…우선주 포함시 삼전 1위 사수(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260622063152008",
-      "source": "연합뉴스 경제",
-      "ts": 1782114751000,
-      "pub": "Mon, 22 Jun 2026 16:52:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 하닉, 5%대 급등해 '290만 닉스'…삼전은 약보합 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260622036651008",
-      "source": "연합뉴스 경제",
-      "ts": 1782111024000,
-      "pub": "Mon, 22 Jun 2026 15:50:24 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "하이닉스, 삼전 제치고 시총 1위…우선주 포함시 삼전 1위 사수(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260622063151008",
-      "source": "연합뉴스 경제",
-      "ts": 1782100961000,
-      "pub": "Mon, 22 Jun 2026 13:02:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] SK하이닉스, 삼성전자 제치고 코스피 시총 1위 등극",
-      "link": "https://www.yna.co.kr/view/AKR20260622083100008",
-      "source": "연합뉴스 경제",
-      "ts": 1782099813000,
-      "pub": "Mon, 22 Jun 2026 12:43:33 +0900",
       "sentiment": "neutral"
     }
   ]

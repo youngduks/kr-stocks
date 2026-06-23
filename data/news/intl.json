@@ -1,14 +1,38 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-22T23:58:56.699Z",
-  "count": 21,
+  "updated_at": "2026-06-23T03:26:47.602Z",
+  "count": 19,
   "items": [
     {
-      "title": "트럼프, 양자컴 행정명령 서명…\"2028년 실용화·2031년 보안 완료\"",
-      "link": "https://www.hankyung.com/article/2026062317167",
-      "source": "한국경제",
-      "ts": 1782170584000,
-      "pub": "Tue, 23 Jun 2026 08:23:04 +0900",
+      "title": "BofA \"연준, 9월부터 연내 3회 금리인상 예상\"",
+      "link": "https://www.yna.co.kr/view/AKR20260623059700009",
+      "source": "연합뉴스 국제",
+      "ts": 1782178346000,
+      "pub": "Tue, 23 Jun 2026 10:32:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 핵심부품 멤브레인 관세 없앴다…\"업계 경쟁력에 도움\"",
+      "link": "https://www.yna.co.kr/view/AKR20260623042700002",
+      "source": "연합뉴스 경제",
+      "ts": 1782176490000,
+      "pub": "Tue, 23 Jun 2026 10:01:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 '레바논 철군 불가' 고수…이틀째 아슬아슬한 휴전",
+      "link": "https://www.yna.co.kr/view/AKR20260623047400009",
+      "source": "연합뉴스 국제",
+      "ts": 1782175875000,
+      "pub": "Tue, 23 Jun 2026 09:51:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라이나 경제장관 \"경제 재건에 日 자본·기술력 빌릴 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260623033300073",
+      "source": "연합뉴스 국제",
+      "ts": 1782173387000,
+      "pub": "Tue, 23 Jun 2026 09:09:47 +0900",
       "sentiment": "neutral"
     },
     {
@@ -129,46 +153,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782124617000,
       "pub": "Mon, 22 Jun 2026 19:36:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'프라하의 트럼프' 체코 정부, 공영방송 수신료 폐지 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260622137000098",
-      "source": "연합뉴스 국제",
-      "ts": 1782117777000,
-      "pub": "Mon, 22 Jun 2026 17:42:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] 러, 우크라 드론 막다 정유공장 불태웠나",
-      "link": "https://www.yna.co.kr/view/AKR20260622131700704",
-      "source": "연합뉴스 국제",
-      "ts": 1782114274000,
-      "pub": "Mon, 22 Jun 2026 16:44:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] '뚜껑 열린 정유소' 영상 반전?…\"우크라 드론 막다 러가 오폭\"",
-      "link": "https://www.yna.co.kr/view/AKR20260622124000704",
-      "source": "연합뉴스 국제",
-      "ts": 1782112712000,
-      "pub": "Mon, 22 Jun 2026 16:18:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 트럼프의 새 에어포스원…\"전례 없는 호화, 내 취향\"",
-      "link": "https://www.yna.co.kr/view/AKR20260622122800704",
-      "source": "연합뉴스 국제",
-      "ts": 1782112338000,
-      "pub": "Mon, 22 Jun 2026 16:12:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"리플렉팅 풀 훼손 체포\" 위협 후 벌써 5명 체포",
-      "link": "https://www.yna.co.kr/view/AKR20260622116600009",
-      "source": "연합뉴스 국제",
-      "ts": 1782110843000,
-      "pub": "Mon, 22 Jun 2026 15:47:23 +0900",
       "sentiment": "neutral"
     }
   ]

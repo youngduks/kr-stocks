@@ -1,47 +1,111 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-22T23:58:56.700Z",
-  "count": 12,
+  "updated_at": "2026-06-23T03:26:47.604Z",
+  "count": 14,
   "items": [
     {
-      "title": "SK하이닉스, 프리마켓에서 300만원 터치",
-      "link": "https://www.hankyung.com/article/2026062317746",
+      "title": "李대통령 \"반도체 호황 속 자산 양극화…청년 소외 뼈아프게 봐야\"",
+      "link": "https://www.hankyung.com/article/2026062326327",
       "source": "한국경제",
-      "ts": 1782171223000,
-      "pub": "Tue, 23 Jun 2026 08:33:43 +0900",
+      "ts": 1782183609000,
+      "pub": "Tue, 23 Jun 2026 12:00:09 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "스페이스X·빅테크주 투매 확대...美 반도체·금융 주목",
-      "link": "https://www.hankyung.com/article/202606231648i",
-      "source": "한국경제",
-      "ts": 1782171191000,
-      "pub": "Tue, 23 Jun 2026 08:33:11 +0900",
+      "title": "\"퀄컴, AI칩 스타트업 인수협상 막바지…엔비디아 도전 발판\"",
+      "link": "https://www.yna.co.kr/view/AKR20260623075200009",
+      "source": "연합뉴스 국제",
+      "ts": 1782181580000,
+      "pub": "Tue, 23 Jun 2026 11:26:20 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[속보] SK하이닉스, 프리마켓서 300만원 돌파",
-      "link": "https://www.hankyung.com/article/2026062317347",
-      "source": "한국경제",
-      "ts": 1782169604000,
-      "pub": "Tue, 23 Jun 2026 08:06:44 +0900",
-      "sentiment": "positive"
+      "title": "[특징주] SK하이닉스·삼성전자, 장중 5%대 동반 급락(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260623043451008",
+      "source": "연합뉴스 경제",
+      "ts": 1782181182000,
+      "pub": "Tue, 23 Jun 2026 11:19:42 +0900",
+      "sentiment": "negative"
     },
     {
-      "title": "[속보] 삼성전자, HBM4 매출 업계 최초 10억달러 돌파",
-      "link": "https://www.hankyung.com/article/2026062316427",
+      "title": "조정장에도 반도체 담았다…1% 초고수, SK하이닉스·삼성전자 집중 매수",
+      "link": "https://www.hankyung.com/article/202606232487i",
       "source": "한국경제",
-      "ts": 1782169343000,
-      "pub": "Tue, 23 Jun 2026 08:02:23 +0900",
-      "sentiment": "positive"
+      "ts": 1782181103000,
+      "pub": "Tue, 23 Jun 2026 11:18:23 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "나란히 급등한 글로벌 반도체 4사…선행 PER로 비교해보니",
-      "link": "https://www.hankyung.com/article/202606220540i",
+      "title": "반도체 패키징 키운다…서울대, 국내 첫 'R&D 거점' 구축",
+      "link": "https://www.hankyung.com/article/202606232408i",
       "source": "한국경제",
-      "ts": 1782168070000,
-      "pub": "Tue, 23 Jun 2026 07:41:10 +0900",
-      "sentiment": "positive"
+      "ts": 1782180247000,
+      "pub": "Tue, 23 Jun 2026 11:04:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "LG화학, 2035년까지 R&D에 15조 투자…반도체·로봇 소재 키운다",
+      "link": "https://www.hankyung.com/article/2026062323567",
+      "source": "한국경제",
+      "ts": 1782179007000,
+      "pub": "Tue, 23 Jun 2026 10:43:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, 반도체 약세에 장중 낙폭 확대…9000선 아래로",
+      "link": "https://www.hankyung.com/article/2026062323526",
+      "source": "한국경제",
+      "ts": 1782178612000,
+      "pub": "Tue, 23 Jun 2026 10:36:52 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "젠슨 황 \"HBM 더 달라\" 요청하더니…삼전닉스 경쟁 불 붙었다",
+      "link": "https://www.hankyung.com/article/202606231974g",
+      "source": "한국경제",
+      "ts": 1782177737000,
+      "pub": "Tue, 23 Jun 2026 10:22:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 핵심부품 멤브레인 관세 없앴다…\"업계 경쟁력에 도움\"",
+      "link": "https://www.yna.co.kr/view/AKR20260623042700002",
+      "source": "연합뉴스 경제",
+      "ts": 1782176490000,
+      "pub": "Tue, 23 Jun 2026 10:01:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 보해양조, '반도체 호남 유치설'에 강세…투자주의 지정",
+      "link": "https://www.yna.co.kr/view/AKR20260623050300008",
+      "source": "연합뉴스 경제",
+      "ts": 1782176354000,
+      "pub": "Tue, 23 Jun 2026 09:59:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "LG화학, R&D에 15조 투자…\"반도체·모빌리티·로봇소재 육성\"",
+      "link": "https://www.yna.co.kr/view/AKR20260623047800003",
+      "source": "연합뉴스 경제",
+      "ts": 1782176039000,
+      "pub": "Tue, 23 Jun 2026 09:53:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "마이크론 실적, 높아진 눈높이 충족하나",
+      "link": "https://www.yna.co.kr/view/AKR20260623039300009",
+      "source": "연합뉴스 국제",
+      "ts": 1782175555000,
+      "pub": "Tue, 23 Jun 2026 09:45:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] SK하이닉스, 장초반 2%대 하락…삼전도 3.8%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260623043400008",
+      "source": "연합뉴스 경제",
+      "ts": 1782174740000,
+      "pub": "Tue, 23 Jun 2026 09:32:20 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "마이크론, 앤트로픽과 AI인프라 협약…메모리 공급·투자 계약",
@@ -49,54 +113,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782161551000,
       "pub": "Tue, 23 Jun 2026 05:52:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스, 삼전 제치고 시총 1위…우선주 포함시 삼전 1위 사수(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260622063152008",
-      "source": "연합뉴스 경제",
-      "ts": 1782114751000,
-      "pub": "Mon, 22 Jun 2026 16:52:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "아이티엠반도체 \"종속회사 ITM에 307억원 출자\"",
-      "link": "https://www.yna.co.kr/view/AKR20260622125600008",
-      "source": "연합뉴스 경제",
-      "ts": 1782114418000,
-      "pub": "Mon, 22 Jun 2026 16:46:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] LG그룹주, 엔비디아와 피지컬AI 협력 논의 소식에 상승(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260622034551008",
-      "source": "연합뉴스 경제",
-      "ts": 1782110886000,
-      "pub": "Mon, 22 Jun 2026 15:48:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"AI 반도체 붐에 車 디스플레이칩도 쑥쑥…대만 하이맥스 약진\"",
-      "link": "https://www.yna.co.kr/view/AKR20260622109800009",
-      "source": "연합뉴스 국제",
-      "ts": 1782108912000,
-      "pub": "Mon, 22 Jun 2026 15:15:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스, 삼전 제치고 시총 1위…우선주 포함시 삼전 1위 사수(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260622063151008",
-      "source": "연합뉴스 경제",
-      "ts": 1782100961000,
-      "pub": "Mon, 22 Jun 2026 13:02:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] SK하이닉스, 삼성전자 제치고 코스피 시총 1위 등극",
-      "link": "https://www.yna.co.kr/view/AKR20260622083100008",
-      "source": "연합뉴스 경제",
-      "ts": 1782099813000,
-      "pub": "Mon, 22 Jun 2026 12:43:33 +0900",
       "sentiment": "neutral"
     }
   ]

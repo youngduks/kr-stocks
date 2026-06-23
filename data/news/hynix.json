@@ -1,14 +1,54 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-23T03:26:47.604Z",
-  "count": 14,
+  "updated_at": "2026-06-23T07:37:29.542Z",
+  "count": 11,
   "items": [
     {
-      "title": "李대통령 \"반도체 호황 속 자산 양극화…청년 소외 뼈아프게 봐야\"",
-      "link": "https://www.hankyung.com/article/2026062326327",
+      "title": "1분기 기업 영업이익률 13.2% 역대 최고…반도체 제외해도 개선(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260623083351002",
+      "source": "연합뉴스 경제",
+      "ts": 1782198679000,
+      "pub": "Tue, 23 Jun 2026 16:11:19 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[영상] 우크라, 러 반도체 공장 폭격…\"미사일 전자장비 생산\"",
+      "link": "https://www.yna.co.kr/view/AKR20260623117100704",
+      "source": "연합뉴스 국제",
+      "ts": 1782195507000,
+      "pub": "Tue, 23 Jun 2026 15:18:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'SK하이닉스 레버리지 ETF', 홍콩 최대 ETF 올라",
+      "link": "https://www.yna.co.kr/view/AKR20260623116700009",
+      "source": "연합뉴스 국제",
+      "ts": 1782194802000,
+      "pub": "Tue, 23 Jun 2026 15:06:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성 HBM 핵심 거점 찾은 이재용…차세대 반도체 전략 점검",
+      "link": "https://www.hankyung.com/article/2026062330367",
       "source": "한국경제",
-      "ts": 1782183609000,
-      "pub": "Tue, 23 Jun 2026 12:00:09 +0900",
+      "ts": 1782194752000,
+      "pub": "Tue, 23 Jun 2026 15:05:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"나 없으면 HBM 못 만든다\"…한미반도체, 내년 '1조 클럽' 달성 전망",
+      "link": "https://www.hankyung.com/article/202606232712i",
+      "source": "한국경제",
+      "ts": 1782194400000,
+      "pub": "Tue, 23 Jun 2026 15:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 ADR 상장 초읽기…이번주 금감원에 증권신고서 낸다",
+      "link": "https://www.hankyung.com/article/202606232918i",
+      "source": "한국경제",
+      "ts": 1782193642000,
+      "pub": "Tue, 23 Jun 2026 14:47:22 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,46 +68,6 @@
       "sentiment": "negative"
     },
     {
-      "title": "조정장에도 반도체 담았다…1% 초고수, SK하이닉스·삼성전자 집중 매수",
-      "link": "https://www.hankyung.com/article/202606232487i",
-      "source": "한국경제",
-      "ts": 1782181103000,
-      "pub": "Tue, 23 Jun 2026 11:18:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 패키징 키운다…서울대, 국내 첫 'R&D 거점' 구축",
-      "link": "https://www.hankyung.com/article/202606232408i",
-      "source": "한국경제",
-      "ts": 1782180247000,
-      "pub": "Tue, 23 Jun 2026 11:04:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "LG화학, 2035년까지 R&D에 15조 투자…반도체·로봇 소재 키운다",
-      "link": "https://www.hankyung.com/article/2026062323567",
-      "source": "한국경제",
-      "ts": 1782179007000,
-      "pub": "Tue, 23 Jun 2026 10:43:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피, 반도체 약세에 장중 낙폭 확대…9000선 아래로",
-      "link": "https://www.hankyung.com/article/2026062323526",
-      "source": "한국경제",
-      "ts": 1782178612000,
-      "pub": "Tue, 23 Jun 2026 10:36:52 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "젠슨 황 \"HBM 더 달라\" 요청하더니…삼전닉스 경쟁 불 붙었다",
-      "link": "https://www.hankyung.com/article/202606231974g",
-      "source": "한국경제",
-      "ts": 1782177737000,
-      "pub": "Tue, 23 Jun 2026 10:22:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "반도체 핵심부품 멤브레인 관세 없앴다…\"업계 경쟁력에 도움\"",
       "link": "https://www.yna.co.kr/view/AKR20260623042700002",
       "source": "연합뉴스 경제",
@@ -76,35 +76,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[특징주] 보해양조, '반도체 호남 유치설'에 강세…투자주의 지정",
-      "link": "https://www.yna.co.kr/view/AKR20260623050300008",
-      "source": "연합뉴스 경제",
-      "ts": 1782176354000,
-      "pub": "Tue, 23 Jun 2026 09:59:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "LG화학, R&D에 15조 투자…\"반도체·모빌리티·로봇소재 육성\"",
-      "link": "https://www.yna.co.kr/view/AKR20260623047800003",
-      "source": "연합뉴스 경제",
-      "ts": 1782176039000,
-      "pub": "Tue, 23 Jun 2026 09:53:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "마이크론 실적, 높아진 눈높이 충족하나",
       "link": "https://www.yna.co.kr/view/AKR20260623039300009",
       "source": "연합뉴스 국제",
       "ts": 1782175555000,
       "pub": "Tue, 23 Jun 2026 09:45:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] SK하이닉스, 장초반 2%대 하락…삼전도 3.8%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260623043400008",
-      "source": "연합뉴스 경제",
-      "ts": 1782174740000,
-      "pub": "Tue, 23 Jun 2026 09:32:20 +0900",
       "sentiment": "neutral"
     },
     {

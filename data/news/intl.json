@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-23T03:26:47.602Z",
-  "count": 19,
+  "updated_at": "2026-06-23T07:37:29.541Z",
+  "count": 15,
   "items": [
+    {
+      "title": "남미, 치안·경제 불안에 트럼프식 우파 포퓰리즘 확산",
+      "link": "https://www.yna.co.kr/view/AKR20260623121900009",
+      "source": "연합뉴스 국제",
+      "ts": 1782195686000,
+      "pub": "Tue, 23 Jun 2026 15:21:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 우크라, 러 반도체 공장 폭격…\"미사일 전자장비 생산\"",
+      "link": "https://www.yna.co.kr/view/AKR20260623117100704",
+      "source": "연합뉴스 국제",
+      "ts": 1782195507000,
+      "pub": "Tue, 23 Jun 2026 15:18:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "연말까지 LPG 할당관세 0%…부탄 유류세 탄력세율 인하 연장",
+      "link": "https://www.yna.co.kr/view/AKR20260623064200001",
+      "source": "연합뉴스 경제",
+      "ts": 1782185669000,
+      "pub": "Tue, 23 Jun 2026 12:34:29 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "BofA \"연준, 9월부터 연내 3회 금리인상 예상\"",
       "link": "https://www.yna.co.kr/view/AKR20260623059700009",
@@ -60,14 +84,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "한은, '점도표 효과' 분초 단위로 점검…美 연준과는 다른 방향",
-      "link": "https://www.yna.co.kr/view/AKR20260622140600002",
-      "source": "연합뉴스 경제",
-      "ts": 1782161821000,
-      "pub": "Tue, 23 Jun 2026 05:57:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, 콜롬비아 대권유력 우파후보에 \"강력한 관계 구축하자\"",
       "link": "https://www.yna.co.kr/view/AKR20260623008400071",
       "source": "연합뉴스 국제",
@@ -100,59 +116,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "달러-원, '매파 연준' 달러 강세에 상승폭 약간 확대…1,538.90원 마감",
-      "link": "https://www.yna.co.kr/view/AKR20260623003900002",
-      "source": "연합뉴스 경제",
-      "ts": 1782149454000,
-      "pub": "Tue, 23 Jun 2026 02:30:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"이스라엘·헤즈볼라 전쟁에 레바논 주택 1만1천여채 완파\"",
       "link": "https://www.yna.co.kr/view/AKR20260623001900079",
       "source": "연합뉴스 국제",
       "ts": 1782143822000,
       "pub": "Tue, 23 Jun 2026 00:57:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "그린스펀 前연준의장 별세…美4대정권 19년간 세계경제 쥐락펴락(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260622157351071",
-      "source": "연합뉴스 경제",
-      "ts": 1782135858000,
-      "pub": "Mon, 22 Jun 2026 22:44:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라, 러 위성통신센터 공격…모스크바 공항 4곳 한때 폐쇄(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260622083451009",
-      "source": "연합뉴스 국제",
-      "ts": 1782135509000,
-      "pub": "Mon, 22 Jun 2026 22:38:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'19년 재임' 앨런 그린스펀 前연준 의장 별세…향년 100세",
-      "link": "https://www.yna.co.kr/view/AKR20260622157300071",
-      "source": "연합뉴스 국제",
-      "ts": 1782129393000,
-      "pub": "Mon, 22 Jun 2026 20:56:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 그린스펀 전 美연준 의장 별세…향년 100세",
-      "link": "https://www.yna.co.kr/view/AKR20260622157000071",
-      "source": "연합뉴스 국제",
-      "ts": 1782128845000,
-      "pub": "Mon, 22 Jun 2026 20:47:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 사면초가…이란은 공세 키우고 이스라엘·공화당 화낸다",
-      "link": "https://www.yna.co.kr/view/AKR20260622150100009",
-      "source": "연합뉴스 국제",
-      "ts": 1782124617000,
-      "pub": "Mon, 22 Jun 2026 19:36:57 +0900",
       "sentiment": "neutral"
     }
   ]

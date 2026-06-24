@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-24T22:06:17.221Z",
-  "count": 25,
+  "updated_at": "2026-06-24T23:56:51.486Z",
+  "count": 26,
   "items": [
+    {
+      "title": "\"이란 전쟁비용 보전해달라\"…트럼프, 추가예산 135조원 요청",
+      "link": "https://www.yna.co.kr/view/AKR20260625026300009",
+      "source": "연합뉴스 국제",
+      "ts": 1782343980000,
+      "pub": "Thu, 25 Jun 2026 08:33:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"미친 사람\"…트럼프, '전쟁 권한 결의안' 찬성한 공화당 의원에 격노",
+      "link": "https://www.mt.co.kr/world/2026/06/25/2026062507304553778",
+      "source": "머니투데이",
+      "ts": 1782342915000,
+      "pub": "Thu, 25 Jun 2026 08:15:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 나토 총장 해명에도 또 유럽 비난…\"응원이라도 해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260625016700071",
+      "source": "연합뉴스 국제",
+      "ts": 1782340518000,
+      "pub": "Thu, 25 Jun 2026 07:35:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '주택공급 확대' 초당적 통과법안에 제동…\"투표법부터\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260625000751071",
+      "source": "연합뉴스 국제",
+      "ts": 1782338603000,
+      "pub": "Thu, 25 Jun 2026 07:03:23 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美연준 \"미 대형은행들, 심각한 경기침체 견딜 체력 갖춰\"",
       "link": "https://www.yna.co.kr/view/AKR20260625007900072",
@@ -108,14 +140,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"이란, '호르무즈 통행료 없다' 통보…거짓이면 협상 중단\"",
-      "link": "https://www.hankyung.com/article/2026062463137",
-      "source": "한국경제",
-      "ts": 1782304223000,
-      "pub": "Wed, 24 Jun 2026 21:30:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"이란, '호르무즈서 통행료 받고있지 않아' 통보해와\"",
       "link": "https://www.yna.co.kr/view/AKR20260624173800071",
       "source": "연합뉴스 국제",
@@ -185,22 +209,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782278338000,
       "pub": "Wed, 24 Jun 2026 14:18:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美상원, 10번 시도 끝 트럼프 대이란전쟁 저지 결의(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260624008451071",
-      "source": "연합뉴스 국제",
-      "ts": 1782273541000,
-      "pub": "Wed, 24 Jun 2026 12:59:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 측근 \"美정부, 한국과 원자력 협력에 매우 우호적\"",
-      "link": "https://www.yna.co.kr/view/AKR20260624093100071",
-      "source": "연합뉴스 국제",
-      "ts": 1782271132000,
-      "pub": "Wed, 24 Jun 2026 12:18:52 +0900",
       "sentiment": "neutral"
     }
   ]

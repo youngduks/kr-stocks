@@ -1,8 +1,48 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-24T22:06:17.222Z",
-  "count": 7,
+  "updated_at": "2026-06-24T23:56:51.487Z",
+  "count": 13,
   "items": [
+    {
+      "title": "마이크론 축포에 프리마켓 랠리…삼전 6%·닉스 11% 점프",
+      "link": "https://www.mt.co.kr/stock/2026/06/25/2026062508344845573",
+      "source": "머니투데이",
+      "ts": 1782344281000,
+      "pub": "Thu, 25 Jun 2026 08:38:01 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "KB증권, 삼전 목표가 '53만원→55만원'…\"재평가 국면 시작\"",
+      "link": "https://www.yna.co.kr/view/AKR20260625026900008",
+      "source": "연합뉴스 경제",
+      "ts": 1782343881000,
+      "pub": "Thu, 25 Jun 2026 08:31:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中 슈퍼컴, 세계 1위 탈환…'첫 독자개발 HBM 탑재'",
+      "link": "https://www.mt.co.kr/world/2026/06/25/2026062507434877313",
+      "source": "머니투데이",
+      "ts": 1782341564000,
+      "pub": "Thu, 25 Jun 2026 07:52:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'삼성전자' 상승에 보유 지분가치 68조 늘었다…삼성물산 5%대 반등",
+      "link": "https://www.hankyung.com/article/202606245545i",
+      "source": "한국경제",
+      "ts": 1782340473000,
+      "pub": "Thu, 25 Jun 2026 07:34:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[시선강탈] ISC vs 셀트리온 vs 삼성전자, 공략법은?",
+      "link": "https://www.mt.co.kr/stock/2026/06/25/2026062506187084667",
+      "source": "머니투데이",
+      "ts": 1782338236000,
+      "pub": "Thu, 25 Jun 2026 06:57:16 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "李대통령, 오늘 이재용 회장과 회동…신규 반도체 투자 논의",
       "link": "https://www.hankyung.com/article/2026062564527",
@@ -20,11 +60,19 @@
       "sentiment": "negative"
     },
     {
-      "title": "\"삼전닉스 절대 팔지 마라\"…1.8조 굴리는 거물 '뒤늦은 후회'",
-      "link": "https://www.hankyung.com/article/2026062462917",
-      "source": "한국경제",
-      "ts": 1782302778000,
-      "pub": "Wed, 24 Jun 2026 21:06:18 +0900",
+      "title": "호남선 타는 이재용 회장, 단언하는 한마디 \"저희가…\"",
+      "link": "https://www.mt.co.kr/industry/2026/06/25/2026062410504528064",
+      "source": "머니투데이",
+      "ts": 1782334200000,
+      "pub": "Thu, 25 Jun 2026 05:50:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "초호황에 '하나만 걸려라'식의 특허분쟁 시달리는 삼전닉스",
+      "link": "https://www.mt.co.kr/industry/2026/06/25/2026062415561689933",
+      "source": "머니투데이",
+      "ts": 1782333480000,
+      "pub": "Thu, 25 Jun 2026 05:38:00 +0900",
       "sentiment": "neutral"
     },
     {

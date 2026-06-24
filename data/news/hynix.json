@@ -1,8 +1,40 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-24T13:10:28.645Z",
-  "count": 6,
+  "updated_at": "2026-06-24T16:07:02.555Z",
+  "count": 9,
   "items": [
+    {
+      "title": "하늘까지 높아진 마이크론 실적 기대...금값 4000달러도 깨졌다 [빈난새의 개장전요것만]",
+      "link": "https://www.hankyung.com/article/202606246360i",
+      "source": "한국경제",
+      "ts": 1782312968000,
+      "pub": "Wed, 24 Jun 2026 23:56:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "유가·국채금리 하락에 美증시 상승…마이크론 변동성이 심리 좌우",
+      "link": "https://www.hankyung.com/article/202606246356i",
+      "source": "한국경제",
+      "ts": 1782312261000,
+      "pub": "Wed, 24 Jun 2026 23:44:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 마이크론 실적 앞두고 상승 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260624176500009",
+      "source": "연합뉴스 국제",
+      "ts": 1782309574000,
+      "pub": "Wed, 24 Jun 2026 22:59:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "마이크론 실적, 엔비디아급 주목…'위스퍼넘버' 충족할까?",
+      "link": "https://www.hankyung.com/article/202606246320i",
+      "source": "한국경제",
+      "ts": 1782307345000,
+      "pub": "Wed, 24 Jun 2026 22:22:25 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "테일러 회장 \"피지컬AI 반도체, 우주서 만들어야 무결함\"",
       "link": "https://www.hankyung.com/article/2026062462681",
@@ -42,14 +74,6 @@
       "ts": 1782281929000,
       "pub": "Wed, 24 Jun 2026 15:18:49 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "AI 랠리에 균열…반도체 '3중 충격'에 한·미 증시 흔들",
-      "link": "https://www.yna.co.kr/view/AKR20260624047200009",
-      "source": "연합뉴스 국제",
-      "ts": 1782262299000,
-      "pub": "Wed, 24 Jun 2026 09:51:39 +0900",
-      "sentiment": "positive"
     }
   ]
 }

@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-24T20:26:22.572Z",
-  "count": 9,
+  "updated_at": "2026-06-24T22:06:17.222Z",
+  "count": 11,
   "items": [
+    {
+      "title": "李대통령, 오늘 이재용 회장과 회동…신규 반도체 투자 논의",
+      "link": "https://www.hankyung.com/article/2026062564527",
+      "source": "한국경제",
+      "ts": 1782335881000,
+      "pub": "Thu, 25 Jun 2026 06:18:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "마이크론, 분기 매출 4배로 껑충…최고기록 또 갈아치워",
+      "link": "https://www.yna.co.kr/view/AKR20260625009000091",
+      "source": "연합뉴스 국제",
+      "ts": 1782334763000,
+      "pub": "Thu, 25 Jun 2026 05:59:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "마이크론, AI 수요에 사상 최대 실적…분기 매출 전년비 4.5배 급증",
+      "link": "https://www.hankyung.com/article/202606256415i",
+      "source": "한국경제",
+      "ts": 1782333833000,
+      "pub": "Thu, 25 Jun 2026 05:43:53 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "하늘까지 높아진 마이크론 실적 기대...금값 4000달러도 깨졌다 [빈난새의 개장전요것만]",
       "link": "https://www.hankyung.com/article/202606246360i",
@@ -42,14 +66,6 @@
       "ts": 1782298148000,
       "pub": "Wed, 24 Jun 2026 19:49:08 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "이상일 \"반도체, 정치 아닌 산업…용인산단 원안대로 해야\"",
-      "link": "https://www.hankyung.com/article/2026062459971",
-      "source": "한국경제",
-      "ts": 1782294850000,
-      "pub": "Wed, 24 Jun 2026 18:54:10 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "\"중국 암시장서 엔비디아 제품 가격, 배 이상 폭등\"",

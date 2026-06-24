@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-24T20:26:22.572Z",
-  "count": 5,
+  "updated_at": "2026-06-24T22:06:17.222Z",
+  "count": 7,
   "items": [
+    {
+      "title": "李대통령, 오늘 이재용 회장과 회동…신규 반도체 투자 논의",
+      "link": "https://www.hankyung.com/article/2026062564527",
+      "source": "한국경제",
+      "ts": 1782335881000,
+      "pub": "Thu, 25 Jun 2026 06:18:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 잘 나가는데…\"호황 뒤엔 불황\" 위기론 꺼낸 이유",
+      "link": "https://www.hankyung.com/article/202606245960g",
+      "source": "한국경제",
+      "ts": 1782334813000,
+      "pub": "Thu, 25 Jun 2026 06:00:13 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "\"삼전닉스 절대 팔지 마라\"…1.8조 굴리는 거물 '뒤늦은 후회'",
       "link": "https://www.hankyung.com/article/2026062462917",

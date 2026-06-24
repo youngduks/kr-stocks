@@ -1,5 +1,8 @@
 import Link from "next/link";
 import AffiliateStrip from "@/components/AffiliateStrip";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { fetchAllPrices } from "@/lib/fetchPrices";
 
 export const revalidate = 3600; // 1시간 ISR — GitHub raw fetch, 빌드 없이 갱신
 
@@ -73,7 +76,10 @@ function relativeTime(ts: number): string {
 }
 
 export default async function NewsPage() {
-  const data = await Promise.all(CATEGORIES.map(async (c) => ({ meta: c, file: await loadCategory(c.id) })));
+  const [data, prices] = await Promise.all([
+    Promise.all(CATEGORIES.map(async (c) => ({ meta: c, file: await loadCategory(c.id) }))),
+    fetchAllPrices(),
+  ]);
 
   const latestUpdate = data
     .map((d) => d.file?.updated_at)
@@ -82,7 +88,9 @@ export default async function NewsPage() {
     .reverse()[0];
 
   return (
-    <main style={{ maxWidth: 1200, margin: "0 auto", padding: "1.5rem 1rem" }}>
+    <>
+      <Header fxRate={prices.fx.krw_per_usdt} fxChange={prices.fx.change_24h_pct} />
+      <main style={{ maxWidth: 1200, margin: "0 auto", padding: "1.5rem 1rem" }}>
       <header style={{ marginBottom: "1.5rem" }}>
         <h1 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "0.25rem" }}>뉴스룸</h1>
         <p style={{ fontSize: "0.85rem", opacity: 0.7 }}>
@@ -168,6 +176,8 @@ export default async function NewsPage() {
           제목 클릭 시 원문 매체 페이지로 이동합니다.
         </p>
       </footer>
-    </main>
+      </main>
+      <Footer />
+    </>
   );
 }

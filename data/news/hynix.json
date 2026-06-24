@@ -1,46 +1,14 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-24T02:06:04.145Z",
-  "count": 14,
+  "updated_at": "2026-06-24T06:35:03.034Z",
+  "count": 5,
   "items": [
     {
-      "title": "[속보]김용범 실장 \"반도체 성과급 논쟁, 룰 만들어 가야…프랑스 사례 등 참고하고 있어\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/24/2026062410432681063",
-      "source": "머니투데이",
-      "ts": 1782265462000,
-      "pub": "Wed, 24 Jun 2026 10:44:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]김용범 실장 \"반도체 호황, 낙관만 하는 게 아냐…전력 서포트 못할 것 같은 두려움\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/24/2026062410383725584",
-      "source": "머니투데이",
-      "ts": 1782265163000,
-      "pub": "Wed, 24 Jun 2026 10:39:23 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[속보] 김용범 \"지방 반도체 클러스터 입지 논의 중…용인도 그대로\"",
-      "link": "https://www.hankyung.com/article/2026062447547",
-      "source": "한국경제",
-      "ts": 1782264856000,
-      "pub": "Wed, 24 Jun 2026 10:34:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]김용범 실장 \"삼성·SK하이닉스 수요 폭발…공장 완공 시기 10년 이상 앞당겨, 수도권에 땅 없어\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/24/2026062410202311703",
-      "source": "머니투데이",
-      "ts": 1782264085000,
-      "pub": "Wed, 24 Jun 2026 10:21:25 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[속보]김용범 실장 \"반도체 기업들과 입지 논의 이뤄지는 것 사실\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/24/2026062408185933384",
-      "source": "머니투데이",
-      "ts": 1782263908000,
-      "pub": "Wed, 24 Jun 2026 10:18:28 +0900",
+      "title": "이상일 \"삼성전자, 용인 반도체팹 계획대로 추진 의사 밝혀\"",
+      "link": "https://www.yna.co.kr/view/AKR20260624124100061",
+      "source": "연합뉴스 경제",
+      "ts": 1782281929000,
+      "pub": "Wed, 24 Jun 2026 15:18:49 +0900",
       "sentiment": "neutral"
     },
     {
@@ -68,51 +36,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "KB증권 \"SK하이닉스, 12% 조정은 비중 확대 기회…목표가 유지\"",
-      "link": "https://www.yna.co.kr/view/AKR20260624027900008",
-      "source": "연합뉴스 경제",
-      "ts": 1782257460000,
-      "pub": "Wed, 24 Jun 2026 08:31:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하나증권 \"ISC, 반도체 테스트소켓 장기계약 협의…목표가↑\"",
-      "link": "https://www.yna.co.kr/view/AKR20260624026000008",
-      "source": "연합뉴스 경제",
-      "ts": 1782256496000,
-      "pub": "Wed, 24 Jun 2026 08:14:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[마켓뷰] 美반도체도 급락…코스피 반등할까, 추가 조정 받을까",
-      "link": "https://www.yna.co.kr/view/AKR20260624022800008",
-      "source": "연합뉴스 경제",
-      "ts": 1782255932000,
-      "pub": "Wed, 24 Jun 2026 08:05:32 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "뉴욕증시, AI·반도체주 매도세에 하락…나스닥 2.2%↓(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260624006851072",
       "source": "연합뉴스 국제",
       "ts": 1782248552000,
       "pub": "Wed, 24 Jun 2026 06:02:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "국내기업 경기전망 4개월째 부진…반도체·수출은 호조",
-      "link": "https://www.yna.co.kr/view/AKR20260623142500003",
-      "source": "연합뉴스 경제",
-      "ts": 1782248408000,
-      "pub": "Wed, 24 Jun 2026 06:00:08 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "삼성·SK, 호남·충청 반도체 클러스터 투자규모 수백조원 거론",
-      "link": "https://www.yna.co.kr/view/AKR20260623169400003",
-      "source": "연합뉴스 경제",
-      "ts": 1782215706000,
-      "pub": "Tue, 23 Jun 2026 20:55:06 +0900",
       "sentiment": "neutral"
     }
   ]

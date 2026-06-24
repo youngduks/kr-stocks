@@ -1,14 +1,30 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-24T02:06:04.144Z",
+  "updated_at": "2026-06-24T06:35:03.034Z",
   "count": 6,
   "items": [
     {
-      "title": "삼성전자, 90조원 자사주 매입 가능성…\"주주가치 끌어올린다\"",
-      "link": "https://www.hankyung.com/article/2026062448637",
+      "title": "이상일 \"삼성전자, 용인 반도체팹 계획대로 추진 의사 밝혀\"",
+      "link": "https://www.yna.co.kr/view/AKR20260624124100061",
+      "source": "연합뉴스 경제",
+      "ts": 1782281929000,
+      "pub": "Wed, 24 Jun 2026 15:18:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "김용범 \"삼전 성과급 노사협상, 세계 최초 사례…룰 만들어야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260624091600001",
+      "source": "연합뉴스 경제",
+      "ts": 1782270954000,
+      "pub": "Wed, 24 Jun 2026 12:15:54 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "오락가락 코스피…1% 초고수는 삼전닉스 팔고 '이 종목' 담았다",
+      "link": "https://www.hankyung.com/article/202606244978i",
       "source": "한국경제",
-      "ts": 1782265577000,
-      "pub": "Wed, 24 Jun 2026 10:46:17 +0900",
+      "ts": 1782270350000,
+      "pub": "Wed, 24 Jun 2026 12:05:50 +0900",
       "sentiment": "neutral"
     },
     {
@@ -33,22 +49,6 @@
       "source": "연합뉴스 경제",
       "ts": 1782261473000,
       "pub": "Wed, 24 Jun 2026 09:37:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "투자경고 지정에도…삼전·닉스 공장부지 기대감에 '上' 찍은 종목",
-      "link": "https://www.hankyung.com/article/2026062444966",
-      "source": "한국경제",
-      "ts": 1782261189000,
-      "pub": "Wed, 24 Jun 2026 09:33:09 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[특징주] 삼전·닉스, 7%·4%대 급반등…삼전, 시총 1위 탈환",
-      "link": "https://www.yna.co.kr/view/AKR20260624040400008",
-      "source": "연합뉴스 경제",
-      "ts": 1782260573000,
-      "pub": "Wed, 24 Jun 2026 09:22:53 +0900",
       "sentiment": "neutral"
     }
   ]

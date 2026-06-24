@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-24T02:06:04.143Z",
-  "count": 16,
+  "updated_at": "2026-06-24T06:35:03.033Z",
+  "count": 14,
   "items": [
+    {
+      "title": "관세청장 \"새만금 첨단산업단지 종합보세구역 신속 지정\"",
+      "link": "https://www.yna.co.kr/view/AKR20260624109000002",
+      "source": "연합뉴스 경제",
+      "ts": 1782278356000,
+      "pub": "Wed, 24 Jun 2026 14:19:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"유가 내렸는데 휘발윳값 안 따라내려\"…조사 지시",
+      "link": "https://www.yna.co.kr/view/AKR20260624108800009",
+      "source": "연합뉴스 국제",
+      "ts": 1782278338000,
+      "pub": "Wed, 24 Jun 2026 14:18:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美상원, 10번 시도 끝 트럼프 대이란전쟁 저지 결의(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260624008451071",
+      "source": "연합뉴스 국제",
+      "ts": 1782273541000,
+      "pub": "Wed, 24 Jun 2026 12:59:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 측근 \"美정부, 한국과 원자력 협력에 매우 우호적\"",
+      "link": "https://www.yna.co.kr/view/AKR20260624093100071",
+      "source": "연합뉴스 국제",
+      "ts": 1782271132000,
+      "pub": "Wed, 24 Jun 2026 12:18:52 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 우크라로 돌아서나…러 \"美, 정직한 중재자 포기\" 반발",
       "link": "https://www.yna.co.kr/view/AKR20260624047800009",
@@ -81,54 +113,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782230872000,
       "pub": "Wed, 24 Jun 2026 01:07:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "EU, 우크라·폴란드 역사 갈등 고조에 \"푸틴만 웃는다\" 우려(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260623171051109",
-      "source": "연합뉴스 국제",
-      "ts": 1782227055000,
-      "pub": "Wed, 24 Jun 2026 00:04:15 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "젤렌스키, 우크라 재건회의 불참…폴란드와 역사갈등 여파",
-      "link": "https://www.yna.co.kr/view/AKR20260623171000109",
-      "source": "연합뉴스 국제",
-      "ts": 1782218211000,
-      "pub": "Tue, 23 Jun 2026 21:36:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란, 최고 수준 핵 사찰 전면 동의\" 거듭 주장",
-      "link": "https://www.yna.co.kr/view/AKR20260623169800009",
-      "source": "연합뉴스 국제",
-      "ts": 1782217839000,
-      "pub": "Tue, 23 Jun 2026 21:30:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "정부, 망고 할당관세 적용 연장…계란 수입·할인 확대 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260623159200030",
-      "source": "연합뉴스 경제",
-      "ts": 1782205247000,
-      "pub": "Tue, 23 Jun 2026 18:00:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美법원, 트럼프표 '유권자 검증 DB'에 제동…\"신성한 권리 위협\"",
-      "link": "https://www.yna.co.kr/view/AKR20260623157500009",
-      "source": "연합뉴스 국제",
-      "ts": 1782205135000,
-      "pub": "Tue, 23 Jun 2026 17:58:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "나토 수장, '트럼프 달래기'…연례 정상회의 앞두고 방미",
-      "link": "https://www.yna.co.kr/view/AKR20260623156200098",
-      "source": "연합뉴스 국제",
-      "ts": 1782205090000,
-      "pub": "Tue, 23 Jun 2026 17:58:10 +0900",
       "sentiment": "neutral"
     }
   ]

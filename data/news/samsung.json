@@ -1,62 +1,54 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-23T23:53:31.299Z",
-  "count": 7,
+  "updated_at": "2026-06-24T02:06:04.144Z",
+  "count": 6,
   "items": [
     {
-      "title": "2028년까지 메모리 부족…\"330만닉스 간다\" 목표가 상향-현대차증권",
-      "link": "https://www.mt.co.kr/stock/2026/06/24/2026062408384085950",
-      "source": "머니투데이",
-      "ts": 1782258243000,
-      "pub": "Wed, 24 Jun 2026 08:44:03 +0900",
+      "title": "삼성전자, 90조원 자사주 매입 가능성…\"주주가치 끌어올린다\"",
+      "link": "https://www.hankyung.com/article/2026062448637",
+      "source": "한국경제",
+      "ts": 1782265577000,
+      "pub": "Wed, 24 Jun 2026 10:46:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전 목표가 잇단 상향…노무라 \"59만원→67만원…실적 호조\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260624062751008",
+      "source": "연합뉴스 경제",
+      "ts": 1782264525000,
+      "pub": "Wed, 24 Jun 2026 10:28:45 +0900",
       "sentiment": "positive"
     },
     {
-      "title": "삼전닉스 반도체공장 지은 '그 기술'…싱가포르 국가 공인받았다",
-      "link": "https://www.hankyung.com/article/202606233465i",
-      "source": "한국경제",
-      "ts": 1782257958000,
-      "pub": "Wed, 24 Jun 2026 08:39:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "갤럭시 워치 데이터, 신약 개발에 쓴다…삼성-알체디스 맞손",
-      "link": "https://www.mt.co.kr/tech/2026/06/24/2026062408060874688",
-      "source": "머니투데이",
-      "ts": 1782257345000,
-      "pub": "Wed, 24 Jun 2026 08:29:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "몸값 60%가 삼성전자…반도체 훈풍에 이 종목도 '들썩'",
-      "link": "https://www.hankyung.com/article/202606233754i",
-      "source": "한국경제",
-      "ts": 1782252005000,
-      "pub": "Wed, 24 Jun 2026 07:00:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"우리가 제2의 삼전닉스 되겠다\"…정부, 벤처기업과 현장 간담회(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260623078451030",
+      "title": "노무라 \"삼전 목표가 59만원→67만원…2분기 실적 호조 전망\"",
+      "link": "https://www.yna.co.kr/view/AKR20260624062700008",
       "source": "연합뉴스 경제",
-      "ts": 1782203426000,
-      "pub": "Tue, 23 Jun 2026 17:30:26 +0900",
+      "ts": 1782263789000,
+      "pub": "Wed, 24 Jun 2026 10:16:29 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[특징주] 삼성물산, 삼성전자 지분가치 상승 기대에 장 초반 13%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260624048100008",
+      "source": "연합뉴스 경제",
+      "ts": 1782261473000,
+      "pub": "Wed, 24 Jun 2026 09:37:53 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "'잘나가던' 삼전·닉스, 12%대 폭락…하락률 17년여만 최대(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260623043452008",
-      "source": "연합뉴스 경제",
-      "ts": 1782198956000,
-      "pub": "Tue, 23 Jun 2026 16:15:56 +0900",
+      "title": "투자경고 지정에도…삼전·닉스 공장부지 기대감에 '上' 찍은 종목",
+      "link": "https://www.hankyung.com/article/2026062444966",
+      "source": "한국경제",
+      "ts": 1782261189000,
+      "pub": "Wed, 24 Jun 2026 09:33:09 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "외국인, 삼성전자 보유율 47.52%…약 13년만에 최저수준",
-      "link": "https://www.yna.co.kr/view/AKR20260623100200008",
+      "title": "[특징주] 삼전·닉스, 7%·4%대 급반등…삼전, 시총 1위 탈환",
+      "link": "https://www.yna.co.kr/view/AKR20260624040400008",
       "source": "연합뉴스 경제",
-      "ts": 1782192318000,
-      "pub": "Tue, 23 Jun 2026 14:25:18 +0900",
+      "ts": 1782260573000,
+      "pub": "Wed, 24 Jun 2026 09:22:53 +0900",
       "sentiment": "neutral"
     }
   ]

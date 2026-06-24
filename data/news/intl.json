@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-23T23:53:31.298Z",
-  "count": 17,
+  "updated_at": "2026-06-24T02:06:04.143Z",
+  "count": 16,
   "items": [
+    {
+      "title": "트럼프, 우크라로 돌아서나…러 \"美, 정직한 중재자 포기\" 반발",
+      "link": "https://www.yna.co.kr/view/AKR20260624047800009",
+      "source": "연합뉴스 국제",
+      "ts": 1782261845000,
+      "pub": "Wed, 24 Jun 2026 09:44:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "36개국 여론조사서 응답자 76% \"트럼프 신뢰 못 해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260624045900009",
+      "source": "연합뉴스 국제",
+      "ts": 1782261495000,
+      "pub": "Wed, 24 Jun 2026 09:38:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"러, 우크라에 고전하자 벨라루스에 '새 전선 열라' 압박\"",
+      "link": "https://www.yna.co.kr/view/AKR20260624034000009",
+      "source": "연합뉴스 국제",
+      "ts": 1782259803000,
+      "pub": "Wed, 24 Jun 2026 09:10:03 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美법률기업, 트럼프 행정부의 앤트로픽 AI 수출금지에 소송",
       "link": "https://www.yna.co.kr/view/AKR20260624025000091",
@@ -25,14 +49,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782247250000,
       "pub": "Wed, 24 Jun 2026 05:40:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美하원 이어 상원도…'이란전쟁 중단' 결의안 통과, 트럼프에 제동",
-      "link": "https://www.mt.co.kr/world/2026/06/24/2026062405294888195",
-      "source": "머니투데이",
-      "ts": 1782246904000,
-      "pub": "Wed, 24 Jun 2026 05:35:04 +0900",
       "sentiment": "neutral"
     },
     {
@@ -113,30 +129,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782205090000,
       "pub": "Tue, 23 Jun 2026 17:58:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "남미, 치안·경제 불안에 트럼프식 우파 포퓰리즘 확산",
-      "link": "https://www.yna.co.kr/view/AKR20260623121900009",
-      "source": "연합뉴스 국제",
-      "ts": 1782195686000,
-      "pub": "Tue, 23 Jun 2026 15:21:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 우크라, 러 반도체 공장 폭격…\"미사일 전자장비 생산\"",
-      "link": "https://www.yna.co.kr/view/AKR20260623117100704",
-      "source": "연합뉴스 국제",
-      "ts": 1782195507000,
-      "pub": "Tue, 23 Jun 2026 15:18:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "연말까지 LPG 할당관세 0%…부탄 유류세 탄력세율 인하 연장",
-      "link": "https://www.yna.co.kr/view/AKR20260623064200001",
-      "source": "연합뉴스 경제",
-      "ts": 1782185669000,
-      "pub": "Tue, 23 Jun 2026 12:34:29 +0900",
       "sentiment": "neutral"
     }
   ]

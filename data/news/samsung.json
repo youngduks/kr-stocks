@@ -1,8 +1,48 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-24T06:35:03.034Z",
-  "count": 6,
+  "updated_at": "2026-06-24T10:12:12.510Z",
+  "count": 7,
   "items": [
+    {
+      "title": "자사주 90조 매입 기대…삼성전자, 시총 1위 탈환",
+      "link": "https://www.hankyung.com/article/2026062460231",
+      "source": "한국경제",
+      "ts": 1782291745000,
+      "pub": "Wed, 24 Jun 2026 18:02:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"한 명이 100개 AI 고용하는 시대, 메모리 수요 100만배 늘 것\"",
+      "link": "https://www.hankyung.com/article/2026062460931",
+      "source": "한국경제",
+      "ts": 1782291582000,
+      "pub": "Wed, 24 Jun 2026 17:59:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "호남-팹·충청-낸드…삼전닉스 반도체 벨트, 남부권으로 확장",
+      "link": "https://www.hankyung.com/article/2026062461241",
+      "source": "한국경제",
+      "ts": 1782291345000,
+      "pub": "Wed, 24 Jun 2026 17:55:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI홈 생태계 확장…삼성전자, 모듈러 주택시장 공략 본격화",
+      "link": "https://www.yna.co.kr/view/AKR20260624117800003",
+      "source": "연합뉴스 경제",
+      "ts": 1782288001000,
+      "pub": "Wed, 24 Jun 2026 17:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전, 10% 급등해 이틀만 시총 1위 탈환…하닉도 1%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260624040451008",
+      "source": "연합뉴스 경제",
+      "ts": 1782283576000,
+      "pub": "Wed, 24 Jun 2026 15:46:16 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "이상일 \"삼성전자, 용인 반도체팹 계획대로 추진 의사 밝혀\"",
       "link": "https://www.yna.co.kr/view/AKR20260624124100061",
@@ -18,38 +58,6 @@
       "ts": 1782270954000,
       "pub": "Wed, 24 Jun 2026 12:15:54 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "오락가락 코스피…1% 초고수는 삼전닉스 팔고 '이 종목' 담았다",
-      "link": "https://www.hankyung.com/article/202606244978i",
-      "source": "한국경제",
-      "ts": 1782270350000,
-      "pub": "Wed, 24 Jun 2026 12:05:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전 목표가 잇단 상향…노무라 \"59만원→67만원…실적 호조\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260624062751008",
-      "source": "연합뉴스 경제",
-      "ts": 1782264525000,
-      "pub": "Wed, 24 Jun 2026 10:28:45 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "노무라 \"삼전 목표가 59만원→67만원…2분기 실적 호조 전망\"",
-      "link": "https://www.yna.co.kr/view/AKR20260624062700008",
-      "source": "연합뉴스 경제",
-      "ts": 1782263789000,
-      "pub": "Wed, 24 Jun 2026 10:16:29 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[특징주] 삼성물산, 삼성전자 지분가치 상승 기대에 장 초반 13%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260624048100008",
-      "source": "연합뉴스 경제",
-      "ts": 1782261473000,
-      "pub": "Wed, 24 Jun 2026 09:37:53 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

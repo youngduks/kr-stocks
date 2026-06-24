@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-24T06:35:03.033Z",
+  "updated_at": "2026-06-24T10:12:12.509Z",
   "count": 14,
   "items": [
+    {
+      "title": "우크라 드론에 시달리는 러…크림반도 등 대규모 정전",
+      "link": "https://www.yna.co.kr/view/AKR20260624155100108",
+      "source": "연합뉴스 국제",
+      "ts": 1782289280000,
+      "pub": "Wed, 24 Jun 2026 17:21:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "호주 국민 78% \"트럼프 불신\"…美대통령 중 역대 최저",
+      "link": "https://www.yna.co.kr/view/AKR20260624149900084",
+      "source": "연합뉴스 국제",
+      "ts": 1782288249000,
+      "pub": "Wed, 24 Jun 2026 17:04:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "덴마크, '트럼프 눈독' 그린란드에 징집병 배치",
+      "link": "https://www.yna.co.kr/view/AKR20260624150600098",
+      "source": "연합뉴스 국제",
+      "ts": 1782288137000,
+      "pub": "Wed, 24 Jun 2026 17:02:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "전투도 철군도 곤란…이스라엘의 레바논 군사작전",
+      "link": "https://www.yna.co.kr/view/AKR20260624140000009",
+      "source": "연합뉴스 국제",
+      "ts": 1782285364000,
+      "pub": "Wed, 24 Jun 2026 16:16:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미중, 희토류 이어 구리 전쟁?…기술 패권경쟁 새 전선 부각",
+      "link": "https://www.yna.co.kr/view/AKR20260624085400009",
+      "source": "연합뉴스 국제",
+      "ts": 1782285034000,
+      "pub": "Wed, 24 Jun 2026 16:10:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이란, '거래의 기술' 읽고 트럼프 '불안 작전' 대응\"",
+      "link": "https://www.yna.co.kr/view/AKR20260624127700009",
+      "source": "연합뉴스 국제",
+      "ts": 1782283264000,
+      "pub": "Wed, 24 Jun 2026 15:41:04 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "관세청장 \"새만금 첨단산업단지 종합보세구역 신속 지정\"",
       "link": "https://www.yna.co.kr/view/AKR20260624109000002",
@@ -66,54 +114,6 @@
       "ts": 1782256117000,
       "pub": "Wed, 24 Jun 2026 08:08:37 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "10번 시도 끝에…美상원서 트럼프 대이란 전쟁 저지 결의안 통과",
-      "link": "https://www.yna.co.kr/view/AKR20260624008400071",
-      "source": "연합뉴스 국제",
-      "ts": 1782247617000,
-      "pub": "Wed, 24 Jun 2026 05:46:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 공정 합의 노력…IAEA, 적당한 시기 이란 갈것\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260624003151071",
-      "source": "연합뉴스 국제",
-      "ts": 1782247250000,
-      "pub": "Wed, 24 Jun 2026 05:40:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 행정부, 공공의료보험 부정수급자 대규모 기소",
-      "link": "https://www.yna.co.kr/view/AKR20260624006600072",
-      "source": "연합뉴스 국제",
-      "ts": 1782246470000,
-      "pub": "Wed, 24 Jun 2026 05:27:50 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "트럼프 \"IAEA 사찰단, 적당한 시기에 이란 현장 투입될 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260624003100071",
-      "source": "연합뉴스 국제",
-      "ts": 1782238447000,
-      "pub": "Wed, 24 Jun 2026 03:14:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 관세발표 직전에야 세율정해…정부자료 불신해 구글링\"",
-      "link": "https://www.yna.co.kr/view/AKR20260624001600072",
-      "source": "연합뉴스 국제",
-      "ts": 1782232537000,
-      "pub": "Wed, 24 Jun 2026 01:35:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 공세에…푸틴 \"평화회담 유리한 조건 만들려 공격 이어가\"",
-      "link": "https://www.yna.co.kr/view/AKR20260624000900108",
-      "source": "연합뉴스 국제",
-      "ts": 1782230872000,
-      "pub": "Wed, 24 Jun 2026 01:07:52 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

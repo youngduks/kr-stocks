@@ -1,8 +1,56 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-24T06:35:03.034Z",
-  "count": 5,
+  "updated_at": "2026-06-24T10:12:12.510Z",
+  "count": 9,
   "items": [
+    {
+      "title": "반도체 기판의 힘…LG이노텍, 외국인 매수 1위",
+      "link": "https://www.hankyung.com/article/2026062460211",
+      "source": "한국경제",
+      "ts": 1782292137000,
+      "pub": "Wed, 24 Jun 2026 18:08:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체만으론 피지컬AI 한계…6G가 자율주행·로봇시대 연다",
+      "link": "https://www.hankyung.com/article/2026062461011",
+      "source": "한국경제",
+      "ts": 1782291744000,
+      "pub": "Wed, 24 Jun 2026 18:02:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"한 명이 100개 AI 고용하는 시대, 메모리 수요 100만배 늘 것\"",
+      "link": "https://www.hankyung.com/article/2026062460931",
+      "source": "한국경제",
+      "ts": 1782291582000,
+      "pub": "Wed, 24 Jun 2026 17:59:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "호남-팹·충청-낸드…삼전닉스 반도체 벨트, 남부권으로 확장",
+      "link": "https://www.hankyung.com/article/2026062461241",
+      "source": "한국경제",
+      "ts": 1782291345000,
+      "pub": "Wed, 24 Jun 2026 17:55:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"중국 암시장서 엔비디아 제품 가격, 배 이상 폭등\"",
+      "link": "https://www.yna.co.kr/view/AKR20260624138500009",
+      "source": "연합뉴스 국제",
+      "ts": 1782286378000,
+      "pub": "Wed, 24 Jun 2026 16:32:58 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[특징주] LG그룹주, '엔비디아 협력' 주시하며 혼조세 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260624050451008",
+      "source": "연합뉴스 경제",
+      "ts": 1782283487000,
+      "pub": "Wed, 24 Jun 2026 15:44:47 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이상일 \"삼성전자, 용인 반도체팹 계획대로 추진 의사 밝혀\"",
       "link": "https://www.yna.co.kr/view/AKR20260624124100061",
@@ -20,27 +68,11 @@
       "sentiment": "positive"
     },
     {
-      "title": "[특징주] LG그룹주, '엔비디아 협력' 주시하며 혼조세",
-      "link": "https://www.yna.co.kr/view/AKR20260624050400008",
-      "source": "연합뉴스 경제",
-      "ts": 1782261926000,
-      "pub": "Wed, 24 Jun 2026 09:45:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "월가서 반도체 3배 인버스 SOXS 옵션 거래량 급증",
       "link": "https://www.yna.co.kr/view/AKR20260624026500009",
       "source": "연합뉴스 국제",
       "ts": 1782258717000,
       "pub": "Wed, 24 Jun 2026 08:51:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, AI·반도체주 매도세에 하락…나스닥 2.2%↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260624006851072",
-      "source": "연합뉴스 국제",
-      "ts": 1782248552000,
-      "pub": "Wed, 24 Jun 2026 06:02:32 +0900",
       "sentiment": "neutral"
     }
   ]

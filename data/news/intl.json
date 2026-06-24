@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-24T10:12:12.509Z",
-  "count": 14,
+  "updated_at": "2026-06-24T13:10:28.644Z",
+  "count": 15,
   "items": [
+    {
+      "title": "트럼프 \"이란, '호르무즈 통행료 없다' 통보…거짓이면 협상 중단\"",
+      "link": "https://www.hankyung.com/article/2026062463137",
+      "source": "한국경제",
+      "ts": 1782304223000,
+      "pub": "Wed, 24 Jun 2026 21:30:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란, '호르무즈서 통행료 받고있지 않아' 통보해와\"",
+      "link": "https://www.yna.co.kr/view/AKR20260624173800071",
+      "source": "연합뉴스 국제",
+      "ts": 1782303848000,
+      "pub": "Wed, 24 Jun 2026 21:24:08 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "우크라 드론에 시달리는 러…크림반도 등 대규모 정전",
       "link": "https://www.yna.co.kr/view/AKR20260624155100108",
@@ -106,14 +122,6 @@
       "ts": 1782259803000,
       "pub": "Wed, 24 Jun 2026 09:10:03 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "美법률기업, 트럼프 행정부의 앤트로픽 AI 수출금지에 소송",
-      "link": "https://www.yna.co.kr/view/AKR20260624025000091",
-      "source": "연합뉴스 국제",
-      "ts": 1782256117000,
-      "pub": "Wed, 24 Jun 2026 08:08:37 +0900",
-      "sentiment": "negative"
     }
   ]
 }

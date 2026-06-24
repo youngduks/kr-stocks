@@ -1,38 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-24T10:12:12.510Z",
-  "count": 9,
+  "updated_at": "2026-06-24T13:10:28.645Z",
+  "count": 6,
   "items": [
     {
-      "title": "반도체 기판의 힘…LG이노텍, 외국인 매수 1위",
-      "link": "https://www.hankyung.com/article/2026062460211",
+      "title": "테일러 회장 \"피지컬AI 반도체, 우주서 만들어야 무결함\"",
+      "link": "https://www.hankyung.com/article/2026062462681",
       "source": "한국경제",
-      "ts": 1782292137000,
-      "pub": "Wed, 24 Jun 2026 18:08:57 +0900",
-      "sentiment": "neutral"
+      "ts": 1782298148000,
+      "pub": "Wed, 24 Jun 2026 19:49:08 +0900",
+      "sentiment": "negative"
     },
     {
-      "title": "반도체만으론 피지컬AI 한계…6G가 자율주행·로봇시대 연다",
-      "link": "https://www.hankyung.com/article/2026062461011",
+      "title": "이상일 \"반도체, 정치 아닌 산업…용인산단 원안대로 해야\"",
+      "link": "https://www.hankyung.com/article/2026062459971",
       "source": "한국경제",
-      "ts": 1782291744000,
-      "pub": "Wed, 24 Jun 2026 18:02:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"한 명이 100개 AI 고용하는 시대, 메모리 수요 100만배 늘 것\"",
-      "link": "https://www.hankyung.com/article/2026062460931",
-      "source": "한국경제",
-      "ts": 1782291582000,
-      "pub": "Wed, 24 Jun 2026 17:59:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "호남-팹·충청-낸드…삼전닉스 반도체 벨트, 남부권으로 확장",
-      "link": "https://www.hankyung.com/article/2026062461241",
-      "source": "한국경제",
-      "ts": 1782291345000,
-      "pub": "Wed, 24 Jun 2026 17:55:45 +0900",
+      "ts": 1782294850000,
+      "pub": "Wed, 24 Jun 2026 18:54:10 +0900",
       "sentiment": "neutral"
     },
     {
@@ -66,14 +50,6 @@
       "ts": 1782262299000,
       "pub": "Wed, 24 Jun 2026 09:51:39 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "월가서 반도체 3배 인버스 SOXS 옵션 거래량 급증",
-      "link": "https://www.yna.co.kr/view/AKR20260624026500009",
-      "source": "연합뉴스 국제",
-      "ts": 1782258717000,
-      "pub": "Wed, 24 Jun 2026 08:51:57 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

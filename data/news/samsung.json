@@ -1,8 +1,40 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-25T20:58:49.607Z",
-  "count": 8,
+  "updated_at": "2026-06-25T22:20:22.669Z",
+  "count": 11,
   "items": [
+    {
+      "title": "애플, 메모리 대란에 가격 올리고 칩 로드맵도 수정(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260626002551091",
+      "source": "연합뉴스 국제",
+      "ts": 1782424808000,
+      "pub": "Fri, 26 Jun 2026 07:00:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"갤럭시S27 프로 나온다\"…삼성, 첫 4종 라인업 꾸리나 [IT썰]",
+      "link": "https://www.mt.co.kr/tech/2026/06/26/2026062515412970399",
+      "source": "머니투데이",
+      "ts": 1782424800000,
+      "pub": "Fri, 26 Jun 2026 07:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 쏠림 지속…훈풍 나눠 받을 후보는? [분석+]",
+      "link": "https://www.hankyung.com/article/2026062581246",
+      "source": "한국경제",
+      "ts": 1782423001000,
+      "pub": "Fri, 26 Jun 2026 06:30:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"3위 마이크론 대박 쳤다\" 삼전닉스도 신기록?...개미 '두근두근'",
+      "link": "https://www.mt.co.kr/industry/2026/06/26/2026062518211674181",
+      "source": "머니투데이",
+      "ts": 1782422400000,
+      "pub": "Fri, 26 Jun 2026 06:20:00 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "몰려드는 특허괴물… K메모리 '골머리'",
       "link": "https://www.mt.co.kr/industry/2026/06/26/2026062519535464911",
@@ -41,14 +73,6 @@
       "source": "한국경제",
       "ts": 1782399765000,
       "pub": "Fri, 26 Jun 2026 00:02:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼전닉스, 절대 팔지 마라\"…'버핏 제자' 파브라이의 예찬",
-      "link": "https://www.mt.co.kr/world/2026/06/25/2026062520564375450",
-      "source": "머니투데이",
-      "ts": 1782392207000,
-      "pub": "Thu, 25 Jun 2026 21:56:47 +0900",
       "sentiment": "neutral"
     },
     {

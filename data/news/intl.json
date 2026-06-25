@@ -1,7 +1,7 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-25T20:58:49.606Z",
-  "count": 24,
+  "updated_at": "2026-06-25T22:20:22.667Z",
+  "count": 20,
   "items": [
     {
       "title": "달러-원, 완만한 PCE에 숨고르기…1,543.10원 마감",
@@ -49,14 +49,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782395155000,
       "pub": "Thu, 25 Jun 2026 22:45:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "영국, 철강 관세 25→50% 인상…산업부 \"피해 최소화 총력 대응\"",
-      "link": "https://www.mt.co.kr/economy/2026/06/25/2026062522253068821",
-      "source": "머니투데이",
-      "ts": 1782394414000,
-      "pub": "Thu, 25 Jun 2026 22:33:34 +0900",
       "sentiment": "neutral"
     },
     {
@@ -108,27 +100,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 英 차기 총리 후보 버넘에 \"극도로 진보적...성향 다를것\"평가",
-      "link": "https://www.mt.co.kr/world/2026/06/25/2026062519302284367",
-      "source": "머니투데이",
-      "ts": 1782385169000,
-      "pub": "Thu, 25 Jun 2026 19:59:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "석유시설 골라 때리는 우크라, 러 에너지 공급망 흔드나",
       "link": "https://www.yna.co.kr/view/AKR20260625159000109",
       "source": "연합뉴스 국제",
       "ts": 1782382017000,
       "pub": "Thu, 25 Jun 2026 19:06:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "기준금리 두고 푸틴과 갈등…러 중앙은행 총재 물러나나",
-      "link": "https://www.hankyung.com/article/2026062585271",
-      "source": "한국경제",
-      "ts": 1782381010000,
-      "pub": "Thu, 25 Jun 2026 18:50:10 +0900",
       "sentiment": "neutral"
     },
     {
@@ -185,14 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782368557000,
       "pub": "Thu, 25 Jun 2026 15:22:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "말레이 총리 \"푸틴, 러 석유·가스 장기 공급 약속\"",
-      "link": "https://www.yna.co.kr/view/AKR20260625094100084",
-      "source": "연합뉴스 국제",
-      "ts": 1782364098000,
-      "pub": "Thu, 25 Jun 2026 14:08:18 +0900",
       "sentiment": "neutral"
     }
   ]

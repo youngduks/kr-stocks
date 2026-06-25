@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-25T16:14:30.859Z",
-  "count": 21,
+  "updated_at": "2026-06-25T19:00:14.043Z",
+  "count": 23,
   "items": [
+    {
+      "title": "달러-원, 완만한 PCE에 숨고르기…1,543.10원 마감",
+      "link": "https://www.yna.co.kr/view/AKR20260626003800002",
+      "source": "연합뉴스 경제",
+      "ts": 1782412483000,
+      "pub": "Fri, 26 Jun 2026 03:34:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 상호관세 멈춰세운 美대법, 출생시민권 금지도 제동거나",
+      "link": "https://www.yna.co.kr/view/AKR20260626002600071",
+      "source": "연합뉴스 국제",
+      "ts": 1782412083000,
+      "pub": "Fri, 26 Jun 2026 03:28:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "폴란드서 우크라 재건회의…젤렌스키는 역사갈등에 불참(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260625165351082",
+      "source": "연합뉴스 국제",
+      "ts": 1782410481000,
+      "pub": "Fri, 26 Jun 2026 03:01:21 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "미 당국자 \"이스라엘군 레바논서 일부 철수\"…이스라엘은 부인(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260625157351079",
@@ -161,14 +185,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782359531000,
       "pub": "Thu, 25 Jun 2026 12:52:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 축제'된 美건국 250년 개막식…\"이란과 역사적 합의\" 역설",
-      "link": "https://www.yna.co.kr/view/AKR20260625071300071",
-      "source": "연합뉴스 국제",
-      "ts": 1782353121000,
-      "pub": "Thu, 25 Jun 2026 11:05:21 +0900",
       "sentiment": "neutral"
     }
   ]

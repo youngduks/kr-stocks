@@ -1,23 +1,143 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-25T06:38:39.998Z",
-  "count": 16,
+  "updated_at": "2026-06-25T10:09:53.362Z",
+  "count": 24,
   "items": [
     {
-      "title": "'호남 반도체' 뜨자 \"우리 지역구 패싱 말라\"…여야 막론 '아수라장'",
-      "link": "https://www.hankyung.com/article/202606257751i",
-      "source": "한국경제",
-      "ts": 1782367035000,
-      "pub": "Thu, 25 Jun 2026 14:57:15 +0900",
+      "title": "IBM, 반도체 '1나노 벽' 깼다…파운드리 패권경쟁 지각변동 올까",
+      "link": "https://www.yna.co.kr/view/AKR20260624093500091",
+      "source": "연합뉴스 국제",
+      "ts": 1782381601000,
+      "pub": "Thu, 25 Jun 2026 19:00:01 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[속보] SK하이닉스 15% 급등…'시총 1위' 탈환",
-      "link": "https://www.hankyung.com/article/2026062579387",
+      "title": "용인-전력망, 호남-입지…반도체 벨트 '투트랙 지원'",
+      "link": "https://www.hankyung.com/article/2026062586281",
       "source": "한국경제",
-      "ts": 1782366868000,
-      "pub": "Thu, 25 Jun 2026 14:54:28 +0900",
+      "ts": 1782379258000,
+      "pub": "Thu, 25 Jun 2026 18:20:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 장비 수출 막혀있는데…ASML 대표 7월 방중설",
+      "link": "https://www.mt.co.kr/world/2026/06/25/2026062517471519322",
+      "source": "머니투데이",
+      "ts": 1782379089000,
+      "pub": "Thu, 25 Jun 2026 18:18:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"반도체 정치화 중단\"…이인선·이상휘 의원, 항의서한 전달",
+      "link": "https://www.hankyung.com/article/2026062584307",
+      "source": "한국경제",
+      "ts": 1782378781000,
+      "pub": "Thu, 25 Jun 2026 18:13:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "마이크론, 영업이익률 81% 신기록…메모리 공급난 이제 시작[오미주]",
+      "link": "https://www.mt.co.kr/world/2026/06/25/2026062515570422515",
+      "source": "머니투데이",
+      "ts": 1782378300000,
+      "pub": "Thu, 25 Jun 2026 18:05:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'반도체 ETF'로 시작한 20년…미래에셋, 세계 11위 운용사로",
+      "link": "https://www.hankyung.com/article/202606258631i",
+      "source": "한국경제",
+      "ts": 1782378135000,
+      "pub": "Thu, 25 Jun 2026 18:02:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스, 자발적 이직률 0.5%…납세 기여 2배 이상 늘어",
+      "link": "https://www.mt.co.kr/industry/2026/06/25/2026062517363691445",
+      "source": "머니투데이",
+      "ts": 1782378087000,
+      "pub": "Thu, 25 Jun 2026 18:01:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 '피크아웃' 한방에 날린 마이크론",
+      "link": "https://www.hankyung.com/article/2026062586111",
+      "source": "한국경제",
+      "ts": 1782377935000,
+      "pub": "Thu, 25 Jun 2026 17:58:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "물·전기 있지만 인력·생태계가 없다…'호남 반도체 팹' 5대 쟁점",
+      "link": "https://www.hankyung.com/article/2026062586081",
+      "source": "한국경제",
+      "ts": 1782377793000,
+      "pub": "Thu, 25 Jun 2026 17:56:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"피크아웃? 58만전자·420만닉스 간다\"…마이크론 덕에 공포 걷혔다",
+      "link": "https://www.mt.co.kr/stock/2026/06/25/2026062516472469551",
+      "source": "머니투데이",
+      "ts": 1782374873000,
+      "pub": "Thu, 25 Jun 2026 17:07:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "장동혁 \"李 '호남에 반도체 줄테니 정청래 떨어뜨리라'는 것\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/25/2026062516462142727",
+      "source": "머니투데이",
+      "ts": 1782374452000,
+      "pub": "Thu, 25 Jun 2026 17:00:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, 5%대 ↑… 美 PCE 발표 이후에도 반도체 투심 이어갈까",
+      "link": "https://www.mt.co.kr/stock/2026/06/25/2026062516173980393",
+      "source": "머니투데이",
+      "ts": 1782374003000,
+      "pub": "Thu, 25 Jun 2026 16:53:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "휴머노이드로 번지는 AI 메모리 수요..\"2027년 이후에도 공급 부족\"",
+      "link": "https://www.mt.co.kr/industry/2026/06/25/2026062514231251905",
+      "source": "머니투데이",
+      "ts": 1782373800000,
+      "pub": "Thu, 25 Jun 2026 16:50:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "마이크론 훈풍에 다시 불붙은 반도체…한때 9천피 탈환(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260625057451008",
+      "source": "연합뉴스 경제",
+      "ts": 1782373560000,
+      "pub": "Thu, 25 Jun 2026 16:46:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하이닉스 장중 15% 급등, 삼전도 5%↑…시총 1위 다툼 치열(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260625113351008",
+      "source": "연합뉴스 경제",
+      "ts": 1782370330000,
+      "pub": "Thu, 25 Jun 2026 15:52:10 +0900",
       "sentiment": "positive"
+    },
+    {
+      "title": "\"주가 희석\" vs \"재평가 효과\"…하이닉스 ADR 상장 주가 영향은(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260625083651008",
+      "source": "연합뉴스 경제",
+      "ts": 1782370098000,
+      "pub": "Thu, 25 Jun 2026 15:48:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"마이크론, 피크아웃 우려 진정시켰다…기술주 마진왕 등극\"",
+      "link": "https://www.yna.co.kr/view/AKR20260625119800009",
+      "source": "연합뉴스 국제",
+      "ts": 1782369638000,
+      "pub": "Thu, 25 Jun 2026 15:40:38 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "[속보] SK하이닉스 15% 급등…'시총 1위' 엎치락뒤치락",
@@ -28,35 +148,11 @@
       "sentiment": "positive"
     },
     {
-      "title": "SK하이닉스처럼…日 키옥시아, 미국 증시상장 추진 [재팬스탁]",
-      "link": "https://www.hankyung.com/article/202606257829i",
-      "source": "한국경제",
-      "ts": 1782365651000,
-      "pub": "Thu, 25 Jun 2026 14:34:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "SK하이닉스 나스닥 상장, 마이크론엔 '양날의 검'",
       "link": "https://www.yna.co.kr/view/AKR20260625086700009",
       "source": "연합뉴스 국제",
       "ts": 1782365324000,
       "pub": "Thu, 25 Jun 2026 14:28:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아·테슬라 만난 'K-피지컬 AI'…실리콘밸리서 협력 논의",
-      "link": "https://www.hankyung.com/article/202606256485i",
-      "source": "한국경제",
-      "ts": 1782363604000,
-      "pub": "Thu, 25 Jun 2026 14:00:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"정치 논리에 좌우\"…여야, 호남 반도체 클러스터 놓고 정면충돌",
-      "link": "https://www.hankyung.com/article/2026062575177",
-      "source": "한국경제",
-      "ts": 1782362348000,
-      "pub": "Thu, 25 Jun 2026 13:39:08 +0900",
       "sentiment": "neutral"
     },
     {
@@ -84,14 +180,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "구미시 \"평당 1천원에 부지 제공\"…반도체 팹 유치 파격 제안",
-      "link": "https://www.yna.co.kr/view/AKR20260625061700053",
-      "source": "연합뉴스 경제",
-      "ts": 1782351601000,
-      "pub": "Thu, 25 Jun 2026 10:40:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"네덜란드 반도체 장비업체 ASML, 7월 중국 방문단에 포함\"",
       "link": "https://www.yna.co.kr/view/AKR20260625054100083",
       "source": "연합뉴스 국제",
@@ -100,35 +188,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "반도체주 불기둥에 다시 상승세 키우는 코스피…9천피 탈환하나",
-      "link": "https://www.yna.co.kr/view/AKR20260625057400008",
-      "source": "연합뉴스 경제",
-      "ts": 1782349902000,
-      "pub": "Thu, 25 Jun 2026 10:11:42 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 4%·9%대 급등",
-      "link": "https://www.yna.co.kr/view/AKR20260625044600008",
-      "source": "연합뉴스 경제",
-      "ts": 1782347117000,
-      "pub": "Thu, 25 Jun 2026 09:25:17 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "마이크론 \"장기계약 16건…협의중 포함시 매출 절반\"",
       "link": "https://www.yna.co.kr/view/AKR20260625029600009",
       "source": "연합뉴스 국제",
       "ts": 1782345444000,
       "pub": "Thu, 25 Jun 2026 08:57:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "마이크론, 분기 매출 4배로 껑충…최고기록 또 갈아치워",
-      "link": "https://www.yna.co.kr/view/AKR20260625009000091",
-      "source": "연합뉴스 국제",
-      "ts": 1782334763000,
-      "pub": "Thu, 25 Jun 2026 05:59:23 +0900",
       "sentiment": "neutral"
     }
   ]

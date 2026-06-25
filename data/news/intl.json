@@ -1,8 +1,72 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-25T06:38:39.997Z",
-  "count": 21,
+  "updated_at": "2026-06-25T10:09:53.361Z",
+  "count": 17,
   "items": [
+    {
+      "title": "\"이스라엘, 레바논 남부 완충지대 일부서 병력 철수\"",
+      "link": "https://www.yna.co.kr/view/AKR20260625157300079",
+      "source": "연합뉴스 국제",
+      "ts": 1782379563000,
+      "pub": "Thu, 25 Jun 2026 18:26:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 트럼프 회심의 카드 '유권자 확인법'이 논란인 이유",
+      "link": "https://www.yna.co.kr/view/AKR20260624159300797",
+      "source": "연합뉴스 국제",
+      "ts": 1782378217000,
+      "pub": "Thu, 25 Jun 2026 18:03:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 로이터 \"이스라엘, 레바논 완충지대 일부서 철수\"",
+      "link": "https://www.hankyung.com/article/2026062586387",
+      "source": "한국경제",
+      "ts": 1782377576000,
+      "pub": "Thu, 25 Jun 2026 17:52:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] \"이스라엘, 레바논 완충지대 일부서 철수\"",
+      "link": "https://www.yna.co.kr/view/AKR20260625155000079",
+      "source": "연합뉴스 국제",
+      "ts": 1782377521000,
+      "pub": "Thu, 25 Jun 2026 17:52:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[쇼츠] 60곳 동시다발 타격…우크라 드론에 크림반도 '속수무책'",
+      "link": "https://www.yna.co.kr/view/AKR20260625147500704",
+      "source": "연합뉴스 국제",
+      "ts": 1782374636000,
+      "pub": "Thu, 25 Jun 2026 17:03:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '영국 총리 유력' 버넘에 \"극도로 진보적이라던데\"",
+      "link": "https://www.yna.co.kr/view/AKR20260625141400085",
+      "source": "연합뉴스 국제",
+      "ts": 1782374530000,
+      "pub": "Thu, 25 Jun 2026 17:02:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, 5%대 ↑… 美 PCE 발표 이후에도 반도체 투심 이어갈까",
+      "link": "https://www.mt.co.kr/stock/2026/06/25/2026062516173980393",
+      "source": "머니투데이",
+      "ts": 1782374003000,
+      "pub": "Thu, 25 Jun 2026 16:53:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'병력 철수 아닌 축소' 美 평화안에 이스라엘·레바논 모두 불만",
+      "link": "https://www.yna.co.kr/view/AKR20260625142300079",
+      "source": "연합뉴스 국제",
+      "ts": 1782373400000,
+      "pub": "Thu, 25 Jun 2026 16:43:20 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'사이버 핵무기에 대응해야'…中보안업체, 중국판 미토스 공개",
       "link": "https://www.yna.co.kr/view/AKR20260625117400083",
@@ -33,14 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782353121000,
       "pub": "Thu, 25 Jun 2026 11:05:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "작년 관세 수입 7.6조원…부과액 기준 중국산이 26%",
-      "link": "https://www.yna.co.kr/view/AKR20260625050800002",
-      "source": "연합뉴스 경제",
-      "ts": 1782349372000,
-      "pub": "Thu, 25 Jun 2026 10:02:52 +0900",
       "sentiment": "neutral"
     },
     {
@@ -81,94 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782340518000,
       "pub": "Thu, 25 Jun 2026 07:35:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '주택공급 확대' 초당적 통과법안에 제동…\"투표법부터\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260625000751071",
-      "source": "연합뉴스 국제",
-      "ts": 1782338603000,
-      "pub": "Thu, 25 Jun 2026 07:03:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美연준 \"미 대형은행들, 심각한 경기침체 견딜 체력 갖춰\"",
-      "link": "https://www.yna.co.kr/view/AKR20260625007900072",
-      "source": "연합뉴스 국제",
-      "ts": 1782333647000,
-      "pub": "Thu, 25 Jun 2026 05:40:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美국무 \"레바논 정규군 통제지역 늘어나면 이스라엘도 병력 뺄것\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260625002851071",
-      "source": "연합뉴스 국제",
-      "ts": 1782333330000,
-      "pub": "Thu, 25 Jun 2026 05:35:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "딜런 존슨 美국무부 대외협력 차관보 한국·일본 방문",
-      "link": "https://www.yna.co.kr/view/AKR20260625005700071",
-      "source": "연합뉴스 국제",
-      "ts": 1782329407000,
-      "pub": "Thu, 25 Jun 2026 04:30:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "유럽 5개국 정상 \"러·우크라 직접 협상 지지\"",
-      "link": "https://www.yna.co.kr/view/AKR20260625004900082",
-      "source": "연합뉴스 국제",
-      "ts": 1782327920000,
-      "pub": "Thu, 25 Jun 2026 04:05:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美국무부, 대만 동부해역 中활동에 \"역내 안정 크게 훼손\"",
-      "link": "https://www.yna.co.kr/view/AKR20260625004500071",
-      "source": "연합뉴스 국제",
-      "ts": 1782327145000,
-      "pub": "Thu, 25 Jun 2026 03:52:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "네타냐후 \"작년 이란 공격 트럼프 허락 안받아…통보했을 뿐\"",
-      "link": "https://www.yna.co.kr/view/AKR20260625003500079",
-      "source": "연합뉴스 국제",
-      "ts": 1782325466000,
-      "pub": "Thu, 25 Jun 2026 03:24:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란은 IAEA사찰단 미정이라는데…트럼프 \"미국인도 포함될것\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260624178351071",
-      "source": "연합뉴스 국제",
-      "ts": 1782324135000,
-      "pub": "Thu, 25 Jun 2026 03:02:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '맘다니 사단' 약진에 \"가짜뉴스 언론의 찬사받아\"",
-      "link": "https://www.yna.co.kr/view/AKR20260625001400071",
-      "source": "연합뉴스 국제",
-      "ts": 1782317187000,
-      "pub": "Thu, 25 Jun 2026 01:06:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프의 戰後 행보 난관…MOU 후폭풍에 민심 이반·지지층 분열",
-      "link": "https://www.yna.co.kr/view/AKR20260625000900071",
-      "source": "연합뉴스 국제",
-      "ts": 1782316486000,
-      "pub": "Thu, 25 Jun 2026 00:54:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "주택공급확대법 美의회 통과…트럼프, 투표법과 연계하며 서명보류",
-      "link": "https://www.yna.co.kr/view/AKR20260625000700071",
-      "source": "연합뉴스 국제",
-      "ts": 1782315720000,
-      "pub": "Thu, 25 Jun 2026 00:42:00 +0900",
       "sentiment": "neutral"
     }
   ]

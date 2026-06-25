@@ -1,14 +1,62 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-25T06:38:39.998Z",
-  "count": 1,
+  "updated_at": "2026-06-25T10:09:53.362Z",
+  "count": 7,
   "items": [
     {
-      "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 4%·9%대 급등",
-      "link": "https://www.yna.co.kr/view/AKR20260625044600008",
+      "title": "IBM, 반도체 '1나노 벽' 깼다…파운드리 패권경쟁 지각변동 올까",
+      "link": "https://www.yna.co.kr/view/AKR20260624093500091",
+      "source": "연합뉴스 국제",
+      "ts": 1782381601000,
+      "pub": "Thu, 25 Jun 2026 19:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "출시 한달 됐는데…'삼전닉스 레버리지'까지 감사 사정권",
+      "link": "https://www.hankyung.com/article/2026062585201",
+      "source": "한국경제",
+      "ts": 1782380026000,
+      "pub": "Thu, 25 Jun 2026 18:33:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'고점론 불안' 지운 실적 기대감…삼전닉스, 다시 랠리",
+      "link": "https://www.hankyung.com/article/2026062585991",
+      "source": "한국경제",
+      "ts": 1782379628000,
+      "pub": "Thu, 25 Jun 2026 18:27:08 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "마이크론, 영업이익률 81% 신기록…메모리 공급난 이제 시작[오미주]",
+      "link": "https://www.mt.co.kr/world/2026/06/25/2026062515570422515",
+      "source": "머니투데이",
+      "ts": 1782378300000,
+      "pub": "Thu, 25 Jun 2026 18:05:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李대통령 \"첨단산업 대규모 투자, 영호남 확대해야\"…이재용과 회동",
+      "link": "https://www.mt.co.kr/politics/2026/06/25/2026062517375667229",
+      "source": "머니투데이",
+      "ts": 1782377880000,
+      "pub": "Thu, 25 Jun 2026 17:58:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "휴머노이드로 번지는 AI 메모리 수요..\"2027년 이후에도 공급 부족\"",
+      "link": "https://www.mt.co.kr/industry/2026/06/25/2026062514231251905",
+      "source": "머니투데이",
+      "ts": 1782373800000,
+      "pub": "Thu, 25 Jun 2026 16:50:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하이닉스 장중 15% 급등, 삼전도 5%↑…시총 1위 다툼 치열(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260625113351008",
       "source": "연합뉴스 경제",
-      "ts": 1782347117000,
-      "pub": "Thu, 25 Jun 2026 09:25:17 +0900",
+      "ts": 1782370330000,
+      "pub": "Thu, 25 Jun 2026 15:52:10 +0900",
       "sentiment": "positive"
     }
   ]

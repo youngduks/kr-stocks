@@ -1,8 +1,48 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-25T10:09:53.362Z",
-  "count": 24,
+  "updated_at": "2026-06-25T13:09:04.774Z",
+  "count": 19,
   "items": [
+    {
+      "title": "SKT, SK하이닉스 美 AI 투자법인에 7384억 출자…AI 인프라 승부수",
+      "link": "https://www.mt.co.kr/tech/2026/06/25/2026062520323810362",
+      "source": "머니투데이",
+      "ts": 1782388747000,
+      "pub": "Thu, 25 Jun 2026 20:59:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "日 '반도체' 키옥시아, 내년 4~5월 美 ADR 상장 추진",
+      "link": "https://www.mt.co.kr/world/2026/06/25/2026062518253463544",
+      "source": "머니투데이",
+      "ts": 1782384194000,
+      "pub": "Thu, 25 Jun 2026 19:43:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SKT, SK하이닉스 미국 AI 투자법인에 7천억원대 출자",
+      "link": "https://www.yna.co.kr/view/AKR20260625163000017",
+      "source": "연합뉴스 경제",
+      "ts": 1782383311000,
+      "pub": "Thu, 25 Jun 2026 19:28:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "국민성장펀드, 데이터센터 전력망·반도체 시설에 3700억 지원",
+      "link": "https://www.mt.co.kr/finance/2026/06/25/2026062518222314729",
+      "source": "머니투데이",
+      "ts": 1782382974000,
+      "pub": "Thu, 25 Jun 2026 19:22:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "국민성장펀드, 풍력·케이블·반도체에 3천700억원 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260625157800002",
+      "source": "연합뉴스 경제",
+      "ts": 1782382708000,
+      "pub": "Thu, 25 Jun 2026 19:18:28 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "IBM, 반도체 '1나노 벽' 깼다…파운드리 패권경쟁 지각변동 올까",
       "link": "https://www.yna.co.kr/view/AKR20260624093500091",
@@ -28,83 +68,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"반도체 정치화 중단\"…이인선·이상휘 의원, 항의서한 전달",
-      "link": "https://www.hankyung.com/article/2026062584307",
-      "source": "한국경제",
-      "ts": 1782378781000,
-      "pub": "Thu, 25 Jun 2026 18:13:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "마이크론, 영업이익률 81% 신기록…메모리 공급난 이제 시작[오미주]",
       "link": "https://www.mt.co.kr/world/2026/06/25/2026062515570422515",
       "source": "머니투데이",
       "ts": 1782378300000,
       "pub": "Thu, 25 Jun 2026 18:05:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'반도체 ETF'로 시작한 20년…미래에셋, 세계 11위 운용사로",
-      "link": "https://www.hankyung.com/article/202606258631i",
-      "source": "한국경제",
-      "ts": 1782378135000,
-      "pub": "Thu, 25 Jun 2026 18:02:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스, 자발적 이직률 0.5%…납세 기여 2배 이상 늘어",
-      "link": "https://www.mt.co.kr/industry/2026/06/25/2026062517363691445",
-      "source": "머니투데이",
-      "ts": 1782378087000,
-      "pub": "Thu, 25 Jun 2026 18:01:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 '피크아웃' 한방에 날린 마이크론",
-      "link": "https://www.hankyung.com/article/2026062586111",
-      "source": "한국경제",
-      "ts": 1782377935000,
-      "pub": "Thu, 25 Jun 2026 17:58:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "물·전기 있지만 인력·생태계가 없다…'호남 반도체 팹' 5대 쟁점",
-      "link": "https://www.hankyung.com/article/2026062586081",
-      "source": "한국경제",
-      "ts": 1782377793000,
-      "pub": "Thu, 25 Jun 2026 17:56:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"피크아웃? 58만전자·420만닉스 간다\"…마이크론 덕에 공포 걷혔다",
-      "link": "https://www.mt.co.kr/stock/2026/06/25/2026062516472469551",
-      "source": "머니투데이",
-      "ts": 1782374873000,
-      "pub": "Thu, 25 Jun 2026 17:07:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "장동혁 \"李 '호남에 반도체 줄테니 정청래 떨어뜨리라'는 것\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/25/2026062516462142727",
-      "source": "머니투데이",
-      "ts": 1782374452000,
-      "pub": "Thu, 25 Jun 2026 17:00:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피, 5%대 ↑… 美 PCE 발표 이후에도 반도체 투심 이어갈까",
-      "link": "https://www.mt.co.kr/stock/2026/06/25/2026062516173980393",
-      "source": "머니투데이",
-      "ts": 1782374003000,
-      "pub": "Thu, 25 Jun 2026 16:53:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "휴머노이드로 번지는 AI 메모리 수요..\"2027년 이후에도 공급 부족\"",
-      "link": "https://www.mt.co.kr/industry/2026/06/25/2026062514231251905",
-      "source": "머니투데이",
-      "ts": 1782373800000,
-      "pub": "Thu, 25 Jun 2026 16:50:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -185,14 +153,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782349912000,
       "pub": "Thu, 25 Jun 2026 10:11:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "마이크론 \"장기계약 16건…협의중 포함시 매출 절반\"",
-      "link": "https://www.yna.co.kr/view/AKR20260625029600009",
-      "source": "연합뉴스 국제",
-      "ts": 1782345444000,
-      "pub": "Thu, 25 Jun 2026 08:57:24 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,64 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-25T10:09:53.361Z",
-  "count": 17,
+  "updated_at": "2026-06-25T13:09:04.772Z",
+  "count": 19,
   "items": [
+    {
+      "title": "\"'오스만 철도 부활' 튀르키예 막으려…이스라엘, 물밑 외교전\"",
+      "link": "https://www.yna.co.kr/view/AKR20260625169400108",
+      "source": "연합뉴스 국제",
+      "ts": 1782392340000,
+      "pub": "Thu, 25 Jun 2026 21:59:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 5월 PCE 물가 전년대비 4.1%↑…최근 유가하락 미반영",
+      "link": "https://www.yna.co.kr/view/AKR20260625169151072",
+      "source": "연합뉴스 국제",
+      "ts": 1782391430000,
+      "pub": "Thu, 25 Jun 2026 21:43:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美 5월 PCE 물가 전년대비 4.1%↑…최근 유가하락 미반영",
+      "link": "https://www.yna.co.kr/view/AKR20260625169100072",
+      "source": "연합뉴스 국제",
+      "ts": 1782390809000,
+      "pub": "Thu, 25 Jun 2026 21:33:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "폴란드서 '젤렌스키 빠진' 우크라 재건회의…역사갈등 후폭풍",
+      "link": "https://www.yna.co.kr/view/AKR20260625165300082",
+      "source": "연합뉴스 국제",
+      "ts": 1782386266000,
+      "pub": "Thu, 25 Jun 2026 20:17:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 英 차기 총리 후보 버넘에 \"극도로 진보적...성향 다를것\"평가",
+      "link": "https://www.mt.co.kr/world/2026/06/25/2026062519302284367",
+      "source": "머니투데이",
+      "ts": 1782385169000,
+      "pub": "Thu, 25 Jun 2026 19:59:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "석유시설 골라 때리는 우크라, 러 에너지 공급망 흔드나",
+      "link": "https://www.yna.co.kr/view/AKR20260625159000109",
+      "source": "연합뉴스 국제",
+      "ts": 1782382017000,
+      "pub": "Thu, 25 Jun 2026 19:06:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "기준금리 두고 푸틴과 갈등…러 중앙은행 총재 물러나나",
+      "link": "https://www.hankyung.com/article/2026062585271",
+      "source": "한국경제",
+      "ts": 1782381010000,
+      "pub": "Thu, 25 Jun 2026 18:50:10 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"이스라엘, 레바논 남부 완충지대 일부서 병력 철수\"",
       "link": "https://www.yna.co.kr/view/AKR20260625157300079",
@@ -17,14 +73,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782378217000,
       "pub": "Thu, 25 Jun 2026 18:03:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 로이터 \"이스라엘, 레바논 완충지대 일부서 철수\"",
-      "link": "https://www.hankyung.com/article/2026062586387",
-      "source": "한국경제",
-      "ts": 1782377576000,
-      "pub": "Thu, 25 Jun 2026 17:52:56 +0900",
       "sentiment": "neutral"
     },
     {
@@ -49,14 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782374530000,
       "pub": "Thu, 25 Jun 2026 17:02:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피, 5%대 ↑… 美 PCE 발표 이후에도 반도체 투심 이어갈까",
-      "link": "https://www.mt.co.kr/stock/2026/06/25/2026062516173980393",
-      "source": "머니투데이",
-      "ts": 1782374003000,
-      "pub": "Thu, 25 Jun 2026 16:53:23 +0900",
       "sentiment": "neutral"
     },
     {
@@ -113,30 +153,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782348729000,
       "pub": "Thu, 25 Jun 2026 09:52:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러시아 야당 부대표, SNS서 우크라전 비판했다가 징역 7년",
-      "link": "https://www.yna.co.kr/view/AKR20260625031500009",
-      "source": "연합뉴스 국제",
-      "ts": 1782346096000,
-      "pub": "Thu, 25 Jun 2026 09:08:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"이란 전쟁비용 보전해달라\"…트럼프, 추가예산 135조원 요청",
-      "link": "https://www.yna.co.kr/view/AKR20260625026300009",
-      "source": "연합뉴스 국제",
-      "ts": 1782343980000,
-      "pub": "Thu, 25 Jun 2026 08:33:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 나토 총장 해명에도 또 유럽 비난…\"응원이라도 해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260625016700071",
-      "source": "연합뉴스 국제",
-      "ts": 1782340518000,
-      "pub": "Thu, 25 Jun 2026 07:35:18 +0900",
       "sentiment": "neutral"
     }
   ]

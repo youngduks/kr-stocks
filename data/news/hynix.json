@@ -1,8 +1,88 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-25T02:39:30.136Z",
-  "count": 15,
+  "updated_at": "2026-06-25T06:38:39.998Z",
+  "count": 16,
   "items": [
+    {
+      "title": "'호남 반도체' 뜨자 \"우리 지역구 패싱 말라\"…여야 막론 '아수라장'",
+      "link": "https://www.hankyung.com/article/202606257751i",
+      "source": "한국경제",
+      "ts": 1782367035000,
+      "pub": "Thu, 25 Jun 2026 14:57:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] SK하이닉스 15% 급등…'시총 1위' 탈환",
+      "link": "https://www.hankyung.com/article/2026062579387",
+      "source": "한국경제",
+      "ts": 1782366868000,
+      "pub": "Thu, 25 Jun 2026 14:54:28 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[속보] SK하이닉스 15% 급등…'시총 1위' 엎치락뒤치락",
+      "link": "https://www.yna.co.kr/view/AKR20260625113300008",
+      "source": "연합뉴스 경제",
+      "ts": 1782366703000,
+      "pub": "Thu, 25 Jun 2026 14:51:43 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "SK하이닉스처럼…日 키옥시아, 미국 증시상장 추진 [재팬스탁]",
+      "link": "https://www.hankyung.com/article/202606257829i",
+      "source": "한국경제",
+      "ts": 1782365651000,
+      "pub": "Thu, 25 Jun 2026 14:34:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 나스닥 상장, 마이크론엔 '양날의 검'",
+      "link": "https://www.yna.co.kr/view/AKR20260625086700009",
+      "source": "연합뉴스 국제",
+      "ts": 1782365324000,
+      "pub": "Thu, 25 Jun 2026 14:28:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아·테슬라 만난 'K-피지컬 AI'…실리콘밸리서 협력 논의",
+      "link": "https://www.hankyung.com/article/202606256485i",
+      "source": "한국경제",
+      "ts": 1782363604000,
+      "pub": "Thu, 25 Jun 2026 14:00:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"정치 논리에 좌우\"…여야, 호남 반도체 클러스터 놓고 정면충돌",
+      "link": "https://www.hankyung.com/article/2026062575177",
+      "source": "한국경제",
+      "ts": 1782362348000,
+      "pub": "Thu, 25 Jun 2026 13:39:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "구미시 \"평당 1천원에 부지 제공\"…반도체 팹 유치 파격 제안(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260625061751053",
+      "source": "연합뉴스 경제",
+      "ts": 1782355792000,
+      "pub": "Thu, 25 Jun 2026 11:49:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"반도체 초과세수로 국부펀드, 30년후 매달 62만원 국민배당 가능\"",
+      "link": "https://www.yna.co.kr/view/AKR20260625083100004",
+      "source": "연합뉴스 경제",
+      "ts": 1782355490000,
+      "pub": "Thu, 25 Jun 2026 11:44:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"주가 희석\" vs \"재평가 효과\"…하이닉스 ADR 상장 주가 영향은",
+      "link": "https://www.yna.co.kr/view/AKR20260625083600008",
+      "source": "연합뉴스 경제",
+      "ts": 1782355215000,
+      "pub": "Thu, 25 Jun 2026 11:40:15 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "구미시 \"평당 1천원에 부지 제공\"…반도체 팹 유치 파격 제안",
       "link": "https://www.yna.co.kr/view/AKR20260625061700053",
@@ -28,59 +108,11 @@
       "sentiment": "positive"
     },
     {
-      "title": "'반도체 공포' 하루 만에 뒤집혔다…삼전닉스도 '급반등'",
-      "link": "https://www.hankyung.com/article/202606256807g",
-      "source": "한국경제",
-      "ts": 1782349130000,
-      "pub": "Thu, 25 Jun 2026 09:58:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한경협 \"올해 경제성장률 2.7% 전망…반도체 편중은 과제\"",
-      "link": "https://www.hankyung.com/article/2026062570107",
-      "source": "한국경제",
-      "ts": 1782348757000,
-      "pub": "Thu, 25 Jun 2026 09:52:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼성전자 주식 없어도 든든\"…마이크론 낭보에 개미 '환호' [종목+]",
-      "link": "https://www.hankyung.com/article/2026062570066",
-      "source": "한국경제",
-      "ts": 1782348490000,
-      "pub": "Thu, 25 Jun 2026 09:48:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한동훈 \"반도체 산업, 민주당 명청대전 전대용 총알 아냐\"",
-      "link": "https://www.hankyung.com/article/2026062567577",
-      "source": "한국경제",
-      "ts": 1782348395000,
-      "pub": "Thu, 25 Jun 2026 09:46:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[단독] 반도체 전력망 '지중화'에 국비 지원…클러스터 지정 땐 비수도권 우대",
-      "link": "https://www.hankyung.com/article/202606256867i",
-      "source": "한국경제",
-      "ts": 1782348035000,
-      "pub": "Thu, 25 Jun 2026 09:40:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 4%·9%대 급등",
       "link": "https://www.yna.co.kr/view/AKR20260625044600008",
       "source": "연합뉴스 경제",
       "ts": 1782347117000,
       "pub": "Thu, 25 Jun 2026 09:25:17 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "마이크론 호실적에 삼전·하닉 급등…'구천피' 탈환할까",
-      "link": "https://www.hankyung.com/article/2026062569126",
-      "source": "한국경제",
-      "ts": 1782346921000,
-      "pub": "Thu, 25 Jun 2026 09:22:01 +0900",
       "sentiment": "positive"
     },
     {
@@ -92,35 +124,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "미래에셋증권, SK하이닉스 목표가 380만원→420만원 상향",
-      "link": "https://www.yna.co.kr/view/AKR20260625029900008",
-      "source": "연합뉴스 경제",
-      "ts": 1782344831000,
-      "pub": "Thu, 25 Jun 2026 08:47:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[마켓뷰] 마이크론 어닝 서프라이즈…코스피 9,000 탈환 시도하나",
-      "link": "https://www.yna.co.kr/view/AKR20260625016900008",
-      "source": "연합뉴스 경제",
-      "ts": 1782340926000,
-      "pub": "Thu, 25 Jun 2026 07:42:06 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "마이크론, 분기 매출 4배로 껑충…최고기록 또 갈아치워",
       "link": "https://www.yna.co.kr/view/AKR20260625009000091",
       "source": "연합뉴스 국제",
       "ts": 1782334763000,
       "pub": "Thu, 25 Jun 2026 05:59:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 마이크론 실적 앞두고 상승 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260624176500009",
-      "source": "연합뉴스 국제",
-      "ts": 1782309574000,
-      "pub": "Wed, 24 Jun 2026 22:59:34 +0900",
       "sentiment": "neutral"
     }
   ]

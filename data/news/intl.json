@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-25T02:39:30.134Z",
-  "count": 22,
+  "updated_at": "2026-06-25T06:38:39.997Z",
+  "count": 21,
   "items": [
+    {
+      "title": "'사이버 핵무기에 대응해야'…中보안업체, 중국판 미토스 공개",
+      "link": "https://www.yna.co.kr/view/AKR20260625117400083",
+      "source": "연합뉴스 국제",
+      "ts": 1782368557000,
+      "pub": "Thu, 25 Jun 2026 15:22:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "말레이 총리 \"푸틴, 러 석유·가스 장기 공급 약속\"",
+      "link": "https://www.yna.co.kr/view/AKR20260625094100084",
+      "source": "연합뉴스 국제",
+      "ts": 1782364098000,
+      "pub": "Thu, 25 Jun 2026 14:08:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 시커먼 연기띠 크림반도…우크라 드론, 60여곳 동시다발 타격",
+      "link": "https://www.yna.co.kr/view/AKR20260625086400704",
+      "source": "연합뉴스 국제",
+      "ts": 1782359531000,
+      "pub": "Thu, 25 Jun 2026 12:52:11 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'트럼프 축제'된 美건국 250년 개막식…\"이란과 역사적 합의\" 역설",
       "link": "https://www.yna.co.kr/view/AKR20260625071300071",
@@ -70,7 +94,7 @@
     {
       "title": "美연준 \"미 대형은행들, 심각한 경기침체 견딜 체력 갖춰\"",
       "link": "https://www.yna.co.kr/view/AKR20260625007900072",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1782333647000,
       "pub": "Thu, 25 Jun 2026 05:40:47 +0900",
       "sentiment": "neutral"
@@ -105,14 +129,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782327145000,
       "pub": "Thu, 25 Jun 2026 03:52:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "달러-원, DXY 강세에 야간 거래서 상승폭 확대…1,542.70원 마감",
-      "link": "https://www.yna.co.kr/view/AKR20260625004300002",
-      "source": "연합뉴스 경제",
-      "ts": 1782326458000,
-      "pub": "Thu, 25 Jun 2026 03:40:58 +0900",
       "sentiment": "neutral"
     },
     {
@@ -153,30 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782315720000,
       "pub": "Thu, 25 Jun 2026 00:42:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란은 IAEA사찰단 미정이라는데…트럼프 \"미국인도 포함될것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260624178300071",
-      "source": "연합뉴스 국제",
-      "ts": 1782312924000,
-      "pub": "Wed, 24 Jun 2026 23:55:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘, 이란 압박에도 '레바논 철군 불가' 요지부동",
-      "link": "https://www.yna.co.kr/view/AKR20260624177100079",
-      "source": "연합뉴스 국제",
-      "ts": 1782310534000,
-      "pub": "Wed, 24 Jun 2026 23:15:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란, '호르무즈서 통행료 받고있지 않아' 통보해와\"",
-      "link": "https://www.yna.co.kr/view/AKR20260624173800071",
-      "source": "연합뉴스 국제",
-      "ts": 1782303848000,
-      "pub": "Wed, 24 Jun 2026 21:24:08 +0900",
       "sentiment": "neutral"
     }
   ]

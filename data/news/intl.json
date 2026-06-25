@@ -1,22 +1,54 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-24T23:56:51.486Z",
-  "count": 26,
+  "updated_at": "2026-06-25T02:39:30.134Z",
+  "count": 22,
   "items": [
+    {
+      "title": "'트럼프 축제'된 美건국 250년 개막식…\"이란과 역사적 합의\" 역설",
+      "link": "https://www.yna.co.kr/view/AKR20260625071300071",
+      "source": "연합뉴스 국제",
+      "ts": 1782353121000,
+      "pub": "Thu, 25 Jun 2026 11:05:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "작년 관세 수입 7.6조원…부과액 기준 중국산이 26%",
+      "link": "https://www.yna.co.kr/view/AKR20260625050800002",
+      "source": "연합뉴스 경제",
+      "ts": 1782349372000,
+      "pub": "Thu, 25 Jun 2026 10:02:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"걸프국들, 트럼프 이란합의 '재앙적 전환점'될까 우려\"",
+      "link": "https://www.yna.co.kr/view/AKR20260625051100009",
+      "source": "연합뉴스 국제",
+      "ts": 1782348927000,
+      "pub": "Thu, 25 Jun 2026 09:55:27 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "인도 \"미국과 1단계 무역 협상, 99% 완료\"…관세율 막바지 조율",
+      "link": "https://www.yna.co.kr/view/AKR20260625051700104",
+      "source": "연합뉴스 국제",
+      "ts": 1782348729000,
+      "pub": "Thu, 25 Jun 2026 09:52:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러시아 야당 부대표, SNS서 우크라전 비판했다가 징역 7년",
+      "link": "https://www.yna.co.kr/view/AKR20260625031500009",
+      "source": "연합뉴스 국제",
+      "ts": 1782346096000,
+      "pub": "Thu, 25 Jun 2026 09:08:16 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"이란 전쟁비용 보전해달라\"…트럼프, 추가예산 135조원 요청",
       "link": "https://www.yna.co.kr/view/AKR20260625026300009",
       "source": "연합뉴스 국제",
       "ts": 1782343980000,
       "pub": "Thu, 25 Jun 2026 08:33:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"미친 사람\"…트럼프, '전쟁 권한 결의안' 찬성한 공화당 의원에 격노",
-      "link": "https://www.mt.co.kr/world/2026/06/25/2026062507304553778",
-      "source": "머니투데이",
-      "ts": 1782342915000,
-      "pub": "Thu, 25 Jun 2026 08:15:15 +0900",
       "sentiment": "neutral"
     },
     {
@@ -145,70 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782303848000,
       "pub": "Wed, 24 Jun 2026 21:24:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 드론에 시달리는 러…크림반도 등 대규모 정전",
-      "link": "https://www.yna.co.kr/view/AKR20260624155100108",
-      "source": "연합뉴스 국제",
-      "ts": 1782289280000,
-      "pub": "Wed, 24 Jun 2026 17:21:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "호주 국민 78% \"트럼프 불신\"…美대통령 중 역대 최저",
-      "link": "https://www.yna.co.kr/view/AKR20260624149900084",
-      "source": "연합뉴스 국제",
-      "ts": 1782288249000,
-      "pub": "Wed, 24 Jun 2026 17:04:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "덴마크, '트럼프 눈독' 그린란드에 징집병 배치",
-      "link": "https://www.yna.co.kr/view/AKR20260624150600098",
-      "source": "연합뉴스 국제",
-      "ts": 1782288137000,
-      "pub": "Wed, 24 Jun 2026 17:02:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "전투도 철군도 곤란…이스라엘의 레바논 군사작전",
-      "link": "https://www.yna.co.kr/view/AKR20260624140000009",
-      "source": "연합뉴스 국제",
-      "ts": 1782285364000,
-      "pub": "Wed, 24 Jun 2026 16:16:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미중, 희토류 이어 구리 전쟁?…기술 패권경쟁 새 전선 부각",
-      "link": "https://www.yna.co.kr/view/AKR20260624085400009",
-      "source": "연합뉴스 국제",
-      "ts": 1782285034000,
-      "pub": "Wed, 24 Jun 2026 16:10:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"이란, '거래의 기술' 읽고 트럼프 '불안 작전' 대응\"",
-      "link": "https://www.yna.co.kr/view/AKR20260624127700009",
-      "source": "연합뉴스 국제",
-      "ts": 1782283264000,
-      "pub": "Wed, 24 Jun 2026 15:41:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "관세청장 \"새만금 첨단산업단지 종합보세구역 신속 지정\"",
-      "link": "https://www.yna.co.kr/view/AKR20260624109000002",
-      "source": "연합뉴스 경제",
-      "ts": 1782278356000,
-      "pub": "Wed, 24 Jun 2026 14:19:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"유가 내렸는데 휘발윳값 안 따라내려\"…조사 지시",
-      "link": "https://www.yna.co.kr/view/AKR20260624108800009",
-      "source": "연합뉴스 국제",
-      "ts": 1782278338000,
-      "pub": "Wed, 24 Jun 2026 14:18:58 +0900",
       "sentiment": "neutral"
     }
   ]

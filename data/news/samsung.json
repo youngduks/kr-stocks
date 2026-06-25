@@ -1,14 +1,38 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-24T23:56:51.487Z",
-  "count": 13,
+  "updated_at": "2026-06-25T02:39:30.135Z",
+  "count": 5,
   "items": [
     {
-      "title": "마이크론 축포에 프리마켓 랠리…삼전 6%·닉스 11% 점프",
-      "link": "https://www.mt.co.kr/stock/2026/06/25/2026062508344845573",
-      "source": "머니투데이",
-      "ts": 1782344281000,
-      "pub": "Thu, 25 Jun 2026 08:38:01 +0900",
+      "title": "'반도체 공포' 하루 만에 뒤집혔다…삼전닉스도 '급반등'",
+      "link": "https://www.hankyung.com/article/202606256807g",
+      "source": "한국경제",
+      "ts": 1782349130000,
+      "pub": "Thu, 25 Jun 2026 09:58:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼성전자 주식 없어도 든든\"…마이크론 낭보에 개미 '환호' [종목+]",
+      "link": "https://www.hankyung.com/article/2026062570066",
+      "source": "한국경제",
+      "ts": 1782348490000,
+      "pub": "Thu, 25 Jun 2026 09:48:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 4%·9%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20260625044600008",
+      "source": "연합뉴스 경제",
+      "ts": 1782347117000,
+      "pub": "Thu, 25 Jun 2026 09:25:17 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "마이크론 호실적에 삼전·하닉 급등…'구천피' 탈환할까",
+      "link": "https://www.hankyung.com/article/2026062569126",
+      "source": "한국경제",
+      "ts": 1782346921000,
+      "pub": "Thu, 25 Jun 2026 09:22:01 +0900",
       "sentiment": "positive"
     },
     {
@@ -18,94 +42,6 @@
       "ts": 1782343881000,
       "pub": "Thu, 25 Jun 2026 08:31:21 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "中 슈퍼컴, 세계 1위 탈환…'첫 독자개발 HBM 탑재'",
-      "link": "https://www.mt.co.kr/world/2026/06/25/2026062507434877313",
-      "source": "머니투데이",
-      "ts": 1782341564000,
-      "pub": "Thu, 25 Jun 2026 07:52:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'삼성전자' 상승에 보유 지분가치 68조 늘었다…삼성물산 5%대 반등",
-      "link": "https://www.hankyung.com/article/202606245545i",
-      "source": "한국경제",
-      "ts": 1782340473000,
-      "pub": "Thu, 25 Jun 2026 07:34:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[시선강탈] ISC vs 셀트리온 vs 삼성전자, 공략법은?",
-      "link": "https://www.mt.co.kr/stock/2026/06/25/2026062506187084667",
-      "source": "머니투데이",
-      "ts": 1782338236000,
-      "pub": "Thu, 25 Jun 2026 06:57:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "李대통령, 오늘 이재용 회장과 회동…신규 반도체 투자 논의",
-      "link": "https://www.hankyung.com/article/2026062564527",
-      "source": "한국경제",
-      "ts": 1782335881000,
-      "pub": "Thu, 25 Jun 2026 06:18:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 잘 나가는데…\"호황 뒤엔 불황\" 위기론 꺼낸 이유",
-      "link": "https://www.hankyung.com/article/202606245960g",
-      "source": "한국경제",
-      "ts": 1782334813000,
-      "pub": "Thu, 25 Jun 2026 06:00:13 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "호남선 타는 이재용 회장, 단언하는 한마디 \"저희가…\"",
-      "link": "https://www.mt.co.kr/industry/2026/06/25/2026062410504528064",
-      "source": "머니투데이",
-      "ts": 1782334200000,
-      "pub": "Thu, 25 Jun 2026 05:50:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "초호황에 '하나만 걸려라'식의 특허분쟁 시달리는 삼전닉스",
-      "link": "https://www.mt.co.kr/industry/2026/06/25/2026062415561689933",
-      "source": "머니투데이",
-      "ts": 1782333480000,
-      "pub": "Thu, 25 Jun 2026 05:38:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI홈 생태계 확장…삼성전자, 모듈러 주택시장 공략 본격화",
-      "link": "https://www.yna.co.kr/view/AKR20260624117800003",
-      "source": "연합뉴스 경제",
-      "ts": 1782288001000,
-      "pub": "Wed, 24 Jun 2026 17:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전, 10% 급등해 이틀만 시총 1위 탈환…하닉도 1%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260624040451008",
-      "source": "연합뉴스 경제",
-      "ts": 1782283576000,
-      "pub": "Wed, 24 Jun 2026 15:46:16 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "이상일 \"삼성전자, 용인 반도체팹 계획대로 추진 의사 밝혀\"",
-      "link": "https://www.yna.co.kr/view/AKR20260624124100061",
-      "source": "연합뉴스 경제",
-      "ts": 1782281929000,
-      "pub": "Wed, 24 Jun 2026 15:18:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "김용범 \"삼전 성과급 노사협상, 세계 최초 사례…룰 만들어야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260624091600001",
-      "source": "연합뉴스 경제",
-      "ts": 1782270954000,
-      "pub": "Wed, 24 Jun 2026 12:15:54 +0900",
-      "sentiment": "positive"
     }
   ]
 }

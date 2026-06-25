@@ -1,62 +1,102 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-24T23:56:51.488Z",
-  "count": 25,
+  "updated_at": "2026-06-25T02:39:30.136Z",
+  "count": 15,
   "items": [
+    {
+      "title": "구미시 \"평당 1천원에 부지 제공\"…반도체 팹 유치 파격 제안",
+      "link": "https://www.yna.co.kr/view/AKR20260625061700053",
+      "source": "연합뉴스 경제",
+      "ts": 1782351601000,
+      "pub": "Thu, 25 Jun 2026 10:40:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"네덜란드 반도체 장비업체 ASML, 7월 중국 방문단에 포함\"",
+      "link": "https://www.yna.co.kr/view/AKR20260625054100083",
+      "source": "연합뉴스 국제",
+      "ts": 1782349912000,
+      "pub": "Thu, 25 Jun 2026 10:11:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체주 불기둥에 다시 상승세 키우는 코스피…9천피 탈환하나",
+      "link": "https://www.yna.co.kr/view/AKR20260625057400008",
+      "source": "연합뉴스 경제",
+      "ts": 1782349902000,
+      "pub": "Thu, 25 Jun 2026 10:11:42 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'반도체 공포' 하루 만에 뒤집혔다…삼전닉스도 '급반등'",
+      "link": "https://www.hankyung.com/article/202606256807g",
+      "source": "한국경제",
+      "ts": 1782349130000,
+      "pub": "Thu, 25 Jun 2026 09:58:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한경협 \"올해 경제성장률 2.7% 전망…반도체 편중은 과제\"",
+      "link": "https://www.hankyung.com/article/2026062570107",
+      "source": "한국경제",
+      "ts": 1782348757000,
+      "pub": "Thu, 25 Jun 2026 09:52:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼성전자 주식 없어도 든든\"…마이크론 낭보에 개미 '환호' [종목+]",
+      "link": "https://www.hankyung.com/article/2026062570066",
+      "source": "한국경제",
+      "ts": 1782348490000,
+      "pub": "Thu, 25 Jun 2026 09:48:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한동훈 \"반도체 산업, 민주당 명청대전 전대용 총알 아냐\"",
+      "link": "https://www.hankyung.com/article/2026062567577",
+      "source": "한국경제",
+      "ts": 1782348395000,
+      "pub": "Thu, 25 Jun 2026 09:46:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[단독] 반도체 전력망 '지중화'에 국비 지원…클러스터 지정 땐 비수도권 우대",
+      "link": "https://www.hankyung.com/article/202606256867i",
+      "source": "한국경제",
+      "ts": 1782348035000,
+      "pub": "Thu, 25 Jun 2026 09:40:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 4%·9%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20260625044600008",
+      "source": "연합뉴스 경제",
+      "ts": 1782347117000,
+      "pub": "Thu, 25 Jun 2026 09:25:17 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "마이크론 호실적에 삼전·하닉 급등…'구천피' 탈환할까",
+      "link": "https://www.hankyung.com/article/2026062569126",
+      "source": "한국경제",
+      "ts": 1782346921000,
+      "pub": "Thu, 25 Jun 2026 09:22:01 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "마이크론 \"장기계약 16건…협의중 포함시 매출 절반\"",
+      "link": "https://www.yna.co.kr/view/AKR20260625029600009",
+      "source": "연합뉴스 국제",
+      "ts": 1782345444000,
+      "pub": "Thu, 25 Jun 2026 08:57:24 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "미래에셋증권, SK하이닉스 목표가 380만원→420만원 상향",
       "link": "https://www.yna.co.kr/view/AKR20260625029900008",
       "source": "연합뉴스 경제",
       "ts": 1782344831000,
       "pub": "Thu, 25 Jun 2026 08:47:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"SK하이닉스, 美 ADR 상장으로 밸류에이션 상승 기대\"-삼성",
-      "link": "https://www.mt.co.kr/stock/2026/06/25/2026062508101742772",
-      "source": "머니투데이",
-      "ts": 1782344827000,
-      "pub": "Thu, 25 Jun 2026 08:47:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "마이크론 축포에 프리마켓 랠리…삼전 6%·닉스 11% 점프",
-      "link": "https://www.mt.co.kr/stock/2026/06/25/2026062508344845573",
-      "source": "머니투데이",
-      "ts": 1782344281000,
-      "pub": "Thu, 25 Jun 2026 08:38:01 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "마이크론, 이익률·장기계약도 '깜짝'…주가 15% 급등에 다른 반도체주도 랠리",
-      "link": "https://www.mt.co.kr/world/2026/06/25/2026062508152077068",
-      "source": "머니투데이",
-      "ts": 1782343665000,
-      "pub": "Thu, 25 Jun 2026 08:27:45 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "한동훈 \"반도체, 명청대전 총알 아냐…李정권이 '여기 가라' 지시\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/25/2026062507560070729",
-      "source": "머니투데이",
-      "ts": 1782343406000,
-      "pub": "Thu, 25 Jun 2026 08:23:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中 슈퍼컴, 세계 1위 탈환…'첫 독자개발 HBM 탑재'",
-      "link": "https://www.mt.co.kr/world/2026/06/25/2026062507434877313",
-      "source": "머니투데이",
-      "ts": 1782341564000,
-      "pub": "Thu, 25 Jun 2026 07:52:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "마이크론의 미친 실적→반도체 조정 끝?…'구글 다우 입성' 의미는 [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202606256523i",
-      "source": "한국경제",
-      "ts": 1782341253000,
-      "pub": "Thu, 25 Jun 2026 07:47:33 +0900",
       "sentiment": "neutral"
     },
     {
@@ -68,62 +108,6 @@
       "sentiment": "positive"
     },
     {
-      "title": "유가·금리 하락에도 혼조…'깜짝 실적' 마이크론 시간외 '급등' [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026062565276",
-      "source": "한국경제",
-      "ts": 1782340408000,
-      "pub": "Thu, 25 Jun 2026 07:33:28 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\"1년새 주가 3528% 폭등\"…도요타 밀고 대장주 등극한 日반도체 정체는",
-      "link": "https://www.hankyung.com/article/202606245904i",
-      "source": "한국경제",
-      "ts": 1782340202000,
-      "pub": "Thu, 25 Jun 2026 07:30:02 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "마이크론이 'AI 거품론' 잠재웠다…'63조' 잭팟에 주가 폭등",
-      "link": "https://www.hankyung.com/article/2026062564937",
-      "source": "한국경제",
-      "ts": 1782339141000,
-      "pub": "Thu, 25 Jun 2026 07:12:21 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[고래사냥] '한미반도체·한화솔루션·키스트론! 내일장 고래 종목은?!",
-      "link": "https://www.mt.co.kr/stock/2026/06/25/2026062506177092068",
-      "source": "머니투데이",
-      "ts": 1782338165000,
-      "pub": "Thu, 25 Jun 2026 06:56:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI 거품론 누른 '깜짝 실적'...마이크론 매출 4배 급증, 시간외 13%↑[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/06/25/2026062505513288476",
-      "source": "머니투데이",
-      "ts": 1782335994000,
-      "pub": "Thu, 25 Jun 2026 06:19:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "李대통령, 오늘 이재용 회장과 회동…신규 반도체 투자 논의",
-      "link": "https://www.hankyung.com/article/2026062564527",
-      "source": "한국경제",
-      "ts": 1782335881000,
-      "pub": "Thu, 25 Jun 2026 06:18:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 좋지만 내수·건설 부진…기업심리 세달 만에 하락 전환",
-      "link": "https://www.mt.co.kr/economy/2026/06/25/2026062416454759850",
-      "source": "머니투데이",
-      "ts": 1782334800000,
-      "pub": "Thu, 25 Jun 2026 06:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "마이크론, 분기 매출 4배로 껑충…최고기록 또 갈아치워",
       "link": "https://www.yna.co.kr/view/AKR20260625009000091",
       "source": "연합뉴스 국제",
@@ -132,75 +116,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "마이크론 또 '역대급 실적' …삼성·SK하이닉스도 '청신호'",
-      "link": "https://www.hankyung.com/article/202606256415i",
-      "source": "한국경제",
-      "ts": 1782333833000,
-      "pub": "Thu, 25 Jun 2026 05:43:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "마이크론, 어닝 서프라이즈…시간외 주가 10%대 급등",
-      "link": "https://www.mt.co.kr/world/2026/06/25/2026062505202617008",
-      "source": "머니투데이",
-      "ts": 1782333000000,
-      "pub": "Thu, 25 Jun 2026 05:30:00 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "하늘까지 높아진 마이크론 실적 기대...금값 4000달러도 깨졌다 [빈난새의 개장전요것만]",
-      "link": "https://www.hankyung.com/article/202606246360i",
-      "source": "한국경제",
-      "ts": 1782312968000,
-      "pub": "Wed, 24 Jun 2026 23:56:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "유가·국채금리 하락에 美증시 상승…마이크론 변동성이 심리 좌우",
-      "link": "https://www.hankyung.com/article/202606246356i",
-      "source": "한국경제",
-      "ts": 1782312261000,
-      "pub": "Wed, 24 Jun 2026 23:44:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "뉴욕증시, 마이크론 실적 앞두고 상승 출발",
       "link": "https://www.yna.co.kr/view/AKR20260624176500009",
       "source": "연합뉴스 국제",
       "ts": 1782309574000,
       "pub": "Wed, 24 Jun 2026 22:59:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "마이크론 실적, 엔비디아급 주목…'위스퍼넘버' 충족할까?",
-      "link": "https://www.hankyung.com/article/202606246320i",
-      "source": "한국경제",
-      "ts": 1782307345000,
-      "pub": "Wed, 24 Jun 2026 22:22:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"중국 암시장서 엔비디아 제품 가격, 배 이상 폭등\"",
-      "link": "https://www.yna.co.kr/view/AKR20260624138500009",
-      "source": "연합뉴스 국제",
-      "ts": 1782286378000,
-      "pub": "Wed, 24 Jun 2026 16:32:58 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[특징주] LG그룹주, '엔비디아 협력' 주시하며 혼조세 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260624050451008",
-      "source": "연합뉴스 경제",
-      "ts": 1782283487000,
-      "pub": "Wed, 24 Jun 2026 15:44:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이상일 \"삼성전자, 용인 반도체팹 계획대로 추진 의사 밝혀\"",
-      "link": "https://www.yna.co.kr/view/AKR20260624124100061",
-      "source": "연합뉴스 경제",
-      "ts": 1782281929000,
-      "pub": "Wed, 24 Jun 2026 15:18:49 +0900",
       "sentiment": "neutral"
     }
   ]

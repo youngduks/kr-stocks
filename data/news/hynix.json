@@ -1,8 +1,40 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-25T19:00:14.044Z",
-  "count": 17,
+  "updated_at": "2026-06-25T20:58:49.607Z",
+  "count": 23,
   "items": [
+    {
+      "title": "뉴욕증시, 마이크론 급등·애플 하락 속 혼조…나스닥 0.5%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260626006200072",
+      "source": "연합뉴스 국제",
+      "ts": 1782418695000,
+      "pub": "Fri, 26 Jun 2026 05:18:15 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "몰려드는 특허괴물… K메모리 '골머리'",
+      "link": "https://www.mt.co.kr/industry/2026/06/26/2026062519535464911",
+      "source": "머니투데이",
+      "ts": 1782414660000,
+      "pub": "Fri, 26 Jun 2026 04:11:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'3위' 마이크론 매출 4.5배 증가…  '투톱' 삼전닉스 눈높이 상향",
+      "link": "https://www.mt.co.kr/industry/2026/06/26/2026062519383581421",
+      "source": "머니투데이",
+      "ts": 1782414300000,
+      "pub": "Fri, 26 Jun 2026 04:05:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'엔비디아' 젠슨황 방한과 한국 AI생태계[투데이窓/박영선]",
+      "link": "https://www.mt.co.kr/opinion/2026/06/26/2026062510550680721",
+      "source": "머니투데이",
+      "ts": 1782414180000,
+      "pub": "Fri, 26 Jun 2026 04:03:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "애플, 메모리 대란에 결국 맥·아이패드 가격 줄인상",
       "link": "https://www.yna.co.kr/view/AKR20260626002500091",
@@ -41,6 +73,22 @@
       "source": "한국경제",
       "ts": 1782392401000,
       "pub": "Thu, 25 Jun 2026 22:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SKT, SK하이닉스 美 AI 투자법인에 7384억 출자…AI 인프라 승부수",
+      "link": "https://www.mt.co.kr/tech/2026/06/25/2026062520323810362",
+      "source": "머니투데이",
+      "ts": 1782388747000,
+      "pub": "Thu, 25 Jun 2026 20:59:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "日 '반도체' 키옥시아, 내년 4~5월 美 ADR 상장 추진",
+      "link": "https://www.mt.co.kr/world/2026/06/25/2026062518253463544",
+      "source": "머니투데이",
+      "ts": 1782384194000,
+      "pub": "Thu, 25 Jun 2026 19:43:14 +0900",
       "sentiment": "neutral"
     },
     {

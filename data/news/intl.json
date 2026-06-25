@@ -1,7 +1,7 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-25T19:00:14.043Z",
-  "count": 23,
+  "updated_at": "2026-06-25T20:58:49.606Z",
+  "count": 24,
   "items": [
     {
       "title": "달러-원, 완만한 PCE에 숨고르기…1,543.10원 마감",
@@ -52,6 +52,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "영국, 철강 관세 25→50% 인상…산업부 \"피해 최소화 총력 대응\"",
+      "link": "https://www.mt.co.kr/economy/2026/06/25/2026062522253068821",
+      "source": "머니투데이",
+      "ts": 1782394414000,
+      "pub": "Thu, 25 Jun 2026 22:33:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "美 5월 PCE 물가 전년대비 4.1%↑…3년 만에 최대폭 상승(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260625169152072",
       "source": "연합뉴스 국제",
@@ -97,6 +105,14 @@
       "source": "연합뉴스 국제",
       "ts": 1782386266000,
       "pub": "Thu, 25 Jun 2026 20:17:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 英 차기 총리 후보 버넘에 \"극도로 진보적...성향 다를것\"평가",
+      "link": "https://www.mt.co.kr/world/2026/06/25/2026062519302284367",
+      "source": "머니투데이",
+      "ts": 1782385169000,
+      "pub": "Thu, 25 Jun 2026 19:59:29 +0900",
       "sentiment": "neutral"
     },
     {
@@ -177,14 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782364098000,
       "pub": "Thu, 25 Jun 2026 14:08:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 시커먼 연기띠 크림반도…우크라 드론, 60여곳 동시다발 타격",
-      "link": "https://www.yna.co.kr/view/AKR20260625086400704",
-      "source": "연합뉴스 국제",
-      "ts": 1782359531000,
-      "pub": "Thu, 25 Jun 2026 12:52:11 +0900",
       "sentiment": "neutral"
     }
   ]

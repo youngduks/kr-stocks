@@ -1,14 +1,30 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-26T16:15:58.651Z",
-  "count": 15,
+  "updated_at": "2026-06-26T18:21:20.679Z",
+  "count": 16,
   "items": [
     {
-      "title": "트럼프, 북한 위협 관련 '국가비상사태 선언' 1년 연장…18년째",
-      "link": "https://www.mt.co.kr/world/2026/06/27/2026062623213849537",
-      "source": "머니투데이",
-      "ts": 1782489726000,
-      "pub": "Sat, 27 Jun 2026 01:02:06 +0900",
+      "title": "트럼프 \"디지털서비스세 도입국에 관세 100% 부과할것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260627002100071",
+      "source": "연합뉴스 국제",
+      "ts": 1782491930000,
+      "pub": "Sat, 27 Jun 2026 01:38:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"디지털서비스세 도입국에 관세 100% 부과할것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260627001900071",
+      "source": "연합뉴스 국제",
+      "ts": 1782491257000,
+      "pub": "Sat, 27 Jun 2026 01:27:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란의 호르무즈 통과 선박 드론공격은 휴전 위반\"",
+      "link": "https://www.yna.co.kr/view/AKR20260627001800071",
+      "source": "연합뉴스 국제",
+      "ts": 1782490840000,
+      "pub": "Sat, 27 Jun 2026 01:20:40 +0900",
       "sentiment": "neutral"
     },
     {
@@ -41,14 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782481565000,
       "pub": "Fri, 26 Jun 2026 22:46:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라이나, '40일 작전' 선언 후 러시아에 대규모 드론 공습",
-      "link": "https://www.mt.co.kr/world/2026/06/26/2026062621100091769",
-      "source": "머니투데이",
-      "ts": 1782477102000,
-      "pub": "Fri, 26 Jun 2026 21:31:42 +0900",
       "sentiment": "neutral"
     },
     {

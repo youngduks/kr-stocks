@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-26T18:21:20.679Z",
-  "count": 16,
+  "updated_at": "2026-06-26T20:25:40.181Z",
+  "count": 18,
   "items": [
+    {
+      "title": "트럼프, 민주사회주의자 경선 선전에 \"공산주의자들…美최대위협\"",
+      "link": "https://www.yna.co.kr/view/AKR20260627004700071",
+      "source": "연합뉴스 국제",
+      "ts": 1782502770000,
+      "pub": "Sat, 27 Jun 2026 04:39:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘·레바논, 美 중재로 평화 기본합의안 서명",
+      "link": "https://www.yna.co.kr/view/AKR20260627004600071",
+      "source": "연합뉴스 국제",
+      "ts": 1782501557000,
+      "pub": "Sat, 27 Jun 2026 04:19:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"디지털서비스세 도입국에 관세 100%\"…EU \"기민 대응\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260627002151071",
+      "source": "연합뉴스 국제",
+      "ts": 1782500967000,
+      "pub": "Sat, 27 Jun 2026 04:09:27 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"디지털서비스세 도입국에 관세 100% 부과할것\"",
       "link": "https://www.yna.co.kr/view/AKR20260627002100071",
@@ -121,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782436268000,
       "pub": "Fri, 26 Jun 2026 10:11:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "농가 돌아설라…트럼프 \"이란 돈 가져다 美농산물 많이 살 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260626034800071",
-      "source": "연합뉴스 국제",
-      "ts": 1782433245000,
-      "pub": "Fri, 26 Jun 2026 09:20:45 +0900",
       "sentiment": "neutral"
     }
   ]

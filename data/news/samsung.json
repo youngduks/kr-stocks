@@ -1,8 +1,40 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-26T22:00:58.287Z",
-  "count": 4,
+  "updated_at": "2026-06-26T23:53:06.667Z",
+  "count": 6,
   "items": [
+    {
+      "title": "삼성전자 협력사 탄소 감축 돕는 이 도시[넷제로케이스스터디]",
+      "link": "https://www.mt.co.kr/industry/2026/06/27/2026062417151033283",
+      "source": "머니투데이",
+      "ts": 1782516000000,
+      "pub": "Sat, 27 Jun 2026 08:20:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 못 샀다면…올해 소외된 대형주 10개 뽑아보니",
+      "link": "https://www.hankyung.com/article/202606260168i",
+      "source": "한국경제",
+      "ts": 1782514811000,
+      "pub": "Sat, 27 Jun 2026 08:00:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼전닉스 던진다\" 코스피 와르르...이 때 오른 종목은?[김근희의 증시 랩업]",
+      "link": "https://www.mt.co.kr/stock/2026/06/27/2026062617103353655",
+      "source": "머니투데이",
+      "ts": 1782507600000,
+      "pub": "Sat, 27 Jun 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼성전자를 왜 그만둬\" 퇴직률 한자릿수로 '뚝'…2026 지속가능 보고서 보니",
+      "link": "https://www.mt.co.kr/industry/2026/06/27/2026062616333677808",
+      "source": "머니투데이",
+      "ts": 1782505080000,
+      "pub": "Sat, 27 Jun 2026 05:18:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "SK하닉 '45조' 美 상장 노리는데…삼성전자 전망에 '깜짝' [강경주의 테크X]",
       "link": "https://www.hankyung.com/article/2026062604096",
@@ -12,28 +44,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"해외로 갈 반도체를 광주에서?\"…삼성전자 술렁이는 까닭",
-      "link": "https://www.hankyung.com/article/202606258672g",
-      "source": "한국경제",
-      "ts": 1782471603000,
-      "pub": "Fri, 26 Jun 2026 20:00:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[특징주] SK하이닉스 8%대 급락…삼성전자 5%↓(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260626036451008",
       "source": "연합뉴스 경제",
       "ts": 1782457307000,
       "pub": "Fri, 26 Jun 2026 16:01:47 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "[특징주] 삼성전자·SK하이닉스 장 초반 2% 내외 하락 중",
-      "link": "https://www.yna.co.kr/view/AKR20260626036400008",
-      "source": "연합뉴스 경제",
-      "ts": 1782433299000,
-      "pub": "Fri, 26 Jun 2026 09:21:39 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

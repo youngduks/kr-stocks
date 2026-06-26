@@ -1,22 +1,38 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-26T22:00:58.287Z",
-  "count": 5,
+  "updated_at": "2026-06-26T23:53:06.668Z",
+  "count": 6,
   "items": [
     {
-      "title": "\"해외로 갈 반도체를 광주에서?\"…삼성전자 술렁이는 까닭",
-      "link": "https://www.hankyung.com/article/202606258672g",
-      "source": "한국경제",
-      "ts": 1782471603000,
-      "pub": "Fri, 26 Jun 2026 20:00:03 +0900",
+      "title": "[AI+] 뜨거운 물로 AI를 식힌다…엔비디아가 꺼낸 '물 전쟁' 해법",
+      "link": "https://www.mt.co.kr/tech/2026/06/27/2026062514042311353",
+      "source": "머니투데이",
+      "ts": 1782514800000,
+      "pub": "Sat, 27 Jun 2026 08:00:00 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[책마을] 반도체 산업 선도할 차세대 기업은",
-      "link": "https://www.hankyung.com/article/2026062607231",
+      "title": "나스닥 5거래일째 하락…마이크론 6.69%↓ [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026062711497",
       "source": "한국경제",
-      "ts": 1782466263000,
-      "pub": "Fri, 26 Jun 2026 18:31:03 +0900",
+      "ts": 1782512143000,
+      "pub": "Sat, 27 Jun 2026 07:15:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"오픈AI IPO 내년 연기 검토\"…반도체주 급락[뉴욕증시]",
+      "link": "https://www.mt.co.kr/world/2026/06/27/2026062706261876925",
+      "source": "머니투데이",
+      "ts": 1782509328000,
+      "pub": "Sat, 27 Jun 2026 06:28:48 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "이번엔 '칩플레이션' 논쟁, 반도체 변동성에 대응하려면 [월가백브리핑]",
+      "link": "https://www.hankyung.com/article/202606271098i",
+      "source": "한국경제",
+      "ts": 1782508289000,
+      "pub": "Sat, 27 Jun 2026 06:11:29 +0900",
       "sentiment": "neutral"
     },
     {
@@ -33,14 +49,6 @@
       "source": "연합뉴스 경제",
       "ts": 1782436975000,
       "pub": "Fri, 26 Jun 2026 10:22:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼성전자·SK하이닉스 장 초반 2% 내외 하락 중",
-      "link": "https://www.yna.co.kr/view/AKR20260626036400008",
-      "source": "연합뉴스 경제",
-      "ts": 1782433299000,
-      "pub": "Fri, 26 Jun 2026 09:21:39 +0900",
       "sentiment": "neutral"
     }
   ]

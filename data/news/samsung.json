@@ -1,23 +1,31 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-26T00:03:09.268Z",
-  "count": 11,
+  "updated_at": "2026-06-26T05:02:10.948Z",
+  "count": 5,
   "items": [
     {
-      "title": "AI 메모리발 물가 충격 시작…애플 맥북·아이패드, MS 콘솔 가격 인상",
-      "link": "https://www.mt.co.kr/world/2026/06/26/2026062607432076657",
-      "source": "머니투데이",
-      "ts": 1782428104000,
-      "pub": "Fri, 26 Jun 2026 07:55:04 +0900",
+      "title": "주가 조정돼도…초고수의 픽은 'SK하이닉스·삼성전자'",
+      "link": "https://www.hankyung.com/article/202606269750i",
+      "source": "한국경제",
+      "ts": 1782439296000,
+      "pub": "Fri, 26 Jun 2026 11:01:36 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "메모리 사이클 5년 더? 마이크론 뛰고, '호구' 빅테크 폭락 [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202606268994i",
-      "source": "한국경제",
-      "ts": 1782427952000,
-      "pub": "Fri, 26 Jun 2026 07:52:32 +0900",
-      "sentiment": "negative"
+      "title": "MS, 엑스박스 가격 인상…\"메모리 가격 급등\"",
+      "link": "https://www.yna.co.kr/view/AKR20260626013200009",
+      "source": "연합뉴스 국제",
+      "ts": 1782435134000,
+      "pub": "Fri, 26 Jun 2026 09:52:14 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[특징주] 삼성전자·SK하이닉스 장 초반 2% 내외 하락 중",
+      "link": "https://www.yna.co.kr/view/AKR20260626036400008",
+      "source": "연합뉴스 경제",
+      "ts": 1782433299000,
+      "pub": "Fri, 26 Jun 2026 09:21:39 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "애플, 메모리 대란에 가격 올리고 칩 로드맵도 수정(종합)",
@@ -28,68 +36,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'울트라' 커서 고민?…갤럭시S27 '프로' 추가, 첫 4종 체제 가나[IT썰]",
-      "link": "https://www.mt.co.kr/tech/2026/06/26/2026062515412970399",
-      "source": "머니투데이",
-      "ts": 1782424800000,
-      "pub": "Fri, 26 Jun 2026 07:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"3위 마이크론 대박 쳤다\" 삼전닉스도 신기록?...개미 '두근두근'",
-      "link": "https://www.mt.co.kr/industry/2026/06/26/2026062518211674181",
-      "source": "머니투데이",
-      "ts": 1782422400000,
-      "pub": "Fri, 26 Jun 2026 06:20:00 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\"하나만 걸려라\" 삼전닉스 타깃됐다…'특허 사냥꾼' 습격에 골머리",
-      "link": "https://www.mt.co.kr/industry/2026/06/26/2026062519535464911",
-      "source": "머니투데이",
-      "ts": 1782414660000,
-      "pub": "Fri, 26 Jun 2026 04:11:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"전략산업 다극화 필수\" 강조한 날, 이재용 회장 만났다",
-      "link": "https://www.mt.co.kr/politics/2026/06/26/2026062519560960513",
-      "source": "머니투데이",
-      "ts": 1782414360000,
-      "pub": "Fri, 26 Jun 2026 04:06:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "애플, 메모리 대란에 결국 맥·아이패드 가격 줄인상",
       "link": "https://www.yna.co.kr/view/AKR20260626002500091",
       "source": "연합뉴스 국제",
       "ts": 1782409397000,
       "pub": "Fri, 26 Jun 2026 02:43:17 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"메모리 새 시대\"에 빅테크는 울상...애플, 결국 가격 인상 [빈난새의 개장전요것만]",
-      "link": "https://www.hankyung.com/article/202606258846i",
-      "source": "한국경제",
-      "ts": 1782399765000,
-      "pub": "Fri, 26 Jun 2026 00:02:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "IBM, 반도체 '1나노 벽' 깼다…파운드리 패권경쟁 지각변동 올까",
-      "link": "https://www.yna.co.kr/view/AKR20260624093500091",
-      "source": "연합뉴스 국제",
-      "ts": 1782381601000,
-      "pub": "Thu, 25 Jun 2026 19:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스 장중 15% 급등, 삼전도 5%↑…시총 1위 다툼 치열(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260625113351008",
-      "source": "연합뉴스 경제",
-      "ts": 1782370330000,
-      "pub": "Thu, 25 Jun 2026 15:52:10 +0900",
-      "sentiment": "positive"
     }
   ]
 }

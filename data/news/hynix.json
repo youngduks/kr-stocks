@@ -1,78 +1,54 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-26T00:03:09.269Z",
-  "count": 29,
+  "updated_at": "2026-06-26T05:02:10.948Z",
+  "count": 15,
   "items": [
+    {
+      "title": "주가 조정돼도…초고수의 픽은 'SK하이닉스·삼성전자'",
+      "link": "https://www.hankyung.com/article/202606269750i",
+      "source": "한국경제",
+      "ts": 1782439296000,
+      "pub": "Fri, 26 Jun 2026 11:01:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "노동부, '불소 누출 반복' SK하이닉스 등 25곳 집중점검 착수",
+      "link": "https://www.yna.co.kr/view/AKR20260626055700530",
+      "source": "연합뉴스 경제",
+      "ts": 1782436975000,
+      "pub": "Fri, 26 Jun 2026 10:22:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[단독] 나루히토 일왕, 벨기에 IMEC 방문…'日 반도체' 부활 힘 실었다",
+      "link": "https://www.hankyung.com/article/2026062693786",
+      "source": "한국경제",
+      "ts": 1782435944000,
+      "pub": "Fri, 26 Jun 2026 10:05:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "MS, 엑스박스 가격 인상…\"메모리 가격 급등\"",
+      "link": "https://www.yna.co.kr/view/AKR20260626013200009",
+      "source": "연합뉴스 국제",
+      "ts": 1782435134000,
+      "pub": "Fri, 26 Jun 2026 09:52:14 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[특징주] 삼성전자·SK하이닉스 장 초반 2% 내외 하락 중",
+      "link": "https://www.yna.co.kr/view/AKR20260626036400008",
+      "source": "연합뉴스 경제",
+      "ts": 1782433299000,
+      "pub": "Fri, 26 Jun 2026 09:21:39 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "하나증권, SK하이닉스 목표주가 275만원→360만원 상향",
       "link": "https://www.yna.co.kr/view/AKR20260626022700008",
       "source": "연합뉴스 경제",
       "ts": 1782430700000,
       "pub": "Fri, 26 Jun 2026 08:38:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\" SK하이닉스, 목표가 360만원으로 상향…실적 성장 계속\"-하나",
-      "link": "https://www.mt.co.kr/stock/2026/06/26/2026062608211359499",
-      "source": "머니투데이",
-      "ts": 1782429780000,
-      "pub": "Fri, 26 Jun 2026 08:23:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'애플의 충격'…美 반도체·산업재 순환매 주목",
-      "link": "https://www.hankyung.com/article/202606268973i",
-      "source": "한국경제",
-      "ts": 1782429778000,
-      "pub": "Fri, 26 Jun 2026 08:22:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "동학개미 8조 베팅했는데…\"언제까지 반도체만 가나요\"",
-      "link": "https://www.hankyung.com/article/202606258272i",
-      "source": "한국경제",
-      "ts": 1782428130000,
-      "pub": "Fri, 26 Jun 2026 07:55:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI 메모리발 물가 충격 시작…애플 맥북·아이패드, MS 콘솔 가격 인상",
-      "link": "https://www.mt.co.kr/world/2026/06/26/2026062607432076657",
-      "source": "머니투데이",
-      "ts": 1782428104000,
-      "pub": "Fri, 26 Jun 2026 07:55:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"SK하이닉스, 올해 내년 영업익 294조원 435조원…목표가↑\"-하나",
-      "link": "https://www.hankyung.com/article/2026062690166",
-      "source": "한국경제",
-      "ts": 1782428048000,
-      "pub": "Fri, 26 Jun 2026 07:54:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "메모리 사이클 5년 더? 마이크론 뛰고, '호구' 빅테크 폭락 [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202606268994i",
-      "source": "한국경제",
-      "ts": 1782427952000,
-      "pub": "Fri, 26 Jun 2026 07:52:32 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[시선강탈] 산일전기 vs SK하이닉스 vs 피에스케이, 공략법은?",
-      "link": "https://www.mt.co.kr/stock/2026/06/26/2026062523457051808",
-      "source": "머니투데이",
-      "ts": 1782426597000,
-      "pub": "Fri, 26 Jun 2026 07:29:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "주요 지수 혼조 마감…'호실적' 마이크론↑ '가격 인상' 애플↓ [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026062689366",
-      "source": "한국경제",
-      "ts": 1782426113000,
-      "pub": "Fri, 26 Jun 2026 07:21:53 +0900",
       "sentiment": "neutral"
     },
     {
@@ -84,43 +60,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "마이크론 급등에도 뉴욕증시 혼조…AI 비용 우려 부각",
-      "link": "https://www.hankyung.com/article/202606268931i",
-      "source": "한국경제",
-      "ts": 1782423289000,
-      "pub": "Fri, 26 Jun 2026 06:34:49 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"반도체 다음은 여기\"…증권가, '이 종목들' 콕 찍었다 [분석+]",
-      "link": "https://www.hankyung.com/article/2026062581246",
-      "source": "한국경제",
-      "ts": 1782423001000,
-      "pub": "Fri, 26 Jun 2026 06:30:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "뉴욕증시, 마이크론 웃고 애플 울었다…혼조 속 나스닥 0.5%↓(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260626006251072",
       "source": "연합뉴스 국제",
       "ts": 1782422675000,
       "pub": "Fri, 26 Jun 2026 06:24:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"3위 마이크론 대박 쳤다\" 삼전닉스도 신기록?...개미 '두근두근'",
-      "link": "https://www.mt.co.kr/industry/2026/06/26/2026062518211674181",
-      "source": "머니투데이",
-      "ts": 1782422400000,
-      "pub": "Fri, 26 Jun 2026 06:20:00 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'깜짝 실적' 마이크론↑ '가격 인상' 애플↓...뉴욕증시 혼조 [뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/06/26/2026062605593319669",
-      "source": "머니투데이",
-      "ts": 1782422215000,
-      "pub": "Fri, 26 Jun 2026 06:16:55 +0900",
       "sentiment": "neutral"
     },
     {
@@ -148,22 +92,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "SKT, 하이닉스 美 AI 투자법인 4년간 7400억 출자",
-      "link": "https://www.hankyung.com/article/2026062588251",
-      "source": "한국경제",
-      "ts": 1782401489000,
-      "pub": "Fri, 26 Jun 2026 00:31:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"메모리 새 시대\"에 빅테크는 울상...애플, 결국 가격 인상 [빈난새의 개장전요것만]",
-      "link": "https://www.hankyung.com/article/202606258846i",
-      "source": "한국경제",
-      "ts": 1782399765000,
-      "pub": "Fri, 26 Jun 2026 00:02:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "뉴욕증시, 마이크론 실적·PCE 소화하며 상승 출발",
       "link": "https://www.yna.co.kr/view/AKR20260625173200009",
       "source": "연합뉴스 국제",
@@ -188,52 +116,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "IBM, 반도체 '1나노 벽' 깼다…파운드리 패권경쟁 지각변동 올까",
-      "link": "https://www.yna.co.kr/view/AKR20260624093500091",
-      "source": "연합뉴스 국제",
-      "ts": 1782381601000,
-      "pub": "Thu, 25 Jun 2026 19:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "마이크론 훈풍에 다시 불붙은 반도체…한때 9천피 탈환(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260625057451008",
       "source": "연합뉴스 경제",
       "ts": 1782373560000,
       "pub": "Thu, 25 Jun 2026 16:46:00 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스 장중 15% 급등, 삼전도 5%↑…시총 1위 다툼 치열(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260625113351008",
-      "source": "연합뉴스 경제",
-      "ts": 1782370330000,
-      "pub": "Thu, 25 Jun 2026 15:52:10 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\"주가 희석\" vs \"재평가 효과\"…하이닉스 ADR 상장 주가 영향은(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260625083651008",
-      "source": "연합뉴스 경제",
-      "ts": 1782370098000,
-      "pub": "Thu, 25 Jun 2026 15:48:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"마이크론, 피크아웃 우려 진정시켰다…기술주 마진왕 등극\"",
-      "link": "https://www.yna.co.kr/view/AKR20260625119800009",
-      "source": "연합뉴스 국제",
-      "ts": 1782369638000,
-      "pub": "Thu, 25 Jun 2026 15:40:38 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[속보] SK하이닉스 15% 급등…'시총 1위' 엎치락뒤치락",
-      "link": "https://www.yna.co.kr/view/AKR20260625113300008",
-      "source": "연합뉴스 경제",
-      "ts": 1782366703000,
-      "pub": "Thu, 25 Jun 2026 14:51:43 +0900",
-      "sentiment": "positive"
     }
   ]
 }

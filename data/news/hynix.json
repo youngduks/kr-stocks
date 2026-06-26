@@ -1,38 +1,14 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-26T08:47:44.709Z",
-  "count": 14,
+  "updated_at": "2026-06-26T11:37:38.801Z",
+  "count": 8,
   "items": [
     {
-      "title": "김장호 구미시장, 반도체 팹(Fab) 유치 위한 전방위 행보 나서",
-      "link": "https://www.mt.co.kr/policy/2026/06/26/2026062616585161875",
-      "source": "머니투데이",
-      "ts": 1782462334000,
-      "pub": "Fri, 26 Jun 2026 17:25:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "류재철 LG전자 사장 \"엔비디아와 로봇 개발, 피지컬 AI 가속화\"",
-      "link": "https://www.mt.co.kr/industry/2026/06/26/2026062616044343480",
-      "source": "머니투데이",
-      "ts": 1782459917000,
-      "pub": "Fri, 26 Jun 2026 16:45:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스, 나스닥 가면 2.3조 '뭉칫돈'…주가 상승 기대감 폭발",
-      "link": "https://www.hankyung.com/article/202606260039i",
+      "title": "[책마을] 반도체 산업 선도할 차세대 기업은?",
+      "link": "https://www.hankyung.com/article/2026062607231",
       "source": "한국경제",
-      "ts": 1782458636000,
-      "pub": "Fri, 26 Jun 2026 16:23:56 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'반도체 호남행' 공방…한동훈 \"기업 압박\"·고민정 \"구태\"",
-      "link": "https://www.hankyung.com/article/2026062604767",
-      "source": "한국경제",
-      "ts": 1782458339000,
-      "pub": "Fri, 26 Jun 2026 16:18:59 +0900",
+      "ts": 1782466263000,
+      "pub": "Fri, 26 Jun 2026 18:31:03 +0900",
       "sentiment": "neutral"
     },
     {
@@ -42,22 +18,6 @@
       "ts": 1782457307000,
       "pub": "Fri, 26 Jun 2026 16:01:47 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "칩플레이션 우려로 반도체 투심 흔들…'검은 금요일' 코스피 5.8% 급락",
-      "link": "https://www.hankyung.com/article/202606260246i",
-      "source": "한국경제",
-      "ts": 1782454599000,
-      "pub": "Fri, 26 Jun 2026 15:16:39 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "與주도 '반도체 호남 클러스터'...국힘 \"초격차 시대 경쟁력 허물어져\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/26/2026062614452873843",
-      "source": "머니투데이",
-      "ts": 1782453757000,
-      "pub": "Fri, 26 Jun 2026 15:02:37 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "노동부, '불소 누출 반복' SK하이닉스 등 25곳 집중점검 착수",
@@ -106,14 +66,6 @@
       "ts": 1782418695000,
       "pub": "Fri, 26 Jun 2026 05:18:15 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "애플, 메모리 대란에 결국 맥·아이패드 가격 줄인상",
-      "link": "https://www.yna.co.kr/view/AKR20260626002500091",
-      "source": "연합뉴스 국제",
-      "ts": 1782409397000,
-      "pub": "Fri, 26 Jun 2026 02:43:17 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

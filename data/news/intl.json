@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-26T05:02:10.947Z",
-  "count": 13,
+  "updated_at": "2026-06-26T08:47:44.708Z",
+  "count": 10,
   "items": [
+    {
+      "title": "끝장 보겠다는 젤렌스키…'40일 작전'으로 러 종전 압박",
+      "link": "https://www.yna.co.kr/view/AKR20260626142400109",
+      "source": "연합뉴스 국제",
+      "ts": 1782462197000,
+      "pub": "Fri, 26 Jun 2026 17:23:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "EU, 7월부터 150유로 이하 소포 면세 폐지... 품목당 3유로 관세",
+      "link": "https://www.mt.co.kr/industry/2026/06/26/2026062609501666224",
+      "source": "머니투데이",
+      "ts": 1782458467000,
+      "pub": "Fri, 26 Jun 2026 16:21:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "EU, 대미관세 철폐했지만…\"비관세 무역장벽 갈등은 이제 시작\"",
+      "link": "https://www.yna.co.kr/view/AKR20260626124200009",
+      "source": "연합뉴스 국제",
+      "ts": 1782456624000,
+      "pub": "Fri, 26 Jun 2026 15:50:24 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "베네수엘라 '126년만' 최악 강진, 트럼프 '경제 보호국 구상' 제동 거나",
+      "link": "https://www.mt.co.kr/world/2026/06/26/2026062614503421858",
+      "source": "머니투데이",
+      "ts": 1782454410000,
+      "pub": "Fri, 26 Jun 2026 15:13:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "농가 돌아설라…트럼프 \"이란 돈 가져다 美농산물 많이 살 것\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260626034851071",
+      "source": "연합뉴스 국제",
+      "ts": 1782452193000,
+      "pub": "Fri, 26 Jun 2026 14:36:33 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美, 미사일 부족 심화…트럼프, 생산 확대·예산 확보 총력",
       "link": "https://www.yna.co.kr/view/AKR20260626061000009",
@@ -28,14 +68,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "달러-원, 완만한 PCE에 숨고르기…1,543.10원 마감",
-      "link": "https://www.yna.co.kr/view/AKR20260626003800002",
-      "source": "연합뉴스 경제",
-      "ts": 1782412483000,
-      "pub": "Fri, 26 Jun 2026 03:34:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 상호관세 멈춰세운 美대법, 출생시민권 금지도 제동거나",
       "link": "https://www.yna.co.kr/view/AKR20260626002600071",
       "source": "연합뉴스 국제",
@@ -49,62 +81,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782410481000,
       "pub": "Fri, 26 Jun 2026 03:01:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미 당국자 \"이스라엘군 레바논서 일부 철수\"…이스라엘은 부인(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260625157351079",
-      "source": "연합뉴스 국제",
-      "ts": 1782398731000,
-      "pub": "Thu, 25 Jun 2026 23:45:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 마이크론 실적·PCE 소화하며 상승 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260625173200009",
-      "source": "연합뉴스 국제",
-      "ts": 1782395155000,
-      "pub": "Thu, 25 Jun 2026 22:45:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 5월 PCE 물가 전년대비 4.1%↑…3년 만에 최대폭 상승(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260625169152072",
-      "source": "연합뉴스 국제",
-      "ts": 1782393482000,
-      "pub": "Thu, 25 Jun 2026 22:18:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"'오스만 철도 부활' 튀르키예 막으려…이스라엘, 물밑 외교전\"",
-      "link": "https://www.yna.co.kr/view/AKR20260625169400108",
-      "source": "연합뉴스 국제",
-      "ts": 1782392340000,
-      "pub": "Thu, 25 Jun 2026 21:59:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 5월 PCE 물가 전년대비 4.1%↑…최근 유가하락 미반영",
-      "link": "https://www.yna.co.kr/view/AKR20260625169151072",
-      "source": "연합뉴스 국제",
-      "ts": 1782391430000,
-      "pub": "Thu, 25 Jun 2026 21:43:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 美 5월 PCE 물가 전년대비 4.1%↑…최근 유가하락 미반영",
-      "link": "https://www.yna.co.kr/view/AKR20260625169100072",
-      "source": "연합뉴스 국제",
-      "ts": 1782390809000,
-      "pub": "Thu, 25 Jun 2026 21:33:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "폴란드서 '젤렌스키 빠진' 우크라 재건회의…역사갈등 후폭풍",
-      "link": "https://www.yna.co.kr/view/AKR20260625165300082",
-      "source": "연합뉴스 국제",
-      "ts": 1782386266000,
-      "pub": "Thu, 25 Jun 2026 20:17:46 +0900",
       "sentiment": "neutral"
     }
   ]

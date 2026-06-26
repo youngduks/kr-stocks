@@ -1,14 +1,38 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-26T05:02:10.948Z",
-  "count": 5,
+  "updated_at": "2026-06-26T08:47:44.709Z",
+  "count": 8,
   "items": [
     {
-      "title": "주가 조정돼도…초고수의 픽은 'SK하이닉스·삼성전자'",
-      "link": "https://www.hankyung.com/article/202606269750i",
+      "title": "\"어? 자꾸 떨어지네\" 힘 없이 밀린 삼전닉스...'검은 금요일' 왜 덮쳤나",
+      "link": "https://www.mt.co.kr/stock/2026/06/26/2026062616374989744",
+      "source": "머니투데이",
+      "ts": 1782460158000,
+      "pub": "Fri, 26 Jun 2026 16:49:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "외국인 4.5조 던지자 삼전닉스 와르르…코스피 8400선으로 후퇴",
+      "link": "https://www.mt.co.kr/stock/2026/06/26/2026062615582348771",
+      "source": "머니투데이",
+      "ts": 1782457883000,
+      "pub": "Fri, 26 Jun 2026 16:11:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] SK하이닉스 8%대 급락…삼성전자 5%↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260626036451008",
+      "source": "연합뉴스 경제",
+      "ts": 1782457307000,
+      "pub": "Fri, 26 Jun 2026 16:01:47 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"삼성전자 'N% 성과급'은 불법\"…청와대까지 몰려간 개미들",
+      "link": "https://www.hankyung.com/article/202606269921g",
       "source": "한국경제",
-      "ts": 1782439296000,
-      "pub": "Fri, 26 Jun 2026 11:01:36 +0900",
+      "ts": 1782452076000,
+      "pub": "Fri, 26 Jun 2026 14:34:36 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-26T20:25:40.181Z",
+  "updated_at": "2026-06-26T22:00:58.286Z",
   "count": 18,
   "items": [
+    {
+      "title": "트럼프 \"민주당 공산화…美최대위협\" 보수 기독교인 결집 호소(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260627004751071",
+      "source": "연합뉴스 국제",
+      "ts": 1782507081000,
+      "pub": "Sat, 27 Jun 2026 05:51:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란의 선박 공격, 휴전위반\"…대응여부엔 \"알게될 것\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260627001801071",
+      "source": "연합뉴스 국제",
+      "ts": 1782505966000,
+      "pub": "Sat, 27 Jun 2026 05:32:46 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 민주사회주의자 경선 선전에 \"공산주의자들…美최대위협\"",
       "link": "https://www.yna.co.kr/view/AKR20260627004700071",
@@ -129,22 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782452193000,
       "pub": "Fri, 26 Jun 2026 14:36:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, 미사일 부족 심화…트럼프, 생산 확대·예산 확보 총력",
-      "link": "https://www.yna.co.kr/view/AKR20260626061000009",
-      "source": "연합뉴스 국제",
-      "ts": 1782438951000,
-      "pub": "Fri, 26 Jun 2026 10:55:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "親트럼프 스타트업, 칩스법 보조금 3천800억원 받는다",
-      "link": "https://www.yna.co.kr/view/AKR20260626045900009",
-      "source": "연합뉴스 국제",
-      "ts": 1782436268000,
-      "pub": "Fri, 26 Jun 2026 10:11:08 +0900",
       "sentiment": "neutral"
     }
   ]

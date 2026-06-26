@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-26T13:59:12.746Z",
-  "count": 11,
+  "updated_at": "2026-06-26T16:15:58.651Z",
+  "count": 15,
   "items": [
+    {
+      "title": "트럼프, 북한 위협 관련 '국가비상사태 선언' 1년 연장…18년째",
+      "link": "https://www.mt.co.kr/world/2026/06/27/2026062623213849537",
+      "source": "머니투데이",
+      "ts": 1782489726000,
+      "pub": "Sat, 27 Jun 2026 01:02:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"이란, 호르무즈 통과 선박에 드론 발사…휴전 위반\"",
+      "link": "https://www.yna.co.kr/view/AKR20260627001300071",
+      "source": "연합뉴스 국제",
+      "ts": 1782489559000,
+      "pub": "Sat, 27 Jun 2026 00:59:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'트럼프의 눈엣가시' 볼턴 감옥 가나…불법 기밀보유 유죄 인정",
+      "link": "https://www.yna.co.kr/view/AKR20260627000800071",
+      "source": "연합뉴스 국제",
+      "ts": 1782488300000,
+      "pub": "Sat, 27 Jun 2026 00:38:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 북한 관련 '국가비상사태' 조치 1년 더 연장",
+      "link": "https://www.hankyung.com/article/2026062610487",
+      "source": "한국경제",
+      "ts": 1782482218000,
+      "pub": "Fri, 26 Jun 2026 22:56:58 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 북한 위협 관련 '국가비상사태' 1년 연장",
       "link": "https://www.yna.co.kr/view/AKR20260626172800071",

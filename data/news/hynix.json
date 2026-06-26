@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-26T13:59:12.747Z",
-  "count": 9,
+  "updated_at": "2026-06-26T16:15:58.653Z",
+  "count": 6,
   "items": [
     {
       "title": "\"해외로 갈 반도체를 광주에서?\"…삼성전자 술렁이는 까닭",
@@ -12,7 +12,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[책마을] 반도체 산업 선도할 차세대 기업은?",
+      "title": "[책마을] 반도체 산업 선도할 차세대 기업은",
       "link": "https://www.hankyung.com/article/2026062607231",
       "source": "한국경제",
       "ts": 1782466263000,
@@ -50,30 +50,6 @@
       "ts": 1782433299000,
       "pub": "Fri, 26 Jun 2026 09:21:39 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "애플, 메모리 대란에 가격 올리고 칩 로드맵도 수정(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260626002551091",
-      "source": "연합뉴스 국제",
-      "ts": 1782424808000,
-      "pub": "Fri, 26 Jun 2026 07:00:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 마이크론 웃고 애플 울었다…혼조 속 나스닥 0.5%↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260626006251072",
-      "source": "연합뉴스 국제",
-      "ts": 1782422675000,
-      "pub": "Fri, 26 Jun 2026 06:24:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 마이크론 급등·애플 하락 속 혼조…나스닥 0.5%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260626006200072",
-      "source": "연합뉴스 국제",
-      "ts": 1782418695000,
-      "pub": "Fri, 26 Jun 2026 05:18:15 +0900",
-      "sentiment": "positive"
     }
   ]
 }

@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-26T11:37:38.799Z",
-  "count": 7,
+  "updated_at": "2026-06-26T13:59:12.746Z",
+  "count": 11,
   "items": [
+    {
+      "title": "트럼프, 북한 위협 관련 '국가비상사태' 1년 연장",
+      "link": "https://www.yna.co.kr/view/AKR20260626172800071",
+      "source": "연합뉴스 국제",
+      "ts": 1782481565000,
+      "pub": "Fri, 26 Jun 2026 22:46:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라이나, '40일 작전' 선언 후 러시아에 대규모 드론 공습",
+      "link": "https://www.mt.co.kr/world/2026/06/26/2026062621100091769",
+      "source": "머니투데이",
+      "ts": 1782477102000,
+      "pub": "Fri, 26 Jun 2026 21:31:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라이나 '40일 작전' 선포 직후 드론 660기 러시아 강타",
+      "link": "https://www.hankyung.com/article/2026062609957",
+      "source": "한국경제",
+      "ts": 1782474849000,
+      "pub": "Fri, 26 Jun 2026 20:54:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 '40일 작전' 선언 후 대공습…러, 크림반도에 비상사태",
+      "link": "https://www.yna.co.kr/view/AKR20260626167800108",
+      "source": "연합뉴스 국제",
+      "ts": 1782473707000,
+      "pub": "Fri, 26 Jun 2026 20:35:07 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "징집연령 우크라 남성, EU서 피란민 혜택 못받는다",
       "link": "https://www.yna.co.kr/view/AKR20260626163100098",

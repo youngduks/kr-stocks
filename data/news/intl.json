@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-27T21:52:28.743Z",
+  "updated_at": "2026-06-27T22:52:44.310Z",
   "count": 22,
   "items": [
+    {
+      "title": "[특파원 시선] 대통령과 여당이 충돌할 때…트럼프와 공화당의 엇박자",
+      "link": "https://www.yna.co.kr/view/AKR20260627018600071",
+      "source": "연합뉴스 국제",
+      "ts": 1782598028000,
+      "pub": "Sun, 28 Jun 2026 07:07:08 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 강경 이민단속 다시 시동 거나…이민세관단속국장 지명",
       "link": "https://www.yna.co.kr/view/AKR20260628004700071",
@@ -169,14 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782481565000,
       "pub": "Fri, 26 Jun 2026 22:46:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 '40일 작전' 선언 후 대공습…러, 크림반도에 비상사태",
-      "link": "https://www.yna.co.kr/view/AKR20260626167800108",
-      "source": "연합뉴스 국제",
-      "ts": 1782473707000,
-      "pub": "Fri, 26 Jun 2026 20:35:07 +0900",
       "sentiment": "neutral"
     }
   ]

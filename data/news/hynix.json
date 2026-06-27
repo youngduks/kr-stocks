@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-27T20:47:45.783Z",
-  "count": 9,
+  "updated_at": "2026-06-27T21:52:28.745Z",
+  "count": 8,
   "items": [
     {
       "title": "李대통령, '왜 호남에 반도체 투자' 질문에 \"좀 기다리면 공개\"",
@@ -66,14 +66,6 @@
       "ts": 1782457307000,
       "pub": "Fri, 26 Jun 2026 16:01:47 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "노동부, '불소 누출 반복' SK하이닉스 등 25곳 집중점검 착수",
-      "link": "https://www.yna.co.kr/view/AKR20260626055700530",
-      "source": "연합뉴스 경제",
-      "ts": 1782436975000,
-      "pub": "Fri, 26 Jun 2026 10:22:55 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-27T02:02:26.998Z",
-  "count": 23,
+  "updated_at": "2026-06-27T06:19:34.146Z",
+  "count": 21,
   "items": [
     {
       "title": "미국·이스라엘·레바논 3자 평화 협력체 합의…헤즈볼라는 불참",
@@ -132,14 +132,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 북한 관련 '국가비상사태' 조치 1년 더 연장",
-      "link": "https://www.hankyung.com/article/2026062610487",
-      "source": "한국경제",
-      "ts": 1782482218000,
-      "pub": "Fri, 26 Jun 2026 22:56:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, 북한 위협 관련 '국가비상사태' 1년 연장",
       "link": "https://www.yna.co.kr/view/AKR20260626172800071",
       "source": "연합뉴스 국제",
@@ -178,14 +170,6 @@
       "ts": 1782456624000,
       "pub": "Fri, 26 Jun 2026 15:50:24 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "농가 돌아설라…트럼프 \"이란 돈 가져다 美농산물 많이 살 것\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260626034851071",
-      "source": "연합뉴스 국제",
-      "ts": 1782452193000,
-      "pub": "Fri, 26 Jun 2026 14:36:33 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

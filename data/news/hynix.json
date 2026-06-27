@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-27T02:02:26.999Z",
-  "count": 6,
+  "updated_at": "2026-06-27T06:19:34.147Z",
+  "count": 7,
   "items": [
+    {
+      "title": "북한 텅스텐까지 싹쓸이…중국, AI·반도체 핵심소재 장악 나서 [도쿄나우]",
+      "link": "https://www.hankyung.com/article/202606271209i",
+      "source": "한국경제",
+      "ts": 1782536401000,
+      "pub": "Sat, 27 Jun 2026 14:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李대통령 \"호남에 물 충분…삼성전자·하이닉스 어리석지 않아\"",
+      "link": "https://www.hankyung.com/article/2026062713407",
+      "source": "한국경제",
+      "ts": 1782532415000,
+      "pub": "Sat, 27 Jun 2026 12:53:35 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[AI+] 뜨거운 물로 AI를 식힌다…엔비디아가 꺼낸 '물 전쟁' 해법",
       "link": "https://www.mt.co.kr/tech/2026/06/27/2026062514042311353",
@@ -18,14 +34,6 @@
       "ts": 1782512143000,
       "pub": "Sat, 27 Jun 2026 07:15:43 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"오픈AI IPO 내년 연기 검토\"…반도체주 급락[뉴욕증시]",
-      "link": "https://www.mt.co.kr/world/2026/06/27/2026062706261876925",
-      "source": "머니투데이",
-      "ts": 1782509328000,
-      "pub": "Sat, 27 Jun 2026 06:28:48 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "이번엔 '칩플레이션' 논쟁, 반도체 변동성에 대응하려면 [월가백브리핑]",

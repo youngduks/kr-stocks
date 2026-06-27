@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-27T09:21:15.629Z",
-  "count": 8,
+  "updated_at": "2026-06-27T11:18:24.655Z",
+  "count": 11,
   "items": [
+    {
+      "title": "野 \"호남 반도체, 직권 남용\" 맹공에…李대통령 \"비난 비방 말아달라\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/27/2026062719432716510",
+      "source": "머니투데이",
+      "ts": 1782558112000,
+      "pub": "Sat, 27 Jun 2026 20:01:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李대통령, '왜 호남에 반도체 투자' 질문에 \"좀 기다리면 공개\"",
+      "link": "https://www.hankyung.com/article/2026062714837",
+      "source": "한국경제",
+      "ts": 1782555767000,
+      "pub": "Sat, 27 Jun 2026 19:22:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "호남 반도체 용수 논란에…기후장관 \"하루 100만톤 추가 확보 가능\"",
+      "link": "https://www.hankyung.com/article/2026062714637",
+      "source": "한국경제",
+      "ts": 1782552407000,
+      "pub": "Sat, 27 Jun 2026 18:26:47 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "與 \"안철수, 호남 반도체 투자에 '대통령 직권남용' 운운…고발 조치\"",
       "link": "https://www.mt.co.kr/politics/2026/06/27/2026062717443987804",

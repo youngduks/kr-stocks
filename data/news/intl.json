@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-27T09:21:15.627Z",
+  "updated_at": "2026-06-27T11:18:24.653Z",
   "count": 20,
   "items": [
+    {
+      "title": "루비오 美국무 \"트럼프, 내년 초 인도 방문 추진\"",
+      "link": "https://www.yna.co.kr/view/AKR20260627042500084",
+      "source": "연합뉴스 국제",
+      "ts": 1782553754000,
+      "pub": "Sat, 27 Jun 2026 18:49:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"모스크바도 사정권\"…우크라, 드론 이어 '플라밍고' 꺼냈다",
+      "link": "https://www.yna.co.kr/view/AKR20260627040800109",
+      "source": "연합뉴스 국제",
+      "ts": 1782552313000,
+      "pub": "Sat, 27 Jun 2026 18:25:13 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"애플, 中메모리칩 사용 승인 요청…트럼프 행정부 상대 로비\"",
       "link": "https://www.yna.co.kr/view/AKR20260627039600009",
@@ -33,14 +49,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782523685000,
       "pub": "Sat, 27 Jun 2026 10:28:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "스페이스X 공모가 아래로 간다(83%) Fed 금리 안 올려(54%) [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202606271163i",
-      "source": "한국경제",
-      "ts": 1782515446000,
-      "pub": "Sat, 27 Jun 2026 08:10:46 +0900",
       "sentiment": "neutral"
     },
     {
@@ -154,14 +162,6 @@
       "ts": 1782462197000,
       "pub": "Fri, 26 Jun 2026 17:23:17 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "EU, 대미관세 철폐했지만…\"비관세 무역장벽 갈등은 이제 시작\"",
-      "link": "https://www.yna.co.kr/view/AKR20260626124200009",
-      "source": "연합뉴스 국제",
-      "ts": 1782456624000,
-      "pub": "Fri, 26 Jun 2026 15:50:24 +0900",
-      "sentiment": "negative"
     }
   ]
 }

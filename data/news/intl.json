@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-27T22:52:44.310Z",
-  "count": 22,
+  "updated_at": "2026-06-27T23:52:10.674Z",
+  "count": 23,
   "items": [
+    {
+      "title": "[속보] 트럼프 \"군사적 대처해야 할 수도…그러면 이란 존재 없어질 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260628012300071",
+      "source": "연합뉴스 국제",
+      "ts": 1782603031000,
+      "pub": "Sun, 28 Jun 2026 08:30:31 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[특파원 시선] 대통령과 여당이 충돌할 때…트럼프와 공화당의 엇박자",
       "link": "https://www.yna.co.kr/view/AKR20260627018600071",
@@ -44,6 +52,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "\"러시아 본토 때렸다\" 우크라이나, 사거리 3000km 미사일 실전 도입",
+      "link": "https://www.mt.co.kr/world/2026/06/27/2026062722242524305",
+      "source": "머니투데이",
+      "ts": 1782566763000,
+      "pub": "Sat, 27 Jun 2026 22:26:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "\"평화 합의 하루만에…이스라엘, 레바논 남부 공격\"",
       "link": "https://www.yna.co.kr/view/AKR20260627046300109",
       "source": "연합뉴스 국제",
@@ -73,14 +89,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782548263000,
       "pub": "Sat, 27 Jun 2026 17:17:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 자신의 초상 담긴 건국 250주년 한정판 여권 공개",
-      "link": "https://www.hankyung.com/article/2026062713007",
-      "source": "한국경제",
-      "ts": 1782524783000,
-      "pub": "Sat, 27 Jun 2026 10:46:23 +0900",
       "sentiment": "neutral"
     },
     {

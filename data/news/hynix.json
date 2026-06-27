@@ -1,8 +1,40 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-27T06:19:34.147Z",
-  "count": 7,
+  "updated_at": "2026-06-27T09:21:15.629Z",
+  "count": 8,
   "items": [
+    {
+      "title": "與 \"안철수, 호남 반도체 투자에 '대통령 직권남용' 운운…고발 조치\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/27/2026062717443987804",
+      "source": "머니투데이",
+      "ts": 1782551425000,
+      "pub": "Sat, 27 Jun 2026 18:10:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"애플, 중국산 메모리 칩 구매 검토…美 행정부에 승인 로비\"",
+      "link": "https://www.hankyung.com/article/2026062714577",
+      "source": "한국경제",
+      "ts": 1782549493000,
+      "pub": "Sat, 27 Jun 2026 17:38:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"애플, 中메모리칩 사용 승인 요청…트럼프 행정부 상대 로비\"",
+      "link": "https://www.yna.co.kr/view/AKR20260627039600009",
+      "source": "연합뉴스 국제",
+      "ts": 1782548263000,
+      "pub": "Sat, 27 Jun 2026 17:17:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"반도체 계속 간다\"…'압축 투자' ETF에 몰리는 개미들 [투자톡]",
+      "link": "https://www.hankyung.com/article/2026062601096",
+      "source": "한국경제",
+      "ts": 1782547202000,
+      "pub": "Sat, 27 Jun 2026 17:00:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "북한 텅스텐까지 싹쓸이…중국, AI·반도체 핵심소재 장악 나서 [도쿄나우]",
       "link": "https://www.hankyung.com/article/202606271209i",
@@ -17,30 +49,6 @@
       "source": "한국경제",
       "ts": 1782532415000,
       "pub": "Sat, 27 Jun 2026 12:53:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[AI+] 뜨거운 물로 AI를 식힌다…엔비디아가 꺼낸 '물 전쟁' 해법",
-      "link": "https://www.mt.co.kr/tech/2026/06/27/2026062514042311353",
-      "source": "머니투데이",
-      "ts": 1782514800000,
-      "pub": "Sat, 27 Jun 2026 08:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "나스닥 5거래일째 하락…마이크론 6.69%↓ [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026062711497",
-      "source": "한국경제",
-      "ts": 1782512143000,
-      "pub": "Sat, 27 Jun 2026 07:15:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이번엔 '칩플레이션' 논쟁, 반도체 변동성에 대응하려면 [월가백브리핑]",
-      "link": "https://www.hankyung.com/article/202606271098i",
-      "source": "한국경제",
-      "ts": 1782508289000,
-      "pub": "Sat, 27 Jun 2026 06:11:29 +0900",
       "sentiment": "neutral"
     },
     {

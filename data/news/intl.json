@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-27T06:19:34.146Z",
-  "count": 21,
+  "updated_at": "2026-06-27T09:21:15.627Z",
+  "count": 20,
   "items": [
+    {
+      "title": "\"애플, 中메모리칩 사용 승인 요청…트럼프 행정부 상대 로비\"",
+      "link": "https://www.yna.co.kr/view/AKR20260627039600009",
+      "source": "연합뉴스 국제",
+      "ts": 1782548263000,
+      "pub": "Sat, 27 Jun 2026 17:17:43 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "미국·이스라엘·레바논 3자 평화 협력체 합의…헤즈볼라는 불참",
       "link": "https://www.mt.co.kr/world/2026/06/27/2026062710542714693",
@@ -33,22 +41,6 @@
       "source": "한국경제",
       "ts": 1782515446000,
       "pub": "Sat, 27 Jun 2026 08:10:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"디지털서비스세 도입국에 100% 관세 부과할 것\"",
-      "link": "https://www.hankyung.com/article/2026062711547",
-      "source": "한국경제",
-      "ts": 1782513070000,
-      "pub": "Sat, 27 Jun 2026 07:31:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"디지털세 도입 유럽국가엔 100% 관세\"…EU \"곧바로 대응\"",
-      "link": "https://www.mt.co.kr/world/2026/06/27/2026062707123224984",
-      "source": "머니투데이",
-      "ts": 1782512117000,
-      "pub": "Sat, 27 Jun 2026 07:15:17 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-27T06:19:34.147Z",
-  "count": 6,
+  "updated_at": "2026-06-27T09:21:15.628Z",
+  "count": 8,
   "items": [
+    {
+      "title": "\"애플, 중국산 메모리 칩 구매 검토…美 행정부에 승인 로비\"",
+      "link": "https://www.hankyung.com/article/2026062714577",
+      "source": "한국경제",
+      "ts": 1782549493000,
+      "pub": "Sat, 27 Jun 2026 17:38:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"애플, 中메모리칩 사용 승인 요청…트럼프 행정부 상대 로비\"",
+      "link": "https://www.yna.co.kr/view/AKR20260627039600009",
+      "source": "연합뉴스 국제",
+      "ts": 1782548263000,
+      "pub": "Sat, 27 Jun 2026 17:17:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "여야, '삼전닉스' 호남 투자 공방…\"정부 압박\" vs \"흑색선전\"",
+      "link": "https://www.hankyung.com/article/2026062714417",
+      "source": "한국경제",
+      "ts": 1782546109000,
+      "pub": "Sat, 27 Jun 2026 16:41:49 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"삼전닉스 취업 제자가 스승 연봉 뛰어넘어\" 외신이 주목한 '한국 고교'",
       "link": "https://www.mt.co.kr/world/2026/06/27/2026062712013399062",
@@ -25,14 +49,6 @@
       "source": "머니투데이",
       "ts": 1782526840000,
       "pub": "Sat, 27 Jun 2026 11:20:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 협력사 탄소 감축 돕는 이 도시[넷제로케이스스터디]",
-      "link": "https://www.mt.co.kr/industry/2026/06/27/2026062417151033283",
-      "source": "머니투데이",
-      "ts": 1782516000000,
-      "pub": "Sat, 27 Jun 2026 08:20:00 +0900",
       "sentiment": "neutral"
     },
     {

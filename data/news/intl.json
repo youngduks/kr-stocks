@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-28T20:50:31.729Z",
+  "updated_at": "2026-06-28T21:52:33.482Z",
   "count": 23,
   "items": [
+    {
+      "title": "이스라엘 '아르메니아 학살' 인정 결의…튀르키예 겨냥(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260629001151108",
+      "source": "연합뉴스 국제",
+      "ts": 1782682954000,
+      "pub": "Mon, 29 Jun 2026 06:42:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "바이든, 트럼프 향해 \"한심한 놈\" 직격…정치 복귀 신호탄?",
+      "link": "https://www.hankyung.com/article/2026062926627",
+      "source": "한국경제",
+      "ts": 1782681469000,
+      "pub": "Mon, 29 Jun 2026 06:17:49 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"트럼프·러트닉 일가, 정부지원 14개 사업에서 지분·금융관계\"",
       "link": "https://www.yna.co.kr/view/AKR20260629003300072",
@@ -25,14 +41,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782677593000,
       "pub": "Mon, 29 Jun 2026 05:13:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "나스닥 15개월만에 최대 월간 하락…워시 발언·고용지표 주목[이번주 美 증시는]",
-      "link": "https://www.mt.co.kr/world/2026/06/29/2026062722071577744",
-      "source": "머니투데이",
-      "ts": 1782677100000,
-      "pub": "Mon, 29 Jun 2026 05:05:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -73,14 +81,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782657086000,
       "pub": "Sun, 28 Jun 2026 23:31:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 전장 누빈 AI 정찰병·드론…지휘관 지시 없이 임무 수행",
-      "link": "https://www.hankyung.com/article/2026062823951",
-      "source": "한국경제",
-      "ts": 1782638198000,
-      "pub": "Sun, 28 Jun 2026 18:16:38 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,64 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-28T02:13:24.603Z",
-  "count": 8,
+  "updated_at": "2026-06-28T06:52:31.947Z",
+  "count": 11,
   "items": [
+    {
+      "title": "호남 반도체 입지론 힘 싣는 김용범…\"단군 이래 가장 특별한 시기\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/28/2026062815282361445",
+      "source": "머니투데이",
+      "ts": 1782628677000,
+      "pub": "Sun, 28 Jun 2026 15:37:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정치적 셈법에 발표 전부터 잡음…'호남 반도체' 논란만 키운 與野",
+      "link": "https://www.mt.co.kr/politics/2026/06/28/2026062811122067434",
+      "source": "머니투데이",
+      "ts": 1782628334000,
+      "pub": "Sun, 28 Jun 2026 15:32:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李 대통령, 호남 반도체 입지 논쟁에 \"지역 갈등 조장 자제를\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/28/2026062815123320728",
+      "source": "머니투데이",
+      "ts": 1782627333000,
+      "pub": "Sun, 28 Jun 2026 15:15:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 호황에…日키옥시아 직원들. 자사주로 100억원 '잭폿'",
+      "link": "https://www.yna.co.kr/view/AKR20260628031900073",
+      "source": "연합뉴스 국제",
+      "ts": 1782623478000,
+      "pub": "Sun, 28 Jun 2026 14:11:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "오세훈 \"반도체 투자 '행정지도'는 강요…시장 신뢰 훼손\"",
+      "link": "https://www.mt.co.kr/policy/2026/06/28/2026062813405746679",
+      "source": "머니투데이",
+      "ts": 1782622310000,
+      "pub": "Sun, 28 Jun 2026 13:51:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "월가, 반도체 조정장 이어질 지 주목 [뉴욕·상하이 증시 주간전망]",
+      "link": "https://www.hankyung.com/article/202606281921i",
+      "source": "한국경제",
+      "ts": 1782613072000,
+      "pub": "Sun, 28 Jun 2026 11:17:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중국산 메모리 사게 해달라는 애플…\"빅테크 황금기 끝\" [빈난새의 빈틈없이월가]",
+      "link": "https://www.hankyung.com/article/202606281611i",
+      "source": "한국경제",
+      "ts": 1782612609000,
+      "pub": "Sun, 28 Jun 2026 11:10:09 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "무협 \"3분기 수출 개선세 지속…반도체·무선통신기기 등 견인\"",
       "link": "https://www.yna.co.kr/view/AKR20260628013600003",
@@ -20,35 +76,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"애플, 중국산 메모리 칩 구매 검토…백악관에 승인 로비\"",
-      "link": "https://www.mt.co.kr/world/2026/06/28/2026062809381880614",
-      "source": "머니투데이",
-      "ts": 1782607455000,
-      "pub": "Sun, 28 Jun 2026 09:44:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "유영상 SK수펙스 AI위원장 \"AI 모델·반도체 자강 못하면 종속\"",
       "link": "https://www.hankyung.com/article/202606281838i",
       "source": "한국경제",
       "ts": 1782606751000,
       "pub": "Sun, 28 Jun 2026 09:32:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "李대통령, '왜 호남에 반도체 투자' 질문에 \"좀 기다리면 공개\"",
-      "link": "https://www.hankyung.com/article/2026062714837",
-      "source": "한국경제",
-      "ts": 1782555767000,
-      "pub": "Sat, 27 Jun 2026 19:22:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "호남 반도체 용수 논란에…기후장관 \"하루 100만톤 추가 확보 가능\"",
-      "link": "https://www.hankyung.com/article/2026062714637",
-      "source": "한국경제",
-      "ts": 1782552407000,
-      "pub": "Sat, 27 Jun 2026 18:26:47 +0900",
       "sentiment": "neutral"
     },
     {
@@ -58,14 +90,6 @@
       "ts": 1782548263000,
       "pub": "Sat, 27 Jun 2026 17:17:43 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] SK하이닉스 8%대 급락…삼성전자 5%↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260626036451008",
-      "source": "연합뉴스 경제",
-      "ts": 1782457307000,
-      "pub": "Fri, 26 Jun 2026 16:01:47 +0900",
-      "sentiment": "negative"
     }
   ]
 }

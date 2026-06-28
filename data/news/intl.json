@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-28T02:13:24.601Z",
-  "count": 24,
+  "updated_at": "2026-06-28T06:52:31.946Z",
+  "count": 17,
   "items": [
+    {
+      "title": "트럼프 행정부, 자국 100여개 기업·기관만 '미토스 5' 사용 허가",
+      "link": "https://www.mt.co.kr/tech/2026/06/28/2026062814373542431",
+      "source": "머니투데이",
+      "ts": 1782627576000,
+      "pub": "Sun, 28 Jun 2026 15:19:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 오클라호마주 경찰 출신 새 이민세관단속국장 임명",
+      "link": "https://www.mt.co.kr/world/2026/06/28/2026062811075025594",
+      "source": "머니투데이",
+      "ts": 1782613657000,
+      "pub": "Sun, 28 Jun 2026 11:27:37 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美·이란, 연이틀 무력공방…트럼프 \"이란 존재하지 않을 수도\"(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260628005453071",
@@ -12,27 +28,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"애플, 중국산 메모리 칩 구매 검토…백악관에 승인 로비\"",
-      "link": "https://www.mt.co.kr/world/2026/06/28/2026062809381880614",
-      "source": "머니투데이",
-      "ts": 1782607455000,
-      "pub": "Sun, 28 Jun 2026 09:44:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"군사적 마무리 필요할 수도…이란 존재하지 않게될 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260628012351071",
       "source": "연합뉴스 국제",
       "ts": 1782604433000,
       "pub": "Sun, 28 Jun 2026 08:53:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"군사적 대처해야 할 수도…이란 존재 없어질 것\"",
-      "link": "https://www.hankyung.com/article/2026062817997",
-      "source": "한국경제",
-      "ts": 1782603400000,
-      "pub": "Sun, 28 Jun 2026 08:36:40 +0900",
       "sentiment": "neutral"
     },
     {
@@ -137,62 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782505966000,
       "pub": "Sat, 27 Jun 2026 05:32:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 민주사회주의자 경선 선전에 \"공산주의자들…美최대위협\"",
-      "link": "https://www.yna.co.kr/view/AKR20260627004700071",
-      "source": "연합뉴스 국제",
-      "ts": 1782502770000,
-      "pub": "Sat, 27 Jun 2026 04:39:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘·레바논, 美 중재로 평화 기본합의안 서명",
-      "link": "https://www.yna.co.kr/view/AKR20260627004600071",
-      "source": "연합뉴스 국제",
-      "ts": 1782501557000,
-      "pub": "Sat, 27 Jun 2026 04:19:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"디지털서비스세 도입국에 관세 100%\"…EU \"기민 대응\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260627002151071",
-      "source": "연합뉴스 국제",
-      "ts": 1782500967000,
-      "pub": "Sat, 27 Jun 2026 04:09:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"디지털서비스세 도입국에 관세 100% 부과할것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260627002100071",
-      "source": "연합뉴스 국제",
-      "ts": 1782491930000,
-      "pub": "Sat, 27 Jun 2026 01:38:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"디지털서비스세 도입국에 관세 100% 부과할것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260627001900071",
-      "source": "연합뉴스 국제",
-      "ts": 1782491257000,
-      "pub": "Sat, 27 Jun 2026 01:27:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란의 호르무즈 통과 선박 드론공격은 휴전 위반\"",
-      "link": "https://www.yna.co.kr/view/AKR20260627001800071",
-      "source": "연합뉴스 국제",
-      "ts": 1782490840000,
-      "pub": "Sat, 27 Jun 2026 01:20:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란, 호르무즈 통과 선박에 드론 발사…휴전 위반\"",
-      "link": "https://www.yna.co.kr/view/AKR20260627001300071",
-      "source": "연합뉴스 국제",
-      "ts": 1782489559000,
-      "pub": "Sat, 27 Jun 2026 00:59:19 +0900",
       "sentiment": "neutral"
     }
   ]

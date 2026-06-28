@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-28T21:52:33.484Z",
-  "count": 6,
+  "updated_at": "2026-06-28T22:52:45.053Z",
+  "count": 10,
   "items": [
+    {
+      "title": "\"한국은 1인당 7억씩 받는다는데\"…日 반도체 업계 '술렁' [도쿄나우]",
+      "link": "https://www.hankyung.com/article/202606292700i",
+      "source": "한국경제",
+      "ts": 1782684981000,
+      "pub": "Mon, 29 Jun 2026 07:16:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아 업고 '제2의 전성기'…일년 사이에 430% 급등한 종목",
+      "link": "https://www.hankyung.com/article/202606271378i",
+      "source": "한국경제",
+      "ts": 1782684002000,
+      "pub": "Mon, 29 Jun 2026 07:00:02 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"영남 역차별\"vs \"생존 위한 균형 발전\"…'호남 반도체' 정치 파열음",
+      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062821473147944",
+      "source": "머니투데이",
+      "ts": 1782682800000,
+      "pub": "Mon, 29 Jun 2026 06:40:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "AI 반도체주 급락에…S&P500 약세",
       "link": "https://www.hankyung.com/article/202606282464i",
@@ -10,6 +34,14 @@
       "ts": 1782676803000,
       "pub": "Mon, 29 Jun 2026 05:00:03 +0900",
       "sentiment": "negative"
+    },
+    {
+      "title": "[사설] 호남 반도체 프로젝트, 성공의 관건은",
+      "link": "https://www.mt.co.kr/opinion/2026/06/29/2026062814064747807",
+      "source": "머니투데이",
+      "ts": 1782673200000,
+      "pub": "Mon, 29 Jun 2026 04:00:00 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "국회도 '반도체 갈등'…지역구 따라 쪼개져",

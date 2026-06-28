@@ -1,7 +1,7 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-28T21:52:33.483Z",
-  "count": 5,
+  "updated_at": "2026-06-28T22:52:45.053Z",
+  "count": 6,
   "items": [
     {
       "title": "삼전닉스 호남行에…홍준표 \"입지 되면 반대 안해\"",
@@ -20,19 +20,27 @@
       "sentiment": "neutral"
     },
     {
+      "title": "'1000조 메가프로젝트' 발표에 이재용·최태원 출동…수도권 집중 깬다",
+      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062821403499983",
+      "source": "머니투데이",
+      "ts": 1782680400000,
+      "pub": "Mon, 29 Jun 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "롤러코스피 지속… \"삼전닉스 중심 투자\"",
+      "link": "https://www.mt.co.kr/stock/2026/06/29/2026062819553199206",
+      "source": "머니투데이",
+      "ts": 1782673500000,
+      "pub": "Mon, 29 Jun 2026 04:05:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "\"실적 비슷한데 몸값은 왜\"…삼전·하닉 저평가 받는 이유 [분석+]",
       "link": "https://www.hankyung.com/article/2026062605956",
       "source": "한국경제",
       "ts": 1782647401000,
       "pub": "Sun, 28 Jun 2026 20:50:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼전닉스, 무어의 법칙 한계오자 기민한 대응…'AI 리더' 자격 충분\"",
-      "link": "https://www.hankyung.com/article/2026062823311",
-      "source": "한국경제",
-      "ts": 1782638358000,
-      "pub": "Sun, 28 Jun 2026 18:19:18 +0900",
       "sentiment": "neutral"
     },
     {

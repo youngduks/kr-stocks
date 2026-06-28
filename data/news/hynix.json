@@ -1,8 +1,88 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-28T06:52:31.947Z",
-  "count": 11,
+  "updated_at": "2026-06-28T09:51:26.541Z",
+  "count": 16,
   "items": [
+    {
+      "title": "SK, 수백조 베팅…호남 반도체·영남 데이터센터로 AI혁신",
+      "link": "https://www.hankyung.com/article/2026062824037",
+      "source": "한국경제",
+      "ts": 1782636503000,
+      "pub": "Sun, 28 Jun 2026 17:48:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[시론] 어쩌다 마주친 반도체 복권 파티",
+      "link": "https://www.hankyung.com/article/2026062823541",
+      "source": "한국경제",
+      "ts": 1782636267000,
+      "pub": "Sun, 28 Jun 2026 17:44:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[사설] '갑론을박' 호남 반도체 투자…넘어야 할 벽 많은 도전",
+      "link": "https://www.hankyung.com/article/2026062823561",
+      "source": "한국경제",
+      "ts": 1782636155000,
+      "pub": "Sun, 28 Jun 2026 17:42:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "구윤철 '호남 반도체 투자'에 \"승부처는 지방…총력 뒷받침\"",
+      "link": "https://www.yna.co.kr/view/AKR20260628045800002",
+      "source": "연합뉴스 경제",
+      "ts": 1782636003000,
+      "pub": "Sun, 28 Jun 2026 17:40:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'호남 반도체' 시대 열리나…삼성·SK '2000조' 쏟아붓는다",
+      "link": "https://www.hankyung.com/article/2026062823771",
+      "source": "한국경제",
+      "ts": 1782635675000,
+      "pub": "Sun, 28 Jun 2026 17:34:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"저평가받을 이유 없어\"… SK하이닉스 목표가 430만원 나왔다",
+      "link": "https://www.mt.co.kr/stock/2026/06/28/2026062813595756688",
+      "source": "머니투데이",
+      "ts": 1782632976000,
+      "pub": "Sun, 28 Jun 2026 16:49:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "김정관, 호남 반도체 투자에 \"전력·용수·인재 경쟁력 있는 후보지\"",
+      "link": "https://www.mt.co.kr/economy/2026/06/28/2026062816314490884",
+      "source": "머니투데이",
+      "ts": 1782632618000,
+      "pub": "Sun, 28 Jun 2026 16:43:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'반도체 투자 원조' ACE ETF… 장·단기 수익률 '쑥'",
+      "link": "https://www.mt.co.kr/stock/2026/06/28/2026062613310668594",
+      "source": "머니투데이",
+      "ts": 1782631115000,
+      "pub": "Sun, 28 Jun 2026 16:18:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성 SK 등 1000조원 승부수…'호남 반도체 공장+α' 산업 지도 바꾼다",
+      "link": "https://www.mt.co.kr/industry/2026/06/28/2026062813073439219",
+      "source": "머니투데이",
+      "ts": 1782630000000,
+      "pub": "Sun, 28 Jun 2026 16:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"시대가 달라졌다\"…반도체 산업정책의 전면에 나선 정부",
+      "link": "https://www.mt.co.kr/economy/2026/06/28/2026062814071984781",
+      "source": "머니투데이",
+      "ts": 1782630000000,
+      "pub": "Sun, 28 Jun 2026 16:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "호남 반도체 입지론 힘 싣는 김용범…\"단군 이래 가장 특별한 시기\"",
       "link": "https://www.mt.co.kr/politics/2026/06/28/2026062815282361445",
@@ -36,51 +116,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "오세훈 \"반도체 투자 '행정지도'는 강요…시장 신뢰 훼손\"",
-      "link": "https://www.mt.co.kr/policy/2026/06/28/2026062813405746679",
-      "source": "머니투데이",
-      "ts": 1782622310000,
-      "pub": "Sun, 28 Jun 2026 13:51:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "월가, 반도체 조정장 이어질 지 주목 [뉴욕·상하이 증시 주간전망]",
-      "link": "https://www.hankyung.com/article/202606281921i",
-      "source": "한국경제",
-      "ts": 1782613072000,
-      "pub": "Sun, 28 Jun 2026 11:17:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "중국산 메모리 사게 해달라는 애플…\"빅테크 황금기 끝\" [빈난새의 빈틈없이월가]",
-      "link": "https://www.hankyung.com/article/202606281611i",
-      "source": "한국경제",
-      "ts": 1782612609000,
-      "pub": "Sun, 28 Jun 2026 11:10:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "무협 \"3분기 수출 개선세 지속…반도체·무선통신기기 등 견인\"",
       "link": "https://www.yna.co.kr/view/AKR20260628013600003",
       "source": "연합뉴스 경제",
       "ts": 1782612001000,
       "pub": "Sun, 28 Jun 2026 11:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 그만두고 MBC 입사…\"주식 1000만원어치 샀다\"",
-      "link": "https://www.hankyung.com/article/2026062818597",
-      "source": "한국경제",
-      "ts": 1782608314000,
-      "pub": "Sun, 28 Jun 2026 09:58:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "유영상 SK수펙스 AI위원장 \"AI 모델·반도체 자강 못하면 종속\"",
-      "link": "https://www.hankyung.com/article/202606281838i",
-      "source": "한국경제",
-      "ts": 1782606751000,
-      "pub": "Sun, 28 Jun 2026 09:32:31 +0900",
       "sentiment": "neutral"
     },
     {

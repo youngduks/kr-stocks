@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-28T15:10:05.645Z",
-  "count": 6,
+  "updated_at": "2026-06-28T16:56:36.075Z",
+  "count": 9,
   "items": [
     {
       "title": "국회도 '반도체 갈등'…지역구 따라 쪼개져",
@@ -25,6 +25,30 @@
       "source": "연합뉴스 경제",
       "ts": 1782636003000,
       "pub": "Sun, 28 Jun 2026 17:40:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"저평가받을 이유 없어\"… SK하이닉스 목표가 430만원 나왔다",
+      "link": "https://www.mt.co.kr/stock/2026/06/28/2026062813595756688",
+      "source": "머니투데이",
+      "ts": 1782632976000,
+      "pub": "Sun, 28 Jun 2026 16:49:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "김정관, 호남 반도체 투자에 \"전력·용수·인재 경쟁력 있는 후보지\"",
+      "link": "https://www.mt.co.kr/economy/2026/06/28/2026062816314490884",
+      "source": "머니투데이",
+      "ts": 1782632618000,
+      "pub": "Sun, 28 Jun 2026 16:43:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'반도체 투자 원조' ACE ETF… 장·단기 수익률 '쑥'",
+      "link": "https://www.mt.co.kr/stock/2026/06/28/2026062613310668594",
+      "source": "머니투데이",
+      "ts": 1782631115000,
+      "pub": "Sun, 28 Jun 2026 16:18:35 +0900",
       "sentiment": "neutral"
     },
     {

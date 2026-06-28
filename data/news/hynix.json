@@ -1,30 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-28T09:51:26.541Z",
-  "count": 16,
+  "updated_at": "2026-06-28T11:40:01.042Z",
+  "count": 6,
   "items": [
     {
-      "title": "SK, 수백조 베팅…호남 반도체·영남 데이터센터로 AI혁신",
-      "link": "https://www.hankyung.com/article/2026062824037",
+      "title": "국회도 '반도체 갈등'…지역구 따라 쪼개져",
+      "link": "https://www.hankyung.com/article/2026062823621",
       "source": "한국경제",
-      "ts": 1782636503000,
-      "pub": "Sun, 28 Jun 2026 17:48:23 +0900",
+      "ts": 1782638746000,
+      "pub": "Sun, 28 Jun 2026 18:25:46 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[시론] 어쩌다 마주친 반도체 복권 파티",
-      "link": "https://www.hankyung.com/article/2026062823541",
+      "title": "'플라스마 식각' 기술로 반도체 역사 바꿔",
+      "link": "https://www.hankyung.com/article/2026062823301",
       "source": "한국경제",
-      "ts": 1782636267000,
-      "pub": "Sun, 28 Jun 2026 17:44:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[사설] '갑론을박' 호남 반도체 투자…넘어야 할 벽 많은 도전",
-      "link": "https://www.hankyung.com/article/2026062823561",
-      "source": "한국경제",
-      "ts": 1782636155000,
-      "pub": "Sun, 28 Jun 2026 17:42:35 +0900",
+      "ts": 1782638302000,
+      "pub": "Sun, 28 Jun 2026 18:18:22 +0900",
       "sentiment": "neutral"
     },
     {
@@ -33,78 +25,6 @@
       "source": "연합뉴스 경제",
       "ts": 1782636003000,
       "pub": "Sun, 28 Jun 2026 17:40:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'호남 반도체' 시대 열리나…삼성·SK '2000조' 쏟아붓는다",
-      "link": "https://www.hankyung.com/article/2026062823771",
-      "source": "한국경제",
-      "ts": 1782635675000,
-      "pub": "Sun, 28 Jun 2026 17:34:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"저평가받을 이유 없어\"… SK하이닉스 목표가 430만원 나왔다",
-      "link": "https://www.mt.co.kr/stock/2026/06/28/2026062813595756688",
-      "source": "머니투데이",
-      "ts": 1782632976000,
-      "pub": "Sun, 28 Jun 2026 16:49:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "김정관, 호남 반도체 투자에 \"전력·용수·인재 경쟁력 있는 후보지\"",
-      "link": "https://www.mt.co.kr/economy/2026/06/28/2026062816314490884",
-      "source": "머니투데이",
-      "ts": 1782632618000,
-      "pub": "Sun, 28 Jun 2026 16:43:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'반도체 투자 원조' ACE ETF… 장·단기 수익률 '쑥'",
-      "link": "https://www.mt.co.kr/stock/2026/06/28/2026062613310668594",
-      "source": "머니투데이",
-      "ts": 1782631115000,
-      "pub": "Sun, 28 Jun 2026 16:18:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성 SK 등 1000조원 승부수…'호남 반도체 공장+α' 산업 지도 바꾼다",
-      "link": "https://www.mt.co.kr/industry/2026/06/28/2026062813073439219",
-      "source": "머니투데이",
-      "ts": 1782630000000,
-      "pub": "Sun, 28 Jun 2026 16:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"시대가 달라졌다\"…반도체 산업정책의 전면에 나선 정부",
-      "link": "https://www.mt.co.kr/economy/2026/06/28/2026062814071984781",
-      "source": "머니투데이",
-      "ts": 1782630000000,
-      "pub": "Sun, 28 Jun 2026 16:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "호남 반도체 입지론 힘 싣는 김용범…\"단군 이래 가장 특별한 시기\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/28/2026062815282361445",
-      "source": "머니투데이",
-      "ts": 1782628677000,
-      "pub": "Sun, 28 Jun 2026 15:37:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "정치적 셈법에 발표 전부터 잡음…'호남 반도체' 논란만 키운 與野",
-      "link": "https://www.mt.co.kr/politics/2026/06/28/2026062811122067434",
-      "source": "머니투데이",
-      "ts": 1782628334000,
-      "pub": "Sun, 28 Jun 2026 15:32:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "李 대통령, 호남 반도체 입지 논쟁에 \"지역 갈등 조장 자제를\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/28/2026062815123320728",
-      "source": "머니투데이",
-      "ts": 1782627333000,
-      "pub": "Sun, 28 Jun 2026 15:15:33 +0900",
       "sentiment": "neutral"
     },
     {

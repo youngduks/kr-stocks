@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-27T23:52:10.674Z",
-  "count": 23,
+  "updated_at": "2026-06-28T02:13:24.601Z",
+  "count": 24,
   "items": [
+    {
+      "title": "美·이란, 연이틀 무력공방…트럼프 \"이란 존재하지 않을 수도\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260628005453071",
+      "source": "연합뉴스 국제",
+      "ts": 1782610248000,
+      "pub": "Sun, 28 Jun 2026 10:30:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"애플, 중국산 메모리 칩 구매 검토…백악관에 승인 로비\"",
+      "link": "https://www.mt.co.kr/world/2026/06/28/2026062809381880614",
+      "source": "머니투데이",
+      "ts": 1782607455000,
+      "pub": "Sun, 28 Jun 2026 09:44:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"군사적 마무리 필요할 수도…이란 존재하지 않게될 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260628012351071",
+      "source": "연합뉴스 국제",
+      "ts": 1782604433000,
+      "pub": "Sun, 28 Jun 2026 08:53:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"군사적 대처해야 할 수도…이란 존재 없어질 것\"",
+      "link": "https://www.hankyung.com/article/2026062817997",
+      "source": "한국경제",
+      "ts": 1782603400000,
+      "pub": "Sun, 28 Jun 2026 08:36:40 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[속보] 트럼프 \"군사적 대처해야 할 수도…그러면 이란 존재 없어질 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260628012300071",
@@ -49,14 +81,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782568407000,
       "pub": "Sat, 27 Jun 2026 22:53:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"러시아 본토 때렸다\" 우크라이나, 사거리 3000km 미사일 실전 도입",
-      "link": "https://www.mt.co.kr/world/2026/06/27/2026062722242524305",
-      "source": "머니투데이",
-      "ts": 1782566763000,
-      "pub": "Sat, 27 Jun 2026 22:26:03 +0900",
       "sentiment": "neutral"
     },
     {
@@ -169,22 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782489559000,
       "pub": "Sat, 27 Jun 2026 00:59:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프의 눈엣가시' 볼턴 감옥 가나…불법 기밀보유 유죄 인정",
-      "link": "https://www.yna.co.kr/view/AKR20260627000800071",
-      "source": "연합뉴스 국제",
-      "ts": 1782488300000,
-      "pub": "Sat, 27 Jun 2026 00:38:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 북한 위협 관련 '국가비상사태' 1년 연장",
-      "link": "https://www.yna.co.kr/view/AKR20260626172800071",
-      "source": "연합뉴스 국제",
-      "ts": 1782481565000,
-      "pub": "Fri, 26 Jun 2026 22:46:05 +0900",
       "sentiment": "neutral"
     }
   ]

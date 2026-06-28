@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-27T23:52:10.676Z",
+  "updated_at": "2026-06-28T02:13:24.603Z",
   "count": 6,
   "items": [
+    {
+      "title": "\"애플, 중국산 메모리 칩 구매 검토…백악관에 승인 로비\"",
+      "link": "https://www.mt.co.kr/world/2026/06/28/2026062809381880614",
+      "source": "머니투데이",
+      "ts": 1782607455000,
+      "pub": "Sun, 28 Jun 2026 09:44:15 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "靑, 1000조↑ '역대급 지역투자' 발표…이재용·최태원도 참석",
       "link": "https://www.mt.co.kr/politics/2026/06/28/2026062722561562160",
@@ -12,11 +20,19 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"애플, 중국산 메모리 칩 구매 검토…美 행정부에 승인 로비\"",
-      "link": "https://www.hankyung.com/article/2026062714577",
+      "title": "\"연봉 1500만원 포기할게요\"…삼전닉스가 취준생 바꿔놨다",
+      "link": "https://www.hankyung.com/article/202606269885g",
       "source": "한국경제",
-      "ts": 1782549493000,
-      "pub": "Sat, 27 Jun 2026 17:38:13 +0900",
+      "ts": 1782602635000,
+      "pub": "Sun, 28 Jun 2026 08:23:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "롤러코스터 타는 삼전닉스 주가…2분기 실적 미리 따져보니",
+      "link": "https://www.hankyung.com/article/202606260268i",
+      "source": "한국경제",
+      "ts": 1782601206000,
+      "pub": "Sun, 28 Jun 2026 08:00:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -25,22 +41,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782548263000,
       "pub": "Sat, 27 Jun 2026 17:17:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "여야, '삼전닉스' 호남 투자 공방…\"정부 압박\" vs \"흑색선전\"",
-      "link": "https://www.hankyung.com/article/2026062714417",
-      "source": "한국경제",
-      "ts": 1782546109000,
-      "pub": "Sat, 27 Jun 2026 16:41:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "李대통령 \"호남에 물 충분…삼성전자·하이닉스 어리석지 않아\"",
-      "link": "https://www.hankyung.com/article/2026062713407",
-      "source": "한국경제",
-      "ts": 1782532415000,
-      "pub": "Sat, 27 Jun 2026 12:53:35 +0900",
       "sentiment": "neutral"
     },
     {

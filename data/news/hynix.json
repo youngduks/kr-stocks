@@ -1,8 +1,40 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-28T22:52:45.053Z",
-  "count": 10,
+  "updated_at": "2026-06-28T23:58:45.157Z",
+  "count": 9,
   "items": [
+    {
+      "title": "\"삼성전자, CXMT 상장으로 D램 공급 확대 우려 부각될 수도\"-LS",
+      "link": "https://www.hankyung.com/article/2026062927786",
+      "source": "한국경제",
+      "ts": 1782687691000,
+      "pub": "Mon, 29 Jun 2026 08:01:31 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "310% 하이닉스 vs 183% 삼성전자…수익률 차이난 이유",
+      "link": "https://www.hankyung.com/article/202606271075i",
+      "source": "한국경제",
+      "ts": 1782687616000,
+      "pub": "Mon, 29 Jun 2026 08:00:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "1년 전에 삼성전자 대신 샀다면…수익률 652% 기록한 반도체 기업",
+      "link": "https://www.hankyung.com/article/202606260545i",
+      "source": "한국경제",
+      "ts": 1782687609000,
+      "pub": "Mon, 29 Jun 2026 08:00:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "호남 반도체·美고용·수출지표 시험대…이번주 투자전략은?",
+      "link": "https://www.hankyung.com/article/202606281959i",
+      "source": "한국경제",
+      "ts": 1782687607000,
+      "pub": "Mon, 29 Jun 2026 08:00:07 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"한국은 1인당 7억씩 받는다는데\"…日 반도체 업계 '술렁' [도쿄나우]",
       "link": "https://www.hankyung.com/article/202606292700i",
@@ -18,38 +50,6 @@
       "ts": 1782684002000,
       "pub": "Mon, 29 Jun 2026 07:00:02 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "\"영남 역차별\"vs \"생존 위한 균형 발전\"…'호남 반도체' 정치 파열음",
-      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062821473147944",
-      "source": "머니투데이",
-      "ts": 1782682800000,
-      "pub": "Mon, 29 Jun 2026 06:40:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI 반도체주 급락에…S&P500 약세",
-      "link": "https://www.hankyung.com/article/202606282464i",
-      "source": "한국경제",
-      "ts": 1782676803000,
-      "pub": "Mon, 29 Jun 2026 05:00:03 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[사설] 호남 반도체 프로젝트, 성공의 관건은",
-      "link": "https://www.mt.co.kr/opinion/2026/06/29/2026062814064747807",
-      "source": "머니투데이",
-      "ts": 1782673200000,
-      "pub": "Mon, 29 Jun 2026 04:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "국회도 '반도체 갈등'…지역구 따라 쪼개져",
-      "link": "https://www.hankyung.com/article/2026062823621",
-      "source": "한국경제",
-      "ts": 1782638746000,
-      "pub": "Sun, 28 Jun 2026 18:25:46 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "구윤철 '호남 반도체 투자'에 \"승부처는 지방…총력 뒷받침\"",
@@ -73,14 +73,6 @@
       "source": "연합뉴스 경제",
       "ts": 1782612001000,
       "pub": "Sun, 28 Jun 2026 11:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"애플, 中메모리칩 사용 승인 요청…트럼프 행정부 상대 로비\"",
-      "link": "https://www.yna.co.kr/view/AKR20260627039600009",
-      "source": "연합뉴스 국제",
-      "ts": 1782548263000,
-      "pub": "Sat, 27 Jun 2026 17:17:43 +0900",
       "sentiment": "neutral"
     }
   ]

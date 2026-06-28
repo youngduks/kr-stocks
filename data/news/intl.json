@@ -1,15 +1,47 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-28T22:52:45.052Z",
-  "count": 26,
+  "updated_at": "2026-06-28T23:58:45.155Z",
+  "count": 25,
   "items": [
     {
-      "title": "'연료난 인정' 푸틴 \"미국, 중동 협상 마무리 후 협상 기대\"",
-      "link": "https://www.mt.co.kr/world/2026/06/29/2026062907145337916",
-      "source": "머니투데이",
-      "ts": 1782686842000,
-      "pub": "Mon, 29 Jun 2026 07:47:22 +0900",
+      "title": "2027 세계관세기구 기술 콘퍼런스, 내년 3월 인천서 개최",
+      "link": "https://www.yna.co.kr/view/AKR20260629020600065",
+      "source": "연합뉴스 경제",
+      "ts": 1782689532000,
+      "pub": "Mon, 29 Jun 2026 08:32:12 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "푸틴, 우크라에 고전 속 \"중동분쟁 끝나면 美협상단 러 찾을 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260629017200009",
+      "source": "연합뉴스 국제",
+      "ts": 1782688771000,
+      "pub": "Mon, 29 Jun 2026 08:19:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘, 평화 합의에도 레바논 계속 타격…\"200m 땅굴 파괴\"",
+      "link": "https://www.yna.co.kr/view/AKR20260629015600009",
+      "source": "연합뉴스 국제",
+      "ts": 1782688501000,
+      "pub": "Mon, 29 Jun 2026 08:15:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[외신 에스프레소 영상] 러시아 경제 한계 도달했나? 우크라이나의 반격",
+      "link": "https://www.hankyung.com/article/202606292810i",
+      "source": "한국경제",
+      "ts": 1782688459000,
+      "pub": "Mon, 29 Jun 2026 08:14:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 연준 바킨 위원 \"물가 너무 높은 상황\" 경고",
+      "link": "https://www.yna.co.kr/view/AKR20260629014200009",
+      "source": "연합뉴스 경제",
+      "ts": 1782687651000,
+      "pub": "Mon, 29 Jun 2026 08:00:51 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "케빈 워시 FED의 시작…미국 장기국채커버드콜 ETF 다시 보기",
@@ -25,14 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782682954000,
       "pub": "Mon, 29 Jun 2026 06:42:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "바이든, 트럼프 향해 \"한심한 놈\" 직격…정치 복귀 신호탄?",
-      "link": "https://www.hankyung.com/article/2026062926627",
-      "source": "한국경제",
-      "ts": 1782681469000,
-      "pub": "Mon, 29 Jun 2026 06:17:49 +0900",
       "sentiment": "neutral"
     },
     {
@@ -57,14 +81,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782677593000,
       "pub": "Mon, 29 Jun 2026 05:13:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "나스닥 15개월만에 최대 월간 하락…워시 발언·고용지표 주목[이번주 美 증시는]",
-      "link": "https://www.mt.co.kr/world/2026/06/29/2026062722071577744",
-      "source": "머니투데이",
-      "ts": 1782677100000,
-      "pub": "Mon, 29 Jun 2026 05:05:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -185,30 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782564190000,
       "pub": "Sat, 27 Jun 2026 21:43:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "루비오 美국무 \"트럼프, 내년 초 인도 방문 추진\"",
-      "link": "https://www.yna.co.kr/view/AKR20260627042500084",
-      "source": "연합뉴스 국제",
-      "ts": 1782553754000,
-      "pub": "Sat, 27 Jun 2026 18:49:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"모스크바도 사정권\"…우크라, 드론 이어 '플라밍고' 꺼냈다",
-      "link": "https://www.yna.co.kr/view/AKR20260627040800109",
-      "source": "연합뉴스 국제",
-      "ts": 1782552313000,
-      "pub": "Sat, 27 Jun 2026 18:25:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"애플, 中메모리칩 사용 승인 요청…트럼프 행정부 상대 로비\"",
-      "link": "https://www.yna.co.kr/view/AKR20260627039600009",
-      "source": "연합뉴스 국제",
-      "ts": 1782548263000,
-      "pub": "Sat, 27 Jun 2026 17:17:43 +0900",
       "sentiment": "neutral"
     }
   ]

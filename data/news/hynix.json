@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-29T12:55:36.451Z",
-  "count": 27,
+  "updated_at": "2026-06-29T16:33:11.762Z",
+  "count": 21,
   "items": [
+    {
+      "title": "\"맥북 비싸졌잖아\"…삼성·하이닉스에 '집단소송' 무슨 일",
+      "link": "https://www.hankyung.com/article/2026062951837",
+      "source": "한국경제",
+      "ts": 1782734743000,
+      "pub": "Mon, 29 Jun 2026 21:05:43 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "美소비자, 삼성·하이닉스·마이크론 '담합' 주장 소송",
       "link": "https://www.yna.co.kr/view/AKR20260629164700009",
@@ -10,14 +18,6 @@
       "ts": 1782734208000,
       "pub": "Mon, 29 Jun 2026 20:56:48 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "중국 CXMT, 텐센트와 4.5조 규모 D램 공급 장기 계약",
-      "link": "https://www.mt.co.kr/world/2026/06/29/2026062919271033991",
-      "source": "머니투데이",
-      "ts": 1782730275000,
-      "pub": "Mon, 29 Jun 2026 19:51:15 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "\"삼성·SK가 광주로 간다\"…반도체 지도 바뀌나",
@@ -52,59 +52,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "與野 '호남 반도체' 공방…환영한 재계도 '인프라' 지원 신중론",
-      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062915122832881",
-      "source": "머니투데이",
-      "ts": 1782724234000,
-      "pub": "Mon, 29 Jun 2026 18:10:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "메모리도 파운드리도 '공급 부족'…삼성·SK, '용인 완공' 앞당긴 이유",
-      "link": "https://www.mt.co.kr/industry/2026/06/29/2026062915114545359",
-      "source": "머니투데이",
-      "ts": 1782724200000,
-      "pub": "Mon, 29 Jun 2026 18:10:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 '국가 총력전 체제'…1000조원 규모 신규 투자 [퇴근길 30초 경제]",
-      "link": "https://www.hankyung.com/article/2026062949967",
-      "source": "한국경제",
-      "ts": 1782724145000,
-      "pub": "Mon, 29 Jun 2026 18:09:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "용인클러스터 12년 앞당긴다…충청권은 HBM 패키징 거점으로",
-      "link": "https://www.hankyung.com/article/2026062949371",
-      "source": "한국경제",
-      "ts": 1782724005000,
-      "pub": "Mon, 29 Jun 2026 18:06:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "SK, 호남권에 400조 반도체 투자…총 2천100조 투자 계획(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260629139401003",
       "source": "연합뉴스 경제",
       "ts": 1782723633000,
       "pub": "Mon, 29 Jun 2026 18:00:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI가 바꾼 메모리 게임의 룰…삼성·SK, 3200조 반도체 투자",
-      "link": "https://www.mt.co.kr/industry/2026/06/29/2026062917222536308",
-      "source": "머니투데이",
-      "ts": 1782723278000,
-      "pub": "Mon, 29 Jun 2026 17:54:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "5년 내 메모리 생산능력 2배 늘린다…삼성·SK 평택·용인 투자 가속화",
-      "link": "https://www.mt.co.kr/industry/2026/06/29/2026062914090099240",
-      "source": "머니투데이",
-      "ts": 1782723000000,
-      "pub": "Mon, 29 Jun 2026 17:50:00 +0900",
       "sentiment": "neutral"
     },
     {

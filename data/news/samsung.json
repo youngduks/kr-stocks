@@ -1,30 +1,14 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-29T12:55:36.451Z",
-  "count": 16,
+  "updated_at": "2026-06-29T16:33:11.761Z",
+  "count": 7,
   "items": [
-    {
-      "title": "李 대통령 \"역사적 결단 이재용·최태원에 재차 감사...어떤 지원도 마다 않겠다\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062921143025026",
-      "source": "머니투데이",
-      "ts": 1782735856000,
-      "pub": "Mon, 29 Jun 2026 21:24:16 +0900",
-      "sentiment": "neutral"
-    },
     {
       "title": "[3대 메가] 李대통령, 이재용·최태원에 \"국민영웅\"…기업전폭지원 약속(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260629125451001",
       "source": "연합뉴스 경제",
       "ts": 1782726035000,
       "pub": "Mon, 29 Jun 2026 18:40:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "메모리도 파운드리도 '공급 부족'…삼성·SK, '용인 완공' 앞당긴 이유",
-      "link": "https://www.mt.co.kr/industry/2026/06/29/2026062915114545359",
-      "source": "머니투데이",
-      "ts": 1782724200000,
-      "pub": "Mon, 29 Jun 2026 18:10:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -36,67 +20,11 @@
       "sentiment": "negative"
     },
     {
-      "title": "용인클러스터 12년 앞당긴다…충청권은 HBM 패키징 거점으로",
-      "link": "https://www.hankyung.com/article/2026062949371",
-      "source": "한국경제",
-      "ts": 1782724005000,
-      "pub": "Mon, 29 Jun 2026 18:06:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI가 바꾼 메모리 게임의 룰…삼성·SK, 3200조 반도체 투자",
-      "link": "https://www.mt.co.kr/industry/2026/06/29/2026062917222536308",
-      "source": "머니투데이",
-      "ts": 1782723278000,
-      "pub": "Mon, 29 Jun 2026 17:54:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "5년 내 메모리 생산능력 2배 늘린다…삼성·SK 평택·용인 투자 가속화",
-      "link": "https://www.mt.co.kr/industry/2026/06/29/2026062914090099240",
-      "source": "머니투데이",
-      "ts": 1782723000000,
-      "pub": "Mon, 29 Jun 2026 17:50:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "삼전·닉스 레버리지, 변동성에 어느정도 영향?…자본시장硏 분석은",
       "link": "https://www.yna.co.kr/view/AKR20260629117500008",
       "source": "연합뉴스 경제",
       "ts": 1782722736000,
       "pub": "Mon, 29 Jun 2026 17:45:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'800조' 호남선 탄 이재용·최태원..겉으론 웃지만",
-      "link": "https://www.mt.co.kr/industry/2026/06/29/2026062915435421157",
-      "source": "머니투데이",
-      "ts": 1782722529000,
-      "pub": "Mon, 29 Jun 2026 17:42:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"2만원대 주식이 19만원 터치\"...삼전닉스보다 많이 오른 '이 회사'",
-      "link": "https://www.mt.co.kr/stock/2026/06/29/2026062917255210941",
-      "source": "머니투데이",
-      "ts": 1782722181000,
-      "pub": "Mon, 29 Jun 2026 17:36:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"큰절 하고 싶다\"…李대통령, 이재용·최태원 회장에 '90도 인사' 배경은",
-      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062917250281373",
-      "source": "머니투데이",
-      "ts": 1782721786000,
-      "pub": "Mon, 29 Jun 2026 17:29:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스가 다시 그리는 대한민국 산업지도…남방한계선 바뀐다",
-      "link": "https://www.mt.co.kr/economy/2026/06/29/2026062916192719147",
-      "source": "머니투데이",
-      "ts": 1782721246000,
-      "pub": "Mon, 29 Jun 2026 17:20:46 +0900",
       "sentiment": "neutral"
     },
     {

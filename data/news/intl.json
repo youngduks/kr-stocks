@@ -1,14 +1,110 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-29T12:55:36.450Z",
-  "count": 25,
+  "updated_at": "2026-06-29T16:33:11.760Z",
+  "count": 28,
   "items": [
     {
-      "title": "이란 \"도하 실무 회담 미확정\" vs 트럼프 \"이란이 회담 요청\"",
-      "link": "https://www.mt.co.kr/world/2026/06/29/2026062920564180822",
-      "source": "머니투데이",
-      "ts": 1782735264000,
-      "pub": "Mon, 29 Jun 2026 21:14:24 +0900",
+      "title": "레바논 대통령 \"이스라엘 국경까지 군 배치해 통제권 확장\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260630000251079",
+      "source": "연합뉴스 국제",
+      "ts": 1782749429000,
+      "pub": "Tue, 30 Jun 2026 01:10:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"30일 이란과 카타르서 회담\"",
+      "link": "https://www.hankyung.com/article/2026062952201",
+      "source": "한국경제",
+      "ts": 1782748099000,
+      "pub": "Tue, 30 Jun 2026 00:48:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美대법, 트럼프 '성추행 사건' 상고 기각…77억원 배상 확정(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260629170951071",
+      "source": "연합뉴스 국제",
+      "ts": 1782747829000,
+      "pub": "Tue, 30 Jun 2026 00:43:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美대법, '선거일後 도착' 우편투표 합법 판결…트럼프 또 쓴잔",
+      "link": "https://www.yna.co.kr/view/AKR20260630000400071",
+      "source": "연합뉴스 국제",
+      "ts": 1782746919000,
+      "pub": "Tue, 30 Jun 2026 00:28:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美대법원,\"연준 쿡,직책유지\"판결…트럼프 연준장악시도 제동",
+      "link": "https://www.hankyung.com/article/202606305255i",
+      "source": "한국경제",
+      "ts": 1782746697000,
+      "pub": "Tue, 30 Jun 2026 00:24:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "레바논 대통령 \"이스라엘 국경까지 군 배치해 통제권 확장\"",
+      "link": "https://www.yna.co.kr/view/AKR20260630000200079",
+      "source": "연합뉴스 국제",
+      "ts": 1782745436000,
+      "pub": "Tue, 30 Jun 2026 00:03:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美연방대법원, 트럼프의 연준 이사 해임 결정에 일단 제동",
+      "link": "https://www.yna.co.kr/view/AKR20260629171300071",
+      "source": "연합뉴스 국제",
+      "ts": 1782745283000,
+      "pub": "Tue, 30 Jun 2026 00:01:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美대법, 트럼프 '성추행 사건' 상고 기각…77억원 배상 확정",
+      "link": "https://www.yna.co.kr/view/AKR20260629170900071",
+      "source": "연합뉴스 국제",
+      "ts": 1782744485000,
+      "pub": "Mon, 29 Jun 2026 23:48:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라가 에너지 시설 때리자…러는 동부 전선 압박(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260629139151109",
+      "source": "연합뉴스 국제",
+      "ts": 1782739908000,
+      "pub": "Mon, 29 Jun 2026 22:31:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한국, 가자지구 피란민에 150억원 지원…15%는 한국산 물품으로",
+      "link": "https://www.yna.co.kr/view/AKR20260629155400079",
+      "source": "연합뉴스 국제",
+      "ts": 1782738834000,
+      "pub": "Mon, 29 Jun 2026 22:13:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "전쟁에 폭염까지…우크라도 비상",
+      "link": "https://www.yna.co.kr/view/AKR20260629166400109",
+      "source": "연합뉴스 국제",
+      "ts": 1782738179000,
+      "pub": "Mon, 29 Jun 2026 22:02:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 요청으로 내일 도하서 회담\"…확전 자제 기류(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260629165351071",
+      "source": "연합뉴스 국제",
+      "ts": 1782738141000,
+      "pub": "Mon, 29 Jun 2026 22:02:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란이 회담 요청\"…이란 \"예정 없다\" 엇갈린 발표",
+      "link": "https://www.hankyung.com/article/2026062951937",
+      "source": "한국경제",
+      "ts": 1782736761000,
+      "pub": "Mon, 29 Jun 2026 21:39:21 +0900",
       "sentiment": "neutral"
     },
     {
@@ -129,78 +225,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782688771000,
       "pub": "Mon, 29 Jun 2026 08:19:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘, 평화 합의에도 레바논 계속 타격…\"200m 땅굴 파괴\"",
-      "link": "https://www.yna.co.kr/view/AKR20260629015600009",
-      "source": "연합뉴스 국제",
-      "ts": 1782688501000,
-      "pub": "Mon, 29 Jun 2026 08:15:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 연준 바킨 위원 \"물가 너무 높은 상황\" 경고",
-      "link": "https://www.yna.co.kr/view/AKR20260629014200009",
-      "source": "연합뉴스 국제",
-      "ts": 1782687651000,
-      "pub": "Mon, 29 Jun 2026 08:00:51 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "이스라엘 '아르메니아 학살' 인정 결의…튀르키예 겨냥(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260629001151108",
-      "source": "연합뉴스 국제",
-      "ts": 1782682954000,
-      "pub": "Mon, 29 Jun 2026 06:42:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프·러트닉 일가, 정부지원 14개 사업에서 지분·금융관계\"",
-      "link": "https://www.yna.co.kr/view/AKR20260629003300072",
-      "source": "연합뉴스 국제",
-      "ts": 1782679119000,
-      "pub": "Mon, 29 Jun 2026 05:38:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 워싱턴시장 유력 野후보 비판…\"워싱턴 파괴 불용\"",
-      "link": "https://www.yna.co.kr/view/AKR20260629003000071",
-      "source": "연합뉴스 국제",
-      "ts": 1782677807000,
-      "pub": "Mon, 29 Jun 2026 05:16:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "시험대 오른 트럼프의 당 장악력…'피아구분 정치' 부메랑되나",
-      "link": "https://www.yna.co.kr/view/AKR20260629002900071",
-      "source": "연합뉴스 국제",
-      "ts": 1782677593000,
-      "pub": "Mon, 29 Jun 2026 05:13:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "바이든, '대선토론 폭망' 정확히 2년 후 트럼프에 \"한심한 놈\"",
-      "link": "https://www.yna.co.kr/view/AKR20260629002600071",
-      "source": "연합뉴스 국제",
-      "ts": 1782674182000,
-      "pub": "Mon, 29 Jun 2026 04:16:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 '트럼프 관세·무역 키맨' 그리어 급부상…러트닉은 '조용'",
-      "link": "https://www.yna.co.kr/view/AKR20260629002400071",
-      "source": "연합뉴스 국제",
-      "ts": 1782670776000,
-      "pub": "Mon, 29 Jun 2026 03:19:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "푸틴 \"어려운 시기 겪는 러시아, 강하지 않으면 존재 못해\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260628057851108",
-      "source": "연합뉴스 국제",
-      "ts": 1782665564000,
-      "pub": "Mon, 29 Jun 2026 01:52:44 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,63 +1,103 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-28T23:58:45.157Z",
-  "count": 9,
+  "updated_at": "2026-06-29T03:42:20.738Z",
+  "count": 13,
   "items": [
     {
-      "title": "\"삼성전자, CXMT 상장으로 D램 공급 확대 우려 부각될 수도\"-LS",
-      "link": "https://www.hankyung.com/article/2026062927786",
-      "source": "한국경제",
-      "ts": 1782687691000,
-      "pub": "Mon, 29 Jun 2026 08:01:31 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "310% 하이닉스 vs 183% 삼성전자…수익률 차이난 이유",
-      "link": "https://www.hankyung.com/article/202606271075i",
-      "source": "한국경제",
-      "ts": 1782687616000,
-      "pub": "Mon, 29 Jun 2026 08:00:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "1년 전에 삼성전자 대신 샀다면…수익률 652% 기록한 반도체 기업",
-      "link": "https://www.hankyung.com/article/202606260545i",
-      "source": "한국경제",
-      "ts": 1782687609000,
-      "pub": "Mon, 29 Jun 2026 08:00:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "호남 반도체·美고용·수출지표 시험대…이번주 투자전략은?",
-      "link": "https://www.hankyung.com/article/202606281959i",
-      "source": "한국경제",
-      "ts": 1782687607000,
-      "pub": "Mon, 29 Jun 2026 08:00:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"한국은 1인당 7억씩 받는다는데\"…日 반도체 업계 '술렁' [도쿄나우]",
-      "link": "https://www.hankyung.com/article/202606292700i",
-      "source": "한국경제",
-      "ts": 1782684981000,
-      "pub": "Mon, 29 Jun 2026 07:16:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아 업고 '제2의 전성기'…일년 사이에 430% 급등한 종목",
-      "link": "https://www.hankyung.com/article/202606271378i",
-      "source": "한국경제",
-      "ts": 1782684002000,
-      "pub": "Mon, 29 Jun 2026 07:00:02 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "구윤철 '호남 반도체 투자'에 \"승부처는 지방…총력 뒷받침\"",
-      "link": "https://www.yna.co.kr/view/AKR20260628045800002",
+      "title": "반도체·AI 훈풍…3분기 제조업 경기전망 소폭 개선",
+      "link": "https://www.yna.co.kr/view/AKR20260629037300003",
       "source": "연합뉴스 경제",
-      "ts": 1782636003000,
-      "pub": "Sun, 28 Jun 2026 17:40:03 +0900",
+      "ts": 1782702014000,
+      "pub": "Mon, 29 Jun 2026 12:00:14 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "반도체, 3분기 전망도 '맑음'…제조업 경기전망 소폭 개선",
+      "link": "https://www.mt.co.kr/industry/2026/06/29/2026062908590376989",
+      "source": "머니투데이",
+      "ts": 1782702000000,
+      "pub": "Mon, 29 Jun 2026 12:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "1분기 GRDP 3.8%↑…광·제조업, 8분기만 최대 \"반도체 영향\"",
+      "link": "https://www.mt.co.kr/economy/2026/06/29/2026062909031842059",
+      "source": "머니투데이",
+      "ts": 1782702000000,
+      "pub": "Mon, 29 Jun 2026 12:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"SK하닉 美 ADR 상장, 韓 반도체 재평가 계기…7조 수급 기대\"",
+      "link": "https://www.mt.co.kr/stock/2026/06/29/2026062911183051266",
+      "source": "머니투데이",
+      "ts": 1782700806000,
+      "pub": "Mon, 29 Jun 2026 11:40:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 흔들려도 초고수는 순매수...SK하이닉스·삼성전자 쓸어담아",
+      "link": "https://www.hankyung.com/article/202606293577i",
+      "source": "한국경제",
+      "ts": 1782700763000,
+      "pub": "Mon, 29 Jun 2026 11:39:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미래에셋 \"하닉 ADR 상장 韓반도체 재평가 계기…7조 유입 기대\"",
+      "link": "https://www.yna.co.kr/view/AKR20260629071300008",
+      "source": "연합뉴스 경제",
+      "ts": 1782699302000,
+      "pub": "Mon, 29 Jun 2026 11:15:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체·AI 첨단기술 유출방지…지식재산처, 전문 수사조직 가동",
+      "link": "https://www.yna.co.kr/view/AKR20260629030100063",
+      "source": "연합뉴스 경제",
+      "ts": 1782698410000,
+      "pub": "Mon, 29 Jun 2026 11:00:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이준석, 국힘 유의동과 반도체 공동대응…\"큰 부메랑으로 돌아올 것\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062910472295362",
+      "source": "머니투데이",
+      "ts": 1782698257000,
+      "pub": "Mon, 29 Jun 2026 10:57:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "與 \"삼전·하닉은 반도체의 손흥민·이강인…발목 잡히면 뒤처져\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062910292425472",
+      "source": "머니투데이",
+      "ts": 1782698132000,
+      "pub": "Mon, 29 Jun 2026 10:55:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "국민의힘 \"호남 반도체 클러스터 조성은 관치...나중에 감옥 갈 일\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062910434036272",
+      "source": "머니투데이",
+      "ts": 1782697764000,
+      "pub": "Mon, 29 Jun 2026 10:49:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성운용이 찍은 하반기 AI 투자처…반도체 다음은 여기",
+      "link": "https://www.hankyung.com/article/202606293431i",
+      "source": "한국경제",
+      "ts": 1782695729000,
+      "pub": "Mon, 29 Jun 2026 10:15:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자, 장초반 3%대 급락…SK하이닉스도 1.95%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260629030600008",
+      "source": "연합뉴스 경제",
+      "ts": 1782692100000,
+      "pub": "Mon, 29 Jun 2026 09:15:00 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "반도체 호황에…日키옥시아 직원들. 자사주로 100억원 '잭폿'",
@@ -65,14 +105,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782623478000,
       "pub": "Sun, 28 Jun 2026 14:11:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "무협 \"3분기 수출 개선세 지속…반도체·무선통신기기 등 견인\"",
-      "link": "https://www.yna.co.kr/view/AKR20260628013600003",
-      "source": "연합뉴스 경제",
-      "ts": 1782612001000,
-      "pub": "Sun, 28 Jun 2026 11:00:01 +0900",
       "sentiment": "neutral"
     }
   ]

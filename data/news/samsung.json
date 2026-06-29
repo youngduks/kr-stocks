@@ -1,46 +1,70 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-28T23:58:45.156Z",
-  "count": 5,
+  "updated_at": "2026-06-29T03:42:20.738Z",
+  "count": 8,
   "items": [
+    {
+      "title": "반도체 흔들려도 초고수는 순매수...SK하이닉스·삼성전자 쓸어담아",
+      "link": "https://www.hankyung.com/article/202606293577i",
+      "source": "한국경제",
+      "ts": 1782700763000,
+      "pub": "Mon, 29 Jun 2026 11:39:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "상위 1% 초고수들, '삼전닉스' 팔고 삼성전기·원익IPS 담았다",
+      "link": "https://www.hankyung.com/article/202606292909i",
+      "source": "한국경제",
+      "ts": 1782700743000,
+      "pub": "Mon, 29 Jun 2026 11:39:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "피아니스트 이재용, 지나 바카우어 콩쿠르 영아티스트 부문 3위",
+      "link": "https://www.hankyung.com/article/202606292929i",
+      "source": "한국경제",
+      "ts": 1782699700000,
+      "pub": "Mon, 29 Jun 2026 11:21:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이름만 '금호'인데\" 이 종목도 상한가...호남 투자 삼전닉스는 하락",
+      "link": "https://www.mt.co.kr/stock/2026/06/29/2026062910085483299",
+      "source": "머니투데이",
+      "ts": 1782699230000,
+      "pub": "Mon, 29 Jun 2026 11:13:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대차증권 \"삼성전자, 영업익 전망치 하향…목표가는 유지\"",
+      "link": "https://www.yna.co.kr/view/AKR20260629068400008",
+      "source": "연합뉴스 경제",
+      "ts": 1782698713000,
+      "pub": "Mon, 29 Jun 2026 11:05:13 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "與 \"삼전·하닉은 반도체의 손흥민·이강인…발목 잡히면 뒤처져\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062910292425472",
+      "source": "머니투데이",
+      "ts": 1782698132000,
+      "pub": "Mon, 29 Jun 2026 10:55:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자, 장초반 3%대 급락…SK하이닉스도 1.95%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260629030600008",
+      "source": "연합뉴스 경제",
+      "ts": 1782692100000,
+      "pub": "Mon, 29 Jun 2026 09:15:00 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "키움증권 \"삼전, 2분기 영업익 100조 하회…성과급 반영 예상↑\"",
       "link": "https://www.yna.co.kr/view/AKR20260629018800008",
       "source": "연합뉴스 경제",
       "ts": 1782690032000,
       "pub": "Mon, 29 Jun 2026 08:40:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "“3개월 내 '1만피' 가시권…'삼전닉스' 주가 2028년까지 오른다”",
-      "link": "https://www.hankyung.com/article/202606269457i",
-      "source": "한국경제",
-      "ts": 1782689404000,
-      "pub": "Mon, 29 Jun 2026 08:30:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼성전자, CXMT 상장으로 D램 공급 확대 우려 부각될 수도\"-LS",
-      "link": "https://www.hankyung.com/article/2026062927786",
-      "source": "한국경제",
-      "ts": 1782687691000,
-      "pub": "Mon, 29 Jun 2026 08:01:31 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "310% 하이닉스 vs 183% 삼성전자…수익률 차이난 이유",
-      "link": "https://www.hankyung.com/article/202606271075i",
-      "source": "한국경제",
-      "ts": 1782687616000,
-      "pub": "Mon, 29 Jun 2026 08:00:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "1년 전에 삼성전자 대신 샀다면…수익률 652% 기록한 반도체 기업",
-      "link": "https://www.hankyung.com/article/202606260545i",
-      "source": "한국경제",
-      "ts": 1782687609000,
-      "pub": "Mon, 29 Jun 2026 08:00:09 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,112 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-29T08:48:10.934Z",
-  "count": 30,
+  "updated_at": "2026-06-29T12:55:36.451Z",
+  "count": 27,
   "items": [
+    {
+      "title": "美소비자, 삼성·하이닉스·마이크론 '담합' 주장 소송",
+      "link": "https://www.yna.co.kr/view/AKR20260629164700009",
+      "source": "연합뉴스 국제",
+      "ts": 1782734208000,
+      "pub": "Mon, 29 Jun 2026 20:56:48 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "중국 CXMT, 텐센트와 4.5조 규모 D램 공급 장기 계약",
+      "link": "https://www.mt.co.kr/world/2026/06/29/2026062919271033991",
+      "source": "머니투데이",
+      "ts": 1782730275000,
+      "pub": "Mon, 29 Jun 2026 19:51:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼성·SK가 광주로 간다\"…반도체 지도 바뀌나",
+      "link": "https://www.hankyung.com/article/2026062951167",
+      "source": "한국경제",
+      "ts": 1782728966000,
+      "pub": "Mon, 29 Jun 2026 19:29:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"호남에 반도체공장\" 3년만의 '대반전'…삼성·SK 새 거점 된다 [테크로그]",
+      "link": "https://www.hankyung.com/article/202606294516g",
+      "source": "한국경제",
+      "ts": 1782727204000,
+      "pub": "Mon, 29 Jun 2026 19:00:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"中 CXMT, 텐센트에 4조5천억 규모 D램 공급 장기 계약\"",
+      "link": "https://www.yna.co.kr/view/AKR20260629156900009",
+      "source": "연합뉴스 국제",
+      "ts": 1782725091000,
+      "pub": "Mon, 29 Jun 2026 18:24:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "광주 반도체 축으로 지방 대도약…1천500조 3대 프로젝트 가동(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260629117151003",
+      "source": "연합뉴스 경제",
+      "ts": 1782724287000,
+      "pub": "Mon, 29 Jun 2026 18:11:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "與野 '호남 반도체' 공방…환영한 재계도 '인프라' 지원 신중론",
+      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062915122832881",
+      "source": "머니투데이",
+      "ts": 1782724234000,
+      "pub": "Mon, 29 Jun 2026 18:10:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "메모리도 파운드리도 '공급 부족'…삼성·SK, '용인 완공' 앞당긴 이유",
+      "link": "https://www.mt.co.kr/industry/2026/06/29/2026062915114545359",
+      "source": "머니투데이",
+      "ts": 1782724200000,
+      "pub": "Mon, 29 Jun 2026 18:10:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 '국가 총력전 체제'…1000조원 규모 신규 투자 [퇴근길 30초 경제]",
+      "link": "https://www.hankyung.com/article/2026062949967",
+      "source": "한국경제",
+      "ts": 1782724145000,
+      "pub": "Mon, 29 Jun 2026 18:09:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "용인클러스터 12년 앞당긴다…충청권은 HBM 패키징 거점으로",
+      "link": "https://www.hankyung.com/article/2026062949371",
+      "source": "한국경제",
+      "ts": 1782724005000,
+      "pub": "Mon, 29 Jun 2026 18:06:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK, 호남권에 400조 반도체 투자…총 2천100조 투자 계획(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260629139401003",
+      "source": "연합뉴스 경제",
+      "ts": 1782723633000,
+      "pub": "Mon, 29 Jun 2026 18:00:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI가 바꾼 메모리 게임의 룰…삼성·SK, 3200조 반도체 투자",
+      "link": "https://www.mt.co.kr/industry/2026/06/29/2026062917222536308",
+      "source": "머니투데이",
+      "ts": 1782723278000,
+      "pub": "Mon, 29 Jun 2026 17:54:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "5년 내 메모리 생산능력 2배 늘린다…삼성·SK 평택·용인 투자 가속화",
+      "link": "https://www.mt.co.kr/industry/2026/06/29/2026062914090099240",
+      "source": "머니투데이",
+      "ts": 1782723000000,
+      "pub": "Mon, 29 Jun 2026 17:50:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이상일 용인시장 \"용인 반도체 산단 투자 신속 진행해야\"",
       "link": "https://www.yna.co.kr/view/AKR20260629145300061",
@@ -28,14 +132,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'초격차' AI강국 닻올렸다…반도체·AI 데이터센터에 5000조 투자",
-      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062917110734288",
-      "source": "머니투데이",
-      "ts": 1782720870000,
-      "pub": "Mon, 29 Jun 2026 17:14:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[3대 메가] 李대통령 '반도체 날개' 달고 대전환 가속…정치공방 넘을까",
       "link": "https://www.yna.co.kr/view/AKR20260629141200001",
       "source": "연합뉴스 경제",
@@ -44,19 +140,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"우리 지역 사업 차질 없나\"…용인반도체클러스터 주변 '술렁'",
+      "title": "[3대 메가] \"우리 지역 사업 차질 없나\"…용인반도체클러스터 주변 '술렁'",
       "link": "https://www.yna.co.kr/view/AKR20260629140200061",
       "source": "연합뉴스 경제",
       "ts": 1782720549000,
       "pub": "Mon, 29 Jun 2026 17:09:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK, AI·반도체에 2100조원 통 큰 베팅…'미래 지도' 바꾼다",
-      "link": "https://www.hankyung.com/article/202606294672g",
-      "source": "한국경제",
-      "ts": 1782720294000,
-      "pub": "Mon, 29 Jun 2026 17:04:54 +0900",
       "sentiment": "neutral"
     },
     {
@@ -76,107 +164,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "지방에 대규모 반도체 투자…전문가 \"AI 속도전 시대, 빠른 투자결정 의미\"",
-      "link": "https://www.mt.co.kr/economy/2026/06/29/2026062916271019916",
-      "source": "머니투데이",
-      "ts": 1782719926000,
-      "pub": "Mon, 29 Jun 2026 16:58:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "지방 반도체 산단에 전기요금 저렴하게…재생·원전으로 전기 공급",
-      "link": "https://www.mt.co.kr/economy/2026/06/29/2026062914215587459",
-      "source": "머니투데이",
-      "ts": 1782719721000,
-      "pub": "Mon, 29 Jun 2026 16:55:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "용인 반도체산단 완공 7~12년 단축…'5년 내 생산능력 2배'",
-      "link": "https://www.mt.co.kr/economy/2026/06/29/2026062914531735792",
-      "source": "머니투데이",
-      "ts": 1782719647000,
-      "pub": "Mon, 29 Jun 2026 16:54:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]강훈식 \"대통령 위원장 맡은 반도체강화특별위 곧 출범…청와대도 지원\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062916195782761",
-      "source": "머니투데이",
-      "ts": 1782719566000,
-      "pub": "Mon, 29 Jun 2026 16:52:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "전영현·곽노정 \"원스톱 지원 절실\"...李대통령 \"확실히 책임질 것\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062916045546922",
-      "source": "머니투데이",
-      "ts": 1782719545000,
-      "pub": "Mon, 29 Jun 2026 16:52:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "산단 넘어 '기업형 첨단도시'…800조 반도체 투자 뒷받침",
-      "link": "https://www.mt.co.kr/estate/2026/06/29/2026062914593923727",
-      "source": "머니투데이",
-      "ts": 1782719452000,
-      "pub": "Mon, 29 Jun 2026 16:50:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "800조 반도체 투자 뒷받침…기업형 첨단도시로 산단 조성기간 절반 단축",
-      "link": "https://www.mt.co.kr/estate/2026/06/29/2026062913482551198",
-      "source": "머니투데이",
-      "ts": 1782719413000,
-      "pub": "Mon, 29 Jun 2026 16:50:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미래산업, 아산 신공장 145억 인수…반도체 장비 생산능력 2.8배 확대",
-      "link": "https://www.mt.co.kr/stock/2026/06/29/2026062916080364523",
-      "source": "머니투데이",
-      "ts": 1782719239000,
-      "pub": "Mon, 29 Jun 2026 16:47:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"호남에 800조? 반도체 잡을라\"…野, 정부 투자계획 맹공",
-      "link": "https://www.hankyung.com/article/2026062946187",
-      "source": "한국경제",
-      "ts": 1782719078000,
-      "pub": "Mon, 29 Jun 2026 16:44:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[3대 메가] 반도체산업협회 \"메가 투자 환영…AI시대 시장 리더십 확보\"",
       "link": "https://www.yna.co.kr/view/AKR20260629138500003",
       "source": "연합뉴스 경제",
       "ts": 1782718871000,
       "pub": "Mon, 29 Jun 2026 16:41:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]삼성, 호남 신규 반도체 공장 등 국내에 총 2655조원 투자",
-      "link": "https://www.mt.co.kr/industry/2026/06/29/2026062916292436353",
-      "source": "머니투데이",
-      "ts": 1782718253000,
-      "pub": "Mon, 29 Jun 2026 16:30:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "동탄 파라곤 3차, 동탄 신리천 인접…'용인 반도체' 출퇴근 편리",
-      "link": "https://www.hankyung.com/article/2026062933711",
-      "source": "한국경제",
-      "ts": 1782718215000,
-      "pub": "Mon, 29 Jun 2026 16:30:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성, 2655조원 국내 투자 발표…광주 신규 반도체 팹 짓는다",
-      "link": "https://www.hankyung.com/article/202606294565g",
-      "source": "한국경제",
-      "ts": 1782718203000,
-      "pub": "Mon, 29 Jun 2026 16:30:03 +0900",
       "sentiment": "neutral"
     },
     {
@@ -196,7 +188,7 @@
       "sentiment": "negative"
     },
     {
-      "title": "삼성은 광주, SK는 서남권…반도체 생산 벨트 구축 공식화",
+      "title": "[3대 메가] 삼성은 광주, SK는 서남권…반도체 생산 벨트 구축 공식화",
       "link": "https://www.yna.co.kr/view/AKR20260629107600054",
       "source": "연합뉴스 경제",
       "ts": 1782715325000,
@@ -225,22 +217,6 @@
       "source": "연합뉴스 경제",
       "ts": 1782702014000,
       "pub": "Mon, 29 Jun 2026 12:00:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미래에셋 \"하닉 ADR 상장 韓반도체 재평가 계기…7조 유입 기대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260629071300008",
-      "source": "연합뉴스 경제",
-      "ts": 1782699302000,
-      "pub": "Mon, 29 Jun 2026 11:15:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체·AI 첨단기술 유출방지…지식재산처, 전문 수사조직 가동",
-      "link": "https://www.yna.co.kr/view/AKR20260629030100063",
-      "source": "연합뉴스 경제",
-      "ts": 1782698410000,
-      "pub": "Mon, 29 Jun 2026 11:00:10 +0900",
       "sentiment": "neutral"
     }
   ]

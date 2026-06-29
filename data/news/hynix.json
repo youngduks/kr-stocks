@@ -1,46 +1,230 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-29T03:42:20.738Z",
-  "count": 13,
+  "updated_at": "2026-06-29T08:48:10.934Z",
+  "count": 30,
   "items": [
+    {
+      "title": "이상일 용인시장 \"용인 반도체 산단 투자 신속 진행해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260629145300061",
+      "source": "연합뉴스 경제",
+      "ts": 1782721595000,
+      "pub": "Mon, 29 Jun 2026 17:26:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한은 \"中, 반도체 호조 속 수출↑…기업 수익성은 저하 가능성\"",
+      "link": "https://www.yna.co.kr/view/AKR20260629144300083",
+      "source": "연합뉴스 국제",
+      "ts": 1782721138000,
+      "pub": "Mon, 29 Jun 2026 17:18:58 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼성, 광주에 신규 반도체팹…영호남·충청에 625조 투자(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260629133151003",
+      "source": "연합뉴스 경제",
+      "ts": 1782721035000,
+      "pub": "Mon, 29 Jun 2026 17:17:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'초격차' AI강국 닻올렸다…반도체·AI 데이터센터에 5000조 투자",
+      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062917110734288",
+      "source": "머니투데이",
+      "ts": 1782720870000,
+      "pub": "Mon, 29 Jun 2026 17:14:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[3대 메가] 李대통령 '반도체 날개' 달고 대전환 가속…정치공방 넘을까",
+      "link": "https://www.yna.co.kr/view/AKR20260629141200001",
+      "source": "연합뉴스 경제",
+      "ts": 1782720816000,
+      "pub": "Mon, 29 Jun 2026 17:13:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"우리 지역 사업 차질 없나\"…용인반도체클러스터 주변 '술렁'",
+      "link": "https://www.yna.co.kr/view/AKR20260629140200061",
+      "source": "연합뉴스 경제",
+      "ts": 1782720549000,
+      "pub": "Mon, 29 Jun 2026 17:09:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK, AI·반도체에 2100조원 통 큰 베팅…'미래 지도' 바꾼다",
+      "link": "https://www.hankyung.com/article/202606294672g",
+      "source": "한국경제",
+      "ts": 1782720294000,
+      "pub": "Mon, 29 Jun 2026 17:04:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK, 2천100조 들여 AI 인프라…메모리 벨트에 데이터센터까지",
+      "link": "https://www.yna.co.kr/view/AKR20260629139400003",
+      "source": "연합뉴스 경제",
+      "ts": 1782720181000,
+      "pub": "Mon, 29 Jun 2026 17:03:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "광주 반도체 축으로 지방 대도약…1천500조 3대 프로젝트 가동",
+      "link": "https://www.yna.co.kr/view/AKR20260629117100003",
+      "source": "연합뉴스 경제",
+      "ts": 1782720003000,
+      "pub": "Mon, 29 Jun 2026 17:00:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "지방에 대규모 반도체 투자…전문가 \"AI 속도전 시대, 빠른 투자결정 의미\"",
+      "link": "https://www.mt.co.kr/economy/2026/06/29/2026062916271019916",
+      "source": "머니투데이",
+      "ts": 1782719926000,
+      "pub": "Mon, 29 Jun 2026 16:58:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "지방 반도체 산단에 전기요금 저렴하게…재생·원전으로 전기 공급",
+      "link": "https://www.mt.co.kr/economy/2026/06/29/2026062914215587459",
+      "source": "머니투데이",
+      "ts": 1782719721000,
+      "pub": "Mon, 29 Jun 2026 16:55:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "용인 반도체산단 완공 7~12년 단축…'5년 내 생산능력 2배'",
+      "link": "https://www.mt.co.kr/economy/2026/06/29/2026062914531735792",
+      "source": "머니투데이",
+      "ts": 1782719647000,
+      "pub": "Mon, 29 Jun 2026 16:54:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]강훈식 \"대통령 위원장 맡은 반도체강화특별위 곧 출범…청와대도 지원\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062916195782761",
+      "source": "머니투데이",
+      "ts": 1782719566000,
+      "pub": "Mon, 29 Jun 2026 16:52:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "전영현·곽노정 \"원스톱 지원 절실\"...李대통령 \"확실히 책임질 것\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062916045546922",
+      "source": "머니투데이",
+      "ts": 1782719545000,
+      "pub": "Mon, 29 Jun 2026 16:52:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "산단 넘어 '기업형 첨단도시'…800조 반도체 투자 뒷받침",
+      "link": "https://www.mt.co.kr/estate/2026/06/29/2026062914593923727",
+      "source": "머니투데이",
+      "ts": 1782719452000,
+      "pub": "Mon, 29 Jun 2026 16:50:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "800조 반도체 투자 뒷받침…기업형 첨단도시로 산단 조성기간 절반 단축",
+      "link": "https://www.mt.co.kr/estate/2026/06/29/2026062913482551198",
+      "source": "머니투데이",
+      "ts": 1782719413000,
+      "pub": "Mon, 29 Jun 2026 16:50:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미래산업, 아산 신공장 145억 인수…반도체 장비 생산능력 2.8배 확대",
+      "link": "https://www.mt.co.kr/stock/2026/06/29/2026062916080364523",
+      "source": "머니투데이",
+      "ts": 1782719239000,
+      "pub": "Mon, 29 Jun 2026 16:47:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"호남에 800조? 반도체 잡을라\"…野, 정부 투자계획 맹공",
+      "link": "https://www.hankyung.com/article/2026062946187",
+      "source": "한국경제",
+      "ts": 1782719078000,
+      "pub": "Mon, 29 Jun 2026 16:44:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[3대 메가] 반도체산업협회 \"메가 투자 환영…AI시대 시장 리더십 확보\"",
+      "link": "https://www.yna.co.kr/view/AKR20260629138500003",
+      "source": "연합뉴스 경제",
+      "ts": 1782718871000,
+      "pub": "Mon, 29 Jun 2026 16:41:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]삼성, 호남 신규 반도체 공장 등 국내에 총 2655조원 투자",
+      "link": "https://www.mt.co.kr/industry/2026/06/29/2026062916292436353",
+      "source": "머니투데이",
+      "ts": 1782718253000,
+      "pub": "Mon, 29 Jun 2026 16:30:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "동탄 파라곤 3차, 동탄 신리천 인접…'용인 반도체' 출퇴근 편리",
+      "link": "https://www.hankyung.com/article/2026062933711",
+      "source": "한국경제",
+      "ts": 1782718215000,
+      "pub": "Mon, 29 Jun 2026 16:30:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성, 2655조원 국내 투자 발표…광주 신규 반도체 팹 짓는다",
+      "link": "https://www.hankyung.com/article/202606294565g",
+      "source": "한국경제",
+      "ts": 1782718203000,
+      "pub": "Mon, 29 Jun 2026 16:30:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SC제일은행 \"하반기 한국선 반도체주 위주 투자…美비중도 확대\"",
+      "link": "https://www.yna.co.kr/view/AKR20260629115300002",
+      "source": "연합뉴스 경제",
+      "ts": 1782717009000,
+      "pub": "Mon, 29 Jun 2026 16:10:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자, 4%대 급락 마감…SK하이닉스도 1%대 하락(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260629030651008",
+      "source": "연합뉴스 경제",
+      "ts": 1782716544000,
+      "pub": "Mon, 29 Jun 2026 16:02:24 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "삼성은 광주, SK는 서남권…반도체 생산 벨트 구축 공식화",
+      "link": "https://www.yna.co.kr/view/AKR20260629107600054",
+      "source": "연합뉴스 경제",
+      "ts": 1782715325000,
+      "pub": "Mon, 29 Jun 2026 15:42:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "메모리 대란에 애플·MS 가격인상…중소 전자업체는 '생존 위기'",
+      "link": "https://www.yna.co.kr/view/AKR20260629112800009",
+      "source": "연합뉴스 국제",
+      "ts": 1782713405000,
+      "pub": "Mon, 29 Jun 2026 15:10:05 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[속보] 최태원 \"SK하이닉스, 용인 600조·청주 100조 투자 앞당겨 실시\"",
+      "link": "https://www.yna.co.kr/view/AKR20260629113200003",
+      "source": "연합뉴스 경제",
+      "ts": 1782712994000,
+      "pub": "Mon, 29 Jun 2026 15:03:14 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "반도체·AI 훈풍…3분기 제조업 경기전망 소폭 개선",
       "link": "https://www.yna.co.kr/view/AKR20260629037300003",
       "source": "연합뉴스 경제",
       "ts": 1782702014000,
       "pub": "Mon, 29 Jun 2026 12:00:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체, 3분기 전망도 '맑음'…제조업 경기전망 소폭 개선",
-      "link": "https://www.mt.co.kr/industry/2026/06/29/2026062908590376989",
-      "source": "머니투데이",
-      "ts": 1782702000000,
-      "pub": "Mon, 29 Jun 2026 12:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "1분기 GRDP 3.8%↑…광·제조업, 8분기만 최대 \"반도체 영향\"",
-      "link": "https://www.mt.co.kr/economy/2026/06/29/2026062909031842059",
-      "source": "머니투데이",
-      "ts": 1782702000000,
-      "pub": "Mon, 29 Jun 2026 12:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"SK하닉 美 ADR 상장, 韓 반도체 재평가 계기…7조 수급 기대\"",
-      "link": "https://www.mt.co.kr/stock/2026/06/29/2026062911183051266",
-      "source": "머니투데이",
-      "ts": 1782700806000,
-      "pub": "Mon, 29 Jun 2026 11:40:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 흔들려도 초고수는 순매수...SK하이닉스·삼성전자 쓸어담아",
-      "link": "https://www.hankyung.com/article/202606293577i",
-      "source": "한국경제",
-      "ts": 1782700763000,
-      "pub": "Mon, 29 Jun 2026 11:39:23 +0900",
       "sentiment": "neutral"
     },
     {
@@ -57,54 +241,6 @@
       "source": "연합뉴스 경제",
       "ts": 1782698410000,
       "pub": "Mon, 29 Jun 2026 11:00:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이준석, 국힘 유의동과 반도체 공동대응…\"큰 부메랑으로 돌아올 것\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062910472295362",
-      "source": "머니투데이",
-      "ts": 1782698257000,
-      "pub": "Mon, 29 Jun 2026 10:57:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "與 \"삼전·하닉은 반도체의 손흥민·이강인…발목 잡히면 뒤처져\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062910292425472",
-      "source": "머니투데이",
-      "ts": 1782698132000,
-      "pub": "Mon, 29 Jun 2026 10:55:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "국민의힘 \"호남 반도체 클러스터 조성은 관치...나중에 감옥 갈 일\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062910434036272",
-      "source": "머니투데이",
-      "ts": 1782697764000,
-      "pub": "Mon, 29 Jun 2026 10:49:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성운용이 찍은 하반기 AI 투자처…반도체 다음은 여기",
-      "link": "https://www.hankyung.com/article/202606293431i",
-      "source": "한국경제",
-      "ts": 1782695729000,
-      "pub": "Mon, 29 Jun 2026 10:15:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼성전자, 장초반 3%대 급락…SK하이닉스도 1.95%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260629030600008",
-      "source": "연합뉴스 경제",
-      "ts": 1782692100000,
-      "pub": "Mon, 29 Jun 2026 09:15:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "반도체 호황에…日키옥시아 직원들. 자사주로 100억원 '잭폿'",
-      "link": "https://www.yna.co.kr/view/AKR20260628031900073",
-      "source": "연합뉴스 국제",
-      "ts": 1782623478000,
-      "pub": "Sun, 28 Jun 2026 14:11:18 +0900",
       "sentiment": "neutral"
     }
   ]

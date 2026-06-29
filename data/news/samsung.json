@@ -1,39 +1,87 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-29T03:42:20.738Z",
-  "count": 8,
+  "updated_at": "2026-06-29T08:48:10.934Z",
+  "count": 11,
   "items": [
     {
-      "title": "반도체 흔들려도 초고수는 순매수...SK하이닉스·삼성전자 쓸어담아",
-      "link": "https://www.hankyung.com/article/202606293577i",
-      "source": "한국경제",
-      "ts": 1782700763000,
-      "pub": "Mon, 29 Jun 2026 11:39:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "상위 1% 초고수들, '삼전닉스' 팔고 삼성전기·원익IPS 담았다",
-      "link": "https://www.hankyung.com/article/202606292909i",
-      "source": "한국경제",
-      "ts": 1782700743000,
-      "pub": "Mon, 29 Jun 2026 11:39:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "피아니스트 이재용, 지나 바카우어 콩쿠르 영아티스트 부문 3위",
-      "link": "https://www.hankyung.com/article/202606292929i",
-      "source": "한국경제",
-      "ts": 1782699700000,
-      "pub": "Mon, 29 Jun 2026 11:21:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"이름만 '금호'인데\" 이 종목도 상한가...호남 투자 삼전닉스는 하락",
-      "link": "https://www.mt.co.kr/stock/2026/06/29/2026062910085483299",
+      "title": "'800조' 호남선 탄 이재용·최태원..겉으론 웃지만",
+      "link": "https://www.mt.co.kr/industry/2026/06/29/2026062915435421157",
       "source": "머니투데이",
-      "ts": 1782699230000,
-      "pub": "Mon, 29 Jun 2026 11:13:50 +0900",
+      "ts": 1782722529000,
+      "pub": "Mon, 29 Jun 2026 17:42:09 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "\"2만원대 주식이 19만원 터치\"...삼전닉스보다 많이 오른 '이 회사'",
+      "link": "https://www.mt.co.kr/stock/2026/06/29/2026062917255210941",
+      "source": "머니투데이",
+      "ts": 1782722181000,
+      "pub": "Mon, 29 Jun 2026 17:36:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"큰절 하고 싶다\"…李대통령, 이재용·최태원 회장에 '90도 인사' 배경은",
+      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062917250281373",
+      "source": "머니투데이",
+      "ts": 1782721786000,
+      "pub": "Mon, 29 Jun 2026 17:29:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스가 다시 그리는 대한민국 산업지도…남방한계선 바뀐다",
+      "link": "https://www.mt.co.kr/economy/2026/06/29/2026062916192719147",
+      "source": "머니투데이",
+      "ts": 1782721246000,
+      "pub": "Mon, 29 Jun 2026 17:20:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK, 2천100조 들여 AI 인프라…메모리 벨트에 데이터센터까지",
+      "link": "https://www.yna.co.kr/view/AKR20260629139400003",
+      "source": "연합뉴스 경제",
+      "ts": 1782720181000,
+      "pub": "Mon, 29 Jun 2026 17:03:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이재용·최태원에 \"국민영웅\" 90도 인사…\"열심히 하겠습니다\" 화답",
+      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062914404132634",
+      "source": "머니투데이",
+      "ts": 1782719277000,
+      "pub": "Mon, 29 Jun 2026 16:47:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "애플, 중국 칩 사려 한다는데…삼전닉스 반등일까 순환매일까",
+      "link": "https://www.mt.co.kr/stock/2026/06/29/2026062916313623307",
+      "source": "머니투데이",
+      "ts": 1782719094000,
+      "pub": "Mon, 29 Jun 2026 16:44:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자, 4%대 급락 마감…SK하이닉스도 1%대 하락(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260629030651008",
+      "source": "연합뉴스 경제",
+      "ts": 1782716544000,
+      "pub": "Mon, 29 Jun 2026 16:02:24 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[3대 메가] 李대통령, 이재용·최태원에 \"국민영웅\"…기업 전폭지원 약속",
+      "link": "https://www.yna.co.kr/view/AKR20260629125400001",
+      "source": "연합뉴스 경제",
+      "ts": 1782716231000,
+      "pub": "Mon, 29 Jun 2026 15:57:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "메모리 대란에 애플·MS 가격인상…중소 전자업체는 '생존 위기'",
+      "link": "https://www.yna.co.kr/view/AKR20260629112800009",
+      "source": "연합뉴스 국제",
+      "ts": 1782713405000,
+      "pub": "Mon, 29 Jun 2026 15:10:05 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "현대차증권 \"삼성전자, 영업익 전망치 하향…목표가는 유지\"",
@@ -42,30 +90,6 @@
       "ts": 1782698713000,
       "pub": "Mon, 29 Jun 2026 11:05:13 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "與 \"삼전·하닉은 반도체의 손흥민·이강인…발목 잡히면 뒤처져\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/29/2026062910292425472",
-      "source": "머니투데이",
-      "ts": 1782698132000,
-      "pub": "Mon, 29 Jun 2026 10:55:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼성전자, 장초반 3%대 급락…SK하이닉스도 1.95%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260629030600008",
-      "source": "연합뉴스 경제",
-      "ts": 1782692100000,
-      "pub": "Mon, 29 Jun 2026 09:15:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "키움증권 \"삼전, 2분기 영업익 100조 하회…성과급 반영 예상↑\"",
-      "link": "https://www.yna.co.kr/view/AKR20260629018800008",
-      "source": "연합뉴스 경제",
-      "ts": 1782690032000,
-      "pub": "Mon, 29 Jun 2026 08:40:32 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

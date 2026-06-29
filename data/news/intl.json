@@ -1,22 +1,78 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-29T03:42:20.737Z",
-  "count": 22,
+  "updated_at": "2026-06-29T08:48:10.933Z",
+  "count": 25,
   "items": [
+    {
+      "title": "우크라가 에너지 시설 때리자…러는 동부 전선 압박",
+      "link": "https://www.yna.co.kr/view/AKR20260629139100109",
+      "source": "연합뉴스 국제",
+      "ts": 1782720843000,
+      "pub": "Mon, 29 Jun 2026 17:14:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[쇼츠] 평화합의 잉크도 안 말랐는데…레바논 지하터널 파괴한 이스라엘",
+      "link": "https://www.yna.co.kr/view/AKR20260629139600704",
+      "source": "연합뉴스 국제",
+      "ts": 1782719216000,
+      "pub": "Mon, 29 Jun 2026 16:46:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 평화 합의에도 헤즈볼라 땅굴 타격…이스라엘 \"200m 땅굴 파괴\"",
+      "link": "https://www.yna.co.kr/view/AKR20260629133900704",
+      "source": "연합뉴스 국제",
+      "ts": 1782718668000,
+      "pub": "Mon, 29 Jun 2026 16:37:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"러시아 신병, 우크라 전장 투입되면 20∼35분만에 전사\"",
+      "link": "https://www.yna.co.kr/view/AKR20260629132100009",
+      "source": "연합뉴스 국제",
+      "ts": 1782717610000,
+      "pub": "Mon, 29 Jun 2026 16:20:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"中 청정에너지 기업들 내쫓은 트럼프…기술은 미국이 흡수\"",
+      "link": "https://www.yna.co.kr/view/AKR20260629127300009",
+      "source": "연합뉴스 국제",
+      "ts": 1782717483000,
+      "pub": "Mon, 29 Jun 2026 16:18:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "레바논 의회 의장 \"美 중재 이스라엘·레바논 평화안 처리 불가\"",
+      "link": "https://www.yna.co.kr/view/AKR20260629129100079",
+      "source": "연합뉴스 국제",
+      "ts": 1782717224000,
+      "pub": "Mon, 29 Jun 2026 16:13:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"우크라, 러 때리다 오폭해도 감수\"…동유럽 한 나토동맹의 정서",
+      "link": "https://www.yna.co.kr/view/AKR20260629121400009",
+      "source": "연합뉴스 국제",
+      "ts": 1782715519000,
+      "pub": "Mon, 29 Jun 2026 15:45:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라이나 \"러시아 미사일·드론 90%에 일본제 부품\"",
+      "link": "https://www.yna.co.kr/view/AKR20260629083700073",
+      "source": "연합뉴스 국제",
+      "ts": 1782704533000,
+      "pub": "Mon, 29 Jun 2026 12:42:13 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[영상] 우크라 '40일 작전' 개시하자…'플라밍고'로 러 군수공장 때렸다",
       "link": "https://www.yna.co.kr/view/AKR20260629078100704",
       "source": "연합뉴스 국제",
       "ts": 1782700904000,
       "pub": "Mon, 29 Jun 2026 11:41:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "관세청, WCO 기술 전시회 유치… 2027년 3월 '인천 송도'서 개최",
-      "link": "https://www.mt.co.kr/policy/2026/06/29/2026062909584842122",
-      "source": "머니투데이",
-      "ts": 1782698763000,
-      "pub": "Mon, 29 Jun 2026 11:06:03 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,17 +84,9 @@
       "sentiment": "neutral"
     },
     {
-      "title": "5억보 함께 걸으며 관세청 마약탐지견 응원했다",
-      "link": "https://www.yna.co.kr/view/AKR20260629064400002",
-      "source": "연합뉴스 경제",
-      "ts": 1782697538000,
-      "pub": "Mon, 29 Jun 2026 10:45:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "워시와 그린스펀, 같은 듯 다른 연준 전현직 의장",
       "link": "https://www.yna.co.kr/view/AKR20260629059300009",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1782697433000,
       "pub": "Mon, 29 Jun 2026 10:43:53 +0900",
       "sentiment": "neutral"
@@ -57,14 +105,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782691370000,
       "pub": "Mon, 29 Jun 2026 09:02:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "2027 세계관세기구 기술 콘퍼런스, 내년 3월 인천서 개최",
-      "link": "https://www.yna.co.kr/view/AKR20260629020600065",
-      "source": "연합뉴스 경제",
-      "ts": 1782689532000,
-      "pub": "Mon, 29 Jun 2026 08:32:12 +0900",
       "sentiment": "neutral"
     },
     {
@@ -161,22 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782657086000,
       "pub": "Sun, 28 Jun 2026 23:31:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"전선 실상 알리겠다\" 푸틴 면담요구한 러 전직군인 체포",
-      "link": "https://www.yna.co.kr/view/AKR20260628045500009",
-      "source": "연합뉴스 국제",
-      "ts": 1782636420000,
-      "pub": "Sun, 28 Jun 2026 17:47:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美·이란, 연이틀 무력공방…트럼프 \"이란 존재하지 않을 수도\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260628005453071",
-      "source": "연합뉴스 국제",
-      "ts": 1782610248000,
-      "pub": "Sun, 28 Jun 2026 10:30:48 +0900",
       "sentiment": "neutral"
     }
   ]

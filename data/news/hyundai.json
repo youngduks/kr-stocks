@@ -1,7 +1,7 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-06-29T03:42:20.739Z",
-  "count": 3,
+  "updated_at": "2026-06-29T08:48:10.935Z",
+  "count": 1,
   "items": [
     {
       "title": "현대차증권 \"삼성전자, 영업익 전망치 하향…목표가는 유지\"",
@@ -10,22 +10,6 @@
       "ts": 1782698713000,
       "pub": "Mon, 29 Jun 2026 11:05:13 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "현대차 노조 파업 초읽기..내일 쟁대위서 투쟁 수위 정한다",
-      "link": "https://www.mt.co.kr/industry/2026/06/29/2026062910061313194",
-      "source": "머니투데이",
-      "ts": 1782698359000,
-      "pub": "Mon, 29 Jun 2026 10:59:19 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "현대모비스 3년간 협력사 구매대금 157조…상생 경영 강화",
-      "link": "https://www.hankyung.com/article/202606293535g",
-      "source": "한국경제",
-      "ts": 1782697692000,
-      "pub": "Mon, 29 Jun 2026 10:48:12 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-29T20:47:11.720Z",
-  "count": 35,
+  "updated_at": "2026-06-29T22:02:57.292Z",
+  "count": 33,
   "items": [
+    {
+      "title": "\"주요 IB, 美연준 금리인하 종료 평가…하반기 동결·인상 전망\"",
+      "link": "https://www.yna.co.kr/view/AKR20260630009100072",
+      "source": "연합뉴스 경제",
+      "ts": 1782768019000,
+      "pub": "Tue, 30 Jun 2026 06:20:19 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美대법, '선거일後 도착' 우편투표 합법 판결…트럼프에 타격(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260630000452071",
@@ -52,14 +60,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "美대법, 트럼프 '연준 이사 해임' 일단 제동…\"부적절 판단은 아냐\"",
-      "link": "https://www.mt.co.kr/world/2026/06/30/2026063001381234203",
-      "source": "머니투데이",
-      "ts": 1782751614000,
-      "pub": "Tue, 30 Jun 2026 01:46:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美대법 \"대통령, 독립기관인사 비위없어도 해임가능\"…연준은 예외(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260629171351071",
       "source": "연합뉴스 국제",
@@ -100,7 +100,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "美대법원,\"연준 쿡,직책유지\"판결…트럼프 연준장악시도 제동",
+      "title": "美대법원 \"연준 쿡, 직책 유지\" 판결…트럼프 연준장악시도 제동",
       "link": "https://www.hankyung.com/article/202606305255i",
       "source": "한국경제",
       "ts": 1782746697000,
@@ -169,14 +169,6 @@
       "source": "한국경제",
       "ts": 1782736761000,
       "pub": "Mon, 29 Jun 2026 21:39:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 \"도하 실무 회담 미확정\" vs 트럼프 \"이란이 회담 요청\"",
-      "link": "https://www.mt.co.kr/world/2026/06/29/2026062920564180822",
-      "source": "머니투데이",
-      "ts": 1782735264000,
-      "pub": "Mon, 29 Jun 2026 21:14:24 +0900",
       "sentiment": "neutral"
     },
     {
@@ -273,14 +265,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782697433000,
       "pub": "Mon, 29 Jun 2026 10:43:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 폭격에 고립된 크림반도…단전에 휘발유 암시장도 등장",
-      "link": "https://www.yna.co.kr/view/AKR20260629054300009",
-      "source": "연합뉴스 국제",
-      "ts": 1782696409000,
-      "pub": "Mon, 29 Jun 2026 10:26:49 +0900",
       "sentiment": "neutral"
     }
   ]

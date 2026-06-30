@@ -1,8 +1,88 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-30T13:02:45.115Z",
-  "count": 16,
+  "updated_at": "2026-06-30T16:14:46.738Z",
+  "count": 24,
   "items": [
+    {
+      "title": "\"미국서 태어나면 미국인 맞다\"…美대법, 트럼프 反이민정책 제동",
+      "link": "https://www.mt.co.kr/world/2026/07/01/2026070100544429647",
+      "source": "머니투데이",
+      "ts": 1782835126000,
+      "pub": "Wed, 01 Jul 2026 00:58:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"출생시민권 금지 안돼\"…美대법원, 트럼프 제동",
+      "link": "https://www.hankyung.com/article/2026070178411",
+      "source": "한국경제",
+      "ts": 1782834524000,
+      "pub": "Wed, 01 Jul 2026 00:48:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美대법원,\"미국서 태어나면 미국시민\"인정…트럼프 행정명령 기각",
+      "link": "https://www.hankyung.com/article/202607017845i",
+      "source": "한국경제",
+      "ts": 1782833358000,
+      "pub": "Wed, 01 Jul 2026 00:29:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "푸틴 소유 추정 요트, 4년만에 포착…\"덴마크 해안 출몰\"",
+      "link": "https://www.yna.co.kr/view/AKR20260701000300098",
+      "source": "연합뉴스 국제",
+      "ts": 1782832604000,
+      "pub": "Wed, 1 Jul 2026 00:16:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美대법, '출생시민권' 유지 판결…트럼프 이민정책에 제동",
+      "link": "https://www.yna.co.kr/view/AKR20260630197400071",
+      "source": "연합뉴스 국제",
+      "ts": 1782830963000,
+      "pub": "Tue, 30 Jun 2026 23:49:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美 대법원, '출생시민권 금지' 트럼프 이민정책에 제동",
+      "link": "https://www.hankyung.com/article/2026063078257",
+      "source": "한국경제",
+      "ts": 1782830352000,
+      "pub": "Tue, 30 Jun 2026 23:39:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美대법원, '출생시민권 금지' 트럼프 이민정책에 제동",
+      "link": "https://www.yna.co.kr/view/AKR20260630197200071",
+      "source": "연합뉴스 국제",
+      "ts": 1782830242000,
+      "pub": "Tue, 30 Jun 2026 23:37:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "모나코 주택가 폭탄 테러…우크라 '친러 재벌' 부부 중상(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260630015152009",
+      "source": "연합뉴스 국제",
+      "ts": 1782829607000,
+      "pub": "Tue, 30 Jun 2026 23:26:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 이란전 여파로 비룟값 오르자 모로코산 비료 관세유예",
+      "link": "https://www.yna.co.kr/view/AKR20260630194000071",
+      "source": "연합뉴스 국제",
+      "ts": 1782826511000,
+      "pub": "Tue, 30 Jun 2026 22:35:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "EU, 내달부터 소액 소포에 3유로 관세…쉬인·테무 등 겨냥(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260630180251081",
+      "source": "연합뉴스 국제",
+      "ts": 1782826295000,
+      "pub": "Tue, 30 Jun 2026 22:31:35 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "EU 철강 빗장에 中 무관세 쿼터 ⅔ 급감…韓 19% 감소로 선방(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260630180451098",
@@ -20,11 +100,27 @@
       "sentiment": "neutral"
     },
     {
+      "title": "한-우크라 외교장관, '북한군 포로' 송환 협의…\"국제인도법 따라 진행\"",
+      "link": "https://www.mt.co.kr/politics/2026/06/30/2026063017160443832",
+      "source": "머니투데이",
+      "ts": 1782815344000,
+      "pub": "Tue, 30 Jun 2026 19:29:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "'철강 빗장' EU, 중국 정조준…무관세 쿼터 3분의 2 급감",
       "link": "https://www.yna.co.kr/view/AKR20260630180400098",
       "source": "연합뉴스 국제",
       "ts": 1782814560000,
       "pub": "Tue, 30 Jun 2026 19:16:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "무관세 물량 반토막 난 EU 시장… 韓 철강, 정상외교로 '실리' 챙겼다",
+      "link": "https://www.mt.co.kr/economy/2026/06/30/2026063017395832952",
+      "source": "머니투데이",
+      "ts": 1782809889000,
+      "pub": "Tue, 30 Jun 2026 17:58:09 +0900",
       "sentiment": "neutral"
     },
     {
@@ -97,38 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782784324000,
       "pub": "Tue, 30 Jun 2026 10:52:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'잠룡' 뉴섬 캘리포니아주지사, 트럼프가 제재한 앤트로픽 계약",
-      "link": "https://www.yna.co.kr/view/AKR20260630039200091",
-      "source": "연합뉴스 국제",
-      "ts": 1782779722000,
-      "pub": "Tue, 30 Jun 2026 09:35:22 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "트럼프 \"주유소, 즉시 가격 내려야…안그러면 큰 문제 닥칠것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260630039400071",
-      "source": "연합뉴스 국제",
-      "ts": 1782778615000,
-      "pub": "Tue, 30 Jun 2026 09:16:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 대통령 \"합의의무는 쌍방향\"…트럼프 '허세'에 맞불 강경론",
-      "link": "https://www.yna.co.kr/view/AKR20260630029000009",
-      "source": "연합뉴스 국제",
-      "ts": 1782777259000,
-      "pub": "Tue, 30 Jun 2026 08:54:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 두달 넘게 공석이던 노동장관에 장관대행 지명",
-      "link": "https://www.yna.co.kr/view/AKR20260630024300071",
-      "source": "연합뉴스 국제",
-      "ts": 1782776413000,
-      "pub": "Tue, 30 Jun 2026 08:40:13 +0900",
       "sentiment": "neutral"
     }
   ]

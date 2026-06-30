@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-30T13:02:45.116Z",
+  "updated_at": "2026-06-30T16:14:46.740Z",
   "count": 3,
   "items": [
+    {
+      "title": "\"삼전닉스에 너무 쏠려\"…한국 주식 사라던 블랙록, 입장 바꿨다",
+      "link": "https://www.mt.co.kr/world/2026/06/30/2026063021585753192",
+      "source": "머니투데이",
+      "ts": 1782826238000,
+      "pub": "Tue, 30 Jun 2026 22:30:38 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼전닉스 반도체 투자 계획에 광주 부동산 시장 들썩",
       "link": "https://www.yna.co.kr/view/AKR20260630153100054",
@@ -17,14 +25,6 @@
       "source": "연합뉴스 경제",
       "ts": 1782802480000,
       "pub": "Tue, 30 Jun 2026 15:54:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "제퍼리스 \"메모리 가격 3분기 50% ↑…내년에도 40~45% ↑\"",
-      "link": "https://www.yna.co.kr/view/AKR20260630014100009",
-      "source": "연합뉴스 국제",
-      "ts": 1782775181000,
-      "pub": "Tue, 30 Jun 2026 08:19:41 +0900",
       "sentiment": "neutral"
     }
   ]

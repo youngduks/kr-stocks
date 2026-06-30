@@ -1,6 +1,55 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-06-29T23:52:13.486Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-06-30T02:07:42.473Z",
+  "count": 6,
+  "items": [
+    {
+      "title": "장재훈 \"현대차 우위는 서비스\"…내수 부진 돌파구로 고객관리 강화",
+      "link": "https://www.mt.co.kr/industry/2026/06/30/2026063010421921337",
+      "source": "머니투데이",
+      "ts": 1782785156000,
+      "pub": "Tue, 30 Jun 2026 11:05:56 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[오피셜] '원클럽맨 레전드' 함지훈, 은퇴 후 곧바로 현대모비스 코치 됐다... \"새로운 기분\"",
+      "link": "https://www.mt.co.kr/sports/2026/06/30/2026063010485672831",
+      "source": "머니투데이",
+      "ts": 1782784540000,
+      "pub": "Tue, 30 Jun 2026 10:55:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우리운용, 테슬라+현대차 25% 담은 피지컬AI 펀드 출시",
+      "link": "https://www.mt.co.kr/stock/2026/06/30/2026063010071791578",
+      "source": "머니투데이",
+      "ts": 1782783228000,
+      "pub": "Tue, 30 Jun 2026 10:33:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"기다림 줄이고 정확성 높였다\"…현대차, 수원 하이테크센터 개관",
+      "link": "https://www.hankyung.com/article/202606295053g",
+      "source": "한국경제",
+      "ts": 1782781410000,
+      "pub": "Tue, 30 Jun 2026 10:03:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우리운용, '피지컬AI BIG2플러스' 출시…\"테슬라+현대차 약 25%\"",
+      "link": "https://www.yna.co.kr/view/AKR20260630056900008",
+      "source": "연합뉴스 경제",
+      "ts": 1782781254000,
+      "pub": "Tue, 30 Jun 2026 10:00:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대모비스, 협력사와 미래 모빌리티 생태계 구축…ESG·SW 인재육성",
+      "link": "https://www.hankyung.com/article/202606305901i",
+      "source": "한국경제",
+      "ts": 1782780847000,
+      "pub": "Tue, 30 Jun 2026 09:54:07 +0900",
+      "sentiment": "neutral"
+    }
+  ]
 }

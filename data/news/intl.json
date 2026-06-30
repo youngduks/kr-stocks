@@ -1,30 +1,70 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-29T23:52:13.483Z",
+  "updated_at": "2026-06-30T02:07:42.471Z",
   "count": 31,
   "items": [
+    {
+      "title": "트럼프 눈치에 평화 합의했지만…이스라엘·레바논 다시 '부글'",
+      "link": "https://www.yna.co.kr/view/AKR20260630070700009",
+      "source": "연합뉴스 국제",
+      "ts": 1782784324000,
+      "pub": "Tue, 30 Jun 2026 10:52:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "관세청 '체납액 72조원' 징수 강화…\"공항 검사 10배로 강화\"",
+      "link": "https://www.yna.co.kr/view/AKR20260630069900002",
+      "source": "연합뉴스 경제",
+      "ts": 1782783677000,
+      "pub": "Tue, 30 Jun 2026 10:41:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"휘발유값 갤런당 2.5달러까지 당장 내려야…거부시 큰일\"",
+      "link": "https://www.mt.co.kr/world/2026/06/30/2026063009210167035",
+      "source": "머니투데이",
+      "ts": 1782783068000,
+      "pub": "Tue, 30 Jun 2026 10:31:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'잠룡' 뉴섬 캘리포니아주지사, 트럼프가 제재한 앤트로픽 계약",
+      "link": "https://www.yna.co.kr/view/AKR20260630039200091",
+      "source": "연합뉴스 국제",
+      "ts": 1782779722000,
+      "pub": "Tue, 30 Jun 2026 09:35:22 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프 \"주유소, 기름값 즉시 내려야…안그러면 큰 문제 닥칠 것\"",
+      "link": "https://www.hankyung.com/article/2026063057837",
+      "source": "한국경제",
+      "ts": 1782779259000,
+      "pub": "Tue, 30 Jun 2026 09:27:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"주유소, 즉시 가격 내려야…안그러면 큰 문제 닥칠것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260630039400071",
+      "source": "연합뉴스 경제",
+      "ts": 1782778615000,
+      "pub": "Tue, 30 Jun 2026 09:16:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 대통령 \"합의의무는 쌍방향\"…트럼프 '허세'에 맞불 강경론",
+      "link": "https://www.yna.co.kr/view/AKR20260630029000009",
+      "source": "연합뉴스 국제",
+      "ts": 1782777259000,
+      "pub": "Tue, 30 Jun 2026 08:54:19 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 두달 넘게 공석이던 노동장관에 장관대행 지명",
       "link": "https://www.yna.co.kr/view/AKR20260630024300071",
       "source": "연합뉴스 국제",
       "ts": 1782776413000,
       "pub": "Tue, 30 Jun 2026 08:40:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美대법원 \"대통령, 독립기관 인사 해임 가능…Fed 예외\"",
-      "link": "https://www.hankyung.com/article/2026063053637",
-      "source": "한국경제",
-      "ts": 1782770358000,
-      "pub": "Tue, 30 Jun 2026 06:59:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美대법원 \"선거일 후 도착한 우편투표 합법\"…트럼프엔 타격",
-      "link": "https://www.hankyung.com/article/2026063053477",
-      "source": "한국경제",
-      "ts": 1782769220000,
-      "pub": "Tue, 30 Jun 2026 06:40:20 +0900",
       "sentiment": "neutral"
     },
     {
@@ -76,14 +116,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"30일 이란과 카타르서 회담\"",
-      "link": "https://www.hankyung.com/article/2026062952201",
-      "source": "한국경제",
-      "ts": 1782748099000,
-      "pub": "Tue, 30 Jun 2026 00:48:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美대법, 트럼프 '성추행 사건' 상고 기각…77억원 배상 확정(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260629170951071",
       "source": "연합뉴스 국제",
@@ -97,14 +129,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782746919000,
       "pub": "Tue, 30 Jun 2026 00:28:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美대법원 \"연준 쿡, 직책 유지\" 판결…트럼프 연준장악시도 제동",
-      "link": "https://www.hankyung.com/article/202606305255i",
-      "source": "한국경제",
-      "ts": 1782746697000,
-      "pub": "Tue, 30 Jun 2026 00:24:57 +0900",
       "sentiment": "neutral"
     },
     {
@@ -161,14 +185,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782738141000,
       "pub": "Mon, 29 Jun 2026 22:02:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란이 회담 요청\"…이란 \"예정 없다\" 엇갈린 발표",
-      "link": "https://www.hankyung.com/article/2026062951937",
-      "source": "한국경제",
-      "ts": 1782736761000,
-      "pub": "Mon, 29 Jun 2026 21:39:21 +0900",
       "sentiment": "neutral"
     },
     {
@@ -233,22 +249,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782715519000,
       "pub": "Mon, 29 Jun 2026 15:45:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라이나 \"러시아 미사일·드론 90%에 일본제 부품\"",
-      "link": "https://www.yna.co.kr/view/AKR20260629083700073",
-      "source": "연합뉴스 국제",
-      "ts": 1782704533000,
-      "pub": "Mon, 29 Jun 2026 12:42:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 우크라 '40일 작전' 개시하자…'플라밍고'로 러 군수공장 때렸다",
-      "link": "https://www.yna.co.kr/view/AKR20260629078100704",
-      "source": "연합뉴스 국제",
-      "ts": 1782700904000,
-      "pub": "Mon, 29 Jun 2026 11:41:44 +0900",
       "sentiment": "neutral"
     }
   ]

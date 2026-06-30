@@ -1,8 +1,56 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-29T23:52:13.484Z",
-  "count": 10,
+  "updated_at": "2026-06-30T02:07:42.472Z",
+  "count": 9,
   "items": [
+    {
+      "title": "삼전닉스, 계속 간다…2분기도 '150조 잭팟' 역대급 실적 예고",
+      "link": "https://www.hankyung.com/article/202606305440g",
+      "source": "한국경제",
+      "ts": 1782781646000,
+      "pub": "Tue, 30 Jun 2026 10:07:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자, 장초반 2% 가까이 상승…하닉은 강보합",
+      "link": "https://www.yna.co.kr/view/AKR20260630040400008",
+      "source": "연합뉴스 경제",
+      "ts": 1782778710000,
+      "pub": "Tue, 30 Jun 2026 09:18:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엇갈린 반도체 투심…1% 초고수, 삼전 팔고 하이닉스 담았다",
+      "link": "https://www.hankyung.com/article/202606305626i",
+      "source": "한국경제",
+      "ts": 1782777913000,
+      "pub": "Tue, 30 Jun 2026 09:05:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 에어컨이 사용자 위치 파악…생각 읽고 알아서 쾌적하게",
+      "link": "https://www.hankyung.com/article/2026062934341",
+      "source": "한국경제",
+      "ts": 1782777721000,
+      "pub": "Tue, 30 Jun 2026 09:02:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 오늘 뭐 먹지? 냉장고가 스스로 레시피 추천",
+      "link": "https://www.hankyung.com/article/2026062934411",
+      "source": "한국경제",
+      "ts": 1782777688000,
+      "pub": "Tue, 30 Jun 2026 09:01:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 냉장고 문 열어놔도 스스로 온도 조절",
+      "link": "https://www.hankyung.com/article/2026062934791",
+      "source": "한국경제",
+      "ts": 1782777680000,
+      "pub": "Tue, 30 Jun 2026 09:01:20 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "신한투자, '삼전 59만원·하이닉스 420만원' 목표가 상향",
       "link": "https://www.yna.co.kr/view/AKR20260630027600008",
@@ -20,67 +68,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "삼전닉스 아직도 싸다…\"ADR 상장이 가장 직접적 재평가 계기\"",
-      "link": "https://www.hankyung.com/article/202606293633i",
-      "source": "한국경제",
-      "ts": 1782771933000,
-      "pub": "Tue, 30 Jun 2026 07:25:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[3대 메가] 李대통령, 이재용·최태원에 \"국민영웅\"…기업전폭지원 약속(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260629125451001",
-      "source": "연합뉴스 경제",
-      "ts": 1782726035000,
-      "pub": "Mon, 29 Jun 2026 18:40:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"日키옥시아도 삼전닉스처럼 파격보상 필요…인재 유출 우려\"",
       "link": "https://www.yna.co.kr/view/AKR20260629155200073",
       "source": "연합뉴스 국제",
       "ts": 1782724058000,
       "pub": "Mon, 29 Jun 2026 18:07:38 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "삼전·닉스 레버리지, 변동성에 어느정도 영향?…자본시장硏 분석은",
-      "link": "https://www.yna.co.kr/view/AKR20260629117500008",
-      "source": "연합뉴스 경제",
-      "ts": 1782722736000,
-      "pub": "Mon, 29 Jun 2026 17:45:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK, 2천100조 들여 AI 인프라…메모리 벨트에 데이터센터까지",
-      "link": "https://www.yna.co.kr/view/AKR20260629139400003",
-      "source": "연합뉴스 경제",
-      "ts": 1782720181000,
-      "pub": "Mon, 29 Jun 2026 17:03:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼성전자, 4%대 급락 마감…SK하이닉스도 1%대 하락(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260629030651008",
-      "source": "연합뉴스 경제",
-      "ts": 1782716544000,
-      "pub": "Mon, 29 Jun 2026 16:02:24 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[3대 메가] 李대통령, 이재용·최태원에 \"국민영웅\"…기업 전폭지원 약속",
-      "link": "https://www.yna.co.kr/view/AKR20260629125400001",
-      "source": "연합뉴스 경제",
-      "ts": 1782716231000,
-      "pub": "Mon, 29 Jun 2026 15:57:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "메모리 대란에 애플·MS 가격인상…중소 전자업체는 '생존 위기'",
-      "link": "https://www.yna.co.kr/view/AKR20260629112800009",
-      "source": "연합뉴스 국제",
-      "ts": 1782713405000,
-      "pub": "Mon, 29 Jun 2026 15:10:05 +0900",
       "sentiment": "negative"
     }
   ]

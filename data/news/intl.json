@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-30T02:07:42.471Z",
-  "count": 31,
+  "updated_at": "2026-06-30T06:44:26.166Z",
+  "count": 24,
   "items": [
+    {
+      "title": "한·우크라 외교장관, 北포로 송환 문제 협의…\"건설적 논의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260630135000504",
+      "source": "연합뉴스 국제",
+      "ts": 1782801107000,
+      "pub": "Tue, 30 Jun 2026 15:31:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"피로 전쟁 배운 北, 우리나라 위협\"…우크라 다녀온 유용원의 경고 [인터뷰]",
+      "link": "https://www.hankyung.com/article/2026063057907",
+      "source": "한국경제",
+      "ts": 1782798487000,
+      "pub": "Tue, 30 Jun 2026 14:48:07 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "트럼프 눈치에 평화 합의했지만…이스라엘·레바논 다시 '부글'",
       "link": "https://www.yna.co.kr/view/AKR20260630070700009",
@@ -20,14 +36,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"휘발유값 갤런당 2.5달러까지 당장 내려야…거부시 큰일\"",
-      "link": "https://www.mt.co.kr/world/2026/06/30/2026063009210167035",
-      "source": "머니투데이",
-      "ts": 1782783068000,
-      "pub": "Tue, 30 Jun 2026 10:31:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "'잠룡' 뉴섬 캘리포니아주지사, 트럼프가 제재한 앤트로픽 계약",
       "link": "https://www.yna.co.kr/view/AKR20260630039200091",
       "source": "연합뉴스 국제",
@@ -36,17 +44,9 @@
       "sentiment": "negative"
     },
     {
-      "title": "트럼프 \"주유소, 기름값 즉시 내려야…안그러면 큰 문제 닥칠 것\"",
-      "link": "https://www.hankyung.com/article/2026063057837",
-      "source": "한국경제",
-      "ts": 1782779259000,
-      "pub": "Tue, 30 Jun 2026 09:27:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"주유소, 즉시 가격 내려야…안그러면 큰 문제 닥칠것\"",
       "link": "https://www.yna.co.kr/view/AKR20260630039400071",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1782778615000,
       "pub": "Tue, 30 Jun 2026 09:16:55 +0900",
       "sentiment": "neutral"
@@ -70,7 +70,7 @@
     {
       "title": "\"주요 IB, 美연준 금리인하 종료 평가…하반기 동결·인상 전망\"",
       "link": "https://www.yna.co.kr/view/AKR20260630009100072",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1782768019000,
       "pub": "Tue, 30 Jun 2026 06:20:19 +0900",
       "sentiment": "neutral"
@@ -193,62 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782735196000,
       "pub": "Mon, 29 Jun 2026 21:13:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라가 에너지 시설 때리자…러는 동부 전선 압박",
-      "link": "https://www.yna.co.kr/view/AKR20260629139100109",
-      "source": "연합뉴스 국제",
-      "ts": 1782720843000,
-      "pub": "Mon, 29 Jun 2026 17:14:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] 평화합의 잉크도 안 말랐는데…레바논 지하터널 파괴한 이스라엘",
-      "link": "https://www.yna.co.kr/view/AKR20260629139600704",
-      "source": "연합뉴스 국제",
-      "ts": 1782719216000,
-      "pub": "Mon, 29 Jun 2026 16:46:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 평화 합의에도 헤즈볼라 땅굴 타격…이스라엘 \"200m 땅굴 파괴\"",
-      "link": "https://www.yna.co.kr/view/AKR20260629133900704",
-      "source": "연합뉴스 국제",
-      "ts": 1782718668000,
-      "pub": "Mon, 29 Jun 2026 16:37:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"러시아 신병, 우크라 전장 투입되면 20∼35분만에 전사\"",
-      "link": "https://www.yna.co.kr/view/AKR20260629132100009",
-      "source": "연합뉴스 국제",
-      "ts": 1782717610000,
-      "pub": "Mon, 29 Jun 2026 16:20:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"中 청정에너지 기업들 내쫓은 트럼프…기술은 미국이 흡수\"",
-      "link": "https://www.yna.co.kr/view/AKR20260629127300009",
-      "source": "연합뉴스 국제",
-      "ts": 1782717483000,
-      "pub": "Mon, 29 Jun 2026 16:18:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "레바논 의회 의장 \"美 중재 이스라엘·레바논 평화안 처리 불가\"",
-      "link": "https://www.yna.co.kr/view/AKR20260629129100079",
-      "source": "연합뉴스 국제",
-      "ts": 1782717224000,
-      "pub": "Mon, 29 Jun 2026 16:13:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"우크라, 러 때리다 오폭해도 감수\"…동유럽 한 나토동맹의 정서",
-      "link": "https://www.yna.co.kr/view/AKR20260629121400009",
-      "source": "연합뉴스 국제",
-      "ts": 1782715519000,
-      "pub": "Mon, 29 Jun 2026 15:45:19 +0900",
       "sentiment": "neutral"
     }
   ]

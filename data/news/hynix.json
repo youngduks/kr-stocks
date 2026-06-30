@@ -1,71 +1,71 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-30T02:07:42.472Z",
-  "count": 14,
+  "updated_at": "2026-06-30T06:44:26.168Z",
+  "count": 12,
   "items": [
     {
-      "title": "李 '서남권 반도체 클러스터'에 \"균형발전 위해 다행스러운 결과…호남 차별 사실\"",
-      "link": "https://www.mt.co.kr/politics/2026/06/30/2026063010395490411",
-      "source": "머니투데이",
-      "ts": 1782784764000,
-      "pub": "Tue, 30 Jun 2026 10:59:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"엔비디아 꺾었다\" 한국 스타트업 초격차에 李대통령도 주목",
-      "link": "https://www.hankyung.com/article/2026063058577",
+      "title": "농사짓는 물 반도체 공장으로…나주댐 용수 10만t 쏟아붓는다",
+      "link": "https://www.hankyung.com/article/202606306012i",
       "source": "한국경제",
-      "ts": 1782781415000,
-      "pub": "Tue, 30 Jun 2026 10:03:35 +0900",
+      "ts": 1782799276000,
+      "pub": "Tue, 30 Jun 2026 15:01:16 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[특징주] '호남 반도체' 테마주에 잇단 투자경고…장 초반 혼조",
-      "link": "https://www.yna.co.kr/view/AKR20260630053900008",
-      "source": "연합뉴스 경제",
-      "ts": 1782781396000,
-      "pub": "Tue, 30 Jun 2026 10:03:16 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "5월 산업생산 두달째 뒷걸음…정부 \"반도체 6월 반등 가능성\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260630017153002",
-      "source": "연합뉴스 경제",
-      "ts": 1782781244000,
-      "pub": "Tue, 30 Jun 2026 10:00:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[마켓라이브] 반도체 강세에 코스피·코스닥 동반 상승 출발… 이차전지는 약세 [오전 9시10분 시황]",
-      "link": "https://www.hankyung.com/article/202606305740i",
+      "title": "\"삼성전자·전기보다 SK하이닉스·스퀘어\"…ETF 확 바뀌었다 왜?",
+      "link": "https://www.hankyung.com/article/202606306522i",
       "source": "한국경제",
-      "ts": 1782779029000,
-      "pub": "Tue, 30 Jun 2026 09:23:49 +0900",
-      "sentiment": "negative"
+      "ts": 1782798873000,
+      "pub": "Tue, 30 Jun 2026 14:54:33 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "엇갈린 반도체 투심…1% 초고수, 삼전 팔고 하이닉스 담았다",
-      "link": "https://www.hankyung.com/article/202606305626i",
+      "title": "덕신이피씨, 반도체 후공정 기업 엠코그룹에 데크플레이트 공급",
+      "link": "https://www.hankyung.com/article/202606306675i",
       "source": "한국경제",
-      "ts": 1782777913000,
-      "pub": "Tue, 30 Jun 2026 09:05:13 +0900",
+      "ts": 1782796822000,
+      "pub": "Tue, 30 Jun 2026 14:20:22 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "5월 반도체 생산 10% 감소에 산업생산 두 달 연속 마이너스(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260630017152002",
-      "source": "연합뉴스 경제",
-      "ts": 1782776560000,
-      "pub": "Tue, 30 Jun 2026 08:42:40 +0900",
+      "title": "유승민 \"반도체 광주 800조 몰빵, 지역감정 폭탄 던진 것\"",
+      "link": "https://www.hankyung.com/article/202606306557i",
+      "source": "한국경제",
+      "ts": 1782795677000,
+      "pub": "Tue, 30 Jun 2026 14:01:17 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "신한투자, '삼전 59만원·하이닉스 420만원' 목표가 상향",
-      "link": "https://www.yna.co.kr/view/AKR20260630027600008",
+      "title": "반도체 훈풍…용인 클러스터 산단 첫 아파트 공급 '눈길'",
+      "link": "https://www.hankyung.com/article/202606305802i",
+      "source": "한국경제",
+      "ts": 1782795083000,
+      "pub": "Tue, 30 Jun 2026 13:51:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "S&P \"AI 슈퍼사이클 2028년까지 지속될 것…성장 반도체로 쏠려\"",
+      "link": "https://www.yna.co.kr/view/AKR20260630098800008",
       "source": "연합뉴스 경제",
-      "ts": 1782776460000,
-      "pub": "Tue, 30 Jun 2026 08:41:00 +0900",
-      "sentiment": "positive"
+      "ts": 1782791857000,
+      "pub": "Tue, 30 Jun 2026 12:57:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中매체, '韓 반도체 투자' 주목…\"AI산업 주도권에 국운 베팅\"",
+      "link": "https://www.yna.co.kr/view/AKR20260630078300009",
+      "source": "연합뉴스 국제",
+      "ts": 1782785891000,
+      "pub": "Tue, 30 Jun 2026 11:18:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, '반도체 매수세 둔화·외인 팔자'에 보합권서 혼조",
+      "link": "https://www.yna.co.kr/view/AKR20260630083300008",
+      "source": "연합뉴스 경제",
+      "ts": 1782785694000,
+      "pub": "Tue, 30 Jun 2026 11:14:54 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "제퍼리스 \"메모리 가격 3분기 50% ↑…내년에도 40~45% ↑\"",
@@ -73,14 +73,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782775181000,
       "pub": "Tue, 30 Jun 2026 08:19:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[2보] 5월 산업생산 0.3%↓…반도체 생산 10.0% 감소",
-      "link": "https://www.yna.co.kr/view/AKR20260630017151002",
-      "source": "연합뉴스 경제",
-      "ts": 1782774008000,
-      "pub": "Tue, 30 Jun 2026 08:00:08 +0900",
       "sentiment": "neutral"
     },
     {
@@ -106,14 +98,6 @@
       "ts": 1782725091000,
       "pub": "Mon, 29 Jun 2026 18:24:51 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "한은 \"中, 반도체 호조 속 수출↑…기업 수익성은 저하 가능성\"",
-      "link": "https://www.yna.co.kr/view/AKR20260629144300083",
-      "source": "연합뉴스 국제",
-      "ts": 1782721138000,
-      "pub": "Mon, 29 Jun 2026 17:18:58 +0900",
-      "sentiment": "positive"
     }
   ]
 }

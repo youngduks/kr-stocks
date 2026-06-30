@@ -1,8 +1,64 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-30T22:07:16.827Z",
-  "count": 26,
+  "updated_at": "2026-06-30T23:57:02.786Z",
+  "count": 31,
   "items": [
+    {
+      "title": "우크라, 모스크바 또 드론타격…'전장의 눈' 위성센터 파괴 주장",
+      "link": "https://www.yna.co.kr/view/AKR20260701030500009",
+      "source": "연합뉴스 국제",
+      "ts": 1782863018000,
+      "pub": "Wed, 1 Jul 2026 08:43:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 작년 얼마 벌었나 보니…가상화폐 사업만 2조 '떼돈'",
+      "link": "https://www.yna.co.kr/view/AKR20260701028200009",
+      "source": "연합뉴스 국제",
+      "ts": 1782862478000,
+      "pub": "Wed, 1 Jul 2026 08:34:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[외신 에스프레소]미 대법원, 트럼프 '출생시민권 제한' 제동",
+      "link": "https://www.hankyung.com/article/202607018065i",
+      "source": "한국경제",
+      "ts": 1782860534000,
+      "pub": "Wed, 01 Jul 2026 08:02:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"공화당, 사상 첫 중간선거 전당대회 9월 개최\"",
+      "link": "https://www.hankyung.com/article/2026070180207",
+      "source": "한국경제",
+      "ts": 1782859733000,
+      "pub": "Wed, 01 Jul 2026 07:48:53 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "트럼프 \"공화당, 사상 첫 중간선거 전당대회 9월 9∼10일 개최\"",
+      "link": "https://www.yna.co.kr/view/AKR20260701015400071",
+      "source": "연합뉴스 국제",
+      "ts": 1782858744000,
+      "pub": "Wed, 1 Jul 2026 07:32:24 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "美대법, 트럼프 핵심 경제·이민정책 제동…국정동력 '타격'",
+      "link": "https://www.yna.co.kr/view/AKR20260701013300071",
+      "source": "연합뉴스 국제",
+      "ts": 1782858453000,
+      "pub": "Wed, 1 Jul 2026 07:27:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "대법원 판결은 끝 아니다…트럼프, 출생시민권 두고 2차전 예고",
+      "link": "https://www.hankyung.com/article/2026070179867",
+      "source": "한국경제",
+      "ts": 1782857857000,
+      "pub": "Wed, 01 Jul 2026 07:17:37 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"대법 제동 판결은 다행…트럼프의 출생시민권 공격 계속될 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260701010000071",
@@ -20,14 +76,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"출생시민권 유지, 큰 불행\"…의회 입법 추진 시사",
-      "link": "https://www.mt.co.kr/world/2026/07/01/2026070104170859362",
-      "source": "머니투데이",
-      "ts": 1782847161000,
-      "pub": "Wed, 01 Jul 2026 04:19:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"출생시민권 유지, 큰 불행…의회입법으로 만회 가능\"",
       "link": "https://www.yna.co.kr/view/AKR20260701002300071",
       "source": "연합뉴스 국제",
@@ -41,14 +89,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782836038000,
       "pub": "Wed, 1 Jul 2026 01:13:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"미국서 태어나면 미국인 맞다\"…美대법, 트럼프 反이민정책 제동",
-      "link": "https://www.mt.co.kr/world/2026/07/01/2026070100544429647",
-      "source": "머니투데이",
-      "ts": 1782835126000,
-      "pub": "Wed, 01 Jul 2026 00:58:46 +0900",
       "sentiment": "neutral"
     },
     {

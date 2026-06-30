@@ -1,14 +1,30 @@
 {
   "category": "samsung",
-  "updated_at": "2026-06-30T22:07:16.829Z",
-  "count": 3,
+  "updated_at": "2026-06-30T23:57:02.787Z",
+  "count": 5,
   "items": [
     {
-      "title": "\"삼전닉스에 너무 쏠려\"…한국 주식 사라던 블랙록, 입장 바꿨다",
-      "link": "https://www.mt.co.kr/world/2026/06/30/2026063021585753192",
-      "source": "머니투데이",
-      "ts": 1782826238000,
-      "pub": "Tue, 30 Jun 2026 22:30:38 +0900",
+      "title": "\"삼성전자, 2년 간 영업익 922조원…주가 조정은 매수 기회\"-KB",
+      "link": "https://www.hankyung.com/article/2026070180666",
+      "source": "한국경제",
+      "ts": 1782860609000,
+      "pub": "Wed, 01 Jul 2026 08:03:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한국에 '800억 中공장' 뜬다…삼전닉스 공급망 노린 '초강수' [도쿄나우]",
+      "link": "https://www.hankyung.com/article/202607018012i",
+      "source": "한국경제",
+      "ts": 1782859413000,
+      "pub": "Wed, 01 Jul 2026 07:43:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼성전자, 메모리 슈퍼사이클 연장…목표가 58만원\"-상상인",
+      "link": "https://www.hankyung.com/article/2026070180066",
+      "source": "한국경제",
+      "ts": 1782858755000,
+      "pub": "Wed, 01 Jul 2026 07:32:35 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,48 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-30T20:49:51.991Z",
-  "count": 8,
+  "updated_at": "2026-06-30T22:07:16.829Z",
+  "count": 12,
   "items": [
+    {
+      "title": "반도체·기술주가 살렸다…S&P·나스닥 6년만에 최고 분기[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/07/01/2026070106214032781",
+      "source": "머니투데이",
+      "ts": 1782854781000,
+      "pub": "Wed, 01 Jul 2026 06:26:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[여의도 클라쓰] '세미티에스, 하나마이크론, 테스 ' 클라쓰 올릴 종목은?",
+      "link": "https://www.mt.co.kr/stock/2026/07/01/2026063021557062459",
+      "source": "머니투데이",
+      "ts": 1782853460000,
+      "pub": "Wed, 01 Jul 2026 06:04:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[기고]AI 시대, 반도체 경쟁력의 출발점은 전력이다",
+      "link": "https://www.mt.co.kr/economy/2026/07/01/2026063009461473217",
+      "source": "머니투데이",
+      "ts": 1782851400000,
+      "pub": "Wed, 01 Jul 2026 05:30:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"저가매수\" 살아난 반도체… 코스피, 3일만에 다시 웃었다",
+      "link": "https://www.mt.co.kr/stock/2026/07/01/2026063020034582062",
+      "source": "머니투데이",
+      "ts": 1782846300000,
+      "pub": "Wed, 01 Jul 2026 04:05:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'호남 없으면 국가도 없다' 인용 李 \"반도체 생산거점 준비된 땅\"",
+      "link": "https://www.mt.co.kr/politics/2026/07/01/2026063019594049312",
+      "source": "머니투데이",
+      "ts": 1782846060000,
+      "pub": "Wed, 01 Jul 2026 04:01:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[포토] 李대통령, 서남권 반도체 후보지 시찰",
       "link": "https://www.hankyung.com/article/2026063077911",
@@ -57,14 +97,6 @@
       "source": "연합뉴스 경제",
       "ts": 1782802383000,
       "pub": "Tue, 30 Jun 2026 15:53:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "S&P \"AI 슈퍼사이클 2028년까지 지속될 것…성장 반도체로 쏠려\"",
-      "link": "https://www.yna.co.kr/view/AKR20260630098800008",
-      "source": "연합뉴스 경제",
-      "ts": 1782791857000,
-      "pub": "Tue, 30 Jun 2026 12:57:37 +0900",
       "sentiment": "neutral"
     }
   ]

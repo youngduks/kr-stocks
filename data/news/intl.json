@@ -1,14 +1,30 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-30T20:49:51.990Z",
-  "count": 23,
+  "updated_at": "2026-06-30T22:07:16.827Z",
+  "count": 26,
   "items": [
+    {
+      "title": "\"대법 제동 판결은 다행…트럼프의 출생시민권 공격 계속될 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260701010000071",
+      "source": "연합뉴스 국제",
+      "ts": 1782854327000,
+      "pub": "Wed, 1 Jul 2026 06:18:47 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "국제금값, '매파' 美연준에 3개월 하락폭 13년 만에 최대",
       "link": "https://www.yna.co.kr/view/AKR20260701005000072",
       "source": "연합뉴스 국제",
       "ts": 1782847821000,
       "pub": "Wed, 1 Jul 2026 04:30:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"출생시민권 유지, 큰 불행\"…의회 입법 추진 시사",
+      "link": "https://www.mt.co.kr/world/2026/07/01/2026070104170859362",
+      "source": "머니투데이",
+      "ts": 1782847161000,
+      "pub": "Wed, 01 Jul 2026 04:19:21 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,6 +44,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "\"미국서 태어나면 미국인 맞다\"…美대법, 트럼프 反이민정책 제동",
+      "link": "https://www.mt.co.kr/world/2026/07/01/2026070100544429647",
+      "source": "머니투데이",
+      "ts": 1782835126000,
+      "pub": "Wed, 01 Jul 2026 00:58:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "\"출생시민권 금지 안돼\"…美대법원, 트럼프 제동",
       "link": "https://www.hankyung.com/article/2026070178411",
       "source": "한국경제",
@@ -36,7 +60,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "美대법원,\"미국서 태어나면 미국시민\"인정…트럼프 행정명령 기각",
+      "title": "美대법원 \"미국서 태어나면 美시민\" 인정…트럼프 행정명령 기각",
       "link": "https://www.hankyung.com/article/202607017845i",
       "source": "한국경제",
       "ts": 1782833358000,

@@ -1,8 +1,80 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-30T06:44:26.166Z",
-  "count": 24,
+  "updated_at": "2026-06-30T10:23:23.493Z",
+  "count": 17,
   "items": [
+    {
+      "title": "'철강 빗장' EU, 중국 정조준…무관세 쿼터 3분의 2 쪼그라들어",
+      "link": "https://www.yna.co.kr/view/AKR20260630180400098",
+      "source": "연합뉴스 국제",
+      "ts": 1782814560000,
+      "pub": "Tue, 30 Jun 2026 19:16:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "무관세 물량 반토막 난 EU 시장… 韓 철강, 정상외교로 '실리' 챙겼다",
+      "link": "https://www.mt.co.kr/economy/2026/06/30/2026063017395832952",
+      "source": "머니투데이",
+      "ts": 1782809889000,
+      "pub": "Tue, 30 Jun 2026 17:58:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한·우크라 외교장관, 北포로 송환 해법 모색…\"자유의사 존중\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260630135051504",
+      "source": "연합뉴스 국제",
+      "ts": 1782809492000,
+      "pub": "Tue, 30 Jun 2026 17:51:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러 '제자리 진격' 조롱한 젤렌스키…\"돈바스 점령은 망상\"",
+      "link": "https://www.yna.co.kr/view/AKR20260630158300109",
+      "source": "연합뉴스 국제",
+      "ts": 1782808891000,
+      "pub": "Tue, 30 Jun 2026 17:41:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "EU 철강 무관세 물량 46% 축소…한국, 19.7% 감소로 '방어'",
+      "link": "https://www.yna.co.kr/view/AKR20260630168500003",
+      "source": "연합뉴스 경제",
+      "ts": 1782808217000,
+      "pub": "Tue, 30 Jun 2026 17:30:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 정보기관에 '외국 정보원 명단' 요구…CIA·FBI 반발",
+      "link": "https://www.yna.co.kr/view/AKR20260630144000009",
+      "source": "연합뉴스 국제",
+      "ts": 1782803602000,
+      "pub": "Tue, 30 Jun 2026 16:13:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, SNS서 '황금독수리 선물' 자랑…알고보니 AI 이미지",
+      "link": "https://www.yna.co.kr/view/AKR20260630142800009",
+      "source": "연합뉴스 국제",
+      "ts": 1782803308000,
+      "pub": "Tue, 30 Jun 2026 16:08:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "북미무역협상 운명은…트럼프 공세 속 7월 1일 연장시한 넘길 듯",
+      "link": "https://www.yna.co.kr/view/AKR20260630140200009",
+      "source": "연합뉴스 국제",
+      "ts": 1782802299000,
+      "pub": "Tue, 30 Jun 2026 15:51:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "모나코 주택에 폭탄 테러…우크라 '친러 재벌' 노린 듯(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260630015151009",
+      "source": "연합뉴스 국제",
+      "ts": 1782801901000,
+      "pub": "Tue, 30 Jun 2026 15:45:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "한·우크라 외교장관, 北포로 송환 문제 협의…\"건설적 논의\"",
       "link": "https://www.yna.co.kr/view/AKR20260630135000504",
@@ -12,27 +84,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"피로 전쟁 배운 北, 우리나라 위협\"…우크라 다녀온 유용원의 경고 [인터뷰]",
-      "link": "https://www.hankyung.com/article/2026063057907",
-      "source": "한국경제",
-      "ts": 1782798487000,
-      "pub": "Tue, 30 Jun 2026 14:48:07 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "트럼프 눈치에 평화 합의했지만…이스라엘·레바논 다시 '부글'",
       "link": "https://www.yna.co.kr/view/AKR20260630070700009",
       "source": "연합뉴스 국제",
       "ts": 1782784324000,
       "pub": "Tue, 30 Jun 2026 10:52:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "관세청 '체납액 72조원' 징수 강화…\"공항 검사 10배로 강화\"",
-      "link": "https://www.yna.co.kr/view/AKR20260630069900002",
-      "source": "연합뉴스 경제",
-      "ts": 1782783677000,
-      "pub": "Tue, 30 Jun 2026 10:41:17 +0900",
       "sentiment": "neutral"
     },
     {
@@ -81,118 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782765506000,
       "pub": "Tue, 30 Jun 2026 05:38:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美대법 \"트럼프, 원하면 독립기관 인사 해임 가능\"…연준은 예외(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260629171352071",
-      "source": "연합뉴스 국제",
-      "ts": 1782758166000,
-      "pub": "Tue, 30 Jun 2026 03:36:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美대법, '선거일後 도착' 우편투표 합법 판결…트럼프에 타격(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260630000451071",
-      "source": "연합뉴스 국제",
-      "ts": 1782755499000,
-      "pub": "Tue, 30 Jun 2026 02:51:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美대법 \"대통령, 독립기관인사 비위없어도 해임가능\"…연준은 예외(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260629171351071",
-      "source": "연합뉴스 국제",
-      "ts": 1782750625000,
-      "pub": "Tue, 30 Jun 2026 01:30:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "레바논 대통령 \"이스라엘 국경까지 군 배치해 통제권 확장\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260630000251079",
-      "source": "연합뉴스 국제",
-      "ts": 1782749429000,
-      "pub": "Tue, 30 Jun 2026 01:10:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美대법, 트럼프 '성추행 사건' 상고 기각…77억원 배상 확정(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260629170951071",
-      "source": "연합뉴스 국제",
-      "ts": 1782747829000,
-      "pub": "Tue, 30 Jun 2026 00:43:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美대법, '선거일後 도착' 우편투표 합법 판결…트럼프 또 쓴잔",
-      "link": "https://www.yna.co.kr/view/AKR20260630000400071",
-      "source": "연합뉴스 국제",
-      "ts": 1782746919000,
-      "pub": "Tue, 30 Jun 2026 00:28:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "레바논 대통령 \"이스라엘 국경까지 군 배치해 통제권 확장\"",
-      "link": "https://www.yna.co.kr/view/AKR20260630000200079",
-      "source": "연합뉴스 국제",
-      "ts": 1782745436000,
-      "pub": "Tue, 30 Jun 2026 00:03:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美연방대법원, 트럼프의 연준 이사 해임 결정에 일단 제동",
-      "link": "https://www.yna.co.kr/view/AKR20260629171300071",
-      "source": "연합뉴스 국제",
-      "ts": 1782745283000,
-      "pub": "Tue, 30 Jun 2026 00:01:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美대법, 트럼프 '성추행 사건' 상고 기각…77억원 배상 확정",
-      "link": "https://www.yna.co.kr/view/AKR20260629170900071",
-      "source": "연합뉴스 국제",
-      "ts": 1782744485000,
-      "pub": "Mon, 29 Jun 2026 23:48:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라가 에너지 시설 때리자…러는 동부 전선 압박(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260629139151109",
-      "source": "연합뉴스 국제",
-      "ts": 1782739908000,
-      "pub": "Mon, 29 Jun 2026 22:31:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한국, 가자지구 피란민에 150억원 지원…15%는 한국산 물품으로",
-      "link": "https://www.yna.co.kr/view/AKR20260629155400079",
-      "source": "연합뉴스 국제",
-      "ts": 1782738834000,
-      "pub": "Mon, 29 Jun 2026 22:13:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "전쟁에 폭염까지…우크라도 비상",
-      "link": "https://www.yna.co.kr/view/AKR20260629166400109",
-      "source": "연합뉴스 국제",
-      "ts": 1782738179000,
-      "pub": "Mon, 29 Jun 2026 22:02:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란 요청으로 내일 도하서 회담\"…확전 자제 기류(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260629165351071",
-      "source": "연합뉴스 국제",
-      "ts": 1782738141000,
-      "pub": "Mon, 29 Jun 2026 22:02:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란이 회담 요청…내일 도하서 열릴 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260629165300071",
-      "source": "연합뉴스 국제",
-      "ts": 1782735196000,
-      "pub": "Mon, 29 Jun 2026 21:13:16 +0900",
       "sentiment": "neutral"
     }
   ]

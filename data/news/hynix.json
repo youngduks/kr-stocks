@@ -1,46 +1,118 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-30T06:44:26.168Z",
-  "count": 12,
+  "updated_at": "2026-06-30T10:23:23.494Z",
+  "count": 18,
   "items": [
     {
-      "title": "농사짓는 물 반도체 공장으로…나주댐 용수 10만t 쏟아붓는다",
-      "link": "https://www.hankyung.com/article/202606306012i",
+      "title": "[단독] IMM, 코오롱 반도체 소재 부문 품는다",
+      "link": "https://www.hankyung.com/article/2026063074781",
       "source": "한국경제",
-      "ts": 1782799276000,
-      "pub": "Tue, 30 Jun 2026 15:01:16 +0900",
+      "ts": 1782811147000,
+      "pub": "Tue, 30 Jun 2026 18:19:07 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"삼성전자·전기보다 SK하이닉스·스퀘어\"…ETF 확 바뀌었다 왜?",
-      "link": "https://www.hankyung.com/article/202606306522i",
-      "source": "한국경제",
-      "ts": 1782798873000,
-      "pub": "Tue, 30 Jun 2026 14:54:33 +0900",
+      "title": "다우-나스닥, 반도체-빅테크 커지는 수익률 차이…약세장 경고음?[오미주]",
+      "link": "https://www.mt.co.kr/world/2026/06/30/2026063015460929495",
+      "source": "머니투데이",
+      "ts": 1782810300000,
+      "pub": "Tue, 30 Jun 2026 18:05:00 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"지금은 호황, 투자 이후가 문제\"…반도체 '사이클 반전' 우려",
+      "link": "https://www.mt.co.kr/industry/2026/06/30/2026063012180541174",
+      "source": "머니투데이",
+      "ts": 1782809400000,
+      "pub": "Tue, 30 Jun 2026 17:50:00 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"가격은? 생산은 언제?\"…李 대통령, SK 전시 보며 반도체 '열공'",
+      "link": "https://www.mt.co.kr/politics/2026/06/30/2026063017431898566",
+      "source": "머니투데이",
+      "ts": 1782809257000,
+      "pub": "Tue, 30 Jun 2026 17:47:37 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "덕신이피씨, 반도체 후공정 기업 엠코그룹에 데크플레이트 공급",
-      "link": "https://www.hankyung.com/article/202606306675i",
-      "source": "한국경제",
-      "ts": 1782796822000,
-      "pub": "Tue, 30 Jun 2026 14:20:22 +0900",
+      "title": "원고 덮은 李대통령...\"반도체 왜 호남인가\" 20분 작심 설파",
+      "link": "https://www.mt.co.kr/politics/2026/06/30/2026063016455246719",
+      "source": "머니투데이",
+      "ts": 1782808528000,
+      "pub": "Tue, 30 Jun 2026 17:35:28 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "유승민 \"반도체 광주 800조 몰빵, 지역감정 폭탄 던진 것\"",
-      "link": "https://www.hankyung.com/article/202606306557i",
-      "source": "한국경제",
-      "ts": 1782795677000,
-      "pub": "Tue, 30 Jun 2026 14:01:17 +0900",
+      "title": "전영현 \"광주 반도체 팹, 원전 확대 필요\"…전력·용수 확보 관건",
+      "link": "https://www.mt.co.kr/industry/2026/06/30/2026063017174193076",
+      "source": "머니투데이",
+      "ts": 1782808500000,
+      "pub": "Tue, 30 Jun 2026 17:35:00 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "반도체 훈풍…용인 클러스터 산단 첫 아파트 공급 '눈길'",
-      "link": "https://www.hankyung.com/article/202606305802i",
-      "source": "한국경제",
-      "ts": 1782795083000,
-      "pub": "Tue, 30 Jun 2026 13:51:23 +0900",
+      "title": "이엠에스, '인천 반도체포럼'서 플라즈마 코팅 기술 발표",
+      "link": "https://www.mt.co.kr/industry/2026/06/30/2026063010260977654",
+      "source": "머니투데이",
+      "ts": 1782808331000,
+      "pub": "Tue, 30 Jun 2026 17:32:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'메가프로젝트'에 반도체株 들썩…외국인은 8일째 매도",
+      "link": "https://www.mt.co.kr/stock/2026/06/30/2026063016453487288",
+      "source": "머니투데이",
+      "ts": 1782807699000,
+      "pub": "Tue, 30 Jun 2026 17:21:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "목포시, 서남권 반도체 메가프로젝트 적극 환영",
+      "link": "https://www.yna.co.kr/view/AKR20260630164000054",
+      "source": "연합뉴스 경제",
+      "ts": 1782806990000,
+      "pub": "Tue, 30 Jun 2026 17:09:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "요즘 핫한 '반도체' 알짜 소부장주, 삼성증권이 투자 돕는다",
+      "link": "https://www.mt.co.kr/stock/2026/06/30/2026063016351711137",
+      "source": "머니투데이",
+      "ts": 1782806487000,
+      "pub": "Tue, 30 Jun 2026 17:01:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 쏠림에 M7 된서리…이달 시총 3천600조원 증발",
+      "link": "https://www.yna.co.kr/view/AKR20260630144700009",
+      "source": "연합뉴스 국제",
+      "ts": 1782806073000,
+      "pub": "Tue, 30 Jun 2026 16:54:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 반도체 투자 계획에 광주 부동산 시장 들썩",
+      "link": "https://www.yna.co.kr/view/AKR20260630153100054",
+      "source": "연합뉴스 경제",
+      "ts": 1782805634000,
+      "pub": "Tue, 30 Jun 2026 16:47:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우리금융硏 \"올해 성장전망 3.0%로 상향…반도체 사이클 장기화\"",
+      "link": "https://www.yna.co.kr/view/AKR20260630143300002",
+      "source": "연합뉴스 경제",
+      "ts": 1782803215000,
+      "pub": "Tue, 30 Jun 2026 16:06:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] '호남 반도체' 테마주, 투자경보에도 일부 상한가 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260630053951008",
+      "source": "연합뉴스 경제",
+      "ts": 1782802383000,
+      "pub": "Tue, 30 Jun 2026 15:53:03 +0900",
       "sentiment": "neutral"
     },
     {
@@ -60,14 +132,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "코스피, '반도체 매수세 둔화·외인 팔자'에 보합권서 혼조",
-      "link": "https://www.yna.co.kr/view/AKR20260630083300008",
-      "source": "연합뉴스 경제",
-      "ts": 1782785694000,
-      "pub": "Tue, 30 Jun 2026 11:14:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "제퍼리스 \"메모리 가격 3분기 50% ↑…내년에도 40~45% ↑\"",
       "link": "https://www.yna.co.kr/view/AKR20260630014100009",
       "source": "연합뉴스 국제",
@@ -81,22 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782763448000,
       "pub": "Tue, 30 Jun 2026 05:04:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美소비자, 삼성·하이닉스·마이크론 '담합' 주장 소송",
-      "link": "https://www.yna.co.kr/view/AKR20260629164700009",
-      "source": "연합뉴스 국제",
-      "ts": 1782734208000,
-      "pub": "Mon, 29 Jun 2026 20:56:48 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"中 CXMT, 텐센트에 4조5천억 규모 D램 공급 장기 계약\"",
-      "link": "https://www.yna.co.kr/view/AKR20260629156900009",
-      "source": "연합뉴스 국제",
-      "ts": 1782725091000,
-      "pub": "Mon, 29 Jun 2026 18:24:51 +0900",
       "sentiment": "neutral"
     }
   ]

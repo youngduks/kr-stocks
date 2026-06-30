@@ -1,22 +1,30 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-30T10:23:23.493Z",
-  "count": 17,
+  "updated_at": "2026-06-30T13:02:45.115Z",
+  "count": 16,
   "items": [
     {
-      "title": "'철강 빗장' EU, 중국 정조준…무관세 쿼터 3분의 2 쪼그라들어",
+      "title": "EU 철강 빗장에 中 무관세 쿼터 ⅔ 급감…韓 19% 감소로 선방(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260630180451098",
+      "source": "연합뉴스 국제",
+      "ts": 1782821463000,
+      "pub": "Tue, 30 Jun 2026 21:11:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "EU, 내달부터 소액 소포에 3유로 관세…쉬인·테무 등 겨냥",
+      "link": "https://www.yna.co.kr/view/AKR20260630180200081",
+      "source": "연합뉴스 국제",
+      "ts": 1782816238000,
+      "pub": "Tue, 30 Jun 2026 19:43:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'철강 빗장' EU, 중국 정조준…무관세 쿼터 3분의 2 급감",
       "link": "https://www.yna.co.kr/view/AKR20260630180400098",
       "source": "연합뉴스 국제",
       "ts": 1782814560000,
       "pub": "Tue, 30 Jun 2026 19:16:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "무관세 물량 반토막 난 EU 시장… 韓 철강, 정상외교로 '실리' 챙겼다",
-      "link": "https://www.mt.co.kr/economy/2026/06/30/2026063017395832952",
-      "source": "머니투데이",
-      "ts": 1782809889000,
-      "pub": "Tue, 30 Jun 2026 17:58:09 +0900",
       "sentiment": "neutral"
     },
     {
@@ -121,22 +129,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782776413000,
       "pub": "Tue, 30 Jun 2026 08:40:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"주요 IB, 美연준 금리인하 종료 평가…하반기 동결·인상 전망\"",
-      "link": "https://www.yna.co.kr/view/AKR20260630009100072",
-      "source": "연합뉴스 국제",
-      "ts": 1782768019000,
-      "pub": "Tue, 30 Jun 2026 06:20:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美대법, '선거일後 도착' 우편투표 합법 판결…트럼프에 타격(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260630000452071",
-      "source": "연합뉴스 국제",
-      "ts": 1782765506000,
-      "pub": "Tue, 30 Jun 2026 05:38:26 +0900",
       "sentiment": "neutral"
     }
   ]

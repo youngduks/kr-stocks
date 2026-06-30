@@ -1,70 +1,14 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-30T10:23:23.494Z",
-  "count": 18,
+  "updated_at": "2026-06-30T13:02:45.117Z",
+  "count": 9,
   "items": [
     {
-      "title": "[단독] IMM, 코오롱 반도체 소재 부문 품는다",
-      "link": "https://www.hankyung.com/article/2026063074781",
+      "title": "호남 반도체 800조 투자에…TK \"경제 초토화\"",
+      "link": "https://www.hankyung.com/article/2026063073531",
       "source": "한국경제",
-      "ts": 1782811147000,
-      "pub": "Tue, 30 Jun 2026 18:19:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "다우-나스닥, 반도체-빅테크 커지는 수익률 차이…약세장 경고음?[오미주]",
-      "link": "https://www.mt.co.kr/world/2026/06/30/2026063015460929495",
-      "source": "머니투데이",
-      "ts": 1782810300000,
-      "pub": "Tue, 30 Jun 2026 18:05:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"지금은 호황, 투자 이후가 문제\"…반도체 '사이클 반전' 우려",
-      "link": "https://www.mt.co.kr/industry/2026/06/30/2026063012180541174",
-      "source": "머니투데이",
-      "ts": 1782809400000,
-      "pub": "Tue, 30 Jun 2026 17:50:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"가격은? 생산은 언제?\"…李 대통령, SK 전시 보며 반도체 '열공'",
-      "link": "https://www.mt.co.kr/politics/2026/06/30/2026063017431898566",
-      "source": "머니투데이",
-      "ts": 1782809257000,
-      "pub": "Tue, 30 Jun 2026 17:47:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "원고 덮은 李대통령...\"반도체 왜 호남인가\" 20분 작심 설파",
-      "link": "https://www.mt.co.kr/politics/2026/06/30/2026063016455246719",
-      "source": "머니투데이",
-      "ts": 1782808528000,
-      "pub": "Tue, 30 Jun 2026 17:35:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "전영현 \"광주 반도체 팹, 원전 확대 필요\"…전력·용수 확보 관건",
-      "link": "https://www.mt.co.kr/industry/2026/06/30/2026063017174193076",
-      "source": "머니투데이",
-      "ts": 1782808500000,
-      "pub": "Tue, 30 Jun 2026 17:35:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이엠에스, '인천 반도체포럼'서 플라즈마 코팅 기술 발표",
-      "link": "https://www.mt.co.kr/industry/2026/06/30/2026063010260977654",
-      "source": "머니투데이",
-      "ts": 1782808331000,
-      "pub": "Tue, 30 Jun 2026 17:32:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'메가프로젝트'에 반도체株 들썩…외국인은 8일째 매도",
-      "link": "https://www.mt.co.kr/stock/2026/06/30/2026063016453487288",
-      "source": "머니투데이",
-      "ts": 1782807699000,
-      "pub": "Tue, 30 Jun 2026 17:21:39 +0900",
+      "ts": 1782813600000,
+      "pub": "Tue, 30 Jun 2026 19:00:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -73,14 +17,6 @@
       "source": "연합뉴스 경제",
       "ts": 1782806990000,
       "pub": "Tue, 30 Jun 2026 17:09:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "요즘 핫한 '반도체' 알짜 소부장주, 삼성증권이 투자 돕는다",
-      "link": "https://www.mt.co.kr/stock/2026/06/30/2026063016351711137",
-      "source": "머니투데이",
-      "ts": 1782806487000,
-      "pub": "Tue, 30 Jun 2026 17:01:27 +0900",
       "sentiment": "neutral"
     },
     {
@@ -137,14 +73,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782775181000,
       "pub": "Tue, 30 Jun 2026 08:19:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "앤트로픽-엔비디아-MS 삼각동맹 결실…애저시스템서 클로드 구동",
-      "link": "https://www.yna.co.kr/view/AKR20260630004900091",
-      "source": "연합뉴스 국제",
-      "ts": 1782763448000,
-      "pub": "Tue, 30 Jun 2026 05:04:08 +0900",
       "sentiment": "neutral"
     }
   ]

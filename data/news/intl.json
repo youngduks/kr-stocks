@@ -1,10 +1,34 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-01T11:15:31.564Z",
-  "count": 20,
+  "updated_at": "2026-07-01T14:03:46.453Z",
+  "count": 18,
   "items": [
     {
-      "title": "트럼프,암호화폐 혹한기에 \"암호화폐 사업서 2.1조원 벌어\"",
+      "title": "트럼프 유세곡 'YMCA' 부른 빌리지 피플의 빅터 윌리스 별세(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260701185651009",
+      "source": "연합뉴스 국제",
+      "ts": 1782912398000,
+      "pub": "Wed, 1 Jul 2026 22:26:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"아주 좋은 회담 했다…이란 비핵화 순조롭게 진행\"",
+      "link": "https://www.yna.co.kr/view/AKR20260701196500071",
+      "source": "연합뉴스 국제",
+      "ts": 1782911940000,
+      "pub": "Wed, 1 Jul 2026 22:19:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "WSJ \"트럼프, '이란 전면전 재개' 검토했으나 외교 유지 결정\"",
+      "link": "https://www.mt.co.kr/world/2026/07/01/2026070120022146356",
+      "source": "머니투데이",
+      "ts": 1782907336000,
+      "pub": "Wed, 01 Jul 2026 21:02:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 일가, 암호화폐로 돈 쓸어 담았다…2조 넘게 싹쓸이",
       "link": "https://www.hankyung.com/article/202607010433i",
       "source": "한국경제",
       "ts": 1782901971000,
@@ -121,46 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782866703000,
       "pub": "Wed, 1 Jul 2026 09:45:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라, 모스크바 또 드론타격…'전장의 눈' 위성센터 파괴 주장",
-      "link": "https://www.yna.co.kr/view/AKR20260701030500009",
-      "source": "연합뉴스 국제",
-      "ts": 1782863018000,
-      "pub": "Wed, 1 Jul 2026 08:43:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 작년 얼마 벌었나 보니…가상화폐 사업만 2조 '떼돈'",
-      "link": "https://www.yna.co.kr/view/AKR20260701028200009",
-      "source": "연합뉴스 국제",
-      "ts": 1782862478000,
-      "pub": "Wed, 1 Jul 2026 08:34:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"공화당, 사상 첫 중간선거 전당대회 9월 9∼10일 개최\"",
-      "link": "https://www.yna.co.kr/view/AKR20260701015400071",
-      "source": "연합뉴스 국제",
-      "ts": 1782858744000,
-      "pub": "Wed, 1 Jul 2026 07:32:24 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "美대법, 트럼프 핵심 경제·이민정책 제동…국정동력 '타격'",
-      "link": "https://www.yna.co.kr/view/AKR20260701013300071",
-      "source": "연합뉴스 국제",
-      "ts": 1782858453000,
-      "pub": "Wed, 1 Jul 2026 07:27:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"대법 제동 판결은 다행…트럼프의 출생시민권 공격 계속될 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260701010000071",
-      "source": "연합뉴스 국제",
-      "ts": 1782854327000,
-      "pub": "Wed, 1 Jul 2026 06:18:47 +0900",
       "sentiment": "neutral"
     }
   ]

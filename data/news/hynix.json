@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-01T19:38:45.040Z",
-  "count": 7,
+  "updated_at": "2026-07-01T21:15:30.700Z",
+  "count": 8,
   "items": [
+    {
+      "title": "뉴욕증시, 반도체주 매도에 약세 마감…마이크론 10% 급락(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260702005551072",
+      "source": "연합뉴스 국제",
+      "ts": 1782939654000,
+      "pub": "Thu, 2 Jul 2026 06:00:54 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "뉴욕증시, 반도체주 매도에 약세 마감…마이크론 10% 급락",
+      "link": "https://www.yna.co.kr/view/AKR20260702005500072",
+      "source": "연합뉴스 국제",
+      "ts": 1782936648000,
+      "pub": "Thu, 2 Jul 2026 05:10:48 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "트럼프 \"마이크론 '트럼프 저축계좌'에 2.5억달러 기여\"",
       "link": "https://www.yna.co.kr/view/AKR20260702002800071",
@@ -49,14 +65,6 @@
       "source": "연합뉴스 경제",
       "ts": 1782882806000,
       "pub": "Wed, 1 Jul 2026 14:13:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI 칩 에치드, 1.2조원 유치…\"또다른 엔비디아 대항마\"",
-      "link": "https://www.yna.co.kr/view/AKR20260701074600009",
-      "source": "연합뉴스 국제",
-      "ts": 1782872257000,
-      "pub": "Wed, 1 Jul 2026 11:17:37 +0900",
       "sentiment": "neutral"
     }
   ]

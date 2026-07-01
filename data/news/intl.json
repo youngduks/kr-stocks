@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-06-30T23:57:02.786Z",
-  "count": 31,
+  "updated_at": "2026-07-01T02:49:18.806Z",
+  "count": 25,
   "items": [
+    {
+      "title": "\"우크라인들의 미국 정부 지지율 단 7%\"…4년 전엔 66%",
+      "link": "https://www.yna.co.kr/view/AKR20260701076900009",
+      "source": "연합뉴스 국제",
+      "ts": 1782870496000,
+      "pub": "Wed, 1 Jul 2026 10:48:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'우크라 드론 피해' 러시아, 휘발유 수입 추진 공식화",
+      "link": "https://www.yna.co.kr/view/AKR20260701073100009",
+      "source": "연합뉴스 국제",
+      "ts": 1782869613000,
+      "pub": "Wed, 1 Jul 2026 10:33:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美대법원, 트럼프 '출생시민권 제한' 제동",
+      "link": "https://www.hankyung.com/article/202607018437i",
+      "source": "한국경제",
+      "ts": 1782869074000,
+      "pub": "Wed, 01 Jul 2026 10:24:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美, 12월 G20 의제 축소 움직임…\"미중회담 배경 취급\" 불만도",
+      "link": "https://www.yna.co.kr/view/AKR20260701070000009",
+      "source": "연합뉴스 국제",
+      "ts": 1782869071000,
+      "pub": "Wed, 1 Jul 2026 10:24:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 CIA, 사이버·기술 중심 대수술…\"첨단 AI모델은 디지털 핵무기\"",
+      "link": "https://www.yna.co.kr/view/AKR20260701052200009",
+      "source": "연합뉴스 국제",
+      "ts": 1782867532000,
+      "pub": "Wed, 1 Jul 2026 09:58:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 최고성직자 기구서 트럼프·네타냐후 암살 촉구",
+      "link": "https://www.yna.co.kr/view/AKR20260701052000009",
+      "source": "연합뉴스 국제",
+      "ts": 1782866703000,
+      "pub": "Wed, 1 Jul 2026 09:45:03 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "우크라, 모스크바 또 드론타격…'전장의 눈' 위성센터 파괴 주장",
       "link": "https://www.yna.co.kr/view/AKR20260701030500009",
@@ -20,22 +68,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[외신 에스프레소]미 대법원, 트럼프 '출생시민권 제한' 제동",
-      "link": "https://www.hankyung.com/article/202607018065i",
-      "source": "한국경제",
-      "ts": 1782860534000,
-      "pub": "Wed, 01 Jul 2026 08:02:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"공화당, 사상 첫 중간선거 전당대회 9월 개최\"",
-      "link": "https://www.hankyung.com/article/2026070180207",
-      "source": "한국경제",
-      "ts": 1782859733000,
-      "pub": "Wed, 01 Jul 2026 07:48:53 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "트럼프 \"공화당, 사상 첫 중간선거 전당대회 9월 9∼10일 개최\"",
       "link": "https://www.yna.co.kr/view/AKR20260701015400071",
       "source": "연합뉴스 국제",
@@ -49,14 +81,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782858453000,
       "pub": "Wed, 1 Jul 2026 07:27:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "대법원 판결은 끝 아니다…트럼프, 출생시민권 두고 2차전 예고",
-      "link": "https://www.hankyung.com/article/2026070179867",
-      "source": "한국경제",
-      "ts": 1782857857000,
-      "pub": "Wed, 01 Jul 2026 07:17:37 +0900",
       "sentiment": "neutral"
     },
     {
@@ -92,22 +116,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"출생시민권 금지 안돼\"…美대법원, 트럼프 제동",
-      "link": "https://www.hankyung.com/article/2026070178411",
-      "source": "한국경제",
-      "ts": 1782834524000,
-      "pub": "Wed, 01 Jul 2026 00:48:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美대법원 \"미국서 태어나면 美시민\" 인정…트럼프 행정명령 기각",
-      "link": "https://www.hankyung.com/article/202607017845i",
-      "source": "한국경제",
-      "ts": 1782833358000,
-      "pub": "Wed, 01 Jul 2026 00:29:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "푸틴 소유 추정 요트, 4년만에 포착…\"덴마크 해안 출몰\"",
       "link": "https://www.yna.co.kr/view/AKR20260701000300098",
       "source": "연합뉴스 국제",
@@ -121,14 +129,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782830963000,
       "pub": "Tue, 30 Jun 2026 23:49:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 美 대법원, '출생시민권 금지' 트럼프 이민정책에 제동",
-      "link": "https://www.hankyung.com/article/2026063078257",
-      "source": "한국경제",
-      "ts": 1782830352000,
-      "pub": "Tue, 30 Jun 2026 23:39:12 +0900",
       "sentiment": "neutral"
     },
     {
@@ -201,54 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782808891000,
       "pub": "Tue, 30 Jun 2026 17:41:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "EU 철강 무관세 물량 46% 축소…한국, 19.7% 감소로 '방어'",
-      "link": "https://www.yna.co.kr/view/AKR20260630168500003",
-      "source": "연합뉴스 경제",
-      "ts": 1782808217000,
-      "pub": "Tue, 30 Jun 2026 17:30:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 정보기관에 '외국 정보원 명단' 요구…CIA·FBI 반발",
-      "link": "https://www.yna.co.kr/view/AKR20260630144000009",
-      "source": "연합뉴스 국제",
-      "ts": 1782803602000,
-      "pub": "Tue, 30 Jun 2026 16:13:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, SNS서 '황금독수리 선물' 자랑…알고보니 AI 이미지",
-      "link": "https://www.yna.co.kr/view/AKR20260630142800009",
-      "source": "연합뉴스 국제",
-      "ts": 1782803308000,
-      "pub": "Tue, 30 Jun 2026 16:08:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "북미무역협상 운명은…트럼프 공세 속 7월 1일 연장시한 넘길 듯",
-      "link": "https://www.yna.co.kr/view/AKR20260630140200009",
-      "source": "연합뉴스 국제",
-      "ts": 1782802299000,
-      "pub": "Tue, 30 Jun 2026 15:51:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "모나코 주택에 폭탄 테러…우크라 '친러 재벌' 노린 듯(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260630015151009",
-      "source": "연합뉴스 국제",
-      "ts": 1782801901000,
-      "pub": "Tue, 30 Jun 2026 15:45:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한·우크라 외교장관, 北포로 송환 문제 협의…\"건설적 논의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260630135000504",
-      "source": "연합뉴스 국제",
-      "ts": 1782801107000,
-      "pub": "Tue, 30 Jun 2026 15:31:47 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,6 +1,23 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-06-30T23:57:02.788Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-07-01T02:49:18.808Z",
+  "count": 2,
+  "items": [
+    {
+      "title": "김재준 군산시장 취임…\"현대차 9조 투자, 군산의 성장으로\"",
+      "link": "https://www.yna.co.kr/view/AKR20260701079700055",
+      "source": "연합뉴스 경제",
+      "ts": 1782871207000,
+      "pub": "Wed, 1 Jul 2026 11:00:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "제네시스, 연식변경 GV70 출시…19인치 휠 기본에 상품성 개선",
+      "link": "https://www.yna.co.kr/view/AKR20260701037900003",
+      "source": "연합뉴스 경제",
+      "ts": 1782865831000,
+      "pub": "Wed, 1 Jul 2026 09:30:31 +0900",
+      "sentiment": "neutral"
+    }
+  ]
 }

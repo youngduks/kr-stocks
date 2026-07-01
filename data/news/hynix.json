@@ -1,14 +1,78 @@
 {
   "category": "hynix",
-  "updated_at": "2026-06-30T23:57:02.787Z",
-  "count": 9,
+  "updated_at": "2026-07-01T02:49:18.808Z",
+  "count": 11,
   "items": [
     {
-      "title": "미국도 궁금한 \"반도체 언제까지 가나요?\"…Q&A 모아봤습니다",
-      "link": "https://www.hankyung.com/article/202606306817i",
+      "title": "정부 \"삼성전자·SK하이닉스 '성과급 백지화 공문설' 허위\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260701045151530",
+      "source": "연합뉴스 경제",
+      "ts": 1782872503000,
+      "pub": "Wed, 1 Jul 2026 11:21:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 날개 단 한국 수출…1조 달러 넘어 세계 4위 정조준",
+      "link": "https://www.yna.co.kr/view/AKR20260701080900003",
+      "source": "연합뉴스 경제",
+      "ts": 1782872363000,
+      "pub": "Wed, 1 Jul 2026 11:19:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI 칩 에치드, 1.2조원 유치…\"또다른 엔비디아 대항마\"",
+      "link": "https://www.yna.co.kr/view/AKR20260701074600009",
+      "source": "연합뉴스 국제",
+      "ts": 1782872257000,
+      "pub": "Wed, 1 Jul 2026 11:17:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스, 메가프로젝트 반영 증권신고서 정정…투자위험 추가",
+      "link": "https://www.yna.co.kr/view/AKR20260701062000003",
+      "source": "연합뉴스 경제",
+      "ts": 1782869233000,
+      "pub": "Wed, 1 Jul 2026 10:27:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'한국의 램리서치' 브이엠…하이닉스 투자 늘수록 실적 뛴다",
+      "link": "https://www.hankyung.com/article/202606306672i",
       "source": "한국경제",
-      "ts": 1782860404000,
-      "pub": "Wed, 01 Jul 2026 08:00:04 +0900",
+      "ts": 1782868291000,
+      "pub": "Wed, 01 Jul 2026 10:11:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "노동부 \"삼성전자·SK하이닉스 '성과급 백지화 공문설' 허위\"",
+      "link": "https://www.yna.co.kr/view/AKR20260701045100530",
+      "source": "연합뉴스 경제",
+      "ts": 1782865977000,
+      "pub": "Wed, 1 Jul 2026 09:32:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[마켓라이브] 외국인 매도세에 코스피 하락 전환...코스닥은 '반도체 소부장'發 강세 [오전 10시 시황]",
+      "link": "https://www.hankyung.com/article/202607018143i",
+      "source": "한국경제",
+      "ts": 1782865297000,
+      "pub": "Wed, 01 Jul 2026 09:21:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 반도체 6월 수출 448억달러…사상 첫 400억달러 돌파",
+      "link": "https://www.yna.co.kr/view/AKR20260701035100003",
+      "source": "연합뉴스 경제",
+      "ts": 1782864005000,
+      "pub": "Wed, 1 Jul 2026 09:00:05 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼전닉스 반도체 투자 계획에 ASML 등 장비주 들썩",
+      "link": "https://www.yna.co.kr/view/AKR20260701031900009",
+      "source": "연합뉴스 국제",
+      "ts": 1782863728000,
+      "pub": "Wed, 1 Jul 2026 08:55:28 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,59 +84,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"삼성전자, 메모리 슈퍼사이클 연장…목표가 58만원\"-상상인",
-      "link": "https://www.hankyung.com/article/2026070180066",
-      "source": "한국경제",
-      "ts": 1782858755000,
-      "pub": "Wed, 01 Jul 2026 07:32:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[포토] 李대통령, 서남권 반도체 후보지 시찰",
-      "link": "https://www.hankyung.com/article/2026063077911",
-      "source": "한국경제",
-      "ts": 1782835217000,
-      "pub": "Wed, 01 Jul 2026 01:00:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "목포시, 서남권 반도체 메가프로젝트 적극 환영",
-      "link": "https://www.yna.co.kr/view/AKR20260630164000054",
-      "source": "연합뉴스 경제",
-      "ts": 1782806990000,
-      "pub": "Tue, 30 Jun 2026 17:09:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "반도체 쏠림에 M7 된서리…이달 시총 3천600조원 증발",
       "link": "https://www.yna.co.kr/view/AKR20260630144700009",
       "source": "연합뉴스 국제",
       "ts": 1782806073000,
       "pub": "Tue, 30 Jun 2026 16:54:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 반도체 투자 계획에 광주 부동산 시장 들썩",
-      "link": "https://www.yna.co.kr/view/AKR20260630153100054",
-      "source": "연합뉴스 경제",
-      "ts": 1782805634000,
-      "pub": "Tue, 30 Jun 2026 16:47:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우리금융硏 \"올해 성장전망 3.0%로 상향…반도체 사이클 장기화\"",
-      "link": "https://www.yna.co.kr/view/AKR20260630143300002",
-      "source": "연합뉴스 경제",
-      "ts": 1782803215000,
-      "pub": "Tue, 30 Jun 2026 16:06:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] '호남 반도체' 테마주, 투자경보에도 일부 상한가 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260630053951008",
-      "source": "연합뉴스 경제",
-      "ts": 1782802383000,
-      "pub": "Tue, 30 Jun 2026 15:53:03 +0900",
       "sentiment": "neutral"
     }
   ]

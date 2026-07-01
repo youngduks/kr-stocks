@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-01T17:04:31.178Z",
-  "count": 21,
+  "updated_at": "2026-07-01T19:38:45.039Z",
+  "count": 17,
   "items": [
+    {
+      "title": "트럼프 \"마이크론 '트럼프 저축계좌'에 2.5억달러 기여\"",
+      "link": "https://www.yna.co.kr/view/AKR20260702002800071",
+      "source": "연합뉴스 국제",
+      "ts": 1782928837000,
+      "pub": "Thu, 2 Jul 2026 03:00:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'러시아 가스관 폭파' 4년 만에 우크라인 용의자 기소",
+      "link": "https://www.yna.co.kr/view/AKR20260702002500082",
+      "source": "연합뉴스 국제",
+      "ts": 1782927732000,
+      "pub": "Thu, 2 Jul 2026 02:42:12 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'친러' 우크라 재벌 테러 관련자 1명 체포 후 석방",
+      "link": "https://www.yna.co.kr/view/AKR20260702002300081",
+      "source": "연합뉴스 국제",
+      "ts": 1782926407000,
+      "pub": "Thu, 2 Jul 2026 02:20:07 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "워시 연준의장 \"인플레 위험 낮아졌지만…물가 너무 높아\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260701200651085",
@@ -12,35 +36,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "美연준 의장 \"물가 너무 높다…금리 힌트는 안 줄 것\"",
-      "link": "https://www.mt.co.kr/world/2026/07/02/2026070201024489728",
-      "source": "머니투데이",
-      "ts": 1782921978000,
-      "pub": "Thu, 02 Jul 2026 01:06:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란 비핵화 순조롭게 진행…좋은 회담했다\"",
-      "link": "https://www.mt.co.kr/world/2026/07/02/2026070200061341901",
-      "source": "머니투데이",
-      "ts": 1782918634000,
-      "pub": "Thu, 02 Jul 2026 00:10:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "워시 연준 의장 \"인플레 위험 낮아졌지만 물가 너무 높아\"",
       "link": "https://www.yna.co.kr/view/AKR20260701200600085",
       "source": "연합뉴스 국제",
       "ts": 1782918349000,
       "pub": "Thu, 2 Jul 2026 00:05:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프도 춘 'Y.M.C.A.'…원곡 보컬 빅터 윌리스 별세, 향년 74세",
-      "link": "https://www.mt.co.kr/world/2026/07/01/2026070123202160604",
-      "source": "머니투데이",
-      "ts": 1782916389000,
-      "pub": "Wed, 01 Jul 2026 23:33:09 +0900",
       "sentiment": "neutral"
     },
     {
@@ -57,14 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782911940000,
       "pub": "Wed, 1 Jul 2026 22:19:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "WSJ \"트럼프, '이란 전면전 재개' 검토했으나 외교 유지 결정\"",
-      "link": "https://www.mt.co.kr/world/2026/07/01/2026070120022146356",
-      "source": "머니투데이",
-      "ts": 1782907336000,
-      "pub": "Wed, 01 Jul 2026 21:02:16 +0900",
       "sentiment": "neutral"
     },
     {
@@ -145,30 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782880382000,
       "pub": "Wed, 1 Jul 2026 13:33:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"우크라인들의 미국 정부 지지율 단 7%\"…4년 전엔 66%",
-      "link": "https://www.yna.co.kr/view/AKR20260701076900009",
-      "source": "연합뉴스 국제",
-      "ts": 1782870496000,
-      "pub": "Wed, 1 Jul 2026 10:48:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'우크라 드론 피해' 러시아, 휘발유 수입 추진 공식화",
-      "link": "https://www.yna.co.kr/view/AKR20260701073100009",
-      "source": "연합뉴스 국제",
-      "ts": 1782869613000,
-      "pub": "Wed, 1 Jul 2026 10:33:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, 12월 G20 의제 축소 움직임…\"미중회담 배경 취급\" 불만도",
-      "link": "https://www.yna.co.kr/view/AKR20260701070000009",
-      "source": "연합뉴스 국제",
-      "ts": 1782869071000,
-      "pub": "Wed, 1 Jul 2026 10:24:31 +0900",
       "sentiment": "neutral"
     }
   ]

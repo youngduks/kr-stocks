@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-01T14:03:46.453Z",
-  "count": 18,
+  "updated_at": "2026-07-01T17:04:31.178Z",
+  "count": 21,
   "items": [
+    {
+      "title": "워시 연준의장 \"인플레 위험 낮아졌지만…물가 너무 높아\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260701200651085",
+      "source": "연합뉴스 국제",
+      "ts": 1782924677000,
+      "pub": "Thu, 2 Jul 2026 01:51:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美연준 의장 \"물가 너무 높다…금리 힌트는 안 줄 것\"",
+      "link": "https://www.mt.co.kr/world/2026/07/02/2026070201024489728",
+      "source": "머니투데이",
+      "ts": 1782921978000,
+      "pub": "Thu, 02 Jul 2026 01:06:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 비핵화 순조롭게 진행…좋은 회담했다\"",
+      "link": "https://www.mt.co.kr/world/2026/07/02/2026070200061341901",
+      "source": "머니투데이",
+      "ts": 1782918634000,
+      "pub": "Thu, 02 Jul 2026 00:10:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "워시 연준 의장 \"인플레 위험 낮아졌지만 물가 너무 높아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260701200600085",
+      "source": "연합뉴스 국제",
+      "ts": 1782918349000,
+      "pub": "Thu, 2 Jul 2026 00:05:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프도 춘 'Y.M.C.A.'…원곡 보컬 빅터 윌리스 별세, 향년 74세",
+      "link": "https://www.mt.co.kr/world/2026/07/01/2026070123202160604",
+      "source": "머니투데이",
+      "ts": 1782916389000,
+      "pub": "Wed, 01 Jul 2026 23:33:09 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 유세곡 'YMCA' 부른 빌리지 피플의 빅터 윌리스 별세(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260701185651009",
@@ -129,22 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782869071000,
       "pub": "Wed, 1 Jul 2026 10:24:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 CIA, 사이버·기술 중심 대수술…\"첨단 AI모델은 디지털 핵무기\"",
-      "link": "https://www.yna.co.kr/view/AKR20260701052200009",
-      "source": "연합뉴스 국제",
-      "ts": 1782867532000,
-      "pub": "Wed, 1 Jul 2026 09:58:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 최고성직자 기구서 트럼프·네타냐후 암살 촉구",
-      "link": "https://www.yna.co.kr/view/AKR20260701052000009",
-      "source": "연합뉴스 국제",
-      "ts": 1782866703000,
-      "pub": "Wed, 1 Jul 2026 09:45:03 +0900",
       "sentiment": "neutral"
     }
   ]

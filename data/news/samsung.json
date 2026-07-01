@@ -1,7 +1,7 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-01T14:03:46.455Z",
-  "count": 5,
+  "updated_at": "2026-07-01T17:04:31.180Z",
+  "count": 4,
   "items": [
     {
       "title": "노동부 \"삼전닉스 성과급 백지화 공문 발송 사실과 달라\"",
@@ -34,14 +34,6 @@
       "ts": 1782888680000,
       "pub": "Wed, 1 Jul 2026 15:51:20 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "삼전닉스 반도체 투자 계획에 ASML 등 장비주 들썩",
-      "link": "https://www.yna.co.kr/view/AKR20260701031900009",
-      "source": "연합뉴스 국제",
-      "ts": 1782863728000,
-      "pub": "Wed, 1 Jul 2026 08:55:28 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

@@ -1,38 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-01T07:02:25.825Z",
-  "count": 5,
+  "updated_at": "2026-07-01T11:15:31.565Z",
+  "count": 3,
   "items": [
+    {
+      "title": "삼전 노조 \"현장 여건 먼저\"…'메가 프로젝트' 노사정 협의 촉구",
+      "link": "https://www.hankyung.com/article/2026070104327",
+      "source": "한국경제",
+      "ts": 1782901161000,
+      "pub": "Wed, 01 Jul 2026 19:19:21 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[특징주] 삼전, 반도체 가격우려에 5%대 급락 마감…하닉도 3%↓(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260701049751008",
       "source": "연합뉴스 경제",
       "ts": 1782888680000,
       "pub": "Wed, 1 Jul 2026 15:51:20 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'삼전닉스 보유국' 한국에…\"일생일대의 기회가 온다\"",
-      "link": "https://www.hankyung.com/article/202607019378i",
-      "source": "한국경제",
-      "ts": 1782885604000,
-      "pub": "Wed, 01 Jul 2026 15:00:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "정부 \"삼성전자·SK하이닉스 '성과급 백지화 공문설' 허위\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260701045151530",
-      "source": "연합뉴스 경제",
-      "ts": 1782872503000,
-      "pub": "Wed, 1 Jul 2026 11:21:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피, 장중 3%대 급락해 8,100대…삼전·닉스 낙폭 확대(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260701088200008",
-      "source": "연합뉴스 경제",
-      "ts": 1782872351000,
-      "pub": "Wed, 1 Jul 2026 11:19:11 +0900",
       "sentiment": "negative"
     },
     {

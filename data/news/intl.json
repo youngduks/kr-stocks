@@ -1,30 +1,62 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-01T07:02:25.824Z",
-  "count": 22,
+  "updated_at": "2026-07-01T11:15:31.564Z",
+  "count": 20,
   "items": [
+    {
+      "title": "트럼프,암호화폐 혹한기에 \"암호화폐 사업서 2.1조원 벌어\"",
+      "link": "https://www.hankyung.com/article/202607010433i",
+      "source": "한국경제",
+      "ts": 1782901971000,
+      "pub": "Wed, 01 Jul 2026 19:32:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'영국판 트럼프' 패라지, 금 광고 모델로 시간당 4천600만원 벌어",
+      "link": "https://www.yna.co.kr/view/AKR20260701179400085",
+      "source": "연합뉴스 국제",
+      "ts": 1782898287000,
+      "pub": "Wed, 1 Jul 2026 18:31:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "푸틴 전시체제 흔들리나…\"연료난·드론 공포에 민심 이반\"",
+      "link": "https://www.yna.co.kr/view/AKR20260701180900009",
+      "source": "연합뉴스 국제",
+      "ts": 1782897456000,
+      "pub": "Wed, 1 Jul 2026 18:17:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "가족도 모른다…러 심장부 때리는 우크라 '그림자' 드론 부대",
+      "link": "https://www.yna.co.kr/view/AKR20260701177300109",
+      "source": "연합뉴스 국제",
+      "ts": 1782897158000,
+      "pub": "Wed, 1 Jul 2026 18:12:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘행 여객기 납치코드 오발신…전투기 출격 소동",
+      "link": "https://www.yna.co.kr/view/AKR20260701174200082",
+      "source": "연합뉴스 국제",
+      "ts": 1782894602000,
+      "pub": "Wed, 1 Jul 2026 17:30:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 화력 더 키운다…\"EU에 12조원 군사 지원 요청\"",
+      "link": "https://www.yna.co.kr/view/AKR20260701165600109",
+      "source": "연합뉴스 국제",
+      "ts": 1782893266000,
+      "pub": "Wed, 1 Jul 2026 17:07:46 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, '이란 전면전' 옵션 보고 받았지만 '협상 유지' 선택",
       "link": "https://www.yna.co.kr/view/AKR20260701147100009",
       "source": "연합뉴스 국제",
       "ts": 1782888231000,
       "pub": "Wed, 1 Jul 2026 15:43:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "상의 \"'EU 철강 '무관세할당' 우호적 수준, 환영한다\"",
-      "link": "https://www.mt.co.kr/industry/2026/07/01/2026070115133065432",
-      "source": "머니투데이",
-      "ts": 1782887520000,
-      "pub": "Wed, 01 Jul 2026 15:32:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 종전 어깃장 놓던 푸틴, \"미국 대표단 기다린다\"는데…왜?",
-      "link": "https://www.mt.co.kr/world/2026/07/01/2026070115041575592",
-      "source": "머니투데이",
-      "ts": 1782887426000,
-      "pub": "Wed, 01 Jul 2026 15:30:26 +0900",
       "sentiment": "neutral"
     },
     {
@@ -129,54 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782854327000,
       "pub": "Wed, 1 Jul 2026 06:18:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "국제금값, '매파' 美연준에 3개월 하락폭 13년 만에 최대",
-      "link": "https://www.yna.co.kr/view/AKR20260701005000072",
-      "source": "연합뉴스 국제",
-      "ts": 1782847821000,
-      "pub": "Wed, 1 Jul 2026 04:30:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"출생시민권 유지, 큰 불행…의회입법으로 만회 가능\"",
-      "link": "https://www.yna.co.kr/view/AKR20260701002300071",
-      "source": "연합뉴스 국제",
-      "ts": 1782839130000,
-      "pub": "Wed, 1 Jul 2026 02:05:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 '출생시민권' 유지된다…대법원, 트럼프 이민정책에 제동(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260630197451071",
-      "source": "연합뉴스 국제",
-      "ts": 1782836038000,
-      "pub": "Wed, 1 Jul 2026 01:13:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "푸틴 소유 추정 요트, 4년만에 포착…\"덴마크 해안 출몰\"",
-      "link": "https://www.yna.co.kr/view/AKR20260701000300098",
-      "source": "연합뉴스 국제",
-      "ts": 1782832604000,
-      "pub": "Wed, 1 Jul 2026 00:16:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美대법, '출생시민권' 유지 판결…트럼프 이민정책에 제동",
-      "link": "https://www.yna.co.kr/view/AKR20260630197400071",
-      "source": "연합뉴스 국제",
-      "ts": 1782830963000,
-      "pub": "Tue, 30 Jun 2026 23:49:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 美대법원, '출생시민권 금지' 트럼프 이민정책에 제동",
-      "link": "https://www.yna.co.kr/view/AKR20260630197200071",
-      "source": "연합뉴스 국제",
-      "ts": 1782830242000,
-      "pub": "Tue, 30 Jun 2026 23:37:22 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,15 +1,23 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-01T07:02:25.826Z",
-  "count": 11,
+  "updated_at": "2026-07-01T11:15:31.566Z",
+  "count": 9,
   "items": [
     {
-      "title": "반도체 피크 아웃 우려에 코스피 8300선 간신히 사수…2%대 약세 마감",
-      "link": "https://www.mt.co.kr/stock/2026/07/01/2026070115562655796",
-      "source": "머니투데이",
-      "ts": 1782889124000,
-      "pub": "Wed, 01 Jul 2026 15:58:44 +0900",
-      "sentiment": "negative"
+      "title": "ETF 500조 시대 연 반도체… 코스피 2배 뛸 때 4배 날았다 [퇴근길 30초 경제]",
+      "link": "https://www.hankyung.com/article/2026070103497",
+      "source": "한국경제",
+      "ts": 1782896457000,
+      "pub": "Wed, 01 Jul 2026 18:00:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 날개 단 한국 수출…1조달러 넘어 세계 4강 노려볼만(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260701080951003",
+      "source": "연합뉴스 경제",
+      "ts": 1782891324000,
+      "pub": "Wed, 1 Jul 2026 16:35:24 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "[특징주] 삼전, 반도체 가격우려에 5%대 급락 마감…하닉도 3%↓(종합)",
@@ -36,36 +44,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "289% 대박 터졌다…반도체 ETF가 상반기 시장 싹쓸이",
-      "link": "https://www.hankyung.com/article/202606307777i",
-      "source": "한국경제",
-      "ts": 1782882010000,
-      "pub": "Wed, 01 Jul 2026 14:00:10 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "반도체 넘어 전선·철강까지…AI 수혜에 수출 신기록 행진",
       "link": "https://www.yna.co.kr/view/AKR20260701100200003",
       "source": "연합뉴스 경제",
       "ts": 1782874557000,
       "pub": "Wed, 1 Jul 2026 11:55:57 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "정부 \"삼성전자·SK하이닉스 '성과급 백지화 공문설' 허위\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260701045151530",
-      "source": "연합뉴스 경제",
-      "ts": 1782872503000,
-      "pub": "Wed, 1 Jul 2026 11:21:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 날개 단 한국 수출…1조 달러 넘어 세계 4위 정조준",
-      "link": "https://www.yna.co.kr/view/AKR20260701080900003",
-      "source": "연합뉴스 경제",
-      "ts": 1782872363000,
-      "pub": "Wed, 1 Jul 2026 11:19:23 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "AI 칩 에치드, 1.2조원 유치…\"또다른 엔비디아 대항마\"",

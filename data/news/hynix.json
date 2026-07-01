@@ -1,8 +1,56 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-01T02:49:18.808Z",
+  "updated_at": "2026-07-01T07:02:25.826Z",
   "count": 11,
   "items": [
+    {
+      "title": "반도체 피크 아웃 우려에 코스피 8300선 간신히 사수…2%대 약세 마감",
+      "link": "https://www.mt.co.kr/stock/2026/07/01/2026070115562655796",
+      "source": "머니투데이",
+      "ts": 1782889124000,
+      "pub": "Wed, 01 Jul 2026 15:58:44 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[특징주] 삼전, 반도체 가격우려에 5%대 급락 마감…하닉도 3%↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260701049751008",
+      "source": "연합뉴스 경제",
+      "ts": 1782888680000,
+      "pub": "Wed, 1 Jul 2026 15:51:20 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "통합특별시의회 1호 조례는 '반도체 전략투자 지원'",
+      "link": "https://www.yna.co.kr/view/AKR20260701128200054",
+      "source": "연합뉴스 경제",
+      "ts": 1782885889000,
+      "pub": "Wed, 1 Jul 2026 15:04:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "김장호 구미시장 취임…\"반도체 팹 유치 절대 포기 안 해",
+      "link": "https://www.yna.co.kr/view/AKR20260701118700053",
+      "source": "연합뉴스 경제",
+      "ts": 1782882806000,
+      "pub": "Wed, 1 Jul 2026 14:13:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "289% 대박 터졌다…반도체 ETF가 상반기 시장 싹쓸이",
+      "link": "https://www.hankyung.com/article/202606307777i",
+      "source": "한국경제",
+      "ts": 1782882010000,
+      "pub": "Wed, 01 Jul 2026 14:00:10 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "반도체 넘어 전선·철강까지…AI 수혜에 수출 신기록 행진",
+      "link": "https://www.yna.co.kr/view/AKR20260701100200003",
+      "source": "연합뉴스 경제",
+      "ts": 1782874557000,
+      "pub": "Wed, 1 Jul 2026 11:55:57 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "정부 \"삼성전자·SK하이닉스 '성과급 백지화 공문설' 허위\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260701045151530",
@@ -28,46 +76,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "SK하이닉스, 메가프로젝트 반영 증권신고서 정정…투자위험 추가",
-      "link": "https://www.yna.co.kr/view/AKR20260701062000003",
-      "source": "연합뉴스 경제",
-      "ts": 1782869233000,
-      "pub": "Wed, 1 Jul 2026 10:27:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'한국의 램리서치' 브이엠…하이닉스 투자 늘수록 실적 뛴다",
-      "link": "https://www.hankyung.com/article/202606306672i",
-      "source": "한국경제",
-      "ts": 1782868291000,
-      "pub": "Wed, 01 Jul 2026 10:11:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "노동부 \"삼성전자·SK하이닉스 '성과급 백지화 공문설' 허위\"",
-      "link": "https://www.yna.co.kr/view/AKR20260701045100530",
-      "source": "연합뉴스 경제",
-      "ts": 1782865977000,
-      "pub": "Wed, 1 Jul 2026 09:32:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[마켓라이브] 외국인 매도세에 코스피 하락 전환...코스닥은 '반도체 소부장'發 강세 [오전 10시 시황]",
-      "link": "https://www.hankyung.com/article/202607018143i",
-      "source": "한국경제",
-      "ts": 1782865297000,
-      "pub": "Wed, 01 Jul 2026 09:21:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 반도체 6월 수출 448억달러…사상 첫 400억달러 돌파",
-      "link": "https://www.yna.co.kr/view/AKR20260701035100003",
-      "source": "연합뉴스 경제",
-      "ts": 1782864005000,
-      "pub": "Wed, 1 Jul 2026 09:00:05 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "삼전닉스 반도체 투자 계획에 ASML 등 장비주 들썩",
       "link": "https://www.yna.co.kr/view/AKR20260701031900009",
       "source": "연합뉴스 국제",
@@ -81,14 +89,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782859755000,
       "pub": "Wed, 1 Jul 2026 07:49:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 쏠림에 M7 된서리…이달 시총 3천600조원 증발",
-      "link": "https://www.yna.co.kr/view/AKR20260630144700009",
-      "source": "연합뉴스 국제",
-      "ts": 1782806073000,
-      "pub": "Tue, 30 Jun 2026 16:54:33 +0900",
       "sentiment": "neutral"
     }
   ]

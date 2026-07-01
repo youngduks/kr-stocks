@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-01T02:49:18.806Z",
-  "count": 25,
+  "updated_at": "2026-07-01T07:02:25.824Z",
+  "count": 22,
   "items": [
+    {
+      "title": "트럼프, '이란 전면전' 옵션 보고 받았지만 '협상 유지' 선택",
+      "link": "https://www.yna.co.kr/view/AKR20260701147100009",
+      "source": "연합뉴스 국제",
+      "ts": 1782888231000,
+      "pub": "Wed, 1 Jul 2026 15:43:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "상의 \"'EU 철강 '무관세할당' 우호적 수준, 환영한다\"",
+      "link": "https://www.mt.co.kr/industry/2026/07/01/2026070115133065432",
+      "source": "머니투데이",
+      "ts": 1782887520000,
+      "pub": "Wed, 01 Jul 2026 15:32:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 종전 어깃장 놓던 푸틴, \"미국 대표단 기다린다\"는데…왜?",
+      "link": "https://www.mt.co.kr/world/2026/07/01/2026070115041575592",
+      "source": "머니투데이",
+      "ts": 1782887426000,
+      "pub": "Wed, 01 Jul 2026 15:30:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 백악관 잔디밭에 신형 마린원 헬기장 건설 착수",
+      "link": "https://www.yna.co.kr/view/AKR20260701137900009",
+      "source": "연합뉴스 국제",
+      "ts": 1782886435000,
+      "pub": "Wed, 1 Jul 2026 15:13:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 우크라 \"패트리엇·스칼프 우리가 직접 생산\"…美·프 반응은?",
+      "link": "https://www.yna.co.kr/view/AKR20260701112100704",
+      "source": "연합뉴스 국제",
+      "ts": 1782883435000,
+      "pub": "Wed, 1 Jul 2026 14:23:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"백악관, 연회장 건립 5억달러 비밀 수의계약\"",
+      "link": "https://www.yna.co.kr/view/AKR20260701101300009",
+      "source": "연합뉴스 국제",
+      "ts": 1782880382000,
+      "pub": "Wed, 1 Jul 2026 13:33:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"우크라인들의 미국 정부 지지율 단 7%\"…4년 전엔 66%",
       "link": "https://www.yna.co.kr/view/AKR20260701076900009",
@@ -17,14 +65,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782869613000,
       "pub": "Wed, 1 Jul 2026 10:33:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美대법원, 트럼프 '출생시민권 제한' 제동",
-      "link": "https://www.hankyung.com/article/202607018437i",
-      "source": "한국경제",
-      "ts": 1782869074000,
-      "pub": "Wed, 01 Jul 2026 10:24:34 +0900",
       "sentiment": "neutral"
     },
     {
@@ -137,70 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782830242000,
       "pub": "Tue, 30 Jun 2026 23:37:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "모나코 주택가 폭탄 테러…우크라 '친러 재벌' 부부 중상(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260630015152009",
-      "source": "연합뉴스 국제",
-      "ts": 1782829607000,
-      "pub": "Tue, 30 Jun 2026 23:26:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 이란전 여파로 비룟값 오르자 모로코산 비료 관세유예",
-      "link": "https://www.yna.co.kr/view/AKR20260630194000071",
-      "source": "연합뉴스 국제",
-      "ts": 1782826511000,
-      "pub": "Tue, 30 Jun 2026 22:35:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "EU, 내달부터 소액 소포에 3유로 관세…쉬인·테무 등 겨냥(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260630180251081",
-      "source": "연합뉴스 국제",
-      "ts": 1782826295000,
-      "pub": "Tue, 30 Jun 2026 22:31:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "EU 철강 빗장에 中 무관세 쿼터 ⅔ 급감…韓 19% 감소로 선방(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260630180451098",
-      "source": "연합뉴스 국제",
-      "ts": 1782821463000,
-      "pub": "Tue, 30 Jun 2026 21:11:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "EU, 내달부터 소액 소포에 3유로 관세…쉬인·테무 등 겨냥",
-      "link": "https://www.yna.co.kr/view/AKR20260630180200081",
-      "source": "연합뉴스 국제",
-      "ts": 1782816238000,
-      "pub": "Tue, 30 Jun 2026 19:43:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'철강 빗장' EU, 중국 정조준…무관세 쿼터 3분의 2 급감",
-      "link": "https://www.yna.co.kr/view/AKR20260630180400098",
-      "source": "연합뉴스 국제",
-      "ts": 1782814560000,
-      "pub": "Tue, 30 Jun 2026 19:16:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한·우크라 외교장관, 北포로 송환 해법 모색…\"자유의사 존중\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260630135051504",
-      "source": "연합뉴스 국제",
-      "ts": 1782809492000,
-      "pub": "Tue, 30 Jun 2026 17:51:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러 '제자리 진격' 조롱한 젤렌스키…\"돈바스 점령은 망상\"",
-      "link": "https://www.yna.co.kr/view/AKR20260630158300109",
-      "source": "연합뉴스 국제",
-      "ts": 1782808891000,
-      "pub": "Tue, 30 Jun 2026 17:41:31 +0900",
       "sentiment": "neutral"
     }
   ]

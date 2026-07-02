@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-02T17:24:36.921Z",
-  "count": 16,
+  "updated_at": "2026-07-02T19:06:37.497Z",
+  "count": 17,
   "items": [
+    {
+      "title": "삼성, 온양·천안 'HBM' 생산 허브로",
+      "link": "https://www.mt.co.kr/industry/2026/07/03/2026070220014985498",
+      "source": "머니투데이",
+      "ts": 1783019160000,
+      "pub": "Fri, 03 Jul 2026 04:06:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성, 앤트로픽 잡나…엔비디아·테슬라 이어 AI칩 협업 논의",
+      "link": "https://www.mt.co.kr/world/2026/07/03/2026070302463268339",
+      "source": "머니투데이",
+      "ts": 1783016705000,
+      "pub": "Fri, 03 Jul 2026 03:25:05 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "세메스, AI 포럼 2026 개최…\"반도체 장비 패러다임 전환\"",
       "link": "https://www.hankyung.com/article/202607033077i",
@@ -10,14 +26,6 @@
       "ts": 1783008723000,
       "pub": "Fri, 03 Jul 2026 01:12:03 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[급등수사본부] 반도체 조정 속 낙폭 과대주 반등 기대 '제이에스코퍼레이션' vs 중장기 낙폭 심화 따른 가격 매력 '한스바이오메드'",
-      "link": "https://www.mt.co.kr/stock/2026/07/02/2026070218137016742",
-      "source": "머니투데이",
-      "ts": 1782986876000,
-      "pub": "Thu, 02 Jul 2026 19:07:56 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "말레이·싱가포르, AI 반도체 밀수 수사…\"中 밀반출 가능성\"",

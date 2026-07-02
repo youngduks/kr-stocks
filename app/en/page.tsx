@@ -3,7 +3,9 @@ import { CATEGORY_LABELS, type SymbolMeta } from "@/lib/universe";
 import { PriceCard } from "@/components/PriceCard";
 import { Header } from "@/components/Header";
 import { HomeHero } from "@/components/HomeHero";
+import { SemiconductorSignal } from "@/components/SemiconductorSignal";
 import { Footer } from "@/components/Footer";
+import { fetchSemiSignal } from "@/lib/semiSignal";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -48,7 +50,7 @@ export const metadata: Metadata = {
 };
 
 export default async function HomeEN() {
-  const data = await fetchAllPrices();
+  const [data, semiSignal] = await Promise.all([fetchAllPrices(), fetchSemiSignal()]);
 
   // Category order: Korea → Private → US → Themes ETF → Global Index
   const order: SymbolMeta["category"][] = ["korea", "private", "us", "themes", "global"];
@@ -70,23 +72,28 @@ export default async function HomeEN() {
           </p>
         </section>
 
-        {/* Hero box — Korean stocks deep-dive preview + direct CTA */}
-        <HomeHero rows={data.symbols} locale="en" />
+        {/* US semiconductor overnight signal — top. SOXL(3x) preview of tomorrow's Samsung/Hynix */}
+        <SemiconductorSignal signal={semiSignal} locale="en" />
 
         {grouped.map(({ cat, label, rows }) => (
-          <section key={cat} className="mb-10">
-            <div className="flex items-baseline justify-between mb-4">
-              <h2 className="text-lg font-bold text-text">
-                <span className="mr-2">{label.emoji}</span>{label.en}
-                <span className="ml-2 text-xs text-text-dim font-medium">{rows.length} tickers</span>
-              </h2>
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-              {rows.map((row) => (
-                <PriceCard key={row.slug} row={row} locale="en" />
-              ))}
-            </div>
-          </section>
+          <div key={cat}>
+            <section className="mb-10">
+              <div className="flex items-baseline justify-between mb-4">
+                <h2 className="text-lg font-bold text-text">
+                  <span className="mr-2">{label.emoji}</span>{label.en}
+                  <span className="ml-2 text-xs text-text-dim font-medium">{rows.length} tickers</span>
+                </h2>
+              </div>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                {rows.map((row) => (
+                  <PriceCard key={row.slug} row={row} locale="en" />
+                ))}
+              </div>
+            </section>
+
+            {/* Korean stocks deep-dive — right below the Korea section */}
+            {cat === "korea" && <HomeHero rows={data.symbols} locale="en" />}
+          </div>
         ))}
 
         <div className="mt-8 p-4 rounded-xl bg-bg-card border border-line text-xs text-text-dim">

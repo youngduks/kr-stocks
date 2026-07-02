@@ -4,13 +4,15 @@ import { PriceCard } from "@/components/PriceCard";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { HomeHero } from "@/components/HomeHero";
+import { SemiconductorSignal } from "@/components/SemiconductorSignal";
 import { PollWidget } from "@/components/PollWidget";
 import AffiliateStrip from "@/components/AffiliateStrip";
+import { fetchSemiSignal } from "@/lib/semiSignal";
 
 export const revalidate = 120; // ISR 캐시 30s → 120s (Free tier 최적화, 5/25)
 
 export default async function Home() {
-  const data = await fetchAllPrices();
+  const [data, semiSignal] = await Promise.all([fetchAllPrices(), fetchSemiSignal()]);
 
   // 카테고리 순서 (형님 명시): 한국주식 → 비상장 → 미국주식 → ETF(테마) → 글로벌 지수
   const order: SymbolMeta["category"][] = ["korea", "private", "us", "themes", "global"];
@@ -33,8 +35,8 @@ export default async function Home() {
           </div>
         </section>
 
-        {/* Hero box — 한국주식 3종 미리보기 + 종목 상세 직접 CTA (USP 발견율 ↑) */}
-        <HomeHero rows={data.symbols} locale="ko" />
+        {/* 미장 반도체 야간 시그널 — 최상단. 한국 개장 전 SOXL(3x)로 삼성·하이닉스 내일 방향 미리보기 */}
+        <SemiconductorSignal signal={semiSignal} locale="ko" />
 
         {/* 인간지표 — 내일 상승/하락 투표 (NXT 프리장 오픈 전 마감). 지난 결과 → /poll */}
         <PollWidget
@@ -47,19 +49,24 @@ export default async function Home() {
         />
 
         {grouped.map(({ cat, label, rows }) => (
-          <section key={cat} className="mb-10">
-            <div className="flex items-baseline justify-between mb-4">
-              <h2 className="text-lg font-bold text-text">
-                <span className="mr-2">{label.emoji}</span>{label.ko}
-                <span className="ml-2 text-xs text-text-dim font-medium">{rows.length}종목</span>
-              </h2>
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-              {rows.map((row) => (
-                <PriceCard key={row.slug} row={row} />
-              ))}
-            </div>
-          </section>
+          <div key={cat}>
+            <section className="mb-10">
+              <div className="flex items-baseline justify-between mb-4">
+                <h2 className="text-lg font-bold text-text">
+                  <span className="mr-2">{label.emoji}</span>{label.ko}
+                  <span className="ml-2 text-xs text-text-dim font-medium">{rows.length}종목</span>
+                </h2>
+              </div>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                {rows.map((row) => (
+                  <PriceCard key={row.slug} row={row} />
+                ))}
+              </div>
+            </section>
+
+            {/* 한국주식 종합 분석 — '한국 주식' 섹션 바로 밑 (형님 지시 7/2) */}
+            {cat === "korea" && <HomeHero rows={data.symbols} locale="ko" />}
+          </div>
         ))}
 
         <div className="mt-8 p-4 rounded-xl bg-bg-card border border-line text-xs text-text-dim">

@@ -1,8 +1,64 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-01T23:00:47.797Z",
-  "count": 18,
+  "updated_at": "2026-07-02T02:04:53.691Z",
+  "count": 21,
   "items": [
+    {
+      "title": "트럼프는 밈코인으로 떼돈, 수십만 소액 투자자는 손실",
+      "link": "https://www.yna.co.kr/view/AKR20260702070300009",
+      "source": "연합뉴스 국제",
+      "ts": 1782957430000,
+      "pub": "Thu, 2 Jul 2026 10:57:10 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "우크라 드론 정유시설 공격에 연료난…러, 인도서 휘발유 수입",
+      "link": "https://www.yna.co.kr/view/AKR20260702054400104",
+      "source": "연합뉴스 국제",
+      "ts": 1782955334000,
+      "pub": "Thu, 2 Jul 2026 10:22:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[게시판] TYM, 우크라 인도적 지원 공로로 '엠버 하트 어워드' 수상",
+      "link": "https://www.yna.co.kr/view/AKR20260702060300030",
+      "source": "연합뉴스 국제",
+      "ts": 1782955210000,
+      "pub": "Thu, 2 Jul 2026 10:20:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "EU산 우유 이달부터 '제로 관세'…FTA 체결 15년만",
+      "link": "https://www.mt.co.kr/living/2026/07/02/2026070209081895576",
+      "source": "머니투데이",
+      "ts": 1782953001000,
+      "pub": "Thu, 02 Jul 2026 09:43:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[외신 에스프레소 영상] 트럼프 재집권 후…부동산과 암호화폐로 22억 달러 싹쓸이",
+      "link": "https://www.hankyung.com/article/202607021148i",
+      "source": "한국경제",
+      "ts": 1782952827000,
+      "pub": "Thu, 02 Jul 2026 09:40:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[게시판] 관세청, '원산지 국민감시단' 17일까지 공개 모집",
+      "link": "https://www.yna.co.kr/view/AKR20260702036200002",
+      "source": "연합뉴스 경제",
+      "ts": 1782951746000,
+      "pub": "Thu, 2 Jul 2026 09:22:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '카타르선물' 새 전용기 타고 루스벨트 정치적 고향 방문(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260702006651071",
+      "source": "연합뉴스 국제",
+      "ts": 1782949971000,
+      "pub": "Thu, 2 Jul 2026 08:52:51 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프정부, 출생시민권 패소에 임신부 美입국금지 시행하나",
       "link": "https://www.yna.co.kr/view/AKR20260702016000071",
@@ -113,38 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782893266000,
       "pub": "Wed, 1 Jul 2026 17:07:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '이란 전면전' 옵션 보고 받았지만 '협상 유지' 선택",
-      "link": "https://www.yna.co.kr/view/AKR20260701147100009",
-      "source": "연합뉴스 국제",
-      "ts": 1782888231000,
-      "pub": "Wed, 1 Jul 2026 15:43:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 백악관 잔디밭에 신형 마린원 헬기장 건설 착수",
-      "link": "https://www.yna.co.kr/view/AKR20260701137900009",
-      "source": "연합뉴스 국제",
-      "ts": 1782886435000,
-      "pub": "Wed, 1 Jul 2026 15:13:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 우크라 \"패트리엇·스칼프 우리가 직접 생산\"…美·프 반응은?",
-      "link": "https://www.yna.co.kr/view/AKR20260701112100704",
-      "source": "연합뉴스 국제",
-      "ts": 1782883435000,
-      "pub": "Wed, 1 Jul 2026 14:23:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"백악관, 연회장 건립 5억달러 비밀 수의계약\"",
-      "link": "https://www.yna.co.kr/view/AKR20260701101300009",
-      "source": "연합뉴스 국제",
-      "ts": 1782880382000,
-      "pub": "Wed, 1 Jul 2026 13:33:02 +0900",
       "sentiment": "neutral"
     }
   ]

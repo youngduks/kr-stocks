@@ -1,31 +1,135 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-01T23:00:47.798Z",
-  "count": 3,
+  "updated_at": "2026-07-02T02:04:53.693Z",
+  "count": 16,
   "items": [
     {
-      "title": "'148조 순매도' 외국인 심상찮다…삼전 비중 16년만에 최저 [분석+]",
-      "link": "https://www.hankyung.com/article/2026070100806",
-      "source": "한국경제",
-      "ts": 1782941401000,
-      "pub": "Thu, 02 Jul 2026 06:30:01 +0900",
+      "title": "SK하이닉스, 청주에 100조 투자…낸드·첨단패키징 키운다",
+      "link": "https://www.mt.co.kr/industry/2026/07/02/2026070210273532353",
+      "source": "머니투데이",
+      "ts": 1782957339000,
+      "pub": "Thu, 02 Jul 2026 10:55:39 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "노동부 \"삼전닉스 성과급 백지화 공문 발송 사실과 달라\"",
-      "link": "https://www.hankyung.com/article/2026070104797",
-      "source": "한국경제",
-      "ts": 1782904764000,
-      "pub": "Wed, 01 Jul 2026 20:19:24 +0900",
+      "title": "이재용 회장 \"지금은 승부의 시간…초격차 위해 혼신의 노력\"",
+      "link": "https://www.mt.co.kr/industry/2026/07/02/2026070210362835113",
+      "source": "머니투데이",
+      "ts": 1782956656000,
+      "pub": "Thu, 02 Jul 2026 10:44:16 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[특징주] 삼전, 반도체 가격우려에 5%대 급락 마감…하닉도 3%↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260701049751008",
+      "title": "[속보] 李대통령 \"이재용 결단이 첨단산업 도약 선도…이병철 떠올라\"",
+      "link": "https://www.hankyung.com/article/2026070215277",
+      "source": "한국경제",
+      "ts": 1782956648000,
+      "pub": "Thu, 02 Jul 2026 10:44:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]李대통령 \"삼성 결정 따라 HBM 생산…'첨단산업' 충청 위상 더욱 강화\"",
+      "link": "https://www.mt.co.kr/politics/2026/07/02/2026070209471227663",
+      "source": "머니투데이",
+      "ts": 1782956623000,
+      "pub": "Thu, 02 Jul 2026 10:43:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]李대통령 \"이재용 회장 압박해 삼성이 투자 결정?…구태\"",
+      "link": "https://www.mt.co.kr/politics/2026/07/02/2026070210384427463",
+      "source": "머니투데이",
+      "ts": 1782956376000,
+      "pub": "Thu, 02 Jul 2026 10:39:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]SK하이닉스, 청주 100조 투자...M17 낸드 공장에 80조 투입",
+      "link": "https://www.mt.co.kr/industry/2026/07/02/2026070210240229575",
+      "source": "머니투데이",
+      "ts": 1782955520000,
+      "pub": "Thu, 02 Jul 2026 10:25:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] SK하이닉스 \"청주 낸드·첨단 패키징 팹에 100조 투자\"",
+      "link": "https://www.hankyung.com/article/2026070214527",
+      "source": "한국경제",
+      "ts": 1782955500000,
+      "pub": "Thu, 02 Jul 2026 10:25:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 무섭게 팔아치운 외국인들…일본으로 떠났다 [도쿄나우]",
+      "link": "https://www.hankyung.com/article/202607021335i",
+      "source": "한국경제",
+      "ts": 1782955376000,
+      "pub": "Thu, 02 Jul 2026 10:22:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]삼성전자, 온양·천안 56조 투자...차세대 HBM 메카 구축",
+      "link": "https://www.mt.co.kr/industry/2026/07/02/2026070210202254208",
+      "source": "머니투데이",
+      "ts": 1782955279000,
+      "pub": "Thu, 02 Jul 2026 10:21:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 삼성, 온양·천안에 56조 투자 \"HBM 메카로 대변모\"",
+      "link": "https://www.hankyung.com/article/2026070214287",
+      "source": "한국경제",
+      "ts": 1782955185000,
+      "pub": "Thu, 02 Jul 2026 10:19:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"애플, '美 블랙리스트' 中 CXMT·YMTC와 메모리칩 구매 협상 중\"",
+      "link": "https://www.mt.co.kr/world/2026/07/02/2026070208295921077",
+      "source": "머니투데이",
+      "ts": 1782954798000,
+      "pub": "Thu, 02 Jul 2026 10:13:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'HBM의 아버지', AI 에이전트 활용한 '반도체 설계' 노하우 공개한다",
+      "link": "https://www.mt.co.kr/tech/2026/07/02/2026070209433559753",
+      "source": "머니투데이",
+      "ts": 1782954711000,
+      "pub": "Thu, 02 Jul 2026 10:11:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李대통령 '충청권 국민보고회' 참석…삼전닉스 등 투자계획 발표",
+      "link": "https://www.yna.co.kr/view/AKR20260702044700001",
       "source": "연합뉴스 경제",
-      "ts": 1782888680000,
-      "pub": "Wed, 1 Jul 2026 15:51:20 +0900",
+      "ts": 1782954464000,
+      "pub": "Thu, 2 Jul 2026 10:07:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"더 빠지기 전에 팔자\" 삼전닉스 차익실현 우르르...8천피 붕괴",
+      "link": "https://www.mt.co.kr/stock/2026/07/02/2026070209373512679",
+      "source": "머니투데이",
+      "ts": 1782952971000,
+      "pub": "Thu, 02 Jul 2026 09:42:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼전·닉스 7%대 급락…삼성전자 30만원선 내줘",
+      "link": "https://www.yna.co.kr/view/AKR20260702042300008",
+      "source": "연합뉴스 경제",
+      "ts": 1782952714000,
+      "pub": "Thu, 2 Jul 2026 09:38:34 +0900",
       "sentiment": "negative"
+    },
+    {
+      "title": "\"유휴 컴퓨팅 팔겠다\" 메타 선언에…삼전·닉스 '된서리'",
+      "link": "https://www.hankyung.com/article/2026070212206",
+      "source": "한국경제",
+      "ts": 1782952477000,
+      "pub": "Thu, 02 Jul 2026 09:34:37 +0900",
+      "sentiment": "neutral"
     }
   ]
 }

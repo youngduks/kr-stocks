@@ -1,14 +1,46 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-02T09:50:40.999Z",
-  "count": 11,
+  "updated_at": "2026-07-02T12:00:44.979Z",
+  "count": 14,
   "items": [
     {
-      "title": "[포토] \"새로운 전용기 멋있지\"…선물 자랑하는 트럼프",
-      "link": "https://www.hankyung.com/article/2026070227371",
+      "title": "이란군, 전 최고지도자 장례 앞두고 美·이스라엘에 \"오판말라\"",
+      "link": "https://www.yna.co.kr/view/AKR20260702168000079",
+      "source": "연합뉴스 국제",
+      "ts": 1782993178000,
+      "pub": "Thu, 2 Jul 2026 20:52:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하마스 기습 1천일…이스라엘서 '안보 실패' 비판 재점화",
+      "link": "https://www.yna.co.kr/view/AKR20260702166700079",
+      "source": "연합뉴스 국제",
+      "ts": 1782990932000,
+      "pub": "Thu, 2 Jul 2026 20:15:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "FT \"오픈AI, 트럼프 정부에 지분 5% 기부 제안\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260702100552009",
+      "source": "연합뉴스 국제",
+      "ts": 1782990269000,
+      "pub": "Thu, 2 Jul 2026 20:04:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'45.3% 관세' 붙어도 더 싸…중국 자동차, 유럽 5월 판매량 일본 제쳤다",
+      "link": "https://www.mt.co.kr/world/2026/07/02/2026070219313469530",
+      "source": "머니투데이",
+      "ts": 1782989634000,
+      "pub": "Thu, 02 Jul 2026 19:53:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "성경·향수·운동화까지…'트럼프 굿즈' 팔아 32억 벌었다",
+      "link": "https://www.hankyung.com/article/2026070229267",
       "source": "한국경제",
-      "ts": 1782982878000,
-      "pub": "Thu, 02 Jul 2026 18:01:18 +0900",
+      "ts": 1782989201000,
+      "pub": "Thu, 02 Jul 2026 19:46:41 +0900",
       "sentiment": "neutral"
     },
     {
@@ -81,14 +113,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782946222000,
       "pub": "Thu, 2 Jul 2026 07:50:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, T.루스벨트 정치적 고향 찾아 \"파나마운하 中에 안내줘\"",
-      "link": "https://www.yna.co.kr/view/AKR20260702006600071",
-      "source": "연합뉴스 국제",
-      "ts": 1782938914000,
-      "pub": "Thu, 2 Jul 2026 05:48:34 +0900",
       "sentiment": "neutral"
     }
   ]

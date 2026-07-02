@@ -1,8 +1,40 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-02T09:50:41.001Z",
-  "count": 3,
+  "updated_at": "2026-07-02T12:00:44.982Z",
+  "count": 6,
   "items": [
+    {
+      "title": "현대모비스, 해외 범퍼사업부 5000억에 매각",
+      "link": "https://www.hankyung.com/article/2026070229441",
+      "source": "한국경제",
+      "ts": 1782990127000,
+      "pub": "Thu, 02 Jul 2026 20:02:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[단독]현대모비스 해외범퍼사업부 5000억에 서연이화 등 3곳에 매각",
+      "link": "https://www.hankyung.com/article/202607022928i",
+      "source": "한국경제",
+      "ts": 1782988022000,
+      "pub": "Thu, 02 Jul 2026 19:27:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[단독]현대모비스 해외범퍼사업부 5000억에 서연이화 등 3곳에 매각",
+      "link": "https://www.hankyung.com/article/202607022917i",
+      "source": "한국경제",
+      "ts": 1782987879000,
+      "pub": "Thu, 02 Jul 2026 19:24:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[단독] 현대모비스, 해외 범퍼사업부 매각",
+      "link": "https://www.hankyung.com/article/202607022919i",
+      "source": "한국경제",
+      "ts": 1782987820000,
+      "pub": "Thu, 02 Jul 2026 19:23:40 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"신사업 노조와 협의하라\"…현대차, 노조 주장 결국 수용",
       "link": "https://www.mt.co.kr/industry/2026/07/02/2026070217521697067",
@@ -18,14 +50,6 @@
       "ts": 1782959147000,
       "pub": "Thu, 2 Jul 2026 11:25:47 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "현대차·기아, 올 상반기 미국서 역대 최다 판매대수 기록",
-      "link": "https://www.yna.co.kr/view/AKR20260702007600075",
-      "source": "연합뉴스 국제",
-      "ts": 1782939482000,
-      "pub": "Thu, 2 Jul 2026 05:58:02 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

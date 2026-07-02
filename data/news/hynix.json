@@ -1,39 +1,15 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-02T09:50:41.001Z",
-  "count": 24,
+  "updated_at": "2026-07-02T12:00:44.981Z",
+  "count": 16,
   "items": [
     {
-      "title": "반도체 효과…'챔피언스시티' 3216가구",
-      "link": "https://www.hankyung.com/article/2026070226901",
-      "source": "한국경제",
-      "ts": 1782982807000,
-      "pub": "Thu, 02 Jul 2026 18:00:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "金, 하이닉스 찾아 '당청호흡' 과시…광주 간 鄭, 호남 당원 표심 달래기",
-      "link": "https://www.hankyung.com/article/2026070227751",
-      "source": "한국경제",
-      "ts": 1782982707000,
-      "pub": "Thu, 02 Jul 2026 17:58:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[단독] 반도체 초과세수 5조 투입…'소버린 AI' 개발한다",
-      "link": "https://www.hankyung.com/article/2026070228011",
-      "source": "한국경제",
-      "ts": 1782982360000,
-      "pub": "Thu, 02 Jul 2026 17:52:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"반도체 호황 끝 전망은 시기상조\"…OECD, 韓성장률 2.6% 관측 유지",
-      "link": "https://www.hankyung.com/article/2026070227087",
-      "source": "한국경제",
-      "ts": 1782982342000,
-      "pub": "Thu, 02 Jul 2026 17:52:22 +0900",
-      "sentiment": "neutral"
+      "title": "[급등수사본부] 반도체 조정 속 낙폭 과대주 반등 기대 '제이에스코퍼레이션' vs 중장기 낙폭 심화 따른 가격 매력 '한스바이오메드'",
+      "link": "https://www.mt.co.kr/stock/2026/07/02/2026070218137016742",
+      "source": "머니투데이",
+      "ts": 1782986876000,
+      "pub": "Thu, 02 Jul 2026 19:07:56 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "말레이·싱가포르, AI 반도체 밀수 수사…\"中 밀반출 가능성\"",
@@ -52,36 +28,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"한국 반도체 투자, 종말의 시작\"...'빅쇼트' 마이클 버리, 삼전닉스에 '찬물'",
-      "link": "https://www.mt.co.kr/world/2026/07/02/2026070216383989683",
-      "source": "머니투데이",
-      "ts": 1782979375000,
-      "pub": "Thu, 02 Jul 2026 17:02:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "한국노총 \"반도체 특구 주 52시간 완화는 노동개악…즉시 중단\"",
       "link": "https://www.yna.co.kr/view/AKR20260702147500530",
       "source": "연합뉴스 경제",
       "ts": 1782979332000,
       "pub": "Thu, 2 Jul 2026 17:02:12 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "'반도체' 김민석 '호남' 정청래…與 당권경쟁 '실용·정통' 대결구도",
-      "link": "https://www.mt.co.kr/politics/2026/07/02/2026070214383076208",
-      "source": "머니투데이",
-      "ts": 1782978878000,
-      "pub": "Thu, 02 Jul 2026 16:54:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[뉴스프레소] 뉴욕증시 일제히 하락… 메타 \"남는 AI, 빌려주겠다\" 메모리주 동반 급락",
-      "link": "https://www.mt.co.kr/world/2026/07/02/2026070210397031758",
-      "source": "머니투데이",
-      "ts": 1782978282000,
-      "pub": "Thu, 02 Jul 2026 16:44:42 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "하이닉스 14%↓, 17년만 최대급락…삼전 9%↓, 30만원선 내줘(종합)",
@@ -178,22 +130,6 @@
       "ts": 1782950682000,
       "pub": "Thu, 2 Jul 2026 09:04:42 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 반도체주 매도에 약세 마감…마이크론 10% 급락(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260702005551072",
-      "source": "연합뉴스 국제",
-      "ts": 1782939654000,
-      "pub": "Thu, 2 Jul 2026 06:00:54 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "뉴욕증시, 반도체주 매도에 약세 마감…마이크론 10% 급락",
-      "link": "https://www.yna.co.kr/view/AKR20260702005500072",
-      "source": "연합뉴스 국제",
-      "ts": 1782936648000,
-      "pub": "Thu, 2 Jul 2026 05:10:48 +0900",
-      "sentiment": "negative"
     }
   ]
 }

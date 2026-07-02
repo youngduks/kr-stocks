@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-02T21:57:27.248Z",
-  "count": 18,
+  "updated_at": "2026-07-02T22:59:27.346Z",
+  "count": 22,
   "items": [
+    {
+      "title": "\"LG전자, 실적개선 속 美 관세환급까지…목표가 26만\"-하나",
+      "link": "https://www.mt.co.kr/stock/2026/07/03/2026070307450167437",
+      "source": "머니투데이",
+      "ts": 1783032454000,
+      "pub": "Fri, 03 Jul 2026 07:47:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"무의미한 살상 끝내야\"…러시아의 대규모 공습 뒤 트럼프가 꺼낸 말",
+      "link": "https://www.mt.co.kr/world/2026/07/03/2026070307133115036",
+      "source": "머니투데이",
+      "ts": 1783031550000,
+      "pub": "Fri, 03 Jul 2026 07:32:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "연준 금리인상 기대 급감에 美국채 강세·달러 약세",
+      "link": "https://www.yna.co.kr/view/AKR20260703011800009",
+      "source": "연합뉴스 국제",
+      "ts": 1783029522000,
+      "pub": "Fri, 3 Jul 2026 06:58:42 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "美국무부 \"루비오, 中왕이와 상호주의 기반 전략안정관계 논의\"",
       "link": "https://www.yna.co.kr/view/AKR20260703011400071",
@@ -42,6 +66,14 @@
       "ts": 1783015653000,
       "pub": "Fri, 3 Jul 2026 03:07:33 +0900",
       "sentiment": "negative"
+    },
+    {
+      "title": "트럼프 또 나토에 불만…\"미국에 돈 제일 많이 내는데 혜택 없어\"",
+      "link": "https://www.mt.co.kr/world/2026/07/03/2026070300553558377",
+      "source": "머니투데이",
+      "ts": 1783007883000,
+      "pub": "Fri, 03 Jul 2026 00:58:03 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "EU, 러 압박받는 아르메니아에 '우크라급' 경제지원",

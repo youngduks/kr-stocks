@@ -1,7 +1,7 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-02T21:57:27.250Z",
-  "count": 7,
+  "updated_at": "2026-07-02T22:59:27.348Z",
+  "count": 11,
   "items": [
     {
       "title": "美매체 \"앤트로픽, 삼성전자와 AI칩 생산 논의\"",
@@ -9,6 +9,38 @@
       "source": "한국경제",
       "ts": 1783028058000,
       "pub": "Fri, 03 Jul 2026 06:34:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'퇴직자 줄었다더니'…인건비 45조 쓴 삼성전자의 '승부수'",
+      "link": "https://www.hankyung.com/article/202607022280g",
+      "source": "한국경제",
+      "ts": 1783026008000,
+      "pub": "Fri, 03 Jul 2026 06:00:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼전닉스만 잘 나가\" 코스피 149조 팔더니…일본서 95조 산 외인, 왜?",
+      "link": "https://www.mt.co.kr/world/2026/07/03/2026070220153763222",
+      "source": "머니투데이",
+      "ts": 1783019940000,
+      "pub": "Fri, 03 Jul 2026 04:19:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성, 온양·천안 'HBM' 생산 허브로",
+      "link": "https://www.mt.co.kr/industry/2026/07/03/2026070220014985498",
+      "source": "머니투데이",
+      "ts": 1783019160000,
+      "pub": "Fri, 03 Jul 2026 04:06:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이재용, 대규모 투자 결단… 이병철, 도쿄 선언 떠올라\"",
+      "link": "https://www.mt.co.kr/industry/2026/07/03/2026070219553773053",
+      "source": "머니투데이",
+      "ts": 1783019040000,
+      "pub": "Fri, 03 Jul 2026 04:04:00 +0900",
       "sentiment": "neutral"
     },
     {

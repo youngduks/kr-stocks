@@ -1,7 +1,7 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-02T15:03:54.742Z",
-  "count": 5,
+  "updated_at": "2026-07-02T17:24:36.922Z",
+  "count": 6,
   "items": [
     {
       "title": "현대모비스, 해외 범퍼사업부 5000억에 매각",
@@ -33,6 +33,14 @@
       "source": "한국경제",
       "ts": 1782987820000,
       "pub": "Thu, 02 Jul 2026 19:23:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"신사업 노조와 협의하라\"…현대차, 노조 주장 결국 수용",
+      "link": "https://www.mt.co.kr/industry/2026/07/02/2026070217521697067",
+      "source": "머니투데이",
+      "ts": 1782983168000,
+      "pub": "Thu, 02 Jul 2026 18:06:08 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-02T15:03:54.741Z",
-  "count": 15,
+  "updated_at": "2026-07-02T17:24:36.921Z",
+  "count": 16,
   "items": [
+    {
+      "title": "세메스, AI 포럼 2026 개최…\"반도체 장비 패러다임 전환\"",
+      "link": "https://www.hankyung.com/article/202607033077i",
+      "source": "한국경제",
+      "ts": 1783008723000,
+      "pub": "Fri, 03 Jul 2026 01:12:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[급등수사본부] 반도체 조정 속 낙폭 과대주 반등 기대 '제이에스코퍼레이션' vs 중장기 낙폭 심화 따른 가격 매력 '한스바이오메드'",
+      "link": "https://www.mt.co.kr/stock/2026/07/02/2026070218137016742",
+      "source": "머니투데이",
+      "ts": 1782986876000,
+      "pub": "Thu, 02 Jul 2026 19:07:56 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "말레이·싱가포르, AI 반도체 밀수 수사…\"中 밀반출 가능성\"",
       "link": "https://www.yna.co.kr/view/AKR20260702143600084",
@@ -113,14 +129,6 @@
       "source": "연합뉴스 경제",
       "ts": 1782958854000,
       "pub": "Thu, 2 Jul 2026 11:20:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"애플, 중국 CXMT·YMTC 칩 구매 협상중…중국내 판매 기기용\"",
-      "link": "https://www.yna.co.kr/view/AKR20260702028900009",
-      "source": "연합뉴스 국제",
-      "ts": 1782950682000,
-      "pub": "Thu, 2 Jul 2026 09:04:42 +0900",
       "sentiment": "neutral"
     }
   ]

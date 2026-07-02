@@ -1,15 +1,135 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-02T06:28:44.527Z",
-  "count": 18,
+  "updated_at": "2026-07-02T09:50:41.001Z",
+  "count": 24,
   "items": [
     {
-      "title": "당 복귀한 김민석, 첫 지역 일정 '청주 육거리시장·SK하이닉스 찾은 이유",
-      "link": "https://www.mt.co.kr/politics/2026/07/02/2026070213403748374",
-      "source": "머니투데이",
-      "ts": 1782971794000,
-      "pub": "Thu, 02 Jul 2026 14:56:34 +0900",
+      "title": "반도체 효과…'챔피언스시티' 3216가구",
+      "link": "https://www.hankyung.com/article/2026070226901",
+      "source": "한국경제",
+      "ts": 1782982807000,
+      "pub": "Thu, 02 Jul 2026 18:00:07 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "金, 하이닉스 찾아 '당청호흡' 과시…광주 간 鄭, 호남 당원 표심 달래기",
+      "link": "https://www.hankyung.com/article/2026070227751",
+      "source": "한국경제",
+      "ts": 1782982707000,
+      "pub": "Thu, 02 Jul 2026 17:58:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[단독] 반도체 초과세수 5조 투입…'소버린 AI' 개발한다",
+      "link": "https://www.hankyung.com/article/2026070228011",
+      "source": "한국경제",
+      "ts": 1782982360000,
+      "pub": "Thu, 02 Jul 2026 17:52:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"반도체 호황 끝 전망은 시기상조\"…OECD, 韓성장률 2.6% 관측 유지",
+      "link": "https://www.hankyung.com/article/2026070227087",
+      "source": "한국경제",
+      "ts": 1782982342000,
+      "pub": "Thu, 02 Jul 2026 17:52:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "말레이·싱가포르, AI 반도체 밀수 수사…\"中 밀반출 가능성\"",
+      "link": "https://www.yna.co.kr/view/AKR20260702143600084",
+      "source": "연합뉴스 국제",
+      "ts": 1782981846000,
+      "pub": "Thu, 2 Jul 2026 17:44:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "OECD \"반도체 호황 끝 전망 시기상조\"…韓성장률 2.6% 관측 유지",
+      "link": "https://www.yna.co.kr/view/AKR20260702142400002",
+      "source": "연합뉴스 경제",
+      "ts": 1782980271000,
+      "pub": "Thu, 2 Jul 2026 17:17:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"한국 반도체 투자, 종말의 시작\"...'빅쇼트' 마이클 버리, 삼전닉스에 '찬물'",
+      "link": "https://www.mt.co.kr/world/2026/07/02/2026070216383989683",
+      "source": "머니투데이",
+      "ts": 1782979375000,
+      "pub": "Thu, 02 Jul 2026 17:02:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한국노총 \"반도체 특구 주 52시간 완화는 노동개악…즉시 중단\"",
+      "link": "https://www.yna.co.kr/view/AKR20260702147500530",
+      "source": "연합뉴스 경제",
+      "ts": 1782979332000,
+      "pub": "Thu, 2 Jul 2026 17:02:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'반도체' 김민석 '호남' 정청래…與 당권경쟁 '실용·정통' 대결구도",
+      "link": "https://www.mt.co.kr/politics/2026/07/02/2026070214383076208",
+      "source": "머니투데이",
+      "ts": 1782978878000,
+      "pub": "Thu, 02 Jul 2026 16:54:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[뉴스프레소] 뉴욕증시 일제히 하락… 메타 \"남는 AI, 빌려주겠다\" 메모리주 동반 급락",
+      "link": "https://www.mt.co.kr/world/2026/07/02/2026070210397031758",
+      "source": "머니투데이",
+      "ts": 1782978282000,
+      "pub": "Thu, 02 Jul 2026 16:44:42 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "하이닉스 14%↓, 17년만 최대급락…삼전 9%↓, 30만원선 내줘(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260702042351008",
+      "source": "연합뉴스 경제",
+      "ts": 1782977623000,
+      "pub": "Thu, 2 Jul 2026 16:33:43 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'반도체 추락'에 코스피 7.9% 급락 7,648…코스닥도 6.7%↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260702137900008",
+      "source": "연합뉴스 경제",
+      "ts": 1782977019000,
+      "pub": "Thu, 2 Jul 2026 16:23:39 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "정부, 총지출 5% R&D 투자…AI·반도체 승부수",
+      "link": "https://www.yna.co.kr/view/AKR20260702130700017",
+      "source": "연합뉴스 경제",
+      "ts": 1782975596000,
+      "pub": "Thu, 2 Jul 2026 15:59:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 삼성전자, 9% 급락 마감…SK하이닉스는 14.5% 폭락",
+      "link": "https://www.yna.co.kr/view/AKR20260702127800008",
+      "source": "연합뉴스 경제",
+      "ts": 1782974366000,
+      "pub": "Thu, 2 Jul 2026 15:39:26 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'반도체 추락'에 코스피 7.9% 급락 7,648…코스닥도 6.7%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260702127600008",
+      "source": "연합뉴스 경제",
+      "ts": 1782974316000,
+      "pub": "Thu, 2 Jul 2026 15:38:36 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[속보] '반도체 추락'에 코스피 7.9% 급락 7,648…코스닥도 6.7%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260702127000008",
+      "source": "연합뉴스 경제",
+      "ts": 1782974066000,
+      "pub": "Thu, 2 Jul 2026 15:34:26 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "AI붐 타고 中반도체, IPO 러시…\"빠르게 자금 확보해 생산 확대\"",
@@ -20,67 +140,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"반도체 급락하면 여기로 피신하라\"…'이곳'은 일제히 강세",
-      "link": "https://www.hankyung.com/article/202607022116i",
-      "source": "한국경제",
-      "ts": 1782970995000,
-      "pub": "Thu, 02 Jul 2026 14:43:15 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "AI·반도체 훈풍 타고 '체질전환'…대동금속 \"올해 수주 1000억 자신\"",
-      "link": "https://www.mt.co.kr/living/2026/07/02/2026070213213080001",
-      "source": "머니투데이",
-      "ts": 1782970866000,
-      "pub": "Thu, 02 Jul 2026 14:41:06 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "곽동신 한미반도체 회장, 50억 자사주 추가 매입…3년간 695억원어치 사들여",
-      "link": "https://www.hankyung.com/article/202607022128i",
-      "source": "한국경제",
-      "ts": 1782970768000,
-      "pub": "Thu, 02 Jul 2026 14:39:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "파라텍, 반도체·배터리 공장 이어 바이오 플랜트 수주…소방 시장 독주",
-      "link": "https://www.mt.co.kr/stock/2026/07/02/2026070213455681293",
-      "source": "머니투데이",
-      "ts": 1782970655000,
-      "pub": "Thu, 02 Jul 2026 14:37:35 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "반도체팹 호재 터진 광주에 '챔피언스시티' 3216가구 분양",
-      "link": "https://www.hankyung.com/article/202607022083i",
-      "source": "한국경제",
-      "ts": 1782970130000,
-      "pub": "Thu, 02 Jul 2026 14:28:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'고점판독기' 미자, 주식 1억 손해 \"하이닉스 몰빵 후 신고가\"",
-      "link": "https://www.hankyung.com/article/202607022016H",
-      "source": "한국경제",
-      "ts": 1782969847000,
-      "pub": "Thu, 02 Jul 2026 14:24:07 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "노동부, '삼성·SK 메가 투자' 맞춰 반도체 인력 양성 논의",
       "link": "https://www.yna.co.kr/view/AKR20260702073700530",
       "source": "연합뉴스 경제",
       "ts": 1782968413000,
       "pub": "Thu, 2 Jul 2026 14:00:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "서울 집값 상승률 소폭둔화…'반도체벨트' 강세 여전",
-      "link": "https://www.hankyung.com/article/202607021604i",
-      "source": "한국경제",
-      "ts": 1782968408000,
-      "pub": "Thu, 02 Jul 2026 14:00:08 +0900",
       "sentiment": "neutral"
     },
     {
@@ -108,14 +172,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "삼성·SK하이닉스·셀트리온 등 충청 첨단산업에 392조 투자",
-      "link": "https://www.yna.co.kr/view/AKR20260702034100003",
-      "source": "연합뉴스 경제",
-      "ts": 1782954674000,
-      "pub": "Thu, 2 Jul 2026 10:11:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"애플, 중국 CXMT·YMTC 칩 구매 협상중…중국내 판매 기기용\"",
       "link": "https://www.yna.co.kr/view/AKR20260702028900009",
       "source": "연합뉴스 국제",
@@ -138,14 +194,6 @@
       "ts": 1782936648000,
       "pub": "Thu, 2 Jul 2026 05:10:48 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "트럼프 \"마이크론 '트럼프 저축계좌'에 2.5억달러 기여\"",
-      "link": "https://www.yna.co.kr/view/AKR20260702002800071",
-      "source": "연합뉴스 국제",
-      "ts": 1782928837000,
-      "pub": "Thu, 2 Jul 2026 03:00:37 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

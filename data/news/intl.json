@@ -1,14 +1,22 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-02T06:28:44.525Z",
-  "count": 18,
+  "updated_at": "2026-07-02T09:50:40.999Z",
+  "count": 11,
   "items": [
     {
-      "title": "트럼프, 작년에 3조 넘게 벌었다…이해충돌 논란에 \"미국인들 감사해야\"",
-      "link": "https://www.mt.co.kr/world/2026/07/02/2026070214570040123",
-      "source": "머니투데이",
-      "ts": 1782973617000,
-      "pub": "Thu, 02 Jul 2026 15:26:57 +0900",
+      "title": "[포토] \"새로운 전용기 멋있지\"…선물 자랑하는 트럼프",
+      "link": "https://www.hankyung.com/article/2026070227371",
+      "source": "한국경제",
+      "ts": 1782982878000,
+      "pub": "Thu, 02 Jul 2026 18:01:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "北포로 의사 존중하겠다는 우크라, 러 회유에도 '한국행' 공감대",
+      "link": "https://www.yna.co.kr/view/AKR20260702138400504",
+      "source": "연합뉴스 국제",
+      "ts": 1782977632000,
+      "pub": "Thu, 2 Jul 2026 16:33:52 +0900",
       "sentiment": "neutral"
     },
     {
@@ -60,14 +68,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[게시판] 관세청, '원산지 국민감시단' 17일까지 공개 모집",
-      "link": "https://www.yna.co.kr/view/AKR20260702036200002",
-      "source": "연합뉴스 경제",
-      "ts": 1782951746000,
-      "pub": "Thu, 2 Jul 2026 09:22:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, '카타르선물' 새 전용기 타고 루스벨트 정치적 고향 방문(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260702006651071",
       "source": "연합뉴스 국제",
@@ -89,62 +89,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782938914000,
       "pub": "Thu, 2 Jul 2026 05:48:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"마이크론 '트럼프 저축계좌'에 2.5억달러 기여\"",
-      "link": "https://www.yna.co.kr/view/AKR20260702002800071",
-      "source": "연합뉴스 국제",
-      "ts": 1782928837000,
-      "pub": "Thu, 2 Jul 2026 03:00:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'러시아 가스관 폭파' 4년 만에 우크라인 용의자 기소",
-      "link": "https://www.yna.co.kr/view/AKR20260702002500082",
-      "source": "연합뉴스 국제",
-      "ts": 1782927732000,
-      "pub": "Thu, 2 Jul 2026 02:42:12 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'친러' 우크라 재벌 테러 관련자 1명 체포 후 석방",
-      "link": "https://www.yna.co.kr/view/AKR20260702002300081",
-      "source": "연합뉴스 국제",
-      "ts": 1782926407000,
-      "pub": "Thu, 2 Jul 2026 02:20:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "워시 연준의장 \"인플레 위험 낮아졌지만…물가 너무 높아\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260701200651085",
-      "source": "연합뉴스 국제",
-      "ts": 1782924677000,
-      "pub": "Thu, 2 Jul 2026 01:51:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "워시 연준 의장 \"인플레 위험 낮아졌지만 물가 너무 높아\"",
-      "link": "https://www.yna.co.kr/view/AKR20260701200600085",
-      "source": "연합뉴스 국제",
-      "ts": 1782918349000,
-      "pub": "Thu, 2 Jul 2026 00:05:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 유세곡 'YMCA' 부른 빌리지 피플의 빅터 윌리스 별세(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260701185651009",
-      "source": "연합뉴스 국제",
-      "ts": 1782912398000,
-      "pub": "Wed, 1 Jul 2026 22:26:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"아주 좋은 회담 했다…이란 비핵화 순조롭게 진행\"",
-      "link": "https://www.yna.co.kr/view/AKR20260701196500071",
-      "source": "연합뉴스 국제",
-      "ts": 1782911940000,
-      "pub": "Wed, 1 Jul 2026 22:19:00 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,15 +1,47 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-02T06:28:44.527Z",
-  "count": 5,
+  "updated_at": "2026-07-02T09:50:41.000Z",
+  "count": 6,
   "items": [
     {
-      "title": "충청 간 李대통령 \"故이병철 떠올라...이재용 결단이 첨단산업 도약 선도\"",
-      "link": "https://www.mt.co.kr/politics/2026/07/02/2026070215002311454",
+      "title": "'메타 쇼크' 키운 레버리지 ETF…\"삼전 실적에 증시 향방 달렸다\"",
+      "link": "https://www.hankyung.com/article/2026070227661",
+      "source": "한국경제",
+      "ts": 1782982560000,
+      "pub": "Thu, 02 Jul 2026 17:56:00 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"한국 반도체 투자, 종말의 시작\"...'빅쇼트' 마이클 버리, 삼전닉스에 '찬물'",
+      "link": "https://www.mt.co.kr/world/2026/07/02/2026070216383989683",
       "source": "머니투데이",
-      "ts": 1782973480000,
-      "pub": "Thu, 02 Jul 2026 15:24:40 +0900",
+      "ts": 1782979375000,
+      "pub": "Thu, 02 Jul 2026 17:02:55 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "[뉴스프레소] 뉴욕증시 일제히 하락… 메타 \"남는 AI, 빌려주겠다\" 메모리주 동반 급락",
+      "link": "https://www.mt.co.kr/world/2026/07/02/2026070210397031758",
+      "source": "머니투데이",
+      "ts": 1782978282000,
+      "pub": "Thu, 02 Jul 2026 16:44:42 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "하이닉스 14%↓, 17년만 최대급락…삼전 9%↓, 30만원선 내줘(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260702042351008",
+      "source": "연합뉴스 경제",
+      "ts": 1782977623000,
+      "pub": "Thu, 2 Jul 2026 16:33:43 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[속보] 삼성전자, 9% 급락 마감…SK하이닉스는 14.5% 폭락",
+      "link": "https://www.yna.co.kr/view/AKR20260702127800008",
+      "source": "연합뉴스 경제",
+      "ts": 1782974366000,
+      "pub": "Thu, 2 Jul 2026 15:39:26 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "李대통령 '충청권 국민보고회' 참석…이재용·서정진과 \"파이팅\"(종합)",
@@ -18,30 +50,6 @@
       "ts": 1782972810000,
       "pub": "Thu, 2 Jul 2026 15:13:30 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 '뚝', 바겐세일?...\"50만전자·400만닉스 간다\" 눈높이 올랐다",
-      "link": "https://www.mt.co.kr/stock/2026/07/02/2026070211084279071",
-      "source": "머니투데이",
-      "ts": 1782966330000,
-      "pub": "Thu, 02 Jul 2026 13:25:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "李대통령 '충청권 국민보고회' 참석…삼전닉스 등 투자계획 발표",
-      "link": "https://www.yna.co.kr/view/AKR20260702044700001",
-      "source": "연합뉴스 경제",
-      "ts": 1782954464000,
-      "pub": "Thu, 2 Jul 2026 10:07:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼전·닉스 7%대 급락…삼성전자 30만원선 내줘",
-      "link": "https://www.yna.co.kr/view/AKR20260702042300008",
-      "source": "연합뉴스 경제",
-      "ts": 1782952714000,
-      "pub": "Thu, 2 Jul 2026 09:38:34 +0900",
-      "sentiment": "negative"
     }
   ]
 }

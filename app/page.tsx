@@ -19,7 +19,8 @@ export default async function Home() {
   const grouped = order.map((cat) => ({
     cat,
     label: CATEGORY_LABELS[cat],
-    rows: data.symbols.filter((r) => r.category === cat),
+    // is_fx(원화 환율)는 헤더 환율 위젯과 소스가 달라(HL perp vs 업비트) 숫자가 어긋나 보임 → 홈 그리드 제외
+    rows: data.symbols.filter((r) => r.category === cat && !r.is_fx),
   }));
 
   return (

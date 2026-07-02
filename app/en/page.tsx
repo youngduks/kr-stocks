@@ -57,7 +57,8 @@ export default async function HomeEN() {
   const grouped = order.map((cat) => ({
     cat,
     label: CATEGORY_LABELS[cat],
-    rows: data.symbols.filter((r) => r.category === cat),
+    // is_fx (USD/KRW) sourced from HL perp, differs from header's Upbit-based rate → exclude from home grid
+    rows: data.symbols.filter((r) => r.category === cat && !r.is_fx),
   }));
 
   return (

@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-02T19:06:37.495Z",
+  "updated_at": "2026-07-02T20:51:29.092Z",
   "count": 20,
   "items": [
+    {
+      "title": "트럼프와 결별한 美보수논객 터커 칼슨 \"제3당 창당 돕겠다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260703004000071",
+      "source": "연합뉴스 국제",
+      "ts": 1783020382000,
+      "pub": "Fri, 3 Jul 2026 04:26:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 워싱턴DC 40도 폭염 속 美250주년 장시간 연설 예고",
+      "link": "https://www.yna.co.kr/view/AKR20260703003400071",
+      "source": "연합뉴스 국제",
+      "ts": 1783019201000,
+      "pub": "Fri, 3 Jul 2026 04:06:41 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美, 국제형사재판소 관할권 부인…트럼프 기소 가능성 대비용?",
       "link": "https://www.yna.co.kr/view/AKR20260703002400071",
@@ -146,22 +162,6 @@
       "ts": 1782957430000,
       "pub": "Thu, 2 Jul 2026 10:57:10 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "우크라 드론 정유시설 공격에 연료난…러, 인도서 휘발유 수입",
-      "link": "https://www.yna.co.kr/view/AKR20260702054400104",
-      "source": "연합뉴스 국제",
-      "ts": 1782955334000,
-      "pub": "Thu, 2 Jul 2026 10:22:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[게시판] TYM, 우크라 인도적 지원 공로로 '엠버 하트 어워드' 수상",
-      "link": "https://www.yna.co.kr/view/AKR20260702060300030",
-      "source": "연합뉴스 국제",
-      "ts": 1782955210000,
-      "pub": "Thu, 2 Jul 2026 10:20:10 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

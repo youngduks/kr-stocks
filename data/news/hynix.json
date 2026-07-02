@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-02T19:06:37.497Z",
-  "count": 17,
+  "updated_at": "2026-07-02T20:51:29.094Z",
+  "count": 20,
   "items": [
+    {
+      "title": "반도체 이틀째 뚝…'업종 순환매' 다우 사상 최고치[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/07/03/2026070305250399885",
+      "source": "머니투데이",
+      "ts": 1783024131000,
+      "pub": "Fri, 03 Jul 2026 05:28:51 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "뉴욕증시, 반도체 추락속 혼조 마감…다우 최고치·나스닥 1%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260703004900072",
+      "source": "연합뉴스 국제",
+      "ts": 1783023028000,
+      "pub": "Fri, 3 Jul 2026 05:10:28 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "미국發 반도체 숨고르기… 8천피 붕괴, 저가매수 기회?",
+      "link": "https://www.mt.co.kr/stock/2026/07/03/2026070220094144520",
+      "source": "머니투데이",
+      "ts": 1783019580000,
+      "pub": "Fri, 03 Jul 2026 04:13:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성, 온양·천안 'HBM' 생산 허브로",
       "link": "https://www.mt.co.kr/industry/2026/07/03/2026070220014985498",

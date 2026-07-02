@@ -1,14 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-02T20:51:29.094Z",
-  "count": 20,
+  "updated_at": "2026-07-02T21:57:27.250Z",
+  "count": 18,
   "items": [
     {
-      "title": "반도체 이틀째 뚝…'업종 순환매' 다우 사상 최고치[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/07/03/2026070305250399885",
-      "source": "머니투데이",
-      "ts": 1783024131000,
-      "pub": "Fri, 03 Jul 2026 05:28:51 +0900",
+      "title": "강경성 코트라 사장 \"수출 반도체 편중, 품목다변화로 극복해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260703001100084",
+      "source": "연합뉴스 국제",
+      "ts": 1783026010000,
+      "pub": "Fri, 3 Jul 2026 06:00:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 반도체 추락속 혼조 마감…다우 최고치·나스닥 1%↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260703004951072",
+      "source": "연합뉴스 국제",
+      "ts": 1783025383000,
+      "pub": "Fri, 3 Jul 2026 05:49:43 +0900",
       "sentiment": "positive"
     },
     {
@@ -18,30 +26,6 @@
       "ts": 1783023028000,
       "pub": "Fri, 3 Jul 2026 05:10:28 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "미국發 반도체 숨고르기… 8천피 붕괴, 저가매수 기회?",
-      "link": "https://www.mt.co.kr/stock/2026/07/03/2026070220094144520",
-      "source": "머니투데이",
-      "ts": 1783019580000,
-      "pub": "Fri, 03 Jul 2026 04:13:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성, 온양·천안 'HBM' 생산 허브로",
-      "link": "https://www.mt.co.kr/industry/2026/07/03/2026070220014985498",
-      "source": "머니투데이",
-      "ts": 1783019160000,
-      "pub": "Fri, 03 Jul 2026 04:06:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성, 앤트로픽 잡나…엔비디아·테슬라 이어 AI칩 협업 논의",
-      "link": "https://www.mt.co.kr/world/2026/07/03/2026070302463268339",
-      "source": "머니투데이",
-      "ts": 1783016705000,
-      "pub": "Fri, 03 Jul 2026 03:25:05 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "세메스, AI 포럼 2026 개최…\"반도체 장비 패러다임 전환\"",

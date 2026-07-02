@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-02T20:51:29.092Z",
-  "count": 20,
+  "updated_at": "2026-07-02T21:57:27.248Z",
+  "count": 18,
   "items": [
+    {
+      "title": "美국무부 \"루비오, 中왕이와 상호주의 기반 전략안정관계 논의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260703011400071",
+      "source": "연합뉴스 국제",
+      "ts": 1783029029000,
+      "pub": "Fri, 3 Jul 2026 06:50:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 1기 참모 \"美의회 쿠팡 보고서는 시의적절한 경고\"",
+      "link": "https://www.yna.co.kr/view/AKR20260703008100071",
+      "source": "연합뉴스 국제",
+      "ts": 1783028189000,
+      "pub": "Fri, 3 Jul 2026 06:36:29 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "트럼프와 결별한 美보수논객 터커 칼슨 \"제3당 창당 돕겠다\"",
       "link": "https://www.yna.co.kr/view/AKR20260703004000071",
@@ -26,14 +42,6 @@
       "ts": 1783015653000,
       "pub": "Fri, 3 Jul 2026 03:07:33 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "트럼프 또 나토에 불만…\"미국에 돈 제일 많이 내는데 혜택 없어\"",
-      "link": "https://www.mt.co.kr/world/2026/07/03/2026070300553558377",
-      "source": "머니투데이",
-      "ts": 1783007883000,
-      "pub": "Fri, 03 Jul 2026 00:58:03 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "EU, 러 압박받는 아르메니아에 '우크라급' 경제지원",
@@ -108,14 +116,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'45.3% 관세' 붙어도 더 싸…중국 자동차, 유럽 5월 판매량 일본 제쳤다",
-      "link": "https://www.mt.co.kr/world/2026/07/02/2026070219313469530",
-      "source": "머니투데이",
-      "ts": 1782989634000,
-      "pub": "Thu, 02 Jul 2026 19:53:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "성경·향수·운동화까지…'트럼프 굿즈' 팔아 32억 벌었다",
       "link": "https://www.hankyung.com/article/2026070229267",
       "source": "한국경제",
@@ -146,22 +146,6 @@
       "ts": 1782960553000,
       "pub": "Thu, 2 Jul 2026 11:49:13 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "AI 첨단모델 출시 '자발적 기준' 백악관 막판 협상…이르면 내주",
-      "link": "https://www.yna.co.kr/view/AKR20260702072400009",
-      "source": "연합뉴스 국제",
-      "ts": 1782957858000,
-      "pub": "Thu, 2 Jul 2026 11:04:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프는 밈코인으로 떼돈, 수십만 소액 투자자는 손실",
-      "link": "https://www.yna.co.kr/view/AKR20260702070300009",
-      "source": "연합뉴스 국제",
-      "ts": 1782957430000,
-      "pub": "Thu, 2 Jul 2026 10:57:10 +0900",
-      "sentiment": "negative"
     }
   ]
 }

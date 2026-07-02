@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-02T02:04:53.691Z",
-  "count": 21,
+  "updated_at": "2026-07-02T06:28:44.525Z",
+  "count": 18,
   "items": [
+    {
+      "title": "트럼프, 작년에 3조 넘게 벌었다…이해충돌 논란에 \"미국인들 감사해야\"",
+      "link": "https://www.mt.co.kr/world/2026/07/02/2026070214570040123",
+      "source": "머니투데이",
+      "ts": 1782973617000,
+      "pub": "Thu, 02 Jul 2026 15:26:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "FT \"오픈AI, 트럼프 정부에 지분 5% 제안\"",
+      "link": "https://www.yna.co.kr/view/AKR20260702100500009",
+      "source": "연합뉴스 국제",
+      "ts": 1782968580000,
+      "pub": "Thu, 2 Jul 2026 14:03:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "성경·향수·시계까지 판매…트럼프 작년 22억달러 긁어모았다",
+      "link": "https://www.yna.co.kr/view/AKR20260702087100009",
+      "source": "연합뉴스 국제",
+      "ts": 1782960553000,
+      "pub": "Thu, 2 Jul 2026 11:49:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI 첨단모델 출시 '자발적 기준' 백악관 막판 협상…이르면 내주",
+      "link": "https://www.yna.co.kr/view/AKR20260702072400009",
+      "source": "연합뉴스 국제",
+      "ts": 1782957858000,
+      "pub": "Thu, 2 Jul 2026 11:04:18 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프는 밈코인으로 떼돈, 수십만 소액 투자자는 손실",
       "link": "https://www.yna.co.kr/view/AKR20260702070300009",
@@ -25,22 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782955210000,
       "pub": "Thu, 2 Jul 2026 10:20:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "EU산 우유 이달부터 '제로 관세'…FTA 체결 15년만",
-      "link": "https://www.mt.co.kr/living/2026/07/02/2026070209081895576",
-      "source": "머니투데이",
-      "ts": 1782953001000,
-      "pub": "Thu, 02 Jul 2026 09:43:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[외신 에스프레소 영상] 트럼프 재집권 후…부동산과 암호화폐로 22억 달러 싹쓸이",
-      "link": "https://www.hankyung.com/article/202607021148i",
-      "source": "한국경제",
-      "ts": 1782952827000,
-      "pub": "Thu, 02 Jul 2026 09:40:27 +0900",
       "sentiment": "neutral"
     },
     {
@@ -129,46 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782911940000,
       "pub": "Wed, 1 Jul 2026 22:19:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'영국판 트럼프' 패라지, 금 광고 모델로 시간당 4천600만원 벌어",
-      "link": "https://www.yna.co.kr/view/AKR20260701179400085",
-      "source": "연합뉴스 국제",
-      "ts": 1782898287000,
-      "pub": "Wed, 1 Jul 2026 18:31:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "푸틴 전시체제 흔들리나…\"연료난·드론 공포에 민심 이반\"",
-      "link": "https://www.yna.co.kr/view/AKR20260701180900009",
-      "source": "연합뉴스 국제",
-      "ts": 1782897456000,
-      "pub": "Wed, 1 Jul 2026 18:17:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "가족도 모른다…러 심장부 때리는 우크라 '그림자' 드론 부대",
-      "link": "https://www.yna.co.kr/view/AKR20260701177300109",
-      "source": "연합뉴스 국제",
-      "ts": 1782897158000,
-      "pub": "Wed, 1 Jul 2026 18:12:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘행 여객기 납치코드 오발신…전투기 출격 소동",
-      "link": "https://www.yna.co.kr/view/AKR20260701174200082",
-      "source": "연합뉴스 국제",
-      "ts": 1782894602000,
-      "pub": "Wed, 1 Jul 2026 17:30:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 화력 더 키운다…\"EU에 12조원 군사 지원 요청\"",
-      "link": "https://www.yna.co.kr/view/AKR20260701165600109",
-      "source": "연합뉴스 국제",
-      "ts": 1782893266000,
-      "pub": "Wed, 1 Jul 2026 17:07:46 +0900",
       "sentiment": "neutral"
     }
   ]

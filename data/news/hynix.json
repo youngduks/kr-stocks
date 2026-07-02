@@ -1,70 +1,110 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-02T02:04:53.694Z",
-  "count": 21,
+  "updated_at": "2026-07-02T06:28:44.527Z",
+  "count": 18,
   "items": [
     {
-      "title": "SK하이닉스, 청주에 100조 투자…낸드·첨단패키징 키운다",
-      "link": "https://www.mt.co.kr/industry/2026/07/02/2026070210273532353",
+      "title": "당 복귀한 김민석, 첫 지역 일정 '청주 육거리시장·SK하이닉스 찾은 이유",
+      "link": "https://www.mt.co.kr/politics/2026/07/02/2026070213403748374",
       "source": "머니투데이",
-      "ts": 1782957339000,
-      "pub": "Thu, 02 Jul 2026 10:55:39 +0900",
+      "ts": 1782971794000,
+      "pub": "Thu, 02 Jul 2026 14:56:34 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[속보]李대통령 \"삼성 결정 따라 HBM 생산…'첨단산업' 충청 위상 더욱 강화\"",
-      "link": "https://www.mt.co.kr/politics/2026/07/02/2026070209471227663",
-      "source": "머니투데이",
-      "ts": 1782956623000,
-      "pub": "Thu, 02 Jul 2026 10:43:43 +0900",
+      "title": "AI붐 타고 中반도체, IPO 러시…\"빠르게 자금 확보해 생산 확대\"",
+      "link": "https://www.yna.co.kr/view/AKR20260702112800009",
+      "source": "연합뉴스 국제",
+      "ts": 1782971475000,
+      "pub": "Thu, 2 Jul 2026 14:51:15 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[속보]SK하이닉스, 청주 100조 투자...M17 낸드 공장에 80조 투입",
-      "link": "https://www.mt.co.kr/industry/2026/07/02/2026070210240229575",
-      "source": "머니투데이",
-      "ts": 1782955520000,
-      "pub": "Thu, 02 Jul 2026 10:25:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] SK하이닉스 \"청주 낸드·첨단 패키징 팹에 100조 투자\"",
-      "link": "https://www.hankyung.com/article/2026070214527",
+      "title": "\"반도체 급락하면 여기로 피신하라\"…'이곳'은 일제히 강세",
+      "link": "https://www.hankyung.com/article/202607022116i",
       "source": "한국경제",
-      "ts": 1782955500000,
-      "pub": "Thu, 02 Jul 2026 10:25:00 +0900",
-      "sentiment": "neutral"
+      "ts": 1782970995000,
+      "pub": "Thu, 02 Jul 2026 14:43:15 +0900",
+      "sentiment": "negative"
     },
     {
-      "title": "[속보]삼성전자, 온양·천안 56조 투자...차세대 HBM 메카 구축",
-      "link": "https://www.mt.co.kr/industry/2026/07/02/2026070210202254208",
+      "title": "AI·반도체 훈풍 타고 '체질전환'…대동금속 \"올해 수주 1000억 자신\"",
+      "link": "https://www.mt.co.kr/living/2026/07/02/2026070213213080001",
       "source": "머니투데이",
-      "ts": 1782955279000,
-      "pub": "Thu, 02 Jul 2026 10:21:19 +0900",
-      "sentiment": "neutral"
+      "ts": 1782970866000,
+      "pub": "Thu, 02 Jul 2026 14:41:06 +0900",
+      "sentiment": "positive"
     },
     {
-      "title": "[속보] 삼성, 온양·천안에 56조 투자 \"HBM 메카로 대변모\"",
-      "link": "https://www.hankyung.com/article/2026070214287",
+      "title": "곽동신 한미반도체 회장, 50억 자사주 추가 매입…3년간 695억원어치 사들여",
+      "link": "https://www.hankyung.com/article/202607022128i",
       "source": "한국경제",
-      "ts": 1782955185000,
-      "pub": "Thu, 02 Jul 2026 10:19:45 +0900",
+      "ts": 1782970768000,
+      "pub": "Thu, 02 Jul 2026 14:39:28 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"애플, '美 블랙리스트' 中 CXMT·YMTC와 메모리칩 구매 협상 중\"",
-      "link": "https://www.mt.co.kr/world/2026/07/02/2026070208295921077",
+      "title": "파라텍, 반도체·배터리 공장 이어 바이오 플랜트 수주…소방 시장 독주",
+      "link": "https://www.mt.co.kr/stock/2026/07/02/2026070213455681293",
       "source": "머니투데이",
-      "ts": 1782954798000,
-      "pub": "Thu, 02 Jul 2026 10:13:18 +0900",
+      "ts": 1782970655000,
+      "pub": "Thu, 02 Jul 2026 14:37:35 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "반도체팹 호재 터진 광주에 '챔피언스시티' 3216가구 분양",
+      "link": "https://www.hankyung.com/article/202607022083i",
+      "source": "한국경제",
+      "ts": 1782970130000,
+      "pub": "Thu, 02 Jul 2026 14:28:50 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "'HBM의 아버지', AI 에이전트 활용한 '반도체 설계' 노하우 공개한다",
-      "link": "https://www.mt.co.kr/tech/2026/07/02/2026070209433559753",
-      "source": "머니투데이",
-      "ts": 1782954711000,
-      "pub": "Thu, 02 Jul 2026 10:11:51 +0900",
+      "title": "'고점판독기' 미자, 주식 1억 손해 \"하이닉스 몰빵 후 신고가\"",
+      "link": "https://www.hankyung.com/article/202607022016H",
+      "source": "한국경제",
+      "ts": 1782969847000,
+      "pub": "Thu, 02 Jul 2026 14:24:07 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "노동부, '삼성·SK 메가 투자' 맞춰 반도체 인력 양성 논의",
+      "link": "https://www.yna.co.kr/view/AKR20260702073700530",
+      "source": "연합뉴스 경제",
+      "ts": 1782968413000,
+      "pub": "Thu, 2 Jul 2026 14:00:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "서울 집값 상승률 소폭둔화…'반도체벨트' 강세 여전",
+      "link": "https://www.hankyung.com/article/202607021604i",
+      "source": "한국경제",
+      "ts": 1782968408000,
+      "pub": "Thu, 02 Jul 2026 14:00:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하반기 산업기상도…배터리·반도체 '맑음' 석유화학 '비'",
+      "link": "https://www.yna.co.kr/view/AKR20260702029000003",
+      "source": "연합뉴스 경제",
+      "ts": 1782961207000,
+      "pub": "Thu, 2 Jul 2026 12:00:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 마이크로 원자로, 엔비디아 블랙웰 구동 시연 성공",
+      "link": "https://www.yna.co.kr/view/AKR20260702078600009",
+      "source": "연합뉴스 국제",
+      "ts": 1782960237000,
+      "pub": "Thu, 2 Jul 2026 11:43:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "광주아파트 가격 하락 폭 미세하게 줄어…반도체 특수 주목",
+      "link": "https://www.yna.co.kr/view/AKR20260702077800054",
+      "source": "연합뉴스 경제",
+      "ts": 1782958854000,
+      "pub": "Thu, 2 Jul 2026 11:20:54 +0900",
       "sentiment": "neutral"
     },
     {
@@ -76,76 +116,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "반도체 메가 프로젝트 수혜 기대감에…지역 건설주 상한가",
-      "link": "https://www.mt.co.kr/stock/2026/07/02/2026070209390459987",
-      "source": "머니투데이",
-      "ts": 1782952792000,
-      "pub": "Thu, 02 Jul 2026 09:39:52 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "삼성·SK하이닉스 두고 '블랙리스트' 中기업 찾는 애플 속내",
-      "link": "https://www.hankyung.com/article/2026070210407",
-      "source": "한국경제",
-      "ts": 1782952279000,
-      "pub": "Thu, 02 Jul 2026 09:31:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피, 美 반도체 한파에 장 초반 매도 사이드카 [종합]",
-      "link": "https://www.hankyung.com/article/2026070211126",
-      "source": "한국경제",
-      "ts": 1782952031000,
-      "pub": "Thu, 02 Jul 2026 09:27:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[마켓라이브] 코스피 6%대 급락 중…반도체 쇼크에 외국인 3조원대 순매도, 사이드카 발동 [오전 10시 시황]",
-      "link": "https://www.hankyung.com/article/202607020891i",
-      "source": "한국경제",
-      "ts": 1782951692000,
-      "pub": "Thu, 02 Jul 2026 09:21:32 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "\"애플, 중국 CXMT·YMTC 칩 구매 협상중…중국내 판매 기기용\"",
       "link": "https://www.yna.co.kr/view/AKR20260702028900009",
       "source": "연합뉴스 국제",
       "ts": 1782950682000,
       "pub": "Thu, 2 Jul 2026 09:04:42 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 코스피, 미국발 반도체 한파에 4%대↓…8,000선 하회 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260702032700008",
-      "source": "연합뉴스 경제",
-      "ts": 1782950507000,
-      "pub": "Thu, 2 Jul 2026 09:01:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "키움증권 \"삼성E&A, 하반기 반도체 팹 수주 기대…목표가 상향\"",
-      "link": "https://www.yna.co.kr/view/AKR20260702025300008",
-      "source": "연합뉴스 경제",
-      "ts": 1782948758000,
-      "pub": "Thu, 2 Jul 2026 08:32:38 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "IBK투자증권, SK하이닉스 목표가 180만원→400만원 상향",
-      "link": "https://www.yna.co.kr/view/AKR20260702021400008",
-      "source": "연합뉴스 경제",
-      "ts": 1782947811000,
-      "pub": "Thu, 2 Jul 2026 08:16:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[마켓뷰] 美반도체주 약세…코스피, 하락 이어가나",
-      "link": "https://www.yna.co.kr/view/AKR20260702017500008",
-      "source": "연합뉴스 경제",
-      "ts": 1782946749000,
-      "pub": "Thu, 2 Jul 2026 07:59:09 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "뉴욕증시, 반도체주 매도에 약세 마감…마이크론 10% 급락(종합)",

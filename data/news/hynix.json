@@ -1,38 +1,54 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-03T00:05:48.513Z",
-  "count": 20,
+  "updated_at": "2026-07-03T04:34:34.033Z",
+  "count": 14,
   "items": [
     {
-      "title": "\"SK하이닉스, 2Q 영업익 66조 전망…LTA로 변동성 줄어들 것\"-상상인",
-      "link": "https://www.hankyung.com/article/2026070332216",
-      "source": "한국경제",
-      "ts": 1783033068000,
-      "pub": "Fri, 03 Jul 2026 07:57:48 +0900",
+      "title": "KB證, SK하이닉스 목표가 420만원으로 상향…영업익 추정치↑",
+      "link": "https://www.yna.co.kr/view/AKR20260703073600008",
+      "source": "연합뉴스 경제",
+      "ts": 1783047624000,
+      "pub": "Fri, 3 Jul 2026 12:00:24 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "반도체 흔들릴 때 피난처 된 금융주…실적·주주환원 기대 '쑥' [종목+]",
-      "link": "https://www.hankyung.com/article/2026070224976",
-      "source": "한국경제",
-      "ts": 1783032076000,
-      "pub": "Fri, 03 Jul 2026 07:41:16 +0900",
+      "title": "7800선 사수...미국 반도체주 따라 기겁한 코스피, 줍줍에 '으쓱'",
+      "link": "https://www.mt.co.kr/stock/2026/07/03/2026070311525235971",
+      "source": "머니투데이",
+      "ts": 1783047548000,
+      "pub": "Fri, 03 Jul 2026 11:59:08 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"컴퓨팅 판매는 AI 투자 수익화 사례…SK하이닉스 목표가↑\"-KB",
-      "link": "https://www.hankyung.com/article/2026070331896",
-      "source": "한국경제",
-      "ts": 1783031460000,
-      "pub": "Fri, 03 Jul 2026 07:31:00 +0900",
+      "title": "[뉴스프레소] 다우 최고치 VS 나스닥 하락… 반도체株 속절없는 폭락세",
+      "link": "https://www.mt.co.kr/world/2026/07/03/2026070310307026379",
+      "source": "머니투데이",
+      "ts": 1783045596000,
+      "pub": "Fri, 03 Jul 2026 11:26:36 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "정점식 \"노란봉투법·더 센 상법, 호남 반도체 발목…李 포퓰리즘 결과\"",
+      "link": "https://www.mt.co.kr/politics/2026/07/03/2026070309464029904",
+      "source": "머니투데이",
+      "ts": 1783042005000,
+      "pub": "Fri, 03 Jul 2026 10:26:45 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "이어지는 반도체株 추락…업종 순환매 속 혼조 마감 [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026070331706",
+      "title": "반도체 업계, 공급부족 해결 위한 美정부 개입에 경계",
+      "link": "https://www.yna.co.kr/view/AKR20260703052300009",
+      "source": "연합뉴스 국제",
+      "ts": 1783041487000,
+      "pub": "Fri, 3 Jul 2026 10:18:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[마켓라이브]코스피 7800선 회복… 기관 1.7조 순매수, 반도체 강세 전환 주도 [오전시황]",
+      "link": "https://www.hankyung.com/article/202607033617i",
       "source": "한국경제",
-      "ts": 1783030145000,
-      "pub": "Fri, 03 Jul 2026 07:09:05 +0900",
+      "ts": 1783039078000,
+      "pub": "Fri, 03 Jul 2026 09:37:58 +0900",
       "sentiment": "neutral"
     },
     {
@@ -58,14 +74,6 @@
       "ts": 1783023028000,
       "pub": "Fri, 3 Jul 2026 05:10:28 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "세메스, AI 포럼 2026 개최…\"반도체 장비 패러다임 전환\"",
-      "link": "https://www.hankyung.com/article/202607033077i",
-      "source": "한국경제",
-      "ts": 1783008723000,
-      "pub": "Fri, 03 Jul 2026 01:12:03 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "말레이·싱가포르, AI 반도체 밀수 수사…\"中 밀반출 가능성\"",
@@ -106,62 +114,6 @@
       "ts": 1782977019000,
       "pub": "Thu, 2 Jul 2026 16:23:39 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "정부, 총지출 5% R&D 투자…AI·반도체 승부수",
-      "link": "https://www.yna.co.kr/view/AKR20260702130700017",
-      "source": "연합뉴스 경제",
-      "ts": 1782975596000,
-      "pub": "Thu, 2 Jul 2026 15:59:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 삼성전자, 9% 급락 마감…SK하이닉스는 14.5% 폭락",
-      "link": "https://www.yna.co.kr/view/AKR20260702127800008",
-      "source": "연합뉴스 경제",
-      "ts": 1782974366000,
-      "pub": "Thu, 2 Jul 2026 15:39:26 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'반도체 추락'에 코스피 7.9% 급락 7,648…코스닥도 6.7%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260702127600008",
-      "source": "연합뉴스 경제",
-      "ts": 1782974316000,
-      "pub": "Thu, 2 Jul 2026 15:38:36 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[속보] '반도체 추락'에 코스피 7.9% 급락 7,648…코스닥도 6.7%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260702127000008",
-      "source": "연합뉴스 경제",
-      "ts": 1782974066000,
-      "pub": "Thu, 2 Jul 2026 15:34:26 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "AI붐 타고 中반도체, IPO 러시…\"빠르게 자금 확보해 생산 확대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260702112800009",
-      "source": "연합뉴스 국제",
-      "ts": 1782971475000,
-      "pub": "Thu, 2 Jul 2026 14:51:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "노동부, '삼성·SK 메가 투자' 맞춰 반도체 인력 양성 논의",
-      "link": "https://www.yna.co.kr/view/AKR20260702073700530",
-      "source": "연합뉴스 경제",
-      "ts": 1782968413000,
-      "pub": "Thu, 2 Jul 2026 14:00:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하반기 산업기상도…배터리·반도체 '맑음' 석유화학 '비'",
-      "link": "https://www.yna.co.kr/view/AKR20260702029000003",
-      "source": "연합뉴스 경제",
-      "ts": 1782961207000,
-      "pub": "Thu, 2 Jul 2026 12:00:07 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

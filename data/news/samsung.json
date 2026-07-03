@@ -1,30 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-03T00:05:48.513Z",
-  "count": 9,
+  "updated_at": "2026-07-03T04:34:34.033Z",
+  "count": 5,
   "items": [
     {
-      "title": "\"삼성전자, 2분기 영업익 추정치 10% 하향 조정…성과급 반영\"-한국",
-      "link": "https://www.hankyung.com/article/2026070331976",
-      "source": "한국경제",
-      "ts": 1783032532000,
-      "pub": "Fri, 03 Jul 2026 07:48:52 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "美매체 \"앤트로픽, 삼성전자와 AI칩 생산 논의\"",
-      "link": "https://www.hankyung.com/article/2026070331357",
-      "source": "한국경제",
-      "ts": 1783028058000,
-      "pub": "Fri, 03 Jul 2026 06:34:18 +0900",
+      "title": "코스피, 장중 상승전환해 7,800대 회복…삼전·닉스 반등",
+      "link": "https://www.yna.co.kr/view/AKR20260703064500008",
+      "source": "연합뉴스 경제",
+      "ts": 1783044494000,
+      "pub": "Fri, 3 Jul 2026 11:08:14 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "'퇴직자 줄었다더니'…인건비 45조 쓴 삼성전자의 '승부수'",
-      "link": "https://www.hankyung.com/article/202607022280g",
-      "source": "한국경제",
-      "ts": 1783026008000,
-      "pub": "Fri, 03 Jul 2026 06:00:08 +0900",
+      "title": "[특징주] 삼성전자, 장초반 3%대 상승 중…하닉도 0.78%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260703034700008",
+      "source": "연합뉴스 경제",
+      "ts": 1783037808000,
+      "pub": "Fri, 3 Jul 2026 09:16:48 +0900",
       "sentiment": "neutral"
     },
     {
@@ -33,14 +25,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783013508000,
       "pub": "Fri, 3 Jul 2026 02:31:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성 파운드리, 美 앤트로픽 '2나노 AI 칩' 개발",
-      "link": "https://www.hankyung.com/article/202607023060i",
-      "source": "한국경제",
-      "ts": 1783002377000,
-      "pub": "Thu, 02 Jul 2026 23:26:17 +0900",
       "sentiment": "neutral"
     },
     {
@@ -58,22 +42,6 @@
       "ts": 1782977623000,
       "pub": "Thu, 2 Jul 2026 16:33:43 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "[속보] 삼성전자, 9% 급락 마감…SK하이닉스는 14.5% 폭락",
-      "link": "https://www.yna.co.kr/view/AKR20260702127800008",
-      "source": "연합뉴스 경제",
-      "ts": 1782974366000,
-      "pub": "Thu, 2 Jul 2026 15:39:26 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "李대통령 '충청권 국민보고회' 참석…이재용·서정진과 \"파이팅\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260702044751001",
-      "source": "연합뉴스 경제",
-      "ts": 1782972810000,
-      "pub": "Thu, 2 Jul 2026 15:13:30 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

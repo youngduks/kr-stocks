@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-03T20:13:33.070Z",
-  "count": 25,
+  "updated_at": "2026-07-03T21:55:05.982Z",
+  "count": 26,
   "items": [
+    {
+      "title": "트럼프, 바이든 정부 시절 배출가스 규제 위반자 6명 사면",
+      "link": "https://www.yna.co.kr/view/AKR20260704005400071",
+      "source": "연합뉴스 국제",
+      "ts": 1783112298000,
+      "pub": "Sat, 4 Jul 2026 05:58:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프에 다이아몬드 321개 박힌 '독립 250년' 금반지 선물",
+      "link": "https://www.yna.co.kr/view/AKR20260704003900098",
+      "source": "연합뉴스 국제",
+      "ts": 1783109543000,
+      "pub": "Sat, 4 Jul 2026 05:12:23 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "페트로 콜롬비아 대통령, 트럼프와 통화…마약 대책 등 논의",
       "link": "https://www.yna.co.kr/view/AKR20260704002700087",
@@ -193,14 +209,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783038620000,
       "pub": "Fri, 3 Jul 2026 09:30:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中과 경쟁하는 美AI기업 규제…트럼프 \"일부 필요하나 최소한으로\"",
-      "link": "https://www.yna.co.kr/view/AKR20260703029800009",
-      "source": "연합뉴스 국제",
-      "ts": 1783037136000,
-      "pub": "Fri, 3 Jul 2026 09:05:36 +0900",
       "sentiment": "neutral"
     }
   ]

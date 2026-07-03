@@ -1,7 +1,7 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-03T18:58:56.214Z",
-  "count": 27,
+  "updated_at": "2026-07-03T20:13:33.070Z",
+  "count": 25,
   "items": [
     {
       "title": "페트로 콜롬비아 대통령, 트럼프와 통화…마약 대책 등 논의",
@@ -50,14 +50,6 @@
       "ts": 1783092754000,
       "pub": "Sat, 4 Jul 2026 00:32:34 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "비트코인 6만달러 회복…금리 관망 속 FOMC 의사록 촉각",
-      "link": "https://www.mt.co.kr/stock/2026/07/04/2026070317235834362",
-      "source": "머니투데이",
-      "ts": 1783092142000,
-      "pub": "Sat, 04 Jul 2026 00:22:22 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "독일 검찰 \"노르트스트림 폭파, 우크라 정부 지시\"(종합)",
@@ -210,14 +202,6 @@
       "ts": 1783037136000,
       "pub": "Fri, 3 Jul 2026 09:05:36 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "백악관 \"한국 정부가 쿠팡 표적삼아…깊이 우려\"",
-      "link": "https://www.yna.co.kr/view/AKR20260703014500071",
-      "source": "연합뉴스 국제",
-      "ts": 1783033896000,
-      "pub": "Fri, 3 Jul 2026 08:11:36 +0900",
-      "sentiment": "negative"
     }
   ]
 }

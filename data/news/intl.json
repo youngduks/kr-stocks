@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-03T12:51:13.774Z",
+  "updated_at": "2026-07-03T15:00:24.347Z",
   "count": 23,
   "items": [
+    {
+      "title": "독일 검찰 \"노르트스트림 폭파, 우크라 정부 지시\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260703149051082",
+      "source": "연합뉴스 국제",
+      "ts": 1783087452000,
+      "pub": "Fri, 3 Jul 2026 23:04:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "친러 우크라 재벌 노린 모나코 테러…인터폴, 우크라女 수배(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260703146051081",
+      "source": "연합뉴스 국제",
+      "ts": 1783085503000,
+      "pub": "Fri, 3 Jul 2026 22:31:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "핵무기 빗장 푸는 유럽…리투아니아도 금지 해제하기로",
+      "link": "https://www.yna.co.kr/view/AKR20260703161100082",
+      "source": "연합뉴스 국제",
+      "ts": 1783085411000,
+      "pub": "Fri, 3 Jul 2026 22:30:11 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이란 협상 대표 \"미·이스라엘 약속 이행 안 하면 상응 조치\"",
       "link": "https://www.yna.co.kr/view/AKR20260703149300099",
@@ -161,30 +185,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783028189000,
       "pub": "Fri, 3 Jul 2026 06:36:29 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "트럼프와 결별한 美보수논객 터커 칼슨 \"제3당 창당 돕겠다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260703004000071",
-      "source": "연합뉴스 국제",
-      "ts": 1783020382000,
-      "pub": "Fri, 3 Jul 2026 04:26:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 워싱턴DC 40도 폭염 속 美250주년 장시간 연설 예고",
-      "link": "https://www.yna.co.kr/view/AKR20260703003400071",
-      "source": "연합뉴스 국제",
-      "ts": 1783019201000,
-      "pub": "Fri, 3 Jul 2026 04:06:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, 국제형사재판소 관할권 부인…트럼프 기소 가능성 대비용?",
-      "link": "https://www.yna.co.kr/view/AKR20260703002400071",
-      "source": "연합뉴스 국제",
-      "ts": 1783015653000,
-      "pub": "Fri, 3 Jul 2026 03:07:33 +0900",
       "sentiment": "negative"
     }
   ]

@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-03T21:55:05.982Z",
-  "count": 26,
+  "updated_at": "2026-07-03T22:53:21.774Z",
+  "count": 25,
   "items": [
+    {
+      "title": "트럼프·네타냐후, 불협화음 심화 속 미국서 곧 정상회담",
+      "link": "https://www.yna.co.kr/view/AKR20260704008300009",
+      "source": "연합뉴스 국제",
+      "ts": 1783115853000,
+      "pub": "Sat, 4 Jul 2026 06:57:33 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 바이든 정부 시절 배출가스 규제 위반자 6명 사면",
       "link": "https://www.yna.co.kr/view/AKR20260704005400071",
@@ -193,22 +201,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783039720000,
       "pub": "Fri, 3 Jul 2026 09:48:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"AI 경쟁 승리에 도움 돼야\"…트럼프, 동맹 새로 정의한다",
-      "link": "https://www.yna.co.kr/view/AKR20260703042100009",
-      "source": "연합뉴스 국제",
-      "ts": 1783039485000,
-      "pub": "Fri, 3 Jul 2026 09:44:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[베네수 강진] 트럼프 행정부에 귀국 막힌 마차도…\"적절한 시점 아니야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260703036400009",
-      "source": "연합뉴스 국제",
-      "ts": 1783038620000,
-      "pub": "Fri, 3 Jul 2026 09:30:20 +0900",
       "sentiment": "neutral"
     }
   ]

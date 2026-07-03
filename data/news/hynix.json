@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-03T10:24:55.042Z",
+  "updated_at": "2026-07-03T12:51:13.775Z",
   "count": 13,
   "items": [
+    {
+      "title": "미래에셋증권, SK하이닉스서 1.26조 조달…M&A 실탄 확보",
+      "link": "https://www.hankyung.com/article/202607035120i",
+      "source": "한국경제",
+      "ts": 1783080693000,
+      "pub": "Fri, 03 Jul 2026 21:11:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼전닉스, 마이크론 이상 성과 낼 것\"…역대급 실적 기대감",
+      "link": "https://www.hankyung.com/article/202607034795g",
+      "source": "한국경제",
+      "ts": 1783076409000,
+      "pub": "Fri, 03 Jul 2026 20:00:09 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "미래에셋, 1조3천억 자금조달 추진…'큰 손' 된 SK하이닉스",
       "link": "https://www.yna.co.kr/view/AKR20260703151000008",
@@ -12,35 +28,19 @@
       "sentiment": "neutral"
     },
     {
+      "title": "반도체·AI 전력 폭증에…김성환 장관 \"원전 추가 건설 검토\"",
+      "link": "https://www.hankyung.com/article/2026070350497",
+      "source": "한국경제",
+      "ts": 1783073486000,
+      "pub": "Fri, 03 Jul 2026 19:11:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "국힘 양향자 \"AI 패권국가 되려면 HBM 주권 지켜야\"",
       "link": "https://www.hankyung.com/article/202607034731i",
       "source": "한국경제",
       "ts": 1783070407000,
       "pub": "Fri, 03 Jul 2026 18:20:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "메타發 반도체 쇼크…'자체 AI모델' 부진이 불씨였다",
-      "link": "https://www.hankyung.com/article/2026070349641",
-      "source": "한국경제",
-      "ts": 1783069542000,
-      "pub": "Fri, 03 Jul 2026 18:05:42 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "월가 \"무조건 매수해라\"…'중국판 엔비디아' 떴다 [한경 프리미엄9 TODAY]",
-      "link": "https://www.hankyung.com/article/2026070349661",
-      "source": "한국경제",
-      "ts": 1783069367000,
-      "pub": "Fri, 03 Jul 2026 18:02:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스·마이크론 왜 떨어지나 했더니…S램 뭐길래 'D램 겨울 오나'",
-      "link": "https://www.mt.co.kr/world/2026/07/03/2026070317324394249",
-      "source": "머니투데이",
-      "ts": 1783068782000,
-      "pub": "Fri, 03 Jul 2026 17:53:02 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-03T15:00:24.349Z",
-  "count": 14,
+  "updated_at": "2026-07-03T17:10:56.209Z",
+  "count": 10,
   "items": [
     {
       "title": "미래에셋증권, SK하이닉스서 1.26조 조달…M&A 실탄 확보",
@@ -44,14 +44,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "삼전닉스·마이크론 왜 떨어지나 했더니…S램 뭐길래 'D램 겨울 오나'",
-      "link": "https://www.mt.co.kr/world/2026/07/03/2026070317324394249",
-      "source": "머니투데이",
-      "ts": 1783068782000,
-      "pub": "Fri, 03 Jul 2026 17:53:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "서남충청권에 반도체, 영남권은 피지컬AI·우주…산업지도 재편",
       "link": "https://www.yna.co.kr/view/AKR20260703129200003",
       "source": "연합뉴스 경제",
@@ -90,30 +82,6 @@
       "ts": 1783041487000,
       "pub": "Fri, 3 Jul 2026 10:18:07 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "강경성 코트라 사장 \"수출 반도체 편중, 품목다변화로 극복해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260703001100084",
-      "source": "연합뉴스 국제",
-      "ts": 1783026010000,
-      "pub": "Fri, 3 Jul 2026 06:00:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 반도체 추락속 혼조 마감…다우 최고치·나스닥 1%↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260703004951072",
-      "source": "연합뉴스 국제",
-      "ts": 1783025383000,
-      "pub": "Fri, 3 Jul 2026 05:49:43 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "뉴욕증시, 반도체 추락속 혼조 마감…다우 최고치·나스닥 1%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260703004900072",
-      "source": "연합뉴스 국제",
-      "ts": 1783023028000,
-      "pub": "Fri, 3 Jul 2026 05:10:28 +0900",
-      "sentiment": "positive"
     }
   ]
 }

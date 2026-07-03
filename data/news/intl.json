@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-03T15:00:24.347Z",
-  "count": 23,
+  "updated_at": "2026-07-03T17:10:56.208Z",
+  "count": 26,
   "items": [
+    {
+      "title": "美민주, 트럼프 재산증식 정조준할듯…11월 선거에 트럼프 명운",
+      "link": "https://www.yna.co.kr/view/AKR20260704001500071",
+      "source": "연합뉴스 국제",
+      "ts": 1783097465000,
+      "pub": "Sat, 4 Jul 2026 01:51:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 건국250주년 사면 검토…힙합거물 콤스 포함될지 주목\"",
+      "link": "https://www.yna.co.kr/view/AKR20260704001400071",
+      "source": "연합뉴스 국제",
+      "ts": 1783096469000,
+      "pub": "Sat, 4 Jul 2026 01:34:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "핀란드 이어 리투아니아도 핵무기 금지 해제하기로(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260703161151082",
+      "source": "연합뉴스 국제",
+      "ts": 1783095580000,
+      "pub": "Sat, 4 Jul 2026 01:19:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 외무장관 폴란드 방문…역사 갈등 봉합 시도",
+      "link": "https://www.yna.co.kr/view/AKR20260704000900081",
+      "source": "연합뉴스 국제",
+      "ts": 1783095318000,
+      "pub": "Sat, 4 Jul 2026 01:15:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美재무, 트럼프의 '가상화폐 대박' 논란에 \"문제없어 보여\"",
+      "link": "https://www.yna.co.kr/view/AKR20260704000400071",
+      "source": "연합뉴스 국제",
+      "ts": 1783092754000,
+      "pub": "Sat, 4 Jul 2026 00:32:34 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "독일 검찰 \"노르트스트림 폭파, 우크라 정부 지시\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260703149051082",
@@ -169,22 +209,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783029522000,
       "pub": "Fri, 3 Jul 2026 06:58:42 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "美국무부 \"루비오, 中왕이와 상호주의 기반 전략안정관계 논의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260703011400071",
-      "source": "연합뉴스 국제",
-      "ts": 1783029029000,
-      "pub": "Fri, 3 Jul 2026 06:50:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 1기 참모 \"美의회 쿠팡 보고서는 시의적절한 경고\"",
-      "link": "https://www.yna.co.kr/view/AKR20260703008100071",
-      "source": "연합뉴스 국제",
-      "ts": 1783028189000,
-      "pub": "Fri, 3 Jul 2026 06:36:29 +0900",
       "sentiment": "negative"
     }
   ]

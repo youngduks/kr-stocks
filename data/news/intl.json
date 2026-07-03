@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-03T17:10:56.208Z",
-  "count": 26,
+  "updated_at": "2026-07-03T18:58:56.214Z",
+  "count": 27,
   "items": [
+    {
+      "title": "페트로 콜롬비아 대통령, 트럼프와 통화…마약 대책 등 논의",
+      "link": "https://www.yna.co.kr/view/AKR20260704002700087",
+      "source": "연합뉴스 국제",
+      "ts": 1783103554000,
+      "pub": "Sat, 4 Jul 2026 03:32:34 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美민주, 트럼프 재산증식 정조준할듯…11월 선거에 트럼프 명운",
       "link": "https://www.yna.co.kr/view/AKR20260704001500071",
@@ -42,6 +50,14 @@
       "ts": 1783092754000,
       "pub": "Sat, 4 Jul 2026 00:32:34 +0900",
       "sentiment": "positive"
+    },
+    {
+      "title": "비트코인 6만달러 회복…금리 관망 속 FOMC 의사록 촉각",
+      "link": "https://www.mt.co.kr/stock/2026/07/04/2026070317235834362",
+      "source": "머니투데이",
+      "ts": 1783092142000,
+      "pub": "Sat, 04 Jul 2026 00:22:22 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "독일 검찰 \"노르트스트림 폭파, 우크라 정부 지시\"(종합)",
@@ -201,14 +217,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783033896000,
       "pub": "Fri, 3 Jul 2026 08:11:36 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "연준 금리인상 기대 급감에 美국채 강세·달러 약세",
-      "link": "https://www.yna.co.kr/view/AKR20260703011800009",
-      "source": "연합뉴스 국제",
-      "ts": 1783029522000,
-      "pub": "Fri, 3 Jul 2026 06:58:42 +0900",
       "sentiment": "negative"
     }
   ]

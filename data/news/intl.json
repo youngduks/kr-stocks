@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-03T22:53:21.774Z",
-  "count": 25,
+  "updated_at": "2026-07-03T23:55:01.614Z",
+  "count": 29,
   "items": [
+    {
+      "title": "관세 혜택받은 벨기에, 트럼프에 다이아몬드 321개 박힌 반지 선물",
+      "link": "https://www.mt.co.kr/world/2026/07/04/2026070407532495870",
+      "source": "머니투데이",
+      "ts": 1783121660000,
+      "pub": "Sat, 04 Jul 2026 08:34:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"다이아 321개 박혔다\"…트럼프가 받은 초대형 금반지",
+      "link": "https://www.hankyung.com/article/2026070452557",
+      "source": "한국경제",
+      "ts": 1783118392000,
+      "pub": "Sat, 04 Jul 2026 07:39:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'엇박자' 트럼프-네타냐후, 조만간 미국서 회담…종전 한뜻 될까",
+      "link": "https://www.mt.co.kr/world/2026/07/04/2026070407170411271",
+      "source": "머니투데이",
+      "ts": 1783117903000,
+      "pub": "Sat, 04 Jul 2026 07:31:43 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프·네타냐후, 불협화음 심화 속 미국서 곧 정상회담",
       "link": "https://www.yna.co.kr/view/AKR20260704008300009",
@@ -25,6 +49,22 @@
       "source": "연합뉴스 국제",
       "ts": 1783109543000,
       "pub": "Sat, 4 Jul 2026 05:12:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라이나 저항군의 마녀전사들 [PADO]",
+      "link": "https://www.mt.co.kr/world/2026/07/04/2026070319092966768",
+      "source": "머니투데이",
+      "ts": 1783108800000,
+      "pub": "Sat, 04 Jul 2026 05:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 지난해 재산 2조원 넘게 늘어…11월 선거 '탄핵 카드' 예고",
+      "link": "https://www.mt.co.kr/world/2026/07/04/2026070403545477799",
+      "source": "머니투데이",
+      "ts": 1783105728000,
+      "pub": "Sat, 04 Jul 2026 04:08:48 +0900",
       "sentiment": "neutral"
     },
     {
@@ -74,6 +114,14 @@
       "ts": 1783092754000,
       "pub": "Sat, 4 Jul 2026 00:32:34 +0900",
       "sentiment": "positive"
+    },
+    {
+      "title": "비트코인 6만달러 회복…금리 관망 속 FOMC 의사록 촉각",
+      "link": "https://www.mt.co.kr/stock/2026/07/04/2026070317235834362",
+      "source": "머니투데이",
+      "ts": 1783092142000,
+      "pub": "Sat, 04 Jul 2026 00:22:22 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "독일 검찰 \"노르트스트림 폭파, 우크라 정부 지시\"(종합)",
@@ -177,22 +225,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783045066000,
       "pub": "Fri, 3 Jul 2026 11:17:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘, 이란 대표단 태운 비행기 노렸다…美 사전포착해 경고",
-      "link": "https://www.yna.co.kr/view/AKR20260703043700009",
-      "source": "연합뉴스 국제",
-      "ts": 1783040611000,
-      "pub": "Fri, 3 Jul 2026 10:03:31 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "타지키스탄 남성, '이스라엘서 이란 측 간첩활동' 혐의로 체포",
-      "link": "https://www.yna.co.kr/view/AKR20260703046100009",
-      "source": "연합뉴스 국제",
-      "ts": 1783040252000,
-      "pub": "Fri, 3 Jul 2026 09:57:32 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-03T07:54:04.708Z",
-  "count": 24,
+  "updated_at": "2026-07-03T10:24:55.041Z",
+  "count": 26,
   "items": [
+    {
+      "title": "이란 협상 대표 \"미·이스라엘 약속 이행 안 하면 상응 조치\"",
+      "link": "https://www.yna.co.kr/view/AKR20260703149300099",
+      "source": "연합뉴스 국제",
+      "ts": 1783071930000,
+      "pub": "Fri, 3 Jul 2026 18:45:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "독일 검찰 \"노르트스트림 폭파, 우크라 정부 지시\"",
+      "link": "https://www.yna.co.kr/view/AKR20260703149000082",
+      "source": "연합뉴스 국제",
+      "ts": 1783071680000,
+      "pub": "Fri, 3 Jul 2026 18:41:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "친러 우크라 재벌 노린 모나코 테러…용의자는 우크라 여성",
+      "link": "https://www.yna.co.kr/view/AKR20260703146000081",
+      "source": "연합뉴스 국제",
+      "ts": 1783070452000,
+      "pub": "Fri, 3 Jul 2026 18:20:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "잠깐 스친 카메오 출연, 트럼프에겐 1억짜리 '평생 연금'",
+      "link": "https://www.hankyung.com/article/2026070348197",
+      "source": "한국경제",
+      "ts": 1783068948000,
+      "pub": "Fri, 03 Jul 2026 17:55:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "백악관·美 하원 \"韓, 쿠팡 표적 삼아\"…정부 \"국적 따른 차별 없어\"",
+      "link": "https://www.mt.co.kr/politics/2026/07/03/2026070316155232664",
+      "source": "머니투데이",
+      "ts": 1783064461000,
+      "pub": "Fri, 03 Jul 2026 16:41:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美 고용지표에 강달러 꺾이고 엔화 반등…환율, 30원 넘게 하락",
       "link": "https://www.yna.co.kr/view/AKR20260703115600002",
@@ -108,14 +148,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "예상 밑돈 美 고용지표·엔화 가치 반등…환율 10원 넘게 하락",
-      "link": "https://www.yna.co.kr/view/AKR20260703034300002",
-      "source": "연합뉴스 경제",
-      "ts": 1783038117000,
-      "pub": "Fri, 3 Jul 2026 09:21:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "中과 경쟁하는 美AI기업 규제…트럼프 \"일부 필요하나 최소한으로\"",
       "link": "https://www.yna.co.kr/view/AKR20260703029800009",
       "source": "연합뉴스 국제",
@@ -178,22 +210,6 @@
       "ts": 1783015653000,
       "pub": "Fri, 3 Jul 2026 03:07:33 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "EU, 러 압박받는 아르메니아에 '우크라급' 경제지원",
-      "link": "https://www.yna.co.kr/view/AKR20260702173300082",
-      "source": "연합뉴스 국제",
-      "ts": 1783002734000,
-      "pub": "Thu, 2 Jul 2026 23:32:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 비농업 고용지표 소화하며 상승 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260702171500009",
-      "source": "연합뉴스 국제",
-      "ts": 1782999576000,
-      "pub": "Thu, 2 Jul 2026 22:39:36 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

@@ -1,22 +1,38 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-03T07:54:04.709Z",
-  "count": 10,
+  "updated_at": "2026-07-03T10:24:55.042Z",
+  "count": 9,
   "items": [
+    {
+      "title": "국힘 양향자 \"AI 패권국가 되려면 HBM 주권 지켜야\"",
+      "link": "https://www.hankyung.com/article/202607034731i",
+      "source": "한국경제",
+      "ts": 1783070407000,
+      "pub": "Fri, 03 Jul 2026 18:20:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스·마이크론 왜 떨어지나 했더니…S램 뭐길래 'D램 겨울 오나'",
+      "link": "https://www.mt.co.kr/world/2026/07/03/2026070317324394249",
+      "source": "머니투데이",
+      "ts": 1783068782000,
+      "pub": "Fri, 03 Jul 2026 17:53:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"공포에 산 사람이 승자\" 급반등 끝 '8천피 탈환'...삼전 실적 주목",
+      "link": "https://www.mt.co.kr/stock/2026/07/03/2026070315265097176",
+      "source": "머니투데이",
+      "ts": 1783067346000,
+      "pub": "Fri, 03 Jul 2026 17:29:06 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "키옥시아, 차세대 낸드플래시 출하…\"생산능력 확충\"",
       "link": "https://www.yna.co.kr/view/AKR20260703116400073",
       "source": "연합뉴스 국제",
       "ts": 1783061833000,
       "pub": "Fri, 3 Jul 2026 15:57:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전 4% 빠질 때 레버리지 17% 뚝…'음의 복리'가 부른 참사",
-      "link": "https://www.hankyung.com/article/202607034330i",
-      "source": "한국경제",
-      "ts": 1783061382000,
-      "pub": "Fri, 03 Jul 2026 15:49:42 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,28 +44,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[속보] 코스피 5%대 급등해 '팔천피' 회복…삼전 8%·닉스 10% 급등",
-      "link": "https://www.hankyung.com/article/2026070345166",
-      "source": "한국경제",
-      "ts": 1783060508000,
-      "pub": "Fri, 03 Jul 2026 15:35:08 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "\"2분기 메모리 시장규모 350조원…내년 하반기 상승세 둔화\"",
       "link": "https://www.yna.co.kr/view/AKR20260703105100003",
       "source": "연합뉴스 경제",
       "ts": 1783060145000,
       "pub": "Fri, 3 Jul 2026 15:29:05 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "삼전닉스 성과급 백지화설에…경찰 '허위사실 유포' 내사 착수",
-      "link": "https://www.hankyung.com/article/202607034293i",
-      "source": "한국경제",
-      "ts": 1783055838000,
-      "pub": "Fri, 03 Jul 2026 14:17:18 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "코스피, 5%대↑ 8,000선 회복…삼전·닉스, 8%이상 급반등(종합)",
@@ -65,14 +65,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783044494000,
       "pub": "Fri, 3 Jul 2026 11:08:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼성전자, 장초반 3%대 상승 중…하닉도 0.78%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260703034700008",
-      "source": "연합뉴스 경제",
-      "ts": 1783037808000,
-      "pub": "Fri, 3 Jul 2026 09:16:48 +0900",
       "sentiment": "neutral"
     },
     {

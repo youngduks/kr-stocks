@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-03T04:34:34.033Z",
-  "count": 14,
+  "updated_at": "2026-07-03T07:54:04.710Z",
+  "count": 7,
   "items": [
+    {
+      "title": "키옥시아, 차세대 낸드플래시 출하…\"생산능력 확충\"",
+      "link": "https://www.yna.co.kr/view/AKR20260703116400073",
+      "source": "연합뉴스 국제",
+      "ts": 1783061833000,
+      "pub": "Fri, 3 Jul 2026 15:57:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"2분기 메모리 시장규모 350조원…내년 하반기 상승세 둔화\"",
+      "link": "https://www.yna.co.kr/view/AKR20260703105100003",
+      "source": "연합뉴스 경제",
+      "ts": 1783060145000,
+      "pub": "Fri, 3 Jul 2026 15:29:05 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "KB證, SK하이닉스 목표가 420만원으로 상향…영업익 추정치↑",
       "link": "https://www.yna.co.kr/view/AKR20260703073600008",
@@ -12,43 +28,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "7800선 사수...미국 반도체주 따라 기겁한 코스피, 줍줍에 '으쓱'",
-      "link": "https://www.mt.co.kr/stock/2026/07/03/2026070311525235971",
-      "source": "머니투데이",
-      "ts": 1783047548000,
-      "pub": "Fri, 03 Jul 2026 11:59:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[뉴스프레소] 다우 최고치 VS 나스닥 하락… 반도체株 속절없는 폭락세",
-      "link": "https://www.mt.co.kr/world/2026/07/03/2026070310307026379",
-      "source": "머니투데이",
-      "ts": 1783045596000,
-      "pub": "Fri, 03 Jul 2026 11:26:36 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "정점식 \"노란봉투법·더 센 상법, 호남 반도체 발목…李 포퓰리즘 결과\"",
-      "link": "https://www.mt.co.kr/politics/2026/07/03/2026070309464029904",
-      "source": "머니투데이",
-      "ts": 1783042005000,
-      "pub": "Fri, 03 Jul 2026 10:26:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "반도체 업계, 공급부족 해결 위한 美정부 개입에 경계",
       "link": "https://www.yna.co.kr/view/AKR20260703052300009",
       "source": "연합뉴스 국제",
       "ts": 1783041487000,
       "pub": "Fri, 3 Jul 2026 10:18:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[마켓라이브]코스피 7800선 회복… 기관 1.7조 순매수, 반도체 강세 전환 주도 [오전시황]",
-      "link": "https://www.hankyung.com/article/202607033617i",
-      "source": "한국경제",
-      "ts": 1783039078000,
-      "pub": "Fri, 03 Jul 2026 09:37:58 +0900",
       "sentiment": "neutral"
     },
     {
@@ -74,46 +58,6 @@
       "ts": 1783023028000,
       "pub": "Fri, 3 Jul 2026 05:10:28 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "말레이·싱가포르, AI 반도체 밀수 수사…\"中 밀반출 가능성\"",
-      "link": "https://www.yna.co.kr/view/AKR20260702143600084",
-      "source": "연합뉴스 국제",
-      "ts": 1782981846000,
-      "pub": "Thu, 2 Jul 2026 17:44:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "OECD \"반도체 호황 끝 전망 시기상조\"…韓성장률 2.6% 관측 유지",
-      "link": "https://www.yna.co.kr/view/AKR20260702142400002",
-      "source": "연합뉴스 경제",
-      "ts": 1782980271000,
-      "pub": "Thu, 2 Jul 2026 17:17:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한국노총 \"반도체 특구 주 52시간 완화는 노동개악…즉시 중단\"",
-      "link": "https://www.yna.co.kr/view/AKR20260702147500530",
-      "source": "연합뉴스 경제",
-      "ts": 1782979332000,
-      "pub": "Thu, 2 Jul 2026 17:02:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스 14%↓, 17년만 최대급락…삼전 9%↓, 30만원선 내줘(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260702042351008",
-      "source": "연합뉴스 경제",
-      "ts": 1782977623000,
-      "pub": "Thu, 2 Jul 2026 16:33:43 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'반도체 추락'에 코스피 7.9% 급락 7,648…코스닥도 6.7%↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260702137900008",
-      "source": "연합뉴스 경제",
-      "ts": 1782977019000,
-      "pub": "Thu, 2 Jul 2026 16:23:39 +0900",
-      "sentiment": "negative"
     }
   ]
 }

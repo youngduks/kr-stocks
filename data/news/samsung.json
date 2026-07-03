@@ -1,8 +1,64 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-03T04:34:34.033Z",
-  "count": 5,
+  "updated_at": "2026-07-03T07:54:04.709Z",
+  "count": 10,
   "items": [
+    {
+      "title": "키옥시아, 차세대 낸드플래시 출하…\"생산능력 확충\"",
+      "link": "https://www.yna.co.kr/view/AKR20260703116400073",
+      "source": "연합뉴스 국제",
+      "ts": 1783061833000,
+      "pub": "Fri, 3 Jul 2026 15:57:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전 4% 빠질 때 레버리지 17% 뚝…'음의 복리'가 부른 참사",
+      "link": "https://www.hankyung.com/article/202607034330i",
+      "source": "한국경제",
+      "ts": 1783061382000,
+      "pub": "Fri, 03 Jul 2026 15:49:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 추락했던 삼전·닉스, 하루만에 8%·10% 급반등(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260703034751008",
+      "source": "연합뉴스 경제",
+      "ts": 1783061065000,
+      "pub": "Fri, 3 Jul 2026 15:44:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 코스피 5%대 급등해 '팔천피' 회복…삼전 8%·닉스 10% 급등",
+      "link": "https://www.hankyung.com/article/2026070345166",
+      "source": "한국경제",
+      "ts": 1783060508000,
+      "pub": "Fri, 03 Jul 2026 15:35:08 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"2분기 메모리 시장규모 350조원…내년 하반기 상승세 둔화\"",
+      "link": "https://www.yna.co.kr/view/AKR20260703105100003",
+      "source": "연합뉴스 경제",
+      "ts": 1783060145000,
+      "pub": "Fri, 3 Jul 2026 15:29:05 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼전닉스 성과급 백지화설에…경찰 '허위사실 유포' 내사 착수",
+      "link": "https://www.hankyung.com/article/202607034293i",
+      "source": "한국경제",
+      "ts": 1783055838000,
+      "pub": "Fri, 03 Jul 2026 14:17:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, 5%대↑ 8,000선 회복…삼전·닉스, 8%이상 급반등(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260703084851008",
+      "source": "연합뉴스 경제",
+      "ts": 1783055432000,
+      "pub": "Fri, 3 Jul 2026 14:10:32 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "코스피, 장중 상승전환해 7,800대 회복…삼전·닉스 반등",
       "link": "https://www.yna.co.kr/view/AKR20260703064500008",
@@ -26,22 +82,6 @@
       "ts": 1783013508000,
       "pub": "Fri, 3 Jul 2026 02:31:48 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "'충청권 국민보고회' 간 李대통령, 이재용·서정진과 \"파이팅\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260702044752001",
-      "source": "연합뉴스 경제",
-      "ts": 1782987894000,
-      "pub": "Thu, 2 Jul 2026 19:24:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스 14%↓, 17년만 최대급락…삼전 9%↓, 30만원선 내줘(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260702042351008",
-      "source": "연합뉴스 경제",
-      "ts": 1782977623000,
-      "pub": "Thu, 2 Jul 2026 16:33:43 +0900",
-      "sentiment": "negative"
     }
   ]
 }

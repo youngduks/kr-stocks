@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-03T04:34:34.031Z",
-  "count": 28,
+  "updated_at": "2026-07-03T07:54:04.708Z",
+  "count": 24,
   "items": [
+    {
+      "title": "美 고용지표에 강달러 꺾이고 엔화 반등…환율, 30원 넘게 하락",
+      "link": "https://www.yna.co.kr/view/AKR20260703115600002",
+      "source": "연합뉴스 경제",
+      "ts": 1783062731000,
+      "pub": "Fri, 3 Jul 2026 16:12:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 장남은 총기몰 임원…美정부는 규제 대폭완화 추진",
+      "link": "https://www.yna.co.kr/view/AKR20260703116500009",
+      "source": "연합뉴스 국제",
+      "ts": 1783062028000,
+      "pub": "Fri, 3 Jul 2026 16:00:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'관세유예' 직전 매수…트럼프의 절묘한 주식거래 타이밍",
+      "link": "https://www.yna.co.kr/view/AKR20260703115300009",
+      "source": "연합뉴스 국제",
+      "ts": 1783061506000,
+      "pub": "Fri, 3 Jul 2026 15:51:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 나토 방위비 딴지…\"美 일방 지원 터무니없어\"",
+      "link": "https://www.yna.co.kr/view/AKR20260703110100009",
+      "source": "연합뉴스 국제",
+      "ts": 1783060723000,
+      "pub": "Fri, 3 Jul 2026 15:38:43 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'중간선거 룰' 변경 시도하는 트럼프…'불복 빌드업' 분석도",
       "link": "https://www.yna.co.kr/view/AKR20260703074600009",
@@ -20,35 +52,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 지난해 상호관세 유예 직전 주식 폭풍 매수…이해충돌 논란",
-      "link": "https://www.mt.co.kr/world/2026/07/03/2026070308283134852",
-      "source": "머니투데이",
-      "ts": 1783045969000,
-      "pub": "Fri, 03 Jul 2026 11:32:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"워시, 적대적 이사회 직면…해야 할 일 해야\"",
       "link": "https://www.yna.co.kr/view/AKR20260703061600009",
       "source": "연합뉴스 국제",
       "ts": 1783045066000,
       "pub": "Fri, 3 Jul 2026 11:17:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'80세' 트럼프, 41.7℃ 폭염에도 \"아주 긴 시간 연설하겠다\"",
-      "link": "https://www.mt.co.kr/world/2026/07/03/2026070309502244694",
-      "source": "머니투데이",
-      "ts": 1783041990000,
-      "pub": "Fri, 03 Jul 2026 10:26:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 고용지표 부진에 금리인상 기대↓…환율 1544.5원에 거래 시작",
-      "link": "https://www.hankyung.com/article/202607033681i",
-      "source": "한국경제",
-      "ts": 1783041450000,
-      "pub": "Fri, 03 Jul 2026 10:17:30 +0900",
       "sentiment": "neutral"
     },
     {
@@ -124,14 +132,6 @@
       "sentiment": "negative"
     },
     {
-      "title": "하나증권 \"LG전자, 美관세 환급·신사업 본격화 효과…목표가↑\"",
-      "link": "https://www.yna.co.kr/view/AKR20260703021300008",
-      "source": "연합뉴스 경제",
-      "ts": 1783033865000,
-      "pub": "Fri, 3 Jul 2026 08:11:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "연준 금리인상 기대 급감에 美국채 강세·달러 약세",
       "link": "https://www.yna.co.kr/view/AKR20260703011800009",
       "source": "연합뉴스 국제",
@@ -193,38 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782999576000,
       "pub": "Thu, 2 Jul 2026 22:39:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"나토에 미국이 돈 제일 많이 내는 데 혜택 못받아\"",
-      "link": "https://www.yna.co.kr/view/AKR20260702169800071",
-      "source": "연합뉴스 국제",
-      "ts": 1782996090000,
-      "pub": "Thu, 2 Jul 2026 21:41:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란군, 전 최고지도자 장례 앞두고 美·이스라엘에 \"오판말라\"",
-      "link": "https://www.yna.co.kr/view/AKR20260702168000079",
-      "source": "연합뉴스 국제",
-      "ts": 1782993178000,
-      "pub": "Thu, 2 Jul 2026 20:52:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하마스 기습 1천일…이스라엘서 '안보 실패' 비판 재점화",
-      "link": "https://www.yna.co.kr/view/AKR20260702166700079",
-      "source": "연합뉴스 국제",
-      "ts": 1782990932000,
-      "pub": "Thu, 2 Jul 2026 20:15:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "FT \"오픈AI, 트럼프 정부에 지분 5% 기부 제안\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260702100552009",
-      "source": "연합뉴스 국제",
-      "ts": 1782990269000,
-      "pub": "Thu, 2 Jul 2026 20:04:29 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,22 +1,62 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-03T04:34:34.033Z",
-  "count": 3,
+  "updated_at": "2026-07-03T07:54:04.712Z",
+  "count": 8,
   "items": [
     {
-      "title": "\"현대차보다 싸게\"…테슬라가 내놓은 '차박 필수템' [프라이스&]",
-      "link": "https://www.hankyung.com/article/202607023052i",
+      "title": "[속보] 현대차, 항공 모빌리티, 우주 엔진·위성 인프라 구축",
+      "link": "https://www.hankyung.com/article/2026070345127",
       "source": "한국경제",
-      "ts": 1783051203000,
-      "pub": "Fri, 03 Jul 2026 13:00:03 +0900",
+      "ts": 1783059451000,
+      "pub": "Fri, 03 Jul 2026 15:17:31 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[단독]현대차 로봇 손·발에 '국산눈'…삼성 카메라 협력사에 러브콜",
-      "link": "https://www.mt.co.kr/stock/2026/07/03/2026070310373544224",
-      "source": "머니투데이",
-      "ts": 1783046862000,
-      "pub": "Fri, 03 Jul 2026 11:47:42 +0900",
+      "title": "[속보] 현대차그룹, 10년간 영남권에 42조원 투자",
+      "link": "https://www.yna.co.kr/view/AKR20260703105900003",
+      "source": "연합뉴스 경제",
+      "ts": 1783059356000,
+      "pub": "Fri, 3 Jul 2026 15:15:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 현대차, 울산-배터리·대구-모터 제어·창원-열관리 생산라인 투자",
+      "link": "https://www.hankyung.com/article/2026070344847",
+      "source": "한국경제",
+      "ts": 1783059261000,
+      "pub": "Fri, 03 Jul 2026 15:14:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 현대차, 울산에 EV 공장 포함 최첨단 AI제조 허브 구축",
+      "link": "https://www.hankyung.com/article/2026070344837",
+      "source": "한국경제",
+      "ts": 1783059093000,
+      "pub": "Fri, 03 Jul 2026 15:11:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 현대차그룹, 영남권 42조 투자…AI·자율주행·우주 거점 육성",
+      "link": "https://www.hankyung.com/article/2026070344777",
+      "source": "한국경제",
+      "ts": 1783059032000,
+      "pub": "Fri, 03 Jul 2026 15:10:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李대통령 '영남권 국민보고회' 참석…한화·현대차 등 투자 발표",
+      "link": "https://www.yna.co.kr/view/AKR20260703052700001",
+      "source": "연합뉴스 경제",
+      "ts": 1783058830000,
+      "pub": "Fri, 3 Jul 2026 15:07:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "노동장관, 현대차·아워홈 등 제조업체에 산재 반복 근절 당부",
+      "link": "https://www.yna.co.kr/view/AKR20260703028400530",
+      "source": "연합뉴스 경제",
+      "ts": 1783054802000,
+      "pub": "Fri, 3 Jul 2026 14:00:02 +0900",
       "sentiment": "neutral"
     },
     {

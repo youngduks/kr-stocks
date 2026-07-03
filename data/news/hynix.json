@@ -1,8 +1,40 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-02T22:59:27.348Z",
-  "count": 22,
+  "updated_at": "2026-07-03T00:05:48.513Z",
+  "count": 20,
   "items": [
+    {
+      "title": "\"SK하이닉스, 2Q 영업익 66조 전망…LTA로 변동성 줄어들 것\"-상상인",
+      "link": "https://www.hankyung.com/article/2026070332216",
+      "source": "한국경제",
+      "ts": 1783033068000,
+      "pub": "Fri, 03 Jul 2026 07:57:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 흔들릴 때 피난처 된 금융주…실적·주주환원 기대 '쑥' [종목+]",
+      "link": "https://www.hankyung.com/article/2026070224976",
+      "source": "한국경제",
+      "ts": 1783032076000,
+      "pub": "Fri, 03 Jul 2026 07:41:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"컴퓨팅 판매는 AI 투자 수익화 사례…SK하이닉스 목표가↑\"-KB",
+      "link": "https://www.hankyung.com/article/2026070331896",
+      "source": "한국경제",
+      "ts": 1783031460000,
+      "pub": "Fri, 03 Jul 2026 07:31:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이어지는 반도체株 추락…업종 순환매 속 혼조 마감 [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026070331706",
+      "source": "한국경제",
+      "ts": 1783030145000,
+      "pub": "Fri, 03 Jul 2026 07:09:05 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "강경성 코트라 사장 \"수출 반도체 편중, 품목다변화로 극복해야\"",
       "link": "https://www.yna.co.kr/view/AKR20260703001100084",
@@ -20,44 +52,12 @@
       "sentiment": "positive"
     },
     {
-      "title": "반도체 이틀째 뚝…'업종 순환매' 다우 사상 최고치[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/07/03/2026070305250399885",
-      "source": "머니투데이",
-      "ts": 1783024131000,
-      "pub": "Fri, 03 Jul 2026 05:28:51 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "뉴욕증시, 반도체 추락속 혼조 마감…다우 최고치·나스닥 1%↓",
       "link": "https://www.yna.co.kr/view/AKR20260703004900072",
       "source": "연합뉴스 국제",
       "ts": 1783023028000,
       "pub": "Fri, 3 Jul 2026 05:10:28 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "미국發 반도체 숨고르기… 8천피 붕괴, 저가매수 기회?",
-      "link": "https://www.mt.co.kr/stock/2026/07/03/2026070220094144520",
-      "source": "머니투데이",
-      "ts": 1783019580000,
-      "pub": "Fri, 03 Jul 2026 04:13:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성, 온양·천안 'HBM' 생산 허브로",
-      "link": "https://www.mt.co.kr/industry/2026/07/03/2026070220014985498",
-      "source": "머니투데이",
-      "ts": 1783019160000,
-      "pub": "Fri, 03 Jul 2026 04:06:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성, 앤트로픽 잡나…엔비디아·테슬라 이어 AI칩 협업 논의",
-      "link": "https://www.mt.co.kr/world/2026/07/03/2026070302463268339",
-      "source": "머니투데이",
-      "ts": 1783016705000,
-      "pub": "Fri, 03 Jul 2026 03:25:05 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "세메스, AI 포럼 2026 개최…\"반도체 장비 패러다임 전환\"",
@@ -161,22 +161,6 @@
       "source": "연합뉴스 경제",
       "ts": 1782961207000,
       "pub": "Thu, 2 Jul 2026 12:00:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 마이크로 원자로, 엔비디아 블랙웰 구동 시연 성공",
-      "link": "https://www.yna.co.kr/view/AKR20260702078600009",
-      "source": "연합뉴스 국제",
-      "ts": 1782960237000,
-      "pub": "Thu, 2 Jul 2026 11:43:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "광주아파트 가격 하락 폭 미세하게 줄어…반도체 특수 주목",
-      "link": "https://www.yna.co.kr/view/AKR20260702077800054",
-      "source": "연합뉴스 경제",
-      "ts": 1782958854000,
-      "pub": "Thu, 2 Jul 2026 11:20:54 +0900",
       "sentiment": "neutral"
     }
   ]

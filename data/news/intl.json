@@ -1,22 +1,30 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-02T22:59:27.346Z",
-  "count": 22,
+  "updated_at": "2026-07-03T00:05:48.512Z",
+  "count": 21,
   "items": [
     {
-      "title": "\"LG전자, 실적개선 속 美 관세환급까지…목표가 26만\"-하나",
-      "link": "https://www.mt.co.kr/stock/2026/07/03/2026070307450167437",
-      "source": "머니투데이",
-      "ts": 1783032454000,
-      "pub": "Fri, 03 Jul 2026 07:47:34 +0900",
+      "title": "백악관 \"한국 정부가 쿠팡 표적삼아…깊이 우려\"",
+      "link": "https://www.yna.co.kr/view/AKR20260703014500071",
+      "source": "연합뉴스 국제",
+      "ts": 1783033896000,
+      "pub": "Fri, 3 Jul 2026 08:11:36 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "하나증권 \"LG전자, 美관세 환급·신사업 본격화 효과…목표가↑\"",
+      "link": "https://www.yna.co.kr/view/AKR20260703021300008",
+      "source": "연합뉴스 경제",
+      "ts": 1783033865000,
+      "pub": "Fri, 3 Jul 2026 08:11:05 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"무의미한 살상 끝내야\"…러시아의 대규모 공습 뒤 트럼프가 꺼낸 말",
-      "link": "https://www.mt.co.kr/world/2026/07/03/2026070307133115036",
-      "source": "머니투데이",
-      "ts": 1783031550000,
-      "pub": "Fri, 03 Jul 2026 07:32:30 +0900",
+      "title": "트럼프, 폭염 경보에도 美250주년 장시간 연설 예고",
+      "link": "https://www.hankyung.com/article/2026070332057",
+      "source": "한국경제",
+      "ts": 1783033009000,
+      "pub": "Fri, 03 Jul 2026 07:56:49 +0900",
       "sentiment": "neutral"
     },
     {
@@ -66,14 +74,6 @@
       "ts": 1783015653000,
       "pub": "Fri, 3 Jul 2026 03:07:33 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "트럼프 또 나토에 불만…\"미국에 돈 제일 많이 내는데 혜택 없어\"",
-      "link": "https://www.mt.co.kr/world/2026/07/03/2026070300553558377",
-      "source": "머니투데이",
-      "ts": 1783007883000,
-      "pub": "Fri, 03 Jul 2026 00:58:03 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "EU, 러 압박받는 아르메니아에 '우크라급' 경제지원",
@@ -145,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1782990269000,
       "pub": "Thu, 2 Jul 2026 20:04:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "성경·향수·운동화까지…'트럼프 굿즈' 팔아 32억 벌었다",
-      "link": "https://www.hankyung.com/article/2026070229267",
-      "source": "한국경제",
-      "ts": 1782989201000,
-      "pub": "Thu, 02 Jul 2026 19:46:41 +0900",
       "sentiment": "neutral"
     },
     {

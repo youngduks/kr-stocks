@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-03T23:55:01.616Z",
-  "count": 9,
+  "updated_at": "2026-07-04T01:48:28.266Z",
+  "count": 7,
   "items": [
+    {
+      "title": "\"반도체 초호황이 '신의 축복'이라니\"…장관 발언에 '부글부글' [청와대는 지금]",
+      "link": "https://www.hankyung.com/article/202607021576i",
+      "source": "한국경제",
+      "ts": 1783128095000,
+      "pub": "Sat, 04 Jul 2026 10:21:35 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "반도체 대장주도 맥 못추는데…\"이 실적에 너무 싸\" 30% '쑥'[김근희의 증시랩업]",
       "link": "https://www.mt.co.kr/stock/2026/07/04/2026070315255333110",
@@ -10,22 +18,6 @@
       "ts": 1783113120000,
       "pub": "Sat, 04 Jul 2026 06:12:00 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "미래에셋증권, SK하이닉스서 1.26조 조달…M&A 실탄 확보",
-      "link": "https://www.hankyung.com/article/202607035120i",
-      "source": "한국경제",
-      "ts": 1783080693000,
-      "pub": "Fri, 03 Jul 2026 21:11:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼전닉스, 마이크론 이상 성과 낼 것\"…역대급 실적 기대감",
-      "link": "https://www.hankyung.com/article/202607034795g",
-      "source": "한국경제",
-      "ts": 1783076409000,
-      "pub": "Fri, 03 Jul 2026 20:00:09 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "미래에셋, 1조3천억 자금조달 추진…'큰 손' 된 SK하이닉스",
@@ -65,14 +57,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783047624000,
       "pub": "Fri, 3 Jul 2026 12:00:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 업계, 공급부족 해결 위한 美정부 개입에 경계",
-      "link": "https://www.yna.co.kr/view/AKR20260703052300009",
-      "source": "연합뉴스 국제",
-      "ts": 1783041487000,
-      "pub": "Fri, 3 Jul 2026 10:18:07 +0900",
       "sentiment": "neutral"
     }
   ]

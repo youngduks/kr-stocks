@@ -1,14 +1,46 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-03T23:55:01.614Z",
-  "count": 29,
+  "updated_at": "2026-07-04T01:48:28.265Z",
+  "count": 32,
   "items": [
+    {
+      "title": "\"나토 집단방위에 '철통의지'\"…트럼프, 이란전쟁 뒤 태세전환",
+      "link": "https://www.yna.co.kr/view/AKR20260704019800009",
+      "source": "연합뉴스 국제",
+      "ts": 1783129001000,
+      "pub": "Sat, 4 Jul 2026 10:36:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "베네수 임시대통령 벼랑…트럼프 \"지진 빼면 행복한 나라\" 두둔",
+      "link": "https://www.yna.co.kr/view/AKR20260704017100009",
+      "source": "연합뉴스 국제",
+      "ts": 1783125352000,
+      "pub": "Sat, 4 Jul 2026 09:35:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 최고지도자 장례식날 미국은 건국 250주년 '트럼프 집회'",
+      "link": "https://www.yna.co.kr/view/AKR20260704016200071",
+      "source": "연합뉴스 국제",
+      "ts": 1783124784000,
+      "pub": "Sat, 4 Jul 2026 09:26:24 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "관세 혜택받은 벨기에, 트럼프에 다이아몬드 321개 박힌 반지 선물",
       "link": "https://www.mt.co.kr/world/2026/07/04/2026070407532495870",
       "source": "머니투데이",
       "ts": 1783121660000,
       "pub": "Sat, 04 Jul 2026 08:34:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프·네타냐후 곧 회동…이란전 놓고 틀어진 동맹 봉합하나",
+      "link": "https://www.hankyung.com/article/2026070452677",
+      "source": "한국경제",
+      "ts": 1783120197000,
+      "pub": "Sat, 04 Jul 2026 08:09:57 +0900",
       "sentiment": "neutral"
     },
     {
@@ -225,14 +257,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783045066000,
       "pub": "Fri, 3 Jul 2026 11:17:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[게시판] 관세청, 엑스레이 전문 인력 221명 세관 신규 배치",
-      "link": "https://www.yna.co.kr/view/AKR20260703044600002",
-      "source": "연합뉴스 경제",
-      "ts": 1783039720000,
-      "pub": "Fri, 3 Jul 2026 09:48:40 +0900",
       "sentiment": "neutral"
     }
   ]

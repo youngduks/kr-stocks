@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-03T23:55:01.615Z",
+  "updated_at": "2026-07-04T01:48:28.266Z",
   "count": 8,
   "items": [
+    {
+      "title": "\"팔았는데 다시 살까요?\"…급반등한 삼전닉스 다음주 전망은",
+      "link": "https://www.hankyung.com/article/2026070453187",
+      "source": "한국경제",
+      "ts": 1783123064000,
+      "pub": "Sat, 04 Jul 2026 08:57:44 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'삼전닉스' 2분기 실적 변수로 떠오른 '성과급'…이익 증가세 꺾일까",
       "link": "https://www.hankyung.com/article/202607034209i",
@@ -12,20 +20,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"삼전닉스, 마이크론 이상 성과 낼 것\"…역대급 실적 기대감",
-      "link": "https://www.hankyung.com/article/202607034795g",
+      "title": "'삼전닉스 고점 논란' 솔직히 답했다…4조 굴리는 큰손의 조언 [노정동의 어쩌다 투자자]",
+      "link": "https://www.hankyung.com/article/2026070229996",
       "source": "한국경제",
-      "ts": 1783076409000,
-      "pub": "Fri, 03 Jul 2026 20:00:09 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'믿을맨' 삼전닉스 반등…메타발 업황 우려 이겨낼까 [종목+]",
-      "link": "https://www.hankyung.com/article/2026070346796",
-      "source": "한국경제",
-      "ts": 1783076401000,
-      "pub": "Fri, 03 Jul 2026 20:00:01 +0900",
-      "sentiment": "negative"
+      "ts": 1783119612000,
+      "pub": "Sat, 04 Jul 2026 08:00:12 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "키옥시아, 차세대 낸드플래시 출하…\"생산능력 확충\"",

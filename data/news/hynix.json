@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-04T22:45:19.471Z",
+  "updated_at": "2026-07-04T23:51:54.760Z",
   "count": 10,
   "items": [
+    {
+      "title": "'민형배 경제 공약', 반도체 투자로 재설계 불가피",
+      "link": "https://www.yna.co.kr/view/AKR20260703064700054",
+      "source": "연합뉴스 경제",
+      "ts": 1783208401000,
+      "pub": "Sun, 5 Jul 2026 08:40:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"반도체를 이을 주도주는 무엇일까\" 김정남과 김학균이 답한다",
+      "link": "https://www.hankyung.com/article/202607034828i",
+      "source": "한국경제",
+      "ts": 1783207982000,
+      "pub": "Sun, 05 Jul 2026 08:33:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "AI 붐·반도체 호황에 그늘진 청년고용…법률사무원 13개월째↓",
       "link": "https://www.yna.co.kr/view/AKR20260704038100002",
@@ -60,28 +76,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "키옥시아, 차세대 낸드플래시 출하…\"생산능력 확충\"",
-      "link": "https://www.yna.co.kr/view/AKR20260703116400073",
-      "source": "연합뉴스 국제",
-      "ts": 1783061833000,
-      "pub": "Fri, 3 Jul 2026 15:57:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"2분기 메모리 시장규모 350조원…내년 하반기 상승세 둔화\"",
       "link": "https://www.yna.co.kr/view/AKR20260703105100003",
       "source": "연합뉴스 경제",
       "ts": 1783060145000,
       "pub": "Fri, 3 Jul 2026 15:29:05 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "KB證, SK하이닉스 목표가 420만원으로 상향…영업익 추정치↑",
-      "link": "https://www.yna.co.kr/view/AKR20260703073600008",
-      "source": "연합뉴스 경제",
-      "ts": 1783047624000,
-      "pub": "Fri, 3 Jul 2026 12:00:24 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

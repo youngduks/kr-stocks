@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-04T05:35:47.466Z",
-  "count": 8,
+  "updated_at": "2026-07-04T08:21:12.572Z",
+  "count": 9,
   "items": [
+    {
+      "title": "블룸버그 \"SK하이닉스 美 ADR 상장 수수료율 0.5% 검토\"",
+      "link": "https://www.yna.co.kr/view/AKR20260704031000009",
+      "source": "연합뉴스 국제",
+      "ts": 1783148645000,
+      "pub": "Sat, 4 Jul 2026 16:04:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中매체 \"삼전, 3분기 D램값 20% 인상 예정…고객사에 구두통지\"",
+      "link": "https://www.yna.co.kr/view/AKR20260704030600009",
+      "source": "연합뉴스 국제",
+      "ts": 1783147027000,
+      "pub": "Sat, 4 Jul 2026 15:37:07 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "인텔도 2조3000억 쏟아부었다…반도체 판 뒤흔드는 나라 [테크로그]",
       "link": "https://www.hankyung.com/article/202607034268g",
@@ -17,14 +33,6 @@
       "source": "한국경제",
       "ts": 1783128095000,
       "pub": "Sat, 04 Jul 2026 10:21:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 대장주도 맥 못추는데…\"이 실적에 너무 싸\" 30% '쑥'[김근희의 증시랩업]",
-      "link": "https://www.mt.co.kr/stock/2026/07/04/2026070315255333110",
-      "source": "머니투데이",
-      "ts": 1783113120000,
-      "pub": "Sat, 04 Jul 2026 06:12:00 +0900",
       "sentiment": "neutral"
     },
     {

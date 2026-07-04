@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-04T21:46:04.508Z",
-  "count": 10,
+  "updated_at": "2026-07-04T22:45:19.471Z",
+  "count": 12,
   "items": [
+    {
+      "title": "삼성전자 작년 정보보호 투자 4천억 넘겨…전자 관계사들도 증액",
+      "link": "https://www.yna.co.kr/view/AKR20260703113300003",
+      "source": "연합뉴스 경제",
+      "ts": 1783203420000,
+      "pub": "Sun, 5 Jul 2026 07:17:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[뉴욕증시-주간전망] 삼전 실적·하닉 ADR에 달렸다…FOMC 의사록도 관심",
+      "link": "https://www.yna.co.kr/view/AKR20260705004400009",
+      "source": "연합뉴스 국제",
+      "ts": 1783202400000,
+      "pub": "Sun, 5 Jul 2026 07:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "역동의 상반기 상승률 1위는?…삼전닉스 아닌 '756%' 삼성전기",
       "link": "https://www.yna.co.kr/view/AKR20260703160200008",

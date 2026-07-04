@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-04T21:46:04.507Z",
-  "count": 34,
+  "updated_at": "2026-07-04T22:45:19.470Z",
+  "count": 33,
   "items": [
+    {
+      "title": "[뉴욕증시-주간전망] 삼전 실적·하닉 ADR에 달렸다…FOMC 의사록도 관심",
+      "link": "https://www.yna.co.kr/view/AKR20260705004400009",
+      "source": "연합뉴스 국제",
+      "ts": 1783202400000,
+      "pub": "Sun, 5 Jul 2026 07:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[표] 트럼프 대통령 쿠팡주식 거래내역",
       "link": "https://www.yna.co.kr/view/AKR20260705002400071",
@@ -257,22 +265,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783062028000,
       "pub": "Fri, 3 Jul 2026 16:00:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'관세유예' 직전 매수…트럼프의 절묘한 주식거래 타이밍",
-      "link": "https://www.yna.co.kr/view/AKR20260703115300009",
-      "source": "연합뉴스 국제",
-      "ts": 1783061506000,
-      "pub": "Fri, 3 Jul 2026 15:51:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 나토 방위비 딴지…\"美 일방 지원 터무니없어\"",
-      "link": "https://www.yna.co.kr/view/AKR20260703110100009",
-      "source": "연합뉴스 국제",
-      "ts": 1783060723000,
-      "pub": "Fri, 3 Jul 2026 15:38:43 +0900",
       "sentiment": "neutral"
     }
   ]

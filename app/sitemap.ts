@@ -56,6 +56,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "daily",
       priority: 0.92, // 한국 retail mainstream 키워드 (목표주가) — 高 priority
     },
+    {
+      url: `${base}/liquidation`,
+      lastModified: now,
+      changeFrequency: "daily",
+      priority: 0.8, // "청산맵" — 토큰화 주식 트레이더 키워드
+    },
   ];
 
   // 영어 페이지 — 홈 + 가이드 + 컨센서스

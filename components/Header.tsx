@@ -101,18 +101,21 @@ function PageNav() {
   // "주가" = 홈/카드 grid (/, /en, /korea/samsung, /us/tesla 같은 종목 상세)
   // "분석" = /consensus, /en/consensus
   // "뉴스" = /news (국제정세 + 삼성/하이닉스/현대차)
+  // "청산맵" = /liquidation
   // "가이드" = /guide/..., /en/guide/...
   const isConsensus = pathname === "/consensus" || pathname === "/en/consensus";
   const isNews = pathname === "/news" || pathname.startsWith("/news/");
   const isGuide = pathname.includes("/guide/");
   const isPoll = pathname === "/poll" || pathname.startsWith("/poll/") || pathname === "/en/poll";
-  const isPrices = !isConsensus && !isNews && !isGuide && !isPoll;
+  const isLiquidation = pathname === "/liquidation" || pathname.startsWith("/liquidation/");
+  const isPrices = !isConsensus && !isNews && !isGuide && !isPoll && !isLiquidation;
 
-  // locale에 맞는 href (뉴스룸은 현재 한국어 only — EN에서도 /news로 fallback)
+  // locale에 맞는 href (뉴스룸·청산맵은 현재 한국어 only — EN에서도 동일 경로로 fallback)
   const home = isEn ? "/en" : "/";
   const consensus = isEn ? "/en/consensus" : "/consensus";
   const news = "/news";
   const poll = "/poll";
+  const liquidation = "/liquidation";
   const guide = isEn ? "/en/guide/binance-korea-stocks" : "/guide/binance-korea-stocks";
 
   const tabs: Array<{ key: string; href: string; ko: string; en: string; active: boolean }> = [
@@ -120,6 +123,7 @@ function PageNav() {
     { key: "consensus", href: consensus, ko: "증권사 분석", en: "Consensus", active: isConsensus },
     { key: "news", href: news, ko: "뉴스", en: "News", active: isNews },
     { key: "poll", href: poll, ko: "인간지표", en: "Poll", active: isPoll },
+    { key: "liquidation", href: liquidation, ko: "청산맵", en: "Liq. Map", active: isLiquidation },
     { key: "guide", href: guide, ko: "가이드", en: "Guide", active: isGuide },
   ];
 

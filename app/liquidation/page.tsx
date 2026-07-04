@@ -1,10 +1,19 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { fetchAllPrices } from "@/lib/fetchPrices";
+import { fetchCvdSet } from "@/lib/cvd";
+import { CvdChart, type CvdDataset } from "@/components/CvdChart";
 import Link from "next/link";
 import type { Metadata } from "next";
 
 export const revalidate = 3600;
+
+// CVD 계산 가능 종목 — 바이낸스 상장(taker buy/sell 분해 데이터 존재)
+const CVD_TICKERS = [
+  { symbol: "SAMSUNGUSDT", label: "삼성전자" },
+  { symbol: "SKHYNIXUSDT", label: "SK하이닉스" },
+  { symbol: "HYUNDAIUSDT", label: "현대차" },
+] as const;
 
 const COINGLASS_BASE = "https://www.coinglass.com/pro/futures/LiquidationHeatMap";
 
@@ -60,7 +69,16 @@ export const metadata: Metadata = {
 };
 
 export default async function LiquidationPage() {
-  const data = await fetchAllPrices();
+  const [data, cvdSets] = await Promise.all([
+    fetchAllPrices(),
+    Promise.all(CVD_TICKERS.map((t) => fetchCvdSet(t.symbol))),
+  ]);
+
+  const cvdDatasets: CvdDataset[] = CVD_TICKERS.map((t, i) => ({
+    symbol: t.symbol,
+    label: t.label,
+    set: cvdSets[i],
+  })).filter((d) => d.set.bars1H.length > 0 || d.set.bars4H.length > 0);
 
   return (
     <>
@@ -91,6 +109,20 @@ export default async function LiquidationPage() {
               가늠할 때 참고하기 좋은 지표입니다.
             </p>
           </section>
+
+          {cvdDatasets.length > 0 && (
+            <section className="mb-8">
+              <h2 className="text-xl font-bold mb-1">📊 CVD (체결강도 누적) — 실데이터</h2>
+              <p className="text-xs text-text-dim mb-4 leading-relaxed">
+                청산맵 자체는 유료 API 없이 재현이 불가하지만, CVD는 바이낸스 공개 캔들의
+                매수·매도 체결량 분해로 저희가 직접 계산해 무료 제공합니다. 우상향 = 매수 체결
+                우세, 우하향 = 매도 체결 우세 — 가격은 그대로인데 CVD가 꺾이면 방향 전환 신호로
+                많이 봅니다. (바이낸스 상장 종목만 계산 가능 — NVDA·DRAM·S&P500·KORU는 아래
+                청산맵 링크 참고)
+              </p>
+              <CvdChart datasets={cvdDatasets} />
+            </section>
+          )}
 
           <section className="mb-8">
             <h2 className="text-xl font-bold mb-4">종목별 청산맵 바로가기</h2>

@@ -1,22 +1,38 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-04T08:21:12.571Z",
-  "count": 7,
+  "updated_at": "2026-07-04T10:47:41.864Z",
+  "count": 9,
   "items": [
+    {
+      "title": "삼성전자, 3분기 D램값 20% 올리나…중국 업체 \"구두 통지 받아\"",
+      "link": "https://www.mt.co.kr/world/2026/07/04/2026070416452289850",
+      "source": "머니투데이",
+      "ts": 1783152523000,
+      "pub": "Sat, 04 Jul 2026 17:08:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "6억 성과급에도 \"돈 더 달라\"…삼성전자 '임금 전쟁' 2차전 [김대영의 노무스쿨]",
+      "link": "https://www.hankyung.com/article/202607034855g",
+      "source": "한국경제",
+      "ts": 1783152003000,
+      "pub": "Sat, 04 Jul 2026 17:00:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼전닉스 말고 이거 살걸\" 주가 8배 폭등…개미들도 놀랐다 [투자톡]",
+      "link": "https://www.hankyung.com/article/2026070331096",
+      "source": "한국경제",
+      "ts": 1783150672000,
+      "pub": "Sat, 04 Jul 2026 16:37:52 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "中매체 \"삼전, 3분기 D램값 20% 인상 예정…고객사에 구두통지\"",
       "link": "https://www.yna.co.kr/view/AKR20260704030600009",
       "source": "연합뉴스 국제",
       "ts": 1783147027000,
       "pub": "Sat, 4 Jul 2026 15:37:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"팔았는데 다시 살까요?\"…급반등한 삼전닉스 다음주 전망은",
-      "link": "https://www.hankyung.com/article/2026070453187",
-      "source": "한국경제",
-      "ts": 1783123064000,
-      "pub": "Sat, 04 Jul 2026 08:57:44 +0900",
       "sentiment": "neutral"
     },
     {

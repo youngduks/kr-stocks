@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-05T05:53:51.696Z",
-  "count": 39,
+  "updated_at": "2026-07-05T08:38:34.727Z",
+  "count": 34,
   "items": [
+    {
+      "title": "[쇼츠] '푸틴 고향' 상트페테르부르크 석유시설도 '활활'",
+      "link": "https://www.yna.co.kr/view/AKR20260705034700704",
+      "source": "연합뉴스 국제",
+      "ts": 1783238512000,
+      "pub": "Sun, 5 Jul 2026 17:01:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "폭염·뇌우 속 트럼프 \"공산주의는 패배자…미국 황금기 열 것\"",
+      "link": "https://www.hankyung.com/article/2026070561997",
+      "source": "한국경제",
+      "ts": 1783232511000,
+      "pub": "Sun, 05 Jul 2026 15:21:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 자기 서명 새긴 '건국 250주년' 100달러 지폐 공개",
+      "link": "https://www.yna.co.kr/view/AKR20260705030700009",
+      "source": "연합뉴스 국제",
+      "ts": 1783232434000,
+      "pub": "Sun, 5 Jul 2026 15:20:34 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 건국250주년 연설서 \"반공\" 외쳐…한국전 참전용사 소개",
       "link": "https://www.yna.co.kr/view/AKR20260705026200071",
@@ -25,14 +49,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783223411000,
       "pub": "Sun, 5 Jul 2026 12:50:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "그래서 감싸고 돌았나?...트럼프, 쿠팡 주식 18번 매매 13만달러 보유",
-      "link": "https://www.mt.co.kr/world/2026/07/05/2026070511081577041",
-      "source": "머니투데이",
-      "ts": 1783222468000,
-      "pub": "Sun, 05 Jul 2026 12:34:28 +0900",
       "sentiment": "neutral"
     },
     {
@@ -65,14 +81,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783217568000,
       "pub": "Sun, 5 Jul 2026 11:12:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"가짜 눈물 아냐?\" 트럼프 '하메네이 장례식' 조롱...이란 \"미국에 죽음을\"",
-      "link": "https://www.mt.co.kr/world/2026/07/05/2026070510021724345",
-      "source": "머니투데이",
-      "ts": 1783215559000,
-      "pub": "Sun, 05 Jul 2026 10:39:19 +0900",
       "sentiment": "neutral"
     },
     {
@@ -257,54 +265,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783097465000,
       "pub": "Sat, 4 Jul 2026 01:51:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 건국250주년 사면 검토…힙합거물 콤스 포함될지 주목\"",
-      "link": "https://www.yna.co.kr/view/AKR20260704001400071",
-      "source": "연합뉴스 국제",
-      "ts": 1783096469000,
-      "pub": "Sat, 4 Jul 2026 01:34:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "핀란드 이어 리투아니아도 핵무기 금지 해제하기로(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260703161151082",
-      "source": "연합뉴스 국제",
-      "ts": 1783095580000,
-      "pub": "Sat, 4 Jul 2026 01:19:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 외무장관 폴란드 방문…역사 갈등 봉합 시도",
-      "link": "https://www.yna.co.kr/view/AKR20260704000900081",
-      "source": "연합뉴스 국제",
-      "ts": 1783095318000,
-      "pub": "Sat, 4 Jul 2026 01:15:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美재무, 트럼프의 '가상화폐 대박' 논란에 \"문제없어 보여\"",
-      "link": "https://www.yna.co.kr/view/AKR20260704000400071",
-      "source": "연합뉴스 국제",
-      "ts": 1783092754000,
-      "pub": "Sat, 4 Jul 2026 00:32:34 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "독일 검찰 \"노르트스트림 폭파, 우크라 정부 지시\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260703149051082",
-      "source": "연합뉴스 국제",
-      "ts": 1783087452000,
-      "pub": "Fri, 3 Jul 2026 23:04:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "친러 우크라 재벌 노린 모나코 테러…인터폴, 우크라女 수배(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260703146051081",
-      "source": "연합뉴스 국제",
-      "ts": 1783085503000,
-      "pub": "Fri, 3 Jul 2026 22:31:43 +0900",
       "sentiment": "neutral"
     },
     {

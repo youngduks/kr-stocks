@@ -1,7 +1,7 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-04T23:51:54.759Z",
-  "count": 13,
+  "updated_at": "2026-07-05T01:53:49.530Z",
+  "count": 10,
   "items": [
     {
       "title": "\"이번주 삼전닉스 더 오를까\"…코스피 운명 가를 '슈퍼위크' [주간전망]",
@@ -60,22 +60,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "6억 성과급에도 \"돈 더 달라\"…삼성전자 '임금 전쟁' 2차전 [김대영의 노무스쿨]",
-      "link": "https://www.hankyung.com/article/202607034855g",
-      "source": "한국경제",
-      "ts": 1783152003000,
-      "pub": "Sat, 04 Jul 2026 17:00:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼전닉스 말고 이거 살걸\" 주가 8배 폭등…개미들도 놀랐다 [투자톡]",
-      "link": "https://www.hankyung.com/article/2026070331096",
-      "source": "한국경제",
-      "ts": 1783150672000,
-      "pub": "Sat, 04 Jul 2026 16:37:52 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "中매체 \"삼전, 3분기 D램값 20% 인상 예정…고객사에 구두통지\"",
       "link": "https://www.yna.co.kr/view/AKR20260704030600009",
       "source": "연합뉴스 국제",
@@ -98,14 +82,6 @@
       "ts": 1783060145000,
       "pub": "Fri, 3 Jul 2026 15:29:05 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "코스피, 5%대↑ 8,000선 회복…삼전·닉스, 8%이상 급반등(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260703084851008",
-      "source": "연합뉴스 경제",
-      "ts": 1783055432000,
-      "pub": "Fri, 3 Jul 2026 14:10:32 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

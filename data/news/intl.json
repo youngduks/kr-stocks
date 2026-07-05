@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-04T23:51:54.758Z",
-  "count": 33,
+  "updated_at": "2026-07-05T01:53:49.529Z",
+  "count": 35,
   "items": [
+    {
+      "title": "\"가짜 눈물 아냐?\" 트럼프 '하메네이 장례식' 조롱...이란 \"미국에 죽음을\"",
+      "link": "https://www.mt.co.kr/world/2026/07/05/2026070510021724345",
+      "source": "머니투데이",
+      "ts": 1783215559000,
+      "pub": "Sun, 05 Jul 2026 10:39:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 악천후 예보에도 美건국 250주년 연설 강행 시사",
+      "link": "https://www.yna.co.kr/view/AKR20260705016200071",
+      "source": "연합뉴스 국제",
+      "ts": 1783215092000,
+      "pub": "Sun, 5 Jul 2026 10:31:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "푸틴 美250주년에 트럼프 85분 통화…전황 고전 속 밀착 과시",
+      "link": "https://www.yna.co.kr/view/AKR20260705009600009",
+      "source": "연합뉴스 국제",
+      "ts": 1783209119000,
+      "pub": "Sun, 5 Jul 2026 08:51:59 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[뉴욕증시-주간전망] 삼전 실적·하닉 ADR에 달렸다…FOMC 의사록도 관심",
       "link": "https://www.yna.co.kr/view/AKR20260705004400009",
@@ -257,14 +281,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783062731000,
       "pub": "Fri, 3 Jul 2026 16:12:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 장남은 총기몰 임원…美정부는 규제 대폭완화 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260703116500009",
-      "source": "연합뉴스 국제",
-      "ts": 1783062028000,
-      "pub": "Fri, 3 Jul 2026 16:00:28 +0900",
       "sentiment": "neutral"
     }
   ]

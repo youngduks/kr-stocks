@@ -124,6 +124,62 @@ export default async function LiquidationPage() {
             </section>
           )}
 
+          {cvdDatasets.length > 0 && (
+            <section className="mb-8">
+              <h2 className="text-xl font-bold mb-4">📖 CVD 읽는 법</h2>
+              <div className="space-y-3">
+                <div className="p-4 rounded-xl bg-bg-card border border-line">
+                  <h3 className="font-bold text-sm mb-1">1. 기본 원리</h3>
+                  <p className="text-xs text-text-muted leading-relaxed">
+                    CVD는 <span className="font-semibold text-text">누적 매수체결 − 누적 매도체결</span>입니다.
+                    선이 <span className="text-accent-green font-semibold">우상향</span>하면 시장가로 사려는
+                    힘(매수 체결)이 강하다는 뜻, <span className="text-accent-blue font-semibold">우하향</span>하면
+                    팔려는 힘이 강하다는 뜻입니다. 차트의 점선(0 기준선)을 위/아래로 넘는 지점이 매수·매도 우세가
+                    바뀌는 전환점입니다.
+                  </p>
+                </div>
+
+                <div className="p-4 rounded-xl bg-bg-card border border-line">
+                  <h3 className="font-bold text-sm mb-2">2. 다이버전스 — 가장 많이 쓰는 신호</h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div className="p-3 rounded-lg bg-accent-blue/5 border border-accent-blue/20">
+                      <div className="text-xs font-bold text-accent-blue mb-1">가격 ▲ + CVD ▼</div>
+                      <p className="text-[11px] text-text-muted leading-relaxed">
+                        약세 다이버전스. 실제 매수 체결은 약해지는데 가격만 오른 것 — 숏 커버링이나
+                        소수 매수로 밀어올렸을 가능성. 상승이 힘없이 꺾일 수 있다는 경고 신호로 봅니다.
+                      </p>
+                    </div>
+                    <div className="p-3 rounded-lg bg-accent-green/5 border border-accent-green/20">
+                      <div className="text-xs font-bold text-accent-green mb-1">가격 ▼ + CVD ▲</div>
+                      <p className="text-[11px] text-text-muted leading-relaxed">
+                        강세 다이버전스. 매도 압력은 줄어드는데 가격만 눌린 것 — 팔자 힘이 소진되고
+                        있다는 뜻. 반등 가능성을 미리 살펴볼 때 참고합니다.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-4 rounded-xl bg-bg-card border border-line">
+                  <h3 className="font-bold text-sm mb-2">3. 가격과 같이 움직이면 — 추세 컨펌</h3>
+                  <p className="text-xs text-text-muted leading-relaxed">
+                    가격도 오르고 CVD도 같이 오르면(또는 둘 다 내리면), 진짜 체결이 뒷받침하는
+                    <span className="font-semibold text-text"> 건강한 추세</span>로 해석합니다. 다이버전스와
+                    반대로 이런 동행 구간은 추세가 이어질 가능성에 더 무게를 둡니다.
+                  </p>
+                </div>
+
+                <div className="p-4 rounded-xl bg-bg-card border border-line">
+                  <h3 className="font-bold text-sm mb-2">⚠️ 주의</h3>
+                  <p className="text-xs text-text-muted leading-relaxed">
+                    CVD는 절대값보다 <span className="font-semibold text-text">기울기와 방향 전환</span>이
+                    중요합니다. 단독 매매 신호가 아니라 가격 차트·뉴스·수급과 함께 보는 보조 지표입니다.
+                    참고용이며 투자 조언이 아닙니다.
+                  </p>
+                </div>
+              </div>
+            </section>
+          )}
+
           <section className="mb-8">
             <h2 className="text-xl font-bold mb-4">종목별 청산맵 바로가기</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">

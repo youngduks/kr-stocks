@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-05T10:57:08.074Z",
-  "count": 12,
+  "updated_at": "2026-07-05T12:10:41.638Z",
+  "count": 13,
   "items": [
     {
       "title": "LG화학, 앰코에 반도체 후공정 소재 공급",
@@ -9,14 +9,6 @@
       "source": "한국경제",
       "ts": 1783244897000,
       "pub": "Sun, 05 Jul 2026 18:48:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "강훈식 \"반도체 추가세수로 미래대응 기금 신설\"",
-      "link": "https://www.hankyung.com/article/2026070564691",
-      "source": "한국경제",
-      "ts": 1783244667000,
-      "pub": "Sun, 05 Jul 2026 18:44:27 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,11 +20,19 @@
       "sentiment": "negative"
     },
     {
-      "title": "\"AI·반도체 패권, 전기국가 전환에 달렸다\"",
-      "link": "https://www.hankyung.com/article/2026070563751",
-      "source": "한국경제",
-      "ts": 1783243569000,
-      "pub": "Sun, 05 Jul 2026 18:26:09 +0900",
+      "title": "반도체發 수십조 추가세수, 메가프로젝트·청년 떠받친다",
+      "link": "https://www.mt.co.kr/politics/2026/07/05/2026070516165163001",
+      "source": "머니투데이",
+      "ts": 1783239708000,
+      "pub": "Sun, 05 Jul 2026 17:21:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "당정, 미래대응기금 신설...\"반도체 추가세수, 미래세대 투자금으로\"",
+      "link": "https://www.mt.co.kr/politics/2026/07/05/2026070515533516458",
+      "source": "머니투데이",
+      "ts": 1783236813000,
+      "pub": "Sun, 05 Jul 2026 16:33:33 +0900",
       "sentiment": "neutral"
     },
     {
@@ -41,6 +41,14 @@
       "source": "연합뉴스 경제",
       "ts": 1783235863000,
       "pub": "Sun, 5 Jul 2026 16:17:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"반도체·AI 메가 프로젝트 수혜주는 SK\" 낙점한 리포트",
+      "link": "https://www.mt.co.kr/stock/2026/07/05/2026070513140049937",
+      "source": "머니투데이",
+      "ts": 1783229400000,
+      "pub": "Sun, 05 Jul 2026 14:30:00 +0900",
       "sentiment": "neutral"
     },
     {

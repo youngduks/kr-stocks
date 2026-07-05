@@ -1,16 +1,8 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-05T10:57:08.072Z",
+  "updated_at": "2026-07-05T12:10:41.636Z",
   "count": 32,
   "items": [
-    {
-      "title": "\"투자자 6조 날릴 때\"…트럼프, 본인 코인으로 '1조' 챙겼다",
-      "link": "https://www.hankyung.com/article/2026070564927",
-      "source": "한국경제",
-      "ts": 1783243563000,
-      "pub": "Sun, 05 Jul 2026 18:26:03 +0900",
-      "sentiment": "neutral"
-    },
     {
       "title": "우크라 전례없는 맹공…올해만 러 정유시설 공격 약 200회",
       "link": "https://www.yna.co.kr/view/AKR20260705039900009",
@@ -20,19 +12,27 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'트럼프 집회' 된 美 건국기념 행사…\"반공\" 외치며 지지층 결집",
-      "link": "https://www.hankyung.com/article/2026070564781",
-      "source": "한국경제",
-      "ts": 1783243342000,
-      "pub": "Sun, 05 Jul 2026 18:22:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[쇼츠] '푸틴 고향' 상트페테르부르크 석유시설도 '활활'",
       "link": "https://www.yna.co.kr/view/AKR20260705034700704",
       "source": "연합뉴스 국제",
       "ts": 1783238512000,
       "pub": "Sun, 5 Jul 2026 17:01:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프에 죽음을\"…하메네이 장례식 이틀째, 모즈타바 나타날까",
+      "link": "https://www.mt.co.kr/world/2026/07/05/2026070515393931355",
+      "source": "머니투데이",
+      "ts": 1783235367000,
+      "pub": "Sun, 05 Jul 2026 16:09:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"공산주의와 싸워\" 트럼프, 250주년 연설 '장진호전투' 참전용사 소개",
+      "link": "https://www.mt.co.kr/world/2026/07/05/2026070514451687596",
+      "source": "머니투데이",
+      "ts": 1783234503000,
+      "pub": "Sun, 05 Jul 2026 15:55:03 +0900",
       "sentiment": "neutral"
     },
     {

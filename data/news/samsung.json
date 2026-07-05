@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-05T10:57:08.073Z",
-  "count": 9,
+  "updated_at": "2026-07-05T12:10:41.637Z",
+  "count": 11,
   "items": [
+    {
+      "title": "'국평' 이하만 빌려준다…'최대 5억' 삼성전자 대출 근황",
+      "link": "https://www.hankyung.com/article/2026070565417",
+      "source": "한국경제",
+      "ts": 1783249310000,
+      "pub": "Sun, 05 Jul 2026 20:01:50 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성전자, 5억원 사내 주택자금 대출 대상 '국평' 이하로 제한",
       "link": "https://www.yna.co.kr/view/AKR20260705041400003",
@@ -17,6 +25,14 @@
       "source": "한국경제",
       "ts": 1783244928000,
       "pub": "Sun, 05 Jul 2026 18:48:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "외인 20조 '매도 폭탄'에도 8천피 지켰다...삼전닉스에 달린 코스피 향방",
+      "link": "https://www.mt.co.kr/stock/2026/07/05/2026070513564661590",
+      "source": "머니투데이",
+      "ts": 1783234844000,
+      "pub": "Sun, 05 Jul 2026 16:00:44 +0900",
       "sentiment": "neutral"
     },
     {

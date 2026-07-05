@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-05T18:58:48.518Z",
-  "count": 31,
+  "updated_at": "2026-07-05T20:12:34.722Z",
+  "count": 29,
   "items": [
+    {
+      "title": "트럼프, 취임 후 쿠팡 주식 18차례 거래",
+      "link": "https://www.mt.co.kr/world/2026/07/06/2026070519532549745",
+      "source": "머니투데이",
+      "ts": 1783278240000,
+      "pub": "Mon, 06 Jul 2026 04:04:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이스라엘, 슬로베니아 상주 대사 첫 지명…새 보수 정부와 밀착",
       "link": "https://www.yna.co.kr/view/AKR20260706000900099",
@@ -33,22 +41,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783238512000,
       "pub": "Sun, 5 Jul 2026 17:01:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프에 죽음을\"…하메네이 장례식 이틀째, 모즈타바 나타날까",
-      "link": "https://www.mt.co.kr/world/2026/07/05/2026070515393931355",
-      "source": "머니투데이",
-      "ts": 1783235367000,
-      "pub": "Sun, 05 Jul 2026 16:09:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"공산주의와 싸워\" 트럼프, 250주년 연설 '장진호전투' 참전용사 소개",
-      "link": "https://www.mt.co.kr/world/2026/07/05/2026070514451687596",
-      "source": "머니투데이",
-      "ts": 1783234503000,
-      "pub": "Sun, 05 Jul 2026 15:55:03 +0900",
       "sentiment": "neutral"
     },
     {
@@ -233,14 +225,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783125352000,
       "pub": "Sat, 4 Jul 2026 09:35:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 최고지도자 장례식날 미국은 건국 250주년 '트럼프 집회'",
-      "link": "https://www.yna.co.kr/view/AKR20260704016200071",
-      "source": "연합뉴스 국제",
-      "ts": 1783124784000,
-      "pub": "Sat, 4 Jul 2026 09:26:24 +0900",
       "sentiment": "neutral"
     },
     {

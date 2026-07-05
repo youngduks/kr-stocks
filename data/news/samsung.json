@@ -1,30 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-05T08:38:34.729Z",
-  "count": 11,
+  "updated_at": "2026-07-05T10:57:08.073Z",
+  "count": 9,
   "items": [
     {
-      "title": "삼성전자 7일·SK하이닉스 10일…개미들 다음주 '초긴장'",
-      "link": "https://www.hankyung.com/article/202607056281i",
-      "source": "한국경제",
-      "ts": 1783235767000,
-      "pub": "Sun, 05 Jul 2026 16:16:07 +0900",
+      "title": "삼성전자, 5억원 사내 주택자금 대출 대상 '국평' 이하로 제한",
+      "link": "https://www.yna.co.kr/view/AKR20260705041400003",
+      "source": "연합뉴스 경제",
+      "ts": 1783246881000,
+      "pub": "Sun, 5 Jul 2026 19:21:21 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "반도체 호황인데…PC·스마트폰 울상에 메모리값 '주춤'",
-      "link": "https://www.hankyung.com/article/2026070561007",
+      "title": "삼성전자 무풍 에어컨, 10년 만에 2000만대 판매",
+      "link": "https://www.hankyung.com/article/2026070564291",
       "source": "한국경제",
-      "ts": 1783225226000,
-      "pub": "Sun, 05 Jul 2026 13:20:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전·하닉 '반도체 베팅'에…마이크론, 14조원 돈뭉치 꺼냈다",
-      "link": "https://www.hankyung.com/article/2026070560247",
-      "source": "한국경제",
-      "ts": 1783217803000,
-      "pub": "Sun, 05 Jul 2026 11:16:43 +0900",
+      "ts": 1783244928000,
+      "pub": "Sun, 05 Jul 2026 18:48:48 +0900",
       "sentiment": "neutral"
     },
     {
@@ -81,14 +73,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783147027000,
       "pub": "Sat, 4 Jul 2026 15:37:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 추락했던 삼전·닉스, 하루만에 8%·10% 급반등(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260703034751008",
-      "source": "연합뉴스 경제",
-      "ts": 1783061065000,
-      "pub": "Fri, 3 Jul 2026 15:44:25 +0900",
       "sentiment": "neutral"
     }
   ]

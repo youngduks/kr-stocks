@@ -1,22 +1,38 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-05T01:53:49.530Z",
-  "count": 10,
+  "updated_at": "2026-07-05T05:53:51.697Z",
+  "count": 11,
   "items": [
     {
-      "title": "\"이번주 삼전닉스 더 오를까\"…코스피 운명 가를 '슈퍼위크' [주간전망]",
-      "link": "https://www.hankyung.com/article/2026070345526",
-      "source": "한국경제",
-      "ts": 1783206005000,
-      "pub": "Sun, 05 Jul 2026 08:00:05 +0900",
+      "title": "AI 메모리 대란에…갤럭시 Z8 가격 인상 유력",
+      "link": "https://www.mt.co.kr/tech/2026/07/05/2026070510001443520",
+      "source": "머니투데이",
+      "ts": 1783225520000,
+      "pub": "Sun, 05 Jul 2026 13:25:20 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "이재용 '억만장자 여름캠프' 간다…'삼성뿐인 경쟁력' 존재감↑",
-      "link": "https://www.hankyung.com/article/2026070557937",
+      "title": "반도체 호황인데…PC·스마트폰 울상에 메모리값 '주춤'",
+      "link": "https://www.hankyung.com/article/2026070561007",
       "source": "한국경제",
-      "ts": 1783205122000,
-      "pub": "Sun, 05 Jul 2026 07:45:22 +0900",
+      "ts": 1783225226000,
+      "pub": "Sun, 05 Jul 2026 13:20:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전·하닉 '반도체 베팅'에…마이크론, 14조원 돈뭉치 꺼냈다",
+      "link": "https://www.hankyung.com/article/2026070560247",
+      "source": "한국경제",
+      "ts": 1783217803000,
+      "pub": "Sun, 05 Jul 2026 11:16:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 무풍 에어컨 출시 10년…글로벌 누적판매 2천만대 넘어",
+      "link": "https://www.yna.co.kr/view/AKR20260705011100003",
+      "source": "연합뉴스 경제",
+      "ts": 1783216806000,
+      "pub": "Sun, 5 Jul 2026 11:00:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -74,14 +90,6 @@
       "ts": 1783061065000,
       "pub": "Fri, 3 Jul 2026 15:44:25 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"2분기 메모리 시장규모 350조원…내년 하반기 상승세 둔화\"",
-      "link": "https://www.yna.co.kr/view/AKR20260703105100003",
-      "source": "연합뉴스 경제",
-      "ts": 1783060145000,
-      "pub": "Fri, 3 Jul 2026 15:29:05 +0900",
-      "sentiment": "positive"
     }
   ]
 }

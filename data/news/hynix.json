@@ -1,8 +1,56 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-05T01:53:49.530Z",
-  "count": 11,
+  "updated_at": "2026-07-05T05:53:51.697Z",
+  "count": 16,
   "items": [
+    {
+      "title": "\"반도체·AI 메가 프로젝트 수혜주는 SK\" 낙점한 리포트",
+      "link": "https://www.mt.co.kr/stock/2026/07/05/2026070513140049937",
+      "source": "머니투데이",
+      "ts": 1783229400000,
+      "pub": "Sun, 05 Jul 2026 14:30:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI 메모리 대란에…갤럭시 Z8 가격 인상 유력",
+      "link": "https://www.mt.co.kr/tech/2026/07/05/2026070510001443520",
+      "source": "머니투데이",
+      "ts": 1783225520000,
+      "pub": "Sun, 05 Jul 2026 13:25:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 호황인데…PC·스마트폰 울상에 메모리값 '주춤'",
+      "link": "https://www.hankyung.com/article/2026070561007",
+      "source": "한국경제",
+      "ts": 1783225226000,
+      "pub": "Sun, 05 Jul 2026 13:20:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "주관사 수수료만 2000억원...SK하이닉스, 미국 상장 '대박' 예약",
+      "link": "https://www.mt.co.kr/world/2026/07/05/2026070510392663243",
+      "source": "머니투데이",
+      "ts": 1783223094000,
+      "pub": "Sun, 05 Jul 2026 12:44:54 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "中 반도체 간판기업 '상장 러시'…막 오른 증설 전쟁 [차이나 워치]",
+      "link": "https://www.hankyung.com/article/202607035009i",
+      "source": "한국경제",
+      "ts": 1783222911000,
+      "pub": "Sun, 05 Jul 2026 12:41:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전·하닉 '반도체 베팅'에…마이크론, 14조원 돈뭉치 꺼냈다",
+      "link": "https://www.hankyung.com/article/2026070560247",
+      "source": "한국경제",
+      "ts": 1783217803000,
+      "pub": "Sun, 05 Jul 2026 11:16:43 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "LG화학, 美 앰코에 반도체용 스트리퍼 공급..패키징 소재 확대",
       "link": "https://www.mt.co.kr/industry/2026/07/05/2026070510355857472",
@@ -82,14 +130,6 @@
       "ts": 1783066118000,
       "pub": "Fri, 3 Jul 2026 17:08:38 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"2분기 메모리 시장규모 350조원…내년 하반기 상승세 둔화\"",
-      "link": "https://www.yna.co.kr/view/AKR20260703105100003",
-      "source": "연합뉴스 경제",
-      "ts": 1783060145000,
-      "pub": "Fri, 3 Jul 2026 15:29:05 +0900",
-      "sentiment": "positive"
     }
   ]
 }

@@ -1,32 +1,8 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-05T20:12:34.723Z",
-  "count": 15,
+  "updated_at": "2026-07-05T21:49:01.006Z",
+  "count": 10,
   "items": [
-    {
-      "title": "AI發 메모리 쇼크, 삼성 '갤Z8' 가격 인상 유력",
-      "link": "https://www.mt.co.kr/tech/2026/07/06/2026070519494933652",
-      "source": "머니투데이",
-      "ts": 1783278900000,
-      "pub": "Mon, 06 Jul 2026 04:15:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'SK하이닉스 제소' 美 기업…\"소송 전 더 많은 대화 원해\"",
-      "link": "https://www.mt.co.kr/industry/2026/07/06/2026070314482295123",
-      "source": "머니투데이",
-      "ts": 1783278060000,
-      "pub": "Mon, 06 Jul 2026 04:01:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"반도체 제쳤다\" 6월 수익률 1등은 이 업종...17.8% 뛰었다",
-      "link": "https://www.mt.co.kr/stock/2026/07/06/2026070518244547062",
-      "source": "머니투데이",
-      "ts": 1783278000000,
-      "pub": "Mon, 06 Jul 2026 04:00:00 +0900",
-      "sentiment": "neutral"
-    },
     {
       "title": "LG화학, 앰코에 반도체 후공정 소재 공급",
       "link": "https://www.hankyung.com/article/2026070564261",
@@ -42,22 +18,6 @@
       "ts": 1783244649000,
       "pub": "Sun, 05 Jul 2026 18:44:09 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "반도체發 수십조 추가세수, 메가프로젝트·청년 떠받친다",
-      "link": "https://www.mt.co.kr/politics/2026/07/05/2026070516165163001",
-      "source": "머니투데이",
-      "ts": 1783239708000,
-      "pub": "Sun, 05 Jul 2026 17:21:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "당정, 미래대응기금 신설...\"반도체 추가세수, 미래세대 투자금으로\"",
-      "link": "https://www.mt.co.kr/politics/2026/07/05/2026070515533516458",
-      "source": "머니투데이",
-      "ts": 1783236813000,
-      "pub": "Sun, 05 Jul 2026 16:33:33 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "[속보] 강훈식 \"반도체 추가세수로 미래대응기금 신설…미래위해 투자\"",

@@ -24,6 +24,7 @@ export type CvdDataset = {
 type ChartColors = {
   green: string;
   blue: string;
+  amber: string;
   textMuted: string;
   grid: string;
   crosshair: string;
@@ -34,6 +35,7 @@ type ChartColors = {
 const COLOR_DARK: ChartColors = {
   green: "#1FAE6F",
   blue: "#3182F6",
+  amber: "#F4A623",
   textMuted: "#8B95A1",
   grid: "rgba(139, 149, 161, 0.05)",
   crosshair: "rgba(139, 149, 161, 0.35)",
@@ -44,6 +46,7 @@ const COLOR_DARK: ChartColors = {
 const COLOR_LIGHT: ChartColors = {
   green: "#16A34A",
   blue: "#3182F6",
+  amber: "#D97706",
   textMuted: "#4E5968",
   grid: "rgba(78, 89, 104, 0.08)",
   crosshair: "rgba(78, 89, 104, 0.35)",
@@ -59,6 +62,12 @@ function fmtCvd(n: number): string {
   if (abs >= 1_000_000) return `${sign}$${(abs / 1_000_000).toFixed(2)}M`;
   if (abs >= 1_000) return `${sign}$${(abs / 1_000).toFixed(1)}K`;
   return `${sign}$${abs.toFixed(0)}`;
+}
+
+function fmtPrice(n: number): string {
+  if (n >= 100) return `$${n.toFixed(2)}`;
+  if (n >= 1) return `$${n.toFixed(3)}`;
+  return `$${n.toFixed(4)}`;
 }
 
 function kstTickFormatter(time: number, tickMarkType: number): string {
@@ -96,6 +105,7 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const chartRef = useRef<IChartApi | null>(null);
   const seriesRef = useRef<ISeriesApi<"Line"> | null>(null);
+  const priceSeriesRef = useRef<ISeriesApi<"Line"> | null>(null);
   const [tickerIdx, setTickerIdx] = useState(0);
   const [range, setRange] = useState<Range>("7D");
   const { theme } = useTheme();
@@ -136,6 +146,11 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
         tickMarkFormatter: ((time: Time, t: number) => kstTickFormatter(time as number, t)) as any,
       },
       rightPriceScale: { borderVisible: false, scaleMargins: { top: 0.15, bottom: 0.15 } },
+      leftPriceScale: {
+        visible: true,
+        borderVisible: false,
+        scaleMargins: { top: 0.15, bottom: 0.15 },
+      },
       crosshair: {
         mode: 1,
         vertLine: { color: COLOR.crosshair, width: 1, style: LineStyle.Dotted, labelBackgroundColor: COLOR.bgCard },
@@ -163,6 +178,7 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
     const series = chart.addLineSeries({
       color: trend.color,
       lineWidth: 2,
+      priceScaleId: "right",
       crosshairMarkerVisible: true,
       crosshairMarkerRadius: 5,
       crosshairMarkerBorderColor: trend.color,
@@ -172,11 +188,28 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
       priceFormat: { type: "custom", formatter: (p: number) => fmtCvd(p), minMove: 1 },
     });
 
+    // 가격 오버레이 — 좌측 별도 축. CVD와 같이 봐야 다이버전스/컨펌이 눈에 보임.
+    const priceSeries = chart.addLineSeries({
+      color: COLOR.amber,
+      lineWidth: 1,
+      priceScaleId: "left",
+      lineStyle: LineStyle.Solid,
+      crosshairMarkerVisible: true,
+      crosshairMarkerRadius: 4,
+      crosshairMarkerBorderColor: COLOR.amber,
+      crosshairMarkerBackgroundColor: COLOR.bg,
+      priceLineVisible: false,
+      lastValueVisible: true,
+      priceFormat: { type: "custom", formatter: (p: number) => fmtPrice(p), minMove: 0.01 },
+    });
+
     chartRef.current = chart;
     seriesRef.current = series;
+    priceSeriesRef.current = priceSeries;
 
     const bars = getBars(range);
     series.setData(bars.map((b) => ({ time: b.time as Time, value: b.cvd })) as LineData<Time>[]);
+    priceSeries.setData(bars.map((b) => ({ time: b.time as Time, value: b.price })) as LineData<Time>[]);
     if (bars.length > 0) {
       zeroLine.setData([
         { time: bars[0].time as Time, value: 0 },
@@ -190,15 +223,17 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
       chart.remove();
       chartRef.current = null;
       seriesRef.current = null;
+      priceSeriesRef.current = null;
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [theme]);
 
   useEffect(() => {
-    if (!seriesRef.current || !chartRef.current) return;
+    if (!seriesRef.current || !chartRef.current || !priceSeriesRef.current) return;
     const bars = getBars(range);
     seriesRef.current.setData(bars.map((b) => ({ time: b.time as Time, value: b.cvd })) as LineData<Time>[]);
     seriesRef.current.applyOptions({ color: trend.color, crosshairMarkerBorderColor: trend.color });
+    priceSeriesRef.current.setData(bars.map((b) => ({ time: b.time as Time, value: b.price })) as LineData<Time>[]);
     chartRef.current.timeScale().fitContent();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [range, tickerIdx, trend.color]);
@@ -245,14 +280,26 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
         </div>
       </div>
 
-      <div className="flex items-baseline gap-2 mb-2">
-        <div className="text-[10px] text-text-dim font-semibold tracking-[0.12em] uppercase">
-          {RANGE_LABEL[range]} 체결강도 누적(CVD)
+      <div className="flex items-center justify-between gap-2 mb-2 flex-wrap">
+        <div className="flex items-baseline gap-2">
+          <div className="text-[10px] text-text-dim font-semibold tracking-[0.12em] uppercase">
+            {RANGE_LABEL[range]} 체결강도 누적(CVD)
+          </div>
+          <div className={`text-xs font-bold tabular ${trendColorClass}`}>{trendArrow}</div>
         </div>
-        <div className={`text-xs font-bold tabular ${trendColorClass}`}>{trendArrow}</div>
+        <div className="flex items-center gap-3 text-[10px] text-text-dim">
+          <span className="inline-flex items-center gap-1">
+            <span className="inline-block w-3 h-[2px]" style={{ backgroundColor: COLOR.amber }} />
+            가격(좌축)
+          </span>
+          <span className="inline-flex items-center gap-1">
+            <span className={`inline-block w-3 h-[2px] ${trend.isUp ? "bg-accent-green" : "bg-accent-blue"}`} />
+            CVD(우축)
+          </span>
+        </div>
       </div>
 
-      <div ref={containerRef} className="w-full h-[200px] md:h-[260px]" />
+      <div ref={containerRef} className="w-full h-[220px] md:h-[300px]" />
     </div>
   );
 }

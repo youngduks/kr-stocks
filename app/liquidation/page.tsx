@@ -115,10 +115,10 @@ export default async function LiquidationPage() {
               <h2 className="text-xl font-bold mb-1">📊 CVD (체결강도 누적) — 실데이터</h2>
               <p className="text-xs text-text-dim mb-4 leading-relaxed">
                 청산맵 자체는 유료 API 없이 재현이 불가하지만, CVD는 바이낸스 공개 캔들의
-                매수·매도 체결량 분해로 저희가 직접 계산해 무료 제공합니다. 우상향 = 매수 체결
-                우세, 우하향 = 매도 체결 우세 — 가격은 그대로인데 CVD가 꺾이면 방향 전환 신호로
-                많이 봅니다. (바이낸스 상장 종목만 계산 가능 — NVDA·DRAM·S&P500·KORU는 아래
-                청산맵 링크 참고)
+                매수·매도 체결량 분해로 저희가 직접 계산해 무료 제공합니다. 가격(주황·좌축)과
+                CVD(초록·파랑·우축)를 같이 표시해서 지금 CVD 움직임이 가격 대비 무슨 의미인지
+                바로 볼 수 있습니다. (바이낸스 상장 종목만 계산 가능 — NVDA·DRAM·S&P500·KORU는
+                아래 청산맵 링크 참고)
               </p>
               <CvdChart datasets={cvdDatasets} />
             </section>

@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-05T22:49:26.552Z",
-  "count": 29,
+  "updated_at": "2026-07-05T23:55:09.847Z",
+  "count": 34,
   "items": [
+    {
+      "title": "베이조스·트럼프 밀착…블루오리진 계약 급증",
+      "link": "https://www.hankyung.com/article/202607066848i",
+      "source": "한국경제",
+      "ts": 1783294128000,
+      "pub": "Mon, 06 Jul 2026 08:28:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "말 아낀 워시…Fed 6월 의사록에 쏠리는 시장의 시선",
+      "link": "https://www.hankyung.com/article/202607066850i",
+      "source": "한국경제",
+      "ts": 1783293526000,
+      "pub": "Mon, 06 Jul 2026 08:18:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[외신 에스프레소 영상] 관세 폭탄 터뜨리고 우량주 싹쓸이?…트럼프 주식 투자 의혹",
+      "link": "https://www.hankyung.com/article/202607066754i",
+      "source": "한국경제",
+      "ts": 1783293088000,
+      "pub": "Mon, 06 Jul 2026 08:11:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"미쳤느냐\" 날 선 트럼프-네타냐후, 부랴부랴 \"우리 관계 좋다\"",
+      "link": "https://www.mt.co.kr/world/2026/07/06/2026070607315682256",
+      "source": "머니투데이",
+      "ts": 1783291780000,
+      "pub": "Mon, 06 Jul 2026 07:49:40 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 반공 띄우고 역사서술 수정시도…선거 앞 이념전쟁 시동",
       "link": "https://www.yna.co.kr/view/AKR20260706011000071",
@@ -20,11 +52,27 @@
       "sentiment": "neutral"
     },
     {
+      "title": "트럼프 \"폭풍우로 취소된 독립기념일 행사, 내 결정으로 재개\"",
+      "link": "https://www.mt.co.kr/world/2026/07/06/2026070606352767186",
+      "source": "머니투데이",
+      "ts": 1783287941000,
+      "pub": "Mon, 06 Jul 2026 06:45:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "트럼프 \"폭풍우에 독립기념일 행사 취소됐지만 내가 뒤집어\"",
       "link": "https://www.yna.co.kr/view/AKR20260706003000071",
       "source": "연합뉴스 국제",
       "ts": 1783282225000,
       "pub": "Mon, 6 Jul 2026 05:10:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 취임 후 쿠팡 주식 18차례 거래",
+      "link": "https://www.mt.co.kr/world/2026/07/06/2026070519532549745",
+      "source": "머니투데이",
+      "ts": 1783278240000,
+      "pub": "Mon, 06 Jul 2026 04:04:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -225,14 +273,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783130849000,
       "pub": "Sat, 4 Jul 2026 11:07:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"나토 집단방위에 '철통의지'\"…트럼프, 이란전쟁 뒤 태세전환",
-      "link": "https://www.yna.co.kr/view/AKR20260704019800009",
-      "source": "연합뉴스 국제",
-      "ts": 1783129001000,
-      "pub": "Sat, 4 Jul 2026 10:36:41 +0900",
       "sentiment": "neutral"
     }
   ]

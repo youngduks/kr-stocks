@@ -1,8 +1,48 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-06T06:59:23.026Z",
-  "count": 10,
+  "updated_at": "2026-07-06T11:27:27.050Z",
+  "count": 11,
   "items": [
+    {
+      "title": "청주, 반도체 가스 품질·안전센터 구축",
+      "link": "https://www.hankyung.com/article/2026070684931",
+      "source": "한국경제",
+      "ts": 1783331591000,
+      "pub": "Mon, 06 Jul 2026 18:53:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스, ADR 발행 총액 45조→43조원 정정…주가 하락 반영",
+      "link": "https://www.hankyung.com/article/2026070687127",
+      "source": "한국경제",
+      "ts": 1783330677000,
+      "pub": "Mon, 06 Jul 2026 18:37:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "청주시, SK하이닉스 투자 지원 '부시장 총괄 TF' 가동",
+      "link": "https://www.yna.co.kr/view/AKR20260706118500064",
+      "source": "연합뉴스 경제",
+      "ts": 1783325463000,
+      "pub": "Mon, 6 Jul 2026 17:11:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中증시도 AI·반도체만 잘나가…산업 양극화 보여주는 축소판",
+      "link": "https://www.yna.co.kr/view/AKR20260706121200009",
+      "source": "연합뉴스 국제",
+      "ts": 1783323062000,
+      "pub": "Mon, 6 Jul 2026 16:31:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] '실적 D-1' 삼성전자, 2%대 상승…하이닉스는 하락(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260706030751008",
+      "source": "연합뉴스 경제",
+      "ts": 1783321466000,
+      "pub": "Mon, 6 Jul 2026 16:04:26 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'반도체 온다' 광주 군공항 250만평 개발 방식 어떻게 바뀌나",
       "link": "https://www.yna.co.kr/view/AKR20260706101600054",
@@ -18,30 +58,6 @@
       "ts": 1783316761000,
       "pub": "Mon, 6 Jul 2026 14:46:01 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "프랭클린템플턴 \"韓 증시 반도체에 너무 쏠렸다…잠자는 호랑이 찾아야\"",
-      "link": "https://www.hankyung.com/article/202607067790i",
-      "source": "한국경제",
-      "ts": 1783316085000,
-      "pub": "Mon, 06 Jul 2026 14:34:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "靑 \"호남 반도체 클러스터 광주 군공항 부지에 조성키로 결정\"",
-      "link": "https://www.hankyung.com/article/2026070679337",
-      "source": "한국경제",
-      "ts": 1783314370000,
-      "pub": "Mon, 06 Jul 2026 14:06:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스 14% 폭락한 날… 거래대금 15%가 '레버리지' 리밸런싱",
-      "link": "https://www.hankyung.com/article/202607067341i",
-      "source": "한국경제",
-      "ts": 1783314002000,
-      "pub": "Mon, 06 Jul 2026 14:00:02 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "\"3분기 D램 인상률 13∼18%로 둔화…소비자 가격 감당에 한계\"",
@@ -73,14 +89,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783298784000,
       "pub": "Mon, 6 Jul 2026 09:46:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] '실적 D-1' 삼성전자, 3%대 상승…하이닉스도 올라",
-      "link": "https://www.yna.co.kr/view/AKR20260706030700008",
-      "source": "연합뉴스 경제",
-      "ts": 1783297101000,
-      "pub": "Mon, 6 Jul 2026 09:18:21 +0900",
       "sentiment": "neutral"
     }
   ]

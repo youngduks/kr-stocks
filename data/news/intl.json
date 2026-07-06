@@ -1,8 +1,80 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-06T06:59:23.017Z",
-  "count": 17,
+  "updated_at": "2026-07-06T11:27:27.048Z",
+  "count": 18,
   "items": [
+    {
+      "title": "하마스, 약 20년만에 가자지구 통치기구 공식 해산",
+      "link": "https://www.yna.co.kr/view/AKR20260706149400079",
+      "source": "연합뉴스 국제",
+      "ts": 1783335057000,
+      "pub": "Mon, 6 Jul 2026 19:50:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 멜로니 사진 올리며 \"접근금지 필요\"…난감한 이탈리아",
+      "link": "https://www.yna.co.kr/view/AKR20260706143100109",
+      "source": "연합뉴스 국제",
+      "ts": 1783332545000,
+      "pub": "Mon, 6 Jul 2026 19:09:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "FIFA, 공정성 걷어찼나…트럼프 전화에 '美 골잡이' 징계 철회",
+      "link": "https://www.hankyung.com/article/2026070685521",
+      "source": "한국경제",
+      "ts": 1783330298000,
+      "pub": "Mon, 06 Jul 2026 18:31:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 국방 \"우리 위협하는 이란 지도자, 하메네이처럼 될 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260706142000079",
+      "source": "연합뉴스 국제",
+      "ts": 1783329279000,
+      "pub": "Mon, 6 Jul 2026 18:14:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러 보급로 노리는 우크라 중거리 드론…크림반도 '비상'",
+      "link": "https://www.yna.co.kr/view/AKR20260706133600109",
+      "source": "연합뉴스 국제",
+      "ts": 1783328795000,
+      "pub": "Mon, 6 Jul 2026 18:06:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "EU 집행위원장 \"나토 정상회의서 우크라 방공 역량 논의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260706137700108",
+      "source": "연합뉴스 국제",
+      "ts": 1783327403000,
+      "pub": "Mon, 6 Jul 2026 17:43:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "나토 정상회의 앞두고 러 파상공세…젤렌스키, 방공망 지원 촉구",
+      "link": "https://www.yna.co.kr/view/AKR20260706129800109",
+      "source": "연합뉴스 국제",
+      "ts": 1783325122000,
+      "pub": "Mon, 6 Jul 2026 17:05:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중동전쟁에 \"트럼프 만세\" 외친 정유사…경제위기를 폭리 기회로(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260706082851004",
+      "source": "연합뉴스 경제",
+      "ts": 1783324886000,
+      "pub": "Mon, 6 Jul 2026 17:01:26 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[영상] 하메네이 장례식서 \"트럼프 제거하라\"…후계자는 어디에",
+      "link": "https://www.yna.co.kr/view/AKR20260706122800704",
+      "source": "연합뉴스 국제",
+      "ts": 1783322917000,
+      "pub": "Mon, 6 Jul 2026 16:28:37 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "러, 우크라 키이우에 또 미사일·드론 공습…최소 11명 숨져(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260706072751009",
@@ -73,70 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783265335000,
       "pub": "Mon, 6 Jul 2026 00:28:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 전례없는 맹공…올해만 러 정유시설 공격 약 200회",
-      "link": "https://www.yna.co.kr/view/AKR20260705039900009",
-      "source": "연합뉴스 국제",
-      "ts": 1783243424000,
-      "pub": "Sun, 5 Jul 2026 18:23:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] '푸틴 고향' 상트페테르부르크 석유시설도 '활활'",
-      "link": "https://www.yna.co.kr/view/AKR20260705034700704",
-      "source": "연합뉴스 국제",
-      "ts": 1783238512000,
-      "pub": "Sun, 5 Jul 2026 17:01:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 자기 서명 새긴 '건국 250주년' 100달러 지폐 공개",
-      "link": "https://www.yna.co.kr/view/AKR20260705030700009",
-      "source": "연합뉴스 국제",
-      "ts": 1783232434000,
-      "pub": "Sun, 5 Jul 2026 15:20:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 건국250주년 연설서 \"반공\" 외쳐…한국전 참전용사 소개",
-      "link": "https://www.yna.co.kr/view/AKR20260705026200071",
-      "source": "연합뉴스 국제",
-      "ts": 1783226805000,
-      "pub": "Sun, 5 Jul 2026 13:46:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] '푸틴 고향' 상트페테르부르크 석유시설 쾅!…\"주유소 줄 5㎞\"",
-      "link": "https://www.yna.co.kr/view/AKR20260705025700704",
-      "source": "연합뉴스 국제",
-      "ts": 1783226476000,
-      "pub": "Sun, 5 Jul 2026 13:41:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프에 무역·외교 핵심까지…美정부와 넓고 깊게 엮인 쿠팡",
-      "link": "https://www.yna.co.kr/view/AKR20260705024100071",
-      "source": "연합뉴스 국제",
-      "ts": 1783223411000,
-      "pub": "Sun, 5 Jul 2026 12:50:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 코인으로 1조원 벌때…추종 개미 99만명 5조8천억 손실",
-      "link": "https://www.yna.co.kr/view/AKR20260705018000009",
-      "source": "연합뉴스 국제",
-      "ts": 1783218416000,
-      "pub": "Sun, 5 Jul 2026 11:26:56 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"트럼프가 시진핑 만나 거론한 조선족 목사 석방돼 도미\"",
-      "link": "https://www.yna.co.kr/view/AKR20260705019000071",
-      "source": "연합뉴스 국제",
-      "ts": 1783217568000,
-      "pub": "Sun, 5 Jul 2026 11:12:48 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -4,6 +4,7 @@
 //
 // 델타 = takerBuyQuoteVolume - takerSellQuoteVolume (USDT 기준, 캔들 단위)
 // CVD  = 델타의 누적합 — 우상향이면 매수 체결 우세, 우하향이면 매도 체결 우세.
+// 누적 기준점은 fetch 윈도우 시작 — 표시 구간(1D 슬라이스 등) 재기준은 CvdChart의 rebaseCvd가 처리.
 //
 // 한국 토큰화 주식(삼성전자/SK하이닉스/현대차)은 바이낸스 선물로 상장돼 있어 계산 가능.
 // Hyperliquid 상장 종목(NVDA/DRAM 등)은 캔들에 taker buy/sell 분해가 없어 계산 불가.
@@ -43,21 +44,34 @@ async function fetchCvdKlines(
     if (!Array.isArray(arr)) return [];
 
     let cum = 0;
-    return arr.map((b) => {
+    const points: CvdPoint[] = [];
+    for (const b of arr) {
       // Binance kline: [openTime, o, h, l, c, v, closeTime, quoteVolume, trades, takerBuyBaseVol, takerBuyQuoteVol, ignore]
-      const quoteVolume = Number(b[7]);
-      const takerBuyQuote = Number(b[10]);
+      const openTime = Number(b?.[0]);
+      const price = Number(b?.[4]);
+      const quoteVolume = Number(b?.[7]);
+      const takerBuyQuote = Number(b?.[10]);
+      // 손상된 행 하나가 NaN 누적으로 시리즈 전체를 오염시키지 않게 건너뜀
+      if (
+        !Number.isFinite(openTime) ||
+        !Number.isFinite(price) ||
+        !Number.isFinite(quoteVolume) ||
+        !Number.isFinite(takerBuyQuote)
+      ) {
+        continue;
+      }
       const takerSellQuote = quoteVolume - takerBuyQuote;
       const delta = takerBuyQuote - takerSellQuote;
       cum += delta;
-      return {
-        time: Math.floor(Number(b[0]) / 1000),
+      points.push({
+        time: Math.floor(openTime / 1000),
         cvd: cum,
-        price: Number(b[4]),
+        price,
         buyQuote: takerBuyQuote,
         sellQuote: takerSellQuote,
-      };
-    });
+      });
+    }
+    return points;
   } catch {
     return [];
   }

@@ -38,12 +38,14 @@ const TICKERS: LiqTicker[] = [
 export const metadata: Metadata = {
   title: "청산맵 — 삼성전자·SK하이닉스·NVIDIA 청산 지도",
   description:
-    "거래소들이 토큰화 주식을 상장하면서 청산맵(리퀴데이션 히트맵)도 주식 티커까지 지원. 삼성전자·SK하이닉스·NVIDIA·DRAM·S&P500·KORU 청산 지도 바로가기 + 청산맵 보는 법.",
+    "거래소들이 토큰화 주식을 상장하면서 청산맵(리퀴데이션 히트맵)도 주식 티커까지 지원. 삼성전자·SK하이닉스·NVIDIA·DRAM·S&P500·KORU 청산 지도 바로가기 + 삼전·닉스·현대차 CVD(체결강도 누적) 실측 차트.",
   keywords: [
     "청산맵",
     "청산 지도",
     "리퀴데이션 히트맵",
     "liquidation heatmap",
+    "CVD",
+    "체결강도",
     "삼성전자 청산가",
     "SK하이닉스 청산가",
     "NVIDIA 청산맵",
@@ -115,7 +117,8 @@ export default async function LiquidationPage() {
               <h2 className="text-xl font-bold mb-1">📊 CVD (체결강도 누적) — 실데이터</h2>
               <p className="text-xs text-text-dim mb-4 leading-relaxed">
                 청산맵 자체는 유료 API 없이 재현이 불가하지만, CVD는 바이낸스 공개 캔들의
-                매수·매도 체결량 분해로 저희가 직접 계산해 무료 제공합니다. 가격(주황·좌축)과
+                매수·매도 체결량 분해로 저희가 직접 계산해 무료 제공합니다. 선택한 구간 시작을
+                0으로 놓고 누적하므로 0 위면 구간 순매수, 아래면 순매도 우세입니다. 가격(주황·좌축)과
                 CVD(초록·파랑·우축)를 같이 표시해서 지금 CVD 움직임이 가격 대비 무슨 의미인지
                 바로 볼 수 있습니다. (바이낸스 상장 종목만 계산 가능 — NVDA·DRAM·S&P500·KORU는
                 아래 청산맵 링크 참고)
@@ -203,7 +206,7 @@ export default async function LiquidationPage() {
                     </a>
                     {t.internalHref && (
                       <Link
-                        href={t.internalHref as any}
+                        href={t.internalHref}
                         className="inline-block px-3 py-1.5 rounded-lg bg-bg-card border border-line text-text-dim hover:text-text text-xs font-semibold transition"
                       >
                         kr-stocks 시세

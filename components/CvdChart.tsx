@@ -86,6 +86,34 @@ function kstTickFormatter(time: number, tickMarkType: number): string {
   return f({ month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" });
 }
 
+function kstCrosshairFormatter(time: number): string {
+  const d = new Date(time * 1000);
+  return (
+    new Intl.DateTimeFormat("ko-KR", {
+      timeZone: "Asia/Seoul",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+    }).format(d) + " KST"
+  );
+}
+
+/**
+ * 표시 구간 시작을 0으로 재기준.
+ * lib/cvd의 누적은 fetch 윈도우(7일/30일) 시작 기준이라, 1D처럼 슬라이스한 구간은
+ * 앞 6일치 누적이 오프셋으로 얹혀 0 기준선이 무의미해지고 Y축도 눌려버림.
+ * 재기준 후에는 모든 구간에서 "0 위 = 구간 순매수, 0 아래 = 구간 순매도"로 읽힘.
+ * 전체 윈도우(7D/1M)는 base가 정확히 0이라 원본 그대로 반환.
+ */
+function rebaseCvd(src: CvdPoint[]): CvdPoint[] {
+  if (src.length === 0) return src;
+  const base = src[0].cvd - (src[0].buyQuote - src[0].sellQuote);
+  if (base === 0) return src;
+  return src.map((b) => ({ ...b, cvd: b.cvd - base }));
+}
+
 /**
  * 지지선 탐지 — 스윙 로우(좌우 K개 봉보다 낮은 저점) 클러스터링.
  * 근접한 저점(0.6% 이내)을 하나로 묶고, 터치 횟수(강도) 내림차순으로 상위 N개 반환.
@@ -97,6 +125,7 @@ function findSupportLevels(bars: CvdPoint[], maxLevels = 2): number[] {
   const swingLows: number[] = [];
   for (let i = K; i < bars.length - K; i++) {
     const p = bars[i].price;
+    if (!Number.isFinite(p) || p <= 0) continue;
     let isLow = true;
     for (let j = i - K; j <= i + K; j++) {
       if (j !== i && bars[j].price < p) {
@@ -123,17 +152,16 @@ function findSupportLevels(bars: CvdPoint[], maxLevels = 2): number[] {
   return clusters.slice(0, maxLevels).map((c) => c.level);
 }
 
-function kstCrosshairFormatter(time: number): string {
-  const d = new Date(time * 1000);
-  return (
-    new Intl.DateTimeFormat("ko-KR", {
-      timeZone: "Asia/Seoul",
-      month: "2-digit",
-      day: "2-digit",
-      hour: "2-digit",
-      minute: "2-digit",
-      hour12: false,
-    }).format(d) + " KST"
+function drawSupportLines(series: ISeriesApi<"Line">, levels: number[], color: string): IPriceLine[] {
+  return levels.map((level) =>
+    series.createPriceLine({
+      price: level,
+      color,
+      lineWidth: 1,
+      lineStyle: LineStyle.Dashed,
+      axisLabelVisible: true,
+      title: "지지선",
+    })
   );
 }
 
@@ -153,26 +181,32 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
   const { theme } = useTheme();
   const COLOR = useMemo(() => (theme === "light" ? COLOR_LIGHT : COLOR_DARK), [theme]);
 
-  const active = datasets[tickerIdx];
+  // datasets가 서버 재검증으로 줄어도 인덱스가 범위를 벗어나지 않게 clamp
+  const safeIdx = Math.min(tickerIdx, Math.max(datasets.length - 1, 0));
+  const active = datasets[safeIdx];
+  const has1H = (active?.set.bars1H.length ?? 0) > 0;
+  const has4H = (active?.set.bars4H.length ?? 0) > 0;
+  const rangeAvailable: Record<Range, boolean> = { "1D": has1H, "7D": has1H, "1M": has4H };
+  // 한쪽 interval fetch만 실패한 종목에서 빈 차트가 뜨지 않게 가용 구간으로 스냅
+  const shownRange: Range = rangeAvailable[range] ? range : has1H ? "7D" : "1M";
 
-  const getBars = (r: Range) => {
+  const bars = useMemo(() => {
     if (!active) return [];
-    if (r === "1M") return active.set.bars4H;
-    if (r === "1D") return active.set.bars1H.slice(-24);
-    return active.set.bars1H;
-  };
+    if (shownRange === "1M") return rebaseCvd(active.set.bars4H);
+    if (shownRange === "1D") return rebaseCvd(active.set.bars1H.slice(-24));
+    return rebaseCvd(active.set.bars1H);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [shownRange, safeIdx, datasets]);
 
   const trend = useMemo(() => {
-    const bars = getBars(range);
     if (bars.length < 2) return { isUp: true, color: COLOR.green };
     const isUp = bars[bars.length - 1].cvd >= bars[0].cvd;
     return { isUp, color: isUp ? COLOR.green : COLOR.blue };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [range, tickerIdx, active, COLOR]);
+  }, [bars, COLOR]);
 
   // 빗썸식 상승/하락 비율 — 실제 체결된 매수·매도 금액(USDT) 비중. 예측이 아니라 실측 체결 비율.
+  // 라벨은 한쪽만 반올림 후 나머지를 100에서 빼서 합이 항상 100%가 되게 함
   const ratio = useMemo(() => {
-    const bars = getBars(range);
     let buy = 0;
     let sell = 0;
     for (const b of bars) {
@@ -181,9 +215,12 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
     }
     const total = buy + sell;
     const upPct = total > 0 ? (buy / total) * 100 : 50;
-    return { upPct, downPct: 100 - upPct };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [range, tickerIdx, active]);
+    const upLabel = Math.round(upPct);
+    return { upPct, downPct: 100 - upPct, upLabel, downLabel: 100 - upLabel };
+  }, [bars]);
+
+  // 렌더 시점에 계산 — ref 변이는 리렌더를 안 일으켜서 캡션 표시 여부를 ref로 판단하면 첫 렌더에 안 보임
+  const supportLevels = useMemo(() => findSupportLevels(bars), [bars]);
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -222,16 +259,6 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
       },
     });
 
-    // 0 기준선 — CVD 방향 전환 기준점
-    const zeroLine = chart.addLineSeries({
-      color: COLOR.textMuted,
-      lineWidth: 1,
-      lineStyle: LineStyle.Dotted,
-      lastValueVisible: false,
-      priceLineVisible: false,
-      crosshairMarkerVisible: false,
-    });
-
     const series = chart.addLineSeries({
       color: trend.color,
       lineWidth: 2,
@@ -243,6 +270,28 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
       priceLineVisible: false,
       lastValueVisible: true,
       priceFormat: { type: "custom", formatter: (p: number) => fmtCvd(p), minMove: 1 },
+      // 0 기준선이 항상 차트 영역 안에 보이게 Y축 자동 확장 (PriceChart의 refLine 패턴)
+      autoscaleInfoProvider: (original: () => any) => {
+        const res = original();
+        if (!res?.priceRange) return res;
+        return {
+          ...res,
+          priceRange: {
+            minValue: Math.min(res.priceRange.minValue, 0),
+            maxValue: Math.max(res.priceRange.maxValue, 0),
+          },
+        };
+      },
+    });
+
+    // 0 기준선 — 구간 순매수/순매도 전환점. priceLine이라 range 전환과 무관하게 전체 폭 유지.
+    series.createPriceLine({
+      price: 0,
+      color: COLOR.textMuted,
+      lineWidth: 1,
+      lineStyle: LineStyle.Dotted,
+      axisLabelVisible: false,
+      title: "",
     });
 
     // 가격 오버레이 — 좌측 별도 축. CVD와 같이 봐야 다이버전스/컨펌이 눈에 보임.
@@ -264,27 +313,9 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
     seriesRef.current = series;
     priceSeriesRef.current = priceSeries;
 
-    const bars = getBars(range);
     series.setData(bars.map((b) => ({ time: b.time as Time, value: b.cvd })) as LineData<Time>[]);
     priceSeries.setData(bars.map((b) => ({ time: b.time as Time, value: b.price })) as LineData<Time>[]);
-    if (bars.length > 0) {
-      zeroLine.setData([
-        { time: bars[0].time as Time, value: 0 },
-        { time: bars[bars.length - 1].time as Time, value: 0 },
-      ] as LineData<Time>[]);
-    }
-
-    // 지지선 — 최근 저점 클러스터 상위 2개, 가격 축(좌측)에 점선으로 표시
-    supportLinesRef.current = findSupportLevels(bars).map((level) =>
-      priceSeries.createPriceLine({
-        price: level,
-        color: COLOR.purple,
-        lineWidth: 1,
-        lineStyle: LineStyle.Dashed,
-        axisLabelVisible: true,
-        title: "지지선",
-      })
-    );
+    supportLinesRef.current = drawSupportLines(priceSeries, supportLevels, COLOR.purple);
 
     chart.timeScale().fitContent();
 
@@ -299,28 +330,20 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
   }, [theme]);
 
   useEffect(() => {
-    if (!seriesRef.current || !chartRef.current || !priceSeriesRef.current) return;
+    const chart = chartRef.current;
+    const series = seriesRef.current;
     const priceSeries = priceSeriesRef.current;
-    const bars = getBars(range);
-    seriesRef.current.setData(bars.map((b) => ({ time: b.time as Time, value: b.cvd })) as LineData<Time>[]);
-    seriesRef.current.applyOptions({ color: trend.color, crosshairMarkerBorderColor: trend.color });
+    if (!chart || !series || !priceSeries) return;
+    series.setData(bars.map((b) => ({ time: b.time as Time, value: b.cvd })) as LineData<Time>[]);
+    series.applyOptions({ color: trend.color, crosshairMarkerBorderColor: trend.color });
     priceSeries.setData(bars.map((b) => ({ time: b.time as Time, value: b.price })) as LineData<Time>[]);
 
     for (const line of supportLinesRef.current) priceSeries.removePriceLine(line);
-    supportLinesRef.current = findSupportLevels(bars).map((level) =>
-      priceSeries.createPriceLine({
-        price: level,
-        color: COLOR.purple,
-        lineWidth: 1,
-        lineStyle: LineStyle.Dashed,
-        axisLabelVisible: true,
-        title: "지지선",
-      })
-    );
+    supportLinesRef.current = drawSupportLines(priceSeries, supportLevels, COLOR.purple);
 
-    chartRef.current.timeScale().fitContent();
+    chart.timeScale().fitContent();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [range, tickerIdx, trend.color]);
+  }, [bars, trend.color]);
 
   if (!active || datasets.length === 0) {
     return (
@@ -341,8 +364,9 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
             <button
               key={d.symbol}
               onClick={() => setTickerIdx(i)}
+              aria-pressed={safeIdx === i}
               className={`px-3 py-1 rounded-full text-[11px] font-bold transition-all whitespace-nowrap ${
-                tickerIdx === i ? "bg-text text-bg shadow-sm" : "text-text-dim hover:text-text-muted"
+                safeIdx === i ? "bg-text text-bg shadow-sm" : "text-text-dim hover:text-text-muted"
               }`}
             >
               {d.label}
@@ -354,8 +378,10 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
             <button
               key={r}
               onClick={() => setRange(r)}
-              className={`px-3 py-1 rounded-full text-[11px] font-bold transition-all ${
-                range === r ? "bg-text text-bg shadow-sm" : "text-text-dim hover:text-text-muted"
+              disabled={!rangeAvailable[r]}
+              aria-pressed={shownRange === r}
+              className={`px-3 py-1 rounded-full text-[11px] font-bold transition-all disabled:opacity-40 disabled:cursor-not-allowed ${
+                shownRange === r ? "bg-text text-bg shadow-sm" : "text-text-dim hover:text-text-muted"
               }`}
             >
               {r}
@@ -367,7 +393,7 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
       <div className="flex items-center justify-between gap-2 mb-2 flex-wrap">
         <div className="flex items-baseline gap-2">
           <div className="text-[10px] text-text-dim font-semibold tracking-[0.12em] uppercase">
-            {RANGE_LABEL[range]} 체결강도 누적(CVD)
+            {RANGE_LABEL[shownRange]} 체결강도 누적(CVD)
           </div>
           <div className={`text-xs font-bold tabular ${trendColorClass}`}>{trendArrow}</div>
         </div>
@@ -385,10 +411,10 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
 
       {/* 빗썸식 상승/하락 비율 — 이 구간 실제 체결된 매수·매도 금액 비중 (예측이 아닌 실측) */}
       <div className="text-[9px] text-text-dim mb-1">
-        {RANGE_LABEL[range]} 매수·매도 체결 비중 (실측, 예측 아님)
+        {RANGE_LABEL[shownRange]} 매수·매도 체결 비중 (실측, 예측 아님)
       </div>
       <div className="flex items-center gap-2 mb-3 text-[11px] font-bold tabular">
-        <span className="text-accent-green shrink-0">상승 {ratio.upPct.toFixed(0)}%</span>
+        <span className="text-accent-green shrink-0">상승 {ratio.upLabel}%</span>
         <div className="relative flex-1 h-2 bg-line/40 rounded-full overflow-hidden">
           <div
             className="absolute left-0 top-0 h-full bg-accent-green transition-all"
@@ -399,11 +425,11 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
             style={{ width: `${ratio.downPct}%` }}
           />
         </div>
-        <span className="text-accent-blue shrink-0">하락 {ratio.downPct.toFixed(0)}%</span>
+        <span className="text-accent-blue shrink-0">하락 {ratio.downLabel}%</span>
       </div>
 
       <div ref={containerRef} className="w-full h-[220px] md:h-[300px]" />
-      {supportLinesRef.current.length > 0 && (
+      {supportLevels.length > 0 && (
         <p className="mt-2 text-[10px] text-text-dim leading-relaxed">
           <span style={{ color: COLOR.purple }} className="font-semibold">
             ┈┈ 지지선

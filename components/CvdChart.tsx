@@ -7,10 +7,11 @@ import {
   LineStyle,
   type IChartApi,
   type ISeriesApi,
+  type IPriceLine,
   type LineData,
   type Time,
 } from "lightweight-charts";
-import type { CvdSet } from "@/lib/cvd";
+import type { CvdPoint, CvdSet } from "@/lib/cvd";
 import { useTheme } from "./ThemeProvider";
 
 type Range = "1D" | "7D" | "1M";
@@ -25,6 +26,7 @@ type ChartColors = {
   green: string;
   blue: string;
   amber: string;
+  purple: string;
   textMuted: string;
   grid: string;
   crosshair: string;
@@ -36,6 +38,7 @@ const COLOR_DARK: ChartColors = {
   green: "#1FAE6F",
   blue: "#3182F6",
   amber: "#F4A623",
+  purple: "#9D7DEC",
   textMuted: "#8B95A1",
   grid: "rgba(139, 149, 161, 0.05)",
   crosshair: "rgba(139, 149, 161, 0.35)",
@@ -47,6 +50,7 @@ const COLOR_LIGHT: ChartColors = {
   green: "#16A34A",
   blue: "#3182F6",
   amber: "#D97706",
+  purple: "#7C3AED",
   textMuted: "#4E5968",
   grid: "rgba(78, 89, 104, 0.08)",
   crosshair: "rgba(78, 89, 104, 0.35)",
@@ -82,6 +86,43 @@ function kstTickFormatter(time: number, tickMarkType: number): string {
   return f({ month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" });
 }
 
+/**
+ * 지지선 탐지 — 스윙 로우(좌우 K개 봉보다 낮은 저점) 클러스터링.
+ * 근접한 저점(0.6% 이내)을 하나로 묶고, 터치 횟수(강도) 내림차순으로 상위 N개 반환.
+ * 정식 피봇/피보나치 분석이 아닌 단순 저점 빈도 기반 — 참고용.
+ */
+function findSupportLevels(bars: CvdPoint[], maxLevels = 2): number[] {
+  const K = 2;
+  if (bars.length < K * 2 + 3) return [];
+  const swingLows: number[] = [];
+  for (let i = K; i < bars.length - K; i++) {
+    const p = bars[i].price;
+    let isLow = true;
+    for (let j = i - K; j <= i + K; j++) {
+      if (j !== i && bars[j].price < p) {
+        isLow = false;
+        break;
+      }
+    }
+    if (isLow) swingLows.push(p);
+  }
+  if (swingLows.length === 0) return [];
+
+  swingLows.sort((a, b) => a - b);
+  const clusters: { level: number; count: number }[] = [];
+  for (const p of swingLows) {
+    const last = clusters[clusters.length - 1];
+    if (last && Math.abs(p - last.level) / last.level < 0.006) {
+      last.level = (last.level * last.count + p) / (last.count + 1);
+      last.count += 1;
+    } else {
+      clusters.push({ level: p, count: 1 });
+    }
+  }
+  clusters.sort((a, b) => b.count - a.count || a.level - b.level);
+  return clusters.slice(0, maxLevels).map((c) => c.level);
+}
+
 function kstCrosshairFormatter(time: number): string {
   const d = new Date(time * 1000);
   return (
@@ -106,6 +147,7 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
   const chartRef = useRef<IChartApi | null>(null);
   const seriesRef = useRef<ISeriesApi<"Line"> | null>(null);
   const priceSeriesRef = useRef<ISeriesApi<"Line"> | null>(null);
+  const supportLinesRef = useRef<IPriceLine[]>([]);
   const [tickerIdx, setTickerIdx] = useState(0);
   const [range, setRange] = useState<Range>("7D");
   const { theme } = useTheme();
@@ -127,6 +169,21 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
     return { isUp, color: isUp ? COLOR.green : COLOR.blue };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [range, tickerIdx, active, COLOR]);
+
+  // 빗썸식 상승/하락 비율 — 실제 체결된 매수·매도 금액(USDT) 비중. 예측이 아니라 실측 체결 비율.
+  const ratio = useMemo(() => {
+    const bars = getBars(range);
+    let buy = 0;
+    let sell = 0;
+    for (const b of bars) {
+      buy += b.buyQuote;
+      sell += b.sellQuote;
+    }
+    const total = buy + sell;
+    const upPct = total > 0 ? (buy / total) * 100 : 50;
+    return { upPct, downPct: 100 - upPct };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [range, tickerIdx, active]);
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -217,6 +274,18 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
       ] as LineData<Time>[]);
     }
 
+    // 지지선 — 최근 저점 클러스터 상위 2개, 가격 축(좌측)에 점선으로 표시
+    supportLinesRef.current = findSupportLevels(bars).map((level) =>
+      priceSeries.createPriceLine({
+        price: level,
+        color: COLOR.purple,
+        lineWidth: 1,
+        lineStyle: LineStyle.Dashed,
+        axisLabelVisible: true,
+        title: "지지선",
+      })
+    );
+
     chart.timeScale().fitContent();
 
     return () => {
@@ -224,16 +293,31 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
       chartRef.current = null;
       seriesRef.current = null;
       priceSeriesRef.current = null;
+      supportLinesRef.current = [];
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [theme]);
 
   useEffect(() => {
     if (!seriesRef.current || !chartRef.current || !priceSeriesRef.current) return;
+    const priceSeries = priceSeriesRef.current;
     const bars = getBars(range);
     seriesRef.current.setData(bars.map((b) => ({ time: b.time as Time, value: b.cvd })) as LineData<Time>[]);
     seriesRef.current.applyOptions({ color: trend.color, crosshairMarkerBorderColor: trend.color });
-    priceSeriesRef.current.setData(bars.map((b) => ({ time: b.time as Time, value: b.price })) as LineData<Time>[]);
+    priceSeries.setData(bars.map((b) => ({ time: b.time as Time, value: b.price })) as LineData<Time>[]);
+
+    for (const line of supportLinesRef.current) priceSeries.removePriceLine(line);
+    supportLinesRef.current = findSupportLevels(bars).map((level) =>
+      priceSeries.createPriceLine({
+        price: level,
+        color: COLOR.purple,
+        lineWidth: 1,
+        lineStyle: LineStyle.Dashed,
+        axisLabelVisible: true,
+        title: "지지선",
+      })
+    );
+
     chartRef.current.timeScale().fitContent();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [range, tickerIdx, trend.color]);
@@ -299,7 +383,34 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
         </div>
       </div>
 
+      {/* 빗썸식 상승/하락 비율 — 이 구간 실제 체결된 매수·매도 금액 비중 (예측이 아닌 실측) */}
+      <div className="text-[9px] text-text-dim mb-1">
+        {RANGE_LABEL[range]} 매수·매도 체결 비중 (실측, 예측 아님)
+      </div>
+      <div className="flex items-center gap-2 mb-3 text-[11px] font-bold tabular">
+        <span className="text-accent-green shrink-0">상승 {ratio.upPct.toFixed(0)}%</span>
+        <div className="relative flex-1 h-2 bg-line/40 rounded-full overflow-hidden">
+          <div
+            className="absolute left-0 top-0 h-full bg-accent-green transition-all"
+            style={{ width: `${ratio.upPct}%` }}
+          />
+          <div
+            className="absolute right-0 top-0 h-full bg-accent-blue transition-all"
+            style={{ width: `${ratio.downPct}%` }}
+          />
+        </div>
+        <span className="text-accent-blue shrink-0">하락 {ratio.downPct.toFixed(0)}%</span>
+      </div>
+
       <div ref={containerRef} className="w-full h-[220px] md:h-[300px]" />
+      {supportLinesRef.current.length > 0 && (
+        <p className="mt-2 text-[10px] text-text-dim leading-relaxed">
+          <span style={{ color: COLOR.purple }} className="font-semibold">
+            ┈┈ 지지선
+          </span>{" "}
+          — 최근 구간 저점이 반복적으로 나온 가격대 (단순 저점 빈도 기반, 매매 신호 아님)
+        </p>
+      )}
     </div>
   );
 }

@@ -17,6 +17,10 @@ export type CvdPoint = {
   cvd: number;
   /** 참고용 종가 (USDT) */
   price: number;
+  /** 캔들 매수 체결액 (USDT) — 상승/하락 비율 계산용 */
+  buyQuote: number;
+  /** 캔들 매도 체결액 (USDT) — 상승/하락 비율 계산용 */
+  sellQuote: number;
 };
 
 export type CvdSet = {
@@ -50,6 +54,8 @@ async function fetchCvdKlines(
         time: Math.floor(Number(b[0]) / 1000),
         cvd: cum,
         price: Number(b[4]),
+        buyQuote: takerBuyQuote,
+        sellQuote: takerSellQuote,
       };
     });
   } catch {

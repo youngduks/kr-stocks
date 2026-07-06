@@ -1,22 +1,46 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-06T22:55:25.440Z",
-  "count": 18,
+  "updated_at": "2026-07-06T23:57:38.349Z",
+  "count": 12,
   "items": [
     {
-      "title": "브로드컴, 애플 '주문형반도체' 공급 2031년까지 연장…주가, 3.45%↑",
-      "link": "https://www.mt.co.kr/world/2026/07/07/2026070707384265468",
-      "source": "머니투데이",
-      "ts": 1783378409000,
-      "pub": "Tue, 07 Jul 2026 07:53:29 +0900",
+      "title": "대신증권 \"SK하이닉스, 주가 매력 극대화 구간…목표가 390만원\"",
+      "link": "https://www.yna.co.kr/view/AKR20260707031000008",
+      "source": "연합뉴스 경제",
+      "ts": 1783381157000,
+      "pub": "Tue, 7 Jul 2026 08:39:17 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"SK하이닉스, 이익·주주환원 동반 강화…목표가 390만원\"-대신",
-      "link": "https://www.hankyung.com/article/2026070791026",
+      "title": "AI 메모리가 이끈 독주…삼성전자, 역대급 수익성으로 '슈퍼사이클' 증명",
+      "link": "https://www.hankyung.com/article/202607079241i",
       "source": "한국경제",
-      "ts": 1783377053000,
-      "pub": "Tue, 07 Jul 2026 07:30:53 +0900",
+      "ts": 1783380505000,
+      "pub": "Tue, 07 Jul 2026 08:28:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"HPSP, 고압어닐링 장비 더 다양한 반도체 공정 적용될 것\"-KB",
+      "link": "https://www.hankyung.com/article/2026070792206",
+      "source": "한국경제",
+      "ts": 1783379711000,
+      "pub": "Tue, 07 Jul 2026 08:15:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"피에스케이, 반도체 전방위 증설 수혜…목표가 28만원\"-KB",
+      "link": "https://www.hankyung.com/article/2026070791646",
+      "source": "한국경제",
+      "ts": 1783378874000,
+      "pub": "Tue, 07 Jul 2026 08:01:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 일단 반등…하반기 주도주? 테크 47% vs 가치주 53% [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202607079112i",
+      "source": "한국경제",
+      "ts": 1783378522000,
+      "pub": "Tue, 07 Jul 2026 07:55:22 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,68 +52,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "월가도 삼성·하이닉스 주목…AI 반도체 랠리 재점화 기대[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/07/07/2026070705340165957",
-      "source": "머니투데이",
-      "ts": 1783370251000,
-      "pub": "Tue, 07 Jul 2026 05:37:31 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'갤S27'도 자체 AP… 삼성, 비메모리 실적 개선 기대",
-      "link": "https://www.mt.co.kr/industry/2026/07/07/2026070619534484576",
-      "source": "머니투데이",
-      "ts": 1783365900000,
-      "pub": "Tue, 07 Jul 2026 04:25:00 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "사상 최고치 'D램값 쇼크'… 노트북 출하량 13% 감소",
-      "link": "https://www.mt.co.kr/industry/2026/07/07/2026070619554622405",
-      "source": "머니투데이",
-      "ts": 1783365000000,
-      "pub": "Tue, 07 Jul 2026 04:10:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "10일 美 상장 앞둔 하이닉스 '저평가 해소될까' 관심집중",
-      "link": "https://www.mt.co.kr/stock/2026/07/07/2026070620063246463",
-      "source": "머니투데이",
-      "ts": 1783364880000,
-      "pub": "Tue, 07 Jul 2026 04:08:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "호남 반도체 산단, 광주 軍공항 확정",
-      "link": "https://www.mt.co.kr/politics/2026/07/07/2026070619515119069",
-      "source": "머니투데이",
-      "ts": 1783364700000,
-      "pub": "Tue, 07 Jul 2026 04:05:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"엔비디아, 차세대 AI서버 '카이버' 출시 1년 지연…제조 난관\"",
       "link": "https://www.yna.co.kr/view/AKR20260707002300091",
       "source": "연합뉴스 국제",
       "ts": 1783356272000,
       "pub": "Tue, 7 Jul 2026 01:44:32 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "美 증시, 반도체 등 기술주 다시 반등…나스닥 1%↑",
-      "link": "https://www.hankyung.com/article/202607068914i",
-      "source": "한국경제",
-      "ts": 1783348061000,
-      "pub": "Mon, 06 Jul 2026 23:27:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "최태원 매직 시작된다…\"SK하이닉스, 외국기업 역대 최대 美 ADR\"",
-      "link": "https://www.hankyung.com/article/2026070683196",
-      "source": "한국경제",
-      "ts": 1783335603000,
-      "pub": "Mon, 06 Jul 2026 20:00:03 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "청주시, SK하이닉스 투자 지원 '부시장 총괄 TF' 가동",
@@ -124,28 +92,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'엔비디아 공급사' 폭스콘, AI 훈풍에 2분기 매출 40%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260706099300009",
-      "source": "연합뉴스 국제",
-      "ts": 1783316761000,
-      "pub": "Mon, 6 Jul 2026 14:46:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"3분기 D램 인상률 13∼18%로 둔화…소비자 가격 감당에 한계\"",
       "link": "https://www.yna.co.kr/view/AKR20260706072100003",
       "source": "연합뉴스 경제",
       "ts": 1783305109000,
       "pub": "Mon, 6 Jul 2026 11:31:49 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 장비·이차전지 설비 불법수출…5개월만 역대 최대 적발",
-      "link": "https://www.yna.co.kr/view/AKR20260706049800002",
-      "source": "연합뉴스 경제",
-      "ts": 1783300604000,
-      "pub": "Mon, 6 Jul 2026 10:16:44 +0900",
-      "sentiment": "positive"
     }
   ]
 }

@@ -1,8 +1,72 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-06T21:19:09.371Z",
-  "count": 11,
+  "updated_at": "2026-07-06T22:55:25.440Z",
+  "count": 18,
   "items": [
+    {
+      "title": "브로드컴, 애플 '주문형반도체' 공급 2031년까지 연장…주가, 3.45%↑",
+      "link": "https://www.mt.co.kr/world/2026/07/07/2026070707384265468",
+      "source": "머니투데이",
+      "ts": 1783378409000,
+      "pub": "Tue, 07 Jul 2026 07:53:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"SK하이닉스, 이익·주주환원 동반 강화…목표가 390만원\"-대신",
+      "link": "https://www.hankyung.com/article/2026070791026",
+      "source": "한국경제",
+      "ts": 1783377053000,
+      "pub": "Tue, 07 Jul 2026 07:30:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체주 반등에 일제 상승…'로보택시 확대' 테슬라 6.7%↑ [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026070790836",
+      "source": "한국경제",
+      "ts": 1783376109000,
+      "pub": "Tue, 07 Jul 2026 07:15:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "월가도 삼성·하이닉스 주목…AI 반도체 랠리 재점화 기대[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/07/07/2026070705340165957",
+      "source": "머니투데이",
+      "ts": 1783370251000,
+      "pub": "Tue, 07 Jul 2026 05:37:31 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'갤S27'도 자체 AP… 삼성, 비메모리 실적 개선 기대",
+      "link": "https://www.mt.co.kr/industry/2026/07/07/2026070619534484576",
+      "source": "머니투데이",
+      "ts": 1783365900000,
+      "pub": "Tue, 07 Jul 2026 04:25:00 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "사상 최고치 'D램값 쇼크'… 노트북 출하량 13% 감소",
+      "link": "https://www.mt.co.kr/industry/2026/07/07/2026070619554622405",
+      "source": "머니투데이",
+      "ts": 1783365000000,
+      "pub": "Tue, 07 Jul 2026 04:10:00 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "10일 美 상장 앞둔 하이닉스 '저평가 해소될까' 관심집중",
+      "link": "https://www.mt.co.kr/stock/2026/07/07/2026070620063246463",
+      "source": "머니투데이",
+      "ts": 1783364880000,
+      "pub": "Tue, 07 Jul 2026 04:08:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "호남 반도체 산단, 광주 軍공항 확정",
+      "link": "https://www.mt.co.kr/politics/2026/07/07/2026070619515119069",
+      "source": "머니투데이",
+      "ts": 1783364700000,
+      "pub": "Tue, 07 Jul 2026 04:05:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"엔비디아, 차세대 AI서버 '카이버' 출시 1년 지연…제조 난관\"",
       "link": "https://www.yna.co.kr/view/AKR20260707002300091",
@@ -26,14 +90,6 @@
       "ts": 1783335603000,
       "pub": "Mon, 06 Jul 2026 20:00:03 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "청주, 반도체 가스 품질·안전센터 구축",
-      "link": "https://www.hankyung.com/article/2026070684931",
-      "source": "한국경제",
-      "ts": 1783331591000,
-      "pub": "Mon, 06 Jul 2026 18:53:11 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "청주시, SK하이닉스 투자 지원 '부시장 총괄 TF' 가동",

@@ -1,6 +1,15 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-06T21:19:09.372Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-07-06T22:55:25.440Z",
+  "count": 1,
+  "items": [
+    {
+      "title": "차는 잘 파는데 주가는 왜…현대차엔 있는데 기아엔 없는 것",
+      "link": "https://www.hankyung.com/article/202607067995i",
+      "source": "한국경제",
+      "ts": 1783376913000,
+      "pub": "Tue, 07 Jul 2026 07:28:33 +0900",
+      "sentiment": "neutral"
+    }
+  ]
 }

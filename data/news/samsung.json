@@ -1,16 +1,8 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-06T02:01:04.907Z",
-  "count": 11,
+  "updated_at": "2026-07-06T06:59:23.025Z",
+  "count": 5,
   "items": [
-    {
-      "title": "\"코스피가 카지노 됐다\"…안철수, '삼전닉스 레버리지' 직격",
-      "link": "https://www.hankyung.com/article/202607067354i",
-      "source": "한국경제",
-      "ts": 1783300961000,
-      "pub": "Mon, 06 Jul 2026 10:22:41 +0900",
-      "sentiment": "neutral"
-    },
     {
       "title": "KB운용 \"'KB 삼전닉스50 펀드' 설정액 1천억원 돌파\"",
       "link": "https://www.yna.co.kr/view/AKR20260706049500008",
@@ -18,14 +10,6 @@
       "ts": 1783300326000,
       "pub": "Mon, 6 Jul 2026 10:12:06 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "안철수 \"삼전닉스 레버리지 상장폐지 검토하라\"",
-      "link": "https://www.hankyung.com/article/2026070672297",
-      "source": "한국경제",
-      "ts": 1783298802000,
-      "pub": "Mon, 06 Jul 2026 09:46:42 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "[특징주] '실적 D-1' 삼성전자, 3%대 상승…하이닉스도 올라",
@@ -58,38 +42,6 @@
       "ts": 1783292989000,
       "pub": "Mon, 6 Jul 2026 08:09:49 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "삼성전자, 5억원 사내 주택자금 대출 대상 '국평' 이하로 제한",
-      "link": "https://www.yna.co.kr/view/AKR20260705041400003",
-      "source": "연합뉴스 경제",
-      "ts": 1783246881000,
-      "pub": "Sun, 5 Jul 2026 19:21:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 무풍 에어컨 출시 10년…글로벌 누적판매 2천만대 넘어",
-      "link": "https://www.yna.co.kr/view/AKR20260705011100003",
-      "source": "연합뉴스 경제",
-      "ts": 1783216806000,
-      "pub": "Sun, 5 Jul 2026 11:00:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 작년 정보보호 투자 4천억 넘겨…전자 관계사들도 증액",
-      "link": "https://www.yna.co.kr/view/AKR20260703113300003",
-      "source": "연합뉴스 경제",
-      "ts": 1783203420000,
-      "pub": "Sun, 5 Jul 2026 07:17:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[뉴욕증시-주간전망] 삼전 실적·하닉 ADR에 달렸다…FOMC 의사록도 관심",
-      "link": "https://www.yna.co.kr/view/AKR20260705004400009",
-      "source": "연합뉴스 국제",
-      "ts": 1783202400000,
-      "pub": "Sun, 5 Jul 2026 07:00:00 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

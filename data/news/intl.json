@@ -1,14 +1,30 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-06T02:01:04.905Z",
-  "count": 27,
+  "updated_at": "2026-07-06T06:59:23.017Z",
+  "count": 17,
   "items": [
     {
-      "title": "'트럼프 서명' 100달러 지폐 사상첫 발행...트럼프 얼굴도 새긴다",
-      "link": "https://www.mt.co.kr/world/2026/07/06/2026070609082173214",
-      "source": "머니투데이",
-      "ts": 1783302478000,
-      "pub": "Mon, 06 Jul 2026 10:47:58 +0900",
+      "title": "러, 우크라 키이우에 또 미사일·드론 공습…최소 11명 숨져(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260706072751009",
+      "source": "연합뉴스 국제",
+      "ts": 1783320032000,
+      "pub": "Mon, 6 Jul 2026 15:40:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프 만세\" 외친 정유사 직원들…유가 고통 분담은커녕 폭리",
+      "link": "https://www.yna.co.kr/view/AKR20260706082800004",
+      "source": "연합뉴스 경제",
+      "ts": 1783312445000,
+      "pub": "Mon, 6 Jul 2026 13:34:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'카타르 선물' 트럼프 전용기, 퇴임 후 활용 놓고 논란",
+      "link": "https://www.yna.co.kr/view/AKR20260706070900009",
+      "source": "연합뉴스 국제",
+      "ts": 1783304874000,
+      "pub": "Mon, 6 Jul 2026 11:27:54 +0900",
       "sentiment": "neutral"
     },
     {
@@ -121,102 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783217568000,
       "pub": "Sun, 5 Jul 2026 11:12:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 악천후 예보에도 美건국 250주년 연설 강행 시사",
-      "link": "https://www.yna.co.kr/view/AKR20260705016200071",
-      "source": "연합뉴스 국제",
-      "ts": 1783215092000,
-      "pub": "Sun, 5 Jul 2026 10:31:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "푸틴 美250주년에 트럼프 85분 통화…전황 고전 속 밀착 과시",
-      "link": "https://www.yna.co.kr/view/AKR20260705009600009",
-      "source": "연합뉴스 국제",
-      "ts": 1783209119000,
-      "pub": "Sun, 5 Jul 2026 08:51:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[뉴욕증시-주간전망] 삼전 실적·하닉 ADR에 달렸다…FOMC 의사록도 관심",
-      "link": "https://www.yna.co.kr/view/AKR20260705004400009",
-      "source": "연합뉴스 국제",
-      "ts": 1783202400000,
-      "pub": "Sun, 5 Jul 2026 07:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[표] 트럼프 대통령 쿠팡주식 거래내역",
-      "link": "https://www.yna.co.kr/view/AKR20260705002400071",
-      "source": "연합뉴스 국제",
-      "ts": 1783199619000,
-      "pub": "Sun, 5 Jul 2026 06:13:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 취임후 쿠팡株 18회 거래…무역대표, 취임전 쿠팡서 보수",
-      "link": "https://www.yna.co.kr/view/AKR20260705001100071",
-      "source": "연합뉴스 국제",
-      "ts": 1783198800000,
-      "pub": "Sun, 5 Jul 2026 06:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 美 독립기념일 앞두고 젤렌스키와 통화",
-      "link": "https://www.yna.co.kr/view/AKR20260705001500072",
-      "source": "연합뉴스 국제",
-      "ts": 1783195046000,
-      "pub": "Sun, 5 Jul 2026 04:57:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"하메네이 장례식서 우는 사람 보고 놀라…가짜눈물일수도\"",
-      "link": "https://www.yna.co.kr/view/AKR20260705001000075",
-      "source": "연합뉴스 국제",
-      "ts": 1783188501000,
-      "pub": "Sun, 5 Jul 2026 03:08:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美독립 250주년 기념일…트럼프 연설·기네스급 불꽃놀이 예정",
-      "link": "https://www.yna.co.kr/view/AKR20260705000900071",
-      "source": "연합뉴스 국제",
-      "ts": 1783186948000,
-      "pub": "Sun, 5 Jul 2026 02:42:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "찰스 3세, 트럼프에 축전…\"다음 250년도 공동가치 지키자\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260704042351082",
-      "source": "연합뉴스 국제",
-      "ts": 1783180199000,
-      "pub": "Sun, 5 Jul 2026 00:49:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "찰스 3세, 트럼프에 축전…\"다음 250년도 공동가치 지키자\"",
-      "link": "https://www.yna.co.kr/view/AKR20260704042300082",
-      "source": "연합뉴스 국제",
-      "ts": 1783174567000,
-      "pub": "Sat, 4 Jul 2026 23:16:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "푸틴 \"도네츠크 요충지 점령\"…젤렌스키 \"그럼 거기서 만나자\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260704034851082",
-      "source": "연합뉴스 국제",
-      "ts": 1783171814000,
-      "pub": "Sat, 4 Jul 2026 22:30:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러시아 \"우크라 루한스크주 완전 장악\" 또 주장",
-      "link": "https://www.yna.co.kr/view/AKR20260704034800082",
-      "source": "연합뉴스 국제",
-      "ts": 1783155105000,
-      "pub": "Sat, 4 Jul 2026 17:51:45 +0900",
       "sentiment": "neutral"
     }
   ]

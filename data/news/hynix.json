@@ -1,46 +1,54 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-05T23:55:09.849Z",
-  "count": 12,
+  "updated_at": "2026-07-06T02:01:04.907Z",
+  "count": 8,
   "items": [
     {
-      "title": "[외신 에스프레소] 엔비디아·오픈AI의 'MANGOS' 벌써 시드나?… 커지는 '1조 달러 AI 거품론",
-      "link": "https://www.hankyung.com/article/202607066818i",
+      "title": "\"SK하이닉스, 외국기업 최대규모 美 ADR 상장\"",
+      "link": "https://www.yna.co.kr/view/AKR20260706051500009",
+      "source": "연합뉴스 국제",
+      "ts": 1783301498000,
+      "pub": "Mon, 6 Jul 2026 10:31:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 李대통령 \"반도체 초과세수로 재정 포함 모든 지원\"",
+      "link": "https://www.hankyung.com/article/2026070674207",
       "source": "한국경제",
-      "ts": 1783293225000,
-      "pub": "Mon, 06 Jul 2026 08:13:45 +0900",
+      "ts": 1783300709000,
+      "pub": "Mon, 06 Jul 2026 10:18:29 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "순환매 속 반도체주 탐색전…스페이스X, 나스닥100 편입[이번주 美 증시는]",
-      "link": "https://www.mt.co.kr/world/2026/07/06/2026070420232069140",
-      "source": "머니투데이",
-      "ts": 1783283700000,
-      "pub": "Mon, 06 Jul 2026 05:35:00 +0900",
+      "title": "반도체 장비·이차전지 설비 불법수출…5개월만 역대 최대 적발",
+      "link": "https://www.yna.co.kr/view/AKR20260706049800002",
+      "source": "연합뉴스 경제",
+      "ts": 1783300604000,
+      "pub": "Mon, 6 Jul 2026 10:16:44 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "마이크론, '14조투자' 히로시마공장 기공식…日반도체 재건 가속",
+      "link": "https://www.yna.co.kr/view/AKR20260706036300073",
+      "source": "연합뉴스 국제",
+      "ts": 1783298784000,
+      "pub": "Mon, 6 Jul 2026 09:46:24 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "AI發 메모리 쇼크, 삼성 '갤Z8' 가격 인상 유력",
-      "link": "https://www.mt.co.kr/tech/2026/07/06/2026070519494933652",
-      "source": "머니투데이",
-      "ts": 1783278900000,
-      "pub": "Mon, 06 Jul 2026 04:15:00 +0900",
-      "sentiment": "negative"
+      "title": "[마켓라이브]코스피 8200선 유지 중… 개인 순매수 주도, 반도체·조선·증권 강세[오전 시황]",
+      "link": "https://www.hankyung.com/article/202607067082i",
+      "source": "한국경제",
+      "ts": 1783297273000,
+      "pub": "Mon, 06 Jul 2026 09:21:13 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "'SK하이닉스 제소' 美 기업…\"소송 전 더 많은 대화 원해\"",
-      "link": "https://www.mt.co.kr/industry/2026/07/06/2026070314482295123",
-      "source": "머니투데이",
-      "ts": 1783278060000,
-      "pub": "Mon, 06 Jul 2026 04:01:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"반도체 제쳤다\" 6월 수익률 1등은 이 업종...17.8% 뛰었다",
-      "link": "https://www.mt.co.kr/stock/2026/07/06/2026070518244547062",
-      "source": "머니투데이",
-      "ts": 1783278000000,
-      "pub": "Mon, 06 Jul 2026 04:00:00 +0900",
+      "title": "[특징주] '실적 D-1' 삼성전자, 3%대 상승…하이닉스도 올라",
+      "link": "https://www.yna.co.kr/view/AKR20260706030700008",
+      "source": "연합뉴스 경제",
+      "ts": 1783297101000,
+      "pub": "Mon, 6 Jul 2026 09:18:21 +0900",
       "sentiment": "neutral"
     },
     {
@@ -57,46 +65,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783208401000,
       "pub": "Sun, 5 Jul 2026 08:40:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI 붐·반도체 호황에 그늘진 청년고용…법률사무원 13개월째↓",
-      "link": "https://www.yna.co.kr/view/AKR20260704038100002",
-      "source": "연합뉴스 경제",
-      "ts": 1783198021000,
-      "pub": "Sun, 5 Jul 2026 05:47:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 '날개'에도 고용 부진…고용탄성치 8년 만에 최저 전망",
-      "link": "https://www.yna.co.kr/view/AKR20260704018500002",
-      "source": "연합뉴스 경제",
-      "ts": 1783198021000,
-      "pub": "Sun, 5 Jul 2026 05:47:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "블룸버그 \"SK하이닉스 美 ADR 상장 수수료율 0.5% 검토\"",
-      "link": "https://www.yna.co.kr/view/AKR20260704031000009",
-      "source": "연합뉴스 국제",
-      "ts": 1783148645000,
-      "pub": "Sat, 4 Jul 2026 16:04:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中매체 \"삼전, 3분기 D램값 20% 인상 예정…고객사에 구두통지\"",
-      "link": "https://www.yna.co.kr/view/AKR20260704030600009",
-      "source": "연합뉴스 국제",
-      "ts": 1783147027000,
-      "pub": "Sat, 4 Jul 2026 15:37:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미래에셋, 1조3천억 자금조달 추진…'큰 손' 된 SK하이닉스",
-      "link": "https://www.yna.co.kr/view/AKR20260703151000008",
-      "source": "연합뉴스 경제",
-      "ts": 1783073928000,
-      "pub": "Fri, 3 Jul 2026 19:18:48 +0900",
       "sentiment": "neutral"
     }
   ]

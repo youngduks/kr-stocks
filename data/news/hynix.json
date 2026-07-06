@@ -1,10 +1,18 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-06T14:54:25.879Z",
-  "count": 12,
+  "updated_at": "2026-07-06T17:33:31.633Z",
+  "count": 13,
   "items": [
     {
-      "title": "美증시,반도체 등 기술주 다시 반등…나스닥 1%↑",
+      "title": "\"엔비디아, 차세대 AI서버 '카이버' 출시 1년 지연…제조 난관\"",
+      "link": "https://www.yna.co.kr/view/AKR20260707002300091",
+      "source": "연합뉴스 국제",
+      "ts": 1783356272000,
+      "pub": "Tue, 7 Jul 2026 01:44:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 증시, 반도체 등 기술주 다시 반등…나스닥 1%↑",
       "link": "https://www.hankyung.com/article/202607068914i",
       "source": "한국경제",
       "ts": 1783348061000,

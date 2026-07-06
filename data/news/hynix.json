@@ -1,40 +1,8 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-06T19:32:47.677Z",
-  "count": 18,
+  "updated_at": "2026-07-06T21:19:09.371Z",
+  "count": 11,
   "items": [
-    {
-      "title": "'갤S27'도 자체 AP… 삼성, 비메모리 실적 개선 기대",
-      "link": "https://www.mt.co.kr/industry/2026/07/07/2026070619534484576",
-      "source": "머니투데이",
-      "ts": 1783365900000,
-      "pub": "Tue, 07 Jul 2026 04:25:00 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "사상 최고치 'D램값 쇼크'… 노트북 출하량 13% 감소",
-      "link": "https://www.mt.co.kr/industry/2026/07/07/2026070619554622405",
-      "source": "머니투데이",
-      "ts": 1783365000000,
-      "pub": "Tue, 07 Jul 2026 04:10:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "10일 美 상장 앞둔 하이닉스 '저평가 해소될까' 관심집중",
-      "link": "https://www.mt.co.kr/stock/2026/07/07/2026070620063246463",
-      "source": "머니투데이",
-      "ts": 1783364880000,
-      "pub": "Tue, 07 Jul 2026 04:08:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "호남 반도체 산단, 광주 軍공항 확정",
-      "link": "https://www.mt.co.kr/politics/2026/07/07/2026070619515119069",
-      "source": "머니투데이",
-      "ts": 1783364700000,
-      "pub": "Tue, 07 Jul 2026 04:05:00 +0900",
-      "sentiment": "neutral"
-    },
     {
       "title": "\"엔비디아, 차세대 AI서버 '카이버' 출시 1년 지연…제조 난관\"",
       "link": "https://www.yna.co.kr/view/AKR20260707002300091",
@@ -60,35 +28,11 @@
       "sentiment": "positive"
     },
     {
-      "title": "마이크론, 일본에 HBM 공장…AI발 공급난에 메모리 '증설 경쟁'",
-      "link": "https://www.mt.co.kr/world/2026/07/06/2026070619051621216",
-      "source": "머니투데이",
-      "ts": 1783334775000,
-      "pub": "Mon, 06 Jul 2026 19:46:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "청주, 반도체 가스 품질·안전센터 구축",
       "link": "https://www.hankyung.com/article/2026070684931",
       "source": "한국경제",
       "ts": 1783331591000,
       "pub": "Mon, 06 Jul 2026 18:53:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "메모리 반도체주, 올라도 계속 사더니 갈라진 투심…테슬람 사라졌나, 10주째 순매도[서학픽]",
-      "link": "https://www.mt.co.kr/world/2026/07/06/2026070612253064349",
-      "source": "머니투데이",
-      "ts": 1783328700000,
-      "pub": "Mon, 06 Jul 2026 18:05:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"반도체 수익을 지역에…\" 추미애표 '경기미래투자공사' 2027년 설립",
-      "link": "https://www.mt.co.kr/policy/2026/07/06/2026070617305618101",
-      "source": "머니투데이",
-      "ts": 1783328125000,
-      "pub": "Mon, 06 Jul 2026 17:55:25 +0900",
       "sentiment": "neutral"
     },
     {

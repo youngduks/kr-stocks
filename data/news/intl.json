@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-06T19:32:47.676Z",
-  "count": 21,
+  "updated_at": "2026-07-06T21:19:09.370Z",
+  "count": 19,
   "items": [
+    {
+      "title": "이스라엘 여권, '하마스 기습' 조사위 구성입법 강행…야권 거부",
+      "link": "https://www.yna.co.kr/view/AKR20260707005300079",
+      "source": "연합뉴스 국제",
+      "ts": 1783368533000,
+      "pub": "Tue, 7 Jul 2026 05:08:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "무협, 美 '강제노동' 12.5% 관세예고에 \"시행유예하거나 10%로\"",
+      "link": "https://www.yna.co.kr/view/AKR20260707005600071",
+      "source": "연합뉴스 국제",
+      "ts": 1783367463000,
+      "pub": "Tue, 7 Jul 2026 04:51:03 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "하마스, 20년만에 가자지구 통치기구 해산…이스라엘 \"속임수\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260706149452079",
@@ -44,14 +60,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "러시아, 나토 정상회의 앞두고 우크라 수도 대규모 공습",
-      "link": "https://www.mt.co.kr/world/2026/07/06/2026070622281736026",
-      "source": "머니투데이",
-      "ts": 1783344966000,
-      "pub": "Mon, 06 Jul 2026 22:36:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "하마스, 약 20년만에 가자지구 통치기구 공식 해산(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260706149451079",
       "source": "연합뉴스 국제",
@@ -65,14 +73,6 @@
       "source": "한국경제",
       "ts": 1783341158000,
       "pub": "Mon, 06 Jul 2026 21:32:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 멜로니 이탈리아 총리 또 조롱…\"접근금지 필요\"",
-      "link": "https://www.mt.co.kr/world/2026/07/06/2026070620384882316",
-      "source": "머니투데이",
-      "ts": 1783339832000,
-      "pub": "Mon, 06 Jul 2026 21:10:32 +0900",
       "sentiment": "neutral"
     },
     {
@@ -153,22 +153,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783312445000,
       "pub": "Mon, 6 Jul 2026 13:34:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'카타르 선물' 트럼프 전용기, 퇴임 후 활용 놓고 논란",
-      "link": "https://www.yna.co.kr/view/AKR20260706070900009",
-      "source": "연합뉴스 국제",
-      "ts": 1783304874000,
-      "pub": "Mon, 6 Jul 2026 11:27:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "중화권매체, 펠로시 지지얻은 코니 챈 주목…\"미중 관계에 기회\"",
-      "link": "https://www.yna.co.kr/view/AKR20260706051800083",
-      "source": "연합뉴스 국제",
-      "ts": 1783302184000,
-      "pub": "Mon, 6 Jul 2026 10:43:04 +0900",
       "sentiment": "neutral"
     }
   ]

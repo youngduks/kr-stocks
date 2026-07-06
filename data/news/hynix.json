@@ -1,22 +1,30 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-06T11:27:27.050Z",
-  "count": 11,
+  "updated_at": "2026-07-06T14:54:25.879Z",
+  "count": 12,
   "items": [
+    {
+      "title": "美증시,반도체 등 기술주 다시 반등…나스닥 1%↑",
+      "link": "https://www.hankyung.com/article/202607068914i",
+      "source": "한국경제",
+      "ts": 1783348061000,
+      "pub": "Mon, 06 Jul 2026 23:27:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "최태원 매직 시작된다…\"SK하이닉스, 외국기업 역대 최대 美 ADR\"",
+      "link": "https://www.hankyung.com/article/2026070683196",
+      "source": "한국경제",
+      "ts": 1783335603000,
+      "pub": "Mon, 06 Jul 2026 20:00:03 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "청주, 반도체 가스 품질·안전센터 구축",
       "link": "https://www.hankyung.com/article/2026070684931",
       "source": "한국경제",
       "ts": 1783331591000,
       "pub": "Mon, 06 Jul 2026 18:53:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스, ADR 발행 총액 45조→43조원 정정…주가 하락 반영",
-      "link": "https://www.hankyung.com/article/2026070687127",
-      "source": "한국경제",
-      "ts": 1783330677000,
-      "pub": "Mon, 06 Jul 2026 18:37:57 +0900",
       "sentiment": "neutral"
     },
     {

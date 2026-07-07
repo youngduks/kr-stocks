@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-07T13:10:34.086Z",
-  "count": 15,
+  "updated_at": "2026-07-07T16:16:35.594Z",
+  "count": 20,
   "items": [
+    {
+      "title": "트럼프, 나토에 \"매우 실망했다\"면서 튀르키예엔 \"훌륭한 동맹\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260707174651108",
+      "source": "연합뉴스 국제",
+      "ts": 1783438663000,
+      "pub": "Wed, 8 Jul 2026 00:37:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키 \"우크라, 나토 방어력 원천 될 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260707178300108",
+      "source": "연합뉴스 국제",
+      "ts": 1783438339000,
+      "pub": "Wed, 8 Jul 2026 00:32:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "캐나다 주도 '글로벌 국방은행'에 우크라 등 8개국 동참 의사",
+      "link": "https://www.yna.co.kr/view/AKR20260707177700072",
+      "source": "연합뉴스 국제",
+      "ts": 1783435413000,
+      "pub": "Tue, 7 Jul 2026 23:43:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 지난 봄 유럽 주둔 미군 3분의 1 대폭 감축 검토\"",
+      "link": "https://www.yna.co.kr/view/AKR20260707176500071",
+      "source": "연합뉴스 국제",
+      "ts": 1783433802000,
+      "pub": "Tue, 7 Jul 2026 23:16:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "나토 정상회의 간 트럼프 \"튀르키예에 F-35 전투기 판매 고려\"",
+      "link": "https://www.yna.co.kr/view/AKR20260707174600108",
+      "source": "연합뉴스 국제",
+      "ts": 1783431378000,
+      "pub": "Tue, 7 Jul 2026 22:36:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"도요타의 멕시코 생산시설 텍사스 이전은 관세 정책 덕분\"",
+      "link": "https://www.hankyung.com/article/2026070713267",
+      "source": "한국경제",
+      "ts": 1783430511000,
+      "pub": "Tue, 07 Jul 2026 22:21:51 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"도요타의 멕시코 생산시설 텍사스 이전은 관세영향\"",
       "link": "https://www.yna.co.kr/view/AKR20260707173300071",
@@ -113,14 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783383191000,
       "pub": "Tue, 7 Jul 2026 09:13:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"월마트, 정부 요청에 가격 인하…다른 업체도 따라야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260707012900071",
-      "source": "연합뉴스 국제",
-      "ts": 1783373565000,
-      "pub": "Tue, 7 Jul 2026 06:32:45 +0900",
       "sentiment": "neutral"
     }
   ]

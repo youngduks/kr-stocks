@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-07T16:16:35.595Z",
-  "count": 10,
+  "updated_at": "2026-07-07T18:54:02.318Z",
+  "count": 7,
   "items": [
     {
       "title": "태평양 건너 삼전 급락에 美 반도체주 매도…나스닥 1.3%↓",
@@ -28,7 +28,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "AI 반도체에 밀려 '찬밥'이였는데…폭락장에 개미들 몰린 곳 [종목+]",
+      "title": "AI 반도체에 밀려 '찬밥'이었는데…폭락장에 개미들 몰린 곳 [종목+]",
       "link": "https://www.hankyung.com/article/2026070707426",
       "source": "한국경제",
       "ts": 1783429202000,
@@ -58,30 +58,6 @@
       "ts": 1783388489000,
       "pub": "Tue, 7 Jul 2026 10:41:29 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "미 헤지펀드, 반도체주 4주 연속 순매도",
-      "link": "https://www.yna.co.kr/view/AKR20260707060000009",
-      "source": "연합뉴스 국제",
-      "ts": 1783386872000,
-      "pub": "Tue, 7 Jul 2026 10:14:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"미·영 투자사 3곳, SK하이닉스 ADR 최대 70억달러 인수 의사\"",
-      "link": "https://www.yna.co.kr/view/AKR20260707042900009",
-      "source": "연합뉴스 국제",
-      "ts": 1783385605000,
-      "pub": "Tue, 7 Jul 2026 09:53:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"마이크론, 포드와도 차 반도체 장기공급 계약\"",
-      "link": "https://www.yna.co.kr/view/AKR20260707050400009",
-      "source": "연합뉴스 국제",
-      "ts": 1783385153000,
-      "pub": "Tue, 7 Jul 2026 09:45:53 +0900",
-      "sentiment": "positive"
     }
   ]
 }

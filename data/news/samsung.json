@@ -1,30 +1,86 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-06T23:57:38.349Z",
-  "count": 7,
+  "updated_at": "2026-07-07T02:37:37.492Z",
+  "count": 11,
   "items": [
     {
-      "title": "영업이익 1810% 늘었는데…삼성전자 프리마켓서 약세",
-      "link": "https://www.hankyung.com/article/202607079254i",
-      "source": "한국경제",
-      "ts": 1783380547000,
-      "pub": "Tue, 07 Jul 2026 08:29:07 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "AI 메모리가 이끈 독주…삼성전자, 역대급 수익성으로 '슈퍼사이클' 증명",
-      "link": "https://www.hankyung.com/article/202607079241i",
-      "source": "한국경제",
-      "ts": 1783380505000,
-      "pub": "Tue, 07 Jul 2026 08:28:25 +0900",
+      "title": "3년치 영업이익, 석달만에 벌어..삼성전자 신기록 어어간다",
+      "link": "https://www.mt.co.kr/industry/2026/07/07/2026070710464741446",
+      "source": "머니투데이",
+      "ts": 1783391581000,
+      "pub": "Tue, 07 Jul 2026 11:33:01 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"성과급 빼면 영업익 100조 넘었다\"…삼성전자 '대기록'",
-      "link": "https://www.hankyung.com/article/202607079130g",
+      "title": "엔비디아 넘은 삼전 실적, 외신도 놀랐다…\"내년까지 메모리 부족\"",
+      "link": "https://www.mt.co.kr/world/2026/07/07/2026070710150296942",
+      "source": "머니투데이",
+      "ts": 1783391269000,
+      "pub": "Tue, 07 Jul 2026 11:27:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "시장기대 못미쳤나…'역대급 실적' 삼전 급락에 코스피도 출렁",
+      "link": "https://www.yna.co.kr/view/AKR20260707081700008",
+      "source": "연합뉴스 경제",
+      "ts": 1783390692000,
+      "pub": "Tue, 7 Jul 2026 11:18:12 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "삼성전자, 메모리 실적만 93.2조 추정…기대 이상 호실적-메리츠",
+      "link": "https://www.mt.co.kr/stock/2026/07/07/2026070711095247435",
+      "source": "머니투데이",
+      "ts": 1783390335000,
+      "pub": "Tue, 07 Jul 2026 11:12:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼전 -7%, SK하닉 -6%\" 시총 톱10 줄하락...코스피, 매도 사이드카",
+      "link": "https://www.mt.co.kr/stock/2026/07/07/2026070710312976753",
+      "source": "머니투데이",
+      "ts": 1783388164000,
+      "pub": "Tue, 07 Jul 2026 10:36:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, 4%대 급락 7,700대…'2분기 실적발표' 삼전 6%↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260707040351008",
+      "source": "연합뉴스 경제",
+      "ts": 1783384991000,
+      "pub": "Tue, 7 Jul 2026 09:43:11 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "삼성전자, 2분기 '어닝 서프라이즈'에도 5%대 급락",
+      "link": "https://www.hankyung.com/article/2026070795546",
       "source": "한국경제",
-      "ts": 1783380060000,
-      "pub": "Tue, 07 Jul 2026 08:21:00 +0900",
+      "ts": 1783384664000,
+      "pub": "Tue, 07 Jul 2026 09:37:44 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "코스피, 삼전 호실적에도 3%대 급락…7700선으로 밀려",
+      "link": "https://www.hankyung.com/article/2026070794216",
+      "source": "한국경제",
+      "ts": 1783383628000,
+      "pub": "Tue, 07 Jul 2026 09:20:28 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[특징주] 삼성전자, 전망치 웃돈 실적에도 장초반 4%대 급락 중",
+      "link": "https://www.yna.co.kr/view/AKR20260707042200008",
+      "source": "연합뉴스 경제",
+      "ts": 1783383431000,
+      "pub": "Tue, 7 Jul 2026 09:17:11 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'실적 D-day' 삼성전자 담은 초고수…SK하이닉스도 쓸어담았다",
+      "link": "https://www.hankyung.com/article/202607079143i",
+      "source": "한국경제",
+      "ts": 1783382404000,
+      "pub": "Tue, 07 Jul 2026 09:00:04 +0900",
       "sentiment": "neutral"
     },
     {
@@ -33,30 +89,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783379629000,
       "pub": "Tue, 7 Jul 2026 08:13:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 삼성전자, 2분기 잠정 영업익 89.4조…\"역대 분기 최대\"",
-      "link": "https://www.hankyung.com/article/202607078931i",
-      "source": "한국경제",
-      "ts": 1783377678000,
-      "pub": "Tue, 07 Jul 2026 07:41:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 삼성전자, 2분기 영업익 89.4조원…전년비 1810% 폭증",
-      "link": "https://www.hankyung.com/article/202607079099g",
-      "source": "한국경제",
-      "ts": 1783377645000,
-      "pub": "Tue, 07 Jul 2026 07:40:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] '실적 D-1' 삼성전자, 2%대 상승…하이닉스는 하락(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260706030751008",
-      "source": "연합뉴스 경제",
-      "ts": 1783321466000,
-      "pub": "Mon, 6 Jul 2026 16:04:26 +0900",
       "sentiment": "neutral"
     }
   ]

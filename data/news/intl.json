@@ -1,38 +1,54 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-06T23:57:38.348Z",
-  "count": 23,
+  "updated_at": "2026-07-07T02:37:37.490Z",
+  "count": 20,
   "items": [
     {
-      "title": "매카시즘 재현할까... 맘다니 바람에 반공투사 된 트럼프[이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202607079163i",
-      "source": "한국경제",
-      "ts": 1783380987000,
-      "pub": "Tue, 07 Jul 2026 08:36:27 +0900",
+      "title": "가전·TV 선전에 美 관세 환급까지…LG전자, 2Q '어닝 서프라이즈'",
+      "link": "https://www.mt.co.kr/industry/2026/07/07/2026070710542666703",
+      "source": "머니투데이",
+      "ts": 1783391336000,
+      "pub": "Tue, 07 Jul 2026 11:28:56 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "FIFA 회장, 트럼프와 통화 인정했지만…\"징계 유예는 외압과 무관\"",
+      "link": "https://www.mt.co.kr/world/2026/07/07/2026070710440680275",
+      "source": "머니투데이",
+      "ts": 1783390321000,
+      "pub": "Tue, 07 Jul 2026 11:12:01 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "월러 Fed 이사, \"포워드가이던스가 손발 묶었다\"…연준 소통전략 재편 속도",
-      "link": "https://www.hankyung.com/article/202607079284i",
-      "source": "한국경제",
-      "ts": 1783380952000,
-      "pub": "Tue, 07 Jul 2026 08:35:52 +0900",
+      "title": "\"가격 내린 월마트 본받아라\"…중간선거 앞둔 트럼프, 유통사 압박",
+      "link": "https://www.mt.co.kr/world/2026/07/07/2026070710023945258",
+      "source": "머니투데이",
+      "ts": 1783387796000,
+      "pub": "Tue, 07 Jul 2026 10:29:56 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[외신 에스프레소] \"더 이상 미국은 없다\" 트럼프 독단에 유럽 폭발…결국 시작된 '탈미국화'",
-      "link": "https://www.hankyung.com/article/202607079213i",
-      "source": "한국경제",
-      "ts": 1783379670000,
-      "pub": "Tue, 07 Jul 2026 08:14:30 +0900",
-      "sentiment": "negative"
+      "title": "트럼프 사용금지 지시에도…美 당국, 수개월째 미토스 사용",
+      "link": "https://www.yna.co.kr/view/AKR20260707055800009",
+      "source": "연합뉴스 국제",
+      "ts": 1783386232000,
+      "pub": "Tue, 7 Jul 2026 10:03:52 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "트럼프 전화에 '레드카드' 없던 일?…브라질 \"심판 모욕 말라\"",
-      "link": "https://www.hankyung.com/article/2026070790747",
-      "source": "한국경제",
-      "ts": 1783377049000,
-      "pub": "Tue, 07 Jul 2026 07:30:49 +0900",
+      "title": "美민주 소속 州법무장관들 \"트럼프 무역법 301조 관세도 불법\"",
+      "link": "https://www.yna.co.kr/view/AKR20260707042300091",
+      "source": "연합뉴스 국제",
+      "ts": 1783384010000,
+      "pub": "Tue, 7 Jul 2026 09:26:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "스페이스X 사장 '트럼프 계좌'에 5천억원 기부…머스크는 '조용'",
+      "link": "https://www.yna.co.kr/view/AKR20260707041200075",
+      "source": "연합뉴스 국제",
+      "ts": 1783383191000,
+      "pub": "Tue, 7 Jul 2026 09:13:11 +0900",
       "sentiment": "neutral"
     },
     {
@@ -140,52 +156,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "EU 집행위원장 \"나토 정상회의서 우크라 방공 역량 논의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260706137700108",
-      "source": "연합뉴스 국제",
-      "ts": 1783327403000,
-      "pub": "Mon, 6 Jul 2026 17:43:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "나토 정상회의 앞두고 러 파상공세…젤렌스키, 방공망 지원 촉구",
-      "link": "https://www.yna.co.kr/view/AKR20260706129800109",
-      "source": "연합뉴스 국제",
-      "ts": 1783325122000,
-      "pub": "Mon, 6 Jul 2026 17:05:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "중동전쟁에 \"트럼프 만세\" 외친 정유사…경제위기를 폭리 기회로(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260706082851004",
       "source": "연합뉴스 경제",
       "ts": 1783324886000,
       "pub": "Mon, 6 Jul 2026 17:01:26 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "[영상] 하메네이 장례식서 \"트럼프 제거하라\"…후계자는 어디에",
-      "link": "https://www.yna.co.kr/view/AKR20260706122800704",
-      "source": "연합뉴스 국제",
-      "ts": 1783322917000,
-      "pub": "Mon, 6 Jul 2026 16:28:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러, 우크라 키이우에 또 미사일·드론 공습…최소 11명 숨져(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260706072751009",
-      "source": "연합뉴스 국제",
-      "ts": 1783320032000,
-      "pub": "Mon, 6 Jul 2026 15:40:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 만세\" 외친 정유사 직원들…유가 고통 분담은커녕 폭리",
-      "link": "https://www.yna.co.kr/view/AKR20260706082800004",
-      "source": "연합뉴스 경제",
-      "ts": 1783312445000,
-      "pub": "Mon, 6 Jul 2026 13:34:05 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

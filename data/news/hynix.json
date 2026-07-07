@@ -1,54 +1,150 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-06T23:57:38.349Z",
-  "count": 12,
+  "updated_at": "2026-07-07T02:37:37.492Z",
+  "count": 20,
   "items": [
+    {
+      "title": "\"엔비디아 이긴 삼성도 추락\"…닛케이, 1.27%↓ [Asia오전]",
+      "link": "https://www.mt.co.kr/world/2026/07/07/2026070711121816848",
+      "source": "머니투데이",
+      "ts": 1783391759000,
+      "pub": "Tue, 07 Jul 2026 11:35:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아 넘은 삼전 실적, 외신도 놀랐다…\"내년까지 메모리 부족\"",
+      "link": "https://www.mt.co.kr/world/2026/07/07/2026070710150296942",
+      "source": "머니투데이",
+      "ts": 1783391269000,
+      "pub": "Tue, 07 Jul 2026 11:27:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 메모리 실적만 93.2조 추정…기대 이상 호실적-메리츠",
+      "link": "https://www.mt.co.kr/stock/2026/07/07/2026070711095247435",
+      "source": "머니투데이",
+      "ts": 1783390335000,
+      "pub": "Tue, 07 Jul 2026 11:12:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "GIST, 재적생 990명 규모 AI 대학 출범… \"AI·반도체 인재 양성\"",
+      "link": "https://www.mt.co.kr/tech/2026/07/07/2026070710485059903",
+      "source": "머니투데이",
+      "ts": 1783389280000,
+      "pub": "Tue, 07 Jul 2026 10:54:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정청래 \"광주 반도체 산단 환영…메가특구 입법 속전속결 처리\"",
+      "link": "https://www.mt.co.kr/politics/2026/07/07/2026070710234924931",
+      "source": "머니투데이",
+      "ts": 1783388907000,
+      "pub": "Tue, 07 Jul 2026 10:48:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "모건스탠리 \"반도체 조정 예상…하이퍼스케일러 등 순환매\"",
+      "link": "https://www.yna.co.kr/view/AKR20260707064200009",
+      "source": "연합뉴스 국제",
+      "ts": 1783388489000,
+      "pub": "Tue, 7 Jul 2026 10:41:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 품은 광주권, 부동산·상권·기업·도시변화 '날갯짓'",
+      "link": "https://www.yna.co.kr/view/AKR20260707067700054",
+      "source": "연합뉴스 경제",
+      "ts": 1783388005000,
+      "pub": "Tue, 7 Jul 2026 10:33:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "어플라이드 머티어리얼즈도 용인에 둥지...세계 최대 '반도체 메카' 쐐기",
+      "link": "https://www.mt.co.kr/policy/2026/07/07/2026070710011538796",
+      "source": "머니투데이",
+      "ts": 1783387804000,
+      "pub": "Tue, 07 Jul 2026 10:30:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미 헤지펀드, 반도체주 4주 연속 순매도",
+      "link": "https://www.yna.co.kr/view/AKR20260707060000009",
+      "source": "연합뉴스 국제",
+      "ts": 1783386872000,
+      "pub": "Tue, 7 Jul 2026 10:14:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미래운용 \"반도체TOP10커버드콜ETF, 커버드콜중 수익률 1위\"",
+      "link": "https://www.yna.co.kr/view/AKR20260707056500008",
+      "source": "연합뉴스 경제",
+      "ts": 1783386219000,
+      "pub": "Tue, 7 Jul 2026 10:03:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"미·영 투자사 3곳, SK하이닉스 ADR 최대 70억달러 인수 의사\"",
+      "link": "https://www.yna.co.kr/view/AKR20260707042900009",
+      "source": "연합뉴스 국제",
+      "ts": 1783385605000,
+      "pub": "Tue, 7 Jul 2026 09:53:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이제 반도체 팔아라\"…모건스탠리 파격 전망",
+      "link": "https://www.hankyung.com/article/202607079276i",
+      "source": "한국경제",
+      "ts": 1783385173000,
+      "pub": "Tue, 07 Jul 2026 09:46:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"마이크론, 포드와도 차 반도체 장기공급 계약\"",
+      "link": "https://www.yna.co.kr/view/AKR20260707050400009",
+      "source": "연합뉴스 국제",
+      "ts": 1783385153000,
+      "pub": "Tue, 7 Jul 2026 09:45:53 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"반도체 초과세수, 미래기술 씨앗으로\"…R&D 투자 제언",
+      "link": "https://www.yna.co.kr/view/AKR20260707045800017",
+      "source": "연합뉴스 경제",
+      "ts": 1783384724000,
+      "pub": "Tue, 7 Jul 2026 09:38:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "NH증권 \"SK, AI·반도체 중심 포트폴리오 확대…목표가↑\"",
+      "link": "https://www.yna.co.kr/view/AKR20260707042100008",
+      "source": "연합뉴스 경제",
+      "ts": 1783383889000,
+      "pub": "Tue, 7 Jul 2026 09:24:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "ACE 엔비디아밸류체인액티브, 해외 밸류체인 ETF 중 수익률 1위",
+      "link": "https://www.yna.co.kr/view/AKR20260707039600008",
+      "source": "연합뉴스 경제",
+      "ts": 1783382832000,
+      "pub": "Tue, 7 Jul 2026 09:07:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'실적 D-day' 삼성전자 담은 초고수…SK하이닉스도 쓸어담았다",
+      "link": "https://www.hankyung.com/article/202607079143i",
+      "source": "한국경제",
+      "ts": 1783382404000,
+      "pub": "Tue, 07 Jul 2026 09:00:04 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "대신증권 \"SK하이닉스, 주가 매력 극대화 구간…목표가 390만원\"",
       "link": "https://www.yna.co.kr/view/AKR20260707031000008",
       "source": "연합뉴스 경제",
       "ts": 1783381157000,
       "pub": "Tue, 7 Jul 2026 08:39:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI 메모리가 이끈 독주…삼성전자, 역대급 수익성으로 '슈퍼사이클' 증명",
-      "link": "https://www.hankyung.com/article/202607079241i",
-      "source": "한국경제",
-      "ts": 1783380505000,
-      "pub": "Tue, 07 Jul 2026 08:28:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"HPSP, 고압어닐링 장비 더 다양한 반도체 공정 적용될 것\"-KB",
-      "link": "https://www.hankyung.com/article/2026070792206",
-      "source": "한국경제",
-      "ts": 1783379711000,
-      "pub": "Tue, 07 Jul 2026 08:15:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"피에스케이, 반도체 전방위 증설 수혜…목표가 28만원\"-KB",
-      "link": "https://www.hankyung.com/article/2026070791646",
-      "source": "한국경제",
-      "ts": 1783378874000,
-      "pub": "Tue, 07 Jul 2026 08:01:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 일단 반등…하반기 주도주? 테크 47% vs 가치주 53% [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202607079112i",
-      "source": "한국경제",
-      "ts": 1783378522000,
-      "pub": "Tue, 07 Jul 2026 07:55:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체주 반등에 일제 상승…'로보택시 확대' 테슬라 6.7%↑ [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026070790836",
-      "source": "한국경제",
-      "ts": 1783376109000,
-      "pub": "Tue, 07 Jul 2026 07:15:09 +0900",
       "sentiment": "neutral"
     },
     {
@@ -65,38 +161,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783325463000,
       "pub": "Mon, 6 Jul 2026 17:11:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中증시도 AI·반도체만 잘나가…산업 양극화 보여주는 축소판",
-      "link": "https://www.yna.co.kr/view/AKR20260706121200009",
-      "source": "연합뉴스 국제",
-      "ts": 1783323062000,
-      "pub": "Mon, 6 Jul 2026 16:31:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] '실적 D-1' 삼성전자, 2%대 상승…하이닉스는 하락(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260706030751008",
-      "source": "연합뉴스 경제",
-      "ts": 1783321466000,
-      "pub": "Mon, 6 Jul 2026 16:04:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'반도체 온다' 광주 군공항 250만평 개발 방식 어떻게 바뀌나",
-      "link": "https://www.yna.co.kr/view/AKR20260706101600054",
-      "source": "연합뉴스 경제",
-      "ts": 1783318700000,
-      "pub": "Mon, 6 Jul 2026 15:18:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"3분기 D램 인상률 13∼18%로 둔화…소비자 가격 감당에 한계\"",
-      "link": "https://www.yna.co.kr/view/AKR20260706072100003",
-      "source": "연합뉴스 경제",
-      "ts": 1783305109000,
-      "pub": "Mon, 6 Jul 2026 11:31:49 +0900",
       "sentiment": "neutral"
     }
   ]

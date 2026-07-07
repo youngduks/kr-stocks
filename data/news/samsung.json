@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-07T18:54:02.317Z",
-  "count": 10,
+  "updated_at": "2026-07-07T20:44:05.796Z",
+  "count": 13,
   "items": [
+    {
+      "title": "삼전닉스 7% 하락 불똥…美반도체주도 파란불[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/07/08/2026070805270325243",
+      "source": "머니투데이",
+      "ts": 1783456342000,
+      "pub": "Wed, 08 Jul 2026 05:32:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아 넘은 '반도체 황제'...성과급 빼면 100조, 영업익 축포 쏜 삼전",
+      "link": "https://www.mt.co.kr/industry/2026/07/08/2026070720045377163",
+      "source": "머니투데이",
+      "ts": 1783456200000,
+      "pub": "Wed, 08 Jul 2026 05:30:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "태평양 건너 삼전 급락에 美 반도체주 매도…나스닥 1.3%↓",
       "link": "https://www.hankyung.com/article/202607071365i",
@@ -10,6 +26,14 @@
       "ts": 1783434908000,
       "pub": "Tue, 07 Jul 2026 23:35:08 +0900",
       "sentiment": "negative"
+    },
+    {
+      "title": "[여의도 클라쓰] '대한항공, 동신건설, 삼성전자' 클라쓰 올릴 종목은?",
+      "link": "https://www.mt.co.kr/stock/2026/07/07/2026070721577065825",
+      "source": "머니투데이",
+      "ts": 1783433587000,
+      "pub": "Tue, 07 Jul 2026 23:13:07 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "'투매' 외국인 삼전 보유율, 금융위기 이후 최저…개미 빚투↑(종합)",

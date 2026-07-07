@@ -1,22 +1,46 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-07T02:37:37.492Z",
-  "count": 11,
+  "updated_at": "2026-07-07T06:35:01.805Z",
+  "count": 8,
   "items": [
     {
-      "title": "3년치 영업이익, 석달만에 벌어..삼성전자 신기록 어어간다",
-      "link": "https://www.mt.co.kr/industry/2026/07/07/2026070710464741446",
-      "source": "머니투데이",
-      "ts": 1783391581000,
-      "pub": "Tue, 07 Jul 2026 11:33:01 +0900",
-      "sentiment": "neutral"
+      "title": "삼전, 과거 16번 어닝 서프라이즈 때 10번 주가 하락",
+      "link": "https://www.yna.co.kr/view/AKR20260707117900009",
+      "source": "연합뉴스 국제",
+      "ts": 1783405035000,
+      "pub": "Tue, 7 Jul 2026 15:17:15 +0900",
+      "sentiment": "positive"
     },
     {
-      "title": "엔비디아 넘은 삼전 실적, 외신도 놀랐다…\"내년까지 메모리 부족\"",
-      "link": "https://www.mt.co.kr/world/2026/07/07/2026070710150296942",
-      "source": "머니투데이",
-      "ts": 1783391269000,
-      "pub": "Tue, 07 Jul 2026 11:27:49 +0900",
+      "title": "연일 '팔자' 외국인 삼전 보유율, 금융위기 이후 최저…개미 빚투↑",
+      "link": "https://www.yna.co.kr/view/AKR20260707099300008",
+      "source": "연합뉴스 경제",
+      "ts": 1783400402000,
+      "pub": "Tue, 7 Jul 2026 14:00:02 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "2분기 전망치 웃돈 실적에도 삼전 폭락…증권가 평가는",
+      "link": "https://www.yna.co.kr/view/AKR20260707100900008",
+      "source": "연합뉴스 경제",
+      "ts": 1783400216000,
+      "pub": "Tue, 7 Jul 2026 13:56:56 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "코스피, 낙폭확대 7.6%↓ 7,400대…삼전·닉스 9∼10%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260707102400008",
+      "source": "연합뉴스 경제",
+      "ts": 1783399412000,
+      "pub": "Tue, 7 Jul 2026 13:43:32 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "삼성전자는 최고점을 지났나? 2분기 실적이 의미하는 것은",
+      "link": "https://www.hankyung.com/article/202607067441i",
+      "source": "한국경제",
+      "ts": 1783396802000,
+      "pub": "Tue, 07 Jul 2026 13:00:02 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,43 +52,11 @@
       "sentiment": "negative"
     },
     {
-      "title": "삼성전자, 메모리 실적만 93.2조 추정…기대 이상 호실적-메리츠",
-      "link": "https://www.mt.co.kr/stock/2026/07/07/2026070711095247435",
-      "source": "머니투데이",
-      "ts": 1783390335000,
-      "pub": "Tue, 07 Jul 2026 11:12:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼전 -7%, SK하닉 -6%\" 시총 톱10 줄하락...코스피, 매도 사이드카",
-      "link": "https://www.mt.co.kr/stock/2026/07/07/2026070710312976753",
-      "source": "머니투데이",
-      "ts": 1783388164000,
-      "pub": "Tue, 07 Jul 2026 10:36:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "코스피, 4%대 급락 7,700대…'2분기 실적발표' 삼전 6%↓(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260707040351008",
       "source": "연합뉴스 경제",
       "ts": 1783384991000,
       "pub": "Tue, 7 Jul 2026 09:43:11 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "삼성전자, 2분기 '어닝 서프라이즈'에도 5%대 급락",
-      "link": "https://www.hankyung.com/article/2026070795546",
-      "source": "한국경제",
-      "ts": 1783384664000,
-      "pub": "Tue, 07 Jul 2026 09:37:44 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "코스피, 삼전 호실적에도 3%대 급락…7700선으로 밀려",
-      "link": "https://www.hankyung.com/article/2026070794216",
-      "source": "한국경제",
-      "ts": 1783383628000,
-      "pub": "Tue, 07 Jul 2026 09:20:28 +0900",
       "sentiment": "negative"
     },
     {
@@ -74,22 +66,6 @@
       "ts": 1783383431000,
       "pub": "Tue, 7 Jul 2026 09:17:11 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "'실적 D-day' 삼성전자 담은 초고수…SK하이닉스도 쓸어담았다",
-      "link": "https://www.hankyung.com/article/202607079143i",
-      "source": "한국경제",
-      "ts": 1783382404000,
-      "pub": "Tue, 07 Jul 2026 09:00:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[마켓뷰] 삼전 2분기 호실적·美증시 상승…코스피, 반등 시도하나",
-      "link": "https://www.yna.co.kr/view/AKR20260707025500008",
-      "source": "연합뉴스 경제",
-      "ts": 1783379629000,
-      "pub": "Tue, 7 Jul 2026 08:13:49 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

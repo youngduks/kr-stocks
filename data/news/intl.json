@@ -1,30 +1,22 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-07T02:37:37.490Z",
-  "count": 20,
+  "updated_at": "2026-07-07T06:35:01.804Z",
+  "count": 14,
   "items": [
     {
-      "title": "가전·TV 선전에 美 관세 환급까지…LG전자, 2Q '어닝 서프라이즈'",
-      "link": "https://www.mt.co.kr/industry/2026/07/07/2026070710542666703",
-      "source": "머니투데이",
-      "ts": 1783391336000,
-      "pub": "Tue, 07 Jul 2026 11:28:56 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "FIFA 회장, 트럼프와 통화 인정했지만…\"징계 유예는 외압과 무관\"",
-      "link": "https://www.mt.co.kr/world/2026/07/07/2026070710440680275",
-      "source": "머니투데이",
-      "ts": 1783390321000,
-      "pub": "Tue, 07 Jul 2026 11:12:01 +0900",
+      "title": "트럼프 '전화 찬스'도 역부족…미국, 벨기에에 4-1 '완패'",
+      "link": "https://www.hankyung.com/article/2026070702027",
+      "source": "한국경제",
+      "ts": 1783400481000,
+      "pub": "Tue, 07 Jul 2026 14:01:21 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"가격 내린 월마트 본받아라\"…중간선거 앞둔 트럼프, 유통사 압박",
-      "link": "https://www.mt.co.kr/world/2026/07/07/2026070710023945258",
-      "source": "머니투데이",
-      "ts": 1783387796000,
-      "pub": "Tue, 07 Jul 2026 10:29:56 +0900",
+      "title": "찰리 커크 암살용의자 예비심리 열려…트럼프 장남도 방청석에",
+      "link": "https://www.yna.co.kr/view/AKR20260707093600075",
+      "source": "연합뉴스 국제",
+      "ts": 1783394605000,
+      "pub": "Tue, 7 Jul 2026 12:23:25 +0900",
       "sentiment": "neutral"
     },
     {
@@ -122,46 +114,6 @@
       "ts": 1783342755000,
       "pub": "Mon, 6 Jul 2026 21:59:15 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "하마스, 약 20년만에 가자지구 통치기구 공식 해산",
-      "link": "https://www.yna.co.kr/view/AKR20260706149400079",
-      "source": "연합뉴스 국제",
-      "ts": 1783335057000,
-      "pub": "Mon, 6 Jul 2026 19:50:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 멜로니 사진 올리며 \"접근금지 필요\"…난감한 이탈리아",
-      "link": "https://www.yna.co.kr/view/AKR20260706143100109",
-      "source": "연합뉴스 국제",
-      "ts": 1783332545000,
-      "pub": "Mon, 6 Jul 2026 19:09:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘 국방 \"우리 위협하는 이란 지도자, 하메네이처럼 될 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260706142000079",
-      "source": "연합뉴스 국제",
-      "ts": 1783329279000,
-      "pub": "Mon, 6 Jul 2026 18:14:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러 보급로 노리는 우크라 중거리 드론…크림반도 '비상'",
-      "link": "https://www.yna.co.kr/view/AKR20260706133600109",
-      "source": "연합뉴스 국제",
-      "ts": 1783328795000,
-      "pub": "Mon, 6 Jul 2026 18:06:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "중동전쟁에 \"트럼프 만세\" 외친 정유사…경제위기를 폭리 기회로(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260706082851004",
-      "source": "연합뉴스 경제",
-      "ts": 1783324886000,
-      "pub": "Mon, 6 Jul 2026 17:01:26 +0900",
-      "sentiment": "negative"
     }
   ]
 }

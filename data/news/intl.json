@@ -1,14 +1,62 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-07T06:35:01.804Z",
+  "updated_at": "2026-07-07T10:17:25.615Z",
   "count": 14,
   "items": [
     {
-      "title": "트럼프 '전화 찬스'도 역부족…미국, 벨기에에 4-1 '완패'",
-      "link": "https://www.hankyung.com/article/2026070702027",
-      "source": "한국경제",
-      "ts": 1783400481000,
-      "pub": "Tue, 07 Jul 2026 14:01:21 +0900",
+      "title": "\"'보수 여왕' 멜로니 건들지 마\"…벨기에 국방, 트럼프에 경고",
+      "link": "https://www.yna.co.kr/view/AKR20260707161000098",
+      "source": "연합뉴스 국제",
+      "ts": 1783415635000,
+      "pub": "Tue, 7 Jul 2026 18:13:55 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "나토 정상회의 향하는 젤렌스키…모스크바에 드론 400대 날렸다",
+      "link": "https://www.yna.co.kr/view/AKR20260707143200109",
+      "source": "연합뉴스 국제",
+      "ts": 1783411444000,
+      "pub": "Tue, 7 Jul 2026 17:04:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[쇼츠] 2천700㎞ 날아간 우크라 드론…러 정유공장 '대폭발'",
+      "link": "https://www.yna.co.kr/view/AKR20260707143800704",
+      "source": "연합뉴스 국제",
+      "ts": 1783410315000,
+      "pub": "Tue, 7 Jul 2026 16:45:15 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "나토, 트럼프 대면 앞두고 앞다퉈 \"국방비 증액\" 답안지 발표",
+      "link": "https://www.yna.co.kr/view/AKR20260707135900009",
+      "source": "연합뉴스 국제",
+      "ts": 1783409698000,
+      "pub": "Tue, 7 Jul 2026 16:34:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 낡은 전투기 직접 몬 NASA 국장…\"트럼프가 원했다고!\"",
+      "link": "https://www.yna.co.kr/view/AKR20260707140700704",
+      "source": "연합뉴스 국제",
+      "ts": 1783409482000,
+      "pub": "Tue, 7 Jul 2026 16:31:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "에르도안에 병주고 약주나…트럼프, F-35 수출 허용 의사 밝힐듯",
+      "link": "https://www.yna.co.kr/view/AKR20260707133900009",
+      "source": "연합뉴스 국제",
+      "ts": 1783408489000,
+      "pub": "Tue, 7 Jul 2026 16:14:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 합의 아니면 끝\"…하메네이 장례기간 신경전",
+      "link": "https://www.yna.co.kr/view/AKR20260707086900009",
+      "source": "연합뉴스 국제",
+      "ts": 1783408146000,
+      "pub": "Tue, 7 Jul 2026 16:09:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -65,54 +113,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783367463000,
       "pub": "Tue, 7 Jul 2026 04:51:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하마스, 20년만에 가자지구 통치기구 해산…이스라엘 \"속임수\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260706149452079",
-      "source": "연합뉴스 국제",
-      "ts": 1783354391000,
-      "pub": "Tue, 7 Jul 2026 01:13:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "네타냐후, 트럼프 나토회의 참석 앞두고 \"튀르키예에 F-35 안돼\"",
-      "link": "https://www.yna.co.kr/view/AKR20260707000200071",
-      "source": "연합뉴스 국제",
-      "ts": 1783350467000,
-      "pub": "Tue, 7 Jul 2026 00:07:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "2천700㎞ 날아간 우크라 드론…러 옴스크 정유공장 타격",
-      "link": "https://www.yna.co.kr/view/AKR20260706156800109",
-      "source": "연합뉴스 국제",
-      "ts": 1783349367000,
-      "pub": "Mon, 6 Jul 2026 23:49:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"우크라전 종식, 사람들 생각보다 가까워지고 있어\"",
-      "link": "https://www.yna.co.kr/view/AKR20260706157300071",
-      "source": "연합뉴스 국제",
-      "ts": 1783348729000,
-      "pub": "Mon, 6 Jul 2026 23:38:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘 중앙은행, 금리 내리고 올해 성장률 전망 4%로 올려",
-      "link": "https://www.yna.co.kr/view/AKR20260706156600079",
-      "source": "연합뉴스 국제",
-      "ts": 1783347605000,
-      "pub": "Mon, 6 Jul 2026 23:20:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하마스, 약 20년만에 가자지구 통치기구 공식 해산(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260706149451079",
-      "source": "연합뉴스 국제",
-      "ts": 1783342755000,
-      "pub": "Mon, 6 Jul 2026 21:59:15 +0900",
       "sentiment": "neutral"
     }
   ]

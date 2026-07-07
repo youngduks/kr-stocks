@@ -1,8 +1,56 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-07T06:35:01.805Z",
-  "count": 8,
+  "updated_at": "2026-07-07T10:17:25.616Z",
+  "count": 11,
   "items": [
+    {
+      "title": "삼성전자, 3445억원 자사주 처분…DX부문 직원 보상 목적",
+      "link": "https://www.hankyung.com/article/2026070711607",
+      "source": "한국경제",
+      "ts": 1783415664000,
+      "pub": "Tue, 07 Jul 2026 18:14:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "모건스탠리 \"반도체주 팔아라\"…외국인, 삼성전자 2조원 던졌다",
+      "link": "https://www.hankyung.com/article/2026070710601",
+      "source": "한국경제",
+      "ts": 1783415207000,
+      "pub": "Tue, 07 Jul 2026 18:06:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'투매' 외국인 삼전 보유율, 금융위기 이후 최저…개미 빚투↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260707099351008",
+      "source": "연합뉴스 경제",
+      "ts": 1783410437000,
+      "pub": "Tue, 7 Jul 2026 16:47:17 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "2분기 전망치 웃돈 실적에도 삼전 폭락…증권가 평가는(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260707100951008",
+      "source": "연합뉴스 경제",
+      "ts": 1783410222000,
+      "pub": "Tue, 7 Jul 2026 16:43:42 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "기대 미달? 피크아웃?…'역대급 실적' 삼전 급락에 코스피 출렁(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260707081751008",
+      "source": "연합뉴스 경제",
+      "ts": 1783410004000,
+      "pub": "Tue, 7 Jul 2026 16:40:04 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[특징주] 삼전, 예상 웃돈 실적에도 6.9% 급락…장중 10% 폭락(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260707042251008",
+      "source": "연합뉴스 경제",
+      "ts": 1783407382000,
+      "pub": "Tue, 7 Jul 2026 15:56:22 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "삼전, 과거 16번 어닝 서프라이즈 때 10번 주가 하락",
       "link": "https://www.yna.co.kr/view/AKR20260707117900009",
@@ -36,35 +84,11 @@
       "sentiment": "negative"
     },
     {
-      "title": "삼성전자는 최고점을 지났나? 2분기 실적이 의미하는 것은",
-      "link": "https://www.hankyung.com/article/202607067441i",
-      "source": "한국경제",
-      "ts": 1783396802000,
-      "pub": "Tue, 07 Jul 2026 13:00:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "시장기대 못미쳤나…'역대급 실적' 삼전 급락에 코스피도 출렁",
       "link": "https://www.yna.co.kr/view/AKR20260707081700008",
       "source": "연합뉴스 경제",
       "ts": 1783390692000,
       "pub": "Tue, 7 Jul 2026 11:18:12 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "코스피, 4%대 급락 7,700대…'2분기 실적발표' 삼전 6%↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260707040351008",
-      "source": "연합뉴스 경제",
-      "ts": 1783384991000,
-      "pub": "Tue, 7 Jul 2026 09:43:11 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[특징주] 삼성전자, 전망치 웃돈 실적에도 장초반 4%대 급락 중",
-      "link": "https://www.yna.co.kr/view/AKR20260707042200008",
-      "source": "연합뉴스 경제",
-      "ts": 1783383431000,
-      "pub": "Tue, 7 Jul 2026 09:17:11 +0900",
       "sentiment": "negative"
     }
   ]

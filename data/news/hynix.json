@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-07T22:03:55.819Z",
-  "count": 8,
+  "updated_at": "2026-07-07T23:44:30.258Z",
+  "count": 11,
   "items": [
+    {
+      "title": "5월 경상흑자 386.1억달러…반도체 수출 호조에 역대 최대",
+      "link": "https://www.yna.co.kr/view/AKR20260708019600002",
+      "source": "연합뉴스 경제",
+      "ts": 1783465204000,
+      "pub": "Wed, 8 Jul 2026 08:00:04 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'삼성전자 쇼크' 반도체주 급락…중동 긴장에 나스닥 1.16%↓ [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026070815656",
+      "source": "한국경제",
+      "ts": 1783463736000,
+      "pub": "Wed, 08 Jul 2026 07:35:36 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"17만원 간다\"…외국인이 2670억 쓸어담은 반도체주",
+      "link": "https://www.hankyung.com/article/202607081381i",
+      "source": "한국경제",
+      "ts": 1783461613000,
+      "pub": "Wed, 08 Jul 2026 07:00:13 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "반도체주 급락·유가 급등에 美나스닥 1.2%↓(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260708007351072",

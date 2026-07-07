@@ -1,15 +1,31 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-07T22:03:55.819Z",
-  "count": 11,
+  "updated_at": "2026-07-07T23:44:30.257Z",
+  "count": 12,
   "items": [
     {
-      "title": "'세계 1위' 기록 썼는데…'뉴스에 팔았나' 삼전 개미들 '발칵' [분석+]",
+      "title": "\"삼성전자, 하반기 EPS 상승률 둔화…목표가 39만원으로 하향\"-키움",
+      "link": "https://www.hankyung.com/article/2026070815866",
+      "source": "한국경제",
+      "ts": 1783464204000,
+      "pub": "Wed, 08 Jul 2026 07:43:24 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'삼성전자 쇼크' 반도체주 급락…중동 긴장에 나스닥 1.16%↓ [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026070815656",
+      "source": "한국경제",
+      "ts": 1783463736000,
+      "pub": "Wed, 08 Jul 2026 07:35:36 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'세계 1위' 찍고 급락…'외국인 또 팔았다' 삼전 개미들 '발칵' [분석+]",
       "link": "https://www.hankyung.com/article/2026070707646",
       "source": "한국경제",
       "ts": 1783459806000,
       "pub": "Wed, 08 Jul 2026 06:30:06 +0900",
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "title": "태평양 건너 삼전 급락에 美 반도체주 매도…나스닥 1.3%↓",
@@ -81,14 +97,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783399412000,
       "pub": "Tue, 7 Jul 2026 13:43:32 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "시장기대 못미쳤나…'역대급 실적' 삼전 급락에 코스피도 출렁",
-      "link": "https://www.yna.co.kr/view/AKR20260707081700008",
-      "source": "연합뉴스 경제",
-      "ts": 1783390692000,
-      "pub": "Tue, 7 Jul 2026 11:18:12 +0900",
       "sentiment": "negative"
     }
   ]

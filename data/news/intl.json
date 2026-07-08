@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-08T19:03:42.531Z",
-  "count": 39,
+  "updated_at": "2026-07-08T20:54:50.851Z",
+  "count": 36,
   "items": [
+    {
+      "title": "6월 FOMC 의사록 \"몇몇 위원, 금리인상 검토 언급\"…인플레 경계",
+      "link": "https://www.yna.co.kr/view/AKR20260709007100072",
+      "source": "연합뉴스 국제",
+      "ts": 1783538871000,
+      "pub": "Thu, 9 Jul 2026 04:27:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 시리아 '테러지원국' 지정도 철회나서…관계정상화 속도",
+      "link": "https://www.yna.co.kr/view/AKR20260709006800071",
+      "source": "연합뉴스 국제",
+      "ts": 1783537918000,
+      "pub": "Thu, 9 Jul 2026 04:11:58 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"이란과 전쟁 재개는 아닐 것…장기전 추구하지 않아\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260709002552071",
@@ -76,14 +92,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"아마도 오늘밤 이란 타격...호르무즈 '봉쇄' 재개할 수도\"",
-      "link": "https://www.mt.co.kr/world/2026/07/08/2026070822431975060",
-      "source": "머니투데이",
-      "ts": 1783519283000,
-      "pub": "Wed, 08 Jul 2026 23:01:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"패트리엇 미사일의 우크라 현지생산 허가할 것\"",
       "link": "https://www.hankyung.com/article/2026070839247",
       "source": "한국경제",
@@ -124,14 +132,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \" 아마도 오늘밤, 이란 강하게 타격\"...휴전 무산 우려 커졌다",
-      "link": "https://www.mt.co.kr/world/2026/07/08/2026070822112987129",
-      "source": "머니투데이",
-      "ts": 1783517595000,
-      "pub": "Wed, 08 Jul 2026 22:33:15 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "[속보] 트럼프 \"대이란 해상봉쇄 재개할 수 있다\"",
       "link": "https://www.yna.co.kr/view/AKR20260708185900071",
       "source": "연합뉴스 국제",
@@ -140,27 +140,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[속보]트럼프 \"아마 오늘 밤 이란 또 타격할 것\"",
-      "link": "https://www.mt.co.kr/world/2026/07/08/2026070822100041109",
-      "source": "머니투데이",
-      "ts": 1783516320000,
-      "pub": "Wed, 08 Jul 2026 22:12:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, 이틀연속 대이란 공습 예고…\"아마 오늘밤 다시 공격\"",
       "link": "https://www.yna.co.kr/view/AKR20260708184400071",
       "source": "연합뉴스 국제",
       "ts": 1783516280000,
       "pub": "Wed, 8 Jul 2026 22:11:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "李대통령, 잇단 NATO 정상외교 '종횡무진'…젤렌스키와 첫 양자회담",
-      "link": "https://www.mt.co.kr/politics/2026/07/08/2026070818551424802",
-      "source": "머니투데이",
-      "ts": 1783515897000,
-      "pub": "Wed, 08 Jul 2026 22:04:57 +0900",
       "sentiment": "neutral"
     },
     {
@@ -305,14 +289,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783486796000,
       "pub": "Wed, 8 Jul 2026 13:59:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "카자흐 대통령, 2036년까지 집권 가능…\"푸틴과 유사한 행보\"",
-      "link": "https://www.yna.co.kr/view/AKR20260708089900104",
-      "source": "연합뉴스 국제",
-      "ts": 1783478739000,
-      "pub": "Wed, 8 Jul 2026 11:45:39 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -3,7 +3,7 @@
   "ticker": "000660",
   "name_ko": "SK하이닉스",
   "name_en": "SK Hynix",
-  "updated_at": "2026-07-06T11:38:25.017Z",
+  "updated_at": "2026-07-08T09:26:07.453Z",
   "consensus": {
     "avg_target_krw": 1898571,
     "median_target_krw": 1900000,
@@ -212,15 +212,20 @@
       "date": "2026-07-06",
       "avg_target_krw": 3527083,
       "opinion_count": 30
+    },
+    {
+      "date": "2026-07-08",
+      "avg_target_krw": 3547917,
+      "opinion_count": 30
     }
   ],
   "naver_snapshot": {
     "opinion_score": 4,
     "opinion_label": "매수",
-    "avg_target_krw": 3527083,
+    "avg_target_krw": 3547917,
     "high_52w_krw": 2987000,
     "low_52w_krw": 245000,
     "source": "finance.naver.com",
-    "fetched_at": "2026-07-06T11:38:25.017Z"
+    "fetched_at": "2026-07-08T09:26:07.453Z"
   }
 }

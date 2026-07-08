@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-08T15:07:24.324Z",
-  "count": 14,
+  "updated_at": "2026-07-08T17:17:22.200Z",
+  "count": 12,
   "items": [
+    {
+      "title": "\"中,자국 AI기업들에 엔비디아 H200칩 구매 허용\"[인포메이션]",
+      "link": "https://www.hankyung.com/article/202607093950i",
+      "source": "한국경제",
+      "ts": 1783525486000,
+      "pub": "Thu, 09 Jul 2026 00:44:46 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'43조 잭팟' SK하이닉스…\"한국서 팔아라\" 이유 알고보니",
       "link": "https://www.hankyung.com/article/202607083846i",
@@ -89,30 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783476435000,
       "pub": "Wed, 8 Jul 2026 11:07:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "日 차세대 반도체 소재 대폭 증산…中에 맞서 시장선점 속도",
-      "link": "https://www.yna.co.kr/view/AKR20260708065800009",
-      "source": "연합뉴스 국제",
-      "ts": 1783473332000,
-      "pub": "Wed, 8 Jul 2026 10:15:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "日, 삼전 역대급 실적 주목…\"메모리 독점에 日전철 밟을 수도\"",
-      "link": "https://www.yna.co.kr/view/AKR20260708054100073",
-      "source": "연합뉴스 국제",
-      "ts": 1783472397000,
-      "pub": "Wed, 8 Jul 2026 09:59:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "UBS \"SK하이닉스 ADR 사고, 서울 주식은 팔아라\"",
-      "link": "https://www.yna.co.kr/view/AKR20260708034100009",
-      "source": "연합뉴스 국제",
-      "ts": 1783470742000,
-      "pub": "Wed, 8 Jul 2026 09:32:22 +0900",
       "sentiment": "neutral"
     }
   ]

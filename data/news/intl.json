@@ -1,8 +1,72 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-08T10:05:23.322Z",
-  "count": 11,
+  "updated_at": "2026-07-08T12:12:40.281Z",
+  "count": 18,
   "items": [
+    {
+      "title": "\"종전 MOU 끝난듯\" 트럼프 폭탄발언에…유가 뛰고 국채금리도 상승(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260708166851085",
+      "source": "연합뉴스 국제",
+      "ts": 1783508337000,
+      "pub": "Wed, 8 Jul 2026 19:58:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"지긋지긋\" 트럼프 인내심 바닥…협상판 뒤엎나",
+      "link": "https://www.yna.co.kr/view/AKR20260708173700079",
+      "source": "연합뉴스 국제",
+      "ts": 1783507988000,
+      "pub": "Wed, 8 Jul 2026 19:53:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"종전 합의 끝나…이란 상대는 시간 낭비\"",
+      "link": "https://www.hankyung.com/article/2026070838251",
+      "source": "한국경제",
+      "ts": 1783507440000,
+      "pub": "Wed, 08 Jul 2026 19:44:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 협상 어기고 호르무즈 선박 공격\"…휴전 파기하나",
+      "link": "https://www.hankyung.com/article/2026070838171",
+      "source": "한국경제",
+      "ts": 1783507246000,
+      "pub": "Wed, 08 Jul 2026 19:40:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"종전 MOU 끝난 듯\"…이란 향해 \"쓰레기\" 맹비난(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260708159652108",
+      "source": "연합뉴스 국제",
+      "ts": 1783506298000,
+      "pub": "Wed, 8 Jul 2026 19:24:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 李대통령-젤렌스키,'北포로' 당사자 의사 존중·인도적 해결키로",
+      "link": "https://www.hankyung.com/article/2026070838097",
+      "source": "한국경제",
+      "ts": 1783506138000,
+      "pub": "Wed, 08 Jul 2026 19:22:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 李대통령, 트럼프에 韓 '선박제조 기업들' 소개…\"최대한 협조\"",
+      "link": "https://www.hankyung.com/article/2026070837967",
+      "source": "한국경제",
+      "ts": 1783505413000,
+      "pub": "Wed, 08 Jul 2026 19:10:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 李대통령, 나토 만찬서 트럼프와 '군용선박 건조' 관련 후속협의",
+      "link": "https://www.hankyung.com/article/2026070837917",
+      "source": "한국경제",
+      "ts": 1783505192000,
+      "pub": "Wed, 08 Jul 2026 19:06:32 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"종전 MOU 끝난 듯\" 트럼프 발언에…국제유가 5.8% 급등",
       "link": "https://www.yna.co.kr/view/AKR20260708166800085",
@@ -82,14 +146,6 @@
       "ts": 1783465878000,
       "pub": "Wed, 8 Jul 2026 08:11:18 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"튀르키예에 F-35 전투기 판매 검토…제재 해제할 것\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260707174652108",
-      "source": "연합뉴스 국제",
-      "ts": 1783460905000,
-      "pub": "Wed, 8 Jul 2026 06:48:25 +0900",
-      "sentiment": "negative"
     }
   ]
 }

@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-08T20:54:50.851Z",
-  "count": 36,
+  "updated_at": "2026-07-08T21:57:23.586Z",
+  "count": 43,
   "items": [
+    {
+      "title": "\"다시 강력 공격\" 트럼프 예고대로…미군, 연이틀 이란 공습(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260709010851071",
+      "source": "연합뉴스 국제",
+      "ts": 1783545604000,
+      "pub": "Thu, 9 Jul 2026 06:20:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"종전 MOU 끝\" 트럼프 폭탄발언…반도체는 급반등[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/07/09/2026070906082594391",
+      "source": "머니투데이",
+      "ts": 1783545101000,
+      "pub": "Thu, 09 Jul 2026 06:11:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"강하게 타격, 장기전 원치 않아\"...트럼프 곧바로 이란 추가 공습",
+      "link": "https://www.mt.co.kr/world/2026/07/09/2026070905415484584",
+      "source": "머니투데이",
+      "ts": 1783544117000,
+      "pub": "Thu, 09 Jul 2026 05:55:17 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "6월 FOMC 의사록 \"몇몇 위원, 금리인상 검토 언급\"…인플레 경계",
       "link": "https://www.yna.co.kr/view/AKR20260709007100072",
@@ -12,11 +36,27 @@
       "sentiment": "neutral"
     },
     {
+      "title": "이란, 美공습 즉각 보복… 트럼프 \"종전 MOU 끝난 것같다\"",
+      "link": "https://www.mt.co.kr/world/2026/07/09/2026070820024786297",
+      "source": "머니투데이",
+      "ts": 1783538400000,
+      "pub": "Thu, 09 Jul 2026 04:20:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "트럼프, 시리아 '테러지원국' 지정도 철회나서…관계정상화 속도",
       "link": "https://www.yna.co.kr/view/AKR20260709006800071",
       "source": "연합뉴스 국제",
       "ts": 1783537918000,
       "pub": "Thu, 9 Jul 2026 04:11:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 공격 빠르게 진행…전쟁 재개는 아닐 것\"",
+      "link": "https://www.mt.co.kr/world/2026/07/09/2026070904065024709",
+      "source": "머니투데이",
+      "ts": 1783537908000,
+      "pub": "Thu, 09 Jul 2026 04:11:48 +0900",
       "sentiment": "neutral"
     },
     {
@@ -92,6 +132,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "트럼프 \"아마도 오늘밤 이란 타격...호르무즈 '봉쇄' 재개할 수도\"",
+      "link": "https://www.mt.co.kr/world/2026/07/08/2026070822431975060",
+      "source": "머니투데이",
+      "ts": 1783519283000,
+      "pub": "Wed, 08 Jul 2026 23:01:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "트럼프 \"패트리엇 미사일의 우크라 현지생산 허가할 것\"",
       "link": "https://www.hankyung.com/article/2026070839247",
       "source": "한국경제",
@@ -132,6 +180,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "트럼프 \" 아마도 오늘밤, 이란 강하게 타격\"...휴전 무산 우려 커졌다",
+      "link": "https://www.mt.co.kr/world/2026/07/08/2026070822112987129",
+      "source": "머니투데이",
+      "ts": 1783517595000,
+      "pub": "Wed, 08 Jul 2026 22:33:15 +0900",
+      "sentiment": "negative"
+    },
+    {
       "title": "[속보] 트럼프 \"대이란 해상봉쇄 재개할 수 있다\"",
       "link": "https://www.yna.co.kr/view/AKR20260708185900071",
       "source": "연합뉴스 국제",
@@ -140,11 +196,27 @@
       "sentiment": "neutral"
     },
     {
+      "title": "[속보]트럼프 \"아마 오늘 밤 이란 또 타격할 것\"",
+      "link": "https://www.mt.co.kr/world/2026/07/08/2026070822100041109",
+      "source": "머니투데이",
+      "ts": 1783516320000,
+      "pub": "Wed, 08 Jul 2026 22:12:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "트럼프, 이틀연속 대이란 공습 예고…\"아마 오늘밤 다시 공격\"",
       "link": "https://www.yna.co.kr/view/AKR20260708184400071",
       "source": "연합뉴스 국제",
       "ts": 1783516280000,
       "pub": "Wed, 8 Jul 2026 22:11:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李대통령, 잇단 NATO 정상외교 '종횡무진'…젤렌스키와 첫 양자회담",
+      "link": "https://www.mt.co.kr/politics/2026/07/08/2026070818551424802",
+      "source": "머니투데이",
+      "ts": 1783515897000,
+      "pub": "Wed, 08 Jul 2026 22:04:57 +0900",
       "sentiment": "neutral"
     },
     {
@@ -225,22 +297,6 @@
       "source": "한국경제",
       "ts": 1783506138000,
       "pub": "Wed, 08 Jul 2026 19:22:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 李대통령, 트럼프에 韓 '선박제조 기업들' 소개…\"최대한 협조\"",
-      "link": "https://www.hankyung.com/article/2026070837967",
-      "source": "한국경제",
-      "ts": 1783505413000,
-      "pub": "Wed, 08 Jul 2026 19:10:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 李대통령, 나토 만찬서 트럼프와 '군용선박 건조' 관련 후속협의",
-      "link": "https://www.hankyung.com/article/2026070837917",
-      "source": "한국경제",
-      "ts": 1783505192000,
-      "pub": "Wed, 08 Jul 2026 19:06:32 +0900",
       "sentiment": "neutral"
     },
     {

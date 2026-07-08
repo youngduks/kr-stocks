@@ -1,15 +1,23 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-08T04:57:05.505Z",
-  "count": 8,
+  "updated_at": "2026-07-08T07:24:47.697Z",
+  "count": 5,
   "items": [
     {
-      "title": "\"삼전 다시 오른다\" 베팅 나선 1% 초고수…하이닉스는 매도",
-      "link": "https://www.hankyung.com/article/202607082543i",
+      "title": "[특징주] 삼성전자, 6.3% 급락 마감…SK하이닉스도 5.7%↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260708047251008",
+      "source": "연합뉴스 경제",
+      "ts": 1783493673000,
+      "pub": "Wed, 8 Jul 2026 15:54:33 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[속보]코스피·코스닥, 5%대 하락 마감…삼전 6.25%↓ 하이닉스 5.68%↓",
+      "link": "https://www.hankyung.com/article/2026070831636",
       "source": "한국경제",
-      "ts": 1783484029000,
-      "pub": "Wed, 08 Jul 2026 13:13:49 +0900",
-      "sentiment": "neutral"
+      "ts": 1783492694000,
+      "pub": "Wed, 08 Jul 2026 15:38:14 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "글로벌 비메모리 반도체 2곳, 마진율 강제…최대 1천억대 과징금",
@@ -18,14 +26,6 @@
       "ts": 1783479606000,
       "pub": "Wed, 8 Jul 2026 12:00:06 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "\"시총보다 큰 규모\"…광무, 삼성전자 주식 매도 결정에 '급등' [종목+]",
-      "link": "https://www.hankyung.com/article/2026070824916",
-      "source": "한국경제",
-      "ts": 1783477055000,
-      "pub": "Wed, 08 Jul 2026 11:17:35 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "삼전 호실적에도 전망 엇갈려…해외 IB \"메모리 호조\"(종합)",
@@ -41,30 +41,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783472397000,
       "pub": "Wed, 8 Jul 2026 09:59:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "역대급 실적 삼전, 증권가 평가는…목표주가 상향·하향 엇갈려",
-      "link": "https://www.yna.co.kr/view/AKR20260708049900008",
-      "source": "연합뉴스 경제",
-      "ts": 1783472008000,
-      "pub": "Wed, 8 Jul 2026 09:53:28 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "코스피, 급락 출발 후 낙폭축소해 보합권…삼전닉스 상승전환(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260708040651008",
-      "source": "연합뉴스 경제",
-      "ts": 1783471651000,
-      "pub": "Wed, 8 Jul 2026 09:47:31 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[특징주] 삼성전자, 장 초반 1%대 하락 중…하닉은 상승전환",
-      "link": "https://www.yna.co.kr/view/AKR20260708047200008",
-      "source": "연합뉴스 경제",
-      "ts": 1783470569000,
-      "pub": "Wed, 8 Jul 2026 09:29:29 +0900",
       "sentiment": "neutral"
     }
   ]

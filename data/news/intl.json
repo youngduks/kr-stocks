@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-08T04:57:05.504Z",
-  "count": 15,
+  "updated_at": "2026-07-08T07:24:47.696Z",
+  "count": 11,
   "items": [
+    {
+      "title": "레바논 대통령, 미국서 트럼프 대통령과 21일 회동",
+      "link": "https://www.yna.co.kr/view/AKR20260708133200009",
+      "source": "연합뉴스 국제",
+      "ts": 1783493458000,
+      "pub": "Wed, 8 Jul 2026 15:50:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한국, 미국 글로벌 관세 만료 이후 최대 12.5% 관세 부과 전망",
+      "link": "https://www.yna.co.kr/view/AKR20260708091400003",
+      "source": "연합뉴스 경제",
+      "ts": 1783486796000,
+      "pub": "Wed, 8 Jul 2026 13:59:56 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "카자흐 대통령, 2036년까지 집권 가능…\"푸틴과 유사한 행보\"",
       "link": "https://www.yna.co.kr/view/AKR20260708089900104",
@@ -73,54 +89,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783449308000,
       "pub": "Wed, 8 Jul 2026 03:35:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "네타냐후 \"이스라엘, 항로·해상무역 자유 수호할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260708001800079",
-      "source": "연합뉴스 국제",
-      "ts": 1783442466000,
-      "pub": "Wed, 8 Jul 2026 01:41:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "나토회의 맞춰 화력 키운 우크라…모스크바에 드론 430대(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260707143251109",
-      "source": "연합뉴스 국제",
-      "ts": 1783440959000,
-      "pub": "Wed, 8 Jul 2026 01:15:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 나토에 \"매우 실망했다\"면서 튀르키예엔 \"훌륭한 동맹\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260707174651108",
-      "source": "연합뉴스 국제",
-      "ts": 1783438663000,
-      "pub": "Wed, 8 Jul 2026 00:37:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키 \"우크라, 나토 방어력 원천 될 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260707178300108",
-      "source": "연합뉴스 국제",
-      "ts": 1783438339000,
-      "pub": "Wed, 8 Jul 2026 00:32:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "캐나다 주도 '글로벌 국방은행'에 우크라 등 8개국 동참 의사",
-      "link": "https://www.yna.co.kr/view/AKR20260707177700072",
-      "source": "연합뉴스 국제",
-      "ts": 1783435413000,
-      "pub": "Tue, 7 Jul 2026 23:43:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 지난 봄 유럽 주둔 미군 3분의 1 대폭 감축 검토\"",
-      "link": "https://www.yna.co.kr/view/AKR20260707176500071",
-      "source": "연합뉴스 국제",
-      "ts": 1783433802000,
-      "pub": "Tue, 7 Jul 2026 23:16:42 +0900",
       "sentiment": "neutral"
     }
   ]

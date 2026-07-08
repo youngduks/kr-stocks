@@ -1,16 +1,8 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-08T04:57:05.506Z",
-  "count": 3,
+  "updated_at": "2026-07-08T07:24:47.698Z",
+  "count": 1,
   "items": [
-    {
-      "title": "美 조지아 주지사 \"정의선 회장 만난다\"…투자 논의할 듯",
-      "link": "https://www.hankyung.com/article/202607082585g",
-      "source": "한국경제",
-      "ts": 1783478797000,
-      "pub": "Wed, 08 Jul 2026 11:46:37 +0900",
-      "sentiment": "neutral"
-    },
     {
       "title": "美조지아 주지사 \"PGA 스코틀랜드 오픈서 정의선 회장 만날 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260708042200009",
@@ -18,14 +10,6 @@
       "ts": 1783470028000,
       "pub": "Wed, 8 Jul 2026 09:20:28 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "키움증권 \"현대차, 이례적인 외국인 이탈세…목표주가 하향\"",
-      "link": "https://www.yna.co.kr/view/AKR20260708030100008",
-      "source": "연합뉴스 경제",
-      "ts": 1783467794000,
-      "pub": "Wed, 8 Jul 2026 08:43:14 +0900",
-      "sentiment": "negative"
     }
   ]
 }

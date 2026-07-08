@@ -1,8 +1,104 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-08T12:12:40.281Z",
-  "count": 18,
+  "updated_at": "2026-07-08T15:07:24.323Z",
+  "count": 28,
   "items": [
+    {
+      "title": "트럼프 \"아마 오늘밤 다시 이란 공격…해상봉쇄 재개할 수도\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260708184451071",
+      "source": "연합뉴스 국제",
+      "ts": 1783520636000,
+      "pub": "Wed, 8 Jul 2026 23:23:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"패트리엇 미사일의 우크라 현지생산 허가할 것\"",
+      "link": "https://www.hankyung.com/article/2026070839247",
+      "source": "한국경제",
+      "ts": 1783519101000,
+      "pub": "Wed, 08 Jul 2026 22:58:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"우크라에 패트리엇 요격미사일 생산 허가하겠다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260708186600071",
+      "source": "연합뉴스 국제",
+      "ts": 1783518536000,
+      "pub": "Wed, 8 Jul 2026 22:48:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李대통령·트럼프, 나토서 만나 美 군함 건조 후속 협의",
+      "link": "https://www.hankyung.com/article/2026070839181",
+      "source": "한국경제",
+      "ts": 1783518033000,
+      "pub": "Wed, 08 Jul 2026 22:40:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"새 에어포스원 英 기지로 이동중…군 장병에 공개\"",
+      "link": "https://www.yna.co.kr/view/AKR20260708186000071",
+      "source": "연합뉴스 국제",
+      "ts": 1783517645000,
+      "pub": "Wed, 8 Jul 2026 22:34:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"대이란 해상봉쇄 재개할 수 있다\"",
+      "link": "https://www.hankyung.com/article/2026070839147",
+      "source": "한국경제",
+      "ts": 1783517601000,
+      "pub": "Wed, 08 Jul 2026 22:33:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"대이란 해상봉쇄 재개할 수 있다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260708185900071",
+      "source": "연합뉴스 국제",
+      "ts": 1783517496000,
+      "pub": "Wed, 8 Jul 2026 22:31:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 이틀연속 대이란 공습 예고…\"아마 오늘밤 다시 공격\"",
+      "link": "https://www.yna.co.kr/view/AKR20260708184400071",
+      "source": "연합뉴스 국제",
+      "ts": 1783516280000,
+      "pub": "Wed, 8 Jul 2026 22:11:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"아마도 오늘밤 다시 이란 타격할 것\"",
+      "link": "https://www.hankyung.com/article/2026070838977",
+      "source": "한국경제",
+      "ts": 1783515695000,
+      "pub": "Wed, 08 Jul 2026 22:01:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"아마도 오늘밤 다시 이란 타격할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260708183800071",
+      "source": "연합뉴스 국제",
+      "ts": 1783515624000,
+      "pub": "Wed, 8 Jul 2026 22:00:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "로이터 \"트럼프, 나토 정상회의서 '동맹에 남길 원한다' 밝혀\"",
+      "link": "https://www.hankyung.com/article/2026070838837",
+      "source": "한국경제",
+      "ts": 1783515207000,
+      "pub": "Wed, 08 Jul 2026 21:53:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 나토 또 성토…그린란드 언급·스페인 '무역단절' 선언",
+      "link": "https://www.yna.co.kr/view/AKR20260708181900009",
+      "source": "연합뉴스 국제",
+      "ts": 1783513069000,
+      "pub": "Wed, 8 Jul 2026 21:17:49 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"종전 MOU 끝난듯\" 트럼프 폭탄발언에…유가 뛰고 국채금리도 상승(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260708166851085",
@@ -129,22 +225,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783477049000,
       "pub": "Wed, 8 Jul 2026 11:17:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 멜로니 \"멋진 사람\" 화해 손짓…이란전 \"안도왔다\" 뒤끝",
-      "link": "https://www.yna.co.kr/view/AKR20260708030900009",
-      "source": "연합뉴스 국제",
-      "ts": 1783467630000,
-      "pub": "Wed, 8 Jul 2026 08:40:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美법원, 트럼프 행정부의 조지아 선거요원 신상공개청구 기각",
-      "link": "https://www.yna.co.kr/view/AKR20260708024900009",
-      "source": "연합뉴스 국제",
-      "ts": 1783465878000,
-      "pub": "Wed, 8 Jul 2026 08:11:18 +0900",
       "sentiment": "neutral"
     }
   ]

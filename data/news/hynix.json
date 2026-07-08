@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-08T12:12:40.282Z",
+  "updated_at": "2026-07-08T15:07:24.324Z",
   "count": 14,
   "items": [
+    {
+      "title": "'43조 잭팟' SK하이닉스…\"한국서 팔아라\" 이유 알고보니",
+      "link": "https://www.hankyung.com/article/202607083846i",
+      "source": "한국경제",
+      "ts": 1783512560000,
+      "pub": "Wed, 08 Jul 2026 21:09:20 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "환율 소방수된 SK하이닉스·일본…한달 만에 1490원대로 [분석+]",
       "link": "https://www.hankyung.com/article/2026070834266",
@@ -12,19 +20,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"애플, 美 안보위협기업 中 CXMT D램 칩 테스트 나서\"",
+      "title": "\"애플, 美 안보위협기업인 中 CXMT D램 칩 테스트 나서\"",
       "link": "https://www.hankyung.com/article/202607083810i",
       "source": "한국경제",
       "ts": 1783507209000,
       "pub": "Wed, 08 Jul 2026 19:40:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[포토] '국민주' 삼성전자·SK하이닉스 휘청…코스피 7200선 간신히 사수",
-      "link": "https://www.hankyung.com/article/202607083755i",
-      "source": "한국경제",
-      "ts": 1783503190000,
-      "pub": "Wed, 08 Jul 2026 18:33:10 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-08T21:57:23.586Z",
-  "count": 43,
+  "updated_at": "2026-07-08T22:59:22.605Z",
+  "count": 41,
   "items": [
+    {
+      "title": "트럼프, 美 출생시민권 유지한 대법원에 \"재심리 요청할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260709024300071",
+      "source": "연합뉴스 국제",
+      "ts": 1783550194000,
+      "pub": "Thu, 9 Jul 2026 07:36:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "연준 의사록에 드러난 '매파' 목소리…\"금리인상 명분 있다\"",
+      "link": "https://www.mt.co.kr/world/2026/07/09/2026070907091999024",
+      "source": "머니투데이",
+      "ts": 1783550044000,
+      "pub": "Thu, 09 Jul 2026 07:34:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 이란공습 영상 올리며 \"또 선박공격시 더 심하게 당할것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260709018800071",
+      "source": "연합뉴스 국제",
+      "ts": 1783548783000,
+      "pub": "Thu, 9 Jul 2026 07:13:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "FOMC 의사록서 금리 인상론…AI 투자도 물가 변수",
+      "link": "https://www.hankyung.com/article/2026070940887",
+      "source": "한국경제",
+      "ts": 1783548598000,
+      "pub": "Thu, 09 Jul 2026 07:09:58 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"다시 강력 공격\" 트럼프 예고대로…미군, 연이틀 이란 공습(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260709010851071",
@@ -180,14 +212,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \" 아마도 오늘밤, 이란 강하게 타격\"...휴전 무산 우려 커졌다",
-      "link": "https://www.mt.co.kr/world/2026/07/08/2026070822112987129",
-      "source": "머니투데이",
-      "ts": 1783517595000,
-      "pub": "Wed, 08 Jul 2026 22:33:15 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "[속보] 트럼프 \"대이란 해상봉쇄 재개할 수 있다\"",
       "link": "https://www.yna.co.kr/view/AKR20260708185900071",
       "source": "연합뉴스 국제",
@@ -196,27 +220,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[속보]트럼프 \"아마 오늘 밤 이란 또 타격할 것\"",
-      "link": "https://www.mt.co.kr/world/2026/07/08/2026070822100041109",
-      "source": "머니투데이",
-      "ts": 1783516320000,
-      "pub": "Wed, 08 Jul 2026 22:12:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, 이틀연속 대이란 공습 예고…\"아마 오늘밤 다시 공격\"",
       "link": "https://www.yna.co.kr/view/AKR20260708184400071",
       "source": "연합뉴스 국제",
       "ts": 1783516280000,
       "pub": "Wed, 8 Jul 2026 22:11:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "李대통령, 잇단 NATO 정상외교 '종횡무진'…젤렌스키와 첫 양자회담",
-      "link": "https://www.mt.co.kr/politics/2026/07/08/2026070818551424802",
-      "source": "머니투데이",
-      "ts": 1783515897000,
-      "pub": "Wed, 08 Jul 2026 22:04:57 +0900",
       "sentiment": "neutral"
     },
     {
@@ -268,35 +276,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"종전 합의 끝나…이란 강하게 타격할 것\"",
-      "link": "https://www.hankyung.com/article/2026070838251",
-      "source": "한국경제",
-      "ts": 1783507440000,
-      "pub": "Wed, 08 Jul 2026 19:44:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란 협상 어기고 호르무즈 선박 공격\"…휴전 파기하나",
-      "link": "https://www.hankyung.com/article/2026070838171",
-      "source": "한국경제",
-      "ts": 1783507246000,
-      "pub": "Wed, 08 Jul 2026 19:40:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"종전 MOU 끝난 듯\"…이란 향해 \"쓰레기\" 맹비난(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260708159652108",
       "source": "연합뉴스 국제",
       "ts": 1783506298000,
       "pub": "Wed, 8 Jul 2026 19:24:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 李대통령-젤렌스키,'北포로' 당사자 의사 존중·인도적 해결키로",
-      "link": "https://www.hankyung.com/article/2026070838097",
-      "source": "한국경제",
-      "ts": 1783506138000,
-      "pub": "Wed, 08 Jul 2026 19:22:18 +0900",
       "sentiment": "neutral"
     },
     {

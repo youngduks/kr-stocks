@@ -1,6 +1,39 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-07T23:44:30.258Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-07-08T01:26:35.212Z",
+  "count": 4,
+  "items": [
+    {
+      "title": "美조지아 주지사 \"PGA 스코틀랜드 오픈서 정의선 회장 만날 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260708042200009",
+      "source": "연합뉴스 국제",
+      "ts": 1783470028000,
+      "pub": "Wed, 8 Jul 2026 09:20:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"슈퍼카 떠오르는 펜더 디자인\"…글로벌 호평받은 신형 아반떼",
+      "link": "https://www.hankyung.com/article/202607081855g",
+      "source": "한국경제",
+      "ts": 1783469355000,
+      "pub": "Wed, 08 Jul 2026 09:09:15 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "청계천서 시작해 LG·현대차 뚫었다…'스마트공장' 강소기업",
+      "link": "https://www.hankyung.com/article/202607081921i",
+      "source": "한국경제",
+      "ts": 1783469299000,
+      "pub": "Wed, 08 Jul 2026 09:08:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "키움증권 \"현대차, 이례적인 외국인 이탈세…목표주가 하향\"",
+      "link": "https://www.yna.co.kr/view/AKR20260708030100008",
+      "source": "연합뉴스 경제",
+      "ts": 1783467794000,
+      "pub": "Wed, 8 Jul 2026 08:43:14 +0900",
+      "sentiment": "negative"
+    }
+  ]
 }

@@ -1,8 +1,56 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-07T23:44:30.258Z",
+  "updated_at": "2026-07-08T01:26:35.211Z",
   "count": 11,
   "items": [
+    {
+      "title": "日 차세대 반도체 소재 대폭 증산…中에 맞서 시장선점 속도",
+      "link": "https://www.yna.co.kr/view/AKR20260708065800009",
+      "source": "연합뉴스 국제",
+      "ts": 1783473332000,
+      "pub": "Wed, 8 Jul 2026 10:15:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "日, 삼전 역대급 실적 주목…\"메모리 독점에 日전철 밟을 수도\"",
+      "link": "https://www.yna.co.kr/view/AKR20260708054100073",
+      "source": "연합뉴스 국제",
+      "ts": 1783472397000,
+      "pub": "Wed, 8 Jul 2026 09:59:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "UBS \"SK하이닉스 ADR 사고, 서울 주식은 팔아라\"",
+      "link": "https://www.yna.co.kr/view/AKR20260708034100009",
+      "source": "연합뉴스 국제",
+      "ts": 1783470742000,
+      "pub": "Wed, 8 Jul 2026 09:32:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아만 봤는데…AI 서버, 삼성전자 '괴물 SSD'에 달렸다",
+      "link": "https://www.hankyung.com/article/202607081926g",
+      "source": "한국경제",
+      "ts": 1783470296000,
+      "pub": "Wed, 08 Jul 2026 09:24:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[마켓라이브] 반도체·지주·전자부품 급락… 코스피·코스닥 3연속 하락 출발 [오전시황]",
+      "link": "https://www.hankyung.com/article/202607081935i",
+      "source": "한국경제",
+      "ts": 1783469957000,
+      "pub": "Wed, 08 Jul 2026 09:19:17 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"반도체 정점마다 그 신호 왔다\"…삼전닉스 '경고등' 켜진 이유",
+      "link": "https://www.hankyung.com/article/2026070818026",
+      "source": "한국경제",
+      "ts": 1783467878000,
+      "pub": "Wed, 08 Jul 2026 08:44:38 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "5월 경상흑자 386.1억달러…반도체 수출 호조에 역대 최대",
       "link": "https://www.yna.co.kr/view/AKR20260708019600002",
@@ -10,22 +58,6 @@
       "ts": 1783465204000,
       "pub": "Wed, 8 Jul 2026 08:00:04 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "'삼성전자 쇼크' 반도체주 급락…중동 긴장에 나스닥 1.16%↓ [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026070815656",
-      "source": "한국경제",
-      "ts": 1783463736000,
-      "pub": "Wed, 08 Jul 2026 07:35:36 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"17만원 간다\"…외국인이 2670억 쓸어담은 반도체주",
-      "link": "https://www.hankyung.com/article/202607081381i",
-      "source": "한국경제",
-      "ts": 1783461613000,
-      "pub": "Wed, 08 Jul 2026 07:00:13 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "반도체주 급락·유가 급등에 美나스닥 1.2%↓(종합)",
@@ -44,14 +76,6 @@
       "sentiment": "negative"
     },
     {
-      "title": "태평양 건너 삼전 급락에 美 반도체주 매도…나스닥 1.3%↓",
-      "link": "https://www.hankyung.com/article/202607071365i",
-      "source": "한국경제",
-      "ts": 1783434908000,
-      "pub": "Tue, 07 Jul 2026 23:35:08 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "뉴욕증시, 반도체주 매도세에 혼조 출발",
       "link": "https://www.yna.co.kr/view/AKR20260707175700009",
       "source": "연합뉴스 국제",
@@ -60,36 +84,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "모건스탠리 \"반도체대신 하이퍼스케일러\" 외쳤지만…블룸버그 \"맥7 지배 끝나\"",
-      "link": "https://www.hankyung.com/article/202607071312i",
-      "source": "한국경제",
-      "ts": 1783430217000,
-      "pub": "Tue, 07 Jul 2026 22:16:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI 반도체에 밀려 '찬밥'이었는데…폭락장에 개미들 몰린 곳 [종목+]",
-      "link": "https://www.hankyung.com/article/2026070707426",
-      "source": "한국경제",
-      "ts": 1783429202000,
-      "pub": "Tue, 07 Jul 2026 22:00:02 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "\"中 딥시크, 자체 AI칩 개발 추진…엔비디아·화웨이 의존↓\"",
       "link": "https://www.yna.co.kr/view/AKR20260707172600083",
       "source": "연합뉴스 국제",
       "ts": 1783429164000,
       "pub": "Tue, 7 Jul 2026 21:59:24 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 호조에 1분기 기업 여윳돈 역대최대…가계예금→주식으로",
-      "link": "https://www.yna.co.kr/view/AKR20260707088800002",
-      "source": "연합뉴스 경제",
-      "ts": 1783393200000,
-      "pub": "Tue, 7 Jul 2026 12:00:00 +0900",
-      "sentiment": "positive"
     }
   ]
 }

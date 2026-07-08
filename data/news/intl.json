@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-07T23:44:30.256Z",
-  "count": 25,
+  "updated_at": "2026-07-08T01:26:35.210Z",
+  "count": 20,
   "items": [
+    {
+      "title": "'고환율 부담' 수입 중소기업, 최대 1년 관세 납부 연장",
+      "link": "https://www.yna.co.kr/view/AKR20260708062200002",
+      "source": "연합뉴스 경제",
+      "ts": 1783472669000,
+      "pub": "Wed, 8 Jul 2026 10:04:29 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 멜로니 \"멋진 사람\" 화해 손짓…이란전 \"안도왔다\" 뒤끝",
       "link": "https://www.yna.co.kr/view/AKR20260708030900009",
@@ -60,14 +68,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 또 \"그린란드 미국이 통제해야, 유럽 계속 반발시 미군 철수\" 위협",
-      "link": "https://www.hankyung.com/article/202607081395i",
-      "source": "한국경제",
-      "ts": 1783441521000,
-      "pub": "Wed, 08 Jul 2026 01:25:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "나토회의 맞춰 화력 키운 우크라…모스크바에 드론 430대(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260707143251109",
       "source": "연합뉴스 국제",
@@ -113,14 +113,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783431378000,
       "pub": "Tue, 7 Jul 2026 22:36:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"도요타의 멕시코 생산시설 텍사스 이전은 관세 정책 덕분\"",
-      "link": "https://www.hankyung.com/article/2026070713267",
-      "source": "한국경제",
-      "ts": 1783430511000,
-      "pub": "Tue, 07 Jul 2026 22:21:51 +0900",
       "sentiment": "neutral"
     },
     {
@@ -170,38 +162,6 @@
       "ts": 1783410315000,
       "pub": "Tue, 7 Jul 2026 16:45:15 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "나토, 트럼프 대면 앞두고 앞다퉈 \"국방비 증액\" 답안지 발표",
-      "link": "https://www.yna.co.kr/view/AKR20260707135900009",
-      "source": "연합뉴스 국제",
-      "ts": 1783409698000,
-      "pub": "Tue, 7 Jul 2026 16:34:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 낡은 전투기 직접 몬 NASA 국장…\"트럼프가 원했다고!\"",
-      "link": "https://www.yna.co.kr/view/AKR20260707140700704",
-      "source": "연합뉴스 국제",
-      "ts": 1783409482000,
-      "pub": "Tue, 7 Jul 2026 16:31:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "에르도안에 병주고 약주나…트럼프, F-35 수출 허용 의사 밝힐듯",
-      "link": "https://www.yna.co.kr/view/AKR20260707133900009",
-      "source": "연합뉴스 국제",
-      "ts": 1783408489000,
-      "pub": "Tue, 7 Jul 2026 16:14:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 합의 아니면 끝\"…하메네이 장례기간 신경전",
-      "link": "https://www.yna.co.kr/view/AKR20260707086900009",
-      "source": "연합뉴스 국제",
-      "ts": 1783408146000,
-      "pub": "Tue, 7 Jul 2026 16:09:06 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

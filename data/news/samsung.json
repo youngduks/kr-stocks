@@ -1,38 +1,70 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-07T23:44:30.257Z",
+  "updated_at": "2026-07-08T01:26:35.211Z",
   "count": 12,
   "items": [
     {
-      "title": "\"삼성전자, 하반기 EPS 상승률 둔화…목표가 39만원으로 하향\"-키움",
-      "link": "https://www.hankyung.com/article/2026070815866",
-      "source": "한국경제",
-      "ts": 1783464204000,
-      "pub": "Wed, 08 Jul 2026 07:43:24 +0900",
+      "title": "日, 삼전 역대급 실적 주목…\"메모리 독점에 日전철 밟을 수도\"",
+      "link": "https://www.yna.co.kr/view/AKR20260708054100073",
+      "source": "연합뉴스 국제",
+      "ts": 1783472397000,
+      "pub": "Wed, 8 Jul 2026 09:59:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "역대급 실적 삼전, 증권가 평가는…목표주가 상향·하향 엇갈려",
+      "link": "https://www.yna.co.kr/view/AKR20260708049900008",
+      "source": "연합뉴스 경제",
+      "ts": 1783472008000,
+      "pub": "Wed, 8 Jul 2026 09:53:28 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "'삼성전자 쇼크' 반도체주 급락…중동 긴장에 나스닥 1.16%↓ [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026070815656",
-      "source": "한국경제",
-      "ts": 1783463736000,
-      "pub": "Wed, 08 Jul 2026 07:35:36 +0900",
+      "title": "코스피, 급락 출발 후 낙폭축소해 보합권…삼전닉스 상승전환(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260708040651008",
+      "source": "연합뉴스 경제",
+      "ts": 1783471651000,
+      "pub": "Wed, 8 Jul 2026 09:47:31 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "'세계 1위' 찍고 급락…'외국인 또 팔았다' 삼전 개미들 '발칵' [분석+]",
-      "link": "https://www.hankyung.com/article/2026070707646",
+      "title": "[특징주] 삼성전자, 장 초반 1%대 하락 중…하닉은 상승전환",
+      "link": "https://www.yna.co.kr/view/AKR20260708047200008",
+      "source": "연합뉴스 경제",
+      "ts": 1783470569000,
+      "pub": "Wed, 8 Jul 2026 09:29:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아만 봤는데…AI 서버, 삼성전자 '괴물 SSD'에 달렸다",
+      "link": "https://www.hankyung.com/article/202607081926g",
       "source": "한국경제",
-      "ts": 1783459806000,
-      "pub": "Wed, 08 Jul 2026 06:30:06 +0900",
+      "ts": 1783470296000,
+      "pub": "Wed, 08 Jul 2026 09:24:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 급락하자, 상위 1% 초고수들은 '이 종목' 샀다",
+      "link": "https://www.hankyung.com/article/202607081836i",
+      "source": "한국경제",
+      "ts": 1783469216000,
+      "pub": "Wed, 08 Jul 2026 09:06:56 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "태평양 건너 삼전 급락에 美 반도체주 매도…나스닥 1.3%↓",
-      "link": "https://www.hankyung.com/article/202607071365i",
+      "title": "[속보] 코스피, 7500선 무너져…삼전·SK하닉, 3%대 하락",
+      "link": "https://www.hankyung.com/article/2026070819166",
       "source": "한국경제",
-      "ts": 1783434908000,
-      "pub": "Tue, 07 Jul 2026 23:35:08 +0900",
+      "ts": 1783469129000,
+      "pub": "Wed, 08 Jul 2026 09:05:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"반도체 정점마다 그 신호 왔다\"…삼전닉스 '경고등' 켜진 이유",
+      "link": "https://www.hankyung.com/article/2026070818026",
+      "source": "한국경제",
+      "ts": 1783467878000,
+      "pub": "Wed, 08 Jul 2026 08:44:38 +0900",
       "sentiment": "negative"
     },
     {
@@ -65,38 +97,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783407382000,
       "pub": "Tue, 7 Jul 2026 15:56:22 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "삼전, 과거 16번 어닝 서프라이즈 때 10번 주가 하락",
-      "link": "https://www.yna.co.kr/view/AKR20260707117900009",
-      "source": "연합뉴스 국제",
-      "ts": 1783405035000,
-      "pub": "Tue, 7 Jul 2026 15:17:15 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "연일 '팔자' 외국인 삼전 보유율, 금융위기 이후 최저…개미 빚투↑",
-      "link": "https://www.yna.co.kr/view/AKR20260707099300008",
-      "source": "연합뉴스 경제",
-      "ts": 1783400402000,
-      "pub": "Tue, 7 Jul 2026 14:00:02 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "2분기 전망치 웃돈 실적에도 삼전 폭락…증권가 평가는",
-      "link": "https://www.yna.co.kr/view/AKR20260707100900008",
-      "source": "연합뉴스 경제",
-      "ts": 1783400216000,
-      "pub": "Tue, 7 Jul 2026 13:56:56 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "코스피, 낙폭확대 7.6%↓ 7,400대…삼전·닉스 9∼10%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260707102400008",
-      "source": "연합뉴스 경제",
-      "ts": 1783399412000,
-      "pub": "Tue, 7 Jul 2026 13:43:32 +0900",
       "sentiment": "negative"
     }
   ]

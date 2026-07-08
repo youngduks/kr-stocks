@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-08T01:26:35.210Z",
-  "count": 20,
+  "updated_at": "2026-07-08T04:57:05.504Z",
+  "count": 15,
   "items": [
+    {
+      "title": "카자흐 대통령, 2036년까지 집권 가능…\"푸틴과 유사한 행보\"",
+      "link": "https://www.yna.co.kr/view/AKR20260708089900104",
+      "source": "연합뉴스 국제",
+      "ts": 1783478739000,
+      "pub": "Wed, 8 Jul 2026 11:45:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "나토총장 \"美 과잉의존 안돼\"…트럼프 짐짓 옹호하며 자립 박차",
+      "link": "https://www.yna.co.kr/view/AKR20260708065400009",
+      "source": "연합뉴스 국제",
+      "ts": 1783477049000,
+      "pub": "Wed, 8 Jul 2026 11:17:29 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'고환율 부담' 수입 중소기업, 최대 1년 관세 납부 연장",
       "link": "https://www.yna.co.kr/view/AKR20260708062200002",
@@ -106,62 +122,6 @@
       "ts": 1783433802000,
       "pub": "Tue, 7 Jul 2026 23:16:42 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "나토 정상회의 간 트럼프 \"튀르키예에 F-35 전투기 판매 고려\"",
-      "link": "https://www.yna.co.kr/view/AKR20260707174600108",
-      "source": "연합뉴스 국제",
-      "ts": 1783431378000,
-      "pub": "Tue, 7 Jul 2026 22:36:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"도요타의 멕시코 생산시설 텍사스 이전은 관세영향\"",
-      "link": "https://www.yna.co.kr/view/AKR20260707173300071",
-      "source": "연합뉴스 국제",
-      "ts": 1783429067000,
-      "pub": "Tue, 7 Jul 2026 21:57:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "친러 우크라 재벌 폭탄테러 용의자 피살…배후 수사 제동(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260707163251081",
-      "source": "연합뉴스 국제",
-      "ts": 1783427295000,
-      "pub": "Tue, 7 Jul 2026 21:28:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"미 대통령, SNS 도발 좋아해\"…이탈리아, 트럼프 공격에 '무반응'",
-      "link": "https://www.yna.co.kr/view/AKR20260707163500109",
-      "source": "연합뉴스 국제",
-      "ts": 1783420334000,
-      "pub": "Tue, 7 Jul 2026 19:32:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"'보수 여왕' 멜로니 건들지 마\"…벨기에 국방, 트럼프에 경고",
-      "link": "https://www.yna.co.kr/view/AKR20260707161000098",
-      "source": "연합뉴스 국제",
-      "ts": 1783415635000,
-      "pub": "Tue, 7 Jul 2026 18:13:55 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "나토 정상회의 향하는 젤렌스키…모스크바에 드론 400대 날렸다",
-      "link": "https://www.yna.co.kr/view/AKR20260707143200109",
-      "source": "연합뉴스 국제",
-      "ts": 1783411444000,
-      "pub": "Tue, 7 Jul 2026 17:04:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] 2천700㎞ 날아간 우크라 드론…러 정유공장 '대폭발'",
-      "link": "https://www.yna.co.kr/view/AKR20260707143800704",
-      "source": "연합뉴스 국제",
-      "ts": 1783410315000,
-      "pub": "Tue, 7 Jul 2026 16:45:15 +0900",
-      "sentiment": "negative"
     }
   ]
 }

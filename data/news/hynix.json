@@ -1,8 +1,80 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-08T01:26:35.211Z",
-  "count": 11,
+  "updated_at": "2026-07-08T04:57:05.506Z",
+  "count": 15,
   "items": [
+    {
+      "title": "\"약 19만명 숙련된 엔지니어 필요\"…美반도체 인력난 전망",
+      "link": "https://www.hankyung.com/article/2026070825077",
+      "source": "한국경제",
+      "ts": 1783484423000,
+      "pub": "Wed, 08 Jul 2026 13:20:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중국 AI 칩 '脫엔비디아'…화웨이, 엔비디아 제쳤다",
+      "link": "https://www.yna.co.kr/view/AKR20260708095000009",
+      "source": "연합뉴스 국제",
+      "ts": 1783484372000,
+      "pub": "Wed, 8 Jul 2026 13:19:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼전 다시 오른다\" 베팅 나선 1% 초고수…하이닉스는 매도",
+      "link": "https://www.hankyung.com/article/202607082543i",
+      "source": "한국경제",
+      "ts": 1783484029000,
+      "pub": "Wed, 08 Jul 2026 13:13:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"반도체 못지않은 전략 자산\"…중국 '이 기술' 유출 막는다",
+      "link": "https://www.hankyung.com/article/202607082686i",
+      "source": "한국경제",
+      "ts": 1783483879000,
+      "pub": "Wed, 08 Jul 2026 13:11:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "공정위, 글로벌 반도체 기업 '유통사 갑질' 행위 정조준",
+      "link": "https://www.hankyung.com/article/202607082389i",
+      "source": "한국경제",
+      "ts": 1783479607000,
+      "pub": "Wed, 08 Jul 2026 12:00:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "글로벌 비메모리 반도체 2곳, 마진율 강제…최대 1천억대 과징금",
+      "link": "https://www.yna.co.kr/view/AKR20260708051800002",
+      "source": "연합뉴스 경제",
+      "ts": 1783479606000,
+      "pub": "Wed, 8 Jul 2026 12:00:06 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'흔들리는 반도체', 코스피 고점 지났나?…엇갈리는 시선들",
+      "link": "https://www.yna.co.kr/view/AKR20260708086500008",
+      "source": "연합뉴스 경제",
+      "ts": 1783477953000,
+      "pub": "Wed, 8 Jul 2026 11:32:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전 호실적에도 전망 엇갈려…해외 IB \"메모리 호조\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260708049951008",
+      "source": "연합뉴스 경제",
+      "ts": 1783476683000,
+      "pub": "Wed, 8 Jul 2026 11:11:23 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "美 반도체 인력난 허덕…\"투자 프로젝트들 지연 가능성\"",
+      "link": "https://www.yna.co.kr/view/AKR20260708075200009",
+      "source": "연합뉴스 국제",
+      "ts": 1783476435000,
+      "pub": "Wed, 8 Jul 2026 11:07:15 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "日 차세대 반도체 소재 대폭 증산…中에 맞서 시장선점 속도",
       "link": "https://www.yna.co.kr/view/AKR20260708065800009",
@@ -28,30 +100,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "엔비디아만 봤는데…AI 서버, 삼성전자 '괴물 SSD'에 달렸다",
-      "link": "https://www.hankyung.com/article/202607081926g",
-      "source": "한국경제",
-      "ts": 1783470296000,
-      "pub": "Wed, 08 Jul 2026 09:24:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[마켓라이브] 반도체·지주·전자부품 급락… 코스피·코스닥 3연속 하락 출발 [오전시황]",
-      "link": "https://www.hankyung.com/article/202607081935i",
-      "source": "한국경제",
-      "ts": 1783469957000,
-      "pub": "Wed, 08 Jul 2026 09:19:17 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"반도체 정점마다 그 신호 왔다\"…삼전닉스 '경고등' 켜진 이유",
-      "link": "https://www.hankyung.com/article/2026070818026",
-      "source": "한국경제",
-      "ts": 1783467878000,
-      "pub": "Wed, 08 Jul 2026 08:44:38 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "5월 경상흑자 386.1억달러…반도체 수출 호조에 역대 최대",
       "link": "https://www.yna.co.kr/view/AKR20260708019600002",
       "source": "연합뉴스 경제",
@@ -74,22 +122,6 @@
       "ts": 1783454999000,
       "pub": "Wed, 8 Jul 2026 05:09:59 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "뉴욕증시, 반도체주 매도세에 혼조 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260707175700009",
-      "source": "연합뉴스 국제",
-      "ts": 1783432075000,
-      "pub": "Tue, 7 Jul 2026 22:47:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"中 딥시크, 자체 AI칩 개발 추진…엔비디아·화웨이 의존↓\"",
-      "link": "https://www.yna.co.kr/view/AKR20260707172600083",
-      "source": "연합뉴스 국제",
-      "ts": 1783429164000,
-      "pub": "Tue, 7 Jul 2026 21:59:24 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

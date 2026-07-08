@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-08T17:17:22.199Z",
-  "count": 33,
+  "updated_at": "2026-07-08T19:03:42.531Z",
+  "count": 39,
   "items": [
+    {
+      "title": "트럼프 \"이란과 전쟁 재개는 아닐 것…장기전 추구하지 않아\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260709002552071",
+      "source": "연합뉴스 국제",
+      "ts": 1783533908000,
+      "pub": "Thu, 9 Jul 2026 03:05:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 외무, 트럼프 노골적 비난에 \"저속함에 행동으로 답할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260709004200079",
+      "source": "연합뉴스 국제",
+      "ts": 1783533006000,
+      "pub": "Thu, 9 Jul 2026 02:50:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 국방, 이스라엘 방문 전격 취소…네타냐후 \"실망 안해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260709003300079",
+      "source": "연합뉴스 국제",
+      "ts": 1783531145000,
+      "pub": "Thu, 9 Jul 2026 02:19:05 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"이란과 전쟁 재개는 아닐 것\"…단기간 공습 시사",
       "link": "https://www.yna.co.kr/view/AKR20260709002551071",
@@ -52,6 +76,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "트럼프 \"아마도 오늘밤 이란 타격...호르무즈 '봉쇄' 재개할 수도\"",
+      "link": "https://www.mt.co.kr/world/2026/07/08/2026070822431975060",
+      "source": "머니투데이",
+      "ts": 1783519283000,
+      "pub": "Wed, 08 Jul 2026 23:01:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "트럼프 \"패트리엇 미사일의 우크라 현지생산 허가할 것\"",
       "link": "https://www.hankyung.com/article/2026070839247",
       "source": "한국경제",
@@ -92,6 +124,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "트럼프 \" 아마도 오늘밤, 이란 강하게 타격\"...휴전 무산 우려 커졌다",
+      "link": "https://www.mt.co.kr/world/2026/07/08/2026070822112987129",
+      "source": "머니투데이",
+      "ts": 1783517595000,
+      "pub": "Wed, 08 Jul 2026 22:33:15 +0900",
+      "sentiment": "negative"
+    },
+    {
       "title": "[속보] 트럼프 \"대이란 해상봉쇄 재개할 수 있다\"",
       "link": "https://www.yna.co.kr/view/AKR20260708185900071",
       "source": "연합뉴스 국제",
@@ -100,11 +140,27 @@
       "sentiment": "neutral"
     },
     {
+      "title": "[속보]트럼프 \"아마 오늘 밤 이란 또 타격할 것\"",
+      "link": "https://www.mt.co.kr/world/2026/07/08/2026070822100041109",
+      "source": "머니투데이",
+      "ts": 1783516320000,
+      "pub": "Wed, 08 Jul 2026 22:12:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "트럼프, 이틀연속 대이란 공습 예고…\"아마 오늘밤 다시 공격\"",
       "link": "https://www.yna.co.kr/view/AKR20260708184400071",
       "source": "연합뉴스 국제",
       "ts": 1783516280000,
       "pub": "Wed, 8 Jul 2026 22:11:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李대통령, 잇단 NATO 정상외교 '종횡무진'…젤렌스키와 첫 양자회담",
+      "link": "https://www.mt.co.kr/politics/2026/07/08/2026070818551424802",
+      "source": "머니투데이",
+      "ts": 1783515897000,
+      "pub": "Wed, 08 Jul 2026 22:04:57 +0900",
       "sentiment": "neutral"
     },
     {
@@ -156,7 +212,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"종전 합의 끝나…이란 상대는 시간 낭비\"",
+      "title": "트럼프 \"종전 합의 끝나…이란 강하게 타격할 것\"",
       "link": "https://www.hankyung.com/article/2026070838251",
       "source": "한국경제",
       "ts": 1783507440000,
@@ -257,14 +313,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783478739000,
       "pub": "Wed, 8 Jul 2026 11:45:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "나토총장 \"美 과잉의존 안돼\"…트럼프 짐짓 옹호하며 자립 박차",
-      "link": "https://www.yna.co.kr/view/AKR20260708065400009",
-      "source": "연합뉴스 국제",
-      "ts": 1783477049000,
-      "pub": "Wed, 8 Jul 2026 11:17:29 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-08T07:24:47.697Z",
-  "count": 16,
+  "updated_at": "2026-07-08T10:05:23.324Z",
+  "count": 15,
   "items": [
+    {
+      "title": "[포토] '국민주' 삼성전자·SK하이닉스 휘청…코스피 7200선 간신히 사수",
+      "link": "https://www.hankyung.com/article/202607083755i",
+      "source": "한국경제",
+      "ts": 1783503190000,
+      "pub": "Wed, 08 Jul 2026 18:33:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[포토] 美 선밸리 모인 빅테크…AI반도체 공급망 논의",
+      "link": "https://www.hankyung.com/article/2026070836251",
+      "source": "한국경제",
+      "ts": 1783502418000,
+      "pub": "Wed, 08 Jul 2026 18:20:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] SK하이닉스, 애프터마켓서 200만원 붕괴",
+      "link": "https://www.hankyung.com/article/2026070837387",
+      "source": "한국경제",
+      "ts": 1783502118000,
+      "pub": "Wed, 08 Jul 2026 18:15:18 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'연일 급락 반도체' 코스피 고점 지났나?…엇갈리는 시선들(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260708086551008",
@@ -26,30 +50,6 @@
       "ts": 1783493673000,
       "pub": "Wed, 8 Jul 2026 15:54:33 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "[속보]코스피·코스닥, 5%대 하락 마감…삼전 6.25%↓ 하이닉스 5.68%↓",
-      "link": "https://www.hankyung.com/article/2026070831636",
-      "source": "한국경제",
-      "ts": 1783492694000,
-      "pub": "Wed, 08 Jul 2026 15:38:14 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "與안도걸 \"올 초과세수 최대 55조…반도체 재투자 위해 국가재정법 손봐야\"",
-      "link": "https://www.hankyung.com/article/202607082894i",
-      "source": "한국경제",
-      "ts": 1783490850000,
-      "pub": "Wed, 08 Jul 2026 15:07:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI 반도체 최대 난제는 '열'…정부가 꺼내든 꿈의 소재",
-      "link": "https://www.hankyung.com/article/202607082999i",
-      "source": "한국경제",
-      "ts": 1783490201000,
-      "pub": "Wed, 08 Jul 2026 14:56:41 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "중국 AI 칩 '脫엔비디아'…화웨이, 엔비디아 제쳤다",
@@ -121,14 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783459251000,
       "pub": "Wed, 8 Jul 2026 06:20:51 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "뉴욕증시, 반도체주 급락·유가 급등에 일제히 하락",
-      "link": "https://www.yna.co.kr/view/AKR20260708007300072",
-      "source": "연합뉴스 국제",
-      "ts": 1783454999000,
-      "pub": "Wed, 8 Jul 2026 05:09:59 +0900",
       "sentiment": "negative"
     }
   ]

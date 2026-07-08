@@ -1,22 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-08T07:24:47.697Z",
+  "updated_at": "2026-07-08T10:05:23.323Z",
   "count": 5,
   "items": [
+    {
+      "title": "[포토] '국민주' 삼성전자·SK하이닉스 휘청…코스피 7200선 간신히 사수",
+      "link": "https://www.hankyung.com/article/202607083755i",
+      "source": "한국경제",
+      "ts": 1783503190000,
+      "pub": "Wed, 08 Jul 2026 18:33:10 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[특징주] 삼성전자, 6.3% 급락 마감…SK하이닉스도 5.7%↓(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260708047251008",
       "source": "연합뉴스 경제",
       "ts": 1783493673000,
       "pub": "Wed, 8 Jul 2026 15:54:33 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[속보]코스피·코스닥, 5%대 하락 마감…삼전 6.25%↓ 하이닉스 5.68%↓",
-      "link": "https://www.hankyung.com/article/2026070831636",
-      "source": "한국경제",
-      "ts": 1783492694000,
-      "pub": "Wed, 08 Jul 2026 15:38:14 +0900",
       "sentiment": "negative"
     },
     {

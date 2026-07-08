@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-08T07:24:47.696Z",
+  "updated_at": "2026-07-08T10:05:23.322Z",
   "count": 11,
   "items": [
+    {
+      "title": "\"종전 MOU 끝난 듯\" 트럼프 발언에…국제유가 5.8% 급등",
+      "link": "https://www.yna.co.kr/view/AKR20260708166800085",
+      "source": "연합뉴스 국제",
+      "ts": 1783501445000,
+      "pub": "Wed, 8 Jul 2026 18:04:05 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "트럼프 \"이란과 종전 MOU 끝난 것 같다…거래는 시간 낭비\"",
+      "link": "https://www.yna.co.kr/view/AKR20260708159651108",
+      "source": "연합뉴스 국제",
+      "ts": 1783500495000,
+      "pub": "Wed, 8 Jul 2026 17:48:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"이란과 종전 MOU 끝난 것 같다…협상 원치 않아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260708159600108",
+      "source": "연합뉴스 국제",
+      "ts": 1783498872000,
+      "pub": "Wed, 8 Jul 2026 17:21:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중간선거 앞둔 트럼프, '공산주의 위협' 냉전시대식 이념 공세",
+      "link": "https://www.yna.co.kr/view/AKR20260708146800009",
+      "source": "연합뉴스 국제",
+      "ts": 1783496043000,
+      "pub": "Wed, 8 Jul 2026 16:34:03 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "레바논 대통령, 미국서 트럼프 대통령과 21일 회동",
       "link": "https://www.yna.co.kr/view/AKR20260708133200009",
@@ -36,14 +68,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'고환율 부담' 수입 중소기업, 최대 1년 관세 납부 연장",
-      "link": "https://www.yna.co.kr/view/AKR20260708062200002",
-      "source": "연합뉴스 경제",
-      "ts": 1783472669000,
-      "pub": "Wed, 8 Jul 2026 10:04:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, 멜로니 \"멋진 사람\" 화해 손짓…이란전 \"안도왔다\" 뒤끝",
       "link": "https://www.yna.co.kr/view/AKR20260708030900009",
       "source": "연합뉴스 국제",
@@ -66,30 +90,6 @@
       "ts": 1783460905000,
       "pub": "Wed, 8 Jul 2026 06:48:25 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "그린란드 또 소환한 트럼프 \"우리가 통제해야\"…덴마크 반발",
-      "link": "https://www.yna.co.kr/view/AKR20260708006600098",
-      "source": "연합뉴스 국제",
-      "ts": 1783453300000,
-      "pub": "Wed, 8 Jul 2026 04:41:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "네타냐후, '트럼프와 밀착' 에르도안에 \"필요할 때만 美에 미소\"",
-      "link": "https://www.yna.co.kr/view/AKR20260708006200071",
-      "source": "연합뉴스 국제",
-      "ts": 1783453293000,
-      "pub": "Wed, 8 Jul 2026 04:41:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "韓정부, 美USTR에 \"'강제노동 관세' 근거 부족…재고돼야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260708003500071",
-      "source": "연합뉴스 국제",
-      "ts": 1783449308000,
-      "pub": "Wed, 8 Jul 2026 03:35:08 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-09T08:22:53.417Z",
+  "updated_at": "2026-07-09T11:48:41.978Z",
   "count": 20,
   "items": [
+    {
+      "title": "트럼프 \"유럽 미군 철수, 그린란드에 달려\"…유럽 다시 긴장",
+      "link": "https://www.yna.co.kr/view/AKR20260709196100098",
+      "source": "연합뉴스 국제",
+      "ts": 1783596835000,
+      "pub": "Thu, 9 Jul 2026 20:33:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프가 약속 깬 토마호크…독일, 결국 돈주고 산다",
+      "link": "https://www.yna.co.kr/view/AKR20260709189300082",
+      "source": "연합뉴스 국제",
+      "ts": 1783591692000,
+      "pub": "Thu, 9 Jul 2026 19:08:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "폴란드와 역사갈등…우크라 EU 가입 발목 잡나",
+      "link": "https://www.yna.co.kr/view/AKR20260709180300082",
+      "source": "연합뉴스 국제",
+      "ts": 1783587705000,
+      "pub": "Thu, 9 Jul 2026 18:01:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"미국 무역적자, 기축통화 탓 아냐\"…무너진 트럼프의 논리",
+      "link": "https://www.hankyung.com/article/2026070963311",
+      "source": "한국경제",
+      "ts": 1783587434000,
+      "pub": "Thu, 09 Jul 2026 17:57:14 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "120조원 지원 확보한 젤렌스키…나토회의서 달라진 위상",
+      "link": "https://www.yna.co.kr/view/AKR20260709172200109",
+      "source": "연합뉴스 국제",
+      "ts": 1783586229000,
+      "pub": "Thu, 9 Jul 2026 17:37:09 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "우크라의 에너지 집중 타격에 비상 걸린 러…경유 수출도 금지",
       "link": "https://www.yna.co.kr/view/AKR20260709171100108",
@@ -122,46 +162,6 @@
       "ts": 1783557744000,
       "pub": "Thu, 9 Jul 2026 09:42:24 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "트럼프, 美 출생시민권 유지한 대법원에 \"재심리 요청할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709024300071",
-      "source": "연합뉴스 국제",
-      "ts": 1783550194000,
-      "pub": "Thu, 9 Jul 2026 07:36:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 이란공습 영상 올리며 \"또 선박공격시 더 심하게 당할것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709018800071",
-      "source": "연합뉴스 국제",
-      "ts": 1783548783000,
-      "pub": "Thu, 9 Jul 2026 07:13:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"다시 강력 공격\" 트럼프 예고대로…미군, 연이틀 이란 공습(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260709010851071",
-      "source": "연합뉴스 국제",
-      "ts": 1783545604000,
-      "pub": "Thu, 9 Jul 2026 06:20:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "6월 FOMC 의사록 \"몇몇 위원, 금리인상 검토 언급\"…인플레 경계",
-      "link": "https://www.yna.co.kr/view/AKR20260709007100072",
-      "source": "연합뉴스 국제",
-      "ts": 1783538871000,
-      "pub": "Thu, 9 Jul 2026 04:27:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 시리아 '테러지원국' 지정도 철회나서…관계정상화 속도",
-      "link": "https://www.yna.co.kr/view/AKR20260709006800071",
-      "source": "연합뉴스 국제",
-      "ts": 1783537918000,
-      "pub": "Thu, 9 Jul 2026 04:11:58 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

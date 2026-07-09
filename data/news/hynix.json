@@ -1,22 +1,70 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-09T08:22:53.418Z",
-  "count": 11,
+  "updated_at": "2026-07-09T11:48:41.979Z",
+  "count": 15,
   "items": [
+    {
+      "title": "218만원 SK하이닉스에 '목표가 185만원' 제시한 증권사",
+      "link": "https://www.hankyung.com/article/2026070965207",
+      "source": "한국경제",
+      "ts": 1783594122000,
+      "pub": "Thu, 09 Jul 2026 19:48:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'SK하이닉스 200만원 넘는데'…BNK증권, 목표가 185만원 제시",
+      "link": "https://www.yna.co.kr/view/AKR20260709189600008",
+      "source": "연합뉴스 경제",
+      "ts": 1783591566000,
+      "pub": "Thu, 9 Jul 2026 19:06:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "국힘 \"호남 반도체, 제때 전력 공급 어려워…대통령 정치적 이익 위한 결정\"",
+      "link": "https://www.hankyung.com/article/202607095908i",
+      "source": "한국경제",
+      "ts": 1783590080000,
+      "pub": "Thu, 09 Jul 2026 18:41:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정부, 동복댐 국가 소유 전환 검토…호남 반도체 용수 확보 속도",
+      "link": "https://www.hankyung.com/article/2026070964417",
+      "source": "한국경제",
+      "ts": 1783589728000,
+      "pub": "Thu, 09 Jul 2026 18:35:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'엔비디아 대항마' 세레브라스 \"유럽에 수조원대 투자\"",
+      "link": "https://www.yna.co.kr/view/AKR20260709187500009",
+      "source": "연합뉴스 국제",
+      "ts": 1783589505000,
+      "pub": "Thu, 9 Jul 2026 18:31:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[단독] 삼성전자, PC용 AI칩 출사표…엔비디아·퀄컴과 '맞짱'",
+      "link": "https://www.hankyung.com/article/2026070963411",
+      "source": "한국경제",
+      "ts": 1783587573000,
+      "pub": "Thu, 09 Jul 2026 17:59:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'반도체 부지' 인근 토지거래허가구역 지정에 기대반 우려반",
+      "link": "https://www.yna.co.kr/view/AKR20260709175600054",
+      "source": "연합뉴스 경제",
+      "ts": 1783585889000,
+      "pub": "Thu, 9 Jul 2026 17:31:29 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "'ADR상장 D-1' SK하이닉스, 티커는 'SKHY'…\"본주 재평가 기대\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260709071751008",
       "source": "연합뉴스 경제",
       "ts": 1783582941000,
       "pub": "Thu, 9 Jul 2026 16:42:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 반도체클러스터 광주 군공항 인근 토허구역 지정",
-      "link": "https://www.hankyung.com/article/2026070960287",
-      "source": "한국경제",
-      "ts": 1783582489000,
-      "pub": "Thu, 09 Jul 2026 16:34:49 +0900",
       "sentiment": "neutral"
     },
     {
@@ -33,14 +81,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783580127000,
       "pub": "Thu, 9 Jul 2026 15:55:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "월가 큰손들 '260조' 베팅…나스닥 잭팟에 하이닉스 주가 급반등",
-      "link": "https://www.hankyung.com/article/202607094625i",
-      "source": "한국경제",
-      "ts": 1783580095000,
-      "pub": "Thu, 09 Jul 2026 15:54:55 +0900",
       "sentiment": "neutral"
     },
     {
@@ -81,14 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783561598000,
       "pub": "Thu, 9 Jul 2026 10:46:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "골드만삭스 \"AI발 실적잔치 막바지…반도체 쏠림 과했다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709017500009",
-      "source": "연합뉴스 국제",
-      "ts": 1783547589000,
-      "pub": "Thu, 9 Jul 2026 06:53:09 +0900",
       "sentiment": "neutral"
     }
   ]

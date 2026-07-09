@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-09T17:11:05.423Z",
+  "updated_at": "2026-07-09T19:19:18.899Z",
   "count": 16,
   "items": [
+    {
+      "title": "하이닉스 美상장 하루 앞두고…마이크론 \"미국 내 375조원 투자\"",
+      "link": "https://www.yna.co.kr/view/AKR20260710002500091",
+      "source": "연합뉴스 국제",
+      "ts": 1783617628000,
+      "pub": "Fri, 10 Jul 2026 02:20:28 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"SK하이닉스 ADR 공모가 주당 149달러 제시…40조원 조달 추진\"",
       "link": "https://www.yna.co.kr/view/AKR20260709202200072",
@@ -121,14 +129,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783564498000,
       "pub": "Thu, 9 Jul 2026 11:34:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "日라피더스, TSMC에 가격 도전장…\"같거나 낮게 책정\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709080400073",
-      "source": "연합뉴스 국제",
-      "ts": 1783561598000,
-      "pub": "Thu, 9 Jul 2026 10:46:38 +0900",
       "sentiment": "neutral"
     }
   ]

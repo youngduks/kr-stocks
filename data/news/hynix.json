@@ -1,8 +1,72 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-09T21:10:45.763Z",
-  "count": 18,
+  "updated_at": "2026-07-09T23:01:11.469Z",
+  "count": 23,
   "items": [
+    {
+      "title": "SK하이닉스·마이크론이 중동 불안 이겨냈다…나스닥 1.3%↑ [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026071067946",
+      "source": "한국경제",
+      "ts": 1783636630000,
+      "pub": "Fri, 10 Jul 2026 07:37:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 \"ADR 공모가 149달러\"…외국기업 美 IPO 사상 최대",
+      "link": "https://www.yna.co.kr/view/AKR20260710015400072",
+      "source": "연합뉴스 국제",
+      "ts": 1783635727000,
+      "pub": "Fri, 10 Jul 2026 07:22:07 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "SK하이닉스 \"ADR 공모가 149달러\"…외국기업 美IPO 사상 최대",
+      "link": "https://www.hankyung.com/article/2026071067797",
+      "source": "한국경제",
+      "ts": 1783635252000,
+      "pub": "Fri, 10 Jul 2026 07:14:12 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[속보] SK하이닉스 \"ADR 공모가 주당 149달러 확정\"",
+      "link": "https://www.yna.co.kr/view/AKR20260710014200072",
+      "source": "연합뉴스 국제",
+      "ts": 1783634769000,
+      "pub": "Fri, 10 Jul 2026 07:06:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 ADR 공모가 149달러 확정…40조원 조달 눈앞",
+      "link": "https://www.hankyung.com/article/2026071067507",
+      "source": "한국경제",
+      "ts": 1783633708000,
+      "pub": "Fri, 10 Jul 2026 06:48:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"SK하이닉스 ADR 공모가 주당 149달러 확정\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260709202251072",
+      "source": "연합뉴스 국제",
+      "ts": 1783632712000,
+      "pub": "Fri, 10 Jul 2026 06:31:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美상무장관, 마이크론 행사서 \"삼성·하이닉스 美생산확대\" 촉구(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260710002551091",
+      "source": "연합뉴스 국제",
+      "ts": 1783632519000,
+      "pub": "Fri, 10 Jul 2026 06:28:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"37조 실탄 쥔다\"…SK하이닉스, 오늘 나스닥 상장",
+      "link": "https://www.hankyung.com/article/2026071067237",
+      "source": "한국경제",
+      "ts": 1783632061000,
+      "pub": "Fri, 10 Jul 2026 06:21:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "중동 불안에도 뉴욕증시 상승…반도체 랠리에 나스닥 1.3%↑(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260710005951072",
@@ -44,35 +108,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "218만원 SK하이닉스에 '목표가 185만원' 제시한 증권사",
-      "link": "https://www.hankyung.com/article/2026070965207",
-      "source": "한국경제",
-      "ts": 1783594122000,
-      "pub": "Thu, 09 Jul 2026 19:48:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "'SK하이닉스 200만원 넘는데'…BNK증권, 목표가 185만원 제시",
       "link": "https://www.yna.co.kr/view/AKR20260709189600008",
       "source": "연합뉴스 경제",
       "ts": 1783591566000,
       "pub": "Thu, 9 Jul 2026 19:06:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "국힘 \"호남 반도체, 제때 전력 공급 어려워…대통령 정치적 이익 위한 결정\"",
-      "link": "https://www.hankyung.com/article/202607095908i",
-      "source": "한국경제",
-      "ts": 1783590080000,
-      "pub": "Thu, 09 Jul 2026 18:41:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "정부, 동복댐 국가 소유 전환 검토…호남 반도체 용수 확보 속도",
-      "link": "https://www.hankyung.com/article/2026070964417",
-      "source": "한국경제",
-      "ts": 1783589728000,
-      "pub": "Thu, 09 Jul 2026 18:35:28 +0900",
       "sentiment": "neutral"
     },
     {

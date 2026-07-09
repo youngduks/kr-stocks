@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-09T11:48:41.979Z",
-  "count": 15,
+  "updated_at": "2026-07-09T14:27:11.005Z",
+  "count": 16,
   "items": [
+    {
+      "title": "\"SK하이닉스 ADR 공모가 주당 149달러 제시…40조원 조달 추진\"",
+      "link": "https://www.yna.co.kr/view/AKR20260709202200072",
+      "source": "연합뉴스 국제",
+      "ts": 1783606953000,
+      "pub": "Thu, 9 Jul 2026 23:22:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 반도체주 강세에 상승 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260709201600009",
+      "source": "연합뉴스 국제",
+      "ts": 1783605720000,
+      "pub": "Thu, 9 Jul 2026 23:02:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "218만원 SK하이닉스에 '목표가 185만원' 제시한 증권사",
       "link": "https://www.hankyung.com/article/2026070965207",
@@ -41,14 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783589505000,
       "pub": "Thu, 9 Jul 2026 18:31:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[단독] 삼성전자, PC용 AI칩 출사표…엔비디아·퀄컴과 '맞짱'",
-      "link": "https://www.hankyung.com/article/2026070963411",
-      "source": "한국경제",
-      "ts": 1783587573000,
-      "pub": "Thu, 09 Jul 2026 17:59:33 +0900",
       "sentiment": "neutral"
     },
     {

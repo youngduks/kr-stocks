@@ -1,22 +1,46 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-09T00:09:59.058Z",
-  "count": 12,
+  "updated_at": "2026-07-09T04:40:46.351Z",
+  "count": 8,
   "items": [
     {
-      "title": "하이닉스보다 더 뛰었다…AI 반도체 '불량 잡는 장비주' 뭐길래",
-      "link": "https://www.hankyung.com/article/202607083702i",
-      "source": "한국경제",
-      "ts": 1783553169000,
-      "pub": "Thu, 09 Jul 2026 08:26:09 +0900",
+      "title": "미래운용 \"中 반도체 자립 현실화, 中 밸류체인 투자할 때\"",
+      "link": "https://www.yna.co.kr/view/AKR20260709100400008",
+      "source": "연합뉴스 경제",
+      "ts": 1783564498000,
+      "pub": "Thu, 9 Jul 2026 11:34:58 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "애플, 브로드컴과 300억달러 반도체 계약…미국 생산 확대",
-      "link": "https://www.hankyung.com/article/202607094236i",
+      "title": "日라피더스 \"TSMC보다 싸게\"…가격으로 반도체 재건 승부수",
+      "link": "https://www.hankyung.com/article/202607095113i",
       "source": "한국경제",
-      "ts": 1783552750000,
-      "pub": "Thu, 09 Jul 2026 08:19:10 +0900",
+      "ts": 1783564334000,
+      "pub": "Thu, 09 Jul 2026 11:32:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "日라피더스, TSMC에 가격 도전장…\"같거나 낮게 책정\"",
+      "link": "https://www.yna.co.kr/view/AKR20260709080400073",
+      "source": "연합뉴스 국제",
+      "ts": 1783561598000,
+      "pub": "Thu, 9 Jul 2026 10:46:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "KB증권 \"SK하이닉스 ADR 상장, TSMC 사례처럼 재평가 기대\"",
+      "link": "https://www.yna.co.kr/view/AKR20260709071700008",
+      "source": "연합뉴스 경제",
+      "ts": 1783559822000,
+      "pub": "Thu, 9 Jul 2026 10:17:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] '반도체 장비공급계약' 레이저쎌 10%대↑…코스닥 '소부장' 반등",
+      "link": "https://www.yna.co.kr/view/AKR20260709057600008",
+      "source": "연합뉴스 경제",
+      "ts": 1783557694000,
+      "pub": "Thu, 9 Jul 2026 09:41:34 +0900",
       "sentiment": "neutral"
     },
     {
@@ -26,22 +50,6 @@
       "ts": 1783552323000,
       "pub": "Thu, 9 Jul 2026 08:12:03 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "\"SK하이닉스 ADR 상장…TSMC 사례처럼 밸류 재평가 기회\"-KB",
-      "link": "https://www.hankyung.com/article/2026070941476",
-      "source": "한국경제",
-      "ts": 1783551434000,
-      "pub": "Thu, 09 Jul 2026 07:57:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"전쟁 재개 아냐\"…'허쉬보다 싼 엔비디아', 반도체 지지선 도달? [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202607094125i",
-      "source": "한국경제",
-      "ts": 1783551269000,
-      "pub": "Thu, 09 Jul 2026 07:54:29 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "골드만삭스 \"AI발 실적잔치 막바지…반도체 쏠림 과했다\"",
@@ -58,46 +66,6 @@
       "ts": 1783536083000,
       "pub": "Thu, 9 Jul 2026 03:41:23 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"中, 자국 AI기업들에 엔비디아 H200칩 구매 허용\" [인포메이션]",
-      "link": "https://www.hankyung.com/article/202607093950i",
-      "source": "한국경제",
-      "ts": 1783525486000,
-      "pub": "Thu, 09 Jul 2026 00:44:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'연일 급락 반도체' 코스피 고점 지났나?…엇갈리는 시선들(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260708086551008",
-      "source": "연합뉴스 경제",
-      "ts": 1783494904000,
-      "pub": "Wed, 8 Jul 2026 16:15:04 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "中-네덜란드 통상장관 베이징서 회동…'반도체 마찰' 등 논의",
-      "link": "https://www.yna.co.kr/view/AKR20260708132800083",
-      "source": "연합뉴스 국제",
-      "ts": 1783494551000,
-      "pub": "Wed, 8 Jul 2026 16:09:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼성전자, 6.3% 급락 마감…SK하이닉스도 5.7%↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260708047251008",
-      "source": "연합뉴스 경제",
-      "ts": 1783493673000,
-      "pub": "Wed, 8 Jul 2026 15:54:33 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "글로벌 비메모리 반도체 2곳, 마진율 강제…최대 1천억대 과징금",
-      "link": "https://www.yna.co.kr/view/AKR20260708051800002",
-      "source": "연합뉴스 경제",
-      "ts": 1783479606000,
-      "pub": "Wed, 8 Jul 2026 12:00:06 +0900",
-      "sentiment": "negative"
     }
   ]
 }

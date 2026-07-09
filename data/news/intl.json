@@ -1,63 +1,79 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-09T00:09:59.056Z",
-  "count": 38,
+  "updated_at": "2026-07-09T04:40:46.349Z",
+  "count": 28,
   "items": [
     {
-      "title": "美, 우크라 패트리엇 자체 생산 승인…방공전략 전환점",
-      "link": "https://www.hankyung.com/article/202607094276i",
-      "source": "한국경제",
-      "ts": 1783553508000,
-      "pub": "Thu, 09 Jul 2026 08:31:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "매파 Fed에 금값 눈높이 낮춘 BofA…\"긴축 종료 후 5000달러\"",
-      "link": "https://www.hankyung.com/article/202607094142i",
-      "source": "한국경제",
-      "ts": 1783553322000,
-      "pub": "Thu, 09 Jul 2026 08:28:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美-이란, 이틀째 교전…트럼프 \"전쟁 다시 시작될 것 같지 않다\" [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202607094144i",
-      "source": "한국경제",
-      "ts": 1783551872000,
-      "pub": "Thu, 09 Jul 2026 08:04:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[외신 에스프레소] 트럼프 \"이란 휴전 끝났다\"…추가 공습 경고에 국제유가 8% 급등",
-      "link": "https://www.hankyung.com/article/202607094145i",
-      "source": "한국경제",
-      "ts": 1783551335000,
-      "pub": "Thu, 09 Jul 2026 07:55:35 +0900",
+      "title": "나토 귀국길에 전용기 갈아탄 트럼프…이란 암살시도 우려했나(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260709057051071",
+      "source": "연합뉴스 국제",
+      "ts": 1783563526000,
+      "pub": "Thu, 9 Jul 2026 11:18:46 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "트럼프 \"전쟁 재개 아냐\"…'허쉬보다 싼 엔비디아', 반도체 지지선 도달? [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202607094125i",
-      "source": "한국경제",
-      "ts": 1783551269000,
-      "pub": "Thu, 09 Jul 2026 07:54:29 +0900",
+      "title": "나토정상회의, '트럼프 격분' 위기에도 '결속 메시지'로 봉합",
+      "link": "https://www.yna.co.kr/view/AKR20260709082900009",
+      "source": "연합뉴스 국제",
+      "ts": 1783562903000,
+      "pub": "Thu, 9 Jul 2026 11:08:23 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'패트리어트 생산면허' 선물받은 우크라…\"전선 배치까진 수년\"",
+      "link": "https://www.yna.co.kr/view/AKR20260709089100009",
+      "source": "연합뉴스 국제",
+      "ts": 1783562470000,
+      "pub": "Thu, 9 Jul 2026 11:01:10 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "이란 외무장관, 트럼프 비난에 \"저속한 도발엔 행동으로 응수\"",
-      "link": "https://www.hankyung.com/article/2026070941357",
-      "source": "한국경제",
-      "ts": 1783550924000,
-      "pub": "Thu, 09 Jul 2026 07:48:44 +0900",
+      "title": "\"일본이슬람공화국이 미사일 공격\"…트럼프 또 잇단 말실수",
+      "link": "https://www.yna.co.kr/view/AKR20260709083100009",
+      "source": "연합뉴스 국제",
+      "ts": 1783561647000,
+      "pub": "Thu, 9 Jul 2026 10:47:27 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 또 입방정…\"日 이슬람공화국이 미사일 발사\" [도쿄나우]",
-      "link": "https://www.hankyung.com/article/202607094124i",
-      "source": "한국경제",
-      "ts": 1783550871000,
-      "pub": "Thu, 09 Jul 2026 07:47:51 +0900",
+      "title": "전쟁과 대화 사이 길잃은 트럼프…\"이란 오판했다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260709079400009",
+      "source": "연합뉴스 국제",
+      "ts": 1783561297000,
+      "pub": "Thu, 9 Jul 2026 10:41:37 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"너무 핫해\" 외모 칭찬에…니키 미나즈 \"난 백악관 바비\"",
+      "link": "https://www.hankyung.com/article/202607094748H",
+      "source": "한국경제",
+      "ts": 1783559731000,
+      "pub": "Thu, 09 Jul 2026 10:15:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美·이란 '보복 악순환'…\"원인은 '핵무기급' 호르무즈 통제권\"",
+      "link": "https://www.yna.co.kr/view/AKR20260709052600009",
+      "source": "연합뉴스 국제",
+      "ts": 1783558952000,
+      "pub": "Thu, 9 Jul 2026 10:02:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "나토 마친 트럼프, 귀국길 전용기 갈아타…이란 암살시도 우려?",
+      "link": "https://www.yna.co.kr/view/AKR20260709057000071",
+      "source": "연합뉴스 국제",
+      "ts": 1783557744000,
+      "pub": "Thu, 9 Jul 2026 09:42:24 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "인삼 수출 상반기 33% 감소…aT, 비관세장벽 대응·신시장 개척",
+      "link": "https://www.yna.co.kr/view/AKR20260709038800030",
+      "source": "연합뉴스 경제",
+      "ts": 1783556289000,
+      "pub": "Thu, 9 Jul 2026 09:18:09 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "트럼프, 美 출생시민권 유지한 대법원에 \"재심리 요청할 것\"",
@@ -73,14 +89,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783548783000,
       "pub": "Thu, 9 Jul 2026 07:13:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "FOMC 의사록서 금리 인상론…AI 투자도 물가 변수",
-      "link": "https://www.hankyung.com/article/2026070940887",
-      "source": "한국경제",
-      "ts": 1783548598000,
-      "pub": "Thu, 09 Jul 2026 07:09:58 +0900",
       "sentiment": "neutral"
     },
     {
@@ -180,14 +188,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"패트리엇 미사일의 우크라 현지생산 허가할 것\"",
-      "link": "https://www.hankyung.com/article/2026070839247",
-      "source": "한국경제",
-      "ts": 1783519101000,
-      "pub": "Wed, 08 Jul 2026 22:58:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"우크라에 패트리엇 요격미사일 생산 허가하겠다\"",
       "link": "https://www.yna.co.kr/view/AKR20260708186600071",
       "source": "연합뉴스 국제",
@@ -225,86 +225,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783515624000,
       "pub": "Wed, 8 Jul 2026 22:00:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 나토 또 성토…그린란드 언급·스페인 '무역단절' 선언",
-      "link": "https://www.yna.co.kr/view/AKR20260708181900009",
-      "source": "연합뉴스 국제",
-      "ts": 1783513069000,
-      "pub": "Wed, 8 Jul 2026 21:17:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"종전 MOU 끝난듯\" 트럼프 폭탄발언에…유가 뛰고 국채금리도 상승(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260708166851085",
-      "source": "연합뉴스 국제",
-      "ts": 1783508337000,
-      "pub": "Wed, 8 Jul 2026 19:58:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"지긋지긋\" 트럼프 인내심 바닥…협상판 뒤엎나",
-      "link": "https://www.yna.co.kr/view/AKR20260708173700079",
-      "source": "연합뉴스 국제",
-      "ts": 1783507988000,
-      "pub": "Wed, 8 Jul 2026 19:53:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"종전 MOU 끝난 듯\"…이란 향해 \"쓰레기\" 맹비난(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260708159652108",
-      "source": "연합뉴스 국제",
-      "ts": 1783506298000,
-      "pub": "Wed, 8 Jul 2026 19:24:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"종전 MOU 끝난 듯\" 트럼프 발언에…국제유가 5.8% 급등",
-      "link": "https://www.yna.co.kr/view/AKR20260708166800085",
-      "source": "연합뉴스 국제",
-      "ts": 1783501445000,
-      "pub": "Wed, 8 Jul 2026 18:04:05 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "트럼프 \"이란과 종전 MOU 끝난 것 같다…거래는 시간 낭비\"",
-      "link": "https://www.yna.co.kr/view/AKR20260708159651108",
-      "source": "연합뉴스 국제",
-      "ts": 1783500495000,
-      "pub": "Wed, 8 Jul 2026 17:48:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란과 종전 MOU 끝난 것 같다…협상 원치 않아\"",
-      "link": "https://www.yna.co.kr/view/AKR20260708159600108",
-      "source": "연합뉴스 국제",
-      "ts": 1783498872000,
-      "pub": "Wed, 8 Jul 2026 17:21:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "중간선거 앞둔 트럼프, '공산주의 위협' 냉전시대식 이념 공세",
-      "link": "https://www.yna.co.kr/view/AKR20260708146800009",
-      "source": "연합뉴스 국제",
-      "ts": 1783496043000,
-      "pub": "Wed, 8 Jul 2026 16:34:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "레바논 대통령, 미국서 트럼프 대통령과 21일 회동",
-      "link": "https://www.yna.co.kr/view/AKR20260708133200009",
-      "source": "연합뉴스 국제",
-      "ts": 1783493458000,
-      "pub": "Wed, 8 Jul 2026 15:50:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한국, 미국 글로벌 관세 만료 이후 최대 12.5% 관세 부과 전망",
-      "link": "https://www.yna.co.kr/view/AKR20260708091400003",
-      "source": "연합뉴스 경제",
-      "ts": 1783486796000,
-      "pub": "Wed, 8 Jul 2026 13:59:56 +0900",
       "sentiment": "neutral"
     }
   ]

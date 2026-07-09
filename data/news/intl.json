@@ -1,8 +1,64 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-09T19:19:18.897Z",
-  "count": 23,
+  "updated_at": "2026-07-09T21:10:45.761Z",
+  "count": 27,
   "items": [
+    {
+      "title": "美, 트럭 배출가스 규제 완화…'바이든표 환경정책' 되돌리기",
+      "link": "https://www.yna.co.kr/view/AKR20260710007900071",
+      "source": "연합뉴스 국제",
+      "ts": 1783630681000,
+      "pub": "Fri, 10 Jul 2026 05:58:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美국무부, 정통망법 시행에 \"과도한 콘텐츠 규제될 수있어 우려\"",
+      "link": "https://www.yna.co.kr/view/AKR20260710006400071",
+      "source": "연합뉴스 국제",
+      "ts": 1783629285000,
+      "pub": "Fri, 10 Jul 2026 05:34:45 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "앤트로픽, '노벨상' 버냉키 前연준의장 독립 지배기구 위원 위촉",
+      "link": "https://www.yna.co.kr/view/AKR20260710006200091",
+      "source": "연합뉴스 국제",
+      "ts": 1783628594000,
+      "pub": "Fri, 10 Jul 2026 05:23:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "네타냐후·트럼프 전화 통화…\"양국 공조 지속 합의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260710006100079",
+      "source": "연합뉴스 국제",
+      "ts": 1783628510000,
+      "pub": "Fri, 10 Jul 2026 05:21:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美연준, 정책 검토 5대 TF 출범…맨큐 등 외부 전문가 수혈",
+      "link": "https://www.yna.co.kr/view/AKR20260710005700072",
+      "source": "연합뉴스 국제",
+      "ts": 1783627750000,
+      "pub": "Fri, 10 Jul 2026 05:09:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 매체 \"부셰르 외곽 군기지, 미·이스라엘 발사체에 피격\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260710004151079",
+      "source": "연합뉴스 국제",
+      "ts": 1783626597000,
+      "pub": "Fri, 10 Jul 2026 04:49:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정부, 美 '301조 공청회' 출석…\"강제노동 12.5% 관세는 부당\"",
+      "link": "https://www.yna.co.kr/view/AKR20260710005000071",
+      "source": "연합뉴스 국제",
+      "ts": 1783625691000,
+      "pub": "Fri, 10 Jul 2026 04:34:51 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이스라엘 국방 \"대이란 작전 재개 준비돼…필요시 3번째 공습도\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260710001051079",
@@ -161,30 +217,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783576216000,
       "pub": "Thu, 9 Jul 2026 14:50:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "나토 귀국길에 전용기 갈아탄 트럼프…이란 암살시도 우려했나(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260709057051071",
-      "source": "연합뉴스 국제",
-      "ts": 1783563526000,
-      "pub": "Thu, 9 Jul 2026 11:18:46 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "나토정상회의, '트럼프 격분' 위기에도 '결속 메시지'로 봉합",
-      "link": "https://www.yna.co.kr/view/AKR20260709082900009",
-      "source": "연합뉴스 국제",
-      "ts": 1783562903000,
-      "pub": "Thu, 9 Jul 2026 11:08:23 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'패트리어트 생산면허' 선물받은 우크라…\"전선 배치까진 수년\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709089100009",
-      "source": "연합뉴스 국제",
-      "ts": 1783562470000,
-      "pub": "Thu, 9 Jul 2026 11:01:10 +0900",
       "sentiment": "neutral"
     }
   ]

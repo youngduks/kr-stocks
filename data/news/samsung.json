@@ -1,22 +1,14 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-08T22:59:22.606Z",
-  "count": 7,
+  "updated_at": "2026-07-09T00:09:59.057Z",
+  "count": 4,
   "items": [
     {
-      "title": "\"40만전자는 힘들다\" \"60만원 간다\"...삼성전자 주가, 엇갈린 전망",
-      "link": "https://www.mt.co.kr/stock/2026/07/09/2026070820090625196",
-      "source": "머니투데이",
-      "ts": 1783537800000,
-      "pub": "Thu, 09 Jul 2026 04:10:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼전 8%만 떨어졌는데...\" -20% 레버리지 개미들 '비명'",
-      "link": "https://www.mt.co.kr/stock/2026/07/09/2026070819445327014",
-      "source": "머니투데이",
-      "ts": 1783537200000,
-      "pub": "Thu, 09 Jul 2026 04:00:00 +0900",
+      "title": "\"삼전닉스 밸류에이션 역사적 저점…저평가 아닐 가능성\"",
+      "link": "https://www.hankyung.com/article/2026070942466",
+      "source": "한국경제",
+      "ts": 1783553453000,
+      "pub": "Thu, 09 Jul 2026 08:30:53 +0900",
       "sentiment": "neutral"
     },
     {
@@ -25,14 +17,6 @@
       "source": "한국경제",
       "ts": 1783523502000,
       "pub": "Thu, 09 Jul 2026 00:11:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"왜 자꾸 떨어지나\" 속타는 개미…삼전, 지금 담아도 될까 [종목+]",
-      "link": "https://www.hankyung.com/article/2026070832456",
-      "source": "한국경제",
-      "ts": 1783515604000,
-      "pub": "Wed, 08 Jul 2026 22:00:04 +0900",
       "sentiment": "neutral"
     },
     {
@@ -50,14 +34,6 @@
       "ts": 1783479606000,
       "pub": "Wed, 8 Jul 2026 12:00:06 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "삼전 호실적에도 전망 엇갈려…해외 IB \"메모리 호조\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260708049951008",
-      "source": "연합뉴스 경제",
-      "ts": 1783476683000,
-      "pub": "Wed, 8 Jul 2026 11:11:23 +0900",
-      "sentiment": "positive"
     }
   ]
 }

@@ -1,54 +1,54 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-08T22:59:22.606Z",
-  "count": 17,
+  "updated_at": "2026-07-09T00:09:59.058Z",
+  "count": 12,
   "items": [
+    {
+      "title": "하이닉스보다 더 뛰었다…AI 반도체 '불량 잡는 장비주' 뭐길래",
+      "link": "https://www.hankyung.com/article/202607083702i",
+      "source": "한국경제",
+      "ts": 1783553169000,
+      "pub": "Thu, 09 Jul 2026 08:26:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "애플, 브로드컴과 300억달러 반도체 계약…미국 생산 확대",
+      "link": "https://www.hankyung.com/article/202607094236i",
+      "source": "한국경제",
+      "ts": 1783552750000,
+      "pub": "Thu, 09 Jul 2026 08:19:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[마켓뷰] '반도체 고점' 우려에 연이틀 급락 코스피, 반등 나서나",
+      "link": "https://www.yna.co.kr/view/AKR20260709027800008",
+      "source": "연합뉴스 경제",
+      "ts": 1783552323000,
+      "pub": "Thu, 9 Jul 2026 08:12:03 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"SK하이닉스 ADR 상장…TSMC 사례처럼 밸류 재평가 기회\"-KB",
+      "link": "https://www.hankyung.com/article/2026070941476",
+      "source": "한국경제",
+      "ts": 1783551434000,
+      "pub": "Thu, 09 Jul 2026 07:57:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"전쟁 재개 아냐\"…'허쉬보다 싼 엔비디아', 반도체 지지선 도달? [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202607094125i",
+      "source": "한국경제",
+      "ts": 1783551269000,
+      "pub": "Thu, 09 Jul 2026 07:54:29 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "골드만삭스 \"AI발 실적잔치 막바지…반도체 쏠림 과했다\"",
       "link": "https://www.yna.co.kr/view/AKR20260709017500009",
       "source": "연합뉴스 국제",
       "ts": 1783547589000,
       "pub": "Thu, 9 Jul 2026 06:53:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "애플·브로드컴, 45조원 반도체 동맹…美서 150억개 칩 생산",
-      "link": "https://www.mt.co.kr/world/2026/07/09/2026070906360445210",
-      "source": "머니투데이",
-      "ts": 1783546705000,
-      "pub": "Thu, 09 Jul 2026 06:38:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"中, 엔비디아 H200 수입 제한 푼다\"…AI 연산자원 부족 임계점",
-      "link": "https://www.mt.co.kr/world/2026/07/09/2026070906214566626",
-      "source": "머니투데이",
-      "ts": 1783546030000,
-      "pub": "Thu, 09 Jul 2026 06:27:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"종전 MOU 끝\" 트럼프 폭탄발언…반도체는 급반등[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/07/09/2026070906082594391",
-      "source": "머니투데이",
-      "ts": 1783545101000,
-      "pub": "Thu, 09 Jul 2026 06:11:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 공모금 어디서 굴리나… 은행은 난색",
-      "link": "https://www.mt.co.kr/finance/2026/07/09/2026070820020749225",
-      "source": "머니투데이",
-      "ts": 1783537500000,
-      "pub": "Thu, 09 Jul 2026 04:05:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "전쟁 압도한 반도체… 한국만 승승장구",
-      "link": "https://www.mt.co.kr/economy/2026/07/09/2026070819580886355",
-      "source": "머니투데이",
-      "ts": 1783537380000,
-      "pub": "Thu, 09 Jul 2026 04:03:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -65,30 +65,6 @@
       "source": "한국경제",
       "ts": 1783525486000,
       "pub": "Thu, 09 Jul 2026 00:44:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"반도체의 힘\"…OECD 이어 IMF·ADB도 韓성장률 전망치 2.6%로 높였다",
-      "link": "https://www.mt.co.kr/economy/2026/07/09/2026070814075019775",
-      "source": "머니투데이",
-      "ts": 1783524600000,
-      "pub": "Thu, 09 Jul 2026 00:30:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[시선강탈] SK하이닉스 vs LG전자 vs KODEX 200, 공략법은?",
-      "link": "https://www.mt.co.kr/stock/2026/07/08/2026070821587090913",
-      "source": "머니투데이",
-      "ts": 1783518669000,
-      "pub": "Wed, 08 Jul 2026 22:51:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'43조 잭팟' SK하이닉스…\"한국서 팔아라\" 이유 알고보니",
-      "link": "https://www.hankyung.com/article/202607083846i",
-      "source": "한국경제",
-      "ts": 1783512560000,
-      "pub": "Wed, 08 Jul 2026 21:09:20 +0900",
       "sentiment": "neutral"
     },
     {
@@ -122,22 +98,6 @@
       "ts": 1783479606000,
       "pub": "Wed, 8 Jul 2026 12:00:06 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "'흔들리는 반도체', 코스피 고점 지났나?…엇갈리는 시선들",
-      "link": "https://www.yna.co.kr/view/AKR20260708086500008",
-      "source": "연합뉴스 경제",
-      "ts": 1783477953000,
-      "pub": "Wed, 8 Jul 2026 11:32:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전 호실적에도 전망 엇갈려…해외 IB \"메모리 호조\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260708049951008",
-      "source": "연합뉴스 경제",
-      "ts": 1783476683000,
-      "pub": "Wed, 8 Jul 2026 11:11:23 +0900",
-      "sentiment": "positive"
     }
   ]
 }

@@ -1,22 +1,78 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-09T04:40:46.351Z",
-  "count": 8,
+  "updated_at": "2026-07-09T08:22:53.418Z",
+  "count": 11,
   "items": [
+    {
+      "title": "'ADR상장 D-1' SK하이닉스, 티커는 'SKHY'…\"본주 재평가 기대\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260709071751008",
+      "source": "연합뉴스 경제",
+      "ts": 1783582941000,
+      "pub": "Thu, 9 Jul 2026 16:42:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 반도체클러스터 광주 군공항 인근 토허구역 지정",
+      "link": "https://www.hankyung.com/article/2026070960287",
+      "source": "한국경제",
+      "ts": 1783582489000,
+      "pub": "Thu, 09 Jul 2026 16:34:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[1보] 반도체클러스터 광주 군공항 인근 토지거래허가구역 지정",
+      "link": "https://www.yna.co.kr/view/AKR20260709164500003",
+      "source": "연합뉴스 경제",
+      "ts": 1783581963000,
+      "pub": "Thu, 9 Jul 2026 16:26:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 하루앞 ADR상장 기대? 하이닉스 5%↑…삼전 0.18%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260709047751008",
+      "source": "연합뉴스 경제",
+      "ts": 1783580127000,
+      "pub": "Thu, 9 Jul 2026 15:55:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "월가 큰손들 '260조' 베팅…나스닥 잭팟에 하이닉스 주가 급반등",
+      "link": "https://www.hankyung.com/article/202607094625i",
+      "source": "한국경제",
+      "ts": 1783580095000,
+      "pub": "Thu, 09 Jul 2026 15:54:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中 CXMT, 내주 6.5조원 IPO…\"애플, CXMT D램 테스트중\"",
+      "link": "https://www.yna.co.kr/view/AKR20260709145900009",
+      "source": "연합뉴스 국제",
+      "ts": 1783578504000,
+      "pub": "Thu, 9 Jul 2026 15:28:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아 시총 1조달러 증발…AI 붐 이전 밸류에이션",
+      "link": "https://www.yna.co.kr/view/AKR20260709125800009",
+      "source": "연합뉴스 국제",
+      "ts": 1783575970000,
+      "pub": "Thu, 9 Jul 2026 14:46:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이성훈 LH사장 \"용인 반도체 산단 조기 완성 집중해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260709125400003",
+      "source": "연합뉴스 경제",
+      "ts": 1783573707000,
+      "pub": "Thu, 9 Jul 2026 14:08:27 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "미래운용 \"中 반도체 자립 현실화, 中 밸류체인 투자할 때\"",
       "link": "https://www.yna.co.kr/view/AKR20260709100400008",
       "source": "연합뉴스 경제",
       "ts": 1783564498000,
       "pub": "Thu, 9 Jul 2026 11:34:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "日라피더스 \"TSMC보다 싸게\"…가격으로 반도체 재건 승부수",
-      "link": "https://www.hankyung.com/article/202607095113i",
-      "source": "한국경제",
-      "ts": 1783564334000,
-      "pub": "Thu, 09 Jul 2026 11:32:14 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,43 +84,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "KB증권 \"SK하이닉스 ADR 상장, TSMC 사례처럼 재평가 기대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709071700008",
-      "source": "연합뉴스 경제",
-      "ts": 1783559822000,
-      "pub": "Thu, 9 Jul 2026 10:17:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] '반도체 장비공급계약' 레이저쎌 10%대↑…코스닥 '소부장' 반등",
-      "link": "https://www.yna.co.kr/view/AKR20260709057600008",
-      "source": "연합뉴스 경제",
-      "ts": 1783557694000,
-      "pub": "Thu, 9 Jul 2026 09:41:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[마켓뷰] '반도체 고점' 우려에 연이틀 급락 코스피, 반등 나서나",
-      "link": "https://www.yna.co.kr/view/AKR20260709027800008",
-      "source": "연합뉴스 경제",
-      "ts": 1783552323000,
-      "pub": "Thu, 9 Jul 2026 08:12:03 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "골드만삭스 \"AI발 실적잔치 막바지…반도체 쏠림 과했다\"",
       "link": "https://www.yna.co.kr/view/AKR20260709017500009",
       "source": "연합뉴스 국제",
       "ts": 1783547589000,
       "pub": "Thu, 9 Jul 2026 06:53:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"中, 알리바바·바이트댄스 등에 엔비디아 H200 수입 허용 계획\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709005800091",
-      "source": "연합뉴스 국제",
-      "ts": 1783536083000,
-      "pub": "Thu, 9 Jul 2026 03:41:23 +0900",
       "sentiment": "neutral"
     }
   ]

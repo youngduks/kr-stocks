@@ -1,8 +1,72 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-09T04:40:46.349Z",
-  "count": 28,
+  "updated_at": "2026-07-09T08:22:53.417Z",
+  "count": 20,
   "items": [
+    {
+      "title": "우크라의 에너지 집중 타격에 비상 걸린 러…경유 수출도 금지",
+      "link": "https://www.yna.co.kr/view/AKR20260709171100108",
+      "source": "연합뉴스 국제",
+      "ts": 1783584020000,
+      "pub": "Thu, 9 Jul 2026 17:00:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 새 전용기 놔두고 구형 먼저…트럼프 환승은 암살 시도 우려?",
+      "link": "https://www.yna.co.kr/view/AKR20260709165400704",
+      "source": "연합뉴스 국제",
+      "ts": 1783582526000,
+      "pub": "Thu, 9 Jul 2026 16:35:26 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "이스라엘 국방 \"레바논에 군 계속 주둔…누구 승인도 필요 없어\"",
+      "link": "https://www.yna.co.kr/view/AKR20260709166100079",
+      "source": "연합뉴스 국제",
+      "ts": 1783582525000,
+      "pub": "Thu, 9 Jul 2026 16:35:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "동맹국 상품도 수입금지 추진…트럼프의 새 '무역 몽둥이' 되나",
+      "link": "https://www.yna.co.kr/view/AKR20260709159000009",
+      "source": "연합뉴스 국제",
+      "ts": 1783581632000,
+      "pub": "Thu, 9 Jul 2026 16:20:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 호르무즈 상선피격 보고에 격분해 이란공습 지시\"",
+      "link": "https://www.yna.co.kr/view/AKR20260709146200009",
+      "source": "연합뉴스 국제",
+      "ts": 1783578219000,
+      "pub": "Thu, 9 Jul 2026 15:23:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中, 미국산 대두 구매 확대…미중 농산물 거래 회복 '속도'",
+      "link": "https://www.yna.co.kr/view/AKR20260709141200083",
+      "source": "연합뉴스 국제",
+      "ts": 1783577324000,
+      "pub": "Thu, 9 Jul 2026 15:08:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 정보당국 \"北, 러시아 포탄 공급의 최대 40% 담당\"",
+      "link": "https://www.yna.co.kr/view/AKR20260709136600009",
+      "source": "연합뉴스 국제",
+      "ts": 1783576646000,
+      "pub": "Thu, 9 Jul 2026 14:57:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란, 전화 걸어와…합의 간절히 원해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260709136700009",
+      "source": "연합뉴스 국제",
+      "ts": 1783576216000,
+      "pub": "Thu, 9 Jul 2026 14:50:16 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "나토 귀국길에 전용기 갈아탄 트럼프…이란 암살시도 우려했나(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260709057051071",
@@ -44,14 +108,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"너무 핫해\" 외모 칭찬에…니키 미나즈 \"난 백악관 바비\"",
-      "link": "https://www.hankyung.com/article/202607094748H",
-      "source": "한국경제",
-      "ts": 1783559731000,
-      "pub": "Thu, 09 Jul 2026 10:15:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美·이란 '보복 악순환'…\"원인은 '핵무기급' 호르무즈 통제권\"",
       "link": "https://www.yna.co.kr/view/AKR20260709052600009",
       "source": "연합뉴스 국제",
@@ -65,14 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783557744000,
       "pub": "Thu, 9 Jul 2026 09:42:24 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "인삼 수출 상반기 33% 감소…aT, 비관세장벽 대응·신시장 개척",
-      "link": "https://www.yna.co.kr/view/AKR20260709038800030",
-      "source": "연합뉴스 경제",
-      "ts": 1783556289000,
-      "pub": "Thu, 9 Jul 2026 09:18:09 +0900",
       "sentiment": "negative"
     },
     {
@@ -113,118 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783537918000,
       "pub": "Thu, 9 Jul 2026 04:11:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 전쟁 재개는 아닐 것…장기전 추구하지 않아\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260709002552071",
-      "source": "연합뉴스 국제",
-      "ts": 1783533908000,
-      "pub": "Thu, 9 Jul 2026 03:05:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 외무, 트럼프 노골적 비난에 \"저속함에 행동으로 답할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709004200079",
-      "source": "연합뉴스 국제",
-      "ts": 1783533006000,
-      "pub": "Thu, 9 Jul 2026 02:50:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 국방, 이스라엘 방문 전격 취소…네타냐후 \"실망 안해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709003300079",
-      "source": "연합뉴스 국제",
-      "ts": 1783531145000,
-      "pub": "Thu, 9 Jul 2026 02:19:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 전쟁 재개는 아닐 것\"…단기간 공습 시사",
-      "link": "https://www.yna.co.kr/view/AKR20260709002551071",
-      "source": "연합뉴스 국제",
-      "ts": 1783530102000,
-      "pub": "Thu, 9 Jul 2026 02:01:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란과 전쟁 재개될 것으로 생각 안 해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709002500071",
-      "source": "연합뉴스 국제",
-      "ts": 1783529048000,
-      "pub": "Thu, 9 Jul 2026 01:44:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키 \"트럼프와 좋은 회담…방공능력 강조에 감사\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709002000109",
-      "source": "연합뉴스 국제",
-      "ts": 1783528239000,
-      "pub": "Thu, 9 Jul 2026 01:30:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"레바논, 이스라엘군 시범구역 철수 안하면 로마 회담 불참\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709001300079",
-      "source": "연합뉴스 국제",
-      "ts": 1783526833000,
-      "pub": "Thu, 9 Jul 2026 01:07:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프의 親우크라 전환…\"우크라에 패트리엇 생산 허가할것\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260708186651071",
-      "source": "연합뉴스 국제",
-      "ts": 1783524205000,
-      "pub": "Thu, 9 Jul 2026 00:23:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"아마 오늘밤 다시 이란 공격…해상봉쇄 재개할 수도\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260708184451071",
-      "source": "연합뉴스 국제",
-      "ts": 1783520636000,
-      "pub": "Wed, 8 Jul 2026 23:23:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"우크라에 패트리엇 요격미사일 생산 허가하겠다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260708186600071",
-      "source": "연합뉴스 국제",
-      "ts": 1783518536000,
-      "pub": "Wed, 8 Jul 2026 22:48:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"새 에어포스원 英 기지로 이동중…군 장병에 공개\"",
-      "link": "https://www.yna.co.kr/view/AKR20260708186000071",
-      "source": "연합뉴스 국제",
-      "ts": 1783517645000,
-      "pub": "Wed, 8 Jul 2026 22:34:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"대이란 해상봉쇄 재개할 수 있다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260708185900071",
-      "source": "연합뉴스 국제",
-      "ts": 1783517496000,
-      "pub": "Wed, 8 Jul 2026 22:31:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 이틀연속 대이란 공습 예고…\"아마 오늘밤 다시 공격\"",
-      "link": "https://www.yna.co.kr/view/AKR20260708184400071",
-      "source": "연합뉴스 국제",
-      "ts": 1783516280000,
-      "pub": "Wed, 8 Jul 2026 22:11:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"아마도 오늘밤 다시 이란 타격할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260708183800071",
-      "source": "연합뉴스 국제",
-      "ts": 1783515624000,
-      "pub": "Wed, 8 Jul 2026 22:00:24 +0900",
       "sentiment": "neutral"
     }
   ]

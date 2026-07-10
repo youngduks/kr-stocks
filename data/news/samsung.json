@@ -1,14 +1,54 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-09T23:01:11.468Z",
-  "count": 2,
+  "updated_at": "2026-07-10T01:46:51.683Z",
+  "count": 7,
   "items": [
     {
-      "title": "삼전닉스 '빚투' 이달 7000억 급증…'반대매매 공포' 커진다 [분석+]",
-      "link": "https://www.hankyung.com/article/2026070961586",
+      "title": "코스피, 2~3% 상승세…삼성전자 강세, 하이닉스 강보합(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260710031551008",
+      "source": "연합뉴스 경제",
+      "ts": 1783645532000,
+      "pub": "Fri, 10 Jul 2026 10:05:32 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "아산시 '삼성전자 46조 투자' 인허가 절차 본격화…실행 단계",
+      "link": "https://www.yna.co.kr/view/AKR20260710045400063",
+      "source": "연합뉴스 경제",
+      "ts": 1783645402000,
+      "pub": "Fri, 10 Jul 2026 10:03:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자, 장초반 2%대 상승…SK하이닉스는 0.78%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260710035600008",
+      "source": "연합뉴스 경제",
+      "ts": 1783642800000,
+      "pub": "Fri, 10 Jul 2026 09:20:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'빨간불' 들어온 삼전닉스, 3%대 동반 상승",
+      "link": "https://www.mt.co.kr/stock/2026/07/10/2026071009051774957",
+      "source": "머니투데이",
+      "ts": 1783642491000,
+      "pub": "Fri, 10 Jul 2026 09:14:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 실적은 죄가 없다, 수급이 문제다",
+      "link": "https://www.hankyung.com/article/202607083372i",
       "source": "한국경제",
-      "ts": 1783602006000,
-      "pub": "Thu, 09 Jul 2026 22:00:06 +0900",
+      "ts": 1783641715000,
+      "pub": "Fri, 10 Jul 2026 09:01:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"메모리 고점 신호 부재…전략은 여전히 반도체 대형주\"",
+      "link": "https://www.hankyung.com/article/2026071069636",
+      "source": "한국경제",
+      "ts": 1783640301000,
+      "pub": "Fri, 10 Jul 2026 08:38:21 +0900",
       "sentiment": "neutral"
     },
     {

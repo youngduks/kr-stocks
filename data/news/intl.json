@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-09T23:01:11.467Z",
+  "updated_at": "2026-07-10T01:46:51.682Z",
   "count": 31,
   "items": [
+    {
+      "title": "백악관 테러모의 8명 기소…\"트럼프·네타냐후 등 살해 계획\"",
+      "link": "https://www.yna.co.kr/view/AKR20260710057100009",
+      "source": "연합뉴스 국제",
+      "ts": 1783646898000,
+      "pub": "Fri, 10 Jul 2026 10:28:18 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "유럽산 PVC 수지에 덤핑관세 부과…5년간 최대 31.55%",
+      "link": "https://www.yna.co.kr/view/AKR20260710038300002",
+      "source": "연합뉴스 경제",
+      "ts": 1783645202000,
+      "pub": "Fri, 10 Jul 2026 10:00:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정부, 독일·프랑스 등 유럽산 PVC 페이스트 수지에 덤핑방지관세 부과",
+      "link": "https://www.mt.co.kr/economy/2026/07/10/2026071008070179287",
+      "source": "머니투데이",
+      "ts": 1783645200000,
+      "pub": "Fri, 10 Jul 2026 10:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 당국자 \"레바논 남부 이스라엘군 철수 시범구역 곧 가동\"",
+      "link": "https://www.yna.co.kr/view/AKR20260710040700009",
+      "source": "연합뉴스 국제",
+      "ts": 1783644521000,
+      "pub": "Fri, 10 Jul 2026 09:48:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'퇴장' 잉글랜드 콴사, 2경기 출전 정지...'트럼프 면죄부' 발로건과 대조",
+      "link": "https://www.mt.co.kr/world/2026/07/10/2026071008472591980",
+      "source": "머니투데이",
+      "ts": 1783643838000,
+      "pub": "Fri, 10 Jul 2026 09:37:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이스라엘, 미국에 '이란이 트럼프 암살 계획' 첩보 전달\"",
+      "link": "https://www.yna.co.kr/view/AKR20260710029000009",
+      "source": "연합뉴스 국제",
+      "ts": 1783641209000,
+      "pub": "Fri, 10 Jul 2026 08:53:29 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美, 항공기·부품 232조 조사 완료…관세 즉각 부과 않기로",
       "link": "https://www.yna.co.kr/view/AKR20260710014400071",
@@ -25,14 +73,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783632140000,
       "pub": "Fri, 10 Jul 2026 06:22:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"이란 버티고 전쟁 부담\"…트럼프, 호르무즈 딜레마",
-      "link": "https://www.hankyung.com/article/2026071067127",
-      "source": "한국경제",
-      "ts": 1783631226000,
-      "pub": "Fri, 10 Jul 2026 06:07:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -132,14 +172,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "크렘린 \"러 본토 타격이 종전 앞당긴다는 트럼프 판단은 착각\"",
-      "link": "https://www.hankyung.com/article/2026070966307",
-      "source": "한국경제",
-      "ts": 1783605492000,
-      "pub": "Thu, 09 Jul 2026 22:58:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"공개석상서 나토 질타했던 트럼프, 비공개 회의에선 달랐다\"",
       "link": "https://www.yna.co.kr/view/AKR20260709201100071",
       "source": "연합뉴스 국제",
@@ -217,38 +249,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783581632000,
       "pub": "Thu, 9 Jul 2026 16:20:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 호르무즈 상선피격 보고에 격분해 이란공습 지시\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709146200009",
-      "source": "연합뉴스 국제",
-      "ts": 1783578219000,
-      "pub": "Thu, 9 Jul 2026 15:23:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中, 미국산 대두 구매 확대…미중 농산물 거래 회복 '속도'",
-      "link": "https://www.yna.co.kr/view/AKR20260709141200083",
-      "source": "연합뉴스 국제",
-      "ts": 1783577324000,
-      "pub": "Thu, 9 Jul 2026 15:08:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 정보당국 \"北, 러시아 포탄 공급의 최대 40% 담당\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709136600009",
-      "source": "연합뉴스 국제",
-      "ts": 1783576646000,
-      "pub": "Thu, 9 Jul 2026 14:57:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란, 전화 걸어와…합의 간절히 원해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709136700009",
-      "source": "연합뉴스 국제",
-      "ts": 1783576216000,
-      "pub": "Thu, 9 Jul 2026 14:50:16 +0900",
       "sentiment": "neutral"
     }
   ]

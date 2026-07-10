@@ -1,14 +1,118 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-09T23:01:11.469Z",
-  "count": 23,
+  "updated_at": "2026-07-10T01:46:51.684Z",
+  "count": 29,
   "items": [
     {
-      "title": "SK하이닉스·마이크론이 중동 불안 이겨냈다…나스닥 1.3%↑ [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026071067946",
+      "title": "'반도체 클러스터 조성지' 광주 군공항 주변, 토지거래허가구역 지정",
+      "link": "https://www.mt.co.kr/policy/2026/07/10/2026071009523951190",
+      "source": "머니투데이",
+      "ts": 1783645674000,
+      "pub": "Fri, 10 Jul 2026 10:07:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, 2~3% 상승세…삼성전자 강세, 하이닉스 강보합(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260710031551008",
+      "source": "연합뉴스 경제",
+      "ts": 1783645532000,
+      "pub": "Fri, 10 Jul 2026 10:05:32 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "SK하이닉스 ADR 공모가 149달러 확정…미 역대 IPO 2위(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260709202252072",
+      "source": "연합뉴스 국제",
+      "ts": 1783644895000,
+      "pub": "Fri, 10 Jul 2026 09:54:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하나은행, 기보와 반도체 소부장 협력기업 지원 업무협약",
+      "link": "https://www.yna.co.kr/view/AKR20260710042100002",
+      "source": "연합뉴스 경제",
+      "ts": 1783644540000,
+      "pub": "Fri, 10 Jul 2026 09:49:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼성·SK하이닉스, 미국서 생산 더 늘리길\"...미 상무장관 투자 압박",
+      "link": "https://www.mt.co.kr/world/2026/07/10/2026071009105921027",
+      "source": "머니투데이",
+      "ts": 1783642955000,
+      "pub": "Fri, 10 Jul 2026 09:22:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자, 장초반 2%대 상승…SK하이닉스는 0.78%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260710035600008",
+      "source": "연합뉴스 경제",
+      "ts": 1783642800000,
+      "pub": "Fri, 10 Jul 2026 09:20:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 급반등에 코스피 단숨에 7500 회복…코스닥도 800 위로",
+      "link": "https://www.mt.co.kr/stock/2026/07/10/2026071009181067891",
+      "source": "머니투데이",
+      "ts": 1783642738000,
+      "pub": "Fri, 10 Jul 2026 09:18:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"글로벌 반도체 주가 뒤흔든 주범은 한국\"…뼈때린 일본 [도쿄나우]",
+      "link": "https://www.hankyung.com/article/202607107086i",
       "source": "한국경제",
-      "ts": 1783636630000,
-      "pub": "Fri, 10 Jul 2026 07:37:10 +0900",
+      "ts": 1783642479000,
+      "pub": "Fri, 10 Jul 2026 09:14:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스, ADR 공모가 149달러 확정…40조원 조달",
+      "link": "https://www.mt.co.kr/stock/2026/07/10/2026071008443820555",
+      "source": "머니투데이",
+      "ts": 1783640976000,
+      "pub": "Fri, 10 Jul 2026 08:49:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 ADR 공모가 149달러 확정…美 역대 IPO 중 2위 규모(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260710015451072",
+      "source": "연합뉴스 국제",
+      "ts": 1783640719000,
+      "pub": "Fri, 10 Jul 2026 08:45:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 \"ADR 공모가 149달러\"…외국기업 美 IPO 사상 최대",
+      "link": "https://www.hankyung.com/article/202607106988i",
+      "source": "한국경제",
+      "ts": 1783640517000,
+      "pub": "Fri, 10 Jul 2026 08:41:57 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"메모리 고점 신호 부재…전략은 여전히 반도체 대형주\"",
+      "link": "https://www.hankyung.com/article/2026071069636",
+      "source": "한국경제",
+      "ts": 1783640301000,
+      "pub": "Fri, 10 Jul 2026 08:38:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "마이크론, 美 반도체 공장 투자 2500억달러로 늘려",
+      "link": "https://www.hankyung.com/article/202607106806i",
+      "source": "한국경제",
+      "ts": 1783640253000,
+      "pub": "Fri, 10 Jul 2026 08:37:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"미국에 공장 지어라\"…삼성·SK하이닉스 겨냥한 美상무장관",
+      "link": "https://www.hankyung.com/article/2026071069477",
+      "source": "한국경제",
+      "ts": 1783639891000,
+      "pub": "Fri, 10 Jul 2026 08:31:31 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,27 +124,11 @@
       "sentiment": "positive"
     },
     {
-      "title": "SK하이닉스 \"ADR 공모가 149달러\"…외국기업 美IPO 사상 최대",
-      "link": "https://www.hankyung.com/article/2026071067797",
-      "source": "한국경제",
-      "ts": 1783635252000,
-      "pub": "Fri, 10 Jul 2026 07:14:12 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "[속보] SK하이닉스 \"ADR 공모가 주당 149달러 확정\"",
       "link": "https://www.yna.co.kr/view/AKR20260710014200072",
       "source": "연합뉴스 국제",
       "ts": 1783634769000,
       "pub": "Fri, 10 Jul 2026 07:06:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 ADR 공모가 149달러 확정…40조원 조달 눈앞",
-      "link": "https://www.hankyung.com/article/2026071067507",
-      "source": "한국경제",
-      "ts": 1783633708000,
-      "pub": "Fri, 10 Jul 2026 06:48:28 +0900",
       "sentiment": "neutral"
     },
     {
@@ -57,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783632519000,
       "pub": "Fri, 10 Jul 2026 06:28:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"37조 실탄 쥔다\"…SK하이닉스, 오늘 나스닥 상장",
-      "link": "https://www.hankyung.com/article/2026071067237",
-      "source": "한국경제",
-      "ts": 1783632061000,
-      "pub": "Fri, 10 Jul 2026 06:21:01 +0900",
       "sentiment": "neutral"
     },
     {
@@ -153,38 +233,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783580127000,
       "pub": "Thu, 9 Jul 2026 15:55:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中 CXMT, 내주 6.5조원 IPO…\"애플, CXMT D램 테스트중\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709145900009",
-      "source": "연합뉴스 국제",
-      "ts": 1783578504000,
-      "pub": "Thu, 9 Jul 2026 15:28:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아 시총 1조달러 증발…AI 붐 이전 밸류에이션",
-      "link": "https://www.yna.co.kr/view/AKR20260709125800009",
-      "source": "연합뉴스 국제",
-      "ts": 1783575970000,
-      "pub": "Thu, 9 Jul 2026 14:46:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이성훈 LH사장 \"용인 반도체 산단 조기 완성 집중해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709125400003",
-      "source": "연합뉴스 경제",
-      "ts": 1783573707000,
-      "pub": "Thu, 9 Jul 2026 14:08:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미래운용 \"中 반도체 자립 현실화, 中 밸류체인 투자할 때\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709100400008",
-      "source": "연합뉴스 경제",
-      "ts": 1783564498000,
-      "pub": "Thu, 9 Jul 2026 11:34:58 +0900",
       "sentiment": "neutral"
     }
   ]

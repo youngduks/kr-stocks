@@ -1,8 +1,48 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-10T05:52:12.063Z",
-  "count": 3,
+  "updated_at": "2026-07-10T08:58:35.838Z",
+  "count": 8,
   "items": [
+    {
+      "title": "코스피 2.5% 상승해 7,400대…삼전 2%대↑·하이닉스 약보합(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260710118651008",
+      "source": "연합뉴스 경제",
+      "ts": 1783667671000,
+      "pub": "Fri, 10 Jul 2026 16:14:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] SK하이닉스. ADR 상장 앞두고 약세마감…삼전은 2.5%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260710035651008",
+      "source": "연합뉴스 경제",
+      "ts": 1783666172000,
+      "pub": "Fri, 10 Jul 2026 15:49:32 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "미국 상무장관, 마이크론 행사서 \"삼전닉스 미국 생산확대\" 촉구(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260710002501091",
+      "source": "연합뉴스 국제",
+      "ts": 1783665373000,
+      "pub": "Fri, 10 Jul 2026 15:36:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "성과급을 지역화폐로?…삼전 노조 반발에 與의원 법안 철회",
+      "link": "https://www.hankyung.com/article/2026071081057",
+      "source": "한국경제",
+      "ts": 1783664388000,
+      "pub": "Fri, 10 Jul 2026 15:19:48 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'삼전닉스' 반반 담고도 수익률 37%…롤러코스피에 뜬다",
+      "link": "https://www.hankyung.com/article/202607107922i",
+      "source": "한국경제",
+      "ts": 1783662994000,
+      "pub": "Fri, 10 Jul 2026 14:56:34 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "코스피, 2~3% 상승세…삼성전자 강세, 하이닉스 강보합(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260710031551008",

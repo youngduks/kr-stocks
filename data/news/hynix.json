@@ -1,22 +1,86 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-10T05:52:12.063Z",
-  "count": 22,
+  "updated_at": "2026-07-10T08:58:35.838Z",
+  "count": 24,
   "items": [
     {
-      "title": "SK하이닉스 ADR로 265억 달러 조달…美 외국 기업 IPO 중 최대",
-      "link": "https://www.hankyung.com/article/202607107721i",
-      "source": "한국경제",
-      "ts": 1783657057000,
-      "pub": "Fri, 10 Jul 2026 13:17:37 +0900",
+      "title": "ADR 상장 앞둔 하이닉스 0.27%↓…외국인이 가장 많이 던졌다(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260710035652008",
+      "source": "연합뉴스 경제",
+      "ts": 1783669939000,
+      "pub": "Fri, 10 Jul 2026 16:52:19 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"스페이스X·아람코 다음\"…SK하이닉스 美 상장, 세계 3위 규모",
-      "link": "https://www.hankyung.com/article/2026071076457",
+      "title": "차화정·바이오·2차전지 그리고 반도체…주도주 랠리, 어디까지 왔나",
+      "link": "https://www.hankyung.com/article/202607095742i",
       "source": "한국경제",
-      "ts": 1783651815000,
-      "pub": "Fri, 10 Jul 2026 11:50:15 +0900",
+      "ts": 1783668596000,
+      "pub": "Fri, 10 Jul 2026 16:29:56 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "코스피 2.5% 상승해 7,400대…삼전 2%대↑·하이닉스 약보합(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260710118651008",
+      "source": "연합뉴스 경제",
+      "ts": 1783667671000,
+      "pub": "Fri, 10 Jul 2026 16:14:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[단독] 한·미, 광주 軍 공항 이전협상 6년 했는데…반도체 속도전에 '변수'",
+      "link": "https://www.hankyung.com/article/202607108021i",
+      "source": "한국경제",
+      "ts": 1783667582000,
+      "pub": "Fri, 10 Jul 2026 16:13:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하이닉스 ADR 상장 기대·달러 약세에 환율 장중 1,500원 하회",
+      "link": "https://www.yna.co.kr/view/AKR20260710120700002",
+      "source": "연합뉴스 경제",
+      "ts": 1783667511000,
+      "pub": "Fri, 10 Jul 2026 16:11:51 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "극심한 널뛰기 장세…반도체 투심 회복에 코스피 2.5% 상승 [종합]",
+      "link": "https://www.hankyung.com/article/2026071081956",
+      "source": "한국경제",
+      "ts": 1783666292000,
+      "pub": "Fri, 10 Jul 2026 15:51:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] SK하이닉스. ADR 상장 앞두고 약세마감…삼전은 2.5%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260710035651008",
+      "source": "연합뉴스 경제",
+      "ts": 1783666172000,
+      "pub": "Fri, 10 Jul 2026 15:49:32 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "미국 상무장관, 마이크론 행사서 \"삼전닉스 미국 생산확대\" 촉구(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260710002501091",
+      "source": "연합뉴스 국제",
+      "ts": 1783665373000,
+      "pub": "Fri, 10 Jul 2026 15:36:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "월가에도 SK하이닉스 ADR 레버리지 ETF 쏟아질듯",
+      "link": "https://www.yna.co.kr/view/AKR20260710117700009",
+      "source": "연합뉴스 국제",
+      "ts": 1783665288000,
+      "pub": "Fri, 10 Jul 2026 15:34:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "TSMC 사례처럼…하이닉스 ADR, '역김치 프리미엄' 형성되나",
+      "link": "https://www.yna.co.kr/view/AKR20260710088800008",
+      "source": "연합뉴스 경제",
+      "ts": 1783663140000,
+      "pub": "Fri, 10 Jul 2026 14:59:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,27 +92,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "미국 ADR 상장 앞두고...'1% 초고수'의 선택도 'SK하이닉스'",
-      "link": "https://www.hankyung.com/article/202607107531i",
-      "source": "한국경제",
-      "ts": 1783648757000,
-      "pub": "Fri, 10 Jul 2026 10:59:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "기보·하나은행, 반도체 기업 금융지원 확대",
       "link": "https://www.yna.co.kr/view/AKR20260710062400051",
       "source": "연합뉴스 경제",
       "ts": 1783648135000,
       "pub": "Fri, 10 Jul 2026 10:48:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 투심 회복에 미국발 훈풍까지…코스피, 7500선 탈환",
-      "link": "https://www.hankyung.com/article/2026071074396",
-      "source": "한국경제",
-      "ts": 1783646995000,
-      "pub": "Fri, 10 Jul 2026 10:29:55 +0900",
       "sentiment": "neutral"
     },
     {
@@ -145,38 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783617628000,
       "pub": "Fri, 10 Jul 2026 02:20:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"SK하이닉스 ADR 공모가 주당 149달러 제시…40조원 조달 추진\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709202200072",
-      "source": "연합뉴스 국제",
-      "ts": 1783606953000,
-      "pub": "Thu, 9 Jul 2026 23:22:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 반도체주 강세에 상승 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260709201600009",
-      "source": "연합뉴스 국제",
-      "ts": 1783605720000,
-      "pub": "Thu, 9 Jul 2026 23:02:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'SK하이닉스 200만원 넘는데'…BNK증권, 목표가 185만원 제시",
-      "link": "https://www.yna.co.kr/view/AKR20260709189600008",
-      "source": "연합뉴스 경제",
-      "ts": 1783591566000,
-      "pub": "Thu, 9 Jul 2026 19:06:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'엔비디아 대항마' 세레브라스 \"유럽에 수조원대 투자\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709187500009",
-      "source": "연합뉴스 국제",
-      "ts": 1783589505000,
-      "pub": "Thu, 9 Jul 2026 18:31:45 +0900",
       "sentiment": "neutral"
     }
   ]

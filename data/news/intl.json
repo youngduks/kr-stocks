@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-10T18:15:56.823Z",
-  "count": 21,
+  "updated_at": "2026-07-10T20:12:00.588Z",
+  "count": 20,
   "items": [
+    {
+      "title": "트럼프 휴전종료 통보에 이란도 \"항복없다\"…강대강속 대화모색도",
+      "link": "https://www.yna.co.kr/view/AKR20260711005100071",
+      "source": "연합뉴스 국제",
+      "ts": 1783713713000,
+      "pub": "Sat, 11 Jul 2026 05:01:53 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "패트리엇 면허 쥔 우크라, 러 몰아치나…석유시설 4곳 타격(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260710137851109",
@@ -148,27 +156,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "백악관 테러모의 8명 기소…\"트럼프·네타냐후 등 살해 계획\"",
-      "link": "https://www.yna.co.kr/view/AKR20260710057100009",
-      "source": "연합뉴스 국제",
-      "ts": 1783646898000,
-      "pub": "Fri, 10 Jul 2026 10:28:18 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "유럽산 PVC 수지에 덤핑관세 부과…5년간 최대 31.55%",
       "link": "https://www.yna.co.kr/view/AKR20260710038300002",
       "source": "연합뉴스 경제",
       "ts": 1783645202000,
       "pub": "Fri, 10 Jul 2026 10:00:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 당국자 \"레바논 남부 이스라엘군 철수 시범구역 곧 가동\"",
-      "link": "https://www.yna.co.kr/view/AKR20260710040700009",
-      "source": "연합뉴스 국제",
-      "ts": 1783644521000,
-      "pub": "Fri, 10 Jul 2026 09:48:41 +0900",
       "sentiment": "neutral"
     }
   ]

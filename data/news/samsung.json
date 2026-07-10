@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-10T08:58:35.838Z",
-  "count": 8,
+  "updated_at": "2026-07-10T11:49:30.243Z",
+  "count": 7,
   "items": [
+    {
+      "title": "\"하이닉스 재평가 땐 삼전 웃는다…1만피 시대 열 결정적 트리거\"",
+      "link": "https://www.hankyung.com/article/2026071086131",
+      "source": "한국경제",
+      "ts": 1783674766000,
+      "pub": "Fri, 10 Jul 2026 18:12:46 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "코스피 2.5% 상승해 7,400대…삼전 2%대↑·하이닉스 약보합(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260710118651008",
@@ -25,22 +33,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783665373000,
       "pub": "Fri, 10 Jul 2026 15:36:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "성과급을 지역화폐로?…삼전 노조 반발에 與의원 법안 철회",
-      "link": "https://www.hankyung.com/article/2026071081057",
-      "source": "한국경제",
-      "ts": 1783664388000,
-      "pub": "Fri, 10 Jul 2026 15:19:48 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'삼전닉스' 반반 담고도 수익률 37%…롤러코스피에 뜬다",
-      "link": "https://www.hankyung.com/article/202607107922i",
-      "source": "한국경제",
-      "ts": 1783662994000,
-      "pub": "Fri, 10 Jul 2026 14:56:34 +0900",
       "sentiment": "neutral"
     },
     {

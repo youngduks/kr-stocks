@@ -1,8 +1,56 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-10T08:58:35.838Z",
-  "count": 24,
+  "updated_at": "2026-07-10T11:49:30.243Z",
+  "count": 26,
   "items": [
+    {
+      "title": "JP모간 뉴욕본사 태극기로 덮었다…월가 홀린 SK하이닉스 [종목+]",
+      "link": "https://www.hankyung.com/article/2026071083056",
+      "source": "한국경제",
+      "ts": 1783681206000,
+      "pub": "Fri, 10 Jul 2026 20:00:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中, 반도체 필수 소재 헬륨 수출금지…오늘부터 시행",
+      "link": "https://www.mt.co.kr/world/2026/07/10/2026071019410590974",
+      "source": "머니투데이",
+      "ts": 1783680314000,
+      "pub": "Fri, 10 Jul 2026 19:45:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'반도체 핵심' 헬륨도 막았다…중국 \"수출 금지 즉시 시행\"",
+      "link": "https://www.hankyung.com/article/2026071087527",
+      "source": "한국경제",
+      "ts": 1783680087000,
+      "pub": "Fri, 10 Jul 2026 19:41:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[게시판] 서강대 산학협력단, 반도체설계전문가 훈련과정 개설",
+      "link": "https://www.yna.co.kr/view/AKR20260710162300004",
+      "source": "연합뉴스 경제",
+      "ts": 1783679091000,
+      "pub": "Fri, 10 Jul 2026 19:24:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중국, 반도체 생산 핵심 소재 '헬륨' 수출 금지…\"즉시 시행\"",
+      "link": "https://www.yna.co.kr/view/AKR20260710157000083",
+      "source": "연합뉴스 국제",
+      "ts": 1783675615000,
+      "pub": "Fri, 10 Jul 2026 18:26:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"하이닉스 재평가 땐 삼전 웃는다…1만피 시대 열 결정적 트리거\"",
+      "link": "https://www.hankyung.com/article/2026071086131",
+      "source": "한국경제",
+      "ts": 1783674766000,
+      "pub": "Fri, 10 Jul 2026 18:12:46 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "ADR 상장 앞둔 하이닉스 0.27%↓…외국인이 가장 많이 던졌다(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260710035652008",
@@ -10,14 +58,6 @@
       "ts": 1783669939000,
       "pub": "Fri, 10 Jul 2026 16:52:19 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "차화정·바이오·2차전지 그리고 반도체…주도주 랠리, 어디까지 왔나",
-      "link": "https://www.hankyung.com/article/202607095742i",
-      "source": "한국경제",
-      "ts": 1783668596000,
-      "pub": "Fri, 10 Jul 2026 16:29:56 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "코스피 2.5% 상승해 7,400대…삼전 2%대↑·하이닉스 약보합(종합)",
@@ -28,28 +68,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[단독] 한·미, 광주 軍 공항 이전협상 6년 했는데…반도체 속도전에 '변수'",
-      "link": "https://www.hankyung.com/article/202607108021i",
-      "source": "한국경제",
-      "ts": 1783667582000,
-      "pub": "Fri, 10 Jul 2026 16:13:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "하이닉스 ADR 상장 기대·달러 약세에 환율 장중 1,500원 하회",
       "link": "https://www.yna.co.kr/view/AKR20260710120700002",
       "source": "연합뉴스 경제",
       "ts": 1783667511000,
       "pub": "Fri, 10 Jul 2026 16:11:51 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "극심한 널뛰기 장세…반도체 투심 회복에 코스피 2.5% 상승 [종합]",
-      "link": "https://www.hankyung.com/article/2026071081956",
-      "source": "한국경제",
-      "ts": 1783666292000,
-      "pub": "Fri, 10 Jul 2026 15:51:32 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "[특징주] SK하이닉스. ADR 상장 앞두고 약세마감…삼전은 2.5%↑(종합)",
@@ -186,14 +210,6 @@
       "ts": 1783628063000,
       "pub": "Fri, 10 Jul 2026 05:14:23 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "하이닉스 美상장 하루 앞두고…마이크론 \"미국 내 375조원 투자\"",
-      "link": "https://www.yna.co.kr/view/AKR20260710002500091",
-      "source": "연합뉴스 국제",
-      "ts": 1783617628000,
-      "pub": "Fri, 10 Jul 2026 02:20:28 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

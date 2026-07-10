@@ -3,7 +3,7 @@
 
 type RegularSource =
   | { source: "naver"; code: string }
-  | { source: "yahoo"; symbol: string }
+  | { source: "yahoo"; symbol: string; fallbackSymbol?: string }
   | null;
 
 const MAPPING: Record<string, RegularSource> = {
@@ -11,6 +11,9 @@ const MAPPING: Record<string, RegularSource> = {
   samsung: { source: "naver", code: "005930" },
   hynix: { source: "naver", code: "000660" },
   hyundai: { source: "naver", code: "005380" },
+  // SK하이닉스 나스닥 ADR (2026-07-10 상장). 임시 티커 SKHYV → 정식 티커 SKHY(7/13~) 전환 중
+  // → 정식 티커 우선 시도, 실패 시 임시 티커로 자동 폴백 (전환일 수동 수정 불필요)
+  hynix_adr: { source: "yahoo", symbol: "SKHY", fallbackSymbol: "SKHYV" },
   // 환율
   krw: null, // 환율 자체
   // (kospi200, ewy 제거 — HL 단위 매핑이 KRW로 보여 retail 혼동, 2026-05-11)
@@ -181,6 +184,14 @@ async function fetchYahoo(symbol: string): Promise<RegularClose | null> {
   }
 }
 
+/** symbol 우선 시도, 실패(상장 전/티커 소멸 등) 시 fallbackSymbol 재시도. 티커 전환기 종목용. */
+async function fetchYahooWithFallback(symbol: string, fallbackSymbol?: string): Promise<RegularClose | null> {
+  const primary = await fetchYahoo(symbol);
+  if (primary) return primary;
+  if (!fallbackSymbol) return null;
+  return fetchYahoo(fallbackSymbol);
+}
+
 /** 39 슬러그 전체 정규장 종가 fetch (병렬). 매핑 없거나 실패한 종목은 누락. */
 export async function fetchAllRegularCloses(): Promise<Record<string, RegularClose>> {
   const tasks: Promise<[string, RegularClose | null]>[] = [];
@@ -189,7 +200,7 @@ export async function fetchAllRegularCloses(): Promise<Record<string, RegularClo
     const task =
       m.source === "naver"
         ? fetchNaver(m.code).then((v): [string, RegularClose | null] => [slug, v])
-        : fetchYahoo(m.symbol).then((v): [string, RegularClose | null] => [slug, v]);
+        : fetchYahooWithFallback(m.symbol, m.fallbackSymbol).then((v): [string, RegularClose | null] => [slug, v]);
     tasks.push(task);
   }
   const results = await Promise.all(tasks);

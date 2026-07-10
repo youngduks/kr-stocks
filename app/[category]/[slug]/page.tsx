@@ -74,6 +74,8 @@ export default async function SymbolPage({ params }: Props) {
 
   const m = row.market;
   const isBn = row.source === "binance"; // 한국주식 3종 = Binance 선물 소스 (그 외 = Hyperliquid)
+  // 한국 카테고리라도 정규장 종가 소스가 Yahoo면 KRX가 아니라 해외 상장 ADR (예: 하이닉스 ADR)
+  const isAdr = row.category === "korea" && m.regular_source === "yahoo";
   // phase 인지 변동률 — live/nxt: 전일 대비 / closed: 24h
   const mainChg = m.main_change_pct ?? m.change_24h_pct;
   const mainChgLabel = m.main_change_label ?? (isBn ? "Binance 24h" : "HL 24h");
@@ -226,8 +228,9 @@ export default async function SymbolPage({ params }: Props) {
             const phaseMeta =
               phase === "live"
                 ? {
-                    label:
-                      row.category === "korea"
+                    label: isAdr
+                      ? "나스닥 ADR 정규장 거래가 (실시간)"
+                      : row.category === "korea"
                         ? "KRX 장중 거래가 (실시간)"
                         : row.category === "us"
                         ? "미국 정규장 거래가 (실시간)"
@@ -280,7 +283,7 @@ export default async function SymbolPage({ params }: Props) {
                   </div>
                 ) : m.market_phase === "closed" && m.regular_close_krw != null ? (
                   <div className="text-[12px] text-text-dim tabular">
-                    KRX 종가 ₩{Math.round(m.regular_close_krw).toLocaleString("ko-KR")}
+                    {isAdr ? "ADR 종가" : "KRX 종가"} ₩{Math.round(m.regular_close_krw).toLocaleString("ko-KR")}
                   </div>
                 ) : m.regular_prev_close_krw != null ? (
                   <div className="text-[12px] text-text-dim tabular">

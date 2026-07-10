@@ -220,7 +220,16 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
           }
           if (isKR && m.regular_close_krw != null) {
             const v = Math.round(m.regular_close_krw).toLocaleString("ko-KR");
-            return <div className="mt-1.5 text-[10px] text-text-dim tabular">{locale === "en" ? `KRX close ₩${v}` : `KRX 종가 ₩${v}`}</div>;
+            // KRX(네이버) vs 해외 상장 ADR(Yahoo) — 소스에 따라 라벨 분기 (하이닉스 ADR 등)
+            const label =
+              m.regular_source === "yahoo"
+                ? locale === "en"
+                  ? `ADR close ₩${v}`
+                  : `ADR 종가 ₩${v}`
+                : locale === "en"
+                ? `KRX close ₩${v}`
+                : `KRX 종가 ₩${v}`;
+            return <div className="mt-1.5 text-[10px] text-text-dim tabular">{label}</div>;
           }
           if (!isKR && !isIndex && !row.is_private && m.regular_close_usd != null) {
             return <div className="mt-1.5 text-[10px] text-text-dim tabular">{locale === "en" ? `Reg close $${m.regular_close_usd.toFixed(2)}` : `정규장 종가 $${m.regular_close_usd.toFixed(2)}`}</div>;

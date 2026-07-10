@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-10T16:12:59.723Z",
-  "count": 29,
+  "updated_at": "2026-07-10T18:15:56.825Z",
+  "count": 30,
   "items": [
+    {
+      "title": "최태원 \"반도체 투자속도 지금보다 10배 빨라야…안그러면 시장 위축될 것\"",
+      "link": "https://www.hankyung.com/article/202607118908i",
+      "source": "한국경제",
+      "ts": 1783702801000,
+      "pub": "Sat, 11 Jul 2026 02:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'나스닥' SK하이닉스, 170달러 출발…공모가 대비 14%↑",
+      "link": "https://www.hankyung.com/article/202607118915i",
+      "source": "한국경제",
+      "ts": 1783702108000,
+      "pub": "Sat, 11 Jul 2026 01:48:28 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "최태원 \"AI분야 수백억달러 투자…HBM 수요 기하급수적 증가\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260710172151071",
@@ -225,14 +241,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783642800000,
       "pub": "Fri, 10 Jul 2026 09:20:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 ADR 공모가 149달러 확정…美 역대 IPO 중 2위 규모(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260710015451072",
-      "source": "연합뉴스 국제",
-      "ts": 1783640719000,
-      "pub": "Fri, 10 Jul 2026 08:45:19 +0900",
       "sentiment": "neutral"
     }
   ]

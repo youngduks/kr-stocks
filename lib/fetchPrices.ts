@@ -60,6 +60,15 @@ export type PriceRow = SymbolMeta & {
     main_change_pct: number;
     /** 변동률 라벨 — "전일 대비" / "HL 24h" */
     main_change_label: string;
+    /**
+     * ADR 전용 — ADR 비율(예: 10주=보통주 1주) 환산 시 국내 정규장 대비 프리미엄(%).
+     * adr_implied_krw = ADR가(USD) × adr_ratio × 환율. ADR 아니거나 국내 참조가 없으면 null.
+     */
+    adr_premium_pct: number | null;
+    /** ADR 비율 환산 후 원화 환산가 (KRW) — "보통주 1주 환산" 가격. */
+    adr_implied_krw: number | null;
+    /** 비교 기준이 된 국내 정규장 종가 (KRW). */
+    adr_ref_krw: number | null;
   } | null;
 };
 
@@ -147,7 +156,8 @@ export async function fetchAllPrices(): Promise<{
   const rows: PriceRow[] = SYMBOLS.map((sym) => {
     // 미국 ADR (Yahoo·USD 주식) — perp ctx 미사용. Yahoo 정규장 데이터가 곧 메인 가격.
     if (sym.source === "adr") {
-      return buildAdrRow(sym, regCloses[sym.slug], fx.rate);
+      const refClose = sym.adr_ref_slug ? regCloses[sym.adr_ref_slug] : undefined;
+      return buildAdrRow(sym, regCloses[sym.slug], fx.rate, refClose?.price ?? null);
     }
     const ctx =
       sym.source === "binance"
@@ -282,6 +292,9 @@ export async function fetchAllPrices(): Promise<{
             market_phase: phase,
             main_change_pct: round(mainChg, 3),
             main_change_label: mainLabel,
+            adr_premium_pct: null,
+            adr_implied_krw: null,
+            adr_ref_krw: null,
           };
         })(),
       },
@@ -302,7 +315,13 @@ function round(n: number, d: number): number {
 
 // 미국 ADR row 빌더 — Yahoo 정규장(USD)이 메인 가격. perp/HL 없음.
 // 나스닥 개장(한국 야간)=live, 그 외=closed(마지막 종가가 메인). 원화는 fx 환산 보조.
-function buildAdrRow(sym: SymbolMeta, rc: RegularClose | undefined, fxRate: number): PriceRow {
+// refKrw: 같은 회사 국내 상장 종가(KRW) — adr_ratio 환산 후 프리미엄 계산 기준.
+function buildAdrRow(
+  sym: SymbolMeta,
+  rc: RegularClose | undefined,
+  fxRate: number,
+  refKrw: number | null
+): PriceRow {
   if (!rc) return { ...sym, market: null };
   const usd = rc.price;
   const krw = usd * fxRate;
@@ -314,6 +333,12 @@ function buildAdrRow(sym: SymbolMeta, rc: RegularClose | undefined, fxRate: numb
       ? ((usd - prevUsd) / prevUsd) * 100
       : 0;
   const phase: "live" | "closed" = rc.phase === "live" ? "live" : "closed";
+
+  // ADR N주 = 보통주 1주 환산 → 원화 환산가, 국내 종가 대비 프리미엄(%)
+  const ratio = sym.adr_ratio ?? 1;
+  const adrImpliedKrw = usd * ratio * fxRate;
+  const adrPremiumPct =
+    refKrw != null && refKrw > 0 ? ((adrImpliedKrw - refKrw) / refKrw) * 100 : null;
   return {
     ...sym,
     market: {
@@ -342,6 +367,9 @@ function buildAdrRow(sym: SymbolMeta, rc: RegularClose | undefined, fxRate: numb
       market_phase: phase,
       main_change_pct: round(chg, 3),
       main_change_label: phase === "live" ? "장중 변동" : "전일 대비",
+      adr_premium_pct: adrPremiumPct != null ? round(adrPremiumPct, 2) : null,
+      adr_implied_krw: round(adrImpliedKrw, 2),
+      adr_ref_krw: refKrw,
     },
   };
 }

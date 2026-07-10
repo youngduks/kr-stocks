@@ -220,6 +220,28 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
           );
         })()}
 
+        {/* ADR 프리미엄 — ADR 비율(예: 10주=보통주 1주) 환산가를 국내 정규장 종가와 비교 (형님 요청) */}
+        {row.is_adr && m?.adr_premium_pct != null && (() => {
+          const pct = m.adr_premium_pct;
+          const ratio = row.adr_ratio ?? 1;
+          const premColor = pct > 0 ? "text-accent-green" : pct < 0 ? "text-accent-blue" : "text-text-muted";
+          return (
+            <div className="mt-2 pt-2 border-t border-line/60 flex items-start justify-between gap-2 tabular text-xs">
+              <span className="text-text-dim pt-0.5 whitespace-nowrap shrink-0">
+                {locale === "en" ? `${ratio} ADR ≈ 1 share, vs KR` : `ADR ${ratio}주 환산 국내대비`}
+              </span>
+              <span className={`text-right font-semibold ${premColor}`}>
+                {pct > 0 ? "▲ +" : pct < 0 ? "▼ " : ""}{Math.abs(pct).toFixed(2)}%
+                {m.adr_implied_krw != null && (
+                  <span className="block text-[11px] font-normal mt-0.5 opacity-90">
+                    ₩{Math.round(m.adr_implied_krw).toLocaleString("ko-KR")}
+                  </span>
+                )}
+              </span>
+            </div>
+          );
+        })()}
+
         {/* 정규장 종가 줄 — premium 박스 아래 (형님 요청: KRX 종가 → 정규장 대비 아래로 이동). nxt + closed phase 표시. */}
         {/* 비상장은 regular_close 매핑 없음 → null 자동 */}
         {m?.market_phase && m.market_phase !== "live" && (() => {

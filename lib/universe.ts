@@ -19,6 +19,10 @@ export type SymbolMeta = {
   is_fx?: boolean;
   /** 미국 상장 ADR — 카테고리는 korea여도 USD로 렌더링(달러 메인 + 원화 보조). 시세는 Yahoo. */
   is_adr?: boolean;
+  /** ADR 비율 — ADR N주 = 보통주 1주 (예: SK하이닉스 10). 프리미엄 환산에 사용. */
+  adr_ratio?: number;
+  /** 프리미엄 비교 기준 — 같은 회사의 국내 상장 slug (예: "hynix"). regular_close_krw를 기준가로 사용. */
+  adr_ref_slug?: string;
   share_ratio?: number;
   regular_market?: string;
   krx_code?: string;

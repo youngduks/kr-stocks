@@ -400,6 +400,45 @@ export default async function SymbolPage({ params }: Props) {
           </div>
         </section>
 
+        {isAdr && m.adr_premium_pct != null && (() => {
+          const ratio = row.adr_ratio ?? 1;
+          const pct = m.adr_premium_pct;
+          const premColor = pct > 0 ? "text-accent-green" : pct < 0 ? "text-accent-blue" : "text-text-muted";
+          return (
+            <section className="mb-6 p-5 rounded-2xl bg-accent-blue/5 border border-accent-blue/20">
+              <div className="flex items-center justify-between gap-3 mb-3">
+                <div className="text-xs text-text-dim">
+                  ADR {ratio}주 = 보통주 1주 환산 대비 국내(KRX) 프리미엄
+                </div>
+                <span className="text-[10px] font-semibold tabular text-text-dim shrink-0">SEC 공식비율</span>
+              </div>
+              <div className="flex items-end justify-between gap-4 flex-wrap">
+                <div>
+                  <div className="text-xs text-text-dim mb-1">ADR 환산가 ({ratio}주 기준)</div>
+                  <div className="text-xl font-semibold tabular text-text">
+                    ₩{Math.round(m.adr_implied_krw ?? 0).toLocaleString("ko-KR")}
+                  </div>
+                  {m.adr_ref_krw != null && (
+                    <div className="text-[11px] text-text-dim tabular mt-1">
+                      국내(KRX) 종가 ₩{Math.round(m.adr_ref_krw).toLocaleString("ko-KR")}
+                    </div>
+                  )}
+                </div>
+                <div className="text-right">
+                  <div className="text-xs text-text-dim mb-1">프리미엄</div>
+                  <span className={`text-xl font-bold tabular ${premColor}`}>
+                    {pct > 0 ? "▲ +" : pct < 0 ? "▼ " : ""}{Math.abs(pct).toFixed(2)}%
+                  </span>
+                </div>
+              </div>
+              <p className="mt-3 text-[10px] text-text-dim leading-relaxed">
+                ADR가(USD) × {ratio} × 환율 = 보통주 1주 환산가. 국내 KRX 종가 대비 괴리율입니다.
+                환율·시차·유동성 차이로 상시 괴리가 존재할 수 있으며 참고용입니다.
+              </p>
+            </section>
+          );
+        })()}
+
         {m.hl_premium_pct != null && m.regular_close_krw != null && (() => {
           // 박스 2 phase 3-way 분기 :
           //   live  → "HL 24h 시세 vs 장중 프리미엄" + HL 가격 표시

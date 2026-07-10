@@ -53,12 +53,14 @@
       "dex": "xyz",
       "source": "adr",
       "is_adr": true,
+      "adr_ratio": 10,
+      "adr_ref_slug": "hynix",
       "name_ko": "SK하이닉스 ADR",
       "name_en": "SK Hynix ADR",
       "category": "korea",
       "tier": 1,
       "regular_market": "NASDAQ",
-      "note": "나스닥 ADR, 2026-07-10 상장 (임시 SKHYV → 정식 SKHY 전환 중). USD 시세 = Yahoo, KOSPI 1주의 약 1/10"
+      "note": "나스닥 ADR, 2026-07-10 상장 (임시 SKHYV → 정식 SKHY 전환 중). ADR 10주 = 보통주 1주 (SEC F-1 공식 비율)"
     },
     {
       "slug": "hyundai",

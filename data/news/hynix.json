@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-10T22:48:19.246Z",
-  "count": 46,
+  "updated_at": "2026-07-10T23:46:00.019Z",
+  "count": 48,
   "items": [
+    {
+      "title": "[르포] 백화점 아래 반도체 요람…카이스트 사이언스 허브 4주년",
+      "link": "https://www.yna.co.kr/view/AKR20260710104500061",
+      "source": "연합뉴스 경제",
+      "ts": 1783724461000,
+      "pub": "Sat, 11 Jul 2026 08:01:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "화려한 데뷔 마친 SK하이닉스…나스닥 사장 \"블록버스터급\"",
+      "link": "https://www.hankyung.com/article/2026071190037",
+      "source": "한국경제",
+      "ts": 1783724030000,
+      "pub": "Sat, 11 Jul 2026 07:53:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "나스닥 데뷔 SK하이닉스 13% 상승…뉴욕증시 소폭 상승 마감 [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026071189867",
+      "source": "한국경제",
+      "ts": 1783723127000,
+      "pub": "Sat, 11 Jul 2026 07:38:47 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "미국 간 SK하이닉스, ADR 상장으로 'K디스카운트' 깬다",
       "link": "https://www.mt.co.kr/industry/2026/07/11/2026071015252229272",
@@ -337,14 +361,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783663140000,
       "pub": "Fri, 10 Jul 2026 14:59:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "스페이스X·아람코 이어 세계 3위…숫자로 본 SK하이닉스 ADR",
-      "link": "https://www.yna.co.kr/view/AKR20260710064900072",
-      "source": "연합뉴스 국제",
-      "ts": 1783650410000,
-      "pub": "Fri, 10 Jul 2026 11:26:50 +0900",
       "sentiment": "neutral"
     },
     {

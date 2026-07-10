@@ -220,24 +220,27 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
           );
         })()}
 
-        {/* ADR 프리미엄 — ADR 비율(예: 10주=보통주 1주) 환산가를 국내 정규장 종가와 비교 (형님 요청) */}
+        {/* ADR 프리미엄 — ADR 비율(예: 10주=보통주 1주) 환산가를 국내 정규장 종가와 비교 (형님 요청)
+            환산가가 핵심 정보라 크게, 라벨은 짧게 고정해 좁은 카드에서도 안 밀려나가게 함 */}
         {row.is_adr && m?.adr_premium_pct != null && (() => {
           const pct = m.adr_premium_pct;
           const ratio = row.adr_ratio ?? 1;
           const premColor = pct > 0 ? "text-accent-green" : pct < 0 ? "text-accent-blue" : "text-text-muted";
           return (
-            <div className="mt-2 pt-2 border-t border-line/60 flex items-start justify-between gap-2 tabular text-xs">
-              <span className="text-text-dim pt-0.5 whitespace-nowrap shrink-0">
-                {locale === "en" ? `${ratio} ADR ≈ 1 share, vs KR` : `ADR ${ratio}주 환산 국내대비`}
-              </span>
-              <span className={`text-right font-semibold ${premColor}`}>
-                {pct > 0 ? "▲ +" : pct < 0 ? "▼ " : ""}{Math.abs(pct).toFixed(2)}%
-                {m.adr_implied_krw != null && (
-                  <span className="block text-[11px] font-normal mt-0.5 opacity-90">
-                    ₩{Math.round(m.adr_implied_krw).toLocaleString("ko-KR")}
-                  </span>
-                )}
-              </span>
+            <div className="mt-2 pt-2 border-t border-line/60 min-w-0">
+              <div className="flex items-center justify-between gap-2 mb-0.5">
+                <span className="text-[10px] text-text-dim font-medium truncate">
+                  {locale === "en" ? `${ratio}:1 implied` : `${ratio}주 환산가`}
+                </span>
+                <span className={`text-xs font-bold tabular shrink-0 ${premColor}`}>
+                  {pct > 0 ? "▲ +" : pct < 0 ? "▼ " : ""}{Math.abs(pct).toFixed(2)}%
+                </span>
+              </div>
+              {m.adr_implied_krw != null && (
+                <div className="text-base font-bold tabular text-text truncate">
+                  ₩{Math.round(m.adr_implied_krw).toLocaleString("ko-KR")}
+                </div>
+              )}
             </div>
           );
         })()}

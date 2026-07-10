@@ -1,12 +1,92 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-10T13:54:01.092Z",
-  "count": 25,
+  "updated_at": "2026-07-10T16:12:59.723Z",
+  "count": 29,
   "items": [
+    {
+      "title": "최태원 \"AI분야 수백억달러 투자…HBM 수요 기하급수적 증가\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260710172151071",
+      "source": "연합뉴스 국제",
+      "ts": 1783698255000,
+      "pub": "Sat, 11 Jul 2026 00:44:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"'나스닥' SK하이닉스, 180달러 출발 예상…공모가 대비 20%↑\"",
+      "link": "https://www.yna.co.kr/view/AKR20260710172900071",
+      "source": "연합뉴스 국제",
+      "ts": 1783696596000,
+      "pub": "Sat, 11 Jul 2026 00:16:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "최태원 \"AI 메모리 수요, 기하급수적 증가…생산 두 배 늘려도 부족\"",
+      "link": "https://www.hankyung.com/article/202607108890i",
+      "source": "한국경제",
+      "ts": 1783696089000,
+      "pub": "Sat, 11 Jul 2026 00:08:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "최태원 \"하이닉스 美상장 역사적 순간…AI분야 수백억달러 투자\"",
+      "link": "https://www.yna.co.kr/view/AKR20260710172100071",
+      "source": "연합뉴스 국제",
+      "ts": 1783694966000,
+      "pub": "Fri, 10 Jul 2026 23:49:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 ADR 거래 시작…타임스스퀘어엔 \"웰컴 투 나스닥\"",
+      "link": "https://www.yna.co.kr/view/AKR20260710171600072",
+      "source": "연합뉴스 국제",
+      "ts": 1783692982000,
+      "pub": "Fri, 10 Jul 2026 23:16:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中 '반도체 핵심소재' 헬륨 수출 금지",
+      "link": "https://www.hankyung.com/article/2026071088521",
+      "source": "한국경제",
+      "ts": 1783691883000,
+      "pub": "Fri, 10 Jul 2026 22:58:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK 곽노정 \"전 세계 투자자들에 새로운 문 열려 나스닥 입성\"",
+      "link": "https://www.yna.co.kr/view/AKR20260710170500003",
+      "source": "연합뉴스 국제",
+      "ts": 1783691838000,
+      "pub": "Fri, 10 Jul 2026 22:57:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, SK하이닉스 ADR 상장 속 상승 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260710170600009",
+      "source": "연합뉴스 국제",
+      "ts": 1783691685000,
+      "pub": "Fri, 10 Jul 2026 22:54:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'반도체 핵심' 헬륨도 틀어막은 중국…전문가가 본 진짜 이유",
+      "link": "https://www.hankyung.com/article/2026071088597",
+      "source": "한국경제",
+      "ts": 1783691363000,
+      "pub": "Fri, 10 Jul 2026 22:49:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스, 나스닥 화려한 데뷔…최태원 '환한 미소' [영상]",
+      "link": "https://www.hankyung.com/article/202607108847g",
+      "source": "한국경제",
+      "ts": 1783690994000,
+      "pub": "Fri, 10 Jul 2026 22:43:14 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "SK하이닉스, 美나스닥 입성…'AI 파트너' 글로벌 영토 확장",
       "link": "https://www.yna.co.kr/view/AKR20260710167800072",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1783690200000,
       "pub": "Fri, 10 Jul 2026 22:30:00 +0900",
       "sentiment": "neutral"
@@ -41,14 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783675615000,
       "pub": "Fri, 10 Jul 2026 18:26:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"하이닉스 재평가 땐 삼전 웃는다…1만피 시대 열 결정적 트리거\"",
-      "link": "https://www.hankyung.com/article/2026071086131",
-      "source": "한국경제",
-      "ts": 1783674766000,
-      "pub": "Fri, 10 Jul 2026 18:12:46 +0900",
       "sentiment": "neutral"
     },
     {
@@ -162,46 +234,6 @@
       "ts": 1783640719000,
       "pub": "Fri, 10 Jul 2026 08:45:19 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 \"ADR 공모가 149달러\"…외국기업 美 IPO 사상 최대",
-      "link": "https://www.yna.co.kr/view/AKR20260710015400072",
-      "source": "연합뉴스 국제",
-      "ts": 1783635727000,
-      "pub": "Fri, 10 Jul 2026 07:22:07 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[속보] SK하이닉스 \"ADR 공모가 주당 149달러 확정\"",
-      "link": "https://www.yna.co.kr/view/AKR20260710014200072",
-      "source": "연합뉴스 국제",
-      "ts": 1783634769000,
-      "pub": "Fri, 10 Jul 2026 07:06:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"SK하이닉스 ADR 공모가 주당 149달러 확정\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260709202251072",
-      "source": "연합뉴스 국제",
-      "ts": 1783632712000,
-      "pub": "Fri, 10 Jul 2026 06:31:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美상무장관, 마이크론 행사서 \"삼성·하이닉스 美생산확대\" 촉구(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260710002551091",
-      "source": "연합뉴스 국제",
-      "ts": 1783632519000,
-      "pub": "Fri, 10 Jul 2026 06:28:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "중동 불안에도 뉴욕증시 상승…반도체 랠리에 나스닥 1.3%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260710005951072",
-      "source": "연합뉴스 국제",
-      "ts": 1783630954000,
-      "pub": "Fri, 10 Jul 2026 06:02:34 +0900",
-      "sentiment": "positive"
     }
   ]
 }

@@ -49,17 +49,16 @@
     },
     {
       "slug": "hynix_adr",
-      "ticker": "binance:SKHYNIX",
+      "ticker": "nasdaq:SKHY",
       "dex": "xyz",
-      "source": "binance",
-      "binance_symbol": "SKHYNIXUSDT",
+      "source": "adr",
+      "is_adr": true,
       "name_ko": "SK하이닉스 ADR",
       "name_en": "SK Hynix ADR",
       "category": "korea",
       "tier": 1,
-      "share_ratio": 1.0,
       "regular_market": "NASDAQ",
-      "note": "나스닥 ADR, 2026-07-10 상장 (임시 SKHYV → 정식 SKHY 전환 중)"
+      "note": "나스닥 ADR, 2026-07-10 상장 (임시 SKHYV → 정식 SKHY 전환 중). USD 시세 = Yahoo, KOSPI 1주의 약 1/10"
     },
     {
       "slug": "hyundai",

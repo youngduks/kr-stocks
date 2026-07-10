@@ -61,10 +61,14 @@ export default async function SymbolPage({ params }: Props) {
   const meta = bySlug(params.slug);
   if (!meta || meta.category !== params.category) notFound();
 
-  // 가격 + 캔들 병렬 fetch (환율 종목은 차트 skip)
-  const candlesPromise = meta.is_fx
-    ? Promise.resolve({ bars1H: [], bars4H: [] })
-    : fetchCandleSet(meta.ticker, { source: meta.source, binanceSymbol: meta.binance_symbol });
+  // 가격 + 캔들 병렬 fetch (환율·ADR 종목은 차트 skip — perp 캔들 소스 없음)
+  const candlesPromise =
+    meta.is_fx || meta.source === "adr"
+      ? Promise.resolve({ bars1H: [], bars4H: [] })
+      : fetchCandleSet(meta.ticker, {
+          source: meta.source === "binance" ? "binance" : "hl",
+          binanceSymbol: meta.binance_symbol,
+        });
   const [data, candles] = await Promise.all([
     fetchAllPrices(),
     candlesPromise,
@@ -248,6 +252,14 @@ export default async function SymbolPage({ params }: Props) {
                     dotColor: "bg-accent-amber",
                     pulse: true,
                   }
+                : isAdr
+                ? {
+                    label: "나스닥 정규장 마감 — 마지막 종가",
+                    pill: "나스닥 마감",
+                    pillColor: "text-text-dim",
+                    dotColor: "bg-text-dim",
+                    pulse: false,
+                  }
                 : {
                     label: isBn ? "Binance 선물 24시간 시세 (야간·휴장 활성)" : "Hyperliquid 24시간 시세 (야간·휴장 활성)",
                     pill: isBn ? "Binance" : "Hyperliquid",
@@ -265,7 +277,22 @@ export default async function SymbolPage({ params }: Props) {
               </div>
             );
           })()}
-          {row.category === "korea" ? (
+          {isAdr ? (
+            <>
+              {/* ADR — 미국 상장·USD가 본질. 달러 메인 + 원화 환산 보조 */}
+              <div className="text-4xl md:text-5xl font-bold tabular text-text mb-1">
+                ${(m.main_display_usd ?? m.mark_px_usd).toFixed(2)}
+              </div>
+              <div className="text-sm text-text-muted tabular">
+                ≈ ₩{Math.round(m.main_display_krw ?? m.krw_price).toLocaleString("ko-KR")} · 나스닥 ADR
+              </div>
+              {m.regular_prev_close_usd != null && (
+                <div className="text-[12px] text-text-dim tabular mt-1">
+                  전일 종가 ${m.regular_prev_close_usd.toFixed(2)}
+                </div>
+              )}
+            </>
+          ) : row.category === "korea" ? (
             <>
               <div className="text-4xl md:text-5xl font-bold tabular text-text mb-1">
                 ₩{Math.round(m.main_display_krw ?? m.per_share_krw ?? m.krw_price).toLocaleString("ko-KR")}
@@ -513,8 +540,9 @@ export default async function SymbolPage({ params }: Props) {
         })()}
 
         {/* 24시간 시장 sentiment — HL 거래자 포지션 기반 (코인 metric 숨김, 상승/하락 베팅 비율만 표시) */}
-        {!row.is_fx && m.funding != null && (
-          <FundingBar funding={m.funding} locale="ko" source={row.source} />
+        {/* ADR은 perp 없어 funding 무의미 → sentiment hide */}
+        {!row.is_fx && !isAdr && m.funding != null && (
+          <FundingBar funding={m.funding} locale="ko" source={row.source === "binance" ? "binance" : "hl"} />
         )}
 
         {!row.is_fx && (candles.bars1H.length > 0 || candles.bars4H.length > 0) && (

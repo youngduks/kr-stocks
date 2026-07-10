@@ -82,7 +82,8 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
   const showSharePrefix = m?.per_share_krw != null && row.share_ratio !== 1.0;
 
   // 메인 통화: 한국 주식만 KRW 메인, 지수는 단위 없는 숫자, 그 외 USD 메인
-  const isKR = cat === "korea";
+  // ADR(미국 상장·USD)은 korea 카테고리여도 미국주식처럼 달러 메인 + 원화 보조로 렌더
+  const isKR = cat === "korea" && row.is_adr !== true;
   const isIndex = row.is_index === true;
   const mainPrice = isIndex
     ? formatIndex(displayUSD) // 지수: 7,387.60 같이 단위 없는 숫자
@@ -130,6 +131,14 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
                         pulse: true,
                         label: "NXT",
                         title: locale === "en" ? "NXT after-hours" : "NXT 시간외 거래",
+                      }
+                    : row.is_adr
+                    ? {
+                        color: "bg-text-dim",
+                        textColor: "text-text-dim",
+                        pulse: false,
+                        label: locale === "en" ? "Nasdaq closed" : "나스닥 마감",
+                        title: locale === "en" ? "Nasdaq regular session closed" : "나스닥 정규장 마감",
                       }
                     : {
                         color: "bg-accent-blue",
@@ -214,6 +223,8 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
         {/* 정규장 종가 줄 — premium 박스 아래 (형님 요청: KRX 종가 → 정규장 대비 아래로 이동). nxt + closed phase 표시. */}
         {/* 비상장은 regular_close 매핑 없음 → null 자동 */}
         {m?.market_phase && m.market_phase !== "live" && (() => {
+          // ADR은 메인 가격 자체가 마지막 정규장 가격 → 별도 종가 줄 중복이라 생략
+          if (row.is_adr) return null;
           if (isIndex && m.regular_close_usd != null) {
             const v = m.regular_close_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
             return <div className="mt-1.5 text-[10px] text-text-dim tabular">{locale === "en" ? `Reg close ${v}` : `정규장 종가 ${v}`}</div>;
@@ -240,8 +251,8 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
         {/* 시장 sentiment — HL 거래자 포지션 기반 (형님 5/13 요청 확장: 미국주식·비상장·테마·지수 모두 노출)
             줄 1: 📊 ↑상승 X% / ↓하락 Y% (베팅 비율)
             줄 2: 펀딩 +0.0X% · 롱포지션 유리 / 숏포지션 유리 / 균형
-            환율(is_fx)은 funding 의미 약함 → 자동 hide */}
-        {!row.is_fx && m?.funding != null && !isNaN(m.funding) && (() => {
+            환율(is_fx)은 funding 의미 약함 → 자동 hide. ADR은 perp 없어 funding 무의미 → hide */}
+        {!row.is_fx && !row.is_adr && m?.funding != null && !isNaN(m.funding) && (() => {
           const longPct = fundingToLongPct(m.funding);
           const shortPct = 100 - longPct;
           const isBull = m.funding > 0.00001;

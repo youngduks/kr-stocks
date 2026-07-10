@@ -5,8 +5,8 @@ export type SymbolMeta = {
   slug: string;
   ticker: string;
   dex: "xyz" | "vntl";
-  /** 시세 소스 — 미지정/"hl"이면 Hyperliquid(dex), "binance"면 Binance USDT-M 선물. */
-  source?: "hl" | "binance";
+  /** 시세 소스 — 미지정/"hl"이면 Hyperliquid(dex), "binance"면 Binance USDT-M 선물, "adr"이면 Yahoo(미국 ADR·USD). */
+  source?: "hl" | "binance" | "adr";
   /** source="binance"일 때 fapi 심볼 (예: SAMSUNGUSDT). */
   binance_symbol?: string;
   name_ko?: string;
@@ -17,6 +17,8 @@ export type SymbolMeta = {
   is_index?: boolean;
   is_etf?: boolean;
   is_fx?: boolean;
+  /** 미국 상장 ADR — 카테고리는 korea여도 USD로 렌더링(달러 메인 + 원화 보조). 시세는 Yahoo. */
+  is_adr?: boolean;
   share_ratio?: number;
   regular_market?: string;
   krx_code?: string;

@@ -145,6 +145,10 @@ export async function fetchAllPrices(): Promise<{
   ]);
 
   const rows: PriceRow[] = SYMBOLS.map((sym) => {
+    // 미국 ADR (Yahoo·USD 주식) — perp ctx 미사용. Yahoo 정규장 데이터가 곧 메인 가격.
+    if (sym.source === "adr") {
+      return buildAdrRow(sym, regCloses[sym.slug], fx.rate);
+    }
     const ctx =
       sym.source === "binance"
         ? sym.binance_symbol
@@ -294,4 +298,50 @@ export async function fetchAllPrices(): Promise<{
 function round(n: number, d: number): number {
   const f = Math.pow(10, d);
   return Math.round(n * f) / f;
+}
+
+// 미국 ADR row 빌더 — Yahoo 정규장(USD)이 메인 가격. perp/HL 없음.
+// 나스닥 개장(한국 야간)=live, 그 외=closed(마지막 종가가 메인). 원화는 fx 환산 보조.
+function buildAdrRow(sym: SymbolMeta, rc: RegularClose | undefined, fxRate: number): PriceRow {
+  if (!rc) return { ...sym, market: null };
+  const usd = rc.price;
+  const krw = usd * fxRate;
+  const prevUsd = rc.previousClose != null && rc.previousClose > 0 ? rc.previousClose : null;
+  const chg =
+    rc.fluctuationsRatio != null
+      ? rc.fluctuationsRatio
+      : prevUsd != null
+      ? ((usd - prevUsd) / prevUsd) * 100
+      : 0;
+  const phase: "live" | "closed" = rc.phase === "live" ? "live" : "closed";
+  return {
+    ...sym,
+    market: {
+      mark_px_usd: round(usd, 4),
+      prev_day_px_usd: round(prevUsd ?? usd, 4),
+      change_24h_pct: round(chg, 3),
+      krw_price: round(krw, 2),
+      per_share_usd: round(usd, 4),
+      per_share_krw: round(krw, 2),
+      open_interest: 0,
+      day_volume_usd: 0,
+      funding: 0,
+      regular_close: usd,
+      regular_close_krw: round(krw, 2),
+      regular_close_usd: round(usd, 4),
+      regular_prev_close_krw: prevUsd != null ? round(prevUsd * fxRate, 2) : null,
+      regular_prev_close_usd: prevUsd != null ? round(prevUsd, 4) : null,
+      is_intraday_live: rc.isLive === true,
+      regular_source: "yahoo",
+      hl_premium_pct: null,
+      nxt_price_krw: null,
+      nxt_price_usd: null,
+      main_display_krw: round(krw, 2),
+      main_display_usd: round(usd, 4),
+      main_source: "regular_live",
+      market_phase: phase,
+      main_change_pct: round(chg, 3),
+      main_change_label: phase === "live" ? "장중 변동" : "전일 대비",
+    },
+  };
 }

@@ -1,14 +1,54 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-10T01:46:51.684Z",
-  "count": 29,
+  "updated_at": "2026-07-10T05:52:12.063Z",
+  "count": 22,
   "items": [
     {
-      "title": "'반도체 클러스터 조성지' 광주 군공항 주변, 토지거래허가구역 지정",
-      "link": "https://www.mt.co.kr/policy/2026/07/10/2026071009523951190",
-      "source": "머니투데이",
-      "ts": 1783645674000,
-      "pub": "Fri, 10 Jul 2026 10:07:54 +0900",
+      "title": "SK하이닉스 ADR로 265억 달러 조달…美 외국 기업 IPO 중 최대",
+      "link": "https://www.hankyung.com/article/202607107721i",
+      "source": "한국경제",
+      "ts": 1783657057000,
+      "pub": "Fri, 10 Jul 2026 13:17:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"스페이스X·아람코 다음\"…SK하이닉스 美 상장, 세계 3위 규모",
+      "link": "https://www.hankyung.com/article/2026071076457",
+      "source": "한국경제",
+      "ts": 1783651815000,
+      "pub": "Fri, 10 Jul 2026 11:50:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "스페이스X·아람코 이어 세계 3위…숫자로 본 SK하이닉스 ADR",
+      "link": "https://www.yna.co.kr/view/AKR20260710064900072",
+      "source": "연합뉴스 국제",
+      "ts": 1783650410000,
+      "pub": "Fri, 10 Jul 2026 11:26:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미국 ADR 상장 앞두고...'1% 초고수'의 선택도 'SK하이닉스'",
+      "link": "https://www.hankyung.com/article/202607107531i",
+      "source": "한국경제",
+      "ts": 1783648757000,
+      "pub": "Fri, 10 Jul 2026 10:59:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "기보·하나은행, 반도체 기업 금융지원 확대",
+      "link": "https://www.yna.co.kr/view/AKR20260710062400051",
+      "source": "연합뉴스 경제",
+      "ts": 1783648135000,
+      "pub": "Fri, 10 Jul 2026 10:48:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 투심 회복에 미국발 훈풍까지…코스피, 7500선 탈환",
+      "link": "https://www.hankyung.com/article/2026071074396",
+      "source": "한국경제",
+      "ts": 1783646995000,
+      "pub": "Fri, 10 Jul 2026 10:29:55 +0900",
       "sentiment": "neutral"
     },
     {
@@ -36,14 +76,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"삼성·SK하이닉스, 미국서 생산 더 늘리길\"...미 상무장관 투자 압박",
-      "link": "https://www.mt.co.kr/world/2026/07/10/2026071009105921027",
-      "source": "머니투데이",
-      "ts": 1783642955000,
-      "pub": "Fri, 10 Jul 2026 09:22:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[특징주] 삼성전자, 장초반 2%대 상승…SK하이닉스는 0.78%↑",
       "link": "https://www.yna.co.kr/view/AKR20260710035600008",
       "source": "연합뉴스 경제",
@@ -52,67 +84,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "반도체 급반등에 코스피 단숨에 7500 회복…코스닥도 800 위로",
-      "link": "https://www.mt.co.kr/stock/2026/07/10/2026071009181067891",
-      "source": "머니투데이",
-      "ts": 1783642738000,
-      "pub": "Fri, 10 Jul 2026 09:18:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"글로벌 반도체 주가 뒤흔든 주범은 한국\"…뼈때린 일본 [도쿄나우]",
-      "link": "https://www.hankyung.com/article/202607107086i",
-      "source": "한국경제",
-      "ts": 1783642479000,
-      "pub": "Fri, 10 Jul 2026 09:14:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스, ADR 공모가 149달러 확정…40조원 조달",
-      "link": "https://www.mt.co.kr/stock/2026/07/10/2026071008443820555",
-      "source": "머니투데이",
-      "ts": 1783640976000,
-      "pub": "Fri, 10 Jul 2026 08:49:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "SK하이닉스 ADR 공모가 149달러 확정…美 역대 IPO 중 2위 규모(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260710015451072",
       "source": "연합뉴스 국제",
       "ts": 1783640719000,
       "pub": "Fri, 10 Jul 2026 08:45:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 \"ADR 공모가 149달러\"…외국기업 美 IPO 사상 최대",
-      "link": "https://www.hankyung.com/article/202607106988i",
-      "source": "한국경제",
-      "ts": 1783640517000,
-      "pub": "Fri, 10 Jul 2026 08:41:57 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\"메모리 고점 신호 부재…전략은 여전히 반도체 대형주\"",
-      "link": "https://www.hankyung.com/article/2026071069636",
-      "source": "한국경제",
-      "ts": 1783640301000,
-      "pub": "Fri, 10 Jul 2026 08:38:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "마이크론, 美 반도체 공장 투자 2500억달러로 늘려",
-      "link": "https://www.hankyung.com/article/202607106806i",
-      "source": "한국경제",
-      "ts": 1783640253000,
-      "pub": "Fri, 10 Jul 2026 08:37:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"미국에 공장 지어라\"…삼성·SK하이닉스 겨냥한 美상무장관",
-      "link": "https://www.hankyung.com/article/2026071069477",
-      "source": "한국경제",
-      "ts": 1783639891000,
-      "pub": "Fri, 10 Jul 2026 08:31:31 +0900",
       "sentiment": "neutral"
     },
     {
@@ -201,38 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783589505000,
       "pub": "Thu, 9 Jul 2026 18:31:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'반도체 부지' 인근 토지거래허가구역 지정에 기대반 우려반",
-      "link": "https://www.yna.co.kr/view/AKR20260709175600054",
-      "source": "연합뉴스 경제",
-      "ts": 1783585889000,
-      "pub": "Thu, 9 Jul 2026 17:31:29 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'ADR상장 D-1' SK하이닉스, 티커는 'SKHY'…\"본주 재평가 기대\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260709071751008",
-      "source": "연합뉴스 경제",
-      "ts": 1783582941000,
-      "pub": "Thu, 9 Jul 2026 16:42:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[1보] 반도체클러스터 광주 군공항 인근 토지거래허가구역 지정",
-      "link": "https://www.yna.co.kr/view/AKR20260709164500003",
-      "source": "연합뉴스 경제",
-      "ts": 1783581963000,
-      "pub": "Thu, 9 Jul 2026 16:26:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 하루앞 ADR상장 기대? 하이닉스 5%↑…삼전 0.18%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260709047751008",
-      "source": "연합뉴스 경제",
-      "ts": 1783580127000,
-      "pub": "Thu, 9 Jul 2026 15:55:27 +0900",
       "sentiment": "neutral"
     }
   ]

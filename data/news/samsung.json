@@ -1,7 +1,7 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-10T01:46:51.683Z",
-  "count": 7,
+  "updated_at": "2026-07-10T05:52:12.063Z",
+  "count": 3,
   "items": [
     {
       "title": "코스피, 2~3% 상승세…삼성전자 강세, 하이닉스 강보합(종합)",
@@ -25,38 +25,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783642800000,
       "pub": "Fri, 10 Jul 2026 09:20:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'빨간불' 들어온 삼전닉스, 3%대 동반 상승",
-      "link": "https://www.mt.co.kr/stock/2026/07/10/2026071009051774957",
-      "source": "머니투데이",
-      "ts": 1783642491000,
-      "pub": "Fri, 10 Jul 2026 09:14:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 실적은 죄가 없다, 수급이 문제다",
-      "link": "https://www.hankyung.com/article/202607083372i",
-      "source": "한국경제",
-      "ts": 1783641715000,
-      "pub": "Fri, 10 Jul 2026 09:01:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"메모리 고점 신호 부재…전략은 여전히 반도체 대형주\"",
-      "link": "https://www.hankyung.com/article/2026071069636",
-      "source": "한국경제",
-      "ts": 1783640301000,
-      "pub": "Fri, 10 Jul 2026 08:38:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 하루앞 ADR상장 기대? 하이닉스 5%↑…삼전 0.18%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260709047751008",
-      "source": "연합뉴스 경제",
-      "ts": 1783580127000,
-      "pub": "Thu, 9 Jul 2026 15:55:27 +0900",
       "sentiment": "neutral"
     }
   ]

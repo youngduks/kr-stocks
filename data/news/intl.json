@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-10T01:46:51.682Z",
-  "count": 31,
+  "updated_at": "2026-07-10T05:52:12.061Z",
+  "count": 24,
   "items": [
+    {
+      "title": "인도, 스마트폰 등 일부 전자제품 부품 수입관세 한시 면제",
+      "link": "https://www.yna.co.kr/view/AKR20260710063300009",
+      "source": "연합뉴스 국제",
+      "ts": 1783648912000,
+      "pub": "Fri, 10 Jul 2026 11:01:52 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "백악관 테러모의 8명 기소…\"트럼프·네타냐후 등 살해 계획\"",
       "link": "https://www.yna.co.kr/view/AKR20260710057100009",
@@ -20,27 +28,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "정부, 독일·프랑스 등 유럽산 PVC 페이스트 수지에 덤핑방지관세 부과",
-      "link": "https://www.mt.co.kr/economy/2026/07/10/2026071008070179287",
-      "source": "머니투데이",
-      "ts": 1783645200000,
-      "pub": "Fri, 10 Jul 2026 10:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美 당국자 \"레바논 남부 이스라엘군 철수 시범구역 곧 가동\"",
       "link": "https://www.yna.co.kr/view/AKR20260710040700009",
       "source": "연합뉴스 국제",
       "ts": 1783644521000,
       "pub": "Fri, 10 Jul 2026 09:48:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'퇴장' 잉글랜드 콴사, 2경기 출전 정지...'트럼프 면죄부' 발로건과 대조",
-      "link": "https://www.mt.co.kr/world/2026/07/10/2026071008472591980",
-      "source": "머니투데이",
-      "ts": 1783643838000,
-      "pub": "Fri, 10 Jul 2026 09:37:18 +0900",
       "sentiment": "neutral"
     },
     {
@@ -201,54 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783591692000,
       "pub": "Thu, 9 Jul 2026 19:08:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "폴란드와 역사갈등…우크라 EU 가입 발목 잡나",
-      "link": "https://www.yna.co.kr/view/AKR20260709180300082",
-      "source": "연합뉴스 국제",
-      "ts": 1783587705000,
-      "pub": "Thu, 9 Jul 2026 18:01:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "120조원 지원 확보한 젤렌스키…나토회의서 달라진 위상",
-      "link": "https://www.yna.co.kr/view/AKR20260709172200109",
-      "source": "연합뉴스 국제",
-      "ts": 1783586229000,
-      "pub": "Thu, 9 Jul 2026 17:37:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라의 에너지 집중 타격에 비상 걸린 러…경유 수출도 금지",
-      "link": "https://www.yna.co.kr/view/AKR20260709171100108",
-      "source": "연합뉴스 국제",
-      "ts": 1783584020000,
-      "pub": "Thu, 9 Jul 2026 17:00:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 새 전용기 놔두고 구형 먼저…트럼프 환승은 암살 시도 우려?",
-      "link": "https://www.yna.co.kr/view/AKR20260709165400704",
-      "source": "연합뉴스 국제",
-      "ts": 1783582526000,
-      "pub": "Thu, 9 Jul 2026 16:35:26 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "이스라엘 국방 \"레바논에 군 계속 주둔…누구 승인도 필요 없어\"",
-      "link": "https://www.yna.co.kr/view/AKR20260709166100079",
-      "source": "연합뉴스 국제",
-      "ts": 1783582525000,
-      "pub": "Thu, 9 Jul 2026 16:35:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "동맹국 상품도 수입금지 추진…트럼프의 새 '무역 몽둥이' 되나",
-      "link": "https://www.yna.co.kr/view/AKR20260709159000009",
-      "source": "연합뉴스 국제",
-      "ts": 1783581632000,
-      "pub": "Thu, 9 Jul 2026 16:20:32 +0900",
       "sentiment": "neutral"
     }
   ]

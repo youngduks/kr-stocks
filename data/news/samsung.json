@@ -1,7 +1,7 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-10T20:12:00.589Z",
-  "count": 9,
+  "updated_at": "2026-07-10T21:49:55.184Z",
+  "count": 10,
   "items": [
     {
       "title": "최태원 \"AI분야 수백억달러 투자…HBM 수요 기하급수적 증가\"(종합2보)",
@@ -17,6 +17,14 @@
       "source": "연합뉴스 국제",
       "ts": 1783698255000,
       "pub": "Sat, 11 Jul 2026 00:44:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "최태원 \"AI메모리 생산 2배 늘려도 모자라…美에 수백억 투자 가시화\"",
+      "link": "https://www.mt.co.kr/world/2026/07/11/2026071100070026663",
+      "source": "머니투데이",
+      "ts": 1783696129000,
+      "pub": "Sat, 11 Jul 2026 00:08:49 +0900",
       "sentiment": "neutral"
     },
     {

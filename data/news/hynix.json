@@ -1,8 +1,72 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-10T20:12:00.590Z",
-  "count": 32,
+  "updated_at": "2026-07-10T21:49:55.185Z",
+  "count": 45,
   "items": [
+    {
+      "title": "외신도 \"SK하이닉스 대박\"…美증시 상장 봇물 터졌다",
+      "link": "https://www.mt.co.kr/world/2026/07/11/2026071106113218233",
+      "source": "머니투데이",
+      "ts": 1783718070000,
+      "pub": "Sat, 11 Jul 2026 06:14:30 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"호남권 반도체 덕\" 64% 뛴 이 종목...'-24%' 한화오션은 '비명'[김근희의 증시랩업]",
+      "link": "https://www.mt.co.kr/stock/2026/07/11/2026071017554776263",
+      "source": "머니투데이",
+      "ts": 1783717200000,
+      "pub": "Sat, 11 Jul 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 美성공 데뷔…기술주 강세에 시장도 활짝[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/07/11/2026071105551670602",
+      "source": "머니투데이",
+      "ts": 1783717067000,
+      "pub": "Sat, 11 Jul 2026 05:57:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시 'SK하이닉스 첫날' 상승 마감…나스닥 0.3%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260711005551072",
+      "source": "연합뉴스 국제",
+      "ts": 1783716681000,
+      "pub": "Sat, 11 Jul 2026 05:51:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "최태원 승부수 통했다…SK하이닉스, 나스닥 첫날 13% 급등 '성공 데뷔'",
+      "link": "https://www.mt.co.kr/world/2026/07/11/2026071105452071882",
+      "source": "머니투데이",
+      "ts": 1783716459000,
+      "pub": "Sat, 11 Jul 2026 05:47:39 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"SK하이닉스 '대박'\"…\"더 많은 해외기업의 美상장 길 열어\"",
+      "link": "https://www.yna.co.kr/view/AKR20260711006200075",
+      "source": "연합뉴스 국제",
+      "ts": 1783716046000,
+      "pub": "Sat, 11 Jul 2026 05:40:46 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "SK하이닉스, 나스닥 첫날 168달러로 급등마감…공모가대비 13%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260711003451072",
+      "source": "연합뉴스 국제",
+      "ts": 1783714771000,
+      "pub": "Sat, 11 Jul 2026 05:19:31 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'SK하이닉스 데뷔 첫날' 뉴욕증시 강세 마감…나스닥 0.3%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260711005500072",
+      "source": "연합뉴스 국제",
+      "ts": 1783714288000,
+      "pub": "Sat, 11 Jul 2026 05:11:28 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[속보] SK하이닉스, 나스닥 첫날 168.49달러 마감…공모가 대비 13%↑",
       "link": "https://www.yna.co.kr/view/AKR20260711005200091",
@@ -20,6 +84,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "뉴욕 타임스퀘어 뒤덮은 SK하이닉스…\"웰컴 투 나스닥\"",
+      "link": "https://www.mt.co.kr/world/2026/07/11/2026071103321816490",
+      "source": "머니투데이",
+      "ts": 1783708937000,
+      "pub": "Sat, 11 Jul 2026 03:42:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "SK하이닉스, 나스닥서 170달러 안팎 거래…공모가 대비 14%↑",
       "link": "https://www.yna.co.kr/view/AKR20260711003400072",
       "source": "연합뉴스 국제",
@@ -33,6 +105,14 @@
       "source": "한국경제",
       "ts": 1783702801000,
       "pub": "Sat, 11 Jul 2026 02:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 美나스닥 입성하자마자 14%↑…시초가 170달러",
+      "link": "https://www.mt.co.kr/world/2026/07/11/2026071101440341893",
+      "source": "머니투데이",
+      "ts": 1783702314000,
+      "pub": "Sat, 11 Jul 2026 01:51:54 +0900",
       "sentiment": "neutral"
     },
     {
@@ -60,6 +140,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "최태원 \"AI메모리 생산 2배 늘려도 모자라…美에 수백억 투자 가시화\"",
+      "link": "https://www.mt.co.kr/world/2026/07/11/2026071100070026663",
+      "source": "머니투데이",
+      "ts": 1783696129000,
+      "pub": "Sat, 11 Jul 2026 00:08:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "최태원 \"AI 메모리 수요, 기하급수적 증가…생산 두 배 늘려도 부족\"",
       "link": "https://www.hankyung.com/article/202607108890i",
       "source": "한국경제",
@@ -73,6 +161,14 @@
       "source": "연합뉴스 국제",
       "ts": 1783694966000,
       "pub": "Fri, 10 Jul 2026 23:49:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中, 헬륨 수출 일시 금지…청와대 \"반도체 업계에 미치는 영향 없어\"",
+      "link": "https://www.mt.co.kr/politics/2026/07/10/2026071023334494418",
+      "source": "머니투데이",
+      "ts": 1783694106000,
+      "pub": "Fri, 10 Jul 2026 23:35:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -121,6 +217,14 @@
       "source": "한국경제",
       "ts": 1783690994000,
       "pub": "Fri, 10 Jul 2026 22:43:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스, 美 나스닥 입성…자본심장부에 울린 '오프닝벨'",
+      "link": "https://www.mt.co.kr/world/2026/07/10/2026071021571061751",
+      "source": "머니투데이",
+      "ts": 1783690200000,
+      "pub": "Fri, 10 Jul 2026 22:30:00 +0900",
       "sentiment": "neutral"
     },
     {

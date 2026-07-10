@@ -1,22 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-10T11:49:30.243Z",
-  "count": 26,
+  "updated_at": "2026-07-10T13:54:01.092Z",
+  "count": 25,
   "items": [
+    {
+      "title": "SK하이닉스, 美나스닥 입성…'AI 파트너' 글로벌 영토 확장",
+      "link": "https://www.yna.co.kr/view/AKR20260710167800072",
+      "source": "연합뉴스 경제",
+      "ts": 1783690200000,
+      "pub": "Fri, 10 Jul 2026 22:30:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "JP모간 뉴욕본사 태극기로 덮었다…월가 홀린 SK하이닉스 [종목+]",
       "link": "https://www.hankyung.com/article/2026071083056",
       "source": "한국경제",
       "ts": 1783681206000,
       "pub": "Fri, 10 Jul 2026 20:00:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中, 반도체 필수 소재 헬륨 수출금지…오늘부터 시행",
-      "link": "https://www.mt.co.kr/world/2026/07/10/2026071019410590974",
-      "source": "머니투데이",
-      "ts": 1783680314000,
-      "pub": "Fri, 10 Jul 2026 19:45:14 +0900",
       "sentiment": "neutral"
     },
     {
@@ -201,14 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783630954000,
       "pub": "Fri, 10 Jul 2026 06:02:34 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "중동 불안에도 뉴욕증시 상승…반도체 랠리에 나스닥 1.3%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260710005900072",
-      "source": "연합뉴스 국제",
-      "ts": 1783628063000,
-      "pub": "Fri, 10 Jul 2026 05:14:23 +0900",
       "sentiment": "positive"
     }
   ]

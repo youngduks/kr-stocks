@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-10T11:49:30.241Z",
-  "count": 23,
+  "updated_at": "2026-07-10T13:54:01.090Z",
+  "count": 19,
   "items": [
+    {
+      "title": "이란 안보수장, 이스라엘 겨냥 \"인프라 공격하면 혹독한 보복\"",
+      "link": "https://www.yna.co.kr/view/AKR20260710168500079",
+      "source": "연합뉴스 국제",
+      "ts": 1783687931000,
+      "pub": "Fri, 10 Jul 2026 21:52:11 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[쇼츠] 우크라 \"'스카이넥스'로 러 순항미사일 요격\"",
       "link": "https://www.yna.co.kr/view/AKR20260710150200704",
@@ -146,46 +154,6 @@
       "ts": 1783629285000,
       "pub": "Fri, 10 Jul 2026 05:34:45 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "앤트로픽, '노벨상' 버냉키 前연준의장 독립 지배기구 위원 위촉",
-      "link": "https://www.yna.co.kr/view/AKR20260710006200091",
-      "source": "연합뉴스 국제",
-      "ts": 1783628594000,
-      "pub": "Fri, 10 Jul 2026 05:23:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "네타냐후·트럼프 전화 통화…\"양국 공조 지속 합의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260710006100079",
-      "source": "연합뉴스 국제",
-      "ts": 1783628510000,
-      "pub": "Fri, 10 Jul 2026 05:21:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美연준, 정책 검토 5대 TF 출범…맨큐 등 외부 전문가 수혈",
-      "link": "https://www.yna.co.kr/view/AKR20260710005700072",
-      "source": "연합뉴스 국제",
-      "ts": 1783627750000,
-      "pub": "Fri, 10 Jul 2026 05:09:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 매체 \"부셰르 외곽 군기지, 미·이스라엘 발사체에 피격\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260710004151079",
-      "source": "연합뉴스 국제",
-      "ts": 1783626597000,
-      "pub": "Fri, 10 Jul 2026 04:49:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "정부, 美 '301조 공청회' 출석…\"강제노동 12.5% 관세는 부당\"",
-      "link": "https://www.yna.co.kr/view/AKR20260710005000071",
-      "source": "연합뉴스 국제",
-      "ts": 1783625691000,
-      "pub": "Fri, 10 Jul 2026 04:34:51 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

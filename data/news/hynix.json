@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-10T21:49:55.185Z",
-  "count": 45,
+  "updated_at": "2026-07-10T22:48:19.246Z",
+  "count": 46,
   "items": [
+    {
+      "title": "미국 간 SK하이닉스, ADR 상장으로 'K디스카운트' 깬다",
+      "link": "https://www.mt.co.kr/industry/2026/07/11/2026071015252229272",
+      "source": "머니투데이",
+      "ts": 1783721340000,
+      "pub": "Sat, 11 Jul 2026 07:09:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "외신도 \"SK하이닉스 대박\"…美증시 상장 봇물 터졌다",
       "link": "https://www.mt.co.kr/world/2026/07/11/2026071106113218233",
@@ -10,6 +18,14 @@
       "ts": 1783718070000,
       "pub": "Sat, 11 Jul 2026 06:14:30 +0900",
       "sentiment": "positive"
+    },
+    {
+      "title": "\"이름도 몰랐는데\"…SK하이닉스 美 상장에 외신 '화들짝'",
+      "link": "https://www.hankyung.com/article/2026071088397",
+      "source": "한국경제",
+      "ts": 1783717207000,
+      "pub": "Sat, 11 Jul 2026 06:00:07 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "\"호남권 반도체 덕\" 64% 뛴 이 종목...'-24%' 한화오션은 '비명'[김근희의 증시랩업]",
@@ -353,14 +369,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783644540000,
       "pub": "Fri, 10 Jul 2026 09:49:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼성전자, 장초반 2%대 상승…SK하이닉스는 0.78%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260710035600008",
-      "source": "연합뉴스 경제",
-      "ts": 1783642800000,
-      "pub": "Fri, 10 Jul 2026 09:20:00 +0900",
       "sentiment": "neutral"
     }
   ]

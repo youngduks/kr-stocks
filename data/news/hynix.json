@@ -1,24 +1,8 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-11T22:35:41.847Z",
-  "count": 31,
+  "updated_at": "2026-07-11T23:41:49.218Z",
+  "count": 25,
   "items": [
-    {
-      "title": "나스닥 상장 SK하이닉스, 첫날 13% 급등…'K디스카운트' 깬다",
-      "link": "https://www.mt.co.kr/industry/2026/07/12/2026071206221217715",
-      "source": "머니투데이",
-      "ts": 1783805318000,
-      "pub": "Sun, 12 Jul 2026 06:28:38 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "ADR 발판 삼은 SK하이닉스…인디애나 넘어 '美 신규 팹' 가능성",
-      "link": "https://www.mt.co.kr/industry/2026/07/12/2026071013154596007",
-      "source": "머니투데이",
-      "ts": 1783804897000,
-      "pub": "Sun, 12 Jul 2026 06:21:37 +0900",
-      "sentiment": "neutral"
-    },
     {
       "title": "SK하이닉스 나스닥 상장 흥행대박…국내 증시 온기로 이어질까",
       "link": "https://www.yna.co.kr/view/AKR20260711029900008",
@@ -33,22 +17,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783803607000,
       "pub": "Sun, 12 Jul 2026 06:00:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"행정학, 광고학과 줄줄이 폐지\" 충격...AI·반도체에 올인[차이나는 중국]",
-      "link": "https://www.mt.co.kr/opinion/2026/07/12/2026070914134039352",
-      "source": "머니투데이",
-      "ts": 1783803600000,
-      "pub": "Sun, 12 Jul 2026 06:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 공장, 빨리 세워야 이긴다…'메모리 빅3' 증설 전쟁",
-      "link": "https://www.mt.co.kr/industry/2026/07/12/2026071011292274105",
-      "source": "머니투데이",
-      "ts": 1783803531000,
-      "pub": "Sun, 12 Jul 2026 05:58:51 +0900",
       "sentiment": "neutral"
     },
     {
@@ -185,22 +153,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783691838000,
       "pub": "Fri, 10 Jul 2026 22:57:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, SK하이닉스 ADR 상장 속 상승 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260710170600009",
-      "source": "연합뉴스 국제",
-      "ts": 1783691685000,
-      "pub": "Fri, 10 Jul 2026 22:54:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스, 美나스닥 입성…'AI 파트너' 글로벌 영토 확장",
-      "link": "https://www.yna.co.kr/view/AKR20260710167800072",
-      "source": "연합뉴스 국제",
-      "ts": 1783690200000,
-      "pub": "Fri, 10 Jul 2026 22:30:00 +0900",
       "sentiment": "neutral"
     },
     {

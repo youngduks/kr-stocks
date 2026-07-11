@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-11T01:26:12.010Z",
-  "count": 21,
+  "updated_at": "2026-07-11T04:51:57.200Z",
+  "count": 26,
   "items": [
+    {
+      "title": "연준, 솔로 미니 2집 발매 하루 만에 66만 장 돌파..커리어하이 달성",
+      "link": "https://www.mt.co.kr/entertainment/2026/07/11/2026071113047228518",
+      "source": "머니투데이",
+      "ts": 1783742651000,
+      "pub": "Sat, 11 Jul 2026 13:04:11 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "트럼프 \"이란이 내 암살 시도하면 철저히 몰살·파괴\"",
+      "link": "https://www.yna.co.kr/view/AKR20260711030300009",
+      "source": "연합뉴스 국제",
+      "ts": 1783742603000,
+      "pub": "Sat, 11 Jul 2026 13:03:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 '휴전종료' 선언했지만 대화동력 유지엔 '이심전심'",
+      "link": "https://www.yna.co.kr/view/AKR20260711026500009",
+      "source": "연합뉴스 국제",
+      "ts": 1783738381000,
+      "pub": "Sat, 11 Jul 2026 11:53:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"호르무즈 열고 사과하라\"…트럼프, 이란에 최후통첩",
+      "link": "https://www.mt.co.kr/world/2026/07/11/2026071110325821031",
+      "source": "머니투데이",
+      "ts": 1783734444000,
+      "pub": "Sat, 11 Jul 2026 10:47:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "워시 의장, 연준 개혁 TF 출범...드림팀 꾸려 대수술 나선다",
+      "link": "https://www.mt.co.kr/world/2026/07/11/2026071109224376832",
+      "source": "머니투데이",
+      "ts": 1783733390000,
+      "pub": "Sat, 11 Jul 2026 10:29:50 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"휴전 끝났다\" 트럼프 통보에 이란도 \"항복 없다\"…강대강 대치",
       "link": "https://www.hankyung.com/article/2026071189777",
@@ -25,6 +65,22 @@
       "source": "연합뉴스 국제",
       "ts": 1783713713000,
       "pub": "Sat, 11 Jul 2026 05:01:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "푸틴, 러시아 연료 부족 사태로 정치적 위기 직면 [PADO]",
+      "link": "https://www.mt.co.kr/world/2026/07/11/2026071017454026589",
+      "source": "머니투데이",
+      "ts": 1783713600000,
+      "pub": "Sat, 11 Jul 2026 05:00:00 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프 \"이란에 휴전 종료 단호히 통보…대화 요청에는 동의\"",
+      "link": "https://www.mt.co.kr/world/2026/07/11/2026071102482574935",
+      "source": "머니투데이",
+      "ts": 1783705864000,
+      "pub": "Sat, 11 Jul 2026 02:51:04 +0900",
       "sentiment": "neutral"
     },
     {
@@ -81,14 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783693286000,
       "pub": "Fri, 10 Jul 2026 23:21:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 이름 붙이는데 '70억'…플로리다 팜비치 공항 '개명'",
-      "link": "https://www.hankyung.com/article/2026071087847",
-      "source": "한국경제",
-      "ts": 1783691616000,
-      "pub": "Fri, 10 Jul 2026 22:53:36 +0900",
       "sentiment": "neutral"
     },
     {
@@ -153,14 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783666978000,
       "pub": "Fri, 10 Jul 2026 16:02:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 가자구상 부진…평화유지군 2만명 중 20명도 배치 어려워",
-      "link": "https://www.yna.co.kr/view/AKR20260710111200009",
-      "source": "연합뉴스 국제",
-      "ts": 1783663869000,
-      "pub": "Fri, 10 Jul 2026 15:11:09 +0900",
       "sentiment": "neutral"
     },
     {

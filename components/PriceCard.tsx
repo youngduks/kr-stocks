@@ -221,7 +221,7 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
         })()}
 
         {/* ADR 프리미엄 — ADR 비율(예: 10주=보통주 1주) 환산가를 국내 정규장 종가와 비교 (형님 요청)
-            환산가가 핵심 정보라 크게, 라벨은 짧게 고정해 좁은 카드에서도 안 밀려나가게 함 */}
+            "프리미엄" 단어가 잘리면 안 되므로 라벨을 최소 길이로 고정, ratio는 값 줄에 별도 표기 */}
         {row.is_adr && m?.adr_premium_pct != null && (() => {
           const pct = m.adr_premium_pct;
           const ratio = row.adr_ratio ?? 1;
@@ -229,8 +229,8 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
           return (
             <div className="mt-2 pt-2 border-t border-line/60 min-w-0">
               <div className="flex items-center justify-between gap-2 mb-0.5">
-                <span className="text-[10px] text-text-dim font-medium truncate">
-                  {locale === "en" ? `${ratio}:1 implied` : `${ratio}주 환산가`}
+                <span className="text-[10px] text-text-dim font-medium shrink-0">
+                  {locale === "en" ? "Premium" : "프리미엄"}
                 </span>
                 <span className={`text-xs font-bold tabular shrink-0 ${premColor}`}>
                   {pct > 0 ? "▲ +" : pct < 0 ? "▼ " : ""}{Math.abs(pct).toFixed(2)}%
@@ -241,6 +241,9 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
                   ₩{Math.round(m.adr_implied_krw).toLocaleString("ko-KR")}
                 </div>
               )}
+              <div className="text-[10px] text-text-dim truncate">
+                {locale === "en" ? `${ratio} ADR = 1 share` : `ADR ${ratio}주 = 보통주 1주`}
+              </div>
             </div>
           );
         })()}

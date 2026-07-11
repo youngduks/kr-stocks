@@ -1,7 +1,7 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-11T09:14:55.565Z",
-  "count": 21,
+  "updated_at": "2026-07-11T10:53:01.155Z",
+  "count": 17,
   "items": [
     {
       "title": "우크라, 러 에너지 시설 겨냥 '장거리 타격 사령부' 신설키로",
@@ -20,14 +20,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "연준, 솔로 미니 2집 발매 하루 만에 66만 장 돌파..커리어하이 달성",
-      "link": "https://www.mt.co.kr/entertainment/2026/07/11/2026071113047228518",
-      "source": "머니투데이",
-      "ts": 1783742651000,
-      "pub": "Sat, 11 Jul 2026 13:04:11 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "트럼프 \"이란이 내 암살 시도하면 철저히 몰살·파괴\"",
       "link": "https://www.yna.co.kr/view/AKR20260711030300009",
       "source": "연합뉴스 국제",
@@ -41,22 +33,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783738381000,
       "pub": "Sat, 11 Jul 2026 11:53:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"호르무즈 열고 사과하라\"…트럼프, 이란에 최후통첩",
-      "link": "https://www.mt.co.kr/world/2026/07/11/2026071110325821031",
-      "source": "머니투데이",
-      "ts": 1783734444000,
-      "pub": "Sat, 11 Jul 2026 10:47:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "워시 의장, 연준 개혁 TF 출범...드림팀 꾸려 대수술 나선다",
-      "link": "https://www.mt.co.kr/world/2026/07/11/2026071109224376832",
-      "source": "머니투데이",
-      "ts": 1783733390000,
-      "pub": "Sat, 11 Jul 2026 10:29:50 +0900",
       "sentiment": "neutral"
     },
     {
@@ -153,14 +129,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783670346000,
       "pub": "Fri, 10 Jul 2026 16:59:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'카타르 선물' 트럼프 전용기, 미사일 방어 등 보안성능 논란",
-      "link": "https://www.yna.co.kr/view/AKR20260710134100009",
-      "source": "연합뉴스 국제",
-      "ts": 1783669849000,
-      "pub": "Fri, 10 Jul 2026 16:50:49 +0900",
       "sentiment": "neutral"
     },
     {

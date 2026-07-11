@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-11T20:42:08.427Z",
-  "count": 26,
+  "updated_at": "2026-07-11T21:38:10.846Z",
+  "count": 27,
   "items": [
+    {
+      "title": "SK하이닉스 나스닥 상장 흥행대박…국내 증시 온기로 이어질까",
+      "link": "https://www.yna.co.kr/view/AKR20260711029900008",
+      "source": "연합뉴스 경제",
+      "ts": 1783803902000,
+      "pub": "Sun, 12 Jul 2026 06:05:02 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[마켓인사이트] 하이닉스발 훈풍에 반도체 들썩…韓증시 안정 찾을까",
+      "link": "https://www.yna.co.kr/view/AKR20260710171900008",
+      "source": "연합뉴스 경제",
+      "ts": 1783803607000,
+      "pub": "Sun, 12 Jul 2026 06:00:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "외환시장에 '통화스와프급' 달러 폭탄 퍼붓는 SK하이닉스",
+      "link": "https://www.yna.co.kr/view/AKR20260710148400003",
+      "source": "연합뉴스 경제",
+      "ts": 1783802701000,
+      "pub": "Sun, 12 Jul 2026 05:45:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이재용, 억만장자 모임서 포착…\"2028년까지 완판\" TSMC에 반격 [강경주의 테크X]",
       "link": "https://www.hankyung.com/article/2026071069186",
@@ -194,22 +218,6 @@
       "ts": 1783663140000,
       "pub": "Fri, 10 Jul 2026 14:59:00 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "기보·하나은행, 반도체 기업 금융지원 확대",
-      "link": "https://www.yna.co.kr/view/AKR20260710062400051",
-      "source": "연합뉴스 경제",
-      "ts": 1783648135000,
-      "pub": "Fri, 10 Jul 2026 10:48:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피, 2~3% 상승세…삼성전자 강세, 하이닉스 강보합(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260710031551008",
-      "source": "연합뉴스 경제",
-      "ts": 1783645532000,
-      "pub": "Fri, 10 Jul 2026 10:05:32 +0900",
-      "sentiment": "positive"
     }
   ]
 }

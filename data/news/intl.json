@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-11T04:51:57.200Z",
-  "count": 26,
+  "updated_at": "2026-07-11T07:04:26.093Z",
+  "count": 22,
   "items": [
+    {
+      "title": "우크라, 러 에너지 시설 겨냥 '장거리 타격 사령부' 신설키로",
+      "link": "https://www.yna.co.kr/view/AKR20260711036800009",
+      "source": "연합뉴스 국제",
+      "ts": 1783751174000,
+      "pub": "Sat, 11 Jul 2026 15:26:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란이 내 암살 시도하면 철저히 몰살할 것\"",
+      "link": "https://www.hankyung.com/article/2026071191987",
+      "source": "한국경제",
+      "ts": 1783743216000,
+      "pub": "Sat, 11 Jul 2026 13:13:36 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "연준, 솔로 미니 2집 발매 하루 만에 66만 장 돌파..커리어하이 달성",
       "link": "https://www.mt.co.kr/entertainment/2026/07/11/2026071113047228518",
@@ -68,22 +84,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "푸틴, 러시아 연료 부족 사태로 정치적 위기 직면 [PADO]",
-      "link": "https://www.mt.co.kr/world/2026/07/11/2026071017454026589",
-      "source": "머니투데이",
-      "ts": 1783713600000,
-      "pub": "Sat, 11 Jul 2026 05:00:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "트럼프 \"이란에 휴전 종료 단호히 통보…대화 요청에는 동의\"",
-      "link": "https://www.mt.co.kr/world/2026/07/11/2026071102482574935",
-      "source": "머니투데이",
-      "ts": 1783705864000,
-      "pub": "Sat, 11 Jul 2026 02:51:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "패트리엇 면허 쥔 우크라, 러 몰아치나…석유시설 4곳 타격(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260710137851109",
       "source": "연합뉴스 국제",
@@ -97,30 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783696852000,
       "pub": "Sat, 11 Jul 2026 00:20:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "초강수 둔 트럼프 \"이란에 휴전 끝났다고 통보했다\"",
-      "link": "https://www.hankyung.com/article/202607118896i",
-      "source": "한국경제",
-      "ts": 1783696694000,
-      "pub": "Sat, 11 Jul 2026 00:18:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란과 휴전 끝났다\"",
-      "link": "https://www.hankyung.com/article/202607118895i",
-      "source": "한국경제",
-      "ts": 1783696060000,
-      "pub": "Sat, 11 Jul 2026 00:07:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란의 대화 요청 동의했으나 휴전종료 단호히 통보\"",
-      "link": "https://www.hankyung.com/article/2026071188947",
-      "source": "한국경제",
-      "ts": 1783696058000,
-      "pub": "Sat, 11 Jul 2026 00:07:38 +0900",
       "sentiment": "neutral"
     },
     {
@@ -193,14 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783669849000,
       "pub": "Fri, 10 Jul 2026 16:50:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "시베리아도 뚫렸다…우크라 드론 공습범위 확대에 러시아 '당혹'",
-      "link": "https://www.yna.co.kr/view/AKR20260710120000009",
-      "source": "연합뉴스 국제",
-      "ts": 1783666978000,
-      "pub": "Fri, 10 Jul 2026 16:02:58 +0900",
       "sentiment": "neutral"
     },
     {

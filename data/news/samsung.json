@@ -1,10 +1,26 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-11T04:51:57.201Z",
+  "updated_at": "2026-07-11T07:04:26.094Z",
   "count": 9,
   "items": [
     {
-      "title": "\"삼전닉스가 아니었다\"…한달 수익률 1~5위 '싹쓸이' 대반전 [이수의 ETF줌인]",
+      "title": "\"경제학자? 컨설턴트? 아무도 모른다…삼전닉스만 안다\" [청와대는 지금]",
+      "link": "https://www.hankyung.com/article/202607108677i",
+      "source": "한국경제",
+      "ts": 1783748603000,
+      "pub": "Sat, 11 Jul 2026 14:43:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이재용, 억만장자 모임서 포착…\"2028년까지 완판\" TSMC에 반격 [강경주의 테크X]",
+      "link": "https://www.hankyung.com/article/2026071069186",
+      "source": "한국경제",
+      "ts": 1783745499000,
+      "pub": "Sat, 11 Jul 2026 13:51:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스가 아니었다…한달 수익률 1~5위 '싹쓸이' 대반전 [이수의 ETF줌인]",
       "link": "https://www.hankyung.com/article/2026071082776",
       "source": "한국경제",
       "ts": 1783740376000,
@@ -28,14 +44,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "최태원 \"AI 메모리 수요, 기하급수적 증가…생산 두 배 늘려도 부족\"",
-      "link": "https://www.hankyung.com/article/202607108890i",
-      "source": "한국경제",
-      "ts": 1783696089000,
-      "pub": "Sat, 11 Jul 2026 00:08:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "코스피 2.5% 상승해 7,400대…삼전 2%대↑·하이닉스 약보합(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260710118651008",
       "source": "연합뉴스 경제",
@@ -50,14 +58,6 @@
       "ts": 1783666172000,
       "pub": "Fri, 10 Jul 2026 15:49:32 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "미국 상무장관, 마이크론 행사서 \"삼전닉스 미국 생산확대\" 촉구(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260710002501091",
-      "source": "연합뉴스 국제",
-      "ts": 1783665373000,
-      "pub": "Fri, 10 Jul 2026 15:36:13 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "코스피, 2~3% 상승세…삼성전자 강세, 하이닉스 강보합(종합)",

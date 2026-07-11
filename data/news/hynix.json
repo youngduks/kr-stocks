@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-11T04:51:57.202Z",
-  "count": 42,
+  "updated_at": "2026-07-11T07:04:26.094Z",
+  "count": 34,
   "items": [
+    {
+      "title": "이재용, 억만장자 모임서 포착…\"2028년까지 완판\" TSMC에 반격 [강경주의 테크X]",
+      "link": "https://www.hankyung.com/article/2026071069186",
+      "source": "한국경제",
+      "ts": 1783745499000,
+      "pub": "Sat, 11 Jul 2026 13:51:39 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "외신 \"SK하이닉스, 화려한 美데뷔\"…월가 \"반도체 랠리 가능성\"",
       "link": "https://www.yna.co.kr/view/AKR20260711030400072",
@@ -68,14 +76,6 @@
       "sentiment": "positive"
     },
     {
-      "title": "\"이름도 몰랐는데\"…SK하이닉스 美 상장에 외신 '화들짝'",
-      "link": "https://www.hankyung.com/article/2026071088397",
-      "source": "한국경제",
-      "ts": 1783717207000,
-      "pub": "Sat, 11 Jul 2026 06:00:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"호남권 반도체 덕\" 64% 뛴 이 종목...'-24%' 한화오션은 '비명'[김근희의 증시랩업]",
       "link": "https://www.mt.co.kr/stock/2026/07/11/2026071017554776263",
       "source": "머니투데이",
@@ -98,14 +98,6 @@
       "ts": 1783716681000,
       "pub": "Sat, 11 Jul 2026 05:51:21 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "최태원 승부수 통했다…SK하이닉스, 나스닥 첫날 13% 급등 '성공 데뷔'",
-      "link": "https://www.mt.co.kr/world/2026/07/11/2026071105452071882",
-      "source": "머니투데이",
-      "ts": 1783716459000,
-      "pub": "Sat, 11 Jul 2026 05:47:39 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "\"SK하이닉스 '대박'\"…\"더 많은 해외기업의 美상장 길 열어\"",
@@ -148,43 +140,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "뉴욕 타임스퀘어 뒤덮은 SK하이닉스…\"웰컴 투 나스닥\"",
-      "link": "https://www.mt.co.kr/world/2026/07/11/2026071103321816490",
-      "source": "머니투데이",
-      "ts": 1783708937000,
-      "pub": "Sat, 11 Jul 2026 03:42:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "SK하이닉스, 나스닥서 170달러 안팎 거래…공모가 대비 14%↑",
       "link": "https://www.yna.co.kr/view/AKR20260711003400072",
       "source": "연합뉴스 국제",
       "ts": 1783708157000,
       "pub": "Sat, 11 Jul 2026 03:29:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "최태원 \"반도체 투자속도 지금보다 10배 빨라야…안그러면 시장 위축될 것\"",
-      "link": "https://www.hankyung.com/article/202607118908i",
-      "source": "한국경제",
-      "ts": 1783702801000,
-      "pub": "Sat, 11 Jul 2026 02:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 美나스닥 입성하자마자 14%↑…시초가 170달러",
-      "link": "https://www.mt.co.kr/world/2026/07/11/2026071101440341893",
-      "source": "머니투데이",
-      "ts": 1783702314000,
-      "pub": "Sat, 11 Jul 2026 01:51:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'나스닥' SK하이닉스, 170달러 출발…공모가 대비 14%↑",
-      "link": "https://www.hankyung.com/article/202607118915i",
-      "source": "한국경제",
-      "ts": 1783702108000,
-      "pub": "Sat, 11 Jul 2026 01:48:28 +0900",
       "sentiment": "neutral"
     },
     {
@@ -201,14 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783696596000,
       "pub": "Sat, 11 Jul 2026 00:16:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "최태원 \"AI 메모리 수요, 기하급수적 증가…생산 두 배 늘려도 부족\"",
-      "link": "https://www.hankyung.com/article/202607108890i",
-      "source": "한국경제",
-      "ts": 1783696089000,
-      "pub": "Sat, 11 Jul 2026 00:08:09 +0900",
       "sentiment": "neutral"
     },
     {
@@ -298,22 +250,6 @@
       "ts": 1783666172000,
       "pub": "Fri, 10 Jul 2026 15:49:32 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "미국 상무장관, 마이크론 행사서 \"삼전닉스 미국 생산확대\" 촉구(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260710002501091",
-      "source": "연합뉴스 국제",
-      "ts": 1783665373000,
-      "pub": "Fri, 10 Jul 2026 15:36:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "월가에도 SK하이닉스 ADR 레버리지 ETF 쏟아질듯",
-      "link": "https://www.yna.co.kr/view/AKR20260710117700009",
-      "source": "연합뉴스 국제",
-      "ts": 1783665288000,
-      "pub": "Fri, 10 Jul 2026 15:34:48 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "TSMC 사례처럼…하이닉스 ADR, '역김치 프리미엄' 형성되나",

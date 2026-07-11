@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-10T23:46:00.019Z",
-  "count": 48,
+  "updated_at": "2026-07-11T01:26:12.011Z",
+  "count": 36,
   "items": [
+    {
+      "title": "나스닥 데뷔하며 미국 반도체 추가투자 언급한 SK하이닉스",
+      "link": "https://www.yna.co.kr/view/AKR20260711021700003",
+      "source": "연합뉴스 경제",
+      "ts": 1783731996000,
+      "pub": "Sat, 11 Jul 2026 10:06:36 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[르포] 백화점 아래 반도체 요람…카이스트 사이언스 허브 4주년",
       "link": "https://www.yna.co.kr/view/AKR20260710104500061",
@@ -12,7 +20,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "화려한 데뷔 마친 SK하이닉스…나스닥 사장 \"블록버스터급\"",
+      "title": "SK하이닉스 '화려한 데뷔'…\"블록버스터급\" 나스닥 사장도 감탄",
       "link": "https://www.hankyung.com/article/2026071190037",
       "source": "한국경제",
       "ts": 1783724030000,
@@ -28,43 +36,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "미국 간 SK하이닉스, ADR 상장으로 'K디스카운트' 깬다",
-      "link": "https://www.mt.co.kr/industry/2026/07/11/2026071015252229272",
-      "source": "머니투데이",
-      "ts": 1783721340000,
-      "pub": "Sat, 11 Jul 2026 07:09:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "외신도 \"SK하이닉스 대박\"…美증시 상장 봇물 터졌다",
-      "link": "https://www.mt.co.kr/world/2026/07/11/2026071106113218233",
-      "source": "머니투데이",
-      "ts": 1783718070000,
-      "pub": "Sat, 11 Jul 2026 06:14:30 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "\"이름도 몰랐는데\"…SK하이닉스 美 상장에 외신 '화들짝'",
       "link": "https://www.hankyung.com/article/2026071088397",
       "source": "한국경제",
       "ts": 1783717207000,
       "pub": "Sat, 11 Jul 2026 06:00:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"호남권 반도체 덕\" 64% 뛴 이 종목...'-24%' 한화오션은 '비명'[김근희의 증시랩업]",
-      "link": "https://www.mt.co.kr/stock/2026/07/11/2026071017554776263",
-      "source": "머니투데이",
-      "ts": 1783717200000,
-      "pub": "Sat, 11 Jul 2026 06:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 美성공 데뷔…기술주 강세에 시장도 활짝[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/07/11/2026071105551670602",
-      "source": "머니투데이",
-      "ts": 1783717067000,
-      "pub": "Sat, 11 Jul 2026 05:57:47 +0900",
       "sentiment": "neutral"
     },
     {
@@ -74,14 +50,6 @@
       "ts": 1783716681000,
       "pub": "Sat, 11 Jul 2026 05:51:21 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "최태원 승부수 통했다…SK하이닉스, 나스닥 첫날 13% 급등 '성공 데뷔'",
-      "link": "https://www.mt.co.kr/world/2026/07/11/2026071105452071882",
-      "source": "머니투데이",
-      "ts": 1783716459000,
-      "pub": "Sat, 11 Jul 2026 05:47:39 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "\"SK하이닉스 '대박'\"…\"더 많은 해외기업의 美상장 길 열어\"",
@@ -124,14 +92,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "뉴욕 타임스퀘어 뒤덮은 SK하이닉스…\"웰컴 투 나스닥\"",
-      "link": "https://www.mt.co.kr/world/2026/07/11/2026071103321816490",
-      "source": "머니투데이",
-      "ts": 1783708937000,
-      "pub": "Sat, 11 Jul 2026 03:42:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "SK하이닉스, 나스닥서 170달러 안팎 거래…공모가 대비 14%↑",
       "link": "https://www.yna.co.kr/view/AKR20260711003400072",
       "source": "연합뉴스 국제",
@@ -145,14 +105,6 @@
       "source": "한국경제",
       "ts": 1783702801000,
       "pub": "Sat, 11 Jul 2026 02:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 美나스닥 입성하자마자 14%↑…시초가 170달러",
-      "link": "https://www.mt.co.kr/world/2026/07/11/2026071101440341893",
-      "source": "머니투데이",
-      "ts": 1783702314000,
-      "pub": "Sat, 11 Jul 2026 01:51:54 +0900",
       "sentiment": "neutral"
     },
     {
@@ -180,14 +132,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "최태원 \"AI메모리 생산 2배 늘려도 모자라…美에 수백억 투자 가시화\"",
-      "link": "https://www.mt.co.kr/world/2026/07/11/2026071100070026663",
-      "source": "머니투데이",
-      "ts": 1783696129000,
-      "pub": "Sat, 11 Jul 2026 00:08:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "최태원 \"AI 메모리 수요, 기하급수적 증가…생산 두 배 늘려도 부족\"",
       "link": "https://www.hankyung.com/article/202607108890i",
       "source": "한국경제",
@@ -201,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783694966000,
       "pub": "Fri, 10 Jul 2026 23:49:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中, 헬륨 수출 일시 금지…청와대 \"반도체 업계에 미치는 영향 없어\"",
-      "link": "https://www.mt.co.kr/politics/2026/07/10/2026071023334494418",
-      "source": "머니투데이",
-      "ts": 1783694106000,
-      "pub": "Fri, 10 Jul 2026 23:35:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -260,35 +196,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "SK하이닉스, 美 나스닥 입성…자본심장부에 울린 '오프닝벨'",
-      "link": "https://www.mt.co.kr/world/2026/07/10/2026071021571061751",
-      "source": "머니투데이",
-      "ts": 1783690200000,
-      "pub": "Fri, 10 Jul 2026 22:30:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "SK하이닉스, 美나스닥 입성…'AI 파트너' 글로벌 영토 확장",
       "link": "https://www.yna.co.kr/view/AKR20260710167800072",
       "source": "연합뉴스 국제",
       "ts": 1783690200000,
       "pub": "Fri, 10 Jul 2026 22:30:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "JP모간 뉴욕본사 태극기로 덮었다…월가 홀린 SK하이닉스 [종목+]",
-      "link": "https://www.hankyung.com/article/2026071083056",
-      "source": "한국경제",
-      "ts": 1783681206000,
-      "pub": "Fri, 10 Jul 2026 20:00:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'반도체 핵심' 헬륨도 막았다…중국 \"수출 금지 즉시 시행\"",
-      "link": "https://www.hankyung.com/article/2026071087527",
-      "source": "한국경제",
-      "ts": 1783680087000,
-      "pub": "Fri, 10 Jul 2026 19:41:27 +0900",
       "sentiment": "neutral"
     },
     {
@@ -378,14 +290,6 @@
       "ts": 1783645532000,
       "pub": "Fri, 10 Jul 2026 10:05:32 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "하나은행, 기보와 반도체 소부장 협력기업 지원 업무협약",
-      "link": "https://www.yna.co.kr/view/AKR20260710042100002",
-      "source": "연합뉴스 경제",
-      "ts": 1783644540000,
-      "pub": "Fri, 10 Jul 2026 09:49:00 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

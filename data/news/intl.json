@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-12T15:47:35.639Z",
-  "count": 20,
+  "updated_at": "2026-07-12T16:43:15.863Z",
+  "count": 21,
   "items": [
+    {
+      "title": "대북·대이란 공화당 강경파…'트럼프 측근' 그레이엄 의원 별세",
+      "link": "https://www.hankyung.com/article/2026071203941",
+      "source": "한국경제",
+      "ts": 1783870962000,
+      "pub": "Mon, 13 Jul 2026 00:42:42 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'親트럼프 강경파' 그레이엄 의원 별세…트럼프 \"진정한 애국자\"(종합3보)",
       "link": "https://www.yna.co.kr/view/AKR20260712034453009",
@@ -76,7 +84,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 등에 업고…美 담배업계, '니코틴 파우치' 공장 늘린다",
+      "title": "트럼프 등에 업고…美 담배업계, '니코틴 파우치' 공장 확대",
       "link": "https://www.hankyung.com/article/2026071202501",
       "source": "한국경제",
       "ts": 1783847569000,

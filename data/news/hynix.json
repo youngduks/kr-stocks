@@ -1,22 +1,46 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-12T01:27:49.051Z",
+  "updated_at": "2026-07-12T05:14:36.214Z",
   "count": 23,
   "items": [
+    {
+      "title": "흔들리는 코스피, 한은 금통위·미국 물가·TSMC 실적 촉각",
+      "link": "https://www.mt.co.kr/stock/2026/07/12/2026071213100395651",
+      "source": "머니투데이",
+      "ts": 1783829865000,
+      "pub": "Sun, 12 Jul 2026 13:17:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아·SK하닉 한자리에…반도체 R&D 성과 공유",
+      "link": "https://www.mt.co.kr/tech/2026/07/12/2026071209273293408",
+      "source": "머니투데이",
+      "ts": 1783825200000,
+      "pub": "Sun, 12 Jul 2026 12:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"한국 때문에 세계 반도체 주가 급등락\"…日매체 '콕' 찍었다",
+      "link": "https://www.mt.co.kr/world/2026/07/12/2026071015311445474",
+      "source": "머니투데이",
+      "ts": 1783825200000,
+      "pub": "Sun, 12 Jul 2026 12:00:00 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "SK하이닉스 미국 데뷔, 거세진 메모리 피크아웃 논란 [월가백브리핑]",
+      "link": "https://www.hankyung.com/article/202607129717i",
+      "source": "한국경제",
+      "ts": 1783819570000,
+      "pub": "Sun, 12 Jul 2026 10:26:10 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "광주 군공항 248만평 개발구상 '리셋'…반도체 맞춰 전면 재검토",
       "link": "https://www.yna.co.kr/view/AKR20260710112900054",
       "source": "연합뉴스 경제",
       "ts": 1783818063000,
       "pub": "Sun, 12 Jul 2026 10:01:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "피크아웃 공포 덮친 반도체…증권가는 \"지금이 기회\" [주간전망]",
-      "link": "https://www.hankyung.com/article/2026071080506",
-      "source": "한국경제",
-      "ts": 1783810809000,
-      "pub": "Sun, 12 Jul 2026 08:00:09 +0900",
       "sentiment": "neutral"
     },
     {
@@ -113,30 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783712596000,
       "pub": "Sat, 11 Jul 2026 04:43:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스, 나스닥서 170달러 안팎 거래…공모가 대비 14%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260711003400072",
-      "source": "연합뉴스 국제",
-      "ts": 1783708157000,
-      "pub": "Sat, 11 Jul 2026 03:29:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "최태원 \"AI분야 수백억달러 투자…HBM 수요 기하급수적 증가\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260710172151071",
-      "source": "연합뉴스 국제",
-      "ts": 1783698255000,
-      "pub": "Sat, 11 Jul 2026 00:44:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"'나스닥' SK하이닉스, 180달러 출발 예상…공모가 대비 20%↑\"",
-      "link": "https://www.yna.co.kr/view/AKR20260710172900071",
-      "source": "연합뉴스 국제",
-      "ts": 1783696596000,
-      "pub": "Sat, 11 Jul 2026 00:16:36 +0900",
       "sentiment": "neutral"
     },
     {

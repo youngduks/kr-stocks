@@ -1,22 +1,30 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-12T05:14:36.213Z",
-  "count": 11,
+  "updated_at": "2026-07-12T07:56:12.034Z",
+  "count": 10,
   "items": [
+    {
+      "title": "'트럼프 정치적 동반자' 린지 그레이엄, 별세…자택서 심정지",
+      "link": "https://www.hankyung.com/article/2026071200447",
+      "source": "한국경제",
+      "ts": 1783839461000,
+      "pub": "Sun, 12 Jul 2026 15:57:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'트럼프 측근' 린지 그레이엄 상원의원 별세…외교·안보 강경파",
+      "link": "https://www.yna.co.kr/view/AKR20260712034400009",
+      "source": "연합뉴스 국제",
+      "ts": 1783838167000,
+      "pub": "Sun, 12 Jul 2026 15:36:07 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"젤렌스키, 패트리엇 생산 日미쓰비시와 기술협력 관심\"",
       "link": "https://www.yna.co.kr/view/AKR20260712020900073",
       "source": "연합뉴스 국제",
       "ts": 1783821629000,
       "pub": "Sun, 12 Jul 2026 11:00:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"아이스크림 사면 TXT 연준 포카가\"…GS25, 요아정과 팬심 저격",
-      "link": "https://www.mt.co.kr/living/2026/07/12/2026071210071976553",
-      "source": "머니투데이",
-      "ts": 1783820283000,
-      "pub": "Sun, 12 Jul 2026 10:38:03 +0900",
       "sentiment": "neutral"
     },
     {
@@ -73,22 +81,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783738381000,
       "pub": "Sat, 11 Jul 2026 11:53:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 휴전종료 통보에 이란 \"항복없다\"…강대강 대치(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260711008800009",
-      "source": "연합뉴스 국제",
-      "ts": 1783720086000,
-      "pub": "Sat, 11 Jul 2026 06:48:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 휴전종료 통보에 이란도 \"항복없다\"…강대강속 대화모색도",
-      "link": "https://www.yna.co.kr/view/AKR20260711005100071",
-      "source": "연합뉴스 국제",
-      "ts": 1783713713000,
-      "pub": "Sat, 11 Jul 2026 05:01:53 +0900",
       "sentiment": "neutral"
     }
   ]

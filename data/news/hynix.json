@@ -1,30 +1,14 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-12T05:14:36.214Z",
-  "count": 23,
+  "updated_at": "2026-07-12T07:56:12.035Z",
+  "count": 14,
   "items": [
     {
-      "title": "흔들리는 코스피, 한은 금통위·미국 물가·TSMC 실적 촉각",
-      "link": "https://www.mt.co.kr/stock/2026/07/12/2026071213100395651",
-      "source": "머니투데이",
-      "ts": 1783829865000,
-      "pub": "Sun, 12 Jul 2026 13:17:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아·SK하닉 한자리에…반도체 R&D 성과 공유",
-      "link": "https://www.mt.co.kr/tech/2026/07/12/2026071209273293408",
-      "source": "머니투데이",
-      "ts": 1783825200000,
-      "pub": "Sun, 12 Jul 2026 12:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"한국 때문에 세계 반도체 주가 급등락\"…日매체 '콕' 찍었다",
-      "link": "https://www.mt.co.kr/world/2026/07/12/2026071015311445474",
-      "source": "머니투데이",
-      "ts": 1783825200000,
-      "pub": "Sun, 12 Jul 2026 12:00:00 +0900",
+      "title": "SK하이닉스, ADR 흥행에 액면분할도 호재…13일 주가 뛸까",
+      "link": "https://www.hankyung.com/article/202607129994i",
+      "source": "한국경제",
+      "ts": 1783840006000,
+      "pub": "Sun, 12 Jul 2026 16:06:46 +0900",
       "sentiment": "positive"
     },
     {
@@ -92,54 +76,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "뉴욕증시 'SK하이닉스 첫날' 상승 마감…나스닥 0.3%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260711005551072",
-      "source": "연합뉴스 국제",
-      "ts": 1783716681000,
-      "pub": "Sat, 11 Jul 2026 05:51:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"SK하이닉스 '대박'\"…\"더 많은 해외기업의 美상장 길 열어\"",
-      "link": "https://www.yna.co.kr/view/AKR20260711006200075",
-      "source": "연합뉴스 국제",
-      "ts": 1783716046000,
-      "pub": "Sat, 11 Jul 2026 05:40:46 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "SK하이닉스, 나스닥 첫날 168달러로 급등마감…공모가대비 13%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260711003451072",
-      "source": "연합뉴스 국제",
-      "ts": 1783714771000,
-      "pub": "Sat, 11 Jul 2026 05:19:31 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'SK하이닉스 데뷔 첫날' 뉴욕증시 강세 마감…나스닥 0.3%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260711005500072",
-      "source": "연합뉴스 국제",
-      "ts": 1783714288000,
-      "pub": "Sat, 11 Jul 2026 05:11:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] SK하이닉스, 나스닥 첫날 168.49달러 마감…공모가 대비 13%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260711005200091",
-      "source": "연합뉴스 국제",
-      "ts": 1783713685000,
-      "pub": "Sat, 11 Jul 2026 05:01:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "최태원 \"AI분야 수백억달러 투자…HBM 수요 기하급수적 증가\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260710172152071",
-      "source": "연합뉴스 국제",
-      "ts": 1783712596000,
-      "pub": "Sat, 11 Jul 2026 04:43:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[게시판] 서강대 산학협력단, 반도체설계전문가 훈련과정 개설",
       "link": "https://www.yna.co.kr/view/AKR20260710162300004",
       "source": "연합뉴스 경제",
@@ -178,14 +114,6 @@
       "ts": 1783666172000,
       "pub": "Fri, 10 Jul 2026 15:49:32 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "TSMC 사례처럼…하이닉스 ADR, '역김치 프리미엄' 형성되나",
-      "link": "https://www.yna.co.kr/view/AKR20260710088800008",
-      "source": "연합뉴스 경제",
-      "ts": 1783663140000,
-      "pub": "Fri, 10 Jul 2026 14:59:00 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

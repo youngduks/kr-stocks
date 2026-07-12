@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-12T14:21:34.118Z",
-  "count": 18,
+  "updated_at": "2026-07-12T15:47:35.639Z",
+  "count": 20,
   "items": [
+    {
+      "title": "'親트럼프 강경파' 그레이엄 의원 별세…트럼프 \"진정한 애국자\"(종합3보)",
+      "link": "https://www.yna.co.kr/view/AKR20260712034453009",
+      "source": "연합뉴스 국제",
+      "ts": 1783869076000,
+      "pub": "Mon, 13 Jul 2026 00:11:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 공세에 푸틴의 '자랑'에서 '짐'이 된 크림반도",
+      "link": "https://www.yna.co.kr/view/AKR20260712056500085",
+      "source": "연합뉴스 국제",
+      "ts": 1783866981000,
+      "pub": "Sun, 12 Jul 2026 23:36:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"호르무즈 열려 있어…어젯밤 이란 사정없이 폭격\"",
+      "link": "https://www.yna.co.kr/view/AKR20260712056700071",
+      "source": "연합뉴스 국제",
+      "ts": 1783866561000,
+      "pub": "Sun, 12 Jul 2026 23:29:21 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이란 매체, 하메네이 복수 대상에 트럼프·마크롱 등 지목",
       "link": "https://www.yna.co.kr/view/AKR20260712055200081",
@@ -137,14 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783742603000,
       "pub": "Sat, 11 Jul 2026 13:03:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 '휴전종료' 선언했지만 대화동력 유지엔 '이심전심'",
-      "link": "https://www.yna.co.kr/view/AKR20260711026500009",
-      "source": "연합뉴스 국제",
-      "ts": 1783738381000,
-      "pub": "Sat, 11 Jul 2026 11:53:01 +0900",
       "sentiment": "neutral"
     }
   ]

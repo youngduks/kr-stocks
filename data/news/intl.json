@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-12T16:43:15.863Z",
+  "updated_at": "2026-07-12T17:49:29.027Z",
   "count": 21,
   "items": [
+    {
+      "title": "\"野와 문제는 그레이엄이 풀었는데\"…의회 최대우군 잃은 트럼프",
+      "link": "https://www.yna.co.kr/view/AKR20260713000800071",
+      "source": "연합뉴스 국제",
+      "ts": 1783874263000,
+      "pub": "Mon, 13 Jul 2026 01:37:43 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "대북·대이란 공화당 강경파…'트럼프 측근' 그레이엄 의원 별세",
       "link": "https://www.hankyung.com/article/2026071203941",
@@ -161,14 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783751174000,
       "pub": "Sat, 11 Jul 2026 15:26:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란이 내 암살 시도하면 철저히 몰살·파괴\"",
-      "link": "https://www.yna.co.kr/view/AKR20260711030300009",
-      "source": "연합뉴스 국제",
-      "ts": 1783742603000,
-      "pub": "Sat, 11 Jul 2026 13:03:23 +0900",
       "sentiment": "neutral"
     }
   ]

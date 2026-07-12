@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-11T23:41:49.218Z",
-  "count": 25,
+  "updated_at": "2026-07-12T01:27:49.051Z",
+  "count": 23,
   "items": [
+    {
+      "title": "광주 군공항 248만평 개발구상 '리셋'…반도체 맞춰 전면 재검토",
+      "link": "https://www.yna.co.kr/view/AKR20260710112900054",
+      "source": "연합뉴스 경제",
+      "ts": 1783818063000,
+      "pub": "Sun, 12 Jul 2026 10:01:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "피크아웃 공포 덮친 반도체…증권가는 \"지금이 기회\" [주간전망]",
+      "link": "https://www.hankyung.com/article/2026071080506",
+      "source": "한국경제",
+      "ts": 1783810809000,
+      "pub": "Sun, 12 Jul 2026 08:00:09 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "SK하이닉스 나스닥 상장 흥행대박…국내 증시 온기로 이어질까",
       "link": "https://www.yna.co.kr/view/AKR20260711029900008",
@@ -25,14 +41,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783802701000,
       "pub": "Sun, 12 Jul 2026 05:45:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이재용, 억만장자 모임서 포착…\"2028년까지 완판\" TSMC에 반격 [강경주의 테크X]",
-      "link": "https://www.hankyung.com/article/2026071069186",
-      "source": "한국경제",
-      "ts": 1783745499000,
-      "pub": "Sat, 11 Jul 2026 13:51:39 +0900",
       "sentiment": "neutral"
     },
     {
@@ -129,30 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783696596000,
       "pub": "Sat, 11 Jul 2026 00:16:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "최태원 \"하이닉스 美상장 역사적 순간…AI분야 수백억달러 투자\"",
-      "link": "https://www.yna.co.kr/view/AKR20260710172100071",
-      "source": "연합뉴스 국제",
-      "ts": 1783694966000,
-      "pub": "Fri, 10 Jul 2026 23:49:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 ADR 거래 시작…타임스스퀘어엔 \"웰컴 투 나스닥\"",
-      "link": "https://www.yna.co.kr/view/AKR20260710171600072",
-      "source": "연합뉴스 국제",
-      "ts": 1783692982000,
-      "pub": "Fri, 10 Jul 2026 23:16:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK 곽노정 \"전 세계 투자자들에 새로운 문 열려 나스닥 입성\"",
-      "link": "https://www.yna.co.kr/view/AKR20260710170500003",
-      "source": "연합뉴스 국제",
-      "ts": 1783691838000,
-      "pub": "Fri, 10 Jul 2026 22:57:18 +0900",
       "sentiment": "neutral"
     },
     {

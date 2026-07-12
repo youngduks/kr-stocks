@@ -1,14 +1,46 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-12T22:36:49.024Z",
-  "count": 18,
+  "updated_at": "2026-07-12T23:41:06.453Z",
+  "count": 22,
   "items": [
+    {
+      "title": "이스라엘, 10월 27일 총선…네타냐후 장기집권 연장 시험대",
+      "link": "https://www.yna.co.kr/view/AKR20260713021200009",
+      "source": "연합뉴스 국제",
+      "ts": 1783899088000,
+      "pub": "Mon, 13 Jul 2026 08:31:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프 직접 지시\" 美 공습 재개…이란은 '복수 대상' 공개",
+      "link": "https://www.hankyung.com/article/2026071306287",
+      "source": "한국경제",
+      "ts": 1783898021000,
+      "pub": "Mon, 13 Jul 2026 08:13:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"영원히 살 줄 알았는데\"…트럼프, '핵심 우군' 그레이엄 애도",
+      "link": "https://www.mt.co.kr/world/2026/07/13/2026071307234162033",
+      "source": "머니투데이",
+      "ts": 1783896211000,
+      "pub": "Mon, 13 Jul 2026 07:43:31 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"우크라 배치 공격용 드론, 독일 남부 비밀공장서 생산\"",
       "link": "https://www.yna.co.kr/view/AKR20260713004600072",
       "source": "연합뉴스 국제",
       "ts": 1783889743000,
       "pub": "Mon, 13 Jul 2026 05:55:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 사정없이 폭격…호르무즈 열려 있어\"",
+      "link": "https://www.mt.co.kr/world/2026/07/13/2026071305231332495",
+      "source": "머니투데이",
+      "ts": 1783889709000,
+      "pub": "Mon, 13 Jul 2026 05:55:09 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,14 +1,94 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-12T22:36:49.025Z",
-  "count": 14,
+  "updated_at": "2026-07-12T23:41:06.455Z",
+  "count": 23,
   "items": [
+    {
+      "title": "DS증권 \"SK하이닉스 본주, ADR 상장으로 8∼18% 주가상승 기대\"",
+      "link": "https://www.yna.co.kr/view/AKR20260713020600008",
+      "source": "연합뉴스 경제",
+      "ts": 1783899077000,
+      "pub": "Mon, 13 Jul 2026 08:31:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "아이폰18 일반 모델, 삼성·하이닉스 대신 중국 D램 쓰나 [IT썰]",
+      "link": "https://www.mt.co.kr/tech/2026/07/13/2026071306384531913",
+      "source": "머니투데이",
+      "ts": 1783898400000,
+      "pub": "Mon, 13 Jul 2026 08:20:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"없어서 못 판다\" 빨리, 더 빨리…반도체 팹 증설 전쟁",
+      "link": "https://www.mt.co.kr/industry/2026/07/13/2026071220075642496",
+      "source": "머니투데이",
+      "ts": 1783897200000,
+      "pub": "Mon, 13 Jul 2026 08:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼성전자, 내년 메모리 공급제약 전례 없는 수준\"-KB",
+      "link": "https://www.hankyung.com/article/2026071305516",
+      "source": "한국경제",
+      "ts": 1783896045000,
+      "pub": "Mon, 13 Jul 2026 07:40:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "지금 한국 반도체가 가야 할 길",
+      "link": "https://www.mt.co.kr/opinion/2026/07/13/2026070910485199317",
+      "source": "머니투데이",
+      "ts": 1783890000000,
+      "pub": "Mon, 13 Jul 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "한은 \"반도체 수요 증가보다 공급 확대 더뎌\"…고점론 일축",
       "link": "https://www.yna.co.kr/view/AKR20260711038600002",
       "source": "연합뉴스 경제",
       "ts": 1783889460000,
       "pub": "Mon, 13 Jul 2026 05:51:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체주 이끌 ASML·TSMC 실적…인플레 둔화 기대, 워시 의회 보고도 관심[이번주 美 증시는]",
+      "link": "https://www.mt.co.kr/world/2026/07/13/2026071121360346178",
+      "source": "머니투데이",
+      "ts": 1783888512000,
+      "pub": "Mon, 13 Jul 2026 05:35:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[우보세]반도체 클러스터 조성 가로막는 배임죄",
+      "link": "https://www.mt.co.kr/politics/2026/07/13/2026071121204374210",
+      "source": "머니투데이",
+      "ts": 1783884600000,
+      "pub": "Mon, 13 Jul 2026 04:30:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 품는 광주, 토허제에도 호가 '들썩'",
+      "link": "https://www.mt.co.kr/estate/2026/07/13/2026071219191244722",
+      "source": "머니투데이",
+      "ts": 1783884060000,
+      "pub": "Mon, 13 Jul 2026 04:21:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[사설]반도체 속도전, 인프라 지원이 관건",
+      "link": "https://www.mt.co.kr/opinion/2026/07/13/2026071214322763373",
+      "source": "머니투데이",
+      "ts": 1783883100000,
+      "pub": "Mon, 13 Jul 2026 04:05:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "韓금리·美물가·반도체… 변동장 변수 폭탄",
+      "link": "https://www.mt.co.kr/stock/2026/07/13/2026071219265527728",
+      "source": "머니투데이",
+      "ts": 1783882800000,
+      "pub": "Mon, 13 Jul 2026 04:00:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -106,14 +186,6 @@
       "ts": 1783667671000,
       "pub": "Fri, 10 Jul 2026 16:14:31 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스 ADR 상장 기대·달러 약세에 환율 장중 1,500원 하회",
-      "link": "https://www.yna.co.kr/view/AKR20260710120700002",
-      "source": "연합뉴스 경제",
-      "ts": 1783667511000,
-      "pub": "Fri, 10 Jul 2026 16:11:51 +0900",
-      "sentiment": "negative"
     }
   ]
 }

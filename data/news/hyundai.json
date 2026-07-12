@@ -1,6 +1,31 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-12T07:56:12.036Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-07-12T09:43:27.977Z",
+  "count": 3,
+  "items": [
+    {
+      "title": "현대차 노조, 13일부터 부분파업…하투 본격화",
+      "link": "https://www.hankyung.com/article/2026071202571",
+      "source": "한국경제",
+      "ts": 1783847691000,
+      "pub": "Sun, 12 Jul 2026 18:14:51 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[단독] \"로봇에 야근 뺏길라\"…현대차, 60년 만에 시급제 폐지",
+      "link": "https://www.hankyung.com/article/2026071202811",
+      "source": "한국경제",
+      "ts": 1783846428000,
+      "pub": "Sun, 12 Jul 2026 17:53:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[포토] 현대차그룹, 조수미 성악 콩쿠르 후원",
+      "link": "https://www.hankyung.com/article/2026071201821",
+      "source": "한국경제",
+      "ts": 1783845914000,
+      "pub": "Sun, 12 Jul 2026 17:45:14 +0900",
+      "sentiment": "neutral"
+    }
+  ]
 }

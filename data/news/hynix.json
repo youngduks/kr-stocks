@@ -1,22 +1,54 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-12T07:56:12.035Z",
-  "count": 14,
+  "updated_at": "2026-07-12T09:43:27.974Z",
+  "count": 18,
   "items": [
     {
-      "title": "SK하이닉스, ADR 흥행에 액면분할도 호재…13일 주가 뛸까",
-      "link": "https://www.hankyung.com/article/202607129994i",
+      "title": "\"대만식 '반도체 원팀'으로 생태계 경쟁력 키워야\"",
+      "link": "https://www.hankyung.com/article/2026071202381",
       "source": "한국경제",
-      "ts": 1783840006000,
-      "pub": "Sun, 12 Jul 2026 16:06:46 +0900",
-      "sentiment": "positive"
+      "ts": 1783847658000,
+      "pub": "Sun, 12 Jul 2026 18:14:18 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "SK하이닉스 미국 데뷔, 거세진 메모리 피크아웃 논란 [월가백브리핑]",
-      "link": "https://www.hankyung.com/article/202607129717i",
+      "title": "의사보다 돈 잘 버는 '신흥계급'…대만 뒤흔든 'TSMC 신드롬'",
+      "link": "https://www.hankyung.com/article/2026071202401",
       "source": "한국경제",
-      "ts": 1783819570000,
-      "pub": "Sun, 12 Jul 2026 10:26:10 +0900",
+      "ts": 1783846549000,
+      "pub": "Sun, 12 Jul 2026 17:55:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "TSMC 신흥계급 탄생…대만은 韓 예고편인가",
+      "link": "https://www.hankyung.com/article/2026071202841",
+      "source": "한국경제",
+      "ts": 1783846447000,
+      "pub": "Sun, 12 Jul 2026 17:54:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "최태원 \"반도체 넘어 AI 서비스 기업 되겠다\"",
+      "link": "https://www.hankyung.com/article/2026071202861",
+      "source": "한국경제",
+      "ts": 1783846271000,
+      "pub": "Sun, 12 Jul 2026 17:51:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"반도체 호황, 잠재성장률 높일 기회…노동·금융 개혁 서둘러야\"",
+      "link": "https://www.hankyung.com/article/2026071202531",
+      "source": "한국경제",
+      "ts": 1783846029000,
+      "pub": "Sun, 12 Jul 2026 17:47:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "환시에 '통화스와프급' 265억달러 퍼붓는 구원투수 SK하이닉스(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260710148451003",
+      "source": "연합뉴스 경제",
+      "ts": 1783843555000,
+      "pub": "Sun, 12 Jul 2026 17:05:55 +0900",
       "sentiment": "neutral"
     },
     {

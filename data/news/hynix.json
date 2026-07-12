@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-12T21:38:00.583Z",
-  "count": 17,
+  "updated_at": "2026-07-12T22:36:49.025Z",
+  "count": 14,
   "items": [
     {
       "title": "한은 \"반도체 수요 증가보다 공급 확대 더뎌\"…고점론 일축",
@@ -25,22 +25,6 @@
       "source": "한국경제",
       "ts": 1783847658000,
       "pub": "Sun, 12 Jul 2026 18:14:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "TSMC 신흥계급 탄생…대만은 韓 예고편인가",
-      "link": "https://www.hankyung.com/article/2026071202841",
-      "source": "한국경제",
-      "ts": 1783846447000,
-      "pub": "Sun, 12 Jul 2026 17:54:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "최태원 \"반도체 넘어 AI 서비스 기업 되겠다\"",
-      "link": "https://www.hankyung.com/article/2026071202861",
-      "source": "한국경제",
-      "ts": 1783846271000,
-      "pub": "Sun, 12 Jul 2026 17:51:11 +0900",
       "sentiment": "neutral"
     },
     {
@@ -129,14 +113,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783667511000,
       "pub": "Fri, 10 Jul 2026 16:11:51 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[특징주] SK하이닉스. ADR 상장 앞두고 약세마감…삼전은 2.5%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260710035651008",
-      "source": "연합뉴스 경제",
-      "ts": 1783666172000,
-      "pub": "Fri, 10 Jul 2026 15:49:32 +0900",
       "sentiment": "negative"
     }
   ]

@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-12T21:38:00.582Z",
+  "updated_at": "2026-07-12T22:36:49.025Z",
   "count": 3,
   "items": [
+    {
+      "title": "삼전닉스 '끝물'이라고?…\"아직 아냐\" 딱 자른 한국은행",
+      "link": "https://www.hankyung.com/article/2026071304697",
+      "source": "한국경제",
+      "ts": 1783890567000,
+      "pub": "Mon, 13 Jul 2026 06:09:27 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "AS·수리까지 덮친 칩플레이션…삼성전자, 서비스 자재비 인상",
       "link": "https://www.yna.co.kr/view/AKR20260712045900003",
@@ -18,14 +26,6 @@
       "ts": 1783667671000,
       "pub": "Fri, 10 Jul 2026 16:14:31 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] SK하이닉스. ADR 상장 앞두고 약세마감…삼전은 2.5%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260710035651008",
-      "source": "연합뉴스 경제",
-      "ts": 1783666172000,
-      "pub": "Fri, 10 Jul 2026 15:49:32 +0900",
-      "sentiment": "negative"
     }
   ]
 }

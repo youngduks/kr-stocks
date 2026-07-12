@@ -1,14 +1,46 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-12T12:52:11.039Z",
-  "count": 13,
+  "updated_at": "2026-07-12T14:21:34.118Z",
+  "count": 18,
   "items": [
+    {
+      "title": "이란 매체, 하메네이 복수 대상에 트럼프·마크롱 등 지목",
+      "link": "https://www.yna.co.kr/view/AKR20260712055200081",
+      "source": "연합뉴스 국제",
+      "ts": 1783864370000,
+      "pub": "Sun, 12 Jul 2026 22:52:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키 \"정치 전략 바꿔야\" 우크라 개각 방침…총리 사임",
+      "link": "https://www.yna.co.kr/view/AKR20260712053900108",
+      "source": "연합뉴스 국제",
+      "ts": 1783862509000,
+      "pub": "Sun, 12 Jul 2026 22:21:49 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이스라엘 점령지와 무역 어쩌나…유럽 골머리",
       "link": "https://www.yna.co.kr/view/AKR20260712050900085",
       "source": "연합뉴스 국제",
       "ts": 1783856795000,
       "pub": "Sun, 12 Jul 2026 20:46:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'휘발유 부족' 러시아 또 때렸다…우크라, 국경서 800㎞ 거리 정유소 공격",
+      "link": "https://www.mt.co.kr/world/2026/07/12/2026071220145342973",
+      "source": "머니투데이",
+      "ts": 1783855170000,
+      "pub": "Sun, 12 Jul 2026 20:19:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 애플에 '관세 피하려면 인텔 공장 써라' 압박",
+      "link": "https://www.mt.co.kr/world/2026/07/12/2026071219342513297",
+      "source": "머니투데이",
+      "ts": 1783852918000,
+      "pub": "Sun, 12 Jul 2026 19:41:58 +0900",
       "sentiment": "neutral"
     },
     {
@@ -33,6 +65,14 @@
       "source": "연합뉴스 국제",
       "ts": 1783843409000,
       "pub": "Sun, 12 Jul 2026 17:03:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'트럼프 측근' 린지 그레이엄 美상원의원 별세…\"갑작스러운 질병\"",
+      "link": "https://www.mt.co.kr/world/2026/07/12/2026071215301840093",
+      "source": "머니투데이",
+      "ts": 1783838603000,
+      "pub": "Sun, 12 Jul 2026 15:43:23 +0900",
       "sentiment": "neutral"
     },
     {

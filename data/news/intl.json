@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-13T08:44:01.051Z",
-  "count": 18,
+  "updated_at": "2026-07-13T11:49:34.312Z",
+  "count": 16,
   "items": [
+    {
+      "title": "[포토] 포성 여전한 가자지구",
+      "link": "https://www.hankyung.com/article/2026071325901",
+      "source": "한국경제",
+      "ts": 1783935191000,
+      "pub": "Mon, 13 Jul 2026 18:33:11 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[영상] 러, 활공폭탄·미사일 공격…드론으로 석유저장소 때린 우크라",
       "link": "https://www.yna.co.kr/view/AKR20260713130900704",
@@ -17,14 +25,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783926644000,
       "pub": "Mon, 13 Jul 2026 16:10:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'사이버 위협 분석' AI스페라, 이스라엘 플랫폼에 분석 서비스 연동",
-      "link": "https://www.mt.co.kr/future/2026/07/13/2026071310461821660",
-      "source": "머니투데이",
-      "ts": 1783926000000,
-      "pub": "Mon, 13 Jul 2026 16:00:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -129,22 +129,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783864370000,
       "pub": "Sun, 12 Jul 2026 22:52:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키 \"정치 전략 바꿔야\" 우크라 개각 방침…총리 사임",
-      "link": "https://www.yna.co.kr/view/AKR20260712053900108",
-      "source": "연합뉴스 국제",
-      "ts": 1783862509000,
-      "pub": "Sun, 12 Jul 2026 22:21:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘 점령지와 무역 어쩌나…유럽 골머리",
-      "link": "https://www.yna.co.kr/view/AKR20260712050900085",
-      "source": "연합뉴스 국제",
-      "ts": 1783856795000,
-      "pub": "Sun, 12 Jul 2026 20:46:35 +0900",
       "sentiment": "neutral"
     }
   ]

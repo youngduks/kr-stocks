@@ -41,9 +41,9 @@ export default async function Home() {
 
         {/* 인간지표 — 내일 상승/하락 투표 (NXT 프리장 오픈 전 마감). 지난 결과 → /poll */}
         <PollWidget
-          pollId="market-updown-2026-07-13"
+          pollId="market-updown-2026-07-14"
           title="인간지표 — 내일 상승 vs 하락"
-          question="7/13(월) 한국 증시, 오를까요 내릴까요?"
+          question="7/14(화) 한국 증시, 오를까요 내릴까요?"
           yesLabel="📈 상승"
           noLabel="📉 하락"
           historyHref="/poll"

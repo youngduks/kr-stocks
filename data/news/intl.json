@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-13T05:23:32.554Z",
-  "count": 19,
+  "updated_at": "2026-07-13T08:44:01.051Z",
+  "count": 18,
   "items": [
+    {
+      "title": "[영상] 러, 활공폭탄·미사일 공격…드론으로 석유저장소 때린 우크라",
+      "link": "https://www.yna.co.kr/view/AKR20260713130900704",
+      "source": "연합뉴스 국제",
+      "ts": 1783927590000,
+      "pub": "Mon, 13 Jul 2026 16:26:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프는 출구 찾고 푸틴은 밀어붙이지만…둘 다 전쟁에 발목",
+      "link": "https://www.yna.co.kr/view/AKR20260713127300009",
+      "source": "연합뉴스 국제",
+      "ts": 1783926644000,
+      "pub": "Mon, 13 Jul 2026 16:10:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'사이버 위협 분석' AI스페라, 이스라엘 플랫폼에 분석 서비스 연동",
+      "link": "https://www.mt.co.kr/future/2026/07/13/2026071310461821660",
+      "source": "머니투데이",
+      "ts": 1783926000000,
+      "pub": "Mon, 13 Jul 2026 16:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'대러 매파' 그레이엄, 별세 직전까지 우크라 지원 총력전",
+      "link": "https://www.yna.co.kr/view/AKR20260713108200009",
+      "source": "연합뉴스 국제",
+      "ts": 1783922048000,
+      "pub": "Mon, 13 Jul 2026 14:54:08 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[쇼츠] 부상병 탄 무인차량 쫓는 러 드론 VS 드론 잡는 우크라 드론",
       "link": "https://www.yna.co.kr/view/AKR20260713077200704",
@@ -41,14 +73,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783902579000,
       "pub": "Mon, 13 Jul 2026 09:29:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "정부, 물가 안정 위해 콩나물용 콩 저율관세 물량 1만t 확대",
-      "link": "https://www.yna.co.kr/view/AKR20260713033600002",
-      "source": "연합뉴스 경제",
-      "ts": 1783902176000,
-      "pub": "Mon, 13 Jul 2026 09:22:56 +0900",
       "sentiment": "neutral"
     },
     {
@@ -121,38 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783856795000,
       "pub": "Sun, 12 Jul 2026 20:46:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'공화 강경파' 그레이엄 의원 별세…트럼프 \"진정한 애국자\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260712034452009",
-      "source": "연합뉴스 국제",
-      "ts": 1783850202000,
-      "pub": "Sun, 12 Jul 2026 18:56:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 측근' 그레이엄 의원 별세…대이란·대북 강경론 주도(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260712034451009",
-      "source": "연합뉴스 국제",
-      "ts": 1783843409000,
-      "pub": "Sun, 12 Jul 2026 17:03:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 측근' 린지 그레이엄 상원의원 별세…외교·안보 강경파",
-      "link": "https://www.yna.co.kr/view/AKR20260712034400009",
-      "source": "연합뉴스 국제",
-      "ts": 1783838167000,
-      "pub": "Sun, 12 Jul 2026 15:36:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"젤렌스키, 패트리엇 생산 日미쓰비시와 기술협력 관심\"",
-      "link": "https://www.yna.co.kr/view/AKR20260712020900073",
-      "source": "연합뉴스 국제",
-      "ts": 1783821629000,
-      "pub": "Sun, 12 Jul 2026 11:00:29 +0900",
       "sentiment": "neutral"
     }
   ]

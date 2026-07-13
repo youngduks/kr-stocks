@@ -1,47 +1,39 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-13T05:23:32.555Z",
-  "count": 10,
+  "updated_at": "2026-07-13T08:44:01.052Z",
+  "count": 7,
   "items": [
     {
-      "title": "삼성전자 노조 \"호남 반도체, 조합원 84% 반대…내년 교섭서 다룰 것\"",
-      "link": "https://www.mt.co.kr/industry/2026/07/13/2026071313590252707",
-      "source": "머니투데이",
-      "ts": 1783919618000,
-      "pub": "Mon, 13 Jul 2026 14:13:38 +0900",
+      "title": "삼성전자 임직원, 챗GPT이어 제미나이도 쓴다",
+      "link": "https://www.hankyung.com/article/2026071324721",
+      "source": "한국경제",
+      "ts": 1783931774000,
+      "pub": "Mon, 13 Jul 2026 17:36:14 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"계좌가 녹고 있어요\"...삼전닉스 급락, 코스피 -7%대 '패닉'",
-      "link": "https://www.mt.co.kr/stock/2026/07/13/2026071313520223661",
+      "title": "\"삼전닉스 반등하면 2배 먹는다\"…신저가 올라탄 개미, 6000억 줍줍",
+      "link": "https://www.mt.co.kr/stock/2026/07/13/2026071317142063476",
       "source": "머니투데이",
-      "ts": 1783919559000,
-      "pub": "Mon, 13 Jul 2026 14:12:39 +0900",
+      "ts": 1783930677000,
+      "pub": "Mon, 13 Jul 2026 17:17:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스, 지금이 제일 비싸다?…'중립·하향' 리포트 슬금슬금",
+      "link": "https://www.mt.co.kr/stock/2026/07/13/2026071316050525742",
+      "source": "머니투데이",
+      "ts": 1783926574000,
+      "pub": "Mon, 13 Jul 2026 16:09:34 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "교보證, 삼성전자·SK하이닉스 월지급 ELB 공모",
-      "link": "https://www.mt.co.kr/stock/2026/07/13/2026071313594199532",
-      "source": "머니투데이",
-      "ts": 1783918909000,
-      "pub": "Mon, 13 Jul 2026 14:01:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "맥 못 추는 삼전닉스, 7천피 '와르르'…외인·기관 무섭게 팔아 치운다",
-      "link": "https://www.mt.co.kr/stock/2026/07/13/2026071312371640603",
-      "source": "머니투데이",
-      "ts": 1783913922000,
-      "pub": "Mon, 13 Jul 2026 12:38:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 노조 \"호남 반도체 반대 84%…정부 답하라\"",
-      "link": "https://www.hankyung.com/article/2026071315327",
-      "source": "한국경제",
-      "ts": 1783911077000,
-      "pub": "Mon, 13 Jul 2026 11:51:17 +0900",
-      "sentiment": "neutral"
+      "title": "반도체주 '우두둑'…SK하이닉스 15.4%·삼성전자 10.7% 폭락(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260713035052008",
+      "source": "연합뉴스 경제",
+      "ts": 1783926116000,
+      "pub": "Mon, 13 Jul 2026 16:01:56 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "'삼전닉스 출렁'에 코스피 5%대 급락…'7천피' 위협받기도",
@@ -50,14 +42,6 @@
       "ts": 1783910348000,
       "pub": "Mon, 13 Jul 2026 11:39:08 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "하닉 이직한 삼전 직원들…\"1년 반 일하지 마\" 제동 걸린 이유",
-      "link": "https://www.hankyung.com/article/2026071314497",
-      "source": "한국경제",
-      "ts": 1783909326000,
-      "pub": "Mon, 13 Jul 2026 11:22:06 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "법원, 삼성 낸드 인력 SK하이닉스 전직 1년반 금지 결정",
@@ -73,14 +57,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783907409000,
       "pub": "Mon, 13 Jul 2026 10:50:09 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[특징주] SK하이닉스 장 초반 3%대 급락…삼전은 0.70% 올라",
-      "link": "https://www.yna.co.kr/view/AKR20260713035000008",
-      "source": "연합뉴스 경제",
-      "ts": 1783901809000,
-      "pub": "Mon, 13 Jul 2026 09:16:49 +0900",
       "sentiment": "negative"
     }
   ]

@@ -1,8 +1,80 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-13T14:00:13.124Z",
-  "count": 14,
+  "updated_at": "2026-07-13T16:35:44.194Z",
+  "count": 20,
   "items": [
+    {
+      "title": "유럽 9개국, 우크라와 '탄도미사일 방어 연합' 창설",
+      "link": "https://www.yna.co.kr/view/AKR20260714001500081",
+      "source": "연합뉴스 국제",
+      "ts": 1783958366000,
+      "pub": "Tue, 14 Jul 2026 00:59:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"EU, 상반기 러시아서 역대급 가스 수입…푸틴에 10조원 안겨\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714000500098",
+      "source": "연합뉴스 국제",
+      "ts": 1783956462000,
+      "pub": "Tue, 14 Jul 2026 00:27:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"호르무즈 대이란 해상 봉쇄 재개…선적 화물 20% 받을 것\"",
+      "link": "https://www.hankyung.com/article/2026071428587",
+      "source": "한국경제",
+      "ts": 1783955348000,
+      "pub": "Tue, 14 Jul 2026 00:09:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 수수료 비난하더니…트럼프 \"호르무즈 통행료 20% 받겠다\"",
+      "link": "https://www.hankyung.com/article/202607132850i",
+      "source": "한국경제",
+      "ts": 1783954285000,
+      "pub": "Mon, 13 Jul 2026 23:51:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"호르무즈 대이란 봉쇄 재개\"…20% 통행료 징수 일방선언",
+      "link": "https://www.yna.co.kr/view/AKR20260713168100071",
+      "source": "연합뉴스 국제",
+      "ts": 1783954137000,
+      "pub": "Mon, 13 Jul 2026 23:48:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"호르무즈 안전제공 비용으로 선적화물 20% 받을 것\"",
+      "link": "https://www.hankyung.com/article/2026071328417",
+      "source": "한국경제",
+      "ts": 1783952567000,
+      "pub": "Mon, 13 Jul 2026 23:22:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"호르무즈서 대이란 해상봉쇄 재개\"",
+      "link": "https://www.hankyung.com/article/2026071328397",
+      "source": "한국경제",
+      "ts": 1783952517000,
+      "pub": "Mon, 13 Jul 2026 23:21:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"호르무즈 안전제공 비용으로 선적화물 20% 받을 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260713167600071",
+      "source": "연합뉴스 국제",
+      "ts": 1783952461000,
+      "pub": "Mon, 13 Jul 2026 23:21:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"호르무즈서 대이란 해상봉쇄 재개\"",
+      "link": "https://www.yna.co.kr/view/AKR20260713167500071",
+      "source": "연합뉴스 국제",
+      "ts": 1783952386000,
+      "pub": "Mon, 13 Jul 2026 23:19:46 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"美, 아마도 호르무즈 해협 통제할 것…그 대가 받아야\"",
       "link": "https://www.yna.co.kr/view/AKR20260713164500071",
@@ -17,14 +89,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783947007000,
       "pub": "Mon, 13 Jul 2026 21:50:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[포토] 포성 여전한 가자지구",
-      "link": "https://www.hankyung.com/article/2026071325901",
-      "source": "한국경제",
-      "ts": 1783935191000,
-      "pub": "Mon, 13 Jul 2026 18:33:11 +0900",
       "sentiment": "neutral"
     },
     {
@@ -97,22 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783899088000,
       "pub": "Mon, 13 Jul 2026 08:31:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"우크라 배치 공격용 드론, 독일 남부 비밀공장서 생산\"",
-      "link": "https://www.yna.co.kr/view/AKR20260713004600072",
-      "source": "연합뉴스 국제",
-      "ts": 1783889743000,
-      "pub": "Mon, 13 Jul 2026 05:55:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"野와 문제는 그레이엄이 풀었는데\"…의회 최대우군 잃은 트럼프",
-      "link": "https://www.yna.co.kr/view/AKR20260713000800071",
-      "source": "연합뉴스 국제",
-      "ts": 1783874263000,
-      "pub": "Mon, 13 Jul 2026 01:37:43 +0900",
       "sentiment": "neutral"
     }
   ]

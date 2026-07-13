@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-13T14:00:13.125Z",
+  "updated_at": "2026-07-13T16:35:44.195Z",
   "count": 18,
   "items": [
+    {
+      "title": "월가,\"SK하이닉스 美IPO성공,다른 기술기업들은 쉽지않아\"",
+      "link": "https://www.hankyung.com/article/202607132810i",
+      "source": "한국경제",
+      "ts": 1783958167000,
+      "pub": "Tue, 14 Jul 2026 00:56:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'중동 긴장' 재점화에 뉴욕증시 혼조세…하이닉스 ADR 7%↓",
+      "link": "https://www.hankyung.com/article/202607132834i",
+      "source": "한국경제",
+      "ts": 1783952250000,
+      "pub": "Mon, 13 Jul 2026 23:17:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "고용노동부 \"호남 반도체 투자, 단체교섭·쟁의 대상 아니다\"",
+      "link": "https://www.hankyung.com/article/2026071328257",
+      "source": "한국경제",
+      "ts": 1783951428000,
+      "pub": "Mon, 13 Jul 2026 23:03:48 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"호남 반도체 교섭의제로\" 삼전노조 주장에 노동부 \"대상 아냐\"",
       "link": "https://www.yna.co.kr/view/AKR20260713165800530",
@@ -25,22 +49,6 @@
       "source": "한국경제",
       "ts": 1783938156000,
       "pub": "Mon, 13 Jul 2026 19:22:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코오롱인더, 반도체·디스플레이 소재 매각",
-      "link": "https://www.hankyung.com/article/2026071325171",
-      "source": "한국경제",
-      "ts": 1783935618000,
-      "pub": "Mon, 13 Jul 2026 18:40:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 노조 \"호남 반도체도 교섭 대상\"",
-      "link": "https://www.hankyung.com/article/2026071325161",
-      "source": "한국경제",
-      "ts": 1783935580000,
-      "pub": "Mon, 13 Jul 2026 18:39:40 +0900",
       "sentiment": "neutral"
     },
     {
@@ -137,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783902704000,
       "pub": "Mon, 13 Jul 2026 09:31:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 ADR 연계 레버리지 ETF 13∼14일 美출시 '봇물'",
-      "link": "https://www.yna.co.kr/view/AKR20260713001600072",
-      "source": "연합뉴스 국제",
-      "ts": 1783876127000,
-      "pub": "Mon, 13 Jul 2026 02:08:47 +0900",
       "sentiment": "neutral"
     }
   ]

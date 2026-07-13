@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-13T11:49:34.312Z",
-  "count": 16,
+  "updated_at": "2026-07-13T14:00:13.124Z",
+  "count": 14,
   "items": [
+    {
+      "title": "트럼프 \"美, 아마도 호르무즈 해협 통제할 것…그 대가 받아야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260713164500071",
+      "source": "연합뉴스 국제",
+      "ts": 1783947983000,
+      "pub": "Mon, 13 Jul 2026 22:06:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러·우크라 충돌 격화에 곡물 수출길 막히나…밀값 들썩",
+      "link": "https://www.yna.co.kr/view/AKR20260713162700109",
+      "source": "연합뉴스 국제",
+      "ts": 1783947007000,
+      "pub": "Mon, 13 Jul 2026 21:50:07 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[포토] 포성 여전한 가자지구",
       "link": "https://www.hankyung.com/article/2026071325901",
@@ -97,38 +113,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783874263000,
       "pub": "Mon, 13 Jul 2026 01:37:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'親트럼프 강경파' 그레이엄 의원 별세…트럼프 \"진정한 애국자\"(종합3보)",
-      "link": "https://www.yna.co.kr/view/AKR20260712034453009",
-      "source": "연합뉴스 국제",
-      "ts": 1783869076000,
-      "pub": "Mon, 13 Jul 2026 00:11:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 공세에 푸틴의 '자랑'에서 '짐'이 된 크림반도",
-      "link": "https://www.yna.co.kr/view/AKR20260712056500085",
-      "source": "연합뉴스 국제",
-      "ts": 1783866981000,
-      "pub": "Sun, 12 Jul 2026 23:36:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"호르무즈 열려 있어…어젯밤 이란 사정없이 폭격\"",
-      "link": "https://www.yna.co.kr/view/AKR20260712056700071",
-      "source": "연합뉴스 국제",
-      "ts": 1783866561000,
-      "pub": "Sun, 12 Jul 2026 23:29:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 매체, 하메네이 복수 대상에 트럼프·마크롱 등 지목",
-      "link": "https://www.yna.co.kr/view/AKR20260712055200081",
-      "source": "연합뉴스 국제",
-      "ts": 1783864370000,
-      "pub": "Sun, 12 Jul 2026 22:52:50 +0900",
       "sentiment": "neutral"
     }
   ]

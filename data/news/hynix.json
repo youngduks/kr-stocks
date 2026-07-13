@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-13T20:06:25.189Z",
-  "count": 18,
+  "updated_at": "2026-07-13T21:43:01.163Z",
+  "count": 17,
   "items": [
+    {
+      "title": "SK하이닉스 美 ADR도 9.3% 급락…공모가 소폭 웃돌아",
+      "link": "https://www.yna.co.kr/view/AKR20260714008700072",
+      "source": "연합뉴스 국제",
+      "ts": 1783974204000,
+      "pub": "Tue, 14 Jul 2026 05:23:24 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "월가,\"SK하이닉스 美IPO성공,다른 기술기업들은 쉽지않아\"",
       "link": "https://www.hankyung.com/article/202607132810i",
@@ -33,14 +41,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783950543000,
       "pub": "Mon, 13 Jul 2026 22:49:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"하이닉스가 뭔데, 게임회사?\" 정석원 발언에 깜짝…\"모르는 게 나을 수도\"",
-      "link": "https://www.mt.co.kr/society/2026/07/13/2026071320283553131",
-      "source": "머니투데이",
-      "ts": 1783942959000,
-      "pub": "Mon, 13 Jul 2026 20:42:39 +0900",
       "sentiment": "neutral"
     },
     {
@@ -138,14 +138,6 @@
       "ts": 1783908634000,
       "pub": "Mon, 13 Jul 2026 11:10:34 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "반도체주 또 휘청…SK하이닉스 8%·삼성전자 4% 급락(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260713035051008",
-      "source": "연합뉴스 경제",
-      "ts": 1783907409000,
-      "pub": "Mon, 13 Jul 2026 10:50:09 +0900",
-      "sentiment": "negative"
     }
   ]
 }

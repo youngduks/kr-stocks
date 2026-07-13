@@ -1,8 +1,80 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-13T18:25:46.199Z",
-  "count": 22,
+  "updated_at": "2026-07-13T20:06:25.187Z",
+  "count": 31,
   "items": [
+    {
+      "title": "푸틴, '드론 공격 강화' 우크라에 \"몇배 더 강력한 보복\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714006900108",
+      "source": "연합뉴스 국제",
+      "ts": 1783972627000,
+      "pub": "Tue, 14 Jul 2026 04:57:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "월러 연준이사 \"근원 물가 높으면 단기적 긴축 검토해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714006100072",
+      "source": "연합뉴스 국제",
+      "ts": 1783971873000,
+      "pub": "Tue, 14 Jul 2026 04:44:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "다음달 美수도 한복판서 카레이스…트럼프 \"일생일대 행사\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714005900071",
+      "source": "연합뉴스 국제",
+      "ts": 1783971468000,
+      "pub": "Tue, 14 Jul 2026 04:37:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"16일 밤 대국민연설\"…이란 구상 밝힐 듯",
+      "link": "https://www.mt.co.kr/world/2026/07/14/2026071404304381263",
+      "source": "머니투데이",
+      "ts": 1783971173000,
+      "pub": "Tue, 14 Jul 2026 04:32:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "EU \"가자지구 재건 1조5천억원 모금\"…위생 복구 등에 투입",
+      "link": "https://www.yna.co.kr/view/AKR20260714005700098",
+      "source": "연합뉴스 국제",
+      "ts": 1783970130000,
+      "pub": "Tue, 14 Jul 2026 04:15:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "호르무즈 통제하며 돈 받겠다는 트럼프…전쟁 재개 임박했나(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260714002151071",
+      "source": "연합뉴스 국제",
+      "ts": 1783969799000,
+      "pub": "Tue, 14 Jul 2026 04:09:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"16일 저녁 대국민 연설\"…이란 관련 발언 주목",
+      "link": "https://www.yna.co.kr/view/AKR20260714005151071",
+      "source": "연합뉴스 국제",
+      "ts": 1783969476000,
+      "pub": "Tue, 14 Jul 2026 04:04:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]트럼프 \"미 동부시간 16일 밤 9시 대국민연설\"",
+      "link": "https://www.mt.co.kr/world/2026/07/14/2026071403550184335",
+      "source": "머니투데이",
+      "ts": 1783968961000,
+      "pub": "Tue, 14 Jul 2026 03:56:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"미 동부시간 16일 저녁 9시 대국민 연설\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714005100071",
+      "source": "연합뉴스 국제",
+      "ts": 1783968569000,
+      "pub": "Tue, 14 Jul 2026 03:49:29 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美, 국제형사재판소 전방위 압박…외신 \"트럼프 기소 차단 포석\"",
       "link": "https://www.yna.co.kr/view/AKR20260714002700071",
@@ -108,6 +180,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "트럼프 \"호르무즈 해협 미국이 장악…운영비 우리가 받아야\"",
+      "link": "https://www.mt.co.kr/world/2026/07/13/2026071321455566459",
+      "source": "머니투데이",
+      "ts": 1783948839000,
+      "pub": "Mon, 13 Jul 2026 22:20:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "트럼프 \"美, 아마도 호르무즈 해협 통제할 것…그 대가 받아야\"",
       "link": "https://www.yna.co.kr/view/AKR20260713164500071",
       "source": "연합뉴스 국제",
@@ -161,14 +241,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783909417000,
       "pub": "Mon, 13 Jul 2026 11:23:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 드론공습에 러 '중대 보급로' 차단…아조우해 운항 중단",
-      "link": "https://www.yna.co.kr/view/AKR20260713063700009",
-      "source": "연합뉴스 국제",
-      "ts": 1783908847000,
-      "pub": "Mon, 13 Jul 2026 11:14:07 +0900",
       "sentiment": "neutral"
     },
     {

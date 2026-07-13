@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-13T21:43:01.162Z",
-  "count": 31,
+  "updated_at": "2026-07-13T22:43:10.055Z",
+  "count": 32,
   "items": [
+    {
+      "title": "트럼프 \"오늘도 내일도 이란 세게 때릴 것…MOU는 시험이었다\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260714007952071",
+      "source": "연합뉴스 국제",
+      "ts": 1783978976000,
+      "pub": "Tue, 14 Jul 2026 06:42:56 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "뉴욕증시, 트럼프 호르무즈 통행료 예고에 하락…나스닥 1.6%↓(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260714008151072",
@@ -10,6 +18,14 @@
       "ts": 1783976941000,
       "pub": "Tue, 14 Jul 2026 06:09:01 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"오늘 밤과 내일 이란 강하게 때린다\"…뉴욕증시 급락",
+      "link": "https://www.hankyung.com/article/2026071429247",
+      "source": "한국경제",
+      "ts": 1783976797000,
+      "pub": "Tue, 14 Jul 2026 06:06:37 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "트럼프 \"오늘 밤과 내일 이란 세게 때릴 것…MOU는 시험이었다\"",
@@ -241,14 +257,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783922048000,
       "pub": "Mon, 13 Jul 2026 14:54:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "해수부, 할당관세 고등어 2차 점검…의무 위반업체 추천 취소",
-      "link": "https://www.yna.co.kr/view/AKR20260713031900030",
-      "source": "연합뉴스 경제",
-      "ts": 1783908135000,
-      "pub": "Mon, 13 Jul 2026 11:02:15 +0900",
       "sentiment": "neutral"
     }
   ]

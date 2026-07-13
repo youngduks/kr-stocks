@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-13T21:43:01.163Z",
+  "updated_at": "2026-07-13T22:43:10.057Z",
   "count": 17,
   "items": [
+    {
+      "title": "AI 반도체 주문 폭발에…'월매출 신기록' 찍은 TSMC 돌풍",
+      "link": "https://www.hankyung.com/article/202607132253g",
+      "source": "한국경제",
+      "ts": 1783976401000,
+      "pub": "Tue, 14 Jul 2026 06:00:01 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "SK하이닉스 美 ADR도 9.3% 급락…공모가 소폭 웃돌아",
       "link": "https://www.yna.co.kr/view/AKR20260714008700072",
@@ -49,14 +57,6 @@
       "source": "한국경제",
       "ts": 1783941796000,
       "pub": "Mon, 13 Jul 2026 20:23:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"SK하이닉스, 모두가 흔들고 싶은 돈나무 돼\" [블룸버그]",
-      "link": "https://www.hankyung.com/article/202607132712i",
-      "source": "한국경제",
-      "ts": 1783938156000,
-      "pub": "Mon, 13 Jul 2026 19:22:36 +0900",
       "sentiment": "neutral"
     },
     {

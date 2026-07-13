@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-13T16:35:44.194Z",
-  "count": 20,
+  "updated_at": "2026-07-13T18:25:46.199Z",
+  "count": 22,
   "items": [
+    {
+      "title": "美, 국제형사재판소 전방위 압박…외신 \"트럼프 기소 차단 포석\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714002700071",
+      "source": "연합뉴스 국제",
+      "ts": 1783964180000,
+      "pub": "Tue, 14 Jul 2026 02:36:20 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프 \"호르무즈 안전통항 대가 징수\"…'20% 통행료' 일방선언(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260713168151071",
+      "source": "연합뉴스 국제",
+      "ts": 1783963477000,
+      "pub": "Tue, 14 Jul 2026 02:24:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 체제전복 노렸던 이스라엘…\"아마디네자드 前대통령 포섭\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714002500072",
+      "source": "연합뉴스 국제",
+      "ts": 1783962199000,
+      "pub": "Tue, 14 Jul 2026 02:03:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "호르무즈 통제하며 돈 받겠다는 트럼프…전쟁 재개 임박했나",
+      "link": "https://www.yna.co.kr/view/AKR20260714002100071",
+      "source": "연합뉴스 국제",
+      "ts": 1783960579000,
+      "pub": "Tue, 14 Jul 2026 01:36:19 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "유럽 9개국, 우크라와 '탄도미사일 방어 연합' 창설",
       "link": "https://www.yna.co.kr/view/AKR20260714001500081",
@@ -145,22 +177,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783908135000,
       "pub": "Mon, 13 Jul 2026 11:02:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'대러 매파' 그레이엄 별세…우크라, 워싱턴 최대 우군 잃었다",
-      "link": "https://www.yna.co.kr/view/AKR20260713036900009",
-      "source": "연합뉴스 국제",
-      "ts": 1783902579000,
-      "pub": "Mon, 13 Jul 2026 09:29:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘, 10월 27일 총선…네타냐후 장기집권 연장 시험대",
-      "link": "https://www.yna.co.kr/view/AKR20260713021200009",
-      "source": "연합뉴스 국제",
-      "ts": 1783899088000,
-      "pub": "Mon, 13 Jul 2026 08:31:28 +0900",
       "sentiment": "neutral"
     }
   ]

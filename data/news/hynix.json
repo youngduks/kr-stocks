@@ -1,23 +1,103 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-13T01:28:43.267Z",
-  "count": 14,
+  "updated_at": "2026-07-13T05:23:32.556Z",
+  "count": 18,
   "items": [
     {
-      "title": "'AI 열 관리 강자' LG전자, 엔비디아 효과에 12% '급등' [종목+]",
-      "link": "https://www.hankyung.com/article/2026071309996",
-      "source": "한국경제",
-      "ts": 1783903567000,
-      "pub": "Mon, 13 Jul 2026 09:46:07 +0900",
+      "title": "삼성전자 노조 \"호남 반도체, 조합원 84% 반대…내년 교섭서 다룰 것\"",
+      "link": "https://www.mt.co.kr/industry/2026/07/13/2026071313590252707",
+      "source": "머니투데이",
+      "ts": 1783919618000,
+      "pub": "Mon, 13 Jul 2026 14:13:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "교보證, 삼성전자·SK하이닉스 월지급 ELB 공모",
+      "link": "https://www.mt.co.kr/stock/2026/07/13/2026071313594199532",
+      "source": "머니투데이",
+      "ts": 1783918909000,
+      "pub": "Mon, 13 Jul 2026 14:01:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "대만 TSMC, 자이과학단지 2기 부지 기공식 열어",
+      "link": "https://www.yna.co.kr/view/AKR20260713091700009",
+      "source": "연합뉴스 국제",
+      "ts": 1783918597000,
+      "pub": "Mon, 13 Jul 2026 13:56:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[뉴스프레소] SK하이닉스, 나스닥 상장 첫 날 14% 급등… 월가 \"화려하고 역사적인 데뷔\"",
+      "link": "https://www.mt.co.kr/world/2026/07/13/2026071312217091524",
+      "source": "머니투데이",
+      "ts": 1783914758000,
+      "pub": "Mon, 13 Jul 2026 12:52:38 +0900",
       "sentiment": "positive"
     },
     {
-      "title": "SK하이닉스 ADR 대박인데…초고수들은 '先매도' 왜",
-      "link": "https://www.hankyung.com/article/202607130929i",
+      "title": "블룸버그 칼럼 \"모두가 돈나무(SK하이닉스) 흔들고 싶어한다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260713069000009",
+      "source": "연합뉴스 국제",
+      "ts": 1783914256000,
+      "pub": "Mon, 13 Jul 2026 12:44:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피 6%대 급락, 장중 7,000선 무너져…하이닉스 12%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260713080300008",
+      "source": "연합뉴스 경제",
+      "ts": 1783913067000,
+      "pub": "Mon, 13 Jul 2026 12:24:27 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "삼성전자 노조 \"호남 반도체 반대 84%…정부 답하라\"",
+      "link": "https://www.hankyung.com/article/2026071315327",
       "source": "한국경제",
-      "ts": 1783903269000,
-      "pub": "Mon, 13 Jul 2026 09:41:09 +0900",
-      "sentiment": "positive"
+      "ts": 1783911077000,
+      "pub": "Mon, 13 Jul 2026 11:51:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "법원, 삼성 낸드 인력 SK하이닉스 전직 1년반 금지 결정",
+      "link": "https://www.yna.co.kr/view/AKR20260713066300061",
+      "source": "연합뉴스 경제",
+      "ts": 1783908634000,
+      "pub": "Mon, 13 Jul 2026 11:10:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체주 흔들려 불안?…금융주, '투자 피난처'로 부상",
+      "link": "https://www.hankyung.com/article/202607095985i",
+      "source": "한국경제",
+      "ts": 1783908421000,
+      "pub": "Mon, 13 Jul 2026 11:07:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'200만닉스' 뚫렸는데…SK하이닉스 '풀베팅'한 초고수들 왜",
+      "link": "https://www.hankyung.com/article/202607131211i",
+      "source": "한국경제",
+      "ts": 1783908340000,
+      "pub": "Mon, 13 Jul 2026 11:05:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체주 또 휘청…SK하이닉스 8%·삼성전자 4% 급락(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260713035051008",
+      "source": "연합뉴스 경제",
+      "ts": 1783907409000,
+      "pub": "Mon, 13 Jul 2026 10:50:09 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "SK하이닉스-ADR 주가 함수는…나스닥 상장 흥행후 본주 7%대 급락",
+      "link": "https://www.yna.co.kr/view/AKR20260713059500008",
+      "source": "연합뉴스 경제",
+      "ts": 1783906983000,
+      "pub": "Mon, 13 Jul 2026 10:43:03 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "\"日구마모토, TSMC 왔지만 지역경제 화색 아직…산업 집적 관건\"",
@@ -52,14 +132,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "SK하이닉스 ADR 흥행에도 4%대 하락…코스피 7400대 후퇴 [마켓라이브]",
-      "link": "https://www.hankyung.com/article/202607130905i",
-      "source": "한국경제",
-      "ts": 1783902263000,
-      "pub": "Mon, 13 Jul 2026 09:24:23 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "[특징주] SK하이닉스 장 초반 3%대 급락…삼전은 0.70% 올라",
       "link": "https://www.yna.co.kr/view/AKR20260713035000008",
       "source": "연합뉴스 경제",
@@ -68,52 +140,12 @@
       "sentiment": "negative"
     },
     {
-      "title": "DS증권 \"SK하이닉스 본주, ADR 상장으로 8∼18% 주가상승 기대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260713020600008",
-      "source": "연합뉴스 경제",
-      "ts": 1783899077000,
-      "pub": "Mon, 13 Jul 2026 08:31:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한은 \"반도체 수요 증가보다 공급 확대 더뎌\"…고점론 일축",
-      "link": "https://www.yna.co.kr/view/AKR20260711038600002",
-      "source": "연합뉴스 경제",
-      "ts": 1783889460000,
-      "pub": "Mon, 13 Jul 2026 05:51:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "SK하이닉스 ADR 연계 레버리지 ETF 13∼14일 美출시 '봇물'",
       "link": "https://www.yna.co.kr/view/AKR20260713001600072",
       "source": "연합뉴스 국제",
       "ts": 1783876127000,
       "pub": "Mon, 13 Jul 2026 02:08:47 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "환시에 '통화스와프급' 265억달러 퍼붓는 구원투수 SK하이닉스(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260710148451003",
-      "source": "연합뉴스 경제",
-      "ts": 1783843555000,
-      "pub": "Sun, 12 Jul 2026 17:05:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "광주 군공항 248만평 개발구상 '리셋'…반도체 맞춰 전면 재검토",
-      "link": "https://www.yna.co.kr/view/AKR20260710112900054",
-      "source": "연합뉴스 경제",
-      "ts": 1783818063000,
-      "pub": "Sun, 12 Jul 2026 10:01:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 나스닥 상장 흥행대박…국내 증시 온기로 이어질까",
-      "link": "https://www.yna.co.kr/view/AKR20260711029900008",
-      "source": "연합뉴스 경제",
-      "ts": 1783803902000,
-      "pub": "Sun, 12 Jul 2026 06:05:02 +0900",
-      "sentiment": "positive"
     }
   ]
 }

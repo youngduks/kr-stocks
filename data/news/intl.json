@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-13T01:28:43.265Z",
-  "count": 16,
+  "updated_at": "2026-07-13T05:23:32.554Z",
+  "count": 19,
   "items": [
+    {
+      "title": "[쇼츠] 부상병 탄 무인차량 쫓는 러 드론 VS 드론 잡는 우크라 드론",
+      "link": "https://www.yna.co.kr/view/AKR20260713077200704",
+      "source": "연합뉴스 국제",
+      "ts": 1783910438000,
+      "pub": "Mon, 13 Jul 2026 11:40:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 부상병 노린 러 자폭드론…우크라 드론이 공중서 '쾅'",
+      "link": "https://www.yna.co.kr/view/AKR20260713073200704",
+      "source": "연합뉴스 국제",
+      "ts": 1783909417000,
+      "pub": "Mon, 13 Jul 2026 11:23:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 드론공습에 러 '중대 보급로' 차단…아조우해 운항 중단",
+      "link": "https://www.yna.co.kr/view/AKR20260713063700009",
+      "source": "연합뉴스 국제",
+      "ts": 1783908847000,
+      "pub": "Mon, 13 Jul 2026 11:14:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "해수부, 할당관세 고등어 2차 점검…의무 위반업체 추천 취소",
+      "link": "https://www.yna.co.kr/view/AKR20260713031900030",
+      "source": "연합뉴스 경제",
+      "ts": 1783908135000,
+      "pub": "Mon, 13 Jul 2026 11:02:15 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'대러 매파' 그레이엄 별세…우크라, 워싱턴 최대 우군 잃었다",
       "link": "https://www.yna.co.kr/view/AKR20260713036900009",
@@ -121,14 +153,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783821629000,
       "pub": "Sun, 12 Jul 2026 11:00:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 건강이상설 제기한 NYT 기자에 \"대가 치를 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260712004700009",
-      "source": "연합뉴스 국제",
-      "ts": 1783807976000,
-      "pub": "Sun, 12 Jul 2026 07:12:56 +0900",
       "sentiment": "neutral"
     }
   ]

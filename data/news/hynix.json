@@ -1,8 +1,80 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-13T22:43:10.057Z",
-  "count": 17,
+  "updated_at": "2026-07-13T23:41:30.933Z",
+  "count": 22,
   "items": [
+    {
+      "title": "한국공학대, 반도체·피지컬AI 이끌 실전형 인재 키운다...대·중견기업 취업률 40% '눈길'",
+      "link": "https://www.mt.co.kr/policy/2026/07/14/2026071408060541809",
+      "source": "머니투데이",
+      "ts": 1783986031000,
+      "pub": "Tue, 14 Jul 2026 08:40:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "메모리 공급난에 삼성·애플만 웃었다…中 스마트폰 점유율 '뚝'",
+      "link": "https://www.mt.co.kr/tech/2026/07/14/2026071408054413147",
+      "source": "머니투데이",
+      "ts": 1783985584000,
+      "pub": "Tue, 14 Jul 2026 08:33:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미래에셋, SK하이닉스 2분기 영업익 전망치 12% 하향조정",
+      "link": "https://www.yna.co.kr/view/AKR20260714027600008",
+      "source": "연합뉴스 경제",
+      "ts": 1783985221000,
+      "pub": "Tue, 14 Jul 2026 08:27:01 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "반도체 급락 국면서 애플 주가는 사상 최고치",
+      "link": "https://www.yna.co.kr/view/AKR20260714024900009",
+      "source": "연합뉴스 국제",
+      "ts": 1783984749000,
+      "pub": "Tue, 14 Jul 2026 08:19:09 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "SK하이닉스 美 ADR 9% 급락…가격 격차 37%→19%로 줄어 [분석+]",
+      "link": "https://www.hankyung.com/article/2026071429936",
+      "source": "한국경제",
+      "ts": 1783981647000,
+      "pub": "Tue, 14 Jul 2026 07:27:27 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "SK하이닉스, 美 ADR도 9.3% 하락…공모가 소폭 웃돌아",
+      "link": "https://www.hankyung.com/article/2026071430007",
+      "source": "한국경제",
+      "ts": 1783981284000,
+      "pub": "Tue, 14 Jul 2026 07:21:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중동 긴장 고조에 AI 반도체주 급락…유가 급등 [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026071429906",
+      "source": "한국경제",
+      "ts": 1783980904000,
+      "pub": "Tue, 14 Jul 2026 07:15:04 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프 \"호르무즈 통행료 부과\" 발표에 화들짝…반도체 급락[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/07/14/2026071406172898315",
+      "source": "머니투데이",
+      "ts": 1783977615000,
+      "pub": "Tue, 14 Jul 2026 06:20:15 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "SK하이닉스 ADR도 9% 뚝…코스피 급락 여파",
+      "link": "https://www.mt.co.kr/world/2026/07/14/2026071406050152166",
+      "source": "머니투데이",
+      "ts": 1783976877000,
+      "pub": "Tue, 14 Jul 2026 06:07:57 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "AI 반도체 주문 폭발에…'월매출 신기록' 찍은 TSMC 돌풍",
       "link": "https://www.hankyung.com/article/202607132253g",
@@ -20,7 +92,7 @@
       "sentiment": "negative"
     },
     {
-      "title": "월가,\"SK하이닉스 美IPO성공,다른 기술기업들은 쉽지않아\"",
+      "title": "월가 \"SK하이닉스 美 IPO성공, 다른 기술기업들은 쉽지않아\"",
       "link": "https://www.hankyung.com/article/202607132810i",
       "source": "한국경제",
       "ts": 1783958167000,
@@ -49,14 +121,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783950543000,
       "pub": "Mon, 13 Jul 2026 22:49:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "TSMC \"2분기 매출 36% 증가…AI 투자수요 여전히 견고\"",
-      "link": "https://www.hankyung.com/article/202607132726i",
-      "source": "한국경제",
-      "ts": 1783941796000,
-      "pub": "Mon, 13 Jul 2026 20:23:16 +0900",
       "sentiment": "neutral"
     },
     {
@@ -108,36 +172,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "대만 TSMC, 자이과학단지 2기 부지 기공식 열어",
-      "link": "https://www.yna.co.kr/view/AKR20260713091700009",
-      "source": "연합뉴스 국제",
-      "ts": 1783918597000,
-      "pub": "Mon, 13 Jul 2026 13:56:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "블룸버그 칼럼 \"모두가 돈나무(SK하이닉스) 흔들고 싶어한다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260713069000009",
-      "source": "연합뉴스 국제",
-      "ts": 1783914256000,
-      "pub": "Mon, 13 Jul 2026 12:44:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "코스피 6%대 급락, 장중 7,000선 무너져…하이닉스 12%↓",
       "link": "https://www.yna.co.kr/view/AKR20260713080300008",
       "source": "연합뉴스 경제",
       "ts": 1783913067000,
       "pub": "Mon, 13 Jul 2026 12:24:27 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "법원, 삼성 낸드 인력 SK하이닉스 전직 1년반 금지 결정",
-      "link": "https://www.yna.co.kr/view/AKR20260713066300061",
-      "source": "연합뉴스 경제",
-      "ts": 1783908634000,
-      "pub": "Mon, 13 Jul 2026 11:10:34 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-13T22:43:10.057Z",
-  "count": 6,
+  "updated_at": "2026-07-13T23:41:30.932Z",
+  "count": 7,
   "items": [
+    {
+      "title": "메모리 공급난에 삼성·애플만 웃었다…中 스마트폰 점유율 '뚝'",
+      "link": "https://www.mt.co.kr/tech/2026/07/14/2026071408054413147",
+      "source": "머니투데이",
+      "ts": 1783985584000,
+      "pub": "Tue, 14 Jul 2026 08:33:04 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이재용 27조↑, 최태원 10조 클럽 가입에도… 방시혁 1.4조↓",
       "link": "https://www.hankyung.com/article/2026071429437",
@@ -17,6 +25,14 @@
       "source": "한국경제",
       "ts": 1783978201000,
       "pub": "Tue, 14 Jul 2026 06:30:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "20대 여성은 아이폰…40대 이상은 갤럭시 [IT썰]",
+      "link": "https://www.mt.co.kr/tech/2026/07/14/2026071317574791883",
+      "source": "머니투데이",
+      "ts": 1783976400000,
+      "pub": "Tue, 14 Jul 2026 06:00:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -42,14 +58,6 @@
       "ts": 1783910348000,
       "pub": "Mon, 13 Jul 2026 11:39:08 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "법원, 삼성 낸드 인력 SK하이닉스 전직 1년반 금지 결정",
-      "link": "https://www.yna.co.kr/view/AKR20260713066300061",
-      "source": "연합뉴스 경제",
-      "ts": 1783908634000,
-      "pub": "Mon, 13 Jul 2026 11:10:34 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

@@ -1,23 +1,23 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-12T23:41:06.456Z",
+  "updated_at": "2026-07-13T01:28:43.267Z",
   "count": 2,
   "items": [
     {
-      "title": "\"순이익 30% 성과급으로\"…현대차 노조, 오늘부터 부분파업",
-      "link": "https://www.hankyung.com/article/2026071304937",
+      "title": "현대차, TCR 월드투어 4라운드 우승…\"올 시즌 3번째\"",
+      "link": "https://www.hankyung.com/article/202607131049g",
       "source": "한국경제",
-      "ts": 1783892798000,
-      "pub": "Mon, 13 Jul 2026 06:46:38 +0900",
-      "sentiment": "negative"
+      "ts": 1783904426000,
+      "pub": "Mon, 13 Jul 2026 10:00:26 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "현대차 노조, 13일부터 부분파업…하투 본격화",
-      "link": "https://www.hankyung.com/article/2026071202571",
-      "source": "한국경제",
-      "ts": 1783847691000,
-      "pub": "Sun, 12 Jul 2026 18:14:51 +0900",
-      "sentiment": "negative"
+      "title": "키움운용, '현대차·기아·현대모비스+채권' ETF 14일 상장",
+      "link": "https://www.yna.co.kr/view/AKR20260713035100008",
+      "source": "연합뉴스 경제",
+      "ts": 1783902381000,
+      "pub": "Mon, 13 Jul 2026 09:26:21 +0900",
+      "sentiment": "neutral"
     }
   ]
 }

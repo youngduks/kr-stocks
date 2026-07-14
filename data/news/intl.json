@@ -1,14 +1,46 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-14T18:59:02.323Z",
+  "updated_at": "2026-07-14T20:10:38.659Z",
   "count": 38,
   "items": [
     {
-      "title": "트럼프, 호르무즈 통행료 번복…\"중동 동맹국이 요청\"",
-      "link": "https://www.mt.co.kr/world/2026/07/15/2026071503083436866",
-      "source": "머니투데이",
-      "ts": 1784053363000,
-      "pub": "Wed, 15 Jul 2026 03:22:43 +0900",
+      "title": "워시 의장 \"높은 인플레 용납 않겠다\"…연준 독립성 거듭 강조(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260714183552071",
+      "source": "연합뉴스 국제",
+      "ts": 1784058883000,
+      "pub": "Wed, 15 Jul 2026 04:54:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 모레 대국민연설서 \"선거·투표기기 내용 다룰 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260715006600071",
+      "source": "연합뉴스 국제",
+      "ts": 1784058194000,
+      "pub": "Wed, 15 Jul 2026 04:43:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "국제유가, 트럼프 통행료 번복에도 상승…브렌트 1.7%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260715006700072",
+      "source": "연합뉴스 경제",
+      "ts": 1784057767000,
+      "pub": "Wed, 15 Jul 2026 04:36:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 30년전 성추행 피해자에 80억원대 배상금 지급",
+      "link": "https://www.yna.co.kr/view/AKR20260715006100072",
+      "source": "연합뉴스 국제",
+      "ts": 1784055546000,
+      "pub": "Wed, 15 Jul 2026 03:59:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 네타냐후에 시리아·레바논서 군 철수하라 요구\"",
+      "link": "https://www.yna.co.kr/view/AKR20260715005800071",
+      "source": "연합뉴스 국제",
+      "ts": 1784055291000,
+      "pub": "Wed, 15 Jul 2026 03:54:51 +0900",
       "sentiment": "neutral"
     },
     {
@@ -41,14 +73,6 @@
       "source": "한국경제",
       "ts": 1784044835000,
       "pub": "Wed, 15 Jul 2026 01:00:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 '호르무즈 20% 통행료' 하루만에 번복…\"중동 투자협정으로 대체\"",
-      "link": "https://www.mt.co.kr/world/2026/07/15/2026071500420676220",
-      "source": "머니투데이",
-      "ts": 1784044376000,
-      "pub": "Wed, 15 Jul 2026 00:52:56 +0900",
       "sentiment": "neutral"
     },
     {
@@ -113,14 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784037569000,
       "pub": "Tue, 14 Jul 2026 22:59:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "첫 의회 출석 앞둔 워시 연준 의장 \"인플레이션 용납 않겠다\"",
-      "link": "https://www.mt.co.kr/world/2026/07/14/2026071422160245787",
-      "source": "머니투데이",
-      "ts": 1784037120000,
-      "pub": "Tue, 14 Jul 2026 22:52:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -290,22 +306,6 @@
       "ts": 1783997705000,
       "pub": "Tue, 14 Jul 2026 11:55:05 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 러시아, 우크라 최전선에 3t급 활공폭탄 투하…거대한 폭발",
-      "link": "https://www.yna.co.kr/view/AKR20260714078300704",
-      "source": "연합뉴스 국제",
-      "ts": 1783994955000,
-      "pub": "Tue, 14 Jul 2026 11:09:15 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "트럼프, 의회에 대이란 군사행동 공식 통보…전쟁 재개 우려",
-      "link": "https://www.yna.co.kr/view/AKR20260714076100009",
-      "source": "연합뉴스 국제",
-      "ts": 1783994508000,
-      "pub": "Tue, 14 Jul 2026 11:01:48 +0900",
-      "sentiment": "negative"
     }
   ]
 }

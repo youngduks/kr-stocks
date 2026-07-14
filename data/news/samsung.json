@@ -1,23 +1,63 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-14T07:01:57.885Z",
-  "count": 6,
+  "updated_at": "2026-07-14T09:44:08.976Z",
+  "count": 9,
   "items": [
     {
-      "title": "\"에어컨 사러 매장 가지 마세요\"…삼성전자, 3700억 쓸어 담았다 [불라방②]",
-      "link": "https://www.hankyung.com/article/202607143406g",
-      "source": "한국경제",
-      "ts": 1784008107000,
-      "pub": "Tue, 14 Jul 2026 14:48:27 +0900",
+      "title": "AI 서버 다음은 자동차…메모리 시장 판 커진다",
+      "link": "https://www.mt.co.kr/industry/2026/07/14/2026071414092077390",
+      "source": "머니투데이",
+      "ts": 1784020800000,
+      "pub": "Tue, 14 Jul 2026 18:20:00 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"약속의 3시?\"…매일 장마감 직전 삼전닉스 거래량 급증 왜?",
-      "link": "https://www.hankyung.com/article/202607144176i",
+      "title": "이재용 농담 현실이 됐다…아이폰 즐겨쓰던 20대도 '돌변'",
+      "link": "https://www.hankyung.com/article/202607145106H",
       "source": "한국경제",
-      "ts": 1784007712000,
-      "pub": "Tue, 14 Jul 2026 14:41:52 +0900",
+      "ts": 1784018671000,
+      "pub": "Tue, 14 Jul 2026 17:44:31 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "코스피 영업익 중 60%는 삼전닉스",
+      "link": "https://www.hankyung.com/article/2026071448861",
+      "source": "한국경제",
+      "ts": 1784018446000,
+      "pub": "Tue, 14 Jul 2026 17:40:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'냉온탕' 삼전닉스 덕에 6800피 지켰지만…'찐반등' 오늘 밤에 달렸다",
+      "link": "https://www.mt.co.kr/stock/2026/07/14/2026071416302388989",
+      "source": "머니투데이",
+      "ts": 1784017427000,
+      "pub": "Tue, 14 Jul 2026 17:23:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'상장 대박' SK하닉처럼?…\"삼성전자, 美 ADR 발행 검토 중\"-블룸버그",
+      "link": "https://www.mt.co.kr/world/2026/07/14/2026071416383472783",
+      "source": "머니투데이",
+      "ts": 1784015706000,
+      "pub": "Tue, 14 Jul 2026 16:55:06 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼성전자, 사내대출 주택 25억·수도권 국평 이하로 제한(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260714102101003",
+      "source": "연합뉴스 경제",
+      "ts": 1784013354000,
+      "pub": "Tue, 14 Jul 2026 16:15:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'4.5% 급등→9% 급락'…삼전닉스, 종일 널뛰기하다 상승 마감",
+      "link": "https://www.yna.co.kr/view/AKR20260714137500008",
+      "source": "연합뉴스 경제",
+      "ts": 1784012975000,
+      "pub": "Tue, 14 Jul 2026 16:09:35 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "삼성전자, 사내 주택자금 대출 면적제한 지역서 광주 제외 방침",
@@ -33,22 +73,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783997025000,
       "pub": "Tue, 14 Jul 2026 11:43:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 2~4%대 반등…코스피도 상승전환, 1%대 상승세(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260714045951008",
-      "source": "연합뉴스 경제",
-      "ts": 1783992147000,
-      "pub": "Tue, 14 Jul 2026 10:22:27 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[특징주] 삼성전자 장 초반 1%대 상승…하닉은 0.27%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260714045900008",
-      "source": "연합뉴스 경제",
-      "ts": 1783988988000,
-      "pub": "Tue, 14 Jul 2026 09:29:48 +0900",
       "sentiment": "neutral"
     }
   ]

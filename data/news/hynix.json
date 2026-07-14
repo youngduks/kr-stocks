@@ -1,22 +1,46 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-14T07:01:57.886Z",
-  "count": 13,
+  "updated_at": "2026-07-14T09:44:08.976Z",
+  "count": 12,
   "items": [
     {
-      "title": "애플, 반도체·기술주 부진에도 독주",
-      "link": "https://www.hankyung.com/article/202607144264i",
-      "source": "한국경제",
-      "ts": 1784010860000,
-      "pub": "Tue, 14 Jul 2026 15:34:20 +0900",
+      "title": "AI 서버 다음은 자동차…메모리 시장 판 커진다",
+      "link": "https://www.mt.co.kr/industry/2026/07/14/2026071414092077390",
+      "source": "머니투데이",
+      "ts": 1784020800000,
+      "pub": "Tue, 14 Jul 2026 18:20:00 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "50억이 29억으로...하이닉스 '레버리지' 개미 \"-21억, 그래도 버틴다\"",
-      "link": "https://www.mt.co.kr/stock/2026/07/14/2026071414185240233",
+      "title": "반도체株 떨어졌지만…애플은 '사상 최고가'",
+      "link": "https://www.hankyung.com/article/2026071448911",
+      "source": "한국경제",
+      "ts": 1784018713000,
+      "pub": "Tue, 14 Jul 2026 17:45:13 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "엔비디아도 이 정도는 아닌데...\"변동성 클 수밖에\" 외신이 본 '롤러코스피'",
+      "link": "https://www.mt.co.kr/world/2026/07/14/2026071416555942975",
       "source": "머니투데이",
-      "ts": 1784009156000,
-      "pub": "Tue, 14 Jul 2026 15:05:56 +0900",
+      "ts": 1784018318000,
+      "pub": "Tue, 14 Jul 2026 17:38:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 ADR 달러 유입 기대…환율 1400원대 안착하나",
+      "link": "https://www.hankyung.com/article/2026071450001",
+      "source": "한국경제",
+      "ts": 1784018059000,
+      "pub": "Tue, 14 Jul 2026 17:34:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI칩 中 밀수출 차단 나선 엔비디아…바이어 '화이트리스트' 도입",
+      "link": "https://www.yna.co.kr/view/AKR20260714139000009",
+      "source": "연합뉴스 국제",
+      "ts": 1784013474000,
+      "pub": "Tue, 14 Jul 2026 16:17:54 +0900",
       "sentiment": "neutral"
     },
     {
@@ -25,30 +49,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784008028000,
       "pub": "Tue, 14 Jul 2026 14:47:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "소부장의 역설: 반도체 소부장, 한국과 일본을 함께 봐야 하는 이유",
-      "link": "https://www.hankyung.com/article/202607131933i",
-      "source": "한국경제",
-      "ts": 1784007871000,
-      "pub": "Tue, 14 Jul 2026 14:44:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"관행 지출 싹둑, 반도체·AI에 책임 투자\"…추미애, 도의회 첫 업무보고",
-      "link": "https://www.mt.co.kr/policy/2026/07/14/2026071414185514928",
-      "source": "머니투데이",
-      "ts": 1784007776000,
-      "pub": "Tue, 14 Jul 2026 14:42:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"점심 먹고 왔더니 반도체 또 오르네\"…코스피 6900 재진입",
-      "link": "https://www.mt.co.kr/stock/2026/07/14/2026071414281860616",
-      "source": "머니투데이",
-      "ts": 1784007083000,
-      "pub": "Tue, 14 Jul 2026 14:31:23 +0900",
       "sentiment": "neutral"
     },
     {
@@ -81,14 +81,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783996688000,
       "pub": "Tue, 14 Jul 2026 11:38:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피, 등락 거듭하며 보합권서 탐색…하이닉스 약보합(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260714049000008",
-      "source": "연합뉴스 경제",
-      "ts": 1783989822000,
-      "pub": "Tue, 14 Jul 2026 09:43:42 +0900",
       "sentiment": "neutral"
     },
     {

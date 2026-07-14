@@ -1,6 +1,47 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-14T07:01:57.886Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-07-14T09:44:08.977Z",
+  "count": 5,
+  "items": [
+    {
+      "title": "\"아틀라스가 생산비 줄인다\"…현대차그룹 '이유 있는' 자신감",
+      "link": "https://www.mt.co.kr/industry/2026/07/14/2026071416364587365",
+      "source": "머니투데이",
+      "ts": 1784019600000,
+      "pub": "Tue, 14 Jul 2026 18:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대차 이어 한국GM도 15일부터 4시간씩 부분파업",
+      "link": "https://www.hankyung.com/article/202607145148i",
+      "source": "한국경제",
+      "ts": 1784019029000,
+      "pub": "Tue, 14 Jul 2026 17:50:29 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[포토] 현대차 '2027 넥쏘' 출시",
+      "link": "https://www.hankyung.com/article/2026071449481",
+      "source": "한국경제",
+      "ts": 1784018418000,
+      "pub": "Tue, 14 Jul 2026 17:40:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"현대차 4000만뷰 인도 필름 뒤엔..韓 스타트업 'AI 특허' 있었다\"",
+      "link": "https://www.mt.co.kr/industry/2026/07/14/2026071416440662917",
+      "source": "머니투데이",
+      "ts": 1784017024000,
+      "pub": "Tue, 14 Jul 2026 17:17:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대차 담은 ETF 수익률 우수수… 피지컬AI 대장주, '반짝'에 그칠까",
+      "link": "https://www.mt.co.kr/stock/2026/07/14/2026071414382628189",
+      "source": "머니투데이",
+      "ts": 1784015843000,
+      "pub": "Tue, 14 Jul 2026 16:57:23 +0900",
+      "sentiment": "neutral"
+    }
+  ]
 }

@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-14T07:01:57.883Z",
-  "count": 35,
+  "updated_at": "2026-07-14T09:44:08.975Z",
+  "count": 29,
   "items": [
+    {
+      "title": "크림반도 보급로 조이는 우크라…\"아조우해 선박 116척 타격\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714162000109",
+      "source": "연합뉴스 국제",
+      "ts": 1784020415000,
+      "pub": "Tue, 14 Jul 2026 18:13:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 드론에 허찔린 러…총선 후 '대규모 동원령' 꺼내나",
+      "link": "https://www.yna.co.kr/view/AKR20260714159900108",
+      "source": "연합뉴스 국제",
+      "ts": 1784018347000,
+      "pub": "Tue, 14 Jul 2026 17:39:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 무인수상정 탄 전투로봇 상륙작전…우크라 로봇 지상군 '맹활약'",
+      "link": "https://www.yna.co.kr/view/AKR20260714158000704",
+      "source": "연합뉴스 국제",
+      "ts": 1784017843000,
+      "pub": "Tue, 14 Jul 2026 17:30:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'민간기업 지분 확보' 트럼프, 다음 타깃은 AI 업체들?",
+      "link": "https://www.yna.co.kr/view/AKR20260714133500009",
+      "source": "연합뉴스 국제",
+      "ts": 1784016299000,
+      "pub": "Tue, 14 Jul 2026 17:04:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] '백악관 UFC' 이어 다음 달 워싱턴 도심서 인디카 레이스",
+      "link": "https://www.yna.co.kr/view/AKR20260714154000704",
+      "source": "연합뉴스 국제",
+      "ts": 1784015882000,
+      "pub": "Tue, 14 Jul 2026 16:58:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란외무 '트럼프 20% 보호비'에…\"너무 많아, 우린 공정\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714152100009",
+      "source": "연합뉴스 국제",
+      "ts": 1784015383000,
+      "pub": "Tue, 14 Jul 2026 16:49:43 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "캘리포니아, 전기차 구매 보조금 시행…反트럼프",
       "link": "https://www.yna.co.kr/view/AKR20260714123000009",
@@ -18,14 +66,6 @@
       "ts": 1784009341000,
       "pub": "Tue, 14 Jul 2026 15:09:01 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "미국, 호르무즈 배 1척당 450억 받는다?...트럼프 '20% 통행세' 논란",
-      "link": "https://www.mt.co.kr/world/2026/07/14/2026071411275220258",
-      "source": "머니투데이",
-      "ts": 1784007346000,
-      "pub": "Tue, 14 Jul 2026 14:35:46 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "[영상] 예멘공항 폭발에 이란기 회항…\"사우디 후티 공격, 트럼프 지지\"",
@@ -193,94 +233,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783971873000,
       "pub": "Tue, 14 Jul 2026 04:44:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "다음달 美수도 한복판서 카레이스…트럼프 \"일생일대 행사\"",
-      "link": "https://www.yna.co.kr/view/AKR20260714005900071",
-      "source": "연합뉴스 국제",
-      "ts": 1783971468000,
-      "pub": "Tue, 14 Jul 2026 04:37:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "EU \"가자지구 재건 1조5천억원 모금\"…위생 복구 등에 투입",
-      "link": "https://www.yna.co.kr/view/AKR20260714005700098",
-      "source": "연합뉴스 국제",
-      "ts": 1783970130000,
-      "pub": "Tue, 14 Jul 2026 04:15:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "호르무즈 통제하며 돈 받겠다는 트럼프…전쟁 재개 임박했나(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260714002151071",
-      "source": "연합뉴스 국제",
-      "ts": 1783969799000,
-      "pub": "Tue, 14 Jul 2026 04:09:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"16일 저녁 대국민 연설\"…이란 관련 발언 주목",
-      "link": "https://www.yna.co.kr/view/AKR20260714005151071",
-      "source": "연합뉴스 국제",
-      "ts": 1783969476000,
-      "pub": "Tue, 14 Jul 2026 04:04:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"미 동부시간 16일 저녁 9시 대국민 연설\"",
-      "link": "https://www.yna.co.kr/view/AKR20260714005100071",
-      "source": "연합뉴스 국제",
-      "ts": 1783968569000,
-      "pub": "Tue, 14 Jul 2026 03:49:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, 국제형사재판소 전방위 압박…외신 \"트럼프 기소 차단 포석\"",
-      "link": "https://www.yna.co.kr/view/AKR20260714002700071",
-      "source": "연합뉴스 국제",
-      "ts": 1783964180000,
-      "pub": "Tue, 14 Jul 2026 02:36:20 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "트럼프 \"호르무즈 안전통항 대가 징수\"…'20% 통행료' 일방선언(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260713168151071",
-      "source": "연합뉴스 국제",
-      "ts": 1783963477000,
-      "pub": "Tue, 14 Jul 2026 02:24:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 체제전복 노렸던 이스라엘…\"아마디네자드 前대통령 포섭\"",
-      "link": "https://www.yna.co.kr/view/AKR20260714002500072",
-      "source": "연합뉴스 국제",
-      "ts": 1783962199000,
-      "pub": "Tue, 14 Jul 2026 02:03:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "호르무즈 통제하며 돈 받겠다는 트럼프…전쟁 재개 임박했나",
-      "link": "https://www.yna.co.kr/view/AKR20260714002100071",
-      "source": "연합뉴스 국제",
-      "ts": 1783960579000,
-      "pub": "Tue, 14 Jul 2026 01:36:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "유럽 9개국, 우크라와 '탄도미사일 방어 연합' 창설",
-      "link": "https://www.yna.co.kr/view/AKR20260714001500081",
-      "source": "연합뉴스 국제",
-      "ts": 1783958366000,
-      "pub": "Tue, 14 Jul 2026 00:59:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"EU, 상반기 러시아서 역대급 가스 수입…푸틴에 10조원 안겨\"",
-      "link": "https://www.yna.co.kr/view/AKR20260714000500098",
-      "source": "연합뉴스 국제",
-      "ts": 1783956462000,
-      "pub": "Tue, 14 Jul 2026 00:27:42 +0900",
       "sentiment": "neutral"
     }
   ]

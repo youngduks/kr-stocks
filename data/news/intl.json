@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-14T20:10:38.659Z",
-  "count": 38,
+  "updated_at": "2026-07-14T21:45:03.786Z",
+  "count": 37,
   "items": [
+    {
+      "title": "美연준의장 \"높은 인플레 불용\"…CPI 둔화에도 \"임무완수 아냐\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260714183553071",
+      "source": "연합뉴스 국제",
+      "ts": 1784063941000,
+      "pub": "Wed, 15 Jul 2026 06:19:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "워시 의장 \"높은 인플레 용납 않겠다\"…연준 독립성 거듭 강조(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260714183552071",
@@ -290,22 +298,6 @@
       "ts": 1784009341000,
       "pub": "Tue, 14 Jul 2026 15:09:01 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "[영상] 예멘공항 폭발에 이란기 회항…\"사우디 후티 공격, 트럼프 지지\"",
-      "link": "https://www.yna.co.kr/view/AKR20260714092900704",
-      "source": "연합뉴스 국제",
-      "ts": 1783998108000,
-      "pub": "Tue, 14 Jul 2026 12:01:48 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "印, 美와 막바지 무역협상 '진통'…경쟁국보다 우대관세 '고수'",
-      "link": "https://www.yna.co.kr/view/AKR20260714087700104",
-      "source": "연합뉴스 국제",
-      "ts": 1783997705000,
-      "pub": "Tue, 14 Jul 2026 11:55:05 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

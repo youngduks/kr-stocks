@@ -1,10 +1,18 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-14T15:14:59.793Z",
+  "updated_at": "2026-07-14T17:00:32.938Z",
   "count": 10,
   "items": [
     {
-      "title": "美증시,유가급등에도 금리우려완화…나스닥 0.3%↑,하이닉스 10%↑",
+      "title": "美 물가 '깜짝 하락'…IBM 실적이 확인한 반도체 슈퍼사이클 [빈난새의 개장전요것만]",
+      "link": "https://www.hankyung.com/article/202607145419i",
+      "source": "한국경제",
+      "ts": 1784041724000,
+      "pub": "Wed, 15 Jul 2026 00:08:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美증시, 유가 급등에도 금리 우려 완화…나스닥 0.3%·하이닉스 10%↑",
       "link": "https://www.hankyung.com/article/202607145403i",
       "source": "한국경제",
       "ts": 1784039213000,
@@ -73,14 +81,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783996809000,
       "pub": "Tue, 14 Jul 2026 11:40:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "3%·4강·5만달러 '대체불가 한국' 청사진…반도체 사이클 변수",
-      "link": "https://www.yna.co.kr/view/AKR20260713151900002",
-      "source": "연합뉴스 경제",
-      "ts": 1783996698000,
-      "pub": "Tue, 14 Jul 2026 11:38:18 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-14T09:44:08.975Z",
-  "count": 29,
+  "updated_at": "2026-07-14T11:16:06.934Z",
+  "count": 27,
   "items": [
+    {
+      "title": "트럼프 \"오늘도 내일도 이란 세게 때릴 것…MOU는 시험이었다\"(종합3보)",
+      "link": "https://www.yna.co.kr/view/AKR20260714007954071",
+      "source": "연합뉴스 국제",
+      "ts": 1784026085000,
+      "pub": "Tue, 14 Jul 2026 19:48:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "EU '슈퍼화요일'…우크라 등 4개국과 가입협상 동시 진척",
+      "link": "https://www.yna.co.kr/view/AKR20260714174800098",
+      "source": "연합뉴스 국제",
+      "ts": 1784025712000,
+      "pub": "Tue, 14 Jul 2026 19:41:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"美, 이란과 무력충돌에 이스라엘서 공중급유기 철수 보류\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714171500079",
+      "source": "연합뉴스 국제",
+      "ts": 1784023111000,
+      "pub": "Tue, 14 Jul 2026 18:58:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"러군, 우크라 포로 수백명 처형 의혹\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714166300109",
+      "source": "연합뉴스 국제",
+      "ts": 1784022860000,
+      "pub": "Tue, 14 Jul 2026 18:54:20 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "크림반도 보급로 조이는 우크라…\"아조우해 선박 116척 타격\"",
       "link": "https://www.yna.co.kr/view/AKR20260714162000109",
@@ -185,54 +217,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783976941000,
       "pub": "Tue, 14 Jul 2026 06:09:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"오늘 밤과 내일 이란 세게 때릴 것…MOU는 시험이었다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260714007951071",
-      "source": "연합뉴스 국제",
-      "ts": 1783975144000,
-      "pub": "Tue, 14 Jul 2026 05:39:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'토라 연구, 이스라엘 국가가치' 입법…초정통파 병역면제 포석",
-      "link": "https://www.yna.co.kr/view/AKR20260714008800079",
-      "source": "연합뉴스 국제",
-      "ts": 1783974899000,
-      "pub": "Tue, 14 Jul 2026 05:34:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 트럼프 호르무즈 통행료 예고에 하락…나스닥 1.6%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260714008100072",
-      "source": "연합뉴스 국제",
-      "ts": 1783973825000,
-      "pub": "Tue, 14 Jul 2026 05:17:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"오늘 밤에도, 내일도 이란 강하게 때릴 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260714007900071",
-      "source": "연합뉴스 국제",
-      "ts": 1783973546000,
-      "pub": "Tue, 14 Jul 2026 05:12:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "푸틴, '드론 공격 강화' 우크라에 \"몇배 더 강력한 보복\"",
-      "link": "https://www.yna.co.kr/view/AKR20260714006900108",
-      "source": "연합뉴스 국제",
-      "ts": 1783972627000,
-      "pub": "Tue, 14 Jul 2026 04:57:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "월러 연준이사 \"근원 물가 높으면 단기적 긴축 검토해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260714006100072",
-      "source": "연합뉴스 국제",
-      "ts": 1783971873000,
-      "pub": "Tue, 14 Jul 2026 04:44:33 +0900",
       "sentiment": "neutral"
     }
   ]

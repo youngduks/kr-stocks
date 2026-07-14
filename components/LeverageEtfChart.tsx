@@ -97,6 +97,17 @@ function findCascades(bars: LeverageBar[], maxEvents = 3): CascadeEvent[] {
   return events.slice(0, maxEvents);
 }
 
+function kstFullDateFormatter(time: number): string {
+  const d = new Date(time * 1000);
+  return new Intl.DateTimeFormat("ko-KR", {
+    timeZone: "Asia/Seoul",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    weekday: "short",
+  }).format(d);
+}
+
 type MergedBar = {
   time: number;
   etfPct: number;
@@ -133,6 +144,10 @@ export function LeverageEtfChart({
 
   const bars = useMemo(() => allBars.slice(-RANGE_DAYS[range]), [allBars, range]);
   const cascades = useMemo(() => findCascades(bars), [bars]);
+  const cascadeTimes = useMemo(() => new Set(cascades.map((c) => c.time)), [cascades]);
+
+  // 캐스케이드 발생일 거래대금 막대는 진하고 불투명한 빨강으로 — 평소 초록/파랑과 확실히 구분
+  const volColor = (b: LeverageBar) => (cascadeTimes.has(b.time) ? COLOR.red : b.changePct >= 0 ? COLOR.green + "55" : COLOR.blue + "55");
 
   const latest = bars.length > 0 ? bars[bars.length - 1] : null;
   const latestUnderlying = allUnderlyingBars.length > 0 ? allUnderlyingBars[allUnderlyingBars.length - 1] : null;
@@ -263,7 +278,7 @@ export function LeverageEtfChart({
       bars.map((b) => ({
         time: b.time as Time,
         value: b.tradingValueKrw,
-        color: b.changePct >= 0 ? COLOR.green + "55" : COLOR.blue + "55",
+        color: volColor(b),
       })) as HistogramData<Time>[]
     );
     etfSeries.setMarkers(
@@ -273,7 +288,8 @@ export function LeverageEtfChart({
           position: "aboveBar",
           color: COLOR.red,
           shape: "arrowDown",
-          text: `${c.changePct.toFixed(0)}%`,
+          text: `🚨 패닉셀 ${c.changePct.toFixed(0)}%`,
+          size: 2,
         })
       )
     );
@@ -304,7 +320,7 @@ export function LeverageEtfChart({
       bars.map((b) => ({
         time: b.time as Time,
         value: b.tradingValueKrw,
-        color: b.changePct >= 0 ? COLOR.green + "55" : COLOR.blue + "55",
+        color: volColor(b),
       })) as HistogramData<Time>[]
     );
     etfSeries.setMarkers(
@@ -314,7 +330,8 @@ export function LeverageEtfChart({
           position: "aboveBar",
           color: COLOR.red,
           shape: "arrowDown",
-          text: `${c.changePct.toFixed(0)}%`,
+          text: `🚨 패닉셀 ${c.changePct.toFixed(0)}%`,
+          size: 2,
         })
       )
     );
@@ -393,14 +410,32 @@ export function LeverageEtfChart({
       <div ref={containerRef} className="w-full h-[220px] md:h-[300px]" />
 
       {cascades.length > 0 ? (
-        <p className="mt-2 text-[10px] text-text-dim leading-relaxed">
-          <span style={{ color: COLOR.red }} className="font-semibold">
-            ▼ 패닉셀 캐스케이드
-          </span>{" "}
-          — 하루 만에 {Math.abs(CASCADE_DROP_THRESHOLD_PCT)}% 이상 급락한 날. 2배 레버리지 상품 특성상
-          반대매매·손절이 몰렸을 가능성이 높은 실물 증거입니다. 점선(본주)과 실선(ETF)의 등락률 차이가
-          레버리지 증폭·괴리 정도입니다. 예측 신호가 아닌 과거 이벤트 표시입니다.
-        </p>
+        <>
+          {/* 발생 시점 강조 — 차트만으론 놓치기 쉬워 날짜를 명시적으로 나열 */}
+          <div className="mt-3 p-3 rounded-xl bg-accent-red/10 border border-accent-red/30">
+            <div className="text-xs font-bold mb-2" style={{ color: COLOR.red }}>
+              🚨 패닉셀 캐스케이드 발생 시점
+            </div>
+            <div className="space-y-1.5">
+              {cascades
+                .slice()
+                .sort((a, b) => a.time - b.time)
+                .map((c) => (
+                  <div key={c.time} className="flex items-center justify-between gap-2 text-xs">
+                    <span className="text-text font-semibold tabular">{kstFullDateFormatter(c.time)}</span>
+                    <span className="font-bold tabular shrink-0" style={{ color: COLOR.red }}>
+                      {c.changePct.toFixed(1)}%
+                    </span>
+                  </div>
+                ))}
+            </div>
+          </div>
+          <p className="mt-2 text-[10px] text-text-dim leading-relaxed">
+            하루 만에 {Math.abs(CASCADE_DROP_THRESHOLD_PCT)}% 이상 급락한 날. 2배 레버리지 상품 특성상
+            반대매매·손절이 몰렸을 가능성이 높은 실물 증거입니다. 점선(본주)과 실선(ETF)의 등락률 차이가
+            레버리지 증폭·괴리 정도입니다. 예측 신호가 아닌 과거 이벤트 표시입니다.
+          </p>
+        </>
       ) : (
         <p className="mt-2 text-[10px] text-text-dim leading-relaxed">
           이 구간엔 하루 {Math.abs(CASCADE_DROP_THRESHOLD_PCT)}% 이상 급락한 날이 없습니다.

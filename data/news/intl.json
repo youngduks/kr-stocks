@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-14T17:00:32.937Z",
+  "updated_at": "2026-07-14T18:59:02.323Z",
   "count": 38,
   "items": [
+    {
+      "title": "트럼프, 호르무즈 통행료 번복…\"중동 동맹국이 요청\"",
+      "link": "https://www.mt.co.kr/world/2026/07/15/2026071503083436866",
+      "source": "머니투데이",
+      "ts": 1784053363000,
+      "pub": "Wed, 15 Jul 2026 03:22:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 통행료 번복 이유에 \"중동 동맹국이 해결해달라 전화\"",
+      "link": "https://www.yna.co.kr/view/AKR20260715004300071",
+      "source": "연합뉴스 국제",
+      "ts": 1784050254000,
+      "pub": "Wed, 15 Jul 2026 02:30:54 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "워시 의장 \"높은 인플레 용납 않겠다\"…연준 독립성 거듭 강조(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260714183551071",
@@ -290,22 +306,6 @@
       "ts": 1783994508000,
       "pub": "Tue, 14 Jul 2026 11:01:48 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "美법원 \"트럼프 IRS 상대 소송은 사법절차 악용…부적절\"",
-      "link": "https://www.yna.co.kr/view/AKR20260714072200009",
-      "source": "연합뉴스 국제",
-      "ts": 1783993632000,
-      "pub": "Tue, 14 Jul 2026 10:47:12 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "이달 연준 금리인상 확률 50%로 껑충 뛰어",
-      "link": "https://www.yna.co.kr/view/AKR20260714062400009",
-      "source": "연합뉴스 국제",
-      "ts": 1783993070000,
-      "pub": "Tue, 14 Jul 2026 10:37:50 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

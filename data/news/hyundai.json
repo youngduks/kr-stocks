@@ -1,6 +1,23 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-14T11:16:06.936Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-07-14T13:03:09.150Z",
+  "count": 2,
+  "items": [
+    {
+      "title": "아틀라스가 자동차판 바꾼다…현대차가 노리는 '두 마리 토끼'",
+      "link": "https://www.mt.co.kr/industry/2026/07/14/2026071416364587365",
+      "source": "머니투데이",
+      "ts": 1784019600000,
+      "pub": "Tue, 14 Jul 2026 18:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"현대차 4000만뷰 인도 필름 뒤엔..韓 스타트업 'AI 특허' 있었다\"",
+      "link": "https://www.mt.co.kr/industry/2026/07/14/2026071416440662917",
+      "source": "머니투데이",
+      "ts": 1784017024000,
+      "pub": "Tue, 14 Jul 2026 17:17:04 +0900",
+      "sentiment": "neutral"
+    }
+  ]
 }

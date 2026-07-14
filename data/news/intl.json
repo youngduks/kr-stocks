@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-14T11:16:06.934Z",
-  "count": 27,
+  "updated_at": "2026-07-14T13:03:09.148Z",
+  "count": 29,
   "items": [
+    {
+      "title": "관세청 차장에 박헌 인천공항세관장 임명",
+      "link": "https://www.yna.co.kr/view/AKR20260714179800002",
+      "source": "연합뉴스 경제",
+      "ts": 1784030602000,
+      "pub": "Tue, 14 Jul 2026 21:03:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[인사] 관세청",
+      "link": "https://www.yna.co.kr/view/AKR20260714179500002",
+      "source": "연합뉴스 경제",
+      "ts": 1784030256000,
+      "pub": "Tue, 14 Jul 2026 20:57:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란에 불법이라더니…트럼프, 호르무즈 통행료 '내로남불'(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260714029351009",
+      "source": "연합뉴스 국제",
+      "ts": 1784028341000,
+      "pub": "Tue, 14 Jul 2026 20:25:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 지원 '의지의 연합' 올가을 첫 합동군사훈련",
+      "link": "https://www.yna.co.kr/view/AKR20260714177400082",
+      "source": "연합뉴스 국제",
+      "ts": 1784028027000,
+      "pub": "Tue, 14 Jul 2026 20:20:27 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"오늘도 내일도 이란 세게 때릴 것…MOU는 시험이었다\"(종합3보)",
       "link": "https://www.yna.co.kr/view/AKR20260714007954071",
@@ -201,22 +233,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783987128000,
       "pub": "Tue, 14 Jul 2026 08:58:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"오늘도 내일도 이란 세게 때릴 것…MOU는 시험이었다\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260714007952071",
-      "source": "연합뉴스 국제",
-      "ts": 1783978976000,
-      "pub": "Tue, 14 Jul 2026 06:42:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 트럼프 호르무즈 통행료 예고에 하락…나스닥 1.6%↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260714008151072",
-      "source": "연합뉴스 국제",
-      "ts": 1783976941000,
-      "pub": "Tue, 14 Jul 2026 06:09:01 +0900",
       "sentiment": "neutral"
     }
   ]

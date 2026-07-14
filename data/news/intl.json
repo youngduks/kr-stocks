@@ -1,8 +1,88 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-14T01:17:59.787Z",
-  "count": 31,
+  "updated_at": "2026-07-14T04:38:52.278Z",
+  "count": 39,
   "items": [
+    {
+      "title": "\"오르던 삼전닉스도 뚝\" 6700피 반납...'해적 트럼프'에 개미 손 털었다",
+      "link": "https://www.mt.co.kr/stock/2026/07/14/2026071412043019276",
+      "source": "머니투데이",
+      "ts": 1783998989000,
+      "pub": "Tue, 14 Jul 2026 12:16:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 예멘공항 폭발에 이란기 회항…\"사우디 후티 공격, 트럼프 지지\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714092900704",
+      "source": "연합뉴스 국제",
+      "ts": 1783998108000,
+      "pub": "Tue, 14 Jul 2026 12:01:48 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "TXT 연준, 녹을 듯 안 녹는 '아이스크림' [뉴트랙 쿨리뷰]",
+      "link": "https://www.mt.co.kr/entertainment/2026/07/14/2026071411557236185",
+      "source": "머니투데이",
+      "ts": 1783997705000,
+      "pub": "Tue, 14 Jul 2026 11:55:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "印, 美와 막바지 무역협상 '진통'…경쟁국보다 우대관세 '고수'",
+      "link": "https://www.yna.co.kr/view/AKR20260714087700104",
+      "source": "연합뉴스 국제",
+      "ts": 1783997705000,
+      "pub": "Tue, 14 Jul 2026 11:55:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "관세청, 휴대용 선풍기·물총 등 안전기준 미준수 수입제품 13만점 적발",
+      "link": "https://www.mt.co.kr/policy/2026/07/14/2026071410260447886",
+      "source": "머니투데이",
+      "ts": 1783995427000,
+      "pub": "Tue, 14 Jul 2026 11:17:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 러시아, 우크라 최전선에 3t급 활공폭탄 투하…거대한 폭발",
+      "link": "https://www.yna.co.kr/view/AKR20260714078300704",
+      "source": "연합뉴스 국제",
+      "ts": 1783994955000,
+      "pub": "Tue, 14 Jul 2026 11:09:15 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프, 의회에 대이란 군사행동 공식 통보…전쟁 재개 우려",
+      "link": "https://www.yna.co.kr/view/AKR20260714076100009",
+      "source": "연합뉴스 국제",
+      "ts": 1783994508000,
+      "pub": "Tue, 14 Jul 2026 11:01:48 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "美법원 \"트럼프 IRS 상대 소송은 사법절차 악용…부적절\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714072200009",
+      "source": "연합뉴스 국제",
+      "ts": 1783993632000,
+      "pub": "Tue, 14 Jul 2026 10:47:12 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "이달 연준 금리인상 확률 50%로 껑충 뛰어",
+      "link": "https://www.yna.co.kr/view/AKR20260714062400009",
+      "source": "연합뉴스 국제",
+      "ts": 1783993070000,
+      "pub": "Tue, 14 Jul 2026 10:37:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "드론 이어 게임체인저…우크라, 로봇 지상군 시대 열었다",
+      "link": "https://www.yna.co.kr/view/AKR20260714065000009",
+      "source": "연합뉴스 국제",
+      "ts": 1783992711000,
+      "pub": "Tue, 14 Jul 2026 10:31:51 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "IMO, 트럼프의 호르무즈 통행료에 \"단호히 반대\"",
       "link": "https://www.yna.co.kr/view/AKR20260714043600009",
@@ -17,14 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783990155000,
       "pub": "Tue, 14 Jul 2026 09:49:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"호르무즈 대이란 봉쇄 재개\"…정유株 동반 강세",
-      "link": "https://www.hankyung.com/article/2026071433656",
-      "source": "한국경제",
-      "ts": 1783988056000,
-      "pub": "Tue, 14 Jul 2026 09:14:16 +0900",
       "sentiment": "neutral"
     },
     {
@@ -241,14 +313,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783947983000,
       "pub": "Mon, 13 Jul 2026 22:06:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러·우크라 충돌 격화에 곡물 수출길 막히나…밀값 들썩",
-      "link": "https://www.yna.co.kr/view/AKR20260713162700109",
-      "source": "연합뉴스 국제",
-      "ts": 1783947007000,
-      "pub": "Mon, 13 Jul 2026 21:50:07 +0900",
       "sentiment": "neutral"
     }
   ]

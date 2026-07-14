@@ -1,8 +1,96 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-14T01:17:59.788Z",
-  "count": 13,
+  "updated_at": "2026-07-14T04:38:52.280Z",
+  "count": 16,
   "items": [
+    {
+      "title": "모레, 유엔 'AI 포 굿' 혁신사례 선정…\"엔비디아 의존도 낮출 SW\"",
+      "link": "https://www.mt.co.kr/future/2026/07/14/2026071410271476763",
+      "source": "머니투데이",
+      "ts": 1784001600000,
+      "pub": "Tue, 14 Jul 2026 13:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한미반도체, AI 반도체 투자로 2분기 매출 2511억 '창사 이래 최대'",
+      "link": "https://www.mt.co.kr/industry/2026/07/14/2026071410551434360",
+      "source": "머니투데이",
+      "ts": 1783997562000,
+      "pub": "Tue, 14 Jul 2026 11:52:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'반도체의 힘'…선진국 훌쩍 뛰어넘는 3% 성장 목표치 제시한 이유는",
+      "link": "https://www.mt.co.kr/economy/2026/07/14/2026071308351580075",
+      "source": "머니투데이",
+      "ts": 1783997003000,
+      "pub": "Tue, 14 Jul 2026 11:43:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 한국 올해 성장률 3%…고용은 뒷걸음질 [하반기 경제]",
+      "link": "https://www.hankyung.com/article/202607143379i",
+      "source": "한국경제",
+      "ts": 1783996887000,
+      "pub": "Tue, 14 Jul 2026 11:41:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 '독주'로 장밋빛 성장세…'산업·지역·계층' 양극화는 커졌다",
+      "link": "https://www.mt.co.kr/economy/2026/07/14/2026071408454916512",
+      "source": "머니투데이",
+      "ts": 1783996843000,
+      "pub": "Tue, 14 Jul 2026 11:40:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[하반기 성장전략] 반도체 추가세수 '미래기금' 적립…KIC '종합형 국부펀드' 개편",
+      "link": "https://www.yna.co.kr/view/AKR20260713143500002",
+      "source": "연합뉴스 경제",
+      "ts": 1783996809000,
+      "pub": "Tue, 14 Jul 2026 11:40:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "3%·4강·5만달러 '대체불가 한국' 청사진…반도체 사이클 변수",
+      "link": "https://www.yna.co.kr/view/AKR20260713151900002",
+      "source": "연합뉴스 경제",
+      "ts": 1783996698000,
+      "pub": "Tue, 14 Jul 2026 11:38:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 훈풍에 성장률 3% 목표로 뛴다…\"경제대도약 원년 완성\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714001100002",
+      "source": "연합뉴스 경제",
+      "ts": 1783996688000,
+      "pub": "Tue, 14 Jul 2026 11:38:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[오늘 이 종목] 반도체 고점 논란 속 저평가 매력… 김민수 대표의 '시선집중' 필승 전략",
+      "link": "https://www.mt.co.kr/stock/2026/07/14/2026071411237037129",
+      "source": "머니투데이",
+      "ts": 1783996319000,
+      "pub": "Tue, 14 Jul 2026 11:31:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "1분기 부진 딛고 '역대급' 실적…HBM 업고 날아오른 이 회사",
+      "link": "https://www.hankyung.com/article/202607143934i",
+      "source": "한국경제",
+      "ts": 1783995865000,
+      "pub": "Tue, 14 Jul 2026 11:24:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한미반도체, 2분기 영업이익 1303억4600만원…전년比 51%↑",
+      "link": "https://www.hankyung.com/article/2026071439216",
+      "source": "한국경제",
+      "ts": 1783995457000,
+      "pub": "Tue, 14 Jul 2026 11:17:37 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "코스피, 등락 거듭하며 보합권서 탐색…하이닉스 약보합(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260714049000008",
@@ -10,30 +98,6 @@
       "ts": 1783989822000,
       "pub": "Tue, 14 Jul 2026 09:43:42 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "폭락장에도 '상위 1%'는 반도체 담았다…순매도 1위는?",
-      "link": "https://www.hankyung.com/article/202607143336i",
-      "source": "한국경제",
-      "ts": 1783988795000,
-      "pub": "Tue, 14 Jul 2026 09:26:35 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "코스피, 중동 리스크에 6700선 약세 출발…반도체주↓",
-      "link": "https://www.hankyung.com/article/2026071433616",
-      "source": "한국경제",
-      "ts": 1783988073000,
-      "pub": "Tue, 14 Jul 2026 09:14:33 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'TSMC·SK하이닉스·삼성전자' 3사 비중 29%…신흥시장 쏠림 경고",
-      "link": "https://www.hankyung.com/article/202607143177i",
-      "source": "한국경제",
-      "ts": 1783985793000,
-      "pub": "Tue, 14 Jul 2026 08:36:33 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "미래에셋, SK하이닉스 2분기 영업익 전망치 12% 하향조정",
@@ -65,46 +129,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783950543000,
       "pub": "Mon, 13 Jul 2026 22:49:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 휘청…코스피, 8.95% 급락, '7천피' 무너져(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260713131200008",
-      "source": "연합뉴스 경제",
-      "ts": 1783928464000,
-      "pub": "Mon, 13 Jul 2026 16:41:04 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "중동 긴장과 하이닉스발 달러 공급 기대 교차…환율 소폭 상승",
-      "link": "https://www.yna.co.kr/view/AKR20260713125200002",
-      "source": "연합뉴스 경제",
-      "ts": 1783926805000,
-      "pub": "Mon, 13 Jul 2026 16:13:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 ADR 주가 함수는…나스닥 흥행후 본주 15%대 급락(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260713059551008",
-      "source": "연합뉴스 경제",
-      "ts": 1783926393000,
-      "pub": "Mon, 13 Jul 2026 16:06:33 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "반도체주 '우두둑'…SK하이닉스 15.4%·삼성전자 10.7% 폭락(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260713035052008",
-      "source": "연합뉴스 경제",
-      "ts": 1783926116000,
-      "pub": "Mon, 13 Jul 2026 16:01:56 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "국토장관 \"호남 반도체산단 조성, 기업 시간표에 맞출 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260713112400003",
-      "source": "연합뉴스 경제",
-      "ts": 1783923734000,
-      "pub": "Mon, 13 Jul 2026 15:22:14 +0900",
       "sentiment": "neutral"
     }
   ]

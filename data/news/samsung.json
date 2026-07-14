@@ -1,8 +1,56 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-14T01:17:59.788Z",
-  "count": 4,
+  "updated_at": "2026-07-14T04:38:52.279Z",
+  "count": 8,
   "items": [
+    {
+      "title": "\"오르던 삼전닉스도 뚝\" 6700피 반납...'해적 트럼프'에 개미 손 털었다",
+      "link": "https://www.mt.co.kr/stock/2026/07/14/2026071412043019276",
+      "source": "머니투데이",
+      "ts": 1783998989000,
+      "pub": "Tue, 14 Jul 2026 12:16:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "장중 '올랐다 내렸다' 갈지자…혼돈의 삼전닉스(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260714045952008",
+      "source": "연합뉴스 경제",
+      "ts": 1783997025000,
+      "pub": "Tue, 14 Jul 2026 11:43:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "1분기 부진 딛고 '역대급' 실적…HBM 업고 날아오른 이 회사",
+      "link": "https://www.hankyung.com/article/202607143934i",
+      "source": "한국경제",
+      "ts": 1783995865000,
+      "pub": "Tue, 14 Jul 2026 11:24:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "초고수들, 삼전닉스·현대차 팔았다…삼성SDI·에이피알은 매수",
+      "link": "https://www.hankyung.com/article/202607143775i",
+      "source": "한국경제",
+      "ts": 1783995524000,
+      "pub": "Tue, 14 Jul 2026 11:18:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"강한 상승은 기다린 자의 몫…삼전닉스 아직 안끝났다\"",
+      "link": "https://www.hankyung.com/article/202607132415i",
+      "source": "한국경제",
+      "ts": 1783995012000,
+      "pub": "Tue, 14 Jul 2026 11:10:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 2~4%대 반등…코스피도 상승전환, 1%대 상승세(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260714045951008",
+      "source": "연합뉴스 경제",
+      "ts": 1783992147000,
+      "pub": "Tue, 14 Jul 2026 10:22:27 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "[특징주] 삼성전자 장 초반 1%대 상승…하닉은 0.27%↓",
       "link": "https://www.yna.co.kr/view/AKR20260714045900008",
@@ -12,28 +60,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'TSMC·SK하이닉스·삼성전자' 3사 비중 29%…신흥시장 쏠림 경고",
-      "link": "https://www.hankyung.com/article/202607143177i",
-      "source": "한국경제",
-      "ts": 1783985793000,
-      "pub": "Tue, 14 Jul 2026 08:36:33 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "\"호남 반도체 교섭의제로\" 삼전노조 주장에 노동부 \"대상 아냐\"",
       "link": "https://www.yna.co.kr/view/AKR20260713165800530",
       "source": "연합뉴스 경제",
       "ts": 1783950543000,
       "pub": "Mon, 13 Jul 2026 22:49:03 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "반도체주 '우두둑'…SK하이닉스 15.4%·삼성전자 10.7% 폭락(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260713035052008",
-      "source": "연합뉴스 경제",
-      "ts": 1783926116000,
-      "pub": "Mon, 13 Jul 2026 16:01:56 +0900",
-      "sentiment": "negative"
     }
   ]
 }

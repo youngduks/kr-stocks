@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-14T22:45:00.499Z",
-  "count": 11,
+  "updated_at": "2026-07-14T23:40:43.655Z",
+  "count": 17,
   "items": [
+    {
+      "title": "美반도체 랠리 재개에 삼전·하이닉스도 프리마켓서 강세",
+      "link": "https://www.mt.co.kr/stock/2026/07/15/2026071508303760969",
+      "source": "머니투데이",
+      "ts": 1784071978000,
+      "pub": "Wed, 15 Jul 2026 08:32:58 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "\"엔비디아 H200 중국 출하 시작\"…주가 4% ↑",
       "link": "https://www.yna.co.kr/view/AKR20260715016800009",
@@ -12,12 +20,36 @@
       "sentiment": "neutral"
     },
     {
+      "title": "물가 우려 완화에 상승…SK하이닉스 ADR 27%↑ [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026071555906",
+      "source": "한국경제",
+      "ts": 1784067491000,
+      "pub": "Wed, 15 Jul 2026 07:18:11 +0900",
+      "sentiment": "negative"
+    },
+    {
       "title": "바클레이스 \"SK하이닉스 ADR 2배로 상승 여력\"…주가 27% 급등(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260715007951072",
       "source": "연합뉴스 국제",
       "ts": 1784066256000,
       "pub": "Wed, 15 Jul 2026 06:57:36 +0900",
       "sentiment": "positive"
+    },
+    {
+      "title": "금리인상 전망 꺾였다, 반도체 랠리…SK하닉 ADR 27% 급등[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/07/15/2026071506171721248",
+      "source": "머니투데이",
+      "ts": 1784064068000,
+      "pub": "Wed, 15 Jul 2026 06:21:08 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "반도체만 잘 나갔다…고용절벽에 꺼낸 '20만 AI 인재' 카드",
+      "link": "https://www.mt.co.kr/economy/2026/07/15/2026071422503987204",
+      "source": "머니투데이",
+      "ts": 1784062800000,
+      "pub": "Wed, 15 Jul 2026 06:00:00 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "뉴욕증시, 물가우려 완화 속 반도체 랠리 재개…나스닥 1%↑(종합)",
@@ -42,6 +74,22 @@
       "ts": 1784058990000,
       "pub": "Wed, 15 Jul 2026 04:56:30 +0900",
       "sentiment": "positive"
+    },
+    {
+      "title": "\"車 타자\" 메모리 3사, 주도권 경쟁 시동",
+      "link": "https://www.mt.co.kr/industry/2026/07/15/2026071419383447290",
+      "source": "머니투데이",
+      "ts": 1784056620000,
+      "pub": "Wed, 15 Jul 2026 04:17:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "530P 널뛰기, 지친 코스피… 반도체 부축에 6800선 회복",
+      "link": "https://www.mt.co.kr/stock/2026/07/15/2026071419312849863",
+      "source": "머니투데이",
+      "ts": 1784055840000,
+      "pub": "Wed, 15 Jul 2026 04:04:00 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "美 물가 '깜짝 하락'…IBM 실적이 확인한 반도체 슈퍼사이클 [빈난새의 개장전요것만]",

@@ -17,10 +17,13 @@ import { useTheme } from "./ThemeProvider";
 
 type Range = "1M" | "3M";
 
+type UnderlyingBar = { time: number; price: number };
+
 type ChartColors = {
   green: string;
   blue: string;
   amber: string;
+  purple: string;
   red: string;
   textMuted: string;
   grid: string;
@@ -33,6 +36,7 @@ const COLOR_DARK: ChartColors = {
   green: "#1FAE6F",
   blue: "#3182F6",
   amber: "#F4A623",
+  purple: "#9D7DEC",
   red: "#F45C5C",
   textMuted: "#8B95A1",
   grid: "rgba(139, 149, 161, 0.05)",
@@ -45,6 +49,7 @@ const COLOR_LIGHT: ChartColors = {
   green: "#16A34A",
   blue: "#3182F6",
   amber: "#D97706",
+  purple: "#7C3AED",
   red: "#DC2626",
   textMuted: "#4E5968",
   grid: "rgba(78, 89, 104, 0.08)",
@@ -71,6 +76,12 @@ function fmtPrice(n: number): string {
   return `₩${Math.round(n).toLocaleString("ko-KR")}`;
 }
 
+// 좌축을 등락률(%)로 통일 — ETF(만원대)와 본주(백만원대)는 절대가로 겹치면 한쪽이 안 보임
+function fmtPct(n: number): string {
+  const sign = n > 0 ? "+" : n < 0 ? "−" : "";
+  return `${sign}${Math.abs(n).toFixed(1)}%`;
+}
+
 function kstDateFormatter(time: number): string {
   const d = new Date(time * 1000);
   return new Intl.DateTimeFormat("ko-KR", { timeZone: "Asia/Seoul", month: "2-digit", day: "2-digit" }).format(d);
@@ -86,16 +97,35 @@ function findCascades(bars: LeverageBar[], maxEvents = 3): CascadeEvent[] {
   return events.slice(0, maxEvents);
 }
 
+type MergedBar = {
+  time: number;
+  etfPct: number;
+  underlyingPct: number | null;
+  tradingValueKrw: number;
+};
+
 /**
- * SK하이닉스 레버리지 ETF(KODEX, 코스피 실상장 2배 상품) 차트.
- * 가격(좌축) + 거래대금(우축, 히스토그램)을 같이 표시. 하루 급락(-15%↓)한 날은
- * 반대매매·패닉셀이 몰렸을 실물 증거로 보고 빨간 마커로 표시 — 다음날 반등 여부를
- * 눈으로 직접 확인하는 용도.
+ * SK하이닉스 레버리지 ETF(KODEX, 코스피 실상장 2배 상품) + 본주(000660) 등락률 비교 차트.
+ * 절대가는 스케일이 100배 이상 차이나 겹치면 한쪽이 안 보이므로, 구간 시작 대비 등락률(%)로
+ * 통일해 같은 좌축에 표시 — "레버리지가 본주 대비 얼마나 증폭됐는지"를 바로 비교 가능.
+ * 거래대금(우축, 히스토그램)은 ETF 기준. 하루 급락(-15%↓)한 날은 반대매매·패닉셀이
+ * 몰렸을 실물 증거로 보고 빨간 마커로 표시.
  */
-export function LeverageEtfChart({ bars: allBars, label }: { bars: LeverageBar[]; label: string }) {
+export function LeverageEtfChart({
+  bars: allBars,
+  underlyingBars: allUnderlyingBars,
+  label,
+  underlyingLabel,
+}: {
+  bars: LeverageBar[];
+  underlyingBars: UnderlyingBar[];
+  label: string;
+  underlyingLabel: string;
+}) {
   const containerRef = useRef<HTMLDivElement>(null);
   const chartRef = useRef<IChartApi | null>(null);
-  const priceSeriesRef = useRef<ISeriesApi<"Line"> | null>(null);
+  const etfSeriesRef = useRef<ISeriesApi<"Line"> | null>(null);
+  const underlyingSeriesRef = useRef<ISeriesApi<"Line"> | null>(null);
   const volSeriesRef = useRef<ISeriesApi<"Histogram"> | null>(null);
   const [range, setRange] = useState<Range>("1M");
   const { theme } = useTheme();
@@ -105,12 +135,36 @@ export function LeverageEtfChart({ bars: allBars, label }: { bars: LeverageBar[]
   const cascades = useMemo(() => findCascades(bars), [bars]);
 
   const latest = bars.length > 0 ? bars[bars.length - 1] : null;
+  const latestUnderlying = allUnderlyingBars.length > 0 ? allUnderlyingBars[allUnderlyingBars.length - 1] : null;
   const periodChangePct = useMemo(() => {
     if (bars.length < 2) return 0;
     const first = bars[0].price;
     const last = bars[bars.length - 1].price;
     return first > 0 ? ((last - first) / first) * 100 : 0;
   }, [bars]);
+
+  // 등락률 재기준 — ETF·본주 둘 다 "이 구간 시작 대비 %"로 변환해 같은 좌축에 겹쳐 그림
+  const merged: MergedBar[] = useMemo(() => {
+    const uMap = new Map(allUnderlyingBars.map((u) => [u.time, u.price]));
+    const etfBase = bars[0]?.price ?? 0;
+    let underlyingBase: number | null = null;
+    for (const b of bars) {
+      const up = uMap.get(b.time);
+      if (up != null) {
+        underlyingBase = up;
+        break;
+      }
+    }
+    return bars.map((b) => {
+      const up = uMap.get(b.time) ?? null;
+      return {
+        time: b.time,
+        etfPct: etfBase > 0 ? ((b.price - etfBase) / etfBase) * 100 : 0,
+        underlyingPct: up != null && underlyingBase && underlyingBase > 0 ? ((up - underlyingBase) / underlyingBase) * 100 : null,
+        tradingValueKrw: b.tradingValueKrw,
+      };
+    });
+  }, [bars, allUnderlyingBars]);
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -137,9 +191,10 @@ export function LeverageEtfChart({ bars: allBars, label }: { bars: LeverageBar[]
       },
       handleScroll: { mouseWheel: true, pressedMouseMove: true, horzTouchDrag: true, vertTouchDrag: false },
       handleScale: { mouseWheel: true, pinch: true, axisPressedMouseMove: true },
+      // localization.priceFormatter는 좌·우축 모두에 전역 적용돼 히스토그램(거래대금) 축까지
+      // %로 깨트림 — 지정하지 않고 각 시리즈 자체 priceFormat(fmtPct/fmtKrw)에만 맡김
       localization: {
         locale: "ko-KR",
-        priceFormatter: (p: number) => fmtPrice(p),
         timeFormatter: ((time: Time) => kstDateFormatter(time as number)) as any,
       },
     });
@@ -150,7 +205,21 @@ export function LeverageEtfChart({ bars: allBars, label }: { bars: LeverageBar[]
       priceFormat: { type: "custom", formatter: (p: number) => fmtKrw(p), minMove: 1 },
     });
 
-    const priceSeries = chart.addLineSeries({
+    const underlyingSeries = chart.addLineSeries({
+      color: COLOR.purple,
+      lineWidth: 2,
+      priceScaleId: "left",
+      lineStyle: LineStyle.Dashed,
+      crosshairMarkerVisible: true,
+      crosshairMarkerRadius: 4,
+      crosshairMarkerBorderColor: COLOR.purple,
+      crosshairMarkerBackgroundColor: COLOR.bg,
+      priceLineVisible: false,
+      lastValueVisible: true,
+      priceFormat: { type: "custom", formatter: (p: number) => fmtPct(p), minMove: 0.01 },
+    });
+
+    const etfSeries = chart.addLineSeries({
       color: COLOR.amber,
       lineWidth: 2,
       priceScaleId: "left",
@@ -160,14 +229,36 @@ export function LeverageEtfChart({ bars: allBars, label }: { bars: LeverageBar[]
       crosshairMarkerBackgroundColor: COLOR.bg,
       priceLineVisible: false,
       lastValueVisible: true,
-      priceFormat: { type: "custom", formatter: (p: number) => fmtPrice(p), minMove: 1 },
+      priceFormat: { type: "custom", formatter: (p: number) => fmtPct(p), minMove: 0.01 },
+      // 0% 기준선이 항상 보이게 Y축 자동 확장
+      autoscaleInfoProvider: (original: () => any) => {
+        const res = original();
+        if (!res?.priceRange) return res;
+        return {
+          ...res,
+          priceRange: { minValue: Math.min(res.priceRange.minValue, 0), maxValue: Math.max(res.priceRange.maxValue, 0) },
+        };
+      },
+    });
+
+    etfSeries.createPriceLine({
+      price: 0,
+      color: COLOR.textMuted,
+      lineWidth: 1,
+      lineStyle: LineStyle.Dotted,
+      axisLabelVisible: false,
+      title: "",
     });
 
     chartRef.current = chart;
-    priceSeriesRef.current = priceSeries;
+    etfSeriesRef.current = etfSeries;
+    underlyingSeriesRef.current = underlyingSeries;
     volSeriesRef.current = volSeries;
 
-    priceSeries.setData(bars.map((b) => ({ time: b.time as Time, value: b.price })) as LineData<Time>[]);
+    etfSeries.setData(merged.map((m) => ({ time: m.time as Time, value: m.etfPct })) as LineData<Time>[]);
+    underlyingSeries.setData(
+      merged.filter((m) => m.underlyingPct != null).map((m) => ({ time: m.time as Time, value: m.underlyingPct! })) as LineData<Time>[]
+    );
     volSeries.setData(
       bars.map((b) => ({
         time: b.time as Time,
@@ -175,7 +266,7 @@ export function LeverageEtfChart({ bars: allBars, label }: { bars: LeverageBar[]
         color: b.changePct >= 0 ? COLOR.green + "55" : COLOR.blue + "55",
       })) as HistogramData<Time>[]
     );
-    priceSeries.setMarkers(
+    etfSeries.setMarkers(
       cascades.map(
         (c): SeriesMarker<Time> => ({
           time: c.time as Time,
@@ -192,7 +283,8 @@ export function LeverageEtfChart({ bars: allBars, label }: { bars: LeverageBar[]
     return () => {
       chart.remove();
       chartRef.current = null;
-      priceSeriesRef.current = null;
+      etfSeriesRef.current = null;
+      underlyingSeriesRef.current = null;
       volSeriesRef.current = null;
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -200,10 +292,14 @@ export function LeverageEtfChart({ bars: allBars, label }: { bars: LeverageBar[]
 
   useEffect(() => {
     const chart = chartRef.current;
-    const priceSeries = priceSeriesRef.current;
+    const etfSeries = etfSeriesRef.current;
+    const underlyingSeries = underlyingSeriesRef.current;
     const volSeries = volSeriesRef.current;
-    if (!chart || !priceSeries || !volSeries) return;
-    priceSeries.setData(bars.map((b) => ({ time: b.time as Time, value: b.price })) as LineData<Time>[]);
+    if (!chart || !etfSeries || !underlyingSeries || !volSeries) return;
+    etfSeries.setData(merged.map((m) => ({ time: m.time as Time, value: m.etfPct })) as LineData<Time>[]);
+    underlyingSeries.setData(
+      merged.filter((m) => m.underlyingPct != null).map((m) => ({ time: m.time as Time, value: m.underlyingPct! })) as LineData<Time>[]
+    );
     volSeries.setData(
       bars.map((b) => ({
         time: b.time as Time,
@@ -211,7 +307,7 @@ export function LeverageEtfChart({ bars: allBars, label }: { bars: LeverageBar[]
         color: b.changePct >= 0 ? COLOR.green + "55" : COLOR.blue + "55",
       })) as HistogramData<Time>[]
     );
-    priceSeries.setMarkers(
+    etfSeries.setMarkers(
       cascades.map(
         (c): SeriesMarker<Time> => ({
           time: c.time as Time,
@@ -224,7 +320,7 @@ export function LeverageEtfChart({ bars: allBars, label }: { bars: LeverageBar[]
     );
     chart.timeScale().fitContent();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [bars, cascades]);
+  }, [merged, bars, cascades]);
 
   if (allBars.length === 0) {
     return (
@@ -259,25 +355,37 @@ export function LeverageEtfChart({ bars: allBars, label }: { bars: LeverageBar[]
         </div>
       </div>
 
-      <div className="flex items-center justify-between gap-2 mb-2 flex-wrap">
-        <div className="flex items-baseline gap-2">
-          {latest && (
-            <span className="text-lg font-bold tabular text-text">{fmtPrice(latest.price)}</span>
+      <div className="flex items-center justify-between gap-3 mb-2 flex-wrap">
+        <div className="min-w-0">
+          <div className="flex items-baseline gap-2 flex-wrap">
+            <span className="text-lg font-bold tabular text-text">{latest && fmtPrice(latest.price)}</span>
+            <span className={`text-xs font-bold tabular ${periodColorClass}`}>
+              {periodChangePct >= 0 ? "▲ +" : "▼ "}
+              {Math.abs(periodChangePct).toFixed(1)}%
+              <span className="text-text-dim font-normal ml-1">({range})</span>
+            </span>
+          </div>
+          {latestUnderlying && (
+            <div className="text-[10px] text-text-dim mt-0.5">
+              {underlyingLabel} {fmtPrice(latestUnderlying.price)}
+            </div>
           )}
-          <span className={`text-xs font-bold tabular ${periodColorClass}`}>
-            {periodChangePct >= 0 ? "▲ +" : "▼ "}
-            {Math.abs(periodChangePct).toFixed(1)}%
-            <span className="text-text-dim font-normal ml-1">({range})</span>
-          </span>
         </div>
-        <div className="flex items-center gap-3 text-[10px] text-text-dim">
+        <div className="flex flex-col items-end gap-1 text-[10px] text-text-dim shrink-0">
           <span className="inline-flex items-center gap-1">
             <span className="inline-block w-3 h-[2px]" style={{ backgroundColor: COLOR.amber }} />
-            가격(좌축)
+            {label}(등락률)
+          </span>
+          <span className="inline-flex items-center gap-1">
+            <span
+              className="inline-block w-3 h-0"
+              style={{ borderTop: `2px dashed ${COLOR.purple}` }}
+            />
+            {underlyingLabel}(등락률)
           </span>
           <span className="inline-flex items-center gap-1">
             <span className="inline-block w-2 h-2" style={{ backgroundColor: COLOR.blue + "aa" }} />
-            거래대금(우축)
+            거래대금
           </span>
         </div>
       </div>
@@ -290,8 +398,8 @@ export function LeverageEtfChart({ bars: allBars, label }: { bars: LeverageBar[]
             ▼ 패닉셀 캐스케이드
           </span>{" "}
           — 하루 만에 {Math.abs(CASCADE_DROP_THRESHOLD_PCT)}% 이상 급락한 날. 2배 레버리지 상품 특성상
-          반대매매·손절이 몰렸을 가능성이 높은 실물 증거입니다. 표시 지점 직후 가격 움직임을 눈여겨보세요.
-          예측 신호가 아닌 과거 이벤트 표시입니다.
+          반대매매·손절이 몰렸을 가능성이 높은 실물 증거입니다. 점선(본주)과 실선(ETF)의 등락률 차이가
+          레버리지 증폭·괴리 정도입니다. 예측 신호가 아닌 과거 이벤트 표시입니다.
         </p>
       ) : (
         <p className="mt-2 text-[10px] text-text-dim leading-relaxed">

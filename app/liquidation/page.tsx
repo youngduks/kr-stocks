@@ -3,7 +3,7 @@ import { Footer } from "@/components/Footer";
 import { fetchAllPrices } from "@/lib/fetchPrices";
 import { fetchCvdSet } from "@/lib/cvd";
 import { CvdChart, type CvdDataset } from "@/components/CvdChart";
-import { fetchLeverageEtfHistory, LEVERAGE_ETF_NAME_KO } from "@/lib/leverageEtf";
+import { fetchLeverageEtfHistory, fetchUnderlyingHistory, LEVERAGE_ETF_NAME_KO, UNDERLYING_NAME_KO } from "@/lib/leverageEtf";
 import { LeverageEtfChart } from "@/components/LeverageEtfChart";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -77,10 +77,11 @@ export const metadata: Metadata = {
 };
 
 export default async function LiquidationPage() {
-  const [data, cvdSets, leverageBars] = await Promise.all([
+  const [data, cvdSets, leverageBars, underlyingBars] = await Promise.all([
     fetchAllPrices(),
     Promise.all(CVD_TICKERS.map((t) => fetchCvdSet(t.symbol))),
     fetchLeverageEtfHistory(90),
+    fetchUnderlyingHistory(90),
   ]);
 
   const cvdDatasets: CvdDataset[] = CVD_TICKERS.map((t, i) => ({
@@ -140,11 +141,17 @@ export default async function LiquidationPage() {
               <p className="text-xs text-text-dim mb-4 leading-relaxed">
                 바이낸스 합성 상품이 아니라 <span className="text-text font-semibold">
                 코스피에 실제 상장된 2배 레버리지 ETF({LEVERAGE_ETF_NAME_KO}, 거래대금 기준 동일 상품군 중 최다
-                유동성)</span> 실데이터입니다. 하루 급락한 날은 반대매매·손절이 몰렸을 가능성이 높은
-                실물 증거로 보고 빨간 화살표(▼)로 자동 표시됩니다 — 많은 사람이 고통받은 그 지점이
-                변곡점이 되는 경우가 많습니다.
+                유동성)</span> 실데이터입니다. 본주(SK하이닉스 000660) 등락률을 점선으로 같이 표시해
+                레버리지가 본주 대비 얼마나 증폭됐는지 바로 비교할 수 있습니다. 하루 급락한 날은
+                반대매매·손절이 몰렸을 가능성이 높은 실물 증거로 보고 빨간 화살표(▼)로 자동 표시됩니다
+                — 많은 사람이 고통받은 그 지점이 변곡점이 되는 경우가 많습니다.
               </p>
-              <LeverageEtfChart bars={leverageBars} label={LEVERAGE_ETF_NAME_KO} />
+              <LeverageEtfChart
+                bars={leverageBars}
+                underlyingBars={underlyingBars}
+                label={LEVERAGE_ETF_NAME_KO}
+                underlyingLabel={UNDERLYING_NAME_KO}
+              />
             </section>
           )}
 

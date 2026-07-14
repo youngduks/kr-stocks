@@ -1,39 +1,23 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-13T23:41:30.932Z",
-  "count": 7,
+  "updated_at": "2026-07-14T01:17:59.788Z",
+  "count": 4,
   "items": [
     {
-      "title": "메모리 공급난에 삼성·애플만 웃었다…中 스마트폰 점유율 '뚝'",
-      "link": "https://www.mt.co.kr/tech/2026/07/14/2026071408054413147",
-      "source": "머니투데이",
-      "ts": 1783985584000,
-      "pub": "Tue, 14 Jul 2026 08:33:04 +0900",
+      "title": "[특징주] 삼성전자 장 초반 1%대 상승…하닉은 0.27%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260714045900008",
+      "source": "연합뉴스 경제",
+      "ts": 1783988988000,
+      "pub": "Tue, 14 Jul 2026 09:29:48 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "이재용 27조↑, 최태원 10조 클럽 가입에도… 방시혁 1.4조↓",
-      "link": "https://www.hankyung.com/article/2026071429437",
+      "title": "'TSMC·SK하이닉스·삼성전자' 3사 비중 29%…신흥시장 쏠림 경고",
+      "link": "https://www.hankyung.com/article/202607143177i",
       "source": "한국경제",
-      "ts": 1783978293000,
-      "pub": "Tue, 14 Jul 2026 06:31:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"8000만원 쏟아부었는데\"…삼전닉스 레버리지 개미 '비명' [투자톡]",
-      "link": "https://www.hankyung.com/article/2026071326466",
-      "source": "한국경제",
-      "ts": 1783978201000,
-      "pub": "Tue, 14 Jul 2026 06:30:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "20대 여성은 아이폰…40대 이상은 갤럭시 [IT썰]",
-      "link": "https://www.mt.co.kr/tech/2026/07/14/2026071317574791883",
-      "source": "머니투데이",
-      "ts": 1783976400000,
-      "pub": "Tue, 14 Jul 2026 06:00:00 +0900",
-      "sentiment": "neutral"
+      "ts": 1783985793000,
+      "pub": "Tue, 14 Jul 2026 08:36:33 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "\"호남 반도체 교섭의제로\" 삼전노조 주장에 노동부 \"대상 아냐\"",
@@ -49,14 +33,6 @@
       "source": "연합뉴스 경제",
       "ts": 1783926116000,
       "pub": "Mon, 13 Jul 2026 16:01:56 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'삼전닉스 출렁'에 코스피 5%대 급락…'7천피' 위협받기도",
-      "link": "https://www.yna.co.kr/view/AKR20260713074400008",
-      "source": "연합뉴스 경제",
-      "ts": 1783910348000,
-      "pub": "Mon, 13 Jul 2026 11:39:08 +0900",
       "sentiment": "negative"
     }
   ]

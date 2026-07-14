@@ -1,14 +1,62 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-13T23:41:30.931Z",
-  "count": 37,
+  "updated_at": "2026-07-14T01:17:59.787Z",
+  "count": 31,
   "items": [
     {
-      "title": "월러 연준 이사 \"근원물가 예상 웃돌면 금리인상 검토해야\"",
-      "link": "https://www.mt.co.kr/world/2026/07/14/2026071406595396149",
-      "source": "머니투데이",
-      "ts": 1783980604000,
-      "pub": "Tue, 14 Jul 2026 07:10:04 +0900",
+      "title": "IMO, 트럼프의 호르무즈 통행료에 \"단호히 반대\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714043600009",
+      "source": "연합뉴스 국제",
+      "ts": 1783990732000,
+      "pub": "Tue, 14 Jul 2026 09:58:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"백악관, '전기요금 납부자 보호 서약' 확대 추진\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714020100009",
+      "source": "연합뉴스 국제",
+      "ts": 1783990155000,
+      "pub": "Tue, 14 Jul 2026 09:49:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"호르무즈 대이란 봉쇄 재개\"…정유株 동반 강세",
+      "link": "https://www.hankyung.com/article/2026071433656",
+      "source": "한국경제",
+      "ts": 1783988056000,
+      "pub": "Tue, 14 Jul 2026 09:14:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러시아, 야당 정치인 나데즈딘 체포…푸틴, 정적 탄압 지속",
+      "link": "https://www.yna.co.kr/view/AKR20260714037500009",
+      "source": "연합뉴스 국제",
+      "ts": 1783987711000,
+      "pub": "Tue, 14 Jul 2026 09:08:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"오늘도 내일도 이란 세게 때릴 것…MOU는 시험이었다\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260714007953071",
+      "source": "연합뉴스 국제",
+      "ts": 1783987408000,
+      "pub": "Tue, 14 Jul 2026 09:03:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 별세한 우군 그레이엄 유지 따라 대러제재 지지 선회\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714030000009",
+      "source": "연합뉴스 국제",
+      "ts": 1783987286000,
+      "pub": "Tue, 14 Jul 2026 09:01:26 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "이란에 불법이라더니…트럼프, 호르무즈 통행료 '내로남불'",
+      "link": "https://www.yna.co.kr/view/AKR20260714029300009",
+      "source": "연합뉴스 국제",
+      "ts": 1783987128000,
+      "pub": "Tue, 14 Jul 2026 08:58:48 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,43 +68,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"호르무즈 통행료 부과\" 발표에 화들짝…반도체 급락[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/07/14/2026071406172898315",
-      "source": "머니투데이",
-      "ts": 1783977615000,
-      "pub": "Tue, 14 Jul 2026 06:20:15 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "트럼프 \"오늘밤 이란 강하게 때릴 것\"...지하 핵시설 타격 예고",
-      "link": "https://www.mt.co.kr/world/2026/07/14/2026071406043255888",
-      "source": "머니투데이",
-      "ts": 1783977323000,
-      "pub": "Tue, 14 Jul 2026 06:15:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "뉴욕증시, 트럼프 호르무즈 통행료 예고에 하락…나스닥 1.6%↓(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260714008151072",
       "source": "연합뉴스 국제",
       "ts": 1783976941000,
       "pub": "Tue, 14 Jul 2026 06:09:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"오늘 밤과 내일 이란 강하게 때린다\"…뉴욕증시 급락",
-      "link": "https://www.hankyung.com/article/2026071429247",
-      "source": "한국경제",
-      "ts": 1783976797000,
-      "pub": "Tue, 14 Jul 2026 06:06:37 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"호르무즈 20% 통행세\" 트럼프 내로남불 선언…이란전쟁 재개 초읽기",
-      "link": "https://www.mt.co.kr/world/2026/07/14/2026071405225068245",
-      "source": "머니투데이",
-      "ts": 1783976273000,
-      "pub": "Tue, 14 Jul 2026 05:57:53 +0900",
       "sentiment": "neutral"
     },
     {
@@ -113,14 +129,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783971468000,
       "pub": "Tue, 14 Jul 2026 04:37:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"16일 밤 대국민연설\"…이란 구상 밝힐 듯",
-      "link": "https://www.mt.co.kr/world/2026/07/14/2026071404304381263",
-      "source": "머니투데이",
-      "ts": 1783971173000,
-      "pub": "Tue, 14 Jul 2026 04:32:53 +0900",
       "sentiment": "neutral"
     },
     {
@@ -204,43 +212,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"호르무즈 대이란 해상 봉쇄 재개…선적 화물 20% 받을 것\"",
-      "link": "https://www.hankyung.com/article/2026071428587",
-      "source": "한국경제",
-      "ts": 1783955348000,
-      "pub": "Tue, 14 Jul 2026 00:09:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 수수료 비난하더니…트럼프 \"호르무즈 통행료 20% 받겠다\"",
-      "link": "https://www.hankyung.com/article/202607132850i",
-      "source": "한국경제",
-      "ts": 1783954285000,
-      "pub": "Mon, 13 Jul 2026 23:51:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"호르무즈 대이란 봉쇄 재개\"…20% 통행료 징수 일방선언",
       "link": "https://www.yna.co.kr/view/AKR20260713168100071",
       "source": "연합뉴스 국제",
       "ts": 1783954137000,
       "pub": "Mon, 13 Jul 2026 23:48:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"호르무즈 안전제공 비용으로 선적화물 20% 받을 것\"",
-      "link": "https://www.hankyung.com/article/2026071328417",
-      "source": "한국경제",
-      "ts": 1783952567000,
-      "pub": "Mon, 13 Jul 2026 23:22:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"호르무즈서 대이란 해상봉쇄 재개\"",
-      "link": "https://www.hankyung.com/article/2026071328397",
-      "source": "한국경제",
-      "ts": 1783952517000,
-      "pub": "Mon, 13 Jul 2026 23:21:57 +0900",
       "sentiment": "neutral"
     },
     {
@@ -273,30 +249,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783947007000,
       "pub": "Mon, 13 Jul 2026 21:50:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 러, 활공폭탄·미사일 공격…드론으로 석유저장소 때린 우크라",
-      "link": "https://www.yna.co.kr/view/AKR20260713130900704",
-      "source": "연합뉴스 국제",
-      "ts": 1783927590000,
-      "pub": "Mon, 13 Jul 2026 16:26:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프는 출구 찾고 푸틴은 밀어붙이지만…둘 다 전쟁에 발목",
-      "link": "https://www.yna.co.kr/view/AKR20260713127300009",
-      "source": "연합뉴스 국제",
-      "ts": 1783926644000,
-      "pub": "Mon, 13 Jul 2026 16:10:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'대러 매파' 그레이엄, 별세 직전까지 우크라 지원 총력전",
-      "link": "https://www.yna.co.kr/view/AKR20260713108200009",
-      "source": "연합뉴스 국제",
-      "ts": 1783922048000,
-      "pub": "Mon, 13 Jul 2026 14:54:08 +0900",
       "sentiment": "neutral"
     }
   ]

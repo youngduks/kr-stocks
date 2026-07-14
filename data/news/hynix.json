@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-14T13:03:09.149Z",
-  "count": 11,
+  "updated_at": "2026-07-14T15:14:59.793Z",
+  "count": 10,
   "items": [
+    {
+      "title": "美증시,유가급등에도 금리우려완화…나스닥 0.3%↑,하이닉스 10%↑",
+      "link": "https://www.hankyung.com/article/202607145403i",
+      "source": "한국경제",
+      "ts": 1784039213000,
+      "pub": "Tue, 14 Jul 2026 23:26:53 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "日, 자율주행 대비 통신인프라 정비…광통신 반도체 공정 유치(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260714087251073",
@@ -74,22 +82,6 @@
       "ts": 1783996698000,
       "pub": "Tue, 14 Jul 2026 11:38:18 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 훈풍에 성장률 3% 목표로 뛴다…\"경제대도약 원년 완성\"",
-      "link": "https://www.yna.co.kr/view/AKR20260714001100002",
-      "source": "연합뉴스 경제",
-      "ts": 1783996688000,
-      "pub": "Tue, 14 Jul 2026 11:38:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 급락 국면서 애플 주가는 사상 최고치",
-      "link": "https://www.yna.co.kr/view/AKR20260714024900009",
-      "source": "연합뉴스 국제",
-      "ts": 1783984749000,
-      "pub": "Tue, 14 Jul 2026 08:19:09 +0900",
-      "sentiment": "negative"
     }
   ]
 }

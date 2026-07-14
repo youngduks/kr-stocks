@@ -1,14 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-14T21:45:03.787Z",
-  "count": 4,
+  "updated_at": "2026-07-14T22:45:00.498Z",
+  "count": 5,
   "items": [
     {
-      "title": "삼성전자 \"美 ADR 상장 검토 안 해…회사 상황이 달라\"",
-      "link": "https://www.hankyung.com/article/202607145272i",
+      "title": "\"삼전닉스 PER 역사적 저평가\"라더니…목표가 산정기준 PBR인 이유 [분석+]",
+      "link": "https://www.hankyung.com/article/2026071444116",
       "source": "한국경제",
-      "ts": 1784025714000,
-      "pub": "Tue, 14 Jul 2026 19:41:54 +0900",
+      "ts": 1784064603000,
+      "pub": "Wed, 15 Jul 2026 06:30:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "11조 쓸어담았는데…'이제는 못 버텨' 삼전닉스 개미들 결국",
+      "link": "https://www.hankyung.com/article/2026071448811",
+      "source": "한국경제",
+      "ts": 1784062811000,
+      "pub": "Wed, 15 Jul 2026 06:00:11 +0900",
       "sentiment": "neutral"
     },
     {

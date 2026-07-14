@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-14T21:45:03.788Z",
-  "count": 9,
+  "updated_at": "2026-07-14T22:45:00.499Z",
+  "count": 11,
   "items": [
+    {
+      "title": "\"엔비디아 H200 중국 출하 시작\"…주가 4% ↑",
+      "link": "https://www.yna.co.kr/view/AKR20260715016800009",
+      "source": "연합뉴스 국제",
+      "ts": 1784068769000,
+      "pub": "Wed, 15 Jul 2026 07:39:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "바클레이스 \"SK하이닉스 ADR 2배로 상승 여력\"…주가 27% 급등(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260715007951072",
+      "source": "연합뉴스 국제",
+      "ts": 1784066256000,
+      "pub": "Wed, 15 Jul 2026 06:57:36 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "뉴욕증시, 물가우려 완화 속 반도체 랠리 재개…나스닥 1%↑(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260715008451072",

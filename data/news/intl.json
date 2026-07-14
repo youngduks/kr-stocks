@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-14T21:45:03.786Z",
-  "count": 37,
+  "updated_at": "2026-07-14T22:45:00.497Z",
+  "count": 39,
   "items": [
+    {
+      "title": "[속보] 트럼프 \"이란과 대화했다…내주까지 합의 안되면 발전소 공격\"",
+      "link": "https://www.yna.co.kr/view/AKR20260715018500009",
+      "source": "연합뉴스 국제",
+      "ts": 1784067832000,
+      "pub": "Wed, 15 Jul 2026 07:23:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "NYT \"美와 무역분쟁 韓기업, 트럼프 가족기업에 30억원 건네\"",
+      "link": "https://www.yna.co.kr/view/AKR20260715014200071",
+      "source": "연합뉴스 국제",
+      "ts": 1784066604000,
+      "pub": "Wed, 15 Jul 2026 07:03:24 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美연준의장 \"높은 인플레 불용\"…CPI 둔화에도 \"임무완수 아냐\"(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260714183553071",
@@ -76,7 +92,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"호르무즈 통행료 20%, 걸프국 무역협정으로 대체\"[이상은의 워싱턴나우]",
+      "title": "트럼프 \"호르무즈 통행료 20%, 걸프국 무역협정으로 대체\" [이상은의 워싱턴나우]",
       "link": "https://www.hankyung.com/article/202607155449i",
       "source": "한국경제",
       "ts": 1784044835000,

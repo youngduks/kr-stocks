@@ -1,14 +1,30 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-14T04:38:52.278Z",
-  "count": 39,
+  "updated_at": "2026-07-14T07:01:57.883Z",
+  "count": 35,
   "items": [
     {
-      "title": "\"오르던 삼전닉스도 뚝\" 6700피 반납...'해적 트럼프'에 개미 손 털었다",
-      "link": "https://www.mt.co.kr/stock/2026/07/14/2026071412043019276",
+      "title": "캘리포니아, 전기차 구매 보조금 시행…反트럼프",
+      "link": "https://www.yna.co.kr/view/AKR20260714123000009",
+      "source": "연합뉴스 국제",
+      "ts": 1784010613000,
+      "pub": "Tue, 14 Jul 2026 15:30:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "다카이치 \"우크라 지원·대러시아 제재 계속할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714125800073",
+      "source": "연합뉴스 국제",
+      "ts": 1784009341000,
+      "pub": "Tue, 14 Jul 2026 15:09:01 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "미국, 호르무즈 배 1척당 450억 받는다?...트럼프 '20% 통행세' 논란",
+      "link": "https://www.mt.co.kr/world/2026/07/14/2026071411275220258",
       "source": "머니투데이",
-      "ts": 1783998989000,
-      "pub": "Tue, 14 Jul 2026 12:16:29 +0900",
+      "ts": 1784007346000,
+      "pub": "Tue, 14 Jul 2026 14:35:46 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,27 +36,11 @@
       "sentiment": "negative"
     },
     {
-      "title": "TXT 연준, 녹을 듯 안 녹는 '아이스크림' [뉴트랙 쿨리뷰]",
-      "link": "https://www.mt.co.kr/entertainment/2026/07/14/2026071411557236185",
-      "source": "머니투데이",
-      "ts": 1783997705000,
-      "pub": "Tue, 14 Jul 2026 11:55:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "印, 美와 막바지 무역협상 '진통'…경쟁국보다 우대관세 '고수'",
       "link": "https://www.yna.co.kr/view/AKR20260714087700104",
       "source": "연합뉴스 국제",
       "ts": 1783997705000,
       "pub": "Tue, 14 Jul 2026 11:55:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "관세청, 휴대용 선풍기·물총 등 안전기준 미준수 수입제품 13만점 적발",
-      "link": "https://www.mt.co.kr/policy/2026/07/14/2026071410260447886",
-      "source": "머니투데이",
-      "ts": 1783995427000,
-      "pub": "Tue, 14 Jul 2026 11:17:07 +0900",
       "sentiment": "neutral"
     },
     {
@@ -281,38 +281,6 @@
       "source": "연합뉴스 국제",
       "ts": 1783956462000,
       "pub": "Tue, 14 Jul 2026 00:27:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"호르무즈 대이란 봉쇄 재개\"…20% 통행료 징수 일방선언",
-      "link": "https://www.yna.co.kr/view/AKR20260713168100071",
-      "source": "연합뉴스 국제",
-      "ts": 1783954137000,
-      "pub": "Mon, 13 Jul 2026 23:48:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"호르무즈 안전제공 비용으로 선적화물 20% 받을 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260713167600071",
-      "source": "연합뉴스 국제",
-      "ts": 1783952461000,
-      "pub": "Mon, 13 Jul 2026 23:21:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"호르무즈서 대이란 해상봉쇄 재개\"",
-      "link": "https://www.yna.co.kr/view/AKR20260713167500071",
-      "source": "연합뉴스 국제",
-      "ts": 1783952386000,
-      "pub": "Mon, 13 Jul 2026 23:19:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"美, 아마도 호르무즈 해협 통제할 것…그 대가 받아야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260713164500071",
-      "source": "연합뉴스 국제",
-      "ts": 1783947983000,
-      "pub": "Mon, 13 Jul 2026 22:06:23 +0900",
       "sentiment": "neutral"
     }
   ]

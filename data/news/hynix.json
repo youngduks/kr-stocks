@@ -1,46 +1,62 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-14T04:38:52.280Z",
-  "count": 16,
+  "updated_at": "2026-07-14T07:01:57.886Z",
+  "count": 13,
   "items": [
     {
-      "title": "모레, 유엔 'AI 포 굿' 혁신사례 선정…\"엔비디아 의존도 낮출 SW\"",
-      "link": "https://www.mt.co.kr/future/2026/07/14/2026071410271476763",
-      "source": "머니투데이",
-      "ts": 1784001600000,
-      "pub": "Tue, 14 Jul 2026 13:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한미반도체, AI 반도체 투자로 2분기 매출 2511억 '창사 이래 최대'",
-      "link": "https://www.mt.co.kr/industry/2026/07/14/2026071410551434360",
-      "source": "머니투데이",
-      "ts": 1783997562000,
-      "pub": "Tue, 14 Jul 2026 11:52:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'반도체의 힘'…선진국 훌쩍 뛰어넘는 3% 성장 목표치 제시한 이유는",
-      "link": "https://www.mt.co.kr/economy/2026/07/14/2026071308351580075",
-      "source": "머니투데이",
-      "ts": 1783997003000,
-      "pub": "Tue, 14 Jul 2026 11:43:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 한국 올해 성장률 3%…고용은 뒷걸음질 [하반기 경제]",
-      "link": "https://www.hankyung.com/article/202607143379i",
+      "title": "애플, 반도체·기술주 부진에도 독주",
+      "link": "https://www.hankyung.com/article/202607144264i",
       "source": "한국경제",
-      "ts": 1783996887000,
-      "pub": "Tue, 14 Jul 2026 11:41:27 +0900",
+      "ts": 1784010860000,
+      "pub": "Tue, 14 Jul 2026 15:34:20 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "반도체 '독주'로 장밋빛 성장세…'산업·지역·계층' 양극화는 커졌다",
-      "link": "https://www.mt.co.kr/economy/2026/07/14/2026071408454916512",
+      "title": "50억이 29억으로...하이닉스 '레버리지' 개미 \"-21억, 그래도 버틴다\"",
+      "link": "https://www.mt.co.kr/stock/2026/07/14/2026071414185240233",
       "source": "머니투데이",
-      "ts": 1783996843000,
-      "pub": "Tue, 14 Jul 2026 11:40:43 +0900",
+      "ts": 1784009156000,
+      "pub": "Tue, 14 Jul 2026 15:05:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "재경부 \"반도체·중공업 선물환 매도 대규모로 나와…수급 개선\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714118300002",
+      "source": "연합뉴스 경제",
+      "ts": 1784008028000,
+      "pub": "Tue, 14 Jul 2026 14:47:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "소부장의 역설: 반도체 소부장, 한국과 일본을 함께 봐야 하는 이유",
+      "link": "https://www.hankyung.com/article/202607131933i",
+      "source": "한국경제",
+      "ts": 1784007871000,
+      "pub": "Tue, 14 Jul 2026 14:44:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"관행 지출 싹둑, 반도체·AI에 책임 투자\"…추미애, 도의회 첫 업무보고",
+      "link": "https://www.mt.co.kr/policy/2026/07/14/2026071414185514928",
+      "source": "머니투데이",
+      "ts": 1784007776000,
+      "pub": "Tue, 14 Jul 2026 14:42:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"점심 먹고 왔더니 반도체 또 오르네\"…코스피 6900 재진입",
+      "link": "https://www.mt.co.kr/stock/2026/07/14/2026071414281860616",
+      "source": "머니투데이",
+      "ts": 1784007083000,
+      "pub": "Tue, 14 Jul 2026 14:31:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한국기술교육대 \"반도체 융합전공, 글로벌·대기업 취업 성과\"",
+      "link": "https://www.yna.co.kr/view/AKR20260714107100063",
+      "source": "연합뉴스 경제",
+      "ts": 1784005077000,
+      "pub": "Tue, 14 Jul 2026 13:57:57 +0900",
       "sentiment": "neutral"
     },
     {
@@ -68,44 +84,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[오늘 이 종목] 반도체 고점 논란 속 저평가 매력… 김민수 대표의 '시선집중' 필승 전략",
-      "link": "https://www.mt.co.kr/stock/2026/07/14/2026071411237037129",
-      "source": "머니투데이",
-      "ts": 1783996319000,
-      "pub": "Tue, 14 Jul 2026 11:31:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "1분기 부진 딛고 '역대급' 실적…HBM 업고 날아오른 이 회사",
-      "link": "https://www.hankyung.com/article/202607143934i",
-      "source": "한국경제",
-      "ts": 1783995865000,
-      "pub": "Tue, 14 Jul 2026 11:24:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한미반도체, 2분기 영업이익 1303억4600만원…전년比 51%↑",
-      "link": "https://www.hankyung.com/article/2026071439216",
-      "source": "한국경제",
-      "ts": 1783995457000,
-      "pub": "Tue, 14 Jul 2026 11:17:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "코스피, 등락 거듭하며 보합권서 탐색…하이닉스 약보합(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260714049000008",
       "source": "연합뉴스 경제",
       "ts": 1783989822000,
       "pub": "Tue, 14 Jul 2026 09:43:42 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "미래에셋, SK하이닉스 2분기 영업익 전망치 12% 하향조정",
-      "link": "https://www.yna.co.kr/view/AKR20260714027600008",
-      "source": "연합뉴스 경제",
-      "ts": 1783985221000,
-      "pub": "Tue, 14 Jul 2026 08:27:01 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "반도체 급락 국면서 애플 주가는 사상 최고치",
@@ -122,14 +106,6 @@
       "ts": 1783974204000,
       "pub": "Tue, 14 Jul 2026 05:23:24 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "\"호남 반도체 교섭의제로\" 삼전노조 주장에 노동부 \"대상 아냐\"",
-      "link": "https://www.yna.co.kr/view/AKR20260713165800530",
-      "source": "연합뉴스 경제",
-      "ts": 1783950543000,
-      "pub": "Mon, 13 Jul 2026 22:49:03 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

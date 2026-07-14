@@ -3,14 +3,14 @@ import { Footer } from "@/components/Footer";
 import { fetchAllPrices } from "@/lib/fetchPrices";
 import { fetchCvdSet } from "@/lib/cvd";
 import { CvdChart, type CvdDataset } from "@/components/CvdChart";
-import { fetchOpenInterestSet } from "@/lib/openInterest";
-import { OpenInterestChart, type OiDataset } from "@/components/OpenInterestChart";
+import { fetchLeverageEtfHistory, LEVERAGE_ETF_NAME_KO } from "@/lib/leverageEtf";
+import { LeverageEtfChart } from "@/components/LeverageEtfChart";
 import Link from "next/link";
 import type { Metadata } from "next";
 
 export const revalidate = 3600;
 
-// CVD·OI 계산 가능 종목 — 바이낸스 상장(taker buy/sell 분해 + openInterestHist 데이터 존재)
+// CVD 계산 가능 종목 — 바이낸스 상장(taker buy/sell 분해 데이터 존재)
 const CVD_TICKERS = [
   { symbol: "SAMSUNGUSDT", label: "삼성전자" },
   { symbol: "SKHYNIXUSDT", label: "SK하이닉스" },
@@ -38,9 +38,9 @@ const TICKERS: LiqTicker[] = [
 ];
 
 export const metadata: Metadata = {
-  title: "청산맵 — 삼성전자·SK하이닉스·NVIDIA 청산 지도 · 레버리지 TVL",
+  title: "청산맵 — 삼성전자·SK하이닉스·NVIDIA 청산 지도 · 레버리지 ETF",
   description:
-    "거래소들이 토큰화 주식을 상장하면서 청산맵(리퀴데이션 히트맵)도 주식 티커까지 지원. 삼성전자·SK하이닉스·NVIDIA·DRAM·S&P500·KORU 청산 지도 바로가기 + 삼전·닉스·현대차 CVD(체결강도 누적)·레버리지 TVL(미결제약정) 실측 차트, 청산 캐스케이드 자동 탐지.",
+    "거래소들이 토큰화 주식을 상장하면서 청산맵(리퀴데이션 히트맵)도 주식 티커까지 지원. 삼성전자·SK하이닉스·NVIDIA·DRAM·S&P500·KORU 청산 지도 바로가기 + 삼전·닉스·현대차 CVD(체결강도 누적) 실측 차트 + 코스피 SK하이닉스 레버리지 ETF 패닉셀 캐스케이드 자동 탐지.",
   keywords: [
     "청산맵",
     "청산 지도",
@@ -48,10 +48,10 @@ export const metadata: Metadata = {
     "liquidation heatmap",
     "CVD",
     "체결강도",
-    "레버리지 TVL",
-    "미결제약정",
-    "open interest",
-    "청산 캐스케이드",
+    "SK하이닉스 레버리지",
+    "KODEX SK하이닉스레버리지",
+    "레버리지 ETF",
+    "패닉셀 캐스케이드",
     "삼성전자 청산가",
     "SK하이닉스 청산가",
     "NVIDIA 청산맵",
@@ -77,22 +77,16 @@ export const metadata: Metadata = {
 };
 
 export default async function LiquidationPage() {
-  const [data, cvdSets, oiSets] = await Promise.all([
+  const [data, cvdSets, leverageBars] = await Promise.all([
     fetchAllPrices(),
     Promise.all(CVD_TICKERS.map((t) => fetchCvdSet(t.symbol))),
-    Promise.all(CVD_TICKERS.map((t) => fetchOpenInterestSet(t.symbol))),
+    fetchLeverageEtfHistory(90),
   ]);
 
   const cvdDatasets: CvdDataset[] = CVD_TICKERS.map((t, i) => ({
     symbol: t.symbol,
     label: t.label,
     set: cvdSets[i],
-  })).filter((d) => d.set.bars1H.length > 0 || d.set.bars4H.length > 0);
-
-  const oiDatasets: OiDataset[] = CVD_TICKERS.map((t, i) => ({
-    symbol: t.symbol,
-    label: t.label,
-    set: oiSets[i],
   })).filter((d) => d.set.bars1H.length > 0 || d.set.bars4H.length > 0);
 
   return (
@@ -140,16 +134,17 @@ export default async function LiquidationPage() {
             </section>
           )}
 
-          {oiDatasets.length > 0 && (
+          {leverageBars.length > 0 && (
             <section className="mb-8">
-              <h2 className="text-xl font-bold mb-1">🧨 레버리지 TVL (미결제약정) — 청산 캐스케이드 탐지</h2>
+              <h2 className="text-xl font-bold mb-1">🧨 SK하이닉스 레버리지 ETF — 패닉셀 캐스케이드 탐지</h2>
               <p className="text-xs text-text-dim mb-4 leading-relaxed">
-                이 시장에 지금 걸려있는 레버리지 포지션 총액입니다. <span className="text-text font-semibold">
-                쌓이던 TVL이 한 봉 안에 급락하면 레버리지 포지션이 대량 강제청산됐다는 뜻</span> —
-                많은 사람이 고통받은 그 지점이 변곡점이 되는 경우가 많습니다. 급락 지점은 차트에
-                빨간 화살표(▼)로 자동 표시됩니다.
+                바이낸스 합성 상품이 아니라 <span className="text-text font-semibold">
+                코스피에 실제 상장된 2배 레버리지 ETF({LEVERAGE_ETF_NAME_KO}, 거래대금 기준 동일 상품군 중 최다
+                유동성)</span> 실데이터입니다. 하루 급락한 날은 반대매매·손절이 몰렸을 가능성이 높은
+                실물 증거로 보고 빨간 화살표(▼)로 자동 표시됩니다 — 많은 사람이 고통받은 그 지점이
+                변곡점이 되는 경우가 많습니다.
               </p>
-              <OpenInterestChart datasets={oiDatasets} />
+              <LeverageEtfChart bars={leverageBars} label={LEVERAGE_ETF_NAME_KO} />
             </section>
           )}
 

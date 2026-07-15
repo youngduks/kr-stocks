@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-15T13:06:35.545Z",
-  "count": 14,
+  "updated_at": "2026-07-15T15:16:43.416Z",
+  "count": 11,
   "items": [
+    {
+      "title": "檢, '반도체 부품가격 담합 의혹' 외국기업 3곳 압수수색",
+      "link": "https://www.hankyung.com/article/2026071579411",
+      "source": "한국경제",
+      "ts": 1784122824000,
+      "pub": "Wed, 15 Jul 2026 22:40:24 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "젠슨 황 \"하이닉스 ADR, 믿을 수 없을 정도로 성공적\"",
+      "link": "https://www.hankyung.com/article/2026071579381",
+      "source": "한국경제",
+      "ts": 1784122732000,
+      "pub": "Wed, 15 Jul 2026 22:38:52 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "젠슨황 \"SK하이닉스 ADR, 믿을 수 없을정도로 성공적…기쁘다\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260715175251073",
@@ -25,30 +41,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784111848000,
       "pub": "Wed, 15 Jul 2026 19:37:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스 ADR 달러 외평기금이 사들이나",
-      "link": "https://www.hankyung.com/article/2026071576551",
-      "source": "한국경제",
-      "ts": 1784107144000,
-      "pub": "Wed, 15 Jul 2026 18:19:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"'반도체의 나라' 기획 인상적…전력·용수부족 해결책 짚어달라\"",
-      "link": "https://www.hankyung.com/article/2026071577321",
-      "source": "한국경제",
-      "ts": 1784107076000,
-      "pub": "Wed, 15 Jul 2026 18:17:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성, 기흥캠퍼스에 새 D램 공장 짓는다",
-      "link": "https://www.hankyung.com/article/2026071577451",
-      "source": "한국경제",
-      "ts": 1784106887000,
-      "pub": "Wed, 15 Jul 2026 18:14:47 +0900",
       "sentiment": "neutral"
     },
     {
@@ -98,22 +90,6 @@
       "ts": 1784081579000,
       "pub": "Wed, 15 Jul 2026 11:12:59 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"엔비디아 H200 중국 출하 시작\"…주가 4% ↑",
-      "link": "https://www.yna.co.kr/view/AKR20260715016800009",
-      "source": "연합뉴스 국제",
-      "ts": 1784068769000,
-      "pub": "Wed, 15 Jul 2026 07:39:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "바클레이스 \"SK하이닉스 ADR 2배로 상승 여력\"…주가 27% 급등(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260715007951072",
-      "source": "연합뉴스 국제",
-      "ts": 1784066256000,
-      "pub": "Wed, 15 Jul 2026 06:57:36 +0900",
-      "sentiment": "positive"
     }
   ]
 }

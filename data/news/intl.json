@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-15T13:06:35.544Z",
-  "count": 28,
+  "updated_at": "2026-07-15T15:16:43.414Z",
+  "count": 25,
   "items": [
+    {
+      "title": "젤렌스키, 총리 후보에 국영 에너지기업 CEO 지명할 듯",
+      "link": "https://www.yna.co.kr/view/AKR20260715184100109",
+      "source": "연합뉴스 국제",
+      "ts": 1784126451000,
+      "pub": "Wed, 15 Jul 2026 23:40:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "쿠팡, 2분기 親트럼프 인사 통해 백악관 등 25만달러 로비",
+      "link": "https://www.yna.co.kr/view/AKR20260715182100071",
+      "source": "연합뉴스 국제",
+      "ts": 1784123237000,
+      "pub": "Wed, 15 Jul 2026 22:47:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러시아의 흑해 공격에 곡물값 '비상'…우크라 수출 능력 30% '뚝'",
+      "link": "https://www.hankyung.com/article/2026071579277",
+      "source": "한국경제",
+      "ts": 1784122344000,
+      "pub": "Wed, 15 Jul 2026 22:32:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러시아 보란 듯…EU·우크라, 드론 공동 생산한다(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260715162551098",
+      "source": "연합뉴스 국제",
+      "ts": 1784121886000,
+      "pub": "Wed, 15 Jul 2026 22:24:46 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "러·우크라, 흑해·아조우해 공방…곡물값 비상",
       "link": "https://www.yna.co.kr/view/AKR20260715180700109",
@@ -25,22 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784109641000,
       "pub": "Wed, 15 Jul 2026 19:00:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 가족기업에 30억 준 베이스그룹 '뇌물 논란'",
-      "link": "https://www.hankyung.com/article/2026071577441",
-      "source": "한국경제",
-      "ts": 1784107620000,
-      "pub": "Wed, 15 Jul 2026 18:27:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "워시, 인플레와 전쟁 선포…美 CPI 둔화에도 \"안심 못해\"",
-      "link": "https://www.hankyung.com/article/2026071576611",
-      "source": "한국경제",
-      "ts": 1784107335000,
-      "pub": "Wed, 15 Jul 2026 18:22:15 +0900",
       "sentiment": "neutral"
     },
     {
@@ -185,46 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784074715000,
       "pub": "Wed, 15 Jul 2026 09:18:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 유타 국립보호지역 대폭 축소…원주민·환경단체 반발",
-      "link": "https://www.yna.co.kr/view/AKR20260715014300075",
-      "source": "연합뉴스 국제",
-      "ts": 1784069530000,
-      "pub": "Wed, 15 Jul 2026 07:52:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 대화했다…내주까지 합의 안되면 발전소 공격\"",
-      "link": "https://www.yna.co.kr/view/AKR20260715018551009",
-      "source": "연합뉴스 국제",
-      "ts": 1784068977000,
-      "pub": "Wed, 15 Jul 2026 07:42:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란과 대화했다…내주까지 합의 안되면 발전소 공격\"",
-      "link": "https://www.yna.co.kr/view/AKR20260715018500009",
-      "source": "연합뉴스 국제",
-      "ts": 1784067832000,
-      "pub": "Wed, 15 Jul 2026 07:23:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "NYT \"美와 무역분쟁 韓기업, 트럼프 가족기업에 30억원 건네\"",
-      "link": "https://www.yna.co.kr/view/AKR20260715014200071",
-      "source": "연합뉴스 국제",
-      "ts": 1784066604000,
-      "pub": "Wed, 15 Jul 2026 07:03:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美연준의장 \"높은 인플레 불용\"…CPI 둔화에도 \"임무완수 아냐\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260714183553071",
-      "source": "연합뉴스 국제",
-      "ts": 1784063941000,
-      "pub": "Wed, 15 Jul 2026 06:19:01 +0900",
       "sentiment": "neutral"
     }
   ]

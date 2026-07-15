@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-15T11:20:04.223Z",
-  "count": 29,
+  "updated_at": "2026-07-15T13:06:35.544Z",
+  "count": 28,
   "items": [
+    {
+      "title": "러·우크라, 흑해·아조우해 공방…곡물값 비상",
+      "link": "https://www.yna.co.kr/view/AKR20260715180700109",
+      "source": "연합뉴스 국제",
+      "ts": 1784120464000,
+      "pub": "Wed, 15 Jul 2026 22:01:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "프랑스, 우크라에 러 본토타격용 순항미사일 설계도 전달",
+      "link": "https://www.yna.co.kr/view/AKR20260715178100009",
+      "source": "연합뉴스 국제",
+      "ts": 1784116046000,
+      "pub": "Wed, 15 Jul 2026 20:47:26 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "11살 소녀에 \"꺼져라\"…반우크라 정서 퍼지는 폴란드",
       "link": "https://www.yna.co.kr/view/AKR20260715171500082",
@@ -33,14 +49,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784106833000,
       "pub": "Wed, 15 Jul 2026 18:13:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "또 말 바꾼 트럼프 \"호르무즈 통행료 대신 중동 투자 받을 것\"",
-      "link": "https://www.hankyung.com/article/2026071576651",
-      "source": "한국경제",
-      "ts": 1784106823000,
-      "pub": "Wed, 15 Jul 2026 18:13:43 +0900",
       "sentiment": "neutral"
     },
     {
@@ -217,22 +225,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784063941000,
       "pub": "Wed, 15 Jul 2026 06:19:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "워시 의장 \"높은 인플레 용납 않겠다\"…연준 독립성 거듭 강조(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260714183552071",
-      "source": "연합뉴스 국제",
-      "ts": 1784058883000,
-      "pub": "Wed, 15 Jul 2026 04:54:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 모레 대국민연설서 \"선거·투표기기 내용 다룰 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260715006600071",
-      "source": "연합뉴스 국제",
-      "ts": 1784058194000,
-      "pub": "Wed, 15 Jul 2026 04:43:14 +0900",
       "sentiment": "neutral"
     }
   ]

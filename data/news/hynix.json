@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-15T11:20:04.225Z",
-  "count": 15,
+  "updated_at": "2026-07-15T13:06:35.545Z",
+  "count": 14,
   "items": [
+    {
+      "title": "젠슨황 \"SK하이닉스 ADR, 믿을 수 없을정도로 성공적…기쁘다\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260715175251073",
+      "source": "연합뉴스 국제",
+      "ts": 1784116946000,
+      "pub": "Wed, 15 Jul 2026 21:02:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"믿을 수 없을 정도\"…일본서 'SK하이닉스' 샤라웃한 젠슨황",
+      "link": "https://www.hankyung.com/article/2026071578557",
+      "source": "한국경제",
+      "ts": 1784114570000,
+      "pub": "Wed, 15 Jul 2026 20:22:50 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "젠슨황 \"SK하이닉스 ADR, 믿을 수 없을정도로 성공적…기쁘다\"",
       "link": "https://www.yna.co.kr/view/AKR20260715175200073",
@@ -97,30 +113,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784066256000,
       "pub": "Wed, 15 Jul 2026 06:57:36 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "뉴욕증시, 물가우려 완화 속 반도체 랠리 재개…나스닥 1%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260715008451072",
-      "source": "연합뉴스 국제",
-      "ts": 1784061958000,
-      "pub": "Wed, 15 Jul 2026 05:45:58 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "뉴욕증시, 물가우려 완화 속 반도체 랠리 재개…나스닥 1%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260715008400072",
-      "source": "연합뉴스 국제",
-      "ts": 1784059850000,
-      "pub": "Wed, 15 Jul 2026 05:10:50 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "바클레이스 \"SK하이닉스 ADR 2배로 상승 여력\"…주가 20%대 급등",
-      "link": "https://www.yna.co.kr/view/AKR20260715007900072",
-      "source": "연합뉴스 국제",
-      "ts": 1784058990000,
-      "pub": "Wed, 15 Jul 2026 04:56:30 +0900",
       "sentiment": "positive"
     }
   ]

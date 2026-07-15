@@ -3,15 +3,10 @@
   "ticker": "000660",
   "name_ko": "SK하이닉스",
   "name_en": "SK Hynix",
-  "updated_at": "2026-07-14T18:54:15.911+09:00",
+  "updated_at": "2026-07-15T18:58:27.664+09:00",
   "source": "naver_finance_frgn",
   "note": "추정 매매대금 = 종가 × 순매매량 (±5% 정확도)",
   "daily": [
-    {
-      "date": "2026-07-08",
-      "foreign_won": 183335712000,
-      "institutional_won": -592392828000
-    },
     {
       "date": "2026-07-09",
       "foreign_won": -457934210000,
@@ -31,11 +26,16 @@
       "date": "2026-07-14",
       "foreign_won": 1271266933000,
       "institutional_won": 1334642710000
+    },
+    {
+      "date": "2026-07-15",
+      "foreign_won": 689443890000,
+      "institutional_won": 553666260000
     }
   ],
   "cumulative_5d": {
-    "foreign_won": -1979527300000,
-    "institutional_won": 629046197000,
-    "retail_won": 1350481103000
+    "foreign_won": -1473419122000,
+    "institutional_won": 1775105285000,
+    "retail_won": -301686163000
   }
 }

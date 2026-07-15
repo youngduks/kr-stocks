@@ -1,15 +1,127 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-14T23:40:43.655Z",
-  "count": 17,
+  "updated_at": "2026-07-15T01:15:21.112Z",
+  "count": 21,
   "items": [
     {
-      "title": "美반도체 랠리 재개에 삼전·하이닉스도 프리마켓서 강세",
-      "link": "https://www.mt.co.kr/stock/2026/07/15/2026071508303760969",
+      "title": "반도체 수출 호황에 달라진 경기진단…재경부 \"경기회복 흐름 공고해져\"",
+      "link": "https://www.mt.co.kr/economy/2026/07/15/2026071508155853847",
       "source": "머니투데이",
-      "ts": 1784071978000,
-      "pub": "Wed, 15 Jul 2026 08:32:58 +0900",
+      "ts": 1784077200000,
+      "pub": "Wed, 15 Jul 2026 10:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피 7%대 급등…금리·하이닉스·미장 3박자 맞았다",
+      "link": "https://www.hankyung.com/article/202607155908i",
+      "source": "한국경제",
+      "ts": 1784076931000,
+      "pub": "Wed, 15 Jul 2026 09:55:31 +0900",
       "sentiment": "positive"
+    },
+    {
+      "title": "美 반도체 훈풍에 기판주도 '방긋'… 삼성전기, 10%대 급등",
+      "link": "https://www.mt.co.kr/stock/2026/07/15/2026071509224235220",
+      "source": "머니투데이",
+      "ts": 1784075779000,
+      "pub": "Wed, 15 Jul 2026 09:36:19 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"반도체 초과이익은 공공재 아냐…인프라 대가 세금으로 이미 지불\"",
+      "link": "https://www.mt.co.kr/economy/2026/07/15/2026071508390913754",
+      "source": "머니투데이",
+      "ts": 1784075495000,
+      "pub": "Wed, 15 Jul 2026 09:31:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"SK하닉 ADR, 목표가 330달러\"...HBM 가격 인상·자사주 매입 상승 요인",
+      "link": "https://www.mt.co.kr/world/2026/07/15/2026071509164834435",
+      "source": "머니투데이",
+      "ts": 1784075386000,
+      "pub": "Wed, 15 Jul 2026 09:29:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 한미반도체, 2분기 호실적에 장초반 20% 폭등",
+      "link": "https://www.yna.co.kr/view/AKR20260715046100008",
+      "source": "연합뉴스 경제",
+      "ts": 1784075273000,
+      "pub": "Wed, 15 Jul 2026 09:27:53 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "ADR 급등 영향? 하이닉스 11%↑ 200만닉스 회복…삼전 6%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260715045900008",
+      "source": "연합뉴스 경제",
+      "ts": 1784075077000,
+      "pub": "Wed, 15 Jul 2026 09:24:37 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "코스피, 美반도체 훈풍에 5%대 급등…'28만전자·210만닉스' 회복",
+      "link": "https://www.hankyung.com/article/2026071560146",
+      "source": "한국경제",
+      "ts": 1784075075000,
+      "pub": "Wed, 15 Jul 2026 09:24:35 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "한미반도체, 2분기 호실적에 장 초반 14% 급등",
+      "link": "https://www.hankyung.com/article/2026071559846",
+      "source": "한국경제",
+      "ts": 1784074821000,
+      "pub": "Wed, 15 Jul 2026 09:20:21 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "불뿜는 삼전닉스에 코스피 7000선 재탈환…\"반도체·AI 관련주 늘려라\"",
+      "link": "https://www.mt.co.kr/stock/2026/07/15/2026071509061514280",
+      "source": "머니투데이",
+      "ts": 1784074799000,
+      "pub": "Wed, 15 Jul 2026 09:19:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "에이루트 子, 대만 반도체 기업향 신규 노광장비 수주… 해외 공략 가속",
+      "link": "https://www.mt.co.kr/stock/2026/07/15/2026071509082918182",
+      "source": "머니투데이",
+      "ts": 1784074798000,
+      "pub": "Wed, 15 Jul 2026 09:19:58 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"어제 살 걸 그랬나\"…SK하이닉스 ADR 27% 폭등하더니 결국",
+      "link": "https://www.hankyung.com/article/2026071559756",
+      "source": "한국경제",
+      "ts": 1784074765000,
+      "pub": "Wed, 15 Jul 2026 09:19:25 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "재료연-GIST, 차세대 태양광·그린수소·반도체 공동연구센터 개소",
+      "link": "https://www.mt.co.kr/tech/2026/07/15/2026071509024998923",
+      "source": "머니투데이",
+      "ts": 1784074743000,
+      "pub": "Wed, 15 Jul 2026 09:19:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "가온전선, SK하이닉스 용인 클러스터에 배전 케이블 공급",
+      "link": "https://www.mt.co.kr/industry/2026/07/15/2026071508541956469",
+      "source": "머니투데이",
+      "ts": 1784074278000,
+      "pub": "Wed, 15 Jul 2026 09:11:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"기업 초과이익, 미래 위해 재투자해야\"…'반도체 공공재론' 일축",
+      "link": "https://www.mt.co.kr/economy/2026/07/15/2026071504110046807",
+      "source": "머니투데이",
+      "ts": 1784073600000,
+      "pub": "Wed, 15 Jul 2026 09:00:00 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "\"엔비디아 H200 중국 출하 시작\"…주가 4% ↑",
@@ -20,36 +132,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "물가 우려 완화에 상승…SK하이닉스 ADR 27%↑ [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026071555906",
-      "source": "한국경제",
-      "ts": 1784067491000,
-      "pub": "Wed, 15 Jul 2026 07:18:11 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "바클레이스 \"SK하이닉스 ADR 2배로 상승 여력\"…주가 27% 급등(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260715007951072",
       "source": "연합뉴스 국제",
       "ts": 1784066256000,
       "pub": "Wed, 15 Jul 2026 06:57:36 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "금리인상 전망 꺾였다, 반도체 랠리…SK하닉 ADR 27% 급등[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/07/15/2026071506171721248",
-      "source": "머니투데이",
-      "ts": 1784064068000,
-      "pub": "Wed, 15 Jul 2026 06:21:08 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "반도체만 잘 나갔다…고용절벽에 꺼낸 '20만 AI 인재' 카드",
-      "link": "https://www.mt.co.kr/economy/2026/07/15/2026071422503987204",
-      "source": "머니투데이",
-      "ts": 1784062800000,
-      "pub": "Wed, 15 Jul 2026 06:00:00 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "뉴욕증시, 물가우려 완화 속 반도체 랠리 재개…나스닥 1%↑(종합)",
@@ -76,67 +164,11 @@
       "sentiment": "positive"
     },
     {
-      "title": "\"車 타자\" 메모리 3사, 주도권 경쟁 시동",
-      "link": "https://www.mt.co.kr/industry/2026/07/15/2026071419383447290",
-      "source": "머니투데이",
-      "ts": 1784056620000,
-      "pub": "Wed, 15 Jul 2026 04:17:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "530P 널뛰기, 지친 코스피… 반도체 부축에 6800선 회복",
-      "link": "https://www.mt.co.kr/stock/2026/07/15/2026071419312849863",
-      "source": "머니투데이",
-      "ts": 1784055840000,
-      "pub": "Wed, 15 Jul 2026 04:04:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 물가 '깜짝 하락'…IBM 실적이 확인한 반도체 슈퍼사이클 [빈난새의 개장전요것만]",
-      "link": "https://www.hankyung.com/article/202607145419i",
-      "source": "한국경제",
-      "ts": 1784041724000,
-      "pub": "Wed, 15 Jul 2026 00:08:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美증시, 유가 급등에도 금리 우려 완화…나스닥 0.3%·하이닉스 10%↑",
-      "link": "https://www.hankyung.com/article/202607145403i",
-      "source": "한국경제",
-      "ts": 1784039213000,
-      "pub": "Tue, 14 Jul 2026 23:26:53 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "日, 자율주행 대비 통신인프라 정비…광통신 반도체 공정 유치(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260714087251073",
       "source": "연합뉴스 국제",
       "ts": 1784023869000,
       "pub": "Tue, 14 Jul 2026 19:11:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI칩 中 밀수출 차단 나선 엔비디아…바이어 '화이트리스트' 도입",
-      "link": "https://www.yna.co.kr/view/AKR20260714139000009",
-      "source": "연합뉴스 국제",
-      "ts": 1784013474000,
-      "pub": "Tue, 14 Jul 2026 16:17:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "재경부 \"반도체·중공업 선물환 매도 대규모로 나와…수급 개선\"",
-      "link": "https://www.yna.co.kr/view/AKR20260714118300002",
-      "source": "연합뉴스 경제",
-      "ts": 1784008028000,
-      "pub": "Tue, 14 Jul 2026 14:47:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한국기술교육대 \"반도체 융합전공, 글로벌·대기업 취업 성과\"",
-      "link": "https://www.yna.co.kr/view/AKR20260714107100063",
-      "source": "연합뉴스 경제",
-      "ts": 1784005077000,
-      "pub": "Tue, 14 Jul 2026 13:57:57 +0900",
       "sentiment": "neutral"
     }
   ]

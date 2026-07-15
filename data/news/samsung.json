@@ -1,54 +1,78 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-14T23:40:43.654Z",
-  "count": 9,
+  "updated_at": "2026-07-15T01:15:21.111Z",
+  "count": 11,
   "items": [
     {
-      "title": "美반도체 랠리 재개에 삼전·하이닉스도 프리마켓서 강세",
-      "link": "https://www.mt.co.kr/stock/2026/07/15/2026071508303760969",
+      "title": "\"수도권·광역시는 '국평 이하'만\"...삼성전자, 5억 사내 대출 조건 확정",
+      "link": "https://www.mt.co.kr/industry/2026/07/15/2026071509373811241",
       "source": "머니투데이",
-      "ts": 1784071978000,
-      "pub": "Wed, 15 Jul 2026 08:32:58 +0900",
+      "ts": 1784077382000,
+      "pub": "Wed, 15 Jul 2026 10:03:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, 美훈풍에 6% 급등 '7천피' 회복…삼전닉스 6%·11%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260715051700008",
+      "source": "연합뉴스 경제",
+      "ts": 1784076512000,
+      "pub": "Wed, 15 Jul 2026 09:48:32 +0900",
       "sentiment": "positive"
     },
     {
-      "title": "삼성, 언팩 앞두고 갤럭시Z8 '온라인 전용 색상' 유출 [IT썰]",
-      "link": "https://www.mt.co.kr/tech/2026/07/15/2026071508005344883",
+      "title": "[더벨]삼성전자 파트너 신성이엔지, 클린룸 수주 물량 확대",
+      "link": "https://www.mt.co.kr/stock/2026/07/15/2026071509299675022",
       "source": "머니투데이",
-      "ts": 1784071042000,
-      "pub": "Wed, 15 Jul 2026 08:17:22 +0900",
-      "sentiment": "neutral"
+      "ts": 1784075835000,
+      "pub": "Wed, 15 Jul 2026 09:37:15 +0900",
+      "sentiment": "positive"
     },
     {
-      "title": "\"삼성전자 달라진 것 없다…최근 조정은 매수 기회\"-KB",
-      "link": "https://www.hankyung.com/article/2026071556256",
-      "source": "한국경제",
-      "ts": 1784069036000,
-      "pub": "Wed, 15 Jul 2026 07:43:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"역사적 저평가\"라더니…삼전닉스 목표가 엇갈린 이유 [분석+]",
-      "link": "https://www.hankyung.com/article/2026071444116",
-      "source": "한국경제",
-      "ts": 1784064603000,
-      "pub": "Wed, 15 Jul 2026 06:30:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "11조 쓸어담았는데…'이제는 못 버텨' 삼전닉스 개미들 결국",
-      "link": "https://www.hankyung.com/article/2026071448811",
-      "source": "한국경제",
-      "ts": 1784062811000,
-      "pub": "Wed, 15 Jul 2026 06:00:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"車 타자\" 메모리 3사, 주도권 경쟁 시동",
-      "link": "https://www.mt.co.kr/industry/2026/07/15/2026071419383447290",
+      "title": "\"삼전닉스 이익, 불황 버틸 '보험료'…4년전 적자·주가하락 기억해야\"",
+      "link": "https://www.mt.co.kr/economy/2026/07/15/2026071509105332014",
       "source": "머니투데이",
-      "ts": 1784056620000,
-      "pub": "Wed, 15 Jul 2026 04:17:00 +0900",
+      "ts": 1784075512000,
+      "pub": "Wed, 15 Jul 2026 09:31:52 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"SK하닉 ADR, 목표가 330달러\"...HBM 가격 인상·자사주 매입 상승 요인",
+      "link": "https://www.mt.co.kr/world/2026/07/15/2026071509164834435",
+      "source": "머니투데이",
+      "ts": 1784075386000,
+      "pub": "Wed, 15 Jul 2026 09:29:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "ADR 급등 영향? 하이닉스 11%↑ 200만닉스 회복…삼전 6%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260715045900008",
+      "source": "연합뉴스 경제",
+      "ts": 1784075077000,
+      "pub": "Wed, 15 Jul 2026 09:24:37 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "불뿜는 삼전닉스에 코스피 7000선 재탈환…\"반도체·AI 관련주 늘려라\"",
+      "link": "https://www.mt.co.kr/stock/2026/07/15/2026071509061514280",
+      "source": "머니투데이",
+      "ts": 1784074799000,
+      "pub": "Wed, 15 Jul 2026 09:19:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 뛰자 SK스퀘어·삼성물산도 상승…SK스퀘어 10% 급등",
+      "link": "https://www.mt.co.kr/stock/2026/07/15/2026071509133988607",
+      "source": "머니투데이",
+      "ts": 1784074495000,
+      "pub": "Wed, 15 Jul 2026 09:14:55 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "개미들 '삼전닉스' 담을 때…초고수들은 '소부장' 쓸어담았다",
+      "link": "https://www.hankyung.com/article/202607155730i",
+      "source": "한국경제",
+      "ts": 1784073605000,
+      "pub": "Wed, 15 Jul 2026 09:00:05 +0900",
       "sentiment": "neutral"
     },
     {
@@ -66,14 +90,6 @@
       "ts": 1784012975000,
       "pub": "Tue, 14 Jul 2026 16:09:35 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "삼성전자, 사내 주택자금 대출 면적제한 지역서 광주 제외 방침",
-      "link": "https://www.yna.co.kr/view/AKR20260714102100003",
-      "source": "연합뉴스 경제",
-      "ts": 1784003792000,
-      "pub": "Tue, 14 Jul 2026 13:36:32 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

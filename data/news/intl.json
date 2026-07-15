@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-14T23:40:43.653Z",
-  "count": 48,
+  "updated_at": "2026-07-15T01:15:21.110Z",
+  "count": 38,
   "items": [
+    {
+      "title": "트럼프 \"내주까지 합의안되면 이란 발전소 공격…두들겨 맞아야\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260715018552009",
+      "source": "연합뉴스 국제",
+      "ts": 1784076670000,
+      "pub": "Wed, 15 Jul 2026 09:51:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 측근 그레이엄 돌연사에 온라인서 독살설 등 음모론 난무",
+      "link": "https://www.yna.co.kr/view/AKR20260715046300009",
+      "source": "연합뉴스 국제",
+      "ts": 1784076140000,
+      "pub": "Wed, 15 Jul 2026 09:42:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 '호르무즈 보호비' 돌발선언에 참모진도 '화들짝'",
+      "link": "https://www.yna.co.kr/view/AKR20260715045200009",
+      "source": "연합뉴스 국제",
+      "ts": 1784075075000,
+      "pub": "Wed, 15 Jul 2026 09:24:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美상원, 중국 등 러시아 원유 구매국에 최대 100% 관세 추진",
+      "link": "https://www.yna.co.kr/view/AKR20260715037300009",
+      "source": "연합뉴스 국제",
+      "ts": 1784074715000,
+      "pub": "Wed, 15 Jul 2026 09:18:35 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 유타 국립보호지역 대폭 축소…원주민·환경단체 반발",
       "link": "https://www.yna.co.kr/view/AKR20260715014300075",
@@ -20,43 +52,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'트럼프 면죄부' 발로건 \"논란 예상했다...동료들도 긴장\"",
-      "link": "https://www.mt.co.kr/sports/2026/07/15/2026071506470975265",
-      "source": "머니투데이",
-      "ts": 1784068398000,
-      "pub": "Wed, 15 Jul 2026 07:33:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란과 대화했다…내주까지 합의 안되면 발전소 공격\"",
-      "link": "https://www.hankyung.com/article/2026071556027",
-      "source": "한국경제",
-      "ts": 1784067943000,
-      "pub": "Wed, 15 Jul 2026 07:25:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"韓기업, 트럼프 가족기업에 30억 건네\"…무역분쟁 중 무슨 일?",
-      "link": "https://www.hankyung.com/article/2026071555787",
-      "source": "한국경제",
-      "ts": 1784067920000,
-      "pub": "Wed, 15 Jul 2026 07:25:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] 트럼프 \"이란과 대화했다…내주까지 합의 안되면 발전소 공격\"",
       "link": "https://www.yna.co.kr/view/AKR20260715018500009",
       "source": "연합뉴스 국제",
       "ts": 1784067832000,
       "pub": "Wed, 15 Jul 2026 07:23:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"내가 충분하다고 할 때까지 이란 공격 계속\"",
-      "link": "https://www.hankyung.com/article/2026071555977",
-      "source": "한국경제",
-      "ts": 1784067740000,
-      "pub": "Wed, 15 Jul 2026 07:22:20 +0900",
       "sentiment": "neutral"
     },
     {
@@ -92,35 +92,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 30년 전 성추행 피해자에 80억원 배상…1200억대 판결도 초읽기",
-      "link": "https://www.mt.co.kr/world/2026/07/15/2026071504372018760",
-      "source": "머니투데이",
-      "ts": 1784057981000,
-      "pub": "Wed, 15 Jul 2026 04:39:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "국제유가, 트럼프 통행료 번복에도 상승…브렌트 1.7%↑",
       "link": "https://www.yna.co.kr/view/AKR20260715006700072",
       "source": "연합뉴스 경제",
       "ts": 1784057767000,
       "pub": "Wed, 15 Jul 2026 04:36:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 네타냐후에게 시리아·레바논 철군 요구\"",
-      "link": "https://www.mt.co.kr/world/2026/07/15/2026071504192562747",
-      "source": "머니투데이",
-      "ts": 1784056854000,
-      "pub": "Wed, 15 Jul 2026 04:20:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "워시 美연준 의장 \"5년 인플레 끝낼 것\"…물가안정·독립성 강조",
-      "link": "https://www.mt.co.kr/world/2026/07/15/2026071504021213553",
-      "source": "머니투데이",
-      "ts": 1784055982000,
-      "pub": "Wed, 15 Jul 2026 04:06:22 +0900",
       "sentiment": "neutral"
     },
     {
@@ -164,14 +140,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"호르무즈 통행료 20%, 걸프국 무역협정으로 대체\" [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202607155449i",
-      "source": "한국경제",
-      "ts": 1784044835000,
-      "pub": "Wed, 15 Jul 2026 01:00:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, 통행료 20% 하루만에 번복…\"중동 투자협정으로 대체\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260715001051071",
       "source": "연합뉴스 국제",
@@ -197,35 +165,11 @@
     },
     {
       "title": "[속보] 트럼프 \"통행료 20%, 중동국과의 무역·투자협정으로 대체\"",
-      "link": "https://www.hankyung.com/article/2026071554357",
-      "source": "한국경제",
-      "ts": 1784041791000,
-      "pub": "Wed, 15 Jul 2026 00:09:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"통행료 20%, 중동국과의 무역·투자협정으로 대체\"",
       "link": "https://www.yna.co.kr/view/AKR20260715000600071",
       "source": "연합뉴스 국제",
       "ts": 1784041714000,
       "pub": "Wed, 15 Jul 2026 00:08:34 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "워시 Fed 의장 \"5년간의 인플레이션 반드시 물리치겠다\"",
-      "link": "https://www.hankyung.com/article/202607145423i",
-      "source": "한국경제",
-      "ts": 1784041203000,
-      "pub": "Wed, 15 Jul 2026 00:00:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "네타냐후, 이란에 경고 \"이스라엘 공격하면 이전과 차원 다른 대응\"",
-      "link": "https://www.hankyung.com/article/2026071453857",
-      "source": "한국경제",
-      "ts": 1784037707000,
-      "pub": "Tue, 14 Jul 2026 23:01:47 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "뉴욕증시, CPI 소화하며 상승 출발",
@@ -242,14 +186,6 @@
       "ts": 1784036675000,
       "pub": "Tue, 14 Jul 2026 22:44:35 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "Fed 의장 \"높은 인플레, 용납 않겠다…물가 급등은 과거 일 될 것\"",
-      "link": "https://www.hankyung.com/article/2026071453737",
-      "source": "한국경제",
-      "ts": 1784036351000,
-      "pub": "Tue, 14 Jul 2026 22:39:11 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "연준 의장 \"높은 인플레, 용납않겠다…물가급등 과거 일 될 것\"",
@@ -370,22 +306,6 @@
       "ts": 1784015383000,
       "pub": "Tue, 14 Jul 2026 16:49:43 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "캘리포니아, 전기차 구매 보조금 시행…反트럼프",
-      "link": "https://www.yna.co.kr/view/AKR20260714123000009",
-      "source": "연합뉴스 국제",
-      "ts": 1784010613000,
-      "pub": "Tue, 14 Jul 2026 15:30:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "다카이치 \"우크라 지원·대러시아 제재 계속할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260714125800073",
-      "source": "연합뉴스 국제",
-      "ts": 1784009341000,
-      "pub": "Tue, 14 Jul 2026 15:09:01 +0900",
-      "sentiment": "negative"
     }
   ]
 }

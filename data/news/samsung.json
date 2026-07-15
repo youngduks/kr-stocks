@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-15T18:52:39.547Z",
-  "count": 5,
+  "updated_at": "2026-07-15T20:00:33.200Z",
+  "count": 8,
   "items": [
+    {
+      "title": "\"D램·낸드 이어 HBM까지… 삼성, 메모리 전분야 석권\"",
+      "link": "https://www.mt.co.kr/industry/2026/07/16/2026071519524572096",
+      "source": "머니투데이",
+      "ts": 1784142000000,
+      "pub": "Thu, 16 Jul 2026 04:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "메모리 부족 오래간다… 삼전닉스 고점 멀었다",
+      "link": "https://www.mt.co.kr/industry/2026/07/16/2026071519432465239",
+      "source": "머니투데이",
+      "ts": 1784142000000,
+      "pub": "Thu, 16 Jul 2026 04:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"삼전보다 많이 샀다\"…외인들 2조 쓸어담은 '이 주식' [종목+]",
       "link": "https://www.hankyung.com/article/2026071572806",
@@ -10,6 +26,14 @@
       "ts": 1784120401000,
       "pub": "Wed, 15 Jul 2026 22:00:01 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "[단독]검찰, 삼전·닉스 부품 공급사 3곳 압수수색…납품가 담합 혐의(종합)",
+      "link": "https://www.mt.co.kr/society/2026/07/15/2026071516582450128",
+      "source": "머니투데이",
+      "ts": 1784106894000,
+      "pub": "Wed, 15 Jul 2026 18:14:54 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "ADR 급등에 하이닉스 8%↑, 200만닉스 회복…삼전 6%↑(종합)",

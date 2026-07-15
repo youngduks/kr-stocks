@@ -1,8 +1,112 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-15T07:05:12.809Z",
-  "count": 13,
+  "updated_at": "2026-07-15T09:47:59.000Z",
+  "count": 22,
   "items": [
+    {
+      "title": "\"삼성이 돌아왔다\"…D램·낸드 이어 HBM도 '글로벌 1위' 전망",
+      "link": "https://www.mt.co.kr/industry/2026/07/15/2026071515184935358",
+      "source": "머니투데이",
+      "ts": 1784106000000,
+      "pub": "Wed, 15 Jul 2026 18:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "외국인 매수·반도체 반등…이틀 만에 다시 '7천피' [퇴근길 30초 경제]",
+      "link": "https://www.hankyung.com/article/202607157686H",
+      "source": "한국경제",
+      "ts": 1784105501000,
+      "pub": "Wed, 15 Jul 2026 17:51:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[기고] 반도체 슈퍼사이클 넘어 '대체불가 대한민국'으로",
+      "link": "https://www.hankyung.com/article/2026071576191",
+      "source": "한국경제",
+      "ts": 1784105051000,
+      "pub": "Wed, 15 Jul 2026 17:44:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "검찰, '반도체 부품 담합' 몬타지 테크놀로지 등 3곳 압수수색",
+      "link": "https://www.yna.co.kr/view/AKR20260715163500004",
+      "source": "연합뉴스 경제",
+      "ts": 1784104626000,
+      "pub": "Wed, 15 Jul 2026 17:37:06 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[뉴스프레소] 뉴욕증시, 물가 우려 완화에 상승… SK하이닉스ADR 27% 급반등",
+      "link": "https://www.mt.co.kr/world/2026/07/15/2026071511007037462",
+      "source": "머니투데이",
+      "ts": 1784103959000,
+      "pub": "Wed, 15 Jul 2026 17:25:59 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "뉴욕발 반도체 훈풍에 닛케이 1.49%↑…코스피도 급등 [Asia마감]",
+      "link": "https://www.mt.co.kr/world/2026/07/15/2026071516195851859",
+      "source": "머니투데이",
+      "ts": 1784103199000,
+      "pub": "Wed, 15 Jul 2026 17:13:19 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"SK하닉 ADR, 2009년 엔비디아처럼 저평가 상태\"…월가 '주목'",
+      "link": "https://www.mt.co.kr/world/2026/07/15/2026071513262270345",
+      "source": "머니투데이",
+      "ts": 1784103133000,
+      "pub": "Wed, 15 Jul 2026 17:12:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 반도체 랠리 재개…삼성전자·SK하이닉스 '쑥'",
+      "link": "https://www.mt.co.kr/stock/2026/07/15/2026071516481686228",
+      "source": "머니투데이",
+      "ts": 1784102868000,
+      "pub": "Wed, 15 Jul 2026 17:07:48 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "한화시스템, 서울대·성균관대와 '국방 반도체' 국산화 시동",
+      "link": "https://www.hankyung.com/article/202607157273i",
+      "source": "한국경제",
+      "ts": 1784102487000,
+      "pub": "Wed, 15 Jul 2026 17:01:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'美 상장' SK하이닉스가 달러 끌어왔다…환율 두달만에 1480원대 복귀",
+      "link": "https://www.mt.co.kr/economy/2026/07/15/2026071516455276566",
+      "source": "머니투데이",
+      "ts": 1784102199000,
+      "pub": "Wed, 15 Jul 2026 16:56:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[단독]삼전닉스에 반도체 부품 대는 글로벌 3사, 담합 의혹...검찰 압수수색",
+      "link": "https://www.mt.co.kr/society/2026/07/15/2026071516254262893",
+      "source": "머니투데이",
+      "ts": 1784102167000,
+      "pub": "Wed, 15 Jul 2026 16:56:07 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "김영식 SK에코플랜트 사장 \"AI·반도체 스타트업과 협력 확대\"",
+      "link": "https://www.mt.co.kr/estate/2026/07/15/2026071516384217743",
+      "source": "머니투데이",
+      "ts": 1784101481000,
+      "pub": "Wed, 15 Jul 2026 16:44:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "ADR 급등에 하이닉스 8%↑, 200만닉스 회복…삼전 6%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260715045951008",
+      "source": "연합뉴스 경제",
+      "ts": 1784098978000,
+      "pub": "Wed, 15 Jul 2026 16:02:58 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "[특징주] 한미반도체, '2분기 역대 최대 매출' 소식에 상한가 마감(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260715046151008",
@@ -12,35 +116,11 @@
       "sentiment": "positive"
     },
     {
-      "title": "[단독] 프로브카드 품은 한솔테크닉스…\"반도체 소부장으로 변신\"",
-      "link": "https://www.hankyung.com/article/202607156818i",
-      "source": "한국경제",
-      "ts": 1784096820000,
-      "pub": "Wed, 15 Jul 2026 15:27:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "개인 3.4조 몰린 반도체 ETF 1위…5개 종목 신규 편입",
-      "link": "https://www.hankyung.com/article/202607157092i",
-      "source": "한국경제",
-      "ts": 1784096453000,
-      "pub": "Wed, 15 Jul 2026 15:20:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "SK에코플랜트, 반도체·AI 혁신기술 6건 선정…공동연구 모색",
       "link": "https://www.yna.co.kr/view/AKR20260715123500003",
       "source": "연합뉴스 경제",
       "ts": 1784095136000,
       "pub": "Wed, 15 Jul 2026 14:58:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 공장 규제 완화된다…층간 방화구역 기준 '손질'",
-      "link": "https://www.hankyung.com/article/202607156888i",
-      "source": "한국경제",
-      "ts": 1784091842000,
-      "pub": "Wed, 15 Jul 2026 14:04:02 +0900",
       "sentiment": "neutral"
     },
     {
@@ -57,14 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784081579000,
       "pub": "Wed, 15 Jul 2026 11:12:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체공장 스프링클러 설치시 층간 방화구획 설치의무 완화",
-      "link": "https://www.yna.co.kr/view/AKR20260715035300003",
-      "source": "연합뉴스 경제",
-      "ts": 1784080802000,
-      "pub": "Wed, 15 Jul 2026 11:00:02 +0900",
       "sentiment": "neutral"
     },
     {

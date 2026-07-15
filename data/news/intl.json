@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-15T15:16:43.414Z",
-  "count": 25,
+  "updated_at": "2026-07-15T17:03:06.228Z",
+  "count": 29,
   "items": [
+    {
+      "title": "러시아 보란 듯…EU·우크라, 드론 공동 생산한다(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260715162552098",
+      "source": "연합뉴스 국제",
+      "ts": 1784131557000,
+      "pub": "Thu, 16 Jul 2026 01:05:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "EU, 미국에 \"와인·치즈 등 관세 면제 요청\"",
+      "link": "https://www.yna.co.kr/view/AKR20260716001400098",
+      "source": "연합뉴스 국제",
+      "ts": 1784131499000,
+      "pub": "Thu, 16 Jul 2026 01:04:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러 \"'의지의 연합' 우크라 파병 용납 못해…군사 목표물로 간주\"",
+      "link": "https://www.yna.co.kr/view/AKR20260716000900108",
+      "source": "연합뉴스 국제",
+      "ts": 1784130432000,
+      "pub": "Thu, 16 Jul 2026 00:47:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이스라엘군 레바논 철수 시범구역 며칠 내 가동\"",
+      "link": "https://www.yna.co.kr/view/AKR20260716000400109",
+      "source": "연합뉴스 국제",
+      "ts": 1784129970000,
+      "pub": "Thu, 16 Jul 2026 00:39:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "쿠팡 '트럼프 측근'에 25만달러…백악관·의회 전방위 로비",
+      "link": "https://www.mt.co.kr/world/2026/07/15/2026071523543529895",
+      "source": "머니투데이",
+      "ts": 1784127428000,
+      "pub": "Wed, 15 Jul 2026 23:57:08 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "젤렌스키, 총리 후보에 국영 에너지기업 CEO 지명할 듯",
       "link": "https://www.yna.co.kr/view/AKR20260715184100109",
@@ -44,6 +84,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "네타냐후 18일 방미…'이란전쟁 이견' 트럼프와 회담은 불확실",
+      "link": "https://www.mt.co.kr/world/2026/07/15/2026071520461018016",
+      "source": "머니투데이",
+      "ts": 1784117110000,
+      "pub": "Wed, 15 Jul 2026 21:05:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "프랑스, 우크라에 러 본토타격용 순항미사일 설계도 전달",
       "link": "https://www.yna.co.kr/view/AKR20260715178100009",
       "source": "연합뉴스 국제",
@@ -65,6 +113,14 @@
       "source": "연합뉴스 국제",
       "ts": 1784106833000,
       "pub": "Wed, 15 Jul 2026 18:13:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'핵시설' 의심하는 美, 이란 공습범위 넓히나…트럼프-참모진 회의",
+      "link": "https://www.mt.co.kr/world/2026/07/15/2026071517122232825",
+      "source": "머니투데이",
+      "ts": 1784105183000,
+      "pub": "Wed, 15 Jul 2026 17:46:23 +0900",
       "sentiment": "neutral"
     },
     {
@@ -177,30 +233,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784076670000,
       "pub": "Wed, 15 Jul 2026 09:51:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 측근 그레이엄 돌연사에 온라인서 독살설 등 음모론 난무",
-      "link": "https://www.yna.co.kr/view/AKR20260715046300009",
-      "source": "연합뉴스 국제",
-      "ts": 1784076140000,
-      "pub": "Wed, 15 Jul 2026 09:42:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 '호르무즈 보호비' 돌발선언에 참모진도 '화들짝'",
-      "link": "https://www.yna.co.kr/view/AKR20260715045200009",
-      "source": "연합뉴스 국제",
-      "ts": 1784075075000,
-      "pub": "Wed, 15 Jul 2026 09:24:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美상원, 중국 등 러시아 원유 구매국에 최대 100% 관세 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260715037300009",
-      "source": "연합뉴스 국제",
-      "ts": 1784074715000,
-      "pub": "Wed, 15 Jul 2026 09:18:35 +0900",
       "sentiment": "neutral"
     }
   ]

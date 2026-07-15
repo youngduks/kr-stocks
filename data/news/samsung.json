@@ -1,7 +1,7 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-15T15:16:43.415Z",
-  "count": 6,
+  "updated_at": "2026-07-15T17:03:06.229Z",
+  "count": 8,
   "items": [
     {
       "title": "\"삼전보다 많이 샀다\"…외인들 2조 쓸어담은 '이 주식' [종목+]",
@@ -9,6 +9,22 @@
       "source": "한국경제",
       "ts": 1784120401000,
       "pub": "Wed, 15 Jul 2026 22:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[단독]검찰, 삼전·닉스 부품 공급사 3곳 압수수색…납품가 담합 혐의(종합)",
+      "link": "https://www.mt.co.kr/society/2026/07/15/2026071516582450128",
+      "source": "머니투데이",
+      "ts": 1784106894000,
+      "pub": "Wed, 15 Jul 2026 18:14:54 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"삼성이 돌아왔다\"…D램·낸드 이어 HBM도 '글로벌 1위' 전망",
+      "link": "https://www.mt.co.kr/industry/2026/07/15/2026071515184935358",
+      "source": "머니투데이",
+      "ts": 1784106000000,
+      "pub": "Wed, 15 Jul 2026 18:00:00 +0900",
       "sentiment": "neutral"
     },
     {

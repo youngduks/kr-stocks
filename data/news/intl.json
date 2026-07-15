@@ -1,30 +1,30 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-15T20:00:33.199Z",
-  "count": 34,
+  "updated_at": "2026-07-15T21:45:14.488Z",
+  "count": 30,
   "items": [
+    {
+      "title": "\"트럼프 정부의 '기축통화 탓'은 틀렸다\"...트리핀 딜레마에 대한 반박[이상은의 워싱턴나우]",
+      "link": "https://www.hankyung.com/article/202607157753i",
+      "source": "한국경제",
+      "ts": 1784149214000,
+      "pub": "Thu, 16 Jul 2026 06:00:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 조선협력 필요성 강조하며 \"한국 기업 살펴볼 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260716008800071",
+      "source": "연합뉴스 국제",
+      "ts": 1784148091000,
+      "pub": "Thu, 16 Jul 2026 05:41:31 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 얼굴 새긴 1달러짜리 '금빛 동전' 나온다",
       "link": "https://www.yna.co.kr/view/AKR20260716006400071",
       "source": "연합뉴스 국제",
       "ts": 1784144684000,
       "pub": "Thu, 16 Jul 2026 04:44:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI가 지탱한 美경기…연준 베이지북 \"제조·건설 활기\"",
-      "link": "https://www.mt.co.kr/world/2026/07/16/2026071604363564443",
-      "source": "머니투데이",
-      "ts": 1784144538000,
-      "pub": "Thu, 16 Jul 2026 04:42:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 금리 개입 없었다\" 선 그은 美연준 의장…독립성 강조",
-      "link": "https://www.mt.co.kr/world/2026/07/16/2026071604054635836",
-      "source": "머니투데이",
-      "ts": 1784142612000,
-      "pub": "Thu, 16 Jul 2026 04:10:12 +0900",
       "sentiment": "neutral"
     },
     {
@@ -100,14 +100,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "쿠팡 '트럼프 측근'에 25만달러…백악관·의회 전방위 로비",
-      "link": "https://www.mt.co.kr/world/2026/07/15/2026071523543529895",
-      "source": "머니투데이",
-      "ts": 1784127428000,
-      "pub": "Wed, 15 Jul 2026 23:57:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "젤렌스키, 총리 후보에 국영 에너지기업 CEO 지명할 듯",
       "link": "https://www.yna.co.kr/view/AKR20260715184100109",
       "source": "연합뉴스 국제",
@@ -145,14 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784120464000,
       "pub": "Wed, 15 Jul 2026 22:01:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "네타냐후 18일 방미…'이란전쟁 이견' 트럼프와 회담은 불확실",
-      "link": "https://www.mt.co.kr/world/2026/07/15/2026071520461018016",
-      "source": "머니투데이",
-      "ts": 1784117110000,
-      "pub": "Wed, 15 Jul 2026 21:05:10 +0900",
       "sentiment": "neutral"
     },
     {
@@ -257,22 +241,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784082614000,
       "pub": "Wed, 15 Jul 2026 11:30:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, UAE에 AI반도체 수출통제 완화…\"이란 작전지원 대가\"",
-      "link": "https://www.yna.co.kr/view/AKR20260715082900009",
-      "source": "연합뉴스 국제",
-      "ts": 1784081579000,
-      "pub": "Wed, 15 Jul 2026 11:12:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "백악관 '골드 이글' 출범…사이버 보안 민관협력 허브",
-      "link": "https://www.yna.co.kr/view/AKR20260715067600009",
-      "source": "연합뉴스 국제",
-      "ts": 1784080924000,
-      "pub": "Wed, 15 Jul 2026 11:02:04 +0900",
       "sentiment": "neutral"
     }
   ]

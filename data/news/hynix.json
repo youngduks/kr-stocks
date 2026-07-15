@@ -1,40 +1,8 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-15T20:00:33.201Z",
-  "count": 19,
+  "updated_at": "2026-07-15T21:45:14.489Z",
+  "count": 12,
   "items": [
-    {
-      "title": "\"D램·낸드 이어 HBM까지… 삼성, 메모리 전분야 석권\"",
-      "link": "https://www.mt.co.kr/industry/2026/07/16/2026071519524572096",
-      "source": "머니투데이",
-      "ts": 1784142000000,
-      "pub": "Thu, 16 Jul 2026 04:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "메모리 부족 오래간다… 삼전닉스 고점 멀었다",
-      "link": "https://www.mt.co.kr/industry/2026/07/16/2026071519432465239",
-      "source": "머니투데이",
-      "ts": 1784142000000,
-      "pub": "Thu, 16 Jul 2026 04:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"반도체 초과이익, 기업 재투자에 활용\"",
-      "link": "https://www.mt.co.kr/economy/2026/07/16/2026071519500769227",
-      "source": "머니투데이",
-      "ts": 1784142000000,
-      "pub": "Thu, 16 Jul 2026 04:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "애플, 반도체 스타트업 인수 타진…\"엔비디아 칩 대체\"",
-      "link": "https://www.mt.co.kr/world/2026/07/16/2026071603423319294",
-      "source": "머니투데이",
-      "ts": 1784141202000,
-      "pub": "Thu, 16 Jul 2026 03:46:42 +0900",
-      "sentiment": "neutral"
-    },
     {
       "title": "애플, AI 서버칩 경쟁력 위해 반도체기업 인수 타진",
       "link": "https://www.yna.co.kr/view/AKR20260716003600091",
@@ -92,22 +60,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[급등수사본부] 반도체 자회사 가치 상승 모멘텀 'SK스퀘어' vs 현대차 등 5대 제조 대기업을 고객사로 확보 '마키나락스'",
-      "link": "https://www.mt.co.kr/stock/2026/07/15/2026071518087032512",
-      "source": "머니투데이",
-      "ts": 1784110084000,
-      "pub": "Wed, 15 Jul 2026 19:08:04 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\"하이닉스, 진짜 오긴 오나 봐\"…최태원 '광주 맛집' 팔로우에 들썩",
-      "link": "https://www.mt.co.kr/society/2026/07/15/2026071518003458358",
-      "source": "머니투데이",
-      "ts": 1784109849000,
-      "pub": "Wed, 15 Jul 2026 19:04:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "검찰, '반도체 부품 담합' 몬타지 테크놀로지 등 3곳 압수수색",
       "link": "https://www.yna.co.kr/view/AKR20260715163500004",
       "source": "연합뉴스 경제",
@@ -145,14 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784083778000,
       "pub": "Wed, 15 Jul 2026 11:49:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, UAE에 AI반도체 수출통제 완화…\"이란 작전지원 대가\"",
-      "link": "https://www.yna.co.kr/view/AKR20260715082900009",
-      "source": "연합뉴스 국제",
-      "ts": 1784081579000,
-      "pub": "Wed, 15 Jul 2026 11:12:59 +0900",
       "sentiment": "neutral"
     }
   ]

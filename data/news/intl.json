@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-15T09:47:58.998Z",
+  "updated_at": "2026-07-15T11:20:04.223Z",
   "count": 29,
   "items": [
+    {
+      "title": "11살 소녀에 \"꺼져라\"…반우크라 정서 퍼지는 폴란드",
+      "link": "https://www.yna.co.kr/view/AKR20260715171500082",
+      "source": "연합뉴스 국제",
+      "ts": 1784109641000,
+      "pub": "Wed, 15 Jul 2026 19:00:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 가족기업에 30억 준 베이스그룹 '뇌물 논란'",
+      "link": "https://www.hankyung.com/article/2026071577441",
+      "source": "한국경제",
+      "ts": 1784107620000,
+      "pub": "Wed, 15 Jul 2026 18:27:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "워시, 인플레와 전쟁 선포…美 CPI 둔화에도 \"안심 못해\"",
+      "link": "https://www.hankyung.com/article/2026071576611",
+      "source": "한국경제",
+      "ts": 1784107335000,
+      "pub": "Wed, 15 Jul 2026 18:22:15 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이스라엘 당국자 \"네타냐후 18일 방미…트럼프와 회동은 불투명\"",
       "link": "https://www.yna.co.kr/view/AKR20260715167900079",
@@ -12,11 +36,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'핵시설' 의심하는 美, 이란 공습범위 넓히나…트럼프-참모진 회의",
-      "link": "https://www.mt.co.kr/world/2026/07/15/2026071517122232825",
-      "source": "머니투데이",
-      "ts": 1784105183000,
-      "pub": "Wed, 15 Jul 2026 17:46:23 +0900",
+      "title": "또 말 바꾼 트럼프 \"호르무즈 통행료 대신 중동 투자 받을 것\"",
+      "link": "https://www.hankyung.com/article/2026071576651",
+      "source": "한국경제",
+      "ts": 1784106823000,
+      "pub": "Wed, 15 Jul 2026 18:13:43 +0900",
       "sentiment": "neutral"
     },
     {
@@ -209,30 +233,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784058194000,
       "pub": "Wed, 15 Jul 2026 04:43:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "국제유가, 트럼프 통행료 번복에도 상승…브렌트 1.7%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260715006700072",
-      "source": "연합뉴스 국제",
-      "ts": 1784057767000,
-      "pub": "Wed, 15 Jul 2026 04:36:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 30년전 성추행 피해자에 80억원대 배상금 지급",
-      "link": "https://www.yna.co.kr/view/AKR20260715006100072",
-      "source": "연합뉴스 국제",
-      "ts": 1784055546000,
-      "pub": "Wed, 15 Jul 2026 03:59:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 네타냐후에 시리아·레바논서 군 철수하라 요구\"",
-      "link": "https://www.yna.co.kr/view/AKR20260715005800071",
-      "source": "연합뉴스 국제",
-      "ts": 1784055291000,
-      "pub": "Wed, 15 Jul 2026 03:54:51 +0900",
       "sentiment": "neutral"
     }
   ]

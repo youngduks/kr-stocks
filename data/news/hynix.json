@@ -1,8 +1,48 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-15T21:45:14.489Z",
-  "count": 12,
+  "updated_at": "2026-07-15T22:46:12.278Z",
+  "count": 16,
   "items": [
+    {
+      "title": "[적중! 대박 예감] '월덱스, 제주반도체' 내일장 예감 좋은 대박 종목은?",
+      "link": "https://www.mt.co.kr/stock/2026/07/16/2026071522137087035",
+      "source": "머니투데이",
+      "ts": 1784150131000,
+      "pub": "Thu, 16 Jul 2026 06:15:31 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"D램·낸드 이어 HBM까지… 삼성, 메모리 전분야 석권\"",
+      "link": "https://www.mt.co.kr/industry/2026/07/16/2026071519524572096",
+      "source": "머니투데이",
+      "ts": 1784142000000,
+      "pub": "Thu, 16 Jul 2026 04:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "메모리 부족 오래간다… 삼전닉스 고점 멀었다",
+      "link": "https://www.mt.co.kr/industry/2026/07/16/2026071519432465239",
+      "source": "머니투데이",
+      "ts": 1784142000000,
+      "pub": "Thu, 16 Jul 2026 04:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"반도체 초과이익, 기업 재투자에 활용\"",
+      "link": "https://www.mt.co.kr/economy/2026/07/16/2026071519500769227",
+      "source": "머니투데이",
+      "ts": 1784142000000,
+      "pub": "Thu, 16 Jul 2026 04:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "애플, 반도체 스타트업 인수 타진…\"엔비디아 칩 대체\"",
+      "link": "https://www.mt.co.kr/world/2026/07/16/2026071603423319294",
+      "source": "머니투데이",
+      "ts": 1784141202000,
+      "pub": "Thu, 16 Jul 2026 03:46:42 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "애플, AI 서버칩 경쟁력 위해 반도체기업 인수 타진",
       "link": "https://www.yna.co.kr/view/AKR20260716003600091",
@@ -89,14 +129,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784095136000,
       "pub": "Wed, 15 Jul 2026 14:58:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"코어위브, 메모리 가격하락 헤지에 금융상품 모색\"",
-      "link": "https://www.yna.co.kr/view/AKR20260715088000009",
-      "source": "연합뉴스 국제",
-      "ts": 1784083778000,
-      "pub": "Wed, 15 Jul 2026 11:49:38 +0900",
       "sentiment": "neutral"
     }
   ]

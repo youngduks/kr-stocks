@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-15T17:03:06.228Z",
-  "count": 29,
+  "updated_at": "2026-07-15T18:52:39.546Z",
+  "count": 27,
   "items": [
+    {
+      "title": "워시 美연준의장 \"트럼프에 독립성 갖겠다 반복해 말해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260716004900072",
+      "source": "연합뉴스 경제",
+      "ts": 1784139933000,
+      "pub": "Thu, 16 Jul 2026 03:25:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"난 트럼프 변호인\" 말실수…美 법무장관 후보, '예스맨' 혼쭐",
+      "link": "https://www.yna.co.kr/view/AKR20260716003500071",
+      "source": "연합뉴스 국제",
+      "ts": 1784139522000,
+      "pub": "Thu, 16 Jul 2026 03:18:42 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "러시아 보란 듯…EU·우크라, 드론 공동 생산한다(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260715162552098",
@@ -33,14 +49,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784129970000,
       "pub": "Thu, 16 Jul 2026 00:39:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "쿠팡 '트럼프 측근'에 25만달러…백악관·의회 전방위 로비",
-      "link": "https://www.mt.co.kr/world/2026/07/15/2026071523543529895",
-      "source": "머니투데이",
-      "ts": 1784127428000,
-      "pub": "Wed, 15 Jul 2026 23:57:08 +0900",
       "sentiment": "neutral"
     },
     {
@@ -84,14 +92,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "네타냐후 18일 방미…'이란전쟁 이견' 트럼프와 회담은 불확실",
-      "link": "https://www.mt.co.kr/world/2026/07/15/2026071520461018016",
-      "source": "머니투데이",
-      "ts": 1784117110000,
-      "pub": "Wed, 15 Jul 2026 21:05:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "프랑스, 우크라에 러 본토타격용 순항미사일 설계도 전달",
       "link": "https://www.yna.co.kr/view/AKR20260715178100009",
       "source": "연합뉴스 국제",
@@ -113,14 +113,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784106833000,
       "pub": "Wed, 15 Jul 2026 18:13:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'핵시설' 의심하는 美, 이란 공습범위 넓히나…트럼프-참모진 회의",
-      "link": "https://www.mt.co.kr/world/2026/07/15/2026071517122232825",
-      "source": "머니투데이",
-      "ts": 1784105183000,
-      "pub": "Wed, 15 Jul 2026 17:46:23 +0900",
       "sentiment": "neutral"
     },
     {
@@ -225,14 +217,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784078657000,
       "pub": "Wed, 15 Jul 2026 10:24:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"내주까지 합의안되면 이란 발전소 공격…두들겨 맞아야\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260715018552009",
-      "source": "연합뉴스 국제",
-      "ts": 1784076670000,
-      "pub": "Wed, 15 Jul 2026 09:51:10 +0900",
       "sentiment": "neutral"
     }
   ]

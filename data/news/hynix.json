@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-15T17:03:06.230Z",
-  "count": 16,
+  "updated_at": "2026-07-15T18:52:39.548Z",
+  "count": 13,
   "items": [
+    {
+      "title": "애플, AI 서버칩 경쟁력 위해 반도체기업 인수 타진",
+      "link": "https://www.yna.co.kr/view/AKR20260716003600091",
+      "source": "연합뉴스 국제",
+      "ts": 1784137749000,
+      "pub": "Thu, 16 Jul 2026 02:49:09 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "버핏 \"알파벳 투자, 내가 결정\"...반도체에 또 찬물 끼얹은 중국 [빈난새의 개장전요것만]",
       "link": "https://www.hankyung.com/article/202607167970i",
@@ -52,43 +60,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[급등수사본부] 반도체 자회사 가치 상승 모멘텀 'SK스퀘어' vs 현대차 등 5대 제조 대기업을 고객사로 확보 '마키나락스'",
-      "link": "https://www.mt.co.kr/stock/2026/07/15/2026071518087032512",
-      "source": "머니투데이",
-      "ts": 1784110084000,
-      "pub": "Wed, 15 Jul 2026 19:08:04 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\"하이닉스, 진짜 오긴 오나 봐\"…최태원 '광주 맛집' 팔로우에 들썩",
-      "link": "https://www.mt.co.kr/society/2026/07/15/2026071518003458358",
-      "source": "머니투데이",
-      "ts": 1784109849000,
-      "pub": "Wed, 15 Jul 2026 19:04:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼성이 돌아왔다\"…D램·낸드 이어 HBM도 '글로벌 1위' 전망",
-      "link": "https://www.mt.co.kr/industry/2026/07/15/2026071515184935358",
-      "source": "머니투데이",
-      "ts": 1784106000000,
-      "pub": "Wed, 15 Jul 2026 18:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "검찰, '반도체 부품 담합' 몬타지 테크놀로지 등 3곳 압수수색",
       "link": "https://www.yna.co.kr/view/AKR20260715163500004",
       "source": "연합뉴스 경제",
       "ts": 1784104626000,
       "pub": "Wed, 15 Jul 2026 17:37:06 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[뉴스프레소] 뉴욕증시, 물가 우려 완화에 상승… SK하이닉스ADR 27% 급반등",
-      "link": "https://www.mt.co.kr/world/2026/07/15/2026071511007037462",
-      "source": "머니투데이",
-      "ts": 1784103959000,
-      "pub": "Wed, 15 Jul 2026 17:25:59 +0900",
       "sentiment": "negative"
     },
     {

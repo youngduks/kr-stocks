@@ -1,47 +1,111 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-15T04:38:48.446Z",
-  "count": 5,
+  "updated_at": "2026-07-15T07:05:12.809Z",
+  "count": 13,
   "items": [
     {
-      "title": "\"이게 되네\" 엔비디아급 '대동단결'…국산 AI 반도체 '승부수'",
-      "link": "https://www.hankyung.com/article/202607156745g",
+      "title": "[특징주] 한미반도체, '2분기 역대 최대 매출' 소식에 상한가 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260715046151008",
+      "source": "연합뉴스 경제",
+      "ts": 1784097726000,
+      "pub": "Wed, 15 Jul 2026 15:42:06 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[단독] 프로브카드 품은 한솔테크닉스…\"반도체 소부장으로 변신\"",
+      "link": "https://www.hankyung.com/article/202607156818i",
       "source": "한국경제",
-      "ts": 1784089217000,
-      "pub": "Wed, 15 Jul 2026 13:20:17 +0900",
+      "ts": 1784096820000,
+      "pub": "Wed, 15 Jul 2026 15:27:00 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"월급 1700만원 드려요\"…파격 대우로 '반도체 인재' 잡는다",
-      "link": "https://www.hankyung.com/article/2026071564577",
+      "title": "개인 3.4조 몰린 반도체 ETF 1위…5개 종목 신규 편입",
+      "link": "https://www.hankyung.com/article/202607157092i",
       "source": "한국경제",
-      "ts": 1784084800000,
-      "pub": "Wed, 15 Jul 2026 12:06:40 +0900",
+      "ts": 1784096453000,
+      "pub": "Wed, 15 Jul 2026 15:20:53 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "한화시스템, 서울대·성균관대와 'K국방 반도체' 국산화 본격 시동",
-      "link": "https://www.mt.co.kr/industry/2026/07/15/2026071510312162279",
-      "source": "머니투데이",
-      "ts": 1784084759000,
-      "pub": "Wed, 15 Jul 2026 12:05:59 +0900",
+      "title": "SK에코플랜트, 반도체·AI 혁신기술 6건 선정…공동연구 모색",
+      "link": "https://www.yna.co.kr/view/AKR20260715123500003",
+      "source": "연합뉴스 경제",
+      "ts": 1784095136000,
+      "pub": "Wed, 15 Jul 2026 14:58:56 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "뉴욕증시 반도체 상승 훈풍에…닛케이 0.9%↑[Asia오전]",
-      "link": "https://www.mt.co.kr/world/2026/07/15/2026071511401640770",
-      "source": "머니투데이",
-      "ts": 1784083856000,
-      "pub": "Wed, 15 Jul 2026 11:50:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자는 사고, SK하이닉스는 팔고…엇갈린 초고수의 선택",
-      "link": "https://www.hankyung.com/article/202607156343i",
+      "title": "반도체 공장 규제 완화된다…층간 방화구역 기준 '손질'",
+      "link": "https://www.hankyung.com/article/202607156888i",
       "source": "한국경제",
-      "ts": 1784081117000,
-      "pub": "Wed, 15 Jul 2026 11:05:17 +0900",
+      "ts": 1784091842000,
+      "pub": "Wed, 15 Jul 2026 14:04:02 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "\"코어위브, 메모리 가격하락 헤지에 금융상품 모색\"",
+      "link": "https://www.yna.co.kr/view/AKR20260715088000009",
+      "source": "연합뉴스 국제",
+      "ts": 1784083778000,
+      "pub": "Wed, 15 Jul 2026 11:49:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美, UAE에 AI반도체 수출통제 완화…\"이란 작전지원 대가\"",
+      "link": "https://www.yna.co.kr/view/AKR20260715082900009",
+      "source": "연합뉴스 국제",
+      "ts": 1784081579000,
+      "pub": "Wed, 15 Jul 2026 11:12:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체공장 스프링클러 설치시 층간 방화구획 설치의무 완화",
+      "link": "https://www.yna.co.kr/view/AKR20260715035300003",
+      "source": "연합뉴스 경제",
+      "ts": 1784080802000,
+      "pub": "Wed, 15 Jul 2026 11:00:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"엔비디아 H200 중국 출하 시작\"…주가 4% ↑",
+      "link": "https://www.yna.co.kr/view/AKR20260715016800009",
+      "source": "연합뉴스 국제",
+      "ts": 1784068769000,
+      "pub": "Wed, 15 Jul 2026 07:39:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "바클레이스 \"SK하이닉스 ADR 2배로 상승 여력\"…주가 27% 급등(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260715007951072",
+      "source": "연합뉴스 국제",
+      "ts": 1784066256000,
+      "pub": "Wed, 15 Jul 2026 06:57:36 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "뉴욕증시, 물가우려 완화 속 반도체 랠리 재개…나스닥 1%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260715008451072",
+      "source": "연합뉴스 국제",
+      "ts": 1784061958000,
+      "pub": "Wed, 15 Jul 2026 05:45:58 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "뉴욕증시, 물가우려 완화 속 반도체 랠리 재개…나스닥 1%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260715008400072",
+      "source": "연합뉴스 국제",
+      "ts": 1784059850000,
+      "pub": "Wed, 15 Jul 2026 05:10:50 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "바클레이스 \"SK하이닉스 ADR 2배로 상승 여력\"…주가 20%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20260715007900072",
+      "source": "연합뉴스 국제",
+      "ts": 1784058990000,
+      "pub": "Wed, 15 Jul 2026 04:56:30 +0900",
+      "sentiment": "positive"
     }
   ]
 }

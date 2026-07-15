@@ -1,55 +1,47 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-15T04:38:48.446Z",
-  "count": 6,
+  "updated_at": "2026-07-15T07:05:12.808Z",
+  "count": 5,
   "items": [
     {
-      "title": "李, '삼전닉스' 레버리지 ETF에 \"보완대책 신속히 마련하라\"",
-      "link": "https://www.hankyung.com/article/2026071567306",
+      "title": "한국ESG평가원 'ESG경영 최우수 기업'에 삼성전자 등 5개사 선정",
+      "link": "https://www.yna.co.kr/view/AKR20260715114200002",
+      "source": "연합뉴스 경제",
+      "ts": 1784093177000,
+      "pub": "Wed, 15 Jul 2026 14:26:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "클래시스, 삼성전자 부사장 출신 윤준오 새 CEO로 선임",
+      "link": "https://www.hankyung.com/article/202607156918i",
       "source": "한국경제",
-      "ts": 1784088754000,
-      "pub": "Wed, 15 Jul 2026 13:12:34 +0900",
+      "ts": 1784092893000,
+      "pub": "Wed, 15 Jul 2026 14:21:33 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[부고] 강다영씨(삼성전자 부장) 모친상",
-      "link": "https://www.mt.co.kr/society/2026/07/15/2026071512523040459",
-      "source": "머니투데이",
-      "ts": 1784087693000,
-      "pub": "Wed, 15 Jul 2026 12:54:53 +0900",
+      "title": "삼전·하닉 등 자금에…5월 통화량 32조↑, 9개월만에 최대폭",
+      "link": "https://www.yna.co.kr/view/AKR20260715071300002",
+      "source": "연합뉴스 경제",
+      "ts": 1784084401000,
+      "pub": "Wed, 15 Jul 2026 12:00:01 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "李 '삼전닉스 레버리지' 보완책 지시…금감원장 \"책임 있다\"",
-      "link": "https://www.hankyung.com/article/202607156702i",
-      "source": "한국경제",
-      "ts": 1784086119000,
-      "pub": "Wed, 15 Jul 2026 12:28:39 +0900",
+      "title": "\"코어위브, 메모리 가격하락 헤지에 금융상품 모색\"",
+      "link": "https://www.yna.co.kr/view/AKR20260715088000009",
+      "source": "연합뉴스 국제",
+      "ts": 1784083778000,
+      "pub": "Wed, 15 Jul 2026 11:49:38 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "사내대출은 못해도 성과급은 DSR로 규제한다..삼전닉스 겨냥?",
-      "link": "https://www.mt.co.kr/finance/2026/07/15/2026071509091589015",
-      "source": "머니투데이",
-      "ts": 1784082480000,
-      "pub": "Wed, 15 Jul 2026 11:28:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"다음 접속만 해도 삼전 주가 뉴스 배달\"…다음이 꿈꾸는 AI 에이전트",
-      "link": "https://www.mt.co.kr/tech/2026/07/15/2026071510561251427",
-      "source": "머니투데이",
-      "ts": 1784081727000,
-      "pub": "Wed, 15 Jul 2026 11:15:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자는 사고, SK하이닉스는 팔고…엇갈린 초고수의 선택",
-      "link": "https://www.hankyung.com/article/202607156343i",
-      "source": "한국경제",
-      "ts": 1784081117000,
-      "pub": "Wed, 15 Jul 2026 11:05:17 +0900",
-      "sentiment": "neutral"
+      "title": "코스피, 삼전닉스 강한 반등에 6∼7% 상승세…7,300선 등락",
+      "link": "https://www.yna.co.kr/view/AKR20260715087900008",
+      "source": "연합뉴스 경제",
+      "ts": 1784082755000,
+      "pub": "Wed, 15 Jul 2026 11:32:35 +0900",
+      "sentiment": "positive"
     }
   ]
 }

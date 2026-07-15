@@ -1,6 +1,279 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-15T04:38:48.444Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-07-15T07:05:12.807Z",
+  "count": 34,
+  "items": [
+    {
+      "title": "트럼프, 호르무즈 넘어 이란 공격하나…\"다음주 모든 발전소 파괴\"",
+      "link": "https://www.hankyung.com/article/2026071571187",
+      "source": "한국경제",
+      "ts": 1784097324000,
+      "pub": "Wed, 15 Jul 2026 15:35:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"美 무역분쟁 韓 기업, 트럼프 가족기업에 30억원 건넸다\"",
+      "link": "https://www.hankyung.com/article/202607157034i",
+      "source": "한국경제",
+      "ts": 1784096595000,
+      "pub": "Wed, 15 Jul 2026 15:23:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 호르무즈 넘어 대규모 이란 공격 논의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260715120200009",
+      "source": "연합뉴스 국제",
+      "ts": 1784095957000,
+      "pub": "Wed, 15 Jul 2026 15:12:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 수상드론 맹활약…푸틴 별장 인근 러 경비정 격침",
+      "link": "https://www.yna.co.kr/view/AKR20260715121900009",
+      "source": "연합뉴스 국제",
+      "ts": 1784095369000,
+      "pub": "Wed, 15 Jul 2026 15:02:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Fed 금리 인상 멀어지자…한은 '백투백' 인상론도 후퇴하나 [심성미의 중앙은행 워치]",
+      "link": "https://www.hankyung.com/article/202607156382i",
+      "source": "한국경제",
+      "ts": 1784093580000,
+      "pub": "Wed, 15 Jul 2026 14:33:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[쇼츠] 美방공체계 제치고 우크라?…유럽 '미사일 방어 연합' 탄생",
+      "link": "https://www.yna.co.kr/view/AKR20260715098900704",
+      "source": "연합뉴스 국제",
+      "ts": 1784091736000,
+      "pub": "Wed, 15 Jul 2026 14:02:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 유럽 9개국, 우크라와 손잡았다…'탄도미사일 방어 연합' 창설",
+      "link": "https://www.yna.co.kr/view/AKR20260715088200704",
+      "source": "연합뉴스 국제",
+      "ts": 1784083710000,
+      "pub": "Wed, 15 Jul 2026 11:48:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 봉쇄 재개한 트럼프…물밑대화에도 '민간인프라 공격' 위협",
+      "link": "https://www.yna.co.kr/view/AKR20260715090300009",
+      "source": "연합뉴스 국제",
+      "ts": 1784083605000,
+      "pub": "Wed, 15 Jul 2026 11:46:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美민주, 상원서 국방수권법안 저지…전쟁 재개한 트럼프 견제",
+      "link": "https://www.yna.co.kr/view/AKR20260715086300009",
+      "source": "연합뉴스 국제",
+      "ts": 1784082614000,
+      "pub": "Wed, 15 Jul 2026 11:30:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美, UAE에 AI반도체 수출통제 완화…\"이란 작전지원 대가\"",
+      "link": "https://www.yna.co.kr/view/AKR20260715082900009",
+      "source": "연합뉴스 국제",
+      "ts": 1784081579000,
+      "pub": "Wed, 15 Jul 2026 11:12:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "백악관 '골드 이글' 출범…사이버 보안 민관협력 허브",
+      "link": "https://www.yna.co.kr/view/AKR20260715067600009",
+      "source": "연합뉴스 국제",
+      "ts": 1784080924000,
+      "pub": "Wed, 15 Jul 2026 11:02:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[인사] 관세청",
+      "link": "https://www.yna.co.kr/view/AKR20260715072900002",
+      "source": "연합뉴스 경제",
+      "ts": 1784079446000,
+      "pub": "Wed, 15 Jul 2026 10:37:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "인도, 美관세 낮추려 '강제노동 반영 제품' 수입 금지",
+      "link": "https://www.yna.co.kr/view/AKR20260715067100009",
+      "source": "연합뉴스 국제",
+      "ts": 1784078657000,
+      "pub": "Wed, 15 Jul 2026 10:24:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"내주까지 합의안되면 이란 발전소 공격…두들겨 맞아야\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260715018552009",
+      "source": "연합뉴스 국제",
+      "ts": 1784076670000,
+      "pub": "Wed, 15 Jul 2026 09:51:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 측근 그레이엄 돌연사에 온라인서 독살설 등 음모론 난무",
+      "link": "https://www.yna.co.kr/view/AKR20260715046300009",
+      "source": "연합뉴스 국제",
+      "ts": 1784076140000,
+      "pub": "Wed, 15 Jul 2026 09:42:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 '호르무즈 보호비' 돌발선언에 참모진도 '화들짝'",
+      "link": "https://www.yna.co.kr/view/AKR20260715045200009",
+      "source": "연합뉴스 국제",
+      "ts": 1784075075000,
+      "pub": "Wed, 15 Jul 2026 09:24:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美상원, 중국 등 러시아 원유 구매국에 최대 100% 관세 추진",
+      "link": "https://www.yna.co.kr/view/AKR20260715037300009",
+      "source": "연합뉴스 국제",
+      "ts": 1784074715000,
+      "pub": "Wed, 15 Jul 2026 09:18:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 유타 국립보호지역 대폭 축소…원주민·환경단체 반발",
+      "link": "https://www.yna.co.kr/view/AKR20260715014300075",
+      "source": "연합뉴스 국제",
+      "ts": 1784069530000,
+      "pub": "Wed, 15 Jul 2026 07:52:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 대화했다…내주까지 합의 안되면 발전소 공격\"",
+      "link": "https://www.yna.co.kr/view/AKR20260715018551009",
+      "source": "연합뉴스 국제",
+      "ts": 1784068977000,
+      "pub": "Wed, 15 Jul 2026 07:42:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"이란과 대화했다…내주까지 합의 안되면 발전소 공격\"",
+      "link": "https://www.yna.co.kr/view/AKR20260715018500009",
+      "source": "연합뉴스 국제",
+      "ts": 1784067832000,
+      "pub": "Wed, 15 Jul 2026 07:23:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "NYT \"美와 무역분쟁 韓기업, 트럼프 가족기업에 30억원 건네\"",
+      "link": "https://www.yna.co.kr/view/AKR20260715014200071",
+      "source": "연합뉴스 국제",
+      "ts": 1784066604000,
+      "pub": "Wed, 15 Jul 2026 07:03:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美연준의장 \"높은 인플레 불용\"…CPI 둔화에도 \"임무완수 아냐\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260714183553071",
+      "source": "연합뉴스 국제",
+      "ts": 1784063941000,
+      "pub": "Wed, 15 Jul 2026 06:19:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "워시 의장 \"높은 인플레 용납 않겠다\"…연준 독립성 거듭 강조(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260714183552071",
+      "source": "연합뉴스 국제",
+      "ts": 1784058883000,
+      "pub": "Wed, 15 Jul 2026 04:54:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 모레 대국민연설서 \"선거·투표기기 내용 다룰 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260715006600071",
+      "source": "연합뉴스 국제",
+      "ts": 1784058194000,
+      "pub": "Wed, 15 Jul 2026 04:43:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "국제유가, 트럼프 통행료 번복에도 상승…브렌트 1.7%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260715006700072",
+      "source": "연합뉴스 국제",
+      "ts": 1784057767000,
+      "pub": "Wed, 15 Jul 2026 04:36:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 30년전 성추행 피해자에 80억원대 배상금 지급",
+      "link": "https://www.yna.co.kr/view/AKR20260715006100072",
+      "source": "연합뉴스 국제",
+      "ts": 1784055546000,
+      "pub": "Wed, 15 Jul 2026 03:59:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 네타냐후에 시리아·레바논서 군 철수하라 요구\"",
+      "link": "https://www.yna.co.kr/view/AKR20260715005800071",
+      "source": "연합뉴스 국제",
+      "ts": 1784055291000,
+      "pub": "Wed, 15 Jul 2026 03:54:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 통행료 번복 이유에 \"중동 동맹국이 해결해달라 전화\"",
+      "link": "https://www.yna.co.kr/view/AKR20260715004300071",
+      "source": "연합뉴스 국제",
+      "ts": 1784050254000,
+      "pub": "Wed, 15 Jul 2026 02:30:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "워시 의장 \"높은 인플레 용납 않겠다\"…연준 독립성 거듭 강조(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260714183551071",
+      "source": "연합뉴스 국제",
+      "ts": 1784045816000,
+      "pub": "Wed, 15 Jul 2026 01:16:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 의회, '초정통파 병역 기피자 체포 금지법' 가결",
+      "link": "https://www.yna.co.kr/view/AKR20260715002800079",
+      "source": "연합뉴스 국제",
+      "ts": 1784045550000,
+      "pub": "Wed, 15 Jul 2026 01:12:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 통행료 20% 하루만에 번복…\"중동 투자협정으로 대체\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260715001051071",
+      "source": "연합뉴스 국제",
+      "ts": 1784043690000,
+      "pub": "Wed, 15 Jul 2026 00:41:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 통행료 20% 하루만에 번복…\"중동과 투자협정으로 대체\"",
+      "link": "https://www.yna.co.kr/view/AKR20260715001000071",
+      "source": "연합뉴스 국제",
+      "ts": 1784042855000,
+      "pub": "Wed, 15 Jul 2026 00:27:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘·레바논, 국경 충돌 종식 협상…헤즈볼라가 변수",
+      "link": "https://www.yna.co.kr/view/AKR20260714187700109",
+      "source": "연합뉴스 국제",
+      "ts": 1784042587000,
+      "pub": "Wed, 15 Jul 2026 00:23:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"통행료 20%, 중동국과의 무역·투자협정으로 대체\"",
+      "link": "https://www.yna.co.kr/view/AKR20260715000600071",
+      "source": "연합뉴스 국제",
+      "ts": 1784041714000,
+      "pub": "Wed, 15 Jul 2026 00:08:34 +0900",
+      "sentiment": "neutral"
+    }
+  ]
 }

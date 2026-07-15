@@ -1,6 +1,23 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-15T04:38:48.446Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-07-15T07:05:12.809Z",
+  "count": 2,
+  "items": [
+    {
+      "title": "\"현대차, 구내식당 근무자와 교섭해야\"…대리점 영업사원은 제외",
+      "link": "https://www.yna.co.kr/view/AKR20260715064600057",
+      "source": "연합뉴스 경제",
+      "ts": 1784078910000,
+      "pub": "Wed, 15 Jul 2026 10:28:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"미국 SK온·현대차 합작 공장, 전기차 배터리 양산 돌입\"",
+      "link": "https://www.yna.co.kr/view/AKR20260715017100009",
+      "source": "연합뉴스 국제",
+      "ts": 1784068340000,
+      "pub": "Wed, 15 Jul 2026 07:32:20 +0900",
+      "sentiment": "neutral"
+    }
+  ]
 }

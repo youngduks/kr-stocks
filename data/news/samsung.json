@@ -1,22 +1,38 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-16T04:48:55.588Z",
-  "count": 2,
+  "updated_at": "2026-07-16T07:13:50.816Z",
+  "count": 4,
   "items": [
     {
-      "title": "\"삼전닉스 대신 자동차·화장품\"…조정장 돌파할 '바벨 전략' 주목",
-      "link": "https://www.hankyung.com/article/202607169243i",
-      "source": "한국경제",
-      "ts": 1784174037000,
-      "pub": "Thu, 16 Jul 2026 12:53:57 +0900",
-      "sentiment": "positive"
+      "title": "반도체 또 출렁…삼전 8.8%·하닉 11.5% 급락 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260716048351008",
+      "source": "연합뉴스 경제",
+      "ts": 1784185509000,
+      "pub": "Thu, 16 Jul 2026 16:05:09 +0900",
+      "sentiment": "negative"
     },
     {
-      "title": "'-11%' 하닉 팔고, '-8%' 삼전 샀다...엇갈린 초고수의 선택",
-      "link": "https://www.hankyung.com/article/202607168825i",
+      "title": "창신메모리·유니트리, 역대급 IPO 줄줄이…中 증시 관심 '쑥'",
+      "link": "https://www.hankyung.com/article/202607169363i",
       "source": "한국경제",
-      "ts": 1784169092000,
-      "pub": "Thu, 16 Jul 2026 11:31:32 +0900",
+      "ts": 1784181872000,
+      "pub": "Thu, 16 Jul 2026 15:04:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자·SK하닉도 '초긴장'…'몸값 120조' 中 괴물 온다",
+      "link": "https://www.hankyung.com/article/202607169432g",
+      "source": "한국경제",
+      "ts": 1784180103000,
+      "pub": "Thu, 16 Jul 2026 14:35:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "노동부, 청년 일경험 민관협의회…삼성전자·SK하이닉스 등 참여",
+      "link": "https://www.yna.co.kr/view/AKR20260716064800530",
+      "source": "연합뉴스 경제",
+      "ts": 1784178026000,
+      "pub": "Thu, 16 Jul 2026 14:00:26 +0900",
       "sentiment": "neutral"
     }
   ]

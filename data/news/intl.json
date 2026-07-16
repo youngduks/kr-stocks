@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-16T04:48:55.587Z",
-  "count": 25,
+  "updated_at": "2026-07-16T07:13:50.815Z",
+  "count": 24,
   "items": [
+    {
+      "title": "지원중단 부결됐지만…美정치권 '이스라엘 무조건 지지' 균열",
+      "link": "https://www.yna.co.kr/view/AKR20260716152800009",
+      "source": "연합뉴스 국제",
+      "ts": 1784184473000,
+      "pub": "Thu, 16 Jul 2026 15:47:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 대국민 연설 '2020년 美대선에 中 개입' 입여나",
+      "link": "https://www.yna.co.kr/view/AKR20260716145600009",
+      "source": "연합뉴스 국제",
+      "ts": 1784183912000,
+      "pub": "Thu, 16 Jul 2026 15:38:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美, 브라질산 수입품에 25% 관세…무역법 301조 근거로 부과",
+      "link": "https://www.yna.co.kr/view/AKR20260716135300009",
+      "source": "연합뉴스 국제",
+      "ts": 1784181578000,
+      "pub": "Thu, 16 Jul 2026 14:59:38 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "호르무즈처럼 러 아조우해 봉쇄한 우크라…곡물 수출길도 막혀",
       "link": "https://www.yna.co.kr/view/AKR20260716099600009",
@@ -41,14 +65,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784163739000,
       "pub": "Thu, 16 Jul 2026 10:02:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 조선주, 트럼프 '한국 조선기업 살펴본다' 발언에 장초반 강세",
-      "link": "https://www.yna.co.kr/view/AKR20260716045100008",
-      "source": "연합뉴스 경제",
-      "ts": 1784161513000,
-      "pub": "Thu, 16 Jul 2026 09:25:13 +0900",
       "sentiment": "neutral"
     },
     {
@@ -177,30 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784123237000,
       "pub": "Wed, 15 Jul 2026 22:47:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러시아 보란 듯…EU·우크라, 드론 공동 생산한다(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260715162551098",
-      "source": "연합뉴스 국제",
-      "ts": 1784121886000,
-      "pub": "Wed, 15 Jul 2026 22:24:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러·우크라, 흑해·아조우해 공방…곡물값 비상",
-      "link": "https://www.yna.co.kr/view/AKR20260715180700109",
-      "source": "연합뉴스 국제",
-      "ts": 1784120464000,
-      "pub": "Wed, 15 Jul 2026 22:01:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "프랑스, 우크라에 러 본토타격용 순항미사일 설계도 전달",
-      "link": "https://www.yna.co.kr/view/AKR20260715178100009",
-      "source": "연합뉴스 국제",
-      "ts": 1784116046000,
-      "pub": "Wed, 15 Jul 2026 20:47:26 +0900",
       "sentiment": "neutral"
     }
   ]

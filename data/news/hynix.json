@@ -1,8 +1,80 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-16T04:48:55.589Z",
-  "count": 15,
+  "updated_at": "2026-07-16T07:13:50.817Z",
+  "count": 17,
   "items": [
+    {
+      "title": "반도체 또 출렁…삼전 8.8%·하닉 11.5% 급락 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260716048351008",
+      "source": "연합뉴스 경제",
+      "ts": 1784185509000,
+      "pub": "Thu, 16 Jul 2026 16:05:09 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "TSMC 2분기 순이익 사상 최대…전년 동기 대비 77% 급증",
+      "link": "https://www.yna.co.kr/view/AKR20260716145100083",
+      "source": "연합뉴스 국제",
+      "ts": 1784182971000,
+      "pub": "Thu, 16 Jul 2026 15:22:51 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "원주시 반도체 인재 양성 '결실'…수료생 2년 연속 전원 취업",
+      "link": "https://www.yna.co.kr/view/AKR20260716145500062",
+      "source": "연합뉴스 경제",
+      "ts": 1784182864000,
+      "pub": "Thu, 16 Jul 2026 15:21:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "창신메모리·유니트리, 역대급 IPO 줄줄이…中 증시 관심 '쑥'",
+      "link": "https://www.hankyung.com/article/202607169363i",
+      "source": "한국경제",
+      "ts": 1784181872000,
+      "pub": "Thu, 16 Jul 2026 15:04:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "LH, 용인 반도체 국가산단 1조860억 발주…연말 착공까지",
+      "link": "https://www.hankyung.com/article/202607169552i",
+      "source": "한국경제",
+      "ts": 1784180279000,
+      "pub": "Thu, 16 Jul 2026 14:37:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "백준호 대표 \"에너지 덜 쓰는 AI 반도체가 핵심 기술 될 것\"",
+      "link": "https://www.hankyung.com/article/202607169458i",
+      "source": "한국경제",
+      "ts": 1784179563000,
+      "pub": "Thu, 16 Jul 2026 14:26:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "노동부, 청년 일경험 민관협의회…삼성전자·SK하이닉스 등 참여",
+      "link": "https://www.yna.co.kr/view/AKR20260716064800530",
+      "source": "연합뉴스 경제",
+      "ts": 1784178026000,
+      "pub": "Thu, 16 Jul 2026 14:00:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "꺼지지 않는 경기남부 반도체 벨트 아파트값…동탄 0.73%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260716091300003",
+      "source": "연합뉴스 경제",
+      "ts": 1784178024000,
+      "pub": "Thu, 16 Jul 2026 14:00:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "최태원 \"하이닉스 인수 결단 옳았다…ADR 상장으로 새 장\"",
+      "link": "https://www.hankyung.com/article/2026071693447",
+      "source": "한국경제",
+      "ts": 1784176915000,
+      "pub": "Thu, 16 Jul 2026 13:41:55 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "중기부, 사우디와 AI·반도체 투자 공동펀드 조성 논의",
       "link": "https://www.yna.co.kr/view/AKR20260716076200030",
@@ -17,22 +89,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784172465000,
       "pub": "Thu, 16 Jul 2026 12:27:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "김정관 \"반도체 호황 영원할 수 없어…미래 투자 속도 내야\"",
-      "link": "https://www.hankyung.com/article/202607168317i",
-      "source": "한국경제",
-      "ts": 1784171199000,
-      "pub": "Thu, 16 Jul 2026 12:06:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 한은 총재 \"반도체 가격 주시…韓경제 미래에 시사점 많아\"",
-      "link": "https://www.hankyung.com/article/2026071691997",
-      "source": "한국경제",
-      "ts": 1784170627000,
-      "pub": "Thu, 16 Jul 2026 11:57:07 +0900",
       "sentiment": "neutral"
     },
     {
@@ -76,51 +132,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"하반기 IT 중심 수출 증가세 계속…반도체 연 4천억달러 전망\"",
-      "link": "https://www.yna.co.kr/view/AKR20260716056300003",
-      "source": "연합뉴스 경제",
-      "ts": 1784163650000,
-      "pub": "Thu, 16 Jul 2026 10:00:50 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "산업장관 \"반도체 말고는 어려워…AI·지방·생태계가 승부처\"",
-      "link": "https://www.yna.co.kr/view/AKR20260716055000003",
-      "source": "연합뉴스 경제",
-      "ts": 1784163389000,
-      "pub": "Thu, 16 Jul 2026 09:56:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피 '투톱' 또 출렁…美반도체 약세에 7% 이상 급락중",
-      "link": "https://www.yna.co.kr/view/AKR20260716048300008",
-      "source": "연합뉴스 경제",
-      "ts": 1784163079000,
-      "pub": "Thu, 16 Jul 2026 09:51:19 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "코스피, 美반도체 약세로 5~6%대 급락…또 7,000선 아래로(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260716052000008",
-      "source": "연합뉴스 경제",
-      "ts": 1784162944000,
-      "pub": "Thu, 16 Jul 2026 09:49:04 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "애플, AI 서버칩 경쟁력 위해 반도체기업 인수 타진",
       "link": "https://www.yna.co.kr/view/AKR20260716003600091",
       "source": "연합뉴스 국제",
       "ts": 1784137749000,
       "pub": "Thu, 16 Jul 2026 02:49:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젠슨황 \"SK하이닉스 ADR, 믿을 수 없을정도로 성공적…기쁘다\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260715175251073",
-      "source": "연합뉴스 국제",
-      "ts": 1784116946000,
-      "pub": "Wed, 15 Jul 2026 21:02:26 +0900",
       "sentiment": "neutral"
     }
   ]

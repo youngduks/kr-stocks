@@ -1,14 +1,46 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-16T13:15:26.757Z",
-  "count": 22,
+  "updated_at": "2026-07-16T15:24:26.915Z",
+  "count": 25,
   "items": [
     {
-      "title": "트럼프 대통령 \"이란, 억류 미국인 석방…선의의 제스쳐\"",
-      "link": "https://www.mt.co.kr/world/2026/07/16/2026071621141179460",
-      "source": "머니투데이",
-      "ts": 1784204827000,
-      "pub": "Thu, 16 Jul 2026 21:27:07 +0900",
+      "title": "트럼프 행정부, 유학생 비자 4년 제한…\"120만명 영향\" 파장(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260716213251071",
+      "source": "연합뉴스 국제",
+      "ts": 1784214277000,
+      "pub": "Fri, 17 Jul 2026 00:04:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 행정부, 외국인 유학생 비자 4년으로 제한",
+      "link": "https://www.hankyung.com/article/2026071605127",
+      "source": "한국경제",
+      "ts": 1784211460000,
+      "pub": "Thu, 16 Jul 2026 23:17:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 새 전시 내각 출범…'드론전 주도' 국방장관 거취 주목",
+      "link": "https://www.yna.co.kr/view/AKR20260716213700109",
+      "source": "연합뉴스 국제",
+      "ts": 1784210273000,
+      "pub": "Thu, 16 Jul 2026 22:57:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 행정부, 외국학생 비자 4년으로 제한…최종 규정 발표",
+      "link": "https://www.yna.co.kr/view/AKR20260716213200071",
+      "source": "연합뉴스 국제",
+      "ts": 1784209014000,
+      "pub": "Thu, 16 Jul 2026 22:36:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "드론전 이끈 35세 우크라 국방장관 교체 논란…전시중 반대시위도(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260716176351109",
+      "source": "연합뉴스 국제",
+      "ts": 1784208440000,
+      "pub": "Thu, 16 Jul 2026 22:27:20 +0900",
       "sentiment": "neutral"
     },
     {
@@ -169,14 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784155093000,
       "pub": "Thu, 16 Jul 2026 07:38:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "상하이서 세계인공지능대회 17일 개막…미중경쟁 속 AI자립 과시",
-      "link": "https://www.yna.co.kr/view/AKR20260715153200089",
-      "source": "연합뉴스 국제",
-      "ts": 1784152804000,
-      "pub": "Thu, 16 Jul 2026 07:00:04 +0900",
       "sentiment": "neutral"
     }
   ]

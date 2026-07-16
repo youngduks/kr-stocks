@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-16T13:15:26.758Z",
-  "count": 16,
+  "updated_at": "2026-07-16T15:24:26.916Z",
+  "count": 17,
   "items": [
+    {
+      "title": "뉴욕증시, 반도체주 약세에 하락 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260716214400009",
+      "source": "연합뉴스 국제",
+      "ts": 1784210987000,
+      "pub": "Thu, 16 Jul 2026 23:09:47 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'420만원 vs 185만원'…SK하이닉스 '극과 극' 전망 이유 있었다 [종목+]",
+      "link": "https://www.hankyung.com/article/2026071692556",
+      "source": "한국경제",
+      "ts": 1784206802000,
+      "pub": "Thu, 16 Jul 2026 22:00:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "日정부, 엔비디아 루빈 2만7천장 확보…'피지컬AI' 선점 나선다(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260716130751073",
@@ -26,14 +42,6 @@
       "ts": 1784194754000,
       "pub": "Thu, 16 Jul 2026 18:39:14 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "메모리 휘청이자 코스피 '뚝'…7천피, 하루 만에 무너졌다",
-      "link": "https://www.hankyung.com/article/2026071602101",
-      "source": "한국경제",
-      "ts": 1784194400000,
-      "pub": "Thu, 16 Jul 2026 18:33:20 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "해상풍력 인프라 항만에 구축…호남 반도체 클러스터 지원",

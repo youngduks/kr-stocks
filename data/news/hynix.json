@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-16T19:54:50.899Z",
-  "count": 18,
+  "updated_at": "2026-07-16T20:43:48.866Z",
+  "count": 19,
   "items": [
+    {
+      "title": "뉴욕증시, AI 반도체주 매도에 하락…나스닥 1.5%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260717006700072",
+      "source": "연합뉴스 국제",
+      "ts": 1784232702000,
+      "pub": "Fri, 17 Jul 2026 05:11:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "마이크론, 현대모비스 등과 車반도체 장기공급 계약",
+      "link": "https://www.mt.co.kr/world/2026/07/17/2026071704111540484",
+      "source": "머니투데이",
+      "ts": 1784229266000,
+      "pub": "Fri, 17 Jul 2026 04:14:26 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "마이크론, 퀄컴·현대모비스와 차량용 메모리 공급 장기계약",
       "link": "https://www.yna.co.kr/view/AKR20260717003700091",
@@ -137,14 +153,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784165211000,
       "pub": "Thu, 16 Jul 2026 10:26:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "중국 CXMT 역대급 IPO…공모 규모 최대 15조원",
-      "link": "https://www.yna.co.kr/view/AKR20260716020500009",
-      "source": "연합뉴스 국제",
-      "ts": 1784164970000,
-      "pub": "Thu, 16 Jul 2026 10:22:50 +0900",
       "sentiment": "neutral"
     }
   ]

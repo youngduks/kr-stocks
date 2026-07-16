@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-16T22:46:13.295Z",
-  "count": 19,
+  "updated_at": "2026-07-16T23:47:03.481Z",
+  "count": 21,
   "items": [
+    {
+      "title": "TSMC 끝내줬지만, 반도체 4.3% 급락…스페이스X의 경착륙 [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202607170670i",
+      "source": "한국경제",
+      "ts": 1784243503000,
+      "pub": "Fri, 17 Jul 2026 08:11:43 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "투자 인플루언서 된 반도체 엔지니어 \"기술보다 병목 읽어야\"",
+      "link": "https://www.hankyung.com/article/2026071601511",
+      "source": "한국경제",
+      "ts": 1784242810000,
+      "pub": "Fri, 17 Jul 2026 08:00:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "마이크론·현대모비스·퀄컴 '부품 동맹' 맺었다…장기 계약 체결",
+      "link": "https://www.hankyung.com/article/2026071706567",
+      "source": "한국경제",
+      "ts": 1784241902000,
+      "pub": "Fri, 17 Jul 2026 07:45:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[마켓人] 여의도 '반도체 고수'…27년 경력 이승우 유진투자증권 센터장",
       "link": "https://www.yna.co.kr/view/AKR20260715170500008",
@@ -26,14 +50,6 @@
       "ts": 1784235836000,
       "pub": "Fri, 17 Jul 2026 06:03:56 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "\"SK하이닉스 본주 韓증시에 있는데\"…ADR 프리미엄 굳어지나 [노정동의 어쩌다 투자자]",
-      "link": "https://www.hankyung.com/article/2026071603056",
-      "source": "한국경제",
-      "ts": 1784235627000,
-      "pub": "Fri, 17 Jul 2026 06:00:27 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "뉴욕증시, AI 반도체주 매도에 하락…나스닥 1.5%↓",

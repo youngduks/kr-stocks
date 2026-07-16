@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-16T11:25:25.838Z",
-  "count": 21,
+  "updated_at": "2026-07-16T13:15:26.757Z",
+  "count": 22,
   "items": [
+    {
+      "title": "트럼프 대통령 \"이란, 억류 미국인 석방…선의의 제스쳐\"",
+      "link": "https://www.mt.co.kr/world/2026/07/16/2026071621141179460",
+      "source": "머니투데이",
+      "ts": 1784204827000,
+      "pub": "Thu, 16 Jul 2026 21:27:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란, 억류 미국인 출국 허용…선의의 제스처에 감사\"",
+      "link": "https://www.hankyung.com/article/2026071604537",
+      "source": "한국경제",
+      "ts": 1784204538000,
+      "pub": "Thu, 16 Jul 2026 21:22:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라전 불똥 튈까…튀르키예 \"흑해로 확전 원치 않아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260716206900108",
+      "source": "연합뉴스 국제",
+      "ts": 1784203004000,
+      "pub": "Thu, 16 Jul 2026 20:56:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '이란 억류' 미국인 출국 허용에 \"선의의 제스처\"",
+      "link": "https://www.yna.co.kr/view/AKR20260716206000009",
+      "source": "연합뉴스 국제",
+      "ts": 1784201556000,
+      "pub": "Thu, 16 Jul 2026 20:32:36 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 vs BBC 15조원 소송…\"미국 정부도 참여 검토\"",
       "link": "https://www.yna.co.kr/view/AKR20260716205300085",
@@ -17,14 +49,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784193164000,
       "pub": "Thu, 16 Jul 2026 18:12:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프의 '기축통화 탓'은 틀렸다\" [한경 프리미엄9 TODAY]",
-      "link": "https://www.hankyung.com/article/2026071602041",
-      "source": "한국경제",
-      "ts": 1784193044000,
-      "pub": "Thu, 16 Jul 2026 18:10:44 +0900",
       "sentiment": "neutral"
     },
     {
@@ -153,22 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784152804000,
       "pub": "Thu, 16 Jul 2026 07:00:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 조선협력 필요성 강조하며 \"한국 기업 살펴볼 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260716008800071",
-      "source": "연합뉴스 국제",
-      "ts": 1784148091000,
-      "pub": "Thu, 16 Jul 2026 05:41:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 얼굴 새긴 1달러짜리 '금빛 동전' 나온다",
-      "link": "https://www.yna.co.kr/view/AKR20260716006400071",
-      "source": "연합뉴스 국제",
-      "ts": 1784144684000,
-      "pub": "Thu, 16 Jul 2026 04:44:44 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-16T09:54:04.723Z",
-  "count": 18,
+  "updated_at": "2026-07-16T11:25:25.839Z",
+  "count": 16,
   "items": [
+    {
+      "title": "日정부, 엔비디아 루빈 2만7천장 확보…'피지컬AI' 선점 나선다(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260716130751073",
+      "source": "연합뉴스 국제",
+      "ts": 1784199212000,
+      "pub": "Thu, 16 Jul 2026 19:53:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "LH, 용인 반도체 산단 1공구 발주",
+      "link": "https://www.hankyung.com/article/2026071600351",
+      "source": "한국경제",
+      "ts": 1784194840000,
+      "pub": "Thu, 16 Jul 2026 18:40:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "TSMC, 또 최대 실적…'AI 고점론' 불식하나",
+      "link": "https://www.hankyung.com/article/2026071602111",
+      "source": "한국경제",
+      "ts": 1784194754000,
+      "pub": "Thu, 16 Jul 2026 18:39:14 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "메모리 휘청이자 코스피 '뚝'…7천피, 하루 만에 무너졌다",
       "link": "https://www.hankyung.com/article/2026071602101",
@@ -17,46 +41,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784193537000,
       "pub": "Thu, 16 Jul 2026 18:18:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "일본, 독자 '로봇 AI 모델' 개발…엔비디아 루빈 2만7500개 도입",
-      "link": "https://www.mt.co.kr/world/2026/07/16/2026071617153221705",
-      "source": "머니투데이",
-      "ts": 1784192082000,
-      "pub": "Thu, 16 Jul 2026 17:54:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"韓경제 핵심 지표는 반도체 가격…추가 인상, 데이터 본 뒤 결정\"",
-      "link": "https://www.hankyung.com/article/2026071602611",
-      "source": "한국경제",
-      "ts": 1784192006000,
-      "pub": "Thu, 16 Jul 2026 17:53:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"주가보단 반도체 가격이 중요\"…추가 금리 인상 예고한 한은",
-      "link": "https://www.mt.co.kr/economy/2026/07/16/2026071615401219951",
-      "source": "머니투데이",
-      "ts": 1784189637000,
-      "pub": "Thu, 16 Jul 2026 17:13:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中 \"네덜란드와 넥스페리아 분쟁 해결 지원\"...반도체 갈등 풀리나",
-      "link": "https://www.mt.co.kr/world/2026/07/16/2026071616461565442",
-      "source": "머니투데이",
-      "ts": 1784189237000,
-      "pub": "Thu, 16 Jul 2026 17:07:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[뉴스프레소] 뉴욕증시 상승… 반도체 하락 VS 하이퍼스케일러 상승 '엇갈린 기술주'",
-      "link": "https://www.mt.co.kr/world/2026/07/16/2026071611507067786",
-      "source": "머니투데이",
-      "ts": 1784188493000,
-      "pub": "Thu, 16 Jul 2026 16:54:53 +0900",
       "sentiment": "neutral"
     },
     {

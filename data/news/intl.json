@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-16T09:54:04.721Z",
-  "count": 24,
+  "updated_at": "2026-07-16T11:25:25.838Z",
+  "count": 21,
   "items": [
+    {
+      "title": "트럼프 vs BBC 15조원 소송…\"미국 정부도 참여 검토\"",
+      "link": "https://www.yna.co.kr/view/AKR20260716205300085",
+      "source": "연합뉴스 국제",
+      "ts": 1784200758000,
+      "pub": "Thu, 16 Jul 2026 20:19:18 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "트럼프·에르도안 브로맨스…튀르키예 전투기 美엔진 도입 청신호",
       "link": "https://www.yna.co.kr/view/AKR20260716189500108",
@@ -17,14 +25,6 @@
       "source": "한국경제",
       "ts": 1784193044000,
       "pub": "Thu, 16 Jul 2026 18:10:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 美 지상군 투입까지 예고하며 이란 압박",
-      "link": "https://www.hankyung.com/article/2026071602301",
-      "source": "한국경제",
-      "ts": 1784191296000,
-      "pub": "Thu, 16 Jul 2026 17:41:36 +0900",
       "sentiment": "neutral"
     },
     {
@@ -169,30 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784144684000,
       "pub": "Thu, 16 Jul 2026 04:44:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란에 데드라인 제시 않겠지만 제대로 행동해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260716005900071",
-      "source": "연합뉴스 국제",
-      "ts": 1784142258000,
-      "pub": "Thu, 16 Jul 2026 04:04:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러 \"'의지의 연합' 우크라 파병 용납 못해…군사목표물 간주\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260716000951108",
-      "source": "연합뉴스 국제",
-      "ts": 1784141822000,
-      "pub": "Thu, 16 Jul 2026 03:57:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美연준 베이지북 \"데이터센터 투자에 제조·건설 활동 증가\"",
-      "link": "https://www.yna.co.kr/view/AKR20260716005600072",
-      "source": "연합뉴스 국제",
-      "ts": 1784141609000,
-      "pub": "Thu, 16 Jul 2026 03:53:29 +0900",
       "sentiment": "neutral"
     }
   ]

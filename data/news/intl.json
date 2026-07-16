@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-16T15:24:26.915Z",
-  "count": 25,
+  "updated_at": "2026-07-16T17:01:15.399Z",
+  "count": 30,
   "items": [
+    {
+      "title": "'드론전 주도' 우크라 국방장관 해임…권한대행 체제(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260716213751109",
+      "source": "연합뉴스 국제",
+      "ts": 1784219969000,
+      "pub": "Fri, 17 Jul 2026 01:39:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 '25% 관세' 때리자 브라질 맞불…\"보복 조치 착수\"",
+      "link": "https://www.mt.co.kr/world/2026/07/17/2026071701231796293",
+      "source": "머니투데이",
+      "ts": 1784219204000,
+      "pub": "Fri, 17 Jul 2026 01:26:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 2기 집권후 모금액 최소 1조원대…'깜깜이' 논란",
+      "link": "https://www.yna.co.kr/view/AKR20260717002000072",
+      "source": "연합뉴스 국제",
+      "ts": 1784218051000,
+      "pub": "Fri, 17 Jul 2026 01:07:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "브라질, 美 25% 관세부과에 맞불…보복관세 절차 착수",
+      "link": "https://www.yna.co.kr/view/AKR20260717001800087",
+      "source": "연합뉴스 국제",
+      "ts": 1784217523000,
+      "pub": "Fri, 17 Jul 2026 00:58:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "퇴임 앞둔 스타머 키이우행…\"총리 바뀌어도 우크라 지원 계속\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260716186651085",
+      "source": "연합뉴스 국제",
+      "ts": 1784216581000,
+      "pub": "Fri, 17 Jul 2026 00:43:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "드론전 이끈 35세 우크라 국방장관 교체 논란…전시중 반대시위도(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260716176352109",
+      "source": "연합뉴스 국제",
+      "ts": 1784215975000,
+      "pub": "Fri, 17 Jul 2026 00:32:55 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 행정부, 유학생 비자 4년 제한…\"120만명 영향\" 파장(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260716213251071",
@@ -41,6 +89,14 @@
       "source": "연합뉴스 국제",
       "ts": 1784208440000,
       "pub": "Thu, 16 Jul 2026 22:27:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 대통령 \"이란, 억류 미국인 석방…선의의 제스쳐\"",
+      "link": "https://www.mt.co.kr/world/2026/07/16/2026071621141179460",
+      "source": "머니투데이",
+      "ts": 1784204827000,
+      "pub": "Thu, 16 Jul 2026 21:27:07 +0900",
       "sentiment": "neutral"
     },
     {
@@ -185,22 +241,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784163739000,
       "pub": "Thu, 16 Jul 2026 10:02:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "물가지표 둔화에 연준 이달 금리인상 확률 10%대로",
-      "link": "https://www.yna.co.kr/view/AKR20260716024600009",
-      "source": "연합뉴스 국제",
-      "ts": 1784158536000,
-      "pub": "Thu, 16 Jul 2026 08:35:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美지상군 투입 선택지까지…트럼프, 치명타 예고하며 이란 압박",
-      "link": "https://www.yna.co.kr/view/AKR20260716016400071",
-      "source": "연합뉴스 국제",
-      "ts": 1784155093000,
-      "pub": "Thu, 16 Jul 2026 07:38:13 +0900",
       "sentiment": "neutral"
     }
   ]

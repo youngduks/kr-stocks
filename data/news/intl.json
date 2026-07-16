@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-16T18:53:30.293Z",
-  "count": 30,
+  "updated_at": "2026-07-16T19:54:50.898Z",
+  "count": 33,
   "items": [
+    {
+      "title": "백악관, 트럼프 '부정선거론' 연설 앞두고 \"들으면 충격받을 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260717005600071",
+      "source": "연합뉴스 국제",
+      "ts": 1784230221000,
+      "pub": "Fri, 17 Jul 2026 04:30:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란, 억류 미국인 출국 허용\"…이란은 부인(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260716206051009",
+      "source": "연합뉴스 국제",
+      "ts": 1784228405000,
+      "pub": "Fri, 17 Jul 2026 04:00:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美예측시장 베팅범 잡고 봤더니…\"트럼프 연설원고 담당자\"",
+      "link": "https://www.yna.co.kr/view/AKR20260717004400071",
+      "source": "연합뉴스 국제",
+      "ts": 1784228212000,
+      "pub": "Fri, 17 Jul 2026 03:56:52 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 지지율 37%…'강력 지지'는 15%로 역대 최저",
       "link": "https://www.yna.co.kr/view/AKR20260717003600071",

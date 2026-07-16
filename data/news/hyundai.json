@@ -1,14 +1,22 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-16T07:13:50.817Z",
-  "count": 1,
+  "updated_at": "2026-07-16T09:54:04.723Z",
+  "count": 2,
   "items": [
     {
-      "title": "현대차그룹, 보스턴다이내믹스 지분 100%로…피지컬 AI 전략 속도",
-      "link": "https://www.hankyung.com/article/202607169428g",
-      "source": "한국경제",
-      "ts": 1784178352000,
-      "pub": "Thu, 16 Jul 2026 14:05:52 +0900",
+      "title": "새만금 매립 15년 앞당긴다…현대차 투자 감안 2050년→2035년",
+      "link": "https://www.yna.co.kr/view/AKR20260716188700055",
+      "source": "연합뉴스 경제",
+      "ts": 1784191418000,
+      "pub": "Thu, 16 Jul 2026 17:43:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "KR, 현대차·기아 로봇 모베드 선상 주행 실증",
+      "link": "https://www.mt.co.kr/policy/2026/07/16/2026071616472676336",
+      "source": "머니투데이",
+      "ts": 1784188388000,
+      "pub": "Thu, 16 Jul 2026 16:53:08 +0900",
       "sentiment": "neutral"
     }
   ]

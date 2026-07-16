@@ -1,8 +1,72 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-16T07:13:50.817Z",
-  "count": 17,
+  "updated_at": "2026-07-16T09:54:04.723Z",
+  "count": 18,
   "items": [
+    {
+      "title": "메모리 휘청이자 코스피 '뚝'…7천피, 하루 만에 무너졌다",
+      "link": "https://www.hankyung.com/article/2026071602101",
+      "source": "한국경제",
+      "ts": 1784194400000,
+      "pub": "Thu, 16 Jul 2026 18:33:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "해상풍력 인프라 항만에 구축…호남 반도체 클러스터 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260716194800051",
+      "source": "연합뉴스 경제",
+      "ts": 1784193537000,
+      "pub": "Thu, 16 Jul 2026 18:18:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "일본, 독자 '로봇 AI 모델' 개발…엔비디아 루빈 2만7500개 도입",
+      "link": "https://www.mt.co.kr/world/2026/07/16/2026071617153221705",
+      "source": "머니투데이",
+      "ts": 1784192082000,
+      "pub": "Thu, 16 Jul 2026 17:54:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"韓경제 핵심 지표는 반도체 가격…추가 인상, 데이터 본 뒤 결정\"",
+      "link": "https://www.hankyung.com/article/2026071602611",
+      "source": "한국경제",
+      "ts": 1784192006000,
+      "pub": "Thu, 16 Jul 2026 17:53:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"주가보단 반도체 가격이 중요\"…추가 금리 인상 예고한 한은",
+      "link": "https://www.mt.co.kr/economy/2026/07/16/2026071615401219951",
+      "source": "머니투데이",
+      "ts": 1784189637000,
+      "pub": "Thu, 16 Jul 2026 17:13:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中 \"네덜란드와 넥스페리아 분쟁 해결 지원\"...반도체 갈등 풀리나",
+      "link": "https://www.mt.co.kr/world/2026/07/16/2026071616461565442",
+      "source": "머니투데이",
+      "ts": 1784189237000,
+      "pub": "Thu, 16 Jul 2026 17:07:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[뉴스프레소] 뉴욕증시 상승… 반도체 하락 VS 하이퍼스케일러 상승 '엇갈린 기술주'",
+      "link": "https://www.mt.co.kr/world/2026/07/16/2026071611507067786",
+      "source": "머니투데이",
+      "ts": 1784188493000,
+      "pub": "Thu, 16 Jul 2026 16:54:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "TSMC 2분기 순이익 사상 최대…美공장에 147조원 추가 투자(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260716145151083",
+      "source": "연합뉴스 국제",
+      "ts": 1784187309000,
+      "pub": "Thu, 16 Jul 2026 16:35:09 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "반도체 또 출렁…삼전 8.8%·하닉 11.5% 급락 마감(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260716048351008",
@@ -28,30 +92,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "창신메모리·유니트리, 역대급 IPO 줄줄이…中 증시 관심 '쑥'",
-      "link": "https://www.hankyung.com/article/202607169363i",
-      "source": "한국경제",
-      "ts": 1784181872000,
-      "pub": "Thu, 16 Jul 2026 15:04:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "LH, 용인 반도체 국가산단 1조860억 발주…연말 착공까지",
-      "link": "https://www.hankyung.com/article/202607169552i",
-      "source": "한국경제",
-      "ts": 1784180279000,
-      "pub": "Thu, 16 Jul 2026 14:37:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "백준호 대표 \"에너지 덜 쓰는 AI 반도체가 핵심 기술 될 것\"",
-      "link": "https://www.hankyung.com/article/202607169458i",
-      "source": "한국경제",
-      "ts": 1784179563000,
-      "pub": "Thu, 16 Jul 2026 14:26:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "노동부, 청년 일경험 민관협의회…삼성전자·SK하이닉스 등 참여",
       "link": "https://www.yna.co.kr/view/AKR20260716064800530",
       "source": "연합뉴스 경제",
@@ -65,14 +105,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784178024000,
       "pub": "Thu, 16 Jul 2026 14:00:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "최태원 \"하이닉스 인수 결단 옳았다…ADR 상장으로 새 장\"",
-      "link": "https://www.hankyung.com/article/2026071693447",
-      "source": "한국경제",
-      "ts": 1784176915000,
-      "pub": "Thu, 16 Jul 2026 13:41:55 +0900",
       "sentiment": "neutral"
     },
     {
@@ -100,22 +132,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "산업장관 \"반도체 투자수요가 수익넘어…투자 훨씬 더 집중해야\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260716055051003",
-      "source": "연합뉴스 경제",
-      "ts": 1784169617000,
-      "pub": "Thu, 16 Jul 2026 11:40:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "LH, 용인 반도체산단 조성공사 발주…\"1호팹 가동시기 당겨야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260716084300003",
-      "source": "연합뉴스 경제",
-      "ts": 1784167802000,
-      "pub": "Thu, 16 Jul 2026 11:10:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "인도, 반도체 산업 육성에 박차…20조원 추가 투입",
       "link": "https://www.yna.co.kr/view/AKR20260716069900009",
       "source": "연합뉴스 국제",
@@ -129,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784164970000,
       "pub": "Thu, 16 Jul 2026 10:22:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "애플, AI 서버칩 경쟁력 위해 반도체기업 인수 타진",
-      "link": "https://www.yna.co.kr/view/AKR20260716003600091",
-      "source": "연합뉴스 국제",
-      "ts": 1784137749000,
-      "pub": "Thu, 16 Jul 2026 02:49:09 +0900",
       "sentiment": "neutral"
     }
   ]

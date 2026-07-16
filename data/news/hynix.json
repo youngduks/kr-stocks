@@ -1,22 +1,62 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-15T23:47:55.001Z",
-  "count": 14,
+  "updated_at": "2026-07-16T01:24:43.469Z",
+  "count": 12,
   "items": [
+    {
+      "title": "\"하반기 IT 중심 수출 증가세 계속…반도체 연 4천억달러 전망\"",
+      "link": "https://www.yna.co.kr/view/AKR20260716056300003",
+      "source": "연합뉴스 경제",
+      "ts": 1784163650000,
+      "pub": "Thu, 16 Jul 2026 10:00:50 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "산업장관 \"반도체 말고는 어려워…AI·지방·생태계가 승부처\"",
+      "link": "https://www.yna.co.kr/view/AKR20260716055000003",
+      "source": "연합뉴스 경제",
+      "ts": 1784163389000,
+      "pub": "Thu, 16 Jul 2026 09:56:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피 '투톱' 또 출렁…美반도체 약세에 7% 이상 급락중",
+      "link": "https://www.yna.co.kr/view/AKR20260716048300008",
+      "source": "연합뉴스 경제",
+      "ts": 1784163079000,
+      "pub": "Thu, 16 Jul 2026 09:51:19 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "코스피, 美반도체 약세로 5~6%대 급락…또 7,000선 아래로(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260716052000008",
+      "source": "연합뉴스 경제",
+      "ts": 1784162944000,
+      "pub": "Thu, 16 Jul 2026 09:49:04 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "급등락하는 삼전닉스…반도체주 비관론과 낙관론 정면충돌",
+      "link": "https://www.hankyung.com/article/202607168460i",
+      "source": "한국경제",
+      "ts": 1784161232000,
+      "pub": "Thu, 16 Jul 2026 09:20:32 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[속보] 삼성전자 5%↓·SK하이닉스8%↓…코스피 7000 붕괴",
+      "link": "https://www.hankyung.com/article/2026071684376",
+      "source": "한국경제",
+      "ts": 1784160528000,
+      "pub": "Thu, 16 Jul 2026 09:08:48 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "윌리엄스 '동결' 선언…반도체 내리고, 빅테크 오른 이유 [김현석의 월스트리트나우]",
       "link": "https://www.hankyung.com/article/202607168150i",
       "source": "한국경제",
       "ts": 1784157444000,
       "pub": "Thu, 16 Jul 2026 08:17:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] SK하이닉스, 프리마켓서 7.9% 하락…삼전도 6.4%↓",
-      "link": "https://www.hankyung.com/article/2026071682107",
-      "source": "한국경제",
-      "ts": 1784156756000,
-      "pub": "Thu, 16 Jul 2026 08:05:56 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,43 +68,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "“반도체 폭락, 1년 전 '학습→추론' 과도기 닮은꼴…가격 보지 말고 가치 보라”",
-      "link": "https://www.hankyung.com/article/202607155680i",
-      "source": "한국경제",
-      "ts": 1784154595000,
-      "pub": "Thu, 16 Jul 2026 07:29:55 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "애플, AI 서버칩 경쟁력 위해 반도체기업 인수 타진",
       "link": "https://www.yna.co.kr/view/AKR20260716003600091",
       "source": "연합뉴스 국제",
       "ts": 1784137749000,
       "pub": "Thu, 16 Jul 2026 02:49:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "버핏 \"알파벳 투자, 내가 결정\"...반도체에 또 찬물 끼얹은 중국 [빈난새의 개장전요것만]",
-      "link": "https://www.hankyung.com/article/202607167970i",
-      "source": "한국경제",
-      "ts": 1784129427000,
-      "pub": "Thu, 16 Jul 2026 00:30:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "檢, '반도체 부품가격 담합 의혹' 외국기업 3곳 압수수색",
-      "link": "https://www.hankyung.com/article/2026071579411",
-      "source": "한국경제",
-      "ts": 1784122824000,
-      "pub": "Wed, 15 Jul 2026 22:40:24 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "젠슨 황 \"하이닉스 ADR, 믿을 수 없을 정도로 성공적\"",
-      "link": "https://www.hankyung.com/article/2026071579381",
-      "source": "한국경제",
-      "ts": 1784122732000,
-      "pub": "Wed, 15 Jul 2026 22:38:52 +0900",
       "sentiment": "neutral"
     },
     {
@@ -90,30 +98,6 @@
       "ts": 1784104626000,
       "pub": "Wed, 15 Jul 2026 17:37:06 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "ADR 급등에 하이닉스 8%↑, 200만닉스 회복…삼전 6%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260715045951008",
-      "source": "연합뉴스 경제",
-      "ts": 1784098978000,
-      "pub": "Wed, 15 Jul 2026 16:02:58 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[특징주] 한미반도체, '2분기 역대 최대 매출' 소식에 상한가 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260715046151008",
-      "source": "연합뉴스 경제",
-      "ts": 1784097726000,
-      "pub": "Wed, 15 Jul 2026 15:42:06 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "SK에코플랜트, 반도체·AI 혁신기술 6건 선정…공동연구 모색",
-      "link": "https://www.yna.co.kr/view/AKR20260715123500003",
-      "source": "연합뉴스 경제",
-      "ts": 1784095136000,
-      "pub": "Wed, 15 Jul 2026 14:58:56 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

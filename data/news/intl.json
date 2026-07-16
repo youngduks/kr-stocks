@@ -1,22 +1,38 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-15T23:47:54.999Z",
-  "count": 31,
+  "updated_at": "2026-07-16T01:24:43.467Z",
+  "count": 28,
   "items": [
+    {
+      "title": "백악관에 '워룸' 설치…\"에어포스원 기밀유출 범인 색출할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260716060200009",
+      "source": "연합뉴스 국제",
+      "ts": 1784163739000,
+      "pub": "Thu, 16 Jul 2026 10:02:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 조선주, 트럼프 '한국 조선기업 살펴본다' 발언에 장초반 강세",
+      "link": "https://www.yna.co.kr/view/AKR20260716045100008",
+      "source": "연합뉴스 경제",
+      "ts": 1784161513000,
+      "pub": "Thu, 16 Jul 2026 09:25:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프보다 차라리 시진핑\"…中 국제사회 신뢰도, 처음으로 美 추월",
+      "link": "https://www.hankyung.com/article/2026071682907",
+      "source": "한국경제",
+      "ts": 1784160156000,
+      "pub": "Thu, 16 Jul 2026 09:02:36 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "물가지표 둔화에 연준 이달 금리인상 확률 10%대로",
       "link": "https://www.yna.co.kr/view/AKR20260716024600009",
       "source": "연합뉴스 경제",
       "ts": 1784158536000,
       "pub": "Thu, 16 Jul 2026 08:35:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 이란전 확대 검토…지상군 투입 시나리오도 재부상",
-      "link": "https://www.hankyung.com/article/2026071681397",
-      "source": "한국경제",
-      "ts": 1784156342000,
-      "pub": "Thu, 16 Jul 2026 07:59:02 +0900",
       "sentiment": "neutral"
     },
     {
@@ -33,22 +49,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784152804000,
       "pub": "Thu, 16 Jul 2026 07:00:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 얼굴 새긴 1달러짜리 '금빛 동전' 나온다…올 가을 발행",
-      "link": "https://www.hankyung.com/article/2026071680517",
-      "source": "한국경제",
-      "ts": 1784152044000,
-      "pub": "Thu, 16 Jul 2026 06:47:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 정부의 '기축통화 탓'은 틀렸다\"…트리핀 딜레마에 대한 반박 [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202607157753i",
-      "source": "한국경제",
-      "ts": 1784149214000,
-      "pub": "Thu, 16 Jul 2026 06:00:14 +0900",
       "sentiment": "neutral"
     },
     {
@@ -225,30 +225,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784101078000,
       "pub": "Wed, 15 Jul 2026 16:37:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 호르무즈 넘어 대규모 이란 공격 논의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260715120200009",
-      "source": "연합뉴스 국제",
-      "ts": 1784095957000,
-      "pub": "Wed, 15 Jul 2026 15:12:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 수상드론 맹활약…푸틴 별장 인근 러 경비정 격침",
-      "link": "https://www.yna.co.kr/view/AKR20260715121900009",
-      "source": "연합뉴스 국제",
-      "ts": 1784095369000,
-      "pub": "Wed, 15 Jul 2026 15:02:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] 美방공체계 제치고 우크라?…유럽 '미사일 방어 연합' 탄생",
-      "link": "https://www.yna.co.kr/view/AKR20260715098900704",
-      "source": "연합뉴스 국제",
-      "ts": 1784091736000,
-      "pub": "Wed, 15 Jul 2026 14:02:16 +0900",
       "sentiment": "neutral"
     }
   ]

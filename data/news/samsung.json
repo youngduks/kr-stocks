@@ -1,30 +1,38 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-15T23:47:55.000Z",
-  "count": 3,
+  "updated_at": "2026-07-16T01:24:43.468Z",
+  "count": 4,
   "items": [
     {
-      "title": "[속보] SK하이닉스, 프리마켓서 7.9% 하락…삼전도 6.4%↓",
-      "link": "https://www.hankyung.com/article/2026071682107",
+      "title": "급등락하는 삼전닉스…반도체주 비관론과 낙관론 정면충돌",
+      "link": "https://www.hankyung.com/article/202607168460i",
       "source": "한국경제",
-      "ts": 1784156756000,
-      "pub": "Thu, 16 Jul 2026 08:05:56 +0900",
+      "ts": 1784161232000,
+      "pub": "Thu, 16 Jul 2026 09:20:32 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "中 창신 역대급 IPO에 삼전닉스 투심 위축…6900선으로 밀려난 코스피 [장 초반 시황]",
+      "link": "https://www.hankyung.com/article/202607168415i",
+      "source": "한국경제",
+      "ts": 1784161129000,
+      "pub": "Thu, 16 Jul 2026 09:18:49 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "ADR 급등에 하이닉스 8%↑, 200만닉스 회복…삼전 6%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260715045951008",
-      "source": "연합뉴스 경제",
-      "ts": 1784098978000,
-      "pub": "Wed, 15 Jul 2026 16:02:58 +0900",
-      "sentiment": "positive"
+      "title": "[속보] 삼성전자 5%↓·SK하이닉스8%↓…코스피 7000 붕괴",
+      "link": "https://www.hankyung.com/article/2026071684376",
+      "source": "한국경제",
+      "ts": 1784160528000,
+      "pub": "Thu, 16 Jul 2026 09:08:48 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "한국ESG평가원 'ESG경영 최우수 기업'에 삼성전자 등 5개사 선정",
-      "link": "https://www.yna.co.kr/view/AKR20260715114200002",
-      "source": "연합뉴스 경제",
-      "ts": 1784093177000,
-      "pub": "Wed, 15 Jul 2026 14:26:17 +0900",
+      "title": "삼전닉스 널뛰자...수익률 1% 초고수는 '여기'를 택했다",
+      "link": "https://www.hankyung.com/article/202607168248i",
+      "source": "한국경제",
+      "ts": 1784160018000,
+      "pub": "Thu, 16 Jul 2026 09:00:18 +0900",
       "sentiment": "neutral"
     }
   ]

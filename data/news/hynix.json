@@ -1,8 +1,80 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-16T01:24:43.469Z",
-  "count": 12,
+  "updated_at": "2026-07-16T04:48:55.589Z",
+  "count": 15,
   "items": [
+    {
+      "title": "중기부, 사우디와 AI·반도체 투자 공동펀드 조성 논의",
+      "link": "https://www.yna.co.kr/view/AKR20260716076200030",
+      "source": "연합뉴스 경제",
+      "ts": 1784174401000,
+      "pub": "Thu, 16 Jul 2026 13:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한은 총재 \"반도체 가격 주시…韓경제 미래에 시사점 많아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260716106300002",
+      "source": "연합뉴스 경제",
+      "ts": 1784172465000,
+      "pub": "Thu, 16 Jul 2026 12:27:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "김정관 \"반도체 호황 영원할 수 없어…미래 투자 속도 내야\"",
+      "link": "https://www.hankyung.com/article/202607168317i",
+      "source": "한국경제",
+      "ts": 1784171199000,
+      "pub": "Thu, 16 Jul 2026 12:06:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 한은 총재 \"반도체 가격 주시…韓경제 미래에 시사점 많아\"",
+      "link": "https://www.hankyung.com/article/2026071691997",
+      "source": "한국경제",
+      "ts": 1784170627000,
+      "pub": "Thu, 16 Jul 2026 11:57:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 한은 총재 \"반도체 가격 주시…韓경제 미래에 시사점 많아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260716102400002",
+      "source": "연합뉴스 경제",
+      "ts": 1784170471000,
+      "pub": "Thu, 16 Jul 2026 11:54:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "산업장관 \"반도체 투자수요가 수익넘어…투자 훨씬 더 집중해야\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260716055051003",
+      "source": "연합뉴스 경제",
+      "ts": 1784169617000,
+      "pub": "Thu, 16 Jul 2026 11:40:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "LH, 용인 반도체산단 조성공사 발주…\"1호팹 가동시기 당겨야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260716084300003",
+      "source": "연합뉴스 경제",
+      "ts": 1784167802000,
+      "pub": "Thu, 16 Jul 2026 11:10:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "인도, 반도체 산업 육성에 박차…20조원 추가 투입",
+      "link": "https://www.yna.co.kr/view/AKR20260716069900009",
+      "source": "연합뉴스 국제",
+      "ts": 1784165211000,
+      "pub": "Thu, 16 Jul 2026 10:26:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중국 CXMT 역대급 IPO…공모 규모 최대 15조원",
+      "link": "https://www.yna.co.kr/view/AKR20260716020500009",
+      "source": "연합뉴스 국제",
+      "ts": 1784164970000,
+      "pub": "Thu, 16 Jul 2026 10:22:50 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"하반기 IT 중심 수출 증가세 계속…반도체 연 4천억달러 전망\"",
       "link": "https://www.yna.co.kr/view/AKR20260716056300003",
@@ -36,38 +108,6 @@
       "sentiment": "negative"
     },
     {
-      "title": "급등락하는 삼전닉스…반도체주 비관론과 낙관론 정면충돌",
-      "link": "https://www.hankyung.com/article/202607168460i",
-      "source": "한국경제",
-      "ts": 1784161232000,
-      "pub": "Thu, 16 Jul 2026 09:20:32 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[속보] 삼성전자 5%↓·SK하이닉스8%↓…코스피 7000 붕괴",
-      "link": "https://www.hankyung.com/article/2026071684376",
-      "source": "한국경제",
-      "ts": 1784160528000,
-      "pub": "Thu, 16 Jul 2026 09:08:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "윌리엄스 '동결' 선언…반도체 내리고, 빅테크 오른 이유 [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202607168150i",
-      "source": "한국경제",
-      "ts": 1784157444000,
-      "pub": "Thu, 16 Jul 2026 08:17:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[마켓뷰] 다시 고개 든 반도체 업황불안…코스피, 또 출렁이나",
-      "link": "https://www.yna.co.kr/view/AKR20260716021600008",
-      "source": "연합뉴스 경제",
-      "ts": 1784156712000,
-      "pub": "Thu, 16 Jul 2026 08:05:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "애플, AI 서버칩 경쟁력 위해 반도체기업 인수 타진",
       "link": "https://www.yna.co.kr/view/AKR20260716003600091",
       "source": "연합뉴스 국제",
@@ -82,22 +122,6 @@
       "ts": 1784116946000,
       "pub": "Wed, 15 Jul 2026 21:02:26 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "젠슨황 \"SK하이닉스 ADR, 믿을 수 없을정도로 성공적…기쁘다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260715175200073",
-      "source": "연합뉴스 국제",
-      "ts": 1784111848000,
-      "pub": "Wed, 15 Jul 2026 19:37:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "검찰, '반도체 부품 담합' 몬타지 테크놀로지 등 3곳 압수수색",
-      "link": "https://www.yna.co.kr/view/AKR20260715163500004",
-      "source": "연합뉴스 경제",
-      "ts": 1784104626000,
-      "pub": "Wed, 15 Jul 2026 17:37:06 +0900",
-      "sentiment": "negative"
     }
   ]
 }

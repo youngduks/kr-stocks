@@ -1,38 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-16T01:24:43.468Z",
-  "count": 4,
+  "updated_at": "2026-07-16T04:48:55.588Z",
+  "count": 2,
   "items": [
     {
-      "title": "급등락하는 삼전닉스…반도체주 비관론과 낙관론 정면충돌",
-      "link": "https://www.hankyung.com/article/202607168460i",
+      "title": "\"삼전닉스 대신 자동차·화장품\"…조정장 돌파할 '바벨 전략' 주목",
+      "link": "https://www.hankyung.com/article/202607169243i",
       "source": "한국경제",
-      "ts": 1784161232000,
-      "pub": "Thu, 16 Jul 2026 09:20:32 +0900",
-      "sentiment": "negative"
+      "ts": 1784174037000,
+      "pub": "Thu, 16 Jul 2026 12:53:57 +0900",
+      "sentiment": "positive"
     },
     {
-      "title": "中 창신 역대급 IPO에 삼전닉스 투심 위축…6900선으로 밀려난 코스피 [장 초반 시황]",
-      "link": "https://www.hankyung.com/article/202607168415i",
+      "title": "'-11%' 하닉 팔고, '-8%' 삼전 샀다...엇갈린 초고수의 선택",
+      "link": "https://www.hankyung.com/article/202607168825i",
       "source": "한국경제",
-      "ts": 1784161129000,
-      "pub": "Thu, 16 Jul 2026 09:18:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 삼성전자 5%↓·SK하이닉스8%↓…코스피 7000 붕괴",
-      "link": "https://www.hankyung.com/article/2026071684376",
-      "source": "한국경제",
-      "ts": 1784160528000,
-      "pub": "Thu, 16 Jul 2026 09:08:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 널뛰자...수익률 1% 초고수는 '여기'를 택했다",
-      "link": "https://www.hankyung.com/article/202607168248i",
-      "source": "한국경제",
-      "ts": 1784160018000,
-      "pub": "Thu, 16 Jul 2026 09:00:18 +0900",
+      "ts": 1784169092000,
+      "pub": "Thu, 16 Jul 2026 11:31:32 +0900",
       "sentiment": "neutral"
     }
   ]

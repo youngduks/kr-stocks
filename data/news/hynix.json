@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-16T20:43:48.866Z",
-  "count": 19,
+  "updated_at": "2026-07-16T21:53:56.436Z",
+  "count": 18,
   "items": [
+    {
+      "title": "뉴욕증시, AI 반도체주 매도에 하락…나스닥 1.5%↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260717006751072",
+      "source": "연합뉴스 국제",
+      "ts": 1784236891000,
+      "pub": "Fri, 17 Jul 2026 06:21:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "또 반도체 투자 회의론…SK하이닉스 ADR 13% 급락[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/07/17/2026071706002989696",
+      "source": "머니투데이",
+      "ts": 1784235836000,
+      "pub": "Fri, 17 Jul 2026 06:03:56 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"SK하이닉스 본주 韓증시에 있는데\"…ADR 프리미엄 굳어지나 [노정동의 어쩌다 투자자]",
+      "link": "https://www.hankyung.com/article/2026071603056",
+      "source": "한국경제",
+      "ts": 1784235627000,
+      "pub": "Fri, 17 Jul 2026 06:00:27 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "뉴욕증시, AI 반도체주 매도에 하락…나스닥 1.5%↓",
       "link": "https://www.yna.co.kr/view/AKR20260717006700072",
@@ -50,22 +74,6 @@
       "ts": 1784199212000,
       "pub": "Thu, 16 Jul 2026 19:53:32 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "LH, 용인 반도체 산단 1공구 발주",
-      "link": "https://www.hankyung.com/article/2026071600351",
-      "source": "한국경제",
-      "ts": 1784194840000,
-      "pub": "Thu, 16 Jul 2026 18:40:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "TSMC, 또 최대 실적…'AI 고점론' 불식하나",
-      "link": "https://www.hankyung.com/article/2026071602111",
-      "source": "한국경제",
-      "ts": 1784194754000,
-      "pub": "Thu, 16 Jul 2026 18:39:14 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "해상풍력 인프라 항만에 구축…호남 반도체 클러스터 지원",
@@ -137,22 +145,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784172465000,
       "pub": "Thu, 16 Jul 2026 12:27:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 한은 총재 \"반도체 가격 주시…韓경제 미래에 시사점 많아\"",
-      "link": "https://www.yna.co.kr/view/AKR20260716102400002",
-      "source": "연합뉴스 경제",
-      "ts": 1784170471000,
-      "pub": "Thu, 16 Jul 2026 11:54:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "인도, 반도체 산업 육성에 박차…20조원 추가 투입",
-      "link": "https://www.yna.co.kr/view/AKR20260716069900009",
-      "source": "연합뉴스 국제",
-      "ts": 1784165211000,
-      "pub": "Thu, 16 Jul 2026 10:26:51 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-16T21:53:56.435Z",
-  "count": 34,
+  "updated_at": "2026-07-16T22:46:13.293Z",
+  "count": 35,
   "items": [
+    {
+      "title": "트럼프 연설문 미리 보고 베팅…1억5000만원 챙긴 백악관 직원",
+      "link": "https://www.mt.co.kr/world/2026/07/17/2026071707142581924",
+      "source": "머니투데이",
+      "ts": 1784240978000,
+      "pub": "Fri, 17 Jul 2026 07:29:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美연준서 다시 나온 금리인상론…\"지금 올리는 게 낫다\"",
+      "link": "https://www.mt.co.kr/world/2026/07/17/2026071706320439010",
+      "source": "머니투데이",
+      "ts": 1784239238000,
+      "pub": "Fri, 17 Jul 2026 07:00:38 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "백악관, 트럼프 '부정선거론' 연설 앞두고 \"들으면 충격받을 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260717005600071",
@@ -265,14 +281,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784166943000,
       "pub": "Thu, 16 Jul 2026 10:55:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "쿡 연준 이사 \"곧 디플레 조짐 안 보이면 조치 준비\"",
-      "link": "https://www.yna.co.kr/view/AKR20260716064200009",
-      "source": "연합뉴스 국제",
-      "ts": 1784165633000,
-      "pub": "Thu, 16 Jul 2026 10:33:53 +0900",
       "sentiment": "neutral"
     }
   ]

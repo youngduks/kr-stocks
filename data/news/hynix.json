@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-17T21:40:12.779Z",
-  "count": 16,
+  "updated_at": "2026-07-17T22:37:20.532Z",
+  "count": 15,
   "items": [
+    {
+      "title": "코스닥도 반도체 장세?…시총 톱100에 반도체주 1년새 88%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260716201100008",
+      "source": "연합뉴스 경제",
+      "ts": 1784326500000,
+      "pub": "Sat, 18 Jul 2026 07:15:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "뉴욕증시, 반도체 매도세 지속에 하락…나스닥 1.4%↓(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260718007951072",
@@ -113,22 +121,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784182864000,
       "pub": "Thu, 16 Jul 2026 15:21:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "노동부, 청년 일경험 민관협의회…삼성전자·SK하이닉스 등 참여",
-      "link": "https://www.yna.co.kr/view/AKR20260716064800530",
-      "source": "연합뉴스 경제",
-      "ts": 1784178026000,
-      "pub": "Thu, 16 Jul 2026 14:00:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "꺼지지 않는 경기남부 반도체 벨트 아파트값…동탄 0.73%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260716091300003",
-      "source": "연합뉴스 경제",
-      "ts": 1784178024000,
-      "pub": "Thu, 16 Jul 2026 14:00:24 +0900",
       "sentiment": "neutral"
     }
   ]

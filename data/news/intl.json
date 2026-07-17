@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-17T09:44:41.324Z",
-  "count": 32,
+  "updated_at": "2026-07-17T11:13:05.604Z",
+  "count": 31,
   "items": [
+    {
+      "title": "美 언론사들 '트럼프 연설' 생중계 거부…동물·퀴즈쇼 방송",
+      "link": "https://www.hankyung.com/article/2026071712867",
+      "source": "한국경제",
+      "ts": 1784283959000,
+      "pub": "Fri, 17 Jul 2026 19:25:59 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"돈내고 트럼프 발언 먼저 봐\"…트루스소셜, 내달 상품 출시",
       "link": "https://www.hankyung.com/article/2026071712381",
@@ -17,14 +25,6 @@
       "source": "한국경제",
       "ts": 1784278422000,
       "pub": "Fri, 17 Jul 2026 17:53:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"관세 매겨도 저렴\"…포스코베트남, 철강 수출 거점 부상",
-      "link": "https://www.hankyung.com/article/2026071711921",
-      "source": "한국경제",
-      "ts": 1784277610000,
-      "pub": "Fri, 17 Jul 2026 17:40:10 +0900",
       "sentiment": "neutral"
     },
     {
@@ -242,14 +242,6 @@
       "ts": 1784200758000,
       "pub": "Thu, 16 Jul 2026 20:19:18 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "트럼프·에르도안 브로맨스…튀르키예 전투기 美엔진 도입 청신호",
-      "link": "https://www.yna.co.kr/view/AKR20260716189500108",
-      "source": "연합뉴스 국제",
-      "ts": 1784193164000,
-      "pub": "Thu, 16 Jul 2026 18:12:44 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "[특징주] 조선주, 트럼프 '한국 조선기업 살펴본다' 발언에 강세(종합)",

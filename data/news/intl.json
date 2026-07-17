@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-17T19:57:07.624Z",
-  "count": 25,
+  "updated_at": "2026-07-17T20:45:26.725Z",
+  "count": 23,
   "items": [
+    {
+      "title": "캐나다 산불 연기에도 美관세?…트럼프 \"대기오염비 가산돼야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260718007200071",
+      "source": "연합뉴스 국제",
+      "ts": 1784318523000,
+      "pub": "Sat, 18 Jul 2026 05:02:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"미국 대선 개입? 터무니없어\"…트럼프 주장에 중국 발끈",
+      "link": "https://www.mt.co.kr/world/2026/07/17/2026071720583850311",
+      "source": "머니투데이",
+      "ts": 1784289864000,
+      "pub": "Fri, 17 Jul 2026 21:04:24 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 선거 개입 주장에…中 \"완전히 터무니 없어\"",
       "link": "https://www.hankyung.com/article/2026071713497",
@@ -161,38 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784221891000,
       "pub": "Fri, 17 Jul 2026 02:11:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'드론전 주도' 우크라 국방장관 해임…권한대행 체제(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260716213751109",
-      "source": "연합뉴스 국제",
-      "ts": 1784219969000,
-      "pub": "Fri, 17 Jul 2026 01:39:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 2기 집권후 모금액 최소 1조원대…'깜깜이' 논란",
-      "link": "https://www.yna.co.kr/view/AKR20260717002000072",
-      "source": "연합뉴스 국제",
-      "ts": 1784218051000,
-      "pub": "Fri, 17 Jul 2026 01:07:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "브라질, 美 25% 관세부과에 맞불…보복관세 절차 착수",
-      "link": "https://www.yna.co.kr/view/AKR20260717001800087",
-      "source": "연합뉴스 국제",
-      "ts": 1784217523000,
-      "pub": "Fri, 17 Jul 2026 00:58:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "퇴임 앞둔 스타머 키이우행…\"총리 바뀌어도 우크라 지원 계속\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260716186651085",
-      "source": "연합뉴스 국제",
-      "ts": 1784216581000,
-      "pub": "Fri, 17 Jul 2026 00:43:01 +0900",
       "sentiment": "neutral"
     },
     {

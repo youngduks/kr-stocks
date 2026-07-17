@@ -1,23 +1,23 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-17T12:59:55.562Z",
+  "updated_at": "2026-07-17T14:44:27.813Z",
   "count": 14,
   "items": [
     {
-      "title": "\"중국산 메모리 사주면 큰일난다\"…들고 일어난 美 의원들",
+      "title": "뉴욕증시, 거센 반도체주 매도세에 하락 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260717063100009",
+      "source": "연합뉴스 국제",
+      "ts": 1784298020000,
+      "pub": "Fri, 17 Jul 2026 23:20:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"中 메모리 안돼\" 美 의원들 초강수…K메모리 '호재' 될까",
       "link": "https://www.hankyung.com/article/2026071710747",
       "source": "한국경제",
       "ts": 1784289601000,
       "pub": "Fri, 17 Jul 2026 21:00:01 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "日키옥시아 시총 반토막…亞 반도체 일제히 급락",
-      "link": "https://www.hankyung.com/article/2026071712541",
-      "source": "한국경제",
-      "ts": 1784278085000,
-      "pub": "Fri, 17 Jul 2026 17:48:05 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "美의회, 中메모리칩 구매금지 촉구…\"韓·日·EU와 협력하라\"",

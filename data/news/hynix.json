@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-17T20:45:26.727Z",
+  "updated_at": "2026-07-17T21:40:12.779Z",
   "count": 16,
   "items": [
+    {
+      "title": "뉴욕증시, 반도체 매도세 지속에 하락…나스닥 1.4%↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260718007951072",
+      "source": "연합뉴스 국제",
+      "ts": 1784321222000,
+      "pub": "Sat, 18 Jul 2026 05:47:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "뉴욕증시, 반도체 매도세 지속에 하락…나스닥 1.4%↓",
       "link": "https://www.yna.co.kr/view/AKR20260718007900072",
@@ -10,14 +18,6 @@
       "ts": 1784318956000,
       "pub": "Sat, 18 Jul 2026 05:09:16 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "애플, 장중 한때 엔비디아 제치고 시총 1위 탈환…AI 반도체 약세",
-      "link": "https://www.mt.co.kr/world/2026/07/18/2026071723313122652",
-      "source": "머니투데이",
-      "ts": 1784300443000,
-      "pub": "Sat, 18 Jul 2026 00:00:43 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "애플, 엔비디아 제치고 장중 글로벌 시총 1위 탈환",

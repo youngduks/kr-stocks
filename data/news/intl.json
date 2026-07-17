@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-17T04:51:47.708Z",
-  "count": 43,
+  "updated_at": "2026-07-17T07:08:46.606Z",
+  "count": 39,
   "items": [
+    {
+      "title": "[쇼츠] \"러 선박 147척 타격\"…'드론 장관' 해임에 들끓는 우크라",
+      "link": "https://www.yna.co.kr/view/AKR20260717044600704",
+      "source": "연합뉴스 국제",
+      "ts": 1784271720000,
+      "pub": "Fri, 17 Jul 2026 16:02:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 우크라 \"러 그림자함대 선박 147척 타격\"…'드론장관' 전격 해임",
+      "link": "https://www.yna.co.kr/view/AKR20260717042000704",
+      "source": "연합뉴스 국제",
+      "ts": 1784269582000,
+      "pub": "Fri, 17 Jul 2026 15:26:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프 글 먼저 보려면 돈 내라\"…트루스소셜, '빨리 보기' 유료 판매",
+      "link": "https://www.mt.co.kr/world/2026/07/17/2026071714435397467",
+      "source": "머니투데이",
+      "ts": 1784268320000,
+      "pub": "Fri, 17 Jul 2026 15:05:20 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 연설 대신 동물 쇼 방송…美언론사 우르르 생중계 거부",
       "link": "https://www.yna.co.kr/view/AKR20260717034500009",
@@ -116,43 +140,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"트럼프, '거짓' 소식통에 또 속아\"…이란 사법부, '미국인 석방' 부인",
-      "link": "https://www.mt.co.kr/world/2026/07/17/2026071708022493030",
-      "source": "머니투데이",
-      "ts": 1784243440000,
-      "pub": "Fri, 17 Jul 2026 08:10:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미국 추가관세 방어 나선 LG화학…접착제·실란트 특수원료 예외 요청",
-      "link": "https://www.mt.co.kr/industry/2026/07/17/2026071614085633258",
-      "source": "머니투데이",
-      "ts": 1784242200000,
-      "pub": "Fri, 17 Jul 2026 07:50:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "'미중경쟁 첨병' 화웨이, AI칩 수천장 묶은 아틀라스950 첫 공개",
       "link": "https://www.yna.co.kr/view/AKR20260717010700089",
       "source": "연합뉴스 국제",
       "ts": 1784241901000,
       "pub": "Fri, 17 Jul 2026 07:45:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "수상한 베팅범 잡고보니...트럼프 연설 보좌관, 1.5억 챙겼다",
-      "link": "https://www.mt.co.kr/world/2026/07/17/2026071707142581924",
-      "source": "머니투데이",
-      "ts": 1784240978000,
-      "pub": "Fri, 17 Jul 2026 07:29:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美연준서 다시 나온 금리인상론…\"지금 올리는 게 낫다\"",
-      "link": "https://www.mt.co.kr/world/2026/07/17/2026071706320439010",
-      "source": "머니투데이",
-      "ts": 1784239238000,
-      "pub": "Fri, 17 Jul 2026 07:00:38 +0900",
       "sentiment": "neutral"
     },
     {
@@ -313,30 +305,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784190564000,
       "pub": "Thu, 16 Jul 2026 17:29:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "드론전 주도 우크라 국방장관 교체 논란…'왜 바꾸나' 반대 시위",
-      "link": "https://www.yna.co.kr/view/AKR20260716176300109",
-      "source": "연합뉴스 국제",
-      "ts": 1784189229000,
-      "pub": "Thu, 16 Jul 2026 17:07:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] \"트럼프 책상에 오른 '지상군 투입 작전'\"…이란의 '급소'는",
-      "link": "https://www.yna.co.kr/view/AKR20260716173800704",
-      "source": "연합뉴스 국제",
-      "ts": 1784188145000,
-      "pub": "Thu, 16 Jul 2026 16:49:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미국·이스라엘 국방장관 통화…이란 군사작전 논의",
-      "link": "https://www.yna.co.kr/view/AKR20260716169300079",
-      "source": "연합뉴스 국제",
-      "ts": 1784187681000,
-      "pub": "Thu, 16 Jul 2026 16:41:21 +0900",
       "sentiment": "neutral"
     },
     {

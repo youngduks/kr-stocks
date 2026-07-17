@@ -1,46 +1,14 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-16T23:47:03.479Z",
-  "count": 37,
+  "updated_at": "2026-07-17T01:27:47.495Z",
+  "count": 30,
   "items": [
-    {
-      "title": "\"트럼프, '거짓' 소식통에 또 속아\"…이란 사법부, '미국인 석방' 부인",
-      "link": "https://www.mt.co.kr/world/2026/07/17/2026071708022493030",
-      "source": "머니투데이",
-      "ts": 1784243440000,
-      "pub": "Fri, 17 Jul 2026 08:10:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미국 추가관세 방어 나선 LG화학…접착제·실란트 특수원료 예외 요청",
-      "link": "https://www.mt.co.kr/industry/2026/07/17/2026071614085633258",
-      "source": "머니투데이",
-      "ts": 1784242200000,
-      "pub": "Fri, 17 Jul 2026 07:50:00 +0900",
-      "sentiment": "neutral"
-    },
     {
       "title": "'미중경쟁 첨병' 화웨이, AI칩 수천장 묶은 아틀라스950 첫 공개",
       "link": "https://www.yna.co.kr/view/AKR20260717010700089",
       "source": "연합뉴스 국제",
       "ts": 1784241901000,
       "pub": "Fri, 17 Jul 2026 07:45:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "수상한 베팅범 잡고보니...트럼프 연설 보좌관, 1.5억 챙겼다",
-      "link": "https://www.mt.co.kr/world/2026/07/17/2026071707142581924",
-      "source": "머니투데이",
-      "ts": 1784240978000,
-      "pub": "Fri, 17 Jul 2026 07:29:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美연준서 다시 나온 금리인상론…\"지금 올리는 게 낫다\"",
-      "link": "https://www.mt.co.kr/world/2026/07/17/2026071706320439010",
-      "source": "머니투데이",
-      "ts": 1784239238000,
-      "pub": "Fri, 17 Jul 2026 07:00:38 +0900",
       "sentiment": "neutral"
     },
     {
@@ -89,14 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784219969000,
       "pub": "Fri, 17 Jul 2026 01:39:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 '25% 관세' 때리자 브라질 맞불…\"보복 조치 착수\"",
-      "link": "https://www.mt.co.kr/world/2026/07/17/2026071701231796293",
-      "source": "머니투데이",
-      "ts": 1784219204000,
-      "pub": "Fri, 17 Jul 2026 01:26:44 +0900",
       "sentiment": "neutral"
     },
     {
@@ -169,14 +129,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784208440000,
       "pub": "Thu, 16 Jul 2026 22:27:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 대통령 \"이란, 억류 미국인 석방…선의의 제스쳐\"",
-      "link": "https://www.mt.co.kr/world/2026/07/16/2026071621141179460",
-      "source": "머니투데이",
-      "ts": 1784204827000,
-      "pub": "Thu, 16 Jul 2026 21:27:07 +0900",
       "sentiment": "neutral"
     },
     {
@@ -289,14 +241,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784181578000,
       "pub": "Thu, 16 Jul 2026 14:59:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "호르무즈처럼 러 아조우해 봉쇄한 우크라…곡물 수출길도 막혀",
-      "link": "https://www.yna.co.kr/view/AKR20260716099600009",
-      "source": "연합뉴스 국제",
-      "ts": 1784170368000,
-      "pub": "Thu, 16 Jul 2026 11:52:48 +0900",
       "sentiment": "neutral"
     }
   ]

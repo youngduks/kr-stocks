@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-17T07:08:46.608Z",
-  "count": 18,
+  "updated_at": "2026-07-17T09:44:41.325Z",
+  "count": 16,
   "items": [
+    {
+      "title": "日키옥시아 시총 반토막…亞 반도체 일제히 급락",
+      "link": "https://www.hankyung.com/article/2026071712541",
+      "source": "한국경제",
+      "ts": 1784278085000,
+      "pub": "Fri, 17 Jul 2026 17:48:05 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "최태원 \"메모리 수요 지속…韓, 지능 수출해야\"",
+      "link": "https://www.hankyung.com/article/2026071711931",
+      "source": "한국경제",
+      "ts": 1784277640000,
+      "pub": "Fri, 17 Jul 2026 17:40:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "모비스·하만, 마이크론과 '車메모리' 장기 계약",
+      "link": "https://www.hankyung.com/article/2026071711911",
+      "source": "한국경제",
+      "ts": 1784277551000,
+      "pub": "Fri, 17 Jul 2026 17:39:11 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美의회, 中메모리칩 구매금지 촉구…\"韓·日·EU와 협력하라\"",
       "link": "https://www.yna.co.kr/view/AKR20260717041700009",
@@ -12,52 +36,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "추락하는 키옥시아…\"반도체 겨울의 전조인가, 과도한 공포인가\"",
-      "link": "https://www.hankyung.com/article/202607170971i",
-      "source": "한국경제",
-      "ts": 1784265899000,
-      "pub": "Fri, 17 Jul 2026 14:24:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스 주가 급락? 최태원 회장 \"가만히 가지고 계시라\"",
-      "link": "https://www.mt.co.kr/industry/2026/07/17/2026071711045057722",
-      "source": "머니투데이",
-      "ts": 1784254149000,
-      "pub": "Fri, 17 Jul 2026 11:09:09 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "최태원, \"SK하이닉스 주식, 샀다 팔았다 말고 갖고 있으면 돼\"",
       "link": "https://www.yna.co.kr/view/AKR20260717026000003",
       "source": "연합뉴스 경제",
       "ts": 1784252284000,
       "pub": "Fri, 17 Jul 2026 10:38:04 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 우회투자 몰렸다…美 EWY ETF에 하루 11억달러 유입",
-      "link": "https://www.hankyung.com/article/202607170793i",
-      "source": "한국경제",
-      "ts": 1784250933000,
-      "pub": "Fri, 17 Jul 2026 10:15:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[고래사냥]'한미반도체·케이뱅크! 내일장 고래 종목은?!",
-      "link": "https://www.mt.co.kr/stock/2026/07/17/2026071709287020423",
-      "source": "머니투데이",
-      "ts": 1784249467000,
-      "pub": "Fri, 17 Jul 2026 09:51:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "TSMC 끝내줬지만, 반도체 4.3% 급락…스페이스X의 경착륙 [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202607170670i",
-      "source": "한국경제",
-      "ts": 1784243503000,
-      "pub": "Fri, 17 Jul 2026 08:11:43 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "[마켓人] 여의도 '반도체 고수'…27년 경력 이승우 유진투자증권 센터장",

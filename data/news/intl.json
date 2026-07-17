@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-17T07:08:46.606Z",
-  "count": 39,
+  "updated_at": "2026-07-17T09:44:41.324Z",
+  "count": 32,
   "items": [
+    {
+      "title": "\"돈내고 트럼프 발언 먼저 봐\"…트루스소셜, 내달 상품 출시",
+      "link": "https://www.hankyung.com/article/2026071712381",
+      "source": "한국경제",
+      "ts": 1784278447000,
+      "pub": "Fri, 17 Jul 2026 17:54:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"中, 유권자 정보 수집\"…美언론 \"음모론 재탕\"",
+      "link": "https://www.hankyung.com/article/2026071712391",
+      "source": "한국경제",
+      "ts": 1784278422000,
+      "pub": "Fri, 17 Jul 2026 17:53:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"관세 매겨도 저렴\"…포스코베트남, 철강 수출 거점 부상",
+      "link": "https://www.hankyung.com/article/2026071711921",
+      "source": "한국경제",
+      "ts": 1784277610000,
+      "pub": "Fri, 17 Jul 2026 17:40:10 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[쇼츠] \"러 선박 147척 타격\"…'드론 장관' 해임에 들끓는 우크라",
       "link": "https://www.yna.co.kr/view/AKR20260717044600704",
@@ -17,14 +41,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784269582000,
       "pub": "Fri, 17 Jul 2026 15:26:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 글 먼저 보려면 돈 내라\"…트루스소셜, '빨리 보기' 유료 판매",
-      "link": "https://www.mt.co.kr/world/2026/07/17/2026071714435397467",
-      "source": "머니투데이",
-      "ts": 1784268320000,
-      "pub": "Fri, 17 Jul 2026 15:05:20 +0900",
       "sentiment": "neutral"
     },
     {
@@ -60,30 +76,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "관세는 누가 부담하는가",
-      "link": "https://www.hankyung.com/article/202607156263i",
-      "source": "한국경제",
-      "ts": 1784257205000,
-      "pub": "Fri, 17 Jul 2026 12:00:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"중국이 유권자 정보 탈취…바이든 투표용지 제작 시도\" [종합]",
-      "link": "https://www.hankyung.com/article/2026071708937",
-      "source": "한국경제",
-      "ts": 1784256651000,
-      "pub": "Fri, 17 Jul 2026 11:50:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'부정선거' 꺼낸 트럼프 \"중국, 미 유권자 2.2억건 불법 취득\"",
-      "link": "https://www.mt.co.kr/world/2026/07/17/2026071711013649476",
-      "source": "머니투데이",
-      "ts": 1784253935000,
-      "pub": "Fri, 17 Jul 2026 11:05:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 SNS 게시글, 남들보다 빨리 보려면 내달부터 돈내야",
       "link": "https://www.yna.co.kr/view/AKR20260717025000009",
       "source": "연합뉴스 국제",
@@ -100,43 +92,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[속보]트럼프 \"중국·러시아·이란·북한, 美 선거시스템에 위협\"",
-      "link": "https://www.mt.co.kr/world/2026/07/17/2026071710303510700",
-      "source": "머니투데이",
-      "ts": 1784251880000,
-      "pub": "Fri, 17 Jul 2026 10:31:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"중국·러시아·이란·북한, 미국 선거에 위협\"",
-      "link": "https://www.hankyung.com/article/2026071708137",
-      "source": "한국경제",
-      "ts": 1784251601000,
-      "pub": "Fri, 17 Jul 2026 10:26:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] 트럼프 \"중국·러시아·이란·북한, 미국 선거시스템에 위협\"",
       "link": "https://www.yna.co.kr/view/AKR20260717025500071",
       "source": "연합뉴스 국제",
       "ts": 1784251499000,
       "pub": "Fri, 17 Jul 2026 10:24:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]트럼프 \"中, 2018년 2020년 미국 선거에 영향 미치려 시도\"",
-      "link": "https://www.mt.co.kr/world/2026/07/17/2026071710220311964",
-      "source": "머니투데이",
-      "ts": 1784251398000,
-      "pub": "Fri, 17 Jul 2026 10:23:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 대선 이후 모금액 1조원대…백악관 밖 '깜깜이 금고' 논란",
-      "link": "https://www.mt.co.kr/world/2026/07/17/2026071709025132008",
-      "source": "머니투데이",
-      "ts": 1784248109000,
-      "pub": "Fri, 17 Jul 2026 09:28:29 +0900",
       "sentiment": "neutral"
     },
     {
@@ -289,22 +249,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784193164000,
       "pub": "Thu, 16 Jul 2026 18:12:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "퇴임 앞둔 스타머 키이우행…\"총리 바뀌어도 우크라 지원 계속\"",
-      "link": "https://www.yna.co.kr/view/AKR20260716186600085",
-      "source": "연합뉴스 국제",
-      "ts": 1784190964000,
-      "pub": "Thu, 16 Jul 2026 17:36:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "바이든, 美 중간선거 직후 회고록 출간…재선 포기 결정 담는다",
-      "link": "https://www.yna.co.kr/view/AKR20260716184300009",
-      "source": "연합뉴스 국제",
-      "ts": 1784190564000,
-      "pub": "Thu, 16 Jul 2026 17:29:24 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,14 +1,158 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-17T01:27:47.495Z",
-  "count": 30,
+  "updated_at": "2026-07-17T04:51:47.708Z",
+  "count": 43,
   "items": [
+    {
+      "title": "트럼프 연설 대신 동물 쇼 방송…美언론사 우르르 생중계 거부",
+      "link": "https://www.yna.co.kr/view/AKR20260717034500009",
+      "source": "연합뉴스 국제",
+      "ts": 1784263401000,
+      "pub": "Fri, 17 Jul 2026 13:43:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 관세에 브라질 대선판 변수…오히려 좌파에 호재",
+      "link": "https://www.yna.co.kr/view/AKR20260717034700009",
+      "source": "연합뉴스 국제",
+      "ts": 1784262866000,
+      "pub": "Fri, 17 Jul 2026 13:34:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중간선거 앞둔 트럼프, 강성지지층 겨냥 부정선거론 26분 연설",
+      "link": "https://www.yna.co.kr/view/AKR20260717033000071",
+      "source": "연합뉴스 국제",
+      "ts": 1784261437000,
+      "pub": "Fri, 17 Jul 2026 13:10:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"中, 2020년 대선 광범위 개입\"…美언론들 \"음모론 재탕\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260717026151071",
+      "source": "연합뉴스 국제",
+      "ts": 1784257442000,
+      "pub": "Fri, 17 Jul 2026 12:04:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "관세는 누가 부담하는가",
+      "link": "https://www.hankyung.com/article/202607156263i",
+      "source": "한국경제",
+      "ts": 1784257205000,
+      "pub": "Fri, 17 Jul 2026 12:00:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"중국이 유권자 정보 탈취…바이든 투표용지 제작 시도\" [종합]",
+      "link": "https://www.hankyung.com/article/2026071708937",
+      "source": "한국경제",
+      "ts": 1784256651000,
+      "pub": "Fri, 17 Jul 2026 11:50:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'부정선거' 꺼낸 트럼프 \"중국, 미 유권자 2.2억건 불법 취득\"",
+      "link": "https://www.mt.co.kr/world/2026/07/17/2026071711013649476",
+      "source": "머니투데이",
+      "ts": 1784253935000,
+      "pub": "Fri, 17 Jul 2026 11:05:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 SNS 게시글, 남들보다 빨리 보려면 내달부터 돈내야",
+      "link": "https://www.yna.co.kr/view/AKR20260717025000009",
+      "source": "연합뉴스 국제",
+      "ts": 1784252794000,
+      "pub": "Fri, 17 Jul 2026 10:46:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"中, 2020 대선서 美유권자 정보 2억2천만건 불법 확보\"",
+      "link": "https://www.yna.co.kr/view/AKR20260717026100071",
+      "source": "연합뉴스 국제",
+      "ts": 1784252287000,
+      "pub": "Fri, 17 Jul 2026 10:38:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]트럼프 \"중국·러시아·이란·북한, 美 선거시스템에 위협\"",
+      "link": "https://www.mt.co.kr/world/2026/07/17/2026071710303510700",
+      "source": "머니투데이",
+      "ts": 1784251880000,
+      "pub": "Fri, 17 Jul 2026 10:31:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"중국·러시아·이란·북한, 미국 선거에 위협\"",
+      "link": "https://www.hankyung.com/article/2026071708137",
+      "source": "한국경제",
+      "ts": 1784251601000,
+      "pub": "Fri, 17 Jul 2026 10:26:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"중국·러시아·이란·북한, 미국 선거시스템에 위협\"",
+      "link": "https://www.yna.co.kr/view/AKR20260717025500071",
+      "source": "연합뉴스 국제",
+      "ts": 1784251499000,
+      "pub": "Fri, 17 Jul 2026 10:24:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]트럼프 \"中, 2018년 2020년 미국 선거에 영향 미치려 시도\"",
+      "link": "https://www.mt.co.kr/world/2026/07/17/2026071710220311964",
+      "source": "머니투데이",
+      "ts": 1784251398000,
+      "pub": "Fri, 17 Jul 2026 10:23:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 대선 이후 모금액 1조원대…백악관 밖 '깜깜이 금고' 논란",
+      "link": "https://www.mt.co.kr/world/2026/07/17/2026071709025132008",
+      "source": "머니투데이",
+      "ts": 1784248109000,
+      "pub": "Fri, 17 Jul 2026 09:28:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, '거짓' 소식통에 또 속아\"…이란 사법부, '미국인 석방' 부인",
+      "link": "https://www.mt.co.kr/world/2026/07/17/2026071708022493030",
+      "source": "머니투데이",
+      "ts": 1784243440000,
+      "pub": "Fri, 17 Jul 2026 08:10:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미국 추가관세 방어 나선 LG화학…접착제·실란트 특수원료 예외 요청",
+      "link": "https://www.mt.co.kr/industry/2026/07/17/2026071614085633258",
+      "source": "머니투데이",
+      "ts": 1784242200000,
+      "pub": "Fri, 17 Jul 2026 07:50:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'미중경쟁 첨병' 화웨이, AI칩 수천장 묶은 아틀라스950 첫 공개",
       "link": "https://www.yna.co.kr/view/AKR20260717010700089",
       "source": "연합뉴스 국제",
       "ts": 1784241901000,
       "pub": "Fri, 17 Jul 2026 07:45:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "수상한 베팅범 잡고보니...트럼프 연설 보좌관, 1.5억 챙겼다",
+      "link": "https://www.mt.co.kr/world/2026/07/17/2026071707142581924",
+      "source": "머니투데이",
+      "ts": 1784240978000,
+      "pub": "Fri, 17 Jul 2026 07:29:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美연준서 다시 나온 금리인상론…\"지금 올리는 게 낫다\"",
+      "link": "https://www.mt.co.kr/world/2026/07/17/2026071706320439010",
+      "source": "머니투데이",
+      "ts": 1784239238000,
+      "pub": "Fri, 17 Jul 2026 07:00:38 +0900",
       "sentiment": "neutral"
     },
     {
@@ -100,14 +244,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 행정부, 외국인 유학생 비자 4년으로 제한",
-      "link": "https://www.hankyung.com/article/2026071605127",
-      "source": "한국경제",
-      "ts": 1784211460000,
-      "pub": "Thu, 16 Jul 2026 23:17:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "우크라 새 전시 내각 출범…'드론전 주도' 국방장관 거취 주목",
       "link": "https://www.yna.co.kr/view/AKR20260716213700109",
       "source": "연합뉴스 국제",
@@ -129,14 +265,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784208440000,
       "pub": "Thu, 16 Jul 2026 22:27:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란, 억류 미국인 출국 허용…선의의 제스처에 감사\"",
-      "link": "https://www.hankyung.com/article/2026071604537",
-      "source": "한국경제",
-      "ts": 1784204538000,
-      "pub": "Thu, 16 Jul 2026 21:22:18 +0900",
       "sentiment": "neutral"
     },
     {
@@ -217,30 +345,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784186064000,
       "pub": "Thu, 16 Jul 2026 16:14:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "지원중단 부결됐지만…美정치권 '이스라엘 무조건 지지' 균열",
-      "link": "https://www.yna.co.kr/view/AKR20260716152800009",
-      "source": "연합뉴스 국제",
-      "ts": 1784184473000,
-      "pub": "Thu, 16 Jul 2026 15:47:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 대국민 연설 '2020년 美대선에 中 개입' 입여나",
-      "link": "https://www.yna.co.kr/view/AKR20260716145600009",
-      "source": "연합뉴스 국제",
-      "ts": 1784183912000,
-      "pub": "Thu, 16 Jul 2026 15:38:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, 브라질산 수입품에 25% 관세…무역법 301조 근거로 부과",
-      "link": "https://www.yna.co.kr/view/AKR20260716135300009",
-      "source": "연합뉴스 국제",
-      "ts": 1784181578000,
-      "pub": "Thu, 16 Jul 2026 14:59:38 +0900",
       "sentiment": "neutral"
     }
   ]

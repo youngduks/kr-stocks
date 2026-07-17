@@ -1,14 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-17T01:27:47.496Z",
-  "count": 8,
+  "updated_at": "2026-07-17T04:51:47.709Z",
+  "count": 9,
   "items": [
     {
-      "title": "\"도박판보다 심해\"…한 달 새 7조 빨아들인 삼전닉스 레버리지",
+      "title": "'도박보다 무섭다'…7조 빨아들인 삼전닉스 레버리지 '공포'",
       "link": "https://www.hankyung.com/article/2026071707247",
       "source": "한국경제",
       "ts": 1784247648000,
       "pub": "Fri, 17 Jul 2026 09:20:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "창신메모리, 15조 '중국 최대 IPO'...직원들 평균 2.2억 돈방석",
+      "link": "https://www.mt.co.kr/world/2026/07/17/2026071708420315004",
+      "source": "머니투데이",
+      "ts": 1784245754000,
+      "pub": "Fri, 17 Jul 2026 08:49:14 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-18T22:37:03.098Z",
+  "updated_at": "2026-07-18T23:40:57.873Z",
   "count": 16,
   "items": [
+    {
+      "title": "반도체 공장 짓기 '딱'…\"전기 부족\" 아우성인데 \"우린 쓰고도 남아\"",
+      "link": "https://www.mt.co.kr/industry/2026/07/19/2026071823054125244",
+      "source": "머니투데이",
+      "ts": 1784415600000,
+      "pub": "Sun, 19 Jul 2026 08:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "공개 임박 삼성전자 8세대 갤럭시 Z…비메모리 반등 이끌까",
       "link": "https://www.yna.co.kr/view/AKR20260716190800003",
@@ -36,12 +44,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'딥시크 악몽' 시즌2…'가성비 모델' 역습, 반도체엔 강세? [빈난새의 빈틈없이월가]",
+      "title": "\"싸지면 더 쓴다\"…'가성비 AI'가 뒤흔든 반도체 폭락의 역설 [빈난새의 빈틈없이월가]",
       "link": "https://www.hankyung.com/article/202607192100i",
       "source": "한국경제",
       "ts": 1784405054000,
       "pub": "Sun, 19 Jul 2026 05:04:14 +0900",
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "title": "박홍근 \"반도체 호황기 급격히 안 꺼져…청년 정책에 대폭 투자\"",
@@ -49,14 +57,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784354612000,
       "pub": "Sat, 18 Jul 2026 15:03:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "청주에서 뉴욕까지…HBM 개척 '메모리 마스터' 최태원의 발자취 [강경주의 테크X]",
-      "link": "https://www.hankyung.com/article/2026071699946",
-      "source": "한국경제",
-      "ts": 1784350805000,
-      "pub": "Sat, 18 Jul 2026 14:00:05 +0900",
       "sentiment": "neutral"
     },
     {

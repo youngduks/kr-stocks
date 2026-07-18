@@ -27,11 +27,13 @@ const I18N = {
     disclaimerBody:
       "본 서비스는 정보 제공만을 목적으로 하며, 투자 권유·자문·예측이 아닙니다. 표시 가격은 perp DEX 시세로 정규장 거래소 가격과 차이가 있을 수 있습니다. 비상장 회사 가격은 implied valuation 기반의 추정치입니다.",
     copyrightSuffix: "Not investment advice.",
+    privacyLabel: "개인정보처리방침",
     consensusHref: "/consensus",
     newsHref: "/news",
     pollHref: "/poll",
     guideHref: "/guide/hyperliquid-onramp",
     guideBinanceHref: "/guide/binance-korea-stocks",
+    privacyHref: "/privacy",
     mailtoSubject: "[광고문의] kr-stocks.com",
     mailtoBody:
       "■ 업체명:\n■ 담당자:\n■ 상품/서비스:\n■ 희망 지면/기간:\n■ 예산:\n■ 문의내용:\n",
@@ -62,11 +64,13 @@ const I18N = {
     disclaimerBody:
       "This service is for informational purposes only and is not investment advice or solicitation. Prices shown are perp DEX quotes and may diverge from regular-session exchange prices. Private company prices are implied-valuation estimates.",
     copyrightSuffix: "Not investment advice.",
+    privacyLabel: "Privacy Policy",
     consensusHref: "/en/consensus",
     newsHref: "/news",
     pollHref: "/poll",
     guideHref: "/en/guide/hyperliquid-onramp",
     guideBinanceHref: "/en/guide/binance-korea-stocks",
+    privacyHref: "/privacy",
     mailtoSubject: "[Ad Inquiry] kr-stocks.com",
     mailtoBody:
       "■ Company:\n■ Contact:\n■ Product/Service:\n■ Desired placement/period:\n■ Budget:\n■ Message:\n",
@@ -180,7 +184,12 @@ export function Footer({ locale = "ko" }: { locale?: Locale } = {}) {
 
         <div className="mb-3 text-text-muted font-semibold">{t.disclaimer}</div>
         <p className="mb-3">{t.disclaimerBody}</p>
-        <p className="text-text-dim">© 2026 KR Stocks. {t.copyrightSuffix}</p>
+        <p className="text-text-dim">
+          © 2026 KR Stocks. {t.copyrightSuffix}{" "}
+          <Link href={t.privacyHref as any} className="text-accent-blue hover:underline">
+            {t.privacyLabel}
+          </Link>
+        </p>
       </div>
     </footer>
   );

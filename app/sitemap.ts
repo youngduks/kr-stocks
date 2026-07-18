@@ -62,6 +62,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "daily",
       priority: 0.8, // "청산맵" — 토큰화 주식 트레이더 키워드
     },
+    {
+      url: `${base}/privacy`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.3,
+    },
   ];
 
   // 영어 페이지 — 홈 + 가이드 + 컨센서스

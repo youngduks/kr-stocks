@@ -50,8 +50,9 @@ export default async function Home() {
           historyHref="/poll"
         />
 
-        {/* 카카오 AdFit 모바일 배너 (320×50) — PC는 별도 유닛 나올 때까지 숨김 */}
-        <KakaoAdFit unit="DAN-sRrDqAryVxJFyyGr" width={320} height={50} className="md:hidden" />
+        {/* 카카오 AdFit 배너 — 같은 자리에서 모바일/PC 유닛 반응형 전환 */}
+        <KakaoAdFit unit="DAN-sRrDqAryVxJFyyGr" width={320} height={50} className="flex md:hidden" />
+        <KakaoAdFit unit="DAN-1gxi6c73rjhTXT18" width={728} height={90} className="hidden md:flex" />
 
         {grouped.map(({ cat, label, rows }) => (
           <div key={cat}>

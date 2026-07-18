@@ -30,7 +30,10 @@ export function KakaoAdFit({ unit, width, height, className }: KakaoAdFitProps) 
   }, []);
 
   return (
-    <div ref={containerRef} className={`w-full flex justify-center my-4 ${className ?? ""}`}>
+    // display(flex/hidden)는 className이 전담 — 반응형으로 mobile/PC 유닛을 같은 자리에서
+    // 전환할 때 기본값과 겹쳐서 우선순위가 꼬이는 걸 방지 (호출부에서 "flex md:hidden" /
+    // "hidden md:flex" 형태로 완전히 명시)
+    <div ref={containerRef} className={`w-full justify-center my-4 ${className ?? ""}`}>
       <ins
         className="kakao_ad_area"
         style={{ display: "none" }}

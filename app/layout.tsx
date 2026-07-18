@@ -73,6 +73,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }}
         />
+        {/* Google AdSense 사이트 소유권 확인 + 광고 로더 (client=ca-pub-5171852166925849) */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5171852166925849"
+          crossOrigin="anonymous"
+        />
       </head>
       <body className="min-h-screen bg-bg text-text">
         <ThemeProvider>{children}</ThemeProvider>

@@ -111,13 +111,15 @@ export function middleware(req: NextRequest) {
   const ua = req.headers.get("user-agent") || "";
   const path = req.nextUrl.pathname;
 
-  // 정적 자산 / API / SEO 메타 통과 (성능 + sitemap/robots 자체는 봇이 접근 OK)
+  // 정적 자산 / API / SEO 메타 통과 (성능 + sitemap/robots/ads.txt 자체는 봇이 접근 OK)
+  // ads.txt는 Google 정책상 크롤러가 무조건 접근 가능해야 함 (robots.txt로도 차단 금지 명시)
   if (
     path.startsWith("/_next/") ||
     path.startsWith("/api/") ||
     path === "/favicon.ico" ||
     path === "/robots.txt" ||
     path === "/sitemap.xml" ||
+    path === "/ads.txt" ||
     path.startsWith("/opengraph-image") ||
     path.startsWith("/icon")
   ) {

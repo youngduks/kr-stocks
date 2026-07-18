@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-18T01:19:34.957Z",
-  "count": 18,
+  "updated_at": "2026-07-18T04:37:10.591Z",
+  "count": 19,
   "items": [
+    {
+      "title": "미군 중동에 재집결…\"미, 이스라엘에 공중급유기 증강 통보\"",
+      "link": "https://www.hankyung.com/article/2026071817427",
+      "source": "한국경제",
+      "ts": 1784341804000,
+      "pub": "Sat, 18 Jul 2026 11:30:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중동에 다시 미군 집결…\"미, 이스라엘에 공중급유기 증강 통보\"",
+      "link": "https://www.yna.co.kr/view/AKR20260718022600009",
+      "source": "연합뉴스 국제",
+      "ts": 1784340901000,
+      "pub": "Sat, 18 Jul 2026 11:15:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中, '대선 개입' 트럼프 주장에 \"악의적 비방…간섭한 적 없어\"",
+      "link": "https://www.yna.co.kr/view/AKR20260718024800083",
+      "source": "연합뉴스 국제",
+      "ts": 1784337876000,
+      "pub": "Sat, 18 Jul 2026 10:24:36 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 대사 초호화 요트로 이탈리아 해안 순회…\"기이한 외교\"",
       "link": "https://www.yna.co.kr/view/AKR20260718022300009",
@@ -33,14 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784318523000,
       "pub": "Sat, 18 Jul 2026 05:02:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 선거 개입 주장에…中 \"완전히 터무니 없어\"",
-      "link": "https://www.hankyung.com/article/2026071713497",
-      "source": "한국경제",
-      "ts": 1784288959000,
-      "pub": "Fri, 17 Jul 2026 20:49:19 +0900",
       "sentiment": "neutral"
     },
     {
@@ -129,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784241901000,
       "pub": "Fri, 17 Jul 2026 07:45:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "백악관, 트럼프 '부정선거론' 연설 앞두고 \"들으면 충격받을 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260717005600071",
-      "source": "연합뉴스 국제",
-      "ts": 1784230221000,
-      "pub": "Fri, 17 Jul 2026 04:30:21 +0900",
       "sentiment": "neutral"
     },
     {

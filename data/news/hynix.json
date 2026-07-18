@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-18T04:37:10.593Z",
-  "count": 14,
+  "updated_at": "2026-07-18T06:51:45.796Z",
+  "count": 15,
   "items": [
+    {
+      "title": "박홍근 \"반도체 호황기 급격히 안 꺼져…청년 정책에 대폭 투자\"",
+      "link": "https://www.yna.co.kr/view/AKR20260718032300002",
+      "source": "연합뉴스 경제",
+      "ts": 1784354612000,
+      "pub": "Sat, 18 Jul 2026 15:03:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "청주에서 뉴욕까지…HBM 개척 '메모리 마스터' 최태원의 발자취 [강경주의 테크X]",
+      "link": "https://www.hankyung.com/article/2026071699946",
+      "source": "한국경제",
+      "ts": 1784350805000,
+      "pub": "Sat, 18 Jul 2026 14:00:05 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "월가 덮친 '중국산 AI' 쇼크…반도체 부활 기회 남았나 [월가 백브리핑]",
       "link": "https://www.hankyung.com/article/202607181616i",
@@ -17,14 +33,6 @@
       "source": "한국경제",
       "ts": 1784329308000,
       "pub": "Sat, 18 Jul 2026 08:01:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체주 매도세에 일제 하락…나스닥 1.4%↓ [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026071815657",
-      "source": "한국경제",
-      "ts": 1784328011000,
-      "pub": "Sat, 18 Jul 2026 07:40:11 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-18T04:37:10.591Z",
-  "count": 19,
+  "updated_at": "2026-07-18T06:51:45.795Z",
+  "count": 20,
   "items": [
+    {
+      "title": "\"방문·경유 신중히 판단해야\"…美 국무부, 중동 여행 경고",
+      "link": "https://www.hankyung.com/article/2026071818677",
+      "source": "한국경제",
+      "ts": 1784355386000,
+      "pub": "Sat, 18 Jul 2026 15:16:26 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프 SNS 게시물 '1천분의 1초' 먼저 보려면 월 1억5천만원",
+      "link": "https://www.yna.co.kr/view/AKR20260718031100009",
+      "source": "연합뉴스 국제",
+      "ts": 1784352730000,
+      "pub": "Sat, 18 Jul 2026 14:32:10 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "미군 중동에 재집결…\"미, 이스라엘에 공중급유기 증강 통보\"",
       "link": "https://www.hankyung.com/article/2026071817427",
@@ -137,14 +153,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784251499000,
       "pub": "Fri, 17 Jul 2026 10:24:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'미중경쟁 첨병' 화웨이, AI칩 수천장 묶은 아틀라스950 첫 공개",
-      "link": "https://www.yna.co.kr/view/AKR20260717010700089",
-      "source": "연합뉴스 국제",
-      "ts": 1784241901000,
-      "pub": "Fri, 17 Jul 2026 07:45:01 +0900",
       "sentiment": "neutral"
     },
     {

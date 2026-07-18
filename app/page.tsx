@@ -8,6 +8,7 @@ import { SemiconductorSignal } from "@/components/SemiconductorSignal";
 import { PollWidget } from "@/components/PollWidget";
 import AffiliateStrip from "@/components/AffiliateStrip";
 import { fetchSemiSignal } from "@/lib/semiSignal";
+import { KakaoAdFit } from "@/components/KakaoAdFit";
 
 export const revalidate = 120; // ISR 캐시 30s → 120s (Free tier 최적화, 5/25)
 
@@ -48,6 +49,9 @@ export default async function Home() {
           noLabel="📉 하락"
           historyHref="/poll"
         />
+
+        {/* 카카오 AdFit 모바일 배너 (320×50) — PC는 별도 유닛 나올 때까지 숨김 */}
+        <KakaoAdFit unit="DAN-sRrDqAryVxJFyyGr" width={320} height={50} className="md:hidden" />
 
         {grouped.map(({ cat, label, rows }) => (
           <div key={cat}>

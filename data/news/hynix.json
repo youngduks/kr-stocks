@@ -1,8 +1,40 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-18T20:41:25.306Z",
-  "count": 14,
+  "updated_at": "2026-07-18T21:38:47.560Z",
+  "count": 17,
   "items": [
+    {
+      "title": "공개 임박 삼성전자 8세대 갤럭시 Z…비메모리 반등 이끌까",
+      "link": "https://www.yna.co.kr/view/AKR20260716190800003",
+      "source": "연합뉴스 경제",
+      "ts": 1784409191000,
+      "pub": "Sun, 19 Jul 2026 06:13:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 꺾이고 코스피 출렁여도…주가 선방한 식품기업 '3인방'",
+      "link": "https://www.yna.co.kr/view/AKR20260718042000030",
+      "source": "연합뉴스 경제",
+      "ts": 1784409001000,
+      "pub": "Sun, 19 Jul 2026 06:10:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 ADR, 美반도체 약세에도 본주 대비 '25% 프리미엄'",
+      "link": "https://www.yna.co.kr/view/AKR20260717057600008",
+      "source": "연합뉴스 경제",
+      "ts": 1784408582000,
+      "pub": "Sun, 19 Jul 2026 06:03:02 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[마켓인사이트] 제헌절 연휴 美반도체 하락지속…韓증시 짓누르나",
+      "link": "https://www.yna.co.kr/view/AKR20260717057700008",
+      "source": "연합뉴스 경제",
+      "ts": 1784408418000,
+      "pub": "Sun, 19 Jul 2026 06:00:18 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'딥시크 악몽' 시즌2...'가성비 모델' 역습, 반도체엔 강세? [빈난새의 빈틈없이월가]",
       "link": "https://www.hankyung.com/article/202607192100i",
@@ -106,14 +138,6 @@
       "ts": 1784185509000,
       "pub": "Thu, 16 Jul 2026 16:05:09 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "원주시 반도체 인재 양성 '결실'…수료생 2년 연속 전원 취업",
-      "link": "https://www.yna.co.kr/view/AKR20260716145500062",
-      "source": "연합뉴스 경제",
-      "ts": 1784182864000,
-      "pub": "Thu, 16 Jul 2026 15:21:04 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

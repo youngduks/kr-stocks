@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-19T07:26:14.905Z",
-  "count": 15,
+  "updated_at": "2026-07-19T09:42:40.306Z",
+  "count": 17,
   "items": [
+    {
+      "title": "김정은, 연내 푸틴 만나나…北외무 9개월만에 러 방문",
+      "link": "https://www.hankyung.com/article/2026071928311",
+      "source": "한국경제",
+      "ts": 1784452714000,
+      "pub": "Sun, 19 Jul 2026 18:18:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한달에 10만달러 내면 트럼프 SNS 먼저 본다",
+      "link": "https://www.hankyung.com/article/2026071928851",
+      "source": "한국경제",
+      "ts": 1784452401000,
+      "pub": "Sun, 19 Jul 2026 18:13:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"美산불 진화 도왔는데…\" 캐나다, 트럼프 '산불 관세'에 버럭",
+      "link": "https://www.yna.co.kr/view/AKR20260719044400009",
+      "source": "연합뉴스 국제",
+      "ts": 1784449338000,
+      "pub": "Sun, 19 Jul 2026 17:22:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이스라엘, 개인용 드론 비행금지 검토…네타냐후 암살 우려\"",
+      "link": "https://www.yna.co.kr/view/AKR20260719042900108",
+      "source": "연합뉴스 국제",
+      "ts": 1784447831000,
+      "pub": "Sun, 19 Jul 2026 16:57:11 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "\"아르헨티나 우승\" 귀여운 월드 스타... 하마 무뎅의 예언, 지난 번엔 트럼프 당선 맞혔다",
       "link": "https://www.mt.co.kr/sports/2026/07/19/2026071914300689141",
@@ -33,14 +65,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784441680000,
       "pub": "Sun, 19 Jul 2026 15:14:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"미리 볼 수 있다\"…트럼프 글 먼저 보는 월 '1억5000원'서비스 검토",
-      "link": "https://www.hankyung.com/article/2026071926037",
-      "source": "한국경제",
-      "ts": 1784439672000,
-      "pub": "Sun, 19 Jul 2026 14:41:12 +0900",
       "sentiment": "neutral"
     },
     {
@@ -113,14 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784329912000,
       "pub": "Sat, 18 Jul 2026 08:11:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "캐나다 산불 연기에도 美관세?…트럼프 \"대기오염비 가산돼야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260718007200071",
-      "source": "연합뉴스 국제",
-      "ts": 1784318523000,
-      "pub": "Sat, 18 Jul 2026 05:02:03 +0900",
       "sentiment": "neutral"
     }
   ]

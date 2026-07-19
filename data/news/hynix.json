@@ -1,14 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-19T07:26:14.906Z",
-  "count": 23,
+  "updated_at": "2026-07-19T09:42:40.308Z",
+  "count": 18,
   "items": [
     {
-      "title": "초고수들은 반도체 조정장서 '저가매수'...알테오젠·성호전자도 담아",
-      "link": "https://www.hankyung.com/article/202607192670i",
+      "title": "\"中AI 탓에 인프라 투자 둔화\"…\"반도체 강세장 더 길어질 것\"",
+      "link": "https://www.hankyung.com/article/2026071929041",
       "source": "한국경제",
-      "ts": 1784444750000,
-      "pub": "Sun, 19 Jul 2026 16:05:50 +0900",
+      "ts": 1784452506000,
+      "pub": "Sun, 19 Jul 2026 18:15:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'AI 거품론' 시험대 오른 알파벳 실적…반도체 불안 잠재울까",
+      "link": "https://www.hankyung.com/article/2026071929021",
+      "source": "한국경제",
+      "ts": 1784452497000,
+      "pub": "Sun, 19 Jul 2026 18:14:57 +0900",
       "sentiment": "neutral"
     },
     {
@@ -17,14 +25,6 @@
       "source": "머니투데이",
       "ts": 1784442588000,
       "pub": "Sun, 19 Jul 2026 15:29:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "최태원 \"내년 반도체 수요 '아비규환'급…증설 만이 생명줄\"",
-      "link": "https://www.hankyung.com/article/2026071926187",
-      "source": "한국경제",
-      "ts": 1784440088000,
-      "pub": "Sun, 19 Jul 2026 14:48:08 +0900",
       "sentiment": "neutral"
     },
     {
@@ -44,27 +44,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "SK하이닉스 ADR 효과…7월 원화 절상률 주요국 1위",
-      "link": "https://www.hankyung.com/article/2026071925657",
-      "source": "한국경제",
-      "ts": 1784438460000,
-      "pub": "Sun, 19 Jul 2026 14:21:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"지을 수 있는 모든 곳에 반도체팹\"…증설전쟁 불붙었다",
       "link": "https://www.mt.co.kr/industry/2026/07/19/2026071613091973762",
       "source": "머니투데이",
       "ts": 1784435251000,
       "pub": "Sun, 19 Jul 2026 13:27:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"하이닉스 성과급? 좋다는 사람도 있다\"…최태원의 속내",
-      "link": "https://www.hankyung.com/article/2026071925167",
-      "source": "한국경제",
-      "ts": 1784430984000,
-      "pub": "Sun, 19 Jul 2026 12:16:24 +0900",
       "sentiment": "neutral"
     },
     {
@@ -81,22 +65,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784430006000,
       "pub": "Sun, 19 Jul 2026 12:00:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한은 \"GDP·GDI 격차 최대…반도체발 내수 파급효과 크다\"",
-      "link": "https://www.mt.co.kr/economy/2026/07/19/2026071908430130369",
-      "source": "머니투데이",
-      "ts": 1784430000000,
-      "pub": "Sun, 19 Jul 2026 12:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "최태원 \"AI반도체 수요, 내년 두배 '아비규환'…美에도 팹 지어야\"",
-      "link": "https://www.mt.co.kr/industry/2026/07/19/2026071907561769079",
-      "source": "머니투데이",
-      "ts": 1784430000000,
-      "pub": "Sun, 19 Jul 2026 12:00:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -177,14 +145,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784239501000,
       "pub": "Fri, 17 Jul 2026 07:05:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "해상풍력 인프라 항만에 구축…호남 반도체 클러스터 지원",
-      "link": "https://www.yna.co.kr/view/AKR20260716194800051",
-      "source": "연합뉴스 경제",
-      "ts": 1784193537000,
-      "pub": "Thu, 16 Jul 2026 18:18:57 +0900",
       "sentiment": "neutral"
     }
   ]

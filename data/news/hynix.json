@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-19T09:42:40.308Z",
-  "count": 18,
+  "updated_at": "2026-07-19T11:02:38.488Z",
+  "count": 16,
   "items": [
+    {
+      "title": "한은 \"반도체發 교역조건 개선, 내수 파급효과 과거보다 클 것\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260716190951002",
+      "source": "연합뉴스 경제",
+      "ts": 1784456158000,
+      "pub": "Sun, 19 Jul 2026 19:15:58 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"中AI 탓에 인프라 투자 둔화\"…\"반도체 강세장 더 길어질 것\"",
       "link": "https://www.hankyung.com/article/2026071929041",
@@ -41,14 +49,6 @@
       "source": "머니투데이",
       "ts": 1784438498000,
       "pub": "Sun, 19 Jul 2026 14:21:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"지을 수 있는 모든 곳에 반도체팹\"…증설전쟁 불붙었다",
-      "link": "https://www.mt.co.kr/industry/2026/07/19/2026071613091973762",
-      "source": "머니투데이",
-      "ts": 1784435251000,
-      "pub": "Sun, 19 Jul 2026 13:27:31 +0900",
       "sentiment": "neutral"
     },
     {
@@ -113,22 +113,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784326500000,
       "pub": "Sat, 18 Jul 2026 07:15:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 반도체 매도세 지속에 하락…나스닥 1.4%↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260718007951072",
-      "source": "연합뉴스 국제",
-      "ts": 1784321222000,
-      "pub": "Sat, 18 Jul 2026 05:47:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 반도체 매도세 지속에 하락…나스닥 1.4%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260718007900072",
-      "source": "연합뉴스 국제",
-      "ts": 1784318956000,
-      "pub": "Sat, 18 Jul 2026 05:09:16 +0900",
       "sentiment": "neutral"
     },
     {

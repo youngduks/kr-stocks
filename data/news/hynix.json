@@ -1,8 +1,56 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-19T01:25:46.282Z",
-  "count": 14,
+  "updated_at": "2026-07-19T04:59:05.744Z",
+  "count": 18,
   "items": [
+    {
+      "title": "\"지을 수 있는 모든 곳에 반도체팹\"…증설전쟁 불붙었다",
+      "link": "https://www.mt.co.kr/industry/2026/07/19/2026071613091973762",
+      "source": "머니투데이",
+      "ts": 1784435251000,
+      "pub": "Sun, 19 Jul 2026 13:27:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"하이닉스 성과급? 좋다는 사람도 있다\"…최태원의 속내",
+      "link": "https://www.hankyung.com/article/2026071925167",
+      "source": "한국경제",
+      "ts": 1784430984000,
+      "pub": "Sun, 19 Jul 2026 12:16:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "최태원 \"내년 반도체 수요 최소 50% 증가…빠른 증설이 생명줄\"",
+      "link": "https://www.yna.co.kr/view/AKR20260718029600003",
+      "source": "연합뉴스 경제",
+      "ts": 1784430015000,
+      "pub": "Sun, 19 Jul 2026 12:00:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한은 \"반도체發 교역조건 개선, 내수 파급효과 과거보다 클 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260716190900002",
+      "source": "연합뉴스 경제",
+      "ts": 1784430006000,
+      "pub": "Sun, 19 Jul 2026 12:00:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한은 \"GDP·GDI 격차 최대…반도체발 내수 파급효과 크다\"",
+      "link": "https://www.mt.co.kr/economy/2026/07/19/2026071908430130369",
+      "source": "머니투데이",
+      "ts": 1784430000000,
+      "pub": "Sun, 19 Jul 2026 12:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "최태원 \"AI반도체 수요, 내년 두배 '아비규환'…美에도 팹 지어야\"",
+      "link": "https://www.mt.co.kr/industry/2026/07/19/2026071907561769079",
+      "source": "머니투데이",
+      "ts": 1784430000000,
+      "pub": "Sun, 19 Jul 2026 12:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "공개 임박 삼성전자 8세대 갤럭시 Z…비메모리 반등 이끌까",
       "link": "https://www.yna.co.kr/view/AKR20260716190800003",
@@ -34,14 +82,6 @@
       "ts": 1784408418000,
       "pub": "Sun, 19 Jul 2026 06:00:18 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"싸면 더 쓴다\"…'가성비 AI'가 뒤흔든 반도체 폭락의 역설 [빈난새의 빈틈없이월가]",
-      "link": "https://www.hankyung.com/article/202607192100i",
-      "source": "한국경제",
-      "ts": 1784405054000,
-      "pub": "Sun, 19 Jul 2026 05:04:14 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "박홍근 \"반도체 호황기 급격히 안 꺼져…청년 정책에 대폭 투자\"",
@@ -81,14 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784299308000,
       "pub": "Fri, 17 Jul 2026 23:41:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 거센 반도체주 매도세에 하락 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260717063100009",
-      "source": "연합뉴스 국제",
-      "ts": 1784298020000,
-      "pub": "Fri, 17 Jul 2026 23:20:20 +0900",
       "sentiment": "neutral"
     },
     {

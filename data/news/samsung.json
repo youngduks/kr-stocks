@@ -1,8 +1,40 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-19T01:25:46.282Z",
-  "count": 5,
+  "updated_at": "2026-07-19T04:59:05.743Z",
+  "count": 8,
   "items": [
+    {
+      "title": "삼성전자, 사우디 모스크에 맞춤형 HVAC 솔루션 공급",
+      "link": "https://www.mt.co.kr/industry/2026/07/19/2026071910204089144",
+      "source": "머니투데이",
+      "ts": 1784428607000,
+      "pub": "Sun, 19 Jul 2026 11:36:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "김용범 \"삼전닉스 레버리지 ETF 상폐 어려워…시장에 엄청난 충격\"",
+      "link": "https://www.mt.co.kr/politics/2026/07/19/2026071911152565710",
+      "source": "머니투데이",
+      "ts": 1784428157000,
+      "pub": "Sun, 19 Jul 2026 11:29:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 레버리지 상폐 주장에…김용범 \"상상하기 어렵다\"",
+      "link": "https://www.hankyung.com/article/2026071924157",
+      "source": "한국경제",
+      "ts": 1784427661000,
+      "pub": "Sun, 19 Jul 2026 11:21:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "제2의 딥시크 쇼크인가…中AI 모델 키미K3가 삼전닉스에 미칠 영향은",
+      "link": "https://www.hankyung.com/article/202607192337i",
+      "source": "한국경제",
+      "ts": 1784420980000,
+      "pub": "Sun, 19 Jul 2026 09:29:40 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "삼전닉스 이익 추정치 놓고 '역대급 괴리'…핵심 투자 포인트는",
       "link": "https://www.hankyung.com/article/202607160378i",
@@ -33,14 +65,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784196096000,
       "pub": "Thu, 16 Jul 2026 19:01:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'삼전닉스' 레버리지 예탁금 현금 3천만원으로↑…20주씩만 매매(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260716165351002",
-      "source": "연합뉴스 경제",
-      "ts": 1784187696000,
-      "pub": "Thu, 16 Jul 2026 16:41:36 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-19T01:25:46.281Z",
-  "count": 11,
+  "updated_at": "2026-07-19T04:59:05.742Z",
+  "count": 9,
   "items": [
+    {
+      "title": "\"트럼프 가족이익-업무 뒤섞어\" 이해충돌 백악관, 이런 일까지",
+      "link": "https://www.mt.co.kr/world/2026/07/19/2026071910422099108",
+      "source": "머니투데이",
+      "ts": 1784436023000,
+      "pub": "Sun, 19 Jul 2026 13:40:23 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "젤렌스키, 국방장관 경질에 시위 번지자 총사령관 교체 검토",
       "link": "https://www.yna.co.kr/view/AKR20260719009900009",
@@ -17,14 +25,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784412421000,
       "pub": "Sun, 19 Jul 2026 07:07:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 SNS 먼저 보려면 월 1억5000만원\"…월가 논란",
-      "link": "https://www.hankyung.com/article/2026071819367",
-      "source": "한국경제",
-      "ts": 1784365004000,
-      "pub": "Sat, 18 Jul 2026 17:56:44 +0900",
       "sentiment": "neutral"
     },
     {
@@ -73,22 +73,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784318523000,
       "pub": "Sat, 18 Jul 2026 05:02:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키 \"우크라, 러 Tu-95 전략폭격기 파괴\"",
-      "link": "https://www.yna.co.kr/view/AKR20260717056200108",
-      "source": "연합뉴스 국제",
-      "ts": 1784287674000,
-      "pub": "Fri, 17 Jul 2026 20:27:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 조선주, 트럼프 '한국 조선기업 살펴본다' 발언에 강세(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260716045151008",
-      "source": "연합뉴스 경제",
-      "ts": 1784186064000,
-      "pub": "Thu, 16 Jul 2026 16:14:24 +0900",
       "sentiment": "neutral"
     }
   ]

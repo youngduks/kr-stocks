@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-19T04:59:05.743Z",
-  "count": 8,
+  "updated_at": "2026-07-19T07:26:14.906Z",
+  "count": 7,
   "items": [
+    {
+      "title": "메모리 전망치 잇따라 상향…현장 체감 수요는 '그 이상'",
+      "link": "https://www.mt.co.kr/industry/2026/07/19/2026071616231464908",
+      "source": "머니투데이",
+      "ts": 1784442588000,
+      "pub": "Sun, 19 Jul 2026 15:29:48 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성전자, 사우디 모스크에 맞춤형 HVAC 솔루션 공급",
       "link": "https://www.mt.co.kr/industry/2026/07/19/2026071910204089144",
@@ -25,22 +33,6 @@
       "source": "한국경제",
       "ts": 1784427661000,
       "pub": "Sun, 19 Jul 2026 11:21:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "제2의 딥시크 쇼크인가…中AI 모델 키미K3가 삼전닉스에 미칠 영향은",
-      "link": "https://www.hankyung.com/article/202607192337i",
-      "source": "한국경제",
-      "ts": 1784420980000,
-      "pub": "Sun, 19 Jul 2026 09:29:40 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "삼전닉스 이익 추정치 놓고 '역대급 괴리'…핵심 투자 포인트는",
-      "link": "https://www.hankyung.com/article/202607160378i",
-      "source": "한국경제",
-      "ts": 1784415604000,
-      "pub": "Sun, 19 Jul 2026 08:00:04 +0900",
       "sentiment": "neutral"
     },
     {

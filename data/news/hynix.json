@@ -1,8 +1,56 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-19T04:59:05.744Z",
-  "count": 18,
+  "updated_at": "2026-07-19T07:26:14.906Z",
+  "count": 23,
   "items": [
+    {
+      "title": "초고수들은 반도체 조정장서 '저가매수'...알테오젠·성호전자도 담아",
+      "link": "https://www.hankyung.com/article/202607192670i",
+      "source": "한국경제",
+      "ts": 1784444750000,
+      "pub": "Sun, 19 Jul 2026 16:05:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "메모리 전망치 잇따라 상향…현장 체감 수요는 '그 이상'",
+      "link": "https://www.mt.co.kr/industry/2026/07/19/2026071616231464908",
+      "source": "머니투데이",
+      "ts": 1784442588000,
+      "pub": "Sun, 19 Jul 2026 15:29:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "최태원 \"내년 반도체 수요 '아비규환'급…증설 만이 생명줄\"",
+      "link": "https://www.hankyung.com/article/2026071926187",
+      "source": "한국경제",
+      "ts": 1784440088000,
+      "pub": "Sun, 19 Jul 2026 14:48:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "제주에서 '반도체 속도전' 띄운 최태원…SK실트론 매각은?",
+      "link": "https://www.mt.co.kr/industry/2026/07/19/2026071914161625223",
+      "source": "머니투데이",
+      "ts": 1784439664000,
+      "pub": "Sun, 19 Jul 2026 14:41:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"월요일이 무섭다\" 개미들 초긴장...반도체주 반등 트리거 '이것' 주목",
+      "link": "https://www.mt.co.kr/stock/2026/07/19/2026071911085398937",
+      "source": "머니투데이",
+      "ts": 1784438498000,
+      "pub": "Sun, 19 Jul 2026 14:21:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 ADR 효과…7월 원화 절상률 주요국 1위",
+      "link": "https://www.hankyung.com/article/2026071925657",
+      "source": "한국경제",
+      "ts": 1784438460000,
+      "pub": "Sun, 19 Jul 2026 14:21:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"지을 수 있는 모든 곳에 반도체팹\"…증설전쟁 불붙었다",
       "link": "https://www.mt.co.kr/industry/2026/07/19/2026071613091973762",
@@ -113,14 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784318956000,
       "pub": "Sat, 18 Jul 2026 05:09:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "애플, 엔비디아 제치고 장중 글로벌 시총 1위 탈환",
-      "link": "https://www.yna.co.kr/view/AKR20260717063900072",
-      "source": "연합뉴스 국제",
-      "ts": 1784299308000,
-      "pub": "Fri, 17 Jul 2026 23:41:48 +0900",
       "sentiment": "neutral"
     },
     {

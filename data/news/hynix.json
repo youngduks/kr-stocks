@@ -1,16 +1,8 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-18T23:40:57.873Z",
-  "count": 16,
+  "updated_at": "2026-07-19T01:25:46.282Z",
+  "count": 14,
   "items": [
-    {
-      "title": "반도체 공장 짓기 '딱'…\"전기 부족\" 아우성인데 \"우린 쓰고도 남아\"",
-      "link": "https://www.mt.co.kr/industry/2026/07/19/2026071823054125244",
-      "source": "머니투데이",
-      "ts": 1784415600000,
-      "pub": "Sun, 19 Jul 2026 08:00:00 +0900",
-      "sentiment": "neutral"
-    },
     {
       "title": "공개 임박 삼성전자 8세대 갤럭시 Z…비메모리 반등 이끌까",
       "link": "https://www.yna.co.kr/view/AKR20260716190800003",
@@ -44,7 +36,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"싸지면 더 쓴다\"…'가성비 AI'가 뒤흔든 반도체 폭락의 역설 [빈난새의 빈틈없이월가]",
+      "title": "\"싸면 더 쓴다\"…'가성비 AI'가 뒤흔든 반도체 폭락의 역설 [빈난새의 빈틈없이월가]",
       "link": "https://www.hankyung.com/article/202607192100i",
       "source": "한국경제",
       "ts": 1784405054000,
@@ -122,14 +114,6 @@
       "ts": 1784193537000,
       "pub": "Thu, 16 Jul 2026 18:18:57 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 또 출렁…삼전 8.8%·하닉 11.5% 급락 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260716048351008",
-      "source": "연합뉴스 경제",
-      "ts": 1784185509000,
-      "pub": "Thu, 16 Jul 2026 16:05:09 +0900",
-      "sentiment": "negative"
     }
   ]
 }

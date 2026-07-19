@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-19T11:02:38.487Z",
+  "updated_at": "2026-07-19T12:48:58.784Z",
   "count": 4,
   "items": [
+    {
+      "title": "\"전 세계 모두 코스피만 쳐다본다\"…내일 삼전닉스 향방은",
+      "link": "https://www.hankyung.com/article/2026071930337",
+      "source": "한국경제",
+      "ts": 1784463128000,
+      "pub": "Sun, 19 Jul 2026 21:12:08 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "월가도 눈 뜨면 \"한국 증시부터 체크\"...삼전닉스, 세계증시 흔든다",
       "link": "https://www.mt.co.kr/world/2026/07/19/2026071916414331908",
@@ -25,14 +33,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784409191000,
       "pub": "Sun, 19 Jul 2026 06:13:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'삼전닉스' 레버리지 예탁금 현금 3천만원으로…20주씩만 매매(종합3보)",
-      "link": "https://www.yna.co.kr/view/AKR20260716165353002",
-      "source": "연합뉴스 경제",
-      "ts": 1784201580000,
-      "pub": "Thu, 16 Jul 2026 20:33:00 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-19T11:02:38.486Z",
-  "count": 16,
+  "updated_at": "2026-07-19T12:48:58.751Z",
+  "count": 15,
   "items": [
+    {
+      "title": "트럼프 \"대러 제재 법안에 이란도 추가해야\"…경제 압박 강조",
+      "link": "https://www.yna.co.kr/view/AKR20260719058100009",
+      "source": "연합뉴스 국제",
+      "ts": 1784464735000,
+      "pub": "Sun, 19 Jul 2026 21:38:55 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "김정은, 연내 푸틴 만나나…北외무 9개월만에 러 방문",
       "link": "https://www.hankyung.com/article/2026071928311",
@@ -68,14 +76,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "중동전쟁만큼 시급한 대미투자… 올 8월 '트럼프 청구서' 날아오나",
-      "link": "https://www.mt.co.kr/economy/2026/07/19/2026071914134914140",
-      "source": "머니투데이",
-      "ts": 1784438888000,
-      "pub": "Sun, 19 Jul 2026 14:28:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "젤렌스키, 국방장관 경질에 시위 번지자 총사령관 교체 검토",
       "link": "https://www.yna.co.kr/view/AKR20260719009900009",
       "source": "연합뉴스 국제",
@@ -121,14 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784336023000,
       "pub": "Sat, 18 Jul 2026 09:53:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, FIFA 행사서도 부정선거론 설파…\"난 이 자리 없었어야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260718014800071",
-      "source": "연합뉴스 국제",
-      "ts": 1784329912000,
-      "pub": "Sat, 18 Jul 2026 08:11:52 +0900",
       "sentiment": "neutral"
     }
   ]

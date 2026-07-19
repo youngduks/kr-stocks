@@ -1,8 +1,64 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-19T22:39:52.037Z",
-  "count": 13,
+  "updated_at": "2026-07-19T23:45:05.006Z",
+  "count": 18,
   "items": [
+    {
+      "title": "\"하나마이크론, 사업호조·주가조정 매력…목표가 6.8만\"-한투",
+      "link": "https://www.mt.co.kr/stock/2026/07/20/2026072008260337524",
+      "source": "머니투데이",
+      "ts": 1784504386000,
+      "pub": "Mon, 20 Jul 2026 08:39:46 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "키움증권 \"테스, 메모리 설비투자 가속화 수혜…목표가 4배로↑\"",
+      "link": "https://www.yna.co.kr/view/AKR20260720022900008",
+      "source": "연합뉴스 경제",
+      "ts": 1784504230000,
+      "pub": "Mon, 20 Jul 2026 08:37:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 흔들려도 TSMC는 TSMC…\"첨단 공정 지배력 더 커져\"",
+      "link": "https://www.hankyung.com/article/2026072032866",
+      "source": "한국경제",
+      "ts": 1784502066000,
+      "pub": "Mon, 20 Jul 2026 08:01:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"하나마이크론, 2분기 실적 예상치 웃돌 전망…목표가↑\"-한국",
+      "link": "https://www.hankyung.com/article/2026072032726",
+      "source": "한국경제",
+      "ts": 1784501564000,
+      "pub": "Mon, 20 Jul 2026 07:52:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 랠리 분수령 알파벳 2분기 실적발표, 관전포인트 4가지",
+      "link": "https://www.hankyung.com/article/202607203257i",
+      "source": "한국경제",
+      "ts": 1784500658000,
+      "pub": "Mon, 20 Jul 2026 07:37:38 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"메모리 수요 아비규환, 증설이 생명줄\"",
+      "link": "https://www.mt.co.kr/industry/2026/07/20/2026071919394737688",
+      "source": "머니투데이",
+      "ts": 1784490060000,
+      "pub": "Mon, 20 Jul 2026 04:41:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'반도체 올인' 최태원 회장, SK실트론 매각 딜레마",
+      "link": "https://www.mt.co.kr/industry/2026/07/20/2026071919391954710",
+      "source": "머니투데이",
+      "ts": 1784487840000,
+      "pub": "Mon, 20 Jul 2026 04:04:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "中알리바바, AI칩 소프트웨어 무료 공개…엔비디아 쿠다 대항마",
       "link": "https://www.yna.co.kr/view/AKR20260719056300009",
@@ -17,22 +73,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784456158000,
       "pub": "Sun, 19 Jul 2026 19:15:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"中 AI 탓에 인프라 투자 둔화\"…\"반도체 강세장 더 길어질 것\"",
-      "link": "https://www.hankyung.com/article/2026071929041",
-      "source": "한국경제",
-      "ts": 1784452506000,
-      "pub": "Sun, 19 Jul 2026 18:15:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'AI 거품론' 시험대 오른 알파벳 실적…반도체 불안 잠재울까",
-      "link": "https://www.hankyung.com/article/2026071929021",
-      "source": "한국경제",
-      "ts": 1784452497000,
-      "pub": "Sun, 19 Jul 2026 18:14:57 +0900",
       "sentiment": "neutral"
     },
     {

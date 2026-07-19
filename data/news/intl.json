@@ -1,14 +1,46 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-19T22:39:52.036Z",
-  "count": 14,
+  "updated_at": "2026-07-19T23:45:05.005Z",
+  "count": 18,
   "items": [
+    {
+      "title": "트럼프 \"북해 유전 개발이 가난한 영국을 부국으로 만들 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260720017600009",
+      "source": "연합뉴스 국제",
+      "ts": 1784502837000,
+      "pub": "Mon, 20 Jul 2026 08:13:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "푸틴, 방러 최선희 北외무상 만나 \"김정은과 우호관계 소중\"",
+      "link": "https://www.mt.co.kr/world/2026/07/20/2026072006392112680",
+      "source": "머니투데이",
+      "ts": 1784499379000,
+      "pub": "Mon, 20 Jul 2026 07:16:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美국무, 레바논 대통령과 '평화 협정' 논의…내일은 트럼프 회담",
+      "link": "https://www.mt.co.kr/world/2026/07/20/2026072005500792717",
+      "source": "머니투데이",
+      "ts": 1784496018000,
+      "pub": "Mon, 20 Jul 2026 06:20:18 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"메시 패배에 베팅 못 해\"…트럼프, 아르헨티나 우승 예측",
       "link": "https://www.hankyung.com/article/202607203148H",
       "source": "한국경제",
       "ts": 1784493074000,
       "pub": "Mon, 20 Jul 2026 05:31:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프 글 빨리 보려면 돈 내라\"…가족 돈벌이된 SNS",
+      "link": "https://www.mt.co.kr/world/2026/07/20/2026071919535151044",
+      "source": "머니투데이",
+      "ts": 1784487720000,
+      "pub": "Mon, 20 Jul 2026 04:02:00 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-19T15:44:20.749Z",
+  "updated_at": "2026-07-19T16:42:26.995Z",
   "count": 13,
   "items": [
+    {
+      "title": "푸틴, 방러 최선희 만나 \"북한군 도움 감사, 김정은에 안부\"",
+      "link": "https://www.yna.co.kr/view/AKR20260720000900108",
+      "source": "연합뉴스 국제",
+      "ts": 1784478064000,
+      "pub": "Mon, 20 Jul 2026 01:21:04 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이스라엘, 美부정여론 돌리려 'AI문자 발송' 750억원 홍보전",
       "link": "https://www.yna.co.kr/view/AKR20260719061600072",
@@ -97,14 +105,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784352730000,
       "pub": "Sat, 18 Jul 2026 14:32:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "중동에 다시 미군 집결…\"미, 이스라엘에 공중급유기 증강 통보\"",
-      "link": "https://www.yna.co.kr/view/AKR20260718022600009",
-      "source": "연합뉴스 국제",
-      "ts": 1784340901000,
-      "pub": "Sat, 18 Jul 2026 11:15:01 +0900",
       "sentiment": "neutral"
     }
   ]

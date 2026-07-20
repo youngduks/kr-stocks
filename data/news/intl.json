@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-20T20:59:03.573Z",
-  "count": 25,
+  "updated_at": "2026-07-20T21:58:43.534Z",
+  "count": 23,
   "items": [
+    {
+      "title": "디오픈서 2벌타 디섐보 \"트럼프 대통령에게 알리겠다\"며 항의",
+      "link": "https://www.yna.co.kr/view/AKR20260721008900007",
+      "source": "연합뉴스 국제",
+      "ts": 1784583950000,
+      "pub": "Tue, 21 Jul 2026 06:45:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "수명 다 된 10% 글로벌관세…트럼프 '301조 관세' 부과 임박",
+      "link": "https://www.yna.co.kr/view/AKR20260721011300071",
+      "source": "연합뉴스 국제",
+      "ts": 1784583888000,
+      "pub": "Tue, 21 Jul 2026 06:44:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '美에 공장 건설' 조건부로 알루미늄 관세 절반 인하",
+      "link": "https://www.yna.co.kr/view/AKR20260721009700071",
+      "source": "연합뉴스 국제",
+      "ts": 1784581994000,
+      "pub": "Tue, 21 Jul 2026 06:13:14 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 '응징' 의지 천명 뒤…美, 이란 대상 열흘째 공습",
       "link": "https://www.yna.co.kr/view/AKR20260721008400071",
@@ -18,30 +42,6 @@
       "ts": 1784579692000,
       "pub": "Tue, 21 Jul 2026 05:34:52 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "버넘 英총리, 트럼프에 \"호르무즈 안전 통항 지원 약속\"",
-      "link": "https://www.mt.co.kr/world/2026/07/21/2026072105081451893",
-      "source": "머니투데이",
-      "ts": 1784579516000,
-      "pub": "Tue, 21 Jul 2026 05:31:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"네타냐후, 미국선 절대 체포 안 돼\"…뉴욕시장 정면 반박",
-      "link": "https://www.mt.co.kr/world/2026/07/21/2026072103164095507",
-      "source": "머니투데이",
-      "ts": 1784572026000,
-      "pub": "Tue, 21 Jul 2026 03:27:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"미군 숨질 때마다 이란 몇 배로 대가 치를 것\"",
-      "link": "https://www.mt.co.kr/world/2026/07/21/2026072103084495705",
-      "source": "머니투데이",
-      "ts": 1784571383000,
-      "pub": "Tue, 21 Jul 2026 03:16:23 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "트럼프 \"네타냐후, 美 체류 중 어떤 방식으로도 체포 안될 것\"",
@@ -76,27 +76,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 등장하자 야유 '84데시벨 폭증'... 우승 무대 '센터 욕심'→결국 FIFA 회장이 끌고 나갔다",
-      "link": "https://www.mt.co.kr/sports/2026/07/21/2026072021102165189",
-      "source": "머니투데이",
-      "ts": 1784559780000,
-      "pub": "Tue, 21 Jul 2026 00:03:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "야유 쏟아져도 버틴 '눈치 없는' 트럼프…FIFA에서 잘라냈다",
       "link": "https://www.hankyung.com/article/2026072054287",
       "source": "한국경제",
       "ts": 1784553103000,
       "pub": "Mon, 20 Jul 2026 22:11:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 연준, 물가지수 산출 방식 변경...0.2%p 하락 효과",
-      "link": "https://www.mt.co.kr/world/2026/07/20/2026072020565718187",
-      "source": "머니투데이",
-      "ts": 1784549644000,
-      "pub": "Mon, 20 Jul 2026 21:14:04 +0900",
       "sentiment": "neutral"
     },
     {

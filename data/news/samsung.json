@@ -1,22 +1,30 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-20T08:35:58.828Z",
-  "count": 5,
+  "updated_at": "2026-07-20T11:34:21.869Z",
+  "count": 6,
   "items": [
     {
-      "title": "삼전닉스 벨트서 300만원 유아차 '불티'",
-      "link": "https://www.hankyung.com/article/2026072050931",
+      "title": "\"주가 무너지는데 성과급 잔치라니\"…삼전 개미들 집단반발",
+      "link": "https://www.hankyung.com/article/202607205329g",
       "source": "한국경제",
-      "ts": 1784536265000,
-      "pub": "Mon, 20 Jul 2026 17:31:05 +0900",
+      "ts": 1784543537000,
+      "pub": "Mon, 20 Jul 2026 19:32:17 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "'AI 원팀' 중국 반도체…삼전닉스 무섭게 추격",
-      "link": "https://www.hankyung.com/article/2026072036221",
+      "title": "TSMC,파운드리선두 굳히기…\"대만과 미국에 팹25개 증설\"",
+      "link": "https://www.hankyung.com/article/202607205306i",
       "source": "한국경제",
-      "ts": 1784534175000,
-      "pub": "Mon, 20 Jul 2026 16:56:15 +0900",
+      "ts": 1784543496000,
+      "pub": "Mon, 20 Jul 2026 19:31:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"키미 모델, 메모리 대규모 추가 수요 유발 전망\"",
+      "link": "https://www.hankyung.com/article/202607205319i",
+      "source": "한국경제",
+      "ts": 1784542229000,
+      "pub": "Mon, 20 Jul 2026 19:10:29 +0900",
       "sentiment": "neutral"
     },
     {

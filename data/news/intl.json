@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-20T08:35:58.827Z",
+  "updated_at": "2026-07-20T11:34:21.868Z",
   "count": 18,
   "items": [
+    {
+      "title": "러 외무 \"푸틴과 김정은 '비밀 소통' 계속되는 것 중요\"",
+      "link": "https://www.yna.co.kr/view/AKR20260720157400108",
+      "source": "연합뉴스 국제",
+      "ts": 1784541300000,
+      "pub": "Mon, 20 Jul 2026 18:55:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러·우크라 격전지 된 흑해…해상물류 마비에 치솟는 밀값",
+      "link": "https://www.yna.co.kr/view/AKR20260720156000109",
+      "source": "연합뉴스 국제",
+      "ts": 1784540100000,
+      "pub": "Mon, 20 Jul 2026 18:35:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "아세안 외교장관회의에 미중러 외교수장 참석…회담 여부 주목(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260720143851084",
+      "source": "연합뉴스 국제",
+      "ts": 1784537831000,
+      "pub": "Mon, 20 Jul 2026 17:57:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[쇼츠] 이스라엘, 'GPS 교란' 드론 방공시스템 공개",
+      "link": "https://www.yna.co.kr/view/AKR20260720149800704",
+      "source": "연합뉴스 국제",
+      "ts": 1784537003000,
+      "pub": "Mon, 20 Jul 2026 17:43:23 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "아세안 외교장관회의에 미중러 외교수장 참석…회담 여부 주목",
       "link": "https://www.yna.co.kr/view/AKR20260720143800084",
@@ -17,14 +49,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784534660000,
       "pub": "Mon, 20 Jul 2026 17:04:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "ARF 외면하고 푸틴 만난 최선희…北의 신형 생존전략 [김다빈의 외교 빈틈읽기]",
-      "link": "https://www.hankyung.com/article/202607204798i",
-      "source": "한국경제",
-      "ts": 1784533386000,
-      "pub": "Mon, 20 Jul 2026 16:43:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -122,30 +146,6 @@
       "ts": 1784472774000,
       "pub": "Sun, 19 Jul 2026 23:52:54 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"대러 제재 법안에 이란도 추가해야\"…경제 압박 강조",
-      "link": "https://www.yna.co.kr/view/AKR20260719058100009",
-      "source": "연합뉴스 국제",
-      "ts": 1784464735000,
-      "pub": "Sun, 19 Jul 2026 21:38:55 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"美산불 진화 도왔는데…\" 캐나다, 트럼프 '산불 관세'에 버럭",
-      "link": "https://www.yna.co.kr/view/AKR20260719044400009",
-      "source": "연합뉴스 국제",
-      "ts": 1784449338000,
-      "pub": "Sun, 19 Jul 2026 17:22:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"이스라엘, 개인용 드론 비행금지 검토…네타냐후 암살 우려\"",
-      "link": "https://www.yna.co.kr/view/AKR20260719042900108",
-      "source": "연합뉴스 국제",
-      "ts": 1784447831000,
-      "pub": "Sun, 19 Jul 2026 16:57:11 +0900",
-      "sentiment": "negative"
     }
   ]
 }

@@ -1,30 +1,30 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-20T08:35:58.829Z",
-  "count": 7,
+  "updated_at": "2026-07-20T11:34:21.870Z",
+  "count": 6,
   "items": [
     {
-      "title": "[사설] \"반도체 호황에 취하다간 네덜란드病\"…새겨야 할 한은 경고",
-      "link": "https://www.hankyung.com/article/2026072050871",
+      "title": "TSMC,파운드리선두 굳히기…\"대만과 미국에 팹25개 증설\"",
+      "link": "https://www.hankyung.com/article/202607205306i",
       "source": "한국경제",
-      "ts": 1784536012000,
-      "pub": "Mon, 20 Jul 2026 17:26:52 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "호남 반도체 팹 전력망 속도전…'9년 공사' 2030년까지 끝낸다",
-      "link": "https://www.hankyung.com/article/202607204688i",
-      "source": "한국경제",
-      "ts": 1784534265000,
-      "pub": "Mon, 20 Jul 2026 16:57:45 +0900",
+      "ts": 1784543496000,
+      "pub": "Mon, 20 Jul 2026 19:31:36 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "'AI 원팀' 중국 반도체…삼전닉스 무섭게 추격",
-      "link": "https://www.hankyung.com/article/2026072036221",
+      "title": "\"키미 모델, 메모리 대규모 추가 수요 유발 전망\"",
+      "link": "https://www.hankyung.com/article/202607205319i",
       "source": "한국경제",
-      "ts": 1784534175000,
-      "pub": "Mon, 20 Jul 2026 16:56:15 +0900",
+      "ts": 1784542229000,
+      "pub": "Mon, 20 Jul 2026 19:10:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "글로벌 반도체주 변동성, 닷컴버블보다 5배 높다",
+      "link": "https://www.hankyung.com/article/2026072051461",
+      "source": "한국경제",
+      "ts": 1784540135000,
+      "pub": "Mon, 20 Jul 2026 18:35:35 +0900",
       "sentiment": "neutral"
     },
     {
@@ -50,14 +50,6 @@
       "ts": 1784521497000,
       "pub": "Mon, 20 Jul 2026 13:24:57 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "中알리바바, AI칩 소프트웨어 무료 공개…엔비디아 쿠다 대항마",
-      "link": "https://www.yna.co.kr/view/AKR20260719056300009",
-      "source": "연합뉴스 국제",
-      "ts": 1784464221000,
-      "pub": "Sun, 19 Jul 2026 21:30:21 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

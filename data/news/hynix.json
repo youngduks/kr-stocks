@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-20T21:58:43.535Z",
-  "count": 10,
+  "updated_at": "2026-07-20T22:58:20.128Z",
+  "count": 15,
   "items": [
+    {
+      "title": "홍해도 막힌다? 유가·금리 급등…반도체 '저가매수' vs '아직' [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202607215604i",
+      "source": "한국경제",
+      "ts": 1784587035000,
+      "pub": "Tue, 21 Jul 2026 07:37:15 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "중동 리스크에 하락…AI 반도체주는 반등 시도 [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026072155886",
+      "source": "한국경제",
+      "ts": 1784585393000,
+      "pub": "Tue, 21 Jul 2026 07:09:53 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "반도체 힘입어 영업익 2740% 치솟았지만…고용은 0.6%↑",
       "link": "https://www.hankyung.com/article/2026072155497",
@@ -12,11 +28,51 @@
       "sentiment": "neutral"
     },
     {
+      "title": "[여의도 클라쓰] '한울반도체, 샘씨엔에스, SK스퀘어' 클라쓰 올릴 종목은?",
+      "link": "https://www.mt.co.kr/stock/2026/07/21/2026072021077088767",
+      "source": "머니투데이",
+      "ts": 1784582332000,
+      "pub": "Tue, 21 Jul 2026 06:18:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중동 전운에 증시 먹구름…반도체 반등도 무색[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/07/21/2026072106034895393",
+      "source": "머니투데이",
+      "ts": 1784581798000,
+      "pub": "Tue, 21 Jul 2026 06:09:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "호남 반도체 산단 성공요건 '인·수·전'...부메랑 된 '탈원전·4대강'",
+      "link": "https://www.mt.co.kr/politics/2026/07/21/2026072018211938543",
+      "source": "머니투데이",
+      "ts": 1784577600000,
+      "pub": "Tue, 21 Jul 2026 05:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "MS, 클라우드 '애저'에 AMD AI랙 대거 도입…엔비디아 독주 견제",
       "link": "https://www.yna.co.kr/view/AKR20260721005300091",
       "source": "연합뉴스 국제",
       "ts": 1784575375000,
       "pub": "Tue, 21 Jul 2026 04:22:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"더 비싸게\" 삼전닉스 등쳤나…반도체 부품 3사 담합 겨눈 검찰",
+      "link": "https://www.mt.co.kr/society/2026/07/21/2026072019370883271",
+      "source": "머니투데이",
+      "ts": 1784574300000,
+      "pub": "Tue, 21 Jul 2026 04:05:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[사설]삼바 빅딜, 바이오를 제2의 반도체로",
+      "link": "https://www.mt.co.kr/opinion/2026/07/21/2026072017053548743",
+      "source": "머니투데이",
+      "ts": 1784574000000,
+      "pub": "Tue, 21 Jul 2026 04:00:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -41,22 +97,6 @@
       "source": "한국경제",
       "ts": 1784552401000,
       "pub": "Mon, 20 Jul 2026 22:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "TSMC, 파운드리 선두 굳히기…\"대만과 미국에 팹 25개 증설\"",
-      "link": "https://www.hankyung.com/article/202607205306i",
-      "source": "한국경제",
-      "ts": 1784543496000,
-      "pub": "Mon, 20 Jul 2026 19:31:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"키미 모델, 메모리 대규모 추가 수요 유발 전망\"",
-      "link": "https://www.hankyung.com/article/202607205319i",
-      "source": "한국경제",
-      "ts": 1784542229000,
-      "pub": "Mon, 20 Jul 2026 19:10:29 +0900",
       "sentiment": "neutral"
     },
     {

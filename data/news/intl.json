@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-20T21:58:43.534Z",
-  "count": 23,
+  "updated_at": "2026-07-20T22:58:20.126Z",
+  "count": 28,
   "items": [
+    {
+      "title": "트럼프, 캐나다산 와인·시멘트 등 50% 관세…\"美 자동차·주류 차별\"",
+      "link": "https://www.mt.co.kr/world/2026/07/21/2026072106554469200",
+      "source": "머니투데이",
+      "ts": 1784586151000,
+      "pub": "Tue, 21 Jul 2026 07:22:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "산불 관세 경고했던 트럼프, 캐나다 일부 제품 50% 추가 관세",
+      "link": "https://www.yna.co.kr/view/AKR20260721013600071",
+      "source": "연합뉴스 국제",
+      "ts": 1784585680000,
+      "pub": "Tue, 21 Jul 2026 07:14:40 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "디오픈서 2벌타 디섐보 \"트럼프 대통령에게 알리겠다\"며 항의",
       "link": "https://www.yna.co.kr/view/AKR20260721008900007",
@@ -28,6 +44,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "트럼프 \"몇 배 대가\" 경고 후…美, 이란 열흘째 공습",
+      "link": "https://www.mt.co.kr/world/2026/07/21/2026072105494758096",
+      "source": "머니투데이",
+      "ts": 1784581140000,
+      "pub": "Tue, 21 Jul 2026 05:59:00 +0900",
+      "sentiment": "negative"
+    },
+    {
       "title": "트럼프 '응징' 의지 천명 뒤…美, 이란 대상 열흘째 공습",
       "link": "https://www.yna.co.kr/view/AKR20260721008400071",
       "source": "연합뉴스 국제",
@@ -42,6 +66,30 @@
       "ts": 1784579692000,
       "pub": "Tue, 21 Jul 2026 05:34:52 +0900",
       "sentiment": "negative"
+    },
+    {
+      "title": "버넘 英총리, 트럼프에 \"호르무즈 안전 통항 지원 약속\"",
+      "link": "https://www.mt.co.kr/world/2026/07/21/2026072105081451893",
+      "source": "머니투데이",
+      "ts": 1784579516000,
+      "pub": "Tue, 21 Jul 2026 05:31:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"네타냐후, 미국선 절대 체포 안 돼\"…뉴욕시장 정면 반박",
+      "link": "https://www.mt.co.kr/world/2026/07/21/2026072103164095507",
+      "source": "머니투데이",
+      "ts": 1784572026000,
+      "pub": "Tue, 21 Jul 2026 03:27:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"미군 숨질 때마다 이란 몇 배로 대가 치를 것\"",
+      "link": "https://www.mt.co.kr/world/2026/07/21/2026072103084495705",
+      "source": "머니투데이",
+      "ts": 1784571383000,
+      "pub": "Tue, 21 Jul 2026 03:16:23 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "트럼프 \"네타냐후, 美 체류 중 어떤 방식으로도 체포 안될 것\"",
@@ -73,6 +121,14 @@
       "source": "연합뉴스 국제",
       "ts": 1784562034000,
       "pub": "Tue, 21 Jul 2026 00:40:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 등장하자 야유 '84데시벨 폭증'... 우승 무대 '센터 욕심'→결국 FIFA 회장이 끌고 나갔다",
+      "link": "https://www.mt.co.kr/sports/2026/07/21/2026072021102165189",
+      "source": "머니투데이",
+      "ts": 1784559780000,
+      "pub": "Tue, 21 Jul 2026 00:03:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -169,22 +225,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784527380000,
       "pub": "Mon, 20 Jul 2026 15:03:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 우크라, 러 Tu-95 전략폭격기 파괴…\"꼬리 부분 완전히 떨어져\"",
-      "link": "https://www.yna.co.kr/view/AKR20260720077300704",
-      "source": "연합뉴스 국제",
-      "ts": 1784515008000,
-      "pub": "Mon, 20 Jul 2026 11:36:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, 이란에 또 '응징 공습'…트럼프 \"미군 전사자 기리려는 것\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260720061251071",
-      "source": "연합뉴스 국제",
-      "ts": 1784514070000,
-      "pub": "Mon, 20 Jul 2026 11:21:10 +0900",
       "sentiment": "neutral"
     }
   ]

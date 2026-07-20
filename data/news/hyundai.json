@@ -1,6 +1,23 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-20T22:58:20.128Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-07-20T23:54:44.057Z",
+  "count": 2,
+  "items": [
+    {
+      "title": "\"현대차, 시장 변동성 고려해 목표주가 90만원으로 하향\"-KB",
+      "link": "https://www.mt.co.kr/stock/2026/07/21/2026072108391036278",
+      "source": "머니투데이",
+      "ts": 1784590942000,
+      "pub": "Tue, 21 Jul 2026 08:42:22 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "KB증권 \"현대차, 2분기 실적 기대치 밑돌 것…목표가↓\"",
+      "link": "https://www.yna.co.kr/view/AKR20260721029200008",
+      "source": "연합뉴스 경제",
+      "ts": 1784590492000,
+      "pub": "Tue, 21 Jul 2026 08:34:52 +0900",
+      "sentiment": "neutral"
+    }
+  ]
 }

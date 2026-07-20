@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-20T05:28:20.256Z",
-  "count": 15,
+  "updated_at": "2026-07-20T08:35:58.827Z",
+  "count": 18,
   "items": [
+    {
+      "title": "아세안 외교장관회의에 미중러 외교수장 참석…회담 여부 주목",
+      "link": "https://www.yna.co.kr/view/AKR20260720143800084",
+      "source": "연합뉴스 국제",
+      "ts": 1784534878000,
+      "pub": "Mon, 20 Jul 2026 17:07:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 이스라엘, 군집 드론 '위성신호 교란' 방공시스템 공개",
+      "link": "https://www.yna.co.kr/view/AKR20260720141400704",
+      "source": "연합뉴스 국제",
+      "ts": 1784534660000,
+      "pub": "Mon, 20 Jul 2026 17:04:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "ARF 외면하고 푸틴 만난 최선희…北의 신형 생존전략 [김다빈의 외교 빈틈읽기]",
+      "link": "https://www.hankyung.com/article/202607204798i",
+      "source": "한국경제",
+      "ts": 1784533386000,
+      "pub": "Mon, 20 Jul 2026 16:43:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 푸틴 '열받겠네'…튀르키예, 러 S-400 팔고 美 F-35 도입 추진",
+      "link": "https://www.yna.co.kr/view/AKR20260720126600704",
+      "source": "연합뉴스 국제",
+      "ts": 1784531410000,
+      "pub": "Mon, 20 Jul 2026 16:10:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"2분기 GDP·7월 CPI 방향성 엇갈릴 것…통화정책 긴장 지속\"",
+      "link": "https://www.yna.co.kr/view/AKR20260720120400008",
+      "source": "연합뉴스 경제",
+      "ts": 1784530657000,
+      "pub": "Mon, 20 Jul 2026 15:57:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'카타르 선물' 트럼프 전용기 업그레이드…\"최고 성능 갖출 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260720103400009",
+      "source": "연합뉴스 국제",
+      "ts": 1784527380000,
+      "pub": "Mon, 20 Jul 2026 15:03:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[영상] 우크라, 러 Tu-95 전략폭격기 파괴…\"꼬리 부분 완전히 떨어져\"",
       "link": "https://www.yna.co.kr/view/AKR20260720077300704",
@@ -98,30 +146,6 @@
       "ts": 1784447831000,
       "pub": "Sun, 19 Jul 2026 16:57:11 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "[쇼츠] 드론으로 373억원 방공망 '쾅!'…우크라, 러 '낚시'에 속았다?",
-      "link": "https://www.yna.co.kr/view/AKR20260719039700704",
-      "source": "연합뉴스 국제",
-      "ts": 1784443887000,
-      "pub": "Sun, 19 Jul 2026 15:51:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 러, 우크라 드론에 '가짜 토르' 미끼 썼나…표적 진위 논란",
-      "link": "https://www.yna.co.kr/view/AKR20260719038500704",
-      "source": "연합뉴스 국제",
-      "ts": 1784443460000,
-      "pub": "Sun, 19 Jul 2026 15:44:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘, 가자지구·요르단강 서안에 새 정착촌 강행",
-      "link": "https://www.yna.co.kr/view/AKR20260719037100009",
-      "source": "연합뉴스 국제",
-      "ts": 1784441680000,
-      "pub": "Sun, 19 Jul 2026 15:14:40 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

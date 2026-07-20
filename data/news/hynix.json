@@ -1,30 +1,46 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-20T05:28:20.258Z",
-  "count": 13,
+  "updated_at": "2026-07-20T08:35:58.829Z",
+  "count": 7,
   "items": [
     {
-      "title": "\"中 반도체 위협 아니다…'세계 최고' 이익성장률에 주목할 때\"",
-      "link": "https://www.hankyung.com/article/202607169319i",
+      "title": "[사설] \"반도체 호황에 취하다간 네덜란드病\"…새겨야 할 한은 경고",
+      "link": "https://www.hankyung.com/article/2026072050871",
       "source": "한국경제",
-      "ts": 1784522784000,
-      "pub": "Mon, 20 Jul 2026 13:46:24 +0900",
+      "ts": 1784536012000,
+      "pub": "Mon, 20 Jul 2026 17:26:52 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "호남 반도체 팹 전력망 속도전…'9년 공사' 2030년까지 끝낸다",
+      "link": "https://www.hankyung.com/article/202607204688i",
+      "source": "한국경제",
+      "ts": 1784534265000,
+      "pub": "Mon, 20 Jul 2026 16:57:45 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "'반도체 대장주' SK하이닉스, 국내외 메모리 생산 기지 확장",
-      "link": "https://www.hankyung.com/article/202607157538i",
+      "title": "'AI 원팀' 중국 반도체…삼전닉스 무섭게 추격",
+      "link": "https://www.hankyung.com/article/2026072036221",
       "source": "한국경제",
-      "ts": 1784522773000,
-      "pub": "Mon, 20 Jul 2026 13:46:13 +0900",
+      "ts": 1784534175000,
+      "pub": "Mon, 20 Jul 2026 16:56:15 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[더벨]한울반도체, AI 기반 MLCC 전수검사 시스템 개발",
-      "link": "https://www.mt.co.kr/stock/2026/07/20/2026072013209613516",
-      "source": "머니투데이",
-      "ts": 1784521630000,
-      "pub": "Mon, 20 Jul 2026 13:27:10 +0900",
+      "title": "반도체 피크아웃 우려 지속…삼전·닉스 4%대 급락(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260720036952008",
+      "source": "연합뉴스 경제",
+      "ts": 1784530588000,
+      "pub": "Mon, 20 Jul 2026 15:56:28 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "중동 리스크·SK하이닉스 효과 팽팽…환율, 장중 1,478.4원",
+      "link": "https://www.yna.co.kr/view/AKR20260720122600002",
+      "source": "연합뉴스 경제",
+      "ts": 1784530247000,
+      "pub": "Mon, 20 Jul 2026 15:50:47 +0900",
       "sentiment": "neutral"
     },
     {
@@ -36,75 +52,11 @@
       "sentiment": "negative"
     },
     {
-      "title": "[뉴스프레소] 중국발 AI 위협… 반도체지수 주간 10% 급락 '약세장 진입'",
-      "link": "https://www.mt.co.kr/world/2026/07/20/2026072012087041737",
-      "source": "머니투데이",
-      "ts": 1784520987000,
-      "pub": "Mon, 20 Jul 2026 13:16:27 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "엔비디아도 노린 '정형 데이터AI' 정조준…넘즈AI, 40억 투자 유치",
-      "link": "https://www.mt.co.kr/future/2026/07/20/2026072009165646335",
-      "source": "머니투데이",
-      "ts": 1784520000000,
-      "pub": "Mon, 20 Jul 2026 13:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "얼어붙은 반도체주 투심, 대만 가권지수 0.58% ↓ [Asia오전]",
-      "link": "https://www.mt.co.kr/world/2026/07/20/2026072011401325886",
-      "source": "머니투데이",
-      "ts": 1784518314000,
-      "pub": "Mon, 20 Jul 2026 12:31:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "초고수들은 기판·전력株에 베팅…SK하이닉스는 순매도 나서",
-      "link": "https://www.hankyung.com/article/202607204003i",
-      "source": "한국경제",
-      "ts": 1784514802000,
-      "pub": "Mon, 20 Jul 2026 11:33:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"AI 거품? 남길 기회 없다\"…TSMC '400조 베팅' 자신감",
-      "link": "https://www.hankyung.com/article/2026072040737",
-      "source": "한국경제",
-      "ts": 1784513499000,
-      "pub": "Mon, 20 Jul 2026 11:11:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼성전자, 급락출발 후 상승전환해 강보합…하이닉스 1%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260720036900008",
-      "source": "연합뉴스 경제",
-      "ts": 1784507332000,
-      "pub": "Mon, 20 Jul 2026 09:28:52 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "키움증권 \"테스, 메모리 설비투자 가속화 수혜…목표가 4배로↑\"",
-      "link": "https://www.yna.co.kr/view/AKR20260720022900008",
-      "source": "연합뉴스 경제",
-      "ts": 1784504230000,
-      "pub": "Mon, 20 Jul 2026 08:37:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "中알리바바, AI칩 소프트웨어 무료 공개…엔비디아 쿠다 대항마",
       "link": "https://www.yna.co.kr/view/AKR20260719056300009",
       "source": "연합뉴스 국제",
       "ts": 1784464221000,
       "pub": "Sun, 19 Jul 2026 21:30:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한은 \"반도체發 교역조건 개선, 내수 파급효과 과거보다 클 것\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260716190951002",
-      "source": "연합뉴스 경제",
-      "ts": 1784456158000,
-      "pub": "Sun, 19 Jul 2026 19:15:58 +0900",
       "sentiment": "neutral"
     }
   ]

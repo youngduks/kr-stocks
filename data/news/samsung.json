@@ -1,10 +1,18 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-20T11:34:21.869Z",
-  "count": 6,
+  "updated_at": "2026-07-20T13:44:54.149Z",
+  "count": 7,
   "items": [
     {
-      "title": "\"주가 무너지는데 성과급 잔치라니\"…삼전 개미들 집단반발",
+      "title": "'삼전닉스' 물린 개미 버틸 이유 생기나…깜짝 전망 나온다 [분석+]",
+      "link": "https://www.hankyung.com/article/2026072048276",
+      "source": "한국경제",
+      "ts": 1784545205000,
+      "pub": "Mon, 20 Jul 2026 20:00:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"주가 무너지는데 직원만 성과급\"…삼전 개미들 '집단 반발'",
       "link": "https://www.hankyung.com/article/202607205329g",
       "source": "한국경제",
       "ts": 1784543537000,
@@ -12,7 +20,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "TSMC,파운드리선두 굳히기…\"대만과 미국에 팹25개 증설\"",
+      "title": "TSMC, 파운드리 선두 굳히기…\"대만과 미국에 팹 25개 증설\"",
       "link": "https://www.hankyung.com/article/202607205306i",
       "source": "한국경제",
       "ts": 1784543496000,

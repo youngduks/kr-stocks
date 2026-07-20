@@ -1,10 +1,18 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-20T11:34:21.870Z",
+  "updated_at": "2026-07-20T13:44:54.149Z",
   "count": 6,
   "items": [
     {
-      "title": "TSMC,파운드리선두 굳히기…\"대만과 미국에 팹25개 증설\"",
+      "title": "원화, G20 통화 절상률 1위…SK하이닉스가 안정시킨 환율 [분석+]",
+      "link": "https://www.hankyung.com/article/2026072051156",
+      "source": "한국경제",
+      "ts": 1784552401000,
+      "pub": "Mon, 20 Jul 2026 22:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "TSMC, 파운드리 선두 굳히기…\"대만과 미국에 팹 25개 증설\"",
       "link": "https://www.hankyung.com/article/202607205306i",
       "source": "한국경제",
       "ts": 1784543496000,
@@ -17,14 +25,6 @@
       "source": "한국경제",
       "ts": 1784542229000,
       "pub": "Mon, 20 Jul 2026 19:10:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "글로벌 반도체주 변동성, 닷컴버블보다 5배 높다",
-      "link": "https://www.hankyung.com/article/2026072051461",
-      "source": "한국경제",
-      "ts": 1784540135000,
-      "pub": "Mon, 20 Jul 2026 18:35:35 +0900",
       "sentiment": "neutral"
     },
     {

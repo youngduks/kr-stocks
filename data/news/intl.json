@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-20T11:34:21.868Z",
+  "updated_at": "2026-07-20T13:44:54.148Z",
   "count": 18,
   "items": [
+    {
+      "title": "야유 쏟아져도 버틴 '눈치 없는' 트럼프…FIFA에서 잘라냈다",
+      "link": "https://www.hankyung.com/article/2026072054287",
+      "source": "한국경제",
+      "ts": 1784553103000,
+      "pub": "Mon, 20 Jul 2026 22:11:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러 외무 \"푸틴과 김정은 '비밀 소통' 계속되는 것 중요\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260720157451108",
+      "source": "연합뉴스 국제",
+      "ts": 1784548548000,
+      "pub": "Mon, 20 Jul 2026 20:55:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하마스 새 수장에 칼릴 알하야…휴전 협상 주도한 인물",
+      "link": "https://www.yna.co.kr/view/AKR20260720165700079",
+      "source": "연합뉴스 국제",
+      "ts": 1784548136000,
+      "pub": "Mon, 20 Jul 2026 20:48:56 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "러 외무 \"푸틴과 김정은 '비밀 소통' 계속되는 것 중요\"",
       "link": "https://www.yna.co.kr/view/AKR20260720157400108",
@@ -121,30 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784502837000,
       "pub": "Mon, 20 Jul 2026 08:13:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美국무, 레바논 대통령 만나 이스라엘-레바논 평화합의 이행논의",
-      "link": "https://www.yna.co.kr/view/AKR20260720001600071",
-      "source": "연합뉴스 국제",
-      "ts": 1784480639000,
-      "pub": "Mon, 20 Jul 2026 02:03:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "푸틴, 방러 최선희 만나 \"북한군 도움 감사, 김정은에 안부\"",
-      "link": "https://www.yna.co.kr/view/AKR20260720000900108",
-      "source": "연합뉴스 국제",
-      "ts": 1784478064000,
-      "pub": "Mon, 20 Jul 2026 01:21:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘, 美부정여론 돌리려 'AI문자 발송' 750억원 홍보전",
-      "link": "https://www.yna.co.kr/view/AKR20260719061600072",
-      "source": "연합뉴스 국제",
-      "ts": 1784472774000,
-      "pub": "Sun, 19 Jul 2026 23:52:54 +0900",
       "sentiment": "neutral"
     }
   ]

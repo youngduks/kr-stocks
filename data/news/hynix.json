@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-20T19:22:31.381Z",
-  "count": 8,
+  "updated_at": "2026-07-20T20:59:03.575Z",
+  "count": 11,
   "items": [
+    {
+      "title": "호남 반도체 산단 성공요건 '인·수·전'...부메랑 된 '탈원전·4대강'",
+      "link": "https://www.mt.co.kr/politics/2026/07/21/2026072018211938543",
+      "source": "머니투데이",
+      "ts": 1784577600000,
+      "pub": "Tue, 21 Jul 2026 05:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "MS, 클라우드 '애저'에 AMD AI랙 대거 도입…엔비디아 독주 견제",
+      "link": "https://www.yna.co.kr/view/AKR20260721005300091",
+      "source": "연합뉴스 국제",
+      "ts": 1784575375000,
+      "pub": "Tue, 21 Jul 2026 04:22:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[사설]삼바 빅딜, 바이오를 제2의 반도체로",
+      "link": "https://www.mt.co.kr/opinion/2026/07/21/2026072017053548743",
+      "source": "머니투데이",
+      "ts": 1784574000000,
+      "pub": "Tue, 21 Jul 2026 04:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美 증시, 유가 혼조 속 반도체 반등에 상승",
       "link": "https://www.hankyung.com/article/202607205455i",

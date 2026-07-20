@@ -1,15 +1,63 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-19T23:45:05.006Z",
-  "count": 18,
+  "updated_at": "2026-07-20T01:51:37.756Z",
+  "count": 12,
   "items": [
     {
-      "title": "\"하나마이크론, 사업호조·주가조정 매력…목표가 6.8만\"-한투",
-      "link": "https://www.mt.co.kr/stock/2026/07/20/2026072008260337524",
+      "title": "AI부터 반도체까지…경기혁신센터, 미래 산업 이끌 딥테크 6개사 투자",
+      "link": "https://www.mt.co.kr/policy/2026/07/20/2026072010052535379",
       "source": "머니투데이",
-      "ts": 1784504386000,
-      "pub": "Mon, 20 Jul 2026 08:39:46 +0900",
+      "ts": 1784510448000,
+      "pub": "Mon, 20 Jul 2026 10:20:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[마켓라이브] 반도체 충격에 코스피 약세 출발…보험·지주株 급락 [오전 9시 10분 시황]",
+      "link": "https://www.hankyung.com/article/202607203679i",
+      "source": "한국경제",
+      "ts": 1784507797000,
+      "pub": "Mon, 20 Jul 2026 09:36:37 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "삼성전자 팔고 SK하이닉스·SK스퀘어 담았다…초고수의 선택",
+      "link": "https://www.hankyung.com/article/202607203495i",
+      "source": "한국경제",
+      "ts": 1784507484000,
+      "pub": "Mon, 20 Jul 2026 09:31:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"40% 세일!\" 줍줍 몰린다…반도체 고점론에 급락했던 삼전닉스 반등",
+      "link": "https://www.mt.co.kr/stock/2026/07/20/2026072009295285059",
+      "source": "머니투데이",
+      "ts": 1784507421000,
+      "pub": "Mon, 20 Jul 2026 09:30:21 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[특징주] 삼성전자, 급락출발 후 상승전환해 강보합…하이닉스 1%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260720036900008",
+      "source": "연합뉴스 경제",
+      "ts": 1784507332000,
+      "pub": "Mon, 20 Jul 2026 09:28:52 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "하나마이크론, 2분기 호실적 전망에 '급등'",
+      "link": "https://www.hankyung.com/article/2026072036106",
+      "source": "한국경제",
+      "ts": 1784506933000,
+      "pub": "Mon, 20 Jul 2026 09:22:13 +0900",
       "sentiment": "positive"
+    },
+    {
+      "title": "코스피, 美 반도체주 약세·중동 긴장에 2% 급락…6600선으로 밀려",
+      "link": "https://www.hankyung.com/article/2026072034826",
+      "source": "한국경제",
+      "ts": 1784506560000,
+      "pub": "Mon, 20 Jul 2026 09:16:00 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "키움증권 \"테스, 메모리 설비투자 가속화 수혜…목표가 4배로↑\"",
@@ -17,46 +65,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784504230000,
       "pub": "Mon, 20 Jul 2026 08:37:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 흔들려도 TSMC는 TSMC…\"첨단 공정 지배력 더 커져\"",
-      "link": "https://www.hankyung.com/article/2026072032866",
-      "source": "한국경제",
-      "ts": 1784502066000,
-      "pub": "Mon, 20 Jul 2026 08:01:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"하나마이크론, 2분기 실적 예상치 웃돌 전망…목표가↑\"-한국",
-      "link": "https://www.hankyung.com/article/2026072032726",
-      "source": "한국경제",
-      "ts": 1784501564000,
-      "pub": "Mon, 20 Jul 2026 07:52:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 랠리 분수령 알파벳 2분기 실적발표, 관전포인트 4가지",
-      "link": "https://www.hankyung.com/article/202607203257i",
-      "source": "한국경제",
-      "ts": 1784500658000,
-      "pub": "Mon, 20 Jul 2026 07:37:38 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\"메모리 수요 아비규환, 증설이 생명줄\"",
-      "link": "https://www.mt.co.kr/industry/2026/07/20/2026071919394737688",
-      "source": "머니투데이",
-      "ts": 1784490060000,
-      "pub": "Mon, 20 Jul 2026 04:41:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'반도체 올인' 최태원 회장, SK실트론 매각 딜레마",
-      "link": "https://www.mt.co.kr/industry/2026/07/20/2026071919391954710",
-      "source": "머니투데이",
-      "ts": 1784487840000,
-      "pub": "Mon, 20 Jul 2026 04:04:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -89,62 +97,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784430006000,
       "pub": "Sun, 19 Jul 2026 12:00:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "공개 임박 삼성전자 8세대 갤럭시 Z…비메모리 반등 이끌까",
-      "link": "https://www.yna.co.kr/view/AKR20260716190800003",
-      "source": "연합뉴스 경제",
-      "ts": 1784409191000,
-      "pub": "Sun, 19 Jul 2026 06:13:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 꺾이고 코스피 출렁여도…주가 선방한 식품기업 '3인방'",
-      "link": "https://www.yna.co.kr/view/AKR20260718042000030",
-      "source": "연합뉴스 경제",
-      "ts": 1784409001000,
-      "pub": "Sun, 19 Jul 2026 06:10:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 ADR, 美반도체 약세에도 본주 대비 '25% 프리미엄'",
-      "link": "https://www.yna.co.kr/view/AKR20260717057600008",
-      "source": "연합뉴스 경제",
-      "ts": 1784408582000,
-      "pub": "Sun, 19 Jul 2026 06:03:02 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[마켓인사이트] 제헌절 연휴 美반도체 하락지속…韓증시 짓누르나",
-      "link": "https://www.yna.co.kr/view/AKR20260717057700008",
-      "source": "연합뉴스 경제",
-      "ts": 1784408418000,
-      "pub": "Sun, 19 Jul 2026 06:00:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "박홍근 \"반도체 호황기 급격히 안 꺼져…청년 정책에 대폭 투자\"",
-      "link": "https://www.yna.co.kr/view/AKR20260718032300002",
-      "source": "연합뉴스 경제",
-      "ts": 1784354612000,
-      "pub": "Sat, 18 Jul 2026 15:03:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스닥도 반도체 장세?…시총 톱100에 반도체주 1년새 88%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260716201100008",
-      "source": "연합뉴스 경제",
-      "ts": 1784326500000,
-      "pub": "Sat, 18 Jul 2026 07:15:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "최태원, \"SK하이닉스 주식, 샀다 팔았다 말고 갖고 있으면 돼\"",
-      "link": "https://www.yna.co.kr/view/AKR20260717026000003",
-      "source": "연합뉴스 경제",
-      "ts": 1784252284000,
-      "pub": "Fri, 17 Jul 2026 10:38:04 +0900",
       "sentiment": "neutral"
     }
   ]

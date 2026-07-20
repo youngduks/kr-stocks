@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-20T15:43:28.325Z",
-  "count": 18,
+  "updated_at": "2026-07-20T17:19:12.544Z",
+  "count": 20,
   "items": [
+    {
+      "title": "트럼프 \"이란, 美병사 죽일 때마다 몇배로 대가 치를 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260721002100071",
+      "source": "연합뉴스 국제",
+      "ts": 1784566820000,
+      "pub": "Tue, 21 Jul 2026 02:00:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하마스 새 수장에 칼릴 알하야…휴전 협상 주도 초강경파(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260720165751079",
+      "source": "연합뉴스 국제",
+      "ts": 1784562112000,
+      "pub": "Tue, 21 Jul 2026 00:41:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "관세 장벽에도 멕시코서 中 자동차 판매↑…상반기 점유율 17%",
+      "link": "https://www.yna.co.kr/view/AKR20260721000900087",
+      "source": "연합뉴스 국제",
+      "ts": 1784562034000,
+      "pub": "Tue, 21 Jul 2026 00:40:34 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "야유 쏟아져도 버틴 '눈치 없는' 트럼프…FIFA에서 잘라냈다",
       "link": "https://www.hankyung.com/article/2026072054287",
@@ -137,14 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784509615000,
       "pub": "Mon, 20 Jul 2026 10:06:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"북해 유전 개발이 가난한 영국을 부국으로 만들 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260720017600009",
-      "source": "연합뉴스 국제",
-      "ts": 1784502837000,
-      "pub": "Mon, 20 Jul 2026 08:13:57 +0900",
       "sentiment": "neutral"
     }
   ]

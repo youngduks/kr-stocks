@@ -1,39 +1,79 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-20T01:51:37.756Z",
-  "count": 12,
+  "updated_at": "2026-07-20T05:28:20.258Z",
+  "count": 13,
   "items": [
     {
-      "title": "AI부터 반도체까지…경기혁신센터, 미래 산업 이끌 딥테크 6개사 투자",
-      "link": "https://www.mt.co.kr/policy/2026/07/20/2026072010052535379",
-      "source": "머니투데이",
-      "ts": 1784510448000,
-      "pub": "Mon, 20 Jul 2026 10:20:48 +0900",
+      "title": "\"中 반도체 위협 아니다…'세계 최고' 이익성장률에 주목할 때\"",
+      "link": "https://www.hankyung.com/article/202607169319i",
+      "source": "한국경제",
+      "ts": 1784522784000,
+      "pub": "Mon, 20 Jul 2026 13:46:24 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[마켓라이브] 반도체 충격에 코스피 약세 출발…보험·지주株 급락 [오전 9시 10분 시황]",
-      "link": "https://www.hankyung.com/article/202607203679i",
+      "title": "'반도체 대장주' SK하이닉스, 국내외 메모리 생산 기지 확장",
+      "link": "https://www.hankyung.com/article/202607157538i",
       "source": "한국경제",
-      "ts": 1784507797000,
-      "pub": "Mon, 20 Jul 2026 09:36:37 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "삼성전자 팔고 SK하이닉스·SK스퀘어 담았다…초고수의 선택",
-      "link": "https://www.hankyung.com/article/202607203495i",
-      "source": "한국경제",
-      "ts": 1784507484000,
-      "pub": "Mon, 20 Jul 2026 09:31:24 +0900",
+      "ts": 1784522773000,
+      "pub": "Mon, 20 Jul 2026 13:46:13 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"40% 세일!\" 줍줍 몰린다…반도체 고점론에 급락했던 삼전닉스 반등",
-      "link": "https://www.mt.co.kr/stock/2026/07/20/2026072009295285059",
+      "title": "[더벨]한울반도체, AI 기반 MLCC 전수검사 시스템 개발",
+      "link": "https://www.mt.co.kr/stock/2026/07/20/2026072013209613516",
       "source": "머니투데이",
-      "ts": 1784507421000,
-      "pub": "Mon, 20 Jul 2026 09:30:21 +0900",
+      "ts": 1784521630000,
+      "pub": "Mon, 20 Jul 2026 13:27:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"TSMC, 대만에 5년간 공장 25개 신설\"…미국 쏠림 우려 대응",
+      "link": "https://www.yna.co.kr/view/AKR20260720086600009",
+      "source": "연합뉴스 국제",
+      "ts": 1784521497000,
+      "pub": "Mon, 20 Jul 2026 13:24:57 +0900",
       "sentiment": "negative"
+    },
+    {
+      "title": "[뉴스프레소] 중국발 AI 위협… 반도체지수 주간 10% 급락 '약세장 진입'",
+      "link": "https://www.mt.co.kr/world/2026/07/20/2026072012087041737",
+      "source": "머니투데이",
+      "ts": 1784520987000,
+      "pub": "Mon, 20 Jul 2026 13:16:27 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "엔비디아도 노린 '정형 데이터AI' 정조준…넘즈AI, 40억 투자 유치",
+      "link": "https://www.mt.co.kr/future/2026/07/20/2026072009165646335",
+      "source": "머니투데이",
+      "ts": 1784520000000,
+      "pub": "Mon, 20 Jul 2026 13:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "얼어붙은 반도체주 투심, 대만 가권지수 0.58% ↓ [Asia오전]",
+      "link": "https://www.mt.co.kr/world/2026/07/20/2026072011401325886",
+      "source": "머니투데이",
+      "ts": 1784518314000,
+      "pub": "Mon, 20 Jul 2026 12:31:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "초고수들은 기판·전력株에 베팅…SK하이닉스는 순매도 나서",
+      "link": "https://www.hankyung.com/article/202607204003i",
+      "source": "한국경제",
+      "ts": 1784514802000,
+      "pub": "Mon, 20 Jul 2026 11:33:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"AI 거품? 남길 기회 없다\"…TSMC '400조 베팅' 자신감",
+      "link": "https://www.hankyung.com/article/2026072040737",
+      "source": "한국경제",
+      "ts": 1784513499000,
+      "pub": "Mon, 20 Jul 2026 11:11:39 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "[특징주] 삼성전자, 급락출발 후 상승전환해 강보합…하이닉스 1%↑",
@@ -41,22 +81,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784507332000,
       "pub": "Mon, 20 Jul 2026 09:28:52 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "하나마이크론, 2분기 호실적 전망에 '급등'",
-      "link": "https://www.hankyung.com/article/2026072036106",
-      "source": "한국경제",
-      "ts": 1784506933000,
-      "pub": "Mon, 20 Jul 2026 09:22:13 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "코스피, 美 반도체주 약세·중동 긴장에 2% 급락…6600선으로 밀려",
-      "link": "https://www.hankyung.com/article/2026072034826",
-      "source": "한국경제",
-      "ts": 1784506560000,
-      "pub": "Mon, 20 Jul 2026 09:16:00 +0900",
       "sentiment": "negative"
     },
     {
@@ -81,22 +105,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784456158000,
       "pub": "Sun, 19 Jul 2026 19:15:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "최태원 \"내년 반도체 수요 최소 50% 증가…빠른 증설이 생명줄\"",
-      "link": "https://www.yna.co.kr/view/AKR20260718029600003",
-      "source": "연합뉴스 경제",
-      "ts": 1784430015000,
-      "pub": "Sun, 19 Jul 2026 12:00:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한은 \"반도체發 교역조건 개선, 내수 파급효과 과거보다 클 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260716190900002",
-      "source": "연합뉴스 경제",
-      "ts": 1784430006000,
-      "pub": "Sun, 19 Jul 2026 12:00:06 +0900",
       "sentiment": "neutral"
     }
   ]

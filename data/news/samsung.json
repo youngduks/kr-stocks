@@ -1,22 +1,54 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-20T01:51:37.756Z",
-  "count": 4,
+  "updated_at": "2026-07-20T05:28:20.258Z",
+  "count": 8,
   "items": [
     {
-      "title": "삼성전자 팔고 SK하이닉스·SK스퀘어 담았다…초고수의 선택",
-      "link": "https://www.hankyung.com/article/202607203495i",
+      "title": "'반도체 대장주' SK하이닉스, 국내외 메모리 생산 기지 확장",
+      "link": "https://www.hankyung.com/article/202607157538i",
       "source": "한국경제",
-      "ts": 1784507484000,
-      "pub": "Mon, 20 Jul 2026 09:31:24 +0900",
+      "ts": 1784522773000,
+      "pub": "Mon, 20 Jul 2026 13:46:13 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"40% 세일!\" 줍줍 몰린다…반도체 고점론에 급락했던 삼전닉스 반등",
-      "link": "https://www.mt.co.kr/stock/2026/07/20/2026072009295285059",
+      "title": "삼전·닉스가 출제한 문제, 첨단산업 특성화대학 학생이 푼다",
+      "link": "https://www.mt.co.kr/policy/2026/07/20/2026072008464991421",
       "source": "머니투데이",
-      "ts": 1784507421000,
-      "pub": "Mon, 20 Jul 2026 09:30:21 +0900",
+      "ts": 1784516400000,
+      "pub": "Mon, 20 Jul 2026 12:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스닥 이어 코스피도 매도사이드카…삼전하닉 동반 하락",
+      "link": "https://www.mt.co.kr/stock/2026/07/20/2026072011405051845",
+      "source": "머니투데이",
+      "ts": 1784515566000,
+      "pub": "Mon, 20 Jul 2026 11:46:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "김재원 \"삼전닉스 ETF, 구윤철·김용범 '도박개장죄' 의심\"",
+      "link": "https://www.hankyung.com/article/202607203932i",
+      "source": "한국경제",
+      "ts": 1784513508000,
+      "pub": "Mon, 20 Jul 2026 11:11:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼전닉스, 상승전환했다 다시 낙폭확대…3~4% 약세(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260720036951008",
+      "source": "연합뉴스 경제",
+      "ts": 1784512963000,
+      "pub": "Mon, 20 Jul 2026 11:02:43 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[속보] 코스피·코스닥, 다시 4%대로 낙폭 확대…삼전·닉스 4%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260720067700008",
+      "source": "연합뉴스 경제",
+      "ts": 1784512666000,
+      "pub": "Mon, 20 Jul 2026 10:57:46 +0900",
       "sentiment": "negative"
     },
     {

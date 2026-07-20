@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-20T01:51:37.755Z",
+  "updated_at": "2026-07-20T05:28:20.256Z",
   "count": 15,
   "items": [
+    {
+      "title": "[영상] 우크라, 러 Tu-95 전략폭격기 파괴…\"꼬리 부분 완전히 떨어져\"",
+      "link": "https://www.yna.co.kr/view/AKR20260720077300704",
+      "source": "연합뉴스 국제",
+      "ts": 1784515008000,
+      "pub": "Mon, 20 Jul 2026 11:36:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美, 이란에 또 '응징 공습'…트럼프 \"미군 전사자 기리려는 것\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260720061251071",
+      "source": "연합뉴스 국제",
+      "ts": 1784514070000,
+      "pub": "Mon, 20 Jul 2026 11:21:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美, 이란에 또 '응징 공습'…트럼프 \"미군 전사자 기리려는 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260720061200071",
+      "source": "연합뉴스 국제",
+      "ts": 1784512391000,
+      "pub": "Mon, 20 Jul 2026 10:53:11 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美관세 인상에 日 車업계 22조원 손실…\"가격 전가도 어려워\"",
       "link": "https://www.yna.co.kr/view/AKR20260720053700073",
@@ -17,14 +41,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784509615000,
       "pub": "Mon, 20 Jul 2026 10:06:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "스페인 우승에 트럼프가 왜?…\"내려오세요\" 만류에도 버텼다",
-      "link": "https://www.hankyung.com/article/202607203696H",
-      "source": "한국경제",
-      "ts": 1784508086000,
-      "pub": "Mon, 20 Jul 2026 09:41:26 +0900",
       "sentiment": "neutral"
     },
     {
@@ -105,22 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784441680000,
       "pub": "Sun, 19 Jul 2026 15:14:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키, 국방장관 경질에 시위 번지자 총사령관 교체 검토",
-      "link": "https://www.yna.co.kr/view/AKR20260719009900009",
-      "source": "연합뉴스 국제",
-      "ts": 1784415728000,
-      "pub": "Sun, 19 Jul 2026 08:02:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특파원시선] 중간선거 앞 트럼프의 목표는 '유권자ID법'뿐일까",
-      "link": "https://www.yna.co.kr/view/AKR20260718004400071",
-      "source": "연합뉴스 국제",
-      "ts": 1784412421000,
-      "pub": "Sun, 19 Jul 2026 07:07:01 +0900",
       "sentiment": "neutral"
     }
   ]

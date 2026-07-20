@@ -1,10 +1,26 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-20T13:44:54.149Z",
-  "count": 6,
+  "updated_at": "2026-07-20T15:43:28.327Z",
+  "count": 8,
   "items": [
     {
-      "title": "원화, G20 통화 절상률 1위…SK하이닉스가 안정시킨 환율 [분석+]",
+      "title": "美증시,유가 혼조속 반도체 반등에 상승",
+      "link": "https://www.hankyung.com/article/202607205455i",
+      "source": "한국경제",
+      "ts": 1784557430000,
+      "pub": "Mon, 20 Jul 2026 23:23:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 반도체주 저가매수에 상승 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260720170900009",
+      "source": "연합뉴스 국제",
+      "ts": 1784556021000,
+      "pub": "Mon, 20 Jul 2026 23:00:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "환율, 왜 갑자기 떨어졌나 봤더니…SK하이닉스 효과였다 [분석+]",
       "link": "https://www.hankyung.com/article/2026072051156",
       "source": "한국경제",
       "ts": 1784552401000,

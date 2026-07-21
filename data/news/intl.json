@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-21T14:53:54.251Z",
-  "count": 21,
+  "updated_at": "2026-07-21T16:13:37.299Z",
+  "count": 22,
   "items": [
+    {
+      "title": "네덜란드도 9월부터 이스라엘 점령지와 무역 중단",
+      "link": "https://www.yna.co.kr/view/AKR20260722001700098",
+      "source": "연합뉴스 국제",
+      "ts": 1784649040000,
+      "pub": "Wed, 22 Jul 2026 00:50:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"독일·러시아 인사들, 우크라 해법 놓고 비밀 회동\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722001200082",
+      "source": "연합뉴스 국제",
+      "ts": 1784648285000,
+      "pub": "Wed, 22 Jul 2026 00:38:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美USTR대표,\"금주 만료될 10%관세 후속 조치 곧 발표\"",
+      "link": "https://www.hankyung.com/article/202607217964i",
+      "source": "한국경제",
+      "ts": 1784647168000,
+      "pub": "Wed, 22 Jul 2026 00:19:28 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "캐나다산 '50%' 관세에…미국 당국자들 \"맞춤형 상호주의 조치\"",
       "link": "https://www.hankyung.com/article/2026072179147",
@@ -154,22 +178,6 @@
       "ts": 1784596182000,
       "pub": "Tue, 21 Jul 2026 10:09:42 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 이웃 캐나다에 50% '관세폭탄'…'美에 보복' 책임 묻기(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260721013651071",
-      "source": "연합뉴스 국제",
-      "ts": 1784589570000,
-      "pub": "Tue, 21 Jul 2026 08:19:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "산불 관세 경고했던 트럼프, 캐나다 일부 제품 50% 추가 관세",
-      "link": "https://www.yna.co.kr/view/AKR20260721013600071",
-      "source": "연합뉴스 국제",
-      "ts": 1784585680000,
-      "pub": "Tue, 21 Jul 2026 07:14:40 +0900",
-      "sentiment": "negative"
     }
   ]
 }

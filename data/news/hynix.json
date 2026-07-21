@@ -1,10 +1,18 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-21T14:53:54.253Z",
-  "count": 14,
+  "updated_at": "2026-07-21T16:13:37.300Z",
+  "count": 15,
   "items": [
     {
-      "title": "美증시,반도체 주도 기술주 상승…나스닥 1%↑",
+      "title": "\"TSMC, 내년부터 위탁칩 가격 최대 10% 인상\" [닛케이]",
+      "link": "https://www.hankyung.com/article/202607217955i",
+      "source": "한국경제",
+      "ts": 1784645228000,
+      "pub": "Tue, 21 Jul 2026 23:47:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美증시, 반도체 주도 기술주 상승…나스닥 1%↑",
       "link": "https://www.hankyung.com/article/202607217946i",
       "source": "한국경제",
       "ts": 1784643852000,

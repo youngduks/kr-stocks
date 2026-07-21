@@ -1,15 +1,31 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-21T18:07:26.297Z",
-  "count": 26,
+  "updated_at": "2026-07-21T20:11:57.011Z",
+  "count": 22,
   "items": [
     {
-      "title": "트럼프 \"후티 홍해 봉쇄 땐 미국이 처리…이란 곡괭이산 곧 타격\"",
-      "link": "https://www.mt.co.kr/world/2026/07/22/2026072201593673789",
-      "source": "머니투데이",
-      "ts": 1784653633000,
-      "pub": "Wed, 22 Jul 2026 02:07:13 +0900",
+      "title": "加총리, '美 50% 관세'에 \"협상 강화\"…트럼프 \"산불과 별개\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260722002351072",
+      "source": "연합뉴스 국제",
+      "ts": 1784663174000,
+      "pub": "Wed, 22 Jul 2026 04:46:14 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"후티 홍해 봉쇄시 美가 처리…이란 곡괭이산 곧 타격\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260722002251071",
+      "source": "연합뉴스 국제",
+      "ts": 1784661350000,
+      "pub": "Wed, 22 Jul 2026 04:15:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "레바논 대통령, '내전위험' 경고…트럼프 \"헤즈볼라와 대화할것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722005900079",
+      "source": "연합뉴스 국제",
+      "ts": 1784660641000,
+      "pub": "Wed, 22 Jul 2026 04:04:01 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "푸틴, 11월 APEC 정상회의 간다…李대통령 만남 성사될까",
@@ -68,27 +84,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"이란 곡괭이산 타격\" 발언 이유 있었나…\"원심분리기 이동\"",
-      "link": "https://www.mt.co.kr/world/2026/07/21/2026072122121498292",
-      "source": "머니투데이",
-      "ts": 1784640666000,
-      "pub": "Tue, 21 Jul 2026 22:31:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "수명 다 된 10% 글로벌관세…트럼프 '301조 관세' 부과 임박(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260721011351071",
       "source": "연합뉴스 국제",
       "ts": 1784634843000,
       "pub": "Tue, 21 Jul 2026 20:54:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"미중, 9월 중 'AI 회담' 추진…최신 모델 기본 조건 합의\" - 로이터",
-      "link": "https://www.mt.co.kr/world/2026/07/21/2026072120464723206",
-      "source": "머니투데이",
-      "ts": 1784634775000,
-      "pub": "Tue, 21 Jul 2026 20:52:55 +0900",
       "sentiment": "neutral"
     },
     {
@@ -105,14 +105,6 @@
       "source": "한국경제",
       "ts": 1784631140000,
       "pub": "Tue, 21 Jul 2026 19:52:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 행정부서 이란 협상에 회의…\"정권 교체 재검토해야\" 주장 부상",
-      "link": "https://www.mt.co.kr/world/2026/07/21/2026072119374836467",
-      "source": "머니투데이",
-      "ts": 1784630591000,
-      "pub": "Tue, 21 Jul 2026 19:43:11 +0900",
       "sentiment": "neutral"
     },
     {
@@ -185,30 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784600269000,
       "pub": "Tue, 21 Jul 2026 11:17:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"英신임 총리와 매우 좋은 대화…조만간 만날 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260721064900009",
-      "source": "연합뉴스 국제",
-      "ts": 1784597084000,
-      "pub": "Tue, 21 Jul 2026 10:24:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "수도 노리는 러-우…우크라, 키이우 피격에 드론 400대로 맞불",
-      "link": "https://www.yna.co.kr/view/AKR20260721059200009",
-      "source": "연합뉴스 국제",
-      "ts": 1784597027000,
-      "pub": "Tue, 21 Jul 2026 10:23:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 측근' FBI 국장, 10월 러시아行…\"이례적 일정\"",
-      "link": "https://www.yna.co.kr/view/AKR20260721054200009",
-      "source": "연합뉴스 국제",
-      "ts": 1784596182000,
-      "pub": "Tue, 21 Jul 2026 10:09:42 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,23 +1,103 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-21T04:57:06.221Z",
-  "count": 11,
+  "updated_at": "2026-07-21T07:28:49.241Z",
+  "count": 17,
   "items": [
     {
-      "title": "[속보] 李대통령 \"광주 반도체 공장 이전도 파업 대상 아니라 생각\"",
-      "link": "https://www.hankyung.com/article/2026072166317",
+      "title": "하이닉스 효과·외국인 순매수에 환율 장중 1,471.1원까지 하락",
+      "link": "https://www.yna.co.kr/view/AKR20260721140900002",
+      "source": "연합뉴스 경제",
+      "ts": 1784617874000,
+      "pub": "Tue, 21 Jul 2026 16:11:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "FT \"중국, AI·반도체 기술 '수출 빗장' 검토 중\"",
+      "link": "https://www.hankyung.com/article/2026072171857",
       "source": "한국경제",
-      "ts": 1784602656000,
-      "pub": "Tue, 21 Jul 2026 11:57:36 +0900",
+      "ts": 1784617577000,
+      "pub": "Tue, 21 Jul 2026 16:06:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "저가매수? 반도체 우려 완화?…삼전·닉스, 6%·4%대 반등(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260721041752008",
+      "source": "연합뉴스 경제",
+      "ts": 1784616886000,
+      "pub": "Tue, 21 Jul 2026 15:54:46 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "'키미 쇼크'?…\"삼성전자·SK하이닉스 지속 수요 시사\"",
-      "link": "https://www.hankyung.com/article/202607216406g",
+      "title": "코스피 6700선 회복…반도체 급등에 올해 19번째 매수 사이드카",
+      "link": "https://www.hankyung.com/article/2026072171786",
       "source": "한국경제",
-      "ts": 1784600157000,
-      "pub": "Tue, 21 Jul 2026 11:15:57 +0900",
-      "sentiment": "negative"
+      "ts": 1784616275000,
+      "pub": "Tue, 21 Jul 2026 15:44:35 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[속보] 코스피, 반도체 반등에 3.6%↑…6,747 마감",
+      "link": "https://www.hankyung.com/article/2026072171807",
+      "source": "한국경제",
+      "ts": 1784616040000,
+      "pub": "Tue, 21 Jul 2026 15:40:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "FT \"중국, AI·반도체 기술 수출통제 강화 검토\"",
+      "link": "https://www.yna.co.kr/view/AKR20260721130100009",
+      "source": "연합뉴스 국제",
+      "ts": 1784615948000,
+      "pub": "Tue, 21 Jul 2026 15:39:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中 AI생태계 은하계획, '안면인식' 기업이 주도…엔비디아 철옹성 깨나",
+      "link": "https://www.mt.co.kr/world/2026/07/21/2026072114375677823",
+      "source": "머니투데이",
+      "ts": 1784615794000,
+      "pub": "Tue, 21 Jul 2026 15:36:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 코스피, 반도체 반등에 3.6%↑…6,747 마감",
+      "link": "https://www.yna.co.kr/view/AKR20260721138600008",
+      "source": "연합뉴스 경제",
+      "ts": 1784615676000,
+      "pub": "Tue, 21 Jul 2026 15:34:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "과기정통부, 김기남 삼성전자 고문과 'K-문샷' 반도체 미션 논의",
+      "link": "https://www.mt.co.kr/tech/2026/07/21/2026072115023563163",
+      "source": "머니투데이",
+      "ts": 1784614476000,
+      "pub": "Tue, 21 Jul 2026 15:14:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中 문샷 뜨자 엔비디아 뚝…머스크도 극찬한 33세 AI 천재[글로벌키맨]",
+      "link": "https://www.mt.co.kr/world/2026/07/21/2026072108491334947",
+      "source": "머니투데이",
+      "ts": 1784614469000,
+      "pub": "Tue, 21 Jul 2026 15:14:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 소부장 '인력난·인프라' 팔 걷은 추미애…'초격차 생태계' 박차",
+      "link": "https://www.mt.co.kr/policy/2026/07/21/2026072114340110703",
+      "source": "머니투데이",
+      "ts": 1784614264000,
+      "pub": "Tue, 21 Jul 2026 15:11:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "대만검찰, 반도체기밀 유출 시도 TSMC 前직원에 징역 7년형 구형",
+      "link": "https://www.yna.co.kr/view/AKR20260721103800009",
+      "source": "연합뉴스 국제",
+      "ts": 1784611408000,
+      "pub": "Tue, 21 Jul 2026 14:23:28 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "UBS \"AI·반도체 매도세 막바지…재진입 기회\"",
@@ -25,14 +105,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784599791000,
       "pub": "Tue, 21 Jul 2026 11:09:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 대신 SK하이닉스·SK스퀘어…초고수가 갈아탄 이유",
-      "link": "https://www.hankyung.com/article/202607216408i",
-      "source": "한국경제",
-      "ts": 1784599322000,
-      "pub": "Tue, 21 Jul 2026 11:02:02 +0900",
       "sentiment": "neutral"
     },
     {
@@ -52,22 +124,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "반도체 호조에 7월 중순 수출액 549억달러…52.3% 늘어 신기록(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260721034951002",
-      "source": "연합뉴스 경제",
-      "ts": 1784594027000,
-      "pub": "Tue, 21 Jul 2026 09:33:47 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[특징주] 삼성전자, 장초반 2%대 상승…SK하이닉스도 0.5%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260721041700008",
-      "source": "연합뉴스 경제",
-      "ts": 1784593654000,
-      "pub": "Tue, 21 Jul 2026 09:27:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "모건스탠리 \"메모리 주가 약세는 진입 기회 제공\"",
       "link": "https://www.yna.co.kr/view/AKR20260721028400009",
       "source": "연합뉴스 국제",
@@ -81,14 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784575375000,
       "pub": "Tue, 21 Jul 2026 04:22:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 반도체주 저가매수에 상승 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260720170900009",
-      "source": "연합뉴스 국제",
-      "ts": 1784556021000,
-      "pub": "Mon, 20 Jul 2026 23:00:21 +0900",
       "sentiment": "neutral"
     }
   ]

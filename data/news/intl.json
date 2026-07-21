@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-21T22:43:10.032Z",
-  "count": 28,
+  "updated_at": "2026-07-21T23:46:12.824Z",
+  "count": 26,
   "items": [
+    {
+      "title": "트럼프 \"2028년부터 수입복제약 100% 관세, 1년뒤 200%로 인상\"",
+      "link": "https://www.mt.co.kr/world/2026/07/22/2026072208270259773",
+      "source": "머니투데이",
+      "ts": 1784677015000,
+      "pub": "Wed, 22 Jul 2026 08:36:55 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 레바논 대통령 회담 후 41년 만에 직항편 재개 지시",
       "link": "https://www.mt.co.kr/world/2026/07/22/2026072207010491422",
@@ -84,14 +92,6 @@
       "sentiment": "negative"
     },
     {
-      "title": "트럼프 \"후티 홍해 봉쇄 땐 미국이 처리…이란 곡괭이산 곧 타격\"",
-      "link": "https://www.mt.co.kr/world/2026/07/22/2026072201593673789",
-      "source": "머니투데이",
-      "ts": 1784653633000,
-      "pub": "Wed, 22 Jul 2026 02:07:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "푸틴, 11월 APEC 정상회의 간다…李대통령 만남 성사될까",
       "link": "https://www.yna.co.kr/view/AKR20260722001900108",
       "source": "연합뉴스 국제",
@@ -156,14 +156,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 캐나다에 50% 관세…94년간 잠자던 법으로 \"보복에 또 보복\"",
-      "link": "https://www.hankyung.com/article/202607217863i",
-      "source": "한국경제",
-      "ts": 1784634755000,
-      "pub": "Tue, 21 Jul 2026 20:52:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "우크라, 러시아 '제트 샤헤드' 잡는 AI 요격드론 곧 실전 배치",
       "link": "https://www.yna.co.kr/view/AKR20260721169100109",
       "source": "연합뉴스 국제",
@@ -217,14 +209,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784602721000,
       "pub": "Tue, 21 Jul 2026 11:58:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 우크라 무인 로봇·드론 합동작전…보병 없이 러군 진지 완파",
-      "link": "https://www.yna.co.kr/view/AKR20260721089600704",
-      "source": "연합뉴스 국제",
-      "ts": 1784601157000,
-      "pub": "Tue, 21 Jul 2026 11:32:37 +0900",
       "sentiment": "neutral"
     }
   ]

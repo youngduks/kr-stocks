@@ -1,14 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-21T07:28:49.240Z",
-  "count": 9,
+  "updated_at": "2026-07-21T10:12:50.385Z",
+  "count": 7,
   "items": [
     {
-      "title": "[르포]빨간 이층버스도, 피카딜리 광장도 온통 '갤럭시'…런던 한복판에 나부낀 언팩 초대장",
-      "link": "https://www.mt.co.kr/tech/2026/07/21/2026072115470829727",
+      "title": "노태문 57억원, 전영현 26억원…삼성전자 자사주 상여금 '돈방석'",
+      "link": "https://www.hankyung.com/article/2026072177397",
+      "source": "한국경제",
+      "ts": 1784625479000,
+      "pub": "Tue, 21 Jul 2026 18:17:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'변동성 증폭' 삼전닉스 2배 ETF 보완책, 신용거래 금지부터 상폐까지",
+      "link": "https://www.mt.co.kr/stock/2026/07/21/2026072113523985488",
       "source": "머니투데이",
-      "ts": 1784617414000,
-      "pub": "Tue, 21 Jul 2026 16:03:34 +0900",
+      "ts": 1784622336000,
+      "pub": "Tue, 21 Jul 2026 17:25:36 +0900",
       "sentiment": "neutral"
     },
     {
@@ -18,30 +26,6 @@
       "ts": 1784616886000,
       "pub": "Tue, 21 Jul 2026 15:54:46 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "삼성전자, TV 화면 색 표현의 한계를 넘다…삼성 '마이크로 RGB'",
-      "link": "https://www.hankyung.com/article/2026072159731",
-      "source": "한국경제",
-      "ts": 1784615410000,
-      "pub": "Tue, 21 Jul 2026 15:30:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 제철 만난 삼성 비스포크 AI 얼음정수기…하루 1000알 '척척'",
-      "link": "https://www.hankyung.com/article/2026072159711",
-      "source": "한국경제",
-      "ts": 1784615319000,
-      "pub": "Tue, 21 Jul 2026 15:28:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "과기정통부, 김기남 삼성전자 고문과 'K-문샷' 반도체 미션 논의",
-      "link": "https://www.mt.co.kr/tech/2026/07/21/2026072115023563163",
-      "source": "머니투데이",
-      "ts": 1784614476000,
-      "pub": "Tue, 21 Jul 2026 15:14:36 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "삼성, 美서 첫 신용카드 '갤럭시카드' 출시…애플과 금융도 격돌",

@@ -1,14 +1,30 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-21T07:28:49.239Z",
-  "count": 24,
+  "updated_at": "2026-07-21T10:12:50.318Z",
+  "count": 19,
   "items": [
     {
-      "title": "\"트럼프, 중재국의 열흘 휴전안과 이란공습재개 함께 검토중\"",
-      "link": "https://www.mt.co.kr/world/2026/07/21/2026072113591118310",
-      "source": "머니투데이",
-      "ts": 1784617958000,
-      "pub": "Tue, 21 Jul 2026 16:12:38 +0900",
+      "title": "우크라, 러시아 '제트 샤헤드' 잡는 AI 요격드론 곧 실전 배치",
+      "link": "https://www.yna.co.kr/view/AKR20260721169100109",
+      "source": "연합뉴스 국제",
+      "ts": 1784625261000,
+      "pub": "Tue, 21 Jul 2026 18:14:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "지중해서 사라진 러 군함…\"우크라전·시리아 정권 교체 영향\"",
+      "link": "https://www.yna.co.kr/view/AKR20260721170800081",
+      "source": "연합뉴스 국제",
+      "ts": 1784625185000,
+      "pub": "Tue, 21 Jul 2026 18:13:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘군 떠난 레바논 남부 '시범구역'에 정부군 병력 배치",
+      "link": "https://www.yna.co.kr/view/AKR20260721157600079",
+      "source": "연합뉴스 국제",
+      "ts": 1784620972000,
+      "pub": "Tue, 21 Jul 2026 17:02:52 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,35 +44,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "월가, 침묵하는 연준 생각 보려 이런것까지…'워시GPT' 개발",
-      "link": "https://www.mt.co.kr/world/2026/07/21/2026072115054930378",
-      "source": "머니투데이",
-      "ts": 1784616018000,
-      "pub": "Tue, 21 Jul 2026 15:40:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, 일반인 사면·감형 신청 6천 건 무더기 기각",
       "link": "https://www.yna.co.kr/view/AKR20260721127700009",
       "source": "연합뉴스 국제",
       "ts": 1784613958000,
       "pub": "Tue, 21 Jul 2026 15:05:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"미국인, 어디서나 표적 될 수 있어\"...국무부, 중동여행 주의보",
-      "link": "https://www.mt.co.kr/world/2026/07/21/2026072113403991643",
-      "source": "머니투데이",
-      "ts": 1784612833000,
-      "pub": "Tue, 21 Jul 2026 14:47:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "시상식서 버틴 트럼프…FIFA는 사진서 흔적도 없이 '삭제'",
-      "link": "https://www.hankyung.com/article/202607216773H",
-      "source": "한국경제",
-      "ts": 1784611559000,
-      "pub": "Tue, 21 Jul 2026 14:25:59 +0900",
       "sentiment": "neutral"
     },
     {
@@ -162,38 +154,6 @@
       "ts": 1784579692000,
       "pub": "Tue, 21 Jul 2026 05:34:52 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "트럼프 \"네타냐후, 美 체류 중 어떤 방식으로도 체포 안될 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260721002300071",
-      "source": "연합뉴스 국제",
-      "ts": 1784568323000,
-      "pub": "Tue, 21 Jul 2026 02:25:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란, 美병사 죽일 때마다 몇배로 대가 치를 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260721002100071",
-      "source": "연합뉴스 국제",
-      "ts": 1784566820000,
-      "pub": "Tue, 21 Jul 2026 02:00:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하마스 새 수장에 칼릴 알하야…휴전 협상 주도 초강경파(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260720165751079",
-      "source": "연합뉴스 국제",
-      "ts": 1784562112000,
-      "pub": "Tue, 21 Jul 2026 00:41:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "관세 장벽에도 멕시코서 中 자동차 판매↑…상반기 점유율 17%",
-      "link": "https://www.yna.co.kr/view/AKR20260721000900087",
-      "source": "연합뉴스 국제",
-      "ts": 1784562034000,
-      "pub": "Tue, 21 Jul 2026 00:40:34 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

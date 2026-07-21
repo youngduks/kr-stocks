@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-21T21:52:48.168Z",
-  "count": 29,
+  "updated_at": "2026-07-21T22:43:10.032Z",
+  "count": 28,
   "items": [
+    {
+      "title": "트럼프, 레바논 대통령 회담 후 41년 만에 직항편 재개 지시",
+      "link": "https://www.mt.co.kr/world/2026/07/22/2026072207010491422",
+      "source": "머니투데이",
+      "ts": 1784672818000,
+      "pub": "Wed, 22 Jul 2026 07:26:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프의 경고…\"후티 반군이 홍해 봉쇄하면 미국이 처리\"",
+      "link": "https://www.hankyung.com/article/2026072280837",
+      "source": "한국경제",
+      "ts": 1784670147000,
+      "pub": "Wed, 22 Jul 2026 06:42:27 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "美-레바논 직항편 41년만에 재개된다…트럼프 \"행정부에 지시\"",
       "link": "https://www.yna.co.kr/view/AKR20260722013400071",
@@ -116,7 +132,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "美USTR대표,\"금주 만료될 10%관세 후속 조치 곧 발표\"",
+      "title": "美 USTR 대표 \"금주 만료될 10% 관세 후속 조치 곧 발표\"",
       "link": "https://www.hankyung.com/article/202607217964i",
       "source": "한국경제",
       "ts": 1784647168000,
@@ -129,14 +145,6 @@
       "source": "한국경제",
       "ts": 1784641546000,
       "pub": "Tue, 21 Jul 2026 22:45:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란 곡괭이산 타격\" 발언 이유 있었나…\"원심분리기 이동\"",
-      "link": "https://www.mt.co.kr/world/2026/07/21/2026072122121498292",
-      "source": "머니투데이",
-      "ts": 1784640666000,
-      "pub": "Tue, 21 Jul 2026 22:31:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -153,14 +161,6 @@
       "source": "한국경제",
       "ts": 1784634755000,
       "pub": "Tue, 21 Jul 2026 20:52:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 60개국에 새 관세 부과…한국은 12.5% 유력\"",
-      "link": "https://www.hankyung.com/article/2026072178097",
-      "source": "한국경제",
-      "ts": 1784631140000,
-      "pub": "Tue, 21 Jul 2026 19:52:20 +0900",
       "sentiment": "neutral"
     },
     {
@@ -225,14 +225,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784601157000,
       "pub": "Tue, 21 Jul 2026 11:32:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키 리더십 흔들…前국방장관 복귀거부·총사령관 교체압박",
-      "link": "https://www.yna.co.kr/view/AKR20260721084300009",
-      "source": "연합뉴스 국제",
-      "ts": 1784600269000,
-      "pub": "Tue, 21 Jul 2026 11:17:49 +0900",
       "sentiment": "neutral"
     }
   ]

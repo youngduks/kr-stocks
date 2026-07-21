@@ -1,31 +1,79 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-20T23:54:44.057Z",
-  "count": 6,
+  "updated_at": "2026-07-21T01:25:05.857Z",
+  "count": 10,
   "items": [
     {
-      "title": "\"2배 베팅 하지마…매일 녹아내려\" 삼전닉스 레버리지 판 대표의 경고",
-      "link": "https://www.mt.co.kr/society/2026/07/21/2026072107060568457",
+      "title": "DDR5 램 가격 1년 새 4배…\"3분기 가격 25% 이상 오른다\" [IT썰]",
+      "link": "https://www.mt.co.kr/tech/2026/07/21/2026072108284999257",
       "source": "머니투데이",
-      "ts": 1784590415000,
-      "pub": "Tue, 21 Jul 2026 08:33:35 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "삼전닉스 급락에 '곡소리' 나는데…전문가들 \"던질 때 아니다\"",
-      "link": "https://www.hankyung.com/article/2026072052121",
-      "source": "한국경제",
-      "ts": 1784581205000,
-      "pub": "Tue, 21 Jul 2026 06:00:05 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"더 비싸게\" 삼전닉스 등쳤나…반도체 부품 3사 담합 겨눈 검찰",
-      "link": "https://www.mt.co.kr/society/2026/07/21/2026072019370883271",
-      "source": "머니투데이",
-      "ts": 1784574300000,
-      "pub": "Tue, 21 Jul 2026 04:05:00 +0900",
+      "ts": 1784595835000,
+      "pub": "Tue, 21 Jul 2026 10:03:55 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 로봇 사업 승부수…대표 직속 'RX사업추진실' 신설",
+      "link": "https://www.mt.co.kr/industry/2026/07/21/2026072109223097596",
+      "source": "머니투데이",
+      "ts": 1784595600000,
+      "pub": "Tue, 21 Jul 2026 10:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "블룸버그 \"'키미3'는 훨씬 많은 메모리 요구\"",
+      "link": "https://www.yna.co.kr/view/AKR20260721028500009",
+      "source": "연합뉴스 국제",
+      "ts": 1784594671000,
+      "pub": "Tue, 21 Jul 2026 09:44:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼전닉스 오르긴 오르는데...\" 급락 뒤 소폭 상승, 개미 '나홀로' 매수",
+      "link": "https://www.mt.co.kr/stock/2026/07/21/2026072109411080984",
+      "source": "머니투데이",
+      "ts": 1784594632000,
+      "pub": "Tue, 21 Jul 2026 09:43:52 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[특징주] 삼성전자, 장초반 2%대 상승…SK하이닉스도 0.5%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260721041700008",
+      "source": "연합뉴스 경제",
+      "ts": 1784593654000,
+      "pub": "Tue, 21 Jul 2026 09:27:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "모건스탠리 \"메모리 주가 약세는 진입 기회 제공\"",
+      "link": "https://www.yna.co.kr/view/AKR20260721028400009",
+      "source": "연합뉴스 국제",
+      "ts": 1784593375000,
+      "pub": "Tue, 21 Jul 2026 09:22:55 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "삼전닉스, 美빅테크 실적 발표 앞두고 장 초반 보합권 등락",
+      "link": "https://www.hankyung.com/article/2026072159346",
+      "source": "한국경제",
+      "ts": 1784593150000,
+      "pub": "Tue, 21 Jul 2026 09:19:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'이것' 팔고 삼전·하닉에 두 배로 베팅…수익률 초고수의 선택",
+      "link": "https://www.hankyung.com/article/202607215841i",
+      "source": "한국경제",
+      "ts": 1784592012000,
+      "pub": "Tue, 21 Jul 2026 09:00:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"반도체 고점론에 폭락한 삼전닉스…저가 매수 기회\"-LS",
+      "link": "https://www.hankyung.com/article/2026072158176",
+      "source": "한국경제",
+      "ts": 1784591112000,
+      "pub": "Tue, 21 Jul 2026 08:45:12 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "반도체 피크아웃 우려 지속…삼전·닉스 4%대 급락(종합2보)",
@@ -33,22 +81,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784530588000,
       "pub": "Mon, 20 Jul 2026 15:56:28 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[특징주] 삼전닉스, 상승전환했다 다시 낙폭확대…3~4% 약세(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260720036951008",
-      "source": "연합뉴스 경제",
-      "ts": 1784512963000,
-      "pub": "Mon, 20 Jul 2026 11:02:43 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[속보] 코스피·코스닥, 다시 4%대로 낙폭 확대…삼전·닉스 4%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260720067700008",
-      "source": "연합뉴스 경제",
-      "ts": 1784512666000,
-      "pub": "Mon, 20 Jul 2026 10:57:46 +0900",
       "sentiment": "negative"
     }
   ]

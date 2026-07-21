@@ -1,14 +1,46 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-20T23:54:44.056Z",
-  "count": 27,
+  "updated_at": "2026-07-21T01:25:05.856Z",
+  "count": 26,
   "items": [
     {
-      "title": "트럼프, '미국서 알루미늄 생산 기업'에 관세 절반 깎아주기로",
-      "link": "https://www.mt.co.kr/world/2026/07/21/2026072107531614519",
+      "title": "'트럼프 측근' FBI 국장, 10월 러시아行…\"이례적 일정\"",
+      "link": "https://www.yna.co.kr/view/AKR20260721054200009",
+      "source": "연합뉴스 국제",
+      "ts": 1784596182000,
+      "pub": "Tue, 21 Jul 2026 10:09:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "버넘 英총리, 美에 '호르무즈 지원' 약속…트럼프 \"매우 좋은 대화\"",
+      "link": "https://www.mt.co.kr/world/2026/07/21/2026072108530721940",
       "source": "머니투데이",
-      "ts": 1784589709000,
-      "pub": "Tue, 21 Jul 2026 08:21:49 +0900",
+      "ts": 1784595992000,
+      "pub": "Tue, 21 Jul 2026 10:06:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "북러 3차 전략대화서 상호지지 확인…푸틴 초청에 김정은 러시아 가나",
+      "link": "https://www.mt.co.kr/politics/2026/07/21/2026072109120533294",
+      "source": "머니투데이",
+      "ts": 1784595956000,
+      "pub": "Tue, 21 Jul 2026 10:05:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'시상대 알박기' 트럼프 굴욕...결국 피파 우승 사진서 다 잘렸다",
+      "link": "https://www.mt.co.kr/world/2026/07/21/2026072109000854008",
+      "source": "머니투데이",
+      "ts": 1784594913000,
+      "pub": "Tue, 21 Jul 2026 09:48:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'반네타냐후' 아이젠코트 돌풍…이스라엘 총선 최대 변수",
+      "link": "https://www.hankyung.com/article/202607215756i",
+      "source": "한국경제",
+      "ts": 1784589965000,
+      "pub": "Tue, 21 Jul 2026 08:26:05 +0900",
       "sentiment": "neutral"
     },
     {
@@ -17,14 +49,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784589570000,
       "pub": "Tue, 21 Jul 2026 08:19:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 캐나다산 와인·시멘트 등 50% 관세…\"美 자동차·주류 차별\"",
-      "link": "https://www.mt.co.kr/world/2026/07/21/2026072106554469200",
-      "source": "머니투데이",
-      "ts": 1784586151000,
-      "pub": "Tue, 21 Jul 2026 07:22:31 +0900",
       "sentiment": "neutral"
     },
     {
@@ -60,14 +84,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"몇 배 대가\" 경고 후…美, 이란 열흘째 공습",
-      "link": "https://www.mt.co.kr/world/2026/07/21/2026072105494758096",
-      "source": "머니투데이",
-      "ts": 1784581140000,
-      "pub": "Tue, 21 Jul 2026 05:59:00 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "트럼프 '응징' 의지 천명 뒤…美, 이란 대상 열흘째 공습",
       "link": "https://www.yna.co.kr/view/AKR20260721008400071",
       "source": "연합뉴스 국제",
@@ -82,14 +98,6 @@
       "ts": 1784579692000,
       "pub": "Tue, 21 Jul 2026 05:34:52 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "버넘 英총리, 트럼프에 \"호르무즈 안전 통항 지원 약속\"",
-      "link": "https://www.mt.co.kr/world/2026/07/21/2026072105081451893",
-      "source": "머니투데이",
-      "ts": 1784579516000,
-      "pub": "Tue, 21 Jul 2026 05:31:56 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "트럼프 \"네타냐후, 美 체류 중 어떤 방식으로도 체포 안될 것\"",
@@ -121,14 +129,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784562034000,
       "pub": "Tue, 21 Jul 2026 00:40:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "야유 쏟아져도 버틴 '눈치 없는' 트럼프…FIFA에서 잘라냈다",
-      "link": "https://www.hankyung.com/article/2026072054287",
-      "source": "한국경제",
-      "ts": 1784553103000,
-      "pub": "Mon, 20 Jul 2026 22:11:43 +0900",
       "sentiment": "neutral"
     },
     {
@@ -209,14 +209,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784530657000,
       "pub": "Mon, 20 Jul 2026 15:57:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'카타르 선물' 트럼프 전용기 업그레이드…\"최고 성능 갖출 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260720103400009",
-      "source": "연합뉴스 국제",
-      "ts": 1784527380000,
-      "pub": "Mon, 20 Jul 2026 15:03:00 +0900",
       "sentiment": "neutral"
     }
   ]

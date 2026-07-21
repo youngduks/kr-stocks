@@ -1,55 +1,55 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-20T23:54:44.057Z",
-  "count": 14,
+  "updated_at": "2026-07-21T01:25:05.858Z",
+  "count": 10,
   "items": [
     {
-      "title": "홍해도 막힌다? 유가·금리 급등…반도체 '저가매수' vs '아직' [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202607215604i",
-      "source": "한국경제",
-      "ts": 1784587035000,
-      "pub": "Tue, 21 Jul 2026 07:37:15 +0900",
+      "title": "블룸버그 \"'키미3'는 훨씬 많은 메모리 요구\"",
+      "link": "https://www.yna.co.kr/view/AKR20260721028500009",
+      "source": "연합뉴스 국제",
+      "ts": 1784594671000,
+      "pub": "Tue, 21 Jul 2026 09:44:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 호조에 7월 중순 수출액 549억달러…52.3% 늘어 신기록(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260721034951002",
+      "source": "연합뉴스 경제",
+      "ts": 1784594027000,
+      "pub": "Tue, 21 Jul 2026 09:33:47 +0900",
       "sentiment": "positive"
     },
     {
-      "title": "중동 리스크에 하락…AI 반도체주는 반등 시도 [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026072155886",
+      "title": "[특징주] 삼성전자, 장초반 2%대 상승…SK하이닉스도 0.5%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260721041700008",
+      "source": "연합뉴스 경제",
+      "ts": 1784593654000,
+      "pub": "Tue, 21 Jul 2026 09:27:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "모건스탠리 \"메모리 주가 약세는 진입 기회 제공\"",
+      "link": "https://www.yna.co.kr/view/AKR20260721028400009",
+      "source": "연합뉴스 국제",
+      "ts": 1784593375000,
+      "pub": "Tue, 21 Jul 2026 09:22:55 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "코스피, 장 초반 보합권 등락…반도체주 약세",
+      "link": "https://www.hankyung.com/article/2026072159486",
       "source": "한국경제",
-      "ts": 1784585393000,
-      "pub": "Tue, 21 Jul 2026 07:09:53 +0900",
-      "sentiment": "neutral"
+      "ts": 1784593066000,
+      "pub": "Tue, 21 Jul 2026 09:17:46 +0900",
+      "sentiment": "negative"
     },
     {
-      "title": "반도체 힘입어 영업익 2740% 치솟았지만…고용은 0.6%↑",
-      "link": "https://www.hankyung.com/article/2026072155497",
+      "title": "\"반도체 고점론에 폭락한 삼전닉스…저가 매수 기회\"-LS",
+      "link": "https://www.hankyung.com/article/2026072158176",
       "source": "한국경제",
-      "ts": 1784583335000,
-      "pub": "Tue, 21 Jul 2026 06:35:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[여의도 클라쓰] '한울반도체, 샘씨엔에스, SK스퀘어' 클라쓰 올릴 종목은?",
-      "link": "https://www.mt.co.kr/stock/2026/07/21/2026072021077088767",
-      "source": "머니투데이",
-      "ts": 1784582332000,
-      "pub": "Tue, 21 Jul 2026 06:18:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "중동 전운에 증시 먹구름…반도체 반등도 무색[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/07/21/2026072106034895393",
-      "source": "머니투데이",
-      "ts": 1784581798000,
-      "pub": "Tue, 21 Jul 2026 06:09:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "호남 반도체 산단 성공요건 '인·수·전'...부메랑 된 '탈원전·4대강'",
-      "link": "https://www.mt.co.kr/politics/2026/07/21/2026072018211938543",
-      "source": "머니투데이",
-      "ts": 1784577600000,
-      "pub": "Tue, 21 Jul 2026 05:00:00 +0900",
-      "sentiment": "neutral"
+      "ts": 1784591112000,
+      "pub": "Tue, 21 Jul 2026 08:45:12 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "MS, 클라우드 '애저'에 AMD AI랙 대거 도입…엔비디아 독주 견제",
@@ -60,35 +60,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"더 비싸게\" 삼전닉스 등쳤나…반도체 부품 3사 담합 겨눈 검찰",
-      "link": "https://www.mt.co.kr/society/2026/07/21/2026072019370883271",
-      "source": "머니투데이",
-      "ts": 1784574300000,
-      "pub": "Tue, 21 Jul 2026 04:05:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 증시, 유가 혼조 속 반도체 반등에 상승",
-      "link": "https://www.hankyung.com/article/202607205455i",
-      "source": "한국경제",
-      "ts": 1784557430000,
-      "pub": "Mon, 20 Jul 2026 23:23:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "뉴욕증시, 반도체주 저가매수에 상승 출발",
       "link": "https://www.yna.co.kr/view/AKR20260720170900009",
       "source": "연합뉴스 국제",
       "ts": 1784556021000,
       "pub": "Mon, 20 Jul 2026 23:00:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "환율, 왜 갑자기 떨어졌나 봤더니…SK하이닉스 효과였다 [분석+]",
-      "link": "https://www.hankyung.com/article/2026072051156",
-      "source": "한국경제",
-      "ts": 1784552401000,
-      "pub": "Mon, 20 Jul 2026 22:00:01 +0900",
       "sentiment": "neutral"
     },
     {
@@ -106,14 +82,6 @@
       "ts": 1784530247000,
       "pub": "Mon, 20 Jul 2026 15:50:47 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"TSMC, 대만에 5년간 공장 25개 신설\"…미국 쏠림 우려 대응",
-      "link": "https://www.yna.co.kr/view/AKR20260720086600009",
-      "source": "연합뉴스 국제",
-      "ts": 1784521497000,
-      "pub": "Mon, 20 Jul 2026 13:24:57 +0900",
-      "sentiment": "negative"
     }
   ]
 }

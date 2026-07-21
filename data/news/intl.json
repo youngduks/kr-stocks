@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-21T20:11:57.011Z",
-  "count": 22,
+  "updated_at": "2026-07-21T21:52:48.168Z",
+  "count": 29,
   "items": [
+    {
+      "title": "美-레바논 직항편 41년만에 재개된다…트럼프 \"행정부에 지시\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722013400071",
+      "source": "연합뉴스 국제",
+      "ts": 1784669620000,
+      "pub": "Wed, 22 Jul 2026 06:33:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "1930년 법으로 50% 관세 때린 트럼프…다른 나라도 타깃 삼나",
+      "link": "https://www.yna.co.kr/view/AKR20260722010900071",
+      "source": "연합뉴스 국제",
+      "ts": 1784668779000,
+      "pub": "Wed, 22 Jul 2026 06:19:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'시진핑 방미' 준비하나…미중 외교수장, 22일 회담 전망",
+      "link": "https://www.yna.co.kr/view/AKR20260722010200071",
+      "source": "연합뉴스 국제",
+      "ts": 1784668349000,
+      "pub": "Wed, 22 Jul 2026 06:12:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "캐나다 총리 \"50% 관세 발효되면 모든 선택지 검토…트럼프와 통화\"",
+      "link": "https://www.mt.co.kr/world/2026/07/22/2026072205130225482",
+      "source": "머니투데이",
+      "ts": 1784665639000,
+      "pub": "Wed, 22 Jul 2026 05:27:19 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "加총리, '美 50% 관세'에 \"협상 강화\"…트럼프 \"산불과 별개\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260722002351072",
@@ -20,12 +52,28 @@
       "sentiment": "neutral"
     },
     {
+      "title": "'관세맨' 본색 드러낸 트럼프… 캐나다산 일부에 50% 부과",
+      "link": "https://www.mt.co.kr/world/2026/07/22/2026072119503739253",
+      "source": "머니투데이",
+      "ts": 1784661000000,
+      "pub": "Wed, 22 Jul 2026 04:10:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "레바논 대통령, '내전위험' 경고…트럼프 \"헤즈볼라와 대화할것\"",
       "link": "https://www.yna.co.kr/view/AKR20260722005900079",
       "source": "연합뉴스 국제",
       "ts": 1784660641000,
       "pub": "Wed, 22 Jul 2026 04:04:01 +0900",
       "sentiment": "negative"
+    },
+    {
+      "title": "트럼프 \"후티 홍해 봉쇄 땐 미국이 처리…이란 곡괭이산 곧 타격\"",
+      "link": "https://www.mt.co.kr/world/2026/07/22/2026072201593673789",
+      "source": "머니투데이",
+      "ts": 1784653633000,
+      "pub": "Wed, 22 Jul 2026 02:07:13 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "푸틴, 11월 APEC 정상회의 간다…李대통령 만남 성사될까",
@@ -81,6 +129,14 @@
       "source": "한국경제",
       "ts": 1784641546000,
       "pub": "Tue, 21 Jul 2026 22:45:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 곡괭이산 타격\" 발언 이유 있었나…\"원심분리기 이동\"",
+      "link": "https://www.mt.co.kr/world/2026/07/21/2026072122121498292",
+      "source": "머니투데이",
+      "ts": 1784640666000,
+      "pub": "Tue, 21 Jul 2026 22:31:06 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-21T20:11:57.012Z",
-  "count": 3,
+  "updated_at": "2026-07-21T21:52:48.169Z",
+  "count": 5,
   "items": [
+    {
+      "title": "'삼성 3.0' 이재용 회장의 꿈",
+      "link": "https://www.mt.co.kr/opinion/2026/07/22/2026072111104166193",
+      "source": "머니투데이",
+      "ts": 1784667600000,
+      "pub": "Wed, 22 Jul 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李대통령, 삼성전자 노조 '광주 팹' 쟁의화에 제동",
+      "link": "https://www.mt.co.kr/politics/2026/07/22/2026072119374396325",
+      "source": "머니투데이",
+      "ts": 1784660400000,
+      "pub": "Wed, 22 Jul 2026 04:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "저가매수? 반도체 우려 완화?…삼전·닉스, 6%·4%대 반등(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260721041752008",

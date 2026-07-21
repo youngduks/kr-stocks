@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-21T12:17:47.169Z",
+  "updated_at": "2026-07-21T14:53:54.251Z",
   "count": 21,
   "items": [
+    {
+      "title": "캐나다산 '50%' 관세에…미국 당국자들 \"맞춤형 상호주의 조치\"",
+      "link": "https://www.hankyung.com/article/2026072179147",
+      "source": "한국경제",
+      "ts": 1784641546000,
+      "pub": "Tue, 21 Jul 2026 22:45:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 곡괭이산 타격\" 발언 이유 있었나…\"원심분리기 이동\"",
+      "link": "https://www.mt.co.kr/world/2026/07/21/2026072122121498292",
+      "source": "머니투데이",
+      "ts": 1784640666000,
+      "pub": "Tue, 21 Jul 2026 22:31:06 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "수명 다 된 10% 글로벌관세…트럼프 '301조 관세' 부과 임박(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260721011351071",
@@ -17,6 +33,14 @@
       "source": "머니투데이",
       "ts": 1784634775000,
       "pub": "Tue, 21 Jul 2026 20:52:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 캐나다에 50% 관세…94년간 잠자던 법으로 \"보복에 또 보복\"",
+      "link": "https://www.hankyung.com/article/202607217863i",
+      "source": "한국경제",
+      "ts": 1784634755000,
+      "pub": "Tue, 21 Jul 2026 20:52:35 +0900",
       "sentiment": "neutral"
     },
     {
@@ -146,30 +170,6 @@
       "ts": 1784585680000,
       "pub": "Tue, 21 Jul 2026 07:14:40 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "디오픈서 2벌타 디섐보 \"트럼프 대통령에게 알리겠다\"며 항의",
-      "link": "https://www.yna.co.kr/view/AKR20260721008900007",
-      "source": "연합뉴스 국제",
-      "ts": 1784583950000,
-      "pub": "Tue, 21 Jul 2026 06:45:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "수명 다 된 10% 글로벌관세…트럼프 '301조 관세' 부과 임박",
-      "link": "https://www.yna.co.kr/view/AKR20260721011300071",
-      "source": "연합뉴스 국제",
-      "ts": 1784583888000,
-      "pub": "Tue, 21 Jul 2026 06:44:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '美에 공장 건설' 조건부로 알루미늄 관세 절반 인하",
-      "link": "https://www.yna.co.kr/view/AKR20260721009700071",
-      "source": "연합뉴스 국제",
-      "ts": 1784581994000,
-      "pub": "Tue, 21 Jul 2026 06:13:14 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-21T16:13:37.299Z",
-  "count": 6,
+  "updated_at": "2026-07-21T18:07:26.298Z",
+  "count": 4,
   "items": [
     {
       "title": "[여의도 클라쓰] '삼성전자, JW신약, SK하이닉스' 클라쓰 올릴 종목은?",
@@ -34,22 +34,6 @@
       "ts": 1784599284000,
       "pub": "Tue, 21 Jul 2026 11:01:24 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "블룸버그 \"'키미3'는 훨씬 많은 메모리 요구\"",
-      "link": "https://www.yna.co.kr/view/AKR20260721028500009",
-      "source": "연합뉴스 국제",
-      "ts": 1784594671000,
-      "pub": "Tue, 21 Jul 2026 09:44:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "모건스탠리 \"메모리 주가 약세는 진입 기회 제공\"",
-      "link": "https://www.yna.co.kr/view/AKR20260721028400009",
-      "source": "연합뉴스 국제",
-      "ts": 1784593375000,
-      "pub": "Tue, 21 Jul 2026 09:22:55 +0900",
-      "sentiment": "negative"
     }
   ]
 }

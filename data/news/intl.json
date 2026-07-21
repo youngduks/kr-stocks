@@ -1,46 +1,54 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-21T01:25:05.856Z",
-  "count": 26,
+  "updated_at": "2026-07-21T04:57:06.219Z",
+  "count": 21,
   "items": [
+    {
+      "title": "\"트럼프, 중재국들의 10일 휴전안 검토 중…협상 결렬도 대비\"",
+      "link": "https://www.yna.co.kr/view/AKR20260721094600009",
+      "source": "연합뉴스 국제",
+      "ts": 1784602721000,
+      "pub": "Tue, 21 Jul 2026 11:58:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 우크라 무인 로봇·드론 합동작전…보병 없이 러군 진지 완파",
+      "link": "https://www.yna.co.kr/view/AKR20260721089600704",
+      "source": "연합뉴스 국제",
+      "ts": 1784601157000,
+      "pub": "Tue, 21 Jul 2026 11:32:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키 리더십 흔들…前국방장관 복귀거부·총사령관 교체압박",
+      "link": "https://www.yna.co.kr/view/AKR20260721084300009",
+      "source": "연합뉴스 국제",
+      "ts": 1784600269000,
+      "pub": "Tue, 21 Jul 2026 11:17:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"英신임 총리와 매우 좋은 대화…조만간 만날 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260721064900009",
+      "source": "연합뉴스 국제",
+      "ts": 1784597084000,
+      "pub": "Tue, 21 Jul 2026 10:24:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "수도 노리는 러-우…우크라, 키이우 피격에 드론 400대로 맞불",
+      "link": "https://www.yna.co.kr/view/AKR20260721059200009",
+      "source": "연합뉴스 국제",
+      "ts": 1784597027000,
+      "pub": "Tue, 21 Jul 2026 10:23:47 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'트럼프 측근' FBI 국장, 10월 러시아行…\"이례적 일정\"",
       "link": "https://www.yna.co.kr/view/AKR20260721054200009",
       "source": "연합뉴스 국제",
       "ts": 1784596182000,
       "pub": "Tue, 21 Jul 2026 10:09:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "버넘 英총리, 美에 '호르무즈 지원' 약속…트럼프 \"매우 좋은 대화\"",
-      "link": "https://www.mt.co.kr/world/2026/07/21/2026072108530721940",
-      "source": "머니투데이",
-      "ts": 1784595992000,
-      "pub": "Tue, 21 Jul 2026 10:06:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "북러 3차 전략대화서 상호지지 확인…푸틴 초청에 김정은 러시아 가나",
-      "link": "https://www.mt.co.kr/politics/2026/07/21/2026072109120533294",
-      "source": "머니투데이",
-      "ts": 1784595956000,
-      "pub": "Tue, 21 Jul 2026 10:05:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'시상대 알박기' 트럼프 굴욕...결국 피파 우승 사진서 다 잘렸다",
-      "link": "https://www.mt.co.kr/world/2026/07/21/2026072109000854008",
-      "source": "머니투데이",
-      "ts": 1784594913000,
-      "pub": "Tue, 21 Jul 2026 09:48:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'반네타냐후' 아이젠코트 돌풍…이스라엘 총선 최대 변수",
-      "link": "https://www.hankyung.com/article/202607215756i",
-      "source": "한국경제",
-      "ts": 1784589965000,
-      "pub": "Tue, 21 Jul 2026 08:26:05 +0900",
       "sentiment": "neutral"
     },
     {
@@ -161,54 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784540100000,
       "pub": "Mon, 20 Jul 2026 18:35:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "아세안 외교장관회의에 미중러 외교수장 참석…회담 여부 주목(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260720143851084",
-      "source": "연합뉴스 국제",
-      "ts": 1784537831000,
-      "pub": "Mon, 20 Jul 2026 17:57:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] 이스라엘, 'GPS 교란' 드론 방공시스템 공개",
-      "link": "https://www.yna.co.kr/view/AKR20260720149800704",
-      "source": "연합뉴스 국제",
-      "ts": 1784537003000,
-      "pub": "Mon, 20 Jul 2026 17:43:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "아세안 외교장관회의에 미중러 외교수장 참석…회담 여부 주목",
-      "link": "https://www.yna.co.kr/view/AKR20260720143800084",
-      "source": "연합뉴스 국제",
-      "ts": 1784534878000,
-      "pub": "Mon, 20 Jul 2026 17:07:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 이스라엘, 군집 드론 '위성신호 교란' 방공시스템 공개",
-      "link": "https://www.yna.co.kr/view/AKR20260720141400704",
-      "source": "연합뉴스 국제",
-      "ts": 1784534660000,
-      "pub": "Mon, 20 Jul 2026 17:04:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 푸틴 '열받겠네'…튀르키예, 러 S-400 팔고 美 F-35 도입 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260720126600704",
-      "source": "연합뉴스 국제",
-      "ts": 1784531410000,
-      "pub": "Mon, 20 Jul 2026 16:10:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"2분기 GDP·7월 CPI 방향성 엇갈릴 것…통화정책 긴장 지속\"",
-      "link": "https://www.yna.co.kr/view/AKR20260720120400008",
-      "source": "연합뉴스 경제",
-      "ts": 1784530657000,
-      "pub": "Mon, 20 Jul 2026 15:57:37 +0900",
       "sentiment": "neutral"
     }
   ]

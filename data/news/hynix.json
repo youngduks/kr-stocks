@@ -1,8 +1,48 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-21T01:25:05.858Z",
-  "count": 10,
+  "updated_at": "2026-07-21T04:57:06.221Z",
+  "count": 11,
   "items": [
+    {
+      "title": "[속보] 李대통령 \"광주 반도체 공장 이전도 파업 대상 아니라 생각\"",
+      "link": "https://www.hankyung.com/article/2026072166317",
+      "source": "한국경제",
+      "ts": 1784602656000,
+      "pub": "Tue, 21 Jul 2026 11:57:36 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'키미 쇼크'?…\"삼성전자·SK하이닉스 지속 수요 시사\"",
+      "link": "https://www.hankyung.com/article/202607216406g",
+      "source": "한국경제",
+      "ts": 1784600157000,
+      "pub": "Tue, 21 Jul 2026 11:15:57 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "UBS \"AI·반도체 매도세 막바지…재진입 기회\"",
+      "link": "https://www.yna.co.kr/view/AKR20260721075400009",
+      "source": "연합뉴스 국제",
+      "ts": 1784599791000,
+      "pub": "Tue, 21 Jul 2026 11:09:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 대신 SK하이닉스·SK스퀘어…초고수가 갈아탄 이유",
+      "link": "https://www.hankyung.com/article/202607216408i",
+      "source": "한국경제",
+      "ts": 1784599322000,
+      "pub": "Tue, 21 Jul 2026 11:02:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中AI기업 즈푸, 국산반도체로 데이터센터 완공…脫엔비디아 속도",
+      "link": "https://www.yna.co.kr/view/AKR20260721068400083",
+      "source": "연합뉴스 국제",
+      "ts": 1784598009000,
+      "pub": "Tue, 21 Jul 2026 10:40:09 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "블룸버그 \"'키미3'는 훨씬 많은 메모리 요구\"",
       "link": "https://www.yna.co.kr/view/AKR20260721028500009",
@@ -36,22 +76,6 @@
       "sentiment": "negative"
     },
     {
-      "title": "코스피, 장 초반 보합권 등락…반도체주 약세",
-      "link": "https://www.hankyung.com/article/2026072159486",
-      "source": "한국경제",
-      "ts": 1784593066000,
-      "pub": "Tue, 21 Jul 2026 09:17:46 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"반도체 고점론에 폭락한 삼전닉스…저가 매수 기회\"-LS",
-      "link": "https://www.hankyung.com/article/2026072158176",
-      "source": "한국경제",
-      "ts": 1784591112000,
-      "pub": "Tue, 21 Jul 2026 08:45:12 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "MS, 클라우드 '애저'에 AMD AI랙 대거 도입…엔비디아 독주 견제",
       "link": "https://www.yna.co.kr/view/AKR20260721005300091",
       "source": "연합뉴스 국제",
@@ -65,22 +89,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784556021000,
       "pub": "Mon, 20 Jul 2026 23:00:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 피크아웃 우려 지속…삼전·닉스 4%대 급락(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260720036952008",
-      "source": "연합뉴스 경제",
-      "ts": 1784530588000,
-      "pub": "Mon, 20 Jul 2026 15:56:28 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "중동 리스크·SK하이닉스 효과 팽팽…환율, 장중 1,478.4원",
-      "link": "https://www.yna.co.kr/view/AKR20260720122600002",
-      "source": "연합뉴스 경제",
-      "ts": 1784530247000,
-      "pub": "Mon, 20 Jul 2026 15:50:47 +0900",
       "sentiment": "neutral"
     }
   ]

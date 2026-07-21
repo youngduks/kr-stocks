@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-21T10:12:50.318Z",
-  "count": 19,
+  "updated_at": "2026-07-21T12:17:47.169Z",
+  "count": 21,
   "items": [
+    {
+      "title": "수명 다 된 10% 글로벌관세…트럼프 '301조 관세' 부과 임박(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260721011351071",
+      "source": "연합뉴스 국제",
+      "ts": 1784634843000,
+      "pub": "Tue, 21 Jul 2026 20:54:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"미중, 9월 중 'AI 회담' 추진…최신 모델 기본 조건 합의\" - 로이터",
+      "link": "https://www.mt.co.kr/world/2026/07/21/2026072120464723206",
+      "source": "머니투데이",
+      "ts": 1784634775000,
+      "pub": "Tue, 21 Jul 2026 20:52:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 60개국에 새 관세 부과…한국은 12.5% 유력\"",
+      "link": "https://www.hankyung.com/article/2026072178097",
+      "source": "한국경제",
+      "ts": 1784631140000,
+      "pub": "Tue, 21 Jul 2026 19:52:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 행정부서 이란 협상에 회의…\"정권 교체 재검토해야\" 주장 부상",
+      "link": "https://www.mt.co.kr/world/2026/07/21/2026072119374836467",
+      "source": "머니투데이",
+      "ts": 1784630591000,
+      "pub": "Tue, 21 Jul 2026 19:43:11 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "우크라, 러시아 '제트 샤헤드' 잡는 AI 요격드론 곧 실전 배치",
       "link": "https://www.yna.co.kr/view/AKR20260721169100109",
@@ -138,22 +170,6 @@
       "ts": 1784581994000,
       "pub": "Tue, 21 Jul 2026 06:13:14 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 '응징' 의지 천명 뒤…美, 이란 대상 열흘째 공습",
-      "link": "https://www.yna.co.kr/view/AKR20260721008400071",
-      "source": "연합뉴스 국제",
-      "ts": 1784579893000,
-      "pub": "Tue, 21 Jul 2026 05:38:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 행정부, 무기공급망 규제 강화…中무기소재 의존 줄인다",
-      "link": "https://www.yna.co.kr/view/AKR20260721007100071",
-      "source": "연합뉴스 국제",
-      "ts": 1784579692000,
-      "pub": "Tue, 21 Jul 2026 05:34:52 +0900",
-      "sentiment": "negative"
     }
   ]
 }

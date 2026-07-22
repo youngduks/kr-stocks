@@ -1,14 +1,54 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-22T01:23:52.197Z",
-  "count": 24,
+  "updated_at": "2026-07-22T04:56:37.082Z",
+  "count": 22,
   "items": [
     {
-      "title": "복제약 관세 올린다는 트럼프…업계 \"韓 영향 크지 않을 것\"",
-      "link": "https://www.mt.co.kr/thebio/2026/07/22/2026072209521029630",
-      "source": "머니투데이",
-      "ts": 1784683037000,
-      "pub": "Wed, 22 Jul 2026 10:17:17 +0900",
+      "title": "AI·빅테크도 흔들릴 변수…Fed 대차대조표 개편이 시장 바꿀까",
+      "link": "https://www.hankyung.com/article/202607157017i",
+      "source": "한국경제",
+      "ts": 1784689202000,
+      "pub": "Wed, 22 Jul 2026 12:00:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"복제약 관세 2년 유예…2028년부터 100%·1년 뒤 200%\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722076100009",
+      "source": "연합뉴스 국제",
+      "ts": 1784687680000,
+      "pub": "Wed, 22 Jul 2026 11:34:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"껴들면 엉망 된다\"…미국, 이란과 격전에도 이스라엘 개입 통제",
+      "link": "https://www.yna.co.kr/view/AKR20260722069000009",
+      "source": "연합뉴스 국제",
+      "ts": 1784685146000,
+      "pub": "Wed, 22 Jul 2026 10:52:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프 행정부 내 침묵의 문화…미사일 부족 보고 못해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722070300009",
+      "source": "연합뉴스 국제",
+      "ts": 1784684378000,
+      "pub": "Wed, 22 Jul 2026 10:39:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 사우디와 '우라늄농축 가능' 협정 승인\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722069500009",
+      "source": "연합뉴스 국제",
+      "ts": 1784684165000,
+      "pub": "Wed, 22 Jul 2026 10:36:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미중, 시진핑 방미 전 9월 'AI 회담' 추진…\"베선트 참석\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722061700089",
+      "source": "연합뉴스 국제",
+      "ts": 1784683579000,
+      "pub": "Wed, 22 Jul 2026 10:26:19 +0900",
       "sentiment": "neutral"
     },
     {
@@ -25,30 +65,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784679300000,
       "pub": "Wed, 22 Jul 2026 09:15:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 무역법 301조 관세 발표 초읽기…靑 \"산업장관 등 방미·협의\"",
-      "link": "https://www.mt.co.kr/politics/2026/07/22/2026072209043275129",
-      "source": "머니투데이",
-      "ts": 1784679126000,
-      "pub": "Wed, 22 Jul 2026 09:12:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "전후 재건 넘어 투자처로…우크라이나에 쏠리는 민간 자본",
-      "link": "https://www.hankyung.com/article/202607228158i",
-      "source": "한국경제",
-      "ts": 1784678247000,
-      "pub": "Wed, 22 Jul 2026 08:57:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"신분증 확인이 왜 어려워?\" 부정선거론 불붙인 트럼프[이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202607217485i",
-      "source": "한국경제",
-      "ts": 1784677859000,
-      "pub": "Wed, 22 Jul 2026 08:50:59 +0900",
       "sentiment": "neutral"
     },
     {
@@ -161,38 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784625185000,
       "pub": "Tue, 21 Jul 2026 18:13:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘군 떠난 레바논 남부 '시범구역'에 정부군 병력 배치",
-      "link": "https://www.yna.co.kr/view/AKR20260721157600079",
-      "source": "연합뉴스 국제",
-      "ts": 1784620972000,
-      "pub": "Tue, 21 Jul 2026 17:02:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"이스라엘, '이란 원심분리기 대거 은닉' 판단해 트럼프 전달\"",
-      "link": "https://www.yna.co.kr/view/AKR20260721145200009",
-      "source": "연합뉴스 국제",
-      "ts": 1784617757000,
-      "pub": "Tue, 21 Jul 2026 16:09:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "IMF, 우크라에 1조원대 추가 금융지원…\"놀라운 회복력\"",
-      "link": "https://www.yna.co.kr/view/AKR20260721131900009",
-      "source": "연합뉴스 국제",
-      "ts": 1784616832000,
-      "pub": "Tue, 21 Jul 2026 15:53:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 일반인 사면·감형 신청 6천 건 무더기 기각",
-      "link": "https://www.yna.co.kr/view/AKR20260721127700009",
-      "source": "연합뉴스 국제",
-      "ts": 1784613958000,
-      "pub": "Tue, 21 Jul 2026 15:05:58 +0900",
       "sentiment": "neutral"
     }
   ]

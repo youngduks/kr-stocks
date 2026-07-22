@@ -1,30 +1,62 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-22T01:23:52.205Z",
-  "count": 22,
+  "updated_at": "2026-07-22T04:56:37.083Z",
+  "count": 15,
   "items": [
+    {
+      "title": "KB證 \"SK하이닉스, 데이터센터향 매출 비중 확대…목표가 유지\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722094900008",
+      "source": "연합뉴스 경제",
+      "ts": 1784693999000,
+      "pub": "Wed, 22 Jul 2026 13:19:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "日 상반기 무역적자 9조원…반도체 수출에 적자폭 줄여",
+      "link": "https://www.yna.co.kr/view/AKR20260722083200073",
+      "source": "연합뉴스 국제",
+      "ts": 1784687529000,
+      "pub": "Wed, 22 Jul 2026 11:32:09 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "BofA \"HBM 시장, 2030년까지 7배 성장\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722030300009",
+      "source": "연합뉴스 국제",
+      "ts": 1784686653000,
+      "pub": "Wed, 22 Jul 2026 11:17:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미국발 훈풍에 삼전닉스 이틀째 급등…'반도체 조정' 끝나나",
+      "link": "https://www.yna.co.kr/view/AKR20260722067000008",
+      "source": "연합뉴스 경제",
+      "ts": 1784684017000,
+      "pub": "Wed, 22 Jul 2026 10:33:37 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'호남 반도체 테마주' 엇갈린 명암…급락한 보해·버티는 금호",
+      "link": "https://www.hankyung.com/article/202607228667i",
+      "source": "한국경제",
+      "ts": 1784683805000,
+      "pub": "Wed, 22 Jul 2026 10:30:05 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "野 \"노란봉투법이 '호남 반도체' 가로 막아…민주당 자업자득\"",
+      "link": "https://www.hankyung.com/article/2026072287367",
+      "source": "한국경제",
+      "ts": 1784683725000,
+      "pub": "Wed, 22 Jul 2026 10:28:45 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "엔비디아, 네비우스 지분 9.3% 보유…AI 생태계 확장",
       "link": "https://www.yna.co.kr/view/AKR20260722051200009",
       "source": "연합뉴스 국제",
       "ts": 1784682291000,
       "pub": "Wed, 22 Jul 2026 10:04:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자·SK하이닉스, 美 반도체주 반등에 동반 강세",
-      "link": "https://www.hankyung.com/article/2026072283996",
-      "source": "한국경제",
-      "ts": 1784680616000,
-      "pub": "Wed, 22 Jul 2026 09:36:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "개장 직후부터 코스피 '매수 사이드카'… 반도체 싹쓸이에 7100 터치",
-      "link": "https://www.mt.co.kr/stock/2026/07/22/2026072209285923564",
-      "source": "머니투데이",
-      "ts": 1784680423000,
-      "pub": "Wed, 22 Jul 2026 09:33:43 +0900",
       "sentiment": "neutral"
     },
     {
@@ -36,52 +68,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[마켓 라이브] 간밤 나스닥 반도체株 강세에…코스피 이틀 연속 '매수 사이드카' [오전 9시10분 시황]",
-      "link": "https://www.hankyung.com/article/202607228461i",
-      "source": "한국경제",
-      "ts": 1784680034000,
-      "pub": "Wed, 22 Jul 2026 09:27:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 강세에 반도체 기판주 동반 상승",
-      "link": "https://www.mt.co.kr/stock/2026/07/22/2026072209195756480",
-      "source": "머니투데이",
-      "ts": 1784679671000,
-      "pub": "Wed, 22 Jul 2026 09:21:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[특징주] 삼전 5%대 급등…하이닉스 8%↑, 장중 '200만닉스'",
       "link": "https://www.yna.co.kr/view/AKR20260722041000008",
       "source": "연합뉴스 경제",
       "ts": 1784679582000,
       "pub": "Wed, 22 Jul 2026 09:19:42 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "LG그룹주 장초반 강세…엔비디아 협력 재부각·저점 매수심리 자극",
-      "link": "https://www.mt.co.kr/stock/2026/07/22/2026072209132654557",
-      "source": "머니투데이",
-      "ts": 1784679344000,
-      "pub": "Wed, 22 Jul 2026 09:15:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 반도체주 훈풍…삼전닉스부터 SK스퀘어·삼성전기까지 ↑",
-      "link": "https://www.mt.co.kr/stock/2026/07/22/2026072209094076902",
-      "source": "머니투데이",
-      "ts": 1784679056000,
-      "pub": "Wed, 22 Jul 2026 09:10:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"반도체주 낙폭 컸다\"…초고수 투자자들이 몰린 종목은?",
-      "link": "https://www.hankyung.com/article/202607228402i",
-      "source": "한국경제",
-      "ts": 1784678525000,
-      "pub": "Wed, 22 Jul 2026 09:02:05 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "S&P, 삼성전자 등급전망 '긍정적' 상향…\"메모리 최대 수혜\"",
@@ -108,14 +100,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "GDP 제조업 비중 27%, 10년간 최고…반도체 쏠림도 심화",
-      "link": "https://www.yna.co.kr/view/AKR20260721170000002",
-      "source": "연합뉴스 경제",
-      "ts": 1784667420000,
-      "pub": "Wed, 22 Jul 2026 05:57:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "뉴욕증시, 실적 호조·반도체주 반등에 상승…나스닥 1.3%↑",
       "link": "https://www.yna.co.kr/view/AKR20260722008200072",
       "source": "연합뉴스 국제",
@@ -137,46 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784642210000,
       "pub": "Tue, 21 Jul 2026 22:56:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 호조에 7월 중순 수출액 549억달러…52.3% 늘어 신기록(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260721034952002",
-      "source": "연합뉴스 경제",
-      "ts": 1784630785000,
-      "pub": "Tue, 21 Jul 2026 19:46:25 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "하이닉스 효과·외국인 순매수에 환율 장중 1,471.1원까지 하락",
-      "link": "https://www.yna.co.kr/view/AKR20260721140900002",
-      "source": "연합뉴스 경제",
-      "ts": 1784617874000,
-      "pub": "Tue, 21 Jul 2026 16:11:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "저가매수? 반도체 우려 완화?…삼전·닉스, 6%·4%대 반등(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260721041752008",
-      "source": "연합뉴스 경제",
-      "ts": 1784616886000,
-      "pub": "Tue, 21 Jul 2026 15:54:46 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "FT \"중국, AI·반도체 기술 수출통제 강화 검토\"",
-      "link": "https://www.yna.co.kr/view/AKR20260721130100009",
-      "source": "연합뉴스 국제",
-      "ts": 1784615948000,
-      "pub": "Tue, 21 Jul 2026 15:39:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 코스피, 반도체 반등에 3.6%↑…6,747 마감",
-      "link": "https://www.yna.co.kr/view/AKR20260721138600008",
-      "source": "연합뉴스 경제",
-      "ts": 1784615676000,
-      "pub": "Tue, 21 Jul 2026 15:34:36 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,47 +1,39 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-22T01:23:52.204Z",
-  "count": 14,
+  "updated_at": "2026-07-22T04:56:37.083Z",
+  "count": 8,
   "items": [
     {
-      "title": "삼전 로봇조직 통합에 IT서비스 '방긋'…삼성SDS 5% 강세",
-      "link": "https://www.mt.co.kr/stock/2026/07/22/2026072209580875614",
-      "source": "머니투데이",
-      "ts": 1784682073000,
-      "pub": "Wed, 22 Jul 2026 10:01:13 +0900",
+      "title": "주주단체, 노동장관·삼전닉스 대표 고발…\"성과급은 교섭불가\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722089800004",
+      "source": "연합뉴스 경제",
+      "ts": 1784690760000,
+      "pub": "Wed, 22 Jul 2026 12:26:00 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "삼성전자서비스, '서비스품질지수' 1위…\"올해 조사 모두 석권\"",
-      "link": "https://www.mt.co.kr/industry/2026/07/22/2026072209334538557",
-      "source": "머니투데이",
-      "ts": 1784680896000,
-      "pub": "Wed, 22 Jul 2026 09:41:36 +0900",
+      "title": "BofA \"HBM 시장, 2030년까지 7배 성장\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722030300009",
+      "source": "연합뉴스 국제",
+      "ts": 1784686653000,
+      "pub": "Wed, 22 Jul 2026 11:17:33 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "S&P가 본 삼성전자의 미래…\"올해 매출 683조·내년 821조원\"",
-      "link": "https://www.hankyung.com/article/2026072285347",
-      "source": "한국경제",
-      "ts": 1784680646000,
-      "pub": "Wed, 22 Jul 2026 09:37:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자·SK하이닉스, 美 반도체주 반등에 동반 강세",
-      "link": "https://www.hankyung.com/article/2026072283996",
-      "source": "한국경제",
-      "ts": 1784680616000,
-      "pub": "Wed, 22 Jul 2026 09:36:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자가 점찍자 주가 폭등…개미들 '환호성' 터진 이유 [종목+]",
-      "link": "https://www.hankyung.com/article/2026072285436",
-      "source": "한국경제",
-      "ts": 1784680257000,
-      "pub": "Wed, 22 Jul 2026 09:30:57 +0900",
+      "title": "미국발 훈풍에 삼전닉스 이틀째 급등…'반도체 조정' 끝나나",
+      "link": "https://www.yna.co.kr/view/AKR20260722067000008",
+      "source": "연합뉴스 경제",
+      "ts": 1784684017000,
+      "pub": "Wed, 22 Jul 2026 10:33:37 +0900",
       "sentiment": "positive"
+    },
+    {
+      "title": "다시 삼전닉스 쓸어담는 외국인, 코스피 단숨에 7000선 회복",
+      "link": "https://www.hankyung.com/article/202607228464i",
+      "source": "한국경제",
+      "ts": 1784683217000,
+      "pub": "Wed, 22 Jul 2026 10:20:17 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "[특징주] 로봇주, 삼성전자 로봇사업 강화에 장 초반 급등",
@@ -52,36 +44,12 @@
       "sentiment": "positive"
     },
     {
-      "title": "삼성전자 본격 로봇 탑승…고점 대비 반토막 났던 로봇주, 줄상향가",
-      "link": "https://www.mt.co.kr/stock/2026/07/22/2026072209254147668",
-      "source": "머니투데이",
-      "ts": 1784680014000,
-      "pub": "Wed, 22 Jul 2026 09:26:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 강세에 반도체 기판주 동반 상승",
-      "link": "https://www.mt.co.kr/stock/2026/07/22/2026072209195756480",
-      "source": "머니투데이",
-      "ts": 1784679671000,
-      "pub": "Wed, 22 Jul 2026 09:21:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[특징주] 삼전 5%대 급등…하이닉스 8%↑, 장중 '200만닉스'",
       "link": "https://www.yna.co.kr/view/AKR20260722041000008",
       "source": "연합뉴스 경제",
       "ts": 1784679582000,
       "pub": "Wed, 22 Jul 2026 09:19:42 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "美 반도체주 훈풍…삼전닉스부터 SK스퀘어·삼성전기까지 ↑",
-      "link": "https://www.mt.co.kr/stock/2026/07/22/2026072209094076902",
-      "source": "머니투데이",
-      "ts": 1784679056000,
-      "pub": "Wed, 22 Jul 2026 09:10:56 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "S&P, 삼성전자 등급전망 '긍정적' 상향…\"메모리 최대 수혜\"",
@@ -92,28 +60,12 @@
       "sentiment": "positive"
     },
     {
-      "title": "삼성전자서비스, '스마트싱스'로 원격 진단…사전 케어 알림까지",
-      "link": "https://www.hankyung.com/article/2026072160221",
-      "source": "한국경제",
-      "ts": 1784678422000,
-      "pub": "Wed, 22 Jul 2026 09:00:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "삼성전자서비스, 서비스 품질 가전 16년·모바일IT AS 15년 1위",
       "link": "https://www.yna.co.kr/view/AKR20260722027300003",
       "source": "연합뉴스 경제",
       "ts": 1784677438000,
       "pub": "Wed, 22 Jul 2026 08:43:58 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "저가매수? 반도체 우려 완화?…삼전·닉스, 6%·4%대 반등(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260721041752008",
-      "source": "연합뉴스 경제",
-      "ts": 1784616886000,
-      "pub": "Tue, 21 Jul 2026 15:54:46 +0900",
-      "sentiment": "negative"
     }
   ]
 }

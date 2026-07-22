@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-22T10:12:28.595Z",
-  "count": 24,
+  "updated_at": "2026-07-22T12:20:12.929Z",
+  "count": 26,
   "items": [
+    {
+      "title": "美, 우크라 '실전 검증' 드론보트 양산 착수…드론 협력 확대",
+      "link": "https://www.yna.co.kr/view/AKR20260722173300009",
+      "source": "연합뉴스 국제",
+      "ts": 1784718160000,
+      "pub": "Wed, 22 Jul 2026 20:02:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키, 대규모 시위 엿새 만에 우크라이나 군 총사령관 교체",
+      "link": "https://www.mt.co.kr/world/2026/07/22/2026072218023586539",
+      "source": "머니투데이",
+      "ts": 1784716798000,
+      "pub": "Wed, 22 Jul 2026 19:39:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "레바논 총리, 이스라엘군 떠난 마을에 국기…\"완전 철수의 시작\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722170800079",
+      "source": "연합뉴스 국제",
+      "ts": 1784716061000,
+      "pub": "Wed, 22 Jul 2026 19:27:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"우크라 새 총사령관 정식 임명까지 한 달 걸릴수도\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722170600108",
+      "source": "연합뉴스 국제",
+      "ts": 1784715845000,
+      "pub": "Wed, 22 Jul 2026 19:24:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"수입 제네릭에 2년 후 관세 100%, 3년 후 200%\"",
+      "link": "https://www.hankyung.com/article/202607220250i",
+      "source": "한국경제",
+      "ts": 1784715609000,
+      "pub": "Wed, 22 Jul 2026 19:20:09 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "러 외무, 23일 필리핀서 美 국무와 회동…우크라 협상 재개될까",
       "link": "https://www.yna.co.kr/view/AKR20260722166500108",
@@ -25,30 +65,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784711241000,
       "pub": "Wed, 22 Jul 2026 18:07:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "靑 \"美 추가 관세 있을 수도…무역합의 상한 초과 않을 것\"",
-      "link": "https://www.hankyung.com/article/202607220178i",
-      "source": "한국경제",
-      "ts": 1784711159000,
-      "pub": "Wed, 22 Jul 2026 18:05:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미국, 사우디에 우라늄 농축시설 허용...\"중동 핵무기 확산 우려\"",
-      "link": "https://www.mt.co.kr/world/2026/07/22/2026072217385662712",
-      "source": "머니투데이",
-      "ts": 1784710281000,
-      "pub": "Wed, 22 Jul 2026 17:51:21 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "위성락 \"미국, 추가관세 가능성 있지만 기존 합의 초과 않을 것\"",
-      "link": "https://www.mt.co.kr/politics/2026/07/22/2026072217482575318",
-      "source": "머니투데이",
-      "ts": 1784710200000,
-      "pub": "Wed, 22 Jul 2026 17:50:00 +0900",
       "sentiment": "neutral"
     },
     {

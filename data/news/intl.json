@@ -1,22 +1,30 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-22T20:04:52.788Z",
-  "count": 26,
+  "updated_at": "2026-07-22T21:55:01.085Z",
+  "count": 22,
   "items": [
+    {
+      "title": "'굳히기' 들어간 트럼프 관세체제…15% 상한선 지킬지가 관건 [이상은의 워싱턴나우]",
+      "link": "https://www.hankyung.com/article/202607230520i",
+      "source": "한국경제",
+      "ts": 1784754954000,
+      "pub": "Thu, 23 Jul 2026 06:15:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美USTR 대표 \"무역법 301조 '강제노동 관세' 이르면 내일 발표\"",
+      "link": "https://www.yna.co.kr/view/AKR20260723008000071",
+      "source": "연합뉴스 국제",
+      "ts": 1784751600000,
+      "pub": "Thu, 23 Jul 2026 05:20:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"美, 이스라엘에 '며칠 내 폭격기 동원 곡괭이산 폭격' 통보\"",
       "link": "https://www.yna.co.kr/view/AKR20260723006300079",
       "source": "연합뉴스 국제",
       "ts": 1784748239000,
       "pub": "Thu, 23 Jul 2026 04:23:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 복제약 관세폭탄, K바이오 \"영향 미미\"",
-      "link": "https://www.mt.co.kr/thebio/2026/07/23/2026072219292372089",
-      "source": "머니투데이",
-      "ts": 1784746800000,
-      "pub": "Thu, 23 Jul 2026 04:00:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -52,7 +60,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "백악관,\"문샷 K3모델,앤스로픽의 페이블 도용해 개발\"",
+      "title": "백악관 \"문샷 K3모델, 앤스로픽의 페이블 도용해 개발\"",
       "link": "https://www.hankyung.com/article/202607230428i",
       "source": "한국경제",
       "ts": 1784735121000,
@@ -68,35 +76,11 @@
       "sentiment": "negative"
     },
     {
-      "title": "트럼프 \"이란, 호르무스해협 공격시 다리·발전소 하나씩 폭격할 것\"",
-      "link": "https://www.mt.co.kr/world/2026/07/22/2026072222201786654",
-      "source": "머니투데이",
-      "ts": 1784726992000,
-      "pub": "Wed, 22 Jul 2026 22:29:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"이란, 호르무즈 선박 공격땐 테헤란 교량·발전소 폭격\"",
       "link": "https://www.yna.co.kr/view/AKR20260722180651071",
       "source": "연합뉴스 국제",
       "ts": 1784726754000,
       "pub": "Wed, 22 Jul 2026 22:25:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]트럼프 \"이란, 선박 공격하면 테헤란 다리·발전소 파괴할 것\"",
-      "link": "https://www.mt.co.kr/world/2026/07/22/2026072222163594643",
-      "source": "머니투데이",
-      "ts": 1784726315000,
-      "pub": "Wed, 22 Jul 2026 22:18:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美·러 외교 수장, 필리핀서 회담...우크라·이란 전쟁 논의",
-      "link": "https://www.mt.co.kr/world/2026/07/22/2026072222091136148",
-      "source": "머니투데이",
-      "ts": 1784726195000,
-      "pub": "Wed, 22 Jul 2026 22:16:35 +0900",
       "sentiment": "neutral"
     },
     {
@@ -137,14 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784715845000,
       "pub": "Wed, 22 Jul 2026 19:24:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"수입 제네릭에 2년 후 관세 100% 3년 후 200%\"",
-      "link": "https://www.hankyung.com/article/202607220250i",
-      "source": "한국경제",
-      "ts": 1784715609000,
-      "pub": "Wed, 22 Jul 2026 19:20:09 +0900",
       "sentiment": "neutral"
     },
     {
@@ -201,14 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784697773000,
       "pub": "Wed, 22 Jul 2026 14:22:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"복제약 관세 2년 유예…2028년부터 100%·1년 뒤 200%\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722076100009",
-      "source": "연합뉴스 국제",
-      "ts": 1784687680000,
-      "pub": "Wed, 22 Jul 2026 11:34:40 +0900",
       "sentiment": "neutral"
     }
   ]

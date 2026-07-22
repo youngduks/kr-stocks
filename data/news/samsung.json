@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-22T14:53:56.769Z",
+  "updated_at": "2026-07-22T16:12:52.964Z",
   "count": 14,
   "items": [
+    {
+      "title": "3년 만에 '언팩' 찾은 퀄컴 CEO…\"삼성전자, 구글과 차세대 갤럭시 경험 구축\"",
+      "link": "https://www.hankyung.com/article/202607220424i",
+      "source": "한국경제",
+      "ts": 1784733065000,
+      "pub": "Thu, 23 Jul 2026 00:11:05 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[포토] 런던서 삼성 갤럭시 언팩 \"폴더블폰 최강자 굳힌다\"",
       "link": "https://www.hankyung.com/article/2026072203121",
@@ -49,14 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784725202000,
       "pub": "Wed, 22 Jul 2026 22:00:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "TSMC, 내년 파운드리 가격 10% 인상",
-      "link": "https://www.hankyung.com/article/2026072200591",
-      "source": "한국경제",
-      "ts": 1784712528000,
-      "pub": "Wed, 22 Jul 2026 18:28:48 +0900",
       "sentiment": "neutral"
     },
     {

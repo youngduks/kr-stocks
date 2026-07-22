@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-22T07:30:17.323Z",
-  "count": 9,
+  "updated_at": "2026-07-22T10:12:28.596Z",
+  "count": 8,
   "items": [
+    {
+      "title": "李대통령, 24일부터 美·남미 3개국 순방…이재용·젠슨황과 '한자리'",
+      "link": "https://www.mt.co.kr/politics/2026/07/22/2026072217035559118",
+      "source": "머니투데이",
+      "ts": 1784708894000,
+      "pub": "Wed, 22 Jul 2026 17:28:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "아직 불안한 반도체 투심…삼전닉스 6~9% 급등했다 '반납'(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260722067051008",
+      "source": "연합뉴스 경제",
+      "ts": 1784706689000,
+      "pub": "Wed, 22 Jul 2026 16:51:29 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "삼전닉스 급등했다가 보합권 마감…0.58%↑·0.33%↓(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260722041051008",
@@ -10,22 +26,6 @@
       "ts": 1784704711000,
       "pub": "Wed, 22 Jul 2026 16:18:31 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "[포토] 삼성전자는 올랐지만…SK하이닉스 하락에 개미 '한숨'",
-      "link": "https://www.hankyung.com/article/202607229702i",
-      "source": "한국경제",
-      "ts": 1784703999000,
-      "pub": "Wed, 22 Jul 2026 16:06:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼전닉스 또 간다\" 달리더니, 오후 되자 '뚝'...상승분 반납, 보합권 마감",
-      "link": "https://www.mt.co.kr/stock/2026/07/22/2026072215572698351",
-      "source": "머니투데이",
-      "ts": 1784703563000,
-      "pub": "Wed, 22 Jul 2026 15:59:23 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "[특징주] 로봇주, 삼성전자 로봇사업 강화 소식에 급등 마감(종합)",
@@ -65,14 +65,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784684017000,
       "pub": "Wed, 22 Jul 2026 10:33:37 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[특징주] 로봇주, 삼성전자 로봇사업 강화에 장 초반 급등",
-      "link": "https://www.yna.co.kr/view/AKR20260722044800008",
-      "source": "연합뉴스 경제",
-      "ts": 1784680165000,
-      "pub": "Wed, 22 Jul 2026 09:29:25 +0900",
       "sentiment": "positive"
     }
   ]

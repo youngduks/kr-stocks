@@ -1,22 +1,78 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-22T07:30:17.322Z",
-  "count": 22,
+  "updated_at": "2026-07-22T10:12:28.595Z",
+  "count": 24,
   "items": [
+    {
+      "title": "러 외무, 23일 필리핀서 美 국무와 회동…우크라 협상 재개될까",
+      "link": "https://www.yna.co.kr/view/AKR20260722166500108",
+      "source": "연합뉴스 국제",
+      "ts": 1784713419000,
+      "pub": "Wed, 22 Jul 2026 18:43:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"수입 복제약 2028년 관세 100%\"",
+      "link": "https://www.hankyung.com/article/2026072200921",
+      "source": "한국경제",
+      "ts": 1784712327000,
+      "pub": "Wed, 22 Jul 2026 18:25:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "기업 물류창고까지 때리는 러·우크라…전쟁 속 유통망도 위협",
+      "link": "https://www.yna.co.kr/view/AKR20260722159300109",
+      "source": "연합뉴스 국제",
+      "ts": 1784711241000,
+      "pub": "Wed, 22 Jul 2026 18:07:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "靑 \"美 추가 관세 있을 수도…무역합의 상한 초과 않을 것\"",
+      "link": "https://www.hankyung.com/article/202607220178i",
+      "source": "한국경제",
+      "ts": 1784711159000,
+      "pub": "Wed, 22 Jul 2026 18:05:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미국, 사우디에 우라늄 농축시설 허용...\"중동 핵무기 확산 우려\"",
+      "link": "https://www.mt.co.kr/world/2026/07/22/2026072217385662712",
+      "source": "머니투데이",
+      "ts": 1784710281000,
+      "pub": "Wed, 22 Jul 2026 17:51:21 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "위성락 \"미국, 추가관세 가능성 있지만 기존 합의 초과 않을 것\"",
+      "link": "https://www.mt.co.kr/politics/2026/07/22/2026072217482575318",
+      "source": "머니투데이",
+      "ts": 1784710200000,
+      "pub": "Wed, 22 Jul 2026 17:50:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 차기 유엔 사무총장에 FIFA 회장 세우려 해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722156800009",
+      "source": "연합뉴스 국제",
+      "ts": 1784709776000,
+      "pub": "Wed, 22 Jul 2026 17:42:56 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "한미 관세당국, 마약 밀반입 차단까지 협력 범위 넓힌다",
+      "link": "https://www.yna.co.kr/view/AKR20260722143000002",
+      "source": "연합뉴스 경제",
+      "ts": 1784705933000,
+      "pub": "Wed, 22 Jul 2026 16:38:53 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "흑해도 통제권 격전…우크라 \"48시간새 러 선박 13척 타격\"",
       "link": "https://www.yna.co.kr/view/AKR20260722134500009",
       "source": "연합뉴스 국제",
       "ts": 1784704187000,
       "pub": "Wed, 22 Jul 2026 16:09:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "벙커버스터도 안 통한다…트럼프가 찍은 이란 '지하 비밀 핵기지' 정체",
-      "link": "https://www.mt.co.kr/world/2026/07/22/2026072210284660385",
-      "source": "머니투데이",
-      "ts": 1784703279000,
-      "pub": "Wed, 22 Jul 2026 15:54:39 +0900",
       "sentiment": "neutral"
     },
     {
@@ -138,46 +194,6 @@
       "ts": 1784660641000,
       "pub": "Wed, 22 Jul 2026 04:04:01 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "푸틴, 11월 APEC 정상회의 간다…李대통령 만남 성사될까",
-      "link": "https://www.yna.co.kr/view/AKR20260722001900108",
-      "source": "연합뉴스 국제",
-      "ts": 1784650801000,
-      "pub": "Wed, 22 Jul 2026 01:20:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "캐나다 총리, '50% 관세'에 \"트럼프와 통화…협상 강화 합의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722002300072",
-      "source": "연합뉴스 국제",
-      "ts": 1784650598000,
-      "pub": "Wed, 22 Jul 2026 01:16:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"후티 홍해 봉쇄하면 처리할것…이란 곡괭이산 곧 타격\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722002200071",
-      "source": "연합뉴스 국제",
-      "ts": 1784650249000,
-      "pub": "Wed, 22 Jul 2026 01:10:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "네덜란드도 9월부터 이스라엘 점령지와 무역 중단",
-      "link": "https://www.yna.co.kr/view/AKR20260722001700098",
-      "source": "연합뉴스 국제",
-      "ts": 1784649040000,
-      "pub": "Wed, 22 Jul 2026 00:50:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"독일·러시아 인사들, 우크라 해법 놓고 비밀 회동\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722001200082",
-      "source": "연합뉴스 국제",
-      "ts": 1784648285000,
-      "pub": "Wed, 22 Jul 2026 00:38:05 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

@@ -1,39 +1,47 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-22T07:30:17.324Z",
+  "updated_at": "2026-07-22T10:12:28.596Z",
   "count": 15,
   "items": [
     {
-      "title": "스마트폰·PC 성수기 온다…'피크아웃?' D램 가격 더 치솟아",
-      "link": "https://www.mt.co.kr/industry/2026/07/22/2026072213322947770",
-      "source": "머니투데이",
-      "ts": 1784704241000,
-      "pub": "Wed, 22 Jul 2026 16:10:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[포토] 삼성전자는 올랐지만…SK하이닉스 하락에 개미 '한숨'",
-      "link": "https://www.hankyung.com/article/202607229702i",
+      "title": "엇갈린 반도체 투심…外人 담고, 개인 '본전 매도' [퇴근길 30초 경제]",
+      "link": "https://www.hankyung.com/article/202607220194H",
       "source": "한국경제",
-      "ts": 1784703999000,
-      "pub": "Wed, 22 Jul 2026 16:06:39 +0900",
+      "ts": 1784712300000,
+      "pub": "Wed, 22 Jul 2026 18:25:00 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "이천 휴먼빌 클래스원, SK하이닉스 차로 15분…이천 도심 단지",
-      "link": "https://www.hankyung.com/article/2026072285001",
+      "title": "국힘 TK 의원 \"반도체 팹, 호남보다 경쟁력\"",
+      "link": "https://www.hankyung.com/article/2026072201241",
       "source": "한국경제",
-      "ts": 1784703229000,
-      "pub": "Wed, 22 Jul 2026 15:53:49 +0900",
+      "ts": 1784711484000,
+      "pub": "Wed, 22 Jul 2026 18:11:24 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"성과급·호남 반도체 쟁의 대상 아냐\" 대통령 지적에…노동장관 \"노봉법 신속 개정\"",
-      "link": "https://www.mt.co.kr/economy/2026/07/22/2026072214164730285",
+      "title": "반도체주 회복할까…하이퍼스케일러 실적 발표 내일부터 시작",
+      "link": "https://www.mt.co.kr/stock/2026/07/22/2026072215301294915",
       "source": "머니투데이",
-      "ts": 1784702939000,
-      "pub": "Wed, 22 Jul 2026 15:48:59 +0900",
+      "ts": 1784707866000,
+      "pub": "Wed, 22 Jul 2026 17:11:06 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "\"TSMC 최대 10% 가격인상\" 반도체주 상승반납…증시 혼조[Asia마감]",
+      "link": "https://www.mt.co.kr/world/2026/07/22/2026072216430674226",
+      "source": "머니투데이",
+      "ts": 1784707399000,
+      "pub": "Wed, 22 Jul 2026 17:03:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "아직 불안한 반도체 투심…삼전닉스 6~9% 급등했다 '반납'(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260722067051008",
+      "source": "연합뉴스 경제",
+      "ts": 1784706689000,
+      "pub": "Wed, 22 Jul 2026 16:51:29 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "단기채엔 반도체 자금·초장기채는 수요 공백…수급이 가른 금리",
@@ -113,14 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784660618000,
       "pub": "Wed, 22 Jul 2026 04:03:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 반도체주 저가 매수에 상승 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260721187100009",
-      "source": "연합뉴스 국제",
-      "ts": 1784642210000,
-      "pub": "Tue, 21 Jul 2026 22:56:50 +0900",
       "sentiment": "neutral"
     }
   ]

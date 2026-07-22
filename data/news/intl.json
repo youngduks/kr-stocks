@@ -1,22 +1,46 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-22T12:20:12.929Z",
-  "count": 26,
+  "updated_at": "2026-07-22T14:53:56.768Z",
+  "count": 22,
   "items": [
+    {
+      "title": "트럼프 \"선박 공격시 테헤란 교량·발전소 폭격\"…이란에 경고",
+      "link": "https://www.hankyung.com/article/2026072203947",
+      "source": "한국경제",
+      "ts": 1784727005000,
+      "pub": "Wed, 22 Jul 2026 22:30:05 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프 \"이란, 호르무즈 선박 공격땐 테헤란 교량·발전소 폭격\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722180651071",
+      "source": "연합뉴스 국제",
+      "ts": 1784726754000,
+      "pub": "Wed, 22 Jul 2026 22:25:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"이란, 호르무즈 상선 공격땐 교량 또는 발전소 폭격\"",
+      "link": "https://www.hankyung.com/article/2026072203827",
+      "source": "한국경제",
+      "ts": 1784725462000,
+      "pub": "Wed, 22 Jul 2026 22:04:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"이란, 호르무즈 상선 공격땐 교량 또는 발전소 폭격\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722180600071",
+      "source": "연합뉴스 국제",
+      "ts": 1784725423000,
+      "pub": "Wed, 22 Jul 2026 22:03:43 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美, 우크라 '실전 검증' 드론보트 양산 착수…드론 협력 확대",
       "link": "https://www.yna.co.kr/view/AKR20260722173300009",
       "source": "연합뉴스 국제",
       "ts": 1784718160000,
       "pub": "Wed, 22 Jul 2026 20:02:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키, 대규모 시위 엿새 만에 우크라이나 군 총사령관 교체",
-      "link": "https://www.mt.co.kr/world/2026/07/22/2026072218023586539",
-      "source": "머니투데이",
-      "ts": 1784716798000,
-      "pub": "Wed, 22 Jul 2026 19:39:58 +0900",
       "sentiment": "neutral"
     },
     {
@@ -36,7 +60,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"수입 제네릭에 2년 후 관세 100%, 3년 후 200%\"",
+      "title": "트럼프 \"수입 제네릭에 2년 후 관세 100% 3년 후 200%\"",
       "link": "https://www.hankyung.com/article/202607220250i",
       "source": "한국경제",
       "ts": 1784715609000,
@@ -49,14 +73,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784713419000,
       "pub": "Wed, 22 Jul 2026 18:43:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"수입 복제약 2028년 관세 100%\"",
-      "link": "https://www.hankyung.com/article/2026072200921",
-      "source": "한국경제",
-      "ts": 1784712327000,
-      "pub": "Wed, 22 Jul 2026 18:25:27 +0900",
       "sentiment": "neutral"
     },
     {
@@ -162,54 +178,6 @@
       "ts": 1784679300000,
       "pub": "Wed, 22 Jul 2026 09:15:00 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "美-레바논 직항편 41년만에 재개된다…트럼프 \"행정부에 지시\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722013400071",
-      "source": "연합뉴스 국제",
-      "ts": 1784669620000,
-      "pub": "Wed, 22 Jul 2026 06:33:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "1930년 법으로 50% 관세 때린 트럼프…다른 나라도 타깃 삼나",
-      "link": "https://www.yna.co.kr/view/AKR20260722010900071",
-      "source": "연합뉴스 국제",
-      "ts": 1784668779000,
-      "pub": "Wed, 22 Jul 2026 06:19:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'시진핑 방미' 준비하나…미중 외교수장, 22일 회담 전망",
-      "link": "https://www.yna.co.kr/view/AKR20260722010200071",
-      "source": "연합뉴스 국제",
-      "ts": 1784668349000,
-      "pub": "Wed, 22 Jul 2026 06:12:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "加총리, '美 50% 관세'에 \"협상 강화\"…트럼프 \"산불과 별개\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260722002351072",
-      "source": "연합뉴스 국제",
-      "ts": 1784663174000,
-      "pub": "Wed, 22 Jul 2026 04:46:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"후티 홍해 봉쇄시 美가 처리…이란 곡괭이산 곧 타격\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260722002251071",
-      "source": "연합뉴스 국제",
-      "ts": 1784661350000,
-      "pub": "Wed, 22 Jul 2026 04:15:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "레바논 대통령, '내전위험' 경고…트럼프 \"헤즈볼라와 대화할것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722005900079",
-      "source": "연합뉴스 국제",
-      "ts": 1784660641000,
-      "pub": "Wed, 22 Jul 2026 04:04:01 +0900",
-      "sentiment": "negative"
     }
   ]
 }

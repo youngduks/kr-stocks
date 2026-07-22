@@ -1,8 +1,56 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-22T12:20:12.930Z",
-  "count": 8,
+  "updated_at": "2026-07-22T14:53:56.769Z",
+  "count": 14,
   "items": [
+    {
+      "title": "[포토] 런던서 삼성 갤럭시 언팩 \"폴더블폰 최강자 굳힌다\"",
+      "link": "https://www.hankyung.com/article/2026072203121",
+      "source": "한국경제",
+      "ts": 1784725343000,
+      "pub": "Wed, 22 Jul 2026 22:02:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼전닉스 비중 줄여라\" 했던 모건스탠리…2주 만에 '돌변' [분석+]",
+      "link": "https://www.hankyung.com/article/2026072294186",
+      "source": "한국경제",
+      "ts": 1784725216000,
+      "pub": "Wed, 22 Jul 2026 22:00:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성, 갤럭시워치 울트라2·워치9 공개…헬스 기능 대폭 강화",
+      "link": "https://www.hankyung.com/article/202607229573g",
+      "source": "한국경제",
+      "ts": 1784725210000,
+      "pub": "Wed, 22 Jul 2026 22:00:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성, 갤럭시Z폴드8 라인업 '언팩'…애플과 '정면승부' 펼쳐진다",
+      "link": "https://www.hankyung.com/article/202607229570g",
+      "source": "한국경제",
+      "ts": 1784725207000,
+      "pub": "Wed, 22 Jul 2026 22:00:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "땀 측정해 수분 보충 알림…헬스케어 강화한 갤럭시 워치",
+      "link": "https://www.hankyung.com/article/2026072203151",
+      "source": "한국경제",
+      "ts": 1784725204000,
+      "pub": "Wed, 22 Jul 2026 22:00:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "여권 크기 갤럭시 폴드8 펼쳐보니…\"버릴 데 없이 꽉 찼네\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722025600085",
+      "source": "연합뉴스 국제",
+      "ts": 1784725202000,
+      "pub": "Wed, 22 Jul 2026 22:00:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "TSMC, 내년 파운드리 가격 10% 인상",
       "link": "https://www.hankyung.com/article/2026072200591",

@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-22T16:12:52.963Z",
-  "count": 22,
+  "updated_at": "2026-07-22T18:00:24.297Z",
+  "count": 27,
   "items": [
+    {
+      "title": "기업 물류창고까지 때리는 러·우크라…전쟁 속 유통망도 위협(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260722159351109",
+      "source": "연합뉴스 국제",
+      "ts": 1784739877000,
+      "pub": "Thu, 23 Jul 2026 02:04:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 전사한 미군 귀환식 참석…\"미국인, 전쟁 반대 안해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260723002400071",
+      "source": "연합뉴스 국제",
+      "ts": 1784739496000,
+      "pub": "Thu, 23 Jul 2026 01:58:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 교도소에 '악어 해자'…극우 장관 주도 건설 논란",
+      "link": "https://www.yna.co.kr/view/AKR20260723001800079",
+      "source": "연합뉴스 국제",
+      "ts": 1784737084000,
+      "pub": "Thu, 23 Jul 2026 01:18:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "백악관,\"문샷 K3모델,앤스로픽의 페이블 도용해 개발\"",
+      "link": "https://www.hankyung.com/article/202607230428i",
+      "source": "한국경제",
+      "ts": 1784735121000,
+      "pub": "Thu, 23 Jul 2026 00:45:21 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"선박 공격시 테헤란 교량·발전소 폭격\"…이란에 경고",
       "link": "https://www.hankyung.com/article/2026072203947",
@@ -12,11 +44,35 @@
       "sentiment": "negative"
     },
     {
+      "title": "트럼프 \"이란, 호르무스해협 공격시 다리·발전소 하나씩 폭격할 것\"",
+      "link": "https://www.mt.co.kr/world/2026/07/22/2026072222201786654",
+      "source": "머니투데이",
+      "ts": 1784726992000,
+      "pub": "Wed, 22 Jul 2026 22:29:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "트럼프 \"이란, 호르무즈 선박 공격땐 테헤란 교량·발전소 폭격\"",
       "link": "https://www.yna.co.kr/view/AKR20260722180651071",
       "source": "연합뉴스 국제",
       "ts": 1784726754000,
       "pub": "Wed, 22 Jul 2026 22:25:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]트럼프 \"이란, 선박 공격하면 테헤란 다리·발전소 파괴할 것\"",
+      "link": "https://www.mt.co.kr/world/2026/07/22/2026072222163594643",
+      "source": "머니투데이",
+      "ts": 1784726315000,
+      "pub": "Wed, 22 Jul 2026 22:18:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美·러 외교 수장, 필리핀서 회담...우크라·이란 전쟁 논의",
+      "link": "https://www.mt.co.kr/world/2026/07/22/2026072222091136148",
+      "source": "머니투데이",
+      "ts": 1784726195000,
+      "pub": "Wed, 22 Jul 2026 22:16:35 +0900",
       "sentiment": "neutral"
     },
     {
@@ -161,22 +217,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784683579000,
       "pub": "Wed, 22 Jul 2026 10:26:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 타격 위협한 이란 곡괭이산은 비밀 핵시설 추정지",
-      "link": "https://www.yna.co.kr/view/AKR20260722053800009",
-      "source": "연합뉴스 국제",
-      "ts": 1784682020000,
-      "pub": "Wed, 22 Jul 2026 10:00:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "민심 수습 나선 젤렌스키…총사령관 경질하고 40대 젊은피 발탁",
-      "link": "https://www.yna.co.kr/view/AKR20260722038900009",
-      "source": "연합뉴스 국제",
-      "ts": 1784679300000,
-      "pub": "Wed, 22 Jul 2026 09:15:00 +0900",
       "sentiment": "neutral"
     }
   ]

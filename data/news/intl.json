@@ -1,31 +1,55 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-21T23:46:12.824Z",
-  "count": 26,
+  "updated_at": "2026-07-22T01:23:52.197Z",
+  "count": 24,
   "items": [
     {
-      "title": "트럼프 \"2028년부터 수입복제약 100% 관세, 1년뒤 200%로 인상\"",
-      "link": "https://www.mt.co.kr/world/2026/07/22/2026072208270259773",
+      "title": "복제약 관세 올린다는 트럼프…업계 \"韓 영향 크지 않을 것\"",
+      "link": "https://www.mt.co.kr/thebio/2026/07/22/2026072209521029630",
       "source": "머니투데이",
-      "ts": 1784677015000,
-      "pub": "Wed, 22 Jul 2026 08:36:55 +0900",
+      "ts": 1784683037000,
+      "pub": "Wed, 22 Jul 2026 10:17:17 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 레바논 대통령 회담 후 41년 만에 직항편 재개 지시",
-      "link": "https://www.mt.co.kr/world/2026/07/22/2026072207010491422",
-      "source": "머니투데이",
-      "ts": 1784672818000,
-      "pub": "Wed, 22 Jul 2026 07:26:58 +0900",
+      "title": "트럼프 타격 위협한 이란 곡괭이산은 비밀 핵시설 추정지",
+      "link": "https://www.yna.co.kr/view/AKR20260722053800009",
+      "source": "연합뉴스 국제",
+      "ts": 1784682020000,
+      "pub": "Wed, 22 Jul 2026 10:00:20 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프의 경고…\"후티 반군이 홍해 봉쇄하면 미국이 처리\"",
-      "link": "https://www.hankyung.com/article/2026072280837",
+      "title": "민심 수습 나선 젤렌스키…총사령관 경질하고 40대 젊은피 발탁",
+      "link": "https://www.yna.co.kr/view/AKR20260722038900009",
+      "source": "연합뉴스 국제",
+      "ts": 1784679300000,
+      "pub": "Wed, 22 Jul 2026 09:15:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 무역법 301조 관세 발표 초읽기…靑 \"산업장관 등 방미·협의\"",
+      "link": "https://www.mt.co.kr/politics/2026/07/22/2026072209043275129",
+      "source": "머니투데이",
+      "ts": 1784679126000,
+      "pub": "Wed, 22 Jul 2026 09:12:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "전후 재건 넘어 투자처로…우크라이나에 쏠리는 민간 자본",
+      "link": "https://www.hankyung.com/article/202607228158i",
       "source": "한국경제",
-      "ts": 1784670147000,
-      "pub": "Wed, 22 Jul 2026 06:42:27 +0900",
-      "sentiment": "negative"
+      "ts": 1784678247000,
+      "pub": "Wed, 22 Jul 2026 08:57:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"신분증 확인이 왜 어려워?\" 부정선거론 불붙인 트럼프[이상은의 워싱턴나우]",
+      "link": "https://www.hankyung.com/article/202607217485i",
+      "source": "한국경제",
+      "ts": 1784677859000,
+      "pub": "Wed, 22 Jul 2026 08:50:59 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "美-레바논 직항편 41년만에 재개된다…트럼프 \"행정부에 지시\"",
@@ -52,14 +76,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "캐나다 총리 \"50% 관세 발효되면 모든 선택지 검토…트럼프와 통화\"",
-      "link": "https://www.mt.co.kr/world/2026/07/22/2026072205130225482",
-      "source": "머니투데이",
-      "ts": 1784665639000,
-      "pub": "Wed, 22 Jul 2026 05:27:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "加총리, '美 50% 관세'에 \"협상 강화\"…트럼프 \"산불과 별개\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260722002351072",
       "source": "연합뉴스 국제",
@@ -73,14 +89,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784661350000,
       "pub": "Wed, 22 Jul 2026 04:15:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'관세맨' 본색 드러낸 트럼프… 캐나다산 일부에 50% 부과",
-      "link": "https://www.mt.co.kr/world/2026/07/22/2026072119503739253",
-      "source": "머니투데이",
-      "ts": 1784661000000,
-      "pub": "Wed, 22 Jul 2026 04:10:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -129,22 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784648285000,
       "pub": "Wed, 22 Jul 2026 00:38:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 USTR 대표 \"금주 만료될 10% 관세 후속 조치 곧 발표\"",
-      "link": "https://www.hankyung.com/article/202607217964i",
-      "source": "한국경제",
-      "ts": 1784647168000,
-      "pub": "Wed, 22 Jul 2026 00:19:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "캐나다산 '50%' 관세에…미국 당국자들 \"맞춤형 상호주의 조치\"",
-      "link": "https://www.hankyung.com/article/2026072179147",
-      "source": "한국경제",
-      "ts": 1784641546000,
-      "pub": "Tue, 21 Jul 2026 22:45:46 +0900",
       "sentiment": "neutral"
     },
     {
@@ -201,14 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784613958000,
       "pub": "Tue, 21 Jul 2026 15:05:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 중재국들의 10일 휴전안 검토 중…협상 결렬도 대비\"",
-      "link": "https://www.yna.co.kr/view/AKR20260721094600009",
-      "source": "연합뉴스 국제",
-      "ts": 1784602721000,
-      "pub": "Tue, 21 Jul 2026 11:58:41 +0900",
       "sentiment": "neutral"
     }
   ]

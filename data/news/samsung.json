@@ -1,46 +1,110 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-21T23:46:12.825Z",
-  "count": 7,
+  "updated_at": "2026-07-22T01:23:52.204Z",
+  "count": 14,
   "items": [
     {
-      "title": "삼전닉스, 프리장서 5~6%대 강세…미국발 반도체주 급등 영향",
-      "link": "https://www.mt.co.kr/stock/2026/07/22/2026072208340786163",
+      "title": "삼전 로봇조직 통합에 IT서비스 '방긋'…삼성SDS 5% 강세",
+      "link": "https://www.mt.co.kr/stock/2026/07/22/2026072209580875614",
       "source": "머니투데이",
-      "ts": 1784676941000,
-      "pub": "Wed, 22 Jul 2026 08:35:41 +0900",
+      "ts": 1784682073000,
+      "pub": "Wed, 22 Jul 2026 10:01:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자서비스, '서비스품질지수' 1위…\"올해 조사 모두 석권\"",
+      "link": "https://www.mt.co.kr/industry/2026/07/22/2026072209334538557",
+      "source": "머니투데이",
+      "ts": 1784680896000,
+      "pub": "Wed, 22 Jul 2026 09:41:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "S&P가 본 삼성전자의 미래…\"올해 매출 683조·내년 821조원\"",
+      "link": "https://www.hankyung.com/article/2026072285347",
+      "source": "한국경제",
+      "ts": 1784680646000,
+      "pub": "Wed, 22 Jul 2026 09:37:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자·SK하이닉스, 美 반도체주 반등에 동반 강세",
+      "link": "https://www.hankyung.com/article/2026072283996",
+      "source": "한국경제",
+      "ts": 1784680616000,
+      "pub": "Wed, 22 Jul 2026 09:36:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자가 점찍자 주가 폭등…개미들 '환호성' 터진 이유 [종목+]",
+      "link": "https://www.hankyung.com/article/2026072285436",
+      "source": "한국경제",
+      "ts": 1784680257000,
+      "pub": "Wed, 22 Jul 2026 09:30:57 +0900",
       "sentiment": "positive"
     },
     {
-      "title": "삼성전자의 첫 스마트글래스·폴드8…오늘 밤 런던 언팩서 공개",
-      "link": "https://www.hankyung.com/article/2026072281017",
-      "source": "한국경제",
-      "ts": 1784671369000,
-      "pub": "Wed, 22 Jul 2026 07:02:49 +0900",
-      "sentiment": "neutral"
+      "title": "[특징주] 로봇주, 삼성전자 로봇사업 강화에 장 초반 급등",
+      "link": "https://www.yna.co.kr/view/AKR20260722044800008",
+      "source": "연합뉴스 경제",
+      "ts": 1784680165000,
+      "pub": "Wed, 22 Jul 2026 09:29:25 +0900",
+      "sentiment": "positive"
     },
     {
-      "title": "이재용·최태원·이해진·젠슨 황, 미국서 뭉친다…'AI 어벤져스' 집결",
-      "link": "https://www.hankyung.com/article/2026072280467",
-      "source": "한국경제",
-      "ts": 1784668958000,
-      "pub": "Wed, 22 Jul 2026 06:22:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'삼성 3.0' 이재용 회장의 꿈",
-      "link": "https://www.mt.co.kr/opinion/2026/07/22/2026072111104166193",
+      "title": "삼성전자 본격 로봇 탑승…고점 대비 반토막 났던 로봇주, 줄상향가",
+      "link": "https://www.mt.co.kr/stock/2026/07/22/2026072209254147668",
       "source": "머니투데이",
-      "ts": 1784667600000,
-      "pub": "Wed, 22 Jul 2026 06:00:00 +0900",
+      "ts": 1784680014000,
+      "pub": "Wed, 22 Jul 2026 09:26:54 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "李대통령, 삼성전자 노조 '광주 팹' 쟁의화에 제동",
-      "link": "https://www.mt.co.kr/politics/2026/07/22/2026072119374396325",
+      "title": "삼전닉스 강세에 반도체 기판주 동반 상승",
+      "link": "https://www.mt.co.kr/stock/2026/07/22/2026072209195756480",
       "source": "머니투데이",
-      "ts": 1784660400000,
-      "pub": "Wed, 22 Jul 2026 04:00:00 +0900",
+      "ts": 1784679671000,
+      "pub": "Wed, 22 Jul 2026 09:21:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼전 5%대 급등…하이닉스 8%↑, 장중 '200만닉스'",
+      "link": "https://www.yna.co.kr/view/AKR20260722041000008",
+      "source": "연합뉴스 경제",
+      "ts": 1784679582000,
+      "pub": "Wed, 22 Jul 2026 09:19:42 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "美 반도체주 훈풍…삼전닉스부터 SK스퀘어·삼성전기까지 ↑",
+      "link": "https://www.mt.co.kr/stock/2026/07/22/2026072209094076902",
+      "source": "머니투데이",
+      "ts": 1784679056000,
+      "pub": "Wed, 22 Jul 2026 09:10:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "S&P, 삼성전자 등급전망 '긍정적' 상향…\"메모리 최대 수혜\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722034000008",
+      "source": "연합뉴스 경제",
+      "ts": 1784678432000,
+      "pub": "Wed, 22 Jul 2026 09:00:32 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼성전자서비스, '스마트싱스'로 원격 진단…사전 케어 알림까지",
+      "link": "https://www.hankyung.com/article/2026072160221",
+      "source": "한국경제",
+      "ts": 1784678422000,
+      "pub": "Wed, 22 Jul 2026 09:00:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자서비스, 서비스 품질 가전 16년·모바일IT AS 15년 1위",
+      "link": "https://www.yna.co.kr/view/AKR20260722027300003",
+      "source": "연합뉴스 경제",
+      "ts": 1784677438000,
+      "pub": "Wed, 22 Jul 2026 08:43:58 +0900",
       "sentiment": "neutral"
     },
     {
@@ -50,14 +114,6 @@
       "ts": 1784616886000,
       "pub": "Tue, 21 Jul 2026 15:54:46 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "삼성, 美서 첫 신용카드 '갤럭시카드' 출시…애플과 금융도 격돌",
-      "link": "https://www.yna.co.kr/view/AKR20260721094000091",
-      "source": "연합뉴스 경제",
-      "ts": 1784602436000,
-      "pub": "Tue, 21 Jul 2026 11:53:56 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

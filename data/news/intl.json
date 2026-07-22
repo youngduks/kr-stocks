@@ -1,14 +1,38 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-22T04:56:37.082Z",
+  "updated_at": "2026-07-22T07:30:17.322Z",
   "count": 22,
   "items": [
     {
-      "title": "AI·빅테크도 흔들릴 변수…Fed 대차대조표 개편이 시장 바꿀까",
-      "link": "https://www.hankyung.com/article/202607157017i",
-      "source": "한국경제",
-      "ts": 1784689202000,
-      "pub": "Wed, 22 Jul 2026 12:00:02 +0900",
+      "title": "흑해도 통제권 격전…우크라 \"48시간새 러 선박 13척 타격\"",
+      "link": "https://www.yna.co.kr/view/AKR20260722134500009",
+      "source": "연합뉴스 국제",
+      "ts": 1784704187000,
+      "pub": "Wed, 22 Jul 2026 16:09:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "벙커버스터도 안 통한다…트럼프가 찍은 이란 '지하 비밀 핵기지' 정체",
+      "link": "https://www.mt.co.kr/world/2026/07/22/2026072210284660385",
+      "source": "머니투데이",
+      "ts": 1784703279000,
+      "pub": "Wed, 22 Jul 2026 15:54:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미중 AI 경쟁 격화…서로 장벽 쌓기",
+      "link": "https://www.yna.co.kr/view/AKR20260722108400009",
+      "source": "연합뉴스 국제",
+      "ts": 1784702854000,
+      "pub": "Wed, 22 Jul 2026 15:47:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 사우디 '우라늄 농축 가능' 원자력협정 승인\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260722069551009",
+      "source": "연합뉴스 국제",
+      "ts": 1784697773000,
+      "pub": "Wed, 22 Jul 2026 14:22:53 +0900",
       "sentiment": "neutral"
     },
     {
@@ -153,30 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784648285000,
       "pub": "Wed, 22 Jul 2026 00:38:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "수명 다 된 10% 글로벌관세…트럼프 '301조 관세' 부과 임박(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260721011351071",
-      "source": "연합뉴스 국제",
-      "ts": 1784634843000,
-      "pub": "Tue, 21 Jul 2026 20:54:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라, 러시아 '제트 샤헤드' 잡는 AI 요격드론 곧 실전 배치",
-      "link": "https://www.yna.co.kr/view/AKR20260721169100109",
-      "source": "연합뉴스 국제",
-      "ts": 1784625261000,
-      "pub": "Tue, 21 Jul 2026 18:14:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "지중해서 사라진 러 군함…\"우크라전·시리아 정권 교체 영향\"",
-      "link": "https://www.yna.co.kr/view/AKR20260721170800081",
-      "source": "연합뉴스 국제",
-      "ts": 1784625185000,
-      "pub": "Tue, 21 Jul 2026 18:13:05 +0900",
       "sentiment": "neutral"
     }
   ]

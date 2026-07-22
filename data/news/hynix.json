@@ -1,8 +1,48 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-22T04:56:37.083Z",
+  "updated_at": "2026-07-22T07:30:17.324Z",
   "count": 15,
   "items": [
+    {
+      "title": "스마트폰·PC 성수기 온다…'피크아웃?' D램 가격 더 치솟아",
+      "link": "https://www.mt.co.kr/industry/2026/07/22/2026072213322947770",
+      "source": "머니투데이",
+      "ts": 1784704241000,
+      "pub": "Wed, 22 Jul 2026 16:10:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[포토] 삼성전자는 올랐지만…SK하이닉스 하락에 개미 '한숨'",
+      "link": "https://www.hankyung.com/article/202607229702i",
+      "source": "한국경제",
+      "ts": 1784703999000,
+      "pub": "Wed, 22 Jul 2026 16:06:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이천 휴먼빌 클래스원, SK하이닉스 차로 15분…이천 도심 단지",
+      "link": "https://www.hankyung.com/article/2026072285001",
+      "source": "한국경제",
+      "ts": 1784703229000,
+      "pub": "Wed, 22 Jul 2026 15:53:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"성과급·호남 반도체 쟁의 대상 아냐\" 대통령 지적에…노동장관 \"노봉법 신속 개정\"",
+      "link": "https://www.mt.co.kr/economy/2026/07/22/2026072214164730285",
+      "source": "머니투데이",
+      "ts": 1784702939000,
+      "pub": "Wed, 22 Jul 2026 15:48:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "단기채엔 반도체 자금·초장기채는 수요 공백…수급이 가른 금리",
+      "link": "https://www.yna.co.kr/view/AKR20260722094400008",
+      "source": "연합뉴스 경제",
+      "ts": 1784696403000,
+      "pub": "Wed, 22 Jul 2026 14:00:03 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "KB證 \"SK하이닉스, 데이터센터향 매출 비중 확대…목표가 유지\"",
       "link": "https://www.yna.co.kr/view/AKR20260722094900008",
@@ -36,22 +76,6 @@
       "sentiment": "positive"
     },
     {
-      "title": "'호남 반도체 테마주' 엇갈린 명암…급락한 보해·버티는 금호",
-      "link": "https://www.hankyung.com/article/202607228667i",
-      "source": "한국경제",
-      "ts": 1784683805000,
-      "pub": "Wed, 22 Jul 2026 10:30:05 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "野 \"노란봉투법이 '호남 반도체' 가로 막아…민주당 자업자득\"",
-      "link": "https://www.hankyung.com/article/2026072287367",
-      "source": "한국경제",
-      "ts": 1784683725000,
-      "pub": "Wed, 22 Jul 2026 10:28:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "엔비디아, 네비우스 지분 9.3% 보유…AI 생태계 확장",
       "link": "https://www.yna.co.kr/view/AKR20260722051200009",
       "source": "연합뉴스 국제",
@@ -65,30 +89,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784680190000,
       "pub": "Wed, 22 Jul 2026 09:29:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼전 5%대 급등…하이닉스 8%↑, 장중 '200만닉스'",
-      "link": "https://www.yna.co.kr/view/AKR20260722041000008",
-      "source": "연합뉴스 경제",
-      "ts": 1784679582000,
-      "pub": "Wed, 22 Jul 2026 09:19:42 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "S&P, 삼성전자 등급전망 '긍정적' 상향…\"메모리 최대 수혜\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722034000008",
-      "source": "연합뉴스 경제",
-      "ts": 1784678432000,
-      "pub": "Wed, 22 Jul 2026 09:00:32 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "키움증권 \"韓 수출실적, 아직 반도체 수요 급감 신호 없어\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722029200008",
-      "source": "연합뉴스 경제",
-      "ts": 1784676579000,
-      "pub": "Wed, 22 Jul 2026 08:29:39 +0900",
       "sentiment": "neutral"
     },
     {

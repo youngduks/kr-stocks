@@ -1,8 +1,48 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-22T04:56:37.083Z",
-  "count": 8,
+  "updated_at": "2026-07-22T07:30:17.323Z",
+  "count": 9,
   "items": [
+    {
+      "title": "삼전닉스 급등했다가 보합권 마감…0.58%↑·0.33%↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260722041051008",
+      "source": "연합뉴스 경제",
+      "ts": 1784704711000,
+      "pub": "Wed, 22 Jul 2026 16:18:31 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[포토] 삼성전자는 올랐지만…SK하이닉스 하락에 개미 '한숨'",
+      "link": "https://www.hankyung.com/article/202607229702i",
+      "source": "한국경제",
+      "ts": 1784703999000,
+      "pub": "Wed, 22 Jul 2026 16:06:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼전닉스 또 간다\" 달리더니, 오후 되자 '뚝'...상승분 반납, 보합권 마감",
+      "link": "https://www.mt.co.kr/stock/2026/07/22/2026072215572698351",
+      "source": "머니투데이",
+      "ts": 1784703563000,
+      "pub": "Wed, 22 Jul 2026 15:59:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 로봇주, 삼성전자 로봇사업 강화 소식에 급등 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260722044851008",
+      "source": "연합뉴스 경제",
+      "ts": 1784702262000,
+      "pub": "Wed, 22 Jul 2026 15:37:42 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "본격 회복 신호?…반토막 난 로봇주, 삼성전자발 호재에 '들썩'",
+      "link": "https://www.yna.co.kr/view/AKR20260722110500008",
+      "source": "연합뉴스 경제",
+      "ts": 1784698435000,
+      "pub": "Wed, 22 Jul 2026 14:33:55 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "주주단체, 노동장관·삼전닉스 대표 고발…\"성과급은 교섭불가\"",
       "link": "https://www.yna.co.kr/view/AKR20260722089800004",
@@ -28,44 +68,12 @@
       "sentiment": "positive"
     },
     {
-      "title": "다시 삼전닉스 쓸어담는 외국인, 코스피 단숨에 7000선 회복",
-      "link": "https://www.hankyung.com/article/202607228464i",
-      "source": "한국경제",
-      "ts": 1784683217000,
-      "pub": "Wed, 22 Jul 2026 10:20:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[특징주] 로봇주, 삼성전자 로봇사업 강화에 장 초반 급등",
       "link": "https://www.yna.co.kr/view/AKR20260722044800008",
       "source": "연합뉴스 경제",
       "ts": 1784680165000,
       "pub": "Wed, 22 Jul 2026 09:29:25 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "[특징주] 삼전 5%대 급등…하이닉스 8%↑, 장중 '200만닉스'",
-      "link": "https://www.yna.co.kr/view/AKR20260722041000008",
-      "source": "연합뉴스 경제",
-      "ts": 1784679582000,
-      "pub": "Wed, 22 Jul 2026 09:19:42 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "S&P, 삼성전자 등급전망 '긍정적' 상향…\"메모리 최대 수혜\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722034000008",
-      "source": "연합뉴스 경제",
-      "ts": 1784678432000,
-      "pub": "Wed, 22 Jul 2026 09:00:32 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "삼성전자서비스, 서비스 품질 가전 16년·모바일IT AS 15년 1위",
-      "link": "https://www.yna.co.kr/view/AKR20260722027300003",
-      "source": "연합뉴스 경제",
-      "ts": 1784677438000,
-      "pub": "Wed, 22 Jul 2026 08:43:58 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

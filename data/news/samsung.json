@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-22T18:00:24.298Z",
+  "updated_at": "2026-07-22T20:04:52.789Z",
   "count": 17,
   "items": [
+    {
+      "title": "李대통령, 美·남미 순방… 이재용·젠슨 황과 'AI 서밋'",
+      "link": "https://www.mt.co.kr/politics/2026/07/23/2026072220141677633",
+      "source": "머니투데이",
+      "ts": 1784747700000,
+      "pub": "Thu, 23 Jul 2026 04:15:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[르포] 갤럭시 폴더블폰 언팩에 런던 들썩…퀄컴·구글도 지원사격",
+      "link": "https://www.yna.co.kr/view/AKR20260723005200085",
+      "source": "연합뉴스 국제",
+      "ts": 1784747073000,
+      "pub": "Thu, 23 Jul 2026 04:04:33 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "3년 만에 '언팩' 찾은 퀄컴 CEO…\"삼성전자, 구글과 차세대 갤럭시 경험 구축\"",
       "link": "https://www.hankyung.com/article/202607220424i",
@@ -65,22 +81,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784725202000,
       "pub": "Wed, 22 Jul 2026 22:00:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'어쩌면 해피엔딩' 박천휴도 갤럭시 마니아…7월 런던 언팩서 삼성전자와 협업",
-      "link": "https://www.mt.co.kr/tech/2026/07/22/2026072216382247000",
-      "source": "머니투데이",
-      "ts": 1784725200000,
-      "pub": "Wed, 22 Jul 2026 22:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"예상 깬 가격, 200만원대 유지\"...더 얇고 더 똑똑해진 '갤럭시 Z8'",
-      "link": "https://www.mt.co.kr/tech/2026/07/22/2026072200323595827",
-      "source": "머니투데이",
-      "ts": 1784725200000,
-      "pub": "Wed, 22 Jul 2026 22:00:00 +0900",
       "sentiment": "neutral"
     },
     {

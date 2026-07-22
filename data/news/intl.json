@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-22T18:00:24.297Z",
-  "count": 27,
+  "updated_at": "2026-07-22T20:04:52.788Z",
+  "count": 26,
   "items": [
+    {
+      "title": "\"美, 이스라엘에 '며칠 내 폭격기 동원 곡괭이산 폭격' 통보\"",
+      "link": "https://www.yna.co.kr/view/AKR20260723006300079",
+      "source": "연합뉴스 국제",
+      "ts": 1784748239000,
+      "pub": "Thu, 23 Jul 2026 04:23:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 복제약 관세폭탄, K바이오 \"영향 미미\"",
+      "link": "https://www.mt.co.kr/thebio/2026/07/23/2026072219292372089",
+      "source": "머니투데이",
+      "ts": 1784746800000,
+      "pub": "Thu, 23 Jul 2026 04:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美애리조나 공화당 경선서 '親트럼프' 부정선거론자 3명 승리",
+      "link": "https://www.yna.co.kr/view/AKR20260723004000075",
+      "source": "연합뉴스 국제",
+      "ts": 1784743843000,
+      "pub": "Thu, 23 Jul 2026 03:10:43 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "기업 물류창고까지 때리는 러·우크라…전쟁 속 유통망도 위협(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260722159351109",
@@ -185,38 +209,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784687680000,
       "pub": "Wed, 22 Jul 2026 11:34:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"껴들면 엉망 된다\"…미국, 이란과 격전에도 이스라엘 개입 통제",
-      "link": "https://www.yna.co.kr/view/AKR20260722069000009",
-      "source": "연합뉴스 국제",
-      "ts": 1784685146000,
-      "pub": "Wed, 22 Jul 2026 10:52:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 행정부 내 침묵의 문화…미사일 부족 보고 못해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722070300009",
-      "source": "연합뉴스 국제",
-      "ts": 1784684378000,
-      "pub": "Wed, 22 Jul 2026 10:39:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 사우디와 '우라늄농축 가능' 협정 승인\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722069500009",
-      "source": "연합뉴스 국제",
-      "ts": 1784684165000,
-      "pub": "Wed, 22 Jul 2026 10:36:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미중, 시진핑 방미 전 9월 'AI 회담' 추진…\"베선트 참석\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722061700089",
-      "source": "연합뉴스 국제",
-      "ts": 1784683579000,
-      "pub": "Wed, 22 Jul 2026 10:26:19 +0900",
       "sentiment": "neutral"
     }
   ]

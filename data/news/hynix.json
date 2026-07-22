@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-22T18:00:24.298Z",
+  "updated_at": "2026-07-22T20:04:52.789Z",
   "count": 7,
   "items": [
+    {
+      "title": "반도체 출렁일 때 \"화장품株 뜬다\"...수익률 높은 ETF는?[ETFvsETF]",
+      "link": "https://www.mt.co.kr/stock/2026/07/23/2026072217035672273",
+      "source": "머니투데이",
+      "ts": 1784745000000,
+      "pub": "Thu, 23 Jul 2026 03:30:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "아직 불안한 반도체 투심…삼전닉스 6~9% 급등했다 '반납'(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260722067051008",
@@ -50,14 +58,6 @@
       "ts": 1784684017000,
       "pub": "Wed, 22 Jul 2026 10:33:37 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "엔비디아, 네비우스 지분 9.3% 보유…AI 생태계 확장",
-      "link": "https://www.yna.co.kr/view/AKR20260722051200009",
-      "source": "연합뉴스 국제",
-      "ts": 1784682291000,
-      "pub": "Wed, 22 Jul 2026 10:04:51 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

@@ -1,62 +1,54 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-22T22:51:50.501Z",
-  "count": 14,
+  "updated_at": "2026-07-22T23:53:02.677Z",
+  "count": 12,
   "items": [
+    {
+      "title": "\"땡큐, 알파벳\"…삼성전자·SK하이닉스, 프리장서 동반 상승",
+      "link": "https://www.mt.co.kr/stock/2026/07/23/2026072308455269344",
+      "source": "머니투데이",
+      "ts": 1784764007000,
+      "pub": "Thu, 23 Jul 2026 08:46:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼성전자, 구글 메모리 점유율 1위…하반기 영업익 234조\"-KB",
+      "link": "https://www.hankyung.com/article/2026072307026",
+      "source": "한국경제",
+      "ts": 1784762143000,
+      "pub": "Thu, 23 Jul 2026 08:15:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "노태문 \"갤럭시Z8, 역대 최다 판매 기록 세울 것\"",
+      "link": "https://www.hankyung.com/article/202607230528i",
+      "source": "한국경제",
+      "ts": 1784761215000,
+      "pub": "Thu, 23 Jul 2026 08:00:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[단독] 美 반도체·日 패키징·대만 메모리社가 찾는 韓 'AI 유리'…어디?",
+      "link": "https://www.hankyung.com/article/202607220355i",
+      "source": "한국경제",
+      "ts": 1784759403000,
+      "pub": "Thu, 23 Jul 2026 07:30:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李대통령, 美·남미 순방… 이재용·젠슨 황과 'AI 서밋'",
+      "link": "https://www.mt.co.kr/politics/2026/07/23/2026072220141677633",
+      "source": "머니투데이",
+      "ts": 1784747700000,
+      "pub": "Thu, 23 Jul 2026 04:15:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[르포] 갤럭시 폴더블폰 언팩에 런던 들썩…퀄컴·구글도 지원사격",
       "link": "https://www.yna.co.kr/view/AKR20260723005200085",
       "source": "연합뉴스 국제",
       "ts": 1784747073000,
       "pub": "Thu, 23 Jul 2026 04:04:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "3년 만에 '언팩' 찾은 퀄컴 CEO…\"삼성전자, 구글과 차세대 갤럭시 경험 구축\"",
-      "link": "https://www.hankyung.com/article/202607220424i",
-      "source": "한국경제",
-      "ts": 1784733065000,
-      "pub": "Thu, 23 Jul 2026 00:11:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[포토] 런던서 삼성 갤럭시 언팩 \"폴더블폰 최강자 굳힌다\"",
-      "link": "https://www.hankyung.com/article/2026072203121",
-      "source": "한국경제",
-      "ts": 1784725343000,
-      "pub": "Wed, 22 Jul 2026 22:02:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼전닉스 비중 줄여라\" 했던 모건스탠리…2주 만에 '돌변' [분석+]",
-      "link": "https://www.hankyung.com/article/2026072294186",
-      "source": "한국경제",
-      "ts": 1784725216000,
-      "pub": "Wed, 22 Jul 2026 22:00:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성, 갤럭시워치 울트라2·워치9 공개…헬스 기능 대폭 강화",
-      "link": "https://www.hankyung.com/article/202607229573g",
-      "source": "한국경제",
-      "ts": 1784725210000,
-      "pub": "Wed, 22 Jul 2026 22:00:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성, 갤럭시Z폴드8 라인업 '언팩'…애플과 '정면승부' 펼쳐진다",
-      "link": "https://www.hankyung.com/article/202607229570g",
-      "source": "한국경제",
-      "ts": 1784725207000,
-      "pub": "Wed, 22 Jul 2026 22:00:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "땀 측정해 수분 보충 알림…헬스케어 강화한 갤럭시 워치",
-      "link": "https://www.hankyung.com/article/2026072203151",
-      "source": "한국경제",
-      "ts": 1784725204000,
-      "pub": "Wed, 22 Jul 2026 22:00:04 +0900",
       "sentiment": "neutral"
     },
     {
@@ -106,14 +98,6 @@
       "ts": 1784690760000,
       "pub": "Wed, 22 Jul 2026 12:26:00 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "미국발 훈풍에 삼전닉스 이틀째 급등…'반도체 조정' 끝나나",
-      "link": "https://www.yna.co.kr/view/AKR20260722067000008",
-      "source": "연합뉴스 경제",
-      "ts": 1784684017000,
-      "pub": "Wed, 22 Jul 2026 10:33:37 +0900",
-      "sentiment": "positive"
     }
   ]
 }

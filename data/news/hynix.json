@@ -1,8 +1,80 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-22T22:51:50.501Z",
-  "count": 4,
+  "updated_at": "2026-07-22T23:53:02.679Z",
+  "count": 12,
   "items": [
+    {
+      "title": "\"땡큐, 알파벳\"…삼성전자·SK하이닉스, 프리장서 동반 상승",
+      "link": "https://www.mt.co.kr/stock/2026/07/23/2026072308455269344",
+      "source": "머니투데이",
+      "ts": 1784764007000,
+      "pub": "Thu, 23 Jul 2026 08:46:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中 키미 K3, 엔비디아 '네모트론' 압도…국내 기업 기술 쏠림 괜찮나 [IT썰]",
+      "link": "https://www.mt.co.kr/tech/2026/07/23/2026072307553132115",
+      "source": "머니투데이",
+      "ts": 1784762636000,
+      "pub": "Thu, 23 Jul 2026 08:23:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "2분기 GDP 0.6% 성장 '깜짝 실적'…반도체 수출이 중동 악재 상쇄",
+      "link": "https://www.hankyung.com/article/2026072306837",
+      "source": "한국경제",
+      "ts": 1784762326000,
+      "pub": "Thu, 23 Jul 2026 08:18:46 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "구글 클라우드 82% 증가, 자본지출 또 늘렸다→반도체 호재? [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202607230537i",
+      "source": "한국경제",
+      "ts": 1784762196000,
+      "pub": "Thu, 23 Jul 2026 08:16:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼성전자, 구글 메모리 점유율 1위…하반기 영업익 234조\"-KB",
+      "link": "https://www.hankyung.com/article/2026072307026",
+      "source": "한국경제",
+      "ts": 1784762143000,
+      "pub": "Thu, 23 Jul 2026 08:15:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "2분기 GDP 0.6% 성장 서프라이즈…반도체가 견인",
+      "link": "https://www.mt.co.kr/economy/2026/07/23/2026072307200942894",
+      "source": "머니투데이",
+      "ts": 1784761200000,
+      "pub": "Thu, 23 Jul 2026 08:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "2분기 한국 경제 0.6% 성장…반도체 수출로 중동발 악재 상쇄",
+      "link": "https://www.yna.co.kr/view/AKR20260723021100002",
+      "source": "연합뉴스 경제",
+      "ts": 1784761200000,
+      "pub": "Thu, 23 Jul 2026 08:00:00 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[단독] 美 반도체·日 패키징·대만 메모리社가 찾는 韓 'AI 유리'…어디?",
+      "link": "https://www.hankyung.com/article/202607220355i",
+      "source": "한국경제",
+      "ts": 1784759403000,
+      "pub": "Thu, 23 Jul 2026 07:30:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "치솟는 유가에 인플레 우려 고개…방향 잃은 반도체주[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/07/23/2026072305584767706",
+      "source": "머니투데이",
+      "ts": 1784754187000,
+      "pub": "Thu, 23 Jul 2026 06:03:07 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "아직 불안한 반도체 투심…삼전닉스 6~9% 급등했다 '반납'(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260722067051008",
@@ -26,14 +98,6 @@
       "ts": 1784693999000,
       "pub": "Wed, 22 Jul 2026 13:19:59 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "미국발 훈풍에 삼전닉스 이틀째 급등…'반도체 조정' 끝나나",
-      "link": "https://www.yna.co.kr/view/AKR20260722067000008",
-      "source": "연합뉴스 경제",
-      "ts": 1784684017000,
-      "pub": "Wed, 22 Jul 2026 10:33:37 +0900",
-      "sentiment": "positive"
     }
   ]
 }

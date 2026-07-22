@@ -1,7 +1,7 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-22T22:51:50.499Z",
-  "count": 25,
+  "updated_at": "2026-07-22T23:53:02.676Z",
+  "count": 24,
   "items": [
     {
       "title": "트럼프, 경합주 찾아 \"출마선언하러 왔다\"…함성 터지자 \"농담\"",
@@ -28,6 +28,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "美, 이르면 내일 '무역법 301조' 관세 발표…한국 등 60개국 대상",
+      "link": "https://www.mt.co.kr/world/2026/07/23/2026072306181299980",
+      "source": "머니투데이",
+      "ts": 1784755281000,
+      "pub": "Thu, 23 Jul 2026 06:21:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "'굳히기' 들어간 트럼프 관세체제…15% 상한선 지킬지가 관건 [이상은의 워싱턴나우]",
       "link": "https://www.hankyung.com/article/202607230520i",
       "source": "한국경제",
@@ -36,11 +44,27 @@
       "sentiment": "neutral"
     },
     {
+      "title": "트럼프 발전소 폭격 예고에…이란 \"석유 한 방울도 못 나가\"",
+      "link": "https://www.mt.co.kr/world/2026/07/23/2026072305132894012",
+      "source": "머니투데이",
+      "ts": 1784752509000,
+      "pub": "Thu, 23 Jul 2026 05:35:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "美USTR 대표 \"무역법 301조 '강제노동 관세' 이르면 내일 발표\"",
       "link": "https://www.yna.co.kr/view/AKR20260723008000071",
       "source": "연합뉴스 국제",
       "ts": 1784751600000,
       "pub": "Thu, 23 Jul 2026 05:20:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이란 곡괭이산 비밀 핵시설 타격\"…美, 이스라엘에 공습 계획 통보",
+      "link": "https://www.mt.co.kr/world/2026/07/23/2026072305081927612",
+      "source": "머니투데이",
+      "ts": 1784751248000,
+      "pub": "Thu, 23 Jul 2026 05:14:08 +0900",
       "sentiment": "neutral"
     },
     {
@@ -84,35 +108,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "백악관 \"문샷 K3모델, 앤스로픽의 페이블 도용해 개발\"",
-      "link": "https://www.hankyung.com/article/202607230428i",
-      "source": "한국경제",
-      "ts": 1784735121000,
-      "pub": "Thu, 23 Jul 2026 00:45:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"선박 공격시 테헤란 교량·발전소 폭격\"…이란에 경고",
-      "link": "https://www.hankyung.com/article/2026072203947",
-      "source": "한국경제",
-      "ts": 1784727005000,
-      "pub": "Wed, 22 Jul 2026 22:30:05 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "트럼프 \"이란, 호르무즈 선박 공격땐 테헤란 교량·발전소 폭격\"",
       "link": "https://www.yna.co.kr/view/AKR20260722180651071",
       "source": "연합뉴스 국제",
       "ts": 1784726754000,
       "pub": "Wed, 22 Jul 2026 22:25:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란, 호르무즈 상선 공격땐 교량 또는 발전소 폭격\"",
-      "link": "https://www.hankyung.com/article/2026072203827",
-      "source": "한국경제",
-      "ts": 1784725462000,
-      "pub": "Wed, 22 Jul 2026 22:04:22 +0900",
       "sentiment": "neutral"
     },
     {
@@ -193,14 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784702854000,
       "pub": "Wed, 22 Jul 2026 15:47:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 사우디 '우라늄 농축 가능' 원자력협정 승인\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260722069551009",
-      "source": "연합뉴스 국제",
-      "ts": 1784697773000,
-      "pub": "Wed, 22 Jul 2026 14:22:53 +0900",
       "sentiment": "neutral"
     }
   ]

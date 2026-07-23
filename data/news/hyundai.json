@@ -1,30 +1,30 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-23T05:13:42.171Z",
+  "updated_at": "2026-07-23T08:08:24.725Z",
   "count": 3,
   "items": [
     {
-      "title": "[속보]현대차, 2분기 매출 49.2조 '역대 최대'…영업익 20.8%↓",
-      "link": "https://www.mt.co.kr/industry/2026/07/23/2026072313595029833",
-      "source": "머니투데이",
-      "ts": 1784782919000,
-      "pub": "Thu, 23 Jul 2026 14:01:59 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "초고수, 현대차·전력株 매수…삼전닉스 매도세 이어져",
-      "link": "https://www.hankyung.com/article/202607231388i",
+      "title": "[단독] 새만금-군산 수소열차 달린다…현대차그룹, 'AI 자립형 수소 생태계' 구축",
+      "link": "https://www.hankyung.com/article/202607232442i",
       "source": "한국경제",
-      "ts": 1784772260000,
-      "pub": "Thu, 23 Jul 2026 11:04:20 +0900",
+      "ts": 1784793209000,
+      "pub": "Thu, 23 Jul 2026 16:53:29 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "'음성명작 햇사레 복숭아' 올해 첫 수출…인니로 264상자",
-      "link": "https://www.yna.co.kr/view/AKR20260723040100064",
-      "source": "연합뉴스 경제",
-      "ts": 1784766691000,
-      "pub": "Thu, 23 Jul 2026 09:31:31 +0900",
+      "title": "현대차·기아 6월 유럽 판매량 9만9523대…전년比 6.5% ↑",
+      "link": "https://www.mt.co.kr/industry/2026/07/23/2026072315560298186",
+      "source": "머니투데이",
+      "ts": 1784791409000,
+      "pub": "Thu, 23 Jul 2026 16:23:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 빼고 후진한 현대차…신차로 하반기 반전 노린다",
+      "link": "https://www.mt.co.kr/industry/2026/07/23/2026072315463540578",
+      "source": "머니투데이",
+      "ts": 1784790167000,
+      "pub": "Thu, 23 Jul 2026 16:02:47 +0900",
       "sentiment": "neutral"
     }
   ]

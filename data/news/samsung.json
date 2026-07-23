@@ -1,8 +1,64 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-23T05:13:42.170Z",
+  "updated_at": "2026-07-23T08:08:24.725Z",
   "count": 11,
   "items": [
+    {
+      "title": "AI 인프라에 1800조 쓰는 빅테크…'삼전닉스 메모리' 잡아라",
+      "link": "https://www.mt.co.kr/industry/2026/07/23/2026072316433416941",
+      "source": "머니투데이",
+      "ts": 1784793639000,
+      "pub": "Thu, 23 Jul 2026 17:00:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "“내 계좌 다시 살아나나”…구글 한마디에 삼전·하닉 불기둥",
+      "link": "https://www.hankyung.com/article/202607232289i",
+      "source": "한국경제",
+      "ts": 1784792499000,
+      "pub": "Thu, 23 Jul 2026 16:41:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'HBM 다음은 우주'…한미반도체, 새 성장축 키운다",
+      "link": "https://www.mt.co.kr/industry/2026/07/23/2026072313514066585",
+      "source": "머니투데이",
+      "ts": 1784792282000,
+      "pub": "Thu, 23 Jul 2026 16:38:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "구글 훈풍 타고 삼전닉스 상승…코스피 5일만에 '7천피'",
+      "link": "https://www.hankyung.com/article/202607232197i",
+      "source": "한국경제",
+      "ts": 1784792167000,
+      "pub": "Thu, 23 Jul 2026 16:36:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'북부대공' 남편 몰래 본다는데…노태문 \"갤럭시 안 쓰면 배드\" [영상]",
+      "link": "https://www.hankyung.com/article/202607232243g",
+      "source": "한국경제",
+      "ts": 1784791576000,
+      "pub": "Thu, 23 Jul 2026 16:26:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전·닉스, 3∼4% 급등…외국인 순매수 1·2위(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260723056151008",
+      "source": "연합뉴스 경제",
+      "ts": 1784790418000,
+      "pub": "Thu, 23 Jul 2026 16:06:58 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "오리엔트바이오, 계열사 갤럭시가 151만주 장내 매수 \"책임경영 실천\"",
+      "link": "https://www.mt.co.kr/stock/2026/07/23/2026072315574562663",
+      "source": "머니투데이",
+      "ts": 1784790111000,
+      "pub": "Thu, 23 Jul 2026 16:01:51 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "메모리값 급등에 글로벌 PC 시장 꺾였다…2분기 4% 감소",
       "link": "https://www.yna.co.kr/view/AKR20260723106700017",
@@ -28,67 +84,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "머스크 \"삼성 땡큐, AI5 내년 중반 양산\"…파운드리 기대 커진다",
-      "link": "https://www.mt.co.kr/industry/2026/07/23/2026072310564055473",
-      "source": "머니투데이",
-      "ts": 1784774640000,
-      "pub": "Thu, 23 Jul 2026 11:44:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "초고수, 현대차·전력株 매수…삼전닉스 매도세 이어져",
-      "link": "https://www.hankyung.com/article/202607231388i",
-      "source": "한국경제",
-      "ts": 1784772260000,
-      "pub": "Thu, 23 Jul 2026 11:04:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"손목만 들어도 AI 등장\"…갤럭시에 올라탄 구글 '신기술'",
-      "link": "https://www.hankyung.com/article/202607231413g",
-      "source": "한국경제",
-      "ts": 1784771635000,
-      "pub": "Thu, 23 Jul 2026 10:53:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "구글 실적 뜯어본 증권가…\"삼전닉스, 피크아웃 우려 덜었다\"",
-      "link": "https://www.hankyung.com/article/202607220164i",
-      "source": "한국경제",
-      "ts": 1784770217000,
-      "pub": "Thu, 23 Jul 2026 10:30:17 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 4% 안팎 상승",
-      "link": "https://www.yna.co.kr/view/AKR20260723056100008",
-      "source": "연합뉴스 경제",
-      "ts": 1784768163000,
-      "pub": "Thu, 23 Jul 2026 09:56:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "KB증권 \"삼성전자, 구글 AI 생태계 최대 수혜주…목표가 60만원\"",
-      "link": "https://www.yna.co.kr/view/AKR20260723032000008",
-      "source": "연합뉴스 경제",
-      "ts": 1784764163000,
-      "pub": "Thu, 23 Jul 2026 08:49:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[르포] 갤럭시 폴더블폰 언팩에 런던 들썩…퀄컴·구글도 지원사격",
       "link": "https://www.yna.co.kr/view/AKR20260723005200085",
       "source": "연합뉴스 국제",
       "ts": 1784747073000,
       "pub": "Thu, 23 Jul 2026 04:04:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "여권 크기 갤럭시 폴드8 펼쳐보니…\"버릴 데 없이 꽉 찼네\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722025600085",
-      "source": "연합뉴스 국제",
-      "ts": 1784725202000,
-      "pub": "Wed, 22 Jul 2026 22:00:02 +0900",
       "sentiment": "neutral"
     }
   ]

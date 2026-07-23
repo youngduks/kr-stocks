@@ -1,8 +1,48 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-23T05:13:42.171Z",
-  "count": 9,
+  "updated_at": "2026-07-23T08:08:24.725Z",
+  "count": 8,
   "items": [
+    {
+      "title": "\"투자 실패 예시 보여줄게\"…SK하이닉스 레버리지 -61% 인증한 셰프",
+      "link": "https://www.mt.co.kr/society/2026/07/23/2026072316290733919",
+      "source": "머니투데이",
+      "ts": 1784793989000,
+      "pub": "Thu, 23 Jul 2026 17:06:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI 인프라에 1800조 쓰는 빅테크…'삼전닉스 메모리' 잡아라",
+      "link": "https://www.mt.co.kr/industry/2026/07/23/2026072316433416941",
+      "source": "머니투데이",
+      "ts": 1784793639000,
+      "pub": "Thu, 23 Jul 2026 17:00:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'HBM 다음은 우주'…한미반도체, 새 성장축 키운다",
+      "link": "https://www.mt.co.kr/industry/2026/07/23/2026072313514066585",
+      "source": "머니투데이",
+      "ts": 1784792282000,
+      "pub": "Thu, 23 Jul 2026 16:38:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "LG엔솔, 엔비디아 'AI 데이터센터' 정조준…\"솔루션 개발 중\"",
+      "link": "https://www.mt.co.kr/industry/2026/07/23/2026072315021555363",
+      "source": "머니투데이",
+      "ts": 1784791216000,
+      "pub": "Thu, 23 Jul 2026 16:20:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "대만 언론 \"중국, 자국 기업에 TSMC 외주 제한 검토\"",
+      "link": "https://www.yna.co.kr/view/AKR20260723114500009",
+      "source": "연합뉴스 국제",
+      "ts": 1784783863000,
+      "pub": "Thu, 23 Jul 2026 14:17:43 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "익산시, 반도체·이차전지 투자유치 추진…제3산단 27만㎡ 공급",
       "link": "https://www.yna.co.kr/view/AKR20260723114200055",
@@ -26,54 +66,6 @@
       "ts": 1784780828000,
       "pub": "Thu, 23 Jul 2026 13:27:08 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "'주식 고수' 여경옥 셰프도 당했다…하이닉스 레버리지 '반토막'",
-      "link": "https://www.hankyung.com/article/202607231717H",
-      "source": "한국경제",
-      "ts": 1784780070000,
-      "pub": "Thu, 23 Jul 2026 13:14:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 쏠림 경고한 글로벌 펀드매니저…기술주 숏은 없었다",
-      "link": "https://www.hankyung.com/article/202607217814i",
-      "source": "한국경제",
-      "ts": 1784779205000,
-      "pub": "Thu, 23 Jul 2026 13:00:05 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "K-뷰티·반도체 호조…상반기 중기 수출 640억달러 '역대 최대'",
-      "link": "https://www.hankyung.com/article/2026072316897",
-      "source": "한국경제",
-      "ts": 1784778435000,
-      "pub": "Thu, 23 Jul 2026 12:47:15 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[오늘 이 종목] \"화장품 수출 호조부터 반도체·바이오 모멘텀까지… 핵심 주도주로 시장 대응\"",
-      "link": "https://www.mt.co.kr/stock/2026/07/23/2026072311257093128",
-      "source": "머니투데이",
-      "ts": 1784773860000,
-      "pub": "Thu, 23 Jul 2026 11:31:00 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 4% 안팎 상승",
-      "link": "https://www.yna.co.kr/view/AKR20260723056100008",
-      "source": "연합뉴스 경제",
-      "ts": 1784768163000,
-      "pub": "Thu, 23 Jul 2026 09:56:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "2분기 한국 경제 0.6% 성장…반도체 수출로 중동발 악재 상쇄",
-      "link": "https://www.yna.co.kr/view/AKR20260723021100002",
-      "source": "연합뉴스 경제",
-      "ts": 1784761200000,
-      "pub": "Thu, 23 Jul 2026 08:00:00 +0900",
-      "sentiment": "negative"
     }
   ]
 }

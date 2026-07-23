@@ -1,14 +1,46 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-23T05:13:42.169Z",
-  "count": 19,
+  "updated_at": "2026-07-23T08:08:24.724Z",
+  "count": 16,
   "items": [
     {
-      "title": "트럼프에 올라탄 GM…규제 완화 업고 실적 '잭팟'",
-      "link": "https://www.hankyung.com/article/202607231189i",
+      "title": "정동영 \"9월 미중 회담·11월 中 선전 APEC…북미 대화, 관건적 시기\"",
+      "link": "https://www.mt.co.kr/politics/2026/07/23/2026072316085172246",
+      "source": "머니투데이",
+      "ts": 1784792747000,
+      "pub": "Thu, 23 Jul 2026 16:45:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러 외무, 美국무 만나 \"우크라에 추가 무기공급 용납못해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260723153800084",
+      "source": "연합뉴스 국제",
+      "ts": 1784791816000,
+      "pub": "Thu, 23 Jul 2026 16:30:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프-시진핑 약속인데…中, 보잉 항공기 200대 구매 계약 난항",
+      "link": "https://www.yna.co.kr/view/AKR20260723141300009",
+      "source": "연합뉴스 국제",
+      "ts": 1784789380000,
+      "pub": "Thu, 23 Jul 2026 15:49:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 301조 관세 발표 초읽기…정부, 15% 상한선에 촉각",
+      "link": "https://www.yna.co.kr/view/AKR20260723139100003",
+      "source": "연합뉴스 경제",
+      "ts": 1784789027000,
+      "pub": "Thu, 23 Jul 2026 15:43:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "매파 연준·중동 리스크...AI 수혜 기대되는 우량기업 분할 매수 해야",
+      "link": "https://www.hankyung.com/article/202607229444i",
       "source": "한국경제",
-      "ts": 1784781053000,
-      "pub": "Thu, 23 Jul 2026 13:30:53 +0900",
+      "ts": 1784788598000,
+      "pub": "Thu, 23 Jul 2026 15:36:38 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,27 +52,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "中부틸 아크릴레이트 덤핑 인정…최대 19.17% 관세",
-      "link": "https://www.mt.co.kr/economy/2026/07/23/2026072310280098318",
-      "source": "머니투데이",
-      "ts": 1784781000000,
-      "pub": "Thu, 23 Jul 2026 13:30:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[쇼츠] 우크라, 러 최대 유통업체 물류창고 또 공격",
       "link": "https://www.yna.co.kr/view/AKR20260723102900704",
       "source": "연합뉴스 국제",
       "ts": 1784779469000,
       "pub": "Thu, 23 Jul 2026 13:04:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "국세청·관세청 공조 '빛났다'…고액·악성 체납자 16명, 13억원 징수·압류",
-      "link": "https://www.mt.co.kr/economy/2026/07/23/2026072309294398162",
-      "source": "머니투데이",
-      "ts": 1784775600000,
-      "pub": "Thu, 23 Jul 2026 12:00:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -113,46 +129,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784743843000,
       "pub": "Thu, 23 Jul 2026 03:10:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "기업 물류창고까지 때리는 러·우크라…전쟁 속 유통망도 위협(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260722159351109",
-      "source": "연합뉴스 국제",
-      "ts": 1784739877000,
-      "pub": "Thu, 23 Jul 2026 02:04:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 전사한 미군 귀환식 참석…\"미국인, 전쟁 반대 안해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260723002400071",
-      "source": "연합뉴스 국제",
-      "ts": 1784739496000,
-      "pub": "Thu, 23 Jul 2026 01:58:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘 교도소에 '악어 해자'…극우 장관 주도 건설 논란",
-      "link": "https://www.yna.co.kr/view/AKR20260723001800079",
-      "source": "연합뉴스 국제",
-      "ts": 1784737084000,
-      "pub": "Thu, 23 Jul 2026 01:18:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란, 호르무즈 선박 공격땐 테헤란 교량·발전소 폭격\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722180651071",
-      "source": "연합뉴스 국제",
-      "ts": 1784726754000,
-      "pub": "Wed, 22 Jul 2026 22:25:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란, 호르무즈 상선 공격땐 교량 또는 발전소 폭격\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722180600071",
-      "source": "연합뉴스 국제",
-      "ts": 1784725423000,
-      "pub": "Wed, 22 Jul 2026 22:03:43 +0900",
       "sentiment": "neutral"
     }
   ]

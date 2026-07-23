@@ -1,8 +1,24 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-22T23:53:02.679Z",
-  "count": 1,
+  "updated_at": "2026-07-23T01:43:40.611Z",
+  "count": 3,
   "items": [
+    {
+      "title": "현대차·기아, 'UX 스튜디오 상하이' 개관",
+      "link": "https://www.hankyung.com/article/202607231175g",
+      "source": "한국경제",
+      "ts": 1784768504000,
+      "pub": "Thu, 23 Jul 2026 10:01:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'음성명작 햇사레 복숭아' 올해 첫 수출…인니로 264상자",
+      "link": "https://www.yna.co.kr/view/AKR20260723040100064",
+      "source": "연합뉴스 경제",
+      "ts": 1784766691000,
+      "pub": "Thu, 23 Jul 2026 09:31:31 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "김재준 시장 \"현대차 9조 투자 뒷받침할 국가예산 반영해달라\"",
       "link": "https://www.yna.co.kr/view/AKR20260722136900055",

@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-22T23:53:02.676Z",
-  "count": 24,
+  "updated_at": "2026-07-23T01:43:40.609Z",
+  "count": 17,
   "items": [
+    {
+      "title": "'트럼프 관세'로 불편한 이웃…미-캐나다 잇는 대교 개통식 취소",
+      "link": "https://www.yna.co.kr/view/AKR20260723065200009",
+      "source": "연합뉴스 국제",
+      "ts": 1784770178000,
+      "pub": "Thu, 23 Jul 2026 10:29:38 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 경합주 찾아 \"출마선언하러 왔다\"…함성 터지자 \"농담\"",
       "link": "https://www.yna.co.kr/view/AKR20260723015500071",
@@ -12,59 +20,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"美, 며칠 내 이란 '곡괭이산 공습' 통보\"…이스라엘 최고 대비태세",
-      "link": "https://www.hankyung.com/article/2026072305347",
-      "source": "한국경제",
-      "ts": 1784756249000,
-      "pub": "Thu, 23 Jul 2026 06:37:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 무역법 301조 부과 임박…국내 증시 영향은 [분석+]",
-      "link": "https://www.hankyung.com/article/2026072203856",
-      "source": "한국경제",
-      "ts": 1784755806000,
-      "pub": "Thu, 23 Jul 2026 06:30:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, 이르면 내일 '무역법 301조' 관세 발표…한국 등 60개국 대상",
-      "link": "https://www.mt.co.kr/world/2026/07/23/2026072306181299980",
-      "source": "머니투데이",
-      "ts": 1784755281000,
-      "pub": "Thu, 23 Jul 2026 06:21:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'굳히기' 들어간 트럼프 관세체제…15% 상한선 지킬지가 관건 [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202607230520i",
-      "source": "한국경제",
-      "ts": 1784754954000,
-      "pub": "Thu, 23 Jul 2026 06:15:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 발전소 폭격 예고에…이란 \"석유 한 방울도 못 나가\"",
-      "link": "https://www.mt.co.kr/world/2026/07/23/2026072305132894012",
-      "source": "머니투데이",
-      "ts": 1784752509000,
-      "pub": "Thu, 23 Jul 2026 05:35:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美USTR 대표 \"무역법 301조 '강제노동 관세' 이르면 내일 발표\"",
       "link": "https://www.yna.co.kr/view/AKR20260723008000071",
       "source": "연합뉴스 국제",
       "ts": 1784751600000,
       "pub": "Thu, 23 Jul 2026 05:20:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"이란 곡괭이산 비밀 핵시설 타격\"…美, 이스라엘에 공습 계획 통보",
-      "link": "https://www.mt.co.kr/world/2026/07/23/2026072305081927612",
-      "source": "머니투데이",
-      "ts": 1784751248000,
-      "pub": "Thu, 23 Jul 2026 05:14:08 +0900",
       "sentiment": "neutral"
     },
     {
@@ -177,22 +137,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784705933000,
       "pub": "Wed, 22 Jul 2026 16:38:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "흑해도 통제권 격전…우크라 \"48시간새 러 선박 13척 타격\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722134500009",
-      "source": "연합뉴스 국제",
-      "ts": 1784704187000,
-      "pub": "Wed, 22 Jul 2026 16:09:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미중 AI 경쟁 격화…서로 장벽 쌓기",
-      "link": "https://www.yna.co.kr/view/AKR20260722108400009",
-      "source": "연합뉴스 국제",
-      "ts": 1784702854000,
-      "pub": "Wed, 22 Jul 2026 15:47:34 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,46 +1,30 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-22T23:53:02.677Z",
-  "count": 12,
+  "updated_at": "2026-07-23T01:43:40.610Z",
+  "count": 8,
   "items": [
     {
-      "title": "\"땡큐, 알파벳\"…삼성전자·SK하이닉스, 프리장서 동반 상승",
-      "link": "https://www.mt.co.kr/stock/2026/07/23/2026072308455269344",
-      "source": "머니투데이",
-      "ts": 1784764007000,
-      "pub": "Thu, 23 Jul 2026 08:46:47 +0900",
+      "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 4% 안팎 상승",
+      "link": "https://www.yna.co.kr/view/AKR20260723056100008",
+      "source": "연합뉴스 경제",
+      "ts": 1784768163000,
+      "pub": "Thu, 23 Jul 2026 09:56:03 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"삼성전자, 구글 메모리 점유율 1위…하반기 영업익 234조\"-KB",
-      "link": "https://www.hankyung.com/article/2026072307026",
+      "title": "알파벳 \"내년 자본지출 '상당히' 더 클 것\"…삼전닉스 장 초반 '강세'",
+      "link": "https://www.hankyung.com/article/2026072309296",
       "source": "한국경제",
-      "ts": 1784762143000,
-      "pub": "Thu, 23 Jul 2026 08:15:43 +0900",
+      "ts": 1784765905000,
+      "pub": "Thu, 23 Jul 2026 09:18:25 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "노태문 \"갤럭시Z8, 역대 최다 판매 기록 세울 것\"",
-      "link": "https://www.hankyung.com/article/202607230528i",
-      "source": "한국경제",
-      "ts": 1784761215000,
-      "pub": "Thu, 23 Jul 2026 08:00:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[단독] 美 반도체·日 패키징·대만 메모리社가 찾는 韓 'AI 유리'…어디?",
-      "link": "https://www.hankyung.com/article/202607220355i",
-      "source": "한국경제",
-      "ts": 1784759403000,
-      "pub": "Thu, 23 Jul 2026 07:30:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "李대통령, 美·남미 순방… 이재용·젠슨 황과 'AI 서밋'",
-      "link": "https://www.mt.co.kr/politics/2026/07/23/2026072220141677633",
-      "source": "머니투데이",
-      "ts": 1784747700000,
-      "pub": "Thu, 23 Jul 2026 04:15:00 +0900",
+      "title": "KB증권 \"삼성전자, 구글 AI 생태계 최대 수혜주…목표가 60만원\"",
+      "link": "https://www.yna.co.kr/view/AKR20260723032000008",
+      "source": "연합뉴스 경제",
+      "ts": 1784764163000,
+      "pub": "Thu, 23 Jul 2026 08:49:23 +0900",
       "sentiment": "neutral"
     },
     {
@@ -82,22 +66,6 @@
       "ts": 1784702262000,
       "pub": "Wed, 22 Jul 2026 15:37:42 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "본격 회복 신호?…반토막 난 로봇주, 삼성전자발 호재에 '들썩'",
-      "link": "https://www.yna.co.kr/view/AKR20260722110500008",
-      "source": "연합뉴스 경제",
-      "ts": 1784698435000,
-      "pub": "Wed, 22 Jul 2026 14:33:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "주주단체, 노동장관·삼전닉스 대표 고발…\"성과급은 교섭불가\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722089800004",
-      "source": "연합뉴스 경제",
-      "ts": 1784690760000,
-      "pub": "Wed, 22 Jul 2026 12:26:00 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

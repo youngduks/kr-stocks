@@ -1,14 +1,78 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-23T21:55:05.980Z",
-  "count": 25,
+  "updated_at": "2026-07-23T22:44:49.897Z",
+  "count": 35,
   "items": [
+    {
+      "title": "美, '301조 강제노동 관세' 60개국에 부과…한국 12.5%(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260724010053071",
+      "source": "연합뉴스 국제",
+      "ts": 1784846194000,
+      "pub": "Fri, 24 Jul 2026 07:36:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "글로벌 관세 10%→강제노동 관세 12.5%…트럼프 빌드업 '착착' [이상은의 워싱턴나우]",
+      "link": "https://www.hankyung.com/article/202607243089i",
+      "source": "한국경제",
+      "ts": 1784843325000,
+      "pub": "Fri, 24 Jul 2026 06:48:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "브렌트유 두 달 만에 종가 100달러 돌파…트럼프는 '대규모 공격' 시사",
+      "link": "https://www.hankyung.com/article/2026072430937",
+      "source": "한국경제",
+      "ts": 1784843064000,
+      "pub": "Fri, 24 Jul 2026 06:44:24 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'꼼수 관세' 꺼낸 트럼프, 강제노동 관세 60개국 부과...한국 12.5%",
+      "link": "https://www.mt.co.kr/world/2026/07/24/2026072406180123504",
+      "source": "머니투데이",
+      "ts": 1784842237000,
+      "pub": "Fri, 24 Jul 2026 06:30:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美 '강제노동 관세' 각국에 부과…한국 사실상 '12.5%'",
+      "link": "https://www.hankyung.com/article/202607243085i",
+      "source": "한국경제",
+      "ts": 1784841834000,
+      "pub": "Fri, 24 Jul 2026 06:23:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란에 이전보다 더 큰 공격 검토…결정 임박\" [종합]",
+      "link": "https://www.hankyung.com/article/2026072430747",
+      "source": "한국경제",
+      "ts": 1784841646000,
+      "pub": "Fri, 24 Jul 2026 06:20:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美, 60개국에 '강제노동 관세' 확정…한국 사실상 12.5%",
+      "link": "https://www.hankyung.com/article/2026072430827",
+      "source": "한국경제",
+      "ts": 1784841606000,
+      "pub": "Fri, 24 Jul 2026 06:20:06 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美, 60개국에 '301조 강제노동 관세' 확정…한국은 12.5%",
       "link": "https://www.yna.co.kr/view/AKR20260724010051071",
       "source": "연합뉴스 국제",
       "ts": 1784841600000,
       "pub": "Fri, 24 Jul 2026 06:20:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美무역대표부, '강제노동 관세' 부과…한국 최대 12.5%",
+      "link": "https://www.mt.co.kr/world/2026/07/24/2026072406161917904",
+      "source": "머니투데이",
+      "ts": 1784841510000,
+      "pub": "Fri, 24 Jul 2026 06:18:30 +0900",
       "sentiment": "neutral"
     },
     {
@@ -21,10 +85,26 @@
     },
     {
       "title": "[속보] 美USTR, 무역법 301조 '강제노동 관세' 부과",
+      "link": "https://www.hankyung.com/article/2026072430767",
+      "source": "한국경제",
+      "ts": 1784841067000,
+      "pub": "Fri, 24 Jul 2026 06:11:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美USTR, 무역법 301조 '강제노동 관세' 부과",
       "link": "https://www.yna.co.kr/view/AKR20260724010000071",
       "source": "연합뉴스 국제",
       "ts": 1784840927000,
       "pub": "Fri, 24 Jul 2026 06:08:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美-사우디 원자력 협정 하루만에 난관…트럼프 \"이스라엘과 화해 조건\"",
+      "link": "https://www.mt.co.kr/world/2026/07/24/2026072405574183995",
+      "source": "머니투데이",
+      "ts": 1784840480000,
+      "pub": "Fri, 24 Jul 2026 06:01:20 +0900",
       "sentiment": "neutral"
     },
     {
@@ -33,6 +113,14 @@
       "source": "연합뉴스 국제",
       "ts": 1784839961000,
       "pub": "Fri, 24 Jul 2026 05:52:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"대이란 대규모 공격 검토 중…모든 준비 마쳤다\"",
+      "link": "https://www.mt.co.kr/world/2026/07/24/2026072405252674164",
+      "source": "머니투데이",
+      "ts": 1784839071000,
+      "pub": "Fri, 24 Jul 2026 05:37:51 +0900",
       "sentiment": "neutral"
     },
     {
@@ -193,14 +281,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784779469000,
       "pub": "Thu, 23 Jul 2026 13:04:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미국 관세부터 EU 규제까지…코트라, 24일 통상환경 대응 설명회",
-      "link": "https://www.yna.co.kr/view/AKR20260723088900003",
-      "source": "연합뉴스 경제",
-      "ts": 1784773586000,
-      "pub": "Thu, 23 Jul 2026 11:26:26 +0900",
       "sentiment": "neutral"
     }
   ]

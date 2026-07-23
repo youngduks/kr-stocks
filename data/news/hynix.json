@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-23T21:55:05.981Z",
-  "count": 8,
+  "updated_at": "2026-07-23T22:44:49.898Z",
+  "count": 14,
   "items": [
+    {
+      "title": "李 대통령, 엔비디아·오픈AI CEO 만난다…7박 11일 순방길",
+      "link": "https://www.hankyung.com/article/2026072431057",
+      "source": "한국경제",
+      "ts": 1784843908000,
+      "pub": "Fri, 24 Jul 2026 06:58:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"빛 읽는 반도체로 바이오 미래 연다\"…암 조기진단 노리는 이곳",
+      "link": "https://www.mt.co.kr/future/2026/07/24/2026071816325696852",
+      "source": "머니투데이",
+      "ts": 1784836800000,
+      "pub": "Fri, 24 Jul 2026 05:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "엔비디아 GPU, 달 표면 밟는다…달탐사 로봇차량에 도입",
       "link": "https://www.yna.co.kr/view/AKR20260724005200091",
@@ -12,7 +28,39 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"현존 세계 최고\" 리사 수가 들고나온 엔비디아 대항마는? [AMD 어드밴싱 AI]",
+      "title": "메모리 확보 못하면 '투자' 물거품… 삼성·SK에 러브콜 러시",
+      "link": "https://www.mt.co.kr/industry/2026/07/24/2026072319545222953",
+      "source": "머니투데이",
+      "ts": 1784836620000,
+      "pub": "Fri, 24 Jul 2026 04:57:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'반도체·내수' 쌍끌이, 2분기 GDP 0.6% ↑",
+      "link": "https://www.mt.co.kr/economy/2026/07/24/2026072319474393772",
+      "source": "머니투데이",
+      "ts": 1784834160000,
+      "pub": "Fri, 24 Jul 2026 04:16:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'AI 설비투자 피크아웃'은 기우... 돈 쓰는 빅테크, K반도체 미소",
+      "link": "https://www.mt.co.kr/world/2026/07/24/2026072319453184419",
+      "source": "머니투데이",
+      "ts": 1784833380000,
+      "pub": "Fri, 24 Jul 2026 04:03:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "금리인상 페달 밟나…반도체 끌고 내수 밀어 '3%대 성장' 가시권",
+      "link": "https://www.mt.co.kr/economy/2026/07/24/2026072319330681106",
+      "source": "머니투데이",
+      "ts": 1784833200000,
+      "pub": "Fri, 24 Jul 2026 04:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"현존 세계 최고\"…리사 수가 들고나온 엔비디아 대항마는? [AMD 어드밴싱 AI]",
       "link": "https://www.hankyung.com/article/202607243021i",
       "source": "한국경제",
       "ts": 1784831461000,
@@ -20,12 +68,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[단독] 서울대·엔비디아, '피지컬AI 조인트 랩' 추진…아시아 권역 최초",
-      "link": "https://www.hankyung.com/article/202607232809i",
-      "source": "한국경제",
-      "ts": 1784829601000,
-      "pub": "Fri, 24 Jul 2026 03:00:01 +0900",
-      "sentiment": "positive"
+      "title": "中슈퍼컴, 9년만에 세계1위..韓반도체 경고음[투데이窓/박영선]",
+      "link": "https://www.mt.co.kr/opinion/2026/07/24/2026072309594024251",
+      "source": "머니투데이",
+      "ts": 1784826000000,
+      "pub": "Fri, 24 Jul 2026 02:00:00 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "삼성전자, CSS 사업팀 일부 인력 메모리사업부 등으로 재배치",

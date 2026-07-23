@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-23T10:57:36.353Z",
+  "updated_at": "2026-07-23T12:20:44.885Z",
   "count": 9,
   "items": [
+    {
+      "title": "최화정 \"삼전닉스 최고점에 팔았다\"...대박 난 근황",
+      "link": "https://www.mt.co.kr/entertainment/2026/07/23/2026072320095064274",
+      "source": "머니투데이",
+      "ts": 1784806311000,
+      "pub": "Thu, 23 Jul 2026 20:31:51 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "리벨리온, 'HBM 탑재 NPU서버'로 SKT AI모델 구동 성공",
       "link": "https://www.mt.co.kr/future/2026/07/23/2026072314241873264",
@@ -25,14 +33,6 @@
       "source": "한국경제",
       "ts": 1784798720000,
       "pub": "Thu, 23 Jul 2026 18:25:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 AI협의체 자문위, 이재용·정의선 합류",
-      "link": "https://www.hankyung.com/article/2026072326671",
-      "source": "한국경제",
-      "ts": 1784797567000,
-      "pub": "Thu, 23 Jul 2026 18:06:07 +0900",
       "sentiment": "neutral"
     },
     {

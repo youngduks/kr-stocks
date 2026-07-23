@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-23T16:25:59.697Z",
-  "count": 21,
+  "updated_at": "2026-07-23T18:05:55.559Z",
+  "count": 24,
   "items": [
+    {
+      "title": "통제 뚫은 AI해킹에 백악관도 주시…美하원서 '킬스위치법' 발의",
+      "link": "https://www.yna.co.kr/view/AKR20260724002800091",
+      "source": "연합뉴스 국제",
+      "ts": 1784829492000,
+      "pub": "Fri, 24 Jul 2026 02:58:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 사우디 핵협정 하루만에 \"이스라엘 관계정상화 조건부\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260723192951071",
+      "source": "연합뉴스 국제",
+      "ts": 1784825856000,
+      "pub": "Fri, 24 Jul 2026 01:57:36 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"이란에 대규모 공격 결정 임박…모든 준비 마쳤다\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260723192752071",
@@ -44,6 +60,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "트럼프 \"후티 반군, 유조선 또 공격하면 이란에 책임 물을 것\"",
+      "link": "https://www.mt.co.kr/world/2026/07/23/2026072321450724344",
+      "source": "머니투데이",
+      "ts": 1784811407000,
+      "pub": "Thu, 23 Jul 2026 21:56:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "트럼프 \"후티 반군, 또 선박 공격하면 이란에 책임 묻겠다\"",
       "link": "https://www.hankyung.com/article/2026072329577",
       "source": "한국경제",
@@ -57,6 +81,14 @@
       "source": "연합뉴스 국제",
       "ts": 1784809865000,
       "pub": "Thu, 23 Jul 2026 21:31:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"사우디 원자력 협정, 아브라함 협정 가입이 전제\"",
+      "link": "https://www.mt.co.kr/world/2026/07/23/2026072321202048979",
+      "source": "머니투데이",
+      "ts": 1784809746000,
+      "pub": "Thu, 23 Jul 2026 21:29:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -161,14 +193,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784773586000,
       "pub": "Thu, 23 Jul 2026 11:26:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 관세'로 불편한 이웃…미-캐나다 잇는 대교 개통식 취소",
-      "link": "https://www.yna.co.kr/view/AKR20260723065200009",
-      "source": "연합뉴스 국제",
-      "ts": 1784770178000,
-      "pub": "Thu, 23 Jul 2026 10:29:38 +0900",
       "sentiment": "neutral"
     }
   ]

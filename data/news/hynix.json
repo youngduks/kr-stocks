@@ -1,15 +1,63 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-23T01:43:40.611Z",
-  "count": 5,
+  "updated_at": "2026-07-23T05:13:42.171Z",
+  "count": 9,
   "items": [
     {
-      "title": "재생에너지만 쓰면 전기료 65% 뛴다는데…K반도체엔 부적격?",
-      "link": "https://www.hankyung.com/article/202607228749i",
-      "source": "한국경제",
-      "ts": 1784768403000,
-      "pub": "Thu, 23 Jul 2026 10:00:03 +0900",
+      "title": "익산시, 반도체·이차전지 투자유치 추진…제3산단 27만㎡ 공급",
+      "link": "https://www.yna.co.kr/view/AKR20260723114200055",
+      "source": "연합뉴스 경제",
+      "ts": 1784782809000,
+      "pub": "Thu, 23 Jul 2026 14:00:09 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "메모리값 급등에 글로벌 PC 시장 꺾였다…2분기 4% 감소",
+      "link": "https://www.yna.co.kr/view/AKR20260723106700017",
+      "source": "연합뉴스 경제",
+      "ts": 1784781084000,
+      "pub": "Thu, 23 Jul 2026 13:31:24 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "충주시, 반도체 핵심광물 생산 기업과 업무협약…생산시설 구축",
+      "link": "https://www.yna.co.kr/view/AKR20260723105800064",
+      "source": "연합뉴스 경제",
+      "ts": 1784780828000,
+      "pub": "Thu, 23 Jul 2026 13:27:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'주식 고수' 여경옥 셰프도 당했다…하이닉스 레버리지 '반토막'",
+      "link": "https://www.hankyung.com/article/202607231717H",
+      "source": "한국경제",
+      "ts": 1784780070000,
+      "pub": "Thu, 23 Jul 2026 13:14:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 쏠림 경고한 글로벌 펀드매니저…기술주 숏은 없었다",
+      "link": "https://www.hankyung.com/article/202607217814i",
+      "source": "한국경제",
+      "ts": 1784779205000,
+      "pub": "Thu, 23 Jul 2026 13:00:05 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "K-뷰티·반도체 호조…상반기 중기 수출 640억달러 '역대 최대'",
+      "link": "https://www.hankyung.com/article/2026072316897",
+      "source": "한국경제",
+      "ts": 1784778435000,
+      "pub": "Thu, 23 Jul 2026 12:47:15 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[오늘 이 종목] \"화장품 수출 호조부터 반도체·바이오 모멘텀까지… 핵심 주도주로 시장 대응\"",
+      "link": "https://www.mt.co.kr/stock/2026/07/23/2026072311257093128",
+      "source": "머니투데이",
+      "ts": 1784773860000,
+      "pub": "Thu, 23 Jul 2026 11:31:00 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 4% 안팎 상승",
@@ -20,28 +68,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "코스피, 2%대 상승…반도체주 일제히 반등",
-      "link": "https://www.hankyung.com/article/2026072309336",
-      "source": "한국경제",
-      "ts": 1784765618000,
-      "pub": "Thu, 23 Jul 2026 09:13:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "2분기 한국 경제 0.6% 성장…반도체 수출로 중동발 악재 상쇄",
       "link": "https://www.yna.co.kr/view/AKR20260723021100002",
       "source": "연합뉴스 경제",
       "ts": 1784761200000,
       "pub": "Thu, 23 Jul 2026 08:00:00 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "아직 불안한 반도체 투심…삼전닉스 6~9% 급등했다 '반납'(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260722067051008",
-      "source": "연합뉴스 경제",
-      "ts": 1784706689000,
-      "pub": "Wed, 22 Jul 2026 16:51:29 +0900",
-      "sentiment": "positive"
     }
   ]
 }

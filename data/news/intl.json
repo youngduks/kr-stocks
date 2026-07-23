@@ -1,8 +1,80 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-23T01:43:40.609Z",
-  "count": 17,
+  "updated_at": "2026-07-23T05:13:42.169Z",
+  "count": 19,
   "items": [
+    {
+      "title": "트럼프에 올라탄 GM…규제 완화 업고 실적 '잭팟'",
+      "link": "https://www.hankyung.com/article/202607231189i",
+      "source": "한국경제",
+      "ts": 1784781053000,
+      "pub": "Thu, 23 Jul 2026 13:30:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "무역위, 중국산 부틸 아크릴레이트에 최고 19.17% 반덤핑 관세",
+      "link": "https://www.yna.co.kr/view/AKR20260723097400003",
+      "source": "연합뉴스 경제",
+      "ts": 1784781001000,
+      "pub": "Thu, 23 Jul 2026 13:30:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中부틸 아크릴레이트 덤핑 인정…최대 19.17% 관세",
+      "link": "https://www.mt.co.kr/economy/2026/07/23/2026072310280098318",
+      "source": "머니투데이",
+      "ts": 1784781000000,
+      "pub": "Thu, 23 Jul 2026 13:30:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[쇼츠] 우크라, 러 최대 유통업체 물류창고 또 공격",
+      "link": "https://www.yna.co.kr/view/AKR20260723102900704",
+      "source": "연합뉴스 국제",
+      "ts": 1784779469000,
+      "pub": "Thu, 23 Jul 2026 13:04:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "국세청·관세청 공조 '빛났다'…고액·악성 체납자 16명, 13억원 징수·압류",
+      "link": "https://www.mt.co.kr/economy/2026/07/23/2026072309294398162",
+      "source": "머니투데이",
+      "ts": 1784775600000,
+      "pub": "Thu, 23 Jul 2026 12:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美폭격기 '중동 작전' 경계 태세…트럼프 '확전 카드' 추가",
+      "link": "https://www.yna.co.kr/view/AKR20260723071200009",
+      "source": "연합뉴스 국제",
+      "ts": 1784775493000,
+      "pub": "Thu, 23 Jul 2026 11:58:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 우크라, 러 최대 유통업체 물류창고 또 공격…난타전 점입가경",
+      "link": "https://www.yna.co.kr/view/AKR20260723094300704",
+      "source": "연합뉴스 국제",
+      "ts": 1784774934000,
+      "pub": "Thu, 23 Jul 2026 11:48:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "사우디 '숙원' 핵기술 보유국 성큼…빈살만, 트럼프 상대로 윈윈",
+      "link": "https://www.yna.co.kr/view/AKR20260723086600009",
+      "source": "연합뉴스 국제",
+      "ts": 1784773959000,
+      "pub": "Thu, 23 Jul 2026 11:32:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미국 관세부터 EU 규제까지…코트라, 24일 통상환경 대응 설명회",
+      "link": "https://www.yna.co.kr/view/AKR20260723088900003",
+      "source": "연합뉴스 경제",
+      "ts": 1784773586000,
+      "pub": "Thu, 23 Jul 2026 11:26:26 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'트럼프 관세'로 불편한 이웃…미-캐나다 잇는 대교 개통식 취소",
       "link": "https://www.yna.co.kr/view/AKR20260723065200009",
@@ -81,62 +153,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784725423000,
       "pub": "Wed, 22 Jul 2026 22:03:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, 우크라 '실전 검증' 드론보트 양산 착수…드론 협력 확대",
-      "link": "https://www.yna.co.kr/view/AKR20260722173300009",
-      "source": "연합뉴스 국제",
-      "ts": 1784718160000,
-      "pub": "Wed, 22 Jul 2026 20:02:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "레바논 총리, 이스라엘군 떠난 마을에 국기…\"완전 철수의 시작\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722170800079",
-      "source": "연합뉴스 국제",
-      "ts": 1784716061000,
-      "pub": "Wed, 22 Jul 2026 19:27:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"우크라 새 총사령관 정식 임명까지 한 달 걸릴수도\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722170600108",
-      "source": "연합뉴스 국제",
-      "ts": 1784715845000,
-      "pub": "Wed, 22 Jul 2026 19:24:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러 외무, 23일 필리핀서 美 국무와 회동…우크라 협상 재개될까",
-      "link": "https://www.yna.co.kr/view/AKR20260722166500108",
-      "source": "연합뉴스 국제",
-      "ts": 1784713419000,
-      "pub": "Wed, 22 Jul 2026 18:43:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "기업 물류창고까지 때리는 러·우크라…전쟁 속 유통망도 위협",
-      "link": "https://www.yna.co.kr/view/AKR20260722159300109",
-      "source": "연합뉴스 국제",
-      "ts": 1784711241000,
-      "pub": "Wed, 22 Jul 2026 18:07:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 차기 유엔 사무총장에 FIFA 회장 세우려 해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722156800009",
-      "source": "연합뉴스 국제",
-      "ts": 1784709776000,
-      "pub": "Wed, 22 Jul 2026 17:42:56 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "한미 관세당국, 마약 밀반입 차단까지 협력 범위 넓힌다",
-      "link": "https://www.yna.co.kr/view/AKR20260722143000002",
-      "source": "연합뉴스 경제",
-      "ts": 1784705933000,
-      "pub": "Wed, 22 Jul 2026 16:38:53 +0900",
       "sentiment": "neutral"
     }
   ]

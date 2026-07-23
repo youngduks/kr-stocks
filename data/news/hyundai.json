@@ -1,14 +1,22 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-23T01:43:40.611Z",
+  "updated_at": "2026-07-23T05:13:42.171Z",
   "count": 3,
   "items": [
     {
-      "title": "현대차·기아, 'UX 스튜디오 상하이' 개관",
-      "link": "https://www.hankyung.com/article/202607231175g",
+      "title": "[속보]현대차, 2분기 매출 49.2조 '역대 최대'…영업익 20.8%↓",
+      "link": "https://www.mt.co.kr/industry/2026/07/23/2026072313595029833",
+      "source": "머니투데이",
+      "ts": 1784782919000,
+      "pub": "Thu, 23 Jul 2026 14:01:59 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "초고수, 현대차·전력株 매수…삼전닉스 매도세 이어져",
+      "link": "https://www.hankyung.com/article/202607231388i",
       "source": "한국경제",
-      "ts": 1784768504000,
-      "pub": "Thu, 23 Jul 2026 10:01:44 +0900",
+      "ts": 1784772260000,
+      "pub": "Thu, 23 Jul 2026 11:04:20 +0900",
       "sentiment": "neutral"
     },
     {
@@ -17,14 +25,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784766691000,
       "pub": "Thu, 23 Jul 2026 09:31:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "김재준 시장 \"현대차 9조 투자 뒷받침할 국가예산 반영해달라\"",
-      "link": "https://www.yna.co.kr/view/AKR20260722136900055",
-      "source": "연합뉴스 경제",
-      "ts": 1784704203000,
-      "pub": "Wed, 22 Jul 2026 16:10:03 +0900",
       "sentiment": "neutral"
     }
   ]

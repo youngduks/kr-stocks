@@ -1,22 +1,70 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-23T01:43:40.610Z",
-  "count": 8,
+  "updated_at": "2026-07-23T05:13:42.170Z",
+  "count": 11,
   "items": [
+    {
+      "title": "메모리값 급등에 글로벌 PC 시장 꺾였다…2분기 4% 감소",
+      "link": "https://www.yna.co.kr/view/AKR20260723106700017",
+      "source": "연합뉴스 경제",
+      "ts": 1784781084000,
+      "pub": "Thu, 23 Jul 2026 13:31:24 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[써보니] 갤럭시 Z 폴드8…화면비 변화가 가장 먼저 눈길",
+      "link": "https://www.yna.co.kr/view/AKR20260723095700017",
+      "source": "연합뉴스 경제",
+      "ts": 1784775204000,
+      "pub": "Thu, 23 Jul 2026 11:53:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[쇼츠] 갤럭시 언팩에 런던 '들썩들썩'…직접 현장 돌아보니",
+      "link": "https://www.yna.co.kr/view/AKR20260723094200704",
+      "source": "연합뉴스 국제",
+      "ts": 1784775034000,
+      "pub": "Thu, 23 Jul 2026 11:50:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "머스크 \"삼성 땡큐, AI5 내년 중반 양산\"…파운드리 기대 커진다",
+      "link": "https://www.mt.co.kr/industry/2026/07/23/2026072310564055473",
+      "source": "머니투데이",
+      "ts": 1784774640000,
+      "pub": "Thu, 23 Jul 2026 11:44:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "초고수, 현대차·전력株 매수…삼전닉스 매도세 이어져",
+      "link": "https://www.hankyung.com/article/202607231388i",
+      "source": "한국경제",
+      "ts": 1784772260000,
+      "pub": "Thu, 23 Jul 2026 11:04:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"손목만 들어도 AI 등장\"…갤럭시에 올라탄 구글 '신기술'",
+      "link": "https://www.hankyung.com/article/202607231413g",
+      "source": "한국경제",
+      "ts": 1784771635000,
+      "pub": "Thu, 23 Jul 2026 10:53:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "구글 실적 뜯어본 증권가…\"삼전닉스, 피크아웃 우려 덜었다\"",
+      "link": "https://www.hankyung.com/article/202607220164i",
+      "source": "한국경제",
+      "ts": 1784770217000,
+      "pub": "Thu, 23 Jul 2026 10:30:17 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 4% 안팎 상승",
       "link": "https://www.yna.co.kr/view/AKR20260723056100008",
       "source": "연합뉴스 경제",
       "ts": 1784768163000,
       "pub": "Thu, 23 Jul 2026 09:56:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "알파벳 \"내년 자본지출 '상당히' 더 클 것\"…삼전닉스 장 초반 '강세'",
-      "link": "https://www.hankyung.com/article/2026072309296",
-      "source": "한국경제",
-      "ts": 1784765905000,
-      "pub": "Thu, 23 Jul 2026 09:18:25 +0900",
       "sentiment": "neutral"
     },
     {
@@ -42,30 +90,6 @@
       "ts": 1784725202000,
       "pub": "Wed, 22 Jul 2026 22:00:02 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "아직 불안한 반도체 투심…삼전닉스 6~9% 급등했다 '반납'(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260722067051008",
-      "source": "연합뉴스 경제",
-      "ts": 1784706689000,
-      "pub": "Wed, 22 Jul 2026 16:51:29 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "삼전닉스 급등했다가 보합권 마감…0.58%↑·0.33%↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260722041051008",
-      "source": "연합뉴스 경제",
-      "ts": 1784704711000,
-      "pub": "Wed, 22 Jul 2026 16:18:31 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[특징주] 로봇주, 삼성전자 로봇사업 강화 소식에 급등 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260722044851008",
-      "source": "연합뉴스 경제",
-      "ts": 1784702262000,
-      "pub": "Wed, 22 Jul 2026 15:37:42 +0900",
-      "sentiment": "positive"
     }
   ]
 }

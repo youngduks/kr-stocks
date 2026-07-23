@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-23T14:59:33.657Z",
-  "count": 22,
+  "updated_at": "2026-07-23T16:25:59.697Z",
+  "count": 21,
   "items": [
+    {
+      "title": "트럼프 \"이란에 대규모 공격 결정 임박…모든 준비 마쳤다\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260723192752071",
+      "source": "연합뉴스 국제",
+      "ts": 1784823408000,
+      "pub": "Fri, 24 Jul 2026 01:16:48 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "젤렌스키 \"러, 우크라 흑해 곡물 수출 무력화 노려\"",
       "link": "https://www.yna.co.kr/view/AKR20260723197200109",
@@ -36,14 +44,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"후티 반군, 유조선 또 공격하면 이란에 책임 물을 것\"",
-      "link": "https://www.mt.co.kr/world/2026/07/23/2026072321450724344",
-      "source": "머니투데이",
-      "ts": 1784811407000,
-      "pub": "Thu, 23 Jul 2026 21:56:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"후티 반군, 또 선박 공격하면 이란에 책임 묻겠다\"",
       "link": "https://www.hankyung.com/article/2026072329577",
       "source": "한국경제",
@@ -57,14 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784809865000,
       "pub": "Thu, 23 Jul 2026 21:31:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"사우디 원자력 협정, 아브라함 협정 가입이 전제\"",
-      "link": "https://www.mt.co.kr/world/2026/07/23/2026072321202048979",
-      "source": "머니투데이",
-      "ts": 1784809746000,
-      "pub": "Thu, 23 Jul 2026 21:29:06 +0900",
       "sentiment": "neutral"
     },
     {

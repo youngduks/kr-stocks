@@ -1,8 +1,64 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-23T22:44:49.897Z",
-  "count": 35,
+  "updated_at": "2026-07-23T23:48:08.674Z",
+  "count": 41,
   "items": [
+    {
+      "title": "靑, '美 301조 관세' 부과에 \"최종 15% 지켜지도록 긴밀 협의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724026600001",
+      "source": "연합뉴스 경제",
+      "ts": 1784850245000,
+      "pub": "Fri, 24 Jul 2026 08:44:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 정보당국 \"이란, 외국인 포섭해 고위층 암살 노렸다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724028300009",
+      "source": "연합뉴스 국제",
+      "ts": 1784849897000,
+      "pub": "Fri, 24 Jul 2026 08:38:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 시진핑 9월24일 방미 공식화…\"AI 논의할 것\"",
+      "link": "https://www.mt.co.kr/world/2026/07/24/2026072407412946601",
+      "source": "머니투데이",
+      "ts": 1784848306000,
+      "pub": "Fri, 24 Jul 2026 08:11:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "캐나다 총리, 美 '50% 관세'에 \"합의 안 되면 모든 조치 검토\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724023400072",
+      "source": "연합뉴스 국제",
+      "ts": 1784848268000,
+      "pub": "Fri, 24 Jul 2026 08:11:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 靑 \"한미 관세합의 준수 공감대…15% 관세 지켜지도록 긴밀 협의\"",
+      "link": "https://www.hankyung.com/article/2026072432017",
+      "source": "한국경제",
+      "ts": 1784847354000,
+      "pub": "Fri, 24 Jul 2026 07:55:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "NYT \"사우디는 되고 한국은 안되나…트럼프의 핵 이중잣대\" 지적",
+      "link": "https://www.hankyung.com/article/2026072431727",
+      "source": "한국경제",
+      "ts": 1784846812000,
+      "pub": "Fri, 24 Jul 2026 07:46:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'트럼프 SNS' 1.5억에 빨리 본다…월가 HFT 5곳 전격 계약",
+      "link": "https://www.hankyung.com/article/202607243132H",
+      "source": "한국경제",
+      "ts": 1784846776000,
+      "pub": "Fri, 24 Jul 2026 07:46:16 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美, '301조 강제노동 관세' 60개국에 부과…한국 12.5%(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260724010053071",
@@ -12,7 +68,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "글로벌 관세 10%→강제노동 관세 12.5%…트럼프 빌드업 '착착' [이상은의 워싱턴나우]",
+      "title": "글로벌 10%→강제노동 12.5%…트럼프 관세 빌드업 '착착' [이상은의 워싱턴나우]",
       "link": "https://www.hankyung.com/article/202607243089i",
       "source": "한국경제",
       "ts": 1784843325000,
@@ -273,14 +329,6 @@
       "source": "연합뉴스 경제",
       "ts": 1784781001000,
       "pub": "Thu, 23 Jul 2026 13:30:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] 우크라, 러 최대 유통업체 물류창고 또 공격",
-      "link": "https://www.yna.co.kr/view/AKR20260723102900704",
-      "source": "연합뉴스 국제",
-      "ts": 1784779469000,
-      "pub": "Thu, 23 Jul 2026 13:04:29 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-23T22:44:49.898Z",
-  "count": 14,
+  "updated_at": "2026-07-23T23:48:08.676Z",
+  "count": 15,
   "items": [
+    {
+      "title": "애플의 아이폰 판매 전략 대전환…\"삼성전자·하이닉스 수혜\"",
+      "link": "https://www.hankyung.com/article/2026072431936",
+      "source": "한국경제",
+      "ts": 1784847608000,
+      "pub": "Fri, 24 Jul 2026 08:00:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성E&A, 삼성전자 반도체 증설 매년 7조원 전망…목표가 11%↑",
+      "link": "https://www.mt.co.kr/stock/2026/07/24/2026072407561211468",
+      "source": "머니투데이",
+      "ts": 1784847438000,
+      "pub": "Fri, 24 Jul 2026 07:57:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"알바비로 삼전닉스 샀다\"…Z세대 구직자 42% '반도체 투자'",
+      "link": "https://www.hankyung.com/article/202607243167g",
+      "source": "한국경제",
+      "ts": 1784846492000,
+      "pub": "Fri, 24 Jul 2026 07:41:32 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "李 대통령, 엔비디아·오픈AI CEO 만난다…7박 11일 순방길",
       "link": "https://www.hankyung.com/article/2026072431057",
@@ -52,28 +76,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "금리인상 페달 밟나…반도체 끌고 내수 밀어 '3%대 성장' 가시권",
-      "link": "https://www.mt.co.kr/economy/2026/07/24/2026072319330681106",
-      "source": "머니투데이",
-      "ts": 1784833200000,
-      "pub": "Fri, 24 Jul 2026 04:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"현존 세계 최고\"…리사 수가 들고나온 엔비디아 대항마는? [AMD 어드밴싱 AI]",
       "link": "https://www.hankyung.com/article/202607243021i",
       "source": "한국경제",
       "ts": 1784831461000,
       "pub": "Fri, 24 Jul 2026 03:31:01 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "中슈퍼컴, 9년만에 세계1위..韓반도체 경고음[투데이窓/박영선]",
-      "link": "https://www.mt.co.kr/opinion/2026/07/24/2026072309594024251",
-      "source": "머니투데이",
-      "ts": 1784826000000,
-      "pub": "Fri, 24 Jul 2026 02:00:00 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "삼성전자, CSS 사업팀 일부 인력 메모리사업부 등으로 재배치",

@@ -1,22 +1,46 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-23T22:44:49.898Z",
-  "count": 6,
+  "updated_at": "2026-07-23T23:48:08.675Z",
+  "count": 8,
   "items": [
+    {
+      "title": "31일부터 삼전닉스 레버리지 예탁금 '3000만원'으로…시행일 앞당겼다",
+      "link": "https://www.mt.co.kr/stock/2026/07/24/2026072408200284959",
+      "source": "머니투데이",
+      "ts": 1784849751000,
+      "pub": "Fri, 24 Jul 2026 08:35:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "애플의 아이폰 판매 전략 대전환…\"삼성전자·하이닉스 수혜\"",
+      "link": "https://www.hankyung.com/article/2026072431936",
+      "source": "한국경제",
+      "ts": 1784847608000,
+      "pub": "Fri, 24 Jul 2026 08:00:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성E&A, 삼성전자 반도체 증설 매년 7조원 전망…목표가 11%↑",
+      "link": "https://www.mt.co.kr/stock/2026/07/24/2026072407561211468",
+      "source": "머니투데이",
+      "ts": 1784847438000,
+      "pub": "Fri, 24 Jul 2026 07:57:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"알바비로 삼전닉스 샀다\"…Z세대 구직자 42% '반도체 투자'",
+      "link": "https://www.hankyung.com/article/202607243167g",
+      "source": "한국경제",
+      "ts": 1784846492000,
+      "pub": "Fri, 24 Jul 2026 07:41:32 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "메모리 확보 못하면 '투자' 물거품… 삼성·SK에 러브콜 러시",
       "link": "https://www.mt.co.kr/industry/2026/07/24/2026072319545222953",
       "source": "머니투데이",
       "ts": 1784836620000,
       "pub": "Fri, 24 Jul 2026 04:57:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "곽범 \"삼성전자 6만원일 때 1억 넣었다\"…수익률은?",
-      "link": "https://www.hankyung.com/article/2026072327997",
-      "source": "한국경제",
-      "ts": 1784800598000,
-      "pub": "Thu, 23 Jul 2026 18:56:38 +0900",
       "sentiment": "neutral"
     },
     {
@@ -42,14 +66,6 @@
       "ts": 1784781084000,
       "pub": "Thu, 23 Jul 2026 13:31:24 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "[써보니] 갤럭시 Z 폴드8…화면비 변화가 가장 먼저 눈길",
-      "link": "https://www.yna.co.kr/view/AKR20260723095700017",
-      "source": "연합뉴스 경제",
-      "ts": 1784775204000,
-      "pub": "Thu, 23 Jul 2026 11:53:24 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

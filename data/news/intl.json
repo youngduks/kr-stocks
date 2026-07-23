@@ -1,14 +1,38 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-23T08:08:24.724Z",
-  "count": 16,
+  "updated_at": "2026-07-23T10:57:36.352Z",
+  "count": 15,
   "items": [
     {
-      "title": "정동영 \"9월 미중 회담·11월 中 선전 APEC…북미 대화, 관건적 시기\"",
-      "link": "https://www.mt.co.kr/politics/2026/07/23/2026072316085172246",
-      "source": "머니투데이",
-      "ts": 1784792747000,
-      "pub": "Thu, 23 Jul 2026 16:45:47 +0900",
+      "title": "\"B-1 폭격기도 재투입\"…트럼프, 이란 '확전카드' 추가(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260723071251009",
+      "source": "연합뉴스 국제",
+      "ts": 1784800037000,
+      "pub": "Thu, 23 Jul 2026 18:47:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中상무부 \"미중, '관세 인하' 의견 수렴 중…조속 시행\"",
+      "link": "https://www.yna.co.kr/view/AKR20260723177100089",
+      "source": "연합뉴스 국제",
+      "ts": 1784798371000,
+      "pub": "Thu, 23 Jul 2026 18:19:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중국車 막고, 전기차 지원 끊고…트럼프가 밀어준 GM 깜짝실적",
+      "link": "https://www.hankyung.com/article/2026072327291",
+      "source": "한국경제",
+      "ts": 1784797491000,
+      "pub": "Thu, 23 Jul 2026 18:04:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"그리스, 6조원 규모 이스라엘 방공시스템 구매키로\"",
+      "link": "https://www.yna.co.kr/view/AKR20260723172200109",
+      "source": "연합뉴스 국제",
+      "ts": 1784795976000,
+      "pub": "Thu, 23 Jul 2026 17:39:36 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,19 +52,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 301조 관세 발표 초읽기…정부, 15% 상한선에 촉각",
+      "title": "미국 301조 관세 발표 임박…정부, 종전 15% 관세율 사수 총력",
       "link": "https://www.yna.co.kr/view/AKR20260723139100003",
       "source": "연합뉴스 경제",
       "ts": 1784789027000,
       "pub": "Thu, 23 Jul 2026 15:43:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "매파 연준·중동 리스크...AI 수혜 기대되는 우량기업 분할 매수 해야",
-      "link": "https://www.hankyung.com/article/202607229444i",
-      "source": "한국경제",
-      "ts": 1784788598000,
-      "pub": "Thu, 23 Jul 2026 15:36:38 +0900",
       "sentiment": "neutral"
     },
     {
@@ -105,30 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784758137000,
       "pub": "Thu, 23 Jul 2026 07:08:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美USTR 대표 \"무역법 301조 '강제노동 관세' 이르면 내일 발표\"",
-      "link": "https://www.yna.co.kr/view/AKR20260723008000071",
-      "source": "연합뉴스 국제",
-      "ts": 1784751600000,
-      "pub": "Thu, 23 Jul 2026 05:20:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"美, 이스라엘에 '며칠 내 폭격기 동원 곡괭이산 폭격' 통보\"",
-      "link": "https://www.yna.co.kr/view/AKR20260723006300079",
-      "source": "연합뉴스 국제",
-      "ts": 1784748239000,
-      "pub": "Thu, 23 Jul 2026 04:23:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美애리조나 공화당 경선서 '親트럼프' 부정선거론자 3명 승리",
-      "link": "https://www.yna.co.kr/view/AKR20260723004000075",
-      "source": "연합뉴스 국제",
-      "ts": 1784743843000,
-      "pub": "Thu, 23 Jul 2026 03:10:43 +0900",
       "sentiment": "neutral"
     }
   ]

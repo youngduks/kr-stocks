@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-23T18:05:55.559Z",
-  "count": 24,
+  "updated_at": "2026-07-23T20:06:45.420Z",
+  "count": 23,
   "items": [
+    {
+      "title": "NYT \"사우디 핵협정, 한국엔 이중잣대\"…트럼프 행정부 비판",
+      "link": "https://www.yna.co.kr/view/AKR20260724004200072",
+      "source": "연합뉴스 국제",
+      "ts": 1784834567000,
+      "pub": "Fri, 24 Jul 2026 04:22:47 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "통제 뚫은 AI해킹에 백악관도 주시…美하원서 '킬스위치법' 발의",
       "link": "https://www.yna.co.kr/view/AKR20260724002800091",
@@ -60,14 +68,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"후티 반군, 유조선 또 공격하면 이란에 책임 물을 것\"",
-      "link": "https://www.mt.co.kr/world/2026/07/23/2026072321450724344",
-      "source": "머니투데이",
-      "ts": 1784811407000,
-      "pub": "Thu, 23 Jul 2026 21:56:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"후티 반군, 또 선박 공격하면 이란에 책임 묻겠다\"",
       "link": "https://www.hankyung.com/article/2026072329577",
       "source": "한국경제",
@@ -81,14 +81,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784809865000,
       "pub": "Thu, 23 Jul 2026 21:31:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"사우디 원자력 협정, 아브라함 협정 가입이 전제\"",
-      "link": "https://www.mt.co.kr/world/2026/07/23/2026072321202048979",
-      "source": "머니투데이",
-      "ts": 1784809746000,
-      "pub": "Thu, 23 Jul 2026 21:29:06 +0900",
       "sentiment": "neutral"
     },
     {

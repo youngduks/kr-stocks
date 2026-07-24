@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-24T14:42:33.612Z",
-  "count": 28,
+  "updated_at": "2026-07-24T18:09:20.945Z",
+  "count": 30,
   "items": [
+    {
+      "title": "트럼프 \"EU '美기업 약탈'에 301조 관세…큰 대가 치르게 될 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260725001951071",
+      "source": "연합뉴스 국제",
+      "ts": 1784914190000,
+      "pub": "Sat, 25 Jul 2026 02:29:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프, EU 구글 과징금에 '무역법 301조 관세' 위협",
+      "link": "https://www.yna.co.kr/view/AKR20260725001900071",
+      "source": "연합뉴스 국제",
+      "ts": 1784913138000,
+      "pub": "Sat, 25 Jul 2026 02:12:18 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'총격 파행' 백악관기자단 만찬 오늘 재개…트럼프, 보안강화 속 참석",
+      "link": "https://www.yna.co.kr/view/AKR20260725001400071",
+      "source": "연합뉴스 국제",
+      "ts": 1784911141000,
+      "pub": "Sat, 25 Jul 2026 01:39:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"물가 안정되나 했는데…\" 트럼프 새 관세, 美경제도 위협",
+      "link": "https://www.yna.co.kr/view/AKR20260725000300072",
+      "source": "연합뉴스 국제",
+      "ts": 1784907084000,
+      "pub": "Sat, 25 Jul 2026 00:31:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 총리실 \"네타냐후, 28일 워싱턴서 트럼프와 회담\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724181800079",
+      "source": "연합뉴스 국제",
+      "ts": 1784905194000,
+      "pub": "Fri, 24 Jul 2026 23:59:54 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "끝없는 이란전에 인내심 잃은 트럼프…WSJ \"외교 대신 복수모드\"",
       "link": "https://www.yna.co.kr/view/AKR20260724180800071",
@@ -201,30 +241,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784850819000,
       "pub": "Fri, 24 Jul 2026 08:53:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘 정보당국 \"이란, 외국인 포섭해 고위층 암살 노렸다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260724028300009",
-      "source": "연합뉴스 국제",
-      "ts": 1784849897000,
-      "pub": "Fri, 24 Jul 2026 08:38:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "캐나다 총리, 美 '50% 관세'에 \"합의 안 되면 모든 조치 검토\"",
-      "link": "https://www.yna.co.kr/view/AKR20260724023400072",
-      "source": "연합뉴스 국제",
-      "ts": 1784848268000,
-      "pub": "Fri, 24 Jul 2026 08:11:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, '301조 강제노동 관세' 60개국에 부과…한국 12.5%(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260724010053071",
-      "source": "연합뉴스 국제",
-      "ts": 1784846194000,
-      "pub": "Fri, 24 Jul 2026 07:36:34 +0900",
       "sentiment": "neutral"
     }
   ]

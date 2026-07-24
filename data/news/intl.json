@@ -1,30 +1,22 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-24T10:05:23.564Z",
-  "count": 31,
+  "updated_at": "2026-07-24T12:10:55.472Z",
+  "count": 29,
   "items": [
+    {
+      "title": "우크라 찾은 美극우 인플루언서…돌연 과거 친러발언 반성문",
+      "link": "https://www.yna.co.kr/view/AKR20260724167000109",
+      "source": "연합뉴스 국제",
+      "ts": 1784887307000,
+      "pub": "Fri, 24 Jul 2026 19:01:47 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "러 물류 옥죄는 우크라…1,350㎞ 밖 석유시설에도 포화",
       "link": "https://www.yna.co.kr/view/AKR20260724160900109",
       "source": "연합뉴스 국제",
       "ts": 1784885538000,
       "pub": "Fri, 24 Jul 2026 18:32:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 \"강제노동 상품 수입금지 미흡\"…韓에 12.5% 관세",
-      "link": "https://www.hankyung.com/article/2026072449961",
-      "source": "한국경제",
-      "ts": 1784883747000,
-      "pub": "Fri, 24 Jul 2026 18:02:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "고율 관세에도…中 BYD, 유럽서 테슬라 추월",
-      "link": "https://www.hankyung.com/article/2026072449761",
-      "source": "한국경제",
-      "ts": 1784883619000,
-      "pub": "Fri, 24 Jul 2026 18:00:19 +0900",
       "sentiment": "neutral"
     },
     {
@@ -241,14 +233,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784837499000,
       "pub": "Fri, 24 Jul 2026 05:11:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "NYT \"사우디 핵협정, 한국엔 이중잣대\"…트럼프 행정부 비판",
-      "link": "https://www.yna.co.kr/view/AKR20260724004200072",
-      "source": "연합뉴스 국제",
-      "ts": 1784834567000,
-      "pub": "Fri, 24 Jul 2026 04:22:47 +0900",
       "sentiment": "neutral"
     }
   ]

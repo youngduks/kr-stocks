@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-24T10:05:23.565Z",
-  "count": 4,
+  "updated_at": "2026-07-24T12:10:55.473Z",
+  "count": 6,
   "items": [
+    {
+      "title": "삼성전자 환급 덕에 '1위' 등극…수요 폭발한 '뜻밖의 회사'",
+      "link": "https://www.hankyung.com/article/2026072449301",
+      "source": "한국경제",
+      "ts": 1784887209000,
+      "pub": "Fri, 24 Jul 2026 19:00:09 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "삼성전자, 런던 코벤트 가든서 '갤럭시 익스피리언스' 팝업스토어 운영",
+      "link": "https://www.mt.co.kr/tech/2026/07/24/2026072418412498410",
+      "source": "머니투데이",
+      "ts": 1784886686000,
+      "pub": "Fri, 24 Jul 2026 18:51:26 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼전·닉스, 7∼8%대 급락…외국인·기관 모두 던졌다(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260724046151008",

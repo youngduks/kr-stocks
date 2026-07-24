@@ -1,14 +1,62 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-24T21:53:52.915Z",
-  "count": 1,
+  "updated_at": "2026-07-24T22:51:24.325Z",
+  "count": 7,
   "items": [
+    {
+      "title": "반도체로 번 돈 어디로…하반기 성장, '내수 낙수효과'에 달렸다",
+      "link": "https://www.mt.co.kr/economy/2026/07/25/2026072415514080431",
+      "source": "머니투데이",
+      "ts": 1784930400000,
+      "pub": "Sat, 25 Jul 2026 07:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李 대통령 만난 앤트로픽 CEO \"韓 메모리 제조사와 협력\"",
+      "link": "https://www.hankyung.com/article/202607255272i",
+      "source": "한국경제",
+      "ts": 1784930329000,
+      "pub": "Sat, 25 Jul 2026 06:58:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 유가 하락에도 반도체 약세에 혼조…나스닥 0.6%↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260725005651072",
+      "source": "연합뉴스 국제",
+      "ts": 1784927343000,
+      "pub": "Sat, 25 Jul 2026 06:09:03 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "유가 하락에도 반도체 털어낸 시장…\"금리·실적부터 보자\"[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/07/25/2026072505495617727",
+      "source": "머니투데이",
+      "ts": 1784926394000,
+      "pub": "Sat, 25 Jul 2026 05:53:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 유가 하락에도 반도체 약세에 혼조…나스닥 0.6%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260725005600072",
+      "source": "연합뉴스 국제",
+      "ts": 1784924681000,
+      "pub": "Sat, 25 Jul 2026 05:24:41 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "\"반도체 세수, 잘 써야 한다\"…미래대응기금 띄운 김용범",
       "link": "https://www.hankyung.com/article/2026072451607",
       "source": "한국경제",
       "ts": 1784893077000,
       "pub": "Fri, 24 Jul 2026 20:37:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'국산칩 거부는 반역'…中, 美 AI 반도체 추격 총력전",
+      "link": "https://www.yna.co.kr/view/AKR20260724146500009",
+      "source": "연합뉴스 국제",
+      "ts": 1784880897000,
+      "pub": "Fri, 24 Jul 2026 17:14:57 +0900",
       "sentiment": "neutral"
     }
   ]

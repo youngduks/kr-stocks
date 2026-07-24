@@ -1,14 +1,230 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-24T21:53:52.913Z",
-  "count": 1,
+  "updated_at": "2026-07-24T22:51:24.324Z",
+  "count": 28,
   "items": [
+    {
+      "title": "트럼프, 스미소니언 미국사박물관에 \"전시 정정 안내판 설치\"",
+      "link": "https://www.yna.co.kr/view/AKR20260725010100071",
+      "source": "연합뉴스 국제",
+      "ts": 1784930670000,
+      "pub": "Sat, 25 Jul 2026 07:04:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"우리에겐 다양한 형태 관세 있어…관세덕에 투자 유치\"",
+      "link": "https://www.yna.co.kr/view/AKR20260725007600071",
+      "source": "연합뉴스 국제",
+      "ts": 1784928037000,
+      "pub": "Sat, 25 Jul 2026 06:20:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 진지하게 대화중…즉시 행동할 준비도 돼있어\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260725002551071",
+      "source": "연합뉴스 국제",
+      "ts": 1784926718000,
+      "pub": "Sat, 25 Jul 2026 05:58:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 중소기업 2곳 \"301조 강제노동 관세는 위법\" 제소",
+      "link": "https://www.yna.co.kr/view/AKR20260725003900072",
+      "source": "연합뉴스 국제",
+      "ts": 1784921807000,
+      "pub": "Sat, 25 Jul 2026 04:36:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"EU '美기업 약탈'에 301조 관세…큰 대가 치르게 될 것\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260725001952071",
+      "source": "연합뉴스 국제",
+      "ts": 1784920259000,
+      "pub": "Sat, 25 Jul 2026 04:10:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"중·러, '이란에 무기판매' 관여하면 나쁜 일 될 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260725002500071",
+      "source": "연합뉴스 국제",
+      "ts": 1784918906000,
+      "pub": "Sat, 25 Jul 2026 03:48:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 구글 때린 EU에 보복관세 예고…'쿠팡도 문제 삼을라' 우려",
+      "link": "https://www.mt.co.kr/world/2026/07/25/2026072503435824053",
+      "source": "머니투데이",
+      "ts": 1784918871000,
+      "pub": "Sat, 25 Jul 2026 03:47:51 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프 \"EU '美기업 약탈'에 301조 관세…큰 대가 치르게 될 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260725001951071",
+      "source": "연합뉴스 국제",
+      "ts": 1784914190000,
+      "pub": "Sat, 25 Jul 2026 02:29:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프, EU 구글 과징금에 '무역법 301조 관세' 위협",
+      "link": "https://www.yna.co.kr/view/AKR20260725001900071",
+      "source": "연합뉴스 국제",
+      "ts": 1784913138000,
+      "pub": "Sat, 25 Jul 2026 02:12:18 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'총격 파행' 백악관기자단 만찬 오늘 재개…트럼프, 보안강화 속 참석",
+      "link": "https://www.yna.co.kr/view/AKR20260725001400071",
+      "source": "연합뉴스 국제",
+      "ts": 1784911141000,
+      "pub": "Sat, 25 Jul 2026 01:39:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"물가 안정되나 했는데…\" 트럼프 새 관세, 美경제도 위협",
+      "link": "https://www.yna.co.kr/view/AKR20260725000300072",
+      "source": "연합뉴스 국제",
+      "ts": 1784907084000,
+      "pub": "Sat, 25 Jul 2026 00:31:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 총리실 \"네타냐후, 28일 워싱턴서 트럼프와 회담\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724181800079",
+      "source": "연합뉴스 국제",
+      "ts": 1784905194000,
+      "pub": "Fri, 24 Jul 2026 23:59:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "끝없는 이란전에 인내심 잃은 트럼프…WSJ \"외교 대신 복수모드\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724180800071",
+      "source": "연합뉴스 국제",
+      "ts": 1784903502000,
+      "pub": "Fri, 24 Jul 2026 23:31:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 내주 미국 방문하는 젤렌스키와 회담\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724180500071",
+      "source": "연합뉴스 국제",
+      "ts": 1784902813000,
+      "pub": "Fri, 24 Jul 2026 23:20:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키, 美레이시온과 패트리엇 공동 생산 논의",
+      "link": "https://www.yna.co.kr/view/AKR20260724177400109",
+      "source": "연합뉴스 국제",
+      "ts": 1784897342000,
+      "pub": "Fri, 24 Jul 2026 21:49:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"젊어지고 싶으면 맞아라\"…트럼프 '이 주사'에 집착하는 이유",
       "link": "https://www.hankyung.com/article/2026072449281",
       "source": "한국경제",
       "ts": 1784894403000,
       "pub": "Fri, 24 Jul 2026 21:00:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 찾은 美극우 인플루언서…돌연 과거 친러발언 반성문",
+      "link": "https://www.yna.co.kr/view/AKR20260724167000109",
+      "source": "연합뉴스 국제",
+      "ts": 1784887307000,
+      "pub": "Fri, 24 Jul 2026 19:01:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러 물류 옥죄는 우크라…1,350㎞ 밖 석유시설에도 포화",
+      "link": "https://www.yna.co.kr/view/AKR20260724160900109",
+      "source": "연합뉴스 국제",
+      "ts": 1784885538000,
+      "pub": "Fri, 24 Jul 2026 18:32:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "유럽, 美 강제노동 관세에 일단 안도…\"기존 무역합의와 부합\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724152300098",
+      "source": "연합뉴스 국제",
+      "ts": 1784882428000,
+      "pub": "Fri, 24 Jul 2026 17:40:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中, '美 강제노동관세' 부과에 \"관세전쟁 누구에게도 이익 안돼\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724148600083",
+      "source": "연합뉴스 국제",
+      "ts": 1784880466000,
+      "pub": "Fri, 24 Jul 2026 17:07:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "아태 국가들 \"美 강제노동 관세는 부당…근거 없다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724134100084",
+      "source": "연합뉴스 국제",
+      "ts": 1784877125000,
+      "pub": "Fri, 24 Jul 2026 16:12:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] '도살자'에 밀려난 우크라 드론 영웅의 놀라운 반격",
+      "link": "https://www.yna.co.kr/view/AKR20260724131900797",
+      "source": "연합뉴스 국제",
+      "ts": 1784876466000,
+      "pub": "Fri, 24 Jul 2026 16:01:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] '드론장관 해임' 역풍 맞은 젤렌스키…우크라 군 총사령관 교체",
+      "link": "https://www.yna.co.kr/view/AKR20260724126100704",
+      "source": "연합뉴스 국제",
+      "ts": 1784875782000,
+      "pub": "Fri, 24 Jul 2026 15:49:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 이라크 중재 거쳐 휴전 제안…이란 거부해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724123900009",
+      "source": "연합뉴스 국제",
+      "ts": 1784875078000,
+      "pub": "Fri, 24 Jul 2026 15:37:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 공중전서 격추된 러 주력 Su-35…\"우크라 F-16이 격추\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724089900704",
+      "source": "연합뉴스 국제",
+      "ts": 1784867671000,
+      "pub": "Fri, 24 Jul 2026 13:34:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "日, 한국·중국산 철강재 '덤핑' 잠정 결론…관세 부과 검토",
+      "link": "https://www.yna.co.kr/view/AKR20260724088600073",
+      "source": "연합뉴스 국제",
+      "ts": 1784867001000,
+      "pub": "Fri, 24 Jul 2026 13:23:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "日, 美 '강제노동 관세' 부과에 \"유감\"…추가인상 여부 주목",
+      "link": "https://www.yna.co.kr/view/AKR20260724085500073",
+      "source": "연합뉴스 국제",
+      "ts": 1784863443000,
+      "pub": "Fri, 24 Jul 2026 12:24:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 차남 투자 스타트업, AMD와 휴머노이드 공동 개발",
+      "link": "https://www.yna.co.kr/view/AKR20260724067700009",
+      "source": "연합뉴스 국제",
+      "ts": 1784857653000,
+      "pub": "Fri, 24 Jul 2026 10:47:33 +0900",
       "sentiment": "neutral"
     }
   ]

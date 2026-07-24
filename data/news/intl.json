@@ -1,8 +1,64 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-23T23:48:08.674Z",
-  "count": 41,
+  "updated_at": "2026-07-24T01:28:03.386Z",
+  "count": 31,
   "items": [
+    {
+      "title": "방미 韓의원단 \"새 관세 마지노선 15% 의견 전달…美, 말 아껴\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724049900071",
+      "source": "연합뉴스 국제",
+      "ts": 1784855378000,
+      "pub": "Fri, 24 Jul 2026 10:09:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"공격받은 선박 피해, 이란 동결자금으로 보상\"",
+      "link": "https://www.hankyung.com/article/2026072436047",
+      "source": "한국경제",
+      "ts": 1784854016000,
+      "pub": "Fri, 24 Jul 2026 09:46:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "강제노동은 명분…트럼프, 대법 제동에도 신규 관세 마이웨이",
+      "link": "https://www.yna.co.kr/view/AKR20260724032200071",
+      "source": "연합뉴스 국제",
+      "ts": 1784853711000,
+      "pub": "Fri, 24 Jul 2026 09:41:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프의 분노…록히드마틴 주가 뛰자 100만원 돌파한 'K종목' [종목+]",
+      "link": "https://www.hankyung.com/article/2026072435696",
+      "source": "한국경제",
+      "ts": 1784853350000,
+      "pub": "Fri, 24 Jul 2026 09:35:50 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "트럼프 \"모든 피해 선박에 이란 동결자금으로 보상\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724044700009",
+      "source": "연합뉴스 국제",
+      "ts": 1784853246000,
+      "pub": "Fri, 24 Jul 2026 09:34:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 친구가 이끄는 오라클, 美정부와 10조원 소프트웨어 계약",
+      "link": "https://www.yna.co.kr/view/AKR20260724032000091",
+      "source": "연합뉴스 국제",
+      "ts": 1784851475000,
+      "pub": "Fri, 24 Jul 2026 09:04:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'러시아판 아마존' 때린 우크라 드론…\"러 중산층도 전쟁 체감\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724031800009",
+      "source": "연합뉴스 국제",
+      "ts": 1784850819000,
+      "pub": "Fri, 24 Jul 2026 08:53:39 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "靑, '美 301조 관세' 부과에 \"최종 15% 지켜지도록 긴밀 협의\"",
       "link": "https://www.yna.co.kr/view/AKR20260724026600001",
@@ -20,43 +76,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 시진핑 9월24일 방미 공식화…\"AI 논의할 것\"",
-      "link": "https://www.mt.co.kr/world/2026/07/24/2026072407412946601",
-      "source": "머니투데이",
-      "ts": 1784848306000,
-      "pub": "Fri, 24 Jul 2026 08:11:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "캐나다 총리, 美 '50% 관세'에 \"합의 안 되면 모든 조치 검토\"",
       "link": "https://www.yna.co.kr/view/AKR20260724023400072",
       "source": "연합뉴스 국제",
       "ts": 1784848268000,
       "pub": "Fri, 24 Jul 2026 08:11:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 靑 \"한미 관세합의 준수 공감대…15% 관세 지켜지도록 긴밀 협의\"",
-      "link": "https://www.hankyung.com/article/2026072432017",
-      "source": "한국경제",
-      "ts": 1784847354000,
-      "pub": "Fri, 24 Jul 2026 07:55:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "NYT \"사우디는 되고 한국은 안되나…트럼프의 핵 이중잣대\" 지적",
-      "link": "https://www.hankyung.com/article/2026072431727",
-      "source": "한국경제",
-      "ts": 1784846812000,
-      "pub": "Fri, 24 Jul 2026 07:46:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 SNS' 1.5억에 빨리 본다…월가 HFT 5곳 전격 계약",
-      "link": "https://www.hankyung.com/article/202607243132H",
-      "source": "한국경제",
-      "ts": 1784846776000,
-      "pub": "Fri, 24 Jul 2026 07:46:16 +0900",
       "sentiment": "neutral"
     },
     {
@@ -68,67 +92,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "글로벌 10%→강제노동 12.5%…트럼프 관세 빌드업 '착착' [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202607243089i",
-      "source": "한국경제",
-      "ts": 1784843325000,
-      "pub": "Fri, 24 Jul 2026 06:48:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "브렌트유 두 달 만에 종가 100달러 돌파…트럼프는 '대규모 공격' 시사",
-      "link": "https://www.hankyung.com/article/2026072430937",
-      "source": "한국경제",
-      "ts": 1784843064000,
-      "pub": "Fri, 24 Jul 2026 06:44:24 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'꼼수 관세' 꺼낸 트럼프, 강제노동 관세 60개국 부과...한국 12.5%",
-      "link": "https://www.mt.co.kr/world/2026/07/24/2026072406180123504",
-      "source": "머니투데이",
-      "ts": 1784842237000,
-      "pub": "Fri, 24 Jul 2026 06:30:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 美 '강제노동 관세' 각국에 부과…한국 사실상 '12.5%'",
-      "link": "https://www.hankyung.com/article/202607243085i",
-      "source": "한국경제",
-      "ts": 1784841834000,
-      "pub": "Fri, 24 Jul 2026 06:23:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란에 이전보다 더 큰 공격 검토…결정 임박\" [종합]",
-      "link": "https://www.hankyung.com/article/2026072430747",
-      "source": "한국경제",
-      "ts": 1784841646000,
-      "pub": "Fri, 24 Jul 2026 06:20:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 美, 60개국에 '강제노동 관세' 확정…한국 사실상 12.5%",
-      "link": "https://www.hankyung.com/article/2026072430827",
-      "source": "한국경제",
-      "ts": 1784841606000,
-      "pub": "Fri, 24 Jul 2026 06:20:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美, 60개국에 '301조 강제노동 관세' 확정…한국은 12.5%",
       "link": "https://www.yna.co.kr/view/AKR20260724010051071",
       "source": "연합뉴스 국제",
       "ts": 1784841600000,
       "pub": "Fri, 24 Jul 2026 06:20:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 美무역대표부, '강제노동 관세' 부과…한국 최대 12.5%",
-      "link": "https://www.mt.co.kr/world/2026/07/24/2026072406161917904",
-      "source": "머니투데이",
-      "ts": 1784841510000,
-      "pub": "Fri, 24 Jul 2026 06:18:30 +0900",
       "sentiment": "neutral"
     },
     {
@@ -141,26 +109,10 @@
     },
     {
       "title": "[속보] 美USTR, 무역법 301조 '강제노동 관세' 부과",
-      "link": "https://www.hankyung.com/article/2026072430767",
-      "source": "한국경제",
-      "ts": 1784841067000,
-      "pub": "Fri, 24 Jul 2026 06:11:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 美USTR, 무역법 301조 '강제노동 관세' 부과",
       "link": "https://www.yna.co.kr/view/AKR20260724010000071",
       "source": "연합뉴스 국제",
       "ts": 1784840927000,
       "pub": "Fri, 24 Jul 2026 06:08:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美-사우디 원자력 협정 하루만에 난관…트럼프 \"이스라엘과 화해 조건\"",
-      "link": "https://www.mt.co.kr/world/2026/07/24/2026072405574183995",
-      "source": "머니투데이",
-      "ts": 1784840480000,
-      "pub": "Fri, 24 Jul 2026 06:01:20 +0900",
       "sentiment": "neutral"
     },
     {
@@ -169,14 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784839961000,
       "pub": "Fri, 24 Jul 2026 05:52:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"대이란 대규모 공격 검토 중…모든 준비 마쳤다\"",
-      "link": "https://www.mt.co.kr/world/2026/07/24/2026072405252674164",
-      "source": "머니투데이",
-      "ts": 1784839071000,
-      "pub": "Fri, 24 Jul 2026 05:37:51 +0900",
       "sentiment": "neutral"
     },
     {
@@ -252,14 +196,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"후티 반군, 또 선박 공격하면 이란에 책임 묻겠다\"",
-      "link": "https://www.hankyung.com/article/2026072329577",
-      "source": "한국경제",
-      "ts": 1784810282000,
-      "pub": "Thu, 23 Jul 2026 21:38:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] 트럼프 \"후티가 또 선박 공격하면 이란·후티에 군사적 응징\"",
       "link": "https://www.yna.co.kr/view/AKR20260723192700071",
       "source": "연합뉴스 국제",
@@ -308,27 +244,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프-시진핑 약속인데…中, 보잉 항공기 200대 구매 계약 난항",
-      "link": "https://www.yna.co.kr/view/AKR20260723141300009",
-      "source": "연합뉴스 국제",
-      "ts": 1784789380000,
-      "pub": "Thu, 23 Jul 2026 15:49:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "미국 301조 관세 발표 임박…정부, 종전 15% 관세율 사수 총력",
       "link": "https://www.yna.co.kr/view/AKR20260723139100003",
       "source": "연합뉴스 경제",
       "ts": 1784789027000,
       "pub": "Thu, 23 Jul 2026 15:43:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "무역위, 중국산 부틸 아크릴레이트에 최고 19.17% 반덤핑 관세",
-      "link": "https://www.yna.co.kr/view/AKR20260723097400003",
-      "source": "연합뉴스 경제",
-      "ts": 1784781001000,
-      "pub": "Thu, 23 Jul 2026 13:30:01 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,47 +1,23 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-23T23:48:08.676Z",
-  "count": 15,
+  "updated_at": "2026-07-24T01:28:03.387Z",
+  "count": 4,
   "items": [
     {
-      "title": "애플의 아이폰 판매 전략 대전환…\"삼성전자·하이닉스 수혜\"",
-      "link": "https://www.hankyung.com/article/2026072431936",
-      "source": "한국경제",
-      "ts": 1784847608000,
-      "pub": "Fri, 24 Jul 2026 08:00:08 +0900",
+      "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 4∼5% 하락",
+      "link": "https://www.yna.co.kr/view/AKR20260724046100008",
+      "source": "연합뉴스 경제",
+      "ts": 1784853719000,
+      "pub": "Fri, 24 Jul 2026 09:41:59 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "삼성E&A, 삼성전자 반도체 증설 매년 7조원 전망…목표가 11%↑",
-      "link": "https://www.mt.co.kr/stock/2026/07/24/2026072407561211468",
-      "source": "머니투데이",
-      "ts": 1784847438000,
-      "pub": "Fri, 24 Jul 2026 07:57:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"알바비로 삼전닉스 샀다\"…Z세대 구직자 42% '반도체 투자'",
-      "link": "https://www.hankyung.com/article/202607243167g",
-      "source": "한국경제",
-      "ts": 1784846492000,
-      "pub": "Fri, 24 Jul 2026 07:41:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "李 대통령, 엔비디아·오픈AI CEO 만난다…7박 11일 순방길",
-      "link": "https://www.hankyung.com/article/2026072431057",
-      "source": "한국경제",
-      "ts": 1784843908000,
-      "pub": "Fri, 24 Jul 2026 06:58:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"빛 읽는 반도체로 바이오 미래 연다\"…암 조기진단 노리는 이곳",
-      "link": "https://www.mt.co.kr/future/2026/07/24/2026071816325696852",
-      "source": "머니투데이",
-      "ts": 1784836800000,
-      "pub": "Fri, 24 Jul 2026 05:00:00 +0900",
-      "sentiment": "neutral"
+      "title": "아산시, 상반기 전국 기초단체 중 수출 1위…반도체 199%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260724034400063",
+      "source": "연합뉴스 경제",
+      "ts": 1784851690000,
+      "pub": "Fri, 24 Jul 2026 09:08:10 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "엔비디아 GPU, 달 표면 밟는다…달탐사 로봇차량에 도입",
@@ -52,75 +28,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "메모리 확보 못하면 '투자' 물거품… 삼성·SK에 러브콜 러시",
-      "link": "https://www.mt.co.kr/industry/2026/07/24/2026072319545222953",
-      "source": "머니투데이",
-      "ts": 1784836620000,
-      "pub": "Fri, 24 Jul 2026 04:57:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'반도체·내수' 쌍끌이, 2분기 GDP 0.6% ↑",
-      "link": "https://www.mt.co.kr/economy/2026/07/24/2026072319474393772",
-      "source": "머니투데이",
-      "ts": 1784834160000,
-      "pub": "Fri, 24 Jul 2026 04:16:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'AI 설비투자 피크아웃'은 기우... 돈 쓰는 빅테크, K반도체 미소",
-      "link": "https://www.mt.co.kr/world/2026/07/24/2026072319453184419",
-      "source": "머니투데이",
-      "ts": 1784833380000,
-      "pub": "Fri, 24 Jul 2026 04:03:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"현존 세계 최고\"…리사 수가 들고나온 엔비디아 대항마는? [AMD 어드밴싱 AI]",
-      "link": "https://www.hankyung.com/article/202607243021i",
-      "source": "한국경제",
-      "ts": 1784831461000,
-      "pub": "Fri, 24 Jul 2026 03:31:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "삼성전자, CSS 사업팀 일부 인력 메모리사업부 등으로 재배치",
       "link": "https://www.yna.co.kr/view/AKR20260723175300003",
       "source": "연합뉴스 경제",
       "ts": 1784796396000,
       "pub": "Thu, 23 Jul 2026 17:46:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "대만 언론 \"중국, 자국 기업에 TSMC 외주 제한 검토\"",
-      "link": "https://www.yna.co.kr/view/AKR20260723114500009",
-      "source": "연합뉴스 국제",
-      "ts": 1784783863000,
-      "pub": "Thu, 23 Jul 2026 14:17:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "익산시, 반도체·이차전지 투자유치 추진…제3산단 27만㎡ 공급",
-      "link": "https://www.yna.co.kr/view/AKR20260723114200055",
-      "source": "연합뉴스 경제",
-      "ts": 1784782809000,
-      "pub": "Thu, 23 Jul 2026 14:00:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "메모리값 급등에 글로벌 PC 시장 꺾였다…2분기 4% 감소",
-      "link": "https://www.yna.co.kr/view/AKR20260723106700017",
-      "source": "연합뉴스 경제",
-      "ts": 1784781084000,
-      "pub": "Thu, 23 Jul 2026 13:31:24 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "충주시, 반도체 핵심광물 생산 기업과 업무협약…생산시설 구축",
-      "link": "https://www.yna.co.kr/view/AKR20260723105800064",
-      "source": "연합뉴스 경제",
-      "ts": 1784780828000,
-      "pub": "Thu, 23 Jul 2026 13:27:08 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,14 +1,14 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-24T07:29:28.440Z",
-  "count": 7,
+  "updated_at": "2026-07-24T10:05:23.566Z",
+  "count": 4,
   "items": [
     {
-      "title": "\"최태원, 노소영에 현금 9440억 줘라\"…SK하이닉스 주가 영향은",
-      "link": "https://www.hankyung.com/article/202607244508H",
-      "source": "한국경제",
-      "ts": 1784876971000,
-      "pub": "Fri, 24 Jul 2026 16:09:31 +0900",
+      "title": "'국산칩 거부는 반역'…中, 美 AI 반도체 추격 총력전",
+      "link": "https://www.yna.co.kr/view/AKR20260724146500009",
+      "source": "연합뉴스 국제",
+      "ts": 1784880897000,
+      "pub": "Fri, 24 Jul 2026 17:14:57 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,36 +20,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "반도체 부럽지 않다…미국에서 마주한 K 뷰티의 풍경 [정호석의 K-뷰티인사이트]",
-      "link": "https://www.hankyung.com/article/202607169555i",
-      "source": "한국경제",
-      "ts": 1784872877000,
-      "pub": "Fri, 24 Jul 2026 15:01:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "브룩필드 자본에 엔비디아 칩까지…네이버, AI 인프라株로 다시 뜬다",
-      "link": "https://www.hankyung.com/article/202607244285i",
-      "source": "한국경제",
-      "ts": 1784871309000,
-      "pub": "Fri, 24 Jul 2026 14:35:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 4∼5% 하락",
       "link": "https://www.yna.co.kr/view/AKR20260724046100008",
       "source": "연합뉴스 경제",
       "ts": 1784853719000,
       "pub": "Fri, 24 Jul 2026 09:41:59 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "아산시, 상반기 전국 기초단체 중 수출 1위…반도체 199%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260724034400063",
-      "source": "연합뉴스 경제",
-      "ts": 1784851690000,
-      "pub": "Fri, 24 Jul 2026 09:08:10 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "엔비디아 GPU, 달 표면 밟는다…달탐사 로봇차량에 도입",

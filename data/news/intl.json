@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-24T18:09:20.945Z",
-  "count": 30,
+  "updated_at": "2026-07-24T20:09:05.027Z",
+  "count": 25,
   "items": [
+    {
+      "title": "美 중소기업 2곳 \"301조 강제노동 관세는 위법\" 제소",
+      "link": "https://www.yna.co.kr/view/AKR20260725003900072",
+      "source": "연합뉴스 국제",
+      "ts": 1784921807000,
+      "pub": "Sat, 25 Jul 2026 04:36:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"EU '美기업 약탈'에 301조 관세…큰 대가 치르게 될 것\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260725001952071",
+      "source": "연합뉴스 국제",
+      "ts": 1784920259000,
+      "pub": "Sat, 25 Jul 2026 04:10:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"중·러, '이란에 무기판매' 관여하면 나쁜 일 될 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260725002500071",
+      "source": "연합뉴스 국제",
+      "ts": 1784918906000,
+      "pub": "Sat, 25 Jul 2026 03:48:26 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"EU '美기업 약탈'에 301조 관세…큰 대가 치르게 될 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260725001951071",
@@ -164,30 +188,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "12.5% 발표에도 끝나지 않은 대미관세 협상…15% 사수할까",
-      "link": "https://www.yna.co.kr/view/AKR20260724080100003",
-      "source": "연합뉴스 경제",
-      "ts": 1784861793000,
-      "pub": "Fri, 24 Jul 2026 11:56:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "정부 \"미측, 한국 관세 15% 상한선 준수 입장 재확인\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260724049251003",
-      "source": "연합뉴스 경제",
-      "ts": 1784860985000,
-      "pub": "Fri, 24 Jul 2026 11:43:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스맥스, 고객사 수출입 지원 플랫폼 가동…관세 환급 등 지원",
-      "link": "https://www.yna.co.kr/view/AKR20260724069200030",
-      "source": "연합뉴스 경제",
-      "ts": 1784859046000,
-      "pub": "Fri, 24 Jul 2026 11:10:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 차남 투자 스타트업, AMD와 휴머노이드 공동 개발",
       "link": "https://www.yna.co.kr/view/AKR20260724067700009",
       "source": "연합뉴스 국제",
@@ -196,51 +196,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "정부 \"미측, 한국 관세 15% 상한선 준수 입장 재확인\"",
-      "link": "https://www.yna.co.kr/view/AKR20260724049200003",
-      "source": "연합뉴스 경제",
-      "ts": 1784856531000,
-      "pub": "Fri, 24 Jul 2026 10:28:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "방미 韓의원단 \"새 관세 마지노선 15% 의견 전달…美, 말 아껴\"",
       "link": "https://www.yna.co.kr/view/AKR20260724049900071",
       "source": "연합뉴스 국제",
       "ts": 1784855378000,
       "pub": "Fri, 24 Jul 2026 10:09:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "강제노동은 명분…트럼프, 대법 제동에도 신규 관세 마이웨이",
-      "link": "https://www.yna.co.kr/view/AKR20260724032200071",
-      "source": "연합뉴스 국제",
-      "ts": 1784853711000,
-      "pub": "Fri, 24 Jul 2026 09:41:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"모든 피해 선박에 이란 동결자금으로 보상\"",
-      "link": "https://www.yna.co.kr/view/AKR20260724044700009",
-      "source": "연합뉴스 국제",
-      "ts": 1784853246000,
-      "pub": "Fri, 24 Jul 2026 09:34:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 친구가 이끄는 오라클, 美정부와 10조원 소프트웨어 계약",
-      "link": "https://www.yna.co.kr/view/AKR20260724032000091",
-      "source": "연합뉴스 국제",
-      "ts": 1784851475000,
-      "pub": "Fri, 24 Jul 2026 09:04:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'러시아판 아마존' 때린 우크라 드론…\"러 중산층도 전쟁 체감\"",
-      "link": "https://www.yna.co.kr/view/AKR20260724031800009",
-      "source": "연합뉴스 국제",
-      "ts": 1784850819000,
-      "pub": "Fri, 24 Jul 2026 08:53:39 +0900",
       "sentiment": "neutral"
     }
   ]

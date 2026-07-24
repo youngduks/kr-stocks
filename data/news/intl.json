@@ -1,8 +1,72 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-24T01:28:03.386Z",
-  "count": 31,
+  "updated_at": "2026-07-24T04:58:37.491Z",
+  "count": 33,
   "items": [
+    {
+      "title": "[영상] 공중전서 격추된 러 주력 Su-35…\"우크라 F-16이 격추\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724089900704",
+      "source": "연합뉴스 국제",
+      "ts": 1784867671000,
+      "pub": "Fri, 24 Jul 2026 13:34:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "日, 한국·중국산 철강재 '덤핑' 잠정 결론…관세 부과 검토",
+      "link": "https://www.yna.co.kr/view/AKR20260724088600073",
+      "source": "연합뉴스 국제",
+      "ts": 1784867001000,
+      "pub": "Fri, 24 Jul 2026 13:23:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "日, 美 '강제노동 관세' 부과에 \"유감\"…추가인상 여부 주목",
+      "link": "https://www.yna.co.kr/view/AKR20260724085500073",
+      "source": "연합뉴스 국제",
+      "ts": 1784863443000,
+      "pub": "Fri, 24 Jul 2026 12:24:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "12.5% 발표에도 끝나지 않은 대미관세 협상…15% 사수할까",
+      "link": "https://www.yna.co.kr/view/AKR20260724080100003",
+      "source": "연합뉴스 경제",
+      "ts": 1784861793000,
+      "pub": "Fri, 24 Jul 2026 11:56:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정부 \"미측, 한국 관세 15% 상한선 준수 입장 재확인\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260724049251003",
+      "source": "연합뉴스 경제",
+      "ts": 1784860985000,
+      "pub": "Fri, 24 Jul 2026 11:43:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스맥스, 고객사 수출입 지원 플랫폼 가동…관세 환급 등 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260724069200030",
+      "source": "연합뉴스 경제",
+      "ts": 1784859046000,
+      "pub": "Fri, 24 Jul 2026 11:10:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 차남 투자 스타트업, AMD와 휴머노이드 공동 개발",
+      "link": "https://www.yna.co.kr/view/AKR20260724067700009",
+      "source": "연합뉴스 국제",
+      "ts": 1784857653000,
+      "pub": "Fri, 24 Jul 2026 10:47:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정부 \"미측, 한국 관세 15% 상한선 준수 입장 재확인\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724049200003",
+      "source": "연합뉴스 경제",
+      "ts": 1784856531000,
+      "pub": "Fri, 24 Jul 2026 10:28:51 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "방미 韓의원단 \"새 관세 마지노선 15% 의견 전달…美, 말 아껴\"",
       "link": "https://www.yna.co.kr/view/AKR20260724049900071",
@@ -12,28 +76,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"공격받은 선박 피해, 이란 동결자금으로 보상\"",
-      "link": "https://www.hankyung.com/article/2026072436047",
-      "source": "한국경제",
-      "ts": 1784854016000,
-      "pub": "Fri, 24 Jul 2026 09:46:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "강제노동은 명분…트럼프, 대법 제동에도 신규 관세 마이웨이",
       "link": "https://www.yna.co.kr/view/AKR20260724032200071",
       "source": "연합뉴스 국제",
       "ts": 1784853711000,
       "pub": "Fri, 24 Jul 2026 09:41:51 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프의 분노…록히드마틴 주가 뛰자 100만원 돌파한 'K종목' [종목+]",
-      "link": "https://www.hankyung.com/article/2026072435696",
-      "source": "한국경제",
-      "ts": 1784853350000,
-      "pub": "Fri, 24 Jul 2026 09:35:50 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "트럼프 \"모든 피해 선박에 이란 동결자금으로 보상\"",
@@ -217,38 +265,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784800037000,
       "pub": "Thu, 23 Jul 2026 18:47:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中상무부 \"미중, '관세 인하' 의견 수렴 중…조속 시행\"",
-      "link": "https://www.yna.co.kr/view/AKR20260723177100089",
-      "source": "연합뉴스 국제",
-      "ts": 1784798371000,
-      "pub": "Thu, 23 Jul 2026 18:19:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"그리스, 6조원 규모 이스라엘 방공시스템 구매키로\"",
-      "link": "https://www.yna.co.kr/view/AKR20260723172200109",
-      "source": "연합뉴스 국제",
-      "ts": 1784795976000,
-      "pub": "Thu, 23 Jul 2026 17:39:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러 외무, 美국무 만나 \"우크라에 추가 무기공급 용납못해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260723153800084",
-      "source": "연합뉴스 국제",
-      "ts": 1784791816000,
-      "pub": "Thu, 23 Jul 2026 16:30:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미국 301조 관세 발표 임박…정부, 종전 15% 관세율 사수 총력",
-      "link": "https://www.yna.co.kr/view/AKR20260723139100003",
-      "source": "연합뉴스 경제",
-      "ts": 1784789027000,
-      "pub": "Thu, 23 Jul 2026 15:43:47 +0900",
       "sentiment": "neutral"
     }
   ]

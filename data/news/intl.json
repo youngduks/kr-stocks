@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-24T04:58:37.491Z",
-  "count": 33,
+  "updated_at": "2026-07-24T07:29:28.438Z",
+  "count": 32,
   "items": [
+    {
+      "title": "아태 국가들 \"美 강제노동 관세는 부당…근거 없다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724134100084",
+      "source": "연합뉴스 국제",
+      "ts": 1784877125000,
+      "pub": "Fri, 24 Jul 2026 16:12:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] '도살자'에 밀려난 우크라 드론 영웅의 놀라운 반격",
+      "link": "https://www.yna.co.kr/view/AKR20260724131900797",
+      "source": "연합뉴스 국제",
+      "ts": 1784876466000,
+      "pub": "Fri, 24 Jul 2026 16:01:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] '드론장관 해임' 역풍 맞은 젤렌스키…우크라 군 총사령관 교체",
+      "link": "https://www.yna.co.kr/view/AKR20260724126100704",
+      "source": "연합뉴스 국제",
+      "ts": 1784875782000,
+      "pub": "Fri, 24 Jul 2026 15:49:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 이라크 중재 거쳐 휴전 제안…이란 거부해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260724123900009",
+      "source": "연합뉴스 국제",
+      "ts": 1784875078000,
+      "pub": "Fri, 24 Jul 2026 15:37:58 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[영상] 공중전서 격추된 러 주력 Su-35…\"우크라 F-16이 격추\"",
       "link": "https://www.yna.co.kr/view/AKR20260724089900704",
@@ -225,46 +257,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784815823000,
       "pub": "Thu, 23 Jul 2026 23:10:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"사우디 핵농축 없을 것\"…이스라엘과 관계정상화 조건 제시",
-      "link": "https://www.yna.co.kr/view/AKR20260723192900071",
-      "source": "연합뉴스 국제",
-      "ts": 1784812605000,
-      "pub": "Thu, 23 Jul 2026 22:16:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"후티가 또 선박공격하면 이란·후티에 군사적 응징\"",
-      "link": "https://www.yna.co.kr/view/AKR20260723192751071",
-      "source": "연합뉴스 국제",
-      "ts": 1784812190000,
-      "pub": "Thu, 23 Jul 2026 22:09:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"후티가 또 선박 공격하면 이란·후티에 군사적 응징\"",
-      "link": "https://www.yna.co.kr/view/AKR20260723192700071",
-      "source": "연합뉴스 국제",
-      "ts": 1784809865000,
-      "pub": "Thu, 23 Jul 2026 21:31:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "루비오 \"우크라전 빠른 합의 어려워…외교 노력·새 발상 필요\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260723177352084",
-      "source": "연합뉴스 국제",
-      "ts": 1784805362000,
-      "pub": "Thu, 23 Jul 2026 20:16:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"B-1 폭격기도 재투입\"…트럼프, 이란 '확전카드' 추가(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260723071251009",
-      "source": "연합뉴스 국제",
-      "ts": 1784800037000,
-      "pub": "Thu, 23 Jul 2026 18:47:17 +0900",
       "sentiment": "neutral"
     }
   ]

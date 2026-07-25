@@ -1,6 +1,6 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-25T20:04:04.751Z",
+  "updated_at": "2026-07-25T21:42:42.520Z",
   "count": 11,
   "items": [
     {
@@ -9,6 +9,14 @@
       "source": "한국경제",
       "ts": 1784984889000,
       "pub": "Sat, 25 Jul 2026 22:08:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중국 메모리 도입 놓고 애플-마이크론 갈등…가운데 낀 트럼프",
+      "link": "https://www.yna.co.kr/view/AKR20260725052800009",
+      "source": "연합뉴스 국제",
+      "ts": 1784972394000,
+      "pub": "Sat, 25 Jul 2026 18:39:54 +0900",
       "sentiment": "neutral"
     },
     {
@@ -60,36 +68,28 @@
       "sentiment": "neutral"
     },
     {
-      "title": "靑 \"국내 기업-글로벌 빅테크 기업, 9500억불 반도체 협력\"",
-      "link": "https://www.hankyung.com/article/2026072555707",
-      "source": "한국경제",
-      "ts": 1784952224000,
-      "pub": "Sat, 25 Jul 2026 13:03:44 +0900",
+      "title": "엔비디아·오픈AI도 불러모은 K반도체…\"韓없이 AI혁명도 없어\"",
+      "link": "https://www.yna.co.kr/view/AKR20260725031900091",
+      "source": "연합뉴스 국제",
+      "ts": 1784949148000,
+      "pub": "Sat, 25 Jul 2026 12:12:28 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[속보] 靑 \"SK, 엔비디아 등과 5년간 7500억弗 메모리 공급 협력\"",
-      "link": "https://www.hankyung.com/article/202607255564i",
-      "source": "한국경제",
-      "ts": 1784952219000,
-      "pub": "Sat, 25 Jul 2026 13:03:39 +0900",
-      "sentiment": "neutral"
+      "title": "뉴욕증시, 유가 하락에도 반도체 약세에 혼조…나스닥 0.6%↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260725005651072",
+      "source": "연합뉴스 국제",
+      "ts": 1784927343000,
+      "pub": "Sat, 25 Jul 2026 06:09:03 +0900",
+      "sentiment": "negative"
     },
     {
-      "title": "[속보] 삼성-브로드컴 '5년간 200억불' 첨단 메모리 반도체·파운드리 MOU 체결",
-      "link": "https://www.hankyung.com/article/2026072555697",
-      "source": "한국경제",
-      "ts": 1784952192000,
-      "pub": "Sat, 25 Jul 2026 13:03:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 靑 \"韓-글로벌 빅테크 반도체 기업간 9500억불 규모 협력 추진\"",
-      "link": "https://www.hankyung.com/article/2026072555677",
-      "source": "한국경제",
-      "ts": 1784952175000,
-      "pub": "Sat, 25 Jul 2026 13:02:55 +0900",
-      "sentiment": "neutral"
+      "title": "뉴욕증시, 유가 하락에도 반도체 약세에 혼조…나스닥 0.6%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260725005600072",
+      "source": "연합뉴스 국제",
+      "ts": 1784924681000,
+      "pub": "Sat, 25 Jul 2026 05:24:41 +0900",
+      "sentiment": "negative"
     }
   ]
 }

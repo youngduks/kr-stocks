@@ -1,7 +1,7 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-25T12:03:19.748Z",
-  "count": 3,
+  "updated_at": "2026-07-25T14:25:39.698Z",
+  "count": 5,
   "items": [
     {
       "title": "정의선 \"빅테크와 피지컬 AI 혁신 생태계 구축\"…젠슨 황과 회동",
@@ -9,6 +9,22 @@
       "source": "한국경제",
       "ts": 1784964038000,
       "pub": "Sat, 25 Jul 2026 16:20:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정의선 회장 \" 글로벌 최고 수준 휴머노이드 상용화 시점 앞당길 것\"",
+      "link": "https://www.mt.co.kr/politics/2026/07/25/2026072515425911711",
+      "source": "머니투데이",
+      "ts": 1784961962000,
+      "pub": "Sat, 25 Jul 2026 15:46:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정의선 '피지컬 AI 비전' 첫 실현 무대는 새만금..'엔비디아 참여' 기대도",
+      "link": "https://www.mt.co.kr/industry/2026/07/25/2026072515362254868",
+      "source": "머니투데이",
+      "ts": 1784961956000,
+      "pub": "Sat, 25 Jul 2026 15:45:56 +0900",
       "sentiment": "neutral"
     },
     {

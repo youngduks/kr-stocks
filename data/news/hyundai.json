@@ -1,6 +1,63 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-24T23:53:43.719Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-07-25T01:28:05.656Z",
+  "count": 7,
+  "items": [
+    {
+      "title": "[속보]정의선 회장 \"로봇, 수소 등 아우르는 새만금 AI 밸리 조성 추진\"",
+      "link": "https://www.mt.co.kr/politics/2026/07/25/2026072509292874521",
+      "source": "머니투데이",
+      "ts": 1784939418000,
+      "pub": "Sat, 25 Jul 2026 09:30:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 정의선 회장 \"엔비디아·구글 등과 협력, 피지컬 AI 구현 가속화\"",
+      "link": "https://www.hankyung.com/article/2026072554157",
+      "source": "한국경제",
+      "ts": 1784939286000,
+      "pub": "Sat, 25 Jul 2026 09:28:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]정의선 회장 \"로봇·AI 기술 고도화 위해 오픈 생태계 조성할 계획\"",
+      "link": "https://www.mt.co.kr/politics/2026/07/25/2026072509263388185",
+      "source": "머니투데이",
+      "ts": 1784939271000,
+      "pub": "Sat, 25 Jul 2026 09:27:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'깐부' 정의선·젠슨 황, 엔비디아 본사에서 회동…AI 후속 논의",
+      "link": "https://www.hankyung.com/article/202607255391g",
+      "source": "한국경제",
+      "ts": 1784938552000,
+      "pub": "Sat, 25 Jul 2026 09:15:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 젠슨황 \"현대차와 자율운행 제네시스 차량 함께 개발\"",
+      "link": "https://www.hankyung.com/article/2026072553697",
+      "source": "한국경제",
+      "ts": 1784936485000,
+      "pub": "Sat, 25 Jul 2026 08:41:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이재용·정의선·이해진, 美 엔비디아 본사서 젠슨 황 면담…사업 협력 논의",
+      "link": "https://www.mt.co.kr/industry/2026/07/25/2026072508163788678",
+      "source": "머니투데이",
+      "ts": 1784935441000,
+      "pub": "Sat, 25 Jul 2026 08:24:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정의선, 엔비디아 본사서 젠슨 황 면담…자율주행·로봇 협력 논의",
+      "link": "https://www.mt.co.kr/industry/2026/07/25/2026072507483615104",
+      "source": "머니투데이",
+      "ts": 1784933611000,
+      "pub": "Sat, 25 Jul 2026 07:53:31 +0900",
+      "sentiment": "neutral"
+    }
+  ]
 }

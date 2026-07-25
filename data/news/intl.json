@@ -1,6 +1,6 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-24T23:53:43.717Z",
+  "updated_at": "2026-07-25T01:28:05.654Z",
   "count": 28,
   "items": [
     {
@@ -9,6 +9,14 @@
       "source": "연합뉴스 국제",
       "ts": 1784934632000,
       "pub": "Sat, 25 Jul 2026 08:10:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 대화 중\"…대규모 공격 여부는 미정",
+      "link": "https://www.mt.co.kr/world/2026/07/25/2026072507264737611",
+      "source": "머니투데이",
+      "ts": 1784933733000,
+      "pub": "Sat, 25 Jul 2026 07:55:33 +0900",
       "sentiment": "neutral"
     },
     {
@@ -129,14 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784897342000,
       "pub": "Fri, 24 Jul 2026 21:49:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"젊어지고 싶으면 맞아라\"…트럼프 '이 주사'에 집착하는 이유",
-      "link": "https://www.hankyung.com/article/2026072449281",
-      "source": "한국경제",
-      "ts": 1784894403000,
-      "pub": "Fri, 24 Jul 2026 21:00:03 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,16 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-25T04:54:32.663Z",
+  "updated_at": "2026-07-25T07:08:26.110Z",
   "count": 5,
   "items": [
+    {
+      "title": "[속보]현대차, 엔비디아와 '로봇 레퍼런스 플랫폼' 구축…개방형 생태계 조성",
+      "link": "https://www.hankyung.com/article/2026072556157",
+      "source": "한국경제",
+      "ts": 1784956681000,
+      "pub": "Sat, 25 Jul 2026 14:18:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[속보] 정의선 \"대한민국이 피지컬 AI 산업 주도하는 중심지 될 것\"",
       "link": "https://www.hankyung.com/article/2026072554267",
@@ -33,14 +41,6 @@
       "source": "한국경제",
       "ts": 1784938552000,
       "pub": "Sat, 25 Jul 2026 09:15:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 젠슨황 \"현대차와 자율운행 제네시스 차량 함께 개발\"",
-      "link": "https://www.hankyung.com/article/2026072553697",
-      "source": "한국경제",
-      "ts": 1784936485000,
-      "pub": "Sat, 25 Jul 2026 08:41:25 +0900",
       "sentiment": "neutral"
     }
   ]

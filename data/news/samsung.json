@@ -1,14 +1,30 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-25T04:54:32.660Z",
-  "count": 5,
+  "updated_at": "2026-07-25T07:08:26.109Z",
+  "count": 7,
   "items": [
     {
-      "title": "靑 \"SK-엔비디아 등과 '5년간 7500억불' 메모리 공급 협력\"",
-      "link": "https://www.hankyung.com/article/2026072555707",
+      "title": "삼성전자, 브로드컴과 290조원 규모 AI 반도체 초대형 동맹",
+      "link": "https://www.hankyung.com/article/202607255637i",
       "source": "한국경제",
-      "ts": 1784952224000,
-      "pub": "Sat, 25 Jul 2026 13:03:44 +0900",
+      "ts": 1784959505000,
+      "pub": "Sat, 25 Jul 2026 15:05:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 삼성전자, 브로드컴 제품에 2nm 이하 첨단 파운드리 공정 적용",
+      "link": "https://www.hankyung.com/article/2026072556167",
+      "source": "한국경제",
+      "ts": 1784956708000,
+      "pub": "Sat, 25 Jul 2026 14:18:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] SK, 마이크로소프트와 AI 메모리 장기 공급 협력",
+      "link": "https://www.hankyung.com/article/2026072556137",
+      "source": "한국경제",
+      "ts": 1784956625000,
+      "pub": "Sat, 25 Jul 2026 14:17:05 +0900",
       "sentiment": "neutral"
     },
     {

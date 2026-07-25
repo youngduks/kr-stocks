@@ -1,10 +1,34 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-25T04:54:32.662Z",
-  "count": 14,
+  "updated_at": "2026-07-25T07:08:26.109Z",
+  "count": 16,
   "items": [
     {
-      "title": "靑 \"SK-엔비디아 등과 '5년간 7500억불' 메모리 공급 협력\"",
+      "title": "삼성전자, 브로드컴과 290조원 규모 AI 반도체 초대형 동맹",
+      "link": "https://www.hankyung.com/article/202607255637i",
+      "source": "한국경제",
+      "ts": 1784959505000,
+      "pub": "Sat, 25 Jul 2026 15:05:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]현대차, 엔비디아와 '로봇 레퍼런스 플랫폼' 구축…개방형 생태계 조성",
+      "link": "https://www.hankyung.com/article/2026072556157",
+      "source": "한국경제",
+      "ts": 1784956681000,
+      "pub": "Sat, 25 Jul 2026 14:18:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] SK, 마이크로소프트와 AI 메모리 장기 공급 협력",
+      "link": "https://www.hankyung.com/article/2026072556137",
+      "source": "한국경제",
+      "ts": 1784956625000,
+      "pub": "Sat, 25 Jul 2026 14:17:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "靑 \"국내 기업-글로벌 빅테크 기업, 9500억불 반도체 협력\"",
       "link": "https://www.hankyung.com/article/2026072555707",
       "source": "한국경제",
       "ts": 1784952224000,
@@ -81,14 +105,6 @@
       "source": "한국경제",
       "ts": 1784938552000,
       "pub": "Sat, 25 Jul 2026 09:15:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 李대통령 만난 젠슨 황 \"엔비디아-SK, 5000억불 파트너십 발표\"",
-      "link": "https://www.hankyung.com/article/2026072553607",
-      "source": "한국경제",
-      "ts": 1784936393000,
-      "pub": "Sat, 25 Jul 2026 08:39:53 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,22 +1,30 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-25T21:42:42.518Z",
+  "updated_at": "2026-07-25T22:41:58.006Z",
   "count": 29,
   "items": [
+    {
+      "title": "[美중간선거 D-100] ① 트럼프 2기 국정 갈림길…동력 확보냐 레임덕이냐",
+      "link": "https://www.yna.co.kr/view/AKR20260725004200071",
+      "source": "연합뉴스 국제",
+      "ts": 1785016804000,
+      "pub": "Sun, 26 Jul 2026 07:00:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[뉴욕증시-주간전망] FOMC와 빅테크 실적의 원투펀치…K.O. 뜰까",
+      "link": "https://www.yna.co.kr/view/AKR20260726006200009",
+      "source": "연합뉴스 국제",
+      "ts": 1785016800000,
+      "pub": "Sun, 26 Jul 2026 07:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"트럼프, '24일 이란 공격 말라' 지시\"…공습 소강국면 이어질까",
       "link": "https://www.yna.co.kr/view/AKR20260726004000071",
       "source": "연합뉴스 국제",
       "ts": 1785013576000,
       "pub": "Sun, 26 Jul 2026 06:06:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'이스라엘판 슬램덩크' 오테프 다롬, 비극의 땅 가자에서 기적을 만들다",
-      "link": "https://www.hankyung.com/article/202607255238i",
-      "source": "한국경제",
-      "ts": 1785005762000,
-      "pub": "Sun, 26 Jul 2026 03:56:02 +0900",
       "sentiment": "neutral"
     },
     {
@@ -225,14 +233,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784897342000,
       "pub": "Fri, 24 Jul 2026 21:49:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 찾은 美극우 인플루언서…돌연 과거 친러발언 반성문",
-      "link": "https://www.yna.co.kr/view/AKR20260724167000109",
-      "source": "연합뉴스 국제",
-      "ts": 1784887307000,
-      "pub": "Fri, 24 Jul 2026 19:01:47 +0900",
       "sentiment": "neutral"
     }
   ]

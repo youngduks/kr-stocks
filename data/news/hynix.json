@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-25T18:48:40.849Z",
-  "count": 15,
+  "updated_at": "2026-07-25T20:04:04.751Z",
+  "count": 11,
   "items": [
     {
       "title": "메모리 부족은 시작일 뿐…AI 시대 돈이 향하는 곳은 [빈난새의 빈틈없이월가]",
@@ -9,14 +9,6 @@
       "source": "한국경제",
       "ts": 1784984889000,
       "pub": "Sat, 25 Jul 2026 22:08:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "중국 메모리 도입 놓고 애플-마이크론 갈등…가운데 낀 트럼프",
-      "link": "https://www.yna.co.kr/view/AKR20260725052800009",
-      "source": "연합뉴스 국제",
-      "ts": 1784972394000,
-      "pub": "Sat, 25 Jul 2026 18:39:54 +0900",
       "sentiment": "neutral"
     },
     {
@@ -98,30 +90,6 @@
       "ts": 1784952175000,
       "pub": "Sat, 25 Jul 2026 13:02:55 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아·오픈AI도 불러모은 K반도체…\"韓없이 AI혁명도 없어\"",
-      "link": "https://www.yna.co.kr/view/AKR20260725031900091",
-      "source": "연합뉴스 국제",
-      "ts": 1784949148000,
-      "pub": "Sat, 25 Jul 2026 12:12:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 유가 하락에도 반도체 약세에 혼조…나스닥 0.6%↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260725005651072",
-      "source": "연합뉴스 국제",
-      "ts": 1784927343000,
-      "pub": "Sat, 25 Jul 2026 06:09:03 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "뉴욕증시, 유가 하락에도 반도체 약세에 혼조…나스닥 0.6%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260725005600072",
-      "source": "연합뉴스 국제",
-      "ts": 1784924681000,
-      "pub": "Sat, 25 Jul 2026 05:24:41 +0900",
-      "sentiment": "negative"
     }
   ]
 }

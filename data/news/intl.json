@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-25T22:41:58.006Z",
-  "count": 29,
+  "updated_at": "2026-07-25T23:49:26.739Z",
+  "count": 37,
   "items": [
+    {
+      "title": "미·러·이스라엘 반대에도…UN 인권최고대표 연임 확정",
+      "link": "https://www.mt.co.kr/world/2026/07/26/2026072608335514232",
+      "source": "머니투데이",
+      "ts": 1785022551000,
+      "pub": "Sun, 26 Jul 2026 08:35:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미·러·이스라엘 반대 뚫은 유엔 인권수장…총회서 연임 확정",
+      "link": "https://www.yna.co.kr/view/AKR20260726000900072",
+      "source": "연합뉴스 국제",
+      "ts": 1785021043000,
+      "pub": "Sun, 26 Jul 2026 08:10:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 이란 공습 중단 지시\"…호르무즈 개방 협상안 '변수'",
+      "link": "https://www.mt.co.kr/world/2026/07/26/2026072607070299288",
+      "source": "머니투데이",
+      "ts": 1785017458000,
+      "pub": "Sun, 26 Jul 2026 07:10:58 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[美중간선거 D-100] ① 트럼프 2기 국정 갈림길…동력 확보냐 레임덕이냐",
       "link": "https://www.yna.co.kr/view/AKR20260725004200071",
@@ -20,11 +44,35 @@
       "sentiment": "neutral"
     },
     {
+      "title": "뛰는 유가에 물가 불안 우려…금리·관세·환율도 '경고등'",
+      "link": "https://www.yna.co.kr/view/AKR20260725049700002",
+      "source": "연합뉴스 경제",
+      "ts": 1785015001000,
+      "pub": "Sun, 26 Jul 2026 06:30:01 +0900",
+      "sentiment": "negative"
+    },
+    {
       "title": "\"트럼프, '24일 이란 공격 말라' 지시\"…공습 소강국면 이어질까",
       "link": "https://www.yna.co.kr/view/AKR20260726004000071",
       "source": "연합뉴스 국제",
       "ts": 1785013576000,
       "pub": "Sun, 26 Jul 2026 06:06:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美무역법 301조 절반은 관세 안물었다…'과잉생산' 협상력 관건",
+      "link": "https://www.yna.co.kr/view/AKR20260725054600003",
+      "source": "연합뉴스 경제",
+      "ts": 1785013380000,
+      "pub": "Sun, 26 Jul 2026 06:03:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "큰폭으로 벌어진 CPI·GDP디플레이터 상승률…48년만 최대",
+      "link": "https://www.mt.co.kr/economy/2026/07/26/2026072413095061920",
+      "source": "머니투데이",
+      "ts": 1785013200000,
+      "pub": "Sun, 26 Jul 2026 06:00:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -65,6 +113,14 @@
       "source": "연합뉴스 국제",
       "ts": 1784991446000,
       "pub": "Sat, 25 Jul 2026 23:57:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"전문직 비자 수수료, 146만원→1.4억\"...트럼프 엄포, 법원서 또 제동",
+      "link": "https://www.mt.co.kr/world/2026/07/25/2026072522051946125",
+      "source": "머니투데이",
+      "ts": 1784985109000,
+      "pub": "Sat, 25 Jul 2026 22:11:49 +0900",
       "sentiment": "neutral"
     },
     {
@@ -228,11 +284,19 @@
       "sentiment": "neutral"
     },
     {
-      "title": "젤렌스키, 美레이시온과 패트리엇 공동 생산 논의",
-      "link": "https://www.yna.co.kr/view/AKR20260724177400109",
-      "source": "연합뉴스 국제",
-      "ts": 1784897342000,
-      "pub": "Fri, 24 Jul 2026 21:49:02 +0900",
+      "title": "12.5% 발표에도 끝나지 않은 대미관세 협상…15% 사수할까",
+      "link": "https://www.yna.co.kr/view/AKR20260724080100003",
+      "source": "연합뉴스 경제",
+      "ts": 1784861793000,
+      "pub": "Fri, 24 Jul 2026 11:56:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정부 \"미측, 한국 관세 15% 상한선 준수 입장 재확인\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260724049251003",
+      "source": "연합뉴스 경제",
+      "ts": 1784860985000,
+      "pub": "Fri, 24 Jul 2026 11:43:05 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-25T22:41:58.007Z",
-  "count": 8,
+  "updated_at": "2026-07-25T23:49:26.740Z",
+  "count": 10,
   "items": [
+    {
+      "title": "최재인 \"삼성전자 스마트 글라스, AI 경험 확장하는 계기 될 것\"",
+      "link": "https://www.hankyung.com/article/202607265833i",
+      "source": "한국경제",
+      "ts": 1785020404000,
+      "pub": "Sun, 26 Jul 2026 08:00:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'리밸런싱 재개' 연기금, 이달 순매수…하이닉스 사고 삼전 팔아",
+      "link": "https://www.yna.co.kr/view/AKR20260725032100008",
+      "source": "연합뉴스 경제",
+      "ts": 1785015002000,
+      "pub": "Sun, 26 Jul 2026 06:30:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'중국의 삼성' 꿈꾸는 창신메모리[차이나는 중국]",
+      "link": "https://www.mt.co.kr/opinion/2026/07/26/2026072316460994214",
+      "source": "머니투데이",
+      "ts": 1785013200000,
+      "pub": "Sun, 26 Jul 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "메모리 부족은 시작일 뿐…AI 시대 돈이 향하는 곳은 [빈난새의 빈틈없이월가]",
       "link": "https://www.hankyung.com/article/202607255242i",
@@ -44,28 +68,20 @@
       "sentiment": "neutral"
     },
     {
-      "title": "삼성전자, 브로드컴과 290조원 규모 AI 반도체 초대형 동맹",
-      "link": "https://www.hankyung.com/article/202607255637i",
-      "source": "한국경제",
-      "ts": 1784959505000,
-      "pub": "Sat, 25 Jul 2026 15:05:05 +0900",
+      "title": "'HBM 1위' 한국, AI 3강 노린다…샌프란 선언 현주소는",
+      "link": "https://www.yna.co.kr/view/AKR20260725028900017",
+      "source": "연합뉴스 경제",
+      "ts": 1784945821000,
+      "pub": "Sat, 25 Jul 2026 11:17:01 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[속보] 삼성전자, 브로드컴 제품에 2nm 이하 첨단 파운드리 공정 적용",
-      "link": "https://www.hankyung.com/article/2026072556167",
-      "source": "한국경제",
-      "ts": 1784956708000,
-      "pub": "Sat, 25 Jul 2026 14:18:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] SK, 마이크로소프트와 AI 메모리 장기 공급 협력",
-      "link": "https://www.hankyung.com/article/2026072556137",
-      "source": "한국경제",
-      "ts": 1784956625000,
-      "pub": "Sat, 25 Jul 2026 14:17:05 +0900",
-      "sentiment": "neutral"
+      "title": "삼전·닉스, 7∼8%대 급락…외국인·기관 모두 던졌다(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260724046151008",
+      "source": "연합뉴스 경제",
+      "ts": 1784876409000,
+      "pub": "Fri, 24 Jul 2026 16:00:09 +0900",
+      "sentiment": "negative"
     }
   ]
 }

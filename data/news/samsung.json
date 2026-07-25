@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-25T09:25:45.039Z",
-  "count": 13,
+  "updated_at": "2026-07-25T11:00:10.044Z",
+  "count": 9,
   "items": [
+    {
+      "title": "중국 메모리 도입 놓고 애플-마이크론 갈등…가운데 낀 트럼프",
+      "link": "https://www.yna.co.kr/view/AKR20260725052800009",
+      "source": "연합뉴스 국제",
+      "ts": 1784972394000,
+      "pub": "Sat, 25 Jul 2026 18:39:54 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성·SK, 美 빅테크와 9500억달러 'AI 동맹'…메모리·파운드리 전방위 구축",
       "link": "https://www.hankyung.com/article/202607255676i",
@@ -36,22 +44,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "삼성전자, 브로드컴과 2000억불 협력…이재용 \"완벽한 생태계 구축\"",
-      "link": "https://www.mt.co.kr/industry/2026/07/25/2026072514191072901",
-      "source": "머니투데이",
-      "ts": 1784957987000,
-      "pub": "Sat, 25 Jul 2026 14:39:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK, 엔비디아와 AI 인프라 구축..MS와 메모리 장기 협력",
-      "link": "https://www.mt.co.kr/industry/2026/07/25/2026072513560232643",
-      "source": "머니투데이",
-      "ts": 1784957593000,
-      "pub": "Sat, 25 Jul 2026 14:33:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] 삼성전자, 브로드컴 제품에 2nm 이하 첨단 파운드리 공정 적용",
       "link": "https://www.hankyung.com/article/2026072556167",
       "source": "한국경제",
@@ -68,14 +60,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[속보]靑 \"삼성전자, 브로드컴과 5년간 2000억달러 업무협약 체결\"",
-      "link": "https://www.mt.co.kr/politics/2026/07/25/2026072513071689393",
-      "source": "머니투데이",
-      "ts": 1784952494000,
-      "pub": "Sat, 25 Jul 2026 13:08:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] 靑 \"SK, 엔비디아 등과 5년간 7500억弗 메모리 공급 협력\"",
       "link": "https://www.hankyung.com/article/202607255564i",
       "source": "한국경제",
@@ -89,22 +73,6 @@
       "source": "한국경제",
       "ts": 1784952192000,
       "pub": "Sat, 25 Jul 2026 13:03:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"한국은 부자\" 농담 속…李대통령, 이재용·젠슨황과 \"우리는 식구다\" 건배사",
-      "link": "https://www.mt.co.kr/politics/2026/07/25/2026072512270365974",
-      "source": "머니투데이",
-      "ts": 1784950353000,
-      "pub": "Sat, 25 Jul 2026 12:32:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이재용 회장 \"AI 시대, 글로벌 협력 필수…한미 강점 결합하면 많은 난제 해결\"",
-      "link": "https://www.mt.co.kr/politics/2026/07/25/2026072510204394298",
-      "source": "머니투데이",
-      "ts": 1784942572000,
-      "pub": "Sat, 25 Jul 2026 10:22:52 +0900",
       "sentiment": "neutral"
     }
   ]

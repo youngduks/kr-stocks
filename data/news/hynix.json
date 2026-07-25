@@ -1,10 +1,18 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-25T09:25:45.039Z",
-  "count": 20,
+  "updated_at": "2026-07-25T11:00:10.044Z",
+  "count": 16,
   "items": [
     {
-      "title": "최태원 \"메가 프로젝트, 韓 성장 위한것\"…SK, 엔비디아와 AI 동맹",
+      "title": "중국 메모리 도입 놓고 애플-마이크론 갈등…가운데 낀 트럼프",
+      "link": "https://www.yna.co.kr/view/AKR20260725052800009",
+      "source": "연합뉴스 국제",
+      "ts": 1784972394000,
+      "pub": "Sat, 25 Jul 2026 18:39:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "최태원 \"메가 프로젝트, 韓 성장 위한 것\"…SK, 엔비디아와 AI 동맹",
       "link": "https://www.hankyung.com/article/202607255728i",
       "source": "한국경제",
       "ts": 1784970114000,
@@ -20,14 +28,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "정의선 '피지컬 AI 비전' 첫 실현 무대는 새만금..'엔비디아 참여' 기대도",
-      "link": "https://www.mt.co.kr/industry/2026/07/25/2026072515362254868",
-      "source": "머니투데이",
-      "ts": 1784961956000,
-      "pub": "Sat, 25 Jul 2026 15:45:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "이재용·올트먼, 오픈AI 본사서 회동…'HBM·파운드리 협의' 관측",
       "link": "https://www.hankyung.com/article/2026072556727",
       "source": "한국경제",
@@ -36,35 +36,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "SK, 빅테크와 7500억달러 반도체 협력..최태원 \"현실적 투자\"",
-      "link": "https://www.mt.co.kr/industry/2026/07/25/2026072514294023953",
-      "source": "머니투데이",
-      "ts": 1784959758000,
-      "pub": "Sat, 25 Jul 2026 15:09:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "삼성전자, 브로드컴과 290조원 규모 AI 반도체 초대형 동맹",
       "link": "https://www.hankyung.com/article/202607255637i",
       "source": "한국경제",
       "ts": 1784959505000,
       "pub": "Sat, 25 Jul 2026 15:05:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아, 네이버에 10억달러 투자…AI 팩토리 200MW로 3배 확대",
-      "link": "https://www.mt.co.kr/tech/2026/07/25/2026072514254097594",
-      "source": "머니투데이",
-      "ts": 1784959310000,
-      "pub": "Sat, 25 Jul 2026 15:01:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK, 엔비디아와 AI 인프라 구축..MS와 메모리 장기 협력",
-      "link": "https://www.mt.co.kr/industry/2026/07/25/2026072513560232643",
-      "source": "머니투데이",
-      "ts": 1784957593000,
-      "pub": "Sat, 25 Jul 2026 14:33:13 +0900",
       "sentiment": "neutral"
     },
     {
@@ -81,14 +57,6 @@
       "source": "한국경제",
       "ts": 1784956625000,
       "pub": "Sat, 25 Jul 2026 14:17:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]靑 \"국내 기업과 글로벌 빅테크, 9500억달러 규모 반도체 협력\"",
-      "link": "https://www.mt.co.kr/politics/2026/07/25/2026072513050439609",
-      "source": "머니투데이",
-      "ts": 1784952381000,
-      "pub": "Sat, 25 Jul 2026 13:06:21 +0900",
       "sentiment": "neutral"
     },
     {

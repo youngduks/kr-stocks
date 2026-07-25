@@ -1,22 +1,62 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-25T01:28:05.656Z",
-  "count": 16,
+  "updated_at": "2026-07-25T04:54:32.662Z",
+  "count": 14,
   "items": [
+    {
+      "title": "靑 \"SK-엔비디아 등과 '5년간 7500억불' 메모리 공급 협력\"",
+      "link": "https://www.hankyung.com/article/2026072555707",
+      "source": "한국경제",
+      "ts": 1784952224000,
+      "pub": "Sat, 25 Jul 2026 13:03:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 靑 \"SK, 엔비디아 등과 5년간 7500억弗 메모리 공급 협력\"",
+      "link": "https://www.hankyung.com/article/202607255564i",
+      "source": "한국경제",
+      "ts": 1784952219000,
+      "pub": "Sat, 25 Jul 2026 13:03:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 삼성-브로드컴 '5년간 200억불' 첨단 메모리 반도체·파운드리 MOU 체결",
+      "link": "https://www.hankyung.com/article/2026072555697",
+      "source": "한국경제",
+      "ts": 1784952192000,
+      "pub": "Sat, 25 Jul 2026 13:03:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 靑 \"韓-글로벌 빅테크 반도체 기업간 9500억불 규모 협력 추진\"",
+      "link": "https://www.hankyung.com/article/2026072555677",
+      "source": "한국경제",
+      "ts": 1784952175000,
+      "pub": "Sat, 25 Jul 2026 13:02:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아·오픈AI도 불러모은 K반도체…\"韓없이 AI혁명도 없어\"",
+      "link": "https://www.yna.co.kr/view/AKR20260725031900091",
+      "source": "연합뉴스 국제",
+      "ts": 1784949148000,
+      "pub": "Sat, 25 Jul 2026 12:12:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아 따라가던 '만년 2등' AMD, 드디어 길이 보인다? [김인엽의 AI 프런티어]",
+      "link": "https://www.hankyung.com/article/202607244672i",
+      "source": "한국경제",
+      "ts": 1784944806000,
+      "pub": "Sat, 25 Jul 2026 11:00:06 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[속보] 네이버 이해진 \"엔비디아·브룩필드서 100억달러 거금 투자\"",
       "link": "https://www.hankyung.com/article/2026072554217",
       "source": "한국경제",
       "ts": 1784939765000,
       "pub": "Sat, 25 Jul 2026 09:36:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]이해진 네이버 의장 \"엔비디아, 브룩필드가 100억달러 투자…새 단계 도약 계기\"",
-      "link": "https://www.mt.co.kr/politics/2026/07/25/2026072509342523176",
-      "source": "머니투데이",
-      "ts": 1784939727000,
-      "pub": "Sat, 25 Jul 2026 09:35:27 +0900",
       "sentiment": "neutral"
     },
     {
@@ -52,68 +92,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[속보]젠슨 황 \"SK-엔비디아, 비즈니스 파트너십 발표…규모 5000억달러\"",
-      "link": "https://www.mt.co.kr/politics/2026/07/25/2026072508381080445",
-      "source": "머니투데이",
-      "ts": 1784936353000,
-      "pub": "Sat, 25 Jul 2026 08:39:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이재용·정의선·이해진, 美 엔비디아 본사서 젠슨 황 면담…사업 협력 논의",
-      "link": "https://www.mt.co.kr/industry/2026/07/25/2026072508163788678",
-      "source": "머니투데이",
-      "ts": 1784935441000,
-      "pub": "Sat, 25 Jul 2026 08:24:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "인텔까지 번진 '과다 지출 우려'…\"반도체 조정은 건강\" 64% [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202607255306i",
-      "source": "한국경제",
-      "ts": 1784933819000,
-      "pub": "Sat, 25 Jul 2026 07:56:59 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "정의선, 엔비디아 본사서 젠슨 황 면담…자율주행·로봇 협력 논의",
-      "link": "https://www.mt.co.kr/industry/2026/07/25/2026072507483615104",
-      "source": "머니투데이",
-      "ts": 1784933611000,
-      "pub": "Sat, 25 Jul 2026 07:53:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체로 번 돈 어디로…하반기 성장, '내수 낙수효과'에 달렸다",
-      "link": "https://www.mt.co.kr/economy/2026/07/25/2026072415514080431",
-      "source": "머니투데이",
-      "ts": 1784930400000,
-      "pub": "Sat, 25 Jul 2026 07:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "李 대통령 만난 앤트로픽 CEO \"韓 메모리 제조사와 협력\"",
-      "link": "https://www.hankyung.com/article/202607255272i",
-      "source": "한국경제",
-      "ts": 1784930329000,
-      "pub": "Sat, 25 Jul 2026 06:58:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "뉴욕증시, 유가 하락에도 반도체 약세에 혼조…나스닥 0.6%↓(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260725005651072",
       "source": "연합뉴스 국제",
       "ts": 1784927343000,
       "pub": "Sat, 25 Jul 2026 06:09:03 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "유가 하락에도 반도체 털어낸 시장…\"금리·실적부터 보자\"[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/07/25/2026072505495617727",
-      "source": "머니투데이",
-      "ts": 1784926394000,
-      "pub": "Sat, 25 Jul 2026 05:53:14 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "뉴욕증시, 유가 하락에도 반도체 약세에 혼조…나스닥 0.6%↓",

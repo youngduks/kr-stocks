@@ -1,14 +1,30 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-25T01:28:05.655Z",
-  "count": 8,
+  "updated_at": "2026-07-25T04:54:32.660Z",
+  "count": 5,
   "items": [
     {
-      "title": "이재용 회장 \"AI 시대, 글로벌 협력 필수…한미 강점 결합하면 많은 난제 해결\"",
-      "link": "https://www.mt.co.kr/politics/2026/07/25/2026072510204394298",
-      "source": "머니투데이",
-      "ts": 1784942572000,
-      "pub": "Sat, 25 Jul 2026 10:22:52 +0900",
+      "title": "靑 \"SK-엔비디아 등과 '5년간 7500억불' 메모리 공급 협력\"",
+      "link": "https://www.hankyung.com/article/2026072555707",
+      "source": "한국경제",
+      "ts": 1784952224000,
+      "pub": "Sat, 25 Jul 2026 13:03:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 靑 \"SK, 엔비디아 등과 5년간 7500억弗 메모리 공급 협력\"",
+      "link": "https://www.hankyung.com/article/202607255564i",
+      "source": "한국경제",
+      "ts": 1784952219000,
+      "pub": "Sat, 25 Jul 2026 13:03:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 삼성-브로드컴 '5년간 200억불' 첨단 메모리 반도체·파운드리 MOU 체결",
+      "link": "https://www.hankyung.com/article/2026072555697",
+      "source": "한국경제",
+      "ts": 1784952192000,
+      "pub": "Sat, 25 Jul 2026 13:03:12 +0900",
       "sentiment": "neutral"
     },
     {
@@ -25,46 +41,6 @@
       "source": "한국경제",
       "ts": 1784938067000,
       "pub": "Sat, 25 Jul 2026 09:07:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]이재용 회장 \"AI 시대 살아갈 다음 세대, 큰 꿈 누리도록 삼성이 모든 노력\"",
-      "link": "https://www.mt.co.kr/politics/2026/07/25/2026072509021846464",
-      "source": "머니투데이",
-      "ts": 1784937795000,
-      "pub": "Sat, 25 Jul 2026 09:03:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]이재용 회장 \"AI 시대, 한 기업이나 국가의 힘만으로 열어갈 수 없어\"",
-      "link": "https://www.mt.co.kr/politics/2026/07/25/2026072509001485605",
-      "source": "머니투데이",
-      "ts": 1784937678000,
-      "pub": "Sat, 25 Jul 2026 09:01:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이재용·정의선·이해진, 美 엔비디아 본사서 젠슨 황 면담…사업 협력 논의",
-      "link": "https://www.mt.co.kr/industry/2026/07/25/2026072508163788678",
-      "source": "머니투데이",
-      "ts": 1784935441000,
-      "pub": "Sat, 25 Jul 2026 08:24:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한 달간 30% 밀린 삼전닉스…지금 시점 투자전략 물어보니",
-      "link": "https://www.hankyung.com/article/202607244467i",
-      "source": "한국경제",
-      "ts": 1784934020000,
-      "pub": "Sat, 25 Jul 2026 08:00:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "李 대통령 만난 앤트로픽 CEO \"韓 메모리 제조사와 협력\"",
-      "link": "https://www.hankyung.com/article/202607255272i",
-      "source": "한국경제",
-      "ts": 1784930329000,
-      "pub": "Sat, 25 Jul 2026 06:58:49 +0900",
       "sentiment": "neutral"
     }
   ]

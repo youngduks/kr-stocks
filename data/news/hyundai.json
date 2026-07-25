@@ -1,46 +1,54 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-25T07:08:26.110Z",
-  "count": 5,
+  "updated_at": "2026-07-25T09:25:45.040Z",
+  "count": 6,
   "items": [
+    {
+      "title": "정의선 \"빅테크와 피지컬 AI 혁신 생태계 구축\"…젠슨 황과 회동",
+      "link": "https://www.hankyung.com/article/202607255694i",
+      "source": "한국경제",
+      "ts": 1784964038000,
+      "pub": "Sat, 25 Jul 2026 16:20:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정의선 회장 \" 글로벌 최고 수준 휴머노이드 상용화 시점 앞당길 것\"",
+      "link": "https://www.mt.co.kr/politics/2026/07/25/2026072515425911711",
+      "source": "머니투데이",
+      "ts": 1784961962000,
+      "pub": "Sat, 25 Jul 2026 15:46:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정의선 '피지컬 AI 비전' 첫 실현 무대는 새만금..'엔비디아 참여' 기대도",
+      "link": "https://www.mt.co.kr/industry/2026/07/25/2026072515362254868",
+      "source": "머니투데이",
+      "ts": 1784961956000,
+      "pub": "Sat, 25 Jul 2026 15:45:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정의선 현대차그룹 회장 \"국내 로봇·AI 기술 고도화 위한 생태계 조성\"",
+      "link": "https://www.hankyung.com/article/202607255631g",
+      "source": "한국경제",
+      "ts": 1784960040000,
+      "pub": "Sat, 25 Jul 2026 15:14:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"차·로봇서 시작해 도시 지능화로\"…정의선 '피지컬 AI' 비전 첫 공개",
+      "link": "https://www.mt.co.kr/industry/2026/07/25/2026072514420763087",
+      "source": "머니투데이",
+      "ts": 1784958637000,
+      "pub": "Sat, 25 Jul 2026 14:50:37 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[속보]현대차, 엔비디아와 '로봇 레퍼런스 플랫폼' 구축…개방형 생태계 조성",
       "link": "https://www.hankyung.com/article/2026072556157",
       "source": "한국경제",
       "ts": 1784956681000,
       "pub": "Sat, 25 Jul 2026 14:18:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 정의선 \"대한민국이 피지컬 AI 산업 주도하는 중심지 될 것\"",
-      "link": "https://www.hankyung.com/article/2026072554267",
-      "source": "한국경제",
-      "ts": 1784940242000,
-      "pub": "Sat, 25 Jul 2026 09:44:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 정의선 \"현대차 추구 피지컬 AI는 도시 레벨의 통합 지능화\"",
-      "link": "https://www.hankyung.com/article/2026072554227",
-      "source": "한국경제",
-      "ts": 1784939923000,
-      "pub": "Sat, 25 Jul 2026 09:38:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 정의선 회장 \"엔비디아·구글 등과 협력, 피지컬 AI 구현 가속화\"",
-      "link": "https://www.hankyung.com/article/2026072554157",
-      "source": "한국경제",
-      "ts": 1784939286000,
-      "pub": "Sat, 25 Jul 2026 09:28:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'깐부' 정의선·젠슨 황, 엔비디아 본사에서 회동…AI 후속 논의",
-      "link": "https://www.hankyung.com/article/202607255391g",
-      "source": "한국경제",
-      "ts": 1784938552000,
-      "pub": "Sat, 25 Jul 2026 09:15:52 +0900",
       "sentiment": "neutral"
     }
   ]

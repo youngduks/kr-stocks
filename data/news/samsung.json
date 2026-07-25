@@ -1,14 +1,54 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-25T07:08:26.109Z",
-  "count": 7,
+  "updated_at": "2026-07-25T09:25:45.039Z",
+  "count": 13,
   "items": [
+    {
+      "title": "삼성·SK, 美 빅테크와 9500억달러 'AI 동맹'…메모리·파운드리 전방위 구축",
+      "link": "https://www.hankyung.com/article/202607255676i",
+      "source": "한국경제",
+      "ts": 1784962335000,
+      "pub": "Sat, 25 Jul 2026 15:52:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이재용·올트먼, 오픈AI 본사서 회동…'HBM·파운드리 협의' 관측",
+      "link": "https://www.hankyung.com/article/2026072556727",
+      "source": "한국경제",
+      "ts": 1784961291000,
+      "pub": "Sat, 25 Jul 2026 15:34:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 30% 빠질 때 웃었다…조용히 오른 '효자 종목' 정체 [이수의 ETF줌인]",
+      "link": "https://www.hankyung.com/article/2026072442996",
+      "source": "한국경제",
+      "ts": 1784960055000,
+      "pub": "Sat, 25 Jul 2026 15:14:15 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성전자, 브로드컴과 290조원 규모 AI 반도체 초대형 동맹",
       "link": "https://www.hankyung.com/article/202607255637i",
       "source": "한국경제",
       "ts": 1784959505000,
       "pub": "Sat, 25 Jul 2026 15:05:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 브로드컴과 2000억불 협력…이재용 \"완벽한 생태계 구축\"",
+      "link": "https://www.mt.co.kr/industry/2026/07/25/2026072514191072901",
+      "source": "머니투데이",
+      "ts": 1784957987000,
+      "pub": "Sat, 25 Jul 2026 14:39:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK, 엔비디아와 AI 인프라 구축..MS와 메모리 장기 협력",
+      "link": "https://www.mt.co.kr/industry/2026/07/25/2026072513560232643",
+      "source": "머니투데이",
+      "ts": 1784957593000,
+      "pub": "Sat, 25 Jul 2026 14:33:13 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,6 +68,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "[속보]靑 \"삼성전자, 브로드컴과 5년간 2000억달러 업무협약 체결\"",
+      "link": "https://www.mt.co.kr/politics/2026/07/25/2026072513071689393",
+      "source": "머니투데이",
+      "ts": 1784952494000,
+      "pub": "Sat, 25 Jul 2026 13:08:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "[속보] 靑 \"SK, 엔비디아 등과 5년간 7500억弗 메모리 공급 협력\"",
       "link": "https://www.hankyung.com/article/202607255564i",
       "source": "한국경제",
@@ -44,19 +92,19 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[속보] 최태원 회장 \"브로드컴, 깜짝 놀랄 숫자의 메모리칩 계속 요구\"",
-      "link": "https://www.hankyung.com/article/2026072554147",
-      "source": "한국경제",
-      "ts": 1784939254000,
-      "pub": "Sat, 25 Jul 2026 09:27:34 +0900",
+      "title": "\"한국은 부자\" 농담 속…李대통령, 이재용·젠슨황과 \"우리는 식구다\" 건배사",
+      "link": "https://www.mt.co.kr/politics/2026/07/25/2026072512270365974",
+      "source": "머니투데이",
+      "ts": 1784950353000,
+      "pub": "Sat, 25 Jul 2026 12:32:33 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[속보] 이재용 회장 \"AI 생태계 구축 위해 글로벌 협력 필수적\"",
-      "link": "https://www.hankyung.com/article/2026072553997",
-      "source": "한국경제",
-      "ts": 1784938067000,
-      "pub": "Sat, 25 Jul 2026 09:07:47 +0900",
+      "title": "이재용 회장 \"AI 시대, 글로벌 협력 필수…한미 강점 결합하면 많은 난제 해결\"",
+      "link": "https://www.mt.co.kr/politics/2026/07/25/2026072510204394298",
+      "source": "머니투데이",
+      "ts": 1784942572000,
+      "pub": "Sat, 25 Jul 2026 10:22:52 +0900",
       "sentiment": "neutral"
     }
   ]

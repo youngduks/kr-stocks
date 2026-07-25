@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-25T07:08:26.108Z",
+  "updated_at": "2026-07-25T09:25:45.038Z",
   "count": 25,
   "items": [
+    {
+      "title": "미군, 2주만에 이란공습 발표안해…트럼프는 '이란대화' 언급",
+      "link": "https://www.yna.co.kr/view/AKR20260725048400009",
+      "source": "연합뉴스 국제",
+      "ts": 1784965469000,
+      "pub": "Sat, 25 Jul 2026 16:44:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "말레이 '이스라엘인 입국금지' 놓고 美와 갈등…주미대사 초치돼",
+      "link": "https://www.yna.co.kr/view/AKR20260725047200084",
+      "source": "연합뉴스 국제",
+      "ts": 1784964210000,
+      "pub": "Sat, 25 Jul 2026 16:23:30 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "나토서 전용기 바꿔탄 트럼프…\"이란 암살위협 신빙성 있다 판단\"",
       "link": "https://www.yna.co.kr/view/AKR20260725036100009",
@@ -17,6 +33,14 @@
       "source": "연합뉴스 국제",
       "ts": 1784952462000,
       "pub": "Sat, 25 Jul 2026 13:07:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 백악관 만찬서 \"이란 타격 성공\"…네타냐후 방미 예고",
+      "link": "https://www.mt.co.kr/world/2026/07/25/2026072512030829560",
+      "source": "머니투데이",
+      "ts": 1784952040000,
+      "pub": "Sat, 25 Jul 2026 13:00:40 +0900",
       "sentiment": "neutral"
     },
     {
@@ -177,30 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784880466000,
       "pub": "Fri, 24 Jul 2026 17:07:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "아태 국가들 \"美 강제노동 관세는 부당…근거 없다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260724134100084",
-      "source": "연합뉴스 국제",
-      "ts": 1784877125000,
-      "pub": "Fri, 24 Jul 2026 16:12:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] '도살자'에 밀려난 우크라 드론 영웅의 놀라운 반격",
-      "link": "https://www.yna.co.kr/view/AKR20260724131900797",
-      "source": "연합뉴스 국제",
-      "ts": 1784876466000,
-      "pub": "Fri, 24 Jul 2026 16:01:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] '드론장관 해임' 역풍 맞은 젤렌스키…우크라 군 총사령관 교체",
-      "link": "https://www.yna.co.kr/view/AKR20260724126100704",
-      "source": "연합뉴스 국제",
-      "ts": 1784875782000,
-      "pub": "Fri, 24 Jul 2026 15:49:42 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-26T12:54:13.168Z",
-  "count": 5,
+  "updated_at": "2026-07-26T14:22:32.972Z",
+  "count": 9,
   "items": [
+    {
+      "title": "'몸값 125조' 메모리 공룡 CXMT, 中 증시 상장…심전닉스에 도전장",
+      "link": "https://www.hankyung.com/article/2026072667517",
+      "source": "한국경제",
+      "ts": 1785070930000,
+      "pub": "Sun, 26 Jul 2026 22:02:10 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'최태원부터 이재용까지'…재벌가 이혼·재산분할 어떻게 달랐나",
       "link": "https://www.hankyung.com/article/2026072667217",
@@ -36,12 +44,36 @@
       "sentiment": "neutral"
     },
     {
+      "title": "'리밸런싱 재개' 연기금, 이달 순매수…하이닉스 사고 삼전 팔아",
+      "link": "https://www.yna.co.kr/view/AKR20260725032100008",
+      "source": "연합뉴스 경제",
+      "ts": 1785015002000,
+      "pub": "Sun, 26 Jul 2026 06:30:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "중국 메모리 도입 놓고 애플-마이크론 갈등…가운데 낀 트럼프",
       "link": "https://www.yna.co.kr/view/AKR20260725052800009",
       "source": "연합뉴스 국제",
       "ts": 1784972394000,
       "pub": "Sat, 25 Jul 2026 18:39:54 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "'HBM 1위' 한국, AI 3강 노린다…샌프란 선언 현주소는",
+      "link": "https://www.yna.co.kr/view/AKR20260725028900017",
+      "source": "연합뉴스 경제",
+      "ts": 1784945821000,
+      "pub": "Sat, 25 Jul 2026 11:17:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전·닉스, 7∼8%대 급락…외국인·기관 모두 던졌다(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260724046151008",
+      "source": "연합뉴스 경제",
+      "ts": 1784876409000,
+      "pub": "Fri, 24 Jul 2026 16:00:09 +0900",
+      "sentiment": "negative"
     }
   ]
 }

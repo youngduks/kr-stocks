@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-26T12:54:13.167Z",
-  "count": 21,
+  "updated_at": "2026-07-26T14:22:32.971Z",
+  "count": 24,
   "items": [
+    {
+      "title": "\"이란과 대화\" 트럼프 공습 멈췄지만…미사일 고갈·유가 '또다른 사정'",
+      "link": "https://www.mt.co.kr/world/2026/07/26/2026072614433631353",
+      "source": "머니투데이",
+      "ts": 1785054642000,
+      "pub": "Sun, 26 Jul 2026 17:30:42 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "오스트리아 \"우크라 여전히 전쟁 중…몇년 내 EU 가입 어려워\"",
       "link": "https://www.yna.co.kr/view/AKR20260726042800082",
@@ -76,11 +84,27 @@
       "sentiment": "neutral"
     },
     {
+      "title": "뛰는 유가에 물가 불안 우려…금리·관세·환율도 '경고등'",
+      "link": "https://www.yna.co.kr/view/AKR20260725049700002",
+      "source": "연합뉴스 경제",
+      "ts": 1785015001000,
+      "pub": "Sun, 26 Jul 2026 06:30:01 +0900",
+      "sentiment": "negative"
+    },
+    {
       "title": "\"트럼프, '24일 이란 공격 말라' 지시\"…공습 소강국면 이어질까",
       "link": "https://www.yna.co.kr/view/AKR20260726004000071",
       "source": "연합뉴스 국제",
       "ts": 1785013576000,
       "pub": "Sun, 26 Jul 2026 06:06:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美무역법 301조 절반은 관세 안물었다…'과잉생산' 협상력 관건",
+      "link": "https://www.yna.co.kr/view/AKR20260725054600003",
+      "source": "연합뉴스 경제",
+      "ts": 1785013380000,
+      "pub": "Sun, 26 Jul 2026 06:03:00 +0900",
       "sentiment": "neutral"
     },
     {

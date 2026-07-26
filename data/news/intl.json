@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-26T08:04:41.138Z",
-  "count": 23,
+  "updated_at": "2026-07-26T10:27:02.022Z",
+  "count": 24,
   "items": [
+    {
+      "title": "\"이란과 대화\" 트럼프 공습 멈췄지만…미사일 고갈·유가 '또다른 사정'",
+      "link": "https://www.mt.co.kr/world/2026/07/26/2026072614433631353",
+      "source": "머니투데이",
+      "ts": 1785054642000,
+      "pub": "Sun, 26 Jul 2026 17:30:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "오스트리아 \"우크라 여전히 전쟁 중…몇년 내 EU 가입 어려워\"",
+      "link": "https://www.yna.co.kr/view/AKR20260726042800082",
+      "source": "연합뉴스 국제",
+      "ts": 1785054119000,
+      "pub": "Sun, 26 Jul 2026 17:21:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "버넘 \"영국 이익에 부합하면 트럼프 공개비판도 불사\"",
+      "link": "https://www.yna.co.kr/view/AKR20260726042000085",
+      "source": "연합뉴스 국제",
+      "ts": 1785053549000,
+      "pub": "Sun, 26 Jul 2026 17:12:29 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "백악관 이란전쟁 영상에 히트곡 쓰인 케이티 페리 \"용납 못 해\"",
       "link": "https://www.yna.co.kr/view/AKR20260726039600009",
@@ -169,22 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784930670000,
       "pub": "Sat, 25 Jul 2026 07:04:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"우리에겐 다양한 형태 관세 있어…관세덕에 투자 유치\"",
-      "link": "https://www.yna.co.kr/view/AKR20260725007600071",
-      "source": "연합뉴스 국제",
-      "ts": 1784928037000,
-      "pub": "Sat, 25 Jul 2026 06:20:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 진지하게 대화중…즉시 행동할 준비도 돼있어\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260725002551071",
-      "source": "연합뉴스 국제",
-      "ts": 1784926718000,
-      "pub": "Sat, 25 Jul 2026 05:58:38 +0900",
       "sentiment": "neutral"
     }
   ]

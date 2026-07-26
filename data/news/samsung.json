@@ -1,22 +1,46 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-26T08:04:41.139Z",
-  "count": 3,
+  "updated_at": "2026-07-26T10:27:02.023Z",
+  "count": 6,
   "items": [
     {
-      "title": "이재용, 오픈AI 본사서 샘 올트먼 만났다…AI·반도체 협력 주목",
-      "link": "https://www.hankyung.com/article/2026072664017",
-      "source": "한국경제",
-      "ts": 1785047958000,
-      "pub": "Sun, 26 Jul 2026 15:39:18 +0900",
+      "title": "'삼전·닉스 도전' CXMT, 내일 中증시 데뷔…본토 시총1위 오를까",
+      "link": "https://www.yna.co.kr/view/AKR20260726045000089",
+      "source": "연합뉴스 국제",
+      "ts": 1785058498000,
+      "pub": "Sun, 26 Jul 2026 18:34:58 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "애플, '후려치기'에 결국 발목 잡혔다…'슈퍼을' 메모리의 반란",
-      "link": "https://www.hankyung.com/article/202607266251i",
+      "title": "칩 가격 폭등이 부른 '슈퍼을' 메모리의 반란",
+      "link": "https://www.hankyung.com/article/2026072666441",
       "source": "한국경제",
-      "ts": 1785036553000,
-      "pub": "Sun, 26 Jul 2026 12:29:13 +0900",
+      "ts": 1785057560000,
+      "pub": "Sun, 26 Jul 2026 18:19:20 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[포토] 삼성 '뉴 갤럭시 AI 구독클럽' 강화",
+      "link": "https://www.hankyung.com/article/2026072665811",
+      "source": "한국경제",
+      "ts": 1785057471000,
+      "pub": "Sun, 26 Jul 2026 18:17:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이재용-샘 올트먼 회동…AI 인프라·AX 협력 강화",
+      "link": "https://www.mt.co.kr/tech/2026/07/26/2026072614522335329",
+      "source": "머니투데이",
+      "ts": 1785046409000,
+      "pub": "Sun, 26 Jul 2026 15:13:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"메모리·파운드리 다 되네\"…삼성, 브로드컴 300조 잭팟? \"이제 시작\"",
+      "link": "https://www.mt.co.kr/industry/2026/07/26/2026072613225515511",
+      "source": "머니투데이",
+      "ts": 1785045640000,
+      "pub": "Sun, 26 Jul 2026 15:00:40 +0900",
       "sentiment": "neutral"
     },
     {

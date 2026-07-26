@@ -1,22 +1,30 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-26T01:42:01.784Z",
-  "count": 31,
+  "updated_at": "2026-07-26T05:19:39.367Z",
+  "count": 26,
   "items": [
     {
-      "title": "젤렌스키 \"러시아, 북한군 3만명·탄도미사일 추가 배치 준비 중\"",
-      "link": "https://www.mt.co.kr/world/2026/07/26/2026072608391031947",
-      "source": "머니투데이",
-      "ts": 1785024035000,
-      "pub": "Sun, 26 Jul 2026 09:00:35 +0900",
+      "title": "\"'카타르 선물' 전용기, 트럼프 조기투입 압박에 부실 개조\"",
+      "link": "https://www.yna.co.kr/view/AKR20260726024900009",
+      "source": "연합뉴스 국제",
+      "ts": 1785032881000,
+      "pub": "Sun, 26 Jul 2026 11:28:01 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "미·러·이스라엘 반대에도…UN 인권최고대표 연임 확정",
-      "link": "https://www.mt.co.kr/world/2026/07/26/2026072608335514232",
+      "title": "미 301조 관세에도…올해 수출 1조달러·5강 진입 이상무",
+      "link": "https://www.mt.co.kr/economy/2026/07/26/2026072610015258358",
       "source": "머니투데이",
-      "ts": 1785022551000,
-      "pub": "Sun, 26 Jul 2026 08:35:51 +0900",
+      "ts": 1785031431000,
+      "pub": "Sun, 26 Jul 2026 11:03:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, '방공미사일 부족' 보고에 이란 대규모 공격 보류\"",
+      "link": "https://www.yna.co.kr/view/AKR20260726022200009",
+      "source": "연합뉴스 국제",
+      "ts": 1785030196000,
+      "pub": "Sun, 26 Jul 2026 10:43:16 +0900",
       "sentiment": "neutral"
     },
     {
@@ -25,14 +33,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785021043000,
       "pub": "Sun, 26 Jul 2026 08:10:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 이란 공습 중단 지시\"…호르무즈 개방 협상안 '변수'",
-      "link": "https://www.mt.co.kr/world/2026/07/26/2026072607070299288",
-      "source": "머니투데이",
-      "ts": 1785017458000,
-      "pub": "Sun, 26 Jul 2026 07:10:58 +0900",
       "sentiment": "neutral"
     },
     {
@@ -57,14 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785013576000,
       "pub": "Sun, 26 Jul 2026 06:06:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "큰폭으로 벌어진 CPI·GDP디플레이터 상승률…48년만 최대",
-      "link": "https://www.mt.co.kr/economy/2026/07/26/2026072413095061920",
-      "source": "머니투데이",
-      "ts": 1785013200000,
-      "pub": "Sun, 26 Jul 2026 06:00:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -217,38 +209,6 @@
       "source": "연합뉴스 국제",
       "ts": 1784914190000,
       "pub": "Sat, 25 Jul 2026 02:29:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프, EU 구글 과징금에 '무역법 301조 관세' 위협",
-      "link": "https://www.yna.co.kr/view/AKR20260725001900071",
-      "source": "연합뉴스 국제",
-      "ts": 1784913138000,
-      "pub": "Sat, 25 Jul 2026 02:12:18 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'총격 파행' 백악관기자단 만찬 오늘 재개…트럼프, 보안강화 속 참석",
-      "link": "https://www.yna.co.kr/view/AKR20260725001400071",
-      "source": "연합뉴스 국제",
-      "ts": 1784911141000,
-      "pub": "Sat, 25 Jul 2026 01:39:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"물가 안정되나 했는데…\" 트럼프 새 관세, 美경제도 위협",
-      "link": "https://www.yna.co.kr/view/AKR20260725000300072",
-      "source": "연합뉴스 국제",
-      "ts": 1784907084000,
-      "pub": "Sat, 25 Jul 2026 00:31:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘 총리실 \"네타냐후, 28일 워싱턴서 트럼프와 회담\"",
-      "link": "https://www.yna.co.kr/view/AKR20260724181800079",
-      "source": "연합뉴스 국제",
-      "ts": 1784905194000,
-      "pub": "Fri, 24 Jul 2026 23:59:54 +0900",
       "sentiment": "neutral"
     }
   ]

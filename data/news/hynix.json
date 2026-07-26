@@ -1,14 +1,54 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-26T01:42:01.786Z",
-  "count": 10,
+  "updated_at": "2026-07-26T05:19:39.369Z",
+  "count": 11,
   "items": [
     {
-      "title": "애플 中 메모리 도입 추진에 마이크론 반발…삼성·SK '촉각'[IT썰]",
-      "link": "https://www.mt.co.kr/tech/2026/07/26/2026072522050736790",
+      "title": "SK하이닉스 실적·한미 반도체 협력에 'AI 투심' 살아날까",
+      "link": "https://www.mt.co.kr/stock/2026/07/26/2026072614001660701",
       "source": "머니투데이",
-      "ts": 1785024722000,
-      "pub": "Sun, 26 Jul 2026 09:12:02 +0900",
+      "ts": 1785042814000,
+      "pub": "Sun, 26 Jul 2026 14:13:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "에이피알, 뷰티 디바이스 반도체 R&D 박차…\"핵심기술 내재화\"",
+      "link": "https://www.mt.co.kr/living/2026/07/26/2026072610333594423",
+      "source": "머니투데이",
+      "ts": 1785037218000,
+      "pub": "Sun, 26 Jul 2026 12:40:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "애플, '후려치기'에 결국 발목 잡혔다…'슈퍼을' 메모리의 반란",
+      "link": "https://www.hankyung.com/article/202607266251i",
+      "source": "한국경제",
+      "ts": 1785036553000,
+      "pub": "Sun, 26 Jul 2026 12:29:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "8월 제조업 전망 '흐림'…반도체 VS 비반도체 온도차",
+      "link": "https://www.mt.co.kr/economy/2026/07/26/2026072609541066786",
+      "source": "머니투데이",
+      "ts": 1785031200000,
+      "pub": "Sun, 26 Jul 2026 11:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "네이버·엔비디아·브룩필드 14조 동맹…亞 최대 AI 허브 띄운다",
+      "link": "https://www.hankyung.com/article/202607266169i",
+      "source": "한국경제",
+      "ts": 1785029431000,
+      "pub": "Sun, 26 Jul 2026 10:30:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스, 키옥시아 최대주주되나…日언론은 \"투자주의\" [도쿄나우]",
+      "link": "https://www.hankyung.com/article/202607266110i",
+      "source": "한국경제",
+      "ts": 1785027457000,
+      "pub": "Sun, 26 Jul 2026 09:57:37 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,43 +60,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "李대통령 \"반도체 넘어 피지컬 AI로…대체불가 대한민국 만들 것\"",
-      "link": "https://www.hankyung.com/article/2026072659647",
-      "source": "한국경제",
-      "ts": 1785018734000,
-      "pub": "Sun, 26 Jul 2026 07:32:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'중국의 삼성' 꿈꾸는 창신메모리[차이나는 중국]",
-      "link": "https://www.mt.co.kr/opinion/2026/07/26/2026072316460994214",
-      "source": "머니투데이",
-      "ts": 1785013200000,
-      "pub": "Sun, 26 Jul 2026 06:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "메모리 부족은 시작일 뿐…AI 시대 돈이 향하는 곳은 [빈난새의 빈틈없이월가]",
-      "link": "https://www.hankyung.com/article/202607255242i",
-      "source": "한국경제",
-      "ts": 1784984889000,
-      "pub": "Sat, 25 Jul 2026 22:08:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "중국 메모리 도입 놓고 애플-마이크론 갈등…가운데 낀 트럼프",
       "link": "https://www.yna.co.kr/view/AKR20260725052800009",
       "source": "연합뉴스 국제",
       "ts": 1784972394000,
       "pub": "Sat, 25 Jul 2026 18:39:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "최태원 \"메가 프로젝트, 韓 성장 위한 것\"…SK, 엔비디아와 AI 동맹",
-      "link": "https://www.hankyung.com/article/202607255728i",
-      "source": "한국경제",
-      "ts": 1784970114000,
-      "pub": "Sat, 25 Jul 2026 18:01:54 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,22 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-25T23:49:26.740Z",
-  "count": 10,
+  "updated_at": "2026-07-26T01:42:01.785Z",
+  "count": 5,
   "items": [
+    {
+      "title": "애플 中 메모리 도입 추진에 마이크론 반발…삼성·SK '촉각'[IT썰]",
+      "link": "https://www.mt.co.kr/tech/2026/07/26/2026072522050736790",
+      "source": "머니투데이",
+      "ts": 1785024722000,
+      "pub": "Sun, 26 Jul 2026 09:12:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "최재인 \"삼성전자 스마트 글라스, AI 경험 확장하는 계기 될 것\"",
       "link": "https://www.hankyung.com/article/202607265833i",
       "source": "한국경제",
       "ts": 1785020404000,
       "pub": "Sun, 26 Jul 2026 08:00:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'리밸런싱 재개' 연기금, 이달 순매수…하이닉스 사고 삼전 팔아",
-      "link": "https://www.yna.co.kr/view/AKR20260725032100008",
-      "source": "연합뉴스 경제",
-      "ts": 1785015002000,
-      "pub": "Sun, 26 Jul 2026 06:30:02 +0900",
       "sentiment": "neutral"
     },
     {
@@ -42,46 +42,6 @@
       "ts": 1784972394000,
       "pub": "Sat, 25 Jul 2026 18:39:54 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "삼성·SK, 美 빅테크와 9500억달러 'AI 동맹'…메모리·파운드리 전방위 구축",
-      "link": "https://www.hankyung.com/article/202607255676i",
-      "source": "한국경제",
-      "ts": 1784962335000,
-      "pub": "Sat, 25 Jul 2026 15:52:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이재용·올트먼, 오픈AI 본사서 회동…'HBM·파운드리 협의' 관측",
-      "link": "https://www.hankyung.com/article/2026072556727",
-      "source": "한국경제",
-      "ts": 1784961291000,
-      "pub": "Sat, 25 Jul 2026 15:34:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 30% 빠질 때 웃었다…조용히 오른 '효자 종목' 정체 [이수의 ETF줌인]",
-      "link": "https://www.hankyung.com/article/2026072442996",
-      "source": "한국경제",
-      "ts": 1784960055000,
-      "pub": "Sat, 25 Jul 2026 15:14:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'HBM 1위' 한국, AI 3강 노린다…샌프란 선언 현주소는",
-      "link": "https://www.yna.co.kr/view/AKR20260725028900017",
-      "source": "연합뉴스 경제",
-      "ts": 1784945821000,
-      "pub": "Sat, 25 Jul 2026 11:17:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전·닉스, 7∼8%대 급락…외국인·기관 모두 던졌다(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260724046151008",
-      "source": "연합뉴스 경제",
-      "ts": 1784876409000,
-      "pub": "Fri, 24 Jul 2026 16:00:09 +0900",
-      "sentiment": "negative"
     }
   ]
 }

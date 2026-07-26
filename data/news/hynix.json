@@ -1,30 +1,30 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-25T23:49:26.741Z",
-  "count": 16,
+  "updated_at": "2026-07-26T01:42:01.786Z",
+  "count": 10,
   "items": [
+    {
+      "title": "애플 中 메모리 도입 추진에 마이크론 반발…삼성·SK '촉각'[IT썰]",
+      "link": "https://www.mt.co.kr/tech/2026/07/26/2026072522050736790",
+      "source": "머니투데이",
+      "ts": 1785024722000,
+      "pub": "Sun, 26 Jul 2026 09:12:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "퇴직연금도 반도체 쏠림...美 장기채, 테슬라는 팔았다",
+      "link": "https://www.hankyung.com/article/202607244284i",
+      "source": "한국경제",
+      "ts": 1785024008000,
+      "pub": "Sun, 26 Jul 2026 09:00:08 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "李대통령 \"반도체 넘어 피지컬 AI로…대체불가 대한민국 만들 것\"",
       "link": "https://www.hankyung.com/article/2026072659647",
       "source": "한국경제",
       "ts": 1785018734000,
       "pub": "Sun, 26 Jul 2026 07:32:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 업은 크레딧물…높아진 캐리 매력에 투심 살아날까",
-      "link": "https://www.yna.co.kr/view/AKR20260725026700008",
-      "source": "연합뉴스 경제",
-      "ts": 1785015301000,
-      "pub": "Sun, 26 Jul 2026 06:35:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'리밸런싱 재개' 연기금, 이달 순매수…하이닉스 사고 삼전 팔아",
-      "link": "https://www.yna.co.kr/view/AKR20260725032100008",
-      "source": "연합뉴스 경제",
-      "ts": 1785015002000,
-      "pub": "Sun, 26 Jul 2026 06:30:02 +0900",
       "sentiment": "neutral"
     },
     {
@@ -60,51 +60,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "삼성·SK, 美 빅테크와 9500억달러 'AI 동맹'…메모리·파운드리 전방위 구축",
-      "link": "https://www.hankyung.com/article/202607255676i",
-      "source": "한국경제",
-      "ts": 1784962335000,
-      "pub": "Sat, 25 Jul 2026 15:52:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이재용·올트먼, 오픈AI 본사서 회동…'HBM·파운드리 협의' 관측",
-      "link": "https://www.hankyung.com/article/2026072556727",
-      "source": "한국경제",
-      "ts": 1784961291000,
-      "pub": "Sat, 25 Jul 2026 15:34:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이해진 \"엔비디아·브룩필드, 네이버에 14조6천억원 투자\"",
-      "link": "https://www.yna.co.kr/view/AKR20260725033600017",
-      "source": "연합뉴스 경제",
-      "ts": 1784950159000,
-      "pub": "Sat, 25 Jul 2026 12:29:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "엔비디아·오픈AI도 불러모은 K반도체…\"韓없이 AI혁명도 없어\"",
       "link": "https://www.yna.co.kr/view/AKR20260725031900091",
       "source": "연합뉴스 국제",
       "ts": 1784949148000,
       "pub": "Sat, 25 Jul 2026 12:12:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'HBM 1위' 한국, AI 3강 노린다…샌프란 선언 현주소는",
-      "link": "https://www.yna.co.kr/view/AKR20260725028900017",
-      "source": "연합뉴스 경제",
-      "ts": 1784945821000,
-      "pub": "Sat, 25 Jul 2026 11:17:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[다음주 경제] 반도체 생산 얼마나 늘었을까…인구주택총조사 결과 공개",
-      "link": "https://www.yna.co.kr/view/AKR20260725016200002",
-      "source": "연합뉴스 경제",
-      "ts": 1784936936000,
-      "pub": "Sat, 25 Jul 2026 08:48:56 +0900",
       "sentiment": "neutral"
     },
     {
@@ -122,14 +82,6 @@
       "ts": 1784924681000,
       "pub": "Sat, 25 Jul 2026 05:24:41 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "강달러도 누른 하이닉스 효과…환율 0.2원 내린 1,466.6원",
-      "link": "https://www.yna.co.kr/view/AKR20260724129300002",
-      "source": "연합뉴스 경제",
-      "ts": 1784876679000,
-      "pub": "Fri, 24 Jul 2026 16:04:39 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-26T22:47:59.235Z",
-  "count": 2,
+  "updated_at": "2026-07-26T23:50:39.117Z",
+  "count": 26,
   "items": [
+    {
+      "title": "\"美중부사령관, 트럼프에 '호르무즈 제한 공습' 중단 권고\"",
+      "link": "https://www.yna.co.kr/view/AKR20260727021400009",
+      "source": "연합뉴스 국제",
+      "ts": 1785109089000,
+      "pub": "Mon, 27 Jul 2026 08:38:09 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "기술주 운명 가를 빅테크·반도체 실적…FOMC, 커지는 금리 인상 전망[이번주 美 증시는]",
       "link": "https://www.mt.co.kr/world/2026/07/27/2026072522004290240",
@@ -12,12 +20,196 @@
       "sentiment": "neutral"
     },
     {
+      "title": "트럼프 정부 '강제노동 관세' 띄우기…야당선 \"구실 불과\" 비판",
+      "link": "https://www.yna.co.kr/view/AKR20260727002600071",
+      "source": "연합뉴스 국제",
+      "ts": 1785094108000,
+      "pub": "Mon, 27 Jul 2026 04:28:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "빅테크 실적·FOMC… 슈퍼위크 '훈풍' 기대감",
       "link": "https://www.mt.co.kr/stock/2026/07/27/2026072619400563114",
       "source": "머니투데이",
       "ts": 1785092400000,
       "pub": "Mon, 27 Jul 2026 04:00:00 +0900",
       "sentiment": "positive"
+    },
+    {
+      "title": "진짜 농담일까…트럼프 툭하면 '3선' 언급에 '2028' 모자까지",
+      "link": "https://www.yna.co.kr/view/AKR20260727000900071",
+      "source": "연합뉴스 국제",
+      "ts": 1785083536000,
+      "pub": "Mon, 27 Jul 2026 01:32:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 이란전 출구전략 갈팡질팡…NYT \"구미맞는 선택지 없어\"",
+      "link": "https://www.yna.co.kr/view/AKR20260726057200071",
+      "source": "연합뉴스 국제",
+      "ts": 1785079751000,
+      "pub": "Mon, 27 Jul 2026 00:29:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "오스트리아 \"우크라 여전히 전쟁 중…몇년 내 EU 가입 어려워\"",
+      "link": "https://www.yna.co.kr/view/AKR20260726042800082",
+      "source": "연합뉴스 국제",
+      "ts": 1785054119000,
+      "pub": "Sun, 26 Jul 2026 17:21:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "버넘 \"영국 이익에 부합하면 트럼프 공개비판도 불사\"",
+      "link": "https://www.yna.co.kr/view/AKR20260726042000085",
+      "source": "연합뉴스 국제",
+      "ts": 1785053549000,
+      "pub": "Sun, 26 Jul 2026 17:12:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "백악관 이란전쟁 영상에 히트곡 쓰인 케이티 페리 \"용납 못 해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260726039600009",
+      "source": "연합뉴스 국제",
+      "ts": 1785052428000,
+      "pub": "Sun, 26 Jul 2026 16:53:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 정부, 대선 때 해리스 지지한 주들에 연방보조금 중단",
+      "link": "https://www.yna.co.kr/view/AKR20260726036700009",
+      "source": "연합뉴스 국제",
+      "ts": 1785048836000,
+      "pub": "Sun, 26 Jul 2026 15:53:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"'카타르 선물' 전용기, 트럼프 조기투입 압박에 부실 개조\"",
+      "link": "https://www.yna.co.kr/view/AKR20260726024900009",
+      "source": "연합뉴스 국제",
+      "ts": 1785032881000,
+      "pub": "Sun, 26 Jul 2026 11:28:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, '방공미사일 부족' 보고에 이란 대규모 공격 보류\"",
+      "link": "https://www.yna.co.kr/view/AKR20260726022200009",
+      "source": "연합뉴스 국제",
+      "ts": 1785030196000,
+      "pub": "Sun, 26 Jul 2026 10:43:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미·러·이스라엘 반대 뚫은 유엔 인권수장…총회서 연임 확정",
+      "link": "https://www.yna.co.kr/view/AKR20260726000900072",
+      "source": "연합뉴스 국제",
+      "ts": 1785021043000,
+      "pub": "Sun, 26 Jul 2026 08:10:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[美중간선거 D-100] ① 트럼프 2기 국정 갈림길…동력 확보냐 레임덕이냐",
+      "link": "https://www.yna.co.kr/view/AKR20260725004200071",
+      "source": "연합뉴스 국제",
+      "ts": 1785016804000,
+      "pub": "Sun, 26 Jul 2026 07:00:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[뉴욕증시-주간전망] FOMC와 빅테크 실적의 원투펀치…K.O. 뜰까",
+      "link": "https://www.yna.co.kr/view/AKR20260726006200009",
+      "source": "연합뉴스 국제",
+      "ts": 1785016800000,
+      "pub": "Sun, 26 Jul 2026 07:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뛰는 유가에 물가 불안 우려…금리·관세·환율도 '경고등'",
+      "link": "https://www.yna.co.kr/view/AKR20260725049700002",
+      "source": "연합뉴스 경제",
+      "ts": 1785015001000,
+      "pub": "Sun, 26 Jul 2026 06:30:01 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"트럼프, '24일 이란 공격 말라' 지시\"…공습 소강국면 이어질까",
+      "link": "https://www.yna.co.kr/view/AKR20260726004000071",
+      "source": "연합뉴스 국제",
+      "ts": 1785013576000,
+      "pub": "Sun, 26 Jul 2026 06:06:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美무역법 301조 절반은 관세 안물었다…'과잉생산' 협상력 관건",
+      "link": "https://www.yna.co.kr/view/AKR20260725054600003",
+      "source": "연합뉴스 경제",
+      "ts": 1785013380000,
+      "pub": "Sun, 26 Jul 2026 06:03:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키 \"러, 北병력 3만명 추가 파견 원해…접경지 배치 준비\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260726001551099",
+      "source": "연합뉴스 국제",
+      "ts": 1785005515000,
+      "pub": "Sun, 26 Jul 2026 03:51:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키 \"러, 우크라 접경지 보로네시에 北병력 배치 준비\"",
+      "link": "https://www.yna.co.kr/view/AKR20260726001500099",
+      "source": "연합뉴스 국제",
+      "ts": 1785001710000,
+      "pub": "Sun, 26 Jul 2026 02:48:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 젤렌스키 \"北, 러에 새 탄도미사일 발사대 제공 예정\"",
+      "link": "https://www.yna.co.kr/view/AKR20260726001400072",
+      "source": "연합뉴스 국제",
+      "ts": 1785001431000,
+      "pub": "Sun, 26 Jul 2026 02:43:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 젤렌스키 \"러, 우크라 접경지 보로네시에 北병력 배치 준비\"",
+      "link": "https://www.yna.co.kr/view/AKR20260726001300072",
+      "source": "연합뉴스 국제",
+      "ts": 1785001021000,
+      "pub": "Sun, 26 Jul 2026 02:37:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"美 대체관세 10년 세수, 무효된 기존관세보다 1천207조원 적어\"",
+      "link": "https://www.yna.co.kr/view/AKR20260725059500071",
+      "source": "연합뉴스 국제",
+      "ts": 1784991446000,
+      "pub": "Sat, 25 Jul 2026 23:57:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중국 메모리 도입 놓고 애플-마이크론 갈등…가운데 낀 트럼프",
+      "link": "https://www.yna.co.kr/view/AKR20260725052800009",
+      "source": "연합뉴스 국제",
+      "ts": 1784972394000,
+      "pub": "Sat, 25 Jul 2026 18:39:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미군, 2주만에 이란공습 발표안해…트럼프는 '이란대화' 언급",
+      "link": "https://www.yna.co.kr/view/AKR20260725048400009",
+      "source": "연합뉴스 국제",
+      "ts": 1784965469000,
+      "pub": "Sat, 25 Jul 2026 16:44:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "말레이 '이스라엘인 입국금지' 놓고 美와 갈등…주미대사 초치돼",
+      "link": "https://www.yna.co.kr/view/AKR20260725047200084",
+      "source": "연합뉴스 국제",
+      "ts": 1784964210000,
+      "pub": "Sat, 25 Jul 2026 16:23:30 +0900",
+      "sentiment": "neutral"
     }
   ]
 }

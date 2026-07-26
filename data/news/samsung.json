@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-26T22:47:59.237Z",
-  "count": 5,
+  "updated_at": "2026-07-26T23:50:39.119Z",
+  "count": 10,
   "items": [
+    {
+      "title": "삼성, 갤럭시 Z 폴드8·플립8 28일부터 사전판매…더블 스토리지 제공",
+      "link": "https://www.mt.co.kr/tech/2026/07/27/2026072708143141554",
+      "source": "머니투데이",
+      "ts": 1785108841000,
+      "pub": "Mon, 27 Jul 2026 08:34:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "MS·메타·삼성전자 잇달아 실적 발표…이번주 AI 랠리 판가름",
+      "link": "https://www.hankyung.com/article/202607266775i",
+      "source": "한국경제",
+      "ts": 1785106802000,
+      "pub": "Mon, 27 Jul 2026 08:00:02 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"삼전닉스 엄빠 씀씀이 크네\"…'300만원' 넘어도 불티난 제품 [장서우의 하입:hype]",
+      "link": "https://www.hankyung.com/article/202607266660i",
+      "source": "한국경제",
+      "ts": 1785103217000,
+      "pub": "Mon, 27 Jul 2026 07:00:17 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성, 메모리·파운드리 '두 날개'… 원스톱 턴키 경쟁력 본궤도",
       "link": "https://www.mt.co.kr/industry/2026/07/27/2026072619435660938",
@@ -28,19 +52,35 @@
       "sentiment": "neutral"
     },
     {
-      "title": "칩 가격 폭등…'슈퍼을' 메모리의 반란",
-      "link": "https://www.hankyung.com/article/2026072666441",
-      "source": "한국경제",
-      "ts": 1785057560000,
-      "pub": "Sun, 26 Jul 2026 18:19:20 +0900",
-      "sentiment": "positive"
+      "title": "'삼전·닉스 도전' CXMT, 내일 中증시 데뷔…본토 시총1위 오를까",
+      "link": "https://www.yna.co.kr/view/AKR20260726045000089",
+      "source": "연합뉴스 국제",
+      "ts": 1785058498000,
+      "pub": "Sun, 26 Jul 2026 18:34:58 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "[포토] 삼성 '뉴 갤럭시 AI 구독클럽' 강화",
-      "link": "https://www.hankyung.com/article/2026072665811",
-      "source": "한국경제",
-      "ts": 1785057471000,
-      "pub": "Sun, 26 Jul 2026 18:17:51 +0900",
+      "title": "'리밸런싱 재개' 연기금, 이달 순매수…하이닉스 사고 삼전 팔아",
+      "link": "https://www.yna.co.kr/view/AKR20260725032100008",
+      "source": "연합뉴스 경제",
+      "ts": 1785015002000,
+      "pub": "Sun, 26 Jul 2026 06:30:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중국 메모리 도입 놓고 애플-마이크론 갈등…가운데 낀 트럼프",
+      "link": "https://www.yna.co.kr/view/AKR20260725052800009",
+      "source": "연합뉴스 국제",
+      "ts": 1784972394000,
+      "pub": "Sat, 25 Jul 2026 18:39:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'HBM 1위' 한국, AI 3강 노린다…샌프란 선언 현주소는",
+      "link": "https://www.yna.co.kr/view/AKR20260725028900017",
+      "source": "연합뉴스 경제",
+      "ts": 1784945821000,
+      "pub": "Sat, 25 Jul 2026 11:17:01 +0900",
       "sentiment": "neutral"
     }
   ]

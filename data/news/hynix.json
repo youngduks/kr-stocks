@@ -1,8 +1,48 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-26T22:47:59.237Z",
-  "count": 5,
+  "updated_at": "2026-07-26T23:50:39.119Z",
+  "count": 18,
   "items": [
+    {
+      "title": "[속보]네이버, 엔비디아에 1조4800억원 규모 3자배정 유상증자",
+      "link": "https://www.mt.co.kr/tech/2026/07/27/2026072708322822511",
+      "source": "머니투데이",
+      "ts": 1785108814000,
+      "pub": "Mon, 27 Jul 2026 08:33:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "네이버, 프리마켓 20% 급등…엔비디아 1.48조 '3자유증 베팅'",
+      "link": "https://www.mt.co.kr/stock/2026/07/27/2026072708291510375",
+      "source": "머니투데이",
+      "ts": 1785108627000,
+      "pub": "Mon, 27 Jul 2026 08:30:27 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "27일 상장하는 '중국판 SK하이닉스' CXMT, 얼마나 오를까",
+      "link": "https://www.hankyung.com/article/202607266752i",
+      "source": "한국경제",
+      "ts": 1785106811000,
+      "pub": "Mon, 27 Jul 2026 08:00:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"반도체주 변동성과 산업 펀더멘탈 구분해야\"-KB",
+      "link": "https://www.hankyung.com/article/2026072769616",
+      "source": "한국경제",
+      "ts": 1785106743000,
+      "pub": "Mon, 27 Jul 2026 07:59:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 네이버, 엔비디아에 1.48조원 규모 3자배정 유상증자",
+      "link": "https://www.hankyung.com/article/2026072769367",
+      "source": "한국경제",
+      "ts": 1785106379000,
+      "pub": "Mon, 27 Jul 2026 07:52:59 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"하이닉스 본주보다 너무 비싸, 손실 위험\"...미국서 나온 경고",
       "link": "https://www.mt.co.kr/world/2026/07/27/2026072706544246298",
@@ -28,6 +68,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "美 WSJ \"SK하이닉스 ADR 프리미엄, AI 거래 과열 신호\"",
+      "link": "https://www.yna.co.kr/view/AKR20260726057000072",
+      "source": "연합뉴스 국제",
+      "ts": 1785077747000,
+      "pub": "Sun, 26 Jul 2026 23:55:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "'몸값 125조' 메모리 공룡 CXMT, 中 증시 상장…삼전닉스에 도전장",
       "link": "https://www.hankyung.com/article/2026072667517",
       "source": "한국경제",
@@ -36,12 +84,68 @@
       "sentiment": "neutral"
     },
     {
-      "title": "칩 가격 폭등…'슈퍼을' 메모리의 반란",
-      "link": "https://www.hankyung.com/article/2026072666441",
-      "source": "한국경제",
-      "ts": 1785057560000,
-      "pub": "Sun, 26 Jul 2026 18:19:20 +0900",
-      "sentiment": "positive"
+      "title": "'삼전·닉스 도전' CXMT, 내일 中증시 데뷔…본토 시총1위 오를까",
+      "link": "https://www.yna.co.kr/view/AKR20260726045000089",
+      "source": "연합뉴스 국제",
+      "ts": 1785058498000,
+      "pub": "Sun, 26 Jul 2026 18:34:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[게시판] 에이피알, '반도체 첨단산업 기술개발 사업' 착수 회의",
+      "link": "https://www.yna.co.kr/view/AKR20260726018500030",
+      "source": "연합뉴스 경제",
+      "ts": 1785027583000,
+      "pub": "Sun, 26 Jul 2026 09:59:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 업은 크레딧물…높아진 캐리 매력에 투심 살아날까",
+      "link": "https://www.yna.co.kr/view/AKR20260725026700008",
+      "source": "연합뉴스 경제",
+      "ts": 1785015301000,
+      "pub": "Sun, 26 Jul 2026 06:35:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'리밸런싱 재개' 연기금, 이달 순매수…하이닉스 사고 삼전 팔아",
+      "link": "https://www.yna.co.kr/view/AKR20260725032100008",
+      "source": "연합뉴스 경제",
+      "ts": 1785015002000,
+      "pub": "Sun, 26 Jul 2026 06:30:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중국 메모리 도입 놓고 애플-마이크론 갈등…가운데 낀 트럼프",
+      "link": "https://www.yna.co.kr/view/AKR20260725052800009",
+      "source": "연합뉴스 국제",
+      "ts": 1784972394000,
+      "pub": "Sat, 25 Jul 2026 18:39:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이해진 \"엔비디아·브룩필드, 네이버에 14조6천억원 투자\"",
+      "link": "https://www.yna.co.kr/view/AKR20260725033600017",
+      "source": "연합뉴스 경제",
+      "ts": 1784950159000,
+      "pub": "Sat, 25 Jul 2026 12:29:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'HBM 1위' 한국, AI 3강 노린다…샌프란 선언 현주소는",
+      "link": "https://www.yna.co.kr/view/AKR20260725028900017",
+      "source": "연합뉴스 경제",
+      "ts": 1784945821000,
+      "pub": "Sat, 25 Jul 2026 11:17:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[다음주 경제] 반도체 생산 얼마나 늘었을까…인구주택총조사 결과 공개",
+      "link": "https://www.yna.co.kr/view/AKR20260725016200002",
+      "source": "연합뉴스 경제",
+      "ts": 1784936936000,
+      "pub": "Sat, 25 Jul 2026 08:48:56 +0900",
+      "sentiment": "neutral"
     }
   ]
 }

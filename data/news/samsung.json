@@ -1,7 +1,7 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-26T15:53:24.346Z",
-  "count": 4,
+  "updated_at": "2026-07-26T16:44:30.740Z",
+  "count": 6,
   "items": [
     {
       "title": "'몸값 125조' 메모리 공룡 CXMT, 中 증시 상장…삼전닉스에 도전장",
@@ -20,7 +20,15 @@
       "sentiment": "neutral"
     },
     {
-      "title": "칩 가격 폭등이 부른 '슈퍼을' 메모리의 반란",
+      "title": "'삼전·닉스 도전' CXMT, 내일 中증시 데뷔…본토 시총1위 오를까",
+      "link": "https://www.yna.co.kr/view/AKR20260726045000089",
+      "source": "연합뉴스 국제",
+      "ts": 1785058498000,
+      "pub": "Sun, 26 Jul 2026 18:34:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "칩 가격 폭등…'슈퍼을' 메모리의 반란",
       "link": "https://www.hankyung.com/article/2026072666441",
       "source": "한국경제",
       "ts": 1785057560000,
@@ -33,6 +41,14 @@
       "source": "한국경제",
       "ts": 1785057471000,
       "pub": "Sun, 26 Jul 2026 18:17:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중국 메모리 도입 놓고 애플-마이크론 갈등…가운데 낀 트럼프",
+      "link": "https://www.yna.co.kr/view/AKR20260725052800009",
+      "source": "연합뉴스 국제",
+      "ts": 1784972394000,
+      "pub": "Sat, 25 Jul 2026 18:39:54 +0900",
       "sentiment": "neutral"
     }
   ]

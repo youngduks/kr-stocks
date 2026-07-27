@@ -1,103 +1,71 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-27T01:49:01.549Z",
-  "count": 12,
+  "updated_at": "2026-07-27T05:37:57.078Z",
+  "count": 8,
   "items": [
     {
-      "title": "[더벨]티로보틱스, AI 반도체·유리기판 시장 공략",
-      "link": "https://www.mt.co.kr/stock/2026/07/27/2026072710179661392",
+      "title": "\"엔비디아가 3대주주로\" 불기둥 뿜은 네이버...장중 13% 터치",
+      "link": "https://www.mt.co.kr/stock/2026/07/27/2026072711534727233",
       "source": "머니투데이",
-      "ts": 1785115392000,
-      "pub": "Mon, 27 Jul 2026 10:23:12 +0900",
+      "ts": 1785127328000,
+      "pub": "Mon, 27 Jul 2026 13:42:08 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"엔비디아 인증\" LG전자 일냈다…젠슨 황 찜한 기술 뭐길래",
-      "link": "https://www.hankyung.com/article/202607277317g",
+      "title": "돈 넣고 칩 팔고 지분까지…엔비디아의 'AI 금융술'",
+      "link": "https://www.hankyung.com/article/202607278085i",
       "source": "한국경제",
-      "ts": 1785114016000,
-      "pub": "Mon, 27 Jul 2026 10:00:16 +0900",
+      "ts": 1785127291000,
+      "pub": "Mon, 27 Jul 2026 13:41:31 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "LG CNS, 엔비디아와 'AI 신소재' 짠다…한국 대표로 합류",
-      "link": "https://www.mt.co.kr/tech/2026/07/27/2026072708574261839",
+      "title": "[뉴스프레소] 美 반도체 급락 후 나스닥 선물↑… CXMT 중국 상장, 수급 블랙홀?",
+      "link": "https://www.mt.co.kr/world/2026/07/27/2026072713297017897",
       "source": "머니투데이",
-      "ts": 1785114000000,
-      "pub": "Mon, 27 Jul 2026 10:00:00 +0900",
-      "sentiment": "neutral"
+      "ts": 1785126810000,
+      "pub": "Mon, 27 Jul 2026 13:33:30 +0900",
+      "sentiment": "negative"
     },
     {
-      "title": "LG전자, 액체냉각 CDU '엔비디아 인증' 획득…글로벌 시장 공략↑",
-      "link": "https://www.mt.co.kr/industry/2026/07/27/2026072709082880213",
-      "source": "머니투데이",
-      "ts": 1785114000000,
-      "pub": "Mon, 27 Jul 2026 10:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "KB금융, 1500억 유니콘 펀드 만든다…반도체·AI 투자 확대",
-      "link": "https://www.mt.co.kr/finance/2026/07/27/2026072709015072823",
-      "source": "머니투데이",
-      "ts": 1785113976000,
-      "pub": "Mon, 27 Jul 2026 09:59:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "김용범 \"美빅테크와 9500억달러 계약, 삼전닉스 반도체공급 대부분\"",
-      "link": "https://www.mt.co.kr/politics/2026/07/27/2026072709320749566",
-      "source": "머니투데이",
-      "ts": 1785113824000,
-      "pub": "Mon, 27 Jul 2026 09:57:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "네이버, 엔비디아서 10억달러 투자 유치…AI팩토리 사업 본격화",
-      "link": "https://www.mt.co.kr/tech/2026/07/27/2026072709512258144",
-      "source": "머니투데이",
-      "ts": 1785113626000,
-      "pub": "Mon, 27 Jul 2026 09:53:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "심상치 않은 日·대만 반도체 동맹, '피지컬A' 로 확장 [도쿄나우]",
-      "link": "https://www.hankyung.com/article/202607277364i",
+      "title": "창신메모리 상장 직후 470% 급등…중국 증시 시총 1위 달성",
+      "link": "https://www.hankyung.com/article/202607277926i",
       "source": "한국경제",
-      "ts": 1785112441000,
-      "pub": "Mon, 27 Jul 2026 09:34:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아랑 뭘 했길래…11% 급등한 네이버 '1.5조 잭팟'",
-      "link": "https://www.hankyung.com/article/2026072773836",
-      "source": "한국경제",
-      "ts": 1785112441000,
-      "pub": "Mon, 27 Jul 2026 09:34:01 +0900",
+      "ts": 1785122667000,
+      "pub": "Mon, 27 Jul 2026 12:24:27 +0900",
       "sentiment": "positive"
     },
     {
-      "title": "엔비디아, 1.5조 투자해 네이버 주주된다…네이버 10%대 급등",
-      "link": "https://www.mt.co.kr/stock/2026/07/27/2026072709233850342",
-      "source": "머니투데이",
-      "ts": 1785111915000,
-      "pub": "Mon, 27 Jul 2026 09:25:15 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "네이버, 엔비디아 등과 AI 인프라 계약 소식에 장 초반 '급등'",
-      "link": "https://www.hankyung.com/article/2026072772936",
+      "title": "AI가 바꾼 반도체 공급망 지도…네덜란드, 한국 장비 최대 수입국으로",
+      "link": "https://www.hankyung.com/article/202607277493i",
       "source": "한국경제",
-      "ts": 1785111075000,
-      "pub": "Mon, 27 Jul 2026 09:11:15 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "흔들리는 반도체 투심, 반등의 3대 열쇠는…'빅테크·금리 하락·AI 수요 증명'",
-      "link": "https://www.hankyung.com/article/202607277279i",
-      "source": "한국경제",
-      "ts": 1785110969000,
-      "pub": "Mon, 27 Jul 2026 09:09:29 +0900",
+      "ts": 1785121205000,
+      "pub": "Mon, 27 Jul 2026 12:00:05 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "과기정통부, AMD와 AI 인프라 동맹…엔비디아 편중 줄인다",
+      "link": "https://www.mt.co.kr/tech/2026/07/27/2026072708584462944",
+      "source": "머니투데이",
+      "ts": 1785121200000,
+      "pub": "Mon, 27 Jul 2026 12:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI가 바꾼 韓반도체 지도…중국 의존 낮추고 대만 수출 늘렸다",
+      "link": "https://www.mt.co.kr/economy/2026/07/27/2026072710474398371",
+      "source": "머니투데이",
+      "ts": 1785121200000,
+      "pub": "Mon, 27 Jul 2026 12:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "亞증시 혼조 속 중국 창신메모리 상장 첫날 470% 폭등[Asia오전]",
+      "link": "https://www.mt.co.kr/world/2026/07/27/2026072711422356562",
+      "source": "머니투데이",
+      "ts": 1785120966000,
+      "pub": "Mon, 27 Jul 2026 11:56:06 +0900",
+      "sentiment": "positive"
     }
   ]
 }

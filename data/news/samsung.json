@@ -1,22 +1,38 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-27T01:49:01.549Z",
-  "count": 2,
+  "updated_at": "2026-07-27T05:37:57.078Z",
+  "count": 4,
   "items": [
     {
-      "title": "김용범 \"美빅테크와 9500억달러 계약, 삼전닉스 반도체공급 대부분\"",
-      "link": "https://www.mt.co.kr/politics/2026/07/27/2026072709320749566",
-      "source": "머니투데이",
-      "ts": 1785113824000,
-      "pub": "Mon, 27 Jul 2026 09:57:04 +0900",
-      "sentiment": "neutral"
+      "title": "'삼전닉스 던지고 中 갔나'…6배 폭등 쇼크에 코스피 비명 [분석+]",
+      "link": "https://www.hankyung.com/article/2026072780146",
+      "source": "한국경제",
+      "ts": 1785123283000,
+      "pub": "Mon, 27 Jul 2026 12:34:43 +0900",
+      "sentiment": "negative"
     },
     {
-      "title": "신형 갤럭시, 사전 판매 D-1…'더블 스토리지' 혜택 제공",
-      "link": "https://www.hankyung.com/article/202607277423g",
+      "title": "창신메모리 상장 직후 470% 급등…중국 증시 시총 1위 달성",
+      "link": "https://www.hankyung.com/article/202607277926i",
       "source": "한국경제",
-      "ts": 1785112706000,
-      "pub": "Mon, 27 Jul 2026 09:38:26 +0900",
+      "ts": 1785122667000,
+      "pub": "Mon, 27 Jul 2026 12:24:27 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "亞증시 혼조 속 중국 창신메모리 상장 첫날 470% 폭등[Asia오전]",
+      "link": "https://www.mt.co.kr/world/2026/07/27/2026072711422356562",
+      "source": "머니투데이",
+      "ts": 1785120966000,
+      "pub": "Mon, 27 Jul 2026 11:56:06 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "갤럭시Z8 사전예약 앞두고…방미통위 \"과장광고 주의\"",
+      "link": "https://www.hankyung.com/article/2026072777647",
+      "source": "한국경제",
+      "ts": 1785118029000,
+      "pub": "Mon, 27 Jul 2026 11:07:09 +0900",
       "sentiment": "neutral"
     }
   ]

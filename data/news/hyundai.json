@@ -1,6 +1,23 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-27T01:49:01.549Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-07-27T05:37:57.079Z",
+  "count": 2,
+  "items": [
+    {
+      "title": "\"청년 모빌리티 역량 레벨업\"…현대차그룹 'HINT' 합동 입교식",
+      "link": "https://www.mt.co.kr/industry/2026/07/27/2026072713461128545",
+      "source": "머니투데이",
+      "ts": 1785128590000,
+      "pub": "Mon, 27 Jul 2026 14:03:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미래 모빌리티 전문가 키운다…현대차 'K-뉴딜 아카데미' 본격 시작",
+      "link": "https://www.mt.co.kr/economy/2026/07/27/2026072710360463102",
+      "source": "머니투데이",
+      "ts": 1785121200000,
+      "pub": "Mon, 27 Jul 2026 12:00:00 +0900",
+      "sentiment": "neutral"
+    }
+  ]
 }

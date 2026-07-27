@@ -1,6 +1,23 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-27T01:49:01.547Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-07-27T05:37:57.076Z",
+  "count": 2,
+  "items": [
+    {
+      "title": "관세청, '비특혜 원산지 판정 통합 안내 웹페이지' 개설",
+      "link": "https://www.mt.co.kr/policy/2026/07/27/2026072714053573032",
+      "source": "머니투데이",
+      "ts": 1785129924000,
+      "pub": "Mon, 27 Jul 2026 14:25:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "관세청, 올 상반기  792건·7.2조 규모 '불법 외환거래' 적발",
+      "link": "https://www.mt.co.kr/policy/2026/07/27/2026072710514397204",
+      "source": "머니투데이",
+      "ts": 1785125448000,
+      "pub": "Mon, 27 Jul 2026 13:10:48 +0900",
+      "sentiment": "neutral"
+    }
+  ]
 }

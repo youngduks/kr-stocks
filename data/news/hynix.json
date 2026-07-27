@@ -1,30 +1,30 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-27T22:09:25.743Z",
-  "count": 26,
+  "updated_at": "2026-07-27T23:53:36.795Z",
+  "count": 19,
   "items": [
+    {
+      "title": "\"아날로그 반도체 '뚝심' 통했다\"…주가 50% 뛴 기업 어디",
+      "link": "https://www.hankyung.com/article/202607278746i",
+      "source": "한국경제",
+      "ts": 1785191402000,
+      "pub": "Tue, 28 Jul 2026 07:30:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "유가 급락에도 반도체주 '와르르'…나스닥 약세 [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026072893216",
+      "source": "한국경제",
+      "ts": 1785190206000,
+      "pub": "Tue, 28 Jul 2026 07:10:06 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "젠슨 황도 \"고맙다\"…'TSMC 추격은 착각'이라던 삼성의 반전 [테크로그]",
       "link": "https://www.hankyung.com/article/202607278722g",
       "source": "한국경제",
       "ts": 1785186008000,
       "pub": "Tue, 28 Jul 2026 06:00:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "구글·엔비디아 담고 안정성까지 잡는다…연금 개미 혹할 투자법[머니똑똑]",
-      "link": "https://www.mt.co.kr/stock/2026/07/28/2026072711075397217",
-      "source": "머니투데이",
-      "ts": 1785186000000,
-      "pub": "Tue, 28 Jul 2026 06:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"유럽·중동 함께 뚫자\" 깐부 넘어 혈맹…엔비디아, 네이버 3대 주주 됐다",
-      "link": "https://www.mt.co.kr/tech/2026/07/28/2026072722395857976",
-      "source": "머니투데이",
-      "ts": 1785186000000,
-      "pub": "Tue, 28 Jul 2026 06:00:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -36,36 +36,12 @@
       "sentiment": "negative"
     },
     {
-      "title": "반도체 매도세에 묻힌 美 이란 공습 중단[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/07/28/2026072805422492401",
-      "source": "머니투데이",
-      "ts": 1785185020000,
-      "pub": "Tue, 28 Jul 2026 05:43:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "뉴욕증시, 유가 급락 속 혼조 마감…반도체주 하락",
       "link": "https://www.yna.co.kr/view/AKR20260728006200072",
       "source": "연합뉴스 국제",
       "ts": 1785183100000,
       "pub": "Tue, 28 Jul 2026 05:11:40 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "[사설]송전망 지연, AI·반도체 전략 발목 잡는다",
-      "link": "https://www.mt.co.kr/opinion/2026/07/28/2026072716161745634",
-      "source": "머니투데이",
-      "ts": 1785179100000,
-      "pub": "Tue, 28 Jul 2026 04:05:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "LG '액체 냉각' 솔루션, 엔비디아 뚫었다",
-      "link": "https://www.mt.co.kr/industry/2026/07/28/2026072719402231590",
-      "source": "머니투데이",
-      "ts": 1785178800000,
-      "pub": "Tue, 28 Jul 2026 04:00:00 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "엔비디아 \"보증 설테니 우리 제품 사라\"…유가 하락에도 반도체주 약세[박신영의 개장전 요것만]",
@@ -92,14 +68,6 @@
       "sentiment": "negative"
     },
     {
-      "title": "[시선강탈] 제주반도체 vs SK스퀘어 vs 현대무벡스, 공략법은?",
-      "link": "https://www.mt.co.kr/stock/2026/07/27/2026072720597067869",
-      "source": "머니투데이",
-      "ts": 1785159734000,
-      "pub": "Mon, 27 Jul 2026 22:42:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "오픈AI '통제 불능' 여파…엔비디아·MS 주도 'AI 동맹' 출범",
       "link": "https://www.hankyung.com/article/202607279182i",
       "source": "한국경제",
@@ -124,28 +92,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"1200% 상승\" vs \"기술력 한계 반영해야\"…CXMT '극과극' 전망",
-      "link": "https://www.hankyung.com/article/202607279087i",
-      "source": "한국경제",
-      "ts": 1785148224000,
-      "pub": "Mon, 27 Jul 2026 19:30:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "日 구마모토에 피지컬AI 반도체 국제거점…대만 기업에 '러브콜'(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260727083051073",
       "source": "연합뉴스 국제",
       "ts": 1785147986000,
       "pub": "Mon, 27 Jul 2026 19:26:26 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "CXMT, 상장 첫날 5배 급등…중국 최대 기업으로 등극",
-      "link": "https://www.hankyung.com/article/202607279079i",
-      "source": "한국경제",
-      "ts": 1785147228000,
-      "pub": "Mon, 27 Jul 2026 19:13:48 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "'中 반도체첨병' CXMT 첫날 466% 급등…시총 712조, 美인텔 넘어(종합2보)",
@@ -201,14 +153,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785119979000,
       "pub": "Mon, 27 Jul 2026 11:39:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"엔비디아, 오픈AI의 데이터센터 임차 지원…365조원 보증 논의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260727064800075",
-      "source": "연합뉴스 국제",
-      "ts": 1785117570000,
-      "pub": "Mon, 27 Jul 2026 10:59:30 +0900",
       "sentiment": "neutral"
     }
   ]

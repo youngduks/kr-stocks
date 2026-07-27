@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-27T17:28:03.002Z",
-  "count": 2,
+  "updated_at": "2026-07-27T19:08:37.642Z",
+  "count": 19,
   "items": [
+    {
+      "title": "\"네타냐후, 트럼프와 회담 위해 가자 '국제안정화군' 배치 강행\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728003500079",
+      "source": "연합뉴스 국제",
+      "ts": 1785177848000,
+      "pub": "Tue, 28 Jul 2026 03:44:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 심도 있는 협상 중…불발 땐 군사행동 돌아갈 것\"",
+      "link": "https://www.mt.co.kr/world/2026/07/28/2026072803341973321",
+      "source": "머니투데이",
+      "ts": 1785177606000,
+      "pub": "Tue, 28 Jul 2026 03:40:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키 \"러, 10월초 최대 50만명 동원할것…北 3만 추가파병\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728001900085",
+      "source": "연합뉴스 국제",
+      "ts": 1785172794000,
+      "pub": "Tue, 28 Jul 2026 02:19:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 심도있는 협상중…실패시 매우 강력한 군사행동\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728001100071",
+      "source": "연합뉴스 국제",
+      "ts": 1785166941000,
+      "pub": "Tue, 28 Jul 2026 00:42:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란전 균열 보인 트럼프·네타냐후, 백악관 회담서 시험대",
+      "link": "https://www.yna.co.kr/view/AKR20260727167100071",
+      "source": "연합뉴스 국제",
+      "ts": 1785166459000,
+      "pub": "Tue, 28 Jul 2026 00:34:19 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "FOMC와 실적발표 몰린 주…美 증시, 국제유가 급락에 상승",
       "link": "https://www.hankyung.com/article/202607279194i",
@@ -12,11 +52,107 @@
       "sentiment": "negative"
     },
     {
+      "title": "중국, 美 강제노동 관세·AI 제재에 반발…\"필요한 조치 취할 것\"",
+      "link": "https://www.mt.co.kr/world/2026/07/27/2026072721014040450",
+      "source": "머니투데이",
+      "ts": 1785155986000,
+      "pub": "Mon, 27 Jul 2026 21:39:46 +0900",
+      "sentiment": "negative"
+    },
+    {
       "title": "美 '강제노동 관세' 부과…中 \"전형적 보호주의\" 강력 반발",
       "link": "https://www.hankyung.com/article/2026072791527",
       "source": "한국경제",
       "ts": 1785153123000,
       "pub": "Mon, 27 Jul 2026 20:52:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中, 美 강제노동 관세·AI 압박에 반발…\"필요한 조치 보유\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260727159751083",
+      "source": "연합뉴스 국제",
+      "ts": 1785152774000,
+      "pub": "Mon, 27 Jul 2026 20:46:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中, 美 '강제노동' 관세에 \"전형적 보호주의…단호히 반대\"",
+      "link": "https://www.yna.co.kr/view/AKR20260727159700083",
+      "source": "연합뉴스 국제",
+      "ts": 1785149724000,
+      "pub": "Mon, 27 Jul 2026 19:55:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "크렘린, '북한군 3만명 추가 파병' 젤렌스키 주장에 논평 거부",
+      "link": "https://www.yna.co.kr/view/AKR20260727156800079",
+      "source": "연합뉴스 국제",
+      "ts": 1785147309000,
+      "pub": "Mon, 27 Jul 2026 19:15:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 \"유럽 미사일 방어체계 내년 상반기 공개 목표\"",
+      "link": "https://www.yna.co.kr/view/AKR20260727149400109",
+      "source": "연합뉴스 국제",
+      "ts": 1785142981000,
+      "pub": "Mon, 27 Jul 2026 18:03:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "英 버넘 총리, 취임후 첫 정상회담은 젤렌스키…협력방안 논의",
+      "link": "https://www.yna.co.kr/view/AKR20260727115100009",
+      "source": "연합뉴스 국제",
+      "ts": 1785132985000,
+      "pub": "Mon, 27 Jul 2026 15:16:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "호르무즈 일단 숨고르기…트럼프 '대화 여지' 이란 '우리 승리'",
+      "link": "https://www.yna.co.kr/view/AKR20260727067700009",
+      "source": "연합뉴스 국제",
+      "ts": 1785121189000,
+      "pub": "Mon, 27 Jul 2026 11:59:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정부, 젤렌스키 '北 추가 파병' 주장에 \"북러 군사협력 동향 주시\"",
+      "link": "https://www.yna.co.kr/view/AKR20260727073500504",
+      "source": "연합뉴스 국제",
+      "ts": 1785119331000,
+      "pub": "Mon, 27 Jul 2026 11:28:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "카자흐스탄 대통령, 푸틴 면전서 우크라전 휴전 촉구",
+      "link": "https://www.yna.co.kr/view/AKR20260727062900009",
+      "source": "연합뉴스 국제",
+      "ts": 1785118976000,
+      "pub": "Mon, 27 Jul 2026 11:22:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "10년물 미국채 금리 4.7%…트럼프 2기 들어 최고",
+      "link": "https://www.yna.co.kr/view/AKR20260727058500009",
+      "source": "연합뉴스 국제",
+      "ts": 1785117277000,
+      "pub": "Mon, 27 Jul 2026 10:54:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 정착민, 서안지구 연일 보복…모스크·농경지 불길",
+      "link": "https://www.yna.co.kr/view/AKR20260727061100009",
+      "source": "연합뉴스 국제",
+      "ts": 1785116967000,
+      "pub": "Mon, 27 Jul 2026 10:49:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "친트럼프 극우셀럽 로라 루머, 우크라 지지로 180도 전환",
+      "link": "https://www.yna.co.kr/view/AKR20260727046600009",
+      "source": "연합뉴스 국제",
+      "ts": 1785114249000,
+      "pub": "Mon, 27 Jul 2026 10:04:09 +0900",
       "sentiment": "neutral"
     }
   ]

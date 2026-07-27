@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-27T17:28:03.003Z",
-  "count": 2,
+  "updated_at": "2026-07-27T19:08:37.643Z",
+  "count": 5,
   "items": [
+    {
+      "title": "中전문가들, CXMT 상장에 \"삼전·닉스에 도전하고 시장 재편\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260727086851089",
+      "source": "연합뉴스 국제",
+      "ts": 1785158220000,
+      "pub": "Mon, 27 Jul 2026 22:17:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"1등 시간 문제\" 파격 전망까지…삼전닉스 위협하는 中 CXMT [분석+]",
       "link": "https://www.hankyung.com/article/2026072786316",
@@ -17,6 +25,22 @@
       "source": "한국경제",
       "ts": 1785149552000,
       "pub": "Mon, 27 Jul 2026 19:52:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이재용·최태원, '伊 구글 캠프' 동반 참석…글로벌 AI 협력 강화",
+      "link": "https://www.mt.co.kr/industry/2026/07/27/2026072718285164966",
+      "source": "머니투데이",
+      "ts": 1785145905000,
+      "pub": "Mon, 27 Jul 2026 18:51:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中전문가, CXMT 상장에 \"삼전·닉스에 도전하고 시장 재편\" 기대",
+      "link": "https://www.yna.co.kr/view/AKR20260727086800089",
+      "source": "연합뉴스 국제",
+      "ts": 1785125204000,
+      "pub": "Mon, 27 Jul 2026 13:06:44 +0900",
       "sentiment": "neutral"
     }
   ]

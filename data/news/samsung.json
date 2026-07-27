@@ -1,47 +1,31 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-27T09:25:14.272Z",
-  "count": 5,
+  "updated_at": "2026-07-27T12:48:30.306Z",
+  "count": 3,
   "items": [
     {
-      "title": "美 '원투펀치'에 쓰러진 日 NEC·도시바…삼전닉스에 재연될까",
-      "link": "https://www.hankyung.com/article/2026072789861",
+      "title": "이재용·최태원, 샌프란시스코 건배 후 시칠리아도 '동행'",
+      "link": "https://www.hankyung.com/article/2026072791067",
       "source": "한국경제",
-      "ts": 1785142548000,
-      "pub": "Mon, 27 Jul 2026 17:55:48 +0900",
+      "ts": 1785149552000,
+      "pub": "Mon, 27 Jul 2026 19:52:32 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "中 CXMT, 14조원 실탄 확보…메모리 공급망 판 바뀌나",
-      "link": "https://www.hankyung.com/article/2026072788611",
-      "source": "한국경제",
-      "ts": 1785142019000,
-      "pub": "Mon, 27 Jul 2026 17:46:59 +0900",
+      "title": "이재용·최태원, '伊 구글 캠프' 동반 참석…글로벌 AI 협력 강화",
+      "link": "https://www.mt.co.kr/industry/2026/07/27/2026072718285164966",
+      "source": "머니투데이",
+      "ts": 1785145905000,
+      "pub": "Mon, 27 Jul 2026 18:51:45 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "80년대 삼전 닮은 CXMT, 상장하자마자 中 시총 1위",
-      "link": "https://www.hankyung.com/article/2026072789731",
-      "source": "한국경제",
-      "ts": 1785142009000,
-      "pub": "Mon, 27 Jul 2026 17:46:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성 \"HBM5에 2나노 공정 적용\"",
-      "link": "https://www.hankyung.com/article/2026072788751",
-      "source": "한국경제",
-      "ts": 1785141366000,
-      "pub": "Mon, 27 Jul 2026 17:36:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中전문가, CXMT 상장에 \"삼전·닉스에 도전하고 시장 재편\" 기대",
-      "link": "https://www.yna.co.kr/view/AKR20260727086800089",
-      "source": "연합뉴스 국제",
-      "ts": 1785125204000,
-      "pub": "Mon, 27 Jul 2026 13:06:44 +0900",
-      "sentiment": "neutral"
+      "title": "'금리위크' 관망에도 창신메모리 465% 폭등...中 1%↑[Asia마감]",
+      "link": "https://www.mt.co.kr/world/2026/07/27/2026072716510766459",
+      "source": "머니투데이",
+      "ts": 1785141440000,
+      "pub": "Mon, 27 Jul 2026 17:37:20 +0900",
+      "sentiment": "positive"
     }
   ]
 }

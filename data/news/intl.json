@@ -1,22 +1,30 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-27T19:08:37.642Z",
-  "count": 19,
+  "updated_at": "2026-07-27T21:00:17.730Z",
+  "count": 18,
   "items": [
+    {
+      "title": "트럼프, FOMC 앞 또 금리인하 압박…\"세계에서 가장 낮아야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728003900071",
+      "source": "연합뉴스 국제",
+      "ts": 1785180255000,
+      "pub": "Tue, 28 Jul 2026 04:24:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 합의 가능성 꽤 있어…실패시 다시 군사행동\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260728001151071",
+      "source": "연합뉴스 국제",
+      "ts": 1785179179000,
+      "pub": "Tue, 28 Jul 2026 04:06:19 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"네타냐후, 트럼프와 회담 위해 가자 '국제안정화군' 배치 강행\"",
       "link": "https://www.yna.co.kr/view/AKR20260728003500079",
       "source": "연합뉴스 국제",
       "ts": 1785177848000,
       "pub": "Tue, 28 Jul 2026 03:44:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 심도 있는 협상 중…불발 땐 군사행동 돌아갈 것\"",
-      "link": "https://www.mt.co.kr/world/2026/07/28/2026072803341973321",
-      "source": "머니투데이",
-      "ts": 1785177606000,
-      "pub": "Tue, 28 Jul 2026 03:40:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -49,14 +57,6 @@
       "source": "한국경제",
       "ts": 1785161507000,
       "pub": "Mon, 27 Jul 2026 23:11:47 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "중국, 美 강제노동 관세·AI 제재에 반발…\"필요한 조치 취할 것\"",
-      "link": "https://www.mt.co.kr/world/2026/07/27/2026072721014040450",
-      "source": "머니투데이",
-      "ts": 1785155986000,
-      "pub": "Mon, 27 Jul 2026 21:39:46 +0900",
       "sentiment": "negative"
     },
     {
@@ -145,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785116967000,
       "pub": "Mon, 27 Jul 2026 10:49:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "친트럼프 극우셀럽 로라 루머, 우크라 지지로 180도 전환",
-      "link": "https://www.yna.co.kr/view/AKR20260727046600009",
-      "source": "연합뉴스 국제",
-      "ts": 1785114249000,
-      "pub": "Mon, 27 Jul 2026 10:04:09 +0900",
       "sentiment": "neutral"
     }
   ]

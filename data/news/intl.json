@@ -1,8 +1,64 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-27T21:00:17.730Z",
-  "count": 18,
+  "updated_at": "2026-07-27T22:09:25.742Z",
+  "count": 24,
   "items": [
+    {
+      "title": "트럼프, '접전지' 미시간 또 찾아 車관세 홍보…\"반드시 이겨야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728011700071",
+      "source": "연합뉴스 국제",
+      "ts": 1785189309000,
+      "pub": "Tue, 28 Jul 2026 06:55:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"세계 최저 금리 가져야\"…FOMC 앞두고 Fed 압박한 트럼프",
+      "link": "https://www.hankyung.com/article/2026072892867",
+      "source": "한국경제",
+      "ts": 1785188765000,
+      "pub": "Tue, 28 Jul 2026 06:46:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 지지율 37%…\"이란 전쟁 목표 설명 없었다\" 불만",
+      "link": "https://www.mt.co.kr/world/2026/07/28/2026072806353234638",
+      "source": "머니투데이",
+      "ts": 1785188237000,
+      "pub": "Tue, 28 Jul 2026 06:37:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 합의 가능성 꽤 있어…실패시 다시 군사행동\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260728001152071",
+      "source": "연합뉴스 국제",
+      "ts": 1785188218000,
+      "pub": "Tue, 28 Jul 2026 06:36:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 금리 결정 이틀 앞두고…트럼프 또 인하 압박 \"세계 최저여야\"",
+      "link": "https://www.mt.co.kr/world/2026/07/28/2026072806061756816",
+      "source": "머니투데이",
+      "ts": 1785186911000,
+      "pub": "Tue, 28 Jul 2026 06:15:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키 \"러시아 최대 50만명 동원령 준비…북한 3만명 추가 파병\"",
+      "link": "https://www.mt.co.kr/world/2026/07/28/2026072805563278974",
+      "source": "머니투데이",
+      "ts": 1785186065000,
+      "pub": "Tue, 28 Jul 2026 06:01:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"공습 중단하고 협상\" 트럼프 입에… 브렌트유 80달러대 회복",
+      "link": "https://www.mt.co.kr/world/2026/07/28/2026072805520423842",
+      "source": "머니투데이",
+      "ts": 1785185760000,
+      "pub": "Tue, 28 Jul 2026 05:56:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, FOMC 앞 또 금리인하 압박…\"세계에서 가장 낮아야\"",
       "link": "https://www.yna.co.kr/view/AKR20260728003900071",
@@ -25,6 +81,14 @@
       "source": "연합뉴스 국제",
       "ts": 1785177848000,
       "pub": "Tue, 28 Jul 2026 03:44:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 심도 있는 협상 중…불발 땐 군사행동 돌아갈 것\"",
+      "link": "https://www.mt.co.kr/world/2026/07/28/2026072803341973321",
+      "source": "머니투데이",
+      "ts": 1785177606000,
+      "pub": "Tue, 28 Jul 2026 03:40:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -129,22 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785118976000,
       "pub": "Mon, 27 Jul 2026 11:22:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "10년물 미국채 금리 4.7%…트럼프 2기 들어 최고",
-      "link": "https://www.yna.co.kr/view/AKR20260727058500009",
-      "source": "연합뉴스 국제",
-      "ts": 1785117277000,
-      "pub": "Mon, 27 Jul 2026 10:54:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘 정착민, 서안지구 연일 보복…모스크·농경지 불길",
-      "link": "https://www.yna.co.kr/view/AKR20260727061100009",
-      "source": "연합뉴스 국제",
-      "ts": 1785116967000,
-      "pub": "Mon, 27 Jul 2026 10:49:27 +0900",
       "sentiment": "neutral"
     }
   ]

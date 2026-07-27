@@ -1,15 +1,31 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-27T15:35:20.687Z",
-  "count": 8,
+  "updated_at": "2026-07-27T17:28:03.003Z",
+  "count": 7,
   "items": [
     {
-      "title": "[시선강탈] 제주반도체 vs SK스퀘어 vs 현대무벡스, 공략법은?",
-      "link": "https://www.mt.co.kr/stock/2026/07/27/2026072720597067869",
-      "source": "머니투데이",
-      "ts": 1785159734000,
-      "pub": "Mon, 27 Jul 2026 22:42:14 +0900",
+      "title": "엔비디아 \"보증 설테니 우리 제품 사라\"…유가 하락에도 반도체주 약세[박신영의 개장전 요것만]",
+      "link": "https://www.hankyung.com/article/202607289209i",
+      "source": "한국경제",
+      "ts": 1785171685000,
+      "pub": "Tue, 28 Jul 2026 02:01:25 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "엔비디아의 오픈AI 지급보증에 다시 불거진 'AI순환금융'",
+      "link": "https://www.hankyung.com/article/202607289210i",
+      "source": "한국경제",
+      "ts": 1785168465000,
+      "pub": "Tue, 28 Jul 2026 01:07:45 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "美증시, 반도체주식 급락에 나스닥 하락 전환",
+      "link": "https://www.hankyung.com/article/202607289204i",
+      "source": "한국경제",
+      "ts": 1785165536000,
+      "pub": "Tue, 28 Jul 2026 00:18:56 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "오픈AI '통제 불능' 여파…엔비디아·MS 주도 'AI 동맹' 출범",
@@ -41,30 +57,6 @@
       "source": "한국경제",
       "ts": 1785147228000,
       "pub": "Mon, 27 Jul 2026 19:13:48 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[단독]엔비디아, 개방형 생태계로 AI 보안 협의체 꾸린다…SKT·네이버 참여",
-      "link": "https://www.mt.co.kr/tech/2026/07/27/2026072718174465159",
-      "source": "머니투데이",
-      "ts": 1785144828000,
-      "pub": "Mon, 27 Jul 2026 18:33:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"SK하닉 하락? 더 사자\"…미장 몰려간 서학개미, 마이크론은 매도[서학픽]",
-      "link": "https://www.mt.co.kr/world/2026/07/27/2026072712345711343",
-      "source": "머니투데이",
-      "ts": 1785143100000,
-      "pub": "Mon, 27 Jul 2026 18:05:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'금리위크' 관망에도 창신메모리 465% 폭등...中 1%↑[Asia마감]",
-      "link": "https://www.mt.co.kr/world/2026/07/27/2026072716510766459",
-      "source": "머니투데이",
-      "ts": 1785141440000,
-      "pub": "Mon, 27 Jul 2026 17:37:20 +0900",
       "sentiment": "positive"
     }
   ]

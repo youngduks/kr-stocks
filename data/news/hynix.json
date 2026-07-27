@@ -1,71 +1,143 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-27T05:37:57.078Z",
-  "count": 8,
+  "updated_at": "2026-07-27T09:25:14.272Z",
+  "count": 17,
   "items": [
     {
-      "title": "\"엔비디아가 3대주주로\" 불기둥 뿜은 네이버...장중 13% 터치",
-      "link": "https://www.mt.co.kr/stock/2026/07/27/2026072711534727233",
-      "source": "머니투데이",
-      "ts": 1785127328000,
-      "pub": "Mon, 27 Jul 2026 13:42:08 +0900",
+      "title": "40년전 日처럼…韓 반도체 평행이론?",
+      "link": "https://www.hankyung.com/article/2026072789761",
+      "source": "한국경제",
+      "ts": 1785142525000,
+      "pub": "Mon, 27 Jul 2026 17:55:25 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "돈 넣고 칩 팔고 지분까지…엔비디아의 'AI 금융술'",
-      "link": "https://www.hankyung.com/article/202607278085i",
+      "title": "AI깐부 맞네…엔비디아, 네이버 3대주주로",
+      "link": "https://www.hankyung.com/article/2026072789791",
       "source": "한국경제",
-      "ts": 1785127291000,
-      "pub": "Mon, 27 Jul 2026 13:41:31 +0900",
+      "ts": 1785142152000,
+      "pub": "Mon, 27 Jul 2026 17:49:12 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[뉴스프레소] 美 반도체 급락 후 나스닥 선물↑… CXMT 중국 상장, 수급 블랙홀?",
-      "link": "https://www.mt.co.kr/world/2026/07/27/2026072713297017897",
-      "source": "머니투데이",
-      "ts": 1785126810000,
-      "pub": "Mon, 27 Jul 2026 13:33:30 +0900",
-      "sentiment": "negative"
+      "title": "中 CXMT, 14조원 실탄 확보…메모리 공급망 판 바뀌나",
+      "link": "https://www.hankyung.com/article/2026072788611",
+      "source": "한국경제",
+      "ts": 1785142019000,
+      "pub": "Mon, 27 Jul 2026 17:46:59 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "창신메모리 상장 직후 470% 급등…중국 증시 시총 1위 달성",
-      "link": "https://www.hankyung.com/article/202607277926i",
+      "title": "80년대 삼전 닮은 CXMT, 상장하자마자 中 시총 1위",
+      "link": "https://www.hankyung.com/article/2026072789731",
       "source": "한국경제",
-      "ts": 1785122667000,
-      "pub": "Mon, 27 Jul 2026 12:24:27 +0900",
+      "ts": 1785142009000,
+      "pub": "Mon, 27 Jul 2026 17:46:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[사설] 中 CXMT 단숨에 시총 1위…반도체 호황에 취할 때 아냐",
+      "link": "https://www.hankyung.com/article/2026072789651",
+      "source": "한국경제",
+      "ts": 1785141898000,
+      "pub": "Mon, 27 Jul 2026 17:44:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "LG전자, 액체냉각 솔루션 국내 첫 엔비디아 인증",
+      "link": "https://www.hankyung.com/article/2026072788721",
+      "source": "한국경제",
+      "ts": 1785141394000,
+      "pub": "Mon, 27 Jul 2026 17:36:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성 \"HBM5에 2나노 공정 적용\"",
+      "link": "https://www.hankyung.com/article/2026072788751",
+      "source": "한국경제",
+      "ts": 1785141366000,
+      "pub": "Mon, 27 Jul 2026 17:36:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'中반도체첨병' CXMT 첫날 466% 급등…시총 712조원, 美인텔 넘어(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260727064751089",
+      "source": "연합뉴스 국제",
+      "ts": 1785139580000,
+      "pub": "Mon, 27 Jul 2026 17:06:20 +0900",
       "sentiment": "positive"
     },
     {
-      "title": "AI가 바꾼 반도체 공급망 지도…네덜란드, 한국 장비 최대 수입국으로",
-      "link": "https://www.hankyung.com/article/202607277493i",
-      "source": "한국경제",
-      "ts": 1785121205000,
-      "pub": "Mon, 27 Jul 2026 12:00:05 +0900",
+      "title": "CXMT 목표가 8배 차이…노무라 \"116위안\" 모닝스타 \"14.90위안\"",
+      "link": "https://www.yna.co.kr/view/AKR20260727111300009",
+      "source": "연합뉴스 국제",
+      "ts": 1785132419000,
+      "pub": "Mon, 27 Jul 2026 15:06:59 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "과기정통부, AMD와 AI 인프라 동맹…엔비디아 편중 줄인다",
-      "link": "https://www.mt.co.kr/tech/2026/07/27/2026072708584462944",
-      "source": "머니투데이",
-      "ts": 1785121200000,
-      "pub": "Mon, 27 Jul 2026 12:00:00 +0900",
+      "title": "中전문가, CXMT 상장에 \"삼전·닉스에 도전하고 시장 재편\" 기대",
+      "link": "https://www.yna.co.kr/view/AKR20260727086800089",
+      "source": "연합뉴스 국제",
+      "ts": 1785125204000,
+      "pub": "Mon, 27 Jul 2026 13:06:44 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "AI가 바꾼 韓반도체 지도…중국 의존 낮추고 대만 수출 늘렸다",
-      "link": "https://www.mt.co.kr/economy/2026/07/27/2026072710474398371",
-      "source": "머니투데이",
-      "ts": 1785121200000,
-      "pub": "Mon, 27 Jul 2026 12:00:00 +0900",
+      "title": "日 미쓰이부동산, 구마모토에 피지컬 AI 반도체 국제거점 구축",
+      "link": "https://www.yna.co.kr/view/AKR20260727083000073",
+      "source": "연합뉴스 국제",
+      "ts": 1785120738000,
+      "pub": "Mon, 27 Jul 2026 11:52:18 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "亞증시 혼조 속 중국 창신메모리 상장 첫날 470% 폭등[Asia오전]",
-      "link": "https://www.mt.co.kr/world/2026/07/27/2026072711422356562",
-      "source": "머니투데이",
-      "ts": 1785120966000,
-      "pub": "Mon, 27 Jul 2026 11:56:06 +0900",
-      "sentiment": "positive"
+      "title": "코인거래소들, CXMT 파생상품 출시…규제 우회",
+      "link": "https://www.yna.co.kr/view/AKR20260727011200009",
+      "source": "연합뉴스 국제",
+      "ts": 1785120223000,
+      "pub": "Mon, 27 Jul 2026 11:43:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中 상반기 공업이익 18.7%↑…반도체 강세 속 자동차 이윤 감소",
+      "link": "https://www.yna.co.kr/view/AKR20260727079300083",
+      "source": "연합뉴스 국제",
+      "ts": 1785119979000,
+      "pub": "Mon, 27 Jul 2026 11:39:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"엔비디아, 오픈AI의 데이터센터 임차 지원…365조원 보증 논의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260727064800075",
+      "source": "연합뉴스 국제",
+      "ts": 1785117570000,
+      "pub": "Mon, 27 Jul 2026 10:59:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'中반도체 첨병' CXMT 상하이증시 상장…단숨에 中본토 시총 1위",
+      "link": "https://www.yna.co.kr/view/AKR20260727064700089",
+      "source": "연합뉴스 국제",
+      "ts": 1785117408000,
+      "pub": "Mon, 27 Jul 2026 10:56:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] '中 반도체 첨병' CXMT 상장…단숨에 中본토 시총 1위",
+      "link": "https://www.yna.co.kr/view/AKR20260727061800089",
+      "source": "연합뉴스 국제",
+      "ts": 1785115918000,
+      "pub": "Mon, 27 Jul 2026 10:31:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 WSJ \"SK하이닉스 ADR 프리미엄, AI 거래 과열 신호\"",
+      "link": "https://www.yna.co.kr/view/AKR20260726057000072",
+      "source": "연합뉴스 국제",
+      "ts": 1785077747000,
+      "pub": "Sun, 26 Jul 2026 23:55:47 +0900",
+      "sentiment": "neutral"
     }
   ]
 }

@@ -1,38 +1,46 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-27T05:37:57.078Z",
-  "count": 4,
+  "updated_at": "2026-07-27T09:25:14.272Z",
+  "count": 5,
   "items": [
     {
-      "title": "'삼전닉스 던지고 中 갔나'…6배 폭등 쇼크에 코스피 비명 [분석+]",
-      "link": "https://www.hankyung.com/article/2026072780146",
+      "title": "美 '원투펀치'에 쓰러진 日 NEC·도시바…삼전닉스에 재연될까",
+      "link": "https://www.hankyung.com/article/2026072789861",
       "source": "한국경제",
-      "ts": 1785123283000,
-      "pub": "Mon, 27 Jul 2026 12:34:43 +0900",
-      "sentiment": "negative"
+      "ts": 1785142548000,
+      "pub": "Mon, 27 Jul 2026 17:55:48 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "창신메모리 상장 직후 470% 급등…중국 증시 시총 1위 달성",
-      "link": "https://www.hankyung.com/article/202607277926i",
+      "title": "中 CXMT, 14조원 실탄 확보…메모리 공급망 판 바뀌나",
+      "link": "https://www.hankyung.com/article/2026072788611",
       "source": "한국경제",
-      "ts": 1785122667000,
-      "pub": "Mon, 27 Jul 2026 12:24:27 +0900",
-      "sentiment": "positive"
+      "ts": 1785142019000,
+      "pub": "Mon, 27 Jul 2026 17:46:59 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "亞증시 혼조 속 중국 창신메모리 상장 첫날 470% 폭등[Asia오전]",
-      "link": "https://www.mt.co.kr/world/2026/07/27/2026072711422356562",
-      "source": "머니투데이",
-      "ts": 1785120966000,
-      "pub": "Mon, 27 Jul 2026 11:56:06 +0900",
-      "sentiment": "positive"
+      "title": "80년대 삼전 닮은 CXMT, 상장하자마자 中 시총 1위",
+      "link": "https://www.hankyung.com/article/2026072789731",
+      "source": "한국경제",
+      "ts": 1785142009000,
+      "pub": "Mon, 27 Jul 2026 17:46:49 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "갤럭시Z8 사전예약 앞두고…방미통위 \"과장광고 주의\"",
-      "link": "https://www.hankyung.com/article/2026072777647",
+      "title": "삼성 \"HBM5에 2나노 공정 적용\"",
+      "link": "https://www.hankyung.com/article/2026072788751",
       "source": "한국경제",
-      "ts": 1785118029000,
-      "pub": "Mon, 27 Jul 2026 11:07:09 +0900",
+      "ts": 1785141366000,
+      "pub": "Mon, 27 Jul 2026 17:36:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中전문가, CXMT 상장에 \"삼전·닉스에 도전하고 시장 재편\" 기대",
+      "link": "https://www.yna.co.kr/view/AKR20260727086800089",
+      "source": "연합뉴스 국제",
+      "ts": 1785125204000,
+      "pub": "Mon, 27 Jul 2026 13:06:44 +0900",
       "sentiment": "neutral"
     }
   ]

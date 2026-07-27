@@ -1,22 +1,110 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-27T05:37:57.076Z",
-  "count": 2,
+  "updated_at": "2026-07-27T09:25:14.271Z",
+  "count": 13,
   "items": [
     {
-      "title": "관세청, '비특혜 원산지 판정 통합 안내 웹페이지' 개설",
-      "link": "https://www.mt.co.kr/policy/2026/07/27/2026072714053573032",
-      "source": "머니투데이",
-      "ts": 1785129924000,
-      "pub": "Mon, 27 Jul 2026 14:25:24 +0900",
+      "title": "우크라 \"유럽 미사일 방어체계 내년 상반기 공개 목표\"",
+      "link": "https://www.yna.co.kr/view/AKR20260727149400109",
+      "source": "연합뉴스 국제",
+      "ts": 1785142981000,
+      "pub": "Mon, 27 Jul 2026 18:03:01 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "관세청, 올 상반기  792건·7.2조 규모 '불법 외환거래' 적발",
-      "link": "https://www.mt.co.kr/policy/2026/07/27/2026072710514397204",
-      "source": "머니투데이",
-      "ts": 1785125448000,
-      "pub": "Mon, 27 Jul 2026 13:10:48 +0900",
+      "title": "[포토] “생큐 트럼프” 온두라스 전 대통령, 美서 석방",
+      "link": "https://www.hankyung.com/article/2026072788581",
+      "source": "한국경제",
+      "ts": 1785141235000,
+      "pub": "Mon, 27 Jul 2026 17:33:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "英 버넘 총리, 취임후 첫 정상회담은 젤렌스키…협력방안 논의",
+      "link": "https://www.yna.co.kr/view/AKR20260727115100009",
+      "source": "연합뉴스 국제",
+      "ts": 1785132985000,
+      "pub": "Mon, 27 Jul 2026 15:16:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "호르무즈 일단 숨고르기…트럼프 '대화 여지' 이란 '우리 승리'",
+      "link": "https://www.yna.co.kr/view/AKR20260727067700009",
+      "source": "연합뉴스 국제",
+      "ts": 1785121189000,
+      "pub": "Mon, 27 Jul 2026 11:59:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정부, 젤렌스키 '北 추가 파병' 주장에 \"북러 군사협력 동향 주시\"",
+      "link": "https://www.yna.co.kr/view/AKR20260727073500504",
+      "source": "연합뉴스 국제",
+      "ts": 1785119331000,
+      "pub": "Mon, 27 Jul 2026 11:28:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "카자흐스탄 대통령, 푸틴 면전서 우크라전 휴전 촉구",
+      "link": "https://www.yna.co.kr/view/AKR20260727062900009",
+      "source": "연합뉴스 국제",
+      "ts": 1785118976000,
+      "pub": "Mon, 27 Jul 2026 11:22:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "10년물 미국채 금리 4.7%…트럼프 2기 들어 최고",
+      "link": "https://www.yna.co.kr/view/AKR20260727058500009",
+      "source": "연합뉴스 국제",
+      "ts": 1785117277000,
+      "pub": "Mon, 27 Jul 2026 10:54:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 정착민, 서안지구 연일 보복…모스크·농경지 불길",
+      "link": "https://www.yna.co.kr/view/AKR20260727061100009",
+      "source": "연합뉴스 국제",
+      "ts": 1785116967000,
+      "pub": "Mon, 27 Jul 2026 10:49:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "친트럼프 극우셀럽 로라 루머, 우크라 지지로 180도 전환",
+      "link": "https://www.yna.co.kr/view/AKR20260727046600009",
+      "source": "연합뉴스 국제",
+      "ts": 1785114249000,
+      "pub": "Mon, 27 Jul 2026 10:04:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"美중부사령관, 트럼프에 '호르무즈 제한 공습' 중단 권고\"",
+      "link": "https://www.yna.co.kr/view/AKR20260727021400009",
+      "source": "연합뉴스 국제",
+      "ts": 1785109089000,
+      "pub": "Mon, 27 Jul 2026 08:38:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 정부 '강제노동 관세' 띄우기…야당선 \"구실 불과\" 비판",
+      "link": "https://www.yna.co.kr/view/AKR20260727002600071",
+      "source": "연합뉴스 국제",
+      "ts": 1785094108000,
+      "pub": "Mon, 27 Jul 2026 04:28:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "진짜 농담일까…트럼프 툭하면 '3선' 언급에 '2028' 모자까지",
+      "link": "https://www.yna.co.kr/view/AKR20260727000900071",
+      "source": "연합뉴스 국제",
+      "ts": 1785083536000,
+      "pub": "Mon, 27 Jul 2026 01:32:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 이란전 출구전략 갈팡질팡…NYT \"구미맞는 선택지 없어\"",
+      "link": "https://www.yna.co.kr/view/AKR20260726057200071",
+      "source": "연합뉴스 국제",
+      "ts": 1785079751000,
+      "pub": "Mon, 27 Jul 2026 00:29:11 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-28T19:03:59.007Z",
-  "count": 12,
+  "updated_at": "2026-07-28T20:56:57.361Z",
+  "count": 18,
   "items": [
+    {
+      "title": "네타냐후-젤렌스키, 워싱턴서 3년 만에 대면",
+      "link": "https://www.yna.co.kr/view/AKR20260729006200079",
+      "source": "연합뉴스 국제",
+      "ts": 1785269166000,
+      "pub": "Wed, 29 Jul 2026 05:06:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"상원의 거인\"…최측근 故그레이엄 마지막길 배웅",
+      "link": "https://www.yna.co.kr/view/AKR20260729005200071",
+      "source": "연합뉴스 국제",
+      "ts": 1785268473000,
+      "pub": "Wed, 29 Jul 2026 04:54:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "네타냐후 \"트럼프 대통령과 회담, 역대 최고 중 하나\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260729005351079",
+      "source": "연합뉴스 국제",
+      "ts": 1785267453000,
+      "pub": "Wed, 29 Jul 2026 04:37:33 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "네타냐후 \"트럼프 대통령과 회담, 역대 최고 중 하나\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729005300079",
+      "source": "연합뉴스 국제",
+      "ts": 1785266290000,
+      "pub": "Wed, 29 Jul 2026 04:18:10 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"트럼프, 보건장관에 '입스' 면박\"…백신축소 성과내기 압박",
+      "link": "https://www.yna.co.kr/view/AKR20260729003900075",
+      "source": "연합뉴스 국제",
+      "ts": 1785266107000,
+      "pub": "Wed, 29 Jul 2026 04:15:07 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 네타냐후·젤렌스키와 잇단 비공개회담…전쟁 돌파구 모색",
       "link": "https://www.yna.co.kr/view/AKR20260729003300071",
@@ -25,6 +65,14 @@
       "source": "연합뉴스 국제",
       "ts": 1785253015000,
       "pub": "Wed, 29 Jul 2026 00:36:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"한미동맹 엄숙한 약속…인·태 평화의 기둥\"",
+      "link": "https://www.mt.co.kr/world/2026/07/28/2026072823363744629",
+      "source": "머니투데이",
+      "ts": 1785249589000,
+      "pub": "Tue, 28 Jul 2026 23:39:49 +0900",
       "sentiment": "neutral"
     },
     {

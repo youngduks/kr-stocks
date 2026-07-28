@@ -1,8 +1,48 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-28T19:03:59.009Z",
-  "count": 21,
+  "updated_at": "2026-07-28T20:56:57.363Z",
+  "count": 26,
   "items": [
+    {
+      "title": "뉴욕증시, 유가하락 속 반도체 조정에 혼조 마감…다우 1%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260729006600072",
+      "source": "연합뉴스 국제",
+      "ts": 1785270064000,
+      "pub": "Wed, 29 Jul 2026 05:21:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "창신메모리 상장, 메모리 사이클까지 바꾸나[광화문]",
+      "link": "https://www.mt.co.kr/opinion/2026/07/29/2026072816072072468",
+      "source": "머니투데이",
+      "ts": 1785265620000,
+      "pub": "Wed, 29 Jul 2026 04:07:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "리서치센터장 \"빅테크 AI투자 확인·반도체 실적·금리우려 완화, 증시반등 조건\"",
+      "link": "https://www.mt.co.kr/stock/2026/07/29/2026072820011381087",
+      "source": "머니투데이",
+      "ts": 1785265500000,
+      "pub": "Wed, 29 Jul 2026 04:05:00 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "키옥시아 '10배 보은'… SK하이닉스, 세전익 100조 넘본다",
+      "link": "https://www.mt.co.kr/industry/2026/07/29/2026072820143239069",
+      "source": "머니투데이",
+      "ts": 1785262680000,
+      "pub": "Wed, 29 Jul 2026 03:18:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "-11% 검은 화요일… 美中 반도체 쇼크, 코스피는 '7월 한파'",
+      "link": "https://www.mt.co.kr/stock/2026/07/29/2026072820144779037",
+      "source": "머니투데이",
+      "ts": 1785261900000,
+      "pub": "Wed, 29 Jul 2026 03:05:00 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "美, UAE에 AI반도체 빗장 푼 데 이어 군사용 AI도 공동개발",
       "link": "https://www.yna.co.kr/view/AKR20260728175100071",
@@ -18,6 +58,14 @@
       "ts": 1785248080000,
       "pub": "Tue, 28 Jul 2026 23:14:40 +0900",
       "sentiment": "negative"
+    },
+    {
+      "title": "TSMC \"직원 전원 안전·시설 피해 없어…예방 차원서 작업 일부 중단\"",
+      "link": "https://www.mt.co.kr/world/2026/07/28/2026072822431097685",
+      "source": "머니투데이",
+      "ts": 1785246905000,
+      "pub": "Tue, 28 Jul 2026 22:55:05 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "뉴욕증시, 반도체주 매도세에 혼조 출발",
@@ -161,14 +209,6 @@
       "source": "연합뉴스 경제",
       "ts": 1785206478000,
       "pub": "Tue, 28 Jul 2026 11:41:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"여기가 수혜 단지\" 광주 분양 아파트 마케팅 '반도체' 초점",
-      "link": "https://www.yna.co.kr/view/AKR20260728064600054",
-      "source": "연합뉴스 경제",
-      "ts": 1785203024000,
-      "pub": "Tue, 28 Jul 2026 10:43:44 +0900",
       "sentiment": "neutral"
     }
   ]

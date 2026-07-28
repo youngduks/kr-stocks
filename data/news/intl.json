@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-28T15:10:02.304Z",
-  "count": 14,
+  "updated_at": "2026-07-28T17:16:54.962Z",
+  "count": 12,
   "items": [
+    {
+      "title": "젤렌스키 \"트럼프와 패트리엇 면허 논의…외교절차 재개 공감\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260728131551109",
+      "source": "연합뉴스 국제",
+      "ts": 1785255375000,
+      "pub": "Wed, 29 Jul 2026 01:16:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"합의 안하면 이란 교량들 한시간도 안돼 없어질 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729000300071",
+      "source": "연합뉴스 국제",
+      "ts": 1785253015000,
+      "pub": "Wed, 29 Jul 2026 00:36:55 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이스라엘 총리실 \"트럼프·네타냐후, 전쟁 승리 방안 논의\"",
       "link": "https://www.yna.co.kr/view/AKR20260728174300079",
@@ -34,22 +50,6 @@
       "ts": 1785233594000,
       "pub": "Tue, 28 Jul 2026 19:13:14 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "[포토] 관세로 틀어진 이웃…美~캐나다 대교 개통",
-      "link": "https://www.hankyung.com/article/2026072812661",
-      "source": "한국경제",
-      "ts": 1785230193000,
-      "pub": "Tue, 28 Jul 2026 18:16:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 2기 첫 美대사 이번주 부임…대미투자·핵잠 등 양국현안 풀리나",
-      "link": "https://www.hankyung.com/article/2026072813271",
-      "source": "한국경제",
-      "ts": 1785229973000,
-      "pub": "Tue, 28 Jul 2026 18:12:53 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "\"트럼프 행정부 '경제 제재가 공습보다 효과적' 인식\"",
@@ -97,22 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785204861000,
       "pub": "Tue, 28 Jul 2026 11:14:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"우크라, 北추가파병시 서방지원·대러제재 강화 요구 명분\"",
-      "link": "https://www.yna.co.kr/view/AKR20260728064500009",
-      "source": "연합뉴스 국제",
-      "ts": 1785202761000,
-      "pub": "Tue, 28 Jul 2026 10:39:21 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "연준 금리동결 확률 62%…\"깜짝 인상 가능성도\"",
-      "link": "https://www.yna.co.kr/view/AKR20260728058200009",
-      "source": "연합뉴스 국제",
-      "ts": 1785202053000,
-      "pub": "Tue, 28 Jul 2026 10:27:33 +0900",
       "sentiment": "neutral"
     }
   ]

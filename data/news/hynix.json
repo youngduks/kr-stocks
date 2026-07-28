@@ -1,8 +1,72 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-28T07:30:39.660Z",
+  "updated_at": "2026-07-28T10:21:46.297Z",
   "count": 18,
   "items": [
+    {
+      "title": "반도체협회 신임 부회장에 박건수 전 산업부 산업정책실장",
+      "link": "https://www.yna.co.kr/view/AKR20260728161500003",
+      "source": "연합뉴스 경제",
+      "ts": 1785231398000,
+      "pub": "Tue, 28 Jul 2026 18:36:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피 사상 최대폭 하락…반도체 최악의 날 [퇴근길 30초 경제]",
+      "link": "https://www.hankyung.com/article/202607281427H",
+      "source": "한국경제",
+      "ts": 1785229509000,
+      "pub": "Tue, 28 Jul 2026 18:05:09 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'AI 지각생' 애플의 반전…엔비디아 제치고 시총 1위 탈환",
+      "link": "https://www.hankyung.com/article/2026072812811",
+      "source": "한국경제",
+      "ts": 1785229090000,
+      "pub": "Tue, 28 Jul 2026 17:58:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "구마모토 강진에 TSMC 직원 긴급 대피…신칸센·항공편도 중단",
+      "link": "https://www.hankyung.com/article/202607281388i",
+      "source": "한국경제",
+      "ts": 1785228798000,
+      "pub": "Tue, 28 Jul 2026 17:53:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "대만, 첨단 AI칩 중국 밀반출 혐의 엔비디아 직원 구속",
+      "link": "https://www.yna.co.kr/view/AKR20260728147900083",
+      "source": "연합뉴스 국제",
+      "ts": 1785227276000,
+      "pub": "Tue, 28 Jul 2026 17:27:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "CXMT 상장에 中안후이성 '대박'…딥시크 창업자 량원펑도 수혜",
+      "link": "https://www.yna.co.kr/view/AKR20260728139900009",
+      "source": "연합뉴스 국제",
+      "ts": 1785226061000,
+      "pub": "Tue, 28 Jul 2026 17:07:41 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[속보] TSMC \"구마모토 강진 관련 공장 상황 확인 중\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728141300073",
+      "source": "연합뉴스 국제",
+      "ts": 1785225424000,
+      "pub": "Tue, 28 Jul 2026 16:57:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "NH투자, 5천억 회사채 발행…'반도체 머니' 하이닉스가 인수 관측",
+      "link": "https://www.yna.co.kr/view/AKR20260728137000008",
+      "source": "연합뉴스 경제",
+      "ts": 1785224934000,
+      "pub": "Tue, 28 Jul 2026 16:48:54 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "자사 AI 생태계 강화?…\"엔비디아 73조원 데이터센터 임차\"",
       "link": "https://www.yna.co.kr/view/AKR20260728119600009",
@@ -17,30 +81,6 @@
       "source": "연합뉴스 경제",
       "ts": 1785222544000,
       "pub": "Tue, 28 Jul 2026 16:09:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "기본전제부터 흔들리는 반도체 랠리…코스피 장중 한때 5000선으로 추락",
-      "link": "https://www.hankyung.com/article/202607280616i",
-      "source": "한국경제",
-      "ts": 1785219983000,
-      "pub": "Tue, 28 Jul 2026 15:26:23 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'반도체 기판' 생산 능력 확충한 LG이노텍",
-      "link": "https://www.hankyung.com/article/202607289998i",
-      "source": "한국경제",
-      "ts": 1785219165000,
-      "pub": "Tue, 28 Jul 2026 15:12:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체·비규제·가격 경쟁력…삼박자 갖춘 '용인 고림 동문 디 이스트'",
-      "link": "https://www.hankyung.com/article/2026072898231",
-      "source": "한국경제",
-      "ts": 1785219150000,
-      "pub": "Tue, 28 Jul 2026 15:12:30 +0900",
       "sentiment": "neutral"
     },
     {
@@ -100,52 +140,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 8∼10% 급락",
-      "link": "https://www.yna.co.kr/view/AKR20260728044500008",
-      "source": "연합뉴스 경제",
-      "ts": 1785199501000,
-      "pub": "Tue, 28 Jul 2026 09:45:01 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "엔비디아 'AI 순환거래' 우려 재점화…주가 5% 급락",
       "link": "https://www.yna.co.kr/view/AKR20260728024400009",
       "source": "연합뉴스 국제",
       "ts": 1785197797000,
       "pub": "Tue, 28 Jul 2026 09:16:37 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "뉴욕증시, 유가 급락 속 혼조 마감…반도체주 하락(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260728006251072",
-      "source": "연합뉴스 국제",
-      "ts": 1785185205000,
-      "pub": "Tue, 28 Jul 2026 05:46:45 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "뉴욕증시, 유가 급락 속 혼조 마감…반도체주 하락",
-      "link": "https://www.yna.co.kr/view/AKR20260728006200072",
-      "source": "연합뉴스 국제",
-      "ts": 1785183100000,
-      "pub": "Tue, 28 Jul 2026 05:11:40 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "中전문가들, CXMT 상장에 \"삼전·닉스에 도전하고 시장 재편\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260727086851089",
-      "source": "연합뉴스 국제",
-      "ts": 1785158220000,
-      "pub": "Mon, 27 Jul 2026 22:17:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "日 구마모토에 피지컬AI 반도체 국제거점…대만 기업에 '러브콜'(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260727083051073",
-      "source": "연합뉴스 국제",
-      "ts": 1785147986000,
-      "pub": "Mon, 27 Jul 2026 19:26:26 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

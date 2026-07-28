@@ -1,14 +1,30 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-28T22:52:17.348Z",
-  "count": 2,
+  "updated_at": "2026-07-28T23:49:07.684Z",
+  "count": 4,
   "items": [
     {
-      "title": "'물 한 방울'로 삼전닉스 자리 넘본다…中 '극강의 기술' 정체 [강경주의 테크X]",
-      "link": "https://www.hankyung.com/article/2026072800656",
+      "title": "반도체 탈출→순환매…메모리 급락, 보잉·코카콜라 신고가 [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202607291736i",
       "source": "한국경제",
-      "ts": 1785274207000,
-      "pub": "Wed, 29 Jul 2026 06:30:07 +0900",
+      "ts": 1785280105000,
+      "pub": "Wed, 29 Jul 2026 08:08:25 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"폭락한 삼전닉스, V자 반등 가시권…시장 우려 과도\"-KB",
+      "link": "https://www.hankyung.com/article/2026072918416",
+      "source": "한국경제",
+      "ts": 1785279258000,
+      "pub": "Wed, 29 Jul 2026 07:54:18 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "창신메모리 상장, 메모리 사이클까지 바꾸나[광화문]",
+      "link": "https://www.mt.co.kr/opinion/2026/07/29/2026072816072072468",
+      "source": "머니투데이",
+      "ts": 1785265620000,
+      "pub": "Wed, 29 Jul 2026 04:07:00 +0900",
       "sentiment": "neutral"
     },
     {

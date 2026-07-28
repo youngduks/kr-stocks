@@ -1,22 +1,70 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-28T22:52:17.347Z",
-  "count": 19,
+  "updated_at": "2026-07-28T23:49:07.682Z",
+  "count": 25,
   "items": [
+    {
+      "title": "\"한세실업, 관세·인플레 속 신공장 부담…목표가↓\"-DB",
+      "link": "https://www.mt.co.kr/stock/2026/07/29/2026072908215532644",
+      "source": "머니투데이",
+      "ts": 1785282287000,
+      "pub": "Wed, 29 Jul 2026 08:44:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, '1천200억원대 명예훼손 소송' 패소에 대법 상고\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729025100071",
+      "source": "연합뉴스 국제",
+      "ts": 1785280413000,
+      "pub": "Wed, 29 Jul 2026 08:13:33 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "해리티지재단, 바이든 육성파일 공개…\"고의 기밀유출 입증\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729014600071",
+      "source": "연합뉴스 국제",
+      "ts": 1785280101000,
+      "pub": "Wed, 29 Jul 2026 08:08:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"불멸\" 푸틴·시진핑 은밀한 대화...러 39조 투자설 '노화백신' 뭐길래",
+      "link": "https://www.mt.co.kr/thebio/2026/07/29/2026072822234542035",
+      "source": "머니투데이",
+      "ts": 1785276000000,
+      "pub": "Wed, 29 Jul 2026 07:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘·우크라 '전쟁 당사자' 만난 트럼프…이례적 비공개 회담",
+      "link": "https://www.mt.co.kr/world/2026/07/29/2026072906574353711",
+      "source": "머니투데이",
+      "ts": 1785275963000,
+      "pub": "Wed, 29 Jul 2026 06:59:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 합의 불발 땐 2시간 안에 교량, 하루면 발전소 사라질 것\"",
+      "link": "https://www.mt.co.kr/world/2026/07/29/2026072906313160845",
+      "source": "머니투데이",
+      "ts": 1785274824000,
+      "pub": "Wed, 29 Jul 2026 06:40:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 총리 \"트럼프와 역대 최고 회담\"…이란 핵 저지 공감",
+      "link": "https://www.mt.co.kr/world/2026/07/29/2026072906285846807",
+      "source": "머니투데이",
+      "ts": 1785274236000,
+      "pub": "Wed, 29 Jul 2026 06:30:36 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "\"'예측시장 베팅범' 트럼프 연설원고 보좌관 백악관 퇴직\"",
       "link": "https://www.yna.co.kr/view/AKR20260729009100071",
       "source": "연합뉴스 국제",
       "ts": 1785273433000,
       "pub": "Wed, 29 Jul 2026 06:17:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"합의 없으면 이란 주요 교량 2시간 내 사라질 것\"",
-      "link": "https://www.hankyung.com/article/2026072917357",
-      "source": "한국경제",
-      "ts": 1785273341000,
-      "pub": "Wed, 29 Jul 2026 06:15:41 +0900",
       "sentiment": "neutral"
     },
     {

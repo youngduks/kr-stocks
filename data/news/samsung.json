@@ -1,22 +1,30 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-28T04:52:19.055Z",
+  "updated_at": "2026-07-28T07:30:39.659Z",
   "count": 6,
   "items": [
     {
-      "title": "[포토] '실물 보니 더 예쁘네'…갤럭시 Z8 시리즈 사전예약 시작",
-      "link": "https://www.hankyung.com/article/202607280355i",
+      "title": "삼전닉스 13~14%↓, 역대급 폭락…외국인이 대거 던졌다(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260728044551008",
+      "source": "연합뉴스 경제",
+      "ts": 1785222184000,
+      "pub": "Tue, 28 Jul 2026 16:03:04 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "삼성전자에 물린 개미 보니…주가 15만~20만원일때 매수물량 가장 많아",
+      "link": "https://www.hankyung.com/article/202607280799i",
       "source": "한국경제",
-      "ts": 1785210866000,
-      "pub": "Tue, 28 Jul 2026 12:54:26 +0900",
+      "ts": 1785221322000,
+      "pub": "Tue, 28 Jul 2026 15:48:42 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[포토] 삼성전자 '갤럭시 Z8' 시리즈 오늘부터 사전예약 시작",
-      "link": "https://www.hankyung.com/article/202607280343i",
+      "title": "\"갤럭시엔 OTT\"…이통3사, 갤Z8 폴더블폰 고객 쟁탈전 '총력'",
+      "link": "https://www.hankyung.com/article/202607280628g",
       "source": "한국경제",
-      "ts": 1785210035000,
-      "pub": "Tue, 28 Jul 2026 12:40:35 +0900",
+      "ts": 1785217740000,
+      "pub": "Tue, 28 Jul 2026 14:49:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -34,14 +42,6 @@
       "ts": 1785199501000,
       "pub": "Tue, 28 Jul 2026 09:45:01 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "무보, 삼성전자 스페인 스마트폰 시장 공략에 1억달러 보험 지원",
-      "link": "https://www.yna.co.kr/view/AKR20260728025600003",
-      "source": "연합뉴스 경제",
-      "ts": 1785195434000,
-      "pub": "Tue, 28 Jul 2026 08:37:14 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "中전문가들, CXMT 상장에 \"삼전·닉스에 도전하고 시장 재편\"(종합)",

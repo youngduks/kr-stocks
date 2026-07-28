@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-28T04:52:19.054Z",
+  "updated_at": "2026-07-28T07:30:39.658Z",
   "count": 20,
   "items": [
+    {
+      "title": "\"사우디, 트럼프 압박에도 이스라엘 관계정상화 신호 안보내\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728125300009",
+      "source": "연합뉴스 국제",
+      "ts": 1785222915000,
+      "pub": "Tue, 28 Jul 2026 16:15:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 '코로나19 지휘관' 파우치 일기 속 트럼프…\"완전 망신거리\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728124600009",
+      "source": "연합뉴스 국제",
+      "ts": 1785222071000,
+      "pub": "Tue, 28 Jul 2026 16:01:11 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, '유권자ID법' 처리 거듭 압박…\"상원 휴회 전 처리해야\"",
       "link": "https://www.yna.co.kr/view/AKR20260728071500009",
@@ -38,7 +54,7 @@
     {
       "title": "美무역대표 \"301조 관세, 연준 금리 결정에 영향 없을 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260728035000071",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1785198219000,
       "pub": "Tue, 28 Jul 2026 09:23:39 +0900",
       "sentiment": "neutral"
@@ -145,22 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785149724000,
       "pub": "Mon, 27 Jul 2026 19:55:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "크렘린, '북한군 3만명 추가 파병' 젤렌스키 주장에 논평 거부",
-      "link": "https://www.yna.co.kr/view/AKR20260727156800079",
-      "source": "연합뉴스 국제",
-      "ts": 1785147309000,
-      "pub": "Mon, 27 Jul 2026 19:15:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 \"유럽 미사일 방어체계 내년 상반기 공개 목표\"",
-      "link": "https://www.yna.co.kr/view/AKR20260727149400109",
-      "source": "연합뉴스 국제",
-      "ts": 1785142981000,
-      "pub": "Mon, 27 Jul 2026 18:03:01 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,56 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-28T04:52:19.055Z",
-  "count": 20,
+  "updated_at": "2026-07-28T07:30:39.660Z",
+  "count": 18,
   "items": [
+    {
+      "title": "자사 AI 생태계 강화?…\"엔비디아 73조원 데이터센터 임차\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728119600009",
+      "source": "연합뉴스 국제",
+      "ts": 1785223300000,
+      "pub": "Tue, 28 Jul 2026 16:21:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "외국인 5조 순매도에도 하이닉스 ADR 효과…환율 소폭 하락",
+      "link": "https://www.yna.co.kr/view/AKR20260728125200002",
+      "source": "연합뉴스 경제",
+      "ts": 1785222544000,
+      "pub": "Tue, 28 Jul 2026 16:09:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "기본전제부터 흔들리는 반도체 랠리…코스피 장중 한때 5000선으로 추락",
+      "link": "https://www.hankyung.com/article/202607280616i",
+      "source": "한국경제",
+      "ts": 1785219983000,
+      "pub": "Tue, 28 Jul 2026 15:26:23 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'반도체 기판' 생산 능력 확충한 LG이노텍",
+      "link": "https://www.hankyung.com/article/202607289998i",
+      "source": "한국경제",
+      "ts": 1785219165000,
+      "pub": "Tue, 28 Jul 2026 15:12:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체·비규제·가격 경쟁력…삼박자 갖춘 '용인 고림 동문 디 이스트'",
+      "link": "https://www.hankyung.com/article/2026072898231",
+      "source": "한국경제",
+      "ts": 1785219150000,
+      "pub": "Tue, 28 Jul 2026 15:12:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "아시아 반도체주 투매…TSMC·키옥시아도 급락",
+      "link": "https://www.yna.co.kr/view/AKR20260728110600009",
+      "source": "연합뉴스 국제",
+      "ts": 1785218445000,
+      "pub": "Tue, 28 Jul 2026 15:00:45 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "美제재 속 '中반도체굴기' 새국면…IPO성공·기술자립 본격 시도",
       "link": "https://www.yna.co.kr/view/AKR20260728086000083",
@@ -36,14 +84,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "코스피 급락장에서도...투자 초고수 선택은 '하이닉스'",
-      "link": "https://www.hankyung.com/article/202607280092i",
-      "source": "한국경제",
-      "ts": 1785204155000,
-      "pub": "Tue, 28 Jul 2026 11:02:35 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "엔비디아, '챗GPT 개발 주역' 스타트업에 7.3조원 투자",
       "link": "https://www.yna.co.kr/view/AKR20260728059400009",
       "source": "연합뉴스 국제",
@@ -57,38 +97,6 @@
       "source": "연합뉴스 경제",
       "ts": 1785203024000,
       "pub": "Tue, 28 Jul 2026 10:43:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 특수 올라탄 삼성E&A…'영업이익 1조' 보인다",
-      "link": "https://www.hankyung.com/article/202607289990i",
-      "source": "한국경제",
-      "ts": 1785202897000,
-      "pub": "Tue, 28 Jul 2026 10:41:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI 돈 몰리는 엔비디아·알파벳…한 번에 담는 ETF 나왔다",
-      "link": "https://www.hankyung.com/article/202607289816i",
-      "source": "한국경제",
-      "ts": 1785202339000,
-      "pub": "Tue, 28 Jul 2026 10:32:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"CXMT, 中증시 성공적 데뷔…국내 소부장 수혜 기대\"-현대차",
-      "link": "https://www.hankyung.com/article/2026072897476",
-      "source": "한국경제",
-      "ts": 1785202093000,
-      "pub": "Tue, 28 Jul 2026 10:28:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "같은 SK하이닉스 주식인데 미국에선 더 비싸다…“AI 거품 신호”",
-      "link": "https://www.hankyung.com/article/202607289507i",
-      "source": "한국경제",
-      "ts": 1785201915000,
-      "pub": "Tue, 28 Jul 2026 10:25:15 +0900",
       "sentiment": "neutral"
     },
     {
@@ -106,22 +114,6 @@
       "ts": 1785197797000,
       "pub": "Tue, 28 Jul 2026 09:16:37 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "한투증권 \"네이버, 엔비디아 투자로 AI 파트너십 강화\"",
-      "link": "https://www.yna.co.kr/view/AKR20260728024300008",
-      "source": "연합뉴스 경제",
-      "ts": 1785195210000,
-      "pub": "Tue, 28 Jul 2026 08:33:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[마켓뷰] 美반도체주 흔들…코스피 또 변동성 커지나",
-      "link": "https://www.yna.co.kr/view/AKR20260728019200008",
-      "source": "연합뉴스 경제",
-      "ts": 1785193406000,
-      "pub": "Tue, 28 Jul 2026 08:03:26 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "뉴욕증시, 유가 급락 속 혼조 마감…반도체주 하락(종합)",
@@ -154,14 +146,6 @@
       "ts": 1785147986000,
       "pub": "Mon, 27 Jul 2026 19:26:26 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "'中 반도체첨병' CXMT 첫날 466% 급등…시총 712조, 美인텔 넘어(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260727064752089",
-      "source": "연합뉴스 국제",
-      "ts": 1785144413000,
-      "pub": "Mon, 27 Jul 2026 18:26:53 +0900",
-      "sentiment": "positive"
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-28T21:56:36.626Z",
-  "count": 3,
+  "updated_at": "2026-07-28T22:52:17.348Z",
+  "count": 2,
   "items": [
     {
-      "title": "창신메모리 상장, 메모리 사이클까지 바꾸나[광화문]",
-      "link": "https://www.mt.co.kr/opinion/2026/07/29/2026072816072072468",
-      "source": "머니투데이",
-      "ts": 1785265620000,
-      "pub": "Wed, 29 Jul 2026 04:07:00 +0900",
+      "title": "'물 한 방울'로 삼전닉스 자리 넘본다…中 '극강의 기술' 정체 [강경주의 테크X]",
+      "link": "https://www.hankyung.com/article/2026072800656",
+      "source": "한국경제",
+      "ts": 1785274207000,
+      "pub": "Wed, 29 Jul 2026 06:30:07 +0900",
       "sentiment": "neutral"
     },
     {
@@ -17,14 +17,6 @@
       "source": "연합뉴스 경제",
       "ts": 1785222184000,
       "pub": "Tue, 28 Jul 2026 16:03:04 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "코스피 8~9%↓, 삼전닉스 11∼12% 폭락…서킷브레이커 발동",
-      "link": "https://www.yna.co.kr/view/AKR20260728076400008",
-      "source": "연합뉴스 경제",
-      "ts": 1785205393000,
-      "pub": "Tue, 28 Jul 2026 11:23:13 +0900",
       "sentiment": "negative"
     }
   ]

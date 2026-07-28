@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-28T21:56:36.627Z",
-  "count": 28,
+  "updated_at": "2026-07-28T22:52:17.348Z",
+  "count": 21,
   "items": [
+    {
+      "title": "유가 하락 속 혼조 마감…반도체주 급락 [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026072917896",
+      "source": "한국경제",
+      "ts": 1785276924000,
+      "pub": "Wed, 29 Jul 2026 07:15:24 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "구마모토 강진에 日반도체 산업 긴장…TSMC 생산 차질 우려",
+      "link": "https://www.hankyung.com/article/202607291761i",
+      "source": "한국경제",
+      "ts": 1785275829000,
+      "pub": "Wed, 29 Jul 2026 06:57:09 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "뉴욕증시, 유가하락 속 반도체 조정에 혼조 마감…나스닥 0.2%↓(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260729006651072",
@@ -12,60 +28,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "엔비디아 이어 AMD까지 줄줄이 AI 연구센터…한국에 주목하는 속내는?",
-      "link": "https://www.mt.co.kr/tech/2026/07/29/2026072815580141365",
-      "source": "머니투데이",
-      "ts": 1785272400000,
-      "pub": "Wed, 29 Jul 2026 06:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 ADR 9% 뚝…유가 하락에도 반도체 매도 지속[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/07/29/2026072905553919364",
-      "source": "머니투데이",
-      "ts": 1785272305000,
-      "pub": "Wed, 29 Jul 2026 05:58:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "뉴욕증시, 유가하락 속 반도체 조정에 혼조 마감…다우 1%↑",
       "link": "https://www.yna.co.kr/view/AKR20260729006600072",
       "source": "연합뉴스 국제",
       "ts": 1785270064000,
       "pub": "Wed, 29 Jul 2026 05:21:04 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "창신메모리 상장, 메모리 사이클까지 바꾸나[광화문]",
-      "link": "https://www.mt.co.kr/opinion/2026/07/29/2026072816072072468",
-      "source": "머니투데이",
-      "ts": 1785265620000,
-      "pub": "Wed, 29 Jul 2026 04:07:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "리서치센터장 \"빅테크 AI투자 확인·반도체 실적·금리우려 완화, 증시반등 조건\"",
-      "link": "https://www.mt.co.kr/stock/2026/07/29/2026072820011381087",
-      "source": "머니투데이",
-      "ts": 1785265500000,
-      "pub": "Wed, 29 Jul 2026 04:05:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "키옥시아 '10배 보은'… SK하이닉스, 세전익 100조 넘본다",
-      "link": "https://www.mt.co.kr/industry/2026/07/29/2026072820143239069",
-      "source": "머니투데이",
-      "ts": 1785262680000,
-      "pub": "Wed, 29 Jul 2026 03:18:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "-11% 검은 화요일… 美中 반도체 쇼크, 코스피는 '7월 한파'",
-      "link": "https://www.mt.co.kr/stock/2026/07/29/2026072820144779037",
-      "source": "머니투데이",
-      "ts": 1785261900000,
-      "pub": "Wed, 29 Jul 2026 03:05:00 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "美, UAE에 AI반도체 빗장 푼 데 이어 군사용 AI도 공동개발",
@@ -82,14 +50,6 @@
       "ts": 1785248080000,
       "pub": "Tue, 28 Jul 2026 23:14:40 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "TSMC \"직원 전원 안전·시설 피해 없어…예방 차원서 작업 일부 중단\"",
-      "link": "https://www.mt.co.kr/world/2026/07/28/2026072822431097685",
-      "source": "머니투데이",
-      "ts": 1785246905000,
-      "pub": "Tue, 28 Jul 2026 22:55:05 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "뉴욕증시, 반도체주 매도세에 혼조 출발",
@@ -122,14 +82,6 @@
       "ts": 1785236461000,
       "pub": "Tue, 28 Jul 2026 20:01:01 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "AI 순환금융 우려에 中 반도체 쇼크…글로벌 반도체주 '최악의 날'",
-      "link": "https://www.hankyung.com/article/202607281188i",
-      "source": "한국경제",
-      "ts": 1785234661000,
-      "pub": "Tue, 28 Jul 2026 19:31:01 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "반도체협회 신임 부회장에 박건수 전 산업부 산업정책실장",
@@ -193,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785218445000,
       "pub": "Tue, 28 Jul 2026 15:00:45 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "美제재 속 '中반도체굴기' 새국면…IPO성공·기술자립 본격 시도",
-      "link": "https://www.yna.co.kr/view/AKR20260728086000083",
-      "source": "연합뉴스 국제",
-      "ts": 1785213820000,
-      "pub": "Tue, 28 Jul 2026 13:43:40 +0900",
       "sentiment": "negative"
     },
     {

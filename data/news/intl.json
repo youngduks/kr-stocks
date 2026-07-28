@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-28T17:16:54.962Z",
+  "updated_at": "2026-07-28T19:03:59.007Z",
   "count": 12,
   "items": [
+    {
+      "title": "트럼프, 네타냐후·젤렌스키와 잇단 비공개회담…전쟁 돌파구 모색",
+      "link": "https://www.yna.co.kr/view/AKR20260729003300071",
+      "source": "연합뉴스 국제",
+      "ts": 1785262548000,
+      "pub": "Wed, 29 Jul 2026 03:15:48 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "젤렌스키 \"트럼프와 패트리엇 면허 논의…외교절차 재개 공감\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260728131551109",
@@ -89,14 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785222071000,
       "pub": "Tue, 28 Jul 2026 16:01:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '유권자ID법' 처리 거듭 압박…\"상원 휴회 전 처리해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260728071500009",
-      "source": "연합뉴스 국제",
-      "ts": 1785204861000,
-      "pub": "Tue, 28 Jul 2026 11:14:21 +0900",
       "sentiment": "neutral"
     }
   ]

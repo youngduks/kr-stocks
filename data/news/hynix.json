@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-28T20:56:57.363Z",
-  "count": 26,
+  "updated_at": "2026-07-28T21:56:36.627Z",
+  "count": 28,
   "items": [
+    {
+      "title": "뉴욕증시, 유가하락 속 반도체 조정에 혼조 마감…나스닥 0.2%↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260729006651072",
+      "source": "연합뉴스 국제",
+      "ts": 1785272820000,
+      "pub": "Wed, 29 Jul 2026 06:07:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아 이어 AMD까지 줄줄이 AI 연구센터…한국에 주목하는 속내는?",
+      "link": "https://www.mt.co.kr/tech/2026/07/29/2026072815580141365",
+      "source": "머니투데이",
+      "ts": 1785272400000,
+      "pub": "Wed, 29 Jul 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 ADR 9% 뚝…유가 하락에도 반도체 매도 지속[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/07/29/2026072905553919364",
+      "source": "머니투데이",
+      "ts": 1785272305000,
+      "pub": "Wed, 29 Jul 2026 05:58:25 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "뉴욕증시, 유가하락 속 반도체 조정에 혼조 마감…다우 1%↑",
       "link": "https://www.yna.co.kr/view/AKR20260729006600072",
@@ -106,14 +130,6 @@
       "ts": 1785234661000,
       "pub": "Tue, 28 Jul 2026 19:31:01 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "\"아빠, 삼전닉스 가고 싶어요\"…요즘 '반도체 키즈' 몰린 곳 [현장+]",
-      "link": "https://www.hankyung.com/article/202607278224H",
-      "source": "한국경제",
-      "ts": 1785232141000,
-      "pub": "Tue, 28 Jul 2026 18:49:01 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "반도체협회 신임 부회장에 박건수 전 산업부 산업정책실장",

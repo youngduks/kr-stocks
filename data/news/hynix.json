@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-28T10:21:46.297Z",
-  "count": 18,
+  "updated_at": "2026-07-28T12:29:18.181Z",
+  "count": 20,
   "items": [
+    {
+      "title": "日 반도체 허브 구마모토 지진 강타…대형 쇼핑몰도 붕괴",
+      "link": "https://www.hankyung.com/article/202607281524i",
+      "source": "한국경제",
+      "ts": 1785236616000,
+      "pub": "Tue, 28 Jul 2026 20:03:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "日정부 \"구마모토 TSMC 공장, 현재까지 강진 피해 보고 없어\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728167500009",
+      "source": "연합뉴스 국제",
+      "ts": 1785236461000,
+      "pub": "Tue, 28 Jul 2026 20:01:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI순환금융우려에 中반도체쇼크…글로벌 반도체주 '최악의 날'",
+      "link": "https://www.hankyung.com/article/202607281188i",
+      "source": "한국경제",
+      "ts": 1785234661000,
+      "pub": "Tue, 28 Jul 2026 19:31:01 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "반도체협회 신임 부회장에 박건수 전 산업부 산업정책실장",
       "link": "https://www.yna.co.kr/view/AKR20260728161500003",
@@ -25,14 +49,6 @@
       "source": "한국경제",
       "ts": 1785229090000,
       "pub": "Tue, 28 Jul 2026 17:58:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "구마모토 강진에 TSMC 직원 긴급 대피…신칸센·항공편도 중단",
-      "link": "https://www.hankyung.com/article/202607281388i",
-      "source": "한국경제",
-      "ts": 1785228798000,
-      "pub": "Tue, 28 Jul 2026 17:53:18 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-28T10:21:46.296Z",
-  "count": 18,
+  "updated_at": "2026-07-28T12:29:18.180Z",
+  "count": 17,
   "items": [
+    {
+      "title": "이스라엘 국방 \"이란, 美 폭격기의 이스라엘 기지 이용 알아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728169200079",
+      "source": "연합뉴스 국제",
+      "ts": 1785239206000,
+      "pub": "Tue, 28 Jul 2026 20:46:46 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"미국, 베트남 내 중국계 공장 불시검사…추가관세 부과 우려\"",
       "link": "https://www.yna.co.kr/view/AKR20260728162900084",
@@ -25,14 +33,6 @@
       "source": "한국경제",
       "ts": 1785229973000,
       "pub": "Tue, 28 Jul 2026 18:12:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"美 관세 환급 더 못 기다려\"…청구권 내다파는 기업들",
-      "link": "https://www.hankyung.com/article/2026072813171",
-      "source": "한국경제",
-      "ts": 1785228970000,
-      "pub": "Tue, 28 Jul 2026 17:56:10 +0900",
       "sentiment": "neutral"
     },
     {
@@ -137,14 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785194638000,
       "pub": "Tue, 28 Jul 2026 08:23:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '접전지' 미시간 또 찾아 車관세 홍보…\"반드시 이겨야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260728011700071",
-      "source": "연합뉴스 국제",
-      "ts": 1785189309000,
-      "pub": "Tue, 28 Jul 2026 06:55:09 +0900",
       "sentiment": "neutral"
     }
   ]

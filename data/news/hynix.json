@@ -1,30 +1,86 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-27T23:53:36.795Z",
-  "count": 19,
+  "updated_at": "2026-07-28T01:24:07.018Z",
+  "count": 18,
   "items": [
     {
-      "title": "\"아날로그 반도체 '뚝심' 통했다\"…주가 50% 뛴 기업 어디",
-      "link": "https://www.hankyung.com/article/202607278746i",
-      "source": "한국경제",
-      "ts": 1785191402000,
-      "pub": "Tue, 28 Jul 2026 07:30:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "유가 급락에도 반도체주 '와르르'…나스닥 약세 [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026072893216",
-      "source": "한국경제",
-      "ts": 1785190206000,
-      "pub": "Tue, 28 Jul 2026 07:10:06 +0900",
+      "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 8∼10% 급락",
+      "link": "https://www.yna.co.kr/view/AKR20260728044500008",
+      "source": "연합뉴스 경제",
+      "ts": 1785199501000,
+      "pub": "Tue, 28 Jul 2026 09:45:01 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "젠슨 황도 \"고맙다\"…'TSMC 추격은 착각'이라던 삼성의 반전 [테크로그]",
-      "link": "https://www.hankyung.com/article/202607278722g",
+      "title": "엔비디아 'AI 순환거래' 우려 재점화…주가 5% 급락",
+      "link": "https://www.yna.co.kr/view/AKR20260728024400009",
+      "source": "연합뉴스 국제",
+      "ts": 1785197797000,
+      "pub": "Tue, 28 Jul 2026 09:16:37 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "코스피, 美 반도체 쇼크에 6% 급락…매도 사이드카",
+      "link": "https://www.hankyung.com/article/2026072897216",
       "source": "한국경제",
-      "ts": 1785186008000,
-      "pub": "Tue, 28 Jul 2026 06:00:08 +0900",
+      "ts": 1785197723000,
+      "pub": "Tue, 28 Jul 2026 09:15:23 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"어닝 서프라이즈 기대\"...초고수 투자자의 픽은 'SK하이닉스'",
+      "link": "https://www.hankyung.com/article/202607289656i",
+      "source": "한국경제",
+      "ts": 1785197002000,
+      "pub": "Tue, 28 Jul 2026 09:03:22 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'AI 지각생' 조롱받더니…엔비디아 제치고 시총 1위 '대반전'",
+      "link": "https://www.hankyung.com/article/2026072895166",
+      "source": "한국경제",
+      "ts": 1785196953000,
+      "pub": "Tue, 28 Jul 2026 09:02:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "넥스트레이드 프리마켓서 SK하이닉스 '하한가 해프닝'",
+      "link": "https://www.hankyung.com/article/202607289555i",
+      "source": "한국경제",
+      "ts": 1785195678000,
+      "pub": "Tue, 28 Jul 2026 08:41:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'100조 벌었나'…SK하이닉스 2분기 실적발표 D-1",
+      "link": "https://www.hankyung.com/article/202607289527i",
+      "source": "한국경제",
+      "ts": 1785195533000,
+      "pub": "Tue, 28 Jul 2026 08:38:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한투증권 \"네이버, 엔비디아 투자로 AI 파트너십 강화\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728024300008",
+      "source": "연합뉴스 경제",
+      "ts": 1785195210000,
+      "pub": "Tue, 28 Jul 2026 08:33:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[외신 에스프레소] 중국 창신메모리 상장 첫날 466% 폭등…미국 규제 뚫고 우회하는 투자자들",
+      "link": "https://www.hankyung.com/article/202607289469i",
+      "source": "한국경제",
+      "ts": 1785194970000,
+      "pub": "Tue, 28 Jul 2026 08:29:30 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[마켓뷰] 美반도체주 흔들…코스피 또 변동성 커지나",
+      "link": "https://www.yna.co.kr/view/AKR20260728019200008",
+      "source": "연합뉴스 경제",
+      "ts": 1785193406000,
+      "pub": "Tue, 28 Jul 2026 08:03:26 +0900",
       "sentiment": "neutral"
     },
     {
@@ -44,51 +100,11 @@
       "sentiment": "negative"
     },
     {
-      "title": "엔비디아 \"보증 설테니 우리 제품 사라\"…유가 하락에도 반도체주 약세[박신영의 개장전 요것만]",
-      "link": "https://www.hankyung.com/article/202607289209i",
-      "source": "한국경제",
-      "ts": 1785171685000,
-      "pub": "Tue, 28 Jul 2026 02:01:25 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "엔비디아의 오픈AI 지급보증에 다시 불거진 'AI순환금융'",
-      "link": "https://www.hankyung.com/article/202607289210i",
-      "source": "한국경제",
-      "ts": 1785168465000,
-      "pub": "Tue, 28 Jul 2026 01:07:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美증시, 반도체주식 급락에 나스닥 하락 전환",
-      "link": "https://www.hankyung.com/article/202607289204i",
-      "source": "한국경제",
-      "ts": 1785165536000,
-      "pub": "Tue, 28 Jul 2026 00:18:56 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "오픈AI '통제 불능' 여파…엔비디아·MS 주도 'AI 동맹' 출범",
-      "link": "https://www.hankyung.com/article/202607279182i",
-      "source": "한국경제",
-      "ts": 1785159257000,
-      "pub": "Mon, 27 Jul 2026 22:34:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "中전문가들, CXMT 상장에 \"삼전·닉스에 도전하고 시장 재편\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260727086851089",
       "source": "연합뉴스 국제",
       "ts": 1785158220000,
       "pub": "Mon, 27 Jul 2026 22:17:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"1등 시간 문제\" 파격 전망까지…삼전닉스 위협하는 中 CXMT [분석+]",
-      "link": "https://www.hankyung.com/article/2026072786316",
-      "source": "한국경제",
-      "ts": 1785157201000,
-      "pub": "Mon, 27 Jul 2026 22:00:01 +0900",
       "sentiment": "neutral"
     },
     {
@@ -116,43 +132,19 @@
       "sentiment": "positive"
     },
     {
+      "title": "中 CXMT 상장이 악재?…'한미 AI 동맹'에도 코스피 상승 제한(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260727082951008",
+      "source": "연합뉴스 경제",
+      "ts": 1785136913000,
+      "pub": "Mon, 27 Jul 2026 16:21:53 +0900",
+      "sentiment": "negative"
+    },
+    {
       "title": "CXMT 목표가 8배 차이…노무라 \"116위안\" 모닝스타 \"14.90위안\"",
       "link": "https://www.yna.co.kr/view/AKR20260727111300009",
       "source": "연합뉴스 국제",
       "ts": 1785132419000,
       "pub": "Mon, 27 Jul 2026 15:06:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中전문가, CXMT 상장에 \"삼전·닉스에 도전하고 시장 재편\" 기대",
-      "link": "https://www.yna.co.kr/view/AKR20260727086800089",
-      "source": "연합뉴스 국제",
-      "ts": 1785125204000,
-      "pub": "Mon, 27 Jul 2026 13:06:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "日 미쓰이부동산, 구마모토에 피지컬 AI 반도체 국제거점 구축",
-      "link": "https://www.yna.co.kr/view/AKR20260727083000073",
-      "source": "연합뉴스 국제",
-      "ts": 1785120738000,
-      "pub": "Mon, 27 Jul 2026 11:52:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코인거래소들, CXMT 파생상품 출시…규제 우회",
-      "link": "https://www.yna.co.kr/view/AKR20260727011200009",
-      "source": "연합뉴스 국제",
-      "ts": 1785120223000,
-      "pub": "Mon, 27 Jul 2026 11:43:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中 상반기 공업이익 18.7%↑…반도체 강세 속 자동차 이윤 감소",
-      "link": "https://www.yna.co.kr/view/AKR20260727079300083",
-      "source": "연합뉴스 국제",
-      "ts": 1785119979000,
-      "pub": "Mon, 27 Jul 2026 11:39:39 +0900",
       "sentiment": "neutral"
     }
   ]

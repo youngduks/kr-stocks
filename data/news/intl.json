@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-27T23:53:36.793Z",
-  "count": 22,
+  "updated_at": "2026-07-28T01:24:07.017Z",
+  "count": 21,
   "items": [
+    {
+      "title": "美무역대표 \"301조 관세, Fed 금리 결정에 영향 없을 것\"",
+      "link": "https://www.hankyung.com/article/2026072898637",
+      "source": "한국경제",
+      "ts": 1785200265000,
+      "pub": "Tue, 28 Jul 2026 09:57:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美법무부, 대법원에 트럼프 '우편투표 개편 행정명령' 허용 요청",
+      "link": "https://www.yna.co.kr/view/AKR20260728045000009",
+      "source": "연합뉴스 국제",
+      "ts": 1785199914000,
+      "pub": "Tue, 28 Jul 2026 09:51:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美무역대표 \"301조 관세, 연준 금리 결정에 영향 없을 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728035000071",
+      "source": "연합뉴스 경제",
+      "ts": 1785198219000,
+      "pub": "Tue, 28 Jul 2026 09:23:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"내 삼전닉스 어쩌나\"…30일 새벽 FOMC에 운명 갈린다",
+      "link": "https://www.hankyung.com/article/202607278269i",
+      "source": "한국경제",
+      "ts": 1785198191000,
+      "pub": "Tue, 28 Jul 2026 09:23:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'SNS로 트럼프 협박 혐의' 前FBI 국장 \"8647은 표현의 자유\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728030100009",
+      "source": "연합뉴스 국제",
+      "ts": 1785196439000,
+      "pub": "Tue, 28 Jul 2026 08:53:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프發 원조 축소 여파…유엔 \"에이즈 퇴치 후퇴 우려\"",
+      "link": "https://www.hankyung.com/article/2026072895417",
+      "source": "한국경제",
+      "ts": 1785195996000,
+      "pub": "Tue, 28 Jul 2026 08:46:36 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "트럼프, 2개 전쟁 해법 논의…네타냐후·젤렌스키와 연쇄회담 예고",
       "link": "https://www.yna.co.kr/view/AKR20260728022200071",
@@ -20,43 +68,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"관세가 車 산업 살렸다\"…'접전지' 미시간서 성과 강조",
-      "link": "https://www.hankyung.com/article/2026072893317",
-      "source": "한국경제",
-      "ts": 1785191984000,
-      "pub": "Tue, 28 Jul 2026 07:39:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키 \"북한군 3만명 추가 파병 준비…러, 대규모 동원도 임박\"",
-      "link": "https://www.hankyung.com/article/2026072893247",
-      "source": "한국경제",
-      "ts": 1785190836000,
-      "pub": "Tue, 28 Jul 2026 07:20:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 협상 진행 중…결렬 땐 군사행동 재개\"",
-      "link": "https://www.hankyung.com/article/2026072892967",
-      "source": "한국경제",
-      "ts": 1785189854000,
-      "pub": "Tue, 28 Jul 2026 07:04:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, '접전지' 미시간 또 찾아 車관세 홍보…\"반드시 이겨야\"",
       "link": "https://www.yna.co.kr/view/AKR20260728011700071",
       "source": "연합뉴스 국제",
       "ts": 1785189309000,
       "pub": "Tue, 28 Jul 2026 06:55:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"세계 최저 금리 가져야\"…FOMC 앞두고 Fed 압박한 트럼프",
-      "link": "https://www.hankyung.com/article/2026072892867",
-      "source": "한국경제",
-      "ts": 1785188765000,
-      "pub": "Tue, 28 Jul 2026 06:46:05 +0900",
       "sentiment": "neutral"
     },
     {
@@ -70,7 +86,7 @@
     {
       "title": "트럼프, FOMC 앞 또 금리인하 압박…\"세계에서 가장 낮아야\"",
       "link": "https://www.yna.co.kr/view/AKR20260728003900071",
-      "source": "연합뉴스 국제",
+      "source": "연합뉴스 경제",
       "ts": 1785180255000,
       "pub": "Tue, 28 Jul 2026 04:24:15 +0900",
       "sentiment": "neutral"
@@ -116,22 +132,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "FOMC와 실적발표 몰린 주…美 증시, 국제유가 급락에 상승",
-      "link": "https://www.hankyung.com/article/202607279194i",
-      "source": "한국경제",
-      "ts": 1785161507000,
-      "pub": "Mon, 27 Jul 2026 23:11:47 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "美 '강제노동 관세' 부과…中 \"전형적 보호주의\" 강력 반발",
-      "link": "https://www.hankyung.com/article/2026072791527",
-      "source": "한국경제",
-      "ts": 1785153123000,
-      "pub": "Mon, 27 Jul 2026 20:52:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "中, 美 강제노동 관세·AI 압박에 반발…\"필요한 조치 보유\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260727159751083",
       "source": "연합뉴스 국제",
@@ -169,14 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785132985000,
       "pub": "Mon, 27 Jul 2026 15:16:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "호르무즈 일단 숨고르기…트럼프 '대화 여지' 이란 '우리 승리'",
-      "link": "https://www.yna.co.kr/view/AKR20260727067700009",
-      "source": "연합뉴스 국제",
-      "ts": 1785121189000,
-      "pub": "Mon, 27 Jul 2026 11:59:49 +0900",
       "sentiment": "neutral"
     }
   ]

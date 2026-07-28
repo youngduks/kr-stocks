@@ -1,8 +1,96 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-28T01:24:07.018Z",
-  "count": 18,
+  "updated_at": "2026-07-28T04:52:19.055Z",
+  "count": 20,
   "items": [
+    {
+      "title": "美제재 속 '中반도체굴기' 새국면…IPO성공·기술자립 본격 시도",
+      "link": "https://www.yna.co.kr/view/AKR20260728086000083",
+      "source": "연합뉴스 국제",
+      "ts": 1785213820000,
+      "pub": "Tue, 28 Jul 2026 13:43:40 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "TEL코리아, 키자니아에 '반도체 드림랩' 개소…4대 공정 체험",
+      "link": "https://www.yna.co.kr/view/AKR20260727133900003",
+      "source": "연합뉴스 경제",
+      "ts": 1785211202000,
+      "pub": "Tue, 28 Jul 2026 13:00:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'TIGER 美필라델피아반도체나스닥' 순자산 6조…해외테마형중 최대",
+      "link": "https://www.yna.co.kr/view/AKR20260728081700008",
+      "source": "연합뉴스 경제",
+      "ts": 1785206746000,
+      "pub": "Tue, 28 Jul 2026 11:45:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하나운용, 1Q 엔비디아알파벳미국채혼합50 신규 상장",
+      "link": "https://www.yna.co.kr/view/AKR20260728080500008",
+      "source": "연합뉴스 경제",
+      "ts": 1785206478000,
+      "pub": "Tue, 28 Jul 2026 11:41:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피 급락장에서도...투자 초고수 선택은 '하이닉스'",
+      "link": "https://www.hankyung.com/article/202607280092i",
+      "source": "한국경제",
+      "ts": 1785204155000,
+      "pub": "Tue, 28 Jul 2026 11:02:35 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "엔비디아, '챗GPT 개발 주역' 스타트업에 7.3조원 투자",
+      "link": "https://www.yna.co.kr/view/AKR20260728059400009",
+      "source": "연합뉴스 국제",
+      "ts": 1785203206000,
+      "pub": "Tue, 28 Jul 2026 10:46:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"여기가 수혜 단지\" 광주 분양 아파트 마케팅 '반도체' 초점",
+      "link": "https://www.yna.co.kr/view/AKR20260728064600054",
+      "source": "연합뉴스 경제",
+      "ts": 1785203024000,
+      "pub": "Tue, 28 Jul 2026 10:43:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 특수 올라탄 삼성E&A…'영업이익 1조' 보인다",
+      "link": "https://www.hankyung.com/article/202607289990i",
+      "source": "한국경제",
+      "ts": 1785202897000,
+      "pub": "Tue, 28 Jul 2026 10:41:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI 돈 몰리는 엔비디아·알파벳…한 번에 담는 ETF 나왔다",
+      "link": "https://www.hankyung.com/article/202607289816i",
+      "source": "한국경제",
+      "ts": 1785202339000,
+      "pub": "Tue, 28 Jul 2026 10:32:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"CXMT, 中증시 성공적 데뷔…국내 소부장 수혜 기대\"-현대차",
+      "link": "https://www.hankyung.com/article/2026072897476",
+      "source": "한국경제",
+      "ts": 1785202093000,
+      "pub": "Tue, 28 Jul 2026 10:28:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "같은 SK하이닉스 주식인데 미국에선 더 비싸다…“AI 거품 신호”",
+      "link": "https://www.hankyung.com/article/202607289507i",
+      "source": "한국경제",
+      "ts": 1785201915000,
+      "pub": "Tue, 28 Jul 2026 10:25:15 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 8∼10% 급락",
       "link": "https://www.yna.co.kr/view/AKR20260728044500008",
@@ -20,60 +108,12 @@
       "sentiment": "negative"
     },
     {
-      "title": "코스피, 美 반도체 쇼크에 6% 급락…매도 사이드카",
-      "link": "https://www.hankyung.com/article/2026072897216",
-      "source": "한국경제",
-      "ts": 1785197723000,
-      "pub": "Tue, 28 Jul 2026 09:15:23 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"어닝 서프라이즈 기대\"...초고수 투자자의 픽은 'SK하이닉스'",
-      "link": "https://www.hankyung.com/article/202607289656i",
-      "source": "한국경제",
-      "ts": 1785197002000,
-      "pub": "Tue, 28 Jul 2026 09:03:22 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'AI 지각생' 조롱받더니…엔비디아 제치고 시총 1위 '대반전'",
-      "link": "https://www.hankyung.com/article/2026072895166",
-      "source": "한국경제",
-      "ts": 1785196953000,
-      "pub": "Tue, 28 Jul 2026 09:02:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "넥스트레이드 프리마켓서 SK하이닉스 '하한가 해프닝'",
-      "link": "https://www.hankyung.com/article/202607289555i",
-      "source": "한국경제",
-      "ts": 1785195678000,
-      "pub": "Tue, 28 Jul 2026 08:41:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'100조 벌었나'…SK하이닉스 2분기 실적발표 D-1",
-      "link": "https://www.hankyung.com/article/202607289527i",
-      "source": "한국경제",
-      "ts": 1785195533000,
-      "pub": "Tue, 28 Jul 2026 08:38:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "한투증권 \"네이버, 엔비디아 투자로 AI 파트너십 강화\"",
       "link": "https://www.yna.co.kr/view/AKR20260728024300008",
       "source": "연합뉴스 경제",
       "ts": 1785195210000,
       "pub": "Tue, 28 Jul 2026 08:33:30 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[외신 에스프레소] 중국 창신메모리 상장 첫날 466% 폭등…미국 규제 뚫고 우회하는 투자자들",
-      "link": "https://www.hankyung.com/article/202607289469i",
-      "source": "한국경제",
-      "ts": 1785194970000,
-      "pub": "Tue, 28 Jul 2026 08:29:30 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "[마켓뷰] 美반도체주 흔들…코스피 또 변동성 커지나",
@@ -122,30 +162,6 @@
       "ts": 1785144413000,
       "pub": "Mon, 27 Jul 2026 18:26:53 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "'中반도체첨병' CXMT 첫날 466% 급등…시총 712조원, 美인텔 넘어(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260727064751089",
-      "source": "연합뉴스 국제",
-      "ts": 1785139580000,
-      "pub": "Mon, 27 Jul 2026 17:06:20 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "中 CXMT 상장이 악재?…'한미 AI 동맹'에도 코스피 상승 제한(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260727082951008",
-      "source": "연합뉴스 경제",
-      "ts": 1785136913000,
-      "pub": "Mon, 27 Jul 2026 16:21:53 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "CXMT 목표가 8배 차이…노무라 \"116위안\" 모닝스타 \"14.90위안\"",
-      "link": "https://www.yna.co.kr/view/AKR20260727111300009",
-      "source": "연합뉴스 국제",
-      "ts": 1785132419000,
-      "pub": "Mon, 27 Jul 2026 15:06:59 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

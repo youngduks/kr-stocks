@@ -1,15 +1,31 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-28T01:24:07.018Z",
-  "count": 8,
+  "updated_at": "2026-07-28T04:52:19.055Z",
+  "count": 6,
   "items": [
     {
-      "title": "윤경호 \"삼전닉스 투자는 안 됐지만…들뜨지 않겠다\" [인터뷰+]",
-      "link": "https://www.hankyung.com/article/202607289611H",
+      "title": "[포토] '실물 보니 더 예쁘네'…갤럭시 Z8 시리즈 사전예약 시작",
+      "link": "https://www.hankyung.com/article/202607280355i",
       "source": "한국경제",
-      "ts": 1785199666000,
-      "pub": "Tue, 28 Jul 2026 09:47:46 +0900",
+      "ts": 1785210866000,
+      "pub": "Tue, 28 Jul 2026 12:54:26 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "[포토] 삼성전자 '갤럭시 Z8' 시리즈 오늘부터 사전예약 시작",
+      "link": "https://www.hankyung.com/article/202607280343i",
+      "source": "한국경제",
+      "ts": 1785210035000,
+      "pub": "Tue, 28 Jul 2026 12:40:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피 8~9%↓, 삼전닉스 11∼12% 폭락…서킷브레이커 발동",
+      "link": "https://www.yna.co.kr/view/AKR20260728076400008",
+      "source": "연합뉴스 경제",
+      "ts": 1785205393000,
+      "pub": "Tue, 28 Jul 2026 11:23:13 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 8∼10% 급락",
@@ -20,22 +36,6 @@
       "sentiment": "negative"
     },
     {
-      "title": "\"내 삼전닉스 어쩌나\"…30일 새벽 FOMC에 운명 갈린다",
-      "link": "https://www.hankyung.com/article/202607278269i",
-      "source": "한국경제",
-      "ts": 1785198191000,
-      "pub": "Tue, 28 Jul 2026 09:23:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 주가 녹아내렸다…美·中 연타석 폭탄에 패닉 [종목+]",
-      "link": "https://www.hankyung.com/article/2026072897296",
-      "source": "한국경제",
-      "ts": 1785197931000,
-      "pub": "Tue, 28 Jul 2026 09:18:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "무보, 삼성전자 스페인 스마트폰 시장 공략에 1억달러 보험 지원",
       "link": "https://www.yna.co.kr/view/AKR20260728025600003",
       "source": "연합뉴스 경제",
@@ -44,27 +44,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[외신 에스프레소] 중국 창신메모리 상장 첫날 466% 폭등…미국 규제 뚫고 우회하는 투자자들",
-      "link": "https://www.hankyung.com/article/202607289469i",
-      "source": "한국경제",
-      "ts": 1785194970000,
-      "pub": "Tue, 28 Jul 2026 08:29:30 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "中전문가들, CXMT 상장에 \"삼전·닉스에 도전하고 시장 재편\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260727086851089",
       "source": "연합뉴스 국제",
       "ts": 1785158220000,
       "pub": "Mon, 27 Jul 2026 22:17:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 등락끝 1.8% 상승 마감…하닉은 3.2%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260727036651008",
-      "source": "연합뉴스 경제",
-      "ts": 1785135231000,
-      "pub": "Mon, 27 Jul 2026 15:53:51 +0900",
       "sentiment": "neutral"
     }
   ]

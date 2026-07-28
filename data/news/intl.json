@@ -1,14 +1,30 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-28T01:24:07.017Z",
-  "count": 21,
+  "updated_at": "2026-07-28T04:52:19.054Z",
+  "count": 20,
   "items": [
     {
-      "title": "美무역대표 \"301조 관세, Fed 금리 결정에 영향 없을 것\"",
-      "link": "https://www.hankyung.com/article/2026072898637",
-      "source": "한국경제",
-      "ts": 1785200265000,
-      "pub": "Tue, 28 Jul 2026 09:57:45 +0900",
+      "title": "트럼프, '유권자ID법' 처리 거듭 압박…\"상원 휴회 전 처리해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728071500009",
+      "source": "연합뉴스 국제",
+      "ts": 1785204861000,
+      "pub": "Tue, 28 Jul 2026 11:14:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"우크라, 北추가파병시 서방지원·대러제재 강화 요구 명분\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728064500009",
+      "source": "연합뉴스 국제",
+      "ts": 1785202761000,
+      "pub": "Tue, 28 Jul 2026 10:39:21 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "연준 금리동결 확률 62%…\"깜짝 인상 가능성도\"",
+      "link": "https://www.yna.co.kr/view/AKR20260728058200009",
+      "source": "연합뉴스 경제",
+      "ts": 1785202053000,
+      "pub": "Tue, 28 Jul 2026 10:27:33 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,28 +44,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"내 삼전닉스 어쩌나\"…30일 새벽 FOMC에 운명 갈린다",
-      "link": "https://www.hankyung.com/article/202607278269i",
-      "source": "한국경제",
-      "ts": 1785198191000,
-      "pub": "Tue, 28 Jul 2026 09:23:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "'SNS로 트럼프 협박 혐의' 前FBI 국장 \"8647은 표현의 자유\"",
       "link": "https://www.yna.co.kr/view/AKR20260728030100009",
       "source": "연합뉴스 국제",
       "ts": 1785196439000,
       "pub": "Tue, 28 Jul 2026 08:53:59 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프發 원조 축소 여파…유엔 \"에이즈 퇴치 후퇴 우려\"",
-      "link": "https://www.hankyung.com/article/2026072895417",
-      "source": "한국경제",
-      "ts": 1785195996000,
-      "pub": "Tue, 28 Jul 2026 08:46:36 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "트럼프, 2개 전쟁 해법 논의…네타냐후·젤렌스키와 연쇄회담 예고",
@@ -86,7 +86,7 @@
     {
       "title": "트럼프, FOMC 앞 또 금리인하 압박…\"세계에서 가장 낮아야\"",
       "link": "https://www.yna.co.kr/view/AKR20260728003900071",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1785180255000,
       "pub": "Tue, 28 Jul 2026 04:24:15 +0900",
       "sentiment": "neutral"
@@ -161,14 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785142981000,
       "pub": "Mon, 27 Jul 2026 18:03:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "英 버넘 총리, 취임후 첫 정상회담은 젤렌스키…협력방안 논의",
-      "link": "https://www.yna.co.kr/view/AKR20260727115100009",
-      "source": "연합뉴스 국제",
-      "ts": 1785132985000,
-      "pub": "Mon, 27 Jul 2026 15:16:25 +0900",
       "sentiment": "neutral"
     }
   ]

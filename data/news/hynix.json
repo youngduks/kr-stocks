@@ -1,14 +1,46 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-28T12:29:18.181Z",
-  "count": 20,
+  "updated_at": "2026-07-28T15:10:02.305Z",
+  "count": 22,
   "items": [
     {
-      "title": "日 반도체 허브 구마모토 지진 강타…대형 쇼핑몰도 붕괴",
-      "link": "https://www.hankyung.com/article/202607281524i",
+      "title": "美, UAE에 AI반도체 빗장 푼 데 이어 군사용 AI도 공동개발",
+      "link": "https://www.yna.co.kr/view/AKR20260728175100071",
+      "source": "연합뉴스 국제",
+      "ts": 1785248371000,
+      "pub": "Tue, 28 Jul 2026 23:19:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시,AI우려로 반도체주 하락… 나스닥 1.2%↓",
+      "link": "https://www.hankyung.com/article/202607281628i",
       "source": "한국경제",
-      "ts": 1785236616000,
-      "pub": "Tue, 28 Jul 2026 20:03:36 +0900",
+      "ts": 1785248080000,
+      "pub": "Tue, 28 Jul 2026 23:14:40 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "뉴욕증시, 반도체주 매도세에 혼조 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260728174600009",
+      "source": "연합뉴스 국제",
+      "ts": 1785246683000,
+      "pub": "Tue, 28 Jul 2026 22:51:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "日 구마모토 강진…대형 쇼핑몰 붕괴, TSMC 직원 긴급 대피",
+      "link": "https://www.hankyung.com/article/2026072816161",
+      "source": "한국경제",
+      "ts": 1785246018000,
+      "pub": "Tue, 28 Jul 2026 22:40:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아 직원이 엔비디아칩 中밀수…대만검찰에 구금",
+      "link": "https://www.hankyung.com/article/202607281558i",
+      "source": "한국경제",
+      "ts": 1785239687000,
+      "pub": "Tue, 28 Jul 2026 20:54:47 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,7 +52,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "AI순환금융우려에 中반도체쇼크…글로벌 반도체주 '최악의 날'",
+      "title": "AI 순환금융 우려에 中 반도체 쇼크…글로벌 반도체주 '최악의 날'",
       "link": "https://www.hankyung.com/article/202607281188i",
       "source": "한국경제",
       "ts": 1785234661000,
@@ -28,27 +60,19 @@
       "sentiment": "negative"
     },
     {
+      "title": "\"아빠, 삼전닉스 갈래요\"…반도체 키즈들 우르르 몰리는 곳 [현장+]",
+      "link": "https://www.hankyung.com/article/202607278224H",
+      "source": "한국경제",
+      "ts": 1785232141000,
+      "pub": "Tue, 28 Jul 2026 18:49:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "반도체협회 신임 부회장에 박건수 전 산업부 산업정책실장",
       "link": "https://www.yna.co.kr/view/AKR20260728161500003",
       "source": "연합뉴스 경제",
       "ts": 1785231398000,
       "pub": "Tue, 28 Jul 2026 18:36:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피 사상 최대폭 하락…반도체 최악의 날 [퇴근길 30초 경제]",
-      "link": "https://www.hankyung.com/article/202607281427H",
-      "source": "한국경제",
-      "ts": 1785229509000,
-      "pub": "Tue, 28 Jul 2026 18:05:09 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'AI 지각생' 애플의 반전…엔비디아 제치고 시총 1위 탈환",
-      "link": "https://www.hankyung.com/article/2026072812811",
-      "source": "한국경제",
-      "ts": 1785229090000,
-      "pub": "Tue, 28 Jul 2026 17:58:10 +0900",
       "sentiment": "neutral"
     },
     {
@@ -154,14 +178,6 @@
       "ts": 1785203024000,
       "pub": "Tue, 28 Jul 2026 10:43:44 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아 'AI 순환거래' 우려 재점화…주가 5% 급락",
-      "link": "https://www.yna.co.kr/view/AKR20260728024400009",
-      "source": "연합뉴스 국제",
-      "ts": 1785197797000,
-      "pub": "Tue, 28 Jul 2026 09:16:37 +0900",
-      "sentiment": "negative"
     }
   ]
 }

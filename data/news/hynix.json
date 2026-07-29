@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-29T20:06:48.574Z",
-  "count": 12,
+  "updated_at": "2026-07-29T21:45:30.128Z",
+  "count": 11,
   "items": [
+    {
+      "title": "반도체 호황에 제조업 체감경기 4년 1개월 만에 최고",
+      "link": "https://www.yna.co.kr/view/AKR20260729159800002",
+      "source": "연합뉴스 경제",
+      "ts": 1785358802000,
+      "pub": "Thu, 30 Jul 2026 06:00:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"TSMC 日구마모토 공장 생산 재개에 일정 시간 소요\"",
       "link": "https://www.yna.co.kr/view/AKR20260729186300073",
@@ -82,22 +90,6 @@
       "ts": 1785294002000,
       "pub": "Wed, 29 Jul 2026 12:00:02 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "'실적발표' 하이닉스, 하락전환해 9~10%대 급락…삼전도 4%대↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260729043551008",
-      "source": "연합뉴스 경제",
-      "ts": 1785291857000,
-      "pub": "Wed, 29 Jul 2026 11:24:17 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "하이닉스 실적에 실망? 코스피 5~6%대 급락…6천피 밑으로",
-      "link": "https://www.yna.co.kr/view/AKR20260729084200008",
-      "source": "연합뉴스 경제",
-      "ts": 1785291706000,
-      "pub": "Wed, 29 Jul 2026 11:21:46 +0900",
-      "sentiment": "negative"
     }
   ]
 }

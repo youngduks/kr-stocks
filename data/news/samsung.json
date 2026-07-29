@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-29T20:06:48.573Z",
+  "updated_at": "2026-07-29T21:45:30.127Z",
   "count": 5,
   "items": [
+    {
+      "title": "\"삼전닉스 충분히 조정받아…올해 들어 첫 매수구간 진입\"",
+      "link": "https://www.hankyung.com/article/2026072938691",
+      "source": "한국경제",
+      "ts": 1785358806000,
+      "pub": "Thu, 30 Jul 2026 06:00:06 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼전닉스 레버리지 추가 규제 나선 정부…\"개인 투자액 20% 이내 제한 검토\"",
       "link": "https://www.hankyung.com/article/202607294198i",
@@ -34,14 +42,6 @@
       "ts": 1785320935000,
       "pub": "Wed, 29 Jul 2026 19:28:55 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "'실적발표' 하이닉스, 하락전환해 9~10%대 급락…삼전도 4%대↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260729043551008",
-      "source": "연합뉴스 경제",
-      "ts": 1785291857000,
-      "pub": "Wed, 29 Jul 2026 11:24:17 +0900",
-      "sentiment": "negative"
     }
   ]
 }

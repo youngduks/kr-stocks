@@ -1,14 +1,62 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-29T20:06:48.572Z",
-  "count": 28,
+  "updated_at": "2026-07-29T21:45:30.126Z",
+  "count": 34,
   "items": [
+    {
+      "title": "연준 금리동결에 시장 실망감…美주식·채권 동반 급락(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260730012351072",
+      "source": "연합뉴스 경제",
+      "ts": 1785359837000,
+      "pub": "Thu, 30 Jul 2026 06:17:17 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프, 이란 기습공격에 \"이제 우리 차례…두들겨 팰 것\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260729183052071",
+      "source": "연합뉴스 국제",
+      "ts": 1785357065000,
+      "pub": "Thu, 30 Jul 2026 05:31:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "장기물 금리 급등에 주가도 하락…\"Fed가 싸움서 물러섰다\" [Fed 워치]",
+      "link": "https://www.hankyung.com/article/202607304344i",
+      "source": "한국경제",
+      "ts": 1785356698000,
+      "pub": "Thu, 30 Jul 2026 05:24:58 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "뉴욕증시, 연준 금리동결속 채권금리 상승에 하락…다우 2%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260730012300072",
+      "source": "연합뉴스 국제",
+      "ts": 1785355984000,
+      "pub": "Thu, 30 Jul 2026 05:13:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美금리 3.50∼3.75% 5연속 동결…연준 의장 \"인플레 2% 목표\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260730003852071",
+      "source": "연합뉴스 경제",
+      "ts": 1785355520000,
+      "pub": "Thu, 30 Jul 2026 05:05:20 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "국제금값, 美연준 금리동결에 '안도'…금리 결정후 1%↑",
       "link": "https://www.yna.co.kr/view/AKR20260730010800072",
       "source": "연합뉴스 경제",
       "ts": 1785355076000,
       "pub": "Thu, 30 Jul 2026 04:57:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "금리 동결한 워시…\"오늘 뉴스가 뭐냐\" 날선 질문에 '진땀' [Fed워치]",
+      "link": "https://www.hankyung.com/article/202607304326i",
+      "source": "한국경제",
+      "ts": 1785355065000,
+      "pub": "Thu, 30 Jul 2026 04:57:45 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,6 +68,14 @@
       "sentiment": "positive"
     },
     {
+      "title": "[질의응답] 워시 \"목표는 오직 2% 인플레 달성…시장 금리 상승이 긴축 효과\" [Fed워치]",
+      "link": "https://www.hankyung.com/article/202607304330i",
+      "source": "한국경제",
+      "ts": 1785354876000,
+      "pub": "Thu, 30 Jul 2026 04:54:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "美연준 '깜짝 금리인상' 없었지만 '매파적 동결'…인상의견 3명",
       "link": "https://www.yna.co.kr/view/AKR20260730007200072",
       "source": "연합뉴스 경제",
@@ -28,7 +84,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 '금리 인하' 압박에도…워시는 \"인플레 지속\" 강조 [Fed워치]",
+      "title": "트럼프 '금리 인하' 압박 안 통했다…워시 \"인플레 지속\" 강조 [Fed워치]",
       "link": "https://www.hankyung.com/article/202607304320i",
       "source": "한국경제",
       "ts": 1785351223000,
@@ -217,14 +273,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785304886000,
       "pub": "Wed, 29 Jul 2026 15:01:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] 우크라, 모스크바 외곽 대규모 드론 공습",
-      "link": "https://www.yna.co.kr/view/AKR20260729098200704",
-      "source": "연합뉴스 국제",
-      "ts": 1785297710000,
-      "pub": "Wed, 29 Jul 2026 13:01:50 +0900",
       "sentiment": "neutral"
     }
   ]

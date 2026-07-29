@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-29T12:54:07.328Z",
-  "count": 13,
+  "updated_at": "2026-07-29T15:03:10.170Z",
+  "count": 17,
   "items": [
+    {
+      "title": "美증시, FOMC·하이퍼스케일러 실적발표 앞두고 하락",
+      "link": "https://www.hankyung.com/article/202607294236i",
+      "source": "한국경제",
+      "ts": 1785334652000,
+      "pub": "Wed, 29 Jul 2026 23:17:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 이란 기습공격에 \"두들겨 팰 것\"…대리세력 공격도 시사(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260729183051071",
+      "source": "연합뉴스 국제",
+      "ts": 1785332636000,
+      "pub": "Wed, 29 Jul 2026 22:43:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, FOMC 경계감·유가상승 여파에 하락 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260729185500009",
+      "source": "연합뉴스 국제",
+      "ts": 1785332474000,
+      "pub": "Wed, 29 Jul 2026 22:41:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 두들겨 팰 것\"…미군기지 공격에 보복 예고",
+      "link": "https://www.hankyung.com/article/2026072941647",
+      "source": "한국경제",
+      "ts": 1785331259000,
+      "pub": "Wed, 29 Jul 2026 22:20:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 '패트리엇 지원' 확인한 우크라…러 전방위 타격(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260729155251109",
+      "source": "연합뉴스 국제",
+      "ts": 1785330417000,
+      "pub": "Wed, 29 Jul 2026 22:06:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 두들겨 팰 것\"…비속어까지 쓰며 고강도 응징 예고",
+      "link": "https://www.yna.co.kr/view/AKR20260729183000071",
+      "source": "연합뉴스 국제",
+      "ts": 1785330058000,
+      "pub": "Wed, 29 Jul 2026 22:00:58 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "Fed 금리 결정 \"20년 만에 가장 불확실\"…사상 최대 헤지",
       "link": "https://www.hankyung.com/article/202607294106i",
@@ -89,22 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785284299000,
       "pub": "Wed, 29 Jul 2026 09:18:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프는 마약 밀수 98% 줄었다는데…DEA \"코카인 공급 그대로\"",
-      "link": "https://www.yna.co.kr/view/AKR20260729035200009",
-      "source": "연합뉴스 국제",
-      "ts": 1785283532000,
-      "pub": "Wed, 29 Jul 2026 09:05:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라, 이란에 \"긴장 고조 원치 않아\"…선박 공격 후 외교 가동",
-      "link": "https://www.yna.co.kr/view/AKR20260729027400009",
-      "source": "연합뉴스 국제",
-      "ts": 1785282364000,
-      "pub": "Wed, 29 Jul 2026 08:46:04 +0900",
       "sentiment": "neutral"
     }
   ]

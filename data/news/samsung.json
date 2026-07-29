@@ -1,22 +1,30 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-29T12:54:07.329Z",
-  "count": 4,
+  "updated_at": "2026-07-29T15:03:10.171Z",
+  "count": 5,
   "items": [
+    {
+      "title": "삼전닉스 레버리지 추가 규제 나선 정부...\"개인 투자액 20% 이내 제한 검토\"",
+      "link": "https://www.hankyung.com/article/202607294198i",
+      "source": "한국경제",
+      "ts": 1785332860000,
+      "pub": "Wed, 29 Jul 2026 22:47:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 레버리지 규제 강화…\"개인 투자액 20% 이내 제한 검토\"",
+      "link": "https://www.hankyung.com/article/2026072941901",
+      "source": "한국경제",
+      "ts": 1785332203000,
+      "pub": "Wed, 29 Jul 2026 22:36:43 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美 정부, 자국 반도체기업 글로벌파운드리스에 3억달러 지원",
       "link": "https://www.yna.co.kr/view/AKR20260729179400009",
       "source": "연합뉴스 국제",
       "ts": 1785325825000,
       "pub": "Wed, 29 Jul 2026 20:50:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'이게 맞아?' 개미 터졌다…\"삼전닉스 레버리지 퇴출\" 국회 앞 근조화환",
-      "link": "https://www.mt.co.kr/society/2026/07/29/2026072918402880738",
-      "source": "머니투데이",
-      "ts": 1785321571000,
-      "pub": "Wed, 29 Jul 2026 19:39:31 +0900",
       "sentiment": "neutral"
     },
     {

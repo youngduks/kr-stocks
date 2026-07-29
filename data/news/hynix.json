@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-29T21:45:30.128Z",
-  "count": 11,
+  "updated_at": "2026-07-29T22:46:33.166Z",
+  "count": 9,
   "items": [
+    {
+      "title": "퀄컴, 칩 가격 두 자릿수 인상 나서…\"메모리발 부담 심각\"",
+      "link": "https://www.yna.co.kr/view/AKR20260730019400009",
+      "source": "연합뉴스 국제",
+      "ts": 1785363383000,
+      "pub": "Thu, 30 Jul 2026 07:16:23 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "반도체 호황에 제조업 체감경기 4년 1개월 만에 최고",
       "link": "https://www.yna.co.kr/view/AKR20260729159800002",
@@ -36,14 +44,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'엔비디아 안 부럽네'…98만원대 주식, 4개월 만에 '대반전' [종목+]",
-      "link": "https://www.hankyung.com/article/2026072935176",
-      "source": "한국경제",
-      "ts": 1785322804000,
-      "pub": "Wed, 29 Jul 2026 20:00:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "亞증시 반도체 투매 이틀째…코스피 연초 상승률 대만에 역전(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260729122651009",
       "source": "연합뉴스 국제",
@@ -73,22 +73,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785305525000,
       "pub": "Wed, 29 Jul 2026 15:12:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "日구마모토 강진에 산업계 타격…반도체 공급망 흔들릴 우려(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260729087751009",
-      "source": "연합뉴스 국제",
-      "ts": 1785304055000,
-      "pub": "Wed, 29 Jul 2026 14:47:35 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "한은 \"반도체 호황에 수도권 경기 개선…건설업 대부분 부진\"",
-      "link": "https://www.yna.co.kr/view/AKR20260729082000002",
-      "source": "연합뉴스 경제",
-      "ts": 1785294002000,
-      "pub": "Wed, 29 Jul 2026 12:00:02 +0900",
       "sentiment": "neutral"
     }
   ]

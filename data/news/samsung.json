@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-29T21:45:30.127Z",
+  "updated_at": "2026-07-29T22:46:33.166Z",
   "count": 5,
   "items": [
+    {
+      "title": "퀄컴, 칩 가격 두 자릿수 인상 나서…\"메모리발 부담 심각\"",
+      "link": "https://www.yna.co.kr/view/AKR20260730019400009",
+      "source": "연합뉴스 국제",
+      "ts": 1785363383000,
+      "pub": "Thu, 30 Jul 2026 07:16:23 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"삼전닉스 충분히 조정받아…올해 들어 첫 매수구간 진입\"",
       "link": "https://www.hankyung.com/article/2026072938691",
@@ -33,14 +41,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785325825000,
       "pub": "Wed, 29 Jul 2026 20:50:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"투기판 깔았다\"…여야, 삼전닉스 레버리지 ETF 허가 질타",
-      "link": "https://www.hankyung.com/article/2026072940597",
-      "source": "한국경제",
-      "ts": 1785320935000,
-      "pub": "Wed, 29 Jul 2026 19:28:55 +0900",
       "sentiment": "neutral"
     }
   ]

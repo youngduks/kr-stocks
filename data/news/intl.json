@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-29T21:45:30.126Z",
-  "count": 34,
+  "updated_at": "2026-07-29T22:46:33.165Z",
+  "count": 39,
   "items": [
+    {
+      "title": "트럼프, 32조 들여 美수도 공항 현대화…대형 이동셔틀버스 퇴출",
+      "link": "https://www.yna.co.kr/view/AKR20260730016900071",
+      "source": "연합뉴스 국제",
+      "ts": 1785364882000,
+      "pub": "Thu, 30 Jul 2026 07:41:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 연준 매파적 동결…한은, 기준금리 인상 속도 내나",
+      "link": "https://www.yna.co.kr/view/AKR20260730017900002",
+      "source": "연합뉴스 경제",
+      "ts": 1785364408000,
+      "pub": "Thu, 30 Jul 2026 07:33:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '챗GPT 해킹'에 \"AI 규제 검토\"…中 견제하며 신중론도",
+      "link": "https://www.yna.co.kr/view/AKR20260730020400071",
+      "source": "연합뉴스 국제",
+      "ts": 1785363977000,
+      "pub": "Thu, 30 Jul 2026 07:26:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "워시 감싼 트럼프 \"워시는 더 낮은 금리 보고 싶어해…정치적인 위원회가 금리 유지\" [Fed워치]",
+      "link": "https://www.hankyung.com/article/202607304397i",
+      "source": "한국경제",
+      "ts": 1785361367000,
+      "pub": "Thu, 30 Jul 2026 06:42:47 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "연준 금리동결에 시장 실망감…美주식·채권 동반 급락(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260730012351072",
@@ -10,6 +42,14 @@
       "ts": 1785359837000,
       "pub": "Thu, 30 Jul 2026 06:17:17 +0900",
       "sentiment": "negative"
+    },
+    {
+      "title": "트럼프, 이란 공격에 '강력 보복' 예고…\"이제 우리 차례\"",
+      "link": "https://www.hankyung.com/article/2026073043817",
+      "source": "한국경제",
+      "ts": 1785359572000,
+      "pub": "Thu, 30 Jul 2026 06:12:52 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "트럼프, 이란 기습공격에 \"이제 우리 차례…두들겨 팰 것\"(종합2보)",

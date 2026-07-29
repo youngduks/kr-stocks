@@ -1,15 +1,47 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-28T23:49:07.685Z",
-  "count": 38,
+  "updated_at": "2026-07-29T01:24:27.259Z",
+  "count": 17,
   "items": [
     {
-      "title": "\"SK하이닉스, 높아진 눈높이에 미달했지만…뜨거운 성장세 증명\"",
-      "link": "https://www.hankyung.com/article/202607291963i",
+      "title": "'AI 버블 우려'에도…\"메모리 수요 이상無\" SK하닉, 투자액 40조원대로 늘린다",
+      "link": "https://www.hankyung.com/article/202607292290g",
       "source": "한국경제",
-      "ts": 1785281520000,
-      "pub": "Wed, 29 Jul 2026 08:32:00 +0900",
+      "ts": 1785287091000,
+      "pub": "Wed, 29 Jul 2026 10:04:51 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "한은 \"반도체 이익 전망 등 펀더멘털, 주가 하방압력 제한 기대\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729048200002",
+      "source": "연합뉴스 경제",
+      "ts": 1785286800000,
+      "pub": "Wed, 29 Jul 2026 10:00:00 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 최악의 날에...1% 초고수가 쓸어담은 의외의 종목은",
+      "link": "https://www.hankyung.com/article/202607292114i",
+      "source": "한국경제",
+      "ts": 1785284938000,
+      "pub": "Wed, 29 Jul 2026 09:28:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'영업익 60.5조' SK하이닉스, 장 초반 상승…삼전도 반등",
+      "link": "https://www.hankyung.com/article/2026072921456",
+      "source": "한국경제",
+      "ts": 1785283858000,
+      "pub": "Wed, 29 Jul 2026 09:10:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스, 목표가 420만원→280만원…하향 리포트 나왔다",
+      "link": "https://www.hankyung.com/article/202607292047i",
+      "source": "한국경제",
+      "ts": 1785283214000,
+      "pub": "Wed, 29 Jul 2026 09:00:14 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "iM증권 \"반도체 수출 위축 가능성 낮아…코스피 하락폭 과도\"",
@@ -17,38 +49,6 @@
       "source": "연합뉴스 경제",
       "ts": 1785281462000,
       "pub": "Wed, 29 Jul 2026 08:31:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "TSMC·엔비디아 다 제쳤다…SK하이닉스, 2Q 영업이익률 76%",
-      "link": "https://www.mt.co.kr/industry/2026/07/29/2026072907251074569",
-      "source": "머니투데이",
-      "ts": 1785281053000,
-      "pub": "Wed, 29 Jul 2026 08:24:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'나솔' 24기 옥순, 하이닉스 300층 입주민 \"잠 안 온다\"",
-      "link": "https://www.hankyung.com/article/202607291856H",
-      "source": "한국경제",
-      "ts": 1785280784000,
-      "pub": "Wed, 29 Jul 2026 08:19:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 영업익 60조 '역대급'인데…주가 줄줄 흐르는 이유",
-      "link": "https://www.hankyung.com/article/202607291896i",
-      "source": "한국경제",
-      "ts": 1785280360000,
-      "pub": "Wed, 29 Jul 2026 08:12:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스, 2분기 영업익 60.5조…상반기에만 '100조' 벌었다 [종합]",
-      "link": "https://www.hankyung.com/article/202607291849g",
-      "source": "한국경제",
-      "ts": 1785280353000,
-      "pub": "Wed, 29 Jul 2026 08:12:33 +0900",
       "sentiment": "neutral"
     },
     {
@@ -60,118 +60,6 @@
       "sentiment": "negative"
     },
     {
-      "title": "반도체 탈출→순환매…메모리 급락, 보잉·코카콜라 신고가 [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202607291736i",
-      "source": "한국경제",
-      "ts": 1785280105000,
-      "pub": "Wed, 29 Jul 2026 08:08:25 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "SK하이닉스, 2Q 영업익 60.5조…TSMC 영업이익률 또 앞질렀다",
-      "link": "https://www.mt.co.kr/industry/2026/07/29/2026072906595378386",
-      "source": "머니투데이",
-      "ts": 1785279525000,
-      "pub": "Wed, 29 Jul 2026 07:58:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]SK하이닉스, 10여개 고객과 장기공급계약…추가 계약도 논의",
-      "link": "https://www.mt.co.kr/industry/2026/07/29/2026072907513574389",
-      "source": "머니투데이",
-      "ts": 1785279317000,
-      "pub": "Wed, 29 Jul 2026 07:55:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]SK하이닉스, 2분기 당기순이익 93.9조…투자자산 이익 효과",
-      "link": "https://www.mt.co.kr/industry/2026/07/29/2026072907181066109",
-      "source": "머니투데이",
-      "ts": 1785279031000,
-      "pub": "Wed, 29 Jul 2026 07:50:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 증설로 하이테크 시공사 수혜 예상한 리포트",
-      "link": "https://www.mt.co.kr/stock/2026/07/29/2026072813253176426",
-      "source": "머니투데이",
-      "ts": 1785279000000,
-      "pub": "Wed, 29 Jul 2026 07:50:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] SK하이닉스 상반기 매출 131조 돌파…영업익 100조 육박",
-      "link": "https://www.hankyung.com/article/202607291838g",
-      "source": "한국경제",
-      "ts": 1785278974000,
-      "pub": "Wed, 29 Jul 2026 07:49:34 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[속보]SK하이닉스 영업이익률 76.3%…'역대 최고' 수준",
-      "link": "https://www.mt.co.kr/industry/2026/07/29/2026072907201887731",
-      "source": "머니투데이",
-      "ts": 1785278832000,
-      "pub": "Wed, 29 Jul 2026 07:47:12 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[속보] SK하이닉스, 2분기 영업익 60.5조…전년比 557.2%↑",
-      "link": "https://www.hankyung.com/article/202607291781i",
-      "source": "한국경제",
-      "ts": 1785278737000,
-      "pub": "Wed, 29 Jul 2026 07:45:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] SK하이닉스, 2분기 영업이익 60.5조...역대 최대 기록",
-      "link": "https://www.mt.co.kr/industry/2026/07/29/2026072907170723891",
-      "source": "머니투데이",
-      "ts": 1785278704000,
-      "pub": "Wed, 29 Jul 2026 07:45:04 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "반도체 습도제어 장비의 비밀…소외주 발굴",
-      "link": "https://www.mt.co.kr/stock/2026/07/29/2026072811092747409",
-      "source": "머니투데이",
-      "ts": 1785278700000,
-      "pub": "Wed, 29 Jul 2026 07:45:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] SK하이닉스, 2분기 영업익 60조5426억원…시장 기대 밑돌아",
-      "link": "https://www.hankyung.com/article/202607291796g",
-      "source": "한국경제",
-      "ts": 1785278697000,
-      "pub": "Wed, 29 Jul 2026 07:44:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"경력 3년 반도체 엔지니어 찾아줘\"…기업들 '인재 조건'은?",
-      "link": "https://www.hankyung.com/article/202607291790g",
-      "source": "한국경제",
-      "ts": 1785278516000,
-      "pub": "Wed, 29 Jul 2026 07:41:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 넘어 태양광 장비까지…글로벌 시장 기회 포착해",
-      "link": "https://www.mt.co.kr/stock/2026/07/29/2026072813301353065",
-      "source": "머니투데이",
-      "ts": 1785277200000,
-      "pub": "Wed, 29 Jul 2026 07:20:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "유가 하락 속 혼조 마감…반도체주 급락 [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026072917896",
-      "source": "한국경제",
-      "ts": 1785276924000,
-      "pub": "Wed, 29 Jul 2026 07:15:24 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "뉴욕증시, 유가하락 속 반도체 조정에 혼조 마감…나스닥 0.2%↓(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260729006651072",
       "source": "연합뉴스 국제",
@@ -180,35 +68,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "엔비디아 이어 AMD까지 줄줄이 AI 연구센터…한국에 주목하는 속내는?",
-      "link": "https://www.mt.co.kr/tech/2026/07/29/2026072815580141365",
-      "source": "머니투데이",
-      "ts": 1785272400000,
-      "pub": "Wed, 29 Jul 2026 06:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 ADR 9% 뚝…유가 하락에도 반도체 매도 지속[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/07/29/2026072905553919364",
-      "source": "머니투데이",
-      "ts": 1785272305000,
-      "pub": "Wed, 29 Jul 2026 05:58:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "뉴욕증시, 유가하락 속 반도체 조정에 혼조 마감…다우 1%↑",
       "link": "https://www.yna.co.kr/view/AKR20260729006600072",
       "source": "연합뉴스 국제",
       "ts": 1785270064000,
       "pub": "Wed, 29 Jul 2026 05:21:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "창신메모리 상장, 메모리 사이클까지 바꾸나[광화문]",
-      "link": "https://www.mt.co.kr/opinion/2026/07/29/2026072816072072468",
-      "source": "머니투데이",
-      "ts": 1785265620000,
-      "pub": "Wed, 29 Jul 2026 04:07:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -260,14 +124,6 @@
       "sentiment": "positive"
     },
     {
-      "title": "[속보] TSMC \"구마모토 강진 관련 공장 상황 확인 중\"",
-      "link": "https://www.yna.co.kr/view/AKR20260728141300073",
-      "source": "연합뉴스 국제",
-      "ts": 1785225424000,
-      "pub": "Tue, 28 Jul 2026 16:57:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "NH투자, 5천억 회사채 발행…'반도체 머니' 하이닉스가 인수 관측",
       "link": "https://www.yna.co.kr/view/AKR20260728137000008",
       "source": "연합뉴스 경제",
@@ -276,35 +132,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "자사 AI 생태계 강화?…\"엔비디아 73조원 데이터센터 임차\"",
-      "link": "https://www.yna.co.kr/view/AKR20260728119600009",
-      "source": "연합뉴스 국제",
-      "ts": 1785223300000,
-      "pub": "Tue, 28 Jul 2026 16:21:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "외국인 5조 순매도에도 하이닉스 ADR 효과…환율 소폭 하락",
       "link": "https://www.yna.co.kr/view/AKR20260728125200002",
       "source": "연합뉴스 경제",
       "ts": 1785222544000,
       "pub": "Tue, 28 Jul 2026 16:09:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "TEL코리아, 키자니아에 '반도체 드림랩' 개소…4대 공정 체험",
-      "link": "https://www.yna.co.kr/view/AKR20260727133900003",
-      "source": "연합뉴스 경제",
-      "ts": 1785211202000,
-      "pub": "Tue, 28 Jul 2026 13:00:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'TIGER 美필라델피아반도체나스닥' 순자산 6조…해외테마형중 최대",
-      "link": "https://www.yna.co.kr/view/AKR20260728081700008",
-      "source": "연합뉴스 경제",
-      "ts": 1785206746000,
-      "pub": "Tue, 28 Jul 2026 11:45:46 +0900",
       "sentiment": "neutral"
     }
   ]

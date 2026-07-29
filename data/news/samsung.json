@@ -1,31 +1,39 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-28T23:49:07.684Z",
-  "count": 4,
+  "updated_at": "2026-07-29T01:24:27.259Z",
+  "count": 5,
   "items": [
     {
-      "title": "반도체 탈출→순환매…메모리 급락, 보잉·코카콜라 신고가 [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202607291736i",
+      "title": "'AI 버블 우려'에도…\"메모리 수요 이상無\" SK하닉, 투자액 40조원대로 늘린다",
+      "link": "https://www.hankyung.com/article/202607292290g",
       "source": "한국경제",
-      "ts": 1785280105000,
-      "pub": "Wed, 29 Jul 2026 08:08:25 +0900",
+      "ts": 1785287091000,
+      "pub": "Wed, 29 Jul 2026 10:04:51 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "\"폭락한 삼전닉스, V자 반등 가시권…시장 우려 과도\"-KB",
-      "link": "https://www.hankyung.com/article/2026072918416",
-      "source": "한국경제",
-      "ts": 1785279258000,
-      "pub": "Wed, 29 Jul 2026 07:54:18 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "창신메모리 상장, 메모리 사이클까지 바꾸나[광화문]",
-      "link": "https://www.mt.co.kr/opinion/2026/07/29/2026072816072072468",
-      "source": "머니투데이",
-      "ts": 1785265620000,
-      "pub": "Wed, 29 Jul 2026 04:07:00 +0900",
+      "title": "[특징주] 삼성전자, 장 초반 4%대 반등 중…하닉도 2%대↑",
+      "link": "https://www.yna.co.kr/view/AKR20260729043500008",
+      "source": "연합뉴스 경제",
+      "ts": 1785284850000,
+      "pub": "Wed, 29 Jul 2026 09:27:30 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "'영업익 60.5조' SK하이닉스, 장 초반 상승…삼전도 반등",
+      "link": "https://www.hankyung.com/article/2026072921456",
+      "source": "한국경제",
+      "ts": 1785283858000,
+      "pub": "Wed, 29 Jul 2026 09:10:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미래에셋, 삼전·닉스 목표가 37만원·280만원으로 33% 하향",
+      "link": "https://www.yna.co.kr/view/AKR20260729034100008",
+      "source": "연합뉴스 경제",
+      "ts": 1785282946000,
+      "pub": "Wed, 29 Jul 2026 08:55:46 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "삼전닉스 13~14%↓, 역대급 폭락…외국인이 대거 던졌다(종합)",

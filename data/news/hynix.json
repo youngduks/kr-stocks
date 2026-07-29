@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-29T15:03:10.171Z",
-  "count": 11,
+  "updated_at": "2026-07-29T17:02:17.174Z",
+  "count": 12,
   "items": [
     {
       "title": "\"TSMC 日구마모토 공장 생산 재개에 일정 시간 소요\"",
@@ -25,6 +25,14 @@
       "source": "연합뉴스 국제",
       "ts": 1785325825000,
       "pub": "Wed, 29 Jul 2026 20:50:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'엔비디아 안 부럽네'…98만원대 주식, 4개월 만에 '대반전' [종목+]",
+      "link": "https://www.hankyung.com/article/2026072935176",
+      "source": "한국경제",
+      "ts": 1785322804000,
+      "pub": "Wed, 29 Jul 2026 20:00:04 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-29T15:03:10.170Z",
+  "updated_at": "2026-07-29T17:02:17.173Z",
   "count": 17,
   "items": [
+    {
+      "title": "민주사회주의 약진에 美민주 딜레마…트럼프, '적색공포' 선거전",
+      "link": "https://www.yna.co.kr/view/AKR20260730001500071",
+      "source": "연합뉴스 국제",
+      "ts": 1785342376000,
+      "pub": "Thu, 30 Jul 2026 01:26:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "외환전문가들 \"연준 금리동결시 달러값 하락 압력커질 것\"",
+      "link": "https://www.hankyung.com/article/202607304284i",
+      "source": "한국경제",
+      "ts": 1785339973000,
+      "pub": "Thu, 30 Jul 2026 00:46:13 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美증시, FOMC·하이퍼스케일러 실적발표 앞두고 하락",
       "link": "https://www.hankyung.com/article/202607294236i",
@@ -121,22 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785292933000,
       "pub": "Wed, 29 Jul 2026 11:42:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "승자 좋아하는 트럼프, 전황 호전되니 젤렌스키에 호감",
-      "link": "https://www.yna.co.kr/view/AKR20260729065700009",
-      "source": "연합뉴스 국제",
-      "ts": 1785288912000,
-      "pub": "Wed, 29 Jul 2026 10:35:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프의 새 美정보당국 수장 후보자, 美상원 인준 통과",
-      "link": "https://www.yna.co.kr/view/AKR20260729037200071",
-      "source": "연합뉴스 국제",
-      "ts": 1785284299000,
-      "pub": "Wed, 29 Jul 2026 09:18:19 +0900",
       "sentiment": "neutral"
     }
   ]

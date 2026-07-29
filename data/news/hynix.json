@@ -1,15 +1,87 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-29T01:24:27.259Z",
+  "updated_at": "2026-07-29T04:57:07.711Z",
   "count": 17,
   "items": [
     {
-      "title": "'AI 버블 우려'에도…\"메모리 수요 이상無\" SK하닉, 투자액 40조원대로 늘린다",
-      "link": "https://www.hankyung.com/article/202607292290g",
+      "title": "5년치 수요 확보했다…SK하이닉스, 빅테크 10여곳과 장기계약",
+      "link": "https://www.mt.co.kr/industry/2026/07/29/2026072912262962948",
+      "source": "머니투데이",
+      "ts": 1785299113000,
+      "pub": "Wed, 29 Jul 2026 13:25:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[뉴스프레소] 뉴욕증시, 다우 오르고 나스닥 내리고… 반도체 매도 속 굳건한 '애플'",
+      "link": "https://www.mt.co.kr/world/2026/07/29/2026072912167098056",
+      "source": "머니투데이",
+      "ts": 1785298464000,
+      "pub": "Wed, 29 Jul 2026 13:14:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "피크아웃? SK하이닉스 \"하반기 더 좋다\"…계속되는 신기록 행진",
+      "link": "https://www.mt.co.kr/industry/2026/07/29/2026072911145932526",
+      "source": "머니투데이",
+      "ts": 1785296168000,
+      "pub": "Wed, 29 Jul 2026 12:36:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한은 \"반도체 호황에 수도권 경기 개선…건설업 대부분 부진\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729082000002",
+      "source": "연합뉴스 경제",
+      "ts": 1785294002000,
+      "pub": "Wed, 29 Jul 2026 12:00:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 수출 161% 급증 지역경제 개선…공사비로 지역 건설경기 '휘청'",
+      "link": "https://www.mt.co.kr/economy/2026/07/29/2026072910431098289",
+      "source": "머니투데이",
+      "ts": 1785294000000,
+      "pub": "Wed, 29 Jul 2026 12:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"AI 버블 걱정 없다\"…SK하이닉스 40조 '승부수'",
+      "link": "https://www.hankyung.com/article/202607292585g",
       "source": "한국경제",
-      "ts": 1785287091000,
-      "pub": "Wed, 29 Jul 2026 10:04:51 +0900",
+      "ts": 1785292517000,
+      "pub": "Wed, 29 Jul 2026 11:35:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'실적발표' 하이닉스, 하락전환해 9~10%대 급락…삼전도 4%대↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260729043551008",
+      "source": "연합뉴스 경제",
+      "ts": 1785291857000,
+      "pub": "Wed, 29 Jul 2026 11:24:17 +0900",
       "sentiment": "negative"
+    },
+    {
+      "title": "하이닉스 실적에 실망? 코스피 5~6%대 급락…6천피 밑으로",
+      "link": "https://www.yna.co.kr/view/AKR20260729084200008",
+      "source": "연합뉴스 경제",
+      "ts": 1785291706000,
+      "pub": "Wed, 29 Jul 2026 11:21:46 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "SK하이닉스, 2분기 컨콜서 'AI 거품론' 일축…\"하반기 실적 개선 강화\"",
+      "link": "https://www.hankyung.com/article/202607292644i",
+      "source": "한국경제",
+      "ts": 1785290301000,
+      "pub": "Wed, 29 Jul 2026 10:58:21 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"영업익 기대치 못 미쳤다\" 지적에...SK하이닉스의 답은",
+      "link": "https://www.hankyung.com/article/202607291997i",
+      "source": "한국경제",
+      "ts": 1785288108000,
+      "pub": "Wed, 29 Jul 2026 10:21:48 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "한은 \"반도체 이익 전망 등 펀더멘털, 주가 하방압력 제한 기대\"",
@@ -18,30 +90,6 @@
       "ts": 1785286800000,
       "pub": "Wed, 29 Jul 2026 10:00:00 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 최악의 날에...1% 초고수가 쓸어담은 의외의 종목은",
-      "link": "https://www.hankyung.com/article/202607292114i",
-      "source": "한국경제",
-      "ts": 1785284938000,
-      "pub": "Wed, 29 Jul 2026 09:28:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'영업익 60.5조' SK하이닉스, 장 초반 상승…삼전도 반등",
-      "link": "https://www.hankyung.com/article/2026072921456",
-      "source": "한국경제",
-      "ts": 1785283858000,
-      "pub": "Wed, 29 Jul 2026 09:10:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스, 목표가 420만원→280만원…하향 리포트 나왔다",
-      "link": "https://www.hankyung.com/article/202607292047i",
-      "source": "한국경제",
-      "ts": 1785283214000,
-      "pub": "Wed, 29 Jul 2026 09:00:14 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "iM증권 \"반도체 수출 위축 가능성 낮아…코스피 하락폭 과도\"",
@@ -89,54 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785246683000,
       "pub": "Tue, 28 Jul 2026 22:51:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "日정부 \"구마모토 TSMC 공장, 현재까지 강진 피해 보고 없어\"",
-      "link": "https://www.yna.co.kr/view/AKR20260728167500009",
-      "source": "연합뉴스 국제",
-      "ts": 1785236461000,
-      "pub": "Tue, 28 Jul 2026 20:01:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체협회 신임 부회장에 박건수 전 산업부 산업정책실장",
-      "link": "https://www.yna.co.kr/view/AKR20260728161500003",
-      "source": "연합뉴스 경제",
-      "ts": 1785231398000,
-      "pub": "Tue, 28 Jul 2026 18:36:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "대만, 첨단 AI칩 중국 밀반출 혐의 엔비디아 직원 구속",
-      "link": "https://www.yna.co.kr/view/AKR20260728147900083",
-      "source": "연합뉴스 국제",
-      "ts": 1785227276000,
-      "pub": "Tue, 28 Jul 2026 17:27:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "CXMT 상장에 中안후이성 '대박'…딥시크 창업자 량원펑도 수혜",
-      "link": "https://www.yna.co.kr/view/AKR20260728139900009",
-      "source": "연합뉴스 국제",
-      "ts": 1785226061000,
-      "pub": "Tue, 28 Jul 2026 17:07:41 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "NH투자, 5천억 회사채 발행…'반도체 머니' 하이닉스가 인수 관측",
-      "link": "https://www.yna.co.kr/view/AKR20260728137000008",
-      "source": "연합뉴스 경제",
-      "ts": 1785224934000,
-      "pub": "Tue, 28 Jul 2026 16:48:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "외국인 5조 순매도에도 하이닉스 ADR 효과…환율 소폭 하락",
-      "link": "https://www.yna.co.kr/view/AKR20260728125200002",
-      "source": "연합뉴스 경제",
-      "ts": 1785222544000,
-      "pub": "Tue, 28 Jul 2026 16:09:04 +0900",
       "sentiment": "neutral"
     }
   ]

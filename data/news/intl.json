@@ -1,22 +1,54 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-29T01:24:27.258Z",
-  "count": 21,
+  "updated_at": "2026-07-29T04:57:07.710Z",
+  "count": 22,
   "items": [
+    {
+      "title": "관세청, '지재권 침해물품 특별단속'…위조상품 410만여점 적발",
+      "link": "https://www.mt.co.kr/policy/2026/07/29/2026072913072766965",
+      "source": "머니투데이",
+      "ts": 1785300831000,
+      "pub": "Wed, 29 Jul 2026 13:53:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[쇼츠] 우크라, 모스크바 외곽 대규모 드론 공습",
+      "link": "https://www.yna.co.kr/view/AKR20260729098200704",
+      "source": "연합뉴스 국제",
+      "ts": 1785297710000,
+      "pub": "Wed, 29 Jul 2026 13:01:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "농담인가 진담인가…트럼프, 위헌인데 또 '3선 대통령' 발언",
+      "link": "https://www.mt.co.kr/world/2026/07/29/2026072816585375880",
+      "source": "머니투데이",
+      "ts": 1785297600000,
+      "pub": "Wed, 29 Jul 2026 13:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 우크라, 모스크바 외곽 대규모 드론 공습…러 \"80여대 요격\"",
+      "link": "https://www.yna.co.kr/view/AKR20260729090200704",
+      "source": "연합뉴스 국제",
+      "ts": 1785292933000,
+      "pub": "Wed, 29 Jul 2026 11:42:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "승자 좋아하는 트럼프, 전황 호전되니 젤렌스키에 호감",
+      "link": "https://www.yna.co.kr/view/AKR20260729065700009",
+      "source": "연합뉴스 국제",
+      "ts": 1785288912000,
+      "pub": "Wed, 29 Jul 2026 10:35:12 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프의 새 美정보당국 수장 후보자, 美상원 인준 통과",
       "link": "https://www.yna.co.kr/view/AKR20260729037200071",
       "source": "연합뉴스 국제",
       "ts": 1785284299000,
       "pub": "Wed, 29 Jul 2026 09:18:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'예측시장 선행베팅 의혹' 트럼프 연설원고 보좌관, 백악관 퇴직",
-      "link": "https://www.hankyung.com/article/2026072921727",
-      "source": "한국경제",
-      "ts": 1785283703000,
-      "pub": "Wed, 29 Jul 2026 09:08:23 +0900",
       "sentiment": "neutral"
     },
     {
@@ -145,30 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785239206000,
       "pub": "Tue, 28 Jul 2026 20:46:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"미국, 베트남 내 중국계 공장 불시검사…추가관세 부과 우려\"",
-      "link": "https://www.yna.co.kr/view/AKR20260728162900084",
-      "source": "연합뉴스 국제",
-      "ts": 1785233594000,
-      "pub": "Tue, 28 Jul 2026 19:13:14 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"트럼프 행정부 '경제 제재가 공습보다 효과적' 인식\"",
-      "link": "https://www.yna.co.kr/view/AKR20260728155300009",
-      "source": "연합뉴스 국제",
-      "ts": 1785228909000,
-      "pub": "Tue, 28 Jul 2026 17:55:09 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[영상] \"크림반도 러 S-400 방공미사일 폭파\"…우크라, 드론작전 공개",
-      "link": "https://www.yna.co.kr/view/AKR20260728142200704",
-      "source": "연합뉴스 국제",
-      "ts": 1785225894000,
-      "pub": "Tue, 28 Jul 2026 17:04:54 +0900",
       "sentiment": "neutral"
     }
   ]

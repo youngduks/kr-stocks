@@ -1,14 +1,14 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-29T01:24:27.259Z",
-  "count": 5,
+  "updated_at": "2026-07-29T04:57:07.711Z",
+  "count": 3,
   "items": [
     {
-      "title": "'AI 버블 우려'에도…\"메모리 수요 이상無\" SK하닉, 투자액 40조원대로 늘린다",
-      "link": "https://www.hankyung.com/article/202607292290g",
-      "source": "한국경제",
-      "ts": 1785287091000,
-      "pub": "Wed, 29 Jul 2026 10:04:51 +0900",
+      "title": "'실적발표' 하이닉스, 하락전환해 9~10%대 급락…삼전도 4%대↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260729043551008",
+      "source": "연합뉴스 경제",
+      "ts": 1785291857000,
+      "pub": "Wed, 29 Jul 2026 11:24:17 +0900",
       "sentiment": "negative"
     },
     {
@@ -20,27 +20,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'영업익 60.5조' SK하이닉스, 장 초반 상승…삼전도 반등",
-      "link": "https://www.hankyung.com/article/2026072921456",
-      "source": "한국경제",
-      "ts": 1785283858000,
-      "pub": "Wed, 29 Jul 2026 09:10:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "미래에셋, 삼전·닉스 목표가 37만원·280만원으로 33% 하향",
       "link": "https://www.yna.co.kr/view/AKR20260729034100008",
       "source": "연합뉴스 경제",
       "ts": 1785282946000,
       "pub": "Wed, 29 Jul 2026 08:55:46 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "삼전닉스 13~14%↓, 역대급 폭락…외국인이 대거 던졌다(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260728044551008",
-      "source": "연합뉴스 경제",
-      "ts": 1785222184000,
-      "pub": "Tue, 28 Jul 2026 16:03:04 +0900",
       "sentiment": "negative"
     }
   ]

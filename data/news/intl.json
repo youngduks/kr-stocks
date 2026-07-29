@@ -1,22 +1,62 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-29T18:53:03.316Z",
-  "count": 27,
+  "updated_at": "2026-07-29T20:06:48.572Z",
+  "count": 28,
   "items": [
     {
-      "title": "[속보]美연준 워시 의장 \"물가 안정 달성 확신 있어…목표치 2%\"",
-      "link": "https://www.mt.co.kr/world/2026/07/30/2026073003372277749",
-      "source": "머니투데이",
-      "ts": 1785350309000,
-      "pub": "Thu, 30 Jul 2026 03:38:29 +0900",
+      "title": "국제금값, 美연준 금리동결에 '안도'…금리 결정후 1%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260730010800072",
+      "source": "연합뉴스 경제",
+      "ts": 1785355076000,
+      "pub": "Thu, 30 Jul 2026 04:57:56 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "美연준 금리동결, 12명 중 3명은 \"인상\"…9월 긴축 가능성 커졌다(상보)",
-      "link": "https://www.mt.co.kr/world/2026/07/30/2026073003184313073",
-      "source": "머니투데이",
-      "ts": 1785349247000,
-      "pub": "Thu, 30 Jul 2026 03:20:47 +0900",
+      "title": "[속보] 미국채 30년물 금리, 연준 동결후 급등세…5.2% 돌파",
+      "link": "https://www.yna.co.kr/view/AKR20260730011400072",
+      "source": "연합뉴스 국제",
+      "ts": 1785354913000,
+      "pub": "Thu, 30 Jul 2026 04:55:13 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "美연준 '깜짝 금리인상' 없었지만 '매파적 동결'…인상의견 3명",
+      "link": "https://www.yna.co.kr/view/AKR20260730007200072",
+      "source": "연합뉴스 경제",
+      "ts": 1785351973000,
+      "pub": "Thu, 30 Jul 2026 04:06:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 '금리 인하' 압박에도…워시는 \"인플레 지속\" 강조 [Fed워치]",
+      "link": "https://www.hankyung.com/article/202607304320i",
+      "source": "한국경제",
+      "ts": 1785351223000,
+      "pub": "Thu, 30 Jul 2026 03:53:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 연준 워시 \"동료들 간 많은 상호작용…진짜 집안싸움이었다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260730008300072",
+      "source": "연합뉴스 국제",
+      "ts": 1785351112000,
+      "pub": "Thu, 30 Jul 2026 03:51:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 연준 워시 \"미 경제, 최근 충격에도 인상적인 회복력 보여줘\"",
+      "link": "https://www.yna.co.kr/view/AKR20260730008000072",
+      "source": "연합뉴스 국제",
+      "ts": 1785351079000,
+      "pub": "Thu, 30 Jul 2026 03:51:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Fed, 美 기준금리 5연속 동결…위원 3명은 '인상' 주장 [Fed 워치]",
+      "link": "https://www.hankyung.com/article/202607294141i",
+      "source": "한국경제",
+      "ts": 1785348961000,
+      "pub": "Thu, 30 Jul 2026 03:16:01 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,19 +68,19 @@
       "sentiment": "neutral"
     },
     {
+      "title": "[속보] Fed, 美 기준금리 연 3.5~3.75%로 동결 [Fed 워치]",
+      "link": "https://www.hankyung.com/article/202607294140i",
+      "source": "한국경제",
+      "ts": 1785348134000,
+      "pub": "Thu, 30 Jul 2026 03:02:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "[2보] 美연준, 5연속 금리 동결…한미 금리차 1.00%P",
       "link": "https://www.yna.co.kr/view/AKR20260730003800071",
       "source": "연합뉴스 경제",
       "ts": 1785348120000,
       "pub": "Thu, 30 Jul 2026 03:02:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]美연준, 다섯차례 연속 금리 동결…3.50∼3.75% 유지",
-      "link": "https://www.mt.co.kr/world/2026/07/30/2026073002562336972",
-      "source": "머니투데이",
-      "ts": 1785348104000,
-      "pub": "Thu, 30 Jul 2026 03:01:44 +0900",
       "sentiment": "neutral"
     },
     {
@@ -68,7 +108,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "외환전문가들 \"연준 금리동결시 달러값 하락 압력커질 것\"",
+      "title": "외환 전문가들 \"Fed 금리 동결시 달러값 하락 압력 커질 것\"",
       "link": "https://www.hankyung.com/article/202607304284i",
       "source": "한국경제",
       "ts": 1785339973000,
@@ -76,27 +116,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 이란 기습에 분노…\"두들겨 팰 것\" 욕설 경고(상보)",
-      "link": "https://www.mt.co.kr/world/2026/07/30/2026073000002522663",
-      "source": "머니투데이",
-      "ts": 1785337453000,
-      "pub": "Thu, 30 Jul 2026 00:04:13 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "美증시, FOMC·하이퍼스케일러 실적발표 앞두고 하락",
       "link": "https://www.hankyung.com/article/202607294236i",
       "source": "한국경제",
       "ts": 1785334652000,
       "pub": "Wed, 29 Jul 2026 23:17:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"터무니없는 공항 대수술\"…트럼프, 덜레스 공항 220억달러 재건 추진",
-      "link": "https://www.mt.co.kr/world/2026/07/29/2026072922090091245",
-      "source": "머니투데이",
-      "ts": 1785332777000,
-      "pub": "Wed, 29 Jul 2026 22:46:17 +0900",
       "sentiment": "neutral"
     },
     {
@@ -113,14 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785332474000,
       "pub": "Wed, 29 Jul 2026 22:41:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"미군기지 공격한 이란 응징\"…고강도 타격 예고",
-      "link": "https://www.mt.co.kr/world/2026/07/29/2026072922162729000",
-      "source": "머니투데이",
-      "ts": 1785331440000,
-      "pub": "Wed, 29 Jul 2026 22:24:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -209,14 +225,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785297710000,
       "pub": "Wed, 29 Jul 2026 13:01:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 우크라, 모스크바 외곽 대규모 드론 공습…러 \"80여대 요격\"",
-      "link": "https://www.yna.co.kr/view/AKR20260729090200704",
-      "source": "연합뉴스 국제",
-      "ts": 1785292933000,
-      "pub": "Wed, 29 Jul 2026 11:42:13 +0900",
       "sentiment": "neutral"
     }
   ]

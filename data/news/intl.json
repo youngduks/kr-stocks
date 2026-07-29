@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-29T22:46:33.165Z",
-  "count": 39,
+  "updated_at": "2026-07-29T23:52:00.809Z",
+  "count": 40,
   "items": [
+    {
+      "title": "美연준 '깜짝 인상' 없이 '매파적 동결'…시장은 인플레 우려(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260730007251072",
+      "source": "연합뉴스 경제",
+      "ts": 1785366560000,
+      "pub": "Thu, 30 Jul 2026 08:09:20 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프 \"AI 규제 검토\"…中과 경쟁 고려해 신중 접근",
+      "link": "https://www.hankyung.com/article/2026073045067",
+      "source": "한국경제",
+      "ts": 1785366303000,
+      "pub": "Thu, 30 Jul 2026 08:05:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Fed 금리 동결에도 매파 신호…금값 상승폭 축소",
+      "link": "https://www.hankyung.com/article/202607304496i",
+      "source": "한국경제",
+      "ts": 1785365801000,
+      "pub": "Thu, 30 Jul 2026 07:56:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[외신 에스프레소] Fed, 이란 갈등 재발에 따른 물가 상승 우려에도 금리 동결",
+      "link": "https://www.hankyung.com/article/202607304480i",
+      "source": "한국경제",
+      "ts": 1785365505000,
+      "pub": "Thu, 30 Jul 2026 07:51:45 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "트럼프, 32조 들여 美수도 공항 현대화…대형 이동셔틀버스 퇴출",
       "link": "https://www.yna.co.kr/view/AKR20260730016900071",
@@ -25,6 +57,14 @@
       "source": "연합뉴스 국제",
       "ts": 1785363977000,
       "pub": "Thu, 30 Jul 2026 07:26:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Fed 금리 동결이 '물가 불안' 자극…美 주식·채권 동반 하락 [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026073044466",
+      "source": "한국경제",
+      "ts": 1785363509000,
+      "pub": "Thu, 30 Jul 2026 07:18:29 +0900",
       "sentiment": "neutral"
     },
     {
@@ -212,14 +252,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "美증시, FOMC·하이퍼스케일러 실적발표 앞두고 하락",
-      "link": "https://www.hankyung.com/article/202607294236i",
-      "source": "한국경제",
-      "ts": 1785334652000,
-      "pub": "Wed, 29 Jul 2026 23:17:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, 이란 기습공격에 \"두들겨 팰 것\"…대리세력 공격도 시사(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260729183051071",
       "source": "연합뉴스 국제",
@@ -233,14 +265,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785332474000,
       "pub": "Wed, 29 Jul 2026 22:41:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란 두들겨 팰 것\"…미군기지 공격에 보복 예고",
-      "link": "https://www.hankyung.com/article/2026072941647",
-      "source": "한국경제",
-      "ts": 1785331259000,
-      "pub": "Wed, 29 Jul 2026 22:20:59 +0900",
       "sentiment": "neutral"
     },
     {
@@ -258,14 +282,6 @@
       "ts": 1785330058000,
       "pub": "Wed, 29 Jul 2026 22:00:58 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "Fed 금리 결정 \"20년 만에 가장 불확실\"…사상 최대 헤지",
-      "link": "https://www.hankyung.com/article/202607294106i",
-      "source": "한국경제",
-      "ts": 1785326807000,
-      "pub": "Wed, 29 Jul 2026 21:06:47 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "이스라엘군 \"헤즈볼라 드론, 공병 굴착기 타격…휴전 위반\"",
@@ -305,14 +321,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785306739000,
       "pub": "Wed, 29 Jul 2026 15:32:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키 \"록히드마틴과 패트리엇 공동생산 논의…신속 추진\"",
-      "link": "https://www.yna.co.kr/view/AKR20260729123300009",
-      "source": "연합뉴스 국제",
-      "ts": 1785304886000,
-      "pub": "Wed, 29 Jul 2026 15:01:26 +0900",
       "sentiment": "neutral"
     }
   ]

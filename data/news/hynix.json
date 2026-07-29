@@ -1,8 +1,40 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-29T22:46:33.166Z",
-  "count": 9,
+  "updated_at": "2026-07-29T23:52:00.811Z",
+  "count": 11,
   "items": [
+    {
+      "title": "\"SK하이닉스, 밸류 지나치게 낮아…3분기 영업익 77조 전망\"-KB",
+      "link": "https://www.hankyung.com/article/2026073045536",
+      "source": "한국경제",
+      "ts": 1785366689000,
+      "pub": "Thu, 30 Jul 2026 08:11:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "메모리 품귀에 주가도 '털썩'…경고음 울린 퀄컴, 무슨 일?",
+      "link": "https://www.hankyung.com/article/202607304544g",
+      "source": "한국경제",
+      "ts": 1785366577000,
+      "pub": "Thu, 30 Jul 2026 08:09:37 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"SK하이닉스 470만원 간다\"…주가 빠지자 나온 파격 전망",
+      "link": "https://www.hankyung.com/article/2026073044666",
+      "source": "한국경제",
+      "ts": 1785364822000,
+      "pub": "Thu, 30 Jul 2026 07:40:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'상장 첫날 470% 폭등'...내 계좌로 CXMT 사는 법 알아보니",
+      "link": "https://www.hankyung.com/article/202607293572i",
+      "source": "한국경제",
+      "ts": 1785364383000,
+      "pub": "Thu, 30 Jul 2026 07:33:03 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "퀄컴, 칩 가격 두 자릿수 인상 나서…\"메모리발 부담 심각\"",
       "link": "https://www.yna.co.kr/view/AKR20260730019400009",
@@ -25,14 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785334558000,
       "pub": "Wed, 29 Jul 2026 23:15:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, 자국 반도체 기업에 '4000억 실탄'…해외 의존도 낮춘다",
-      "link": "https://www.hankyung.com/article/2026072941117",
-      "source": "한국경제",
-      "ts": 1785326553000,
-      "pub": "Wed, 29 Jul 2026 21:02:33 +0900",
       "sentiment": "neutral"
     },
     {
@@ -66,14 +90,6 @@
       "ts": 1785310177000,
       "pub": "Wed, 29 Jul 2026 16:29:37 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "亞증시 반도체 투매 이틀째…코스피 연초 상승률 대만에 역전",
-      "link": "https://www.yna.co.kr/view/AKR20260729122600009",
-      "source": "연합뉴스 국제",
-      "ts": 1785305525000,
-      "pub": "Wed, 29 Jul 2026 15:12:05 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

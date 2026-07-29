@@ -1,8 +1,64 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-29T17:02:17.173Z",
-  "count": 17,
+  "updated_at": "2026-07-29T18:53:03.316Z",
+  "count": 27,
   "items": [
+    {
+      "title": "[속보]美연준 워시 의장 \"물가 안정 달성 확신 있어…목표치 2%\"",
+      "link": "https://www.mt.co.kr/world/2026/07/30/2026073003372277749",
+      "source": "머니투데이",
+      "ts": 1785350309000,
+      "pub": "Thu, 30 Jul 2026 03:38:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美연준 금리동결, 12명 중 3명은 \"인상\"…9월 긴축 가능성 커졌다(상보)",
+      "link": "https://www.mt.co.kr/world/2026/07/30/2026073003184313073",
+      "source": "머니투데이",
+      "ts": 1785349247000,
+      "pub": "Thu, 30 Jul 2026 03:20:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美연준 \"9대3 표결로 동결…경제활동 견조하게 확대\"",
+      "link": "https://www.yna.co.kr/view/AKR20260730005000071",
+      "source": "연합뉴스 국제",
+      "ts": 1785348392000,
+      "pub": "Thu, 30 Jul 2026 03:06:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[2보] 美연준, 5연속 금리 동결…한미 금리차 1.00%P",
+      "link": "https://www.yna.co.kr/view/AKR20260730003800071",
+      "source": "연합뉴스 경제",
+      "ts": 1785348120000,
+      "pub": "Thu, 30 Jul 2026 03:02:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]美연준, 다섯차례 연속 금리 동결…3.50∼3.75% 유지",
+      "link": "https://www.mt.co.kr/world/2026/07/30/2026073002562336972",
+      "source": "머니투데이",
+      "ts": 1785348104000,
+      "pub": "Thu, 30 Jul 2026 03:01:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[1보] 美연준, 5연속 금리 동결…3.50∼3.75% 유지",
+      "link": "https://www.yna.co.kr/view/AKR20260730003600071",
+      "source": "연합뉴스 경제",
+      "ts": 1785348060000,
+      "pub": "Thu, 30 Jul 2026 03:01:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘군 참모총장 \"전쟁 안 끝나…필요시 레바논 더 깊숙이\"",
+      "link": "https://www.yna.co.kr/view/AKR20260730003300079",
+      "source": "연합뉴스 국제",
+      "ts": 1785346216000,
+      "pub": "Thu, 30 Jul 2026 02:30:16 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "민주사회주의 약진에 美민주 딜레마…트럼프, '적색공포' 선거전",
       "link": "https://www.yna.co.kr/view/AKR20260730001500071",
@@ -20,11 +76,27 @@
       "sentiment": "neutral"
     },
     {
+      "title": "트럼프, 이란 기습에 분노…\"두들겨 팰 것\" 욕설 경고(상보)",
+      "link": "https://www.mt.co.kr/world/2026/07/30/2026073000002522663",
+      "source": "머니투데이",
+      "ts": 1785337453000,
+      "pub": "Thu, 30 Jul 2026 00:04:13 +0900",
+      "sentiment": "negative"
+    },
+    {
       "title": "美증시, FOMC·하이퍼스케일러 실적발표 앞두고 하락",
       "link": "https://www.hankyung.com/article/202607294236i",
       "source": "한국경제",
       "ts": 1785334652000,
       "pub": "Wed, 29 Jul 2026 23:17:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"터무니없는 공항 대수술\"…트럼프, 덜레스 공항 220억달러 재건 추진",
+      "link": "https://www.mt.co.kr/world/2026/07/29/2026072922090091245",
+      "source": "머니투데이",
+      "ts": 1785332777000,
+      "pub": "Wed, 29 Jul 2026 22:46:17 +0900",
       "sentiment": "neutral"
     },
     {
@@ -41,6 +113,14 @@
       "source": "연합뉴스 국제",
       "ts": 1785332474000,
       "pub": "Wed, 29 Jul 2026 22:41:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"미군기지 공격한 이란 응징\"…고강도 타격 예고",
+      "link": "https://www.mt.co.kr/world/2026/07/29/2026072922162729000",
+      "source": "머니투데이",
+      "ts": 1785331440000,
+      "pub": "Wed, 29 Jul 2026 22:24:00 +0900",
       "sentiment": "neutral"
     },
     {

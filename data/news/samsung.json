@@ -1,15 +1,31 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-29T10:27:24.190Z",
-  "count": 2,
+  "updated_at": "2026-07-29T12:54:07.329Z",
+  "count": 4,
   "items": [
     {
-      "title": "'삼전닉스 급락 전염될라'…英중앙은행, IB 점검",
-      "link": "https://www.hankyung.com/article/2026072938701",
+      "title": "美 정부, 자국 반도체기업 글로벌파운드리스에 3억달러 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260729179400009",
+      "source": "연합뉴스 국제",
+      "ts": 1785325825000,
+      "pub": "Wed, 29 Jul 2026 20:50:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'이게 맞아?' 개미 터졌다…\"삼전닉스 레버리지 퇴출\" 국회 앞 근조화환",
+      "link": "https://www.mt.co.kr/society/2026/07/29/2026072918402880738",
+      "source": "머니투데이",
+      "ts": 1785321571000,
+      "pub": "Wed, 29 Jul 2026 19:39:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"투기판 깔았다\"…여야, 삼전닉스 레버리지 ETF 허가 질타",
+      "link": "https://www.hankyung.com/article/2026072940597",
       "source": "한국경제",
-      "ts": 1785315353000,
-      "pub": "Wed, 29 Jul 2026 17:55:53 +0900",
-      "sentiment": "negative"
+      "ts": 1785320935000,
+      "pub": "Wed, 29 Jul 2026 19:28:55 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "'실적발표' 하이닉스, 하락전환해 9~10%대 급락…삼전도 4%대↓(종합)",

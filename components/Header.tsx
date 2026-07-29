@@ -108,53 +108,44 @@ function PageNav() {
   const isGuide = pathname.includes("/guide/");
   const isPoll = pathname === "/poll" || pathname.startsWith("/poll/") || pathname === "/en/poll";
   const isLiquidation = pathname === "/liquidation" || pathname.startsWith("/liquidation/");
-  const isPrices = !isConsensus && !isNews && !isGuide && !isPoll && !isLiquidation;
+  const isShopping = pathname === "/shopping" || pathname.startsWith("/shopping/");
+  const isPrices = !isConsensus && !isNews && !isGuide && !isPoll && !isLiquidation && !isShopping;
 
-  // locale에 맞는 href (뉴스룸·청산맵은 현재 한국어 only — EN에서도 동일 경로로 fallback)
+  // locale에 맞는 href (뉴스룸·청산맵·쇼핑은 현재 한국어 only — EN에서도 동일 경로로 fallback)
   const home = isEn ? "/en" : "/";
   const consensus = isEn ? "/en/consensus" : "/consensus";
   const news = "/news";
   const poll = "/poll";
   const liquidation = "/liquidation";
+  const shopping = "/shopping";
   const guide = isEn ? "/en/guide/binance-korea-stocks" : "/guide/binance-korea-stocks";
 
-  const tabs: Array<{ key: string; href: string; ko: string; en: string; active: boolean; external?: boolean }> = [
+  const tabs: Array<{ key: string; href: string; ko: string; en: string; active: boolean }> = [
     { key: "prices", href: home, ko: "주가", en: "Prices", active: isPrices },
     { key: "consensus", href: consensus, ko: "증권사 분석", en: "Consensus", active: isConsensus },
     { key: "news", href: news, ko: "뉴스", en: "News", active: isNews },
     { key: "poll", href: poll, ko: "인간지표", en: "Poll", active: isPoll },
     { key: "liquidation", href: liquidation, ko: "청산맵", en: "Liq. Map", active: isLiquidation },
+    // 쿠팡 핫딜(줍줍쇼핑) — kr-stocks.com 자체 하위페이지 (7/29 형님 요청, 외부 사이트 → 내부 라우트 전환)
+    { key: "shopping", href: shopping, ko: "🛒 쿠팡핫딜", en: "🛒 Hot Deals", active: isShopping },
     { key: "guide", href: guide, ko: "가이드", en: "Guide", active: isGuide },
-    // 줍줍쇼핑 — 자매 서비스(핫딜 큐레이션), 별도 도메인이라 외부링크로 새 탭 오픈 (7/29 형님 요청)
-    { key: "jubjub", href: "https://jubjub-shop.vercel.app", ko: "🛒 줍줍쇼핑", en: "🛒 Hot Deals", active: false, external: true },
   ];
 
   return (
     <nav className="flex items-center gap-0.5 sm:gap-1 text-xs sm:text-sm tabular min-w-0 overflow-x-auto">
       {tabs.map((t, i) => (
         <span key={t.key} className="flex items-center">
-          {t.external ? (
-            <a
-              href={t.href}
-              target="_blank"
-              rel="noopener"
-              className="px-2 sm:px-2.5 py-1 rounded-md transition font-semibold whitespace-nowrap text-orange-400 hover:text-orange-300 hover:bg-bg-card/50 border border-transparent"
-            >
-              {isEn ? t.en : t.ko}
-            </a>
-          ) : (
-            <Link
-              href={t.href as any}
-              aria-current={t.active ? "page" : undefined}
-              className={`px-2 sm:px-2.5 py-1 rounded-md transition font-semibold whitespace-nowrap ${
-                t.active
-                  ? "bg-bg-card text-text border border-line"
-                  : "text-text-dim hover:text-text hover:bg-bg-card/50 border border-transparent"
-              }`}
-            >
-              {isEn ? t.en : t.ko}
-            </Link>
-          )}
+          <Link
+            href={t.href as any}
+            aria-current={t.active ? "page" : undefined}
+            className={`px-2 sm:px-2.5 py-1 rounded-md transition font-semibold whitespace-nowrap ${
+              t.active
+                ? "bg-bg-card text-text border border-line"
+                : "text-text-dim hover:text-text hover:bg-bg-card/50 border border-transparent"
+            }`}
+          >
+            {isEn ? t.en : t.ko}
+          </Link>
           {i < tabs.length - 1 && (
             <span className="text-text-dim/30 mx-0.5 hidden sm:inline">·</span>
           )}

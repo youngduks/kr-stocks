@@ -1,14 +1,22 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-29T04:57:07.712Z",
-  "count": 1,
+  "updated_at": "2026-07-29T07:38:50.367Z",
+  "count": 2,
   "items": [
     {
-      "title": "현대차證, IRP 로보어드바이저 순풍…일임계약 추가 검토",
-      "link": "https://www.mt.co.kr/stock/2026/07/29/2026072909361562570",
+      "title": "\"P버튼 길게 누르면 차 멈춰\"…'신형 아반떼'로 선보인 현대차 신기술 [영상]",
+      "link": "https://www.hankyung.com/article/202607292777g",
+      "source": "한국경제",
+      "ts": 1785308404000,
+      "pub": "Wed, 29 Jul 2026 16:00:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중형차급 된 '국민 첫차' 아반떼..가격도 차급 넘을까",
+      "link": "https://www.mt.co.kr/industry/2026/07/29/2026072912401235615",
       "source": "머니투데이",
-      "ts": 1785291294000,
-      "pub": "Wed, 29 Jul 2026 11:14:54 +0900",
+      "ts": 1785308400000,
+      "pub": "Wed, 29 Jul 2026 16:00:00 +0900",
       "sentiment": "neutral"
     }
   ]

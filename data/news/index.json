@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T04:57:07.712Z",
+  "updated_at": "2026-07-29T07:38:50.367Z",
   "sources": [
     {
       "id": "hankyung",
@@ -19,9 +19,9 @@
     }
   ],
   "categories": {
-    "intl": 22,
-    "samsung": 3,
-    "hynix": 17,
-    "hyundai": 1
+    "intl": 0,
+    "samsung": 4,
+    "hynix": 6,
+    "hyundai": 2
   }
 }

@@ -1,39 +1,23 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-29T07:38:50.366Z",
-  "count": 4,
+  "updated_at": "2026-07-29T10:27:24.190Z",
+  "count": 2,
   "items": [
     {
-      "title": "GPU·HBM 이은 '반도체 병목'은?...CPU株에도 관심",
-      "link": "https://www.hankyung.com/article/202607293256i",
+      "title": "'삼전닉스 급락 전염될라'…英중앙은행, IB 점검",
+      "link": "https://www.hankyung.com/article/2026072938701",
       "source": "한국경제",
-      "ts": 1785309225000,
-      "pub": "Wed, 29 Jul 2026 16:13:45 +0900",
-      "sentiment": "neutral"
+      "ts": 1785315353000,
+      "pub": "Wed, 29 Jul 2026 17:55:53 +0900",
+      "sentiment": "negative"
     },
     {
-      "title": "박현주 \"삼전닉스 조정 충분해… 올들어 처음 매수구간 진입\"",
-      "link": "https://www.hankyung.com/article/202607293449i",
-      "source": "한국경제",
-      "ts": 1785309089000,
-      "pub": "Wed, 29 Jul 2026 16:11:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 인버스ETF 하루 회전율 1000% 육박",
-      "link": "https://www.hankyung.com/article/202607293019i",
-      "source": "한국경제",
-      "ts": 1785308046000,
-      "pub": "Wed, 29 Jul 2026 15:54:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI 훈풍, 메모리 넘어 부품까지 '선순환'…삼성전기 MLCC 30%↑",
-      "link": "https://www.mt.co.kr/industry/2026/07/29/2026072908511321683",
-      "source": "머니투데이",
-      "ts": 1785307200000,
-      "pub": "Wed, 29 Jul 2026 15:40:00 +0900",
-      "sentiment": "neutral"
+      "title": "'실적발표' 하이닉스, 하락전환해 9~10%대 급락…삼전도 4%대↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260729043551008",
+      "source": "연합뉴스 경제",
+      "ts": 1785291857000,
+      "pub": "Wed, 29 Jul 2026 11:24:17 +0900",
+      "sentiment": "negative"
     }
   ]
 }

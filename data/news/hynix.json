@@ -1,22 +1,46 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-30T12:21:57.773Z",
+  "updated_at": "2026-07-30T15:00:27.237Z",
   "count": 14,
   "items": [
+    {
+      "title": "\"애플은 안전자산\"vs \"반도체 오르면 끝난다\"[박신영의 개장전 요것만]",
+      "link": "https://www.hankyung.com/article/202607306705i",
+      "source": "한국경제",
+      "ts": 1785422647000,
+      "pub": "Thu, 30 Jul 2026 23:44:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 마이크로소프트 실적·반도체 강세 힘입어 상승 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260730195200009",
+      "source": "연합뉴스 국제",
+      "ts": 1785422104000,
+      "pub": "Thu, 30 Jul 2026 23:35:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "최태원, 하이닉스 주식 48억 매수",
+      "link": "https://www.hankyung.com/article/2026073066871",
+      "source": "한국경제",
+      "ts": 1785419358000,
+      "pub": "Thu, 30 Jul 2026 22:49:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[고래사냥] 'SK하이닉스·삼성전자·아모레퍼시픽·금호타이어! 내일장 고래 종목은?!",
+      "link": "https://www.mt.co.kr/stock/2026/07/30/2026073021377096802",
+      "source": "머니투데이",
+      "ts": 1785416516000,
+      "pub": "Thu, 30 Jul 2026 22:01:56 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "최태원, SK하이닉스 주식 장내매수…48억원어치 산 이유",
       "link": "https://www.hankyung.com/article/202607306603i",
       "source": "한국경제",
       "ts": 1785408339000,
       "pub": "Thu, 30 Jul 2026 19:45:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"갖고 있으면 오른다\" 최태원, SK하이닉스 주식 첫 매수…48억원 규모",
-      "link": "https://www.mt.co.kr/industry/2026/07/30/2026073019195723633",
-      "source": "머니투데이",
-      "ts": 1785407592000,
-      "pub": "Thu, 30 Jul 2026 19:33:12 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,35 +52,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "최태원 SK회장, SK하이닉스 주식 3620주 장내매수",
-      "link": "https://www.mt.co.kr/industry/2026/07/30/2026073019063472373",
-      "source": "머니투데이",
-      "ts": 1785406345000,
-      "pub": "Thu, 30 Jul 2026 19:12:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[급등수사본부] 해외 포트폴리도 재편 효과 가시화 'LG생활건강' vs AI 인프라 확산 핵심 수혜주 'SK하이닉스'",
-      "link": "https://www.mt.co.kr/stock/2026/07/30/2026073018547060694",
-      "source": "머니투데이",
-      "ts": 1785406236000,
-      "pub": "Thu, 30 Jul 2026 19:10:36 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "삼성전자 \"메모리 물량 70% 장기계약…2028년까지 공급 부족\"",
       "link": "https://www.hankyung.com/article/2026073064401",
       "source": "한국경제",
       "ts": 1785403223000,
       "pub": "Thu, 30 Jul 2026 18:20:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"1000원만 넘겨라\"…반도체에 돈 몰리더니 코스닥 덮친 '공포'",
-      "link": "https://www.hankyung.com/article/2026073064611",
-      "source": "한국경제",
-      "ts": 1785402691000,
-      "pub": "Thu, 30 Jul 2026 18:11:31 +0900",
       "sentiment": "neutral"
     },
     {

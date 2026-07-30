@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-30T12:21:57.773Z",
-  "count": 6,
+  "updated_at": "2026-07-30T15:00:27.236Z",
+  "count": 7,
   "items": [
+    {
+      "title": "[고래사냥] 'SK하이닉스·삼성전자·아모레퍼시픽·금호타이어! 내일장 고래 종목은?!",
+      "link": "https://www.mt.co.kr/stock/2026/07/30/2026073021377096802",
+      "source": "머니투데이",
+      "ts": 1785416516000,
+      "pub": "Thu, 30 Jul 2026 22:01:56 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성전자 \"메모리 물량 70% 장기계약…2028년까지 공급 부족\"",
       "link": "https://www.hankyung.com/article/2026073064401",
@@ -12,7 +20,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"공포 달랜 모범답안\"…삼전 실적발표, 증시 반등 발판되나",
+      "title": "\"공포 달랜 모범답안\" … 삼전 실적발표, 증시 반등 발판되나",
       "link": "https://www.hankyung.com/article/2026073064411",
       "source": "한국경제",
       "ts": 1785403117000,

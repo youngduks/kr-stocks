@@ -1,8 +1,64 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-30T12:21:57.771Z",
-  "count": 12,
+  "updated_at": "2026-07-30T15:00:27.235Z",
+  "count": 14,
   "items": [
+    {
+      "title": "美 6월 PCE 물가 전년 대비 3.7%↑…전망치 부합(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260730191551072",
+      "source": "연합뉴스 국제",
+      "ts": 1785419866000,
+      "pub": "Thu, 30 Jul 2026 22:57:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 6월 근원 PCE 전년대비 3.3% 상승",
+      "link": "https://www.hankyung.com/article/2026073066951",
+      "source": "한국경제",
+      "ts": 1785419238000,
+      "pub": "Thu, 30 Jul 2026 22:47:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"러, 1년 만에 우크라에 북한제 미사일 쏜 듯\"",
+      "link": "https://www.yna.co.kr/view/AKR20260730192100108",
+      "source": "연합뉴스 국제",
+      "ts": 1785416724000,
+      "pub": "Thu, 30 Jul 2026 22:05:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 6월 PCE 물가 전년대비 3.7%↑…예상치 부합",
+      "link": "https://www.yna.co.kr/view/AKR20260730191500072",
+      "source": "연합뉴스 국제",
+      "ts": 1785416080000,
+      "pub": "Thu, 30 Jul 2026 21:54:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美 6월 PCE 물가 전년대비 3.7%↑…전망치 부합",
+      "link": "https://www.hankyung.com/article/2026073066727",
+      "source": "한국경제",
+      "ts": 1785415462000,
+      "pub": "Thu, 30 Jul 2026 21:44:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美 6월 PCE 물가 전년대비 3.7%↑…전망치 부합",
+      "link": "https://www.yna.co.kr/view/AKR20260730191200072",
+      "source": "연합뉴스 국제",
+      "ts": 1785415384000,
+      "pub": "Thu, 30 Jul 2026 21:43:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "튀르키예 외무, 하마스 새 지도자 알하야 회동",
+      "link": "https://www.yna.co.kr/view/AKR20260730189400108",
+      "source": "연합뉴스 국제",
+      "ts": 1785414044000,
+      "pub": "Thu, 30 Jul 2026 21:20:44 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"AI 규제 검토하지만…중국에 뒤처지면 안 돼\"",
       "link": "https://www.mt.co.kr/world/2026/07/30/2026073016291399767",
@@ -12,7 +68,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"접종 횟수 줄여라\"…트럼프는 어쩌다 백신 불신론자 됐나",
+      "title": "\"접종 횟수 줄여라\" … 트럼프는 어쩌다 백신 불신론자 됐나",
       "link": "https://www.hankyung.com/article/2026073064691",
       "source": "한국경제",
       "ts": 1785403982000,
@@ -57,46 +113,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785371424000,
       "pub": "Thu, 30 Jul 2026 09:30:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란이 대담해졌다…트럼프·네타냐후 회동일에 '선제공격'",
-      "link": "https://www.yna.co.kr/view/AKR20260730039500009",
-      "source": "연합뉴스 국제",
-      "ts": 1785370250000,
-      "pub": "Thu, 30 Jul 2026 09:10:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"네타냐후, 경제 영향 걱정하는 트럼프에 '이란 압박' 주문\"",
-      "link": "https://www.yna.co.kr/view/AKR20260730040600009",
-      "source": "연합뉴스 국제",
-      "ts": 1785370040000,
-      "pub": "Thu, 30 Jul 2026 09:07:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美연준 '깜짝 인상' 없이 '매파적 동결'…시장은 인플레 우려(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260730007251072",
-      "source": "연합뉴스 국제",
-      "ts": 1785366560000,
-      "pub": "Thu, 30 Jul 2026 08:09:20 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "트럼프, 32조 들여 美수도 공항 현대화…대형 이동셔틀버스 퇴출",
-      "link": "https://www.yna.co.kr/view/AKR20260730016900071",
-      "source": "연합뉴스 국제",
-      "ts": 1785364882000,
-      "pub": "Thu, 30 Jul 2026 07:41:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '챗GPT 해킹'에 \"AI 규제 검토\"…中 견제하며 신중론도",
-      "link": "https://www.yna.co.kr/view/AKR20260730020400071",
-      "source": "연합뉴스 국제",
-      "ts": 1785363977000,
-      "pub": "Thu, 30 Jul 2026 07:26:17 +0900",
       "sentiment": "neutral"
     }
   ]

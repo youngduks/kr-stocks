@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-30T10:10:14.294Z",
-  "count": 14,
+  "updated_at": "2026-07-30T12:21:57.771Z",
+  "count": 12,
   "items": [
+    {
+      "title": "트럼프 \"AI 규제 검토하지만…중국에 뒤처지면 안 돼\"",
+      "link": "https://www.mt.co.kr/world/2026/07/30/2026073016291399767",
+      "source": "머니투데이",
+      "ts": 1785413100000,
+      "pub": "Thu, 30 Jul 2026 21:05:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"접종 횟수 줄여라\"…트럼프는 어쩌다 백신 불신론자 됐나",
       "link": "https://www.hankyung.com/article/2026073064691",
@@ -89,30 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785363977000,
       "pub": "Thu, 30 Jul 2026 07:26:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "연준 금리동결에 시장 실망감…美주식·채권 동반 급락(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260730012351072",
-      "source": "연합뉴스 국제",
-      "ts": 1785359837000,
-      "pub": "Thu, 30 Jul 2026 06:17:17 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "트럼프, 이란 기습공격에 \"이제 우리 차례…두들겨 팰 것\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260729183052071",
-      "source": "연합뉴스 국제",
-      "ts": 1785357065000,
-      "pub": "Thu, 30 Jul 2026 05:31:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 연준 금리동결속 채권금리 상승에 하락…다우 2%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260730012300072",
-      "source": "연합뉴스 국제",
-      "ts": 1785355984000,
-      "pub": "Thu, 30 Jul 2026 05:13:04 +0900",
       "sentiment": "neutral"
     }
   ]

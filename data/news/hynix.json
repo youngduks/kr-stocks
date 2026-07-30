@@ -1,14 +1,30 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-30T20:53:29.157Z",
-  "count": 6,
+  "updated_at": "2026-07-30T21:57:27.791Z",
+  "count": 8,
   "items": [
     {
-      "title": "반도체 생태계 'AI 서열'… '지배자' 버티고 '공급자'는 휘청",
-      "link": "https://www.mt.co.kr/world/2026/07/31/2026073019550455947",
-      "source": "머니투데이",
-      "ts": 1785438180000,
-      "pub": "Fri, 31 Jul 2026 04:03:00 +0900",
+      "title": "하나둘 기술 빼가더니…삼전닉스 파랗게 질리게 한 '中반도체 회사'",
+      "link": "https://www.hankyung.com/article/202607305245g",
+      "source": "한국경제",
+      "ts": 1785445209000,
+      "pub": "Fri, 31 Jul 2026 06:00:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 반도체주 반등에 강세 마감…하이닉스ADR 18%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260731008251072",
+      "source": "연합뉴스 국제",
+      "ts": 1785445101000,
+      "pub": "Fri, 31 Jul 2026 05:58:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 반도체주 반등에 강세 마감…나스닥 2.8%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260731008200072",
+      "source": "연합뉴스 국제",
+      "ts": 1785442951000,
+      "pub": "Fri, 31 Jul 2026 05:22:31 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,19 +36,19 @@
       "sentiment": "neutral"
     },
     {
+      "title": "뉴욕증시, 마이크로소프트 실적·반도체 강세 힘입어 상승 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260730195200009",
+      "source": "연합뉴스 국제",
+      "ts": 1785422104000,
+      "pub": "Thu, 30 Jul 2026 23:35:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "최태원, 하이닉스 주식 48억 매수",
       "link": "https://www.hankyung.com/article/2026073066871",
       "source": "한국경제",
       "ts": 1785419358000,
       "pub": "Thu, 30 Jul 2026 22:49:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[고래사냥] 'SK하이닉스·삼성전자·아모레퍼시픽·금호타이어! 내일장 고래 종목은?!",
-      "link": "https://www.mt.co.kr/stock/2026/07/30/2026073021377096802",
-      "source": "머니투데이",
-      "ts": 1785416516000,
-      "pub": "Thu, 30 Jul 2026 22:01:56 +0900",
       "sentiment": "neutral"
     },
     {

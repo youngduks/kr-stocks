@@ -19,20 +19,31 @@ export async function GET(req: NextRequest) {
     return NextResponse.redirect(new URL("/shopping", req.url));
   }
 
-  // link.coupang.com을 직접(형님이 텔레그램/사이트에서 원본 링크를) 탭하면, iOS/안드로이드가
-  // HTTP 요청이 일어나기도 전에 URL을 유니버설링크로 가로채 쿠팡 앱을 raw하게 열어버림 —
-  // 이때 앱은 /re/AFFSDP 파라미터를 상품으로 해석 못 해 홈/추천피드로 떨어짐(2026-07-30 실측:
-  // link.coupang.com의 apple-app-site-association이 /re/* 를 유니버설링크로 등록, 공식
-  // 단축링크 /a/{code}는 그 목록에 없어 서버까지 도달).
+  // 데스크탑은 /re/AFFSDP 인터스티셜 경유가 검증된 상태(정확한 상품 착지 + 커미션
+  // 트래킹 쿠키 확인) — 그대로 302.
   //
-  // 우리 도메인(쿠팡 AASA와 무관)을 거치면 이 raw 가로채기는 피하지만, 실제 인터스티셜
-  // HTML(/re/AFFSDP, /a/ 공통)을 직접 열어보니 둘 다 동일한 메커니즘이었음: JS가
-  // `window.location = coupang://mlp?...`로 앱을 열고, 300ms 안에 안 열리면
-  // `title=고객님을 위한 상품` 쿠팡 자체 추천페이지로 자동 폴백. 여기서 앱이 안 열리는
-  // 이유는 meta-refresh(자동 재탐색)를 거치면 사용자의 진짜 탭 신호(user activation)가
-  // 끊겨서 브라우저가 커스텀 스킴(coupang://) 실행을 차단하기 때문 — 진짜 HTTP 302는
-  // 같은 네비게이션의 연장으로 취급돼 activation이 유지됨(공식 /a/ 링크가 항상 되는 이유).
-  // 그래서 302로 변경 — link.coupang.com이 AASA에서 /re/*만 등록해뒀으므로 "직접 탭"이
-  // 아닌 "리다이렉트로 도달"이면 raw 가로채기 자체는 여전히 스킵됨(iOS 17+, 실측 인용).
+  // 모바일은 실기기 테스트로 확인(2026-07-30): 탭하면 쿠팡 앱이 "즉시" 열리지만
+  // (인터스티셜의 coupang://mlp 스킴 자체는 성공) 앱 내부 flow-engine(flowId=7,
+  // enableFlowEngine=Y)이 목표 상품(rUrl의 productId)을 무시하고 쿠팡 자체 추천
+  // 화면("고객님을 위한 상품")으로 랜딩함 — 이 인터스티셜의 "모바일 웹으로 보기"
+  // 버튼조차 같은 추천화면 URL로 연결돼있어(mlp-landing-page), /re/AFFSDP 경로
+  // 안에서는 리다이렉트 타이밍을 아무리 손봐도 못 고치는 앱 자체 라우팅 문제로 판단.
+  // → 모바일은 /re/AFFSDP를 거치지 않고 곧장 상품 상세 웹페이지(/vp/products/{id})로
+  // 보냄 — 이 경로는 데스크탑에서 실제 상품으로 정확히 착지함이 이미 검증됨.
+  // ⚠️ 커미션 추적(link.coupang.com 서버의 클릭 로깅)을 우회하는 셈이라, lptag를
+  // 쿼리로 유지하되 실제 정산 반영 여부는 미검증 — 소액 실구매로 확인 필요.
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(req.headers.get("user-agent") || "");
+  if (isMobile && dest.hostname === "link.coupang.com") {
+    const productId = dest.searchParams.get("pageKey");
+    if (productId) {
+      const direct = new URL(`https://www.coupang.com/vp/products/${productId}`);
+      for (const k of ["itemId", "vendorItemId", "lptag", "subid"]) {
+        const v = dest.searchParams.get(k);
+        if (v) direct.searchParams.set(k, v);
+      }
+      return NextResponse.redirect(direct.toString(), { status: 302 });
+    }
+  }
+
   return NextResponse.redirect(dest.toString(), { status: 302 });
 }

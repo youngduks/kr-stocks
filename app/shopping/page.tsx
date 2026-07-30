@@ -134,7 +134,7 @@ export default async function ShoppingPage() {
                     </a>
                     {d.affiliate_url && (
                       <a
-                        href={d.affiliate_url}
+                        href={`/shopping/go?url=${encodeURIComponent(d.affiliate_url)}`}
                         target="_blank"
                         rel="noopener sponsored"
                         className="block text-center py-2.5 text-sm font-bold text-white bg-orange-500 hover:bg-orange-400 transition-colors"

@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-30T17:13:14.572Z",
-  "count": 4,
+  "updated_at": "2026-07-30T19:06:34.077Z",
+  "count": 7,
   "items": [
     {
       "title": "\"애플은 안전자산\" vs \"반도체 오르면 끝난다\" [박신영의 개장전 요것만]",
@@ -9,6 +9,14 @@
       "source": "한국경제",
       "ts": 1785422647000,
       "pub": "Thu, 30 Jul 2026 23:44:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 마이크로소프트 실적·반도체 강세 힘입어 상승 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260730195200009",
+      "source": "연합뉴스 국제",
+      "ts": 1785422104000,
+      "pub": "Thu, 30 Jul 2026 23:35:04 +0900",
       "sentiment": "neutral"
     },
     {
@@ -33,6 +41,22 @@
       "source": "한국경제",
       "ts": 1785406353000,
       "pub": "Thu, 30 Jul 2026 19:12:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "구마모토 강진발 반도체·자동차 공급망 불안 장기화 가능성",
+      "link": "https://www.yna.co.kr/view/AKR20260730082500073",
+      "source": "연합뉴스 국제",
+      "ts": 1785376670000,
+      "pub": "Thu, 30 Jul 2026 10:57:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'지하철 대신 반도체'…CXMT 성공 이끈 中허페이 시장은 복역 중",
+      "link": "https://www.yna.co.kr/view/AKR20260730078500083",
+      "source": "연합뉴스 국제",
+      "ts": 1785376583000,
+      "pub": "Thu, 30 Jul 2026 10:56:23 +0900",
       "sentiment": "neutral"
     }
   ]

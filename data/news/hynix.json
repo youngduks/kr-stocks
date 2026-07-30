@@ -1,15 +1,143 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-30T01:17:27.378Z",
-  "count": 23,
+  "updated_at": "2026-07-30T04:45:29.860Z",
+  "count": 21,
   "items": [
     {
-      "title": "갤럭시S26 잘 팔고도...'메모리 쇼크'에 삼성 스마트폰 부문 첫 적자",
-      "link": "https://www.mt.co.kr/tech/2026/07/30/2026073009161179489",
+      "title": "삼성 스마트폰 첫 적자…메모리값 급등에 수익성 '뚝' (종합)",
+      "link": "https://www.mt.co.kr/tech/2026/07/30/2026073011295050352",
       "source": "머니투데이",
-      "ts": 1785371609000,
-      "pub": "Thu, 30 Jul 2026 09:33:29 +0900",
+      "ts": 1785386221000,
+      "pub": "Thu, 30 Jul 2026 13:37:01 +0900",
       "sentiment": "negative"
+    },
+    {
+      "title": "中 CXMT, 스톡옵션 470배 '돈방석'…8조어치 주식 무상배분까지",
+      "link": "https://www.mt.co.kr/world/2026/07/30/2026072916065572161",
+      "source": "머니투데이",
+      "ts": 1785385704000,
+      "pub": "Thu, 30 Jul 2026 13:28:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 또 '돈방석' 예약…\"HBM4 매출 3배 뛴다\" [종합]",
+      "link": "https://www.hankyung.com/article/202607305375g",
+      "source": "한국경제",
+      "ts": 1785385629000,
+      "pub": "Thu, 30 Jul 2026 13:27:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'AI 광풍'의 역습…SK하이닉스 급락에 글로벌 은행까지 흔들릴 수 있다",
+      "link": "https://www.hankyung.com/article/202607293216i",
+      "source": "한국경제",
+      "ts": 1785384004000,
+      "pub": "Thu, 30 Jul 2026 13:00:04 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[오늘 이 종목] 반도체 실적 모멘텀부터 하이드로겔 수출 확대까지… 강재헌 부장의 '시선집중' 주도주",
+      "link": "https://www.mt.co.kr/stock/2026/07/30/2026073012327051440",
+      "source": "머니투데이",
+      "ts": 1785382987000,
+      "pub": "Thu, 30 Jul 2026 12:43:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "일본·대만, 반도체 역풍에도 반등…어드반테스트 실적 호재[Asia오전]",
+      "link": "https://www.mt.co.kr/world/2026/07/30/2026073011532046670",
+      "source": "머니투데이",
+      "ts": 1785381049000,
+      "pub": "Thu, 30 Jul 2026 12:10:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하이닉스 1주 하한가에 가상자산 파생상품 800억대 청산 쓰나미",
+      "link": "https://www.yna.co.kr/view/AKR20260730055300002",
+      "source": "연합뉴스 경제",
+      "ts": 1785379422000,
+      "pub": "Thu, 30 Jul 2026 11:43:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성 스마트폰·TV가 '적자'라니…반도체 초호황의 '역설'",
+      "link": "https://www.hankyung.com/article/202607305120g",
+      "source": "한국경제",
+      "ts": 1785377639000,
+      "pub": "Thu, 30 Jul 2026 11:13:59 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "삼성전자, 장중 7%대 급등세…SK하이닉스도 3%대 상승 중(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260730048551008",
+      "source": "연합뉴스 경제",
+      "ts": 1785377223000,
+      "pub": "Thu, 30 Jul 2026 11:07:03 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "SK하이닉스 목표주가 줄하향하는 증권사들…이유 살펴보니",
+      "link": "https://www.hankyung.com/article/202607305196i",
+      "source": "한국경제",
+      "ts": 1785376945000,
+      "pub": "Thu, 30 Jul 2026 11:02:25 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "구마모토 강진발 반도체·자동차 공급망 불안 장기화 가능성",
+      "link": "https://www.yna.co.kr/view/AKR20260730082500073",
+      "source": "연합뉴스 국제",
+      "ts": 1785376670000,
+      "pub": "Thu, 30 Jul 2026 10:57:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'지하철 대신 반도체'…CXMT 성공 이끈 中허페이 시장은 복역 중",
+      "link": "https://www.yna.co.kr/view/AKR20260730078500083",
+      "source": "연합뉴스 국제",
+      "ts": 1785376583000,
+      "pub": "Thu, 30 Jul 2026 10:56:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"148만원? 470만원?\"…SK하이닉스 깜짝 전망에 '술렁' [종목+]",
+      "link": "https://www.hankyung.com/article/2026073048596",
+      "source": "한국경제",
+      "ts": 1785374817000,
+      "pub": "Thu, 30 Jul 2026 10:26:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'차단 부품' 없이도 전류 안새… GIST·서울대·USC, 차세대 AI 반도체 소자 개발",
+      "link": "https://www.hankyung.com/article/202607305057i",
+      "source": "한국경제",
+      "ts": 1785374784000,
+      "pub": "Thu, 30 Jul 2026 10:26:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "광주권 서구·광산구 아파트 가격 상승 주목…'반도체 영향'",
+      "link": "https://www.yna.co.kr/view/AKR20260730072300054",
+      "source": "연합뉴스 경제",
+      "ts": 1785374782000,
+      "pub": "Thu, 30 Jul 2026 10:26:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "2분기에만 89조 번 삼성 반도체…\"내년까지 특수 더 누린다\" [테크로그]",
+      "link": "https://www.hankyung.com/article/202607304962g",
+      "source": "한국경제",
+      "ts": 1785374225000,
+      "pub": "Thu, 30 Jul 2026 10:17:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대차그룹, 자율주행개발센터장에 삼성·엔비디아 출신 권정현 부사장 영입",
+      "link": "https://www.hankyung.com/article/202607305019g",
+      "source": "한국경제",
+      "ts": 1785374163000,
+      "pub": "Thu, 30 Jul 2026 10:16:03 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "SK하이닉스, 4~6%대 급락 중…삼성전자는 1.6% 상승",
@@ -17,38 +145,6 @@
       "source": "연합뉴스 경제",
       "ts": 1785371278000,
       "pub": "Thu, 30 Jul 2026 09:27:58 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"고점에 샀나\" 반토막 난 SK하이닉스...298만→132만원, 오늘도 '약세'",
-      "link": "https://www.mt.co.kr/stock/2026/07/30/2026073009131730066",
-      "source": "머니투데이",
-      "ts": 1785370434000,
-      "pub": "Thu, 30 Jul 2026 09:13:54 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "삼성전자, 1년 만에 '1800% 잭팟'…반도체로 89조 벌었다",
-      "link": "https://www.hankyung.com/article/202607304729g",
-      "source": "한국경제",
-      "ts": 1785370260000,
-      "pub": "Thu, 30 Jul 2026 09:11:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 2분기 반도체서만 89.2조 벌었다…신기록 행진 계속",
-      "link": "https://www.mt.co.kr/industry/2026/07/30/2026073008083367147",
-      "source": "머니투데이",
-      "ts": 1785369990000,
-      "pub": "Thu, 30 Jul 2026 09:06:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 삼성전자 스마트폰 부문, '메모리 쇼크'에 2분기 적자 전환",
-      "link": "https://www.mt.co.kr/tech/2026/07/30/2026073007583543434",
-      "source": "머니투데이",
-      "ts": 1785369627000,
-      "pub": "Thu, 30 Jul 2026 09:00:27 +0900",
       "sentiment": "negative"
     },
     {
@@ -60,91 +156,11 @@
       "sentiment": "negative"
     },
     {
-      "title": "SK하이닉스 주가 반토막에도...\"470만원 간다\" 한투 목표가 상향, 왜?",
-      "link": "https://www.mt.co.kr/stock/2026/07/30/2026073008160257986",
-      "source": "머니투데이",
-      "ts": 1785369527000,
-      "pub": "Thu, 30 Jul 2026 08:58:47 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[속보] 삼성전자, 2분기 반도체 부문 영업이익 89.2조원",
-      "link": "https://www.hankyung.com/article/202607304675g",
-      "source": "한국경제",
-      "ts": 1785369099000,
-      "pub": "Thu, 30 Jul 2026 08:51:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]삼성전자, 2분기 반도체부문 매출 127.5조, 영업이익 89.2조",
-      "link": "https://www.mt.co.kr/industry/2026/07/30/2026073008300761321",
-      "source": "머니투데이",
-      "ts": 1785368991000,
-      "pub": "Thu, 30 Jul 2026 08:49:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "폭락장서 초고수의 선택은...삼성전자·인버스 담고 SK하이닉스 팔았다",
-      "link": "https://www.hankyung.com/article/202607304547i",
-      "source": "한국경제",
-      "ts": 1785368587000,
-      "pub": "Thu, 30 Jul 2026 08:43:07 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "목표가 350만→300만원...SK하이닉스, 수급 쏠림 리스크 반영...삼성",
-      "link": "https://www.mt.co.kr/stock/2026/07/30/2026073008411163141",
-      "source": "머니투데이",
-      "ts": 1785368501000,
-      "pub": "Thu, 30 Jul 2026 08:41:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "韓반도체 세계 1위 지켰지만…배터리·조선은 중국에 밀렸다 [도쿄나우]",
-      "link": "https://www.hankyung.com/article/202607304610i",
-      "source": "한국경제",
-      "ts": 1785368434000,
-      "pub": "Thu, 30 Jul 2026 08:40:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"SK하이닉스, 밸류 지나치게 낮아…3분기 영업익 77조 전망\"-KB",
-      "link": "https://www.hankyung.com/article/2026073045536",
-      "source": "한국경제",
-      "ts": 1785366689000,
-      "pub": "Thu, 30 Jul 2026 08:11:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "메모리 품귀에 주가도 '털썩'…경고음 울린 퀄컴, 무슨 일?",
-      "link": "https://www.hankyung.com/article/202607304544g",
-      "source": "한국경제",
-      "ts": 1785366577000,
-      "pub": "Thu, 30 Jul 2026 08:09:37 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"SK하이닉스 470만원 간다\"…주가 빠지자 나온 파격 전망",
-      "link": "https://www.hankyung.com/article/2026073044666",
-      "source": "한국경제",
-      "ts": 1785364822000,
-      "pub": "Thu, 30 Jul 2026 07:40:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "퀄컴, 칩 가격 두 자릿수 인상 나서…\"메모리발 부담 심각\"",
       "link": "https://www.yna.co.kr/view/AKR20260730019400009",
       "source": "연합뉴스 국제",
       "ts": 1785363383000,
       "pub": "Thu, 30 Jul 2026 07:16:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 호황에 제조업 체감경기 4년 1개월 만에 최고",
-      "link": "https://www.yna.co.kr/view/AKR20260729159800002",
-      "source": "연합뉴스 경제",
-      "ts": 1785358802000,
-      "pub": "Thu, 30 Jul 2026 06:00:02 +0900",
       "sentiment": "neutral"
     },
     {
@@ -154,38 +170,6 @@
       "ts": 1785334558000,
       "pub": "Wed, 29 Jul 2026 23:15:58 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "美 정부, 자국 반도체기업 글로벌파운드리스에 3억달러 지원",
-      "link": "https://www.yna.co.kr/view/AKR20260729179400009",
-      "source": "연합뉴스 국제",
-      "ts": 1785325825000,
-      "pub": "Wed, 29 Jul 2026 20:50:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "亞증시 반도체 투매 이틀째…코스피 연초 상승률 대만에 역전(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260729122651009",
-      "source": "연합뉴스 국제",
-      "ts": 1785311052000,
-      "pub": "Wed, 29 Jul 2026 16:44:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "광주군공항 부지 250만평 호남권 반도체 국가산단 후보지 지정",
-      "link": "https://www.yna.co.kr/view/AKR20260729152800003",
-      "source": "연합뉴스 경제",
-      "ts": 1785310637000,
-      "pub": "Wed, 29 Jul 2026 16:37:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'실적발표' 하이닉스, 9.6% 급락…장중 20% 가까이 폭락(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260729043552008",
-      "source": "연합뉴스 경제",
-      "ts": 1785310177000,
-      "pub": "Wed, 29 Jul 2026 16:29:37 +0900",
-      "sentiment": "negative"
     }
   ]
 }

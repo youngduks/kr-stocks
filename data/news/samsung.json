@@ -1,48 +1,8 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-30T04:45:29.859Z",
-  "count": 14,
+  "updated_at": "2026-07-30T07:25:39.198Z",
+  "count": 3,
   "items": [
-    {
-      "title": "삼성 스마트폰 첫 적자…메모리값 급등에 수익성 '뚝' (종합)",
-      "link": "https://www.mt.co.kr/tech/2026/07/30/2026073011295050352",
-      "source": "머니투데이",
-      "ts": 1785386221000,
-      "pub": "Thu, 30 Jul 2026 13:37:01 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "삼성전자 또 '돈방석' 예약…\"HBM4 매출 3배 뛴다\" [종합]",
-      "link": "https://www.hankyung.com/article/202607305375g",
-      "source": "한국경제",
-      "ts": 1785385629000,
-      "pub": "Thu, 30 Jul 2026 13:27:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 빅테크 5곳과 장기계약 완료…최소 5년간 캐파 70% 확보",
-      "link": "https://www.mt.co.kr/industry/2026/07/30/2026073011344483805",
-      "source": "머니투데이",
-      "ts": 1785380764000,
-      "pub": "Thu, 30 Jul 2026 12:06:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'파운드리도 부족' 삼성, 테일러 2공장 연말 착공…2030년 양산 목표",
-      "link": "https://www.mt.co.kr/industry/2026/07/30/2026073011384926125",
-      "source": "머니투데이",
-      "ts": 1785380446000,
-      "pub": "Thu, 30 Jul 2026 12:00:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"보이스피싱 그 놈, 목소리로 감별\" 삼성전자, 목소리 지문 탐지 '특례' 지정",
-      "link": "https://www.mt.co.kr/tech/2026/07/30/2026073009344779891",
-      "source": "머니투데이",
-      "ts": 1785380400000,
-      "pub": "Thu, 30 Jul 2026 12:00:00 +0900",
-      "sentiment": "neutral"
-    },
     {
       "title": "삼성전자, 장중 7%대 급등세…SK하이닉스도 3%대 상승 중(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260730048551008",
@@ -52,60 +12,12 @@
       "sentiment": "positive"
     },
     {
-      "title": "[속보] 삼성전자 \"미국 테일러 팹2 연말 착공 준비…2030년 양산목표\"",
-      "link": "https://www.hankyung.com/article/2026073052747",
-      "source": "한국경제",
-      "ts": 1785377161000,
-      "pub": "Thu, 30 Jul 2026 11:06:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "초고수의 선택…두산·삼성전기 사고 삼성전자 팔았다",
-      "link": "https://www.hankyung.com/article/202607305121i",
-      "source": "한국경제",
-      "ts": 1785376811000,
-      "pub": "Thu, 30 Jul 2026 11:00:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피, 삼성전자 컨콜 시작되자 '급반등'…'육천피' 보인다",
-      "link": "https://www.hankyung.com/article/2026073052056",
-      "source": "한국경제",
-      "ts": 1785376485000,
-      "pub": "Thu, 30 Jul 2026 10:54:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 코스피, 삼전닉스 강세 전환에 급반등…4∼5%대 상승",
-      "link": "https://www.hankyung.com/article/2026073052086",
-      "source": "한국경제",
-      "ts": 1785376289000,
-      "pub": "Thu, 30 Jul 2026 10:51:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] 코스피, 삼전닉스 강세 전환에 급반등…4∼5%대 상승",
       "link": "https://www.yna.co.kr/view/AKR20260730082600008",
       "source": "연합뉴스 경제",
       "ts": 1785375912000,
       "pub": "Thu, 30 Jul 2026 10:45:12 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 영업이익 89조 '역대급 실적'에…증권가 \"펀더멘털 견고\"",
-      "link": "https://www.hankyung.com/article/202607304977i",
-      "source": "한국경제",
-      "ts": 1785373520000,
-      "pub": "Thu, 30 Jul 2026 10:05:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스, 4~6%대 급락 중…삼성전자는 1.6% 상승",
-      "link": "https://www.yna.co.kr/view/AKR20260730048500008",
-      "source": "연합뉴스 경제",
-      "ts": 1785371278000,
-      "pub": "Thu, 30 Jul 2026 09:27:58 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "퀄컴, 칩 가격 두 자릿수 인상 나서…\"메모리발 부담 심각\"",

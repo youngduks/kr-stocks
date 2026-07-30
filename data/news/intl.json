@@ -1,30 +1,22 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-30T04:45:29.858Z",
-  "count": 28,
+  "updated_at": "2026-07-30T07:25:39.197Z",
+  "count": 23,
   "items": [
     {
-      "title": "워시 체제의 연준에 대한 반란…7월 FOMC 5가지 핵심 포인트",
-      "link": "https://www.mt.co.kr/world/2026/07/30/2026073010384081917",
-      "source": "머니투데이",
-      "ts": 1785377704000,
-      "pub": "Thu, 30 Jul 2026 11:15:04 +0900",
+      "title": "'반대 3표' 연준 의장…1979년 이후 최다 반대표",
+      "link": "https://www.yna.co.kr/view/AKR20260730135300009",
+      "source": "연합뉴스 국제",
+      "ts": 1785392933000,
+      "pub": "Thu, 30 Jul 2026 15:28:53 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "예상 밖 비둘기 워시…채권시장이 Fed에 보낸 '경고장' [심성미의 중앙은행 워치]",
-      "link": "https://www.hankyung.com/article/202607305106i",
-      "source": "한국경제",
-      "ts": 1785375965000,
-      "pub": "Thu, 30 Jul 2026 10:46:05 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "트럼프가 보낸 한국계 첫 女 주한 美대사…여권서 '극우' 반발",
-      "link": "https://www.hankyung.com/article/202607304919H",
-      "source": "한국경제",
-      "ts": 1785374393000,
-      "pub": "Thu, 30 Jul 2026 10:19:53 +0900",
+      "title": "뉴욕시 '세컨드하우스' 명단 공개에 \"공개 망신\" 반발…트럼프 딸도 있었다",
+      "link": "https://www.mt.co.kr/world/2026/07/30/2026073014091665385",
+      "source": "머니투데이",
+      "ts": 1785391460000,
+      "pub": "Thu, 30 Jul 2026 15:04:20 +0900",
       "sentiment": "neutral"
     },
     {
@@ -41,14 +33,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785371424000,
       "pub": "Thu, 30 Jul 2026 09:30:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한은 \"미 연준 통화정책·중동 불확실성 확대…각별한 경계감\"",
-      "link": "https://www.yna.co.kr/view/AKR20260730041200002",
-      "source": "연합뉴스 경제",
-      "ts": 1785370317000,
-      "pub": "Thu, 30 Jul 2026 09:11:57 +0900",
       "sentiment": "neutral"
     },
     {
@@ -70,7 +54,7 @@
     {
       "title": "美연준 '깜짝 인상' 없이 '매파적 동결'…시장은 인플레 우려(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260730007251072",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1785366560000,
       "pub": "Thu, 30 Jul 2026 08:09:20 +0900",
       "sentiment": "negative"
@@ -81,14 +65,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785364882000,
       "pub": "Thu, 30 Jul 2026 07:41:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 연준 매파적 동결…한은, 기준금리 인상 속도 내나",
-      "link": "https://www.yna.co.kr/view/AKR20260730017900002",
-      "source": "연합뉴스 경제",
-      "ts": 1785364408000,
-      "pub": "Thu, 30 Jul 2026 07:33:28 +0900",
       "sentiment": "neutral"
     },
     {
@@ -209,22 +185,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785342376000,
       "pub": "Thu, 30 Jul 2026 01:26:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 이란 기습공격에 \"두들겨 팰 것\"…대리세력 공격도 시사(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260729183051071",
-      "source": "연합뉴스 국제",
-      "ts": 1785332636000,
-      "pub": "Wed, 29 Jul 2026 22:43:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, FOMC 경계감·유가상승 여파에 하락 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260729185500009",
-      "source": "연합뉴스 국제",
-      "ts": 1785332474000,
-      "pub": "Wed, 29 Jul 2026 22:41:14 +0900",
       "sentiment": "neutral"
     }
   ]

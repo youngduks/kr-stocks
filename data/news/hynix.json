@@ -1,22 +1,14 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-30T15:00:27.237Z",
-  "count": 14,
+  "updated_at": "2026-07-30T17:13:14.572Z",
+  "count": 4,
   "items": [
     {
-      "title": "\"애플은 안전자산\"vs \"반도체 오르면 끝난다\"[박신영의 개장전 요것만]",
+      "title": "\"애플은 안전자산\" vs \"반도체 오르면 끝난다\" [박신영의 개장전 요것만]",
       "link": "https://www.hankyung.com/article/202607306705i",
       "source": "한국경제",
       "ts": 1785422647000,
       "pub": "Thu, 30 Jul 2026 23:44:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 마이크로소프트 실적·반도체 강세 힘입어 상승 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260730195200009",
-      "source": "연합뉴스 국제",
-      "ts": 1785422104000,
-      "pub": "Thu, 30 Jul 2026 23:35:04 +0900",
       "sentiment": "neutral"
     },
     {
@@ -25,14 +17,6 @@
       "source": "한국경제",
       "ts": 1785419358000,
       "pub": "Thu, 30 Jul 2026 22:49:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[고래사냥] 'SK하이닉스·삼성전자·아모레퍼시픽·금호타이어! 내일장 고래 종목은?!",
-      "link": "https://www.mt.co.kr/stock/2026/07/30/2026073021377096802",
-      "source": "머니투데이",
-      "ts": 1785416516000,
-      "pub": "Thu, 30 Jul 2026 22:01:56 +0900",
       "sentiment": "neutral"
     },
     {
@@ -49,70 +33,6 @@
       "source": "한국경제",
       "ts": 1785406353000,
       "pub": "Thu, 30 Jul 2026 19:12:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 \"메모리 물량 70% 장기계약…2028년까지 공급 부족\"",
-      "link": "https://www.hankyung.com/article/2026073064401",
-      "source": "한국경제",
-      "ts": 1785403223000,
-      "pub": "Thu, 30 Jul 2026 18:20:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8천억 출자",
-      "link": "https://www.yna.co.kr/view/AKR20260730169300003",
-      "source": "연합뉴스 경제",
-      "ts": 1785399590000,
-      "pub": "Thu, 30 Jul 2026 17:19:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'역대급 실적' 반도체 투매 계속…하닉 5%대 급락, 사흘간 27%↓(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260730048552008",
-      "source": "연합뉴스 경제",
-      "ts": 1785395364000,
-      "pub": "Thu, 30 Jul 2026 16:09:24 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "LH, 호남권 반도체 국가산단 조사설계용역 발주 절차 개시",
-      "link": "https://www.yna.co.kr/view/AKR20260730115200003",
-      "source": "연합뉴스 경제",
-      "ts": 1785387207000,
-      "pub": "Thu, 30 Jul 2026 13:53:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스 1주 하한가에 가상자산 파생상품 800억대 청산 쓰나미",
-      "link": "https://www.yna.co.kr/view/AKR20260730055300002",
-      "source": "연합뉴스 경제",
-      "ts": 1785379422000,
-      "pub": "Thu, 30 Jul 2026 11:43:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 장중 7%대 급등세…SK하이닉스도 3%대 상승 중(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260730048551008",
-      "source": "연합뉴스 경제",
-      "ts": 1785377223000,
-      "pub": "Thu, 30 Jul 2026 11:07:03 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "구마모토 강진발 반도체·자동차 공급망 불안 장기화 가능성",
-      "link": "https://www.yna.co.kr/view/AKR20260730082500073",
-      "source": "연합뉴스 국제",
-      "ts": 1785376670000,
-      "pub": "Thu, 30 Jul 2026 10:57:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'지하철 대신 반도체'…CXMT 성공 이끈 中허페이 시장은 복역 중",
-      "link": "https://www.yna.co.kr/view/AKR20260730078500083",
-      "source": "연합뉴스 국제",
-      "ts": 1785376583000,
-      "pub": "Thu, 30 Jul 2026 10:56:23 +0900",
       "sentiment": "neutral"
     }
   ]

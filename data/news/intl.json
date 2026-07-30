@@ -1,8 +1,80 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-29T23:52:00.809Z",
-  "count": 40,
+  "updated_at": "2026-07-30T01:17:27.377Z",
+  "count": 38,
   "items": [
+    {
+      "title": "정부 \"美연준 금리 동결에도 불확실성 남아\"…중동·유가 촉각",
+      "link": "https://www.mt.co.kr/economy/2026/07/30/2026073009544139836",
+      "source": "머니투데이",
+      "ts": 1785374057000,
+      "pub": "Thu, 30 Jul 2026 10:14:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한은 \"美연준 통화정책 불확실성 확대…각별한 경계감\"",
+      "link": "https://www.mt.co.kr/economy/2026/07/30/2026073009105254087",
+      "source": "머니투데이",
+      "ts": 1785374025000,
+      "pub": "Thu, 30 Jul 2026 10:13:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "김기현 \"李, 이스라엘 인권도 거론하더니…증시 폭락에 왜 조용한가\"",
+      "link": "https://www.mt.co.kr/politics/2026/07/30/2026073009570451447",
+      "source": "머니투데이",
+      "ts": 1785373828000,
+      "pub": "Thu, 30 Jul 2026 10:10:28 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "미 연준 금리 동결…원/달러 환율 장중 1,430원대로 하락",
+      "link": "https://www.yna.co.kr/view/AKR20260730061100002",
+      "source": "연합뉴스 경제",
+      "ts": 1785373787000,
+      "pub": "Thu, 30 Jul 2026 10:09:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이란 두들겨 팰 것\" 트럼프 분노...미군, 6일 만에 공격 재개",
+      "link": "https://www.mt.co.kr/world/2026/07/30/2026073009194847556",
+      "source": "머니투데이",
+      "ts": 1785373417000,
+      "pub": "Thu, 30 Jul 2026 10:03:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프 행정부, 차기 프랑스대사 아그레망 보류 내부 검토\"",
+      "link": "https://www.yna.co.kr/view/AKR20260730052500009",
+      "source": "연합뉴스 국제",
+      "ts": 1785371424000,
+      "pub": "Thu, 30 Jul 2026 09:30:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한은 \"미 연준 통화정책·중동 불확실성 확대…각별한 경계감\"",
+      "link": "https://www.yna.co.kr/view/AKR20260730041200002",
+      "source": "연합뉴스 경제",
+      "ts": 1785370317000,
+      "pub": "Thu, 30 Jul 2026 09:11:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란이 대담해졌다…트럼프·네타냐후 회동일에 '선제공격'",
+      "link": "https://www.yna.co.kr/view/AKR20260730039500009",
+      "source": "연합뉴스 국제",
+      "ts": 1785370250000,
+      "pub": "Thu, 30 Jul 2026 09:10:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"네타냐후, 경제 영향 걱정하는 트럼프에 '이란 압박' 주문\"",
+      "link": "https://www.yna.co.kr/view/AKR20260730040600009",
+      "source": "연합뉴스 국제",
+      "ts": 1785370040000,
+      "pub": "Thu, 30 Jul 2026 09:07:20 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美연준 '깜짝 인상' 없이 '매파적 동결'…시장은 인플레 우려(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260730007251072",
@@ -60,22 +132,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "Fed 금리 동결이 '물가 불안' 자극…美 주식·채권 동반 하락 [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026073044466",
-      "source": "한국경제",
-      "ts": 1785363509000,
-      "pub": "Thu, 30 Jul 2026 07:18:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "워시 감싼 트럼프 \"워시는 더 낮은 금리 보고 싶어해…정치적인 위원회가 금리 유지\" [Fed워치]",
-      "link": "https://www.hankyung.com/article/202607304397i",
-      "source": "한국경제",
-      "ts": 1785361367000,
-      "pub": "Thu, 30 Jul 2026 06:42:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "연준 금리동결에 시장 실망감…美주식·채권 동반 급락(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260730012351072",
       "source": "연합뉴스 경제",
@@ -84,28 +140,12 @@
       "sentiment": "negative"
     },
     {
-      "title": "트럼프, 이란 공격에 '강력 보복' 예고…\"이제 우리 차례\"",
-      "link": "https://www.hankyung.com/article/2026073043817",
-      "source": "한국경제",
-      "ts": 1785359572000,
-      "pub": "Thu, 30 Jul 2026 06:12:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, 이란 기습공격에 \"이제 우리 차례…두들겨 팰 것\"(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260729183052071",
       "source": "연합뉴스 국제",
       "ts": 1785357065000,
       "pub": "Thu, 30 Jul 2026 05:31:05 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "장기물 금리 급등에 주가도 하락…\"Fed가 싸움서 물러섰다\" [Fed 워치]",
-      "link": "https://www.hankyung.com/article/202607304344i",
-      "source": "한국경제",
-      "ts": 1785356698000,
-      "pub": "Thu, 30 Jul 2026 05:24:58 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "뉴욕증시, 연준 금리동결속 채권금리 상승에 하락…다우 2%↓",
@@ -132,14 +172,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "금리 동결한 워시…\"오늘 뉴스가 뭐냐\" 날선 질문에 '진땀' [Fed워치]",
-      "link": "https://www.hankyung.com/article/202607304326i",
-      "source": "한국경제",
-      "ts": 1785355065000,
-      "pub": "Thu, 30 Jul 2026 04:57:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] 미국채 30년물 금리, 연준 동결후 급등세…5.2% 돌파",
       "link": "https://www.yna.co.kr/view/AKR20260730011400072",
       "source": "연합뉴스 국제",
@@ -148,27 +180,11 @@
       "sentiment": "positive"
     },
     {
-      "title": "[질의응답] 워시 \"목표는 오직 2% 인플레 달성…시장 금리 상승이 긴축 효과\" [Fed워치]",
-      "link": "https://www.hankyung.com/article/202607304330i",
-      "source": "한국경제",
-      "ts": 1785354876000,
-      "pub": "Thu, 30 Jul 2026 04:54:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美연준 '깜짝 금리인상' 없었지만 '매파적 동결'…인상의견 3명",
       "link": "https://www.yna.co.kr/view/AKR20260730007200072",
       "source": "연합뉴스 경제",
       "ts": 1785351973000,
       "pub": "Thu, 30 Jul 2026 04:06:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 '금리 인하' 압박 안 통했다…워시 \"인플레 지속\" 강조 [Fed워치]",
-      "link": "https://www.hankyung.com/article/202607304320i",
-      "source": "한국경제",
-      "ts": 1785351223000,
-      "pub": "Thu, 30 Jul 2026 03:53:43 +0900",
       "sentiment": "neutral"
     },
     {
@@ -188,27 +204,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "Fed, 美 기준금리 5연속 동결…위원 3명은 '인상' 주장 [Fed 워치]",
-      "link": "https://www.hankyung.com/article/202607294141i",
-      "source": "한국경제",
-      "ts": 1785348961000,
-      "pub": "Thu, 30 Jul 2026 03:16:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] 美연준 \"9대3 표결로 동결…경제활동 견조하게 확대\"",
       "link": "https://www.yna.co.kr/view/AKR20260730005000071",
       "source": "연합뉴스 국제",
       "ts": 1785348392000,
       "pub": "Thu, 30 Jul 2026 03:06:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] Fed, 美 기준금리 연 3.5~3.75%로 동결 [Fed 워치]",
-      "link": "https://www.hankyung.com/article/202607294140i",
-      "source": "한국경제",
-      "ts": 1785348134000,
-      "pub": "Thu, 30 Jul 2026 03:02:14 +0900",
       "sentiment": "neutral"
     },
     {
@@ -241,14 +241,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785342376000,
       "pub": "Thu, 30 Jul 2026 01:26:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "외환 전문가들 \"Fed 금리 동결시 달러값 하락 압력 커질 것\"",
-      "link": "https://www.hankyung.com/article/202607304284i",
-      "source": "한국경제",
-      "ts": 1785339973000,
-      "pub": "Thu, 30 Jul 2026 00:46:13 +0900",
       "sentiment": "neutral"
     },
     {
@@ -313,14 +305,6 @@
       "source": "연합뉴스 경제",
       "ts": 1785308401000,
       "pub": "Wed, 29 Jul 2026 16:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"우크라 카스피해 선박공격에 이란 '미사일 보복' 한때 검토\"",
-      "link": "https://www.yna.co.kr/view/AKR20260729132200009",
-      "source": "연합뉴스 국제",
-      "ts": 1785306739000,
-      "pub": "Wed, 29 Jul 2026 15:32:19 +0900",
       "sentiment": "neutral"
     }
   ]

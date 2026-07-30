@@ -1,8 +1,136 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-29T23:52:00.810Z",
-  "count": 4,
+  "updated_at": "2026-07-30T01:17:27.378Z",
+  "count": 19,
   "items": [
+    {
+      "title": "[컨콜]삼성전자, 2분기 보통주 1주당 374원 배당 결정",
+      "link": "https://www.mt.co.kr/industry/2026/07/30/2026073010130537869",
+      "source": "머니투데이",
+      "ts": 1785374075000,
+      "pub": "Thu, 30 Jul 2026 10:14:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 2Q 영업익 89.5조 '신기록'…DX는 사상 첫 '적자'",
+      "link": "https://www.mt.co.kr/industry/2026/07/30/2026073008363820079",
+      "source": "머니투데이",
+      "ts": 1785371725000,
+      "pub": "Thu, 30 Jul 2026 09:35:25 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "갤럭시S26 잘 팔고도...'메모리 쇼크'에 삼성 스마트폰 부문 첫 적자",
+      "link": "https://www.mt.co.kr/tech/2026/07/30/2026073009161179489",
+      "source": "머니투데이",
+      "ts": 1785371609000,
+      "pub": "Thu, 30 Jul 2026 09:33:29 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "SK하이닉스, 4~6%대 급락 중…삼성전자는 1.6% 상승",
+      "link": "https://www.yna.co.kr/view/AKR20260730048500008",
+      "source": "연합뉴스 경제",
+      "ts": 1785371278000,
+      "pub": "Thu, 30 Jul 2026 09:27:58 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "삼성전자, 1년 만에 '1800% 잭팟'…반도체로 89조 벌었다",
+      "link": "https://www.hankyung.com/article/202607304729g",
+      "source": "한국경제",
+      "ts": 1785370260000,
+      "pub": "Thu, 30 Jul 2026 09:11:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 2분기 반도체서만 89.2조 벌었다…신기록 행진 계속",
+      "link": "https://www.mt.co.kr/industry/2026/07/30/2026073008083367147",
+      "source": "머니투데이",
+      "ts": 1785369990000,
+      "pub": "Thu, 30 Jul 2026 09:06:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 삼성전자 스마트폰 부문, '메모리 쇼크'에 2분기 적자 전환",
+      "link": "https://www.mt.co.kr/tech/2026/07/30/2026073007583543434",
+      "source": "머니투데이",
+      "ts": 1785369627000,
+      "pub": "Thu, 30 Jul 2026 09:00:27 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"삼성물산, 삼전 주가하락 반영해 목표가 45만원으로 하향\"-SK",
+      "link": "https://www.mt.co.kr/stock/2026/07/30/2026073008281938727",
+      "source": "머니투데이",
+      "ts": 1785369331000,
+      "pub": "Thu, 30 Jul 2026 08:55:31 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[속보] 삼성전자 2분기 매출 171.5조원…역대 분기 최대",
+      "link": "https://www.hankyung.com/article/202607304681g",
+      "source": "한국경제",
+      "ts": 1785369155000,
+      "pub": "Thu, 30 Jul 2026 08:52:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 삼성전자, 2분기 반도체 부문 영업이익 89.2조원",
+      "link": "https://www.hankyung.com/article/202607304675g",
+      "source": "한국경제",
+      "ts": 1785369099000,
+      "pub": "Thu, 30 Jul 2026 08:51:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]삼성전자, 2분기 반도체부문 매출 127.5조, 영업이익 89.2조",
+      "link": "https://www.mt.co.kr/industry/2026/07/30/2026073008300761321",
+      "source": "머니투데이",
+      "ts": 1785368991000,
+      "pub": "Thu, 30 Jul 2026 08:49:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 삼성전자, 2분기 영업익 89.4조 …전년比 1813.8% 증가",
+      "link": "https://www.hankyung.com/article/202607304534i",
+      "source": "한국경제",
+      "ts": 1785368974000,
+      "pub": "Thu, 30 Jul 2026 08:49:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]삼성전자, 2분기 매출 171.5조-영업이익 89.5조원",
+      "link": "https://www.mt.co.kr/industry/2026/07/30/2026073008304840319",
+      "source": "머니투데이",
+      "ts": 1785368927000,
+      "pub": "Thu, 30 Jul 2026 08:48:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 삼성전자, 2분기 영업익 1813% '폭증'…89조원 달성",
+      "link": "https://www.hankyung.com/article/202607304486g",
+      "source": "한국경제",
+      "ts": 1785368916000,
+      "pub": "Thu, 30 Jul 2026 08:48:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "폭락장서 초고수의 선택은...삼성전자·인버스 담고 SK하이닉스 팔았다",
+      "link": "https://www.hankyung.com/article/202607304547i",
+      "source": "한국경제",
+      "ts": 1785368587000,
+      "pub": "Thu, 30 Jul 2026 08:43:07 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"삼전닉스 아직 끝나지 않았다…내년 상반기까지 신고가 재시도 가능\"",
+      "link": "https://www.hankyung.com/article/2026073045986",
+      "source": "한국경제",
+      "ts": 1785368108000,
+      "pub": "Thu, 30 Jul 2026 08:35:08 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "메모리 품귀에 주가도 '털썩'…경고음 울린 퀄컴, 무슨 일?",
       "link": "https://www.hankyung.com/article/202607304544g",
@@ -17,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785363383000,
       "pub": "Thu, 30 Jul 2026 07:16:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼전닉스 충분히 조정받아…올해 들어 첫 매수구간 진입\"",
-      "link": "https://www.hankyung.com/article/2026072938691",
-      "source": "한국경제",
-      "ts": 1785358806000,
-      "pub": "Thu, 30 Jul 2026 06:00:06 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-30T19:06:34.077Z",
-  "count": 7,
+  "updated_at": "2026-07-30T20:53:29.157Z",
+  "count": 6,
   "items": [
+    {
+      "title": "반도체 생태계 'AI 서열'… '지배자' 버티고 '공급자'는 휘청",
+      "link": "https://www.mt.co.kr/world/2026/07/31/2026073019550455947",
+      "source": "머니투데이",
+      "ts": 1785438180000,
+      "pub": "Fri, 31 Jul 2026 04:03:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"애플은 안전자산\" vs \"반도체 오르면 끝난다\" [박신영의 개장전 요것만]",
       "link": "https://www.hankyung.com/article/202607306705i",
@@ -12,19 +20,19 @@
       "sentiment": "neutral"
     },
     {
-      "title": "뉴욕증시, 마이크로소프트 실적·반도체 강세 힘입어 상승 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260730195200009",
-      "source": "연합뉴스 국제",
-      "ts": 1785422104000,
-      "pub": "Thu, 30 Jul 2026 23:35:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "최태원, 하이닉스 주식 48억 매수",
       "link": "https://www.hankyung.com/article/2026073066871",
       "source": "한국경제",
       "ts": 1785419358000,
       "pub": "Thu, 30 Jul 2026 22:49:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[고래사냥] 'SK하이닉스·삼성전자·아모레퍼시픽·금호타이어! 내일장 고래 종목은?!",
+      "link": "https://www.mt.co.kr/stock/2026/07/30/2026073021377096802",
+      "source": "머니투데이",
+      "ts": 1785416516000,
+      "pub": "Thu, 30 Jul 2026 22:01:56 +0900",
       "sentiment": "neutral"
     },
     {
@@ -41,22 +49,6 @@
       "source": "한국경제",
       "ts": 1785406353000,
       "pub": "Thu, 30 Jul 2026 19:12:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "구마모토 강진발 반도체·자동차 공급망 불안 장기화 가능성",
-      "link": "https://www.yna.co.kr/view/AKR20260730082500073",
-      "source": "연합뉴스 국제",
-      "ts": 1785376670000,
-      "pub": "Thu, 30 Jul 2026 10:57:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'지하철 대신 반도체'…CXMT 성공 이끈 中허페이 시장은 복역 중",
-      "link": "https://www.yna.co.kr/view/AKR20260730078500083",
-      "source": "연합뉴스 국제",
-      "ts": 1785376583000,
-      "pub": "Thu, 30 Jul 2026 10:56:23 +0900",
       "sentiment": "neutral"
     }
   ]

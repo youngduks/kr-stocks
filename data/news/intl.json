@@ -1,30 +1,46 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-30T07:25:39.197Z",
-  "count": 23,
+  "updated_at": "2026-07-30T10:10:14.294Z",
+  "count": 14,
   "items": [
+    {
+      "title": "\"접종 횟수 줄여라\"…트럼프는 어쩌다 백신 불신론자 됐나",
+      "link": "https://www.hankyung.com/article/2026073064691",
+      "source": "한국경제",
+      "ts": 1785403982000,
+      "pub": "Thu, 30 Jul 2026 18:33:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미셸 스틸 \"트럼프 대통령 비전 대로 韓美동맹 더 강력해질 것\"",
+      "link": "https://www.hankyung.com/article/2026073064821",
+      "source": "한국경제",
+      "ts": 1785403585000,
+      "pub": "Thu, 30 Jul 2026 18:26:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "스틸 美대사 \"트럼프 대통령의 더 강력한 한미동맹 비전 실현\"",
+      "link": "https://www.yna.co.kr/view/AKR20260730160700504",
+      "source": "연합뉴스 국제",
+      "ts": 1785397601000,
+      "pub": "Thu, 30 Jul 2026 16:46:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 러 대형 물류창고 연쇄 타격…유통망 교란하는 우크라 속내는?",
+      "link": "https://www.yna.co.kr/view/AKR20260730153100704",
+      "source": "연합뉴스 국제",
+      "ts": 1785396739000,
+      "pub": "Thu, 30 Jul 2026 16:32:19 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'반대 3표' 연준 의장…1979년 이후 최다 반대표",
       "link": "https://www.yna.co.kr/view/AKR20260730135300009",
       "source": "연합뉴스 국제",
       "ts": 1785392933000,
       "pub": "Thu, 30 Jul 2026 15:28:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕시 '세컨드하우스' 명단 공개에 \"공개 망신\" 반발…트럼프 딸도 있었다",
-      "link": "https://www.mt.co.kr/world/2026/07/30/2026073014091665385",
-      "source": "머니투데이",
-      "ts": 1785391460000,
-      "pub": "Thu, 30 Jul 2026 15:04:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미 연준 금리 동결…원/달러 환율 장중 1,430원대로 하락",
-      "link": "https://www.yna.co.kr/view/AKR20260730061100002",
-      "source": "연합뉴스 경제",
-      "ts": 1785373787000,
-      "pub": "Thu, 30 Jul 2026 10:09:47 +0900",
       "sentiment": "neutral"
     },
     {
@@ -97,94 +113,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785355984000,
       "pub": "Thu, 30 Jul 2026 05:13:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美금리 3.50∼3.75% 5연속 동결…연준 의장 \"인플레 2% 목표\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260730003852071",
-      "source": "연합뉴스 국제",
-      "ts": 1785355520000,
-      "pub": "Thu, 30 Jul 2026 05:05:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "국제금값, 美연준 금리동결에 '안도'…금리 결정후 1%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260730010800072",
-      "source": "연합뉴스 국제",
-      "ts": 1785355076000,
-      "pub": "Thu, 30 Jul 2026 04:57:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 미국채 30년물 금리, 연준 동결후 급등세…5.2% 돌파",
-      "link": "https://www.yna.co.kr/view/AKR20260730011400072",
-      "source": "연합뉴스 국제",
-      "ts": 1785354913000,
-      "pub": "Thu, 30 Jul 2026 04:55:13 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "美연준 '깜짝 금리인상' 없었지만 '매파적 동결'…인상의견 3명",
-      "link": "https://www.yna.co.kr/view/AKR20260730007200072",
-      "source": "연합뉴스 국제",
-      "ts": 1785351973000,
-      "pub": "Thu, 30 Jul 2026 04:06:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 연준 워시 \"동료들 간 많은 상호작용…진짜 집안싸움이었다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260730008300072",
-      "source": "연합뉴스 국제",
-      "ts": 1785351112000,
-      "pub": "Thu, 30 Jul 2026 03:51:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 연준 워시 \"미 경제, 최근 충격에도 인상적인 회복력 보여줘\"",
-      "link": "https://www.yna.co.kr/view/AKR20260730008000072",
-      "source": "연합뉴스 국제",
-      "ts": 1785351079000,
-      "pub": "Thu, 30 Jul 2026 03:51:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 美연준 \"9대3 표결로 동결…경제활동 견조하게 확대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260730005000071",
-      "source": "연합뉴스 국제",
-      "ts": 1785348392000,
-      "pub": "Thu, 30 Jul 2026 03:06:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[2보] 美연준, 5연속 금리 동결…한미 금리차 1.00%P",
-      "link": "https://www.yna.co.kr/view/AKR20260730003800071",
-      "source": "연합뉴스 국제",
-      "ts": 1785348120000,
-      "pub": "Thu, 30 Jul 2026 03:02:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[1보] 美연준, 5연속 금리 동결…3.50∼3.75% 유지",
-      "link": "https://www.yna.co.kr/view/AKR20260730003600071",
-      "source": "연합뉴스 국제",
-      "ts": 1785348060000,
-      "pub": "Thu, 30 Jul 2026 03:01:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘군 참모총장 \"전쟁 안 끝나…필요시 레바논 더 깊숙이\"",
-      "link": "https://www.yna.co.kr/view/AKR20260730003300079",
-      "source": "연합뉴스 국제",
-      "ts": 1785346216000,
-      "pub": "Thu, 30 Jul 2026 02:30:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "민주사회주의 약진에 美민주 딜레마…트럼프, '적색공포' 선거전",
-      "link": "https://www.yna.co.kr/view/AKR20260730001500071",
-      "source": "연합뉴스 국제",
-      "ts": 1785342376000,
-      "pub": "Thu, 30 Jul 2026 01:26:16 +0900",
       "sentiment": "neutral"
     }
   ]

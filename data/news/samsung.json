@@ -1,8 +1,72 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-30T07:25:39.198Z",
-  "count": 3,
+  "updated_at": "2026-07-30T10:10:14.295Z",
+  "count": 11,
   "items": [
+    {
+      "title": "美 의원들, 애플에 \"중국 메모리 사용 말라\" 서한",
+      "link": "https://www.mt.co.kr/world/2026/07/30/2026073018270694520",
+      "source": "머니투데이",
+      "ts": 1785404524000,
+      "pub": "Thu, 30 Jul 2026 18:42:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 \"메모리 물량 70% 장기계약…2028년까지 공급 부족\"",
+      "link": "https://www.hankyung.com/article/2026073064401",
+      "source": "한국경제",
+      "ts": 1785403223000,
+      "pub": "Thu, 30 Jul 2026 18:20:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"공포 달랜 모범답안\"…삼전 실적발표, 증시 반등 발판되나",
+      "link": "https://www.hankyung.com/article/2026073064411",
+      "source": "한국경제",
+      "ts": 1785403117000,
+      "pub": "Thu, 30 Jul 2026 18:18:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 레버리지 결국 ELW 전철 밟나",
+      "link": "https://www.hankyung.com/article/2026073064011",
+      "source": "한국경제",
+      "ts": 1785403015000,
+      "pub": "Thu, 30 Jul 2026 18:16:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 영업익 89.5조…반도체가 89.2조 벌었다",
+      "link": "https://www.hankyung.com/article/2026073064461",
+      "source": "한국경제",
+      "ts": 1785401593000,
+      "pub": "Thu, 30 Jul 2026 17:53:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "블록레이블, 갤럭시탭에 삼성 Knox 기반 'MORIPE' 탑재 B2B 공급 계약",
+      "link": "https://www.mt.co.kr/industry/2026/07/30/2026073014492892478",
+      "source": "머니투데이",
+      "ts": 1785400415000,
+      "pub": "Thu, 30 Jul 2026 17:33:35 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "현금 168조 쌓은 삼성전자…메모리가 이끌고, 파운드리 살아난다",
+      "link": "https://www.mt.co.kr/industry/2026/07/30/2026073015082740842",
+      "source": "머니투데이",
+      "ts": 1785400200000,
+      "pub": "Thu, 30 Jul 2026 17:30:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8천억 출자",
+      "link": "https://www.yna.co.kr/view/AKR20260730169300003",
+      "source": "연합뉴스 경제",
+      "ts": 1785399590000,
+      "pub": "Thu, 30 Jul 2026 17:19:50 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성전자, 장중 7%대 급등세…SK하이닉스도 3%대 상승 중(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260730048551008",

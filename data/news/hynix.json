@@ -1,8 +1,64 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-30T07:25:39.199Z",
-  "count": 11,
+  "updated_at": "2026-07-30T10:10:14.295Z",
+  "count": 14,
   "items": [
+    {
+      "title": "美 의원들, 애플에 \"중국 메모리 사용 말라\" 서한",
+      "link": "https://www.mt.co.kr/world/2026/07/30/2026073018270694520",
+      "source": "머니투데이",
+      "ts": 1785404524000,
+      "pub": "Thu, 30 Jul 2026 18:42:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 \"메모리 물량 70% 장기계약…2028년까지 공급 부족\"",
+      "link": "https://www.hankyung.com/article/2026073064401",
+      "source": "한국경제",
+      "ts": 1785403223000,
+      "pub": "Thu, 30 Jul 2026 18:20:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 영업익 89.5조…반도체가 89.2조 벌었다",
+      "link": "https://www.hankyung.com/article/2026073064461",
+      "source": "한국경제",
+      "ts": 1785401593000,
+      "pub": "Thu, 30 Jul 2026 17:53:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현금 168조 쌓은 삼성전자…메모리가 이끌고, 파운드리 살아난다",
+      "link": "https://www.mt.co.kr/industry/2026/07/30/2026073015082740842",
+      "source": "머니투데이",
+      "ts": 1785400200000,
+      "pub": "Thu, 30 Jul 2026 17:30:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8천억 출자",
+      "link": "https://www.yna.co.kr/view/AKR20260730169300003",
+      "source": "연합뉴스 경제",
+      "ts": 1785399590000,
+      "pub": "Thu, 30 Jul 2026 17:19:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "어제는 5.9조, 오늘은 5조...불개미 몰린 SK하이닉스 곱버스",
+      "link": "https://www.mt.co.kr/stock/2026/07/30/2026073014183374855",
+      "source": "머니투데이",
+      "ts": 1785399340000,
+      "pub": "Thu, 30 Jul 2026 17:15:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "LH, 호남권 반도체 국가산단 설계용역 착수… 입찰 기간 절반으로 단축",
+      "link": "https://www.mt.co.kr/estate/2026/07/30/2026073016011073007",
+      "source": "머니투데이",
+      "ts": 1785398794000,
+      "pub": "Thu, 30 Jul 2026 17:06:34 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'역대급 실적' 반도체 투매 계속…하닉 5%대 급락, 사흘간 27%↓(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260730048552008",
@@ -10,30 +66,6 @@
       "ts": 1785395364000,
       "pub": "Thu, 30 Jul 2026 16:09:24 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "10년새 두 차례 강진…구마모토 반도체 리스크 재부각 [도쿄나우]",
-      "link": "https://www.hankyung.com/article/202607305689i",
-      "source": "한국경제",
-      "ts": 1785391657000,
-      "pub": "Thu, 30 Jul 2026 15:07:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "K반도체, 매일 1.6조 벌었다...\"없어서 못 사\" 줄 선 빅테크, 전망도 밝다",
-      "link": "https://www.mt.co.kr/industry/2026/07/30/2026073014353231534",
-      "source": "머니투데이",
-      "ts": 1785391224000,
-      "pub": "Thu, 30 Jul 2026 15:00:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "LH, 호남 반도체 산단 속도전…\"설계용역 절반으로 단축\"",
-      "link": "https://www.hankyung.com/article/202607305743i",
-      "source": "한국경제",
-      "ts": 1785389123000,
-      "pub": "Thu, 30 Jul 2026 14:25:23 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "LH, 호남권 반도체 국가산단 조사설계용역 발주 절차 개시",
@@ -73,14 +105,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785376583000,
       "pub": "Thu, 30 Jul 2026 10:56:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "광주권 서구·광산구 아파트 가격 상승 주목…'반도체 영향'",
-      "link": "https://www.yna.co.kr/view/AKR20260730072300054",
-      "source": "연합뉴스 경제",
-      "ts": 1785374782000,
-      "pub": "Thu, 30 Jul 2026 10:26:22 +0900",
       "sentiment": "neutral"
     },
     {

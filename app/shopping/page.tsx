@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { fetchAllPrices } from "@/lib/fetchPrices";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { ShoppingList, type DealView } from "./ShoppingList";
 
 // 백엔드(jubjub_shop_fetcher.py, launchd 2분 주기)가 아르카라이브에서 쿠팡 스토어
 // 딜만 골라 deals.json으로 발행 → jubjub-shop.vercel.app에 정적 배포(30분 주기, 변경 시만).
@@ -29,8 +30,6 @@ type Deal = {
   affiliate_url?: string;
   chips?: string[];
 };
-
-const NOTIFY_SCORE_MIN = 4;
 
 async function fetchDeals(): Promise<Deal[]> {
   try {
@@ -67,9 +66,35 @@ function timeAgo(ts: number): string {
   return `${Math.floor(diffH / 24)}일 전`;
 }
 
+// 백엔드 cat(육아용품/식품/전자·IT/가전·컴퓨터 등)을 형님 지시 5개 탭으로 매핑.
+// 매칭 안 되는 건(전달딜 '핫딜' 등 포함) 전부 '기타'.
+function catGroup(cat: string): string {
+  if (cat === "가전·컴퓨터") return "가전";
+  if (cat === "육아용품") return "육아";
+  if (cat === "식품") return "식품";
+  if (cat === "전자·IT") return "전자제품";
+  return "기타";
+}
+
 export default async function ShoppingPage() {
   const [data, deals] = await Promise.all([fetchAllPrices(), fetchDeals()]);
-  const sorted = [...deals].sort((a, b) => (b.score ?? 0) - (a.score ?? 0) || b.ts - a.ts);
+  const views: DealView[] = [...deals]
+    .sort((a, b) => (b.score ?? 0) - (a.score ?? 0) || b.ts - a.ts)
+    .map((d) => ({
+      id: d.id,
+      title: d.title,
+      product: d.product,
+      store: d.store,
+      price: d.price,
+      shipping: d.shipping,
+      link: d.link,
+      score: d.score,
+      market_price: d.market_price,
+      discount_pct: d.discount_pct,
+      affiliate_url: d.affiliate_url,
+      timeAgoStr: timeAgo(d.ts),
+      catGroup: catGroup(d.cat),
+    }));
 
   return (
     <>
@@ -89,63 +114,12 @@ export default async function ShoppingPage() {
             </p>
           </header>
 
-          {sorted.length === 0 ? (
+          {views.length === 0 ? (
             <div className="p-8 rounded-xl bg-bg-card border border-line text-center text-text-dim text-sm">
               아직 수집된 딜이 없어요. 잠시 후 다시 열어주세요.
             </div>
           ) : (
-            <div className="space-y-3">
-              {sorted.map((d) => {
-                const isHot = (d.score ?? 0) >= NOTIFY_SCORE_MIN;
-                return (
-                  <div key={d.id} className="rounded-xl border border-line bg-bg-card overflow-hidden">
-                    <a
-                      href={d.link}
-                      target="_blank"
-                      rel="noopener"
-                      className="block p-4 hover:bg-white/[0.02] transition-colors"
-                    >
-                      <div className="flex flex-wrap items-center gap-2 mb-2">
-                        {isHot && (
-                          <span className="text-[11px] font-bold text-red-400 bg-red-950/40 px-2 py-0.5 rounded-full animate-pulse">
-                            🚨 가격오류의심 {d.score}
-                          </span>
-                        )}
-                        {d.discount_pct != null && (
-                          <span className="text-[11px] font-bold text-bg bg-accent-amber px-2 py-0.5 rounded-full ml-auto">
-                            ▼{d.discount_pct}%
-                          </span>
-                        )}
-                      </div>
-                      <div className="text-sm font-semibold text-text leading-snug">{d.product || d.title}</div>
-                      <div className="mt-2 flex flex-wrap items-center gap-2 text-xs">
-                        <span className="text-text-dim">{d.store}</span>
-                        {d.price && <span className="text-accent-amber font-bold">{d.price}</span>}
-                        {d.shipping && (
-                          <span className="text-text-dim bg-bg px-1.5 py-0.5 rounded">{d.shipping}</span>
-                        )}
-                        <span className="ml-auto text-text-dim">{timeAgo(d.ts)}</span>
-                      </div>
-                      {d.market_price && d.discount_pct != null && (
-                        <div className="mt-2 text-xs text-text-dim">
-                          시세 {d.market_price} → <span className="text-accent-amber font-bold">딜가 {d.price} ({d.discount_pct}%↓)</span>
-                        </div>
-                      )}
-                    </a>
-                    {d.affiliate_url && (
-                      <a
-                        href={`/shopping/go?url=${encodeURIComponent(d.affiliate_url)}`}
-                        target="_blank"
-                        rel="noopener sponsored"
-                        className="block text-center py-2.5 text-sm font-bold text-white bg-orange-500 hover:bg-orange-400 transition-colors"
-                      >
-                        💰 이 가격에 구매하기
-                      </a>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
+            <ShoppingList deals={views} />
           )}
 
           <p className="text-[10px] text-text-dim mt-6 leading-relaxed">

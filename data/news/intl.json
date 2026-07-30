@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-30T21:57:27.789Z",
-  "count": 19,
+  "updated_at": "2026-07-30T22:59:29.876Z",
+  "count": 21,
   "items": [
+    {
+      "title": "[속보] 트럼프 \"평화위원회, 하마스 등 완전한 무장해제 합의\"",
+      "link": "https://www.hankyung.com/article/2026073168707",
+      "source": "한국경제",
+      "ts": 1785450751000,
+      "pub": "Fri, 31 Jul 2026 07:32:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"평화위원회, 하마스 등 완전한 무장해제 합의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260731020200071",
+      "source": "연합뉴스 국제",
+      "ts": 1785450540000,
+      "pub": "Fri, 31 Jul 2026 07:29:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, '폐배터리 등 수출금지' 지시…中 핵심광물 패권 견제",
       "link": "https://www.yna.co.kr/view/AKR20260731012100071",

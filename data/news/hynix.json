@@ -1,15 +1,47 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-30T21:57:27.791Z",
-  "count": 8,
+  "updated_at": "2026-07-30T22:59:29.877Z",
+  "count": 11,
   "items": [
     {
-      "title": "하나둘 기술 빼가더니…삼전닉스 파랗게 질리게 한 '中반도체 회사'",
-      "link": "https://www.hankyung.com/article/202607305245g",
+      "title": "애플, 4∼6월 분기 최대 매출…반도체 가격 급등에도 마진율↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260731009051091",
+      "source": "연합뉴스 국제",
+      "ts": 1785450771000,
+      "pub": "Fri, 31 Jul 2026 07:32:51 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "반도체주 반등에 일제 상승…나스닥 2.8%↑ [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026073168466",
       "source": "한국경제",
-      "ts": 1785445209000,
-      "pub": "Fri, 31 Jul 2026 06:00:09 +0900",
+      "ts": 1785449554000,
+      "pub": "Fri, 31 Jul 2026 07:12:34 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "美 반도체주 폭등…반도체지수 1년3개월만 최대 상승",
+      "link": "https://www.yna.co.kr/view/AKR20260731015500009",
+      "source": "연합뉴스 국제",
+      "ts": 1785449550000,
+      "pub": "Fri, 31 Jul 2026 07:12:30 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"TSMC 때문에 실적 부진\"…애플 컨콜 등판한 팀 쿡의 탄식",
+      "link": "https://www.hankyung.com/article/202607316822i",
+      "source": "한국경제",
+      "ts": 1785449478000,
+      "pub": "Fri, 31 Jul 2026 07:11:18 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"땡큐 엔비디아\" 네이버 급등하더니…하루 만에 '비명' [종목+]",
+      "link": "https://www.hankyung.com/article/2026073061356",
+      "source": "한국경제",
+      "ts": 1785447001000,
+      "pub": "Fri, 31 Jul 2026 06:30:01 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "뉴욕증시, 반도체주 반등에 강세 마감…하이닉스ADR 18%↑(종합)",
@@ -57,14 +89,6 @@
       "source": "한국경제",
       "ts": 1785408339000,
       "pub": "Thu, 30 Jul 2026 19:45:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 우상향 자신한 최태원…48억원어치 첫 장내 매수",
-      "link": "https://www.hankyung.com/article/2026073065747",
-      "source": "한국경제",
-      "ts": 1785406353000,
-      "pub": "Thu, 30 Jul 2026 19:12:33 +0900",
       "sentiment": "neutral"
     }
   ]

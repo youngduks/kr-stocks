@@ -1,15 +1,31 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-31T04:15:17.366Z",
-  "count": 1,
+  "updated_at": "2026-07-31T07:43:43.341Z",
+  "count": 3,
   "items": [
     {
-      "title": "역사적 급등장서 '초고수 픽'은 SK하이닉스…삼성전자는 외면 왜",
-      "link": "https://www.hankyung.com/article/202607317481i",
+      "title": "SK하이닉스, 17년 만에 상한가 '쾅'…삼성전자도 26% '폭등' [종합]",
+      "link": "https://www.hankyung.com/article/2026073181716",
       "source": "한국경제",
-      "ts": 1785461425000,
-      "pub": "Fri, 31 Jul 2026 10:30:25 +0900",
+      "ts": 1785480404000,
+      "pub": "Fri, 31 Jul 2026 15:46:44 +0900",
       "sentiment": "positive"
+    },
+    {
+      "title": "아마존, 분기매출 2천억불 첫 돌파…메모리급등에 자본지출 상향(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260731008152091",
+      "source": "연합뉴스 국제",
+      "ts": 1785464325000,
+      "pub": "Fri, 31 Jul 2026 11:18:45 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "UBS \"메모리 수요, 내년 더 세진다\"…HBM시장 1위 교체 전망도",
+      "link": "https://www.yna.co.kr/view/AKR20260731025800009",
+      "source": "연합뉴스 국제",
+      "ts": 1785453586000,
+      "pub": "Fri, 31 Jul 2026 08:19:46 +0900",
+      "sentiment": "neutral"
     }
   ]
 }

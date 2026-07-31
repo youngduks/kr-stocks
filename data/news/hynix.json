@@ -1,46 +1,150 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-31T04:15:17.366Z",
-  "count": 5,
+  "updated_at": "2026-07-31T07:43:43.341Z",
+  "count": 18,
   "items": [
     {
-      "title": "[뉴스프레소] 뉴욕증시, 반도체주 랠리에 급반등… '레오폴드 사태'",
-      "link": "https://www.mt.co.kr/world/2026/07/31/2026073111567022392",
+      "title": "코스피 5500→6500, SK하이닉스 '상한가'...진기록 쏟아진 증시",
+      "link": "https://www.mt.co.kr/stock/2026/07/31/2026073116111478041",
       "source": "머니투데이",
-      "ts": 1785467273000,
-      "pub": "Fri, 31 Jul 2026 12:07:53 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\"적자 나면 깎는다고?\"…SK하이닉스 노조, 사측 제안에 최후통첩",
-      "link": "https://www.mt.co.kr/industry/2026/07/31/2026073111140537565",
-      "source": "머니투데이",
-      "ts": 1785465132000,
-      "pub": "Fri, 31 Jul 2026 11:32:12 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "역사적 급등장서 '초고수 픽'은 SK하이닉스…삼성전자는 외면 왜",
-      "link": "https://www.hankyung.com/article/202607317481i",
-      "source": "한국경제",
-      "ts": 1785461425000,
-      "pub": "Fri, 31 Jul 2026 10:30:25 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "딱 1억원 모자란 49억원…최태원, SK하이닉스 3620주만 산 이유",
-      "link": "https://www.mt.co.kr/industry/2026/07/31/2026073109305299300",
-      "source": "머니투데이",
-      "ts": 1785460512000,
-      "pub": "Fri, 31 Jul 2026 10:15:12 +0900",
+      "ts": 1785482108000,
+      "pub": "Fri, 31 Jul 2026 16:15:08 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[단독] \"속옷 팔아서라도 하이닉스\"…주식 유튜버 찌른 20대 구속 송치",
-      "link": "https://www.hankyung.com/article/202607317361i",
+      "title": "\"TSMC 구마모토공장 일주일 멈추면 3분기 매출 0.03% 손실\"",
+      "link": "https://www.yna.co.kr/view/AKR20260731119800009",
+      "source": "연합뉴스 국제",
+      "ts": 1785481748000,
+      "pub": "Fri, 31 Jul 2026 16:09:08 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'하이닉스 2배' 막았더니…전투개미 뭉칫돈 3조 몰린 곳이",
+      "link": "https://www.hankyung.com/article/202607317880i",
       "source": "한국경제",
-      "ts": 1785459513000,
-      "pub": "Fri, 31 Jul 2026 09:58:33 +0900",
+      "ts": 1785481051000,
+      "pub": "Fri, 31 Jul 2026 15:57:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스, 17년 만에 상한가 '쾅'…삼성전자도 26% '폭등' [종합]",
+      "link": "https://www.hankyung.com/article/2026073181716",
+      "source": "한국경제",
+      "ts": 1785480404000,
+      "pub": "Fri, 31 Jul 2026 15:46:44 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "직접 못 사던 CXMT…국내 ETF로 투자길 열렸다",
+      "link": "https://www.hankyung.com/article/202607318096i",
+      "source": "한국경제",
+      "ts": 1785480172000,
+      "pub": "Fri, 31 Jul 2026 15:42:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "외국인들 5조원 쓸어 담았다...SK하이닉스, 첫 30% 상한가",
+      "link": "https://www.mt.co.kr/stock/2026/07/31/2026073114355560595",
+      "source": "머니투데이",
+      "ts": 1785476551000,
+      "pub": "Fri, 31 Jul 2026 14:42:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "사상 첫 국민소득 4만달러 눈앞…반도체 수출 '효자'",
+      "link": "https://www.hankyung.com/article/202607317982i",
+      "source": "한국경제",
+      "ts": 1785476007000,
+      "pub": "Fri, 31 Jul 2026 14:33:27 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "SK하이닉스까지, 시총 2~4위 '상한가'…코스피 '역사적 순간'",
+      "link": "https://www.hankyung.com/article/202607317993i",
+      "source": "한국경제",
+      "ts": 1785475989000,
+      "pub": "Fri, 31 Jul 2026 14:33:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "금오공대, 2027학년도 수시 1187명 선발…'AX·반도체' 첨단학과 신설",
+      "link": "https://www.mt.co.kr/policy/2026/07/31/2026073113101964701",
+      "source": "머니투데이",
+      "ts": 1785475716000,
+      "pub": "Fri, 31 Jul 2026 14:28:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, 15% 급등…외국인 9조 순매수에 반도체株 '폭등'",
+      "link": "https://www.hankyung.com/article/2026073178876",
+      "source": "한국경제",
+      "ts": 1785473068000,
+      "pub": "Fri, 31 Jul 2026 13:44:28 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "반도체·자동차 쌍끌이에…생산 6년래 최대폭 증가",
+      "link": "https://www.hankyung.com/article/202607317260i",
+      "source": "한국경제",
+      "ts": 1785472939000,
+      "pub": "Fri, 31 Jul 2026 13:42:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "아마존, 분기매출 2천억불 첫 돌파…메모리급등에 자본지출 상향(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260731008152091",
+      "source": "연합뉴스 국제",
+      "ts": 1785464325000,
+      "pub": "Fri, 31 Jul 2026 11:18:45 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "애플, 4∼6월 분기 최대 매출…반도체 가격 급등에도 마진율↑(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260731009052091",
+      "source": "연합뉴스 국제",
+      "ts": 1785457900000,
+      "pub": "Fri, 31 Jul 2026 09:31:40 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "UBS \"메모리 수요, 내년 더 세진다\"…HBM시장 1위 교체 전망도",
+      "link": "https://www.yna.co.kr/view/AKR20260731025800009",
+      "source": "연합뉴스 국제",
+      "ts": 1785453586000,
+      "pub": "Fri, 31 Jul 2026 08:19:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "애플, 4∼6월 분기 최대 매출…반도체 가격 급등에도 마진율↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260731009051091",
+      "source": "연합뉴스 국제",
+      "ts": 1785450771000,
+      "pub": "Fri, 31 Jul 2026 07:32:51 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "美 반도체주 폭등…반도체지수 1년3개월만 최대 상승",
+      "link": "https://www.yna.co.kr/view/AKR20260731015500009",
+      "source": "연합뉴스 국제",
+      "ts": 1785449550000,
+      "pub": "Fri, 31 Jul 2026 07:12:30 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "뉴욕증시, 반도체주 반등에 강세 마감…하이닉스ADR 18%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260731008251072",
+      "source": "연합뉴스 국제",
+      "ts": 1785445101000,
+      "pub": "Fri, 31 Jul 2026 05:58:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 반도체주 반등에 강세 마감…나스닥 2.8%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260731008200072",
+      "source": "연합뉴스 국제",
+      "ts": 1785442951000,
+      "pub": "Fri, 31 Jul 2026 05:22:31 +0900",
       "sentiment": "neutral"
     }
   ]

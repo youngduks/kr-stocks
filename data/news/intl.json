@@ -1,23 +1,175 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-31T04:15:17.365Z",
-  "count": 2,
+  "updated_at": "2026-07-31T07:43:43.339Z",
+  "count": 21,
   "items": [
     {
-      "title": "폐배터리도 전략자산…트럼프, 전자폐기물 수출 금지",
-      "link": "https://www.mt.co.kr/world/2026/07/31/2026073111272437494",
-      "source": "머니투데이",
-      "ts": 1785466265000,
-      "pub": "Fri, 31 Jul 2026 11:51:05 +0900",
+      "title": "[쇼츠] 우크라 내 美드론공장에 러 미사일 쾅!…\"인명 피해 없어\"",
+      "link": "https://www.yna.co.kr/view/AKR20260731122700704",
+      "source": "연합뉴스 국제",
+      "ts": 1785480786000,
+      "pub": "Fri, 31 Jul 2026 15:53:06 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"우크라에 패트리엇 생산 면허 부여 확실치 않아\"",
-      "link": "https://www.hankyung.com/article/2026073175547",
-      "source": "한국경제",
-      "ts": 1785462208000,
-      "pub": "Fri, 31 Jul 2026 10:43:28 +0900",
+      "title": "[영상] 우크라서 美기업 공장 러 탄도미사일 피격…\"AI 자폭 드론 생산\"",
+      "link": "https://www.yna.co.kr/view/AKR20260731114600704",
+      "source": "연합뉴스 국제",
+      "ts": 1785479012000,
+      "pub": "Fri, 31 Jul 2026 15:23:32 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 얼굴새긴 '애국자 여권' 인기몰이…25만부로 확대 발급",
+      "link": "https://www.yna.co.kr/view/AKR20260731070300009",
+      "source": "연합뉴스 국제",
+      "ts": 1785465016000,
+      "pub": "Fri, 31 Jul 2026 11:30:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러시아, 우크라 소재 美드론공장에 탄도 미사일 공격",
+      "link": "https://www.yna.co.kr/view/AKR20260731070400009",
+      "source": "연합뉴스 국제",
+      "ts": 1785463252000,
+      "pub": "Fri, 31 Jul 2026 11:00:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"평화委, 하마스 무장해제 합의\"…하마스도 동의(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260731022251071",
+      "source": "연합뉴스 국제",
+      "ts": 1785463037000,
+      "pub": "Fri, 31 Jul 2026 10:57:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"우크라에 패트리엇 생산 면허 부여, 확실치 않아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260731058900009",
+      "source": "연합뉴스 국제",
+      "ts": 1785461635000,
+      "pub": "Fri, 31 Jul 2026 10:33:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"하마스, 완전 무장해제 확인…가자 행정위가 집행\"",
+      "link": "https://www.yna.co.kr/view/AKR20260731051700009",
+      "source": "연합뉴스 국제",
+      "ts": 1785459211000,
+      "pub": "Fri, 31 Jul 2026 09:53:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 중간선거 100일 앞 민주당 8%p 우세…트럼프에 경고등",
+      "link": "https://www.yna.co.kr/view/AKR20260731035600009",
+      "source": "연합뉴스 국제",
+      "ts": 1785456608000,
+      "pub": "Fri, 31 Jul 2026 09:10:08 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "이란 외무, 이집트 항구 드론 피격 두고 이스라엘 겨냥",
+      "link": "https://www.yna.co.kr/view/AKR20260731033300009",
+      "source": "연합뉴스 국제",
+      "ts": 1785455969000,
+      "pub": "Fri, 31 Jul 2026 08:59:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 \"폭발물 700t으로 레바논 남부 터널 파괴\"",
+      "link": "https://www.yna.co.kr/view/AKR20260731030900009",
+      "source": "연합뉴스 국제",
+      "ts": 1785455653000,
+      "pub": "Fri, 31 Jul 2026 08:54:13 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프 \"평화委, 하마스 완전한 무장해제 합의…가자 평화 진전\"",
+      "link": "https://www.yna.co.kr/view/AKR20260731022200071",
+      "source": "연합뉴스 국제",
+      "ts": 1785452068000,
+      "pub": "Fri, 31 Jul 2026 07:54:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"평화위원회, 하마스 등 완전한 무장해제 합의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260731020200071",
+      "source": "연합뉴스 국제",
+      "ts": 1785450540000,
+      "pub": "Fri, 31 Jul 2026 07:29:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '폐배터리 등 수출금지' 지시…中 핵심광물 패권 견제",
+      "link": "https://www.yna.co.kr/view/AKR20260731012100071",
+      "source": "연합뉴스 국제",
+      "ts": 1785448040000,
+      "pub": "Fri, 31 Jul 2026 06:47:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"불법 이민자 트럭 운전 안 돼…퇴역군인으로 대체\"",
+      "link": "https://www.yna.co.kr/view/AKR20260731010700071",
+      "source": "연합뉴스 국제",
+      "ts": 1785445680000,
+      "pub": "Fri, 31 Jul 2026 06:08:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "교전 재개한 美·이란 폭풍전야…중동전역 포화에 트럼프 선택은(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260731001151071",
+      "source": "연합뉴스 국제",
+      "ts": 1785445525000,
+      "pub": "Fri, 31 Jul 2026 06:05:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'트럼프 충성파' 장관 인준 제동…'상처난 곰들' 반란에 장악력 균열",
+      "link": "https://www.yna.co.kr/view/AKR20260731007200071",
+      "source": "연합뉴스 국제",
+      "ts": 1785442914000,
+      "pub": "Fri, 31 Jul 2026 05:21:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프정부, 외국인 졸업생에 '美 취업수수료' 1.4억원 검토\"",
+      "link": "https://www.yna.co.kr/view/AKR20260731006700071",
+      "source": "연합뉴스 국제",
+      "ts": 1785438695000,
+      "pub": "Fri, 31 Jul 2026 04:11:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키 \"러, 오랜만에 우크라에 북한 미사일 쏴\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260730192151108",
+      "source": "연합뉴스 국제",
+      "ts": 1785436024000,
+      "pub": "Fri, 31 Jul 2026 03:27:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "브라질, 미국 추가 관세 부과에 WTO 제소…\"무역협정 위반\"",
+      "link": "https://www.yna.co.kr/view/AKR20260731004000087",
+      "source": "연합뉴스 국제",
+      "ts": 1785433164000,
+      "pub": "Fri, 31 Jul 2026 02:39:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "교전 재개한 美·이란 폭풍전야…중동전역 포화에 트럼프 선택은",
+      "link": "https://www.yna.co.kr/view/AKR20260731001100071",
+      "source": "연합뉴스 국제",
+      "ts": 1785426031000,
+      "pub": "Fri, 31 Jul 2026 00:40:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 최측근 정치적 유산 '러 제재 법안' 관세 무기로 삼나",
+      "link": "https://www.yna.co.kr/view/AKR20260730195400071",
+      "source": "연합뉴스 국제",
+      "ts": 1785425133000,
+      "pub": "Fri, 31 Jul 2026 00:25:33 +0900",
+      "sentiment": "negative"
     }
   ]
 }

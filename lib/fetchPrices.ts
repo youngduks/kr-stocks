@@ -77,14 +77,19 @@ export type PriceRow = SymbolMeta & {
 // 못 막는데, 이 재시도는 캐시와 무관하게 단발 blip을 그 자리에서 메움 → 콜드스타트+blip
 // 동시 케이스(유일한 잔여 결번 경로)까지 대부분 커버. 백그라운드 ISR 재생성에서 도는
 // 코드라 사용자 응답 지연엔 영향 없음(stale-while-revalidate가 즉시 stale 서빙).
-async function withRetry<T>(fn: () => Promise<T>, attempts = 2, delayMs = 300): Promise<T> {
+async function withRetry<T>(fn: () => Promise<T>, attempts = 2, baseDelayMs = 300): Promise<T> {
   let lastErr: unknown;
   for (let i = 0; i < attempts; i++) {
     try {
       return await fn();
     } catch (e) {
       lastErr = e;
-      if (i < attempts - 1) await new Promise((res) => setTimeout(res, delayMs));
+      if (i < attempts - 1) {
+        // 지터 필수 — 배포 직후 수십 개 콜드 인스턴스가 동시에 재시도하면 바이낸스
+        // 레이트리밋을 오히려 악화(thundering herd)시킴. 재시도 시점을 흩뿌려 완화.
+        const jitter = baseDelayMs * (0.5 + Math.random());
+        await new Promise((res) => setTimeout(res, jitter));
+      }
     }
   }
   throw lastErr;

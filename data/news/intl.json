@@ -1,24 +1,8 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-31T10:26:56.758Z",
-  "count": 19,
+  "updated_at": "2026-07-31T12:49:41.367Z",
+  "count": 16,
   "items": [
-    {
-      "title": "트럼프 \"가자 평화委서 하마스 무장해제 합의\"",
-      "link": "https://www.hankyung.com/article/2026073186161",
-      "source": "한국경제",
-      "ts": 1785488628000,
-      "pub": "Fri, 31 Jul 2026 18:03:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"외국인 유학생, 美 취업하려면 10만달러 내라\"",
-      "link": "https://www.hankyung.com/article/2026073186231",
-      "source": "한국경제",
-      "ts": 1785488189000,
-      "pub": "Fri, 31 Jul 2026 17:56:29 +0900",
-      "sentiment": "neutral"
-    },
     {
       "title": "'드론전쟁 주도' 우크라 전 국방 \"AI 자율드론 간 전투 온다\"",
       "link": "https://www.yna.co.kr/view/AKR20260731142600009",
@@ -145,14 +129,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785445525000,
       "pub": "Fri, 31 Jul 2026 06:05:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 충성파' 장관 인준 제동…'상처난 곰들' 반란에 장악력 균열",
-      "link": "https://www.yna.co.kr/view/AKR20260731007200071",
-      "source": "연합뉴스 국제",
-      "ts": 1785442914000,
-      "pub": "Fri, 31 Jul 2026 05:21:54 +0900",
       "sentiment": "neutral"
     }
   ]

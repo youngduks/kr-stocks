@@ -1,8 +1,24 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-07-31T10:26:56.760Z",
-  "count": 1,
+  "updated_at": "2026-07-31T12:49:41.369Z",
+  "count": 3,
   "items": [
+    {
+      "title": "'대박' 멀티홈런 대폭발! 고교시절 오타니로 불린 두산 사나이 '드디어 잠재력 터지나' LG와 잠실 라이벌전 기선 제압 [잠실 현장리뷰]",
+      "link": "https://www.mt.co.kr/sports/2026/07/31/2026073115401382937",
+      "source": "머니투데이",
+      "ts": 1785500820000,
+      "pub": "Fri, 31 Jul 2026 21:27:00 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "현대차·기아, 칠레 '한국의 거리'에 순찰용 전기차 기증",
+      "link": "https://www.hankyung.com/article/2026073185681",
+      "source": "한국경제",
+      "ts": 1785490022000,
+      "pub": "Fri, 31 Jul 2026 18:27:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[르포] 중국어 명령에 에어컨 '척척'…현대차 상하이 사용자경험 스튜디오",
       "link": "https://www.yna.co.kr/view/AKR20260731085600089",

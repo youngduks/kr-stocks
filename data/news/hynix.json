@@ -1,24 +1,8 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-31T10:26:56.759Z",
-  "count": 18,
+  "updated_at": "2026-07-31T12:49:41.369Z",
+  "count": 14,
   "items": [
-    {
-      "title": "'1500% 수익 신화' 20대男 몰락에…반도체 폭등 '환호' 터졌다",
-      "link": "https://www.hankyung.com/article/2026073186261",
-      "source": "한국경제",
-      "ts": 1785488282000,
-      "pub": "Fri, 31 Jul 2026 17:58:02 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "두산, 2조3000억에 '반도체 웨이퍼 톱3' 실트론 인수",
-      "link": "https://www.hankyung.com/article/2026073186371",
-      "source": "한국경제",
-      "ts": 1785488187000,
-      "pub": "Fri, 31 Jul 2026 17:56:27 +0900",
-      "sentiment": "neutral"
-    },
     {
       "title": "하이닉스 '17년만 상한가', 삼전 26.8%↑…역대최고 상승률(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260731042151008",
@@ -130,22 +114,6 @@
       "ts": 1785449550000,
       "pub": "Fri, 31 Jul 2026 07:12:30 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "뉴욕증시, 반도체주 반등에 강세 마감…하이닉스ADR 18%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260731008251072",
-      "source": "연합뉴스 국제",
-      "ts": 1785445101000,
-      "pub": "Fri, 31 Jul 2026 05:58:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 반도체주 반등에 강세 마감…나스닥 2.8%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260731008200072",
-      "source": "연합뉴스 국제",
-      "ts": 1785442951000,
-      "pub": "Fri, 31 Jul 2026 05:22:31 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-31T17:16:36.874Z",
+  "updated_at": "2026-07-31T19:04:56.146Z",
   "count": 15,
   "items": [
+    {
+      "title": "트럼프 \"이스라엘 매우 만족\"…하마스 무장해제 합의 호응 압박(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260801002851071",
+      "source": "연합뉴스 국제",
+      "ts": 1785520320000,
+      "pub": "Sat, 1 Aug 2026 02:52:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美국무부, AI생성 '엉터리' 아프리카 지도 썼다가 국제회의 망신",
+      "link": "https://www.yna.co.kr/view/AKR20260801002900091",
+      "source": "연합뉴스 국제",
+      "ts": 1785518532000,
+      "pub": "Sat, 1 Aug 2026 02:22:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이스라엘 매우 만족\"…하마스 무장해제 합의 호응 압박",
+      "link": "https://www.yna.co.kr/view/AKR20260801002800071",
+      "source": "연합뉴스 국제",
+      "ts": 1785517911000,
+      "pub": "Sat, 1 Aug 2026 02:11:51 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"이란 강하게 타격할 것…이란 거짓말에 신뢰 잃고 있어\"",
       "link": "https://www.yna.co.kr/view/AKR20260801002700071",
@@ -26,14 +50,6 @@
       "ts": 1785506391000,
       "pub": "Fri, 31 Jul 2026 22:59:51 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"누가 쓰겠어\" 했는데…트럼프 초상 담긴 '기념 여권', 인기 폭발",
-      "link": "https://www.mt.co.kr/world/2026/07/31/2026073121330212516",
-      "source": "머니투데이",
-      "ts": 1785502497000,
-      "pub": "Fri, 31 Jul 2026 21:54:57 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "'드론전쟁 주도' 우크라 전 국방 \"AI 자율드론 간 전투 온다\"",
@@ -105,22 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785456608000,
       "pub": "Fri, 31 Jul 2026 09:10:08 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "이란 외무, 이집트 항구 드론 피격 두고 이스라엘 겨냥",
-      "link": "https://www.yna.co.kr/view/AKR20260731033300009",
-      "source": "연합뉴스 국제",
-      "ts": 1785455969000,
-      "pub": "Fri, 31 Jul 2026 08:59:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘 \"폭발물 700t으로 레바논 남부 터널 파괴\"",
-      "link": "https://www.yna.co.kr/view/AKR20260731030900009",
-      "source": "연합뉴스 국제",
-      "ts": 1785455653000,
-      "pub": "Fri, 31 Jul 2026 08:54:13 +0900",
       "sentiment": "negative"
     }
   ]

@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-30T22:59:29.876Z",
-  "count": 21,
+  "updated_at": "2026-07-31T00:01:23.928Z",
+  "count": 22,
   "items": [
+    {
+      "title": "이스라엘 \"폭발물 700t으로 레바논 남부 터널 파괴\"",
+      "link": "https://www.yna.co.kr/view/AKR20260731030900009",
+      "source": "연합뉴스 국제",
+      "ts": 1785455653000,
+      "pub": "Fri, 31 Jul 2026 08:54:13 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[외신 에스프레소]트럼프 \"이번엔 우리 차례\"…美, 이란 본토 대규모 공습",
+      "link": "https://www.hankyung.com/article/202607316906i",
+      "source": "한국경제",
+      "ts": 1785452452000,
+      "pub": "Fri, 31 Jul 2026 08:00:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"평화委, 하마스 완전한 무장해제 합의…가자 평화 진전\"",
+      "link": "https://www.yna.co.kr/view/AKR20260731022200071",
+      "source": "연합뉴스 국제",
+      "ts": 1785452068000,
+      "pub": "Fri, 31 Jul 2026 07:54:28 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[속보] 트럼프 \"평화위원회, 하마스 등 완전한 무장해제 합의\"",
       "link": "https://www.hankyung.com/article/2026073168707",
@@ -100,14 +124,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "美 6월 근원 PCE 전년대비 3.3% 상승",
-      "link": "https://www.hankyung.com/article/2026073066951",
-      "source": "한국경제",
-      "ts": 1785419238000,
-      "pub": "Thu, 30 Jul 2026 22:47:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"러, 1년 만에 우크라에 북한제 미사일 쏜 듯\"",
       "link": "https://www.yna.co.kr/view/AKR20260730192100108",
       "source": "연합뉴스 국제",
@@ -121,14 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785416080000,
       "pub": "Thu, 30 Jul 2026 21:54:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 美 6월 PCE 물가 전년대비 3.7%↑…전망치 부합",
-      "link": "https://www.hankyung.com/article/2026073066727",
-      "source": "한국경제",
-      "ts": 1785415462000,
-      "pub": "Thu, 30 Jul 2026 21:44:22 +0900",
       "sentiment": "neutral"
     },
     {

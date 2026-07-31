@@ -1,15 +1,39 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-30T22:59:29.877Z",
-  "count": 1,
+  "updated_at": "2026-07-31T00:01:23.929Z",
+  "count": 4,
   "items": [
     {
-      "title": "삼성전자 기술 빼가더니…'466% 폭등' 대박 난 中 회사",
-      "link": "https://www.hankyung.com/article/202607305245g",
+      "title": "삼전닉스 버리고 곱버스 베팅하더니…초고수들 순매수 1위는",
+      "link": "https://www.hankyung.com/article/202607316895i",
       "source": "한국경제",
-      "ts": 1785445209000,
-      "pub": "Fri, 31 Jul 2026 06:00:09 +0900",
-      "sentiment": "positive"
+      "ts": 1785453627000,
+      "pub": "Fri, 31 Jul 2026 08:20:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "UBS \"메모리 수요, 내년 더 세진다\"…HBM시장 1위 교체 전망도",
+      "link": "https://www.yna.co.kr/view/AKR20260731025800009",
+      "source": "연합뉴스 국제",
+      "ts": 1785453586000,
+      "pub": "Fri, 31 Jul 2026 08:19:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"은행 적금보다 낫다\"…삼전 하락했는데 사라는 이유는",
+      "link": "https://www.hankyung.com/article/202607306104i",
+      "source": "한국경제",
+      "ts": 1785452415000,
+      "pub": "Fri, 31 Jul 2026 08:00:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼성전자, HBM·파운드리 경쟁력 회복…주주환원 재확인\"-다올",
+      "link": "https://www.hankyung.com/article/2026073169046",
+      "source": "한국경제",
+      "ts": 1785452046000,
+      "pub": "Fri, 31 Jul 2026 07:54:06 +0900",
+      "sentiment": "neutral"
     }
   ]
 }

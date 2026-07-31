@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-30T22:59:29.877Z",
+  "updated_at": "2026-07-31T00:01:23.929Z",
   "count": 11,
   "items": [
+    {
+      "title": "한 AI 펀드의 몰락, \"모멘텀 청산 끝났다\"…반도체 8% 폭등 [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202607316947i",
+      "source": "한국경제",
+      "ts": 1785453610000,
+      "pub": "Fri, 31 Jul 2026 08:20:10 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "UBS \"메모리 수요, 내년 더 세진다\"…HBM시장 1위 교체 전망도",
+      "link": "https://www.yna.co.kr/view/AKR20260731025800009",
+      "source": "연합뉴스 국제",
+      "ts": 1785453586000,
+      "pub": "Fri, 31 Jul 2026 08:19:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼성전자, HBM·파운드리 경쟁력 회복…주주환원 재확인\"-다올",
+      "link": "https://www.hankyung.com/article/2026073169046",
+      "source": "한국경제",
+      "ts": 1785452046000,
+      "pub": "Fri, 31 Jul 2026 07:54:06 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "애플, 4∼6월 분기 최대 매출…반도체 가격 급등에도 마진율↑(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260731009051091",
@@ -60,35 +84,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"애플은 안전자산\" vs \"반도체 오르면 끝난다\" [박신영의 개장전 요것만]",
-      "link": "https://www.hankyung.com/article/202607306705i",
-      "source": "한국경제",
-      "ts": 1785422647000,
-      "pub": "Thu, 30 Jul 2026 23:44:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "뉴욕증시, 마이크로소프트 실적·반도체 강세 힘입어 상승 출발",
       "link": "https://www.yna.co.kr/view/AKR20260730195200009",
       "source": "연합뉴스 국제",
       "ts": 1785422104000,
       "pub": "Thu, 30 Jul 2026 23:35:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "최태원, 하이닉스 주식 48억 매수",
-      "link": "https://www.hankyung.com/article/2026073066871",
-      "source": "한국경제",
-      "ts": 1785419358000,
-      "pub": "Thu, 30 Jul 2026 22:49:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "최태원, SK하이닉스 주식 장내매수…48억원어치 산 이유",
-      "link": "https://www.hankyung.com/article/202607306603i",
-      "source": "한국경제",
-      "ts": 1785408339000,
-      "pub": "Thu, 30 Jul 2026 19:45:39 +0900",
       "sentiment": "neutral"
     }
   ]

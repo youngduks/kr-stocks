@@ -144,26 +144,39 @@ async function fetchNaver(code: string): Promise<RegularClose | null> {
 
 async function fetchYahoo(symbol: string): Promise<RegularClose | null> {
   try {
+    // range=1d → close 배열이 1개뿐이라 meta.chartPreviousClose를 검증 없이 그대로
+    // 믿을 수밖에 없었음. 5d로 늘려 일봉 종가 배열로 전일종가를 직접 계산·우선
+    // 신뢰하도록 변경(2026-07-30) — meta.chartPreviousClose가 실제 최근 거래일
+    // 종가와 무관한 값을 반환하는 Yahoo API 버그를 실측 확인함(TSLA/AMD/MU/TSM/
+    // SKHY 등 29종목 중 21종목에서 등락률 부호까지 반대로 나오는 수준으로 광범위).
     const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(
       symbol
-    )}?range=1d&interval=1d`;
+    )}?range=5d&interval=1d`;
     const r = await fetch(url, {
       headers: { "User-Agent": UA },
       next: { revalidate: 60 },
     });
     if (!r.ok) return null;
     const d: any = await r.json();
-    const meta = d?.chart?.result?.[0]?.meta;
+    const result = d?.chart?.result?.[0];
+    const meta = result?.meta;
     const p =
       meta?.regularMarketPrice ?? meta?.previousClose ?? meta?.chartPreviousClose ?? null;
     if (typeof p !== "number" || !Number.isFinite(p) || p <= 0) return null;
     const currency = meta?.currency === "KRW" ? "KRW" : "USD";
-    const previousClose =
-      typeof meta?.chartPreviousClose === "number" && meta.chartPreviousClose > 0
-        ? meta.chartPreviousClose
-        : typeof meta?.previousClose === "number" && meta.previousClose > 0
-        ? meta.previousClose
-        : null;
+
+    const closes: number[] = (result?.indicators?.quote?.[0]?.close ?? []).filter(
+      (v: any) => typeof v === "number" && v > 0
+    );
+    let previousClose: number | null = closes.length >= 2 ? closes[closes.length - 2] : null;
+    if (previousClose == null) {
+      previousClose =
+        typeof meta?.chartPreviousClose === "number" && meta.chartPreviousClose > 0
+          ? meta.chartPreviousClose
+          : typeof meta?.previousClose === "number" && meta.previousClose > 0
+          ? meta.previousClose
+          : null;
+    }
     // marketState 가 endpoint 별로 들쭉날쭉 → currentTradingPeriod.regular {start, end} epoch 로 판단
     const period = meta?.currentTradingPeriod?.regular;
     const nowSec = Math.floor(Date.now() / 1000);

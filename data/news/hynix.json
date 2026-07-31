@@ -1,94 +1,46 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-31T00:01:23.929Z",
-  "count": 11,
+  "updated_at": "2026-07-31T04:15:17.366Z",
+  "count": 5,
   "items": [
     {
-      "title": "한 AI 펀드의 몰락, \"모멘텀 청산 끝났다\"…반도체 8% 폭등 [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202607316947i",
-      "source": "한국경제",
-      "ts": 1785453610000,
-      "pub": "Fri, 31 Jul 2026 08:20:10 +0900",
+      "title": "[뉴스프레소] 뉴욕증시, 반도체주 랠리에 급반등… '레오폴드 사태'",
+      "link": "https://www.mt.co.kr/world/2026/07/31/2026073111567022392",
+      "source": "머니투데이",
+      "ts": 1785467273000,
+      "pub": "Fri, 31 Jul 2026 12:07:53 +0900",
       "sentiment": "positive"
     },
     {
-      "title": "UBS \"메모리 수요, 내년 더 세진다\"…HBM시장 1위 교체 전망도",
-      "link": "https://www.yna.co.kr/view/AKR20260731025800009",
-      "source": "연합뉴스 국제",
-      "ts": 1785453586000,
-      "pub": "Fri, 31 Jul 2026 08:19:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼성전자, HBM·파운드리 경쟁력 회복…주주환원 재확인\"-다올",
-      "link": "https://www.hankyung.com/article/2026073169046",
-      "source": "한국경제",
-      "ts": 1785452046000,
-      "pub": "Fri, 31 Jul 2026 07:54:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "애플, 4∼6월 분기 최대 매출…반도체 가격 급등에도 마진율↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260731009051091",
-      "source": "연합뉴스 국제",
-      "ts": 1785450771000,
-      "pub": "Fri, 31 Jul 2026 07:32:51 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "반도체주 반등에 일제 상승…나스닥 2.8%↑ [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026073168466",
-      "source": "한국경제",
-      "ts": 1785449554000,
-      "pub": "Fri, 31 Jul 2026 07:12:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 반도체주 폭등…반도체지수 1년3개월만 최대 상승",
-      "link": "https://www.yna.co.kr/view/AKR20260731015500009",
-      "source": "연합뉴스 국제",
-      "ts": 1785449550000,
-      "pub": "Fri, 31 Jul 2026 07:12:30 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\"TSMC 때문에 실적 부진\"…애플 컨콜 등판한 팀 쿡의 탄식",
-      "link": "https://www.hankyung.com/article/202607316822i",
-      "source": "한국경제",
-      "ts": 1785449478000,
-      "pub": "Fri, 31 Jul 2026 07:11:18 +0900",
+      "title": "\"적자 나면 깎는다고?\"…SK하이닉스 노조, 사측 제안에 최후통첩",
+      "link": "https://www.mt.co.kr/industry/2026/07/31/2026073111140537565",
+      "source": "머니투데이",
+      "ts": 1785465132000,
+      "pub": "Fri, 31 Jul 2026 11:32:12 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "\"땡큐 엔비디아\" 네이버 급등하더니…하루 만에 '비명' [종목+]",
-      "link": "https://www.hankyung.com/article/2026073061356",
+      "title": "역사적 급등장서 '초고수 픽'은 SK하이닉스…삼성전자는 외면 왜",
+      "link": "https://www.hankyung.com/article/202607317481i",
       "source": "한국경제",
-      "ts": 1785447001000,
-      "pub": "Fri, 31 Jul 2026 06:30:01 +0900",
+      "ts": 1785461425000,
+      "pub": "Fri, 31 Jul 2026 10:30:25 +0900",
       "sentiment": "positive"
     },
     {
-      "title": "뉴욕증시, 반도체주 반등에 강세 마감…하이닉스ADR 18%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260731008251072",
-      "source": "연합뉴스 국제",
-      "ts": 1785445101000,
-      "pub": "Fri, 31 Jul 2026 05:58:21 +0900",
+      "title": "딱 1억원 모자란 49억원…최태원, SK하이닉스 3620주만 산 이유",
+      "link": "https://www.mt.co.kr/industry/2026/07/31/2026073109305299300",
+      "source": "머니투데이",
+      "ts": 1785460512000,
+      "pub": "Fri, 31 Jul 2026 10:15:12 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "뉴욕증시, 반도체주 반등에 강세 마감…나스닥 2.8%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260731008200072",
-      "source": "연합뉴스 국제",
-      "ts": 1785442951000,
-      "pub": "Fri, 31 Jul 2026 05:22:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 마이크로소프트 실적·반도체 강세 힘입어 상승 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260730195200009",
-      "source": "연합뉴스 국제",
-      "ts": 1785422104000,
-      "pub": "Thu, 30 Jul 2026 23:35:04 +0900",
+      "title": "[단독] \"속옷 팔아서라도 하이닉스\"…주식 유튜버 찌른 20대 구속 송치",
+      "link": "https://www.hankyung.com/article/202607317361i",
+      "source": "한국경제",
+      "ts": 1785459513000,
+      "pub": "Fri, 31 Jul 2026 09:58:33 +0900",
       "sentiment": "neutral"
     }
   ]

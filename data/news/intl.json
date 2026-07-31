@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-31T20:51:29.420Z",
+  "updated_at": "2026-07-31T21:55:44.182Z",
   "count": 16,
   "items": [
+    {
+      "title": "트럼프 \"스페인서 이주민 침략 재앙…민주 집권하면 미국서 재현\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260801001551071",
+      "source": "연합뉴스 국제",
+      "ts": 1785530993000,
+      "pub": "Sat, 1 Aug 2026 05:49:53 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'어둠의 공주' 모금책 둔 트럼프…\"'보스의 뜻' 압박해 1조 걷어\"",
       "link": "https://www.yna.co.kr/view/AKR20260801005800071",
@@ -121,14 +129,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785461635000,
       "pub": "Fri, 31 Jul 2026 10:33:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"하마스, 완전 무장해제 확인…가자 행정위가 집행\"",
-      "link": "https://www.yna.co.kr/view/AKR20260731051700009",
-      "source": "연합뉴스 국제",
-      "ts": 1785459211000,
-      "pub": "Fri, 31 Jul 2026 09:53:31 +0900",
       "sentiment": "neutral"
     }
   ]

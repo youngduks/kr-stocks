@@ -22,8 +22,10 @@ export type DealView = {
 
 const NOTIFY_SCORE_MIN = 4;
 
-// 형님 지시(2026-07-30): 가전/육아/식품/전자제품/기타 카테고리는 고정 유지.
-const TABS = ["전체", "가전", "육아", "식품", "전자제품", "기타"] as const;
+// 형님 지시(2026-07-30): 가전/육아/식품/전자제품/기타 고정 유지.
+// + 생활용품·화장품 추가(2026-07-31) — 아르카 카테고리별 수집으로 실제 딜이
+//   꾸준히 들어와, '기타'에 뭉뚱그리면 찾기 어려워짐.
+const TABS = ["전체", "식품", "생활용품", "화장품", "전자제품", "가전", "육아", "기타"] as const;
 
 export function ShoppingList({ deals }: { deals: DealView[] }) {
   const [active, setActive] = useState<string>("전체");

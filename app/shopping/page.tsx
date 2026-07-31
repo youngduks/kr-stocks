@@ -66,13 +66,15 @@ function timeAgo(ts: number): string {
   return `${Math.floor(diffH / 24)}일 전`;
 }
 
-// 백엔드 cat(육아용품/식품/전자·IT/가전·컴퓨터 등)을 형님 지시 5개 탭으로 매핑.
-// 매칭 안 되는 건(전달딜 '핫딜' 등 포함) 전부 '기타'.
+// 백엔드 cat을 표시 탭으로 매핑. 생활용품·화장품은 아르카 자체 카테고리에서
+// 실제로 딜이 꾸준히 나와(2026-07-31 실측) '기타'에 묻히지 않게 별도 탭으로 분리.
 function catGroup(cat: string): string {
   if (cat === "가전·컴퓨터") return "가전";
   if (cat === "육아용품") return "육아";
   if (cat === "식품") return "식품";
   if (cat === "전자·IT") return "전자제품";
+  if (cat === "생활용품") return "생활용품";
+  if (cat === "화장품") return "화장품";
   return "기타";
 }
 

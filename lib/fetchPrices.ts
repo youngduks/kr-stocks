@@ -72,6 +72,24 @@ export type PriceRow = SymbolMeta & {
   } | null;
 };
 
+// 업스트림 순간 throttle(특히 바이낸스가 Vercel 공용 egress IP에 거는 간헐 429/타임아웃)을
+// 흡수. 모듈 캐시(last-known-good)는 웜 인스턴스에서만 듣고 콜드스타트 첫 요청엔 비어있어
+// 못 막는데, 이 재시도는 캐시와 무관하게 단발 blip을 그 자리에서 메움 → 콜드스타트+blip
+// 동시 케이스(유일한 잔여 결번 경로)까지 대부분 커버. 백그라운드 ISR 재생성에서 도는
+// 코드라 사용자 응답 지연엔 영향 없음(stale-while-revalidate가 즉시 stale 서빙).
+async function withRetry<T>(fn: () => Promise<T>, attempts = 2, delayMs = 300): Promise<T> {
+  let lastErr: unknown;
+  for (let i = 0; i < attempts; i++) {
+    try {
+      return await fn();
+    } catch (e) {
+      lastErr = e;
+      if (i < attempts - 1) await new Promise((res) => setTimeout(res, delayMs));
+    }
+  }
+  throw lastErr;
+}
+
 async function fetchHlDex(dex: string): Promise<Map<string, HlAssetCtx>> {
   const r = await fetch(HL_API, {
     method: "POST",
@@ -107,25 +125,30 @@ async function fetchKrwUsdt(): Promise<{ rate: number; change_24h_pct: number }>
 async function fetchBinanceOne(symbol: string): Promise<[string, HlAssetCtx] | null> {
   const opt = { headers: { "User-Agent": "Mozilla/5.0" }, next: { revalidate: 30 } } as const;
   try {
-    const [tkR, piR, oiR] = await Promise.all([
-      fetch(`${BINANCE_FAPI}/ticker/24hr?symbol=${symbol}`, opt),
-      fetch(`${BINANCE_FAPI}/premiumIndex?symbol=${symbol}`, opt),
-      fetch(`${BINANCE_FAPI}/openInterest?symbol=${symbol}`, opt),
-    ]);
-    if (!tkR.ok) return null;
-    const t: any = await tkR.json();
-    const p: any = piR.ok ? await piR.json() : {};
-    const o: any = oiR.ok ? await oiR.json() : {};
-    const ctx: HlAssetCtx = {
-      markPx: String(t.lastPrice ?? "0"),
-      prevDayPx: String(t.openPrice ?? t.lastPrice ?? "0"),
-      openInterest: String(o.openInterest ?? "0"),
-      dayNtlVlm: String(t.quoteVolume ?? "0"),
-      funding: String(p.lastFundingRate ?? "0"),
-    };
-    return [symbol, ctx];
+    // 티커(가격) fetch 실패는 '재시도 유발' 위해 throw — 이게 실패하면 그 종목이
+    // 통째로 드랍(삼성/하이닉스/현대차 카드 소멸)되므로 순간 throttle을 재시도로 흡수.
+    // premium/oi는 부가정보라 실패해도 기본값으로 진행(재시도 안 함).
+    return await withRetry(async () => {
+      const [tkR, piR, oiR] = await Promise.all([
+        fetch(`${BINANCE_FAPI}/ticker/24hr?symbol=${symbol}`, opt),
+        fetch(`${BINANCE_FAPI}/premiumIndex?symbol=${symbol}`, opt),
+        fetch(`${BINANCE_FAPI}/openInterest?symbol=${symbol}`, opt),
+      ]);
+      if (!tkR.ok) throw new Error(`Binance ${symbol} ticker ${tkR.status}`);
+      const t: any = await tkR.json();
+      const p: any = piR.ok ? await piR.json() : {};
+      const o: any = oiR.ok ? await oiR.json() : {};
+      const ctx: HlAssetCtx = {
+        markPx: String(t.lastPrice ?? "0"),
+        prevDayPx: String(t.openPrice ?? t.lastPrice ?? "0"),
+        openInterest: String(o.openInterest ?? "0"),
+        dayNtlVlm: String(t.quoteVolume ?? "0"),
+        funding: String(p.lastFundingRate ?? "0"),
+      };
+      return [symbol, ctx] as [string, HlAssetCtx];
+    });
   } catch {
-    return null;
+    return null; // 재시도까지 실패 → 드랍(다음 단계 모듈캐시 폴백이 받음)
   }
 }
 
@@ -195,10 +218,11 @@ export async function fetchAllPrices(): Promise<{
   // 각 업스트림을 독립적으로 가져옴 — 한 곳 실패가 Promise.all reject(전체 500)나
   // 특정 종목 market:null(카드 사라짐)로 번지지 않게 safe()로 감싸 빈 값으로 강등.
   const [xyzFresh, vntlFresh, fxFresh, regFresh, binFresh] = await Promise.all([
-    safe(() => fetchHlDex("xyz"), new Map<string, HlAssetCtx>(), "HL xyz"),
-    safe(() => fetchHlDex("vntl"), new Map<string, HlAssetCtx>(), "HL vntl"),
-    safe(() => fetchKrwUsdt(), null as { rate: number; change_24h_pct: number } | null, "Upbit FX"),
+    safe(() => withRetry(() => fetchHlDex("xyz")), new Map<string, HlAssetCtx>(), "HL xyz"),
+    safe(() => withRetry(() => fetchHlDex("vntl")), new Map<string, HlAssetCtx>(), "HL vntl"),
+    safe(() => withRetry(() => fetchKrwUsdt()), null as { rate: number; change_24h_pct: number } | null, "Upbit FX"),
     safe(() => fetchAllRegularCloses(), {} as Record<string, RegularClose>, "정규장 종가"),
+    // fetchBinanceStocks 내부의 fetchBinanceOne이 이미 종목별 재시도 → 여기선 미중첩.
     safe(() => fetchBinanceStocks(binanceSymbols), new Map<string, HlAssetCtx>(), "Binance 한국주식"),
   ]);
 

@@ -187,6 +187,28 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
 
         {m?.hl_premium_pct != null && (() => {
           const isUS = cat === "us";
+          // 장중(market_phase="live")엔 메인 가격 자체가 정규장 실시간가라 이 블록의
+          // 비교 대상(mainKrw/Usd)과 regular_close_*가 같은 값 → 항상 0%로 나와
+          // 정보가 없었음(형님 지적, 2026-07-31). 장중엔 대신 파생상품(바이낸스/HL)
+          // 참조가를 회색 텍스트로 보여줌 — main_display가 아닌 원시 perp 가격
+          // (per_share/krw_price 등, phase 무관하게 항상 실시간)을 써야 함.
+          if (m.market_phase === "live") {
+            const refLabel =
+              row.source === "binance"
+                ? "Binance"
+                : "Hyperliquid";
+            const refPrice = isKR
+              ? `₩${formatKRW(m.per_share_krw ?? m.krw_price)}`
+              : `$${formatUSD(m.per_share_usd ?? m.mark_px_usd)}`;
+            return (
+              <div className="mt-2 pt-2 border-t border-line/60 flex items-center justify-between gap-2 tabular text-xs text-text-dim">
+                <span className="whitespace-nowrap shrink-0">
+                  {refLabel} {locale === "en" ? "ref" : "참조가"}
+                </span>
+                <span className="text-right">{refPrice}</span>
+              </div>
+            );
+          }
           // phase 인지 — 카드 메인 가격 vs KRX 종가 (메인이 NXT 면 NXT vs KRX 종가, 메인이 HL 면 HL vs KRX 종가).
           // 형님 지적 : 차액이 메인 가격과 매칭되어야 retail 정합.
           const mainKrw = m.main_display_krw ?? m.per_share_krw ?? m.krw_price;

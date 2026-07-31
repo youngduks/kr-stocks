@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-31T12:49:41.367Z",
-  "count": 16,
+  "updated_at": "2026-07-31T15:12:00.018Z",
+  "count": 15,
   "items": [
+    {
+      "title": "하마스 \"무장해제 조건은 이스라엘 철군…살상 중단 약속 먼저\"",
+      "link": "https://www.yna.co.kr/view/AKR20260731173800079",
+      "source": "연합뉴스 국제",
+      "ts": 1785506391000,
+      "pub": "Fri, 31 Jul 2026 22:59:51 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'드론전쟁 주도' 우크라 전 국방 \"AI 자율드론 간 전투 온다\"",
       "link": "https://www.yna.co.kr/view/AKR20260731142600009",
@@ -113,22 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785448040000,
       "pub": "Fri, 31 Jul 2026 06:47:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"불법 이민자 트럭 운전 안 돼…퇴역군인으로 대체\"",
-      "link": "https://www.yna.co.kr/view/AKR20260731010700071",
-      "source": "연합뉴스 국제",
-      "ts": 1785445680000,
-      "pub": "Fri, 31 Jul 2026 06:08:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "교전 재개한 美·이란 폭풍전야…중동전역 포화에 트럼프 선택은(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260731001151071",
-      "source": "연합뉴스 국제",
-      "ts": 1785445525000,
-      "pub": "Fri, 31 Jul 2026 06:05:25 +0900",
       "sentiment": "neutral"
     }
   ]

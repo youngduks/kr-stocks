@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-31T22:50:38.889Z",
-  "count": 17,
+  "updated_at": "2026-07-31T23:51:48.531Z",
+  "count": 18,
   "items": [
+    {
+      "title": "바닥 찍은 듯한데, 상승 가로막는 금리…FOMC 횟수 줄인다? [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202608018950i",
+      "source": "한국경제",
+      "ts": 1785539058000,
+      "pub": "Sat, 01 Aug 2026 08:04:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "CBS \"美·이스라엘, 이번 주말 이란 에너지 시설 공습 계획\"",
+      "link": "https://www.hankyung.com/article/2026080189857",
+      "source": "한국경제",
+      "ts": 1785539046000,
+      "pub": "Sat, 01 Aug 2026 08:04:06 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "NYT \"워시, 1년에 8번 열어온 연준 금리결정 회의 축소 검토\"",
       "link": "https://www.yna.co.kr/view/AKR20260801010900072",
@@ -129,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785463037000,
       "pub": "Fri, 31 Jul 2026 10:57:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"우크라에 패트리엇 생산 면허 부여, 확실치 않아\"",
-      "link": "https://www.yna.co.kr/view/AKR20260731058900009",
-      "source": "연합뉴스 국제",
-      "ts": 1785461635000,
-      "pub": "Fri, 31 Jul 2026 10:33:55 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -207,14 +207,23 @@ export async function fetchAllPrices(): Promise<{
   const vntl = mergeCtxCache(cVntl, vntlFresh, now);
   const binance = mergeCtxCache(cBin, binFresh, now);
 
-  // 환율: 0/누락이면 원화 환산이 전부 깨지므로 TTL 내 직전값으로, 그것도 없으면 0(마지막 안전).
-  if (fxFresh && fxFresh.rate > 0) lgFx = { value: fxFresh, at: now };
-  const fx =
-    fxFresh && fxFresh.rate > 0
-      ? fxFresh
-      : lgFx && now - lgFx.at <= FALLBACK_TTL_MS
-        ? lgFx.value
-        : { rate: 0, change_24h_pct: 0 };
+  // 환율은 전 자산 원화 환산의 분모라, 0으로 강등하면 사이트 전역이 ₩0으로 굳어
+  // (크립토/미국주식 원화·헤더 환율·ADR 프리미엄 −100%) 특정 종목 결번보다 훨씬
+  // 나쁘고 무음임(2026-07-31 Opus 리뷰 지적). 그래서 환율만은 다른 소스와 달리
+  // 5분 TTL을 무시하고 이 인스턴스가 받은 마지막 정상값을 계속 사용(환율은 분 단위로
+  // 거의 안 변해 다소 오래돼도 ₩0보다 압도적으로 나음). 그마저 없으면(콜드스타트 +
+  // 업비트 동시 다운) ₩0을 내보내느니 throw → route의 stale-while-revalidate(60s) /
+  // 페이지 ISR이 직전 정상 응답을 서빙하게 유도.
+  let fx: { rate: number; change_24h_pct: number };
+  if (fxFresh && fxFresh.rate > 0) {
+    lgFx = { value: fxFresh, at: now };
+    fx = fxFresh;
+  } else if (lgFx) {
+    console.error("[fetchAllPrices] Upbit 환율 실패 → 마지막 정상 환율 재사용(TTL 무시)");
+    fx = lgFx.value;
+  } else {
+    throw new Error("환율(Upbit) 미가용 + last-good 없음 — ₩0 방지 위해 stale 서빙 유도");
+  }
 
   // 정규장 종가: 비면 TTL 내 직전값으로 (없으면 빈 객체 — 종목은 HL/바이낸스로 표시).
   if (Object.keys(regFresh).length > 0) lgReg = { value: regFresh, at: now };
@@ -409,8 +418,12 @@ function buildAdrRow(
   // ADR N주 = 보통주 1주 환산 → 원화 환산가, 국내 종가 대비 프리미엄(%)
   const ratio = sym.adr_ratio ?? 1;
   const adrImpliedKrw = usd * ratio * fxRate;
-  const adrPremiumPct =
+  // HL premium과 동일한 sanity 가드 — |프리미엄| > 50%면 데이터 신뢰 불가(환율/참조가
+  // 이상)로 보고 null. (환율 last-good 유지로 fx=0발 −100%는 이제 안 나지만 방어적으로)
+  const adrPremiumRaw =
     refKrw != null && refKrw > 0 ? ((adrImpliedKrw - refKrw) / refKrw) * 100 : null;
+  const adrPremiumPct =
+    adrPremiumRaw != null && Math.abs(adrPremiumRaw) <= 50 ? adrPremiumRaw : null;
   return {
     ...sym,
     market: {

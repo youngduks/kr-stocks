@@ -137,6 +137,52 @@ async function fetchBinanceStocks(symbols: string[]): Promise<Map<string, HlAsse
   return out;
 }
 
+// ── 업스트림 last-known-good (2026-07-31) ─────────────────────────────────
+// ISR 재생성 순간 특정 업스트림(바이낸스/HL/업비트/Yahoo)이 잠깐 실패하면,
+// 예전엔 (a) 바이낸스 실패 → 삼성/하이닉스/현대차가 market:null 로 카드 사라짐,
+// (b) HL/업비트 실패 → Promise.all reject → 전체 500, 그리고 그 실패 결과가
+// 30초 캐시로 굳어 그 시간 내내 서빙되는 문제가 있었음. 업스트림 하나가 깜빡여도
+// 직전 정상값으로 버티도록 모듈 레벨 캐시로 폴백. warm 인스턴스 내에서만 유효하지만
+// 30초 revalidate 주기엔 충분. 너무 오래된(TTL 초과) 값은 오해 방지 위해 폐기.
+const FALLBACK_TTL_MS = 5 * 60 * 1000; // 직전 정상값을 최대 5분까지만 재사용
+
+// ctx 맵(HL/바이낸스)은 '심볼별' last-known-good 으로 관리 — 이래야 특정 종목이
+// 여러 사이클 연속 빠져도(부분 드랍) 나머지는 최신, 빠진 것만 TTL 내 직전값으로
+// 채우고, TTL 넘게 계속 죽어있으면 그 종목만 정직하게 빠짐(오래된 값을 실시간인
+// 척 무한정 보여주는 stale-forever 없음). 환율/정규장종가는 전체 객체 단위 폴백.
+type CtxCache = Map<string, { ctx: HlAssetCtx; at: number }>;
+const cXyz: CtxCache = new Map();
+const cVntl: CtxCache = new Map();
+const cBin: CtxCache = new Map();
+let lgFx: { value: { rate: number; change_24h_pct: number }; at: number } | null = null;
+let lgReg: { value: Record<string, RegularClose>; at: number } | null = null;
+
+/** fresh 값으로 심볼별 캐시를 갱신한 뒤, TTL 이내인 심볼만 모아 반환.
+ * fresh가 비어있거나(전량 실패) 일부만 있어도(부분 드랍) 캐시에 남은 직전값이 메움. */
+function mergeCtxCache(
+  cache: CtxCache,
+  freshMap: Map<string, HlAssetCtx>,
+  now: number,
+): Map<string, HlAssetCtx> {
+  for (const [k, v] of freshMap) cache.set(k, { ctx: v, at: now });
+  const out = new Map<string, HlAssetCtx>();
+  for (const [k, { ctx, at }] of cache) {
+    if (now - at <= FALLBACK_TTL_MS) out.set(k, ctx);
+    else cache.delete(k); // 오래된 항목 청소
+  }
+  return out;
+}
+
+/** fetch를 감싸 실패 시 throw 대신 fallback 반환(한 소스 실패가 전체를 죽이지 않게). */
+async function safe<T>(fetcher: () => Promise<T>, fallback: T, label: string): Promise<T> {
+  try {
+    return await fetcher();
+  } catch (e) {
+    console.error(`[fetchAllPrices] ${label} 실패 → 폴백:`, e);
+    return fallback;
+  }
+}
+
 export async function fetchAllPrices(): Promise<{
   fetched_at: number;
   fx: { krw_per_usdt: number; change_24h_pct: number };
@@ -145,13 +191,39 @@ export async function fetchAllPrices(): Promise<{
   const binanceSymbols = SYMBOLS.filter((s) => s.source === "binance" && s.binance_symbol).map(
     (s) => s.binance_symbol!
   );
-  const [xyz, vntl, fx, regCloses, binance] = await Promise.all([
-    fetchHlDex("xyz"),
-    fetchHlDex("vntl"),
-    fetchKrwUsdt(),
-    fetchAllRegularCloses(),
-    fetchBinanceStocks(binanceSymbols),
+  const now = Date.now();
+  // 각 업스트림을 독립적으로 가져옴 — 한 곳 실패가 Promise.all reject(전체 500)나
+  // 특정 종목 market:null(카드 사라짐)로 번지지 않게 safe()로 감싸 빈 값으로 강등.
+  const [xyzFresh, vntlFresh, fxFresh, regFresh, binFresh] = await Promise.all([
+    safe(() => fetchHlDex("xyz"), new Map<string, HlAssetCtx>(), "HL xyz"),
+    safe(() => fetchHlDex("vntl"), new Map<string, HlAssetCtx>(), "HL vntl"),
+    safe(() => fetchKrwUsdt(), null as { rate: number; change_24h_pct: number } | null, "Upbit FX"),
+    safe(() => fetchAllRegularCloses(), {} as Record<string, RegularClose>, "정규장 종가"),
+    safe(() => fetchBinanceStocks(binanceSymbols), new Map<string, HlAssetCtx>(), "Binance 한국주식"),
   ]);
+
+  // 심볼별 폴백 병합 (빈 fresh여도 캐시에 남은 직전값이 TTL까지 버팀)
+  const xyz = mergeCtxCache(cXyz, xyzFresh, now);
+  const vntl = mergeCtxCache(cVntl, vntlFresh, now);
+  const binance = mergeCtxCache(cBin, binFresh, now);
+
+  // 환율: 0/누락이면 원화 환산이 전부 깨지므로 TTL 내 직전값으로, 그것도 없으면 0(마지막 안전).
+  if (fxFresh && fxFresh.rate > 0) lgFx = { value: fxFresh, at: now };
+  const fx =
+    fxFresh && fxFresh.rate > 0
+      ? fxFresh
+      : lgFx && now - lgFx.at <= FALLBACK_TTL_MS
+        ? lgFx.value
+        : { rate: 0, change_24h_pct: 0 };
+
+  // 정규장 종가: 비면 TTL 내 직전값으로 (없으면 빈 객체 — 종목은 HL/바이낸스로 표시).
+  if (Object.keys(regFresh).length > 0) lgReg = { value: regFresh, at: now };
+  const regCloses =
+    Object.keys(regFresh).length > 0
+      ? regFresh
+      : lgReg && now - lgReg.at <= FALLBACK_TTL_MS
+        ? lgReg.value
+        : {};
 
   const rows: PriceRow[] = SYMBOLS.map((sym) => {
     // 미국 ADR (Yahoo·USD 주식) — perp ctx 미사용. Yahoo 정규장 데이터가 곧 메인 가격.

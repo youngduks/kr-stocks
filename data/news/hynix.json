@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-31T15:12:00.019Z",
-  "count": 15,
+  "updated_at": "2026-07-31T17:16:36.876Z",
+  "count": 13,
   "items": [
     {
       "title": "뉴욕증시, 아마존 실적·반도체 강세 속 혼조 출발",
@@ -106,22 +106,6 @@
       "ts": 1785453586000,
       "pub": "Fri, 31 Jul 2026 08:19:46 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "애플, 4∼6월 분기 최대 매출…반도체 가격 급등에도 마진율↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260731009051091",
-      "source": "연합뉴스 국제",
-      "ts": 1785450771000,
-      "pub": "Fri, 31 Jul 2026 07:32:51 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "美 반도체주 폭등…반도체지수 1년3개월만 최대 상승",
-      "link": "https://www.yna.co.kr/view/AKR20260731015500009",
-      "source": "연합뉴스 국제",
-      "ts": 1785449550000,
-      "pub": "Fri, 31 Jul 2026 07:12:30 +0900",
-      "sentiment": "positive"
     }
   ]
 }

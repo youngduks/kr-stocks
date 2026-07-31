@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-31T15:12:00.018Z",
+  "updated_at": "2026-07-31T17:16:36.874Z",
   "count": 15,
   "items": [
+    {
+      "title": "트럼프 \"이란 강하게 타격할 것…이란 거짓말에 신뢰 잃고 있어\"",
+      "link": "https://www.yna.co.kr/view/AKR20260801002700071",
+      "source": "연합뉴스 국제",
+      "ts": 1785517145000,
+      "pub": "Sat, 1 Aug 2026 01:59:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 스페인 '이주민 난입'에 \"재앙…민주 집권시 美도 침략당해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260801001500071",
+      "source": "연합뉴스 국제",
+      "ts": 1785514629000,
+      "pub": "Sat, 1 Aug 2026 01:17:09 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "하마스 \"무장해제 조건은 이스라엘 철군…살상 중단 약속 먼저\"",
       "link": "https://www.yna.co.kr/view/AKR20260731173800079",
@@ -10,6 +26,14 @@
       "ts": 1785506391000,
       "pub": "Fri, 31 Jul 2026 22:59:51 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "\"누가 쓰겠어\" 했는데…트럼프 초상 담긴 '기념 여권', 인기 폭발",
+      "link": "https://www.mt.co.kr/world/2026/07/31/2026073121330212516",
+      "source": "머니투데이",
+      "ts": 1785502497000,
+      "pub": "Fri, 31 Jul 2026 21:54:57 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "'드론전쟁 주도' 우크라 전 국방 \"AI 자율드론 간 전투 온다\"",
@@ -98,30 +122,6 @@
       "ts": 1785455653000,
       "pub": "Fri, 31 Jul 2026 08:54:13 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "트럼프 \"평화委, 하마스 완전한 무장해제 합의…가자 평화 진전\"",
-      "link": "https://www.yna.co.kr/view/AKR20260731022200071",
-      "source": "연합뉴스 국제",
-      "ts": 1785452068000,
-      "pub": "Fri, 31 Jul 2026 07:54:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"평화위원회, 하마스 등 완전한 무장해제 합의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260731020200071",
-      "source": "연합뉴스 국제",
-      "ts": 1785450540000,
-      "pub": "Fri, 31 Jul 2026 07:29:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '폐배터리 등 수출금지' 지시…中 핵심광물 패권 견제",
-      "link": "https://www.yna.co.kr/view/AKR20260731012100071",
-      "source": "연합뉴스 국제",
-      "ts": 1785448040000,
-      "pub": "Fri, 31 Jul 2026 06:47:20 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

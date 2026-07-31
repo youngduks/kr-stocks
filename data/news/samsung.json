@@ -1,14 +1,54 @@
 {
   "category": "samsung",
-  "updated_at": "2026-07-31T07:43:43.341Z",
-  "count": 3,
+  "updated_at": "2026-07-31T10:26:56.759Z",
+  "count": 10,
   "items": [
     {
-      "title": "SK하이닉스, 17년 만에 상한가 '쾅'…삼성전자도 26% '폭등' [종합]",
-      "link": "https://www.hankyung.com/article/2026073181716",
+      "title": "\"AI 못 다루면, 삼성전자 임원승진 못해\"",
+      "link": "https://www.hankyung.com/article/2026073186341",
       "source": "한국경제",
-      "ts": 1785480404000,
-      "pub": "Fri, 31 Jul 2026 15:46:44 +0900",
+      "ts": 1785488425000,
+      "pub": "Fri, 31 Jul 2026 18:00:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "빅테크 AI지출 확대 기조에 삼전닉스 급등…\"공포 정점은 지났다\"",
+      "link": "https://www.hankyung.com/article/2026073186301",
+      "source": "한국경제",
+      "ts": 1785488116000,
+      "pub": "Fri, 31 Jul 2026 17:55:16 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "하이닉스 '17년만 상한가', 삼전 26.8%↑…역대최고 상승률(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260731042151008",
+      "source": "연합뉴스 경제",
+      "ts": 1785482290000,
+      "pub": "Fri, 31 Jul 2026 16:18:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 하이닉스 상한가…삼성전자 26.81% 상승 마감",
+      "link": "https://www.yna.co.kr/view/AKR20260731118100008",
+      "source": "연합뉴스 경제",
+      "ts": 1785479726000,
+      "pub": "Fri, 31 Jul 2026 15:35:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 코스피 18%·코스닥 11%↑…하이닉스 상한가·삼전도 근접",
+      "link": "https://www.yna.co.kr/view/AKR20260731115200008",
+      "source": "연합뉴스 경제",
+      "ts": 1785479028000,
+      "pub": "Fri, 31 Jul 2026 15:23:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피 10% 이상 폭등세, 최고 17%↑…삼전닉스 20% 안팎↑",
+      "link": "https://www.yna.co.kr/view/AKR20260731076100008",
+      "source": "연합뉴스 경제",
+      "ts": 1785464798000,
+      "pub": "Fri, 31 Jul 2026 11:26:38 +0900",
       "sentiment": "positive"
     },
     {
@@ -17,6 +57,22 @@
       "source": "연합뉴스 국제",
       "ts": 1785464325000,
       "pub": "Fri, 31 Jul 2026 11:18:45 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼성전자 '1조弗 클럽' 재진입…코스피 시총도 5천조원대 회복",
+      "link": "https://www.yna.co.kr/view/AKR20260731066100008",
+      "source": "연합뉴스 경제",
+      "ts": 1785461695000,
+      "pub": "Fri, 31 Jul 2026 10:34:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, 10% 이상 폭등 '불기둥'…삼전닉스 20%대↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260731037551008",
+      "source": "연합뉴스 경제",
+      "ts": 1785458080000,
+      "pub": "Fri, 31 Jul 2026 09:34:40 +0900",
       "sentiment": "positive"
     },
     {

@@ -1,14 +1,30 @@
 {
   "category": "hynix",
-  "updated_at": "2026-07-31T07:43:43.341Z",
+  "updated_at": "2026-07-31T10:26:56.759Z",
   "count": 18,
   "items": [
     {
-      "title": "코스피 5500→6500, SK하이닉스 '상한가'...진기록 쏟아진 증시",
-      "link": "https://www.mt.co.kr/stock/2026/07/31/2026073116111478041",
-      "source": "머니투데이",
-      "ts": 1785482108000,
-      "pub": "Fri, 31 Jul 2026 16:15:08 +0900",
+      "title": "'1500% 수익 신화' 20대男 몰락에…반도체 폭등 '환호' 터졌다",
+      "link": "https://www.hankyung.com/article/2026073186261",
+      "source": "한국경제",
+      "ts": 1785488282000,
+      "pub": "Fri, 31 Jul 2026 17:58:02 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "두산, 2조3000억에 '반도체 웨이퍼 톱3' 실트론 인수",
+      "link": "https://www.hankyung.com/article/2026073186371",
+      "source": "한국경제",
+      "ts": 1785488187000,
+      "pub": "Fri, 31 Jul 2026 17:56:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하이닉스 '17년만 상한가', 삼전 26.8%↑…역대최고 상승률(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260731042151008",
+      "source": "연합뉴스 경제",
+      "ts": 1785482290000,
+      "pub": "Fri, 31 Jul 2026 16:18:10 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,75 +36,35 @@
       "sentiment": "negative"
     },
     {
-      "title": "'하이닉스 2배' 막았더니…전투개미 뭉칫돈 3조 몰린 곳이",
-      "link": "https://www.hankyung.com/article/202607317880i",
-      "source": "한국경제",
-      "ts": 1785481051000,
-      "pub": "Fri, 31 Jul 2026 15:57:31 +0900",
+      "title": "[속보] 하이닉스 상한가…삼성전자 26.81% 상승 마감",
+      "link": "https://www.yna.co.kr/view/AKR20260731118100008",
+      "source": "연합뉴스 경제",
+      "ts": 1785479726000,
+      "pub": "Fri, 31 Jul 2026 15:35:26 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "SK하이닉스, 17년 만에 상한가 '쾅'…삼성전자도 26% '폭등' [종합]",
-      "link": "https://www.hankyung.com/article/2026073181716",
-      "source": "한국경제",
-      "ts": 1785480404000,
-      "pub": "Fri, 31 Jul 2026 15:46:44 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "직접 못 사던 CXMT…국내 ETF로 투자길 열렸다",
-      "link": "https://www.hankyung.com/article/202607318096i",
-      "source": "한국경제",
-      "ts": 1785480172000,
-      "pub": "Fri, 31 Jul 2026 15:42:52 +0900",
+      "title": "[속보] 코스피 18%·코스닥 11%↑…하이닉스 상한가·삼전도 근접",
+      "link": "https://www.yna.co.kr/view/AKR20260731115200008",
+      "source": "연합뉴스 경제",
+      "ts": 1785479028000,
+      "pub": "Fri, 31 Jul 2026 15:23:48 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "외국인들 5조원 쓸어 담았다...SK하이닉스, 첫 30% 상한가",
-      "link": "https://www.mt.co.kr/stock/2026/07/31/2026073114355560595",
-      "source": "머니투데이",
-      "ts": 1785476551000,
-      "pub": "Fri, 31 Jul 2026 14:42:31 +0900",
+      "title": "SK하이닉스, 장중 29.95% 상한가 기록…171만8천원",
+      "link": "https://www.yna.co.kr/view/AKR20260731102700008",
+      "source": "연합뉴스 경제",
+      "ts": 1785475609000,
+      "pub": "Fri, 31 Jul 2026 14:26:49 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "사상 첫 국민소득 4만달러 눈앞…반도체 수출 '효자'",
-      "link": "https://www.hankyung.com/article/202607317982i",
-      "source": "한국경제",
-      "ts": 1785476007000,
-      "pub": "Fri, 31 Jul 2026 14:33:27 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "SK하이닉스까지, 시총 2~4위 '상한가'…코스피 '역사적 순간'",
-      "link": "https://www.hankyung.com/article/202607317993i",
-      "source": "한국경제",
-      "ts": 1785475989000,
-      "pub": "Fri, 31 Jul 2026 14:33:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "금오공대, 2027학년도 수시 1187명 선발…'AX·반도체' 첨단학과 신설",
-      "link": "https://www.mt.co.kr/policy/2026/07/31/2026073113101964701",
-      "source": "머니투데이",
-      "ts": 1785475716000,
-      "pub": "Fri, 31 Jul 2026 14:28:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피, 15% 급등…외국인 9조 순매수에 반도체株 '폭등'",
-      "link": "https://www.hankyung.com/article/2026073178876",
-      "source": "한국경제",
-      "ts": 1785473068000,
-      "pub": "Fri, 31 Jul 2026 13:44:28 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "반도체·자동차 쌍끌이에…생산 6년래 최대폭 증가",
-      "link": "https://www.hankyung.com/article/202607317260i",
-      "source": "한국경제",
-      "ts": 1785472939000,
-      "pub": "Fri, 31 Jul 2026 13:42:19 +0900",
+      "title": "[속보] SK하이닉스, 장중 29.95% 상한가 기록…171만8천원",
+      "link": "https://www.yna.co.kr/view/AKR20260731099800008",
+      "source": "연합뉴스 경제",
+      "ts": 1785474708000,
+      "pub": "Fri, 31 Jul 2026 14:11:48 +0900",
       "sentiment": "neutral"
     },
     {
@@ -98,6 +74,30 @@
       "ts": 1785464325000,
       "pub": "Fri, 31 Jul 2026 11:18:45 +0900",
       "sentiment": "positive"
+    },
+    {
+      "title": "'자동차·반도체' 쌍끌이…생산·소비·투자 석달만에 트리플↑(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260731000852002",
+      "source": "연합뉴스 경제",
+      "ts": 1785461731000,
+      "pub": "Fri, 31 Jul 2026 10:35:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "사흘간 폭락장 딛고 반도체 투심개선에 급반등…바닥 찍었나",
+      "link": "https://www.yna.co.kr/view/AKR20260731053700008",
+      "source": "연합뉴스 경제",
+      "ts": 1785460014000,
+      "pub": "Fri, 31 Jul 2026 10:06:54 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "1분기 중견기업 수출 312억달러…반도체·바이오 성장에 8.5％↑",
+      "link": "https://www.yna.co.kr/view/AKR20260731053800003",
+      "source": "연합뉴스 경제",
+      "ts": 1785459725000,
+      "pub": "Fri, 31 Jul 2026 10:02:05 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "애플, 4∼6월 분기 최대 매출…반도체 가격 급등에도 마진율↑(종합2보)",

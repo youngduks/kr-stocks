@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-31T07:43:43.339Z",
-  "count": 21,
+  "updated_at": "2026-07-31T10:26:56.758Z",
+  "count": 19,
   "items": [
+    {
+      "title": "트럼프 \"가자 평화委서 하마스 무장해제 합의\"",
+      "link": "https://www.hankyung.com/article/2026073186161",
+      "source": "한국경제",
+      "ts": 1785488628000,
+      "pub": "Fri, 31 Jul 2026 18:03:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"외국인 유학생, 美 취업하려면 10만달러 내라\"",
+      "link": "https://www.hankyung.com/article/2026073186231",
+      "source": "한국경제",
+      "ts": 1785488189000,
+      "pub": "Fri, 31 Jul 2026 17:56:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'드론전쟁 주도' 우크라 전 국방 \"AI 자율드론 간 전투 온다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260731142600009",
+      "source": "연합뉴스 국제",
+      "ts": 1785485165000,
+      "pub": "Fri, 31 Jul 2026 17:06:05 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[쇼츠] 우크라 내 美드론공장에 러 미사일 쾅!…\"인명 피해 없어\"",
       "link": "https://www.yna.co.kr/view/AKR20260731122700704",
@@ -130,46 +154,6 @@
       "ts": 1785442914000,
       "pub": "Fri, 31 Jul 2026 05:21:54 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프정부, 외국인 졸업생에 '美 취업수수료' 1.4억원 검토\"",
-      "link": "https://www.yna.co.kr/view/AKR20260731006700071",
-      "source": "연합뉴스 국제",
-      "ts": 1785438695000,
-      "pub": "Fri, 31 Jul 2026 04:11:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키 \"러, 오랜만에 우크라에 북한 미사일 쏴\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260730192151108",
-      "source": "연합뉴스 국제",
-      "ts": 1785436024000,
-      "pub": "Fri, 31 Jul 2026 03:27:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "브라질, 미국 추가 관세 부과에 WTO 제소…\"무역협정 위반\"",
-      "link": "https://www.yna.co.kr/view/AKR20260731004000087",
-      "source": "연합뉴스 국제",
-      "ts": 1785433164000,
-      "pub": "Fri, 31 Jul 2026 02:39:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "교전 재개한 美·이란 폭풍전야…중동전역 포화에 트럼프 선택은",
-      "link": "https://www.yna.co.kr/view/AKR20260731001100071",
-      "source": "연합뉴스 국제",
-      "ts": 1785426031000,
-      "pub": "Fri, 31 Jul 2026 00:40:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 최측근 정치적 유산 '러 제재 법안' 관세 무기로 삼나",
-      "link": "https://www.yna.co.kr/view/AKR20260730195400071",
-      "source": "연합뉴스 국제",
-      "ts": 1785425133000,
-      "pub": "Fri, 31 Jul 2026 00:25:33 +0900",
-      "sentiment": "negative"
     }
   ]
 }

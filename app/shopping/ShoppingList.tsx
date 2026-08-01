@@ -69,12 +69,20 @@ export function ShoppingList({ deals }: { deals: DealView[] }) {
         <div className="space-y-3">
           {shown.map((d) => {
             const isHot = (d.score ?? 0) >= NOTIFY_SCORE_MIN;
+            // 카드 본체(가장 큰 탭 타깃)를 원문(비수익) 대신 제휴링크로 연결 —
+            // 예전엔 카드 전체가 아르카/퀘이사존 원문으로 가고 구매링크는 하단
+            // 얇은 바 하나뿐이라, 가장 큰 탭 영역이 트래픽을 커뮤니티로 흘려보내고
+            // 있었음(2026-07-31 Fable 분석: 하루 페이지뷰 1.1만인데 구매클릭 13건).
+            // 제휴링크 아직 없는 딜만 예전처럼 원문으로 연결(대체 목적지가 없으므로).
+            const buyHref = d.affiliate_url
+              ? `/shopping/go?url=${encodeURIComponent(d.affiliate_url)}`
+              : d.link;
             return (
               <div key={d.id} className="rounded-xl border border-line bg-bg-card overflow-hidden">
                 <a
-                  href={d.link}
+                  href={buyHref}
                   target="_blank"
-                  rel="noopener"
+                  rel={d.affiliate_url ? "noopener sponsored" : "noopener"}
                   className="block p-4 hover:bg-white/[0.02] transition-colors"
                 >
                   <div className="flex flex-wrap items-center gap-2 mb-2">
@@ -108,14 +116,25 @@ export function ShoppingList({ deals }: { deals: DealView[] }) {
                   )}
                 </a>
                 {d.affiliate_url && (
-                  <a
-                    href={`/shopping/go?url=${encodeURIComponent(d.affiliate_url)}`}
-                    target="_blank"
-                    rel="noopener sponsored"
-                    className="block text-center py-2.5 text-sm font-bold text-white bg-orange-500 hover:bg-orange-400 transition-colors"
-                  >
-                    💰 이 가격에 구매하기
-                  </a>
+                  <div className="flex items-stretch border-t border-line/60">
+                    <a
+                      href={buyHref}
+                      target="_blank"
+                      rel="noopener sponsored"
+                      className="flex-1 text-center py-2.5 text-sm font-bold text-white bg-orange-500 hover:bg-orange-400 transition-colors"
+                    >
+                      💰 이 가격에 구매하기
+                    </a>
+                    {/* 원문(커뮤니티 게시글) — 댓글로 재고/실황 확인용, 작지만 계속 노출 */}
+                    <a
+                      href={d.link}
+                      target="_blank"
+                      rel="noopener"
+                      className="px-3 flex items-center text-[11px] text-text-dim hover:text-text-muted border-l border-line/60 shrink-0"
+                    >
+                      원문
+                    </a>
+                  </div>
                 )}
               </div>
             );

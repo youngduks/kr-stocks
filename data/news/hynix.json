@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-01T05:15:50.359Z",
-  "count": 17,
+  "updated_at": "2026-08-01T07:59:59.803Z",
+  "count": 19,
   "items": [
+    {
+      "title": "\"삼성전자, SK하이닉스 추월하고 1위\"…파격 전망 나왔다 [강경주의 테크X]",
+      "link": "https://www.hankyung.com/article/2026073181776",
+      "source": "한국경제",
+      "ts": 1785560404000,
+      "pub": "Sat, 01 Aug 2026 14:00:04 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "7월 수출 988억 달러…반도체가 전체 수출 40% 이끌었다",
       "link": "https://www.hankyung.com/article/202608019176i",
@@ -36,6 +44,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "7월 수출 62.8% 늘어난 989억 달러…반도체 수출 179%↑",
+      "link": "https://www.mt.co.kr/economy/2026/08/01/2026080108143948329",
+      "source": "머니투데이",
+      "ts": 1785544297000,
+      "pub": "Sat, 01 Aug 2026 09:31:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "[속보] 7월 반도체 수출 410억달러…두 달 연속 400억원대",
       "link": "https://www.hankyung.com/article/2026080190627",
       "source": "한국경제",
@@ -60,11 +76,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "엔비디아, 나흘 만에 애플 제치고 '세계 시총 1위' 탈환",
-      "link": "https://www.hankyung.com/article/2026080189627",
-      "source": "한국경제",
-      "ts": 1785536051000,
-      "pub": "Sat, 01 Aug 2026 07:14:11 +0900",
+      "title": "AI가 바꾼 메모리 거래…'뉴노멀'된 삼전닉스·마이크론 장기공급계약",
+      "link": "https://www.mt.co.kr/industry/2026/08/01/2026073112495369690",
+      "source": "머니투데이",
+      "ts": 1785540600000,
+      "pub": "Sat, 01 Aug 2026 08:30:00 +0900",
       "sentiment": "neutral"
     },
     {

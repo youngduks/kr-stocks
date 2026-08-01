@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-01T05:15:50.357Z",
-  "count": 18,
+  "updated_at": "2026-08-01T07:59:59.801Z",
+  "count": 23,
   "items": [
+    {
+      "title": "젤렌스키, 트럼프에 \"러 본토 공습에 스타링크 허용\" 요청",
+      "link": "https://www.yna.co.kr/view/AKR20260801039300009",
+      "source": "연합뉴스 국제",
+      "ts": 1785568327000,
+      "pub": "Sat, 1 Aug 2026 16:12:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프가 '시민 탓' 했던 반사연못 훼손…알고보니 '부실 시공'",
+      "link": "https://www.mt.co.kr/world/2026/08/01/2026080113065270364",
+      "source": "머니투데이",
+      "ts": 1785559268000,
+      "pub": "Sat, 01 Aug 2026 13:41:08 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "전쟁 민낯 드러나자…러, 우크라 드론피해 영상에 '반역죄' 경고",
       "link": "https://www.yna.co.kr/view/AKR20260801030500009",
@@ -20,11 +36,27 @@
       "sentiment": "neutral"
     },
     {
+      "title": "\"워시 美 연준 의장, 연 8회 금리결정 회의 축소 검토\"-NYT",
+      "link": "https://www.mt.co.kr/world/2026/08/01/2026080109142650355",
+      "source": "머니투데이",
+      "ts": 1785545028000,
+      "pub": "Sat, 01 Aug 2026 09:43:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "NYT \"워시, '1년에 8번' Fed 금리결정 회의 축소 검토\"",
       "link": "https://www.hankyung.com/article/2026080190377",
       "source": "한국경제",
       "ts": 1785541410000,
       "pub": "Sat, 01 Aug 2026 08:43:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 주말 이란 공격 준비…에너지 시설 공습 계획\"",
+      "link": "https://www.mt.co.kr/world/2026/08/01/2026080108171682966",
+      "source": "머니투데이",
+      "ts": 1785541308000,
+      "pub": "Sat, 01 Aug 2026 08:41:48 +0900",
       "sentiment": "neutral"
     },
     {
@@ -41,6 +73,14 @@
       "source": "한국경제",
       "ts": 1785539046000,
       "pub": "Sat, 01 Aug 2026 08:04:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "FIFA 트럼프 일가 매각 철회…거센 반발에 백기",
+      "link": "https://www.mt.co.kr/world/2026/08/01/2026080107263847860",
+      "source": "머니투데이",
+      "ts": 1785537229000,
+      "pub": "Sat, 01 Aug 2026 07:33:49 +0900",
       "sentiment": "neutral"
     },
     {

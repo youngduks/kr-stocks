@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-01T05:15:50.358Z",
-  "count": 7,
+  "updated_at": "2026-08-01T07:59:59.802Z",
+  "count": 8,
   "items": [
+    {
+      "title": "\"삼성전자, SK하이닉스 추월하고 1위\"…파격 전망 나왔다 [강경주의 테크X]",
+      "link": "https://www.hankyung.com/article/2026073181776",
+      "source": "한국경제",
+      "ts": 1785560404000,
+      "pub": "Sat, 01 Aug 2026 14:00:04 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"메모리 5개사, 2분기 135조원 손에 쥐어…빅테크 자금 이동\"",
       "link": "https://www.yna.co.kr/view/AKR20260801028800073",
@@ -12,11 +20,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"아이폰 대신 갤럭시\" 한국 1020 돌변 이유가…'깜짝 결과'",
-      "link": "https://www.hankyung.com/article/2026073185231",
-      "source": "한국경제",
-      "ts": 1785531603000,
-      "pub": "Sat, 01 Aug 2026 06:00:03 +0900",
+      "title": "AI가 바꾼 메모리 거래…'뉴노멀'된 삼전닉스·마이크론 장기공급계약",
+      "link": "https://www.mt.co.kr/industry/2026/08/01/2026073112495369690",
+      "source": "머니투데이",
+      "ts": 1785540600000,
+      "pub": "Sat, 01 Aug 2026 08:30:00 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 
 const SESSION_KEY = "kr-stocks:sid";
@@ -38,6 +38,11 @@ export function StatsBar() {
   const isEn = pathname === "/en" || pathname.startsWith("/en/");
   const locale: "ko" | "en" = isEn ? "en" : "ko";
   const t = I18N[locale];
+  // 인터벌은 마운트 시 한 번만 걸고(deps []), 경로는 ref로 최신값을 읽음 —
+  // pathname을 deps에 넣으면 클라이언트 네비게이션마다 인터벌이 재시작되며
+  // visit POST가 과다 발사됨. ref 없이 클로저로 쓰면 반대로 옛 경로가 박제됨.
+  const pathRef = useRef(pathname);
+  pathRef.current = pathname;
 
   useEffect(() => {
     let alive = true;
@@ -51,10 +56,14 @@ export function StatsBar() {
         const needVisit = now - lastVisitTs >= VISIT_REFRESH_MS;
         if (needVisit) {
           lastVisitTs = now;
+          // path 동봉 — 서버 로그의 requestPath는 next/link 프리페치까지 섞여
+          // 실제 방문 구분이 불가능함(2026-08-01 실측: /shopping·/news·/poll·
+          // /consensus·/liquidation이 전부 동일 카운트 = 프리페치 노이즈).
+          // 이 비컨은 실제 브라우저에서만 발사되므로 페이지별 진짜 방문 계측용.
           const r = await fetch("/api/visit", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ sessionId: sid }),
+            body: JSON.stringify({ sessionId: sid, path: pathRef.current }),
           });
           const d = await r.json();
           if (alive && d && typeof d.online === "number") {

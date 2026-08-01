@@ -119,12 +119,23 @@ export default async function ShoppingPage() {
         </Link>
 
         <article className="mt-4">
+          {/* 카피는 이 사이트 오디언스(주식·코인 트레이더) 맥락에 맞춤 —
+              "주식으로 받은 스트레스, 소비로 푼다 / 잃었으면 쌀먹이라도" 서사.
+              단순 '핫딜 모음'이 아니라 여기 방문자가 공감할 이유를 만들어 유입 전환. */}
           <header className="mb-8">
             <div className="text-xs text-orange-400 font-semibold mb-2 tracking-wider">줍줍쇼핑</div>
-            <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-3">🛒 쿠팡 핫딜</h1>
+            <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-3">
+              🛒 오늘 물렸으면, 여기서 쌀먹
+            </h1>
             <p className="text-text-muted text-base leading-relaxed">
-              쿠팡 딜만 골라서 네이버 쇼핑 시세 대비 할인율을 자동 계산합니다. 할인율·긴급 키워드·댓글
-              증가속도가 겹치면 <span className="text-text font-semibold">🚨 가격오류의심</span> 배지가 붙습니다.
+              주식은 물타기 하면 안 되지만, 장바구니는 물타기 해도 됩니다.
+              <br className="hidden sm:block" />
+              시세보다 확실히 싼 쿠팡 딜만 골라 <span className="text-accent-green font-semibold">평균가 대비 할인율</span>을
+              자동 계산합니다. 주식처럼 <span className="text-text font-semibold">저점에서 담으세요.</span>
+            </p>
+            <p className="text-text-dim text-xs mt-3 leading-relaxed">
+              💡 30% 이상 싸면 <span className="text-accent-green font-semibold">📉 지금이 저점</span> 배지가,
+              가격오류로 의심될 만큼 비정상적으로 싸면 <span className="text-red-400 font-semibold">🚨 가격오류의심</span> 배지가 붙습니다.
             </p>
           </header>
 

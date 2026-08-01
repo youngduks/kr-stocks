@@ -78,10 +78,22 @@ function catGroup(cat: string): string {
   return "기타";
 }
 
+// 전체 탭에서 가전·전자제품을 상단으로 — 형님 지시(2026-08-01): 식품이 물량 대부분을
+// 차지해 전자·IT/가전이 아래로 밀려나는데, 오디언스(주식·코인 트레이더) 정합도 높고
+// 객단가도 훨씬 커서(TCL 모니터 ₩42만 등) 매출 기여가 큰 카테고리를 먼저 보여줘야 함
+// (Fable 분석 P1-5와 동일 방향). 카테고리별 탭(전자제품 탭 등)은 이미 단일 카테고리라
+// 이 우선순위와 무관 — '전체' 탭에서만 체감됨.
+const PRIORITY_GROUPS = new Set(["전자제품", "가전"]);
+
 export default async function ShoppingPage() {
   const [data, deals] = await Promise.all([fetchAllPrices(), fetchDeals()]);
   const views: DealView[] = [...deals]
-    .sort((a, b) => (b.score ?? 0) - (a.score ?? 0) || b.ts - a.ts)
+    .sort((a, b) => {
+      const aPri = PRIORITY_GROUPS.has(catGroup(a.cat)) ? 1 : 0;
+      const bPri = PRIORITY_GROUPS.has(catGroup(b.cat)) ? 1 : 0;
+      if (aPri !== bPri) return bPri - aPri;
+      return (b.score ?? 0) - (a.score ?? 0) || b.ts - a.ts;
+    })
     .map((d) => ({
       id: d.id,
       title: d.title,

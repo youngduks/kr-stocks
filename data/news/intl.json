@@ -1,7 +1,7 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-01T10:02:41.540Z",
-  "count": 20,
+  "updated_at": "2026-08-01T11:54:11.225Z",
+  "count": 15,
   "items": [
     {
       "title": "젤렌스키, 트럼프에 \"러 본토 공습에 스타링크 허용\" 요청",
@@ -9,14 +9,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785568327000,
       "pub": "Sat, 1 Aug 2026 16:12:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프가 '시민 탓' 했던 반사연못 훼손…알고보니 '부실 시공'",
-      "link": "https://www.mt.co.kr/world/2026/08/01/2026080113065270364",
-      "source": "머니투데이",
-      "ts": 1785559268000,
-      "pub": "Sat, 01 Aug 2026 13:41:08 +0900",
       "sentiment": "neutral"
     },
     {
@@ -33,30 +25,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785547313000,
       "pub": "Sat, 1 Aug 2026 10:21:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"워시 美 연준 의장, 연 8회 금리결정 회의 축소 검토\"-NYT",
-      "link": "https://www.mt.co.kr/world/2026/08/01/2026080109142650355",
-      "source": "머니투데이",
-      "ts": 1785545028000,
-      "pub": "Sat, 01 Aug 2026 09:43:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "NYT \"워시, '1년에 8번' Fed 금리결정 회의 축소 검토\"",
-      "link": "https://www.hankyung.com/article/2026080190377",
-      "source": "한국경제",
-      "ts": 1785541410000,
-      "pub": "Sat, 01 Aug 2026 08:43:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 주말 이란 공격 준비…에너지 시설 공습 계획\"",
-      "link": "https://www.mt.co.kr/world/2026/08/01/2026080108171682966",
-      "source": "머니투데이",
-      "ts": 1785541308000,
-      "pub": "Sat, 01 Aug 2026 08:41:48 +0900",
       "sentiment": "neutral"
     },
     {
@@ -153,14 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785480786000,
       "pub": "Fri, 31 Jul 2026 15:53:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 우크라서 美기업 공장 러 탄도미사일 피격…\"AI 자폭 드론 생산\"",
-      "link": "https://www.yna.co.kr/view/AKR20260731114600704",
-      "source": "연합뉴스 국제",
-      "ts": 1785479012000,
-      "pub": "Fri, 31 Jul 2026 15:23:32 +0900",
       "sentiment": "neutral"
     }
   ]

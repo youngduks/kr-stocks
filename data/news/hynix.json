@@ -1,22 +1,38 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-01T01:45:11.865Z",
-  "count": 16,
+  "updated_at": "2026-08-01T05:15:50.359Z",
+  "count": 17,
   "items": [
+    {
+      "title": "7월 수출 988억 달러…반도체가 전체 수출 40% 이끌었다",
+      "link": "https://www.hankyung.com/article/202608019176i",
+      "source": "한국경제",
+      "ts": 1785554061000,
+      "pub": "Sat, 01 Aug 2026 12:14:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"메모리 5개사, 2분기 135조원 손에 쥐어…빅테크 자금 이동\"",
+      "link": "https://www.yna.co.kr/view/AKR20260801028800073",
+      "source": "연합뉴스 국제",
+      "ts": 1785551248000,
+      "pub": "Sat, 1 Aug 2026 11:27:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "구마모토 반도체업계, 강진서 회복중…\"10년전 교훈에 대책강화\"",
+      "link": "https://www.yna.co.kr/view/AKR20260801027300073",
+      "source": "연합뉴스 국제",
+      "ts": 1785550239000,
+      "pub": "Sat, 1 Aug 2026 11:10:39 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "7월 수출 989억달러 역대 2위…반도체 두달째 400억달러대(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260801021152003",
       "source": "연합뉴스 경제",
       "ts": 1785548111000,
       "pub": "Sat, 1 Aug 2026 10:35:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "7월 수출 62.8% 늘어난 989억 달러…반도체 수출 179%↑",
-      "link": "https://www.mt.co.kr/economy/2026/08/01/2026080108143948329",
-      "source": "머니투데이",
-      "ts": 1785544297000,
-      "pub": "Sat, 01 Aug 2026 09:31:37 +0900",
       "sentiment": "neutral"
     },
     {
@@ -36,11 +52,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "AI가 바꾼 메모리 거래…'뉴노멀'된 삼전닉스·마이크론 장기공급계약",
-      "link": "https://www.mt.co.kr/industry/2026/08/01/2026073112495369690",
-      "source": "머니투데이",
-      "ts": 1785540600000,
-      "pub": "Sat, 01 Aug 2026 08:30:00 +0900",
+      "title": "8년 묵힌 4조원이 '63조' 됐다…SK하이닉스 '잭팟' [홍민성의 테토남]",
+      "link": "https://www.hankyung.com/article/202607317995g",
+      "source": "한국경제",
+      "ts": 1785542413000,
+      "pub": "Sat, 01 Aug 2026 09:00:13 +0900",
       "sentiment": "neutral"
     },
     {
@@ -50,14 +66,6 @@
       "ts": 1785536051000,
       "pub": "Sat, 01 Aug 2026 07:14:11 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "애플 '4일 천하'…빅테크 실적에 AI 우려 뚝, 엔비디아 시총 1위 탈환",
-      "link": "https://www.mt.co.kr/world/2026/08/01/2026080106465873007",
-      "source": "머니투데이",
-      "ts": 1785534960000,
-      "pub": "Sat, 01 Aug 2026 06:56:00 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "엔비디아, 나흘 만에 시가총액 1위 복귀…애플, 7%대 폭락",

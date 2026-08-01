@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-07-31T23:51:48.531Z",
-  "count": 18,
+  "updated_at": "2026-08-01T01:45:11.863Z",
+  "count": 26,
   "items": [
+    {
+      "title": "\"미국·이스라엘, 이번 주말 이란 에너지 인프라 공습 계획\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260801011251071",
+      "source": "연합뉴스 국제",
+      "ts": 1785547313000,
+      "pub": "Sat, 1 Aug 2026 10:21:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"워시 美 연준 의장, 연 8회 금리결정 회의 축소 검토\"-NYT",
+      "link": "https://www.mt.co.kr/world/2026/08/01/2026080109142650355",
+      "source": "머니투데이",
+      "ts": 1785545028000,
+      "pub": "Sat, 01 Aug 2026 09:43:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "NYT \"워시, '1년에 8번' Fed 금리결정 회의 축소 검토\"",
+      "link": "https://www.hankyung.com/article/2026080190377",
+      "source": "한국경제",
+      "ts": 1785541410000,
+      "pub": "Sat, 01 Aug 2026 08:43:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 주말 이란 공격 준비…에너지 시설 공습 계획\"",
+      "link": "https://www.mt.co.kr/world/2026/08/01/2026080108171682966",
+      "source": "머니투데이",
+      "ts": 1785541308000,
+      "pub": "Sat, 01 Aug 2026 08:41:48 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "바닥 찍은 듯한데, 상승 가로막는 금리…FOMC 횟수 줄인다? [김현석의 월스트리트나우]",
       "link": "https://www.hankyung.com/article/202608018950i",
@@ -20,11 +52,51 @@
       "sentiment": "neutral"
     },
     {
+      "title": "FIFA 트럼프 일가 매각 철회…거센 반발에 백기",
+      "link": "https://www.mt.co.kr/world/2026/08/01/2026080107263847860",
+      "source": "머니투데이",
+      "ts": 1785537229000,
+      "pub": "Sat, 01 Aug 2026 07:33:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "NYT \"워시, 1년에 8번 열어온 연준 금리결정 회의 축소 검토\"",
       "link": "https://www.yna.co.kr/view/AKR20260801010900072",
       "source": "연합뉴스 국제",
       "ts": 1785536724000,
       "pub": "Sat, 1 Aug 2026 07:25:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"민주당 집권하면 스페인 꼴 난다\"…트럼프 이민정책 선거쟁점화",
+      "link": "https://www.mt.co.kr/world/2026/08/01/2026080106370482549",
+      "source": "머니투데이",
+      "ts": 1785534077000,
+      "pub": "Sat, 01 Aug 2026 06:41:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李 대통령, '아르헨티나의 트럼프' 밀레이와 케미는? \"공감 컸고 화기애애\"",
+      "link": "https://www.mt.co.kr/politics/2026/08/01/2026080106174394076",
+      "source": "머니투데이",
+      "ts": 1785533076000,
+      "pub": "Sat, 01 Aug 2026 06:24:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 금리동결 이틀만에…연준 위원 3명 \"0.25%p 올려야\" 공개 성명",
+      "link": "https://www.mt.co.kr/world/2026/08/01/2026080105492184772",
+      "source": "머니투데이",
+      "ts": 1785531191000,
+      "pub": "Sat, 01 Aug 2026 05:53:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 국무부의 죽음 [PADO]",
+      "link": "https://www.mt.co.kr/world/2026/08/01/2026073117391284771",
+      "source": "머니투데이",
+      "ts": 1785531120000,
+      "pub": "Sat, 01 Aug 2026 05:52:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -44,12 +116,28 @@
       "sentiment": "neutral"
     },
     {
+      "title": "트럼프 \"이란 '못 참겠다' 할 때까지 타격\"…공습 재개 이유는",
+      "link": "https://www.mt.co.kr/world/2026/08/01/2026080104524014956",
+      "source": "머니투데이",
+      "ts": 1785528356000,
+      "pub": "Sat, 01 Aug 2026 05:05:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "美연준위원 3인, 금리인상 공개 촉구…\"늦기 전에 행동해야\"",
       "link": "https://www.yna.co.kr/view/AKR20260801005700072",
       "source": "연합뉴스 국제",
       "ts": 1785527903000,
       "pub": "Sat, 1 Aug 2026 04:58:23 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 승리 맞혀 뜨더니…\"벌금 52조원\" 뉴욕주, 칼시에 불법도박 소송",
+      "link": "https://www.mt.co.kr/world/2026/08/01/2026080104121153176",
+      "source": "머니투데이",
+      "ts": 1785526068000,
+      "pub": "Sat, 01 Aug 2026 04:27:48 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "트럼프 \"이스라엘 매우 만족\"…하마스 무장해제 합의 호응 압박(종합)",
@@ -121,30 +209,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785479012000,
       "pub": "Fri, 31 Jul 2026 15:23:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 얼굴새긴 '애국자 여권' 인기몰이…25만부로 확대 발급",
-      "link": "https://www.yna.co.kr/view/AKR20260731070300009",
-      "source": "연합뉴스 국제",
-      "ts": 1785465016000,
-      "pub": "Fri, 31 Jul 2026 11:30:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러시아, 우크라 소재 美드론공장에 탄도 미사일 공격",
-      "link": "https://www.yna.co.kr/view/AKR20260731070400009",
-      "source": "연합뉴스 국제",
-      "ts": 1785463252000,
-      "pub": "Fri, 31 Jul 2026 11:00:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"평화委, 하마스 무장해제 합의\"…하마스도 동의(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260731022251071",
-      "source": "연합뉴스 국제",
-      "ts": 1785463037000,
-      "pub": "Fri, 31 Jul 2026 10:57:17 +0900",
       "sentiment": "neutral"
     }
   ]

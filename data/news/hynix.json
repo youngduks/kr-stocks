@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-01T20:03:49.350Z",
+  "updated_at": "2026-08-01T21:42:44.803Z",
   "count": 15,
   "items": [
+    {
+      "title": "中 창신메모리 상장, 메모리 '4강 체제' 진입?",
+      "link": "https://www.mt.co.kr/economy/2026/08/02/2026073109132696183",
+      "source": "머니투데이",
+      "ts": 1785618000000,
+      "pub": "Sun, 02 Aug 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"설마 회장님?\"…슈카 방송에 잡힌 '하이닉스 48억' 매수 정체",
       "link": "https://www.hankyung.com/article/2026080193947",
@@ -113,14 +121,6 @@
       "source": "연합뉴스 경제",
       "ts": 1785474708000,
       "pub": "Fri, 31 Jul 2026 14:11:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'자동차·반도체' 쌍끌이…생산·소비·투자 석달만에 트리플↑(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260731000852002",
-      "source": "연합뉴스 경제",
-      "ts": 1785461731000,
-      "pub": "Fri, 31 Jul 2026 10:35:31 +0900",
       "sentiment": "neutral"
     }
   ]

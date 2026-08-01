@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-01T20:03:49.349Z",
-  "count": 10,
+  "updated_at": "2026-08-01T21:42:44.802Z",
+  "count": 11,
   "items": [
+    {
+      "title": "20% 넘는 폭등에도…삼전닉스 주가, 목표가의 반토막 수준",
+      "link": "https://www.yna.co.kr/view/AKR20260801014400008",
+      "source": "연합뉴스 경제",
+      "ts": 1785619500000,
+      "pub": "Sun, 2 Aug 2026 06:25:00 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "中 창신메모리 상장, 메모리 '4강 체제' 진입?",
+      "link": "https://www.mt.co.kr/economy/2026/08/02/2026073109132696183",
+      "source": "머니투데이",
+      "ts": 1785618000000,
+      "pub": "Sun, 02 Aug 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼전닉스 레버리지 ETF 후폭풍…\"김용범 경질해야\" 56.3%",
       "link": "https://www.hankyung.com/article/2026080194177",
@@ -74,14 +90,6 @@
       "ts": 1785464798000,
       "pub": "Fri, 31 Jul 2026 11:26:38 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "삼성전자 '1조弗 클럽' 재진입…코스피 시총도 5천조원대 회복",
-      "link": "https://www.yna.co.kr/view/AKR20260731066100008",
-      "source": "연합뉴스 경제",
-      "ts": 1785461695000,
-      "pub": "Fri, 31 Jul 2026 10:34:55 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-01T20:03:49.348Z",
-  "count": 17,
+  "updated_at": "2026-08-01T21:42:44.801Z",
+  "count": 16,
   "items": [
+    {
+      "title": "트럼프 시대, 유럽과 아시아 동맹국의 엇갈린 생존 전략",
+      "link": "https://www.mt.co.kr/world/2026/08/02/2026080123422942676",
+      "source": "머니투데이",
+      "ts": 1785618000000,
+      "pub": "Sun, 02 Aug 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 논란의 사법피해자기금 재추진 위협하며 측근 인준 압박",
       "link": "https://www.yna.co.kr/view/AKR20260802001200071",
@@ -25,14 +33,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785568327000,
       "pub": "Sat, 1 Aug 2026 16:12:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프가 '시민 탓' 했던 반사연못 훼손…알고보니 '부실 시공'",
-      "link": "https://www.mt.co.kr/world/2026/08/01/2026080113065270364",
-      "source": "머니투데이",
-      "ts": 1785559268000,
-      "pub": "Sat, 01 Aug 2026 13:41:08 +0900",
       "sentiment": "neutral"
     },
     {
@@ -129,14 +129,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785506391000,
       "pub": "Fri, 31 Jul 2026 22:59:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'드론전쟁 주도' 우크라 전 국방 \"AI 자율드론 간 전투 온다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260731142600009",
-      "source": "연합뉴스 국제",
-      "ts": 1785485165000,
-      "pub": "Fri, 31 Jul 2026 17:06:05 +0900",
       "sentiment": "neutral"
     }
   ]

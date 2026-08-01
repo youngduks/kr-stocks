@@ -95,7 +95,7 @@ export function ShoppingList({ deals }: { deals: DealView[] }) {
                       </span>
                     )}
                     {d.discount_pct != null && (
-                      <span className="text-[11px] font-bold text-bg bg-accent-amber px-2 py-0.5 rounded-full ml-auto">
+                      <span className="text-[11px] font-bold text-bg bg-accent-green px-2 py-0.5 rounded-full ml-auto tabular">
                         ▼{d.discount_pct}%
                       </span>
                     )}
@@ -110,8 +110,22 @@ export function ShoppingList({ deals }: { deals: DealView[] }) {
                     <span className="ml-auto text-text-dim">{d.timeAgoStr}</span>
                   </div>
                   {d.market_price && d.discount_pct != null && (
-                    <div className="mt-2 text-xs text-text-dim">
-                      시세 {d.market_price} → <span className="text-accent-amber font-bold">딜가 {d.price} ({d.discount_pct}%↓)</span>
+                    <div className="mt-2.5 pt-2 border-t border-line/50 flex items-center gap-2 flex-wrap">
+                      <div className="text-xs tabular">
+                        <span className="text-text-dim line-through decoration-text-dim/50">
+                          평균 시세 {d.market_price}
+                        </span>
+                        <span className="text-text-dim mx-1">→</span>
+                        <span className="text-accent-green font-bold">
+                          {d.price} ({d.discount_pct}%↓)
+                        </span>
+                      </div>
+                      {/* 30%+ 할인만 '저점매수'로 강조 — 모든 딜에 붙이면 신뢰도가 떨어짐 */}
+                      {d.discount_pct >= 30 && (
+                        <span className="text-[10px] font-bold text-accent-green bg-accent-green/10 border border-accent-green/30 px-1.5 py-0.5 rounded">
+                          📉 지금이 저점
+                        </span>
+                      )}
                     </div>
                   )}
                 </a>

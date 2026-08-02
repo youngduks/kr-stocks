@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-02T05:15:00.960Z",
+  "updated_at": "2026-08-02T08:02:19.825Z",
   "count": 23,
   "items": [
+    {
+      "title": "중동전쟁 여파…우크라, 러 탄도미사일에 사실상 무방비",
+      "link": "https://www.yna.co.kr/view/AKR20260802032300009",
+      "source": "연합뉴스 국제",
+      "ts": 1785653205000,
+      "pub": "Sun, 2 Aug 2026 15:46:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[쇼츠] 트럼프, 이란 공습 취소…\"빈살만이 보복 우려했다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260802029500704",
+      "source": "연합뉴스 국제",
+      "ts": 1785650527000,
+      "pub": "Sun, 2 Aug 2026 15:02:07 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[영상] 트럼프 \"이란 공격 취소\"…'신속한 합의' 조건부 제시",
+      "link": "https://www.yna.co.kr/view/AKR20260802028200704",
+      "source": "연합뉴스 국제",
+      "ts": 1785649243000,
+      "pub": "Sun, 2 Aug 2026 14:40:43 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"사우디 빈살만, 트럼프에 '대이란 공습' 만류…보복 우려\"",
       "link": "https://www.yna.co.kr/view/AKR20260802021400009",
@@ -28,14 +52,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 또 '타코'...\"이란 공격 취소, 호르무즈 개방·핵 위협 종식 협상\"",
-      "link": "https://www.mt.co.kr/world/2026/08/02/2026080211274918233",
-      "source": "머니투데이",
-      "ts": 1785638276000,
-      "pub": "Sun, 02 Aug 2026 11:37:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"이란 공격 취소\" 발표…'신속한 합의' 조건부 제시",
       "link": "https://www.hankyung.com/article/2026080297957",
       "source": "한국경제",
@@ -49,22 +65,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785636988000,
       "pub": "Sun, 2 Aug 2026 11:16:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 철군 발표에도…이스라엘 전투기 가자지구 공습",
-      "link": "https://www.mt.co.kr/world/2026/08/02/2026080209573589934",
-      "source": "머니투데이",
-      "ts": 1785635845000,
-      "pub": "Sun, 02 Aug 2026 10:57:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'국경 뚫은 6만명' EU 긴급 화상회의…일각선 '트럼프 배후설'",
-      "link": "https://www.mt.co.kr/world/2026/08/02/2026080209151246442",
-      "source": "머니투데이",
-      "ts": 1785629982000,
-      "pub": "Sun, 02 Aug 2026 09:19:42 +0900",
       "sentiment": "neutral"
     },
     {

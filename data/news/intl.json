@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-02T20:04:04.552Z",
-  "count": 21,
+  "updated_at": "2026-08-02T21:43:05.517Z",
+  "count": 23,
   "items": [
+    {
+      "title": "스페이스X 첫 실적 발표, 주가 100달러 지킬까…고용지표 주목[이번주 美 증시는]",
+      "link": "https://www.mt.co.kr/world/2026/08/03/2026080119201181440",
+      "source": "머니투데이",
+      "ts": 1785702900000,
+      "pub": "Mon, 03 Aug 2026 05:35:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프-與상원 이상기류…\"원내대표와 2주간 전화 한통 없었다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260803002700071",
+      "source": "연합뉴스 국제",
+      "ts": 1785701546000,
+      "pub": "Mon, 3 Aug 2026 05:12:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 중동 긴장 여전한데 골프 우승 자랑…\"내 재능 덕분\"",
+      "link": "https://www.yna.co.kr/view/AKR20260803002200071",
+      "source": "연합뉴스 국제",
+      "ts": 1785701139000,
+      "pub": "Mon, 3 Aug 2026 05:05:39 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"트럼프의 이란 공격 취소, 이스라엘은 까맣게 몰랐다\"",
       "link": "https://www.yna.co.kr/view/AKR20260803002300079",
@@ -25,14 +49,6 @@
       "source": "한국경제",
       "ts": 1785673823000,
       "pub": "Sun, 02 Aug 2026 21:30:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"이란이 요청해 공격 취소\" 트럼프…테헤란 \"새로운 거짓말\"",
-      "link": "https://www.mt.co.kr/world/2026/08/02/2026080219442585281",
-      "source": "머니투데이",
-      "ts": 1785669385000,
-      "pub": "Sun, 02 Aug 2026 20:16:25 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-02T20:04:04.554Z",
-  "count": 11,
+  "updated_at": "2026-08-02T21:43:05.758Z",
+  "count": 9,
   "items": [
     {
       "title": "메모리 거래판 바뀐다… 뉴노멀 된 장기계약",
@@ -73,22 +73,6 @@
       "source": "연합뉴스 경제",
       "ts": 1785482290000,
       "pub": "Fri, 31 Jul 2026 16:18:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 하이닉스 상한가…삼성전자 26.81% 상승 마감",
-      "link": "https://www.yna.co.kr/view/AKR20260731118100008",
-      "source": "연합뉴스 경제",
-      "ts": 1785479726000,
-      "pub": "Fri, 31 Jul 2026 15:35:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 코스피 18%·코스닥 11%↑…하이닉스 상한가·삼전도 근접",
-      "link": "https://www.yna.co.kr/view/AKR20260731115200008",
-      "source": "연합뉴스 경제",
-      "ts": 1785479028000,
-      "pub": "Fri, 31 Jul 2026 15:23:48 +0900",
       "sentiment": "neutral"
     }
   ]

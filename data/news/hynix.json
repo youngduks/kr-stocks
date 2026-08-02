@@ -1,22 +1,30 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-01T23:46:08.809Z",
-  "count": 13,
+  "updated_at": "2026-08-02T01:30:13.660Z",
+  "count": 14,
   "items": [
+    {
+      "title": "\"하이닉스 298만원 찍던 날이\"…'전래동화' 온라인 밈 확산에 '씁쓸'",
+      "link": "https://www.mt.co.kr/society/2026/08/02/2026080209214658517",
+      "source": "머니투데이",
+      "ts": 1785631828000,
+      "pub": "Sun, 02 Aug 2026 09:50:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中 창신메모리 상장, 메모리 '4강 체제' 진입?",
+      "link": "https://www.mt.co.kr/economy/2026/08/02/2026073109132696183",
+      "source": "머니투데이",
+      "ts": 1785618000000,
+      "pub": "Sun, 02 Aug 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"설마 회장님?\"…슈카 방송에 잡힌 '하이닉스 48억' 매수 정체",
       "link": "https://www.hankyung.com/article/2026080193947",
       "source": "한국경제",
       "ts": 1785585954000,
       "pub": "Sat, 01 Aug 2026 21:05:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼성전자, SK하이닉스 추월하고 1위\"…파격 전망 나왔다 [강경주의 테크X]",
-      "link": "https://www.hankyung.com/article/2026073181776",
-      "source": "한국경제",
-      "ts": 1785560404000,
-      "pub": "Sat, 01 Aug 2026 14:00:04 +0900",
       "sentiment": "neutral"
     },
     {

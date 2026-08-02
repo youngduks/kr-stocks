@@ -1,22 +1,22 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-02T14:22:28.541Z",
-  "count": 21,
+  "updated_at": "2026-08-02T15:51:21.156Z",
+  "count": 20,
   "items": [
+    {
+      "title": "트럼프의 중간선거후 '빅픽처'…\"마가 공화 업고 대선판 주물럭\"",
+      "link": "https://www.yna.co.kr/view/AKR20260802056000071",
+      "source": "연합뉴스 국제",
+      "ts": 1785684761000,
+      "pub": "Mon, 3 Aug 2026 00:32:41 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'北 극비작전 실패' 보도하자…트럼프 행정부, 기자 상대로 취재원 색출",
       "link": "https://www.hankyung.com/article/2026080203567",
       "source": "한국경제",
       "ts": 1785673823000,
       "pub": "Sun, 02 Aug 2026 21:30:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"이란이 요청해 공격 취소\" 트럼프…테헤란 \"새로운 거짓말\"",
-      "link": "https://www.mt.co.kr/world/2026/08/02/2026080219442585281",
-      "source": "머니투데이",
-      "ts": 1785669385000,
-      "pub": "Sun, 02 Aug 2026 20:16:25 +0900",
       "sentiment": "neutral"
     },
     {
@@ -161,14 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785536724000,
       "pub": "Sat, 1 Aug 2026 07:25:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"스페인서 이주민 침략 재앙…민주 집권하면 미국서 재현\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260801001551071",
-      "source": "연합뉴스 국제",
-      "ts": 1785530993000,
-      "pub": "Sat, 1 Aug 2026 05:49:53 +0900",
       "sentiment": "neutral"
     }
   ]

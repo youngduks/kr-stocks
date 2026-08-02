@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-02T18:51:54.596Z",
+  "updated_at": "2026-08-02T20:04:04.552Z",
   "count": 21,
   "items": [
+    {
+      "title": "\"트럼프의 이란 공격 취소, 이스라엘은 까맣게 몰랐다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260803002300079",
+      "source": "연합뉴스 국제",
+      "ts": 1785699551000,
+      "pub": "Mon, 3 Aug 2026 04:39:11 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프의 중간선거후 '빅픽처'…\"마가 공화 업고 대선판 주물럭\"",
       "link": "https://www.yna.co.kr/view/AKR20260802056000071",
@@ -161,14 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785547313000,
       "pub": "Sat, 1 Aug 2026 10:21:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "NYT \"워시, 1년에 8번 열어온 연준 금리결정 회의 축소 검토\"",
-      "link": "https://www.yna.co.kr/view/AKR20260801010900072",
-      "source": "연합뉴스 국제",
-      "ts": 1785536724000,
-      "pub": "Sat, 1 Aug 2026 07:25:24 +0900",
       "sentiment": "neutral"
     }
   ]

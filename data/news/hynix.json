@@ -1,30 +1,62 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-02T01:30:13.660Z",
-  "count": 14,
+  "updated_at": "2026-08-02T05:15:00.964Z",
+  "count": 15,
   "items": [
     {
-      "title": "\"하이닉스 298만원 찍던 날이\"…'전래동화' 온라인 밈 확산에 '씁쓸'",
+      "title": "[단독] \"AI는 '에너지' 혁명…주성엔지니어링, 엔비디아의 2018년을 지나고 있다\"",
+      "link": "https://www.hankyung.com/article/202607318431i",
+      "source": "한국경제",
+      "ts": 1785646802000,
+      "pub": "Sun, 02 Aug 2026 14:00:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"역대급 변동성 지나 막바지 구간\"…美 반도체 실적·금리 주시할 때",
+      "link": "https://www.mt.co.kr/stock/2026/08/02/2026080213285051342",
+      "source": "머니투데이",
+      "ts": 1785646450000,
+      "pub": "Sun, 02 Aug 2026 13:54:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"'고성능 키미 K3' 中문샷, 알리바바의 엔비디아 칩 2만장 사용\"",
+      "link": "https://www.yna.co.kr/view/AKR20260802023700089",
+      "source": "연합뉴스 국제",
+      "ts": 1785642549000,
+      "pub": "Sun, 2 Aug 2026 12:49:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "차세대 모바일D램 LPDDR6 경쟁 본격화…\"CXMT, 개발검증 막바지\"",
+      "link": "https://www.yna.co.kr/view/AKR20260802018100089",
+      "source": "연합뉴스 국제",
+      "ts": 1785636179000,
+      "pub": "Sun, 2 Aug 2026 11:02:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 넘어 AI 생태계 경쟁…해법은 '한국형 제조 LLM' 구축",
+      "link": "https://www.mt.co.kr/economy/2026/08/02/2026073114041188009",
+      "source": "머니투데이",
+      "ts": 1785636000000,
+      "pub": "Sun, 02 Aug 2026 11:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"바닥은 확인했다\"…'하이닉스 시총 1위' 예견한 주식운용본부장의 전망",
+      "link": "https://www.hankyung.com/article/202608019403i",
+      "source": "한국경제",
+      "ts": 1785635426000,
+      "pub": "Sun, 02 Aug 2026 10:50:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"하이닉스 298만원 찍던 날\"...씁쓸한 전래동화에 뼈 맞은 개미들",
       "link": "https://www.mt.co.kr/society/2026/08/02/2026080209214658517",
       "source": "머니투데이",
       "ts": 1785631828000,
       "pub": "Sun, 02 Aug 2026 09:50:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中 창신메모리 상장, 메모리 '4강 체제' 진입?",
-      "link": "https://www.mt.co.kr/economy/2026/08/02/2026073109132696183",
-      "source": "머니투데이",
-      "ts": 1785618000000,
-      "pub": "Sun, 02 Aug 2026 06:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"설마 회장님?\"…슈카 방송에 잡힌 '하이닉스 48억' 매수 정체",
-      "link": "https://www.hankyung.com/article/2026080193947",
-      "source": "한국경제",
-      "ts": 1785585954000,
-      "pub": "Sat, 01 Aug 2026 21:05:54 +0900",
       "sentiment": "neutral"
     },
     {
@@ -68,14 +100,6 @@
       "sentiment": "negative"
     },
     {
-      "title": "뉴욕증시, 아마존 실적·반도체 강세 속 혼조 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260731174300009",
-      "source": "연합뉴스 국제",
-      "ts": 1785507146000,
-      "pub": "Fri, 31 Jul 2026 23:12:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "하이닉스 '17년만 상한가', 삼전 26.8%↑…역대최고 상승률(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260731042151008",
       "source": "연합뉴스 경제",
@@ -97,22 +121,6 @@
       "source": "연합뉴스 경제",
       "ts": 1785479028000,
       "pub": "Fri, 31 Jul 2026 15:23:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스, 장중 29.95% 상한가 기록…171만8천원",
-      "link": "https://www.yna.co.kr/view/AKR20260731102700008",
-      "source": "연합뉴스 경제",
-      "ts": 1785475609000,
-      "pub": "Fri, 31 Jul 2026 14:26:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] SK하이닉스, 장중 29.95% 상한가 기록…171만8천원",
-      "link": "https://www.yna.co.kr/view/AKR20260731099800008",
-      "source": "연합뉴스 경제",
-      "ts": 1785474708000,
-      "pub": "Fri, 31 Jul 2026 14:11:48 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-02T11:52:08.156Z",
+  "updated_at": "2026-08-02T12:54:06.352Z",
   "count": 23,
   "items": [
+    {
+      "title": "'北 극비작전 실패' 보도하자…트럼프 행정부, 기자 상대로 취재원 색출",
+      "link": "https://www.hankyung.com/article/2026080203567",
+      "source": "한국경제",
+      "ts": 1785673823000,
+      "pub": "Sun, 02 Aug 2026 21:30:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이란이 요청해 공격 취소\" 트럼프…테헤란 \"새로운 거짓말\"",
+      "link": "https://www.mt.co.kr/world/2026/08/02/2026080219442585281",
+      "source": "머니투데이",
+      "ts": 1785669385000,
+      "pub": "Sun, 02 Aug 2026 20:16:25 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"공습 취소\"…이란 \"그런 합의 없었다\" 정면 반박",
       "link": "https://www.hankyung.com/article/2026080202617",
@@ -18,22 +34,6 @@
       "ts": 1785662710000,
       "pub": "Sun, 02 Aug 2026 18:25:10 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "유가 상승·美 관세…하반기 '최대 변수'",
-      "link": "https://www.hankyung.com/article/2026080202011",
-      "source": "한국경제",
-      "ts": 1785662490000,
-      "pub": "Sun, 02 Aug 2026 18:21:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "무역적자 해결나선 트럼프…'제2 닉슨 쇼크' 닥치나 [한상춘의 국제경제 읽기]",
-      "link": "https://www.hankyung.com/article/2026080201711",
-      "source": "한국경제",
-      "ts": 1785662067000,
-      "pub": "Sun, 02 Aug 2026 18:14:27 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "\"사우디 왕세자, 트럼프에 '중동 긴장완화 위한 대화' 강조\"",

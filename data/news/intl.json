@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-02T08:02:19.825Z",
+  "updated_at": "2026-08-02T10:23:47.009Z",
   "count": 23,
   "items": [
+    {
+      "title": "트럼프 \"공습 취소\"…이란 \"그런 합의 없었다\" 정면 반박",
+      "link": "https://www.hankyung.com/article/2026080202617",
+      "source": "한국경제",
+      "ts": 1785663132000,
+      "pub": "Sun, 02 Aug 2026 18:32:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "워시, '美 금리 결정' FOMC 정례회의 축소 검토",
+      "link": "https://www.hankyung.com/article/2026080202061",
+      "source": "한국경제",
+      "ts": 1785662710000,
+      "pub": "Sun, 02 Aug 2026 18:25:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "유가 상승·美 관세…하반기 '최대 변수'",
+      "link": "https://www.hankyung.com/article/2026080202011",
+      "source": "한국경제",
+      "ts": 1785662490000,
+      "pub": "Sun, 02 Aug 2026 18:21:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "무역적자 해결나선 트럼프…'제2 닉슨 쇼크' 닥치나 [한상춘의 국제경제 읽기]",
+      "link": "https://www.hankyung.com/article/2026080201711",
+      "source": "한국경제",
+      "ts": 1785662067000,
+      "pub": "Sun, 02 Aug 2026 18:14:27 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"사우디 왕세자, 트럼프에 '중동 긴장완화 위한 대화' 강조\"",
+      "link": "https://www.yna.co.kr/view/AKR20260802040400079",
+      "source": "연합뉴스 국제",
+      "ts": 1785659696000,
+      "pub": "Sun, 2 Aug 2026 17:34:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이란 외무, 호르무즈 개방 타협안 동의 후 트럼프 공습 취소\"",
+      "link": "https://www.yna.co.kr/view/AKR20260802039200079",
+      "source": "연합뉴스 국제",
+      "ts": 1785658831000,
+      "pub": "Sun, 2 Aug 2026 17:20:31 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "중동전쟁 여파…우크라, 러 탄도미사일에 사실상 무방비",
       "link": "https://www.yna.co.kr/view/AKR20260802032300009",
@@ -49,14 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785638286000,
       "pub": "Sun, 2 Aug 2026 11:38:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란 공격 취소\" 발표…'신속한 합의' 조건부 제시",
-      "link": "https://www.hankyung.com/article/2026080297957",
-      "source": "한국경제",
-      "ts": 1785637123000,
-      "pub": "Sun, 02 Aug 2026 11:18:43 +0900",
       "sentiment": "neutral"
     },
     {
@@ -145,46 +185,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785527903000,
       "pub": "Sat, 1 Aug 2026 04:58:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이스라엘 매우 만족\"…하마스 무장해제 합의 호응 압박(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260801002851071",
-      "source": "연합뉴스 국제",
-      "ts": 1785520320000,
-      "pub": "Sat, 1 Aug 2026 02:52:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美국무부, AI생성 '엉터리' 아프리카 지도 썼다가 국제회의 망신",
-      "link": "https://www.yna.co.kr/view/AKR20260801002900091",
-      "source": "연합뉴스 국제",
-      "ts": 1785518532000,
-      "pub": "Sat, 1 Aug 2026 02:22:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이스라엘 매우 만족\"…하마스 무장해제 합의 호응 압박",
-      "link": "https://www.yna.co.kr/view/AKR20260801002800071",
-      "source": "연합뉴스 국제",
-      "ts": 1785517911000,
-      "pub": "Sat, 1 Aug 2026 02:11:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란 강하게 타격할 것…이란 거짓말에 신뢰 잃고 있어\"",
-      "link": "https://www.yna.co.kr/view/AKR20260801002700071",
-      "source": "연합뉴스 국제",
-      "ts": 1785517145000,
-      "pub": "Sat, 1 Aug 2026 01:59:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 스페인 '이주민 난입'에 \"재앙…민주 집권시 美도 침략당해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260801001500071",
-      "source": "연합뉴스 국제",
-      "ts": 1785514629000,
-      "pub": "Sat, 1 Aug 2026 01:17:09 +0900",
       "sentiment": "neutral"
     }
   ]

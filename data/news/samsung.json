@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-02T22:43:40.395Z",
-  "count": 3,
+  "updated_at": "2026-08-02T23:48:05.461Z",
+  "count": 4,
   "items": [
+    {
+      "title": "비중 무려 51%, \"삼전닉스피\" 이 말까지 나왔다...변동성 커진 이유",
+      "link": "https://www.mt.co.kr/stock/2026/08/03/2026073116334933790",
+      "source": "머니투데이",
+      "ts": 1785701400000,
+      "pub": "Mon, 03 Aug 2026 05:10:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "증시·상품·개미, 삼전닉스만 바라본다...아차 하는 순간 와르르",
+      "link": "https://www.mt.co.kr/stock/2026/08/03/2026073116511558741",
+      "source": "머니투데이",
+      "ts": 1785700800000,
+      "pub": "Mon, 03 Aug 2026 05:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "메모리 거래판 바뀐다… 뉴노멀 된 장기계약",
+      "link": "https://www.mt.co.kr/industry/2026/08/03/2026080219515139941",
+      "source": "머니투데이",
+      "ts": 1785696840000,
+      "pub": "Mon, 03 Aug 2026 03:54:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "20% 넘는 폭등에도…삼전닉스 주가, 목표가의 반토막 수준",
       "link": "https://www.yna.co.kr/view/AKR20260801014400008",
@@ -10,22 +34,6 @@
       "ts": 1785619500000,
       "pub": "Sun, 2 Aug 2026 06:25:00 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "\"메모리 5개사, 2분기 135조원 손에 쥐어…빅테크 자금 이동\"",
-      "link": "https://www.yna.co.kr/view/AKR20260801028800073",
-      "source": "연합뉴스 국제",
-      "ts": 1785551248000,
-      "pub": "Sat, 1 Aug 2026 11:27:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스 '17년만 상한가', 삼전 26.8%↑…역대최고 상승률(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260731042151008",
-      "source": "연합뉴스 경제",
-      "ts": 1785482290000,
-      "pub": "Fri, 31 Jul 2026 16:18:10 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-02T22:43:40.393Z",
-  "count": 26,
+  "updated_at": "2026-08-02T23:48:05.460Z",
+  "count": 29,
   "items": [
+    {
+      "title": "트럼프, 이스라엘 '패싱'...\"이란공습 취소, SNS로 뒤늦게 파악\"",
+      "link": "https://www.mt.co.kr/world/2026/08/03/2026080307372518412",
+      "source": "머니투데이",
+      "ts": 1785711394000,
+      "pub": "Mon, 03 Aug 2026 07:56:34 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"미국, 일본과 좋은 관계여서 엔/달러 시장개입\"",
       "link": "https://www.yna.co.kr/view/AKR20260803008651071",
@@ -12,11 +20,35 @@
       "sentiment": "neutral"
     },
     {
+      "title": "트럼프 \"3일부터 이란과 호르무즈·비핵화 협상 시작\"",
+      "link": "https://www.mt.co.kr/world/2026/08/03/2026080307194953973",
+      "source": "머니투데이",
+      "ts": 1785709883000,
+      "pub": "Mon, 03 Aug 2026 07:31:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "트럼프, 이란과 호르무즈 합의 도달 시사…\"내일 대화\"",
       "link": "https://www.yna.co.kr/view/AKR20260803008151071",
       "source": "연합뉴스 국제",
       "ts": 1785709523000,
       "pub": "Mon, 3 Aug 2026 07:25:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"미국, 일본과 좋은 관계여서 엔화에 개입\"",
+      "link": "https://www.hankyung.com/article/2026080305017",
+      "source": "한국경제",
+      "ts": 1785707741000,
+      "pub": "Mon, 03 Aug 2026 06:55:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"이란과 호르무즈 관련 합의…비핵화 합의도 있을 것\"",
+      "link": "https://www.hankyung.com/article/2026080304997",
+      "source": "한국경제",
+      "ts": 1785707718000,
+      "pub": "Mon, 03 Aug 2026 06:55:18 +0900",
       "sentiment": "neutral"
     },
     {
@@ -33,6 +65,14 @@
       "source": "연합뉴스 국제",
       "ts": 1785707617000,
       "pub": "Mon, 3 Aug 2026 06:53:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "스페이스X 첫 실적 발표, 주가 100달러 지킬까…고용지표 주목[이번주 美 증시는]",
+      "link": "https://www.mt.co.kr/world/2026/08/03/2026080119201181440",
+      "source": "머니투데이",
+      "ts": 1785702900000,
+      "pub": "Mon, 03 Aug 2026 05:35:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -81,14 +121,6 @@
       "source": "한국경제",
       "ts": 1785663132000,
       "pub": "Sun, 02 Aug 2026 18:32:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "워시, '美 금리 결정' FOMC 정례회의 축소 검토",
-      "link": "https://www.hankyung.com/article/2026080202061",
-      "source": "한국경제",
-      "ts": 1785662710000,
-      "pub": "Sun, 02 Aug 2026 18:25:10 +0900",
       "sentiment": "neutral"
     },
     {
@@ -202,14 +234,6 @@
       "ts": 1785553806000,
       "pub": "Sat, 1 Aug 2026 12:10:06 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "\"미국·이스라엘, 이번 주말 이란 에너지 인프라 공습 계획\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260801011251071",
-      "source": "연합뉴스 국제",
-      "ts": 1785547313000,
-      "pub": "Sat, 1 Aug 2026 10:21:53 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

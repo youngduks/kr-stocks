@@ -1,14 +1,14 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-02T22:43:40.395Z",
-  "count": 8,
+  "updated_at": "2026-08-02T23:48:05.461Z",
+  "count": 5,
   "items": [
     {
-      "title": "日, 10년 前 강진 뒤 내진 설계…반도체 생산라인 빠르게 회복",
-      "link": "https://www.hankyung.com/article/2026080202091",
-      "source": "한국경제",
-      "ts": 1785662765000,
-      "pub": "Sun, 02 Aug 2026 18:26:05 +0900",
+      "title": "메모리 거래판 바뀐다… 뉴노멀 된 장기계약",
+      "link": "https://www.mt.co.kr/industry/2026/08/03/2026080219515139941",
+      "source": "머니투데이",
+      "ts": 1785696840000,
+      "pub": "Mon, 03 Aug 2026 03:54:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,22 +28,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"메모리 5개사, 2분기 135조원 손에 쥐어…빅테크 자금 이동\"",
-      "link": "https://www.yna.co.kr/view/AKR20260801028800073",
-      "source": "연합뉴스 국제",
-      "ts": 1785551248000,
-      "pub": "Sat, 1 Aug 2026 11:27:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "구마모토 반도체업계, 강진서 회복중…\"10년전 교훈에 대책강화\"",
-      "link": "https://www.yna.co.kr/view/AKR20260801027300073",
-      "source": "연합뉴스 국제",
-      "ts": 1785550239000,
-      "pub": "Sat, 1 Aug 2026 11:10:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "7월 수출 989억달러 역대 2위…반도체 두달째 400억달러대(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260801021152003",
       "source": "연합뉴스 경제",
@@ -57,14 +41,6 @@
       "source": "연합뉴스 경제",
       "ts": 1785542433000,
       "pub": "Sat, 1 Aug 2026 09:00:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스 '17년만 상한가', 삼전 26.8%↑…역대최고 상승률(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260731042151008",
-      "source": "연합뉴스 경제",
-      "ts": 1785482290000,
-      "pub": "Fri, 31 Jul 2026 16:18:10 +0900",
       "sentiment": "neutral"
     }
   ]

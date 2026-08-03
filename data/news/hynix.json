@@ -1,14 +1,30 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-03T08:58:50.847Z",
-  "count": 5,
+  "updated_at": "2026-08-03T12:19:22.733Z",
+  "count": 7,
   "items": [
     {
-      "title": "반도체 열풍에…5대은행 ETF 판매 절반이상 고위험",
-      "link": "https://www.mt.co.kr/finance/2026/08/03/2026080314521591940",
-      "source": "머니투데이",
-      "ts": 1785741565000,
-      "pub": "Mon, 03 Aug 2026 16:19:25 +0900",
+      "title": "'주주환원' 日 키옥시아 주가 5% 뛰었는데…SK하이닉스는? [종목+]",
+      "link": "https://www.hankyung.com/article/2026080322636",
+      "source": "한국경제",
+      "ts": 1785754803000,
+      "pub": "Mon, 03 Aug 2026 20:00:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\"",
+      "link": "https://www.yna.co.kr/view/AKR20260803155600083",
+      "source": "연합뉴스 국제",
+      "ts": 1785753960000,
+      "pub": "Mon, 3 Aug 2026 19:46:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[2026세법] AI로봇·반도체 생산 촉진…6대 성장동력에 소득·법인세 특례",
+      "link": "https://www.yna.co.kr/view/AKR20260803000600002",
+      "source": "연합뉴스 경제",
+      "ts": 1785747610000,
+      "pub": "Mon, 3 Aug 2026 18:00:10 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-03T08:58:50.846Z",
-  "count": 7,
+  "updated_at": "2026-08-03T12:19:22.732Z",
+  "count": 5,
   "items": [
+    {
+      "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\"",
+      "link": "https://www.yna.co.kr/view/AKR20260803155600083",
+      "source": "연합뉴스 국제",
+      "ts": 1785753960000,
+      "pub": "Mon, 3 Aug 2026 19:46:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "외국인, 삼성전자 지분율 46.7%…금융위기 이후 최저 수준",
       "link": "https://www.yna.co.kr/view/AKR20260803136700008",
@@ -12,28 +20,12 @@
       "sentiment": "negative"
     },
     {
-      "title": "\"펀더멘털 변화 없다\"…골드만삭스, 삼성전자 '강력매수' 권고",
-      "link": "https://www.hankyung.com/article/202608032141i",
-      "source": "한국경제",
-      "ts": 1785742637000,
-      "pub": "Mon, 03 Aug 2026 16:37:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "삼전닉스, 또 8%대 급락 마감…외국인·기관, 동반 매도",
       "link": "https://www.yna.co.kr/view/AKR20260803036751008",
       "source": "연합뉴스 경제",
       "ts": 1785740092000,
       "pub": "Mon, 3 Aug 2026 15:54:52 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "삼성전자 팔고 비중 늘렸다…美 ETF도 담은 핫한 종목",
-      "link": "https://www.hankyung.com/article/202608031825i",
-      "source": "한국경제",
-      "ts": 1785739966000,
-      "pub": "Mon, 03 Aug 2026 15:52:46 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "7월 D램·낸드 가격 역대 최고…\"3분기 PC용 D램값 최대 20%↑\"",
@@ -50,14 +42,6 @@
       "ts": 1785732677000,
       "pub": "Mon, 3 Aug 2026 13:51:17 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] '역대최고 상승' 급반등했던 삼전닉스, 7~8%대 급락",
-      "link": "https://www.yna.co.kr/view/AKR20260803036700008",
-      "source": "연합뉴스 경제",
-      "ts": 1785717495000,
-      "pub": "Mon, 3 Aug 2026 09:38:15 +0900",
-      "sentiment": "negative"
     }
   ]
 }

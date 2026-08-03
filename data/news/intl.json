@@ -1,7 +1,7 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-03T08:58:50.845Z",
-  "count": 18,
+  "updated_at": "2026-08-03T12:19:22.731Z",
+  "count": 15,
   "items": [
     {
       "title": "트럼프 트루스소셜 유료 서비스 개시…'권력 남용' 지적 확산",
@@ -10,14 +10,6 @@
       "ts": 1785744775000,
       "pub": "Mon, 3 Aug 2026 17:12:55 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"네타냐후 선거 불복 우려\"…이스라엘, 총선 앞두고 '초긴장'",
-      "link": "https://www.hankyung.com/article/2026080321337",
-      "source": "한국경제",
-      "ts": 1785742302000,
-      "pub": "Mon, 03 Aug 2026 16:31:42 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "美법무 '트럼프 지지자 보상금' 폐지…의회 인준 걸림돌 제거",
@@ -129,22 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785684761000,
       "pub": "Mon, 3 Aug 2026 00:32:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"사우디 왕세자, 트럼프에 '중동 긴장완화 위한 대화' 강조\"",
-      "link": "https://www.yna.co.kr/view/AKR20260802040400079",
-      "source": "연합뉴스 국제",
-      "ts": 1785659696000,
-      "pub": "Sun, 2 Aug 2026 17:34:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"이란 외무, 호르무즈 개방 타협안 동의 후 트럼프 공습 취소\"",
-      "link": "https://www.yna.co.kr/view/AKR20260802039200079",
-      "source": "연합뉴스 국제",
-      "ts": 1785658831000,
-      "pub": "Sun, 2 Aug 2026 17:20:31 +0900",
       "sentiment": "neutral"
     }
   ]

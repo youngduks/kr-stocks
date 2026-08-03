@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-03T17:45:05.537Z",
-  "count": 18,
+  "updated_at": "2026-08-03T19:16:05.389Z",
+  "count": 22,
   "items": [
+    {
+      "title": "모로코, 서사하라 잇는 고속도로 '트럼프 고속도로'로 명명",
+      "link": "https://www.yna.co.kr/view/AKR20260804003900099",
+      "source": "연합뉴스 국제",
+      "ts": 1785783912000,
+      "pub": "Tue, 4 Aug 2026 04:05:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 추가공습 접은 트럼프 \"호르무즈·비핵화 협상 재개\"",
+      "link": "https://www.mt.co.kr/world/2026/08/04/2026080319220790689",
+      "source": "머니투데이",
+      "ts": 1785783600000,
+      "pub": "Tue, 04 Aug 2026 04:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 대화 중…이번이 마지막 기회\" 합의 압박",
+      "link": "https://www.yna.co.kr/view/AKR20260804003700071",
+      "source": "연합뉴스 국제",
+      "ts": 1785781799000,
+      "pub": "Tue, 4 Aug 2026 03:29:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "백악관, 첨단AI 보안 검증방안 확정…AI기업과 비공개 논의키로",
+      "link": "https://www.yna.co.kr/view/AKR20260804002600091",
+      "source": "연합뉴스 국제",
+      "ts": 1785780599000,
+      "pub": "Tue, 4 Aug 2026 03:09:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"이란과 현재 대화 중…이번이 마지막 기회\"",
+      "link": "https://www.yna.co.kr/view/AKR20260804003300071",
+      "source": "연합뉴스 국제",
+      "ts": 1785780300000,
+      "pub": "Tue, 4 Aug 2026 03:05:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'트럼프 충성파' 美법무 인준 청신호…공화의원 2명 반대 접어",
+      "link": "https://www.yna.co.kr/view/AKR20260804002400071",
+      "source": "연합뉴스 국제",
+      "ts": 1785779904000,
+      "pub": "Tue, 4 Aug 2026 02:58:24 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이란의 '대화없다' 버티기…트럼프, 공격보류했더니 협상도 난관",
       "link": "https://www.yna.co.kr/view/AKR20260804001400071",
@@ -129,22 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785709523000,
       "pub": "Mon, 3 Aug 2026 07:25:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"미국, 일본과 좋은 관계여서 엔화에 개입\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803008600071",
-      "source": "연합뉴스 국제",
-      "ts": 1785707706000,
-      "pub": "Mon, 3 Aug 2026 06:55:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란과 호르무즈 관련 합의…비핵화 합의도 있을 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803008100071",
-      "source": "연합뉴스 국제",
-      "ts": 1785707617000,
-      "pub": "Mon, 3 Aug 2026 06:53:37 +0900",
       "sentiment": "neutral"
     }
   ]

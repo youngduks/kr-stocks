@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-03T12:19:22.731Z",
-  "count": 15,
+  "updated_at": "2026-08-03T15:36:00.183Z",
+  "count": 18,
   "items": [
+    {
+      "title": "90분간 활공폭탄 8발 퍼부은 러…우크라 방공망 또 뚫려",
+      "link": "https://www.yna.co.kr/view/AKR20260803158800109",
+      "source": "연합뉴스 국제",
+      "ts": 1785763440000,
+      "pub": "Mon, 3 Aug 2026 22:24:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 이란 공격 취소에 유가 6% 급락…美 국채금리도 내려",
+      "link": "https://www.hankyung.com/article/202608032771i",
+      "source": "한국경제",
+      "ts": 1785762177000,
+      "pub": "Mon, 03 Aug 2026 22:02:57 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "이스라엘, 하마스 무장해제안 '심각한 우려' 美에 전달(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260803024451009",
+      "source": "연합뉴스 국제",
+      "ts": 1785761322000,
+      "pub": "Mon, 3 Aug 2026 21:48:42 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "푸틴에 각 세운 야권 정치인, 러시아 떠났다",
+      "link": "https://www.yna.co.kr/view/AKR20260803158100108",
+      "source": "연합뉴스 국제",
+      "ts": 1785759581000,
+      "pub": "Mon, 3 Aug 2026 21:19:41 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 트루스소셜 유료 서비스 개시…'권력 남용' 지적 확산",
       "link": "https://www.yna.co.kr/view/AKR20260803135600009",
@@ -113,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785699551000,
       "pub": "Mon, 3 Aug 2026 04:39:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프의 중간선거후 '빅픽처'…\"마가 공화 업고 대선판 주물럭\"",
-      "link": "https://www.yna.co.kr/view/AKR20260802056000071",
-      "source": "연합뉴스 국제",
-      "ts": 1785684761000,
-      "pub": "Mon, 3 Aug 2026 00:32:41 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-03T15:36:00.183Z",
+  "updated_at": "2026-08-03T17:45:05.537Z",
   "count": 18,
   "items": [
+    {
+      "title": "이란의 '대화없다' 버티기…트럼프, 공격보류했더니 협상도 난관",
+      "link": "https://www.yna.co.kr/view/AKR20260804001400071",
+      "source": "연합뉴스 국제",
+      "ts": 1785777663000,
+      "pub": "Tue, 4 Aug 2026 02:21:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 지도부, 회담 요청해놓고도 부인…이중적 행태\"",
+      "link": "https://www.yna.co.kr/view/AKR20260804001100071",
+      "source": "연합뉴스 국제",
+      "ts": 1785775321000,
+      "pub": "Tue, 4 Aug 2026 01:42:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "90분간 활공폭탄 8발 퍼부은 러…우크라 방공망 또 뚫려",
       "link": "https://www.yna.co.kr/view/AKR20260803158800109",
@@ -34,6 +50,14 @@
       "ts": 1785759581000,
       "pub": "Mon, 3 Aug 2026 21:19:41 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프-네타냐후 또 이견…이스라엘, '하마스 무장해제' 우려 표명",
+      "link": "https://www.mt.co.kr/world/2026/08/03/2026080318464726583",
+      "source": "머니투데이",
+      "ts": 1785755818000,
+      "pub": "Mon, 03 Aug 2026 20:16:58 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "트럼프 트루스소셜 유료 서비스 개시…'권력 남용' 지적 확산",
@@ -121,30 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785707617000,
       "pub": "Mon, 3 Aug 2026 06:53:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프-與상원 이상기류…\"원내대표와 2주간 전화 한통 없었다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803002700071",
-      "source": "연합뉴스 국제",
-      "ts": 1785701546000,
-      "pub": "Mon, 3 Aug 2026 05:12:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 중동 긴장 여전한데 골프 우승 자랑…\"내 재능 덕분\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803002200071",
-      "source": "연합뉴스 국제",
-      "ts": 1785701139000,
-      "pub": "Mon, 3 Aug 2026 05:05:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프의 이란 공격 취소, 이스라엘은 까맣게 몰랐다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803002300079",
-      "source": "연합뉴스 국제",
-      "ts": 1785699551000,
-      "pub": "Mon, 3 Aug 2026 04:39:11 +0900",
       "sentiment": "neutral"
     }
   ]

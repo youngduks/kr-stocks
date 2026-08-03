@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-03T05:29:06.531Z",
-  "count": 4,
+  "updated_at": "2026-08-03T08:58:50.847Z",
+  "count": 5,
   "items": [
+    {
+      "title": "반도체 열풍에…5대은행 ETF 판매 절반이상 고위험",
+      "link": "https://www.mt.co.kr/finance/2026/08/03/2026080314521591940",
+      "source": "머니투데이",
+      "ts": 1785741565000,
+      "pub": "Mon, 03 Aug 2026 16:19:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "장성에 AI 데이터센터 구축…\"반도체 거점 도약\"",
+      "link": "https://www.yna.co.kr/view/AKR20260803109100054",
+      "source": "연합뉴스 경제",
+      "ts": 1785737610000,
+      "pub": "Mon, 3 Aug 2026 15:13:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "TSMC, '고객사 이탈 막자' 인텔 EMIB 유사 패키징기술 개발 나서",
+      "link": "https://www.yna.co.kr/view/AKR20260803097800009",
+      "source": "연합뉴스 국제",
+      "ts": 1785735453000,
+      "pub": "Mon, 3 Aug 2026 14:37:33 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "7월 D램·낸드 가격 역대 최고…\"3분기 PC용 D램값 최대 20%↑\"",
       "link": "https://www.yna.co.kr/view/AKR20260803098100003",
@@ -17,22 +41,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785721295000,
       "pub": "Mon, 3 Aug 2026 10:41:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"'고성능 키미 K3' 中문샷, 알리바바의 엔비디아 칩 2만장 사용\"",
-      "link": "https://www.yna.co.kr/view/AKR20260802023700089",
-      "source": "연합뉴스 국제",
-      "ts": 1785642549000,
-      "pub": "Sun, 2 Aug 2026 12:49:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "차세대 모바일D램 LPDDR6 경쟁 본격화…\"CXMT, 개발검증 막바지\"",
-      "link": "https://www.yna.co.kr/view/AKR20260802018100089",
-      "source": "연합뉴스 국제",
-      "ts": 1785636179000,
-      "pub": "Sun, 2 Aug 2026 11:02:59 +0900",
       "sentiment": "neutral"
     }
   ]

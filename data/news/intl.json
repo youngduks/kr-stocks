@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-03T05:29:06.529Z",
-  "count": 21,
+  "updated_at": "2026-08-03T08:58:50.845Z",
+  "count": 18,
   "items": [
+    {
+      "title": "트럼프 트루스소셜 유료 서비스 개시…'권력 남용' 지적 확산",
+      "link": "https://www.yna.co.kr/view/AKR20260803135600009",
+      "source": "연합뉴스 국제",
+      "ts": 1785744775000,
+      "pub": "Mon, 3 Aug 2026 17:12:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"네타냐후 선거 불복 우려\"…이스라엘, 총선 앞두고 '초긴장'",
+      "link": "https://www.hankyung.com/article/2026080321337",
+      "source": "한국경제",
+      "ts": 1785742302000,
+      "pub": "Mon, 03 Aug 2026 16:31:42 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "美법무 '트럼프 지지자 보상금' 폐지…의회 인준 걸림돌 제거",
+      "link": "https://www.yna.co.kr/view/AKR20260803119200009",
+      "source": "연합뉴스 국제",
+      "ts": 1785740481000,
+      "pub": "Mon, 3 Aug 2026 16:01:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"무슨일 날지 모른다\"…이스라엘 시민사회 '총선 워룸' 설치",
+      "link": "https://www.yna.co.kr/view/AKR20260803118800009",
+      "source": "연합뉴스 국제",
+      "ts": 1785740311000,
+      "pub": "Mon, 3 Aug 2026 15:58:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "외교로 다시 '타코' 트럼프…\"어떤 길이든 승리 쉽지 않아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260803113400009",
+      "source": "연합뉴스 국제",
+      "ts": 1785739819000,
+      "pub": "Mon, 3 Aug 2026 15:50:19 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'기독교인에 침 뱉기' 이스라엘 청년층 확산…반기독교 정서",
       "link": "https://www.yna.co.kr/view/AKR20260803050100009",
@@ -30,7 +70,7 @@
     {
       "title": "트럼프 \"미국, 일본과 좋은 관계여서 엔/달러 시장개입\"",
       "link": "https://www.yna.co.kr/view/AKR20260803008651071",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1785710149000,
       "pub": "Mon, 3 Aug 2026 07:35:49 +0900",
       "sentiment": "neutral"
@@ -105,70 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785658831000,
       "pub": "Sun, 2 Aug 2026 17:20:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "중동전쟁 여파…우크라, 러 탄도미사일에 사실상 무방비",
-      "link": "https://www.yna.co.kr/view/AKR20260802032300009",
-      "source": "연합뉴스 국제",
-      "ts": 1785653205000,
-      "pub": "Sun, 2 Aug 2026 15:46:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] 트럼프, 이란 공습 취소…\"빈살만이 보복 우려했다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260802029500704",
-      "source": "연합뉴스 국제",
-      "ts": 1785650527000,
-      "pub": "Sun, 2 Aug 2026 15:02:07 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[영상] 트럼프 \"이란 공격 취소\"…'신속한 합의' 조건부 제시",
-      "link": "https://www.yna.co.kr/view/AKR20260802028200704",
-      "source": "연합뉴스 국제",
-      "ts": 1785649243000,
-      "pub": "Sun, 2 Aug 2026 14:40:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"사우디 빈살만, 트럼프에 '대이란 공습' 만류…보복 우려\"",
-      "link": "https://www.yna.co.kr/view/AKR20260802021400009",
-      "source": "연합뉴스 국제",
-      "ts": 1785641419000,
-      "pub": "Sun, 2 Aug 2026 12:30:19 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "트럼프 \"이란 공격 취소\" 발표…'주말 대공습' 일단 보류(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260802021600009",
-      "source": "연합뉴스 국제",
-      "ts": 1785640055000,
-      "pub": "Sun, 2 Aug 2026 12:07:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란 공격 취소\" 발표…'주말 대공습' 일단 보류",
-      "link": "https://www.yna.co.kr/view/AKR20260802020300009",
-      "source": "연합뉴스 국제",
-      "ts": 1785638286000,
-      "pub": "Sun, 2 Aug 2026 11:38:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란 공격 취소\" 발표…'신속한 합의' 조건부 제시",
-      "link": "https://www.yna.co.kr/view/AKR20260802019400009",
-      "source": "연합뉴스 국제",
-      "ts": 1785636988000,
-      "pub": "Sun, 2 Aug 2026 11:16:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 철군 발표에도…이스라엘 가자 병원 폭격해 흙구덩이로",
-      "link": "https://www.yna.co.kr/view/AKR20260802005800009",
-      "source": "연합뉴스 국제",
-      "ts": 1785625067000,
-      "pub": "Sun, 2 Aug 2026 07:57:47 +0900",
       "sentiment": "neutral"
     }
   ]

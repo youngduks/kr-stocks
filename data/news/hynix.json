@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-03T22:54:16.687Z",
-  "count": 11,
+  "updated_at": "2026-08-03T23:58:32.909Z",
+  "count": 12,
   "items": [
+    {
+      "title": "TSMC 日구마모토 1공장 정상화…반도체 업계 속속 생산 재개",
+      "link": "https://www.yna.co.kr/view/AKR20260804021900073",
+      "source": "연합뉴스 국제",
+      "ts": 1785800142000,
+      "pub": "Tue, 4 Aug 2026 08:35:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "MHS·하이퍼엑셀, 반도체 냉각 협력…\"발열 잡아 제품경쟁력↑\"",
+      "link": "https://www.mt.co.kr/future/2026/08/04/2026080314585569261",
+      "source": "머니투데이",
+      "ts": 1785798900000,
+      "pub": "Tue, 04 Aug 2026 08:15:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "두 달간 주가 반토막 난 SK하이닉스…핵심 관전포인트 4가지",
+      "link": "https://www.hankyung.com/article/202608032140i",
+      "source": "한국경제",
+      "ts": 1785796204000,
+      "pub": "Tue, 04 Aug 2026 07:30:04 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[여의도 클라쓰] '코스모로보틱스, NAVER, SK하이닉스' 클라쓰 올릴 종목은?",
       "link": "https://www.mt.co.kr/stock/2026/08/04/2026080406127094717",
@@ -33,14 +57,6 @@
       "source": "한국경제",
       "ts": 1785760034000,
       "pub": "Mon, 03 Aug 2026 21:27:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"4일 밤부터 가능\"…SK하이닉스 개미들 기대하는 이유 [종목+]",
-      "link": "https://www.hankyung.com/article/2026080322636",
-      "source": "한국경제",
-      "ts": 1785754803000,
-      "pub": "Mon, 03 Aug 2026 20:00:03 +0900",
       "sentiment": "neutral"
     },
     {
@@ -82,14 +98,6 @@
       "ts": 1785734512000,
       "pub": "Mon, 3 Aug 2026 14:21:52 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "한국·대만 반도체 기업에 좌우되는 신흥국 지수, 향방은?",
-      "link": "https://www.yna.co.kr/view/AKR20260803060100009",
-      "source": "연합뉴스 국제",
-      "ts": 1785721295000,
-      "pub": "Mon, 3 Aug 2026 10:41:35 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

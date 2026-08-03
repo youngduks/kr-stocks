@@ -54,12 +54,15 @@ export default async function HomeEN() {
 
   // Category order: Korea → Private → US → Themes ETF → Global Index
   const order: SymbolMeta["category"][] = ["korea", "private", "us", "themes", "global"];
-  const grouped = order.map((cat) => ({
-    cat,
-    label: CATEGORY_LABELS[cat],
-    // is_fx (USD/KRW) sourced from HL perp, differs from header's Upbit-based rate → exclude from home grid
-    rows: data.symbols.filter((r) => r.category === cat && !r.is_fx),
-  }));
+  const grouped = order
+    .map((cat) => ({
+      cat,
+      label: CATEGORY_LABELS[cat],
+      // is_fx (USD/KRW) sourced from HL perp, differs from header's Upbit-based rate → exclude from home grid
+      rows: data.symbols.filter((r) => r.category === cat && !r.is_fx),
+    }))
+    // Skip categories left with zero symbols (e.g. themes, 5 dead HL perps removed 2026-08-02)
+    .filter((g) => g.rows.length > 0);
 
   return (
     <>

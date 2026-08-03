@@ -365,8 +365,13 @@ export async function fetchAllPrices(): Promise<{
           const hlKrw = per_share_krw ?? krw_price;
           // isFx 종목은 mark가 KRW 단위 — USD 표시값은 1.0
           const hlUsd = per_share_usd ?? (isFx ? 1.0 : mark);
+          // VIX·DXY·니프티 등 HL perp 자체가 미결제약정·거래량 0인 죽은 마켓인 경우
+          // mark가 상장가에 고정돼있어(2026-08-02 VIX 실측: 20.00 고정, 실제 15.99 대비 +25%
+          // 오차) "HL 24h"로 보여주면 안 됨 — regular_close(야후 정규종가)가 있으면 그걸 우선.
+          const perpDead = Number(ctx.openInterest ?? 0) === 0 && Number(ctx.dayNtlVlm ?? 0) === 0;
           let mainKrw: number, mainUsd: number;
           let mainSource: "regular_live" | "nxt_live" | "hl_perp";
+          let usedDeadPerpFallback = false;
           if (phase === "live" && regular_close_krw != null) {
             mainKrw = regular_close_krw;
             mainUsd = regular_close_usd ?? hlUsd;
@@ -375,6 +380,11 @@ export async function fetchAllPrices(): Promise<{
             mainKrw = nxt_price_krw;
             mainUsd = nxt_price_usd ?? hlUsd;
             mainSource = "nxt_live";
+          } else if (perpDead && regular_close_krw != null) {
+            mainKrw = regular_close_krw;
+            mainUsd = regular_close_usd ?? hlUsd;
+            mainSource = "regular_live";
+            usedDeadPerpFallback = true;
           } else {
             mainKrw = hlKrw;
             mainUsd = hlUsd;
@@ -382,16 +392,27 @@ export async function fetchAllPrices(): Promise<{
           }
           // 변동률 phase 인지 :
           //   live/nxt → 네이버/야후 전일 대비 ratio (메인 가격과 정합)
-          //   closed → HL 24h chg (mark vs prevDayPx, chg 변수 그대로)
+          //   closed(perp 정상) → HL 24h chg (mark vs prevDayPx, chg 변수 그대로)
+          //   closed(perp 죽음) → 정규장 종가 대비 전일종가 ratio
           // 라벨은 phase별로 차별 — 라오니 "5/13 종가 기준" 모방 회피, 형님 phase 인지 강조
           const useRegularChg =
             (phase === "live" || phase === "nxt") && rc?.fluctuationsRatio != null;
-          const mainChg = useRegularChg ? rc!.fluctuationsRatio! : chg;
+          const regularCloseChg =
+            regular_close_usd != null && regular_prev_close_usd != null && regular_prev_close_usd > 0
+              ? ((regular_close_usd - regular_prev_close_usd) / regular_prev_close_usd) * 100
+              : null;
+          const mainChg = useRegularChg
+            ? rc!.fluctuationsRatio!
+            : usedDeadPerpFallback && regularCloseChg != null
+            ? regularCloseChg
+            : chg;
           const mainLabel =
             phase === "live" && useRegularChg
               ? "장중 변동"
               : phase === "nxt" && useRegularChg
               ? "NXT 변동"
+              : usedDeadPerpFallback
+              ? "전일 종가 대비"
               : sym.source === "binance"
               ? "Binance 24h"
               : "HL 24h";

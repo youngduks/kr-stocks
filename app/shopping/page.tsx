@@ -84,13 +84,19 @@ function catGroup(cat: string): string {
 // (Fable 분석 P1-5와 동일 방향). 카테고리별 탭(전자제품 탭 등)은 이미 단일 카테고리라
 // 이 우선순위와 무관 — '전체' 탭에서만 체감됨.
 const PRIORITY_GROUPS = new Set(["전자제품", "가전"]);
+// 우선순위 신선도 상한 — 형님 지적(2026-08-03): 상단 4칸을 6~12일 된 전자제품이
+// 계속 점유해 "업데이트 안 된다"는 체감을 줌. 전자제품이라도 오래되면 일반 정렬로
+// 내려가야 매번 같은 딜이 고정 노출되는 걸 막을 수 있음.
+const PRIORITY_FRESH_DAYS = 3;
 
 export default async function ShoppingPage() {
   const [data, deals] = await Promise.all([fetchAllPrices(), fetchDeals()]);
+  const nowSec = Date.now() / 1000;
+  const isFresh = (ts: number) => nowSec - ts <= PRIORITY_FRESH_DAYS * 86400;
   const views: DealView[] = [...deals]
     .sort((a, b) => {
-      const aPri = PRIORITY_GROUPS.has(catGroup(a.cat)) ? 1 : 0;
-      const bPri = PRIORITY_GROUPS.has(catGroup(b.cat)) ? 1 : 0;
+      const aPri = PRIORITY_GROUPS.has(catGroup(a.cat)) && isFresh(a.ts) ? 1 : 0;
+      const bPri = PRIORITY_GROUPS.has(catGroup(b.cat)) && isFresh(b.ts) ? 1 : 0;
       if (aPri !== bPri) return bPri - aPri;
       return (b.score ?? 0) - (a.score ?? 0) || b.ts - a.ts;
     })

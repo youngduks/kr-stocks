@@ -8,7 +8,7 @@
       "binance_stocks": "https://fapi.binance.com/fapi/v1 (ticker/24hr + premiumIndex + openInterest) — 삼성/하이닉스/현대차 (2026-06-02 상장)",
       "krw_rate": "https://api.upbit.com/v1/ticker?markets=KRW-USDT"
     },
-    "total_symbols": 43,
+    "total_symbols": 37,
     "categories": [
       "korea",
       "us",
@@ -75,16 +75,6 @@
       "share_ratio": 1.0,
       "regular_market": "KOSPI",
       "krx_code": "005380"
-    },
-    {
-      "slug": "krw",
-      "ticker": "xyz:KRW",
-      "dex": "xyz",
-      "name_ko": "원화 환율",
-      "name_en": "USD/KRW",
-      "category": "korea",
-      "tier": 1,
-      "is_fx": true
     },
     {
       "slug": "spacex",
@@ -342,27 +332,31 @@
     },
     {
       "slug": "openai",
-      "ticker": "vntl:OPENAI",
+      "ticker": "binance:OPENAI",
       "dex": "vntl",
+      "source": "binance",
+      "binance_symbol": "OPENAIUSDT",
       "name_ko": "오픈AI",
       "name_en": "OpenAI (Private)",
       "category": "private",
       "tier": 1,
       "is_private": true,
       "implied_valuation_usd": 300000000000,
-      "note": "비상장 — Hyperliquid Ventuals dex perp"
+      "note": "비상장 — Binance 선물(OPENAIUSDT). HL Ventuals dex perp가 거래량0 죽은 시장이라 2026-08-02 교체"
     },
     {
       "slug": "anthropic",
-      "ticker": "vntl:ANTHROPIC",
+      "ticker": "binance:ANTHROPIC",
       "dex": "vntl",
+      "source": "binance",
+      "binance_symbol": "ANTHROPICUSDT",
       "name_ko": "앤트로픽",
       "name_en": "Anthropic (Private)",
       "category": "private",
       "tier": 1,
       "is_private": true,
       "implied_valuation_usd": 170000000000,
-      "note": "비상장 — Hyperliquid Ventuals dex perp (가장 활성)"
+      "note": "비상장 — Binance 선물(ANTHROPICUSDT). HL Ventuals dex perp가 거래량0 죽은 시장이라 2026-08-02 교체"
     },
     {
       "slug": "sp500",
@@ -446,61 +440,6 @@
       "tier": 2,
       "share_ratio": 1.0,
       "regular_market": "NASDAQ"
-    },
-    {
-      "slug": "defense",
-      "ticker": "vntl:DEFENSE",
-      "dex": "vntl",
-      "name_ko": "방산 테마",
-      "name_en": "Defense Theme",
-      "category": "themes",
-      "tier": 1,
-      "is_etf": true,
-      "note": "방산 테마 ETF — K-방산 (한화에어로·LIG넥스원) 흐름 연관"
-    },
-    {
-      "slug": "nuclear",
-      "ticker": "vntl:NUCLEAR",
-      "dex": "vntl",
-      "name_ko": "원전 테마",
-      "name_en": "Nuclear Theme",
-      "category": "themes",
-      "tier": 1,
-      "is_etf": true,
-      "note": "원전·SMR 테마 — K-원전 르네상스 흐름 연관"
-    },
-    {
-      "slug": "semis",
-      "ticker": "vntl:SEMIS",
-      "dex": "vntl",
-      "name_ko": "반도체 테마",
-      "name_en": "Semiconductors Theme",
-      "category": "themes",
-      "tier": 1,
-      "is_etf": true,
-      "note": "반도체 테마 ETF — 한국 메모리 슈퍼사이클 연관"
-    },
-    {
-      "slug": "mag7",
-      "ticker": "vntl:MAG7",
-      "dex": "vntl",
-      "name_ko": "M7 빅테크",
-      "name_en": "Magnificent 7",
-      "category": "themes",
-      "tier": 1,
-      "is_etf": true,
-      "note": "미국 빅테크 7종 추종 (NVDA·MSFT·AAPL·META·GOOGL·AMZN·TSLA)"
-    },
-    {
-      "slug": "energy",
-      "ticker": "vntl:ENERGY",
-      "dex": "vntl",
-      "name_ko": "에너지 테마",
-      "name_en": "Energy Theme",
-      "category": "themes",
-      "tier": 1,
-      "is_etf": true,
-      "note": "에너지 테마 ETF — 유가·가스 종합"
     }
   ]
 }

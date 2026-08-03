@@ -140,6 +140,21 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
                         label: locale === "en" ? "Nasdaq closed" : "나스닥 마감",
                         title: locale === "en" ? "Nasdaq regular session closed" : "나스닥 정규장 마감",
                       }
+                    : m.main_source === "regular_live"
+                    ? {
+                        // perp 시장(HL/Binance)이 미결제약정·거래량 0인 죽은 마켓이라
+                        // fetchPrices.ts에서 정규장 종가로 폴백한 케이스(VIX·니프티 등).
+                        // 이때 파란 Hyperliquid 배지를 그대로 두면 실제 출처(야후)와
+                        // 다른 소스처럼 보여 오해를 줌 — ADR 마감과 동일한 회색 처리.
+                        color: "bg-text-dim",
+                        textColor: "text-text-dim",
+                        pulse: false,
+                        label: locale === "en" ? "Closed" : "정규장 마감",
+                        title:
+                          locale === "en"
+                            ? "Perp market inactive — showing last regular close"
+                            : "파생 시장 비활성 — 정규장 마지막 종가",
+                      }
                     : {
                         color: "bg-accent-blue",
                         textColor: "text-accent-blue",

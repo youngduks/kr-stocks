@@ -17,12 +17,15 @@ export default async function Home() {
 
   // 카테고리 순서 (형님 명시): 한국주식 → 비상장 → 미국주식 → ETF(테마) → 글로벌 지수
   const order: SymbolMeta["category"][] = ["korea", "private", "us", "themes", "global"];
-  const grouped = order.map((cat) => ({
-    cat,
-    label: CATEGORY_LABELS[cat],
-    // is_fx(원화 환율)는 헤더 환율 위젯과 소스가 달라(HL perp vs 업비트) 숫자가 어긋나 보임 → 홈 그리드 제외
-    rows: data.symbols.filter((r) => r.category === cat && !r.is_fx),
-  }));
+  const grouped = order
+    .map((cat) => ({
+      cat,
+      label: CATEGORY_LABELS[cat],
+      // is_fx(원화 환율)는 헤더 환율 위젯과 소스가 달라(HL perp vs 업비트) 숫자가 어긋나 보임 → 홈 그리드 제외
+      rows: data.symbols.filter((r) => r.category === cat && !r.is_fx),
+    }))
+    // 카테고리 전멸 시(예: themes, 2026-08-02 죽은 HL perp 5종 삭제) 빈 섹션 헤더만 남는 것 방지
+    .filter((g) => g.rows.length > 0);
 
   return (
     <>

@@ -1,14 +1,46 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-02T23:48:05.460Z",
-  "count": 29,
+  "updated_at": "2026-08-03T01:44:01.997Z",
+  "count": 26,
   "items": [
     {
-      "title": "트럼프, 이스라엘 '패싱'...\"이란공습 취소, SNS로 뒤늦게 파악\"",
-      "link": "https://www.mt.co.kr/world/2026/08/03/2026080307372518412",
-      "source": "머니투데이",
-      "ts": 1785711394000,
-      "pub": "Mon, 03 Aug 2026 07:56:34 +0900",
+      "title": "'기독교인에 침 뱉기' 이스라엘 청년층 확산…반기독교 정서",
+      "link": "https://www.yna.co.kr/view/AKR20260803050100009",
+      "source": "연합뉴스 국제",
+      "ts": 1785719074000,
+      "pub": "Mon, 3 Aug 2026 10:04:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프도 엔화 방어 가세…글로벌 증시 '엔 캐리 청산' 긴장",
+      "link": "https://www.hankyung.com/article/202608030907i",
+      "source": "한국경제",
+      "ts": 1785717607000,
+      "pub": "Mon, 03 Aug 2026 09:40:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"내일 이란과 협상 형태 대화 시작…호르무즈 합의 있다\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260803008152071",
+      "source": "연합뉴스 국제",
+      "ts": 1785715406000,
+      "pub": "Mon, 3 Aug 2026 09:03:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘, 하마스 무장해제안 '심각한 우려' 美에 전달",
+      "link": "https://www.yna.co.kr/view/AKR20260803024400009",
+      "source": "연합뉴스 국제",
+      "ts": 1785714522000,
+      "pub": "Mon, 3 Aug 2026 08:48:42 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프가 매일 전화 거는 여성…美 '어둠의 공주' 정체",
+      "link": "https://www.hankyung.com/article/202608030626i",
+      "source": "한국경제",
+      "ts": 1785713070000,
+      "pub": "Mon, 03 Aug 2026 08:24:30 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,35 +52,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"3일부터 이란과 호르무즈·비핵화 협상 시작\"",
-      "link": "https://www.mt.co.kr/world/2026/08/03/2026080307194953973",
-      "source": "머니투데이",
-      "ts": 1785709883000,
-      "pub": "Mon, 03 Aug 2026 07:31:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, 이란과 호르무즈 합의 도달 시사…\"내일 대화\"",
       "link": "https://www.yna.co.kr/view/AKR20260803008151071",
       "source": "연합뉴스 국제",
       "ts": 1785709523000,
       "pub": "Mon, 3 Aug 2026 07:25:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"미국, 일본과 좋은 관계여서 엔화에 개입\"",
-      "link": "https://www.hankyung.com/article/2026080305017",
-      "source": "한국경제",
-      "ts": 1785707741000,
-      "pub": "Mon, 03 Aug 2026 06:55:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란과 호르무즈 관련 합의…비핵화 합의도 있을 것\"",
-      "link": "https://www.hankyung.com/article/2026080304997",
-      "source": "한국경제",
-      "ts": 1785707718000,
-      "pub": "Mon, 03 Aug 2026 06:55:18 +0900",
       "sentiment": "neutral"
     },
     {
@@ -65,14 +73,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785707617000,
       "pub": "Mon, 3 Aug 2026 06:53:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "스페이스X 첫 실적 발표, 주가 100달러 지킬까…고용지표 주목[이번주 美 증시는]",
-      "link": "https://www.mt.co.kr/world/2026/08/03/2026080119201181440",
-      "source": "머니투데이",
-      "ts": 1785702900000,
-      "pub": "Mon, 03 Aug 2026 05:35:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -105,22 +105,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785684761000,
       "pub": "Mon, 3 Aug 2026 00:32:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'北 극비작전 실패' 보도하자…트럼프 행정부, 기자 상대로 취재원 색출",
-      "link": "https://www.hankyung.com/article/2026080203567",
-      "source": "한국경제",
-      "ts": 1785673823000,
-      "pub": "Sun, 02 Aug 2026 21:30:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"공습 취소\"…이란 \"그런 합의 없었다\" 정면 반박",
-      "link": "https://www.hankyung.com/article/2026080202617",
-      "source": "한국경제",
-      "ts": 1785663132000,
-      "pub": "Sun, 02 Aug 2026 18:32:12 +0900",
       "sentiment": "neutral"
     },
     {
@@ -226,14 +210,6 @@
       "ts": 1785568327000,
       "pub": "Sat, 1 Aug 2026 16:12:07 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "전쟁 민낯 드러나자…러, 우크라 드론피해 영상에 '반역죄' 경고",
-      "link": "https://www.yna.co.kr/view/AKR20260801030500009",
-      "source": "연합뉴스 국제",
-      "ts": 1785553806000,
-      "pub": "Sat, 1 Aug 2026 12:10:06 +0900",
-      "sentiment": "negative"
     }
   ]
 }

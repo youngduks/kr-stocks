@@ -1,126 +1,46 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-01T21:42:44.803Z",
-  "count": 15,
+  "updated_at": "2026-08-03T08:58:50.847Z",
+  "count": 5,
   "items": [
     {
-      "title": "中 창신메모리 상장, 메모리 '4강 체제' 진입?",
-      "link": "https://www.mt.co.kr/economy/2026/08/02/2026073109132696183",
+      "title": "반도체 열풍에…5대은행 ETF 판매 절반이상 고위험",
+      "link": "https://www.mt.co.kr/finance/2026/08/03/2026080314521591940",
       "source": "머니투데이",
-      "ts": 1785618000000,
-      "pub": "Sun, 02 Aug 2026 06:00:00 +0900",
+      "ts": 1785741565000,
+      "pub": "Mon, 03 Aug 2026 16:19:25 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"설마 회장님?\"…슈카 방송에 잡힌 '하이닉스 48억' 매수 정체",
-      "link": "https://www.hankyung.com/article/2026080193947",
-      "source": "한국경제",
-      "ts": 1785585954000,
-      "pub": "Sat, 01 Aug 2026 21:05:54 +0900",
+      "title": "장성에 AI 데이터센터 구축…\"반도체 거점 도약\"",
+      "link": "https://www.yna.co.kr/view/AKR20260803109100054",
+      "source": "연합뉴스 경제",
+      "ts": 1785737610000,
+      "pub": "Mon, 3 Aug 2026 15:13:30 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"삼성전자, SK하이닉스 추월하고 1위\"…파격 전망 나왔다 [강경주의 테크X]",
-      "link": "https://www.hankyung.com/article/2026073181776",
-      "source": "한국경제",
-      "ts": 1785560404000,
-      "pub": "Sat, 01 Aug 2026 14:00:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "7월 수출 988억 달러…반도체가 전체 수출 40% 이끌었다",
-      "link": "https://www.hankyung.com/article/202608019176i",
-      "source": "한국경제",
-      "ts": 1785554061000,
-      "pub": "Sat, 01 Aug 2026 12:14:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"메모리 5개사, 2분기 135조원 손에 쥐어…빅테크 자금 이동\"",
-      "link": "https://www.yna.co.kr/view/AKR20260801028800073",
+      "title": "TSMC, '고객사 이탈 막자' 인텔 EMIB 유사 패키징기술 개발 나서",
+      "link": "https://www.yna.co.kr/view/AKR20260803097800009",
       "source": "연합뉴스 국제",
-      "ts": 1785551248000,
-      "pub": "Sat, 1 Aug 2026 11:27:28 +0900",
+      "ts": 1785735453000,
+      "pub": "Mon, 3 Aug 2026 14:37:33 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "구마모토 반도체업계, 강진서 회복중…\"10년전 교훈에 대책강화\"",
-      "link": "https://www.yna.co.kr/view/AKR20260801027300073",
+      "title": "7월 D램·낸드 가격 역대 최고…\"3분기 PC용 D램값 최대 20%↑\"",
+      "link": "https://www.yna.co.kr/view/AKR20260803098100003",
+      "source": "연합뉴스 경제",
+      "ts": 1785734512000,
+      "pub": "Mon, 3 Aug 2026 14:21:52 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "한국·대만 반도체 기업에 좌우되는 신흥국 지수, 향방은?",
+      "link": "https://www.yna.co.kr/view/AKR20260803060100009",
       "source": "연합뉴스 국제",
-      "ts": 1785550239000,
-      "pub": "Sat, 1 Aug 2026 11:10:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "7월 수출 989억달러 역대 2위…반도체 두달째 400억달러대(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260801021152003",
-      "source": "연합뉴스 경제",
-      "ts": 1785548111000,
-      "pub": "Sat, 1 Aug 2026 10:35:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 7월 반도체 수출 410억달러…두 달 연속 400억달러대",
-      "link": "https://www.yna.co.kr/view/AKR20260801021500003",
-      "source": "연합뉴스 경제",
-      "ts": 1785542433000,
-      "pub": "Sat, 1 Aug 2026 09:00:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아, 나흘 만에 시가총액 1위 복귀…애플, 7%대 폭락",
-      "link": "https://www.yna.co.kr/view/AKR20260801008600091",
-      "source": "연합뉴스 국제",
-      "ts": 1785533361000,
-      "pub": "Sat, 1 Aug 2026 06:29:21 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "뉴욕증시, 아마존 실적·반도체 강세 속 혼조 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260731174300009",
-      "source": "연합뉴스 국제",
-      "ts": 1785507146000,
-      "pub": "Fri, 31 Jul 2026 23:12:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스 '17년만 상한가', 삼전 26.8%↑…역대최고 상승률(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260731042151008",
-      "source": "연합뉴스 경제",
-      "ts": 1785482290000,
-      "pub": "Fri, 31 Jul 2026 16:18:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 하이닉스 상한가…삼성전자 26.81% 상승 마감",
-      "link": "https://www.yna.co.kr/view/AKR20260731118100008",
-      "source": "연합뉴스 경제",
-      "ts": 1785479726000,
-      "pub": "Fri, 31 Jul 2026 15:35:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 코스피 18%·코스닥 11%↑…하이닉스 상한가·삼전도 근접",
-      "link": "https://www.yna.co.kr/view/AKR20260731115200008",
-      "source": "연합뉴스 경제",
-      "ts": 1785479028000,
-      "pub": "Fri, 31 Jul 2026 15:23:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스, 장중 29.95% 상한가 기록…171만8천원",
-      "link": "https://www.yna.co.kr/view/AKR20260731102700008",
-      "source": "연합뉴스 경제",
-      "ts": 1785475609000,
-      "pub": "Fri, 31 Jul 2026 14:26:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] SK하이닉스, 장중 29.95% 상한가 기록…171만8천원",
-      "link": "https://www.yna.co.kr/view/AKR20260731099800008",
-      "source": "연합뉴스 경제",
-      "ts": 1785474708000,
-      "pub": "Fri, 31 Jul 2026 14:11:48 +0900",
+      "ts": 1785721295000,
+      "pub": "Mon, 3 Aug 2026 10:41:35 +0900",
       "sentiment": "neutral"
     }
   ]

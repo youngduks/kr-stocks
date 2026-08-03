@@ -1,15 +1,23 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-08-01T21:42:44.803Z",
-  "count": 1,
+  "updated_at": "2026-08-03T08:58:50.847Z",
+  "count": 2,
   "items": [
     {
-      "title": "中 전기차 100만대 어디로…현대차·기아 가격경쟁 거세지나",
-      "link": "https://www.mt.co.kr/industry/2026/08/02/2026073114551655108",
+      "title": "파업 '현대차' 주춤, '기아·한국GM' 선전…완성차 5사 7월 판매 희비",
+      "link": "https://www.mt.co.kr/industry/2026/08/03/2026080316512123299",
       "source": "머니투데이",
-      "ts": 1785618000000,
-      "pub": "Sun, 02 Aug 2026 06:00:00 +0900",
-      "sentiment": "neutral"
+      "ts": 1785744059000,
+      "pub": "Mon, 03 Aug 2026 17:00:59 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "현대차, 7월 판매 5.1% 감소…파업·신차 대기수요에 내수 14%↓",
+      "link": "https://www.mt.co.kr/industry/2026/08/03/2026080316142818124",
+      "source": "머니투데이",
+      "ts": 1785741971000,
+      "pub": "Mon, 03 Aug 2026 16:26:11 +0900",
+      "sentiment": "negative"
     }
   ]
 }

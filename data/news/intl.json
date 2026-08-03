@@ -1,22 +1,46 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-03T19:16:05.389Z",
+  "updated_at": "2026-08-03T20:53:12.039Z",
   "count": 22,
   "items": [
+    {
+      "title": "트럼프, 이란 전쟁으로 떼돈 번 美 석유사들에 \"소매가 내려라\"",
+      "link": "https://www.yna.co.kr/view/AKR20260804004600071",
+      "source": "연합뉴스 국제",
+      "ts": 1785786400000,
+      "pub": "Tue, 4 Aug 2026 04:46:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"참수 전 마지막 기회\"…이란에 신속 합의 고강도 압박(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260804003751071",
+      "source": "연합뉴스 국제",
+      "ts": 1785785943000,
+      "pub": "Tue, 4 Aug 2026 04:39:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "국제유가, 트럼프 이란공격 취소에 급락…브렌트 5%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260804004400072",
+      "source": "연합뉴스 경제",
+      "ts": 1785785481000,
+      "pub": "Tue, 4 Aug 2026 04:31:21 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프의 엔화부양 배경은…'美국채금리·대미투자 관리' 셈법",
+      "link": "https://www.yna.co.kr/view/AKR20260804000700072",
+      "source": "연합뉴스 경제",
+      "ts": 1785785290000,
+      "pub": "Tue, 4 Aug 2026 04:28:10 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "모로코, 서사하라 잇는 고속도로 '트럼프 고속도로'로 명명",
       "link": "https://www.yna.co.kr/view/AKR20260804003900099",
       "source": "연합뉴스 국제",
       "ts": 1785783912000,
       "pub": "Tue, 4 Aug 2026 04:05:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 추가공습 접은 트럼프 \"호르무즈·비핵화 협상 재개\"",
-      "link": "https://www.mt.co.kr/world/2026/08/04/2026080319220790689",
-      "source": "머니투데이",
-      "ts": 1785783600000,
-      "pub": "Tue, 04 Aug 2026 04:00:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -52,7 +76,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "이란의 '대화없다' 버티기…트럼프, 공격보류했더니 협상도 난관",
+      "title": "이란 '대화없다' 버티기…'타코 패턴' 읽힌 트럼프, 협상도 난관",
       "link": "https://www.yna.co.kr/view/AKR20260804001400071",
       "source": "연합뉴스 국제",
       "ts": 1785777663000,
@@ -98,14 +122,6 @@
       "ts": 1785759581000,
       "pub": "Mon, 3 Aug 2026 21:19:41 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프-네타냐후 또 이견…이스라엘, '하마스 무장해제' 우려 표명",
-      "link": "https://www.mt.co.kr/world/2026/08/03/2026080318464726583",
-      "source": "머니투데이",
-      "ts": 1785755818000,
-      "pub": "Mon, 03 Aug 2026 20:16:58 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "트럼프 트루스소셜 유료 서비스 개시…'권력 남용' 지적 확산",
@@ -162,22 +178,6 @@
       "ts": 1785714522000,
       "pub": "Mon, 3 Aug 2026 08:48:42 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "트럼프 \"미국, 일본과 좋은 관계여서 엔/달러 시장개입\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803008651071",
-      "source": "연합뉴스 국제",
-      "ts": 1785710149000,
-      "pub": "Mon, 3 Aug 2026 07:35:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 이란과 호르무즈 합의 도달 시사…\"내일 대화\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803008151071",
-      "source": "연합뉴스 국제",
-      "ts": 1785709523000,
-      "pub": "Mon, 3 Aug 2026 07:25:23 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

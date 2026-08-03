@@ -1,16 +1,8 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-03T19:16:05.391Z",
-  "count": 13,
+  "updated_at": "2026-08-03T20:53:12.041Z",
+  "count": 8,
   "items": [
-    {
-      "title": "3D 메모리로… 삼성전자, AI 병목 뚫는다",
-      "link": "https://www.mt.co.kr/industry/2026/08/04/2026080319490397697",
-      "source": "머니투데이",
-      "ts": 1785783840000,
-      "pub": "Tue, 04 Aug 2026 04:04:00 +0900",
-      "sentiment": "neutral"
-    },
     {
       "title": "로이터 \"中 CXMT, 베이징에 12인치 메모리 공장 신설 추진\"",
       "link": "https://www.hankyung.com/article/2026080327677",
@@ -18,14 +10,6 @@
       "ts": 1785760034000,
       "pub": "Mon, 03 Aug 2026 21:27:14 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 '쇼크' 안겼던 중국 창신메모리...베이징에 추가 공장 짓나",
-      "link": "https://www.mt.co.kr/world/2026/08/03/2026080320135588768",
-      "source": "머니투데이",
-      "ts": 1785756746000,
-      "pub": "Mon, 03 Aug 2026 20:32:26 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "\"4일 밤부터 가능\"…SK하이닉스 개미들 기대하는 이유 [종목+]",
@@ -44,35 +28,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[급등수사본부] 엔비디아 등 피지컬 AI 확장 수혜 '로보스타' vs 로봇 통합 솔루션 전문업체 '로보티즈'",
-      "link": "https://www.mt.co.kr/stock/2026/08/03/2026080319077072587",
-      "source": "머니투데이",
-      "ts": 1785751875000,
-      "pub": "Mon, 03 Aug 2026 19:11:15 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\"반도체주 급락이 기회\" 3배 레버리지 베팅…SK하닉도 \"떨어지면 계속 사\"[서학픽]",
-      "link": "https://www.mt.co.kr/world/2026/08/03/2026080312385684246",
-      "source": "머니투데이",
-      "ts": 1785747900000,
-      "pub": "Mon, 03 Aug 2026 18:05:00 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "[2026세법] AI로봇·반도체 생산 촉진…6대 성장동력에 소득·법인세 특례",
       "link": "https://www.yna.co.kr/view/AKR20260803000600002",
       "source": "연합뉴스 경제",
       "ts": 1785747610000,
       "pub": "Mon, 3 Aug 2026 18:00:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "전기차 빠진 국내생산세액공제…반도체·이차전지 등 10년간 稅 지원",
-      "link": "https://www.mt.co.kr/economy/2026/08/03/2026080308415659247",
-      "source": "머니투데이",
-      "ts": 1785747600000,
-      "pub": "Mon, 03 Aug 2026 18:00:00 +0900",
       "sentiment": "neutral"
     },
     {

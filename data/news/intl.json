@@ -1,7 +1,7 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-03T01:44:01.997Z",
-  "count": 26,
+  "updated_at": "2026-08-03T05:29:06.529Z",
+  "count": 21,
   "items": [
     {
       "title": "'기독교인에 침 뱉기' 이스라엘 청년층 확산…반기독교 정서",
@@ -9,14 +9,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785719074000,
       "pub": "Mon, 3 Aug 2026 10:04:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프도 엔화 방어 가세…글로벌 증시 '엔 캐리 청산' 긴장",
-      "link": "https://www.hankyung.com/article/202608030907i",
-      "source": "한국경제",
-      "ts": 1785717607000,
-      "pub": "Mon, 03 Aug 2026 09:40:07 +0900",
       "sentiment": "neutral"
     },
     {
@@ -34,14 +26,6 @@
       "ts": 1785714522000,
       "pub": "Mon, 3 Aug 2026 08:48:42 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "트럼프가 매일 전화 거는 여성…美 '어둠의 공주' 정체",
-      "link": "https://www.hankyung.com/article/202608030626i",
-      "source": "한국경제",
-      "ts": 1785713070000,
-      "pub": "Mon, 03 Aug 2026 08:24:30 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "트럼프 \"미국, 일본과 좋은 관계여서 엔/달러 시장개입\"",
@@ -185,30 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785625067000,
       "pub": "Sun, 2 Aug 2026 07:57:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 논란의 사법피해자기금 재추진 위협하며 측근 인준 압박",
-      "link": "https://www.yna.co.kr/view/AKR20260802001200071",
-      "source": "연합뉴스 국제",
-      "ts": 1785606216000,
-      "pub": "Sun, 2 Aug 2026 02:43:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러, 연일 키이우 공습…우크라는 러 컨테이너선 격침",
-      "link": "https://www.yna.co.kr/view/AKR20260801054000108",
-      "source": "연합뉴스 국제",
-      "ts": 1785596383000,
-      "pub": "Sat, 1 Aug 2026 23:59:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키, 트럼프에 \"러 본토 공습에 스타링크 허용\" 요청",
-      "link": "https://www.yna.co.kr/view/AKR20260801039300009",
-      "source": "연합뉴스 국제",
-      "ts": 1785568327000,
-      "pub": "Sat, 1 Aug 2026 16:12:07 +0900",
       "sentiment": "neutral"
     }
   ]

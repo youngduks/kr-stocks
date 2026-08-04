@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-04T02:13:28.168Z",
-  "count": 12,
+  "updated_at": "2026-08-04T05:37:14.028Z",
+  "count": 8,
   "items": [
+    {
+      "title": "\"SOXL로는 부족해\"…美서 또 다른 '반도체 3배' 떴다",
+      "link": "https://www.hankyung.com/article/202608043244i",
+      "source": "한국경제",
+      "ts": 1785811170000,
+      "pub": "Tue, 04 Aug 2026 11:39:30 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "中, 반도체 전쟁 속 '집적회로 배치설계 보호 조례' 25년만 개정",
       "link": "https://www.yna.co.kr/view/AKR20260804045400089",
@@ -20,28 +28,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "호남권 출력제어 폭증…반도체 산단 전력 인프라 '경고등'",
-      "link": "https://www.hankyung.com/article/202608043213i",
-      "source": "한국경제",
-      "ts": 1785804254000,
-      "pub": "Tue, 04 Aug 2026 09:44:14 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "삼성전자·SK하이닉스, 급등 출발후 하락 전환…3%대↓",
       "link": "https://www.yna.co.kr/view/AKR20260804043600008",
       "source": "연합뉴스 경제",
       "ts": 1785804223000,
       "pub": "Tue, 4 Aug 2026 09:43:43 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "삼성자산운용, 'KODEX 미국CPU반도체TOP10' ETF 상장",
-      "link": "https://www.hankyung.com/article/2026080432396",
-      "source": "한국경제",
-      "ts": 1785803053000,
-      "pub": "Tue, 04 Aug 2026 09:24:13 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "한화운용, SK하이닉스·샌디스크 투자 채권혼합 ETF 상장",
@@ -60,14 +52,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "TSMC 일본 구마모토 1공장 정상화…반도체 업계 생산 재개",
-      "link": "https://www.hankyung.com/article/202608043101H",
-      "source": "한국경제",
-      "ts": 1785801216000,
-      "pub": "Tue, 04 Aug 2026 08:53:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "TSMC 日구마모토 1공장 정상화…반도체 업계 속속 생산 재개",
       "link": "https://www.yna.co.kr/view/AKR20260804021900073",
       "source": "연합뉴스 국제",
@@ -81,22 +65,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785753960000,
       "pub": "Mon, 3 Aug 2026 19:46:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[2026세법] AI로봇·반도체 생산 촉진…6대 성장동력에 소득·법인세 특례",
-      "link": "https://www.yna.co.kr/view/AKR20260803000600002",
-      "source": "연합뉴스 경제",
-      "ts": 1785747610000,
-      "pub": "Mon, 3 Aug 2026 18:00:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "TSMC, '고객사 이탈 막자' 인텔 EMIB 유사 패키징기술 개발 나서",
-      "link": "https://www.yna.co.kr/view/AKR20260803097800009",
-      "source": "연합뉴스 국제",
-      "ts": 1785735453000,
-      "pub": "Mon, 3 Aug 2026 14:37:33 +0900",
       "sentiment": "neutral"
     }
   ]

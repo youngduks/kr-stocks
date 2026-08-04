@@ -1,15 +1,39 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-04T02:13:28.167Z",
-  "count": 27,
+  "updated_at": "2026-08-04T05:37:14.026Z",
+  "count": 25,
   "items": [
     {
-      "title": "\"까라면 까\"…일본 구하기에 흔들리는 美 중앙은행 [Fed 워치]",
-      "link": "https://www.hankyung.com/article/202608043276i",
-      "source": "한국경제",
-      "ts": 1785805890000,
-      "pub": "Tue, 04 Aug 2026 10:11:30 +0900",
+      "title": "[영상] 러 흑해 휴양지 덮친 우크라 드론…러, 활공폭탄 8발 집중포화",
+      "link": "https://www.yna.co.kr/view/AKR20260804085200704",
+      "source": "연합뉴스 국제",
+      "ts": 1785812952000,
+      "pub": "Tue, 4 Aug 2026 12:09:12 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 포켓몬ㆍ나루토 도용 좀 하지마\"…日, 美에 공식 항의",
+      "link": "https://www.yna.co.kr/view/AKR20260804082600009",
+      "source": "연합뉴스 국제",
+      "ts": 1785811406000,
+      "pub": "Tue, 4 Aug 2026 11:43:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘, '하마스 무장해제 합의' 후에도 가자지구 공습 지속",
+      "link": "https://www.yna.co.kr/view/AKR20260804081600009",
+      "source": "연합뉴스 국제",
+      "ts": 1785811396000,
+      "pub": "Tue, 4 Aug 2026 11:43:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"우크라같은 사태, 東亞서 발생할수도\"…日방위백서서 북중러 우려",
+      "link": "https://www.yna.co.kr/view/AKR20260801044500073",
+      "source": "연합뉴스 국제",
+      "ts": 1785810404000,
+      "pub": "Tue, 4 Aug 2026 11:26:44 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "\"계산된 제한적 확전\"…이란, 트럼프 양보 얻으려 승부수 던졌다",
@@ -41,14 +65,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785801051000,
       "pub": "Tue, 4 Aug 2026 08:50:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 '우정' 내세웠지만…엔화 방어로 챙긴 '세 가지 국익' [최만수의 재팬 인사이트]",
-      "link": "https://www.hankyung.com/article/202608043071i",
-      "source": "한국경제",
-      "ts": 1785800763000,
-      "pub": "Tue, 04 Aug 2026 08:46:03 +0900",
       "sentiment": "neutral"
     },
     {
@@ -102,7 +118,7 @@
     {
       "title": "트럼프의 엔화부양 배경은…'美국채금리·대미투자 관리' 셈법",
       "link": "https://www.yna.co.kr/view/AKR20260804000700072",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1785785290000,
       "pub": "Tue, 4 Aug 2026 04:28:10 +0900",
       "sentiment": "neutral"
@@ -185,38 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785759581000,
       "pub": "Mon, 3 Aug 2026 21:19:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 트루스소셜 유료 서비스 개시…'권력 남용' 지적 확산",
-      "link": "https://www.yna.co.kr/view/AKR20260803135600009",
-      "source": "연합뉴스 국제",
-      "ts": 1785744775000,
-      "pub": "Mon, 3 Aug 2026 17:12:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美법무 '트럼프 지지자 보상금' 폐지…의회 인준 걸림돌 제거",
-      "link": "https://www.yna.co.kr/view/AKR20260803119200009",
-      "source": "연합뉴스 국제",
-      "ts": 1785740481000,
-      "pub": "Mon, 3 Aug 2026 16:01:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"무슨일 날지 모른다\"…이스라엘 시민사회 '총선 워룸' 설치",
-      "link": "https://www.yna.co.kr/view/AKR20260803118800009",
-      "source": "연합뉴스 국제",
-      "ts": 1785740311000,
-      "pub": "Mon, 3 Aug 2026 15:58:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "외교로 다시 '타코' 트럼프…\"어떤 길이든 승리 쉽지 않아\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803113400009",
-      "source": "연합뉴스 국제",
-      "ts": 1785739819000,
-      "pub": "Mon, 3 Aug 2026 15:50:19 +0900",
       "sentiment": "neutral"
     }
   ]

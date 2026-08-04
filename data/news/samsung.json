@@ -1,8 +1,40 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-04T02:13:28.168Z",
-  "count": 3,
+  "updated_at": "2026-08-04T05:37:14.027Z",
+  "count": 6,
   "items": [
+    {
+      "title": "삼전 '이직'·하닉 '행복'…역대급 돈잔치에도 '극과 극' 반응 [오피스 텔①]",
+      "link": "https://www.hankyung.com/article/202608031118g",
+      "source": "한국경제",
+      "ts": 1785818959000,
+      "pub": "Tue, 04 Aug 2026 13:49:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "법인세 중간예납 시작…'삼전닉스'발 초과세수 윤곽 나온다",
+      "link": "https://www.yna.co.kr/view/AKR20260804067700002",
+      "source": "연합뉴스 경제",
+      "ts": 1785812402000,
+      "pub": "Tue, 4 Aug 2026 12:00:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전·닉스 쏠림 완화 조짐…바이오주 급등에 코스닥 '매수 사이드카'",
+      "link": "https://www.hankyung.com/article/2026080437346",
+      "source": "한국경제",
+      "ts": 1785809732000,
+      "pub": "Tue, 04 Aug 2026 11:15:32 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "상위 1% 초고수, 삼전·닉스 '팔자'…두산에너빌리티·대우건설 집중 매수",
+      "link": "https://www.hankyung.com/article/202608043519i",
+      "source": "한국경제",
+      "ts": 1785808893000,
+      "pub": "Tue, 04 Aug 2026 11:01:33 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성전자·SK하이닉스, 급등 출발후 하락 전환…3%대↓",
       "link": "https://www.yna.co.kr/view/AKR20260804043600008",
@@ -18,14 +50,6 @@
       "ts": 1785753960000,
       "pub": "Mon, 3 Aug 2026 19:46:00 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "외국인, 삼성전자 지분율 46.7%…금융위기 이후 최저 수준",
-      "link": "https://www.yna.co.kr/view/AKR20260803136700008",
-      "source": "연합뉴스 경제",
-      "ts": 1785744692000,
-      "pub": "Mon, 3 Aug 2026 17:11:32 +0900",
-      "sentiment": "negative"
     }
   ]
 }

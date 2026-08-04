@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-04T16:04:47.346Z",
-  "count": 17,
+  "updated_at": "2026-08-04T18:21:14.205Z",
+  "count": 18,
   "items": [
+    {
+      "title": "트럼프 행정부, 엔화 부양 고리로 원화값 회복 불 지피나",
+      "link": "https://www.yna.co.kr/view/AKR20260805001200072",
+      "source": "연합뉴스 경제",
+      "ts": 1785862407000,
+      "pub": "Wed, 5 Aug 2026 01:53:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "도망치는 상인 뒤쫓아 쾅…자폭드론 영상에 우크라 격분(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260804156151109",
+      "source": "연합뉴스 국제",
+      "ts": 1785860522000,
+      "pub": "Wed, 5 Aug 2026 01:22:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'트럼프 충성파' 美법무 후보, 우여곡절 끝 인준 첫 관문 통과",
+      "link": "https://www.yna.co.kr/view/AKR20260805000900071",
+      "source": "연합뉴스 국제",
+      "ts": 1785860019000,
+      "pub": "Wed, 5 Aug 2026 01:13:39 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "전쟁 중에도…우크라 소방관들, 프랑스 최악 산불 현장 달려가",
       "link": "https://www.yna.co.kr/view/AKR20260804169000081",
@@ -121,22 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785803514000,
       "pub": "Tue, 4 Aug 2026 09:31:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '가정폭력 의혹' 공화당 의원에 \"좋은 사람\" 편들기",
-      "link": "https://www.yna.co.kr/view/AKR20260804022200071",
-      "source": "연합뉴스 국제",
-      "ts": 1785801247000,
-      "pub": "Tue, 4 Aug 2026 08:54:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "백악관, 첨단AI 보안 검증방안 확정…AI기업과 비공개 논의키로(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260804002651091",
-      "source": "연합뉴스 국제",
-      "ts": 1785801051000,
-      "pub": "Tue, 4 Aug 2026 08:50:51 +0900",
       "sentiment": "neutral"
     }
   ]

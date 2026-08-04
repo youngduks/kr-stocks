@@ -1,6 +1,6 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-04T16:04:47.347Z",
+  "updated_at": "2026-08-04T18:21:14.206Z",
   "count": 3,
   "items": [
     {
@@ -12,19 +12,19 @@
       "sentiment": "neutral"
     },
     {
+      "title": "[급등수사본부] 반도체 투톱 등 AI반도체 대표 종목 추종 'KODEX AI반도체TOP2플러스' vs 메디컬 이식재 시장 안정적 M/S 보유 '엘앤씨바이오'",
+      "link": "https://www.mt.co.kr/stock/2026/08/04/2026080418547038250",
+      "source": "머니투데이",
+      "ts": 1785838284000,
+      "pub": "Tue, 04 Aug 2026 19:11:24 +0900",
+      "sentiment": "positive"
+    },
+    {
       "title": "中, 반도체 전쟁 속 '집적회로 배치설계 보호 조례' 25년만 개정",
       "link": "https://www.yna.co.kr/view/AKR20260804045400089",
       "source": "연합뉴스 국제",
       "ts": 1785805351000,
       "pub": "Tue, 4 Aug 2026 10:02:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "TSMC 日구마모토 1공장 정상화…반도체 업계 속속 생산 재개",
-      "link": "https://www.yna.co.kr/view/AKR20260804021900073",
-      "source": "연합뉴스 국제",
-      "ts": 1785800142000,
-      "pub": "Tue, 4 Aug 2026 08:35:42 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,56 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-04T20:16:45.738Z",
-  "count": 6,
+  "updated_at": "2026-08-04T22:01:49.959Z",
+  "count": 12,
   "items": [
+    {
+      "title": "삼성, 'HBM 8배 성능' 차세대 3D메모리 공개…\"AI칩 장벽 넘는다\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260805004351091",
+      "source": "연합뉴스 국제",
+      "ts": 1785880112000,
+      "pub": "Wed, 5 Aug 2026 06:48:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "머스크 스페이스X CEO, \"전 세계 인터넷 대부분 제공 가능성...엔비디아와 협력 강화\"",
+      "link": "https://www.hankyung.com/article/202608055146i",
+      "source": "한국경제",
+      "ts": 1785876540000,
+      "pub": "Wed, 05 Aug 2026 05:49:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "S&P도 사상 최고치…반도체 다시 '날개'[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/08/05/2026080505383324698",
+      "source": "머니투데이",
+      "ts": 1785876038000,
+      "pub": "Wed, 05 Aug 2026 05:40:38 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"따라가려면 멀었다\" 삼전닉스 벽 높지만...CXMT 추격 무시 못 하는 이유",
+      "link": "https://www.mt.co.kr/industry/2026/08/05/2026080418272249966",
+      "source": "머니투데이",
+      "ts": 1785875400000,
+      "pub": "Wed, 05 Aug 2026 05:30:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 차세대 'zHBM'-세계최초 400단 이상 'V10 낸드' 공개",
+      "link": "https://www.mt.co.kr/industry/2026/08/05/2026080504344012981",
+      "source": "머니투데이",
+      "ts": 1785874069000,
+      "pub": "Wed, 05 Aug 2026 05:07:49 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "뒷배는 중국 정부...\"돈 못 벌어도 일단 고\" 39조 쏟아부은 CXMT",
+      "link": "https://www.mt.co.kr/industry/2026/08/05/2026080417081674101",
+      "source": "머니투데이",
+      "ts": 1785873600000,
+      "pub": "Wed, 05 Aug 2026 05:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성, 'HBM 8배 성능' 차세대 3D메모리 공개…\"AI장벽 넘는다\"",
       "link": "https://www.yna.co.kr/view/AKR20260805004300091",
@@ -36,19 +84,19 @@
       "sentiment": "positive"
     },
     {
+      "title": "메모리 병목 뚫는다… SK하이닉스, HBF 표준규격 첫 공개",
+      "link": "https://www.mt.co.kr/industry/2026/08/05/2026080419504494010",
+      "source": "머니투데이",
+      "ts": 1785869460000,
+      "pub": "Wed, 05 Aug 2026 03:51:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "BoaA,\"하이닉스 멀티플 8배 적정…'매수'등급과 목표가 3백만원\"제시",
       "link": "https://www.hankyung.com/article/202608045077i",
       "source": "한국경제",
       "ts": 1785852020000,
       "pub": "Tue, 04 Aug 2026 23:00:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中, 반도체 전쟁 속 '집적회로 배치설계 보호 조례' 25년만 개정",
-      "link": "https://www.yna.co.kr/view/AKR20260804045400089",
-      "source": "연합뉴스 국제",
-      "ts": 1785805351000,
-      "pub": "Tue, 4 Aug 2026 10:02:31 +0900",
       "sentiment": "neutral"
     }
   ]

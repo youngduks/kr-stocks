@@ -1,8 +1,40 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-04T20:16:45.738Z",
-  "count": 5,
+  "updated_at": "2026-08-04T22:01:49.959Z",
+  "count": 11,
   "items": [
+    {
+      "title": "삼성, 'HBM 8배 성능' 차세대 3D메모리 공개…\"AI칩 장벽 넘는다\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260805004351091",
+      "source": "연합뉴스 국제",
+      "ts": 1785880112000,
+      "pub": "Wed, 5 Aug 2026 06:48:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "접었을 땐 폰, 펼치자 태블릿...\"확 몰입되네\" 갤럭시 Z 폴드8 써보니",
+      "link": "https://www.mt.co.kr/tech/2026/08/05/2026080223073612155",
+      "source": "머니투데이",
+      "ts": 1785877200000,
+      "pub": "Wed, 05 Aug 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"따라가려면 멀었다\" 삼전닉스 벽 높지만...CXMT 추격 무시 못 하는 이유",
+      "link": "https://www.mt.co.kr/industry/2026/08/05/2026080418272249966",
+      "source": "머니투데이",
+      "ts": 1785875400000,
+      "pub": "Wed, 05 Aug 2026 05:30:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 차세대 'zHBM'-세계최초 400단 이상 'V10 낸드' 공개",
+      "link": "https://www.mt.co.kr/industry/2026/08/05/2026080504344012981",
+      "source": "머니투데이",
+      "ts": 1785874069000,
+      "pub": "Wed, 05 Aug 2026 05:07:49 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "삼성, 'HBM 8배 성능' 차세대 3D메모리 공개…\"AI장벽 넘는다\"",
       "link": "https://www.yna.co.kr/view/AKR20260805004300091",
@@ -25,6 +57,22 @@
       "source": "연합뉴스 국제",
       "ts": 1785870543000,
       "pub": "Wed, 5 Aug 2026 04:09:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "화면비 바꾸자 \"폰 바꿀래\"...'갤럭시Z8' 1분에 140대씩 팔렸다",
+      "link": "https://www.mt.co.kr/tech/2026/08/05/2026080419504925453",
+      "source": "머니투데이",
+      "ts": 1785869520000,
+      "pub": "Wed, 05 Aug 2026 03:52:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "메모리 병목 뚫는다… SK하이닉스, HBF 표준규격 첫 공개",
+      "link": "https://www.mt.co.kr/industry/2026/08/05/2026080419504494010",
+      "source": "머니투데이",
+      "ts": 1785869460000,
+      "pub": "Wed, 05 Aug 2026 03:51:00 +0900",
       "sentiment": "neutral"
     },
     {

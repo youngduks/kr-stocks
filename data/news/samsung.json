@@ -1,14 +1,54 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-04T22:01:49.959Z",
-  "count": 11,
+  "updated_at": "2026-08-04T23:53:13.774Z",
+  "count": 14,
   "items": [
     {
-      "title": "삼성, 'HBM 8배 성능' 차세대 3D메모리 공개…\"AI칩 장벽 넘는다\"(종합)",
+      "title": "'HBF표준 번개발표'…SK하닉·샌디스크 \"메모리장벽 함께 돌파\"",
+      "link": "https://www.yna.co.kr/view/AKR20260805015900091",
+      "source": "연합뉴스 국제",
+      "ts": 1785885868000,
+      "pub": "Wed, 5 Aug 2026 08:24:28 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'25만 전자' 회복…삼전닉스, 프리마켓서 4·6%대 상승",
+      "link": "https://www.mt.co.kr/stock/2026/08/05/2026080508220986911",
+      "source": "머니투데이",
+      "ts": 1785885844000,
+      "pub": "Wed, 05 Aug 2026 08:24:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성, 'HBM5 8배 성능' 차세대 3D메모리 공개…\"AI칩 장벽 넘는다\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260805004351091",
       "source": "연합뉴스 국제",
       "ts": 1785880112000,
       "pub": "Wed, 5 Aug 2026 06:48:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 \"HBM만으로는 부족\"…3D로 쌓는 D램·HBF 공개",
+      "link": "https://www.hankyung.com/article/202608055183i",
+      "source": "한국경제",
+      "ts": 1785879577000,
+      "pub": "Wed, 05 Aug 2026 06:39:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼전 아니었네\"…'숨은 연봉 1.2억' SK하닉도 제친 1위 회사 [오피스 텔②]",
+      "link": "https://www.hankyung.com/article/202608044031g",
+      "source": "한국경제",
+      "ts": 1785877297000,
+      "pub": "Wed, 05 Aug 2026 06:01:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 흔들리자 '줍줍'…멀미난 국민연금 갈아탄 종목",
+      "link": "https://www.hankyung.com/article/2026080447181",
+      "source": "한국경제",
+      "ts": 1785877208000,
+      "pub": "Wed, 05 Aug 2026 06:00:08 +0900",
       "sentiment": "neutral"
     },
     {
@@ -57,22 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785870543000,
       "pub": "Wed, 5 Aug 2026 04:09:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "화면비 바꾸자 \"폰 바꿀래\"...'갤럭시Z8' 1분에 140대씩 팔렸다",
-      "link": "https://www.mt.co.kr/tech/2026/08/05/2026080419504925453",
-      "source": "머니투데이",
-      "ts": 1785869520000,
-      "pub": "Wed, 05 Aug 2026 03:52:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "메모리 병목 뚫는다… SK하이닉스, HBF 표준규격 첫 공개",
-      "link": "https://www.mt.co.kr/industry/2026/08/05/2026080419504494010",
-      "source": "머니투데이",
-      "ts": 1785869460000,
-      "pub": "Wed, 05 Aug 2026 03:51:00 +0900",
       "sentiment": "neutral"
     },
     {

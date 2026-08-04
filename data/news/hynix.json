@@ -1,10 +1,42 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-04T22:01:49.959Z",
-  "count": 12,
+  "updated_at": "2026-08-04T23:53:13.774Z",
+  "count": 15,
   "items": [
     {
-      "title": "삼성, 'HBM 8배 성능' 차세대 3D메모리 공개…\"AI칩 장벽 넘는다\"(종합)",
+      "title": "\"엔비디아가 최고\" 머스크 공개 선언…AMD는 CAPEX 부담에 8% '뚝' [IT썰]",
+      "link": "https://www.mt.co.kr/tech/2026/08/05/2026080507135285723",
+      "source": "머니투데이",
+      "ts": 1785886257000,
+      "pub": "Wed, 05 Aug 2026 08:30:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'HBF표준 번개발표'…SK하닉·샌디스크 \"메모리장벽 함께 돌파\"",
+      "link": "https://www.yna.co.kr/view/AKR20260805015900091",
+      "source": "연합뉴스 국제",
+      "ts": 1785885868000,
+      "pub": "Wed, 5 Aug 2026 08:24:28 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "IBK증권 \"ISC, 반도체 소부장 모범사례…최대실적 예상\"",
+      "link": "https://www.yna.co.kr/view/AKR20260805020900008",
+      "source": "연합뉴스 경제",
+      "ts": 1785885362000,
+      "pub": "Wed, 5 Aug 2026 08:16:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하나증권 \"엔비디아 기지국 진출, 국내 통신업체엔 기회\"",
+      "link": "https://www.yna.co.kr/view/AKR20260805020800008",
+      "source": "연합뉴스 경제",
+      "ts": 1785885216000,
+      "pub": "Wed, 5 Aug 2026 08:13:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성, 'HBM5 8배 성능' 차세대 3D메모리 공개…\"AI칩 장벽 넘는다\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260805004351091",
       "source": "연합뉴스 국제",
       "ts": 1785880112000,
@@ -12,7 +44,15 @@
       "sentiment": "neutral"
     },
     {
-      "title": "머스크 스페이스X CEO, \"전 세계 인터넷 대부분 제공 가능성...엔비디아와 협력 강화\"",
+      "title": "SK하이닉스 \"HBM만으로는 부족\"…3D로 쌓는 D램·HBF 공개",
+      "link": "https://www.hankyung.com/article/202608055183i",
+      "source": "한국경제",
+      "ts": 1785879577000,
+      "pub": "Wed, 05 Aug 2026 06:39:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "머스크 \"전 세계 인터넷 대부분 제공 가능성…엔비디아와 협력 강화\"",
       "link": "https://www.hankyung.com/article/202608055146i",
       "source": "한국경제",
       "ts": 1785876540000,
@@ -82,22 +122,6 @@
       "ts": 1785870336000,
       "pub": "Wed, 5 Aug 2026 04:05:36 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "메모리 병목 뚫는다… SK하이닉스, HBF 표준규격 첫 공개",
-      "link": "https://www.mt.co.kr/industry/2026/08/05/2026080419504494010",
-      "source": "머니투데이",
-      "ts": 1785869460000,
-      "pub": "Wed, 05 Aug 2026 03:51:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "BoaA,\"하이닉스 멀티플 8배 적정…'매수'등급과 목표가 3백만원\"제시",
-      "link": "https://www.hankyung.com/article/202608045077i",
-      "source": "한국경제",
-      "ts": 1785852020000,
-      "pub": "Tue, 04 Aug 2026 23:00:20 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

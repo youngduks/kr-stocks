@@ -1,7 +1,7 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-04T08:15:07.647Z",
-  "count": 6,
+  "updated_at": "2026-08-04T11:14:04.039Z",
+  "count": 2,
   "items": [
     {
       "title": "아직은 큰 변동성…삼전닉스, 급등락 끝에 간신히 상승마감(종합)",
@@ -12,44 +12,12 @@
       "sentiment": "positive"
     },
     {
-      "title": "코스피, 삼전닉스 주춤해도 1%대 강세…코스닥선 바이오주 '불기둥'",
-      "link": "https://www.hankyung.com/article/2026080443336",
-      "source": "한국경제",
-      "ts": 1785825789000,
-      "pub": "Tue, 04 Aug 2026 15:43:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, SK하이닉스 가뿐히 제쳤다…놀라운 반전 결과",
-      "link": "https://www.hankyung.com/article/202608044235g",
-      "source": "한국경제",
-      "ts": 1785824647000,
-      "pub": "Tue, 04 Aug 2026 15:24:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'메이드 인 이집트'를 삼성전자 출신 MZ가 만들었다고?",
-      "link": "https://www.hankyung.com/article/202608044091i",
-      "source": "한국경제",
-      "ts": 1785821717000,
-      "pub": "Tue, 04 Aug 2026 14:35:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "법인세 중간예납 시작…'삼전닉스'발 초과세수 윤곽 나온다",
       "link": "https://www.yna.co.kr/view/AKR20260804067700002",
       "source": "연합뉴스 경제",
       "ts": 1785812402000,
       "pub": "Tue, 4 Aug 2026 12:00:02 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자·SK하이닉스, 급등 출발후 하락 전환…3%대↓",
-      "link": "https://www.yna.co.kr/view/AKR20260804043600008",
-      "source": "연합뉴스 경제",
-      "ts": 1785804223000,
-      "pub": "Tue, 4 Aug 2026 09:43:43 +0900",
-      "sentiment": "positive"
     }
   ]
 }

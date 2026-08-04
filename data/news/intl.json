@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-04T08:15:07.646Z",
+  "updated_at": "2026-08-04T11:14:04.038Z",
   "count": 24,
   "items": [
+    {
+      "title": "러, 모스크바 식당 폭발 배후로 우크라 첫 지목…증거는 없어",
+      "link": "https://www.hankyung.com/article/2026080449397",
+      "source": "한국경제",
+      "ts": 1785839822000,
+      "pub": "Tue, 04 Aug 2026 19:37:02 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "공짜 점심 없는 트럼프 정부…엔화 공조 후 日에 뭘 요구할까",
+      "link": "https://www.hankyung.com/article/202608044930i",
+      "source": "한국경제",
+      "ts": 1785839595000,
+      "pub": "Tue, 04 Aug 2026 19:33:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "도망치는 상인 뒤쫓아 쾅…자폭드론 영상에 우크라 격분",
+      "link": "https://www.yna.co.kr/view/AKR20260804156100109",
+      "source": "연합뉴스 국제",
+      "ts": 1785838394000,
+      "pub": "Tue, 4 Aug 2026 19:13:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러 \"모스크바 식당 테러, 우크라가 계획\" 주장",
+      "link": "https://www.yna.co.kr/view/AKR20260804156500108",
+      "source": "연합뉴스 국제",
+      "ts": 1785838196000,
+      "pub": "Tue, 4 Aug 2026 19:09:56 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[영상] \"日 애니 도용 말라\" 공식 항의에…나루토 합성영상 올린 트럼프",
       "link": "https://www.yna.co.kr/view/AKR20260804137300704",
@@ -161,38 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785780599000,
       "pub": "Tue, 4 Aug 2026 03:09:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란과 현재 대화 중…이번이 마지막 기회\"",
-      "link": "https://www.yna.co.kr/view/AKR20260804003300071",
-      "source": "연합뉴스 국제",
-      "ts": 1785780300000,
-      "pub": "Tue, 4 Aug 2026 03:05:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 충성파' 美법무 인준 청신호…공화의원 2명 반대 접어",
-      "link": "https://www.yna.co.kr/view/AKR20260804002400071",
-      "source": "연합뉴스 국제",
-      "ts": 1785779904000,
-      "pub": "Tue, 4 Aug 2026 02:58:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 '대화없다' 버티기…'타코 패턴' 읽힌 트럼프, 협상도 난관",
-      "link": "https://www.yna.co.kr/view/AKR20260804001400071",
-      "source": "연합뉴스 국제",
-      "ts": 1785777663000,
-      "pub": "Tue, 4 Aug 2026 02:21:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란 지도부, 회담 요청해놓고도 부인…이중적 행태\"",
-      "link": "https://www.yna.co.kr/view/AKR20260804001100071",
-      "source": "연합뉴스 국제",
-      "ts": 1785775321000,
-      "pub": "Tue, 4 Aug 2026 01:42:01 +0900",
       "sentiment": "neutral"
     }
   ]

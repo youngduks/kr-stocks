@@ -1,150 +1,198 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-03T08:58:50.845Z",
-  "count": 18,
+  "updated_at": "2026-08-04T08:15:07.646Z",
+  "count": 24,
   "items": [
     {
-      "title": "트럼프 트루스소셜 유료 서비스 개시…'권력 남용' 지적 확산",
-      "link": "https://www.yna.co.kr/view/AKR20260803135600009",
+      "title": "[영상] \"日 애니 도용 말라\" 공식 항의에…나루토 합성영상 올린 트럼프",
+      "link": "https://www.yna.co.kr/view/AKR20260804137300704",
       "source": "연합뉴스 국제",
-      "ts": 1785744775000,
-      "pub": "Mon, 3 Aug 2026 17:12:55 +0900",
+      "ts": 1785829642000,
+      "pub": "Tue, 4 Aug 2026 16:47:22 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"네타냐후 선거 불복 우려\"…이스라엘, 총선 앞두고 '초긴장'",
-      "link": "https://www.hankyung.com/article/2026080321337",
-      "source": "한국경제",
-      "ts": 1785742302000,
-      "pub": "Mon, 03 Aug 2026 16:31:42 +0900",
+      "title": "러 흑해 휴양지 드론 폭발해 민간인 피해…당국 \"우크라 소행\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260804070551009",
+      "source": "연합뉴스 국제",
+      "ts": 1785828776000,
+      "pub": "Tue, 4 Aug 2026 16:32:56 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "美법무 '트럼프 지지자 보상금' 폐지…의회 인준 걸림돌 제거",
-      "link": "https://www.yna.co.kr/view/AKR20260803119200009",
+      "title": "[영상] 러 흑해 휴양지 덮친 우크라 드론…러, 활공폭탄 8발 집중포화",
+      "link": "https://www.yna.co.kr/view/AKR20260804085200704",
       "source": "연합뉴스 국제",
-      "ts": 1785740481000,
-      "pub": "Mon, 3 Aug 2026 16:01:21 +0900",
+      "ts": 1785812952000,
+      "pub": "Tue, 4 Aug 2026 12:09:12 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"무슨일 날지 모른다\"…이스라엘 시민사회 '총선 워룸' 설치",
-      "link": "https://www.yna.co.kr/view/AKR20260803118800009",
+      "title": "\"트럼프, 포켓몬ㆍ나루토 도용 좀 하지마\"…日, 美에 공식 항의",
+      "link": "https://www.yna.co.kr/view/AKR20260804082600009",
       "source": "연합뉴스 국제",
-      "ts": 1785740311000,
-      "pub": "Mon, 3 Aug 2026 15:58:31 +0900",
+      "ts": 1785811406000,
+      "pub": "Tue, 4 Aug 2026 11:43:26 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "외교로 다시 '타코' 트럼프…\"어떤 길이든 승리 쉽지 않아\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803113400009",
+      "title": "이스라엘, '하마스 무장해제 합의' 후에도 가자지구 공습 지속",
+      "link": "https://www.yna.co.kr/view/AKR20260804081600009",
       "source": "연합뉴스 국제",
-      "ts": 1785739819000,
-      "pub": "Mon, 3 Aug 2026 15:50:19 +0900",
+      "ts": 1785811396000,
+      "pub": "Tue, 4 Aug 2026 11:43:16 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "'기독교인에 침 뱉기' 이스라엘 청년층 확산…반기독교 정서",
-      "link": "https://www.yna.co.kr/view/AKR20260803050100009",
+      "title": "\"우크라같은 사태, 東亞서 발생할수도\"…日방위백서서 북중러 우려",
+      "link": "https://www.yna.co.kr/view/AKR20260801044500073",
       "source": "연합뉴스 국제",
-      "ts": 1785719074000,
-      "pub": "Mon, 3 Aug 2026 10:04:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"내일 이란과 협상 형태 대화 시작…호르무즈 합의 있다\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260803008152071",
-      "source": "연합뉴스 국제",
-      "ts": 1785715406000,
-      "pub": "Mon, 3 Aug 2026 09:03:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘, 하마스 무장해제안 '심각한 우려' 美에 전달",
-      "link": "https://www.yna.co.kr/view/AKR20260803024400009",
-      "source": "연합뉴스 국제",
-      "ts": 1785714522000,
-      "pub": "Mon, 3 Aug 2026 08:48:42 +0900",
+      "ts": 1785810404000,
+      "pub": "Tue, 4 Aug 2026 11:26:44 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "트럼프 \"미국, 일본과 좋은 관계여서 엔/달러 시장개입\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803008651071",
+      "title": "\"계산된 제한적 확전\"…이란, 트럼프 양보 얻으려 승부수 던졌다",
+      "link": "https://www.yna.co.kr/view/AKR20260804042700009",
       "source": "연합뉴스 국제",
-      "ts": 1785710149000,
-      "pub": "Mon, 3 Aug 2026 07:35:49 +0900",
+      "ts": 1785804685000,
+      "pub": "Tue, 4 Aug 2026 09:51:25 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 이란과 호르무즈 합의 도달 시사…\"내일 대화\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803008151071",
+      "title": "젤렌스키, 미국 주재 우크라 대사 해임…후임은 미정",
+      "link": "https://www.yna.co.kr/view/AKR20260804037200009",
       "source": "연합뉴스 국제",
-      "ts": 1785709523000,
-      "pub": "Mon, 3 Aug 2026 07:25:23 +0900",
+      "ts": 1785803514000,
+      "pub": "Tue, 4 Aug 2026 09:31:54 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[속보] 트럼프 \"미국, 일본과 좋은 관계여서 엔화에 개입\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803008600071",
+      "title": "트럼프, '가정폭력 의혹' 공화당 의원에 \"좋은 사람\" 편들기",
+      "link": "https://www.yna.co.kr/view/AKR20260804022200071",
       "source": "연합뉴스 국제",
-      "ts": 1785707706000,
-      "pub": "Mon, 3 Aug 2026 06:55:06 +0900",
+      "ts": 1785801247000,
+      "pub": "Tue, 4 Aug 2026 08:54:07 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[속보] 트럼프 \"이란과 호르무즈 관련 합의…비핵화 합의도 있을 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803008100071",
+      "title": "백악관, 첨단AI 보안 검증방안 확정…AI기업과 비공개 논의키로(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260804002651091",
       "source": "연합뉴스 국제",
-      "ts": 1785707617000,
-      "pub": "Mon, 3 Aug 2026 06:53:37 +0900",
+      "ts": 1785801051000,
+      "pub": "Tue, 4 Aug 2026 08:50:51 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프-與상원 이상기류…\"원내대표와 2주간 전화 한통 없었다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803002700071",
+      "title": "\"트럼프, '명령 불복종' 측근 검사장에 격노…해임 검토\"",
+      "link": "https://www.yna.co.kr/view/AKR20260804010300071",
       "source": "연합뉴스 국제",
-      "ts": 1785701546000,
-      "pub": "Mon, 3 Aug 2026 05:12:26 +0900",
+      "ts": 1785796752000,
+      "pub": "Tue, 4 Aug 2026 07:39:12 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 중동 긴장 여전한데 골프 우승 자랑…\"내 재능 덕분\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803002200071",
+      "title": "美 민주당 소속 25개州 \"301조 강제노동 관세는 위법\" 제소",
+      "link": "https://www.yna.co.kr/view/AKR20260804009800072",
       "source": "연합뉴스 국제",
-      "ts": 1785701139000,
-      "pub": "Mon, 3 Aug 2026 05:05:39 +0900",
+      "ts": 1785794798000,
+      "pub": "Tue, 4 Aug 2026 07:06:38 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"트럼프의 이란 공격 취소, 이스라엘은 까맣게 몰랐다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803002300079",
+      "title": "前 美북한인권특사 \"인도적 지원 방북 허가해야\"…국무부에 촉구",
+      "link": "https://www.yna.co.kr/view/AKR20260804007600071",
       "source": "연합뉴스 국제",
-      "ts": 1785699551000,
-      "pub": "Mon, 3 Aug 2026 04:39:11 +0900",
+      "ts": 1785793261000,
+      "pub": "Tue, 4 Aug 2026 06:41:01 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프의 중간선거후 '빅픽처'…\"마가 공화 업고 대선판 주물럭\"",
-      "link": "https://www.yna.co.kr/view/AKR20260802056000071",
+      "title": "트럼프, 이란 전쟁으로 떼돈 번 美 석유사들에 \"소매가 내려라\"",
+      "link": "https://www.yna.co.kr/view/AKR20260804004600071",
       "source": "연합뉴스 국제",
-      "ts": 1785684761000,
-      "pub": "Mon, 3 Aug 2026 00:32:41 +0900",
+      "ts": 1785786400000,
+      "pub": "Tue, 4 Aug 2026 04:46:40 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"사우디 왕세자, 트럼프에 '중동 긴장완화 위한 대화' 강조\"",
-      "link": "https://www.yna.co.kr/view/AKR20260802040400079",
+      "title": "트럼프 \"참수 전 마지막 기회\"…이란에 신속 합의 고강도 압박(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260804003751071",
       "source": "연합뉴스 국제",
-      "ts": 1785659696000,
-      "pub": "Sun, 2 Aug 2026 17:34:56 +0900",
+      "ts": 1785785943000,
+      "pub": "Tue, 4 Aug 2026 04:39:03 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"이란 외무, 호르무즈 개방 타협안 동의 후 트럼프 공습 취소\"",
-      "link": "https://www.yna.co.kr/view/AKR20260802039200079",
+      "title": "국제유가, 트럼프 이란공격 취소에 급락…브렌트 5%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260804004400072",
       "source": "연합뉴스 국제",
-      "ts": 1785658831000,
-      "pub": "Sun, 2 Aug 2026 17:20:31 +0900",
+      "ts": 1785785481000,
+      "pub": "Tue, 4 Aug 2026 04:31:21 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프의 엔화부양 배경은…'美국채금리·대미투자 관리' 셈법",
+      "link": "https://www.yna.co.kr/view/AKR20260804000700072",
+      "source": "연합뉴스 국제",
+      "ts": 1785785290000,
+      "pub": "Tue, 4 Aug 2026 04:28:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "모로코, 서사하라 잇는 고속도로 '트럼프 고속도로'로 명명",
+      "link": "https://www.yna.co.kr/view/AKR20260804003900099",
+      "source": "연합뉴스 국제",
+      "ts": 1785783912000,
+      "pub": "Tue, 4 Aug 2026 04:05:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과 대화 중…이번이 마지막 기회\" 합의 압박",
+      "link": "https://www.yna.co.kr/view/AKR20260804003700071",
+      "source": "연합뉴스 국제",
+      "ts": 1785781799000,
+      "pub": "Tue, 4 Aug 2026 03:29:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "백악관, 첨단AI 보안 검증방안 확정…AI기업과 비공개 논의키로",
+      "link": "https://www.yna.co.kr/view/AKR20260804002600091",
+      "source": "연합뉴스 국제",
+      "ts": 1785780599000,
+      "pub": "Tue, 4 Aug 2026 03:09:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"이란과 현재 대화 중…이번이 마지막 기회\"",
+      "link": "https://www.yna.co.kr/view/AKR20260804003300071",
+      "source": "연합뉴스 국제",
+      "ts": 1785780300000,
+      "pub": "Tue, 4 Aug 2026 03:05:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'트럼프 충성파' 美법무 인준 청신호…공화의원 2명 반대 접어",
+      "link": "https://www.yna.co.kr/view/AKR20260804002400071",
+      "source": "연합뉴스 국제",
+      "ts": 1785779904000,
+      "pub": "Tue, 4 Aug 2026 02:58:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 '대화없다' 버티기…'타코 패턴' 읽힌 트럼프, 협상도 난관",
+      "link": "https://www.yna.co.kr/view/AKR20260804001400071",
+      "source": "연합뉴스 국제",
+      "ts": 1785777663000,
+      "pub": "Tue, 4 Aug 2026 02:21:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 지도부, 회담 요청해놓고도 부인…이중적 행태\"",
+      "link": "https://www.yna.co.kr/view/AKR20260804001100071",
+      "source": "연합뉴스 국제",
+      "ts": 1785775321000,
+      "pub": "Tue, 4 Aug 2026 01:42:01 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-03T23:58:32.907Z",
-  "count": 29,
+  "updated_at": "2026-08-04T02:13:28.167Z",
+  "count": 27,
   "items": [
+    {
+      "title": "\"까라면 까\"…일본 구하기에 흔들리는 美 중앙은행 [Fed 워치]",
+      "link": "https://www.hankyung.com/article/202608043276i",
+      "source": "한국경제",
+      "ts": 1785805890000,
+      "pub": "Tue, 04 Aug 2026 10:11:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"계산된 제한적 확전\"…이란, 트럼프 양보 얻으려 승부수 던졌다",
+      "link": "https://www.yna.co.kr/view/AKR20260804042700009",
+      "source": "연합뉴스 국제",
+      "ts": 1785804685000,
+      "pub": "Tue, 4 Aug 2026 09:51:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키, 미국 주재 우크라 대사 해임…후임은 미정",
+      "link": "https://www.yna.co.kr/view/AKR20260804037200009",
+      "source": "연합뉴스 국제",
+      "ts": 1785803514000,
+      "pub": "Tue, 4 Aug 2026 09:31:54 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, '가정폭력 의혹' 공화당 의원에 \"좋은 사람\" 편들기",
       "link": "https://www.yna.co.kr/view/AKR20260804022200071",
@@ -20,12 +44,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 '강제노동 관세' 막히나...미국 민주당 25개주 '소송'",
-      "link": "https://www.mt.co.kr/world/2026/08/04/2026080407561491552",
-      "source": "머니투데이",
-      "ts": 1785798749000,
-      "pub": "Tue, 04 Aug 2026 08:12:29 +0900",
-      "sentiment": "negative"
+      "title": "트럼프 '우정' 내세웠지만…엔화 방어로 챙긴 '세 가지 국익' [최만수의 재팬 인사이트]",
+      "link": "https://www.hankyung.com/article/202608043071i",
+      "source": "한국경제",
+      "ts": 1785800763000,
+      "pub": "Tue, 04 Aug 2026 08:46:03 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "\"트럼프, '명령 불복종' 측근 검사장에 격노…해임 검토\"",
@@ -52,30 +76,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"참수 전 마지막 기회\"…트럼프, 이란에 보낸 살벌한 경고",
-      "link": "https://www.hankyung.com/article/2026080428987",
-      "source": "한국경제",
-      "ts": 1785792421000,
-      "pub": "Tue, 04 Aug 2026 06:27:01 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "트럼프 \"이란과 대화 중, 참수 전 마지막 기회\"…고강도 압박",
-      "link": "https://www.mt.co.kr/world/2026/08/04/2026080405505785564",
-      "source": "머니투데이",
-      "ts": 1785790513000,
-      "pub": "Tue, 04 Aug 2026 05:55:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란전쟁으로 빅오일 폭리, 휘발유값 당장 내려라\"",
-      "link": "https://www.mt.co.kr/world/2026/08/04/2026080405151575896",
-      "source": "머니투데이",
-      "ts": 1785788337000,
-      "pub": "Tue, 04 Aug 2026 05:18:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, 이란 전쟁으로 떼돈 번 美 석유사들에 \"소매가 내려라\"",
       "link": "https://www.yna.co.kr/view/AKR20260804004600071",
       "source": "연합뉴스 국제",
@@ -98,14 +98,6 @@
       "ts": 1785785481000,
       "pub": "Tue, 4 Aug 2026 04:31:21 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "트럼프 \"이란과 대화 중, 이번이 마지막 기회\"…이란은 협상 부인",
-      "link": "https://www.mt.co.kr/world/2026/08/04/2026080404160435297",
-      "source": "머니투데이",
-      "ts": 1785785349000,
-      "pub": "Tue, 04 Aug 2026 04:29:09 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "트럼프의 엔화부양 배경은…'美국채금리·대미투자 관리' 셈법",
@@ -178,14 +170,6 @@
       "ts": 1785763440000,
       "pub": "Mon, 3 Aug 2026 22:24:00 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 이란 공격 취소에 유가 6% 급락…美 국채금리도 내려",
-      "link": "https://www.hankyung.com/article/202608032771i",
-      "source": "한국경제",
-      "ts": 1785762177000,
-      "pub": "Mon, 03 Aug 2026 22:02:57 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "이스라엘, 하마스 무장해제안 '심각한 우려' 美에 전달(종합)",

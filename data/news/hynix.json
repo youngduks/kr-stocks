@@ -1,62 +1,78 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-03T23:58:32.909Z",
+  "updated_at": "2026-08-04T02:13:28.168Z",
   "count": 12,
   "items": [
+    {
+      "title": "中, 반도체 전쟁 속 '집적회로 배치설계 보호 조례' 25년만 개정",
+      "link": "https://www.yna.co.kr/view/AKR20260804045400089",
+      "source": "연합뉴스 국제",
+      "ts": 1785805351000,
+      "pub": "Tue, 4 Aug 2026 10:02:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "국제 신평사 무디스, SK하이닉스 신용등급 첫 A등급대로 상향",
+      "link": "https://www.yna.co.kr/view/AKR20260804041400008",
+      "source": "연합뉴스 경제",
+      "ts": 1785804429000,
+      "pub": "Tue, 4 Aug 2026 09:47:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "호남권 출력제어 폭증…반도체 산단 전력 인프라 '경고등'",
+      "link": "https://www.hankyung.com/article/202608043213i",
+      "source": "한국경제",
+      "ts": 1785804254000,
+      "pub": "Tue, 04 Aug 2026 09:44:14 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "삼성전자·SK하이닉스, 급등 출발후 하락 전환…3%대↓",
+      "link": "https://www.yna.co.kr/view/AKR20260804043600008",
+      "source": "연합뉴스 경제",
+      "ts": 1785804223000,
+      "pub": "Tue, 4 Aug 2026 09:43:43 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼성자산운용, 'KODEX 미국CPU반도체TOP10' ETF 상장",
+      "link": "https://www.hankyung.com/article/2026080432396",
+      "source": "한국경제",
+      "ts": 1785803053000,
+      "pub": "Tue, 04 Aug 2026 09:24:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한화운용, SK하이닉스·샌디스크 투자 채권혼합 ETF 상장",
+      "link": "https://www.yna.co.kr/view/AKR20260804033900008",
+      "source": "연합뉴스 경제",
+      "ts": 1785802236000,
+      "pub": "Tue, 4 Aug 2026 09:10:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성운용, '미국CPU반도체TOP10' ETF 상장",
+      "link": "https://www.yna.co.kr/view/AKR20260804033100008",
+      "source": "연합뉴스 경제",
+      "ts": 1785802082000,
+      "pub": "Tue, 4 Aug 2026 09:08:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "TSMC 일본 구마모토 1공장 정상화…반도체 업계 생산 재개",
+      "link": "https://www.hankyung.com/article/202608043101H",
+      "source": "한국경제",
+      "ts": 1785801216000,
+      "pub": "Tue, 04 Aug 2026 08:53:36 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "TSMC 日구마모토 1공장 정상화…반도체 업계 속속 생산 재개",
       "link": "https://www.yna.co.kr/view/AKR20260804021900073",
       "source": "연합뉴스 국제",
       "ts": 1785800142000,
       "pub": "Tue, 4 Aug 2026 08:35:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "MHS·하이퍼엑셀, 반도체 냉각 협력…\"발열 잡아 제품경쟁력↑\"",
-      "link": "https://www.mt.co.kr/future/2026/08/04/2026080314585569261",
-      "source": "머니투데이",
-      "ts": 1785798900000,
-      "pub": "Tue, 04 Aug 2026 08:15:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "두 달간 주가 반토막 난 SK하이닉스…핵심 관전포인트 4가지",
-      "link": "https://www.hankyung.com/article/202608032140i",
-      "source": "한국경제",
-      "ts": 1785796204000,
-      "pub": "Tue, 04 Aug 2026 07:30:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[여의도 클라쓰] '코스모로보틱스, NAVER, SK하이닉스' 클라쓰 올릴 종목은?",
-      "link": "https://www.mt.co.kr/stock/2026/08/04/2026080406127094717",
-      "source": "머니투데이",
-      "ts": 1785793457000,
-      "pub": "Tue, 04 Aug 2026 06:44:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[기자수첩]중국의 반도체 굴기와 초과이익 논쟁",
-      "link": "https://www.mt.co.kr/economy/2026/08/04/2026080312090638918",
-      "source": "머니투데이",
-      "ts": 1785787200000,
-      "pub": "Tue, 04 Aug 2026 05:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "3D 메모리로… 삼성전자, AI 병목 뚫는다",
-      "link": "https://www.mt.co.kr/industry/2026/08/04/2026080319490397697",
-      "source": "머니투데이",
-      "ts": 1785783840000,
-      "pub": "Tue, 04 Aug 2026 04:04:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "로이터 \"中 CXMT, 베이징에 12인치 메모리 공장 신설 추진\"",
-      "link": "https://www.hankyung.com/article/2026080327677",
-      "source": "한국경제",
-      "ts": 1785760034000,
-      "pub": "Mon, 03 Aug 2026 21:27:14 +0900",
       "sentiment": "neutral"
     },
     {
@@ -76,28 +92,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "장성에 AI 데이터센터 구축…\"반도체 거점 도약\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803109100054",
-      "source": "연합뉴스 경제",
-      "ts": 1785737610000,
-      "pub": "Mon, 3 Aug 2026 15:13:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "TSMC, '고객사 이탈 막자' 인텔 EMIB 유사 패키징기술 개발 나서",
       "link": "https://www.yna.co.kr/view/AKR20260803097800009",
       "source": "연합뉴스 국제",
       "ts": 1785735453000,
       "pub": "Mon, 3 Aug 2026 14:37:33 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "7월 D램·낸드 가격 역대 최고…\"3분기 PC용 D램값 최대 20%↑\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803098100003",
-      "source": "연합뉴스 경제",
-      "ts": 1785734512000,
-      "pub": "Mon, 3 Aug 2026 14:21:52 +0900",
-      "sentiment": "positive"
     }
   ]
 }

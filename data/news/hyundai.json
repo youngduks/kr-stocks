@@ -1,15 +1,23 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-08-03T23:58:32.910Z",
+  "updated_at": "2026-08-04T02:13:28.169Z",
   "count": 3,
   "items": [
     {
-      "title": "제네시스 전기차 사면 '대한항공 1만 마일리지' 쌓인다",
-      "link": "https://www.mt.co.kr/industry/2026/08/04/2026080408470658161",
-      "source": "머니투데이",
-      "ts": 1785801429000,
-      "pub": "Tue, 04 Aug 2026 08:57:09 +0900",
+      "title": "새만금 현대차 AI·로봇 클러스터 예정 구역, 종합보세구역 지정",
+      "link": "https://www.yna.co.kr/view/AKR20260804044000002",
+      "source": "연합뉴스 경제",
+      "ts": 1785804555000,
+      "pub": "Tue, 4 Aug 2026 09:49:15 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "\"볼보 EX90과 비교해 완승\"…현대차 아이오닉9 獨 전문지 호평",
+      "link": "https://www.hankyung.com/article/202608043164g",
+      "source": "한국경제",
+      "ts": 1785802161000,
+      "pub": "Tue, 04 Aug 2026 09:09:21 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "신영증권 \"현대차 3분기 영업익, 컨센서스 하회 예상\"",
@@ -18,14 +26,6 @@
       "ts": 1785800352000,
       "pub": "Tue, 4 Aug 2026 08:39:12 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "파업에 발목 현대차 주춤... 전기차 타고 기아는 질주",
-      "link": "https://www.mt.co.kr/industry/2026/08/04/2026080319541737221",
-      "source": "머니투데이",
-      "ts": 1785783840000,
-      "pub": "Tue, 04 Aug 2026 04:04:00 +0900",
-      "sentiment": "negative"
     }
   ]
 }

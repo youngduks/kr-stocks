@@ -1,31 +1,15 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-03T23:58:32.908Z",
-  "count": 8,
+  "updated_at": "2026-08-04T02:13:28.168Z",
+  "count": 3,
   "items": [
     {
-      "title": "\"삼전닉스 비중 높다\" 이미 경고했는데...'롤러코스피' 멀미 심해졌다",
-      "link": "https://www.mt.co.kr/stock/2026/08/04/2026080317085072314",
-      "source": "머니투데이",
-      "ts": 1785787200000,
-      "pub": "Tue, 04 Aug 2026 05:00:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "3D 메모리로… 삼성전자, AI 병목 뚫는다",
-      "link": "https://www.mt.co.kr/industry/2026/08/04/2026080319490397697",
-      "source": "머니투데이",
-      "ts": 1785783840000,
-      "pub": "Tue, 04 Aug 2026 04:04:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "로이터 \"中 CXMT, 베이징에 12인치 메모리 공장 신설 추진\"",
-      "link": "https://www.hankyung.com/article/2026080327677",
-      "source": "한국경제",
-      "ts": 1785760034000,
-      "pub": "Mon, 03 Aug 2026 21:27:14 +0900",
-      "sentiment": "neutral"
+      "title": "삼성전자·SK하이닉스, 급등 출발후 하락 전환…3%대↓",
+      "link": "https://www.yna.co.kr/view/AKR20260804043600008",
+      "source": "연합뉴스 경제",
+      "ts": 1785804223000,
+      "pub": "Tue, 4 Aug 2026 09:43:43 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\"",
@@ -42,30 +26,6 @@
       "ts": 1785744692000,
       "pub": "Mon, 3 Aug 2026 17:11:32 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "삼전닉스, 또 8%대 급락 마감…외국인·기관, 동반 매도",
-      "link": "https://www.yna.co.kr/view/AKR20260803036751008",
-      "source": "연합뉴스 경제",
-      "ts": 1785740092000,
-      "pub": "Mon, 3 Aug 2026 15:54:52 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "7월 D램·낸드 가격 역대 최고…\"3분기 PC용 D램값 최대 20%↑\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803098100003",
-      "source": "연합뉴스 경제",
-      "ts": 1785734512000,
-      "pub": "Mon, 3 Aug 2026 14:21:52 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[게시판] 우리은행, 갤럭시 전용 자급제 요금제 출시",
-      "link": "https://www.yna.co.kr/view/AKR20260803089600002",
-      "source": "연합뉴스 경제",
-      "ts": 1785732677000,
-      "pub": "Mon, 3 Aug 2026 13:51:17 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

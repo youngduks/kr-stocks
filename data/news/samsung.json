@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-04T18:21:14.206Z",
-  "count": 2,
+  "updated_at": "2026-08-04T20:16:45.738Z",
+  "count": 5,
   "items": [
+    {
+      "title": "삼성, 'HBM 8배 성능' 차세대 3D메모리 공개…\"AI장벽 넘는다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260805004300091",
+      "source": "연합뉴스 국제",
+      "ts": 1785872643000,
+      "pub": "Wed, 5 Aug 2026 04:44:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "HBM 여러개 쌓는다…삼성전자, 첨단 메모리반도체 'zHBM' 공개",
+      "link": "https://www.hankyung.com/article/202608055115i",
+      "source": "한국경제",
+      "ts": 1785872640000,
+      "pub": "Wed, 05 Aug 2026 04:44:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"韓, 2031년까지 '메모리 최강' 유지…엔비디아, HBM 독점 완화\"",
+      "link": "https://www.yna.co.kr/view/AKR20260805003600091",
+      "source": "연합뉴스 국제",
+      "ts": 1785870543000,
+      "pub": "Wed, 5 Aug 2026 04:09:03 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "아직은 큰 변동성…삼전닉스, 급등락 끝에 간신히 상승마감(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260804043651008",

@@ -1,8 +1,40 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-04T18:21:14.206Z",
-  "count": 3,
+  "updated_at": "2026-08-04T20:16:45.738Z",
+  "count": 6,
   "items": [
+    {
+      "title": "삼성, 'HBM 8배 성능' 차세대 3D메모리 공개…\"AI장벽 넘는다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260805004300091",
+      "source": "연합뉴스 국제",
+      "ts": 1785872643000,
+      "pub": "Wed, 5 Aug 2026 04:44:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "HBM 여러개 쌓는다…삼성전자, 첨단 메모리반도체 'zHBM' 공개",
+      "link": "https://www.hankyung.com/article/202608055115i",
+      "source": "한국경제",
+      "ts": 1785872640000,
+      "pub": "Wed, 05 Aug 2026 04:44:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"韓, 2031년까지 '메모리 최강' 유지…엔비디아, HBM 독점 완화\"",
+      "link": "https://www.yna.co.kr/view/AKR20260805003600091",
+      "source": "연합뉴스 국제",
+      "ts": 1785870543000,
+      "pub": "Wed, 5 Aug 2026 04:09:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "월가 증권사들 \"SK하이닉스 저평가\"…ADR 주가 급등세",
+      "link": "https://www.yna.co.kr/view/AKR20260805003700072",
+      "source": "연합뉴스 국제",
+      "ts": 1785870336000,
+      "pub": "Wed, 5 Aug 2026 04:05:36 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "BoaA,\"하이닉스 멀티플 8배 적정…'매수'등급과 목표가 3백만원\"제시",
       "link": "https://www.hankyung.com/article/202608045077i",
@@ -10,14 +42,6 @@
       "ts": 1785852020000,
       "pub": "Tue, 04 Aug 2026 23:00:20 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[급등수사본부] 반도체 투톱 등 AI반도체 대표 종목 추종 'KODEX AI반도체TOP2플러스' vs 메디컬 이식재 시장 안정적 M/S 보유 '엘앤씨바이오'",
-      "link": "https://www.mt.co.kr/stock/2026/08/04/2026080418547038250",
-      "source": "머니투데이",
-      "ts": 1785838284000,
-      "pub": "Tue, 04 Aug 2026 19:11:24 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "中, 반도체 전쟁 속 '집적회로 배치설계 보호 조례' 25년만 개정",

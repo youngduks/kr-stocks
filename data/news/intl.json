@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-04T18:21:14.205Z",
+  "updated_at": "2026-08-04T20:16:45.737Z",
   "count": 18,
   "items": [
+    {
+      "title": "위기상황 아닌데…엔화부양에 '美국채 담보' 연준 비상대출 동원",
+      "link": "https://www.yna.co.kr/view/AKR20260805003100072",
+      "source": "연합뉴스 경제",
+      "ts": 1785869817000,
+      "pub": "Wed, 5 Aug 2026 03:56:57 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "네타냐후 \"하마스 완전 무장해제까지 가자지구서 철수 안해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260805003300079",
+      "source": "연합뉴스 국제",
+      "ts": 1785869121000,
+      "pub": "Wed, 5 Aug 2026 03:45:21 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 행정부, 엔화 부양 고리로 원화값 회복 불 지피나",
       "link": "https://www.yna.co.kr/view/AKR20260805001200072",
@@ -130,22 +146,6 @@
       "ts": 1785810404000,
       "pub": "Tue, 4 Aug 2026 11:26:44 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "\"계산된 제한적 확전\"…이란, 트럼프 양보 얻으려 승부수 던졌다",
-      "link": "https://www.yna.co.kr/view/AKR20260804042700009",
-      "source": "연합뉴스 국제",
-      "ts": 1785804685000,
-      "pub": "Tue, 4 Aug 2026 09:51:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키, 미국 주재 우크라 대사 해임…후임은 미정",
-      "link": "https://www.yna.co.kr/view/AKR20260804037200009",
-      "source": "연합뉴스 국제",
-      "ts": 1785803514000,
-      "pub": "Tue, 4 Aug 2026 09:31:54 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

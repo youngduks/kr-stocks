@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-04T13:42:43.179Z",
-  "count": 18,
+  "updated_at": "2026-08-04T16:04:47.346Z",
+  "count": 17,
   "items": [
+    {
+      "title": "전쟁 중에도…우크라 소방관들, 프랑스 최악 산불 현장 달려가",
+      "link": "https://www.yna.co.kr/view/AKR20260804169000081",
+      "source": "연합뉴스 국제",
+      "ts": 1785853229000,
+      "pub": "Tue, 4 Aug 2026 23:20:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러 흑해 공격에 우크라 곡물 수출 비상…\"식량 가격 더 오를 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260804168700109",
+      "source": "연합뉴스 국제",
+      "ts": 1785851521000,
+      "pub": "Tue, 4 Aug 2026 22:52:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"트럼프 행정부, 데이터센터 中부품 수입 금지 추진\"",
       "link": "https://www.yna.co.kr/view/AKR20260804162200009",
@@ -121,30 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785801051000,
       "pub": "Tue, 4 Aug 2026 08:50:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, '명령 불복종' 측근 검사장에 격노…해임 검토\"",
-      "link": "https://www.yna.co.kr/view/AKR20260804010300071",
-      "source": "연합뉴스 국제",
-      "ts": 1785796752000,
-      "pub": "Tue, 4 Aug 2026 07:39:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 민주당 소속 25개州 \"301조 강제노동 관세는 위법\" 제소",
-      "link": "https://www.yna.co.kr/view/AKR20260804009800072",
-      "source": "연합뉴스 국제",
-      "ts": 1785794798000,
-      "pub": "Tue, 4 Aug 2026 07:06:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "前 美북한인권특사 \"인도적 지원 방북 허가해야\"…국무부에 촉구",
-      "link": "https://www.yna.co.kr/view/AKR20260804007600071",
-      "source": "연합뉴스 국제",
-      "ts": 1785793261000,
-      "pub": "Tue, 4 Aug 2026 06:41:01 +0900",
       "sentiment": "neutral"
     }
   ]

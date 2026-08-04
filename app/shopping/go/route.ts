@@ -3,9 +3,11 @@ import { NextRequest, NextResponse } from "next/server";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-// 쿠팡파트너스 링크(link.coupang.com, www.coupang.com)만 목적지로 허용 — 임의 URL을
-// 넘기면 오픈리다이렉트가 되므로 화이트리스트 밖은 /shopping으로 되돌림.
-const ALLOWED_HOSTS = new Set(["link.coupang.com", "www.coupang.com"]);
+// 제휴 링크 목적지만 허용 — 임의 URL을 넘기면 오픈리다이렉트가 되므로 화이트리스트
+// 밖은 /shopping으로 되돌림. toss.im: 토스쇼핑 쉐어링크(형님이 직접 전달하는 fwd-cp/
+// fwd-toss 수동 딜)용 — 2026-08-04 이 목록에 없어서 토스 딜 전부가 "구매하기" 클릭 시
+// /shopping으로 되튕기는 버그가 있었음(쿠팡만 상정하고 만든 화이트리스트라 놓침).
+const ALLOWED_HOSTS = new Set(["link.coupang.com", "www.coupang.com", "toss.im"]);
 
 export async function GET(req: NextRequest) {
   const raw = req.nextUrl.searchParams.get("url") || "";

@@ -1,14 +1,38 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-04T05:37:14.027Z",
+  "updated_at": "2026-08-04T08:15:07.647Z",
   "count": 6,
   "items": [
     {
-      "title": "삼전 '이직'·하닉 '행복'…역대급 돈잔치에도 '극과 극' 반응 [오피스 텔①]",
-      "link": "https://www.hankyung.com/article/202608031118g",
+      "title": "아직은 큰 변동성…삼전닉스, 급등락 끝에 간신히 상승마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260804043651008",
+      "source": "연합뉴스 경제",
+      "ts": 1785826844000,
+      "pub": "Tue, 4 Aug 2026 16:00:44 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "코스피, 삼전닉스 주춤해도 1%대 강세…코스닥선 바이오주 '불기둥'",
+      "link": "https://www.hankyung.com/article/2026080443336",
       "source": "한국경제",
-      "ts": 1785818959000,
-      "pub": "Tue, 04 Aug 2026 13:49:19 +0900",
+      "ts": 1785825789000,
+      "pub": "Tue, 04 Aug 2026 15:43:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, SK하이닉스 가뿐히 제쳤다…놀라운 반전 결과",
+      "link": "https://www.hankyung.com/article/202608044235g",
+      "source": "한국경제",
+      "ts": 1785824647000,
+      "pub": "Tue, 04 Aug 2026 15:24:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'메이드 인 이집트'를 삼성전자 출신 MZ가 만들었다고?",
+      "link": "https://www.hankyung.com/article/202608044091i",
+      "source": "한국경제",
+      "ts": 1785821717000,
+      "pub": "Tue, 04 Aug 2026 14:35:17 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,36 +44,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "삼전·닉스 쏠림 완화 조짐…바이오주 급등에 코스닥 '매수 사이드카'",
-      "link": "https://www.hankyung.com/article/2026080437346",
-      "source": "한국경제",
-      "ts": 1785809732000,
-      "pub": "Tue, 04 Aug 2026 11:15:32 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "상위 1% 초고수, 삼전·닉스 '팔자'…두산에너빌리티·대우건설 집중 매수",
-      "link": "https://www.hankyung.com/article/202608043519i",
-      "source": "한국경제",
-      "ts": 1785808893000,
-      "pub": "Tue, 04 Aug 2026 11:01:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "삼성전자·SK하이닉스, 급등 출발후 하락 전환…3%대↓",
       "link": "https://www.yna.co.kr/view/AKR20260804043600008",
       "source": "연합뉴스 경제",
       "ts": 1785804223000,
       "pub": "Tue, 4 Aug 2026 09:43:43 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\"",
-      "link": "https://www.yna.co.kr/view/AKR20260803155600083",
-      "source": "연합뉴스 국제",
-      "ts": 1785753960000,
-      "pub": "Mon, 3 Aug 2026 19:46:00 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

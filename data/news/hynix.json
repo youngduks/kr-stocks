@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-05T10:22:53.718Z",
-  "count": 21,
+  "updated_at": "2026-08-05T12:46:03.071Z",
+  "count": 16,
   "items": [
+    {
+      "title": "\"중국 창신메모리 제품, HP 등 글로벌 PC 업체에 채택돼\"",
+      "link": "https://www.yna.co.kr/view/AKR20260805158900083",
+      "source": "연합뉴스 국제",
+      "ts": 1785928906000,
+      "pub": "Wed, 5 Aug 2026 20:21:46 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[단독] SK하닉 낸드 자회사, 최대 10조 투자 유치",
       "link": "https://www.hankyung.com/article/2026080570441",
@@ -41,38 +49,6 @@
       "source": "머니투데이",
       "ts": 1785917983000,
       "pub": "Wed, 05 Aug 2026 17:19:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 받치고 건설이 끌고…\"전업종 상승세, 갈아타지 말고 더하라\"",
-      "link": "https://www.mt.co.kr/stock/2026/08/05/2026080516073660027",
-      "source": "머니투데이",
-      "ts": 1785917518000,
-      "pub": "Wed, 05 Aug 2026 17:11:58 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'센서 반도체 명가' 해치텍, 코스닥 IPO 도전장",
-      "link": "https://www.mt.co.kr/stock/2026/08/05/2026080513333850948",
-      "source": "머니투데이",
-      "ts": 1785917190000,
-      "pub": "Wed, 05 Aug 2026 17:06:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"2031년까지 한국이 최강 유지\"…'슈퍼을' 삼전닉스, 반도체판 흔든다",
-      "link": "https://www.mt.co.kr/industry/2026/08/05/2026080515291952827",
-      "source": "머니투데이",
-      "ts": 1785916801000,
-      "pub": "Wed, 05 Aug 2026 17:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[컨콜]SKT, \"SK하이닉스 AI 투자법인 이사회 참여…그룹 밸류체인 시너지\"",
-      "link": "https://www.mt.co.kr/tech/2026/08/05/2026080516330837302",
-      "source": "머니투데이",
-      "ts": 1785915483000,
-      "pub": "Wed, 05 Aug 2026 16:38:03 +0900",
       "sentiment": "neutral"
     },
     {
@@ -154,22 +130,6 @@
       "ts": 1785872643000,
       "pub": "Wed, 5 Aug 2026 04:44:03 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"韓, 2031년까지 '메모리 최강' 유지…엔비디아, HBM 독점 완화\"",
-      "link": "https://www.yna.co.kr/view/AKR20260805003600091",
-      "source": "연합뉴스 국제",
-      "ts": 1785870543000,
-      "pub": "Wed, 5 Aug 2026 04:09:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "월가 증권사들 \"SK하이닉스 저평가\"…ADR 주가 급등세",
-      "link": "https://www.yna.co.kr/view/AKR20260805003700072",
-      "source": "연합뉴스 국제",
-      "ts": 1785870336000,
-      "pub": "Wed, 5 Aug 2026 04:05:36 +0900",
-      "sentiment": "positive"
     }
   ]
 }

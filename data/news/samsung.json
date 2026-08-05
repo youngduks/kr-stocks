@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-05T15:06:24.335Z",
-  "count": 11,
+  "updated_at": "2026-08-05T17:17:08.739Z",
+  "count": 8,
   "items": [
+    {
+      "title": "샌디스크의 AI 메모리 승부수…주가 부활 노리는 오라클[박신영의 개장전 요것만]",
+      "link": "https://www.hankyung.com/article/202608067359i",
+      "source": "한국경제",
+      "ts": 1785949535000,
+      "pub": "Thu, 06 Aug 2026 02:05:35 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"삼성전자·SK하이닉스, 재무건전성 유지속 주주환원 확대 검토\"",
       "link": "https://www.yna.co.kr/view/AKR20260805164500072",
@@ -44,22 +52,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "삼성 'HBM의 8배 성능'…차세대 3D 메모리 공개",
-      "link": "https://www.hankyung.com/article/2026080570451",
-      "source": "한국경제",
-      "ts": 1785922446000,
-      "pub": "Wed, 05 Aug 2026 18:34:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[더벨]아이씨에이치, '갤럭시Z8'에 노이즈 차단·완충 소재 공급",
-      "link": "https://www.mt.co.kr/stock/2026/08/05/2026080517449685171",
-      "source": "머니투데이",
-      "ts": 1785919618000,
-      "pub": "Wed, 05 Aug 2026 17:46:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[르포] \"모형이라도 찍자\"…삼성전자 새 3D메모리 'zHBM'에 셔터 세례",
       "link": "https://www.yna.co.kr/view/AKR20260805083800091",
       "source": "연합뉴스 국제",
@@ -74,22 +66,6 @@
       "ts": 1785896644000,
       "pub": "Wed, 5 Aug 2026 11:24:04 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "'HBF표준 번개발표'…SK하닉·샌디스크 \"메모리장벽 함께 돌파\"",
-      "link": "https://www.yna.co.kr/view/AKR20260805015900091",
-      "source": "연합뉴스 국제",
-      "ts": 1785885868000,
-      "pub": "Wed, 5 Aug 2026 08:24:28 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "삼성, 'HBM5 8배 성능' 차세대 3D메모리 공개…\"AI칩 장벽 넘는다\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260805004351091",
-      "source": "연합뉴스 국제",
-      "ts": 1785880112000,
-      "pub": "Wed, 5 Aug 2026 06:48:32 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

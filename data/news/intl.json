@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-05T15:06:24.333Z",
-  "count": 24,
+  "updated_at": "2026-08-05T17:17:08.737Z",
+  "count": 26,
   "items": [
+    {
+      "title": "\"우크라 화물기 근처에 폭발물 장착 드론\"…獨공항 '화들짝'(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260805155351098",
+      "source": "연합뉴스 국제",
+      "ts": 1785946778000,
+      "pub": "Thu, 6 Aug 2026 01:19:38 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "러 미사일 모두 놓친 우크라…\"방공망 지원 작년의 30% 수준\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260805135651109",
+      "source": "연합뉴스 국제",
+      "ts": 1785944441000,
+      "pub": "Thu, 6 Aug 2026 00:40:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 전용헬기 뜰때 인근 공항서도 여객기 이륙…아찔한 순간",
+      "link": "https://www.yna.co.kr/view/AKR20260806000700071",
+      "source": "연합뉴스 국제",
+      "ts": 1785944034000,
+      "pub": "Thu, 6 Aug 2026 00:33:54 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "EU \"러 동결자산서 얻은 수익 2조3천억원, 우크라에 지원\"",
       "link": "https://www.yna.co.kr/view/AKR20260805164000098",
@@ -185,14 +209,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785888707000,
       "pub": "Wed, 5 Aug 2026 09:11:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美·브라질, '외교관 비토' 티격태격…이면에 트럼프-룰라 반목",
-      "link": "https://www.yna.co.kr/view/AKR20260805009600071",
-      "source": "연합뉴스 국제",
-      "ts": 1785881766000,
-      "pub": "Wed, 5 Aug 2026 07:16:06 +0900",
       "sentiment": "neutral"
     }
   ]

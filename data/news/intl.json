@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-05T17:17:08.737Z",
-  "count": 26,
+  "updated_at": "2026-08-05T19:11:27.474Z",
+  "count": 21,
   "items": [
+    {
+      "title": "트럼프 충성파 美법무 후보 인준 다시 난관…반대 의원 늘어",
+      "link": "https://www.yna.co.kr/view/AKR20260806004300071",
+      "source": "연합뉴스 국제",
+      "ts": 1785956395000,
+      "pub": "Thu, 6 Aug 2026 03:59:55 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"우크라 화물기 근처에 폭발물 장착 드론\"…獨공항 '화들짝'(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260805155351098",
@@ -73,22 +81,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785922137000,
       "pub": "Wed, 5 Aug 2026 18:28:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 \"북한군, 러 서부에 배치…탄도미사일 최대 120기 지원 가능\"",
-      "link": "https://www.mt.co.kr/world/2026/08/05/2026080518101060352",
-      "source": "머니투데이",
-      "ts": 1785921506000,
-      "pub": "Wed, 05 Aug 2026 18:18:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 방문 앞두고…탄창 지닌 채 트럼프골프클럽 촬영하다 체포",
-      "link": "https://www.mt.co.kr/world/2026/08/05/2026080516203715439",
-      "source": "머니투데이",
-      "ts": 1785919989000,
-      "pub": "Wed, 05 Aug 2026 17:53:09 +0900",
       "sentiment": "neutral"
     },
     {
@@ -177,38 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785897905000,
       "pub": "Wed, 5 Aug 2026 11:45:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘·레바논 후속 회담 재개…헤즈볼라 반발 속 포화 지속",
-      "link": "https://www.yna.co.kr/view/AKR20260805037300009",
-      "source": "연합뉴스 국제",
-      "ts": 1785890896000,
-      "pub": "Wed, 5 Aug 2026 09:48:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "태양광·반도체 소재 '폴리실리콘' 美 가격하한제·관세 준비중",
-      "link": "https://www.yna.co.kr/view/AKR20260805020400009",
-      "source": "연합뉴스 국제",
-      "ts": 1785890387000,
-      "pub": "Wed, 5 Aug 2026 09:39:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반크 \"美 국무부 지도 독도 누락 여전…항의 서한 전달\"",
-      "link": "https://www.yna.co.kr/view/AKR20260805041300371",
-      "source": "연합뉴스 국제",
-      "ts": 1785890237000,
-      "pub": "Wed, 5 Aug 2026 09:37:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 방문 예정 LA 골프장에 총 들고 '기웃'…무장 남성 체포",
-      "link": "https://www.yna.co.kr/view/AKR20260805033500075",
-      "source": "연합뉴스 국제",
-      "ts": 1785888707000,
-      "pub": "Wed, 5 Aug 2026 09:11:47 +0900",
       "sentiment": "neutral"
     }
   ]

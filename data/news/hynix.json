@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-05T17:17:08.739Z",
-  "count": 13,
+  "updated_at": "2026-08-05T19:11:27.475Z",
+  "count": 10,
   "items": [
     {
       "title": "샌디스크의 AI 메모리 승부수…주가 부활 노리는 오라클[박신영의 개장전 요것만]",
@@ -25,14 +25,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785940875000,
       "pub": "Wed, 5 Aug 2026 23:41:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자·SK하이닉스 \"주주 환원 강화 방안 마련\" 약속",
-      "link": "https://www.mt.co.kr/world/2026/08/05/2026080521515389429",
-      "source": "머니투데이",
-      "ts": 1785934761000,
-      "pub": "Wed, 05 Aug 2026 21:59:21 +0900",
       "sentiment": "neutral"
     },
     {
@@ -90,22 +82,6 @@
       "ts": 1785896644000,
       "pub": "Wed, 5 Aug 2026 11:24:04 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "태양광·반도체 소재 '폴리실리콘' 美 가격하한제·관세 준비중",
-      "link": "https://www.yna.co.kr/view/AKR20260805020400009",
-      "source": "연합뉴스 국제",
-      "ts": 1785890387000,
-      "pub": "Wed, 5 Aug 2026 09:39:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "월가, SK하이닉스 ADR 분석 개시…저평가 '매수' 의견(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260805003751072",
-      "source": "연합뉴스 국제",
-      "ts": 1785888668000,
-      "pub": "Wed, 5 Aug 2026 09:11:08 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

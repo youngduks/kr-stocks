@@ -1,22 +1,78 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-05T07:30:50.998Z",
-  "count": 14,
+  "updated_at": "2026-08-05T10:22:53.718Z",
+  "count": 21,
   "items": [
     {
-      "title": "[단독] SK하이닉스 美 자회사 솔리다임, 프리 IPO 추진",
-      "link": "https://www.hankyung.com/article/202608056378i",
+      "title": "[단독] SK하닉 낸드 자회사, 최대 10조 투자 유치",
+      "link": "https://www.hankyung.com/article/2026080570441",
       "source": "한국경제",
-      "ts": 1785910710000,
-      "pub": "Wed, 05 Aug 2026 15:18:30 +0900",
+      "ts": 1785922859000,
+      "pub": "Wed, 05 Aug 2026 18:40:59 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "피말리는 9개월 \"발행 기준을 세웠다\"…SK하이닉스 ADR 뒷이야기",
-      "link": "https://www.mt.co.kr/society/2026/08/05/2026073015463980815",
+      "title": "삼성 'HBM의 8배 성능'…차세대 3D 메모리 공개",
+      "link": "https://www.hankyung.com/article/2026080570451",
+      "source": "한국경제",
+      "ts": 1785922446000,
+      "pub": "Wed, 05 Aug 2026 18:34:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정부 '호남 반도체 부지' 軍과 협의 없었다",
+      "link": "https://www.hankyung.com/article/2026080571021",
+      "source": "한국경제",
+      "ts": 1785921554000,
+      "pub": "Wed, 05 Aug 2026 18:19:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 강세·호르무즈 합의 기대에 환호…닛케이, 3.66%↑[Asia마감]",
+      "link": "https://www.mt.co.kr/world/2026/08/05/2026080517251990051",
       "source": "머니투데이",
-      "ts": 1785910196000,
-      "pub": "Wed, 05 Aug 2026 15:09:56 +0900",
+      "ts": 1785919543000,
+      "pub": "Wed, 05 Aug 2026 17:45:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼전닉스, 중국산 반도체장비 현지사용 검토…美 수출규제 대비\"",
+      "link": "https://www.mt.co.kr/world/2026/08/05/2026080516503083469",
+      "source": "머니투데이",
+      "ts": 1785917983000,
+      "pub": "Wed, 05 Aug 2026 17:19:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 받치고 건설이 끌고…\"전업종 상승세, 갈아타지 말고 더하라\"",
+      "link": "https://www.mt.co.kr/stock/2026/08/05/2026080516073660027",
+      "source": "머니투데이",
+      "ts": 1785917518000,
+      "pub": "Wed, 05 Aug 2026 17:11:58 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'센서 반도체 명가' 해치텍, 코스닥 IPO 도전장",
+      "link": "https://www.mt.co.kr/stock/2026/08/05/2026080513333850948",
+      "source": "머니투데이",
+      "ts": 1785917190000,
+      "pub": "Wed, 05 Aug 2026 17:06:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"2031년까지 한국이 최강 유지\"…'슈퍼을' 삼전닉스, 반도체판 흔든다",
+      "link": "https://www.mt.co.kr/industry/2026/08/05/2026080515291952827",
+      "source": "머니투데이",
+      "ts": 1785916801000,
+      "pub": "Wed, 05 Aug 2026 17:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[컨콜]SKT, \"SK하이닉스 AI 투자법인 이사회 참여…그룹 밸류체인 시너지\"",
+      "link": "https://www.mt.co.kr/tech/2026/08/05/2026080516330837302",
+      "source": "머니투데이",
+      "ts": 1785915483000,
+      "pub": "Wed, 05 Aug 2026 16:38:03 +0900",
       "sentiment": "neutral"
     },
     {

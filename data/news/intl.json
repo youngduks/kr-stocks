@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-05T07:30:50.996Z",
-  "count": 26,
+  "updated_at": "2026-08-05T10:22:53.716Z",
+  "count": 24,
   "items": [
+    {
+      "title": "美, 폴리실리콘에 관세…韓태양광 '반사이익' 기대",
+      "link": "https://www.hankyung.com/article/2026080570461",
+      "source": "한국경제",
+      "ts": 1785922769000,
+      "pub": "Wed, 05 Aug 2026 18:39:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "전 우크라 총사령관, 나토 비판…\"러 전력 절반 도달에 12년 걸려\"",
+      "link": "https://www.yna.co.kr/view/AKR20260805148100098",
+      "source": "연합뉴스 국제",
+      "ts": 1785922137000,
+      "pub": "Wed, 5 Aug 2026 18:28:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 \"북한군, 러 서부에 배치…탄도미사일 최대 120기 지원 가능\"",
+      "link": "https://www.mt.co.kr/world/2026/08/05/2026080518101060352",
+      "source": "머니투데이",
+      "ts": 1785921506000,
+      "pub": "Wed, 05 Aug 2026 18:18:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 방문 앞두고…탄창 지닌 채 트럼프골프클럽 촬영하다 체포",
+      "link": "https://www.mt.co.kr/world/2026/08/05/2026080516203715439",
+      "source": "머니투데이",
+      "ts": 1785919989000,
+      "pub": "Wed, 05 Aug 2026 17:53:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "물류창고 난타전…러 미사일에 우크라 방공망 또 뚫려",
+      "link": "https://www.yna.co.kr/view/AKR20260805135600109",
+      "source": "연합뉴스 국제",
+      "ts": 1785917992000,
+      "pub": "Wed, 5 Aug 2026 17:19:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"관세·통관 수작업 끝낸다\"…에이셉익스프레스, 딥테크 팁스 선정",
+      "link": "https://www.mt.co.kr/future/2026/08/05/2026080509183954609",
+      "source": "머니투데이",
+      "ts": 1785916800000,
+      "pub": "Wed, 05 Aug 2026 17:00:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[영상] 우크라군, 트럭 탑재 방공시스템 공개…단거리 드론 요격용",
       "link": "https://www.yna.co.kr/view/AKR20260805124700704",
@@ -20,27 +68,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "호르무즈 '60일 임시 합의' 임박…트럼프 \"곧 재개방\"",
-      "link": "https://www.mt.co.kr/world/2026/08/05/2026080514333889226",
-      "source": "머니투데이",
-      "ts": 1785912240000,
-      "pub": "Wed, 05 Aug 2026 15:44:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[특징주] 광통신주, 트럼프 행정부 中부품 수입금지 추진에 강세(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260805035251008",
       "source": "연합뉴스 경제",
       "ts": 1785911764000,
       "pub": "Wed, 5 Aug 2026 15:36:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "전쟁영웅 트럼프? 또 AI 이미지…\"미사일 많다\" 무기 소진설 반박",
-      "link": "https://www.mt.co.kr/world/2026/08/05/2026080514503267364",
-      "source": "머니투데이",
-      "ts": 1785911384000,
-      "pub": "Wed, 05 Aug 2026 15:29:44 +0900",
       "sentiment": "neutral"
     },
     {
@@ -74,14 +106,6 @@
       "ts": 1785909708000,
       "pub": "Wed, 5 Aug 2026 15:01:48 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "'마스가' 띄운 K조선 수주 받나…백악관 \"군함 4척 해외서 만들어야\"",
-      "link": "https://www.mt.co.kr/world/2026/08/05/2026080510203272923",
-      "source": "머니투데이",
-      "ts": 1785908704000,
-      "pub": "Wed, 05 Aug 2026 14:45:04 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "우크라 \"러, 서부지역에 북한 미사일 부대 배치\"",
@@ -132,14 +156,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[특징주] 광통신주, 트럼프 행정부 中부품 수입금지 추진에 강세",
-      "link": "https://www.yna.co.kr/view/AKR20260805035200008",
-      "source": "연합뉴스 경제",
-      "ts": 1785888809000,
-      "pub": "Wed, 5 Aug 2026 09:13:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 방문 예정 LA 골프장에 총 들고 '기웃'…무장 남성 체포",
       "link": "https://www.yna.co.kr/view/AKR20260805033500075",
       "source": "연합뉴스 국제",
@@ -177,38 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785862407000,
       "pub": "Wed, 5 Aug 2026 01:53:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "도망치는 상인 뒤쫓아 쾅…자폭드론 영상에 우크라 격분(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260804156151109",
-      "source": "연합뉴스 국제",
-      "ts": 1785860522000,
-      "pub": "Wed, 5 Aug 2026 01:22:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 충성파' 美법무 후보, 우여곡절 끝 인준 첫 관문 통과",
-      "link": "https://www.yna.co.kr/view/AKR20260805000900071",
-      "source": "연합뉴스 국제",
-      "ts": 1785860019000,
-      "pub": "Wed, 5 Aug 2026 01:13:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "전쟁 중에도…우크라 소방관들, 프랑스 최악 산불 현장 달려가",
-      "link": "https://www.yna.co.kr/view/AKR20260804169000081",
-      "source": "연합뉴스 국제",
-      "ts": 1785853229000,
-      "pub": "Tue, 4 Aug 2026 23:20:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러 흑해 공격에 우크라 곡물 수출 비상…\"식량 가격 더 오를 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260804168700109",
-      "source": "연합뉴스 국제",
-      "ts": 1785851521000,
-      "pub": "Tue, 4 Aug 2026 22:52:01 +0900",
       "sentiment": "neutral"
     }
   ]

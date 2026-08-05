@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-05T22:04:28.276Z",
-  "count": 23,
+  "updated_at": "2026-08-05T23:45:38.025Z",
+  "count": 25,
   "items": [
+    {
+      "title": "트럼프 \"이란과 합의하고 싶다…살상하고 싶지 않아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260806017200071",
+      "source": "연합뉴스 국제",
+      "ts": 1785970187000,
+      "pub": "Thu, 6 Aug 2026 07:49:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "금리 동결 지지했던 연준 이사 \"인플레 너무 높아...인상 준비 마쳤다\"",
+      "link": "https://www.mt.co.kr/world/2026/08/06/2026080606581831755",
+      "source": "머니투데이",
+      "ts": 1785969903000,
+      "pub": "Thu, 06 Aug 2026 07:45:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 수입 폴리실리콘 15% 관세 검토\"…韓 업계 긴장",
+      "link": "https://www.hankyung.com/article/2026080674417",
+      "source": "한국경제",
+      "ts": 1785968817000,
+      "pub": "Thu, 06 Aug 2026 07:26:57 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "리사 쿡 美연준 이사 \"필요시 금리 인상 행동할 준비돼\"",
       "link": "https://www.yna.co.kr/view/AKR20260806010600072",
@@ -177,14 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785902795000,
       "pub": "Wed, 5 Aug 2026 13:06:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] \"무기없다\" 두손 모아 빌었지만…도망치는 우크라인 뒤쫓아 자폭",
-      "link": "https://www.yna.co.kr/view/AKR20260805079900704",
-      "source": "연합뉴스 국제",
-      "ts": 1785897905000,
-      "pub": "Wed, 5 Aug 2026 11:45:05 +0900",
       "sentiment": "neutral"
     }
   ]

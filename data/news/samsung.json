@@ -1,14 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-05T22:04:28.277Z",
-  "count": 9,
+  "updated_at": "2026-08-05T23:45:38.026Z",
+  "count": 8,
   "items": [
     {
-      "title": "삼전닉스 따라 닛케이도 출렁…日증시 '한국 연동' 경계 [도쿄나우]",
-      "link": "https://www.hankyung.com/article/202608067417i",
+      "title": "삼성전자·SK하이닉스 \"주주환원 확대 방안 검토\"",
+      "link": "https://www.hankyung.com/article/202608067624H",
       "source": "한국경제",
-      "ts": 1785965565000,
-      "pub": "Thu, 06 Aug 2026 06:32:45 +0900",
+      "ts": 1785972986000,
+      "pub": "Thu, 06 Aug 2026 08:36:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 갤럭시 Z폴드8 시리즈·갤럭시 워치 9·울트라2 국내 공식 출시",
+      "link": "https://www.mt.co.kr/tech/2026/08/06/2026080608071943563",
+      "source": "머니투데이",
+      "ts": 1785972232000,
+      "pub": "Thu, 06 Aug 2026 08:23:52 +0900",
       "sentiment": "neutral"
     },
     {
@@ -41,22 +49,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785940875000,
       "pub": "Wed, 5 Aug 2026 23:41:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자·SK하이닉스 \"주주 환원 강화 방안 마련\" 약속",
-      "link": "https://www.mt.co.kr/world/2026/08/05/2026080521515389429",
-      "source": "머니투데이",
-      "ts": 1785934761000,
-      "pub": "Wed, 05 Aug 2026 21:59:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 넷리스트와 특허 분쟁 마침표…특허 라이센스 등 협력",
-      "link": "https://www.mt.co.kr/industry/2026/08/05/2026080521155192198",
-      "source": "머니투데이",
-      "ts": 1785934463000,
-      "pub": "Wed, 05 Aug 2026 21:54:23 +0900",
       "sentiment": "neutral"
     },
     {

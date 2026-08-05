@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-05T12:46:03.071Z",
-  "count": 16,
+  "updated_at": "2026-08-05T15:06:24.335Z",
+  "count": 14,
   "items": [
+    {
+      "title": "\"삼성전자·SK하이닉스, 재무건전성 유지속 주주환원 확대 검토\"",
+      "link": "https://www.yna.co.kr/view/AKR20260805164500072",
+      "source": "연합뉴스 국제",
+      "ts": 1785940875000,
+      "pub": "Wed, 5 Aug 2026 23:41:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자·SK하이닉스 \"주주 환원 강화 방안 마련\" 약속",
+      "link": "https://www.mt.co.kr/world/2026/08/05/2026080521515389429",
+      "source": "머니투데이",
+      "ts": 1785934761000,
+      "pub": "Wed, 05 Aug 2026 21:59:21 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"중국 창신메모리 제품, HP 등 글로벌 PC 업체에 채택돼\"",
       "link": "https://www.yna.co.kr/view/AKR20260805158900083",
@@ -25,30 +41,6 @@
       "source": "한국경제",
       "ts": 1785922446000,
       "pub": "Wed, 05 Aug 2026 18:34:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "정부 '호남 반도체 부지' 軍과 협의 없었다",
-      "link": "https://www.hankyung.com/article/2026080571021",
-      "source": "한국경제",
-      "ts": 1785921554000,
-      "pub": "Wed, 05 Aug 2026 18:19:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 강세·호르무즈 합의 기대에 환호…닛케이, 3.66%↑[Asia마감]",
-      "link": "https://www.mt.co.kr/world/2026/08/05/2026080517251990051",
-      "source": "머니투데이",
-      "ts": 1785919543000,
-      "pub": "Wed, 05 Aug 2026 17:45:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼전닉스, 중국산 반도체장비 현지사용 검토…美 수출규제 대비\"",
-      "link": "https://www.mt.co.kr/world/2026/08/05/2026080516503083469",
-      "source": "머니투데이",
-      "ts": 1785917983000,
-      "pub": "Wed, 05 Aug 2026 17:19:43 +0900",
       "sentiment": "neutral"
     },
     {
@@ -121,14 +113,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785880112000,
       "pub": "Wed, 5 Aug 2026 06:48:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성, 'HBM 8배 성능' 차세대 3D메모리 공개…\"AI장벽 넘는다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260805004300091",
-      "source": "연합뉴스 국제",
-      "ts": 1785872643000,
-      "pub": "Wed, 5 Aug 2026 04:44:03 +0900",
       "sentiment": "neutral"
     }
   ]

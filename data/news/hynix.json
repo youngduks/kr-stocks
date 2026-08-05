@@ -1,8 +1,56 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-05T01:25:19.583Z",
-  "count": 13,
+  "updated_at": "2026-08-05T04:53:16.912Z",
+  "count": 15,
   "items": [
+    {
+      "title": "\"공급 20% 늘때 수요 200%\"…메모리 비관론 깨부순 머스크 [빈난새의 빈틈없이마켓]",
+      "link": "https://www.hankyung.com/article/202608055883i",
+      "source": "한국경제",
+      "ts": 1785904596000,
+      "pub": "Wed, 05 Aug 2026 13:36:36 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "대만 실리콘 웨이퍼 제조업체 \"반도체 중장기 전망 긍정적\"",
+      "link": "https://www.yna.co.kr/view/AKR20260805084400009",
+      "source": "연합뉴스 국제",
+      "ts": 1785902213000,
+      "pub": "Wed, 5 Aug 2026 12:56:53 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "상반기 매출 1000억 돌파…반도체 신공장 효과 '톡톡'",
+      "link": "https://www.hankyung.com/article/202608056173i",
+      "source": "한국경제",
+      "ts": 1785901513000,
+      "pub": "Wed, 05 Aug 2026 12:45:13 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'폭락→폭등' 후 쉬어가던 코스피, 美반도체 훈풍에 상승 재개",
+      "link": "https://www.yna.co.kr/view/AKR20260805075700008",
+      "source": "연합뉴스 경제",
+      "ts": 1785897964000,
+      "pub": "Wed, 5 Aug 2026 11:46:04 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "메모리장벽 돌파구는 Z축…닮은꼴 해법에도 전략 갈린 삼전닉스",
+      "link": "https://www.yna.co.kr/view/AKR20260805065500091",
+      "source": "연합뉴스 국제",
+      "ts": 1785896644000,
+      "pub": "Wed, 5 Aug 2026 11:24:04 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "NH아문디운용 \"반도체 우려, 상당 부분 반영…반등 여건 조성\"",
+      "link": "https://www.hankyung.com/article/2026080558376",
+      "source": "한국경제",
+      "ts": 1785894314000,
+      "pub": "Wed, 05 Aug 2026 10:45:14 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "태양광·반도체 소재 '폴리실리콘' 美 가격하한제·관세 준비중",
       "link": "https://www.yna.co.kr/view/AKR20260805020400009",
@@ -12,43 +60,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "반도체가 돌아왔다…삼성전자·SK하이닉스부터 소부장도 강세 [종목+]",
-      "link": "https://www.hankyung.com/article/2026080555766",
-      "source": "한국경제",
-      "ts": 1785889794000,
-      "pub": "Wed, 05 Aug 2026 09:29:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피 4%대 급등 출발…반도체주 랠리에 6600선 회복",
-      "link": "https://www.hankyung.com/article/2026080554876",
-      "source": "한국경제",
-      "ts": 1785888682000,
-      "pub": "Wed, 05 Aug 2026 09:11:22 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "월가, SK하이닉스 ADR 분석 개시…저평가 '매수' 의견(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260805003751072",
       "source": "연합뉴스 국제",
       "ts": 1785888668000,
       "pub": "Wed, 5 Aug 2026 09:11:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"2031년까지 '메모리 최강'은 한국\"",
-      "link": "https://www.hankyung.com/article/2026080554747",
-      "source": "한국경제",
-      "ts": 1785888634000,
-      "pub": "Wed, 05 Aug 2026 09:10:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "초고수가 먼저 담았는데…월가가 밤사이 찍은 '반도체 원픽'",
-      "link": "https://www.hankyung.com/article/202608055461i",
-      "source": "한국경제",
-      "ts": 1785888553000,
-      "pub": "Wed, 05 Aug 2026 09:09:13 +0900",
       "sentiment": "neutral"
     },
     {

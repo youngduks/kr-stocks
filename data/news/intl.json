@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-05T01:25:19.582Z",
-  "count": 22,
+  "updated_at": "2026-08-05T04:53:16.911Z",
+  "count": 19,
   "items": [
+    {
+      "title": "우크라 \"러, 서부지역에 북한 미사일 부대 배치\"",
+      "link": "https://www.yna.co.kr/view/AKR20260805088200009",
+      "source": "연합뉴스 국제",
+      "ts": 1785904402000,
+      "pub": "Wed, 5 Aug 2026 13:33:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"호르무즈 곧 열릴것…그렇지 않으면 이란 강력 공격\"",
+      "link": "https://www.yna.co.kr/view/AKR20260805084900009",
+      "source": "연합뉴스 국제",
+      "ts": 1785902795000,
+      "pub": "Wed, 5 Aug 2026 13:06:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] \"무기없다\" 두손 모아 빌었지만…도망치는 우크라인 뒤쫓아 자폭",
+      "link": "https://www.yna.co.kr/view/AKR20260805079900704",
+      "source": "연합뉴스 국제",
+      "ts": 1785897905000,
+      "pub": "Wed, 5 Aug 2026 11:45:05 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이스라엘·레바논 후속 회담 재개…헤즈볼라 반발 속 포화 지속",
       "link": "https://www.yna.co.kr/view/AKR20260805037300009",
@@ -28,14 +52,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 폴리실리콘에 관세 부과하나…태양광 테마 '급등'",
-      "link": "https://www.hankyung.com/article/2026080556136",
-      "source": "한국경제",
-      "ts": 1785889976000,
-      "pub": "Wed, 05 Aug 2026 09:32:56 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "[특징주] 광통신주, 트럼프 행정부 中부품 수입금지 추진에 강세",
       "link": "https://www.yna.co.kr/view/AKR20260805035200008",
       "source": "연합뉴스 경제",
@@ -49,22 +65,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785888707000,
       "pub": "Wed, 5 Aug 2026 09:11:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[외신 에스프레소 영상] 트럼프, '전쟁 특수' 누린 정유사 맹비난…\"이익 국민에게 돌려줘라\"",
-      "link": "https://www.hankyung.com/article/202608055346i",
-      "source": "한국경제",
-      "ts": 1785886329000,
-      "pub": "Wed, 05 Aug 2026 08:32:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러 공습에 막힌 우크라 곡물 수출…\"대체 운송도 역부족\"",
-      "link": "https://www.hankyung.com/article/202608055283i",
-      "source": "한국경제",
-      "ts": 1785885557000,
-      "pub": "Wed, 05 Aug 2026 08:19:17 +0900",
       "sentiment": "neutral"
     },
     {
@@ -153,30 +153,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785838196000,
       "pub": "Tue, 4 Aug 2026 19:09:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] \"日 애니 도용 말라\" 공식 항의에…나루토 합성영상 올린 트럼프",
-      "link": "https://www.yna.co.kr/view/AKR20260804137300704",
-      "source": "연합뉴스 국제",
-      "ts": 1785829642000,
-      "pub": "Tue, 4 Aug 2026 16:47:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러 흑해 휴양지 드론 폭발해 민간인 피해…당국 \"우크라 소행\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260804070551009",
-      "source": "연합뉴스 국제",
-      "ts": 1785828776000,
-      "pub": "Tue, 4 Aug 2026 16:32:56 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[영상] 러 흑해 휴양지 덮친 우크라 드론…러, 활공폭탄 8발 집중포화",
-      "link": "https://www.yna.co.kr/view/AKR20260804085200704",
-      "source": "연합뉴스 국제",
-      "ts": 1785812952000,
-      "pub": "Tue, 4 Aug 2026 12:09:12 +0900",
       "sentiment": "neutral"
     }
   ]

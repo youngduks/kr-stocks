@@ -1,22 +1,30 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-05T01:25:19.583Z",
+  "updated_at": "2026-08-05T04:53:16.912Z",
   "count": 7,
   "items": [
     {
-      "title": "반도체가 돌아왔다…삼성전자·SK하이닉스부터 소부장도 강세 [종목+]",
-      "link": "https://www.hankyung.com/article/2026080555766",
+      "title": "\"공급 20% 늘때 수요 200%\"…메모리 비관론 깨부순 머스크 [빈난새의 빈틈없이마켓]",
+      "link": "https://www.hankyung.com/article/202608055883i",
       "source": "한국경제",
-      "ts": 1785889794000,
-      "pub": "Wed, 05 Aug 2026 09:29:54 +0900",
-      "sentiment": "neutral"
+      "ts": 1785904596000,
+      "pub": "Wed, 05 Aug 2026 13:36:36 +0900",
+      "sentiment": "negative"
     },
     {
-      "title": "\"2031년까지 '메모리 최강'은 한국\"",
-      "link": "https://www.hankyung.com/article/2026080554747",
+      "title": "메모리장벽 돌파구는 Z축…닮은꼴 해법에도 전략 갈린 삼전닉스",
+      "link": "https://www.yna.co.kr/view/AKR20260805065500091",
+      "source": "연합뉴스 국제",
+      "ts": 1785896644000,
+      "pub": "Wed, 5 Aug 2026 11:24:04 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼전·하닉만 산 게 아니었다고?…'이 종목'까지 쓸어담은 초고수들",
+      "link": "https://www.hankyung.com/article/202608055861i",
       "source": "한국경제",
-      "ts": 1785888634000,
-      "pub": "Wed, 05 Aug 2026 09:10:34 +0900",
+      "ts": 1785893807000,
+      "pub": "Wed, 05 Aug 2026 10:36:47 +0900",
       "sentiment": "neutral"
     },
     {
@@ -50,14 +58,6 @@
       "ts": 1785870543000,
       "pub": "Wed, 5 Aug 2026 04:09:03 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "아직은 큰 변동성…삼전닉스, 급등락 끝에 간신히 상승마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260804043651008",
-      "source": "연합뉴스 경제",
-      "ts": 1785826844000,
-      "pub": "Tue, 4 Aug 2026 16:00:44 +0900",
-      "sentiment": "positive"
     }
   ]
 }

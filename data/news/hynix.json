@@ -1,15 +1,39 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-05T04:53:16.912Z",
-  "count": 15,
+  "updated_at": "2026-08-05T07:30:50.998Z",
+  "count": 14,
   "items": [
     {
-      "title": "\"공급 20% 늘때 수요 200%\"…메모리 비관론 깨부순 머스크 [빈난새의 빈틈없이마켓]",
-      "link": "https://www.hankyung.com/article/202608055883i",
+      "title": "[단독] SK하이닉스 美 자회사 솔리다임, 프리 IPO 추진",
+      "link": "https://www.hankyung.com/article/202608056378i",
       "source": "한국경제",
-      "ts": 1785904596000,
-      "pub": "Wed, 05 Aug 2026 13:36:36 +0900",
-      "sentiment": "negative"
+      "ts": 1785910710000,
+      "pub": "Wed, 05 Aug 2026 15:18:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "피말리는 9개월 \"발행 기준을 세웠다\"…SK하이닉스 ADR 뒷이야기",
+      "link": "https://www.mt.co.kr/society/2026/08/05/2026073015463980815",
+      "source": "머니투데이",
+      "ts": 1785910196000,
+      "pub": "Wed, 05 Aug 2026 15:09:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[IPO챗] 해치텍 \"국산 반도체 센서 개발 앞세워 글로벌 기업 도약\"",
+      "link": "https://www.yna.co.kr/view/AKR20260805108600008",
+      "source": "연합뉴스 경제",
+      "ts": 1785910138000,
+      "pub": "Wed, 5 Aug 2026 15:08:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[르포] \"모형이라도 찍자\"…삼성전자 새 3D메모리 'zHBM'에 셔터 세례",
+      "link": "https://www.yna.co.kr/view/AKR20260805083800091",
+      "source": "연합뉴스 국제",
+      "ts": 1785905497000,
+      "pub": "Wed, 5 Aug 2026 13:51:37 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "대만 실리콘 웨이퍼 제조업체 \"반도체 중장기 전망 긍정적\"",
@@ -17,14 +41,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785902213000,
       "pub": "Wed, 5 Aug 2026 12:56:53 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "상반기 매출 1000억 돌파…반도체 신공장 효과 '톡톡'",
-      "link": "https://www.hankyung.com/article/202608056173i",
-      "source": "한국경제",
-      "ts": 1785901513000,
-      "pub": "Wed, 05 Aug 2026 12:45:13 +0900",
       "sentiment": "positive"
     },
     {
@@ -42,14 +58,6 @@
       "ts": 1785896644000,
       "pub": "Wed, 5 Aug 2026 11:24:04 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "NH아문디운용 \"반도체 우려, 상당 부분 반영…반등 여건 조성\"",
-      "link": "https://www.hankyung.com/article/2026080558376",
-      "source": "한국경제",
-      "ts": 1785894314000,
-      "pub": "Wed, 05 Aug 2026 10:45:14 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "태양광·반도체 소재 '폴리실리콘' 美 가격하한제·관세 준비중",
@@ -74,22 +82,6 @@
       "ts": 1785885868000,
       "pub": "Wed, 5 Aug 2026 08:24:28 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "IBK증권 \"ISC, 반도체 소부장 모범사례…최대실적 예상\"",
-      "link": "https://www.yna.co.kr/view/AKR20260805020900008",
-      "source": "연합뉴스 경제",
-      "ts": 1785885362000,
-      "pub": "Wed, 5 Aug 2026 08:16:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하나증권 \"엔비디아 기지국 진출, 국내 통신업체엔 기회\"",
-      "link": "https://www.yna.co.kr/view/AKR20260805020800008",
-      "source": "연합뉴스 경제",
-      "ts": 1785885216000,
-      "pub": "Wed, 5 Aug 2026 08:13:36 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "삼성, 'HBM5 8배 성능' 차세대 3D메모리 공개…\"AI칩 장벽 넘는다\"(종합)",

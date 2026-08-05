@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-05T20:55:15.785Z",
-  "count": 6,
+  "updated_at": "2026-08-05T22:04:28.277Z",
+  "count": 9,
   "items": [
+    {
+      "title": "삼전닉스 따라 닛케이도 출렁…日증시 '한국 연동' 경계 [도쿄나우]",
+      "link": "https://www.hankyung.com/article/202608067417i",
+      "source": "한국경제",
+      "ts": 1785965565000,
+      "pub": "Thu, 06 Aug 2026 06:32:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI가속기 '위'에 HBM 쌓는다… 삼성, 차세대 3D 메모리 공개",
+      "link": "https://www.mt.co.kr/industry/2026/08/06/2026080519571646985",
+      "source": "머니투데이",
+      "ts": 1785956400000,
+      "pub": "Thu, 06 Aug 2026 04:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "기억하세요… 2031년까지 '메모리' 최강국은 韓",
+      "link": "https://www.mt.co.kr/industry/2026/08/06/2026080520092474586",
+      "source": "머니투데이",
+      "ts": 1785953400000,
+      "pub": "Thu, 06 Aug 2026 03:10:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "샌디스크의 AI 메모리 승부수…주가 부활 노리는 오라클[박신영의 개장전 요것만]",
       "link": "https://www.hankyung.com/article/202608067359i",
@@ -20,19 +44,27 @@
       "sentiment": "neutral"
     },
     {
+      "title": "삼성전자·SK하이닉스 \"주주 환원 강화 방안 마련\" 약속",
+      "link": "https://www.mt.co.kr/world/2026/08/05/2026080521515389429",
+      "source": "머니투데이",
+      "ts": 1785934761000,
+      "pub": "Wed, 05 Aug 2026 21:59:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 넷리스트와 특허 분쟁 마침표…특허 라이센스 등 협력",
+      "link": "https://www.mt.co.kr/industry/2026/08/05/2026080521155192198",
+      "source": "머니투데이",
+      "ts": 1785934463000,
+      "pub": "Wed, 05 Aug 2026 21:54:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "\"중국 창신메모리 제품, HP 등 글로벌 PC 업체에 채택돼\"",
       "link": "https://www.yna.co.kr/view/AKR20260805158900083",
       "source": "연합뉴스 국제",
       "ts": 1785928906000,
       "pub": "Wed, 5 Aug 2026 20:21:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[단독] SK하닉 낸드 자회사, 최대 10조 투자 유치",
-      "link": "https://www.hankyung.com/article/2026080570441",
-      "source": "한국경제",
-      "ts": 1785922859000,
-      "pub": "Wed, 05 Aug 2026 18:40:59 +0900",
       "sentiment": "neutral"
     },
     {
@@ -42,14 +74,6 @@
       "ts": 1785905497000,
       "pub": "Wed, 5 Aug 2026 13:51:37 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "메모리장벽 돌파구는 Z축…닮은꼴 해법에도 전략 갈린 삼전닉스",
-      "link": "https://www.yna.co.kr/view/AKR20260805065500091",
-      "source": "연합뉴스 국제",
-      "ts": 1785896644000,
-      "pub": "Wed, 5 Aug 2026 11:24:04 +0900",
-      "sentiment": "positive"
     }
   ]
 }

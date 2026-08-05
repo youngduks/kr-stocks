@@ -1,14 +1,38 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-05T20:55:15.784Z",
-  "count": 21,
+  "updated_at": "2026-08-05T22:04:28.276Z",
+  "count": 23,
   "items": [
+    {
+      "title": "리사 쿡 美연준 이사 \"필요시 금리 인상 행동할 준비돼\"",
+      "link": "https://www.yna.co.kr/view/AKR20260806010600072",
+      "source": "연합뉴스 경제",
+      "ts": 1785966507000,
+      "pub": "Thu, 6 Aug 2026 06:48:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"美, 이르면 6일 수입 폴리실리콘 관세\"…韓기업 영향 주목",
+      "link": "https://www.yna.co.kr/view/AKR20260806009000071",
+      "source": "연합뉴스 국제",
+      "ts": 1785965623000,
+      "pub": "Thu, 6 Aug 2026 06:33:43 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 충성파 美법무 후보 인준 다시 난관…반대 의원 늘어",
       "link": "https://www.yna.co.kr/view/AKR20260806004300071",
       "source": "연합뉴스 국제",
       "ts": 1785956395000,
       "pub": "Thu, 6 Aug 2026 03:59:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"호르무즈 곧 개방, 이란 불응땐 강공\"",
+      "link": "https://www.mt.co.kr/world/2026/08/06/2026080520023770790",
+      "source": "머니투데이",
+      "ts": 1785953700000,
+      "pub": "Thu, 06 Aug 2026 03:15:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -66,14 +90,6 @@
       "ts": 1785925095000,
       "pub": "Wed, 5 Aug 2026 19:18:15 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "美, 폴리실리콘에 관세…韓태양광 '반사이익' 기대",
-      "link": "https://www.hankyung.com/article/2026080570461",
-      "source": "한국경제",
-      "ts": 1785922769000,
-      "pub": "Wed, 05 Aug 2026 18:39:29 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "전 우크라 총사령관, 나토 비판…\"러 전력 절반 도달에 12년 걸려\"",

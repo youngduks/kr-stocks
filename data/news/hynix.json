@@ -1,14 +1,54 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-04T23:53:13.774Z",
-  "count": 15,
+  "updated_at": "2026-08-05T01:25:19.583Z",
+  "count": 13,
   "items": [
     {
-      "title": "\"엔비디아가 최고\" 머스크 공개 선언…AMD는 CAPEX 부담에 8% '뚝' [IT썰]",
-      "link": "https://www.mt.co.kr/tech/2026/08/05/2026080507135285723",
-      "source": "머니투데이",
-      "ts": 1785886257000,
-      "pub": "Wed, 05 Aug 2026 08:30:57 +0900",
+      "title": "태양광·반도체 소재 '폴리실리콘' 美 가격하한제·관세 준비중",
+      "link": "https://www.yna.co.kr/view/AKR20260805020400009",
+      "source": "연합뉴스 국제",
+      "ts": 1785890387000,
+      "pub": "Wed, 5 Aug 2026 09:39:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체가 돌아왔다…삼성전자·SK하이닉스부터 소부장도 강세 [종목+]",
+      "link": "https://www.hankyung.com/article/2026080555766",
+      "source": "한국경제",
+      "ts": 1785889794000,
+      "pub": "Wed, 05 Aug 2026 09:29:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피 4%대 급등 출발…반도체주 랠리에 6600선 회복",
+      "link": "https://www.hankyung.com/article/2026080554876",
+      "source": "한국경제",
+      "ts": 1785888682000,
+      "pub": "Wed, 05 Aug 2026 09:11:22 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "월가, SK하이닉스 ADR 분석 개시…저평가 '매수' 의견(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260805003751072",
+      "source": "연합뉴스 국제",
+      "ts": 1785888668000,
+      "pub": "Wed, 5 Aug 2026 09:11:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"2031년까지 '메모리 최강'은 한국\"",
+      "link": "https://www.hankyung.com/article/2026080554747",
+      "source": "한국경제",
+      "ts": 1785888634000,
+      "pub": "Wed, 05 Aug 2026 09:10:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "초고수가 먼저 담았는데…월가가 밤사이 찍은 '반도체 원픽'",
+      "link": "https://www.hankyung.com/article/202608055461i",
+      "source": "한국경제",
+      "ts": 1785888553000,
+      "pub": "Wed, 05 Aug 2026 09:09:13 +0900",
       "sentiment": "neutral"
     },
     {
@@ -44,67 +84,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "SK하이닉스 \"HBM만으로는 부족\"…3D로 쌓는 D램·HBF 공개",
-      "link": "https://www.hankyung.com/article/202608055183i",
-      "source": "한국경제",
-      "ts": 1785879577000,
-      "pub": "Wed, 05 Aug 2026 06:39:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "머스크 \"전 세계 인터넷 대부분 제공 가능성…엔비디아와 협력 강화\"",
-      "link": "https://www.hankyung.com/article/202608055146i",
-      "source": "한국경제",
-      "ts": 1785876540000,
-      "pub": "Wed, 05 Aug 2026 05:49:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "S&P도 사상 최고치…반도체 다시 '날개'[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/08/05/2026080505383324698",
-      "source": "머니투데이",
-      "ts": 1785876038000,
-      "pub": "Wed, 05 Aug 2026 05:40:38 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\"따라가려면 멀었다\" 삼전닉스 벽 높지만...CXMT 추격 무시 못 하는 이유",
-      "link": "https://www.mt.co.kr/industry/2026/08/05/2026080418272249966",
-      "source": "머니투데이",
-      "ts": 1785875400000,
-      "pub": "Wed, 05 Aug 2026 05:30:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 차세대 'zHBM'-세계최초 400단 이상 'V10 낸드' 공개",
-      "link": "https://www.mt.co.kr/industry/2026/08/05/2026080504344012981",
-      "source": "머니투데이",
-      "ts": 1785874069000,
-      "pub": "Wed, 05 Aug 2026 05:07:49 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "뒷배는 중국 정부...\"돈 못 벌어도 일단 고\" 39조 쏟아부은 CXMT",
-      "link": "https://www.mt.co.kr/industry/2026/08/05/2026080417081674101",
-      "source": "머니투데이",
-      "ts": 1785873600000,
-      "pub": "Wed, 05 Aug 2026 05:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "삼성, 'HBM 8배 성능' 차세대 3D메모리 공개…\"AI장벽 넘는다\"",
       "link": "https://www.yna.co.kr/view/AKR20260805004300091",
       "source": "연합뉴스 국제",
       "ts": 1785872643000,
       "pub": "Wed, 5 Aug 2026 04:44:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "HBM 여러개 쌓는다…삼성전자, 첨단 메모리반도체 'zHBM' 공개",
-      "link": "https://www.hankyung.com/article/202608055115i",
-      "source": "한국경제",
-      "ts": 1785872640000,
-      "pub": "Wed, 05 Aug 2026 04:44:00 +0900",
       "sentiment": "neutral"
     },
     {

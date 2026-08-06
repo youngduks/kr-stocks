@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-06T01:22:39.560Z",
-  "count": 23,
+  "updated_at": "2026-08-06T04:53:36.987Z",
+  "count": 18,
   "items": [
+    {
+      "title": "트럼프, 한국계 진보 주지사 후보 맹비난…\"제정신 아니다\"",
+      "link": "https://www.hankyung.com/article/2026080684467",
+      "source": "한국경제",
+      "ts": 1785989222000,
+      "pub": "Thu, 06 Aug 2026 13:07:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美국무부 \"미국인 안전 위해 北여행금지 유지…대화 열려있어\"",
+      "link": "https://www.yna.co.kr/view/AKR20260806077900071",
+      "source": "연합뉴스 국제",
+      "ts": 1785984223000,
+      "pub": "Thu, 6 Aug 2026 11:43:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中전문가 \"미중 무역 마찰, 9월 정상회담엔 영향 없을 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260806065100083",
+      "source": "연합뉴스 국제",
+      "ts": 1785980702000,
+      "pub": "Thu, 6 Aug 2026 10:45:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "아프리카 '쓰레기'라더니…트럼프, 로비자금 들어가자 공개찬사",
+      "link": "https://www.yna.co.kr/view/AKR20260806056700009",
+      "source": "연합뉴스 국제",
+      "ts": 1785979278000,
+      "pub": "Thu, 6 Aug 2026 10:21:18 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이란, 걸프국 인질 삼아 '불바다' 경고…트럼프 공습 보류",
       "link": "https://www.yna.co.kr/view/AKR20260806025400009",
@@ -10,14 +42,6 @@
       "ts": 1785978338000,
       "pub": "Thu, 6 Aug 2026 10:05:38 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "트럼프 \"이란과 합의 원해…사람 죽이고 싶지 않다\"",
-      "link": "https://www.hankyung.com/article/2026080677337",
-      "source": "한국경제",
-      "ts": 1785974391000,
-      "pub": "Thu, 06 Aug 2026 08:59:51 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "트럼프, 한국계 진보 주지사 후보에 \"공산주의\" 색깔론 공세",
@@ -121,70 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785922137000,
       "pub": "Wed, 5 Aug 2026 18:28:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "물류창고 난타전…러 미사일에 우크라 방공망 또 뚫려",
-      "link": "https://www.yna.co.kr/view/AKR20260805135600109",
-      "source": "연합뉴스 국제",
-      "ts": 1785917992000,
-      "pub": "Wed, 5 Aug 2026 17:19:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 우크라군, 트럭 탑재 방공시스템 공개…단거리 드론 요격용",
-      "link": "https://www.yna.co.kr/view/AKR20260805124700704",
-      "source": "연합뉴스 국제",
-      "ts": 1785914545000,
-      "pub": "Wed, 5 Aug 2026 16:22:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 하마스가 무기를 포기한다? 이거 믿어야 하나요",
-      "link": "https://www.yna.co.kr/view/AKR20260805118700797",
-      "source": "연합뉴스 국제",
-      "ts": 1785912609000,
-      "pub": "Wed, 5 Aug 2026 15:50:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 광통신주, 트럼프 행정부 中부품 수입금지 추진에 강세(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260805035251008",
-      "source": "연합뉴스 경제",
-      "ts": 1785911764000,
-      "pub": "Wed, 5 Aug 2026 15:36:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] 드론에 쫓기던 우크라 상인 \"무기 없다\" 두 손 모아 빌었지만",
-      "link": "https://www.yna.co.kr/view/AKR20260805111700704",
-      "source": "연합뉴스 국제",
-      "ts": 1785910658000,
-      "pub": "Wed, 5 Aug 2026 15:17:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, '해방의 날' 관세 140조원 환급…대법원 제동 후 60% 반환",
-      "link": "https://www.yna.co.kr/view/AKR20260805111000009",
-      "source": "연합뉴스 국제",
-      "ts": 1785910544000,
-      "pub": "Wed, 5 Aug 2026 15:15:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"호르무즈 곧 열릴 것\"…'합의 임박' 보도에 \"그렇게 될수도\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260805084951009",
-      "source": "연합뉴스 국제",
-      "ts": 1785910243000,
-      "pub": "Wed, 5 Aug 2026 15:10:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 \"러, 서부지역에 북한 미사일 부대 배치\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260805088251009",
-      "source": "연합뉴스 국제",
-      "ts": 1785909708000,
-      "pub": "Wed, 5 Aug 2026 15:01:48 +0900",
       "sentiment": "neutral"
     }
   ]

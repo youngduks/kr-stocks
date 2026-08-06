@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-06T01:22:39.561Z",
-  "count": 7,
+  "updated_at": "2026-08-06T04:53:36.988Z",
+  "count": 5,
   "items": [
+    {
+      "title": "삼성전자, 넷리스트와 특허분쟁 종료…5년간 전략적 제휴",
+      "link": "https://www.yna.co.kr/view/AKR20260806077800003",
+      "source": "연합뉴스 경제",
+      "ts": 1785983693000,
+      "pub": "Thu, 6 Aug 2026 11:34:53 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[특징주] SK하이닉스, 장초반 6%대 급락…삼성전자도 2.03%↓",
       "link": "https://www.yna.co.kr/view/AKR20260806039300008",
@@ -17,30 +25,6 @@
       "source": "연합뉴스 경제",
       "ts": 1785974224000,
       "pub": "Thu, 6 Aug 2026 08:57:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 개미들 좋겠네…'역대급 배당' 약속에 두근두근",
-      "link": "https://www.hankyung.com/article/2026080676716",
-      "source": "한국경제",
-      "ts": 1785974036000,
-      "pub": "Thu, 06 Aug 2026 08:53:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'갤럭시 예쁘다 예뻐' 1030마저 갈아탔다…사전판매 '신기록'",
-      "link": "https://www.hankyung.com/article/202608067639g",
-      "source": "한국경제",
-      "ts": 1785973172000,
-      "pub": "Thu, 06 Aug 2026 08:39:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자·SK하이닉스 \"주주환원 확대 방안 검토\"",
-      "link": "https://www.hankyung.com/article/202608067624H",
-      "source": "한국경제",
-      "ts": 1785972986000,
-      "pub": "Thu, 06 Aug 2026 08:36:26 +0900",
       "sentiment": "neutral"
     },
     {

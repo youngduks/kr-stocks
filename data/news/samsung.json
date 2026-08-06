@@ -1,14 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-06T10:25:05.168Z",
-  "count": 9,
+  "updated_at": "2026-08-06T12:48:50.737Z",
+  "count": 10,
   "items": [
     {
-      "title": "[포토] 갤럭시Z폴드8·플립8 7일 출시",
-      "link": "https://www.hankyung.com/article/2026080692461",
+      "title": "\"애플-CXMT 메모리 반도체 공급협상 결렬…가격 조건 안 맞아\"",
+      "link": "https://www.hankyung.com/article/202608069505i",
       "source": "한국경제",
-      "ts": 1786007283000,
-      "pub": "Thu, 06 Aug 2026 18:08:03 +0900",
+      "ts": 1786016326000,
+      "pub": "Thu, 06 Aug 2026 20:38:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"D램 싸게\" 중국 찾아간 애플...\"삼전닉스보다 더 줘\" 요구에 계약 무산",
+      "link": "https://www.mt.co.kr/world/2026/08/06/2026080619234657783",
+      "source": "머니투데이",
+      "ts": 1786013225000,
+      "pub": "Thu, 06 Aug 2026 19:47:05 +0900",
       "sentiment": "neutral"
     },
     {

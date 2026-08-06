@@ -1,8 +1,152 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-06T15:04:52.827Z",
-  "count": 14,
+  "updated_at": "2026-08-06T23:47:47.668Z",
+  "count": 24,
   "items": [
+    {
+      "title": "이스라엘, 레바논에 약속했던 철군 거부…美중재 삐그덕",
+      "link": "https://www.yna.co.kr/view/AKR20260807020600009",
+      "source": "연합뉴스 국제",
+      "ts": 1786058385000,
+      "pub": "Fri, 7 Aug 2026 08:19:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '원정출산 아기에 美시민권 부여 금지' 행정명령 서명(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260807006651071",
+      "source": "연합뉴스 국제",
+      "ts": 1786055132000,
+      "pub": "Fri, 7 Aug 2026 07:25:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '반도체 핵심 원료' 폴리실리콘 파생상품에 15% 관세",
+      "link": "https://www.yna.co.kr/view/AKR20260807011200071",
+      "source": "연합뉴스 국제",
+      "ts": 1786052381000,
+      "pub": "Fri, 7 Aug 2026 06:39:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란과의 전쟁 곧 끝날 것\"…탄약 부족 보도엔 반박",
+      "link": "https://www.hankyung.com/article/2026080796517",
+      "source": "한국경제",
+      "ts": 1786052280000,
+      "pub": "Fri, 07 Aug 2026 06:38:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '원정출산 아기 시민권 제한' 행정명령 서명",
+      "link": "https://www.hankyung.com/article/2026080796377",
+      "source": "한국경제",
+      "ts": 1786051059000,
+      "pub": "Fri, 07 Aug 2026 06:17:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美, 폴리실리콘 파생제품에 15% 관세 부과…120일 뒤 발효",
+      "link": "https://www.hankyung.com/article/2026080796447",
+      "source": "한국경제",
+      "ts": 1786050817000,
+      "pub": "Fri, 07 Aug 2026 06:13:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美, 폴리실리콘 파생제품에 15% 관세 부과…120일 뒤 발효",
+      "link": "https://www.yna.co.kr/view/AKR20260807008700071",
+      "source": "연합뉴스 국제",
+      "ts": 1786050511000,
+      "pub": "Fri, 7 Aug 2026 06:08:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '반도체 핵심원료' 폴리실리콘 산업보호 포고령",
+      "link": "https://www.yna.co.kr/view/AKR20260807007200071",
+      "source": "연합뉴스 국제",
+      "ts": 1786049478000,
+      "pub": "Fri, 7 Aug 2026 05:51:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란전쟁 곧 끝날 것…미군 막대한 규모 탄약 보유\"",
+      "link": "https://www.yna.co.kr/view/AKR20260807007400071",
+      "source": "연합뉴스 국제",
+      "ts": 1786049311000,
+      "pub": "Fri, 7 Aug 2026 05:48:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 협상단장, 트럼프의 '말바꾸기' 조롱…\"무한 반복 쇼 외교\"",
+      "link": "https://www.yna.co.kr/view/AKR20260807006900079",
+      "source": "연합뉴스 국제",
+      "ts": 1786048611000,
+      "pub": "Fri, 7 Aug 2026 05:36:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '원정출산 아기에 美시민권 부여 금지' 행정명령 서명",
+      "link": "https://www.yna.co.kr/view/AKR20260807006600071",
+      "source": "연합뉴스 국제",
+      "ts": 1786048255000,
+      "pub": "Fri, 7 Aug 2026 05:30:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 탄약부족 탓 '美국방 질책' 보도에 \"가짜뉴스·반역\"",
+      "link": "https://www.yna.co.kr/view/AKR20260807004600071",
+      "source": "연합뉴스 국제",
+      "ts": 1786047903000,
+      "pub": "Fri, 7 Aug 2026 05:25:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프, 폴리실리콘 산업 보호 포고령 서명",
+      "link": "https://www.yna.co.kr/view/AKR20260807006500071",
+      "source": "연합뉴스 국제",
+      "ts": 1786047724000,
+      "pub": "Fri, 7 Aug 2026 05:22:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 '美 원정출산 금지' 행정명령 서명",
+      "link": "https://www.yna.co.kr/view/AKR20260807006400071",
+      "source": "연합뉴스 국제",
+      "ts": 1786047529000,
+      "pub": "Fri, 7 Aug 2026 05:18:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美민주, 트럼프 측에 30억원 건넨 韓기업 정조준…\"잠재적 뇌물\"",
+      "link": "https://www.yna.co.kr/view/AKR20260807001500071",
+      "source": "연합뉴스 국제",
+      "ts": 1786038398000,
+      "pub": "Fri, 7 Aug 2026 02:46:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러시아 보란 듯…\"젤렌스키, 전쟁 발발 후 세르비아 첫 방문\"",
+      "link": "https://www.yna.co.kr/view/AKR20260807001300109",
+      "source": "연합뉴스 국제",
+      "ts": 1786033299000,
+      "pub": "Fri, 7 Aug 2026 01:21:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "아프리카도 가자지구 국제안정화군 참여…우간다, 파병 승인",
+      "link": "https://www.yna.co.kr/view/AKR20260807000500099",
+      "source": "연합뉴스 국제",
+      "ts": 1786029869000,
+      "pub": "Fri, 7 Aug 2026 00:24:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, '밴스 당선시켜야'\"…백악관은 '낙점설' 설왕설래",
+      "link": "https://www.yna.co.kr/view/AKR20260806157800071",
+      "source": "연합뉴스 국제",
+      "ts": 1786029313000,
+      "pub": "Fri, 7 Aug 2026 00:15:13 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "리투아 국방 \"러, 우크라 드론으로 발트국 위장공격 할수도\"",
       "link": "https://www.yna.co.kr/view/AKR20260806151600098",
@@ -49,70 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785999316000,
       "pub": "Thu, 6 Aug 2026 15:55:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美국무부 \"미국인 안전 위해 北여행금지 유지…대화 열려있어\"",
-      "link": "https://www.yna.co.kr/view/AKR20260806077900071",
-      "source": "연합뉴스 국제",
-      "ts": 1785984223000,
-      "pub": "Thu, 6 Aug 2026 11:43:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中전문가 \"미중 무역 마찰, 9월 정상회담엔 영향 없을 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260806065100083",
-      "source": "연합뉴스 국제",
-      "ts": 1785980702000,
-      "pub": "Thu, 6 Aug 2026 10:45:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "아프리카 '쓰레기'라더니…트럼프, 로비자금 들어가자 공개찬사",
-      "link": "https://www.yna.co.kr/view/AKR20260806056700009",
-      "source": "연합뉴스 국제",
-      "ts": 1785979278000,
-      "pub": "Thu, 6 Aug 2026 10:21:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란, 걸프국 인질 삼아 '불바다' 경고…트럼프 공습 보류",
-      "link": "https://www.yna.co.kr/view/AKR20260806025400009",
-      "source": "연합뉴스 국제",
-      "ts": 1785978338000,
-      "pub": "Thu, 6 Aug 2026 10:05:38 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "트럼프, 한국계 진보 주지사 후보에 \"공산주의\" 색깔론 공세",
-      "link": "https://www.yna.co.kr/view/AKR20260806023200071",
-      "source": "연합뉴스 국제",
-      "ts": 1785973483000,
-      "pub": "Thu, 6 Aug 2026 08:44:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 합의하고 싶다…살상하고 싶지 않아\"",
-      "link": "https://www.yna.co.kr/view/AKR20260806017200071",
-      "source": "연합뉴스 국제",
-      "ts": 1785970187000,
-      "pub": "Thu, 6 Aug 2026 07:49:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "리사 쿡 美연준 이사 \"필요시 금리 인상 행동할 준비돼\"",
-      "link": "https://www.yna.co.kr/view/AKR20260806010600072",
-      "source": "연합뉴스 국제",
-      "ts": 1785966507000,
-      "pub": "Thu, 6 Aug 2026 06:48:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"美, 이르면 6일 수입 폴리실리콘 관세\"…韓기업 영향 주목",
-      "link": "https://www.yna.co.kr/view/AKR20260806009000071",
-      "source": "연합뉴스 국제",
-      "ts": 1785965623000,
-      "pub": "Thu, 6 Aug 2026 06:33:43 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,15 +1,31 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-06T04:53:36.988Z",
+  "updated_at": "2026-08-06T07:31:19.541Z",
   "count": 10,
   "items": [
     {
-      "title": "반도체 수출 '대박' 터질 때…韓 주식 역대급 매도한 외국인",
-      "link": "https://www.hankyung.com/article/202608068470i",
+      "title": "\"삼전·닉스 연말 순현금 375조원…엔비디아의 2배\"",
+      "link": "https://www.yna.co.kr/view/AKR20260806113200009",
+      "source": "연합뉴스 국제",
+      "ts": 1786000612000,
+      "pub": "Thu, 6 Aug 2026 16:16:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하이닉스 10%대 폭락, 삼전 6.3%↓…외인·기관 모두 팔았다(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260806039351008",
+      "source": "연합뉴스 경제",
+      "ts": 1786000249000,
+      "pub": "Thu, 6 Aug 2026 16:10:49 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[단독] 구광모, 젠슨 황 초청에 답방…엔비디아 본사 방문",
+      "link": "https://www.hankyung.com/article/202608068488i",
       "source": "한국경제",
-      "ts": 1785989901000,
-      "pub": "Thu, 06 Aug 2026 13:18:21 +0900",
-      "sentiment": "positive"
+      "ts": 1785997095000,
+      "pub": "Thu, 06 Aug 2026 15:18:15 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "대만 TSMC, 올해 4분기 3나노 생산량 18만장 예상",
@@ -17,14 +33,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785986562000,
       "pub": "Thu, 6 Aug 2026 12:22:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스, 프리마켓서 또 하한가 체결…시초가 논란 재점화 [종목+]",
-      "link": "https://www.hankyung.com/article/2026080682556",
-      "source": "한국경제",
-      "ts": 1785983014000,
-      "pub": "Thu, 06 Aug 2026 11:23:34 +0900",
       "sentiment": "neutral"
     },
     {
@@ -73,14 +81,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785940875000,
       "pub": "Wed, 5 Aug 2026 23:41:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"중국 창신메모리 제품, HP 등 글로벌 PC 업체에 채택돼\"",
-      "link": "https://www.yna.co.kr/view/AKR20260805158900083",
-      "source": "연합뉴스 국제",
-      "ts": 1785928906000,
-      "pub": "Wed, 5 Aug 2026 20:21:46 +0900",
       "sentiment": "neutral"
     }
   ]

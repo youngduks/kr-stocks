@@ -1,14 +1,14 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-08-06T04:53:36.988Z",
-  "count": 4,
+  "updated_at": "2026-08-06T07:31:19.542Z",
+  "count": 2,
   "items": [
     {
-      "title": "현대차그룹, 상반기 전기차 판매 전년비 25%↑…점유율 3.7%",
-      "link": "https://www.hankyung.com/article/202608068265g",
+      "title": "1센트 와퍼와 현대차는 어떻게 사람들의 입을 열었나",
+      "link": "https://www.hankyung.com/article/202608068458i",
       "source": "한국경제",
-      "ts": 1785982933000,
-      "pub": "Thu, 06 Aug 2026 11:22:13 +0900",
+      "ts": 1785995658000,
+      "pub": "Thu, 06 Aug 2026 14:54:18 +0900",
       "sentiment": "neutral"
     },
     {
@@ -18,22 +18,6 @@
       "ts": 1785981330000,
       "pub": "Thu, 6 Aug 2026 10:55:30 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "계약 첫날 1만대 '역대 최고'…현대차 신형 아반떼 돌풍",
-      "link": "https://www.hankyung.com/article/202608068027g",
-      "source": "한국경제",
-      "ts": 1785979068000,
-      "pub": "Thu, 06 Aug 2026 10:17:48 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "현대차·기아 11종 50만9천대 리콜…그랜저·투싼·카니발 등",
-      "link": "https://www.yna.co.kr/view/AKR20260805143600003",
-      "source": "연합뉴스 경제",
-      "ts": 1785963602000,
-      "pub": "Thu, 6 Aug 2026 06:00:02 +0900",
-      "sentiment": "negative"
     }
   ]
 }

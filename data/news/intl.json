@@ -1,14 +1,38 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-06T07:31:19.540Z",
-  "count": 19,
+  "updated_at": "2026-08-06T10:25:05.167Z",
+  "count": 15,
   "items": [
     {
-      "title": "\"트럼프, '이란전 탄약 부족' 두고 해그세스 국방장관 질책\"",
-      "link": "https://www.hankyung.com/article/2026080690227",
-      "source": "한국경제",
-      "ts": 1786000721000,
-      "pub": "Thu, 06 Aug 2026 16:18:41 +0900",
+      "title": "美 연준 트럼프 입김 사실로?…\"워시 의장 취임후에도 수시 통화\"",
+      "link": "https://www.mt.co.kr/world/2026/08/06/2026080617462352411",
+      "source": "머니투데이",
+      "ts": 1786007675000,
+      "pub": "Thu, 06 Aug 2026 18:14:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이젠 민간시설까지 때린다…선넘는 러·우크라 전쟁",
+      "link": "https://www.yna.co.kr/view/AKR20260806135800109",
+      "source": "연합뉴스 국제",
+      "ts": 1786006141000,
+      "pub": "Thu, 6 Aug 2026 17:49:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "레바논서 휴전 후 첫 이스라엘군 전사자…밤샘 보복 공습",
+      "link": "https://www.yna.co.kr/view/AKR20260806138100079",
+      "source": "연합뉴스 국제",
+      "ts": 1786005010000,
+      "pub": "Thu, 6 Aug 2026 17:30:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프 강제추방 정책, 납세자 1명당 2천358달러 부담\"",
+      "link": "https://www.yna.co.kr/view/AKR20260806133400009",
+      "source": "연합뉴스 국제",
+      "ts": 1786002587000,
+      "pub": "Thu, 6 Aug 2026 16:49:47 +0900",
       "sentiment": "neutral"
     },
     {
@@ -26,14 +50,6 @@
       "ts": 1785999316000,
       "pub": "Thu, 6 Aug 2026 15:55:16 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "AI 덕에 '수출 대박' 터졌는데…美 관세 '날벼락' 맞은 회사",
-      "link": "https://www.hankyung.com/article/202608068587i",
-      "source": "한국경제",
-      "ts": 1785997134000,
-      "pub": "Thu, 06 Aug 2026 15:18:54 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "美국무부 \"미국인 안전 위해 北여행금지 유지…대화 열려있어\"",
@@ -105,54 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785956395000,
       "pub": "Thu, 6 Aug 2026 03:59:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"우크라 화물기 근처에 폭발물 장착 드론\"…獨공항 '화들짝'(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260805155351098",
-      "source": "연합뉴스 국제",
-      "ts": 1785946778000,
-      "pub": "Thu, 6 Aug 2026 01:19:38 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "러 미사일 모두 놓친 우크라…\"방공망 지원 작년의 30% 수준\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260805135651109",
-      "source": "연합뉴스 국제",
-      "ts": 1785944441000,
-      "pub": "Thu, 6 Aug 2026 00:40:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 전용헬기 뜰때 인근 공항서도 여객기 이륙…아찔한 순간",
-      "link": "https://www.yna.co.kr/view/AKR20260806000700071",
-      "source": "연합뉴스 국제",
-      "ts": 1785944034000,
-      "pub": "Thu, 6 Aug 2026 00:33:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "EU \"러 동결자산서 얻은 수익 2조3천억원, 우크라에 지원\"",
-      "link": "https://www.yna.co.kr/view/AKR20260805164000098",
-      "source": "연합뉴스 국제",
-      "ts": 1785939519000,
-      "pub": "Wed, 5 Aug 2026 23:18:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 분노 산 측근 검사장, 백악관 달려가 '희생양' 호소\"",
-      "link": "https://www.yna.co.kr/view/AKR20260805162800071",
-      "source": "연합뉴스 국제",
-      "ts": 1785937830000,
-      "pub": "Wed, 5 Aug 2026 22:50:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘군, 레바논 남부 공습…\"헤즈볼라 휴전 위반\"",
-      "link": "https://www.yna.co.kr/view/AKR20260805163000079",
-      "source": "연합뉴스 국제",
-      "ts": 1785936901000,
-      "pub": "Wed, 5 Aug 2026 22:35:01 +0900",
       "sentiment": "neutral"
     }
   ]

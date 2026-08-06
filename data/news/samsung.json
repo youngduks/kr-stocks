@@ -1,8 +1,48 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-06T07:31:19.541Z",
-  "count": 6,
+  "updated_at": "2026-08-06T10:25:05.168Z",
+  "count": 9,
   "items": [
+    {
+      "title": "[포토] 갤럭시Z폴드8·플립8 7일 출시",
+      "link": "https://www.hankyung.com/article/2026080692461",
+      "source": "한국경제",
+      "ts": 1786007283000,
+      "pub": "Thu, 06 Aug 2026 18:08:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "머스크 \"메모리 수요 200%늘어도 생산 20% 증가\"…삼전닉스 호재?",
+      "link": "https://www.mt.co.kr/world/2026/08/06/2026080617310168010",
+      "source": "머니투데이",
+      "ts": 1786005875000,
+      "pub": "Thu, 06 Aug 2026 17:44:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"퇴사\" 인재에 \"남으면 1억 더\"…삼성전자가 던진 '당근 보따리' 보니",
+      "link": "https://www.mt.co.kr/industry/2026/08/06/2026080616482250819",
+      "source": "머니투데이",
+      "ts": 1786005000000,
+      "pub": "Thu, 06 Aug 2026 17:30:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"한국은 ETF 테스트베드…외국인 여전히 삼전닉스 주목\"",
+      "link": "https://www.mt.co.kr/stock/2026/08/06/2026080613563846659",
+      "source": "머니투데이",
+      "ts": 1786003910000,
+      "pub": "Thu, 06 Aug 2026 17:11:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 휘청에 코스피 또 변동성…골드만, '코스피 12,000' 유지(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260806094051008",
+      "source": "연합뉴스 경제",
+      "ts": 1786001421000,
+      "pub": "Thu, 6 Aug 2026 16:30:21 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"삼전·닉스 연말 순현금 375조원…엔비디아의 2배\"",
       "link": "https://www.yna.co.kr/view/AKR20260806113200009",
@@ -12,7 +52,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "하이닉스 10%대 폭락, 삼전 6.3%↓…외인·기관 모두 팔았다(종합)",
+      "title": "하이닉스 10%대 폭락, 삼전 6.3%↓…외인·기관 팔았다(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260806039351008",
       "source": "연합뉴스 경제",
       "ts": 1786000249000,
@@ -33,22 +73,6 @@
       "source": "연합뉴스 경제",
       "ts": 1785983693000,
       "pub": "Thu, 6 Aug 2026 11:34:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] SK하이닉스, 장초반 6%대 급락…삼성전자도 2.03%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260806039300008",
-      "source": "연합뉴스 경제",
-      "ts": 1785976234000,
-      "pub": "Thu, 6 Aug 2026 09:30:34 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"삼성전자·SK하이닉스, 재무건전성 유지속 주주환원 확대 검토\"",
-      "link": "https://www.yna.co.kr/view/AKR20260805164500072",
-      "source": "연합뉴스 국제",
-      "ts": 1785940875000,
-      "pub": "Wed, 5 Aug 2026 23:41:15 +0900",
       "sentiment": "neutral"
     }
   ]

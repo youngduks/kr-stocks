@@ -1,8 +1,72 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-06T07:31:19.541Z",
-  "count": 10,
+  "updated_at": "2026-08-06T10:25:05.169Z",
+  "count": 15,
   "items": [
+    {
+      "title": "노동硏, 취업자 증가폭 전망치 절반으로 하향…\"성장 반도체 편중\"",
+      "link": "https://www.yna.co.kr/view/AKR20260806102000530",
+      "source": "연합뉴스 경제",
+      "ts": 1786010401000,
+      "pub": "Thu, 6 Aug 2026 19:00:01 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "올 상반기 취업자 증가, 전망치 절반 수준…\"반도체 파급효과 한계\"",
+      "link": "https://www.mt.co.kr/economy/2026/08/06/2026080616165696748",
+      "source": "머니투데이",
+      "ts": 1786010400000,
+      "pub": "Thu, 06 Aug 2026 19:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "머스크 \"메모리 수요 200%늘어도 생산 20% 증가\"…삼전닉스 호재?",
+      "link": "https://www.mt.co.kr/world/2026/08/06/2026080617310168010",
+      "source": "머니투데이",
+      "ts": 1786005875000,
+      "pub": "Thu, 06 Aug 2026 17:44:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "에어퍼스트, 반도체용 ASU 국산화 착수…\"국내 환경에 최적화\"",
+      "link": "https://www.mt.co.kr/living/2026/08/06/2026080616311855458",
+      "source": "머니투데이",
+      "ts": 1786004630000,
+      "pub": "Thu, 06 Aug 2026 17:23:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'반도체 거리두기' 외인 이탈 코스피 4%대↓, 네이버 실적이 분수령",
+      "link": "https://www.mt.co.kr/stock/2026/08/06/2026080616185245944",
+      "source": "머니투데이",
+      "ts": 1786004426000,
+      "pub": "Thu, 06 Aug 2026 17:20:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"AI투자·반도체실적 기대 안되네\"…닛케이 0.93%↓[Asia마감]",
+      "link": "https://www.mt.co.kr/world/2026/08/06/2026080616392696281",
+      "source": "머니투데이",
+      "ts": 1786004085000,
+      "pub": "Thu, 06 Aug 2026 17:14:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성 상위 7%의 비밀 '특별인센'…하이닉스 블랙홀 막을까",
+      "link": "https://www.mt.co.kr/industry/2026/08/06/2026080616401619375",
+      "source": "머니투데이",
+      "ts": 1786003800000,
+      "pub": "Thu, 06 Aug 2026 17:10:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"엔비디아 칩만 쓴다\" 머스크 발언에 AMD CEO 의연한 반응",
+      "link": "https://www.yna.co.kr/view/AKR20260806113400009",
+      "source": "연합뉴스 국제",
+      "ts": 1786001246000,
+      "pub": "Thu, 6 Aug 2026 16:27:26 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"삼전·닉스 연말 순현금 375조원…엔비디아의 2배\"",
       "link": "https://www.yna.co.kr/view/AKR20260806113200009",
@@ -12,20 +76,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "하이닉스 10%대 폭락, 삼전 6.3%↓…외인·기관 모두 팔았다(종합)",
+      "title": "하이닉스 10%대 폭락, 삼전 6.3%↓…외인·기관 팔았다(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260806039351008",
       "source": "연합뉴스 경제",
       "ts": 1786000249000,
       "pub": "Thu, 6 Aug 2026 16:10:49 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "[단독] 구광모, 젠슨 황 초청에 답방…엔비디아 본사 방문",
-      "link": "https://www.hankyung.com/article/202608068488i",
-      "source": "한국경제",
-      "ts": 1785997095000,
-      "pub": "Thu, 06 Aug 2026 15:18:15 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "대만 TSMC, 올해 4분기 3나노 생산량 18만장 예상",
@@ -60,27 +116,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[특징주] SK하이닉스, 장초반 6%대 급락…삼성전자도 2.03%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260806039300008",
-      "source": "연합뉴스 경제",
-      "ts": 1785976234000,
-      "pub": "Thu, 6 Aug 2026 09:30:34 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "\"세계 소버린AI 92%가 엔비디아 종속 '역설'…韓은 다변화 시도\"",
       "link": "https://www.yna.co.kr/view/AKR20260806016000091",
       "source": "연합뉴스 국제",
       "ts": 1785970644000,
       "pub": "Thu, 6 Aug 2026 07:57:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼성전자·SK하이닉스, 재무건전성 유지속 주주환원 확대 검토\"",
-      "link": "https://www.yna.co.kr/view/AKR20260805164500072",
-      "source": "연합뉴스 국제",
-      "ts": 1785940875000,
-      "pub": "Wed, 5 Aug 2026 23:41:15 +0900",
       "sentiment": "neutral"
     }
   ]

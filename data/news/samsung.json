@@ -1,46 +1,46 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-05T23:45:38.026Z",
-  "count": 8,
+  "updated_at": "2026-08-06T01:22:39.561Z",
+  "count": 7,
   "items": [
+    {
+      "title": "[특징주] SK하이닉스, 장초반 6%대 급락…삼성전자도 2.03%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260806039300008",
+      "source": "연합뉴스 경제",
+      "ts": 1785976234000,
+      "pub": "Thu, 6 Aug 2026 09:30:34 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "삼성 갤럭시 Z 폴드8·플립8 내일 공식 출시",
+      "link": "https://www.yna.co.kr/view/AKR20260806024700017",
+      "source": "연합뉴스 경제",
+      "ts": 1785974224000,
+      "pub": "Thu, 6 Aug 2026 08:57:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 개미들 좋겠네…'역대급 배당' 약속에 두근두근",
+      "link": "https://www.hankyung.com/article/2026080676716",
+      "source": "한국경제",
+      "ts": 1785974036000,
+      "pub": "Thu, 06 Aug 2026 08:53:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'갤럭시 예쁘다 예뻐' 1030마저 갈아탔다…사전판매 '신기록'",
+      "link": "https://www.hankyung.com/article/202608067639g",
+      "source": "한국경제",
+      "ts": 1785973172000,
+      "pub": "Thu, 06 Aug 2026 08:39:32 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성전자·SK하이닉스 \"주주환원 확대 방안 검토\"",
       "link": "https://www.hankyung.com/article/202608067624H",
       "source": "한국경제",
       "ts": 1785972986000,
       "pub": "Thu, 06 Aug 2026 08:36:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 갤럭시 Z폴드8 시리즈·갤럭시 워치 9·울트라2 국내 공식 출시",
-      "link": "https://www.mt.co.kr/tech/2026/08/06/2026080608071943563",
-      "source": "머니투데이",
-      "ts": 1785972232000,
-      "pub": "Thu, 06 Aug 2026 08:23:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI가속기 '위'에 HBM 쌓는다… 삼성, 차세대 3D 메모리 공개",
-      "link": "https://www.mt.co.kr/industry/2026/08/06/2026080519571646985",
-      "source": "머니투데이",
-      "ts": 1785956400000,
-      "pub": "Thu, 06 Aug 2026 04:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "기억하세요… 2031년까지 '메모리' 최강국은 韓",
-      "link": "https://www.mt.co.kr/industry/2026/08/06/2026080520092474586",
-      "source": "머니투데이",
-      "ts": 1785953400000,
-      "pub": "Thu, 06 Aug 2026 03:10:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "샌디스크의 AI 메모리 승부수…주가 부활 노리는 오라클[박신영의 개장전 요것만]",
-      "link": "https://www.hankyung.com/article/202608067359i",
-      "source": "한국경제",
-      "ts": 1785949535000,
-      "pub": "Thu, 06 Aug 2026 02:05:35 +0900",
       "sentiment": "neutral"
     },
     {
@@ -57,14 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785928906000,
       "pub": "Wed, 5 Aug 2026 20:21:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[르포] \"모형이라도 찍자\"…삼성전자 새 3D메모리 'zHBM'에 셔터 세례",
-      "link": "https://www.yna.co.kr/view/AKR20260805083800091",
-      "source": "연합뉴스 국제",
-      "ts": 1785905497000,
-      "pub": "Wed, 5 Aug 2026 13:51:37 +0900",
       "sentiment": "neutral"
     }
   ]

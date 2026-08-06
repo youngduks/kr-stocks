@@ -1,30 +1,38 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-05T23:45:38.025Z",
-  "count": 25,
+  "updated_at": "2026-08-06T01:22:39.560Z",
+  "count": 23,
   "items": [
+    {
+      "title": "이란, 걸프국 인질 삼아 '불바다' 경고…트럼프 공습 보류",
+      "link": "https://www.yna.co.kr/view/AKR20260806025400009",
+      "source": "연합뉴스 국제",
+      "ts": 1785978338000,
+      "pub": "Thu, 6 Aug 2026 10:05:38 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프 \"이란과 합의 원해…사람 죽이고 싶지 않다\"",
+      "link": "https://www.hankyung.com/article/2026080677337",
+      "source": "한국경제",
+      "ts": 1785974391000,
+      "pub": "Thu, 06 Aug 2026 08:59:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 한국계 진보 주지사 후보에 \"공산주의\" 색깔론 공세",
+      "link": "https://www.yna.co.kr/view/AKR20260806023200071",
+      "source": "연합뉴스 국제",
+      "ts": 1785973483000,
+      "pub": "Thu, 6 Aug 2026 08:44:43 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"이란과 합의하고 싶다…살상하고 싶지 않아\"",
       "link": "https://www.yna.co.kr/view/AKR20260806017200071",
       "source": "연합뉴스 국제",
       "ts": 1785970187000,
       "pub": "Thu, 6 Aug 2026 07:49:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "금리 동결 지지했던 연준 이사 \"인플레 너무 높아...인상 준비 마쳤다\"",
-      "link": "https://www.mt.co.kr/world/2026/08/06/2026080606581831755",
-      "source": "머니투데이",
-      "ts": 1785969903000,
-      "pub": "Thu, 06 Aug 2026 07:45:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 수입 폴리실리콘 15% 관세 검토\"…韓 업계 긴장",
-      "link": "https://www.hankyung.com/article/2026080674417",
-      "source": "한국경제",
-      "ts": 1785968817000,
-      "pub": "Thu, 06 Aug 2026 07:26:57 +0900",
       "sentiment": "neutral"
     },
     {
@@ -49,14 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785956395000,
       "pub": "Thu, 6 Aug 2026 03:59:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"호르무즈 곧 개방, 이란 불응땐 강공\"",
-      "link": "https://www.mt.co.kr/world/2026/08/06/2026080520023770790",
-      "source": "머니투데이",
-      "ts": 1785953700000,
-      "pub": "Thu, 06 Aug 2026 03:15:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -185,22 +185,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785909708000,
       "pub": "Wed, 5 Aug 2026 15:01:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 \"러, 서부지역에 북한 미사일 부대 배치\"",
-      "link": "https://www.yna.co.kr/view/AKR20260805088200009",
-      "source": "연합뉴스 국제",
-      "ts": 1785904402000,
-      "pub": "Wed, 5 Aug 2026 13:33:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"호르무즈 곧 열릴것…그렇지 않으면 이란 강력 공격\"",
-      "link": "https://www.yna.co.kr/view/AKR20260805084900009",
-      "source": "연합뉴스 국제",
-      "ts": 1785902795000,
-      "pub": "Wed, 5 Aug 2026 13:06:35 +0900",
       "sentiment": "neutral"
     }
   ]

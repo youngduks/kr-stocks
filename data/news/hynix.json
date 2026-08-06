@@ -1,8 +1,40 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-05T23:45:38.026Z",
-  "count": 21,
+  "updated_at": "2026-08-06T01:22:39.562Z",
+  "count": 12,
   "items": [
+    {
+      "title": "반도체 호황에 경상흑자 역대 최대…상반기 2천억달러 육박(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260806017551002",
+      "source": "연합뉴스 경제",
+      "ts": 1785977957000,
+      "pub": "Thu, 6 Aug 2026 09:59:17 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "SK하이닉스, 프리마켓서 개장직후 또 하한가…시초가 논란 지속",
+      "link": "https://www.yna.co.kr/view/AKR20260806047200008",
+      "source": "연합뉴스 경제",
+      "ts": 1785977821000,
+      "pub": "Thu, 6 Aug 2026 09:57:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "머스크 \"엔비디아칩만 쓴다\"…엔비디아엔 228조원 추가 매출",
+      "link": "https://www.yna.co.kr/view/AKR20260806029800009",
+      "source": "연합뉴스 국제",
+      "ts": 1785976836000,
+      "pub": "Thu, 6 Aug 2026 09:40:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] SK하이닉스, 장초반 6%대 급락…삼성전자도 2.03%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260806039300008",
+      "source": "연합뉴스 경제",
+      "ts": 1785976234000,
+      "pub": "Thu, 6 Aug 2026 09:30:34 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "삼성전자·SK하이닉스 \"주주환원 확대 방안 검토\"",
       "link": "https://www.hankyung.com/article/202608067624H",
@@ -12,27 +44,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"반도체 이후 대비\"…자동차·바이오 등 주력 산업에 AI 입힌다",
-      "link": "https://www.mt.co.kr/economy/2026/08/06/2026080517302279988",
-      "source": "머니투데이",
-      "ts": 1785972600000,
-      "pub": "Thu, 06 Aug 2026 08:30:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "'반도체 수출 호조'…6월 경상수지 497.3억달러 흑자",
       "link": "https://www.hankyung.com/article/2026080675527",
       "source": "한국경제",
       "ts": 1785971384000,
       "pub": "Thu, 06 Aug 2026 08:09:44 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "경상수지 두 달 연속 역대 최대…반도체 수출 197% 급증",
-      "link": "https://www.mt.co.kr/economy/2026/08/06/2026080607101926489",
-      "source": "머니투데이",
-      "ts": 1785970800000,
-      "pub": "Thu, 06 Aug 2026 08:00:00 +0900",
       "sentiment": "positive"
     },
     {
@@ -49,78 +65,6 @@
       "source": "연합뉴스 국제",
       "ts": 1785970644000,
       "pub": "Thu, 6 Aug 2026 07:57:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"반도체 수급 충격 일단락…실적 장세 본격화\"-KB",
-      "link": "https://www.hankyung.com/article/2026080674856",
-      "source": "한국경제",
-      "ts": 1785969662000,
-      "pub": "Thu, 06 Aug 2026 07:41:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"유럽 데이터센터에 토종 반도체 깔린다\"...퓨리오사AI, 8800장 공급",
-      "link": "https://www.mt.co.kr/future/2026/08/06/2026080515374468314",
-      "source": "머니투데이",
-      "ts": 1785963600000,
-      "pub": "Thu, 06 Aug 2026 06:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "K-위성 마지막 퍼즐 맞춘다…우주용 반도체 '극일' 나선 스타트업",
-      "link": "https://www.mt.co.kr/future/2026/08/06/2026080422352215811",
-      "source": "머니투데이",
-      "ts": 1785960000000,
-      "pub": "Thu, 06 Aug 2026 05:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[사설]K반도체, 정부가 '뒷배'돼야 한다",
-      "link": "https://www.mt.co.kr/opinion/2026/08/06/2026080515140041284",
-      "source": "머니투데이",
-      "ts": 1785956700000,
-      "pub": "Thu, 06 Aug 2026 04:05:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "월가 IB 11곳 \"SK하이닉스ADR 사라\"",
-      "link": "https://www.mt.co.kr/world/2026/08/06/2026080520003799069",
-      "source": "머니투데이",
-      "ts": 1785956460000,
-      "pub": "Thu, 06 Aug 2026 04:01:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI가속기 '위'에 HBM 쌓는다… 삼성, 차세대 3D 메모리 공개",
-      "link": "https://www.mt.co.kr/industry/2026/08/06/2026080519571646985",
-      "source": "머니투데이",
-      "ts": 1785956400000,
-      "pub": "Thu, 06 Aug 2026 04:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "기억하세요… 2031년까지 '메모리' 최강국은 韓",
-      "link": "https://www.mt.co.kr/industry/2026/08/06/2026080520092474586",
-      "source": "머니투데이",
-      "ts": 1785953400000,
-      "pub": "Thu, 06 Aug 2026 03:10:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "샌디스크의 AI 메모리 승부수…주가 부활 노리는 오라클[박신영의 개장전 요것만]",
-      "link": "https://www.hankyung.com/article/202608067359i",
-      "source": "한국경제",
-      "ts": 1785949535000,
-      "pub": "Thu, 06 Aug 2026 02:05:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "머스크가 쏘아올린 엔비디아 주가[박신영의 개장전 요것만]",
-      "link": "https://www.hankyung.com/article/202608067357i",
-      "source": "한국경제",
-      "ts": 1785948268000,
-      "pub": "Thu, 06 Aug 2026 01:44:28 +0900",
       "sentiment": "neutral"
     },
     {
@@ -146,22 +90,6 @@
       "ts": 1785910138000,
       "pub": "Wed, 5 Aug 2026 15:08:58 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[르포] \"모형이라도 찍자\"…삼성전자 새 3D메모리 'zHBM'에 셔터 세례",
-      "link": "https://www.yna.co.kr/view/AKR20260805083800091",
-      "source": "연합뉴스 국제",
-      "ts": 1785905497000,
-      "pub": "Wed, 5 Aug 2026 13:51:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "대만 실리콘 웨이퍼 제조업체 \"반도체 중장기 전망 긍정적\"",
-      "link": "https://www.yna.co.kr/view/AKR20260805084400009",
-      "source": "연합뉴스 국제",
-      "ts": 1785902213000,
-      "pub": "Wed, 5 Aug 2026 12:56:53 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "'폭락→폭등' 후 쉬어가던 코스피, 美반도체 훈풍에 상승 재개",

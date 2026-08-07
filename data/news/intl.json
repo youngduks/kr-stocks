@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-07T02:01:39.868Z",
-  "count": 23,
+  "updated_at": "2026-08-07T04:45:52.345Z",
+  "count": 21,
   "items": [
+    {
+      "title": "워시, 美 국채금리 급등에 '소통 실수' 인정하지만 연준개혁 고수",
+      "link": "https://www.mt.co.kr/world/2026/08/07/2026080708471336967",
+      "source": "머니투데이",
+      "ts": 1786069835000,
+      "pub": "Fri, 07 Aug 2026 11:30:35 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "트럼프 행정부, AI 모델 사전심사 대상서 개방형 제외키로",
+      "link": "https://www.yna.co.kr/view/AKR20260807059500009",
+      "source": "연합뉴스 국제",
+      "ts": 1786067735000,
+      "pub": "Fri, 7 Aug 2026 10:55:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프가 세워준 바리케이트\"…美 관세 발표에 오히려 '랠리'",
+      "link": "https://www.hankyung.com/article/202608070120i",
+      "source": "한국경제",
+      "ts": 1786067340000,
+      "pub": "Fri, 07 Aug 2026 10:49:00 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "\"美 정치권서 이스라엘 지원 '흔들'…고착 흐름\"",
       "link": "https://www.yna.co.kr/view/AKR20260807048700009",
@@ -17,22 +41,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786063304000,
       "pub": "Fri, 7 Aug 2026 09:41:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"폴리실리콘 파생상품에 관세\"…한화솔루션 20%↑",
-      "link": "https://www.hankyung.com/article/2026080700086",
-      "source": "한국경제",
-      "ts": 1786061822000,
-      "pub": "Fri, 07 Aug 2026 09:17:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘, 레바논 추가 철군 유보…美 중재 협상 난항",
-      "link": "https://www.hankyung.com/article/2026080798777",
-      "source": "한국경제",
-      "ts": 1786059177000,
-      "pub": "Fri, 07 Aug 2026 08:32:57 +0900",
       "sentiment": "neutral"
     },
     {
@@ -161,30 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786014292000,
       "pub": "Thu, 6 Aug 2026 20:04:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이젠 민간시설까지 때린다…선넘는 러·우크라 전쟁",
-      "link": "https://www.yna.co.kr/view/AKR20260806135800109",
-      "source": "연합뉴스 국제",
-      "ts": 1786006141000,
-      "pub": "Thu, 6 Aug 2026 17:49:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "레바논서 휴전 후 첫 이스라엘군 전사자…밤샘 보복 공습",
-      "link": "https://www.yna.co.kr/view/AKR20260806138100079",
-      "source": "연합뉴스 국제",
-      "ts": 1786005010000,
-      "pub": "Thu, 6 Aug 2026 17:30:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 강제추방 정책, 납세자 1명당 2천358달러 부담\"",
-      "link": "https://www.yna.co.kr/view/AKR20260806133400009",
-      "source": "연합뉴스 국제",
-      "ts": 1786002587000,
-      "pub": "Thu, 6 Aug 2026 16:49:47 +0900",
       "sentiment": "neutral"
     }
   ]

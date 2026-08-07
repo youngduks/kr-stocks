@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-07T02:01:39.869Z",
-  "count": 10,
+  "updated_at": "2026-08-07T04:45:52.346Z",
+  "count": 7,
   "items": [
+    {
+      "title": "[더벨]엑스플러스, 갤럭시 Z 플립8·폴드8 전용 액세서리 출시",
+      "link": "https://www.mt.co.kr/stock/2026/08/07/2026080711449655140",
+      "source": "머니투데이",
+      "ts": 1786070837000,
+      "pub": "Fri, 07 Aug 2026 11:47:17 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"엔비디아, 차세대 '루빈 울트라'에 메모리 축소 검토\"",
       "link": "https://www.yna.co.kr/view/AKR20260807043700009",
@@ -20,14 +28,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "코스피, 외인 '사자'에 전날 급락 딛고 6400선 회복…삼전닉스 강세",
-      "link": "https://www.hankyung.com/article/2026080700756",
-      "source": "한국경제",
-      "ts": 1786062708000,
-      "pub": "Fri, 07 Aug 2026 09:31:48 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "\"AI에이전트, 세계인구보다 많아질것…메모리 가격기준 바뀐다\"",
       "link": "https://www.yna.co.kr/view/AKR20260807028600091",
       "source": "연합뉴스 국제",
@@ -36,27 +36,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "초고수의 선택은 다시 '삼전닉스'…팔아치운 종목은?",
-      "link": "https://www.hankyung.com/article/202608079924i",
-      "source": "한국경제",
-      "ts": 1786060807000,
-      "pub": "Fri, 07 Aug 2026 09:00:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "삼전닉스 휘청에 코스피 또 변동성…골드만, '코스피 12,000' 유지(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260806094051008",
       "source": "연합뉴스 경제",
       "ts": 1786001421000,
       "pub": "Thu, 6 Aug 2026 16:30:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼전·닉스 연말 순현금 375조원…엔비디아의 2배\"",
-      "link": "https://www.yna.co.kr/view/AKR20260806113200009",
-      "source": "연합뉴스 국제",
-      "ts": 1786000612000,
-      "pub": "Thu, 6 Aug 2026 16:16:52 +0900",
       "sentiment": "neutral"
     },
     {
@@ -73,14 +57,6 @@
       "source": "연합뉴스 경제",
       "ts": 1785993766000,
       "pub": "Thu, 6 Aug 2026 14:22:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 넷리스트와 특허분쟁 종료…5년간 전략적 제휴",
-      "link": "https://www.yna.co.kr/view/AKR20260806077800003",
-      "source": "연합뉴스 경제",
-      "ts": 1785983693000,
-      "pub": "Thu, 6 Aug 2026 11:34:53 +0900",
       "sentiment": "neutral"
     }
   ]

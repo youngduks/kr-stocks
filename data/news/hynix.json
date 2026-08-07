@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-07T02:01:39.870Z",
+  "updated_at": "2026-08-07T04:45:52.346Z",
   "count": 12,
   "items": [
+    {
+      "title": "태양광·반도체·이차전지 국내 생산시 2036년까지 세액공제(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260807025651003",
+      "source": "연합뉴스 경제",
+      "ts": 1786069017000,
+      "pub": "Fri, 7 Aug 2026 11:16:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "데이터 특성 맞춰 반응하는 '카멜레온' AI 반도체… 오류 40분 1 줄여",
+      "link": "https://www.mt.co.kr/tech/2026/08/07/2026080710192646060",
+      "source": "머니투데이",
+      "ts": 1786068339000,
+      "pub": "Fri, 07 Aug 2026 11:05:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체·재생e·AI로봇 '국내생산세액공제'…지방엔 더 큰 혜택",
+      "link": "https://www.mt.co.kr/economy/2026/08/07/2026080710323463013",
+      "source": "머니투데이",
+      "ts": 1786067800000,
+      "pub": "Fri, 07 Aug 2026 10:56:40 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"엔비디아, 차세대 '루빈 울트라'에 메모리 축소 검토\"",
       "link": "https://www.yna.co.kr/view/AKR20260807043700009",
@@ -36,14 +60,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"반도체 고점 회복 자신 없다…내년부터 진짜 조심\"",
-      "link": "https://www.hankyung.com/article/202608043454i",
-      "source": "한국경제",
-      "ts": 1786058405000,
-      "pub": "Fri, 07 Aug 2026 08:20:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "AMD, AI 추론용 맞춤칩 스타트업 인수…엔비디아 추격 가속",
       "link": "https://www.yna.co.kr/view/AKR20260807012900009",
       "source": "연합뉴스 국제",
@@ -74,22 +90,6 @@
       "ts": 1786010401000,
       "pub": "Thu, 6 Aug 2026 19:00:01 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "\"엔비디아 칩만 쓴다\" 머스크 발언에 AMD CEO 의연한 반응",
-      "link": "https://www.yna.co.kr/view/AKR20260806113400009",
-      "source": "연합뉴스 국제",
-      "ts": 1786001246000,
-      "pub": "Thu, 6 Aug 2026 16:27:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼전·닉스 연말 순현금 375조원…엔비디아의 2배\"",
-      "link": "https://www.yna.co.kr/view/AKR20260806113200009",
-      "source": "연합뉴스 국제",
-      "ts": 1786000612000,
-      "pub": "Thu, 6 Aug 2026 16:16:52 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "하이닉스 10%대 폭락, 삼전 6.3%↓…외인·기관 팔았다(종합)",

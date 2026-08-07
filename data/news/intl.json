@@ -1,22 +1,30 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-07T12:36:46.879Z",
-  "count": 18,
+  "updated_at": "2026-08-07T14:04:01.124Z",
+  "count": 13,
   "items": [
     {
-      "title": "코스피, 2거래일 연속 하락… 美 고용지표·SK하닉 배당금 주목",
-      "link": "https://www.mt.co.kr/stock/2026/08/07/2026080716242529311",
-      "source": "머니투데이",
-      "ts": 1786092129000,
-      "pub": "Fri, 07 Aug 2026 17:42:09 +0900",
+      "title": "뉴욕증시, 비농업 고용지표 소화하며 혼조 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260807163500009",
+      "source": "연합뉴스 국제",
+      "ts": 1786110544000,
+      "pub": "Fri, 7 Aug 2026 22:49:04 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "美 고용지표 앞두고 숨고르기 ...닛케이 0.12%↓[Asia마감]",
-      "link": "https://www.mt.co.kr/world/2026/08/07/2026080716053334030",
-      "source": "머니투데이",
-      "ts": 1786088636000,
-      "pub": "Fri, 07 Aug 2026 16:43:56 +0900",
+      "title": "'트럼프 충성파' 美법무 인준 무산 가능성…與 1명 추가 반대",
+      "link": "https://www.yna.co.kr/view/AKR20260807159300071",
+      "source": "연합뉴스 국제",
+      "ts": 1786109406000,
+      "pub": "Fri, 7 Aug 2026 22:30:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"푸틴, 전쟁 장기화 속 정보기관에 의존…통제 강화\"",
+      "link": "https://www.yna.co.kr/view/AKR20260807158700108",
+      "source": "연합뉴스 국제",
+      "ts": 1786108473000,
+      "pub": "Fri, 7 Aug 2026 22:14:33 +0900",
       "sentiment": "neutral"
     },
     {
@@ -97,54 +105,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786049478000,
       "pub": "Fri, 7 Aug 2026 05:51:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란전쟁 곧 끝날 것…미군 막대한 규모 탄약 보유\"",
-      "link": "https://www.yna.co.kr/view/AKR20260807007400071",
-      "source": "연합뉴스 국제",
-      "ts": 1786049311000,
-      "pub": "Fri, 7 Aug 2026 05:48:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 협상단장, 트럼프의 '말바꾸기' 조롱…\"무한 반복 쇼 외교\"",
-      "link": "https://www.yna.co.kr/view/AKR20260807006900079",
-      "source": "연합뉴스 국제",
-      "ts": 1786048611000,
-      "pub": "Fri, 7 Aug 2026 05:36:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '원정출산 아기에 美시민권 부여 금지' 행정명령 서명",
-      "link": "https://www.yna.co.kr/view/AKR20260807006600071",
-      "source": "연합뉴스 국제",
-      "ts": 1786048255000,
-      "pub": "Fri, 7 Aug 2026 05:30:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 탄약부족 탓 '美국방 질책' 보도에 \"가짜뉴스·반역\"",
-      "link": "https://www.yna.co.kr/view/AKR20260807004600071",
-      "source": "연합뉴스 국제",
-      "ts": 1786047903000,
-      "pub": "Fri, 7 Aug 2026 05:25:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프, 폴리실리콘 산업 보호 포고령 서명",
-      "link": "https://www.yna.co.kr/view/AKR20260807006500071",
-      "source": "연합뉴스 국제",
-      "ts": 1786047724000,
-      "pub": "Fri, 7 Aug 2026 05:22:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 '美 원정출산 금지' 행정명령 서명",
-      "link": "https://www.yna.co.kr/view/AKR20260807006400071",
-      "source": "연합뉴스 국제",
-      "ts": 1786047529000,
-      "pub": "Fri, 7 Aug 2026 05:18:49 +0900",
       "sentiment": "neutral"
     }
   ]

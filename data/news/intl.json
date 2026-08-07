@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-06T23:47:47.668Z",
-  "count": 24,
+  "updated_at": "2026-08-07T02:01:39.868Z",
+  "count": 23,
   "items": [
+    {
+      "title": "\"美 정치권서 이스라엘 지원 '흔들'…고착 흐름\"",
+      "link": "https://www.yna.co.kr/view/AKR20260807048700009",
+      "source": "연합뉴스 국제",
+      "ts": 1786064739000,
+      "pub": "Fri, 7 Aug 2026 10:05:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美, '반도체·태양광 핵심 소재' 파생제품에 15% 추가관세(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260807011251071",
+      "source": "연합뉴스 국제",
+      "ts": 1786063304000,
+      "pub": "Fri, 7 Aug 2026 09:41:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"폴리실리콘 파생상품에 관세\"…한화솔루션 20%↑",
+      "link": "https://www.hankyung.com/article/2026080700086",
+      "source": "한국경제",
+      "ts": 1786061822000,
+      "pub": "Fri, 07 Aug 2026 09:17:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘, 레바논 추가 철군 유보…美 중재 협상 난항",
+      "link": "https://www.hankyung.com/article/2026080798777",
+      "source": "한국경제",
+      "ts": 1786059177000,
+      "pub": "Fri, 07 Aug 2026 08:32:57 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이스라엘, 레바논에 약속했던 철군 거부…美중재 삐그덕",
       "link": "https://www.yna.co.kr/view/AKR20260807020600009",
@@ -25,30 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786052381000,
       "pub": "Fri, 7 Aug 2026 06:39:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과의 전쟁 곧 끝날 것\"…탄약 부족 보도엔 반박",
-      "link": "https://www.hankyung.com/article/2026080796517",
-      "source": "한국경제",
-      "ts": 1786052280000,
-      "pub": "Fri, 07 Aug 2026 06:38:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '원정출산 아기 시민권 제한' 행정명령 서명",
-      "link": "https://www.hankyung.com/article/2026080796377",
-      "source": "한국경제",
-      "ts": 1786051059000,
-      "pub": "Fri, 07 Aug 2026 06:17:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美, 폴리실리콘 파생제품에 15% 관세 부과…120일 뒤 발효",
-      "link": "https://www.hankyung.com/article/2026080796447",
-      "source": "한국경제",
-      "ts": 1786050817000,
-      "pub": "Fri, 07 Aug 2026 06:13:37 +0900",
       "sentiment": "neutral"
     },
     {
@@ -177,22 +185,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786002587000,
       "pub": "Thu, 6 Aug 2026 16:49:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"탄약 왜 부족한거야\" 트럼프 '이란전 무기고갈' 국방장관 질책",
-      "link": "https://www.yna.co.kr/view/AKR20260806122200009",
-      "source": "연합뉴스 국제",
-      "ts": 1785999569000,
-      "pub": "Thu, 6 Aug 2026 15:59:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 연준의장 수시로 전화…대통령-중앙은행 거리두기 이탈",
-      "link": "https://www.yna.co.kr/view/AKR20260806095800009",
-      "source": "연합뉴스 국제",
-      "ts": 1785999316000,
-      "pub": "Thu, 6 Aug 2026 15:55:16 +0900",
       "sentiment": "neutral"
     }
   ]

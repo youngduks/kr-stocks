@@ -1,7 +1,7 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-07T14:04:01.125Z",
-  "count": 6,
+  "updated_at": "2026-08-07T15:42:09.771Z",
+  "count": 7,
   "items": [
     {
       "title": "삼전닉스 레버리지 상장심사기간 29일…\"절반 단축\"·\"사실아냐\"",
@@ -17,6 +17,14 @@
       "source": "한국경제",
       "ts": 1786104001000,
       "pub": "Fri, 07 Aug 2026 21:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스, 용인·청주 추가 팹에 54조 투자…AI 메모리 수요 대응",
+      "link": "https://www.mt.co.kr/industry/2026/08/07/2026080716263059184",
+      "source": "머니투데이",
+      "ts": 1786089646000,
+      "pub": "Fri, 07 Aug 2026 17:00:46 +0900",
       "sentiment": "neutral"
     },
     {

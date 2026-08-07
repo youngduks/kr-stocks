@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-07T14:04:01.124Z",
-  "count": 13,
+  "updated_at": "2026-08-07T15:42:09.770Z",
+  "count": 14,
   "items": [
+    {
+      "title": "트럼프 \"중국의 AI·암호화폐 장악 안돼…시진핑과 논의할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260808000800071",
+      "source": "연합뉴스 국제",
+      "ts": 1786116937000,
+      "pub": "Sat, 8 Aug 2026 00:35:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '탄약부족' 보도에 격노…\"'누가 흘리나' 색출 지시\"",
+      "link": "https://www.yna.co.kr/view/AKR20260807164000071",
+      "source": "연합뉴스 국제",
+      "ts": 1786115272000,
+      "pub": "Sat, 8 Aug 2026 00:07:52 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "뉴욕증시, 비농업 고용지표 소화하며 혼조 출발",
       "link": "https://www.yna.co.kr/view/AKR20260807163500009",
@@ -20,11 +36,35 @@
       "sentiment": "neutral"
     },
     {
+      "title": "美 7월 비농업 일자리 2만3000명 감소…예상 밑돈 '고용 쇼크'",
+      "link": "https://www.mt.co.kr/world/2026/08/07/2026080722063115614",
+      "source": "머니투데이",
+      "ts": 1786108972000,
+      "pub": "Fri, 07 Aug 2026 22:22:52 +0900",
+      "sentiment": "negative"
+    },
+    {
       "title": "\"푸틴, 전쟁 장기화 속 정보기관에 의존…통제 강화\"",
       "link": "https://www.yna.co.kr/view/AKR20260807158700108",
       "source": "연합뉴스 국제",
       "ts": 1786108473000,
       "pub": "Fri, 7 Aug 2026 22:14:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, 2거래일 연속 하락… 美 고용지표·SK하닉 배당금 주목",
+      "link": "https://www.mt.co.kr/stock/2026/08/07/2026080716242529311",
+      "source": "머니투데이",
+      "ts": 1786092129000,
+      "pub": "Fri, 07 Aug 2026 17:42:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 고용지표 앞두고 숨고르기 ...닛케이 0.12%↓[Asia마감]",
+      "link": "https://www.mt.co.kr/world/2026/08/07/2026080716053334030",
+      "source": "머니투데이",
+      "ts": 1786088636000,
+      "pub": "Fri, 07 Aug 2026 16:43:56 +0900",
       "sentiment": "neutral"
     },
     {
@@ -73,38 +113,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786058385000,
       "pub": "Fri, 7 Aug 2026 08:19:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '원정출산 아기에 美시민권 부여 금지' 행정명령 서명(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260807006651071",
-      "source": "연합뉴스 국제",
-      "ts": 1786055132000,
-      "pub": "Fri, 7 Aug 2026 07:25:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '반도체 핵심 원료' 폴리실리콘 파생상품에 15% 관세",
-      "link": "https://www.yna.co.kr/view/AKR20260807011200071",
-      "source": "연합뉴스 국제",
-      "ts": 1786052381000,
-      "pub": "Fri, 7 Aug 2026 06:39:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 美, 폴리실리콘 파생제품에 15% 관세 부과…120일 뒤 발효",
-      "link": "https://www.yna.co.kr/view/AKR20260807008700071",
-      "source": "연합뉴스 국제",
-      "ts": 1786050511000,
-      "pub": "Fri, 7 Aug 2026 06:08:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '반도체 핵심원료' 폴리실리콘 산업보호 포고령",
-      "link": "https://www.yna.co.kr/view/AKR20260807007200071",
-      "source": "연합뉴스 국제",
-      "ts": 1786049478000,
-      "pub": "Fri, 7 Aug 2026 05:51:18 +0900",
       "sentiment": "neutral"
     }
   ]

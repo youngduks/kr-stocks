@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-07T06:03:34.477Z",
+  "updated_at": "2026-08-07T08:04:41.992Z",
   "count": 20,
   "items": [
+    {
+      "title": "美 고용지표 앞두고 숨고르기 ...닛케이 0.12%↓[Asia마감]",
+      "link": "https://www.mt.co.kr/world/2026/08/07/2026080716053334030",
+      "source": "머니투데이",
+      "ts": 1786088636000,
+      "pub": "Fri, 07 Aug 2026 16:43:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정상회담 앞 미중 무역갈등 고조…시진핑 방미 영향받나",
+      "link": "https://www.yna.co.kr/view/AKR20260807116700009",
+      "source": "연합뉴스 국제",
+      "ts": 1786086556000,
+      "pub": "Fri, 7 Aug 2026 16:09:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 금리 인상? 인하론 대두되는 이유…오늘 밤 고용지표 주목[오미주]",
+      "link": "https://www.mt.co.kr/world/2026/08/07/2026080711405581224",
+      "source": "머니투데이",
+      "ts": 1786086300000,
+      "pub": "Fri, 07 Aug 2026 16:05:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중국 태양광에 '관세 장벽' 세운 트럼프…\"큰 수혜\" 韓 업체 볕든다",
+      "link": "https://www.mt.co.kr/industry/2026/08/07/2026080714435027623",
+      "source": "머니투데이",
+      "ts": 1786081890000,
+      "pub": "Fri, 07 Aug 2026 14:51:30 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 백신 음모론 밀어붙이나…자폐증 연관성 연구 명령할 듯",
       "link": "https://www.yna.co.kr/view/AKR20260807075600075",
@@ -18,14 +50,6 @@
       "ts": 1786067735000,
       "pub": "Fri, 7 Aug 2026 10:55:35 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프가 세워준 바리케이트\"…美 관세 발표에 오히려 '랠리'",
-      "link": "https://www.hankyung.com/article/202608070120i",
-      "source": "한국경제",
-      "ts": 1786067340000,
-      "pub": "Fri, 07 Aug 2026 10:49:00 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "\"美 정치권서 이스라엘 지원 '흔들'…고착 흐름\"",
@@ -137,30 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786038398000,
       "pub": "Fri, 7 Aug 2026 02:46:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러시아 보란 듯…\"젤렌스키, 전쟁 발발 후 세르비아 첫 방문\"",
-      "link": "https://www.yna.co.kr/view/AKR20260807001300109",
-      "source": "연합뉴스 국제",
-      "ts": 1786033299000,
-      "pub": "Fri, 7 Aug 2026 01:21:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "아프리카도 가자지구 국제안정화군 참여…우간다, 파병 승인",
-      "link": "https://www.yna.co.kr/view/AKR20260807000500099",
-      "source": "연합뉴스 국제",
-      "ts": 1786029869000,
-      "pub": "Fri, 7 Aug 2026 00:24:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, '밴스 당선시켜야'\"…백악관은 '낙점설' 설왕설래",
-      "link": "https://www.yna.co.kr/view/AKR20260806157800071",
-      "source": "연합뉴스 국제",
-      "ts": 1786029313000,
-      "pub": "Fri, 7 Aug 2026 00:15:13 +0900",
       "sentiment": "neutral"
     }
   ]

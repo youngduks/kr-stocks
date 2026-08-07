@@ -1,8 +1,80 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-07T06:03:34.478Z",
-  "count": 10,
+  "updated_at": "2026-08-07T08:04:41.994Z",
+  "count": 19,
   "items": [
+    {
+      "title": "SK하이닉스, 용인·청주 추가 팹에 54조 투자…AI 메모리 수요 대응",
+      "link": "https://www.mt.co.kr/industry/2026/08/07/2026080716263059184",
+      "source": "머니투데이",
+      "ts": 1786089646000,
+      "pub": "Fri, 07 Aug 2026 17:00:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체공학회 \"연구개발직 주 52시간제 반드시 개선해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260807129400003",
+      "source": "연합뉴스 경제",
+      "ts": 1786089150000,
+      "pub": "Fri, 7 Aug 2026 16:52:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"어제도 10% 빠졌는데 또\"…SK하이닉스 개미들 '곡소리'",
+      "link": "https://www.hankyung.com/article/2026080710146",
+      "source": "한국경제",
+      "ts": 1786086395000,
+      "pub": "Fri, 07 Aug 2026 16:06:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI용 GPU 빌려준다…베슬AI, '엔비디아 B200' 1000장 이상 확보",
+      "link": "https://www.mt.co.kr/future/2026/08/07/2026080710172163687",
+      "source": "머니투데이",
+      "ts": 1786086000000,
+      "pub": "Fri, 07 Aug 2026 16:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피·코스닥 동반 하락 마감…엇갈린 반도체 투톱",
+      "link": "https://www.hankyung.com/article/202608071015i",
+      "source": "한국경제",
+      "ts": 1786085969000,
+      "pub": "Fri, 07 Aug 2026 15:59:29 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "하이닉스, 전날 10% 폭락이어 또 4.8% 급락…삼전 0.2%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260807040351008",
+      "source": "연합뉴스 경제",
+      "ts": 1786085659000,
+      "pub": "Fri, 7 Aug 2026 15:54:19 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[더벨]에쓰씨엔지니어링, 97억 규모 반도체 프로젝트 추가 수주",
+      "link": "https://www.mt.co.kr/stock/2026/08/07/2026080715449698315",
+      "source": "머니투데이",
+      "ts": 1786085506000,
+      "pub": "Fri, 07 Aug 2026 15:51:46 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"지금 반도체주 사모으기 보다 코스닥에서 기회 찾을때\"",
+      "link": "https://www.hankyung.com/article/202608070919i",
+      "source": "한국경제",
+      "ts": 1786084934000,
+      "pub": "Fri, 07 Aug 2026 15:42:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'500%' 창신메모리급 폭등하나...中 로봇기업 상장 앞두고 '들썩'",
+      "link": "https://www.mt.co.kr/world/2026/08/07/2026080713243519838",
+      "source": "머니투데이",
+      "ts": 1786082972000,
+      "pub": "Fri, 07 Aug 2026 15:09:32 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "태양광·반도체·이차전지 국내 생산시 2036년까지 세액공제(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260807025651003",

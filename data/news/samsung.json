@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-07T06:03:34.478Z",
-  "count": 7,
+  "updated_at": "2026-08-07T08:04:41.994Z",
+  "count": 9,
   "items": [
+    {
+      "title": "SK하이닉스, 용인·청주 추가 팹에 54조 투자…AI 메모리 수요 대응",
+      "link": "https://www.mt.co.kr/industry/2026/08/07/2026080716263059184",
+      "source": "머니투데이",
+      "ts": 1786089646000,
+      "pub": "Fri, 07 Aug 2026 17:00:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하이닉스, 전날 10% 폭락이어 또 4.8% 급락…삼전 0.2%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260807040351008",
+      "source": "연합뉴스 경제",
+      "ts": 1786085659000,
+      "pub": "Fri, 7 Aug 2026 15:54:19 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'500%' 창신메모리급 폭등하나...中 로봇기업 상장 앞두고 '들썩'",
+      "link": "https://www.mt.co.kr/world/2026/08/07/2026080713243519838",
+      "source": "머니투데이",
+      "ts": 1786082972000,
+      "pub": "Fri, 07 Aug 2026 15:09:32 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "삼전닉스 앞세우더니 일본 제쳤다…'사상 초유' 대역전극 [도쿄나우]",
       "link": "https://www.hankyung.com/article/202608070555i",
@@ -50,14 +74,6 @@
       "ts": 1786000249000,
       "pub": "Thu, 6 Aug 2026 16:10:49 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "단일 레버리지 영향 축소에도…삼전닉스 휘청에 코스피 또 변동성",
-      "link": "https://www.yna.co.kr/view/AKR20260806094000008",
-      "source": "연합뉴스 경제",
-      "ts": 1785993766000,
-      "pub": "Thu, 6 Aug 2026 14:22:46 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

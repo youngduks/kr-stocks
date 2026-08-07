@@ -1,16 +1,8 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-07T08:04:41.994Z",
-  "count": 9,
+  "updated_at": "2026-08-07T09:48:44.089Z",
+  "count": 5,
   "items": [
-    {
-      "title": "SK하이닉스, 용인·청주 추가 팹에 54조 투자…AI 메모리 수요 대응",
-      "link": "https://www.mt.co.kr/industry/2026/08/07/2026080716263059184",
-      "source": "머니투데이",
-      "ts": 1786089646000,
-      "pub": "Fri, 07 Aug 2026 17:00:46 +0900",
-      "sentiment": "neutral"
-    },
     {
       "title": "하이닉스, 전날 10% 폭락이어 또 4.8% 급락…삼전 0.2%↑(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260807040351008",
@@ -18,22 +10,6 @@
       "ts": 1786085659000,
       "pub": "Fri, 7 Aug 2026 15:54:19 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "'500%' 창신메모리급 폭등하나...中 로봇기업 상장 앞두고 '들썩'",
-      "link": "https://www.mt.co.kr/world/2026/08/07/2026080713243519838",
-      "source": "머니투데이",
-      "ts": 1786082972000,
-      "pub": "Fri, 07 Aug 2026 15:09:32 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "삼전닉스 앞세우더니 일본 제쳤다…'사상 초유' 대역전극 [도쿄나우]",
-      "link": "https://www.hankyung.com/article/202608070555i",
-      "source": "한국경제",
-      "ts": 1786075770000,
-      "pub": "Fri, 07 Aug 2026 13:09:30 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "\"엔비디아, 차세대 '루빈 울트라'에 메모리 축소 검토\"",
@@ -66,14 +42,6 @@
       "ts": 1786001421000,
       "pub": "Thu, 6 Aug 2026 16:30:21 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스 10%대 폭락, 삼전 6.3%↓…외인·기관 팔았다(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260806039351008",
-      "source": "연합뉴스 경제",
-      "ts": 1786000249000,
-      "pub": "Thu, 6 Aug 2026 16:10:49 +0900",
-      "sentiment": "negative"
     }
   ]
 }

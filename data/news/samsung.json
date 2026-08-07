@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-07T10:40:36.969Z",
+  "updated_at": "2026-08-07T11:36:29.512Z",
   "count": 5,
   "items": [
+    {
+      "title": "SK하이닉스, 용인·청주 추가 팹에 54조 투자…AI 메모리 수요 대응",
+      "link": "https://www.mt.co.kr/industry/2026/08/07/2026080716263059184",
+      "source": "머니투데이",
+      "ts": 1786089646000,
+      "pub": "Fri, 07 Aug 2026 17:00:46 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "하이닉스, 전날 10% 폭락이어 또 4.8% 급락…삼전 0.2%↑(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260807040351008",
@@ -33,14 +41,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786061502000,
       "pub": "Fri, 7 Aug 2026 09:11:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 휘청에 코스피 또 변동성…골드만, '코스피 12,000' 유지(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260806094051008",
-      "source": "연합뉴스 경제",
-      "ts": 1786001421000,
-      "pub": "Thu, 6 Aug 2026 16:30:21 +0900",
       "sentiment": "neutral"
     }
   ]

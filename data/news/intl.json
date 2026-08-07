@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-07T20:27:26.814Z",
-  "count": 13,
+  "updated_at": "2026-08-07T21:26:42.284Z",
+  "count": 18,
   "items": [
+    {
+      "title": "이스라엘 역사상 가장 중요한 선거가 10월 치러진다 [PADO]",
+      "link": "https://www.mt.co.kr/world/2026/08/08/2026080716054772754",
+      "source": "머니투데이",
+      "ts": 1786136400000,
+      "pub": "Sat, 08 Aug 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 연준 첫 흑인여성 이사 해고 재시동…\"주담대 의혹 해명\" 요구",
+      "link": "https://www.mt.co.kr/world/2026/08/08/2026080805140323179",
+      "source": "머니투데이",
+      "ts": 1786133816000,
+      "pub": "Sat, 08 Aug 2026 05:16:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 '미사일 고갈 보도'에 격노…\"반역적 유출자 색출\"",
+      "link": "https://www.mt.co.kr/world/2026/08/08/2026080803380847358",
+      "source": "머니투데이",
+      "ts": 1786129002000,
+      "pub": "Sat, 08 Aug 2026 03:56:42 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'트럼프 측근' 故그레이엄 의원의 러·이란 제재법안 상원 통과",
       "link": "https://www.yna.co.kr/view/AKR20260808003700071",
@@ -25,6 +49,14 @@
       "source": "연합뉴스 국제",
       "ts": 1786127395000,
       "pub": "Sat, 8 Aug 2026 03:29:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"AI·가상화폐, 中에 못 넘겨\"…시진핑과 집중 논의 예고",
+      "link": "https://www.mt.co.kr/world/2026/08/08/2026080802444327883",
+      "source": "머니투데이",
+      "ts": 1786124909000,
+      "pub": "Sat, 08 Aug 2026 02:48:29 +0900",
       "sentiment": "neutral"
     },
     {
@@ -68,11 +100,27 @@
       "sentiment": "neutral"
     },
     {
+      "title": "美 7월 비농업 일자리 2만3000명 감소…예상 밑돈 '고용 쇼크'",
+      "link": "https://www.mt.co.kr/world/2026/08/07/2026080722063115614",
+      "source": "머니투데이",
+      "ts": 1786108972000,
+      "pub": "Fri, 07 Aug 2026 22:22:52 +0900",
+      "sentiment": "negative"
+    },
+    {
       "title": "\"푸틴, 전쟁 장기화 속 정보기관에 의존…통제 강화\"",
       "link": "https://www.yna.co.kr/view/AKR20260807158700108",
       "source": "연합뉴스 국제",
       "ts": 1786108473000,
       "pub": "Fri, 7 Aug 2026 22:14:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, 2거래일 연속 하락… 美 고용지표·SK하닉 배당금 주목",
+      "link": "https://www.mt.co.kr/stock/2026/08/07/2026080716242529311",
+      "source": "머니투데이",
+      "ts": 1786092129000,
+      "pub": "Fri, 07 Aug 2026 17:42:09 +0900",
       "sentiment": "neutral"
     },
     {
@@ -97,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786067735000,
       "pub": "Fri, 7 Aug 2026 10:55:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"美 정치권서 이스라엘 지원 '흔들'…고착 흐름\"",
-      "link": "https://www.yna.co.kr/view/AKR20260807048700009",
-      "source": "연합뉴스 국제",
-      "ts": 1786064739000,
-      "pub": "Fri, 7 Aug 2026 10:05:39 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import type { BrokerOpinion, ConsensusData } from "@/lib/consensus";
+import type { ConsensusData } from "@/lib/consensus";
 import { useTheme } from "./ThemeProvider";
 
 export type Locale = "ko" | "en";
@@ -12,101 +12,51 @@ const I18N = {
     title: "증권사 목표주가 분석",
     subtitle: "한국 증권사 애널리스트 목표주가 종합 — 네이버 금융 리서치 기준",
     avgTarget: "평균 목표가",
-    median: "중앙값",
-    max: "최고",
-    min: "최저",
-    opinionCount: "의견 수",
-    brokerCount: "증권사",
     currentPrice: "현재가",
     upside: "상승여력",
     upsideRef: "증권사 평균 대비",
     upsideArrow: "→",
-    distribution: "투자의견 분포",
-    latestReports: "증권사별 개별 리포트",
-    reportSnapshotAsOf: "리포트 스냅샷 기준일",
-    broker: "증권사",
-    opinion: "투자의견",
-    target: "목표가",
-    date: "일자",
     history: "평균 목표가 추이 (최근 4주)",
     source: "출처",
     naverResearch: "네이버 금융 리서치",
     updated: "최종 업데이트",
-    units: "건",
     krwSymbol: "₩",
     disclaimer:
       "본 정보는 단순 참고용이며 투자 권유·자문이 아닙니다. 목표가는 시점에 따라 변경될 수 있습니다.",
-    noCurrentPrice: "—",
     seeStock: "종합 분석 보기",
     seeStockSub: "Binance 24h · 정규장 · 외인·기관 · funding · 차트",
     naverSnapshot: "네이버 컨센서스 종합 (실시간)",
     opinionScore: "투자의견 평점",
     high52w: "52주 최고",
     low52w: "52주 최저",
-    individualReports: "개별 증권사 리포트",
   },
   en: {
     title: "Korean Broker Consensus",
     subtitle:
       "Aggregated analyst price targets from major Korean brokers — based on Naver Finance Research",
     avgTarget: "Avg target",
-    median: "Median",
-    max: "High",
-    min: "Low",
-    opinionCount: "Opinions",
-    brokerCount: "Brokers",
     currentPrice: "Current",
     upside: "Upside",
     upsideRef: "vs avg broker target",
     upsideArrow: "→",
-    distribution: "Opinion distribution",
-    latestReports: "Individual broker reports",
-    reportSnapshotAsOf: "Report snapshot as of",
-    broker: "Broker",
-    opinion: "Opinion",
-    target: "Target",
-    date: "Date",
     history: "Avg target trend (last 4 weeks)",
     source: "Source",
     naverResearch: "Naver Finance Research",
     updated: "Last updated",
-    units: "",
     krwSymbol: "₩",
     disclaimer:
       "For informational purposes only. Not investment advice. Targets may change over time.",
-    noCurrentPrice: "—",
     seeStock: "Full analysis",
     seeStockSub: "Binance 24h · Regular · Foreign flow · funding · chart",
     naverSnapshot: "Naver Consensus Summary (live)",
     opinionScore: "Opinion score",
     high52w: "52w High",
     low52w: "52w Low",
-    individualReports: "Individual broker reports",
   },
 } as const;
 
-const OPINION_META: Record<
-  BrokerOpinion,
-  { color: string; bg: string; en: string }
-> = {
-  강력매수: { color: "text-accent-purple", bg: "bg-accent-purple/15", en: "Strong Buy" },
-  매수: { color: "text-accent-green", bg: "bg-accent-green/15", en: "Buy" },
-  비중확대: { color: "text-accent-blue", bg: "bg-accent-blue/15", en: "Overweight" },
-  중립: { color: "text-text-muted", bg: "bg-line/30", en: "Hold" },
-  비중축소: { color: "text-accent-amber", bg: "bg-accent-amber/15", en: "Underweight" },
-  매도: { color: "text-accent-red", bg: "bg-accent-red/15", en: "Sell" },
-};
-
 function fmtKRW(n: number): string {
   return n.toLocaleString("ko-KR");
-}
-
-function fmtDate(s: string, locale: Locale = "ko"): string {
-  // "2026-05-06" → "26-05-06" 또는 "May 06"
-  const d = new Date(s);
-  if (locale === "en")
-    return d.toLocaleDateString("en-US", { month: "short", day: "2-digit" });
-  return s.slice(2); // "26-05-06"
 }
 
 function fmtUpdated(iso: string, locale: Locale = "ko"): string {

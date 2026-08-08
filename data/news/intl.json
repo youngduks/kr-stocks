@@ -1,14 +1,38 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-08T00:45:10.688Z",
-  "count": 14,
+  "updated_at": "2026-08-08T02:48:30.214Z",
+  "count": 22,
   "items": [
     {
       "title": "트럼프 2년 차엔 주식이 춥다?…내년 '큰 장' 노리려면",
       "link": "https://www.hankyung.com/article/202608071490i",
       "source": "한국경제",
-      "ts": 1786143621000,
-      "pub": "Sat, 08 Aug 2026 08:00:21 +0900",
+      "ts": 1786154408000,
+      "pub": "Sat, 08 Aug 2026 11:00:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"땡큐 트럼프\"…삼전닉스 10%대 급락 때 이 업종 달렸다[김근희의 증시랩업]",
+      "link": "https://www.mt.co.kr/stock/2026/08/08/2026080717155476003",
+      "source": "머니투데이",
+      "ts": 1786149000000,
+      "pub": "Sat, 08 Aug 2026 09:30:00 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프 백악관 연회장 건설 법원이 또 제동…\"대통령은 세입자\"",
+      "link": "https://www.mt.co.kr/world/2026/08/08/2026080808214451752",
+      "source": "머니투데이",
+      "ts": 1786148050000,
+      "pub": "Sat, 08 Aug 2026 09:14:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼성·LG 막아줄 줄 알았는데\"…트럼프 관세에 美월풀이 휘청 [이슈속으로]",
+      "link": "https://www.mt.co.kr/industry/2026/08/08/2026080715550272652",
+      "source": "머니투데이",
+      "ts": 1786145400000,
+      "pub": "Sat, 08 Aug 2026 08:30:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,11 +44,43 @@
       "sentiment": "neutral"
     },
     {
+      "title": "\"보복관세 철회·주류 개방\"… 캐나다, '트럼프 요구 수용' 잠정 합의",
+      "link": "https://www.mt.co.kr/world/2026/08/08/2026080806523592173",
+      "source": "머니투데이",
+      "ts": 1786139727000,
+      "pub": "Sat, 08 Aug 2026 06:55:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "트럼프, 중간선거 민심악화에 \"나말고 당에 화났다\" 떠넘기기",
       "link": "https://www.yna.co.kr/view/AKR20260808004600071",
       "source": "연합뉴스 국제",
       "ts": 1786138712000,
       "pub": "Sat, 8 Aug 2026 06:38:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 역사상 가장 중요한 선거가 10월 치러진다 [PADO]",
+      "link": "https://www.mt.co.kr/world/2026/08/08/2026080716054772754",
+      "source": "머니투데이",
+      "ts": 1786136400000,
+      "pub": "Sat, 08 Aug 2026 06:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 연준 첫 흑인여성 이사 해고 재시동…\"주담대 의혹 해명\" 요구",
+      "link": "https://www.mt.co.kr/world/2026/08/08/2026080805140323179",
+      "source": "머니투데이",
+      "ts": 1786133816000,
+      "pub": "Sat, 08 Aug 2026 05:16:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 '미사일 고갈 보도'에 격노…\"반역적 유출자 색출\"",
+      "link": "https://www.mt.co.kr/world/2026/08/08/2026080803380847358",
+      "source": "머니투데이",
+      "ts": 1786129002000,
+      "pub": "Sat, 08 Aug 2026 03:56:42 +0900",
       "sentiment": "neutral"
     },
     {
@@ -49,6 +105,14 @@
       "source": "연합뉴스 국제",
       "ts": 1786127395000,
       "pub": "Sat, 8 Aug 2026 03:29:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"AI·가상화폐, 中에 못 넘겨\"…시진핑과 집중 논의 예고",
+      "link": "https://www.mt.co.kr/world/2026/08/08/2026080802444327883",
+      "source": "머니투데이",
+      "ts": 1786124909000,
+      "pub": "Sat, 08 Aug 2026 02:48:29 +0900",
       "sentiment": "neutral"
     },
     {

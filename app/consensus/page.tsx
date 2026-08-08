@@ -82,10 +82,11 @@ export default async function ConsensusPage() {
 
         <div className="mt-10 p-4 rounded-xl bg-bg-card border border-line text-xs text-text-dim leading-relaxed">
           <span className="font-semibold text-text-muted">증권사 분석이란?</span>{" "}
-          여러 증권사 애널리스트의 종목별 목표주가·투자의견을 모아 평균/중앙값으로
-          요약한 지표입니다. 평균 목표가가 현재가보다 높으면 "상승여력 있음(▲)",
-          낮으면 "조정 가능성(▼)"으로 해석되지만, 실제 주가는 다양한 요인에 좌우되므로
-          단순 참고용입니다.
+          여러 증권사 애널리스트의 종목별 목표주가·투자의견을 평균으로 요약한
+          지표입니다. 평균 목표가가 현재가보다 높으면 "상승여력 있음(▲)", 낮으면
+          "조정 가능성(▼)"으로 해석되지만, 실제 주가는 다양한 요인에 좌우되므로
+          단순 참고용입니다. 표시되는 수치는 모두 네이버 금융 종합 컨센서스에서
+          매 평일 자동으로 갱신됩니다.
         </div>
       </main>
 

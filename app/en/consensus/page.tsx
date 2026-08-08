@@ -78,11 +78,12 @@ export default async function ConsensusPageEN() {
 
         <div className="mt-10 p-4 rounded-xl bg-bg-card border border-line text-xs text-text-dim leading-relaxed">
           <span className="font-semibold text-text-muted">What is consensus?</span>{" "}
-          The aggregated average/median of analyst price targets and investment
-          opinions from multiple brokers. When the average target is above the
-          current price, it suggests "upside potential (▲)"; below means
-          "downside risk (▼)". Actual market prices depend on many factors —
-          treat this as a reference only.
+          The aggregated average of analyst price targets and investment opinions
+          from multiple brokers. When the average target is above the current
+          price, it suggests "upside potential (▲)"; below means "downside risk
+          (▼)". Actual market prices depend on many factors — treat this as a
+          reference only. All figures shown are refreshed automatically every
+          weekday from Naver Finance consensus data.
         </div>
       </main>
 

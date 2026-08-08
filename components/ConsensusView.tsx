@@ -150,13 +150,6 @@ export function ConsensusView({
 
   const c = active.consensus;
   const displayName = locale === "en" ? active.name_en : active.name_ko;
-  // median/max/min/의견분포는 개별 리포트(brokers 배열) 기반 — PDF라 자동추출 불가해
-  // avg_target_krw(네이버 종합, 매일 갱신)와 달리 리포트가 새로 시딩될 때만 바뀜.
-  // 두 숫자의 시점이 다르다는 걸 감춰선 안 되므로 기준일을 명시한다.
-  const latestReportDate = active.brokers.reduce<string | null>(
-    (max, b) => (!max || b.report_date > max ? b.report_date : max),
-    null,
-  );
 
   // 추이 차트 — minmax normalize → SVG sparkline
   const histVals = active.history.map((h) => h.avg_target_krw);
@@ -294,67 +287,6 @@ export function ConsensusView({
         </div>
       )}
 
-      {/* 메인 카드 5개 grid */}
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
-        <div className="bg-bg-card border border-line rounded-xl p-4">
-          <div className="text-[10px] text-text-dim">{t.avgTarget}</div>
-          <div className="text-xl sm:text-2xl font-bold tabular text-accent-purple mt-1">
-            {t.krwSymbol}
-            {fmtKRW(c.avg_target_krw)}
-          </div>
-        </div>
-        <div className="bg-bg-card border border-line rounded-xl p-4">
-          <div className="text-[10px] text-text-dim">{t.median}</div>
-          <div className="text-xl sm:text-2xl font-bold tabular text-text mt-1">
-            {t.krwSymbol}
-            {fmtKRW(c.median_target_krw)}
-          </div>
-        </div>
-        <div className="bg-bg-card border border-line rounded-xl p-4">
-          <div className="text-[10px] text-text-dim">{t.max}</div>
-          <div className="text-lg sm:text-xl font-bold tabular text-accent-green mt-1">
-            {t.krwSymbol}
-            {fmtKRW(c.max_target_krw)}
-          </div>
-          <div className="text-[10px] text-text-dim mt-0.5 truncate">
-            {c.max_broker}
-          </div>
-        </div>
-        <div className="bg-bg-card border border-line rounded-xl p-4">
-          <div className="text-[10px] text-text-dim">{t.min}</div>
-          <div className="text-lg sm:text-xl font-bold tabular text-accent-blue mt-1">
-            {t.krwSymbol}
-            {fmtKRW(c.min_target_krw)}
-          </div>
-          <div className="text-[10px] text-text-dim mt-0.5 truncate">
-            {c.min_broker}
-          </div>
-        </div>
-        <div className="bg-bg-card border border-line rounded-xl p-4">
-          <div className="text-[10px] text-text-dim">
-            {t.opinionCount} · {t.brokerCount}
-          </div>
-          <div className="text-xl sm:text-2xl font-bold tabular text-text mt-1">
-            {c.opinion_count}
-            <span className="text-[10px] text-text-dim font-normal ml-0.5">
-              {t.units}
-            </span>
-          </div>
-          <div className="text-[10px] text-text-dim mt-0.5">
-            {c.broker_count} {t.brokerCount}
-          </div>
-        </div>
-      </div>
-      {latestReportDate && (
-        // 평균 목표가는 네이버 종합에서 매일 갱신되지만, 중앙값/최고/최저/의견수는
-        // 개별 리포트(브로커별 PDF) 집계라 리포트가 새로 나올 때만 바뀐다 — 두 시점이
-        // 다르다는 걸 명시하지 않으면 "평균이 최고보다 높다" 같은 모순으로 보일 수 있음.
-        <p className="text-[10px] text-text-dim -mt-1">
-          {t.median} · {t.max} · {t.min} · {t.opinionCount}: {t.reportSnapshotAsOf}{" "}
-          {fmtDate(latestReportDate, locale)}
-        </p>
-      )}
-
       {/* Cross-link: 종목 상세 페이지로 (USP 발견율 ↑) */}
       <Link
         href={`/korea/${active.slug}` as any}
@@ -375,9 +307,8 @@ export function ConsensusView({
         </div>
       </Link>
 
-      {/* 추이 + 분포 — 2 column */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-        {/* 평균목표가 sparkline */}
+      {/* 평균목표가 추이 — 네이버 스냅샷이 매 평일 쌓은 실측 시계열 */}
+      <div className="grid grid-cols-1 gap-3">
         <div className="bg-bg-card border border-line rounded-xl p-5">
           <div className="text-xs text-text-dim mb-3">{t.history}</div>
           <svg
@@ -419,112 +350,6 @@ export function ConsensusView({
           </div>
         </div>
 
-        {/* 의견 분포 bar */}
-        <div className="bg-bg-card border border-line rounded-xl p-5">
-          <div className="text-xs text-text-dim mb-3">{t.distribution}</div>
-          <div className="space-y-2">
-            {(Object.keys(active.opinion_distribution) as BrokerOpinion[])
-              .filter((op) => active.opinion_distribution[op] > 0)
-              .map((op) => {
-                const v = active.opinion_distribution[op];
-                const total =
-                  Object.values(active.opinion_distribution).reduce(
-                    (s, x) => s + x,
-                    0
-                  ) || 1;
-                const pct = (v / total) * 100;
-                const m = OPINION_META[op];
-                return (
-                  <div
-                    key={op}
-                    className="flex items-center gap-3 text-xs tabular"
-                  >
-                    <span
-                      className={`w-20 sm:w-24 font-semibold ${m.color} shrink-0`}
-                    >
-                      {locale === "en" ? m.en : op}
-                    </span>
-                    <div className="flex-1 h-2 bg-line/40 rounded-full overflow-hidden">
-                      <div
-                        className={`h-full ${m.bg.replace("/15", "")}`}
-                        style={{
-                          width: `${pct}%`,
-                          backgroundColor: "currentColor",
-                          opacity: 0.55,
-                          color: m.color
-                            .replace("text-", "")
-                            .startsWith("accent")
-                            ? undefined
-                            : undefined,
-                        }}
-                      />
-                    </div>
-                    <span className={`${m.color} font-bold w-10 text-right`}>
-                      {v}
-                    </span>
-                    <span className="text-text-dim w-10 text-right">
-                      {pct.toFixed(0)}%
-                    </span>
-                  </div>
-                );
-              })}
-          </div>
-        </div>
-      </div>
-
-      {/* 증권사별 테이블 */}
-      <div className="bg-bg-card border border-line rounded-xl overflow-hidden">
-        <div className="px-5 py-3 border-b border-line text-xs text-text-dim flex items-center justify-between flex-wrap gap-1">
-          <span>{t.latestReports} ({active.brokers.length})</span>
-          {latestReportDate && (
-            <span className="text-[10px]">
-              {t.reportSnapshotAsOf} {fmtDate(latestReportDate, locale)}
-            </span>
-          )}
-        </div>
-        <div className="overflow-x-auto">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="text-[11px] text-text-dim border-b border-line/60">
-                <th className="text-left px-5 py-2 font-medium">{t.broker}</th>
-                <th className="text-left px-3 py-2 font-medium">{t.opinion}</th>
-                <th className="text-right px-3 py-2 font-medium">{t.target}</th>
-                <th className="text-right px-5 py-2 font-medium">{t.date}</th>
-              </tr>
-            </thead>
-            <tbody>
-              {active.brokers.map((b, idx) => {
-                const m = OPINION_META[b.opinion];
-                const brokerName =
-                  locale === "en" && b.broker_en ? b.broker_en : b.broker;
-                return (
-                  <tr
-                    key={`${b.broker}-${idx}`}
-                    className="border-b border-line/30 last:border-0 hover:bg-bg-hover/40 transition"
-                  >
-                    <td className="px-5 py-3 font-medium text-text">
-                      {brokerName}
-                    </td>
-                    <td className="px-3 py-3">
-                      <span
-                        className={`text-[10px] px-2 py-0.5 rounded-md ${m.bg} ${m.color} font-semibold`}
-                      >
-                        {locale === "en" ? m.en : b.opinion}
-                      </span>
-                    </td>
-                    <td className="px-3 py-3 text-right tabular font-semibold text-text">
-                      {t.krwSymbol}
-                      {fmtKRW(b.target_krw)}
-                    </td>
-                    <td className="px-5 py-3 text-right tabular text-text-dim text-xs">
-                      {fmtDate(b.report_date, locale)}
-                    </td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </div>
       </div>
 
       {/* Disclaimer */}

@@ -18,9 +18,19 @@ export type BrokerReport = {
 export type ConsensusHistory = {
   date: string;
   avg_target_krw: number;
-  opinion_count: number;
+  /** 리포트 파생값이라 매 스냅샷에 같은 수가 복사돼 있었음(미표시). */
+  opinion_count?: number;
 };
 
+/**
+ * 표시 정책 (2026-08-08 형님 지시로 정리):
+ *   네이버 금융에서 매 평일 자동 검증되는 값만 노출한다. 개별 증권사 리포트에서
+ *   파생되는 값(중앙값·최고/최저·의견수·의견분포·증권사별 테이블)은 원문이 PDF라
+ *   자동 갱신이 불가능해 2026-05 시점에 얼어붙어 있었고, 평균 목표가만 갱신되자
+ *   "평균 > 최고" 같은 산술적 모순이 3종목 전부에서 노출됐다.
+ *   → 검증 못 하는 값은 타입에서 optional 로 내리고 화면에서 전부 제거.
+ *     PDF 파싱이 붙어 신뢰할 수 있게 되면 그때 다시 살린다.
+ */
 export type ConsensusData = {
   slug: string;
   ticker: string;
@@ -28,19 +38,21 @@ export type ConsensusData = {
   name_en: string;
   updated_at: string;
   consensus: {
+    /** 네이버 금융 종합 — 매 평일 자동 갱신. 유일하게 신뢰 가능한 목표가. */
     avg_target_krw: number;
-    median_target_krw: number;
-    max_target_krw: number;
-    max_broker: string;
-    min_target_krw: number;
-    min_broker: string;
-    opinion_count: number;
-    broker_count: number;
     current_price_krw?: number | null;
     upside_pct?: number | null;
+    // ↓ 리포트 파생(2026-05 고정). 현재 미표시. PDF 파싱 전까지 신뢰 불가.
+    median_target_krw?: number;
+    max_target_krw?: number;
+    max_broker?: string;
+    min_target_krw?: number;
+    min_broker?: string;
+    opinion_count?: number;
+    broker_count?: number;
   };
-  opinion_distribution: Record<BrokerOpinion, number>;
-  brokers: BrokerReport[];
+  opinion_distribution?: Record<BrokerOpinion, number>;
+  brokers?: BrokerReport[];
   history: ConsensusHistory[];
   // 네이버 금융 종합 페이지에서 자동 스크래핑한 최신 컨센서스 요약.
   // brokers 배열의 개별 리포트와 별개로 매일 갱신됨.

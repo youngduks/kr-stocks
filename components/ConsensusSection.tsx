@@ -17,12 +17,12 @@ const I18N = {
     upsideRef: "증권사 평균 대비", // 첫 방문자가 "뭘 기준으로?" 헷갈리지 않게 명시
     upsideBreakdown: "현재", // "현재 ₩X → 평균 ₩Y" breakdown
     upsideArrow: "→",
-    median: "중앙값",
-    max: "최고",
-    min: "최저",
-    seeAll: "전체 분석 보기 (증권사별 목표가 + 분포)",
-    rangeFrom: "범위",
-    sourceFooter: "출처: 네이버 금융 리서치 (한국 13~14개 증권사 평균 목표주가)",
+    opinionScore: "투자의견 평점",
+    high52w: "52주 최고",
+    low52w: "52주 최저",
+    seeAll: "전체 분석 보기 (평균 목표가 추이)",
+    rangeFrom: "52주 범위",
+    sourceFooter: "출처: 네이버 금융 리서치 (증권사 종합 컨센서스, 매 평일 자동 갱신)",
     disclaimer: "본 정보는 단순 참고용이며 투자 권유가 아닙니다.",
   },
   en: {
@@ -35,12 +35,12 @@ const I18N = {
     upsideRef: "vs avg broker target",
     upsideBreakdown: "Now",
     upsideArrow: "→",
-    median: "Median",
-    max: "High",
-    min: "Low",
-    seeAll: "View full consensus (broker-level targets & distribution)",
-    rangeFrom: "Range",
-    sourceFooter: "Source: Naver Finance Research (13–14 Korean broker avg targets)",
+    opinionScore: "Opinion score",
+    high52w: "52w High",
+    low52w: "52w Low",
+    seeAll: "View full consensus (avg target trend)",
+    rangeFrom: "52w range",
+    sourceFooter: "Source: Naver Finance Research (aggregated broker consensus, updated every weekday)",
     disclaimer: "For informational purposes only. Not investment advice.",
   },
 } as const;
@@ -58,6 +58,9 @@ export function ConsensusSection({
 }) {
   const c = data.consensus;
   const t = I18N[locale];
+  // 네이버 종합 스냅샷 = 매 평일 자동 갱신되는 유일한 검증 가능 소스.
+  // 개별 리포트 파생값(중앙값·최고/최저 목표가·증권사 수)은 2026-05 고정이라 제거함.
+  const snap = data.naver_snapshot;
 
   // upside는 부모에서 enrich되어 들어옴 — 없으면 null
   const upside = c.upside_pct;
@@ -77,10 +80,15 @@ export function ConsensusSection({
       {/* 헤더 — 출처 + 증권사 개수 */}
       <div className="flex items-center justify-between mb-4 gap-2">
         <div className="text-xs text-text-dim">
-          {t.title} ·{" "}
-          <span className="text-text-muted">
-            {c.broker_count}{locale === "ko" ? t.units : ""} {t.brokers}
-          </span>
+          {t.title}
+          {snap && (
+            <>
+              {" · "}
+              <span className="text-text-muted">
+                {snap.opinion_label} {snap.opinion_score.toFixed(2)}
+              </span>
+            </>
+          )}
         </div>
         <div className="text-[10px] text-text-dim shrink-0">
           {t.source}
@@ -94,9 +102,11 @@ export function ConsensusSection({
           <div className="text-3xl md:text-4xl font-bold tabular text-accent-purple">
             ₩{fmtKRW(c.avg_target_krw)}
           </div>
-          <div className="text-[11px] text-text-dim tabular mt-1">
-            {t.rangeFrom}: ₩{fmtKRW(c.min_target_krw)} ~ ₩{fmtKRW(c.max_target_krw)}
-          </div>
+          {snap?.low_52w_krw != null && snap?.high_52w_krw != null && (
+            <div className="text-[11px] text-text-dim tabular mt-1">
+              {t.rangeFrom}: ₩{fmtKRW(snap.low_52w_krw)} ~ ₩{fmtKRW(snap.high_52w_krw)}
+            </div>
+          )}
         </div>
 
         {upside != null && c.current_price_krw != null && (
@@ -121,33 +131,32 @@ export function ConsensusSection({
         )}
       </div>
 
-      {/* 미니 카드 3개: 중앙값 / 최고 / 최저 */}
-      <div className="grid grid-cols-3 gap-2 mb-4">
-        <div className="bg-bg-card/70 border border-line rounded-lg p-2.5">
-          <div className="text-[10px] text-text-dim">{t.median}</div>
-          <div className="text-sm font-bold tabular text-text mt-0.5">
-            ₩{fmtKRW(c.median_target_krw)}
+      {/* 미니 카드 3개 — 전부 네이버 스냅샷(매 평일 자동 갱신) 기반 */}
+      {snap && (
+        <div className="grid grid-cols-3 gap-2 mb-4">
+          <div className="bg-bg-card/70 border border-line rounded-lg p-2.5">
+            <div className="text-[10px] text-text-dim">{t.opinionScore}</div>
+            <div className="text-sm font-bold tabular text-accent-green mt-0.5">
+              {snap.opinion_score.toFixed(2)}
+            </div>
+            <div className="text-[9px] text-text-dim truncate mt-0.5">
+              {snap.opinion_label}
+            </div>
+          </div>
+          <div className="bg-bg-card/70 border border-line rounded-lg p-2.5">
+            <div className="text-[10px] text-text-dim">{t.high52w}</div>
+            <div className="text-sm font-bold tabular text-text mt-0.5">
+              {snap.high_52w_krw != null ? `₩${fmtKRW(snap.high_52w_krw)}` : "—"}
+            </div>
+          </div>
+          <div className="bg-bg-card/70 border border-line rounded-lg p-2.5">
+            <div className="text-[10px] text-text-dim">{t.low52w}</div>
+            <div className="text-sm font-bold tabular text-accent-blue mt-0.5">
+              {snap.low_52w_krw != null ? `₩${fmtKRW(snap.low_52w_krw)}` : "—"}
+            </div>
           </div>
         </div>
-        <div className="bg-bg-card/70 border border-line rounded-lg p-2.5">
-          <div className="text-[10px] text-text-dim">{t.max}</div>
-          <div className="text-sm font-bold tabular text-accent-green mt-0.5">
-            ₩{fmtKRW(c.max_target_krw)}
-          </div>
-          <div className="text-[9px] text-text-dim truncate mt-0.5">
-            {c.max_broker}
-          </div>
-        </div>
-        <div className="bg-bg-card/70 border border-line rounded-lg p-2.5">
-          <div className="text-[10px] text-text-dim">{t.min}</div>
-          <div className="text-sm font-bold tabular text-accent-blue mt-0.5">
-            ₩{fmtKRW(c.min_target_krw)}
-          </div>
-          <div className="text-[9px] text-text-dim truncate mt-0.5">
-            {c.min_broker}
-          </div>
-        </div>
-      </div>
+      )}
 
       {/* 자세히 보기 + 출처 + disclaimer */}
       <Link

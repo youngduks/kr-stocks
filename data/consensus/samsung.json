@@ -5,261 +5,104 @@
   "name_en": "Samsung Electronics",
   "updated_at": "2026-08-08T10:29:43.571Z",
   "consensus": {
-    "avg_target_krw": 493542,
-    "median_target_krw": 330000,
-    "max_target_krw": 400000,
-    "max_broker": "미래에셋",
-    "min_target_krw": 300000,
-    "min_broker": "iM증권",
-    "opinion_count": 30,
-    "broker_count": 13
+    "avg_target_krw": 493542
   },
-  "opinion_distribution": {
-    "강력매수": 1,
-    "매수": 12,
-    "비중확대": 0,
-    "중립": 0,
-    "비중축소": 0,
-    "매도": 0
-  },
-  "brokers": [
-    {
-      "broker": "미래에셋",
-      "broker_en": "Mirae Asset",
-      "opinion": "매수",
-      "target_krw": 400000,
-      "report_date": "2026-05-06"
-    },
-    {
-      "broker": "SK증권",
-      "broker_en": "SK Securities",
-      "opinion": "매수",
-      "target_krw": 400000,
-      "report_date": "2026-05-05"
-    },
-    {
-      "broker": "유진투자",
-      "broker_en": "Eugene Investment",
-      "opinion": "강력매수",
-      "target_krw": 360000,
-      "report_date": "2026-05-05"
-    },
-    {
-      "broker": "IBK",
-      "broker_en": "IBK Securities",
-      "opinion": "매수",
-      "target_krw": 350000,
-      "report_date": "2026-05-04"
-    },
-    {
-      "broker": "유안타",
-      "broker_en": "Yuanta Securities",
-      "opinion": "매수",
-      "target_krw": 340000,
-      "report_date": "2026-05-04"
-    },
-    {
-      "broker": "키움",
-      "broker_en": "Kiwoom Securities",
-      "opinion": "매수",
-      "target_krw": 330000,
-      "report_date": "2026-05-03"
-    },
-    {
-      "broker": "교보",
-      "broker_en": "Kyobo Securities",
-      "opinion": "매수",
-      "target_krw": 330000,
-      "report_date": "2026-05-03"
-    },
-    {
-      "broker": "한화",
-      "broker_en": "Hanwha Investment",
-      "opinion": "매수",
-      "target_krw": 330000,
-      "report_date": "2026-05-02"
-    },
-    {
-      "broker": "하나",
-      "broker_en": "Hana Securities",
-      "opinion": "매수",
-      "target_krw": 330000,
-      "report_date": "2026-05-02"
-    },
-    {
-      "broker": "대신",
-      "broker_en": "Daishin Securities",
-      "opinion": "매수",
-      "target_krw": 330000,
-      "report_date": "2026-05-01"
-    },
-    {
-      "broker": "iM증권",
-      "broker_en": "iM Securities",
-      "opinion": "매수",
-      "target_krw": 300000,
-      "report_date": "2026-04-30"
-    },
-    {
-      "broker": "신한",
-      "broker_en": "Shinhan Securities",
-      "opinion": "매수",
-      "target_krw": 300000,
-      "report_date": "2026-04-29"
-    },
-    {
-      "broker": "DS",
-      "broker_en": "DS Investment",
-      "opinion": "매수",
-      "target_krw": 300000,
-      "report_date": "2026-04-28"
-    }
-  ],
   "history": [
     {
-      "date": "2026-04-15",
-      "avg_target_krw": 315000,
-      "opinion_count": 7
-    },
-    {
-      "date": "2026-04-20",
-      "avg_target_krw": 320000,
-      "opinion_count": 8
-    },
-    {
-      "date": "2026-04-25",
-      "avg_target_krw": 328000,
-      "opinion_count": 10
-    },
-    {
-      "date": "2026-05-01",
-      "avg_target_krw": 335000,
-      "opinion_count": 12
-    },
-    {
-      "date": "2026-05-06",
-      "avg_target_krw": 338462,
-      "opinion_count": 13
-    },
-    {
       "date": "2026-06-18",
-      "avg_target_krw": 455833,
-      "opinion_count": 30
+      "avg_target_krw": 455833
     },
     {
       "date": "2026-06-19",
-      "avg_target_krw": 457917,
-      "opinion_count": 30
+      "avg_target_krw": 457917
     },
     {
       "date": "2026-06-23",
-      "avg_target_krw": 461250,
-      "opinion_count": 30
+      "avg_target_krw": 461250
     },
     {
       "date": "2026-06-24",
-      "avg_target_krw": 466875,
-      "opinion_count": 30
+      "avg_target_krw": 466875
     },
     {
       "date": "2026-06-26",
-      "avg_target_krw": 467708,
-      "opinion_count": 30
+      "avg_target_krw": 467708
     },
     {
       "date": "2026-06-30",
-      "avg_target_krw": 471042,
-      "opinion_count": 30
+      "avg_target_krw": 471042
     },
     {
       "date": "2026-07-01",
-      "avg_target_krw": 480625,
-      "opinion_count": 30
+      "avg_target_krw": 480625
     },
     {
       "date": "2026-07-02",
-      "avg_target_krw": 501458,
-      "opinion_count": 30
+      "avg_target_krw": 501458
     },
     {
       "date": "2026-07-06",
-      "avg_target_krw": 505625,
-      "opinion_count": 30
+      "avg_target_krw": 505625
     },
     {
       "date": "2026-07-07",
-      "avg_target_krw": 508958,
-      "opinion_count": 30
+      "avg_target_krw": 508958
     },
     {
       "date": "2026-07-09",
-      "avg_target_krw": 513958,
-      "opinion_count": 30
+      "avg_target_krw": 513958
     },
     {
       "date": "2026-07-10",
-      "avg_target_krw": 513958,
-      "opinion_count": 30
+      "avg_target_krw": 513958
     },
     {
       "date": "2026-07-13",
-      "avg_target_krw": 513958,
-      "opinion_count": 30
+      "avg_target_krw": 513958
     },
     {
       "date": "2026-07-14",
-      "avg_target_krw": 513958,
-      "opinion_count": 30
+      "avg_target_krw": 513958
     },
     {
       "date": "2026-07-15",
-      "avg_target_krw": 513958,
-      "opinion_count": 30
+      "avg_target_krw": 513958
     },
     {
       "date": "2026-07-16",
-      "avg_target_krw": 513958,
-      "opinion_count": 30
+      "avg_target_krw": 513958
     },
     {
       "date": "2026-07-20",
-      "avg_target_krw": 513958,
-      "opinion_count": 30
+      "avg_target_krw": 513958
     },
     {
       "date": "2026-07-23",
-      "avg_target_krw": 513958,
-      "opinion_count": 30
+      "avg_target_krw": 513958
     },
     {
       "date": "2026-07-27",
-      "avg_target_krw": 513958,
-      "opinion_count": 30
+      "avg_target_krw": 513958
     },
     {
       "date": "2026-07-28",
-      "avg_target_krw": 513958,
-      "opinion_count": 30
+      "avg_target_krw": 513958
     },
     {
       "date": "2026-07-30",
-      "avg_target_krw": 506458,
-      "opinion_count": 30
+      "avg_target_krw": 506458
     },
     {
       "date": "2026-07-31",
-      "avg_target_krw": 501042,
-      "opinion_count": 30
+      "avg_target_krw": 501042
     },
     {
       "date": "2026-08-03",
-      "avg_target_krw": 493542,
-      "opinion_count": 30
+      "avg_target_krw": 493542
     },
     {
       "date": "2026-08-08",
-      "avg_target_krw": 493542,
-      "opinion_count": 30
+      "avg_target_krw": 493542
     }
   ],
   "naver_snapshot": {

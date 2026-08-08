@@ -102,20 +102,22 @@ async function main() {
       data.naver_snapshot = snap;
       // 메인 카드(평균 목표가)도 여기서 같이 갱신 — 안 그러면 consensus.avg_target_krw가
       // brokers 배열 최초 시딩 시점(2026-05)에 영원히 고정됨. 실측(8/8): 삼성전자 33.8만원
-      // (5월 고정값) vs 네이버 실제 49.3만원 — 46% 괴리. median/max/min/opinion_count는
-      // 개별 리포트(brokers 배열, PDF라 자동추출 불가) 기반이라 여기선 손대지 않음 —
-      // ConsensusView 쪽에서 "리포트 스냅샷 기준일"을 별도 표기해 avg와 vintage가
-      // 다르다는 걸 명시함.
+      // (5월 고정값) vs 네이버 실제 49.3만원 — 46% 괴리.
+      // median/max/min/opinion_count/brokers/opinion_distribution 은 PDF 리포트에서만
+      // 나오는 값이라 자동 갱신이 불가능했고, 평균만 갱신되자 "평균 > 최고" 라는 산술적
+      // 모순이 3종목 전부에 노출됐다 → 2026-08-08 형님 지시로 데이터·화면에서 전부 제거.
+      // 이 스크립트가 채우는 값만 사이트에 남아 있으므로 여기 없는 필드는 되살리지 말 것.
       data.consensus.avg_target_krw = snap.avg_target_krw;
       // history 보강: 같은 날 동일 avg면 추가 안 함
       const today = new Date().toISOString().slice(0, 10);
       const lastHist = data.history?.[data.history.length - 1];
       if (!lastHist || lastHist.date !== today || lastHist.avg_target_krw !== snap.avg_target_krw) {
         data.history = data.history || [];
+        // opinion_count 는 리포트 파생값이라 매 스냅샷에 같은 수가 복사되기만 했음
+        // → 표시도 안 하고 의미도 없어 기록 중단(2026-08-08).
         data.history.push({
           date: today,
           avg_target_krw: snap.avg_target_krw,
-          opinion_count: data.consensus?.opinion_count ?? 0,
         });
         if (data.history.length > 60) data.history = data.history.slice(-60);
       }

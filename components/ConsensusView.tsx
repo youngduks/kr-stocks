@@ -22,7 +22,8 @@ const I18N = {
     upsideRef: "증권사 평균 대비",
     upsideArrow: "→",
     distribution: "투자의견 분포",
-    latestReports: "증권사별 최신 분석",
+    latestReports: "증권사별 개별 리포트",
+    reportSnapshotAsOf: "리포트 스냅샷 기준일",
     broker: "증권사",
     opinion: "투자의견",
     target: "목표가",
@@ -59,7 +60,8 @@ const I18N = {
     upsideRef: "vs avg broker target",
     upsideArrow: "→",
     distribution: "Opinion distribution",
-    latestReports: "Latest broker reports",
+    latestReports: "Individual broker reports",
+    reportSnapshotAsOf: "Report snapshot as of",
     broker: "Broker",
     opinion: "Opinion",
     target: "Target",
@@ -148,6 +150,13 @@ export function ConsensusView({
 
   const c = active.consensus;
   const displayName = locale === "en" ? active.name_en : active.name_ko;
+  // median/max/min/의견분포는 개별 리포트(brokers 배열) 기반 — PDF라 자동추출 불가해
+  // avg_target_krw(네이버 종합, 매일 갱신)와 달리 리포트가 새로 시딩될 때만 바뀜.
+  // 두 숫자의 시점이 다르다는 걸 감춰선 안 되므로 기준일을 명시한다.
+  const latestReportDate = active.brokers.reduce<string | null>(
+    (max, b) => (!max || b.report_date > max ? b.report_date : max),
+    null,
+  );
 
   // 추이 차트 — minmax normalize → SVG sparkline
   const histVals = active.history.map((h) => h.avg_target_krw);
@@ -336,6 +345,15 @@ export function ConsensusView({
           </div>
         </div>
       </div>
+      {latestReportDate && (
+        // 평균 목표가는 네이버 종합에서 매일 갱신되지만, 중앙값/최고/최저/의견수는
+        // 개별 리포트(브로커별 PDF) 집계라 리포트가 새로 나올 때만 바뀐다 — 두 시점이
+        // 다르다는 걸 명시하지 않으면 "평균이 최고보다 높다" 같은 모순으로 보일 수 있음.
+        <p className="text-[10px] text-text-dim -mt-1">
+          {t.median} · {t.max} · {t.min} · {t.opinionCount}: {t.reportSnapshotAsOf}{" "}
+          {fmtDate(latestReportDate, locale)}
+        </p>
+      )}
 
       {/* Cross-link: 종목 상세 페이지로 (USP 발견율 ↑) */}
       <Link
@@ -456,8 +474,13 @@ export function ConsensusView({
 
       {/* 증권사별 테이블 */}
       <div className="bg-bg-card border border-line rounded-xl overflow-hidden">
-        <div className="px-5 py-3 border-b border-line text-xs text-text-dim">
-          {t.latestReports} ({active.brokers.length})
+        <div className="px-5 py-3 border-b border-line text-xs text-text-dim flex items-center justify-between flex-wrap gap-1">
+          <span>{t.latestReports} ({active.brokers.length})</span>
+          {latestReportDate && (
+            <span className="text-[10px]">
+              {t.reportSnapshotAsOf} {fmtDate(latestReportDate, locale)}
+            </span>
+          )}
         </div>
         <div className="overflow-x-auto">
           <table className="w-full text-sm">

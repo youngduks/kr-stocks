@@ -110,6 +110,67 @@ const NEGATIVE_KEYWORDS = [
 const MAX_PER_CATEGORY = 50;
 
 // ─────────────────────────────────────────────────────────────
+// 기업공시 (네이버증권 종목별 공시 페이지 — DART 원문이 KOSCOM 시세망을 거쳐
+// 중계되는 걸 그대로 노출하는 페이지. DART 오픈API 키 등록 없이 동일 정보 확보,
+// 2026-08-08 형님 지시로 DART API 대신 이 경로로 진행)
+// ─────────────────────────────────────────────────────────────
+
+const DISCLOSURE_TARGETS = [
+  { cat: "samsung", ticker: "005930" },
+  { cat: "hynix", ticker: "000660" },
+  { cat: "hyundai", ticker: "005380" },
+];
+
+// 같은 페이지에 파생상품(주식선물·옵션) 가격제한폭 도달 알림이 섞여 나옴 — 이건
+// 시세 시스템의 기계적 알림이라 기업의 실제 경영행위(배당/실적/증자 등)가 아님
+// (2026-08-08 실측: 삼성전자 최근 10건 중 4건이 이 유형).
+const DISCLOSURE_NOISE_KEYWORDS = ["가격제한폭"];
+
+async function fetchNaverDisclosures({ cat, ticker }) {
+  const url = `https://finance.naver.com/item/news_notice.naver?code=${ticker}`;
+  try {
+    const res = await fetch(url, {
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        Referer: "https://finance.naver.com/",
+      },
+      signal: AbortSignal.timeout(15000),
+    });
+    if (!res.ok) {
+      console.warn(`[disclosure:${cat}] HTTP ${res.status}`);
+      return [];
+    }
+    // 네이버 금융은 EUC-KR — fetch 기본 디코딩(UTF-8 가정)이면 한글 깨짐
+    const buf = new Uint8Array(await res.arrayBuffer());
+    const html = new TextDecoder("euc-kr").decode(buf);
+
+    const items = [];
+    const rowRe =
+      /<a[^>]*href="(\/item\/news_notice_read\.naver\?no=\d+&code=\d+[^"]*)"[^>]*>([^<]+)<\/a>[\s\S]*?<td[^>]*>\s*(?:<[^>]+>)*\s*([0-9]{4}\.[0-9]{2}\.[0-9]{2})/g;
+    let m;
+    while ((m = rowRe.exec(html))) {
+      const [, href, titleRaw, dateStr] = m;
+      const title = titleRaw.trim();
+      if (DISCLOSURE_NOISE_KEYWORDS.some((k) => title.includes(k))) continue;
+      const ts = Date.parse(dateStr.replace(/\./g, "-")) || Date.now();
+      items.push({
+        title,
+        link: `https://finance.naver.com${href}`,
+        source: "전자공시(DART)",
+        ts,
+        pub: dateStr,
+      });
+    }
+    console.log(`[disclosure:${cat}] fetched ${items.length} items`);
+    return items.map((it) => ({ ...it, _cat: cat }));
+  } catch (err) {
+    console.warn(`[disclosure:${cat}] fetch failed: ${err.message}`);
+    return [];
+  }
+}
+
+// ─────────────────────────────────────────────────────────────
 // 단순 RSS 파싱 — native (DOMParser/regex)
 // ─────────────────────────────────────────────────────────────
 
@@ -287,6 +348,16 @@ async function main() {
       sentiment: classifySentiment(a.title), // 5/26: 호재/악재/중립 분류
     };
     for (const c of cats) buckets[c].push(entry);
+  }
+
+  // 기업공시 병합 — 뉴스와 같은 버킷에 섞어 넣어 카드 UI를 그대로 재사용
+  // (별도 탭 안 만듦, 2026-08-08 형님 지시)
+  const disclosureLists = await Promise.all(
+    DISCLOSURE_TARGETS.map(fetchNaverDisclosures),
+  );
+  for (const list of disclosureLists.flat()) {
+    const { _cat, ...entry } = list;
+    buckets[_cat].push(entry);
   }
 
   // Sort + truncate

@@ -1,6 +1,63 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-08-08T10:19:22.287Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-08-08T10:41:22.064Z",
+  "count": 8,
+  "items": [
+    {
+      "title": "현대자동차(주) 영업(잠정)실적(공정공시)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=90578032&code=005380&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1785715200000,
+      "pub": "2026.08.03"
+    },
+    {
+      "title": "현대자동차(주) 풍문 또는 보도에 대한 해명(미확정)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=88598795&code=005380&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1785456000000,
+      "pub": "2026.07.31"
+    },
+    {
+      "title": "현대자동차(주) 풍문 또는 보도에 대한 해명(미확정)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=82554518&code=005380&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1785283200000,
+      "pub": "2026.07.29"
+    },
+    {
+      "title": "현대자동차(주) 생산중단",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=78962652&code=005380&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1784851200000,
+      "pub": "2026.07.24"
+    },
+    {
+      "title": "현대자동차(주) 공정거래 자율준수프로그램 운영현황(안내공시)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=76798800&code=005380&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1784764800000,
+      "pub": "2026.07.23"
+    },
+    {
+      "title": "현대자동차(주) 자기주식 처분 결정",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=76766151&code=005380&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1784764800000,
+      "pub": "2026.07.23"
+    },
+    {
+      "title": "현대자동차(주) 현금ㆍ현물 배당 결정",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=76455939&code=005380&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1784764800000,
+      "pub": "2026.07.23"
+    },
+    {
+      "title": "현대자동차(주) 현금ㆍ현물배당을 위한 주주명부폐쇄(기준일) 결정",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=76449946&code=005380&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1784764800000,
+      "pub": "2026.07.23"
+    }
+  ]
 }

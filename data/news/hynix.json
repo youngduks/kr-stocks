@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-08T10:19:22.286Z",
-  "count": 11,
+  "updated_at": "2026-08-08T10:41:22.063Z",
+  "count": 17,
   "items": [
     {
       "title": "블룸버그 \"SK하이닉스, 中 충칭 패키징 공장 지분 매각 검토\"",
@@ -90,6 +90,48 @@
       "ts": 1786063240000,
       "pub": "Fri, 7 Aug 2026 09:40:40 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "에스케이하이닉스(주) 자기주식 처분 결정",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=97978101&code=000660&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1786060800000,
+      "pub": "2026.08.07"
+    },
+    {
+      "title": "에스케이하이닉스(주) 신규시설투자등",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=97947414&code=000660&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1786060800000,
+      "pub": "2026.08.07"
+    },
+    {
+      "title": "에스케이하이닉스(주) 신규시설투자등",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=97945721&code=000660&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1786060800000,
+      "pub": "2026.08.07"
+    },
+    {
+      "title": "에스케이하이닉스(주) 현금ㆍ현물배당을 위한 주주명부폐쇄(기준일) 결정",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=97910439&code=000660&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1786060800000,
+      "pub": "2026.08.07"
+    },
+    {
+      "title": "에스케이하이닉스(주) 현금ㆍ현물 배당 결정",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=97908770&code=000660&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1786060800000,
+      "pub": "2026.08.07"
+    },
+    {
+      "title": "에스케이하이닉스(주) 풍문 또는 보도에 대한 해명(미확정)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=93366653&code=000660&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1785888000000,
+      "pub": "2026.08.05"
     }
   ]
 }

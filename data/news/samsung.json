@@ -1,7 +1,7 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-08T13:36:57.348Z",
-  "count": 13,
+  "updated_at": "2026-08-08T14:21:35.663Z",
+  "count": 15,
   "items": [
     {
       "title": "삼전닉스 '성과급 공식' 흔들리나…'영업익 N%' 입법 전쟁 [김대영의 노무스쿨]",
@@ -12,11 +12,27 @@
       "sentiment": "neutral"
     },
     {
+      "title": "삼전닉스 낸드 훈풍 이어지나..샌디스크 \"물량 없어 못 번다\" 공식화",
+      "link": "https://www.mt.co.kr/industry/2026/08/08/2026080715300138850",
+      "source": "머니투데이",
+      "ts": 1786170600000,
+      "pub": "Sat, 08 Aug 2026 15:30:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "CXMT가 턱밑까지?…삼전·하닉에 남은 '반전 카드' 있었다",
       "link": "https://www.hankyung.com/article/202608071526i",
       "source": "한국경제",
       "ts": 1786170482000,
       "pub": "Sat, 08 Aug 2026 15:28:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "메모리반도체 품귀에 '장기계약' 러시..샌디스크·난야도 LTA 확대",
+      "link": "https://www.mt.co.kr/industry/2026/08/08/2026080714455982199",
+      "source": "머니투데이",
+      "ts": 1786168837000,
+      "pub": "Sat, 08 Aug 2026 15:00:37 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-08T18:20:31.208Z",
-  "count": 24,
+  "updated_at": "2026-08-08T19:20:20.102Z",
+  "count": 22,
   "items": [
+    {
+      "title": "\"트럼프, 혹시 부분가발 썼나?\"…'풍성 금발'에 시선 집중",
+      "link": "https://www.yna.co.kr/view/AKR20260809002000071",
+      "source": "연합뉴스 국제",
+      "ts": 1786214848000,
+      "pub": "Sun, 9 Aug 2026 03:47:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "불가리아 영공 침범한 드론 폭발…우크라 모델 추정(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260809000551108",
+      "source": "연합뉴스 국제",
+      "ts": 1786214426000,
+      "pub": "Sun, 9 Aug 2026 03:40:26 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "젤렌스키, '러와 가까운' 세르비아 첫 공식 방문",
       "link": "https://www.yna.co.kr/view/AKR20260809001400085",
@@ -25,14 +41,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786196151000,
       "pub": "Sat, 8 Aug 2026 22:35:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'前 트럼프 변호사' 법무장관 후보자 인준안, 美 상원 50대 49로 통과",
-      "link": "https://www.mt.co.kr/world/2026/08/08/2026080821411683630",
-      "source": "머니투데이",
-      "ts": 1786193755000,
-      "pub": "Sat, 08 Aug 2026 21:55:55 +0900",
       "sentiment": "neutral"
     },
     {
@@ -65,22 +73,6 @@
       "source": "한국경제",
       "ts": 1786178143000,
       "pub": "Sat, 08 Aug 2026 17:35:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 30억달러 규모 핵심 광물 투자 발표…\"중국 의존 없도록\"",
-      "link": "https://www.mt.co.kr/world/2026/08/08/2026080814265498266",
-      "source": "머니투데이",
-      "ts": 1786169595000,
-      "pub": "Sat, 08 Aug 2026 15:13:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'尹 탄핵반대' 손현보 목사 트럼프 대통령과 면담…\"힘 합쳐 자유 지켜야\"",
-      "link": "https://www.mt.co.kr/economy/2026/08/08/2026080813590695857",
-      "source": "머니투데이",
-      "ts": 1786166249000,
-      "pub": "Sat, 08 Aug 2026 14:17:29 +0900",
       "sentiment": "neutral"
     },
     {
@@ -185,14 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786108473000,
       "pub": "Fri, 7 Aug 2026 22:14:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "정상회담 앞 미중 무역갈등 고조…시진핑 방미 영향받나",
-      "link": "https://www.yna.co.kr/view/AKR20260807116700009",
-      "source": "연합뉴스 국제",
-      "ts": 1786086556000,
-      "pub": "Fri, 7 Aug 2026 16:09:16 +0900",
       "sentiment": "neutral"
     }
   ]

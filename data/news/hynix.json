@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-08T18:20:31.248Z",
-  "count": 17,
+  "updated_at": "2026-08-08T19:20:20.103Z",
+  "count": 16,
   "items": [
+    {
+      "title": "AI인프라에 주목하는 엔비디아…전력업체 랜시엄에 4조원 투자",
+      "link": "https://www.yna.co.kr/view/AKR20260809001600075",
+      "source": "연합뉴스 국제",
+      "ts": 1786213349000,
+      "pub": "Sun, 9 Aug 2026 03:22:29 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "블룸버그 \"SK하이닉스, 中 충칭 패키징 공장 지분 매각 검토\"",
       "link": "https://www.hankyung.com/article/2026080820317",
@@ -20,27 +28,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "삼전닉스 낸드 훈풍 이어지나..샌디스크 \"물량 없어 못 번다\" 공식화",
-      "link": "https://www.mt.co.kr/industry/2026/08/08/2026080715300138850",
-      "source": "머니투데이",
-      "ts": 1786170600000,
-      "pub": "Sat, 08 Aug 2026 15:30:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "CXMT가 턱밑까지?…삼전·하닉에 남은 '반전 카드' 있었다",
       "link": "https://www.hankyung.com/article/202608071526i",
       "source": "한국경제",
       "ts": 1786170482000,
       "pub": "Sat, 08 Aug 2026 15:28:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "메모리반도체 품귀에 '장기계약' 러시..샌디스크·난야도 LTA 확대",
-      "link": "https://www.mt.co.kr/industry/2026/08/08/2026080714455982199",
-      "source": "머니투데이",
-      "ts": 1786168837000,
-      "pub": "Sat, 08 Aug 2026 15:00:37 +0900",
       "sentiment": "neutral"
     },
     {

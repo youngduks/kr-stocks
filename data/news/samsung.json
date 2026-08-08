@@ -1,10 +1,18 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-08T04:02:28.154Z",
-  "count": 8,
+  "updated_at": "2026-08-08T05:33:51.636Z",
+  "count": 7,
   "items": [
     {
-      "title": "삼전·하닉은 월가 'ATM'이었다?...메모리 저승사자 \"이제 살때\" [빈난새의 빈틈없이마켓]",
+      "title": "\"반도체 근원 경쟁력 회복 신호탄\"…삼성, 3D HBM 승부수 [강경주의 테크X]",
+      "link": "https://www.hankyung.com/article/2026080710996",
+      "source": "한국경제",
+      "ts": 1786165205000,
+      "pub": "Sat, 08 Aug 2026 14:00:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "월가 'ATM' 된 삼전닉스?…반도체 저승사자도 \"이젠 살 때\" [빈난새의 빈틈없이마켓]",
       "link": "https://www.hankyung.com/article/202608071501i",
       "source": "한국경제",
       "ts": 1786158109000,
@@ -12,15 +20,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"땡큐 트럼프\"…삼전닉스 10%대 급락 때 이 업종 달렸다[김근희의 증시랩업]",
-      "link": "https://www.mt.co.kr/stock/2026/08/08/2026080717155476003",
-      "source": "머니투데이",
-      "ts": 1786149000000,
-      "pub": "Sat, 08 Aug 2026 09:30:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "리센느 원이도 \"갤럭시 야호~\"⋯아이폰 쓰던 女 돌변한 까닭 [홍민성의 테토남]",
+      "title": "\"아이폰 '중티' 나요\" 갤럭시 쓰는 女 늘더니…'놀라운 결과' [홍민성의 테토남]",
       "link": "https://www.hankyung.com/article/202608079983g",
       "source": "한국경제",
       "ts": 1786147210000,
@@ -33,14 +33,6 @@
       "source": "한국경제",
       "ts": 1786143613000,
       "pub": "Sat, 08 Aug 2026 08:00:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[더차트] 상반기 배당 큰손은 이재용…배당금 727억, 개인 1위",
-      "link": "https://www.mt.co.kr/economy/2026/08/08/2026080610043143513",
-      "source": "머니투데이",
-      "ts": 1786136940000,
-      "pub": "Sat, 08 Aug 2026 06:09:00 +0900",
       "sentiment": "neutral"
     },
     {

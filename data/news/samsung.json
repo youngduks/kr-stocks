@@ -1,15 +1,15 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-09T13:40:07.392Z",
-  "count": 12,
+  "updated_at": "2026-08-09T14:23:00.760Z",
+  "count": 13,
   "items": [
     {
-      "title": "모건스탠리 \"가파른 조정 끝…메모리주 지금이 재진입 기회\"",
+      "title": "삼전닉스 급락 맞힌 '반도체 저승사자'…\"이젠 사야할 때\"",
       "link": "https://www.hankyung.com/article/2026080929927",
       "source": "한국경제",
       "ts": 1786280118000,
       "pub": "Sun, 09 Aug 2026 21:55:18 +0900",
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "title": "모건스탠리 \"메모리주 가파른 조정 끝났다…재진입 매력적\"",
@@ -25,6 +25,14 @@
       "source": "한국경제",
       "ts": 1786266453000,
       "pub": "Sun, 09 Aug 2026 18:07:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 광풍 속…소외 중소형주 주목한 리포트",
+      "link": "https://www.mt.co.kr/stock/2026/08/09/2026080913512094303",
+      "source": "머니투데이",
+      "ts": 1786256847000,
+      "pub": "Sun, 09 Aug 2026 15:27:27 +0900",
       "sentiment": "neutral"
     },
     {

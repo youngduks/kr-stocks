@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-09T11:19:24.956Z",
-  "count": 19,
+  "updated_at": "2026-08-09T12:24:34.024Z",
+  "count": 17,
   "items": [
+    {
+      "title": "트럼프 인맥 美석유사 시추장비 무단반입…그린란드 \"엄중 경고\"",
+      "link": "https://www.yna.co.kr/view/AKR20260809050100009",
+      "source": "연합뉴스 국제",
+      "ts": 1786276064000,
+      "pub": "Sun, 9 Aug 2026 20:47:44 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "우크라, '40일 작전' 성공 선언…\"러 물류망 17조원 손실\"",
       "link": "https://www.yna.co.kr/view/AKR20260809039600109",
@@ -129,30 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786138712000,
       "pub": "Sat, 8 Aug 2026 06:38:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 측근' 故그레이엄 의원의 러·이란 제재법안 상원 통과",
-      "link": "https://www.yna.co.kr/view/AKR20260808003700071",
-      "source": "연합뉴스 국제",
-      "ts": 1786128089000,
-      "pub": "Sat, 8 Aug 2026 03:41:29 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "美법원, 백악관 연회장 공사에 또 제동…트럼프 \"정치적 판결\"",
-      "link": "https://www.yna.co.kr/view/AKR20260808002900071",
-      "source": "연합뉴스 국제",
-      "ts": 1786127734000,
-      "pub": "Sat, 8 Aug 2026 03:35:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 대법원 제동에도 '눈엣가시' 연준 이사 해임 재추진",
-      "link": "https://www.yna.co.kr/view/AKR20260808003500071",
-      "source": "연합뉴스 국제",
-      "ts": 1786127395000,
-      "pub": "Sat, 8 Aug 2026 03:29:55 +0900",
       "sentiment": "neutral"
     }
   ]

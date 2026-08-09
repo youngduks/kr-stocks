@@ -1,14 +1,38 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-08T23:16:54.743Z",
-  "count": 22,
+  "updated_at": "2026-08-09T00:48:37.295Z",
+  "count": 26,
   "items": [
+    {
+      "title": "\"바이든 전 대통령, 암 퍼져 뼈 안팎으로 전이…고통스럽고 쇠약\"",
+      "link": "https://www.mt.co.kr/world/2026/08/09/2026080907252136248",
+      "source": "머니투데이",
+      "ts": 1786228588000,
+      "pub": "Sun, 09 Aug 2026 07:36:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'반도체 원료' 폴리실리콘에 美 15% 관세… 영향 적고 반사이익 기대",
+      "link": "https://www.mt.co.kr/economy/2026/08/09/2026080713044738548",
+      "source": "머니투데이",
+      "ts": 1786227780000,
+      "pub": "Sun, 09 Aug 2026 07:23:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "바이든 차남 \"아버지, 암 전이돼 고통스럽게 투병 중\"",
       "link": "https://www.yna.co.kr/view/AKR20260809005900009",
       "source": "연합뉴스 국제",
       "ts": 1786227140000,
       "pub": "Sun, 9 Aug 2026 07:12:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 '셧다운 방지' 임시예산안 상원 통과…'트럼프표' 유권자ID법 또 무산",
+      "link": "https://www.mt.co.kr/world/2026/08/09/2026080906003256436",
+      "source": "머니투데이",
+      "ts": 1786223174000,
+      "pub": "Sun, 09 Aug 2026 06:06:14 +0900",
       "sentiment": "neutral"
     },
     {
@@ -49,6 +73,14 @@
       "source": "연합뉴스 국제",
       "ts": 1786196151000,
       "pub": "Sat, 8 Aug 2026 22:35:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'前 트럼프 변호사' 법무장관 후보자 인준안, 美 상원 50대 49로 통과",
+      "link": "https://www.mt.co.kr/world/2026/08/08/2026080821411683630",
+      "source": "머니투데이",
+      "ts": 1786193755000,
+      "pub": "Sat, 08 Aug 2026 21:55:55 +0900",
       "sentiment": "neutral"
     },
     {

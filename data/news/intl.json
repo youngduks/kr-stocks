@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-09T08:28:36.077Z",
-  "count": 16,
+  "updated_at": "2026-08-09T09:27:43.480Z",
+  "count": 17,
   "items": [
+    {
+      "title": "'尹 탄핵 반대 집회 주도'…손현보 목사, 트럼프 만나",
+      "link": "https://www.hankyung.com/article/2026080928681",
+      "source": "한국경제",
+      "ts": 1786266729000,
+      "pub": "Sun, 09 Aug 2026 18:12:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI 병목 '핵심 광물'…트럼프 4.2조원 투자",
+      "link": "https://www.hankyung.com/article/2026080928141",
+      "source": "한국경제",
+      "ts": 1786266604000,
+      "pub": "Sun, 09 Aug 2026 18:10:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕·상하이 증시, 7월 CPI 공개…Fed 금리 향방 갈라",
+      "link": "https://www.hankyung.com/article/2026080928361",
+      "source": "한국경제",
+      "ts": 1786266172000,
+      "pub": "Sun, 09 Aug 2026 18:02:52 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "바이든 차남 \"아버지, 암 전이돼 고통스럽게 투병 중\"",
       "link": "https://www.yna.co.kr/view/AKR20260809005900009",
@@ -113,22 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786127395000,
       "pub": "Sat, 8 Aug 2026 03:29:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 충성파' 美법무 인준 다시 청신호…과반 찬성표 확보(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260807159351071",
-      "source": "연합뉴스 국제",
-      "ts": 1786119617000,
-      "pub": "Sat, 8 Aug 2026 01:20:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"중국의 AI·암호화폐 장악 안돼…시진핑과 논의할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260808000800071",
-      "source": "연합뉴스 국제",
-      "ts": 1786116937000,
-      "pub": "Sat, 8 Aug 2026 00:35:37 +0900",
       "sentiment": "neutral"
     }
   ]

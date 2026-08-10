@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-10T18:40:17.100Z",
-  "count": 19,
+  "updated_at": "2026-08-10T19:46:14.187Z",
+  "count": 21,
   "items": [
+    {
+      "title": "젤렌스키 \"러, 북한군 추가 배치 준비…한국 등 위험 커져\"",
+      "link": "https://www.yna.co.kr/view/AKR20260811004700109",
+      "source": "연합뉴스 국제",
+      "ts": 1786389937000,
+      "pub": "Tue, 11 Aug 2026 04:25:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 휘발윳값 부담에 존스법 또 유예…중간선거 뒤로 연장",
+      "link": "https://www.yna.co.kr/view/AKR20260811004100071",
+      "source": "연합뉴스 경제",
+      "ts": 1786388908000,
+      "pub": "Tue, 11 Aug 2026 04:08:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 피해배상 요구에…트럼프 \"과거 폭탄테러 배상하라\" 맞불",
+      "link": "https://www.mt.co.kr/world/2026/08/11/2026081103083559391",
+      "source": "머니투데이",
+      "ts": 1786385496000,
+      "pub": "Tue, 11 Aug 2026 03:11:36 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"이란, 과거 폭탄테러·시위대 살해 배상하라\" 맞불",
       "link": "https://www.yna.co.kr/view/AKR20260811002300071",
@@ -145,14 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786327821000,
       "pub": "Mon, 10 Aug 2026 11:10:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러 '방공망 고갈' 우크라 곳곳 난타…최전선 점령지도 추가",
-      "link": "https://www.yna.co.kr/view/AKR20260810032900009",
-      "source": "연합뉴스 국제",
-      "ts": 1786322676000,
-      "pub": "Mon, 10 Aug 2026 09:44:36 +0900",
       "sentiment": "neutral"
     }
   ]

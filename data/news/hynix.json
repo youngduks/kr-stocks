@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-10T18:40:17.101Z",
-  "count": 19,
+  "updated_at": "2026-08-10T19:46:14.189Z",
+  "count": 20,
   "items": [
     {
       "title": "소니·TSMC, 9조원 들여 '이미지센서' 공장 합작 건설",
@@ -18,6 +18,14 @@
       "ts": 1786361306000,
       "pub": "Mon, 10 Aug 2026 20:28:26 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "대만 TSMC, 7월 매출 45%↑…사상 최대 또 경신",
+      "link": "https://www.mt.co.kr/world/2026/08/10/2026081019074393500",
+      "source": "머니투데이",
+      "ts": 1786357617000,
+      "pub": "Mon, 10 Aug 2026 19:26:57 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "TSMC, 7월 매출도 45% 증가…AI 투자 수요는 지속된다",

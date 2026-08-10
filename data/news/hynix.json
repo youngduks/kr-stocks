@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-10T14:11:15.931Z",
-  "count": 22,
+  "updated_at": "2026-08-10T15:47:48.810Z",
+  "count": 21,
   "items": [
     {
       "title": "소니·TSMC, 9조원 들여 '이미지센서' 공장 합작 건설",
@@ -20,6 +20,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "대만 TSMC, 7월 매출 45%↑…사상 최대 또 경신",
+      "link": "https://www.mt.co.kr/world/2026/08/10/2026081019074393500",
+      "source": "머니투데이",
+      "ts": 1786357617000,
+      "pub": "Mon, 10 Aug 2026 19:26:57 +0900",
+      "sentiment": "positive"
+    },
+    {
       "title": "TSMC, 7월 매출도 45% 증가…AI 투자 수요는 지속된다",
       "link": "https://www.hankyung.com/article/202608105222i",
       "source": "한국경제",
@@ -34,6 +42,14 @@
       "ts": 1786353693000,
       "pub": "Mon, 10 Aug 2026 18:21:33 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 레버리지로 5일간 40%대 수익…반등장선 낙폭 과대주 매수[서학픽]",
+      "link": "https://www.mt.co.kr/world/2026/08/10/2026081012242966923",
+      "source": "머니투데이",
+      "ts": 1786352700000,
+      "pub": "Mon, 10 Aug 2026 18:05:00 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "[특징주] 반도체 장비주, SK하이닉스 투자 규모 확정에 급등(종합)",
@@ -104,30 +120,6 @@
       "source": "전자공시(DART)",
       "ts": 1786320000000,
       "pub": "2026.08.10"
-    },
-    {
-      "title": "[中반도체굴기] ③ \"美제재가 키운 것만은 아냐\"…장기투자·인재도 동력",
-      "link": "https://www.yna.co.kr/view/AKR20260807159800083",
-      "source": "연합뉴스 국제",
-      "ts": 1786309822000,
-      "pub": "Mon, 10 Aug 2026 06:10:22 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[中반도체굴기] ② 14조원 '실탄' 쥔 CXMT, 심야에도 공장 건설 속도",
-      "link": "https://www.yna.co.kr/view/AKR20260808047500089",
-      "source": "연합뉴스 국제",
-      "ts": 1786309812000,
-      "pub": "Mon, 10 Aug 2026 06:10:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[中반도체굴기] ① 강력한 美제재 뚫고…'추격자'에서 '경쟁자'로",
-      "link": "https://www.yna.co.kr/view/AKR20260807114200083",
-      "source": "연합뉴스 국제",
-      "ts": 1786309802000,
-      "pub": "Mon, 10 Aug 2026 06:10:02 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "에스케이하이닉스(주) 자기주식 처분 결정",

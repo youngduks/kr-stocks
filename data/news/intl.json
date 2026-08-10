@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-10T14:11:15.929Z",
-  "count": 18,
+  "updated_at": "2026-08-10T15:47:48.808Z",
+  "count": 17,
   "items": [
+    {
+      "title": "\"폭발물 드론, 우크라 화물기 날개 때려…참사 날 뻔\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260810136251082",
+      "source": "연합뉴스 국제",
+      "ts": 1786375266000,
+      "pub": "Tue, 11 Aug 2026 00:21:06 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "러 총선 앞두고 우크라 공세…국경 1천㎞ 밖서도 대규모 사상자(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260810141651109",
+      "source": "연합뉴스 국제",
+      "ts": 1786374332000,
+      "pub": "Tue, 11 Aug 2026 00:05:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 법률고문에 문고리 비서관…중간선거뒤 野공세 대비하나(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260810106751009",
+      "source": "연합뉴스 국제",
+      "ts": 1786371672000,
+      "pub": "Mon, 10 Aug 2026 23:21:12 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'트럼프' 간판값 이 정도 였어?…1년 새 843억 '잭팟'",
       "link": "https://www.hankyung.com/article/202608105298i",
@@ -113,38 +137,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786322676000,
       "pub": "Mon, 10 Aug 2026 09:44:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 있던 골프장 비행제한구역에 민항기 침범…F-16 2대 출격",
-      "link": "https://www.yna.co.kr/view/AKR20260810006400071",
-      "source": "연합뉴스 국제",
-      "ts": 1786312821000,
-      "pub": "Mon, 10 Aug 2026 07:00:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란에 로키 대응\"…美언론들 \"경제압박 강화 시사\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260810001451071",
-      "source": "연합뉴스 국제",
-      "ts": 1786311947000,
-      "pub": "Mon, 10 Aug 2026 06:45:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 이란 강경 요구에 \"로키로 대응 중…이건 체스게임\"",
-      "link": "https://www.yna.co.kr/view/AKR20260810001400071",
-      "source": "연합뉴스 국제",
-      "ts": 1786299425000,
-      "pub": "Mon, 10 Aug 2026 03:17:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "백악관 해싯 \"식료품값·유가, 바라는 것보다 여전히 높아\"",
-      "link": "https://www.yna.co.kr/view/AKR20260810000800071",
-      "source": "연합뉴스 국제",
-      "ts": 1786293283000,
-      "pub": "Mon, 10 Aug 2026 01:34:43 +0900",
       "sentiment": "neutral"
     }
   ]

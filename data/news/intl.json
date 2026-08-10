@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-10T00:51:13.018Z",
-  "count": 23,
+  "updated_at": "2026-08-10T03:05:05.951Z",
+  "count": 15,
   "items": [
+    {
+      "title": "[영상] \"러군, 소총으로 자폭드론 격추\"…우크라 \"러 물류망 17조 손실\"",
+      "link": "https://www.yna.co.kr/view/AKR20260810072900704",
+      "source": "연합뉴스 국제",
+      "ts": 1786330149000,
+      "pub": "Mon, 10 Aug 2026 11:49:09 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "전직 美정보당국자들 \"트럼프 통치방식, 독재자와 비슷\"",
+      "link": "https://www.yna.co.kr/view/AKR20260810063300009",
+      "source": "연합뉴스 국제",
+      "ts": 1786327821000,
+      "pub": "Mon, 10 Aug 2026 11:10:21 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "러 '방공망 고갈' 우크라 곳곳 난타…최전선 점령지도 추가",
       "link": "https://www.yna.co.kr/view/AKR20260810032900009",
@@ -10,22 +26,6 @@
       "ts": 1786322676000,
       "pub": "Mon, 10 Aug 2026 09:44:36 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "골프 보던 트럼프 머리 위로 '민항기 침범'…전투기도 떴다",
-      "link": "https://www.hankyung.com/article/202608103153H",
-      "source": "한국경제",
-      "ts": 1786315464000,
-      "pub": "Mon, 10 Aug 2026 07:44:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 군사작전 대신 '경제 제재'로 이란 압박?…\"낮은 강도로 대응\"",
-      "link": "https://www.mt.co.kr/world/2026/08/10/2026081006502796791",
-      "source": "머니투데이",
-      "ts": 1786313933000,
-      "pub": "Mon, 10 Aug 2026 07:18:53 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "트럼프 있던 골프장 비행제한구역에 민항기 침범…F-16 2대 출격",
@@ -41,14 +41,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786311947000,
       "pub": "Mon, 10 Aug 2026 06:45:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"가자 15개항 로드맵 수용 불가\" 네타냐후, 트럼프에 또 반기",
-      "link": "https://www.mt.co.kr/world/2026/08/10/2026081005593058529",
-      "source": "머니투데이",
-      "ts": 1786310870000,
-      "pub": "Mon, 10 Aug 2026 06:27:50 +0900",
       "sentiment": "neutral"
     },
     {
@@ -129,62 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786227140000,
       "pub": "Sun, 9 Aug 2026 07:12:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 혹시 부분가발 썼나?\"…'풍성 금발'에 시선 집중",
-      "link": "https://www.yna.co.kr/view/AKR20260809002000071",
-      "source": "연합뉴스 국제",
-      "ts": 1786214848000,
-      "pub": "Sun, 9 Aug 2026 03:47:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "불가리아 영공 침범한 드론 폭발…우크라 모델 추정(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260809000551108",
-      "source": "연합뉴스 국제",
-      "ts": 1786214426000,
-      "pub": "Sun, 9 Aug 2026 03:40:26 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "젤렌스키, '러와 가까운' 세르비아 첫 공식 방문",
-      "link": "https://www.yna.co.kr/view/AKR20260809001400085",
-      "source": "연합뉴스 국제",
-      "ts": 1786208873000,
-      "pub": "Sun, 9 Aug 2026 02:07:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "불가리아 영공 침범한 드론 폭발…우크라 모델 추정",
-      "link": "https://www.yna.co.kr/view/AKR20260809000500108",
-      "source": "연합뉴스 국제",
-      "ts": 1786203911000,
-      "pub": "Sun, 9 Aug 2026 00:45:11 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"트럼프, 두번째 국토안보장관에도 불만…'내 기조와 엇박자'\"",
-      "link": "https://www.yna.co.kr/view/AKR20260808053500071",
-      "source": "연합뉴스 국제",
-      "ts": 1786196151000,
-      "pub": "Sat, 8 Aug 2026 22:35:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 여론, 젤렌스키보다 잘루즈니 믿는다…대선 전망 안갯속",
-      "link": "https://www.yna.co.kr/view/AKR20260808046900108",
-      "source": "연합뉴스 국제",
-      "ts": 1786182865000,
-      "pub": "Sat, 8 Aug 2026 18:54:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 충성파' 美법무 대행꼬리 떼…상원 인준 가까스로 가결",
-      "link": "https://www.yna.co.kr/view/AKR20260808046100009",
-      "source": "연합뉴스 국제",
-      "ts": 1786180633000,
-      "pub": "Sat, 8 Aug 2026 18:17:13 +0900",
       "sentiment": "neutral"
     }
   ]

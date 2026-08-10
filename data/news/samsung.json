@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-10T00:51:13.020Z",
-  "count": 16,
+  "updated_at": "2026-08-10T03:05:05.952Z",
+  "count": 11,
   "items": [
+    {
+      "title": "삼전닉스 던지고 코스닥 담는 1% 초고수들…'이 종목' 샀다",
+      "link": "https://www.hankyung.com/article/202608104001i",
+      "source": "한국경제",
+      "ts": 1786328256000,
+      "pub": "Mon, 10 Aug 2026 11:17:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "카카오페이증권, 삼전·닉스 소수점거래 서비스 개시",
+      "link": "https://www.yna.co.kr/view/AKR20260810051600008",
+      "source": "연합뉴스 경제",
+      "ts": 1786325332000,
+      "pub": "Mon, 10 Aug 2026 10:28:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이번엔 다르다\" 파격 전망…삼전닉스 '역대급 겹호재' 터졌다 [테크로그]",
+      "link": "https://www.hankyung.com/article/202608103494g",
+      "source": "한국경제",
+      "ts": 1786325152000,
+      "pub": "Mon, 10 Aug 2026 10:25:52 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[특징주] 삼성전자· SK하이닉스, 장 초반 강세",
       "link": "https://www.yna.co.kr/view/AKR20260810032500008",
@@ -12,75 +36,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "삼전닉스, 장초반 동반 상승… 美 반도체주 상승 훈풍",
-      "link": "https://www.mt.co.kr/stock/2026/08/10/2026081009134049589",
-      "source": "머니투데이",
-      "ts": 1786320871000,
-      "pub": "Mon, 10 Aug 2026 09:14:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 팔고 SK하이닉스 매수…1% 초고수의 선택은",
-      "link": "https://www.hankyung.com/article/202608103448i",
-      "source": "한국경제",
-      "ts": 1786320561000,
-      "pub": "Mon, 10 Aug 2026 09:09:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "애플, 메모리 부족해 가격 올리더니…\"中창신메모리 칩 적용 시험\"",
-      "link": "https://www.hankyung.com/article/202608103322H",
-      "source": "한국경제",
-      "ts": 1786319331000,
-      "pub": "Mon, 10 Aug 2026 08:48:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "주주환원 9.8조에서 최대 200조 '껑충'...삼성전자 재평가 신호탄-KB",
-      "link": "https://www.mt.co.kr/stock/2026/08/10/2026081008374392646",
-      "source": "머니투데이",
-      "ts": 1786319299000,
-      "pub": "Mon, 10 Aug 2026 08:48:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스에 악재?…\"애플, 中 CXMT 칩 테스트 후 공급 초읽기\"",
-      "link": "https://www.hankyung.com/article/2026081032646",
-      "source": "한국경제",
-      "ts": 1786319001000,
-      "pub": "Mon, 10 Aug 2026 08:43:21 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "삼성전자 '월렛'서 코레일·SRT '종이없는 승차권' 서비스 시작",
-      "link": "https://www.mt.co.kr/tech/2026/08/10/2026081008032323689",
-      "source": "머니투데이",
-      "ts": 1786317349000,
-      "pub": "Mon, 10 Aug 2026 08:15:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"애플, 中 창신메모리 칩 적용 테스트…부품공급 초기논의\"",
       "link": "https://www.yna.co.kr/view/AKR20260809054100072",
       "source": "연합뉴스 국제",
       "ts": 1786286679000,
       "pub": "Sun, 9 Aug 2026 23:44:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "모건스탠리 \"메모리주 가파른 조정 끝났다…재진입 매력적\"",
-      "link": "https://www.yna.co.kr/view/AKR20260809046000008",
-      "source": "연합뉴스 경제",
-      "ts": 1786272941000,
-      "pub": "Sun, 9 Aug 2026 19:55:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 미국 에너지부 국립연구소와 차세대 난방기술 개발협력",
-      "link": "https://www.yna.co.kr/view/AKR20260809013000003",
-      "source": "연합뉴스 경제",
-      "ts": 1786237200000,
-      "pub": "Sun, 9 Aug 2026 10:00:00 +0900",
       "sentiment": "neutral"
     },
     {

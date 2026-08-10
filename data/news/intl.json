@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-09T23:18:46.296Z",
-  "count": 25,
+  "updated_at": "2026-08-10T00:51:13.018Z",
+  "count": 23,
   "items": [
+    {
+      "title": "러 '방공망 고갈' 우크라 곳곳 난타…최전선 점령지도 추가",
+      "link": "https://www.yna.co.kr/view/AKR20260810032900009",
+      "source": "연합뉴스 국제",
+      "ts": 1786322676000,
+      "pub": "Mon, 10 Aug 2026 09:44:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "골프 보던 트럼프 머리 위로 '민항기 침범'…전투기도 떴다",
+      "link": "https://www.hankyung.com/article/202608103153H",
+      "source": "한국경제",
+      "ts": 1786315464000,
+      "pub": "Mon, 10 Aug 2026 07:44:24 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 군사작전 대신 '경제 제재'로 이란 압박?…\"낮은 강도로 대응\"",
       "link": "https://www.mt.co.kr/world/2026/08/10/2026081006502796791",
@@ -28,28 +44,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"돈 없는 이란 지켜보고 있다\"…트럼프, 경제 압박 시사",
-      "link": "https://www.hankyung.com/article/2026081031007",
-      "source": "한국경제",
-      "ts": 1786311743000,
-      "pub": "Mon, 10 Aug 2026 06:42:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"가자 15개항 로드맵 수용 불가\" 네타냐후, 트럼프에 또 반기",
       "link": "https://www.mt.co.kr/world/2026/08/10/2026081005593058529",
       "source": "머니투데이",
       "ts": 1786310870000,
       "pub": "Mon, 10 Aug 2026 06:27:50 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "8월 들어 강한 반등, CPI가 추가 랠리 가른다…AI주 줄줄이 실적[이번주 美 증시는]",
-      "link": "https://www.mt.co.kr/world/2026/08/10/2026080819102930462",
-      "source": "머니투데이",
-      "ts": 1786307700000,
-      "pub": "Mon, 10 Aug 2026 05:35:00 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "트럼프, 이란 강경 요구에 \"로키로 대응 중…이건 체스게임\"",
@@ -97,14 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786284114000,
       "pub": "Sun, 9 Aug 2026 23:01:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키, 한국에 '방공 지원' 요청…\"북한군 3만∼5만 러 배치\"",
-      "link": "https://www.hankyung.com/article/2026080929887",
-      "source": "한국경제",
-      "ts": 1786278858000,
-      "pub": "Sun, 09 Aug 2026 21:34:18 +0900",
       "sentiment": "neutral"
     },
     {
@@ -193,14 +185,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786180633000,
       "pub": "Sat, 8 Aug 2026 18:17:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘, 中청두 총영사관 문 닫아…중동 정세와 관련(?)",
-      "link": "https://www.yna.co.kr/view/AKR20260808028800089",
-      "source": "연합뉴스 국제",
-      "ts": 1786160649000,
-      "pub": "Sat, 8 Aug 2026 12:44:09 +0900",
       "sentiment": "neutral"
     }
   ]

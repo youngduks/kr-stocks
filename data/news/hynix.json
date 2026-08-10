@@ -1,8 +1,88 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-09T23:18:46.298Z",
-  "count": 22,
+  "updated_at": "2026-08-10T00:51:13.020Z",
+  "count": 26,
   "items": [
+    {
+      "title": "한울소재과학 子 제이케이머트리얼즈, 세종 2동 사용승인… 반도체 소재 생산 속도",
+      "link": "https://www.mt.co.kr/stock/2026/08/10/2026081009390395009",
+      "source": "머니투데이",
+      "ts": 1786322581000,
+      "pub": "Mon, 10 Aug 2026 09:43:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "센서뷰, '엔비디아픽' 포인투테크와 AI 데이터센터 시제품 개발… RF 기술 결합",
+      "link": "https://www.mt.co.kr/stock/2026/08/10/2026081009135848613",
+      "source": "머니투데이",
+      "ts": 1786321571000,
+      "pub": "Mon, 10 Aug 2026 09:26:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자· SK하이닉스, 장 초반 강세",
+      "link": "https://www.yna.co.kr/view/AKR20260810032500008",
+      "source": "연합뉴스 경제",
+      "ts": 1786321420000,
+      "pub": "Mon, 10 Aug 2026 09:23:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스, 장초반 동반 상승… 美 반도체주 상승 훈풍",
+      "link": "https://www.mt.co.kr/stock/2026/08/10/2026081009134049589",
+      "source": "머니투데이",
+      "ts": 1786320871000,
+      "pub": "Mon, 10 Aug 2026 09:14:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 팔고 SK하이닉스 매수…1% 초고수의 선택은",
+      "link": "https://www.hankyung.com/article/202608103448i",
+      "source": "한국경제",
+      "ts": 1786320561000,
+      "pub": "Mon, 10 Aug 2026 09:09:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "애플, 메모리 부족해 가격 올리더니…\"中창신메모리 칩 적용 시험\"",
+      "link": "https://www.hankyung.com/article/202608103322H",
+      "source": "한국경제",
+      "ts": 1786319331000,
+      "pub": "Mon, 10 Aug 2026 08:48:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스에 악재?…\"애플, 中 CXMT 칩 테스트 후 공급 초읽기\"",
+      "link": "https://www.hankyung.com/article/2026081032646",
+      "source": "한국경제",
+      "ts": 1786319001000,
+      "pub": "Mon, 10 Aug 2026 08:43:21 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "인텔 부활 이끄는 '한국인 3인방'…삼성·SK하이닉스 출신 [IT썰]",
+      "link": "https://www.mt.co.kr/tech/2026/08/10/2026081006385071505",
+      "source": "머니투데이",
+      "ts": 1786317740000,
+      "pub": "Mon, 10 Aug 2026 08:22:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[마켓뷰] 애플 中반도체 시험적용…코스피 변수되나",
+      "link": "https://www.yna.co.kr/view/AKR20260810016200008",
+      "source": "연합뉴스 경제",
+      "ts": 1786317440000,
+      "pub": "Mon, 10 Aug 2026 08:17:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"군공항, 반도체 클러스터로?\"…李대통령, 3대 메가프로젝트 2차 점검",
+      "link": "https://www.hankyung.com/article/2026081031867",
+      "source": "한국경제",
+      "ts": 1786316632000,
+      "pub": "Mon, 10 Aug 2026 08:03:52 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[中반도체굴기] ③ \"美제재가 키운 것만은 아냐\"…장기투자·인재도 동력",
       "link": "https://www.yna.co.kr/view/AKR20260807159800083",
@@ -36,22 +116,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"애플, 中반도체 도입 추진\"…삼전닉스 10% 급락시켰던 그 기업",
-      "link": "https://www.mt.co.kr/world/2026/08/10/2026081005031736681",
-      "source": "머니투데이",
-      "ts": 1786306046000,
-      "pub": "Mon, 10 Aug 2026 05:07:26 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "메모리 빅3 넘어… '장기계약' 러브콜 쇄도",
-      "link": "https://www.mt.co.kr/industry/2026/08/10/2026080918465214524",
-      "source": "머니투데이",
-      "ts": 1786298400000,
-      "pub": "Mon, 10 Aug 2026 03:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"애플, 中 창신메모리 칩 적용 테스트…부품공급 초기논의\"",
       "link": "https://www.yna.co.kr/view/AKR20260809054100072",
       "source": "연합뉴스 국제",
@@ -60,35 +124,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "삼전닉스 급락 맞힌 '반도체 저승사자'…\"이젠 사야할 때\"",
-      "link": "https://www.hankyung.com/article/2026080929927",
-      "source": "한국경제",
-      "ts": 1786280118000,
-      "pub": "Sun, 09 Aug 2026 21:55:18 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "정청래 또 말실수 '깜짝'…\"이명박 임기 내 광주 반도체 출시\"",
-      "link": "https://www.hankyung.com/article/2026080929757",
-      "source": "한국경제",
-      "ts": 1786277310000,
-      "pub": "Sun, 09 Aug 2026 21:08:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "모건스탠리 \"메모리주 가파른 조정 끝났다…재진입 매력적\"",
       "link": "https://www.yna.co.kr/view/AKR20260809046000008",
       "source": "연합뉴스 경제",
       "ts": 1786272941000,
       "pub": "Sun, 9 Aug 2026 19:55:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"반도체만 오른다\" 곡소리 났는데…'대반전' 예고한 종목들",
-      "link": "https://www.hankyung.com/article/2026080928631",
-      "source": "한국경제",
-      "ts": 1786266969000,
-      "pub": "Sun, 09 Aug 2026 18:16:09 +0900",
       "sentiment": "neutral"
     },
     {
@@ -121,14 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786179633000,
       "pub": "Sat, 8 Aug 2026 18:00:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체공학회 \"연구개발직 주 52시간제 반드시 개선해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260807129400003",
-      "source": "연합뉴스 경제",
-      "ts": 1786089150000,
-      "pub": "Fri, 7 Aug 2026 16:52:30 +0900",
       "sentiment": "neutral"
     },
     {

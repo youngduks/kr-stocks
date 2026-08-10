@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-10T21:30:23.301Z",
-  "count": 26,
+  "updated_at": "2026-08-10T22:25:01.831Z",
+  "count": 24,
   "items": [
+    {
+      "title": "트럼프, 민주사회주의 후보들에 \"지하디스트…실패한 사람들\"",
+      "link": "https://www.yna.co.kr/view/AKR20260811011500071",
+      "source": "연합뉴스 국제",
+      "ts": 1786399374000,
+      "pub": "Tue, 11 Aug 2026 07:02:54 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"호르무즈 기뢰 모두 제거…美, 유일하게 해협통제\" 주장(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260811002351071",
@@ -28,14 +36,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "열혈 검사, 백악관 불려가 1시간 격론…'친트럼프' 진영에 무슨일",
-      "link": "https://www.mt.co.kr/world/2026/08/11/2026080516460754154",
-      "source": "머니투데이",
-      "ts": 1786392600000,
-      "pub": "Tue, 11 Aug 2026 05:10:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美, '원정출산·트럼프 위협' 등 외국인 17만5천여명 비자 취소",
       "link": "https://www.yna.co.kr/view/AKR20260811004300071",
       "source": "연합뉴스 국제",
@@ -57,14 +57,6 @@
       "source": "연합뉴스 경제",
       "ts": 1786388908000,
       "pub": "Tue, 11 Aug 2026 04:08:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 피해배상 요구에…트럼프 \"과거 폭탄테러 배상하라\" 맞불",
-      "link": "https://www.mt.co.kr/world/2026/08/11/2026081103083559391",
-      "source": "머니투데이",
-      "ts": 1786385496000,
-      "pub": "Tue, 11 Aug 2026 03:11:36 +0900",
       "sentiment": "neutral"
     },
     {
@@ -202,14 +194,6 @@
       "ts": 1786330149000,
       "pub": "Mon, 10 Aug 2026 11:49:09 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "전직 美정보당국자들 \"트럼프 통치방식, 독재자와 비슷\"",
-      "link": "https://www.yna.co.kr/view/AKR20260810063300009",
-      "source": "연합뉴스 국제",
-      "ts": 1786327821000,
-      "pub": "Mon, 10 Aug 2026 11:10:21 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

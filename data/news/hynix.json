@@ -1,24 +1,8 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-10T21:30:23.303Z",
-  "count": 23,
+  "updated_at": "2026-08-10T22:25:01.832Z",
+  "count": 20,
   "items": [
-    {
-      "title": "[유효상 칼럼] 왜 엔비디아는 '우로보로스(Ouroboros)의 딜레마'에 빠졌나",
-      "link": "https://www.mt.co.kr/opinion/2026/08/11/2026080615063068915",
-      "source": "머니투데이",
-      "ts": 1786395600000,
-      "pub": "Tue, 11 Aug 2026 06:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "날씨만 봤는데 램 1GB '꿀꺽'…윈도우11 기본앱 '메모리 먹는 하마'[IT썰]",
-      "link": "https://www.mt.co.kr/tech/2026/08/11/2026081015452736983",
-      "source": "머니투데이",
-      "ts": 1786395600000,
-      "pub": "Tue, 11 Aug 2026 06:00:00 +0900",
-      "sentiment": "neutral"
-    },
     {
       "title": "급등장에 SK하이닉스 담보대출 1년새 438%↑…40대 이하서 쑥",
       "link": "https://www.yna.co.kr/view/AKR20260810142600002",
@@ -26,14 +10,6 @@
       "ts": 1786395060000,
       "pub": "Tue, 11 Aug 2026 05:51:00 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "졸업도 전에 '찜'…반도체 인재 찾아 미국 날아간 삼성전자",
-      "link": "https://www.mt.co.kr/industry/2026/08/11/2026081013511019745",
-      "source": "머니투데이",
-      "ts": 1786393800000,
-      "pub": "Tue, 11 Aug 2026 05:30:00 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "소니·TSMC, 9조원 들여 '이미지센서' 공장 합작 건설",

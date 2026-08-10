@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-10T12:40:35.803Z",
-  "count": 19,
+  "updated_at": "2026-08-10T14:11:15.929Z",
+  "count": 18,
   "items": [
+    {
+      "title": "'트럼프' 간판값 이 정도 였어?…1년 새 843억 '잭팟'",
+      "link": "https://www.hankyung.com/article/202608105298i",
+      "source": "한국경제",
+      "ts": 1786368106000,
+      "pub": "Mon, 10 Aug 2026 22:21:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러 외무차관 \"근본 원인 해결 없이 '우크라전' 휴전 없다\"",
+      "link": "https://www.hankyung.com/article/2026081052997",
+      "source": "한국경제",
+      "ts": 1786367095000,
+      "pub": "Mon, 10 Aug 2026 22:04:55 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "미중 정상회담 앞두고…中, 미국산 피칸에 덤핑 예비판정",
       "link": "https://www.yna.co.kr/view/AKR20260810149200089",
@@ -129,30 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786293283000,
       "pub": "Mon, 10 Aug 2026 01:34:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "교황 \"러·우크라 모두 민간 목표물 공격 중단해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260810000700109",
-      "source": "연합뉴스 국제",
-      "ts": 1786290410000,
-      "pub": "Mon, 10 Aug 2026 00:46:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美공화 '경제·안보' 우위 흔들…CNN \"트럼프 이란전 오판 영향\"",
-      "link": "https://www.yna.co.kr/view/AKR20260809053200071",
-      "source": "연합뉴스 국제",
-      "ts": 1786284972000,
-      "pub": "Sun, 9 Aug 2026 23:16:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "네타냐후 \"하마스 무장해제까지 철군 없다\"…트럼프에 반기",
-      "link": "https://www.yna.co.kr/view/AKR20260809053500108",
-      "source": "연합뉴스 국제",
-      "ts": 1786284746000,
-      "pub": "Sun, 9 Aug 2026 23:12:26 +0900",
       "sentiment": "neutral"
     }
   ]

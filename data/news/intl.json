@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-10T09:05:03.260Z",
-  "count": 20,
+  "updated_at": "2026-08-10T10:55:45.438Z",
+  "count": 18,
   "items": [
+    {
+      "title": "러, 美특사 방문 관측 속 \"우크라 위기 원인부터 해결돼야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260810144500108",
+      "source": "연합뉴스 국제",
+      "ts": 1786356913000,
+      "pub": "Mon, 10 Aug 2026 19:15:13 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "러 총선 앞두고 우크라 공세…국경 1천㎞ 밖서도 대규모 사상자",
+      "link": "https://www.yna.co.kr/view/AKR20260810141600109",
+      "source": "연합뉴스 국제",
+      "ts": 1786355890000,
+      "pub": "Mon, 10 Aug 2026 18:58:10 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"폭발물 드론, 우크라 화물기 날개 때려…참사 날 뻔\"",
       "link": "https://www.yna.co.kr/view/AKR20260810136200082",
@@ -10,22 +26,6 @@
       "ts": 1786351692000,
       "pub": "Mon, 10 Aug 2026 17:48:12 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "WSJ \"트럼프, 호르무즈 재개방 전제로 이란전 종전 검토\"",
-      "link": "https://www.hankyung.com/article/2026081048247",
-      "source": "한국경제",
-      "ts": 1786348241000,
-      "pub": "Mon, 10 Aug 2026 16:50:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 전직 정보당국자들 \"트럼프 통치, 독재자 권력 행사와 비슷\"",
-      "link": "https://www.hankyung.com/article/2026081046627",
-      "source": "한국경제",
-      "ts": 1786345006000,
-      "pub": "Mon, 10 Aug 2026 15:56:46 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "트럼프, 새 백악관 법률고문에 '연회장 승인' 샤프 지명",
@@ -146,22 +146,6 @@
       "ts": 1786276064000,
       "pub": "Sun, 9 Aug 2026 20:47:44 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "우크라, '40일 작전' 성공 선언…\"러 물류망 17조원 손실\"",
-      "link": "https://www.yna.co.kr/view/AKR20260809039600109",
-      "source": "연합뉴스 국제",
-      "ts": 1786269519000,
-      "pub": "Sun, 9 Aug 2026 18:58:39 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "젤렌스키 \"북한군 3만∼5만 러 배치…韓과 협력 위해 접촉 중\"",
-      "link": "https://www.yna.co.kr/view/AKR20260809041300109",
-      "source": "연합뉴스 국제",
-      "ts": 1786267846000,
-      "pub": "Sun, 9 Aug 2026 18:30:46 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

@@ -1,31 +1,39 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-10T09:05:03.262Z",
-  "count": 22,
+  "updated_at": "2026-08-10T10:55:45.439Z",
+  "count": 23,
   "items": [
     {
-      "title": "'최악은 지났다'는 반도체, “신고가는 어렵다”는 이유",
-      "link": "https://www.hankyung.com/article/202608104518i",
-      "source": "한국경제",
-      "ts": 1786349043000,
-      "pub": "Mon, 10 Aug 2026 17:04:03 +0900",
+      "title": "대만 TSMC, 7월 매출 45%↑…사상 최대 또 경신",
+      "link": "https://www.mt.co.kr/world/2026/08/10/2026081019074393500",
+      "source": "머니투데이",
+      "ts": 1786357617000,
+      "pub": "Mon, 10 Aug 2026 19:26:57 +0900",
       "sentiment": "positive"
     },
     {
-      "title": "YK, 서울대·칼텍 반도체 기술 프로젝트 파트너로...특허 보호 주력 [로앤비즈 브리핑]",
-      "link": "https://www.hankyung.com/article/202608104705i",
+      "title": "TSMC, 7월 매출도 45% 증가…AI 투자 수요는 지속된다",
+      "link": "https://www.hankyung.com/article/202608105222i",
       "source": "한국경제",
-      "ts": 1786346931000,
-      "pub": "Mon, 10 Aug 2026 16:28:51 +0900",
+      "ts": 1786356265000,
+      "pub": "Mon, 10 Aug 2026 19:04:25 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "하나마이크론株 EB, IMM크레딧이 인수",
-      "link": "https://www.hankyung.com/article/2026081035571",
-      "source": "한국경제",
-      "ts": 1786345718000,
-      "pub": "Mon, 10 Aug 2026 16:08:38 +0900",
+      "title": "반도체업체 CXMT, MSCI지수 편입…中본토 시총 1위 굳히기",
+      "link": "https://www.yna.co.kr/view/AKR20260810139200089",
+      "source": "연합뉴스 국제",
+      "ts": 1786353693000,
+      "pub": "Mon, 10 Aug 2026 18:21:33 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 레버리지로 5일간 40%대 수익…반등장선 낙폭 과대주 매수[서학픽]",
+      "link": "https://www.mt.co.kr/world/2026/08/10/2026081012242966923",
+      "source": "머니투데이",
+      "ts": 1786352700000,
+      "pub": "Mon, 10 Aug 2026 18:05:00 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "[특징주] 반도체 장비주, SK하이닉스 투자 규모 확정에 급등(종합)",

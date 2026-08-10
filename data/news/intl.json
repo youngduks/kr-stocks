@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-10T05:14:22.369Z",
-  "count": 16,
+  "updated_at": "2026-08-10T07:06:15.306Z",
+  "count": 18,
   "items": [
+    {
+      "title": "트럼프, 새 백악관 법률고문에 '연회장 승인' 샤프 지명",
+      "link": "https://www.yna.co.kr/view/AKR20260810106700009",
+      "source": "연합뉴스 국제",
+      "ts": 1786343988000,
+      "pub": "Mon, 10 Aug 2026 15:39:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러시아 최고 한국계 '유통' 부호, 우크라 드론 공격 표적 됐다",
+      "link": "https://www.hankyung.com/article/202608104474g",
+      "source": "한국경제",
+      "ts": 1786342898000,
+      "pub": "Mon, 10 Aug 2026 15:21:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 강경 요구에도 담담한 트럼프…핵합의 없이 전쟁서 발빼나",
+      "link": "https://www.yna.co.kr/view/AKR20260810077100009",
+      "source": "연합뉴스 국제",
+      "ts": 1786341628000,
+      "pub": "Mon, 10 Aug 2026 15:00:28 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[쇼츠] 자폭 드론 뜨자 '탕탕탕'…\"러군, 소총으로 우크라 드론 격추\"",
       "link": "https://www.yna.co.kr/view/AKR20260810080700704",
@@ -121,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786267846000,
       "pub": "Sun, 9 Aug 2026 18:30:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "바이든 차남 \"아버지, 암 전이돼 고통스럽게 투병 중\"",
-      "link": "https://www.yna.co.kr/view/AKR20260809005900009",
-      "source": "연합뉴스 국제",
-      "ts": 1786227140000,
-      "pub": "Sun, 9 Aug 2026 07:12:20 +0900",
       "sentiment": "neutral"
     }
   ]

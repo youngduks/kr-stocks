@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-10T22:25:01.832Z",
-  "count": 20,
+  "updated_at": "2026-08-10T23:24:01.347Z",
+  "count": 19,
   "items": [
+    {
+      "title": "엔비디아, 월가와 함께 고객의 AI 투자 위한 710조원 조달 나서",
+      "link": "https://www.yna.co.kr/view/AKR20260811013000009",
+      "source": "연합뉴스 국제",
+      "ts": 1786402114000,
+      "pub": "Tue, 11 Aug 2026 07:48:34 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "급등장에 SK하이닉스 담보대출 1년새 438%↑…40대 이하서 쑥",
       "link": "https://www.yna.co.kr/view/AKR20260810142600002",
@@ -25,14 +33,6 @@
       "source": "한국경제",
       "ts": 1786361306000,
       "pub": "Mon, 10 Aug 2026 20:28:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "TSMC, 7월 매출도 45% 증가…AI 투자 수요는 지속된다",
-      "link": "https://www.hankyung.com/article/202608105222i",
-      "source": "한국경제",
-      "ts": 1786356265000,
-      "pub": "Mon, 10 Aug 2026 19:04:25 +0900",
       "sentiment": "neutral"
     },
     {
@@ -81,14 +81,6 @@
       "source": "연합뉴스 경제",
       "ts": 1786330805000,
       "pub": "Mon, 10 Aug 2026 12:00:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아 주가, 15개월만 최대 주간 상승률",
-      "link": "https://www.yna.co.kr/view/AKR20260810061400009",
-      "source": "연합뉴스 국제",
-      "ts": 1786328437000,
-      "pub": "Mon, 10 Aug 2026 11:20:37 +0900",
       "sentiment": "neutral"
     },
     {

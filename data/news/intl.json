@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-10T22:25:01.831Z",
+  "updated_at": "2026-08-10T23:24:01.345Z",
   "count": 24,
   "items": [
+    {
+      "title": "트럼프 \"호르무즈 기뢰 모두 제거…미국, 유일하게 해협통제\"",
+      "link": "https://www.hankyung.com/article/202608115470H",
+      "source": "한국경제",
+      "ts": 1786400592000,
+      "pub": "Tue, 11 Aug 2026 07:23:12 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 민주사회주의 후보들에 \"지하디스트…실패한 사람들\"",
       "link": "https://www.yna.co.kr/view/AKR20260811011500071",
@@ -186,14 +194,6 @@
       "ts": 1786337784000,
       "pub": "Mon, 10 Aug 2026 13:56:24 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] \"러군, 소총으로 자폭드론 격추\"…우크라 \"러 물류망 17조 손실\"",
-      "link": "https://www.yna.co.kr/view/AKR20260810072900704",
-      "source": "연합뉴스 국제",
-      "ts": 1786330149000,
-      "pub": "Mon, 10 Aug 2026 11:49:09 +0900",
-      "sentiment": "negative"
     }
   ]
 }

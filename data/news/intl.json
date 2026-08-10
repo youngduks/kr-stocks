@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-10T19:46:14.187Z",
-  "count": 21,
+  "updated_at": "2026-08-10T20:29:26.611Z",
+  "count": 24,
   "items": [
+    {
+      "title": "젤렌스키 \"러, 북한군 추가 배치 준비…탄도미사일 또 받아\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260811004751109",
+      "source": "연합뉴스 국제",
+      "ts": 1786393425000,
+      "pub": "Tue, 11 Aug 2026 05:23:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "열혈 검사, 백악관 불려가 1시간 격론…'친트럼프' 진영에 무슨일",
+      "link": "https://www.mt.co.kr/world/2026/08/11/2026080516460754154",
+      "source": "머니투데이",
+      "ts": 1786392600000,
+      "pub": "Tue, 11 Aug 2026 05:10:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美, '원정출산·트럼프 위협' 등 외국인 17만5천여명 비자 취소",
+      "link": "https://www.yna.co.kr/view/AKR20260811004300071",
+      "source": "연합뉴스 국제",
+      "ts": 1786392088000,
+      "pub": "Tue, 11 Aug 2026 05:01:28 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "젤렌스키 \"러, 북한군 추가 배치 준비…한국 등 위험 커져\"",
       "link": "https://www.yna.co.kr/view/AKR20260811004700109",

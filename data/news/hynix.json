@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-10T03:05:05.953Z",
+  "updated_at": "2026-08-10T05:14:22.371Z",
   "count": 17,
   "items": [
+    {
+      "title": "소니·TSMC, 日구마모토 이미지 센서 공정에 9조원 합작 투자",
+      "link": "https://www.yna.co.kr/view/AKR20260810073700073",
+      "source": "연합뉴스 국제",
+      "ts": 1786331149000,
+      "pub": "Mon, 10 Aug 2026 12:05:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "KDI \"반도체 중심으로 경기 개선세 확대\"…물가·고용은 변수",
+      "link": "https://www.yna.co.kr/view/AKR20260810057100002",
+      "source": "연합뉴스 경제",
+      "ts": 1786330805000,
+      "pub": "Mon, 10 Aug 2026 12:00:05 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "엔비디아 주가, 15개월만 최대 주간 상승률",
       "link": "https://www.yna.co.kr/view/AKR20260810061400009",
@@ -17,14 +33,6 @@
       "source": "연합뉴스 경제",
       "ts": 1786326578000,
       "pub": "Mon, 10 Aug 2026 10:49:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"물 싸게 쓰고 폐수 그대로?\"…추미애, 삼성·하이닉스 공개 압박",
-      "link": "https://www.hankyung.com/article/2026081037387",
-      "source": "한국경제",
-      "ts": 1786324152000,
-      "pub": "Mon, 10 Aug 2026 10:09:12 +0900",
       "sentiment": "neutral"
     },
     {
@@ -73,14 +81,6 @@
       "ts": 1786309802000,
       "pub": "Mon, 10 Aug 2026 06:10:02 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "테슬라·엔비디아 24시간 사고판다…'토큰주식' 올해들어 4배로",
-      "link": "https://www.yna.co.kr/view/AKR20260808031400002",
-      "source": "연합뉴스 경제",
-      "ts": 1786308901000,
-      "pub": "Mon, 10 Aug 2026 05:55:01 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "\"애플, 中 창신메모리 칩 적용 테스트…부품공급 초기논의\"",

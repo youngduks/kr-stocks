@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-11T22:30:13.384Z",
-  "count": 14,
+  "updated_at": "2026-08-11T23:28:12.687Z",
+  "count": 13,
   "items": [
+    {
+      "title": "\"삼성전자, 조정 끝 상승 추세 시작…주주환원 700조원 예상\"-KB",
+      "link": "https://www.hankyung.com/article/2026081256396",
+      "source": "한국경제",
+      "ts": 1786489817000,
+      "pub": "Wed, 12 Aug 2026 08:10:17 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'800조 돈뭉치' 이렇게 빨리?…삼전닉스 길 닦는 정부 [이슈+]",
       "link": "https://www.hankyung.com/article/202608114567g",
@@ -12,28 +20,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "HBM 빈틈, CXL로… 메모리 '용량 전쟁'",
-      "link": "https://www.mt.co.kr/industry/2026/08/12/2026081119442167576",
-      "source": "머니투데이",
-      "ts": 1786474020000,
-      "pub": "Wed, 12 Aug 2026 03:47:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "삼성전자 8000억 풀자 난리 났다…뜻밖의 '대박' 터진 곳",
       "link": "https://www.hankyung.com/article/2026081150471",
       "source": "한국경제",
       "ts": 1786465250000,
       "pub": "Wed, 12 Aug 2026 01:20:50 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "\"35만원\" vs \"60만원\"…삼성전자 두고 증권가 '극과 극' 전망",
-      "link": "https://www.hankyung.com/article/2026081146746",
-      "source": "한국경제",
-      "ts": 1786453201000,
-      "pub": "Tue, 11 Aug 2026 22:00:01 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "'삼전·닉스' 쏠림 완화에 중소형주 온기 확산…순환매 본격화(종합)",

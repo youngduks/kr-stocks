@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-11T22:30:13.383Z",
-  "count": 16,
+  "updated_at": "2026-08-11T23:28:12.686Z",
+  "count": 18,
   "items": [
+    {
+      "title": "호르무즈 막혀도, 석유 나온다? …\"CPI 부드러울 것\"이란 기대 [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202608125498i",
+      "source": "한국경제",
+      "ts": 1786488036000,
+      "pub": "Wed, 12 Aug 2026 07:40:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"이란 자금, 우리가 통제…탄약 미친듯 생산\"",
+      "link": "https://www.hankyung.com/article/2026081255327",
+      "source": "한국경제",
+      "ts": 1786488017000,
+      "pub": "Wed, 12 Aug 2026 07:40:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"클린턴 땐 안 그랬는데\"…트럼프 행보 지적한 WP, 왜?",
+      "link": "https://www.hankyung.com/article/202608125494H",
+      "source": "한국경제",
+      "ts": 1786487217000,
+      "pub": "Wed, 12 Aug 2026 07:26:57 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 대이란 전략에 \"경제 실패하게 두거나 강력 타격\"",
       "link": "https://www.yna.co.kr/view/AKR20260812013700071",
@@ -121,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786432764000,
       "pub": "Tue, 11 Aug 2026 16:19:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 인판티노 FIFA 회장 공개 지지…\"교체하면 끔찍한 실수\"",
-      "link": "https://www.yna.co.kr/view/AKR20260811079300009",
-      "source": "연합뉴스 국제",
-      "ts": 1786416251000,
-      "pub": "Tue, 11 Aug 2026 11:44:11 +0900",
       "sentiment": "neutral"
     }
   ]

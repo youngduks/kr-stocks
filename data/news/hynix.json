@@ -1,14 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-11T10:40:24.152Z",
-  "count": 18,
+  "updated_at": "2026-08-11T11:35:41.673Z",
+  "count": 19,
   "items": [
     {
-      "title": "AI·반도체기업 상장문턱 확 낮춘 中",
-      "link": "https://www.hankyung.com/article/2026081150241",
+      "title": "SK하이닉스,키옥시아 최대 주주로 부상",
+      "link": "https://www.hankyung.com/article/202608115237i",
       "source": "한국경제",
-      "ts": 1786439220000,
-      "pub": "Tue, 11 Aug 2026 18:07:00 +0900",
+      "ts": 1786447394000,
+      "pub": "Tue, 11 Aug 2026 20:23:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아 \"GPU칩을 담보가치 있는 자산으로\"…월가와 710조원 조성",
+      "link": "https://www.hankyung.com/article/202608115217i",
+      "source": "한국경제",
+      "ts": 1786444820000,
+      "pub": "Tue, 11 Aug 2026 19:40:20 +0900",
       "sentiment": "neutral"
     },
     {

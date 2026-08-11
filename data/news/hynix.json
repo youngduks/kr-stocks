@@ -1,10 +1,10 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-11T11:35:41.673Z",
-  "count": 19,
+  "updated_at": "2026-08-11T12:37:48.958Z",
+  "count": 18,
   "items": [
     {
-      "title": "SK하이닉스,키옥시아 최대 주주로 부상",
+      "title": "SK하이닉스, 키옥시아 최대 주주로 부상",
       "link": "https://www.hankyung.com/article/202608115237i",
       "source": "한국경제",
       "ts": 1786447394000,
@@ -17,6 +17,14 @@
       "source": "한국경제",
       "ts": 1786444820000,
       "pub": "Tue, 11 Aug 2026 19:40:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "용인시 반도체 소부장 기 살리는 '트리니티팹' 띄운다",
+      "link": "https://www.mt.co.kr/policy/2026/08/11/2026081117185228056",
+      "source": "머니투데이",
+      "ts": 1786437301000,
+      "pub": "Tue, 11 Aug 2026 17:35:01 +0900",
       "sentiment": "neutral"
     },
     {
@@ -73,22 +81,6 @@
       "source": "연합뉴스 경제",
       "ts": 1786412045000,
       "pub": "Tue, 11 Aug 2026 10:34:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체가 끌어올린 8월 수출…초순부터 역대 최대(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260811035151002",
-      "source": "연합뉴스 경제",
-      "ts": 1786408771000,
-      "pub": "Tue, 11 Aug 2026 09:39:31 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "엔비디아, 월가와 함께 고객의 AI 투자 위한 710조원 조달 나서",
-      "link": "https://www.yna.co.kr/view/AKR20260811013000009",
-      "source": "연합뉴스 국제",
-      "ts": 1786402114000,
-      "pub": "Tue, 11 Aug 2026 07:48:34 +0900",
       "sentiment": "neutral"
     },
     {

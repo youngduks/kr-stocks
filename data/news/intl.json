@@ -1,14 +1,22 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-10T23:24:01.345Z",
-  "count": 24,
+  "updated_at": "2026-08-11T00:50:47.240Z",
+  "count": 20,
   "items": [
     {
-      "title": "트럼프 \"호르무즈 기뢰 모두 제거…미국, 유일하게 해협통제\"",
-      "link": "https://www.hankyung.com/article/202608115470H",
+      "title": "점점 미국 가기 어려워진다…트럼프 취임 후 비자 17만건 취소",
+      "link": "https://www.hankyung.com/article/2026081157907",
       "source": "한국경제",
-      "ts": 1786400592000,
-      "pub": "Tue, 11 Aug 2026 07:23:12 +0900",
+      "ts": 1786407800000,
+      "pub": "Tue, 11 Aug 2026 09:23:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI 데이터센터 놓고 트럼프와 보수층 '엇박자'…반발 확산",
+      "link": "https://www.yna.co.kr/view/AKR20260811037500009",
+      "source": "연합뉴스 국제",
+      "ts": 1786407450000,
+      "pub": "Tue, 11 Aug 2026 09:17:30 +0900",
       "sentiment": "neutral"
     },
     {
@@ -25,14 +33,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786395919000,
       "pub": "Tue, 11 Aug 2026 06:05:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美정부가 손 내밀었다…러트닉, 트럼프에 '韓기업' 콕 집은 이유",
-      "link": "https://www.hankyung.com/article/202608105343g",
-      "source": "한국경제",
-      "ts": 1786395610000,
-      "pub": "Tue, 11 Aug 2026 06:00:10 +0900",
       "sentiment": "neutral"
     },
     {
@@ -108,35 +108,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'트럼프' 간판값 이 정도 였어?…1년 새 843억 '잭팟'",
-      "link": "https://www.hankyung.com/article/202608105298i",
-      "source": "한국경제",
-      "ts": 1786368106000,
-      "pub": "Mon, 10 Aug 2026 22:21:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러 외무차관 \"근본 원인 해결 없이 '우크라전' 휴전 없다\"",
-      "link": "https://www.hankyung.com/article/2026081052997",
-      "source": "한국경제",
-      "ts": 1786367095000,
-      "pub": "Mon, 10 Aug 2026 22:04:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "미중 정상회담 앞두고…中, 미국산 피칸에 덤핑 예비판정",
       "link": "https://www.yna.co.kr/view/AKR20260810149200089",
       "source": "연합뉴스 국제",
       "ts": 1786363467000,
       "pub": "Mon, 10 Aug 2026 21:04:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 방공망 부족에 韓 지원 촉구…외교부 \"국내법·정책 준수\"",
-      "link": "https://www.hankyung.com/article/2026081052817",
-      "source": "한국경제",
-      "ts": 1786362071000,
-      "pub": "Mon, 10 Aug 2026 20:41:11 +0900",
       "sentiment": "neutral"
     },
     {
@@ -185,14 +161,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786341628000,
       "pub": "Mon, 10 Aug 2026 15:00:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] 자폭 드론 뜨자 '탕탕탕'…\"러군, 소총으로 우크라 드론 격추\"",
-      "link": "https://www.yna.co.kr/view/AKR20260810080700704",
-      "source": "연합뉴스 국제",
-      "ts": 1786337784000,
-      "pub": "Mon, 10 Aug 2026 13:56:24 +0900",
       "sentiment": "neutral"
     }
   ]

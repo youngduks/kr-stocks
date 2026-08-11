@@ -1,22 +1,38 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-10T23:24:01.346Z",
-  "count": 10,
+  "updated_at": "2026-08-11T00:50:47.242Z",
+  "count": 11,
   "items": [
     {
-      "title": "\"삼전닉스 주식 다시 오를까요?\" 전문가에 물었더니…",
-      "link": "https://www.hankyung.com/article/2026081050241",
-      "source": "한국경제",
-      "ts": 1786395608000,
-      "pub": "Tue, 11 Aug 2026 06:00:08 +0900",
+      "title": "코스피, 삼전닉스 약세에 1%대 안팎 하락…코스닥 상승전환(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260811044500008",
+      "source": "연합뉴스 경제",
+      "ts": 1786408739000,
+      "pub": "Tue, 11 Aug 2026 09:38:59 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[특징주] SK하이닉스, 장 초반 1%대 하락 중…삼전도 0.65%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260811040100008",
+      "source": "연합뉴스 경제",
+      "ts": 1786407504000,
+      "pub": "Tue, 11 Aug 2026 09:18:24 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "'삼전닉스 성과급 터진다'…서울대생들 '우르르' 몰리는 곳",
-      "link": "https://www.hankyung.com/article/2026081052737",
+      "title": "키움증권, 삼전닉스 목표가 동반↓…\"범용메모리 피크아웃 부담\"",
+      "link": "https://www.yna.co.kr/view/AKR20260811029100008",
+      "source": "연합뉴스 경제",
+      "ts": 1786405608000,
+      "pub": "Tue, 11 Aug 2026 08:46:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "메모리→광학이 대세? $5000억 퍼붓겠다는 엔비디아 [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202608115420i",
       "source": "한국경제",
-      "ts": 1786360467000,
-      "pub": "Mon, 10 Aug 2026 20:14:27 +0900",
+      "ts": 1786403421000,
+      "pub": "Tue, 11 Aug 2026 08:10:21 +0900",
       "sentiment": "neutral"
     },
     {
@@ -26,14 +42,6 @@
       "ts": 1786344903000,
       "pub": "Mon, 10 Aug 2026 15:55:03 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "카카오페이증권, 삼전·닉스 소수점거래 서비스 개시",
-      "link": "https://www.yna.co.kr/view/AKR20260810051600008",
-      "source": "연합뉴스 경제",
-      "ts": 1786325332000,
-      "pub": "Mon, 10 Aug 2026 10:28:52 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

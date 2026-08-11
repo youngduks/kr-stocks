@@ -1,8 +1,16 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-08-10T23:24:01.347Z",
-  "count": 8,
+  "updated_at": "2026-08-11T00:50:47.243Z",
+  "count": 9,
   "items": [
+    {
+      "title": "현대차 그룹이 '휴머노이드 경쟁'서 유리한 3가지 이유",
+      "link": "https://www.hankyung.com/article/202608104852i",
+      "source": "한국경제",
+      "ts": 1786403737000,
+      "pub": "Tue, 11 Aug 2026 08:15:37 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "현대자동차(주) 영업(잠정)실적(공정공시)",
       "link": "https://finance.naver.com/item/news_notice_read.naver?no=90578032&code=005380&page_notice=",

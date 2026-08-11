@@ -1,7 +1,7 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-11T21:34:04.501Z",
-  "count": 13,
+  "updated_at": "2026-08-11T22:30:13.384Z",
+  "count": 14,
   "items": [
     {
       "title": "'800조 돈뭉치' 이렇게 빨리?…삼전닉스 길 닦는 정부 [이슈+]",
@@ -9,6 +9,14 @@
       "source": "한국경제",
       "ts": 1786482006000,
       "pub": "Wed, 12 Aug 2026 06:00:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "HBM 빈틈, CXL로… 메모리 '용량 전쟁'",
+      "link": "https://www.mt.co.kr/industry/2026/08/12/2026081119442167576",
+      "source": "머니투데이",
+      "ts": 1786474020000,
+      "pub": "Wed, 12 Aug 2026 03:47:00 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,24 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-08-11T21:34:04.501Z",
-  "count": 8,
+  "updated_at": "2026-08-11T22:30:13.385Z",
+  "count": 10,
   "items": [
+    {
+      "title": "현대차勞 투쟁수위 더 세졌다… 최대 12시간 생산라인 멈춘다",
+      "link": "https://www.mt.co.kr/industry/2026/08/12/2026081120040483209",
+      "source": "머니투데이",
+      "ts": 1786473000000,
+      "pub": "Wed, 12 Aug 2026 03:30:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "올 60시간 파업에 4만대 손실…  현대차 임금 192만원 줄었다",
+      "link": "https://www.mt.co.kr/industry/2026/08/12/2026081120080118931",
+      "source": "머니투데이",
+      "ts": 1786471800000,
+      "pub": "Wed, 12 Aug 2026 03:10:00 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "현대자동차(주) 영업(잠정)실적(공정공시)",
       "link": "https://finance.naver.com/item/news_notice_read.naver?no=90578032&code=005380&page_notice=",

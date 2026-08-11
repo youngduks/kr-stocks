@@ -1,14 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-11T08:01:33.574Z",
-  "count": 27,
+  "updated_at": "2026-08-11T09:49:07.519Z",
+  "count": 19,
   "items": [
     {
-      "title": "반도체·화장품 수출이 끌어올렸다…코스피·코스닥 동반 상승",
-      "link": "https://www.mt.co.kr/stock/2026/08/11/2026081116353615475",
-      "source": "머니투데이",
-      "ts": 1786434557000,
-      "pub": "Tue, 11 Aug 2026 16:49:17 +0900",
+      "title": "AI·반도체기업 상장문턱 확 낮춘 中",
+      "link": "https://www.hankyung.com/article/2026081150241",
+      "source": "한국경제",
+      "ts": 1786439220000,
+      "pub": "Tue, 11 Aug 2026 18:07:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스, 日 키옥시아 최대주주 됐지만…",
+      "link": "https://www.hankyung.com/article/2026081149331",
+      "source": "한국경제",
+      "ts": 1786439018000,
+      "pub": "Tue, 11 Aug 2026 18:03:38 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,51 +28,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"반도체 중소형주 주목할 타이밍\"…소부장 낙수효과 기대",
-      "link": "https://www.hankyung.com/article/202608114507i",
-      "source": "한국경제",
-      "ts": 1786432067000,
-      "pub": "Tue, 11 Aug 2026 16:07:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아 손잡은 네이버…'초대형 AI 공장' 짓고 수출길 연다",
-      "link": "https://www.hankyung.com/article/2026081159391",
-      "source": "한국경제",
-      "ts": 1786431447000,
-      "pub": "Tue, 11 Aug 2026 15:57:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피, 반도체 수출 호조에 이틀 연속 상승…코스닥은 소부장↑",
-      "link": "https://www.mt.co.kr/stock/2026/08/11/2026081115450452953",
-      "source": "머니투데이",
-      "ts": 1786431379000,
-      "pub": "Tue, 11 Aug 2026 15:56:19 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "\"반도체 수출급증에 실적 모멘텀\"…삼전 4%·하닉 0.35%↑(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260811040151008",
       "source": "연합뉴스 경제",
       "ts": 1786431285000,
       "pub": "Tue, 11 Aug 2026 15:54:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "다시 불거진 AI 순환금융 논란…엔비디아-월가 '710조 동맹'에 SK하이닉스 '흔들'",
-      "link": "https://www.hankyung.com/article/202608115965i",
-      "source": "한국경제",
-      "ts": 1786428696000,
-      "pub": "Tue, 11 Aug 2026 15:11:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성·SK하닉·램리서치 한자리에…반도체 세라믹 소재·부품 협력 강화",
-      "link": "https://www.hankyung.com/article/202608114393i",
-      "source": "한국경제",
-      "ts": 1786428172000,
-      "pub": "Tue, 11 Aug 2026 15:02:52 +0900",
       "sentiment": "neutral"
     },
     {
@@ -113,38 +81,6 @@
       "source": "연합뉴스 경제",
       "ts": 1786408771000,
       "pub": "Tue, 11 Aug 2026 09:39:31 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[특징주] SK하이닉스, 장 초반 1%대 하락 중…삼전도 0.65%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260811040100008",
-      "source": "연합뉴스 경제",
-      "ts": 1786407504000,
-      "pub": "Tue, 11 Aug 2026 09:18:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한투운용, '반도체+전략산업' 5개 산업 투자 ETF 출시",
-      "link": "https://www.yna.co.kr/view/AKR20260811031800008",
-      "source": "연합뉴스 경제",
-      "ts": 1786406101000,
-      "pub": "Tue, 11 Aug 2026 08:55:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "키움증권, 삼전닉스 목표가 동반↓…\"범용메모리 피크아웃 부담\"",
-      "link": "https://www.yna.co.kr/view/AKR20260811029100008",
-      "source": "연합뉴스 경제",
-      "ts": 1786405608000,
-      "pub": "Tue, 11 Aug 2026 08:46:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "DB증권 \"코스닥 상승세 마찰 가능성…자동차·반도체 반등 주목\"",
-      "link": "https://www.yna.co.kr/view/AKR20260811024300008",
-      "source": "연합뉴스 경제",
-      "ts": 1786405425000,
-      "pub": "Tue, 11 Aug 2026 08:43:45 +0900",
       "sentiment": "positive"
     },
     {

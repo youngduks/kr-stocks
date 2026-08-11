@@ -1,8 +1,104 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-11T00:50:47.242Z",
-  "count": 24,
+  "updated_at": "2026-08-11T02:58:19.421Z",
+  "count": 28,
   "items": [
+    {
+      "title": "용인 반도체 클러스터 '7년 단축' 속도전…도로·전력망도 앞당긴다",
+      "link": "https://www.mt.co.kr/estate/2026/08/11/2026081111042867166",
+      "source": "머니투데이",
+      "ts": 1786415758000,
+      "pub": "Tue, 11 Aug 2026 11:35:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아, 월가 6개사와 710조원 AI인프라 금융플랫폼 구축(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260811013051009",
+      "source": "연합뉴스 국제",
+      "ts": 1786413954000,
+      "pub": "Tue, 11 Aug 2026 11:05:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "UBS \"엔비디아 디스펙, 내년 HBM 소비량 늘릴 가능성\"",
+      "link": "https://www.yna.co.kr/view/AKR20260811059500009",
+      "source": "연합뉴스 국제",
+      "ts": 1786413200000,
+      "pub": "Tue, 11 Aug 2026 10:53:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스, 日키옥시아 최대주주 지위 확보… 실질 지배력 확대",
+      "link": "https://www.hankyung.com/article/2026081162161",
+      "source": "한국경제",
+      "ts": 1786413010000,
+      "pub": "Tue, 11 Aug 2026 10:50:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한투운용, 반도체+조방원 담은 국내 전략산업 ETF 출시",
+      "link": "https://www.mt.co.kr/stock/2026/08/11/2026081110164582104",
+      "source": "머니투데이",
+      "ts": 1786412939000,
+      "pub": "Tue, 11 Aug 2026 10:48:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "김정관 장관 \"호남 반도체 팹, 2029년 1차 완공 목표\"",
+      "link": "https://www.hankyung.com/article/202608116193i",
+      "source": "한국경제",
+      "ts": 1786412195000,
+      "pub": "Tue, 11 Aug 2026 10:36:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 업계, 특별법 시행 환영…\"후속 지원 신속 추진해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260811064200003",
+      "source": "연합뉴스 경제",
+      "ts": 1786412045000,
+      "pub": "Tue, 11 Aug 2026 10:34:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "K-반도체 '골든타임' 촉각…\"전력·용수 후속 지원 신속해야\"",
+      "link": "https://www.hankyung.com/article/202608116149g",
+      "source": "한국경제",
+      "ts": 1786411921000,
+      "pub": "Tue, 11 Aug 2026 10:32:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성 투자 확대에 커지는 기대감…반도체 배후 주거지 '주목'",
+      "link": "https://www.hankyung.com/article/202608116146i",
+      "source": "한국경제",
+      "ts": 1786411424000,
+      "pub": "Tue, 11 Aug 2026 10:23:44 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "엔비디아 덕에 '최대 실적'…NHN, AI로 '잭팟' 터뜨렸다",
+      "link": "https://www.hankyung.com/article/202608116100g",
+      "source": "한국경제",
+      "ts": 1786411304000,
+      "pub": "Tue, 11 Aug 2026 10:21:44 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "반도체가 한국 먹여살린다…8월 초 수출 213억달러 '역대 최대'",
+      "link": "https://www.hankyung.com/article/2026081159787",
+      "source": "한국경제",
+      "ts": 1786410251000,
+      "pub": "Tue, 11 Aug 2026 10:04:11 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼성운용, KODEX 미국CPU반도체TOP10 상장 일주일 수익률 10%대",
+      "link": "https://www.hankyung.com/article/2026081160286",
+      "source": "한국경제",
+      "ts": 1786410107000,
+      "pub": "Tue, 11 Aug 2026 10:01:47 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "반도체가 끌어올린 8월 수출…초순부터 역대 최대(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260811035151002",
@@ -10,14 +106,6 @@
       "ts": 1786408771000,
       "pub": "Tue, 11 Aug 2026 09:39:31 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "엔비디아, 월가 거물들과 5000억달러 규모 AI 금융 조달",
-      "link": "https://www.hankyung.com/article/202608115906i",
-      "source": "한국경제",
-      "ts": 1786408448000,
-      "pub": "Tue, 11 Aug 2026 09:34:08 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "[특징주] SK하이닉스, 장 초반 1%대 하락 중…삼전도 0.65%↓",
@@ -33,14 +121,6 @@
       "source": "연합뉴스 경제",
       "ts": 1786406101000,
       "pub": "Tue, 11 Aug 2026 08:55:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"하이닉스 지금  줍줍하면 돈 번다\"…美서 극찬 쏟아진 이유 [종목+]",
-      "link": "https://www.hankyung.com/article/2026081156757",
-      "source": "한국경제",
-      "ts": 1786405688000,
-      "pub": "Tue, 11 Aug 2026 08:48:08 +0900",
       "sentiment": "neutral"
     },
     {
@@ -60,22 +140,6 @@
       "sentiment": "positive"
     },
     {
-      "title": "메모리→광학이 대세? $5000억 퍼붓겠다는 엔비디아 [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202608115420i",
-      "source": "한국경제",
-      "ts": 1786403421000,
-      "pub": "Tue, 11 Aug 2026 08:10:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아, 월가 손잡고 고객 AI 투자 위한 '710조원' 조달 나서",
-      "link": "https://www.hankyung.com/article/202608115538H",
-      "source": "한국경제",
-      "ts": 1786403307000,
-      "pub": "Tue, 11 Aug 2026 08:08:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "엔비디아, 월가와 함께 고객의 AI 투자 위한 710조원 조달 나서",
       "link": "https://www.yna.co.kr/view/AKR20260811013000009",
       "source": "연합뉴스 국제",
@@ -92,44 +156,12 @@
       "sentiment": "positive"
     },
     {
-      "title": "반도체업체 CXMT, MSCI지수 편입…中본토 시총 1위 굳히기",
-      "link": "https://www.yna.co.kr/view/AKR20260810139200089",
-      "source": "연합뉴스 국제",
-      "ts": 1786353693000,
-      "pub": "Mon, 10 Aug 2026 18:21:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[특징주] 반도체 장비주, SK하이닉스 투자 규모 확정에 급등(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260810058951008",
       "source": "연합뉴스 경제",
       "ts": 1786344234000,
       "pub": "Mon, 10 Aug 2026 15:43:54 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "대만 TSMC 7월 매출 45%↑…20.5조원으로 최대 기록 또 경신",
-      "link": "https://www.yna.co.kr/view/AKR20260810104700083",
-      "source": "연합뉴스 국제",
-      "ts": 1786343419000,
-      "pub": "Mon, 10 Aug 2026 15:30:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "TSMC, 타오위안 1.4나노 공장 재추진…\"반대 주민들 돌아서\"",
-      "link": "https://www.yna.co.kr/view/AKR20260810096000009",
-      "source": "연합뉴스 국제",
-      "ts": 1786341881000,
-      "pub": "Mon, 10 Aug 2026 15:04:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "KDI \"반도체 중심으로 경기 개선세 확대\"…물가·고용은 변수",
-      "link": "https://www.yna.co.kr/view/AKR20260810057100002",
-      "source": "연합뉴스 경제",
-      "ts": 1786330805000,
-      "pub": "Mon, 10 Aug 2026 12:00:05 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

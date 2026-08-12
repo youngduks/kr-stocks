@@ -1,8 +1,48 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-11T23:28:12.687Z",
-  "count": 13,
+  "updated_at": "2026-08-12T00:57:03.838Z",
+  "count": 15,
   "items": [
+    {
+      "title": "[특징주] 삼성전자, 4%대 급등…하이닉스도 3%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260812038700008",
+      "source": "연합뉴스 경제",
+      "ts": 1786494331000,
+      "pub": "Wed, 12 Aug 2026 09:25:31 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼전닉스부터 SK스퀘어까지 'S7' 동반상승…美 반도체주 훈풍",
+      "link": "https://www.mt.co.kr/stock/2026/08/12/2026081209191335548",
+      "source": "머니투데이",
+      "ts": 1786494030000,
+      "pub": "Wed, 12 Aug 2026 09:20:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中 CXMT, DDR5 수율 90% 돌파…삼성 턱밑 추격 [IT썰]",
+      "link": "https://www.mt.co.kr/tech/2026/08/12/2026081206415446588",
+      "source": "머니투데이",
+      "ts": 1786491167000,
+      "pub": "Wed, 12 Aug 2026 08:32:47 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "초고수들, 삼전닉스 더해 '상한가 종목' 골라 풀베팅…어디길래",
+      "link": "https://www.hankyung.com/article/202608125555i",
+      "source": "한국경제",
+      "ts": 1786491029000,
+      "pub": "Wed, 12 Aug 2026 08:30:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 흔들리자 '대반전'…1주일 만에 7% 뛰었다 [분석+]",
+      "link": "https://www.hankyung.com/article/2026081254856",
+      "source": "한국경제",
+      "ts": 1786490093000,
+      "pub": "Wed, 12 Aug 2026 08:14:53 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"삼성전자, 조정 끝 상승 추세 시작…주주환원 700조원 예상\"-KB",
       "link": "https://www.hankyung.com/article/2026081256396",
@@ -10,22 +50,6 @@
       "ts": 1786489817000,
       "pub": "Wed, 12 Aug 2026 08:10:17 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "'800조 돈뭉치' 이렇게 빨리?…삼전닉스 길 닦는 정부 [이슈+]",
-      "link": "https://www.hankyung.com/article/202608114567g",
-      "source": "한국경제",
-      "ts": 1786482006000,
-      "pub": "Wed, 12 Aug 2026 06:00:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 8000억 풀자 난리 났다…뜻밖의 '대박' 터진 곳",
-      "link": "https://www.hankyung.com/article/2026081150471",
-      "source": "한국경제",
-      "ts": 1786465250000,
-      "pub": "Wed, 12 Aug 2026 01:20:50 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "'삼전·닉스' 쏠림 완화에 중소형주 온기 확산…순환매 본격화(종합)",
@@ -49,14 +73,6 @@
       "source": "연합뉴스 경제",
       "ts": 1786425363000,
       "pub": "Tue, 11 Aug 2026 14:16:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[르포] 냉난방·온수 한방에…에너지 효율 높인 삼성전자 히트펌프",
-      "link": "https://www.yna.co.kr/view/AKR20260811029700003",
-      "source": "연합뉴스 경제",
-      "ts": 1786413603000,
-      "pub": "Tue, 11 Aug 2026 11:00:03 +0900",
       "sentiment": "neutral"
     },
     {

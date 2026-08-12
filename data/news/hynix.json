@@ -1,31 +1,87 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-11T23:28:12.687Z",
-  "count": 21,
+  "updated_at": "2026-08-12T00:57:03.839Z",
+  "count": 22,
   "items": [
     {
-      "title": "\"하이닉스·GTX 있는데 안 팔려요\"…아파트 계약 포기, 왜?",
-      "link": "https://www.hankyung.com/article/2026081149901",
-      "source": "한국경제",
-      "ts": 1786489203000,
-      "pub": "Wed, 12 Aug 2026 08:00:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "호르무즈에 짓눌린 뉴욕증시…알파벳·엔비디아 기술주 약세 [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026081255146",
-      "source": "한국경제",
-      "ts": 1786487729000,
-      "pub": "Wed, 12 Aug 2026 07:35:29 +0900",
+      "title": "\"엔비디아 금융플랫폼, 시장 우려 완화할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260812024000009",
+      "source": "연합뉴스 국제",
+      "ts": 1786495701000,
+      "pub": "Wed, 12 Aug 2026 09:48:21 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "AI·반도체 연구 발전하지만…\"원자력은 '정체'\" 분석 결과 나와",
-      "link": "https://www.hankyung.com/article/2026081255047",
-      "source": "한국경제",
-      "ts": 1786487523000,
-      "pub": "Wed, 12 Aug 2026 07:32:03 +0900",
+      "title": "용인 남사 반도체국가산단 관통 45번 국도 확장 사업 본궤도",
+      "link": "https://www.yna.co.kr/view/AKR20260812043800061",
+      "source": "연합뉴스 경제",
+      "ts": 1786495617000,
+      "pub": "Wed, 12 Aug 2026 09:46:57 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "\"엔비디아, 초대형 오픈소스 AI 모델 개발중\"",
+      "link": "https://www.yna.co.kr/view/AKR20260812035500009",
+      "source": "연합뉴스 국제",
+      "ts": 1786495396000,
+      "pub": "Wed, 12 Aug 2026 09:43:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, 반도체 강세에 2% 안팎 상승…코스닥은 하락(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260812043300008",
+      "source": "연합뉴스 경제",
+      "ts": 1786495290000,
+      "pub": "Wed, 12 Aug 2026 09:41:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 훈풍에 코스피 장초반 강세…코스닥은 반락",
+      "link": "https://www.mt.co.kr/stock/2026/08/12/2026081209275960989",
+      "source": "머니투데이",
+      "ts": 1786494832000,
+      "pub": "Wed, 12 Aug 2026 09:33:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자, 4%대 급등…하이닉스도 3%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260812038700008",
+      "source": "연합뉴스 경제",
+      "ts": 1786494331000,
+      "pub": "Wed, 12 Aug 2026 09:25:31 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼전닉스부터 SK스퀘어까지 'S7' 동반상승…美 반도체주 훈풍",
+      "link": "https://www.mt.co.kr/stock/2026/08/12/2026081209191335548",
+      "source": "머니투데이",
+      "ts": 1786494030000,
+      "pub": "Wed, 12 Aug 2026 09:20:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"반도체 몰빵 말고 이거 담아라\"…'5배 잭팟' 고수의 비밀 병기",
+      "link": "https://www.hankyung.com/article/202608125695i",
+      "source": "한국경제",
+      "ts": 1786491849000,
+      "pub": "Wed, 12 Aug 2026 08:44:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中 CXMT, DDR5 수율 90% 돌파…삼성 턱밑 추격 [IT썰]",
+      "link": "https://www.mt.co.kr/tech/2026/08/12/2026081206415446588",
+      "source": "머니투데이",
+      "ts": 1786491167000,
+      "pub": "Wed, 12 Aug 2026 08:32:47 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "서울반도체, 매출 증가 긍정적…목표가↑-대신",
+      "link": "https://www.mt.co.kr/stock/2026/08/12/2026081207464384066",
+      "source": "머니투데이",
+      "ts": 1786488646000,
+      "pub": "Wed, 12 Aug 2026 07:50:46 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "반도체 특별연장근로 6개월 신청 4건뿐…규제완화 요구와 온도차",
@@ -36,35 +92,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'반도체주' 뜻밖의 악재…한국 개미들 '초긴장' 하는 이유",
-      "link": "https://www.hankyung.com/article/2026081150181",
-      "source": "한국경제",
-      "ts": 1786482015000,
-      "pub": "Wed, 12 Aug 2026 06:00:15 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "'개방형 옹호' 엔비디아, 자체 AI 출시…초대형 모델도 준비중",
       "link": "https://www.yna.co.kr/view/AKR20260812002300091",
       "source": "연합뉴스 국제",
       "ts": 1786472202000,
       "pub": "Wed, 12 Aug 2026 03:16:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체와 컴퓨팅도 대출 담보로…월가의 실험 VS 도박 [박신영의 개장전 요것만]",
-      "link": "https://www.hankyung.com/article/202608125379i",
-      "source": "한국경제",
-      "ts": 1786464379000,
-      "pub": "Wed, 12 Aug 2026 01:06:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"엔비디아, 최고 수준의 오픈소스 모델 겨냥한 AI모델 개발중\"",
-      "link": "https://www.hankyung.com/article/202608125376i",
-      "source": "한국경제",
-      "ts": 1786463056000,
-      "pub": "Wed, 12 Aug 2026 00:44:16 +0900",
       "sentiment": "neutral"
     },
     {
@@ -81,30 +113,6 @@
       "source": "연합뉴스 경제",
       "ts": 1786431285000,
       "pub": "Tue, 11 Aug 2026 15:54:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "키옥시아, 최대주주 SK하이닉스로 변경…도시바 지분 감소로",
-      "link": "https://www.yna.co.kr/view/AKR20260811102600009",
-      "source": "연합뉴스 국제",
-      "ts": 1786424837000,
-      "pub": "Tue, 11 Aug 2026 14:07:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "순풍에 돛 단 반도체 덕…2분기 수출 2천755억달러로 역대 최대",
-      "link": "https://www.yna.co.kr/view/AKR20260811058200002",
-      "source": "연합뉴스 경제",
-      "ts": 1786417320000,
-      "pub": "Tue, 11 Aug 2026 12:02:00 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "반도체 업계, 특별법 시행 환영…\"후속 지원 신속 추진해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260811064200003",
-      "source": "연합뉴스 경제",
-      "ts": 1786412045000,
-      "pub": "Tue, 11 Aug 2026 10:34:05 +0900",
       "sentiment": "neutral"
     },
     {

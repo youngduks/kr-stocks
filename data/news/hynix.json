@@ -1,8 +1,48 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-12T00:57:03.839Z",
-  "count": 22,
+  "updated_at": "2026-08-12T03:19:23.907Z",
+  "count": 21,
   "items": [
+    {
+      "title": "2029년까지 호남 반도체 산단에 1단계 전력공급…민간비용 정부 지원",
+      "link": "https://www.mt.co.kr/economy/2026/08/12/2026081211175084610",
+      "source": "머니투데이",
+      "ts": 1786501800000,
+      "pub": "Wed, 12 Aug 2026 11:30:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 힘받자 코스피 3%대로 상승 확대…코스닥은 약보합",
+      "link": "https://www.yna.co.kr/view/AKR20260812072000008",
+      "source": "연합뉴스 경제",
+      "ts": 1786500966000,
+      "pub": "Wed, 12 Aug 2026 11:16:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'5천억달러 투자지원' 엔비디아, 건당 최대 25% 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260812067300009",
+      "source": "연합뉴스 국제",
+      "ts": 1786500709000,
+      "pub": "Wed, 12 Aug 2026 11:11:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "日, 53조원대 외자 유치로 '반도체 패권' 재현 총력",
+      "link": "https://www.yna.co.kr/view/AKR20260812053200009",
+      "source": "연합뉴스 국제",
+      "ts": 1786497474000,
+      "pub": "Wed, 12 Aug 2026 10:17:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "상반기 신입공고 13%↑…화장품·금융·반도체 업종 최대 증가",
+      "link": "https://www.yna.co.kr/view/AKR20260812050600003",
+      "source": "연합뉴스 경제",
+      "ts": 1786496527000,
+      "pub": "Wed, 12 Aug 2026 10:02:07 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"엔비디아 금융플랫폼, 시장 우려 완화할 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260812024000009",
@@ -36,11 +76,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "반도체 훈풍에 코스피 장초반 강세…코스닥은 반락",
-      "link": "https://www.mt.co.kr/stock/2026/08/12/2026081209275960989",
-      "source": "머니투데이",
-      "ts": 1786494832000,
-      "pub": "Wed, 12 Aug 2026 09:33:52 +0900",
+      "title": "美 반도체 훈풍에 삼성전자·SK하이닉스↑…코스피 6400선 회복",
+      "link": "https://www.hankyung.com/article/2026081260596",
+      "source": "한국경제",
+      "ts": 1786495163000,
+      "pub": "Wed, 12 Aug 2026 09:39:23 +0900",
       "sentiment": "neutral"
     },
     {
@@ -49,38 +89,6 @@
       "source": "연합뉴스 경제",
       "ts": 1786494331000,
       "pub": "Wed, 12 Aug 2026 09:25:31 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "삼전닉스부터 SK스퀘어까지 'S7' 동반상승…美 반도체주 훈풍",
-      "link": "https://www.mt.co.kr/stock/2026/08/12/2026081209191335548",
-      "source": "머니투데이",
-      "ts": 1786494030000,
-      "pub": "Wed, 12 Aug 2026 09:20:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"반도체 몰빵 말고 이거 담아라\"…'5배 잭팟' 고수의 비밀 병기",
-      "link": "https://www.hankyung.com/article/202608125695i",
-      "source": "한국경제",
-      "ts": 1786491849000,
-      "pub": "Wed, 12 Aug 2026 08:44:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中 CXMT, DDR5 수율 90% 돌파…삼성 턱밑 추격 [IT썰]",
-      "link": "https://www.mt.co.kr/tech/2026/08/12/2026081206415446588",
-      "source": "머니투데이",
-      "ts": 1786491167000,
-      "pub": "Wed, 12 Aug 2026 08:32:47 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "서울반도체, 매출 증가 긍정적…목표가↑-대신",
-      "link": "https://www.mt.co.kr/stock/2026/08/12/2026081207464384066",
-      "source": "머니투데이",
-      "ts": 1786488646000,
-      "pub": "Wed, 12 Aug 2026 07:50:46 +0900",
       "sentiment": "positive"
     },
     {
@@ -97,22 +105,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786472202000,
       "pub": "Wed, 12 Aug 2026 03:16:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "日구마모토 TSMC 속도전 비결은…\"대담한 투자와 꼼꼼한 추진력\"",
-      "link": "https://www.yna.co.kr/view/AKR20260811126000073",
-      "source": "연합뉴스 국제",
-      "ts": 1786432364000,
-      "pub": "Tue, 11 Aug 2026 16:12:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"반도체 수출급증에 실적 모멘텀\"…삼전 4%·하닉 0.35%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260811040151008",
-      "source": "연합뉴스 경제",
-      "ts": 1786431285000,
-      "pub": "Tue, 11 Aug 2026 15:54:45 +0900",
       "sentiment": "neutral"
     },
     {

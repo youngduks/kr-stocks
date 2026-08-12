@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-12T00:57:03.838Z",
-  "count": 15,
+  "updated_at": "2026-08-12T03:19:23.907Z",
+  "count": 10,
   "items": [
+    {
+      "title": "코스피, 4%대 급등하며 매수 사이드카…삼전닉스 7%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260812082000008",
+      "source": "연합뉴스 경제",
+      "ts": 1786504159000,
+      "pub": "Wed, 12 Aug 2026 12:09:19 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'억대 성과급' 주는 삼전닉스 아니네…직장인 만족도 1위 회사는 '이곳'",
+      "link": "https://www.mt.co.kr/society/2026/08/12/2026081210425251090",
+      "source": "머니투데이",
+      "ts": 1786499757000,
+      "pub": "Wed, 12 Aug 2026 10:55:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 반도체 훈풍에 삼성전자·SK하이닉스↑…코스피 6400선 회복",
+      "link": "https://www.hankyung.com/article/2026081260596",
+      "source": "한국경제",
+      "ts": 1786495163000,
+      "pub": "Wed, 12 Aug 2026 09:39:23 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[특징주] 삼성전자, 4%대 급등…하이닉스도 3%↑",
       "link": "https://www.yna.co.kr/view/AKR20260812038700008",
@@ -10,70 +34,6 @@
       "ts": 1786494331000,
       "pub": "Wed, 12 Aug 2026 09:25:31 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "삼전닉스부터 SK스퀘어까지 'S7' 동반상승…美 반도체주 훈풍",
-      "link": "https://www.mt.co.kr/stock/2026/08/12/2026081209191335548",
-      "source": "머니투데이",
-      "ts": 1786494030000,
-      "pub": "Wed, 12 Aug 2026 09:20:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中 CXMT, DDR5 수율 90% 돌파…삼성 턱밑 추격 [IT썰]",
-      "link": "https://www.mt.co.kr/tech/2026/08/12/2026081206415446588",
-      "source": "머니투데이",
-      "ts": 1786491167000,
-      "pub": "Wed, 12 Aug 2026 08:32:47 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "초고수들, 삼전닉스 더해 '상한가 종목' 골라 풀베팅…어디길래",
-      "link": "https://www.hankyung.com/article/202608125555i",
-      "source": "한국경제",
-      "ts": 1786491029000,
-      "pub": "Wed, 12 Aug 2026 08:30:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 흔들리자 '대반전'…1주일 만에 7% 뛰었다 [분석+]",
-      "link": "https://www.hankyung.com/article/2026081254856",
-      "source": "한국경제",
-      "ts": 1786490093000,
-      "pub": "Wed, 12 Aug 2026 08:14:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼성전자, 조정 끝 상승 추세 시작…주주환원 700조원 예상\"-KB",
-      "link": "https://www.hankyung.com/article/2026081256396",
-      "source": "한국경제",
-      "ts": 1786489817000,
-      "pub": "Wed, 12 Aug 2026 08:10:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'삼전·닉스' 쏠림 완화에 중소형주 온기 확산…순환매 본격화(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260811087151008",
-      "source": "연합뉴스 경제",
-      "ts": 1786433573000,
-      "pub": "Tue, 11 Aug 2026 16:32:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"반도체 수출급증에 실적 모멘텀\"…삼전 4%·하닉 0.35%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260811040151008",
-      "source": "연합뉴스 경제",
-      "ts": 1786431285000,
-      "pub": "Tue, 11 Aug 2026 15:54:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'삼전·닉스' 쏠림 완화에 중소형주 온기 확산…순환매 본격화",
-      "link": "https://www.yna.co.kr/view/AKR20260811087100008",
-      "source": "연합뉴스 경제",
-      "ts": 1786425363000,
-      "pub": "Tue, 11 Aug 2026 14:16:03 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

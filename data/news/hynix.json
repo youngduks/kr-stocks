@@ -1,38 +1,46 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-12T08:58:56.725Z",
-  "count": 21,
+  "updated_at": "2026-08-12T10:01:38.536Z",
+  "count": 20,
   "items": [
+    {
+      "title": "\"AI 열풍에 증설 필요\"…TSMC, 첨단공정 294억弗 또 투자",
+      "link": "https://www.hankyung.com/article/2026081275721",
+      "source": "한국경제",
+      "ts": 1786525578000,
+      "pub": "Wed, 12 Aug 2026 18:06:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "10년 후 커질 '제2 반도체' 육성…정부가 리스크 부담",
+      "link": "https://www.hankyung.com/article/2026081275111",
+      "source": "한국경제",
+      "ts": 1786525337000,
+      "pub": "Wed, 12 Aug 2026 18:02:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "英 하이닉스 3배 ETP 두달새 98% '뚝'",
+      "link": "https://www.hankyung.com/article/2026081275801",
+      "source": "한국경제",
+      "ts": 1786525023000,
+      "pub": "Wed, 12 Aug 2026 17:57:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李대통령 \"반도체 다음 먹거리, 7대 첨단산업이 국력\"",
+      "link": "https://www.hankyung.com/article/2026081275541",
+      "source": "한국경제",
+      "ts": 1786524466000,
+      "pub": "Wed, 12 Aug 2026 17:47:46 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "다시 힘받은 반도체…코스피 3.68%↑, 사흘연속 상승(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260812128600008",
       "source": "연합뉴스 경제",
       "ts": 1786519385000,
       "pub": "Wed, 12 Aug 2026 16:23:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "화성 H-테크노밸리, 화성 복합산단 지원시설용지 분양…반도체·미래차 거점에 주거도 갖춰",
-      "link": "https://www.hankyung.com/article/2026081259771",
-      "source": "한국경제",
-      "ts": 1786519093000,
-      "pub": "Wed, 12 Aug 2026 16:18:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 공매도 잔액 급증…SK하이닉스·삼성전기는 감소",
-      "link": "https://www.hankyung.com/article/202608127171i",
-      "source": "한국경제",
-      "ts": 1786519012000,
-      "pub": "Wed, 12 Aug 2026 16:16:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스 직원 부럽지 않다…나만의 홈 오피스 꾸미는 법 [전하민의 리빙 아카이브]",
-      "link": "https://www.hankyung.com/article/202608069135i",
-      "source": "한국경제",
-      "ts": 1786518786000,
-      "pub": "Wed, 12 Aug 2026 16:13:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -84,27 +92,11 @@
       "sentiment": "negative"
     },
     {
-      "title": "용인 남사 반도체국가산단 관통 45번 국도 확장 사업 본궤도",
-      "link": "https://www.yna.co.kr/view/AKR20260812043800061",
-      "source": "연합뉴스 경제",
-      "ts": 1786495617000,
-      "pub": "Wed, 12 Aug 2026 09:46:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"엔비디아, 초대형 오픈소스 AI 모델 개발중\"",
       "link": "https://www.yna.co.kr/view/AKR20260812035500009",
       "source": "연합뉴스 국제",
       "ts": 1786495396000,
       "pub": "Wed, 12 Aug 2026 09:43:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'개방형 옹호' 엔비디아, 자체 AI 출시…초대형 모델도 준비중",
-      "link": "https://www.yna.co.kr/view/AKR20260812002300091",
-      "source": "연합뉴스 국제",
-      "ts": 1786472202000,
-      "pub": "Wed, 12 Aug 2026 03:16:42 +0900",
       "sentiment": "neutral"
     },
     {

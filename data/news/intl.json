@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-12T11:37:37.225Z",
+  "updated_at": "2026-08-12T12:40:55.472Z",
   "count": 19,
   "items": [
+    {
+      "title": "[속보]美 7월 CPI 0.1%p↑,연율 3.4%로 예상치보다 적게 올라",
+      "link": "https://www.hankyung.com/article/202608127808i",
+      "source": "한국경제",
+      "ts": 1786537936000,
+      "pub": "Wed, 12 Aug 2026 21:32:16 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "극동 지역 찾은 푸틴 \"나토, 아태 침투…日, 러에 일방적 제재\"",
       "link": "https://www.yna.co.kr/view/AKR20260812152800108",
@@ -145,14 +153,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786486963000,
       "pub": "Wed, 12 Aug 2026 07:22:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 '전용기 바꿔타기' 언론에 안알려…\"클린턴 땐 사전고지\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812004500071",
-      "source": "연합뉴스 국제",
-      "ts": 1786480015000,
-      "pub": "Wed, 12 Aug 2026 05:26:55 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-12T22:28:23.483Z",
-  "count": 33,
+  "updated_at": "2026-08-12T23:29:10.182Z",
+  "count": 30,
   "items": [
+    {
+      "title": "\"달콤씁쓸한 결정\"…'최연소 대변인' 레빗, 백악관 떠난다",
+      "link": "https://www.hankyung.com/article/202608138109H",
+      "source": "한국경제",
+      "ts": 1786576870000,
+      "pub": "Thu, 13 Aug 2026 08:21:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한투증권 \"문제는 美 8월 CPI…유가 현수준이면 3.7%까지 반등\"",
+      "link": "https://www.yna.co.kr/view/AKR20260813021100008",
+      "source": "연합뉴스 경제",
+      "ts": 1786576028000,
+      "pub": "Thu, 13 Aug 2026 08:07:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[마켓뷰] 美 CPI 둔화 '훈풍'…코스피, 상승세 이어갈까",
+      "link": "https://www.yna.co.kr/view/AKR20260813018700008",
+      "source": "연합뉴스 경제",
+      "ts": 1786575696000,
+      "pub": "Thu, 13 Aug 2026 08:01:36 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[외신 에스프레소]\"대통령 전용기를 '미끼'로 썼다? 트럼프의 극비 탈출 작전",
+      "link": "https://www.hankyung.com/article/202608138061i",
+      "source": "한국경제",
+      "ts": 1786575218000,
+      "pub": "Thu, 13 Aug 2026 07:53:38 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "CPI 상승세 둔화 속 혼조…나스닥 0.54%↑ [뉴욕증시 브리핑]",
       "link": "https://www.hankyung.com/article/2026081380166",
@@ -20,14 +52,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'역대 최연소' 레빗 백악관 대변인 사임…\"가족과 시간 보내겠다\"",
-      "link": "https://www.mt.co.kr/world/2026/08/13/2026081305234981851",
-      "source": "머니투데이",
-      "ts": 1786569369000,
-      "pub": "Thu, 13 Aug 2026 06:16:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"호르무즈 완전 장악\" 거듭 주장…WSJ \"현실은 달라\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260812173751071",
       "source": "연합뉴스 국제",
@@ -42,14 +66,6 @@
       "ts": 1786566799000,
       "pub": "Thu, 13 Aug 2026 05:33:19 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"월 1억4000만원 내면 트럼프 글 먼저 본다\"…美언론 '위헌 소송'",
-      "link": "https://www.mt.co.kr/world/2026/08/13/2026081304372994505",
-      "source": "머니투데이",
-      "ts": 1786563902000,
-      "pub": "Thu, 13 Aug 2026 04:45:02 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "\"'미끼 비행기' 탔던 美기자단 충격\"…백악관에 안전대책 요구",
@@ -89,14 +105,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786551437000,
       "pub": "Thu, 13 Aug 2026 01:17:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"美 호르무즈 해협 장악 중…이란 말만 많고 행동 없어\"",
-      "link": "https://www.mt.co.kr/world/2026/08/13/2026081300344416245",
-      "source": "머니투데이",
-      "ts": 1786548990000,
-      "pub": "Thu, 13 Aug 2026 00:36:30 +0900",
       "sentiment": "neutral"
     },
     {
@@ -140,35 +148,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "美 7월 CPI, 시장 예상치 부합…금리 동결 가능성 높아졌다",
-      "link": "https://www.hankyung.com/article/202608127843i",
-      "source": "한국경제",
-      "ts": 1786541440000,
-      "pub": "Wed, 12 Aug 2026 22:30:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美7월 소비자물가 상승률 3.4%로 둔화…연준 금리동결 기대↑(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260812167252072",
       "source": "연합뉴스 국제",
       "ts": 1786540270000,
       "pub": "Wed, 12 Aug 2026 22:11:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 7월 CPI에 시장 안도…\"금리인상 가능성 36%로 낮췄다\"",
-      "link": "https://www.hankyung.com/article/202608127829i",
-      "source": "한국경제",
-      "ts": 1786540200000,
-      "pub": "Wed, 12 Aug 2026 22:10:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 美 7월 CPI 0.1%p↑…연율 3.4%로 '예상치 부합'",
-      "link": "https://www.hankyung.com/article/202608127808i",
-      "source": "한국경제",
-      "ts": 1786537936000,
-      "pub": "Wed, 12 Aug 2026 21:32:16 +0900",
       "sentiment": "neutral"
     },
     {
@@ -241,14 +225,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786503497000,
       "pub": "Wed, 12 Aug 2026 11:58:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 암살 위협에 긴장?…트럼프 골프장에 이동식 방공미사일 포착",
-      "link": "https://www.yna.co.kr/view/AKR20260812077700704",
-      "source": "연합뉴스 국제",
-      "ts": 1786502781000,
-      "pub": "Wed, 12 Aug 2026 11:46:21 +0900",
       "sentiment": "neutral"
     },
     {

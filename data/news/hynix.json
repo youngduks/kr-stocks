@@ -1,95 +1,101 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-08T10:41:22.063Z",
-  "count": 17,
+  "updated_at": "2026-08-12T21:33:06.286Z",
+  "count": 18,
   "items": [
     {
-      "title": "블룸버그 \"SK하이닉스, 中 충칭 패키징 공장 지분 매각 검토\"",
-      "link": "https://www.hankyung.com/article/2026080820317",
-      "source": "한국경제",
-      "ts": 1786184034000,
-      "pub": "Sat, 08 Aug 2026 19:13:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"SK하이닉스, 중국 충칭 패키징공장 지분매각 등 검토\"",
-      "link": "https://www.yna.co.kr/view/AKR20260808045500009",
+      "title": "엔비디아 젠슨 황, 美 직원이 뽑은 '최고 CEO' 1위…지지율 99%",
+      "link": "https://www.yna.co.kr/view/AKR20260813005600091",
       "source": "연합뉴스 국제",
-      "ts": 1786179633000,
-      "pub": "Sat, 8 Aug 2026 18:00:33 +0900",
+      "ts": 1786569914000,
+      "pub": "Thu, 13 Aug 2026 06:25:14 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "삼전닉스 낸드 훈풍 이어지나..샌디스크 \"물량 없어 못 번다\" 공식화",
-      "link": "https://www.mt.co.kr/industry/2026/08/08/2026080715300138850",
+      "title": "24시간 불이 꺼지지 않았다…TSMC 구마모토 '속도전'의 비결",
+      "link": "https://www.mt.co.kr/industry/2026/08/13/2026081216180216521",
       "source": "머니투데이",
-      "ts": 1786170600000,
-      "pub": "Sat, 08 Aug 2026 15:30:00 +0900",
+      "ts": 1786566600000,
+      "pub": "Thu, 13 Aug 2026 05:30:00 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "CXMT가 턱밑까지?…삼전·하닉에 남은 '반전 카드' 있었다",
-      "link": "https://www.hankyung.com/article/202608071526i",
-      "source": "한국경제",
-      "ts": 1786170482000,
-      "pub": "Sat, 08 Aug 2026 15:28:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "메모리반도체 품귀에 '장기계약' 러시..샌디스크·난야도 LTA 확대",
-      "link": "https://www.mt.co.kr/industry/2026/08/08/2026080714455982199",
+      "title": "모바일D램 가격 또 오른다… 스마트폰 원가 경쟁 '치열'",
+      "link": "https://www.mt.co.kr/industry/2026/08/13/2026081219480950158",
       "source": "머니투데이",
-      "ts": 1786168837000,
-      "pub": "Sat, 08 Aug 2026 15:00:37 +0900",
+      "ts": 1786561200000,
+      "pub": "Thu, 13 Aug 2026 04:00:00 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"반도체 근원 경쟁력 회복 신호탄\"…삼성, 3D HBM 승부수 [강경주의 테크X]",
-      "link": "https://www.hankyung.com/article/2026080710996",
-      "source": "한국경제",
-      "ts": 1786165205000,
-      "pub": "Sat, 08 Aug 2026 14:00:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "월가 'ATM' 된 삼전닉스?…반도체 저승사자도 \"이젠 살 때\" [빈난새의 빈틈없이마켓]",
-      "link": "https://www.hankyung.com/article/202608071501i",
-      "source": "한국경제",
-      "ts": 1786158109000,
-      "pub": "Sat, 08 Aug 2026 12:01:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체공학회 \"연구개발직 주 52시간제 반드시 개선해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260807129400003",
-      "source": "연합뉴스 경제",
-      "ts": 1786089150000,
-      "pub": "Fri, 7 Aug 2026 16:52:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스, 전날 10% 폭락이어 또 4.8% 급락…삼전 0.2%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260807040351008",
-      "source": "연합뉴스 경제",
-      "ts": 1786085659000,
-      "pub": "Fri, 7 Aug 2026 15:54:19 +0900",
+      "title": "美반도체 약세속, 삼전닉스 강세… K증시 동반상승",
+      "link": "https://www.mt.co.kr/stock/2026/08/13/2026081219540671059",
+      "source": "머니투데이",
+      "ts": 1786560900000,
+      "pub": "Thu, 13 Aug 2026 03:55:00 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "태양광·반도체·이차전지 국내 생산시 2036년까지 세액공제(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260807025651003",
-      "source": "연합뉴스 경제",
-      "ts": 1786069017000,
-      "pub": "Fri, 7 Aug 2026 11:16:57 +0900",
+      "title": "\"거품론에도 실적 탄탄, 올해는 AI반도체\"",
+      "link": "https://www.mt.co.kr/stock/2026/08/13/2026081219521573126",
+      "source": "머니투데이",
+      "ts": 1786557840000,
+      "pub": "Thu, 13 Aug 2026 03:04:00 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[특징주] 삼성전자, 장 초반 1%대 상승…SK하이닉스 하락전환",
-      "link": "https://www.yna.co.kr/view/AKR20260807040300008",
-      "source": "연합뉴스 경제",
-      "ts": 1786063240000,
-      "pub": "Fri, 7 Aug 2026 09:40:40 +0900",
+      "title": "17일 만에 SNS 쓴 김용범 실장…\"반도체, 그 다음 물어야\"",
+      "link": "https://www.hankyung.com/article/2026081278597",
+      "source": "한국경제",
+      "ts": 1786543148000,
+      "pub": "Wed, 12 Aug 2026 22:59:08 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스, 인디애나팹 27일 착공식…최태원·젠슨 황 만나나",
+      "link": "https://www.hankyung.com/article/2026081277966",
+      "source": "한국경제",
+      "ts": 1786537214000,
+      "pub": "Wed, 12 Aug 2026 21:20:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "다시 힘받은 반도체…코스피 3.68%↑, 사흘연속 상승(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260812128600008",
+      "source": "연합뉴스 경제",
+      "ts": 1786519385000,
+      "pub": "Wed, 12 Aug 2026 16:23:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "TSMC, 첨단 공정·패키징 등에 42조원 자본지출 승인",
+      "link": "https://www.yna.co.kr/view/AKR20260812085900009",
+      "source": "연합뉴스 국제",
+      "ts": 1786510527000,
+      "pub": "Wed, 12 Aug 2026 13:55:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 힘받자 코스피 3%대로 상승 확대…코스닥은 약보합",
+      "link": "https://www.yna.co.kr/view/AKR20260812072000008",
+      "source": "연합뉴스 경제",
+      "ts": 1786500966000,
+      "pub": "Wed, 12 Aug 2026 11:16:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=99263109&code=000660&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1786320000000,
+      "pub": "2026.08.10"
+    },
+    {
+      "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=99078931&code=000660&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1786320000000,
+      "pub": "2026.08.10"
     },
     {
       "title": "에스케이하이닉스(주) 자기주식 처분 결정",

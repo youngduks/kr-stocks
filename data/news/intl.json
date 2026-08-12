@@ -1,174 +1,270 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-08T10:41:21.941Z",
-  "count": 21,
+  "updated_at": "2026-08-12T21:33:06.284Z",
+  "count": 33,
   "items": [
     {
-      "title": "우크라 여론, 젤렌스키보다 잘루즈니 믿는다…대선 전망 안갯속",
-      "link": "https://www.yna.co.kr/view/AKR20260808046900108",
-      "source": "연합뉴스 국제",
-      "ts": 1786182865000,
-      "pub": "Sat, 8 Aug 2026 18:54:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 충성파' 美법무 대행꼬리 떼…상원 인준 가까스로 가결",
-      "link": "https://www.yna.co.kr/view/AKR20260808046100009",
-      "source": "연합뉴스 국제",
-      "ts": 1786180633000,
-      "pub": "Sat, 8 Aug 2026 18:17:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 쿠바 정권 갈아치우나…\"차기 지도자 물색 중\"",
-      "link": "https://www.hankyung.com/article/2026080820047",
-      "source": "한국경제",
-      "ts": 1786178143000,
-      "pub": "Sat, 08 Aug 2026 17:35:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 30억달러 규모 핵심 광물 투자 발표…\"중국 의존 없도록\"",
-      "link": "https://www.mt.co.kr/world/2026/08/08/2026080814265498266",
+      "title": "'역대 최연소' 레빗 백악관 대변인 사임…\"가족과 시간 보내겠다\"",
+      "link": "https://www.mt.co.kr/world/2026/08/13/2026081305234981851",
       "source": "머니투데이",
-      "ts": 1786169595000,
-      "pub": "Sat, 08 Aug 2026 15:13:15 +0900",
+      "ts": 1786569369000,
+      "pub": "Thu, 13 Aug 2026 06:16:09 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "'尹 탄핵반대' 손현보 목사 트럼프 대통령과 면담…\"힘 합쳐 자유 지켜야\"",
-      "link": "https://www.mt.co.kr/economy/2026/08/08/2026080813590695857",
-      "source": "머니투데이",
-      "ts": 1786166249000,
-      "pub": "Sat, 08 Aug 2026 14:17:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'윤석열 탄핵 반대' 손현보 목사, 美 트럼프 대통령 면담",
-      "link": "https://www.hankyung.com/article/2026080818607",
-      "source": "한국경제",
-      "ts": 1786162310000,
-      "pub": "Sat, 08 Aug 2026 13:11:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘, 中청두 총영사관 문 닫아…중동 정세와 관련(?)",
-      "link": "https://www.yna.co.kr/view/AKR20260808028800089",
+      "title": "트럼프 \"호르무즈 완전 장악\" 거듭 주장…WSJ \"현실은 달라\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260812173751071",
       "source": "연합뉴스 국제",
-      "ts": 1786160649000,
-      "pub": "Sat, 8 Aug 2026 12:44:09 +0900",
+      "ts": 1786566985000,
+      "pub": "Thu, 13 Aug 2026 05:36:25 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 2년 차엔 주식이 춥다?…내년 '큰 장' 노리려면",
-      "link": "https://www.hankyung.com/article/202608071490i",
-      "source": "한국경제",
-      "ts": 1786154408000,
-      "pub": "Sat, 08 Aug 2026 11:00:08 +0900",
+      "title": "레빗 백악관 대변인 이달말 퇴임…트럼프 \"가족 위한 결정\"",
+      "link": "https://www.yna.co.kr/view/AKR20260813005500071",
+      "source": "연합뉴스 국제",
+      "ts": 1786566799000,
+      "pub": "Thu, 13 Aug 2026 05:33:19 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"땡큐 트럼프\"…삼전닉스 10%대 급락 때 이 업종 달렸다[김근희의 증시랩업]",
-      "link": "https://www.mt.co.kr/stock/2026/08/08/2026080717155476003",
+      "title": "\"월 1억4000만원 내면 트럼프 글 먼저 본다\"…美언론 '위헌 소송'",
+      "link": "https://www.mt.co.kr/world/2026/08/13/2026081304372994505",
       "source": "머니투데이",
-      "ts": 1786149000000,
-      "pub": "Sat, 08 Aug 2026 09:30:00 +0900",
+      "ts": 1786563902000,
+      "pub": "Thu, 13 Aug 2026 04:45:02 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "美, 핵심광물에 30억달러 투자…트럼프 \"다시는 中 의존 않도록\"",
-      "link": "https://www.yna.co.kr/view/AKR20260808006100071",
+      "title": "\"'미끼 비행기' 탔던 美기자단 충격\"…백악관에 안전대책 요구",
+      "link": "https://www.yna.co.kr/view/AKR20260813002500071",
       "source": "연합뉴스 국제",
-      "ts": 1786140346000,
-      "pub": "Sat, 8 Aug 2026 07:05:46 +0900",
+      "ts": 1786559917000,
+      "pub": "Thu, 13 Aug 2026 03:38:37 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 중간선거 민심악화에 \"나말고 당에 화났다\" 떠넘기기",
-      "link": "https://www.yna.co.kr/view/AKR20260808004600071",
+      "title": "트럼프 평화 중재안 압박에도 이스라엘, 또 가자지구 공습",
+      "link": "https://www.yna.co.kr/view/AKR20260813002800079",
       "source": "연합뉴스 국제",
-      "ts": 1786138712000,
-      "pub": "Sat, 8 Aug 2026 06:38:32 +0900",
+      "ts": 1786558882000,
+      "pub": "Thu, 13 Aug 2026 03:21:22 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "'트럼프 측근' 故그레이엄 의원의 러·이란 제재법안 상원 통과",
-      "link": "https://www.yna.co.kr/view/AKR20260808003700071",
+      "title": "'트럼프 SNS 먼저보기' 유료서비스 피소…\"이례적 부패행위\"",
+      "link": "https://www.yna.co.kr/view/AKR20260813002400071",
       "source": "연합뉴스 국제",
-      "ts": 1786128089000,
-      "pub": "Sat, 8 Aug 2026 03:41:29 +0900",
+      "ts": 1786558786000,
+      "pub": "Thu, 13 Aug 2026 03:19:46 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "美법원, 백악관 연회장 공사에 또 제동…트럼프 \"정치적 판결\"",
-      "link": "https://www.yna.co.kr/view/AKR20260808002900071",
+      "title": "트럼프 사위 일가에 팔린 LA레이커스…사상최고가 18조원에 매각",
+      "link": "https://www.yna.co.kr/view/AKR20260813002000075",
       "source": "연합뉴스 국제",
-      "ts": 1786127734000,
-      "pub": "Sat, 8 Aug 2026 03:35:34 +0900",
+      "ts": 1786557609000,
+      "pub": "Thu, 13 Aug 2026 03:00:09 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"트럼프, 백악관 공사에 1.3조원 투입 예정…80년만에 최대규모\"",
+      "link": "https://www.yna.co.kr/view/AKR20260813000800071",
+      "source": "연합뉴스 국제",
+      "ts": 1786551437000,
+      "pub": "Thu, 13 Aug 2026 01:17:17 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 대법원 제동에도 '눈엣가시' 연준 이사 해임 재추진",
-      "link": "https://www.yna.co.kr/view/AKR20260808003500071",
-      "source": "연합뉴스 국제",
-      "ts": 1786127395000,
-      "pub": "Sat, 8 Aug 2026 03:29:55 +0900",
+      "title": "트럼프 \"美 호르무즈 해협 장악 중…이란 말만 많고 행동 없어\"",
+      "link": "https://www.mt.co.kr/world/2026/08/13/2026081300344416245",
+      "source": "머니투데이",
+      "ts": 1786548990000,
+      "pub": "Thu, 13 Aug 2026 00:36:30 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "'트럼프 충성파' 美법무 인준 다시 청신호…과반 찬성표 확보(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260807159351071",
+      "title": "\"트럼프 전용기 갈아탈 때 서열 1·2위 장관 아닌 측근만 동행\"",
+      "link": "https://www.yna.co.kr/view/AKR20260812173900071",
       "source": "연합뉴스 국제",
-      "ts": 1786119617000,
-      "pub": "Sat, 8 Aug 2026 01:20:17 +0900",
+      "ts": 1786548708000,
+      "pub": "Thu, 13 Aug 2026 00:31:48 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"중국의 AI·암호화폐 장악 안돼…시진핑과 논의할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260808000800071",
+      "title": "트럼프, '호르무즈 완전 장악' 주장 되풀이…\"이란은 말만 많다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260812173700071",
       "source": "연합뉴스 국제",
-      "ts": 1786116937000,
-      "pub": "Sat, 8 Aug 2026 00:35:37 +0900",
+      "ts": 1786547932000,
+      "pub": "Thu, 13 Aug 2026 00:18:52 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, '탄약부족' 보도에 격노…\"'누가 흘리나' 색출 지시\"",
-      "link": "https://www.yna.co.kr/view/AKR20260807164000071",
+      "title": "美 증시, CPI에 안도하고 AI 인프라 실적 대박에 상승 출발",
+      "link": "https://www.hankyung.com/article/202608127841i",
+      "source": "한국경제",
+      "ts": 1786543554000,
+      "pub": "Wed, 12 Aug 2026 23:05:54 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "뉴욕증시, CPI 소화하며 상승 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260812171900009",
       "source": "연합뉴스 국제",
-      "ts": 1786115272000,
-      "pub": "Sat, 8 Aug 2026 00:07:52 +0900",
+      "ts": 1786542598000,
+      "pub": "Wed, 12 Aug 2026 22:49:58 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "뉴욕증시, 비농업 고용지표 소화하며 혼조 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260807163500009",
+      "title": "트럼프 머리 위로 또 민항기 '침범'…F-16 출격해 섬광탄 발사",
+      "link": "https://www.yna.co.kr/view/AKR20260812170800071",
       "source": "연합뉴스 국제",
-      "ts": 1786110544000,
-      "pub": "Fri, 7 Aug 2026 22:49:04 +0900",
+      "ts": 1786542193000,
+      "pub": "Wed, 12 Aug 2026 22:43:13 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "'트럼프 충성파' 美법무 인준 무산 가능성…與 1명 추가 반대",
-      "link": "https://www.yna.co.kr/view/AKR20260807159300071",
-      "source": "연합뉴스 국제",
-      "ts": 1786109406000,
-      "pub": "Fri, 7 Aug 2026 22:30:06 +0900",
+      "title": "美 7월 CPI, 시장 예상치 부합…금리 동결 가능성 높아졌다",
+      "link": "https://www.hankyung.com/article/202608127843i",
+      "source": "한국경제",
+      "ts": 1786541440000,
+      "pub": "Wed, 12 Aug 2026 22:30:40 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"푸틴, 전쟁 장기화 속 정보기관에 의존…통제 강화\"",
-      "link": "https://www.yna.co.kr/view/AKR20260807158700108",
-      "source": "연합뉴스 국제",
-      "ts": 1786108473000,
-      "pub": "Fri, 7 Aug 2026 22:14:33 +0900",
+      "title": "\"더한 일 일어난 적도\"…트럼프, '비상사태 선포' 선거 개입 가능성 시사",
+      "link": "https://www.mt.co.kr/world/2026/08/12/2026081221042849939",
+      "source": "머니투데이",
+      "ts": 1786540796000,
+      "pub": "Wed, 12 Aug 2026 22:19:56 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "정상회담 앞 미중 무역갈등 고조…시진핑 방미 영향받나",
-      "link": "https://www.yna.co.kr/view/AKR20260807116700009",
+      "title": "美7월 소비자물가 상승률 3.4%로 둔화…연준 금리동결 기대↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260812167252072",
       "source": "연합뉴스 국제",
-      "ts": 1786086556000,
-      "pub": "Fri, 7 Aug 2026 16:09:16 +0900",
+      "ts": 1786540270000,
+      "pub": "Wed, 12 Aug 2026 22:11:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 7월 CPI에 시장 안도…\"금리인상 가능성 36%로 낮췄다\"",
+      "link": "https://www.hankyung.com/article/202608127829i",
+      "source": "한국경제",
+      "ts": 1786540200000,
+      "pub": "Wed, 12 Aug 2026 22:10:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美 7월 CPI 0.1%p↑…연율 3.4%로 '예상치 부합'",
+      "link": "https://www.hankyung.com/article/202608127808i",
+      "source": "한국경제",
+      "ts": 1786537936000,
+      "pub": "Wed, 12 Aug 2026 21:32:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "극동 지역 찾은 푸틴 \"나토, 아태 침투…日, 러에 일방적 제재\"",
+      "link": "https://www.yna.co.kr/view/AKR20260812152800108",
+      "source": "연합뉴스 국제",
+      "ts": 1786526217000,
+      "pub": "Wed, 12 Aug 2026 18:16:57 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프, 중간선거 앞 '비상사태 선포' 가능성 배제 안해",
+      "link": "https://www.yna.co.kr/view/AKR20260812150400009",
+      "source": "연합뉴스 국제",
+      "ts": 1786525273000,
+      "pub": "Wed, 12 Aug 2026 18:01:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"경호국 요청 따랐다\"…비밀환승·미끼 항공기 논란 항변",
+      "link": "https://www.yna.co.kr/view/AKR20260812131100009",
+      "source": "연합뉴스 국제",
+      "ts": 1786519953000,
+      "pub": "Wed, 12 Aug 2026 16:32:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러, 우크라 맹폭에 정유 대란…인도 휘발유까지 수입 시작",
+      "link": "https://www.yna.co.kr/view/AKR20260812123100009",
+      "source": "연합뉴스 국제",
+      "ts": 1786517820000,
+      "pub": "Wed, 12 Aug 2026 15:57:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"참모·취재진이 미끼였다\"…트럼프, 전용기 갈아타기 논란 확산",
+      "link": "https://www.yna.co.kr/view/AKR20260812121900009",
+      "source": "연합뉴스 국제",
+      "ts": 1786517517000,
+      "pub": "Wed, 12 Aug 2026 15:51:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라, 흑해 유조선 공격 중단…美부통령, 젤렌스키에 요청",
+      "link": "https://www.yna.co.kr/view/AKR20260812110100009",
+      "source": "연합뉴스 국제",
+      "ts": 1786514760000,
+      "pub": "Wed, 12 Aug 2026 15:06:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이란, 나토회의 참석한 트럼프 호텔 층까지 파악\"",
+      "link": "https://www.yna.co.kr/view/AKR20260812105500009",
+      "source": "연합뉴스 국제",
+      "ts": 1786513663000,
+      "pub": "Wed, 12 Aug 2026 14:47:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[쇼츠] 골프 치는 트럼프 뒤로 포착된 이것은?",
+      "link": "https://www.yna.co.kr/view/AKR20260812081400704",
+      "source": "연합뉴스 국제",
+      "ts": 1786503899000,
+      "pub": "Wed, 12 Aug 2026 12:04:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "메타의 마누스 인수 백지화…미중 AI경쟁 심화 속 中당국 제동(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260812023151009",
+      "source": "연합뉴스 국제",
+      "ts": 1786503497000,
+      "pub": "Wed, 12 Aug 2026 11:58:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 암살 위협에 긴장?…트럼프 골프장에 이동식 방공미사일 포착",
+      "link": "https://www.yna.co.kr/view/AKR20260812077700704",
+      "source": "연합뉴스 국제",
+      "ts": 1786502781000,
+      "pub": "Wed, 12 Aug 2026 11:46:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 7월 CPI에 쏠린 눈…\"둔화 시 코스피 반등 계기될 수도\"",
+      "link": "https://www.yna.co.kr/view/AKR20260812073500008",
+      "source": "연합뉴스 경제",
+      "ts": 1786501424000,
+      "pub": "Wed, 12 Aug 2026 11:23:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美·이란 다시 치킨게임…트럼프 정치역풍 vs 이란 경제붕괴",
+      "link": "https://www.yna.co.kr/view/AKR20260812072600009",
+      "source": "연합뉴스 국제",
+      "ts": 1786501074000,
+      "pub": "Wed, 12 Aug 2026 11:17:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "관세 신고 미리 점검받으면 오류 있어도 가산세 감면",
+      "link": "https://www.yna.co.kr/view/AKR20260812062300002",
+      "source": "연합뉴스 경제",
+      "ts": 1786499378000,
+      "pub": "Wed, 12 Aug 2026 10:49:38 +0900",
       "sentiment": "neutral"
     }
   ]

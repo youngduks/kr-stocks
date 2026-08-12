@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-12T14:11:39.996Z",
-  "count": 23,
+  "updated_at": "2026-08-12T15:48:06.096Z",
+  "count": 24,
   "items": [
+    {
+      "title": "\"트럼프 전용기 갈아탈 때 서열 1·2위 장관 아닌 측근만 동행\"",
+      "link": "https://www.yna.co.kr/view/AKR20260812173900071",
+      "source": "연합뉴스 국제",
+      "ts": 1786548708000,
+      "pub": "Thu, 13 Aug 2026 00:31:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '호르무즈 완전 장악' 주장 되풀이…\"이란은 말만 많다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260812173700071",
+      "source": "연합뉴스 국제",
+      "ts": 1786547932000,
+      "pub": "Thu, 13 Aug 2026 00:18:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 증시, CPI에 안도하고 AI 인프라 실적 대박에 상승 출발",
+      "link": "https://www.hankyung.com/article/202608127841i",
+      "source": "한국경제",
+      "ts": 1786543554000,
+      "pub": "Wed, 12 Aug 2026 23:05:54 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "뉴욕증시, CPI 소화하며 상승 출발",
       "link": "https://www.yna.co.kr/view/AKR20260812171900009",
@@ -169,22 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786497776000,
       "pub": "Wed, 12 Aug 2026 10:22:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"불법이민자에 왜 학비 감면해주나\"…트럼프 행정부, 3개주 제소",
-      "link": "https://www.yna.co.kr/view/AKR20260812035000009",
-      "source": "연합뉴스 국제",
-      "ts": 1786494447000,
-      "pub": "Wed, 12 Aug 2026 09:27:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "월경자 급감에도…트럼프 66조원 들여 국경장벽 2천㎞ 더 세운다",
-      "link": "https://www.yna.co.kr/view/AKR20260812031100009",
-      "source": "연합뉴스 국제",
-      "ts": 1786493891000,
-      "pub": "Wed, 12 Aug 2026 09:18:11 +0900",
       "sentiment": "neutral"
     }
   ]

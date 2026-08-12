@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-12T05:22:23.658Z",
-  "count": 20,
+  "updated_at": "2026-08-12T07:04:43.950Z",
+  "count": 21,
   "items": [
+    {
+      "title": "러, 우크라 맹폭에 정유 대란…인도 휘발유까지 수입 시작",
+      "link": "https://www.yna.co.kr/view/AKR20260812123100009",
+      "source": "연합뉴스 국제",
+      "ts": 1786517820000,
+      "pub": "Wed, 12 Aug 2026 15:57:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"참모·취재진이 미끼였다\"…트럼프, 전용기 갈아타기 논란 확산",
+      "link": "https://www.yna.co.kr/view/AKR20260812121900009",
+      "source": "연합뉴스 국제",
+      "ts": 1786517517000,
+      "pub": "Wed, 12 Aug 2026 15:51:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라, 흑해 유조선 공격 중단…美부통령, 젤렌스키에 요청",
+      "link": "https://www.yna.co.kr/view/AKR20260812110100009",
+      "source": "연합뉴스 국제",
+      "ts": 1786514760000,
+      "pub": "Wed, 12 Aug 2026 15:06:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"이란, 나토회의 참석한 트럼프 호텔 층까지 파악\"",
+      "link": "https://www.yna.co.kr/view/AKR20260812105500009",
+      "source": "연합뉴스 국제",
+      "ts": 1786513663000,
+      "pub": "Wed, 12 Aug 2026 14:47:43 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[쇼츠] 골프 치는 트럼프 뒤로 포착된 이것은?",
       "link": "https://www.yna.co.kr/view/AKR20260812081400704",
@@ -25,14 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786502781000,
       "pub": "Wed, 12 Aug 2026 11:46:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 CPI 관망 vs 韓 코스피 상승…닛케이, 0.10%↑ [Asia오전]",
-      "link": "https://www.mt.co.kr/world/2026/08/12/2026081211260229512",
-      "source": "머니투데이",
-      "ts": 1786502381000,
-      "pub": "Wed, 12 Aug 2026 11:39:41 +0900",
       "sentiment": "neutral"
     },
     {
@@ -145,22 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786456091000,
       "pub": "Tue, 11 Aug 2026 22:48:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미국 이어 유럽도 패트리엇 부족…방공망 구멍난 우크라 어쩌나",
-      "link": "https://www.yna.co.kr/view/AKR20260811156300098",
-      "source": "연합뉴스 국제",
-      "ts": 1786440718000,
-      "pub": "Tue, 11 Aug 2026 18:31:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라, 러 에너지 시설 정조준…2천200㎞ 밖 석유공장도 공격",
-      "link": "https://www.yna.co.kr/view/AKR20260811151900109",
-      "source": "연합뉴스 국제",
-      "ts": 1786439100000,
-      "pub": "Tue, 11 Aug 2026 18:05:00 +0900",
       "sentiment": "neutral"
     }
   ]

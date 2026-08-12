@@ -1,38 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-12T05:22:23.659Z",
-  "count": 23,
+  "updated_at": "2026-08-12T07:04:43.951Z",
+  "count": 20,
   "items": [
+    {
+      "title": "서울반도체, 유럽·미국 이어 인도에서도 특허침해 승소",
+      "link": "https://www.hankyung.com/article/202608126766i",
+      "source": "한국경제",
+      "ts": 1786513549000,
+      "pub": "Wed, 12 Aug 2026 14:45:49 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "TSMC, 첨단 공정·패키징 등에 42조원 자본지출 승인",
       "link": "https://www.yna.co.kr/view/AKR20260812085900009",
       "source": "연합뉴스 국제",
       "ts": 1786510527000,
       "pub": "Wed, 12 Aug 2026 13:55:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한전, 호남·용인 반도체 메가프로젝트 적기 전력공급 위한 업무협약 체결",
-      "link": "https://www.mt.co.kr/policy/2026/08/12/2026081213160120376",
-      "source": "머니투데이",
-      "ts": 1786508856000,
-      "pub": "Wed, 12 Aug 2026 13:27:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "野 '광주 반도체 부지' 선정 배경 추궁...김정관 \"기업이 최종 선정\"",
-      "link": "https://www.mt.co.kr/politics/2026/08/12/2026081211424219139",
-      "source": "머니투데이",
-      "ts": 1786507913000,
-      "pub": "Wed, 12 Aug 2026 13:11:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[뉴스프레소] 뉴욕증시, 3대 지수 내리고 러셀2000 상승… 금융까지 장악한 엔비디아",
-      "link": "https://www.mt.co.kr/world/2026/08/12/2026081212197035636",
-      "source": "머니투데이",
-      "ts": 1786507557000,
-      "pub": "Wed, 12 Aug 2026 13:05:57 +0900",
       "sentiment": "neutral"
     },
     {
@@ -106,14 +90,6 @@
       "ts": 1786494331000,
       "pub": "Wed, 12 Aug 2026 09:25:31 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "반도체 특별연장근로 6개월 신청 4건뿐…규제완화 요구와 온도차",
-      "link": "https://www.yna.co.kr/view/AKR20260811154200530",
-      "source": "연합뉴스 경제",
-      "ts": 1786482061000,
-      "pub": "Wed, 12 Aug 2026 06:01:01 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "'개방형 옹호' 엔비디아, 자체 AI 출시…초대형 모델도 준비중",

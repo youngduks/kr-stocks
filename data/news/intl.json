@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-12T07:04:43.950Z",
-  "count": 21,
+  "updated_at": "2026-08-12T08:58:56.724Z",
+  "count": 19,
   "items": [
+    {
+      "title": "트럼프 \"경호국 요청 따랐다\"…비밀환승·미끼 항공기 논란 항변",
+      "link": "https://www.yna.co.kr/view/AKR20260812131100009",
+      "source": "연합뉴스 국제",
+      "ts": 1786519953000,
+      "pub": "Wed, 12 Aug 2026 16:32:33 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "러, 우크라 맹폭에 정유 대란…인도 휘발유까지 수입 시작",
       "link": "https://www.yna.co.kr/view/AKR20260812123100009",
@@ -100,14 +108,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "한-인도 관세당국, 고위급 면담…현지 韓기업 통관 지원 요청",
-      "link": "https://www.yna.co.kr/view/AKR20260812036700002",
-      "source": "연합뉴스 경제",
-      "ts": 1786495024000,
-      "pub": "Wed, 12 Aug 2026 09:37:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"불법이민자에 왜 학비 감면해주나\"…트럼프 행정부, 3개주 제소",
       "link": "https://www.yna.co.kr/view/AKR20260812035000009",
       "source": "연합뉴스 국제",
@@ -153,22 +153,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786474511000,
       "pub": "Wed, 12 Aug 2026 03:55:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 부정선거론에 빌미줄라…주정부들, 선거관리 바짝 긴장",
-      "link": "https://www.yna.co.kr/view/AKR20260811169400071",
-      "source": "연합뉴스 국제",
-      "ts": 1786458622000,
-      "pub": "Tue, 11 Aug 2026 23:30:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "암살 겁났나…골프 치는 트럼프 옆 이동식 방공미사일 시스템",
-      "link": "https://www.yna.co.kr/view/AKR20260811168500071",
-      "source": "연합뉴스 국제",
-      "ts": 1786456091000,
-      "pub": "Tue, 11 Aug 2026 22:48:11 +0900",
       "sentiment": "neutral"
     }
   ]

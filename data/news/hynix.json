@@ -1,14 +1,38 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-12T07:04:43.951Z",
-  "count": 20,
+  "updated_at": "2026-08-12T08:58:56.725Z",
+  "count": 21,
   "items": [
     {
-      "title": "서울반도체, 유럽·미국 이어 인도에서도 특허침해 승소",
-      "link": "https://www.hankyung.com/article/202608126766i",
+      "title": "다시 힘받은 반도체…코스피 3.68%↑, 사흘연속 상승(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260812128600008",
+      "source": "연합뉴스 경제",
+      "ts": 1786519385000,
+      "pub": "Wed, 12 Aug 2026 16:23:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "화성 H-테크노밸리, 화성 복합산단 지원시설용지 분양…반도체·미래차 거점에 주거도 갖춰",
+      "link": "https://www.hankyung.com/article/2026081259771",
       "source": "한국경제",
-      "ts": 1786513549000,
-      "pub": "Wed, 12 Aug 2026 14:45:49 +0900",
+      "ts": 1786519093000,
+      "pub": "Wed, 12 Aug 2026 16:18:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 공매도 잔액 급증…SK하이닉스·삼성전기는 감소",
+      "link": "https://www.hankyung.com/article/202608127171i",
+      "source": "한국경제",
+      "ts": 1786519012000,
+      "pub": "Wed, 12 Aug 2026 16:16:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하이닉스 직원 부럽지 않다…나만의 홈 오피스 꾸미는 법 [전하민의 리빙 아카이브]",
+      "link": "https://www.hankyung.com/article/202608069135i",
+      "source": "한국경제",
+      "ts": 1786518786000,
+      "pub": "Wed, 12 Aug 2026 16:13:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -74,22 +98,6 @@
       "ts": 1786495396000,
       "pub": "Wed, 12 Aug 2026 09:43:16 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "코스피, 반도체 강세에 2% 안팎 상승…코스닥은 하락(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260812043300008",
-      "source": "연합뉴스 경제",
-      "ts": 1786495290000,
-      "pub": "Wed, 12 Aug 2026 09:41:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼성전자, 4%대 급등…하이닉스도 3%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260812038700008",
-      "source": "연합뉴스 경제",
-      "ts": 1786494331000,
-      "pub": "Wed, 12 Aug 2026 09:25:31 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "'개방형 옹호' 엔비디아, 자체 AI 출시…초대형 모델도 준비중",

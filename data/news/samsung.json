@@ -1,22 +1,30 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-12T07:04:43.951Z",
+  "updated_at": "2026-08-12T08:58:56.725Z",
   "count": 10,
   "items": [
     {
-      "title": "\"배당 3%\" 삼전 주주들 '폭발'…노조 집회에 '맞불' 놓는다",
-      "link": "https://www.hankyung.com/article/202608126931g",
-      "source": "한국경제",
-      "ts": 1786516095000,
-      "pub": "Wed, 12 Aug 2026 15:28:15 +0900",
-      "sentiment": "negative"
+      "title": "외인·기관 모두 담았다…삼전닉스, 5~6% 급등 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260812038751008",
+      "source": "연합뉴스 경제",
+      "ts": 1786521425000,
+      "pub": "Wed, 12 Aug 2026 16:57:05 +0900",
+      "sentiment": "positive"
     },
     {
-      "title": "삼전닉스도 제쳤다…직장인 행복도 1위 오른 '신의 직장'",
-      "link": "https://www.hankyung.com/article/202608126692H",
+      "title": "\"내가 틀렸다\" 꼬리 내린 월가…삼전닉스 폭등 이유 있었다",
+      "link": "https://www.hankyung.com/article/202608127020i",
       "source": "한국경제",
-      "ts": 1786511502000,
-      "pub": "Wed, 12 Aug 2026 14:11:42 +0900",
+      "ts": 1786521271000,
+      "pub": "Wed, 12 Aug 2026 16:54:31 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼성전자 공매도 잔액 급증…SK하이닉스·삼성전기는 감소",
+      "link": "https://www.hankyung.com/article/202608127171i",
+      "source": "한국경제",
+      "ts": 1786519012000,
+      "pub": "Wed, 12 Aug 2026 16:16:52 +0900",
       "sentiment": "neutral"
     },
     {
@@ -25,14 +33,6 @@
       "source": "연합뉴스 경제",
       "ts": 1786504159000,
       "pub": "Wed, 12 Aug 2026 12:09:19 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[특징주] 삼성전자, 4%대 급등…하이닉스도 3%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260812038700008",
-      "source": "연합뉴스 경제",
-      "ts": 1786494331000,
-      "pub": "Wed, 12 Aug 2026 09:25:31 +0900",
       "sentiment": "positive"
     },
     {

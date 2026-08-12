@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-12T12:40:55.473Z",
-  "count": 8,
+  "updated_at": "2026-08-12T14:11:39.997Z",
+  "count": 10,
   "items": [
+    {
+      "title": "삼성전자 아니라고?…262만원 간다는 '이 회사' 정체",
+      "link": "https://www.hankyung.com/article/2026081278057",
+      "source": "한국경제",
+      "ts": 1786540458000,
+      "pub": "Wed, 12 Aug 2026 22:14:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'300조' 돈폭탄 전망…삼전닉스 개미들 기대감 폭발한 까닭 [분석+]",
+      "link": "https://www.hankyung.com/article/2026081273116",
+      "source": "한국경제",
+      "ts": 1786539602000,
+      "pub": "Wed, 12 Aug 2026 22:00:02 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "외인·기관 모두 담았다…삼전닉스, 5~6% 급등 마감(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260812038751008",

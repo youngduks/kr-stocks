@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-12T17:48:27.584Z",
-  "count": 28,
+  "updated_at": "2026-08-12T18:44:37.587Z",
+  "count": 32,
   "items": [
+    {
+      "title": "\"'미끼 비행기' 탔던 美기자단 충격\"…백악관에 안전대책 요구",
+      "link": "https://www.yna.co.kr/view/AKR20260813002500071",
+      "source": "연합뉴스 국제",
+      "ts": 1786559917000,
+      "pub": "Thu, 13 Aug 2026 03:38:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 평화 중재안 압박에도 이스라엘, 또 가자지구 공습",
+      "link": "https://www.yna.co.kr/view/AKR20260813002800079",
+      "source": "연합뉴스 국제",
+      "ts": 1786558882000,
+      "pub": "Thu, 13 Aug 2026 03:21:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'트럼프 SNS 먼저보기' 유료서비스 피소…\"이례적 부패행위\"",
+      "link": "https://www.yna.co.kr/view/AKR20260813002400071",
+      "source": "연합뉴스 국제",
+      "ts": 1786558786000,
+      "pub": "Thu, 13 Aug 2026 03:19:46 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프 사위 일가에 팔린 LA레이커스…사상최고가 18조원에 매각",
+      "link": "https://www.yna.co.kr/view/AKR20260813002000075",
+      "source": "연합뉴스 국제",
+      "ts": 1786557609000,
+      "pub": "Thu, 13 Aug 2026 03:00:09 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "\"트럼프, 백악관 공사에 1.3조원 투입 예정…80년만에 최대규모\"",
       "link": "https://www.yna.co.kr/view/AKR20260813000800071",

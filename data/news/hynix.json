@@ -1,14 +1,78 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-13T07:08:30.869Z",
-  "count": 17,
+  "updated_at": "2026-08-13T09:00:15.686Z",
+  "count": 23,
   "items": [
     {
-      "title": "금오공대-영남대, '반도체특성화대학사업 성과보고회' 개최",
-      "link": "https://www.mt.co.kr/policy/2026/08/13/2026081315383694530",
+      "title": "윤풍영 SK수펙스 사장, SK하이닉스 '글로벌 성장 TF장' 겸임",
+      "link": "https://www.mt.co.kr/industry/2026/08/13/2026081317165522689",
       "source": "머니투데이",
-      "ts": 1786603660000,
-      "pub": "Thu, 13 Aug 2026 15:47:40 +0900",
+      "ts": 1786610971000,
+      "pub": "Thu, 13 Aug 2026 17:49:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "무선 통신 반도체 '와이젯', 'Good-Technology Award' 수상",
+      "link": "https://www.mt.co.kr/industry/2026/08/13/2026081311010353981",
+      "source": "머니투데이",
+      "ts": 1786609179000,
+      "pub": "Thu, 13 Aug 2026 17:19:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "HLB이노베이션, AI 반도체 훈풍에 본업 성장…상반기 매출 21%↑",
+      "link": "https://www.mt.co.kr/stock/2026/08/13/2026081317003317464",
+      "source": "머니투데이",
+      "ts": 1786608838000,
+      "pub": "Thu, 13 Aug 2026 17:13:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체·금리 훈풍에 코스피 6800 탈환…美 PPI '촉각'",
+      "link": "https://www.mt.co.kr/stock/2026/08/13/2026081316031355340",
+      "source": "머니투데이",
+      "ts": 1786608274000,
+      "pub": "Thu, 13 Aug 2026 17:04:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'3천500억원대 담합' 반도체 소재 업체·임직원 재판행",
+      "link": "https://www.yna.co.kr/view/AKR20260813148200004",
+      "source": "연합뉴스 경제",
+      "ts": 1786608212000,
+      "pub": "Thu, 13 Aug 2026 17:03:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "검찰, 3000억대 '반도체 소재 담합' 코스닥 상장사 기소",
+      "link": "https://www.hankyung.com/article/202608139761i",
+      "source": "한국경제",
+      "ts": 1786605826000,
+      "pub": "Thu, 13 Aug 2026 16:23:46 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "코스피·코스닥, 동반 4일 연속 상승…반도체 투심 살아나",
+      "link": "https://www.hankyung.com/article/202608139661i",
+      "source": "한국경제",
+      "ts": 1786605173000,
+      "pub": "Thu, 13 Aug 2026 16:12:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 연일 강세…삼전·닉스, 4~5%대 급등 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260813038751008",
+      "source": "연합뉴스 경제",
+      "ts": 1786604871000,
+      "pub": "Thu, 13 Aug 2026 16:07:51 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'3일 연속 상승' 삼전닉스 탄력받나…글로벌 반도체 동반강세(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260813090951008",
+      "source": "연합뉴스 경제",
+      "ts": 1786604567000,
+      "pub": "Thu, 13 Aug 2026 16:02:47 +0900",
       "sentiment": "neutral"
     },
     {
@@ -17,14 +81,6 @@
       "source": "한국경제",
       "ts": 1786603433000,
       "pub": "Thu, 13 Aug 2026 15:43:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"반도체 적극 투자할 시기\"…미래에셋운용이 꼽은 반도체 소부장 ETF는",
-      "link": "https://www.mt.co.kr/stock/2026/08/13/2026081313590968338",
-      "source": "머니투데이",
-      "ts": 1786600299000,
-      "pub": "Thu, 13 Aug 2026 14:51:39 +0900",
       "sentiment": "neutral"
     },
     {
@@ -41,14 +97,6 @@
       "source": "연합뉴스 경제",
       "ts": 1786587446000,
       "pub": "Thu, 13 Aug 2026 11:17:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "팹 증설 빠르게…규제 풀어 용인반도체클러스터 2.5조 투자 가속(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260812135951002",
-      "source": "연합뉴스 경제",
-      "ts": 1786585656000,
-      "pub": "Thu, 13 Aug 2026 10:47:36 +0900",
       "sentiment": "neutral"
     },
     {

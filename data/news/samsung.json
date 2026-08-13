@@ -1,14 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-13T07:08:30.868Z",
-  "count": 8,
+  "updated_at": "2026-08-13T09:00:15.686Z",
+  "count": 9,
   "items": [
     {
-      "title": "코스피 6813.34 마감…삼전닉스 반등·외인 매수에 웃었다",
-      "link": "https://www.mt.co.kr/stock/2026/08/13/2026081315301667369",
-      "source": "머니투데이",
-      "ts": 1786604549000,
-      "pub": "Thu, 13 Aug 2026 16:02:29 +0900",
+      "title": "반도체 연일 강세…삼전·닉스, 4~5%대 급등 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260813038751008",
+      "source": "연합뉴스 경제",
+      "ts": 1786604871000,
+      "pub": "Thu, 13 Aug 2026 16:07:51 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'3일 연속 상승' 삼전닉스 탄력받나…글로벌 반도체 동반강세(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260813090951008",
+      "source": "연합뉴스 경제",
+      "ts": 1786604567000,
+      "pub": "Thu, 13 Aug 2026 16:02:47 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,14 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-13T03:25:46.744Z",
-  "count": 17,
+  "updated_at": "2026-08-13T05:26:16.280Z",
+  "count": 16,
   "items": [
     {
-      "title": "앤트로픽·오픈AI·엔비디아, 올해 로비로 117억 지출…3년새 30배↑",
-      "link": "https://www.mt.co.kr/world/2026/08/13/2026081311282980309",
+      "title": "반도체 제조업 규제로 中企 '끙끙'…대기업 수준 대응 쉽지 않다 '호소'",
+      "link": "https://www.mt.co.kr/economy/2026/08/13/2026081309562013332",
       "source": "머니투데이",
-      "ts": 1786589796000,
-      "pub": "Thu, 13 Aug 2026 11:56:36 +0900",
+      "ts": 1786594800000,
+      "pub": "Thu, 13 Aug 2026 13:20:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[오늘 이 종목] “브이엠부터 아이텍까지… 반도체 증설·AI 인프라 성장에 주목”",
+      "link": "https://www.mt.co.kr/stock/2026/08/13/2026081312007040174",
+      "source": "머니투데이",
+      "ts": 1786594120000,
+      "pub": "Thu, 13 Aug 2026 13:08:40 +0900",
       "sentiment": "neutral"
     },
     {
@@ -36,14 +44,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'엔비디아 AI칩'에 710조 베팅…\"GPU 임대 10년 실적\" 주목",
-      "link": "https://www.hankyung.com/article/2026081385377",
-      "source": "한국경제",
-      "ts": 1786582540000,
-      "pub": "Thu, 13 Aug 2026 09:55:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "월가, 엔비디아 AI칩에 '시간 지나도 가치 하락 없다' 베팅",
       "link": "https://www.yna.co.kr/view/AKR20260813025300009",
       "source": "연합뉴스 국제",
@@ -58,14 +58,6 @@
       "ts": 1786580424000,
       "pub": "Thu, 13 Aug 2026 09:20:24 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "반도체·이차전지·바이오 규제 푼다…\"4.2조 투자 유발 효과\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812135900002",
-      "source": "연합뉴스 경제",
-      "ts": 1786577401000,
-      "pub": "Thu, 13 Aug 2026 08:30:01 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "엔비디아 젠슨 황, 美 직원이 뽑은 '최고 CEO' 1위…지지율 99%",

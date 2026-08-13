@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-13T03:25:46.742Z",
+  "updated_at": "2026-08-13T05:26:16.278Z",
   "count": 29,
   "items": [
+    {
+      "title": "푸틴, '일본과 영유권 분쟁' 쿠릴열도 첫 방문",
+      "link": "https://www.yna.co.kr/view/AKR20260813105900009",
+      "source": "연합뉴스 국제",
+      "ts": 1786598275000,
+      "pub": "Thu, 13 Aug 2026 14:17:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"관세로 오른만큼 돌려달라\"…日기업, 美소비자에 잇따라 피소",
+      "link": "https://www.yna.co.kr/view/AKR20260813091600073",
+      "source": "연합뉴스 국제",
+      "ts": 1786596501000,
+      "pub": "Thu, 13 Aug 2026 13:48:21 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "선박 조타장치 핵심부품 '러더스톡', '잉곳 제조용 주형' 적용…기본관세율 8%",
+      "link": "https://www.mt.co.kr/policy/2026/08/13/2026081312554252632",
+      "source": "머니투데이",
+      "ts": 1786596310000,
+      "pub": "Thu, 13 Aug 2026 13:45:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 물가 두 달째 꺾였다…Fed 9월 인상 멀어졌지만 변수는 OO [심성미의 중앙은행 워치]",
+      "link": "https://www.hankyung.com/article/202608138524i",
+      "source": "한국경제",
+      "ts": 1786591764000,
+      "pub": "Thu, 13 Aug 2026 12:29:24 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美 7월 재정적자 5년래 최대…이자 부담에 관세 환급까지 겹쳐",
       "link": "https://www.mt.co.kr/world/2026/08/13/2026081310512245833",
@@ -17,14 +49,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786589967000,
       "pub": "Thu, 13 Aug 2026 11:59:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "세계 최고 맞아?…미군, 우크라 '드론 부대'와 모의 전투서 완패",
-      "link": "https://www.mt.co.kr/world/2026/08/13/2026081310372690497",
-      "source": "머니투데이",
-      "ts": 1786587387000,
-      "pub": "Thu, 13 Aug 2026 11:16:27 +0900",
       "sentiment": "neutral"
     },
     {
@@ -98,22 +122,6 @@
       "ts": 1786577798000,
       "pub": "Thu, 13 Aug 2026 08:36:38 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "한투증권 \"문제는 美 8월 CPI…유가 현수준이면 3.7%까지 반등\"",
-      "link": "https://www.yna.co.kr/view/AKR20260813021100008",
-      "source": "연합뉴스 경제",
-      "ts": 1786576028000,
-      "pub": "Thu, 13 Aug 2026 08:07:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[마켓뷰] 美 CPI 둔화 '훈풍'…코스피, 상승세 이어갈까",
-      "link": "https://www.yna.co.kr/view/AKR20260813018700008",
-      "source": "연합뉴스 경제",
-      "ts": 1786575696000,
-      "pub": "Thu, 13 Aug 2026 08:01:36 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "\"우크라 드론과 모의전투해보니…미군 기갑여단 순식간에 전멸\"",
@@ -226,14 +234,6 @@
       "ts": 1786526217000,
       "pub": "Wed, 12 Aug 2026 18:16:57 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "트럼프, 중간선거 앞 '비상사태 선포' 가능성 배제 안해",
-      "link": "https://www.yna.co.kr/view/AKR20260812150400009",
-      "source": "연합뉴스 국제",
-      "ts": 1786525273000,
-      "pub": "Wed, 12 Aug 2026 18:01:13 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-13T00:59:06.215Z",
-  "count": 28,
+  "updated_at": "2026-08-13T03:25:46.742Z",
+  "count": 29,
   "items": [
+    {
+      "title": "美 7월 재정적자 5년래 최대…이자 부담에 관세 환급까지 겹쳐",
+      "link": "https://www.mt.co.kr/world/2026/08/13/2026081310512245833",
+      "source": "머니투데이",
+      "ts": 1786590076000,
+      "pub": "Thu, 13 Aug 2026 12:01:16 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "우크라 드론서 첫 판로 찾은 차세대 배터리…韓 BEI도 공급",
+      "link": "https://www.yna.co.kr/view/AKR20260813088000009",
+      "source": "연합뉴스 국제",
+      "ts": 1786589967000,
+      "pub": "Thu, 13 Aug 2026 11:59:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "세계 최고 맞아?…미군, 우크라 '드론 부대'와 모의 전투서 완패",
+      "link": "https://www.mt.co.kr/world/2026/08/13/2026081310372690497",
+      "source": "머니투데이",
+      "ts": 1786587387000,
+      "pub": "Thu, 13 Aug 2026 11:16:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "인도 힌두 국수주의단체, 美 고관세에 국산품 애용운동 나서",
+      "link": "https://www.yna.co.kr/view/AKR20260813063800009",
+      "source": "연합뉴스 국제",
+      "ts": 1786585526000,
+      "pub": "Thu, 13 Aug 2026 10:45:26 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"이스라엘 레바논 공격 목표는 살수없을 만큼의 '폐허'\"",
+      "link": "https://www.yna.co.kr/view/AKR20260813057500009",
+      "source": "연합뉴스 국제",
+      "ts": 1786583735000,
+      "pub": "Thu, 13 Aug 2026 10:15:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미 국무부, '원정출산 근절 TF' 꾸려…외국인 600여명 비자취소",
+      "link": "https://www.yna.co.kr/view/AKR20260813053200009",
+      "source": "연합뉴스 국제",
+      "ts": 1786582586000,
+      "pub": "Thu, 13 Aug 2026 09:56:26 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "암살위협에 트럼프 비행기 바꿔탔다는데…\"CIA는 '신빙성 낮다'\"",
       "link": "https://www.yna.co.kr/view/AKR20260813040500071",
@@ -49,14 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786577798000,
       "pub": "Thu, 13 Aug 2026 08:36:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"백악관 리더\" 트럼프도 극찬…'최연소 대변인' 레빗 떠난다",
-      "link": "https://www.hankyung.com/article/202608138109H",
-      "source": "한국경제",
-      "ts": 1786576870000,
-      "pub": "Thu, 13 Aug 2026 08:21:10 +0900",
       "sentiment": "neutral"
     },
     {
@@ -193,38 +233,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786525273000,
       "pub": "Wed, 12 Aug 2026 18:01:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"경호국 요청 따랐다\"…비밀환승·미끼 항공기 논란 항변",
-      "link": "https://www.yna.co.kr/view/AKR20260812131100009",
-      "source": "연합뉴스 국제",
-      "ts": 1786519953000,
-      "pub": "Wed, 12 Aug 2026 16:32:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러, 우크라 맹폭에 정유 대란…인도 휘발유까지 수입 시작",
-      "link": "https://www.yna.co.kr/view/AKR20260812123100009",
-      "source": "연합뉴스 국제",
-      "ts": 1786517820000,
-      "pub": "Wed, 12 Aug 2026 15:57:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"참모·취재진이 미끼였다\"…트럼프, 전용기 갈아타기 논란 확산",
-      "link": "https://www.yna.co.kr/view/AKR20260812121900009",
-      "source": "연합뉴스 국제",
-      "ts": 1786517517000,
-      "pub": "Wed, 12 Aug 2026 15:51:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라, 흑해 유조선 공격 중단…美부통령, 젤렌스키에 요청",
-      "link": "https://www.yna.co.kr/view/AKR20260812110100009",
-      "source": "연합뉴스 국제",
-      "ts": 1786514760000,
-      "pub": "Wed, 12 Aug 2026 15:06:00 +0900",
       "sentiment": "neutral"
     }
   ]

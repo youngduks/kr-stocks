@@ -234,6 +234,7 @@ export function HomeHero({
             <Link
               key={item.slug}
               href={`/korea/${item.slug}` as any}
+              prefetch={false}
               className="block group"
             >
               <div className="flex sm:flex-col items-center sm:items-stretch justify-between sm:justify-start gap-3 p-3 sm:p-4 rounded-xl bg-bg-card/70 hover:bg-bg-card border border-line/60 hover:border-accent-blue/40 transition-all">

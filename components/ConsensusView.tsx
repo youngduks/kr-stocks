@@ -240,6 +240,7 @@ export function ConsensusView({
       {/* Cross-link: 종목 상세 페이지로 (USP 발견율 ↑) */}
       <Link
         href={`/korea/${active.slug}` as any}
+        prefetch={false}
         className="group block p-4 rounded-2xl bg-gradient-to-r from-accent-blue/8 via-accent-purple/8 to-accent-green/8 border border-accent-blue/20 hover:border-accent-blue/50 transition-all"
       >
         <div className="flex items-center justify-between gap-3">

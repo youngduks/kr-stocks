@@ -103,7 +103,7 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
       : (displayKRW != null ? `≈ ₩${formatKRW(displayKRW)}` : null);
 
   return (
-    <Link href={href as any}>
+    <Link href={href as any} prefetch={false}>
       <div className="card-lift group bg-bg-card hover:bg-bg-hover border border-line hover:border-accent-blue/40 rounded-2xl p-5">
         <div className="flex items-start justify-between mb-3 gap-2">
           <div className="flex flex-col gap-0.5 min-w-0 flex-1">

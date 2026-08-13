@@ -161,6 +161,7 @@ export function ConsensusSection({
       {/* 자세히 보기 + 출처 + disclaimer */}
       <Link
         href={consensusHref as any}
+        prefetch={false}
         className="block text-[11px] text-accent-blue hover:underline mb-2"
       >
         → {t.seeAll}

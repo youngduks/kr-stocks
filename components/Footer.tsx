@@ -119,6 +119,7 @@ export function Footer({ locale = "ko" }: { locale?: Locale } = {}) {
             •{" "}
             <Link
               href={t.consensusHref as any}
+              prefetch={false}
               className="text-accent-blue hover:underline"
             >
               {t.consensusTitle}
@@ -129,6 +130,7 @@ export function Footer({ locale = "ko" }: { locale?: Locale } = {}) {
             •{" "}
             <Link
               href={t.newsHref as any}
+              prefetch={false}
               className="text-accent-blue hover:underline"
             >
               {t.newsTitle}
@@ -139,6 +141,7 @@ export function Footer({ locale = "ko" }: { locale?: Locale } = {}) {
             •{" "}
             <Link
               href={t.pollHref as any}
+              prefetch={false}
               className="text-accent-blue hover:underline"
             >
               {t.pollTitle}
@@ -149,6 +152,7 @@ export function Footer({ locale = "ko" }: { locale?: Locale } = {}) {
             •{" "}
             <Link
               href={t.guideBinanceHref as any}
+              prefetch={false}
               className="text-accent-blue hover:underline"
             >
               {t.guideBinanceTitle}
@@ -159,6 +163,7 @@ export function Footer({ locale = "ko" }: { locale?: Locale } = {}) {
             •{" "}
             <Link
               href={t.guideHref as any}
+              prefetch={false}
               className="text-accent-blue hover:underline"
             >
               {t.guideTitle}
@@ -186,7 +191,7 @@ export function Footer({ locale = "ko" }: { locale?: Locale } = {}) {
         <p className="mb-3">{t.disclaimerBody}</p>
         <p className="text-text-dim">
           © 2026 KR Stocks. {t.copyrightSuffix}{" "}
-          <Link href={t.privacyHref as any} className="text-accent-blue hover:underline">
+          <Link href={t.privacyHref as any} prefetch={false} className="text-accent-blue hover:underline">
             {t.privacyLabel}
           </Link>
         </p>

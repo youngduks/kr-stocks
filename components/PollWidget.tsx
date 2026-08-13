@@ -200,6 +200,7 @@ export function PollWidget({
       {historyHref && (
         <Link
           href={historyHref as any}
+          prefetch={false}
           className="mt-3 inline-block text-[11px] text-text-dim hover:text-text-muted transition"
         >
           📊 지난 투표 결과 · 적중률 보기 →

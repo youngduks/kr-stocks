@@ -72,6 +72,7 @@ function LangToggle() {
     <div className="inline-flex items-center text-[10px] sm:text-[11px] tabular text-text-dim shrink-0">
       <Link
         href={koHref as any}
+        prefetch={false}
         className={`px-1 sm:px-1.5 py-0.5 rounded transition ${
           !isEn ? "text-text font-semibold" : "hover:text-text-muted"
         }`}
@@ -82,6 +83,7 @@ function LangToggle() {
       <span className="text-text-dim/50">/</span>
       <Link
         href={enHref as any}
+        prefetch={false}
         className={`px-1 sm:px-1.5 py-0.5 rounded transition ${
           isEn ? "text-text font-semibold" : "hover:text-text-muted"
         }`}
@@ -141,6 +143,7 @@ function PageNav() {
         <span key={t.key} className="flex items-center">
           <Link
             href={t.href as any}
+            prefetch={false}
             aria-current={t.active ? "page" : undefined}
             className={`px-2 sm:px-2.5 py-1 rounded-md transition font-semibold whitespace-nowrap ${
               t.active

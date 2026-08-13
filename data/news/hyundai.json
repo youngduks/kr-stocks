@@ -1,14 +1,30 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-08-13T09:00:15.687Z",
-  "count": 9,
+  "updated_at": "2026-08-13T10:09:10.179Z",
+  "count": 11,
   "items": [
     {
-      "title": "[단독] \"차 부품 말고 로봇 만들어라\"…현대차 '특명'에 들썩",
-      "link": "https://www.hankyung.com/article/202608139607i",
+      "title": "[포토] 제네시스 첫 하이브리드 모델 출시",
+      "link": "https://www.hankyung.com/article/2026081300781",
       "source": "한국경제",
-      "ts": 1786605301000,
-      "pub": "Thu, 13 Aug 2026 16:15:01 +0900",
+      "ts": 1786612347000,
+      "pub": "Thu, 13 Aug 2026 18:12:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "테슬라 옵티머스는 '중국 공급망' 의존",
+      "link": "https://www.hankyung.com/article/2026081300951",
+      "source": "한국경제",
+      "ts": 1786612219000,
+      "pub": "Thu, 13 Aug 2026 18:10:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[단독] 현대차 '로봇 공급망' 재구축…1차 협력사에 혁신안 요청",
+      "link": "https://www.hankyung.com/article/2026081300921",
+      "source": "한국경제",
+      "ts": 1786612196000,
+      "pub": "Thu, 13 Aug 2026 18:09:56 +0900",
       "sentiment": "neutral"
     },
     {

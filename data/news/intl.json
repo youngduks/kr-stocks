@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-13T09:00:15.685Z",
-  "count": 30,
+  "updated_at": "2026-08-13T10:09:10.177Z",
+  "count": 29,
   "items": [
+    {
+      "title": "흑해 이어 다뉴브강까지…러, 우크라 밀 수출로 집중 공격",
+      "link": "https://www.yna.co.kr/view/AKR20260813159400109",
+      "source": "연합뉴스 국제",
+      "ts": 1786615120000,
+      "pub": "Thu, 13 Aug 2026 18:58:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "NASA 일식 생중계 지도에 크림반도가 '러 영토'로…우크라 발칵",
+      "link": "https://www.yna.co.kr/view/AKR20260813157200108",
+      "source": "연합뉴스 국제",
+      "ts": 1786613523000,
+      "pub": "Thu, 13 Aug 2026 18:32:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "LA레이커스 125억달러에 매각…트럼프 대통령 사돈 등이 인수",
+      "link": "https://www.hankyung.com/article/2026081301291",
+      "source": "한국경제",
+      "ts": 1786611328000,
+      "pub": "Thu, 13 Aug 2026 17:55:28 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "다카이치, 푸틴 쿠릴열도 방문에 \"일본 고유 영토…강하게 항의\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260813121051073",
@@ -17,14 +41,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786610313000,
       "pub": "Thu, 13 Aug 2026 17:38:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 관세 환급 본격화…기업 실적 올리고 소비자 환원까지",
-      "link": "https://www.mt.co.kr/world/2026/08/13/2026081316030856055",
-      "source": "머니투데이",
-      "ts": 1786608993000,
-      "pub": "Thu, 13 Aug 2026 17:16:33 +0900",
       "sentiment": "neutral"
     },
     {
@@ -218,30 +234,6 @@
       "ts": 1786557609000,
       "pub": "Thu, 13 Aug 2026 03:00:09 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "\"트럼프, 백악관 공사에 1.3조원 투입 예정…80년만에 최대규모\"",
-      "link": "https://www.yna.co.kr/view/AKR20260813000800071",
-      "source": "연합뉴스 국제",
-      "ts": 1786551437000,
-      "pub": "Thu, 13 Aug 2026 01:17:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 전용기 갈아탈 때 서열 1·2위 장관 아닌 측근만 동행\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812173900071",
-      "source": "연합뉴스 국제",
-      "ts": 1786548708000,
-      "pub": "Thu, 13 Aug 2026 00:31:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '호르무즈 완전 장악' 주장 되풀이…\"이란은 말만 많다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812173700071",
-      "source": "연합뉴스 국제",
-      "ts": 1786547932000,
-      "pub": "Thu, 13 Aug 2026 00:18:52 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

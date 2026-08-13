@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-13T15:47:13.565Z",
-  "count": 31,
+  "updated_at": "2026-08-13T16:43:11.218Z",
+  "count": 34,
   "items": [
+    {
+      "title": "빅터차 \"김정은, 美중간선거 후 트럼프와 회담 추진할 수도\"",
+      "link": "https://www.yna.co.kr/view/AKR20260814001500071",
+      "source": "연합뉴스 국제",
+      "ts": 1786638371000,
+      "pub": "Fri, 14 Aug 2026 01:26:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"애플·나이키 등 美기업 40여곳, 14조원 관세 환급\"",
+      "link": "https://www.yna.co.kr/view/AKR20260814001300072",
+      "source": "연합뉴스 국제",
+      "ts": 1786637089000,
+      "pub": "Fri, 14 Aug 2026 01:04:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "폴란드 \"우크라계 미국인 암살 저지\"…러시아인 체포",
+      "link": "https://www.yna.co.kr/view/AKR20260814000700082",
+      "source": "연합뉴스 국제",
+      "ts": 1786636077000,
+      "pub": "Fri, 14 Aug 2026 00:47:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"우크라, 러시아에 흑해 민간 표적 공격 중단 제안\"",
+      "link": "https://www.yna.co.kr/view/AKR20260814000300109",
+      "source": "연합뉴스 국제",
+      "ts": 1786635770000,
+      "pub": "Fri, 14 Aug 2026 00:42:50 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美 \"中, 40여개국 불법환적해 관세회피\"…韓도 '中환적 위험국' 거론(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260813166451009",
@@ -241,14 +273,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786579196000,
       "pub": "Thu, 13 Aug 2026 08:59:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美법무부, 이민사기·이념단체에 '칼끝'…'트럼프 취향' 맞췄나",
-      "link": "https://www.yna.co.kr/view/AKR20260813022300071",
-      "source": "연합뉴스 국제",
-      "ts": 1786577798000,
-      "pub": "Thu, 13 Aug 2026 08:36:38 +0900",
       "sentiment": "neutral"
     }
   ]

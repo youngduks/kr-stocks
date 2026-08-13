@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-13T21:33:19.788Z",
-  "count": 10,
+  "updated_at": "2026-08-13T22:29:11.816Z",
+  "count": 12,
   "items": [
+    {
+      "title": "[단독] 휴대폰 시장 포화라더니…갤럭시 판매량 10% '쑥' 대박 터졌다 [갤럭시 중간결산(上)]",
+      "link": "https://www.hankyung.com/article/202608139600g",
+      "source": "한국경제",
+      "ts": 1786654801000,
+      "pub": "Fri, 14 Aug 2026 06:00:01 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼전닉스 따라 키옥시아·소니도…레버리지 ETF 일본으로 확산 [도쿄나우]",
+      "link": "https://www.hankyung.com/article/202608140488i",
+      "source": "한국경제",
+      "ts": 1786654251000,
+      "pub": "Fri, 14 Aug 2026 05:50:51 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'버텨야 하나' 속타는 삼전닉스 개미들…외국인은 쓸어 담았다 [종목+]",
       "link": "https://www.hankyung.com/article/2026081397506",

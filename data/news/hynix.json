@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-13T22:29:11.817Z",
-  "count": 17,
+  "updated_at": "2026-08-13T23:29:36.757Z",
+  "count": 18,
   "items": [
+    {
+      "title": "샌디스크, 2030년까지 두자릿수 매출 성장…메모리 반도체주 급등",
+      "link": "https://www.mt.co.kr/world/2026/08/14/2026081408102655220",
+      "source": "머니투데이",
+      "ts": 1786663079000,
+      "pub": "Fri, 14 Aug 2026 08:17:59 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼전닉스 4700조 투자 폭격…수혜 볼 '반도체 소부장' 기업 어디?",
+      "link": "https://www.hankyung.com/article/202608130195i",
+      "source": "한국경제",
+      "ts": 1786660048000,
+      "pub": "Fri, 14 Aug 2026 07:27:28 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[고래사냥] 'HPSP·한미반도체·씨에스윈드! 내일장 고래 종목은?!",
       "link": "https://www.mt.co.kr/stock/2026/08/14/2026081406287048584",
@@ -65,14 +81,6 @@
       "source": "연합뉴스 경제",
       "ts": 1786599095000,
       "pub": "Thu, 13 Aug 2026 14:31:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'엔비디아 대항마' 세레브라스, 매출 두배로 늘렸는데도 주가↓",
-      "link": "https://www.yna.co.kr/view/AKR20260813063300091",
-      "source": "연합뉴스 국제",
-      "ts": 1786584835000,
-      "pub": "Thu, 13 Aug 2026 10:33:55 +0900",
       "sentiment": "neutral"
     },
     {

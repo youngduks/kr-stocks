@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-13T20:28:54.166Z",
-  "count": 28,
+  "updated_at": "2026-08-13T21:33:19.787Z",
+  "count": 32,
   "items": [
+    {
+      "title": "[속보] 트럼프, 드론·드론부품에 최대 100% 관세…한국은 15%",
+      "link": "https://www.yna.co.kr/view/AKR20260814010200071",
+      "source": "연합뉴스 국제",
+      "ts": 1786656547000,
+      "pub": "Fri, 14 Aug 2026 06:29:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美법원 '소액소포 관세' 합법 판단…트럼프 \"커다란 승리\"",
+      "link": "https://www.yna.co.kr/view/AKR20260814008800072",
+      "source": "연합뉴스 국제",
+      "ts": 1786656341000,
+      "pub": "Fri, 14 Aug 2026 06:25:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 드론에… 큰코다친 미군",
+      "link": "https://www.mt.co.kr/world/2026/08/14/2026081318583450599",
+      "source": "머니투데이",
+      "ts": 1786647000000,
+      "pub": "Fri, 14 Aug 2026 03:50:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "애플 '트럼프 관세' 3조 돌려받았다…美 정부 13조 뱉어내",
+      "link": "https://www.mt.co.kr/world/2026/08/14/2026081403260610032",
+      "source": "머니투데이",
+      "ts": 1786646078000,
+      "pub": "Fri, 14 Aug 2026 03:34:38 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "법원이 제동건 케네디센터 개보수, 트럼프 방침따라 재추진",
       "link": "https://www.yna.co.kr/view/AKR20260814002600071",
@@ -52,11 +84,27 @@
       "sentiment": "neutral"
     },
     {
+      "title": "\"미국 호르무즈 통제는 가짜 정보\"… 이란, 트럼프 주장에 반박",
+      "link": "https://www.mt.co.kr/world/2026/08/13/2026081322294779532",
+      "source": "머니투데이",
+      "ts": 1786629301000,
+      "pub": "Thu, 13 Aug 2026 22:55:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "흑해 이어 다뉴브강까지…러, 우크라 밀 수출로 집중 공격(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260813159451109",
       "source": "연합뉴스 국제",
       "ts": 1786626625000,
       "pub": "Thu, 13 Aug 2026 22:10:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "레이커스 또 주인 바뀐다... '트럼프 사위의 동생' FIFA 논란 그 인물, 디즈니 전 CEO와 17조원대 인수",
+      "link": "https://www.mt.co.kr/sports/2026/08/13/2026081321274890462",
+      "source": "머니투데이",
+      "ts": 1786626301000,
+      "pub": "Thu, 13 Aug 2026 22:05:01 +0900",
       "sentiment": "neutral"
     },
     {
@@ -210,22 +258,6 @@
       "ts": 1786585526000,
       "pub": "Thu, 13 Aug 2026 10:45:26 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "\"이스라엘 레바논 공격 목표는 살수없을 만큼의 '폐허'\"",
-      "link": "https://www.yna.co.kr/view/AKR20260813057500009",
-      "source": "연합뉴스 국제",
-      "ts": 1786583735000,
-      "pub": "Thu, 13 Aug 2026 10:15:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미 국무부, '원정출산 근절 TF' 꾸려…외국인 600여명 비자취소",
-      "link": "https://www.yna.co.kr/view/AKR20260813053200009",
-      "source": "연합뉴스 국제",
-      "ts": 1786582586000,
-      "pub": "Thu, 13 Aug 2026 09:56:26 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

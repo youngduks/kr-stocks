@@ -1,14 +1,118 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-12T22:28:23.484Z",
-  "count": 19,
+  "updated_at": "2026-08-13T09:00:15.686Z",
+  "count": 23,
   "items": [
     {
-      "title": "'반도체 돈잔치'에도 한숨…역대급 수출 성과, 절반은 '대기업'",
-      "link": "https://www.hankyung.com/article/2026081379607",
+      "title": "윤풍영 SK수펙스 사장, SK하이닉스 '글로벌 성장 TF장' 겸임",
+      "link": "https://www.mt.co.kr/industry/2026/08/13/2026081317165522689",
+      "source": "머니투데이",
+      "ts": 1786610971000,
+      "pub": "Thu, 13 Aug 2026 17:49:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "무선 통신 반도체 '와이젯', 'Good-Technology Award' 수상",
+      "link": "https://www.mt.co.kr/industry/2026/08/13/2026081311010353981",
+      "source": "머니투데이",
+      "ts": 1786609179000,
+      "pub": "Thu, 13 Aug 2026 17:19:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "HLB이노베이션, AI 반도체 훈풍에 본업 성장…상반기 매출 21%↑",
+      "link": "https://www.mt.co.kr/stock/2026/08/13/2026081317003317464",
+      "source": "머니투데이",
+      "ts": 1786608838000,
+      "pub": "Thu, 13 Aug 2026 17:13:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체·금리 훈풍에 코스피 6800 탈환…美 PPI '촉각'",
+      "link": "https://www.mt.co.kr/stock/2026/08/13/2026081316031355340",
+      "source": "머니투데이",
+      "ts": 1786608274000,
+      "pub": "Thu, 13 Aug 2026 17:04:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'3천500억원대 담합' 반도체 소재 업체·임직원 재판행",
+      "link": "https://www.yna.co.kr/view/AKR20260813148200004",
+      "source": "연합뉴스 경제",
+      "ts": 1786608212000,
+      "pub": "Thu, 13 Aug 2026 17:03:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "검찰, 3000억대 '반도체 소재 담합' 코스닥 상장사 기소",
+      "link": "https://www.hankyung.com/article/202608139761i",
       "source": "한국경제",
-      "ts": 1786570489000,
-      "pub": "Thu, 13 Aug 2026 06:34:49 +0900",
+      "ts": 1786605826000,
+      "pub": "Thu, 13 Aug 2026 16:23:46 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "코스피·코스닥, 동반 4일 연속 상승…반도체 투심 살아나",
+      "link": "https://www.hankyung.com/article/202608139661i",
+      "source": "한국경제",
+      "ts": 1786605173000,
+      "pub": "Thu, 13 Aug 2026 16:12:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 연일 강세…삼전·닉스, 4~5%대 급등 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260813038751008",
+      "source": "연합뉴스 경제",
+      "ts": 1786604871000,
+      "pub": "Thu, 13 Aug 2026 16:07:51 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'3일 연속 상승' 삼전닉스 탄력받나…글로벌 반도체 동반강세(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260813090951008",
+      "source": "연합뉴스 경제",
+      "ts": 1786604567000,
+      "pub": "Thu, 13 Aug 2026 16:02:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, 반도체 강세에 3%대 상승…6800선 회복",
+      "link": "https://www.hankyung.com/article/2026081396776",
+      "source": "한국경제",
+      "ts": 1786603433000,
+      "pub": "Thu, 13 Aug 2026 15:43:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'3일 연속 상승' 삼전닉스 탄력받나…글로벌 반도체 동반강세",
+      "link": "https://www.yna.co.kr/view/AKR20260813090900008",
+      "source": "연합뉴스 경제",
+      "ts": 1786599095000,
+      "pub": "Thu, 13 Aug 2026 14:31:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 강세속 코스피 4%대 상승 유지…코스닥 1%대 강세",
+      "link": "https://www.yna.co.kr/view/AKR20260813078000008",
+      "source": "연합뉴스 경제",
+      "ts": 1786587446000,
+      "pub": "Thu, 13 Aug 2026 11:17:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'엔비디아 대항마' 세레브라스, 매출 두배로 늘렸는데도 주가↓",
+      "link": "https://www.yna.co.kr/view/AKR20260813063300091",
+      "source": "연합뉴스 국제",
+      "ts": 1786584835000,
+      "pub": "Thu, 13 Aug 2026 10:33:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "월가, 엔비디아 AI칩에 '시간 지나도 가치 하락 없다' 베팅",
+      "link": "https://www.yna.co.kr/view/AKR20260813025300009",
+      "source": "연합뉴스 국제",
+      "ts": 1786580636000,
+      "pub": "Thu, 13 Aug 2026 09:23:56 +0900",
       "sentiment": "neutral"
     },
     {
@@ -17,78 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786569914000,
       "pub": "Thu, 13 Aug 2026 06:25:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "24시간 불이 꺼지지 않았다…TSMC 구마모토 '속도전'의 비결",
-      "link": "https://www.mt.co.kr/industry/2026/08/13/2026081216180216521",
-      "source": "머니투데이",
-      "ts": 1786566600000,
-      "pub": "Thu, 13 Aug 2026 05:30:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "모바일D램 가격 또 오른다… 스마트폰 원가 경쟁 '치열'",
-      "link": "https://www.mt.co.kr/industry/2026/08/13/2026081219480950158",
-      "source": "머니투데이",
-      "ts": 1786561200000,
-      "pub": "Thu, 13 Aug 2026 04:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美반도체 약세속, 삼전닉스 강세… K증시 동반상승",
-      "link": "https://www.mt.co.kr/stock/2026/08/13/2026081219540671059",
-      "source": "머니투데이",
-      "ts": 1786560900000,
-      "pub": "Thu, 13 Aug 2026 03:55:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"거품론에도 실적 탄탄, 올해는 AI반도체\"",
-      "link": "https://www.mt.co.kr/stock/2026/08/13/2026081219521573126",
-      "source": "머니투데이",
-      "ts": 1786557840000,
-      "pub": "Thu, 13 Aug 2026 03:04:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "17일 만에 SNS 쓴 김용범 실장…\"반도체, 그 다음 물어야\"",
-      "link": "https://www.hankyung.com/article/2026081278597",
-      "source": "한국경제",
-      "ts": 1786543148000,
-      "pub": "Wed, 12 Aug 2026 22:59:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스, 인디애나팹 27일 착공식…최태원·젠슨 황 만나나",
-      "link": "https://www.hankyung.com/article/2026081277966",
-      "source": "한국경제",
-      "ts": 1786537214000,
-      "pub": "Wed, 12 Aug 2026 21:20:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "다시 힘받은 반도체…코스피 3.68%↑, 사흘연속 상승(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260812128600008",
-      "source": "연합뉴스 경제",
-      "ts": 1786519385000,
-      "pub": "Wed, 12 Aug 2026 16:23:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "TSMC, 첨단 공정·패키징 등에 42조원 자본지출 승인",
-      "link": "https://www.yna.co.kr/view/AKR20260812085900009",
-      "source": "연합뉴스 국제",
-      "ts": 1786510527000,
-      "pub": "Wed, 12 Aug 2026 13:55:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 힘받자 코스피 3%대로 상승 확대…코스닥은 약보합",
-      "link": "https://www.yna.co.kr/view/AKR20260812072000008",
-      "source": "연합뉴스 경제",
-      "ts": 1786500966000,
-      "pub": "Wed, 12 Aug 2026 11:16:06 +0900",
       "sentiment": "neutral"
     },
     {

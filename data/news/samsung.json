@@ -1,55 +1,31 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-12T22:28:23.484Z",
-  "count": 12,
+  "updated_at": "2026-08-13T09:00:15.686Z",
+  "count": 9,
   "items": [
     {
-      "title": "'억대 성과급' 삼전닉스도 제쳤다…직장인 가장 행복한 회사는 '이곳'",
-      "link": "https://www.mt.co.kr/society/2026/08/13/2026081222484364589",
-      "source": "머니투데이",
-      "ts": 1786566000000,
-      "pub": "Thu, 13 Aug 2026 05:20:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美반도체 약세속, 삼전닉스 강세… K증시 동반상승",
-      "link": "https://www.mt.co.kr/stock/2026/08/13/2026081219540671059",
-      "source": "머니투데이",
-      "ts": 1786560900000,
-      "pub": "Thu, 13 Aug 2026 03:55:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "삼성전자 아니라고?…주가 262만원 간다는 '이 회사' 정체",
-      "link": "https://www.hankyung.com/article/2026081278057",
-      "source": "한국경제",
-      "ts": 1786540458000,
-      "pub": "Wed, 12 Aug 2026 22:14:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'300조' 돈폭탄 전망…삼전닉스 개미들 기대감 폭발한 까닭 [분석+]",
-      "link": "https://www.hankyung.com/article/2026081273116",
-      "source": "한국경제",
-      "ts": 1786539602000,
-      "pub": "Wed, 12 Aug 2026 22:00:02 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "외인·기관 모두 담았다…삼전닉스, 5~6% 급등 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260812038751008",
+      "title": "반도체 연일 강세…삼전·닉스, 4~5%대 급등 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260813038751008",
       "source": "연합뉴스 경제",
-      "ts": 1786521425000,
-      "pub": "Wed, 12 Aug 2026 16:57:05 +0900",
+      "ts": 1786604871000,
+      "pub": "Thu, 13 Aug 2026 16:07:51 +0900",
       "sentiment": "positive"
     },
     {
-      "title": "코스피, 4%대 급등하며 매수 사이드카…삼전닉스 7%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260812082000008",
+      "title": "'3일 연속 상승' 삼전닉스 탄력받나…글로벌 반도체 동반강세(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260813090951008",
       "source": "연합뉴스 경제",
-      "ts": 1786504159000,
-      "pub": "Wed, 12 Aug 2026 12:09:19 +0900",
-      "sentiment": "positive"
+      "ts": 1786604567000,
+      "pub": "Thu, 13 Aug 2026 16:02:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'3일 연속 상승' 삼전닉스 탄력받나…글로벌 반도체 동반강세",
+      "link": "https://www.yna.co.kr/view/AKR20260813090900008",
+      "source": "연합뉴스 경제",
+      "ts": 1786599095000,
+      "pub": "Thu, 13 Aug 2026 14:31:35 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

@@ -1,8 +1,16 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-08-12T22:28:23.485Z",
-  "count": 8,
+  "updated_at": "2026-08-13T09:00:15.687Z",
+  "count": 9,
   "items": [
+    {
+      "title": "[단독] \"차 부품 말고 로봇 만들어라\"…현대차 '특명'에 들썩",
+      "link": "https://www.hankyung.com/article/202608139607i",
+      "source": "한국경제",
+      "ts": 1786605301000,
+      "pub": "Thu, 13 Aug 2026 16:15:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "현대자동차(주) 영업(잠정)실적(공정공시)",
       "link": "https://finance.naver.com/item/news_notice_read.naver?no=90578032&code=005380&page_notice=",

@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-13T10:09:10.177Z",
-  "count": 29,
+  "updated_at": "2026-08-13T11:37:48.912Z",
+  "count": 28,
   "items": [
+    {
+      "title": "푸틴, '영유권 분쟁' 쿠릴열도 첫 방문…일본 즉각 반발(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260813105951009",
+      "source": "연합뉴스 국제",
+      "ts": 1786618473000,
+      "pub": "Thu, 13 Aug 2026 19:54:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 \"가짜 정보\"…'호르무즈 완전 통제' 트럼프 주장 반박",
+      "link": "https://www.hankyung.com/article/2026081303127",
+      "source": "한국경제",
+      "ts": 1786618464000,
+      "pub": "Thu, 13 Aug 2026 19:54:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 \"중국산 상품 40여개국 통해 불법 관세회피\"…한국도 거론",
+      "link": "https://www.yna.co.kr/view/AKR20260813166400009",
+      "source": "연합뉴스 국제",
+      "ts": 1786618055000,
+      "pub": "Thu, 13 Aug 2026 19:47:35 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "흑해 이어 다뉴브강까지…러, 우크라 밀 수출로 집중 공격",
       "link": "https://www.yna.co.kr/view/AKR20260813159400109",
@@ -17,14 +41,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786613523000,
       "pub": "Thu, 13 Aug 2026 18:32:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "LA레이커스 125억달러에 매각…트럼프 대통령 사돈 등이 인수",
-      "link": "https://www.hankyung.com/article/2026081301291",
-      "source": "한국경제",
-      "ts": 1786611328000,
-      "pub": "Thu, 13 Aug 2026 17:55:28 +0900",
       "sentiment": "neutral"
     },
     {
@@ -210,30 +226,6 @@
       "ts": 1786559917000,
       "pub": "Thu, 13 Aug 2026 03:38:37 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 평화 중재안 압박에도 이스라엘, 또 가자지구 공습",
-      "link": "https://www.yna.co.kr/view/AKR20260813002800079",
-      "source": "연합뉴스 국제",
-      "ts": 1786558882000,
-      "pub": "Thu, 13 Aug 2026 03:21:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 SNS 먼저보기' 유료서비스 피소…\"이례적 부패행위\"",
-      "link": "https://www.yna.co.kr/view/AKR20260813002400071",
-      "source": "연합뉴스 국제",
-      "ts": 1786558786000,
-      "pub": "Thu, 13 Aug 2026 03:19:46 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "트럼프 사위 일가에 팔린 LA레이커스…사상최고가 18조원에 매각",
-      "link": "https://www.yna.co.kr/view/AKR20260813002000075",
-      "source": "연합뉴스 국제",
-      "ts": 1786557609000,
-      "pub": "Thu, 13 Aug 2026 03:00:09 +0900",
-      "sentiment": "positive"
     }
   ]
 }

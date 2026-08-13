@@ -1,7 +1,7 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-13T16:43:11.218Z",
-  "count": 34,
+  "updated_at": "2026-08-13T17:47:50.361Z",
+  "count": 31,
   "items": [
     {
       "title": "빅터차 \"김정은, 美중간선거 후 트럼프와 회담 추진할 수도\"",
@@ -44,27 +44,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"미국 호르무즈 통제는 가짜 정보\"… 이란, 트럼프 주장에 반박",
-      "link": "https://www.mt.co.kr/world/2026/08/13/2026081322294779532",
-      "source": "머니투데이",
-      "ts": 1786629301000,
-      "pub": "Thu, 13 Aug 2026 22:55:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "흑해 이어 다뉴브강까지…러, 우크라 밀 수출로 집중 공격(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260813159451109",
       "source": "연합뉴스 국제",
       "ts": 1786626625000,
       "pub": "Thu, 13 Aug 2026 22:10:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "레이커스 또 주인 바뀐다... '트럼프 사위의 동생' FIFA 논란 그 인물, 디즈니 전 CEO와 17조원대 인수",
-      "link": "https://www.mt.co.kr/sports/2026/08/13/2026081321274890462",
-      "source": "머니투데이",
-      "ts": 1786626301000,
-      "pub": "Thu, 13 Aug 2026 22:05:01 +0900",
       "sentiment": "neutral"
     },
     {
@@ -265,14 +249,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786580065000,
       "pub": "Thu, 13 Aug 2026 09:14:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "북한 탄도미사일·흑해 교전 탓 우크라전 다시 격화일로",
-      "link": "https://www.yna.co.kr/view/AKR20260813026200009",
-      "source": "연합뉴스 국제",
-      "ts": 1786579196000,
-      "pub": "Thu, 13 Aug 2026 08:59:56 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-13T05:26:16.278Z",
-  "count": 29,
+  "updated_at": "2026-08-13T07:08:30.867Z",
+  "count": 30,
   "items": [
+    {
+      "title": "日정부, 푸틴 쿠릴열도 방문에 \"일본 고유 영토…강하게 항의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260813121000073",
+      "source": "연합뉴스 국제",
+      "ts": 1786601604000,
+      "pub": "Thu, 13 Aug 2026 15:13:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"앤트로픽, 이스라엘 데카르트AI 인수 논의중\"",
+      "link": "https://www.yna.co.kr/view/AKR20260813117700009",
+      "source": "연합뉴스 국제",
+      "ts": 1786601543000,
+      "pub": "Thu, 13 Aug 2026 15:12:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 관세 환급에 '소송 폭탄'…소비자들, 일본 기업들과 '소송전'",
+      "link": "https://www.hankyung.com/article/2026081392857",
+      "source": "한국경제",
+      "ts": 1786599057000,
+      "pub": "Thu, 13 Aug 2026 14:30:57 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "푸틴, 日과 영유권 분쟁지 첫 방문…日정부 강력 반발",
+      "link": "https://www.hankyung.com/article/202608139416i",
+      "source": "한국경제",
+      "ts": 1786599048000,
+      "pub": "Thu, 13 Aug 2026 14:30:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "인도·남아프리카관세동맹, 16년 만에 무역협정 협상 재개",
+      "link": "https://www.yna.co.kr/view/AKR20260813105400009",
+      "source": "연합뉴스 국제",
+      "ts": 1786598812000,
+      "pub": "Thu, 13 Aug 2026 14:26:52 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "푸틴, '일본과 영유권 분쟁' 쿠릴열도 첫 방문",
       "link": "https://www.yna.co.kr/view/AKR20260813105900009",
@@ -17,30 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786596501000,
       "pub": "Thu, 13 Aug 2026 13:48:21 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "선박 조타장치 핵심부품 '러더스톡', '잉곳 제조용 주형' 적용…기본관세율 8%",
-      "link": "https://www.mt.co.kr/policy/2026/08/13/2026081312554252632",
-      "source": "머니투데이",
-      "ts": 1786596310000,
-      "pub": "Thu, 13 Aug 2026 13:45:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 물가 두 달째 꺾였다…Fed 9월 인상 멀어졌지만 변수는 OO [심성미의 중앙은행 워치]",
-      "link": "https://www.hankyung.com/article/202608138524i",
-      "source": "한국경제",
-      "ts": 1786591764000,
-      "pub": "Thu, 13 Aug 2026 12:29:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 7월 재정적자 5년래 최대…이자 부담에 관세 환급까지 겹쳐",
-      "link": "https://www.mt.co.kr/world/2026/08/13/2026081310512245833",
-      "source": "머니투데이",
-      "ts": 1786590076000,
-      "pub": "Thu, 13 Aug 2026 12:01:16 +0900",
       "sentiment": "negative"
     },
     {
@@ -226,14 +242,6 @@
       "ts": 1786540270000,
       "pub": "Wed, 12 Aug 2026 22:11:10 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "극동 지역 찾은 푸틴 \"나토, 아태 침투…日, 러에 일방적 제재\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812152800108",
-      "source": "연합뉴스 국제",
-      "ts": 1786526217000,
-      "pub": "Wed, 12 Aug 2026 18:16:57 +0900",
-      "sentiment": "negative"
     }
   ]
 }

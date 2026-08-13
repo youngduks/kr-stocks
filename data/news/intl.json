@@ -1,10 +1,58 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-12T23:29:10.182Z",
-  "count": 30,
+  "updated_at": "2026-08-13T00:59:06.215Z",
+  "count": 28,
   "items": [
     {
-      "title": "\"달콤씁쓸한 결정\"…'최연소 대변인' 레빗, 백악관 떠난다",
+      "title": "암살위협에 트럼프 비행기 바꿔탔다는데…\"CIA는 '신빙성 낮다'\"",
+      "link": "https://www.yna.co.kr/view/AKR20260813040500071",
+      "source": "연합뉴스 국제",
+      "ts": 1786582117000,
+      "pub": "Thu, 13 Aug 2026 09:48:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 지지도 또 역대 최저로 하락…중간선거 '빨간불'",
+      "link": "https://www.yna.co.kr/view/AKR20260813043100009",
+      "source": "연합뉴스 국제",
+      "ts": 1786581569000,
+      "pub": "Thu, 13 Aug 2026 09:39:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키 \"패트리엇 美재고 5%만 확보하면 겨울 버틴다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260813031400009",
+      "source": "연합뉴스 국제",
+      "ts": 1786580215000,
+      "pub": "Thu, 13 Aug 2026 09:16:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "그린란드, '트럼프 연줄' 美석유업체 시추에 제동",
+      "link": "https://www.yna.co.kr/view/AKR20260813036300009",
+      "source": "연합뉴스 국제",
+      "ts": 1786580065000,
+      "pub": "Thu, 13 Aug 2026 09:14:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "북한 탄도미사일·흑해 교전 탓 우크라전 다시 격화일로",
+      "link": "https://www.yna.co.kr/view/AKR20260813026200009",
+      "source": "연합뉴스 국제",
+      "ts": 1786579196000,
+      "pub": "Thu, 13 Aug 2026 08:59:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美법무부, 이민사기·이념단체에 '칼끝'…'트럼프 취향' 맞췄나",
+      "link": "https://www.yna.co.kr/view/AKR20260813022300071",
+      "source": "연합뉴스 국제",
+      "ts": 1786577798000,
+      "pub": "Thu, 13 Aug 2026 08:36:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"백악관 리더\" 트럼프도 극찬…'최연소 대변인' 레빗 떠난다",
       "link": "https://www.hankyung.com/article/202608138109H",
       "source": "한국경제",
       "ts": 1786576870000,
@@ -25,22 +73,6 @@
       "source": "연합뉴스 경제",
       "ts": 1786575696000,
       "pub": "Thu, 13 Aug 2026 08:01:36 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[외신 에스프레소]\"대통령 전용기를 '미끼'로 썼다? 트럼프의 극비 탈출 작전",
-      "link": "https://www.hankyung.com/article/202608138061i",
-      "source": "한국경제",
-      "ts": 1786575218000,
-      "pub": "Thu, 13 Aug 2026 07:53:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "CPI 상승세 둔화 속 혼조…나스닥 0.54%↑ [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026081380166",
-      "source": "한국경제",
-      "ts": 1786572588000,
-      "pub": "Thu, 13 Aug 2026 07:09:48 +0900",
       "sentiment": "positive"
     },
     {
@@ -124,14 +156,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "美 증시, CPI에 안도하고 AI 인프라 실적 대박에 상승 출발",
-      "link": "https://www.hankyung.com/article/202608127841i",
-      "source": "한국경제",
-      "ts": 1786543554000,
-      "pub": "Wed, 12 Aug 2026 23:05:54 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "뉴욕증시, CPI 소화하며 상승 출발",
       "link": "https://www.yna.co.kr/view/AKR20260812171900009",
       "source": "연합뉴스 국제",
@@ -201,46 +225,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786514760000,
       "pub": "Wed, 12 Aug 2026 15:06:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"이란, 나토회의 참석한 트럼프 호텔 층까지 파악\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812105500009",
-      "source": "연합뉴스 국제",
-      "ts": 1786513663000,
-      "pub": "Wed, 12 Aug 2026 14:47:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] 골프 치는 트럼프 뒤로 포착된 이것은?",
-      "link": "https://www.yna.co.kr/view/AKR20260812081400704",
-      "source": "연합뉴스 국제",
-      "ts": 1786503899000,
-      "pub": "Wed, 12 Aug 2026 12:04:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "메타의 마누스 인수 백지화…미중 AI경쟁 심화 속 中당국 제동(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260812023151009",
-      "source": "연합뉴스 국제",
-      "ts": 1786503497000,
-      "pub": "Wed, 12 Aug 2026 11:58:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 7월 CPI에 쏠린 눈…\"둔화 시 코스피 반등 계기될 수도\"",
-      "link": "https://www.yna.co.kr/view/AKR20260812073500008",
-      "source": "연합뉴스 경제",
-      "ts": 1786501424000,
-      "pub": "Wed, 12 Aug 2026 11:23:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "관세 신고 미리 점검받으면 오류 있어도 가산세 감면",
-      "link": "https://www.yna.co.kr/view/AKR20260812062300002",
-      "source": "연합뉴스 경제",
-      "ts": 1786499378000,
-      "pub": "Wed, 12 Aug 2026 10:49:38 +0900",
       "sentiment": "neutral"
     }
   ]

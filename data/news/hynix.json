@@ -1,30 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-14T07:05:13.556Z",
+  "updated_at": "2026-08-14T08:56:21.065Z",
   "count": 15,
   "items": [
+    {
+      "title": "최태원 SK 회장 “AI 메모리 확보 전쟁 중…美에 전공정 팹 건설 검토\"",
+      "link": "https://www.hankyung.com/article/202608141891i",
+      "source": "한국경제",
+      "ts": 1786694493000,
+      "pub": "Fri, 14 Aug 2026 17:01:33 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[특징주] 반도체 강세 지속…삼전·닉스 2∼3%대 상승 마감(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260814041351008",
       "source": "연합뉴스 경제",
       "ts": 1786690288000,
       "pub": "Fri, 14 Aug 2026 15:51:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "대만 반도체기업 난야, 남부지역 산단에 D램 공장 건설 추진",
-      "link": "https://www.hankyung.com/article/202608141714i",
-      "source": "한국경제",
-      "ts": 1786685398000,
-      "pub": "Fri, 14 Aug 2026 14:29:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"보너스 쏟아부었는데…\" SK하이닉스 투자한 직장인 '피눈물'",
-      "link": "https://www.hankyung.com/article/2026081416297",
-      "source": "한국경제",
-      "ts": 1786683131000,
-      "pub": "Fri, 14 Aug 2026 13:52:11 +0900",
       "sentiment": "neutral"
     },
     {
@@ -58,6 +50,13 @@
       "ts": 1786667644000,
       "pub": "Fri, 14 Aug 2026 09:34:04 +0900",
       "sentiment": "positive"
+    },
+    {
+      "title": "에스케이하이닉스(주) 파생상품거래 손실발생",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=105783098&code=000660&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1786665600000,
+      "pub": "2026.08.14"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

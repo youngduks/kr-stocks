@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-14T07:05:13.555Z",
-  "count": 8,
+  "updated_at": "2026-08-14T08:56:21.064Z",
+  "count": 10,
   "items": [
+    {
+      "title": "삼성전자 상반기 R&D 27조·시설투자 28조, 나란히 동기 최대",
+      "link": "https://www.yna.co.kr/view/AKR20260814156100003",
+      "source": "연합뉴스 경제",
+      "ts": 1786696284000,
+      "pub": "Fri, 14 Aug 2026 17:31:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "최태원 SK 회장 “AI 메모리 확보 전쟁 중…美에 전공정 팹 건설 검토\"",
+      "link": "https://www.hankyung.com/article/202608141891i",
+      "source": "한국경제",
+      "ts": 1786694493000,
+      "pub": "Fri, 14 Aug 2026 17:01:33 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[특징주] 반도체 강세 지속…삼전·닉스 2∼3%대 상승 마감(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260814041351008",

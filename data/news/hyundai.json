@@ -1,23 +1,39 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-08-14T07:05:13.556Z",
-  "count": 10,
+  "updated_at": "2026-08-14T08:56:21.065Z",
+  "count": 12,
   "items": [
+    {
+      "title": "현대차그룹, 인도네시아서 PV5 기반 이동형 의료 서비스 실증",
+      "link": "https://www.hankyung.com/article/202608142346i",
+      "source": "한국경제",
+      "ts": 1786694472000,
+      "pub": "Fri, 14 Aug 2026 17:01:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"본업도 잘 나가네\"…지지부진하던 현대차·LG그룹 '동반 강세'",
+      "link": "https://www.hankyung.com/article/202608142100i",
+      "source": "한국경제",
+      "ts": 1786693030000,
+      "pub": "Fri, 14 Aug 2026 16:37:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대차 노조, 18일 부분파업 유보…임금협상 교섭 재개",
+      "link": "https://www.hankyung.com/article/2026081422357",
+      "source": "한국경제",
+      "ts": 1786692093000,
+      "pub": "Fri, 14 Aug 2026 16:21:33 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "현대차 '로봇 공급망' 협력사로 부각…디아이씨 25% 급등",
       "link": "https://www.hankyung.com/article/202608141813i",
       "source": "한국경제",
-      "ts": 1786687224000,
-      "pub": "Fri, 14 Aug 2026 15:00:24 +0900",
+      "ts": 1786689442000,
+      "pub": "Fri, 14 Aug 2026 15:37:22 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "현대차 노조, 오늘 6시간 부분 파업…\"생산라인 최대 12시간 멈춰\"",
-      "link": "https://www.hankyung.com/article/2026081418937",
-      "source": "한국경제",
-      "ts": 1786686479000,
-      "pub": "Fri, 14 Aug 2026 14:47:59 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "현대자동차(주) 영업(잠정)실적(공정공시)",

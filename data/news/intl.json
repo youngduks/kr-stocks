@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-14T07:05:13.554Z",
-  "count": 26,
+  "updated_at": "2026-08-14T08:56:21.063Z",
+  "count": 24,
   "items": [
+    {
+      "title": "미국 드론 관세에 정부 \"우대세율 세부 기준 대미 협의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260814144800003",
+      "source": "연합뉴스 경제",
+      "ts": 1786694878000,
+      "pub": "Fri, 14 Aug 2026 17:07:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 하늘에 뜬 수상한 비행기…끊이지 않는 트럼프 암살 위협",
+      "link": "https://www.yna.co.kr/view/AKR20260813156900797",
+      "source": "연합뉴스 국제",
+      "ts": 1786693854000,
+      "pub": "Fri, 14 Aug 2026 16:50:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 에콰도르 어선도 극비리 타격…마약선 증거는 불분명\"",
+      "link": "https://www.yna.co.kr/view/AKR20260814128000009",
+      "source": "연합뉴스 국제",
+      "ts": 1786692501000,
+      "pub": "Fri, 14 Aug 2026 16:28:21 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "푸틴 쿠릴열도 방문에 日 대러제재 강화 '만지작'…갈등 격화",
       "link": "https://www.yna.co.kr/view/AKR20260814103900073",
@@ -10,14 +34,6 @@
       "ts": 1786687107000,
       "pub": "Fri, 14 Aug 2026 14:58:27 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "美, 드론에 최대 100% 관세…국내 수혜주 꼽아보니",
-      "link": "https://www.hankyung.com/article/202608141640i",
-      "source": "한국경제",
-      "ts": 1786682917000,
-      "pub": "Fri, 14 Aug 2026 13:48:37 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "[영상] 우크라 대규모 공습에 불탄 러 군함…\"미사일 발사대 공격 집중\"",
@@ -42,14 +58,6 @@
       "ts": 1786670129000,
       "pub": "Fri, 14 Aug 2026 10:15:29 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "일본 도금강판 반덤핑관세에 정부도 우려 표명…의견서 제출",
-      "link": "https://www.yna.co.kr/view/AKR20260814030600003",
-      "source": "연합뉴스 경제",
-      "ts": 1786665701000,
-      "pub": "Fri, 14 Aug 2026 09:01:41 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "트럼프, 대미투자 외국조선업체 본국서 美군함 2척 건조 승인(종합)",
@@ -185,30 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786635719000,
       "pub": "Fri, 14 Aug 2026 00:41:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "흑해 이어 다뉴브강까지…러, 우크라 밀 수출로 집중 공격(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260813159451109",
-      "source": "연합뉴스 국제",
-      "ts": 1786626625000,
-      "pub": "Thu, 13 Aug 2026 22:10:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"최악 가짜 정보\"…이란, '호르무즈 완전통제' 트럼프 주장 반박(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260813155251079",
-      "source": "연합뉴스 국제",
-      "ts": 1786626156000,
-      "pub": "Thu, 13 Aug 2026 22:02:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "푸틴, '영유권 분쟁' 쿠릴열도 첫 방문…일본 즉각 반발(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260813105951009",
-      "source": "연합뉴스 국제",
-      "ts": 1786618473000,
-      "pub": "Thu, 13 Aug 2026 19:54:33 +0900",
       "sentiment": "neutral"
     }
   ]

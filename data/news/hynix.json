@@ -1,55 +1,23 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-13T23:29:36.757Z",
-  "count": 18,
+  "updated_at": "2026-08-14T00:57:59.480Z",
+  "count": 14,
   "items": [
     {
-      "title": "샌디스크, 2030년까지 두자릿수 매출 성장…메모리 반도체주 급등",
-      "link": "https://www.mt.co.kr/world/2026/08/14/2026081408102655220",
-      "source": "머니투데이",
-      "ts": 1786663079000,
-      "pub": "Fri, 14 Aug 2026 08:17:59 +0900",
+      "title": "[특징주] 반도체 상승세 지속…하이닉스 4~5%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20260814041300008",
+      "source": "연합뉴스 경제",
+      "ts": 1786667644000,
+      "pub": "Fri, 14 Aug 2026 09:34:04 +0900",
       "sentiment": "positive"
     },
     {
-      "title": "삼전닉스 4700조 투자 폭격…수혜 볼 '반도체 소부장' 기업 어디?",
-      "link": "https://www.hankyung.com/article/202608130195i",
+      "title": "\"땡큐 샌디스크!\"…美 물가 안도에 삼전닉스 등 반도체株 급등",
+      "link": "https://www.hankyung.com/article/2026081410096",
       "source": "한국경제",
-      "ts": 1786660048000,
-      "pub": "Fri, 14 Aug 2026 07:27:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[고래사냥] 'HPSP·한미반도체·씨에스윈드! 내일장 고래 종목은?!",
-      "link": "https://www.mt.co.kr/stock/2026/08/14/2026081406287048584",
-      "source": "머니투데이",
-      "ts": 1786657473000,
-      "pub": "Fri, 14 Aug 2026 06:44:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체값 고공행진…수출물가 28년4개월 만에 최대폭 상승",
-      "link": "https://www.mt.co.kr/economy/2026/08/14/2026081316404897642",
-      "source": "머니투데이",
-      "ts": 1786654800000,
-      "pub": "Fri, 14 Aug 2026 06:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI칩 커지자 고성능 반도체기판도 품귀…빅테크도 줄섰다",
-      "link": "https://www.mt.co.kr/industry/2026/08/14/2026081316031737196",
-      "source": "머니투데이",
-      "ts": 1786653600000,
-      "pub": "Fri, 14 Aug 2026 05:40:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 \"中, 40개국 거쳐 430조 꼼수 수출\"…한국 반도체도 지목",
-      "link": "https://www.mt.co.kr/world/2026/08/14/2026081404504385244",
-      "source": "머니투데이",
-      "ts": 1786650744000,
-      "pub": "Fri, 14 Aug 2026 04:52:24 +0900",
-      "sentiment": "neutral"
+      "ts": 1786667245000,
+      "pub": "Fri, 14 Aug 2026 09:27:25 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "'3천500억원대 담합' 반도체 소재 업체·임직원 재판행",

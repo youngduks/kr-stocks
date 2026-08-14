@@ -1,22 +1,54 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-13T23:29:36.754Z",
-  "count": 41,
+  "updated_at": "2026-08-14T00:57:59.478Z",
+  "count": 35,
   "items": [
     {
-      "title": "트럼프, '대미 투자' 외국조선업체의 '최대 2척 본국 건조' 승인",
-      "link": "https://www.mt.co.kr/world/2026/08/14/2026081408110650894",
-      "source": "머니투데이",
-      "ts": 1786663196000,
-      "pub": "Fri, 14 Aug 2026 08:19:56 +0900",
+      "title": "한화오션, 트럼프의 외국 조선업체 선박 건조 승인 소식에 '강세'",
+      "link": "https://www.hankyung.com/article/2026081410056",
+      "source": "한국경제",
+      "ts": 1786667101000,
+      "pub": "Fri, 14 Aug 2026 09:25:01 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "美, 드론·부품 최대 100% 관세 부과·한국은 15%…\"中 견제 목적\"",
-      "link": "https://www.mt.co.kr/world/2026/08/14/2026081407282454799",
-      "source": "머니투데이",
-      "ts": 1786661770000,
-      "pub": "Fri, 14 Aug 2026 07:56:10 +0900",
+      "title": "케밥 트럭에 숨고 카트에 쪼그리고…이란서 트럼프 조롱밈 확산",
+      "link": "https://www.hankyung.com/article/2026081408927",
+      "source": "한국경제",
+      "ts": 1786666389000,
+      "pub": "Fri, 14 Aug 2026 09:13:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "일본 도금강판 반덤핑관세에 정부도 우려 표명…의견서 제출",
+      "link": "https://www.yna.co.kr/view/AKR20260814030600003",
+      "source": "연합뉴스 경제",
+      "ts": 1786665701000,
+      "pub": "Fri, 14 Aug 2026 09:01:41 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프, 대미투자 외국조선업체 본국서 美군함 2척 건조 승인(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260814012952071",
+      "source": "연합뉴스 국제",
+      "ts": 1786665341000,
+      "pub": "Fri, 14 Aug 2026 08:55:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 '암살 피하려 전용기 환승' 트럼프 조롱밈 확산",
+      "link": "https://www.yna.co.kr/view/AKR20260814027400009",
+      "source": "연합뉴스 국제",
+      "ts": 1786664821000,
+      "pub": "Fri, 14 Aug 2026 08:47:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"푸틴도 우크라전 때문에 자국 민심 돌아선 것 안다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260814026800009",
+      "source": "연합뉴스 국제",
+      "ts": 1786664684000,
+      "pub": "Fri, 14 Aug 2026 08:44:44 +0900",
       "sentiment": "neutral"
     },
     {
@@ -36,14 +68,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "관세 환급금이 분기 전체이익 5%?…애플·나이키 등 14조원 '잭팟'",
-      "link": "https://www.hankyung.com/article/202608140564H",
-      "source": "한국경제",
-      "ts": 1786660132000,
-      "pub": "Fri, 14 Aug 2026 07:28:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "'트럼프-케네디센터' 간판 막히자…'트럼프가 복원' 한줄 꼬리표(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260814002651071",
       "source": "연합뉴스 국제",
@@ -60,14 +84,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"'美투자' 외국 조선소에 선박 최대 2척 건조 승인\"…한화도 대상될 듯",
-      "link": "https://www.hankyung.com/article/2026081405657",
-      "source": "한국경제",
-      "ts": 1786658882000,
-      "pub": "Fri, 14 Aug 2026 07:08:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] 트럼프 \"'美투자' 외국 조선소에 선박 최대 2척 건조 승인\"",
       "link": "https://www.yna.co.kr/view/AKR20260814012900071",
       "source": "연합뉴스 국제",
@@ -76,43 +92,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"113만원까진 공짜였는데\"…美법원 '소액소포 관세' 합법 판단",
-      "link": "https://www.hankyung.com/article/2026081405427",
-      "source": "한국경제",
-      "ts": 1786658625000,
-      "pub": "Fri, 14 Aug 2026 07:03:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 맏사위 쿠슈너, 내주 이스라엘 찾아 가자 문제 논의",
       "link": "https://www.yna.co.kr/view/AKR20260814009200071",
       "source": "연합뉴스 국제",
       "ts": 1786658308000,
       "pub": "Fri, 14 Aug 2026 06:58:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"北 김정은,  美 중간선거 '공화당 패배' 이후 트럼프와 회담 나설 수도\"",
-      "link": "https://www.mt.co.kr/world/2026/08/14/2026081406131541743",
-      "source": "머니투데이",
-      "ts": 1786658051000,
-      "pub": "Fri, 14 Aug 2026 06:54:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프, 드론·드론부품에 최대 100% 관세…한국·일본은 15%",
-      "link": "https://www.mt.co.kr/world/2026/08/14/2026081406333960212",
-      "source": "머니투데이",
-      "ts": 1786657162000,
-      "pub": "Fri, 14 Aug 2026 06:39:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프, 드론·드론부품에 최대 100% 관세…한국은 15%",
-      "link": "https://www.hankyung.com/article/2026081405297",
-      "source": "한국경제",
-      "ts": 1786656586000,
-      "pub": "Fri, 14 Aug 2026 06:29:46 +0900",
       "sentiment": "neutral"
     },
     {
@@ -129,22 +113,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786656341000,
       "pub": "Fri, 14 Aug 2026 06:25:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 드론에… 큰코다친 미군",
-      "link": "https://www.mt.co.kr/world/2026/08/14/2026081318583450599",
-      "source": "머니투데이",
-      "ts": 1786647000000,
-      "pub": "Fri, 14 Aug 2026 03:50:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "애플 '트럼프 관세' 3조 돌려받았다…美 정부 13조 뱉어내",
-      "link": "https://www.mt.co.kr/world/2026/08/14/2026081403260610032",
-      "source": "머니투데이",
-      "ts": 1786646078000,
-      "pub": "Fri, 14 Aug 2026 03:34:38 +0900",
       "sentiment": "neutral"
     },
     {
@@ -209,14 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786626156000,
       "pub": "Thu, 13 Aug 2026 22:02:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "잘나가던 트럼프의 '입'…백악관 떠나 '엄마의 길' 선택했다",
-      "link": "https://www.hankyung.com/article/2026081303667",
-      "source": "한국경제",
-      "ts": 1786624397000,
-      "pub": "Thu, 13 Aug 2026 21:33:17 +0900",
       "sentiment": "neutral"
     },
     {
@@ -322,14 +282,6 @@
       "ts": 1786596501000,
       "pub": "Thu, 13 Aug 2026 13:48:21 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "우크라 드론서 첫 판로 찾은 차세대 배터리…韓 BEI도 공급",
-      "link": "https://www.yna.co.kr/view/AKR20260813088000009",
-      "source": "연합뉴스 국제",
-      "ts": 1786589967000,
-      "pub": "Thu, 13 Aug 2026 11:59:27 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

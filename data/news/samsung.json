@@ -1,39 +1,23 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-13T23:29:36.756Z",
-  "count": 13,
+  "updated_at": "2026-08-14T00:57:59.479Z",
+  "count": 11,
   "items": [
     {
-      "title": "샌디스크, 2030년까지 두자릿수 매출 성장…메모리 반도체주 급등",
-      "link": "https://www.mt.co.kr/world/2026/08/14/2026081408102655220",
-      "source": "머니투데이",
-      "ts": 1786663079000,
-      "pub": "Fri, 14 Aug 2026 08:17:59 +0900",
+      "title": "갤럭시 Z8, 동남아·오세아니아 공식 출시…사전판매 60%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260814044100017",
+      "source": "연합뉴스 경제",
+      "ts": 1786668742000,
+      "pub": "Fri, 14 Aug 2026 09:52:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"땡큐 샌디스크!\"…美 물가 안도에 삼전닉스 등 반도체株 급등",
+      "link": "https://www.hankyung.com/article/2026081410096",
+      "source": "한국경제",
+      "ts": 1786667245000,
+      "pub": "Fri, 14 Aug 2026 09:27:25 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "삼전닉스 4700조 투자 폭격…수혜 볼 '반도체 소부장' 기업 어디?",
-      "link": "https://www.hankyung.com/article/202608130195i",
-      "source": "한국경제",
-      "ts": 1786660048000,
-      "pub": "Fri, 14 Aug 2026 07:27:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[단독] \"왜 이렇게 아이폰 많나\" 했는데…삼성 스마트폰 '반격' [갤럭시 중간결산(上)]",
-      "link": "https://www.hankyung.com/article/202608139600g",
-      "source": "한국경제",
-      "ts": 1786654801000,
-      "pub": "Fri, 14 Aug 2026 06:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 따라 키옥시아·소니도…레버리지 ETF 일본으로 확산 [도쿄나우]",
-      "link": "https://www.hankyung.com/article/202608140488i",
-      "source": "한국경제",
-      "ts": 1786654251000,
-      "pub": "Fri, 14 Aug 2026 05:50:51 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "반도체 연일 강세…삼전·닉스, 4~5%대 급등 마감(종합)",

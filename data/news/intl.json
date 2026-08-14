@@ -1,22 +1,54 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-14T00:57:59.478Z",
-  "count": 35,
+  "updated_at": "2026-08-14T03:21:31.938Z",
+  "count": 33,
   "items": [
     {
-      "title": "한화오션, 트럼프의 외국 조선업체 선박 건조 승인 소식에 '강세'",
-      "link": "https://www.hankyung.com/article/2026081410056",
-      "source": "한국경제",
-      "ts": 1786667101000,
-      "pub": "Fri, 14 Aug 2026 09:25:01 +0900",
+      "title": "[영상] 우크라 대규모 공습에 불탄 러 군함…\"미사일 발사대 공격 집중\"",
+      "link": "https://www.yna.co.kr/view/AKR20260814074000704",
+      "source": "연합뉴스 국제",
+      "ts": 1786674952000,
+      "pub": "Fri, 14 Aug 2026 11:35:52 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "케밥 트럭에 숨고 카트에 쪼그리고…이란서 트럼프 조롱밈 확산",
-      "link": "https://www.hankyung.com/article/2026081408927",
+      "title": "트럼프 \"외국 조선소에서 美군함건조 일부 허용\"…2척 제한 [이상은의 워싱턴나우]",
+      "link": "https://www.hankyung.com/article/202608141327i",
       "source": "한국경제",
-      "ts": 1786666389000,
-      "pub": "Fri, 14 Aug 2026 09:13:09 +0900",
+      "ts": 1786674573000,
+      "pub": "Fri, 14 Aug 2026 11:29:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"항모 함재기 이륙장치 전자기식→증기식 변경\" 개입",
+      "link": "https://www.yna.co.kr/view/AKR20260814061200009",
+      "source": "연합뉴스 국제",
+      "ts": 1786672737000,
+      "pub": "Fri, 14 Aug 2026 10:58:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"북미산 車관세 5~10%로\"…멕시코, 美에 절충안 역제안",
+      "link": "https://www.hankyung.com/article/202608141286i",
+      "source": "한국경제",
+      "ts": 1786672228000,
+      "pub": "Fri, 14 Aug 2026 10:50:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "호주 총리, 트럼프와 통화…\"오커스 전속력 추진 중\"",
+      "link": "https://www.hankyung.com/article/2026081412467",
+      "source": "한국경제",
+      "ts": 1786671613000,
+      "pub": "Fri, 14 Aug 2026 10:40:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "호주 총리, 트럼프와 통화…오커스 안보 동맹·관세 문제 논의",
+      "link": "https://www.yna.co.kr/view/AKR20260814052600104",
+      "source": "연합뉴스 국제",
+      "ts": 1786670129000,
+      "pub": "Fri, 14 Aug 2026 10:15:29 +0900",
       "sentiment": "neutral"
     },
     {
@@ -234,54 +266,6 @@
       "ts": 1786608786000,
       "pub": "Thu, 13 Aug 2026 17:13:06 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "'우크라 드론 공격 막자'…그물망으로 덮은 러시아 유조선",
-      "link": "https://www.yna.co.kr/view/AKR20260813135500009",
-      "source": "연합뉴스 국제",
-      "ts": 1786604822000,
-      "pub": "Thu, 13 Aug 2026 16:07:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "日정부, 푸틴 쿠릴열도 방문에 \"일본 고유 영토…강하게 항의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260813121000073",
-      "source": "연합뉴스 국제",
-      "ts": 1786601604000,
-      "pub": "Thu, 13 Aug 2026 15:13:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"앤트로픽, 이스라엘 데카르트AI 인수 논의중\"",
-      "link": "https://www.yna.co.kr/view/AKR20260813117700009",
-      "source": "연합뉴스 국제",
-      "ts": 1786601543000,
-      "pub": "Thu, 13 Aug 2026 15:12:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "인도·남아프리카관세동맹, 16년 만에 무역협정 협상 재개",
-      "link": "https://www.yna.co.kr/view/AKR20260813105400009",
-      "source": "연합뉴스 국제",
-      "ts": 1786598812000,
-      "pub": "Thu, 13 Aug 2026 14:26:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "푸틴, '일본과 영유권 분쟁' 쿠릴열도 첫 방문",
-      "link": "https://www.yna.co.kr/view/AKR20260813105900009",
-      "source": "연합뉴스 국제",
-      "ts": 1786598275000,
-      "pub": "Thu, 13 Aug 2026 14:17:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"관세로 오른만큼 돌려달라\"…日기업, 美소비자에 잇따라 피소",
-      "link": "https://www.yna.co.kr/view/AKR20260813091600073",
-      "source": "연합뉴스 국제",
-      "ts": 1786596501000,
-      "pub": "Thu, 13 Aug 2026 13:48:21 +0900",
-      "sentiment": "negative"
     }
   ]
 }

@@ -1,22 +1,30 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-14T00:57:59.480Z",
-  "count": 14,
+  "updated_at": "2026-08-14T03:21:31.940Z",
+  "count": 13,
   "items": [
+    {
+      "title": "6월 통화량 29.4조원↑…수출 호조에 반도체 등 기업 자금 증가",
+      "link": "https://www.yna.co.kr/view/AKR20260814051300002",
+      "source": "연합뉴스 경제",
+      "ts": 1786676404000,
+      "pub": "Fri, 14 Aug 2026 12:00:04 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'유가 하락vs반도체 차익실현' 힘겨루기…닛케이, 0.85%↑[Asia오전]",
+      "link": "https://www.mt.co.kr/world/2026/08/14/2026081411305473965",
+      "source": "머니투데이",
+      "ts": 1786675150000,
+      "pub": "Fri, 14 Aug 2026 11:39:10 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[특징주] 반도체 상승세 지속…하이닉스 4~5%대 급등",
       "link": "https://www.yna.co.kr/view/AKR20260814041300008",
       "source": "연합뉴스 경제",
       "ts": 1786667644000,
       "pub": "Fri, 14 Aug 2026 09:34:04 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\"땡큐 샌디스크!\"…美 물가 안도에 삼전닉스 등 반도체株 급등",
-      "link": "https://www.hankyung.com/article/2026081410096",
-      "source": "한국경제",
-      "ts": 1786667245000,
-      "pub": "Fri, 14 Aug 2026 09:27:25 +0900",
       "sentiment": "positive"
     },
     {
@@ -34,22 +42,6 @@
       "ts": 1786604871000,
       "pub": "Thu, 13 Aug 2026 16:07:51 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "'3일 연속 상승' 삼전닉스 탄력받나…글로벌 반도체 동반강세(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260813090951008",
-      "source": "연합뉴스 경제",
-      "ts": 1786604567000,
-      "pub": "Thu, 13 Aug 2026 16:02:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'3일 연속 상승' 삼전닉스 탄력받나…글로벌 반도체 동반강세",
-      "link": "https://www.yna.co.kr/view/AKR20260813090900008",
-      "source": "연합뉴스 경제",
-      "ts": 1786599095000,
-      "pub": "Thu, 13 Aug 2026 14:31:35 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-14T15:40:07.369Z",
-  "count": 23,
+  "updated_at": "2026-08-14T16:38:55.560Z",
+  "count": 22,
   "items": [
+    {
+      "title": "트럼프가 \"짐승들\" 비난한 2차대전 기념비 훼손 용의자 체포",
+      "link": "https://www.yna.co.kr/view/AKR20260815001400071",
+      "source": "연합뉴스 국제",
+      "ts": 1786723462000,
+      "pub": "Sat, 15 Aug 2026 01:04:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프 '지지선언' 왜 안 나오나…네타냐후는 속이 탄다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260815001300071",
+      "source": "연합뉴스 국제",
+      "ts": 1786723374000,
+      "pub": "Sat, 15 Aug 2026 01:02:54 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 행정부, 대법에 \"백악관 연회장 공사 계속하게 해달라\"",
       "link": "https://www.yna.co.kr/view/AKR20260815000400071",
@@ -161,30 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786659326000,
       "pub": "Fri, 14 Aug 2026 07:15:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"'美투자' 외국 조선소에 선박 최대 2척 건조 승인\"",
-      "link": "https://www.yna.co.kr/view/AKR20260814012900071",
-      "source": "연합뉴스 국제",
-      "ts": 1786658797000,
-      "pub": "Fri, 14 Aug 2026 07:06:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 맏사위 쿠슈너, 내주 이스라엘 찾아 가자 문제 논의",
-      "link": "https://www.yna.co.kr/view/AKR20260814009200071",
-      "source": "연합뉴스 국제",
-      "ts": 1786658308000,
-      "pub": "Fri, 14 Aug 2026 06:58:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프, 드론·드론부품에 최대 100% 관세…한국은 15%",
-      "link": "https://www.yna.co.kr/view/AKR20260814010200071",
-      "source": "연합뉴스 국제",
-      "ts": 1786656547000,
-      "pub": "Fri, 14 Aug 2026 06:29:07 +0900",
       "sentiment": "neutral"
     }
   ]

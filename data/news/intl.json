@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-14T05:23:13.984Z",
-  "count": 31,
+  "updated_at": "2026-08-14T07:05:13.554Z",
+  "count": 26,
   "items": [
+    {
+      "title": "푸틴 쿠릴열도 방문에 日 대러제재 강화 '만지작'…갈등 격화",
+      "link": "https://www.yna.co.kr/view/AKR20260814103900073",
+      "source": "연합뉴스 국제",
+      "ts": 1786687107000,
+      "pub": "Fri, 14 Aug 2026 14:58:27 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "美, 드론에 최대 100% 관세…국내 수혜주 꼽아보니",
       "link": "https://www.hankyung.com/article/202608141640i",
@@ -20,27 +28,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"외국 조선소에서 美군함건조 일부 허용\"…2척 제한 [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202608141327i",
-      "source": "한국경제",
-      "ts": 1786674573000,
-      "pub": "Fri, 14 Aug 2026 11:29:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"항모 함재기 이륙장치 전자기식→증기식 변경\" 개입",
       "link": "https://www.yna.co.kr/view/AKR20260814061200009",
       "source": "연합뉴스 국제",
       "ts": 1786672737000,
       "pub": "Fri, 14 Aug 2026 10:58:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"북미산 車관세 5~10%로\"…멕시코, 美에 절충안 역제안",
-      "link": "https://www.hankyung.com/article/202608141286i",
-      "source": "한국경제",
-      "ts": 1786672228000,
-      "pub": "Fri, 14 Aug 2026 10:50:28 +0900",
       "sentiment": "neutral"
     },
     {
@@ -217,38 +209,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786618473000,
       "pub": "Thu, 13 Aug 2026 19:54:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 \"중국산 상품 40여개국 통해 불법 관세회피\"…한국도 거론",
-      "link": "https://www.yna.co.kr/view/AKR20260813166400009",
-      "source": "연합뉴스 국제",
-      "ts": 1786618055000,
-      "pub": "Thu, 13 Aug 2026 19:47:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "흑해 이어 다뉴브강까지…러, 우크라 밀 수출로 집중 공격",
-      "link": "https://www.yna.co.kr/view/AKR20260813159400109",
-      "source": "연합뉴스 국제",
-      "ts": 1786615120000,
-      "pub": "Thu, 13 Aug 2026 18:58:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "NASA 일식 생중계 지도에 크림반도가 '러 영토'로…우크라 발칵",
-      "link": "https://www.yna.co.kr/view/AKR20260813157200108",
-      "source": "연합뉴스 국제",
-      "ts": 1786613523000,
-      "pub": "Thu, 13 Aug 2026 18:32:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "다카이치, 푸틴 쿠릴열도 방문에 \"일본 고유 영토…강하게 항의\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260813121051073",
-      "source": "연합뉴스 국제",
-      "ts": 1786610915000,
-      "pub": "Thu, 13 Aug 2026 17:48:35 +0900",
       "sentiment": "neutral"
     }
   ]

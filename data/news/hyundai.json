@@ -1,8 +1,24 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-08-14T05:23:13.986Z",
-  "count": 8,
+  "updated_at": "2026-08-14T07:05:13.556Z",
+  "count": 10,
   "items": [
+    {
+      "title": "현대차 '로봇 공급망' 협력사로 부각…디아이씨 25% 급등",
+      "link": "https://www.hankyung.com/article/202608141813i",
+      "source": "한국경제",
+      "ts": 1786687224000,
+      "pub": "Fri, 14 Aug 2026 15:00:24 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "현대차 노조, 오늘 6시간 부분 파업…\"생산라인 최대 12시간 멈춰\"",
+      "link": "https://www.hankyung.com/article/2026081418937",
+      "source": "한국경제",
+      "ts": 1786686479000,
+      "pub": "Fri, 14 Aug 2026 14:47:59 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "현대자동차(주) 영업(잠정)실적(공정공시)",
       "link": "https://finance.naver.com/item/news_notice_read.naver?no=90578032&code=005380&page_notice=",

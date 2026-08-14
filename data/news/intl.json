@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-14T08:56:21.063Z",
-  "count": 24,
+  "updated_at": "2026-08-14T09:52:05.244Z",
+  "count": 25,
   "items": [
+    {
+      "title": "삼성전자, 반도체 호황에 미중 수출 급증…중국 88조원",
+      "link": "https://www.yna.co.kr/view/AKR20260814167500003",
+      "source": "연합뉴스 경제",
+      "ts": 1786700046000,
+      "pub": "Fri, 14 Aug 2026 18:34:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[단독] 트럼프 \"美에 투자한 외국 조선사, 자국서 군함 건조 허용\"",
+      "link": "https://www.hankyung.com/article/2026081425831",
+      "source": "한국경제",
+      "ts": 1786698964000,
+      "pub": "Fri, 14 Aug 2026 18:16:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[단독] \"대미투자 빨리 안하면 韓 관세인상\"",
+      "link": "https://www.hankyung.com/article/2026081425961",
+      "source": "한국경제",
+      "ts": 1786698828000,
+      "pub": "Fri, 14 Aug 2026 18:13:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "전쟁 끝날 기미 안 보이자…이스라엘 인재 '엑소더스'",
+      "link": "https://www.hankyung.com/article/2026081425321",
+      "source": "한국경제",
+      "ts": 1786696639000,
+      "pub": "Fri, 14 Aug 2026 17:37:19 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "미국 드론 관세에 정부 \"우대세율 세부 기준 대미 협의\"",
       "link": "https://www.yna.co.kr/view/AKR20260814144800003",
@@ -169,30 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786637089000,
       "pub": "Fri, 14 Aug 2026 01:04:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "폴란드 \"우크라계 미국인 암살 저지\"…러시아인 체포",
-      "link": "https://www.yna.co.kr/view/AKR20260814000700082",
-      "source": "연합뉴스 국제",
-      "ts": 1786636077000,
-      "pub": "Fri, 14 Aug 2026 00:47:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"우크라, 러시아에 흑해 민간 표적 공격 중단 제안\"",
-      "link": "https://www.yna.co.kr/view/AKR20260814000300109",
-      "source": "연합뉴스 국제",
-      "ts": 1786635770000,
-      "pub": "Fri, 14 Aug 2026 00:42:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 \"中, 40여개국 불법환적해 관세회피\"…韓도 '中환적 위험국' 거론(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260813166451009",
-      "source": "연합뉴스 국제",
-      "ts": 1786635719000,
-      "pub": "Fri, 14 Aug 2026 00:41:59 +0900",
       "sentiment": "neutral"
     }
   ]

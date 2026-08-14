@@ -1,7 +1,7 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-14T09:52:05.244Z",
-  "count": 25,
+  "updated_at": "2026-08-14T10:46:53.799Z",
+  "count": 22,
   "items": [
     {
       "title": "삼성전자, 반도체 호황에 미중 수출 급증…중국 88조원",
@@ -20,19 +20,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[단독] \"대미투자 빨리 안하면 韓 관세인상\"",
+      "title": "[단독] 美 \"투자 빨리 안하면 관세인상\"…한국에 '최후통첩'",
       "link": "https://www.hankyung.com/article/2026081425961",
       "source": "한국경제",
       "ts": 1786698828000,
       "pub": "Fri, 14 Aug 2026 18:13:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "전쟁 끝날 기미 안 보이자…이스라엘 인재 '엑소더스'",
-      "link": "https://www.hankyung.com/article/2026081425321",
-      "source": "한국경제",
-      "ts": 1786696639000,
-      "pub": "Fri, 14 Aug 2026 17:37:19 +0900",
       "sentiment": "neutral"
     },
     {
@@ -185,22 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786645738000,
       "pub": "Fri, 14 Aug 2026 03:28:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "빅터차 \"김정은, 美중간선거 후 트럼프와 회담 추진할 수도\"",
-      "link": "https://www.yna.co.kr/view/AKR20260814001500071",
-      "source": "연합뉴스 국제",
-      "ts": 1786638371000,
-      "pub": "Fri, 14 Aug 2026 01:26:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"애플·나이키 등 美기업 40여곳, 14조원 관세 환급\"",
-      "link": "https://www.yna.co.kr/view/AKR20260814001300072",
-      "source": "연합뉴스 국제",
-      "ts": 1786637089000,
-      "pub": "Fri, 14 Aug 2026 01:04:49 +0900",
       "sentiment": "neutral"
     }
   ]

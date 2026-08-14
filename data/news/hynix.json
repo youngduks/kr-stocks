@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-14T09:52:05.245Z",
-  "count": 20,
+  "updated_at": "2026-08-14T10:46:53.801Z",
+  "count": 17,
   "items": [
     {
       "title": "삼성전자, 반도체 호황에 미중 수출 급증…중국 88조원",
@@ -36,22 +36,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "LG·엔비디아 '2족보행 로봇' 내년 1분기 공개",
-      "link": "https://www.hankyung.com/article/2026081425941",
-      "source": "한국경제",
-      "ts": 1786697000000,
-      "pub": "Fri, 14 Aug 2026 17:43:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "로봇부터 모빌리티까지…LG·엔비디아 'AI 동맹'",
-      "link": "https://www.hankyung.com/article/2026081425491",
-      "source": "한국경제",
-      "ts": 1786696992000,
-      "pub": "Fri, 14 Aug 2026 17:43:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[특징주] 반도체 강세 지속…삼전·닉스 2∼3%대 상승 마감(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260814041351008",
       "source": "연합뉴스 경제",
@@ -81,14 +65,6 @@
       "source": "연합뉴스 경제",
       "ts": 1786676404000,
       "pub": "Fri, 14 Aug 2026 12:00:04 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[특징주] 반도체 상승세 지속…하이닉스 4~5%대 급등",
-      "link": "https://www.yna.co.kr/view/AKR20260814041300008",
-      "source": "연합뉴스 경제",
-      "ts": 1786667644000,
-      "pub": "Fri, 14 Aug 2026 09:34:04 +0900",
       "sentiment": "positive"
     },
     {

@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-14T03:21:31.940Z",
+  "updated_at": "2026-08-14T05:23:13.985Z",
   "count": 13,
   "items": [
+    {
+      "title": "대만 반도체기업 난야, 남부지역 산단에 D램 공장 건설 추진",
+      "link": "https://www.yna.co.kr/view/AKR20260814084500009",
+      "source": "연합뉴스 국제",
+      "ts": 1786682167000,
+      "pub": "Fri, 14 Aug 2026 13:36:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'히노마루 반도체' 부활 노리는 日…인력 육성에 한계 노출",
+      "link": "https://www.yna.co.kr/view/AKR20260814077400073",
+      "source": "연합뉴스 국제",
+      "ts": 1786678067000,
+      "pub": "Fri, 14 Aug 2026 12:27:47 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "6월 통화량 29.4조원↑…수출 호조에 반도체 등 기업 자금 증가",
       "link": "https://www.yna.co.kr/view/AKR20260814051300002",
@@ -10,14 +26,6 @@
       "ts": 1786676404000,
       "pub": "Fri, 14 Aug 2026 12:00:04 +0900",
       "sentiment": "positive"
-    },
-    {
-      "title": "'유가 하락vs반도체 차익실현' 힘겨루기…닛케이, 0.85%↑[Asia오전]",
-      "link": "https://www.mt.co.kr/world/2026/08/14/2026081411305473965",
-      "source": "머니투데이",
-      "ts": 1786675150000,
-      "pub": "Fri, 14 Aug 2026 11:39:10 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "[특징주] 반도체 상승세 지속…하이닉스 4~5%대 급등",
@@ -34,14 +42,6 @@
       "ts": 1786608212000,
       "pub": "Thu, 13 Aug 2026 17:03:32 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 연일 강세…삼전·닉스, 4~5%대 급등 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260813038751008",
-      "source": "연합뉴스 경제",
-      "ts": 1786604871000,
-      "pub": "Thu, 13 Aug 2026 16:07:51 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-14T12:37:37.786Z",
-  "count": 25,
+  "updated_at": "2026-08-14T14:07:06.368Z",
+  "count": 24,
   "items": [
+    {
+      "title": "미국, 드론 100% 관세에…중국 관영지 \"中 겨낭한 보호주의\" 비판",
+      "link": "https://www.mt.co.kr/economy/2026/08/14/2026081422371148126",
+      "source": "머니투데이",
+      "ts": 1786714828000,
+      "pub": "Fri, 14 Aug 2026 22:40:28 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "中관영지, 美 드론 최대 100% 관세에 \"중국 겨냥한 보호주의\"",
       "link": "https://www.yna.co.kr/view/AKR20260814179600083",
@@ -33,14 +41,6 @@
       "source": "한국경제",
       "ts": 1786698964000,
       "pub": "Fri, 14 Aug 2026 18:16:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[단독] 美 \"투자 빨리 안하면 관세인상\"…한국에 '최후통첩'",
-      "link": "https://www.hankyung.com/article/2026081425961",
-      "source": "한국경제",
-      "ts": 1786698828000,
-      "pub": "Fri, 14 Aug 2026 18:13:48 +0900",
       "sentiment": "neutral"
     },
     {
@@ -193,14 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786656341000,
       "pub": "Fri, 14 Aug 2026 06:25:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "법원이 제동건 케네디센터 개보수, 트럼프 방침따라 재추진",
-      "link": "https://www.yna.co.kr/view/AKR20260814002600071",
-      "source": "연합뉴스 국제",
-      "ts": 1786645738000,
-      "pub": "Fri, 14 Aug 2026 03:28:58 +0900",
       "sentiment": "neutral"
     }
   ]

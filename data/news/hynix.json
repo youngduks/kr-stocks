@@ -1,14 +1,30 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-14T10:46:53.801Z",
-  "count": 17,
+  "updated_at": "2026-08-14T11:35:25.331Z",
+  "count": 21,
   "items": [
+    {
+      "title": "너도나도 사더니 SK하이닉스도 이제 '국민주'…1년 만에 68만→346만명",
+      "link": "https://www.mt.co.kr/industry/2026/08/14/2026081418164741674",
+      "source": "머니투데이",
+      "ts": 1786700240000,
+      "pub": "Fri, 14 Aug 2026 18:37:20 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성전자, 반도체 호황에 미중 수출 급증…중국 88조원",
       "link": "https://www.yna.co.kr/view/AKR20260814167500003",
       "source": "연합뉴스 경제",
       "ts": 1786700046000,
       "pub": "Fri, 14 Aug 2026 18:34:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'삼전 주주' 800만명 육박…역대급 투자에 D램 점유율 39.4%",
+      "link": "https://www.mt.co.kr/industry/2026/08/14/2026081417425124258",
+      "source": "머니투데이",
+      "ts": 1786700020000,
+      "pub": "Fri, 14 Aug 2026 18:33:40 +0900",
       "sentiment": "neutral"
     },
     {
@@ -33,6 +49,22 @@
       "source": "한국경제",
       "ts": 1786698726000,
       "pub": "Fri, 14 Aug 2026 18:12:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 상반기 보수 1위 곽노정 261억..성과보상주식 217억 포함",
+      "link": "https://www.mt.co.kr/industry/2026/08/14/2026081416455085938",
+      "source": "머니투데이",
+      "ts": 1786697063000,
+      "pub": "Fri, 14 Aug 2026 17:44:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[더벨]반도체 신뢰성 평가 큐알티, 상반기 영업익 141.1% 급증",
+      "link": "https://www.mt.co.kr/stock/2026/08/14/2026081417269634784",
+      "source": "머니투데이",
+      "ts": 1786696077000,
+      "pub": "Fri, 14 Aug 2026 17:27:57 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,7 +1,7 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-14T10:46:53.799Z",
-  "count": 22,
+  "updated_at": "2026-08-14T11:35:25.330Z",
+  "count": 24,
   "items": [
     {
       "title": "삼성전자, 반도체 호황에 미중 수출 급증…중국 88조원",
@@ -9,6 +9,14 @@
       "source": "연합뉴스 경제",
       "ts": 1786700046000,
       "pub": "Fri, 14 Aug 2026 18:34:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "靑 \"트럼프, 美 군함 2척 해외건조 허용…양국 협력 구체화 기대\"",
+      "link": "https://www.mt.co.kr/politics/2026/08/14/2026081418271377191",
+      "source": "머니투데이",
+      "ts": 1786699986000,
+      "pub": "Fri, 14 Aug 2026 18:33:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -25,6 +33,14 @@
       "source": "한국경제",
       "ts": 1786698828000,
       "pub": "Fri, 14 Aug 2026 18:13:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "6만5000달러 못 넘긴 비트코인…美 FOMC 의사록 주목",
+      "link": "https://www.mt.co.kr/stock/2026/08/14/2026081417184330475",
+      "source": "머니투데이",
+      "ts": 1786697000000,
+      "pub": "Fri, 14 Aug 2026 17:43:20 +0900",
       "sentiment": "neutral"
     },
     {

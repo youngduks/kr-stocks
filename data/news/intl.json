@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-14T22:10:57.645Z",
+  "updated_at": "2026-08-14T23:10:53.083Z",
   "count": 18,
   "items": [
+    {
+      "title": "이란, 트럼프 '호르무즈 美 영토' 주장에 \"허황된 망상\"",
+      "link": "https://www.yna.co.kr/view/AKR20260815012900009",
+      "source": "연합뉴스 국제",
+      "ts": 1786748732000,
+      "pub": "Sat, 15 Aug 2026 08:05:32 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"호르무즈, 美영토로 선언할 것\"…해협 통제권 짐짓 과장(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260815005251071",
@@ -137,14 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786672737000,
       "pub": "Fri, 14 Aug 2026 10:58:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "호주 총리, 트럼프와 통화…오커스 안보 동맹·관세 문제 논의",
-      "link": "https://www.yna.co.kr/view/AKR20260814052600104",
-      "source": "연합뉴스 국제",
-      "ts": 1786670129000,
-      "pub": "Fri, 14 Aug 2026 10:15:29 +0900",
       "sentiment": "neutral"
     }
   ]

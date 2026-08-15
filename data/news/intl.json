@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-15T00:33:53.759Z",
-  "count": 23,
+  "updated_at": "2026-08-15T02:06:51.270Z",
+  "count": 22,
   "items": [
+    {
+      "title": "김정은, 광복절 계기 '소련군' 전사자 추모…푸틴 축전 '공동사업' 강조",
+      "link": "https://www.mt.co.kr/politics/2026/08/15/2026081510065982974",
+      "source": "머니투데이",
+      "ts": 1786756290000,
+      "pub": "Sat, 15 Aug 2026 10:11:30 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이란, 트럼프 '호르무즈 美 영토' 주장에 \"허황된 망상\"",
       "link": "https://www.yna.co.kr/view/AKR20260815012900009",
@@ -116,14 +124,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "미국, 드론 100% 관세에…중국 관영지 \"中 겨낭한 보호주의\" 비판",
-      "link": "https://www.mt.co.kr/economy/2026/08/14/2026081422371148126",
-      "source": "머니투데이",
-      "ts": 1786714828000,
-      "pub": "Fri, 14 Aug 2026 22:40:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "中관영지, 美 드론 최대 100% 관세에 \"중국 겨냥한 보호주의\"",
       "link": "https://www.yna.co.kr/view/AKR20260814179600083",
       "source": "연합뉴스 국제",
@@ -177,14 +177,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786674952000,
       "pub": "Fri, 14 Aug 2026 11:35:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"항모 함재기 이륙장치 전자기식→증기식 변경\" 개입",
-      "link": "https://www.yna.co.kr/view/AKR20260814061200009",
-      "source": "연합뉴스 국제",
-      "ts": 1786672737000,
-      "pub": "Fri, 14 Aug 2026 10:58:57 +0900",
       "sentiment": "neutral"
     }
   ]

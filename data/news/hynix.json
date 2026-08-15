@@ -1,14 +1,38 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-14T23:10:53.085Z",
-  "count": 15,
+  "updated_at": "2026-08-15T00:33:53.761Z",
+  "count": 18,
   "items": [
     {
-      "title": "상용화 속도내는 HBF… HBM 독주깰까 [한경 반도체포커스]",
+      "title": "“메모리 가격 상승, 경쟁사 따돌릴 기회”…레노버 주가 46% 급등",
+      "link": "https://www.hankyung.com/article/202608141753i",
+      "source": "한국경제",
+      "ts": 1786750202000,
+      "pub": "Sat, 15 Aug 2026 08:30:02 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "소매판매 급감에도, 금리 또 뛴 이유…\"메모리 병목\" 한탄한 머스크 [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202608152921i",
+      "source": "한국경제",
+      "ts": 1786748356000,
+      "pub": "Sat, 15 Aug 2026 07:59:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "상용화 속도내는 HBF…HBM 독주깰까 [한경 반도체포커스]",
       "link": "https://www.hankyung.com/article/202608142489i",
       "source": "한국경제",
       "ts": 1786744802000,
       "pub": "Sat, 15 Aug 2026 07:00:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "서학개미 장바구니 1년새 달라졌다…'반도체·레버리지'로 쏠림",
+      "link": "https://www.mt.co.kr/stock/2026/08/15/2026081416230486223",
+      "source": "머니투데이",
+      "ts": 1786741200000,
+      "pub": "Sat, 15 Aug 2026 06:00:00 +0900",
       "sentiment": "neutral"
     },
     {

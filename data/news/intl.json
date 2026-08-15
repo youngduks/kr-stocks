@@ -1,7 +1,7 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-14T23:10:53.083Z",
-  "count": 18,
+  "updated_at": "2026-08-15T00:33:53.759Z",
+  "count": 23,
   "items": [
     {
       "title": "이란, 트럼프 '호르무즈 美 영토' 주장에 \"허황된 망상\"",
@@ -12,11 +12,35 @@
       "sentiment": "neutral"
     },
     {
+      "title": "트럼프 \"호르무즈, 조만간 미국 영토로 선언할 것\"",
+      "link": "https://www.hankyung.com/article/2026081529767",
+      "source": "한국경제",
+      "ts": 1786747479000,
+      "pub": "Sat, 15 Aug 2026 07:44:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"호르무즈, 美 영토 선언할 것…휘발유값 상승, 사과 안 해\"",
+      "link": "https://www.mt.co.kr/world/2026/08/15/2026081506552392615",
+      "source": "머니투데이",
+      "ts": 1786745012000,
+      "pub": "Sat, 15 Aug 2026 07:03:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "트럼프 \"호르무즈, 美영토로 선언할 것\"…해협 통제권 짐짓 과장(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260815005251071",
       "source": "연합뉴스 국제",
       "ts": 1786742703000,
       "pub": "Sat, 15 Aug 2026 06:25:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"호르무즈 해협, 美 영토 선언할 것\"…이란 봉쇄 강화",
+      "link": "https://www.mt.co.kr/world/2026/08/15/2026081506082974007",
+      "source": "머니투데이",
+      "ts": 1786741828000,
+      "pub": "Sat, 15 Aug 2026 06:10:28 +0900",
       "sentiment": "neutral"
     },
     {
@@ -33,6 +57,14 @@
       "source": "연합뉴스 국제",
       "ts": 1786738077000,
       "pub": "Sat, 15 Aug 2026 05:07:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'백악관 공사 중단' 판결에… 트럼프 \"안보 위협\" 대법원 가처분 신청",
+      "link": "https://www.mt.co.kr/world/2026/08/15/2026081503234762035",
+      "source": "머니투데이",
+      "ts": 1786731952000,
+      "pub": "Sat, 15 Aug 2026 03:25:52 +0900",
       "sentiment": "neutral"
     },
     {
@@ -81,6 +113,14 @@
       "source": "연합뉴스 국제",
       "ts": 1786719099000,
       "pub": "Fri, 14 Aug 2026 23:51:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미국, 드론 100% 관세에…중국 관영지 \"中 겨낭한 보호주의\" 비판",
+      "link": "https://www.mt.co.kr/economy/2026/08/14/2026081422371148126",
+      "source": "머니투데이",
+      "ts": 1786714828000,
+      "pub": "Fri, 14 Aug 2026 22:40:28 +0900",
       "sentiment": "neutral"
     },
     {

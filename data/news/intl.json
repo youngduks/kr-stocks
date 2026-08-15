@@ -1,16 +1,8 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-15T15:09:03.006Z",
-  "count": 21,
+  "updated_at": "2026-08-15T16:10:50.343Z",
+  "count": 18,
   "items": [
-    {
-      "title": "[부고] 박연준(전 스포츠서울 기자)씨 외조모상",
-      "link": "https://www.mt.co.kr/sports/2026/08/15/2026081520155638347",
-      "source": "머니투데이",
-      "ts": 1786792725000,
-      "pub": "Sat, 15 Aug 2026 20:18:45 +0900",
-      "sentiment": "neutral"
-    },
     {
       "title": "트럼프 행정부, 쿠바 군사작전 후순위로…경제 압박에 무게",
       "link": "https://www.yna.co.kr/view/AKR20260815046600009",
@@ -34,14 +26,6 @@
       "ts": 1786774612000,
       "pub": "Sat, 15 Aug 2026 15:16:52 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"중국산 메모리, 바람직하지 않다\"...트럼프 행정부, 애플에 경고",
-      "link": "https://www.mt.co.kr/world/2026/08/15/2026081514554143912",
-      "source": "머니투데이",
-      "ts": 1786773812000,
-      "pub": "Sat, 15 Aug 2026 15:03:32 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "트럼프 행정부, '中메모리 검토' 애플에 \"다른 해결책 찾아라\"",
@@ -161,14 +145,6 @@
       "source": "연합뉴스 경제",
       "ts": 1786694878000,
       "pub": "Fri, 14 Aug 2026 17:07:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 하늘에 뜬 수상한 비행기…끊이지 않는 트럼프 암살 위협",
-      "link": "https://www.yna.co.kr/view/AKR20260813156900797",
-      "source": "연합뉴스 국제",
-      "ts": 1786693854000,
-      "pub": "Fri, 14 Aug 2026 16:50:54 +0900",
       "sentiment": "neutral"
     }
   ]

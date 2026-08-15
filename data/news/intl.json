@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-15T22:08:52.352Z",
-  "count": 24,
+  "updated_at": "2026-08-15T23:09:36.622Z",
+  "count": 25,
   "items": [
+    {
+      "title": "트럼프 \"김정은과 사이 좋다\"…판문점 회동 사진 게시",
+      "link": "https://www.hankyung.com/article/2026081636417",
+      "source": "한국경제",
+      "ts": 1786832895000,
+      "pub": "Sun, 16 Aug 2026 07:28:15 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[뉴욕증시-주간전망] 美·이란 휴전 분수령…FOMC 회의록·월마트 실적 촉각",
       "link": "https://www.yna.co.kr/view/AKR20260816006800009",
@@ -20,7 +28,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "자꾸 김정은 소환하는 트럼프 \"우리 사이 매우 좋다\"..노림수는[이상은의 워싱턴나우]",
+      "title": "자꾸 김정은 소환하는 트럼프 \"우리 사이 매우 좋다\"…노림수는 [이상은의 워싱턴나우]",
       "link": "https://www.hankyung.com/article/202608163571i",
       "source": "한국경제",
       "ts": 1786829553000,

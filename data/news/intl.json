@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-15T21:10:17.175Z",
-  "count": 21,
+  "updated_at": "2026-08-15T22:08:52.352Z",
+  "count": 24,
   "items": [
+    {
+      "title": "[뉴욕증시-주간전망] 美·이란 휴전 분수령…FOMC 회의록·월마트 실적 촉각",
+      "link": "https://www.yna.co.kr/view/AKR20260816006800009",
+      "source": "연합뉴스 국제",
+      "ts": 1786831200000,
+      "pub": "Sun, 16 Aug 2026 07:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "가자 평화안 진전할까…하마스 수장, 트럼프 특사 방문 앞 이집트행",
+      "link": "https://www.yna.co.kr/view/AKR20260816006200009",
+      "source": "연합뉴스 국제",
+      "ts": 1786830675000,
+      "pub": "Sun, 16 Aug 2026 06:51:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "자꾸 김정은 소환하는 트럼프 \"우리 사이 매우 좋다\"..노림수는[이상은의 워싱턴나우]",
+      "link": "https://www.hankyung.com/article/202608163571i",
+      "source": "한국경제",
+      "ts": 1786829553000,
+      "pub": "Sun, 16 Aug 2026 06:32:33 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 중간선거에 쟁여둔 실탄 푼다…\"426억원 1차 투입 거론\"",
       "link": "https://www.yna.co.kr/view/AKR20260816002600071",

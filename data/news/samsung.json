@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-15T21:10:17.176Z",
+  "updated_at": "2026-08-15T22:08:52.353Z",
   "count": 13,
   "items": [
+    {
+      "title": "코스닥 이달 수익률 1위지만…삼전닉스 부활에 또 수급 우려",
+      "link": "https://www.yna.co.kr/view/AKR20260815034700008",
+      "source": "연합뉴스 경제",
+      "ts": 1786829700000,
+      "pub": "Sun, 16 Aug 2026 06:35:00 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "고점론 퍼지는데…\"삼전닉스 저평가\" 보고서 등장에 '들썩' [종목+]",
       "link": "https://www.hankyung.com/article/2026081420616",
@@ -25,14 +33,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786771895000,
       "pub": "Sat, 15 Aug 2026 14:31:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"그때 대통령 말 들을걸\"…삼전 30배·서울 집 3배 '탄식'",
-      "link": "https://www.hankyung.com/article/202608142023H",
-      "source": "한국경제",
-      "ts": 1786763786000,
-      "pub": "Sat, 15 Aug 2026 12:16:26 +0900",
       "sentiment": "neutral"
     },
     {

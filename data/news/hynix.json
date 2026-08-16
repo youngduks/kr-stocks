@@ -1,14 +1,38 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-16T09:15:51.668Z",
-  "count": 15,
+  "updated_at": "2026-08-16T10:11:52.377Z",
+  "count": 18,
   "items": [
     {
-      "title": "AI서버 1대 메모리만 '36억'…삼전닉스가 웃는 이유[이슈속으로]",
-      "link": "https://www.mt.co.kr/industry/2026/08/16/2026081416184426163",
-      "source": "머니투데이",
-      "ts": 1786840200000,
-      "pub": "Sun, 16 Aug 2026 09:30:00 +0900",
+      "title": "\"앞으로 반도체 쏠림 덜할 것\" [한경 프리미엄9 TODAY]",
+      "link": "https://www.hankyung.com/article/2026081641891",
+      "source": "한국경제",
+      "ts": 1786872061000,
+      "pub": "Sun, 16 Aug 2026 18:21:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[단독] \"수주물량 70%가 반도체\"…공작기계 공장 '풀가동'",
+      "link": "https://www.hankyung.com/article/2026081641641",
+      "source": "한국경제",
+      "ts": 1786871564000,
+      "pub": "Sun, 16 Aug 2026 18:12:44 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"中메모리 쓰지 마라\"…美정부, 애플에 제동",
+      "link": "https://www.hankyung.com/article/2026081641751",
+      "source": "한국경제",
+      "ts": 1786871143000,
+      "pub": "Sun, 16 Aug 2026 18:05:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중국에 눈뜨고 당했다…한국 '검은 반도체' 초비상 걸린 이유",
+      "link": "https://www.hankyung.com/article/2026081641901",
+      "source": "한국경제",
+      "ts": 1786870958000,
+      "pub": "Sun, 16 Aug 2026 18:02:38 +0900",
       "sentiment": "neutral"
     },
     {

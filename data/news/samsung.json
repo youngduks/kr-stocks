@@ -1,7 +1,7 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-16T00:35:16.173Z",
-  "count": 17,
+  "updated_at": "2026-08-16T02:14:04.684Z",
+  "count": 15,
   "items": [
     {
       "title": "AI서버 1대 메모리만 '36억'…삼전닉스가 웃는 이유[이슈속으로]",
@@ -12,7 +12,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"삼전닉스 주주에 최대 300조 푼다\"…역대급 환원 예고",
+      "title": "삼전닉스 안 팔고 버텼는데…\"300조 역대급 환원\" 희소식 예고",
       "link": "https://www.hankyung.com/article/2026081636947",
       "source": "한국경제",
       "ts": 1786838607000,
@@ -42,22 +42,6 @@
       "ts": 1786829700000,
       "pub": "Sun, 16 Aug 2026 06:35:00 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "고점론 퍼지는데…\"삼전닉스 저평가\" 보고서 등장에 '들썩' [종목+]",
-      "link": "https://www.hankyung.com/article/2026081420616",
-      "source": "한국경제",
-      "ts": 1786781486000,
-      "pub": "Sat, 15 Aug 2026 17:11:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"아이폰만 쓰는 줄 알았는데\"…젠슨 황이 꺼낸 '이 폰' 뭐길래 [갤럭시 중간결산(下)]",
-      "link": "https://www.hankyung.com/article/202608141499g",
-      "source": "한국경제",
-      "ts": 1786778058000,
-      "pub": "Sat, 15 Aug 2026 16:14:18 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "트럼프 행정부, '中메모리 검토' 애플에 \"다른 해결책 찾아라\"",

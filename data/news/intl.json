@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-16T22:09:14.728Z",
-  "count": 31,
+  "updated_at": "2026-08-16T23:09:27.317Z",
+  "count": 29,
   "items": [
+    {
+      "title": "트럼프 \"한미연합훈련 대폭 축소 지시…나와 김정은 매우 좋은 관계\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260817008851071",
+      "source": "연합뉴스 국제",
+      "ts": 1786920507000,
+      "pub": "Mon, 17 Aug 2026 07:48:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"한미연합훈련 대폭 축소 지시…김정은과 좋은 관계\"",
+      "link": "https://www.hankyung.com/article/2026081745537",
+      "source": "한국경제",
+      "ts": 1786918771000,
+      "pub": "Mon, 17 Aug 2026 07:19:31 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美유권자 과반 \"트럼프 재집권 후 살림 악화\"…중간선거 경고등",
       "link": "https://www.yna.co.kr/view/AKR20260817010900009",
@@ -17,14 +33,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786915951000,
       "pub": "Mon, 17 Aug 2026 06:32:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"한미연합훈련 축소 지시…李대통령 이란 비핵화 동참 거부\"",
-      "link": "https://www.mt.co.kr/world/2026/08/17/2026081706253792541",
-      "source": "머니투데이",
-      "ts": 1786915633000,
-      "pub": "Mon, 17 Aug 2026 06:27:13 +0900",
       "sentiment": "neutral"
     },
     {
@@ -84,22 +92,6 @@
       "sentiment": "positive"
     },
     {
-      "title": "백악관 공사에 '초대 대통령' 소환…트럼프 AI영상 기행",
-      "link": "https://www.mt.co.kr/world/2026/08/16/2026081621163952642",
-      "source": "머니투데이",
-      "ts": 1786885487000,
-      "pub": "Sun, 16 Aug 2026 22:04:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라, 모스크바에 역대급 '드론' 공습…러시아 \"822대 격추\"",
-      "link": "https://www.mt.co.kr/world/2026/08/16/2026081621262690698",
-      "source": "머니투데이",
-      "ts": 1786885186000,
-      "pub": "Sun, 16 Aug 2026 21:59:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "미사일 대신 1억짜리 드론…우크라, 러시아 본토 타격",
       "link": "https://www.hankyung.com/article/2026081642907",
       "source": "한국경제",
@@ -129,14 +121,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786871604000,
       "pub": "Sun, 16 Aug 2026 18:13:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"김정은과 잘지내\"…7년 전 판문점 사진 소환",
-      "link": "https://www.hankyung.com/article/2026081641571",
-      "source": "한국경제",
-      "ts": 1786871591000,
-      "pub": "Sun, 16 Aug 2026 18:13:11 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-16T05:17:22.640Z",
-  "count": 28,
+  "updated_at": "2026-08-16T06:19:59.276Z",
+  "count": 27,
   "items": [
+    {
+      "title": "'지지율 급락' 트럼프, 승부수… 3000만 달러 거액 쏟아붓는다",
+      "link": "https://www.mt.co.kr/world/2026/08/16/2026081614280145935",
+      "source": "머니투데이",
+      "ts": 1786859240000,
+      "pub": "Sun, 16 Aug 2026 14:47:20 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "하마스 수장, 이집트행…트럼프 '가자 평화 구상' 논의 속도 내나",
       "link": "https://www.mt.co.kr/world/2026/08/16/2026081611054898431",
@@ -57,14 +65,6 @@
       "source": "머니투데이",
       "ts": 1786838400000,
       "pub": "Sun, 16 Aug 2026 09:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"김정은과 사이 좋다\"…판문점 회동 사진 게시",
-      "link": "https://www.hankyung.com/article/2026081636417",
-      "source": "한국경제",
-      "ts": 1786832895000,
-      "pub": "Sun, 16 Aug 2026 07:28:15 +0900",
       "sentiment": "neutral"
     },
     {
@@ -201,14 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786720453000,
       "pub": "Sat, 15 Aug 2026 00:14:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "백악관 새 대변인은 누구?…전·현직 참모에 트럼프 가족도 거론",
-      "link": "https://www.yna.co.kr/view/AKR20260814186000071",
-      "source": "연합뉴스 국제",
-      "ts": 1786720052000,
-      "pub": "Sat, 15 Aug 2026 00:07:32 +0900",
       "sentiment": "neutral"
     },
     {

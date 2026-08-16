@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-16T08:15:15.189Z",
-  "count": 18,
+  "updated_at": "2026-08-16T09:15:51.666Z",
+  "count": 26,
   "items": [
+    {
+      "title": "[영상] 우크라 '뻥! 뚫렸다'…\"패트리엇 바닥나 러 미사일에 속수무책\"",
+      "link": "https://www.yna.co.kr/view/AKR20260816036900704",
+      "source": "연합뉴스 국제",
+      "ts": 1786870780000,
+      "pub": "Sun, 16 Aug 2026 17:59:40 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "큰소리 치는 트럼프 \"호르무즈 해협, 미국 것으로 선언할 것\" [이상은의 워싱턴나우]",
       "link": "https://www.hankyung.com/article/202608164035i",
@@ -12,11 +20,67 @@
       "sentiment": "neutral"
     },
     {
+      "title": "'지지율 급락' 트럼프, 승부수… 3000만 달러 거액 쏟아붓는다",
+      "link": "https://www.mt.co.kr/world/2026/08/16/2026081614280145935",
+      "source": "머니투데이",
+      "ts": 1786859240000,
+      "pub": "Sun, 16 Aug 2026 14:47:20 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "하마스 수장, 이집트행…트럼프 '가자 평화 구상' 논의 속도 내나",
+      "link": "https://www.mt.co.kr/world/2026/08/16/2026081611054898431",
+      "source": "머니투데이",
+      "ts": 1786852069000,
+      "pub": "Sun, 16 Aug 2026 12:47:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "김민석 \"트럼프, 내게도 김정은 사진 보여줘…美中日 연내 방문할 것\"",
+      "link": "https://www.mt.co.kr/politics/2026/08/16/2026081611070624773",
+      "source": "머니투데이",
+      "ts": 1786848110000,
+      "pub": "Sun, 16 Aug 2026 11:41:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 판문점 회동 사진 올리며 \"김정은과 아주 좋은 관계\"",
+      "link": "https://www.mt.co.kr/world/2026/08/16/2026081611023087724",
+      "source": "머니투데이",
+      "ts": 1786845965000,
+      "pub": "Sun, 16 Aug 2026 11:06:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'트럼프 서명'까지 이번엔 짓나..한미 조선협력의 마지막 퍼즐은",
+      "link": "https://www.mt.co.kr/industry/2026/08/16/2026081413520764896",
+      "source": "머니투데이",
+      "ts": 1786842000000,
+      "pub": "Sun, 16 Aug 2026 10:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "김정은, 푸틴 축전에 \"깊은 사의\"…李 대통령 경축사 반응은 '아직'",
+      "link": "https://www.mt.co.kr/politics/2026/08/16/2026081609460423792",
+      "source": "머니투데이",
+      "ts": 1786841696000,
+      "pub": "Sun, 16 Aug 2026 09:54:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "이란에 발묶인 트럼프…아시아 '중국은 누가 말리냐' 불안",
       "link": "https://www.yna.co.kr/view/AKR20260816013500009",
       "source": "연합뉴스 국제",
       "ts": 1786839474000,
       "pub": "Sun, 16 Aug 2026 09:17:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"외국인은 '트럼프 금관'만 찾아\"…한국전 요청 쏟아져도 씁쓸한 이유",
+      "link": "https://www.mt.co.kr/culture/2026/08/16/2026081113262074133",
+      "source": "머니투데이",
+      "ts": 1786838400000,
+      "pub": "Sun, 16 Aug 2026 09:00:00 +0900",
       "sentiment": "neutral"
     },
     {

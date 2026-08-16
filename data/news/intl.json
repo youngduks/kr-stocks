@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-16T21:09:42.768Z",
-  "count": 23,
+  "updated_at": "2026-08-16T22:09:14.728Z",
+  "count": 31,
   "items": [
+    {
+      "title": "美유권자 과반 \"트럼프 재집권 후 살림 악화\"…중간선거 경고등",
+      "link": "https://www.yna.co.kr/view/AKR20260817010900009",
+      "source": "연합뉴스 국제",
+      "ts": 1786917842000,
+      "pub": "Mon, 17 Aug 2026 07:04:02 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "트럼프 \"한미연합훈련 대폭 축소 지시…나와 김정은 매우 좋은 관계\"",
+      "link": "https://www.yna.co.kr/view/AKR20260817008800071",
+      "source": "연합뉴스 국제",
+      "ts": 1786915951000,
+      "pub": "Mon, 17 Aug 2026 06:32:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"한미연합훈련 축소 지시…李대통령 이란 비핵화 동참 거부\"",
+      "link": "https://www.mt.co.kr/world/2026/08/17/2026081706253792541",
+      "source": "머니투데이",
+      "ts": 1786915633000,
+      "pub": "Mon, 17 Aug 2026 06:27:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"李대통령에 이란 비핵화 노력 동참 물었으나 사양해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260817008300071",
+      "source": "연합뉴스 국제",
+      "ts": 1786915038000,
+      "pub": "Mon, 17 Aug 2026 06:17:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"한국과의 연합훈련 마음에 들지 않아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260817008200071",
+      "source": "연합뉴스 국제",
+      "ts": 1786915024000,
+      "pub": "Mon, 17 Aug 2026 06:17:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"나와 김정은 매우 좋은 관계…한미합동훈련 축소 지시\"",
+      "link": "https://www.yna.co.kr/view/AKR20260817008100071",
+      "source": "연합뉴스 국제",
+      "ts": 1786914963000,
+      "pub": "Mon, 17 Aug 2026 06:16:03 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "쿠슈너, 장인 트럼프의 '가자 평화안' 살리려 하마스와 회동(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260817005151079",
@@ -34,6 +82,22 @@
       "ts": 1786888176000,
       "pub": "Sun, 16 Aug 2026 22:49:36 +0900",
       "sentiment": "positive"
+    },
+    {
+      "title": "백악관 공사에 '초대 대통령' 소환…트럼프 AI영상 기행",
+      "link": "https://www.mt.co.kr/world/2026/08/16/2026081621163952642",
+      "source": "머니투데이",
+      "ts": 1786885487000,
+      "pub": "Sun, 16 Aug 2026 22:04:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라, 모스크바에 역대급 '드론' 공습…러시아 \"822대 격추\"",
+      "link": "https://www.mt.co.kr/world/2026/08/16/2026081621262690698",
+      "source": "머니투데이",
+      "ts": 1786885186000,
+      "pub": "Sun, 16 Aug 2026 21:59:46 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "미사일 대신 1억짜리 드론…우크라, 러시아 본토 타격",

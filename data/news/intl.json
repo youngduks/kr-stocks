@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-17T18:20:24.612Z",
-  "count": 33,
+  "updated_at": "2026-08-17T19:19:06.728Z",
+  "count": 39,
   "items": [
+    {
+      "title": "악화된 여론 환기 필요한 트럼프 '북미 정상회담' 재추진 포석",
+      "link": "https://www.mt.co.kr/world/2026/08/18/2026081720034485752",
+      "source": "머니투데이",
+      "ts": 1786993500000,
+      "pub": "Tue, 18 Aug 2026 04:05:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'트럼프 사위' 쿠슈너, 네타냐후와 가자지구 회담…진전 안보여",
+      "link": "https://www.yna.co.kr/view/AKR20260818004400099",
+      "source": "연합뉴스 국제",
+      "ts": 1786993389000,
+      "pub": "Tue, 18 Aug 2026 04:03:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "누그러진 변동장, FOMC에 반등 달렸다",
+      "link": "https://www.mt.co.kr/stock/2026/08/18/2026081719562590441",
+      "source": "머니투데이",
+      "ts": 1786993020000,
+      "pub": "Tue, 18 Aug 2026 03:57:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"MOU 연장 없다…호르무즈 美영토 선언 마음에 들어\"",
+      "link": "https://www.yna.co.kr/view/AKR20260818004200071",
+      "source": "연합뉴스 국제",
+      "ts": 1786992567000,
+      "pub": "Tue, 18 Aug 2026 03:49:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"한미훈련 대폭 축소… 韓, 이란 비핵화 동참 거부\"",
+      "link": "https://www.mt.co.kr/world/2026/08/18/2026081720104020078",
+      "source": "머니투데이",
+      "ts": 1786991400000,
+      "pub": "Tue, 18 Aug 2026 03:30:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"김정은, 북미대화 요청에 응답했다\"…시점·내용은 함구",
+      "link": "https://www.yna.co.kr/view/AKR20260818003500071",
+      "source": "연합뉴스 국제",
+      "ts": 1786991227000,
+      "pub": "Tue, 18 Aug 2026 03:27:07 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[속보] 트럼프 \"김정은과 잘 지내…나는 상황 안전하게 만드는 중\"",
       "link": "https://www.yna.co.kr/view/AKR20260818003200071",
@@ -66,6 +114,14 @@
       "ts": 1786976180000,
       "pub": "Mon, 17 Aug 2026 23:16:20 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "\"이란과 협상에 방해되면 폭격할 것\"…트럼프, 오만에 강력 경고",
+      "link": "https://www.mt.co.kr/world/2026/08/17/2026081722543351163",
+      "source": "머니투데이",
+      "ts": 1786975085000,
+      "pub": "Mon, 17 Aug 2026 22:58:05 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "트럼프, 오만까지 때렸다…\"이란 협상 방해되면 폭격\" 경고",
@@ -257,14 +313,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786871604000,
       "pub": "Sun, 16 Aug 2026 18:13:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 우크라 '뻥! 뚫렸다'…\"패트리엇 바닥나 러 미사일에 속수무책\"",
-      "link": "https://www.yna.co.kr/view/AKR20260816036900704",
-      "source": "연합뉴스 국제",
-      "ts": 1786870780000,
-      "pub": "Sun, 16 Aug 2026 17:59:40 +0900",
       "sentiment": "neutral"
     }
   ]

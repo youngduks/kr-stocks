@@ -1,14 +1,22 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-17T19:19:06.728Z",
-  "count": 39,
+  "updated_at": "2026-08-17T20:13:37.952Z",
+  "count": 35,
   "items": [
     {
-      "title": "악화된 여론 환기 필요한 트럼프 '북미 정상회담' 재추진 포석",
-      "link": "https://www.mt.co.kr/world/2026/08/18/2026081720034485752",
-      "source": "머니투데이",
-      "ts": 1786993500000,
-      "pub": "Tue, 18 Aug 2026 04:05:00 +0900",
+      "title": "트럼프 \"오만 방해시 폭격…호르무즈 美영토 선언 마음에 든다\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260817073351071",
+      "source": "연합뉴스 국제",
+      "ts": 1786996348000,
+      "pub": "Tue, 18 Aug 2026 04:52:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"김정은, 북미대화 요청에 응답\"…시점·내용은 함구(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260818003551071",
+      "source": "연합뉴스 국제",
+      "ts": 1786994795000,
+      "pub": "Tue, 18 Aug 2026 04:26:35 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,27 +28,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "누그러진 변동장, FOMC에 반등 달렸다",
-      "link": "https://www.mt.co.kr/stock/2026/08/18/2026081719562590441",
-      "source": "머니투데이",
-      "ts": 1786993020000,
-      "pub": "Tue, 18 Aug 2026 03:57:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"MOU 연장 없다…호르무즈 美영토 선언 마음에 들어\"",
       "link": "https://www.yna.co.kr/view/AKR20260818004200071",
       "source": "연합뉴스 국제",
       "ts": 1786992567000,
       "pub": "Tue, 18 Aug 2026 03:49:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"한미훈련 대폭 축소… 韓, 이란 비핵화 동참 거부\"",
-      "link": "https://www.mt.co.kr/world/2026/08/18/2026081720104020078",
-      "source": "머니투데이",
-      "ts": 1786991400000,
-      "pub": "Tue, 18 Aug 2026 03:30:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -114,14 +106,6 @@
       "ts": 1786976180000,
       "pub": "Mon, 17 Aug 2026 23:16:20 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"이란과 협상에 방해되면 폭격할 것\"…트럼프, 오만에 강력 경고",
-      "link": "https://www.mt.co.kr/world/2026/08/17/2026081722543351163",
-      "source": "머니투데이",
-      "ts": 1786975085000,
-      "pub": "Mon, 17 Aug 2026 22:58:05 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "트럼프, 오만까지 때렸다…\"이란 협상 방해되면 폭격\" 경고",
@@ -297,22 +281,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786873764000,
       "pub": "Sun, 16 Aug 2026 18:49:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "모스크바 주지사 \"우크라, 모스크바주 겨냥 역대 최대규모 공격\"",
-      "link": "https://www.yna.co.kr/view/AKR20260816038600079",
-      "source": "연합뉴스 국제",
-      "ts": 1786872675000,
-      "pub": "Sun, 16 Aug 2026 18:31:15 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[쇼츠] 패트리엇 바닥난 우크라…겨울 대공세 전 '비상'",
-      "link": "https://www.yna.co.kr/view/AKR20260816038400704",
-      "source": "연합뉴스 국제",
-      "ts": 1786871604000,
-      "pub": "Sun, 16 Aug 2026 18:13:24 +0900",
       "sentiment": "neutral"
     }
   ]

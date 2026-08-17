@@ -1,6 +1,19 @@
 {
   "polls": [
     {
+      "pollId": "market-updown-2026-08-17",
+      "date": "2026-08-17",
+      "dateLabel": "8/17 (월)",
+      "question": "8/17(월) 한국 증시, 오를까요 내릴까요?",
+      "yesLabel": "📈 상승",
+      "noLabel": "📉 하락",
+      "yes": 25,
+      "no": 22,
+      "outcome": "up",
+      "outcomeDetail": "코스피 상승 — 삼성전자 +2.43%, SK하이닉스 +3.26%, 현대차 +8.24%",
+      "resolvedAt": "2026-08-17T07:39:04.393Z"
+    },
+    {
       "pollId": "market-updown-2026-08-14",
       "date": "2026-08-14",
       "dateLabel": "8/14 (금)",

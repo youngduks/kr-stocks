@@ -1,22 +1,30 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-17T06:30:28.151Z",
-  "count": 14,
+  "updated_at": "2026-08-17T07:41:49.137Z",
+  "count": 15,
   "items": [
     {
-      "title": "반도체 훈풍에 소부장 날았다….ETF 'TOP10' 싹쓸이",
-      "link": "https://www.hankyung.com/article/202608142345i",
+      "title": "반도체·배터리·조선 호조에…상장사 10곳 중 4곳 '깜짝 실적'",
+      "link": "https://www.hankyung.com/article/2026081747891",
       "source": "한국경제",
-      "ts": 1786941726000,
-      "pub": "Mon, 17 Aug 2026 13:42:06 +0900",
+      "ts": 1786950956000,
+      "pub": "Mon, 17 Aug 2026 16:15:56 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "코스닥 액티브 ETF도 반도체가 수익률 주도",
+      "link": "https://www.hankyung.com/article/2026081747951",
+      "source": "한국경제",
+      "ts": 1786950629000,
+      "pub": "Mon, 17 Aug 2026 16:10:29 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "시험대 오른 반도체주…'이번주 주식시장 주요 변수'",
-      "link": "https://www.hankyung.com/article/202608174926i",
+      "title": "\"반도체만으로는 안된다\"…순환매에 ETF도 분산투자가 대세",
+      "link": "https://www.hankyung.com/article/202608141128i",
       "source": "한국경제",
-      "ts": 1786935544000,
-      "pub": "Mon, 17 Aug 2026 11:59:04 +0900",
+      "ts": 1786946359000,
+      "pub": "Mon, 17 Aug 2026 14:59:19 +0900",
       "sentiment": "neutral"
     },
     {

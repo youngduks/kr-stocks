@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-17T03:39:21.455Z",
-  "count": 13,
+  "updated_at": "2026-08-17T04:30:08.928Z",
+  "count": 16,
   "items": [
     {
       "title": "시험대 오른 반도체주…'이번주 주식시장 주요 변수'",
@@ -9,6 +9,30 @@
       "source": "한국경제",
       "ts": 1786935544000,
       "pub": "Mon, 17 Aug 2026 11:59:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "亞 증시 떠받친 AI·반도체 훈풍, 닛케이 상승전환[Asia오전]",
+      "link": "https://www.mt.co.kr/world/2026/08/17/2026081711262235730",
+      "source": "머니투데이",
+      "ts": 1786933917000,
+      "pub": "Mon, 17 Aug 2026 11:31:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "KB금융 \"SK하이닉스 수처리시설 대출, 생물다양성 리스크 검토해야\"",
+      "link": "https://www.mt.co.kr/finance/2026/08/17/2026081710511845634",
+      "source": "머니투데이",
+      "ts": 1786932890000,
+      "pub": "Mon, 17 Aug 2026 11:14:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "구광모-젠슨 황 손잡고 AI 승부수…'One LG'에 엔비디아 더한다",
+      "link": "https://www.mt.co.kr/industry/2026/08/17/2026081417232298614",
+      "source": "머니투데이",
+      "ts": 1786924200000,
+      "pub": "Mon, 17 Aug 2026 08:50:00 +0900",
       "sentiment": "neutral"
     },
     {

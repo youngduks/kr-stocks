@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-17T10:19:58.404Z",
-  "count": 11,
+  "updated_at": "2026-08-17T11:15:08.205Z",
+  "count": 12,
   "items": [
     {
       "title": "\"中헤지펀드들, 2분기 美 AI기업 투자 줄이고 메모리 투자 확대\"",
@@ -9,6 +9,14 @@
       "source": "연합뉴스 국제",
       "ts": 1786960853000,
       "pub": "Mon, 17 Aug 2026 19:00:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "시험대 오른 반도체…이번주 변수는 [한경 프리미엄9 TODAY]",
+      "link": "https://www.hankyung.com/article/2026081753651",
+      "source": "한국경제",
+      "ts": 1786959618000,
+      "pub": "Mon, 17 Aug 2026 18:40:18 +0900",
       "sentiment": "neutral"
     },
     {

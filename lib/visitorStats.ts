@@ -13,7 +13,7 @@ const ONLINE_WINDOW_MS = 5 * 60 * 1000; // 5분 active session
 const FALLBACK_URL = "https://frank-liger-120993.upstash.io";
 
 let _redis: Redis | null = null;
-function redis(): Redis | null {
+export function redis(): Redis | null {
   if (_redis) return _redis;
   const url = process.env.UPSTASH_REDIS_REST_URL || FALLBACK_URL;
   const token = process.env.UPSTASH_REDIS_REST_TOKEN;

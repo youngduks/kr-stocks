@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { trackClick } from "@/lib/shoppingStats";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -20,6 +21,12 @@ export async function GET(req: NextRequest) {
   if (!ALLOWED_HOSTS.has(dest.hostname)) {
     return NextResponse.redirect(new URL("/shopping", req.url));
   }
+
+  // 채널별 기여도 추적 (2026-08-17) — kr-stocks 자체 페이지는 source 생략 시 기본값,
+  // 쓰레드 포스팅은 threads_poster.py가 명시적으로 &source=threads를 붙여서 넘김.
+  const source = req.nextUrl.searchParams.get("source") || "kr-stocks";
+  const store = dest.hostname.includes("coupang") ? "쿠팡" : "토스쇼핑";
+  await trackClick(source, store);
 
   // 2026-07-30: 모바일에서 /re/AFFSDP 인터스티셜이 앱 flow-engine 버그로 엉뚱한
   // 추천화면("고객님을 위한 상품")에 랜딩하는 문제 때문에, 모바일만 /vp/products

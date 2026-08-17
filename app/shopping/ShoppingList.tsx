@@ -77,7 +77,7 @@ export function ShoppingList({ deals }: { deals: DealView[] }) {
             // 있었음(2026-07-31 Fable 분석: 하루 페이지뷰 1.1만인데 구매클릭 13건).
             // 제휴링크 아직 없는 딜만 예전처럼 원문으로 연결(대체 목적지가 없으므로).
             const buyHref = d.affiliate_url
-              ? `/shopping/go?url=${encodeURIComponent(d.affiliate_url)}`
+              ? `/shopping/go?url=${encodeURIComponent(d.affiliate_url)}&source=kr-stocks`
               : d.link;
             return (
               <div key={d.id} className="rounded-xl border border-line bg-bg-card overflow-hidden">

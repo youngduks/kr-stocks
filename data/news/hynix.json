@@ -1,10 +1,18 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-17T08:29:41.015Z",
-  "count": 19,
+  "updated_at": "2026-08-17T09:28:38.484Z",
+  "count": 15,
   "items": [
     {
-      "title": "반도체 훈풍…日 키옥시아 15%↑·中 창신메모리 12%↑[Asia 마감]",
+      "title": "날개 단 반도체 소부장…ETF '톱 10' 싹쓸이",
+      "link": "https://www.hankyung.com/article/2026081752761",
+      "source": "한국경제",
+      "ts": 1786955747000,
+      "pub": "Mon, 17 Aug 2026 17:35:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "日 국채금리 30년 최고에도…반도체 훈풍, 키옥시아 15%↑[Asia 마감]",
       "link": "https://www.mt.co.kr/world/2026/08/17/2026081716411967307",
       "source": "머니투데이",
       "ts": 1786953801000,
@@ -20,43 +28,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "반도체·배터리·조선 호조에…상장사 10곳 중 4곳 '깜짝 실적'",
-      "link": "https://www.hankyung.com/article/2026081747891",
-      "source": "한국경제",
-      "ts": 1786950956000,
-      "pub": "Mon, 17 Aug 2026 16:15:56 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "코스닥 액티브 ETF도 반도체가 수익률 주도",
-      "link": "https://www.hankyung.com/article/2026081747951",
-      "source": "한국경제",
-      "ts": 1786950629000,
-      "pub": "Mon, 17 Aug 2026 16:10:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"반도체만으로는 안된다\"…순환매에 ETF도 분산투자가 대세",
-      "link": "https://www.hankyung.com/article/202608141128i",
-      "source": "한국경제",
-      "ts": 1786946359000,
-      "pub": "Mon, 17 Aug 2026 14:59:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "亞 증시 떠받친 AI·반도체 훈풍, 닛케이 상승전환[Asia오전]",
       "link": "https://www.mt.co.kr/world/2026/08/17/2026081711262235730",
       "source": "머니투데이",
       "ts": 1786933917000,
       "pub": "Mon, 17 Aug 2026 11:31:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "KB금융 \"SK하이닉스 수처리시설 대출, 생물다양성 리스크 검토해야\"",
-      "link": "https://www.mt.co.kr/finance/2026/08/17/2026081710511845634",
-      "source": "머니투데이",
-      "ts": 1786932890000,
-      "pub": "Mon, 17 Aug 2026 11:14:50 +0900",
       "sentiment": "neutral"
     },
     {
@@ -66,14 +42,6 @@
       "ts": 1786914005000,
       "pub": "Mon, 17 Aug 2026 06:00:05 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아, 30조원어치 스페이스X 지분 보유…'순환거래' 우려",
-      "link": "https://www.yna.co.kr/view/AKR20260816001100091",
-      "source": "연합뉴스 국제",
-      "ts": 1786814521000,
-      "pub": "Sun, 16 Aug 2026 02:22:01 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "삼성전자, 반도체 호황에 미중 수출 급증…중국 88조원",

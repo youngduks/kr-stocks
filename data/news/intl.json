@@ -1,7 +1,7 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-17T12:19:14.872Z",
-  "count": 25,
+  "updated_at": "2026-08-17T13:31:09.951Z",
+  "count": 27,
   "items": [
     {
       "title": "트럼프 한미훈련 축소 지시에 \"日정부, 대북 억지력 약화 우려\"",
@@ -20,14 +20,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[포토] 러·우크라 서로 공습",
-      "link": "https://www.hankyung.com/article/2026081753751",
-      "source": "한국경제",
-      "ts": 1786959197000,
-      "pub": "Mon, 17 Aug 2026 18:33:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "러 총선 앞두고 전쟁 격화…우크라 흑해·다뉴브항 연일 피격",
       "link": "https://www.yna.co.kr/view/AKR20260817055000109",
       "source": "연합뉴스 국제",
@@ -41,6 +33,38 @@
       "source": "연합뉴스 국제",
       "ts": 1786955631000,
       "pub": "Mon, 17 Aug 2026 17:33:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"한미연합훈련 축소\" 북한에 손짓·한국 압박…트럼프 숨은 의도는",
+      "link": "https://www.mt.co.kr/world/2026/08/17/2026081714190027892",
+      "source": "머니투데이",
+      "ts": 1786949648000,
+      "pub": "Mon, 17 Aug 2026 15:54:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 '연합훈련 축소'에 국민의힘 \"李대통령, 대책은 있나\"",
+      "link": "https://www.mt.co.kr/politics/2026/08/17/2026081715070559228",
+      "source": "머니투데이",
+      "ts": 1786947278000,
+      "pub": "Mon, 17 Aug 2026 15:14:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"한미훈련 축소 지시\"…靑 \"한반도 평화 논의 개시 기대\"",
+      "link": "https://www.mt.co.kr/politics/2026/08/17/2026081714514450134",
+      "source": "머니투데이",
+      "ts": 1786947142000,
+      "pub": "Mon, 17 Aug 2026 15:12:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"훈련 축소\"·李 \"종전 논의\"...잇단 대북 유화 메시지 왜?",
+      "link": "https://www.mt.co.kr/politics/2026/08/17/2026081710151952709",
+      "source": "머니투데이",
+      "ts": 1786946979000,
+      "pub": "Mon, 17 Aug 2026 15:09:39 +0900",
       "sentiment": "neutral"
     },
     {
@@ -193,14 +217,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786870780000,
       "pub": "Sun, 16 Aug 2026 17:59:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란에 발묶인 트럼프…아시아 '중국은 누가 말리냐' 불안",
-      "link": "https://www.yna.co.kr/view/AKR20260816013500009",
-      "source": "연합뉴스 국제",
-      "ts": 1786839474000,
-      "pub": "Sun, 16 Aug 2026 09:17:54 +0900",
       "sentiment": "neutral"
     }
   ]

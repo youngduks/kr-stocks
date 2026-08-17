@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-17T15:14:44.388Z",
-  "count": 13,
+  "updated_at": "2026-08-17T16:13:23.034Z",
+  "count": 15,
   "items": [
     {
       "title": "'유가 영향' 美 증시 약세… AI 낙관에 반도체주는 상승",
@@ -12,6 +12,14 @@
       "sentiment": "negative"
     },
     {
+      "title": "\"이제는 오른다?\" 스페이스X·테슬라 순매수…반도체주는 차익 매도[서학픽]",
+      "link": "https://www.mt.co.kr/world/2026/08/17/2026081718434818640",
+      "source": "머니투데이",
+      "ts": 1786964189000,
+      "pub": "Mon, 17 Aug 2026 19:56:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "\"中헤지펀드들, 2분기 美 AI기업 투자 줄이고 메모리 투자 확대\"",
       "link": "https://www.yna.co.kr/view/AKR20260817061400083",
       "source": "연합뉴스 국제",
@@ -20,11 +28,19 @@
       "sentiment": "neutral"
     },
     {
-      "title": "시험대 오른 반도체…이번주 변수는 [한경 프리미엄9 TODAY]",
-      "link": "https://www.hankyung.com/article/2026081753651",
-      "source": "한국경제",
-      "ts": 1786959618000,
-      "pub": "Mon, 17 Aug 2026 18:40:18 +0900",
+      "title": "日 국채금리 30년 최고에도…반도체 훈풍, 키옥시아 15%↑[Asia 마감]",
+      "link": "https://www.mt.co.kr/world/2026/08/17/2026081716411967307",
+      "source": "머니투데이",
+      "ts": 1786953801000,
+      "pub": "Mon, 17 Aug 2026 17:03:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"확신의 매수 구간\"…비중확대 추천한 반도체 종목은",
+      "link": "https://www.mt.co.kr/stock/2026/08/17/2026081714031711169",
+      "source": "머니투데이",
+      "ts": 1786951800000,
+      "pub": "Mon, 17 Aug 2026 16:30:00 +0900",
       "sentiment": "neutral"
     },
     {

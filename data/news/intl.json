@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-18T09:20:26.251Z",
-  "count": 33,
+  "updated_at": "2026-08-18T10:16:05.986Z",
+  "count": 30,
   "items": [
+    {
+      "title": "트럼프 '한미 훈련 축소 지시'에 日방위상 \"한미일 협력은 필수\"",
+      "link": "https://www.yna.co.kr/view/AKR20260818159600073",
+      "source": "연합뉴스 국제",
+      "ts": 1787045048000,
+      "pub": "Tue, 18 Aug 2026 18:24:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"김정은, 대화 요청에 응답\"…시점·내용은 함구",
+      "link": "https://www.hankyung.com/article/2026081878511",
+      "source": "한국경제",
+      "ts": 1787044039000,
+      "pub": "Tue, 18 Aug 2026 18:07:19 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "NYT \"이란전 늪 빠진 트럼프, 익숙한 김정은에 눈 돌려\"",
       "link": "https://www.yna.co.kr/view/AKR20260818157700009",
@@ -17,14 +33,6 @@
       "source": "머니투데이",
       "ts": 1787043713000,
       "pub": "Tue, 18 Aug 2026 18:01:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[사설] 트럼프 \"미북 대화 요청에 김정은 응답\"…한국 패싱 없어야",
-      "link": "https://www.hankyung.com/article/2026081878381",
-      "source": "한국경제",
-      "ts": 1787042472000,
-      "pub": "Tue, 18 Aug 2026 17:41:12 +0900",
       "sentiment": "neutral"
     },
     {
@@ -73,14 +81,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787038486000,
       "pub": "Tue, 18 Aug 2026 16:34:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "北엔 \"좋은 사이\", 韓엔 \"왜 돕나\"…전방위 압박 나선 트럼프",
-      "link": "https://www.mt.co.kr/politics/2026/08/18/2026081810264192622",
-      "source": "머니투데이",
-      "ts": 1787038415000,
-      "pub": "Tue, 18 Aug 2026 16:33:35 +0900",
       "sentiment": "neutral"
     },
     {
@@ -241,30 +241,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786990020000,
       "pub": "Tue, 18 Aug 2026 03:07:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"李대통령에 최근 전화해 이란 지원 요청했지만 거절\"",
-      "link": "https://www.yna.co.kr/view/AKR20260818003100071",
-      "source": "연합뉴스 국제",
-      "ts": 1786989834000,
-      "pub": "Tue, 18 Aug 2026 03:03:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] '연합훈련 축소 지시' 트럼프 \"김정은, 내 발언에 반응했다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260818003000071",
-      "source": "연합뉴스 국제",
-      "ts": 1786989748000,
-      "pub": "Tue, 18 Aug 2026 03:02:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美여당 상원의원도 한미훈련 축소 비판…\"北 푸틴 지원 늘려\"",
-      "link": "https://www.yna.co.kr/view/AKR20260818002500071",
-      "source": "연합뉴스 국제",
-      "ts": 1786988852000,
-      "pub": "Tue, 18 Aug 2026 02:47:32 +0900",
       "sentiment": "neutral"
     }
   ]

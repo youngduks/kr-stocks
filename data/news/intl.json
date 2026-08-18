@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-18T04:23:37.125Z",
-  "count": 28,
+  "updated_at": "2026-08-18T05:18:44.489Z",
+  "count": 27,
   "items": [
+    {
+      "title": "힐러리 \"트럼프, 지금 농담하냐?\"…한미 훈련 축소에 美 발칵",
+      "link": "https://www.hankyung.com/article/2026081869887",
+      "source": "한국경제",
+      "ts": 1787026911000,
+      "pub": "Tue, 18 Aug 2026 13:21:51 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "中신화통신 \"트럼프 한미훈련 축소 언급, 중간선거 노린것\"",
       "link": "https://www.yna.co.kr/view/AKR20260818082700083",
@@ -209,22 +217,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786955631000,
       "pub": "Mon, 17 Aug 2026 17:33:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"한미훈련 축소는 근시안적 실수\"…美야권·언론서 트럼프 비판(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260817025151009",
-      "source": "연합뉴스 국제",
-      "ts": 1786934541000,
-      "pub": "Mon, 17 Aug 2026 11:42:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美전문가들 \"트럼프, 북미대화 제스처\"…'대북 억지력 훼손' 비판도",
-      "link": "https://www.yna.co.kr/view/AKR20260817032300071",
-      "source": "연합뉴스 국제",
-      "ts": 1786933756000,
-      "pub": "Mon, 17 Aug 2026 11:29:16 +0900",
       "sentiment": "neutral"
     }
   ]

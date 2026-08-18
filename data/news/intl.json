@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-18T05:18:44.489Z",
-  "count": 27,
+  "updated_at": "2026-08-18T06:22:20.188Z",
+  "count": 30,
   "items": [
+    {
+      "title": "트럼프 지지율 33%로 2기 최저…美국민 80% \"이란 장기전\" 우려",
+      "link": "https://www.yna.co.kr/view/AKR20260818112200009",
+      "source": "연합뉴스 국제",
+      "ts": 1787033191000,
+      "pub": "Tue, 18 Aug 2026 15:06:31 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[영상] '사거리 130km' 더 깊숙이…우크라, 첫 국산 활공폭탄 투입 임박",
+      "link": "https://www.yna.co.kr/view/AKR20260818106900704",
+      "source": "연합뉴스 국제",
+      "ts": 1787032027000,
+      "pub": "Tue, 18 Aug 2026 14:47:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"한국 한 대 때리고 싶은 것 같다\"…외신이 본 트럼프 속내",
+      "link": "https://www.hankyung.com/article/2026081870957",
+      "source": "한국경제",
+      "ts": 1787029750000,
+      "pub": "Tue, 18 Aug 2026 14:09:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"한미동맹 균열 가능성\"…日 언론, 트럼프 훈련 축소에 우려 [최만수의 재팬 인사이트]",
+      "link": "https://www.hankyung.com/article/202608187004i",
+      "source": "한국경제",
+      "ts": 1787028045000,
+      "pub": "Tue, 18 Aug 2026 13:40:45 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "힐러리 \"트럼프, 지금 농담하냐?\"…한미 훈련 축소에 美 발칵",
       "link": "https://www.hankyung.com/article/2026081869887",
@@ -25,14 +57,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787021176000,
       "pub": "Tue, 18 Aug 2026 11:46:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이준석 \"'호텔경제학' 李 대통령, 진짜 호텔 운영 트럼프에 코너로 몰려\"",
-      "link": "https://www.mt.co.kr/politics/2026/08/18/2026081811173070061",
-      "source": "머니투데이",
-      "ts": 1787020780000,
-      "pub": "Tue, 18 Aug 2026 11:39:40 +0900",
       "sentiment": "neutral"
     },
     {

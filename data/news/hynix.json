@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-18T05:18:44.491Z",
-  "count": 19,
+  "updated_at": "2026-08-18T06:22:20.190Z",
+  "count": 16,
   "items": [
+    {
+      "title": "\"중국산 쓰지 마라\" 엄포…궁지 몰린 애플, 메모리 '비상'",
+      "link": "https://www.hankyung.com/article/202608187137g",
+      "source": "한국경제",
+      "ts": 1787030080000,
+      "pub": "Tue, 18 Aug 2026 14:14:40 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "한미반도체, 인천에 창사 최대규모 2만㎡ 신공장 부지 매입",
       "link": "https://www.yna.co.kr/view/AKR20260818084300003",
@@ -20,35 +28,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[뉴스프레소] 미국-이란 휴전 연장 협상 교착… 앤스로픽 호실적에 메모리주 다시 '날개'",
-      "link": "https://www.mt.co.kr/world/2026/08/18/2026081812227064158",
-      "source": "머니투데이",
-      "ts": 1787025328000,
-      "pub": "Tue, 18 Aug 2026 12:55:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "MOU 나흘 만에 다시 만난 LG·엔비디아…'피지컬 AI' 사업화 박차",
-      "link": "https://www.mt.co.kr/industry/2026/08/18/2026081812160768707",
-      "source": "머니투데이",
-      "ts": 1787023591000,
-      "pub": "Tue, 18 Aug 2026 12:26:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한미반도체, 신규 공장 매입·내년 2분기 양산…\"수요 급증에 대응\"",
-      "link": "https://www.mt.co.kr/industry/2026/08/18/2026081811510758543",
-      "source": "머니투데이",
-      "ts": 1787022191000,
-      "pub": "Tue, 18 Aug 2026 12:03:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 정부, LG·SKT·업스테이지에 엔비디아 B200 1000장 지원",
-      "link": "https://www.hankyung.com/article/2026081867217",
+      "title": "\"삼전닉스만 수출주냐\"…반도체 다음은 '면비디아'",
+      "link": "https://www.hankyung.com/article/202608186466i",
       "source": "한국경제",
-      "ts": 1787018646000,
-      "pub": "Tue, 18 Aug 2026 11:04:06 +0900",
+      "ts": 1787027829000,
+      "pub": "Tue, 18 Aug 2026 13:37:09 +0900",
       "sentiment": "neutral"
     },
     {
@@ -57,14 +41,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787015915000,
       "pub": "Tue, 18 Aug 2026 10:18:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "무디스 韓성장률 3.5%로 '깜짝' 상향…\"대체 메모리기업 제한적\"",
-      "link": "https://www.yna.co.kr/view/AKR20260817048700002",
-      "source": "연합뉴스 경제",
-      "ts": 1786999861000,
-      "pub": "Tue, 18 Aug 2026 05:51:01 +0900",
       "sentiment": "neutral"
     },
     {

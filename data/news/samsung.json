@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-17T23:16:54.343Z",
-  "count": 10,
+  "updated_at": "2026-08-18T00:33:29.350Z",
+  "count": 12,
   "items": [
+    {
+      "title": "[특징주] 삼성전자, 3% 올라 '28만전자'…하닉도 5%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20260818038800008",
+      "source": "연합뉴스 경제",
+      "ts": 1787012294000,
+      "pub": "Tue, 18 Aug 2026 09:18:14 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"삼성전자, '배당주' 인정되면…'美시총 1위' 애플 따라갈 수도\"-하나",
+      "link": "https://www.hankyung.com/article/2026081860416",
+      "source": "한국경제",
+      "ts": 1787010283000,
+      "pub": "Tue, 18 Aug 2026 08:44:43 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "유가 상승에 3대 지수 하락했지만…메모리반도체는 상승 [뉴욕증시 브리핑]",
       "link": "https://www.hankyung.com/article/2026081857816",

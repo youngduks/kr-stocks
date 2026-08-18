@@ -1,22 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-17T23:16:54.344Z",
-  "count": 16,
+  "updated_at": "2026-08-18T00:33:29.350Z",
+  "count": 15,
   "items": [
+    {
+      "title": "미 30년물 5.3% '금융위기 이후 최고'…그래도 반도체는 상승 [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202608185899i",
+      "source": "한국경제",
+      "ts": 1787008957000,
+      "pub": "Tue, 18 Aug 2026 08:22:37 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "유가 상승에 3대 지수 하락했지만…메모리반도체는 상승 [뉴욕증시 브리핑]",
       "link": "https://www.hankyung.com/article/2026081857816",
       "source": "한국경제",
       "ts": 1787005612000,
       "pub": "Tue, 18 Aug 2026 07:26:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"반도체 호황 내년 중반까지\"…무디스, 韓 성장률 전망 대폭 상향",
-      "link": "https://www.hankyung.com/article/2026081857277",
-      "source": "한국경제",
-      "ts": 1787001762000,
-      "pub": "Tue, 18 Aug 2026 06:22:42 +0900",
       "sentiment": "neutral"
     },
     {
@@ -34,14 +34,6 @@
       "ts": 1786995309000,
       "pub": "Tue, 18 Aug 2026 04:35:09 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "'유가 영향' 美 증시 약세… AI 낙관에 반도체주는 상승",
-      "link": "https://www.hankyung.com/article/202608175622i",
-      "source": "한국경제",
-      "ts": 1786976314000,
-      "pub": "Mon, 17 Aug 2026 23:18:34 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "\"中헤지펀드들, 2분기 美 AI기업 투자 줄이고 메모리 투자 확대\"",

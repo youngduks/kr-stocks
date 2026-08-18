@@ -1,30 +1,38 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-17T23:16:54.341Z",
-  "count": 37,
+  "updated_at": "2026-08-18T00:33:29.348Z",
+  "count": 34,
   "items": [
+    {
+      "title": "캐나다, 트럼프발 50% 관세 앞두고 협상 난항…자동차 최대 쟁점",
+      "link": "https://www.yna.co.kr/view/AKR20260818036100009",
+      "source": "연합뉴스 국제",
+      "ts": 1787011918000,
+      "pub": "Tue, 18 Aug 2026 09:11:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 대법, 트럼프 '성추행 사건' 재심리 요청 또 기각",
+      "link": "https://www.yna.co.kr/view/AKR20260818024900009",
+      "source": "연합뉴스 국제",
+      "ts": 1787009506000,
+      "pub": "Tue, 18 Aug 2026 08:31:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "금값 2주째 상승세…Fed 의사록이 다음 방향 가른다",
+      "link": "https://www.hankyung.com/article/202608185895i",
+      "source": "한국경제",
+      "ts": 1787008485000,
+      "pub": "Tue, 18 Aug 2026 08:14:45 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "트럼프 \"김정은, 북미대화 요청에 응답\"…시점·내용은 함구(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260818003552071",
       "source": "연합뉴스 국제",
       "ts": 1787002295000,
       "pub": "Tue, 18 Aug 2026 06:31:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 수혜주' HMM 더 갈까…증권가서 나온 뜻밖의 경고 [종목+]",
-      "link": "https://www.hankyung.com/article/2026081416396",
-      "source": "한국경제",
-      "ts": 1787002207000,
-      "pub": "Tue, 18 Aug 2026 06:30:07 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "트럼프 \"김정은, 대화 제안에 응답…李에 이란 지원 요청했지만 사양\"",
-      "link": "https://www.hankyung.com/article/2026081857007",
-      "source": "한국경제",
-      "ts": 1787000795000,
-      "pub": "Tue, 18 Aug 2026 06:06:35 +0900",
       "sentiment": "neutral"
     },
     {
@@ -137,22 +145,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786976180000,
       "pub": "Mon, 17 Aug 2026 23:16:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 오만까지 때렸다…\"이란 협상 방해되면 폭격\" 경고",
-      "link": "https://www.hankyung.com/article/2026081755827",
-      "source": "한국경제",
-      "ts": 1786970900000,
-      "pub": "Mon, 17 Aug 2026 21:48:20 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "日 정부, 트럼프 한미 연합훈련 축소 지시에 '촉각'",
-      "link": "https://www.hankyung.com/article/2026081754467",
-      "source": "한국경제",
-      "ts": 1786970528000,
-      "pub": "Mon, 17 Aug 2026 21:42:08 +0900",
       "sentiment": "neutral"
     },
     {
@@ -281,22 +273,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786912492000,
       "pub": "Mon, 17 Aug 2026 05:34:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "쿠슈너, 장인 트럼프의 '가자 평화안' 살리려 하마스와 회동",
-      "link": "https://www.yna.co.kr/view/AKR20260817005100079",
-      "source": "연합뉴스 국제",
-      "ts": 1786908046000,
-      "pub": "Mon, 17 Aug 2026 04:20:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘 극우장관 \"가자지구서 매일 30~40명 죽여야\" 발언 논란",
-      "link": "https://www.yna.co.kr/view/AKR20260816048700079",
-      "source": "연합뉴스 국제",
-      "ts": 1786892004000,
-      "pub": "Sun, 16 Aug 2026 23:53:24 +0900",
       "sentiment": "neutral"
     }
   ]

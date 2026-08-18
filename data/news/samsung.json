@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-18T00:33:29.350Z",
-  "count": 12,
+  "updated_at": "2026-08-18T02:08:09.708Z",
+  "count": 11,
   "items": [
+    {
+      "title": "삼성금융 '모니모' MAU 1000만 돌파… 삼전 주식 증정 이벤트",
+      "link": "https://www.mt.co.kr/finance/2026/08/18/2026081809494513951",
+      "source": "머니투데이",
+      "ts": 1787016635000,
+      "pub": "Tue, 18 Aug 2026 10:30:35 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "[특징주] 삼성전자, 3% 올라 '28만전자'…하닉도 5%대 급등",
       "link": "https://www.yna.co.kr/view/AKR20260818038800008",
@@ -20,14 +28,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "유가 상승에 3대 지수 하락했지만…메모리반도체는 상승 [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026081857816",
-      "source": "한국경제",
-      "ts": 1787005612000,
-      "pub": "Tue, 18 Aug 2026 07:26:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "무디스 韓성장률 3.5%로 '깜짝' 상향…\"대체 메모리기업 제한적\"",
       "link": "https://www.yna.co.kr/view/AKR20260817048700002",
       "source": "연합뉴스 경제",
@@ -42,14 +42,6 @@
       "ts": 1786960853000,
       "pub": "Mon, 17 Aug 2026 19:00:53 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "코스닥 이달 수익률 1위지만…삼전닉스 부활에 또 수급 우려",
-      "link": "https://www.yna.co.kr/view/AKR20260815034700008",
-      "source": "연합뉴스 경제",
-      "ts": 1786829700000,
-      "pub": "Sun, 16 Aug 2026 06:35:00 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

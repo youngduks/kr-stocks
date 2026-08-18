@@ -1,22 +1,78 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-18T00:33:29.350Z",
-  "count": 15,
+  "updated_at": "2026-08-18T02:08:09.708Z",
+  "count": 21,
   "items": [
     {
-      "title": "미 30년물 5.3% '금융위기 이후 최고'…그래도 반도체는 상승 [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202608185899i",
-      "source": "한국경제",
-      "ts": 1787008957000,
-      "pub": "Tue, 18 Aug 2026 08:22:37 +0900",
-      "sentiment": "negative"
+      "title": "정현학 한국공학대 교수팀, 차세대 반도체 '구리-구리 접합' 원리 규명",
+      "link": "https://www.mt.co.kr/policy/2026/08/18/2026081810363333552",
+      "source": "머니투데이",
+      "ts": 1787018299000,
+      "pub": "Tue, 18 Aug 2026 10:58:19 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "유가 상승에 3대 지수 하락했지만…메모리반도체는 상승 [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026081857816",
+      "title": "엔비디아, 오픈AI 데이터센터에 150조원 보증…'순환금융' 지적(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260818004951091",
+      "source": "연합뉴스 국제",
+      "ts": 1787015915000,
+      "pub": "Tue, 18 Aug 2026 10:18:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엠씨넥스, 연말 인도 공장 짓고 체질 개선…車 반도체·로봇 센서로 정조준",
+      "link": "https://www.mt.co.kr/stock/2026/08/18/2026081809571732370",
+      "source": "머니투데이",
+      "ts": 1787015530000,
+      "pub": "Tue, 18 Aug 2026 10:12:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "아이텍, 전장·AI 반도체 테스트 가동률 급등에 영업익 흑자전환",
+      "link": "https://www.mt.co.kr/stock/2026/08/18/2026081809511694531",
+      "source": "머니투데이",
+      "ts": 1787014599000,
+      "pub": "Tue, 18 Aug 2026 09:56:39 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"햇빛만 비춰도 반도체 폐수 깨끗해져\"…고효율 친환경 정화 기술 개발",
+      "link": "https://www.mt.co.kr/policy/2026/08/18/2026081809371972803",
+      "source": "머니투데이",
+      "ts": 1787014510000,
+      "pub": "Tue, 18 Aug 2026 09:55:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 반도체 훈풍에…'28만전자·170만닉스' 회복",
+      "link": "https://www.hankyung.com/article/2026081862976",
       "source": "한국경제",
-      "ts": 1787005612000,
-      "pub": "Tue, 18 Aug 2026 07:26:52 +0900",
+      "ts": 1787013308000,
+      "pub": "Tue, 18 Aug 2026 09:35:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"공작기계·반도체 팹 증설 수혜\"…11% 오른 이 기업, 목표가 상향",
+      "link": "https://www.hankyung.com/article/2026081862616",
+      "source": "한국경제",
+      "ts": 1787012846000,
+      "pub": "Tue, 18 Aug 2026 09:27:26 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "투자 초고수들의 판단은…SK하이닉스 '롱', 코스피200 '숏'",
+      "link": "https://www.hankyung.com/article/202608186147i",
+      "source": "한국경제",
+      "ts": 1787011389000,
+      "pub": "Tue, 18 Aug 2026 09:03:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'깜짝 실적' 터트리더니…'V자' 반등한 반도체주, 더 갈까?",
+      "link": "https://www.hankyung.com/article/202608186027i",
+      "source": "한국경제",
+      "ts": 1787010807000,
+      "pub": "Tue, 18 Aug 2026 08:53:27 +0900",
       "sentiment": "neutral"
     },
     {
@@ -41,14 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786960853000,
       "pub": "Mon, 17 Aug 2026 19:00:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스 '솔리다임' IPO설…증권가 \"지분희석\" vs \"실익있다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260815031900008",
-      "source": "연합뉴스 경제",
-      "ts": 1786914005000,
-      "pub": "Mon, 17 Aug 2026 06:00:05 +0900",
       "sentiment": "neutral"
     },
     {

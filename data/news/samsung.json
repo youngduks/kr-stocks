@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-18T06:22:20.189Z",
-  "count": 12,
+  "updated_at": "2026-08-18T07:27:41.221Z",
+  "count": 13,
   "items": [
+    {
+      "title": "삼성전자, 5거래일만에 내려 '26만전자'…하닉은 1% 상승마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260818038851008",
+      "source": "연합뉴스 경제",
+      "ts": 1787036560000,
+      "pub": "Tue, 18 Aug 2026 16:02:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "3배에 팔았더니 갤럭시폰 값이…'실적 효자' 삼성전자 메모리 역설",
+      "link": "https://www.mt.co.kr/industry/2026/08/18/2026081815270714037",
+      "source": "머니투데이",
+      "ts": 1787036464000,
+      "pub": "Tue, 18 Aug 2026 16:01:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI 훈풍에 낸드 상위 5개사 매출 77% 급증…마이크론 3위로",
+      "link": "https://www.yna.co.kr/view/AKR20260818126900003",
+      "source": "연합뉴스 경제",
+      "ts": 1787036064000,
+      "pub": "Tue, 18 Aug 2026 15:54:24 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"닷컴 버블처럼 터진다\" 섬뜩한 경고…삼전닉스 개미들 '초비상'",
       "link": "https://www.hankyung.com/article/2026081871386",
@@ -26,22 +50,6 @@
       "ts": 1787027829000,
       "pub": "Tue, 18 Aug 2026 13:37:09 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"지금 삼전닉스 살 때 아니다\"…투자 고수의 서늘한 경고 [인터뷰+]",
-      "link": "https://www.hankyung.com/article/2026081756036",
-      "source": "한국경제",
-      "ts": 1787027408000,
-      "pub": "Tue, 18 Aug 2026 13:30:08 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[특징주] 삼성전자, 3% 올라 '28만전자'…하닉도 5%대 급등",
-      "link": "https://www.yna.co.kr/view/AKR20260818038800008",
-      "source": "연합뉴스 경제",
-      "ts": 1787012294000,
-      "pub": "Tue, 18 Aug 2026 09:18:14 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "\"中헤지펀드들, 2분기 美 AI기업 투자 줄이고 메모리 투자 확대\"",

@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-18T06:22:20.188Z",
-  "count": 30,
+  "updated_at": "2026-08-18T07:27:41.219Z",
+  "count": 33,
   "items": [
+    {
+      "title": "트럼프 \"시간표 없다\" 이란 \"전면 공세\"…'무한 대치' 국면 전환(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260818069651009",
+      "source": "연합뉴스 국제",
+      "ts": 1787037035000,
+      "pub": "Tue, 18 Aug 2026 16:10:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[쇼츠] 우크라, 하룻밤에 드론 '800대'…러시아 총선 앞두고 난타전",
+      "link": "https://www.yna.co.kr/view/AKR20260818118900704",
+      "source": "연합뉴스 국제",
+      "ts": 1787036097000,
+      "pub": "Tue, 18 Aug 2026 15:54:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프가 다시 깨운 '인플레 공포'…국제유가·美 국채금리 동반 상승",
+      "link": "https://www.mt.co.kr/world/2026/08/18/2026081811164793490",
+      "source": "머니투데이",
+      "ts": 1787035292000,
+      "pub": "Tue, 18 Aug 2026 15:41:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'실리 챙기기'와 '관세 부과' 사이 막판 협상…1호 대미투자 최종 조율",
+      "link": "https://www.mt.co.kr/economy/2026/08/18/2026081815200454894",
+      "source": "머니투데이",
+      "ts": 1787034633000,
+      "pub": "Tue, 18 Aug 2026 15:30:33 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 지지율 33%로 2기 최저…美국민 80% \"이란 장기전\" 우려",
       "link": "https://www.yna.co.kr/view/AKR20260818112200009",
@@ -34,14 +66,6 @@
       "ts": 1787028045000,
       "pub": "Tue, 18 Aug 2026 13:40:45 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "힐러리 \"트럼프, 지금 농담하냐?\"…한미 훈련 축소에 美 발칵",
-      "link": "https://www.hankyung.com/article/2026081869887",
-      "source": "한국경제",
-      "ts": 1787026911000,
-      "pub": "Tue, 18 Aug 2026 13:21:51 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "中신화통신 \"트럼프 한미훈련 축소 언급, 중간선거 노린것\"",

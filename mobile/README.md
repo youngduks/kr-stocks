@@ -1,77 +1,109 @@
 # 보이스노트 — 실시간 요약 녹음 앱
 
-말하는 동안 자막이 쌓이고, 그 자막이 일정량 모일 때마다 요약이 갱신되는 Expo(React Native) 앱.
+말하는 동안 자막이 쌓이고 그 자막이 곧바로 정리되는 Expo(React Native) 앱.
 회의록 / 인터뷰 두 가지 모드가 있고, 각각 정리 결과의 구성이 다르다.
+
+**서버가 없다. API 키도 없다. 비용이 0원이고, 녹음 내용이 기기 밖으로 나가지 않는다.**
 
 ## 어떻게 동작하나
 
+정리를 두 층으로 나눈 것이 이 앱의 전부다.
+
 ```
-[기기 내장 STT]           [Next.js API]              [Claude Opus 5]
- iOS Speech          ─┐                        ┌─ structured outputs
- Android Recognizer   ├→ 확정 자막 조각 ──→ /api/voice/summarize ──→ 누적 요약 갱신
-                      │   (280자 또는 40초마다)
-                      └→ 전체 녹취록 ────→ /api/voice/finalize  ──→ 최종 노트
+녹음 중                                    녹음 종료 후
+─────────────────────────────────         ─────────────────────────────────
+기기 내장 STT                              규칙 기반 결과 + 자막 블록
+   ↓ 확정 자막                                ↓
+규칙 기반 정리 (outline.ts)         →      온디바이스 LLM 재서술 (appleLlm.ts)
+   ↓                                         ↓ Apple Foundation Models
+화면에 즉시 표시                            최종 노트
+지연 0 · 비용 0 · 호출 0                    호출 map N + reduce 1
 ```
 
-- **음성 인식은 기기에서** 한다. 오디오가 서버로 나가지 않고, STT 비용이 0이며, 한국어 인식률이 좋다.
-- **요약만 서버로** 보낸다. 그것도 전체 녹취록이 아니라 *아직 요약에 반영되지 않은 자막 조각*만 보낸다.
-  서버는 "이전 요약 + 새 자막" → "갱신된 누적 요약"으로 롤링 업데이트하므로,
-  녹음이 1시간을 넘어가도 한 번의 요청 크기가 커지지 않는다.
-- 녹음을 끝내면 전체 녹취록으로 한 번 더 정리해 **최종 노트**(제목 + 마크다운 본문)를 만든다.
-  이때만 녹취록 전체가 올라간다.
+- **실시간 층은 규칙 기반이다.** 한국어 어미 패턴으로 문장을 분류하고(`~하기로` → 할 일,
+  `~로 하죠` → 결정, `~인가요?` → 질문), 어절 빈도로 키워드를 잡고, 시간 블록으로 주제를
+  나눈다. 순수 계산이라 1시간 녹음도 27ms에 끝난다.
+- **재서술 층은 온디바이스 LLM이다.** 규칙 기반이 "골라낸" 문장을 사람이 쓴 것처럼 "다시
+  쓴다". 잘못 분류된 항목을 걸러내는 것도 이 층의 일이다.
 
-요약 트리거 규칙은 `src/hooks/useLiveSummary.ts` 상단 상수에 모여 있다.
+### 왜 이렇게 나눴나
 
-| 상수 | 기본값 | 의미 |
-|---|---|---|
-| `TRIGGER_CHARS` | 280자 | 이만큼 쌓이면 즉시 요약 |
-| `TRIGGER_IDLE_MS` | 40초 | 분량이 모자라도 이 시간이 지나면 요약 |
-| `RETRY_BASE_MS` | 5초 | 실패 시 지수 백오프 시작값 (최대 60초) |
+온디바이스 LLM은 느리다. 녹음 중에 계속 부르면 갱신이 30초씩 밀린다.
+그런데 실시간 층을 규칙 기반으로 빼면, LLM은 **녹음이 끝난 뒤 한 번만** 부르면 된다.
+그때는 몇십 초 걸려도 사용자가 기다릴 수 있는 시점이다.
 
-## Expo Go로는 실행되지 않는다
+### Apple Foundation Models의 두 가지 제약
 
-`expo-speech-recognition`은 네이티브 모듈이라 Expo Go에 들어 있지 않다. **개발 빌드**가 필요하다.
+설계가 이렇게 된 실질적인 이유다.
+
+| 제약 | 대응 |
+|---|---|
+| 컨텍스트 **4,096토큰 고정** (입력+출력 합산) | 녹취록을 블록으로 잘라 map-reduce. 블록당 900자 |
+| 구조화 출력 스키마에 **배열 타입이 없음** | 목록은 줄바꿈 구분 문자열로 받아 앱에서 분해 |
+
+블록 하나당 호출이 한 번이라 블록 수가 곧 대기 시간이다. 그래서 `MAX_BLOCKS = 12`로
+상한을 두고, **한도에 들어오면 문장을 하나도 버리지 않는다.** 넘칠 때만 점수가 낮은
+문장부터 덜어낸다 — 모델이 못 본 내용은 정리에도 없으니 압축은 마지막 수단이다.
+
+실측 (합성 1시간 녹취록, 자막 720조각 / 15,157자):
+
+```
+buildOutline   : 27ms   topics 8개
+buildDigest    : 11ms   blocks=11 (한도 12), 블록 최대 897자 (한도 900)
+LLM 호출 횟수  : 12회   (map 11 + reduce 1)
+```
+
+## 기기 요구사항
+
+| 기기 | 최종 정리 |
+|---|---|
+| iPhone 15 Pro 이상 + iOS 26 + Apple Intelligence 켜짐 | 온디바이스 LLM |
+| 그 외 iPhone / 모든 Android | 규칙 기반 결과를 그대로 저장 |
+
+LLM을 못 쓰는 기기에서도 앱은 정상 동작한다. 노트 화면에 안내가 뜨고,
+나중에 조건이 갖춰지면 "기기 내 AI로 다듬기" 버튼으로 다시 정리할 수 있다.
+
+음성 인식(STT)은 기기 내장이라 어느 기기에서든 된다.
+
+> **Android에 온디바이스 LLM을 붙이려면** `react-native-executorch`(Qwen3 1.7B 등)를
+> `src/lib/appleLlm.ts`와 같은 인터페이스로 구현해 `useLocalSummary.ts`에서 갈아 끼우면 된다.
+> 모델 다운로드가 1GB대라 기본으로는 넣지 않았다.
+
+## 실행
+
+`expo-speech-recognition`과 `react-native-apple-llm` 둘 다 네이티브 모듈이라
+**Expo Go로는 실행되지 않는다.** 개발 빌드가 필요하다.
 
 ```bash
 cd mobile
 npm install
-cp .env.example .env        # API 주소 설정
 
-# 안드로이드 실기기/에뮬레이터
-npx expo run:android
-
-# iOS (macOS + Xcode 필요)
+# iOS (macOS + Xcode 필요). Apple Foundation Models는 iOS 26 SDK가 필요하다.
 npx expo run:ios
+
+# Android (STT만 동작, 정리는 규칙 기반)
+npx expo run:android
 ```
 
-이후에는 `npm start`로 Metro만 띄우면 된다.
-
-EAS로 빌드하려면:
-
-```bash
-npx eas build --profile development --platform android
-```
-
-## 서버 쪽 설정
-
-요약 API는 이 저장소의 Next.js 앱에 있다 (`app/api/voice/*`). 필요한 환경변수:
-
-| 변수 | 필수 | 설명 |
-|---|---|---|
-| `ANTHROPIC_API_KEY` | ✅ | Claude API 키 |
-| `VOICE_API_SECRET` | 선택 | 설정하면 `x-voice-key` 헤더가 일치해야 요청을 받는다 |
-| `UPSTASH_REDIS_REST_URL` / `_TOKEN` | 선택 | 있으면 IP당 시간당 240회 레이트리밋이 걸린다 |
-
-로컬 서버로 붙일 때는 `EXPO_PUBLIC_API_BASE_URL`에 **PC의 LAN IP**를 넣어야 한다.
-실기기에서 `localhost`는 폰 자신을 가리킨다.
+이후에는 `npm start`로 Metro만 띄우면 된다. 설정할 환경변수는 없다.
 
 ## 화면 구성
 
 | 경로 | 화면 |
 |---|---|
 | `app/index.tsx` | 노트 목록 + 모드 선택. 길게 누르면 삭제 |
-| `app/record.tsx` | 녹음 화면. `실시간 요약` / `자막` 탭 |
-| `app/note/[id].tsx` | 저장된 노트. 클립보드 복사, 최종 정리 재시도 |
+| `app/record.tsx` | 녹음 화면. `실시간 정리` / `자막` 탭 |
+| `app/note/[id].tsx` | 저장된 노트. 클립보드 복사, 다시 정리하기 |
+
+## 코드 지도
+
+| 파일 | 역할 |
+|---|---|
+| `src/lib/korean.ts` | 한국어 규칙 — 문장 분류 패턴, 조사 제거, 키워드, 문장 점수 |
+| `src/lib/outline.ts` | 규칙 기반 정리본 생성 + LLM용 블록 분할 |
+| `src/lib/appleLlm.ts` | Apple Foundation Models 래퍼. map-reduce, 구조화 출력 파싱 |
+| `src/hooks/useLiveTranscript.ts` | STT 래퍼. 세션 재시작·오류 처리 |
+| `src/hooks/useLocalSummary.ts` | 두 층을 엮는 오케스트레이션 |
 
 노트는 AsyncStorage에 저장된다. 목록용 메타 인덱스(`voicenote:index`)와
 본문(`voicenote:note:<id>`)을 나눠 두어 녹취록이 길어져도 목록 화면이 느려지지 않는다.
@@ -85,6 +117,23 @@ npx eas build --profile development --platform android
 - **재시작이 즉시 실패하며 반복되면 무한루프가 된다.** 1초 안에 끝난 세션을 "즉시 실패"로 세고,
   5회 연속이면 되살리기를 포기하고 일시정지 상태로 전환한다.
 - **`stop()` 직후에 마지막 확정 자막이 도착한다.** 종료 후 1.2초 기다렸다가 녹취록을 확정한다.
+
+`src/lib/appleLlm.ts`에서:
+
+- **`react-native-apple-llm`은 네이티브 모듈이 없으면 import 시점에 throw 한다.**
+  안드로이드에서 앱이 통째로 죽으므로 지연 `require` + `try/catch`로 감쌌다.
+
+## 규칙 기반 층의 한계
+
+이건 **추출**이지 **재서술**이 아니다. 말한 문장을 골라 분류할 뿐,
+문장을 다시 쓰지는 못한다. 그래서 녹음 중 화면에는 발화가 그대로 보인다.
+
+패턴은 넉넉함보다 좁게 잡았다. 놓치는 건 괜찮지만 엉뚱한 문장을 결정사항이라고
+우기면 안 되기 때문이다. 실제로 초기 버전에서 "오늘 회의 시작하겠습니다"가
+액션아이템으로 잡혀서, 회의 진행 상용구를 분류에서 빼는 목록(`BOILERPLATE`)을 따로 뒀다.
+
+형태소 분석기가 없어 키워드는 어절 빈도로 근사한다. 조사를 벗길 때
+어간이 너무 짧아지면 벗기지 않는다 — "재시도"에서 `도`를 떼어 "재시"가 되는 사고를 막기 위해서다.
 
 ## 알려진 한계
 

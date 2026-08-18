@@ -1,5 +1,5 @@
-// 서버(lib/voiceSummary.ts)의 zod 스키마와 1:1로 대응하는 타입.
-// 두 패키지가 서로 다른 루트에 있어 import 대신 복제한다. 한쪽을 고치면 다른 쪽도 고칠 것.
+// 정리 결과의 자료 구조. 규칙 기반(outline.ts)과 온디바이스 LLM(appleLlm.ts)이
+// 같은 모양을 만들어 내므로, 화면은 어느 쪽이 만들었는지 몰라도 된다.
 
 export const VOICE_MODES = ["meeting", "interview"] as const;
 export type VoiceMode = (typeof VOICE_MODES)[number];
@@ -51,6 +51,9 @@ export type Segment = {
   atMs: number;
 };
 
+/** 최종 노트를 무엇이 만들었는지. 화면에서 품질 기대치를 알려주는 데 쓴다. */
+export type SummaryEngine = "apple-llm" | "rules";
+
 export type Note = {
   id: string;
   mode: VoiceMode;
@@ -58,10 +61,11 @@ export type Note = {
   createdAt: number;
   durationSec: number;
   segments: Segment[];
-  /** 녹음 중 마지막으로 갱신된 라이브 요약 */
+  /** 녹음 중 규칙 기반으로 만든 정리본 */
   summary: LiveSummary | null;
-  /** 종료 후 만든 최종 노트. 실패했으면 null */
+  /** 종료 후 만든 최종 노트 */
   finalNote: FinalNote | null;
+  engine: SummaryEngine;
 };
 
 export type NoteMeta = Pick<

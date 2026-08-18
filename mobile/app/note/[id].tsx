@@ -12,13 +12,16 @@ import { Stack, useLocalSearchParams, useRouter } from "expo-router";
 import * as Clipboard from "expo-clipboard";
 import { colors, radius, space } from "../../src/theme";
 import { getNote, saveNote } from "../../src/lib/storage";
-import { finalizeNote as requestFinalize, ApiError } from "../../src/lib/api";
+import { buildDigest, buildOutline } from "../../src/lib/outline";
 import {
-  formatDate,
-  formatDuration,
-  noteToShareText,
-  transcriptWithTimestamps,
-} from "../../src/lib/format";
+  ENGINE_STATUS_MESSAGE,
+  MAX_BLOCKS,
+  MAX_CHARS_PER_BLOCK,
+  getLocalEngineStatus,
+  refineNote,
+  type RefineProgress,
+} from "../../src/lib/appleLlm";
+import { formatDate, formatDuration, noteToShareText } from "../../src/lib/format";
 import { SummaryView } from "../../src/components/SummaryView";
 import { TranscriptFeed } from "../../src/components/TranscriptFeed";
 import { MODE_LABEL, isSummaryEmpty, type Note } from "../../src/types";
@@ -30,7 +33,7 @@ export default function NoteScreen() {
   const router = useRouter();
   const [note, setNote] = useState<Note | null>(null);
   const [loading, setLoading] = useState(true);
-  const [retrying, setRetrying] = useState(false);
+  const [progress, setProgress] = useState<RefineProgress | null>(null);
   const [tab, setTab] = useState<Tab>("summary");
 
   useEffect(() => {
@@ -60,31 +63,47 @@ export default function NoteScreen() {
     Alert.alert("복사 완료", "노트를 클립보드에 복사했습니다.");
   }, [note]);
 
-  const retryFinalize = useCallback(async () => {
+  /** 규칙 기반으로만 정리된 노트를 기기 내 AI로 다시 다듬는다. */
+  const retryRefine = useCallback(async () => {
     if (!note) return;
-    setRetrying(true);
+
+    const status = await getLocalEngineStatus();
+    if (status !== "available") {
+      Alert.alert("기기 내 AI를 쓸 수 없습니다", ENGINE_STATUS_MESSAGE[status]);
+      return;
+    }
+
+    setProgress({ done: 0, total: 1, label: "준비 중" });
     try {
-      const { note: finalNote } = await requestFinalize({
+      const outline = buildOutline(
+        note.segments,
+        note.mode,
+        note.durationSec * 1000,
+      );
+      const { blocks } = buildDigest(note.segments, MAX_CHARS_PER_BLOCK, MAX_BLOCKS);
+      const finalNote = await refineNote({
         mode: note.mode,
-        previous: note.summary,
-        transcript: transcriptWithTimestamps(note.segments),
+        outline,
+        blocks,
         durationSec: note.durationSec,
+        onProgress: setProgress,
       });
       const next: Note = {
         ...note,
         title: finalNote.title,
         summary: finalNote,
         finalNote,
+        engine: "apple-llm",
       };
       await saveNote(next);
       setNote(next);
     } catch (err) {
       Alert.alert(
         "정리 실패",
-        err instanceof ApiError ? err.message : "다시 시도해 주세요.",
+        err instanceof Error ? err.message : "다시 시도해 주세요.",
       );
     } finally {
-      setRetrying(false);
+      setProgress(null);
     }
   }, [note]);
 
@@ -106,6 +125,8 @@ export default function NoteScreen() {
       </View>
     );
   }
+
+  const busy = progress !== null;
 
   return (
     <View style={styles.screen}>
@@ -150,21 +171,24 @@ export default function NoteScreen() {
       <View style={styles.body}>
         {tab === "summary" ? (
           <ScrollView contentContainerStyle={styles.content}>
-            {!note.finalNote && (
+            {note.engine === "rules" && (
               <View style={styles.warn}>
                 <Text style={styles.warnText}>
-                  최종 정리가 완료되지 않은 노트입니다. 아래 요약은 녹음 중 만들어진
-                  중간 결과입니다.
+                  규칙 기반으로만 정리된 노트입니다. 말한 문장을 골라 분류한 것이라
+                  문장이 다듬어져 있지 않습니다.
                 </Text>
                 <Pressable
                   style={styles.warnBtn}
-                  onPress={() => void retryFinalize()}
-                  disabled={retrying}
+                  onPress={() => void retryRefine()}
+                  disabled={busy}
                 >
-                  {retrying ? (
-                    <ActivityIndicator size="small" color={colors.text} />
+                  {busy ? (
+                    <View style={styles.warnBtnBusy}>
+                      <ActivityIndicator size="small" color={colors.text} />
+                      <Text style={styles.warnBtnText}>{progress?.label}</Text>
+                    </View>
                   ) : (
-                    <Text style={styles.warnBtnText}>다시 정리하기</Text>
+                    <Text style={styles.warnBtnText}>기기 내 AI로 다듬기</Text>
                   )}
                 </Pressable>
               </View>
@@ -242,6 +266,12 @@ const styles = StyleSheet.create({
     borderRadius: radius.pill,
     backgroundColor: colors.cardAlt,
   },
+  warnBtnBusy: { flexDirection: "row", alignItems: "center", gap: space.sm },
   warnBtnText: { color: colors.text, fontSize: 12, fontWeight: "600" },
-  empty: { color: colors.dim, fontSize: 13, textAlign: "center", paddingVertical: 32 },
+  empty: {
+    color: colors.dim,
+    fontSize: 13,
+    textAlign: "center",
+    paddingVertical: 32,
+  },
 });

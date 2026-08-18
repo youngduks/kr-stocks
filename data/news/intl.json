@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-18T08:21:21.184Z",
-  "count": 30,
+  "updated_at": "2026-08-18T09:20:26.251Z",
+  "count": 33,
   "items": [
+    {
+      "title": "NYT \"이란전 늪 빠진 트럼프, 익숙한 김정은에 눈 돌려\"",
+      "link": "https://www.yna.co.kr/view/AKR20260818157700009",
+      "source": "연합뉴스 국제",
+      "ts": 1787043772000,
+      "pub": "Tue, 18 Aug 2026 18:02:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "北엔 \"좋은 사이\", 韓엔 \"왜 돕나\"…전방위 압박 나선 트럼프(종합)",
+      "link": "https://www.mt.co.kr/politics/2026/08/18/2026081817170396988",
+      "source": "머니투데이",
+      "ts": 1787043713000,
+      "pub": "Tue, 18 Aug 2026 18:01:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[사설] 트럼프 \"미북 대화 요청에 김정은 응답\"…한국 패싱 없어야",
+      "link": "https://www.hankyung.com/article/2026081878381",
+      "source": "한국경제",
+      "ts": 1787042472000,
+      "pub": "Tue, 18 Aug 2026 17:41:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"비핵화 글쎄…동맹은 시험대\" 트럼프 한미훈련 축소 외신도 '촉각'",
+      "link": "https://www.mt.co.kr/world/2026/08/18/2026081813162975705",
+      "source": "머니투데이",
+      "ts": 1787042166000,
+      "pub": "Tue, 18 Aug 2026 17:36:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라, 연일 모스크바 겨냥 드론 공격…\"하루 600대 넘어\"",
+      "link": "https://www.yna.co.kr/view/AKR20260818145500109",
+      "source": "연합뉴스 국제",
+      "ts": 1787041543000,
+      "pub": "Tue, 18 Aug 2026 17:25:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 '이란 비핵화 동참' 요청 사양?…靑 \"핵 비확산, 누구보다 관심\"",
+      "link": "https://www.mt.co.kr/politics/2026/08/18/2026081817042143335",
+      "source": "머니투데이",
+      "ts": 1787041483000,
+      "pub": "Tue, 18 Aug 2026 17:24:43 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "에르도안, 트럼프에 \"F-35 준다던 약속 지켜야\"",
       "link": "https://www.yna.co.kr/view/AKR20260818137600108",
@@ -25,6 +73,14 @@
       "source": "연합뉴스 국제",
       "ts": 1787038486000,
       "pub": "Tue, 18 Aug 2026 16:34:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "北엔 \"좋은 사이\", 韓엔 \"왜 돕나\"…전방위 압박 나선 트럼프",
+      "link": "https://www.mt.co.kr/politics/2026/08/18/2026081810264192622",
+      "source": "머니투데이",
+      "ts": 1787038415000,
+      "pub": "Tue, 18 Aug 2026 16:33:35 +0900",
       "sentiment": "neutral"
     },
     {
@@ -209,38 +265,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786988852000,
       "pub": "Tue, 18 Aug 2026 02:47:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러 총선 앞두고 전쟁 격화…우크라 곡물수출항 연일 피격(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260817055051109",
-      "source": "연합뉴스 국제",
-      "ts": 1786980469000,
-      "pub": "Tue, 18 Aug 2026 00:27:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美전문가 \"트럼프, 북미대화 제스처\"…'대북억지력 훼손' 비판도(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260817032351071",
-      "source": "연합뉴스 국제",
-      "ts": 1786979073000,
-      "pub": "Tue, 18 Aug 2026 00:04:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란, 백기 항복해야…오만이 방해하면 폭격할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260817073300071",
-      "source": "연합뉴스 국제",
-      "ts": 1786977705000,
-      "pub": "Mon, 17 Aug 2026 23:41:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라전쟁 비판한 러 야권 정치인 징역 11년",
-      "link": "https://www.yna.co.kr/view/AKR20260817072900109",
-      "source": "연합뉴스 국제",
-      "ts": 1786976180000,
-      "pub": "Mon, 17 Aug 2026 23:16:20 +0900",
       "sentiment": "neutral"
     }
   ]

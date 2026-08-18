@@ -12,5 +12,3 @@ node_modules/
 tsconfig.tsbuildinfo
 .env*
 
-# .env.example은 커밋한다
-!.env.example

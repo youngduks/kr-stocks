@@ -1,22 +1,22 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-18T10:16:05.986Z",
-  "count": 30,
+  "updated_at": "2026-08-18T11:14:17.965Z",
+  "count": 25,
   "items": [
+    {
+      "title": "시리아 군 공항, 전투기에 피격…국영TV \"이스라엘이 공습\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260818140551079",
+      "source": "연합뉴스 국제",
+      "ts": 1787049550000,
+      "pub": "Tue, 18 Aug 2026 19:39:10 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 '한미 훈련 축소 지시'에 日방위상 \"한미일 협력은 필수\"",
       "link": "https://www.yna.co.kr/view/AKR20260818159600073",
       "source": "연합뉴스 국제",
       "ts": 1787045048000,
       "pub": "Tue, 18 Aug 2026 18:24:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"김정은, 대화 요청에 응답\"…시점·내용은 함구",
-      "link": "https://www.hankyung.com/article/2026081878511",
-      "source": "한국경제",
-      "ts": 1787044039000,
-      "pub": "Tue, 18 Aug 2026 18:07:19 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,35 +28,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "北엔 \"좋은 사이\", 韓엔 \"왜 돕나\"…전방위 압박 나선 트럼프(종합)",
-      "link": "https://www.mt.co.kr/politics/2026/08/18/2026081817170396988",
-      "source": "머니투데이",
-      "ts": 1787043713000,
-      "pub": "Tue, 18 Aug 2026 18:01:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"비핵화 글쎄…동맹은 시험대\" 트럼프 한미훈련 축소 외신도 '촉각'",
-      "link": "https://www.mt.co.kr/world/2026/08/18/2026081813162975705",
-      "source": "머니투데이",
-      "ts": 1787042166000,
-      "pub": "Tue, 18 Aug 2026 17:36:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "우크라, 연일 모스크바 겨냥 드론 공격…\"하루 600대 넘어\"",
       "link": "https://www.yna.co.kr/view/AKR20260818145500109",
       "source": "연합뉴스 국제",
       "ts": 1787041543000,
       "pub": "Tue, 18 Aug 2026 17:25:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 '이란 비핵화 동참' 요청 사양?…靑 \"핵 비확산, 누구보다 관심\"",
-      "link": "https://www.mt.co.kr/politics/2026/08/18/2026081817042143335",
-      "source": "머니투데이",
-      "ts": 1787041483000,
-      "pub": "Tue, 18 Aug 2026 17:24:43 +0900",
       "sentiment": "neutral"
     },
     {
@@ -225,22 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786992567000,
       "pub": "Tue, 18 Aug 2026 03:49:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"김정은, 북미대화 요청에 응답했다\"…시점·내용은 함구",
-      "link": "https://www.yna.co.kr/view/AKR20260818003500071",
-      "source": "연합뉴스 국제",
-      "ts": 1786991227000,
-      "pub": "Tue, 18 Aug 2026 03:27:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"김정은과 잘 지내…나는 상황 안전하게 만드는 중\"",
-      "link": "https://www.yna.co.kr/view/AKR20260818003200071",
-      "source": "연합뉴스 국제",
-      "ts": 1786990020000,
-      "pub": "Tue, 18 Aug 2026 03:07:00 +0900",
       "sentiment": "neutral"
     }
   ]

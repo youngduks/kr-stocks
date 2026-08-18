@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-18T16:17:42.341Z",
+  "updated_at": "2026-08-18T17:17:03.890Z",
   "count": 28,
   "items": [
+    {
+      "title": "\"이스라엘, 시리아 군공항 공습\"…트럼프 특사 \"불필요한 긴장\" (종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260818140552079",
+      "source": "연합뉴스 국제",
+      "ts": 1787071048000,
+      "pub": "Wed, 19 Aug 2026 01:37:28 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이란戰 꼬인 트럼프, 동맹에 화풀이…美언론 \"韓, 최근 희생양\"",
       "link": "https://www.yna.co.kr/view/AKR20260819000400071",
@@ -217,14 +225,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787011918000,
       "pub": "Tue, 18 Aug 2026 09:11:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 대법, 트럼프 '성추행 사건' 재심리 요청 또 기각",
-      "link": "https://www.yna.co.kr/view/AKR20260818024900009",
-      "source": "연합뉴스 국제",
-      "ts": 1787009506000,
-      "pub": "Tue, 18 Aug 2026 08:31:46 +0900",
       "sentiment": "neutral"
     }
   ]

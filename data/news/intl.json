@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-18T12:20:52.302Z",
-  "count": 26,
+  "updated_at": "2026-08-18T13:34:06.199Z",
+  "count": 28,
   "items": [
+    {
+      "title": "디즈니, 자회사 ABC 방송면허 취소 막으려 트럼프 정부에 소송",
+      "link": "https://www.yna.co.kr/view/AKR20260818171900071",
+      "source": "연합뉴스 국제",
+      "ts": 1787059754000,
+      "pub": "Tue, 18 Aug 2026 22:29:14 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "러, 영국에 \"테러 공범\"…버넘 \"우크라 100% 지지 계속\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260818132151009",
+      "source": "연합뉴스 국제",
+      "ts": 1787057881000,
+      "pub": "Tue, 18 Aug 2026 21:58:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "모국에 방화 테러 모의한 우크라인…독일서 징역형",
+      "link": "https://www.yna.co.kr/view/AKR20260818170400082",
+      "source": "연합뉴스 국제",
+      "ts": 1787055974000,
+      "pub": "Tue, 18 Aug 2026 21:26:14 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 암호화폐 기업 은행 예비인가…\"뻔뻔한 자기거래\"",
       "link": "https://www.yna.co.kr/view/AKR20260818168600009",
@@ -201,14 +225,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786993389000,
       "pub": "Tue, 18 Aug 2026 04:03:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"MOU 연장 없다…호르무즈 美영토 선언 마음에 들어\"",
-      "link": "https://www.yna.co.kr/view/AKR20260818004200071",
-      "source": "연합뉴스 국제",
-      "ts": 1786992567000,
-      "pub": "Tue, 18 Aug 2026 03:49:27 +0900",
       "sentiment": "neutral"
     }
   ]

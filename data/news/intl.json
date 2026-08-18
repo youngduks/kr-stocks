@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-18T19:20:04.358Z",
-  "count": 29,
+  "updated_at": "2026-08-18T20:10:34.066Z",
+  "count": 31,
   "items": [
+    {
+      "title": "'캐나다에 50% 관세' 하루 전…美·加 정상 통화에도 협상 난항",
+      "link": "https://www.yna.co.kr/view/AKR20260819005200072",
+      "source": "연합뉴스 국제",
+      "ts": 1787082968000,
+      "pub": "Wed, 19 Aug 2026 04:56:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 안보장관 \"팔레스타인 사형수 형 집행용 교수대 건설\"",
+      "link": "https://www.yna.co.kr/view/AKR20260819005500079",
+      "source": "연합뉴스 국제",
+      "ts": 1787082398000,
+      "pub": "Wed, 19 Aug 2026 04:46:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"김정은, 북미대화 요청에 응답\" 주장",
+      "link": "https://www.mt.co.kr/world/2026/08/19/2026081820050914095",
+      "source": "머니투데이",
+      "ts": 1787077800000,
+      "pub": "Wed, 19 Aug 2026 03:30:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "美하원소위 여야, '트럼프탓 한국탓' 한미훈련 축소 갑론을박",
       "link": "https://www.yna.co.kr/view/AKR20260819001900071",
@@ -225,14 +249,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787020207000,
       "pub": "Tue, 18 Aug 2026 11:30:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "폴리티코 \"韓투자 이행속도에 트럼프 불만…한미훈련 축소 배경\"",
-      "link": "https://www.yna.co.kr/view/AKR20260818063000009",
-      "source": "연합뉴스 국제",
-      "ts": 1787016936000,
-      "pub": "Tue, 18 Aug 2026 10:35:36 +0900",
       "sentiment": "neutral"
     }
   ]

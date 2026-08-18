@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-18T14:21:00.192Z",
-  "count": 27,
+  "updated_at": "2026-08-18T15:20:00.408Z",
+  "count": 26,
   "items": [
+    {
+      "title": "\"가자 주민 매일 죽여야\" 이스라엘 극우장관 EU 제재 받나",
+      "link": "https://www.yna.co.kr/view/AKR20260818174400082",
+      "source": "연합뉴스 국제",
+      "ts": 1787065271000,
+      "pub": "Wed, 19 Aug 2026 00:01:11 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "젤렌스키, 새 국방장관 지명…'드론전 영웅' 해임 논란 일단락",
+      "link": "https://www.yna.co.kr/view/AKR20260818173600109",
+      "source": "연합뉴스 국제",
+      "ts": 1787062987000,
+      "pub": "Tue, 18 Aug 2026 23:23:07 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"이란과 대화없고 예정된 것도 없다…대이란 봉쇄 유효\"",
       "link": "https://www.yna.co.kr/view/AKR20260818173200071",
@@ -193,30 +209,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787009506000,
       "pub": "Tue, 18 Aug 2026 08:31:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"김정은, 북미대화 요청에 응답\"…시점·내용은 함구(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260818003552071",
-      "source": "연합뉴스 국제",
-      "ts": 1787002295000,
-      "pub": "Tue, 18 Aug 2026 06:31:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 사위' 쿠슈너, 네타냐후와 가자지구 회담…큰 진전 없어(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260818004451099",
-      "source": "연합뉴스 국제",
-      "ts": 1786999561000,
-      "pub": "Tue, 18 Aug 2026 05:46:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"오만 방해시 폭격…호르무즈 美영토 선언 마음에 든다\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260817073351071",
-      "source": "연합뉴스 국제",
-      "ts": 1786996348000,
-      "pub": "Tue, 18 Aug 2026 04:52:28 +0900",
       "sentiment": "neutral"
     }
   ]

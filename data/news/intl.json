@@ -1,22 +1,38 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-18T02:08:09.707Z",
-  "count": 29,
+  "updated_at": "2026-08-18T03:34:52.690Z",
+  "count": 27,
   "items": [
+    {
+      "title": "中신화통신 \"트럼프 한미훈련 축소 언급, 중간선거 노린것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260818082700083",
+      "source": "연합뉴스 국제",
+      "ts": 1787022036000,
+      "pub": "Tue, 18 Aug 2026 12:00:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"시간표 없다\" 이란 \"전면 공세\"…'무한 대치' 국면 전환",
+      "link": "https://www.yna.co.kr/view/AKR20260818069600009",
+      "source": "연합뉴스 국제",
+      "ts": 1787021176000,
+      "pub": "Tue, 18 Aug 2026 11:46:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 우크라, 하룻밤 드론 800대 맹폭…러시아 총선 앞두고 전쟁 격화",
+      "link": "https://www.yna.co.kr/view/AKR20260818078600704",
+      "source": "연합뉴스 국제",
+      "ts": 1787020207000,
+      "pub": "Tue, 18 Aug 2026 11:30:07 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "폴리티코 \"韓투자 이행속도에 트럼프 불만…한미훈련 축소 배경\"",
       "link": "https://www.yna.co.kr/view/AKR20260818063000009",
       "source": "연합뉴스 국제",
       "ts": 1787016936000,
       "pub": "Tue, 18 Aug 2026 10:35:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"김정은이 답했다\" 트럼프 발언에…줄줄이 상한가 친 종목",
-      "link": "https://www.hankyung.com/article/2026081861766",
-      "source": "한국경제",
-      "ts": 1787012221000,
-      "pub": "Tue, 18 Aug 2026 09:17:01 +0900",
       "sentiment": "neutral"
     },
     {
@@ -201,38 +217,6 @@
       "source": "연합뉴스 국제",
       "ts": 1786933756000,
       "pub": "Mon, 17 Aug 2026 11:29:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"한미연합훈련 축소는 근시안적 실수\"…美야권, 트럼프 비판",
-      "link": "https://www.yna.co.kr/view/AKR20260817025100009",
-      "source": "연합뉴스 국제",
-      "ts": 1786928984000,
-      "pub": "Mon, 17 Aug 2026 10:09:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'이란전 수렁' 트럼프, 한미훈련 대폭 축소로 北에 대화 손짓",
-      "link": "https://www.yna.co.kr/view/AKR20260817017500071",
-      "source": "연합뉴스 국제",
-      "ts": 1786924774000,
-      "pub": "Mon, 17 Aug 2026 08:59:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美법무장관 \"백악관서 독립 약속 못해…업무수행과 별개 문제\"",
-      "link": "https://www.yna.co.kr/view/AKR20260817020300009",
-      "source": "연합뉴스 국제",
-      "ts": 1786924379000,
-      "pub": "Mon, 17 Aug 2026 08:52:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"한미연합훈련 대폭 축소 지시…나와 김정은 매우 좋은 관계\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260817008851071",
-      "source": "연합뉴스 국제",
-      "ts": 1786920507000,
-      "pub": "Mon, 17 Aug 2026 07:48:27 +0900",
       "sentiment": "neutral"
     }
   ]

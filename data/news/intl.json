@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-19T20:13:28.226Z",
-  "count": 37,
+  "updated_at": "2026-08-19T21:15:12.569Z",
+  "count": 34,
   "items": [
+    {
+      "title": "'北 핵무기 57개' 트럼프 발언 파장…거래적 대북정책 수순밟나",
+      "link": "https://www.yna.co.kr/view/AKR20260820005900071",
+      "source": "연합뉴스 국제",
+      "ts": 1787172988000,
+      "pub": "Thu, 20 Aug 2026 05:56:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '북미대화 목표 비핵화냐'에 \"그 얘기 하고 싶지 않다\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260820006551071",
+      "source": "연합뉴스 국제",
+      "ts": 1787172613000,
+      "pub": "Thu, 20 Aug 2026 05:50:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "FOMC 매파 확대…위원 약 50%, \"물가 안 잡히면 금리 인상\" [Fed 워치]",
+      "link": "https://www.hankyung.com/article/202608200822i",
+      "source": "한국경제",
+      "ts": 1787172591000,
+      "pub": "Thu, 20 Aug 2026 05:49:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'8조원 피해' 고려인 기업 지원받나…푸틴, 물류 복구 지시",
+      "link": "https://www.yna.co.kr/view/AKR20260820007100108",
+      "source": "연합뉴스 국제",
+      "ts": 1787171182000,
+      "pub": "Thu, 20 Aug 2026 05:26:22 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, '북미대화 목표 비핵화냐'에 \"그 얘기 하고 싶지 않다\"",
       "link": "https://www.yna.co.kr/view/AKR20260820006500071",
@@ -60,35 +92,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "美 여야 상원의원 \"한미연합훈련 축소 철회해야\"…트럼프에 서한",
-      "link": "https://www.mt.co.kr/world/2026/08/20/2026082001103249741",
-      "source": "머니투데이",
-      "ts": 1787155966000,
-      "pub": "Thu, 20 Aug 2026 01:12:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"김정은 핵무기 57개 보유, 올해 안에 만날 것\"(상보)",
-      "link": "https://www.mt.co.kr/world/2026/08/20/2026082000554632365",
-      "source": "머니투데이",
-      "ts": 1787155457000,
-      "pub": "Thu, 20 Aug 2026 01:04:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"김정은, 57개 매우 강력한 핵무기 보유…연내 만날 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260820001400071",
       "source": "연합뉴스 국제",
       "ts": 1787155044000,
       "pub": "Thu, 20 Aug 2026 00:57:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]트럼프 \"김정은 핵무기 57개 갖고 있어…연내 회담할 것\"",
-      "link": "https://www.mt.co.kr/world/2026/08/20/2026082000444071326",
-      "source": "머니투데이",
-      "ts": 1787154382000,
-      "pub": "Thu, 20 Aug 2026 00:46:22 +0900",
       "sentiment": "neutral"
     },
     {
@@ -132,27 +140,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "김여정 \"트럼프·김정은 소통 알지 못해…한미훈련 축소 흥미 없어\"",
-      "link": "https://www.mt.co.kr/politics/2026/08/19/2026081922162813804",
-      "source": "머니투데이",
-      "ts": 1787147571000,
-      "pub": "Wed, 19 Aug 2026 22:52:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美중간선거 경선서 '트럼프 지지' 주지사 후보 2명 희비 엇갈려",
       "link": "https://www.yna.co.kr/view/AKR20260819175700071",
       "source": "연합뉴스 국제",
       "ts": 1787146158000,
       "pub": "Wed, 19 Aug 2026 22:29:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]김여정 \"트럼프-김정은 관계 훌륭…안전 위협 세력 견제 필수\"",
-      "link": "https://www.mt.co.kr/politics/2026/08/19/2026081922191249493",
-      "source": "머니투데이",
-      "ts": 1787145664000,
-      "pub": "Wed, 19 Aug 2026 22:21:04 +0900",
       "sentiment": "neutral"
     },
     {
@@ -220,14 +212,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 놓칠라 차 트렁크에 탄 보좌관…'애착담요' 누구길래[글로벌키맨]",
-      "link": "https://www.mt.co.kr/world/2026/08/19/2026081913465148517",
-      "source": "머니투데이",
-      "ts": 1787133212000,
-      "pub": "Wed, 19 Aug 2026 18:53:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "'혹한기 정전' 노리나…러, 우크라 발전시설 잇따라 타격",
       "link": "https://www.yna.co.kr/view/AKR20260819154800109",
       "source": "연합뉴스 국제",
@@ -289,14 +273,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787107518000,
       "pub": "Wed, 19 Aug 2026 11:45:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘 이번엔 시리아 공습…트럼프 중동구상에 또 '찬물'",
-      "link": "https://www.yna.co.kr/view/AKR20260819068700009",
-      "source": "연합뉴스 국제",
-      "ts": 1787104908000,
-      "pub": "Wed, 19 Aug 2026 11:01:48 +0900",
       "sentiment": "neutral"
     }
   ]

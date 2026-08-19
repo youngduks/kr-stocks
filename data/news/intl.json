@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-19T08:22:15.277Z",
-  "count": 25,
+  "updated_at": "2026-08-19T09:21:24.269Z",
+  "count": 21,
   "items": [
+    {
+      "title": "'혹한기 정전' 노리나…러, 우크라 발전시설 잇따라 타격",
+      "link": "https://www.yna.co.kr/view/AKR20260819154800109",
+      "source": "연합뉴스 국제",
+      "ts": 1787129781000,
+      "pub": "Wed, 19 Aug 2026 17:56:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[영상] 잘린 '드론전 영웅' 우크라 前국방, 젤렌스키에 \"전시 대선하자\"",
+      "link": "https://www.yna.co.kr/view/AKR20260819156800704",
+      "source": "연합뉴스 국제",
+      "ts": 1787129579000,
+      "pub": "Wed, 19 Aug 2026 17:52:59 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[게시판] 관세청, 을지연습 차원 인천공항서 폭발물 처리 훈련",
       "link": "https://www.yna.co.kr/view/AKR20260819147400002",
@@ -20,43 +36,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'트럼프 픽' 후보 美 예비선거 줄낙마…민주당은 '사회주의자' 당선",
-      "link": "https://www.mt.co.kr/world/2026/08/19/2026081916084215104",
-      "source": "머니투데이",
-      "ts": 1787126126000,
-      "pub": "Wed, 19 Aug 2026 16:55:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 지시로 '연합연습' 21일 조기종료…정부 \"사전통보 없었다\"",
-      "link": "https://www.mt.co.kr/politics/2026/08/19/2026081915184610254",
-      "source": "머니투데이",
-      "ts": 1787124507000,
-      "pub": "Wed, 19 Aug 2026 16:28:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "12시간 후 FOMC 의사록 공개…美 장기금리·반도체 흐름 변수",
-      "link": "https://www.mt.co.kr/stock/2026/08/19/2026081915573494946",
-      "source": "머니투데이",
-      "ts": 1787123690000,
-      "pub": "Wed, 19 Aug 2026 16:14:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, 캐나다 '50% 관세' 3일 보류…카니 \"주요 과제 여전\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260819084251009",
       "source": "연합뉴스 국제",
       "ts": 1787122791000,
       "pub": "Wed, 19 Aug 2026 15:59:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "격화하는 중동·고개 드는 PCE 물가…매크로는 '첩첩산중'",
-      "link": "https://www.hankyung.com/article/202608199532i",
-      "source": "한국경제",
-      "ts": 1787121884000,
-      "pub": "Wed, 19 Aug 2026 15:44:44 +0900",
       "sentiment": "neutral"
     },
     {
@@ -185,22 +169,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787082398000,
       "pub": "Wed, 19 Aug 2026 04:46:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美하원소위 여야, '트럼프탓 한국탓' 한미훈련 축소 갑론을박",
-      "link": "https://www.yna.co.kr/view/AKR20260819001900071",
-      "source": "연합뉴스 국제",
-      "ts": 1787075942000,
-      "pub": "Wed, 19 Aug 2026 02:59:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 한달 뒤 방미 시진핑에 '김정은 설득' 요청할까",
-      "link": "https://www.yna.co.kr/view/AKR20260819002100071",
-      "source": "연합뉴스 국제",
-      "ts": 1787075730000,
-      "pub": "Wed, 19 Aug 2026 02:55:30 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-19T02:10:24.777Z",
-  "count": 12,
+  "updated_at": "2026-08-19T03:36:51.223Z",
+  "count": 13,
   "items": [
+    {
+      "title": "삼성전자, 광주에 플랙트 냉난방공조 생산라인…2천400억 투자(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260819031051003",
+      "source": "연합뉴스 경제",
+      "ts": 1787107540000,
+      "pub": "Wed, 19 Aug 2026 11:45:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 광주에 플랙트 냉난방공조 생산라인…2천400억 투자",
+      "link": "https://www.yna.co.kr/view/AKR20260819031000003",
+      "source": "연합뉴스 경제",
+      "ts": 1787106198000,
+      "pub": "Wed, 19 Aug 2026 11:23:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, 글로벌 고금리에 장중 5%대↓…삼전닉스 급락",
+      "link": "https://www.yna.co.kr/view/AKR20260819075800008",
+      "source": "연합뉴스 경제",
+      "ts": 1787106085000,
+      "pub": "Wed, 19 Aug 2026 11:21:25 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "\"삼전닉스 270조원 주주환원\" 엄포…경찰청 향한 주주단체",
       "link": "https://www.hankyung.com/article/202608199001g",
@@ -20,27 +44,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "엑사이엔씨, 삼성전자 평택캠퍼스 P5서 잇단 수주…1000억원대 수주고 확보",
-      "link": "https://www.hankyung.com/article/202608198848i",
-      "source": "한국경제",
-      "ts": 1787099283000,
-      "pub": "Wed, 19 Aug 2026 09:28:03 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "[특징주] 반도체주 또 출렁…삼전닉스, 장 초반 7∼9% 급락",
       "link": "https://www.yna.co.kr/view/AKR20260819038800008",
       "source": "연합뉴스 경제",
       "ts": 1787098827000,
       "pub": "Wed, 19 Aug 2026 09:20:27 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "장기채 금리 불안…삼전닉스, 7~8%대 동반 급락",
-      "link": "https://www.hankyung.com/article/2026081987806",
-      "source": "한국경제",
-      "ts": 1787098643000,
-      "pub": "Wed, 19 Aug 2026 09:17:23 +0900",
       "sentiment": "negative"
     },
     {

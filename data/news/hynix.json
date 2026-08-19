@@ -1,23 +1,47 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-19T02:10:24.778Z",
-  "count": 15,
+  "updated_at": "2026-08-19T03:36:51.224Z",
+  "count": 18,
   "items": [
     {
-      "title": "KT, 국산 AI 반도체·AI 하나로 통합…'KT NPU LLM 스테이션' 출시",
-      "link": "https://www.mt.co.kr/tech/2026/08/19/2026081909100560285",
-      "source": "머니투데이",
-      "ts": 1787102249000,
-      "pub": "Wed, 19 Aug 2026 10:17:29 +0900",
+      "title": "FT \"바이트댄스·텐센트, 엔비디아 H200 칩 1만개씩 확보\"",
+      "link": "https://www.yna.co.kr/view/AKR20260819089900009",
+      "source": "연합뉴스 국제",
+      "ts": 1787109168000,
+      "pub": "Wed, 19 Aug 2026 12:12:48 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"반도체주 다시 시장 이끈다…바벨 전략 펼쳐야\"",
-      "link": "https://www.mt.co.kr/stock/2026/08/19/2026081908302771152",
-      "source": "머니투데이",
-      "ts": 1787101963000,
-      "pub": "Wed, 19 Aug 2026 10:12:43 +0900",
+      "title": "올해 하반기 일자리 전망…반도체·조선 '맑음', 섬유 '흐림'",
+      "link": "https://www.yna.co.kr/view/AKR20260819046100530",
+      "source": "연합뉴스 경제",
+      "ts": 1787108415000,
+      "pub": "Wed, 19 Aug 2026 12:00:15 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "KDI \"올해 성장률 전망치 3.2%로 0.7%p↑…0.6%p가 반도체 몫\"",
+      "link": "https://www.yna.co.kr/view/AKR20260819082000002",
+      "source": "연합뉴스 경제",
+      "ts": 1787108402000,
+      "pub": "Wed, 19 Aug 2026 12:00:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피 상반기 매출 2천조원…반도체 독주속 순이익 작년 4배로",
+      "link": "https://www.yna.co.kr/view/AKR20260819080900008",
+      "source": "연합뉴스 경제",
+      "ts": 1787108401000,
+      "pub": "Wed, 19 Aug 2026 12:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'AI 희망'이 반도체 악재로…'반년새 7배' 앤스로픽 매출 실망론",
+      "link": "https://www.hankyung.com/article/202608198983i",
+      "source": "한국경제",
+      "ts": 1787106465000,
+      "pub": "Wed, 19 Aug 2026 11:27:45 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "원전 10기급 'AI 심장' 짓는다…오픈AI·엔비디아, 오하이오에 초대형 베팅",

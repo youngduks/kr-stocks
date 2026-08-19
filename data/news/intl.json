@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-19T02:10:24.776Z",
-  "count": 34,
+  "updated_at": "2026-08-19T03:36:51.222Z",
+  "count": 32,
   "items": [
+    {
+      "title": "트럼프 \"캐나다 부과 예정이던 50% 관세 사흘간 중단\"",
+      "link": "https://www.yna.co.kr/view/AKR20260819084200009",
+      "source": "연합뉴스 국제",
+      "ts": 1787107518000,
+      "pub": "Wed, 19 Aug 2026 11:45:18 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이스라엘 이번엔 시리아 공습…트럼프 중동구상에 또 '찬물'",
       "link": "https://www.yna.co.kr/view/AKR20260819068700009",
@@ -12,11 +20,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 한 마디에 한미연합훈련 절반 단축...대북 반격 연습 취소",
-      "link": "https://www.mt.co.kr/politics/2026/08/19/2026081909341831486",
-      "source": "머니투데이",
-      "ts": 1787104113000,
-      "pub": "Wed, 19 Aug 2026 10:48:33 +0900",
+      "title": "조현 \"트럼프 한미훈련 발언, 양측 정부 모두 몰랐다…사전 통보 없어\"",
+      "link": "https://www.hankyung.com/article/2026081992257",
+      "source": "한국경제",
+      "ts": 1787104676000,
+      "pub": "Wed, 19 Aug 2026 10:57:56 +0900",
       "sentiment": "neutral"
     },
     {
@@ -249,30 +257,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787041543000,
       "pub": "Tue, 18 Aug 2026 17:25:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "에르도안, 트럼프에 \"F-35 준다던 약속 지켜야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260818137600108",
-      "source": "연합뉴스 국제",
-      "ts": 1787038930000,
-      "pub": "Tue, 18 Aug 2026 16:42:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "시리아 군 공항, 정체불명 전투기에 피격…\"이스라엘 의심\"",
-      "link": "https://www.yna.co.kr/view/AKR20260818140500079",
-      "source": "연합뉴스 국제",
-      "ts": 1787038788000,
-      "pub": "Tue, 18 Aug 2026 16:39:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한국에 오만까지…'동맹만 닥달' 트럼프에 美신뢰 '흔들'",
-      "link": "https://www.yna.co.kr/view/AKR20260818137300009",
-      "source": "연합뉴스 국제",
-      "ts": 1787038486000,
-      "pub": "Tue, 18 Aug 2026 16:34:46 +0900",
       "sentiment": "neutral"
     }
   ]

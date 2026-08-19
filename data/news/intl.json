@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-19T21:15:12.569Z",
+  "updated_at": "2026-08-19T22:12:52.117Z",
   "count": 34,
   "items": [
+    {
+      "title": "'김정은과 연내 회담' 확언한 트럼프…비핵화 목표엔 즉답 회피(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260820004651071",
+      "source": "연합뉴스 국제",
+      "ts": 1787174644000,
+      "pub": "Thu, 20 Aug 2026 06:24:04 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'北 핵무기 57개' 트럼프 발언 파장…거래적 대북정책 수순밟나",
       "link": "https://www.yna.co.kr/view/AKR20260820005900071",
@@ -265,14 +273,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787113972000,
       "pub": "Wed, 19 Aug 2026 13:32:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"캐나다 부과 예정이던 50% 관세 사흘간 중단\"",
-      "link": "https://www.yna.co.kr/view/AKR20260819084200009",
-      "source": "연합뉴스 국제",
-      "ts": 1787107518000,
-      "pub": "Wed, 19 Aug 2026 11:45:18 +0900",
       "sentiment": "neutral"
     }
   ]

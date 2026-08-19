@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-19T17:16:27.686Z",
-  "count": 36,
+  "updated_at": "2026-08-19T18:16:39.717Z",
+  "count": 29,
   "items": [
+    {
+      "title": "트럼프, FDA국장에 보건 참모 오버턴 지명…\"행정부 록스타\"",
+      "link": "https://www.yna.co.kr/view/AKR20260820002900071",
+      "source": "연합뉴스 국제",
+      "ts": 1787160781000,
+      "pub": "Thu, 20 Aug 2026 02:33:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이스라엘군 참모총장, 시리아 점령지 방문 \"적 위협 용납 못해\"",
       "link": "https://www.yna.co.kr/view/AKR20260820002500079",
@@ -28,35 +36,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "美 여야 상원의원 \"한미연합훈련 축소 철회해야\"…트럼프에 서한",
-      "link": "https://www.mt.co.kr/world/2026/08/20/2026082001103249741",
-      "source": "머니투데이",
-      "ts": 1787155966000,
-      "pub": "Thu, 20 Aug 2026 01:12:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"김정은 핵무기 57개 보유, 올해 안에 만날 것\"(상보)",
-      "link": "https://www.mt.co.kr/world/2026/08/20/2026082000554632365",
-      "source": "머니투데이",
-      "ts": 1787155457000,
-      "pub": "Thu, 20 Aug 2026 01:04:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"김정은, 57개 매우 강력한 핵무기 보유…연내 만날 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260820001400071",
       "source": "연합뉴스 국제",
       "ts": 1787155044000,
       "pub": "Thu, 20 Aug 2026 00:57:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]트럼프 \"김정은 핵무기 57개 갖고 있어…연내 회담할 것\"",
-      "link": "https://www.mt.co.kr/world/2026/08/20/2026082000444071326",
-      "source": "머니투데이",
-      "ts": 1787154382000,
-      "pub": "Thu, 20 Aug 2026 00:46:22 +0900",
       "sentiment": "neutral"
     },
     {
@@ -100,27 +84,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "김여정 \"트럼프·김정은 소통 알지 못해…한미훈련 축소 흥미 없어\"",
-      "link": "https://www.mt.co.kr/politics/2026/08/19/2026081922162813804",
-      "source": "머니투데이",
-      "ts": 1787147571000,
-      "pub": "Wed, 19 Aug 2026 22:52:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美중간선거 경선서 '트럼프 지지' 주지사 후보 2명 희비 엇갈려",
       "link": "https://www.yna.co.kr/view/AKR20260819175700071",
       "source": "연합뉴스 국제",
       "ts": 1787146158000,
       "pub": "Wed, 19 Aug 2026 22:29:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]김여정 \"트럼프-김정은 관계 훌륭…안전 위협 세력 견제 필수\"",
-      "link": "https://www.mt.co.kr/politics/2026/08/19/2026081922191249493",
-      "source": "머니투데이",
-      "ts": 1787145664000,
-      "pub": "Wed, 19 Aug 2026 22:21:04 +0900",
       "sentiment": "neutral"
     },
     {
@@ -185,22 +153,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787133686000,
       "pub": "Wed, 19 Aug 2026 19:01:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 놓칠라 차 트렁크에 탄 보좌관…'애착담요' 누구길래[글로벌키맨]",
-      "link": "https://www.mt.co.kr/world/2026/08/19/2026081913465148517",
-      "source": "머니투데이",
-      "ts": 1787133212000,
-      "pub": "Wed, 19 Aug 2026 18:53:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 국채수익률, 내일 새벽이 고비…20년물 국채 입찰·FOMC 의사록[오미주]",
-      "link": "https://www.mt.co.kr/world/2026/08/19/2026081915140048845",
-      "source": "머니투데이",
-      "ts": 1787130300000,
-      "pub": "Wed, 19 Aug 2026 18:05:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -281,14 +233,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787103679000,
       "pub": "Wed, 19 Aug 2026 10:41:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 '드론전 영웅', 젤렌스키에 반기…\"선거해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260819054200009",
-      "source": "연합뉴스 국제",
-      "ts": 1787101667000,
-      "pub": "Wed, 19 Aug 2026 10:07:47 +0900",
       "sentiment": "neutral"
     }
   ]

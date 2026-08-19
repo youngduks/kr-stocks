@@ -1,7 +1,7 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-19T03:36:51.222Z",
-  "count": 32,
+  "updated_at": "2026-08-19T04:25:12.119Z",
+  "count": 30,
   "items": [
     {
       "title": "트럼프 \"캐나다 부과 예정이던 50% 관세 사흘간 중단\"",
@@ -42,14 +42,6 @@
       "ts": 1787101667000,
       "pub": "Wed, 19 Aug 2026 10:07:47 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프·김정은, 中서 만날 수도\" 소식에…일제히 급등한 종목",
-      "link": "https://www.hankyung.com/article/2026081988926",
-      "source": "한국경제",
-      "ts": 1787099879000,
-      "pub": "Wed, 19 Aug 2026 09:37:59 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "\"日도 트럼프 압박에 대비…주일미군 분담금 인상 등 가능성\"",
@@ -249,14 +241,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787043772000,
       "pub": "Tue, 18 Aug 2026 18:02:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라, 연일 모스크바 겨냥 드론 공격…\"하루 600대 넘어\"",
-      "link": "https://www.yna.co.kr/view/AKR20260818145500109",
-      "source": "연합뉴스 국제",
-      "ts": 1787041543000,
-      "pub": "Tue, 18 Aug 2026 17:25:43 +0900",
       "sentiment": "neutral"
     }
   ]

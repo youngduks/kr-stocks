@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-19T03:36:51.224Z",
-  "count": 18,
+  "updated_at": "2026-08-19T04:25:12.121Z",
+  "count": 19,
   "items": [
     {
       "title": "FT \"바이트댄스·텐센트, 엔비디아 H200 칩 1만개씩 확보\"",
@@ -17,6 +17,14 @@
       "source": "연합뉴스 경제",
       "ts": 1787108415000,
       "pub": "Wed, 19 Aug 2026 12:00:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "상장사 상반기 영업이익 전년비 254% 급증…반도체·IT가 실적 견인",
+      "link": "https://www.hankyung.com/article/2026081991966",
+      "source": "한국경제",
+      "ts": 1787108403000,
+      "pub": "Wed, 19 Aug 2026 12:00:03 +0900",
       "sentiment": "neutral"
     },
     {
@@ -36,20 +44,20 @@
       "sentiment": "neutral"
     },
     {
+      "title": "반도체주 급락에 개인은 '울상'…고수들은 저가매수 기회",
+      "link": "https://www.hankyung.com/article/202608199187i",
+      "source": "한국경제",
+      "ts": 1787107267000,
+      "pub": "Wed, 19 Aug 2026 11:41:07 +0900",
+      "sentiment": "negative"
+    },
+    {
       "title": "'AI 희망'이 반도체 악재로…'반년새 7배' 앤스로픽 매출 실망론",
       "link": "https://www.hankyung.com/article/202608198983i",
       "source": "한국경제",
       "ts": 1787106465000,
       "pub": "Wed, 19 Aug 2026 11:27:45 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "원전 10기급 'AI 심장' 짓는다…오픈AI·엔비디아, 오하이오에 초대형 베팅",
-      "link": "https://www.hankyung.com/article/202608198852i",
-      "source": "한국경제",
-      "ts": 1787100850000,
-      "pub": "Wed, 19 Aug 2026 09:54:10 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "반도체 맹독성 폐수 친환경처리 기술 개발",

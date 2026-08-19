@@ -1,8 +1,112 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-18T23:11:36.803Z",
-  "count": 30,
+  "updated_at": "2026-08-19T00:33:41.393Z",
+  "count": 42,
   "items": [
+    {
+      "title": "\"日도 트럼프 압박에 대비…주일미군 분담금 인상 등 가능성\"",
+      "link": "https://www.yna.co.kr/view/AKR20260819039200073",
+      "source": "연합뉴스 국제",
+      "ts": 1787099276000,
+      "pub": "Wed, 19 Aug 2026 09:27:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "디젤값 폭등해 미국경제 강타…중간선거 앞 트럼프에 악재",
+      "link": "https://www.yna.co.kr/view/AKR20260819026800009",
+      "source": "연합뉴스 국제",
+      "ts": 1787097525000,
+      "pub": "Wed, 19 Aug 2026 08:58:45 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "WSJ \"트럼프, 이르면 올가을 김정은과 정상회담 추진\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260819027500009",
+      "source": "연합뉴스 국제",
+      "ts": 1787097007000,
+      "pub": "Wed, 19 Aug 2026 08:50:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 연내 北 김정은과 회담 추진…11월 APEC기간 유력\"-WSJ",
+      "link": "https://www.mt.co.kr/world/2026/08/19/2026081908240436653",
+      "source": "머니투데이",
+      "ts": 1787096725000,
+      "pub": "Wed, 19 Aug 2026 08:45:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "WSJ \"트럼프, 이르면 올가을 김정은과 정상회담 추진\"",
+      "link": "https://www.yna.co.kr/view/AKR20260819024100009",
+      "source": "연합뉴스 국제",
+      "ts": 1787095496000,
+      "pub": "Wed, 19 Aug 2026 08:24:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] \"트럼프, 올해 안에 北 김정은과 회담 추진\"-WSJ",
+      "link": "https://www.mt.co.kr/world/2026/08/19/2026081908175464947",
+      "source": "머니투데이",
+      "ts": 1787095155000,
+      "pub": "Wed, 19 Aug 2026 08:19:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한투증권 \"7월 미국 PCE 물가, 전월 대비 상승폭 확대 전망\"",
+      "link": "https://www.yna.co.kr/view/AKR20260819022800008",
+      "source": "연합뉴스 경제",
+      "ts": 1787095017000,
+      "pub": "Wed, 19 Aug 2026 08:16:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] \"트럼프, 北 김정은과 연내 만남 추진…11월 APEC 가능성\" [WSJ]",
+      "link": "https://www.hankyung.com/article/2026081985247",
+      "source": "한국경제",
+      "ts": 1787094787000,
+      "pub": "Wed, 19 Aug 2026 08:13:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] \"트럼프, 北 김정은과 연내 만남 추진…11월 APEC 가능성\"",
+      "link": "https://www.yna.co.kr/view/AKR20260819022400009",
+      "source": "연합뉴스 국제",
+      "ts": 1787094656000,
+      "pub": "Wed, 19 Aug 2026 08:10:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프의 '애착 담요' 참모 누구길래…백악관 총력 방어 나섰다",
+      "link": "https://www.hankyung.com/article/2026081983957",
+      "source": "한국경제",
+      "ts": 1787093899000,
+      "pub": "Wed, 19 Aug 2026 07:58:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 \"완전한 종전 원해\" VS 트럼프 \"회담 없다...해협은 우리땅\"",
+      "link": "https://www.mt.co.kr/world/2026/08/19/2026081907132444887",
+      "source": "머니투데이",
+      "ts": 1787093704000,
+      "pub": "Wed, 19 Aug 2026 07:55:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[외신 에스프레소] 오만마저 폭격 위협…협상 난항에 칼 빼든 트럼프",
+      "link": "https://www.hankyung.com/article/202608198409i",
+      "source": "한국경제",
+      "ts": 1787093449000,
+      "pub": "Wed, 19 Aug 2026 07:50:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "북한 \"행동으로 자위권 행사\" 한미훈련 비난...트럼프엔 무반응",
+      "link": "https://www.mt.co.kr/politics/2026/08/19/2026081906575518164",
+      "source": "머니투데이",
+      "ts": 1787090888000,
+      "pub": "Wed, 19 Aug 2026 07:08:08 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 옛 안보보좌관 볼턴, 한미훈련 축소에 \"큰 실수\"",
       "link": "https://www.yna.co.kr/view/AKR20260819012600071",
@@ -74,14 +178,6 @@
       "ts": 1787067279000,
       "pub": "Wed, 19 Aug 2026 00:34:39 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "디즈니, 트럼프 정부 상대 \"표현의 자유 침해\" 소송",
-      "link": "https://www.hankyung.com/article/202608198245i",
-      "source": "한국경제",
-      "ts": 1787066719000,
-      "pub": "Wed, 19 Aug 2026 00:25:19 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "\"가자 주민 매일 죽여야\" 이스라엘 극우장관 EU 제재 받나",

@@ -1,14 +1,38 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-19T09:21:24.457Z",
-  "count": 18,
+  "updated_at": "2026-08-19T10:17:00.719Z",
+  "count": 21,
   "items": [
     {
-      "title": "中 양쯔메모리도 내년 중 IPO...상장 전 '지도검수' 마쳐",
-      "link": "https://www.hankyung.com/article/202608190028i",
+      "title": "SK하이닉스, 100조 주주환원 시동",
+      "link": "https://www.hankyung.com/article/2026081904641",
       "source": "한국경제",
-      "ts": 1787124307000,
-      "pub": "Wed, 19 Aug 2026 16:25:07 +0900",
+      "ts": 1787131433000,
+      "pub": "Wed, 19 Aug 2026 18:23:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체·조선 빼곤 사람 안 뽑아…'뉴 노멀' 된 고용 없는 성장",
+      "link": "https://www.hankyung.com/article/2026081904391",
+      "source": "한국경제",
+      "ts": 1787131368000,
+      "pub": "Wed, 19 Aug 2026 18:22:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI·반도체에 8.9조 '뭉칫돈'…상반기 벤처투자 역대 최대",
+      "link": "https://www.hankyung.com/article/2026081904951",
+      "source": "한국경제",
+      "ts": 1787129895000,
+      "pub": "Wed, 19 Aug 2026 17:58:15 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "하이닉스, 40조 자사주 소각…증시 흐름 바꿀 변곡점 되나",
+      "link": "https://www.hankyung.com/article/2026081904751",
+      "source": "한국경제",
+      "ts": 1787129764000,
+      "pub": "Wed, 19 Aug 2026 17:56:04 +0900",
       "sentiment": "neutral"
     },
     {

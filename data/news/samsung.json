@@ -1,14 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-19T05:19:16.468Z",
-  "count": 13,
+  "updated_at": "2026-08-19T06:22:52.691Z",
+  "count": 12,
   "items": [
     {
-      "title": "상반기 코스피 순익 전년보다 333%↑…삼전닉스 제외해도 두배",
-      "link": "https://www.mt.co.kr/stock/2026/08/19/2026081911082976406",
+      "title": "중국 '메모리 투톱' YMTC도 IPO 행보…내년 상반기 예상",
+      "link": "https://www.yna.co.kr/view/AKR20260819113100009",
+      "source": "연합뉴스 국제",
+      "ts": 1787119445000,
+      "pub": "Wed, 19 Aug 2026 15:04:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'253조' 삼전닉스만 잘 버는 줄 알았는데…코스피·코스닥 '실적' 잔치",
+      "link": "https://www.mt.co.kr/stock/2026/08/19/2026081914071279283",
       "source": "머니투데이",
-      "ts": 1787108400000,
-      "pub": "Wed, 19 Aug 2026 12:00:00 +0900",
+      "ts": 1787117195000,
+      "pub": "Wed, 19 Aug 2026 14:26:35 +0900",
       "sentiment": "neutral"
     },
     {
@@ -36,28 +44,12 @@
       "sentiment": "negative"
     },
     {
-      "title": "\"삼전닉스 270조원 주주환원\" 엄포…경찰청 향한 주주단체",
-      "link": "https://www.hankyung.com/article/202608199001g",
-      "source": "한국경제",
-      "ts": 1787102578000,
-      "pub": "Wed, 19 Aug 2026 10:22:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[특징주] 반도체주 또 출렁…삼전닉스, 장 초반 7∼9% 급락",
       "link": "https://www.yna.co.kr/view/AKR20260819038800008",
       "source": "연합뉴스 경제",
       "ts": 1787098827000,
       "pub": "Wed, 19 Aug 2026 09:20:27 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "삼성전자 평택캠퍼스에 3층짜리 팹 건설되나…용적률 상향 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260818155900061",
-      "source": "연합뉴스 경제",
-      "ts": 1787094060000,
-      "pub": "Wed, 19 Aug 2026 08:01:00 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

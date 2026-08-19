@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-19T05:19:16.469Z",
-  "count": 23,
+  "updated_at": "2026-08-19T06:22:52.691Z",
+  "count": 20,
   "items": [
+    {
+      "title": "중국 '메모리 투톱' YMTC도 IPO 행보…내년 상반기 예상",
+      "link": "https://www.yna.co.kr/view/AKR20260819113100009",
+      "source": "연합뉴스 국제",
+      "ts": 1787119445000,
+      "pub": "Wed, 19 Aug 2026 15:04:05 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "로브로스, 이족보행 휴머노이드 9대 동시 공급…반도체·車·물류 투입",
       "link": "https://www.mt.co.kr/future/2026/08/19/2026081908253687924",
@@ -10,14 +18,6 @@
       "ts": 1787115600000,
       "pub": "Wed, 19 Aug 2026 14:00:00 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[뉴스프레소] 글로벌 국채금리 급등 '비상'… 나스닥, 반도체 주도 1.3% 하락",
-      "link": "https://www.mt.co.kr/world/2026/08/19/2026081912157057776",
-      "source": "머니투데이",
-      "ts": 1787112512000,
-      "pub": "Wed, 19 Aug 2026 13:08:32 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "FT \"바이트댄스·텐센트, 엔비디아 H200 칩 1만개씩 확보\"",
@@ -60,23 +60,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "상반기 코스닥 순익 전년비 287%↑…반도체 소부장 '질주'",
-      "link": "https://www.mt.co.kr/stock/2026/08/19/2026081911224215794",
-      "source": "머니투데이",
-      "ts": 1787108400000,
-      "pub": "Wed, 19 Aug 2026 12:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "KDI, 올해 성장률 '2.5%→3.2%' 상향…0.6%p는 반도체 효과",
-      "link": "https://www.mt.co.kr/economy/2026/08/19/2026081908174325531",
-      "source": "머니투데이",
-      "ts": 1787108400000,
-      "pub": "Wed, 19 Aug 2026 12:00:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체주 급락에 개인은 '울상'…고수들은 저가매수 기회",
+      "title": "반도체주 급락에 개인은 '울상'…고수들은 '줍줍'",
       "link": "https://www.hankyung.com/article/202608199187i",
       "source": "한국경제",
       "ts": 1787107267000,
@@ -170,13 +154,6 @@
       "source": "전자공시(DART)",
       "ts": 1786060800000,
       "pub": "2026.08.07"
-    },
-    {
-      "title": "에스케이하이닉스(주) 풍문 또는 보도에 대한 해명(미확정)",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=93366653&code=000660&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1785888000000,
-      "pub": "2026.08.05"
     }
   ]
 }

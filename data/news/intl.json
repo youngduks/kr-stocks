@@ -1,7 +1,7 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-19T05:19:16.466Z",
-  "count": 36,
+  "updated_at": "2026-08-19T06:22:52.690Z",
+  "count": 30,
   "items": [
     {
       "title": "조현 \"트럼프 '연합연습' 축소 지시 당일 美대사와 소통\"",
@@ -36,22 +36,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 지시에 한미 UFS 훈련 '반토막'…북미정상회담 '승부수'",
-      "link": "https://www.mt.co.kr/politics/2026/08/19/2026081910190939511",
-      "source": "머니투데이",
-      "ts": 1787112814000,
-      "pub": "Wed, 19 Aug 2026 13:13:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "조현 \"트럼프 한미연습 축소 발언…양국 관계자 아무도 몰랐다\"",
-      "link": "https://www.mt.co.kr/politics/2026/08/19/2026081910561536897",
-      "source": "머니투데이",
-      "ts": 1787108799000,
-      "pub": "Wed, 19 Aug 2026 12:06:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 \"캐나다 부과 예정이던 50% 관세 사흘간 중단\"",
       "link": "https://www.yna.co.kr/view/AKR20260819084200009",
       "source": "연합뉴스 국제",
@@ -65,14 +49,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787104908000,
       "pub": "Wed, 19 Aug 2026 11:01:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "조현 \"트럼프 한미훈련 발언, 양측 정부 모두 몰랐다…사전 통보 없어\"",
-      "link": "https://www.hankyung.com/article/2026081992257",
-      "source": "한국경제",
-      "ts": 1787104676000,
-      "pub": "Wed, 19 Aug 2026 10:57:56 +0900",
       "sentiment": "neutral"
     },
     {
@@ -121,14 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787095496000,
       "pub": "Wed, 19 Aug 2026 08:24:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "한투증권 \"7월 미국 PCE 물가, 전월 대비 상승폭 확대 전망\"",
-      "link": "https://www.yna.co.kr/view/AKR20260819022800008",
-      "source": "연합뉴스 경제",
-      "ts": 1787095017000,
-      "pub": "Wed, 19 Aug 2026 08:16:57 +0900",
       "sentiment": "neutral"
     },
     {
@@ -273,22 +241,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787049550000,
       "pub": "Tue, 18 Aug 2026 19:39:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 '한미 훈련 축소 지시'에 日방위상 \"한미일 협력은 필수\"",
-      "link": "https://www.yna.co.kr/view/AKR20260818159600073",
-      "source": "연합뉴스 국제",
-      "ts": 1787045048000,
-      "pub": "Tue, 18 Aug 2026 18:24:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "NYT \"이란전 늪 빠진 트럼프, 익숙한 김정은에 눈 돌려\"",
-      "link": "https://www.yna.co.kr/view/AKR20260818157700009",
-      "source": "연합뉴스 국제",
-      "ts": 1787043772000,
-      "pub": "Tue, 18 Aug 2026 18:02:52 +0900",
       "sentiment": "neutral"
     }
   ]

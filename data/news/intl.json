@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-19T13:35:23.267Z",
-  "count": 28,
+  "updated_at": "2026-08-19T14:21:29.631Z",
+  "count": 30,
   "items": [
+    {
+      "title": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
+      "link": "https://www.yna.co.kr/view/AKR20260819178400109",
+      "source": "연합뉴스 국제",
+      "ts": 1787148685000,
+      "pub": "Wed, 19 Aug 2026 23:11:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 여야 상원의원, 트럼프에 \"한미훈련 축소 철회\" 서한",
+      "link": "https://www.yna.co.kr/view/AKR20260819178100071",
+      "source": "연합뉴스 국제",
+      "ts": 1787147621000,
+      "pub": "Wed, 19 Aug 2026 22:53:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "김여정 \"트럼프·김정은 소통 알지 못해…한미훈련 축소 흥미 없어\"",
+      "link": "https://www.mt.co.kr/politics/2026/08/19/2026081922162813804",
+      "source": "머니투데이",
+      "ts": 1787147571000,
+      "pub": "Wed, 19 Aug 2026 22:52:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美중간선거 경선서 '트럼프 지지' 주지사 후보 2명 희비 엇갈려",
+      "link": "https://www.yna.co.kr/view/AKR20260819175700071",
+      "source": "연합뉴스 국제",
+      "ts": 1787146158000,
+      "pub": "Wed, 19 Aug 2026 22:29:18 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[속보]김여정 \"트럼프-김정은 관계 훌륭…안전 위협 세력 견제 필수\"",
       "link": "https://www.mt.co.kr/politics/2026/08/19/2026081922191249493",
@@ -209,22 +241,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787097007000,
       "pub": "Wed, 19 Aug 2026 08:50:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "WSJ \"트럼프, 이르면 올가을 김정은과 정상회담 추진\"",
-      "link": "https://www.yna.co.kr/view/AKR20260819024100009",
-      "source": "연합뉴스 국제",
-      "ts": 1787095496000,
-      "pub": "Wed, 19 Aug 2026 08:24:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] \"트럼프, 北 김정은과 연내 만남 추진…11월 APEC 가능성\"",
-      "link": "https://www.yna.co.kr/view/AKR20260819022400009",
-      "source": "연합뉴스 국제",
-      "ts": 1787094656000,
-      "pub": "Wed, 19 Aug 2026 08:10:56 +0900",
       "sentiment": "neutral"
     }
   ]

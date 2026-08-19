@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-19T07:29:03.591Z",
-  "count": 26,
+  "updated_at": "2026-08-19T08:22:15.277Z",
+  "count": 25,
   "items": [
+    {
+      "title": "[게시판] 관세청, 을지연습 차원 인천공항서 폭발물 처리 훈련",
+      "link": "https://www.yna.co.kr/view/AKR20260819147400002",
+      "source": "연합뉴스 경제",
+      "ts": 1787126996000,
+      "pub": "Wed, 19 Aug 2026 17:09:56 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"네타냐후-쿠슈너, '하마스 기습 가담자 표적 공습' 두고 충돌\"",
+      "link": "https://www.yna.co.kr/view/AKR20260819149100079",
+      "source": "연합뉴스 국제",
+      "ts": 1787126973000,
+      "pub": "Wed, 19 Aug 2026 17:09:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'트럼프 픽' 후보 美 예비선거 줄낙마…민주당은 '사회주의자' 당선",
+      "link": "https://www.mt.co.kr/world/2026/08/19/2026081916084215104",
+      "source": "머니투데이",
+      "ts": 1787126126000,
+      "pub": "Wed, 19 Aug 2026 16:55:26 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 지시로 '연합연습' 21일 조기종료…정부 \"사전통보 없었다\"",
       "link": "https://www.mt.co.kr/politics/2026/08/19/2026081915184610254",
@@ -33,14 +57,6 @@
       "source": "한국경제",
       "ts": 1787121884000,
       "pub": "Wed, 19 Aug 2026 15:44:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "발효 2시간 앞두고…트럼프 \"캐나다산 50% 관세 부과 사흘간 중단\"",
-      "link": "https://www.mt.co.kr/world/2026/08/19/2026081915223895497",
-      "source": "머니투데이",
-      "ts": 1787121114000,
-      "pub": "Wed, 19 Aug 2026 15:31:54 +0900",
       "sentiment": "neutral"
     },
     {
@@ -186,30 +202,6 @@
       "ts": 1787075730000,
       "pub": "Wed, 19 Aug 2026 02:55:30 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"이스라엘, 시리아 군공항 공습\"…트럼프 특사 \"불필요한 긴장\" (종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260818140552079",
-      "source": "연합뉴스 국제",
-      "ts": 1787071048000,
-      "pub": "Wed, 19 Aug 2026 01:37:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란戰 꼬인 트럼프, 동맹에 화풀이…美언론 \"韓, 최근 희생양\"",
-      "link": "https://www.yna.co.kr/view/AKR20260819000400071",
-      "source": "연합뉴스 국제",
-      "ts": 1787067279000,
-      "pub": "Wed, 19 Aug 2026 00:34:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"가자 주민 매일 죽여야\" 이스라엘 극우장관 EU 제재 받나",
-      "link": "https://www.yna.co.kr/view/AKR20260818174400082",
-      "source": "연합뉴스 국제",
-      "ts": 1787065271000,
-      "pub": "Wed, 19 Aug 2026 00:01:11 +0900",
-      "sentiment": "negative"
     }
   ]
 }

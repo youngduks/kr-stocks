@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-19T00:33:41.393Z",
-  "count": 42,
+  "updated_at": "2026-08-19T02:10:24.776Z",
+  "count": 34,
   "items": [
+    {
+      "title": "이스라엘 이번엔 시리아 공습…트럼프 중동구상에 또 '찬물'",
+      "link": "https://www.yna.co.kr/view/AKR20260819068700009",
+      "source": "연합뉴스 국제",
+      "ts": 1787104908000,
+      "pub": "Wed, 19 Aug 2026 11:01:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 한 마디에 한미연합훈련 절반 단축...대북 반격 연습 취소",
+      "link": "https://www.mt.co.kr/politics/2026/08/19/2026081909341831486",
+      "source": "머니투데이",
+      "ts": 1787104113000,
+      "pub": "Wed, 19 Aug 2026 10:48:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"한미훈련 줄이고 항모는 중동으로…트럼프 亞행보 전략적 혼선\"",
+      "link": "https://www.yna.co.kr/view/AKR20260819052400071",
+      "source": "연합뉴스 국제",
+      "ts": 1787103679000,
+      "pub": "Wed, 19 Aug 2026 10:41:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 '드론전 영웅', 젤렌스키에 반기…\"선거해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260819054200009",
+      "source": "연합뉴스 국제",
+      "ts": 1787101667000,
+      "pub": "Wed, 19 Aug 2026 10:07:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프·김정은, 中서 만날 수도\" 소식에…일제히 급등한 종목",
+      "link": "https://www.hankyung.com/article/2026081988926",
+      "source": "한국경제",
+      "ts": 1787099879000,
+      "pub": "Wed, 19 Aug 2026 09:37:59 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "\"日도 트럼프 압박에 대비…주일미군 분담금 인상 등 가능성\"",
       "link": "https://www.yna.co.kr/view/AKR20260819039200073",
@@ -28,27 +68,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"트럼프, 연내 北 김정은과 회담 추진…11월 APEC기간 유력\"-WSJ",
-      "link": "https://www.mt.co.kr/world/2026/08/19/2026081908240436653",
-      "source": "머니투데이",
-      "ts": 1787096725000,
-      "pub": "Wed, 19 Aug 2026 08:45:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "WSJ \"트럼프, 이르면 올가을 김정은과 정상회담 추진\"",
       "link": "https://www.yna.co.kr/view/AKR20260819024100009",
       "source": "연합뉴스 국제",
       "ts": 1787095496000,
       "pub": "Wed, 19 Aug 2026 08:24:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] \"트럼프, 올해 안에 北 김정은과 회담 추진\"-WSJ",
-      "link": "https://www.mt.co.kr/world/2026/08/19/2026081908175464947",
-      "source": "머니투데이",
-      "ts": 1787095155000,
-      "pub": "Wed, 19 Aug 2026 08:19:15 +0900",
       "sentiment": "neutral"
     },
     {
@@ -60,51 +84,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[속보] \"트럼프, 北 김정은과 연내 만남 추진…11월 APEC 가능성\" [WSJ]",
-      "link": "https://www.hankyung.com/article/2026081985247",
-      "source": "한국경제",
-      "ts": 1787094787000,
-      "pub": "Wed, 19 Aug 2026 08:13:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] \"트럼프, 北 김정은과 연내 만남 추진…11월 APEC 가능성\"",
       "link": "https://www.yna.co.kr/view/AKR20260819022400009",
       "source": "연합뉴스 국제",
       "ts": 1787094656000,
       "pub": "Wed, 19 Aug 2026 08:10:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프의 '애착 담요' 참모 누구길래…백악관 총력 방어 나섰다",
-      "link": "https://www.hankyung.com/article/2026081983957",
-      "source": "한국경제",
-      "ts": 1787093899000,
-      "pub": "Wed, 19 Aug 2026 07:58:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이란 \"완전한 종전 원해\" VS 트럼프 \"회담 없다...해협은 우리땅\"",
-      "link": "https://www.mt.co.kr/world/2026/08/19/2026081907132444887",
-      "source": "머니투데이",
-      "ts": 1787093704000,
-      "pub": "Wed, 19 Aug 2026 07:55:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[외신 에스프레소] 오만마저 폭격 위협…협상 난항에 칼 빼든 트럼프",
-      "link": "https://www.hankyung.com/article/202608198409i",
-      "source": "한국경제",
-      "ts": 1787093449000,
-      "pub": "Wed, 19 Aug 2026 07:50:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "북한 \"행동으로 자위권 행사\" 한미훈련 비난...트럼프엔 무반응",
-      "link": "https://www.mt.co.kr/politics/2026/08/19/2026081906575518164",
-      "source": "머니투데이",
-      "ts": 1787090888000,
-      "pub": "Wed, 19 Aug 2026 07:08:08 +0900",
       "sentiment": "neutral"
     },
     {
@@ -289,54 +273,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787038486000,
       "pub": "Tue, 18 Aug 2026 16:34:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "공화당마저 반대…트럼프 정부, 국립공원 내 국경장벽 건설 중단",
-      "link": "https://www.yna.co.kr/view/AKR20260818135600009",
-      "source": "연합뉴스 국제",
-      "ts": 1787038369000,
-      "pub": "Tue, 18 Aug 2026 16:32:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러 '우크라 드론 지원' 영국에 \"테러 공범\"",
-      "link": "https://www.yna.co.kr/view/AKR20260818132100009",
-      "source": "연합뉴스 국제",
-      "ts": 1787037659000,
-      "pub": "Tue, 18 Aug 2026 16:20:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"시간표 없다\" 이란 \"전면 공세\"…'무한 대치' 국면 전환(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260818069651009",
-      "source": "연합뉴스 국제",
-      "ts": 1787037035000,
-      "pub": "Tue, 18 Aug 2026 16:10:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[쇼츠] 우크라, 하룻밤에 드론 '800대'…러시아 총선 앞두고 난타전",
-      "link": "https://www.yna.co.kr/view/AKR20260818118900704",
-      "source": "연합뉴스 국제",
-      "ts": 1787036097000,
-      "pub": "Tue, 18 Aug 2026 15:54:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 지지율 33%로 2기 최저…美국민 80% \"이란 장기전\" 우려",
-      "link": "https://www.yna.co.kr/view/AKR20260818112200009",
-      "source": "연합뉴스 국제",
-      "ts": 1787033191000,
-      "pub": "Tue, 18 Aug 2026 15:06:31 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[영상] '사거리 130km' 더 깊숙이…우크라, 첫 국산 활공폭탄 투입 임박",
-      "link": "https://www.yna.co.kr/view/AKR20260818106900704",
-      "source": "연합뉴스 국제",
-      "ts": 1787032027000,
-      "pub": "Tue, 18 Aug 2026 14:47:07 +0900",
       "sentiment": "neutral"
     }
   ]

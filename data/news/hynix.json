@@ -1,8 +1,40 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-19T00:33:41.394Z",
-  "count": 20,
+  "updated_at": "2026-08-19T02:10:24.778Z",
+  "count": 15,
   "items": [
+    {
+      "title": "KT, 국산 AI 반도체·AI 하나로 통합…'KT NPU LLM 스테이션' 출시",
+      "link": "https://www.mt.co.kr/tech/2026/08/19/2026081909100560285",
+      "source": "머니투데이",
+      "ts": 1787102249000,
+      "pub": "Wed, 19 Aug 2026 10:17:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"반도체주 다시 시장 이끈다…바벨 전략 펼쳐야\"",
+      "link": "https://www.mt.co.kr/stock/2026/08/19/2026081908302771152",
+      "source": "머니투데이",
+      "ts": 1787101963000,
+      "pub": "Wed, 19 Aug 2026 10:12:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "원전 10기급 'AI 심장' 짓는다…오픈AI·엔비디아, 오하이오에 초대형 베팅",
+      "link": "https://www.hankyung.com/article/202608198852i",
+      "source": "한국경제",
+      "ts": 1787100850000,
+      "pub": "Wed, 19 Aug 2026 09:54:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 맹독성 폐수 친환경처리 기술 개발",
+      "link": "https://www.yna.co.kr/view/AKR20260819041300054",
+      "source": "연합뉴스 경제",
+      "ts": 1787100414000,
+      "pub": "Wed, 19 Aug 2026 09:46:54 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[특징주] 반도체주 또 출렁…삼전닉스, 장 초반 7∼9% 급락",
       "link": "https://www.yna.co.kr/view/AKR20260819038800008",
@@ -12,83 +44,11 @@
       "sentiment": "negative"
     },
     {
-      "title": "미 국채금리 쇼크에 반도체주 휘청...24만전자·150만닉스 '미끌'",
-      "link": "https://www.mt.co.kr/stock/2026/08/19/2026081909063834300",
-      "source": "머니투데이",
-      "ts": 1787098729000,
-      "pub": "Wed, 19 Aug 2026 09:18:49 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "SK하이닉스 성과급 해법 찾았나..노사 밤샘 협상 끝 '잠정합의'",
-      "link": "https://www.mt.co.kr/industry/2026/08/19/2026081908444668805",
-      "source": "머니투데이",
-      "ts": 1787098599000,
-      "pub": "Wed, 19 Aug 2026 09:16:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 금리 상승·반도체주 약세…SK스퀘어·삼성생명 급락",
-      "link": "https://www.mt.co.kr/stock/2026/08/19/2026081909124582222",
-      "source": "머니투데이",
-      "ts": 1787098442000,
-      "pub": "Wed, 19 Aug 2026 09:14:02 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "엔비디아, 경쟁사 인텔 주식 42조원어치 보유",
       "link": "https://www.yna.co.kr/view/AKR20260819016300009",
       "source": "연합뉴스 국제",
       "ts": 1787096694000,
       "pub": "Wed, 19 Aug 2026 08:44:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'칠천피' 겨우 회복했다가 와르르…반도체 개미들 날벼락 [분석+]",
-      "link": "https://www.hankyung.com/article/2026081985536",
-      "source": "한국경제",
-      "ts": 1787096166000,
-      "pub": "Wed, 19 Aug 2026 08:36:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 증시 반도체 쇼크…마이크론 7%·하이닉스 샌디스크 9%↓",
-      "link": "https://www.hankyung.com/article/2026081985136",
-      "source": "한국경제",
-      "ts": 1787094848000,
-      "pub": "Wed, 19 Aug 2026 08:14:08 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"삼성E&A, 반도체 투자·중동 수주 모멘텀 확보…업종 최선호주\"-NH",
-      "link": "https://www.hankyung.com/article/2026081984126",
-      "source": "한국경제",
-      "ts": 1787094152000,
-      "pub": "Wed, 19 Aug 2026 08:02:32 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "반도체 폭락 재발…단기 급등 따른 조정이냐, 9월(중간선거) 앞둔 하락이냐 [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202608198272i",
-      "source": "한국경제",
-      "ts": 1787093900000,
-      "pub": "Wed, 19 Aug 2026 07:58:20 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[고래사냥] '한미반도체·동진쎄미켐·HL만도·POSCO홀딩스! 내일장 고래 종목은?!",
-      "link": "https://www.mt.co.kr/stock/2026/08/19/2026081900057014610",
-      "source": "머니투데이",
-      "ts": 1787090385000,
-      "pub": "Wed, 19 Aug 2026 06:59:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI 훈풍에 낸드 상위 5개사 매출 77% 급증…마이크론 3위로",
-      "link": "https://www.yna.co.kr/view/AKR20260818126900003",
-      "source": "연합뉴스 경제",
-      "ts": 1787036064000,
-      "pub": "Tue, 18 Aug 2026 15:54:24 +0900",
       "sentiment": "neutral"
     },
     {

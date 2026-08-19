@@ -1,15 +1,31 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-19T00:33:41.394Z",
+  "updated_at": "2026-08-19T02:10:24.777Z",
   "count": 12,
   "items": [
     {
-      "title": "삼성전자, 광주에 2400억 투자 'HVAC 생산거점' 짓는다",
-      "link": "https://www.mt.co.kr/industry/2026/08/19/2026081909125883438",
-      "source": "머니투데이",
-      "ts": 1787099400000,
-      "pub": "Wed, 19 Aug 2026 09:30:00 +0900",
+      "title": "\"삼전닉스 270조원 주주환원\" 엄포…경찰청 향한 주주단체",
+      "link": "https://www.hankyung.com/article/202608199001g",
+      "source": "한국경제",
+      "ts": 1787102578000,
+      "pub": "Wed, 19 Aug 2026 10:22:58 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 광주에 2400억 투자…신규 HVAC 생산라인 구축",
+      "link": "https://www.hankyung.com/article/202608198879g",
+      "source": "한국경제",
+      "ts": 1787100725000,
+      "pub": "Wed, 19 Aug 2026 09:52:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엑사이엔씨, 삼성전자 평택캠퍼스 P5서 잇단 수주…1000억원대 수주고 확보",
+      "link": "https://www.hankyung.com/article/202608198848i",
+      "source": "한국경제",
+      "ts": 1787099283000,
+      "pub": "Wed, 19 Aug 2026 09:28:03 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "[특징주] 반도체주 또 출렁…삼전닉스, 장 초반 7∼9% 급락",
@@ -33,22 +49,6 @@
       "source": "연합뉴스 경제",
       "ts": 1787094060000,
       "pub": "Wed, 19 Aug 2026 08:01:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 5거래일만에 내려 '26만전자'…하닉은 1% 상승마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260818038851008",
-      "source": "연합뉴스 경제",
-      "ts": 1787036560000,
-      "pub": "Tue, 18 Aug 2026 16:02:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI 훈풍에 낸드 상위 5개사 매출 77% 급증…마이크론 3위로",
-      "link": "https://www.yna.co.kr/view/AKR20260818126900003",
-      "source": "연합뉴스 경제",
-      "ts": 1787036064000,
-      "pub": "Tue, 18 Aug 2026 15:54:24 +0900",
       "sentiment": "neutral"
     },
     {

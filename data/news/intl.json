@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-19T11:14:25.354Z",
+  "updated_at": "2026-08-19T12:20:33.363Z",
   "count": 25,
   "items": [
+    {
+      "title": "젤렌스키 또 시험대…'드론전 영웅' 반기·대통령실 부패 수사(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260819167451109",
+      "source": "연합뉴스 국제",
+      "ts": 1787140304000,
+      "pub": "Wed, 19 Aug 2026 20:51:44 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "우크라 반부패당국, 대통령실 수사…\"고위직·의원 자금세탁 연루\"",
       "link": "https://www.yna.co.kr/view/AKR20260819167400109",
@@ -12,7 +20,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프,캐나다 50% 관세폭탄 \"3일 연기\"…자동차관세가 현안",
+      "title": "트럼프, 캐나다 50% 관세 폭탄 \"3일 연기\"…자동차 관세가 현안",
       "link": "https://www.hankyung.com/article/202608190596i",
       "source": "한국경제",
       "ts": 1787134764000,
@@ -28,12 +36,12 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 한미훈련 축소하며 김정은에 러브콜…대북 안보공백 우려",
+      "title": "외교성과 급한 트럼프…김정은과 만남 위해 '핵보유국 인정'할까",
       "link": "https://www.hankyung.com/article/2026081903841",
       "source": "한국경제",
       "ts": 1787131661000,
       "pub": "Wed, 19 Aug 2026 18:27:41 +0900",
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "title": "\"트럼프, 김정은과 11월 회담 추진\"",
@@ -193,14 +201,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787087710000,
       "pub": "Wed, 19 Aug 2026 06:15:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'캐나다에 50% 관세' 하루 전…美·加 정상 통화에도 협상 난항",
-      "link": "https://www.yna.co.kr/view/AKR20260819005200072",
-      "source": "연합뉴스 국제",
-      "ts": 1787082968000,
-      "pub": "Wed, 19 Aug 2026 04:56:08 +0900",
       "sentiment": "neutral"
     }
   ]

@@ -1,15 +1,23 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-19T12:20:33.365Z",
-  "count": 20,
+  "updated_at": "2026-08-19T13:35:23.268Z",
+  "count": 22,
   "items": [
     {
-      "title": "中 CXMT 이어 YMTC도 상장 추진…삼전닉스 어쩌나 [분석+]",
+      "title": "중국 반도체 몸집 키우기 나섰다…삼전닉스 어쩌나 '비상' [분석+]",
       "link": "https://www.hankyung.com/article/2026081901916",
       "source": "한국경제",
       "ts": 1787137213000,
       "pub": "Wed, 19 Aug 2026 20:00:13 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 호황의 역설..'칩플레이션'에 눌린 삼성 DX부문, 점유율 확대로 돌파",
+      "link": "https://www.mt.co.kr/industry/2026/08/19/2026081911062913711",
+      "source": "머니투데이",
+      "ts": 1787133601000,
+      "pub": "Wed, 19 Aug 2026 19:00:01 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "SK하이닉스, 100조 주주환원 시동",
@@ -25,6 +33,14 @@
       "source": "한국경제",
       "ts": 1787131368000,
       "pub": "Wed, 19 Aug 2026 18:22:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "샤오미, 2분기 순익 전년 대비 43%↓…\"메모리 가격 압박\"",
+      "link": "https://www.mt.co.kr/world/2026/08/19/2026081917171963875",
+      "source": "머니투데이",
+      "ts": 1787129126000,
+      "pub": "Wed, 19 Aug 2026 17:45:26 +0900",
       "sentiment": "neutral"
     },
     {

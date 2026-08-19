@@ -1,8 +1,40 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-19T12:20:33.363Z",
-  "count": 25,
+  "updated_at": "2026-08-19T13:35:23.267Z",
+  "count": 28,
   "items": [
+    {
+      "title": "[속보]김여정 \"트럼프-김정은 관계 훌륭…안전 위협 세력 견제 필수\"",
+      "link": "https://www.mt.co.kr/politics/2026/08/19/2026081922191249493",
+      "source": "머니투데이",
+      "ts": 1787145664000,
+      "pub": "Wed, 19 Aug 2026 22:21:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘군, 가자전쟁 '최대 민간인 희생' 사건 수사 착수",
+      "link": "https://www.yna.co.kr/view/AKR20260819175300079",
+      "source": "연합뉴스 국제",
+      "ts": 1787144284000,
+      "pub": "Wed, 19 Aug 2026 21:58:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러시아 가스관 폭파공작 우크라인 용의자 체포",
+      "link": "https://www.yna.co.kr/view/AKR20260819173600082",
+      "source": "연합뉴스 국제",
+      "ts": 1787142609000,
+      "pub": "Wed, 19 Aug 2026 21:30:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프, 아시아 중시 안보전략 흔들어 中견제 스스로 포기\" [블룸버그]",
+      "link": "https://www.hankyung.com/article/202608190671i",
+      "source": "한국경제",
+      "ts": 1787141310000,
+      "pub": "Wed, 19 Aug 2026 21:08:30 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "젤렌스키 또 시험대…'드론전 영웅' 반기·대통령실 부패 수사(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260819167451109",
@@ -36,6 +68,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "트럼프 놓칠라 차 트렁크에 탄 보좌관…'애착담요' 누구길래[글로벌키맨]",
+      "link": "https://www.mt.co.kr/world/2026/08/19/2026081913465148517",
+      "source": "머니투데이",
+      "ts": 1787133212000,
+      "pub": "Wed, 19 Aug 2026 18:53:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "외교성과 급한 트럼프…김정은과 만남 위해 '핵보유국 인정'할까",
       "link": "https://www.hankyung.com/article/2026081903841",
       "source": "한국경제",
@@ -44,11 +84,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"트럼프, 김정은과 11월 회담 추진\"",
-      "link": "https://www.hankyung.com/article/2026081904741",
-      "source": "한국경제",
-      "ts": 1787130692000,
-      "pub": "Wed, 19 Aug 2026 18:11:32 +0900",
+      "title": "美 국채수익률, 내일 새벽이 고비…20년물 국채 입찰·FOMC 의사록[오미주]",
+      "link": "https://www.mt.co.kr/world/2026/08/19/2026081915140048845",
+      "source": "머니투데이",
+      "ts": 1787130300000,
+      "pub": "Wed, 19 Aug 2026 18:05:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -66,6 +106,14 @@
       "ts": 1787129579000,
       "pub": "Wed, 19 Aug 2026 17:52:59 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "\"내가 표적 될 줄이야\"…우크라 병사에 경고 알림 보낸 애플, 왜?",
+      "link": "https://www.mt.co.kr/world/2026/08/19/2026081910354790806",
+      "source": "머니투데이",
+      "ts": 1787127555000,
+      "pub": "Wed, 19 Aug 2026 17:19:15 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "[게시판] 관세청, 을지연습 차원 인천공항서 폭발물 처리 훈련",
@@ -177,30 +225,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787094656000,
       "pub": "Wed, 19 Aug 2026 08:10:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 옛 안보보좌관 볼턴, 한미훈련 축소에 \"큰 실수\"",
-      "link": "https://www.yna.co.kr/view/AKR20260819012600071",
-      "source": "연합뉴스 국제",
-      "ts": 1787090714000,
-      "pub": "Wed, 19 Aug 2026 07:05:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 압박 통했나…멕시코 중국에 추가 관세 검토",
-      "link": "https://www.yna.co.kr/view/AKR20260819012500087",
-      "source": "연합뉴스 국제",
-      "ts": 1787090271000,
-      "pub": "Wed, 19 Aug 2026 06:57:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'트럼프 애착담요' 문고리 참모 누구길래…백악관 총력방어",
-      "link": "https://www.yna.co.kr/view/AKR20260819007500071",
-      "source": "연합뉴스 국제",
-      "ts": 1787087710000,
-      "pub": "Wed, 19 Aug 2026 06:15:10 +0900",
       "sentiment": "neutral"
     }
   ]

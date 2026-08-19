@@ -1,14 +1,46 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-19T06:22:52.690Z",
-  "count": 30,
+  "updated_at": "2026-08-19T07:29:03.591Z",
+  "count": 26,
   "items": [
     {
-      "title": "조현 \"트럼프 '연합연습' 축소 지시 당일 美대사와 소통\"",
-      "link": "https://www.mt.co.kr/politics/2026/08/19/2026081913210229824",
+      "title": "트럼프 지시로 '연합연습' 21일 조기종료…정부 \"사전통보 없었다\"",
+      "link": "https://www.mt.co.kr/politics/2026/08/19/2026081915184610254",
       "source": "머니투데이",
-      "ts": 1787116342000,
-      "pub": "Wed, 19 Aug 2026 14:12:22 +0900",
+      "ts": 1787124507000,
+      "pub": "Wed, 19 Aug 2026 16:28:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "12시간 후 FOMC 의사록 공개…美 장기금리·반도체 흐름 변수",
+      "link": "https://www.mt.co.kr/stock/2026/08/19/2026081915573494946",
+      "source": "머니투데이",
+      "ts": 1787123690000,
+      "pub": "Wed, 19 Aug 2026 16:14:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 캐나다 '50% 관세' 3일 보류…카니 \"주요 과제 여전\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260819084251009",
+      "source": "연합뉴스 국제",
+      "ts": 1787122791000,
+      "pub": "Wed, 19 Aug 2026 15:59:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "격화하는 중동·고개 드는 PCE 물가…매크로는 '첩첩산중'",
+      "link": "https://www.hankyung.com/article/202608199532i",
+      "source": "한국경제",
+      "ts": 1787121884000,
+      "pub": "Wed, 19 Aug 2026 15:44:44 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "발효 2시간 앞두고…트럼프 \"캐나다산 50% 관세 부과 사흘간 중단\"",
+      "link": "https://www.mt.co.kr/world/2026/08/19/2026081915223895497",
+      "source": "머니투데이",
+      "ts": 1787121114000,
+      "pub": "Wed, 19 Aug 2026 15:31:54 +0900",
       "sentiment": "neutral"
     },
     {
@@ -18,14 +50,6 @@
       "ts": 1787115911000,
       "pub": "Wed, 19 Aug 2026 14:05:11 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 비판하자 방송면허 위협\"…디즈니, 美 정부와 소송전",
-      "link": "https://www.hankyung.com/article/202608199555i",
-      "source": "한국경제",
-      "ts": 1787114220000,
-      "pub": "Wed, 19 Aug 2026 13:37:00 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "'석달째 공석' 美FDA 국장에 백악관 참모 내려보내나",
@@ -186,62 +210,6 @@
       "ts": 1787065271000,
       "pub": "Wed, 19 Aug 2026 00:01:11 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "젤렌스키, 새 국방장관 지명…'드론전 영웅' 해임 논란 일단락",
-      "link": "https://www.yna.co.kr/view/AKR20260818173600109",
-      "source": "연합뉴스 국제",
-      "ts": 1787062987000,
-      "pub": "Tue, 18 Aug 2026 23:23:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"이란과 대화없고 예정된 것도 없다…대이란 봉쇄 유효\"",
-      "link": "https://www.yna.co.kr/view/AKR20260818173200071",
-      "source": "연합뉴스 국제",
-      "ts": 1787061624000,
-      "pub": "Tue, 18 Aug 2026 23:00:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "디즈니, 자회사 ABC 방송면허 취소 막으려 트럼프 정부에 소송",
-      "link": "https://www.yna.co.kr/view/AKR20260818171900071",
-      "source": "연합뉴스 국제",
-      "ts": 1787059754000,
-      "pub": "Tue, 18 Aug 2026 22:29:14 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "러, 영국에 \"테러 공범\"…버넘 \"우크라 100% 지지 계속\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260818132151009",
-      "source": "연합뉴스 국제",
-      "ts": 1787057881000,
-      "pub": "Tue, 18 Aug 2026 21:58:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "모국에 방화 테러 모의한 우크라인…독일서 징역형",
-      "link": "https://www.yna.co.kr/view/AKR20260818170400082",
-      "source": "연합뉴스 국제",
-      "ts": 1787055974000,
-      "pub": "Tue, 18 Aug 2026 21:26:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 암호화폐 기업 은행 예비인가…\"뻔뻔한 자기거래\"",
-      "link": "https://www.yna.co.kr/view/AKR20260818168600009",
-      "source": "연합뉴스 국제",
-      "ts": 1787053410000,
-      "pub": "Tue, 18 Aug 2026 20:43:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "시리아 군 공항, 전투기에 피격…국영TV \"이스라엘이 공습\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260818140551079",
-      "source": "연합뉴스 국제",
-      "ts": 1787049550000,
-      "pub": "Tue, 18 Aug 2026 19:39:10 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

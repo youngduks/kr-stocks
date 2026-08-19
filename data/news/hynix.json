@@ -1,22 +1,70 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-19T06:22:52.691Z",
-  "count": 20,
+  "updated_at": "2026-08-19T07:29:03.592Z",
+  "count": 23,
   "items": [
+    {
+      "title": "SK하이닉스, 애프터마켓서 160만원 회복…자사주 40조 소각",
+      "link": "https://www.mt.co.kr/stock/2026/08/19/2026081916212146175",
+      "source": "머니투데이",
+      "ts": 1787124306000,
+      "pub": "Wed, 19 Aug 2026 16:25:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "12시간 후 FOMC 의사록 공개…美 장기금리·반도체 흐름 변수",
+      "link": "https://www.mt.co.kr/stock/2026/08/19/2026081915573494946",
+      "source": "머니투데이",
+      "ts": 1787123690000,
+      "pub": "Wed, 19 Aug 2026 16:14:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 아산 반도체 공장 내달 착공…'3대 메가' 사업 중 처음",
+      "link": "https://www.yna.co.kr/view/AKR20260819137800063",
+      "source": "연합뉴스 경제",
+      "ts": 1787123647000,
+      "pub": "Wed, 19 Aug 2026 16:14:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스, 주주환원 새 역사 쓴다…40조 자사주 취득·소각 '역대급'",
+      "link": "https://www.mt.co.kr/industry/2026/08/19/2026081915561591398",
+      "source": "머니투데이",
+      "ts": 1787123106000,
+      "pub": "Wed, 19 Aug 2026 16:05:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] SK하이닉스, 40조원 자사주 취득·소각…\"FCF 50% 이상 주주환원\"",
+      "link": "https://www.mt.co.kr/industry/2026/08/19/2026081915431581080",
+      "source": "머니투데이",
+      "ts": 1787121878000,
+      "pub": "Wed, 19 Aug 2026 15:44:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "상장사 매출 2000조 돌파…'반도체 투톱' 걷어내도 이익 체력 빛났다",
+      "link": "https://www.hankyung.com/article/202608199967i",
+      "source": "한국경제",
+      "ts": 1787121490000,
+      "pub": "Wed, 19 Aug 2026 15:38:10 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "中샤오미, 메모리 가격 상승에 2분기 조정 순이익 43%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260819120600083",
+      "source": "연합뉴스 국제",
+      "ts": 1787120485000,
+      "pub": "Wed, 19 Aug 2026 15:21:25 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "중국 '메모리 투톱' YMTC도 IPO 행보…내년 상반기 예상",
       "link": "https://www.yna.co.kr/view/AKR20260819113100009",
       "source": "연합뉴스 국제",
       "ts": 1787119445000,
       "pub": "Wed, 19 Aug 2026 15:04:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "로브로스, 이족보행 휴머노이드 9대 동시 공급…반도체·車·물류 투입",
-      "link": "https://www.mt.co.kr/future/2026/08/19/2026081908253687924",
-      "source": "머니투데이",
-      "ts": 1787115600000,
-      "pub": "Wed, 19 Aug 2026 14:00:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -36,14 +84,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "상장사 상반기 영업이익 전년비 254% 급증…반도체·IT가 실적 견인",
-      "link": "https://www.hankyung.com/article/2026081991966",
-      "source": "한국경제",
-      "ts": 1787108403000,
-      "pub": "Wed, 19 Aug 2026 12:00:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "KDI \"올해 성장률 전망치 3.2%로 0.7%p↑…0.6%p가 반도체 몫\"",
       "link": "https://www.yna.co.kr/view/AKR20260819082000002",
       "source": "연합뉴스 경제",
@@ -60,22 +100,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "반도체주 급락에 개인은 '울상'…고수들은 '줍줍'",
-      "link": "https://www.hankyung.com/article/202608199187i",
-      "source": "한국경제",
-      "ts": 1787107267000,
-      "pub": "Wed, 19 Aug 2026 11:41:07 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "하루아침에 반도체 악재로…'반년새 7배 성장'에도 앤스로픽 실망론",
-      "link": "https://www.hankyung.com/article/202608198983i",
-      "source": "한국경제",
-      "ts": 1787106465000,
-      "pub": "Wed, 19 Aug 2026 11:27:45 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "반도체 맹독성 폐수 친환경처리 기술 개발",
       "link": "https://www.yna.co.kr/view/AKR20260819041300054",
       "source": "연합뉴스 경제",
@@ -84,12 +108,25 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[특징주] 반도체주 또 출렁…삼전닉스, 장 초반 7∼9% 급락",
-      "link": "https://www.yna.co.kr/view/AKR20260819038800008",
-      "source": "연합뉴스 경제",
-      "ts": 1787098827000,
-      "pub": "Wed, 19 Aug 2026 09:20:27 +0900",
-      "sentiment": "negative"
+      "title": "에스케이하이닉스(주) 주식 소각 결정",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=108115696&code=000660&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1787097600000,
+      "pub": "2026.08.19"
+    },
+    {
+      "title": "에스케이하이닉스(주) 수시공시의무관련사항(공정공시)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=108115695&code=000660&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1787097600000,
+      "pub": "2026.08.19"
+    },
+    {
+      "title": "에스케이하이닉스(주) 자기주식 취득 결정",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=108112647&code=000660&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1787097600000,
+      "pub": "2026.08.19"
     },
     {
       "title": "엔비디아, 경쟁사 인텔 주식 42조원어치 보유",
@@ -137,20 +174,6 @@
     {
       "title": "에스케이하이닉스(주) 신규시설투자등",
       "link": "https://finance.naver.com/item/news_notice_read.naver?no=97945721&code=000660&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1786060800000,
-      "pub": "2026.08.07"
-    },
-    {
-      "title": "에스케이하이닉스(주) 현금ㆍ현물배당을 위한 주주명부폐쇄(기준일) 결정",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=97910439&code=000660&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1786060800000,
-      "pub": "2026.08.07"
-    },
-    {
-      "title": "에스케이하이닉스(주) 현금ㆍ현물 배당 결정",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=97908770&code=000660&page_notice=",
       "source": "전자공시(DART)",
       "ts": 1786060800000,
       "pub": "2026.08.07"

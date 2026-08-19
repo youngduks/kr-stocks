@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-19T15:19:38.639Z",
-  "count": 15,
+  "updated_at": "2026-08-19T16:17:25.429Z",
+  "count": 18,
   "items": [
+    {
+      "title": "\"삼성전자, 파운드리 단가 최대 15% 인상…내년 흑자 가능성\"",
+      "link": "https://www.mt.co.kr/world/2026/08/19/2026081920514769740",
+      "source": "머니투데이",
+      "ts": 1787140694000,
+      "pub": "Wed, 19 Aug 2026 20:58:14 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "중국 반도체 몸집 키우기 나섰다…삼전닉스 어쩌나 '비상' [분석+]",
       "link": "https://www.hankyung.com/article/2026081901916",
@@ -17,6 +25,22 @@
       "source": "연합뉴스 국제",
       "ts": 1787134647000,
       "pub": "Wed, 19 Aug 2026 19:17:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 특별배당 이뤄질까..이르면 이달 주주환원책 윤곽",
+      "link": "https://www.mt.co.kr/industry/2026/08/19/2026081916150537741",
+      "source": "머니투데이",
+      "ts": 1787131200000,
+      "pub": "Wed, 19 Aug 2026 18:20:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "샤오미, 2분기 순익 전년 대비 43%↓…\"메모리 가격 압박\"",
+      "link": "https://www.mt.co.kr/world/2026/08/19/2026081917171963875",
+      "source": "머니투데이",
+      "ts": 1787129126000,
+      "pub": "Wed, 19 Aug 2026 17:45:26 +0900",
       "sentiment": "neutral"
     },
     {

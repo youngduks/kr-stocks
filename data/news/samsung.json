@@ -1,22 +1,30 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-19T22:12:52.119Z",
-  "count": 16,
+  "updated_at": "2026-08-19T23:12:36.671Z",
+  "count": 15,
   "items": [
+    {
+      "title": "삼성전자, 호주서 7년 연속 '가장 사랑받는 TV 브랜드' 1위",
+      "link": "https://www.yna.co.kr/view/AKR20260819125600003",
+      "source": "연합뉴스 경제",
+      "ts": 1787180403000,
+      "pub": "Thu, 20 Aug 2026 08:00:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'삼전닉스 대신 그걸 왜 사나' 무시했는데…'자산 8조' 반전",
+      "link": "https://www.hankyung.com/article/2026081903971",
+      "source": "한국경제",
+      "ts": 1787176802000,
+      "pub": "Thu, 20 Aug 2026 07:00:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"삼성전자 사장 됐는데 2년 반 만에\"…70년대생의 눈물",
       "link": "https://www.hankyung.com/article/2026081903481",
       "source": "한국경제",
       "ts": 1787173207000,
       "pub": "Thu, 20 Aug 2026 06:00:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "중국 반도체 몸집 키우기 나섰다…삼전닉스 어쩌나 '비상' [분석+]",
-      "link": "https://www.hankyung.com/article/2026081901916",
-      "source": "한국경제",
-      "ts": 1787137213000,
-      "pub": "Wed, 19 Aug 2026 20:00:13 +0900",
       "sentiment": "neutral"
     },
     {
@@ -66,22 +74,6 @@
       "ts": 1787107540000,
       "pub": "Wed, 19 Aug 2026 11:45:40 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 광주에 플랙트 냉난방공조 생산라인…2천400억 투자",
-      "link": "https://www.yna.co.kr/view/AKR20260819031000003",
-      "source": "연합뉴스 경제",
-      "ts": 1787106198000,
-      "pub": "Wed, 19 Aug 2026 11:23:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피, 글로벌 고금리에 장중 5%대↓…삼전닉스 급락",
-      "link": "https://www.yna.co.kr/view/AKR20260819075800008",
-      "source": "연합뉴스 경제",
-      "ts": 1787106085000,
-      "pub": "Wed, 19 Aug 2026 11:21:25 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

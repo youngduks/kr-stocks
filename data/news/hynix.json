@@ -1,22 +1,38 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-19T22:12:52.119Z",
-  "count": 17,
+  "updated_at": "2026-08-19T23:12:36.672Z",
+  "count": 19,
   "items": [
+    {
+      "title": "[마켓뷰] 美훈풍·하이닉스 주주환원…코스피 반등 시도하나",
+      "link": "https://www.yna.co.kr/view/AKR20260820020600008",
+      "source": "연합뉴스 경제",
+      "ts": 1787180625000,
+      "pub": "Thu, 20 Aug 2026 08:03:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"SK하이닉스, 40조 자사주 매입 긍정적…추가 주주환원도 대기\"-하나",
+      "link": "https://www.hankyung.com/article/2026082009706",
+      "source": "한국경제",
+      "ts": 1787179793000,
+      "pub": "Thu, 20 Aug 2026 07:49:53 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"베센트와 싸우지 말라\"…금리 급락에 주가 상승, 반도체는 빠진 이유 [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202608200881i",
+      "source": "한국경제",
+      "ts": 1787179742000,
+      "pub": "Thu, 20 Aug 2026 07:49:02 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "구글, 반도체기업 마벨과 AI칩 동맹…최대 17조원 신주인수권",
       "link": "https://www.yna.co.kr/view/AKR20260820003000091",
       "source": "연합뉴스 국제",
       "ts": 1787160957000,
       "pub": "Thu, 20 Aug 2026 02:35:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "중국 반도체 몸집 키우기 나섰다…삼전닉스 어쩌나 '비상' [분석+]",
-      "link": "https://www.hankyung.com/article/2026081901916",
-      "source": "한국경제",
-      "ts": 1787137213000,
-      "pub": "Wed, 19 Aug 2026 20:00:13 +0900",
       "sentiment": "neutral"
     },
     {

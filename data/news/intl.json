@@ -1,14 +1,62 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-19T22:12:52.117Z",
-  "count": 34,
+  "updated_at": "2026-08-19T23:12:36.670Z",
+  "count": 38,
   "items": [
+    {
+      "title": "\"금리 내려라\"…트럼프, 백악관 암호화폐 행사서 Fed 압박",
+      "link": "https://www.hankyung.com/article/2026082009547",
+      "source": "한국경제",
+      "ts": 1787179613000,
+      "pub": "Thu, 20 Aug 2026 07:46:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "캐나다산 철강 25%·車 15%로 관세인하 논의…美와 막판 조율",
+      "link": "https://www.yna.co.kr/view/AKR20260820015800072",
+      "source": "연합뉴스 국제",
+      "ts": 1787178431000,
+      "pub": "Thu, 20 Aug 2026 07:27:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"인플레 우려해 금리 올릴 필요없어…오히려 내려야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260820014200071",
+      "source": "연합뉴스 국제",
+      "ts": 1787177640000,
+      "pub": "Thu, 20 Aug 2026 07:14:00 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "美 중앙은행 \"AI 투자경쟁, 물가와 금융에 새로운 부담\" [Fed 워치]",
+      "link": "https://www.hankyung.com/article/202608200885i",
+      "source": "한국경제",
+      "ts": 1787177156000,
+      "pub": "Thu, 20 Aug 2026 07:05:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"한국, 호르무즈 지원 거절 기분 안좋아\"…재차 불만 표출",
+      "link": "https://www.hankyung.com/article/2026082008927",
+      "source": "한국경제",
+      "ts": 1787175325000,
+      "pub": "Thu, 20 Aug 2026 06:35:25 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'김정은과 연내 회담' 확언한 트럼프…비핵화 목표엔 즉답 회피(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260820004651071",
       "source": "연합뉴스 국제",
       "ts": 1787174644000,
       "pub": "Thu, 20 Aug 2026 06:24:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"북한, 57개 핵무기 갖고 있어\"…핵 보유 숫자 첫 언급",
+      "link": "https://www.hankyung.com/article/2026082008717",
+      "source": "한국경제",
+      "ts": 1787174526000,
+      "pub": "Thu, 20 Aug 2026 06:22:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,7 +76,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "FOMC 매파 확대…위원 약 50%, \"물가 안 잡히면 금리 인상\" [Fed 워치]",
+      "title": "FOMC 매파 확대…위원 약 50% \"물가 안 잡히면 금리 인상\" [Fed 워치]",
       "link": "https://www.hankyung.com/article/202608200822i",
       "source": "한국경제",
       "ts": 1787172591000,
@@ -204,14 +252,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프, 캐나다 50% 관세 폭탄 \"3일 연기\"…자동차 관세가 현안",
-      "link": "https://www.hankyung.com/article/202608190596i",
-      "source": "한국경제",
-      "ts": 1787134764000,
-      "pub": "Wed, 19 Aug 2026 19:19:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "튀르키예, 시리아 주둔설 일축…\"이스라엘의 근거 없는 주장\"",
       "link": "https://www.yna.co.kr/view/AKR20260819166700108",
       "source": "연합뉴스 국제",
@@ -265,14 +305,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787115911000,
       "pub": "Wed, 19 Aug 2026 14:05:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'석달째 공석' 美FDA 국장에 백악관 참모 내려보내나",
-      "link": "https://www.yna.co.kr/view/AKR20260819091300075",
-      "source": "연합뉴스 국제",
-      "ts": 1787113972000,
-      "pub": "Wed, 19 Aug 2026 13:32:52 +0900",
       "sentiment": "neutral"
     }
   ]

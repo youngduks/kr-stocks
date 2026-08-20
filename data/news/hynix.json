@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-20T02:09:53.038Z",
-  "count": 14,
+  "updated_at": "2026-08-20T03:36:43.909Z",
+  "count": 15,
   "items": [
+    {
+      "title": "\"대만 TSMC, 1.6나노칩 개발 성공…올해 4분기 양산\"",
+      "link": "https://www.yna.co.kr/view/AKR20260820095900009",
+      "source": "연합뉴스 국제",
+      "ts": 1787195948000,
+      "pub": "Thu, 20 Aug 2026 12:19:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 이어 삼성전자도?…초고수들은 반도체 투톱 담았다",
+      "link": "https://www.hankyung.com/article/202608201863i",
+      "source": "한국경제",
+      "ts": 1787194245000,
+      "pub": "Thu, 20 Aug 2026 11:50:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하이닉스 '역대급' 주주환원에 美 국채금리 하락까지…코스피 매수 사이드카 발동",
+      "link": "https://www.hankyung.com/article/202608201569i",
+      "source": "한국경제",
+      "ts": 1787192326000,
+      "pub": "Thu, 20 Aug 2026 11:18:46 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "SK하이닉스 또 해냈다…HBM 넘어 '빛 반도체' 개념 제시",
       "link": "https://www.hankyung.com/article/2026082015027",
@@ -12,27 +36,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'SK하이닉스 위탁투자중개업자' SK증권, 장 초반 '상한가'",
-      "link": "https://www.hankyung.com/article/2026082012906",
-      "source": "한국경제",
-      "ts": 1787185611000,
-      "pub": "Thu, 20 Aug 2026 09:26:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "'주주환원' 하이닉스 장초반 7~8%대 급등…삼전도 5%↑",
       "link": "https://www.yna.co.kr/view/AKR20260820044300008",
       "source": "연합뉴스 경제",
       "ts": 1787185585000,
       "pub": "Thu, 20 Aug 2026 09:26:25 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "'40조 자사주 취득·소각' SK하이닉스, 장 초반 6% 급등",
-      "link": "https://www.hankyung.com/article/2026082012816",
-      "source": "한국경제",
-      "ts": 1787184814000,
-      "pub": "Thu, 20 Aug 2026 09:13:34 +0900",
       "sentiment": "positive"
     },
     {

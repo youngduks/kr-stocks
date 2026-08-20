@@ -1,8 +1,32 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-20T02:09:53.036Z",
-  "count": 35,
+  "updated_at": "2026-08-20T03:36:43.907Z",
+  "count": 36,
   "items": [
+    {
+      "title": "[속보] 안규백 \"북한 핵무기 80∼120개로 봐…정확한 수치 언급 제한\"",
+      "link": "https://www.hankyung.com/article/2026082019357",
+      "source": "한국경제",
+      "ts": 1787193596000,
+      "pub": "Thu, 20 Aug 2026 11:39:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미국인 63% \"트럼프, 가상화폐로 부당하게 돈 벌었다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260820075300009",
+      "source": "연합뉴스 국제",
+      "ts": 1787192133000,
+      "pub": "Thu, 20 Aug 2026 11:15:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프가 막았지만 미 청정에너지 시장 뜻밖 호황\"",
+      "link": "https://www.yna.co.kr/view/AKR20260820065000009",
+      "source": "연합뉴스 국제",
+      "ts": 1787191995000,
+      "pub": "Thu, 20 Aug 2026 11:13:15 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"北비핵화 모호해진 트럼프, 핵해체 아닌 탄두 제한 회담 목표\"",
       "link": "https://www.yna.co.kr/view/AKR20260820063800071",
@@ -266,22 +290,6 @@
       "ts": 1787129781000,
       "pub": "Wed, 19 Aug 2026 17:56:21 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[영상] 잘린 '드론전 영웅' 우크라 前국방, 젤렌스키에 \"전시 대선하자\"",
-      "link": "https://www.yna.co.kr/view/AKR20260819156800704",
-      "source": "연합뉴스 국제",
-      "ts": 1787129579000,
-      "pub": "Wed, 19 Aug 2026 17:52:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[게시판] 관세청, 을지연습 차원 인천공항서 폭발물 처리 훈련",
-      "link": "https://www.yna.co.kr/view/AKR20260819147400002",
-      "source": "연합뉴스 경제",
-      "ts": 1787126996000,
-      "pub": "Wed, 19 Aug 2026 17:09:56 +0900",
-      "sentiment": "negative"
     }
   ]
 }

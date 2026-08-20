@@ -1,14 +1,54 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-20T06:24:20.220Z",
-  "count": 35,
+  "updated_at": "2026-08-20T07:31:11.762Z",
+  "count": 34,
   "items": [
+    {
+      "title": "'北핵 57개' 콕 집은 트럼프…\"북미, 신호 교환하는 '썸' 국면\"",
+      "link": "https://www.mt.co.kr/politics/2026/08/20/2026082014280336746",
+      "source": "머니투데이",
+      "ts": 1787210091000,
+      "pub": "Thu, 20 Aug 2026 16:14:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"우크라 도와야\" 조용히 참전했던 케네디家 후손, 러 수배자로",
+      "link": "https://www.yna.co.kr/view/AKR20260820140700009",
+      "source": "연합뉴스 국제",
+      "ts": 1787210078000,
+      "pub": "Thu, 20 Aug 2026 16:14:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "무역위, 중국·대만산 수산화나트륨에 반덤핑관세 예비판정",
+      "link": "https://www.hankyung.com/article/202608202465i",
+      "source": "한국경제",
+      "ts": 1787206388000,
+      "pub": "Thu, 20 Aug 2026 15:13:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "세 번 만난 트럼프 꿰뚫은 김정은…더 큰 카드 요구하나",
+      "link": "https://www.hankyung.com/article/202608202201i",
+      "source": "한국경제",
+      "ts": 1787206035000,
+      "pub": "Thu, 20 Aug 2026 15:07:15 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 '이란 경제고립 작전' 선언…\"지원국도 막대한 대가\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260820032651071",
       "source": "연합뉴스 국제",
       "ts": 1787206028000,
       "pub": "Thu, 20 Aug 2026 15:07:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 '북핵 57개' 발언에…안규백 \"보통 80∼120개로 봐\"",
+      "link": "https://www.hankyung.com/article/202608202197i",
+      "source": "한국경제",
+      "ts": 1787204511000,
+      "pub": "Thu, 20 Aug 2026 14:41:51 +0900",
       "sentiment": "neutral"
     },
     {
@@ -25,22 +65,6 @@
       "source": "연합뉴스 경제",
       "ts": 1787200201000,
       "pub": "Thu, 20 Aug 2026 13:30:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"北핵무기 57개 보유\"…안규백 \"보통 80∼120개로 봐\"",
-      "link": "https://www.hankyung.com/article/2026082020287",
-      "source": "한국경제",
-      "ts": 1787196412000,
-      "pub": "Thu, 20 Aug 2026 12:26:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 안규백 \"북한 핵무기 80∼120개로 봐…정확한 수치 언급 제한\"",
-      "link": "https://www.hankyung.com/article/2026082019357",
-      "source": "한국경제",
-      "ts": 1787193596000,
-      "pub": "Thu, 20 Aug 2026 11:39:56 +0900",
       "sentiment": "neutral"
     },
     {
@@ -249,38 +273,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787153408000,
       "pub": "Thu, 20 Aug 2026 00:30:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
-      "link": "https://www.yna.co.kr/view/AKR20260819178400109",
-      "source": "연합뉴스 국제",
-      "ts": 1787148685000,
-      "pub": "Wed, 19 Aug 2026 23:11:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 여야 상원의원, 트럼프에 \"한미훈련 축소 철회\" 서한",
-      "link": "https://www.yna.co.kr/view/AKR20260819178100071",
-      "source": "연합뉴스 국제",
-      "ts": 1787147621000,
-      "pub": "Wed, 19 Aug 2026 22:53:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美중간선거 경선서 '트럼프 지지' 주지사 후보 2명 희비 엇갈려",
-      "link": "https://www.yna.co.kr/view/AKR20260819175700071",
-      "source": "연합뉴스 국제",
-      "ts": 1787146158000,
-      "pub": "Wed, 19 Aug 2026 22:29:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘군, 가자전쟁 '최대 민간인 희생' 사건 수사 착수",
-      "link": "https://www.yna.co.kr/view/AKR20260819175300079",
-      "source": "연합뉴스 국제",
-      "ts": 1787144284000,
-      "pub": "Wed, 19 Aug 2026 21:58:04 +0900",
       "sentiment": "neutral"
     }
   ]

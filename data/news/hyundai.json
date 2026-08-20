@@ -1,8 +1,48 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-08-20T06:24:20.221Z",
-  "count": 9,
+  "updated_at": "2026-08-20T07:31:11.764Z",
+  "count": 15,
   "items": [
+    {
+      "title": "새만금 MP 변경안서 20번 언급된 '현대차'…부지·전력 등 지원",
+      "link": "https://www.yna.co.kr/view/AKR20260820123100055",
+      "source": "연합뉴스 경제",
+      "ts": 1787209260000,
+      "pub": "Thu, 20 Aug 2026 16:01:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대차그룹, 새만금 AI데이터센터 내년 3월 착공…9조 투자 시동",
+      "link": "https://www.mt.co.kr/estate/2026/08/20/2026082013421679101",
+      "source": "머니투데이",
+      "ts": 1787209200000,
+      "pub": "Thu, 20 Aug 2026 16:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "정의선 자랑한 'GV90', 얼마나 럭셔리길래…\"앞·뒷문 기둥조차 없다, 세계 최초\"",
+      "link": "https://www.mt.co.kr/industry/2026/08/20/2026082015045843631",
+      "source": "머니투데이",
+      "ts": 1787209200000,
+      "pub": "Thu, 20 Aug 2026 16:00:00 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"코치도어 보자\" 북적북적…샌프란시스코 달군 제네시스 GV90 [현장+]",
+      "link": "https://www.hankyung.com/article/202608200791g",
+      "source": "한국경제",
+      "ts": 1787207182000,
+      "pub": "Thu, 20 Aug 2026 15:26:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "샌프란시스코 등장한 정의선 회장 \"GV90 도전 과제 많았다…좋은 결과 나오길\" [인터뷰]",
+      "link": "https://www.hankyung.com/article/202608201799g",
+      "source": "한국경제",
+      "ts": 1787206800000,
+      "pub": "Thu, 20 Aug 2026 15:20:00 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "현대차 노조 \"정년 연장·공정 분배해야\"…21일 전면파업",
       "link": "https://www.yna.co.kr/view/AKR20260820125400057",
@@ -10,6 +50,14 @@
       "ts": 1787206319000,
       "pub": "Thu, 20 Aug 2026 15:11:59 +0900",
       "sentiment": "negative"
+    },
+    {
+      "title": "'력셔리 끝판왕' GV90 공개 후…정의선 \"갈 길 멀다\"",
+      "link": "https://www.hankyung.com/article/2026082023567",
+      "source": "한국경제",
+      "ts": 1787204843000,
+      "pub": "Thu, 20 Aug 2026 14:47:23 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "현대자동차(주) 영업(잠정)실적(공정공시)",

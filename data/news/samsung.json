@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-20T06:24:20.221Z",
-  "count": 8,
+  "updated_at": "2026-08-20T07:31:11.763Z",
+  "count": 9,
   "items": [
+    {
+      "title": "'주주환원' 하이닉스 12.7%, 19만원 넘게 뛰어…삼전 9%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260820044351008",
+      "source": "연합뉴스 경제",
+      "ts": 1787209901000,
+      "pub": "Thu, 20 Aug 2026 16:11:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "100조 쏘고, 40조 태운다...삼전닉스 역대급 주주환원에 6800피 회복",
+      "link": "https://www.mt.co.kr/stock/2026/08/20/2026082016044237791",
+      "source": "머니투데이",
+      "ts": 1787209897000,
+      "pub": "Thu, 20 Aug 2026 16:11:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 메모리 호황에 150조원 푼다…사상 최대 주주환원",
+      "link": "https://www.hankyung.com/article/202608202463i",
+      "source": "한국경제",
+      "ts": 1787206851000,
+      "pub": "Thu, 20 Aug 2026 15:20:51 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "자본·기술 끌어모은 中 '메모리 듀오'… 한국 턱밑 추격",
       "link": "https://www.hankyung.com/article/202608201795i",
@@ -10,22 +34,6 @@
       "ts": 1787203788000,
       "pub": "Thu, 20 Aug 2026 14:29:48 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 이어 삼성전자도?…초고수들은 반도체 투톱 담았다",
-      "link": "https://www.hankyung.com/article/202608201863i",
-      "source": "한국경제",
-      "ts": 1787194245000,
-      "pub": "Thu, 20 Aug 2026 11:50:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'주주환원' 하이닉스 장초반 7~8%대 급등…삼전도 5%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260820044300008",
-      "source": "연합뉴스 경제",
-      "ts": 1787185585000,
-      "pub": "Thu, 20 Aug 2026 09:26:25 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

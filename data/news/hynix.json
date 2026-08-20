@@ -1,8 +1,104 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-20T06:24:20.221Z",
-  "count": 19,
+  "updated_at": "2026-08-20T07:31:11.764Z",
+  "count": 26,
   "items": [
+    {
+      "title": "\"하이퍼스케일러, 방어주 된다\"…한화운용이 꼽은 반도체 ETF는",
+      "link": "https://www.mt.co.kr/stock/2026/08/20/2026082014081992465",
+      "source": "머니투데이",
+      "ts": 1787210809000,
+      "pub": "Thu, 20 Aug 2026 16:26:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 성과급 60% 자사주로…적자 땐 임금 일부 이연",
+      "link": "https://www.mt.co.kr/industry/2026/08/20/2026082015284033309",
+      "source": "머니투데이",
+      "ts": 1787210400000,
+      "pub": "Thu, 20 Aug 2026 16:20:00 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'주주환원' 하이닉스 12.7%, 19만원 넘게 뛰어…삼전 9%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260820044351008",
+      "source": "연합뉴스 경제",
+      "ts": 1787209901000,
+      "pub": "Thu, 20 Aug 2026 16:11:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 투톱이 쏘아올린 140조 주주환원…금융주 \"우리도\"→증시 들썩",
+      "link": "https://www.mt.co.kr/stock/2026/08/20/2026082015291273095",
+      "source": "머니투데이",
+      "ts": 1787209746000,
+      "pub": "Thu, 20 Aug 2026 16:09:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "주주환원 카드에 살아난 반도체…코스피, 3거래일 만에 상승",
+      "link": "https://www.mt.co.kr/stock/2026/08/20/2026082015462632441",
+      "source": "머니투데이",
+      "ts": 1787209640000,
+      "pub": "Thu, 20 Aug 2026 16:07:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"TSMC, 1.6나노칩 개발·검증 완료…올해 4분기부터 양산\"",
+      "link": "https://www.mt.co.kr/world/2026/08/20/2026082015173979724",
+      "source": "머니투데이",
+      "ts": 1787209449000,
+      "pub": "Thu, 20 Aug 2026 16:04:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하이퍼다인, 엔비디아·중기부 '엔업 프로그램' 선정",
+      "link": "https://www.mt.co.kr/industry/2026/08/20/2026082010475871239",
+      "source": "머니투데이",
+      "ts": 1787209309000,
+      "pub": "Thu, 20 Aug 2026 16:01:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "2040년 최대전력수요 70% 늘어난다…호남 반도체·AI 데이터센터 반영",
+      "link": "https://www.mt.co.kr/economy/2026/08/20/2026082015244627539",
+      "source": "머니투데이",
+      "ts": 1787208483000,
+      "pub": "Thu, 20 Aug 2026 15:48:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "원전 19기 더 필요한 전력…반도체·AI가 불 지폈다",
+      "link": "https://www.hankyung.com/article/202608202524i",
+      "source": "한국경제",
+      "ts": 1787207796000,
+      "pub": "Thu, 20 Aug 2026 15:36:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AMD, 연내 아시아 최초 AI R&D 센터 韓 설립…정부, 엔비디아 의존도 낮추기 속도",
+      "link": "https://www.mt.co.kr/tech/2026/08/20/2026082014332529488",
+      "source": "머니투데이",
+      "ts": 1787207510000,
+      "pub": "Thu, 20 Aug 2026 15:31:50 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼성전자, 메모리 호황에 150조원 푼다…사상 최대 주주환원",
+      "link": "https://www.hankyung.com/article/202608202463i",
+      "source": "한국경제",
+      "ts": 1787206851000,
+      "pub": "Thu, 20 Aug 2026 15:20:51 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "SK하이닉스, 성과급 60% 자사주로 받는다…임금 6.3% 인상",
+      "link": "https://www.hankyung.com/article/2026082024457",
+      "source": "한국경제",
+      "ts": 1787206393000,
+      "pub": "Thu, 20 Aug 2026 15:13:13 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "마벨, 구글과 AI 반도체 동맹에 주가 9.8 % 급등",
       "link": "https://www.hankyung.com/article/202608202167i",
@@ -28,27 +124,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'반도체 인하대'…동문 반도체 기업 기부 잇따라",
+      "title": "'반도체 인하대'…동문 기업인 기부 잇따라",
       "link": "https://www.hankyung.com/article/202608202194i",
       "source": "한국경제",
       "ts": 1787202808000,
       "pub": "Thu, 20 Aug 2026 14:13:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 등 핵심기술 유출 '비상'…경찰 수사인력 대폭 보강",
-      "link": "https://www.hankyung.com/article/202608202092i",
-      "source": "한국경제",
-      "ts": 1787199826000,
-      "pub": "Thu, 20 Aug 2026 13:23:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"일 더 하려다 기밀 샐라\"…반도체업계 외면한 특별연장근로",
-      "link": "https://www.hankyung.com/article/202608202032i",
-      "source": "한국경제",
-      "ts": 1787196712000,
-      "pub": "Thu, 20 Aug 2026 12:31:52 +0900",
       "sentiment": "neutral"
     },
     {
@@ -58,30 +138,6 @@
       "ts": 1787195948000,
       "pub": "Thu, 20 Aug 2026 12:19:08 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 이어 삼성전자도?…초고수들은 반도체 투톱 담았다",
-      "link": "https://www.hankyung.com/article/202608201863i",
-      "source": "한국경제",
-      "ts": 1787194245000,
-      "pub": "Thu, 20 Aug 2026 11:50:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스 '역대급' 주주환원에 美 국채금리 하락까지…코스피 매수 사이드카 발동",
-      "link": "https://www.hankyung.com/article/202608201569i",
-      "source": "한국경제",
-      "ts": 1787192326000,
-      "pub": "Thu, 20 Aug 2026 11:18:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'주주환원' 하이닉스 장초반 7~8%대 급등…삼전도 5%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260820044300008",
-      "source": "연합뉴스 경제",
-      "ts": 1787185585000,
-      "pub": "Thu, 20 Aug 2026 09:26:25 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "구글, 반도체기업 마벨과 AI칩 동맹…최대 17조원 신주인수권",

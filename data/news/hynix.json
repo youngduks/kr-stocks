@@ -1,8 +1,18 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-20T22:14:39.607Z",
-  "count": 16,
+  "updated_at": "2026-08-20T23:14:53.781Z",
+  "count": 17,
   "items": [
+    {
+      "title": "엔비디아가 中 맞춤형 AI칩 출시(?)…회사 \"전혀 계획 없다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260821014700091",
+      "source": "연합뉴스 국제",
+      "ts": 1787265929000,
+      "pub": "Fri, 21 Aug 2026 07:45:29 +0900",
+      "sentiment": "neutral",
+      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 세계 최대 인공지능(AI) 반도체 기업 엔비디아가 중국 고객사를 위한 맞춤형 칩을 연내 내놓을 계획이...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/05/14/PEP20260514228501009_P2.jpg"
+    },
     {
       "title": "신한금융 \"반도체 수혜 편중…외형 성장·체감경기 괴리\"",
       "link": "https://www.yna.co.kr/view/AKR20260820167300002",
@@ -11,7 +21,7 @@
       "pub": "Fri, 21 Aug 2026 05:51:00 +0900",
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 한지훈 기자 = 신한금융지주가 반도체 호황에도 경기 회복의 온기가 산업과 계층 전반으로 퍼지지 못하고 있다고 진단해 주목된다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/20/AKR20260820167300002_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/yna/YH/2010/12/06/PYH2010120606790001300_P2.jpg"
     },
     {
       "title": "\"삼전닉스 잡아라\"…마이크론 배수진, 美 첫 메모리 전담 연구소 신설",

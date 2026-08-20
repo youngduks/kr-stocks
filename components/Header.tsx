@@ -131,7 +131,7 @@ function PageNav() {
     { key: "poll", href: poll, ko: "인간지표", en: "Poll", active: isPoll },
     { key: "liquidation", href: liquidation, ko: "청산맵", en: "Liq. Map", active: isLiquidation },
     // 쿠팡 핫딜(줍줍쇼핑) — kr-stocks.com 자체 하위페이지 (7/29 형님 요청, 외부 사이트 → 내부 라우트 전환)
-    { key: "shopping", href: shopping, ko: "🛒 쿠팡핫딜", en: "🛒 Hot Deals", active: isShopping },
+    { key: "shopping", href: shopping, ko: "🛒 핫딜", en: "🛒 Hot Deals", active: isShopping },
     // 커뮤니티룸 — 자유게시판, 닉네임+비밀번호만으로 글/댓글 (8/2 형님 요청)
     { key: "community", href: community, ko: "💬 커뮤니티", en: "💬 Community", active: isCommunity },
     { key: "guide", href: guide, ko: "가이드", en: "Guide", active: isGuide },

@@ -28,18 +28,52 @@ const NOTIFY_SCORE_MIN = 4;
 // + 전자제품·가전을 식품보다 앞으로(2026-08-01) — 오디언스 정합·객단가 모두
 //   유리해 매출 기여가 큰 카테고리를 먼저 노출(page.tsx의 정렬 우선순위와 동일 의도).
 const TABS = ["전체", "전자제품", "가전", "식품", "생활용품", "화장품", "육아", "기타"] as const;
+// 8/20: 토스쇼핑 딜이 전체의 20%+ 차지하게 되면서 스토어 구분 없이 섞여있던 목록에
+// 필터가 없다는 지적(형님 "점검해보세요") → 카테고리 탭과 별개 축으로 스토어 탭 추가.
+const STORE_TABS = ["전체", "쿠팡", "토스쇼핑"] as const;
 
 export function ShoppingList({ deals }: { deals: DealView[] }) {
   const [active, setActive] = useState<string>("전체");
+  const [activeStore, setActiveStore] = useState<string>("전체");
 
-  const counts: Record<string, number> = { 전체: deals.length };
+  // 스토어 탭 개수는 항상 전체 기준(카테고리 선택과 무관하게 "쿠팡 총 몇 건" 보이게)
+  const storeCounts: Record<string, number> = { 전체: deals.length, 쿠팡: 0, 토스쇼핑: 0 };
+  for (const d of deals) storeCounts[d.store] = (storeCounts[d.store] ?? 0) + 1;
+
+  const storeFiltered = activeStore === "전체" ? deals : deals.filter((d) => d.store === activeStore);
+
+  // 카테고리 탭 개수는 현재 스토어 필터 기준으로 다시 집계(선택된 스토어 안에서 몇 건인지)
+  const counts: Record<string, number> = { 전체: storeFiltered.length };
   for (const t of TABS) if (t !== "전체") counts[t] = 0;
-  for (const d of deals) counts[d.catGroup] = (counts[d.catGroup] ?? 0) + 1;
+  for (const d of storeFiltered) counts[d.catGroup] = (counts[d.catGroup] ?? 0) + 1;
 
-  const shown = active === "전체" ? deals : deals.filter((d) => d.catGroup === active);
+  const shown = active === "전체" ? storeFiltered : storeFiltered.filter((d) => d.catGroup === active);
 
   return (
     <>
+      {/* 스토어 탭 */}
+      <div className="flex flex-wrap gap-1.5 mb-2.5">
+        {STORE_TABS.map((t) => {
+          const isActive = activeStore === t;
+          const n = storeCounts[t] ?? 0;
+          return (
+            <button
+              key={t}
+              type="button"
+              onClick={() => setActiveStore(t)}
+              className={`px-3 py-1.5 rounded-full text-xs font-semibold transition-colors border ${
+                isActive
+                  ? "bg-blue-500 text-white border-blue-500"
+                  : "bg-bg-card text-text-dim border-line hover:text-text hover:border-text-dim"
+              }`}
+            >
+              {t}
+              <span className={`ml-1 ${isActive ? "text-white/70" : "text-text-dim/60"}`}>{n}</span>
+            </button>
+          );
+        })}
+      </div>
+
       {/* 카테고리 탭 */}
       <div className="flex flex-wrap gap-1.5 mb-5">
         {TABS.map((t) => {

@@ -43,13 +43,13 @@ async function fetchDeals(): Promise<Deal[]> {
 }
 
 export const metadata: Metadata = {
-  title: "쿠팡 핫딜 — 줍줍쇼핑",
+  title: "쿠팡·토스쇼핑 핫딜 — 줍줍쇼핑",
   description:
-    "쿠팡 핫딜만 골라서 시세 대비 할인율까지 자동 계산. 가격오류 의심 초특가는 별도 배지로 표시.",
-  keywords: ["쿠팡 핫딜", "쿠팡 특가", "가격오류", "줍줍쇼핑", "쿠팡 최저가"],
+    "쿠팡·토스쇼핑 핫딜만 골라서 시세 대비 할인율까지 자동 계산. 가격오류 의심 초특가는 별도 배지로 표시.",
+  keywords: ["쿠팡 핫딜", "토스쇼핑 핫딜", "쿠팡 특가", "가격오류", "줍줍쇼핑", "쿠팡 최저가"],
   openGraph: {
-    title: "쿠팡 핫딜 — 줍줍쇼핑",
-    description: "쿠팡 핫딜만 골라서 시세 대비 할인율까지 자동 계산.",
+    title: "쿠팡·토스쇼핑 핫딜 — 줍줍쇼핑",
+    description: "쿠팡·토스쇼핑 핫딜만 골라서 시세 대비 할인율까지 자동 계산.",
     url: "https://kr-stocks.com/shopping",
     type: "website",
   },
@@ -136,7 +136,7 @@ export default async function ShoppingPage() {
             <p className="text-text-muted text-base leading-relaxed">
               주식은 물타기 하면 안 되지만, 장바구니는 물타기 해도 됩니다.
               <br className="hidden sm:block" />
-              시세보다 확실히 싼 쿠팡 딜만 골라 <span className="text-accent-green font-semibold">평균가 대비 할인율</span>을
+              시세보다 확실히 싼 쿠팡·토스쇼핑 딜만 골라 <span className="text-accent-green font-semibold">평균가 대비 할인율</span>을
               자동 계산합니다. 주식처럼 <span className="text-text font-semibold">저점에서 담으세요.</span>
             </p>
             <p className="text-text-dim text-xs mt-3 leading-relaxed">
@@ -154,9 +154,9 @@ export default async function ShoppingPage() {
           )}
 
           <p className="text-[10px] text-text-dim mt-6 leading-relaxed">
-            ※ 딜 출처: 아르카라이브 핫딜 채널(쿠팡 스토어만). 가격·재고는 수시로 변동되니 구매 전 꼭 확인하세요.
-            "이 가격에 구매하기" 링크는 쿠팡파트너스 제휴 링크로, 이 링크로 구매 시 쿠팡으로부터 일정액의
-            수수료를 제공받을 수 있습니다.
+            ※ 딜 출처: 아르카라이브·퀘이사존 핫딜 채널(쿠팡), 토스쇼핑 쉐어링크. 가격·재고는 수시로 변동되니 구매 전 꼭 확인하세요.
+            "이 가격에 구매하기" 링크는 쿠팡 파트너스 또는 토스쇼핑 쉐어링크 제휴 링크로, 이 링크로 구매 시
+            해당 플랫폼으로부터 일정액의 수수료를 제공받습니다.
           </p>
         </article>
       </main>

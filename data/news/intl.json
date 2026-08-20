@@ -1,14 +1,38 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-20T09:22:26.957Z",
-  "count": 23,
+  "updated_at": "2026-08-20T11:15:53.481Z",
+  "count": 24,
   "items": [
     {
-      "title": "[사설] 트럼프 \"北 핵무기 57개\"…핵 보유국 인정해선 안돼",
-      "link": "https://www.hankyung.com/article/2026082030311",
+      "title": "김정관 \"내달 대미투자 1호 발표…관세 15% 유지 공감대\"",
+      "link": "https://www.hankyung.com/article/2026082032501",
       "source": "한국경제",
-      "ts": 1787216149000,
-      "pub": "Thu, 20 Aug 2026 17:55:49 +0900",
+      "ts": 1787223016000,
+      "pub": "Thu, 20 Aug 2026 19:50:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 '대화 손짓'에 응답한 김정은…탄도미사일 날렸다",
+      "link": "https://www.hankyung.com/article/2026082032237",
+      "source": "한국경제",
+      "ts": 1787220728000,
+      "pub": "Thu, 20 Aug 2026 19:12:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프와 몇 번 통화했나\"…美민주당, 연준 의장에 설명 요구",
+      "link": "https://www.yna.co.kr/view/AKR20260820171100009",
+      "source": "연합뉴스 국제",
+      "ts": 1787220340000,
+      "pub": "Thu, 20 Aug 2026 19:05:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "갓 스무살 재산이 '2000억' 어마어마...트럼프 막내아들 비결은",
+      "link": "https://www.mt.co.kr/world/2026/08/20/2026082016503433872",
+      "source": "머니투데이",
+      "ts": 1787219067000,
+      "pub": "Thu, 20 Aug 2026 18:44:27 +0900",
       "sentiment": "neutral"
     },
     {
@@ -17,14 +41,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787215468000,
       "pub": "Thu, 20 Aug 2026 17:44:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"北 핵무기 57개 보유\"…격랑의 한반도",
-      "link": "https://www.hankyung.com/article/2026082030361",
-      "source": "한국경제",
-      "ts": 1787215467000,
-      "pub": "Thu, 20 Aug 2026 17:44:27 +0900",
       "sentiment": "neutral"
     },
     {
@@ -177,14 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787172988000,
       "pub": "Thu, 20 Aug 2026 05:56:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, '북미대화 목표 비핵화냐'에 \"그 얘기 하고 싶지 않다\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260820006551071",
-      "source": "연합뉴스 국제",
-      "ts": 1787172613000,
-      "pub": "Thu, 20 Aug 2026 05:50:13 +0900",
       "sentiment": "neutral"
     }
   ]

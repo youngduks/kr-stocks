@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-20T00:34:02.336Z",
-  "count": 20,
+  "updated_at": "2026-08-20T02:09:53.038Z",
+  "count": 14,
   "items": [
+    {
+      "title": "SK하이닉스 또 해냈다…HBM 넘어 '빛 반도체' 개념 제시",
+      "link": "https://www.hankyung.com/article/2026082015027",
+      "source": "한국경제",
+      "ts": 1787187679000,
+      "pub": "Thu, 20 Aug 2026 10:01:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'SK하이닉스 위탁투자중개업자' SK증권, 장 초반 '상한가'",
+      "link": "https://www.hankyung.com/article/2026082012906",
+      "source": "한국경제",
+      "ts": 1787185611000,
+      "pub": "Thu, 20 Aug 2026 09:26:51 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'주주환원' 하이닉스 장초반 7~8%대 급등…삼전도 5%↑",
       "link": "https://www.yna.co.kr/view/AKR20260820044300008",
@@ -12,44 +28,12 @@
       "sentiment": "positive"
     },
     {
-      "title": "SK하이닉스, 자사주 취득 소식에 장초반 6%대 강세",
-      "link": "https://www.mt.co.kr/stock/2026/08/20/2026082009103624543",
-      "source": "머니투데이",
-      "ts": 1787184771000,
-      "pub": "Thu, 20 Aug 2026 09:12:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"40조 화끈하게 태운다\" SK 하이닉스 '이익' 자신감…목표가 300만원",
-      "link": "https://www.mt.co.kr/stock/2026/08/20/2026082008532463370",
-      "source": "머니투데이",
-      "ts": 1787183710000,
-      "pub": "Thu, 20 Aug 2026 08:55:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스의 통큰 자사주 소각…증시엔 어떤 영향 미칠까",
-      "link": "https://www.hankyung.com/article/202608201065i",
+      "title": "'40조 자사주 취득·소각' SK하이닉스, 장 초반 6% 급등",
+      "link": "https://www.hankyung.com/article/2026082012816",
       "source": "한국경제",
-      "ts": 1787181753000,
-      "pub": "Thu, 20 Aug 2026 08:22:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'40조 자사주 소각' SK하이닉스, 프리마켓서 7%↑…삼전도 뛴다",
-      "link": "https://www.mt.co.kr/stock/2026/08/20/2026082008162298601",
-      "source": "머니투데이",
-      "ts": 1787181471000,
-      "pub": "Thu, 20 Aug 2026 08:17:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[더벨][서진시스템 회장 체제 전환]상반기 누적 매출 7000억, 반도체 부문 실적 견인",
-      "link": "https://www.mt.co.kr/stock/2026/08/20/2026082008029688754",
-      "source": "머니투데이",
-      "ts": 1787180761000,
-      "pub": "Thu, 20 Aug 2026 08:06:01 +0900",
-      "sentiment": "neutral"
+      "ts": 1787184814000,
+      "pub": "Thu, 20 Aug 2026 09:13:34 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "[마켓뷰] 美훈풍·하이닉스 주주환원…코스피 반등 시도하나",
@@ -60,35 +44,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"SK하이닉스, 40조 자사주 매입 긍정적…추가 주주환원도 대기\"-하나",
-      "link": "https://www.hankyung.com/article/2026082009706",
-      "source": "한국경제",
-      "ts": 1787179793000,
-      "pub": "Thu, 20 Aug 2026 07:49:53 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\"베센트와 싸우지 말라\"…금리 급락에 주가 상승, 반도체는 빠진 이유 [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202608200881i",
-      "source": "한국경제",
-      "ts": 1787179742000,
-      "pub": "Thu, 20 Aug 2026 07:49:02 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "구글, 반도체기업 마벨과 AI칩 동맹…최대 17조원 신주인수권",
       "link": "https://www.yna.co.kr/view/AKR20260820003000091",
       "source": "연합뉴스 국제",
       "ts": 1787160957000,
       "pub": "Thu, 20 Aug 2026 02:35:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 아산 반도체 공장 내달 착공…'3대 메가' 사업 중 처음",
-      "link": "https://www.yna.co.kr/view/AKR20260819137800063",
-      "source": "연합뉴스 경제",
-      "ts": 1787123647000,
-      "pub": "Wed, 19 Aug 2026 16:14:07 +0900",
       "sentiment": "neutral"
     },
     {
@@ -143,13 +103,6 @@
     {
       "title": "에스케이하이닉스(주) 신규시설투자등",
       "link": "https://finance.naver.com/item/news_notice_read.naver?no=97947414&code=000660&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1786060800000,
-      "pub": "2026.08.07"
-    },
-    {
-      "title": "에스케이하이닉스(주) 신규시설투자등",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=97945721&code=000660&page_notice=",
       "source": "전자공시(DART)",
       "ts": 1786060800000,
       "pub": "2026.08.07"

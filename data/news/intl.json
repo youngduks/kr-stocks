@@ -1,15 +1,31 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-20T00:34:02.335Z",
-  "count": 43,
+  "updated_at": "2026-08-20T02:09:53.036Z",
+  "count": 35,
   "items": [
     {
-      "title": "트럼프 \"미치광이들 궁지 몰려…이란 지원하면 전례없는 제재\"",
-      "link": "https://www.mt.co.kr/world/2026/08/20/2026082008564018830",
-      "source": "머니투데이",
-      "ts": 1787185562000,
-      "pub": "Thu, 20 Aug 2026 09:26:02 +0900",
-      "sentiment": "negative"
+      "title": "\"北비핵화 모호해진 트럼프, 핵해체 아닌 탄두 제한 회담 목표\"",
+      "link": "https://www.yna.co.kr/view/AKR20260820063800071",
+      "source": "연합뉴스 국제",
+      "ts": 1787190613000,
+      "pub": "Thu, 20 Aug 2026 10:50:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프의 이란 상대 경제전쟁 성패 UAE에 달렸다",
+      "link": "https://www.yna.co.kr/view/AKR20260820056500009",
+      "source": "연합뉴스 국제",
+      "ts": 1787187738000,
+      "pub": "Thu, 20 Aug 2026 10:02:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "집중호우 피해 수출입 기업, 관세 납부 최대 1년 연장",
+      "link": "https://www.yna.co.kr/view/AKR20260820050500002",
+      "source": "연합뉴스 경제",
+      "ts": 1787187582000,
+      "pub": "Thu, 20 Aug 2026 09:59:42 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "이스라엘, '서안 두동강' 정착촌 입찰 기습 개시",
@@ -44,35 +60,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "트럼프 \"경제 좋은데\" 금리 인하 또 압박…연준 '인상 신호'에 불만 폭발",
-      "link": "https://www.mt.co.kr/world/2026/08/20/2026082007464942873",
-      "source": "머니투데이",
-      "ts": 1787179983000,
-      "pub": "Thu, 20 Aug 2026 07:53:03 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"금리 내려라\"…트럼프, 백악관 암호화폐 행사서 Fed 압박",
-      "link": "https://www.hankyung.com/article/2026082009547",
-      "source": "한국경제",
-      "ts": 1787179613000,
-      "pub": "Thu, 20 Aug 2026 07:46:53 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "캐나다산 철강 25%·車 15%로 관세인하 논의…美와 막판 조율",
       "link": "https://www.yna.co.kr/view/AKR20260820015800072",
       "source": "연합뉴스 국제",
       "ts": 1787178431000,
       "pub": "Thu, 20 Aug 2026 07:27:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "李 대통령 \"한반도 평화 위한 트럼프 대통령 결단에 경의…재회 기대\"",
-      "link": "https://www.mt.co.kr/politics/2026/08/20/2026082007210566903",
-      "source": "머니투데이",
-      "ts": 1787178214000,
-      "pub": "Thu, 20 Aug 2026 07:23:34 +0900",
       "sentiment": "neutral"
     },
     {
@@ -84,43 +76,11 @@
       "sentiment": "negative"
     },
     {
-      "title": "美 중앙은행 \"AI 투자경쟁, 물가와 금융에 새로운 부담\" [Fed 워치]",
-      "link": "https://www.hankyung.com/article/202608200885i",
-      "source": "한국경제",
-      "ts": 1787177156000,
-      "pub": "Thu, 20 Aug 2026 07:05:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'2조원 돈벌이' 트럼프, 코인기업 CEO 초청...\"암호화폐법안 통과해야\"",
-      "link": "https://www.mt.co.kr/world/2026/08/20/2026082006184680266",
-      "source": "머니투데이",
-      "ts": 1787176719000,
-      "pub": "Thu, 20 Aug 2026 06:58:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"한국, 호르무즈 지원 거절 기분 안좋아\"…재차 불만 표출",
-      "link": "https://www.hankyung.com/article/2026082008927",
-      "source": "한국경제",
-      "ts": 1787175325000,
-      "pub": "Thu, 20 Aug 2026 06:35:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "'김정은과 연내 회담' 확언한 트럼프…비핵화 목표엔 즉답 회피(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260820004651071",
       "source": "연합뉴스 국제",
       "ts": 1787174644000,
       "pub": "Thu, 20 Aug 2026 06:24:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"북한, 57개 핵무기 갖고 있어\"…핵 보유 숫자 첫 언급",
-      "link": "https://www.hankyung.com/article/2026082008717",
-      "source": "한국경제",
-      "ts": 1787174526000,
-      "pub": "Thu, 20 Aug 2026 06:22:06 +0900",
       "sentiment": "neutral"
     },
     {
@@ -137,14 +97,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787172613000,
       "pub": "Thu, 20 Aug 2026 05:50:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "FOMC 매파 확대…위원 약 50% \"물가 안 잡히면 금리 인상\" [Fed 워치]",
-      "link": "https://www.hankyung.com/article/202608200822i",
-      "source": "한국경제",
-      "ts": 1787172591000,
-      "pub": "Thu, 20 Aug 2026 05:49:51 +0900",
       "sentiment": "neutral"
     },
     {
@@ -330,22 +282,6 @@
       "ts": 1787126996000,
       "pub": "Wed, 19 Aug 2026 17:09:56 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "\"네타냐후-쿠슈너, '하마스 기습 가담자 표적 공습' 두고 충돌\"",
-      "link": "https://www.yna.co.kr/view/AKR20260819149100079",
-      "source": "연합뉴스 국제",
-      "ts": 1787126973000,
-      "pub": "Wed, 19 Aug 2026 17:09:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 캐나다 '50% 관세' 3일 보류…카니 \"주요 과제 여전\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260819084251009",
-      "source": "연합뉴스 국제",
-      "ts": 1787122791000,
-      "pub": "Wed, 19 Aug 2026 15:59:51 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

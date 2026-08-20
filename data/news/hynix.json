@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-20T04:24:33.611Z",
-  "count": 17,
+  "updated_at": "2026-08-20T05:20:32.186Z",
+  "count": 15,
   "items": [
+    {
+      "title": "반도체 등 핵심기술 유출 '비상'…경찰 수사인력 대폭 보강",
+      "link": "https://www.hankyung.com/article/202608202092i",
+      "source": "한국경제",
+      "ts": 1787199826000,
+      "pub": "Thu, 20 Aug 2026 13:23:46 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"일 더 하려다 기밀 샐라\"…반도체업계 외면한 특별연장근로",
       "link": "https://www.hankyung.com/article/202608202032i",
@@ -28,35 +36,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "미 국채 바이백·코스피 상승에 반도체 온기… 닛케이 1%↑[Asia오전]",
-      "link": "https://www.mt.co.kr/world/2026/08/20/2026082011163263586",
-      "source": "머니투데이",
-      "ts": 1787193820000,
-      "pub": "Thu, 20 Aug 2026 11:43:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "WRC서 엔비디아 매디슨 황 만난 이준석 \"정치권, AI·로봇 현장 더 많이 봐야\"",
-      "link": "https://www.mt.co.kr/politics/2026/08/20/2026082011250419789",
-      "source": "머니투데이",
-      "ts": 1787193258000,
-      "pub": "Thu, 20 Aug 2026 11:34:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "하이닉스 '역대급' 주주환원에 美 국채금리 하락까지…코스피 매수 사이드카 발동",
       "link": "https://www.hankyung.com/article/202608201569i",
       "source": "한국경제",
       "ts": 1787192326000,
       "pub": "Thu, 20 Aug 2026 11:18:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "교과서 밖 반도체 현장 노하우...한국공학대, 'SeMI DAY 콜로퀴움' 개최",
-      "link": "https://www.mt.co.kr/policy/2026/08/20/2026082010560357373",
-      "source": "머니투데이",
-      "ts": 1787191619000,
-      "pub": "Thu, 20 Aug 2026 11:06:59 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,14 +1,22 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-20T04:24:33.609Z",
+  "updated_at": "2026-08-20T05:20:32.183Z",
   "count": 37,
   "items": [
     {
-      "title": "관세청, 거제·통영 집중호우 피해 수출입 기업 관세행정 종합지원",
-      "link": "https://www.mt.co.kr/policy/2026/08/20/2026082012443820639",
-      "source": "머니투데이",
-      "ts": 1787198758000,
-      "pub": "Thu, 20 Aug 2026 13:05:58 +0900",
+      "title": "[영상] 트럼프 \"북한, 57개 핵무기 보유…올해 김정은 만날 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260820111900704",
+      "source": "연합뉴스 국제",
+      "ts": 1787202782000,
+      "pub": "Thu, 20 Aug 2026 14:13:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "무역위, 중국·대만 고체 수산화나트륨에 반덤핑관세 예비판정",
+      "link": "https://www.yna.co.kr/view/AKR20260820095600003",
+      "source": "연합뉴스 경제",
+      "ts": 1787200201000,
+      "pub": "Thu, 20 Aug 2026 13:30:01 +0900",
       "sentiment": "neutral"
     },
     {
@@ -289,14 +297,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787136100000,
       "pub": "Wed, 19 Aug 2026 19:41:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "튀르키예, 시리아 주둔설 일축…\"이스라엘의 근거 없는 주장\"",
-      "link": "https://www.yna.co.kr/view/AKR20260819166700108",
-      "source": "연합뉴스 국제",
-      "ts": 1787133686000,
-      "pub": "Wed, 19 Aug 2026 19:01:26 +0900",
       "sentiment": "neutral"
     }
   ]

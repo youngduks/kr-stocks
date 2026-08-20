@@ -1,22 +1,30 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-20T08:23:21.696Z",
-  "count": 15,
+  "updated_at": "2026-08-20T09:22:26.958Z",
+  "count": 13,
   "items": [
+    {
+      "title": "SK하이닉스, 직원 성과급 현금 40%·자사주 60% 준다",
+      "link": "https://www.hankyung.com/article/2026082029781",
+      "source": "한국경제",
+      "ts": 1787214903000,
+      "pub": "Thu, 20 Aug 2026 17:35:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "40조원은 시작일 뿐… \"하이닉스 주주환원 실탄 200조원 더 남았다\"",
+      "link": "https://www.hankyung.com/article/202608201594i",
+      "source": "한국경제",
+      "ts": 1787213393000,
+      "pub": "Thu, 20 Aug 2026 17:09:53 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "“AI 간판 없어도 된다”…삼전·하이닉스 담은 ETF에 뭉칫돈",
       "link": "https://www.hankyung.com/article/202608202672i",
       "source": "한국경제",
       "ts": 1787210478000,
       "pub": "Thu, 20 Aug 2026 16:21:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"SK하이닉스 주식 지금 더 사라\"…월가 보고서 나온 이유가",
-      "link": "https://www.hankyung.com/article/2026082026877",
-      "source": "한국경제",
-      "ts": 1787210097000,
-      "pub": "Thu, 20 Aug 2026 16:14:57 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,35 +36,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "'억대 성과급' 60%는 주식으로 받는다…SK하이닉스 '파격'",
-      "link": "https://www.hankyung.com/article/202608202514g",
-      "source": "한국경제",
-      "ts": 1787208415000,
-      "pub": "Thu, 20 Aug 2026 15:46:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "원전 19기 더 필요한 전력…반도체·AI가 불 지폈다",
-      "link": "https://www.hankyung.com/article/202608202524i",
-      "source": "한국경제",
-      "ts": 1787207796000,
-      "pub": "Thu, 20 Aug 2026 15:36:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"대만 TSMC, 1.6나노칩 개발 성공…올해 4분기 양산\"",
       "link": "https://www.yna.co.kr/view/AKR20260820095900009",
       "source": "연합뉴스 국제",
       "ts": 1787195948000,
       "pub": "Thu, 20 Aug 2026 12:19:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "구글, 반도체기업 마벨과 AI칩 동맹…최대 17조원 신주인수권",
-      "link": "https://www.yna.co.kr/view/AKR20260820003000091",
-      "source": "연합뉴스 국제",
-      "ts": 1787160957000,
-      "pub": "Thu, 20 Aug 2026 02:35:57 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,72 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-19T23:12:36.671Z",
-  "count": 15,
+  "updated_at": "2026-08-20T00:34:02.336Z",
+  "count": 20,
   "items": [
+    {
+      "title": "'주주환원' 하이닉스 장초반 7~8%대 급등…삼전도 5%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260820044300008",
+      "source": "연합뉴스 경제",
+      "ts": 1787185585000,
+      "pub": "Thu, 20 Aug 2026 09:26:25 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"삼성전자, 美 국채금리 상승보다 AI 투자회수 가능성 주목해야\"-KB",
+      "link": "https://www.mt.co.kr/stock/2026/08/20/2026082008352139153",
+      "source": "머니투데이",
+      "ts": 1787183877000,
+      "pub": "Thu, 20 Aug 2026 08:57:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 27일 갤럭시 신제품 공개…S26 FE 유력",
+      "link": "https://www.yna.co.kr/view/AKR20260820034000017",
+      "source": "연합뉴스 경제",
+      "ts": 1787183621000,
+      "pub": "Thu, 20 Aug 2026 08:53:41 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼성, '갤럭시 이벤트' 초대장 발송…27일 '갤럭시 S26 FE' 공개",
+      "link": "https://www.mt.co.kr/tech/2026/08/20/2026082008190097882",
+      "source": "머니투데이",
+      "ts": 1787183068000,
+      "pub": "Thu, 20 Aug 2026 08:44:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "KB증권 \"삼성전자, 금리 우려보다 AI 수익화 가능성에 주목\"",
+      "link": "https://www.yna.co.kr/view/AKR20260820028300008",
+      "source": "연합뉴스 경제",
+      "ts": 1787182918000,
+      "pub": "Thu, 20 Aug 2026 08:41:58 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "'40조 자사주 소각' SK하닉 프리마켓 8% 급등…삼전도 달린다",
+      "link": "https://www.hankyung.com/article/2026082011077",
+      "source": "한국경제",
+      "ts": 1787182107000,
+      "pub": "Thu, 20 Aug 2026 08:28:27 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "'40조 자사주 소각' SK하이닉스, 프리마켓서 7%↑…삼전도 뛴다",
+      "link": "https://www.mt.co.kr/stock/2026/08/20/2026082008162298601",
+      "source": "머니투데이",
+      "ts": 1787181471000,
+      "pub": "Thu, 20 Aug 2026 08:17:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼성전자, AI 조기 수익화 시간 도래⋯주주환원 재평가 촉매\"-KB",
+      "link": "https://www.hankyung.com/article/2026082009396",
+      "source": "한국경제",
+      "ts": 1787180415000,
+      "pub": "Thu, 20 Aug 2026 08:00:15 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성전자, 호주서 7년 연속 '가장 사랑받는 TV 브랜드' 1위",
       "link": "https://www.yna.co.kr/view/AKR20260819125600003",
@@ -50,30 +114,6 @@
       "ts": 1787122512000,
       "pub": "Wed, 19 Aug 2026 15:55:12 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "中샤오미, 메모리 가격 상승에 2분기 조정 순이익 43%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260819120600083",
-      "source": "연합뉴스 국제",
-      "ts": 1787120485000,
-      "pub": "Wed, 19 Aug 2026 15:21:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "중국 '메모리 투톱' YMTC도 IPO 행보…내년 상반기 예상",
-      "link": "https://www.yna.co.kr/view/AKR20260819113100009",
-      "source": "연합뉴스 국제",
-      "ts": 1787119445000,
-      "pub": "Wed, 19 Aug 2026 15:04:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 광주에 플랙트 냉난방공조 생산라인…2천400억 투자(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260819031051003",
-      "source": "연합뉴스 경제",
-      "ts": 1787107540000,
-      "pub": "Wed, 19 Aug 2026 11:45:40 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

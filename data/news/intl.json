@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-19T23:12:36.670Z",
-  "count": 38,
+  "updated_at": "2026-08-20T00:34:02.335Z",
+  "count": 43,
   "items": [
+    {
+      "title": "트럼프 \"미치광이들 궁지 몰려…이란 지원하면 전례없는 제재\"",
+      "link": "https://www.mt.co.kr/world/2026/08/20/2026082008564018830",
+      "source": "머니투데이",
+      "ts": 1787185562000,
+      "pub": "Thu, 20 Aug 2026 09:26:02 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "이스라엘, '서안 두동강' 정착촌 입찰 기습 개시",
+      "link": "https://www.yna.co.kr/view/AKR20260820040100009",
+      "source": "연합뉴스 국제",
+      "ts": 1787185056000,
+      "pub": "Thu, 20 Aug 2026 09:17:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘군, '힌드의 목소리' 5세 소녀 탑승차량 총격 인정",
+      "link": "https://www.yna.co.kr/view/AKR20260820029400009",
+      "source": "연합뉴스 국제",
+      "ts": 1787184667000,
+      "pub": "Thu, 20 Aug 2026 09:11:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, '이란 경제고립 작전' 선언…\"지원국도 막대한 대가\"",
+      "link": "https://www.yna.co.kr/view/AKR20260820032600071",
+      "source": "연합뉴스 국제",
+      "ts": 1787183665000,
+      "pub": "Thu, 20 Aug 2026 08:54:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "FBI 전 국장이 쓴 소설이 '트럼프 위협' 증거로…美검찰 공세",
+      "link": "https://www.yna.co.kr/view/AKR20260820029100009",
+      "source": "연합뉴스 국제",
+      "ts": 1787182818000,
+      "pub": "Thu, 20 Aug 2026 08:40:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"경제 좋은데\" 금리 인하 또 압박…연준 '인상 신호'에 불만 폭발",
+      "link": "https://www.mt.co.kr/world/2026/08/20/2026082007464942873",
+      "source": "머니투데이",
+      "ts": 1787179983000,
+      "pub": "Thu, 20 Aug 2026 07:53:03 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "\"금리 내려라\"…트럼프, 백악관 암호화폐 행사서 Fed 압박",
       "link": "https://www.hankyung.com/article/2026082009547",
@@ -20,6 +68,14 @@
       "sentiment": "neutral"
     },
     {
+      "title": "李 대통령 \"한반도 평화 위한 트럼프 대통령 결단에 경의…재회 기대\"",
+      "link": "https://www.mt.co.kr/politics/2026/08/20/2026082007210566903",
+      "source": "머니투데이",
+      "ts": 1787178214000,
+      "pub": "Thu, 20 Aug 2026 07:23:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "트럼프 \"인플레 우려해 금리 올릴 필요없어…오히려 내려야\"",
       "link": "https://www.yna.co.kr/view/AKR20260820014200071",
       "source": "연합뉴스 국제",
@@ -33,6 +89,14 @@
       "source": "한국경제",
       "ts": 1787177156000,
       "pub": "Thu, 20 Aug 2026 07:05:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'2조원 돈벌이' 트럼프, 코인기업 CEO 초청...\"암호화폐법안 통과해야\"",
+      "link": "https://www.mt.co.kr/world/2026/08/20/2026082006184680266",
+      "source": "머니투데이",
+      "ts": 1787176719000,
+      "pub": "Thu, 20 Aug 2026 06:58:39 +0900",
       "sentiment": "neutral"
     },
     {
@@ -204,14 +268,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[속보] 김여정 \"우크라전 추가 파병 사실무근…북러동맹 의무는 다할 것\"",
-      "link": "https://www.hankyung.com/article/2026081907287",
-      "source": "한국경제",
-      "ts": 1787145576000,
-      "pub": "Wed, 19 Aug 2026 22:19:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "이스라엘군, 가자전쟁 '최대 민간인 희생' 사건 수사 착수",
       "link": "https://www.yna.co.kr/view/AKR20260819175300079",
       "source": "연합뉴스 국제",
@@ -225,14 +281,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787142609000,
       "pub": "Wed, 19 Aug 2026 21:30:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프, 아시아 중시 안보전략 흔들어 中견제 스스로 포기\" [블룸버그]",
-      "link": "https://www.hankyung.com/article/202608190671i",
-      "source": "한국경제",
-      "ts": 1787141310000,
-      "pub": "Wed, 19 Aug 2026 21:08:30 +0900",
       "sentiment": "neutral"
     },
     {
@@ -297,14 +345,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787122791000,
       "pub": "Wed, 19 Aug 2026 15:59:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "미얀마 대통령, 취임 후 첫 러시아 방문…푸틴과 회담",
-      "link": "https://www.yna.co.kr/view/AKR20260819101900084",
-      "source": "연합뉴스 국제",
-      "ts": 1787115911000,
-      "pub": "Wed, 19 Aug 2026 14:05:11 +0900",
       "sentiment": "neutral"
     }
   ]

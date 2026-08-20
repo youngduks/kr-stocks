@@ -1,8 +1,56 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-19T23:12:36.672Z",
-  "count": 19,
+  "updated_at": "2026-08-20T00:34:02.336Z",
+  "count": 20,
   "items": [
+    {
+      "title": "'주주환원' 하이닉스 장초반 7~8%대 급등…삼전도 5%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260820044300008",
+      "source": "연합뉴스 경제",
+      "ts": 1787185585000,
+      "pub": "Thu, 20 Aug 2026 09:26:25 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "SK하이닉스, 자사주 취득 소식에 장초반 6%대 강세",
+      "link": "https://www.mt.co.kr/stock/2026/08/20/2026082009103624543",
+      "source": "머니투데이",
+      "ts": 1787184771000,
+      "pub": "Thu, 20 Aug 2026 09:12:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"40조 화끈하게 태운다\" SK 하이닉스 '이익' 자신감…목표가 300만원",
+      "link": "https://www.mt.co.kr/stock/2026/08/20/2026082008532463370",
+      "source": "머니투데이",
+      "ts": 1787183710000,
+      "pub": "Thu, 20 Aug 2026 08:55:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스의 통큰 자사주 소각…증시엔 어떤 영향 미칠까",
+      "link": "https://www.hankyung.com/article/202608201065i",
+      "source": "한국경제",
+      "ts": 1787181753000,
+      "pub": "Thu, 20 Aug 2026 08:22:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'40조 자사주 소각' SK하이닉스, 프리마켓서 7%↑…삼전도 뛴다",
+      "link": "https://www.mt.co.kr/stock/2026/08/20/2026082008162298601",
+      "source": "머니투데이",
+      "ts": 1787181471000,
+      "pub": "Thu, 20 Aug 2026 08:17:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[더벨][서진시스템 회장 체제 전환]상반기 누적 매출 7000억, 반도체 부문 실적 견인",
+      "link": "https://www.mt.co.kr/stock/2026/08/20/2026082008029688754",
+      "source": "머니투데이",
+      "ts": 1787180761000,
+      "pub": "Thu, 20 Aug 2026 08:06:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[마켓뷰] 美훈풍·하이닉스 주주환원…코스피 반등 시도하나",
       "link": "https://www.yna.co.kr/view/AKR20260820020600008",
@@ -41,46 +89,6 @@
       "source": "연합뉴스 경제",
       "ts": 1787123647000,
       "pub": "Wed, 19 Aug 2026 16:14:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中샤오미, 메모리 가격 상승에 2분기 조정 순이익 43%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260819120600083",
-      "source": "연합뉴스 국제",
-      "ts": 1787120485000,
-      "pub": "Wed, 19 Aug 2026 15:21:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "중국 '메모리 투톱' YMTC도 IPO 행보…내년 상반기 예상",
-      "link": "https://www.yna.co.kr/view/AKR20260819113100009",
-      "source": "연합뉴스 국제",
-      "ts": 1787119445000,
-      "pub": "Wed, 19 Aug 2026 15:04:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "올해 하반기 일자리 전망…반도체·조선 '맑음', 섬유 '흐림'",
-      "link": "https://www.yna.co.kr/view/AKR20260819046100530",
-      "source": "연합뉴스 경제",
-      "ts": 1787108415000,
-      "pub": "Wed, 19 Aug 2026 12:00:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "KDI \"올해 성장률 전망치 3.2%로 0.7%p↑…0.6%p가 반도체 몫\"",
-      "link": "https://www.yna.co.kr/view/AKR20260819082000002",
-      "source": "연합뉴스 경제",
-      "ts": 1787108402000,
-      "pub": "Wed, 19 Aug 2026 12:00:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피 상반기 매출 2천조원…반도체 독주속 순이익 작년 4배로",
-      "link": "https://www.yna.co.kr/view/AKR20260819080900008",
-      "source": "연합뉴스 경제",
-      "ts": 1787108401000,
-      "pub": "Wed, 19 Aug 2026 12:00:01 +0900",
       "sentiment": "neutral"
     },
     {

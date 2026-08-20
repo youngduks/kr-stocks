@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-20T07:31:11.763Z",
-  "count": 9,
+  "updated_at": "2026-08-20T08:23:21.695Z",
+  "count": 10,
   "items": [
+    {
+      "title": "\"100만원 싸게 샀어요\"…갤럭시 '여권폰' 돌풍에 몰려간 곳",
+      "link": "https://www.hankyung.com/article/202608202682g",
+      "source": "한국경제",
+      "ts": 1787211066000,
+      "pub": "Thu, 20 Aug 2026 16:31:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "“AI 간판 없어도 된다”…삼전·하이닉스 담은 ETF에 뭉칫돈",
+      "link": "https://www.hankyung.com/article/202608202672i",
+      "source": "한국경제",
+      "ts": 1787210478000,
+      "pub": "Thu, 20 Aug 2026 16:21:18 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'주주환원' 하이닉스 12.7%, 19만원 넘게 뛰어…삼전 9%↑(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260820044351008",
@@ -12,27 +28,19 @@
       "sentiment": "neutral"
     },
     {
-      "title": "100조 쏘고, 40조 태운다...삼전닉스 역대급 주주환원에 6800피 회복",
-      "link": "https://www.mt.co.kr/stock/2026/08/20/2026082016044237791",
-      "source": "머니투데이",
-      "ts": 1787209897000,
-      "pub": "Thu, 20 Aug 2026 16:11:37 +0900",
-      "sentiment": "neutral"
+      "title": "코스피, 삼전닉스 업고 5%대 급등…외인 2.2조 '사자'",
+      "link": "https://www.hankyung.com/article/2026082026216",
+      "source": "한국경제",
+      "ts": 1787208730000,
+      "pub": "Thu, 20 Aug 2026 15:52:10 +0900",
+      "sentiment": "positive"
     },
     {
-      "title": "삼성전자, 메모리 호황에 150조원 푼다…사상 최대 주주환원",
+      "title": "\"삼성전자 주주들 계탔다\"…'150조' 역대급 돈잔치 예고에 들썩",
       "link": "https://www.hankyung.com/article/202608202463i",
       "source": "한국경제",
       "ts": 1787206851000,
       "pub": "Thu, 20 Aug 2026 15:20:51 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "자본·기술 끌어모은 中 '메모리 듀오'… 한국 턱밑 추격",
-      "link": "https://www.hankyung.com/article/202608201795i",
-      "source": "한국경제",
-      "ts": 1787203788000,
-      "pub": "Thu, 20 Aug 2026 14:29:48 +0900",
       "sentiment": "neutral"
     },
     {

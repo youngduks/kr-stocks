@@ -1,14 +1,22 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-20T07:31:11.762Z",
-  "count": 34,
+  "updated_at": "2026-08-20T08:23:21.694Z",
+  "count": 24,
   "items": [
     {
-      "title": "'北핵 57개' 콕 집은 트럼프…\"북미, 신호 교환하는 '썸' 국면\"",
-      "link": "https://www.mt.co.kr/politics/2026/08/20/2026082014280336746",
-      "source": "머니투데이",
-      "ts": 1787210091000,
-      "pub": "Thu, 20 Aug 2026 16:14:51 +0900",
+      "title": "中, 美드론 관세·우회수출 비판에 반발…\"전형적 보호주의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260820154200083",
+      "source": "연합뉴스 국제",
+      "ts": 1787213491000,
+      "pub": "Thu, 20 Aug 2026 17:11:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘, '서안 두동강' 정착촌 입찰 기습 개시(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260820040151009",
+      "source": "연합뉴스 국제",
+      "ts": 1787211352000,
+      "pub": "Thu, 20 Aug 2026 16:35:52 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,35 +28,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "무역위, 중국·대만산 수산화나트륨에 반덤핑관세 예비판정",
-      "link": "https://www.hankyung.com/article/202608202465i",
-      "source": "한국경제",
-      "ts": 1787206388000,
-      "pub": "Thu, 20 Aug 2026 15:13:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "세 번 만난 트럼프 꿰뚫은 김정은…더 큰 카드 요구하나",
-      "link": "https://www.hankyung.com/article/202608202201i",
-      "source": "한국경제",
-      "ts": 1787206035000,
-      "pub": "Thu, 20 Aug 2026 15:07:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 '이란 경제고립 작전' 선언…\"지원국도 막대한 대가\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260820032651071",
       "source": "연합뉴스 국제",
       "ts": 1787206028000,
       "pub": "Thu, 20 Aug 2026 15:07:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 '북핵 57개' 발언에…안규백 \"보통 80∼120개로 봐\"",
-      "link": "https://www.hankyung.com/article/202608202197i",
-      "source": "한국경제",
-      "ts": 1787204511000,
-      "pub": "Thu, 20 Aug 2026 14:41:51 +0900",
       "sentiment": "neutral"
     },
     {
@@ -97,14 +81,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787187738000,
       "pub": "Thu, 20 Aug 2026 10:02:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "집중호우 피해 수출입 기업, 관세 납부 최대 1년 연장",
-      "link": "https://www.yna.co.kr/view/AKR20260820050500002",
-      "source": "연합뉴스 경제",
-      "ts": 1787187582000,
-      "pub": "Thu, 20 Aug 2026 09:59:42 +0900",
       "sentiment": "neutral"
     },
     {
@@ -217,62 +193,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787160781000,
       "pub": "Thu, 20 Aug 2026 02:33:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이스라엘군 참모총장, 시리아 점령지 방문 \"적 위협 용납 못해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260820002500079",
-      "source": "연합뉴스 국제",
-      "ts": 1787158052000,
-      "pub": "Thu, 20 Aug 2026 01:47:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "빅터차 \"트럼프, 핵불허 이란과 달리 핵보유 北엔 타협적 접근\"",
-      "link": "https://www.yna.co.kr/view/AKR20260820001000071",
-      "source": "연합뉴스 국제",
-      "ts": 1787157318000,
-      "pub": "Thu, 20 Aug 2026 01:35:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"김정은, 57개 매우 강력한 핵무기 보유…연내 만날 것\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260820001451071",
-      "source": "연합뉴스 국제",
-      "ts": 1787157289000,
-      "pub": "Thu, 20 Aug 2026 01:34:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"김정은, 57개 매우 강력한 핵무기 보유…연내 만날 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260820001400071",
-      "source": "연합뉴스 국제",
-      "ts": 1787155044000,
-      "pub": "Thu, 20 Aug 2026 00:57:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프, '김정은과 연내 회담 예상하나' 질문에 \"그럴 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260820001200071",
-      "source": "연합뉴스 국제",
-      "ts": 1787153964000,
-      "pub": "Thu, 20 Aug 2026 00:39:24 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"김정은 57개 강력 핵무기 갖고 있어…그는 괜찮을 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260820001100071",
-      "source": "연합뉴스 국제",
-      "ts": 1787153469000,
-      "pub": "Thu, 20 Aug 2026 00:31:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "親트럼프 흑인, 공화경선 승리…야당선 급진좌파 승리 또 이변(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260819175751071",
-      "source": "연합뉴스 국제",
-      "ts": 1787153408000,
-      "pub": "Thu, 20 Aug 2026 00:30:08 +0900",
       "sentiment": "neutral"
     }
   ]

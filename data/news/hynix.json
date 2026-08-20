@@ -1,23 +1,23 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-20T07:31:11.764Z",
-  "count": 26,
+  "updated_at": "2026-08-20T08:23:21.696Z",
+  "count": 15,
   "items": [
     {
-      "title": "\"하이퍼스케일러, 방어주 된다\"…한화운용이 꼽은 반도체 ETF는",
-      "link": "https://www.mt.co.kr/stock/2026/08/20/2026082014081992465",
-      "source": "머니투데이",
-      "ts": 1787210809000,
-      "pub": "Thu, 20 Aug 2026 16:26:49 +0900",
+      "title": "“AI 간판 없어도 된다”…삼전·하이닉스 담은 ETF에 뭉칫돈",
+      "link": "https://www.hankyung.com/article/202608202672i",
+      "source": "한국경제",
+      "ts": 1787210478000,
+      "pub": "Thu, 20 Aug 2026 16:21:18 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "SK하이닉스 성과급 60% 자사주로…적자 땐 임금 일부 이연",
-      "link": "https://www.mt.co.kr/industry/2026/08/20/2026082015284033309",
-      "source": "머니투데이",
-      "ts": 1787210400000,
-      "pub": "Thu, 20 Aug 2026 16:20:00 +0900",
-      "sentiment": "negative"
+      "title": "\"SK하이닉스 주식 지금 더 사라\"…월가 보고서 나온 이유가",
+      "link": "https://www.hankyung.com/article/2026082026877",
+      "source": "한국경제",
+      "ts": 1787210097000,
+      "pub": "Thu, 20 Aug 2026 16:14:57 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "'주주환원' 하이닉스 12.7%, 19만원 넘게 뛰어…삼전 9%↑(종합)",
@@ -28,43 +28,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "반도체 투톱이 쏘아올린 140조 주주환원…금융주 \"우리도\"→증시 들썩",
-      "link": "https://www.mt.co.kr/stock/2026/08/20/2026082015291273095",
-      "source": "머니투데이",
-      "ts": 1787209746000,
-      "pub": "Thu, 20 Aug 2026 16:09:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "주주환원 카드에 살아난 반도체…코스피, 3거래일 만에 상승",
-      "link": "https://www.mt.co.kr/stock/2026/08/20/2026082015462632441",
-      "source": "머니투데이",
-      "ts": 1787209640000,
-      "pub": "Thu, 20 Aug 2026 16:07:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"TSMC, 1.6나노칩 개발·검증 완료…올해 4분기부터 양산\"",
-      "link": "https://www.mt.co.kr/world/2026/08/20/2026082015173979724",
-      "source": "머니투데이",
-      "ts": 1787209449000,
-      "pub": "Thu, 20 Aug 2026 16:04:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이퍼다인, 엔비디아·중기부 '엔업 프로그램' 선정",
-      "link": "https://www.mt.co.kr/industry/2026/08/20/2026082010475871239",
-      "source": "머니투데이",
-      "ts": 1787209309000,
-      "pub": "Thu, 20 Aug 2026 16:01:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "2040년 최대전력수요 70% 늘어난다…호남 반도체·AI 데이터센터 반영",
-      "link": "https://www.mt.co.kr/economy/2026/08/20/2026082015244627539",
-      "source": "머니투데이",
-      "ts": 1787208483000,
-      "pub": "Thu, 20 Aug 2026 15:48:03 +0900",
+      "title": "'억대 성과급' 60%는 주식으로 받는다…SK하이닉스 '파격'",
+      "link": "https://www.hankyung.com/article/202608202514g",
+      "source": "한국경제",
+      "ts": 1787208415000,
+      "pub": "Thu, 20 Aug 2026 15:46:55 +0900",
       "sentiment": "neutral"
     },
     {
@@ -73,62 +41,6 @@
       "source": "한국경제",
       "ts": 1787207796000,
       "pub": "Thu, 20 Aug 2026 15:36:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AMD, 연내 아시아 최초 AI R&D 센터 韓 설립…정부, 엔비디아 의존도 낮추기 속도",
-      "link": "https://www.mt.co.kr/tech/2026/08/20/2026082014332529488",
-      "source": "머니투데이",
-      "ts": 1787207510000,
-      "pub": "Thu, 20 Aug 2026 15:31:50 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "삼성전자, 메모리 호황에 150조원 푼다…사상 최대 주주환원",
-      "link": "https://www.hankyung.com/article/202608202463i",
-      "source": "한국경제",
-      "ts": 1787206851000,
-      "pub": "Thu, 20 Aug 2026 15:20:51 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "SK하이닉스, 성과급 60% 자사주로 받는다…임금 6.3% 인상",
-      "link": "https://www.hankyung.com/article/2026082024457",
-      "source": "한국경제",
-      "ts": 1787206393000,
-      "pub": "Thu, 20 Aug 2026 15:13:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "마벨, 구글과 AI 반도체 동맹에 주가 9.8 % 급등",
-      "link": "https://www.hankyung.com/article/202608202167i",
-      "source": "한국경제",
-      "ts": 1787203800000,
-      "pub": "Thu, 20 Aug 2026 14:30:00 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "자본·기술 끌어모은 中 '메모리 듀오'… 한국 턱밑 추격",
-      "link": "https://www.hankyung.com/article/202608201795i",
-      "source": "한국경제",
-      "ts": 1787203788000,
-      "pub": "Thu, 20 Aug 2026 14:29:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "칩 뒷면에 전력선 깔아 데이터 병목 없앴다…\"TSMC 1.6나노 개발\"",
-      "link": "https://www.hankyung.com/article/2026082021647",
-      "source": "한국경제",
-      "ts": 1787203715000,
-      "pub": "Thu, 20 Aug 2026 14:28:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'반도체 인하대'…동문 기업인 기부 잇따라",
-      "link": "https://www.hankyung.com/article/202608202194i",
-      "source": "한국경제",
-      "ts": 1787202808000,
-      "pub": "Thu, 20 Aug 2026 14:13:28 +0900",
       "sentiment": "neutral"
     },
     {

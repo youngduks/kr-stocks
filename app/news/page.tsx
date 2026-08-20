@@ -13,6 +13,8 @@ type NewsItem = {
   ts: number;
   pub: string;
   sentiment?: "positive" | "negative" | "neutral";
+  desc?: string;
+  image?: string;
 };
 
 function sentimentBadge(s?: NewsItem["sentiment"]) {
@@ -133,29 +135,48 @@ export default async function NewsPage() {
                         href={it.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        style={{ textDecoration: "none", color: "inherit", display: "block" }}
+                        style={{ textDecoration: "none", color: "inherit", display: "flex", gap: "0.6rem", alignItems: "flex-start" }}
                       >
-                        <div style={{ fontSize: "0.9rem", lineHeight: 1.35, marginBottom: "0.2rem", display: "flex", alignItems: "flex-start", gap: "0.4rem", flexWrap: "wrap" }}>
-                          {badge && (
-                            <span style={{
-                              flex: "0 0 auto",
-                              fontSize: "0.65rem",
-                              fontWeight: 700,
-                              padding: "0.1rem 0.35rem",
-                              borderRadius: 4,
-                              background: badge.bg,
-                              color: badge.color,
-                              border: `1px solid ${badge.border}`,
-                              lineHeight: 1.4,
-                              marginTop: "0.1rem",
-                            }}>
-                              {badge.label}
-                            </span>
+                        {/* 카드뉴스 썸네일(2026-08-20) — RSS에 원래 있던 이미지를 그대로 씀(AI 생성 아님).
+                            소스별로 없을 수 있어(한국경제는 RSS에 이미지 자체가 없음) 있을 때만 렌더. */}
+                        {it.image && (
+                          // eslint-disable-next-line @next/next/no-img-element
+                          <img
+                            src={it.image}
+                            alt=""
+                            loading="lazy"
+                            onError={(e) => { e.currentTarget.style.display = "none"; }}
+                            style={{ width: 64, height: 64, objectFit: "cover", borderRadius: 8, flex: "0 0 auto", background: "rgba(255,255,255,0.04)" }}
+                          />
+                        )}
+                        <div style={{ flex: "1 1 auto", minWidth: 0 }}>
+                          <div style={{ fontSize: "0.9rem", lineHeight: 1.35, marginBottom: "0.2rem", display: "flex", alignItems: "flex-start", gap: "0.4rem", flexWrap: "wrap" }}>
+                            {badge && (
+                              <span style={{
+                                flex: "0 0 auto",
+                                fontSize: "0.65rem",
+                                fontWeight: 700,
+                                padding: "0.1rem 0.35rem",
+                                borderRadius: 4,
+                                background: badge.bg,
+                                color: badge.color,
+                                border: `1px solid ${badge.border}`,
+                                lineHeight: 1.4,
+                                marginTop: "0.1rem",
+                              }}>
+                                {badge.label}
+                              </span>
+                            )}
+                            <span style={{ flex: "1 1 auto" }}>{it.title}</span>
+                          </div>
+                          {it.desc && (
+                            <div style={{ fontSize: "0.78rem", opacity: 0.7, lineHeight: 1.4, marginBottom: "0.2rem", overflow: "hidden", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical" }}>
+                              {it.desc}
+                            </div>
                           )}
-                          <span style={{ flex: "1 1 auto" }}>{it.title}</span>
-                        </div>
-                        <div style={{ fontSize: "0.7rem", opacity: 0.6 }}>
-                          {it.source} · {relativeTime(it.ts)}
+                          <div style={{ fontSize: "0.7rem", opacity: 0.6 }}>
+                            {it.source} · {relativeTime(it.ts)}
+                          </div>
                         </div>
                       </a>
                     </li>

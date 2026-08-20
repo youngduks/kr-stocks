@@ -202,6 +202,20 @@ function decodeEntities(s) {
     .trim();
 }
 
+// 카드뉴스용 썸네일 — 소스마다 형식이 달라 우선순위로 시도(2026-08-20 추가).
+// 연합뉴스: <media:content url="..."> 별도 태그. 머니투데이: description 안에
+// <img src=...>가 표(table)로 감싸여 인라인 삽입됨. 한국경제: 이미지 자체가 없음
+// (RSS에 description 필드 자체가 없는 소스라 카드에 썸네일 없이 텍스트만 나감).
+function extractImage(block, rawDesc) {
+  const media = block.match(/<media:content[^>]*\burl=["']([^"']+)["']/i);
+  if (media) return media[1];
+  const enclosure = block.match(/<enclosure[^>]*\burl=["']([^"']+)["']/i);
+  if (enclosure) return enclosure[1];
+  const inlineImg = rawDesc.match(/<img[^>]*\bsrc=["']?([^"'\s>]+)/i);
+  if (inlineImg) return inlineImg[1];
+  return null;
+}
+
 function extractItems(xml) {
   const items = [];
   const itemRegex = /<item\b[\s\S]*?<\/item>/gi;
@@ -209,10 +223,12 @@ function extractItems(xml) {
   for (const block of matches) {
     const title = decodeEntities((block.match(/<title>([\s\S]*?)<\/title>/i) || [])[1] || "");
     const link  = decodeEntities((block.match(/<link>([\s\S]*?)<\/link>/i) || [])[1] || "");
-    const desc  = decodeEntities((block.match(/<description>([\s\S]*?)<\/description>/i) || [])[1] || "");
+    const rawDesc = (block.match(/<description>([\s\S]*?)<\/description>/i) || [])[1] || "";
+    const desc = decodeEntities(rawDesc).slice(0, 150);
     const pub   = decodeEntities((block.match(/<pubDate>([\s\S]*?)<\/pubDate>/i) || [])[1] || "");
+    const image = extractImage(block, rawDesc);
     if (!title || !link) continue;
-    items.push({ title, link, desc, pub });
+    items.push({ title, link, desc, pub, image });
   }
   return items;
 }
@@ -346,6 +362,10 @@ async function main() {
       ts: parseTime(a.pub),
       pub: a.pub,
       sentiment: classifySentiment(a.title), // 5/26: 호재/악재/중립 분류
+      // 카드뉴스용(2026-08-20) — RSS에 이미 있던 요약문/썸네일을 지금까지 버리고
+      // 있었음(추출은 했는데 저장을 안 함). AI 요약 없이 무료로 카드뉴스 가능.
+      desc: a.desc || undefined,
+      image: a.image || undefined,
     };
     for (const c of cats) buckets[c].push(entry);
   }

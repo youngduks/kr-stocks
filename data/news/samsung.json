@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-20T05:20:32.185Z",
+  "updated_at": "2026-08-20T06:24:20.221Z",
   "count": 8,
   "items": [
+    {
+      "title": "자본·기술 끌어모은 中 '메모리 듀오'… 한국 턱밑 추격",
+      "link": "https://www.hankyung.com/article/202608201795i",
+      "source": "한국경제",
+      "ts": 1787203788000,
+      "pub": "Thu, 20 Aug 2026 14:29:48 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "SK하이닉스 이어 삼성전자도?…초고수들은 반도체 투톱 담았다",
       "link": "https://www.hankyung.com/article/202608201863i",
@@ -17,14 +25,6 @@
       "source": "연합뉴스 경제",
       "ts": 1787185585000,
       "pub": "Thu, 20 Aug 2026 09:26:25 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "삼성전자, 27일 갤럭시 신제품 공개…S26 FE 유력",
-      "link": "https://www.yna.co.kr/view/AKR20260820034000017",
-      "source": "연합뉴스 경제",
-      "ts": 1787183621000,
-      "pub": "Thu, 20 Aug 2026 08:53:41 +0900",
       "sentiment": "positive"
     },
     {

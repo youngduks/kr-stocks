@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-20T05:20:32.183Z",
-  "count": 37,
+  "updated_at": "2026-08-20T06:24:20.220Z",
+  "count": 35,
   "items": [
+    {
+      "title": "트럼프 '이란 경제고립 작전' 선언…\"지원국도 막대한 대가\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260820032651071",
+      "source": "연합뉴스 국제",
+      "ts": 1787206028000,
+      "pub": "Thu, 20 Aug 2026 15:07:08 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[영상] 트럼프 \"북한, 57개 핵무기 보유…올해 김정은 만날 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260820111900704",
@@ -273,30 +281,6 @@
       "source": "연합뉴스 국제",
       "ts": 1787144284000,
       "pub": "Wed, 19 Aug 2026 21:58:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "러시아 가스관 폭파공작 우크라인 용의자 체포",
-      "link": "https://www.yna.co.kr/view/AKR20260819173600082",
-      "source": "연합뉴스 국제",
-      "ts": 1787142609000,
-      "pub": "Wed, 19 Aug 2026 21:30:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키 또 시험대…'드론전 영웅' 반기·대통령실 부패 수사(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260819167451109",
-      "source": "연합뉴스 국제",
-      "ts": 1787140304000,
-      "pub": "Wed, 19 Aug 2026 20:51:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "우크라 반부패당국, 대통령실 수사…\"고위직·의원 자금세탁 연루\"",
-      "link": "https://www.yna.co.kr/view/AKR20260819167400109",
-      "source": "연합뉴스 국제",
-      "ts": 1787136100000,
-      "pub": "Wed, 19 Aug 2026 19:41:40 +0900",
       "sentiment": "neutral"
     }
   ]

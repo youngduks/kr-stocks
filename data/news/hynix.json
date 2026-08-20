@@ -1,8 +1,40 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-20T05:20:32.186Z",
-  "count": 15,
+  "updated_at": "2026-08-20T06:24:20.221Z",
+  "count": 19,
   "items": [
+    {
+      "title": "마벨, 구글과 AI 반도체 동맹에 주가 9.8 % 급등",
+      "link": "https://www.hankyung.com/article/202608202167i",
+      "source": "한국경제",
+      "ts": 1787203800000,
+      "pub": "Thu, 20 Aug 2026 14:30:00 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "자본·기술 끌어모은 中 '메모리 듀오'… 한국 턱밑 추격",
+      "link": "https://www.hankyung.com/article/202608201795i",
+      "source": "한국경제",
+      "ts": 1787203788000,
+      "pub": "Thu, 20 Aug 2026 14:29:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "칩 뒷면에 전력선 깔아 데이터 병목 없앴다…\"TSMC 1.6나노 개발\"",
+      "link": "https://www.hankyung.com/article/2026082021647",
+      "source": "한국경제",
+      "ts": 1787203715000,
+      "pub": "Thu, 20 Aug 2026 14:28:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'반도체 인하대'…동문 반도체 기업 기부 잇따라",
+      "link": "https://www.hankyung.com/article/202608202194i",
+      "source": "한국경제",
+      "ts": 1787202808000,
+      "pub": "Thu, 20 Aug 2026 14:13:28 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "반도체 등 핵심기술 유출 '비상'…경찰 수사인력 대폭 보강",
       "link": "https://www.hankyung.com/article/202608202092i",

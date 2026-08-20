@@ -1,15 +1,23 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-08-20T03:36:43.909Z",
-  "count": 10,
+  "updated_at": "2026-08-20T04:24:33.611Z",
+  "count": 11,
   "items": [
     {
-      "title": "롤스로이스처럼 앞뒤 차문 '활짝'…세계최초 기술 집약 제네시스 GV90 공개 [영상]",
-      "link": "https://www.hankyung.com/article/202608187096g",
-      "source": "한국경제",
-      "ts": 1787194820000,
-      "pub": "Thu, 20 Aug 2026 12:00:20 +0900",
-      "sentiment": "positive"
+      "title": "양문 활짝 열어젖히고 마주 앉는다...'럭셔리 끝판왕' 제네시스 GV90",
+      "link": "https://www.mt.co.kr/industry/2026/08/20/2026082007481766041",
+      "source": "머니투데이",
+      "ts": 1787194800000,
+      "pub": "Thu, 20 Aug 2026 12:00:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대차 따라 세계로가는 현대캐피탈, 하반기 인도 법인 출범",
+      "link": "https://www.mt.co.kr/finance/2026/08/20/2026082011061485274",
+      "source": "머니투데이",
+      "ts": 1787192251000,
+      "pub": "Thu, 20 Aug 2026 11:17:31 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "유진투자 \"현대차·기아, 기다림 길어질 듯…목표가 하향\"",

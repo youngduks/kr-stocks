@@ -1,6 +1,6 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-20T03:36:43.908Z",
+  "updated_at": "2026-08-20T04:24:33.610Z",
   "count": 12,
   "items": [
     {
@@ -12,12 +12,20 @@
       "sentiment": "neutral"
     },
     {
-      "title": "SK하이닉스 또 해냈다…HBM 넘어 '빛 반도체' 개념 제시",
-      "link": "https://www.hankyung.com/article/2026082015027",
-      "source": "한국경제",
-      "ts": 1787187679000,
-      "pub": "Thu, 20 Aug 2026 10:01:19 +0900",
-      "sentiment": "neutral"
+      "title": "\"삼성전자가 100조 쏜대\"…10%대 급등, 주가도 웃었다",
+      "link": "https://www.mt.co.kr/stock/2026/08/20/2026082011065966686",
+      "source": "머니투데이",
+      "ts": 1787191698000,
+      "pub": "Thu, 20 Aug 2026 11:08:18 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[단독]삼성전자, 사상 최대 주주환원 100조 시대 공식화..\"내년에 더\"",
+      "link": "https://www.mt.co.kr/industry/2026/08/20/2026082009501899910",
+      "source": "머니투데이",
+      "ts": 1787191064000,
+      "pub": "Thu, 20 Aug 2026 10:57:44 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "'주주환원' 하이닉스 장초반 7~8%대 급등…삼전도 5%↑",
@@ -42,14 +50,6 @@
       "ts": 1787182918000,
       "pub": "Thu, 20 Aug 2026 08:41:58 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "삼성전자, 호주서 7년 연속 '가장 사랑받는 TV 브랜드' 1위",
-      "link": "https://www.yna.co.kr/view/AKR20260819125600003",
-      "source": "연합뉴스 경제",
-      "ts": 1787180403000,
-      "pub": "Thu, 20 Aug 2026 08:00:03 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "로이터 \"삼성전자, 수요 급증에 파운드리 가격 최대 15% 인상\"",

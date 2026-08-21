@@ -1,31 +1,25 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-21T06:24:32.293Z",
-  "count": 17,
+  "updated_at": "2026-08-21T07:33:48.416Z",
+  "count": 15,
   "items": [
     {
-      "title": "\"적자 나면 월급 나중에 받겠다\"…하이닉스 노조 '이례적 결단'",
+      "title": "'반도체 제조업' 해치텍, 25일 코스닥 상장",
+      "link": "https://www.yna.co.kr/view/AKR20260821131900008",
+      "source": "연합뉴스 경제",
+      "ts": 1787296140000,
+      "pub": "Fri, 21 Aug 2026 16:09:00 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 한국거래소는 반도체 제조업 해치텍의 코스닥 시장 신규상장을 승인했다고 21일 밝혔다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/21/AKR20260821131900008_01_i_P2.jpg"
+    },
+    {
+      "title": "\"적자 나면 월급 나중에 받겠다\"…하이닉스 노조 '통큰 결단'",
       "link": "https://www.hankyung.com/article/202608214497g",
       "source": "한국경제",
       "ts": 1787289901000,
       "pub": "Fri, 21 Aug 2026 14:25:01 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "한국거래소, 하이닉스에 '日 반도체 공장' 보도 조회공시 요구",
-      "link": "https://www.hankyung.com/article/2026082146346",
-      "source": "한국경제",
-      "ts": 1787285216000,
-      "pub": "Fri, 21 Aug 2026 13:06:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "상위 1%는 하이닉스 팔았다...삼성전자엔 베팅 “파운드리 흑자전환 기대”",
-      "link": "https://www.hankyung.com/article/202608214506i",
-      "source": "한국경제",
-      "ts": 1787282649000,
-      "pub": "Fri, 21 Aug 2026 12:24:09 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "반도체기업 나유타, 청주에 570억 투자…2028년까지 본사 이전",
@@ -58,6 +52,13 @@
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/06/PYH2026080604680005100_P2.jpg"
     },
     {
+      "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=110875355&code=000660&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1787270400000,
+      "pub": "2026.08.21"
+    },
+    {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)",
       "link": "https://finance.naver.com/item/news_notice_read.naver?no=110535912&code=000660&page_notice=",
       "source": "전자공시(DART)",
@@ -73,16 +74,6 @@
       "sentiment": "neutral",
       "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 세계 최대 인공지능(AI) 반도체 기업 엔비디아가 중국 고객사를 위한 맞춤형 칩을 연내 내놓을 계획이...",
       "image": "https://img.yna.co.kr/photo/etc/epa/2026/05/14/PEP20260514228501009_P2.jpg"
-    },
-    {
-      "title": "신한금융 \"반도체 수혜 편중…외형 성장·체감경기 괴리\"",
-      "link": "https://www.yna.co.kr/view/AKR20260820167300002",
-      "source": "연합뉴스 경제",
-      "ts": 1787259060000,
-      "pub": "Fri, 21 Aug 2026 05:51:00 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 한지훈 기자 = 신한금융지주가 반도체 호황에도 경기 회복의 온기가 산업과 계층 전반으로 퍼지지 못하고 있다고 진단해 주목된다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2010/12/06/PYH2010120606790001300_P2.jpg"
     },
     {
       "title": "마이크론, 美에 첫 '메모리 전문연구소' 설립…14조원 투입",
@@ -135,13 +126,6 @@
       "source": "전자공시(DART)",
       "ts": 1786320000000,
       "pub": "2026.08.10"
-    },
-    {
-      "title": "에스케이하이닉스(주) 자기주식 처분 결정",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=97978101&code=000660&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1786060800000,
-      "pub": "2026.08.07"
     }
   ]
 }

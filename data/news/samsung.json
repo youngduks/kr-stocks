@@ -1,15 +1,37 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-21T06:24:32.292Z",
-  "count": 11,
+  "updated_at": "2026-08-21T07:33:48.416Z",
+  "count": 13,
   "items": [
     {
-      "title": "상위 1%는 하이닉스 팔았다...삼성전자엔 베팅 “파운드리 흑자전환 기대”",
-      "link": "https://www.hankyung.com/article/202608214506i",
-      "source": "한국경제",
-      "ts": 1787282649000,
-      "pub": "Fri, 21 Aug 2026 12:24:09 +0900",
-      "sentiment": "positive"
+      "title": "\"주주환원의 힘\"…美찬바람에도 삼전닉스 강세에 코스피 상승(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260821084851008",
+      "source": "연합뉴스 경제",
+      "ts": 1787296797000,
+      "pub": "Fri, 21 Aug 2026 16:19:57 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 미국 국채 금리 재상승과 글로벌 소비둔화 우려, 중동 위기 등 악재 속에 21일 국내 주식시장에서는 삼성전자[...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/12/PYH2026081216690001300_P2.jpg"
+    },
+    {
+      "title": "'삼전닉스·미국채 투자' 등 ETF 3종, 25일 신규 상장",
+      "link": "https://www.yna.co.kr/view/AKR20260821133600008",
+      "source": "연합뉴스 경제",
+      "ts": 1787296219000,
+      "pub": "Fri, 21 Aug 2026 16:10:19 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이민영 기자 = 한국거래소는 한국투자신탁운용·미래에셋자산운용·삼성자산운용이 발행한 상장지수펀드(ETF) 3종을 오는 25일 유...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/25/83/PCM20260625000183990_P2.jpg"
+    },
+    {
+      "title": "삼전, 주주환원 기대에 3.9% 급등 마감…하닉도 2.3%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260821041252008",
+      "source": "연합뉴스 경제",
+      "ts": 1787295250000,
+      "pub": "Fri, 21 Aug 2026 15:54:10 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 황철환 김유향 기자 = 삼성전자와 SK하이닉스가 21일 하락 출발한 뒤 상승 전환, 각각 3%와 2%대의 상승률을 기록하며 정...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/22/81/PCM20260622000081990_P2.jpg"
     },
     {
       "title": "\"주주환원의 힘\"…美찬바람에도 삼전닉스 강세에 코스피 상승탄력",

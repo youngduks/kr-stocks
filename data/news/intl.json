@@ -1,8 +1,26 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-21T06:24:32.291Z",
+  "updated_at": "2026-08-21T07:33:48.414Z",
   "count": 16,
   "items": [
+    {
+      "title": "\"트럼프의 대이란 '경제전쟁', 군사작전 원치 않는다는 신호\"",
+      "link": "https://www.yna.co.kr/view/AKR20260821132300009",
+      "source": "연합뉴스 국제",
+      "ts": 1787296708000,
+      "pub": "Fri, 21 Aug 2026 16:18:28 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이신영 기자 = 도널드 트럼프 미국 행정부가 이란에 대한 대대적인 경제 압박을 예고하고 나선 것은 군사작전 재개 가능성이 그만...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/21/AKR20260821132300009_01_i_P2.jpg"
+    },
+    {
+      "title": "\"우크라 전쟁 거치며 돈 쓸어 담았다\"…폭발 성장한 '드론 킬러'",
+      "link": "https://www.hankyung.com/article/202608214828i",
+      "source": "한국경제",
+      "ts": 1787293948000,
+      "pub": "Fri, 21 Aug 2026 15:32:28 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "트럼프의 도움으로 커지는 평양의 위협 [이번주 WSJ]",
       "link": "https://www.hankyung.com/article/202608214732i",
@@ -138,26 +156,6 @@
       "sentiment": "negative",
       "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 집권 1기에 이어 2기에서도 북한 김정은 국무위원장과의 만남에 공을 들이기 시...",
       "image": "https://img.yna.co.kr/photo/etc/up/2026/08/20/PUP20260820006501009_P2.jpg"
-    },
-    {
-      "title": "\"트럼프 '韓 비판' 지켜본 아시아 동맹들, 불안 속 자강 모색\"",
-      "link": "https://www.yna.co.kr/view/AKR20260820188700071",
-      "source": "연합뉴스 국제",
-      "ts": 1787238787000,
-      "pub": "Fri, 21 Aug 2026 00:13:07 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령이 한미연합훈련 대폭 축소를 지시하고 한국을 비판하면서 미국의 아시아 동맹 사이에...",
-      "image": "https://img.yna.co.kr/photo/etc/up/2026/08/20/PUP20260820006501009_P2.jpg"
-    },
-    {
-      "title": "\"트럼프에 저항해온 野인사들, 중간선거 경선서 줄줄이 패배\"",
-      "link": "https://www.yna.co.kr/view/AKR20260820185800071",
-      "source": "연합뉴스 국제",
-      "ts": 1787234328000,
-      "pub": "Thu, 20 Aug 2026 22:58:48 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령의 집권 1기 당시 '저항의 스타'로 떠오른 민주당 인사들이 트럼프 2기에서 치러...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/20/AKR20260820185800071_01_i_P2.jpg"
     }
   ]
 }

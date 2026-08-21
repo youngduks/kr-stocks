@@ -1,10 +1,20 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-21T22:11:24.797Z",
+  "updated_at": "2026-08-21T23:12:40.642Z",
   "count": 15,
   "items": [
     {
-      "title": "국채 바이백의 이면은?…메모리 진출한다는 인텔[월가 백브리핑]",
+      "title": "서학개미, '삼전닉스' 라운드힐 ETF 한주간 1천억 샀다",
+      "link": "https://www.yna.co.kr/view/AKR20260821150100008",
+      "source": "연합뉴스 경제",
+      "ts": 1787353204000,
+      "pub": "Sat, 22 Aug 2026 08:00:04 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 고은지 기자 = 미국 주식시장에 투자하는 개인 투자자인 '서학개미'가 한 주간 삼성전자·SK하이닉스 등을 담고 있는 상장지수펀...",
+      "image": "https://img.yna.co.kr/photo/cms/2025/06/05/62/PCM20250605000062990_P2.jpg"
+    },
+    {
+      "title": "국채 바이백의 이면은?…메모리 진출한다는 인텔 [월가 백브리핑]",
       "link": "https://www.hankyung.com/article/202608225801i",
       "source": "한국경제",
       "ts": 1787344350000,
@@ -17,14 +27,6 @@
       "source": "한국경제",
       "ts": 1787310508000,
       "pub": "Fri, 21 Aug 2026 20:08:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 110조원 역대급 주주환원…SK하이닉스와 다른 점은?",
-      "link": "https://www.hankyung.com/article/202608215407i",
-      "source": "한국경제",
-      "ts": 1787304250000,
-      "pub": "Fri, 21 Aug 2026 18:24:10 +0900",
       "sentiment": "neutral"
     },
     {

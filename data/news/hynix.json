@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-21T07:33:48.416Z",
-  "count": 15,
+  "updated_at": "2026-08-21T08:24:52.150Z",
+  "count": 17,
   "items": [
+    {
+      "title": "마이크론, 100억 달러 투입해 미국 첫 메모리 전문 연구소 만든다",
+      "link": "https://www.hankyung.com/article/202608215285i",
+      "source": "한국경제",
+      "ts": 1787299172000,
+      "pub": "Fri, 21 Aug 2026 16:59:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK증권, 하이닉스 '40조 자사주 매입' 중개에 이틀 연속 급등",
+      "link": "https://www.hankyung.com/article/202608215210i",
+      "source": "한국경제",
+      "ts": 1787298100000,
+      "pub": "Fri, 21 Aug 2026 16:41:40 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "반도체 쏠림에 잊혀졌던 조선주…실적·수주 돛 달고 다시 뜬다",
+      "link": "https://www.hankyung.com/article/202608215056i",
+      "source": "한국경제",
+      "ts": 1787296552000,
+      "pub": "Fri, 21 Aug 2026 16:15:52 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "'반도체 제조업' 해치텍, 25일 코스닥 상장",
       "link": "https://www.yna.co.kr/view/AKR20260821131900008",
@@ -12,14 +36,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김유향 기자 = 한국거래소는 반도체 제조업 해치텍의 코스닥 시장 신규상장을 승인했다고 21일 밝혔다.",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/21/AKR20260821131900008_01_i_P2.jpg"
-    },
-    {
-      "title": "\"적자 나면 월급 나중에 받겠다\"…하이닉스 노조 '통큰 결단'",
-      "link": "https://www.hankyung.com/article/202608214497g",
-      "source": "한국경제",
-      "ts": 1787289901000,
-      "pub": "Fri, 21 Aug 2026 14:25:01 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "반도체기업 나유타, 청주에 570억 투자…2028년까지 본사 이전",

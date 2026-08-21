@@ -1,8 +1,40 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-21T07:33:48.416Z",
-  "count": 13,
+  "updated_at": "2026-08-21T08:24:52.150Z",
+  "count": 20,
   "items": [
+    {
+      "title": "[포토] 삼성전자 DX부문, DS부문과 보상격차 해소 요구 집회",
+      "link": "https://www.hankyung.com/article/202608215353i",
+      "source": "한국경제",
+      "ts": 1787299858000,
+      "pub": "Fri, 21 Aug 2026 17:10:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 역대급 특별배당…지분 들고 있는 수혜주 뽑아보니",
+      "link": "https://www.hankyung.com/article/202608215035i",
+      "source": "한국경제",
+      "ts": 1787299633000,
+      "pub": "Fri, 21 Aug 2026 17:07:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "마이크론, 100억 달러 투입해 미국 첫 메모리 전문 연구소 만든다",
+      "link": "https://www.hankyung.com/article/202608215285i",
+      "source": "한국경제",
+      "ts": 1787299172000,
+      "pub": "Fri, 21 Aug 2026 16:59:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미국발 매크로 악재 vs 삼전닉스 주주환원 호재…증시 어디로 갈까?",
+      "link": "https://www.hankyung.com/article/202608214835i",
+      "source": "한국경제",
+      "ts": 1787298630000,
+      "pub": "Fri, 21 Aug 2026 16:50:30 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "\"주주환원의 힘\"…美찬바람에도 삼전닉스 강세에 코스피 상승(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260821084851008",
@@ -22,6 +54,14 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 이민영 기자 = 한국거래소는 한국투자신탁운용·미래에셋자산운용·삼성자산운용이 발행한 상장지수펀드(ETF) 3종을 오는 25일 유...",
       "image": "https://img.yna.co.kr/photo/cms/2026/06/25/83/PCM20260625000183990_P2.jpg"
+    },
+    {
+      "title": "주주환원 효과 빛났다…코스피, 삼전닉스 강세에 6900선 회복",
+      "link": "https://www.hankyung.com/article/2026082151586",
+      "source": "한국경제",
+      "ts": 1787296038000,
+      "pub": "Fri, 21 Aug 2026 16:07:18 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "삼전, 주주환원 기대에 3.9% 급등 마감…하닉도 2.3%↑",
@@ -72,6 +112,20 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 황철환 기자 = SK하이닉스[000660]가 21일 하락 출발후 상승 전환했다.",
       "image": "https://img.yna.co.kr/photo/cms/2026/06/22/81/PCM20260622000081990_P2.jpg"
+    },
+    {
+      "title": "삼성전자(주) 자기주식 취득 결정",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=110979917&code=005930&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1787270400000,
+      "pub": "2026.08.21"
+    },
+    {
+      "title": "삼성전자(주) 수시공시의무관련사항(공정공시)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=110965760&code=005930&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1787270400000,
+      "pub": "2026.08.21"
     },
     {
       "title": "마이크론, 美에 첫 '메모리 전문연구소' 설립…14조원 투입",

@@ -1,8 +1,28 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-21T07:33:48.414Z",
-  "count": 16,
+  "updated_at": "2026-08-21T08:24:52.149Z",
+  "count": 14,
   "items": [
+    {
+      "title": "[영상] 포화 속에 반기 든 우크라 '드론 영웅'…진짜 속내는",
+      "link": "https://www.yna.co.kr/view/AKR20260821144100797",
+      "source": "연합뉴스 국제",
+      "ts": 1787298288000,
+      "pub": "Fri, 21 Aug 2026 16:44:48 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 고현실 기자 = 러시아와 5년째 전쟁 중인 우크라이나의 내홍이 깊어지고 있습니다.",
+      "image": "https://www.youtube.com/embed/bnIF_z_IpS8"
+    },
+    {
+      "title": "국제사회 비판에도…이스라엘, 철수한 서안 정착촌까지 재개장",
+      "link": "https://www.yna.co.kr/view/AKR20260821138300009",
+      "source": "연합뉴스 국제",
+      "ts": 1787297528000,
+      "pub": "Fri, 21 Aug 2026 16:32:08 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 임화섭 기자 = 이스라엘이 요르단강 서안지구에서 철수하면서 폐쇄했던 정착촌에 20여 년 만에 다시 정착민들을 보내면서 고위 인...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/21/AKR20260821138300009_01_i_P2.jpg"
+    },
     {
       "title": "\"트럼프의 대이란 '경제전쟁', 군사작전 원치 않는다는 신호\"",
       "link": "https://www.yna.co.kr/view/AKR20260821132300009",
@@ -20,22 +40,6 @@
       "ts": 1787293948000,
       "pub": "Fri, 21 Aug 2026 15:32:28 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "트럼프의 도움으로 커지는 평양의 위협 [이번주 WSJ]",
-      "link": "https://www.hankyung.com/article/202608214732i",
-      "source": "한국경제",
-      "ts": 1787287920000,
-      "pub": "Fri, 21 Aug 2026 13:52:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "부시에서 트럼프까지, 중간선거가 주는 교훈 [이번주 WSJ]",
-      "link": "https://www.hankyung.com/article/202608214706i",
-      "source": "한국경제",
-      "ts": 1787287806000,
-      "pub": "Fri, 21 Aug 2026 13:50:06 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "[영상] 루마니아 F-16, '폭발물 드론' 폭파…우크라 방공망 또 뚫렸다",
@@ -136,26 +140,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령과 김정은 북한 국무위원장 간의 정상회담이 성사되더라도 북한의 핵무기 증강을 막는...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2019/06/30/PYH2019063012550001300_P2.jpg"
-    },
-    {
-      "title": "이스라엘, '서안 두동강' 정착촌 입찰 기습 개시…유럽, 규탄(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260820040152009",
-      "source": "연합뉴스 국제",
-      "ts": 1787246327000,
-      "pub": "Fri, 21 Aug 2026 02:18:47 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울·런던=연합뉴스) 강훈상 기자 김지연 특파원 = 이스라엘 정부가 팔레스타인 거주지역인 서안 내 E1 지구의 정착촌 건설을 노린 시공사 입찰...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/08/20/PEP20260820029401009_P2.jpg"
-    },
-    {
-      "title": "'어른의축' 없이 北 만나려는 트럼프…볼턴 \"北위협 고조\" 경고",
-      "link": "https://www.yna.co.kr/view/AKR20260821001900071",
-      "source": "연합뉴스 국제",
-      "ts": 1787241198000,
-      "pub": "Fri, 21 Aug 2026 00:53:18 +0900",
-      "sentiment": "negative",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 집권 1기에 이어 2기에서도 북한 김정은 국무위원장과의 만남에 공을 들이기 시...",
-      "image": "https://img.yna.co.kr/photo/etc/up/2026/08/20/PUP20260820006501009_P2.jpg"
     }
   ]
 }

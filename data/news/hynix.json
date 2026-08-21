@@ -1,32 +1,8 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-21T08:24:52.150Z",
-  "count": 17,
+  "updated_at": "2026-08-21T09:24:26.313Z",
+  "count": 12,
   "items": [
-    {
-      "title": "마이크론, 100억 달러 투입해 미국 첫 메모리 전문 연구소 만든다",
-      "link": "https://www.hankyung.com/article/202608215285i",
-      "source": "한국경제",
-      "ts": 1787299172000,
-      "pub": "Fri, 21 Aug 2026 16:59:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK증권, 하이닉스 '40조 자사주 매입' 중개에 이틀 연속 급등",
-      "link": "https://www.hankyung.com/article/202608215210i",
-      "source": "한국경제",
-      "ts": 1787298100000,
-      "pub": "Fri, 21 Aug 2026 16:41:40 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "반도체 쏠림에 잊혀졌던 조선주…실적·수주 돛 달고 다시 뜬다",
-      "link": "https://www.hankyung.com/article/202608215056i",
-      "source": "한국경제",
-      "ts": 1787296552000,
-      "pub": "Fri, 21 Aug 2026 16:15:52 +0900",
-      "sentiment": "positive"
-    },
     {
       "title": "'반도체 제조업' 해치텍, 25일 코스닥 상장",
       "link": "https://www.yna.co.kr/view/AKR20260821131900008",
@@ -46,26 +22,6 @@
       "sentiment": "neutral",
       "desc": "(청주=연합뉴스) 김형우 기자 = 충북도와 청주시는 21일 오전 임시청사 직지실에서 반도체 기업인 나유타와 신규 공장 신축 및 본사 이전을 위한...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/21/AKR20260821044200064_02_i_P2.jpg"
-    },
-    {
-      "title": "[특징주] SK하이닉스, 하락출발후 상승전환…삼전은 혼조",
-      "link": "https://www.yna.co.kr/view/AKR20260821041200008",
-      "source": "연합뉴스 경제",
-      "ts": 1787272517000,
-      "pub": "Fri, 21 Aug 2026 09:35:17 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 황철환 기자 = SK하이닉스[000660]가 21일 하락 출발후 상승 전환했다.",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/22/81/PCM20260622000081990_P2.jpg"
-    },
-    {
-      "title": "8월 중순 수출 56%↑…반도체 비중 47.2%, 역대 최고(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260821032751002",
-      "source": "연합뉴스 경제",
-      "ts": 1787272233000,
-      "pub": "Fri, 21 Aug 2026 09:30:33 +0900",
-      "sentiment": "positive",
-      "desc": "(세종=연합뉴스) 안채원 기자 = 이달 중순 수출도 반도체 수출 호조에 힘입어 지난해 같은 기간보다 50% 넘게 증가했다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/06/PYH2026080604680005100_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

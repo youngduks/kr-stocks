@@ -1,39 +1,47 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-21T08:24:52.150Z",
-  "count": 20,
+  "updated_at": "2026-08-21T09:24:26.313Z",
+  "count": 18,
   "items": [
     {
-      "title": "[포토] 삼성전자 DX부문, DS부문과 보상격차 해소 요구 집회",
-      "link": "https://www.hankyung.com/article/202608215353i",
+      "title": "삼성전자 DX노조, 서초사옥서 집회",
+      "link": "https://www.hankyung.com/article/2026082154941",
       "source": "한국경제",
-      "ts": 1787299858000,
-      "pub": "Fri, 21 Aug 2026 17:10:58 +0900",
+      "ts": 1787303273000,
+      "pub": "Fri, 21 Aug 2026 18:07:53 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "삼성전자 역대급 특별배당…지분 들고 있는 수혜주 뽑아보니",
-      "link": "https://www.hankyung.com/article/202608215035i",
+      "title": "\"美 국채금리 상승에도…삼전닉스 주주환원이 시장 방어\"",
+      "link": "https://www.hankyung.com/article/2026082154751",
       "source": "한국경제",
-      "ts": 1787299633000,
-      "pub": "Fri, 21 Aug 2026 17:07:13 +0900",
+      "ts": 1787303268000,
+      "pub": "Fri, 21 Aug 2026 18:07:48 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "마이크론, 100억 달러 투입해 미국 첫 메모리 전문 연구소 만든다",
-      "link": "https://www.hankyung.com/article/202608215285i",
+      "title": "삼성전자, 3분기 30조 현금배당…110兆+α 사상 최대 주주환원",
+      "link": "https://www.hankyung.com/article/2026082155201",
       "source": "한국경제",
-      "ts": 1787299172000,
-      "pub": "Fri, 21 Aug 2026 16:59:32 +0900",
-      "sentiment": "neutral"
+      "ts": 1787303038000,
+      "pub": "Fri, 21 Aug 2026 18:03:58 +0900",
+      "sentiment": "positive"
     },
     {
-      "title": "미국발 매크로 악재 vs 삼전닉스 주주환원 호재…증시 어디로 갈까?",
-      "link": "https://www.hankyung.com/article/202608214835i",
+      "title": "삼성전자 최대 110조 주주환원 발표…우선주만 8% 급등 왜? [종목+]",
+      "link": "https://www.hankyung.com/article/2026082154366",
       "source": "한국경제",
-      "ts": 1787298630000,
-      "pub": "Fri, 21 Aug 2026 16:50:30 +0900",
-      "sentiment": "negative"
+      "ts": 1787302698000,
+      "pub": "Fri, 21 Aug 2026 17:58:18 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "삼성전자, 초미세공정서 '배선 저항' 45% 낮춘 기술 세계 최초 구현",
+      "link": "https://www.hankyung.com/article/202608215323i",
+      "source": "한국경제",
+      "ts": 1787302031000,
+      "pub": "Fri, 21 Aug 2026 17:47:11 +0900",
+      "sentiment": "positive"
     },
     {
       "title": "\"주주환원의 힘\"…美찬바람에도 삼전닉스 강세에 코스피 상승(종합)",
@@ -54,14 +62,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 이민영 기자 = 한국거래소는 한국투자신탁운용·미래에셋자산운용·삼성자산운용이 발행한 상장지수펀드(ETF) 3종을 오는 25일 유...",
       "image": "https://img.yna.co.kr/photo/cms/2026/06/25/83/PCM20260625000183990_P2.jpg"
-    },
-    {
-      "title": "주주환원 효과 빛났다…코스피, 삼전닉스 강세에 6900선 회복",
-      "link": "https://www.hankyung.com/article/2026082151586",
-      "source": "한국경제",
-      "ts": 1787296038000,
-      "pub": "Fri, 21 Aug 2026 16:07:18 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "삼전, 주주환원 기대에 3.9% 급등 마감…하닉도 2.3%↑",
@@ -94,24 +94,11 @@
       "image": "https://img.yna.co.kr/photo/cms/2026/06/22/81/PCM20260622000081990_P2.jpg"
     },
     {
-      "title": "금호건설, 삼성전자 '플랙트 한국공장' 수주…2028년 준공",
-      "link": "https://www.yna.co.kr/view/AKR20260821039200003",
-      "source": "연합뉴스 경제",
-      "ts": 1787272561000,
-      "pub": "Fri, 21 Aug 2026 09:36:01 +0900",
-      "sentiment": "positive",
-      "desc": "(세종=연합뉴스) 오진송 기자 = 금호건설은 삼성전자와 '삼성전자 플랙트 한국공장 신축공사' 도급계약을 체결했다고 21일 밝혔다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/21/AKR20260821039200003_01_i_P2.jpg"
-    },
-    {
-      "title": "[특징주] SK하이닉스, 하락출발후 상승전환…삼전은 혼조",
-      "link": "https://www.yna.co.kr/view/AKR20260821041200008",
-      "source": "연합뉴스 경제",
-      "ts": 1787272517000,
-      "pub": "Fri, 21 Aug 2026 09:35:17 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 황철환 기자 = SK하이닉스[000660]가 21일 하락 출발후 상승 전환했다.",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/22/81/PCM20260622000081990_P2.jpg"
+      "title": "삼성전자(주) 기타 경영사항(자율공시)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=111004140&code=005930&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1787270400000,
+      "pub": "2026.08.21"
     },
     {
       "title": "삼성전자(주) 자기주식 취득 결정",
@@ -161,13 +148,6 @@
     {
       "title": "삼성전자(주) (정정)연결재무제표기준영업(잠정)실적(공정공시)",
       "link": "https://finance.naver.com/item/news_notice_read.naver?no=84411585&code=005930&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1785369600000,
-      "pub": "2026.07.30"
-    },
-    {
-      "title": "삼성전자(주) 연결재무제표기준영업(잠정)실적(공정공시)",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=84362375&code=005930&page_notice=",
       "source": "전자공시(DART)",
       "ts": 1785369600000,
       "pub": "2026.07.30"

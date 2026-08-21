@@ -1,8 +1,28 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-21T15:21:37.180Z",
-  "count": 16,
+  "updated_at": "2026-08-21T16:18:32.327Z",
+  "count": 18,
   "items": [
+    {
+      "title": "러·우크라 흑해 곡물 수출 사실상 마비…뛰는 밀 가격(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260821154451109",
+      "source": "연합뉴스 국제",
+      "ts": 1787326708000,
+      "pub": "Sat, 22 Aug 2026 00:38:28 +0900",
+      "sentiment": "neutral",
+      "desc": "(로마=연합뉴스) 민경락 특파원 = 흑해 일대를 놓고 격화한 러시아와 우크라이나 간 교전으로 올해 양국의 곡물 수출 능력이 사실상 마비됐다는 분...",
+      "image": "https://img.yna.co.kr/photo/etc/ta/2026/08/13/PTA20260813038001009_P2.jpg"
+    },
+    {
+      "title": "美민주, 하원 탈환뒤 트럼프 일가 조사 채비…'부패의혹' 정조준",
+      "link": "https://www.yna.co.kr/view/AKR20260822000300071",
+      "source": "연합뉴스 국제",
+      "ts": 1787326070000,
+      "pub": "Sat, 22 Aug 2026 00:27:50 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 미국 민주당이 오는 11월 중간선거에서 하원 다수당을 탈환할 경우 도널드 트럼프 대통령과 가족을 둘러싼 각...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/22/AKR20260822000300071_01_i_P2.jpg"
+    },
     {
       "title": "우크라, 애니 '마샤와 곰' 제작진 제재…러 \"만화 상대로도 전쟁\"",
       "link": "https://www.hankyung.com/article/2026082157367",

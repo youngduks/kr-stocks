@@ -140,13 +140,19 @@ export default async function NewsPage() {
                         {/* 카드뉴스 썸네일(2026-08-20) — RSS에 원래 있던 이미지를 그대로 씀(AI 생성 아님).
                             소스별로 없을 수 있어(한국경제는 RSS에 이미지 자체가 없음) 있을 때만 렌더. */}
                         {it.image && (
-                          // eslint-disable-next-line @next/next/no-img-element
-                          <img
-                            src={it.image}
-                            alt=""
-                            loading="lazy"
-                            onError={(e) => { e.currentTarget.style.display = "none"; }}
-                            style={{ width: 64, height: 64, objectFit: "cover", borderRadius: 8, flex: "0 0 auto", background: "rgba(255,255,255,0.04)" }}
+                          // <img>+onError로 만들었다가 배포 실패함(2026-08-21) — 이 페이지는
+                          // 서버 컴포넌트라 이벤트 핸들러를 넘길 수 없음(tsc는 안 잡아줌).
+                          // background-image로 바꾸면 URL이 죽어도 깨진 이미지 아이콘 대신
+                          // 빈 배경만 남아서, 핸들러 없이도 자연스럽게 처리됨.
+                          <div
+                            aria-hidden="true"
+                            style={{
+                              width: 64,
+                              height: 64,
+                              borderRadius: 8,
+                              flex: "0 0 auto",
+                              background: `rgba(127,127,127,0.12) url(${JSON.stringify(it.image)}) center/cover no-repeat`,
+                            }}
                           />
                         )}
                         <div style={{ flex: "1 1 auto", minWidth: 0 }}>

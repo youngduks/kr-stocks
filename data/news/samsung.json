@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-21T10:18:14.344Z",
+  "updated_at": "2026-08-21T11:15:29.350Z",
   "count": 18,
   "items": [
+    {
+      "title": "삼성전자, 110조원 역대급 주주환원…SK하이닉스와 다른 점은?",
+      "link": "https://www.hankyung.com/article/202608215407i",
+      "source": "한국경제",
+      "ts": 1787304250000,
+      "pub": "Fri, 21 Aug 2026 18:24:10 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성전자 DX노조, 서초사옥서 집회",
       "link": "https://www.hankyung.com/article/2026082154941",
@@ -12,7 +20,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"美 국채금리 상승에도…삼전닉스 주주환원이 시장 방어\"",
+      "title": "\"삼전닉스 주주환원이 살렸다\"…역대급 호재에 '반등'",
       "link": "https://www.hankyung.com/article/2026082154751",
       "source": "한국경제",
       "ts": 1787303268000,
@@ -33,14 +41,6 @@
       "source": "한국경제",
       "ts": 1787302698000,
       "pub": "Fri, 21 Aug 2026 17:58:18 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "삼성전자, 초미세공정서 '배선 저항' 45% 낮춘 기술 세계 최초 구현",
-      "link": "https://www.hankyung.com/article/202608215323i",
-      "source": "한국경제",
-      "ts": 1787302031000,
-      "pub": "Fri, 21 Aug 2026 17:47:11 +0900",
       "sentiment": "positive"
     },
     {

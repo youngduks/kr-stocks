@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-21T10:18:14.343Z",
+  "updated_at": "2026-08-21T11:15:29.349Z",
   "count": 15,
   "items": [
+    {
+      "title": "[포토] 멜라니아, 오랜만에 공식석상…트럼프와 대학기금 행사 참석",
+      "link": "https://www.hankyung.com/article/2026082155151",
+      "source": "한국경제",
+      "ts": 1787304594000,
+      "pub": "Fri, 21 Aug 2026 18:29:54 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "독일서 훈련받는 우크라 군인 무더기 탈영",
       "link": "https://www.yna.co.kr/view/AKR20260821161000082",
@@ -142,16 +150,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 미군은 20일(현지시간) 북한의 탄도미사일 도발에 대해 \"현재 평가에 따르면, 이러한 사건들은 미국 인력이...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082022950001300_P2.jpg"
-    },
-    {
-      "title": "美전문가 \"김정은, 트럼프 만나도 핵증강할듯…회담결과 회의적\"",
-      "link": "https://www.yna.co.kr/view/AKR20260821006100071",
-      "source": "연합뉴스 국제",
-      "ts": 1787253111000,
-      "pub": "Fri, 21 Aug 2026 04:11:51 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령과 김정은 북한 국무위원장 간의 정상회담이 성사되더라도 북한의 핵무기 증강을 막는...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2019/06/30/PYH2019063012550001300_P2.jpg"
     }
   ]
 }

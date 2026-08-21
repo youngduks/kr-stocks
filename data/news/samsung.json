@@ -1,8 +1,36 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-21T02:16:29.898Z",
+  "updated_at": "2026-08-21T03:40:28.503Z",
   "count": 13,
   "items": [
+    {
+      "title": "하이닉스 차익실현한 상위 1%…삼성전자엔 베팅 “파운드리 흑자전환 기대”",
+      "link": "https://www.hankyung.com/article/202608214506i",
+      "source": "한국경제",
+      "ts": 1787282649000,
+      "pub": "Fri, 21 Aug 2026 12:24:09 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"주주환원의 힘\"…美찬바람에도 삼전닉스 강세에 코스피 상승탄력",
+      "link": "https://www.yna.co.kr/view/AKR20260821084800008",
+      "source": "연합뉴스 경제",
+      "ts": 1787280448000,
+      "pub": "Fri, 21 Aug 2026 11:47:28 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 미국 국채 금리 재상승과 글로벌 소비둔화 우려, 중동 위기 등 악재 속에 21일 국내 주식시장에서는 삼성전자[...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082101610001300_P2.jpg"
+    },
+    {
+      "title": "이재용, 8년간 우울증 약...\"지옥 봤다\" 고백",
+      "link": "https://www.mt.co.kr/entertainment/2026/08/21/2026082111244596353",
+      "source": "머니투데이",
+      "ts": 1787279692000,
+      "pub": "Fri, 21 Aug 2026 11:34:52 +0900",
+      "sentiment": "neutral",
+      "desc": "드라마 '고려 거란 전쟁', '김부장' 등에 출연한 배우 이재용이 입원 치료를 권유받을 만큼 심각한 우울증을 앓았다고 고백했다. 이재용은 지난 20일 유튜브 채널 '요즘 뭐해'에 출연해 \"7~8년 이상 우울증 약을 먹었다. 상태가 심각했다\"고 밝혔다. 그는 30대 초반",
+      "image": "https://thumb.mt.co.kr/06/2026/08/2026082111244596353_1.jpg"
+    },
     {
       "title": "[특징주] 삼전닉스, 장중 상승폭 확대해 2∼3% 강세(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260821041251008",
@@ -14,20 +42,12 @@
       "image": "https://img.yna.co.kr/photo/cms/2026/06/22/81/PCM20260622000081990_P2.jpg"
     },
     {
-      "title": "美증시 약세에 코스피·코스닥 동반 약세…삼전닉스는 보합권",
-      "link": "https://www.hankyung.com/article/2026082140046",
+      "title": "콧대 높아진 삼성 파운드리, 4년 만의 '반전' 기대감 폭발",
+      "link": "https://www.hankyung.com/article/202608214030g",
       "source": "한국경제",
-      "ts": 1787273327000,
-      "pub": "Fri, 21 Aug 2026 09:48:47 +0900",
+      "ts": 1787275494000,
+      "pub": "Fri, 21 Aug 2026 10:24:54 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "금호건설, 삼성전자 플랙트 한국공장 수주에 11%대 강세",
-      "link": "https://www.hankyung.com/article/2026082140456",
-      "source": "한국경제",
-      "ts": 1787273218000,
-      "pub": "Fri, 21 Aug 2026 09:46:58 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "금호건설, 삼성전자 '플랙트 한국공장' 수주…2028년 준공",
@@ -48,22 +68,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 황철환 기자 = SK하이닉스[000660]가 21일 하락 출발후 상승 전환했다.",
       "image": "https://img.yna.co.kr/photo/cms/2026/06/22/81/PCM20260622000081990_P2.jpg"
-    },
-    {
-      "title": "'100조 주주환원 임박' 삼성전자, 장 초반 약보합…우선주는 강세",
-      "link": "https://www.hankyung.com/article/2026082139286",
-      "source": "한국경제",
-      "ts": 1787272216000,
-      "pub": "Fri, 21 Aug 2026 09:30:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "성과급 갈등에 결국…삼성전자 노조 '한 지붕 두 가족' 되나",
-      "link": "https://www.hankyung.com/article/202608202638g",
-      "source": "한국경제",
-      "ts": 1787271404000,
-      "pub": "Fri, 21 Aug 2026 09:16:44 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "마이크론, 美에 첫 '메모리 전문연구소' 설립…14조원 투입",

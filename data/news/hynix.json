@@ -1,6 +1,6 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-22T05:16:28.707Z",
+  "updated_at": "2026-08-22T06:19:20.391Z",
   "count": 15,
   "items": [
     {
@@ -32,19 +32,21 @@
       "image": "https://img.yna.co.kr/photo/reuters/2026/08/17/PRU20260817238401009_P2.jpg"
     },
     {
+      "title": "국채 불안 덮은 경기지표 호조…다음주 엔비디아 실적 촉각[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/08/22/2026082205431489045",
+      "source": "머니투데이",
+      "ts": 1787345643000,
+      "pub": "Sat, 22 Aug 2026 05:54:03 +0900",
+      "sentiment": "positive",
+      "desc": "뉴욕증시 3대 지수가 21일(현지시간) 미 국채 금리 상승세에도 불구하고 저가 매수세 유입에 힘입어 일제히 반등했다. 예상을 웃돈 미국 경기지표도 시장 투자심리를 뒷받침했다. 이날 뉴욕증시증권거래소에서 S&P500지수는 전장보다 33.21포인트(0.43%) 오른 767",
+      "image": "https://thumb.mt.co.kr/06/2026/08/2026082205431489045_1.jpg"
+    },
+    {
       "title": "국채 바이백의 이면은?…메모리 진출한다는 인텔 [월가 백브리핑]",
       "link": "https://www.hankyung.com/article/202608225801i",
       "source": "한국경제",
       "ts": 1787344350000,
       "pub": "Sat, 22 Aug 2026 05:32:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아, 월가는 실적보다 '이것'에 더 관심 [박신영의 개장전 요것만]",
-      "link": "https://www.hankyung.com/article/202608225783i",
-      "source": "한국경제",
-      "ts": 1787334708000,
-      "pub": "Sat, 22 Aug 2026 02:51:48 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,8 +1,18 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-22T21:10:30.442Z",
+  "updated_at": "2026-08-22T22:10:10.800Z",
   "count": 14,
   "items": [
+    {
+      "title": "[뉴욕증시-주간전망] '베선트 풋'에 곤란해진 워시…엔비디아 실적·PCE 지표도",
+      "link": "https://www.yna.co.kr/view/AKR20260823005500009",
+      "source": "연합뉴스 국제",
+      "ts": 1787436000000,
+      "pub": "Sun, 23 Aug 2026 07:00:00 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 진정호 연합인포맥스 특파원 = 이번 주(8월 24~28일) 뉴욕 증시는 빅 이벤트를 다수 맞이하게 된다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/23/AKR20260823005500009_01_i_P2.jpg"
+    },
     {
       "title": "'AI 반도체 슈퍼위크'…코스피 '주주환원 약발' 계속되나",
       "link": "https://www.yna.co.kr/view/AKR20260822023400008",
@@ -32,14 +42,6 @@
       "sentiment": "neutral",
       "desc": "(상하이=연합뉴스) 차병섭 특파원 = 삼성전자·SK하이닉스에 도전 중인 중국의 양대 메모리 업체 중 D램 분야 창신커지(CXMT)에 이어 낸드플...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/22/AKR20260822023800089_01_i_P2.jpg"
-    },
-    {
-      "title": "'170만원 하이닉스 주식' 비싸서 못 샀는데…개미들 설렌다 [투자톡]",
-      "link": "https://www.hankyung.com/article/2026082146506",
-      "source": "한국경제",
-      "ts": 1787361492000,
-      "pub": "Sat, 22 Aug 2026 10:18:12 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "앤트로픽, 구글 출신 반도체 전문가 영입…자체 칩 개발 본격화",

@@ -1,8 +1,26 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-23T22:10:10.906Z",
-  "count": 32,
+  "updated_at": "2026-08-23T23:10:04.310Z",
+  "count": 33,
   "items": [
+    {
+      "title": "트럼프 측근 \"트럼프, 김정은 앞서 李대통령과 먼저 회담해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260824012100071",
+      "source": "연합뉴스 국제",
+      "ts": 1787525521000,
+      "pub": "Mon, 24 Aug 2026 07:52:01 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 북한 김정은 국무위원장을 만나기 전에 이재명 대통령과 먼저 회담해야 하며, 한...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/15/PYH2026061514730001300_P2.jpg"
+    },
+    {
+      "title": "\"건강 위험 경고\" 트럼프 체중 108㎏…33개월 새 10.5㎏",
+      "link": "https://www.hankyung.com/article/2026082474307",
+      "source": "한국경제",
+      "ts": 1787520140000,
+      "pub": "Mon, 24 Aug 2026 06:22:20 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "'매파' Fed 인사, 국채금리 급등에도 \"시장 정상 작동\"",
       "link": "https://www.hankyung.com/article/2026082474237",
@@ -310,16 +328,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 이신영 기자 = 우크라이나가 러시아를 종전 협상 테이블로 끌어내기 위해 모스크바 공항을 타격하는 작전을 마련했다가 민간의 피해...",
       "image": "https://img.yna.co.kr/photo/ap/2026/05/17/PAP20260517240701009_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"호르무즈는 현재 美영토…이란, 합의 절실히 원해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260822022700071",
-      "source": "연합뉴스 국제",
-      "ts": 1787360536000,
-      "pub": "Sat, 22 Aug 2026 10:02:16 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령은 21일(현지시간) 또다시 호르무즈 해협이 미국의 영토라고 주장했다.",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/08/22/PRU20260822109701009_P2.jpg"
     }
   ]
 }

@@ -1,8 +1,18 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-23T22:10:10.908Z",
-  "count": 14,
+  "updated_at": "2026-08-23T23:10:04.313Z",
+  "count": 15,
   "items": [
+    {
+      "title": "엔비디아, AI 개발사 우회 인수…첨단 오픈소스 AI 개발",
+      "link": "https://www.yna.co.kr/view/AKR20260824008300009",
+      "source": "연합뉴스 국제",
+      "ts": 1787525103000,
+      "pub": "Mon, 24 Aug 2026 07:45:03 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 엔비디아가 중국의 첨단 인공지능(AI) 모델과 경쟁할 수 있는 세계 최고 수준의 오픈웨이트(개방형 가중치) A...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/24/AKR20260824008300009_01_i_P2.jpg"
+    },
     {
       "title": "삼성, '계산하는 HBM' 공개…GPU 연산 'aHBM'이 맡는다",
       "link": "https://www.hankyung.com/article/202608247371i",
@@ -32,7 +42,7 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/23/AKR20260823005500009_01_i_P2.jpg"
     },
     {
-      "title": "'AI 반도체 슈퍼위크'…코스피 '주주환원 약발' 계속되나",
+      "title": "[마켓인사이트] 'AI 반도체 슈퍼위크'…코스피 '주주환원 약발' 계속되나",
       "link": "https://www.yna.co.kr/view/AKR20260822023400008",
       "source": "연합뉴스 경제",
       "ts": 1787432444000,

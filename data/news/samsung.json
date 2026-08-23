@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-23T09:16:48.038Z",
-  "count": 10,
+  "updated_at": "2026-08-23T10:11:57.121Z",
+  "count": 18,
   "items": [
+    {
+      "title": "삼전닉스 쫓는 YMTC…IPO로 6.8조원 조달한다",
+      "link": "https://www.hankyung.com/article/2026082371431",
+      "source": "한국경제",
+      "ts": 1787476909000,
+      "pub": "Sun, 23 Aug 2026 18:21:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성 '엑시노스' 사내 테스트서 퀄컴칩 압도",
+      "link": "https://www.hankyung.com/article/2026082371511",
+      "source": "한국경제",
+      "ts": 1787476825000,
+      "pub": "Sun, 23 Aug 2026 18:20:25 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼전닉스 환원은 차원이 달라…\"손에 쥐는 수백조 중 절반 쏜다\" 의미는?",
       "link": "https://www.mt.co.kr/industry/2026/08/23/2026082316214730372",
@@ -22,16 +38,6 @@
       "sentiment": "neutral",
       "desc": "실적 성장이 이어지고 주주환원 확대 호재까지 나오며 반도체 업종의 상승세가 재개되고 있는 가운데 ETF(상장지수펀드) 시장에서의 반도체 독주가 나타나고 있다. AI(인공지능)가 메가 트렌드로 자리잡으며 성장 과정별 수혜주를 담은 세부 테마 ETF도 속속 등장하고 있다.",
       "image": "https://thumb.mt.co.kr/06/2026/08/2026082116090156496_1.jpg"
-    },
-    {
-      "title": "메모리 수요 폭증에 엔비디아도 가격 인상…\"삼전닉스 협상력 커\"",
-      "link": "https://www.mt.co.kr/world/2026/08/23/2026082314331145183",
-      "source": "머니투데이",
-      "ts": 1787463530000,
-      "pub": "Sun, 23 Aug 2026 14:38:50 +0900",
-      "sentiment": "neutral",
-      "desc": "\"내년 초 베라·루빈, 그레이스·블랙웰 출하 물량부터 가격 최대 15% 인상\" 엔비디아가 내년부터 인공지능(AI) 개발에 필요한 최신 칩이 탑재된 서버 가격을 최대 15% 인상할 것으로 보인다고 블룸버그통신이 22일(현지시간) 보도했다. 블룸버그는 익명 소식통들로부터 ",
-      "image": "https://thumb.mt.co.kr/06/2026/08/2026082314331145183_1.jpg"
     },
     {
       "title": "삼성전자, 상반기 특허등록 1만1천건…누적 30만건 육박",
@@ -102,6 +108,55 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 이민영 기자 = 한국거래소는 한국투자신탁운용·미래에셋자산운용·삼성자산운용이 발행한 상장지수펀드(ETF) 3종을 오는 25일 유...",
       "image": "https://img.yna.co.kr/photo/cms/2026/06/25/83/PCM20260625000183990_P2.jpg"
+    },
+    {
+      "title": "삼성전자(주) 기타 경영사항(자율공시)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=111004140&code=005930&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1787270400000,
+      "pub": "2026.08.21"
+    },
+    {
+      "title": "삼성전자(주) 자기주식 취득 결정",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=110979917&code=005930&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1787270400000,
+      "pub": "2026.08.21"
+    },
+    {
+      "title": "삼성전자(주) 수시공시의무관련사항(공정공시)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=110965760&code=005930&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1787270400000,
+      "pub": "2026.08.21"
+    },
+    {
+      "title": "삼성전자(주) 기타 경영사항(자율공시)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=85426026&code=005930&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1785369600000,
+      "pub": "2026.07.30"
+    },
+    {
+      "title": "삼성전자(주) 기타 경영사항(자율공시)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=85421348&code=005930&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1785369600000,
+      "pub": "2026.07.30"
+    },
+    {
+      "title": "삼성전자(주) 현금ㆍ현물 배당 결정",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=84453037&code=005930&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1785369600000,
+      "pub": "2026.07.30"
+    },
+    {
+      "title": "삼성전자(주) (정정)연결재무제표기준영업(잠정)실적(공정공시)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=84411585&code=005930&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1785369600000,
+      "pub": "2026.07.30"
     }
   ]
 }

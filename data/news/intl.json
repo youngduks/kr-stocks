@@ -1,15 +1,25 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-23T09:16:48.037Z",
-  "count": 26,
+  "updated_at": "2026-08-23T10:11:57.120Z",
+  "count": 27,
   "items": [
     {
-      "title": "[사설] 우크라이나전쟁 '특수' 누리는 北…핵·미사일 고도화 막아야",
-      "link": "https://www.hankyung.com/article/2026082370961",
+      "title": "젤렌스키 \"전시에 선거 치르면 우크라 분열 쓰나미\"",
+      "link": "https://www.yna.co.kr/view/AKR20260823042500108",
+      "source": "연합뉴스 국제",
+      "ts": 1787477677000,
+      "pub": "Sun, 23 Aug 2026 18:34:37 +0900",
+      "sentiment": "neutral",
+      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령은 23일(현지시간) 전시 선거를 실시해야 한다는 요구를 일축했다.",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/08/23/PAF20260823152101009_P2.jpg"
+    },
+    {
+      "title": "트럼프 또 \"호르무즈는 미국땅\"…이란 \"美제재 동참국, 적 간주\"",
+      "link": "https://www.hankyung.com/article/2026082371461",
       "source": "한국경제",
-      "ts": 1787473901000,
-      "pub": "Sun, 23 Aug 2026 17:31:41 +0900",
-      "sentiment": "neutral"
+      "ts": 1787476901000,
+      "pub": "Sun, 23 Aug 2026 18:21:41 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "트럼프 \"캐나다, 미국의 州 아니면서도 혜택 누리려 해\"",

@@ -1,8 +1,32 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-08-23T07:23:39.323Z",
-  "count": 8,
+  "updated_at": "2026-08-23T08:16:19.660Z",
+  "count": 11,
   "items": [
+    {
+      "title": "'10년만의 전면파업' 현대차 노조, 일단 교섭 재개…이미 2조원대 생산차질",
+      "link": "https://www.hankyung.com/article/202608237018g",
+      "source": "한국경제",
+      "ts": 1787472703000,
+      "pub": "Sun, 23 Aug 2026 17:11:43 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "현대차 '로봇 훈련소' 개장…현장데이터 신시장 잡는다",
+      "link": "https://www.hankyung.com/article/2026082366121",
+      "source": "한국경제",
+      "ts": 1787469513000,
+      "pub": "Sun, 23 Aug 2026 16:18:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대자동차…롯데마트 배송, ST1 200대가 맡는다",
+      "link": "https://www.hankyung.com/article/2026082366321",
+      "source": "한국경제",
+      "ts": 1787469159000,
+      "pub": "Sun, 23 Aug 2026 16:12:39 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "현대자동차(주) 영업(잠정)실적(공정공시)",
       "link": "https://finance.naver.com/item/news_notice_read.naver?no=90578032&code=005380&page_notice=",

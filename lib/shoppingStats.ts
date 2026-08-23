@@ -4,7 +4,8 @@
 
 import { redis } from "./visitorStats";
 
-const SOURCES = ["kr-stocks", "threads", "unknown"] as const;
+// youtube 추가(2026-08-23) — 슬기로운의학생활 채널 고정댓글 상품링크 신설.
+const SOURCES = ["kr-stocks", "threads", "youtube", "unknown"] as const;
 type Source = (typeof SOURCES)[number];
 
 function isKnownSource(s: string): s is Source {

@@ -1,8 +1,18 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-23T10:11:57.120Z",
-  "count": 27,
+  "updated_at": "2026-08-23T11:11:04.346Z",
+  "count": 26,
   "items": [
+    {
+      "title": "젤렌스키 \"전시에 선거 치르면 우크라 분열 쓰나미\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260823042551108",
+      "source": "연합뉴스 국제",
+      "ts": 1787481477000,
+      "pub": "Sun, 23 Aug 2026 19:37:57 +0900",
+      "sentiment": "neutral",
+      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령은 23일(현지시간) 전시 선거를 실시해야 한다는 요구를 일축했다.",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/08/23/PAF20260823152101009_P2.jpg"
+    },
     {
       "title": "젤렌스키 \"전시에 선거 치르면 우크라 분열 쓰나미\"",
       "link": "https://www.yna.co.kr/view/AKR20260823042500108",
@@ -250,26 +260,6 @@
       "sentiment": "neutral",
       "desc": "(멕시코시티=연합뉴스) 송광호 특파원 = 최근 무역 갈등과 범죄 조직 지정 문제 등으로 대립각을 세워온 브라질과 미국 정상이 전화 통화를 하고 ...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/22/AKR20260822003400087_01_i_P2.jpg"
-    },
-    {
-      "title": "美민주, '트럼프發 북미회담' 공세 강화…\"김정은에 굴복\"",
-      "link": "https://www.yna.co.kr/view/AKR20260822003600071",
-      "source": "연합뉴스 국제",
-      "ts": 1787337895000,
-      "pub": "Sat, 22 Aug 2026 03:44:55 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령이 북미 정상회담 재개 의지를 구체화하자 야당인 민주당도 공세를 강화하고 있다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/22/AKR20260822003600071_01_i_P2.jpg"
-    },
-    {
-      "title": "美국무부 \"한국에 AIM-9X 공대공 미사일 판매 잠정승인\"",
-      "link": "https://www.yna.co.kr/view/AKR20260822003500071",
-      "source": "연합뉴스 국제",
-      "ts": 1787336452000,
-      "pub": "Sat, 22 Aug 2026 03:20:52 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 미국 국무부는 21일(현지시간) 한국에 AIM-9X 사이드와인더 블록 Ⅱ 공대공 미사일과 관련 장비 판매를...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/05/20/PYH2026052002570001300_P2.jpg"
     }
   ]
 }

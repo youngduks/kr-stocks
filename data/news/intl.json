@@ -1,8 +1,18 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-23T02:17:07.639Z",
+  "updated_at": "2026-08-23T03:40:00.806Z",
   "count": 29,
   "items": [
+    {
+      "title": "트럼프 투자 계좌, 6월에 1천건 넘는 주식 거래",
+      "link": "https://www.yna.co.kr/view/AKR20260823025200009",
+      "source": "연합뉴스 국제",
+      "ts": 1787452743000,
+      "pub": "Sun, 23 Aug 2026 11:39:03 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 임화섭 기자 = 도널드 트럼프 미국 대통령의 투자 계좌를 통해 올해 6월에 1천여건의 주식 거래가 이뤄진 것으로 공개됐다고 미...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/23/AKR20260823025200009_01_i_P2.jpg"
+    },
     {
       "title": "트럼프 한마디에…'이 코인' 일주일 만에 30% 급등세",
       "link": "https://www.hankyung.com/article/202608215088i",
@@ -278,16 +288,6 @@
       "sentiment": "negative",
       "desc": "(로마=연합뉴스) 민경락 특파원 = 우크라이나가 러시아의 인기 애니메이션 '마샤와 곰'을 제재 대상으로 지정했다.",
       "image": "https://img.yna.co.kr/photo/etc/epa/2021/09/06/PEP20210906135101009_P2.jpg"
-    },
-    {
-      "title": "멜로니 \"트럼프와 일이 쉬울 거라 생각…상황 다르게 흘러가\"",
-      "link": "https://www.yna.co.kr/view/AKR20260821177100109",
-      "source": "연합뉴스 국제",
-      "ts": 1787314013000,
-      "pub": "Fri, 21 Aug 2026 21:06:53 +0900",
-      "sentiment": "neutral",
-      "desc": "(로마=연합뉴스) 민경락 특파원 = 조르자 멜로니 이탈리아 총리는 \"도널드 트럼프 미국 대통령과 일이 쉬울 것이라고 생각했지만 상황은 다르게 흘...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/21/AKR20260821177100109_01_i_P2.jpg"
     }
   ]
 }

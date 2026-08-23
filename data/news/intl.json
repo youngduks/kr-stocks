@@ -1,8 +1,26 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-23T21:10:56.764Z",
-  "count": 31,
+  "updated_at": "2026-08-23T22:10:10.906Z",
+  "count": 32,
   "items": [
+    {
+      "title": "'매파' Fed 인사, 국채금리 급등에도 \"시장 정상 작동\"",
+      "link": "https://www.hankyung.com/article/2026082474237",
+      "source": "한국경제",
+      "ts": 1787519494000,
+      "pub": "Mon, 24 Aug 2026 06:11:34 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "트럼프가 깃발 흔든 美수도 레이싱…건국 250주년 '쇼' 마무리",
+      "link": "https://www.yna.co.kr/view/AKR20260824002700071",
+      "source": "연합뉴스 국제",
+      "ts": 1787519251000,
+      "pub": "Mon, 24 Aug 2026 06:07:31 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 미국 수도인 워싱턴 DC 한복판을 경주용 차들이 시속 200마일(약 320㎞) 가깝게 질주하는 진풍경이 2...",
+      "image": "https://img.yna.co.kr/photo/etc/gt/2026/08/24/PGT20260824029901009_P2.jpg"
+    },
     {
       "title": "\"시리아 외무·이스라엘 모사드 국장, 요르단서 회동\"",
       "link": "https://www.yna.co.kr/view/AKR20260824002500099",
@@ -81,7 +99,7 @@
       "pub": "Mon, 24 Aug 2026 00:43:14 +0900",
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 1기 행정부 부통령을 지낸 마이크 펜스는 러시아의 탄도미사일 공격에 직면한 우크라이나에 요격...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/23/AKR20260823052900071_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/etc/up/2025/11/21/PUP20251121012601009_P2.jpg"
     },
     {
       "title": "러시아, 영국주재 대사 소환…\"우크라 적극 지원에 불만 표출\"",
@@ -132,14 +150,6 @@
       "sentiment": "neutral",
       "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령은 23일(현지시간) 전시 선거를 실시해야 한다는 요구를 일축했다.",
       "image": "https://img.yna.co.kr/photo/etc/af/2026/08/23/PAF20260823152101009_P2.jpg"
-    },
-    {
-      "title": "트럼프 또 \"호르무즈는 미국땅\"…이란 \"美제재 동참국, 적 간주\"",
-      "link": "https://www.hankyung.com/article/2026082371461",
-      "source": "한국경제",
-      "ts": 1787476901000,
-      "pub": "Sun, 23 Aug 2026 18:21:41 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "트럼프 \"캐나다, 미국의 州 아니면서도 혜택 누리려 해\"",

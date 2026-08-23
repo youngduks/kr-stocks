@@ -1,8 +1,26 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-23T08:16:19.658Z",
+  "updated_at": "2026-08-23T09:16:48.037Z",
   "count": 26,
   "items": [
+    {
+      "title": "[사설] 우크라이나전쟁 '특수' 누리는 北…핵·미사일 고도화 막아야",
+      "link": "https://www.hankyung.com/article/2026082370961",
+      "source": "한국경제",
+      "ts": 1787473901000,
+      "pub": "Sun, 23 Aug 2026 17:31:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"캐나다, 미국의 州 아니면서도 혜택 누리려 해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260823039500009",
+      "source": "연합뉴스 국제",
+      "ts": 1787472855000,
+      "pub": "Sun, 23 Aug 2026 17:14:15 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 신재우 기자 = 미국과 캐나다의 협상이 결렬되며 양국 간 무역 갈등이 격화한 가운데 도널드 트럼프 미국 대통령이 캐나다를 향해...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/23/AKR20260823039500009_01_i_P2.jpg"
+    },
     {
       "title": "\"AI, 새로운 레드라인…미중 정상 연내 4회 만나면 베스트겠죠\"",
       "link": "https://www.mt.co.kr/world/2026/08/23/2026082110370999276",
@@ -242,26 +260,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 미국 국무부는 21일(현지시간) 한국에 AIM-9X 사이드와인더 블록 Ⅱ 공대공 미사일과 관련 장비 판매를...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/05/20/PYH2026052002570001300_P2.jpg"
-    },
-    {
-      "title": "美선거 앞 물가 민심에…트럼프, 다진소고기 초과관세 면제",
-      "link": "https://www.yna.co.kr/view/AKR20260822001800071",
-      "source": "연합뉴스 국제",
-      "ts": 1787331117000,
-      "pub": "Sat, 22 Aug 2026 01:51:57 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령이 향후 90일간 최대 30만t의 다진 소고기용 제품에 대해 할당량 초과 관세를 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/22/AKR20260822001800071_01_i_P2.jpg"
-    },
-    {
-      "title": "중동·이슬람권 8개국, 이스라엘의 서안 정착촌 확대 \"중단하라\"",
-      "link": "https://www.yna.co.kr/view/AKR20260822002000099",
-      "source": "연합뉴스 국제",
-      "ts": 1787330769000,
-      "pub": "Sat, 22 Aug 2026 01:46:09 +0900",
-      "sentiment": "neutral",
-      "desc": "(요하네스버그=연합뉴스) 나확진 특파원 = 이집트, 사우디아라비아, 카타르, 아랍에미리트(UAE), 요르단, 튀르키예, 인도네시아, 파키스탄 등...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/08/22/PEP20260822013901009_P2.jpg"
     }
   ]
 }

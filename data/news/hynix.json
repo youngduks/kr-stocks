@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-23T23:10:04.313Z",
-  "count": 15,
+  "updated_at": "2026-08-24T00:35:25.319Z",
+  "count": 14,
   "items": [
+    {
+      "title": "엔비디아, 데이터센터 전력회사 투자…AI 인프라 선점",
+      "link": "https://www.hankyung.com/article/202608247676i",
+      "source": "한국경제",
+      "ts": 1787530327000,
+      "pub": "Mon, 24 Aug 2026 09:12:07 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "엔비디아, AI 개발사 우회 인수…첨단 오픈소스 AI 개발",
       "link": "https://www.yna.co.kr/view/AKR20260824008300009",
@@ -11,15 +19,7 @@
       "pub": "Mon, 24 Aug 2026 07:45:03 +0900",
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 정주호 기자 = 엔비디아가 중국의 첨단 인공지능(AI) 모델과 경쟁할 수 있는 세계 최고 수준의 오픈웨이트(개방형 가중치) A...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/24/AKR20260824008300009_01_i_P2.jpg"
-    },
-    {
-      "title": "삼성, '계산하는 HBM' 공개…GPU 연산 'aHBM'이 맡는다",
-      "link": "https://www.hankyung.com/article/202608247371i",
-      "source": "한국경제",
-      "ts": 1787508958000,
-      "pub": "Mon, 24 Aug 2026 03:15:58 +0900",
-      "sentiment": "neutral"
+      "image": "https://img.yna.co.kr/photo/reuters/2026/07/25/PRU20260725045801009_P2.jpg"
     },
     {
       "title": "AI 서버값 '고공행진'…엔비디아, 고객사에 가격 15% 인상 예고",
@@ -60,16 +60,6 @@
       "sentiment": "neutral",
       "desc": "(상하이=연합뉴스) 차병섭 특파원 = 삼성전자와 SK하이닉스에 도전하는 중국의 양대 메모리 업체 중 D램 분야 창신커지(CXMT)에 이어 낸드플...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/22/AKR20260822023851089_01_i_P2.jpg"
-    },
-    {
-      "title": "CXMT 이어 中낸드업체 YMTC도 IPO 잰걸음…6조8천억원 조달 계획",
-      "link": "https://www.yna.co.kr/view/AKR20260822023800089",
-      "source": "연합뉴스 국제",
-      "ts": 1787362551000,
-      "pub": "Sat, 22 Aug 2026 10:35:51 +0900",
-      "sentiment": "neutral",
-      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 삼성전자·SK하이닉스에 도전 중인 중국의 양대 메모리 업체 중 D램 분야 창신커지(CXMT)에 이어 낸드플...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/22/AKR20260822023800089_01_i_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

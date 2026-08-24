@@ -1,8 +1,26 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-23T23:10:04.310Z",
-  "count": 33,
+  "updated_at": "2026-08-24T00:35:25.317Z",
+  "count": 32,
   "items": [
+    {
+      "title": "시리아, 미 중재로 이스라엘과 평화회담 재개 시사(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260824002501099",
+      "source": "연합뉴스 국제",
+      "ts": 1787527927000,
+      "pub": "Mon, 24 Aug 2026 08:32:07 +0900",
+      "sentiment": "neutral",
+      "desc": "(요하네스버그·서울=연합뉴스) 나확진 특파원 김아람 기자 = 시리아와 이스라엘이 23일(현지시간) 요르단에서 미국 중재로 고위급 회담을 했다고 ...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/08/23/PRU20260823218701009_P2.jpg"
+    },
+    {
+      "title": "트럼프 1기 부통령 \"한국산 요격미사일, 미국 거쳐 우크라 배치 가능\"",
+      "link": "https://www.hankyung.com/article/2026082475437",
+      "source": "한국경제",
+      "ts": 1787525856000,
+      "pub": "Mon, 24 Aug 2026 07:57:36 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 측근 \"트럼프, 김정은 앞서 李대통령과 먼저 회담해야\"",
       "link": "https://www.yna.co.kr/view/AKR20260824012100071",
@@ -12,22 +30,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 북한 김정은 국무위원장을 만나기 전에 이재명 대통령과 먼저 회담해야 하며, 한...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/15/PYH2026061514730001300_P2.jpg"
-    },
-    {
-      "title": "\"건강 위험 경고\" 트럼프 체중 108㎏…33개월 새 10.5㎏",
-      "link": "https://www.hankyung.com/article/2026082474307",
-      "source": "한국경제",
-      "ts": 1787520140000,
-      "pub": "Mon, 24 Aug 2026 06:22:20 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'매파' Fed 인사, 국채금리 급등에도 \"시장 정상 작동\"",
-      "link": "https://www.hankyung.com/article/2026082474237",
-      "source": "한국경제",
-      "ts": 1787519494000,
-      "pub": "Mon, 24 Aug 2026 06:11:34 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "트럼프가 깃발 흔든 美수도 레이싱…건국 250주년 '쇼' 마무리",
@@ -318,16 +320,6 @@
       "sentiment": "neutral",
       "desc": "(",
       "image": "https://img.yna.co.kr/photo/ap/2025/10/08/PAP20251008033101009_P2.jpg"
-    },
-    {
-      "title": "\"우크라, 모스크바 공항 겨냥 AI드론떼 작전 마련했다가 중단\"",
-      "link": "https://www.yna.co.kr/view/AKR20260822024500009",
-      "source": "연합뉴스 국제",
-      "ts": 1787364290000,
-      "pub": "Sat, 22 Aug 2026 11:04:50 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이신영 기자 = 우크라이나가 러시아를 종전 협상 테이블로 끌어내기 위해 모스크바 공항을 타격하는 작전을 마련했다가 민간의 피해...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/05/17/PAP20260517240701009_P2.jpg"
     }
   ]
 }

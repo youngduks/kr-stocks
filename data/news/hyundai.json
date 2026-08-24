@@ -1,14 +1,22 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-08-24T06:33:30.293Z",
-  "count": 9,
+  "updated_at": "2026-08-24T07:48:14.997Z",
+  "count": 10,
   "items": [
     {
-      "title": "'만지고, 느끼고' 100만명씩 몰리는 美과학관…정의선 회장도 꽂혔다 [현장+]",
-      "link": "https://www.hankyung.com/article/202608248441g",
+      "title": "AX 전환 속도 현대차그룹, 이번엔 24시간 사내 '이색 대회'",
+      "link": "https://www.hankyung.com/article/202608249059g",
       "source": "한국경제",
-      "ts": 1787549903000,
-      "pub": "Mon, 24 Aug 2026 14:38:23 +0900",
+      "ts": 1787553859000,
+      "pub": "Mon, 24 Aug 2026 15:44:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대모비스, 3년째 천연기념물 '미호종개' 방류 행사",
+      "link": "https://www.hankyung.com/article/202608248993g",
+      "source": "한국경제",
+      "ts": 1787552314000,
+      "pub": "Mon, 24 Aug 2026 15:18:34 +0900",
       "sentiment": "neutral"
     },
     {

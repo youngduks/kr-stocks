@@ -1,23 +1,27 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-24T06:33:30.292Z",
-  "count": 13,
+  "updated_at": "2026-08-24T07:48:14.996Z",
+  "count": 12,
   "items": [
     {
-      "title": "엔비디아, AI 스타트업 풀사이드와 60억달러 라이선스 계약",
-      "link": "https://www.hankyung.com/article/202608248746i",
-      "source": "한국경제",
-      "ts": 1787549212000,
-      "pub": "Mon, 24 Aug 2026 14:26:52 +0900",
-      "sentiment": "neutral"
+      "title": "호남권 반도체 클러스터 범시민추진위 출범",
+      "link": "https://www.yna.co.kr/view/AKR20260824123400054",
+      "source": "연합뉴스 경제",
+      "ts": 1787554168000,
+      "pub": "Mon, 24 Aug 2026 15:49:28 +0900",
+      "sentiment": "neutral",
+      "desc": "(전남광주=연합뉴스) 전승현 기자 = 광주상공회의소와 한국노총, 민주노총 등 각계 대표 200여명이 참여하는 호남권반도체 클러스터 범시민추진위원...",
+      "image": "https://img.yna.co.kr/photo/cms/2017/10/12/01/C0A8CAE20000015FF7954E500010925_P2.jpg"
     },
     {
-      "title": "골드만 \"HBM 시장 내년 108% 폭증…삼성·SK 생산능력이 승패 가른다\"",
-      "link": "https://www.hankyung.com/article/202608248800i",
-      "source": "한국경제",
-      "ts": 1787548680000,
-      "pub": "Mon, 24 Aug 2026 14:18:00 +0900",
-      "sentiment": "neutral"
+      "title": "\"엔비디아, 퍼플렉시티 추가 지분투자 논의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260824116400009",
+      "source": "연합뉴스 국제",
+      "ts": 1787553450000,
+      "pub": "Mon, 24 Aug 2026 15:37:30 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 엔비디아가 인공지능(AI) 검색 스타트업 퍼플렉시티의 투자 라운드에 참여하는 방안을 논의하고 있다고 IT 전문...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/08/24/PRU20260824188001009_P2.jpg"
     },
     {
       "title": "1분기 임금근로 일자리 29만개↑…20대 내리막·반도체 5천개↑",
@@ -38,16 +42,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 정주호 기자 = 엔비디아가 중국의 첨단 인공지능(AI) 모델과 경쟁할 수 있는 세계 최고 수준의 오픈웨이트(개방형 가중치) A...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/07/25/PRU20260725045801009_P2.jpg"
-    },
-    {
-      "title": "AI 서버값 '고공행진'…엔비디아, 고객사에 가격 15% 인상 예고",
-      "link": "https://www.yna.co.kr/view/AKR20260823016400075",
-      "source": "연합뉴스 국제",
-      "ts": 1787446971000,
-      "pub": "Sun, 23 Aug 2026 10:02:51 +0900",
-      "sentiment": "neutral",
-      "desc": "(로스앤젤레스=연합뉴스) 김경윤 특파원 = 글로벌 시가총액 1위 기업이자 세계 최대 인공지능(AI) 칩 개발사인 엔비디아가 AI 서버 가격 인상...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/06/01/PEP20260601138901009_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

@@ -1,22 +1,60 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-24T06:33:30.292Z",
-  "count": 14,
+  "updated_at": "2026-08-24T07:48:14.996Z",
+  "count": 16,
   "items": [
     {
-      "title": "골드만 \"HBM 시장 내년 108% 폭증…삼성·SK 생산능력이 승패 가른다\"",
-      "link": "https://www.hankyung.com/article/202608248800i",
+      "title": "삼성전자, 사상 최대 주주환원에도 주가 8%↓…그룹주도 약세(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260824036751008",
+      "source": "연합뉴스 경제",
+      "ts": 1787556559000,
+      "pub": "Mon, 24 Aug 2026 16:29:19 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 사상 최대 규모인 최대 110조원의 주주환원 시행방안을 의결한 삼성전자[005930]가 24일 9% 가까이 급...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
+    },
+    {
+      "title": "삼전·닉스 동반 급락에 코스피 3%↓…코스닥은 1%대 올라(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260824119751008",
+      "source": "연합뉴스 경제",
+      "ts": 1787556135000,
+      "pub": "Mon, 24 Aug 2026 16:22:15 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 국내 반도체 '투톱'인 삼성전자와 SK하이닉스 주가가 큰 폭으로 내리면서 24일 코스피가 3% 넘게 하락했다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/24/PYH2026082415500001300_P2.jpg"
+    },
+    {
+      "title": "삼성전자 배당 낙수효과?…계열사 주주환원은 '온도차'",
+      "link": "https://www.hankyung.com/article/202608248834i",
       "source": "한국경제",
-      "ts": 1787548680000,
-      "pub": "Mon, 24 Aug 2026 14:18:00 +0900",
+      "ts": 1787554514000,
+      "pub": "Mon, 24 Aug 2026 15:55:14 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "삼성전자 8% 폭락…110조 역대급 돈잔치에도 주가 무너진 이유 [종목+]",
-      "link": "https://www.hankyung.com/article/2026082487246",
+      "title": "코스피, 삼전 급락에 6700선 아래로…외인·기관 '팔자'",
+      "link": "https://www.hankyung.com/article/2026082491356",
       "source": "한국경제",
-      "ts": 1787548333000,
-      "pub": "Mon, 24 Aug 2026 14:12:13 +0900",
+      "ts": 1787554176000,
+      "pub": "Mon, 24 Aug 2026 15:49:36 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "삼전·닉스 동반 하락에 코스피 3%↓…코스닥은 1%대 상승",
+      "link": "https://www.yna.co.kr/view/AKR20260824119700008",
+      "source": "연합뉴스 경제",
+      "ts": 1787553371000,
+      "pub": "Mon, 24 Aug 2026 15:36:11 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 24일 코스피가 3% 넘게 하락해 6,700선을 내줬다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/24/PYH2026082415500001300_P2.jpg"
+    },
+    {
+      "title": "[속보] 코스피 3.12% 내린 6696.96 마감…삼성전자 8.7% 폭락",
+      "link": "https://www.hankyung.com/article/2026082490716",
+      "source": "한국경제",
+      "ts": 1787553092000,
+      "pub": "Mon, 24 Aug 2026 15:31:32 +0900",
       "sentiment": "negative"
     },
     {
@@ -58,26 +96,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 황철환 기자 = 사상 최대 규모인 최대 110조원의 주주환원 시행방안을 의결한 삼성전자[005930]가 24일 장 초반 6%대...",
       "image": "https://img.yna.co.kr/photo/cms/2026/06/24/43/PCM20260624000043990_P2.jpg"
-    },
-    {
-      "title": "DS증권 \"삼전, 금산법 10% 규제에 자사주 소각 여력 10조~20조원\"",
-      "link": "https://www.yna.co.kr/view/AKR20260824023100008",
-      "source": "연합뉴스 경제",
-      "ts": 1787529505000,
-      "pub": "Mon, 24 Aug 2026 08:58:25 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 황철환 기자 = DS투자증권은 삼성전자[005930]가 90조∼110조원 규모로 예상되는 2026년 주주환원 시행 방안을 의결...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/30/PYH2026073011750006100_P2.jpg"
-    },
-    {
-      "title": "[마켓뷰] 삼전·닉스 주주환원 약발 이어질까…코스피 향방은",
-      "link": "https://www.yna.co.kr/view/AKR20260824020000008",
-      "source": "연합뉴스 경제",
-      "ts": 1787527563000,
-      "pub": "Mon, 24 Aug 2026 08:26:03 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 24일 코스피는 엔비디아 실적발표 등 주요 이벤트를 앞두고 방향성을 탐색하는 흐름을 보일 가능성이 거론된다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082112800001300_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

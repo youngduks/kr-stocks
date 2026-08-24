@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-24T07:48:14.996Z",
+  "updated_at": "2026-08-24T08:34:35.358Z",
   "count": 16,
   "items": [
+    {
+      "title": "110兆 환원에도 주가 급락한 삼성전자...배당·자사주 소각 황금 비율은?",
+      "link": "https://www.hankyung.com/article/202608248774i",
+      "source": "한국경제",
+      "ts": 1787557661000,
+      "pub": "Mon, 24 Aug 2026 16:47:41 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "삼성전자, 사상 최대 주주환원에도 주가 8%↓…그룹주도 약세(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260824036751008",
@@ -86,16 +94,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 김유향 기자 = 코스피는 24일 장 초반 하락세를 보이고 있다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/24/PYH2026082401770001300_P2.jpg"
-    },
-    {
-      "title": "삼성전자, 사상최대 주주환원에도 장초반 6%대 급락",
-      "link": "https://www.yna.co.kr/view/AKR20260824036700008",
-      "source": "연합뉴스 경제",
-      "ts": 1787531447000,
-      "pub": "Mon, 24 Aug 2026 09:30:47 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 사상 최대 규모인 최대 110조원의 주주환원 시행방안을 의결한 삼성전자[005930]가 24일 장 초반 6%대...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/24/43/PCM20260624000043990_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

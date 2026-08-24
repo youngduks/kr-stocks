@@ -1,8 +1,36 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-24T02:15:34.351Z",
-  "count": 19,
+  "updated_at": "2026-08-24T03:43:03.480Z",
+  "count": 15,
   "items": [
+    {
+      "title": "금산법 10% 규제, '배당+자사주' 삼전 주주환원 조합 변수되나(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260824023151008",
+      "source": "연합뉴스 경제",
+      "ts": 1787538807000,
+      "pub": "Mon, 24 Aug 2026 11:33:27 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 황철환 김유아 기자 = 삼성전자[005930]가 90조∼110조원 규모로 예상되는 2026년 주주환원 시행 방안을 의결한 데 ...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082113660001300_P2.jpg"
+    },
+    {
+      "title": "삼전 급락이어 하닉도 약세…코스피, 2%대로 낙폭 확대",
+      "link": "https://www.yna.co.kr/view/AKR20260824071200008",
+      "source": "연합뉴스 경제",
+      "ts": 1787538274000,
+      "pub": "Mon, 24 Aug 2026 11:24:34 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 지난주 삼전닉스의 주주환원 기대로 연이틀 상승했던 코스피가 24일 이들 반도체 투톱의 약세에 하락세를 보이고 ...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/24/PYH2026082401750001300_P2.jpg"
+    },
+    {
+      "title": "삼전닉스는 '줍줍'…초고수들이 급등주에서 돈 뺀 이유",
+      "link": "https://www.hankyung.com/article/202608248289i",
+      "source": "한국경제",
+      "ts": 1787536802000,
+      "pub": "Mon, 24 Aug 2026 11:00:02 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "한투운용, 'ACE 삼성전자SK하이닉스플러스채권혼합50' ETF 상장",
       "link": "https://www.hankyung.com/article/2026082481236",
@@ -10,16 +38,6 @@
       "ts": 1787534109000,
       "pub": "Mon, 24 Aug 2026 10:15:09 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "'ACE 삼성전자SK하이닉스플러스채권혼합50 ETF', 신규 상장",
-      "link": "https://www.mt.co.kr/stock/2026/08/24/2026082409340434433",
-      "source": "머니투데이",
-      "ts": 1787533033000,
-      "pub": "Mon, 24 Aug 2026 09:57:13 +0900",
-      "sentiment": "neutral",
-      "desc": "한국투자신탁운용은 오는 25일 'ACE 삼성전자SK하이닉스플러스채권혼합50' ETF(상장지수펀드)를 신규 상장한다고 24일 밝혔다. ACE 삼성전자SK하이닉스플러스채권혼합50 ETF는 국내주식과 국내채권에 5대 5로 투자하는 상품이다. 기초지수는 'KAP 삼성전자SK하",
-      "image": "https://thumb.mt.co.kr/06/2026/08/2026082409340434433_1.jpg"
     },
     {
       "title": "주주환원 기대 못미쳤나? 삼전 급락에 코스피 1%대↓(종합)",
@@ -42,40 +60,6 @@
       "image": "https://img.yna.co.kr/photo/cms/2026/06/24/43/PCM20260624000043990_P2.jpg"
     },
     {
-      "title": "갤럭시 버즈4 프로, EISA 최고 제품 선정…버즈 시리즈 첫 수상",
-      "link": "https://www.mt.co.kr/tech/2026/08/24/2026082408080459207",
-      "source": "머니투데이",
-      "ts": 1787531332000,
-      "pub": "Mon, 24 Aug 2026 09:28:52 +0900",
-      "sentiment": "neutral",
-      "desc": "삼성전자는 '갤럭시 버즈4 프로'가 영상음향전문가협회(EISA)가 주관하는 'EISA 어워드 2026-2027'에서 '인이어 헤드폰' 부문 최고 제품으로 선정됐다고 24일 밝혔다. 갤럭시 버즈 시리즈가 EISA 어워드를 수상한 것은 이번이 처음이다. 1982년 시작된 ",
-      "image": "https://thumb.mt.co.kr/06/2026/08/2026082408080459207_1.jpg"
-    },
-    {
-      "title": "110조 쐈는데…삼성전자, 주주환원 발표 후 장 초반 급락",
-      "link": "https://www.hankyung.com/article/2026082478436",
-      "source": "한국경제",
-      "ts": 1787530379000,
-      "pub": "Mon, 24 Aug 2026 09:12:59 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "삼전닉스 '쩐의 전쟁' 더 세진다…쪼개는 삼성, 뭉치는 SK [김대영의 노무스쿨]",
-      "link": "https://www.hankyung.com/article/202608237324g",
-      "source": "한국경제",
-      "ts": 1787530211000,
-      "pub": "Mon, 24 Aug 2026 09:10:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "“하닉 차익실현·삼전 저가매수”…초고수들, 코스닥 반등에 베팅",
-      "link": "https://www.hankyung.com/article/202608247776i",
-      "source": "한국경제",
-      "ts": 1787529786000,
-      "pub": "Mon, 24 Aug 2026 09:03:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "DS증권 \"삼전, 금산법 10% 규제에 자사주 소각 여력 10조~20조원\"",
       "link": "https://www.yna.co.kr/view/AKR20260824023100008",
       "source": "연합뉴스 경제",
@@ -94,26 +78,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 황철환 기자 = 24일 코스피는 엔비디아 실적발표 등 주요 이벤트를 앞두고 방향성을 탐색하는 흐름을 보일 가능성이 거론된다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082112800001300_P2.jpg"
-    },
-    {
-      "title": "삼성전자, 상반기 특허등록 1만1천건…누적 30만건 육박",
-      "link": "https://www.yna.co.kr/view/AKR20260821162500003",
-      "source": "연합뉴스 경제",
-      "ts": 1787437860000,
-      "pub": "Sun, 23 Aug 2026 07:31:00 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 조성흠 기자 = 삼성전자가 올해 상반기 한국과 미국에서 1만1천건이 넘는 특허를 등록해 처음으로 2개 반기 연속 1만건을 넘어...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/07/PYH2026070703200001300_P2.jpg"
-    },
-    {
-      "title": "'삼전닉스에 도전' 中낸드 YMTC, IPO로 6조8천억원 조달 계획(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260822023851089",
-      "source": "연합뉴스 국제",
-      "ts": 1787390301000,
-      "pub": "Sat, 22 Aug 2026 18:18:21 +0900",
-      "sentiment": "neutral",
-      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 삼성전자와 SK하이닉스에 도전하는 중국의 양대 메모리 업체 중 D램 분야 창신커지(CXMT)에 이어 낸드플...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/22/AKR20260822023851089_01_i_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

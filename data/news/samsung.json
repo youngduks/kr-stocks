@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-24T09:34:55.977Z",
-  "count": 17,
+  "updated_at": "2026-08-24T10:26:25.341Z",
+  "count": 15,
   "items": [
+    {
+      "title": "\"삼성전자, IR 이렇게밖에 못하나\"…110조 푼다는데 폭락 [분석+]",
+      "link": "https://www.hankyung.com/article/2026082492776",
+      "source": "한국경제",
+      "ts": 1787565603000,
+      "pub": "Mon, 24 Aug 2026 19:00:03 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "반도체주 하락하자 또 3배 레버리지 베팅…메모리주 비중 확대[서학픽]",
       "link": "https://www.mt.co.kr/world/2026/08/24/2026082410435928320",
@@ -22,30 +30,6 @@
       "sentiment": "neutral",
       "desc": "[뉴스분석]中 후발업체 IPO·엔비디아도 못 버틴 메모리 품귀, '삼전닉스'의 역설적 상황 상징 비정상적 시장 기대도 복잡성 더해…\"최대 변수는 대한민국 정부\" 지적도 절체절명의 상황, '기업 절실한 목소리 들어라' 요구↑ 중국 메모리 반도체 기업들이 연이어 대규모 I",
       "image": "https://thumb.mt.co.kr/06/2026/08/2026082415344234551_1.jpg"
-    },
-    {
-      "title": "GPU 대신 연산까지 수행…삼성 '차세대 HBM' 공개",
-      "link": "https://www.hankyung.com/article/2026082495701",
-      "source": "한국경제",
-      "ts": 1787561262000,
-      "pub": "Mon, 24 Aug 2026 17:47:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"HBM 시장 내년 108% 급증할 것\"",
-      "link": "https://www.hankyung.com/article/2026082495711",
-      "source": "한국경제",
-      "ts": 1787561178000,
-      "pub": "Mon, 24 Aug 2026 17:46:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 30조 특별배당 이어 40조 더 풀듯",
-      "link": "https://www.hankyung.com/article/2026082494731",
-      "source": "한국경제",
-      "ts": 1787561067000,
-      "pub": "Mon, 24 Aug 2026 17:44:27 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "삼성전자, 사상 최대 주주환원에도 주가 8%↓…그룹주도 약세(종합)",

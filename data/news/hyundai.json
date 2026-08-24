@@ -1,7 +1,7 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-08-24T08:34:35.359Z",
-  "count": 10,
+  "updated_at": "2026-08-24T09:34:55.978Z",
+  "count": 9,
   "items": [
     {
       "title": "'파업' 멈추고 오늘은 현대차, 내일은 기아 노사 협상 재개..합의점 찾나",
@@ -14,12 +14,11 @@
       "image": "https://thumb.mt.co.kr/06/2026/08/2026082416051578615_1.jpg"
     },
     {
-      "title": "AX 전환 속도 현대차그룹, 이번엔 24시간 사내 '이색 대회'",
-      "link": "https://www.hankyung.com/article/202608249059g",
-      "source": "한국경제",
-      "ts": 1787553859000,
-      "pub": "Mon, 24 Aug 2026 15:44:19 +0900",
-      "sentiment": "neutral"
+      "title": "현대자동차(주) (정정)생산중단",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=112146954&code=005380&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1787529600000,
+      "pub": "2026.08.24"
     },
     {
       "title": "현대자동차(주) 영업(잠정)실적(공정공시)",
@@ -66,13 +65,6 @@
     {
       "title": "현대자동차(주) 현금ㆍ현물 배당 결정",
       "link": "https://finance.naver.com/item/news_notice_read.naver?no=76455939&code=005380&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1784764800000,
-      "pub": "2026.07.23"
-    },
-    {
-      "title": "현대자동차(주) 현금ㆍ현물배당을 위한 주주명부폐쇄(기준일) 결정",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=76449946&code=005380&page_notice=",
       "source": "전자공시(DART)",
       "ts": 1784764800000,
       "pub": "2026.07.23"

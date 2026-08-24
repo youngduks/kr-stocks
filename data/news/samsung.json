@@ -1,15 +1,51 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-24T08:34:35.358Z",
-  "count": 16,
+  "updated_at": "2026-08-24T09:34:55.977Z",
+  "count": 17,
   "items": [
     {
-      "title": "110兆 환원에도 주가 급락한 삼성전자...배당·자사주 소각 황금 비율은?",
-      "link": "https://www.hankyung.com/article/202608248774i",
+      "title": "반도체주 하락하자 또 3배 레버리지 베팅…메모리주 비중 확대[서학픽]",
+      "link": "https://www.mt.co.kr/world/2026/08/24/2026082410435928320",
+      "source": "머니투데이",
+      "ts": 1787562300000,
+      "pub": "Mon, 24 Aug 2026 18:05:00 +0900",
+      "sentiment": "neutral",
+      "desc": "[서학개미 탑픽] 반도체주가 하락하자 서학개미들이 다시 반도체 3배 레버리지 ETF(상장지수펀드)에 대거 뛰어들면서 미국 증시에서 주간 순매수 규모가 10억달러에 육박했다. 한국예탁결제원 세이브로에 따르면 서학개미들은 지난 13~19일(결제일 기준 17~21일) 사이에",
+      "image": "https://thumb.mt.co.kr/06/2026/08/2026082410435928320_1.jpg"
+    },
+    {
+      "title": "최태원 \"마진율 내려야하나\" 걱정…돈 쓸어담는 삼전닉스, 못웃는 이유",
+      "link": "https://www.mt.co.kr/industry/2026/08/24/2026082415344234551",
+      "source": "머니투데이",
+      "ts": 1787562001000,
+      "pub": "Mon, 24 Aug 2026 18:00:01 +0900",
+      "sentiment": "neutral",
+      "desc": "[뉴스분석]中 후발업체 IPO·엔비디아도 못 버틴 메모리 품귀, '삼전닉스'의 역설적 상황 상징 비정상적 시장 기대도 복잡성 더해…\"최대 변수는 대한민국 정부\" 지적도 절체절명의 상황, '기업 절실한 목소리 들어라' 요구↑ 중국 메모리 반도체 기업들이 연이어 대규모 I",
+      "image": "https://thumb.mt.co.kr/06/2026/08/2026082415344234551_1.jpg"
+    },
+    {
+      "title": "GPU 대신 연산까지 수행…삼성 '차세대 HBM' 공개",
+      "link": "https://www.hankyung.com/article/2026082495701",
       "source": "한국경제",
-      "ts": 1787557661000,
-      "pub": "Mon, 24 Aug 2026 16:47:41 +0900",
-      "sentiment": "negative"
+      "ts": 1787561262000,
+      "pub": "Mon, 24 Aug 2026 17:47:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"HBM 시장 내년 108% 급증할 것\"",
+      "link": "https://www.hankyung.com/article/2026082495711",
+      "source": "한국경제",
+      "ts": 1787561178000,
+      "pub": "Mon, 24 Aug 2026 17:46:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 30조 특별배당 이어 40조 더 풀듯",
+      "link": "https://www.hankyung.com/article/2026082494731",
+      "source": "한국경제",
+      "ts": 1787561067000,
+      "pub": "Mon, 24 Aug 2026 17:44:27 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "삼성전자, 사상 최대 주주환원에도 주가 8%↓…그룹주도 약세(종합)",
@@ -32,22 +68,6 @@
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/24/PYH2026082415500001300_P2.jpg"
     },
     {
-      "title": "삼성전자 배당 낙수효과?…계열사 주주환원은 '온도차'",
-      "link": "https://www.hankyung.com/article/202608248834i",
-      "source": "한국경제",
-      "ts": 1787554514000,
-      "pub": "Mon, 24 Aug 2026 15:55:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "코스피, 삼전 급락에 6700선 아래로…외인·기관 '팔자'",
-      "link": "https://www.hankyung.com/article/2026082491356",
-      "source": "한국경제",
-      "ts": 1787554176000,
-      "pub": "Mon, 24 Aug 2026 15:49:36 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "삼전·닉스 동반 하락에 코스피 3%↓…코스닥은 1%대 상승",
       "link": "https://www.yna.co.kr/view/AKR20260824119700008",
       "source": "연합뉴스 경제",
@@ -56,14 +76,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김유향 기자 = 24일 코스피가 3% 넘게 하락해 6,700선을 내줬다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/24/PYH2026082415500001300_P2.jpg"
-    },
-    {
-      "title": "[속보] 코스피 3.12% 내린 6696.96 마감…삼성전자 8.7% 폭락",
-      "link": "https://www.hankyung.com/article/2026082490716",
-      "source": "한국경제",
-      "ts": 1787553092000,
-      "pub": "Mon, 24 Aug 2026 15:31:32 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "금산법 10% 규제, '배당+자사주' 삼전 주주환원 조합 변수되나(종합)",

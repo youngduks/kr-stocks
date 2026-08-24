@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-24T05:28:30.679Z",
-  "count": 13,
+  "updated_at": "2026-08-24T06:33:30.292Z",
+  "count": 14,
   "items": [
+    {
+      "title": "골드만 \"HBM 시장 내년 108% 폭증…삼성·SK 생산능력이 승패 가른다\"",
+      "link": "https://www.hankyung.com/article/202608248800i",
+      "source": "한국경제",
+      "ts": 1787548680000,
+      "pub": "Mon, 24 Aug 2026 14:18:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 8% 폭락…110조 역대급 돈잔치에도 주가 무너진 이유 [종목+]",
+      "link": "https://www.hankyung.com/article/2026082487246",
+      "source": "한국경제",
+      "ts": 1787548333000,
+      "pub": "Mon, 24 Aug 2026 14:12:13 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "금산법 10% 규제, '배당+자사주' 삼전 주주환원 조합 변수되나(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260824023151008",
@@ -22,14 +38,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 김유향 기자 = 지난주 삼전닉스의 주주환원 기대로 연이틀 상승했던 코스피가 24일 이들 반도체 투톱의 약세에 하락세를 보이고 ...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/24/PYH2026082401750001300_P2.jpg"
-    },
-    {
-      "title": "삼전닉스는 '줍줍'…초고수들이 급등주에서 돈 뺀 이유",
-      "link": "https://www.hankyung.com/article/202608248289i",
-      "source": "한국경제",
-      "ts": 1787536802000,
-      "pub": "Mon, 24 Aug 2026 11:00:02 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "주주환원 기대 못미쳤나? 삼전 급락에 코스피 1%대↓(종합)",

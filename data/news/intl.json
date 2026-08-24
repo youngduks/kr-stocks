@@ -1,8 +1,26 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-24T16:22:03.021Z",
+  "updated_at": "2026-08-24T17:20:49.573Z",
   "count": 26,
   "items": [
+    {
+      "title": "병사도 탱크도 없었다…우크라 독립기념일에 드론·로봇 퍼레이드",
+      "link": "https://www.yna.co.kr/view/AKR20260825001800108",
+      "source": "연합뉴스 국제",
+      "ts": 1787590136000,
+      "pub": "Tue, 25 Aug 2026 01:48:56 +0900",
+      "sentiment": "neutral",
+      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 우크라이나는 35주년 독립기념일인 24일(현지시간) 대규모 드론·로봇 전력으로 짜여진 퍼레이드를 공개하며...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/25/AKR20260825001800108_01_i_P2.jpg"
+    },
+    {
+      "title": "[포토] 우크라 독립기념일 맞아…獨, 드론 방어망 조형물",
+      "link": "https://www.hankyung.com/article/2026082498451",
+      "source": "한국경제",
+      "ts": 1787588375000,
+      "pub": "Tue, 25 Aug 2026 01:19:35 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "이스라엘 \"하마스 풍선·연 공격 재개\"…하마스 \"동심까지 적대\"",
       "link": "https://www.yna.co.kr/view/AKR20260825001500079",
@@ -242,26 +260,6 @@
       "sentiment": "neutral",
       "desc": "(요하네스버그·서울=연합뉴스) 나확진 특파원 김아람 기자 = 시리아와 이스라엘이 23일(현지시간) 요르단에서 미국 중재로 고위급 회담을 했다고 ...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/08/23/PRU20260823218701009_P2.jpg"
-    },
-    {
-      "title": "트럼프 측근 \"트럼프, 김정은 앞서 李대통령과 먼저 회담해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260824012100071",
-      "source": "연합뉴스 국제",
-      "ts": 1787525521000,
-      "pub": "Mon, 24 Aug 2026 07:52:01 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 북한 김정은 국무위원장을 만나기 전에 이재명 대통령과 먼저 회담해야 하며, 한...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/15/PYH2026061514730001300_P2.jpg"
-    },
-    {
-      "title": "트럼프가 깃발 흔든 美수도 레이싱…건국 250주년 '쇼' 마무리",
-      "link": "https://www.yna.co.kr/view/AKR20260824002700071",
-      "source": "연합뉴스 국제",
-      "ts": 1787519251000,
-      "pub": "Mon, 24 Aug 2026 06:07:31 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 미국 수도인 워싱턴 DC 한복판을 경주용 차들이 시속 200마일(약 320㎞) 가깝게 질주하는 진풍경이 2...",
-      "image": "https://img.yna.co.kr/photo/etc/gt/2026/08/24/PGT20260824029901009_P2.jpg"
     }
   ]
 }

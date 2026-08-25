@@ -1,8 +1,28 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-25T16:22:41.649Z",
-  "count": 27,
+  "updated_at": "2026-08-25T17:21:34.980Z",
+  "count": 28,
   "items": [
+    {
+      "title": "'관세' 넘어 '주권'으로 번진 쟁점…미·캐나다 협상 결렬 내막",
+      "link": "https://www.yna.co.kr/view/AKR20260826002200072",
+      "source": "연합뉴스 국제",
+      "ts": 1787676157000,
+      "pub": "Wed, 26 Aug 2026 01:42:37 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 최근 미국과 캐나다의 무역 협상이 전격 결렬된 데에는 자동차와 철강 관세뿐만 아니라 캐나다의 대외 무역 정책...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/08/25/PAF20260825041501009_P2.jpg"
+    },
+    {
+      "title": "캐나다, 美에 200억달러 보복관세…700개 품목에 15~50%(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260826000751072",
+      "source": "연합뉴스 국제",
+      "ts": 1787674711000,
+      "pub": "Wed, 26 Aug 2026 01:18:31 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 임수정 김연숙 특파원 = 캐나다 정부가 25일(현지시간) 약 200억달러 규모의 미국산 제품에 최고 50%의 보복관세를 부과하...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/26/AKR20260826000751072_02_i_P2.jpg"
+    },
     {
       "title": "\"美 CIA 국장, 우크라전 교착 속 회담차 극비 방러\"",
       "link": "https://www.yna.co.kr/view/AKR20260826001500071",
@@ -260,16 +280,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 우크라이나가 러시아의 샤헤드 자폭드론을 공중에서 요격하기 위해 Mi-8 헬기에 소형 요격드론 발사대를 장착한 모습을 공개했습니...",
       "image": "https://www.youtube.com/embed/NeTPfVZ_Az0"
-    },
-    {
-      "title": "트럼프 손 들어준 美대법, '우편투표 제한' 행정명령 시행 허용",
-      "link": "https://www.yna.co.kr/view/AKR20260825037300071",
-      "source": "연합뉴스 국제",
-      "ts": 1787619681000,
-      "pub": "Tue, 25 Aug 2026 10:01:21 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 미국 연방 대법원이 24일(현지시간) 우편투표를 일부 제한하는 도널드 트럼프 미국 대통령의 행정명령을 시행...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/08/04/PRU20260804068801009_P2.jpg"
     }
   ]
 }

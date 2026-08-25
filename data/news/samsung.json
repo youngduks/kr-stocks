@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-25T09:23:13.036Z",
-  "count": 16,
+  "updated_at": "2026-08-25T10:20:11.547Z",
+  "count": 15,
   "items": [
+    {
+      "title": "삼성 파운드리, 엔비디아 '그록3' 양산 돌입",
+      "link": "https://www.hankyung.com/article/2026082520931",
+      "source": "한국경제",
+      "ts": 1787651854000,
+      "pub": "Tue, 25 Aug 2026 18:57:34 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"친구 따라 아이폰\" 10대 여심 '굳건'…20대는 '갤럭시'로 변심",
       "link": "https://www.hankyung.com/article/202608252301g",
@@ -10,24 +18,6 @@
       "ts": 1787648935000,
       "pub": "Tue, 25 Aug 2026 18:08:55 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "골드만, \"CXMT, 중국 HBM 수요 40% 충족할 것\"",
-      "link": "https://www.hankyung.com/article/202608251948i",
-      "source": "한국경제",
-      "ts": 1787647940000,
-      "pub": "Tue, 25 Aug 2026 17:52:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "HBM도, 파운드리도 가격 오른다..삼성전자 반도체 '쌍끌이'",
-      "link": "https://www.mt.co.kr/industry/2026/08/25/2026082515361791363",
-      "source": "머니투데이",
-      "ts": 1787647800000,
-      "pub": "Tue, 25 Aug 2026 17:50:00 +0900",
-      "sentiment": "neutral",
-      "desc": "HBM 내년 평균 판매가격 44% 상승 전망...4나노 공정 엔비디아 '그록3 LPX' 본격 양산 삼성전자가 HBM(고대역폭메모리)과 파운드리(반도체 위탁생산) 가격 상승이라는 겹호재를 맞았다. HBM4 출하 확대가 메모리 반도체(이하 메모리)의 수익성을 끌어 올리는 ",
-      "image": "https://thumb.mt.co.kr/06/2026/08/2026082515361791363_1.jpg"
     },
     {
       "title": "오우라 링 국내 상륙…삼성 갤럭시 링과 맞대결",

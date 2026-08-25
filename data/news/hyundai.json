@@ -1,8 +1,16 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-08-25T09:23:13.037Z",
-  "count": 10,
+  "updated_at": "2026-08-25T10:20:11.548Z",
+  "count": 11,
   "items": [
+    {
+      "title": "현대차, '성과급 400%+1270만원' 합의",
+      "link": "https://www.hankyung.com/article/2026082520951",
+      "source": "한국경제",
+      "ts": 1787651924000,
+      "pub": "Tue, 25 Aug 2026 18:58:44 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[특징주] 현대차 인베스터데이 앞두고 코스닥 로봇주 강세 마감(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260825051951008",

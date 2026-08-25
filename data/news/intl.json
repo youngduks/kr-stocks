@@ -1,8 +1,34 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-25T09:23:13.035Z",
+  "updated_at": "2026-08-25T10:20:11.546Z",
   "count": 21,
   "items": [
+    {
+      "title": "젤렌스키, 트럼프 축전 공개…\"패트리엇 발사음처럼 사기 올려\"",
+      "link": "https://www.yna.co.kr/view/AKR20260825167600108",
+      "source": "연합뉴스 국제",
+      "ts": 1787651807000,
+      "pub": "Tue, 25 Aug 2026 18:56:47 +0900",
+      "sentiment": "neutral",
+      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령은 25일(현지시간) 도널드 트럼프 미국 대통령이 우크라이나 35주년...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/07/28/PRU20260728174201009_P2.jpg"
+    },
+    {
+      "title": "캐나다 또 때린 트럼프 \"車·철강에 50% 관세\"",
+      "link": "https://www.hankyung.com/article/2026082522241",
+      "source": "한국경제",
+      "ts": 1787651620000,
+      "pub": "Tue, 25 Aug 2026 18:53:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[포토] 우크라이나 파격 열병식…병사는 없고 드론·로봇만",
+      "link": "https://www.hankyung.com/article/2026082522461",
+      "source": "한국경제",
+      "ts": 1787649494000,
+      "pub": "Tue, 25 Aug 2026 18:18:14 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "젤렌스키, 다카이치에 \"일본의 우크라 지원 메시지 감사\"",
       "link": "https://www.yna.co.kr/view/AKR20260825162500108",
@@ -182,36 +208,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 행정부가 전문직 비자로 불리는 H-1B 비자 신청자에게 10만 달러가 넘는 수수료를 부...",
       "image": "https://img.yna.co.kr/photo/etc/up/2026/08/20/PUP20260820006501009_P2.jpg"
-    },
-    {
-      "title": "우크라 공습 직격탄 맞은 '러시아판 아마존'…러, 지원책 발표(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260824168451108",
-      "source": "연합뉴스 국제",
-      "ts": 1787603627000,
-      "pub": "Tue, 25 Aug 2026 05:33:47 +0900",
-      "sentiment": "neutral",
-      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 러시아 정부는 24일(현지시간) 우크라이나의 강도 높은 공습에 천문학적 규모의 피해를 본 '러시아판 아마...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/08/16/PEP20260816184501009_P2.jpg"
-    },
-    {
-      "title": "\"백악관 연회장 건설, 군사용이라는데…9·11때 이미 벙커 강화\"",
-      "link": "https://www.yna.co.kr/view/AKR20260825006300071",
-      "source": "연합뉴스 국제",
-      "ts": 1787603096000,
-      "pub": "Tue, 25 Aug 2026 05:24:56 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령이 백악관 연회장 건설의 명분으로 든 '보안시설 강화'가 이미 충분한 상태라는 지...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/08/22/PRU20260822041701009_P2.jpg"
-    },
-    {
-      "title": "영국, 우크라에 AI 기술 주고 전장 빅데이터 받는다",
-      "link": "https://www.yna.co.kr/view/AKR20260825008500108",
-      "source": "연합뉴스 국제",
-      "ts": 1787602962000,
-      "pub": "Tue, 25 Aug 2026 05:22:42 +0900",
-      "sentiment": "neutral",
-      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 영국과 우크라이나가 24일(현지시간) 전장의 각종 데이터에 인공지능(AI) 기술을 접목하는 데에 손을 잡...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/08/19/PAP20260819136701009_P2.jpg"
     }
   ]
 }

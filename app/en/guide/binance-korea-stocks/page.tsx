@@ -69,6 +69,18 @@ export default async function BinanceKoreaStocksGuideEN() {
             </p>
           </header>
 
+          <section className="mb-8 p-5 rounded-xl bg-accent-red/5 border border-accent-red/20">
+            <h2 className="text-sm font-bold text-accent-red mb-2">🚫 Blocked for Korean accounts</h2>
+            <p className="text-xs text-text-muted leading-relaxed">
+              Binance blocks order placement on SAMSUNGUSDT · SKHYNIXUSDT · HYUNDAIUSDT for
+              accounts using a Korean IP or Korean-ID KYC (their own policy, in effect since
+              launch). Signup and deposits work fine, but tapping the actual entry button shows a
+              regional-restriction notice and the order never fills. The steps below were written
+              assuming no such restriction and are kept here for reference only if you hold a
+              Korea-resident / Korean-verified account.
+            </p>
+          </section>
+
           <section className="mb-8 p-5 rounded-2xl bg-bg-card border border-line">
             <h2 className="text-lg font-bold mb-2">What are Binance Korean-stock perps?</h2>
             <p className="text-sm text-text-muted leading-relaxed">
@@ -104,6 +116,10 @@ export default async function BinanceKoreaStocksGuideEN() {
                 <p className="text-[10px] text-text-dim mt-2 leading-relaxed">
                   ※ Link above is an operator referral. No extra cost to you — a portion of trading fees supports
                   kr-stocks.com operations.
+                </p>
+                <p className="text-[10px] text-accent-red mt-1 leading-relaxed">
+                  ※ Signup and KYC work fine for Korean accounts — but the 3 symbols on this page
+                  are themselves blocked from trading on Korean accounts (see the notice above).
                 </p>
               </div>
 
@@ -171,7 +187,7 @@ export default async function BinanceKoreaStocksGuideEN() {
                   </tr>
                   <tr className="border-b border-line/50">
                     <td className="py-2 text-text-dim">Korean stocks</td>
-                    <td className="py-2 text-accent-green">Samsung · Hynix · Hyundai</td>
+                    <td className="py-2 text-accent-red">Samsung · Hynix · Hyundai (blocked for KR accounts)</td>
                     <td className="py-2 text-accent-green">Samsung · Hynix · Hyundai</td>
                   </tr>
                   <tr className="border-b border-line/50">
@@ -188,14 +204,22 @@ export default async function BinanceKoreaStocksGuideEN() {
               </table>
             </div>
             <p className="text-xs text-text-dim mt-3 leading-relaxed">
-              If you only trade Samsung · Hynix · Hyundai, Binance is the simpler path; if you also want private big
-              tech like OpenAI · SpaceX, you need Hyperliquid.
+              But Korean accounts can&apos;t place orders on these three at all on Binance. Binance
+              looks simpler on paper — if you hold a Korea-resident / Korean-verified account, the
+              one that actually fills is{" "}
+              <Link href={"/en/guide/hyperliquid-onramp" as any} className="text-accent-blue hover:underline">
+                Hyperliquid
+              </Link>
+              .
             </p>
           </section>
 
           <section className="mb-8 p-5 rounded-xl bg-accent-amber/5 border border-accent-amber/20">
             <h2 className="text-sm font-bold text-accent-amber mb-2">⚠️ Notes</h2>
             <ul className="text-xs text-text-muted space-y-1 leading-relaxed">
+              <li>
+                • <span className="text-accent-red font-semibold">Blocked for Korean-IP / Korean-verified accounts — orders on these 3 symbols won&apos;t fill.</span>
+              </li>
               <li>• Perp prices can diverge from the KRX regular-session close (premium / discount).</li>
               <li>• Cash-settled — no real shares, dividends or voting rights (price tracking only).</li>
               <li>• Leverage carries liquidation risk — beginners should learn at 1×.</li>

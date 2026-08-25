@@ -46,6 +46,35 @@ const MAPPING: Record<string, RegularSource> = {
   draftkings: { source: "yahoo", symbol: "DKNG" },
   spacex: { source: "yahoo", symbol: "SPCX" },
 
+  // 미국 블루칩 26종 (바이낸스 TRADIFI_PERPETUAL 확장분, 2026-08-25 추가)
+  broadcom: { source: "yahoo", symbol: "AVGO" },
+  qualcomm: { source: "yahoo", symbol: "QCOM" },
+  disney: { source: "yahoo", symbol: "DIS" },
+  uber: { source: "yahoo", symbol: "UBER" },
+  cisco: { source: "yahoo", symbol: "CSCO" },
+  homedepot: { source: "yahoo", symbol: "HD" },
+  walmart: { source: "yahoo", symbol: "WMT" },
+  jpmorgan: { source: "yahoo", symbol: "JPM" },
+  visa: { source: "yahoo", symbol: "V" },
+  adobe: { source: "yahoo", symbol: "ADBE" },
+  salesforce: { source: "yahoo", symbol: "CRM" },
+  ibm: { source: "yahoo", symbol: "IBM" },
+  asml: { source: "yahoo", symbol: "ASML" },
+  arm: { source: "yahoo", symbol: "ARM" },
+  dell: { source: "yahoo", symbol: "DELL" },
+  sony: { source: "yahoo", symbol: "SONY" },
+  cocacola: { source: "yahoo", symbol: "KO" },
+  paypal: { source: "yahoo", symbol: "PYPL" },
+  ebay: { source: "yahoo", symbol: "EBAY" },
+  goldmansachs: { source: "yahoo", symbol: "GS" },
+  caterpillar: { source: "yahoo", symbol: "CAT" },
+  texasinstruments: { source: "yahoo", symbol: "TXN" },
+  shopify: { source: "yahoo", symbol: "SHOP" },
+  reddit: { source: "yahoo", symbol: "RDDT" },
+  novonordisk: { source: "yahoo", symbol: "NVO" },
+  // 텐센트는 홍콩 1차 상장(0700.HK) — Yahoo 미국 OTC ADR 티커(TCEHY)로 대체
+  tencent: { source: "yahoo", symbol: "TCEHY" },
+
   // 비상장 — 정규장 없음
   openai: null,
   anthropic: null,
@@ -205,7 +234,7 @@ async function fetchYahooWithFallback(symbol: string, fallbackSymbol?: string): 
   return fetchYahoo(fallbackSymbol);
 }
 
-/** 39 슬러그 전체 정규장 종가 fetch (병렬). 매핑 없거나 실패한 종목은 누락. */
+/** MAPPING에 등록된 슬러그 전체 정규장 종가 fetch (병렬). 매핑 없거나 실패한 종목은 누락. */
 export async function fetchAllRegularCloses(): Promise<Record<string, RegularClose>> {
   const tasks: Promise<[string, RegularClose | null]>[] = [];
   for (const [slug, m] of Object.entries(MAPPING)) {

@@ -73,6 +73,17 @@ export default async function BinanceKoreaStocksGuide() {
             </p>
           </header>
 
+          <section className="mb-8 p-5 rounded-xl bg-accent-red/5 border border-accent-red/20">
+            <h2 className="text-sm font-bold text-accent-red mb-2">🚫 한국 계정은 실거래 불가</h2>
+            <p className="text-xs text-text-muted leading-relaxed">
+              바이낸스는 한국 IP·한국 신분증 KYC 계정의 SAMSUNGUSDT·SKHYNIXUSDT·HYUNDAIUSDT
+              주문 자체를 차단하고 있습니다(자체 정책, 상장 초기부터 적용). 가입·입금까지는
+              문제없이 되지만 실제 진입 버튼을 누르면 지역 제한 안내가 뜨며 체결되지 않습니다.
+              아래 절차는 이 제한이 없다는 전제로 작성됐던 옛 안내이며, 한국 거주·한국인증
+              계정 기준으로는 참고용으로만 남겨둡니다.
+            </p>
+          </section>
+
           <section className="mb-8 p-5 rounded-2xl bg-bg-card border border-line">
             <h2 className="text-lg font-bold mb-2">바이낸스 한국주식 선물이란?</h2>
             <p className="text-sm text-text-muted leading-relaxed">
@@ -106,6 +117,10 @@ export default async function BinanceKoreaStocksGuide() {
                 <p className="text-[10px] text-text-dim mt-2 leading-relaxed">
                   ※ 위 링크는 운영자 referral 입니다. 사용자 가격 부담은 없으며,
                   거래 수수료의 일부가 kr-stocks.com 운영비로 사용됩니다.
+                </p>
+                <p className="text-[10px] text-accent-red mt-1 leading-relaxed">
+                  ※ 가입·KYC는 한국 계정도 가능하지만, 이 페이지가 다루는 3개 종목 자체는
+                  한국 계정에서 거래가 막혀 있습니다 (위 안내 참고).
                 </p>
               </div>
 
@@ -173,7 +188,7 @@ export default async function BinanceKoreaStocksGuide() {
                   </tr>
                   <tr className="border-b border-line/50">
                     <td className="py-2 text-text-dim">한국주식</td>
-                    <td className="py-2 text-accent-green">삼성·하이닉스·현대차</td>
+                    <td className="py-2 text-accent-red">삼성·하이닉스·현대차 (한국 계정 차단)</td>
                     <td className="py-2 text-accent-green">삼성·하이닉스·현대차</td>
                   </tr>
                   <tr className="border-b border-line/50">
@@ -190,14 +205,21 @@ export default async function BinanceKoreaStocksGuide() {
               </table>
             </div>
             <p className="text-xs text-text-dim mt-3 leading-relaxed">
-              삼성·하이닉스·현대차만 거래한다면 절차가 단순한 바이낸스가 편하고,
-              OpenAI·SpaceX 같은 비상장 빅테크까지 거래하려면 하이퍼리퀴드가 필요합니다.
+              단, 한국 계정은 바이낸스에서 이 세 종목을 아예 주문할 수 없습니다. 절차만 보면
+              바이낸스가 단순하지만, 한국 거주·한국인증 계정이라면 실제로 체결되는 쪽은{" "}
+              <Link href="/guide/hyperliquid-onramp" className="text-accent-blue hover:underline">
+                하이퍼리퀴드
+              </Link>
+              뿐입니다.
             </p>
           </section>
 
           <section className="mb-8 p-5 rounded-xl bg-accent-amber/5 border border-accent-amber/20">
             <h2 className="text-sm font-bold text-accent-amber mb-2">⚠️ 주의 사항</h2>
             <ul className="text-xs text-text-muted space-y-1 leading-relaxed">
+              <li>
+                • <span className="text-accent-red font-semibold">한국 IP·한국인증 계정은 이 3종목 주문 자체가 차단됨</span>
+              </li>
               <li>• 선물 가격은 KRX 정규장 종가와 차이날 수 있음 (premium / discount)</li>
               <li>• cash-settled라 실제 주식·배당·의결권은 없음 (가격 추종만)</li>
               <li>• 레버리지 사용 시 청산 위험. 초보자는 1x 로 학습 권고</li>

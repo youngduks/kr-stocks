@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-25T02:11:18.265Z",
-  "count": 27,
+  "updated_at": "2026-08-25T03:38:09.254Z",
+  "count": 30,
   "items": [
+    {
+      "title": "이란전쟁·트럼프 지지하는 미국인 역대 최저…30% 겨우 넘어",
+      "link": "https://www.yna.co.kr/view/AKR20260825093600009",
+      "source": "연합뉴스 국제",
+      "ts": 1787626677000,
+      "pub": "Tue, 25 Aug 2026 11:57:57 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 임화섭 기자 = 미국인들의 이란 전쟁 지지율이 2월 말 개전 이래 신저점인 31%로 하락했다고 로이터통신이 24일(현지시간) ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/25/AKR20260825093600009_01_i_P2.jpg"
+    },
+    {
+      "title": "美 '이란 왕따' 작전에 관건은 中…트럼프-시진핑 회담 변수될까",
+      "link": "https://www.yna.co.kr/view/AKR20260825092500009",
+      "source": "연합뉴스 국제",
+      "ts": 1787626654000,
+      "pub": "Tue, 25 Aug 2026 11:57:34 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 곽민서 기자 = 도널드 트럼프 미국 행정부가 24일(현지시간) 이란과 거래하는 제3국까지 제재를 예고한 이른바 '왕따 작전'을...",
+      "image": "https://img.yna.co.kr/photo/etc/xi/2026/05/15/PXI20260515021201009_P2.jpg"
+    },
+    {
+      "title": "미중, 시진핑 방미 앞두고 '1.5트랙 대화'…경제·무역·AI 논의",
+      "link": "https://www.yna.co.kr/view/AKR20260825087100083",
+      "source": "연합뉴스 국제",
+      "ts": 1787624882000,
+      "pub": "Tue, 25 Aug 2026 11:28:02 +0900",
+      "sentiment": "neutral",
+      "desc": "(베이징=연합뉴스) 한종구 특파원 = 시진핑 중국 국가주석이 다음 달 미국을 방문할 것으로 예상되는 가운데 미국과 중국의 전·현직 관료와 전문가...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/25/AKR20260825087100083_02_i_P2.jpg"
+    },
+    {
+      "title": "[영상] 우크라 독립기념일에 로봇·드론 퍼레이드…\"미래 전쟁 모습\"",
+      "link": "https://www.yna.co.kr/view/AKR20260825086400704",
+      "source": "연합뉴스 국제",
+      "ts": 1787624582000,
+      "pub": "Tue, 25 Aug 2026 11:23:02 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 우크라이나가 35주년 독립기념일인 24일(현지시간) 대규모 드론·로봇 전력으로 꾸린 군사 퍼레이드를 선보였습니다.",
+      "image": "https://www.youtube.com/embed/emK_9BqsJK8"
+    },
     {
       "title": "[영상] 헬기서 요격드론 발사…우크라, Mi-8 '샤헤드 사냥꾼' 개조",
       "link": "https://www.yna.co.kr/view/AKR20260825063100704",
@@ -262,16 +302,6 @@
       "sentiment": "neutral",
       "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 드미트리 페스코프 러시아 크렘린궁 대변인은 영국이 우크라이나를 군사적으로 지원하면서 분쟁을 부추긴다고 2...",
       "image": "https://img.yna.co.kr/photo/ap/2025/06/16/PAP20250616196701009_P2.jpg"
-    },
-    {
-      "title": "[영상] 젤렌스키 '드론영웅' 직격…\"전시에 선거? 우크라 분열 쓰나미\"",
-      "link": "https://www.yna.co.kr/view/AKR20260824142100704",
-      "source": "연합뉴스 국제",
-      "ts": 1787559294000,
-      "pub": "Mon, 24 Aug 2026 17:14:54 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 제트엔진을 장착한 샤헤드로 추정되는 드론이 이미 연기를 뿜어내고 있는 건물로 급강하하더니 그대로 폭발합니다.",
-      "image": "https://www.youtube.com/embed/1OMsEX9gVUQ"
     }
   ]
 }

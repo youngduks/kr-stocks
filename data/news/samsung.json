@@ -1,8 +1,28 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-25T02:11:18.267Z",
-  "count": 14,
+  "updated_at": "2026-08-25T03:38:09.255Z",
+  "count": 11,
   "items": [
+    {
+      "title": "주영표 SK하이닉스 부사장 \"미래 메모리는 '쌓는것'\"",
+      "link": "https://www.mt.co.kr/tech/2026/08/25/2026082511282587368",
+      "source": "머니투데이",
+      "ts": 1787627085000,
+      "pub": "Tue, 25 Aug 2026 12:04:45 +0900",
+      "sentiment": "neutral",
+      "desc": "SK하이닉스가 에이전트 AI(인공지능) 시대의 폭증하는 데이터 처리 수요에 대응하려면 미래 메모리는 '위로 쌓는' 방향으로 진화해야 한다고 내다봤다. 다만 뜨거운 GPU(그래픽처리장치) 위에 메모리를 여러 층 쌓을 경우 발열 등 기술적 난제가 커지는 만큼 시스템·인프라",
+      "image": "https://thumb.mt.co.kr/06/2026/08/2026082511282587368_1.jpg"
+    },
+    {
+      "title": "삼전닉스 휘청에 코스피 하락 지속…엔비디아 실적 이벤트 주시",
+      "link": "https://www.yna.co.kr/view/AKR20260825084600008",
+      "source": "연합뉴스 경제",
+      "ts": 1787625131000,
+      "pub": "Tue, 25 Aug 2026 11:32:11 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 황철환 기자 = '인공지능(AI) 대장주' 엔비디아의 실적 발표를 앞두고 글로벌 반도체주 주가가 또다시 짓눌리고 있다.",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/08/17/PRU20260817273701009_P2.jpg"
+    },
     {
       "title": "삼성전자, '역대급 주주환원' 발표에도 이틀 연속 하락한 까닭은",
       "link": "https://www.hankyung.com/article/202608250751i",
@@ -10,14 +30,6 @@
       "ts": 1787620536000,
       "pub": "Tue, 25 Aug 2026 10:15:36 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "110조 역대급 주주환원에도 급락…삼성전자 반등 신호탄은?",
-      "link": "https://www.hankyung.com/article/202608248717i",
-      "source": "한국경제",
-      "ts": 1787619618000,
-      "pub": "Tue, 25 Aug 2026 10:00:18 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "[특징주] 삼전닉스, 이틀째 급락…'24만전자·150만닉스'로",
@@ -38,42 +50,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 김유향 기자 = 25일 코스피는 뉴욕증시 반도체주 하락세 등에 장 초반 2∼3%대 하락세를 보이고 있다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/24/PYH2026082415520001300_P2.jpg"
-    },
-    {
-      "title": "\"이 가격에 AI까지\"…'71만원대' 갤럭시폰 신상 나왔다",
-      "link": "https://www.hankyung.com/article/202608250536g",
-      "source": "한국경제",
-      "ts": 1787618235000,
-      "pub": "Tue, 25 Aug 2026 09:37:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"글로벌 넘버원 기업 맞나\"…삼전닉스 폭락한 이유 있었다",
-      "link": "https://www.hankyung.com/article/2026082504946",
-      "source": "한국경제",
-      "ts": 1787617739000,
-      "pub": "Tue, 25 Aug 2026 09:28:59 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "삼성전자, 사상 최대 주주환원에도 주가 8%↓…그룹주도 약세(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260824036751008",
-      "source": "연합뉴스 경제",
-      "ts": 1787556559000,
-      "pub": "Mon, 24 Aug 2026 16:29:19 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 사상 최대 규모인 최대 110조원의 주주환원 시행방안을 의결한 삼성전자[005930]가 24일 9% 가까이 급...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
-    },
-    {
-      "title": "삼전·닉스 동반 급락에 코스피 3%↓…코스닥은 1%대 올라(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260824119751008",
-      "source": "연합뉴스 경제",
-      "ts": 1787556135000,
-      "pub": "Mon, 24 Aug 2026 16:22:15 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 국내 반도체 '투톱'인 삼성전자와 SK하이닉스 주가가 큰 폭으로 내리면서 24일 코스피가 3% 넘게 하락했다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/24/PYH2026082415500001300_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

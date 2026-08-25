@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-25T05:22:01.985Z",
-  "count": 19,
+  "updated_at": "2026-08-25T06:24:49.201Z",
+  "count": 21,
   "items": [
+    {
+      "title": "\"반도체 다음은 우리\"…체급 달라진 기판株",
+      "link": "https://www.hankyung.com/article/202608249401i",
+      "source": "한국경제",
+      "ts": 1787635482000,
+      "pub": "Tue, 25 Aug 2026 14:24:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "하이닉스 15% 폭등 봤지?…여의도가 콕 찍은 '제2의 대박주' [분석+]",
+      "link": "https://www.hankyung.com/article/2026082513126",
+      "source": "한국경제",
+      "ts": 1787634137000,
+      "pub": "Tue, 25 Aug 2026 14:02:17 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "키움증권, 고액자산가 1년 새 81% 늘어…2030은 SK하이닉스 선호",
+      "link": "https://www.hankyung.com/article/2026082513376",
+      "source": "한국경제",
+      "ts": 1787633299000,
+      "pub": "Tue, 25 Aug 2026 13:48:19 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "대만 검찰, 엔비디아 칩 서버 중국 밀수출 관련자 9명 기소",
       "link": "https://www.yna.co.kr/view/AKR20260825099500009",
@@ -88,16 +112,6 @@
       "sentiment": "negative",
       "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 24일(현지시간) 미국 뉴욕증시는 반도체와 인공지능(AI) 관련 기업 등 기술주 하락세 속에서 혼조로 마감했...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/25/AKR20260825008651072_01_i_P2.jpg"
-    },
-    {
-      "title": "내년 '800조+α' 슈퍼예산…반도체발 국세수입 600조 넘을 듯",
-      "link": "https://www.yna.co.kr/view/AKR20260824145900002",
-      "source": "연합뉴스 경제",
-      "ts": 1787603400000,
-      "pub": "Tue, 25 Aug 2026 05:30:00 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 이세원 이대희 안채원 기자 = 정부가 역대 최대 규모인 800조원이 넘는 내년도 예산안을 내놓을 전망이다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082009700001300_P2.jpg"
     },
     {
       "title": "러, 우크라에 '자율살상' AI 드론 투입…엔비디아 칩 장착 확인",

@@ -1,8 +1,46 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-25T06:24:49.200Z",
-  "count": 12,
+  "updated_at": "2026-08-25T07:34:34.788Z",
+  "count": 15,
   "items": [
+    {
+      "title": "'주주환원 이슈' 삼전닉스, 하루만에 반등…엔비디아 실적이 분기점(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260825084651008",
+      "source": "연합뉴스 경제",
+      "ts": 1787642915000,
+      "pub": "Tue, 25 Aug 2026 16:28:35 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 황철환 기자 = '인공지능(AI) 대장주' 엔비디아의 실적 발표를 앞두고 글로벌 반도체주 주가가 또다시 변동성에 노출됐다.",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/08/17/PRU20260817273701009_P2.jpg"
+    },
+    {
+      "title": "골드만 \"中, 2035년 첨단 칩 부족 34%로 줄어…HBM 자급율↑\"",
+      "link": "https://www.yna.co.kr/view/AKR20260825138700089",
+      "source": "연합뉴스 국제",
+      "ts": 1787642557000,
+      "pub": "Tue, 25 Aug 2026 16:22:37 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 중국이 미중 기술 경쟁 속에 반도체 자립·자강에 집중하면서 향후 10년간 7나노(nm·10억분의 1m) 이...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/25/AKR20260825138700089_01_i_P2.jpg"
+    },
+    {
+      "title": "삼전·닉스, 급락 멈추고 반등…'25만전자·160만닉스' 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260825050551008",
+      "source": "연합뉴스 경제",
+      "ts": 1787640921000,
+      "pub": "Tue, 25 Aug 2026 15:55:21 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 장초반 주가가 크게 내리며 이틀 연속 급락세를 보이던 삼성전자[005930]와 SK하이닉스[000660]가 낙...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
+    },
+    {
+      "title": "삼성 파운드리, 엔비디아 그록3 양산 본격화… 흑자 전환 속도",
+      "link": "https://www.hankyung.com/article/202608251621i",
+      "source": "한국경제",
+      "ts": 1787638676000,
+      "pub": "Tue, 25 Aug 2026 15:17:56 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "코스피, 장중 상승전환해 소폭 강세…삼전닉스도 강보합",
       "link": "https://www.yna.co.kr/view/AKR20260825117800008",
@@ -22,14 +60,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김유향 기자 = 올해 들어 국내 증시에서 반도체주 랠리(주가 상승)가 펼쳐지자 고액자산가의 투자 포트폴리오도 삼성전자[0059...",
       "image": "https://img.yna.co.kr/photo/cms/2026/06/24/43/PCM20260624000043990_P2.jpg"
-    },
-    {
-      "title": "반도체 끝물이라더니 삼전닉스 '초대박'?…파격 전망 나왔다",
-      "link": "https://www.hankyung.com/article/202608250815g",
-      "source": "한국경제",
-      "ts": 1787631540000,
-      "pub": "Tue, 25 Aug 2026 13:19:00 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "삼전닉스 휘청에 코스피 하락 지속…엔비디아 실적 이벤트 주시",

@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-25T14:33:15.487Z",
-  "count": 20,
+  "updated_at": "2026-08-25T15:32:14.364Z",
+  "count": 23,
   "items": [
+    {
+      "title": "캐나다, 美에 200억달러 규모 보복관세…700개 품목에 15~50%",
+      "link": "https://www.yna.co.kr/view/AKR20260826000700072",
+      "source": "연합뉴스 국제",
+      "ts": 1787671072000,
+      "pub": "Wed, 26 Aug 2026 00:17:52 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 임수정 김연숙 특파원 = 캐나다 정부는 25일(현지시간) 약 200억달러 규모의 미국산 제품에 보복관세를 부과한다고 발표했다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/26/AKR20260826000700072_01_i_P2.jpg"
+    },
+    {
+      "title": "트럼프 \"호르무즈 기뢰 모두 제거…또 설치하는 선박 파괴할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260826000400071",
+      "source": "연합뉴스 국제",
+      "ts": 1787670690000,
+      "pub": "Wed, 26 Aug 2026 00:11:30 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령은 25일(현지시간) \"호르무즈 해협의 국제수역에 있던 모든 기뢰가 제거 및 폭파...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/08/11/PRU20260811043001009_P2.jpg"
+    },
+    {
+      "title": "[속보] 캐나다, 9월 8일부터 미국산 700개 품목에 15∼50% 보복관세",
+      "link": "https://www.yna.co.kr/view/AKR20260826000200072",
+      "source": "연합뉴스 국제",
+      "ts": 1787670346000,
+      "pub": "Wed, 26 Aug 2026 00:05:46 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
+    },
+    {
+      "title": "트럼프, '한미훈련축소' SNS 시제 바꿔 재탕…연일 김정은 구애",
+      "link": "https://www.yna.co.kr/view/AKR20260825181700071",
+      "source": "연합뉴스 국제",
+      "ts": 1787669917000,
+      "pub": "Tue, 25 Aug 2026 23:58:37 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령이 9일 전 소셜미디어에 올렸던 한미연합훈련 축소 지시 게시물을 시제만 과거로 조...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/25/AKR20260825181700071_01_i_P2.jpg"
+    },
     {
       "title": "이스라엘, 동예루살렘 팔레스타인 난민기구 시설 철거 개시",
       "link": "https://www.yna.co.kr/view/AKR20260825181100079",
@@ -190,16 +230,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 주종국 기자 = 오는 9월 미·중 정상회담을 앞두고 미국 정부가 중국에 대해 '과잉생산' 관세 7.5%를 부과할 예정이라고 블...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/08/14/PRU20260814155601009_P2.jpg"
-    },
-    {
-      "title": "다카이치, 우크라이나 지원 회의서 \"대러 제재에 힘쓸 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260825033300073",
-      "source": "연합뉴스 국제",
-      "ts": 1787615606000,
-      "pub": "Tue, 25 Aug 2026 08:53:26 +0900",
-      "sentiment": "negative",
-      "desc": "(도쿄=연합뉴스) 이도연 특파원 = 다카이치 사나에 일본 총리가 우크라이나 관련 정상회의에서 러시아 제재에 대한 의지를 표명했다고 NHK 등이 ...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/08/15/PRU20260815171401009_P2.jpg"
     }
   ]
 }

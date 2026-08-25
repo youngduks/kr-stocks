@@ -1,15 +1,25 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-25T00:34:53.016Z",
-  "count": 20,
+  "updated_at": "2026-08-25T02:11:18.267Z",
+  "count": 16,
   "items": [
     {
-      "title": "[속보] SK하이닉스 잠정합의안 노조 투표 부결…반대 50.1%",
-      "link": "https://www.hankyung.com/article/2026082504367",
+      "title": "반도체 호황은 어디까지 번지는가",
+      "link": "https://www.hankyung.com/article/202608214792i",
       "source": "한국경제",
-      "ts": 1787616801000,
-      "pub": "Tue, 25 Aug 2026 09:13:21 +0900",
+      "ts": 1787620676000,
+      "pub": "Tue, 25 Aug 2026 10:17:56 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "美반도체 찬바람·삼전닉스 약세 지속…코스피 2~3%대 하락(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260825039051008",
+      "source": "연합뉴스 경제",
+      "ts": 1787618349000,
+      "pub": "Tue, 25 Aug 2026 09:39:09 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 25일 코스피는 뉴욕증시 반도체주 하락세 등에 장 초반 2∼3%대 하락세를 보이고 있다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/24/PYH2026082415520001300_P2.jpg"
     },
     {
       "title": "코스피, 美반도체 찬바람에 장초반 2%대 하락",
@@ -20,22 +30,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김유향 기자 = 25일 코스피는 뉴욕증시 반도체주 하락세 등에 장 초반 2%대 하락세를 보이고 있다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/25/PYH2026082502760001300_P2.jpg"
-    },
-    {
-      "title": "엔비디아 2분기 실적에서 확인해야 할 5가지 체크 포인트",
-      "link": "https://www.hankyung.com/article/202608250234i",
-      "source": "한국경제",
-      "ts": 1787614519000,
-      "pub": "Tue, 25 Aug 2026 08:35:19 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체만 내리는 시장…나일스 \"9월 조심\" vs 톰 리 \"조정에도 팔지 마\" [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202608250071i",
-      "source": "한국경제",
-      "ts": 1787612738000,
-      "pub": "Tue, 25 Aug 2026 08:05:38 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "엔비디아, '삼성생산' 추론가속기 그록3 양산 돌입…고객사 확보",
@@ -86,36 +80,6 @@
       "sentiment": "neutral",
       "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 러시아가 우크라이나에서 인간의 개입 없이 표적을 선택해 타격하는 인공지능(AI) 자율 살상 드론을 투...",
       "image": "https://img.yna.co.kr/photo/etc/af/2026/08/25/PAF20260825019601009_P2.jpg"
-    },
-    {
-      "title": "호남권 반도체 클러스터 범시민추진위 출범",
-      "link": "https://www.yna.co.kr/view/AKR20260824123400054",
-      "source": "연합뉴스 경제",
-      "ts": 1787554168000,
-      "pub": "Mon, 24 Aug 2026 15:49:28 +0900",
-      "sentiment": "neutral",
-      "desc": "(전남광주=연합뉴스) 전승현 기자 = 광주상공회의소와 한국노총, 민주노총 등 각계 대표 200여명이 참여하는 호남권반도체 클러스터 범시민추진위원...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/24/PYH2026082417290005400_P2.jpg"
-    },
-    {
-      "title": "\"엔비디아, 퍼플렉시티 추가 지분투자 논의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260824116400009",
-      "source": "연합뉴스 국제",
-      "ts": 1787553450000,
-      "pub": "Mon, 24 Aug 2026 15:37:30 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 엔비디아가 인공지능(AI) 검색 스타트업 퍼플렉시티의 투자 라운드에 참여하는 방안을 논의하고 있다고 IT 전문...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/08/24/PRU20260824188001009_P2.jpg"
-    },
-    {
-      "title": "1분기 임금근로 일자리 29만개↑…20대 내리막·반도체 5천개↑",
-      "link": "https://www.yna.co.kr/view/AKR20260824057400002",
-      "source": "연합뉴스 경제",
-      "ts": 1787540402000,
-      "pub": "Mon, 24 Aug 2026 12:00:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 김수현 기자 = 올해 1분기 임금 근로 일자리가 60대와 30대를 중심으로 30만개 가까이 증가했다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/05/19/PYH2026051914680001300_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

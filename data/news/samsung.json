@@ -1,31 +1,59 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-25T00:34:53.015Z",
-  "count": 13,
+  "updated_at": "2026-08-25T02:11:18.267Z",
+  "count": 14,
   "items": [
     {
-      "title": "코스피, 2%대 하락해 6500선으로 밀려…삼전닉스↓",
-      "link": "https://www.hankyung.com/article/2026082502756",
+      "title": "삼성전자, '역대급 주주환원' 발표에도 이틀 연속 하락한 까닭은",
+      "link": "https://www.hankyung.com/article/202608250751i",
       "source": "한국경제",
-      "ts": 1787616528000,
-      "pub": "Tue, 25 Aug 2026 09:08:48 +0900",
+      "ts": 1787620536000,
+      "pub": "Tue, 25 Aug 2026 10:15:36 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "초대형 호재에…1% 초고수들, 삼전닉스 팔고 '이 회사' 샀다",
-      "link": "https://www.hankyung.com/article/202608250317i",
+      "title": "110조 역대급 주주환원에도 급락…삼성전자 반등 신호탄은?",
+      "link": "https://www.hankyung.com/article/202608248717i",
       "source": "한국경제",
-      "ts": 1787615722000,
-      "pub": "Tue, 25 Aug 2026 08:55:22 +0900",
+      "ts": 1787619618000,
+      "pub": "Tue, 25 Aug 2026 10:00:18 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[특징주] 삼전닉스, 이틀째 급락…'24만전자·150만닉스'로",
+      "link": "https://www.yna.co.kr/view/AKR20260825050500008",
+      "source": "연합뉴스 경제",
+      "ts": 1787618442000,
+      "pub": "Tue, 25 Aug 2026 09:40:42 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 25일 장 초반 각각 4%와 6%대의 낙폭을 보인다.",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/24/43/PCM20260624000043990_P2.jpg"
+    },
+    {
+      "title": "美반도체 찬바람·삼전닉스 약세 지속…코스피 2~3%대 하락(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260825039051008",
+      "source": "연합뉴스 경제",
+      "ts": 1787618349000,
+      "pub": "Tue, 25 Aug 2026 09:39:09 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 25일 코스피는 뉴욕증시 반도체주 하락세 등에 장 초반 2∼3%대 하락세를 보이고 있다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/24/PYH2026082415520001300_P2.jpg"
+    },
+    {
+      "title": "\"이 가격에 AI까지\"…'71만원대' 갤럭시폰 신상 나왔다",
+      "link": "https://www.hankyung.com/article/202608250536g",
+      "source": "한국경제",
+      "ts": 1787618235000,
+      "pub": "Tue, 25 Aug 2026 09:37:15 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "삼성전자 이익 복병 '건설중인 자산'…10년 반 사이 5.5배 늘었다",
-      "link": "https://www.hankyung.com/article/202608215553i",
+      "title": "\"글로벌 넘버원 기업 맞나\"…삼전닉스 폭락한 이유 있었다",
+      "link": "https://www.hankyung.com/article/2026082504946",
       "source": "한국경제",
-      "ts": 1787613410000,
-      "pub": "Tue, 25 Aug 2026 08:16:50 +0900",
-      "sentiment": "neutral"
+      "ts": 1787617739000,
+      "pub": "Tue, 25 Aug 2026 09:28:59 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "삼성전자, 사상 최대 주주환원에도 주가 8%↓…그룹주도 약세(종합)",
@@ -46,26 +74,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 김유향 기자 = 국내 반도체 '투톱'인 삼성전자와 SK하이닉스 주가가 큰 폭으로 내리면서 24일 코스피가 3% 넘게 하락했다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/24/PYH2026082415500001300_P2.jpg"
-    },
-    {
-      "title": "삼전·닉스 동반 하락에 코스피 3%↓…코스닥은 1%대 상승",
-      "link": "https://www.yna.co.kr/view/AKR20260824119700008",
-      "source": "연합뉴스 경제",
-      "ts": 1787553371000,
-      "pub": "Mon, 24 Aug 2026 15:36:11 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 24일 코스피가 3% 넘게 하락해 6,700선을 내줬다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/24/PYH2026082415500001300_P2.jpg"
-    },
-    {
-      "title": "금산법 10% 규제, '배당+자사주' 삼전 주주환원 조합 변수되나(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260824023151008",
-      "source": "연합뉴스 경제",
-      "ts": 1787538807000,
-      "pub": "Mon, 24 Aug 2026 11:33:27 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 황철환 김유아 기자 = 삼성전자[005930]가 90조∼110조원 규모로 예상되는 2026년 주주환원 시행 방안을 의결한 데 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082113660001300_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

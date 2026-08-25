@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-24T23:12:45.177Z",
-  "count": 11,
+  "updated_at": "2026-08-25T00:34:53.015Z",
+  "count": 13,
   "items": [
+    {
+      "title": "코스피, 2%대 하락해 6500선으로 밀려…삼전닉스↓",
+      "link": "https://www.hankyung.com/article/2026082502756",
+      "source": "한국경제",
+      "ts": 1787616528000,
+      "pub": "Tue, 25 Aug 2026 09:08:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "초대형 호재에…1% 초고수들, 삼전닉스 팔고 '이 회사' 샀다",
+      "link": "https://www.hankyung.com/article/202608250317i",
+      "source": "한국경제",
+      "ts": 1787615722000,
+      "pub": "Tue, 25 Aug 2026 08:55:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 이익 복병 '건설중인 자산'…10년 반 사이 5.5배 늘었다",
+      "link": "https://www.hankyung.com/article/202608215553i",
+      "source": "한국경제",
+      "ts": 1787613410000,
+      "pub": "Tue, 25 Aug 2026 08:16:50 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성전자, 사상 최대 주주환원에도 주가 8%↓…그룹주도 약세(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260824036751008",
@@ -42,16 +66,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 황철환 김유아 기자 = 삼성전자[005930]가 90조∼110조원 규모로 예상되는 2026년 주주환원 시행 방안을 의결한 데 ...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082113660001300_P2.jpg"
-    },
-    {
-      "title": "삼전 급락이어 하닉도 약세…코스피, 2%대로 낙폭 확대",
-      "link": "https://www.yna.co.kr/view/AKR20260824071200008",
-      "source": "연합뉴스 경제",
-      "ts": 1787538274000,
-      "pub": "Mon, 24 Aug 2026 11:24:34 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 지난주 삼전닉스의 주주환원 기대로 연이틀 상승했던 코스피가 24일 이들 반도체 투톱의 약세에 하락세를 보이고 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/24/PYH2026082401750001300_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

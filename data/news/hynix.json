@@ -1,8 +1,34 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-24T23:12:45.178Z",
-  "count": 19,
+  "updated_at": "2026-08-25T00:34:53.016Z",
+  "count": 20,
   "items": [
+    {
+      "title": "[속보] SK하이닉스 잠정합의안 노조 투표 부결…반대 50.1%",
+      "link": "https://www.hankyung.com/article/2026082504367",
+      "source": "한국경제",
+      "ts": 1787616801000,
+      "pub": "Tue, 25 Aug 2026 09:13:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, 美반도체 찬바람에 장초반 2%대 하락",
+      "link": "https://www.yna.co.kr/view/AKR20260825039000008",
+      "source": "연합뉴스 경제",
+      "ts": 1787616319000,
+      "pub": "Tue, 25 Aug 2026 09:05:19 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 25일 코스피는 뉴욕증시 반도체주 하락세 등에 장 초반 2%대 하락세를 보이고 있다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/25/PYH2026082502760001300_P2.jpg"
+    },
+    {
+      "title": "엔비디아 2분기 실적에서 확인해야 할 5가지 체크 포인트",
+      "link": "https://www.hankyung.com/article/202608250234i",
+      "source": "한국경제",
+      "ts": 1787614519000,
+      "pub": "Tue, 25 Aug 2026 08:35:19 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "반도체만 내리는 시장…나일스 \"9월 조심\" vs 톰 리 \"조정에도 팔지 마\" [김현석의 월스트리트나우]",
       "link": "https://www.hankyung.com/article/202608250071i",
@@ -32,14 +58,6 @@
       "image": "https://img.yna.co.kr/photo/reuters/2026/08/24/PRU20260824188101009_P2.jpg"
     },
     {
-      "title": "유가·국채 금리 하락에도 반도체株 약세…나스닥·S&P 500↓ [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026082500336",
-      "source": "한국경제",
-      "ts": 1787609650000,
-      "pub": "Tue, 25 Aug 2026 07:14:10 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "뉴욕증시, 반도체·AI주 약세에 혼조 마감…엔비디아 7일째 하락(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260825008651072",
       "source": "연합뉴스 국제",
@@ -48,14 +66,6 @@
       "sentiment": "negative",
       "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 24일(현지시간) 미국 뉴욕증시는 반도체와 인공지능(AI) 관련 기업 등 기술주 하락세 속에서 혼조로 마감했...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/25/AKR20260825008651072_01_i_P2.jpg"
-    },
-    {
-      "title": "반도체株 쏠렸던 돈 어디 갔나 봤더니…한 달 새 68% 폭등 [종목+]",
-      "link": "https://www.hankyung.com/article/2026082492606",
-      "source": "한국경제",
-      "ts": 1787607004000,
-      "pub": "Tue, 25 Aug 2026 06:30:04 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "내년 '800조+α' 슈퍼예산…반도체발 국세수입 600조 넘을 듯",

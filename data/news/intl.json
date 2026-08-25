@@ -1,8 +1,36 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-24T23:12:45.176Z",
+  "updated_at": "2026-08-25T00:34:53.014Z",
   "count": 31,
   "items": [
+    {
+      "title": "블룸버그 \"미, 중국에 과잉생산 관세 7.5% 부과 예정\"",
+      "link": "https://www.yna.co.kr/view/AKR20260825029000009",
+      "source": "연합뉴스 국제",
+      "ts": 1787616952000,
+      "pub": "Tue, 25 Aug 2026 09:15:52 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 주종국 기자 = 오는 9월 미·중 정상회담을 앞두고 미국 정부가 중국에 대해 '과잉생산' 관세 7.5%를 부과할 예정이라고 블...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/08/14/PRU20260814155601009_P2.jpg"
+    },
+    {
+      "title": "다카이치, 우크라이나 지원 회의서 \"대러 제재에 힘쓸 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260825033300073",
+      "source": "연합뉴스 국제",
+      "ts": 1787615606000,
+      "pub": "Tue, 25 Aug 2026 08:53:26 +0900",
+      "sentiment": "negative",
+      "desc": "(도쿄=연합뉴스) 이도연 특파원 = 다카이치 사나에 일본 총리가 우크라이나 관련 정상회의에서 러시아 제재에 대한 의지를 표명했다고 NHK 등이 ...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/08/15/PRU20260815171401009_P2.jpg"
+    },
+    {
+      "title": "[외신 에스프레소] 美·캐나다 무역전쟁 재점화…50% 관세에 맞불 예고",
+      "link": "https://www.hankyung.com/article/202608250208i",
+      "source": "한국경제",
+      "ts": 1787613649000,
+      "pub": "Tue, 25 Aug 2026 08:20:49 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 따라 하기?…콜롬비아 \"미등록 이주민 단속·추방\"",
       "link": "https://www.yna.co.kr/view/AKR20260825016800087",
@@ -11,15 +39,7 @@
       "pub": "Tue, 25 Aug 2026 07:47:37 +0900",
       "sentiment": "neutral",
       "desc": "(멕시코시티=연합뉴스) 송광호 특파원 = 이달 취임한 아벨라르도 데 라 에스프리에야 콜롬비아 신임 대통령이 미등록 이주민에 대한 대대적인 단속과...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/25/AKR20260825016800087_01_i_P2.jpg"
-    },
-    {
-      "title": "\"트럼프 행정부, 망명 신청자 최대 20만명 비자 일괄 취소 준비\"",
-      "link": "https://www.hankyung.com/article/2026082500627",
-      "source": "한국경제",
-      "ts": 1787611440000,
-      "pub": "Tue, 25 Aug 2026 07:44:00 +0900",
-      "sentiment": "neutral"
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/08/25/PAF20260825055001009_P2.jpg"
     },
     {
       "title": "미·캐나다 무역전쟁 악화일로…트럼프 \"내년 車관세 50%로\"(종합)",
@@ -130,14 +150,6 @@
       "sentiment": "neutral",
       "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 우크라이나는 35주년 독립기념일인 24일(현지시간) 대규모 드론·로봇 전력으로 짜여진 퍼레이드를 공개하며...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/25/AKR20260825001800108_01_i_P2.jpg"
-    },
-    {
-      "title": "[포토] 우크라 독립기념일 맞아…獨, 드론 방어망 조형물",
-      "link": "https://www.hankyung.com/article/2026082498451",
-      "source": "한국경제",
-      "ts": 1787588375000,
-      "pub": "Tue, 25 Aug 2026 01:19:35 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "이스라엘 \"하마스 풍선·연 공격 재개\"…하마스 \"동심까지 적대\"",
@@ -298,16 +310,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 이신영 기자 = 러시아가 우크라이나 드론의 GPS 시스템을 교란해 동유럽의 북대서양조약기구(NATO·나토) 회원국에 대한 폭격...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/24/AKR20260824116700009_01_i_P2.jpg"
-    },
-    {
-      "title": "해외직구 주문 정보 관세청에 바로 전달…통관부호 일회용 인증",
-      "link": "https://www.yna.co.kr/view/AKR20260824063700002",
-      "source": "연합뉴스 경제",
-      "ts": 1787536825000,
-      "pub": "Mon, 24 Aug 2026 11:00:25 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 안채원 기자 = 쿠팡·아마존·'알테무' 등에서 해외직구하면 주문정보가 바로 관세청에 통보된다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2025/11/20/PYH2025112008970001300_P2.jpg"
     }
   ]
 }

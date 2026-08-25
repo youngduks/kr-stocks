@@ -1,8 +1,44 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-25T08:28:28.887Z",
-  "count": 12,
+  "updated_at": "2026-08-25T09:23:13.036Z",
+  "count": 16,
   "items": [
+    {
+      "title": "\"친구 따라 아이폰\" 10대 여심 '굳건'…20대는 '갤럭시'로 변심",
+      "link": "https://www.hankyung.com/article/202608252301g",
+      "source": "한국경제",
+      "ts": 1787648935000,
+      "pub": "Tue, 25 Aug 2026 18:08:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "골드만, \"CXMT, 중국 HBM 수요 40% 충족할 것\"",
+      "link": "https://www.hankyung.com/article/202608251948i",
+      "source": "한국경제",
+      "ts": 1787647940000,
+      "pub": "Tue, 25 Aug 2026 17:52:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "HBM도, 파운드리도 가격 오른다..삼성전자 반도체 '쌍끌이'",
+      "link": "https://www.mt.co.kr/industry/2026/08/25/2026082515361791363",
+      "source": "머니투데이",
+      "ts": 1787647800000,
+      "pub": "Tue, 25 Aug 2026 17:50:00 +0900",
+      "sentiment": "neutral",
+      "desc": "HBM 내년 평균 판매가격 44% 상승 전망...4나노 공정 엔비디아 '그록3 LPX' 본격 양산 삼성전자가 HBM(고대역폭메모리)과 파운드리(반도체 위탁생산) 가격 상승이라는 겹호재를 맞았다. HBM4 출하 확대가 메모리 반도체(이하 메모리)의 수익성을 끌어 올리는 ",
+      "image": "https://thumb.mt.co.kr/06/2026/08/2026082515361791363_1.jpg"
+    },
+    {
+      "title": "오우라 링 국내 상륙…삼성 갤럭시 링과 맞대결",
+      "link": "https://www.yna.co.kr/view/AKR20260825154800017",
+      "source": "연합뉴스 경제",
+      "ts": 1787646293000,
+      "pub": "Tue, 25 Aug 2026 17:24:53 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 한상용 기자 = 스마트 링 업체 오우라(Oura)가 25일 신제품 '오우라 링 5'를 국내에 출시하며 한국 시장에 공식 진출했...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/25/PYH2026082512480001300_P2.jpg"
+    },
     {
       "title": "'주주환원 이슈' 삼전닉스, 하루만에 반등…엔비디아 실적이 분기점(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260825084651008",

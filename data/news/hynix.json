@@ -1,8 +1,38 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-26T18:45:49.295Z",
-  "count": 14,
+  "updated_at": "2026-08-26T21:25:20.380Z",
+  "count": 16,
   "items": [
+    {
+      "title": "엔비디아 실적 앞뒀던 뉴욕증시 약보합 마감…나스닥 0.08%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260827006851072",
+      "source": "연합뉴스 국제",
+      "ts": 1787778566000,
+      "pub": "Thu, 27 Aug 2026 06:09:26 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 인공지능(AI) 대표주 엔비디아 실적 발표를 앞뒀던 뉴욕증시가 26일(현지시간) 약보합권에서 마감했다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/27/AKR20260827006851072_01_i_P2.jpg"
+    },
+    {
+      "title": "엔비디아, 분기 매출 962억달러…13분기 연속 기록경신",
+      "link": "https://www.yna.co.kr/view/AKR20260827007400091",
+      "source": "연합뉴스 국제",
+      "ts": 1787776125000,
+      "pub": "Thu, 27 Aug 2026 05:28:45 +0900",
+      "sentiment": "neutral",
+      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 세계 시가총액 1위 기업 엔비디아는 회계연도 2분기(5∼7월) 매출이 962억2천만 달러를 기록해 1...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/07/28/PAF20260728132101009_P2.jpg"
+    },
+    {
+      "title": "뉴욕증시, 엔비디아 실적 앞두고 약보합 마감…나스닥 0.08%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260827006800072",
+      "source": "연합뉴스 국제",
+      "ts": 1787775442000,
+      "pub": "Thu, 27 Aug 2026 05:17:22 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 뉴욕증시는 26일(현지시간) 엔비디아 실적을 대기하면서 약보합권에서 마감했다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/27/AKR20260827006800072_01_i_P2.jpg"
+    },
     {
       "title": "반도체 야심 드러낸 오픈AI…엔비디아 고객에서 경쟁사로[박신영의 개장전 요것만]",
       "link": "https://www.hankyung.com/article/202608265254i",
@@ -48,16 +78,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 정주호 기자 = 중국 양쯔메모리(YMTC)가 내년 말까지 삼성전자와 SK하이닉스를 제치고 세계 1위 낸드 플래시 생산업체로 올...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/26/AKR20260826118700009_01_i_P2.jpg"
-    },
-    {
-      "title": "코스피, 엔비디아 실적발표 경계감에 장중 보합권 유지",
-      "link": "https://www.yna.co.kr/view/AKR20260826075300008",
-      "source": "연합뉴스 경제",
-      "ts": 1787710189000,
-      "pub": "Wed, 26 Aug 2026 11:09:49 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 26일 코스피는 장중 보합권을 유지하고 있다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082602730001300_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

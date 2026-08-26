@@ -1,8 +1,26 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-25T23:15:20.734Z",
+  "updated_at": "2026-08-26T00:35:43.460Z",
   "count": 26,
   "items": [
+    {
+      "title": "삼성전자, '연산도 하는 메모리' 첫 공개…온디바이스 겨냥",
+      "link": "https://www.yna.co.kr/view/AKR20260826030600091",
+      "source": "연합뉴스 국제",
+      "ts": 1787703340000,
+      "pub": "Wed, 26 Aug 2026 09:15:40 +0900",
+      "sentiment": "neutral",
+      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 삼성전자가 모바일 등 온디바이스 인공지능(기기내장형 AI) 기기를 겨냥해 메모리 내부에서 연산까지 수...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/26/AKR20260826030600091_01_i_P2.jpg"
+    },
+    {
+      "title": "한미약품·신풍제약 하루 만에 팔았다…초고수는 SK하이닉스 '사자'",
+      "link": "https://www.hankyung.com/article/202608262829i",
+      "source": "한국경제",
+      "ts": 1787702416000,
+      "pub": "Wed, 26 Aug 2026 09:00:16 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "엔비디아에 쏠린 눈…\"실적 자체보다 컨퍼런스콜 메시지\"",
       "link": "https://www.yna.co.kr/view/AKR20260826019800009",
@@ -12,6 +30,30 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 정주호 기자 = 엔비디아가 26일(현지시간) 2분기(5∼7월) 실적을 발표하는 가운데 시장의 관심은 실적보다 컨퍼런스콜에서 나...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/08/25/PRU20260825161301009_P2.jpg"
+    },
+    {
+      "title": "\"티엘비, 엔비디아 CPU 바로 옆 자리 차지한다…목표가 5.3만원\"-IBK",
+      "link": "https://www.hankyung.com/article/2026082627676",
+      "source": "한국경제",
+      "ts": 1787698862000,
+      "pub": "Wed, 26 Aug 2026 08:01:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 사이클 내년에 끝난다더니…놀라운 전망 나왔다",
+      "link": "https://www.hankyung.com/article/202608252281i",
+      "source": "한국경제",
+      "ts": 1787698810000,
+      "pub": "Wed, 26 Aug 2026 08:00:10 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "오늘 저녁부터 '슈퍼데이'…엔비디아 외에 챙겨야 할 곳은?",
+      "link": "https://www.hankyung.com/article/202608251391i",
+      "source": "한국경제",
+      "ts": 1787698806000,
+      "pub": "Wed, 26 Aug 2026 08:00:06 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "[마켓뷰] 美반도체 반등에 코스피 탄력받나…D-1 엔비디아 실적 주시",
@@ -29,22 +71,6 @@
       "source": "한국경제",
       "ts": 1787698057000,
       "pub": "Wed, 26 Aug 2026 07:47:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "유가·금리 하락에 3대지수 상승 마감…반도체주 강세 [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026082626966",
-      "source": "한국경제",
-      "ts": 1787696201000,
-      "pub": "Wed, 26 Aug 2026 07:16:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성, PC·스마트폰 D램에도 AI 연산 심는다…LPDDR5X-PIM 공개",
-      "link": "https://www.hankyung.com/article/202608262636i",
-      "source": "한국경제",
-      "ts": 1787694197000,
-      "pub": "Wed, 26 Aug 2026 06:43:17 +0900",
       "sentiment": "neutral"
     },
     {
@@ -76,14 +102,6 @@
       "sentiment": "neutral",
       "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 뉴욕증시 3대 지수가 25일(현지시간) 반도체주 반등과 미 국채금리 하락세 속에 일제히 상승했다.",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/26/AKR20260826007500072_01_i_P2.jpg"
-    },
-    {
-      "title": "사상 최대 실적 전망에도 7일째 하락…'엔비디아 쇼크' 오나 [분석+]",
-      "link": "https://www.hankyung.com/article/2026082520596",
-      "source": "한국경제",
-      "ts": 1787662803000,
-      "pub": "Tue, 25 Aug 2026 22:00:03 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "일본·대만, '실리콘 아일랜드' 규슈서 반도체 협력 확대",
@@ -154,26 +172,6 @@
       "sentiment": "neutral",
       "desc": "(상하이=연합뉴스) 차병섭 특파원 = 중국이 미중 기술 경쟁 속에 반도체 자립·자강에 집중하면서 향후 10년간 7나노(nm·10억분의 1m) 이...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/25/AKR20260825138700089_01_i_P2.jpg"
-    },
-    {
-      "title": "대만 검찰, 엔비디아 칩 서버 중국 밀수출 관련자 9명 기소",
-      "link": "https://www.yna.co.kr/view/AKR20260825099500009",
-      "source": "연합뉴스 국제",
-      "ts": 1787633239000,
-      "pub": "Tue, 25 Aug 2026 13:47:19 +0900",
-      "sentiment": "negative",
-      "desc": "(타이베이=연합뉴스) 김철문 통신원 = 대만 검찰이 대(對)중국 수출통제 대상인 엔비디아 첨단 인공지능(AI) 칩 탑재 서버를 중국으로 불법 반...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/25/AKR20260825099500009_01_i_P2.jpg"
-    },
-    {
-      "title": "삼전닉스 휘청에 코스피 하락 지속…엔비디아 실적 이벤트 주시",
-      "link": "https://www.yna.co.kr/view/AKR20260825084600008",
-      "source": "연합뉴스 경제",
-      "ts": 1787625131000,
-      "pub": "Tue, 25 Aug 2026 11:32:11 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 황철환 기자 = '인공지능(AI) 대장주' 엔비디아의 실적 발표를 앞두고 글로벌 반도체주 주가가 또다시 짓눌리고 있다.",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/08/17/PRU20260817273701009_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

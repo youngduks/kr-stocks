@@ -1,8 +1,28 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-26T10:23:04.572Z",
-  "count": 21,
+  "updated_at": "2026-08-26T11:18:32.984Z",
+  "count": 20,
   "items": [
+    {
+      "title": "네타냐후 \"이란 야만인과 합의 불가…트럼프에 봉쇄강화 촉구\"",
+      "link": "https://www.yna.co.kr/view/AKR20260826178900079",
+      "source": "연합뉴스 국제",
+      "ts": 1787740640000,
+      "pub": "Wed, 26 Aug 2026 19:37:20 +0900",
+      "sentiment": "neutral",
+      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 베냐민 네타냐후 이스라엘 총리가 지난달 도널드 트럼프 미국 대통령과 회담에서 외교 및 군사적 행동, 그리고...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/26/AKR20260826178900079_01_i_P2.jpg"
+    },
+    {
+      "title": "박현주 \"트럼프 흉악…미국 참 얌전, 탄핵 얘기 안 해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260826176500002",
+      "source": "연합뉴스 경제",
+      "ts": 1787739646000,
+      "pub": "Wed, 26 Aug 2026 19:20:46 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 박수현 기자 = 박현주 미래에셋그룹 회장 겸 글로벌전략가(GSO)는 26일 \"트럼프 대통령은 참 이해가 안 되는 양반\"이라고 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/26/AKR20260826176500002_01_i_P2.jpg"
+    },
     {
       "title": "젤렌스키, 스타링크로 우크라 도운 머스크에 훈장",
       "link": "https://www.yna.co.kr/view/AKR20260826174800108",
@@ -32,22 +52,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 이신영 기자 = 도널드 트럼프 미국 행정부가 이민 심사를 담당해야 할 인력들을 부정선거 색출에 대거 투입하고 있다고 워싱턴포스...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/26/AKR20260826170000009_01_i_P2.jpg"
-    },
-    {
-      "title": "눈에는 눈…캐나다, 美 경합주 겨냥 50% '맞불 관세'",
-      "link": "https://www.hankyung.com/article/2026082648141",
-      "source": "한국경제",
-      "ts": 1787735208000,
-      "pub": "Wed, 26 Aug 2026 18:06:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "佛 \"유럽 무기만 사라\" 우크라 압박",
-      "link": "https://www.hankyung.com/article/2026082648121",
-      "source": "한국경제",
-      "ts": 1787734945000,
-      "pub": "Wed, 26 Aug 2026 18:02:25 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "中전문가 \"미·캐나다 관세전쟁에 중국 반사이익\" 관측(종합)",
@@ -198,16 +202,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 존 랫클리프 미국 중앙정보국(CIA) 국장이 러시아 수도 모스크바를 방문한 것으로 25일(현지시간) 알려졌...",
       "image": "https://img.yna.co.kr/photo/ap/2026/07/16/PAP20260716036301009_P2.jpg"
-    },
-    {
-      "title": "\"美중간선거, 트럼프 지지율 낮지만 자금·시스템은 공화 유리\"",
-      "link": "https://www.yna.co.kr/view/AKR20260826006800071",
-      "source": "연합뉴스 국제",
-      "ts": 1787690191000,
-      "pub": "Wed, 26 Aug 2026 05:36:31 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 11월 미국 중간선거를 앞두고 도널드 트럼프 대통령의 지지율이 낮기는 하지만 자금이나 선거 시스템 면에서는...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/26/AKR20260826006800071_01_i_P2.jpg"
     }
   ]
 }

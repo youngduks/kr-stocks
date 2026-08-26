@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-26T02:17:34.136Z",
+  "updated_at": "2026-08-26T03:43:19.370Z",
   "count": 11,
   "items": [
+    {
+      "title": "삼전·닉스 자사주 매입에…코스피 장중 6800선 회복",
+      "link": "https://www.hankyung.com/article/2026082637376",
+      "source": "한국경제",
+      "ts": 1787711592000,
+      "pub": "Wed, 26 Aug 2026 11:33:12 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "오픈AI, 자체 칩 연내 투입…\"삼성 HBM4 탑재 추정\"",
       "link": "https://www.yna.co.kr/view/AKR20260826049700009",
@@ -42,16 +50,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 정회인 기자 = NH투자증권은 26일 삼성전자와 SK하이닉스의 대규모 주주환원이 원/달러 환율을 추가로 끌어내릴 수 있다며 환...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082107000001300_P2.jpg"
-    },
-    {
-      "title": "오우라 링 국내 상륙…삼성 갤럭시 링과 맞대결",
-      "link": "https://www.yna.co.kr/view/AKR20260825154800017",
-      "source": "연합뉴스 경제",
-      "ts": 1787646293000,
-      "pub": "Tue, 25 Aug 2026 17:24:53 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 한상용 기자 = 스마트 링 업체 오우라(Oura)가 25일 신제품 '오우라 링 5'를 국내에 출시하며 한국 시장에 공식 진출했...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/25/PYH2026082512480001300_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

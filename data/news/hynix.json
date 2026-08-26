@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-26T02:17:34.137Z",
-  "count": 23,
+  "updated_at": "2026-08-26T03:43:19.370Z",
+  "count": 20,
   "items": [
+    {
+      "title": "\"한국 반도체, 이게 시급하다\"…애플·구글·MS의 경고",
+      "link": "https://www.hankyung.com/article/202608263685i",
+      "source": "한국경제",
+      "ts": 1787711725000,
+      "pub": "Wed, 26 Aug 2026 11:35:25 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "코스피, 엔비디아 실적발표 경계감에 장중 보합권 유지",
       "link": "https://www.yna.co.kr/view/AKR20260826075300008",
@@ -12,6 +20,14 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김유향 기자 = 26일 코스피는 장중 보합권을 유지하고 있다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082602730001300_P2.jpg"
+    },
+    {
+      "title": "반도체 팔고 원전·전력주 담았다…초고수, 두산에너빌리티 집중매수",
+      "link": "https://www.hankyung.com/article/202608263441i",
+      "source": "한국경제",
+      "ts": 1787709608000,
+      "pub": "Wed, 26 Aug 2026 11:00:08 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "반도체발 7월 대기업 수출 90.7%↑…중견·중소도 5개월째 증가",
@@ -24,6 +40,14 @@
       "image": "https://img.yna.co.kr/photo/cms/2026/08/02/01/PCM20260802000001990_P2.jpg"
     },
     {
+      "title": "우리은행·기보, 반도체·AI 기업에 1조 공급",
+      "link": "https://www.hankyung.com/article/202608263348i",
+      "source": "한국경제",
+      "ts": 1787707264000,
+      "pub": "Wed, 26 Aug 2026 10:21:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
       "title": "오픈AI, 자체 칩 연내 투입…\"삼성 HBM4 탑재 추정\"",
       "link": "https://www.yna.co.kr/view/AKR20260826049700009",
       "source": "연합뉴스 국제",
@@ -32,14 +56,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 정주호 기자 = 오픈AI는 자체 개발한 AI 칩 '할라페뇨(Jalapeno)'가 성능 테스트에서 엔비디아의 현재 제품군을 앞섰...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/26/AKR20260826049700009_09_i_P2.jpg"
-    },
-    {
-      "title": "엔비디아, 끊없는 GPU 영토 확장[박신영의 월가 아나토미]",
-      "link": "https://www.hankyung.com/article/202608263222i",
-      "source": "한국경제",
-      "ts": 1787706613000,
-      "pub": "Wed, 26 Aug 2026 10:10:13 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "삼성전자, '연산도 하는 메모리' 첫 공개…온디바이스 겨냥",
@@ -52,14 +68,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/26/AKR20260826030600091_01_i_P2.jpg"
     },
     {
-      "title": "한미약품·신풍제약 하루 만에 팔았다…초고수는 SK하이닉스 '사자'",
-      "link": "https://www.hankyung.com/article/202608262829i",
-      "source": "한국경제",
-      "ts": 1787702416000,
-      "pub": "Wed, 26 Aug 2026 09:00:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "엔비디아에 쏠린 눈…\"실적 자체보다 컨퍼런스콜 메시지\"",
       "link": "https://www.yna.co.kr/view/AKR20260826019800009",
       "source": "연합뉴스 국제",
@@ -70,16 +78,6 @@
       "image": "https://img.yna.co.kr/photo/reuters/2026/08/25/PRU20260825161301009_P2.jpg"
     },
     {
-      "title": "[마켓뷰] 美반도체 반등에 코스피 탄력받나…D-1 엔비디아 실적 주시",
-      "link": "https://www.yna.co.kr/view/AKR20260826019500008",
-      "source": "연합뉴스 경제",
-      "ts": 1787698092000,
-      "pub": "Wed, 26 Aug 2026 07:48:12 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 26일 코스피는 간밤 미국 반도체주의 강세 등에 전날에 이어 추가 상승을 시도할 수 있을지 주목된다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/25/PYH2026082516240001300_P2.jpg"
-    },
-    {
       "title": "뉴욕증시, 반도체주 강세·국채금리 하락에 일제히 상승(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260826007551072",
       "source": "연합뉴스 국제",
@@ -88,16 +86,6 @@
       "sentiment": "neutral",
       "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 뉴욕증시 3대 지수가 25일(현지시간) 반도체주 반등과 미 국채금리 하락세 속에 일제히 상승했다.",
       "image": "https://img.yna.co.kr/photo/reuters/2026/08/25/PRU20260825004501009_P2.jpg"
-    },
-    {
-      "title": "반도체·휴가철 수요에 전산업 체감경기 3년11개월만에 최고",
-      "link": "https://www.yna.co.kr/view/AKR20260825163500002",
-      "source": "연합뉴스 경제",
-      "ts": 1787691600000,
-      "pub": "Wed, 26 Aug 2026 06:00:00 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이도흔 기자 = 반도체를 중심으로 제조업 기업심리가 개선되는 가운데 휴가철 여객 수요 확대와 정보통신업 실적 개선 등이 맞물리...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/30/PYH2026073015280001300_P2.jpg"
     },
     {
       "title": "뉴욕증시, 반도체주 반등·국채금리 하락에 상승…나스닥 0.66%↑",
@@ -128,26 +116,6 @@
       "sentiment": "neutral",
       "desc": "(베이징=연합뉴스) 정성조 특파원 = 중국 샤오미가 발표한 최신 프로세서 'XRING(중국명 쉬안제) O3'에 중국 최대 D램...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/10/PYH2026081000380008900_P2.jpg"
-    },
-    {
-      "title": "화순군, '반도체 배후도시' 삼천지구 개발…2029년 착공 목표",
-      "link": "https://www.yna.co.kr/view/AKR20260825162600054",
-      "source": "연합뉴스 경제",
-      "ts": 1787649153000,
-      "pub": "Tue, 25 Aug 2026 18:12:33 +0900",
-      "sentiment": "neutral",
-      "desc": "(화순=연합뉴스) 장아름 기자 = 전남광주 화순군은 정주 인구 유입을 위해 4천500세대 규모 삼천지구 도시개발사업을 추진한다고 25일 밝혔다....",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/25/AKR20260825162600054_01_i_P2.jpg"
-    },
-    {
-      "title": "[영상] 러, 우크라에 '자율살상' AI 드론 투입…\"엔비디아 칩 사용\"",
-      "link": "https://www.yna.co.kr/view/AKR20260825150500704",
-      "source": "연합뉴스 국제",
-      "ts": 1787644710000,
-      "pub": "Tue, 25 Aug 2026 16:58:30 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 러시아가 우크라이나에서 인간의 개입 없이 표적을 선택해 타격하는 인공지능(AI) 자율 살상 드론을 투입한 것으로 조사됐습니다.",
-      "image": "https://www.youtube.com/embed/ZkmA-a49yJM"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

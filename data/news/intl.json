@@ -1,8 +1,38 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-26T16:08:25.448Z",
-  "count": 24,
+  "updated_at": "2026-08-26T18:45:49.293Z",
+  "count": 26,
   "items": [
+    {
+      "title": "美야당 주도 24개州, 트럼프 '우편투표 제한'에 또 소송",
+      "link": "https://www.yna.co.kr/view/AKR20260827004800071",
+      "source": "연합뉴스 국제",
+      "ts": 1787769040000,
+      "pub": "Thu, 27 Aug 2026 03:30:40 +0900",
+      "sentiment": "negative",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 미국 야당 민주당이 장악한 주(州)들이 26일(현지시간) 도널드 트럼프 미 대통령의 '우편투표 제한' 행정...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/27/AKR20260827004800071_01_i_P2.jpg"
+    },
+    {
+      "title": "우크라 수도에 고강도 공습…러 점령지서는 버스 폭발",
+      "link": "https://www.yna.co.kr/view/AKR20260827001900108",
+      "source": "연합뉴스 국제",
+      "ts": 1787761945000,
+      "pub": "Thu, 27 Aug 2026 01:32:25 +0900",
+      "sentiment": "negative",
+      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 러시아와 우크라이나가 26일(현지시간) 맹렬한 공습을 주고받으며 양측에서 수십명의 사망자가 발생했다.",
+      "image": "https://img.yna.co.kr/photo/ap/2026/01/24/PAP20260124207401009_P2.jpg"
+    },
+    {
+      "title": "트럼프, 내달 본인 골프장서 열리는 대회 맞춰 아일랜드 방문",
+      "link": "https://www.yna.co.kr/view/AKR20260827001300071",
+      "source": "연합뉴스 국제",
+      "ts": 1787759943000,
+      "pub": "Thu, 27 Aug 2026 00:59:03 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령이 다음 달 본인 소유 골프장에서 열리는 골프대회 참석차 아일랜드를 방문한다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/27/AKR20260827001300071_01_i_P2.jpg"
+    },
     {
       "title": "美 7월 PCE, 전년 대비 3.7% 상승…예상치 소폭 웃돌아",
       "link": "https://www.hankyung.com/article/202608265255i",
@@ -32,7 +62,7 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/26/AKR20260826189400071_01_i_P2.jpg"
     },
     {
-      "title": "美 7월 PCE 3.7%↑ 예상치 소폭 웃돌아",
+      "title": "美 7월 PCE 3.7%↑…예상치 소폭 웃돌아",
       "link": "https://www.hankyung.com/article/2026082652261",
       "source": "한국경제",
       "ts": 1787753564000,
@@ -226,16 +256,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 임화섭 기자 = 미국 수도 워싱턴DC를 대표하는 공연장 '존 F. 케네디 기념 공연예술센터'(이하 케네디 센터)에 도널드 트럼...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/26/AKR20260826089500009_01_i_P2.jpg"
-    },
-    {
-      "title": "당 장악력 과시한 트럼프…최측근 여동생, 상원의원 경선 승리",
-      "link": "https://www.yna.co.kr/view/AKR20260826067600071",
-      "source": "연합뉴스 국제",
-      "ts": 1787709549000,
-      "pub": "Wed, 26 Aug 2026 10:59:09 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령의 강력한 지지를 업은 후보가 25일(현지시간) 미국 사우스캐롤라이나주 연방 상원...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/08/26/PAF20260826001401009_P2.jpg"
     }
   ]
 }

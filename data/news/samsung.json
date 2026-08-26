@@ -1,8 +1,18 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-26T00:35:43.460Z",
-  "count": 16,
+  "updated_at": "2026-08-26T02:17:34.136Z",
+  "count": 11,
   "items": [
+    {
+      "title": "오픈AI, 자체 칩 연내 투입…\"삼성 HBM4 탑재 추정\"",
+      "link": "https://www.yna.co.kr/view/AKR20260826049700009",
+      "source": "연합뉴스 국제",
+      "ts": 1787706998000,
+      "pub": "Wed, 26 Aug 2026 10:16:38 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 오픈AI는 자체 개발한 AI 칩 '할라페뇨(Jalapeno)'가 성능 테스트에서 엔비디아의 현재 제품군을 앞섰...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/26/AKR20260826049700009_09_i_P2.jpg"
+    },
     {
       "title": "[특징주] 삼전닉스, 보합으로 출발해 2%대 상승세",
       "link": "https://www.yna.co.kr/view/AKR20260826041400008",
@@ -34,14 +44,6 @@
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082107000001300_P2.jpg"
     },
     {
-      "title": "이재용·최태원·정의선 만나는 李…AI·美투자 해법 논의",
-      "link": "https://www.hankyung.com/article/2026082627197",
-      "source": "한국경제",
-      "ts": 1787698636000,
-      "pub": "Wed, 26 Aug 2026 07:57:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "오우라 링 국내 상륙…삼성 갤럭시 링과 맞대결",
       "link": "https://www.yna.co.kr/view/AKR20260825154800017",
       "source": "연합뉴스 경제",
@@ -50,56 +52,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 한상용 기자 = 스마트 링 업체 오우라(Oura)가 25일 신제품 '오우라 링 5'를 국내에 출시하며 한국 시장에 공식 진출했...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/25/PYH2026082512480001300_P2.jpg"
-    },
-    {
-      "title": "'주주환원 이슈' 삼전닉스, 하루만에 반등…엔비디아 실적이 분기점(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260825084651008",
-      "source": "연합뉴스 경제",
-      "ts": 1787642915000,
-      "pub": "Tue, 25 Aug 2026 16:28:35 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 황철환 기자 = '인공지능(AI) 대장주' 엔비디아의 실적 발표를 앞두고 글로벌 반도체주 주가가 또다시 변동성에 노출됐다.",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/08/17/PRU20260817273701009_P2.jpg"
-    },
-    {
-      "title": "골드만 \"中, 2035년 첨단 칩 부족 34%로 줄어…HBM 자급율↑\"",
-      "link": "https://www.yna.co.kr/view/AKR20260825138700089",
-      "source": "연합뉴스 국제",
-      "ts": 1787642557000,
-      "pub": "Tue, 25 Aug 2026 16:22:37 +0900",
-      "sentiment": "neutral",
-      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 중국이 미중 기술 경쟁 속에 반도체 자립·자강에 집중하면서 향후 10년간 7나노(nm·10억분의 1m) 이...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/25/AKR20260825138700089_01_i_P2.jpg"
-    },
-    {
-      "title": "삼전·닉스, 급락 멈추고 반등…'25만전자·160만닉스' 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260825050551008",
-      "source": "연합뉴스 경제",
-      "ts": 1787640921000,
-      "pub": "Tue, 25 Aug 2026 15:55:21 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 장초반 주가가 크게 내리며 이틀 연속 급락세를 보이던 삼성전자[005930]와 SK하이닉스[000660]가 낙...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
-    },
-    {
-      "title": "코스피, 장중 상승전환해 소폭 강세…삼전닉스도 강보합",
-      "link": "https://www.yna.co.kr/view/AKR20260825117800008",
-      "source": "연합뉴스 경제",
-      "ts": 1787636420000,
-      "pub": "Tue, 25 Aug 2026 14:40:20 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 25일 하락출발한 국내 증시가 장중 방향성을 바꿔 상승전환했다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/25/PYH2026082502770001300_P2.jpg"
-    },
-    {
-      "title": "10억 이상 고액자산가 포트폴리오 봤더니…역시나 삼전닉스",
-      "link": "https://www.yna.co.kr/view/AKR20260825093900008",
-      "source": "연합뉴스 경제",
-      "ts": 1787635888000,
-      "pub": "Tue, 25 Aug 2026 14:31:28 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 올해 들어 국내 증시에서 반도체주 랠리(주가 상승)가 펼쳐지자 고액자산가의 투자 포트폴리오도 삼성전자[0059...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/24/43/PCM20260624000043990_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

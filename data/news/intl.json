@@ -1,8 +1,38 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-26T00:35:43.459Z",
+  "updated_at": "2026-08-26T02:17:34.135Z",
   "count": 30,
   "items": [
+    {
+      "title": "당 장악력 과시한 트럼프…최측근 여동생, 상원의원 경선 승리",
+      "link": "https://www.yna.co.kr/view/AKR20260826067600071",
+      "source": "연합뉴스 국제",
+      "ts": 1787709549000,
+      "pub": "Wed, 26 Aug 2026 10:59:09 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령의 강력한 지지를 업은 후보가 25일(현지시간) 미국 사우스캐롤라이나주 연방 상원...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/08/26/PAF20260826001401009_P2.jpg"
+    },
+    {
+      "title": "美·캐나다 관세전쟁에 日자동차업계도 비상…공급망 재조정",
+      "link": "https://www.yna.co.kr/view/AKR20260826051100009",
+      "source": "연합뉴스 국제",
+      "ts": 1787705917000,
+      "pub": "Wed, 26 Aug 2026 09:58:37 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 최이락 기자 = 미국과 캐나다의 관세전쟁으로 캐나다를 대미 수출 거점으로 활용해 온 일본 자동차 업계의 북미 사업 전략에 경고...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/26/AKR20260826051100009_01_i_P2.jpg"
+    },
+    {
+      "title": "드론에 밀려 사용중단된 전차에 거미줄…우크라군 활용방안 고심",
+      "link": "https://www.yna.co.kr/view/AKR20260826049600009",
+      "source": "연합뉴스 국제",
+      "ts": 1787705528000,
+      "pub": "Wed, 26 Aug 2026 09:52:08 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 임화섭 기자 = 우크라이나군이 서방측 지원을 받아 들여왔던 고가의 전차(탱크)들이 전쟁 양상 변화로 실전 사용이 사실상 중단됐...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2024/05/01/PEP20240501187601009_P2.jpg"
+    },
     {
       "title": "\"협상 대신 보복 택한 국가는 中·캐나다 뿐\"…트럼프 뿔났다 [이상은의 워싱턴나우]",
       "link": "https://www.hankyung.com/article/202608262569i",
@@ -10,14 +40,6 @@
       "ts": 1787702104000,
       "pub": "Wed, 26 Aug 2026 08:55:04 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 한마디에 뒤집힌 반독점 소송…티켓마스터 매각 없던 일로",
-      "link": "https://www.hankyung.com/article/202608262802i",
-      "source": "한국경제",
-      "ts": 1787700813000,
-      "pub": "Wed, 26 Aug 2026 08:33:33 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "캐나다 보복관세 9월 발효…美선거 앞두고 '공화당 압박' 포석",
@@ -278,26 +300,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 러시아가 우크라이나에서 인간의 개입 없이 표적을 선택해 타격하는 인공지능(AI) 자율 살상 드론을 투입한 것으로 조사됐습니다.",
       "image": "https://www.youtube.com/embed/ZkmA-a49yJM"
-    },
-    {
-      "title": "유럽 정상 모였는데…우크라 독립기념일에 '트럼프 사단' 불참",
-      "link": "https://www.yna.co.kr/view/AKR20260825134000009",
-      "source": "연합뉴스 국제",
-      "ts": 1787641980000,
-      "pub": "Tue, 25 Aug 2026 16:13:00 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 현영복 기자 = 우크라이나의 독립기념일을 맞아 유럽 주요국 정상이 키이우를 방문하거나 축전을 보냈으나 정작 서방 진영을 주도하...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/08/25/PAP20260825063401009_P2.jpg"
-    },
-    {
-      "title": "[영상] 우크라, 독립기념일 맞아 러시아 2위 이커머스 업체 공습",
-      "link": "https://www.yna.co.kr/view/AKR20260825127800704",
-      "source": "연합뉴스 국제",
-      "ts": 1787639263000,
-      "pub": "Tue, 25 Aug 2026 15:27:43 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 러시아 유통망에 대한 우크라이나 공격이 계속되고 있습니다.     우크라이나는 지난 한 달간 러시아판 아마존인 '와일드베리스'...",
-      "image": "https://www.youtube.com/embed/Ps63ZcO2Ss4"
     }
   ]
 }

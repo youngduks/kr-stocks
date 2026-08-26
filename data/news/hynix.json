@@ -1,8 +1,46 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-26T00:35:43.460Z",
-  "count": 26,
+  "updated_at": "2026-08-26T02:17:34.137Z",
+  "count": 23,
   "items": [
+    {
+      "title": "코스피, 엔비디아 실적발표 경계감에 장중 보합권 유지",
+      "link": "https://www.yna.co.kr/view/AKR20260826075300008",
+      "source": "연합뉴스 경제",
+      "ts": 1787710189000,
+      "pub": "Wed, 26 Aug 2026 11:09:49 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 26일 코스피는 장중 보합권을 유지하고 있다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082602730001300_P2.jpg"
+    },
+    {
+      "title": "반도체발 7월 대기업 수출 90.7%↑…중견·중소도 5개월째 증가",
+      "link": "https://www.yna.co.kr/view/AKR20260826060100002",
+      "source": "연합뉴스 경제",
+      "ts": 1787707270000,
+      "pub": "Wed, 26 Aug 2026 10:21:10 +0900",
+      "sentiment": "neutral",
+      "desc": "(세종=연합뉴스) 안채원 기자 = 반도체 수출 호조에 힘입어 대기업의 7월 수출이 1년 전보다 90% 넘게 증가했다.",
+      "image": "https://img.yna.co.kr/photo/cms/2026/08/02/01/PCM20260802000001990_P2.jpg"
+    },
+    {
+      "title": "오픈AI, 자체 칩 연내 투입…\"삼성 HBM4 탑재 추정\"",
+      "link": "https://www.yna.co.kr/view/AKR20260826049700009",
+      "source": "연합뉴스 국제",
+      "ts": 1787706998000,
+      "pub": "Wed, 26 Aug 2026 10:16:38 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 오픈AI는 자체 개발한 AI 칩 '할라페뇨(Jalapeno)'가 성능 테스트에서 엔비디아의 현재 제품군을 앞섰...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/26/AKR20260826049700009_09_i_P2.jpg"
+    },
+    {
+      "title": "엔비디아, 끊없는 GPU 영토 확장[박신영의 월가 아나토미]",
+      "link": "https://www.hankyung.com/article/202608263222i",
+      "source": "한국경제",
+      "ts": 1787706613000,
+      "pub": "Wed, 26 Aug 2026 10:10:13 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성전자, '연산도 하는 메모리' 첫 공개…온디바이스 겨냥",
       "link": "https://www.yna.co.kr/view/AKR20260826030600091",
@@ -32,30 +70,6 @@
       "image": "https://img.yna.co.kr/photo/reuters/2026/08/25/PRU20260825161301009_P2.jpg"
     },
     {
-      "title": "\"티엘비, 엔비디아 CPU 바로 옆 자리 차지한다…목표가 5.3만원\"-IBK",
-      "link": "https://www.hankyung.com/article/2026082627676",
-      "source": "한국경제",
-      "ts": 1787698862000,
-      "pub": "Wed, 26 Aug 2026 08:01:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 사이클 내년에 끝난다더니…놀라운 전망 나왔다",
-      "link": "https://www.hankyung.com/article/202608252281i",
-      "source": "한국경제",
-      "ts": 1787698810000,
-      "pub": "Wed, 26 Aug 2026 08:00:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "오늘 저녁부터 '슈퍼데이'…엔비디아 외에 챙겨야 할 곳은?",
-      "link": "https://www.hankyung.com/article/202608251391i",
-      "source": "한국경제",
-      "ts": 1787698806000,
-      "pub": "Wed, 26 Aug 2026 08:00:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[마켓뷰] 美반도체 반등에 코스피 탄력받나…D-1 엔비디아 실적 주시",
       "link": "https://www.yna.co.kr/view/AKR20260826019500008",
       "source": "연합뉴스 경제",
@@ -64,14 +78,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김유향 기자 = 26일 코스피는 간밤 미국 반도체주의 강세 등에 전날에 이어 추가 상승을 시도할 수 있을지 주목된다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/25/PYH2026082516240001300_P2.jpg"
-    },
-    {
-      "title": "\"베센트, 뭐든 할 것\"…올랐지만 찜찜한 반도체, 골드만이 지적한 3가지 [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202608262716i",
-      "source": "한국경제",
-      "ts": 1787698057000,
-      "pub": "Wed, 26 Aug 2026 07:47:37 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "뉴욕증시, 반도체주 강세·국채금리 하락에 일제히 상승(종합)",
@@ -134,16 +140,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/25/AKR20260825162600054_01_i_P2.jpg"
     },
     {
-      "title": "호남 반도체·AIDC 인프라 예타 무더기 면제…'3대 메가' 속도",
-      "link": "https://www.yna.co.kr/view/AKR20260825149700001",
-      "source": "연합뉴스 경제",
-      "ts": 1787644890000,
-      "pub": "Tue, 25 Aug 2026 17:01:30 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 임형섭 기자 = 호남 반도체 클러스터 조성 및 AI데이터센터 확충을 위한 인프라 사업에 대한 예비타당성 조사가 무더기로 면제된...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/25/PYH2026082506040001300_P2.jpg"
-    },
-    {
       "title": "[영상] 러, 우크라에 '자율살상' AI 드론 투입…\"엔비디아 칩 사용\"",
       "link": "https://www.yna.co.kr/view/AKR20260825150500704",
       "source": "연합뉴스 국제",
@@ -152,26 +148,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 러시아가 우크라이나에서 인간의 개입 없이 표적을 선택해 타격하는 인공지능(AI) 자율 살상 드론을 투입한 것으로 조사됐습니다.",
       "image": "https://www.youtube.com/embed/ZkmA-a49yJM"
-    },
-    {
-      "title": "'주주환원 이슈' 삼전닉스, 하루만에 반등…엔비디아 실적이 분기점(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260825084651008",
-      "source": "연합뉴스 경제",
-      "ts": 1787642915000,
-      "pub": "Tue, 25 Aug 2026 16:28:35 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 황철환 기자 = '인공지능(AI) 대장주' 엔비디아의 실적 발표를 앞두고 글로벌 반도체주 주가가 또다시 변동성에 노출됐다.",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/08/17/PRU20260817273701009_P2.jpg"
-    },
-    {
-      "title": "골드만 \"中, 2035년 첨단 칩 부족 34%로 줄어…HBM 자급율↑\"",
-      "link": "https://www.yna.co.kr/view/AKR20260825138700089",
-      "source": "연합뉴스 국제",
-      "ts": 1787642557000,
-      "pub": "Tue, 25 Aug 2026 16:22:37 +0900",
-      "sentiment": "neutral",
-      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 중국이 미중 기술 경쟁 속에 반도체 자립·자강에 집중하면서 향후 10년간 7나노(nm·10억분의 1m) 이...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/25/AKR20260825138700089_01_i_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

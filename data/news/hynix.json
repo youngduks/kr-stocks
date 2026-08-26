@@ -1,15 +1,51 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-26T06:26:43.404Z",
-  "count": 17,
+  "updated_at": "2026-08-26T07:36:18.292Z",
+  "count": 20,
   "items": [
     {
-      "title": "\"한국 반도체, 이게 시급하다\"…애플·구글·MS의 경고",
-      "link": "https://www.hankyung.com/article/202608263685i",
+      "title": "'낮아진 전기료' 호남 반도체 연간 최대 1조원 절감 효과",
+      "link": "https://www.yna.co.kr/view/AKR20260826134200054",
+      "source": "연합뉴스 경제",
+      "ts": 1787728130000,
+      "pub": "Wed, 26 Aug 2026 16:08:50 +0900",
+      "sentiment": "neutral",
+      "desc": "(전남광주=연합뉴스) 형민우 손상원 장덕종 기자 = 남부지방의 산업용 전기요금이 13∼18원 인하되면 광주 군공항 부지에 조성될 호남 반도체 팹...",
+      "image": "https://img.yna.co.kr/photo/cms/2023/05/13/06/PCM20230513000006990_P2.jpg"
+    },
+    {
+      "title": "\"YMTC, 내년말 삼성·하이닉스 제치고 세계 1위 목표\"",
+      "link": "https://www.yna.co.kr/view/AKR20260826118700009",
+      "source": "연합뉴스 국제",
+      "ts": 1787727935000,
+      "pub": "Wed, 26 Aug 2026 16:05:35 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 중국 양쯔메모리(YMTC)가 내년 말까지 삼성전자와 SK하이닉스를 제치고 세계 1위 낸드 플래시 생산업체로 올...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/26/AKR20260826118700009_01_i_P2.jpg"
+    },
+    {
+      "title": "YMTC \"2027년에 삼성·SK 제치고 낸드 1위 올라서겠다\"",
+      "link": "https://www.hankyung.com/article/202608264410i",
       "source": "한국경제",
-      "ts": 1787711725000,
-      "pub": "Wed, 26 Aug 2026 11:35:25 +0900",
-      "sentiment": "negative"
+      "ts": 1787727232000,
+      "pub": "Wed, 26 Aug 2026 15:53:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"호실적도 안 먹힌다\"…월가 시선, 엔비디아서 '금리'로",
+      "link": "https://www.hankyung.com/article/202608264289i",
+      "source": "한국경제",
+      "ts": 1787726982000,
+      "pub": "Wed, 26 Aug 2026 15:49:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체에서 갈아탔다…금·비트코인에 몰리는 투자자들",
+      "link": "https://www.hankyung.com/article/202608264237i",
+      "source": "한국경제",
+      "ts": 1787726930000,
+      "pub": "Wed, 26 Aug 2026 15:48:50 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "코스피, 엔비디아 실적발표 경계감에 장중 보합권 유지",
@@ -20,14 +56,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김유향 기자 = 26일 코스피는 장중 보합권을 유지하고 있다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082602730001300_P2.jpg"
-    },
-    {
-      "title": "반도체 팔고 원전·전력주 담았다…초고수, 두산에너빌리티 집중매수",
-      "link": "https://www.hankyung.com/article/202608263441i",
-      "source": "한국경제",
-      "ts": 1787709608000,
-      "pub": "Wed, 26 Aug 2026 11:00:08 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "반도체발 7월 대기업 수출 90.7%↑…중견·중소도 5개월째 증가",

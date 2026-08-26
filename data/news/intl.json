@@ -1,8 +1,44 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-26T06:26:43.378Z",
-  "count": 26,
+  "updated_at": "2026-08-26T07:36:18.290Z",
+  "count": 22,
   "items": [
+    {
+      "title": "中전문가 \"미·캐나다 관세전쟁에 중국 반사이익\" 관측",
+      "link": "https://www.yna.co.kr/view/AKR20260826140800083",
+      "source": "연합뉴스 국제",
+      "ts": 1787729150000,
+      "pub": "Wed, 26 Aug 2026 16:25:50 +0900",
+      "sentiment": "neutral",
+      "desc": "(베이징=연합뉴스) 김현정 특파원 = 미국과 캐나다의 관세 갈등이 격화하면서 미국에 대한 무역 의존도를 낮추려는 캐나다와 중국 간 경제·무역 협...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/01/26/PAP20260126039701009_P2.jpg"
+    },
+    {
+      "title": "캐나다 보복 관세에…'호수 이름 바꾸기' 초강수 둔 트럼프",
+      "link": "https://www.hankyung.com/article/2026082644817",
+      "source": "한국경제",
+      "ts": 1787728563000,
+      "pub": "Wed, 26 Aug 2026 16:16:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 중간선거서 민주당 이겨도…트럼프 '對韓 압박' 안 꺾인다",
+      "link": "https://www.hankyung.com/article/202608264139i",
+      "source": "한국경제",
+      "ts": 1787728151000,
+      "pub": "Wed, 26 Aug 2026 16:09:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'물가안정 위해 소고기 관세 면제'…트럼프-집권 공화당 내분",
+      "link": "https://www.yna.co.kr/view/AKR20260826132900009",
+      "source": "연합뉴스 국제",
+      "ts": 1787726627000,
+      "pub": "Wed, 26 Aug 2026 15:43:47 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 현영복 기자 = 도널드 트럼프 미국 대통령이 고물가에 성난 민심을 달래기 위해 다진 소고기 제품에 대해 할당량 초과 관세를 면...",
+      "image": "https://img.yna.co.kr/photo/etc/gt/2026/08/25/PGT20260825016801009_P2.jpg"
+    },
     {
       "title": "NYT \"트럼프가 캐나다에 꺼내든 관세법 338조, 법적 리스크 커\"",
       "link": "https://www.yna.co.kr/view/AKR20260826115900009",
@@ -182,86 +218,6 @@
       "sentiment": "neutral",
       "desc": "(뉴욕=연합뉴스) 임수정 김연숙 특파원 = 캐나다 정부가 25일(현지시간) 약 200억달러 규모의 미국산 제품에 최고 50%의 보복관세를 부과하...",
       "image": "https://img.yna.co.kr/photo/ap/2026/08/22/PAP20260822226001009_P2.jpg"
-    },
-    {
-      "title": "\"美 CIA 국장, 우크라전 교착 속 회담차 극비 방러\"",
-      "link": "https://www.yna.co.kr/view/AKR20260826001500071",
-      "source": "연합뉴스 국제",
-      "ts": 1787674321000,
-      "pub": "Wed, 26 Aug 2026 01:12:01 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 존 랫클리프 미국 중앙정보국(CIA) 국장이 러시아를 방문했다고 25일(현지시간) 미 CBS 방송이 보도했...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/07/16/PAP20260716036301009_P2.jpg"
-    },
-    {
-      "title": "이스라엘 국방, 시리아 완충지대 방문…\"군대 철수 안 해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260826002000079",
-      "source": "연합뉴스 국제",
-      "ts": 1787674028000,
-      "pub": "Wed, 26 Aug 2026 01:07:08 +0900",
-      "sentiment": "neutral",
-      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 이스라엘 카츠 이스라엘 국방부 장관은 25일(현지시간) 시리아 남부에 설정한 완충지대를 방문해 군대를 철수...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/26/AKR20260826002000079_01_i_P2.jpg"
-    },
-    {
-      "title": "캐나다, 美에 200억달러 규모 보복관세…700개 품목에 15~50%",
-      "link": "https://www.yna.co.kr/view/AKR20260826000700072",
-      "source": "연합뉴스 국제",
-      "ts": 1787671072000,
-      "pub": "Wed, 26 Aug 2026 00:17:52 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 임수정 김연숙 특파원 = 캐나다 정부는 25일(현지시간) 약 200억달러 규모의 미국산 제품에 보복관세를 부과한다고 발표했다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/26/AKR20260826000700072_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"호르무즈 기뢰 모두 제거…또 설치하는 선박 파괴할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260826000400071",
-      "source": "연합뉴스 국제",
-      "ts": 1787670690000,
-      "pub": "Wed, 26 Aug 2026 00:11:30 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령은 25일(현지시간) \"호르무즈 해협의 국제수역에 있던 모든 기뢰가 제거 및 폭파...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/08/11/PRU20260811043001009_P2.jpg"
-    },
-    {
-      "title": "[속보] 캐나다, 9월 8일부터 미국산 700개 품목에 15∼50% 보복관세",
-      "link": "https://www.yna.co.kr/view/AKR20260826000200072",
-      "source": "연합뉴스 국제",
-      "ts": 1787670346000,
-      "pub": "Wed, 26 Aug 2026 00:05:46 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
-    },
-    {
-      "title": "트럼프, '한미훈련축소' SNS 시제 바꿔 재탕…연일 김정은 구애",
-      "link": "https://www.yna.co.kr/view/AKR20260825181700071",
-      "source": "연합뉴스 국제",
-      "ts": 1787669917000,
-      "pub": "Tue, 25 Aug 2026 23:58:37 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령이 9일 전 소셜미디어에 올렸던 한미연합훈련 축소 지시 게시물을 시제만 과거로 조...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/25/AKR20260825181700071_01_i_P2.jpg"
-    },
-    {
-      "title": "이스라엘, 동예루살렘 팔레스타인 난민기구 시설 철거 개시",
-      "link": "https://www.yna.co.kr/view/AKR20260825181100079",
-      "source": "연합뉴스 국제",
-      "ts": 1787667173000,
-      "pub": "Tue, 25 Aug 2026 23:12:53 +0900",
-      "sentiment": "neutral",
-      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 이스라엘 정부가 동예루살렘에 위치한 유엔 팔레스타인 난민구호기구(UNRWA) 소속 직업훈련 센터에 대한 본...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/25/AKR20260825181100079_01_i_P2.jpg"
-    },
-    {
-      "title": "對캐나다 관세전쟁에 美북부 술렁…중간선거 영향 주시",
-      "link": "https://www.yna.co.kr/view/AKR20260825179700071",
-      "source": "연합뉴스 국제",
-      "ts": 1787665696000,
-      "pub": "Tue, 25 Aug 2026 22:48:16 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령이 관세전쟁의 전선을 캐나다로 확장하면서 국경을 맞댄 미 북부 지역이 술렁이고 있...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/08/25/PEP20260825157401009_P2.jpg"
     }
   ]
 }

@@ -1,8 +1,258 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-27T13:15:52.227Z",
-  "count": 22,
+  "updated_at": "2026-08-27T23:18:58.914Z",
+  "count": 39,
   "items": [
+    {
+      "title": "엔비디아 폭등에도, 메모리 하락한 이유…워시, 별말 없다? [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202608288145i",
+      "source": "한국경제",
+      "ts": 1787871872000,
+      "pub": "Fri, 28 Aug 2026 08:04:32 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[마켓뷰] 연준 의장 잭슨홀 연설 주시…'엔비디아발 호재' 이어가나",
+      "link": "https://www.yna.co.kr/view/AKR20260828021100008",
+      "source": "연합뉴스 경제",
+      "ts": 1787871853000,
+      "pub": "Fri, 28 Aug 2026 08:04:13 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 케빈 워시 연방준비제도(Fed·연준) 의장의 잭슨홀 회의 연설을 앞둔 가운데 28일 코스피가 엔비디아 호실적에...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/27/PYH2026082715590001300_P2.jpg"
+    },
+    {
+      "title": "\"메모리 더 줘\" 피크아웃 잠재운 엔비디아…불붙은 삼전닉스 호황 부채질",
+      "link": "https://www.mt.co.kr/industry/2026/08/28/2026082723025296066",
+      "source": "머니투데이",
+      "ts": 1787871600000,
+      "pub": "Fri, 28 Aug 2026 08:00:00 +0900",
+      "sentiment": "neutral",
+      "desc": "엔비디아 2분기 실적발표 (종합) ━\"메모리 더\" 엔비디아 구매 약정 2.3배 폭증…삼전·하이닉스 웃는다━ 엔비디아가 SK텔레콤·네이버·SK하이닉스 등 한국 주요 기업과의 'AI(인공지능) 동맹'을 실적 발표에서 부각했다. AI 투자 확대로 메모리 가격과 공급 부담이 ",
+      "image": "https://thumb.mt.co.kr/06/2026/08/2026082723025296066_1.jpg"
+    },
+    {
+      "title": "엔비디아 8.7% 급등하며 기술주 랠리…나스닥 1.57%↑(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260828005952072",
+      "source": "연합뉴스 국제",
+      "ts": 1787870716000,
+      "pub": "Fri, 28 Aug 2026 07:45:16 +0900",
+      "sentiment": "positive",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 뉴욕증시는 27일(현지시간) 엔비디아 호실적과 그에 따른 기술주 랠리로 일제히 상승했다.",
+      "image": "https://img.yna.co.kr/photo/ap/2026/08/27/PAP20260827067001009_P2.jpg"
+    },
+    {
+      "title": "중국 AI 구동 최적화한 엔비디아…\"미 규제 리스크\" 인정",
+      "link": "https://www.yna.co.kr/view/AKR20260828012800009",
+      "source": "연합뉴스 국제",
+      "ts": 1787869986000,
+      "pub": "Fri, 28 Aug 2026 07:33:06 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 엔비디아가 중국의 오픈소스 인공지능(AI) 모델에 대한 하드웨어 지원을 강화하는 가운데 이런 지원이 미국 정부...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/08/28/PRU20260828027601009_P2.jpg"
+    },
+    {
+      "title": "\"엔비디아 실적, AI 우려 잠재웠다\"…나스닥, 1.57%↑ [뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/08/28/2026082806464676220",
+      "source": "머니투데이",
+      "ts": 1787868481000,
+      "pub": "Fri, 28 Aug 2026 07:08:01 +0900",
+      "sentiment": "negative",
+      "desc": "미국 뉴욕증시 3대 지수는 27일(현지시간) 엔비디아 호실적과 기술주 강세에 일제히 상승했다. 이날 뉴욕증시에서 다우존스산업평균지수는 전일 대비 0.20% 상승한 5만3569.44로 거래를 마쳤다. 대형주 중심의 스탠더드앤드푸어스(S&P)500지수는 0.72% 오른 7",
+      "image": "https://thumb.mt.co.kr/06/2026/08/2026082806464676220_1.jpg"
+    },
+    {
+      "title": "엔비디아 8.7% 급등…기술주 랠리에 나스닥 1.57%↑ [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026082881806",
+      "source": "한국경제",
+      "ts": 1787868184000,
+      "pub": "Fri, 28 Aug 2026 07:03:04 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "SK하이닉스, 미국산 HBM 생산 박차…美인디애나팹 착공",
+      "link": "https://www.hankyung.com/article/2026082881467",
+      "source": "한국경제",
+      "ts": 1787866594000,
+      "pub": "Fri, 28 Aug 2026 06:36:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'자해적' 반도체 관세 검토하는 美…대미투자 압박용인가 [이상은의 워싱턴나우]",
+      "link": "https://www.hankyung.com/article/202608288135i",
+      "source": "한국경제",
+      "ts": 1787866307000,
+      "pub": "Fri, 28 Aug 2026 06:31:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"엔비디아 차세대 수요 선제 대응\"…심텍, 증설 결정에 '급등' [종목+]",
+      "link": "https://www.hankyung.com/article/2026082769986",
+      "source": "한국경제",
+      "ts": 1787866203000,
+      "pub": "Fri, 28 Aug 2026 06:30:03 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "엔비디아 8.7% 급등하며 기술주 랠리…나스닥 1.57%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260828005951072",
+      "source": "연합뉴스 국제",
+      "ts": 1787864870000,
+      "pub": "Fri, 28 Aug 2026 06:07:50 +0900",
+      "sentiment": "positive",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 뉴욕증시는 27일(현지시간) 엔비디아 호실적과 그에 따른 기술주 랠리로 일제히 상승했다.",
+      "image": "https://img.yna.co.kr/photo/ap/2026/08/27/PAP20260827067001009_P2.jpg"
+    },
+    {
+      "title": "조상연 삼성 美총괄 \"AI 병목 대안은 메모리 중심 컴퓨팅\"",
+      "link": "https://www.yna.co.kr/view/AKR20260828005500091",
+      "source": "연합뉴스 국제",
+      "ts": 1787862683000,
+      "pub": "Fri, 28 Aug 2026 05:31:23 +0900",
+      "sentiment": "neutral",
+      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 삼성전자가 인공지능(AI) 인프라의 패러다임이 연산 중심에서 메모리 중심으로 근본적으로 변화하고 있다...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/28/AKR20260828005500091_02_i_P2.jpg"
+    },
+    {
+      "title": "뉴욕증시, 엔비디아 호실적에 환호…나스닥 1.57%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260828005900072",
+      "source": "연합뉴스 국제",
+      "ts": 1787862015000,
+      "pub": "Fri, 28 Aug 2026 05:20:15 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 뉴욕증시는 27일(현지시간) 엔비디아 호실적과 그에 따른 기술주 랠리로 상승했다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/28/AKR20260828005900072_01_i_P2.jpg"
+    },
+    {
+      "title": "SK하이닉스, 美인디애나팹 착공…年수십만장 7세대 HBM 생산(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260827025552071",
+      "source": "연합뉴스 국제",
+      "ts": 1787860317000,
+      "pub": "Fri, 28 Aug 2026 04:51:57 +0900",
+      "sentiment": "neutral",
+      "desc": "(웨스트라피엣=연합뉴스) 홍정규 특파원 = 인공지능(AI) 산업의 핵심 요소인 첨단 고대역폭 메모리(HBM)가 우리 기업...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/28/PYH2026082800840007100_P2.jpg"
+    },
+    {
+      "title": "[르포] 옥수수밭에 첨단 HBM 기지 구축…인디애나 터잡는 SK하이닉스 팹",
+      "link": "https://www.yna.co.kr/view/AKR20260828004600071",
+      "source": "연합뉴스 국제",
+      "ts": 1787858884000,
+      "pub": "Fri, 28 Aug 2026 04:28:04 +0900",
+      "sentiment": "neutral",
+      "desc": "(웨스트라피엣=연합뉴스) 홍정규 특파원 = 버스는 미국 인디애나주 인디애나폴리스 공항을 출발해 52번 국도를 달렸다. 창...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/28/AKR20260828004600071_02_i_P2.jpg"
+    },
+    {
+      "title": "금리인상에 엔비디아 효과 '무색'… 칠천피 탈환 실패",
+      "link": "https://www.mt.co.kr/stock/2026/08/28/2026082719384269839",
+      "source": "머니투데이",
+      "ts": 1787857200000,
+      "pub": "Fri, 28 Aug 2026 04:00:00 +0900",
+      "sentiment": "neutral",
+      "desc": "반도체 투심 회복에도 개인 1.9조 순매도… 1%대 상승 그쳐 한국은행 금융통화위원회가 기준금리를 3%로 인상하면서 미국발 '엔비디아 효과'를 상쇄하며 코스피지수가 1%대 오른 채 마감했다. 장 초반 3~4%대 상승한 삼성전자와 SK하이닉스는 상승폭을 줄인 채 거래를 ",
+      "image": "https://thumb.mt.co.kr/06/2026/08/2026082719384269839_1.jpg"
+    },
+    {
+      "title": "엔비디아, 중간선거 앞두고 정치자금 모금기구 설립",
+      "link": "https://www.yna.co.kr/view/AKR20260828003300091",
+      "source": "연합뉴스 국제",
+      "ts": 1787853621000,
+      "pub": "Fri, 28 Aug 2026 03:00:21 +0900",
+      "sentiment": "neutral",
+      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 인공지능(AI) 반도체 1위 기업 엔비디아가 중간선거를 앞두고 정치자금 모금 조직을 구성한다.",
+      "image": "https://img.yna.co.kr/photo/ap/2026/07/30/PAP20260730131201009_P2.jpg"
+    },
+    {
+      "title": "[인터뷰] SK 곽노정 \"美 AI 산업에 좋은 소식 더 전하고 싶다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260828000351071",
+      "source": "연합뉴스 국제",
+      "ts": 1787851722000,
+      "pub": "Fri, 28 Aug 2026 02:28:42 +0900",
+      "sentiment": "neutral",
+      "desc": "(웨스트라피엣=연합뉴스) 홍정규 특파원 = 곽노정 SK하이닉스 대표이사 사장은 27일(현지시간) 미국 내 추가 투자 가능...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/28/AKR20260828000351071_02_i_P2.jpg"
+    },
+    {
+      "title": "\"美 트럼프 행정부, 수입 반도체 고율 관세 검토\"",
+      "link": "https://www.hankyung.com/article/2026082780231",
+      "source": "한국경제",
+      "ts": 1787849199000,
+      "pub": "Fri, 28 Aug 2026 01:46:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "곽노정 \"차세대 HBM, 2029년 美 인디애나 팹에서 본격 양산\"",
+      "link": "https://www.hankyung.com/article/202608278027i",
+      "source": "한국경제",
+      "ts": 1787844895000,
+      "pub": "Fri, 28 Aug 2026 00:34:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스, 인디애나서 年수십만장 '메이드인 USA' HBM 만든다(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260827025551071",
+      "source": "연합뉴스 국제",
+      "ts": 1787843894000,
+      "pub": "Fri, 28 Aug 2026 00:18:14 +0900",
+      "sentiment": "neutral",
+      "desc": "(웨스트라피엣=연합뉴스) 홍정규 특파원 = 인공지능(AI) 산업의 핵심 요소인 첨단 고대역폭 메모리(HBM)가 우리 기업...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/27/AKR20260827025551071_01_i_P2.jpg"
+    },
+    {
+      "title": "SK하이닉스, 美인디애나팹 착공…'메이드 인 USA' HBM 만든다",
+      "link": "https://www.yna.co.kr/view/AKR20260827025500071",
+      "source": "연합뉴스 국제",
+      "ts": 1787843614000,
+      "pub": "Fri, 28 Aug 2026 00:13:34 +0900",
+      "sentiment": "neutral",
+      "desc": "(웨스트라피엣=연합뉴스) 홍정규 특파원 = 인공지능(AI) 산업의 핵심 요소인 첨단 고대역폭 메모리(HBM)가 우리 기업...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/27/AKR20260827025500071_01_i_P2.jpg"
+    },
+    {
+      "title": "[속보] 곽노정 SK하이닉스 사장 \"미국서 연간 수십만장 HBM 만들 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260828000300071",
+      "source": "연합뉴스 국제",
+      "ts": 1787843373000,
+      "pub": "Fri, 28 Aug 2026 00:09:33 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
+    },
+    {
+      "title": "\"어닝서프라이즈론 부족\"…엔비디아의 끝없는 영토 확장 [박신영의 개장전 요것만]",
+      "link": "https://www.hankyung.com/article/202608278034i",
+      "source": "한국경제",
+      "ts": 1787842411000,
+      "pub": "Thu, 27 Aug 2026 23:53:31 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "SK하이닉스, 美 인디애나 팹 착공…AI 메모리 패키징 거점 구축",
+      "link": "https://www.hankyung.com/article/2026082777291",
+      "source": "한국경제",
+      "ts": 1787841870000,
+      "pub": "Thu, 27 Aug 2026 23:44:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 엔비디아 호실적에 상승 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260827196500009",
+      "source": "연합뉴스 국제",
+      "ts": 1787838505000,
+      "pub": "Thu, 27 Aug 2026 22:48:25 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 윤정원 연합인포맥스 기자 = 뉴욕증시의 3대 주가지수는 엔비디아 실적 발표 이후 인공지능(AI) 산업에 대한 기대감이 다시 살...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/08/27/PAF20260827052701009_P2.jpg"
+    },
+    {
+      "title": "트럼프 정부, 반도체 고율관세 부과 검토…단계적 도입 가능 [이상은의 워싱턴나우]",
+      "link": "https://www.hankyung.com/article/202608278015i",
+      "source": "한국경제",
+      "ts": 1787838059000,
+      "pub": "Thu, 27 Aug 2026 22:40:59 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"미 트럼프 행정부, 반도체 대상 고강도 관세 검토\"",
       "link": "https://www.yna.co.kr/view/AKR20260827191100009",
@@ -12,14 +262,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김아람 기자 = 미국 도널드 트럼프 행정부가 반도체를 대상으로 고강도 관세를 부과하는 방안을 검토 중이라고 미 정치 전문 매체...",
       "image": "https://img.yna.co.kr/photo/etc/epa/2023/09/14/PEP20230914066601009_P2.jpg"
-    },
-    {
-      "title": "日 키옥시아, 1조엔 규모 반도체 신공장 추진",
-      "link": "https://www.hankyung.com/article/2026082779061",
-      "source": "한국경제",
-      "ts": 1787826955000,
-      "pub": "Thu, 27 Aug 2026 19:35:55 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "\"미국, 엔비디아 칩 중국 밀반출 혐의 싱가포르 업체 조사중\"",
@@ -50,96 +292,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 최이락 기자 = 일본 구마모토 강진이 오는 28일로 한 달을 맞이한다.",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/27/AKR20260827131100009_01_i_P2.jpg"
-    },
-    {
-      "title": "\"엔비디아, 허깅페이스 18조원에 인수 합의\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260827073651009",
-      "source": "연합뉴스 국제",
-      "ts": 1787810180000,
-      "pub": "Thu, 27 Aug 2026 14:56:20 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 주종국·정주호 기자 = 엔비디아가 인공지능(AI) 모델 공유 플랫폼 '허깅페이스'(Hugging Face)를 129억달러(약 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/27/AKR20260827073651009_01_i_P2.jpg"
-    },
-    {
-      "title": "엔비디아 \"내년 매출 70%↑…마진 72~73%\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260827018552009",
-      "source": "연합뉴스 국제",
-      "ts": 1787800639000,
-      "pub": "Thu, 27 Aug 2026 12:17:19 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 주종국·정주호 기자 = 엔비디아가 메모리 가격 급등에 따른 매출총이익률(마진) 압박을 대규모 공급망 확약과 강한 성장 전망으로...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/08/27/PAP20260827067001009_P2.jpg"
-    },
-    {
-      "title": "CXMT 성공에 中지방정부들 기업투자 경쟁…관영지는 부작용 경고",
-      "link": "https://www.yna.co.kr/view/AKR20260827096700083",
-      "source": "연합뉴스 국제",
-      "ts": 1787800100000,
-      "pub": "Thu, 27 Aug 2026 12:08:20 +0900",
-      "sentiment": "negative",
-      "desc": "(베이징=연합뉴스) 정성조 특파원 = 최근 중국 메모리 업체 창신메모리테크놀로지(CXMT)의 상장 성공을 계기로 중국 지방정부들이 무분별하게 기...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/10/PYH2026081000380008900_P2.jpg"
-    },
-    {
-      "title": "日 키옥시아, 이와테현에 1조엔 규모 공장 신설…낸드 증산",
-      "link": "https://www.yna.co.kr/view/AKR20260827076000073",
-      "source": "연합뉴스 국제",
-      "ts": 1787796204000,
-      "pub": "Thu, 27 Aug 2026 11:03:24 +0900",
-      "sentiment": "neutral",
-      "desc": "(도쿄=연합뉴스) 이도연 특파원 = 일본의 메모리 반도체 기업 키옥시아가 일본 동북부 이와테현에 1조엔(8조7천억원) 이상을 투자해 새 반도체 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/27/AKR20260827076000073_01_i_P2.jpg"
-    },
-    {
-      "title": "\"엔비디아, AI 모델 공유 플랫폼 허깅페이스 인수 논의중\"",
-      "link": "https://www.yna.co.kr/view/AKR20260827073600009",
-      "source": "연합뉴스 국제",
-      "ts": 1787795701000,
-      "pub": "Thu, 27 Aug 2026 10:55:01 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 주종국 기자 = 엔비디아가 인공지능(AI) 모델 공유 플랫폼 '허깅페이스'(Hugging Face) 인수를 위해 최근 몇 주간...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/27/AKR20260827073600009_01_i_P2.jpg"
-    },
-    {
-      "title": "엔비디아, 공급망 확보 약정 386조원…\"주로 메모리 조달\"",
-      "link": "https://www.yna.co.kr/view/AKR20260827026400009",
-      "source": "연합뉴스 국제",
-      "ts": 1787791380000,
-      "pub": "Thu, 27 Aug 2026 09:43:00 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 엔비디아가 공급망 확보를 위한 약정(Commitments) 규모가 2천790억달러(약 386조원)라고 밝혔다.",
-      "image": "https://img.yna.co.kr/photo/etc/gt/2026/08/27/PGT20260827010201009_P2.jpg"
-    },
-    {
-      "title": "엔비디아 \"내년 매출 70% ↑…마진 72~73% 예상\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260827018551009",
-      "source": "연합뉴스 국제",
-      "ts": 1787791073000,
-      "pub": "Thu, 27 Aug 2026 09:37:53 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 엔비디아가 메모리 가격 급등에 매출총이익률 눈높이는 낮췄지만, 내년 매출이 70% 성장할 것이라는 전망에 힘입...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/08/27/PAP20260827067001009_P2.jpg"
-    },
-    {
-      "title": "젠슨 황 \"오픈AI 자체 개발 칩과 엔비디아 제품은 다른 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260827024900009",
-      "source": "연합뉴스 국제",
-      "ts": 1787790119000,
-      "pub": "Thu, 27 Aug 2026 09:21:59 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 주종국 기자 = 젠슨 황 엔비디아 최고경영자(CEO)는 오픈AI와 앤트로픽이 자체 개발하는 인공지능(AI) 칩과 엔비디아 제품...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/27/AKR20260827024900009_01_i_P2.jpg"
-    },
-    {
-      "title": "엔비디아, 메모리 가격 급등에 마진 가이던스 낮춰",
-      "link": "https://www.yna.co.kr/view/AKR20260827018500009",
-      "source": "연합뉴스 국제",
-      "ts": 1787785207000,
-      "pub": "Thu, 27 Aug 2026 08:00:07 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 엔비디아가 인공지능(AI) 프로세서 생산에 필요한 메모리 가격이 치솟자 향후 매출총이익률 목표 달성이 쉽지 않...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/08/27/PAP20260827067001009_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

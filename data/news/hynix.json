@@ -1,35 +1,43 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-27T23:18:58.914Z",
-  "count": 39,
+  "updated_at": "2026-08-28T07:26:53.400Z",
+  "count": 22,
   "items": [
     {
-      "title": "엔비디아 폭등에도, 메모리 하락한 이유…워시, 별말 없다? [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202608288145i",
+      "title": "코스피, 반도체주 약세에 6800선 내줘…외국인 1.7조 순매도",
+      "link": "https://www.hankyung.com/article/2026082897216",
       "source": "한국경제",
-      "ts": 1787871872000,
-      "pub": "Fri, 28 Aug 2026 08:04:32 +0900",
-      "sentiment": "positive"
+      "ts": 1787899222000,
+      "pub": "Fri, 28 Aug 2026 15:40:22 +0900",
+      "sentiment": "negative"
     },
     {
-      "title": "[마켓뷰] 연준 의장 잭슨홀 연설 주시…'엔비디아발 호재' 이어가나",
-      "link": "https://www.yna.co.kr/view/AKR20260828021100008",
+      "title": "[단독] 'K반도체 붐' 올라타는 고려아연, 반도체황산 라인 4만t 증설",
+      "link": "https://www.hankyung.com/article/202608289550i",
+      "source": "한국경제",
+      "ts": 1787897093000,
+      "pub": "Fri, 28 Aug 2026 15:04:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼전·닉스, 장초반 1%대 약세…엔비디아 약발 끝?",
+      "link": "https://www.yna.co.kr/view/AKR20260828044700008",
       "source": "연합뉴스 경제",
-      "ts": 1787871853000,
-      "pub": "Fri, 28 Aug 2026 08:04:13 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 케빈 워시 연방준비제도(Fed·연준) 의장의 잭슨홀 회의 연설을 앞둔 가운데 28일 코스피가 엔비디아 호실적에...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/27/PYH2026082715590001300_P2.jpg"
+      "ts": 1787877315000,
+      "pub": "Fri, 28 Aug 2026 09:35:15 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 28일 장 초반 1%대의 약세를 보인다.",
+      "image": "https://img.yna.co.kr/photo/cms/2026/02/04/84/PCM20260204000084990_P2.jpg"
     },
     {
-      "title": "\"메모리 더 줘\" 피크아웃 잠재운 엔비디아…불붙은 삼전닉스 호황 부채질",
-      "link": "https://www.mt.co.kr/industry/2026/08/28/2026082723025296066",
-      "source": "머니투데이",
-      "ts": 1787871600000,
-      "pub": "Fri, 28 Aug 2026 08:00:00 +0900",
-      "sentiment": "neutral",
-      "desc": "엔비디아 2분기 실적발표 (종합) ━\"메모리 더\" 엔비디아 구매 약정 2.3배 폭증…삼전·하이닉스 웃는다━ 엔비디아가 SK텔레콤·네이버·SK하이닉스 등 한국 주요 기업과의 'AI(인공지능) 동맹'을 실적 발표에서 부각했다. AI 투자 확대로 메모리 가격과 공급 부담이 ",
-      "image": "https://thumb.mt.co.kr/06/2026/08/2026082723025296066_1.jpg"
+      "title": "엔비디아 시총 610조원 급등…하루 상승폭 역대 2위",
+      "link": "https://www.yna.co.kr/view/AKR20260828023000009",
+      "source": "연합뉴스 국제",
+      "ts": 1787872656000,
+      "pub": "Fri, 28 Aug 2026 08:17:36 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 주종국 기자 = 엔비디아가 실적 발표 다음 날인 27일(이하 현지시간) 주가가 8.74% 급등하며 그간 '실적만 발표하면 주가...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/28/AKR20260828023000009_01_i_P2.jpg"
     },
     {
       "title": "엔비디아 8.7% 급등하며 기술주 랠리…나스닥 1.57%↑(종합2보)",
@@ -50,48 +58,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 정주호 기자 = 엔비디아가 중국의 오픈소스 인공지능(AI) 모델에 대한 하드웨어 지원을 강화하는 가운데 이런 지원이 미국 정부...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/08/28/PRU20260828027601009_P2.jpg"
-    },
-    {
-      "title": "\"엔비디아 실적, AI 우려 잠재웠다\"…나스닥, 1.57%↑ [뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/08/28/2026082806464676220",
-      "source": "머니투데이",
-      "ts": 1787868481000,
-      "pub": "Fri, 28 Aug 2026 07:08:01 +0900",
-      "sentiment": "negative",
-      "desc": "미국 뉴욕증시 3대 지수는 27일(현지시간) 엔비디아 호실적과 기술주 강세에 일제히 상승했다. 이날 뉴욕증시에서 다우존스산업평균지수는 전일 대비 0.20% 상승한 5만3569.44로 거래를 마쳤다. 대형주 중심의 스탠더드앤드푸어스(S&P)500지수는 0.72% 오른 7",
-      "image": "https://thumb.mt.co.kr/06/2026/08/2026082806464676220_1.jpg"
-    },
-    {
-      "title": "엔비디아 8.7% 급등…기술주 랠리에 나스닥 1.57%↑ [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026082881806",
-      "source": "한국경제",
-      "ts": 1787868184000,
-      "pub": "Fri, 28 Aug 2026 07:03:04 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "SK하이닉스, 미국산 HBM 생산 박차…美인디애나팹 착공",
-      "link": "https://www.hankyung.com/article/2026082881467",
-      "source": "한국경제",
-      "ts": 1787866594000,
-      "pub": "Fri, 28 Aug 2026 06:36:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'자해적' 반도체 관세 검토하는 美…대미투자 압박용인가 [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202608288135i",
-      "source": "한국경제",
-      "ts": 1787866307000,
-      "pub": "Fri, 28 Aug 2026 06:31:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"엔비디아 차세대 수요 선제 대응\"…심텍, 증설 결정에 '급등' [종목+]",
-      "link": "https://www.hankyung.com/article/2026082769986",
-      "source": "한국경제",
-      "ts": 1787866203000,
-      "pub": "Fri, 28 Aug 2026 06:30:03 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "엔비디아 8.7% 급등하며 기술주 랠리…나스닥 1.57%↑(종합)",
@@ -144,16 +110,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/28/AKR20260828004600071_02_i_P2.jpg"
     },
     {
-      "title": "금리인상에 엔비디아 효과 '무색'… 칠천피 탈환 실패",
-      "link": "https://www.mt.co.kr/stock/2026/08/28/2026082719384269839",
-      "source": "머니투데이",
-      "ts": 1787857200000,
-      "pub": "Fri, 28 Aug 2026 04:00:00 +0900",
-      "sentiment": "neutral",
-      "desc": "반도체 투심 회복에도 개인 1.9조 순매도… 1%대 상승 그쳐 한국은행 금융통화위원회가 기준금리를 3%로 인상하면서 미국발 '엔비디아 효과'를 상쇄하며 코스피지수가 1%대 오른 채 마감했다. 장 초반 3~4%대 상승한 삼성전자와 SK하이닉스는 상승폭을 줄인 채 거래를 ",
-      "image": "https://thumb.mt.co.kr/06/2026/08/2026082719384269839_1.jpg"
-    },
-    {
       "title": "엔비디아, 중간선거 앞두고 정치자금 모금기구 설립",
       "link": "https://www.yna.co.kr/view/AKR20260828003300091",
       "source": "연합뉴스 국제",
@@ -174,22 +130,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/28/AKR20260828000351071_02_i_P2.jpg"
     },
     {
-      "title": "\"美 트럼프 행정부, 수입 반도체 고율 관세 검토\"",
-      "link": "https://www.hankyung.com/article/2026082780231",
-      "source": "한국경제",
-      "ts": 1787849199000,
-      "pub": "Fri, 28 Aug 2026 01:46:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "곽노정 \"차세대 HBM, 2029년 美 인디애나 팹에서 본격 양산\"",
-      "link": "https://www.hankyung.com/article/202608278027i",
-      "source": "한국경제",
-      "ts": 1787844895000,
-      "pub": "Fri, 28 Aug 2026 00:34:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "SK하이닉스, 인디애나서 年수십만장 '메이드인 USA' HBM 만든다(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260827025551071",
       "source": "연합뉴스 국제",
@@ -198,100 +138,6 @@
       "sentiment": "neutral",
       "desc": "(웨스트라피엣=연합뉴스) 홍정규 특파원 = 인공지능(AI) 산업의 핵심 요소인 첨단 고대역폭 메모리(HBM)가 우리 기업...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/27/AKR20260827025551071_01_i_P2.jpg"
-    },
-    {
-      "title": "SK하이닉스, 美인디애나팹 착공…'메이드 인 USA' HBM 만든다",
-      "link": "https://www.yna.co.kr/view/AKR20260827025500071",
-      "source": "연합뉴스 국제",
-      "ts": 1787843614000,
-      "pub": "Fri, 28 Aug 2026 00:13:34 +0900",
-      "sentiment": "neutral",
-      "desc": "(웨스트라피엣=연합뉴스) 홍정규 특파원 = 인공지능(AI) 산업의 핵심 요소인 첨단 고대역폭 메모리(HBM)가 우리 기업...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/27/AKR20260827025500071_01_i_P2.jpg"
-    },
-    {
-      "title": "[속보] 곽노정 SK하이닉스 사장 \"미국서 연간 수십만장 HBM 만들 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260828000300071",
-      "source": "연합뉴스 국제",
-      "ts": 1787843373000,
-      "pub": "Fri, 28 Aug 2026 00:09:33 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
-    },
-    {
-      "title": "\"어닝서프라이즈론 부족\"…엔비디아의 끝없는 영토 확장 [박신영의 개장전 요것만]",
-      "link": "https://www.hankyung.com/article/202608278034i",
-      "source": "한국경제",
-      "ts": 1787842411000,
-      "pub": "Thu, 27 Aug 2026 23:53:31 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "SK하이닉스, 美 인디애나 팹 착공…AI 메모리 패키징 거점 구축",
-      "link": "https://www.hankyung.com/article/2026082777291",
-      "source": "한국경제",
-      "ts": 1787841870000,
-      "pub": "Thu, 27 Aug 2026 23:44:30 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕증시, 엔비디아 호실적에 상승 출발",
-      "link": "https://www.yna.co.kr/view/AKR20260827196500009",
-      "source": "연합뉴스 국제",
-      "ts": 1787838505000,
-      "pub": "Thu, 27 Aug 2026 22:48:25 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 윤정원 연합인포맥스 기자 = 뉴욕증시의 3대 주가지수는 엔비디아 실적 발표 이후 인공지능(AI) 산업에 대한 기대감이 다시 살...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/08/27/PAF20260827052701009_P2.jpg"
-    },
-    {
-      "title": "트럼프 정부, 반도체 고율관세 부과 검토…단계적 도입 가능 [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202608278015i",
-      "source": "한국경제",
-      "ts": 1787838059000,
-      "pub": "Thu, 27 Aug 2026 22:40:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"미 트럼프 행정부, 반도체 대상 고강도 관세 검토\"",
-      "link": "https://www.yna.co.kr/view/AKR20260827191100009",
-      "source": "연합뉴스 국제",
-      "ts": 1787831832000,
-      "pub": "Thu, 27 Aug 2026 20:57:12 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김아람 기자 = 미국 도널드 트럼프 행정부가 반도체를 대상으로 고강도 관세를 부과하는 방안을 검토 중이라고 미 정치 전문 매체...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2023/09/14/PEP20230914066601009_P2.jpg"
-    },
-    {
-      "title": "\"미국, 엔비디아 칩 중국 밀반출 혐의 싱가포르 업체 조사중\"",
-      "link": "https://www.yna.co.kr/view/AKR20260827149900009",
-      "source": "연합뉴스 국제",
-      "ts": 1787815213000,
-      "pub": "Thu, 27 Aug 2026 16:20:13 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 설원태 기자 = 미국 정부가 엔비디아의 인공지능(AI) 칩을 중국으로 반출한 혐의로 싱가포르에 본사를 둔 에이펙스 로지스틱스를...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/27/AKR20260827149900009_01_i_P2.jpg"
-    },
-    {
-      "title": "코스피, 엔비디아 호실적에 1%대 상승…금리인상에 상승폭 축소(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260827142951008",
-      "source": "연합뉴스 경제",
-      "ts": 1787815182000,
-      "pub": "Thu, 27 Aug 2026 16:19:42 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 코스피가 27일 글로벌 인공지능(AI) 대장주 엔비디아의 깜짝 호실적에 힘입어 장중 3% 가까이 급등했다가 한...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/27/PYH2026082715330001300_P2.jpg"
-    },
-    {
-      "title": "日 구마모토 강진 한 달…반도체 조기 복구 속 관광은 타격",
-      "link": "https://www.yna.co.kr/view/AKR20260827131100009",
-      "source": "연합뉴스 국제",
-      "ts": 1787810867000,
-      "pub": "Thu, 27 Aug 2026 15:07:47 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 최이락 기자 = 일본 구마모토 강진이 오는 28일로 한 달을 맞이한다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/27/AKR20260827131100009_01_i_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

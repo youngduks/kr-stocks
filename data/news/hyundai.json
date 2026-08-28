@@ -1,8 +1,30 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-08-27T23:18:58.914Z",
-  "count": 9,
+  "updated_at": "2026-08-28T07:26:53.400Z",
+  "count": 10,
   "items": [
+    {
+      "title": "현대모비스, 하나은행·기술보증기금과 상생보증 협약 체결",
+      "link": "https://www.hankyung.com/article/202608289465g",
+      "source": "한국경제",
+      "ts": 1787894491000,
+      "pub": "Fri, 28 Aug 2026 14:21:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대자동차(주) 기업설명회(IR) 개최(안내공시)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=117159088&code=005380&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1787875200000,
+      "pub": "2026.08.28"
+    },
+    {
+      "title": "현대자동차(주) 기업설명회(IR) 개최(안내공시)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=117153860&code=005380&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1787875200000,
+      "pub": "2026.08.28"
+    },
     {
       "title": "\"오토봇 출동하라\"…옵티머스 프라임 목소리 주인공 컬런 별세",
       "link": "https://www.yna.co.kr/view/AKR20260828019700075",
@@ -54,20 +76,6 @@
       "source": "전자공시(DART)",
       "ts": 1785283200000,
       "pub": "2026.07.29"
-    },
-    {
-      "title": "현대자동차(주) 생산중단",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=78962652&code=005380&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1784851200000,
-      "pub": "2026.07.24"
-    },
-    {
-      "title": "현대자동차(주) 공정거래 자율준수프로그램 운영현황(안내공시)",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=76798800&code=005380&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1784764800000,
-      "pub": "2026.07.23"
     }
   ]
 }

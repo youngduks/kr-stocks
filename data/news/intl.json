@@ -1,8 +1,58 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-29T02:33:09.826Z",
-  "count": 37,
+  "updated_at": "2026-08-29T09:29:53.104Z",
+  "count": 33,
   "items": [
+    {
+      "title": "트럼프 주시하는데 예산은 빠듯…영국 GDP 3% 국방비 난항",
+      "link": "https://www.yna.co.kr/view/AKR20260829042800085",
+      "source": "연합뉴스 국제",
+      "ts": 1787993781000,
+      "pub": "Sat, 29 Aug 2026 17:56:21 +0900",
+      "sentiment": "neutral",
+      "desc": "(런던=연합뉴스) 김지연 특파원 = 도널드 트럼프 미국 대통령이 유럽의 자력 방위 강화를 압박하는 가운데 영국이 국내총생산(GDP)의 3%를 국...",
+      "image": "https://img.yna.co.kr/photo/ap/2024/05/16/PAP20240516283201009_P2.jpg"
+    },
+    {
+      "title": "이란 \"외교·국방 앞세워 美·이스라엘 제재·압박에 강력 대응\"",
+      "link": "https://www.yna.co.kr/view/AKR20260829040500079",
+      "source": "연합뉴스 국제",
+      "ts": 1787990761000,
+      "pub": "Sat, 29 Aug 2026 17:06:01 +0900",
+      "sentiment": "negative",
+      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 이란 정부는 세예드 아야톨라 모즈타바 하메네이 최고지도자의 지침에 따라 외교와 국방을 두 축으로 미국과 시...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/29/AKR20260829040500079_01_i_P2.jpg"
+    },
+    {
+      "title": "\"시진핑·푸틴, 31일 비슈케크서 회담…'시베리아의 힘2' 논의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260829038600083",
+      "source": "연합뉴스 국제",
+      "ts": 1787988406000,
+      "pub": "Sat, 29 Aug 2026 16:26:46 +0900",
+      "sentiment": "neutral",
+      "desc": "(베이징=연합뉴스) 김현정 특파원 = 시진핑 중국 국가주석과 블라디미르 푸틴 러시아 대통령이 오는 31일 키르기스스탄 수도 비슈케크에서 만나 '...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/05/21/PAP20260521000301009_P2.jpg"
+    },
+    {
+      "title": "\"러, 우크라전 사상자 급증에 병력 매월 6천명씩 순감\"",
+      "link": "https://www.yna.co.kr/view/AKR20260829036300009",
+      "source": "연합뉴스 국제",
+      "ts": 1787985625000,
+      "pub": "Sat, 29 Aug 2026 15:40:25 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이신영 기자 = 우크라이나를 침공한 러시아의 병력 순감소 규모가 최근 월 6천여명에 이르고 있는 것으로 추정된다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/29/AKR20260829036300009_01_i_P2.jpg"
+    },
+    {
+      "title": "美, 베네수엘라와 석유 합의…트럼프 \"매장원유에 과반 통제권\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260829018051071",
+      "source": "연합뉴스 국제",
+      "ts": 1787978077000,
+      "pub": "Sat, 29 Aug 2026 13:34:37 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴·서울=연합뉴스) 박성민 특파원 오수진 기자 = 도널드 트럼프 미국 대통령은 28일(현지시간) 원유 자원이 풍부한 베네수엘라와 석유 거래...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/08/29/PAP20260829104001009_P2.jpg"
+    },
     {
       "title": "트럼프 \"베네수엘라 석유 650억배럴 과반 통제권 확보\"",
       "link": "https://www.hankyung.com/article/2026082906937",
@@ -82,14 +132,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/29/AKR20260829016500071_01_i_P2.jpg"
     },
     {
-      "title": "워시, 9월 인상 시사?…증시 하락 이유 : \"Fed와 싸우지 마라\" [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202608290496i",
-      "source": "한국경제",
-      "ts": 1787958486000,
-      "pub": "Sat, 29 Aug 2026 08:08:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프 행정부, 美유학생 인턴십까지 제한…취업길 틀어막기",
       "link": "https://www.yna.co.kr/view/AKR20260829006300075",
       "source": "연합뉴스 국제",
@@ -118,14 +160,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 28일(현지시간) 미국에 '우주 사관학교'(U.S. Space Academy)...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/29/AKR20260829003551071_02_i_P2.jpg"
-    },
-    {
-      "title": "'정면 돌파' 택한 워시, 트럼프도 뚫을 수 있나…시장에선 '합격점' [Fed 워치]",
-      "link": "https://www.hankyung.com/article/202608290452i",
-      "source": "한국경제",
-      "ts": 1787940286000,
-      "pub": "Sat, 29 Aug 2026 03:04:46 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "트럼프 \"우주군 사관학교 창설…우주는 경제·안보에 필수\"",
@@ -158,16 +192,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/29/AKR20260829002600071_03_i_P2.jpg"
     },
     {
-      "title": "고물가에 꺾인 美경제심리…연준 의장도 우려 '통화긴축 시사'",
-      "link": "https://www.mt.co.kr/world/2026/08/29/2026082901024472084",
-      "source": "머니투데이",
-      "ts": 1787933163000,
-      "pub": "Sat, 29 Aug 2026 01:06:03 +0900",
-      "sentiment": "negative",
-      "desc": "미국 소비자들의 경제 심리가 고물가와 경기 침체 우려 속에 3개월 만에 하락세로 돌아섰다. 인플레이션 고착화와 중동 불안에 따른 지정학적 불확실성이 가계의 구매력을 압박하는 가운데 연방준비제도(Fed·연준)도 물가잡기에 총력을 기울이겠다는 뜻을 재확인했다. 미 미시간대",
-      "image": "https://thumb.mt.co.kr/06/2026/08/2026082901024472084_1.jpg"
-    },
-    {
       "title": "워시 연준의장 \"美 물가지표 더욱 우려\"…추가 긴축 시사(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260828180452072",
       "source": "연합뉴스 국제",
@@ -188,40 +212,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/29/AKR20260829000900108_01_i_P2.jpg"
     },
     {
-      "title": "美연준 의장 \"물가 우려\"에 시장 요동…9월 금리인상 확률 35%→59%",
-      "link": "https://www.mt.co.kr/world/2026/08/29/2026082900155840506",
-      "source": "머니투데이",
-      "ts": 1787930786000,
-      "pub": "Sat, 29 Aug 2026 00:26:26 +0900",
-      "sentiment": "negative",
-      "desc": "[잭슨홀미팅] 케빈 워시 미국 연방준비제도(Fed·연준) 의장이 28일(현지시간) 취임 후 첫 잭슨홀 경제 심포지엄(잭슨홀 미팅) 기조연설에서 인플레이션 재발 가능성을 강하게 경계하면서 시장에서는 오는 9월 기준금리가 인상될 수 있다는 관측이 빠르게 확대됐다. 워시 의",
-      "image": "https://thumb.mt.co.kr/06/2026/08/2026082900155840506_2.jpg"
-    },
-    {
-      "title": "워시 이렇게 매파였나 \"인플레 유의미하게 개선 안돼…Fed 할 일 남았다\" [잭슨홀]",
-      "link": "https://www.hankyung.com/article/202608290430i",
-      "source": "한국경제",
-      "ts": 1787930587000,
-      "pub": "Sat, 29 Aug 2026 00:23:07 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "워시 연준 의장, 美 높은 물가상승률에 \"우려스럽다\"",
-      "link": "https://www.hankyung.com/article/2026082804217",
-      "source": "한국경제",
-      "ts": 1787928694000,
-      "pub": "Fri, 28 Aug 2026 23:51:34 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[속보] 워시 Fed 의장 \"물가지표 상당히 하락…기조적 흐름 개선됐다 보기 어려워\"",
-      "link": "https://www.hankyung.com/article/202608280422i",
-      "source": "한국경제",
-      "ts": 1787928581000,
-      "pub": "Fri, 28 Aug 2026 23:49:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"제재로 이란 굴복 어려워…선거 앞둔 트럼프, 일종의 가짜전쟁\"",
       "link": "https://www.yna.co.kr/view/AKR20260828181800071",
       "source": "연합뉴스 국제",
@@ -230,14 +220,6 @@
       "sentiment": "negative",
       "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 6개월이 넘은 이란 전쟁을 두고 미국 언론에서는 애초의 목표가 달성되지 못했고 경제적 압박 작전으로도 마무...",
       "image": "https://img.yna.co.kr/photo/etc/af/2026/08/22/PAF20260822090201009_P2.jpg"
-    },
-    {
-      "title": "[속보] 워시 Fed 의장 \"기조인플레 하락폭 충분치 않아.. Fed 해야 할 일 남은 것\"",
-      "link": "https://www.hankyung.com/article/202608280420i",
-      "source": "한국경제",
-      "ts": 1787928472000,
-      "pub": "Fri, 28 Aug 2026 23:47:52 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "워시 연준 의장, 美 높은 물가상승률에 \"우려스럽다\"",
@@ -348,16 +330,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김용래 기자 = 도널드 트럼프 미국 대통령이 다음 달 뉴욕의 그라운드제로에서 열리는 9·11 추모행사에 참석하지 않는 대신 미...",
       "image": "https://img.yna.co.kr/photo/ap/2026/08/28/PAP20260828056101009_P2.jpg"
-    },
-    {
-      "title": "美연방법원, 트럼프 '우편투표 제한조치'에 다시 효력정지",
-      "link": "https://www.yna.co.kr/view/AKR20260828121300009",
-      "source": "연합뉴스 국제",
-      "ts": 1787899011000,
-      "pub": "Fri, 28 Aug 2026 15:36:51 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 장재은 기자 = 도널드 트럼프 미국 대통령이 오는 11월 중간선거를 앞두고 추진하는 우편투표 제한 조치에 다시 제동이 걸렸다....",
-      "image": "https://img.yna.co.kr/photo/ap/2026/06/03/PAP20260603057201009_P2.jpg"
     }
   ]
 }

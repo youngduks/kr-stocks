@@ -1,8 +1,24 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-29T22:53:27.636Z",
-  "count": 28,
+  "updated_at": "2026-08-30T00:52:17.437Z",
+  "count": 29,
   "items": [
+    {
+      "title": "트럼프 \"베네수엘라 650억배럴 원유 매장량에 미국 통제권 확보\"",
+      "link": "https://www.hankyung.com/article/202608301197i",
+      "source": "한국경제",
+      "ts": 1788047454000,
+      "pub": "Sun, 30 Aug 2026 08:50:54 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "워시, '금리 인하' 압박 트럼프에 맞설까…시장은 '인상' 베팅",
+      "link": "https://www.hankyung.com/article/2026083012517",
+      "source": "한국경제",
+      "ts": 1788045533000,
+      "pub": "Sun, 30 Aug 2026 08:18:53 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "워시, '금리인하 압박' 트럼프와 충돌하나…\"9월 FOMC 시험대\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260830003151072",
@@ -272,16 +288,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김승욱 기자 = 캐나다가 오랜 북미 우호 상징이던 '트럼프 거리' 명칭을 '타코 거리'로 바꾸는 방안을 추진하면서 양국 간 관...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/28/AKR20260828172300009_01_i_P2.jpg"
-    },
-    {
-      "title": "스코틀랜드 트럼프 골프장 파손 시위대에…英검찰 \"테러 연관성\"",
-      "link": "https://www.yna.co.kr/view/AKR20260828163500085",
-      "source": "연합뉴스 국제",
-      "ts": 1787910570000,
-      "pub": "Fri, 28 Aug 2026 18:49:30 +0900",
-      "sentiment": "neutral",
-      "desc": "(런던=연합뉴스) 김지연 특파원 = 영국 스코틀랜드 검찰이 작년 도널드 트럼프 미국 대통령의 골프장에서 과격한 시위를 벌인 친팔레스타인 활동가들...",
-      "image": "https://img.yna.co.kr/photo/ap/2025/07/28/PAP20250728300601009_P2.jpg"
     }
   ]
 }

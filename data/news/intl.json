@@ -1,23 +1,17 @@
 {
   "category": "intl",
-  "updated_at": "2026-08-30T00:52:17.437Z",
-  "count": 29,
+  "updated_at": "2026-08-30T06:01:36.298Z",
+  "count": 21,
   "items": [
     {
-      "title": "트럼프 \"베네수엘라 650억배럴 원유 매장량에 미국 통제권 확보\"",
-      "link": "https://www.hankyung.com/article/202608301197i",
-      "source": "한국경제",
-      "ts": 1788047454000,
-      "pub": "Sun, 30 Aug 2026 08:50:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "워시, '금리 인하' 압박 트럼프에 맞설까…시장은 '인상' 베팅",
-      "link": "https://www.hankyung.com/article/2026083012517",
-      "source": "한국경제",
-      "ts": 1788045533000,
-      "pub": "Sun, 30 Aug 2026 08:18:53 +0900",
-      "sentiment": "neutral"
+      "title": "베네수 정치권, 트럼프 원유 눈독에 반발…與도 \"역사적 약탈\"",
+      "link": "https://www.yna.co.kr/view/AKR20260830023300009",
+      "source": "연합뉴스 국제",
+      "ts": 1788056645000,
+      "pub": "Sun, 30 Aug 2026 11:24:05 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김승욱 기자 = 도널드 트럼프 미국 행정부가 베네수엘라의 대규모 유전 개발권을 확보하는 내용의 협정을 맺은 데 대해 베네수엘라...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/08/29/PAF20260829123101009_P2.jpg"
     },
     {
       "title": "워시, '금리인하 압박' 트럼프와 충돌하나…\"9월 FOMC 시험대\"(종합)",
@@ -218,76 +212,6 @@
       "sentiment": "neutral",
       "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 러시아가 우크라이나의 최대 보드카 공장 중 한 곳을 공습해 큰 피해가 났다고 우크라이나 매체 NV, 키이...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/29/AKR20260829000900108_01_i_P2.jpg"
-    },
-    {
-      "title": "\"제재로 이란 굴복 어려워…선거 앞둔 트럼프, 일종의 가짜전쟁\"",
-      "link": "https://www.yna.co.kr/view/AKR20260828181800071",
-      "source": "연합뉴스 국제",
-      "ts": 1787928524000,
-      "pub": "Fri, 28 Aug 2026 23:48:44 +0900",
-      "sentiment": "negative",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 6개월이 넘은 이란 전쟁을 두고 미국 언론에서는 애초의 목표가 달성되지 못했고 경제적 압박 작전으로도 마무...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/08/22/PAF20260822090201009_P2.jpg"
-    },
-    {
-      "title": "워시 연준 의장, 美 높은 물가상승률에 \"우려스럽다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260828180451072",
-      "source": "연합뉴스 국제",
-      "ts": 1787926782000,
-      "pub": "Fri, 28 Aug 2026 23:19:42 +0900",
-      "sentiment": "negative",
-      "desc": "(잭슨홀=연합뉴스) 김연숙 특파원 = 케빈 워시 미국 연방준비제도(Fed·연준) 의장은 28일(현지시간) 미국의 높은...",
-      "image": "https://img.yna.co.kr/photo/etc/gt/2026/08/28/PGT20260828123401009_P2.jpg"
-    },
-    {
-      "title": "[속보] 워시 연준의장 \"현 금융여건, 긴축적이라 보기 어려워\"",
-      "link": "https://www.yna.co.kr/view/AKR20260828180500072",
-      "source": "연합뉴스 국제",
-      "ts": 1787926157000,
-      "pub": "Fri, 28 Aug 2026 23:09:17 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
-    },
-    {
-      "title": "[속보] 워시 연준의장, 美물가상승률에 \"우려스럽다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260828180400072",
-      "source": "연합뉴스 국제",
-      "ts": 1787926134000,
-      "pub": "Fri, 28 Aug 2026 23:08:54 +0900",
-      "sentiment": "negative",
-      "desc": "nomad@yna.co.kr\n(끝)",
-      "image": "https://img.yna.co.kr/photo/etc/gt/2026/08/28/PGT20260828123401009_P2.jpg"
-    },
-    {
-      "title": "'중간선거 비상'에 美전역 도는 트럼프 장관들…효과는 '글쎄'",
-      "link": "https://www.yna.co.kr/view/AKR20260828178700071",
-      "source": "연합뉴스 국제",
-      "ts": 1787925521000,
-      "pub": "Fri, 28 Aug 2026 22:58:41 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 11월 중간선거를 두 달여 남기고 지지율 추락으로 비상이 걸린 도널드 트럼프 미국 대통령이 행정부 장관들을...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/28/AKR20260828178700071_01_i_P2.jpg"
-    },
-    {
-      "title": "\"러, '우크라 드론전' 스타링크 무력화 시스템 대량 생산\"",
-      "link": "https://www.yna.co.kr/view/AKR20260828177600108",
-      "source": "연합뉴스 국제",
-      "ts": 1787924023000,
-      "pub": "Fri, 28 Aug 2026 22:33:43 +0900",
-      "sentiment": "neutral",
-      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 러시아가 우크라이나의 스타링크 통신망을 무력화할 수 있는 최신 전자전 시스템 '볼나 쿠폴 가란트'(Wav...",
-      "image": "https://img.yna.co.kr/photo/ap/2025/09/25/PAP20250925231401009_P2.jpg"
-    },
-    {
-      "title": "\"트럼프 거리→타코 거리로 바꿀까\" 캐나다, 美 개명 신경전",
-      "link": "https://www.yna.co.kr/view/AKR20260828172300009",
-      "source": "연합뉴스 국제",
-      "ts": 1787916967000,
-      "pub": "Fri, 28 Aug 2026 20:36:07 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김승욱 기자 = 캐나다가 오랜 북미 우호 상징이던 '트럼프 거리' 명칭을 '타코 거리'로 바꾸는 방안을 추진하면서 양국 간 관...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/28/AKR20260828172300009_01_i_P2.jpg"
     }
   ]
 }

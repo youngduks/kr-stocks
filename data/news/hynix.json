@@ -1,15 +1,25 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-30T06:01:36.300Z",
-  "count": 11,
+  "updated_at": "2026-08-30T12:23:09.333Z",
+  "count": 12,
   "items": [
     {
-      "title": "\"'반도체 플러스'로 진화하는 韓 증시…'잠자는 호랑이'에 주목하라\"",
-      "link": "https://www.hankyung.com/article/202608290967i",
+      "title": "반도체 소재 CCL 수출, 올 42% 급증…두산·LG·롯데 '방긋'",
+      "link": "https://www.hankyung.com/article/2026083019061",
       "source": "한국경제",
-      "ts": 1788065565000,
-      "pub": "Sun, 30 Aug 2026 13:52:45 +0900",
+      "ts": 1788080983000,
+      "pub": "Sun, 30 Aug 2026 18:09:43 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "중국 CXMT, '차세대 모바일 D램' LPDDR6 양산…샤오미폰에 탑재",
+      "link": "https://www.yna.co.kr/view/AKR20260830044700089",
+      "source": "연합뉴스 국제",
+      "ts": 1788075430000,
+      "pub": "Sun, 30 Aug 2026 16:37:10 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 삼성전자와 SK하이닉스가 주도하는 세계 D램 반도체 시장에 도전하고 있는 중국 창신메모리(CXMT)가 차세...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/30/AKR20260830044700089_03_i_P2.jpg"
     },
     {
       "title": "원화 강세 힘받나…IIF \"반도체 호조로 코로나 전 수준 회복\"",

@@ -1,33 +1,71 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-31T01:05:42.391Z",
-  "count": 12,
+  "updated_at": "2026-08-31T07:49:18.831Z",
+  "count": 16,
   "items": [
     {
-      "title": "7월 생산·소비 주춤…반도체 훈풍에 설비투자 5개월만에 껑충(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260831014452002",
+      "title": "최태원 깜짝 발표에 일본 '들썩'…\"반도체 공장 설립 검토\"",
+      "link": "https://www.hankyung.com/article/202608314032g",
+      "source": "한국경제",
+      "ts": 1788158901000,
+      "pub": "Mon, 31 Aug 2026 15:48:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "호남반도체 '2030 양산' 로드맵 공개…부지·전력용수 동시구축",
+      "link": "https://www.yna.co.kr/view/AKR20260831134800054",
       "source": "연합뉴스 경제",
-      "ts": 1788136371000,
-      "pub": "Mon, 31 Aug 2026 09:32:51 +0900",
+      "ts": 1788158750000,
+      "pub": "Mon, 31 Aug 2026 15:45:50 +0900",
       "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 김수현 안채원 송정은 기자 = 7월 산업생산과 소비가 주춤했다.",
+      "desc": "(전남광주=연합뉴스) 박철홍 기자 = 호남권 반도체 클러스터 조성을 위해 전체 산업단지 개발을 기다리지 않고 우선 착공이 가능한 약 63만평의 ...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/13/PYH2026071316540005400_P2.jpg"
+    },
+    {
+      "title": "\"AI 반도체, 관건은 에너지\"…어플라이드가 내놓은 '해법' [현장+]",
+      "link": "https://www.hankyung.com/article/202608313612g",
+      "source": "한국경제",
+      "ts": 1788156420000,
+      "pub": "Mon, 31 Aug 2026 15:07:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "최태원 SK 회장 \"일본에 반도체 합작공장 설립 검토\"",
+      "link": "https://www.yna.co.kr/view/AKR20260831118600009",
+      "source": "연합뉴스 국제",
+      "ts": 1788155498000,
+      "pub": "Mon, 31 Aug 2026 14:51:38 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 주종국 기자 = SK하이닉스가 일본에 반도체 합작공장 설립을 검토 중이라고 최태원 SK그룹 회장이 31일 밝혔다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/31/PYH2026083110760001300_P2.jpg"
+    },
+    {
+      "title": "반도체 보너스로 테슬라·명품 산다…한은 \"내년 GDP 최대 0.12% 증가\"",
+      "link": "https://www.hankyung.com/article/2026083138777",
+      "source": "한국경제",
+      "ts": 1788155247000,
+      "pub": "Mon, 31 Aug 2026 14:47:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한은 \"반도체 성과급 받아 동탄에 집 사고 테슬라 탄다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260831085500002",
+      "source": "연합뉴스 경제",
+      "ts": 1788145200000,
+      "pub": "Mon, 31 Aug 2026 12:00:00 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 한지훈 기자 = 삼성전자[005930]와 SK하이닉스[000660] 성과급 확대에 따른 소비 증가로 내년 실질 국내총생산(GD...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/07/PYH2026070703200001300_P2.jpg"
+    },
+    {
+      "title": "7월 생산·소비 주춤…반도체 훈풍에 설비투자 두달 연속 껑충(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260831014453002",
+      "source": "연합뉴스 경제",
+      "ts": 1788139305000,
+      "pub": "Mon, 31 Aug 2026 10:21:45 +0900",
+      "sentiment": "neutral",
+      "desc": "(세종=연합뉴스) 이대희 김수현 안채원 기자 = 7월 산업생산과 소비가 주춤했다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/24/PYH2026072405350006100_P2.jpg"
-    },
-    {
-      "title": "'혼돈의 증시'에 삼성 사고 하이닉스 팔았다…'1% 초고수' 속내는",
-      "link": "https://www.hankyung.com/article/202608312563i",
-      "source": "한국경제",
-      "ts": 1788134348000,
-      "pub": "Mon, 31 Aug 2026 08:59:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI 메모리 품귀 올라탄 中 CXMT…상반기 매출 10배 폭증",
-      "link": "https://www.hankyung.com/article/202608312720i",
-      "source": "한국경제",
-      "ts": 1788134268000,
-      "pub": "Mon, 31 Aug 2026 08:57:48 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "중국 CXMT, '차세대 모바일 D램' LPDDR6 양산…샤오미폰에 탑재",

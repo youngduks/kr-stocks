@@ -1,8 +1,26 @@
 {
   "category": "samsung",
-  "updated_at": "2026-08-31T07:49:18.831Z",
-  "count": 9,
+  "updated_at": "2026-08-31T15:36:48.679Z",
+  "count": 10,
   "items": [
+    {
+      "title": "화웨이, 상반기 순이익 36% 급감…\"R&D 투자·메모리 원가 부담\"",
+      "link": "https://www.hankyung.com/article/2026083149107",
+      "source": "한국경제",
+      "ts": 1788181430000,
+      "pub": "Mon, 31 Aug 2026 22:03:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "화웨이, 상반기 순이익 36%↓…\"메모리값 상승·R&D 확대 여파\"",
+      "link": "https://www.yna.co.kr/view/AKR20260831173500089",
+      "source": "연합뉴스 국제",
+      "ts": 1788174676000,
+      "pub": "Mon, 31 Aug 2026 20:11:16 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 미중 기술 경쟁의 첨병인 중국 통신장비업체 화웨이의 올해 상반기(1∼6월) 순이익이 급감한 것으로 나타났다...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/31/AKR20260831173500089_01_i_P2.jpg"
+    },
     {
       "title": "미국발 삭풍에 장초반 하락했던 삼전·닉스, 1%대 상승 마감(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260831038851008",
@@ -22,14 +40,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 이민영 기자 = 미국 금리 인상 우려에 개장 직후 한때 급락했던 코스피가 31일 상승 전환에 성공, 6,800대를 회복한 채 ...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/31/PYH2026083114330001300_P2.jpg"
-    },
-    {
-      "title": "삼전닉스 팔아치운 외국인…대신 쓸어담은 이 종목",
-      "link": "https://www.hankyung.com/article/202608313871i",
-      "source": "한국경제",
-      "ts": 1788158918000,
-      "pub": "Mon, 31 Aug 2026 15:48:38 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

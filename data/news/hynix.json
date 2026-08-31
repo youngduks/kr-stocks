@@ -1,15 +1,41 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-31T07:49:18.831Z",
-  "count": 16,
+  "updated_at": "2026-08-31T15:36:48.679Z",
+  "count": 15,
   "items": [
     {
-      "title": "최태원 깜짝 발표에 일본 '들썩'…\"반도체 공장 설립 검토\"",
-      "link": "https://www.hankyung.com/article/202608314032g",
+      "title": "엔비디아, 대만 반도체업체 미디어텍에 4.8조원 투자",
+      "link": "https://www.hankyung.com/article/202608314903i",
       "source": "한국경제",
-      "ts": 1788158901000,
-      "pub": "Mon, 31 Aug 2026 15:48:21 +0900",
+      "ts": 1788182375000,
+      "pub": "Mon, 31 Aug 2026 22:19:35 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "화웨이, 상반기 순이익 36% 급감…\"R&D 투자·메모리 원가 부담\"",
+      "link": "https://www.hankyung.com/article/2026083149107",
+      "source": "한국경제",
+      "ts": 1788181430000,
+      "pub": "Mon, 31 Aug 2026 22:03:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"330만원→240만원\" 충격 리포트…SK하이닉스 주주 '패닉' [종목+]",
+      "link": "https://www.hankyung.com/article/2026083143326",
+      "source": "한국경제",
+      "ts": 1788181204000,
+      "pub": "Mon, 31 Aug 2026 22:00:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "화웨이, 상반기 순이익 36%↓…\"메모리값 상승·R&D 확대 여파\"",
+      "link": "https://www.yna.co.kr/view/AKR20260831173500089",
+      "source": "연합뉴스 국제",
+      "ts": 1788174676000,
+      "pub": "Mon, 31 Aug 2026 20:11:16 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 미중 기술 경쟁의 첨병인 중국 통신장비업체 화웨이의 올해 상반기(1∼6월) 순이익이 급감한 것으로 나타났다...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/31/AKR20260831173500089_01_i_P2.jpg"
     },
     {
       "title": "호남반도체 '2030 양산' 로드맵 공개…부지·전력용수 동시구축",
@@ -22,14 +48,6 @@
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/13/PYH2026071316540005400_P2.jpg"
     },
     {
-      "title": "\"AI 반도체, 관건은 에너지\"…어플라이드가 내놓은 '해법' [현장+]",
-      "link": "https://www.hankyung.com/article/202608313612g",
-      "source": "한국경제",
-      "ts": 1788156420000,
-      "pub": "Mon, 31 Aug 2026 15:07:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "최태원 SK 회장 \"일본에 반도체 합작공장 설립 검토\"",
       "link": "https://www.yna.co.kr/view/AKR20260831118600009",
       "source": "연합뉴스 국제",
@@ -40,14 +58,6 @@
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/31/PYH2026083110760001300_P2.jpg"
     },
     {
-      "title": "반도체 보너스로 테슬라·명품 산다…한은 \"내년 GDP 최대 0.12% 증가\"",
-      "link": "https://www.hankyung.com/article/2026083138777",
-      "source": "한국경제",
-      "ts": 1788155247000,
-      "pub": "Mon, 31 Aug 2026 14:47:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "한은 \"반도체 성과급 받아 동탄에 집 사고 테슬라 탄다\"",
       "link": "https://www.yna.co.kr/view/AKR20260831085500002",
       "source": "연합뉴스 경제",
@@ -56,26 +66,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 한지훈 기자 = 삼성전자[005930]와 SK하이닉스[000660] 성과급 확대에 따른 소비 증가로 내년 실질 국내총생산(GD...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/07/PYH2026070703200001300_P2.jpg"
-    },
-    {
-      "title": "7월 생산·소비 주춤…반도체 훈풍에 설비투자 두달 연속 껑충(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20260831014453002",
-      "source": "연합뉴스 경제",
-      "ts": 1788139305000,
-      "pub": "Mon, 31 Aug 2026 10:21:45 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 이대희 김수현 안채원 기자 = 7월 산업생산과 소비가 주춤했다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/24/PYH2026072405350006100_P2.jpg"
-    },
-    {
-      "title": "중국 CXMT, '차세대 모바일 D램' LPDDR6 양산…샤오미폰에 탑재",
-      "link": "https://www.yna.co.kr/view/AKR20260830044700089",
-      "source": "연합뉴스 국제",
-      "ts": 1788075430000,
-      "pub": "Sun, 30 Aug 2026 16:37:10 +0900",
-      "sentiment": "neutral",
-      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 삼성전자와 SK하이닉스가 주도하는 세계 D램 반도체 시장에 도전하고 있는 중국 창신메모리(CXMT)가 차세...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/30/AKR20260830044700089_03_i_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

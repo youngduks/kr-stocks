@@ -1,8 +1,25 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-08-31T07:49:18.832Z",
-  "count": 9,
+  "updated_at": "2026-08-31T15:36:48.680Z",
+  "count": 11,
   "items": [
+    {
+      "title": "중노위 \"현대차, 대리점 영업사원과 교섭 의무 없다\"…초심 유지",
+      "link": "https://www.hankyung.com/article/2026083149127",
+      "source": "한국경제",
+      "ts": 1788182437000,
+      "pub": "Mon, 31 Aug 2026 22:20:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코나아이 \"종속회사 KONA에 303억원 출자\"",
+      "link": "https://www.yna.co.kr/view/AKR20260831166900008",
+      "source": "연합뉴스 경제",
+      "ts": 1788168399000,
+      "pub": "Mon, 31 Aug 2026 18:26:39 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 코스닥 상장사 코나아이[052400]는 자회사 지분의 취득.보유.관리 및 경영자문업 등 종속회사(KONA America Hol..."
+    },
     {
       "title": "105억 국민안전산업펀드 1호 결성 추진…운용사는 현대차증권",
       "link": "https://www.yna.co.kr/view/AKR20260831034400530",

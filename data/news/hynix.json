@@ -1,8 +1,34 @@
 {
   "category": "hynix",
-  "updated_at": "2026-08-30T22:59:08.888Z",
-  "count": 10,
+  "updated_at": "2026-08-31T01:05:42.391Z",
+  "count": 12,
   "items": [
+    {
+      "title": "7월 생산·소비 주춤…반도체 훈풍에 설비투자 5개월만에 껑충(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260831014452002",
+      "source": "연합뉴스 경제",
+      "ts": 1788136371000,
+      "pub": "Mon, 31 Aug 2026 09:32:51 +0900",
+      "sentiment": "neutral",
+      "desc": "(세종=연합뉴스) 김수현 안채원 송정은 기자 = 7월 산업생산과 소비가 주춤했다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/24/PYH2026072405350006100_P2.jpg"
+    },
+    {
+      "title": "'혼돈의 증시'에 삼성 사고 하이닉스 팔았다…'1% 초고수' 속내는",
+      "link": "https://www.hankyung.com/article/202608312563i",
+      "source": "한국경제",
+      "ts": 1788134348000,
+      "pub": "Mon, 31 Aug 2026 08:59:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI 메모리 품귀 올라탄 中 CXMT…상반기 매출 10배 폭증",
+      "link": "https://www.hankyung.com/article/202608312720i",
+      "source": "한국경제",
+      "ts": 1788134268000,
+      "pub": "Mon, 31 Aug 2026 08:57:48 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "중국 CXMT, '차세대 모바일 D램' LPDDR6 양산…샤오미폰에 탑재",
       "link": "https://www.yna.co.kr/view/AKR20260830044700089",
@@ -12,16 +38,6 @@
       "sentiment": "neutral",
       "desc": "(상하이=연합뉴스) 차병섭 특파원 = 삼성전자와 SK하이닉스가 주도하는 세계 D램 반도체 시장에 도전하고 있는 중국 창신메모리(CXMT)가 차세...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/08/30/AKR20260830044700089_03_i_P2.jpg"
-    },
-    {
-      "title": "원화 강세 힘받나…IIF \"반도체 호조로 코로나 전 수준 회복\"",
-      "link": "https://www.yna.co.kr/view/AKR20260829032700002",
-      "source": "연합뉴스 경제",
-      "ts": 1788036781000,
-      "pub": "Sun, 30 Aug 2026 05:53:01 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 임지우 기자 = 반도체 수출 호조와 한국은행의 선제적인 기준금리 인상에 원화 추가 강세 전망이 커지고 있다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/27/PYH2026082715480001300_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

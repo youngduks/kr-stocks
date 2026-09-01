@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-01T21:31:14.628Z",
-  "count": 10,
+  "updated_at": "2026-09-01T23:38:32.319Z",
+  "count": 13,
   "items": [
+    {
+      "title": "\"삼전닉스 말고 이거 샀네\"…외국인이 쓸어담은 의외의 종목",
+      "link": "https://www.hankyung.com/article/202609017606i",
+      "source": "한국경제",
+      "ts": 1788303612000,
+      "pub": "Wed, 02 Sep 2026 08:00:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"한국 없으면 AI도 없다\"…미·중 무역전쟁 판 뒤집을 'HBM의 힘'",
+      "link": "https://www.hankyung.com/article/202609017058i",
+      "source": "한국경제",
+      "ts": 1788303607000,
+      "pub": "Wed, 02 Sep 2026 08:00:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"김용범 사퇴로 끝날 일 아냐\"…삼전닉스 레버리지 정조준 [분석+]",
+      "link": "https://www.hankyung.com/article/2026090173606",
+      "source": "한국경제",
+      "ts": 1788298204000,
+      "pub": "Wed, 02 Sep 2026 06:30:04 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "中TCL, 美법원에 삼성전자 제소…'미니LED TV 허위광고' 주장",
       "link": "https://www.yna.co.kr/view/AKR20260902003200075",

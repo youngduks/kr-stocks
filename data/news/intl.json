@@ -1,8 +1,44 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-01T21:31:14.627Z",
-  "count": 20,
+  "updated_at": "2026-09-01T23:38:32.318Z",
+  "count": 22,
   "items": [
+    {
+      "title": "백악관 \"트럼프, 김정은과 전제조건 없는 대화에 열려있다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260902023600071",
+      "source": "연합뉴스 국제",
+      "ts": 1788304166000,
+      "pub": "Wed, 2 Sep 2026 08:09:26 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 송상호 특파원 = 백악관은 1일(현지시간) 북한과의 전제조건 없는 대화에 열려있다는 방침을 재확인했다.",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/08/24/PRU20260824194701009_P2.jpg"
+    },
+    {
+      "title": "\"한국 없으면 AI도 없다\"…미·중 무역전쟁 판 뒤집을 'HBM의 힘'",
+      "link": "https://www.hankyung.com/article/202609017058i",
+      "source": "한국경제",
+      "ts": 1788303607000,
+      "pub": "Wed, 02 Sep 2026 08:00:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키, '러 영공 마비' 경고…푸틴은 '보복·협상 거부' 맞불",
+      "link": "https://www.hankyung.com/article/2026090281147",
+      "source": "한국경제",
+      "ts": 1788299882000,
+      "pub": "Wed, 02 Sep 2026 06:58:02 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"우크라 드론에 러 영공 폐쇄될 것\" vs \"국가 테러에 대응\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260902004651108",
+      "source": "연합뉴스 국제",
+      "ts": 1788298186000,
+      "pub": "Wed, 2 Sep 2026 06:29:46 +0900",
+      "sentiment": "neutral",
+      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령이 러시아에 대한 공세를 예고하자 블라디미르 푸틴 러시아 대통령이 격...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/25/PYH2026082500040010800_P2.jpg"
+    },
     {
       "title": "트럼프 옛 안보보좌관 볼턴 \"트럼프, 평양서 김정은 만나려 할 것\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260902001651071",
@@ -21,7 +57,7 @@
       "pub": "Wed, 2 Sep 2026 04:14:35 +0900",
       "sentiment": "neutral",
       "desc": "(카이로=연합뉴스) 김상훈 특파원 = 베냐민 네타냐후 이스라엘 총리가 2023년 10월 7일 팔레스타인 무장 정파 하마스의 기습 공격 당일 아침...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/02/AKR20260902005500079_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/08/10/PAF20260810095401009_P2.jpg"
     },
     {
       "title": "러 \"11월 APEC서 트럼프·시진핑·푸틴 3자회담 가능성\"",
@@ -41,7 +77,7 @@
       "pub": "Wed, 2 Sep 2026 03:50:49 +0900",
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 1일(현지시간) 미군이 이란군에 표적 공습을 가한 것을 정당한 조처라고 주장하...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/02/AKR20260902004700071_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/01/PEP20260901082501009_P2.jpg"
     },
     {
       "title": "\"우크라 드론 대거 출현해 러시아 영공 닫힐 것\"…젤렌스키 경고",
@@ -182,26 +218,6 @@
       "sentiment": "neutral",
       "desc": "(세종=연합뉴스) 안채원 기자 = 관세청이 내년도 예산안을 7천284억원 규모로 편성했다고 1일 밝혔다.",
       "image": "https://img.yna.co.kr/photo/cms/2024/12/28/79/PCM20241228000079640_P2.jpg"
-    },
-    {
-      "title": "美中회담 앞두고 트럼프 측근 상원의원 방중…테크업체들 방문",
-      "link": "https://www.yna.co.kr/view/AKR20260901101400083",
-      "source": "연합뉴스 국제",
-      "ts": 1788232935000,
-      "pub": "Tue, 1 Sep 2026 12:22:15 +0900",
-      "sentiment": "neutral",
-      "desc": "(베이징=연합뉴스) 정성조 특파원 = 미중 정상회담을 앞두고 도널드 트럼프 미국 대통령의 측근으로 통하는 스티브 데인스 미 연방 상원의원(공화·...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/01/AKR20260901101400083_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프, 애플에 직접 연락해 '아메리카호'로 변경 요구",
-      "link": "https://www.yna.co.kr/view/AKR20260901099000009",
-      "source": "연합뉴스 국제",
-      "ts": 1788230736000,
-      "pub": "Tue, 1 Sep 2026 11:45:36 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김용래 기자 = 도널드 트럼프 미국 대통령이 애플에 직접 연락해 지도 애플리케이션에서 온타리오호(Lake Ontario)를 아...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/08/30/PRU20260830183301009_P2.jpg"
     }
   ]
 }

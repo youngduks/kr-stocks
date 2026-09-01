@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-01T21:31:14.629Z",
-  "count": 12,
+  "updated_at": "2026-09-01T23:38:32.320Z",
+  "count": 13,
   "items": [
+    {
+      "title": "\"한국 없으면 AI도 없다\"…미·중 무역전쟁 판 뒤집을 'HBM의 힘'",
+      "link": "https://www.hankyung.com/article/202609017058i",
+      "source": "한국경제",
+      "ts": 1788303607000,
+      "pub": "Wed, 02 Sep 2026 08:00:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중동 긴장 유가 급등에 채권 매도세까지…美 반도체주 하락 [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026090281486",
+      "source": "한국경제",
+      "ts": 1788301619000,
+      "pub": "Wed, 02 Sep 2026 07:26:59 +0900",
+      "sentiment": "positive"
+    },
     {
       "title": "한일 경제안보대화 도쿄서 개최…\"AI·반도체 육성 협력 모색\"",
       "link": "https://www.yna.co.kr/view/AKR20260901165100001",
@@ -22,16 +38,6 @@
       "sentiment": "neutral",
       "desc": "(상하이=연합뉴스) 차병섭 특파원 = 메모리 반도체 가격이 고공행진을 계속하자 중국 휴대전화 제조업체들이 최근 일제히 제품 가격을 인상했다.",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/01/AKR20260901164800089_01_i_P2.jpg"
-    },
-    {
-      "title": "엔비디아, 대만 미디어텍에 4조7천억원 투자…\"파트너십 확대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260901107300009",
-      "source": "연합뉴스 국제",
-      "ts": 1788238801000,
-      "pub": "Tue, 1 Sep 2026 14:00:01 +0900",
-      "sentiment": "neutral",
-      "desc": "(타이베이=연합뉴스) 김철문 통신원 = 인공지능(AI) 반도체 1위 기업 엔비디아가 대만의 반도체 설계 전문(팹리스) 미디어텍에 35억 달러(약...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/01/AKR20260901107300009_01_i_P2.jpg"
     },
     {
       "title": "광주은행, 'Wa 반도체 전담 TF' 출범",

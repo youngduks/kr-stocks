@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-02T01:46:48.495Z",
-  "count": 11,
+  "updated_at": "2026-09-02T06:33:36.270Z",
+  "count": 10,
   "items": [
+    {
+      "title": "[단독] 삼전 배당으로 '실탄' 마련한 삼성 보험형제, 해외 기업 사냥 '승부수'",
+      "link": "https://www.hankyung.com/article/202609029515i",
+      "source": "한국경제",
+      "ts": 1788327005000,
+      "pub": "Wed, 02 Sep 2026 14:30:05 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "고프로, 미 광학부품업체에 매각…메모리값·中경쟁에 고전",
       "link": "https://www.yna.co.kr/view/AKR20260902031900009",
@@ -24,14 +32,6 @@
       "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
     },
     {
-      "title": "반도체株 또 휘청…삼전닉스, 유가·금리·中 HBM '3중고'",
-      "link": "https://www.hankyung.com/article/2026090285486",
-      "source": "한국경제",
-      "ts": 1788308732000,
-      "pub": "Wed, 02 Sep 2026 09:25:32 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "中TCL, 美법원에 삼성전자 제소…'미니LED TV 허위광고' 주장",
       "link": "https://www.yna.co.kr/view/AKR20260902003200075",
       "source": "연합뉴스 국제",
@@ -40,16 +40,6 @@
       "sentiment": "neutral",
       "desc": "(로스앤젤레스=연합뉴스) 김경윤 특파원 = 중국 최대 TV 업체인 TCL이 삼성전자의 '미니 LED' TV 관련 허위 광고로 인해 시장 점유율을...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/15/PYH2026041504880001300_P2.jpg"
-    },
-    {
-      "title": "메모리값 고공행진에…中업체들, 휴대전화 가격 일제히 인상",
-      "link": "https://www.yna.co.kr/view/AKR20260901164800089",
-      "source": "연합뉴스 국제",
-      "ts": 1788248768000,
-      "pub": "Tue, 1 Sep 2026 16:46:08 +0900",
-      "sentiment": "neutral",
-      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 메모리 반도체 가격이 고공행진을 계속하자 중국 휴대전화 제조업체들이 최근 일제히 제품 가격을 인상했다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/01/AKR20260901164800089_01_i_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

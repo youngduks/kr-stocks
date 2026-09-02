@@ -1,8 +1,28 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-09-02T01:46:48.497Z",
-  "count": 14,
+  "updated_at": "2026-09-02T06:33:36.271Z",
+  "count": 13,
   "items": [
+    {
+      "title": "현대차 노사, 올해 임금교섭 조인식 \"생산에 노사 역량 집중\"",
+      "link": "https://www.yna.co.kr/view/AKR20260902121100057",
+      "source": "연합뉴스 경제",
+      "ts": 1788329744000,
+      "pub": "Wed, 2 Sep 2026 15:15:44 +0900",
+      "sentiment": "neutral",
+      "desc": "(울산=연합뉴스) 김근주 기자 = 현대자동차 노사는 2일 울산공장 본관 동행룸에서 최영일 대표이사와 이종철 노조지부장 등 노사 교섭대표가 참석한...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/02/AKR20260902121100057_01_i_P2.jpg"
+    },
+    {
+      "title": "기아, 8월 미국서 역대 최다 판매…현대차는 1.9% 감소(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260902006251075",
+      "source": "연합뉴스 국제",
+      "ts": 1788314995000,
+      "pub": "Wed, 2 Sep 2026 11:09:55 +0900",
+      "sentiment": "neutral",
+      "desc": "(로스앤젤레스·서울=연합뉴스) 김경윤 특파원 홍규빈 기자 = 기아가 지난 8월 미국 시장에서 월간 판매량 기준 최고 실적을 냈다. 현대차는 뒷걸...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/02/AKR20260902006251075_01_i_P2.jpg"
+    },
     {
       "title": "코스콤, 현대차증권과 토큰증권 사업 협력 MOU",
       "link": "https://www.yna.co.kr/view/AKR20260902058600008",
@@ -12,32 +32,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김유향 기자 = 코스콤은 현대차증권[001500]과 토큰증권 플랫폼 사업 추진을 위한 업무협약(MOU)을 체결했다고 2일 밝혔...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/02/AKR20260902058600008_01_i_P2.jpg"
-    },
-    {
-      "title": "코스콤·현대차증권, 토큰증권 공동플랫폼 사업 업무협약 체결",
-      "link": "https://www.hankyung.com/article/2026090287676",
-      "source": "한국경제",
-      "ts": 1788310509000,
-      "pub": "Wed, 02 Sep 2026 09:55:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'찜통 버스'서 고생하는 경찰관들…현대차의 특별한 선물",
-      "link": "https://www.hankyung.com/article/202609028478g",
-      "source": "한국경제",
-      "ts": 1788308516000,
-      "pub": "Wed, 02 Sep 2026 09:21:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "신영증권 \"현기차, 8월 판매 희비…현대차 2017년 이후 최저\"",
-      "link": "https://www.yna.co.kr/view/AKR20260902026500008",
-      "source": "연합뉴스 경제",
-      "ts": 1788305771000,
-      "pub": "Wed, 2 Sep 2026 08:36:11 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정회인 기자 = 신영증권은 2일 현대차[005380]와 기아[000270]의 지난달 판매 실적이 크게 엇갈렸다며 완성차 업종 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2024/01/25/PYH2024012515640001300_P2.jpg"
     },
     {
       "title": "기아, 미국서 역대 月판매량 최고 기록…현대차는 주춤",

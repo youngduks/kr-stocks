@@ -1,10 +1,28 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-02T11:49:05.967Z",
-  "count": 14,
+  "updated_at": "2026-09-02T15:30:13.907Z",
+  "count": 16,
   "items": [
     {
-      "title": "\"엔비디아,오픈소스AI 플랫폼 허깅페이스 19조원에 인수\"",
+      "title": "美상무장관, '반도체 표적관세' 예고…\"美서 안만들면 대가\"",
+      "link": "https://www.yna.co.kr/view/AKR20260902181600071",
+      "source": "연합뉴스 국제",
+      "ts": 1788362432000,
+      "pub": "Thu, 3 Sep 2026 00:20:32 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 하워드 러트닉 미국 상무부 장관은 2일(현지시간) 반도체 제품을 대상으로 한 관세 부과가 검토되고 있다고 ...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/02/PAF20260902223601009_P2.jpg"
+    },
+    {
+      "title": "러트닉 \"수입 반도체 관세 부과 방안 검토 중\"…또 대미투자 압박",
+      "link": "https://www.hankyung.com/article/202609020591i",
+      "source": "한국경제",
+      "ts": 1788353449000,
+      "pub": "Wed, 02 Sep 2026 21:50:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"엔비디아, 오픈소스 AI 플랫폼 허깅페이스 19조원에 인수\"",
       "link": "https://www.hankyung.com/article/202609020518i",
       "source": "한국경제",
       "ts": 1788346994000,

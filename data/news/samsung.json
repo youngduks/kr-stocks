@@ -1,15 +1,17 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-02T06:33:36.270Z",
-  "count": 10,
+  "updated_at": "2026-09-02T11:49:05.967Z",
+  "count": 8,
   "items": [
     {
-      "title": "[단독] 삼전 배당으로 '실탄' 마련한 삼성 보험형제, 해외 기업 사냥 '승부수'",
-      "link": "https://www.hankyung.com/article/202609029515i",
-      "source": "한국경제",
-      "ts": 1788327005000,
-      "pub": "Wed, 02 Sep 2026 14:30:05 +0900",
-      "sentiment": "neutral"
+      "title": "[특징주] '자사주 매입'에도 중동 긴장 재고조 속 삼전·닉스 4%대↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260902041151008",
+      "source": "연합뉴스 경제",
+      "ts": 1788332192000,
+      "pub": "Wed, 2 Sep 2026 15:56:32 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 삼성전자[005930]와 SK하이닉스[000660] 주가가 2일 비교적 큰 폭으로 하락 마감했다.",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
     },
     {
       "title": "고프로, 미 광학부품업체에 매각…메모리값·中경쟁에 고전",
@@ -20,26 +22,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 정주호 기자 = 경영난을 겪는 액션카메라 업체 고프로(GoPro)가 미국 광학부품 업체 스타먼 옵티컬에 경영권을 넘긴다.",
       "image": "https://img.yna.co.kr/photo/etc/gt/2018/01/10/PGT20180110057401003_P2.jpg"
-    },
-    {
-      "title": "[특징주] 중동 긴장 재고조에 삼전·닉스 장초반 2∼3%대 하락",
-      "link": "https://www.yna.co.kr/view/AKR20260902041100008",
-      "source": "연합뉴스 경제",
-      "ts": 1788309128000,
-      "pub": "Wed, 2 Sep 2026 09:32:08 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 2일 삼성전자[005930]와 SK하이닉스[000660] 주가가 장 초반 2∼3%대의 낙폭을 보이며 동반 하락...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
-    },
-    {
-      "title": "中TCL, 美법원에 삼성전자 제소…'미니LED TV 허위광고' 주장",
-      "link": "https://www.yna.co.kr/view/AKR20260902003200075",
-      "source": "연합뉴스 국제",
-      "ts": 1788287037000,
-      "pub": "Wed, 2 Sep 2026 03:23:57 +0900",
-      "sentiment": "neutral",
-      "desc": "(로스앤젤레스=연합뉴스) 김경윤 특파원 = 중국 최대 TV 업체인 TCL이 삼성전자의 '미니 LED' TV 관련 허위 광고로 인해 시장 점유율을...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/15/PYH2026041504880001300_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

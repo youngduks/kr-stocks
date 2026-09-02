@@ -1,7 +1,7 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-09-02T06:33:36.271Z",
-  "count": 13,
+  "updated_at": "2026-09-02T11:49:05.968Z",
+  "count": 12,
   "items": [
     {
       "title": "현대차 노사, 올해 임금교섭 조인식 \"생산에 노사 역량 집중\"",
@@ -24,24 +24,18 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/02/AKR20260902006251075_01_i_P2.jpg"
     },
     {
-      "title": "코스콤, 현대차증권과 토큰증권 사업 협력 MOU",
-      "link": "https://www.yna.co.kr/view/AKR20260902058600008",
-      "source": "연합뉴스 경제",
-      "ts": 1788311209000,
-      "pub": "Wed, 2 Sep 2026 10:06:49 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 코스콤은 현대차증권[001500]과 토큰증권 플랫폼 사업 추진을 위한 업무협약(MOU)을 체결했다고 2일 밝혔...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/02/AKR20260902058600008_01_i_P2.jpg"
+      "title": "현대자동차(주) 공매도 과열종목 지정(공매도 거래 금지 적용)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=120915257&code=005380&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1788307200000,
+      "pub": "2026.09.02"
     },
     {
-      "title": "기아, 미국서 역대 月판매량 최고 기록…현대차는 주춤",
-      "link": "https://www.yna.co.kr/view/AKR20260902006200075",
-      "source": "연합뉴스 국제",
-      "ts": 1788293399000,
-      "pub": "Wed, 2 Sep 2026 05:09:59 +0900",
-      "sentiment": "neutral",
-      "desc": "(로스앤젤레스=연합뉴스) 김경윤 특파원 = 기아가 지난 8월 미국 시장에서 월간 판매량 기준 최고 실적을 냈다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/02/AKR20260902006200075_01_i_P2.jpg"
+      "title": "현대자동차(주) 생산재개(자율공시)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=120683609&code=005380&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1788307200000,
+      "pub": "2026.09.02"
     },
     {
       "title": "현대자동차(주) 영업(잠정)실적(공정공시)",
@@ -98,13 +92,6 @@
       "source": "전자공시(DART)",
       "ts": 1785456000000,
       "pub": "2026.07.31"
-    },
-    {
-      "title": "현대자동차(주) 풍문 또는 보도에 대한 해명(미확정)",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=82554518&code=005380&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1785283200000,
-      "pub": "2026.07.29"
     }
   ]
 }

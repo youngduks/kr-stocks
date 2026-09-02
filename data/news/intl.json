@@ -1,8 +1,68 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-02T15:30:13.906Z",
-  "count": 6,
+  "updated_at": "2026-09-02T19:02:30.504Z",
+  "count": 11,
   "items": [
+    {
+      "title": "트럼프, 對이란 공격 재개에 \"너무 오래가지는 않을 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260903004451071",
+      "source": "연합뉴스 국제",
+      "ts": 1788374306000,
+      "pub": "Thu, 3 Sep 2026 03:38:26 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령은 2일(현지시간) 이란 공격을 최근 재개한 것과 관련해 \"너무 오래가지는 않을 ...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/03/PAF20260903065701009_P2.jpg"
+    },
+    {
+      "title": "[속보] 트럼프, 對이란 공격 재개에 \"너무 오래 가지는 않을 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260903004400071",
+      "source": "연합뉴스 국제",
+      "ts": 1788373444000,
+      "pub": "Thu, 3 Sep 2026 03:24:04 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
+    },
+    {
+      "title": "트럼프 \"美가 통제하는 호르무즈, '트럼프 해협'으로 바꿀까\"",
+      "link": "https://www.yna.co.kr/view/AKR20260903001400071",
+      "source": "연합뉴스 국제",
+      "ts": 1788367569000,
+      "pub": "Thu, 3 Sep 2026 01:46:09 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 2일(현지시간) 또 한 번 호르무즈 해협을 '트럼프 해협'(TRUMP STRA...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/03/AKR20260903001400071_01_i_P2.jpg"
+    },
+    {
+      "title": "'트럼프 얼굴' 1달러 금빛 동전, 개당 2천∼3천원에 판매 개시",
+      "link": "https://www.yna.co.kr/view/AKR20260903000800071",
+      "source": "연합뉴스 국제",
+      "ts": 1788365026000,
+      "pub": "Thu, 3 Sep 2026 01:03:46 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 미국 건국 250주년을 기념해 도널드 트럼프 미국 대통령의 얼굴을 새긴 1달러짜리 금빛 동전 판매가 2일 ...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/02/PAP20260902245501009_P2.jpg"
+    },
+    {
+      "title": "캐나다, 대미 관세전쟁 속 기준금리 7회 연속 2.25%로 동결",
+      "link": "https://www.yna.co.kr/view/AKR20260903000300072",
+      "source": "연합뉴스 국제",
+      "ts": 1788363108000,
+      "pub": "Thu, 3 Sep 2026 00:31:48 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 캐나다 중앙은행이 미국과의 관세전쟁 등으로 촉발된 경제 환경 불확실성 속에서 2일(현지시간) 기준금리를 7회...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/03/AKR20260903000300072_01_i_P2.jpg"
+    },
+    {
+      "title": "이스라엘 국방 \"가자지구 주민 외부 이주 지원 준비돼\"",
+      "link": "https://www.yna.co.kr/view/AKR20260903000700079",
+      "source": "연합뉴스 국제",
+      "ts": 1788363046000,
+      "pub": "Thu, 3 Sep 2026 00:30:46 +0900",
+      "sentiment": "neutral",
+      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 이스라엘 카츠 이스라엘 국방부 장관은 2일(현지시간) 팔레스타인 가자지구 주민들의 대규모 외부 이주를 지원...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/03/AKR20260903000700079_01_i_P2.jpg"
+    },
     {
       "title": "美상무장관, '반도체 표적관세' 예고…\"美서 안만들면 대가\"",
       "link": "https://www.yna.co.kr/view/AKR20260902181600071",
@@ -50,16 +110,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 임화섭 기자 = 미국의 외교 전문지 포린폴리시(FP)가 미국 도널드 트럼프 행정부가 최근 베네수엘라 정부와 맺은 '석유 합의'...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/02/AKR20260902139600009_03_i_P2.jpg"
-    },
-    {
-      "title": "애플도 '온타리오호→아메리카호' 변경…트럼프 행정명령 반영",
-      "link": "https://www.yna.co.kr/view/AKR20260902049000009",
-      "source": "연합뉴스 국제",
-      "ts": 1788310208000,
-      "pub": "Wed, 2 Sep 2026 09:50:08 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 고일환 기자 = 애플이 도널드 트럼프 미국 대통령의 행정명령에 따라 '온타리오호(湖)'의 명칭을 '아메리카호'로 변경했다.",
-      "image": "https://img.yna.co.kr/photo/ap/2026/08/31/PAP20260831169501009_P2.jpg"
     }
   ]
 }

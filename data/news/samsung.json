@@ -1,30 +1,34 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-01T23:38:32.319Z",
-  "count": 13,
+  "updated_at": "2026-09-02T01:46:48.495Z",
+  "count": 11,
   "items": [
     {
-      "title": "\"삼전닉스 말고 이거 샀네\"…외국인이 쓸어담은 의외의 종목",
-      "link": "https://www.hankyung.com/article/202609017606i",
-      "source": "한국경제",
-      "ts": 1788303612000,
-      "pub": "Wed, 02 Sep 2026 08:00:12 +0900",
-      "sentiment": "neutral"
+      "title": "고프로, 미 광학부품업체에 매각…메모리값·中경쟁에 고전",
+      "link": "https://www.yna.co.kr/view/AKR20260902031900009",
+      "source": "연합뉴스 국제",
+      "ts": 1788310024000,
+      "pub": "Wed, 2 Sep 2026 09:47:04 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 경영난을 겪는 액션카메라 업체 고프로(GoPro)가 미국 광학부품 업체 스타먼 옵티컬에 경영권을 넘긴다.",
+      "image": "https://img.yna.co.kr/photo/etc/gt/2018/01/10/PGT20180110057401003_P2.jpg"
     },
     {
-      "title": "\"한국 없으면 AI도 없다\"…미·중 무역전쟁 판 뒤집을 'HBM의 힘'",
-      "link": "https://www.hankyung.com/article/202609017058i",
-      "source": "한국경제",
-      "ts": 1788303607000,
-      "pub": "Wed, 02 Sep 2026 08:00:07 +0900",
-      "sentiment": "neutral"
+      "title": "[특징주] 중동 긴장 재고조에 삼전·닉스 장초반 2∼3%대 하락",
+      "link": "https://www.yna.co.kr/view/AKR20260902041100008",
+      "source": "연합뉴스 경제",
+      "ts": 1788309128000,
+      "pub": "Wed, 2 Sep 2026 09:32:08 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 2일 삼성전자[005930]와 SK하이닉스[000660] 주가가 장 초반 2∼3%대의 낙폭을 보이며 동반 하락...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
     },
     {
-      "title": "\"김용범 사퇴로 끝날 일 아냐\"…삼전닉스 레버리지 정조준 [분석+]",
-      "link": "https://www.hankyung.com/article/2026090173606",
+      "title": "반도체株 또 휘청…삼전닉스, 유가·금리·中 HBM '3중고'",
+      "link": "https://www.hankyung.com/article/2026090285486",
       "source": "한국경제",
-      "ts": 1788298204000,
-      "pub": "Wed, 02 Sep 2026 06:30:04 +0900",
+      "ts": 1788308732000,
+      "pub": "Wed, 02 Sep 2026 09:25:32 +0900",
       "sentiment": "neutral"
     },
     {
@@ -46,26 +50,6 @@
       "sentiment": "neutral",
       "desc": "(상하이=연합뉴스) 차병섭 특파원 = 메모리 반도체 가격이 고공행진을 계속하자 중국 휴대전화 제조업체들이 최근 일제히 제품 가격을 인상했다.",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/01/AKR20260901164800089_01_i_P2.jpg"
-    },
-    {
-      "title": "삼전·닉스 자사주 매입에 또 '전약후강'…코스피, 6,830선 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260901154900008",
-      "source": "연합뉴스 경제",
-      "ts": 1788247108000,
-      "pub": "Tue, 1 Sep 2026 16:18:28 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이민영 기자 = 중동 긴장 재고조에 하락하던 코스피가 1일 삼성전자·SK하이닉스 자사주 매입 효과에 힘입어 상승 전환, 6,8...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/01/PYH2026090117650001300_P2.jpg"
-    },
-    {
-      "title": "삼성전자, 장초반 약세 딛고 소폭 상승 마감…하닉도 1.1%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260901044051008",
-      "source": "연합뉴스 경제",
-      "ts": 1788245723000,
-      "pub": "Tue, 1 Sep 2026 15:55:23 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 장 초반 약세를 딛고 상승 전환에 성공하며 정규장 거래를...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/24/43/PCM20260624000043990_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

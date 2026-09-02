@@ -1,8 +1,16 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-09-02T19:02:30.506Z",
+  "updated_at": "2026-09-02T22:05:33.582Z",
   "count": 12,
   "items": [
+    {
+      "title": "'국민 아빠차' 쏘렌토 턱밑까지 쫓아왔다…기아 '전기차 돌풍'",
+      "link": "https://www.hankyung.com/article/202609029781g",
+      "source": "한국경제",
+      "ts": 1788382828000,
+      "pub": "Thu, 03 Sep 2026 06:00:28 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "현대차 노사, 올해 임금교섭 조인식 \"생산에 노사 역량 집중\"",
       "link": "https://www.yna.co.kr/view/AKR20260902121100057",
@@ -12,16 +20,6 @@
       "sentiment": "neutral",
       "desc": "(울산=연합뉴스) 김근주 기자 = 현대자동차 노사는 2일 울산공장 본관 동행룸에서 최영일 대표이사와 이종철 노조지부장 등 노사 교섭대표가 참석한...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/02/AKR20260902121100057_01_i_P2.jpg"
-    },
-    {
-      "title": "기아, 8월 미국서 역대 최다 판매…현대차는 1.9% 감소(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260902006251075",
-      "source": "연합뉴스 국제",
-      "ts": 1788314995000,
-      "pub": "Wed, 2 Sep 2026 11:09:55 +0900",
-      "sentiment": "neutral",
-      "desc": "(로스앤젤레스·서울=연합뉴스) 김경윤 특파원 홍규빈 기자 = 기아가 지난 8월 미국 시장에서 월간 판매량 기준 최고 실적을 냈다. 현대차는 뒷걸...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/02/AKR20260902006251075_01_i_P2.jpg"
     },
     {
       "title": "현대자동차(주) 공매도 과열종목 지정(공매도 거래 금지 적용)",

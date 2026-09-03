@@ -1,8 +1,74 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-03T14:46:19.732Z",
-  "count": 18,
+  "updated_at": "2026-09-03T18:11:12.574Z",
+  "count": 24,
   "items": [
+    {
+      "title": "젤렌스키 경고 직후 모스크바 향해 드론 수백기 발사",
+      "link": "https://www.yna.co.kr/view/AKR20260904003400108",
+      "source": "연합뉴스 국제",
+      "ts": 1788458605000,
+      "pub": "Fri, 4 Sep 2026 03:03:25 +0900",
+      "sentiment": "negative",
+      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령이 \"러시아 영공이 폐쇄될 것\"이라며 대공세를 예고한 직후 러시아 수...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/08/27/PRU20260827275201009_P2.jpg"
+    },
+    {
+      "title": "이스라엘 극우장관의 총선 공약?…'가자 주민 이주' 계획 공개",
+      "link": "https://www.yna.co.kr/view/AKR20260904002600079",
+      "source": "연합뉴스 국제",
+      "ts": 1788454775000,
+      "pub": "Fri, 4 Sep 2026 01:59:35 +0900",
+      "sentiment": "neutral",
+      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 이스라엘 집권 연정 내 대표적인 극우 성향 정치인인 이타마르 벤그비르 국가안보장관이 3일(현지시간) 가자지...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/04/AKR20260904002600079_01_i_P2.jpg"
+    },
+    {
+      "title": "트럼프 \"나토·우크라에 공짜로 넘어간 수천억불 요구할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260904001300071",
+      "source": "연합뉴스 국제",
+      "ts": 1788452646000,
+      "pub": "Fri, 4 Sep 2026 01:24:06 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령은 3일(현지시간) 우크라이나와 북대서양조약기구(NATO·나토)에 수천억 달러를 ...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/03/PEP20260903122701009_P2.jpg"
+    },
+    {
+      "title": "상무장관 '이란전 실언'에 트럼프 직접 수습·본인도 공개사과(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260903181451071",
+      "source": "연합뉴스 국제",
+      "ts": 1788448739000,
+      "pub": "Fri, 4 Sep 2026 00:18:59 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 하워드 러트닉 미국 상무부 장관이 '이란 전쟁에서 미국인 사망자가 없었다'는 발언으로 논란을 빚자 도널드 ...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/09/03/PRU20260903152001009_P2.jpg"
+    },
+    {
+      "title": "美부통령 \"적대국 공급망 의존하면 보상없고 트럼프 친구못돼\"",
+      "link": "https://www.yna.co.kr/view/AKR20260903186300071",
+      "source": "연합뉴스 국제",
+      "ts": 1788448024000,
+      "pub": "Fri, 4 Sep 2026 00:07:04 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = JD 밴스 미국 부통령은 3일(현지시간) 미국에 투자하면 보상을 받겠지만 반대의 경우에는 불이익을 입을 수...",
+      "image": "https://img.yna.co.kr/photo/etc/gt/2026/09/03/PGT20260903193601009_P2.jpg"
+    },
+    {
+      "title": "월러 美 Fed 이사, 금리 동결 지지 시사",
+      "link": "https://www.hankyung.com/article/2026090332141",
+      "source": "한국경제",
+      "ts": 1788448008000,
+      "pub": "Fri, 04 Sep 2026 00:06:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"전쟁도 안 하는데 저출산\"…푸틴, 출산율 강조하며 한국 소환",
+      "link": "https://www.hankyung.com/article/2026090332257",
+      "source": "한국경제",
+      "ts": 1788447428000,
+      "pub": "Thu, 03 Sep 2026 23:57:08 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "월러 연준 이사 \"8월 물가 둔화 지속하면 9월 동결 지지\"",
       "link": "https://www.yna.co.kr/view/AKR20260903185900072",
@@ -168,16 +234,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 고일환 기자 = 도널드 트럼프 대통령이 퇴임한 후에도 플로리다주 마러라고 자택 근처 상공의 항공기 운항 제한이 유지될 가능성이...",
       "image": "https://img.yna.co.kr/photo/ap/2026/08/21/PAP20260821087701009_P2.jpg"
-    },
-    {
-      "title": "베네수 임시대통령 \"준비됐을 때 대선\"…트럼프와 발맞추나",
-      "link": "https://www.yna.co.kr/view/AKR20260903012400087",
-      "source": "연합뉴스 국제",
-      "ts": 1788386531000,
-      "pub": "Thu, 3 Sep 2026 07:02:11 +0900",
-      "sentiment": "neutral",
-      "desc": "(멕시코시티=연합뉴스) 송광호 특파원 = 델시 로드리게스 베네수엘라 임시대통령은 일각에서 제기되는 조기 대선 요구에 대해 베네수엘라가 준비를 마...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/03/AKR20260903012400087_01_i_P2.jpg"
     }
   ]
 }

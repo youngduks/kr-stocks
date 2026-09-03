@@ -1,8 +1,44 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-03T10:16:51.228Z",
-  "count": 20,
+  "updated_at": "2026-09-03T14:46:19.732Z",
+  "count": 18,
   "items": [
+    {
+      "title": "월러 연준 이사 \"8월 물가 둔화 지속하면 9월 동결 지지\"",
+      "link": "https://www.yna.co.kr/view/AKR20260903185900072",
+      "source": "연합뉴스 국제",
+      "ts": 1788446010000,
+      "pub": "Thu, 3 Sep 2026 23:33:30 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 크리스토퍼 월러 미 연방준비제도(Fed·연준) 이사가 3일(현지시간) 향후 물가 지표에서 인플레이션 압력 완...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/03/AKR20260903185900072_01_i_P2.jpg"
+    },
+    {
+      "title": "트럼프 압박에…정부 '군사적 기여' 꺼내나",
+      "link": "https://www.hankyung.com/article/2026090331881",
+      "source": "한국경제",
+      "ts": 1788443682000,
+      "pub": "Thu, 03 Sep 2026 22:54:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"한국은 전쟁도 안 하는데…\" 푸틴, 콕 집어 언급한 이유가",
+      "link": "https://www.hankyung.com/article/2026090331527",
+      "source": "한국경제",
+      "ts": 1788438538000,
+      "pub": "Thu, 03 Sep 2026 21:28:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이스라엘 국방 \"이란이 공격시 인프라 타격…암흑기 만들 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260903175500079",
+      "source": "연합뉴스 국제",
+      "ts": 1788433532000,
+      "pub": "Thu, 3 Sep 2026 20:05:32 +0900",
+      "sentiment": "neutral",
+      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 미국과 이란 간 무력 대치 속에 이스라엘 국방부 장관이 연일 이란을 자극하며 참전 의지를 불태우고 있다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/03/AKR20260903175500079_01_i_P2.jpg"
+    },
     {
       "title": "푸틴 \"한국 출산율, 러의 절반 수준…우리도 충분하진 않아\"",
       "link": "https://www.yna.co.kr/view/AKR20260903169800108",
@@ -22,14 +58,6 @@
       "sentiment": "neutral",
       "desc": "(베를린=연합뉴스) 김계연 특파원 = 노르웨이 당국이 우크라이나 분쟁과 관련한 중재판정을 집행하기 위해 러시아 선박을 압류했다고 AP통신 등이 ...",
       "image": "https://img.yna.co.kr/photo/etc/ta/2026/09/03/PTA20260903069501009_P2.jpg"
-    },
-    {
-      "title": "\"트럼프 리스크 해소할 안전 장치\"…日 내부 '활한론' 목소리",
-      "link": "https://www.hankyung.com/article/2026090329621",
-      "source": "한국경제",
-      "ts": 1788425813000,
-      "pub": "Thu, 03 Sep 2026 17:56:53 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "시진핑, 트럼프와 회담前 이집트 공략…美안보파트너에 존재감",
@@ -150,56 +178,6 @@
       "sentiment": "neutral",
       "desc": "(멕시코시티=연합뉴스) 송광호 특파원 = 델시 로드리게스 베네수엘라 임시대통령은 일각에서 제기되는 조기 대선 요구에 대해 베네수엘라가 준비를 마...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/03/AKR20260903012400087_01_i_P2.jpg"
-    },
-    {
-      "title": "美연준 베이지북 \"경제활동 완만하게 증가…물가 적당히 상승\"",
-      "link": "https://www.yna.co.kr/view/AKR20260903010100072",
-      "source": "연합뉴스 국제",
-      "ts": 1788384898000,
-      "pub": "Thu, 3 Sep 2026 06:34:58 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 미국의 경제활동이 지난 7월 초 이후 완만하게 확장하고 물가도 대체로 적당한 수준으로 상승했다고 미 중앙은행...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/03/AKR20260903010100072_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"韓日, 알래스카로 간다\"…LNG 프로젝트서 또 거론",
-      "link": "https://www.yna.co.kr/view/AKR20260903008400071",
-      "source": "연합뉴스 국제",
-      "ts": 1788384346000,
-      "pub": "Thu, 3 Sep 2026 06:25:46 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령이 알래스카 액화천연가스(LNG) 프로젝트와 관련해 한국과 일본을 또 거론했다.",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/03/PEP20260903097801009_P2.jpg"
-    },
-    {
-      "title": "트럼프, 對이란 공격 재개에 \"너무 오래가지는 않을 것\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260903004452071",
-      "source": "연합뉴스 국제",
-      "ts": 1788379580000,
-      "pub": "Thu, 3 Sep 2026 05:06:20 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령은 2일(현지시간) 이란 공격을 최근 재개한 것과 관련해 \"너무 오래가지는 않을 ...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/03/PAF20260903065701009_P2.jpg"
-    },
-    {
-      "title": "트럼프, 對이란 공격 재개에 \"너무 오래가지는 않을 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260903004451071",
-      "source": "연합뉴스 국제",
-      "ts": 1788374306000,
-      "pub": "Thu, 3 Sep 2026 03:38:26 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령은 2일(현지시간) 이란 공격을 최근 재개한 것과 관련해 \"너무 오래가지는 않을 ...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/03/PAF20260903065701009_P2.jpg"
-    },
-    {
-      "title": "[속보] 트럼프, 對이란 공격 재개에 \"너무 오래 가지는 않을 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260903004400071",
-      "source": "연합뉴스 국제",
-      "ts": 1788373444000,
-      "pub": "Thu, 3 Sep 2026 03:24:04 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
     }
   ]
 }

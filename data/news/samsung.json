@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-03T10:16:51.229Z",
-  "count": 10,
+  "updated_at": "2026-09-03T14:46:19.733Z",
+  "count": 11,
   "items": [
+    {
+      "title": "삼전닉스 믿고 샀는데 어쩌나…\"잔치는 끝났다\" 충격 전망 [분석+]",
+      "link": "https://www.hankyung.com/article/2026090324856",
+      "source": "한국경제",
+      "ts": 1788440401000,
+      "pub": "Thu, 03 Sep 2026 22:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'삼전닉스' 줄줄이 내리더니 \"그래도 사라\"…개미들 '속앓이'",
+      "link": "https://www.hankyung.com/article/2026090331167",
+      "source": "한국경제",
+      "ts": 1788435029000,
+      "pub": "Thu, 03 Sep 2026 20:30:29 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성전자 HBM 맹추격…SK하이닉스와 격차 17%p로 줄었다",
       "link": "https://www.mt.co.kr/industry/2026/09/03/2026090318350022412",
@@ -12,14 +28,6 @@
       "sentiment": "neutral",
       "desc": "삼성 2분기 점유율 33% 기록…빅테크 공급 늘려 맹추격 하반기 HBM4 본격화…삼성 점유율 추가 확대 전망 삼성전자가 올해 2분기 고대역폭메모리(HBM) 시장 점유율을 대폭 끌어올리며 선두인 SK하이닉스와의 격차를 크게 좁혔다. 3일 글로벌 시장조사기관 카운터포인트리",
       "image": "https://thumb.mt.co.kr/06/2026/09/2026090318350022412_1.jpg"
-    },
-    {
-      "title": "삼성전자 2분기 HBM 점유율 33%…'50%' SK하이닉스 맹추격",
-      "link": "https://www.hankyung.com/article/202609032786i",
-      "source": "한국경제",
-      "ts": 1788426199000,
-      "pub": "Thu, 03 Sep 2026 18:03:19 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "삼전·하닉, 글로벌 증시 덜컹이자 하락전환…약세로 장마감(종합)",

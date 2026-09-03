@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-03T10:16:51.230Z",
-  "count": 15,
+  "updated_at": "2026-09-03T14:46:19.734Z",
+  "count": 16,
   "items": [
+    {
+      "title": "\"다들 반도체만 볼 때 조용히 터졌다\"…수출 29% 뛴 '이 업종'",
+      "link": "https://www.hankyung.com/article/2026090330847",
+      "source": "한국경제",
+      "ts": 1788431561000,
+      "pub": "Thu, 03 Sep 2026 19:32:41 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성전자 HBM 맹추격…SK하이닉스와 격차 17%p로 줄었다",
       "link": "https://www.mt.co.kr/industry/2026/09/03/2026090318350022412",
@@ -14,11 +22,11 @@
       "image": "https://thumb.mt.co.kr/06/2026/09/2026090318350022412_1.jpg"
     },
     {
-      "title": "삼성전자 2분기 HBM 점유율 33%…'50%' SK하이닉스 맹추격",
-      "link": "https://www.hankyung.com/article/202609032786i",
+      "title": "티에스이, 대구에 반도체 검사 디자인센터",
+      "link": "https://www.hankyung.com/article/2026090328201",
       "source": "한국경제",
-      "ts": 1788426199000,
-      "pub": "Thu, 03 Sep 2026 18:03:19 +0900",
+      "ts": 1788428300000,
+      "pub": "Thu, 03 Sep 2026 18:38:20 +0900",
       "sentiment": "neutral"
     },
     {

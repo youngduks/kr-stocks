@@ -1,51 +1,45 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-03T05:17:01.521Z",
-  "count": 11,
+  "updated_at": "2026-09-03T10:16:51.229Z",
+  "count": 10,
   "items": [
     {
-      "title": "삼전·현대차 팔아치운 고수들…OO 관련 업종 집중 매수",
-      "link": "https://www.hankyung.com/article/202609031397i",
-      "source": "한국경제",
-      "ts": 1788402635000,
-      "pub": "Thu, 03 Sep 2026 11:30:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'땡큐 삼전닉스'…\"한은에 달러가 차고 넘친다\" 행복한 비명",
-      "link": "https://www.hankyung.com/article/2026090317076",
-      "source": "한국경제",
-      "ts": 1788401622000,
-      "pub": "Thu, 03 Sep 2026 11:13:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"미국서 안 만들면 관세\" 압박에…정부·삼전닉스 '고심'",
-      "link": "https://www.yna.co.kr/view/AKR20260903068800003",
-      "source": "연합뉴스 경제",
-      "ts": 1788401026000,
-      "pub": "Thu, 3 Sep 2026 11:03:46 +0900",
+      "title": "삼성전자 HBM 맹추격…SK하이닉스와 격차 17%p로 줄었다",
+      "link": "https://www.mt.co.kr/industry/2026/09/03/2026090318350022412",
+      "source": "머니투데이",
+      "ts": 1788429611000,
+      "pub": "Thu, 03 Sep 2026 19:00:11 +0900",
       "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 신창용 기자 = 도널드 트럼프 미국 행정부가 외국산 반도체에 대한 표적 관세를 예고하면서 국내 반도체 업계와 정부가 긴장감 속...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/01/29/PYH2026012910400000301_P2.jpg"
+      "desc": "삼성 2분기 점유율 33% 기록…빅테크 공급 늘려 맹추격 하반기 HBM4 본격화…삼성 점유율 추가 확대 전망 삼성전자가 올해 2분기 고대역폭메모리(HBM) 시장 점유율을 대폭 끌어올리며 선두인 SK하이닉스와의 격차를 크게 좁혔다. 3일 글로벌 시장조사기관 카운터포인트리",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026090318350022412_1.jpg"
     },
     {
-      "title": "삼전·닉스 자사주 매입 수급이 이끄는 코스피 강세…코스닥은 하락",
-      "link": "https://www.hankyung.com/article/2026090316486",
+      "title": "삼성전자 2분기 HBM 점유율 33%…'50%' SK하이닉스 맹추격",
+      "link": "https://www.hankyung.com/article/202609032786i",
       "source": "한국경제",
-      "ts": 1788399746000,
-      "pub": "Thu, 03 Sep 2026 10:42:26 +0900",
+      "ts": 1788426199000,
+      "pub": "Thu, 03 Sep 2026 18:03:19 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[특징주] 삼성전자, 장 초반 0.8% 상승 중…SK하이닉스도 0.7%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260903041800008",
+      "title": "삼전·하닉, 글로벌 증시 덜컹이자 하락전환…약세로 장마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260903041851008",
       "source": "연합뉴스 경제",
-      "ts": 1788395139000,
-      "pub": "Thu, 3 Sep 2026 09:25:39 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 3일 장 초반 동반 강세를 보인다.",
-      "image": "https://img.yna.co.kr/photo/cms/2025/10/02/07/PCM20251002000007990_P2.jpg"
+      "ts": 1788419392000,
+      "pub": "Thu, 3 Sep 2026 16:09:52 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 3일 오후 갑작스레 글로벌 증시가 요동을 친 여파로 상승...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
+    },
+    {
+      "title": "씨티, 환율 부담 반영해 SK하이닉스·삼성전자 목표주가 하향",
+      "link": "https://www.yna.co.kr/view/AKR20260903125800008",
+      "source": "연합뉴스 경제",
+      "ts": 1788415568000,
+      "pub": "Thu, 3 Sep 2026 15:06:08 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 강수지 기자 = 씨티그룹이 환율 부담을 반영해 SK하이닉스[000660]와 삼성전자[005930]의 실적 전망치와 목표주가를 ...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/22/PYH2026062214230001300_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

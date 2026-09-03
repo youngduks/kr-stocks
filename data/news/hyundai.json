@@ -1,23 +1,31 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-09-03T05:17:01.523Z",
-  "count": 12,
+  "updated_at": "2026-09-03T10:16:51.230Z",
+  "count": 11,
   "items": [
     {
-      "title": "삼전·현대차 팔아치운 고수들…OO 관련 업종 집중 매수",
-      "link": "https://www.hankyung.com/article/202609031397i",
-      "source": "한국경제",
-      "ts": 1788402635000,
-      "pub": "Thu, 03 Sep 2026 11:30:35 +0900",
-      "sentiment": "neutral"
+      "title": "가나 생산기반 넓히는 현대차…미래차 정비인력도 키운다",
+      "link": "https://www.mt.co.kr/industry/2026/09/03/2026090313154050322",
+      "source": "머니투데이",
+      "ts": 1788422400000,
+      "pub": "Thu, 03 Sep 2026 17:00:00 +0900",
+      "sentiment": "neutral",
+      "desc": "현대자동차가 3일(현지시간) 가나에서 미래차 정비 인력 양성 사업을 공식 출범한다. 전기차와 하이브리드차 정비교육 기반을 마련해 현지 청년의 취업·창업을 지원하고 가나 자동차 산업의 정비·서비스 역량을 높인다는 계획이다. 3일 업계와 현지 언론 등에 따르면 현대차와 한",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026090313154050322_1.jpg"
     },
     {
-      "title": "李 대통령, 전날 정의선 현대차 회장과 비공개 회동",
-      "link": "https://www.hankyung.com/article/202609031740i",
-      "source": "한국경제",
-      "ts": 1788401579000,
-      "pub": "Thu, 03 Sep 2026 11:12:59 +0900",
-      "sentiment": "neutral"
+      "title": "현대자동차(주) 기업설명회(IR) 개최(안내공시)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=122192642&code=005380&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1788393600000,
+      "pub": "2026.09.03"
+    },
+    {
+      "title": "현대자동차(주) 기업설명회(IR) 개최(안내공시)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=122190163&code=005380&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1788393600000,
+      "pub": "2026.09.03"
     },
     {
       "title": "현대자동차(주) 공매도 과열종목 지정(공매도 거래 금지 적용)",
@@ -74,20 +82,6 @@
       "source": "전자공시(DART)",
       "ts": 1787529600000,
       "pub": "2026.08.24"
-    },
-    {
-      "title": "현대자동차(주) 영업(잠정)실적(공정공시)",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=90578032&code=005380&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1785715200000,
-      "pub": "2026.08.03"
-    },
-    {
-      "title": "현대자동차(주) 풍문 또는 보도에 대한 해명(미확정)",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=88598795&code=005380&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1785456000000,
-      "pub": "2026.07.31"
     }
   ]
 }

@@ -1,8 +1,28 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-03T18:11:12.576Z",
-  "count": 15,
+  "updated_at": "2026-09-03T21:28:41.195Z",
+  "count": 16,
   "items": [
+    {
+      "title": "김정관 \"美반도체 관세 '불리하지 않은 대우' 정신 하에 논의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260904006600071",
+      "source": "연합뉴스 국제",
+      "ts": 1788468108000,
+      "pub": "Fri, 4 Sep 2026 05:41:48 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 김정관 산업통상부 장관은 3일(현지시간) 도널드 트럼프 미국 행정부가 검토하는 반도체 관세와 관련해 한국을...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/04/AKR20260904006600071_01_i_P2.jpg"
+    },
+    {
+      "title": "엔비디아, 허깅페이스 17.5조원에 인수…개방형 AI허브 계열화",
+      "link": "https://www.yna.co.kr/view/AKR20260904005600091",
+      "source": "연합뉴스 국제",
+      "ts": 1788467127000,
+      "pub": "Fri, 4 Sep 2026 05:25:27 +0900",
+      "sentiment": "neutral",
+      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 인공지능(AI) 반도체 1위 기업 엔비디아가 AI 모델 공유 플랫폼 '허깅페이스'를 인수한다고 공식 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/04/AKR20260904005600091_01_i_P2.jpg"
+    },
     {
       "title": "\"다들 반도체만 볼 때 조용히 터졌다\"…수출 29% 뛴 '이 업종'",
       "link": "https://www.hankyung.com/article/2026090330847",
@@ -48,16 +68,6 @@
       "sentiment": "negative",
       "desc": "(세종=연합뉴스) 옥성구 기자 = 고용노동부가 노동조합의 '영업이익 N% 성과급 요구'나 '호남 반도체 공장 신설 반대' 등은 의무적 교섭대상 ...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/23/PYH2026042317600006100_P2.jpg"
-    },
-    {
-      "title": "\"SK하이닉스 등 대형주 대규모 주주환원…주주소통도 확대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260903080400008",
-      "source": "연합뉴스 경제",
-      "ts": 1788402290000,
-      "pub": "Thu, 3 Sep 2026 11:24:50 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 임은진 기자 = 지난달에는 SK하이닉스[000660] 등 대형주를 중심으로 대규모 주주환원이 활발하게 이뤄진 것으로 나타났다.",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/25/83/PCM20260625000183990_P2.jpg"
     },
     {
       "title": "日 AI 기업에 투자자 주목 여전…구마모토엔 반도체학과 신설",

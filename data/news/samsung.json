@@ -1,14 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-04T01:47:08.721Z",
+  "updated_at": "2026-09-04T06:40:20.918Z",
   "count": 13,
   "items": [
     {
-      "title": "정용진, 美 '파운드리 스쿨' 출범식 참석…AI 동맹 힘 싣는다",
-      "link": "https://www.hankyung.com/article/202609043875g",
+      "title": "중국 양쯔메모리 IPO 심사질의 단계…절차 순조로워",
+      "link": "https://www.yna.co.kr/view/AKR20260904108100009",
+      "source": "연합뉴스 국제",
+      "ts": 1788500898000,
+      "pub": "Fri, 4 Sep 2026 14:48:18 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 주종국 기자 = 중국 플래시 메모리 1위 기업인 양쯔메모리(YMTC)가 기업공개(IPO) 신청 뒤 다음 단계로 순조롭게 진입했...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/08/21/PRU20260821204701009_P2.jpg"
+    },
+    {
+      "title": "'폰 하나에 400만원' 예고…메모리값 폭등에 아이폰 가격도 뛴다",
+      "link": "https://www.hankyung.com/article/202609043235g",
       "source": "한국경제",
-      "ts": 1788483800000,
-      "pub": "Fri, 04 Sep 2026 10:03:20 +0900",
+      "ts": 1788498802000,
+      "pub": "Fri, 04 Sep 2026 14:13:22 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"똑같은 반도체 아니야?\"...초고수, 삼전 사고 하이닉스는 팔았다",
+      "link": "https://www.hankyung.com/article/202609044013i",
+      "source": "한국경제",
+      "ts": 1788487210000,
+      "pub": "Fri, 04 Sep 2026 11:00:10 +0900",
       "sentiment": "neutral"
     },
     {
@@ -50,24 +68,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 황철환 기자 = IBK투자증권은 4일 중국 메모리 반도체 기업들의 증설 사이클이 본격화하고 있다면서 현지 장비 밸류체인 전반으...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/10/PYH2026081000320008900_P2.jpg"
-    },
-    {
-      "title": "\"못 사게 했더니 만들어서 쓴다\"…中, 삼전닉스 추격 '속도전' [분석+]",
-      "link": "https://www.hankyung.com/article/2026090434916",
-      "source": "한국경제",
-      "ts": 1788478140000,
-      "pub": "Fri, 04 Sep 2026 08:29:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전·하닉, 글로벌 증시 덜컹이자 하락전환…약세로 장마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260903041851008",
-      "source": "연합뉴스 경제",
-      "ts": 1788419392000,
-      "pub": "Thu, 3 Sep 2026 16:09:52 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 3일 오후 갑작스레 글로벌 증시가 요동을 친 여파로 상승...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

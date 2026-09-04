@@ -1,8 +1,26 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-09-04T01:47:08.722Z",
-  "count": 10,
+  "updated_at": "2026-09-04T06:40:20.919Z",
+  "count": 12,
   "items": [
+    {
+      "title": "현대차, 코이카와 손잡고 가나 자동차 정비 기술인재 육성",
+      "link": "https://www.yna.co.kr/view/AKR20260904076800003",
+      "source": "연합뉴스 국제",
+      "ts": 1788489233000,
+      "pub": "Fri, 4 Sep 2026 11:33:53 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 홍규빈 기자 = 현대차가 한국국제협력단(KOICA·코이카)과 손잡고 가나의 자동차 정비기술 인재를 육성한다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/04/PYH2026090406610001300_P2.jpg"
+    },
+    {
+      "title": "현대차, 코이카와 가나 자동차 정비기술 인재 육성",
+      "link": "https://www.hankyung.com/article/202609044165g",
+      "source": "한국경제",
+      "ts": 1788487997000,
+      "pub": "Fri, 04 Sep 2026 11:13:17 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "현대자동차(주) 기업설명회(IR) 개최(안내공시)",
       "link": "https://finance.naver.com/item/news_notice_read.naver?no=122192642&code=005380&page_notice=",

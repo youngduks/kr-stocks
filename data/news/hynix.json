@@ -1,8 +1,62 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-04T01:47:08.721Z",
-  "count": 15,
+  "updated_at": "2026-09-04T06:40:20.918Z",
+  "count": 19,
   "items": [
+    {
+      "title": "중국 양쯔메모리 IPO 심사질의 단계…절차 순조로워",
+      "link": "https://www.yna.co.kr/view/AKR20260904108100009",
+      "source": "연합뉴스 국제",
+      "ts": 1788500898000,
+      "pub": "Fri, 4 Sep 2026 14:48:18 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 주종국 기자 = 중국 플래시 메모리 1위 기업인 양쯔메모리(YMTC)가 기업공개(IPO) 신청 뒤 다음 단계로 순조롭게 진입했...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/08/21/PRU20260821204701009_P2.jpg"
+    },
+    {
+      "title": "'폰 하나에 400만원' 예고…메모리값 폭등에 아이폰 가격도 뛴다",
+      "link": "https://www.hankyung.com/article/202609043235g",
+      "source": "한국경제",
+      "ts": 1788498802000,
+      "pub": "Fri, 04 Sep 2026 14:13:22 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"엔비디아, 개방형 AI 개발사 싱킹머신랩에 3.4조원 투자 논의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260904080500009",
+      "source": "연합뉴스 국제",
+      "ts": 1788490610000,
+      "pub": "Fri, 4 Sep 2026 11:56:50 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 엔비디아가 오픈AI 최고기술책임자(CTO) 출신이 설립한 개방형 인공지능(AI) 스타트업에 25억달러(약 3조...",
+      "image": "https://img.yna.co.kr/photo/ap/2024/09/26/PAP20240926106301009_P2.jpg"
+    },
+    {
+      "title": "엔비디아, 'RTX 스파크' 탑재 PC 10월 출시",
+      "link": "https://www.yna.co.kr/view/AKR20260904075400009",
+      "source": "연합뉴스 국제",
+      "ts": 1788489737000,
+      "pub": "Fri, 4 Sep 2026 11:42:17 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 설원태 기자 = 엔비디아는 레노버와 에이서가 자사의 'RTX 스파크' 칩으로 구동되는 최초의 PC를 오는 10월 출시한다고 밝...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/04/AKR20260904075400009_01_i_P2.jpg"
+    },
+    {
+      "title": "[속보] 靑 \"한미 투자이슈 반도체도 논의 대상…장애요인 안 되게 노력\"",
+      "link": "https://www.hankyung.com/article/2026090441827",
+      "source": "한국경제",
+      "ts": 1788487836000,
+      "pub": "Fri, 04 Sep 2026 11:10:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"똑같은 반도체 아니야?\"...초고수, 삼전 사고 하이닉스는 팔았다",
+      "link": "https://www.hankyung.com/article/202609044013i",
+      "source": "한국경제",
+      "ts": 1788487210000,
+      "pub": "Fri, 04 Sep 2026 11:00:10 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "반도체 호황에 7월 경상흑자 420.8억달러…\"상반기 세계 2위\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260904017951002",
@@ -22,14 +76,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 황철환 기자 = IBK투자증권은 4일 중국 메모리 반도체 기업들의 증설 사이클이 본격화하고 있다면서 현지 장비 밸류체인 전반으...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/10/PYH2026081000320008900_P2.jpg"
-    },
-    {
-      "title": "엔비디아, 허깅페이스 130억달러 인수…AI 유통망까지 품는다",
-      "link": "https://www.hankyung.com/article/202609043447i",
-      "source": "한국경제",
-      "ts": 1788477407000,
-      "pub": "Fri, 04 Sep 2026 08:16:47 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "7월 경상수지 420.8억달러 흑자…반도체 호황에 동월 역대 최대",
@@ -60,16 +106,6 @@
       "sentiment": "neutral",
       "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 인공지능(AI) 반도체 1위 기업 엔비디아가 AI 모델 공유 플랫폼 '허깅페이스'를 인수한다고 공식 ...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/04/AKR20260904005600091_01_i_P2.jpg"
-    },
-    {
-      "title": "노란봉투법 쟁의 지침에 재계선 호남 반도체 투자 지연 우려",
-      "link": "https://www.yna.co.kr/view/AKR20260903134900003",
-      "source": "연합뉴스 경제",
-      "ts": 1788419518000,
-      "pub": "Thu, 3 Sep 2026 16:11:58 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 김민지 기자 = 고용노동부가 공장 신설 등 대규모 프로젝트 투자 결정 자체는 쟁의행위 대상이 될 수 없다는 지침을 내놨지만, ...",
-      "image": "https://img.yna.co.kr/photo/cms/2024/09/25/61/PCM20240925000261003_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

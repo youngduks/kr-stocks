@@ -1,30 +1,62 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-03T23:38:29.582Z",
-  "count": 11,
+  "updated_at": "2026-09-04T01:47:08.721Z",
+  "count": 13,
   "items": [
     {
-      "title": "\"삼성전자, 연내 40조 자사주 매입·소각 가능…목표가 60만원\"-KB",
-      "link": "https://www.hankyung.com/article/2026090433696",
+      "title": "정용진, 美 '파운드리 스쿨' 출범식 참석…AI 동맹 힘 싣는다",
+      "link": "https://www.hankyung.com/article/202609043875g",
       "source": "한국경제",
-      "ts": 1788475420000,
-      "pub": "Fri, 04 Sep 2026 07:43:40 +0900",
+      "ts": 1788483800000,
+      "pub": "Fri, 04 Sep 2026 10:03:20 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "삼전닉스에 25조 손 벌린 한전…전력망 투자 이대로 괜찮나 [여기는 논설실]",
-      "link": "https://www.hankyung.com/article/202609033160i",
-      "source": "한국경제",
-      "ts": 1788469213000,
-      "pub": "Fri, 04 Sep 2026 06:00:13 +0900",
-      "sentiment": "neutral"
+      "title": "정용진 \"한미 힘 합쳐 시너지\"…美 '파운드리스쿨 출범식' 참석",
+      "link": "https://www.yna.co.kr/view/AKR20260904042500030",
+      "source": "연합뉴스 경제",
+      "ts": 1788482367000,
+      "pub": "Fri, 4 Sep 2026 09:39:27 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정수연 기자 = 정용진 신세계그룹 회장이 미국 국무부가 주최한 제조·첨단산업 인재 육성 행사에서 글로벌 리더들과 AI 공급망 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/04/AKR20260904042500030_01_i_P2.jpg"
     },
     {
-      "title": "삼전닉스 믿고 샀는데 어쩌나…\"잔치는 끝났다\" 충격 전망 [분석+]",
-      "link": "https://www.hankyung.com/article/2026090324856",
+      "title": "애플 첫 폴더블 아이폰 온다…갤럭시 Z 폴드8과 정면승부",
+      "link": "https://www.yna.co.kr/view/AKR20260904033800017",
+      "source": "연합뉴스 경제",
+      "ts": 1788482119000,
+      "pub": "Fri, 4 Sep 2026 09:35:19 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 박형빈 기자 = 애플이 오는 9일(현지시간) 아이폰18 프로·프로맥스와 브랜드 최초의 폴더블 아이폰을 공개하며 프리미엄 스마트...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2024/01/20/PYH2024012001150001300_P2.jpg"
+    },
+    {
+      "title": "[특징주] 삼전·닉스, 미국발 훈풍에 장 초반 2%대 강세",
+      "link": "https://www.yna.co.kr/view/AKR20260904035800008",
+      "source": "연합뉴스 경제",
+      "ts": 1788481102000,
+      "pub": "Fri, 4 Sep 2026 09:18:22 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 4일 장 초반 2%대의 상승률을 보인다.",
+      "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
+    },
+    {
+      "title": "IBK증권 \"中메모리 약진…현지 장비 밸류체인 수혜 확산\"",
+      "link": "https://www.yna.co.kr/view/AKR20260904028000008",
+      "source": "연합뉴스 경제",
+      "ts": 1788479320000,
+      "pub": "Fri, 4 Sep 2026 08:48:40 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 황철환 기자 = IBK투자증권은 4일 중국 메모리 반도체 기업들의 증설 사이클이 본격화하고 있다면서 현지 장비 밸류체인 전반으...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/10/PYH2026081000320008900_P2.jpg"
+    },
+    {
+      "title": "\"못 사게 했더니 만들어서 쓴다\"…中, 삼전닉스 추격 '속도전' [분석+]",
+      "link": "https://www.hankyung.com/article/2026090434916",
       "source": "한국경제",
-      "ts": 1788440401000,
-      "pub": "Thu, 03 Sep 2026 22:00:01 +0900",
+      "ts": 1788478140000,
+      "pub": "Fri, 04 Sep 2026 08:29:00 +0900",
       "sentiment": "neutral"
     },
     {
@@ -36,16 +68,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 3일 오후 갑작스레 글로벌 증시가 요동을 친 여파로 상승...",
       "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
-    },
-    {
-      "title": "씨티, 환율 부담 반영해 SK하이닉스·삼성전자 목표주가 하향",
-      "link": "https://www.yna.co.kr/view/AKR20260903125800008",
-      "source": "연합뉴스 경제",
-      "ts": 1788415568000,
-      "pub": "Thu, 3 Sep 2026 15:06:08 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 강수지 기자 = 씨티그룹이 환율 부담을 반영해 SK하이닉스[000660]와 삼성전자[005930]의 실적 전망치와 목표주가를 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/22/PYH2026062214230001300_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

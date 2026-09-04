@@ -141,15 +141,18 @@ export default async function HynixBuybackPage() {
 
             <div className={`inline-flex items-center gap-1 text-xs font-bold mb-3 ${aheadColor}`}>{aheadLabel}</div>
 
-            <div className="relative h-3 bg-line/30 rounded-full overflow-hidden mb-1">
+            <div className="relative h-3 bg-line/30 rounded-full mb-1">
               <div
-                className="absolute inset-y-0 left-0 rounded-full bg-gradient-to-r from-accent-green/70 to-accent-green"
+                className="absolute inset-y-0 left-0 rounded-full bg-gradient-to-r from-accent-green/70 to-accent-green overflow-hidden"
                 style={{ width: `${Math.min(progress.progress_pct, 100)}%` }}
               />
+              {/* 일정 경과 기준선 — 흰색+어두운 테두리로 녹색 채움/회색 트랙 어느 쪽 위에서도
+                  또렷하게 보이게(2026-09-04, 기존 회색 2px는 채움색과 겹쳐 거의 안 보였음).
+                  막대 위아래로 살짝 튀어나오게 해서 "기준점"임을 강조. */}
               <div
-                className="absolute inset-y-0 w-[2px] bg-text-dim/70"
-                style={{ left: `${Math.min(progress.schedule_elapsed_pct, 100)}%` }}
-                title="일정 경과"
+                className="absolute w-[3px] rounded-full bg-white shadow-[0_0_0_1px_rgba(0,0,0,0.55)]"
+                style={{ left: `${Math.min(progress.schedule_elapsed_pct, 100)}%`, top: "-3px", bottom: "-3px" }}
+                title="일정 경과 기준선"
               />
             </div>
             <div className="flex items-center justify-between text-[10px] text-text-dim mb-4">

@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-04T11:51:04.330Z",
+  "updated_at": "2026-09-04T15:20:14.529Z",
   "count": 14,
   "items": [
+    {
+      "title": "김정관 \"반도체 관세, 불리하지 않게 논의…대미투자 9월 중 발표\" [이상은의 워싱턴나우]",
+      "link": "https://www.hankyung.com/article/202609044351i",
+      "source": "한국경제",
+      "ts": 1788519733000,
+      "pub": "Fri, 04 Sep 2026 20:02:13 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "중국 양쯔메모리 IPO 심사질의 단계…절차 순조로워",
       "link": "https://www.yna.co.kr/view/AKR20260904108100009",
@@ -59,16 +67,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 김정관 산업통상부 장관은 3일(현지시간) 도널드 트럼프 미국 행정부가 검토하는 반도체 관세와 관련해 한국을...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/04/AKR20260904006600071_01_i_P2.jpg"
-    },
-    {
-      "title": "엔비디아, 허깅페이스 17.5조원에 인수…개방형 AI허브 계열화",
-      "link": "https://www.yna.co.kr/view/AKR20260904005600091",
-      "source": "연합뉴스 국제",
-      "ts": 1788467127000,
-      "pub": "Fri, 4 Sep 2026 05:25:27 +0900",
-      "sentiment": "neutral",
-      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 인공지능(AI) 반도체 1위 기업 엔비디아가 AI 모델 공유 플랫폼 '허깅페이스'를 인수한다고 공식 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/04/AKR20260904005600091_01_i_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

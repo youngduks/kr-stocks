@@ -110,9 +110,11 @@ function PageNav() {
   const isGuide = pathname.includes("/guide/");
   const isPoll = pathname === "/poll" || pathname.startsWith("/poll/") || pathname === "/en/poll";
   const isLiquidation = pathname === "/liquidation" || pathname.startsWith("/liquidation/");
+  const isBuyback = pathname.startsWith("/korea/hynix/buyback");
   const isShopping = pathname === "/shopping" || pathname.startsWith("/shopping/");
   const isCommunity = pathname === "/community" || pathname.startsWith("/community/");
-  const isPrices = !isConsensus && !isNews && !isGuide && !isPoll && !isLiquidation && !isShopping && !isCommunity;
+  const isPrices =
+    !isConsensus && !isNews && !isGuide && !isPoll && !isLiquidation && !isBuyback && !isShopping && !isCommunity;
 
   // locale에 맞는 href (뉴스룸·청산맵·쇼핑·커뮤니티는 현재 한국어 only — EN에서도 동일 경로로 fallback)
   const home = isEn ? "/en" : "/";
@@ -120,6 +122,7 @@ function PageNav() {
   const news = "/news";
   const poll = "/poll";
   const liquidation = "/liquidation";
+  const buyback = "/korea/hynix/buyback";
   const shopping = "/shopping";
   const community = "/community";
   const guide = isEn ? "/en/guide/binance-korea-stocks" : "/guide/binance-korea-stocks";
@@ -130,6 +133,7 @@ function PageNav() {
     { key: "news", href: news, ko: "뉴스", en: "News", active: isNews },
     { key: "poll", href: poll, ko: "인간지표", en: "Poll", active: isPoll },
     { key: "liquidation", href: liquidation, ko: "청산맵", en: "Liq. Map", active: isLiquidation },
+    { key: "buyback", href: buyback, ko: "🏦 자사주매입", en: "🏦 Buyback", active: isBuyback },
     // 쿠팡 핫딜(줍줍쇼핑) — kr-stocks.com 자체 하위페이지 (7/29 형님 요청, 외부 사이트 → 내부 라우트 전환)
     { key: "shopping", href: shopping, ko: "🛒 핫딜", en: "🛒 Hot Deals", active: isShopping },
     // 커뮤니티룸 — 자유게시판, 닉네임+비밀번호만으로 글/댓글 (8/2 형님 요청)

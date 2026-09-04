@@ -9,6 +9,7 @@ import {
   type ISeriesApi,
   type HistogramData,
   type LineData,
+  type SeriesMarker,
   type Time,
 } from "lightweight-charts";
 import type { BuybackDaily } from "@/lib/buyback";
@@ -59,6 +60,33 @@ function kstDateFormatter(time: number): string {
   return new Intl.DateTimeFormat("ko-KR", { timeZone: "Asia/Seoul", month: "2-digit", day: "2-digit" }).format(d);
 }
 
+/** 마지막 체결일 지점에 "일정 대비 몇 %p 앞섬/뒤처짐" 라벨을 직접 박아 기준선(점선) 대비
+ * 격차를 숫자로 바로 읽히게 함 — 점선만으로는 얼마나 차이나는지 가늠하기 어렵다는 피드백 반영. */
+function buildAheadMarker(
+  rows: { time: number }[],
+  aheadPct: number,
+  color: { green: string; amber: string }
+): SeriesMarker<Time>[] {
+  if (rows.length === 0) return [];
+  const last = rows[rows.length - 1];
+  const ahead = Math.abs(aheadPct) < 0.5;
+  const text = ahead
+    ? "일정과 거의 동일"
+    : aheadPct > 0
+    ? `▲ 일정보다 ${aheadPct.toFixed(1)}%p 앞섬`
+    : `▼ 일정보다 ${Math.abs(aheadPct).toFixed(1)}%p 뒤처짐`;
+  return [
+    {
+      time: last.time as Time,
+      position: "aboveBar",
+      color: aheadPct >= 0 ? color.green : color.amber,
+      shape: "arrowUp",
+      text,
+      size: 1,
+    },
+  ];
+}
+
 /**
  * 일별 체결량(막대, 우축) + 누적 체결량(초록 실선, 좌축) + 일정대로 갔을 때의 선형 페이스
  * (점선, 좌축) 비교 차트. 점선보다 실선이 위에 있으면 일정보다 빠른 페이스.
@@ -68,11 +96,15 @@ export function BuybackChart({
   periodStart,
   periodEnd,
   plannedQty,
+  aheadPct,
 }: {
   daily: BuybackDaily[];
   periodStart: string;
   periodEnd: string;
   plannedQty: number;
+  /** 진행 페이지 상단 배지와 같은 값(progress.ahead_pct) — 차트에도 동일 수치를 라벨로 표시해
+   * 두 군데 숫자가 어긋나 보이지 않게 함. */
+  aheadPct: number;
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const chartRef = useRef<IChartApi | null>(null);
@@ -110,10 +142,14 @@ export function BuybackChart({
       timeScale: {
         timeVisible: false,
         borderVisible: false,
+        // 마지막 지점(오늘)에 "일정보다 N%p 앞섬" 마커를 다는데, 데이터가 딱 오른쪽 끝까지
+        // 차있으면 라벨 텍스트가 캔버스 밖으로 잘림 — 여백을 미리 만들어 방지.
+        rightOffset: 4,
         tickMarkFormatter: ((time: Time) => kstDateFormatter(time as number)) as any,
       },
       rightPriceScale: { borderVisible: false, scaleMargins: { top: 0.7, bottom: 0 } },
-      leftPriceScale: { visible: true, borderVisible: false, scaleMargins: { top: 0.1, bottom: 0.1 } },
+      // top 여백을 넉넉히 둬야 마커(화살표+텍스트)가 차트 상단에 안 잘림
+      leftPriceScale: { visible: true, borderVisible: false, scaleMargins: { top: 0.22, bottom: 0.1 } },
       crosshair: {
         mode: 1,
         vertLine: { color: COLOR.crosshair, width: 1, style: LineStyle.Dotted, labelBackgroundColor: COLOR.bgCard },
@@ -127,6 +163,9 @@ export function BuybackChart({
     const barSeries = chart.addHistogramSeries({
       color: COLOR.amber + "77",
       priceScaleId: "right",
+      // 기본값(true)이면 마지막 값에서 가로 점선이 차트 폭 전체로 그어져 일정대비
+      // 기준선(paceSeries)과 헷갈림 — 막대엔 불필요해서 끔.
+      priceLineVisible: false,
       priceFormat: { type: "custom", formatter: (p: number) => fmtQty(p), minMove: 1 },
     });
 
@@ -162,6 +201,7 @@ export function BuybackChart({
     barSeries.setData(rows.map((r) => ({ time: r.time as Time, value: r.executed, color: COLOR.amber + "77" })) as HistogramData<Time>[]);
     cumSeries.setData(rows.map((r) => ({ time: r.time as Time, value: r.cum })) as LineData<Time>[]);
     paceSeries.setData(rows.map((r) => ({ time: r.time as Time, value: r.pace })) as LineData<Time>[]);
+    cumSeries.setMarkers(buildAheadMarker(rows, aheadPct, COLOR));
 
     chart.timeScale().fitContent();
 
@@ -184,9 +224,10 @@ export function BuybackChart({
     barSeries.setData(rows.map((r) => ({ time: r.time as Time, value: r.executed, color: COLOR.amber + "77" })) as HistogramData<Time>[]);
     cumSeries.setData(rows.map((r) => ({ time: r.time as Time, value: r.cum })) as LineData<Time>[]);
     paceSeries.setData(rows.map((r) => ({ time: r.time as Time, value: r.pace })) as LineData<Time>[]);
+    cumSeries.setMarkers(buildAheadMarker(rows, aheadPct, COLOR));
     chart.timeScale().fitContent();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [rows]);
+  }, [rows, aheadPct]);
 
   if (daily.length === 0) {
     return (

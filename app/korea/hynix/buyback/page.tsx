@@ -179,6 +179,7 @@ export default async function HynixBuybackPage() {
               periodStart={program.period_start}
               periodEnd={program.period_end}
               plannedQty={program.planned_qty}
+              aheadPct={progress.ahead_pct}
             />
           </section>
 

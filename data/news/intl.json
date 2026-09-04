@@ -1,8 +1,78 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-04T06:40:20.916Z",
-  "count": 19,
+  "updated_at": "2026-09-04T11:51:04.328Z",
+  "count": 20,
   "items": [
+    {
+      "title": "'트럼프 눈독' 그린란드에…EU, 3천억원 추가 지원 예정",
+      "link": "https://www.yna.co.kr/view/AKR20260904158200098",
+      "source": "연합뉴스 국제",
+      "ts": 1788513142000,
+      "pub": "Fri, 4 Sep 2026 18:12:22 +0900",
+      "sentiment": "neutral",
+      "desc": "(브뤼셀=연합뉴스) 현윤경 특파원 = 유럽연합(EU) 수장이 도널드 트럼프 미국 대통령이 집요한 병합 의지를 거두지 않고 있는 덴마크 자치령 그...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/02/22/PAP20260222297301009_P2.jpg"
+    },
+    {
+      "title": "우크라 다음 목표는 러 민간항공 마비…드론 공세에 운항 축소",
+      "link": "https://www.yna.co.kr/view/AKR20260904153800009",
+      "source": "연합뉴스 국제",
+      "ts": 1788511824000,
+      "pub": "Fri, 4 Sep 2026 17:50:24 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김승욱 기자 = 우크라이나가 러시아의 민간항공을 사실상 마비시키는 것을 새로운 목표로 삼고 드론 공격을 확대하고 있다고 미국 ...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/09/03/PRU20260903139701009_P2.jpg"
+    },
+    {
+      "title": "국고채 금리 대체로 하락…美 고용지표 대기(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260904142751008",
+      "source": "연합뉴스 경제",
+      "ts": 1788508164000,
+      "pub": "Fri, 4 Sep 2026 16:49:24 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 강수지 기자 = 4일 국고채 금리는 대체로 하락 마감했다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/04/AKR20260904142751008_01_i_P2.jpg"
+    },
+    {
+      "title": "이민자 추방에 점수·테트리스 대신 장벽쌓기…트럼프 게임 논란",
+      "link": "https://www.yna.co.kr/view/AKR20260904129400009",
+      "source": "연합뉴스 국제",
+      "ts": 1788505922000,
+      "pub": "Fri, 4 Sep 2026 16:12:02 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 현영복 기자 = 미국 백악관이 불법 이민자 추방 등 도널드 트럼프 대통령의 주요 정책을 홍보하기 위한 아케이드 게임들을 만들어...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/04/PAP20260904136101009_P2.jpg"
+    },
+    {
+      "title": "지지층 결집 노린 밀레이, 트럼프 발맞춰 포클랜드 문제 재점화",
+      "link": "https://www.yna.co.kr/view/AKR20260904127000009",
+      "source": "연합뉴스 국제",
+      "ts": 1788505445000,
+      "pub": "Fri, 4 Sep 2026 16:04:05 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김승욱 기자 = 하비에르 밀레이 아르헨티나 대통령이 지지율 하락 속에 남미의 영국령 포클랜드(아르헨티나명 말비나스) 제도에 대...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/04/11/PAP20260411171401009_P2.jpg"
+    },
+    {
+      "title": "[쇼츠] 쾅! 강력한 폭발…우크라 해상드론 러 항구 습격",
+      "link": "https://www.yna.co.kr/view/AKR20260904128400704",
+      "source": "연합뉴스 국제",
+      "ts": 1788504807000,
+      "pub": "Fri, 4 Sep 2026 15:53:27 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 우크라이나 해군이 해상드론으로 500km 넘게 떨어진 러시아 흑해 연안의 소치 항구에 있던 다목적 지원선을 공격했습니다.",
+      "image": "https://www.youtube.com/embed/OXTHRSE9VSI"
+    },
+    {
+      "title": "[쇼츠] 우크라 양대 정보기관 도심서 총격전…\"주도권 경쟁 격화\"",
+      "link": "https://www.yna.co.kr/view/AKR20260904120700704",
+      "source": "연합뉴스 국제",
+      "ts": 1788503804000,
+      "pub": "Fri, 4 Sep 2026 15:36:44 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 우크라이나 수도 키이우 한복판에서 우크라이나의 양대 정보기관 산하 특수부대 간 총격전으로 여러 명이 다치는 사건이 발생했습니다...",
+      "image": "https://www.youtube.com/embed/yedn75dTGp0"
+    },
     {
       "title": "이스라엘군 \"레바논 남부 헤즈볼라 지하요새 무력화 중\"",
       "link": "https://www.yna.co.kr/view/AKR20260904108400009",
@@ -132,66 +202,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령은 3일(현지시간) 우크라이나와 북대서양조약기구(NATO·나토)에 수천억 달러를 ...",
       "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/03/PEP20260903122701009_P2.jpg"
-    },
-    {
-      "title": "상무장관 '이란전 실언'에 트럼프 직접 수습·본인도 공개사과(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260903181451071",
-      "source": "연합뉴스 국제",
-      "ts": 1788448739000,
-      "pub": "Fri, 4 Sep 2026 00:18:59 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 하워드 러트닉 미국 상무부 장관이 '이란 전쟁에서 미국인 사망자가 없었다'는 발언으로 논란을 빚자 도널드 ...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/03/PRU20260903152001009_P2.jpg"
-    },
-    {
-      "title": "美부통령 \"적대국 공급망 의존하면 보상없고 트럼프 친구못돼\"",
-      "link": "https://www.yna.co.kr/view/AKR20260903186300071",
-      "source": "연합뉴스 국제",
-      "ts": 1788448024000,
-      "pub": "Fri, 4 Sep 2026 00:07:04 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = JD 밴스 미국 부통령은 3일(현지시간) 미국에 투자하면 보상을 받겠지만 반대의 경우에는 불이익을 입을 수...",
-      "image": "https://img.yna.co.kr/photo/etc/gt/2026/09/03/PGT20260903193601009_P2.jpg"
-    },
-    {
-      "title": "월러 연준 이사 \"8월 물가 둔화 지속하면 9월 동결 지지\"",
-      "link": "https://www.yna.co.kr/view/AKR20260903185900072",
-      "source": "연합뉴스 국제",
-      "ts": 1788446010000,
-      "pub": "Thu, 3 Sep 2026 23:33:30 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 크리스토퍼 월러 미 연방준비제도(Fed·연준) 이사가 3일(현지시간) 향후 물가 지표에서 인플레이션 압력 완...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/03/AKR20260903185900072_01_i_P2.jpg"
-    },
-    {
-      "title": "이스라엘 국방 \"이란이 공격시 인프라 타격…암흑기 만들 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260903175500079",
-      "source": "연합뉴스 국제",
-      "ts": 1788433532000,
-      "pub": "Thu, 3 Sep 2026 20:05:32 +0900",
-      "sentiment": "neutral",
-      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 미국과 이란 간 무력 대치 속에 이스라엘 국방부 장관이 연일 이란을 자극하며 참전 의지를 불태우고 있다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/03/AKR20260903175500079_01_i_P2.jpg"
-    },
-    {
-      "title": "푸틴 \"한국 출산율, 러의 절반 수준…우리도 충분하진 않아\"",
-      "link": "https://www.yna.co.kr/view/AKR20260903169800108",
-      "source": "연합뉴스 국제",
-      "ts": 1788429875000,
-      "pub": "Thu, 3 Sep 2026 19:04:35 +0900",
-      "sentiment": "neutral",
-      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 블라디미르 푸틴 러시아 대통령이 3일(현지시간) 출산율을 끌어올려야 한다고 말하면서 극심한 저출생에 빠진...",
-      "image": "https://img.yna.co.kr/photo/etc/ta/2026/09/03/PTA20260903081101009_P2.jpg"
-    },
-    {
-      "title": "노르웨이, 러시아 북극 크루즈 압류…우크라에 배상",
-      "link": "https://www.yna.co.kr/view/AKR20260903171700082",
-      "source": "연합뉴스 국제",
-      "ts": 1788429377000,
-      "pub": "Thu, 3 Sep 2026 18:56:17 +0900",
-      "sentiment": "neutral",
-      "desc": "(베를린=연합뉴스) 김계연 특파원 = 노르웨이 당국이 우크라이나 분쟁과 관련한 중재판정을 집행하기 위해 러시아 선박을 압류했다고 AP통신 등이 ...",
-      "image": "https://img.yna.co.kr/photo/etc/ta/2026/09/03/PTA20260903069501009_P2.jpg"
     }
   ]
 }

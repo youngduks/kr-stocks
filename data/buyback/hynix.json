@@ -1,0 +1,103 @@
+{
+  "slug": "hynix",
+  "ticker": "000660",
+  "name_ko": "SK하이닉스",
+  "name_en": "SK Hynix",
+  "updated_at": "2026-09-04 09:32:04+09:00",
+  "source": "krx_kind_treasurystk",
+  "source_url": "https://kind.krx.co.kr/corpgeneral/treasurystk.do?method=loadInitPage",
+  "note": "당일 체결은 다음날 저녁 KIND 공시로 확정 — 실시간 아님. 신청수량=체결수량 100%면 그날 한도 전량 소진.",
+  "program": {
+    "declared_date": "2026-08-19",
+    "planned_amount_krw": 40043000000000,
+    "method": "직접취득",
+    "broker": "SK증권",
+    "purpose": "전량 소각 전제",
+    "period_start": "2026-08-20",
+    "period_end": "2026-11-19",
+    "planned_qty": 24070000,
+    "daily_limit_qty": 2407000
+  },
+  "progress": {
+    "cum_executed_qty": 7150000,
+    "cum_amount_krw": 11997370668000,
+    "avg_price_krw": 1677954,
+    "progress_pct": 29.71,
+    "schedule_elapsed_pct": 16.48,
+    "ahead_pct": 13.22,
+    "remaining_qty": 16920000,
+    "remaining_biz_days": 55,
+    "needed_daily_avg_qty": 307637,
+    "on_track": true,
+    "eta_date": "2026-10-12",
+    "recent5_avg_qty": 650000
+  },
+  "daily": [
+    {
+      "date": "2026-08-20",
+      "applied_qty": 650000,
+      "executed_qty": 650000,
+      "execution_rate_pct": 100
+    },
+    {
+      "date": "2026-08-21",
+      "applied_qty": 650000,
+      "executed_qty": 650000,
+      "execution_rate_pct": 100
+    },
+    {
+      "date": "2026-08-24",
+      "applied_qty": 650000,
+      "executed_qty": 650000,
+      "execution_rate_pct": 100
+    },
+    {
+      "date": "2026-08-25",
+      "applied_qty": 650000,
+      "executed_qty": 650000,
+      "execution_rate_pct": 100
+    },
+    {
+      "date": "2026-08-26",
+      "applied_qty": 650000,
+      "executed_qty": 650000,
+      "execution_rate_pct": 100
+    },
+    {
+      "date": "2026-08-27",
+      "applied_qty": 650000,
+      "executed_qty": 650000,
+      "execution_rate_pct": 100
+    },
+    {
+      "date": "2026-08-28",
+      "applied_qty": 650000,
+      "executed_qty": 650000,
+      "execution_rate_pct": 100
+    },
+    {
+      "date": "2026-08-31",
+      "applied_qty": 650000,
+      "executed_qty": 650000,
+      "execution_rate_pct": 100
+    },
+    {
+      "date": "2026-09-01",
+      "applied_qty": 650000,
+      "executed_qty": 650000,
+      "execution_rate_pct": 100
+    },
+    {
+      "date": "2026-09-02",
+      "applied_qty": 650000,
+      "executed_qty": 650000,
+      "execution_rate_pct": 100
+    },
+    {
+      "date": "2026-09-03",
+      "applied_qty": 650000,
+      "executed_qty": 650000,
+      "execution_rate_pct": 100
+    }
+  ]
+}

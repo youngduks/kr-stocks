@@ -1,5 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "regions": ["icn1"],
-  "ignoreCommand": "case \"$(git log -1 --pretty=%s)\" in 'chore(news): auto-aggregate '*|'chore(consensus): auto-update '*|'chore(data): auto-update trading flow '*) exit 0 ;; *) exit 1 ;; esac"
+  "ignoreCommand": "case \"$(git log -1 --pretty=%s)\" in 'chore(news): auto-aggregate '*|'chore(consensus): auto-update '*|'chore(data): auto-update trading flow '*|'chore(data): auto-update buyback '*) exit 0 ;; *) exit 1 ;; esac"
 }

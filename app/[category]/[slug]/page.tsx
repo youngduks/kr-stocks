@@ -11,6 +11,7 @@ import { FundingBar } from "@/components/FundingBar";
 import { TradingFlowCard } from "@/components/TradingFlowCard";
 import { ShareButton } from "@/components/ShareButton";
 import { getTradingFlow, hasTradingFlow } from "@/lib/tradingFlow";
+import { getBuyback, hasBuyback } from "@/lib/buyback";
 import nextDynamic from "next/dynamic";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -75,6 +76,7 @@ export default async function SymbolPage({ params }: Props) {
   ]);
   const row = data.symbols.find((r) => r.slug === params.slug);
   if (!row || !row.market) notFound();
+  const buyback = hasBuyback(row.slug) ? await getBuyback(row.slug) : null;
 
   const m = row.market;
   const isBn = row.source === "binance"; // 한국주식 3종 = Binance 선물 소스 (그 외 = Hyperliquid)
@@ -577,6 +579,22 @@ export default async function SymbolPage({ params }: Props) {
           if (!flow) return null;
           return <TradingFlowCard data={flow} locale="ko" />;
         })()}
+
+        {/* 자사주 매입(바이백) 진행 현황 — 현재 하이닉스만 진행 중 */}
+        {buyback && (
+          <Link
+            href={`/korea/${row.slug}/buyback`}
+            className="mb-6 p-4 rounded-2xl bg-accent-green/5 border border-accent-green/20 flex items-center justify-between gap-3 hover:bg-accent-green/10 transition"
+          >
+            <div>
+              <div className="text-xs text-text-dim mb-0.5">자사주 매입 진행률</div>
+              <div className="text-lg font-bold tabular text-accent-green">
+                {buyback.progress.progress_pct.toFixed(1)}%
+              </div>
+            </div>
+            <span className="text-xs font-semibold text-accent-green shrink-0">바이백 현황 자세히 →</span>
+          </Link>
+        )}
 
         {/* 24시간 시장 sentiment — HL 거래자 포지션 기반 (코인 metric 숨김, 상승/하락 베팅 비율만 표시) */}
         {/* ADR은 perp 없어 funding 무의미 → sentiment hide */}

@@ -1,8 +1,68 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-04T21:07:32.520Z",
-  "count": 37,
+  "updated_at": "2026-09-04T23:30:53.865Z",
+  "count": 41,
   "items": [
+    {
+      "title": "트럼프 특사, 러·우 연쇄 방문…평화협상 재시동",
+      "link": "https://www.hankyung.com/article/2026090555797",
+      "source": "한국경제",
+      "ts": 1788561840000,
+      "pub": "Sat, 05 Sep 2026 07:44:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"시진핑 부부 24일 미국 방문…훌륭한 일 해낼 것\"",
+      "link": "https://www.hankyung.com/article/2026090555607",
+      "source": "한국경제",
+      "ts": 1788561431000,
+      "pub": "Sat, 05 Sep 2026 07:37:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"곡괭이산 곧 타격할 수도…이란과 충돌, 별것 아닌 일\"",
+      "link": "https://www.hankyung.com/article/2026090555557",
+      "source": "한국경제",
+      "ts": 1788560121000,
+      "pub": "Sat, 05 Sep 2026 07:15:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"무역 중단\" 거론하며 Fed에 기준금리 인하 압박",
+      "link": "https://www.hankyung.com/article/2026090555487",
+      "source": "한국경제",
+      "ts": 1788559814000,
+      "pub": "Sat, 05 Sep 2026 07:10:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란전 해법 불투명하지만…\"트럼프 정부, 전후전략 구상 착수\"",
+      "link": "https://www.yna.co.kr/view/AKR20260905007600071",
+      "source": "연합뉴스 국제",
+      "ts": 1788559799000,
+      "pub": "Sat, 5 Sep 2026 07:09:59 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 행정부가 이란전쟁 이후의 중동 전략 마련에 착수했다고 미 온라인매체 악시오스가 4일(현...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/05/PEP20260905090801009_P2.jpg"
+    },
+    {
+      "title": "아르헨 대통령 \"포클랜드 우리땅\", 트럼프 모호한 태도…분쟁 재점화",
+      "link": "https://www.mt.co.kr/world/2026/09/05/2026090416595833565",
+      "source": "머니투데이",
+      "ts": 1788558000000,
+      "pub": "Sat, 05 Sep 2026 06:40:00 +0900",
+      "sentiment": "neutral",
+      "desc": "[초크포인트]영국-아르헨 군사충돌 벌인 섬 아르헨티나 남부 대서양에 자리한 포클랜드(말비나스) 제도를 둘러싼 영국과 아르헨티나 간 영토 분쟁에 다시 불이 붙는 양상이다. 하비에르 밀레이 아르헨티나 대통령은 3일(현지시간) 대국민 연설에서 \"말비나스 제도는 역사적으로나 ",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026090416595833565_3.jpg"
+    },
+    {
+      "title": "트럼프 \"금리 안 낮추면 무역 중단\"…막무가내 발언 왜 나왔나 [Fed 워치]",
+      "link": "https://www.hankyung.com/article/202609055488i",
+      "source": "한국경제",
+      "ts": 1788555609000,
+      "pub": "Sat, 05 Sep 2026 06:00:09 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "현대제철 美제철소로 관세 돌파…글로벌 철강사업 '큰 그림'",
       "link": "https://www.mt.co.kr/industry/2026/09/05/2026090414134075423",
@@ -330,36 +390,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 우크라이나 수도 키이우 한복판에서 우크라이나의 양대 정보기관 산하 특수부대 간 총격전으로 여러 명이 다치는 사건이 발생했습니다...",
       "image": "https://www.youtube.com/embed/474U6AzxS64"
-    },
-    {
-      "title": "트럼프의 계속되는 기념물 정치…워싱턴 개선문 곧 착공",
-      "link": "https://www.yna.co.kr/view/AKR20260904065400009",
-      "source": "연합뉴스 국제",
-      "ts": 1788487105000,
-      "pub": "Fri, 4 Sep 2026 10:58:25 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이신영 기자 = 도널드 트럼프 미국 대통령이 건국 250주년을 기념해 만들겠다고 한 개선문 공사가 조만간 시작될 것으로 보인다...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/06/26/PAP20260626099301009_P2.jpg"
-    },
-    {
-      "title": "美 공화당에 퍼지는 트럼프 피로감…\"중간선거 패배 우려\"",
-      "link": "https://www.yna.co.kr/view/AKR20260904061100009",
-      "source": "연합뉴스 국제",
-      "ts": 1788486758000,
-      "pub": "Fri, 4 Sep 2026 10:52:38 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 현영복 기자 = 오는 11월 미국 중간 선거를 앞두고 집권 공화당 내에서 도널드 트럼프 대통령의 좌충우돌식 정책에 대한 피로감...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/03/PEP20260903124001009_P2.jpg"
-    },
-    {
-      "title": "美 우주기업 4곳, 트럼프 압박에 파리 우주정상회의 불참",
-      "link": "https://www.yna.co.kr/view/AKR20260904063400009",
-      "source": "연합뉴스 국제",
-      "ts": 1788486550000,
-      "pub": "Fri, 4 Sep 2026 10:49:10 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 임화섭 기자 =  다음 주에 열리는 파리 국제우주정상회의에 일론 머스크의 스페이스X와 제프 베이조스의 블루오리진 등 미국 우주...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/07/08/PEP20260708220801009_P2.jpg"
     },
     {
       "title": "추석 맞이 관세청 '24시간 특별통관'…성수품 수입가격도 공개",

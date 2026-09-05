@@ -1,33 +1,25 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-05T06:26:36.571Z",
-  "count": 11,
+  "updated_at": "2026-09-05T11:00:11.765Z",
+  "count": 10,
   "items": [
     {
-      "title": "\"30년간 이런 적 없었다\"…TSMC 발목 잡은 '뜻밖의 복병' [강경주의 테크X]",
+      "title": "대만 야권, '반도체 도시' 후보단일화 놓고 지방선거 공조 균열",
+      "link": "https://www.yna.co.kr/view/AKR20260905042900083",
+      "source": "연합뉴스 국제",
+      "ts": 1788597436000,
+      "pub": "Sat, 5 Sep 2026 17:37:16 +0900",
+      "sentiment": "neutral",
+      "desc": "(베이징=연합뉴스) 정성조 특파원 = 올해 11월 대만 지방선거에서 집권 민주진보당(민진당)에 맞서 공동 전선을 펼 것으로 예상됐던 야권의 공조...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/06/13/PAP20260613017001009_P2.jpg"
+    },
+    {
+      "title": "\"돈 쏟아부어도 이건 힘들어\"…TSMC 이어 삼성전자도 '비상' [강경주의 테크X]",
       "link": "https://www.hankyung.com/article/2026090442456",
       "source": "한국경제",
       "ts": 1788584411000,
       "pub": "Sat, 05 Sep 2026 14:00:11 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아·오픈AI 격돌…고래싸움에 반도체 웃었다 [빈난새의 빈틈없이마켓]",
-      "link": "https://www.hankyung.com/article/202609044647i",
-      "source": "한국경제",
-      "ts": 1788570182000,
-      "pub": "Sat, 05 Sep 2026 10:03:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "중국 양쯔메모리 IPO 심사질의 단계…절차 순조로워",
-      "link": "https://www.yna.co.kr/view/AKR20260904108100009",
-      "source": "연합뉴스 국제",
-      "ts": 1788500898000,
-      "pub": "Fri, 4 Sep 2026 14:48:18 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 주종국 기자 = 중국 플래시 메모리 1위 기업인 양쯔메모리(YMTC)가 기업공개(IPO) 신청 뒤 다음 단계로 순조롭게 진입했...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/08/21/PRU20260821204701009_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 풍문 또는 보도에 대한 해명(미확정)",

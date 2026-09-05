@@ -1,8 +1,28 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-05T20:47:54.643Z",
-  "count": 10,
+  "updated_at": "2026-09-05T22:26:37.266Z",
+  "count": 11,
   "items": [
+    {
+      "title": "[마켓인사이트] 오픈AI발 인공지능 혁신…韓반도체 다시 뛰나",
+      "link": "https://www.yna.co.kr/view/AKR20260905021700008",
+      "source": "연합뉴스 경제",
+      "ts": 1788642007000,
+      "pub": "Sun, 6 Sep 2026 06:00:07 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 지난 한 주 국내 주식시장은 미국과 이란의 무력충돌 재격화에 따른 고유가와 주요국 국채금리 동반 상승에 흔들리...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/08/08/PRU20260808083501009_P2.jpg"
+    },
+    {
+      "title": "반도체 특수에 韓 경상 흑자율 20% 근접할 듯…대만 바짝 추격",
+      "link": "https://www.yna.co.kr/view/AKR20260905026200002",
+      "source": "연합뉴스 경제",
+      "ts": 1788641340000,
+      "pub": "Sun, 6 Sep 2026 05:49:00 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 한지훈 이도흔 기자 = 올해 우리나라의 명목 국내총생산(GDP) 대비 경상수지 흑자 비율이 20%에 육박할 것으로 보인다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/31/PYH2026073103150001300_P2.jpg"
+    },
     {
       "title": "대만 야권, '반도체 도시' 후보단일화 놓고 지방선거 공조 균열",
       "link": "https://www.yna.co.kr/view/AKR20260905042900083",
@@ -12,14 +32,6 @@
       "sentiment": "neutral",
       "desc": "(베이징=연합뉴스) 정성조 특파원 = 올해 11월 대만 지방선거에서 집권 민주진보당(민진당)에 맞서 공동 전선을 펼 것으로 예상됐던 야권의 공조...",
       "image": "https://img.yna.co.kr/photo/ap/2026/06/13/PAP20260613017001009_P2.jpg"
-    },
-    {
-      "title": "\"돈 쏟아부어도 이건 힘들어\"…TSMC 이어 삼성전자도 '비상' [강경주의 테크X]",
-      "link": "https://www.hankyung.com/article/2026090442456",
-      "source": "한국경제",
-      "ts": 1788584411000,
-      "pub": "Sat, 05 Sep 2026 14:00:11 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "에스케이하이닉스(주) 풍문 또는 보도에 대한 해명(미확정)",

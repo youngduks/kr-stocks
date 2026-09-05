@@ -1,8 +1,18 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-05T20:47:54.641Z",
-  "count": 35,
+  "updated_at": "2026-09-05T22:26:37.190Z",
+  "count": 34,
   "items": [
+    {
+      "title": "[뉴욕증시-주간전망] '초미의 관심사' 물가 지표 나온다…연준의 선택은",
+      "link": "https://www.yna.co.kr/view/AKR20260906004800009",
+      "source": "연합뉴스 국제",
+      "ts": 1788645601000,
+      "pub": "Sun, 6 Sep 2026 07:00:01 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 진정호 연합인포맥스 특파원 = 이번 주(9월 7~11일) 뉴욕 증시는 초미의 관심사 물가 지표에 신경이 집중될 것으로 보인다....",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/06/AKR20260906004800009_01_i_P2.jpg"
+    },
     {
       "title": "푸틴, 트럼프 특사 만나 \"상황 녹록지 않아…모든 측면 논의\"",
       "link": "https://www.yna.co.kr/view/AKR20260906001700108",
@@ -93,14 +103,6 @@
       "source": "한국경제",
       "ts": 1788586345000,
       "pub": "Sat, 05 Sep 2026 14:32:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'대미 투자 741조' 일본, 관세 상한 15% 약속 재확인받아",
-      "link": "https://www.hankyung.com/article/2026090558087",
-      "source": "한국경제",
-      "ts": 1788581742000,
-      "pub": "Sat, 05 Sep 2026 13:15:42 +0900",
       "sentiment": "neutral"
     },
     {
@@ -322,16 +324,6 @@
       "sentiment": "neutral",
       "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 도널드 트럼프 미국 대통령의 특사 스티브 윗코프와 트럼프 대통령의 맏사위 재러드 쿠슈너가 이번 주말 러시...",
       "image": "https://img.yna.co.kr/photo/ap/2026/04/12/PAP20260412172501009_P2.jpg"
-    },
-    {
-      "title": "'트럼프 눈독' 그린란드에…EU, 3천억원 추가 지원 예정",
-      "link": "https://www.yna.co.kr/view/AKR20260904158200098",
-      "source": "연합뉴스 국제",
-      "ts": 1788513142000,
-      "pub": "Fri, 4 Sep 2026 18:12:22 +0900",
-      "sentiment": "neutral",
-      "desc": "(브뤼셀=연합뉴스) 현윤경 특파원 = 유럽연합(EU) 수장이 도널드 트럼프 미국 대통령이 집요한 병합 의지를 거두지 않고 있는 덴마크 자치령 그...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/02/22/PAP20260222297301009_P2.jpg"
     },
     {
       "title": "국고채 금리 대체로 하락…美 고용지표 대기(종합)",

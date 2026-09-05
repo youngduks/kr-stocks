@@ -1,14 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-05T01:47:41.215Z",
-  "count": 10,
+  "updated_at": "2026-09-05T06:26:36.571Z",
+  "count": 11,
   "items": [
     {
-      "title": "美 국채서 떠나려는 국부펀드는 어디?…주가 부진, 메모리는 잘못이 없다[박신영의 개장전 요것만]",
-      "link": "https://www.hankyung.com/article/202609055459i",
+      "title": "\"30년간 이런 적 없었다\"…TSMC 발목 잡은 '뜻밖의 복병' [강경주의 테크X]",
+      "link": "https://www.hankyung.com/article/2026090442456",
       "source": "한국경제",
-      "ts": 1788536638000,
-      "pub": "Sat, 05 Sep 2026 00:43:58 +0900",
+      "ts": 1788584411000,
+      "pub": "Sat, 05 Sep 2026 14:00:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아·오픈AI 격돌…고래싸움에 반도체 웃었다 [빈난새의 빈틈없이마켓]",
+      "link": "https://www.hankyung.com/article/202609044647i",
+      "source": "한국경제",
+      "ts": 1788570182000,
+      "pub": "Sat, 05 Sep 2026 10:03:02 +0900",
       "sentiment": "neutral"
     },
     {

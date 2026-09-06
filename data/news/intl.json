@@ -1,8 +1,18 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-05T22:26:37.190Z",
-  "count": 34,
+  "updated_at": "2026-09-06T00:21:30.492Z",
+  "count": 32,
   "items": [
+    {
+      "title": "트럼프가 \"내 돈\" 주장한 마가 선거자금, 텍사스에 135억원 투입",
+      "link": "https://www.yna.co.kr/view/AKR20260906007400075",
+      "source": "연합뉴스 국제",
+      "ts": 1788648159000,
+      "pub": "Sun, 6 Sep 2026 07:42:39 +0900",
+      "sentiment": "neutral",
+      "desc": "(로스앤젤레스=연합뉴스) 김경윤 특파원 = 도널드 트럼프 미국 대통령 지지 슈퍼팩(super PAC·정치자금 모금 단체)이 최근 격전지로 떠오른...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/09/03/PRU20260903285101009_P2.jpg"
+    },
     {
       "title": "[뉴욕증시-주간전망] '초미의 관심사' 물가 지표 나온다…연준의 선택은",
       "link": "https://www.yna.co.kr/view/AKR20260906004800009",
@@ -80,14 +90,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"벌써 작년 연간 수출액 넘어\"…李 대통령, 관세청장 보고 전달",
-      "link": "https://www.hankyung.com/article/2026090558487",
-      "source": "한국경제",
-      "ts": 1788587084000,
-      "pub": "Sat, 05 Sep 2026 14:44:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "'트럼프 개선문 건설'에 법원 추가 제동…\"현장활동 48시간 전 통보해야\"",
       "link": "https://www.yna.co.kr/view/AKR20260905033700009",
       "source": "연합뉴스 국제",
@@ -96,14 +98,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 신재우 기자 = 도널드 트럼프 미국 대통령이 워싱턴DC에 대형 개선문 건설을 추진 중인 가운데 연방법원이 사전 통보를 추가로 ...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/09/05/PRU20260905156501009_P2.jpg"
-    },
-    {
-      "title": "\"미군 탄약 거덜\" 폭로에 격노한 트럼프…거짓말탐지기 꺼냈다",
-      "link": "https://www.hankyung.com/article/2026090558427",
-      "source": "한국경제",
-      "ts": 1788586345000,
-      "pub": "Sat, 05 Sep 2026 14:32:25 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "미일, '관세 15% 상한' 합의 준수 재확인…\"추가 관세 차단\"",
@@ -314,16 +308,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령의 측근으로 알려진 미 보수성향 방송사의 유명 앵커가 갑작스레 해고됐다.",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/04/AKR20260904177800071_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프 특사, 모스크바·키이우 방문할듯…평화협상 재시동?",
-      "link": "https://www.yna.co.kr/view/AKR20260904173100108",
-      "source": "연합뉴스 국제",
-      "ts": 1788523613000,
-      "pub": "Fri, 4 Sep 2026 21:06:53 +0900",
-      "sentiment": "neutral",
-      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 도널드 트럼프 미국 대통령의 특사 스티브 윗코프와 트럼프 대통령의 맏사위 재러드 쿠슈너가 이번 주말 러시...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/04/12/PAP20260412172501009_P2.jpg"
     },
     {
       "title": "국고채 금리 대체로 하락…美 고용지표 대기(종합)",

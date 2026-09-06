@@ -1,8 +1,34 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-06T00:21:30.494Z",
-  "count": 12,
+  "updated_at": "2026-09-06T05:15:28.860Z",
+  "count": 15,
   "items": [
+    {
+      "title": "한국, 반도체 세계 최고인데…\"이러다 안방까지 내준다\" 경고",
+      "link": "https://www.hankyung.com/article/202609066520i",
+      "source": "한국경제",
+      "ts": 1788661020000,
+      "pub": "Sun, 06 Sep 2026 11:17:00 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"반도체 호황에도 내수는 뒷걸음…통화정책 과잉대응 경계해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260905051300002",
+      "source": "연합뉴스 경제",
+      "ts": 1788660001000,
+      "pub": "Sun, 6 Sep 2026 11:00:01 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이도흔 기자 = 반도체 수출 호조에 힘입어 한국 경제가 경기 확장 국면에 진입했지만, 소비와 고용 등 내수 부문으로 온기가 충...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/05/AKR20260905051300002_01_i_P2.jpg"
+    },
+    {
+      "title": "삼성전자, SK하이닉스 FCF 50% 주주환원이 던지는 질문 [이강연의 재무제표 일기]",
+      "link": "https://www.hankyung.com/article/202608313342i",
+      "source": "한국경제",
+      "ts": 1788651962000,
+      "pub": "Sun, 06 Sep 2026 08:46:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "다시 꿈틀대는 SK하이닉스 주가…향후 핵심 이벤트 6가지",
       "link": "https://www.hankyung.com/article/202609044927i",

@@ -1,65 +1,65 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-07T00:27:11.134Z",
+  "updated_at": "2026-09-07T05:24:06.458Z",
   "count": 14,
   "items": [
     {
-      "title": "\"삼전닉스 메모리 재고 10일 미만까지 뚝↓…내년 물량 고갈\"-KB",
-      "link": "https://www.hankyung.com/article/2026090773736",
+      "title": "반도체 호황에 제조업 고용 15개월만 증가…건설업 한파는 계속",
+      "link": "https://www.yna.co.kr/view/AKR20260907071200530",
+      "source": "연합뉴스 경제",
+      "ts": 1788750003000,
+      "pub": "Mon, 7 Sep 2026 12:00:03 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 옥성구 기자 = 반도체·조선업 호황에 'K-푸드'의 수출 호조가 더해지며 제조업의 고용보험 상시가입자 수가 15개월 만에 증가...",
+      "image": "https://img.yna.co.kr/photo/cms/2021/04/12/22/PCM20210412000022990_P2.jpg"
+    },
+    {
+      "title": "TSMC 등 30개사, 차세대 기술 '실리콘 포토닉스 연맹' 설립 추진",
+      "link": "https://www.yna.co.kr/view/AKR20260907076200009",
+      "source": "연합뉴스 국제",
+      "ts": 1788749593000,
+      "pub": "Mon, 7 Sep 2026 11:53:13 +0900",
+      "sentiment": "neutral",
+      "desc": "(타이베이=연합뉴스) 김철문 통신원 = 세계 최대 파운드리(반도체 수탁생산) 업체인 TSMC 등 대만 30여개 선도기업이 '실리콘 포토닉스 연맹...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/07/AKR20260907076200009_01_i_P2.jpg"
+    },
+    {
+      "title": "中화웨이 \"'타우법칙' 새 반도체 발열 우려없다\" 반박 논문 발표",
+      "link": "https://www.yna.co.kr/view/AKR20260907067400083",
+      "source": "연합뉴스 국제",
+      "ts": 1788747130000,
+      "pub": "Mon, 7 Sep 2026 11:12:10 +0900",
+      "sentiment": "negative",
+      "desc": "(베이징=연합뉴스) 정성조 특파원 = '타우 법칙'(the Tau Scaling Law)을 내세우며 세계 반도체 업계 공략에 나선 중국 화웨이가...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/07/AKR20260907067400083_01_i_P2.jpg"
+    },
+    {
+      "title": "\"달리는 말에 올라타라\" … 장 초반 강세에 반도체주 쓸어담은 초고수",
+      "link": "https://www.hankyung.com/article/202609078149i",
       "source": "한국경제",
-      "ts": 1788736330000,
-      "pub": "Mon, 07 Sep 2026 08:12:10 +0900",
+      "ts": 1788746885000,
+      "pub": "Mon, 07 Sep 2026 11:08:05 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "[마켓뷰] 오픈AI발 호재에 美반도체 급등…코스피도 강세 기대",
-      "link": "https://www.yna.co.kr/view/AKR20260907016300008",
+      "title": "대 인도 수출 31%↑…반도체 177% 폭증 속 K-푸드·뷰티도 껑충",
+      "link": "https://www.yna.co.kr/view/AKR20260907064500003",
       "source": "연합뉴스 경제",
-      "ts": 1788735919000,
-      "pub": "Mon, 7 Sep 2026 08:05:19 +0900",
+      "ts": 1788746401000,
+      "pub": "Mon, 7 Sep 2026 11:00:01 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 신창용 기자 = 우리나라의 대(對)인도 수출이 반도체 등 주력 산업재뿐만 아니라 식품·화장품 등 소비재 호조에 힘입어 가파른 ...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/20/PYH2026042017350001300_P2.jpg"
+    },
+    {
+      "title": "[특징주] 반도체 훈풍에 관련 소부장주 장초반 급등",
+      "link": "https://www.yna.co.kr/view/AKR20260907040000008",
+      "source": "연합뉴스 경제",
+      "ts": 1788741276000,
+      "pub": "Mon, 7 Sep 2026 09:34:36 +0900",
       "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 7일 코스피는 미국 오픈AI의 새 인공지능(AI) 모델 '아스트라' 출시와 범용인공지능(AGI) 시대 도래 선...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/04/PRU20260904214701009_P2.jpg"
-    },
-    {
-      "title": "\"반도체 호황에도 내수는 뒷걸음…통화정책 과잉대응 경계해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260905051300002",
-      "source": "연합뉴스 경제",
-      "ts": 1788660001000,
-      "pub": "Sun, 6 Sep 2026 11:00:01 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이도흔 기자 = 반도체 수출 호조에 힘입어 한국 경제가 경기 확장 국면에 진입했지만, 소비와 고용 등 내수 부문으로 온기가 충...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/05/AKR20260905051300002_01_i_P2.jpg"
-    },
-    {
-      "title": "[마켓인사이트] 오픈AI발 인공지능 혁신…韓반도체 다시 뛰나",
-      "link": "https://www.yna.co.kr/view/AKR20260905021700008",
-      "source": "연합뉴스 경제",
-      "ts": 1788642007000,
-      "pub": "Sun, 6 Sep 2026 06:00:07 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 지난 한 주 국내 주식시장은 미국과 이란의 무력충돌 재격화에 따른 고유가와 주요국 국채금리 동반 상승에 흔들리...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/08/08/PRU20260808083501009_P2.jpg"
-    },
-    {
-      "title": "반도체 특수에 韓 경상 흑자율 20% 근접할 듯…대만 바짝 추격",
-      "link": "https://www.yna.co.kr/view/AKR20260905026200002",
-      "source": "연합뉴스 경제",
-      "ts": 1788641340000,
-      "pub": "Sun, 6 Sep 2026 05:49:00 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 한지훈 이도흔 기자 = 올해 우리나라의 명목 국내총생산(GDP) 대비 경상수지 흑자 비율이 20%에 육박할 것으로 보인다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/31/PYH2026073103150001300_P2.jpg"
-    },
-    {
-      "title": "대만 야권, '반도체 도시' 후보단일화 놓고 지방선거 공조 균열",
-      "link": "https://www.yna.co.kr/view/AKR20260905042900083",
-      "source": "연합뉴스 국제",
-      "ts": 1788597436000,
-      "pub": "Sat, 5 Sep 2026 17:37:16 +0900",
-      "sentiment": "neutral",
-      "desc": "(베이징=연합뉴스) 정성조 특파원 = 올해 11월 대만 지방선거에서 집권 민주진보당(민진당)에 맞서 공동 전선을 펼 것으로 예상됐던 야권의 공조...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/06/13/PAP20260613017001009_P2.jpg"
+      "desc": "(서울=연합뉴스) 김유향 기자 = 삼성전자[005930]와 SK하이닉스[000660] 등 국내증시 내 대형 반도체주가 강세를 보이는 가운데 반도...",
+      "image": "https://img.yna.co.kr/photo/cms/2020/09/04/86/PCM20200904000086990_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 풍문 또는 보도에 대한 해명(미확정)",

@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-07T00:27:11.133Z",
-  "count": 9,
+  "updated_at": "2026-09-07T05:24:06.457Z",
+  "count": 8,
   "items": [
+    {
+      "title": "\"영업익 10% 달라\" 파업 못한다…삼전닉스 돈잔치 제동에 '술렁' [김대영의 노무스쿨]",
+      "link": "https://www.hankyung.com/article/202609067131g",
+      "source": "한국경제",
+      "ts": 1788749372000,
+      "pub": "Mon, 07 Sep 2026 11:49:32 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "[특징주] 삼전·닉스, 오픈AI발 훈풍에 장 초반 4∼6%대 급등",
       "link": "https://www.yna.co.kr/view/AKR20260907034400008",
@@ -12,22 +20,6 @@
       "sentiment": "positive",
       "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 7일 장 초반 각각 4%와 6%대의 상승률을 보인다.",
       "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
-    },
-    {
-      "title": "코스피, 3% 급등해 6900선 탈환 시도…삼전닉스도 강세",
-      "link": "https://www.hankyung.com/article/2026090775696",
-      "source": "한국경제",
-      "ts": 1788739890000,
-      "pub": "Mon, 07 Sep 2026 09:11:30 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\"삼전닉스 메모리 재고 10일 미만까지 뚝↓…내년 물량 고갈\"-KB",
-      "link": "https://www.hankyung.com/article/2026090773736",
-      "source": "한국경제",
-      "ts": 1788736330000,
-      "pub": "Mon, 07 Sep 2026 08:12:10 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

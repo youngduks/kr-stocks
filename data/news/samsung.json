@@ -1,17 +1,33 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-06T22:31:46.111Z",
-  "count": 7,
+  "updated_at": "2026-09-07T00:27:11.133Z",
+  "count": 9,
   "items": [
     {
-      "title": "2분기 낸드시장 70%↑… '삼전닉스' 정상 수성",
-      "link": "https://www.mt.co.kr/industry/2026/09/07/2026090619442977904",
-      "source": "머니투데이",
-      "ts": 1788720360000,
-      "pub": "Mon, 07 Sep 2026 03:46:00 +0900",
-      "sentiment": "neutral",
-      "desc": "글로벌 점유율 '합산 47%' AI(인공지능) 인프라 투자의 중심축이 학습에서 추론단계로 옮겨가면서 낸드플래시(이하 낸드) 시장이 급성장했다. 고성능 eSSD(기업용 솔리드스테이트드라이브) 수요폭증과 가격상승이 더해지면서 삼성전자와 SK하이닉스의 글로벌 낸드 매출점유율",
-      "image": "https://thumb.mt.co.kr/06/2026/09/2026090619442977904_1.jpg"
+      "title": "[특징주] 삼전·닉스, 오픈AI발 훈풍에 장 초반 4∼6%대 급등",
+      "link": "https://www.yna.co.kr/view/AKR20260907034400008",
+      "source": "연합뉴스 경제",
+      "ts": 1788740279000,
+      "pub": "Mon, 7 Sep 2026 09:17:59 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 7일 장 초반 각각 4%와 6%대의 상승률을 보인다.",
+      "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
+    },
+    {
+      "title": "코스피, 3% 급등해 6900선 탈환 시도…삼전닉스도 강세",
+      "link": "https://www.hankyung.com/article/2026090775696",
+      "source": "한국경제",
+      "ts": 1788739890000,
+      "pub": "Mon, 07 Sep 2026 09:11:30 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"삼전닉스 메모리 재고 10일 미만까지 뚝↓…내년 물량 고갈\"-KB",
+      "link": "https://www.hankyung.com/article/2026090773736",
+      "source": "한국경제",
+      "ts": 1788736330000,
+      "pub": "Mon, 07 Sep 2026 08:12:10 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

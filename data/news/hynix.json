@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-08T11:51:39.200Z",
-  "count": 13,
+  "updated_at": "2026-09-08T15:33:30.131Z",
+  "count": 15,
   "items": [
+    {
+      "title": "유가급등,무역긴장에 뉴욕증시 하락…반도체주는 반등",
+      "link": "https://www.hankyung.com/article/202609082357i",
+      "source": "한국경제",
+      "ts": 1788877816000,
+      "pub": "Tue, 08 Sep 2026 23:30:16 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "중국이 또…\"'반도체 최상단' 장비까지 손댔다\" 초비상 [강경주의 테크X]",
+      "link": "https://www.hankyung.com/article/2026090823216",
+      "source": "한국경제",
+      "ts": 1788873828000,
+      "pub": "Tue, 08 Sep 2026 22:23:48 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성전자 \"차세대 ASML 노광장비로 D램 만든다\"",
       "link": "https://www.hankyung.com/article/2026090820061",

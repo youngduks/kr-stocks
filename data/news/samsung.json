@@ -1,30 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-08T11:51:39.199Z",
+  "updated_at": "2026-09-08T15:33:30.130Z",
   "count": 10,
   "items": [
+    {
+      "title": "李, 파리서 한·프 비즈니스 라운드테이블…이재용도 참석",
+      "link": "https://www.hankyung.com/article/2026090822977",
+      "source": "한국경제",
+      "ts": 1788870187000,
+      "pub": "Tue, 08 Sep 2026 21:23:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "李대통령, 韓佛 비즈니스라운드테이블…이재용 등 재계 집결",
+      "link": "https://www.yna.co.kr/view/AKR20260908166200001",
+      "source": "연합뉴스 경제",
+      "ts": 1788869270000,
+      "pub": "Tue, 8 Sep 2026 21:07:50 +0900",
+      "sentiment": "neutral",
+      "desc": "(파리=연합뉴스) 임형섭 고동욱 기자 = 프랑스를 국빈방문 중인 이재명 대통령은 8일(현지시간) 파리에서 열리는 양국 기업 교류 행사인 한-프랑...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/08/PYH2026090823700001300_P2.jpg"
+    },
     {
       "title": "삼성전자 \"차세대 ASML 노광장비로 D램 만든다\"",
       "link": "https://www.hankyung.com/article/2026090820061",
       "source": "한국경제",
       "ts": 1788860247000,
       "pub": "Tue, 08 Sep 2026 18:37:27 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 佛 AI기업 '미스트랄'에 수천억원 투자",
-      "link": "https://www.hankyung.com/article/2026090821101",
-      "source": "한국경제",
-      "ts": 1788858956000,
-      "pub": "Tue, 08 Sep 2026 18:15:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "수억 성과급이 종잣돈…삼전닉스맨 \"지금이 자산가 될 골든타임\"",
-      "link": "https://www.hankyung.com/article/2026090820601",
-      "source": "한국경제",
-      "ts": 1788858558000,
-      "pub": "Tue, 08 Sep 2026 18:09:18 +0900",
       "sentiment": "neutral"
     },
     {

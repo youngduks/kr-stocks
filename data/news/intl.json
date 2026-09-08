@@ -1,8 +1,58 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-08T15:33:30.129Z",
+  "updated_at": "2026-09-08T19:05:06.465Z",
   "count": 17,
   "items": [
+    {
+      "title": "\"이틀짜리 트럼프 쇼\"…美공화, 초유의 중간선거 전당대회 돌입",
+      "link": "https://www.yna.co.kr/view/AKR20260909003300071",
+      "source": "연합뉴스 국제",
+      "ts": 1788892296000,
+      "pub": "Wed, 9 Sep 2026 03:31:36 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 미국 공화당이 11월 중간선거를 앞두고 오는 9∼10일(현지시간) 개최하는 전당대회는 사실상 '트럼프에 의...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/08/PAF20260908210501009_P2.jpg"
+    },
+    {
+      "title": "영·프·캐나다 등 12개국 \"서안 이스라엘 정착촌과 교역 제한\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260908172951085",
+      "source": "연합뉴스 국제",
+      "ts": 1788888332000,
+      "pub": "Wed, 9 Sep 2026 02:25:32 +0900",
+      "sentiment": "neutral",
+      "desc": "(런던=연합뉴스) 김지연 특파원 = 영국과 프랑스, 캐나다를 포함한 12개 국가가 팔레스타인 요르단강 서안의 이스라엘 정착촌과 교역에 대한 제재...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/07/PAF20260907312001009_P2.jpg"
+    },
+    {
+      "title": "트럼프, 9·11 추모행사서 \"미국은 어떤 테러로도 파괴 불가\"",
+      "link": "https://www.yna.co.kr/view/AKR20260909003200071",
+      "source": "연합뉴스 국제",
+      "ts": 1788888179000,
+      "pub": "Wed, 9 Sep 2026 02:22:59 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 8일(현지시간) 25년 전 9·11 테러 참사와 관련, \"우리나라는 그 어느 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/09/AKR20260909003200071_01_i_P2.jpg"
+    },
+    {
+      "title": "美와 관세전쟁 속 캐나다, EU와 '전방위 협력' 추진",
+      "link": "https://www.yna.co.kr/view/AKR20260909002400072",
+      "source": "연합뉴스 국제",
+      "ts": 1788885181000,
+      "pub": "Wed, 9 Sep 2026 01:33:01 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 미국과 관세전쟁을 벌이고 있는 캐나다가 유럽연합(EU)과 무역부터 안보까지 아우르는 전방위적 협력 관계 구축...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/09/AKR20260909002400072_01_i_P2.jpg"
+    },
+    {
+      "title": "이스라엘, 英 정착촌 제재에 '선거 개입' 반발…영사관 폐쇄 맞불(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260909000551079",
+      "source": "연합뉴스 국제",
+      "ts": 1788884326000,
+      "pub": "Wed, 9 Sep 2026 01:18:46 +0900",
+      "sentiment": "negative",
+      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 기드온 사르 이스라엘 외무장관은 8일(현지시간) 이스라엘 정착촌에 대한 영국의 새로운 제재를 다가오는 총선...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/09/AKR20260909000551079_01_i_P2.jpg"
+    },
     {
       "title": "이스라엘, 英 정착촌 제재에 '선거 개입' 반발…영사관 폐쇄 맞불",
       "link": "https://www.yna.co.kr/view/AKR20260909000500079",
@@ -59,22 +109,6 @@
       "source": "한국경제",
       "ts": 1788864729000,
       "pub": "Tue, 08 Sep 2026 19:52:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'더는 못 참아' 칼 빼든 캐나다…美에 보복관세 '초강수'",
-      "link": "https://www.hankyung.com/article/202609082202i",
-      "source": "한국경제",
-      "ts": 1788862462000,
-      "pub": "Tue, 08 Sep 2026 19:14:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"트럼프 싫어\"…급기야 노벨상 수상자도 짐 쌌다",
-      "link": "https://www.hankyung.com/article/2026090819991",
-      "source": "한국경제",
-      "ts": 1788861602000,
-      "pub": "Tue, 08 Sep 2026 19:00:02 +0900",
       "sentiment": "neutral"
     },
     {
@@ -136,36 +170,6 @@
       "sentiment": "neutral",
       "desc": "(세종=연합뉴스) 안채원 기자 = 올해 들어 7월까지 관세 당국에 적발된 탈세 및 법규 위반 규모가 1조760억원으로 집계됐다. 작년 연간 적발...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/08/PYH2026090804150001300_P2.jpg"
-    },
-    {
-      "title": "\"북한이 만든 시리아 독재정권 원자로에서 핵무기 제조될 뻔\"",
-      "link": "https://www.yna.co.kr/view/AKR20260908028100009",
-      "source": "연합뉴스 국제",
-      "ts": 1788827318000,
-      "pub": "Tue, 8 Sep 2026 09:28:38 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 오수진 기자 = 축출된 바샤르 알아사드 시리아 전 대통령이 북한의 지원을 받아 건설한 원자로는 핵무기 제조용으로 건설됐으며 완...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/07/PAF20260907251201009_P2.jpg"
-    },
-    {
-      "title": "트럼프의 '경제 질식' 작전, 이란 군사 확전 내모나",
-      "link": "https://www.yna.co.kr/view/AKR20260908033200009",
-      "source": "연합뉴스 국제",
-      "ts": 1788827000000,
-      "pub": "Tue, 8 Sep 2026 09:23:20 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 강훈상 기자 = 미국이 이란과 협상을 접고 지금처럼 더 강력한 경제 제재로 압박하면 이란을 굴복 대신 군사 확전으로 내모는 파...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/08/01/PEP20260801088501009_P2.jpg"
-    },
-    {
-      "title": "\"트럼프, 투표소에 군·ICE 배치하나\"…美야당 선거 앞 우려",
-      "link": "https://www.yna.co.kr/view/AKR20260908026600009",
-      "source": "연합뉴스 국제",
-      "ts": 1788825234000,
-      "pub": "Tue, 8 Sep 2026 08:53:54 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 고일환 기자 = 11월 미국 중간선거를 앞두고 도널드 트럼프 대통령이 투표소에 군 병력을 배치할 가능성을 두고 민주당의 우려가...",
-      "image": "https://img.yna.co.kr/photo/ap/2025/08/19/PAP20250819032101009_P2.jpg"
     }
   ]
 }

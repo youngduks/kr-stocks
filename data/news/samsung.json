@@ -1,35 +1,49 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-07T23:07:39.880Z",
-  "count": 9,
+  "updated_at": "2026-09-08T01:50:44.499Z",
+  "count": 11,
   "items": [
     {
-      "title": "개미 8조 던져도 끄떡없다… 삼전닉스 질주 칠천피 '턱밑'",
-      "link": "https://www.mt.co.kr/stock/2026/09/08/2026090719400012030",
-      "source": "머니투데이",
-      "ts": 1788804780000,
-      "pub": "Tue, 08 Sep 2026 03:13:00 +0900",
-      "sentiment": "neutral",
-      "desc": "외국인·기관 6조 순매수 코스피 4.6%↑ 6995.39 국내 양대 증시가 상승 마감했다. 반도체 종목의 호황 기대감에 탄력을 받은 모습이다. 이날 상승장은 외국인과 기관이 주도했다. 7일 코스피지수는 전거래일 대비 308.18포인트(4.61%) 오른 6995.39에 ",
-      "image": "https://thumb.mt.co.kr/06/2026/09/2026090719400012030_1.jpg"
+      "title": "김영훈 \"노란봉투법 새 지침대로면 '삼성전자 N% 성과급' 파업 불법\"",
+      "link": "https://www.hankyung.com/article/2026090802247",
+      "source": "한국경제",
+      "ts": 1788826904000,
+      "pub": "Tue, 08 Sep 2026 09:21:44 +0900",
+      "sentiment": "negative"
     },
     {
-      "title": "메모리 초호황인데…\"삼전 주가 상승 막는 MX·노조 리스크\" [분석+]",
-      "link": "https://www.hankyung.com/article/2026090791006",
+      "title": "DB하이텍, 4%대 강세…\"中 수요에 8인치 파운드리 공급 부족\"",
+      "link": "https://www.hankyung.com/article/2026090803346",
       "source": "한국경제",
-      "ts": 1788786001000,
-      "pub": "Mon, 07 Sep 2026 22:00:01 +0900",
+      "ts": 1788826752000,
+      "pub": "Tue, 08 Sep 2026 09:19:12 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "오픈AI발 훈풍에…삼전 5%대, 하이닉스 8%대 급등(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260907034451008",
+      "title": "오는 10일 삼전닉스 팔고 '이 종목' 산다…1.3조 대이동",
+      "link": "https://www.hankyung.com/article/202609080173i",
+      "source": "한국경제",
+      "ts": 1788826531000,
+      "pub": "Tue, 08 Sep 2026 09:15:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전하닉 급등한 날…초고수 투자자들의 선택은?",
+      "link": "https://www.hankyung.com/article/202609080229i",
+      "source": "한국경제",
+      "ts": 1788825708000,
+      "pub": "Tue, 08 Sep 2026 09:01:48 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "노동장관 \"새 지침대로면 '삼성전자 N% 성과급' 요구 파업 불법\"",
+      "link": "https://www.yna.co.kr/view/AKR20260908023800530",
       "source": "연합뉴스 경제",
-      "ts": 1788764210000,
-      "pub": "Mon, 7 Sep 2026 15:56:50 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 7일 각각 5%와 8%대의 급등세를 유지하며 정규장 거래...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
+      "ts": 1788825002000,
+      "pub": "Tue, 8 Sep 2026 08:50:02 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 옥성구 기자 = 김영훈 고용노동부 장관은 최근 정부가 발표한 노란봉투법 시행지침을 적용할 경우, 지난 5월 삼성전자 노조의 '...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/01/PYH2026090105920001300_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

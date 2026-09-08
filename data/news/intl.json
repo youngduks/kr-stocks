@@ -1,8 +1,82 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-08T06:40:58.932Z",
-  "count": 19,
+  "updated_at": "2026-09-08T11:51:39.198Z",
+  "count": 20,
   "items": [
+    {
+      "title": "트럼프 올린 美지도에 이웃나라들 포함…아이슬란드, 美대사 초치",
+      "link": "https://www.yna.co.kr/view/AKR20260908165400009",
+      "source": "연합뉴스 국제",
+      "ts": 1788866741000,
+      "pub": "Tue, 8 Sep 2026 20:25:41 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 곽민서 기자 = 아이슬란드가 8일(현지시간) 자국 영토를 미국의 일부처럼 표현한 도널드 트럼프 미국 대통령의 소셜미디어 게시물...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/08/AKR20260908165400009_01_i_P2.jpg"
+    },
+    {
+      "title": "젤렌스키 \"美 쿠슈너 평화안, 상당히 괜찮은 내용 있었다\"",
+      "link": "https://www.hankyung.com/article/2026090822277",
+      "source": "한국경제",
+      "ts": 1788864729000,
+      "pub": "Tue, 08 Sep 2026 19:52:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'더는 못 참아' 칼 빼든 캐나다…美에 보복관세 '초강수'",
+      "link": "https://www.hankyung.com/article/202609082202i",
+      "source": "한국경제",
+      "ts": 1788862462000,
+      "pub": "Tue, 08 Sep 2026 19:14:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"트럼프 싫어\"…급기야 노벨상 수상자도 짐 쌌다",
+      "link": "https://www.hankyung.com/article/2026090819991",
+      "source": "한국경제",
+      "ts": 1788861602000,
+      "pub": "Tue, 08 Sep 2026 19:00:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "푸틴·모디, 브릭스 정상회의 계기로 11일 회담",
+      "link": "https://www.yna.co.kr/view/AKR20260908160200108",
+      "source": "연합뉴스 국제",
+      "ts": 1788861391000,
+      "pub": "Tue, 8 Sep 2026 18:56:31 +0900",
+      "sentiment": "neutral",
+      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 오는 12∼13일(현지시간) 인도 뉴델리에서 열리는 브릭스(BRICS) 정상회의를 계기로 블라디미르 푸틴...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/01/PAP20260901208601009_P2.jpg"
+    },
+    {
+      "title": "\"네타냐후, 10·7 하마스 기습 계획 사전에 통보받고 묵살\"",
+      "link": "https://www.yna.co.kr/view/AKR20260908142300079",
+      "source": "연합뉴스 국제",
+      "ts": 1788854047000,
+      "pub": "Tue, 8 Sep 2026 16:54:07 +0900",
+      "sentiment": "neutral",
+      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 이스라엘 역사상 최악의 '안보 실패'로 꼽히는 2023년 10월 7일 하마스의 기습공격이 있기 전 베냐민 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/08/AKR20260908142300079_01_i_P2.jpg"
+    },
+    {
+      "title": "[영상] 美 특사단 떠나자마자…러-우크라, 미사일·드론 난타전 재개",
+      "link": "https://www.yna.co.kr/view/AKR20260908139000704",
+      "source": "연합뉴스 국제",
+      "ts": 1788852915000,
+      "pub": "Tue, 8 Sep 2026 16:35:15 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 지난 주말 사이 블라디미르 푸틴 러시아 대통령과 볼로디미르 젤렌스키 우크라이나 대통령을 잇달아 만난 도널드 트럼프 미국 대통령...",
+      "image": "https://www.youtube.com/embed/8tFPhmHoiNk"
+    },
+    {
+      "title": "트럼프 경고에도…캐나다, 미국에 '50% 맞불 관세'",
+      "link": "https://www.yna.co.kr/view/AKR20260908128700009",
+      "source": "연합뉴스 국제",
+      "ts": 1788850222000,
+      "pub": "Tue, 8 Sep 2026 15:50:22 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 곽민서 기자 = 캐나다가 도널드 트럼프 미국 행정부의 관세 부과에 맞선 '맞불 관세'를 8일(현지시간) 공식 발효했다.",
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/04/PAP20260904002101009_P2.jpg"
+    },
     {
       "title": "[게시판] 관세청, 마약 밀반입 차단 'N차 저지선 점검단' 운영",
       "link": "https://www.yna.co.kr/view/AKR20260908118800002",
@@ -122,76 +196,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 노동절인 7일(현지시간) 중간선거를 겨냥해 야당인 민주당을 비난하고 자신의 지...",
       "image": "https://img.yna.co.kr/photo/etc/af/2026/09/08/PAF20260908077401009_P2.jpg"
-    },
-    {
-      "title": "러·우 방문 트럼프 특사 \"추가 3자회담 조율 등 실질적 진전\"",
-      "link": "https://www.yna.co.kr/view/AKR20260908000600071",
-      "source": "연합뉴스 국제",
-      "ts": 1788798179000,
-      "pub": "Tue, 8 Sep 2026 01:22:59 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 최근 러시아와 우크라이나를 차례로 방문한 스티브 윗코프 미국 도널드 트럼프 대통령 특사는 7일(현지시간) ...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/07/PAF20260907051201009_P2.jpg"
-    },
-    {
-      "title": "트럼프, 美연휴 폭풍 SNS…'자랑·조롱·지명갈이' AI밈 도배",
-      "link": "https://www.yna.co.kr/view/AKR20260908000300071",
-      "source": "연합뉴스 국제",
-      "ts": 1788797568000,
-      "pub": "Tue, 8 Sep 2026 01:12:48 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 미국 노동절 연휴(5∼7일)에도 쉬지 않고 자신의 소셜미디어 트루스소셜에 수많...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/08/AKR20260908000300071_04_i_P2.jpg"
-    },
-    {
-      "title": "EU 수장, '트럼프 눈독' 그린란드에 3천억원 추가 지원 발표",
-      "link": "https://www.yna.co.kr/view/AKR20260907162500098",
-      "source": "연합뉴스 국제",
-      "ts": 1788790214000,
-      "pub": "Mon, 7 Sep 2026 23:10:14 +0900",
-      "sentiment": "neutral",
-      "desc": "(브뤼셀=연합뉴스) 현윤경 특파원 = 유럽연합(EU)이 도널드 트럼프 미국 대통령이 호시탐탐 눈독을 들이고 있는 덴마크 자치령 그린란드에 대한 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/07/AKR20260907162500098_01_i_P2.jpg"
-    },
-    {
-      "title": "크렘린궁 \"미·러·우크라 3자회담 재개 가능성\"",
-      "link": "https://www.yna.co.kr/view/AKR20260907159700108",
-      "source": "연합뉴스 국제",
-      "ts": 1788784797000,
-      "pub": "Mon, 7 Sep 2026 21:39:57 +0900",
-      "sentiment": "neutral",
-      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 드미트리 페스코프 러시아 크렘린궁 대변인은 러시아와 우크라이나의 종전 협상에 미국이 중재자로 참여하는 3...",
-      "image": "https://img.yna.co.kr/photo/etc/up/2026/09/07/PUP20260907007001009_P2.jpg"
-    },
-    {
-      "title": "트럼프 특사 떠나자…러·우크라, 곡물항·정유시설 서로 타격",
-      "link": "https://www.yna.co.kr/view/AKR20260907159200109",
-      "source": "연합뉴스 국제",
-      "ts": 1788784363000,
-      "pub": "Mon, 7 Sep 2026 21:32:43 +0900",
-      "sentiment": "neutral",
-      "desc": "(로마=연합뉴스) 민경락 특파원 = 미국 대통령 특사와 종전안 논의를 한 러시아와 우크라이나가 7일(현지시간) 곡물 수출항과 정유시설을 겨냥한 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/07/AKR20260907159200109_01_i_P2.jpg"
-    },
-    {
-      "title": "폭스바겐 공장서 무기 만든다…이스라엘 업체에 매각",
-      "link": "https://www.yna.co.kr/view/AKR20260907158200082",
-      "source": "연합뉴스 국제",
-      "ts": 1788781330000,
-      "pub": "Mon, 7 Sep 2026 20:42:10 +0900",
-      "sentiment": "neutral",
-      "desc": "(베를린=연합뉴스) 김계연 특파원 = 대대적 구조조정에 들어간 자동차업체 폭스바겐그룹이 독일 공장 1곳을 매각해 군수품 생산시설로 전환하기로 했...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/04/PAF20260904068301009_P2.jpg"
-    },
-    {
-      "title": "젤렌스키 \"너무 자신만만한 러, 어떤 종전협상도 고려 안해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260907139500109",
-      "source": "연합뉴스 국제",
-      "ts": 1788770846000,
-      "pub": "Mon, 7 Sep 2026 17:47:26 +0900",
-      "sentiment": "neutral",
-      "desc": "(로마=연합뉴스) 민경락 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령은 \"러시아는 여전히 지나치게 자신만만해 어떤 형태의 회담이든 고려하지 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/07/AKR20260907139500109_01_i_P2.jpg"
     }
   ]
 }

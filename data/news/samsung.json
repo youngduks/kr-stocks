@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-08T06:40:58.933Z",
-  "count": 7,
+  "updated_at": "2026-09-08T11:51:39.199Z",
+  "count": 10,
   "items": [
+    {
+      "title": "삼성전자 \"차세대 ASML 노광장비로 D램 만든다\"",
+      "link": "https://www.hankyung.com/article/2026090820061",
+      "source": "한국경제",
+      "ts": 1788860247000,
+      "pub": "Tue, 08 Sep 2026 18:37:27 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 佛 AI기업 '미스트랄'에 수천억원 투자",
+      "link": "https://www.hankyung.com/article/2026090821101",
+      "source": "한국경제",
+      "ts": 1788858956000,
+      "pub": "Tue, 08 Sep 2026 18:15:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "수억 성과급이 종잣돈…삼전닉스맨 \"지금이 자산가 될 골든타임\"",
+      "link": "https://www.hankyung.com/article/2026090820601",
+      "source": "한국경제",
+      "ts": 1788858558000,
+      "pub": "Tue, 08 Sep 2026 18:09:18 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "미래에셋 \"삼전닉스, ETF 리밸런싱에 1.4조 매물 가능성\"",
       "link": "https://www.yna.co.kr/view/AKR20260908113200008",

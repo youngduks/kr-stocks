@@ -1,23 +1,25 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-08T06:40:58.934Z",
-  "count": 14,
+  "updated_at": "2026-09-08T11:51:39.200Z",
+  "count": 13,
   "items": [
     {
-      "title": "AI 인프라 붐이 中 수출 살렸다…반도체값 뛰자 수출 '껑충'",
-      "link": "https://www.hankyung.com/article/202609081407i",
+      "title": "삼성전자 \"차세대 ASML 노광장비로 D램 만든다\"",
+      "link": "https://www.hankyung.com/article/2026090820061",
       "source": "한국경제",
-      "ts": 1788847446000,
-      "pub": "Tue, 08 Sep 2026 15:04:06 +0900",
+      "ts": 1788860247000,
+      "pub": "Tue, 08 Sep 2026 18:37:27 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "코스피, 반도체 훈풍에 장중 7100선 위로…SK하이닉스 5%↑",
-      "link": "https://www.hankyung.com/article/2026090811186",
-      "source": "한국경제",
-      "ts": 1788841319000,
-      "pub": "Tue, 08 Sep 2026 13:21:59 +0900",
-      "sentiment": "neutral"
+      "title": "\"화웨이, 中 반도체 자립 주도…자국 스타트업 DUV 상용화 지원\"",
+      "link": "https://www.yna.co.kr/view/AKR20260908151800009",
+      "source": "연합뉴스 국제",
+      "ts": 1788857890000,
+      "pub": "Tue, 8 Sep 2026 17:58:10 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 권숙희 기자 = 화웨이가 중국산 심자외선(DUV) 노광장비의 국산화를 주도하며 중국의 반도체 자립을 이끌고 있다고 영국 일간 ...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/09/07/PRU20260907251701009_P2.jpg"
     },
     {
       "title": "日, 中 반도체 원료 예비 반덤핑 결정에 \"부당 영향 없게 대응\"",
@@ -48,16 +50,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 신유리 기자 = 유럽 곳곳에서 중국으로 반도체 첨단기술을 복사해 빼돌리는 신종 산업 스파이가 출몰하면서 당국에 비상이 걸렸다고...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/09/07/PRU20260907208701009_P2.jpg"
-    },
-    {
-      "title": "美 대중 반도체 수출규제 '구멍'…\"동남아 데이터 센터로 우회\"",
-      "link": "https://www.yna.co.kr/view/AKR20260907156900009",
-      "source": "연합뉴스 국제",
-      "ts": 1788779044000,
-      "pub": "Mon, 7 Sep 2026 20:04:04 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이신영 기자 = 미국의 제재 명단에 오른 중국 인공지능(AI) 서버 구축 업체 인스퍼그룹이 미국 내 자회사를 악용해 수출 규제...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/07/AKR20260907156900009_01_i_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 풍문 또는 보도에 대한 해명(미확정)",

@@ -1,8 +1,44 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-08T01:50:44.500Z",
-  "count": 16,
+  "updated_at": "2026-09-08T06:40:58.934Z",
+  "count": 14,
   "items": [
+    {
+      "title": "AI 인프라 붐이 中 수출 살렸다…반도체값 뛰자 수출 '껑충'",
+      "link": "https://www.hankyung.com/article/202609081407i",
+      "source": "한국경제",
+      "ts": 1788847446000,
+      "pub": "Tue, 08 Sep 2026 15:04:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "코스피, 반도체 훈풍에 장중 7100선 위로…SK하이닉스 5%↑",
+      "link": "https://www.hankyung.com/article/2026090811186",
+      "source": "한국경제",
+      "ts": 1788841319000,
+      "pub": "Tue, 08 Sep 2026 13:21:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "日, 中 반도체 원료 예비 반덤핑 결정에 \"부당 영향 없게 대응\"",
+      "link": "https://www.yna.co.kr/view/AKR20260908084800073",
+      "source": "연합뉴스 국제",
+      "ts": 1788836943000,
+      "pub": "Tue, 8 Sep 2026 12:09:03 +0900",
+      "sentiment": "neutral",
+      "desc": "(도쿄=연합뉴스) 이도연 특파원 = 중국 당국이 일본산 반도체 공정용 화학물질에 대한 예비 반덤핑 조치를 결정한 데 대해 일본 정부는 기업 활동...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/08/AKR20260908084800073_01_i_P2.jpg"
+    },
+    {
+      "title": "출시 4년 된 엔비디아 H100 몸값 역주행…한달새 대여료 22%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260908066000091",
+      "source": "연합뉴스 국제",
+      "ts": 1788832977000,
+      "pub": "Tue, 8 Sep 2026 11:02:57 +0900",
+      "sentiment": "neutral",
+      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 출시된 지 4년 지난 구형 엔비디아 칩의 '몸값'이 인공지능(AI) 열풍 속에 역주행하는 기현상이 나...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/03/PAP20260903248001009_P2.jpg"
+    },
     {
       "title": "중국에 반도체 첨단기술 '복붙'…유럽, 신종 스파이 비상 걸렸다",
       "link": "https://www.yna.co.kr/view/AKR20260908033600009",
@@ -14,40 +50,6 @@
       "image": "https://img.yna.co.kr/photo/reuters/2026/09/07/PRU20260907208701009_P2.jpg"
     },
     {
-      "title": "SK하이닉스, 기업 리뷰 기반 '일하기 좋은 기업' 종합 대상",
-      "link": "https://www.yna.co.kr/view/AKR20260908032600003",
-      "source": "연합뉴스 경제",
-      "ts": 1788826446000,
-      "pub": "Tue, 8 Sep 2026 09:14:06 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 임성호 기자 = 인공지능(AI)·데이터 기반 HR테크 플랫폼 웍스피어가 운영하는 커리어 플랫폼 잡플래닛은 '2026 하반기 잡...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/08/AKR20260908032600003_01_i_P2.jpg"
-    },
-    {
-      "title": "코스피, 반도체 훈풍에 장 초반 '칠천피 재탈환'…소부장↑",
-      "link": "https://www.hankyung.com/article/2026090802816",
-      "source": "한국경제",
-      "ts": 1788826233000,
-      "pub": "Tue, 08 Sep 2026 09:10:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "9월 운명 결정할 CPI…멈췄던 반도체 다시 달릴까 [월가 백브리핑]",
-      "link": "https://www.hankyung.com/article/202609080072i",
-      "source": "한국경제",
-      "ts": 1788824632000,
-      "pub": "Tue, 08 Sep 2026 08:43:52 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中 경쟁사로 반도체 기밀 넘겼나…벨기에 연구원 체포",
-      "link": "https://www.hankyung.com/article/202609080127i",
-      "source": "한국경제",
-      "ts": 1788824229000,
-      "pub": "Tue, 08 Sep 2026 08:37:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美 대중 반도체 수출규제 '구멍'…\"동남아 데이터 센터로 우회\"",
       "link": "https://www.yna.co.kr/view/AKR20260907156900009",
       "source": "연합뉴스 국제",
@@ -56,26 +58,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 이신영 기자 = 미국의 제재 명단에 오른 중국 인공지능(AI) 서버 구축 업체 인스퍼그룹이 미국 내 자회사를 악용해 수출 규제...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/07/AKR20260907156900009_01_i_P2.jpg"
-    },
-    {
-      "title": "中, 일본산 반도체용 화학물질 디클로로실란에 임시 반덤핑 판정",
-      "link": "https://www.yna.co.kr/view/AKR20260907140200083",
-      "source": "연합뉴스 국제",
-      "ts": 1788769068000,
-      "pub": "Mon, 7 Sep 2026 17:17:48 +0900",
-      "sentiment": "neutral",
-      "desc": "(베이징=연합뉴스) 정성조 특파원 = 중국이 일본산 반도체 공정용 화학물질 디클로로실란(dichlorosilane·DCS)에 대한 예비 반덤핑 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2025/10/31/PYH2025103124900001300_P2.jpg"
-    },
-    {
-      "title": "TSMC 등 30개사, 차세대 기술 '실리콘 포토닉스 연맹' 설립 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260907076200009",
-      "source": "연합뉴스 국제",
-      "ts": 1788749593000,
-      "pub": "Mon, 7 Sep 2026 11:53:13 +0900",
-      "sentiment": "neutral",
-      "desc": "(타이베이=연합뉴스) 김철문 통신원 = 세계 최대 파운드리(반도체 수탁생산) 업체인 TSMC 등 대만 30여개 선도기업이 '실리콘 포토닉스 연맹...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/07/AKR20260907076200009_01_i_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 풍문 또는 보도에 대한 해명(미확정)",

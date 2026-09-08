@@ -1,8 +1,16 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-09-08T01:50:44.500Z",
-  "count": 10,
+  "updated_at": "2026-09-08T06:40:58.934Z",
+  "count": 11,
   "items": [
+    {
+      "title": "[단독] 현대차그룹, 휘발유·HEV용 자율주행차 개발",
+      "link": "https://www.hankyung.com/article/202609081368i",
+      "source": "한국경제",
+      "ts": 1788846288000,
+      "pub": "Tue, 08 Sep 2026 14:44:48 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "현대자동차(주) 기업설명회(IR) 개최(안내공시)",
       "link": "https://finance.naver.com/item/news_notice_read.naver?no=122192642&code=005380&page_notice=",

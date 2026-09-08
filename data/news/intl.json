@@ -1,8 +1,28 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-08T01:50:44.498Z",
-  "count": 20,
+  "updated_at": "2026-09-08T06:40:58.932Z",
+  "count": 19,
   "items": [
+    {
+      "title": "[게시판] 관세청, 마약 밀반입 차단 'N차 저지선 점검단' 운영",
+      "link": "https://www.yna.co.kr/view/AKR20260908118800002",
+      "source": "연합뉴스 경제",
+      "ts": 1788847901000,
+      "pub": "Tue, 8 Sep 2026 15:11:41 +0900",
+      "sentiment": "neutral",
+      "desc": "▲ 관세청은 마약 밀반입 차단을 위한 다중 검사 체계를 뜻하는 'N차 저지선'의 운영 실태를 파악하는 점검단을 꾸린다고 8일 밝혔다. 점검단은 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/08/AKR20260908118800002_01_i_P2.jpg"
+    },
+    {
+      "title": "관세청 1∼7월 탈세 등 1조760억원 적발…작년 연간 실적의 40%",
+      "link": "https://www.yna.co.kr/view/AKR20260908044600002",
+      "source": "연합뉴스 경제",
+      "ts": 1788834029000,
+      "pub": "Tue, 8 Sep 2026 11:20:29 +0900",
+      "sentiment": "neutral",
+      "desc": "(세종=연합뉴스) 안채원 기자 = 올해 들어 7월까지 관세 당국에 적발된 탈세 및 법규 위반 규모가 1조760억원으로 집계됐다. 작년 연간 적발...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/08/PYH2026090804150001300_P2.jpg"
+    },
     {
       "title": "\"북한이 만든 시리아 독재정권 원자로에서 핵무기 제조될 뻔\"",
       "link": "https://www.yna.co.kr/view/AKR20260908028100009",
@@ -11,7 +31,7 @@
       "pub": "Tue, 8 Sep 2026 09:28:38 +0900",
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 오수진 기자 = 축출된 바샤르 알아사드 시리아 전 대통령이 북한의 지원을 받아 건설한 원자로는 핵무기 제조용으로 건설됐으며 완...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/07/PAF20260907258901009_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/07/PAF20260907251201009_P2.jpg"
     },
     {
       "title": "트럼프의 '경제 질식' 작전, 이란 군사 확전 내모나",
@@ -24,14 +44,6 @@
       "image": "https://img.yna.co.kr/photo/etc/epa/2026/08/01/PEP20260801088501009_P2.jpg"
     },
     {
-      "title": "경제학과 싸우는 트럼프, 예스맨이 된 관료들[이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202609089890i",
-      "source": "한국경제",
-      "ts": 1788826993000,
-      "pub": "Tue, 08 Sep 2026 09:23:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"트럼프, 투표소에 군·ICE 배치하나\"…美야당 선거 앞 우려",
       "link": "https://www.yna.co.kr/view/AKR20260908026600009",
       "source": "연합뉴스 국제",
@@ -40,14 +52,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 고일환 기자 = 11월 미국 중간선거를 앞두고 도널드 트럼프 대통령이 투표소에 군 병력을 배치할 가능성을 두고 민주당의 우려가...",
       "image": "https://img.yna.co.kr/photo/ap/2025/08/19/PAP20250819032101009_P2.jpg"
-    },
-    {
-      "title": "9월 운명 결정할 CPI…멈췄던 반도체 다시 달릴까 [월가 백브리핑]",
-      "link": "https://www.hankyung.com/article/202609080072i",
-      "source": "한국경제",
-      "ts": 1788824632000,
-      "pub": "Tue, 08 Sep 2026 08:43:52 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "구리 가격 사상 최고가…美 관세 리스크·광산 붕괴",
@@ -188,16 +192,6 @@
       "sentiment": "neutral",
       "desc": "(로마=연합뉴스) 민경락 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령은 \"러시아는 여전히 지나치게 자신만만해 어떤 형태의 회담이든 고려하지 ...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/07/AKR20260907139500109_01_i_P2.jpg"
-    },
-    {
-      "title": "우크라 드론 공습 탓 러시아 산업 전반에 연쇄 충격파",
-      "link": "https://www.yna.co.kr/view/AKR20260907109500009",
-      "source": "연합뉴스 국제",
-      "ts": 1788762410000,
-      "pub": "Mon, 7 Sep 2026 15:26:50 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이신영 기자 = 우크라이나가 장거리 드론으로 러시아 경제를 지탱하는 중심 산업을 잇달아 타격하고 있다.",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/08/16/PEP20260816174201009_P2.jpg"
     }
   ]
 }

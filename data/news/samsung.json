@@ -1,8 +1,62 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-09T05:29:14.786Z",
-  "count": 12,
+  "updated_at": "2026-09-09T10:17:21.623Z",
+  "count": 13,
   "items": [
+    {
+      "title": "이재용 회장 \"모친 홍라희 관장의 삼성전자 지분 0.11% 매수키로\"",
+      "link": "https://www.hankyung.com/article/2026090948276",
+      "source": "한국경제",
+      "ts": 1788945353000,
+      "pub": "Wed, 09 Sep 2026 18:15:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이재용 회장, 홍라희 여사 '삼성전자 지분' 1조9374억 매수",
+      "link": "https://www.mt.co.kr/industry/2026/09/09/2026090917440556957",
+      "source": "머니투데이",
+      "ts": 1788944766000,
+      "pub": "Wed, 09 Sep 2026 18:06:06 +0900",
+      "sentiment": "neutral",
+      "desc": "이 회장 삼성전자 지분율 1.58%로 상승 이재용 삼성전자 회장이 모친인 홍라희 리움미술관 명예관장의 삼성전자 지분 0.11%를 사들인다. 홍 명예관장이 그동안 상속세 납부로 빌렸던 대출금 상환을 위해 지분을 파는 것이다. 9일 금융감독원 전자공시시스템에 따르면 이 회",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026090917440556957_1.jpg"
+    },
+    {
+      "title": "[속보] 홍라희, 이재용에 삼성전자 주식 718만주 1.9조 매도",
+      "link": "https://www.hankyung.com/article/2026090948097",
+      "source": "한국경제",
+      "ts": 1788944748000,
+      "pub": "Wed, 09 Sep 2026 18:05:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전노조 위원장, 장인 회사와 계약 논란",
+      "link": "https://www.hankyung.com/article/2026090946111",
+      "source": "한국경제",
+      "ts": 1788944478000,
+      "pub": "Wed, 09 Sep 2026 18:01:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]이재용 삼성전자 회장, 홍라희 여사 지분 '1조9374억원' 매수",
+      "link": "https://www.mt.co.kr/industry/2026/09/09/2026090917382981560",
+      "source": "머니투데이",
+      "ts": 1788943167000,
+      "pub": "Wed, 09 Sep 2026 17:39:27 +0900",
+      "sentiment": "neutral",
+      "desc": "9일 삼성전자 공시....",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026090917382981560_1.jpg"
+    },
+    {
+      "title": "SK하이닉스, 3.5% 급등 마감…삼성전자는 상승분 반납(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260909044851008",
+      "source": "연합뉴스 경제",
+      "ts": 1788937337000,
+      "pub": "Wed, 9 Sep 2026 16:02:17 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 황철환 기자 = SK하이닉스[000660]가 9일 3% 넘게 급등한 채 정규장 거래를 마감했다. 반면 삼성전자[005930]는...",
+      "image": "https://img.yna.co.kr/photo/cms/2025/10/02/07/PCM20251002000007990_P2.jpg"
+    },
     {
       "title": "2분기 기업 성장성·수익성 역대 최고…삼전·닉스 빼도 개선",
       "link": "https://www.yna.co.kr/view/AKR20260909093500002",
@@ -12,48 +66,6 @@
       "sentiment": "positive",
       "desc": "(서울=연합뉴스) 이도흔 기자 = 올해 2분기 국내 기업들이 매출 증가율과 영업이익률이 역대 최고를 기록하는 등 성장성과 수익성이 크게 개선됐다...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/09/AKR20260909093500002_01_i_P2.jpg"
-    },
-    {
-      "title": "\"지금이 골든타임\"…SK하이닉스가 꺼낸 '풀스택 AI 메모리' 승부수",
-      "link": "https://www.hankyung.com/article/202609093503g",
-      "source": "한국경제",
-      "ts": 1788920234000,
-      "pub": "Wed, 09 Sep 2026 11:17:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스만 있는 게 아니었다…AI 랠리 '다음 타자' 정체",
-      "link": "https://www.hankyung.com/article/202609093119i",
-      "source": "한국경제",
-      "ts": 1788920074000,
-      "pub": "Wed, 09 Sep 2026 11:14:34 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "급등한 두산퓨얼셀 차익실현…초고수는 삼전 팔고 삼전우 담고",
-      "link": "https://www.hankyung.com/article/202609092986i",
-      "source": "한국경제",
-      "ts": 1788919214000,
-      "pub": "Wed, 09 Sep 2026 11:00:14 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\"가만히 앉아서 11조 날릴 판\" 경고…삼성전자 '초비상' [분석+]",
-      "link": "https://www.hankyung.com/article/2026090931046",
-      "source": "한국경제",
-      "ts": 1788919104000,
-      "pub": "Wed, 09 Sep 2026 10:58:24 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[특징주] 삼성전자, 장 초반 0.6% 상승…SK하이닉스는 1.5%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260909044800008",
-      "source": "연합뉴스 경제",
-      "ts": 1788913270000,
-      "pub": "Wed, 9 Sep 2026 09:21:10 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 9일 장 초반 동반 강세를 보인다.",
-      "image": "https://img.yna.co.kr/photo/cms/2025/10/02/07/PCM20251002000007990_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

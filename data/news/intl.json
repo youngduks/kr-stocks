@@ -1,8 +1,58 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-09T00:48:33.026Z",
-  "count": 28,
+  "updated_at": "2026-09-09T05:29:14.785Z",
+  "count": 20,
   "items": [
+    {
+      "title": "[영상] 김일성·후세인이나 벌인 일을…정말 나온 트럼프 동전",
+      "link": "https://www.yna.co.kr/view/AKR20260909107200797",
+      "source": "연합뉴스 국제",
+      "ts": 1788928915000,
+      "pub": "Wed, 9 Sep 2026 13:41:55 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이정진 기자 = 도널드 트럼프 미국 대통령의 초상이 새겨진 미국 건국 250주년 기념주화가 판매에 들어갔습니다.",
+      "image": "https://www.youtube.com/embed/watch?v=2q_zU9qq9KE&feature=youtu.be"
+    },
+    {
+      "title": "EU 대외관계청 \"북러 군사협력, 우크라 전쟁 끝나도 지속될 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260909045300504",
+      "source": "연합뉴스 국제",
+      "ts": 1788922813000,
+      "pub": "Wed, 9 Sep 2026 12:00:13 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 민선희 기자 = 코스민 도브란 유럽연합(EU) 대외관계청(EEAS) 평화·파트너십·위기관리 국장은 북한과 러시아의 군사협력이 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/09/AKR20260909045300504_03_i_P2.jpg"
+    },
+    {
+      "title": "수입가격 부풀리고 바지업체 동원…할당관세 악용 5천468억 적발",
+      "link": "https://www.yna.co.kr/view/AKR20260909078000002",
+      "source": "연합뉴스 경제",
+      "ts": 1788921001000,
+      "pub": "Wed, 9 Sep 2026 11:30:01 +0900",
+      "sentiment": "neutral",
+      "desc": "(세종=연합뉴스) 안채원 기자 = 물가 안정을 위해 관세를 한시적으로 낮춰주는 제도를 악용한 5천억원 규모의 불법행위가 세관 당국에 적발됐다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/09/PYH2026090912170006500_P2.jpg"
+    },
+    {
+      "title": "[영상] 폭스바겐 공장서 방공시스템 만든다…이스라엘 업체에 매각",
+      "link": "https://www.yna.co.kr/view/AKR20260909077100704",
+      "source": "연합뉴스 국제",
+      "ts": 1788919405000,
+      "pub": "Wed, 9 Sep 2026 11:03:25 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 독일 자동차 기업 폭스바겐그룹이 독일 공장 1곳을 매각해 군수품 생산시설로 전환하기로 결정했습니다.",
+      "image": "https://www.youtube.com/embed/4CQpNPGSORc"
+    },
+    {
+      "title": "트럼프 \"9월29일부터 캐나다 유제품·주류·오토바이 수입금지\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260909039351071",
+      "source": "연합뉴스 국제",
+      "ts": 1788916910000,
+      "pub": "Wed, 9 Sep 2026 10:21:50 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 8일(현지시간) 캐나다산 유제품과 주류, 오토바이에 대해 미 동부시간으로 오는...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/09/PEP20260909012001009_P2.jpg"
+    },
     {
       "title": "트럼프 \"9월29일부터 캐나다 유제품·주류·오토바이 수입금지\"",
       "link": "https://www.yna.co.kr/view/AKR20260909039300071",
@@ -24,30 +74,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/09/AKR20260909018300071_01_i_P2.jpg"
     },
     {
-      "title": "[밤 사이 해외뉴스] 美증시 '평온한 여름' 끝났다…Fed·인플레에 긴장하는 월가",
-      "link": "https://www.hankyung.com/article/202609092670i",
-      "source": "한국경제",
-      "ts": 1788909525000,
-      "pub": "Wed, 09 Sep 2026 08:18:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프, 캐나다산 유제품·주류·오토바이 수입 금지 포고문",
-      "link": "https://www.hankyung.com/article/2026090926877",
-      "source": "한국경제",
-      "ts": 1788909424000,
-      "pub": "Wed, 09 Sep 2026 08:17:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 美당국자 \"내년 1월1일 캐나다산 車관세 50% 인상방침 유효\"",
-      "link": "https://www.hankyung.com/article/2026090926857",
-      "source": "한국경제",
-      "ts": 1788909389000,
-      "pub": "Wed, 09 Sep 2026 08:16:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] 美당국자 \"내년 1월1일 캐나다산 車관세 50% 인상방침 유효\"",
       "link": "https://www.yna.co.kr/view/AKR20260909025000071",
       "source": "연합뉴스 국제",
@@ -66,14 +92,6 @@
       "sentiment": "neutral",
       "desc": "(",
       "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/09/PEP20260909011801009_P2.jpg"
-    },
-    {
-      "title": "미국 '관세전쟁' 맞서자…캐나다 총리 지지율 '쑥'",
-      "link": "https://www.hankyung.com/article/2026090924967",
-      "source": "한국경제",
-      "ts": 1788905415000,
-      "pub": "Wed, 09 Sep 2026 07:10:15 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "트럼프, 캐나다 관세에 보복…\"정부조달 계약서 캐나다산 제외\"(종합)",
@@ -184,96 +202,6 @@
       "sentiment": "negative",
       "desc": "(카이로=연합뉴스) 김상훈 특파원 = 기드온 사르 이스라엘 외무장관은 8일(현지시간) 이스라엘 정착촌에 대한 영국의 새로운 제재를 다가오는 총선...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/09/AKR20260909000551079_01_i_P2.jpg"
-    },
-    {
-      "title": "이스라엘, 英 정착촌 제재에 '선거 개입' 반발…영사관 폐쇄 맞불",
-      "link": "https://www.yna.co.kr/view/AKR20260909000500079",
-      "source": "연합뉴스 국제",
-      "ts": 1788880300000,
-      "pub": "Wed, 9 Sep 2026 00:11:40 +0900",
-      "sentiment": "negative",
-      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 기드온 사르 이스라엘 외무장관은 8일(현지시간) 이스라엘 정착촌에 대한 영국의 새로운 제재를 다가오는 총선...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/09/AKR20260909000500079_01_i_P2.jpg"
-    },
-    {
-      "title": "푸틴, 트럼프와 한시간 통화…러 \"건설적·솔직한 대화\"",
-      "link": "https://www.yna.co.kr/view/AKR20260908173900108",
-      "source": "연합뉴스 국제",
-      "ts": 1788879879000,
-      "pub": "Wed, 9 Sep 2026 00:04:39 +0900",
-      "sentiment": "neutral",
-      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 블라디미르 푸틴 러시아 대통령이 도널드 트럼프 미국 대통령과 한 시간에 걸쳐 통화했다고 크렘린궁이 8일(...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/08/14/PAF20260814136601009_P2.jpg"
-    },
-    {
-      "title": "영·프·캐나다 등 12개국 \"서안 이스라엘 정착촌과 교역 제한\"",
-      "link": "https://www.yna.co.kr/view/AKR20260908172900085",
-      "source": "연합뉴스 국제",
-      "ts": 1788878413000,
-      "pub": "Tue, 8 Sep 2026 23:40:13 +0900",
-      "sentiment": "neutral",
-      "desc": "(런던=연합뉴스) 김지연 특파원 = 영국과 프랑스, 캐나다를 포함한 12개 국가가 팔레스타인 요르단강 서안의 이스라엘 정착촌과 교역에 대한 제재...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/07/PAF20260907312001009_P2.jpg"
-    },
-    {
-      "title": "젤렌스키 \"이달 말 트럼프 만나 방공 지원 논의할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260908169600109",
-      "source": "연합뉴스 국제",
-      "ts": 1788872373000,
-      "pub": "Tue, 8 Sep 2026 21:59:33 +0900",
-      "sentiment": "neutral",
-      "desc": "(로마=연합뉴스) 민경락 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령은 이달 말 도널드 트럼프 미국 대통령과 만나 방공망 지원을 논의할 것이...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/07/PRU20260907071001009_P2.jpg"
-    },
-    {
-      "title": "트럼프 올린 美지도에 이웃나라들 포함…아이슬란드, 美대사 초치",
-      "link": "https://www.yna.co.kr/view/AKR20260908165400009",
-      "source": "연합뉴스 국제",
-      "ts": 1788866741000,
-      "pub": "Tue, 8 Sep 2026 20:25:41 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 곽민서 기자 = 아이슬란드가 8일(현지시간) 자국 영토를 미국의 일부처럼 표현한 도널드 트럼프 미국 대통령의 소셜미디어 게시물...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/08/AKR20260908165400009_01_i_P2.jpg"
-    },
-    {
-      "title": "푸틴·모디, 브릭스 정상회의 계기로 11일 회담",
-      "link": "https://www.yna.co.kr/view/AKR20260908160200108",
-      "source": "연합뉴스 국제",
-      "ts": 1788861391000,
-      "pub": "Tue, 8 Sep 2026 18:56:31 +0900",
-      "sentiment": "neutral",
-      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 오는 12∼13일(현지시간) 인도 뉴델리에서 열리는 브릭스(BRICS) 정상회의를 계기로 블라디미르 푸틴...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/09/01/PAP20260901208601009_P2.jpg"
-    },
-    {
-      "title": "\"네타냐후, 10·7 하마스 기습 계획 사전에 통보받고 묵살\"",
-      "link": "https://www.yna.co.kr/view/AKR20260908142300079",
-      "source": "연합뉴스 국제",
-      "ts": 1788854047000,
-      "pub": "Tue, 8 Sep 2026 16:54:07 +0900",
-      "sentiment": "neutral",
-      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 이스라엘 역사상 최악의 '안보 실패'로 꼽히는 2023년 10월 7일 하마스의 기습공격이 있기 전 베냐민 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/08/AKR20260908142300079_01_i_P2.jpg"
-    },
-    {
-      "title": "[영상] 美 특사단 떠나자마자…러-우크라, 미사일·드론 난타전 재개",
-      "link": "https://www.yna.co.kr/view/AKR20260908139000704",
-      "source": "연합뉴스 국제",
-      "ts": 1788852915000,
-      "pub": "Tue, 8 Sep 2026 16:35:15 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 지난 주말 사이 블라디미르 푸틴 러시아 대통령과 볼로디미르 젤렌스키 우크라이나 대통령을 잇달아 만난 도널드 트럼프 미국 대통령...",
-      "image": "https://www.youtube.com/embed/8tFPhmHoiNk"
-    },
-    {
-      "title": "[게시판] 관세청, 마약 밀반입 차단 'N차 저지선 점검단' 운영",
-      "link": "https://www.yna.co.kr/view/AKR20260908118800002",
-      "source": "연합뉴스 경제",
-      "ts": 1788847901000,
-      "pub": "Tue, 8 Sep 2026 15:11:41 +0900",
-      "sentiment": "neutral",
-      "desc": "▲ 관세청은 마약 밀반입 차단을 위한 다중 검사 체계를 뜻하는 'N차 저지선'의 운영 실태를 파악하는 점검단을 꾸린다고 8일 밝혔다. 점검단은 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/08/AKR20260908118800002_01_i_P2.jpg"
     }
   ]
 }

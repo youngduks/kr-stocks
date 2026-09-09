@@ -1,15 +1,35 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-09T00:48:33.028Z",
-  "count": 15,
+  "updated_at": "2026-09-09T05:29:14.787Z",
+  "count": 13,
   "items": [
     {
-      "title": "삼전닉스, 장 초반 강보합…美 반도체 훈풍에도 유가 급등 부담",
-      "link": "https://www.hankyung.com/article/2026090929076",
+      "title": "TSMC, 2031년까지 12인치 포토마스크 시험생산라인 구축",
+      "link": "https://www.yna.co.kr/view/AKR20260909080200009",
+      "source": "연합뉴스 국제",
+      "ts": 1788921457000,
+      "pub": "Wed, 9 Sep 2026 11:37:37 +0900",
+      "sentiment": "neutral",
+      "desc": "(타이베이=연합뉴스) 김철문 통신원 = 세계 최대 파운드리(반도체 수탁생산) 업체인 TSMC가 세계 최대 노광장비 기업 ASML과 협력해 203...",
+      "image": "https://img.yna.co.kr/photo/cms/2022/09/09/37/PCM20220909000037009_P2.jpg"
+    },
+    {
+      "title": "\"지금이 골든타임\"…SK하이닉스가 꺼낸 '풀스택 AI 메모리' 승부수",
+      "link": "https://www.hankyung.com/article/202609093503g",
       "source": "한국경제",
-      "ts": 1788913307000,
-      "pub": "Wed, 09 Sep 2026 09:21:47 +0900",
-      "sentiment": "positive"
+      "ts": 1788920234000,
+      "pub": "Wed, 09 Sep 2026 11:17:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "엔비디아, 허깅페이스 인수로 로봇사업까지 확보",
+      "link": "https://www.yna.co.kr/view/AKR20260909080100009",
+      "source": "연합뉴스 국제",
+      "ts": 1788919596000,
+      "pub": "Wed, 9 Sep 2026 11:06:36 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 엔비디아가 인수하기로 한 오픈소스 AI 플랫폼 허깅페이스가 최근 로봇 사업에 속도를 내고 있다고 IT 전문매체...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/09/AKR20260909080100009_01_i_P2.jpg"
     },
     {
       "title": "[특징주] 삼성전자, 장 초반 0.6% 상승…SK하이닉스는 1.5%↑",
@@ -30,44 +50,6 @@
       "sentiment": "positive",
       "desc": "(서울=연합뉴스) 김태종 기자 = 신한자산운용은 'SOL AI반도체소부장 ETF(상장지수펀드)'의 순자산이 1조원을 돌파했다고 9일 밝혔다.",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/09/AKR20260909041200008_01_i_P2.jpg"
-    },
-    {
-      "title": "KB증권 \"AI 모델 경쟁 최대 수혜는 삼성전자·SK하이닉스\"",
-      "link": "https://www.yna.co.kr/view/AKR20260909028300008",
-      "source": "연합뉴스 경제",
-      "ts": 1788910364000,
-      "pub": "Wed, 9 Sep 2026 08:32:44 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정회인 기자 = KB증권은 9일 글로벌 인공지능(AI) 모델의 성능 경쟁이 심화할수록 메모리 반도체 수요가 크게 늘어날 것이라...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
-    },
-    {
-      "title": "[마켓뷰] 중동 불안에도 반도체 훈풍…'7천피' 탈환 재시도하나",
-      "link": "https://www.yna.co.kr/view/AKR20260909023600008",
-      "source": "연합뉴스 경제",
-      "ts": 1788908994000,
-      "pub": "Wed, 9 Sep 2026 08:09:54 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 9일 코스피는 중동 지역의 지정학적 불안과 유가 상승, 미국 물가 지표 경계심이 이어지는 가운데 반도체 강세를...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/08/PYH2026090818910001300_P2.jpg"
-    },
-    {
-      "title": "유가 100달러 역풍에도 반도체 급등했는데…MS \"모멘텀 마지막 불꽃\" [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202609092480i",
-      "source": "한국경제",
-      "ts": 1788908477000,
-      "pub": "Wed, 09 Sep 2026 08:01:17 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "\"화웨이, 中 반도체 자립 주도…자국 스타트업 DUV 상용화 지원\"",
-      "link": "https://www.yna.co.kr/view/AKR20260908151800009",
-      "source": "연합뉴스 국제",
-      "ts": 1788857890000,
-      "pub": "Tue, 8 Sep 2026 17:58:10 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 권숙희 기자 = 화웨이가 중국산 심자외선(DUV) 노광장비의 국산화를 주도하며 중국의 반도체 자립을 이끌고 있다고 영국 일간 ...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/07/PRU20260907251701009_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 풍문 또는 보도에 대한 해명(미확정)",

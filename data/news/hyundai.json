@@ -1,8 +1,44 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-09-09T00:48:33.028Z",
-  "count": 11,
+  "updated_at": "2026-09-09T05:29:14.787Z",
+  "count": 15,
   "items": [
+    {
+      "title": "삼성동 현대차부지 GBC, 49층 빌딩과 함께 대규모 '도심숲' 조성",
+      "link": "https://www.yna.co.kr/view/AKR20260909060400004",
+      "source": "연합뉴스 경제",
+      "ts": 1788920101000,
+      "pub": "Wed, 9 Sep 2026 11:15:01 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김준태 기자 = 서울 삼성동 현대자동차부지 특별계획구역 복합시설(GBC) 신축사업에 따라 일대에 49층 규모 업무복합시설과 함...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/09/AKR20260909060400004_01_i_P2.jpg"
+    },
+    {
+      "title": "현대차, 국가유산청에 산업용 로봇 '엑스블 숄더' 기증",
+      "link": "https://www.hankyung.com/article/202609093430g",
+      "source": "한국경제",
+      "ts": 1788918988000,
+      "pub": "Wed, 09 Sep 2026 10:56:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대차그룹, 아프리카 청정에너지 전환·전기차 밸류체인 협력",
+      "link": "https://www.yna.co.kr/view/AKR20260909076600003",
+      "source": "연합뉴스 경제",
+      "ts": 1788918892000,
+      "pub": "Wed, 9 Sep 2026 10:54:52 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 장하나 기자 = 현대차그룹이 아프리카개발은행(AfDB)과 손잡고 아프리카의 청정에너지 전환과 지속 가능한 성장 기반 마련에 나...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/09/AKR20260909076600003_01_i_P2.jpg"
+    },
+    {
+      "title": "현대차그룹, 네팔·티베트 홍수 피해복구 성금 50만 달러 지원",
+      "link": "https://www.hankyung.com/article/202609093408g",
+      "source": "한국경제",
+      "ts": 1788918255000,
+      "pub": "Wed, 09 Sep 2026 10:44:15 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "현대차증권 \"엔캐리, 급격한 청산 가능성 작다…알려진 위기\"",
       "link": "https://www.yna.co.kr/view/AKR20260909030600008",

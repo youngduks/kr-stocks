@@ -1,14 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-09T10:17:21.623Z",
-  "count": 13,
+  "updated_at": "2026-09-09T14:52:22.735Z",
+  "count": 11,
   "items": [
     {
-      "title": "이재용 회장 \"모친 홍라희 관장의 삼성전자 지분 0.11% 매수키로\"",
-      "link": "https://www.hankyung.com/article/2026090948276",
+      "title": "최태원 제안에 키옥시아 '거절'…한일 낸드 동맹 '엇박자' [강경주의 테크X]",
+      "link": "https://www.hankyung.com/article/2026090944836",
       "source": "한국경제",
-      "ts": 1788945353000,
-      "pub": "Wed, 09 Sep 2026 18:15:53 +0900",
+      "ts": 1788958801000,
+      "pub": "Wed, 09 Sep 2026 22:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "홍라희 삼전 지분 1.9조, 이재용 회장이 사들인다",
+      "link": "https://www.hankyung.com/article/2026090949171",
+      "source": "한국경제",
+      "ts": 1788950480000,
+      "pub": "Wed, 09 Sep 2026 19:41:20 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,32 +28,6 @@
       "sentiment": "neutral",
       "desc": "이 회장 삼성전자 지분율 1.58%로 상승 이재용 삼성전자 회장이 모친인 홍라희 리움미술관 명예관장의 삼성전자 지분 0.11%를 사들인다. 홍 명예관장이 그동안 상속세 납부로 빌렸던 대출금 상환을 위해 지분을 파는 것이다. 9일 금융감독원 전자공시시스템에 따르면 이 회",
       "image": "https://thumb.mt.co.kr/06/2026/09/2026090917440556957_1.jpg"
-    },
-    {
-      "title": "[속보] 홍라희, 이재용에 삼성전자 주식 718만주 1.9조 매도",
-      "link": "https://www.hankyung.com/article/2026090948097",
-      "source": "한국경제",
-      "ts": 1788944748000,
-      "pub": "Wed, 09 Sep 2026 18:05:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전노조 위원장, 장인 회사와 계약 논란",
-      "link": "https://www.hankyung.com/article/2026090946111",
-      "source": "한국경제",
-      "ts": 1788944478000,
-      "pub": "Wed, 09 Sep 2026 18:01:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보]이재용 삼성전자 회장, 홍라희 여사 지분 '1조9374억원' 매수",
-      "link": "https://www.mt.co.kr/industry/2026/09/09/2026090917382981560",
-      "source": "머니투데이",
-      "ts": 1788943167000,
-      "pub": "Wed, 09 Sep 2026 17:39:27 +0900",
-      "sentiment": "neutral",
-      "desc": "9일 삼성전자 공시....",
-      "image": "https://thumb.mt.co.kr/06/2026/09/2026090917382981560_1.jpg"
     },
     {
       "title": "SK하이닉스, 3.5% 급등 마감…삼성전자는 상승분 반납(종합)",

@@ -1,8 +1,90 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-08T22:07:04.263Z",
-  "count": 26,
+  "updated_at": "2026-09-09T00:48:33.026Z",
+  "count": 28,
   "items": [
+    {
+      "title": "트럼프 \"9월29일부터 캐나다 유제품·주류·오토바이 수입금지\"",
+      "link": "https://www.yna.co.kr/view/AKR20260909039300071",
+      "source": "연합뉴스 국제",
+      "ts": 1788912703000,
+      "pub": "Wed, 9 Sep 2026 09:11:43 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 8일(현지시간) 캐나다산 유제품과 주류, 오토바이에 대해 미 동부시간으로 오는...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/09/PEP20260909012001009_P2.jpg"
+    },
+    {
+      "title": "[르포] '공화 텃밭' 텍사스서도 곱지 않은 표심…\"트럼프탓 물가 올라\"",
+      "link": "https://www.yna.co.kr/view/AKR20260909018300071",
+      "source": "연합뉴스 국제",
+      "ts": 1788909745000,
+      "pub": "Wed, 9 Sep 2026 08:22:25 +0900",
+      "sentiment": "neutral",
+      "desc": "(댈러스=연합뉴스) 백나리 특파원 = 9일(현지시간)부터 이틀간 미국 공화당 중간선거 전당대회가 열리는 텍사스주 댈러스의 아메리칸항공센터 주변은...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/09/AKR20260909018300071_01_i_P2.jpg"
+    },
+    {
+      "title": "[밤 사이 해외뉴스] 美증시 '평온한 여름' 끝났다…Fed·인플레에 긴장하는 월가",
+      "link": "https://www.hankyung.com/article/202609092670i",
+      "source": "한국경제",
+      "ts": 1788909525000,
+      "pub": "Wed, 09 Sep 2026 08:18:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프, 캐나다산 유제품·주류·오토바이 수입 금지 포고문",
+      "link": "https://www.hankyung.com/article/2026090926877",
+      "source": "한국경제",
+      "ts": 1788909424000,
+      "pub": "Wed, 09 Sep 2026 08:17:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美당국자 \"내년 1월1일 캐나다산 車관세 50% 인상방침 유효\"",
+      "link": "https://www.hankyung.com/article/2026090926857",
+      "source": "한국경제",
+      "ts": 1788909389000,
+      "pub": "Wed, 09 Sep 2026 08:16:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美당국자 \"내년 1월1일 캐나다산 車관세 50% 인상방침 유효\"",
+      "link": "https://www.yna.co.kr/view/AKR20260909025000071",
+      "source": "연합뉴스 국제",
+      "ts": 1788909337000,
+      "pub": "Wed, 9 Sep 2026 08:15:37 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/09/09/PRU20260909136901009_P2.jpg"
+    },
+    {
+      "title": "[속보] 트럼프, 캐나다산 유제품·주류·오토바이 수입 금지 포고문",
+      "link": "https://www.yna.co.kr/view/AKR20260909024400071",
+      "source": "연합뉴스 국제",
+      "ts": 1788909075000,
+      "pub": "Wed, 9 Sep 2026 08:11:15 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/09/PEP20260909011801009_P2.jpg"
+    },
+    {
+      "title": "미국 '관세전쟁' 맞서자…캐나다 총리 지지율 '쑥'",
+      "link": "https://www.hankyung.com/article/2026090924967",
+      "source": "한국경제",
+      "ts": 1788905415000,
+      "pub": "Wed, 09 Sep 2026 07:10:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 캐나다 관세에 보복…\"정부조달 계약서 캐나다산 제외\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260909009051071",
+      "source": "연합뉴스 국제",
+      "ts": 1788905337000,
+      "pub": "Wed, 9 Sep 2026 07:08:57 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 8일(현지시간) 미국 조달 시장에 다수공급자계약제도(MAS·Multiple A...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/09/PEP20260909011801009_P2.jpg"
+    },
     {
       "title": "'대미 관세전쟁' 카니 캐나다 총리 지지율 급등…최고치 근접",
       "link": "https://www.yna.co.kr/view/AKR20260909011000072",
@@ -14,24 +96,6 @@
       "image": "https://img.yna.co.kr/photo/reuters/2026/09/02/PRU20260902004601009_P2.jpg"
     },
     {
-      "title": "캐나다 '맞불 관세'에…트럼프, '67조원'짜리 보복 조치 꺼내",
-      "link": "https://www.hankyung.com/article/2026090924767",
-      "source": "한국경제",
-      "ts": 1788902836000,
-      "pub": "Wed, 09 Sep 2026 06:27:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프, 캐나다 관세조치에 보복…\"美 조달청 계약서 제외\"(상보)",
-      "link": "https://www.mt.co.kr/world/2026/09/09/2026090906132348615",
-      "source": "머니투데이",
-      "ts": 1788902212000,
-      "pub": "Wed, 09 Sep 2026 06:16:52 +0900",
-      "sentiment": "neutral",
-      "desc": "도널드 트럼프 미국 대통령이 8일(현지시간) \"캐나다가 미국 농가와 기업들에 대해 완전하고 공정한 상호주의를 회복하지 않는 한 미 연방조달청(GSA)의 다중낙찰계약제도에서 캐나다산 제품을 제외하는 조치를 취하도록 연방조달청과 미 무역대표부(USTR)에 지시했다\"고 밝혔",
-      "image": "https://thumb.mt.co.kr/06/2026/09/2026090906132348615_1.jpg"
-    },
-    {
       "title": "트럼프, 캐나다 관세에 보복…\"정부조달 계약서 캐나다산 제외\"",
       "link": "https://www.yna.co.kr/view/AKR20260909009000071",
       "source": "연합뉴스 국제",
@@ -40,16 +104,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 8일(현지시간) 미국 조달 시장에 다수공급자계약제도(MAS·Multiple A...",
       "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/09/PEP20260909011801009_P2.jpg"
-    },
-    {
-      "title": "[속보]트럼프, 캐나다 관세에 보복…\"조달청 계약서 제외\"",
-      "link": "https://www.mt.co.kr/world/2026/09/09/2026090905494562567",
-      "source": "머니투데이",
-      "ts": 1788900638000,
-      "pub": "Wed, 09 Sep 2026 05:50:38 +0900",
-      "sentiment": "neutral",
-      "desc": "트럼프, 캐나다 관세에 보복…\"조달청 계약서 제외\"...",
-      "image": "https://thumb.mt.co.kr/06/2026/09/2026090905494562567_1.jpg"
     },
     {
       "title": "[속보] 트럼프, 캐나다 관세에 보복…\"다수공급계약서 캐나다산 제외\"",
@@ -80,16 +134,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 미국 수도 워싱턴DC에서 국립 박물관·미술관 등을 운영하는 스미스소니언 재단의 로니 번치 3세 사무총장이 ...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/09/AKR20260909006500071_02_i_P2.jpg"
-    },
-    {
-      "title": "\"미국은 더 강해졌다\"… 트럼프, 9·11 테러 25주년 추모행사 참석",
-      "link": "https://www.mt.co.kr/world/2026/09/09/2026090905025030537",
-      "source": "머니투데이",
-      "ts": 1788897924000,
-      "pub": "Wed, 09 Sep 2026 05:05:24 +0900",
-      "sentiment": "neutral",
-      "desc": "도널드 트럼프 미국 대통령이 9·11 테러 참사 25주년을 맞아 희생자들을 추모하고 국가적 단합과 안보 의지를 재확인했다. 트럼프 대통령은 8일(현지시간) 워싱턴DC 백악관 남쪽 엘립스 공원에서 열린 '미국을 가로지르는 강철' 행사에 참석해 \"9·11 참사 이후 오랜 ",
-      "image": "https://thumb.mt.co.kr/06/2026/09/2026090905025030537_1.jpg"
     },
     {
       "title": "\"이틀짜리 트럼프 쇼\"…美공화, 초유의 중간선거 전당대회 돌입",
@@ -162,16 +206,6 @@
       "image": "https://img.yna.co.kr/photo/etc/af/2026/08/14/PAF20260814136601009_P2.jpg"
     },
     {
-      "title": "[속보]한-프 정상회담…李대통령 \"우크라이나 평화 회복·재건 위해 함께 노력\"",
-      "link": "https://www.mt.co.kr/politics/2026/09/08/2026090822051281051",
-      "source": "머니투데이",
-      "ts": 1788878966000,
-      "pub": "Tue, 08 Sep 2026 23:49:26 +0900",
-      "sentiment": "neutral",
-      "desc": "[the300] 이재명 대통령, 8일 프랑스 파리 엘리제궁 에마뉘엘 마크롱 프랑스 대통령과 '공동언론발표'....",
-      "image": "https://thumb.mt.co.kr/06/2026/09/2026090822051281051_1.jpg"
-    },
-    {
       "title": "영·프·캐나다 등 12개국 \"서안 이스라엘 정착촌과 교역 제한\"",
       "link": "https://www.yna.co.kr/view/AKR20260908172900085",
       "source": "연합뉴스 국제",
@@ -232,16 +266,6 @@
       "image": "https://www.youtube.com/embed/8tFPhmHoiNk"
     },
     {
-      "title": "트럼프 경고에도…캐나다, 미국에 '50% 맞불 관세'",
-      "link": "https://www.yna.co.kr/view/AKR20260908128700009",
-      "source": "연합뉴스 국제",
-      "ts": 1788850222000,
-      "pub": "Tue, 8 Sep 2026 15:50:22 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 곽민서 기자 = 캐나다가 도널드 트럼프 미국 행정부의 관세 부과에 맞선 '맞불 관세'를 8일(현지시간) 공식 발효했다.",
-      "image": "https://img.yna.co.kr/photo/ap/2026/09/04/PAP20260904002101009_P2.jpg"
-    },
-    {
       "title": "[게시판] 관세청, 마약 밀반입 차단 'N차 저지선 점검단' 운영",
       "link": "https://www.yna.co.kr/view/AKR20260908118800002",
       "source": "연합뉴스 경제",
@@ -250,16 +274,6 @@
       "sentiment": "neutral",
       "desc": "▲ 관세청은 마약 밀반입 차단을 위한 다중 검사 체계를 뜻하는 'N차 저지선'의 운영 실태를 파악하는 점검단을 꾸린다고 8일 밝혔다. 점검단은 ...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/08/AKR20260908118800002_01_i_P2.jpg"
-    },
-    {
-      "title": "관세청 1∼7월 탈세 등 1조760억원 적발…작년 연간 실적의 40%",
-      "link": "https://www.yna.co.kr/view/AKR20260908044600002",
-      "source": "연합뉴스 경제",
-      "ts": 1788834029000,
-      "pub": "Tue, 8 Sep 2026 11:20:29 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 안채원 기자 = 올해 들어 7월까지 관세 당국에 적발된 탈세 및 법규 위반 규모가 1조760억원으로 집계됐다. 작년 연간 적발...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/08/PYH2026090804150001300_P2.jpg"
     }
   ]
 }

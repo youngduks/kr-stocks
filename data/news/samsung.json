@@ -1,8 +1,52 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-08T22:07:04.264Z",
-  "count": 12,
+  "updated_at": "2026-09-09T00:48:33.027Z",
+  "count": 14,
   "items": [
+    {
+      "title": "삼전닉스, 장 초반 강보합…美 반도체 훈풍에도 유가 급등 부담",
+      "link": "https://www.hankyung.com/article/2026090929076",
+      "source": "한국경제",
+      "ts": 1788913307000,
+      "pub": "Wed, 09 Sep 2026 09:21:47 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[특징주] 삼성전자, 장 초반 0.6% 상승…SK하이닉스는 1.5%↑",
+      "link": "https://www.yna.co.kr/view/AKR20260909044800008",
+      "source": "연합뉴스 경제",
+      "ts": 1788913270000,
+      "pub": "Wed, 9 Sep 2026 09:21:10 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 9일 장 초반 동반 강세를 보인다.",
+      "image": "https://img.yna.co.kr/photo/cms/2025/10/02/07/PCM20251002000007990_P2.jpg"
+    },
+    {
+      "title": "급락한 삼성전기 담은 초고수…상승한 삼성전자는 팔았다",
+      "link": "https://www.hankyung.com/article/202609092640i",
+      "source": "한국경제",
+      "ts": 1788912006000,
+      "pub": "Wed, 09 Sep 2026 09:00:06 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "KB증권 \"AI 모델 경쟁 최대 수혜는 삼성전자·SK하이닉스\"",
+      "link": "https://www.yna.co.kr/view/AKR20260909028300008",
+      "source": "연합뉴스 경제",
+      "ts": 1788910364000,
+      "pub": "Wed, 9 Sep 2026 08:32:44 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정회인 기자 = KB증권은 9일 글로벌 인공지능(AI) 모델의 성능 경쟁이 심화할수록 메모리 반도체 수요가 크게 늘어날 것이라...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
+    },
+    {
+      "title": "\"불붙은 AI 모델 경쟁…삼전닉스 최대 수혜\"",
+      "link": "https://www.hankyung.com/article/2026090926416",
+      "source": "한국경제",
+      "ts": 1788908864000,
+      "pub": "Wed, 09 Sep 2026 08:07:44 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "李대통령, 韓佛 비즈니스라운드테이블…이재용 등 재계 집결(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260908166251001",
@@ -12,32 +56,6 @@
       "sentiment": "neutral",
       "desc": "(파리=연합뉴스) 임형섭 고동욱 기자 = 프랑스를 국빈방문 중인 이재명 대통령은 8일(현지시간) 파리에서 열리는 양국 기업 교류 행사인 한-프랑...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/08/PYH2026090823700001300_P2.jpg"
-    },
-    {
-      "title": "삼전·네이버, 프랑스 미스트랄 AI와 맞손…李대통령 \"양국 정부차원 협력 기대\"",
-      "link": "https://www.mt.co.kr/politics/2026/09/09/2026090904410947747",
-      "source": "머니투데이",
-      "ts": 1788897510000,
-      "pub": "Wed, 09 Sep 2026 04:58:30 +0900",
-      "sentiment": "neutral",
-      "desc": "[the300] 이재명 대통령의 국빈방문을 계기로 열린 한-프랑스 비즈니스 라운드테이블에서 삼성전자와 네이버가 프랑스 인공지능(AI) 기업 미스트랄 AI와 각각 전략적 투자협력과 글로벌 시장 공동 진출을 추진하기로 했다. 강유정 청와대 수석대변인은 8일(현지시간) 프랑",
-      "image": "https://thumb.mt.co.kr/06/2026/09/2026090904410947747_1.jpg"
-    },
-    {
-      "title": "삼성전자, 佛 AI기업 '미스트랄'에 수천억원 투자",
-      "link": "https://www.hankyung.com/article/2026090823501",
-      "source": "한국경제",
-      "ts": 1788883201000,
-      "pub": "Wed, 09 Sep 2026 01:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "李, 파리서 한·프 비즈니스 라운드테이블…이재용도 참석",
-      "link": "https://www.hankyung.com/article/2026090822977",
-      "source": "한국경제",
-      "ts": 1788870187000,
-      "pub": "Tue, 08 Sep 2026 21:23:07 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "李대통령, 韓佛 비즈니스라운드테이블…이재용 등 재계 집결",

@@ -1,8 +1,78 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-09T18:06:50.579Z",
-  "count": 17,
+  "updated_at": "2026-09-09T21:20:57.445Z",
+  "count": 23,
   "items": [
+    {
+      "title": "트럼프 \"중간선거 직후 이란전 끝나고 휘발윳값도 급락할 것\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260910005451071",
+      "source": "연합뉴스 국제",
+      "ts": 1788986676000,
+      "pub": "Thu, 10 Sep 2026 05:44:36 +0900",
+      "sentiment": "negative",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 9일(현지시간) 이란 전쟁이 미국 중간선거 직후에 끝날 것이라며 이 시점에 유...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/10/PAF20260910062201009_P2.jpg"
+    },
+    {
+      "title": "노르웨이 총리 \"젤렌스키 탄 비행기, 이륙중 드론 충돌할뻔\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260910006351098",
+      "source": "연합뉴스 국제",
+      "ts": 1788984904000,
+      "pub": "Thu, 10 Sep 2026 05:15:04 +0900",
+      "sentiment": "neutral",
+      "desc": "(브뤼셀=연합뉴스) 현윤경 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령을 태운 비행기가 이륙 도중 드론과 충돌할 뻔했다고 노르웨이 총리가 밝...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910006351098_01_i_P2.jpg"
+    },
+    {
+      "title": "노르웨이 총리 \"젤렌스키 탄 비행기, 이륙중 드론 충돌할뻔\"",
+      "link": "https://www.yna.co.kr/view/AKR20260910006300098",
+      "source": "연합뉴스 국제",
+      "ts": 1788983213000,
+      "pub": "Thu, 10 Sep 2026 04:46:53 +0900",
+      "sentiment": "neutral",
+      "desc": "(브뤼셀=연합뉴스) 현윤경 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령을 태운 비행기가 이륙 도중 드론과 충돌할 뻔했다고 노르웨이 총리가 밝...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910006300098_01_i_P2.jpg"
+    },
+    {
+      "title": "트럼프 \"이란戰, 중간선거 직후 끝날 것…이란, 더는 못버텨\"",
+      "link": "https://www.yna.co.kr/view/AKR20260910005400071",
+      "source": "연합뉴스 국제",
+      "ts": 1788980919000,
+      "pub": "Thu, 10 Sep 2026 04:08:39 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 9일(현지시간) 이란 전쟁이 미국 중간선거 직후에 끝날 것이라며 이 시점에 유...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910005400071_01_i_P2.jpg"
+    },
+    {
+      "title": "\"트럼프 진영 새 슈퍼팩, 중간선거 접전지 이틀간 635억원 투입\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260910000451071",
+      "source": "연합뉴스 국제",
+      "ts": 1788980108000,
+      "pub": "Thu, 10 Sep 2026 03:55:08 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 미국 중간선거를 두 달도 남기지 않은 상황에서 새로운 공화당 계열 슈퍼팩(super PAC·특별정치활동위원...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910000451071_01_i_P2.jpg"
+    },
+    {
+      "title": "[속보] 트럼프 \"이란전쟁, 중간선거 직후 끝날 것으로 생각\"",
+      "link": "https://www.yna.co.kr/view/AKR20260910005100071",
+      "source": "연합뉴스 국제",
+      "ts": 1788978906000,
+      "pub": "Thu, 10 Sep 2026 03:35:06 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
+    },
+    {
+      "title": "\"트럼프 '핵시설' 타격 시사한 이란 곡괭이산 건설활동 급증\"",
+      "link": "https://www.yna.co.kr/view/AKR20260910003900071",
+      "source": "연합뉴스 국제",
+      "ts": 1788977830000,
+      "pub": "Thu, 10 Sep 2026 03:17:10 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 이란의 지하 핵시설로 의심되는 '곡괭이산'에서 올해 들어 건설 활동이 급증했다는 미 싱크탱크 분석이 나왔다...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910003900071_01_i_P2.jpg"
+    },
     {
       "title": "이란전 6개월간 트럼프 석유·가스 주식 평가액 최대 59억원↑",
       "link": "https://www.yna.co.kr/view/AKR20260910001800072",
@@ -158,16 +228,6 @@
       "sentiment": "neutral",
       "desc": "(세종=연합뉴스) 안채원 기자 = 물가 안정을 위해 관세를 한시적으로 낮춰주는 제도를 악용한 5천억원 규모의 불법행위가 세관 당국에 적발됐다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/09/PYH2026090912170006500_P2.jpg"
-    },
-    {
-      "title": "[영상] 폭스바겐 공장서 방공시스템 만든다…이스라엘 업체에 매각",
-      "link": "https://www.yna.co.kr/view/AKR20260909077100704",
-      "source": "연합뉴스 국제",
-      "ts": 1788919405000,
-      "pub": "Wed, 9 Sep 2026 11:03:25 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 독일 자동차 기업 폭스바겐그룹이 독일 공장 1곳을 매각해 군수품 생산시설로 전환하기로 결정했습니다.",
-      "image": "https://www.youtube.com/embed/4CQpNPGSORc"
     }
   ]
 }

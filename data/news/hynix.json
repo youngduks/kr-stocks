@@ -1,22 +1,50 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-09T21:20:57.447Z",
-  "count": 12,
+  "updated_at": "2026-09-09T23:37:36.383Z",
+  "count": 15,
   "items": [
+    {
+      "title": "\"테스, 수주잔고 사상 최대…HBM·D램으로 장비 영토 확장\"-IBK",
+      "link": "https://www.hankyung.com/article/2026091053056",
+      "source": "한국경제",
+      "ts": 1788995220000,
+      "pub": "Thu, 10 Sep 2026 08:07:00 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"반도체 매출 2012조원\" 파격 전망…메모리가 '왕좌' 차지",
+      "link": "https://www.hankyung.com/article/2026091052457",
+      "source": "한국경제",
+      "ts": 1788994398000,
+      "pub": "Thu, 10 Sep 2026 07:53:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"메모리, 반도체산업의 왕…전체 매출의 50~55% 차지\"",
+      "link": "https://www.yna.co.kr/view/AKR20260910014900009",
+      "source": "연합뉴스 국제",
+      "ts": 1788992927000,
+      "pub": "Thu, 10 Sep 2026 07:28:47 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 메모리 반도체가 인공지능(AI) 붐 속에서 반도체 산업의 '왕'으로 떠올랐으며 이런 지배력이 당분간 지속할 것...",
+      "image": "https://img.yna.co.kr/photo/cms/2023/12/12/47/PCM20231212000047990_P2.jpg"
+    },
+    {
+      "title": "D램값 뛰는데 가격은 못 올리고…삼성·LG 노트북의 딜레마",
+      "link": "https://www.mt.co.kr/industry/2026/09/10/2026090915341570954",
+      "source": "머니투데이",
+      "ts": 1788986220000,
+      "pub": "Thu, 10 Sep 2026 05:37:00 +0900",
+      "sentiment": "neutral",
+      "desc": "AI 서버에 생산능력 우선 배분…PC용 메모리 공급 제한 지속 실속형 제품군에 구독 서비스까지…소비자 수요 이탈 방어 총력 AI(인공지능) 서버 수요 증가로 PC용 D램 가격이 급등하면서 삼성전자와 LG전자의 고민이 깊어지고 있다. 메모리 원가는 치솟지만 가격에 민감한",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026090915341570954_1.jpg"
+    },
     {
       "title": "베선트, 금리는 \"나에게 베팅\"…엔화 강세에 발목 잡힌 반도체 [박신영의 개장전 요것만]",
       "link": "https://www.hankyung.com/article/202609095052i",
       "source": "한국경제",
       "ts": 1788965049000,
       "pub": "Wed, 09 Sep 2026 23:44:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "최태원 제안에 키옥시아 '거절'…한일 낸드 동맹 '엇박자' [강경주의 테크X]",
-      "link": "https://www.hankyung.com/article/2026090944836",
-      "source": "한국경제",
-      "ts": 1788958801000,
-      "pub": "Wed, 09 Sep 2026 22:00:01 +0900",
       "sentiment": "neutral"
     },
     {

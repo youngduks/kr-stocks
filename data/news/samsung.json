@@ -1,31 +1,33 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-09T21:20:57.446Z",
-  "count": 11,
+  "updated_at": "2026-09-09T23:37:36.382Z",
+  "count": 10,
   "items": [
     {
-      "title": "[단독] '삼전닉스 레버리지' 개미 탓에 투기판?…실상은 달랐다",
-      "link": "https://www.hankyung.com/article/2026090946021",
+      "title": "\"테스, 수주잔고 사상 최대…HBM·D램으로 장비 영토 확장\"-IBK",
+      "link": "https://www.hankyung.com/article/2026091053056",
       "source": "한국경제",
-      "ts": 1788987610000,
-      "pub": "Thu, 10 Sep 2026 06:00:10 +0900",
+      "ts": 1788995220000,
+      "pub": "Thu, 10 Sep 2026 08:07:00 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"반도체 매출 2012조원\" 파격 전망…메모리가 '왕좌' 차지",
+      "link": "https://www.hankyung.com/article/2026091052457",
+      "source": "한국경제",
+      "ts": 1788994398000,
+      "pub": "Thu, 10 Sep 2026 07:53:18 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "최태원 제안에 키옥시아 '거절'…한일 낸드 동맹 '엇박자' [강경주의 테크X]",
-      "link": "https://www.hankyung.com/article/2026090944836",
-      "source": "한국경제",
-      "ts": 1788958801000,
-      "pub": "Wed, 09 Sep 2026 22:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "홍라희 삼전 지분 1.9조, 이재용 회장이 사들인다",
-      "link": "https://www.hankyung.com/article/2026090949171",
-      "source": "한국경제",
-      "ts": 1788950480000,
-      "pub": "Wed, 09 Sep 2026 19:41:20 +0900",
-      "sentiment": "neutral"
+      "title": "\"메모리, 반도체산업의 왕…전체 매출의 50~55% 차지\"",
+      "link": "https://www.yna.co.kr/view/AKR20260910014900009",
+      "source": "연합뉴스 국제",
+      "ts": 1788992927000,
+      "pub": "Thu, 10 Sep 2026 07:28:47 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 메모리 반도체가 인공지능(AI) 붐 속에서 반도체 산업의 '왕'으로 떠올랐으며 이런 지배력이 당분간 지속할 것...",
+      "image": "https://img.yna.co.kr/photo/cms/2023/12/12/47/PCM20231212000047990_P2.jpg"
     },
     {
       "title": "SK하이닉스, 3.5% 급등 마감…삼성전자는 상승분 반납(종합)",
@@ -36,16 +38,6 @@
       "sentiment": "positive",
       "desc": "(서울=연합뉴스) 황철환 기자 = SK하이닉스[000660]가 9일 3% 넘게 급등한 채 정규장 거래를 마감했다. 반면 삼성전자[005930]는...",
       "image": "https://img.yna.co.kr/photo/cms/2025/10/02/07/PCM20251002000007990_P2.jpg"
-    },
-    {
-      "title": "2분기 기업 성장성·수익성 역대 최고…삼전·닉스 빼도 개선",
-      "link": "https://www.yna.co.kr/view/AKR20260909093500002",
-      "source": "연합뉴스 경제",
-      "ts": 1788922817000,
-      "pub": "Wed, 9 Sep 2026 12:00:17 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 이도흔 기자 = 올해 2분기 국내 기업들이 매출 증가율과 영업이익률이 역대 최고를 기록하는 등 성장성과 수익성이 크게 개선됐다...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/09/AKR20260909093500002_01_i_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

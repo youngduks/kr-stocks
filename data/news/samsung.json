@@ -1,23 +1,35 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-09T23:37:36.382Z",
+  "updated_at": "2026-09-10T01:52:56.213Z",
   "count": 10,
   "items": [
     {
-      "title": "\"테스, 수주잔고 사상 최대…HBM·D램으로 장비 영토 확장\"-IBK",
-      "link": "https://www.hankyung.com/article/2026091053056",
-      "source": "한국경제",
-      "ts": 1788995220000,
-      "pub": "Thu, 10 Sep 2026 08:07:00 +0900",
-      "sentiment": "positive"
+      "title": "[특징주] 삼전닉스, 美반도체 훈풍·중동 불안 속 보합권 등락",
+      "link": "https://www.yna.co.kr/view/AKR20260910039500008",
+      "source": "연합뉴스 경제",
+      "ts": 1789000208000,
+      "pub": "Thu, 10 Sep 2026 09:30:08 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 국내 증시 대장주인 삼성전자[005930]와 SK하이닉스[000660]가 10일 장 초반 등락을 거듭하고 있다...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
     },
     {
-      "title": "\"반도체 매출 2012조원\" 파격 전망…메모리가 '왕좌' 차지",
-      "link": "https://www.hankyung.com/article/2026091052457",
+      "title": "\"삼전닉스 다녀요\" 했더니 달라진 눈빛…요즘 연애 '현실'",
+      "link": "https://www.hankyung.com/article/202609105499g",
       "source": "한국경제",
-      "ts": 1788994398000,
-      "pub": "Thu, 10 Sep 2026 07:53:18 +0900",
+      "ts": 1788999175000,
+      "pub": "Thu, 10 Sep 2026 09:12:55 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, 'EHS 히트펌프' 전담 교육장…서비스 전문성 강화",
+      "link": "https://www.yna.co.kr/view/AKR20260910026300003",
+      "source": "연합뉴스 경제",
+      "ts": 1788998855000,
+      "pub": "Thu, 10 Sep 2026 09:07:35 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 임성호 기자 = 삼성전자는 경기도 수원의 CS 아카데미에 신규 'EHS 히트펌프 전담 교육장'을 마련했다고 10일 밝혔다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910026300003_01_i_P2.jpg"
     },
     {
       "title": "\"메모리, 반도체산업의 왕…전체 매출의 50~55% 차지\"",
@@ -28,16 +40,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 정주호 기자 = 메모리 반도체가 인공지능(AI) 붐 속에서 반도체 산업의 '왕'으로 떠올랐으며 이런 지배력이 당분간 지속할 것...",
       "image": "https://img.yna.co.kr/photo/cms/2023/12/12/47/PCM20231212000047990_P2.jpg"
-    },
-    {
-      "title": "SK하이닉스, 3.5% 급등 마감…삼성전자는 상승분 반납(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260909044851008",
-      "source": "연합뉴스 경제",
-      "ts": 1788937337000,
-      "pub": "Wed, 9 Sep 2026 16:02:17 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 황철환 기자 = SK하이닉스[000660]가 9일 3% 넘게 급등한 채 정규장 거래를 마감했다. 반면 삼성전자[005930]는...",
-      "image": "https://img.yna.co.kr/photo/cms/2025/10/02/07/PCM20251002000007990_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

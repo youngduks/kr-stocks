@@ -1,22 +1,30 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-10T11:56:12.966Z",
-  "count": 12,
+  "updated_at": "2026-09-10T15:32:29.428Z",
+  "count": 13,
   "items": [
+    {
+      "title": "갤럭시폴드보다 100만원 비싼 아이폰 폴더블…수혜주는 [분석+]",
+      "link": "https://www.hankyung.com/article/2026091060836",
+      "source": "한국경제",
+      "ts": 1789045203000,
+      "pub": "Thu, 10 Sep 2026 22:00:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'9천피' 치솟았는데 알고 보니…한은 '삼전닉스' 콕 집어 경고 [분석+]",
+      "link": "https://www.hankyung.com/article/2026091070376",
+      "source": "한국경제",
+      "ts": 1789038004000,
+      "pub": "Thu, 10 Sep 2026 20:00:04 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "HBM 공급부족에…화웨이도 AI칩 가격 대폭 인상",
       "link": "https://www.hankyung.com/article/202609107533i",
       "source": "한국경제",
       "ts": 1789036375000,
       "pub": "Thu, 10 Sep 2026 19:32:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'한화포레나지제역' 1098가구 삼성전자 평택캠퍼스 인접",
-      "link": "https://www.hankyung.com/article/2026091072191",
-      "source": "한국경제",
-      "ts": 1789032631000,
-      "pub": "Thu, 10 Sep 2026 18:30:31 +0900",
       "sentiment": "neutral"
     },
     {

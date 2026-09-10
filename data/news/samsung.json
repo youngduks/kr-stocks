@@ -1,35 +1,27 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-10T01:52:56.213Z",
-  "count": 10,
+  "updated_at": "2026-09-10T06:46:52.018Z",
+  "count": 9,
   "items": [
     {
-      "title": "[특징주] 삼전닉스, 美반도체 훈풍·중동 불안 속 보합권 등락",
-      "link": "https://www.yna.co.kr/view/AKR20260910039500008",
+      "title": "메모리 공급난에 스마트폰값 15%↑…신제품은 25% 급등",
+      "link": "https://www.yna.co.kr/view/AKR20260910091200017",
       "source": "연합뉴스 경제",
-      "ts": 1789000208000,
-      "pub": "Thu, 10 Sep 2026 09:30:08 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 국내 증시 대장주인 삼성전자[005930]와 SK하이닉스[000660]가 10일 장 초반 등락을 거듭하고 있다...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
+      "ts": 1789015213000,
+      "pub": "Thu, 10 Sep 2026 13:40:13 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 박형빈 기자 = 올해 들어 글로벌 스마트폰 가격이 평균 15% 상승한 것으로 나타났다. 메모리 가격 급등으로 제조사의 원가 부...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910091200017_01_i_P2.jpg"
     },
     {
-      "title": "\"삼전닉스 다녀요\" 했더니 달라진 눈빛…요즘 연애 '현실'",
-      "link": "https://www.hankyung.com/article/202609105499g",
-      "source": "한국경제",
-      "ts": 1788999175000,
-      "pub": "Thu, 10 Sep 2026 09:12:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 'EHS 히트펌프' 전담 교육장…서비스 전문성 강화",
-      "link": "https://www.yna.co.kr/view/AKR20260910026300003",
-      "source": "연합뉴스 경제",
-      "ts": 1788998855000,
-      "pub": "Thu, 10 Sep 2026 09:07:35 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 임성호 기자 = 삼성전자는 경기도 수원의 CS 아카데미에 신규 'EHS 히트펌프 전담 교육장'을 마련했다고 10일 밝혔다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910026300003_01_i_P2.jpg"
+      "title": "메모리값 급등에도 아이폰 인상 최소화한 애플…시장확대에 초점",
+      "link": "https://www.yna.co.kr/view/AKR20260910065000091",
+      "source": "연합뉴스 국제",
+      "ts": 1789006348000,
+      "pub": "Thu, 10 Sep 2026 11:12:28 +0900",
+      "sentiment": "positive",
+      "desc": "(쿠퍼티노=연합뉴스) 권영전 특파원 = 애플이 전 세계적인 메모리 가격 급등 속에서도 아이폰 가격 인상 폭을 최소화하며 시장 확장 전략에 무게를...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/10/PAP20260910048301009_P2.jpg"
     },
     {
       "title": "\"메모리, 반도체산업의 왕…전체 매출의 50~55% 차지\"",

@@ -1,15 +1,57 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-10T01:52:56.214Z",
-  "count": 17,
+  "updated_at": "2026-09-10T06:46:52.019Z",
+  "count": 16,
   "items": [
     {
-      "title": "\"성과급 현금 50%·주식 50%\"…SK하이닉스 노사 재투표 간다",
-      "link": "https://www.hankyung.com/article/202609105897g",
-      "source": "한국경제",
-      "ts": 1789002859000,
-      "pub": "Thu, 10 Sep 2026 10:14:19 +0900",
-      "sentiment": "neutral"
+      "title": "대만 TSMC, 8월 매출 53.3%↑…21.9조 벌어 또 신기록",
+      "link": "https://www.yna.co.kr/view/AKR20260910123100083",
+      "source": "연합뉴스 국제",
+      "ts": 1789021263000,
+      "pub": "Thu, 10 Sep 2026 15:21:03 +0900",
+      "sentiment": "neutral",
+      "desc": "(베이징=연합뉴스) 정성조 특파원 = 세계 최대 파운드리(반도체 수탁생산) 업체인 대만 TSMC가 지난달 또다시 월간 최대 매출 기록을 경신했다...",
+      "image": "https://img.yna.co.kr/photo/cms/2023/08/11/53/PCM20230811000053009_P2.jpg"
+    },
+    {
+      "title": "\"미 법무부, 엔비디아·그록 27조원 거래 조사중\"",
+      "link": "https://www.yna.co.kr/view/AKR20260910115400009",
+      "source": "연합뉴스 국제",
+      "ts": 1789020621000,
+      "pub": "Thu, 10 Sep 2026 15:10:21 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 미국 법무부가 엔비디아와 인공지능(AI) 칩 스타트업 그록(Groq) 간 200억달러(약 26조7천억원) 규모...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910115400009_01_i_P2.jpg"
+    },
+    {
+      "title": "메모리 공급난에 스마트폰값 15%↑…신제품은 25% 급등",
+      "link": "https://www.yna.co.kr/view/AKR20260910091200017",
+      "source": "연합뉴스 경제",
+      "ts": 1789015213000,
+      "pub": "Thu, 10 Sep 2026 13:40:13 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 박형빈 기자 = 올해 들어 글로벌 스마트폰 가격이 평균 15% 상승한 것으로 나타났다. 메모리 가격 급등으로 제조사의 원가 부...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910091200017_01_i_P2.jpg"
+    },
+    {
+      "title": "TSMC, 내년 1.4나노 공정 제품 생산…예정보다 6개월 단축",
+      "link": "https://www.yna.co.kr/view/AKR20260910082500009",
+      "source": "연합뉴스 국제",
+      "ts": 1789008469000,
+      "pub": "Thu, 10 Sep 2026 11:47:49 +0900",
+      "sentiment": "neutral",
+      "desc": "(타이베이=연합뉴스) 김철문 통신원 = 세계 최대 파운드리(반도체 수탁생산) 업체인 대만 TSMC가 내년에 최첨단 공정인 1.4나노(㎚·10억분...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910082500009_01_i_P2.jpg"
+    },
+    {
+      "title": "메모리값 급등에도 아이폰 인상 최소화한 애플…시장확대에 초점",
+      "link": "https://www.yna.co.kr/view/AKR20260910065000091",
+      "source": "연합뉴스 국제",
+      "ts": 1789006348000,
+      "pub": "Thu, 10 Sep 2026 11:12:28 +0900",
+      "sentiment": "positive",
+      "desc": "(쿠퍼티노=연합뉴스) 권영전 특파원 = 애플이 전 세계적인 메모리 가격 급등 속에서도 아이폰 가격 인상 폭을 최소화하며 시장 확장 전략에 무게를...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/10/PAP20260910048301009_P2.jpg"
     },
     {
       "title": "SK하이닉스, 3조 채권 투자 재개하나…신탁 대신 운용사 위탁",
@@ -20,42 +62,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 강수지 기자 = 채권시장의 큰손으로 떠올랐던 SK하이닉스[000660]가 3조원 규모의 자금을 통해 채권시장 투자를 재개할 것...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/29/PYH2026072914440006100_P2.jpg"
-    },
-    {
-      "title": "\"골드러시의 곡괭이\"…SK하이닉스 ADR, 사상 최고가에도 \"25% 더 오른다\"",
-      "link": "https://www.hankyung.com/article/202609105370i",
-      "source": "한국경제",
-      "ts": 1789000723000,
-      "pub": "Thu, 10 Sep 2026 09:38:43 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "[특징주] 삼전닉스, 美반도체 훈풍·중동 불안 속 보합권 등락",
-      "link": "https://www.yna.co.kr/view/AKR20260910039500008",
-      "source": "연합뉴스 경제",
-      "ts": 1789000208000,
-      "pub": "Thu, 10 Sep 2026 09:30:08 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 국내 증시 대장주인 삼성전자[005930]와 SK하이닉스[000660]가 10일 장 초반 등락을 거듭하고 있다...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
-    },
-    {
-      "title": "'반도체 머니' 들썩이는 동탄에 매머드급 신축 '아크메르 동탄' 공급",
-      "link": "https://www.hankyung.com/article/2026091055926",
-      "source": "한국경제",
-      "ts": 1788999470000,
-      "pub": "Thu, 10 Sep 2026 09:17:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "NH아문디운용 \"Fn K-반도체 ETF, 연초 이후 수익률 181%로 1위\"",
-      "link": "https://www.yna.co.kr/view/AKR20260910031800008",
-      "source": "연합뉴스 경제",
-      "ts": 1788998616000,
-      "pub": "Thu, 10 Sep 2026 09:03:36 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김태종 기자 = NH-아문디자산운용은 국내 반도체 산업의 핵심 종목에 투자하는 'HANARO Fn K-반도체 ETF(상장지수펀...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910031800008_01_i_P2.jpg"
     },
     {
       "title": "SK하이닉스 ADR 7% 급등…상장 후 최고가",
@@ -76,16 +82,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 정주호 기자 = 메모리 반도체가 인공지능(AI) 붐 속에서 반도체 산업의 '왕'으로 떠올랐으며 이런 지배력이 당분간 지속할 것...",
       "image": "https://img.yna.co.kr/photo/cms/2023/12/12/47/PCM20231212000047990_P2.jpg"
-    },
-    {
-      "title": "일본서 상장된 '한국 반도체 톱10' ETF 첫날 3.1% 상승",
-      "link": "https://www.yna.co.kr/view/AKR20260909164000008",
-      "source": "연합뉴스 경제",
-      "ts": 1788944874000,
-      "pub": "Wed, 9 Sep 2026 18:07:54 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김태종 기자 = 일본 증시에 출시된 '한국 반도체 톱10' ETF(상장지수펀드)가 9일 상장 첫날 3%가 넘는 상승률을 기록했...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/09/AKR20260909164000008_01_i_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

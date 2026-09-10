@@ -1,38 +1,22 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-10T21:16:58.875Z",
-  "count": 17,
+  "updated_at": "2026-09-10T23:31:14.162Z",
+  "count": 14,
   "items": [
     {
-      "title": "엔비디아와 팔란티어, AI 연합군 결성…고유가 2029년까지 간다?[박신영의 개장전 요것만]",
+      "title": "유가·美 국채금리 급등에 일제 하락…반도체주 급락 [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026091178316",
+      "source": "한국경제",
+      "ts": 1789079364000,
+      "pub": "Fri, 11 Sep 2026 07:29:24 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "엔비디아와 팔란티어, AI 연합군 결성…고유가 2029년까지 간다? [박신영의 개장전 요것만]",
       "link": "https://www.hankyung.com/article/202609107697i",
       "source": "한국경제",
       "ts": 1789054597000,
       "pub": "Fri, 11 Sep 2026 00:36:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI 인프라 수요 폭발…TSMC, 8월 매출도 53% 급증",
-      "link": "https://www.hankyung.com/article/202609107560i",
-      "source": "한국경제",
-      "ts": 1789038112000,
-      "pub": "Thu, 10 Sep 2026 20:01:52 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "TSMC 8월 매출 53% 증가…4달째 '역대 최대'",
-      "link": "https://www.hankyung.com/article/202609107098i",
-      "source": "한국경제",
-      "ts": 1789038009000,
-      "pub": "Thu, 10 Sep 2026 20:00:09 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "HBM 공급부족에…화웨이도 AI칩 가격 대폭 인상",
-      "link": "https://www.hankyung.com/article/202609107533i",
-      "source": "한국경제",
-      "ts": 1789036375000,
-      "pub": "Thu, 10 Sep 2026 19:32:55 +0900",
       "sentiment": "neutral"
     },
     {
@@ -74,16 +58,6 @@
       "sentiment": "positive",
       "desc": "(서울=연합뉴스) 박형빈 기자 = 올해 들어 글로벌 스마트폰 가격이 평균 15% 상승한 것으로 나타났다. 메모리 가격 급등으로 제조사의 원가 부...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910091200017_01_i_P2.jpg"
-    },
-    {
-      "title": "TSMC, 내년 1.4나노 공정 제품 생산…예정보다 6개월 단축",
-      "link": "https://www.yna.co.kr/view/AKR20260910082500009",
-      "source": "연합뉴스 국제",
-      "ts": 1789008469000,
-      "pub": "Thu, 10 Sep 2026 11:47:49 +0900",
-      "sentiment": "neutral",
-      "desc": "(타이베이=연합뉴스) 김철문 통신원 = 세계 최대 파운드리(반도체 수탁생산) 업체인 대만 TSMC가 내년에 최첨단 공정인 1.4나노(㎚·10억분...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910082500009_01_i_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

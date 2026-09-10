@@ -1,8 +1,44 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-10T06:46:52.018Z",
-  "count": 9,
+  "updated_at": "2026-09-10T11:56:12.966Z",
+  "count": 12,
   "items": [
+    {
+      "title": "HBM 공급부족에…화웨이도 AI칩 가격 대폭 인상",
+      "link": "https://www.hankyung.com/article/202609107533i",
+      "source": "한국경제",
+      "ts": 1789036375000,
+      "pub": "Thu, 10 Sep 2026 19:32:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'한화포레나지제역' 1098가구 삼성전자 평택캠퍼스 인접",
+      "link": "https://www.hankyung.com/article/2026091072191",
+      "source": "한국경제",
+      "ts": 1789032631000,
+      "pub": "Thu, 10 Sep 2026 18:30:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"AI 메모리 호황에도 '자금조달 병목'이 새로운 리스크\"",
+      "link": "https://www.yna.co.kr/view/AKR20260910146900008",
+      "source": "연합뉴스 경제",
+      "ts": 1789027347000,
+      "pub": "Thu, 10 Sep 2026 17:02:27 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정회인 기자 = 인공지능(AI) 투자 확대가 메모리반도체 호황을 이끌고 있지만, AI 인프라의 외부자금 의존도가 커지면서 금리...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910146900008_01_i_P2.jpg"
+    },
+    {
+      "title": "[특징주] 삼전닉스, 약보합 마감…기관은 사고, 외국인은 팔고(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260910039551008",
+      "source": "연합뉴스 경제",
+      "ts": 1789023867000,
+      "pub": "Thu, 10 Sep 2026 16:04:27 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 국내 증시 대장주인 삼성전자[005930]와 SK하이닉스[000660]가 10일 장중 등락을 거듭한 뒤 약보합...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
+    },
     {
       "title": "메모리 공급난에 스마트폰값 15%↑…신제품은 25% 급등",
       "link": "https://www.yna.co.kr/view/AKR20260910091200017",
@@ -22,16 +58,6 @@
       "sentiment": "positive",
       "desc": "(쿠퍼티노=연합뉴스) 권영전 특파원 = 애플이 전 세계적인 메모리 가격 급등 속에서도 아이폰 가격 인상 폭을 최소화하며 시장 확장 전략에 무게를...",
       "image": "https://img.yna.co.kr/photo/ap/2026/09/10/PAP20260910048301009_P2.jpg"
-    },
-    {
-      "title": "\"메모리, 반도체산업의 왕…전체 매출의 50~55% 차지\"",
-      "link": "https://www.yna.co.kr/view/AKR20260910014900009",
-      "source": "연합뉴스 국제",
-      "ts": 1788992927000,
-      "pub": "Thu, 10 Sep 2026 07:28:47 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 메모리 반도체가 인공지능(AI) 붐 속에서 반도체 산업의 '왕'으로 떠올랐으며 이런 지배력이 당분간 지속할 것...",
-      "image": "https://img.yna.co.kr/photo/cms/2023/12/12/47/PCM20231212000047990_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

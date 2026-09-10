@@ -1,8 +1,86 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-10T06:46:52.017Z",
+  "updated_at": "2026-09-10T11:56:12.965Z",
   "count": 24,
   "items": [
+    {
+      "title": "다급한 트럼프…\"중간선거 이기면 1인당 670만원 쏘겠다\"",
+      "link": "https://www.hankyung.com/article/202609107522i",
+      "source": "한국경제",
+      "ts": 1789034633000,
+      "pub": "Thu, 10 Sep 2026 19:03:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中 \"美와 300억달러 상호 관세인하 협상…조속 시행 추진\"",
+      "link": "https://www.yna.co.kr/view/AKR20260910153000083",
+      "source": "연합뉴스 국제",
+      "ts": 1789028639000,
+      "pub": "Thu, 10 Sep 2026 17:23:59 +0900",
+      "sentiment": "neutral",
+      "desc": "(베이징=연합뉴스) 한종구 특파원 = 미국과 중국이 지난 5월 베이징 정상회담을 계기로 합의한 양국 각각 300억달러(약 45조원) 규모의 상품...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910153000083_01_i_P2.jpg"
+    },
+    {
+      "title": "러 드론에 막힌 젤렌스키 전용기…\"암살 시도\" vs \"단정 못해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260910148500109",
+      "source": "연합뉴스 국제",
+      "ts": 1789028638000,
+      "pub": "Thu, 10 Sep 2026 17:23:58 +0900",
+      "sentiment": "neutral",
+      "desc": "(로마=연합뉴스) 민경락 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령 전용기가 러시아 드론 경보로 이륙이 지연된 사실이 알려지면서 러시아의 ...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/09/10/PRU20260910335101009_P2.jpg"
+    },
+    {
+      "title": "[쇼츠] 생방송 중 러시아 샤헤드 드론 '쾅'…우크라 \"뉴스룸 노렸다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260910147100704",
+      "source": "연합뉴스 국제",
+      "ts": 1789027116000,
+      "pub": "Thu, 10 Sep 2026 16:58:36 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 우크라이나 매체 NV와 영국 BBC 등에 따르면 8일(현지시간) 우크라이나 수도 키이우에서 생방송 중이던 TV 방송사가 러시아...",
+      "image": "https://www.youtube.com/embed/N0_CxBya4V8"
+    },
+    {
+      "title": "미중 긴장 완화에 '中진출' 美기업도 숨통…5년 전망 낙관 58%",
+      "link": "https://www.yna.co.kr/view/AKR20260910144900089",
+      "source": "연합뉴스 국제",
+      "ts": 1789026885000,
+      "pub": "Thu, 10 Sep 2026 16:54:45 +0900",
+      "sentiment": "positive",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 미중 관세전쟁이 최근 숨 고르기 국면에 접어들고 기업 수익성도 개선되면서 중국 경제 중심지 상하이에 진출한...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910144900089_01_i_P2.jpg"
+    },
+    {
+      "title": "[쇼츠] 낮엔 우크라 지원, 밤엔 러시아군 훈련?",
+      "link": "https://www.yna.co.kr/view/AKR20260910145300704",
+      "source": "연합뉴스 국제",
+      "ts": 1789026457000,
+      "pub": "Thu, 10 Sep 2026 16:47:37 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 영국 공수특전단(SAS)과 미국 네이비실 등 서방 특수부대 전직 대원들이 유럽 민간 훈련소에서 러시아인을 훈련했다는 의혹이 제...",
+      "image": "https://www.youtube.com/embed/PGZyJOvilGo"
+    },
+    {
+      "title": "[영상] 생방송 중 '쾅!' 뉴스룸 덮친 샤헤드…우크라 분노 \"표적 공습\"",
+      "link": "https://www.yna.co.kr/view/AKR20260910142200704",
+      "source": "연합뉴스 국제",
+      "ts": 1789025971000,
+      "pub": "Thu, 10 Sep 2026 16:39:31 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 건물을 향해 빠른 속도로 내리꽂히는 드론.",
+      "image": "https://www.youtube.com/embed/Ju3fntRc65M"
+    },
+    {
+      "title": "미중 정상회담 앞두고 AI '증류' 이슈 부상",
+      "link": "https://www.yna.co.kr/view/AKR20260910105400009",
+      "source": "연합뉴스 국제",
+      "ts": 1789023389000,
+      "pub": "Thu, 10 Sep 2026 15:56:29 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 설원태 기자 = 이달 말 미중 정상회담을 앞두고 미국 정부가 딥시크, 문샷, 알리바바 등 중국 기업 6곳을 지목해 미국 AI ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910105400009_01_i_P2.jpg"
+    },
     {
       "title": "美 인기애니 '사우스파크'→'사우스아메리카'로…트럼프 저격",
       "link": "https://www.yna.co.kr/view/AKR20260910121800009",
@@ -162,86 +240,6 @@
       "sentiment": "negative",
       "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령의 정치적 명운이 걸린 11월 중간선거에 고(高)유가·고금리와 관세전쟁 여파 등의...",
       "image": "https://img.yna.co.kr/photo/etc/af/2026/09/10/PAF20260910150101009_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"중간선거 직후 이란전 끝나고 휘발윳값도 급락할 것\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260910005451071",
-      "source": "연합뉴스 국제",
-      "ts": 1788986676000,
-      "pub": "Thu, 10 Sep 2026 05:44:36 +0900",
-      "sentiment": "negative",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 9일(현지시간) 이란 전쟁이 미국 중간선거 직후에 끝날 것이라며 이 시점에 유...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/10/PAF20260910062201009_P2.jpg"
-    },
-    {
-      "title": "노르웨이 총리 \"젤렌스키 탄 비행기, 이륙중 드론 충돌할뻔\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260910006351098",
-      "source": "연합뉴스 국제",
-      "ts": 1788984904000,
-      "pub": "Thu, 10 Sep 2026 05:15:04 +0900",
-      "sentiment": "neutral",
-      "desc": "(브뤼셀=연합뉴스) 현윤경 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령을 태운 비행기가 이륙 도중 드론과 충돌할 뻔했다고 노르웨이 총리가 밝...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/09/PRU20260909320501009_P2.jpg"
-    },
-    {
-      "title": "노르웨이 총리 \"젤렌스키 탄 비행기, 이륙중 드론 충돌할뻔\"",
-      "link": "https://www.yna.co.kr/view/AKR20260910006300098",
-      "source": "연합뉴스 국제",
-      "ts": 1788983213000,
-      "pub": "Thu, 10 Sep 2026 04:46:53 +0900",
-      "sentiment": "neutral",
-      "desc": "(브뤼셀=연합뉴스) 현윤경 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령을 태운 비행기가 이륙 도중 드론과 충돌할 뻔했다고 노르웨이 총리가 밝...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910006300098_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"이란戰, 중간선거 직후 끝날 것…이란, 더는 못버텨\"",
-      "link": "https://www.yna.co.kr/view/AKR20260910005400071",
-      "source": "연합뉴스 국제",
-      "ts": 1788980919000,
-      "pub": "Thu, 10 Sep 2026 04:08:39 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 9일(현지시간) 이란 전쟁이 미국 중간선거 직후에 끝날 것이라며 이 시점에 유...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910005400071_01_i_P2.jpg"
-    },
-    {
-      "title": "\"트럼프 진영 새 슈퍼팩, 중간선거 접전지 이틀간 635억원 투입\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260910000451071",
-      "source": "연합뉴스 국제",
-      "ts": 1788980108000,
-      "pub": "Thu, 10 Sep 2026 03:55:08 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 미국 중간선거를 두 달도 남기지 않은 상황에서 새로운 공화당 계열 슈퍼팩(super PAC·특별정치활동위원...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/09/08/PAP20260908090701009_P2.jpg"
-    },
-    {
-      "title": "[속보] 트럼프 \"이란전쟁, 중간선거 직후 끝날 것으로 생각\"",
-      "link": "https://www.yna.co.kr/view/AKR20260910005100071",
-      "source": "연합뉴스 국제",
-      "ts": 1788978906000,
-      "pub": "Thu, 10 Sep 2026 03:35:06 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
-    },
-    {
-      "title": "\"트럼프 '핵시설' 타격 시사한 이란 곡괭이산 건설활동 급증\"",
-      "link": "https://www.yna.co.kr/view/AKR20260910003900071",
-      "source": "연합뉴스 국제",
-      "ts": 1788977830000,
-      "pub": "Thu, 10 Sep 2026 03:17:10 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 이란의 지하 핵시설로 의심되는 '곡괭이산'에서 올해 들어 건설 활동이 급증했다는 미 싱크탱크 분석이 나왔다...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910003900071_01_i_P2.jpg"
-    },
-    {
-      "title": "이란전 6개월간 트럼프 석유·가스 주식 평가액 최대 59억원↑",
-      "link": "https://www.yna.co.kr/view/AKR20260910001800072",
-      "source": "연합뉴스 국제",
-      "ts": 1788971038000,
-      "pub": "Thu, 10 Sep 2026 01:23:58 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 미국과 이란 간 전쟁이 장기화하는 가운데 도널드 트럼프 미 대통령이 보유한 주요 석유·가스 주식의 평가액이 ...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/08/26/PAP20260826191001009_P2.jpg"
     }
   ]
 }

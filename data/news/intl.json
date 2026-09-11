@@ -1,8 +1,78 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-11T18:50:17.661Z",
-  "count": 27,
+  "updated_at": "2026-09-11T21:24:53.724Z",
+  "count": 34,
   "items": [
+    {
+      "title": "WSJ \"트럼프, 노골적 매표행위…관세철회가 美에 경제적 배당\"",
+      "link": "https://www.yna.co.kr/view/AKR20260912005900072",
+      "source": "연합뉴스 국제",
+      "ts": 1789158988000,
+      "pub": "Sat, 12 Sep 2026 05:36:28 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 도널드 트럼프 미국 대통령이 오는 11월 중간선거에서 공화당이 승리할 경우 모든 성인 시민에게 1인당 5천달...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/12/AKR20260912005900072_01_i_P2.jpg"
+    },
+    {
+      "title": "트럼프 \"5천달러 배당금 실현될 것…공화당에 투표하라\"",
+      "link": "https://www.yna.co.kr/view/AKR20260912005500071",
+      "source": "연합뉴스 국제",
+      "ts": 1789158973000,
+      "pub": "Sat, 12 Sep 2026 05:36:13 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 11일(현지시간) '미국 성인 1인당 5천달러(약 671만원) 배당금 지급' ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/12/AKR20260912005500071_01_i_P2.jpg"
+    },
+    {
+      "title": "FOMC 코앞 확인된 끈적한 美물가…9월 금리인상 확률 86%까지 쑥(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260912004851072",
+      "source": "연합뉴스 국제",
+      "ts": 1789158480000,
+      "pub": "Sat, 12 Sep 2026 05:28:00 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 미국의 물가 상승 압력이 좀처럼 꺾이지 않으면서 미 연방준비제도(Fed·연준)가 기준금리를 인상할 것이라는 ...",
+      "image": "https://img.yna.co.kr/photo/etc/gt/2026/09/11/PGT20260911045101009_P2.jpg"
+    },
+    {
+      "title": "뉴욕증시, 유가 하락·CPI 안도감에 5일 만에 반등",
+      "link": "https://www.yna.co.kr/view/AKR20260912005700072",
+      "source": "연합뉴스 국제",
+      "ts": 1789158396000,
+      "pub": "Sat, 12 Sep 2026 05:26:36 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 뉴욕증시가 11일(현지시간) 국제유가 하락과 예상치를 크게 벗어나지 않은 소비자물가지수(CPI) 발표에 5일...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/12/AKR20260912005700072_01_i_P2.jpg"
+    },
+    {
+      "title": "트럼프만 펜타곤 '9·11 따로 행보'…전직 대통령은 모두 뉴욕행",
+      "link": "https://www.yna.co.kr/view/AKR20260912003200071",
+      "source": "연합뉴스 국제",
+      "ts": 1789156742000,
+      "pub": "Sat, 12 Sep 2026 04:59:02 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 미국 9·11 테러 25주년을 맞아 전·현직 대통령들의 행보가 또 엇갈렸다.",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/12/PEP20260912047101009_P2.jpg"
+    },
+    {
+      "title": "美하원의원, 트럼프 행정부에 '북한여행금지' 해제 촉구",
+      "link": "https://www.yna.co.kr/view/AKR20260912004300071",
+      "source": "연합뉴스 국제",
+      "ts": 1789156285000,
+      "pub": "Sat, 12 Sep 2026 04:51:25 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 미국 연방 하원의 야당 의원이 도널드 트럼프 행정부에 북한 여행 금지 해제를 촉구했다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/12/AKR20260912004300071_01_i_P2.jpg"
+    },
+    {
+      "title": "FOMC 코앞 확인된 끈적한 美물가…9월 금리인상 확률 86%까지 쑥",
+      "link": "https://www.yna.co.kr/view/AKR20260912004800072",
+      "source": "연합뉴스 국제",
+      "ts": 1789156180000,
+      "pub": "Sat, 12 Sep 2026 04:49:40 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 미국의 물가 상승 압력이 좀처럼 꺾이지 않으면서 미 연방준비제도(Fed·연준)가 기준금리를 인상할 것이라는 ...",
+      "image": "https://img.yna.co.kr/photo/etc/gt/2026/09/11/PGT20260911045101009_P2.jpg"
+    },
     {
       "title": "'남미 트럼프' 밀레이, 블랙호크 도입하며 친미 안보 굳건히",
       "link": "https://www.yna.co.kr/view/AKR20260912002000009",
@@ -138,6 +208,16 @@
       "sentiment": "neutral"
     },
     {
+      "title": "[속보]美 8월 CPI 전년 대비 3.4% 상승…\"예상치 부합\"",
+      "link": "https://www.mt.co.kr/world/2026/09/11/2026091121364351123",
+      "source": "머니투데이",
+      "ts": 1789130274000,
+      "pub": "Fri, 11 Sep 2026 21:37:54 +0900",
+      "sentiment": "neutral",
+      "desc": "11일....",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026091121364351123_1.jpg"
+    },
+    {
       "title": "3천㎞ 밖 러시아 가스시설 때린 우크라에 마냥 못 웃는 유럽",
       "link": "https://www.yna.co.kr/view/AKR20260911150200109",
       "source": "연합뉴스 국제",
@@ -236,16 +316,6 @@
       "sentiment": "neutral",
       "desc": "(도쿄=연합뉴스) 조성미 특파원 = 지난 9일 86세를 일기로 세상을 떠난 재일동포 야구인 장훈(일본 이름 하리모토 이사오)씨가 별세 나흘 전에...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/10/PYH2026091011990001300_P2.jpg"
-    },
-    {
-      "title": "인도 뉴델리서 12∼13일 브릭스 정상회의…시진핑·푸틴 등 집결",
-      "link": "https://www.yna.co.kr/view/AKR20260911065200104",
-      "source": "연합뉴스 국제",
-      "ts": 1789091421000,
-      "pub": "Fri, 11 Sep 2026 10:50:21 +0900",
-      "sentiment": "neutral",
-      "desc": "(자카르타=연합뉴스) 손현규 특파원 = 중국과 러시아가 주도하는 신흥경제국 모임인 브릭스(BRICS) 정상회의가 오는 12∼13일 인도에서 열린...",
-      "image": "https://img.yna.co.kr/photo/etc/ta/2026/09/11/PTA20260911023001009_P2.jpg"
     },
     {
       "title": "정부 \"견조한 경기회복세…전쟁·美관세 불확실성은 다소 확대\"(종합)",

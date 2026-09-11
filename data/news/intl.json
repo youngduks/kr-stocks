@@ -1,8 +1,112 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-11T11:55:06.254Z",
-  "count": 16,
+  "updated_at": "2026-09-11T15:25:47.371Z",
+  "count": 25,
   "items": [
+    {
+      "title": "이스라엘군, 하마스 '10·7 기습' 핵심 지휘관 사살",
+      "link": "https://www.yna.co.kr/view/AKR20260911171000099",
+      "source": "연합뉴스 국제",
+      "ts": 1789138091000,
+      "pub": "Fri, 11 Sep 2026 23:48:11 +0900",
+      "sentiment": "neutral",
+      "desc": "(요하네스버그=연합뉴스) 나확진 특파원 = 이스라엘군이 10일(현지시간) 가자지구를 공습해 팔레스타인 무장 정파 하마스의 고위 지휘관을 사살했다...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/11/PEP20260911251501009_P2.jpg"
+    },
+    {
+      "title": "3천㎞ 밖 러시아 가스시설 때린 우크라에 마냥 못 웃는 유럽(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260911150251109",
+      "source": "연합뉴스 국제",
+      "ts": 1789136304000,
+      "pub": "Fri, 11 Sep 2026 23:18:24 +0900",
+      "sentiment": "neutral",
+      "desc": "(로마=연합뉴스) 민경락 특파원 = 우크라이나가 국경에서 3천㎞ 떨어진 러시아 가스시설 공격에 성공했지만 유럽 지역의 가스 가격이 급등하면서 유...",
+      "image": "https://img.yna.co.kr/photo/etc/ta/2012/10/23/PTA20121023009301034_P2.jpg"
+    },
+    {
+      "title": "美 근원 CPI 예상 웃돌아…금리인상 확률 90% 육박",
+      "link": "https://www.hankyung.com/article/202609119853i",
+      "source": "한국경제",
+      "ts": 1789135805000,
+      "pub": "Fri, 11 Sep 2026 23:10:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, 유가 하락에 상승 출발…CPI 발표 후 금리인상 가능성↑",
+      "link": "https://www.hankyung.com/article/2026091199217",
+      "source": "한국경제",
+      "ts": 1789135372000,
+      "pub": "Fri, 11 Sep 2026 23:02:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕증시, CPI 소화하며 상승 출발",
+      "link": "https://www.yna.co.kr/view/AKR20260911170100009",
+      "source": "연합뉴스 국제",
+      "ts": 1789134636000,
+      "pub": "Fri, 11 Sep 2026 22:50:36 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 윤정원 연합인포맥스 기자 = 뉴욕증시의 3대 주가지수는 8월 소비자물가지수(CPI) 결과를 소화하며 상승 출발했다.",
+      "image": "https://img.yna.co.kr/photo/etc/gt/2026/09/10/PGT20260910001601009_P2.jpg"
+    },
+    {
+      "title": "푸틴 \"서방, 과거 주도권 되찾으려 온갖 수단 동원…추한 경쟁\"",
+      "link": "https://www.yna.co.kr/view/AKR20260911169300108",
+      "source": "연합뉴스 국제",
+      "ts": 1789134092000,
+      "pub": "Fri, 11 Sep 2026 22:41:32 +0900",
+      "sentiment": "neutral",
+      "desc": "(자카르타·이스탄불=연합뉴스) 손현규 김동호 특파원 = 신흥경제국 모임인 브릭스(BRICS) 정상회의 참석차 인도를 찾은 블라디미르 푸틴 러시아...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/11/PAP20260911207201009_P2.jpg"
+    },
+    {
+      "title": "\"하마스, 가자전쟁 2주년 맞춰 베를린·빈 테러 모의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260911168300082",
+      "source": "연합뉴스 국제",
+      "ts": 1789133304000,
+      "pub": "Fri, 11 Sep 2026 22:28:24 +0900",
+      "sentiment": "neutral",
+      "desc": "(베를린=연합뉴스) 김계연 특파원 = 팔레스타인 무장단체 하마스가 지난해 이스라엘과 가자지구 전쟁 발발 2주년을 맞아 유럽 유대인 공동체를 대상...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2025/10/14/PEP20251014010801009_P2.jpg"
+    },
+    {
+      "title": "리투아니아도 핵무기 금지 해제 속도…러 \"우리도 조준할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260911168100108",
+      "source": "연합뉴스 국제",
+      "ts": 1789133235000,
+      "pub": "Fri, 11 Sep 2026 22:27:15 +0900",
+      "sentiment": "neutral",
+      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 러시아에 인접한 유럽 '발트 3국' 중 하나인 리투아니아가 자국 내 핵무기 배치를 금지하는 헌법 조항의 ...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/09/PAF20260909042201009_P2.jpg"
+    },
+    {
+      "title": "브릭스 정상회의 앞두고 만난 푸틴·모디…경제·국방 협력 논의",
+      "link": "https://www.yna.co.kr/view/AKR20260911165500104",
+      "source": "연합뉴스 국제",
+      "ts": 1789132199000,
+      "pub": "Fri, 11 Sep 2026 22:09:59 +0900",
+      "sentiment": "neutral",
+      "desc": "(자카르타=연합뉴스) 손현규 특파원 = 신흥경제국 모임인 브릭스(BRICS) 정상회의 참석차 인도를 찾은 블라디미르 푸틴 러시아 대통령이 11일...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/11/AKR20260911165500104_01_i_P2.jpg"
+    },
+    {
+      "title": "[속보] 美 8월 근원 CPI, 컨센서스 웃돌아 금리 인상 가능성 커져",
+      "link": "https://www.hankyung.com/article/202609119887i",
+      "source": "한국경제",
+      "ts": 1789130791000,
+      "pub": "Fri, 11 Sep 2026 21:46:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]美 8월 CPI 전년 대비 3.4% 상승…\"예상치 부합\"",
+      "link": "https://www.mt.co.kr/world/2026/09/11/2026091121364351123",
+      "source": "머니투데이",
+      "ts": 1789130274000,
+      "pub": "Fri, 11 Sep 2026 21:37:54 +0900",
+      "sentiment": "neutral",
+      "desc": "11일....",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026091121364351123_1.jpg"
+    },
     {
       "title": "3천㎞ 밖 러시아 가스시설 때린 우크라에 마냥 못 웃는 유럽",
       "link": "https://www.yna.co.kr/view/AKR20260911150200109",
@@ -142,26 +246,6 @@
       "sentiment": "neutral",
       "desc": "(세종=연합뉴스) 이대희 기자 = 정부가 현재 한국 경제에 관해 \"견조한 경기회복 흐름이 이어지는 모습\"이라며 긍정적인 진단을 이어갔다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091104320001300_P2.jpg"
-    },
-    {
-      "title": "캐나다, 우크라에 3천400억원 규모 방공망 지원 패키지 합의",
-      "link": "https://www.yna.co.kr/view/AKR20260911012600072",
-      "source": "연합뉴스 국제",
-      "ts": 1789079513000,
-      "pub": "Fri, 11 Sep 2026 07:31:53 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 캐나다가 우크라이나의 방공 요격 미사일 확보를 위해 3억5천만 캐나다달러(약 3천417억원) 규모의 지원 패...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/11/PAF20260911042201009_P2.jpg"
-    },
-    {
-      "title": "카니 \"트럼프와 정기 통화…캐나다, 공정한 합의 준비돼있다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260911010700072",
-      "source": "연합뉴스 국제",
-      "ts": 1789077269000,
-      "pub": "Fri, 11 Sep 2026 06:54:29 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 미국과 캐나다 간의 무역전쟁이 고조된 가운데 마크 카니 캐나다 총리는 최근 며칠 사이에도 도널드 트럼프 미 ...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/09/11/PAP20260911057301009_P2.jpg"
     }
   ]
 }

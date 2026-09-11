@@ -1,8 +1,36 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-11T21:24:53.724Z",
+  "updated_at": "2026-09-11T23:38:50.611Z",
   "count": 34,
   "items": [
+    {
+      "title": "유가 하락·CPI 안도에 '숨통'…5일 만에 반등 [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026091200027",
+      "source": "한국경제",
+      "ts": 1789164754000,
+      "pub": "Sat, 12 Sep 2026 07:12:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 측근들도 헷갈리나…'1인당 5천달러' 재원 추측 제각각",
+      "link": "https://www.yna.co.kr/view/AKR20260912006800071",
+      "source": "연합뉴스 국제",
+      "ts": 1789162487000,
+      "pub": "Sat, 12 Sep 2026 06:34:47 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령이 11월 중간선거에서 공화당이 승리할 경우 1명당 5천달러(약 670만원)씩 나...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/12/PEP20260912031901009_P2.jpg"
+    },
+    {
+      "title": "뉴욕증시, 유가하락·CPI 안도에 5일만에 반등…다우 1%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260912005751072",
+      "source": "연합뉴스 국제",
+      "ts": 1789161757000,
+      "pub": "Sat, 12 Sep 2026 06:22:37 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 뉴욕증시가 11일(현지시간) 국제유가 하락과 예상치를 크게 벗어나지 않은 소비자물가지수(CPI) 발표에 5일...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/12/AKR20260912005751072_01_i_P2.jpg"
+    },
     {
       "title": "WSJ \"트럼프, 노골적 매표행위…관세철회가 美에 경제적 배당\"",
       "link": "https://www.yna.co.kr/view/AKR20260912005900072",
@@ -208,16 +236,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "[속보]美 8월 CPI 전년 대비 3.4% 상승…\"예상치 부합\"",
-      "link": "https://www.mt.co.kr/world/2026/09/11/2026091121364351123",
-      "source": "머니투데이",
-      "ts": 1789130274000,
-      "pub": "Fri, 11 Sep 2026 21:37:54 +0900",
-      "sentiment": "neutral",
-      "desc": "11일....",
-      "image": "https://thumb.mt.co.kr/06/2026/09/2026091121364351123_1.jpg"
-    },
-    {
       "title": "3천㎞ 밖 러시아 가스시설 때린 우크라에 마냥 못 웃는 유럽",
       "link": "https://www.yna.co.kr/view/AKR20260911150200109",
       "source": "연합뉴스 국제",
@@ -308,31 +326,11 @@
       "image": "https://www.youtube.com/embed/1WVYgi8Axag"
     },
     {
-      "title": "장훈, 별세 나흘 전에도 \"핵무기 반대\"…피폭 비극 널리 알린 삶",
-      "link": "https://www.yna.co.kr/view/AKR20260911064700073",
-      "source": "연합뉴스 국제",
-      "ts": 1789092411000,
-      "pub": "Fri, 11 Sep 2026 11:06:51 +0900",
-      "sentiment": "neutral",
-      "desc": "(도쿄=연합뉴스) 조성미 특파원 = 지난 9일 86세를 일기로 세상을 떠난 재일동포 야구인 장훈(일본 이름 하리모토 이사오)씨가 별세 나흘 전에...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/10/PYH2026091011990001300_P2.jpg"
-    },
-    {
       "title": "정부 \"견조한 경기회복세…전쟁·美관세 불확실성은 다소 확대\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260911041751002",
       "source": "연합뉴스 경제",
       "ts": 1789090753000,
       "pub": "Fri, 11 Sep 2026 10:39:13 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 이대희 기자 = 정부가 현재 한국 경제에 관해 \"견조한 경기회복 흐름이 이어지는 모습\"이라며 긍정적인 진단을 이어갔다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091104320001300_P2.jpg"
-    },
-    {
-      "title": "정부 \"견조한 경기회복세…전쟁·美관세 불확실성은 다소 확대\"",
-      "link": "https://www.yna.co.kr/view/AKR20260911041700002",
-      "source": "연합뉴스 경제",
-      "ts": 1789088401000,
-      "pub": "Fri, 11 Sep 2026 10:00:01 +0900",
       "sentiment": "neutral",
       "desc": "(세종=연합뉴스) 이대희 기자 = 정부가 현재 한국 경제에 관해 \"견조한 경기회복 흐름이 이어지는 모습\"이라며 긍정적인 진단을 이어갔다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091104320001300_P2.jpg"

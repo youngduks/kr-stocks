@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-11T23:38:50.613Z",
-  "count": 7,
+  "updated_at": "2026-09-12T01:56:56.671Z",
+  "count": 9,
   "items": [
+    {
+      "title": "'웃돈 5배 줘도 못 구한다'…삼전닉스에 목줄 잡힌 中 [강경주의 테크X]",
+      "link": "https://www.hankyung.com/article/2026091194276",
+      "source": "한국경제",
+      "ts": 1789173001000,
+      "pub": "Sat, 12 Sep 2026 09:30:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"사장님, AI가 일 다 하는데요?\"…삼전닉스 '행복한 비명' [홍민성의 테토남]",
+      "link": "https://www.hankyung.com/article/202609118801g",
+      "source": "한국경제",
+      "ts": 1789171208000,
+      "pub": "Sat, 12 Sep 2026 09:00:08 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "딥시크, '메모리 킬러' 초저가 신모델 공개…HBM 둔화 우려",
       "link": "https://www.yna.co.kr/view/AKR20260911108000009",

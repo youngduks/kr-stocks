@@ -1,8 +1,26 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-11T23:38:50.611Z",
+  "updated_at": "2026-09-12T01:56:56.670Z",
   "count": 34,
   "items": [
+    {
+      "title": "푸틴 \"유럽 가스값 1천㎥당 1천500달러 넘어갈 수도\" 경고",
+      "link": "https://www.yna.co.kr/view/AKR20260912015600009",
+      "source": "연합뉴스 국제",
+      "ts": 1789172752000,
+      "pub": "Sat, 12 Sep 2026 09:25:52 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 곽민서 기자 = 블라디미르 푸틴 러시아 대통령은 11일(현지시간) 겨울철을 앞둔 유럽 가스 가격이 더욱 치솟을 수 있다고 말했...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/12/PAP20260912135801009_P2.jpg"
+    },
+    {
+      "title": "높은 CPI, 확정된 인상…뉴욕 증시 뛴 이유는 \"비둘기파적 인상(한두 번)\" [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202609129994i",
+      "source": "한국경제",
+      "ts": 1789168516000,
+      "pub": "Sat, 12 Sep 2026 08:15:16 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "유가 하락·CPI 안도에 '숨통'…5일 만에 반등 [뉴욕증시 브리핑]",
       "link": "https://www.hankyung.com/article/2026091200027",
@@ -29,7 +47,7 @@
       "pub": "Sat, 12 Sep 2026 06:22:37 +0900",
       "sentiment": "neutral",
       "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 뉴욕증시가 11일(현지시간) 국제유가 하락과 예상치를 크게 벗어나지 않은 소비자물가지수(CPI) 발표에 5일...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/12/AKR20260912005751072_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/reuters/2026/08/25/PRU20260825004301009_P2.jpg"
     },
     {
       "title": "WSJ \"트럼프, 노골적 매표행위…관세철회가 美에 경제적 배당\"",
@@ -49,7 +67,7 @@
       "pub": "Sat, 12 Sep 2026 05:36:13 +0900",
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 11일(현지시간) '미국 성인 1인당 5천달러(약 671만원) 배당금 지급' ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/12/AKR20260912005500071_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/reuters/2026/09/10/PRU20260910366901009_P2.jpg"
     },
     {
       "title": "FOMC 코앞 확인된 끈적한 美물가…9월 금리인상 확률 86%까지 쑥(종합)",
@@ -228,14 +246,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/11/AKR20260911165500104_01_i_P2.jpg"
     },
     {
-      "title": "[속보] 美 8월 근원 CPI, 컨센서스 웃돌아 금리 인상 가능성 커져",
-      "link": "https://www.hankyung.com/article/202609119887i",
-      "source": "한국경제",
-      "ts": 1789130791000,
-      "pub": "Fri, 11 Sep 2026 21:46:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "3천㎞ 밖 러시아 가스시설 때린 우크라에 마냥 못 웃는 유럽",
       "link": "https://www.yna.co.kr/view/AKR20260911150200109",
       "source": "연합뉴스 국제",
@@ -314,16 +324,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령은 10일(현지시간) 공화당이 11월 중간선거에서 승리하면 미국 성인 시민들에게 ...",
       "image": "https://img.yna.co.kr/photo/etc/af/2026/09/10/PAF20260910266901009_P2.jpg"
-    },
-    {
-      "title": "[영상] 이스라엘, 레바논 '헤즈볼라 펜타곤' 폭파…\"폭탄 1천t 사용\"",
-      "link": "https://www.yna.co.kr/view/AKR20260911077200704",
-      "source": "연합뉴스 국제",
-      "ts": 1789094318000,
-      "pub": "Fri, 11 Sep 2026 11:38:38 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 불꽃이 번쩍하더니 거대한 화염이 한꺼번에 피어오릅니다.",
-      "image": "https://www.youtube.com/embed/1WVYgi8Axag"
     },
     {
       "title": "정부 \"견조한 경기회복세…전쟁·美관세 불확실성은 다소 확대\"(종합)",

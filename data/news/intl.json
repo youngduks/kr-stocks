@@ -1,8 +1,16 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-12T21:47:09.128Z",
-  "count": 38,
+  "updated_at": "2026-09-12T23:31:38.552Z",
+  "count": 34,
   "items": [
+    {
+      "title": "중국車 막던 트럼프 말에 업계 술렁…\"미국서 만들면 거부 안 해\"",
+      "link": "https://www.hankyung.com/article/202609120482H",
+      "source": "한국경제",
+      "ts": 1789250401000,
+      "pub": "Sun, 13 Sep 2026 07:00:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "유가 등 중동 악재에 눌린 코스피, 美 FOMC 금리결정 주시",
       "link": "https://www.yna.co.kr/view/AKR20260912001200008",
@@ -160,14 +168,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김승욱 기자 = 도널드 트럼프 행정부가 이란전 여파로 기름값 폭등에 대응하기 위해 국방물자생산법(DPA)을 발동해 미국 내 정...",
       "image": "https://img.yna.co.kr/photo/etc/gt/2026/09/12/PGT20260912135101009_P2.jpg"
-    },
-    {
-      "title": "CPI도 뜨거웠다…'빅위크'의 시작 [다음주 주요 변수 미리 보기]",
-      "link": "https://www.hankyung.com/article/202609120138i",
-      "source": "한국경제",
-      "ts": 1789178402000,
-      "pub": "Sat, 12 Sep 2026 11:00:02 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "푸틴 \"유럽 가스값 1천㎥당 1천500달러 넘어갈 수도\" 경고",
@@ -338,46 +338,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 윤정원 연합인포맥스 기자 = 뉴욕증시의 3대 주가지수는 8월 소비자물가지수(CPI) 결과를 소화하며 상승 출발했다.",
       "image": "https://img.yna.co.kr/photo/etc/gt/2026/09/10/PGT20260910001601009_P2.jpg"
-    },
-    {
-      "title": "푸틴 \"서방, 과거 주도권 되찾으려 온갖 수단 동원…추한 경쟁\"",
-      "link": "https://www.yna.co.kr/view/AKR20260911169300108",
-      "source": "연합뉴스 국제",
-      "ts": 1789134092000,
-      "pub": "Fri, 11 Sep 2026 22:41:32 +0900",
-      "sentiment": "neutral",
-      "desc": "(자카르타·이스탄불=연합뉴스) 손현규 김동호 특파원 = 신흥경제국 모임인 브릭스(BRICS) 정상회의 참석차 인도를 찾은 블라디미르 푸틴 러시아...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/09/11/PAP20260911207201009_P2.jpg"
-    },
-    {
-      "title": "\"하마스, 가자전쟁 2주년 맞춰 베를린·빈 테러 모의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260911168300082",
-      "source": "연합뉴스 국제",
-      "ts": 1789133304000,
-      "pub": "Fri, 11 Sep 2026 22:28:24 +0900",
-      "sentiment": "neutral",
-      "desc": "(베를린=연합뉴스) 김계연 특파원 = 팔레스타인 무장단체 하마스가 지난해 이스라엘과 가자지구 전쟁 발발 2주년을 맞아 유럽 유대인 공동체를 대상...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2025/10/14/PEP20251014010801009_P2.jpg"
-    },
-    {
-      "title": "리투아니아도 핵무기 금지 해제 속도…러 \"우리도 조준할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260911168100108",
-      "source": "연합뉴스 국제",
-      "ts": 1789133235000,
-      "pub": "Fri, 11 Sep 2026 22:27:15 +0900",
-      "sentiment": "neutral",
-      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 러시아에 인접한 유럽 '발트 3국' 중 하나인 리투아니아가 자국 내 핵무기 배치를 금지하는 헌법 조항의 ...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/09/PAF20260909042201009_P2.jpg"
-    },
-    {
-      "title": "브릭스 정상회의 앞두고 만난 푸틴·모디…경제·국방 협력 논의",
-      "link": "https://www.yna.co.kr/view/AKR20260911165500104",
-      "source": "연합뉴스 국제",
-      "ts": 1789132199000,
-      "pub": "Fri, 11 Sep 2026 22:09:59 +0900",
-      "sentiment": "neutral",
-      "desc": "(자카르타=연합뉴스) 손현규 특파원 = 신흥경제국 모임인 브릭스(BRICS) 정상회의 참석차 인도를 찾은 블라디미르 푸틴 러시아 대통령이 11일...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/11/AKR20260911165500104_01_i_P2.jpg"
     }
   ]
 }

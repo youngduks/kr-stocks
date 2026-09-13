@@ -1,8 +1,36 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-13T01:49:51.371Z",
-  "count": 6,
+  "updated_at": "2026-09-13T06:55:16.415Z",
+  "count": 9,
   "items": [
+    {
+      "title": "고액자산가들의 선택은 삼성전자우...\"메모리 주도권 유지할 것\"",
+      "link": "https://www.hankyung.com/article/202609131138i",
+      "source": "한국경제",
+      "ts": 1789279733000,
+      "pub": "Sun, 13 Sep 2026 15:08:53 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "성과급 등 대기업 노사갈등 예방교육 강화…삼성전자 등 참여",
+      "link": "https://www.yna.co.kr/view/AKR20260911141400530",
+      "source": "연합뉴스 경제",
+      "ts": 1789268405000,
+      "pub": "Sun, 13 Sep 2026 12:00:05 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 옥성구 기자 = 한국고용노동교육원은 최근 '영업이익 N% 성과급' 등 대규모 민간사업장에서 발생하고 있는 노사 갈등을 예방하기...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/11/AKR20260911141400530_01_i_P2.jpg"
+    },
+    {
+      "title": "집안으로 들어온 인공지능…삼성전자, AI가전으로 중남미 공략",
+      "link": "https://www.yna.co.kr/view/AKR20260913024400087",
+      "source": "연합뉴스 국제",
+      "ts": 1789266023000,
+      "pub": "Sun, 13 Sep 2026 11:20:23 +0900",
+      "sentiment": "neutral",
+      "desc": "(멕시코시티=연합뉴스) 송광호 특파원 = 삼성전자가 인공지능(AI) 기술을 집약한 가전 라인업을 선보이며 라틴아메리카 시장 공략에 나섰다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/13/AKR20260913024400087_02_i_P2.jpg"
+    },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",
       "link": "https://finance.naver.com/item/news_notice_read.naver?no=111004140&code=005930&page_notice=",

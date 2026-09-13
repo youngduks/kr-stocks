@@ -1,8 +1,42 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-12T23:31:38.554Z",
-  "count": 13,
+  "updated_at": "2026-09-13T01:49:51.372Z",
+  "count": 16,
   "items": [
+    {
+      "title": "용인시, 내달 14일 일자리박람회…'반도체관' 별도 운영",
+      "link": "https://www.yna.co.kr/view/AKR20260911055000061",
+      "source": "연합뉴스 경제",
+      "ts": 1789261261000,
+      "pub": "Sun, 13 Sep 2026 10:01:01 +0900",
+      "sentiment": "neutral",
+      "desc": "(용인=연합뉴스) 김광호 기자 = 경기 용인시는 다음 달 14일 오후 2시부터 5시까지 미르스타디움 2층 데크광장에서 올 하반기 일자리박람회를 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/11/AKR20260911055000061_01_i_P2.jpg"
+    },
+    {
+      "title": "\"증설 전에 가격협상부터\"...반도체 기업 줄세우는 이 회사",
+      "link": "https://www.hankyung.com/article/202609119411i",
+      "source": "한국경제",
+      "ts": 1789257618000,
+      "pub": "Sun, 13 Sep 2026 09:00:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"서두르면 어정쩡한 L2++만\"…엔비디아로 먼저 가는 현대차 속내 [현장+]",
+      "link": "https://www.hankyung.com/article/202609119251g",
+      "source": "한국경제",
+      "ts": 1789257603000,
+      "pub": "Sun, 13 Sep 2026 09:00:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "후지쓰, AI 반도체 美·아시아 공략…TSMC가 생산",
+      "link": "https://www.hankyung.com/article/202609130762i",
+      "source": "한국경제",
+      "ts": 1789257467000,
+      "pub": "Sun, 13 Sep 2026 08:57:47 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "1200만원짜리 취업코칭·하이닉스 대비반도…구직 청년들 '한숨'",
       "link": "https://www.yna.co.kr/view/AKR20260912039600004",
@@ -14,12 +48,12 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/12/AKR20260912039600004_03_i_P2.jpg"
     },
     {
-      "title": "\"한 달 -67%\" 아셴브레너의 귀환…SK하이닉스·AMD에 다시 베팅 [김주완의 글로벌 머니 X파일]",
+      "title": "\"67% 폭락에도 또?\"…'AI 천재'가 SK하이닉스 다시 찍은 이유 [김주완의 글로벌 머니 X파일]",
       "link": "https://www.hankyung.com/article/202609120496i",
       "source": "한국경제",
       "ts": 1789250404000,
       "pub": "Sun, 13 Sep 2026 07:00:04 +0900",
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "title": "환율 급락에 반도체 이익 전망도 하락…두달 새 21조 증발",
@@ -30,16 +64,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 조성흠 기자 = 1천500원을 훌쩍 넘던 원/달러 환율이 불과 두 달 만에 1천340원대로 급락하면서 우리나라 반도체 기업들의...",
       "image": "https://img.yna.co.kr/photo/cms/2026/02/04/84/PCM20260204000084990_P2.jpg"
-    },
-    {
-      "title": "중국 AI칩 시장, 엔비디아 빈자리 채우는 화웨이·GPU 4소룡",
-      "link": "https://www.mt.co.kr/world/2026/09/13/2026091110370863114",
-      "source": "머니투데이",
-      "ts": 1789246800000,
-      "pub": "Sun, 13 Sep 2026 06:00:00 +0900",
-      "sentiment": "neutral",
-      "desc": "[선데이모닝인사이트] 중국 AI칩 경쟁 트럼프 2기 출범, AI의 발달, 기후변화 등 글로벌 사회의 불확실성이 커졌습니다. 선데이모닝인사이트는 매주 일요일 오전, 깊이 있는 시각과 예리한 분석으로 불확실성 커진 세상을 헤쳐나갈 지혜를 전달합니다. 미국이 중국에 고성능 ",
-      "image": "https://thumb.mt.co.kr/06/2026/09/2026091110370863114_1.jpg"
     },
     {
       "title": "키움증권 미 자회사, 현지서 국내 반도체 ETF 상장",

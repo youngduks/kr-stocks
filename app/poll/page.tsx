@@ -1,5 +1,6 @@
 import { fetchAllPrices } from "@/lib/fetchPrices";
 import { getPollHistory, type EnrichedPollHistory } from "@/lib/pollHistory";
+import { getHumanIndicators, STANCE_LABEL } from "@/lib/humanIndicators";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { PollWidget } from "@/components/PollWidget";
@@ -109,9 +110,47 @@ function HistoryCard({ p }: { p: EnrichedPollHistory }) {
   );
 }
 
+function PersonCard({ person }: { person: ReturnType<typeof getHumanIndicators>[number] }) {
+  const latest = person.opinions[0];
+  if (!latest) return null;
+  const stance = STANCE_LABEL[latest.stance];
+
+  return (
+    <div className="rounded-xl bg-bg-card border border-line p-4">
+      <div className="flex items-start justify-between gap-3 flex-wrap mb-1">
+        <div>
+          <span className="text-base font-bold text-text">{person.name}</span>
+          <span className="text-xs text-text-dim ml-2">{person.channel}</span>
+        </div>
+        <span className={`text-[11px] font-bold px-2 py-0.5 rounded-full bg-bg ${stance.color}`}>
+          {stance.ko}
+        </span>
+      </div>
+      <p className="text-[11px] text-text-dim italic mb-3">{person.tagline}</p>
+
+      <div className="border-t border-line pt-3">
+        <div className="flex items-baseline justify-between gap-2 mb-1">
+          <span className="text-xs text-text-dim">{latest.date}</span>
+        </div>
+        <div className="text-sm font-semibold text-text mb-1">{latest.title}</div>
+        <p className="text-xs text-text-muted leading-relaxed mb-2">{latest.summary}</p>
+        <a
+          href={latest.video_url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xs text-accent-blue hover:underline"
+        >
+          원본 영상 보기 →
+        </a>
+      </div>
+    </div>
+  );
+}
+
 export default async function PollPage() {
   const prices = await fetchAllPrices();
   const { polls, resolvedCount, correctCount, hitRate } = getPollHistory();
+  const people = getHumanIndicators();
 
   return (
     <>
@@ -144,9 +183,9 @@ export default async function PollPage() {
 
         <h2 className="text-lg font-bold text-text mb-3">지금 투표하기</h2>
         <PollWidget
-          pollId="market-updown-2026-06-18"
+          pollId="market-updown-2026-09-14"
           title="인간지표 — 내일 상승 vs 하락"
-          question="6/18(목) 한국 증시, 오를까요 내릴까요?"
+          question="9/14(월) 한국 증시, 오를까요 내릴까요?"
           yesLabel="📈 상승"
           noLabel="📉 하락"
         />
@@ -162,6 +201,21 @@ export default async function PollPage() {
               <HistoryCard key={p.pollId} p={p} />
             ))}
           </div>
+        )}
+
+        {people.length > 0 && (
+          <>
+            <h2 className="text-lg font-bold text-text mb-1 mt-8">🎯 인물 지표 (번외)</h2>
+            <p className="text-xs text-text-dim mb-3">
+              특정 인물의 시장 발언을 역발상 참고용으로 기록합니다 — 실제로 존재하는 별명·평판을
+              근거로 소개하며, 조롱이 목적은 아닙니다.
+            </p>
+            <div className="space-y-3">
+              {people.map((p) => (
+                <PersonCard key={p.id} person={p} />
+              ))}
+            </div>
+          </>
         )}
 
         <div className="mt-8 p-4 rounded-xl bg-bg-card border border-line text-xs text-text-dim leading-relaxed">

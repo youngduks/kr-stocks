@@ -317,6 +317,24 @@ async function main() {
   fs.writeFileSync(pagePath, pageContent, "utf8");
   console.log(`[update-poll] page.tsx 업데이트 완료: pollId=${nextId}, question=${newQuestion}`);
 
+  // ── 6. app/poll/page.tsx 업데이트 ────────────────────────────────────
+  // 예전엔 여기를 빼먹어서 /poll 페이지의 투표위젯이 6/18에 멈춰있었음(2026-09-13 발견).
+  // 홈(app/page.tsx)과 동일한 두 정규식을 그대로 적용.
+  const pollPagePath = path.join(ROOT, "app/poll/page.tsx");
+  let pollPageContent = fs.readFileSync(pollPagePath, "utf8");
+
+  pollPageContent = pollPageContent.replace(
+    /pollId="market-updown-\d{4}-\d{2}-\d{2}"/,
+    `pollId="${nextId}"`
+  );
+  pollPageContent = pollPageContent.replace(
+    /question="[^"]*한국 증시, 오를까요 내릴까요\?"/,
+    `question="${newQuestion}"`
+  );
+
+  fs.writeFileSync(pollPagePath, pollPageContent, "utf8");
+  console.log(`[update-poll] app/poll/page.tsx 업데이트 완료: pollId=${nextId}`);
+
   console.log("[update-poll] 완료.");
 }
 

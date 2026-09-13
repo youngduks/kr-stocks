@@ -1,14 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-13T06:55:16.415Z",
-  "count": 9,
+  "updated_at": "2026-09-13T12:25:14.919Z",
+  "count": 10,
   "items": [
     {
-      "title": "고액자산가들의 선택은 삼성전자우...\"메모리 주도권 유지할 것\"",
-      "link": "https://www.hankyung.com/article/202609131138i",
+      "title": "\"삼전닉스 취업 사관학교 될 것\"…서울반도체고, 즉시전력 키운다",
+      "link": "https://www.hankyung.com/article/2026091313371",
       "source": "한국경제",
-      "ts": 1789279733000,
-      "pub": "Sun, 13 Sep 2026 15:08:53 +0900",
+      "ts": 1789295500000,
+      "pub": "Sun, 13 Sep 2026 19:31:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "에쓰오일·KB금융·삼전우…외국인 지분율 가장 높아",
+      "link": "https://www.hankyung.com/article/2026091313141",
+      "source": "한국경제",
+      "ts": 1789294626000,
+      "pub": "Sun, 13 Sep 2026 19:17:06 +0900",
       "sentiment": "neutral"
     },
     {

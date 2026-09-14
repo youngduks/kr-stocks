@@ -167,6 +167,21 @@ export default async function PollPage() {
           </div>
         </section>
 
+        {people.length > 0 && (
+          <>
+            <h2 className="text-lg font-bold text-text mb-1">🎯 인물 지표 (번외)</h2>
+            <p className="text-xs text-text-dim mb-3">
+              특정 인물의 시장 발언을 역발상 참고용으로 기록합니다 — 실제로 존재하는 별명·평판을
+              근거로 소개하며, 조롱이 목적은 아닙니다.
+            </p>
+            <div className="space-y-3 mb-6">
+              {people.map((p) => (
+                <PersonCard key={p.id} person={p} />
+              ))}
+            </div>
+          </>
+        )}
+
         {hitRate !== null && (
           <div className="mb-6 rounded-xl bg-bg-card border border-line p-4 flex items-center justify-between gap-3">
             <div className="text-sm text-text-muted">
@@ -201,21 +216,6 @@ export default async function PollPage() {
               <HistoryCard key={p.pollId} p={p} />
             ))}
           </div>
-        )}
-
-        {people.length > 0 && (
-          <>
-            <h2 className="text-lg font-bold text-text mb-1 mt-8">🎯 인물 지표 (번외)</h2>
-            <p className="text-xs text-text-dim mb-3">
-              특정 인물의 시장 발언을 역발상 참고용으로 기록합니다 — 실제로 존재하는 별명·평판을
-              근거로 소개하며, 조롱이 목적은 아닙니다.
-            </p>
-            <div className="space-y-3">
-              {people.map((p) => (
-                <PersonCard key={p.id} person={p} />
-              ))}
-            </div>
-          </>
         )}
 
         <div className="mt-8 p-4 rounded-xl bg-bg-card border border-line text-xs text-text-dim leading-relaxed">

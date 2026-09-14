@@ -1,8 +1,122 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-14T08:12:44.712Z",
-  "count": 22,
+  "updated_at": "2026-09-14T15:21:29.303Z",
+  "count": 23,
   "items": [
+    {
+      "title": "트럼프 \"AI·데이터센터에 대한 역겨운 음모…中만 기뻐할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260914175500071",
+      "source": "연합뉴스 국제",
+      "ts": 1789396517000,
+      "pub": "Mon, 14 Sep 2026 23:35:17 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 14일(현지시간) 인공지능(AI) 업계에서 급부상하는 '속도조절론'을 음모론이...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/14/AKR20260914175500071_01_i_P2.jpg"
+    },
+    {
+      "title": "[속보] 트럼프 \"AI에 대한 역겨운 음모…中만 기뻐할 것\"",
+      "link": "https://www.hankyung.com/article/2026091442867",
+      "source": "한국경제",
+      "ts": 1789395073000,
+      "pub": "Mon, 14 Sep 2026 23:11:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"AI에 대한 역겨운 음모…中만 기뻐할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260914174700071",
+      "source": "연합뉴스 국제",
+      "ts": 1789394800000,
+      "pub": "Mon, 14 Sep 2026 23:06:40 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/14/PAF20260914201001009_P2.jpg"
+    },
+    {
+      "title": "16일 FOMC 향방…최근 경제 지표는 인상 시사",
+      "link": "https://www.hankyung.com/article/202609144246i",
+      "source": "한국경제",
+      "ts": 1789391809000,
+      "pub": "Mon, 14 Sep 2026 22:16:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "러시아 스파이, 독일 외교가 침투…우크라인 사업가 기소",
+      "link": "https://www.yna.co.kr/view/AKR20260914169700082",
+      "source": "연합뉴스 국제",
+      "ts": 1789386801000,
+      "pub": "Mon, 14 Sep 2026 20:53:21 +0900",
+      "sentiment": "negative",
+      "desc": "(베를린=연합뉴스) 김계연 특파원 = 독일 외교가와 국방부에 침투해 첩보를 수집한 우크라이나계 여성 사업가가 스파이 혐의로 재판에 넘겨졌다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/14/AKR20260914169700082_01_i_P2.jpg"
+    },
+    {
+      "title": "AI 인류 위협론에도 트럼프·시진핑은 '기술패권 올인'",
+      "link": "https://www.yna.co.kr/view/AKR20260914164100009",
+      "source": "연합뉴스 국제",
+      "ts": 1789380838000,
+      "pub": "Mon, 14 Sep 2026 19:13:58 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김승욱 기자 = 인공지능(AI)의 급속한 발전이 인류 존립을 위협한다는 우려에도 미국과 중국 정상은 주도권에만 눈독을 들이고 ...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/08/26/PAP20260826084401009_P2.jpg"
+    },
+    {
+      "title": "우상호 \"강원 원주에 우크라이나 드론기업 유치할 것\"",
+      "link": "https://www.hankyung.com/article/2026091438781",
+      "source": "한국경제",
+      "ts": 1789379889000,
+      "pub": "Mon, 14 Sep 2026 18:58:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "에르도안, 시리아 간다…이스라엘 견제 속 밀착",
+      "link": "https://www.yna.co.kr/view/AKR20260914155800108",
+      "source": "연합뉴스 국제",
+      "ts": 1789377396000,
+      "pub": "Mon, 14 Sep 2026 18:16:36 +0900",
+      "sentiment": "neutral",
+      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 레제프 타이이프 에르도안 튀르키예 대통령이 조만간 시리아를 방문할 계획이라고 하칸 피단 튀르키예 외무장관...",
+      "image": "https://img.yna.co.kr/photo/ap/2025/05/28/PAP20250528173501009_P2.jpg"
+    },
+    {
+      "title": "중국 수출 폭주에 '자동차 운반선' 동났다..車 150만대가 컨테이너로",
+      "link": "https://www.mt.co.kr/industry/2026/09/14/2026091413082386978",
+      "source": "머니투데이",
+      "ts": 1789377000000,
+      "pub": "Mon, 14 Sep 2026 18:10:00 +0900",
+      "sentiment": "neutral",
+      "desc": "BYD도 \"선박 부족에 판매 제약\"…자체 선대 확대 현대글로비스, 비계열 물량 비중 이미 53% 육박 중국 자동차 업체들의 수출이 급증하면서 자동차운반선(PCTC) 품귀 현상이 심화되고 있다. 신조선(새로 만든 배) 투입으로 선박 공급이 늘고 있지만 중국차가 해외로 밀",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026091413082386978_1.jpg"
+    },
+    {
+      "title": "트럼프 '아일랜드 통일' 발언 속 켈트 독립 회의?",
+      "link": "https://www.yna.co.kr/view/AKR20260914149100085",
+      "source": "연합뉴스 국제",
+      "ts": 1789376683000,
+      "pub": "Mon, 14 Sep 2026 18:04:43 +0900",
+      "sentiment": "neutral",
+      "desc": "(런던=연합뉴스) 김지연 특파원 = 웨일스와 스코틀랜드, 북아일랜드 자치정부 수반이 14일(현지시간) 만나 영국으로부터 독립을 추진할 권한을 재...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/14/AKR20260914149100085_01_i_P2.jpg"
+    },
+    {
+      "title": "전쟁 와중에…서로 칼 겨누는 우크라 검찰·반부패국",
+      "link": "https://www.yna.co.kr/view/AKR20260914143800109",
+      "source": "연합뉴스 국제",
+      "ts": 1789374674000,
+      "pub": "Mon, 14 Sep 2026 17:31:14 +0900",
+      "sentiment": "neutral",
+      "desc": "(로마=연합뉴스) 민경락 특파원 = 우크라이나의 양대 사정기관인 검찰과 국가반부패국(NABU)이 서로 수사의 칼날을 겨누면서 전쟁 와중에 권력기...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/09/08/PRU20260908118101009_P2.jpg"
+    },
+    {
+      "title": "[쇼츠] 누가 이겼나?…우크라-러시아 무인정 '최초의 해전'",
+      "link": "https://www.yna.co.kr/view/AKR20260914150300704",
+      "source": "연합뉴스 국제",
+      "ts": 1789373805000,
+      "pub": "Mon, 14 Sep 2026 17:16:45 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 우크라이나와 러시아의 무인수상정 간 벌어진 역사상 최초의 흑해 해상 전투에서 러시아 무인정이 격침됐다고 우크라이나 해군이 13...",
+      "image": "https://www.youtube.com/embed/3EJunbLT73I"
+    },
     {
       "title": "日 중의원 의장, 우크라 전격 방문…전쟁 발발 후 처음",
       "link": "https://www.yna.co.kr/view/AKR20260914143400073",
@@ -104,16 +218,6 @@
       "image": "https://img.yna.co.kr/photo/etc/up/2026/08/29/PUP20260829004401009_P2.jpg"
     },
     {
-      "title": "'가스 압력 자동 조절' 반도체 장비 무관세 적용",
-      "link": "https://www.yna.co.kr/view/AKR20260914047500002",
-      "source": "연합뉴스 경제",
-      "ts": 1789349042000,
-      "pub": "Mon, 14 Sep 2026 10:24:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 안채원 기자 = 가스 압력을 자동으로 조정하는 반도체 장비에 관세가 면제된다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/14/AKR20260914047500002_01_i_P2.jpg"
-    },
-    {
       "title": "미 하원의장 \"트럼프 5천달러 배당금, 의회 승인 필요\"",
       "link": "https://www.yna.co.kr/view/AKR20260914043900009",
       "source": "연합뉴스 국제",
@@ -122,106 +226,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 이지헌 기자 = 도널드 트럼프 미국 대통령이 11월 중간선거에서 공화당 승리 시 1인당 5천달러(약 670만원)를 지급하겠다고...",
       "image": "https://img.yna.co.kr/photo/etc/up/2026/09/02/PUP20260902006301009_P2.jpg"
-    },
-    {
-      "title": "트럼프, 아이리시오픈 우승컵 직접 전달…골프대회도 정치쇼로",
-      "link": "https://www.yna.co.kr/view/AKR20260914033800009",
-      "source": "연합뉴스 국제",
-      "ts": 1789346285000,
-      "pub": "Mon, 14 Sep 2026 09:38:05 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 차대운 기자 = 도널드 트럼프 미국 대통령이 13일(현지시간) 아일랜드의 본인 소유 골프장에서 열린 아이리시 오픈 우승자에게 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/14/AKR20260914033800009_01_i_P2.jpg"
-    },
-    {
-      "title": "캐나다, 美 등돌리고 EU 밀착…'우크라 대출 지원'에 동참 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260914025900009",
-      "source": "연합뉴스 국제",
-      "ts": 1789345756000,
-      "pub": "Mon, 14 Sep 2026 09:29:16 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이신영 기자 = 캐나다가 최근 미국과 사이가 틀어져 유럽연합(EU)으로 밀착 행보를 이어가는 와중에 이번엔 우크라이나에 대한 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/14/AKR20260914025900009_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"연준 금리 안내리면 몇몇 나라와 무역중단\" 또 위협",
-      "link": "https://www.yna.co.kr/view/AKR20260914010300071",
-      "source": "연합뉴스 국제",
-      "ts": 1789339772000,
-      "pub": "Mon, 14 Sep 2026 07:49:32 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 13일(현지시간) 미 중앙은행인 연방준비제도(Fed·연준)가 금리를 내리지 않...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/09/14/PAP20260914133101009_P2.jpg"
-    },
-    {
-      "title": "해리스 美 전 부통령 자택에 무단침입 시도…체포 없이 훈방",
-      "link": "https://www.yna.co.kr/view/AKR20260914006800075",
-      "source": "연합뉴스 국제",
-      "ts": 1789336301000,
-      "pub": "Mon, 14 Sep 2026 06:51:41 +0900",
-      "sentiment": "neutral",
-      "desc": "(로스앤젤레스=연합뉴스) 김경윤 특파원 = 카멀라 해리스 전 미국 부통령의 자택에 괴한이 무단침입을 시도한 사실이 확인됐다.",
-      "image": "https://img.yna.co.kr/photo/ap/2026/09/13/PAP20260913222001009_P2.jpg"
-    },
-    {
-      "title": "'AI 속도조절론' 못마땅한 트럼프…中 추격 속 '죄수의 딜레마'(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260914001651071",
-      "source": "연합뉴스 국제",
-      "ts": 1789335960000,
-      "pub": "Mon, 14 Sep 2026 06:46:00 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 인공지능(AI) 기술이 통제 불능으로 치달을 수 있다는 우려가 고조되면서 속도조절론이 부상하고 있으나 도널...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/07/28/PAP20260728113501009_P2.jpg"
-    },
-    {
-      "title": "아일랜드 방문한 트럼프 \"아일랜드 위스키 관세 철회하겠다\"",
-      "link": "https://www.yna.co.kr/view/AKR20260914002300071",
-      "source": "연합뉴스 국제",
-      "ts": 1789324605000,
-      "pub": "Mon, 14 Sep 2026 03:36:45 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 13일(현지시간) 미국으로 수입되는 아일랜드 위스키에 부과해온 관세를 철회하겠...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/14/AKR20260914002300071_01_i_P2.jpg"
-    },
-    {
-      "title": "'AI 속도조절론' 못마땅한 트럼프…中 추격 속 '죄수의 딜레마'",
-      "link": "https://www.yna.co.kr/view/AKR20260914001600071",
-      "source": "연합뉴스 국제",
-      "ts": 1789319146000,
-      "pub": "Mon, 14 Sep 2026 02:05:46 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 인공지능(AI) 기술이 통제 불능으로 치달을 수 있다는 우려가 고조되면서 속도조절론이 부상하고 있으나 도널...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/07/28/PAP20260728113501009_P2.jpg"
-    },
-    {
-      "title": "트럼프, AI 속도조절론에 \"부정적 세력…AI경쟁 승리방식 유지\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260913060851071",
-      "source": "연합뉴스 국제",
-      "ts": 1789318417000,
-      "pub": "Mon, 14 Sep 2026 01:53:37 +0900",
-      "sentiment": "negative",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 13일(현지시간) 인공지능(AI) '속도조절론'과 관련, \"솔직히 말해 AI(...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/14/PRU20260914091701009_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"美, 연준 공식과 상관 없이 세계 최저금리 적용받아야\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260913061851071",
-      "source": "연합뉴스 국제",
-      "ts": 1789315757000,
-      "pub": "Mon, 14 Sep 2026 01:09:17 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 13일(현지시간) 이란 전쟁이 \"중간선거 직후, 어쩌면 그 전에, 끝날 것\"이...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/13/PEP20260913202201009_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"젤렌스키, 러시아 경유 시설 공격 멈춰라\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260913060751098",
-      "source": "연합뉴스 국제",
-      "ts": 1789314351000,
-      "pub": "Mon, 14 Sep 2026 00:45:51 +0900",
-      "sentiment": "neutral",
-      "desc": "(브뤼셀=연합뉴스) 현윤경 특파원 = 중간선거를 앞두고 경유 가격 급등이라는 대형 악재를 만난 도널드 트럼프 미국 대통령이 러시아 경유 시설을 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/13/AKR20260913060751098_01_i_P2.jpg"
     }
   ]
 }

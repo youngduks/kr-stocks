@@ -1,8 +1,98 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-14T02:07:34.739Z",
-  "count": 26,
+  "updated_at": "2026-09-14T08:12:44.712Z",
+  "count": 22,
   "items": [
+    {
+      "title": "日 중의원 의장, 우크라 전격 방문…전쟁 발발 후 처음",
+      "link": "https://www.yna.co.kr/view/AKR20260914143400073",
+      "source": "연합뉴스 국제",
+      "ts": 1789372419000,
+      "pub": "Mon, 14 Sep 2026 16:53:39 +0900",
+      "sentiment": "neutral",
+      "desc": "(도쿄=연합뉴스) 이도연 특파원 = 일본 중의원(하원격)의 모리 에이스케 의장이 14일(현지시간) 1박 2일 일정으로 우크라이나 수도 키이우를 ...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/11/PEP20260911218201009_P2.jpg"
+    },
+    {
+      "title": "이해충돌 논란에도…친러국가 조지아에 70층 트럼프타워",
+      "link": "https://www.yna.co.kr/view/AKR20260914140500009",
+      "source": "연합뉴스 국제",
+      "ts": 1789371667000,
+      "pub": "Mon, 14 Sep 2026 16:41:07 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 송진원 기자 = 도널드 트럼프 미국 대통령의 가족 기업이 러시아와 밀착하며 미국과 갈등을 빚는 조지아의 수도 트빌리시에 '트럼...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/14/AKR20260914140500009_02_i_P2.jpg"
+    },
+    {
+      "title": "미, 발전소 온실가스 규제 폐지…'바이든표 환경정책' 지우기",
+      "link": "https://www.yna.co.kr/view/AKR20260914134000009",
+      "source": "연합뉴스 국제",
+      "ts": 1789370167000,
+      "pub": "Mon, 14 Sep 2026 16:16:07 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이지헌 기자 = 도널드 트럼프 미국 행정부가 조 바이든 전임 정부 시절 도입된 화력발전소 탄소 저감 규제를 폐지할 계획이라고 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/14/AKR20260914134000009_01_i_P2.jpg"
+    },
+    {
+      "title": "원/달러 환율 1,347.3원…美 FOMC 앞두고 박스권 등락",
+      "link": "https://www.yna.co.kr/view/AKR20260914133100002",
+      "source": "연합뉴스 경제",
+      "ts": 1789370037000,
+      "pub": "Mon, 14 Sep 2026 16:13:57 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김지연 기자 = 원/달러 환율은 14일 미국 기준금리 결정을 앞두고 1,340원대 박스권에서 등락을 거듭했다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/14/PYH2026091402710001300_P2.jpg"
+    },
+    {
+      "title": "'이란 中위성사진 활용 미군 공격' 보도에 트럼프 \"우리도 염탐\"",
+      "link": "https://www.yna.co.kr/view/AKR20260914116000009",
+      "source": "연합뉴스 국제",
+      "ts": 1789365880000,
+      "pub": "Mon, 14 Sep 2026 15:04:40 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 차대운 기자 = 이란이 미군 3명이 사망한 요르단 미군기지 정밀 공격에 중국 측의 위성사진을 활용했다는 보도와 관련해 트럼프 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/14/AKR20260914116000009_01_i_P2.jpg"
+    },
+    {
+      "title": "\"앤트로픽, 트럼프 인맥 럼그룹과 18조원대 컴퓨팅 계약\"",
+      "link": "https://www.yna.co.kr/view/AKR20260914115800009",
+      "source": "연합뉴스 국제",
+      "ts": 1789365664000,
+      "pub": "Mon, 14 Sep 2026 15:01:04 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 앤트로픽이 소셜미디어 트루스소셜 운영사이자 트럼프 행정부와 오랜 인연이 있는 럼그룹과 6년간 총 137억달러(...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/14/AKR20260914115800009_01_i_P2.jpg"
+    },
+    {
+      "title": "젤렌스키, 본인 비판해온 전 대변인에 제재 부과",
+      "link": "https://www.yna.co.kr/view/AKR20260914113500009",
+      "source": "연합뉴스 국제",
+      "ts": 1789365089000,
+      "pub": "Mon, 14 Sep 2026 14:51:29 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 임화섭 기자 = 볼로디미르 젤렌스키 우크라이나 대통령이 그의 첫 대변인이었던 율리아 멘델에 제재를 부과했다고 로이터통신이 13...",
+      "image": "https://img.yna.co.kr/photo/ap/2022/09/15/PAP20220915206001009_P2.jpg"
+    },
+    {
+      "title": "[영상] 러 정유시설 또 '불바다'…'불똥' 튄 미국, 트럼프 반응은?",
+      "link": "https://www.yna.co.kr/view/AKR20260914083700704",
+      "source": "연합뉴스 국제",
+      "ts": 1789355409000,
+      "pub": "Mon, 14 Sep 2026 12:10:09 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 우크라이나가 장거리 드론을 동원해 러시아 남부와 중부의 정유 시설을 공격하는 등 잇달아 러시아의 에너지 기반 시설을 집중 타격...",
+      "image": "https://www.youtube.com/embed/4AOUQAeqb-I"
+    },
+    {
+      "title": "케네디센터 경영진, 이사회에 \"트럼프 이름 달아야 파산 면해\"",
+      "link": "https://www.yna.co.kr/view/AKR20260914078000009",
+      "source": "연합뉴스 국제",
+      "ts": 1789353174000,
+      "pub": "Mon, 14 Sep 2026 11:32:54 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 임화섭 기자 = 미국 수도 워싱턴DC의 국립 공연장 '존 F. 케네디 기념 공연예술센터'(이하 케네디센터)의 경영진이 '센터 ...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/08/12/PEP20260812183901009_P2.jpg"
+    },
     {
       "title": "美민주 지지층 투표동력은 '反트럼프'…\"트럼프 막기 위해 투표\"",
       "link": "https://www.yna.co.kr/view/AKR20260914059400009",
@@ -54,19 +144,9 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/14/AKR20260914025900009_01_i_P2.jpg"
     },
     {
-      "title": "한투증권 \"FOMC 앞두고 금융주로 방어…수출 증가 업종에도 관심\"",
-      "link": "https://www.yna.co.kr/view/AKR20260914016200008",
-      "source": "연합뉴스 경제",
-      "ts": 1789341064000,
-      "pub": "Mon, 14 Sep 2026 08:11:04 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 임은진 기자 = 한국투자증권은 이번 주 미국 연방공개시장위원회(FOMC) 이벤트를 앞두고 금융주로 방어한 뒤 수출 물량이 늘어...",
-      "image": "https://img.yna.co.kr/photo/etc/gt/2026/07/30/PGT20260730097701009_P2.jpg"
-    },
-    {
       "title": "트럼프 \"연준 금리 안내리면 몇몇 나라와 무역중단\" 또 위협",
       "link": "https://www.yna.co.kr/view/AKR20260914010300071",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1789339772000,
       "pub": "Mon, 14 Sep 2026 07:49:32 +0900",
       "sentiment": "neutral",
@@ -142,126 +222,6 @@
       "sentiment": "neutral",
       "desc": "(브뤼셀=연합뉴스) 현윤경 특파원 = 중간선거를 앞두고 경유 가격 급등이라는 대형 악재를 만난 도널드 트럼프 미국 대통령이 러시아 경유 시설을 ...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/13/AKR20260913060751098_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프, 또 \"아일랜드 통일 지지\"…\"스코틀랜드 얘긴 나중에\"",
-      "link": "https://www.yna.co.kr/view/AKR20260913062400098",
-      "source": "연합뉴스 국제",
-      "ts": 1789312100000,
-      "pub": "Mon, 14 Sep 2026 00:08:20 +0900",
-      "sentiment": "neutral",
-      "desc": "(브뤼셀=연합뉴스) 현윤경 특파원 = 아일랜드를 방문 중인 도널드 트럼프 미국 대통령이 13일(현지시간) 다시 한번 북아일랜드가 영국에서 분리돼...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/13/AKR20260913062400098_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"중간선거 직후 이란 전쟁 끝날 것…어쩌면 그 전에\"",
-      "link": "https://www.yna.co.kr/view/AKR20260913061800071",
-      "source": "연합뉴스 국제",
-      "ts": 1789311674000,
-      "pub": "Mon, 14 Sep 2026 00:01:14 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 13일(현지시간) 이란 전쟁이 \"중간선거 직후, 어쩌면 그 전에, 끝날 것\"이...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/13/AKR20260913061800071_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"캐나다와 무역합의 조만간\"…USMCA 탈퇴엔 선긋기",
-      "link": "https://www.yna.co.kr/view/AKR20260913061600072",
-      "source": "연합뉴스 국제",
-      "ts": 1789310273000,
-      "pub": "Sun, 13 Sep 2026 23:37:53 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 도널드 트럼프 미국 대통령이 캐나다와의 무역 갈등과 관련해 조만간 합의가 이뤄질 수 있다며 미국·멕시코·캐나...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/13/AKR20260913061600072_01_i_P2.jpg"
-    },
-    {
-      "title": "골프대회도, G20도 내 리조트에서…사익 논란 아랑곳않는 트럼프",
-      "link": "https://www.yna.co.kr/view/AKR20260913061200071",
-      "source": "연합뉴스 국제",
-      "ts": 1789309873000,
-      "pub": "Sun, 13 Sep 2026 23:31:13 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령은 토요일인 12일(현지시간) 아일랜드 더블린에 도착했다.",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/13/PRU20260913382801009_P2.jpg"
-    },
-    {
-      "title": "트럼프, AI 속도조절론에 \"부정적 세력…AI경쟁 승리 방식 유지\"",
-      "link": "https://www.yna.co.kr/view/AKR20260913060800071",
-      "source": "연합뉴스 국제",
-      "ts": 1789309229000,
-      "pub": "Sun, 13 Sep 2026 23:20:29 +0900",
-      "sentiment": "negative",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 13일(현지시간) 인공지능(AI) '속도조절론'과 관련, \"솔직히 말해 AI(...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/13/AKR20260913060800071_01_i_P2.jpg"
-    },
-    {
-      "title": "러, 폴란드 코앞 철도시설 공습…우크라 \"EU·나토 겨냥하나\"",
-      "link": "https://www.yna.co.kr/view/AKR20260913060600108",
-      "source": "연합뉴스 국제",
-      "ts": 1789307945000,
-      "pub": "Sun, 13 Sep 2026 22:59:05 +0900",
-      "sentiment": "neutral",
-      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 러시아가 폴란드에 가까운 우크라이나 서부의 철도 시설을 공습했다.",
-      "image": "https://img.yna.co.kr/photo/ap/2025/10/15/PAP20251015192001009_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"젤렌스키, 러시아 경유 시설 공격 멈춰라\"",
-      "link": "https://www.yna.co.kr/view/AKR20260913060700098",
-      "source": "연합뉴스 국제",
-      "ts": 1789307842000,
-      "pub": "Sun, 13 Sep 2026 22:57:22 +0900",
-      "sentiment": "neutral",
-      "desc": "(브뤼셀=연합뉴스) 현윤경 특파원 = 중간선거를 앞두고 경유 가격 급등이라는 대형 악재를 만난 도널드 트럼프 미국 대통령이 러시아 경유 시설을 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/13/AKR20260913060700098_01_i_P2.jpg"
-    },
-    {
-      "title": "우크라전 3자협상 열리나…러 \"UAE 장소 제안·10월 가능성\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260913041751108",
-      "source": "연합뉴스 국제",
-      "ts": 1789300574000,
-      "pub": "Sun, 13 Sep 2026 20:56:14 +0900",
-      "sentiment": "neutral",
-      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 아랍에미리트(UAE)가 전쟁 종식을 위한 러시아·우크라이나·미국의 3자 회담 장소를 제공하겠다는 의사를 ...",
-      "image": "https://img.yna.co.kr/photo/etc/ta/2026/09/13/PTA20260913039201009_P2.jpg"
-    },
-    {
-      "title": "트럼프 '아일랜드 통일' 돌발 발언에 영국 우익도 발끈",
-      "link": "https://www.yna.co.kr/view/AKR20260913048500009",
-      "source": "연합뉴스 국제",
-      "ts": 1789293133000,
-      "pub": "Sun, 13 Sep 2026 18:52:13 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김승욱 기자 = 도널드 트럼프 미국 대통령이 아일랜드섬 통일이 \"환상적일 것\"이라고 발언한 것이 외교적 논란을 낳고 있다고 뉴...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/12/PEP20260912195101009_P2.jpg"
-    },
-    {
-      "title": "우크라전 평화협상 열리나…러 \"UAE, 3자회담 장소 제공 의사\"",
-      "link": "https://www.yna.co.kr/view/AKR20260913041700108",
-      "source": "연합뉴스 국제",
-      "ts": 1789286316000,
-      "pub": "Sun, 13 Sep 2026 16:58:36 +0900",
-      "sentiment": "neutral",
-      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 아랍에미리트(UAE)가 전쟁 종식을 위한 러시아·우크라이나·미국의 3자 회담 장소를 제공하겠다는 의사를 ...",
-      "image": "https://img.yna.co.kr/photo/etc/ta/2026/09/13/PTA20260913039201009_P2.jpg"
-    },
-    {
-      "title": "시진핑·모디, 푸틴에 \"우크라 사태 해결 중재하겠다\" 제안",
-      "link": "https://www.yna.co.kr/view/AKR20260913041200104",
-      "source": "연합뉴스 국제",
-      "ts": 1789284583000,
-      "pub": "Sun, 13 Sep 2026 16:29:43 +0900",
-      "sentiment": "neutral",
-      "desc": "(자카르타=연합뉴스) 손현규 특파원 = 시진핑 중국 국가주석과 나렌드라 모디 인도 총리가 비(非)서방 신흥경제국 모임인 브릭스(BRICS) 정상...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/13/PEP20260913037701009_P2.jpg"
-    },
-    {
-      "title": "트럼프 압박에 국제 개발은행 기후 대응 예산 삭감",
-      "link": "https://www.yna.co.kr/view/AKR20260913038500009",
-      "source": "연합뉴스 국제",
-      "ts": 1789282777000,
-      "pub": "Sun, 13 Sep 2026 15:59:37 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이신영 기자 = 도널드 트럼프 미국 행정부가 국제 개발은행에 기후변화 대응 예산을 삭감하도록 압박하고 있다고 파이낸셜타임스(F...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/13/AKR20260913038500009_01_i_P2.jpg"
     }
   ]
 }

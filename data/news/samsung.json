@@ -1,43 +1,53 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-14T02:07:34.740Z",
-  "count": 10,
+  "updated_at": "2026-09-14T08:12:44.713Z",
+  "count": 11,
   "items": [
     {
-      "title": "'AI 속도조절론' 부상…삼전닉스 동반 급락",
-      "link": "https://www.hankyung.com/article/2026091422756",
-      "source": "한국경제",
-      "ts": 1789346633000,
-      "pub": "Mon, 14 Sep 2026 09:43:53 +0900",
-      "sentiment": "negative"
+      "title": "'분기 200조' 뚫은 AI 서버시장..꺼지지 않는 수요에 삼전닉스 영업익 657조?",
+      "link": "https://www.mt.co.kr/industry/2026/09/14/2026091413464084233",
+      "source": "머니투데이",
+      "ts": 1789371000000,
+      "pub": "Mon, 14 Sep 2026 16:30:00 +0900",
+      "sentiment": "neutral",
+      "desc": "올해 2분기 글로벌 서버 매출 1663억달러 '사상 최대'…HBM·DDR5·eSSD 수요 동반 확대 AI(인공지능) 인프라 투자 확대에 힘입어 글로벌 서버 시장 매출이 분기 기준 처음으로 200조원을 넘어섰다. AI 연산을 위한 고성능 부품 탑재가 늘면서 서버 평균판매",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026091413464084233_1.jpg"
     },
     {
-      "title": "[특징주] 삼성전자 장 초반 3.5% 급락…SK하이닉스도 5.2%↓",
-      "link": "https://www.yna.co.kr/view/AKR20260914036400008",
+      "title": "삼전·닉스, 4∼6% 급락 마감…외국인·기관 동반 '팔자'(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260914036451008",
       "source": "연합뉴스 경제",
-      "ts": 1789345487000,
-      "pub": "Mon, 14 Sep 2026 09:24:47 +0900",
+      "ts": 1789368802000,
+      "pub": "Mon, 14 Sep 2026 15:53:22 +0900",
       "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 14일 장 초반 각각 3%와 5%대의 낙폭을 보인다.",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 14일 각각 4%와 6% 급락한 채 정규장 거래를 종료했...",
       "image": "https://img.yna.co.kr/photo/cms/2026/02/04/84/PCM20260204000084990_P2.jpg"
     },
     {
-      "title": "코스피, 3%대 급락해 6600선…삼전·하이닉스 동반 약세",
-      "link": "https://www.hankyung.com/article/2026091420916",
+      "title": "코스피, 외국인 3.2조 '팔자'에 6600선…삼전·하이닉스 급락",
+      "link": "https://www.hankyung.com/article/2026091435176",
       "source": "한국경제",
-      "ts": 1789345104000,
-      "pub": "Mon, 14 Sep 2026 09:18:24 +0900",
+      "ts": 1789368088000,
+      "pub": "Mon, 14 Sep 2026 15:41:28 +0900",
       "sentiment": "negative"
     },
     {
-      "title": "집안으로 들어온 인공지능…삼성전자, AI가전으로 중남미 공략",
-      "link": "https://www.yna.co.kr/view/AKR20260913024400087",
-      "source": "연합뉴스 국제",
-      "ts": 1789266023000,
-      "pub": "Sun, 13 Sep 2026 11:20:23 +0900",
-      "sentiment": "neutral",
-      "desc": "(멕시코시티=연합뉴스) 송광호 특파원 = 삼성전자가 인공지능(AI) 기술을 집약한 가전 라인업을 선보이며 라틴아메리카 시장 공략에 나섰다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/13/AKR20260913024400087_02_i_P2.jpg"
+      "title": "[속보] 삼전닉스 또 출렁…코스피, 3.3% 급락해 6684 마감",
+      "link": "https://www.hankyung.com/article/2026091435016",
+      "source": "한국경제",
+      "ts": 1789367697000,
+      "pub": "Mon, 14 Sep 2026 15:34:57 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[속보] 삼전·닉스 또 출렁…코스피, 3.3% 급락해 6,684 마감",
+      "link": "https://www.yna.co.kr/view/AKR20260914125600008",
+      "source": "연합뉴스 경제",
+      "ts": 1789367632000,
+      "pub": "Mon, 14 Sep 2026 15:33:52 +0900",
+      "sentiment": "negative",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/24/43/PCM20260624000043990_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

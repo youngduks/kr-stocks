@@ -1,9 +1,10 @@
 import { fetchAllPrices } from "@/lib/fetchPrices";
 import { getPollHistory, type EnrichedPollHistory } from "@/lib/pollHistory";
-import { getHumanIndicators, STANCE_LABEL } from "@/lib/humanIndicators";
+import { getHumanIndicators } from "@/lib/humanIndicators";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { PollWidget } from "@/components/PollWidget";
+import { PersonCard } from "@/components/PersonCard";
 import type { Metadata } from "next";
 
 export const revalidate = 300;
@@ -105,43 +106,6 @@ function HistoryCard({ p }: { p: EnrichedPollHistory }) {
           </span>
         </span>
         <span className="text-text-dim/80">· {p.outcomeDetail}</span>
-      </div>
-    </div>
-  );
-}
-
-function PersonCard({ person }: { person: ReturnType<typeof getHumanIndicators>[number] }) {
-  const latest = person.opinions[0];
-  if (!latest) return null;
-  const stance = STANCE_LABEL[latest.stance];
-
-  return (
-    <div className="rounded-xl bg-bg-card border border-line p-4">
-      <div className="flex items-start justify-between gap-3 flex-wrap mb-1">
-        <div>
-          <span className="text-base font-bold text-text">{person.name}</span>
-          <span className="text-xs text-text-dim ml-2">{person.channel}</span>
-        </div>
-        <span className={`text-[11px] font-bold px-2 py-0.5 rounded-full bg-bg ${stance.color}`}>
-          {stance.ko}
-        </span>
-      </div>
-      <p className="text-[11px] text-text-dim italic mb-3">{person.tagline}</p>
-
-      <div className="border-t border-line pt-3">
-        <div className="flex items-baseline justify-between gap-2 mb-1">
-          <span className="text-xs text-text-dim">{latest.date}</span>
-        </div>
-        <div className="text-sm font-semibold text-text mb-1">{latest.title}</div>
-        <p className="text-xs text-text-muted leading-relaxed mb-2">{latest.summary}</p>
-        <a
-          href={latest.video_url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-xs text-accent-blue hover:underline"
-        >
-          원본 영상 보기 →
-        </a>
       </div>
     </div>
   );

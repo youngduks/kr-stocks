@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { fetchAllPrices } from "@/lib/fetchPrices";
 import { CATEGORY_LABELS, type SymbolMeta } from "@/lib/universe";
 import { PriceCard } from "@/components/PriceCard";
@@ -6,6 +7,8 @@ import { Footer } from "@/components/Footer";
 import { HomeHero } from "@/components/HomeHero";
 import { SemiconductorSignal } from "@/components/SemiconductorSignal";
 import { PollWidget } from "@/components/PollWidget";
+import { PersonCard } from "@/components/PersonCard";
+import { getHumanIndicators } from "@/lib/humanIndicators";
 import AffiliateStrip from "@/components/AffiliateStrip";
 import { fetchSemiSignal } from "@/lib/semiSignal";
 import { KakaoAdFit } from "@/components/KakaoAdFit";
@@ -14,6 +17,7 @@ export const revalidate = 120; // ISR 캐시 30s → 120s (Free tier 최적화, 
 
 export default async function Home() {
   const [data, semiSignal] = await Promise.all([fetchAllPrices(), fetchSemiSignal()]);
+  const people = getHumanIndicators();
 
   // 카테고리 순서 (형님 명시): 한국주식 → 비상장 → 미국주식 → ETF(테마) → 글로벌 지수
   const order: SymbolMeta["category"][] = ["korea", "private", "us", "themes", "global"];
@@ -42,6 +46,23 @@ export default async function Home() {
 
         {/* 미장 반도체 야간 시그널 — 최상단. 한국 개장 전 SOXL(3x)로 삼성·하이닉스 내일 방향 미리보기 */}
         <SemiconductorSignal signal={semiSignal} locale="ko" />
+
+        {/* 인물 지표(번외) — /poll과 동일 카드, 홈에도 노출 요청(9/14) */}
+        {people.length > 0 && (
+          <section className="mb-6">
+            <div className="flex items-baseline justify-between gap-2 mb-1">
+              <h2 className="text-lg font-bold text-text">🎯 인물 지표</h2>
+              <Link href="/poll" prefetch={false} className="text-xs text-accent-blue hover:underline shrink-0">
+                더보기 →
+              </Link>
+            </div>
+            <div className="space-y-3">
+              {people.map((p) => (
+                <PersonCard key={p.id} person={p} />
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* 인간지표 — 내일 상승/하락 투표 (NXT 프리장 오픈 전 마감). 지난 결과 → /poll */}
         <PollWidget

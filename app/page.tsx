@@ -7,7 +7,7 @@ import { Footer } from "@/components/Footer";
 import { HomeHero } from "@/components/HomeHero";
 import { SemiconductorSignal } from "@/components/SemiconductorSignal";
 import { PollWidget } from "@/components/PollWidget";
-import { PersonCard } from "@/components/PersonCard";
+import { PersonCardCompact } from "@/components/PersonCard";
 import { getHumanIndicators } from "@/lib/humanIndicators";
 import AffiliateStrip from "@/components/AffiliateStrip";
 import { fetchSemiSignal } from "@/lib/semiSignal";
@@ -47,18 +47,18 @@ export default async function Home() {
         {/* 미장 반도체 야간 시그널 — 최상단. 한국 개장 전 SOXL(3x)로 삼성·하이닉스 내일 방향 미리보기 */}
         <SemiconductorSignal signal={semiSignal} locale="ko" />
 
-        {/* 인물 지표(번외) — /poll과 동일 카드, 홈에도 노출 요청(9/14) */}
+        {/* 인물 지표(번외) — 홈은 얇은 한 줄 카드, 상세는 /poll (9/14 요청) */}
         {people.length > 0 && (
           <section className="mb-6">
-            <div className="flex items-baseline justify-between gap-2 mb-1">
-              <h2 className="text-lg font-bold text-text">🎯 인물 지표</h2>
+            <div className="flex items-baseline justify-between gap-2 mb-1.5">
+              <h2 className="text-sm font-bold text-text-muted">🎯 인물 지표 — 역발상 참고용</h2>
               <Link href="/poll" prefetch={false} className="text-xs text-accent-blue hover:underline shrink-0">
                 더보기 →
               </Link>
             </div>
-            <div className="space-y-3">
+            <div className="space-y-2">
               {people.map((p) => (
-                <PersonCard key={p.id} person={p} />
+                <PersonCardCompact key={p.id} person={p} />
               ))}
             </div>
           </section>

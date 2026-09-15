@@ -1,8 +1,32 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-09-14T22:59:07.223Z",
-  "count": 12,
+  "updated_at": "2026-09-15T01:10:23.607Z",
+  "count": 14,
   "items": [
+    {
+      "title": "2년 전 용인서 뭉쳤던 현대차·도요타…인제서 특별 레이스",
+      "link": "https://www.hankyung.com/article/202609154887g",
+      "source": "한국경제",
+      "ts": 1789432635000,
+      "pub": "Tue, 15 Sep 2026 09:37:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대차 \"이동 약자 돕겠다\"…특수 유모차 500대 지원",
+      "link": "https://www.hankyung.com/article/202609154815g",
+      "source": "한국경제",
+      "ts": 1789431560000,
+      "pub": "Tue, 15 Sep 2026 09:19:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'내우외환' 현대차 주가…재상승 위한 조건은?",
+      "link": "https://www.hankyung.com/article/202609143552i",
+      "source": "한국경제",
+      "ts": 1789430413000,
+      "pub": "Tue, 15 Sep 2026 09:00:13 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[특징주] '자사주 소각·무상증자' 코나아이 8%↑(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260914079651008",
@@ -11,16 +35,6 @@
       "pub": "Mon, 14 Sep 2026 15:37:49 +0900",
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김유아 기자 = 지역화폐 운용사 코나아이[052400]가 14일 자사주 소각 및 무상증자 공시로 8% 넘게 상승 마감했다.",
-      "image": "https://img.yna.co.kr/photo/cms/2019/10/18/18/PCM20191018000118064_P2.jpg"
-    },
-    {
-      "title": "[특징주] 코나아이, 자사주 소각·주당 0.5주 무상증자에 11% 상승",
-      "link": "https://www.yna.co.kr/view/AKR20260914079600008",
-      "source": "연합뉴스 경제",
-      "ts": 1789353383000,
-      "pub": "Mon, 14 Sep 2026 11:36:23 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 지역화폐 운용사 코나아이[052400]가 14일 자사주 소각 및 무상증자 공시 직후 10% 넘게 오르고 있다.",
       "image": "https://img.yna.co.kr/photo/cms/2019/10/18/18/PCM20191018000118064_P2.jpg"
     },
     {

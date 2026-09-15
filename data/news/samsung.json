@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-15T12:19:33.672Z",
-  "count": 7,
+  "updated_at": "2026-09-15T17:22:58.550Z",
+  "count": 9,
   "items": [
+    {
+      "title": "'삼전닉스' 개미 떨게 한 AI 수장들…증권가 '반전' 분석 내놨다 [분석+]",
+      "link": "https://www.hankyung.com/article/2026091556036",
+      "source": "한국경제",
+      "ts": 1789470001000,
+      "pub": "Tue, 15 Sep 2026 20:00:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "中 \"2030년 반도체 산업망 난관 돌파 추진…고밀도 메모리 발전\"",
       "link": "https://www.yna.co.kr/view/AKR20260915165800089",
@@ -12,6 +20,16 @@
       "sentiment": "positive",
       "desc": "(상하이=연합뉴스) 차병섭 특파원 = '미래 산업의 쌀'로 불리는 반도체 분야 경쟁 속에 중국이 2030년까지 고밀도 메모리 등 전체 반도체 산...",
       "image": "https://img.yna.co.kr/photo/cms/2023/08/11/13/PCM20230811000013990_P2.jpg"
+    },
+    {
+      "title": "[특징주] 삼전·닉스, 0.2∼0.4% 하락 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260915039551008",
+      "source": "연합뉴스 경제",
+      "ts": 1789455159000,
+      "pub": "Tue, 15 Sep 2026 15:52:39 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 15일 소폭 하락한 채 정규장 거래를 종료했다.",
+      "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

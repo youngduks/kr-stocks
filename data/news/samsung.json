@@ -1,8 +1,44 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-16T07:59:24.496Z",
-  "count": 14,
+  "updated_at": "2026-09-16T13:10:50.831Z",
+  "count": 15,
   "items": [
+    {
+      "title": "\"등산 다신 안 가\" 그래도 못 버린다…'이재용 패딩' 화제 됐던 브랜드 [셀럽픽]",
+      "link": "https://www.hankyung.com/article/202609169207g",
+      "source": "한국경제",
+      "ts": 1789556577000,
+      "pub": "Wed, 16 Sep 2026 20:02:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "역대급 성과급에 해외 안 간다 … 삼전닉스 '인재 쟁탈전'",
+      "link": "https://www.hankyung.com/article/2026091693261",
+      "source": "한국경제",
+      "ts": 1789552805000,
+      "pub": "Wed, 16 Sep 2026 19:00:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"SK하이닉스, 인텔과 미국서 메모리 생산 협상중\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20260916122752009",
+      "source": "연합뉴스 국제",
+      "ts": 1789552195000,
+      "pub": "Wed, 16 Sep 2026 18:49:55 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 조성흠 이신영 오수진 기자 = SK하이닉스가 인텔과 협력해 메모리 칩을 미국에서 처음으로 생산하는 방안을 협상 중이라고 로이터...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/29/PYH2026072914440006100_P2.jpg"
+    },
+    {
+      "title": "이재용, 日 참의원 대표단과 '깜짝회동'…반도체·인재 협력 모색",
+      "link": "https://www.mt.co.kr/industry/2026/09/16/2026091618025998294",
+      "source": "머니투데이",
+      "ts": 1789550769000,
+      "pub": "Wed, 16 Sep 2026 18:26:09 +0900",
+      "sentiment": "neutral",
+      "desc": "AI 시장 전망·전사 전략 등 의견 교환 이재용 삼성전자 회장이 일본 참의원 대표단과 오찬을 갖고 인공지능(AI) 시대 반도체 사업 전략과 한일 협력 방안을 논의했다. 16일 전자업계에 따르면 이 회장은 지난 14일 서울 모처에서 열린 삼성전자 임원진과 일본 참의원 대",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026091618025998294_1.jpg"
+    },
     {
       "title": "외국인 팔고, 기관은 사고…삼성전자 2%·하이닉스 4% 상승(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260916041951008",
@@ -12,14 +48,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김유아 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 16일 상승 마감했다.",
       "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
-    },
-    {
-      "title": "삼성물산, 남성복 '갤럭시' 감각이 스튜디오로…부산·서울 신세계百 입점",
-      "link": "https://www.hankyung.com/article/2026091677501",
-      "source": "한국경제",
-      "ts": 1789541685000,
-      "pub": "Wed, 16 Sep 2026 15:54:45 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "\"SK하이닉스, 인텔과 미국서 메모리 생산 협상중\"(종합)",
@@ -32,14 +60,6 @@
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/29/PYH2026072914440006100_P2.jpg"
     },
     {
-      "title": "코스피, 반등해 6700선 회복…삼전닉스 급등",
-      "link": "https://www.hankyung.com/article/2026091688606",
-      "source": "한국경제",
-      "ts": 1789540828000,
-      "pub": "Wed, 16 Sep 2026 15:40:28 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "로이터 \"SK하이닉스, 인텔과 미국서 메모리칩 생산방안 협의중\"",
       "link": "https://www.yna.co.kr/view/AKR20260916122700009",
       "source": "연합뉴스 국제",
@@ -48,14 +68,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 이신영 기자 = SK하이닉스가 인텔과 미국 내에서 메모리 칩을 처음으로 생산하는 방안에 대해 협의 중이라고 로이터 통신이 16...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/09/16/PRU20260916198601009_P2.jpg"
-    },
-    {
-      "title": "[속보] \"하이닉스, 인텔과 미국 메모리 생산방안 논의 중\"[로이터]",
-      "link": "https://www.hankyung.com/article/2026091686507",
-      "source": "한국경제",
-      "ts": 1789537272000,
-      "pub": "Wed, 16 Sep 2026 14:41:12 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "[속보] \"하이닉스, 인텔과 미국 메모리 생산방안 논의중\"",

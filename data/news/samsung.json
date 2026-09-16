@@ -1,24 +1,42 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-16T20:34:01.720Z",
-  "count": 13,
+  "updated_at": "2026-09-16T23:21:06.212Z",
+  "count": 15,
   "items": [
     {
-      "title": "갤럭시에 아이폰까지 잡았다… 삼성D '폴더블 OLED' 독주",
-      "link": "https://www.mt.co.kr/industry/2026/09/17/2026091619514080374",
-      "source": "머니투데이",
-      "ts": 1789585200000,
-      "pub": "Thu, 17 Sep 2026 04:00:00 +0900",
+      "title": "삼성전자 \"zHBM으로 초당 1천토큰 연다…AI에이전트 메모리승부\"",
+      "link": "https://www.yna.co.kr/view/AKR20260917020600091",
+      "source": "연합뉴스 국제",
+      "ts": 1789597988000,
+      "pub": "Thu, 17 Sep 2026 07:33:08 +0900",
       "sentiment": "neutral",
-      "desc": "3Q 글로벌점유율 83% 전망 하반기 매출만 3.8조원 추산 내구성·양산 능력 등 압도적 삼성디스플레이가 글로벌 폴더블(접히는) OLED(유기발광다이오드) 패널시장에서 독주체제를 굳혔다. 삼성전자에 애플까지 고객사로 확보하면서 올해 3분기엔 점유율이 80%를 넘어설 전",
-      "image": "https://thumb.mt.co.kr/06/2026/09/2026091619514080374_1.jpg"
+      "desc": "(샌타클래라=연합뉴스) 권영전 특파원 = 삼성전자가 인공지능(AI) 에이전트 시대를 맞아 AI 가속기 위에 메모리를 3차원(3D)으로 얹는 'z...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/17/AKR20260917020600091_01_i_P2.jpg"
     },
     {
-      "title": "\"다신 주식 안 해\"…삼전닉스 물린 개미들 돌변하더니 결국 [분석+]",
-      "link": "https://www.hankyung.com/article/2026091689496",
+      "title": "\"같은 삼성전자 협력사인데\" … 수익률 47% VS -19% 갈린 이유는 [대기업 협력사 전수분석]",
+      "link": "https://www.hankyung.com/article/202609179699i",
       "source": "한국경제",
-      "ts": 1789563601000,
-      "pub": "Wed, 16 Sep 2026 22:00:01 +0900",
+      "ts": 1789597324000,
+      "pub": "Thu, 17 Sep 2026 07:22:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI시장 HBM독주 계속될듯…\"대체기술 CXL, 저장장치 보완재일뿐\"",
+      "link": "https://www.yna.co.kr/view/AKR20260917016800091",
+      "source": "연합뉴스 국제",
+      "ts": 1789596419000,
+      "pub": "Thu, 17 Sep 2026 07:06:59 +0900",
+      "sentiment": "neutral",
+      "desc": "(샌타클래라=연합뉴스) 권영전 특파원 = 인공지능(AI) 서비스의 핵심 기술이자 병목으로 자리 잡은 고대역폭 메모리(HBM)의 독주가 앞으로도 ...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/24/80/PCM20260624000080990_P2.jpg"
+    },
+    {
+      "title": "BIS \"레버리지 ETF는 빙산의 일각\"…삼전닉스 흔드는 자동매매 [김주완의 글로벌머니 X파일]",
+      "link": "https://www.hankyung.com/article/202609169113i",
+      "source": "한국경제",
+      "ts": 1789596002000,
+      "pub": "Thu, 17 Sep 2026 07:00:02 +0900",
       "sentiment": "neutral"
     },
     {

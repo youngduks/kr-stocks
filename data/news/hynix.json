@@ -1,8 +1,96 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-16T02:07:21.435Z",
-  "count": 18,
+  "updated_at": "2026-09-16T07:59:24.497Z",
+  "count": 19,
   "items": [
+    {
+      "title": "SK하이닉스, 산학연구 우수발명 시상…최우수상에 최우석 교수",
+      "link": "https://www.yna.co.kr/view/AKR20260916154900003",
+      "source": "연합뉴스 경제",
+      "ts": 1789544328000,
+      "pub": "Wed, 16 Sep 2026 16:38:48 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 강태우 기자 = SK하이닉스는 16일 경기 이천캠퍼스에서 '2026 산학연구과제 우수발명 시상식'을 열고, 대학과 공동 수행한...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/16/AKR20260916154900003_01_i_P2.jpg"
+    },
+    {
+      "title": "엔비디아·메타도 탐낸 K-NPU, 글로벌 시장서 잇단 상용화 성과",
+      "link": "https://www.mt.co.kr/future/2026/09/16/2026091614581843897",
+      "source": "머니투데이",
+      "ts": 1789543800000,
+      "pub": "Wed, 16 Sep 2026 16:30:00 +0900",
+      "sentiment": "neutral",
+      "desc": "[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 ‘데이터랩’에서 볼 수 있습니다.] 엔비디아, 메타 등 빅테크들의 러브콜을 받으며 주목받은 리벨리온과 퓨리오사AI 등 국내 NPU(신경망처리장치) 스타트업들이 해외시장에서 상용화 성과",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026091614581843897_1.jpg"
+    },
+    {
+      "title": "외국인 팔고, 기관은 사고…삼성전자 2%·하이닉스 4% 상승(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260916041951008",
+      "source": "연합뉴스 경제",
+      "ts": 1789542167000,
+      "pub": "Wed, 16 Sep 2026 16:02:47 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유아 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 16일 상승 마감했다.",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
+    },
+    {
+      "title": "로이터 \"SK하이닉스,미국서 반도체 생산 추진…인텔과 협력 논의\"",
+      "link": "https://www.mt.co.kr/world/2026/09/16/2026091615465714338",
+      "source": "머니투데이",
+      "ts": 1789541949000,
+      "pub": "Wed, 16 Sep 2026 15:59:09 +0900",
+      "sentiment": "neutral",
+      "desc": "로이터, SK하이닉스의 인텔 오하이오 반도체 공장 임차 가능성도 보도 SK하이닉스가 미국 반도체 파운드리 기업 인텔과 손잡고 메모리 반도체를 미국에서 생산하는 방안을 추진 중이라고 로이터통신이 16일(현지시간) 보도했다. SK하이닉스와 인텔 측은 확정된 사안이 아니라는",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026091615465714338_1.jpg"
+    },
+    {
+      "title": "\"SK하이닉스, 인텔과 미국서 메모리 생산 협상중\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260916122751009",
+      "source": "연합뉴스 국제",
+      "ts": 1789541048000,
+      "pub": "Wed, 16 Sep 2026 15:44:08 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이신영 오수진 기자 = SK하이닉스가 인텔과 협력해 메모리 칩을 미국에서 처음으로 생산하는 방안을 협상 중이라고 로이터 통신이...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/29/PYH2026072914440006100_P2.jpg"
+    },
+    {
+      "title": "로이터 \"SK하이닉스, 인텔과 미국서 메모리칩 생산방안 협의중\"",
+      "link": "https://www.yna.co.kr/view/AKR20260916122700009",
+      "source": "연합뉴스 국제",
+      "ts": 1789537684000,
+      "pub": "Wed, 16 Sep 2026 14:48:04 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이신영 기자 = SK하이닉스가 인텔과 미국 내에서 메모리 칩을 처음으로 생산하는 방안에 대해 협의 중이라고 로이터 통신이 16...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/09/16/PRU20260916198601009_P2.jpg"
+    },
+    {
+      "title": "[속보] \"하이닉스, 인텔과 미국 메모리 생산방안 논의 중\"[로이터]",
+      "link": "https://www.hankyung.com/article/2026091686507",
+      "source": "한국경제",
+      "ts": 1789537272000,
+      "pub": "Wed, 16 Sep 2026 14:41:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] \"하이닉스, 인텔과 미국 메모리 생산방안 논의중\"",
+      "link": "https://www.yna.co.kr/view/AKR20260916120400009",
+      "source": "연합뉴스 국제",
+      "ts": 1789537121000,
+      "pub": "Wed, 16 Sep 2026 14:38:41 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/09/16/PRU20260916198601009_P2.jpg"
+    },
+    {
+      "title": "대만 마이크론 노조 \"영업이익 15% 나눠달라\" 요구",
+      "link": "https://www.yna.co.kr/view/AKR20260916103000009",
+      "source": "연합뉴스 국제",
+      "ts": 1789534388000,
+      "pub": "Wed, 16 Sep 2026 13:53:08 +0900",
+      "sentiment": "neutral",
+      "desc": "(타이베이=연합뉴스) 김철문 통신원 = 미국 반도체업체 마이크론 테크놀로지의 대만 현지 노조가 영업이익 15%를 나눠달라고 요구하고 나섰다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/16/AKR20260916103000009_01_i_P2.jpg"
+    },
     {
       "title": "인텔 CEO \"5∼7배 가격 급등한 메모리, 내년에 더 부족해질 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260916065800091",
@@ -14,40 +102,6 @@
       "image": "https://img.yna.co.kr/photo/ap/2026/06/02/PAP20260602145601009_P2.jpg"
     },
     {
-      "title": "[단독] 이재용, 日 참의원 대표단과 깜짝 회동…반도체 협력 논의",
-      "link": "https://www.hankyung.com/article/2026091673916",
-      "source": "한국경제",
-      "ts": 1789519515000,
-      "pub": "Wed, 16 Sep 2026 09:45:15 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 임단협 3주 만에 수정안 가결…성과급 현금 50%",
-      "link": "https://www.hankyung.com/article/2026091674977",
-      "source": "한국경제",
-      "ts": 1789518145000,
-      "pub": "Wed, 16 Sep 2026 09:22:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] 삼성전자 보합권…하이닉스 1%대 상승",
-      "link": "https://www.yna.co.kr/view/AKR20260916041900008",
-      "source": "연합뉴스 경제",
-      "ts": 1789518081000,
-      "pub": "Wed, 16 Sep 2026 09:21:21 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 16일 장 초반 강보합세를 보이고 있다.",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
-    },
-    {
-      "title": "[속보] SK하이닉스 임단협 합의안 노조 재투표서 가결",
-      "link": "https://www.hankyung.com/article/2026091674557",
-      "source": "한국경제",
-      "ts": 1789517079000,
-      "pub": "Wed, 16 Sep 2026 09:04:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "삼성, 네덜란드 AI 반도체 스타트업에 투자",
       "link": "https://www.yna.co.kr/view/AKR20260916029100009",
       "source": "연합뉴스 국제",
@@ -56,46 +110,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 이성한 기자 = 엔비디아의 그래픽처리장치(GPU)와는 구조가 완전히 다른 AI 반도체 설계업체 '유클리드'에 삼성이 공동 투자...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/16/AKR20260916029100009_02_i_P2.jpg"
-    },
-    {
-      "title": "KB증권 \"반도체, 반등 준비할 시점…'삼전·닉스' 최선호주\"",
-      "link": "https://www.yna.co.kr/view/AKR20260916023700008",
-      "source": "연합뉴스 경제",
-      "ts": 1789514392000,
-      "pub": "Wed, 16 Sep 2026 08:19:52 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 고은지 기자 = KB증권은 16일 \"현재 반도체 주가는 인공지능(AI) 투자 둔화를 선반영하고 있지만, 실제 주문은 오히려 강...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
-    },
-    {
-      "title": "세일즈포스, 고객관리 AI모델 자체개발…엔비디아 개방형 AI활용",
-      "link": "https://www.yna.co.kr/view/AKR20260915091400091",
-      "source": "연합뉴스 국제",
-      "ts": 1789473600000,
-      "pub": "Tue, 15 Sep 2026 21:00:00 +0900",
-      "sentiment": "neutral",
-      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 세계 최대 고객관리(CRM) 소프트웨어 기업 세일즈포스가 개방형(오픈소스) 모델을 활용해 인공지능(A...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/15/AKR20260915091400091_01_i_P2.jpg"
-    },
-    {
-      "title": "中 \"2030년 반도체 산업망 난관 돌파 추진…고밀도 메모리 발전\"",
-      "link": "https://www.yna.co.kr/view/AKR20260915165800089",
-      "source": "연합뉴스 국제",
-      "ts": 1789463254000,
-      "pub": "Tue, 15 Sep 2026 18:07:34 +0900",
-      "sentiment": "positive",
-      "desc": "(상하이=연합뉴스) 차병섭 특파원 = '미래 산업의 쌀'로 불리는 반도체 분야 경쟁 속에 중국이 2030년까지 고밀도 메모리 등 전체 반도체 산...",
-      "image": "https://img.yna.co.kr/photo/cms/2023/08/11/13/PCM20230811000013990_P2.jpg"
-    },
-    {
-      "title": "ICT R&D '2조원 시대'…피지컬AI·AI반도체 집중 투자",
-      "link": "https://www.yna.co.kr/view/AKR20260915072600017",
-      "source": "연합뉴스 경제",
-      "ts": 1789462884000,
-      "pub": "Tue, 15 Sep 2026 18:01:24 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 권하영 기자 = 정부가 역대 최대 규모로 편성된 내년도 정보통신기술(ICT) 연구개발(R&amp;D) 예산을 바탕으로 신규 과...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/15/AKR20260915072600017_01_i_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

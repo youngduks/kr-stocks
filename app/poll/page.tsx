@@ -162,9 +162,9 @@ export default async function PollPage() {
 
         <h2 className="text-lg font-bold text-text mb-3">지금 투표하기</h2>
         <PollWidget
-          pollId="market-updown-2026-09-16"
+          pollId="market-updown-2026-09-17"
           title="인간지표 — 내일 상승 vs 하락"
-          question="9/16(수) 한국 증시, 오를까요 내릴까요?"
+          question="9/17(목) 한국 증시, 오를까요 내릴까요?"
           yesLabel="📈 상승"
           noLabel="📉 하락"
         />

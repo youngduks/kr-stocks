@@ -1,15 +1,71 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-15T23:16:08.610Z",
-  "count": 13,
+  "updated_at": "2026-09-16T02:07:21.435Z",
+  "count": 18,
   "items": [
     {
-      "title": "인텔 CEO \"내년 메모리 부족 더 심해진다…일부는 5~7배 올라\"",
-      "link": "https://www.hankyung.com/article/202609166987i",
+      "title": "인텔 CEO \"5∼7배 가격 급등한 메모리, 내년에 더 부족해질 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260916065800091",
+      "source": "연합뉴스 국제",
+      "ts": 1789523440000,
+      "pub": "Wed, 16 Sep 2026 10:50:40 +0900",
+      "sentiment": "positive",
+      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 립부 탄 인텔 최고경영자(CEO)가 인공지능(AI) 확산으로 메모리 반도체 품귀와 가격 폭등이 내년에...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/06/02/PAP20260602145601009_P2.jpg"
+    },
+    {
+      "title": "[단독] 이재용, 日 참의원 대표단과 깜짝 회동…반도체 협력 논의",
+      "link": "https://www.hankyung.com/article/2026091673916",
       "source": "한국경제",
-      "ts": 1789496928000,
-      "pub": "Wed, 16 Sep 2026 03:28:48 +0900",
+      "ts": 1789519515000,
+      "pub": "Wed, 16 Sep 2026 09:45:15 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 임단협 3주 만에 수정안 가결…성과급 현금 50%",
+      "link": "https://www.hankyung.com/article/2026091674977",
+      "source": "한국경제",
+      "ts": 1789518145000,
+      "pub": "Wed, 16 Sep 2026 09:22:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자 보합권…하이닉스 1%대 상승",
+      "link": "https://www.yna.co.kr/view/AKR20260916041900008",
+      "source": "연합뉴스 경제",
+      "ts": 1789518081000,
+      "pub": "Wed, 16 Sep 2026 09:21:21 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유아 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 16일 장 초반 강보합세를 보이고 있다.",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
+    },
+    {
+      "title": "[속보] SK하이닉스 임단협 합의안 노조 재투표서 가결",
+      "link": "https://www.hankyung.com/article/2026091674557",
+      "source": "한국경제",
+      "ts": 1789517079000,
+      "pub": "Wed, 16 Sep 2026 09:04:39 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성, 네덜란드 AI 반도체 스타트업에 투자",
+      "link": "https://www.yna.co.kr/view/AKR20260916029100009",
+      "source": "연합뉴스 국제",
+      "ts": 1789516970000,
+      "pub": "Wed, 16 Sep 2026 09:02:50 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이성한 기자 = 엔비디아의 그래픽처리장치(GPU)와는 구조가 완전히 다른 AI 반도체 설계업체 '유클리드'에 삼성이 공동 투자...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/16/AKR20260916029100009_02_i_P2.jpg"
+    },
+    {
+      "title": "KB증권 \"반도체, 반등 준비할 시점…'삼전·닉스' 최선호주\"",
+      "link": "https://www.yna.co.kr/view/AKR20260916023700008",
+      "source": "연합뉴스 경제",
+      "ts": 1789514392000,
+      "pub": "Wed, 16 Sep 2026 08:19:52 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 고은지 기자 = KB증권은 16일 \"현재 반도체 주가는 인공지능(AI) 투자 둔화를 선반영하고 있지만, 실제 주문은 오히려 강...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
     },
     {
       "title": "세일즈포스, 고객관리 AI모델 자체개발…엔비디아 개방형 AI활용",
@@ -40,16 +96,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 권하영 기자 = 정부가 역대 최대 규모로 편성된 내년도 정보통신기술(ICT) 연구개발(R&amp;D) 예산을 바탕으로 신규 과...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/15/AKR20260915072600017_01_i_P2.jpg"
-    },
-    {
-      "title": "반도체 소재기업 日 TOK첨단재료, 평택 포승지구에 공장 준공",
-      "link": "https://www.yna.co.kr/view/AKR20260915118600061",
-      "source": "연합뉴스 경제",
-      "ts": 1789450856000,
-      "pub": "Tue, 15 Sep 2026 14:40:56 +0900",
-      "sentiment": "neutral",
-      "desc": "(수원=연합뉴스) 최찬흥 기자 = 경기경제자유구역청은 세계적인 반도체 핵심소재 기업인 일본 TOK의 한국법인 TOK첨단재료가 평택 포승지구에 제...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/15/AKR20260915118600061_01_i_P2.jpg"
     },
     {
       "title": "에스케이하이닉스(주) 조회공시 요구(풍문 또는 보도)에 대한 답변(미확...",

@@ -1,8 +1,15 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-09-17T02:10:58.856Z",
+  "updated_at": "2026-09-17T08:05:09.853Z",
   "count": 10,
   "items": [
+    {
+      "title": "현대자동차(주) 변경상장(주식소각)",
+      "link": "https://finance.naver.com/item/news_notice_read.naver?no=134131783&code=005380&page_notice=",
+      "source": "전자공시(DART)",
+      "ts": 1789603200000,
+      "pub": "2026.09.17"
+    },
     {
       "title": "현대자동차(주) 기업설명회(IR) 개최(안내공시)",
       "link": "https://finance.naver.com/item/news_notice_read.naver?no=122192642&code=005380&page_notice=",
@@ -65,13 +72,6 @@
       "source": "전자공시(DART)",
       "ts": 1787702400000,
       "pub": "2026.08.26"
-    },
-    {
-      "title": "현대자동차(주) (정정)생산중단",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=112146954&code=005380&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1787529600000,
-      "pub": "2026.08.24"
     }
   ]
 }

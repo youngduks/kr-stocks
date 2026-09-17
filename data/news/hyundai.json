@@ -1,77 +1,27 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-09-17T08:05:09.853Z",
-  "count": 10,
+  "updated_at": "2026-09-17T13:52:38.442Z",
+  "count": 2,
   "items": [
     {
-      "title": "현대자동차(주) 변경상장(주식소각)",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=134131783&code=005380&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1789603200000,
-      "pub": "2026.09.17"
+      "title": "\"우린 왜 차를 만드나\"…29년 포터 차주에 손편지 쓴 현대차 임원[오따뉴]",
+      "link": "https://www.mt.co.kr/society/2026/09/17/2026091717440699681",
+      "source": "머니투데이",
+      "ts": 1789642294000,
+      "pub": "Thu, 17 Sep 2026 19:51:34 +0900",
+      "sentiment": "neutral",
+      "desc": "우리가 사는 세상은 아직 따뜻합니다. 살만합니다. [오따뉴 : 오늘의 따뜻한 뉴스]를 통해 그 온기와 감동을 만나보세요. \"우리는 왜 차를 만드는가.\" 현대자동차가 29년 동안 함께 달린 1t 트럭 '포터'와의 작별을 앞둔 차주를 직접 찾아 손편지와 감사패를 전달했다.",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026091717440699681_1.jpg"
     },
     {
-      "title": "현대자동차(주) 기업설명회(IR) 개최(안내공시)",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=122192642&code=005380&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1788393600000,
-      "pub": "2026.09.03"
-    },
-    {
-      "title": "현대자동차(주) 기업설명회(IR) 개최(안내공시)",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=122190163&code=005380&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1788393600000,
-      "pub": "2026.09.03"
-    },
-    {
-      "title": "현대자동차(주) 공매도 과열종목 지정(공매도 거래 금지 적용)",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=120915257&code=005380&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1788307200000,
-      "pub": "2026.09.02"
-    },
-    {
-      "title": "현대자동차(주) 생산재개(자율공시)",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=120683609&code=005380&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1788307200000,
-      "pub": "2026.09.02"
-    },
-    {
-      "title": "현대자동차(주) 영업(잠정)실적(공정공시)",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=119423103&code=005380&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1788220800000,
-      "pub": "2026.09.01"
-    },
-    {
-      "title": "현대자동차(주) 기업설명회(IR) 개최(안내공시)",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=117159088&code=005380&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1787875200000,
-      "pub": "2026.08.28"
-    },
-    {
-      "title": "현대자동차(주) 기업설명회(IR) 개최(안내공시)",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=117153860&code=005380&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1787875200000,
-      "pub": "2026.08.28"
-    },
-    {
-      "title": "현대자동차(주) 장래사업ㆍ경영 계획(공정공시)",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=113777085&code=005380&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1787702400000,
-      "pub": "2026.08.26"
-    },
-    {
-      "title": "현대자동차(주) 주식 소각 결정",
-      "link": "https://finance.naver.com/item/news_notice_read.naver?no=113777084&code=005380&page_notice=",
-      "source": "전자공시(DART)",
-      "ts": 1787702400000,
-      "pub": "2026.08.26"
+      "title": "\"피지컬AI 산업 생태계 구축\"…엔비디아·삼성·현대차 한자리에",
+      "link": "https://www.mt.co.kr/future/2026/09/17/2026091712410812339",
+      "source": "머니투데이",
+      "ts": 1789637400000,
+      "pub": "Thu, 17 Sep 2026 18:30:00 +0900",
+      "sentiment": "neutral",
+      "desc": "[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 '데이터랩'에서 볼 수 있습니다.] 3D AI(인공지능) 기술 기업 엔닷라이트가 국내외 피지컬 AI 전문가들이 산업의 현주소와 미래를 논의하는 네트워킹 행사 '피지컬 AI 나이트'를 ",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026091712410812339_1.jpg"
     }
   ]
 }

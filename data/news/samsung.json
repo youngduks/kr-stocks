@@ -1,8 +1,76 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-16T23:21:06.212Z",
-  "count": 15,
+  "updated_at": "2026-09-17T02:10:58.855Z",
+  "count": 16,
   "items": [
+    {
+      "title": "\"삼성전자가 투자했다\"…네덜란드 AI 반도체 스타트업은 어디?",
+      "link": "https://www.mt.co.kr/world/2026/09/17/2026091710194117444",
+      "source": "머니투데이",
+      "ts": 1789608803000,
+      "pub": "Thu, 17 Sep 2026 10:33:23 +0900",
+      "sentiment": "neutral",
+      "desc": "유클리드의 '3150억' 시리즈A 참여 삼성전자가 네덜란드 인공지능(AI) 반도체 스타트업 유클리드(Euclyd)의 공동 투자자로 참여했다. AI 반도체 시장이 그래픽처리장치(GPU) 중심에서 다양한 전용 반도체로 확장하는 상황에서 엔비디아 칩 대체수단 투자에 삼성전자",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026091710194117444_1.jpg"
+    },
+    {
+      "title": "에이치케이, '대만 TSMLA 2026' 참가… 글로벌 파운드리 공급망 공략 가속",
+      "link": "https://www.mt.co.kr/stock/2026/09/17/2026091710211049832",
+      "source": "머니투데이",
+      "ts": 1789608339000,
+      "pub": "Thu, 17 Sep 2026 10:25:39 +0900",
+      "sentiment": "neutral",
+      "desc": "국내 1위 레이저 가공기 전문기업 에이치케이가 대만 현지 공급 실적을 기반으로 TSMC 공급망 내 입지 강화에 나선다. 에이치케이는 오는 18일부터 대만 타이중에서 열리는 '대만 판금·레이저 응용 전시회 2026(Taiwan Sheet Metal Laser Applic",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026091710211049832_1.jpg"
+    },
+    {
+      "title": "SG, 삼성전자 온양캠퍼스에 에코스틸아스콘 납품 확정",
+      "link": "https://www.mt.co.kr/stock/2026/09/17/2026091708451412624",
+      "source": "머니투데이",
+      "ts": 1789607089000,
+      "pub": "Thu, 17 Sep 2026 10:04:49 +0900",
+      "sentiment": "neutral",
+      "desc": "아스콘 전문기업 SG가 삼성전자 온양캠퍼스에 친환경 고내구성 제강슬래그 아스콘인 '에코스틸아스콘'을 납품한다고 17일 밝혔다. SG는 삼성전자 온양캠퍼스에 에코스틸아스콘 납품을 확정하고 이달 말부터 내달 초 공급을 진행할 예정이다. 앞서 삼성전자 평택캠퍼스 제5반도체공",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026091708451412624_1.jpg"
+    },
+    {
+      "title": "\"떨어질 때 사자\"…원전·로봇 담고 삼전·하닉 판 초고수",
+      "link": "https://www.hankyung.com/article/202609170162i",
+      "source": "한국경제",
+      "ts": 1789604462000,
+      "pub": "Thu, 17 Sep 2026 09:21:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 삼성전자, 장 초반 0.7% 상승…SK하이닉스는 0.6%↓",
+      "link": "https://www.yna.co.kr/view/AKR20260917047100008",
+      "source": "연합뉴스 경제",
+      "ts": 1789604175000,
+      "pub": "Thu, 17 Sep 2026 09:16:15 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660] 주가가 17일 장 초반 엇갈린 흐름을 보이고 있다.",
+      "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
+    },
+    {
+      "title": "SK하이닉스 \"연산하는 메모리로 AI 데이터 병목 해결한다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260917041800091",
+      "source": "연합뉴스 국제",
+      "ts": 1789603717000,
+      "pub": "Thu, 17 Sep 2026 09:08:37 +0900",
+      "sentiment": "neutral",
+      "desc": "(샌타클래라=연합뉴스) 권영전 특파원 = SK하이닉스가 메모리 반도체 내부에서 직접 연산을 수행하는 '연산 가능 메모리'(PIM·Processi...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/17/AKR20260917041800091_01_i_P2.jpg"
+    },
+    {
+      "title": "삼성전자, 인도·중남미서 맞춤형 AI 가전 테크세미나",
+      "link": "https://www.yna.co.kr/view/AKR20260917033100003",
+      "source": "연합뉴스 경제",
+      "ts": 1789602628000,
+      "pub": "Thu, 17 Sep 2026 08:50:28 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 임성호 기자 = 삼성전자가 인도·멕시코·브라질 등 '글로벌 사우스' 핵심 국가에서 가전 테크세미나를 열고 현지 소비자 특성과 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/17/AKR20260917033100003_01_i_P2.jpg"
+    },
     {
       "title": "삼성전자 \"zHBM으로 초당 1천토큰 연다…AI에이전트 메모리승부\"",
       "link": "https://www.yna.co.kr/view/AKR20260917020600091",
@@ -12,14 +80,6 @@
       "sentiment": "neutral",
       "desc": "(샌타클래라=연합뉴스) 권영전 특파원 = 삼성전자가 인공지능(AI) 에이전트 시대를 맞아 AI 가속기 위에 메모리를 3차원(3D)으로 얹는 'z...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/17/AKR20260917020600091_01_i_P2.jpg"
-    },
-    {
-      "title": "\"같은 삼성전자 협력사인데\" … 수익률 47% VS -19% 갈린 이유는 [대기업 협력사 전수분석]",
-      "link": "https://www.hankyung.com/article/202609179699i",
-      "source": "한국경제",
-      "ts": 1789597324000,
-      "pub": "Thu, 17 Sep 2026 07:22:04 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "AI시장 HBM독주 계속될듯…\"대체기술 CXL, 저장장치 보완재일뿐\"",
@@ -32,14 +92,6 @@
       "image": "https://img.yna.co.kr/photo/cms/2026/06/24/80/PCM20260624000080990_P2.jpg"
     },
     {
-      "title": "BIS \"레버리지 ETF는 빙산의 일각\"…삼전닉스 흔드는 자동매매 [김주완의 글로벌머니 X파일]",
-      "link": "https://www.hankyung.com/article/202609169113i",
-      "source": "한국경제",
-      "ts": 1789596002000,
-      "pub": "Thu, 17 Sep 2026 07:00:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"SK하이닉스, 인텔과 미국서 메모리 생산 협상중\"(종합2보)",
       "link": "https://www.yna.co.kr/view/AKR20260916122752009",
       "source": "연합뉴스 국제",
@@ -48,46 +100,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 조성흠 이신영 오수진 기자 = SK하이닉스가 인텔과 협력해 메모리 칩을 미국에서 처음으로 생산하는 방안을 협상 중이라고 로이터...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/29/PYH2026072914440006100_P2.jpg"
-    },
-    {
-      "title": "외국인 팔고, 기관은 사고…삼성전자 2%·하이닉스 4% 상승(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260916041951008",
-      "source": "연합뉴스 경제",
-      "ts": 1789542167000,
-      "pub": "Wed, 16 Sep 2026 16:02:47 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 16일 상승 마감했다.",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
-    },
-    {
-      "title": "\"SK하이닉스, 인텔과 미국서 메모리 생산 협상중\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260916122751009",
-      "source": "연합뉴스 국제",
-      "ts": 1789541048000,
-      "pub": "Wed, 16 Sep 2026 15:44:08 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이신영 오수진 기자 = SK하이닉스가 인텔과 협력해 메모리 칩을 미국에서 처음으로 생산하는 방안을 협상 중이라고 로이터 통신이...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/29/PYH2026072914440006100_P2.jpg"
-    },
-    {
-      "title": "로이터 \"SK하이닉스, 인텔과 미국서 메모리칩 생산방안 협의중\"",
-      "link": "https://www.yna.co.kr/view/AKR20260916122700009",
-      "source": "연합뉴스 국제",
-      "ts": 1789537684000,
-      "pub": "Wed, 16 Sep 2026 14:48:04 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이신영 기자 = SK하이닉스가 인텔과 미국 내에서 메모리 칩을 처음으로 생산하는 방안에 대해 협의 중이라고 로이터 통신이 16...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/16/PRU20260916198601009_P2.jpg"
-    },
-    {
-      "title": "[속보] \"하이닉스, 인텔과 미국 메모리 생산방안 논의중\"",
-      "link": "https://www.yna.co.kr/view/AKR20260916120400009",
-      "source": "연합뉴스 국제",
-      "ts": 1789537121000,
-      "pub": "Wed, 16 Sep 2026 14:38:41 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/16/PRU20260916198601009_P2.jpg"
     },
     {
       "title": "삼성전자(주) 기타 경영사항(자율공시)",

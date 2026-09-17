@@ -1,23 +1,127 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-16T23:21:06.211Z",
-  "count": 47,
+  "updated_at": "2026-09-17T02:10:58.853Z",
+  "count": 38,
   "items": [
     {
-      "title": "트럼프, '애착 담요' 여성 보좌관과 입맞춤?…알고보니",
-      "link": "https://www.hankyung.com/article/202609179863H",
-      "source": "한국경제",
-      "ts": 1789597805000,
-      "pub": "Thu, 17 Sep 2026 07:30:05 +0900",
-      "sentiment": "neutral"
+      "title": "\"팀 쿡·샘 올트먼도 트럼프-시진핑 만찬 참석\"",
+      "link": "https://www.yna.co.kr/view/AKR20260917079500009",
+      "source": "연합뉴스 국제",
+      "ts": 1789610590000,
+      "pub": "Thu, 17 Sep 2026 11:03:10 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 팀 쿡 애플 집행의장과 샘 올트먼 오픈AI 최고경영자(CEO)도 내주 시진핑 중국 국가주석의 미국 국빈방문 기...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/05/14/PAP20260514195601009_P2.jpg"
     },
     {
-      "title": "Fed 기준금리 인상에 美 대형 은행 일제 우대금리 7%로↑",
-      "link": "https://www.hankyung.com/article/2026091798667",
-      "source": "한국경제",
-      "ts": 1789597047000,
-      "pub": "Thu, 17 Sep 2026 07:17:27 +0900",
-      "sentiment": "neutral"
+      "title": "트럼프, 고유가에 \"이란전 성과 비하면 값싼 대가\"…선거전 시동",
+      "link": "https://www.yna.co.kr/view/AKR20260917083100071",
+      "source": "연합뉴스 국제",
+      "ts": 1789610460000,
+      "pub": "Thu, 17 Sep 2026 11:01:00 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령이 16일(현지시간) 이란전쟁으로 촉발된 유가 상승 문제를 가리켜 \"우리가 해낸 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/17/AKR20260917083100071_01_i_P2.jpg"
+    },
+    {
+      "title": "우려 선반영? 불확실성 완화?…'매파적' 연준에도 코스피 상승",
+      "link": "https://www.yna.co.kr/view/AKR20260917078900008",
+      "source": "연합뉴스 경제",
+      "ts": 1789609200000,
+      "pub": "Thu, 17 Sep 2026 10:40:00 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 미국이 3년 2개월만에 기준금리를 인상하며 통화 긴축에 나섰지만 한국 주식시장은 오히려 소폭 상승하며 견조한 ...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/17/PYH2026091703480001300_P2.jpg"
+    },
+    {
+      "title": "트럼프, '마약통제 불이행국' 명단서 베네수엘라 해제",
+      "link": "https://www.yna.co.kr/view/AKR20260917074000009",
+      "source": "연합뉴스 국제",
+      "ts": 1789608539000,
+      "pub": "Thu, 17 Sep 2026 10:28:59 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 임화섭 기자 = 도널드 트럼프 미국 대통령이 매년 발표하는 '마약 통제 의무 명백 불이행국' 지정 목록에서 베네수엘라를 20여...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/17/AKR20260917074000009_02_i_P2.jpg"
+    },
+    {
+      "title": "한은 \"연준 통화정책 긴축적일 것…금융·외환시장 면밀히 점검\"",
+      "link": "https://www.mt.co.kr/economy/2026/09/17/2026091709432541811",
+      "source": "머니투데이",
+      "ts": 1789607136000,
+      "pub": "Thu, 17 Sep 2026 10:05:36 +0900",
+      "sentiment": "neutral",
+      "desc": "미국 연방준비제도(Fed·연준)가 3년여 만에 기준금리를 인상한 가운데 한국은행이 향후 연준의 통화정책 기조가 긴축적으로 이어질 것으로 전망했다. 한국은행은 17일 오전 권민수 부총재 주재로 '시장상황 점검회의'를 열고 미국 연방공개시장위원회(FOMC) 회의 결과에 따",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026091709432541811_1.jpg"
+    },
+    {
+      "title": "관세청, 중앙아와 통관·세원 협력 강화…MOU 맺고 양자회담도",
+      "link": "https://www.yna.co.kr/view/AKR20260917055000002",
+      "source": "연합뉴스 경제",
+      "ts": 1789606309000,
+      "pub": "Thu, 17 Sep 2026 09:51:49 +0900",
+      "sentiment": "neutral",
+      "desc": "(세종=연합뉴스) 안채원 기자 = 관세청이 '제1회 한-중앙아시아 정상회의'를 계기로 중앙아시아 국가들과 통관·세원 협력을 강화했다고 17일 밝...",
+      "image": "https://img.yna.co.kr/photo/cms/2024/12/28/79/PCM20241228000079640_P2.jpg"
+    },
+    {
+      "title": "증권가 \"매파적 연준\"…국내 채권금리 영향에 촉각",
+      "link": "https://www.yna.co.kr/view/AKR20260917040500008",
+      "source": "연합뉴스 경제",
+      "ts": 1789605530000,
+      "pub": "Thu, 17 Sep 2026 09:38:50 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 강수지 기자 = 미국 연방준비제도(Fed)가 3년 2개월 만에 기준금리 인상을 단행하며 물가 안정에 대한 강력한 의지를 드러낸...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/17/AKR20260917040500008_01_i_P2.jpg"
+    },
+    {
+      "title": "트럼프, '캐나다 준회원국' 추진 EU에 \"관세부과 또는 교역중단\"",
+      "link": "https://www.yna.co.kr/view/AKR20260917044100071",
+      "source": "연합뉴스 국제",
+      "ts": 1789604052000,
+      "pub": "Thu, 17 Sep 2026 09:14:12 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령은 16일(현지시간) 유럽연합(EU)이 캐나다에 EU의 첫 준회원국 지위를 제안한...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/17/PAP20260917124901009_P2.jpg"
+    },
+    {
+      "title": "한은 \"향후 미 연준 통화정책 기조 긴축적일 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260917044800002",
+      "source": "연합뉴스 경제",
+      "ts": 1789603984000,
+      "pub": "Thu, 17 Sep 2026 09:13:04 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 한지훈 기자 = 한국은행은 17일 \"향후 미국 연방준비제도(Fed)의 통화정책 기조가 긴축적일 것으로 예상된다\"고 밝혔다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082104160001300_P2.jpg"
+    },
+    {
+      "title": "연준 금리인상에 달러·국채금리 동반 강세",
+      "link": "https://www.yna.co.kr/view/AKR20260917026800009",
+      "source": "연합뉴스 경제",
+      "ts": 1789602862000,
+      "pub": "Thu, 17 Sep 2026 08:54:22 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 미 국채 금리와 달러화가 연준의 금리인상 이후 동반 강세를 이어갔다. 통화정책에 민감한 자산들이 일제히 '긴축...",
+      "image": "https://img.yna.co.kr/photo/ap/2023/08/19/PAP20230819128801009_P2.jpg"
+    },
+    {
+      "title": "트럼프 \"美금리 1% 이하여야…연준, 정치적 이유로 금리인상\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260917012151071",
+      "source": "연합뉴스 경제",
+      "ts": 1789602636000,
+      "pub": "Thu, 17 Sep 2026 08:50:36 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령은 16일(현지시간) 미 연방준비제도(Fed·연준)가 기준금리를 올린 데 대해 \"...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/08/25/PRU20260825085501009_P2.jpg"
+    },
+    {
+      "title": "워시 \"인상 결정은 연준이 한 것…시장 주도한 것 아니다\"",
+      "link": "https://www.yna.co.kr/view/AKR20260917024600009",
+      "source": "연합뉴스 국제",
+      "ts": 1789600826000,
+      "pub": "Thu, 17 Sep 2026 08:20:26 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 주종국 기자 = 미국 연방준비제도(Fed·연준)의 케빈 워시 의장이 16일(현지시간) 기준금리 인상 결정과 관련해 시장 상황에...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/17/PAP20260917051701009_P2.jpg"
     },
     {
       "title": "취임 넉 달 만에…'금리인하 압박' 트럼프와 충돌 불사한 워시",
@@ -40,14 +144,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/17/AKR20260917015600072_01_i_P2.jpg"
     },
     {
-      "title": "트럼프 \"美 금리 1%이거나 그보다 낮아야\"…Fed 금리인상 맹공",
-      "link": "https://www.hankyung.com/article/2026091797877",
-      "source": "한국경제",
-      "ts": 1789593130000,
-      "pub": "Thu, 17 Sep 2026 06:12:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "유가 100달러 물가충격…워시 연준, 트럼프 맞서며 만장일치 긴축(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260917008251072",
       "source": "연합뉴스 국제",
@@ -56,14 +152,6 @@
       "sentiment": "neutral",
       "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 좀처럼 잡히지 않는 인플레이션에 국제유가 급등이라는 물가 충격까지 덮치면서 미 연방준비제도(Fed·연준)가 ...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/09/17/PRU20260917078901009_P2.jpg"
-    },
-    {
-      "title": "美 기준금리 인상하자 트럼프 뿔났다…\"빨리 1% 이하로 낮춰라\" [Fed 워치]",
-      "link": "https://www.hankyung.com/article/202609179777i",
-      "source": "한국경제",
-      "ts": 1789592683000,
-      "pub": "Thu, 17 Sep 2026 06:04:43 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "연준 금리인상·워시 매파발언에 뉴욕증시 하락…다우 1.2%↓(종합)",
@@ -126,22 +214,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/17/AKR20260917010700079_01_i_P2.jpg"
     },
     {
-      "title": "美, 기준금리 0.25%p 인상…\"연내 한 번 더 올린다\" [Fed 워치]",
-      "link": "https://www.hankyung.com/article/202609179760i",
-      "source": "한국경제",
-      "ts": 1789589323000,
-      "pub": "Thu, 17 Sep 2026 05:08:43 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "워시 \"물가 너무 오래 높았다\"…독립성 논란엔 \"각자 영역 지켜야\" [FOMC 전문]",
-      "link": "https://www.hankyung.com/article/202609179752i",
-      "source": "한국경제",
-      "ts": 1789587921000,
-      "pub": "Thu, 17 Sep 2026 04:45:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "'초기 유방암' 투병하던 백악관 비서실장 \"완치됐다\"",
       "link": "https://www.yna.co.kr/view/AKR20260917008900071",
       "source": "연합뉴스 국제",
@@ -162,14 +234,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/17/AKR20260917009200071_01_i_P2.jpg"
     },
     {
-      "title": "\"채권금리 상승은 경제전망 반영\"…낙관적으로 해석한 워시 [Fed워치]",
-      "link": "https://www.hankyung.com/article/202609179748i",
-      "source": "한국경제",
-      "ts": 1789587050000,
-      "pub": "Thu, 17 Sep 2026 04:30:50 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "美 전직당국자 \"미중정상회담서 北관련 새로운 내용 없을 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260917006700071",
       "source": "연합뉴스 국제",
@@ -178,22 +242,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 오는 24일 백악관에서 열릴 예정인 도널드 트럼프 미국 대통령과 시진핑 중국 국가주석의 미중 정상회담에서 ...",
       "image": "https://img.yna.co.kr/photo/ap/2026/08/26/PAP20260826084401009_P2.jpg"
-    },
-    {
-      "title": "워시, 베선트에 일침 \"무역·재정정책, 각자 영역 지켜야\" [Fed워치]",
-      "link": "https://www.hankyung.com/article/202609179744i",
-      "source": "한국경제",
-      "ts": 1789586259000,
-      "pub": "Thu, 17 Sep 2026 04:17:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "워시 \"물가 너무 높은 상태…금융 여건 긴축적이지 않아\" [Fed 워치]",
-      "link": "https://www.hankyung.com/article/202609179742i",
-      "source": "한국경제",
-      "ts": 1789585813000,
-      "pub": "Thu, 17 Sep 2026 04:10:13 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "유가 100달러 물가 충격…워시 연준, 트럼프 맞서며 긴축카드",
@@ -206,14 +254,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/17/AKR20260917008200072_01_i_P2.jpg"
     },
     {
-      "title": "워시 \"7월 후 '지정학적 상황' 변화, 만장일치에 기여\" [Fed워치]",
-      "link": "https://www.hankyung.com/article/202609179738i",
-      "source": "한국경제",
-      "ts": 1789585358000,
-      "pub": "Thu, 17 Sep 2026 04:02:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] 워시 '트럼프에 메시지' 질문엔 \"할 말 없다\"",
       "link": "https://www.yna.co.kr/view/AKR20260917008400072",
       "source": "연합뉴스 국제",
@@ -222,38 +262,6 @@
       "sentiment": "neutral",
       "desc": "(",
       "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
-    },
-    {
-      "title": "[속보] 케빈 워시 \"현재 금융여건 긴축적이지 않다\"...추가 인상 예고 [Fed 워치]",
-      "link": "https://www.hankyung.com/article/202609179736i",
-      "source": "한국경제",
-      "ts": 1789584513000,
-      "pub": "Thu, 17 Sep 2026 03:48:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "워시 \"인플레 너무 높으며, 이런 상태 너무 오래 지속됐다\" [Fed 워치]",
-      "link": "https://www.hankyung.com/article/202609179733i",
-      "source": "한국경제",
-      "ts": 1789584178000,
-      "pub": "Thu, 17 Sep 2026 03:42:58 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "기자회견장 좌석배치 바꾼 워시…WSJ·NYT 뒤로 보냈다 [Fed워치]",
-      "link": "https://www.hankyung.com/article/202609179731i",
-      "source": "한국경제",
-      "ts": 1789583649000,
-      "pub": "Thu, 17 Sep 2026 03:34:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 중앙은행, 기준금리 0.25%p 인상…\"연내 한 번 더 올린다\" [Fed 워치]",
-      "link": "https://www.hankyung.com/article/202609179715i",
-      "source": "한국경제",
-      "ts": 1789582833000,
-      "pub": "Thu, 17 Sep 2026 03:20:33 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "스웨덴, 이란 공관 직원 추방·대사 초치…\"이스라엘 이익 위협\"(종합)",
@@ -276,14 +284,6 @@
       "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
     },
     {
-      "title": "[속보] Fed, 9월 인상 후 한 차례 추가 인상에 무게 [Fed 워치]",
-      "link": "https://www.hankyung.com/article/202609179726i",
-      "source": "한국경제",
-      "ts": 1789581923000,
-      "pub": "Thu, 17 Sep 2026 03:05:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] 연준 금리 전망치 중간값, 3.8%→4.1%로…추가인상 시사",
       "link": "https://www.yna.co.kr/view/AKR20260917004600071",
       "source": "연합뉴스 국제",
@@ -296,7 +296,7 @@
     {
       "title": "[2보] 美연준, 기준금리 0.25%p 인상…3년2개월만의 긴축조치",
       "link": "https://www.yna.co.kr/view/AKR20260917002400071",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1789581705000,
       "pub": "Thu, 17 Sep 2026 03:01:45 +0900",
       "sentiment": "neutral",
@@ -304,30 +304,14 @@
       "image": "https://img.yna.co.kr/photo/reuters/2026/09/16/PRU20260916253701009_P2.jpg"
     },
     {
-      "title": "[속보] Fed, 美 기준금리 연 3.75~4%로 인상...'만장일치' [Fed 워치]",
-      "link": "https://www.hankyung.com/article/202609179714i",
-      "source": "한국경제",
-      "ts": 1789581688000,
-      "pub": "Thu, 17 Sep 2026 03:01:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[1보] 美연준, 기준금리 0.25%p 인상",
       "link": "https://www.yna.co.kr/view/AKR20260917002300071",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1789581662000,
       "pub": "Thu, 17 Sep 2026 03:01:02 +0900",
       "sentiment": "neutral",
       "desc": "(",
       "image": "https://img.yna.co.kr/photo/reuters/2026/09/16/PRU20260916253701009_P2.jpg"
-    },
-    {
-      "title": "임박한 9월 美 FOMC, 주목해야 할 포인트 [Fed 워치]",
-      "link": "https://www.hankyung.com/article/202609169685i",
-      "source": "한국경제",
-      "ts": 1789576483000,
-      "pub": "Thu, 17 Sep 2026 01:34:43 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "美중간선거 본선 대진표 완성…다급한 트럼프 경합주 지원유세",
@@ -398,46 +382,6 @@
       "sentiment": "neutral",
       "desc": "(카이로=연합뉴스) 김상훈 특파원 = 이스라엘 총선이 한 달여 앞으로 다가온 가운데 현 우파 정권의 핵심 인사인 이스라엘 카츠 국방부 장관이 가...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/16/AKR20260916167200079_06_i_P2.jpg"
-    },
-    {
-      "title": "FOMC 관망 속 국고채 금리 하락…3년물 연 4.053%(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260916157051008",
-      "source": "연합뉴스 경제",
-      "ts": 1789545557000,
-      "pub": "Wed, 16 Sep 2026 16:59:17 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 고은지 기자 = 미국 연방공개시장위원회(FOMC)의 기준금리 결정을 앞두고 관망세가 짙어지며 국고채 금리가 일제히 하락했다.",
-      "image": "https://img.yna.co.kr/photo/cms/2024/03/04/45/PCM20240304000145990_P2.jpg"
-    },
-    {
-      "title": "화학산업협회-관세청, 산업 보호·공정무역질서 확립 협약",
-      "link": "https://www.yna.co.kr/view/AKR20260916123300003",
-      "source": "연합뉴스 경제",
-      "ts": 1789540200000,
-      "pub": "Wed, 16 Sep 2026 15:30:00 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 임성호 기자 = 한국화학산업협회는 16일 서울 종로구 협회 사옥에서 관세청과 '국내산업 보호 및 공정무역질서 확립을 위한 업무...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/16/AKR20260916123300003_01_i_P2.jpg"
-    },
-    {
-      "title": "[게시판] 관세청 '납세자 보호위' 간담회…권리보호제도 개편 논의",
-      "link": "https://www.yna.co.kr/view/AKR20260916132400002",
-      "source": "연합뉴스 경제",
-      "ts": 1789539326000,
-      "pub": "Wed, 16 Sep 2026 15:15:26 +0900",
-      "sentiment": "neutral",
-      "desc": "▲ 관세청은 16일 본청 및 전국 6개 본부세관 납세자보호위원회 위원장들과 간담회를 하고 납세자 권리보호 제도 개편 방안을 점검·논의했다. 관세...",
-      "image": "https://img.yna.co.kr/photo/cms/2024/12/28/79/PCM20241228000079640_P2.jpg"
-    },
-    {
-      "title": "젤렌스키, 日중의원 의장에 다카이치 총리 방문 요청",
-      "link": "https://www.yna.co.kr/view/AKR20260916110700073",
-      "source": "연합뉴스 국제",
-      "ts": 1789535431000,
-      "pub": "Wed, 16 Sep 2026 14:10:31 +0900",
-      "sentiment": "neutral",
-      "desc": "(도쿄=연합뉴스) 이도연 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령이 모리 에이스케 일본 중의원(하원격) 의장을 만나 다카이치 사나에 일본...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/16/AKR20260916110700073_01_i_P2.jpg"
     }
   ]
 }

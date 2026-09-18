@@ -64,39 +64,69 @@ function decodeEntities(s) {
 
 // ────────────────────────────────────────────────────────────
 // Playwright — 자막 추출 (스크립트 패널 렌더링 방식만 안정적으로 동작함, 실측 확인)
+//
+// ⚠️ 2026-09-18 CI 실측: 로컬 수동 테스트(기존 쿠키/로케일 있는 브라우저)에서는 됐지만,
+// GitHub Actions의 깨끗한 새 브라우저는 쿠키가 없어 YouTube가 영어 UI로 뜨는 바람에
+// 한국어 전용 aria-label("스크립트") 매칭이 실패 → 자막 추출이 항상 실패했음.
+// 고침: ?hl=ko + Accept-Language 헤더로 한국어를 강제하되, 그래도 안 먹는 경우를 대비해
+// 버튼 매칭 자체도 한/영 둘 다 인식하도록 완화(방어적 이중화).
 // ────────────────────────────────────────────────────────────
 async function fetchTranscript(videoId) {
   const browser = await chromium.launch();
   try {
-    const page = await browser.newPage();
-    await page.goto(`https://www.youtube.com/watch?v=${videoId}`, {
+    const context = await browser.newContext({
+      locale: "ko-KR",
+      extraHTTPHeaders: { "Accept-Language": "ko-KR,ko;q=0.9" },
+    });
+    const page = await context.newPage();
+    await page.goto(`https://www.youtube.com/watch?v=${videoId}&hl=ko`, {
       waitUntil: "domcontentloaded",
       timeout: 30000,
     });
 
-    const clicked = await page.evaluate(() => {
-      const buttons = [...document.querySelectorAll("button")];
-      const btn = buttons.find((b) => (b.getAttribute("aria-label") || "").includes("스크립트"));
-      if (btn) {
-        btn.click();
-        return true;
-      }
-      return false;
-    });
+    // YouTube가 SPA라 액션 버튼 영역이 늦게 하이드레이션됨 — 버튼이 나타날 때까지 폴링.
+    let clicked = false;
+    for (let i = 0; i < 8 && !clicked; i++) {
+      await page.waitForTimeout(1000);
+      clicked = await page.evaluate(() => {
+        const isTranscriptBtn = (el) => {
+          const label = `${el.getAttribute("aria-label") || ""} ${el.textContent || ""}`;
+          return /스크립트|transcript/i.test(label);
+        };
+        // 설명란이 접혀있으면 그 안에 트랜스크립트 버튼이 없는 레이아웃도 있어 먼저 펼쳐봄.
+        const expandBtn = [...document.querySelectorAll("tp-yt-paper-button, button")].find(
+          (b) => /더보기|more/i.test(b.textContent || "") && b.offsetParent !== null,
+        );
+        if (expandBtn) expandBtn.click();
+
+        const btn = [...document.querySelectorAll("button")].find(
+          (b) => isTranscriptBtn(b) && b.offsetParent !== null,
+        );
+        if (btn) {
+          btn.click();
+          return true;
+        }
+        return false;
+      });
+    }
     if (!clicked) return null;
 
-    await page.waitForTimeout(2000);
-
-    const text = await page.evaluate(() => {
-      const segs = [...document.querySelectorAll("ytd-transcript-segment-renderer")];
-      return segs
-        .map((s) => s.textContent.trim())
-        .filter(Boolean)
-        .join(" ")
-        // 세그먼트 텍스트가 타임스탬프+중복 렌더로 겹쳐 나오는 경우가 있어(예: "0:02 이제 그 뉴스 이제 그
-        // 뉴스") 대략적인 정리만 함 — 완벽한 클린업은 아니고 LLM이 이해하는 데 지장 없는 수준이면 충분.
-        .replace(/\d+:\d+(:\d+)?/g, "");
-    });
+    // 세그먼트가 실제로 렌더될 때까지 폴링 (고정 대기 대신).
+    let text = "";
+    for (let i = 0; i < 8; i++) {
+      await page.waitForTimeout(1000);
+      text = await page.evaluate(() => {
+        const segs = [...document.querySelectorAll("ytd-transcript-segment-renderer")];
+        return segs
+          .map((s) => s.textContent.trim())
+          .filter(Boolean)
+          .join(" ")
+          // 세그먼트 텍스트가 타임스탬프+중복 렌더로 겹쳐 나오는 경우가 있어(예: "0:02 이제 그 뉴스 이제 그
+          // 뉴스") 대략적인 정리만 함 — 완벽한 클린업은 아니고 LLM이 이해하는 데 지장 없는 수준이면 충분.
+          .replace(/\d+:\d+(:\d+)?/g, "");
+      });
+      if (text.length > 200) break;
+    }
 
     return text && text.length > 200 ? text.slice(0, 12000) : null;
   } catch (e) {

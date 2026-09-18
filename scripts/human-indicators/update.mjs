@@ -94,25 +94,29 @@ async function fetchTranscript(videoId) {
 
     // YouTube가 SPA라 액션 버튼 영역이 늦게 하이드레이션됨 — 버튼이 나타날 때까지 폴링.
     // 설명란 "더보기"는 최초 1회만 시도(매 루프 클릭하면 레이아웃이 계속 토글돼 불안정해짐).
+    // ⚠️ 2026-09-18 MCP 실측: 제네릭 "더보기" 텍스트 매칭은 #expand-sizer(측정용 숨은 복제
+    // 엘리먼트)를 먼저 잡아 실제 확장이 안 될 때가 있었음 → 정확한 #expand로 한정.
+    // 스크립트 버튼도 ytd-video-description-transcript-section-renderer 안의 button으로
+    // 특정(같은 aria-label을 가진 비활성 복제가 more-actions 메뉴 등에 더 있을 수 있어서).
     let expandTried = false;
     let clicked = false;
     for (let i = 0; i < 8 && !clicked; i++) {
       await page.waitForTimeout(1000);
       clicked = await page.evaluate((tryExpand) => {
-        const isTranscriptBtn = (el) => {
-          const label = `${el.getAttribute("aria-label") || ""} ${el.textContent || ""}`;
-          return /스크립트|transcript/i.test(label);
-        };
         if (tryExpand) {
-          const expandBtn = [...document.querySelectorAll("tp-yt-paper-button#expand, button")].find(
-            (b) => /더보기|more/i.test(b.textContent || "") && b.offsetParent !== null,
-          );
-          if (expandBtn) expandBtn.click();
+          const expandBtn = document.querySelector("tp-yt-paper-button#expand");
+          if (expandBtn && expandBtn.offsetParent !== null) expandBtn.click();
         }
 
-        const btn = [...document.querySelectorAll("button")].find(
-          (b) => isTranscriptBtn(b) && b.offsetParent !== null,
-        );
+        const section = document.querySelector("ytd-video-description-transcript-section-renderer");
+        const specificBtn = section?.querySelector("button");
+        const btn =
+          specificBtn && specificBtn.offsetParent !== null
+            ? specificBtn
+            : [...document.querySelectorAll("button")].find((b) => {
+                const label = `${b.getAttribute("aria-label") || ""} ${b.textContent || ""}`;
+                return /스크립트|transcript/i.test(label) && b.offsetParent !== null;
+              });
         if (btn) {
           btn.click();
           return true;
@@ -149,7 +153,14 @@ async function fetchTranscript(videoId) {
       if (text.length > 200) break;
     }
 
-    return text && text.length > 200 ? text.slice(0, 12000) : null;
+    if (!(text && text.length > 200)) {
+      // 버튼 클릭까진 됐는데 세그먼트가 안 생기는 경우(예: 자동자막 처리 미완료 영상) — 진단 로그.
+      console.error(
+        `[human-indicators] 스크립트 패널은 열렸으나 세그먼트 없음(자동자막 미처리 가능) — textLen=${text.length}`,
+      );
+      return null;
+    }
+    return text.slice(0, 12000);
   } catch (e) {
     console.error(`[human-indicators] transcript fetch 실패(${videoId}):`, e.message);
     return null;

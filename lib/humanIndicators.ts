@@ -1,7 +1,14 @@
-// "인간지표" 페이지의 인물 지표 섹션 — 특정 인물(유튜버 등)의 시장 발언을 수동 큐레이션.
-// data/human_indicators.json을 직접 편집해 갱신 (자동화 아님, 봇 커밋 아님 → 빌드타임 import 안전).
+// "인간지표" 페이지의 인물 지표 섹션 — 특정 인물(유튜버 등)의 시장 발언.
+// data/human_indicators.json을 scripts/human-indicators/update.mjs가 매일 자동 갱신.
+//
+// ⚠️ 빌드타임 import(../data/...json) 대신 GitHub raw를 런타임에 fetch — 이 데이터를
+// 갱신하는 봇 커밋은 vercel.json ignoreCommand로 재빌드를 스킵하므로(비용 절감), 만약
+// 빌드타임 import를 쓰면 그 다음 "진짜" 코드 배포가 있기 전까지 화면이 오래된 값에
+// 영구히 멈춤(2026-09-04, trading_flow가 8/24에 멈춰있던 걸로 실측 확인한 기존 버그
+// — 동일 실수 반복 방지). lib/buyback.ts와 같은 패턴.
 
-import raw from "../data/human_indicators.json";
+const GITHUB_RAW =
+  "https://raw.githubusercontent.com/youngduks/kr-stocks/main/data/human_indicators.json";
 
 export type IndicatorStance = "bullish" | "bearish" | "cautious" | "neutral";
 
@@ -20,15 +27,24 @@ export type IndicatorPerson = {
   name: string;
   channel: string;
   channel_url: string;
+  /** YouTube 채널 ID — scripts/human-indicators/update.mjs가 RSS 조회에 사용. */
+  channel_id?: string;
+  /** 마지막으로 확인한 영상 ID — 중복 처리 방지용, 프론트엔드에서는 안 씀. */
+  last_checked_video_id?: string;
   tagline: string;
   note: string;
   opinions: IndicatorOpinion[];
 };
 
-const DATA = raw as unknown as { people: IndicatorPerson[] };
-
-export function getHumanIndicators(): IndicatorPerson[] {
-  return DATA.people;
+export async function getHumanIndicators(): Promise<IndicatorPerson[]> {
+  try {
+    const res = await fetch(GITHUB_RAW, { next: { revalidate: 3600 } });
+    if (!res.ok) return [];
+    const data = (await res.json()) as { people: IndicatorPerson[] };
+    return data.people ?? [];
+  } catch {
+    return [];
+  }
 }
 
 export const STANCE_LABEL: Record<IndicatorStance, { ko: string; color: string }> = {

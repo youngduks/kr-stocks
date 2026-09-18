@@ -16,8 +16,11 @@ import { KakaoAdFit } from "@/components/KakaoAdFit";
 export const revalidate = 120; // ISR 캐시 30s → 120s (Free tier 최적화, 5/25)
 
 export default async function Home() {
-  const [data, semiSignal] = await Promise.all([fetchAllPrices(), fetchSemiSignal()]);
-  const people = getHumanIndicators();
+  const [data, semiSignal, people] = await Promise.all([
+    fetchAllPrices(),
+    fetchSemiSignal(),
+    getHumanIndicators(),
+  ]);
 
   // 카테고리 순서 (형님 명시): 한국주식 → 비상장 → 미국주식 → ETF(테마) → 글로벌 지수
   const order: SymbolMeta["category"][] = ["korea", "private", "us", "themes", "global"];

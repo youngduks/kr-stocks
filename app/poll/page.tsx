@@ -112,9 +112,8 @@ function HistoryCard({ p }: { p: EnrichedPollHistory }) {
 }
 
 export default async function PollPage() {
-  const prices = await fetchAllPrices();
+  const [prices, people] = await Promise.all([fetchAllPrices(), getHumanIndicators()]);
   const { polls, resolvedCount, correctCount, hitRate } = getPollHistory();
-  const people = getHumanIndicators();
 
   return (
     <>

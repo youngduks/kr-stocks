@@ -84,20 +84,31 @@ async function fetchTranscript(videoId) {
       timeout: 30000,
     });
 
+    // 동의(consent) 인터스티셜이 뜨면 버튼 영역 자체가 다름 — 있으면 먼저 치움(없으면 no-op).
+    await page.evaluate(() => {
+      const btn = [...document.querySelectorAll("button")].find((b) =>
+        /모두 동의|accept all|i agree/i.test(b.textContent || ""),
+      );
+      if (btn) btn.click();
+    });
+
     // YouTube가 SPA라 액션 버튼 영역이 늦게 하이드레이션됨 — 버튼이 나타날 때까지 폴링.
+    // 설명란 "더보기"는 최초 1회만 시도(매 루프 클릭하면 레이아웃이 계속 토글돼 불안정해짐).
+    let expandTried = false;
     let clicked = false;
     for (let i = 0; i < 8 && !clicked; i++) {
       await page.waitForTimeout(1000);
-      clicked = await page.evaluate(() => {
+      clicked = await page.evaluate((tryExpand) => {
         const isTranscriptBtn = (el) => {
           const label = `${el.getAttribute("aria-label") || ""} ${el.textContent || ""}`;
           return /스크립트|transcript/i.test(label);
         };
-        // 설명란이 접혀있으면 그 안에 트랜스크립트 버튼이 없는 레이아웃도 있어 먼저 펼쳐봄.
-        const expandBtn = [...document.querySelectorAll("tp-yt-paper-button, button")].find(
-          (b) => /더보기|more/i.test(b.textContent || "") && b.offsetParent !== null,
-        );
-        if (expandBtn) expandBtn.click();
+        if (tryExpand) {
+          const expandBtn = [...document.querySelectorAll("tp-yt-paper-button#expand, button")].find(
+            (b) => /더보기|more/i.test(b.textContent || "") && b.offsetParent !== null,
+          );
+          if (expandBtn) expandBtn.click();
+        }
 
         const btn = [...document.querySelectorAll("button")].find(
           (b) => isTranscriptBtn(b) && b.offsetParent !== null,
@@ -107,9 +118,19 @@ async function fetchTranscript(videoId) {
           return true;
         }
         return false;
-      });
+      }, !expandTried);
+      expandTried = true;
     }
-    if (!clicked) return null;
+    if (!clicked) {
+      // 실패 원인을 다음 CI 로그에서 바로 알 수 있도록 진단 정보 남김(추측 대신 실측).
+      const diag = await page.evaluate(() => ({
+        title: document.title,
+        buttonCount: document.querySelectorAll("button").length,
+        bodySnippet: (document.body.innerText || "").slice(0, 200).replace(/\s+/g, " "),
+      }));
+      console.error(`[human-indicators] 스크립트 버튼 못 찾음 — 진단:`, JSON.stringify(diag));
+      return null;
+    }
 
     // 세그먼트가 실제로 렌더될 때까지 폴링 (고정 대기 대신).
     let text = "";

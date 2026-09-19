@@ -1,8 +1,28 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-19T19:02:05.374Z",
-  "count": 32,
+  "updated_at": "2026-09-19T21:52:46.486Z",
+  "count": 31,
   "items": [
+    {
+      "title": "[마켓인사이트] 미중회담 빅이벤트·추석연휴…韓증시 어디로",
+      "link": "https://www.yna.co.kr/view/AKR20260918189100008",
+      "source": "연합뉴스 경제",
+      "ts": 1789851606000,
+      "pub": "Sun, 20 Sep 2026 06:00:06 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 지난 한 주 국내 주식시장은 국제유가와 금리 급등, 인공지능(AI) 속도조절론 등 대형 악재가 연달아 엄습해 ...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/05/14/PRU20260514229901009_P2.jpg"
+    },
+    {
+      "title": "백악관기자協 \"CNN 등 출입금지, 수정헌법 1조 위반…복원해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260920002900071",
+      "source": "연합뉴스 국제",
+      "ts": 1789844672000,
+      "pub": "Sun, 20 Sep 2026 04:04:32 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 미국 백악관출입기자협회(WHCA)는 19일(현지시간) 일부 매체 소속 기자들이 백악관 출입을 거부당한 것에...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/20/AKR20260920002900071_01_i_P2.jpg"
+    },
     {
       "title": "트럼프 \"우주군처럼 'AI軍' 창설…AI 우위 유지할 것\"",
       "link": "https://www.yna.co.kr/view/AKR20260920002300071",
@@ -292,36 +312,6 @@
       "sentiment": "neutral",
       "desc": "(요하네스버그=연합뉴스) 나확진 특파원 = 러시아 외무부는 18일(현지시간) 모스크바 주재 영국 대사대리 다나에 돌라키아를 초치해 영국이 우크라...",
       "image": "https://img.yna.co.kr/photo/etc/ta/2026/03/30/PTA20260330021801009_P2.jpg"
-    },
-    {
-      "title": "\"미국과 이스라엘에 죽음을\"…이란서 개전 후 최대 반미 관제 시위",
-      "link": "https://www.yna.co.kr/view/AKR20260918171200079",
-      "source": "연합뉴스 국제",
-      "ts": 1789723004000,
-      "pub": "Fri, 18 Sep 2026 18:16:44 +0900",
-      "sentiment": "neutral",
-      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 이란 수도 테헤란에서 지난 2월 전쟁 발발 이후 최대 규모의 관제 시위가 열렸다.",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/18/PEP20260918115801009_P2.jpg"
-    },
-    {
-      "title": "日언론 \"UN총회중 미일정상회담 22일 개최\"…미중보다 빨라(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260918121351009",
-      "source": "연합뉴스 국제",
-      "ts": 1789721385000,
-      "pub": "Fri, 18 Sep 2026 17:49:45 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울·도쿄=연합뉴스) 김병규 기자 이도연 특파원 = 일본과 미국 정부가 오는 22일(현지시간) 미국에서 양국 정상회담을 개최하는 방안을 추진하...",
-      "image": "https://img.yna.co.kr/photo/cms/2025/10/28/02/PCM20251028000002990_P2.jpg"
-    },
-    {
-      "title": "트럼프, 워시와 대화…\"혼자선 못 바꾸니 하고싶은대로 하라\"",
-      "link": "https://www.yna.co.kr/view/AKR20260918036300009",
-      "source": "연합뉴스 경제",
-      "ts": 1789694792000,
-      "pub": "Fri, 18 Sep 2026 10:26:32 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 도널드 트럼프 미국 대통령은 케빈 워시 연방준비제도(Fed·연준) 의장에게 금리 인상에 반대하지 말고 '이사진...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/17/PRU20260917139401009_P2.jpg"
     }
   ]
 }

@@ -1,8 +1,66 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-19T05:14:20.355Z",
-  "count": 27,
+  "updated_at": "2026-09-19T09:52:07.502Z",
+  "count": 29,
   "items": [
+    {
+      "title": "푸틴, 총선 끝나면 '은밀한 동원령' 준비하나…유럽 긴장",
+      "link": "https://www.yna.co.kr/view/AKR20260919050800085",
+      "source": "연합뉴스 국제",
+      "ts": 1789808791000,
+      "pub": "Sat, 19 Sep 2026 18:06:31 +0900",
+      "sentiment": "neutral",
+      "desc": "(런던=연합뉴스) 김지연 특파원 = 서방 정보 당국자들도 블라디미르 푸틴 러시아 대통령이 이번 주말 총선 후 '은밀한 동원령'을 내리기 위한 사...",
+      "image": "https://img.yna.co.kr/photo/etc/ta/2026/08/02/PTA20260802063901009_P2.jpg"
+    },
+    {
+      "title": "이란, 이스라엘 간첩 혐의 남성 교수형 집행",
+      "link": "https://www.yna.co.kr/view/AKR20260919049400109",
+      "source": "연합뉴스 국제",
+      "ts": 1789805889000,
+      "pub": "Sat, 19 Sep 2026 17:18:09 +0900",
+      "sentiment": "neutral",
+      "desc": "(로마=연합뉴스) 민경락 특파원 = 이란이 이스라엘에 미사일 기지 정보를 몰래 넘긴 혐의를 받는 남성을 교수형에 처했다고 로이터통신이 19일(현...",
+      "image": "https://img.yna.co.kr/photo/etc/gt/2026/06/22/PGT20260622106601009_P2.jpg"
+    },
+    {
+      "title": "트럼프는 'AI 위험' 사기라고 했지만…백악관 내부선 신중론도",
+      "link": "https://www.yna.co.kr/view/AKR20260919047200009",
+      "source": "연합뉴스 국제",
+      "ts": 1789802631000,
+      "pub": "Sat, 19 Sep 2026 16:23:51 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 고일환 기자 = 도널드 트럼프 미국 대통령은 인공지능(AI)의 위험을 '사기'라고 일축했지만, 백악관 내부에서는 AI 규제에 ...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/03/17/PAP20260317039801009_P2.jpg"
+    },
+    {
+      "title": "美·덴마크 '그린란드 합의'…\"트럼프 병합구상엔 크게 못 미쳐\"",
+      "link": "https://www.yna.co.kr/view/AKR20260919042300009",
+      "source": "연합뉴스 국제",
+      "ts": 1789797042000,
+      "pub": "Sat, 19 Sep 2026 14:50:42 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 고일환 기자 = 미국과 덴마크가 그린란드에 관한 안보 합의에 도달했지만, 도널드 트럼프 대통령이 당초 내세웠던 병합 구상과는 ...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/01/08/PAP20260108027901009_P2.jpg"
+    },
+    {
+      "title": "NYT \"李, 트럼프 파병 요청 거부\"…靑 \"거절한 것 아니다\"",
+      "link": "https://www.hankyung.com/article/2026091951907",
+      "source": "한국경제",
+      "ts": 1789795505000,
+      "pub": "Sat, 19 Sep 2026 14:25:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"미중정상회담 앞둔 美, 대만 무기판매 결정 연말로 연기 검토\"",
+      "link": "https://www.yna.co.kr/view/AKR20260919039000083",
+      "source": "연합뉴스 국제",
+      "ts": 1789795031000,
+      "pub": "Sat, 19 Sep 2026 14:17:11 +0900",
+      "sentiment": "neutral",
+      "desc": "(베이징=연합뉴스) 한종구 특파원 = 시진핑 중국 국가주석의 미국 방문을 앞두고 미국이 대만에 대한 대규모 무기 판매 결정과 발표를 연말까지 미...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/08/26/PAP20260826084401009_P2.jpg"
+    },
     {
       "title": "美보건장관, 백신 반대단체 행사서 \"백악관에 친구 있다\" 강조",
       "link": "https://www.yna.co.kr/view/AKR20260919035000075",
@@ -65,14 +123,6 @@
     },
     {
       "title": "[속보] 트럼프 \"그린란드 내 미군 주둔 강화하기로 덴마크와 합의\"",
-      "link": "https://www.hankyung.com/article/2026091948697",
-      "source": "한국경제",
-      "ts": 1789768816000,
-      "pub": "Sat, 19 Sep 2026 07:00:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"그린란드 내 미군 주둔 강화하기로 덴마크와 합의\"",
       "link": "https://www.yna.co.kr/view/AKR20260919012400071",
       "source": "연합뉴스 국제",
       "ts": 1789768546000,
@@ -110,14 +160,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령은 시진핑 중국 국가주석의 방미를 앞두고 회담 결과를 낙관했다.",
       "image": "https://img.yna.co.kr/photo/cms/2026/03/17/07/PCM20260317000007990_P2.jpg"
-    },
-    {
-      "title": "\"CNN 백악관 출입금지\"…트럼프 선전포고에 들끓는 기자실 [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202609194827i",
-      "source": "한국경제",
-      "ts": 1789761984000,
-      "pub": "Sat, 19 Sep 2026 05:06:24 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "트럼프 \"CNN·폴리티코·MSNOW 백악관 출입 금지\"",
@@ -238,26 +280,6 @@
       "sentiment": "positive",
       "desc": "(서울=연합뉴스) 현영복 기자 = 도널드 트럼프 미국 대통령의 두 아들이 투자한 미국 드론 기업 파워러스(Powerus)가 파키스탄 측과 드론 ...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/09/17/PRU20260917203801009_P2.jpg"
-    },
-    {
-      "title": "히스패닉 민심 악화에…공화당 내 트럼프 이민정책 반대 등장",
-      "link": "https://www.yna.co.kr/view/AKR20260918130500009",
-      "source": "연합뉴스 국제",
-      "ts": 1789713489000,
-      "pub": "Fri, 18 Sep 2026 15:38:09 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 임화섭 기자 = 공화당 우세 지역구의 공화당 소속 라틴계 의원이 올해 11월 중간선거를 앞두고 도널드 트럼프 대통령의 이민단속...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/18/AKR20260918130500009_02_i_P2.jpg"
-    },
-    {
-      "title": "日언론 \"UN총회중 미일정상회담 22일 개최\"…미중보다 빨라",
-      "link": "https://www.yna.co.kr/view/AKR20260918121300009",
-      "source": "연합뉴스 국제",
-      "ts": 1789711111000,
-      "pub": "Fri, 18 Sep 2026 14:58:31 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김병규 기자 = 일본과 미국 정부가 오는 22일(현지시간) 미국에서 양국 정상회담을 개최하는 방안을 추진하고 있다고 교도통신이...",
-      "image": "https://img.yna.co.kr/photo/cms/2025/10/28/02/PCM20251028000002990_P2.jpg"
     },
     {
       "title": "트럼프, 워시와 대화…\"혼자선 못 바꾸니 하고싶은대로 하라\"",

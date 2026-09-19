@@ -1,15 +1,25 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-19T00:44:43.753Z",
+  "updated_at": "2026-09-19T05:14:20.357Z",
   "count": 8,
   "items": [
     {
-      "title": "삼성의 이례적인 AI 투자…유클리드서 '비욘드 HBM' 찾는다 [강경주의 테크X]",
-      "link": "https://www.hankyung.com/article/2026091839056",
+      "title": "\"GPU는 잊어라\" 경쟁사도 품은 엔비디아, 다음 먹거리는? [김인엽의 AI 프런티어]",
+      "link": "https://www.hankyung.com/article/202609184402i",
       "source": "한국경제",
-      "ts": 1789777802000,
-      "pub": "Sat, 19 Sep 2026 09:30:02 +0900",
+      "ts": 1789779604000,
+      "pub": "Sat, 19 Sep 2026 10:00:04 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "'엔비디아 투자' 英 AI인프라 기업 엔스케일, 美증시 상장 신청",
+      "link": "https://www.yna.co.kr/view/AKR20260919024000091",
+      "source": "연합뉴스 국제",
+      "ts": 1789778792000,
+      "pub": "Sat, 19 Sep 2026 09:46:32 +0900",
+      "sentiment": "neutral",
+      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 엔비디아의 투자를 받은 영국계 인공지능(AI) 클라우드 인프라 기업 엔스케일이 미국 증시 상장 절차를...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/09/07/PRU20260907230001009_P2.jpg"
     },
     {
       "title": "워시는 언제, 얼마나 더 올릴까…모멘텀 되살아나는 반도체? [월가 백브리핑]",
@@ -56,16 +66,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 조성흠 기자 = SK하이닉스 손자회사 솔리다임이 미국 동부에 낸드플래시 생산거점 구축을 검토 중인 것으로 알려졌다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/29/PYH2026072914440006100_P2.jpg"
-    },
-    {
-      "title": "대만, TSMC '1.4나노 이하 첨단공정' 룽탄과학단지 확장3기 승인",
-      "link": "https://www.yna.co.kr/view/AKR20260918085200009",
-      "source": "연합뉴스 국제",
-      "ts": 1789708071000,
-      "pub": "Fri, 18 Sep 2026 14:07:51 +0900",
-      "sentiment": "neutral",
-      "desc": "(타이베이=연합뉴스) 김철문 통신원 = 대만 당국이 세계 최대 파운드리(반도체 수탁생산) 업체 대만 TSMC의 1.4나노(nm·10억분의 1m)...",
-      "image": "https://img.yna.co.kr/photo/cms/2022/09/09/37/PCM20220909000037009_P2.jpg"
     },
     {
       "title": "씨티 \"반도체 호황에 2028년까지 한국 성장률 3%대 지속\"",

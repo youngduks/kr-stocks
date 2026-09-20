@@ -2,11 +2,17 @@
 // 인물 지표(/poll, 홈) 자동 업데이트 — 전인구경제연구소 채널의 "새 영상 여부"를 매일 체크.
 //
 // 파이프라인:
-//   1. 채널 RSS(무료, 인증 불필요)로 최신 영상 확인 — 지난번과 같으면 여기서 종료.
+//   1. 채널 RSS(무료, 인증 불필요, 최대 15건 제공)로 last_checked_video_id 이후 올라온
+//      영상을 전부(1건이 아니라) 후보로 잡음. ⚠️ 2026-09-20 수정: 예전엔 매번 "최신 1건"만
+//      확인해서, 크론 주기(하루 1회) 안에 여러 건이 올라오면(전인구 채널은 하루 1~3건)
+//      최신 1건 외 나머지가 영구 누락됐음(9/8~9/19 사이 13건 유실 확인).
 //   2. 새 영상이면 watch 페이지를 Playwright로 열어 자막(스크립트 패널) 텍스트 추출.
 //      → 직접 timedtext URL을 curl/fetch로 때리면 서명이 있어도 항상 빈 응답이 옴
 //        (2026-09-18 실측, 헤더 다 붙여도 동일) — 실제 브라우저 렌더링이 필요해서
 //        이 스크립트만 playwright에 의존(루트 package.json엔 안 넣음, Vercel 빌드 무관).
+//      ⚠️ 2026-09-20 수정: 자막 추출이 실패해도 last_checked_video_id는 그 영상을 넘어
+//      전진하지 않음(예전엔 실패해도 포인터가 전진해 해당 영상이 영구 유실됐음) — 대신
+//      person.pending에 최대 MAX_TRANSCRIPT_ATTEMPTS회까지 재시도 대상으로 남김.
 //   3. Claude Haiku로 "증시 방향성 의견인지 + 어느 쪽인지"만 판정 — 키워드 매칭 대신 LLM을
 //      쓰는 이유: "하락은 없을 것"처럼 부정문에서 키워드만 보면 반대로 잘못 읽기 쉬움.
 //      relevant가 아니면 아무것도 안 만들고 조용히 넘어감(지어내지 않음).
@@ -31,26 +37,32 @@ const PEOPLE = [
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 const CLAUDE_MODEL = "claude-haiku-4-5-20251001";
 
+// 자막 추출 실패 영상을 몇 번까지 재시도할지(캡션 미처리 영상은 하루 뒤 재시도하면 대개
+// 풀림, 영구히 자막이 없는 영상도 있어 무한 재시도는 하지 않음 — 3일 지나면 포기).
+const MAX_TRANSCRIPT_ATTEMPTS = 3;
+
 // ────────────────────────────────────────────────────────────
-// RSS — 최신 영상 1건
+// RSS — 최근 영상 목록(최대 15건, 최신순)
 // ────────────────────────────────────────────────────────────
-async function fetchLatestVideo(channelId) {
+async function fetchRecentVideos(channelId) {
   const url = `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`;
   const res = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0" } });
   if (!res.ok) throw new Error(`RSS ${channelId} HTTP ${res.status}`);
   const xml = await res.text();
-  const entryMatch = xml.match(/<entry>[\s\S]*?<\/entry>/);
-  if (!entryMatch) return null;
-  const entry = entryMatch[0];
-  const videoId = entry.match(/<yt:videoId>([^<]+)<\/yt:videoId>/)?.[1];
-  const title = entry.match(/<title>([^<]*)<\/title>/)?.[1];
-  const published = entry.match(/<published>([^<]+)<\/published>/)?.[1];
-  if (!videoId || !title) return null;
-  return {
-    videoId,
-    title: decodeEntities(title),
-    date: (published ?? "").slice(0, 10),
-  };
+  const entries = [...xml.matchAll(/<entry>[\s\S]*?<\/entry>/g)].map((m) => m[0]);
+  return entries
+    .map((entry) => {
+      const videoId = entry.match(/<yt:videoId>([^<]+)<\/yt:videoId>/)?.[1];
+      const title = entry.match(/<title>([^<]*)<\/title>/)?.[1];
+      const published = entry.match(/<published>([^<]+)<\/published>/)?.[1];
+      if (!videoId || !title) return null;
+      return {
+        videoId,
+        title: decodeEntities(title),
+        date: (published ?? "").slice(0, 10),
+      };
+    })
+    .filter(Boolean);
 }
 
 function decodeEntities(s) {
@@ -250,46 +262,98 @@ async function main() {
       console.error(`[human-indicators] data/human_indicators.json에 ${cfg.id} 없음 — 스킵`);
       continue;
     }
+    if (!Array.isArray(person.pending)) person.pending = [];
 
     console.log(`[${cfg.id}] RSS 확인 중...`);
-    const latest = await fetchLatestVideo(cfg.channelId);
-    if (!latest) {
+    let recent;
+    try {
+      recent = await fetchRecentVideos(cfg.channelId);
+    } catch (e) {
+      console.error(`[${cfg.id}] RSS 조회 실패:`, e.message);
+      continue;
+    }
+    if (recent.length === 0) {
       console.log(`[${cfg.id}] RSS에서 영상 못 찾음 — 스킵`);
       continue;
     }
 
-    if (person.last_checked_video_id === latest.videoId) {
-      console.log(`[${cfg.id}] 새 영상 없음 (최신=${latest.videoId}, "${latest.title}")`);
+    // last_checked_video_id보다 최신인 영상을 전부 신규 후보로 잡음(최신순 배열이므로
+    // 그 위치 이전 구간 = 더 최신). RSS lookback(15건) 밖으로 밀려나 못 찾으면(장기간
+    // 미실행 등) 최신 1건만 잡아 백로그 폭주를 막고, 아예 처음 등록되는 인물이면
+    // (last_checked_video_id 없음) 전체를 백필 대상으로 봄.
+    const lastIdx = person.last_checked_video_id
+      ? recent.findIndex((v) => v.videoId === person.last_checked_video_id)
+      : -1;
+    const newCandidates =
+      lastIdx === -1
+        ? person.last_checked_video_id
+          ? [recent[0]]
+          : [...recent]
+        : recent.slice(0, lastIdx);
+    newCandidates.reverse(); // 오래된 것부터 처리(의견 목록에 시간순으로 쌓이도록)
+
+    // 자막 추출 실패로 재시도 대기 중인 영상 + 신규 후보를 합침(중복 제거).
+    const pendingIds = new Set(person.pending.map((p) => p.videoId));
+    const candidates = [
+      ...person.pending.map(({ videoId, title, date }) => ({ videoId, title, date })),
+      ...newCandidates.filter((v) => !pendingIds.has(v.videoId)),
+    ];
+
+    if (candidates.length === 0) {
+      console.log(`[${cfg.id}] 새 영상 없음 (최신=${recent[0].videoId})`);
       continue;
     }
 
-    console.log(`[${cfg.id}] 새 영상 발견: "${latest.title}" (${latest.videoId})`);
-    person.last_checked_video_id = latest.videoId;
-    changed = true; // last_checked_video_id 갱신 자체가 변경이므로, 관련 여부와 무관하게 저장
+    console.log(`[${cfg.id}] 처리 대상 ${candidates.length}건 (재시도 대기 ${person.pending.length}건 포함)`);
+    // RSS에서 확인한 범위는 여기까지 — last_checked_video_id를 최신으로 전진. 개별 영상의
+    // 성공/실패와는 무관(실패분은 아래에서 person.pending에 남아 다음 실행 때 재시도됨).
+    person.last_checked_video_id = recent[0].videoId;
+    changed = true;
 
-    const transcript = await fetchTranscript(latest.videoId);
-    if (!transcript) {
-      console.log(`[${cfg.id}] 자막 추출 실패 — 이번 영상은 건너뜀 (다음 새 영상 때 재시도)`);
-      continue;
+    for (const video of candidates) {
+      const pendingEntry = person.pending.find((p) => p.videoId === video.videoId);
+      const attempts = pendingEntry?.attempts ?? 0;
+      console.log(`[${cfg.id}] 처리 중: "${video.title}" (${video.videoId})`);
+
+      const transcript = await fetchTranscript(video.videoId);
+      if (!transcript) {
+        const nextAttempts = attempts + 1;
+        if (nextAttempts >= MAX_TRANSCRIPT_ATTEMPTS) {
+          console.log(`[${cfg.id}] 자막 추출 ${nextAttempts}회 실패 — 포기 (${video.videoId})`);
+          person.pending = person.pending.filter((p) => p.videoId !== video.videoId);
+        } else {
+          console.log(`[${cfg.id}] 자막 추출 실패(${nextAttempts}/${MAX_TRANSCRIPT_ATTEMPTS}) — 다음 실행 때 재시도 (${video.videoId})`);
+          if (pendingEntry) {
+            pendingEntry.attempts = nextAttempts;
+          } else {
+            person.pending.push({ videoId: video.videoId, title: video.title, date: video.date, attempts: nextAttempts });
+          }
+        }
+        continue;
+      }
+
+      const analysis = await analyzeTranscript(transcript, video.title);
+      if (pendingEntry) {
+        person.pending = person.pending.filter((p) => p.videoId !== video.videoId);
+      }
+
+      if (!analysis.is_market_relevant) {
+        console.log(`[${cfg.id}] 증시 방향성 의견 아님 — opinions 추가 안 함 (${video.videoId})`);
+        continue;
+      }
+
+      person.opinions.unshift({
+        date: video.date,
+        title: video.title,
+        summary: analysis.summary,
+        summary_short: analysis.summary_short,
+        stance: analysis.stance,
+        video_url: `https://www.youtube.com/watch?v=${video.videoId}`,
+      });
+      // 최근 10건만 유지 (무한정 쌓이는 것 방지, /poll 페이지는 최신 1건만 쓰지만 이력 목적)
+      person.opinions = person.opinions.slice(0, 10);
+      console.log(`[${cfg.id}] 새 의견 추가: ${analysis.stance} — ${analysis.summary_short}`);
     }
-
-    const analysis = await analyzeTranscript(transcript, latest.title);
-    if (!analysis.is_market_relevant) {
-      console.log(`[${cfg.id}] 증시 방향성 의견 아님 — opinions 추가 안 함`);
-      continue;
-    }
-
-    person.opinions.unshift({
-      date: latest.date,
-      title: latest.title,
-      summary: analysis.summary,
-      summary_short: analysis.summary_short,
-      stance: analysis.stance,
-      video_url: `https://www.youtube.com/watch?v=${latest.videoId}`,
-    });
-    // 최근 10건만 유지 (무한정 쌓이는 것 방지, /poll 페이지는 최신 1건만 쓰지만 이력 목적)
-    person.opinions = person.opinions.slice(0, 10);
-    console.log(`[${cfg.id}] 새 의견 추가: ${analysis.stance} — ${analysis.summary_short}`);
   }
 
   if (changed) {

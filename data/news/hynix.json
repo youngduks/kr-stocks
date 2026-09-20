@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-20T12:53:21.896Z",
-  "count": 7,
+  "updated_at": "2026-09-20T16:36:16.168Z",
+  "count": 4,
   "items": [
     {
       "title": "“삼전닉스 추격한다”…CXMT, D램 미세공정 한단계 도약",
@@ -17,14 +17,6 @@
       "source": "한국경제",
       "ts": 1789896040000,
       "pub": "Sun, 20 Sep 2026 18:20:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 성과급 늘어나자 대기업·중기 임금격차 커져",
-      "link": "https://www.hankyung.com/article/2026092063221",
-      "source": "한국경제",
-      "ts": 1789895418000,
-      "pub": "Sun, 20 Sep 2026 18:10:18 +0900",
       "sentiment": "neutral"
     },
     {
@@ -46,26 +38,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 옥성구 기자 = 고용노동부가 화재·폭발·누출 등 대규모 피해가 발생할 수 있는 반도체 제조업에서 338건의 법 위반사항을 적발...",
       "image": "https://img.yna.co.kr/photo/cms/2026/09/17/75/PCM20260917000175990_P2.jpg"
-    },
-    {
-      "title": "'엔비디아 투자' 英 AI인프라 기업 엔스케일, 美증시 상장 신청",
-      "link": "https://www.yna.co.kr/view/AKR20260919024000091",
-      "source": "연합뉴스 국제",
-      "ts": 1789778792000,
-      "pub": "Sat, 19 Sep 2026 09:46:32 +0900",
-      "sentiment": "neutral",
-      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 엔비디아의 투자를 받은 영국계 인공지능(AI) 클라우드 인프라 기업 엔스케일이 미국 증시 상장 절차를...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/07/PRU20260907230001009_P2.jpg"
-    },
-    {
-      "title": "삼성전자, 3.4% 급등 마감…SK하이닉스는 6.4% 뛰어(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260918036851008",
-      "source": "연합뉴스 경제",
-      "ts": 1789714372000,
-      "pub": "Fri, 18 Sep 2026 15:52:52 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 18일 각각 3%와 6% 넘게 급등한 채 정규장 거래를 ...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
     }
   ]
 }

@@ -1,15 +1,35 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-21T05:36:13.873Z",
-  "count": 3,
+  "updated_at": "2026-09-21T11:19:00.030Z",
+  "count": 4,
   "items": [
     {
-      "title": "\"삼성전자 종가 왜 다르지?\"…주식 차트 보던 개미들 '대혼란' [투자톡]",
-      "link": "https://www.hankyung.com/article/2026092179796",
+      "title": "곽노정 \"차세대 메모리로 AI 새로운 가능성 열 것\"",
+      "link": "https://www.hankyung.com/article/2026092189261",
       "source": "한국경제",
-      "ts": 1789964943000,
-      "pub": "Mon, 21 Sep 2026 13:29:03 +0900",
+      "ts": 1789982972000,
+      "pub": "Mon, 21 Sep 2026 18:29:32 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 HBM 집중한 사이 '빈틈' 파고든 中CXMT의 물량공세",
+      "link": "https://www.mt.co.kr/industry/2026/09/21/2026092114132524875",
+      "source": "머니투데이",
+      "ts": 1789980600000,
+      "pub": "Mon, 21 Sep 2026 17:50:00 +0900",
+      "sentiment": "neutral",
+      "desc": "모바일 D램 공급 부족·고가격 지속…中업체 점유율 확대 기회 CXMT 점유율 첫 10%…5세대 공정 양산으로 생산성 높여 삼성전자와 SK하이닉스가 HBM(고대역폭메모리)과 서버용 D램에 생산능력을 집중하는 사이 중국 창신메모리(CXMT)가 모바일 D램 물량 확대에 나섰",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026092114132524875_1.jpg"
+    },
+    {
+      "title": "삼성전자, 5% 급등 '27만전자' 회복…SK하이닉스 0.6%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260921035351008",
+      "source": "연합뉴스 경제",
+      "ts": 1789973583000,
+      "pub": "Mon, 21 Sep 2026 15:53:03 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 한국 증시 대장주인 삼성전자[005930]가 21일 5% 가량 급등했다.",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/24/43/PCM20260624000043990_P2.jpg"
     },
     {
       "title": "코스피, 장중 1%대 상승…삼전닉스 강세 속 '7천피' 안착 시도",
@@ -20,16 +40,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김유향 기자 = 코스피가 21일 장중 '7천피'(코스피 7,000포인트) 안착을 시도하고 있다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/21/PYH2026092102410001300_P2.jpg"
-    },
-    {
-      "title": "[특징주] 삼성전자, 장초반 3%대 급등…SK하이닉스도 1.29%↑",
-      "link": "https://www.yna.co.kr/view/AKR20260921035300008",
-      "source": "연합뉴스 경제",
-      "ts": 1789949624000,
-      "pub": "Mon, 21 Sep 2026 09:13:44 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 21일 장 초반 각각 3%와 1%대의 상승률을 보이고 있...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/24/43/PCM20260624000043990_P2.jpg"
     }
   ]
 }

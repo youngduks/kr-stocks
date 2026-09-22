@@ -93,6 +93,19 @@ Vercel 프로젝트 → Settings → Domains → `kr-stocks.com` 추가
 /api/prices        통합 가격 JSON (캐시 30s)
 ```
 
+## 보이스노트 (모바일 앱)
+
+`mobile/` — 녹음하면서 실시간으로 내용을 정리해 주는 Expo(React Native) 앱.
+**이 사이트와는 코드를 공유하지 않는 독립 앱이다.** 서버도 API 키도 쓰지 않아
+운영 비용이 0원이고, 녹음 내용이 기기 밖으로 나가지 않는다.
+
+- 음성 인식: 기기 내장 STT
+- 녹음 중 정리: 한국어 어미 패턴 기반 규칙 엔진 (지연 0)
+- 최종 정리: Apple Foundation Models 온디바이스 LLM (iOS 26+)
+
+앱 실행 방법과 설계 노트는 [`mobile/README.md`](mobile/README.md) 참고.
+네이티브 모듈을 쓰므로 **Expo Go로는 실행되지 않고 개발 빌드가 필요**하다.
+
 ## 향후 추가 기능 (Phase 2~3)
 
 - [ ] 24h 가격 차트 (Recharts + Hyperliquid candle API)

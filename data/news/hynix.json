@@ -1,8 +1,44 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-23T20:46:46.850Z",
-  "count": 4,
+  "updated_at": "2026-09-23T23:16:51.281Z",
+  "count": 7,
   "items": [
+    {
+      "title": "관세·반도체 협상 어떻게 되나…미중 정상회담 투자자 관전 포인트",
+      "link": "https://www.hankyung.com/article/202609233801i",
+      "source": "한국경제",
+      "ts": 1790204419000,
+      "pub": "Thu, 24 Sep 2026 08:00:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"GPU를 원유처럼 거래\"…CME, 엔비디아 H100·B200 선물 출시 임박 [김주완의 글로벌머니 X파일]",
+      "link": "https://www.hankyung.com/article/202609221656i",
+      "source": "한국경제",
+      "ts": 1790200811000,
+      "pub": "Thu, 24 Sep 2026 07:00:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "선우용여, 전원주 '하이닉스 대박'에도 \"봤어?\"…주식 투자 불신",
+      "link": "https://www.mt.co.kr/entertainment/2026/09/24/2026092323233685295",
+      "source": "머니투데이",
+      "ts": 1790193600000,
+      "pub": "Thu, 24 Sep 2026 05:00:00 +0900",
+      "sentiment": "positive",
+      "desc": "배우 선우용여가 연예인의 주식 투자를 만류했다. 23일 방송된 MBC 예능 프로그램 '라디오스타'에는 배우 선우용여와 전 야구선수 이대호, 가수 영탁, 개그맨 김규원이 출연했다. 이날 방송에서 김규원이 \"지난해 '라디오스타' 출연 후 SNS(소셜미디어)에서 돌다 보니까",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026092323233685295_1.jpg"
+    },
+    {
+      "title": "[속보]李대통령 \"반도체 생산거점 확장…5년 안 메모리 생산능력 2배로\"",
+      "link": "https://www.mt.co.kr/politics/2026/09/23/2026092323152972273",
+      "source": "머니투데이",
+      "ts": 1790172979000,
+      "pub": "Wed, 23 Sep 2026 23:16:19 +0900",
+      "sentiment": "neutral",
+      "desc": "[the300] 23일(현지시간) 미국 뉴욕 '대한민국 투자 서밋 2026'...",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026092323152972273_1.jpg"
+    },
     {
       "title": "GH-이천시, '반도체 산업단지 클러스터' 조성 업무협약",
       "link": "https://www.yna.co.kr/view/AKR20260923164300061",
@@ -32,16 +68,6 @@
       "sentiment": "neutral",
       "desc": "(베이징=연합뉴스) 한종구 정성조 특파원 = 중국이 내달 당 중앙위원회 전체회의를 앞두고 첨단 산업 중심지로 떠오른 안후이성과 전략 요충지인 시...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/23/AKR20260923052951083_01_i_P2.jpg"
-    },
-    {
-      "title": "코스피, 반도체 강세에 장 초반 1%대 상승(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260923038451008",
-      "source": "연합뉴스 경제",
-      "ts": 1790123298000,
-      "pub": "Wed, 23 Sep 2026 09:28:18 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 코스피가 23일 미국 기술주 강세에 4거래일 연속 상승세를 이어가고 있다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092303390001300_P2.jpg"
     }
   ]
 }

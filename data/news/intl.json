@@ -1,10 +1,114 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-23T12:23:37.162Z",
-  "count": 26,
+  "updated_at": "2026-09-23T17:32:01.038Z",
+  "count": 27,
   "items": [
     {
-      "title": "\"관세 더 내라\"…인도,삼성·LG OLED 부품 관세 조사중[로이터]",
+      "title": "[포토] 유엔총회 뜬 이란 외무장관과 트럼프 사위",
+      "link": "https://www.hankyung.com/article/2026092344351",
+      "source": "한국경제",
+      "ts": 1790182619000,
+      "pub": "Thu, 24 Sep 2026 01:56:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프는 레드카펫·시진핑은 국빈 관철…\"성과보다 쇼 집중\"",
+      "link": "https://www.yna.co.kr/view/AKR20260924002900071",
+      "source": "연합뉴스 국제",
+      "ts": 1790182373000,
+      "pub": "Thu, 24 Sep 2026 01:52:53 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령이 시진핑 중국 국가주석의 국빈 방문을 맞아 성대한 환영 행사를 준비하고 있지만,...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/24/AKR20260924002900071_02_i_P2.jpg"
+    },
+    {
+      "title": "마두로 수감교도소 20분 거리에서 트럼프-로드리게스 첫 회동",
+      "link": "https://www.yna.co.kr/view/AKR20260924002800087",
+      "source": "연합뉴스 국제",
+      "ts": 1790180267000,
+      "pub": "Thu, 24 Sep 2026 01:17:47 +0900",
+      "sentiment": "neutral",
+      "desc": "(멕시코시티=연합뉴스) 송광호 특파원 = 델시 로드리게스 베네수엘라 임시대통령이 니콜라스 마두로 전 대통령 축출 이후 처음으로 도널드 트럼프 미...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/24/AKR20260924002800087_01_i_P2.jpg"
+    },
+    {
+      "title": "러 외무, 美 국무와 2개월만에 뉴욕서 회동…\"우크라전 논의\"",
+      "link": "https://www.yna.co.kr/view/AKR20260924001800108",
+      "source": "연합뉴스 국제",
+      "ts": 1790178847000,
+      "pub": "Thu, 24 Sep 2026 00:54:07 +0900",
+      "sentiment": "neutral",
+      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 세르게이 라브로프 러시아 외무장관이 23일(현지시간) 미국 뉴욕에서 열린 제81차 유엔총회를 계기로 마코...",
+      "image": "https://img.yna.co.kr/photo/etc/ta/2026/09/23/PTA20260923060301009_P2.jpg"
+    },
+    {
+      "title": "美국무 \"12월 美개최 G20에 푸틴 초청했다…수락하길 기대\"",
+      "link": "https://www.yna.co.kr/view/AKR20260924001300071",
+      "source": "연합뉴스 국제",
+      "ts": 1790177445000,
+      "pub": "Thu, 24 Sep 2026 00:30:45 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 마코 루비오 미국 국무장관은 12월 미국에서 열리는 주요 20개국(G20) 정상회의에 블라디미르 푸틴 러시...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/23/PAF20260923337401009_P2.jpg"
+    },
+    {
+      "title": "\"트럼프 주도 평화위, 가자에 6개월간 3.4조원 복구계획 마련\"",
+      "link": "https://www.yna.co.kr/view/AKR20260924000500071",
+      "source": "연합뉴스 국제",
+      "ts": 1790176650000,
+      "pub": "Thu, 24 Sep 2026 00:17:30 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령 주도로 만들어진 가자 평화위원회가 향후 6개월 동안 24억5천만달러(약 3조4천...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/06/PAF20260906132501009_P2.jpg"
+    },
+    {
+      "title": "미중 경제수장, 정상회담 하루 전 워싱턴서 막판 의제 협의",
+      "link": "https://www.yna.co.kr/view/AKR20260924000200071",
+      "source": "연합뉴스 국제",
+      "ts": 1790175896000,
+      "pub": "Thu, 24 Sep 2026 00:04:56 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 미중정상회담을 하루 앞두고 양국 경제수장이 막판 의제 조율에 나선다.",
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/21/PAP20260921308801009_P2.jpg"
+    },
+    {
+      "title": "美공화 상원 군사위원장 \"트럼프, 독재자 시진핑에 호화환영식 말라\"",
+      "link": "https://www.yna.co.kr/view/AKR20260923199000071",
+      "source": "연합뉴스 국제",
+      "ts": 1790173948000,
+      "pub": "Wed, 23 Sep 2026 23:32:28 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 미국 공화당 소속 연방상원 군사위원장이 도널드 트럼프 대통령이 시진핑 중국 국가주석을 국빈 초청해 성대한 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/23/AKR20260923199000071_01_i_P2.jpg"
+    },
+    {
+      "title": "[속보] 李 대통령 \"트럼프와 군함건조 포함 조선협력 논의…성과 기대\"",
+      "link": "https://www.hankyung.com/article/2026092344797",
+      "source": "한국경제",
+      "ts": 1790173435000,
+      "pub": "Wed, 23 Sep 2026 23:23:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보]李대통령 \"트럼프 대통령과 군함 포함 조선 협력 이야기…실제 성과 기대\"",
+      "link": "https://www.mt.co.kr/politics/2026/09/23/2026092323113158079",
+      "source": "머니투데이",
+      "ts": 1790172925000,
+      "pub": "Wed, 23 Sep 2026 23:15:25 +0900",
+      "sentiment": "neutral",
+      "desc": "[the300] 23일(현지시간) 미국 뉴욕 '대한민국 투자 서밋 2026'...",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026092323113158079_1.jpg"
+    },
+    {
+      "title": "\"트럼프 요구대로 금리 내리면…\" 전문가들 섬뜩한 '경고'",
+      "link": "https://www.hankyung.com/article/2026092344637",
+      "source": "한국경제",
+      "ts": 1790171041000,
+      "pub": "Wed, 23 Sep 2026 22:44:01 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"관세 더 내라\"…인도, 삼성·LG OLED 부품 관세 조사 중 [로이터]",
       "link": "https://www.hankyung.com/article/202609234426i",
       "source": "한국경제",
       "ts": 1790165255000,
@@ -50,30 +154,6 @@
       "sentiment": "neutral",
       "desc": "(런던=연합뉴스) 김지연 특파원 = 앤디 버넘 영국 총리가 안전성 논란이 벌어지고 있는 인공지능(AI) 리스크 관리를 촉구하는 세계 정상들의 대...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/23/AKR20260923173200085_02_i_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"러·우 전쟁, 생각보다 빨리 끝날 것…둘 다 지쳤다\"",
-      "link": "https://www.hankyung.com/article/2026092341737",
-      "source": "한국경제",
-      "ts": 1790150663000,
-      "pub": "Wed, 23 Sep 2026 17:04:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"경유 수출 금지\"…중동 이어 미국發 '에너지 쇼크' 오나",
-      "link": "https://www.hankyung.com/article/2026092338981",
-      "source": "한국경제",
-      "ts": 1790149209000,
-      "pub": "Wed, 23 Sep 2026 16:40:09 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "中 소포에 관세 때리자…유럽 의류업체 매출 30% 껑충",
-      "link": "https://www.hankyung.com/article/2026092339001",
-      "source": "한국경제",
-      "ts": 1790149118000,
-      "pub": "Wed, 23 Sep 2026 16:38:38 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "'AI'→'SI' 용어 바꾸자는 트럼프 제안…전문가들은 부정적",
@@ -184,76 +264,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 임화섭 기자 = 미국 도널드 트럼프 행정부가 2027 회계연도(2026년 10월 1일∼2027년 9월 30일)에 난민 1만7천...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/23/AKR20260923036400009_01_i_P2.jpg"
-    },
-    {
-      "title": "다카이치, 시진핑 앞서 트럼프와 회담…\"中에 공동대응 확인\"",
-      "link": "https://www.yna.co.kr/view/AKR20260923024400073",
-      "source": "연합뉴스 국제",
-      "ts": 1790119007000,
-      "pub": "Wed, 23 Sep 2026 08:16:47 +0900",
-      "sentiment": "neutral",
-      "desc": "(도쿄=연합뉴스) 조성미 특파원 = 다카이치 사나에 일본 총리가 22일(현지시간) 미국 뉴욕에서 유엔(UN) 총회를 계기로 도널드 트럼프 미국 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092301930007300_P2.jpg"
-    },
-    {
-      "title": "쿠바 대통령 \"트럼프 거짓말 반복…美 무자비한 공격 극복할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260923020900087",
-      "source": "연합뉴스 국제",
-      "ts": 1790116364000,
-      "pub": "Wed, 23 Sep 2026 07:32:44 +0900",
-      "sentiment": "neutral",
-      "desc": "(멕시코시티=연합뉴스) 송광호 특파원 = 미겔 디아스카넬 쿠바 대통령이 '쿠바 정권이 무너질 것'이라고 주장한 도널드 트럼프 미국 대통령의 유엔...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/03/14/PEP20260314016301009_P2.jpg"
-    },
-    {
-      "title": "타지키스탄 AI 부위원장 \"韓 ODA로 IT 파크 조성…무관세 추진\"",
-      "link": "https://www.yna.co.kr/view/AKR20260922157900371",
-      "source": "연합뉴스 국제",
-      "ts": 1790116202000,
-      "pub": "Wed, 23 Sep 2026 07:30:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 성도현 기자 = \"소버린 AI(인공지능 주권)의 핵심은 자국 영토 내에 인프라를 구축하고, 그 안에서 생산된 데이터를 철저히 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/22/AKR20260922157900371_01_i_P2.jpg"
-    },
-    {
-      "title": "北대표단, 트럼프 유엔 연설 참석…李대통령 연설땐 공석",
-      "link": "https://www.yna.co.kr/view/AKR20260923011100072",
-      "source": "연합뉴스 국제",
-      "ts": 1790112149000,
-      "pub": "Wed, 23 Sep 2026 06:22:29 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 22일(현지시간) 미국 뉴욕 유엔총회에서 열린 도널드 트럼프 미 대통령의 연설에 북한 대표단이 착석해 지켜본...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/23/AKR20260923011100072_02_i_P2.jpg"
-    },
-    {
-      "title": "美-이란, 유엔본부서 3시간 회담…트럼프 \"합의가 이란에 유리\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260923005352071",
-      "source": "연합뉴스 국제",
-      "ts": 1790110748000,
-      "pub": "Wed, 23 Sep 2026 05:59:08 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 미국과 이란의 대표단이 유엔총회가 열린 22일(현지시간) 뉴욕 유엔본부에서 접촉한 것으로 파악됐다.",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/23/PAF20260923073401009_P2.jpg"
-    },
-    {
-      "title": "젤렌스키 \"어떤 형태의 에너지 휴전도 준비돼 있어\"",
-      "link": "https://www.yna.co.kr/view/AKR20260923008900109",
-      "source": "연합뉴스 국제",
-      "ts": 1790109290000,
-      "pub": "Wed, 23 Sep 2026 05:34:50 +0900",
-      "sentiment": "neutral",
-      "desc": "(로마=연합뉴스) 민경락 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령은 22일(현지시간) \"러시아와 어떤 형태의 에너지 휴전에도 준비가 돼 ...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/23/PAF20260923088701009_P2.jpg"
-    },
-    {
-      "title": "트럼프, 中 겨냥 \"에너지·희토류 등 미주 자원 통제해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260923008400071",
-      "source": "연합뉴스 국제",
-      "ts": 1790108216000,
-      "pub": "Wed, 23 Sep 2026 05:16:56 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령은 22일(현지시간) 중남미 국가들을 향해 서반구의 에너지와 희토류 등 핵심 자원...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/23/PRU20260923091001009_P2.jpg"
     }
   ]
 }

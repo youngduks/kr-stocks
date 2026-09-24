@@ -7,6 +7,11 @@ import { Redis } from "@upstash/redis";
 const KEY_TOTAL = "kr-stocks:visits:total";
 const KEY_ONLINE = "kr-stocks:online"; // ZSET (member=sessionId, score=timestamp ms)
 const ONLINE_WINDOW_MS = 5 * 60 * 1000; // 5분 active session
+// 일별 방문(세션) 수 — 누적 카운터만으론 추이를 못 봐서 추가(2026-09-24).
+// 새 세션일 때 INCR 1회만 추가(Upstash 명령 수 증가 최소화), 400일 뒤 자동 만료.
+const KEY_DAILY_PREFIX = "kr-stocks:visits:daily:";
+const DAILY_TTL_SEC = 400 * 24 * 3600;
+const kstDay = (ms: number) => new Date(ms + 9 * 3600 * 1000).toISOString().slice(0, 10);
 
 // URL fallback (Vercel env에 URL 누락 시 사용 — public endpoint라 노출 OK).
 // TOKEN은 반드시 env로 (secret).
@@ -37,10 +42,13 @@ export async function trackVisit(sessionId: string): Promise<Stats> {
     const isNew = score == null;
     // 3) ZSET upsert + 누적 카운터
     if (isNew) {
-      await Promise.all([
+      const dayKey = KEY_DAILY_PREFIX + kstDay(now);
+      const [, , dayCount] = await Promise.all([
         r.zadd(KEY_ONLINE, { score: now, member: sessionId }),
         r.incr(KEY_TOTAL),
+        r.incr(dayKey),
       ]);
+      if (dayCount === 1) await r.expire(dayKey, DAILY_TTL_SEC);
     } else {
       // 같은 세션 — score만 refresh
       await r.zadd(KEY_ONLINE, { score: now, member: sessionId });
@@ -70,5 +78,22 @@ export async function getStats(): Promise<Stats> {
     return { online: online ?? 0, total: total ?? 0 };
   } catch {
     return { online: 0, total: 0 };
+  }
+}
+
+export type DailyVisit = { date: string; visits: number };
+
+/** 최근 N일(KST, 오늘 포함) 일별 세션 수 — MGET 1회로 조회. 기록 시작(2026-09-24) 전 날짜는 0. */
+export async function getDailyVisits(days: number): Promise<DailyVisit[]> {
+  const r = redis();
+  const n = Math.max(1, Math.min(90, Math.floor(days) || 30));
+  const now = Date.now();
+  const dates = Array.from({ length: n }, (_, i) => kstDay(now - (n - 1 - i) * 86400 * 1000));
+  if (!r) return dates.map((date) => ({ date, visits: 0 }));
+  try {
+    const vals = await r.mget<(number | string | null)[]>(...dates.map((d) => KEY_DAILY_PREFIX + d));
+    return dates.map((date, i) => ({ date, visits: Number(vals[i] ?? 0) || 0 }));
+  } catch {
+    return dates.map((date) => ({ date, visits: 0 }));
   }
 }

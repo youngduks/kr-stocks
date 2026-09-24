@@ -21,55 +21,45 @@ const TARGETS = [
   { slug: "hyundai", ticker: "005380" },
 ];
 
+// 2026-09-24: finance.naver.com/item/coinfo.naver 가 "Npay 증권" 앱 셸로 바뀌어 9/9부터
+// 추출 실패(워크플로우는 success로 끝나 조용히 멈춰 있었음) → 모바일 JSON API로 교체.
+const OPINION_LABELS = { 5: "강력매수", 4: "매수", 3: "중립", 2: "매도", 1: "강력매도" };
+const num = (v) => {
+  const n = parseInt(String(v ?? "").replace(/[^0-9]/g, ""), 10);
+  return Number.isFinite(n) ? n : null;
+};
+
 async function fetchNaverConsensus(code) {
-  const url = `https://finance.naver.com/item/coinfo.naver?code=${code}&target=finsum_more`;
+  const url = `https://m.stock.naver.com/api/stock/${code}/integration`;
   const res = await fetch(url, {
     headers: {
       "User-Agent":
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-      Referer: "https://finance.naver.com/",
+      Referer: "https://m.stock.naver.com/",
     },
     signal: AbortSignal.timeout(15000),
   });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
-
-  // 네이버 금융은 EUC-KR. fetch는 Content-Type 기준 디코딩이라 한글 깨질 수 있음 → 원시 바이트로
-  const buf = new Uint8Array(await res.arrayBuffer());
-  const decoder = new TextDecoder("euc-kr");
-  const html = decoder.decode(buf);
-
-  // 투자의견 정보 테이블 영역 추출
-  const tableMatch = html.match(/투자의견 정보[\s\S]*?<\/table>/);
-  if (!tableMatch) return null;
-  const block = tableMatch[0];
-
-  // 평점/의견: <span class="f_(up|down)"><em>4.04</em>매수</span>
-  const ratingMatch = block.match(/<span class="f_(up|down|buy)"><em>([0-9.]+)<\/em>([^<]+)<\/span>/);
-  const score = ratingMatch ? parseFloat(ratingMatch[2]) : null;
-  const label = ratingMatch ? ratingMatch[3].trim() : null;
-
-  // <em>로 둘러싸인 숫자 후보 (순서: 점수, 평균 목표가, 52주 최고, 52주 최저)
-  const emNums = [...block.matchAll(/<em>([0-9,]+)<\/em>/g)].map((m) =>
-    parseInt(m[1].replaceAll(",", ""), 10),
-  );
-  // 평점은 보통 첫 매칭이지만 위 정규식이 정수만 잡으므로 자동 제외됨
-  const avgTarget = emNums[0] ?? null;
-  const high52 = emNums[1] ?? null;
-  const low52 = emNums[2] ?? null;
-
+  const d = await res.json();
+  const ci = d?.consensusInfo;
+  const avgTarget = num(ci?.priceTargetMean);
+  if (!ci || avgTarget == null) return null;
+  const info = Object.fromEntries((d.totalInfos ?? []).map((x) => [x.code, x.value]));
+  const score = ci.recommMean != null ? parseFloat(ci.recommMean) : null;
   return {
-    opinion_score: score,
-    opinion_label: label,
+    opinion_score: Number.isFinite(score) ? score : null,
+    opinion_label: Number.isFinite(score) ? OPINION_LABELS[Math.min(5, Math.max(1, Math.round(score)))] : null,
     avg_target_krw: avgTarget,
-    high_52w_krw: high52,
-    low_52w_krw: low52,
-    source: "finance.naver.com",
+    high_52w_krw: num(info.highPriceOf52Weeks),
+    low_52w_krw: num(info.lowPriceOf52Weeks),
+    source: "m.stock.naver.com",
     fetched_at: new Date().toISOString(),
   };
 }
 
 async function main() {
   let changed = 0;
+  let failed = 0;
   for (const { slug, ticker } of TARGETS) {
     const jsonPath = path.join(ROOT, "data/consensus", `${slug}.json`);
     if (!fs.existsSync(jsonPath)) {
@@ -80,6 +70,7 @@ async function main() {
       const snap = await fetchNaverConsensus(ticker);
       if (!snap || snap.avg_target_krw == null) {
         console.warn(`[skip] ${slug}: 컨센서스 추출 실패`);
+        failed += 1;
         continue;
       }
       const data = JSON.parse(fs.readFileSync(jsonPath, "utf8"));
@@ -127,9 +118,14 @@ async function main() {
       changed += 1;
     } catch (e) {
       console.error(`[err] ${slug}:`, e.message);
+      failed += 1;
     }
   }
   console.log(`[done] ${changed}/${TARGETS.length} 갱신`);
+  if (failed === TARGETS.length) {
+    console.error("All tickers failed — exiting 1 (조용한 실패 방지)");
+    process.exit(1);
+  }
 }
 
 main().catch((e) => {

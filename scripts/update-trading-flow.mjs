@@ -24,69 +24,34 @@ const TICKERS = [
 ];
 
 // ────────────────────────────────────────────────────────────
-// EUC-KR 디코더 (의존성 없이, TextDecoder 활용)
+// 네이버 증권 모바일 API
+// 2026-09-24: finance.naver.com/item/frgn.naver 가 "Npay 증권" 앱 셸로 바뀌어 HTML에
+// 데이터가 없어짐(9/23부터 No rows parsed) → 새 프론트가 쓰는 JSON API로 교체.
 // ────────────────────────────────────────────────────────────
-function decodeEucKr(buf) {
-  // Node 20+ TextDecoder 는 euc-kr 지원
-  try {
-    return new TextDecoder("euc-kr").decode(buf);
-  } catch {
-    // fallback — latin1 (한글 깨질 수 있으나 숫자/날짜는 ASCII)
-    return Buffer.from(buf).toString("latin1");
-  }
-}
+const toInt = (v) => parseInt(String(v ?? "").replace(/−/g, "-").replace(/[,+]/g, ""), 10);
 
-// ────────────────────────────────────────────────────────────
-// 네이버 금융 fetch + parse
-// ────────────────────────────────────────────────────────────
-async function fetchFrgn(code) {
-  const url = `https://finance.naver.com/item/frgn.naver?code=${code}`;
+async function fetchRows(code) {
+  const url = `https://m.stock.naver.com/api/stock/${code}/trend?pageSize=10`;
   const res = await fetch(url, {
     headers: {
       "User-Agent":
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
-      "Referer": "https://finance.naver.com/",
-      "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+      "Referer": "https://m.stock.naver.com/",
     },
+    signal: AbortSignal.timeout(15000),
   });
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${code}`);
-  const buf = await res.arrayBuffer();
-  return decodeEucKr(buf);
-}
-
-function parseRows(html) {
-  // 패턴: <tr onMouseOver="mouseOver(this)" ...> ... </tr>
-  // 각 행에서 추출:
-  //   date    — <span class="tah p10 gray03">YYYY.MM.DD</span>
-  //   close   — <td width="67" class="num"><span class="tah p11">N,NNN</span></td>  (첫 번째)
-  //   inst    — <td width="66" class="num"><span class="tah p11 [color]?">±N,NNN</span></td>
-  //   foreign — <td width="80" class="num"><span class="tah p11 [color]?">±N,NNN</span></td>
-  //
-  // 행 단위로 자른 다음 안에서 패턴 매칭.
-  const rowRegex = /<tr\s+onMouseOver="mouseOver\(this\)"[\s\S]*?<\/tr>/g;
-  const dateRe   = /<span\s+class="tah p10 gray03">(\d{4}\.\d{2}\.\d{2})<\/span>/;
-  const closeRe  = /<td\s+width="67"\s+class="num"><span\s+class="tah p11">([\d,]+)<\/span><\/td>/;
-  const instRe   = /<td\s+width="66"\s+class="num"><span\s+class="tah p11(?:\s+\w+)?">([\-+−][\d,]+|0)<\/span><\/td>/;
-  const foreignRe= /<td\s+width="80"\s+class="num"><span\s+class="tah p11(?:\s+\w+)?">([\-+−][\d,]+|0)<\/span><\/td>/;
-
+  const list = await res.json();
+  if (!Array.isArray(list)) throw new Error(`Unexpected response for ${code}`);
   const rows = [];
-  const matches = html.match(rowRegex) ?? [];
-  for (const block of matches) {
-    const d = block.match(dateRe);
-    const c = block.match(closeRe);
-    const i = block.match(instRe);
-    const f = block.match(foreignRe);
-    if (!d || !c || !i || !f) continue;
-
-    const date = d[1].replace(/\./g, "-");           // YYYY-MM-DD
-    const close = parseInt(c[1].replace(/,/g, ""));  // 원
-    const instQty   = parseInt(i[1].replace(/[,−]/g, (ch) => (ch === "−" ? "-" : ""))); // 주
-    const foreignQty= parseInt(f[1].replace(/[,−]/g, (ch) => (ch === "−" ? "-" : "")));
-
-    if (!isFinite(close) || !isFinite(instQty) || !isFinite(foreignQty)) continue;
-
+  for (const r of list) { // 최신일이 먼저(기존 HTML 표와 같은 순서)
+    const b = String(r.bizdate ?? "");
+    const close = toInt(r.closePrice);
+    const foreignQty = toInt(r.foreignerPureBuyQuant);
+    const instQty = toInt(r.organPureBuyQuant);
+    if (b.length !== 8 || !isFinite(close) || !isFinite(foreignQty) || !isFinite(instQty)) continue;
     rows.push({
-      date,
+      date: `${b.slice(0, 4)}-${b.slice(4, 6)}-${b.slice(6, 8)}`,
       close,
       foreign_qty: foreignQty,
       institutional_qty: instQty,
@@ -122,7 +87,7 @@ function buildJson(ticker, rows5) {
     name_ko: ticker.name_ko,
     name_en: ticker.name_en,
     updated_at: nowIsoKst,
-    source: "naver_finance_frgn",
+    source: "naver_mstock_trend",
     note: "추정 매매대금 = 종가 × 순매매량 (±5% 정확도)",
     daily: rows5.map((r) => ({
       date: r.date,
@@ -139,8 +104,7 @@ function buildJson(ticker, rows5) {
 
 async function processTicker(ticker) {
   console.log(`[${ticker.slug}] fetching ${ticker.code}...`);
-  const html = await fetchFrgn(ticker.code);
-  const rows = parseRows(html);
+  const rows = await fetchRows(ticker.code);
   if (rows.length === 0) throw new Error(`No rows parsed for ${ticker.slug}`);
   const rows5 = rows.slice(0, 5).reverse(); // 옛날→최근 순으로 저장
   const json = buildJson(ticker, rows5);

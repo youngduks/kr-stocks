@@ -6,9 +6,9 @@ name: Update Buyback (SK하이닉스 자사주)
 # ⚠️ 매입기간 2026-08-20~2026-11-19 한시적 프로그램 — 종료 후 이 워크플로우는
 # 비활성화(disable) 대상. 신고내역이 더 안 늘어나면 스크립트가 자연히 no-op이 됨.
 on:
-  schedule:
-    - cron: "0 8 * * 1-5"   # UTC 월~금 08:00 → KST 17:00
-  workflow_dispatch:          # 수동 실행도 허용
+  # 2026-09-24: KIND가 GitHub Actions IP를 403으로 막아 정기 실행은 대표님 맥의 launchd
+  # (com.claude-bot.kr-stocks-buyback, 평일 17:05)로 이전. 여기선 수동 실행만 남김.
+  workflow_dispatch:
 
 permissions:
   contents: write              # commit + push 권한

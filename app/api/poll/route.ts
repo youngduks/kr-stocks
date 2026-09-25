@@ -157,6 +157,8 @@ const POLLS: Record<string, { closedAt: string }> = {
   "market-updown-2026-09-24": { closedAt: "2026-09-23T15:00:00.000Z" },
   // 인간지표 — 내일(9/25 금) 상승 vs 하락. 마감 = 장 시작 전 9/25 금 09:00 KST = 2026-09-25 00:00 UTC
   "market-updown-2026-09-25": { closedAt: "2026-09-24T15:00:00.000Z" },
+  // 인간지표 — 내일(9/28 월) 상승 vs 하락. 마감 = 장 시작 전 9/28 월 09:00 KST = 2026-09-28 00:00 UTC
+  "market-updown-2026-09-28": { closedAt: "2026-09-27T15:00:00.000Z" },
 
 };
 

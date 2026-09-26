@@ -27,6 +27,7 @@ type Deal = {
   score?: number;
   market_price?: string;
   discount_pct?: number;
+  price_ref?: "toss_original" | "danawa_avg" | null;
   affiliate_url?: string;
   chips?: string[];
 };
@@ -111,6 +112,7 @@ export default async function ShoppingPage() {
       score: d.score,
       market_price: d.market_price,
       discount_pct: d.discount_pct,
+      price_ref: d.price_ref,
       affiliate_url: d.affiliate_url,
       timeAgoStr: timeAgo(d.ts),
       catGroup: catGroup(d.cat),

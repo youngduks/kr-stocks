@@ -15,6 +15,7 @@ export type DealView = {
   score?: number;
   market_price?: string;
   discount_pct?: number;
+  price_ref?: "toss_original" | "danawa_avg" | null;
   affiliate_url?: string;
   timeAgoStr: string;
   catGroup: string; // 가전/육아/식품/전자제품/기타
@@ -149,7 +150,7 @@ export function ShoppingList({ deals }: { deals: DealView[] }) {
                     <div className="mt-2.5 pt-2 border-t border-line/50 flex items-center gap-2 flex-wrap">
                       <div className="text-xs tabular">
                         <span className="text-text-dim line-through decoration-text-dim/50">
-                          평균 시세 {d.market_price}
+                          {d.price_ref === "toss_original" ? "토스 정가" : "평균 시세"} {d.market_price}
                         </span>
                         <span className="text-text-dim mx-1">→</span>
                         <span className="text-accent-green font-bold">

@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-26T10:26:44.194Z",
+  "updated_at": "2026-09-26T14:48:00.453Z",
   "count": 3,
   "items": [
+    {
+      "title": "\"이러다 中에 빼앗긴다\"…삼전닉스 동시에 러브콜 보낸 '이곳'",
+      "link": "https://www.hankyung.com/article/202609217576i",
+      "source": "한국경제",
+      "ts": 1790429401000,
+      "pub": "Sat, 26 Sep 2026 22:30:01 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"돈잔치 할 때 아냐\"…삼전닉스 호황에 소환된 '이건희 승부수' [분석+]",
       "link": "https://www.hankyung.com/article/2026092180476",
@@ -20,14 +28,6 @@
       "sentiment": "neutral",
       "desc": "삼성전자·SK하이닉스, 지난해 물 재이용량 1억6852만톤...수자원, 반도체기업의 '핵심 인프라' 반도체 공장에서는 물 한 방울도 허투루 쓰지 않는다. 삼성전자는 공조설비에서 맺힌 결로수조차 모아 정화한 뒤 냉각탑에 다시 사용한다. SK하이닉스는 반도체 제조 과정에서",
       "image": "https://thumb.mt.co.kr/06/2026/09/2026092311055075916_1.jpg"
-    },
-    {
-      "title": "'내 주식 어쩌나' 떨던 개미들…삼성전자 다시 보니 '깜짝' [한경우의 케이스스터디]",
-      "link": "https://www.hankyung.com/article/2026092325796",
-      "source": "한국경제",
-      "ts": 1790391353000,
-      "pub": "Sat, 26 Sep 2026 11:55:53 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

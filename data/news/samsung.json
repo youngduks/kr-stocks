@@ -1,8 +1,26 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-27T00:00:15.055Z",
-  "count": 2,
+  "updated_at": "2026-09-27T04:15:07.426Z",
+  "count": 3,
   "items": [
+    {
+      "title": "삼성전자에 145억 베팅한 고액자산가…급락한 현대모비스도 쓸어담았다",
+      "link": "https://www.hankyung.com/article/202609277209i",
+      "source": "한국경제",
+      "ts": 1790474409000,
+      "pub": "Sun, 27 Sep 2026 11:00:09 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "갤럭시 폴드8, 유럽 5개국 소비자 평가서 1위",
+      "link": "https://www.yna.co.kr/view/AKR20260927011600017",
+      "source": "연합뉴스 경제",
+      "ts": 1790466948000,
+      "pub": "Sun, 27 Sep 2026 08:55:48 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 박형빈 기자 = 삼성전자[005930]의 갤럭시 Z8 시리즈가 유럽 주요 5개국 소비자 전문지 평가에서 폴더블 스마트폰 부문 ...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/23/PYH2026072313760001300_P2.jpg"
+    },
     {
       "title": "상장사 3분기 실적 전망치 변화는…삼전닉스 상향 조정",
       "link": "https://www.yna.co.kr/view/AKR20260923161100008",
@@ -12,14 +30,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 이민영 기자 = 국내 상장사들의 3분기 실적 전망이 기업별로 크게 엇갈리고 있다. 절반 이상은 최근 영업이익 눈높이가 높아진 ...",
       "image": "https://img.yna.co.kr/photo/cms/2020/01/28/50/PCM20200128000050990_P2.jpg"
-    },
-    {
-      "title": "\"이러다 中에 빼앗긴다\"…삼전닉스 동시에 달려간 '이 나라'",
-      "link": "https://www.hankyung.com/article/202609217576i",
-      "source": "한국경제",
-      "ts": 1790429401000,
-      "pub": "Sat, 26 Sep 2026 22:30:01 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

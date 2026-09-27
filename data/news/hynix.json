@@ -1,8 +1,74 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-27T00:00:15.055Z",
-  "count": 8,
+  "updated_at": "2026-09-27T04:15:07.427Z",
+  "count": 12,
   "items": [
+    {
+      "title": "수출호조·환율안정에 제조업 경기전망 개선…반도체 역대 최대",
+      "link": "https://www.yna.co.kr/view/AKR20260927016500003",
+      "source": "연합뉴스 경제",
+      "ts": 1790478001000,
+      "pub": "Sun, 27 Sep 2026 12:00:01 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 임성호 기자 = 국내 제조기업들의 올해 4분기 경기 전망이 반도체와 화장품 등의 수출 호조에 힘입어 전분기보다 개선된 것으로 ...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/06/PYH2026080604590005100_P2.jpg"
+    },
+    {
+      "title": "코스피 7000대 안착할까…마이크론과 국제유가, 고용지표가 변수 [이번주 주요변수 미리보기]",
+      "link": "https://www.hankyung.com/article/202609277198i",
+      "source": "한국경제",
+      "ts": 1790473158000,
+      "pub": "Sun, 27 Sep 2026 10:39:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"하이닉스 대신 '여기' 살 걸\"…90% 폭등한 회사 알고보니 [대기업 협력사 전수분석]",
+      "link": "https://www.hankyung.com/article/202609277167i",
+      "source": "한국경제",
+      "ts": 1790472183000,
+      "pub": "Sun, 27 Sep 2026 10:23:03 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "광주 아파트 매매가격 상승세 전환…'통합·반도체 효과'",
+      "link": "https://www.yna.co.kr/view/AKR20260923075800054",
+      "source": "연합뉴스 경제",
+      "ts": 1790470804000,
+      "pub": "Sun, 27 Sep 2026 10:00:04 +0900",
+      "sentiment": "positive",
+      "desc": "(전남광주=연합뉴스) 전승현 기자 = 올해 들어 하락세를 지속해오던 광주지역 아파트 매매가격이 전남광주통합과 반도체 공장 설립 소식 이후 상승세...",
+      "image": "https://img.yna.co.kr/photo/cms/2016/07/25/01/C0A8CA3D00000156203C4E4D0000C574_P2.jpeg"
+    },
+    {
+      "title": "박홍근 \"호남 반도체, 기업 팔 비틀기 아냐…팹 증설도 구상\"",
+      "link": "https://www.yna.co.kr/view/AKR20260927016000002",
+      "source": "연합뉴스 경제",
+      "ts": 1790470337000,
+      "pub": "Sun, 27 Sep 2026 09:52:17 +0900",
+      "sentiment": "neutral",
+      "desc": "(세종=연합뉴스) 안채원 기자 = 박홍근 기획예산처 장관은 27일 정부가 추진하고 있는 호남 반도체 클러스터 조성과 관련해 \"(일각에서) 기업 ...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/28/PYH2026082807440001300_P2.jpg"
+    },
+    {
+      "title": "엔비디아 로고 트레일러 훔쳤다가…모래 18t 버려두고 도주",
+      "link": "https://www.yna.co.kr/view/AKR20260927014800091",
+      "source": "연합뉴스 국제",
+      "ts": 1790469657000,
+      "pub": "Sun, 27 Sep 2026 09:40:57 +0900",
+      "sentiment": "neutral",
+      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 인공지능(AI) 반도체 1위 기업 엔비디아의 로고가 박힌 대형 트레일러를 훔쳐 '대박'을 노렸던 도둑...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/27/AKR20260927014800091_02_i_P2.jpg"
+    },
+    {
+      "title": "광주 반도체 산단 수백억 용역 발주…지역업체는 그림의 떡",
+      "link": "https://www.yna.co.kr/view/AKR20260921056700054",
+      "source": "연합뉴스 경제",
+      "ts": 1790467262000,
+      "pub": "Sun, 27 Sep 2026 09:01:02 +0900",
+      "sentiment": "neutral",
+      "desc": "(전남광주=연합뉴스) 박철홍 기자 = 호남권 반도체 첨단 국가산업단지 조성을 위한 수백억원 규모의 설계·조사·평가 용역이 잇따라 발주되고 있지만...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/07/30/18/PCM20260730000018990_P2.jpg"
+    },
     {
       "title": "7000선 회복한 코스피…PCE 물가지수·마이크론 실적 주목 [주간전망]",
       "link": "https://www.hankyung.com/article/2026092664736",
@@ -30,14 +96,6 @@
       "image": "https://img.yna.co.kr/photo/yna/YH/2025/08/07/PYH2025080714340001300_P2.jpg"
     },
     {
-      "title": "\"직원은 수억원 주면서 우리는?\"…반도체 성과급 잔치의 그늘 [강진구의 회사법 뜨락]",
-      "link": "https://www.hankyung.com/article/202609234174i",
-      "source": "한국경제",
-      "ts": 1790460001000,
-      "pub": "Sun, 27 Sep 2026 07:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[다음주 경제] 반도체 생산 얼마나 늘었나…물가·금리 지표도 발표",
       "link": "https://www.yna.co.kr/view/AKR20260926014400002",
       "source": "연합뉴스 경제",
@@ -56,26 +114,6 @@
       "sentiment": "neutral",
       "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 25일(현지시간) 미국 뉴욕증시는 호르무즈 재개방 및 미국과 이란 간 외교적 해법 모색 기대감에 3대 지수가...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/09/26/PRU20260926018801009_P2.jpg"
-    },
-    {
-      "title": "\"SK하이닉스 손자회사 솔리다임, 이르면 내년 美상장 검토\"",
-      "link": "https://www.yna.co.kr/view/AKR20260926006300075",
-      "source": "연합뉴스 국제",
-      "ts": 1790364688000,
-      "pub": "Sat, 26 Sep 2026 04:31:28 +0900",
-      "sentiment": "neutral",
-      "desc": "(로스앤젤레스=연합뉴스) 김경윤 특파원 = SK하이닉스의 손자회사 솔리다임이 이르면 내년 미국에서 기업공개(IPO)에 나설 것이라는 보도가 나왔...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/26/PRU20260926048301009_P2.jpg"
-    },
-    {
-      "title": "[4만달러 눈 앞] ③ K자 양극화 심화…반도체는 잔치, 서민·청년은 시름",
-      "link": "https://www.yna.co.kr/view/AKR20260922159900002",
-      "source": "연합뉴스 경제",
-      "ts": 1790290814000,
-      "pub": "Fri, 25 Sep 2026 08:00:14 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 김수현 기자 = 한국의 1인당 국민총소득(GNI)이 올해 사상 처음으로 4만 달러를 넘어설 것으로 보이지만 성장의 온기는 고르...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091109370001300_P2.jpg"
     }
   ]
 }

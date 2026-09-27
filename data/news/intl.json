@@ -1,8 +1,66 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-27T10:15:53.365Z",
-  "count": 37,
+  "updated_at": "2026-09-27T15:25:51.350Z",
+  "count": 34,
   "items": [
+    {
+      "title": "靑, 비공개 합의 부인한 우크라에 \"해명·사과 요구…강력 유감\"",
+      "link": "https://www.hankyung.com/article/202609277900i",
+      "source": "한국경제",
+      "ts": 1790519431000,
+      "pub": "Sun, 27 Sep 2026 23:30:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "넉달 전과 달리 미중정상회담 백악관 발표에 '北비핵화' 빠져",
+      "link": "https://www.yna.co.kr/view/AKR20260927055600071",
+      "source": "연합뉴스 국제",
+      "ts": 1790516702000,
+      "pub": "Sun, 27 Sep 2026 22:45:02 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 미중정상회담 결과를 정리한 백악관 설명자료에서 넉 달 전 도널드 트럼프 미 대통령의 방중 때는 있었던 '북...",
+      "image": "https://img.yna.co.kr/photo/etc/gt/2026/09/26/PGT20260926026601009_P2.jpg"
+    },
+    {
+      "title": "'미중 우호 상징' 中판다 핑핑·푸솽, 미국 도착(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260927014551009",
+      "source": "연합뉴스 국제",
+      "ts": 1790510423000,
+      "pub": "Sun, 27 Sep 2026 21:00:23 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이봉석 기자 = '미중 우호의 상징'으로 불리는 중국 자이언트 판다 두 마리가 27일(현지시간) 미국에 도착했다.",
+      "image": "https://img.yna.co.kr/photo/etc/xi/2026/09/13/PXI20260913044501009_P2.jpg"
+    },
+    {
+      "title": "'현상 관리' 택한 미중 정상…연말 APEC·G20서 '2라운드' 예고",
+      "link": "https://www.yna.co.kr/view/AKR20260927048700089",
+      "source": "연합뉴스 국제",
+      "ts": 1790506713000,
+      "pub": "Sun, 27 Sep 2026 19:58:33 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 24일(현지시간) 진행된 미중 정상회담과 시진핑 중국 국가주석의 방미가 대체로 '현상 관리'에 방점을 뒀다...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/27/AKR20260927048700089_01_i_P2.jpg"
+    },
+    {
+      "title": "美민주, 하원 탈환시 트럼프 대대적 조사 예고…탄핵도 선택지",
+      "link": "https://www.yna.co.kr/view/AKR20260927049000009",
+      "source": "연합뉴스 국제",
+      "ts": 1790505167000,
+      "pub": "Sun, 27 Sep 2026 19:32:47 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 고일환 기자 = 미국 민주당이 11월 중간선거에서 하원 다수당을 탈환할 경우 도널드 트럼프 대통령과 가족, 행정부를 상대로 전...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/17/PAP20260917007901009_P2.jpg"
+    },
+    {
+      "title": "\"유럽 테러모의 하마스 인사, 영국 망명해 시민권까지 받아\"",
+      "link": "https://www.yna.co.kr/view/AKR20260927046900085",
+      "source": "연합뉴스 국제",
+      "ts": 1790503813000,
+      "pub": "Sun, 27 Sep 2026 19:10:13 +0900",
+      "sentiment": "neutral",
+      "desc": "(런던=연합뉴스) 김지연 특파원 = 하마스 수장의 경호원을 지낸 인물이 10여년 전 영국에서 난민으로 인정받고 영국 국적까지 취득한 상태로 유럽...",
+      "image": "https://img.yna.co.kr/photo/ap/2025/10/09/PAP20251009027801009_P2.jpg"
+    },
     {
       "title": "이란 '호르무즈 카드' 힘 빠졌나…'7일내 재개방' 제안 트럼프가 거부",
       "link": "https://www.hankyung.com/article/2026092776651",
@@ -25,22 +83,6 @@
       "source": "한국경제",
       "ts": 1790498922000,
       "pub": "Sun, 27 Sep 2026 17:48:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "北 포로 송환 공개 '진실공방'…李 \"우크라, 비공개 합의 어겨\"",
-      "link": "https://www.hankyung.com/article/2026092776751",
-      "source": "한국경제",
-      "ts": 1790498234000,
-      "pub": "Sun, 27 Sep 2026 17:37:14 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕·상하이 증시, 美 PCE·고용 지표에 달린 '긴축 속도'",
-      "link": "https://www.hankyung.com/article/2026092776281",
-      "source": "한국경제",
-      "ts": 1790498016000,
-      "pub": "Sun, 27 Sep 2026 17:33:36 +0900",
       "sentiment": "neutral"
     },
     {
@@ -282,76 +324,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김승욱 기자 = 도널드 트럼프 미국 대통령과 시진핑 중국 국가주석이 미중 정상회담에서 인공지능(AI)의 위험과 혜택에 관한 의...",
       "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/26/PEP20260926016701009_P2.jpg"
-    },
-    {
-      "title": "백악관 \"미중, AI 대화채널 구축 합의…사고 때도 소통\"",
-      "link": "https://www.yna.co.kr/view/AKR20260926031300009",
-      "source": "연합뉴스 국제",
-      "ts": 1790399092000,
-      "pub": "Sat, 26 Sep 2026 14:04:52 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김승욱 기자 = 도널드 트럼프 미국 대통령과 시진핑 중국 국가주석이 미중 정상회담에서 인공지능(AI)의 위험과 혜택에 관한 의...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/26/PEP20260926016701009_P2.jpg"
-    },
-    {
-      "title": "[속보] \"미중정상, 이란 핵무기·국제수로 통행료 불용에 동의\"",
-      "link": "https://www.yna.co.kr/view/AKR20260926030700009",
-      "source": "연합뉴스 국제",
-      "ts": 1790398003000,
-      "pub": "Sat, 26 Sep 2026 13:46:43 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/etc/gt/2026/09/26/PGT20260926026601009_P2.jpg"
-    },
-    {
-      "title": "유엔총회에도 중동해법 난항…이란 '7일 계획'에 트럼프 침묵",
-      "link": "https://www.yna.co.kr/view/AKR20260926030000009",
-      "source": "연합뉴스 국제",
-      "ts": 1790397994000,
-      "pub": "Sat, 26 Sep 2026 13:46:34 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 곽민서 기자 = 미국 뉴욕에서 열린 유엔총회에 중동 전쟁 당사국 정상이 집결했으나 호르무즈 해협 재개방을 둘러싼 외교 해법은 ...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/24/PRU20260924113301009_P2.jpg"
-    },
-    {
-      "title": "[속보] \"미중 슈퍼지능 대화체 운영키로 …사고 땐 양자소통 채널 가동\"",
-      "link": "https://www.yna.co.kr/view/AKR20260926030600009",
-      "source": "연합뉴스 국제",
-      "ts": 1790397970000,
-      "pub": "Sat, 26 Sep 2026 13:46:10 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/26/PEP20260926037901009_P2.jpg"
-    },
-    {
-      "title": "[미중정상회담] 中관영지 \"중·미관계 새 출발…공존의 길 모색해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260926028600083",
-      "source": "연합뉴스 국제",
-      "ts": 1790394316000,
-      "pub": "Sat, 26 Sep 2026 12:45:16 +0900",
-      "sentiment": "neutral",
-      "desc": "(베이징=연합뉴스) 한종구 특파원 = 중국 공산당 기관지 인민일보가 시진핑 국가주석의 미국 국빈 방문을 계기로 미중 관계가 새로운 출발점에 섰다...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/26/PEP20260926012601009_P2.jpg"
-    },
-    {
-      "title": "백악관, CNN '에어포스원 탑승' 차단…공동취재단 운영 또 차질",
-      "link": "https://www.yna.co.kr/view/AKR20260926027300009",
-      "source": "연합뉴스 국제",
-      "ts": 1790391684000,
-      "pub": "Sat, 26 Sep 2026 12:01:24 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 고일환 기자 = 백악관이 법원 결정으로 출입이 재개된 CNN을 상대로 이번엔 대통령 전용기 동행 취재를 제한할 방침이라고 워싱...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/24/PRU20260924259701009_P2.jpg"
-    },
-    {
-      "title": "[미중정상회담] '최고 환대' 받고 돌아온 시진핑…갈등 봉합보단 '안정 관리'",
-      "link": "https://www.yna.co.kr/view/AKR20260926024100083",
-      "source": "연합뉴스 국제",
-      "ts": 1790389863000,
-      "pub": "Sat, 26 Sep 2026 11:31:03 +0900",
-      "sentiment": "neutral",
-      "desc": "(베이징=연합뉴스) 한종구 특파원 = 중국은 시진핑 중국 국가주석의 2박 3일 미국 국빈 방문을 통해 미국과 어깨를 나란히 하는 강대국 이미지를...",
-      "image": "https://img.yna.co.kr/photo/etc/up/2026/09/26/PUP20260926007701009_P2.jpg"
     },
     {
       "title": "다시 고개 든 엔저…日 \"트럼프, 우려 표명\" 이례적 공개",

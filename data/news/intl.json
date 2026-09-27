@@ -1,8 +1,42 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-26T21:41:08.490Z",
-  "count": 50,
+  "updated_at": "2026-09-27T00:00:15.053Z",
+  "count": 47,
   "items": [
+    {
+      "title": "트럼프 \"엔저 우려\" 한마디에…일본은행, 10월 연속 금리 올리나 [도쿄나우]",
+      "link": "https://www.hankyung.com/article/202609277049i",
+      "source": "한국경제",
+      "ts": 1790465477000,
+      "pub": "Sun, 27 Sep 2026 08:31:17 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "7000선 회복한 코스피…PCE 물가지수·마이크론 실적 주목 [주간전망]",
+      "link": "https://www.hankyung.com/article/2026092664736",
+      "source": "한국경제",
+      "ts": 1790463612000,
+      "pub": "Sun, 27 Sep 2026 08:00:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이란 외무 '트럼프 거절'에도 \"확실한 입장 기다리는 중\"",
+      "link": "https://www.yna.co.kr/view/AKR20260927007100009",
+      "source": "연합뉴스 국제",
+      "ts": 1790461572000,
+      "pub": "Sun, 27 Sep 2026 07:26:12 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 강훈상 기자 = 아바스 아라그치 이란 외무장관은 호르무즈 해협 재개 등과 관련해 이란 측이 중재국을 통해 제안한 조건에 관한 ...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/09/26/PRU20260926135901009_P2.jpg"
+    },
+    {
+      "title": "스테이블코인도 '은행업'처럼…Fed, 2영업일 환매·100% 준비금 추진 [김주완의 글로벌머니 X파일]",
+      "link": "https://www.hankyung.com/article/202609266710i",
+      "source": "한국경제",
+      "ts": 1790460014000,
+      "pub": "Sun, 27 Sep 2026 07:00:14 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프 \"전기차 의무화 폐지하는 새 연비 기준 승인\"",
       "link": "https://www.yna.co.kr/view/AKR20260927005100071",
@@ -168,14 +202,6 @@
       "sentiment": "neutral",
       "desc": "(베이징=연합뉴스) 한종구 특파원 = 시진핑 중국 국가주석이 미국 국빈 방문 일정을 마치고 26일 베이징에 도착했다.",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/26/AKR20260926038700083_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프·시진핑 \"국제수로 통행료 반대\"…호르무즈 쥔 이란 부담",
-      "link": "https://www.hankyung.com/article/2026092666227",
-      "source": "한국경제",
-      "ts": 1790403955000,
-      "pub": "Sat, 26 Sep 2026 15:25:55 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "미중정상 \"국제수로 통행료 반대\"…이란 호르무즈 통제 변수되나",
@@ -428,74 +454,14 @@
       "image": "https://img.yna.co.kr/photo/etc/af/2026/09/21/PAF20260921120401009_P2.jpg"
     },
     {
-      "title": "트럼프 \"엄청난 진전\"…시진핑 \"존중·공정·상호주의 바탕\"",
-      "link": "https://www.yna.co.kr/view/AKR20260926001300071",
-      "source": "연합뉴스 국제",
-      "ts": 1790351995000,
-      "pub": "Sat, 26 Sep 2026 00:59:55 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 25일(현지시간) 시진핑 중국 국가주석과의 미중 정상회담을 통해 \"우리는 엄청...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/26/AKR20260926001300071_01_i_P2.jpg"
-    },
-    {
-      "title": "[미중정상회담] \"희토류 쥔 시진핑에 쩔쩔\"…트럼프, 사흘 내내 레드카펫",
-      "link": "https://www.yna.co.kr/view/AKR20260926001000071",
-      "source": "연합뉴스 국제",
-      "ts": 1790351791000,
-      "pub": "Sat, 26 Sep 2026 00:56:31 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 25일(현지시간) 마무리되는 미중 정상회담은 양측이 쥐고 들어온 패가 달랐기 때문에 시작부터 '기울어진 운...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/25/PEP20260925146801009_P2.jpg"
-    },
-    {
-      "title": "[속보] 시진핑 \"미중, 존중·공정·상호주의의 전략적 안정관계 될 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260926000600071",
-      "source": "연합뉴스 국제",
-      "ts": 1790349220000,
-      "pub": "Sat, 26 Sep 2026 00:13:40 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/etc/gt/2026/09/26/PGT20260926026601009_P2.jpg"
-    },
-    {
-      "title": "[속보] 트럼프 \"시진핑과 엄청난 진전 이뤄…미중 모두에 긍정적\"",
-      "link": "https://www.yna.co.kr/view/AKR20260926000500071",
-      "source": "연합뉴스 국제",
-      "ts": 1790348986000,
-      "pub": "Sat, 26 Sep 2026 00:09:46 +0900",
-      "sentiment": "positive",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/ap/2026/09/26/PAP20260926060401009_P2.jpg"
-    },
-    {
-      "title": "미중 정상, 차담으로 사흘연속 대면…'美상징' 문서기록청 방문",
-      "link": "https://www.yna.co.kr/view/AKR20260925049300071",
-      "source": "연합뉴스 국제",
-      "ts": 1790348328000,
-      "pub": "Fri, 25 Sep 2026 23:58:48 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령과 시진핑 중국 국가주석이 25일(현지시간) 백악관에서 차담을 나누며 다시 마주 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/25/AKR20260925049300071_01_i_P2.jpg"
-    },
-    {
-      "title": "EU, 우크라 군사 지원에 10조원 기금 쓰기로 합의",
-      "link": "https://www.yna.co.kr/view/AKR20260925049200085",
-      "source": "연합뉴스 국제",
-      "ts": 1790348223000,
-      "pub": "Fri, 25 Sep 2026 23:57:03 +0900",
-      "sentiment": "neutral",
-      "desc": "(런던=연합뉴스) 김지연 특파원 = 유럽연합(EU) 회원국들이 오랫동안 묶여 있던 특별 기금을 우크라이나 군사 지원을 위해 쓰는 데 합의를 이뤘...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/07/16/PEP20260716014601009_P2.jpg"
-    },
-    {
-      "title": "[미중정상회담] 주중美대사 \"트럼프, 시진핑에 '中 이란 지원 불용' 분명히 해\"",
-      "link": "https://www.yna.co.kr/view/AKR20260925047800071",
-      "source": "연합뉴스 국제",
-      "ts": 1790345803000,
-      "pub": "Fri, 25 Sep 2026 23:16:43 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 데이비드 퍼듀 중국 주재 미국 대사는 25일(현지시간) 도널드 트럼프 미국 대통령이 시진핑 중국 국가주석과...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/25/AKR20260925047800071_01_i_P2.jpg"
+      "title": "다시 고개 든 엔저…日 \"트럼프, 우려 표명\" 이례적 공개",
+      "link": "https://www.yna.co.kr/view/AKR20260925030000073",
+      "source": "연합뉴스 경제",
+      "ts": 1790313852000,
+      "pub": "Fri, 25 Sep 2026 14:24:12 +0900",
+      "sentiment": "negative",
+      "desc": "(도쿄=연합뉴스) 조성미 특파원 = 일본 정부가 미일 양국의 공동 환율 개입 이후 주춤했던 엔화 약세가 재개되자 도널드 트럼프 미국 대통령의 엔...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/23/PYH2026092301930007300_P2.jpg"
     }
   ]
 }

@@ -1,22 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-26T21:41:08.507Z",
+  "updated_at": "2026-09-27T00:00:15.055Z",
   "count": 2,
   "items": [
+    {
+      "title": "상장사 3분기 실적 전망치 변화는…삼전닉스 상향 조정",
+      "link": "https://www.yna.co.kr/view/AKR20260923161100008",
+      "source": "연합뉴스 경제",
+      "ts": 1790460902000,
+      "pub": "Sun, 27 Sep 2026 07:15:02 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이민영 기자 = 국내 상장사들의 3분기 실적 전망이 기업별로 크게 엇갈리고 있다. 절반 이상은 최근 영업이익 눈높이가 높아진 ...",
+      "image": "https://img.yna.co.kr/photo/cms/2020/01/28/50/PCM20200128000050990_P2.jpg"
+    },
     {
       "title": "\"이러다 中에 빼앗긴다\"…삼전닉스 동시에 달려간 '이 나라'",
       "link": "https://www.hankyung.com/article/202609217576i",
       "source": "한국경제",
       "ts": 1790429401000,
       "pub": "Sat, 26 Sep 2026 22:30:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"돈잔치 할 때 아냐\"…삼전닉스 호황에 소환된 '이건희 승부수' [분석+]",
-      "link": "https://www.hankyung.com/article/2026092180476",
-      "source": "한국경제",
-      "ts": 1790411348000,
-      "pub": "Sat, 26 Sep 2026 17:29:08 +0900",
       "sentiment": "neutral"
     }
   ]

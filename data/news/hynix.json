@@ -1,8 +1,58 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-27T04:15:07.427Z",
-  "count": 12,
+  "updated_at": "2026-09-27T10:15:53.367Z",
+  "count": 13,
   "items": [
+    {
+      "title": "LG전자, 엔비디아 냉각 분야 파트너로 선정",
+      "link": "https://www.hankyung.com/article/2026092776211",
+      "source": "한국경제",
+      "ts": 1790498508000,
+      "pub": "Sun, 27 Sep 2026 17:41:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"연말 주도주, 반도체서 2차전지·금융으로 확산될 것\"",
+      "link": "https://www.hankyung.com/article/2026092776251",
+      "source": "한국경제",
+      "ts": 1790498422000,
+      "pub": "Sun, 27 Sep 2026 17:40:22 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 호황에…올 초과세수 50조 웃돌 듯",
+      "link": "https://www.hankyung.com/article/2026092776271",
+      "source": "한국경제",
+      "ts": 1790498189000,
+      "pub": "Sun, 27 Sep 2026 17:36:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 ETF '고공행진'…소부장도 상위권 점령",
+      "link": "https://www.hankyung.com/article/2026092775881",
+      "source": "한국경제",
+      "ts": 1790497951000,
+      "pub": "Sun, 27 Sep 2026 17:32:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'반도체 벨트' 강세 지속…수원 영통 상승률 1위",
+      "link": "https://www.hankyung.com/article/2026092775741",
+      "source": "한국경제",
+      "ts": 1790497831000,
+      "pub": "Sun, 27 Sep 2026 17:30:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "日기업 '재택→출근' 잇따라…소니 반도체도 8천명 사무실로",
+      "link": "https://www.yna.co.kr/view/AKR20260927029800073",
+      "source": "연합뉴스 국제",
+      "ts": 1790485757000,
+      "pub": "Sun, 27 Sep 2026 14:09:17 +0900",
+      "sentiment": "neutral",
+      "desc": "(도쿄=연합뉴스) 이도연 특파원 = 일본 기업들 사이에 재택근무에서 출근으로 되돌리는 움직임이 이어지는 가운데 소니 그룹의 반도체 자회사도 직원...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/27/AKR20260927029800073_01_i_P2.jpg"
+    },
     {
       "title": "수출호조·환율안정에 제조업 경기전망 개선…반도체 역대 최대",
       "link": "https://www.yna.co.kr/view/AKR20260927016500003",
@@ -12,22 +62,6 @@
       "sentiment": "positive",
       "desc": "(서울=연합뉴스) 임성호 기자 = 국내 제조기업들의 올해 4분기 경기 전망이 반도체와 화장품 등의 수출 호조에 힘입어 전분기보다 개선된 것으로 ...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/06/PYH2026080604590005100_P2.jpg"
-    },
-    {
-      "title": "코스피 7000대 안착할까…마이크론과 국제유가, 고용지표가 변수 [이번주 주요변수 미리보기]",
-      "link": "https://www.hankyung.com/article/202609277198i",
-      "source": "한국경제",
-      "ts": 1790473158000,
-      "pub": "Sun, 27 Sep 2026 10:39:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"하이닉스 대신 '여기' 살 걸\"…90% 폭등한 회사 알고보니 [대기업 협력사 전수분석]",
-      "link": "https://www.hankyung.com/article/202609277167i",
-      "source": "한국경제",
-      "ts": 1790472183000,
-      "pub": "Sun, 27 Sep 2026 10:23:03 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "광주 아파트 매매가격 상승세 전환…'통합·반도체 효과'",
@@ -70,22 +104,6 @@
       "image": "https://img.yna.co.kr/photo/cms/2026/07/30/18/PCM20260730000018990_P2.jpg"
     },
     {
-      "title": "7000선 회복한 코스피…PCE 물가지수·마이크론 실적 주목 [주간전망]",
-      "link": "https://www.hankyung.com/article/2026092664736",
-      "source": "한국경제",
-      "ts": 1790463612000,
-      "pub": "Sun, 27 Sep 2026 08:00:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"엔비디아 너무 비싸\"…1200조 시장 노리는 K반도체",
-      "link": "https://www.hankyung.com/article/2026092769927",
-      "source": "한국경제",
-      "ts": 1790463400000,
-      "pub": "Sun, 27 Sep 2026 07:56:40 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "1천조 시장 열리는 AI반도체…\"정부, 공급망 진출 지원해야\"",
       "link": "https://www.yna.co.kr/view/AKR20260923100300003",
       "source": "연합뉴스 경제",
@@ -104,16 +122,6 @@
       "sentiment": "neutral",
       "desc": "(세종·서울=연합뉴스) 이세원 배영경 한지훈 기자 = 다음 주(9월 28일∼10월 2일)에는 국내 산업·경제 동향을 보여주는 통계와 물가·금리 ...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/30/PYH2026073016370001300_P2.jpg"
-    },
-    {
-      "title": "뉴욕증시, 미·이란 협상 기대에 상승…AI·반도체주 강세(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260926007551072",
-      "source": "연합뉴스 국제",
-      "ts": 1790371218000,
-      "pub": "Sat, 26 Sep 2026 06:20:18 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 25일(현지시간) 미국 뉴욕증시는 호르무즈 재개방 및 미국과 이란 간 외교적 해법 모색 기대감에 3대 지수가...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/26/PRU20260926018801009_P2.jpg"
     }
   ]
 }

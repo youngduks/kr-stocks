@@ -1,8 +1,78 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-27T04:15:07.424Z",
-  "count": 41,
+  "updated_at": "2026-09-27T10:15:53.365Z",
+  "count": 37,
   "items": [
+    {
+      "title": "이란 '호르무즈 카드' 힘 빠졌나…'7일내 재개방' 제안 트럼프가 거부",
+      "link": "https://www.hankyung.com/article/2026092776651",
+      "source": "한국경제",
+      "ts": 1790499390000,
+      "pub": "Sun, 27 Sep 2026 17:56:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"인공지능이 아니라 슈퍼지능\"…용어 바꾸려는 트럼프 속내는",
+      "link": "https://www.hankyung.com/article/2026092775861",
+      "source": "한국경제",
+      "ts": 1790498961000,
+      "pub": "Sun, 27 Sep 2026 17:49:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "강관·봉형강 수출 '깜짝 반등'…美 고율관세 뚫었다",
+      "link": "https://www.hankyung.com/article/2026092775581",
+      "source": "한국경제",
+      "ts": 1790498922000,
+      "pub": "Sun, 27 Sep 2026 17:48:42 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "北 포로 송환 공개 '진실공방'…李 \"우크라, 비공개 합의 어겨\"",
+      "link": "https://www.hankyung.com/article/2026092776751",
+      "source": "한국경제",
+      "ts": 1790498234000,
+      "pub": "Sun, 27 Sep 2026 17:37:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뉴욕·상하이 증시, 美 PCE·고용 지표에 달린 '긴축 속도'",
+      "link": "https://www.hankyung.com/article/2026092776281",
+      "source": "한국경제",
+      "ts": 1790498016000,
+      "pub": "Sun, 27 Sep 2026 17:33:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "대만, 미중회담 '의미 축소' 노력…\"美, 전략적 모호성 유지\"",
+      "link": "https://www.yna.co.kr/view/AKR20260927038200089",
+      "source": "연합뉴스 국제",
+      "ts": 1790494156000,
+      "pub": "Sun, 27 Sep 2026 16:29:16 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 시진핑 중국 국가주석이 24일(현지시간) 미중 정상회담에서 미국에 밝힌 '대만 독립 반대' 요구와 관련, ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/27/AKR20260927038200089_02_i_P2.jpg"
+    },
+    {
+      "title": "\"패트리엇 생산 약속\" 우크라 강조했지만…트럼프 또 확답 피해",
+      "link": "https://www.yna.co.kr/view/AKR20260927036100009",
+      "source": "연합뉴스 국제",
+      "ts": 1790492649000,
+      "pub": "Sun, 27 Sep 2026 16:04:09 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 오수진 기자 = 도널드 트럼프 미국 대통령이 첨단 방공 무기인 패트리엇 미사일 우크라이나 내 생산을 허가받았다는 볼로디미르 젤...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/23/PAF20260923212601009_P2.jpg"
+    },
+    {
+      "title": "홍콩 매체 \"트럼프, 11월 선전 APEC서 더 강한 시진핑 대면\"",
+      "link": "https://www.yna.co.kr/view/AKR20260927030200009",
+      "source": "연합뉴스 국제",
+      "ts": 1790486451000,
+      "pub": "Sun, 27 Sep 2026 14:20:51 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이봉석 기자 = 도널드 트럼프 미국 대통령이 11월 중국 선전 아시아태평양경제협력체(APEC) 정상회담 때는 한층 강한 시진핑...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/26/PAP20260926122001009_P2.jpg"
+    },
     {
       "title": "미 주요 방송사들, 'CNN 배제' 유지에도 트럼프 공동취재 재개",
       "link": "https://www.yna.co.kr/view/AKR20260927026200009",
@@ -24,14 +94,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/27/AKR20260927022000009_01_i_P2.jpg"
     },
     {
-      "title": "코스피 7000대 안착할까…마이크론과 국제유가, 고용지표가 변수 [이번주 주요변수 미리보기]",
-      "link": "https://www.hankyung.com/article/202609277198i",
-      "source": "한국경제",
-      "ts": 1790473158000,
-      "pub": "Sun, 27 Sep 2026 10:39:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "'미중 우호 상징' 中판다 핑핑·푸솽, 미국으로 출발",
       "link": "https://www.yna.co.kr/view/AKR20260927014500009",
       "source": "연합뉴스 국제",
@@ -42,22 +104,6 @@
       "image": "https://img.yna.co.kr/photo/etc/xi/2026/09/13/PXI20260913044501009_P2.jpg"
     },
     {
-      "title": "트럼프 \"엔저 우려\" 한마디에…일본은행, 10월 연속 금리 올리나 [도쿄나우]",
-      "link": "https://www.hankyung.com/article/202609277049i",
-      "source": "한국경제",
-      "ts": 1790465477000,
-      "pub": "Sun, 27 Sep 2026 08:31:17 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "7000선 회복한 코스피…PCE 물가지수·마이크론 실적 주목 [주간전망]",
-      "link": "https://www.hankyung.com/article/2026092664736",
-      "source": "한국경제",
-      "ts": 1790463612000,
-      "pub": "Sun, 27 Sep 2026 08:00:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "이란 외무 '트럼프 거절'에도 \"확실한 입장 기다리는 중\"",
       "link": "https://www.yna.co.kr/view/AKR20260927007100009",
       "source": "연합뉴스 국제",
@@ -66,14 +112,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 강훈상 기자 = 아바스 아라그치 이란 외무장관은 호르무즈 해협 재개 등과 관련해 이란 측이 중재국을 통해 제안한 조건에 관한 ...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/09/26/PRU20260926135901009_P2.jpg"
-    },
-    {
-      "title": "스테이블코인도 '은행업'처럼…Fed, 2영업일 환매·100% 준비금 추진 [김주완의 글로벌머니 X파일]",
-      "link": "https://www.hankyung.com/article/202609266710i",
-      "source": "한국경제",
-      "ts": 1790460014000,
-      "pub": "Sun, 27 Sep 2026 07:00:14 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "트럼프 \"전기차 의무화 폐지하는 새 연비 기준 승인\"",
@@ -123,7 +161,7 @@
       "pub": "Sun, 27 Sep 2026 01:27:24 +0900",
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령이 26일(현지시간) 이란이 제시한 호르무즈 해협 재개방을 위한 '7일 계획' 평...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/26/AKR20260926049051071_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/26/PAP20260926319901009_P2.jpg"
     },
     {
       "title": "독·러 외무장관, 우크라전 발발 후 첫 회담",
@@ -314,86 +352,6 @@
       "sentiment": "neutral",
       "desc": "(베이징=연합뉴스) 한종구 특파원 = 중국은 시진핑 중국 국가주석의 2박 3일 미국 국빈 방문을 통해 미국과 어깨를 나란히 하는 강대국 이미지를...",
       "image": "https://img.yna.co.kr/photo/etc/up/2026/09/26/PUP20260926007701009_P2.jpg"
-    },
-    {
-      "title": "\"젤렌스키 정치쇼\"vs\"합의 없었다\" 北포로에 우크라 정계도 시끌",
-      "link": "https://www.yna.co.kr/view/AKR20260926024200009",
-      "source": "연합뉴스 국제",
-      "ts": 1790388529000,
-      "pub": "Sat, 26 Sep 2026 11:08:49 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 곽민서 기자 = 볼로디미르 젤렌스키 우크라이나 대통령이 북한군 포로 2명의 한국 송환 사실을 전격 공개한 것을 놓고 우크라이나...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2025/10/31/PYH2025103101240001300_P2.jpg"
-    },
-    {
-      "title": "[미중정상회담] 미중 기업협력 사례들 조명한 中관영지…\"시장 함께 키워야\"",
-      "link": "https://www.yna.co.kr/view/AKR20260926023000083",
-      "source": "연합뉴스 국제",
-      "ts": 1790387017000,
-      "pub": "Sat, 26 Sep 2026 10:43:37 +0900",
-      "sentiment": "neutral",
-      "desc": "(베이징=연합뉴스) 김현정 특파원 = 미중 정상회담 직후에 미국과 중국 기업의 상대국 시장 진출과 협력 사례를 부각하는 중국 관영매체 보도가 나...",
-      "image": "https://img.yna.co.kr/photo/ap/2025/11/28/PAP20251128004301009_P2.jpg"
-    },
-    {
-      "title": "[미중정상회담] '2차대전 동맹' 강조에 日 당혹…\"다카이치, 美와 소통 조율\"",
-      "link": "https://www.yna.co.kr/view/AKR20260926020900073",
-      "source": "연합뉴스 국제",
-      "ts": 1790385441000,
-      "pub": "Sat, 26 Sep 2026 10:17:21 +0900",
-      "sentiment": "neutral",
-      "desc": "(도쿄=연합뉴스) 조성미 특파원 = 도널드 트럼프 미국 대통령이 시진핑 중국 국가주석과 회담에서 제2차 세계대전 당시 미국과 중국이 '동맹국(a...",
-      "image": "https://img.yna.co.kr/photo/cms/2025/10/28/02/PCM20251028000002990_P2.jpg"
-    },
-    {
-      "title": "\"트럼프, 이란 '7일 계획' 제안 거부…선거 후 폭격 가능성\"",
-      "link": "https://www.yna.co.kr/view/AKR20260926021600009",
-      "source": "연합뉴스 국제",
-      "ts": 1790384971000,
-      "pub": "Sat, 26 Sep 2026 10:09:31 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 신유리 기자 = 도널드 트럼프 미국 대통령은 이란이 제시한 '7일 계획' 제안을 거부했다고 미 일간 월스트리트저널(WSJ)이 ...",
-      "image": "https://img.yna.co.kr/photo/etc/gt/2026/09/23/PGT20260923061601009_P2.jpg"
-    },
-    {
-      "title": "[미중정상회담] 인민복 내세운 中복식외교…\"멜라니아·이방카도 중국풍 의상\"",
-      "link": "https://www.yna.co.kr/view/AKR20260926017500083",
-      "source": "연합뉴스 국제",
-      "ts": 1790380684000,
-      "pub": "Sat, 26 Sep 2026 08:58:04 +0900",
-      "sentiment": "neutral",
-      "desc": "(베이징=연합뉴스) 김현정 특파원 = 시진핑 중국 국가주석의 미국 국빈 방문길에 중국 대표단이 전통적 의미가 담긴 자국 의상을 선보여 이목을 끌...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/26/PRU20260926039501009_P2.jpg"
-    },
-    {
-      "title": "[미중 정상회담] 뉴욕 패싱하고 트럼프 만난 시진핑…유엔 위상 약화",
-      "link": "https://www.yna.co.kr/view/AKR20260926018100009",
-      "source": "연합뉴스 국제",
-      "ts": 1790379909000,
-      "pub": "Sat, 26 Sep 2026 08:45:09 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 고일환 기자 = 미국 워싱턴DC에서 열린 미중 정상회담은 유엔의 위상 약화를 상징적으로 보여준다고 뉴욕타임스(NYT)가 25일...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/26/PAF20260926067501009_P2.jpg"
-    },
-    {
-      "title": "[미중정상회담] 美전문가들 \"취약한 휴전 연장…AI경쟁 본능 억제못해\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260926001251071",
-      "source": "연합뉴스 국제",
-      "ts": 1790370475000,
-      "pub": "Sat, 26 Sep 2026 06:07:55 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령과 시진핑 중국 국가주석의 이번 정상회담은 양국 간 충돌을 막아온 '취약한 휴전'...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/26/AKR20260926001251071_03_i_P2.jpg"
-    },
-    {
-      "title": "[미중정상회담] 미중정상 한반도 논의…'11월 방중' 트럼프, 김정은 만날까",
-      "link": "https://www.yna.co.kr/view/AKR20260926006600071",
-      "source": "연합뉴스 국제",
-      "ts": 1790365775000,
-      "pub": "Sat, 26 Sep 2026 04:49:35 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령과 시진핑 중국 국가주석이 정상회담에서 한반도 문제를 논의한 것으로 확인되면서 북...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/26/AKR20260926006600071_01_i_P2.jpg"
     },
     {
       "title": "다시 고개 든 엔저…日 \"트럼프, 우려 표명\" 이례적 공개",

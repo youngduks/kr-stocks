@@ -1,15 +1,23 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-27T04:15:07.426Z",
-  "count": 3,
+  "updated_at": "2026-09-27T10:15:53.367Z",
+  "count": 4,
   "items": [
     {
-      "title": "삼성전자에 145억 베팅한 고액자산가…급락한 현대모비스도 쓸어담았다",
-      "link": "https://www.hankyung.com/article/202609277209i",
+      "title": "[포토] 멕시코서 'AI 연결' 선보인 삼성전자",
+      "link": "https://www.hankyung.com/article/2026092776201",
       "source": "한국경제",
-      "ts": 1790474409000,
-      "pub": "Sun, 27 Sep 2026 11:00:09 +0900",
-      "sentiment": "negative"
+      "ts": 1790498643000,
+      "pub": "Sun, 27 Sep 2026 17:44:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 영업이익 3분기 100조 넘을듯",
+      "link": "https://www.hankyung.com/article/2026092776231",
+      "source": "한국경제",
+      "ts": 1790497622000,
+      "pub": "Sun, 27 Sep 2026 17:27:02 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "갤럭시 폴드8, 유럽 5개국 소비자 평가서 1위",

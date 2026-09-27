@@ -8,7 +8,9 @@ export const dynamic = "force-dynamic";
 // 밖은 /shopping으로 되돌림. toss.im: 토스쇼핑 쉐어링크(형님이 직접 전달하는 fwd-cp/
 // fwd-toss 수동 딜)용 — 2026-08-04 이 목록에 없어서 토스 딜 전부가 "구매하기" 클릭 시
 // /shopping으로 되튕기는 버그가 있었음(쿠팡만 상정하고 만든 화이트리스트라 놓침).
-const ALLOWED_HOSTS = new Set(["link.coupang.com", "www.coupang.com", "toss.im"]);
+// toss.shopping: 2026-09-24 00시부터 쉐어링크 API가 발급하는 shortUrl 도메인이
+// toss.im → toss.shopping으로 바뀌어 같은 되튕김이 재발했음(9/27 발견).
+const ALLOWED_HOSTS = new Set(["link.coupang.com", "www.coupang.com", "toss.im", "toss.shopping"]);
 
 export async function GET(req: NextRequest) {
   const raw = req.nextUrl.searchParams.get("url") || "";

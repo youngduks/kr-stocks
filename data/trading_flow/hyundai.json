@@ -3,15 +3,10 @@
   "ticker": "005380",
   "name_ko": "현대차",
   "name_en": "Hyundai Motor",
-  "updated_at": "2026-09-25T22:12:55.325+09:00",
+  "updated_at": "2026-09-29T01:24:24.082+09:00",
   "source": "naver_mstock_trend",
   "note": "추정 매매대금 = 종가 × 순매매량 (±5% 정확도)",
   "daily": [
-    {
-      "date": "2026-09-17",
-      "foreign_won": 9502879500,
-      "institutional_won": -11372035500
-    },
     {
       "date": "2026-09-18",
       "foreign_won": -14751258500,
@@ -31,11 +26,16 @@
       "date": "2026-09-23",
       "foreign_won": -49986069000,
       "institutional_won": -26582934000
+    },
+    {
+      "date": "2026-09-28",
+      "foreign_won": -10115550000,
+      "institutional_won": 6556434000
     }
   ],
   "cumulative_5d": {
-    "foreign_won": -134698202000,
-    "institutional_won": -46459468000,
-    "retail_won": 181157670000
+    "foreign_won": -154316631500,
+    "institutional_won": -28530998500,
+    "retail_won": 182847630000
   }
 }

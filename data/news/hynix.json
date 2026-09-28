@@ -1,31 +1,62 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-28T01:15:56.017Z",
-  "count": 11,
+  "updated_at": "2026-09-28T07:52:02.973Z",
+  "count": 7,
   "items": [
     {
-      "title": "LG전자, 엔비디아 AI 데이터센터 공식 파트너 선정에 '급등'",
-      "link": "https://www.hankyung.com/article/2026092885836",
+      "title": "이재준 수원특례시장 \"수원을 AI·반도체·바이오 K-실리콘밸리로 만들겠다\"",
+      "link": "https://www.hankyung.com/article/2026092884551",
       "source": "한국경제",
-      "ts": 1790556434000,
-      "pub": "Mon, 28 Sep 2026 09:47:14 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "솔리다임 IPO 추진설에…SK하이닉스, 장 초반 '약세'",
-      "link": "https://www.hankyung.com/article/2026092885926",
-      "source": "한국경제",
-      "ts": 1790555967000,
-      "pub": "Mon, 28 Sep 2026 09:39:27 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'따따블' 새내기주 쓸어 담은 초고수들…반도체는 던졌다",
-      "link": "https://www.hankyung.com/article/202609288247i",
-      "source": "한국경제",
-      "ts": 1790553606000,
-      "pub": "Mon, 28 Sep 2026 09:00:06 +0900",
+      "ts": 1790578946000,
+      "pub": "Mon, 28 Sep 2026 16:02:26 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "이상일 용인특례시장 \"세계 최대 용인 반도체클러스터 완성…실행으로 옮길 것\"",
+      "link": "https://www.hankyung.com/article/2026092884561",
+      "source": "한국경제",
+      "ts": 1790578923000,
+      "pub": "Mon, 28 Sep 2026 16:02:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] LG전자, 엔비디아 공식 파트너 선정에 상승 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260928053251008",
+      "source": "연합뉴스 경제",
+      "ts": 1790578379000,
+      "pub": "Mon, 28 Sep 2026 15:52:59 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이민영 기자 = LG전자[066570]가 엔비디아의 공식 파트너로 선정된 가운데 28일 강세를 보였다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/27/PYH2026092702750001300_P2.jpg"
+    },
+    {
+      "title": "ISC \"반도체 테스트소켓 계열사에 297억원 출자\"",
+      "link": "https://www.yna.co.kr/view/AKR20260928120300008",
+      "source": "연합뉴스 경제",
+      "ts": 1790578270000,
+      "pub": "Mon, 28 Sep 2026 15:51:10 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 코스닥 상장사 ISC[095340]는 반도체 테스트소켓 생산 계열사(ISC VINA MANUFACTURING)에 약 297억원..."
+    },
+    {
+      "title": "TSMC, 대만 남부에 최첨단 패키징 공장 5개 추가 건설 추진",
+      "link": "https://www.yna.co.kr/view/AKR20260928080700009",
+      "source": "연합뉴스 국제",
+      "ts": 1790568539000,
+      "pub": "Mon, 28 Sep 2026 13:08:59 +0900",
+      "sentiment": "neutral",
+      "desc": "(타이베이=연합뉴스) 김철문 통신원 = 세계 최대 파운드리(반도체 수탁생산) 업체인 대만 TSMC가 5개의 최첨단 패키징(AP) 공장 추가 건설...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/28/AKR20260928080700009_01_i_P2.jpg"
+    },
+    {
+      "title": "[특징주] LG전자, 엔비디아 공식 파트너 선정에 장 초반 강세",
+      "link": "https://www.yna.co.kr/view/AKR20260928053200008",
+      "source": "연합뉴스 경제",
+      "ts": 1790557817000,
+      "pub": "Mon, 28 Sep 2026 10:10:17 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이민영 기자 = LG전자[066570]가 엔비디아의 공식 파트너로 선정된 가운데 28일 장 초반 주가가 강세를 보이고 있다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/27/PYH2026092702750001300_P2.jpg"
     },
     {
       "title": "디인포메이션 \"中, 엔비디아 신형칩 구매 허용 방침\"",
@@ -36,76 +67,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 정주호 기자 = 중국 정부가 바이트댄스와 알리바바 등 자국 기업에 엔비디아의 신형 인공지능(AI) 칩 'RTX 프로 5500'...",
       "image": "https://img.yna.co.kr/photo/etc/epa/2025/05/19/PEP20250519213201009_P2.jpg"
-    },
-    {
-      "title": "건설공사 2분기 계약액 작년보다 27%↑…반도체 시설 등 영향",
-      "link": "https://www.yna.co.kr/view/AKR20260927035800003",
-      "source": "연합뉴스 경제",
-      "ts": 1790542805000,
-      "pub": "Mon, 28 Sep 2026 06:00:05 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 임기창 기자 = 반도체 생산시설 건설사업 등 영향으로 올 2분기 건설공사 계약액이 작년 동기 대비 약 27% 증가했다.",
-      "image": "https://img.yna.co.kr/photo/cms/2022/02/03/73/PCM20220203000073990_P2.jpg"
-    },
-    {
-      "title": "日기업 '재택→출근' 잇따라…소니 반도체도 8천명 사무실로",
-      "link": "https://www.yna.co.kr/view/AKR20260927029800073",
-      "source": "연합뉴스 국제",
-      "ts": 1790485757000,
-      "pub": "Sun, 27 Sep 2026 14:09:17 +0900",
-      "sentiment": "neutral",
-      "desc": "(도쿄=연합뉴스) 이도연 특파원 = 일본 기업들 사이에 재택근무에서 출근으로 되돌리는 움직임이 이어지는 가운데 소니 그룹의 반도체 자회사도 직원...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/27/AKR20260927029800073_01_i_P2.jpg"
-    },
-    {
-      "title": "수출호조·환율안정에 제조업 경기전망 개선…반도체 역대 최대",
-      "link": "https://www.yna.co.kr/view/AKR20260927016500003",
-      "source": "연합뉴스 경제",
-      "ts": 1790478001000,
-      "pub": "Sun, 27 Sep 2026 12:00:01 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 임성호 기자 = 국내 제조기업들의 올해 4분기 경기 전망이 반도체와 화장품 등의 수출 호조에 힘입어 전분기보다 개선된 것으로 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/06/PYH2026080604590005100_P2.jpg"
-    },
-    {
-      "title": "광주 아파트 매매가격 상승세 전환…'통합·반도체 효과'",
-      "link": "https://www.yna.co.kr/view/AKR20260923075800054",
-      "source": "연합뉴스 경제",
-      "ts": 1790470804000,
-      "pub": "Sun, 27 Sep 2026 10:00:04 +0900",
-      "sentiment": "positive",
-      "desc": "(전남광주=연합뉴스) 전승현 기자 = 올해 들어 하락세를 지속해오던 광주지역 아파트 매매가격이 전남광주통합과 반도체 공장 설립 소식 이후 상승세...",
-      "image": "https://img.yna.co.kr/photo/cms/2016/07/25/01/C0A8CA3D00000156203C4E4D0000C574_P2.jpeg"
-    },
-    {
-      "title": "박홍근 \"호남 반도체, 기업 팔 비틀기 아냐…팹 증설도 구상\"",
-      "link": "https://www.yna.co.kr/view/AKR20260927016000002",
-      "source": "연합뉴스 경제",
-      "ts": 1790470337000,
-      "pub": "Sun, 27 Sep 2026 09:52:17 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 안채원 기자 = 박홍근 기획예산처 장관은 27일 정부가 추진하고 있는 호남 반도체 클러스터 조성과 관련해 \"(일각에서) 기업 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/28/PYH2026082807440001300_P2.jpg"
-    },
-    {
-      "title": "엔비디아 로고 트레일러 훔쳤다가…모래 18t 버려두고 도주",
-      "link": "https://www.yna.co.kr/view/AKR20260927014800091",
-      "source": "연합뉴스 국제",
-      "ts": 1790469657000,
-      "pub": "Sun, 27 Sep 2026 09:40:57 +0900",
-      "sentiment": "neutral",
-      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 인공지능(AI) 반도체 1위 기업 엔비디아의 로고가 박힌 대형 트레일러를 훔쳐 '대박'을 노렸던 도둑...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/27/AKR20260927014800091_02_i_P2.jpg"
-    },
-    {
-      "title": "광주 반도체 산단 수백억 용역 발주…지역업체는 그림의 떡",
-      "link": "https://www.yna.co.kr/view/AKR20260921056700054",
-      "source": "연합뉴스 경제",
-      "ts": 1790467262000,
-      "pub": "Sun, 27 Sep 2026 09:01:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(전남광주=연합뉴스) 박철홍 기자 = 호남권 반도체 첨단 국가산업단지 조성을 위한 수백억원 규모의 설계·조사·평가 용역이 잇따라 발주되고 있지만...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/07/30/18/PCM20260730000018990_P2.jpg"
     }
   ]
 }

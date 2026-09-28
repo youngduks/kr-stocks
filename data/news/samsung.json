@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-28T07:52:02.972Z",
+  "updated_at": "2026-09-28T16:10:23.363Z",
   "count": 5,
   "items": [
+    {
+      "title": "치과의사가 갤럭시를 쓰는 이유…아이폰서 '여권폰' 환승",
+      "link": "https://www.hankyung.com/article/2026092804447",
+      "source": "한국경제",
+      "ts": 1790596649000,
+      "pub": "Mon, 28 Sep 2026 20:57:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中,엔비디아 RTX프로5500구매 풀면…삼전·닉스 DDR7 '수혜'주목",
+      "link": "https://www.hankyung.com/article/202609280407i",
+      "source": "한국경제",
+      "ts": 1790594112000,
+      "pub": "Mon, 28 Sep 2026 20:15:12 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "삼성전자, 화성에 1조7천억 신규 투자…연구동 짓는다",
       "link": "https://www.yna.co.kr/view/AKR20260928127100061",
@@ -12,14 +28,6 @@
       "sentiment": "neutral",
       "desc": "(화성=연합뉴스) 최해민 기자 = 삼성전자가 화성캠퍼스에 1조7천억원을 투입해 연구동을 신축하는 등 대규모 신규 투자에 나선다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/28/PYH2026092820450006100_P2.jpg"
-    },
-    {
-      "title": "외인·기관 4조 매도 폭탄…삼전닉스 5% 폭락에 6900선 붕괴",
-      "link": "https://www.hankyung.com/article/2026092898206",
-      "source": "한국경제",
-      "ts": 1790579429000,
-      "pub": "Mon, 28 Sep 2026 16:10:29 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "삼전·닉스, 5%대 급락…외국인·기관, 동반 '팔자'(종합)",
@@ -40,16 +48,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 김유아 기자 = 추석 연휴를 마치고 돌아온 코스피가 28일 하락 폭을 키우며 장중 '7천피'(코스피 7,000)를 내줬다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/28/PYH2026092802530001300_P2.jpg"
-    },
-    {
-      "title": "[특징주] 연휴서 돌아온 삼전·닉스, 장초반 1∼2%대 하락",
-      "link": "https://www.yna.co.kr/view/AKR20260928034500008",
-      "source": "연합뉴스 경제",
-      "ts": 1790554887000,
-      "pub": "Mon, 28 Sep 2026 09:21:27 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 추석 연휴 이후 첫 거래일인 28일 장 초반 삼성전자[005930]와 SK하이닉스[000660]가 각각 1%와...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/02/04/84/PCM20260204000084990_P2.jpg"
     }
   ]
 }

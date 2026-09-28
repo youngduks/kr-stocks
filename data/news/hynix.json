@@ -1,22 +1,84 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-28T07:52:02.973Z",
-  "count": 7,
+  "updated_at": "2026-09-28T16:10:23.364Z",
+  "count": 14,
   "items": [
     {
-      "title": "이재준 수원특례시장 \"수원을 AI·반도체·바이오 K-실리콘밸리로 만들겠다\"",
-      "link": "https://www.hankyung.com/article/2026092884551",
+      "title": "엔비디아, 204조원 자사주 매입 추가…美기업 사상 최대",
+      "link": "https://www.yna.co.kr/view/AKR20260928166800072",
+      "source": "연합뉴스 국제",
+      "ts": 1790603611000,
+      "pub": "Mon, 28 Sep 2026 22:53:31 +0900",
+      "sentiment": "positive",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 인공지능(AI) 반도체 대장주 엔비디아가 1천500억달러(한화 약 204조원) 규모의 자사주 매입을 추가 승...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/28/AKR20260928166800072_01_i_P2.jpg"
+    },
+    {
+      "title": "엔비디아 \"자사주 204조원어치 추가 매입\" 사상 최고 기록 경신",
+      "link": "https://www.mt.co.kr/world/2026/09/28/2026092822245176815",
+      "source": "머니투데이",
+      "ts": 1790602870000,
+      "pub": "Mon, 28 Sep 2026 22:41:10 +0900",
+      "sentiment": "positive",
+      "desc": "젠슨황 \"회사 장기 성장에 대한 확신 반영\" AI(인공지능) 분야 최고 기업으로 꼽히는 엔비디아가 자사주 매입 규모를 1500억달러(204조원) 추가할 계획이라고 28일(현지시간) 밝혔다. 엔비디아는 이날 홈페이지에 기시한 글에서 회사 이사회의 자사주 매입 규모 150",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026092822245176815_1.jpg"
+    },
+    {
+      "title": "中, 엔비디아 신형칩 구매 추진…AI칩 공급난에 1년 만에 백기",
+      "link": "https://www.hankyung.com/article/2026092805051",
       "source": "한국경제",
-      "ts": 1790578946000,
-      "pub": "Mon, 28 Sep 2026 16:02:26 +0900",
+      "ts": 1790601888000,
+      "pub": "Mon, 28 Sep 2026 22:24:48 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "이상일 용인특례시장 \"세계 최대 용인 반도체클러스터 완성…실행으로 옮길 것\"",
-      "link": "https://www.hankyung.com/article/2026092884561",
+      "title": "[여의도 클라쓰] '한미반도체, 케이씨, 아로마티카' 클라쓰 올릴 종목은?",
+      "link": "https://www.mt.co.kr/stock/2026/09/28/2026092821467029269",
+      "source": "머니투데이",
+      "ts": 1790601433000,
+      "pub": "Mon, 28 Sep 2026 22:17:13 +0900",
+      "sentiment": "neutral",
+      "desc": "▶▶▶ 클라쓰 있는 인사이트 ▶ 황민혁 어드바이저 오늘의 인사이트 - 젠슨황이 안달난 '이것' -유리기판: 켐트로닉스, 필옵틱스 ▶ 박태준 어드바이저 오늘의 인사이트 - 투톱은 쉬어도 우리는 간다! -소부장: 엑시콘, 샘씨엔에스, 피에스케이홀딩스 ▶▶▶ 클라쓰 있는 종",
+      "image": "https://thumb.mt.co.kr/06/2026/09/2026092821467029269_1.jpg"
+    },
+    {
+      "title": "하이닉스 돌연 5% 급락…주주들 놀란 '204조 상장설' 정체 [분석+]",
+      "link": "https://www.hankyung.com/article/2026092899256",
       "source": "한국경제",
-      "ts": 1790578923000,
-      "pub": "Mon, 28 Sep 2026 16:02:03 +0900",
+      "ts": 1790600403000,
+      "pub": "Mon, 28 Sep 2026 22:00:03 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "엔비디아 \"자사주 204조원 추가 매입\"…사상 최대규모",
+      "link": "https://www.hankyung.com/article/202609280470i",
+      "source": "한국경제",
+      "ts": 1790598553000,
+      "pub": "Mon, 28 Sep 2026 21:29:13 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "中, 민간 AI기업과 반도체 전문가들 해외여행 제한",
+      "link": "https://www.hankyung.com/article/202609280385i",
+      "source": "한국경제",
+      "ts": 1790596546000,
+      "pub": "Mon, 28 Sep 2026 20:55:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中,엔비디아 RTX프로5500구매 풀면…삼전·닉스 DDR7 '수혜'주목",
+      "link": "https://www.hankyung.com/article/202609280407i",
+      "source": "한국경제",
+      "ts": 1790594112000,
+      "pub": "Mon, 28 Sep 2026 20:15:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "“거긴 가면 안 돼”…엔비디아, AI 에이전트 보안 플랫폼 전격 공개",
+      "link": "https://www.hankyung.com/article/202609280312i",
+      "source": "한국경제",
+      "ts": 1790590660000,
+      "pub": "Mon, 28 Sep 2026 19:17:40 +0900",
       "sentiment": "neutral"
     },
     {

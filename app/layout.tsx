@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import "./fonts.css";
 import "./globals.css";
 import { ThemeProvider, THEME_INIT_SCRIPT } from "@/components/ThemeProvider";
 

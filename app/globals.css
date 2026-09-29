@@ -6,13 +6,6 @@
    예전: jsdelivr 풀 variable 1개 파일 2MB 로드 → 이제 페이지당 실사용 청크만.
    생성: scripts/build-font-subsets.py → public/fonts/pretendard/*.woff2 + app/fonts.css
    (fonts.css 는 app/layout.tsx 에서 import) */
-@font-face {
-  font-family: "Pretendard";
-  font-weight: 45 920;
-  font-style: normal;
-  font-display: swap;
-  src: url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/packages/pretendard/dist/web/variable/woff2/PretendardVariable.woff2") format("woff2-variations");
-}
 
 /* ──────────────────────────────────────────────
    Theme tokens — RGB triplet (Tailwind opacity modifier 지원)
@@ -110,6 +103,9 @@ body {
 ::-webkit-scrollbar-track { background: rgb(var(--bg)); }
 ::-webkit-scrollbar-thumb { background: rgb(var(--scrollbar-thumb)); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: rgb(var(--scrollbar-thumb-hover)); }
+
+/* 데이터 주도 긴 텍스트(쇼핑 상품명 등) — 희귀 글자가 많아 Pretendard 청크를 대량으로 끌어옴 → 시스템 한글 폰트로 렌더(폰트 전송량 절감). */
+.font-sys { font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", system-ui, sans-serif; }
 
 .tabular, .num { font-variant-numeric: tabular-nums; }
 .num { letter-spacing: -0.02em; }

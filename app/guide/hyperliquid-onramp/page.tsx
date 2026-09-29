@@ -56,25 +56,25 @@ export default async function HyperliquidOnrampGuide() {
   return (
     <>
       <Header fxRate={data.fx.krw_per_usdt} fxChange={data.fx.change_24h_pct} />
-      <main className="max-w-3xl mx-auto px-5 pt-6 pb-12">
-        <Link href="/" className="text-xs text-text-dim hover:text-text-muted">
-          ← 홈으로
+      <main className="max-w-3xl mx-auto px-4 sm:px-5 pt-4 pb-12">
+        <Link href="/" prefetch={false} aria-label="홈으로" className="ds-iconbtn hover:bg-bg-hover transition">
+          <svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true"><path d="M12.5 4 6.5 10l6 6" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" /></svg>
         </Link>
 
         <article className="mt-4">
           <header className="mb-8">
-            <div className="text-xs text-accent-blue font-semibold mb-2 tracking-wider">GUIDE · ONRAMP</div>
-            <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-3">
+            <div className="ds-eyebrow mb-2">GUIDE · ONRAMP</div>
+            <h1 className="text-[26px] md:text-[30px] font-extrabold tracking-tight leading-tight mb-3">
               한국에서 Hyperliquid 거래하는 법
             </h1>
-            <p className="text-text-muted text-base leading-relaxed">
+            <p className="ds-explain">
               비상장 OpenAI · SpaceX · Anthropic + 미국주식 + 한국주식 야간 시세를
               한국에서 직접 거래하려면 Hyperliquid (HL) 분산형 거래소를 사용합니다.
               단계별 안내.
             </p>
           </header>
 
-          <section className="mb-8 p-5 rounded-2xl bg-bg-card border border-line">
+          <section className="mb-4 ds-card">
             <h2 className="text-lg font-bold mb-2">Hyperliquid (HL) 는 무엇?</h2>
             <p className="text-sm text-text-muted leading-relaxed">
               Hyperliquid는 Arbitrum 기반 분산형 perpetual futures 거래소입니다.
@@ -88,7 +88,7 @@ export default async function HyperliquidOnrampGuide() {
             <h2 className="text-xl font-bold mb-4">단계별 거래 방법</h2>
 
             <div className="space-y-4">
-              <div className="p-4 rounded-xl bg-bg-card border border-line">
+              <div className="ds-card">
                 <div className="text-xs text-accent-blue font-semibold mb-1 tracking-wider">STEP 1</div>
                 <h3 className="font-bold text-base mb-2">USDT 확보 (Binance 또는 Bybit)</h3>
                 <p className="text-sm text-text-muted leading-relaxed mb-3">
@@ -120,7 +120,7 @@ export default async function HyperliquidOnrampGuide() {
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl bg-bg-card border border-line">
+              <div className="ds-card">
                 <div className="text-xs text-accent-blue font-semibold mb-1 tracking-wider">STEP 2</div>
                 <h3 className="font-bold text-base mb-2">Arbitrum 호환 지갑 준비</h3>
                 <p className="text-sm text-text-muted leading-relaxed">
@@ -130,7 +130,7 @@ export default async function HyperliquidOnrampGuide() {
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl bg-bg-card border border-line">
+              <div className="ds-card">
                 <div className="text-xs text-accent-blue font-semibold mb-1 tracking-wider">STEP 3</div>
                 <h3 className="font-bold text-base mb-2">Hyperliquid 접속 + 지갑 연결</h3>
                 <p className="text-sm text-text-muted leading-relaxed">
@@ -140,7 +140,7 @@ export default async function HyperliquidOnrampGuide() {
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl bg-bg-card border border-line">
+              <div className="ds-card">
                 <div className="text-xs text-accent-blue font-semibold mb-1 tracking-wider">STEP 4</div>
                 <h3 className="font-bold text-base mb-2">USDT 입금 (Bridge)</h3>
                 <p className="text-sm text-text-muted leading-relaxed">
@@ -150,7 +150,7 @@ export default async function HyperliquidOnrampGuide() {
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl bg-bg-card border border-line">
+              <div className="ds-card">
                 <div className="text-xs text-accent-blue font-semibold mb-1 tracking-wider">STEP 5</div>
                 <h3 className="font-bold text-base mb-2">비상장 빅테크 / 한국주식 perp 거래</h3>
                 <p className="text-sm text-text-muted leading-relaxed">
@@ -177,7 +177,7 @@ export default async function HyperliquidOnrampGuide() {
             </div>
           </section>
 
-          <section className="mb-8 p-5 rounded-xl bg-accent-amber/5 border border-accent-amber/20">
+          <section className="mb-4 ds-card">
             <h2 className="text-sm font-bold text-accent-amber mb-2">⚠️ 주의 사항</h2>
             <ul className="text-xs text-text-muted space-y-1 leading-relaxed">
               <li>• HL perp 가격은 정규장 종가와 차이날 수 있음 (premium / discount)</li>
@@ -188,7 +188,7 @@ export default async function HyperliquidOnrampGuide() {
             </ul>
           </section>
 
-          <section className="p-5 rounded-xl bg-accent-blue/5 border border-accent-blue/20">
+          <section className="ds-card">
             <h2 className="text-sm font-bold text-accent-blue mb-3">📊 가격 보면서 타이밍 잡기</h2>
             <p className="text-sm text-text-muted leading-relaxed mb-3">
               가입 + 입금 완료 후, kr-stocks.com 카드에서 실시간 가격 + 정규장 종가 대비

@@ -49,7 +49,7 @@ export function CommunityList({
 
   if (posts.length === 0) {
     return (
-      <div className="p-8 rounded-xl bg-bg-card border border-line text-center text-text-dim text-sm">
+      <div className="ds-card text-center ds-explain">
         아직 글이 없어요. 첫 글을 남겨보세요.
       </div>
     );
@@ -57,17 +57,17 @@ export function CommunityList({
 
   return (
     <>
-      <div className="rounded-xl border border-line bg-bg-card divide-y divide-line/60 overflow-hidden">
+      <div className="ds-card !p-0 divide-y divide-line overflow-hidden">
         {posts.map((p) => (
           <Link
             key={p.id}
             href={`/community/${p.id}`}
-            className="flex items-center justify-between gap-3 px-4 py-3.5 hover:bg-white/[0.02] transition-colors"
+            className="flex items-center justify-between gap-3 px-4 py-3.5 hover:bg-bg-hover transition-colors"
           >
             <div className="min-w-0 flex-1">
               <div className="flex items-center gap-1.5 flex-wrap">
                 {p.hasImage && (
-                  <span className="text-[10px] font-bold text-accent-green bg-accent-green/10 border border-accent-green/30 px-1.5 py-0.5 rounded shrink-0">
+                  <span className="ds-pill ds-pill-flat shrink-0 !px-2 !py-0.5 !text-[11px]">
                     💰 인증
                   </span>
                 )}
@@ -91,7 +91,7 @@ export function CommunityList({
           type="button"
           onClick={loadMore}
           disabled={loading}
-          className="mt-3 w-full py-2.5 rounded-lg border border-line text-sm text-text-dim hover:text-text hover:border-text-dim transition disabled:opacity-50"
+          className="mt-3 w-full h-12 rounded-tile bg-bg-card shadow-card text-[15px] font-bold text-text-muted hover:text-text transition disabled:opacity-50"
         >
           {loading ? "불러오는 중…" : "더보기"}
         </button>

@@ -1,4 +1,7 @@
 import Link from "next/link";
+import { PageTitle } from "@/components/ui/PageTitle";
+import { AsOf } from "@/components/ui/AsOf";
+import { MoreDetails } from "@/components/ui/MoreDetails";
 import AffiliateStrip from "@/components/AffiliateStrip";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -17,23 +20,10 @@ type NewsItem = {
   image?: string;
 };
 
+// 한국 관례: 호재 = 빨강(up), 악재 = 파랑(down) — Phase A 토큰
 function sentimentBadge(s?: NewsItem["sentiment"]) {
-  if (s === "positive") {
-    return {
-      label: "호재",
-      bg: "rgba(34,197,94,0.12)",
-      color: "#22c55e",
-      border: "rgba(34,197,94,0.35)",
-    };
-  }
-  if (s === "negative") {
-    return {
-      label: "악재",
-      bg: "rgba(59,130,246,0.12)",
-      color: "#3b82f6",
-      border: "rgba(59,130,246,0.35)",
-    };
-  }
+  if (s === "positive") return { label: "호재", cls: "ds-pill-up" };
+  if (s === "negative") return { label: "악재", cls: "ds-pill-down" };
   return null;
 }
 
@@ -89,120 +79,85 @@ export default async function NewsPage() {
     .sort()
     .reverse()[0];
 
+  const NEWS_TOP = 6;
+  const renderItem = (it: NewsItem) => {
+    const badge = sentimentBadge(it.sentiment);
+    return (
+      <li key={it.link} className="border-b border-line last:border-b-0">
+        <a href={it.link} target="_blank" rel="noopener noreferrer" className="flex gap-3 items-start py-3 group">
+          {/* 카드뉴스 썸네일(2026-08-20) — RSS에 원래 있던 이미지(AI 생성 아님). 서버 컴포넌트라 onError 불가 →
+              background-image로 깨진 URL도 빈 배경만 남김. 고정 64px(CLS 0). */}
+          {it.image && (
+            <div
+              aria-hidden="true"
+              className="w-16 h-16 rounded-tile flex-none bg-bg-hover"
+              style={{ background: `rgb(var(--bg-hover)) url(${JSON.stringify(it.image)}) center/cover no-repeat` }}
+            />
+          )}
+          <div className="flex-1 min-w-0">
+            <div className="font-sys text-[15px] font-bold leading-snug line-clamp-2 group-hover:underline decoration-text-dim/40">
+              {badge && (
+                <span className={`ds-pill ${badge.cls} mr-1.5 align-[2px]`} style={{ padding: "1px 7px", fontSize: 11 }}>
+                  {badge.label}
+                </span>
+              )}
+              {it.title}
+            </div>
+            {it.desc && <div className="font-sys text-[13px] text-text-muted leading-snug line-clamp-2 mt-0.5">{it.desc}</div>}
+            <div className="ds-meta mt-0.5">
+              {it.source} · {relativeTime(it.ts)}
+            </div>
+          </div>
+        </a>
+      </li>
+    );
+  };
+
   return (
     <>
       <Header fxRate={prices.fx.krw_per_usdt} fxChange={prices.fx.change_24h_pct} />
-      <main style={{ maxWidth: 1200, margin: "0 auto", padding: "1.5rem 1rem" }}>
-      <header style={{ marginBottom: "1.5rem" }}>
-        <h1 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "0.25rem" }}>뉴스룸</h1>
-        <p style={{ fontSize: "0.85rem", opacity: 0.7 }}>
-          국제정세 · 삼성전자 · SK하이닉스 · 현대차 — 한경 / 머투 / 연합뉴스에서 키워드 필터링 (1시간마다 갱신)
-          {latestUpdate && (
-            <>
-              {" · 마지막 업데이트 "}
-              {new Date(latestUpdate).toLocaleString("ko-KR", { timeZone: "Asia/Seoul" })}
-            </>
+      <main className="max-w-6xl mx-auto px-4 sm:px-5 pt-4 pb-12">
+        <PageTitle eyebrow="국제정세 · 삼성전자 · SK하이닉스 · 현대차" title="뉴스룸" backHref="/">
+          {latestUpdate ? (
+            <AsOf at={latestUpdate} note="1시간마다 갱신 · 한경·머투·연합 키워드 필터" />
+          ) : (
+            <div className="ds-meta">한경 / 머투 / 연합뉴스에서 키워드 필터링 (1시간마다 갱신)</div>
           )}
+        </PageTitle>
+
+        <div className="grid gap-4 mt-4 md:grid-cols-2">
+          {data.map(({ meta, file }) => (
+            <section key={meta.id} className="ds-card" style={{ paddingTop: 16, paddingBottom: 8 }}>
+              <h2 className="ds-h2 flex items-center justify-between gap-2">
+                <span>
+                  {meta.emoji} {meta.label}
+                </span>
+                <span className="ds-meta font-normal num">{file?.count ?? 0}건</span>
+              </h2>
+              {!file || file.items.length === 0 ? (
+                <p className="ds-explain py-3">아직 수집된 기사가 없어요.</p>
+              ) : (
+                <>
+                  <ul className="mt-1">{file.items.slice(0, NEWS_TOP).map(renderItem)}</ul>
+                  {file.items.length > NEWS_TOP && (
+                    <MoreDetails summary={`더 보기 ${Math.min(file.items.length, 15) - NEWS_TOP}건`} className="!mt-0">
+                      <ul>{file.items.slice(NEWS_TOP, 15).map(renderItem)}</ul>
+                    </MoreDetails>
+                  )}
+                </>
+              )}
+            </section>
+          ))}
+        </div>
+
+        <AffiliateStrip />
+
+        <p className="ds-meta mt-8">
+          뉴스 출처: <Link href="https://www.hankyung.com" className="underline">한국경제</Link>,{" "}
+          <Link href="https://news.mt.co.kr" className="underline">머니투데이</Link>,{" "}
+          <Link href="https://www.yna.co.kr" className="underline">연합뉴스</Link>. 본 페이지는 각 매체 RSS 피드를 키워드로 필터링한 헤드라인
+          모음이며, 제목 클릭 시 원문 매체 페이지로 이동합니다.
         </p>
-      </header>
-
-      <div style={{ display: "grid", gap: "1.5rem", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))" }}>
-        {data.map(({ meta, file }) => (
-          <section
-            key={meta.id}
-            style={{
-              border: "1px solid rgba(127,127,127,0.25)",
-              borderRadius: 10,
-              padding: "1rem",
-              background: "rgba(127,127,127,0.04)",
-            }}
-          >
-            <h2 style={{ fontSize: "1rem", fontWeight: 700, marginBottom: "0.75rem", display: "flex", justifyContent: "space-between" }}>
-              <span>
-                {meta.emoji} {meta.label}
-              </span>
-              <span style={{ fontSize: "0.75rem", opacity: 0.6, fontWeight: 400 }}>{file?.count ?? 0}건</span>
-            </h2>
-            {!file || file.items.length === 0 ? (
-              <p style={{ fontSize: "0.85rem", opacity: 0.5 }}>아직 수집된 기사가 없습니다.</p>
-            ) : (
-              <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.6rem" }}>
-                {file.items.slice(0, 15).map((it) => {
-                  const badge = sentimentBadge(it.sentiment);
-                  return (
-                    <li key={it.link}>
-                      <a
-                        href={it.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{ textDecoration: "none", color: "inherit", display: "flex", gap: "0.6rem", alignItems: "flex-start" }}
-                      >
-                        {/* 카드뉴스 썸네일(2026-08-20) — RSS에 원래 있던 이미지를 그대로 씀(AI 생성 아님).
-                            소스별로 없을 수 있어(한국경제는 RSS에 이미지 자체가 없음) 있을 때만 렌더. */}
-                        {it.image && (
-                          // <img>+onError로 만들었다가 배포 실패함(2026-08-21) — 이 페이지는
-                          // 서버 컴포넌트라 이벤트 핸들러를 넘길 수 없음(tsc는 안 잡아줌).
-                          // background-image로 바꾸면 URL이 죽어도 깨진 이미지 아이콘 대신
-                          // 빈 배경만 남아서, 핸들러 없이도 자연스럽게 처리됨.
-                          <div
-                            aria-hidden="true"
-                            style={{
-                              width: 64,
-                              height: 64,
-                              borderRadius: 8,
-                              flex: "0 0 auto",
-                              background: `rgba(127,127,127,0.12) url(${JSON.stringify(it.image)}) center/cover no-repeat`,
-                            }}
-                          />
-                        )}
-                        <div style={{ flex: "1 1 auto", minWidth: 0 }}>
-                          <div style={{ fontSize: "0.9rem", lineHeight: 1.35, marginBottom: "0.2rem", display: "flex", alignItems: "flex-start", gap: "0.4rem", flexWrap: "wrap" }}>
-                            {badge && (
-                              <span style={{
-                                flex: "0 0 auto",
-                                fontSize: "0.65rem",
-                                fontWeight: 700,
-                                padding: "0.1rem 0.35rem",
-                                borderRadius: 4,
-                                background: badge.bg,
-                                color: badge.color,
-                                border: `1px solid ${badge.border}`,
-                                lineHeight: 1.4,
-                                marginTop: "0.1rem",
-                              }}>
-                                {badge.label}
-                              </span>
-                            )}
-                            <span style={{ flex: "1 1 auto" }}>{it.title}</span>
-                          </div>
-                          {it.desc && (
-                            <div style={{ fontSize: "0.78rem", opacity: 0.7, lineHeight: 1.4, marginBottom: "0.2rem", overflow: "hidden", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical" }}>
-                              {it.desc}
-                            </div>
-                          )}
-                          <div style={{ fontSize: "0.7rem", opacity: 0.6 }}>
-                            {it.source} · {relativeTime(it.ts)}
-                          </div>
-                        </div>
-                      </a>
-                    </li>
-                  );
-                })}
-              </ul>
-            )}
-          </section>
-        ))}
-      </div>
-
-      <AffiliateStrip />
-
-      <footer style={{ marginTop: "2rem", fontSize: "0.75rem", opacity: 0.5, lineHeight: 1.5 }}>
-        <p>
-          뉴스 출처: <Link href="https://www.hankyung.com">한국경제</Link>, <Link href="https://news.mt.co.kr">머니투데이</Link>,{" "}
-          <Link href="https://www.yna.co.kr">연합뉴스</Link>. 본 페이지는 각 매체 RSS 피드를 키워드로 필터링한 헤드라인 모음이며,
-          제목 클릭 시 원문 매체 페이지로 이동합니다.
-        </p>
-      </footer>
       </main>
       <Footer />
     </>

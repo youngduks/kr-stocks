@@ -88,7 +88,7 @@ export function SemiconductorSignal({
       : "—";
 
   return (
-    <section className="mb-6 px-3.5 py-2 rounded-xl bg-bg-card/60 border border-line flex items-center gap-x-3 gap-y-1 flex-wrap text-xs sm:text-sm">
+    <section className="ds-card mb-4 !py-3 flex items-center gap-x-3 gap-y-1 flex-wrap text-xs sm:text-sm">
       <span className="inline-flex items-center gap-1.5 font-bold text-text shrink-0">
         <span
           className={`w-1.5 h-1.5 rounded-full shrink-0 ${

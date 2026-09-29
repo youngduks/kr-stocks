@@ -58,7 +58,7 @@ function scoreMatch(query: string, sym: SymbolMeta): number {
   return best;
 }
 
-export function SearchPalette({ locale = "ko" }: { locale?: Locale } = {}) {
+export function SearchPalette({ locale = "ko", variant = "text" }: { locale?: Locale; variant?: "text" | "icon" } = {}) {
   const t = I18N[locale];
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
@@ -143,13 +143,17 @@ export function SearchPalette({ locale = "ko" }: { locale?: Locale } = {}) {
         type="button"
         onClick={() => setOpen(true)}
         aria-label={t.label}
-        className="inline-flex items-center gap-1.5 px-2 py-1 h-7 sm:h-8 rounded-md text-[10px] sm:text-[11px] text-text-dim hover:text-text hover:bg-bg-card/70 border border-transparent hover:border-line transition shrink-0"
+        className={
+          variant === "icon"
+            ? "ds-iconbtn hover:bg-bg-hover transition"
+            : "inline-flex items-center gap-1.5 px-2 py-1 h-7 sm:h-8 rounded-md text-[10px] sm:text-[11px] text-text-dim hover:text-text hover:bg-bg-card/70 border border-transparent hover:border-line transition shrink-0"
+        }
       >
         <SearchIcon />
-        <span className="hidden sm:inline">{t.label}</span>
-        <kbd className="hidden md:inline text-[9px] font-mono text-text-dim/70 ml-0.5 px-1 py-0.5 rounded bg-bg-card border border-line/60">
+        {variant !== "icon" && <span className="hidden sm:inline">{t.label}</span>}
+        {variant !== "icon" && <kbd className="hidden md:inline text-[9px] font-mono text-text-dim/70 ml-0.5 px-1 py-0.5 rounded bg-bg-card border border-line/60">
           {t.hintShortcut}
-        </kbd>
+        </kbd>}
       </button>
 
       {open && (

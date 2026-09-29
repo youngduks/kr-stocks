@@ -1,8 +1,52 @@
 {
   "category": "hynix",
-  "updated_at": "2026-09-28T22:18:49.441Z",
-  "count": 11,
+  "updated_at": "2026-09-29T02:21:58.245Z",
+  "count": 8,
   "items": [
+    {
+      "title": "대우건설 컨소시엄, 용인 반도체국가산단 1공구 수주",
+      "link": "https://www.hankyung.com/article/202609291436i",
+      "source": "한국경제",
+      "ts": 1790645265000,
+      "pub": "Tue, 29 Sep 2026 10:27:45 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[특징주] 한미반도체, 반도체 장비 수주 소식에 강세",
+      "link": "https://www.yna.co.kr/view/AKR20260929055700008",
+      "source": "연합뉴스 경제",
+      "ts": 1790643706000,
+      "pub": "Tue, 29 Sep 2026 10:01:46 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 이민영 기자 = 한미반도체[042700]가 반도체 장비 수주 소식을 공개한 가운데 29일 장 초반 강세를 보이고 있다.",
+      "image": "https://img.yna.co.kr/photo/cms/2017/07/24/09/C0A8CA3D0000015D720AEEE3000556D0_P2.jpeg"
+    },
+    {
+      "title": "SK하이닉스, TSMC 행사서 '차세대 메모리' 솔루션 공개",
+      "link": "https://www.hankyung.com/article/202609289704i",
+      "source": "한국경제",
+      "ts": 1790643210000,
+      "pub": "Tue, 29 Sep 2026 09:53:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체서 데이터센터로…삼성 6개사, 美 AI 인프라 헬릭스에 10억달러 투자",
+      "link": "https://www.hankyung.com/article/202609291068i",
+      "source": "한국경제",
+      "ts": 1790643122000,
+      "pub": "Tue, 29 Sep 2026 09:52:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "대우건설 컨소시엄, 8천686억원 용인 반도체국가산단 1공구 수주",
+      "link": "https://www.yna.co.kr/view/AKR20260929035200003",
+      "source": "연합뉴스 경제",
+      "ts": 1790640551000,
+      "pub": "Tue, 29 Sep 2026 09:09:11 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 서미숙 기자 = 대우건설 컨소시엄이 용인 반도체 국가산업단지 1공구의 조성공사를 맡는다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/29/AKR20260929035200003_01_i_P2.jpg"
+    },
     {
       "title": "엔비디아, 美기업 사상 최대 자사주 매입…\"'AI열풍 계속' 신호\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260928166851072",
@@ -11,7 +55,7 @@
       "pub": "Tue, 29 Sep 2026 07:05:13 +0900",
       "sentiment": "positive",
       "desc": "(뉴욕·샌프란시스코=연합뉴스) 임수정 권영전 특파원 = 인공지능(AI) 반도체 대장주 엔비디아가 1천500억 달러(약 204조원) 규모의 자사주...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/28/AKR20260928166851072_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/28/PAP20260928415801009_P2.jpg"
     },
     {
       "title": "\"AI 돌발행동 막는다\"…엔비디아, 개방형 안전플랫폼 공개",
@@ -32,75 +76,6 @@
       "sentiment": "positive",
       "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 인공지능(AI) 반도체 대장주 엔비디아가 1천500억달러(한화 약 204조원) 규모의 자사주 매입을 추가 승...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/28/AKR20260928166800072_01_i_P2.jpg"
-    },
-    {
-      "title": "中, 엔비디아 신형칩 구매 추진…AI칩 공급난에 1년 만에 백기",
-      "link": "https://www.hankyung.com/article/2026092805051",
-      "source": "한국경제",
-      "ts": 1790601888000,
-      "pub": "Mon, 28 Sep 2026 22:24:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "하이닉스 돌연 5% 급락…주주들 놀란 '204조 상장설' 정체 [분석+]",
-      "link": "https://www.hankyung.com/article/2026092899256",
-      "source": "한국경제",
-      "ts": 1790600403000,
-      "pub": "Mon, 28 Sep 2026 22:00:03 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "엔비디아 \"자사주 204조원 추가 매입\"…사상 최대규모",
-      "link": "https://www.hankyung.com/article/202609280470i",
-      "source": "한국경제",
-      "ts": 1790598553000,
-      "pub": "Mon, 28 Sep 2026 21:29:13 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "中, 민간 AI기업과 반도체 전문가들 해외여행 제한",
-      "link": "https://www.hankyung.com/article/202609280385i",
-      "source": "한국경제",
-      "ts": 1790596546000,
-      "pub": "Mon, 28 Sep 2026 20:55:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中,엔비디아 RTX프로5500구매 풀면…삼전·닉스 DDR7 '수혜'주목",
-      "link": "https://www.hankyung.com/article/202609280407i",
-      "source": "한국경제",
-      "ts": 1790594112000,
-      "pub": "Mon, 28 Sep 2026 20:15:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] LG전자, 엔비디아 공식 파트너 선정에 상승 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260928053251008",
-      "source": "연합뉴스 경제",
-      "ts": 1790578379000,
-      "pub": "Mon, 28 Sep 2026 15:52:59 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이민영 기자 = LG전자[066570]가 엔비디아의 공식 파트너로 선정된 가운데 28일 강세를 보였다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/27/PYH2026092702750001300_P2.jpg"
-    },
-    {
-      "title": "ISC \"반도체 테스트소켓 계열사에 297억원 출자\"",
-      "link": "https://www.yna.co.kr/view/AKR20260928120300008",
-      "source": "연합뉴스 경제",
-      "ts": 1790578270000,
-      "pub": "Mon, 28 Sep 2026 15:51:10 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 코스닥 상장사 ISC[095340]는 반도체 테스트소켓 생산 계열사(ISC VINA MANUFACTURING)에 약 297억원..."
-    },
-    {
-      "title": "TSMC, 대만 남부에 최첨단 패키징 공장 5개 추가 건설 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260928080700009",
-      "source": "연합뉴스 국제",
-      "ts": 1790568539000,
-      "pub": "Mon, 28 Sep 2026 13:08:59 +0900",
-      "sentiment": "neutral",
-      "desc": "(타이베이=연합뉴스) 김철문 통신원 = 세계 최대 파운드리(반도체 수탁생산) 업체인 대만 TSMC가 5개의 최첨단 패키징(AP) 공장 추가 건설...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/28/AKR20260928080700009_01_i_P2.jpg"
     }
   ]
 }

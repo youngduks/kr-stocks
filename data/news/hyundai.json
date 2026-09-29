@@ -1,6 +1,17 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-09-28T22:18:49.442Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-09-29T02:21:58.246Z",
+  "count": 1,
+  "items": [
+    {
+      "title": "노무라 \"美 연비 완화, 현대·기아차에 기회…테슬라엔 부정적\"",
+      "link": "https://www.yna.co.kr/view/AKR20260929074700008",
+      "source": "연합뉴스 경제",
+      "ts": 1790646835000,
+      "pub": "Tue, 29 Sep 2026 10:53:55 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 강수지 기자 = 노무라증권은 미국 정부가 자동차 연비규제를 대폭 완화하면서 현대차[005380]와 기아[000270]가 수혜를...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/29/AKR20260929074700008_01_i_P2.jpg"
+    }
+  ]
 }

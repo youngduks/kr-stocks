@@ -1,8 +1,48 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-28T22:18:49.439Z",
-  "count": 31,
+  "updated_at": "2026-09-29T02:21:58.242Z",
+  "count": 26,
   "items": [
+    {
+      "title": "이란전쟁 여파로 영국도 경유가격 최고치…우크라전 당시 추월",
+      "link": "https://www.yna.co.kr/view/AKR20260929057700009",
+      "source": "연합뉴스 국제",
+      "ts": 1790645899000,
+      "pub": "Tue, 29 Sep 2026 10:38:19 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 현영복 기자 = 미국과 이란 간 중동 전쟁 여파로 원유 공급망 등에 차질이 빚어지면서 영국 경유 가격이 사상 최고치로 치솟았다...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/28/PEP20260928195601009_P2.jpg"
+    },
+    {
+      "title": "\"ICC 지켜내야\"…EU 내부 '트럼프발 제재령' 반발 목소리",
+      "link": "https://www.yna.co.kr/view/AKR20260929050600009",
+      "source": "연합뉴스 경제",
+      "ts": 1790644490000,
+      "pub": "Tue, 29 Sep 2026 10:14:50 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 임화섭 기자 = 유럽연합(EU) 내부에서 미국의 국제형사재판소(ICC) 제재령에 반기를 들면서 이를 자동 적용하지 못하도록 차...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/23/PEP20260923134401009_P2.jpg"
+    },
+    {
+      "title": "미 연준 쿡 이사 \"몇달간 인플레이션 압력 지속될 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260929017000009",
+      "source": "연합뉴스 국제",
+      "ts": 1790639056000,
+      "pub": "Tue, 29 Sep 2026 08:44:16 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 설원태 기자 = 리사 쿡 미국 연방준비제도(Fed·연준) 이사는 인공지능(AI) 관련 수요와 유가 상승으로 인해 앞으로 몇 달...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/29/AKR20260929017000009_01_i_P2.jpg"
+    },
+    {
+      "title": "교황, AI 인류위협론 \"가짜뉴스 아냐\"…트럼프 주장에 정면 반박",
+      "link": "https://www.yna.co.kr/view/AKR20260929016800009",
+      "source": "연합뉴스 국제",
+      "ts": 1790636546000,
+      "pub": "Tue, 29 Sep 2026 08:02:26 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김아람 기자 = 레오 14세 교황이 인공지능(AI)의 안전을 둘러싼 우려가 가짜 뉴스가 아니며 진지하게 대응 방안을 논의해야 ...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/29/PAF20260929063501009_P2.jpg"
+    },
     {
       "title": "\"트럼프, 이란이 구체적 '핵양보' 하면 제재 완화 의향\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20260929006151071",
@@ -21,23 +61,7 @@
       "pub": "Tue, 29 Sep 2026 06:48:00 +0900",
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령은 28일(현지시간) 최근 미중정상회담에서 시진핑 중국 국가주석에게 미국산 무기 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/29/AKR20260929005351071_01_i_P2.jpg"
-    },
-    {
-      "title": "젤렌스키 \"러에 北 8000명 이상…1만명 추가 투입 준비\"",
-      "link": "https://www.hankyung.com/article/2026092905997",
-      "source": "한국경제",
-      "ts": 1790628726000,
-      "pub": "Tue, 29 Sep 2026 05:52:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"절대, 절대 시진핑을 얕보지 마라\" 사흘간 미중정상회담이 남긴 그림자[이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202609289406i",
-      "source": "한국경제",
-      "ts": 1790627462000,
-      "pub": "Tue, 29 Sep 2026 05:31:02 +0900",
-      "sentiment": "neutral"
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/29/PAF20260929055801009_P2.jpg"
     },
     {
       "title": "선거 급한 트럼프, 20조원 규모 제철소 투자 발표…\"관세 덕분\"",
@@ -150,14 +174,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/28/AKR20260928165600071_01_i_P2.jpg"
     },
     {
-      "title": "\"한국이 패트리엇 안 줘서\"…젤렌스키 '北포로 공개' 이유는?",
-      "link": "https://www.hankyung.com/article/2026092804827",
-      "source": "한국경제",
-      "ts": 1790601476000,
-      "pub": "Mon, 28 Sep 2026 22:17:56 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"젤렌스키, 韓서 패트리엇 못얻자 北포로 송환 공개로 보복\"",
       "link": "https://www.yna.co.kr/view/AKR20260928163100108",
       "source": "연합뉴스 국제",
@@ -176,14 +192,6 @@
       "sentiment": "negative",
       "desc": "(카이로=연합뉴스) 김상훈 특파원 = 베냐민 네타냐후 이스라엘 총리가 지난 주말 아랍에미리트(UAE)를 비밀리에 방문해, 2023년 하마스의 이...",
       "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/25/PEP20260925104201009_P2.jpg"
-    },
-    {
-      "title": "\"한반도 상황 악화\" 우크라서 '경고음'…북한군 파병 여파는?",
-      "link": "https://www.hankyung.com/article/2026092804287",
-      "source": "한국경제",
-      "ts": 1790593759000,
-      "pub": "Mon, 28 Sep 2026 20:09:19 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "\"이집트도 하마스 기습공격 네타냐후에게 직접 경고했다\"",
@@ -254,56 +262,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 이지헌 기자 = 도널드 트럼프 미국 대통령이 시진핑 중국 국가주석과의 정상 회담 도중 시 주석에게 미국산 무기 구매를 제안한 ...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/28/AKR20260928128500009_01_i_P2.jpg"
-    },
-    {
-      "title": "中, 미중 상호관세 인하품목 공개…美농산물 석탄·中가전 완구(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260928075251083",
-      "source": "연합뉴스 국제",
-      "ts": 1790575361000,
-      "pub": "Mon, 28 Sep 2026 15:02:41 +0900",
-      "sentiment": "neutral",
-      "desc": "(베이징=연합뉴스) 한종구 특파원 = 중국이 미중 정상회담에서 추인된 경제·무역 합의의 후속조치로 양측 각각 300억달러(약 40조8천억원) 규...",
-      "image": "https://img.yna.co.kr/photo/etc/up/2026/09/26/PUP20260926000101009_P2.jpg"
-    },
-    {
-      "title": "[게시판] 관세청, '대일관세' 두모진 해관 기념식",
-      "link": "https://www.yna.co.kr/view/AKR20260928093500002",
-      "source": "연합뉴스 경제",
-      "ts": 1790574386000,
-      "pub": "Mon, 28 Sep 2026 14:46:26 +0900",
-      "sentiment": "neutral",
-      "desc": "▲ 관세청은 28일 부산 동구 수정동 소재 두모진 해관 터에서 '두모진 해관(세관) 기념석 제막식'을 했다. 관세청에 따르면, 조선은 1876년...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/28/AKR20260928093500002_01_i_P2.jpg"
-    },
-    {
-      "title": "中, 미국산 석탄 '상호 관세인하' 대상 포함…수입 확대 추진",
-      "link": "https://www.yna.co.kr/view/AKR20260928075200083",
-      "source": "연합뉴스 국제",
-      "ts": 1790564105000,
-      "pub": "Mon, 28 Sep 2026 11:55:05 +0900",
-      "sentiment": "neutral",
-      "desc": "(베이징=연합뉴스) 한종구 특파원 = 중국이 미국산 석탄을 미중 간 300억 달러(약 40조8천억원) 규모의 상호 관세 인하 대상에 포함해 수입...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/28/AKR20260928075200083_01_i_P2.jpg"
-    },
-    {
-      "title": "美법무 \"백악관발 오보는 국가안보 문제\"…CNN 취재배제 옹호",
-      "link": "https://www.yna.co.kr/view/AKR20260928075000009",
-      "source": "연합뉴스 국제",
-      "ts": 1790562942000,
-      "pub": "Mon, 28 Sep 2026 11:35:42 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이지헌 기자 = 토드 블랜치 미국 법무부 장관이 27일(현지시간) 도널드 트럼프 대통령이 자신에게 비판적인 언론사들을 백악관 ...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/24/PRU20260924451701009_P2.jpg"
-    },
-    {
-      "title": "\"美 민주당, 중간선거서 하원 탈환 시 이스라엘 압박 예고\"",
-      "link": "https://www.yna.co.kr/view/AKR20260928058000009",
-      "source": "연합뉴스 국제",
-      "ts": 1790559157000,
-      "pub": "Mon, 28 Sep 2026 10:32:37 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 강훈상 기자 = 미국 민주당이 11월 중간선거에서 연방하원 다수당 지위를 탈환하면 팔레스타인에 대한 이스라엘의 인권 침해 문제...",
-      "image": "https://img.yna.co.kr/photo/ap/2025/01/24/PAP20250124040401009_P2.jpg"
     }
   ]
 }

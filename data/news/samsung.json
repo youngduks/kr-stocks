@@ -1,8 +1,56 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-28T22:18:49.440Z",
+  "updated_at": "2026-09-29T02:21:58.244Z",
   "count": 6,
   "items": [
+    {
+      "title": "젠슨황과 다시 뭉친 이재용·최태원…폴더블폰·GPU로 동맹 과시(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260929050251072",
+      "source": "연합뉴스 국제",
+      "ts": 1790646419000,
+      "pub": "Tue, 29 Sep 2026 10:46:59 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울·뉴욕=연합뉴스) 조성흠 기자 김연숙 특파원 = 젠슨 황 엔비디아 최고경영자(CEO)와 이재용 삼성전자 회장, 최태원 SK그룹 회장이 28...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/29/AKR20260929050251072_01_i_P2.jpg"
+    },
+    {
+      "title": "젠슨 황과 뉴욕서 다시 뭉친 이재용·최태원…\"진정한 동반자\"",
+      "link": "https://www.yna.co.kr/view/AKR20260929050200072",
+      "source": "연합뉴스 국제",
+      "ts": 1790643426000,
+      "pub": "Tue, 29 Sep 2026 09:57:06 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 젠슨 황 엔비디아 최고경영자(CEO)와 이재용 삼성전자 회장, 최태원 SK그룹 회장이 28일(현지시간) 미국...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/29/AKR20260929050200072_01_i_P2.jpg"
+    },
+    {
+      "title": "SK하이닉스, TSMC 행사서 '차세대 메모리' 솔루션 공개",
+      "link": "https://www.hankyung.com/article/202609289704i",
+      "source": "한국경제",
+      "ts": 1790643210000,
+      "pub": "Tue, 29 Sep 2026 09:53:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] 전날 5%대 급락했던 삼전닉스, 1% 안팎 상승세",
+      "link": "https://www.yna.co.kr/view/AKR20260929047700008",
+      "source": "연합뉴스 경제",
+      "ts": 1790643015000,
+      "pub": "Tue, 29 Sep 2026 09:50:15 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 29일 장 초반 동반 강세를 나타내고 있다.",
+      "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
+    },
+    {
+      "title": "DS증권 \"삼전·닉스 3분기 실적, 시장전망치 하회 전망\"",
+      "link": "https://www.yna.co.kr/view/AKR20260929025000008",
+      "source": "연합뉴스 경제",
+      "ts": 1790638379000,
+      "pub": "Tue, 29 Sep 2026 08:32:59 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 황철환 기자 = DS투자증권은 삼성전자[005930]와 SK하이닉스[000660]의 올해 3분기 실적이 컨센서스(시장평균전망치...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/24/43/PCM20260624000043990_P2.jpg"
+    },
     {
       "title": "젠슨 황, '한미관계 기여' 밴플리트상…이재용·최태원도 한자리",
       "link": "https://www.yna.co.kr/view/AKR20260929003100072",
@@ -11,53 +59,7 @@
       "pub": "Tue, 29 Sep 2026 07:00:02 +0900",
       "sentiment": "neutral",
       "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 젠슨 황 엔비디아 최고경영자(CEO)가 한미 관계에 기여한 인사들에게 수여하는 '밴 플리트상'을 받았다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/29/AKR20260929003100072_01_i_P2.jpg"
-    },
-    {
-      "title": "치과의사가 갤럭시를 쓰는 이유…아이폰서 '여권폰' 환승",
-      "link": "https://www.hankyung.com/article/2026092804447",
-      "source": "한국경제",
-      "ts": 1790596649000,
-      "pub": "Mon, 28 Sep 2026 20:57:29 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中,엔비디아 RTX프로5500구매 풀면…삼전·닉스 DDR7 '수혜'주목",
-      "link": "https://www.hankyung.com/article/202609280407i",
-      "source": "한국경제",
-      "ts": 1790594112000,
-      "pub": "Mon, 28 Sep 2026 20:15:12 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 화성에 1조7천억 신규 투자…연구동 짓는다",
-      "link": "https://www.yna.co.kr/view/AKR20260928127100061",
-      "source": "연합뉴스 경제",
-      "ts": 1790581100000,
-      "pub": "Mon, 28 Sep 2026 16:38:20 +0900",
-      "sentiment": "neutral",
-      "desc": "(화성=연합뉴스) 최해민 기자 = 삼성전자가 화성캠퍼스에 1조7천억원을 투입해 연구동을 신축하는 등 대규모 신규 투자에 나선다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/28/PYH2026092820450006100_P2.jpg"
-    },
-    {
-      "title": "삼전·닉스, 5%대 급락…외국인·기관, 동반 '팔자'(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260928034551008",
-      "source": "연합뉴스 경제",
-      "ts": 1790578656000,
-      "pub": "Mon, 28 Sep 2026 15:57:36 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 추석 연휴 이후 첫 거래일인 28일 삼성전자[005930]와 SK하이닉스[000660]가 5% 넘게 급락한 채...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/02/04/84/PCM20260204000084990_P2.jpg"
-    },
-    {
-      "title": "코스피, 삼전닉스 약세에 하락폭 확대…장중 '7천피' 밑으로",
-      "link": "https://www.yna.co.kr/view/AKR20260928071900008",
-      "source": "연합뉴스 경제",
-      "ts": 1790562193000,
-      "pub": "Mon, 28 Sep 2026 11:23:13 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 추석 연휴를 마치고 돌아온 코스피가 28일 하락 폭을 키우며 장중 '7천피'(코스피 7,000)를 내줬다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/28/PYH2026092802530001300_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/yna/YH/2025/08/26/PYH2025082605270001300_P2.jpg"
     }
   ]
 }

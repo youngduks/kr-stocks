@@ -208,25 +208,25 @@ export function HomeHero({
           const shortIsUp = (item.upsideShortPct ?? 0) > 0;
           const shortIsDn = (item.upsideShortPct ?? 0) < 0;
           const shortColor = shortIsUp
-            ? "text-accent-green"
+            ? "text-up"
             : shortIsDn
-            ? "text-accent-blue"
+            ? "text-down"
             : "text-text-muted";
           // 중장기 (컨센 vs 정규장) 색상
           const longIsUp = (item.upsideLongPct ?? 0) > 0;
           const longIsDn = (item.upsideLongPct ?? 0) < 0;
           const longColor = longIsUp
-            ? "text-accent-green"
+            ? "text-up"
             : longIsDn
-            ? "text-accent-blue"
+            ? "text-down"
             : "text-text-muted";
 
           const foreignBuy = (item.foreignWon ?? 0) > 0;
           const foreignSell = (item.foreignWon ?? 0) < 0;
           const foreignColor = foreignBuy
-            ? "text-accent-green"
+            ? "text-up"
             : foreignSell
-            ? "text-accent-blue"
+            ? "text-down"
             : "text-text-dim";
           const foreignArrow = foreignBuy ? "▲" : foreignSell ? "▼" : "—";
 
@@ -302,19 +302,19 @@ export function HomeHero({
                       ? t.shortFavor
                       : t.balanced;
                     const favorColor = isBull
-                      ? "text-accent-green"
+                      ? "text-up"
                       : isBear
-                      ? "text-accent-blue"
+                      ? "text-down"
                       : "text-text-muted";
                     return (
                       <>
                         <div className="text-[10px] text-text-dim tabular mt-1 leading-tight">
                           📊{" "}
-                          <span className={isBull ? "text-accent-green" : "text-text-dim"}>
+                          <span className={isBull ? "text-up" : "text-text-dim"}>
                             ↑{t.sentLong} {item.longPct.toFixed(0)}%
                           </span>
                           <span className="text-text-dim/60"> / </span>
-                          <span className={isBear ? "text-accent-blue" : "text-text-dim"}>
+                          <span className={isBear ? "text-down" : "text-text-dim"}>
                             ↓{t.sentShort} {shortPct.toFixed(0)}%
                           </span>
                         </div>

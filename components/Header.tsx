@@ -187,7 +187,7 @@ export function Header({ fxRate, fxChange }: { fxRate: number; fxChange: number 
               <div className="text-xs sm:text-sm font-semibold tabular text-text mt-0.5">
                 ₩{fxRate.toFixed(2)}
               </div>
-              <div className={`text-[10px] sm:text-[11px] tabular mt-0.5 ${fxChange >= 0 ? "text-accent-green" : "text-accent-red"}`}>
+              <div className={`text-[10px] sm:text-[11px] tabular mt-0.5 ${fxChange > 0 ? "text-up" : fxChange < 0 ? "text-down" : "text-text-muted"}`}>
                 {fxChange >= 0 ? "+" : ""}{fxChange.toFixed(2)}%
               </div>
             </div>

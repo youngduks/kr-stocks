@@ -1,6 +1,6 @@
 // 미장 반도체 야간 시그널 — 한 줄 바(bar) 형태.
 // SOXL(반도체 3배 레버리지) 지난밤 움직임 → 삼성·하이닉스 내일 방향 선행 읽기.
-// 색상 규칙: 상승 = accent-green, 하락 = accent-blue (사이트 공통 컨벤션).
+// 색상 규칙: 상승 = up(빨강), 하락 = down(파랑) — 한국 관례 (2026-09 Phase A, lib/colors.ts).
 
 import type { SemiSignal } from "@/lib/semiSignal";
 import type { Locale } from "./HomeHero";
@@ -50,7 +50,7 @@ const I18N = {
 
 function pctColor(v: number | null | undefined): string {
   if (v == null || Math.abs(v) < 0.01) return "text-text-muted";
-  return v > 0 ? "text-accent-green" : "text-accent-blue";
+  return v > 0 ? "text-up" : "text-down";
 }
 
 function arrow(v: number | null | undefined): string {
@@ -76,9 +76,9 @@ export function SemiconductorSignal({
 
   const verdictColor =
     direction === "strong_up" || direction === "up"
-      ? "text-accent-green"
+      ? "text-up"
       : direction === "strong_down" || direction === "down"
-      ? "text-accent-blue"
+      ? "text-down"
       : "text-text-muted";
   const verdictArrow =
     direction === "strong_up" || direction === "up"

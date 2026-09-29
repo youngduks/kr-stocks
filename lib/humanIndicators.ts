@@ -48,8 +48,8 @@ export async function getHumanIndicators(): Promise<IndicatorPerson[]> {
 }
 
 export const STANCE_LABEL: Record<IndicatorStance, { ko: string; color: string }> = {
-  bullish: { ko: "강세", color: "text-accent-green" },
-  bearish: { ko: "약세", color: "text-accent-red" },
+  bullish: { ko: "강세", color: "text-up" },
+  bearish: { ko: "약세", color: "text-down" },
   cautious: { ko: "경계", color: "text-accent-amber" },
   neutral: { ko: "중립", color: "text-text-dim" },
 };
@@ -65,8 +65,8 @@ export const OPINION_LABEL: Record<IndicatorStance, string> = {
 
 /** 역발상 해석 — 이 지표의 핵심. 발언 방향의 반대를 검토하라는 뜻. */
 export const CONTRARIAN_LABEL: Record<IndicatorStance, { ko: string; color: string }> = {
-  bullish: { ko: "매도 방향 검토", color: "text-accent-red" },
-  bearish: { ko: "매수 방향 검토", color: "text-accent-green" },
-  cautious: { ko: "매수 방향 검토", color: "text-accent-green" },
+  bullish: { ko: "매도 방향 검토", color: "text-down" },
+  bearish: { ko: "매수 방향 검토", color: "text-up" },
+  cautious: { ko: "매수 방향 검토", color: "text-up" },
   neutral: { ko: "관망", color: "text-text-dim" },
 };

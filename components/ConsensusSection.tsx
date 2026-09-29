@@ -68,9 +68,9 @@ export function ConsensusSection({
     upside == null
       ? "text-text-muted"
       : upside > 0
-      ? "text-accent-green"
+      ? "text-up"
       : upside < 0
-      ? "text-accent-blue"
+      ? "text-down"
       : "text-text-muted";
 
   const consensusHref = locale === "en" ? "/en/consensus" : "/consensus";

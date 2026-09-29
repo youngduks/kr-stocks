@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./fonts.css";
 import "./globals.css";
 import { ThemeProvider, THEME_INIT_SCRIPT } from "@/components/ThemeProvider";
@@ -64,6 +64,14 @@ export const metadata: Metadata = {
       "naver-site-verification": "e8fa5f3640a53009869d85126904b0db2e92bf7c",
     },
   },
+};
+
+// 모바일 브라우저 UI 색 — 디자인 토큰 --bg (라이트 #F4F5F7 / 다크 #0F1115)
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#F4F5F7" },
+    { media: "(prefers-color-scheme: dark)", color: "#0F1115" },
+  ],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

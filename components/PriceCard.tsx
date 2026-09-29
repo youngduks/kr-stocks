@@ -194,7 +194,7 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
         </div>
 
         <div className="flex items-center justify-between text-sm">
-          <span className={`tabular font-semibold ${isUp ? "text-accent-green" : isDn ? "text-accent-blue" : "text-text-muted"}`}>
+          <span className={`tabular font-semibold ${isUp ? "text-up" : isDn ? "text-down" : "text-text-muted"}`}>
             {isUp ? "▲" : isDn ? "▼" : ""} {Math.abs(chg).toFixed(2)}%
           </span>
           <span className="text-[10px] text-text-dim tabular">{chgLabel}</span>
@@ -239,7 +239,7 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
             pct = ((mainUsd - m.regular_close_usd) / m.regular_close_usd) * 100;
             gapText = `${g > 0 ? "+" : g < 0 ? "−" : ""}$${Math.abs(g).toFixed(2)}`;
           }
-          const premColor = pct > 0 ? "text-accent-green" : pct < 0 ? "text-accent-blue" : "text-text-muted";
+          const premColor = pct > 0 ? "text-up" : pct < 0 ? "text-down" : "text-text-muted";
           return (
             <div className={`mt-2 pt-2 border-t border-line/60 flex items-start justify-between gap-2 tabular ${isKR ? "text-sm" : "text-xs"}`}>
               <span className="text-text-dim pt-0.5 text-xs whitespace-nowrap shrink-0">
@@ -262,7 +262,7 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
         {row.is_adr && m?.adr_premium_pct != null && (() => {
           const pct = m.adr_premium_pct;
           const ratio = row.adr_ratio ?? 1;
-          const premColor = pct > 0 ? "text-accent-green" : pct < 0 ? "text-accent-blue" : "text-text-muted";
+          const premColor = pct > 0 ? "text-up" : pct < 0 ? "text-down" : "text-text-muted";
           return (
             <div className="mt-2 pt-2 border-t border-line/60 min-w-0">
               <div className="flex items-center justify-between gap-2 mb-0.5">
@@ -326,9 +326,9 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
           const fundingSign = m.funding > 0 ? "+" : "";
           const favorLabel = isBull ? t.longFavor : isBear ? t.shortFavor : t.balanced;
           const favorColor = isBull
-            ? "text-accent-green"
+            ? "text-up"
             : isBear
-            ? "text-accent-blue"
+            ? "text-down"
             : "text-text-muted";
           // 5/14 형님 지적: 우측 💰 거래대금 mini가 좁은 카드 폭에서 wrap → 상승/하락 두 줄로 밀림.
           //   롤백 — 카드 grid는 sentiment 비율 + favor 라벨이 핵심. 24h 거래대금은 종목 상세 Stat tile로 충분.
@@ -336,11 +336,11 @@ export function PriceCard({ row, locale = "ko" }: { row: PriceRow; locale?: Loca
             <div className="mt-2 pt-2 border-t border-line/40">
               <div className="text-[10px] text-text-dim tabular leading-tight">
                 📊{" "}
-                <span className={isBull ? "text-accent-green" : "text-text-dim"}>
+                <span className={isBull ? "text-up" : "text-text-dim"}>
                   ↑{t.sentLong} {longPct.toFixed(0)}%
                 </span>
                 <span className="text-text-dim/60"> / </span>
-                <span className={isBear ? "text-accent-blue" : "text-text-dim"}>
+                <span className={isBear ? "text-down" : "text-text-dim"}>
                   ↓{t.sentShort} {shortPct.toFixed(0)}%
                 </span>
               </div>

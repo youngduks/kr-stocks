@@ -42,8 +42,8 @@ function HistoryCard({ p }: { p: EnrichedPollHistory }) {
           <span
             className={`text-[11px] font-bold px-2 py-0.5 rounded-full ${
               p.correct
-                ? "bg-green-500/15 text-green-500"
-                : "bg-red-500/15 text-red-500"
+                ? "bg-live/15 text-live"
+                : "bg-flat-bg text-flat"
             }`}
           >
             {p.correct ? "✅ 적중" : "❌ 빗나감"}
@@ -64,7 +64,7 @@ function HistoryCard({ p }: { p: EnrichedPollHistory }) {
           </div>
           <div className="w-full h-2 rounded-full bg-bg overflow-hidden">
             <div
-              className="h-full bg-green-500"
+              className="h-full bg-up"
               style={{ width: `${p.yesPct}%` }}
             />
           </div>
@@ -80,7 +80,7 @@ function HistoryCard({ p }: { p: EnrichedPollHistory }) {
           </div>
           <div className="w-full h-2 rounded-full bg-bg overflow-hidden">
             <div
-              className="h-full bg-red-500"
+              className="h-full bg-down"
               style={{ width: `${p.noPct}%` }}
             />
           </div>
@@ -96,9 +96,9 @@ function HistoryCard({ p }: { p: EnrichedPollHistory }) {
           <span
             className={`font-semibold ${
               p.outcome === "up"
-                ? "text-green-500"
+                ? "text-up"
                 : p.outcome === "down"
-                  ? "text-red-500"
+                  ? "text-down"
                   : "text-text-muted"
             }`}
           >

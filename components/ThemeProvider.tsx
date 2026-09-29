@@ -35,6 +35,24 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     setThemeState(readInitialTheme());
     setMounted(true);
+    // 기본 = 시스템 설정 따름. 사용자가 직접 토글(localStorage 저장)하기 전까지는 OS 다크/라이트 변경을 실시간 반영.
+    const mq = window.matchMedia?.("(prefers-color-scheme: light)");
+    if (!mq) return;
+    const onChange = () => {
+      let stored: string | null = null;
+      try {
+        stored = localStorage.getItem("theme");
+      } catch {
+        /* ignore */
+      }
+      if (stored === "light" || stored === "dark") return;
+      const t: Theme = mq.matches ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", t);
+      setThemeState(t);
+      window.dispatchEvent(new CustomEvent("themechange", { detail: { theme: t } }));
+    };
+    mq.addEventListener?.("change", onChange);
+    return () => mq.removeEventListener?.("change", onChange);
   }, []);
 
   const setTheme = useCallback((t: Theme) => {

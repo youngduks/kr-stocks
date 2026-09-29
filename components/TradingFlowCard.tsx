@@ -58,9 +58,9 @@ function FlowRow({
   const isBuy = won > 0;
   const isSell = won < 0;
   const color = isBuy
-    ? "text-accent-green"
+    ? "text-up"
     : isSell
-    ? "text-accent-blue"
+    ? "text-down"
     : "text-text-muted";
   const arrow = isBuy ? "▲" : isSell ? "▼" : "—";
   const tag = isBuy
@@ -99,9 +99,9 @@ function DailySparkline({
         const isBuy = d.foreign_won > 0;
         const isSell = d.foreign_won < 0;
         const color = isBuy
-          ? "bg-accent-green"
+          ? "bg-up"
           : isSell
-          ? "bg-accent-blue"
+          ? "bg-down"
           : "bg-line";
         return (
           <div

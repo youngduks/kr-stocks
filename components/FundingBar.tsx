@@ -63,9 +63,9 @@ export function FundingBar({
     ? t.shortHeavy
     : t.neutralLabel;
   const labelColor = isLongHeavy
-    ? "text-accent-green"
+    ? "text-up"
     : isShortHeavy
-    ? "text-accent-blue"
+    ? "text-down"
     : "text-text-muted";
 
   return (
@@ -80,21 +80,21 @@ export function FundingBar({
       {/* 가로 바: 상승 예상 (green) | 하락 예상 (blue) */}
       <div className="relative h-2.5 bg-line/40 rounded-full overflow-hidden mb-2">
         <div
-          className="absolute left-0 top-0 h-full bg-accent-green transition-all"
+          className="absolute left-0 top-0 h-full bg-up transition-all"
           style={{ width: `${longPct}%`, opacity: 0.4 + intensity * 0.5 }}
         />
         <div
-          className="absolute right-0 top-0 h-full bg-accent-blue transition-all"
+          className="absolute right-0 top-0 h-full bg-down transition-all"
           style={{ width: `${shortPct}%`, opacity: 0.4 + intensity * 0.5 }}
         />
       </div>
 
       {/* 라벨 — 양 끝 (퍼센트만, 코인 metric은 hide) */}
       <div className="flex items-center justify-between text-[11px] tabular">
-        <div className="text-accent-green font-semibold">
+        <div className="text-up font-semibold">
           {t.long} {longPct.toFixed(0)}%
         </div>
-        <div className="text-accent-blue font-semibold">
+        <div className="text-down font-semibold">
           {shortPct.toFixed(0)}% {t.short}
         </div>
       </div>

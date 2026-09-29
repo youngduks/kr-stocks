@@ -1,322 +1,162 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { AdSlot } from "@/components/AdSlot";
+import { MoreDetails } from "@/components/ui/MoreDetails";
 
-// 서버(page.tsx)에서 timeAgoStr·catGroup을 미리 계산해 넘겨줌 — 클라이언트에서
-// Date.now()를 다시 부르면 SSR/CSR 시간차로 hydration mismatch가 나므로 회피.
-export type DealView = {
+/** 필터/섹션 분류에 필요한 최소 필드 — 카드 자체는 서버에서 렌더(DealCard.tsx)해 cards 슬롯으로 받음 */
+export type DealMeta = {
   id: string;
-  title: string;
-  product: string;
   store: string;
-  price: string;
-  shipping: string;
-  link: string;
-  score?: number;
-  market_price?: string;
-  discount_pct?: number;
-  price_ref?: "toss_original" | "danawa_avg" | null;
-  affiliate_url?: string;
-  timeAgoStr: string;
-  catGroup: string; // 가전/육아/식품/전자제품/기타
-  // 폴센트 '최근 2개월 최저가' 행 전용(page.tsx fallcentView에서 계산)
-  lowest60?: boolean;
-  badge?: string;
-  img?: string;
-  avg60Str?: string;
-  avgDropPct?: number;
-  hist?: number[]; // 60일 일별 최저가(≤30점, 오래된→최신)
-  histFrom?: string; // 첫 점 날짜 MM-DD
+  catGroup: string; // 가전/육아/식품/생활/뷰티/기타
+  lowest60: boolean;
+  /** 폴센트 최저가 or 확인된 할인 ≥ VERIFIED_MIN_PCT */
+  verified: boolean;
 };
 
-// 60일 최저가 추이 미니 스파크라인 — 차트 라이브러리 없이 고정 크기 SVG(레이아웃 시프트 없음).
-const SPARK_W = 96;
-const SPARK_H = 28;
-function Sparkline({ values, from }: { values: number[]; from?: string }) {
-  const min = Math.min(...values);
-  const max = Math.max(...values);
-  const pad = 3;
-  const span = max - min || 1;
-  const pts = values.map((v, i) => {
-    const x = pad + (i * (SPARK_W - pad * 2)) / (values.length - 1);
-    const y = pad + ((max - v) * (SPARK_H - pad * 2)) / span;
-    return [Math.round(x * 10) / 10, Math.round(y * 10) / 10] as const;
-  });
-  const [lx, ly] = pts[pts.length - 1];
-  return (
-    <svg
-      width={SPARK_W}
-      height={SPARK_H}
-      viewBox={`0 0 ${SPARK_W} ${SPARK_H}`}
-      className="shrink-0 text-accent-green"
-      role="img"
-      aria-label={`최근 60일 최저가 추이${from ? ` (${from}~)` : ""}`}
-    >
-      <polyline
-        points={pts.map((p) => p.join(",")).join(" ")}
-        fill="none"
-        stroke="currentColor"
-        strokeWidth={1.5}
-        strokeLinejoin="round"
-        strokeLinecap="round"
-        opacity={0.85}
-      />
-      <circle cx={lx} cy={ly} r={2.5} fill="currentColor" />
-    </svg>
-  );
-}
+// 2026-09 리디자인 B: 전체/📉 최저가/육아/식품/생활/가전/뷰티(+기타) — 한 줄 가로 스크롤 칩.
+// '📉 최저가'는 폴센트 60일 최저가 딜만(카테고리와 같은 축의 단일 선택).
+const FILTERS = ["전체", "📉 최저가", "육아", "식품", "생활", "가전", "뷰티", "기타"] as const;
+// 8/20: 토스쇼핑 딜이 20%+ → 스토어 축 필터(토글: 다시 누르면 해제)
+const STORES = ["쿠팡", "토스쇼핑"] as const;
 
-const NOTIFY_SCORE_MIN = 4;
+const AD_PROPS = {
+  adsenseSlot: process.env.NEXT_PUBLIC_ADSENSE_SLOT_HOME,
+  adfitMobile: { unit: "DAN-sRrDqAryVxJFyyGr", width: 320, height: 50 },
+  adfitDesktop: { unit: "DAN-1gxi6c73rjhTXT18", width: 728, height: 90 },
+};
 
-// 형님 지시(2026-07-30): 가전/육아/식품/전자제품/기타 고정 유지.
-// + 생활용품·화장품 추가(2026-07-31) — 아르카 카테고리별 수집으로 실제 딜이
-//   꾸준히 들어와, '기타'에 뭉뚱그리면 찾기 어려워짐.
-// + 전자제품·가전을 식품보다 앞으로(2026-08-01) — 오디언스 정합·객단가 모두
-//   유리해 매출 기여가 큰 카테고리를 먼저 노출(page.tsx의 정렬 우선순위와 동일 의도).
-const TABS = ["전체", "전자제품", "가전", "식품", "생활용품", "화장품", "육아", "기타"] as const;
-// 8/20: 토스쇼핑 딜이 전체의 20%+ 차지하게 되면서 스토어 구분 없이 섞여있던 목록에
-// 필터가 없다는 지적(형님 "점검해보세요") → 카테고리 탭과 별개 축으로 스토어 탭 추가.
-const STORE_TABS = ["전체", "쿠팡", "토스쇼핑"] as const;
+const CHIP = "ds-chip !h-9 !px-3 !text-[14px] hover:text-text transition aria-pressed:!bg-ink aria-pressed:!text-on-ink";
 
-export function ShoppingList({ deals }: { deals: DealView[] }) {
-  const [active, setActive] = useState<string>("전체");
-  const [activeStore, setActiveStore] = useState<string>("전체");
-  // 📉 최저가: 스토어·카테고리와 별개 축의 토글(켜면 폴센트 60일 최저가 딜만)
-  const [lowOnly, setLowOnly] = useState(false);
-  const lowCount = deals.filter((d) => d.lowest60).length;
+export function ShoppingList({
+  deals,
+  cards,
+  flatMinPct,
+}: {
+  deals: DealMeta[];
+  cards: Record<string, React.ReactNode>;
+  flatMinPct: number;
+}) {
+  const [filter, setFilter] = useState<string>("전체");
+  const [store, setStore] = useState<string | null>(null);
+  const barRef = useRef<HTMLDivElement>(null);
+  // barRef = sticky 바 앞의 빈 앵커(바 자체는 붙어 있으면 위치가 고정돼 기준이 안 됨).
+  // 깊이 스크롤한 상태에서 필터를 바꾸면 목록 맨 위로(sticky 바 자리 기준) — 빈 화면 방지
+  const toTop = () => {
+    const el = barRef.current;
+    if (!el) return;
+    const y = el.getBoundingClientRect().top + window.scrollY - 56 + 16; // 앵커는 sticky 바 직전(mt-4) 자리
+    if (window.scrollY > y + 1) window.scrollTo({ top: y });
+  };
 
-  // 스토어 탭 개수는 항상 전체 기준(카테고리 선택과 무관하게 "쿠팡 총 몇 건" 보이게)
-  const storeCounts: Record<string, number> = { 전체: deals.length, 쿠팡: 0, 토스쇼핑: 0 };
+  // 칩 개수는 현재 스토어 선택 기준
+  const byStore = store ? deals.filter((d) => d.store === store) : deals;
+  const counts: Record<string, number> = { 전체: byStore.length, "📉 최저가": 0 };
+  for (const d of byStore) {
+    counts[d.catGroup] = (counts[d.catGroup] ?? 0) + 1;
+    if (d.lowest60) counts["📉 최저가"] += 1;
+  }
+  const storeCounts: Record<string, number> = {};
   for (const d of deals) storeCounts[d.store] = (storeCounts[d.store] ?? 0) + 1;
 
-  const storeFiltered = (activeStore === "전체" ? deals : deals.filter((d) => d.store === activeStore)).filter(
-    (d) => !lowOnly || d.lowest60,
+  const shown = byStore.filter((d) =>
+    filter === "전체" ? true : filter === "📉 최저가" ? d.lowest60 : d.catGroup === filter,
   );
+  const lows = shown.filter((d) => d.lowest60);
+  const others = shown.filter((d) => !d.lowest60 && d.verified);
+  const flat = shown.filter((d) => !d.verified);
+  const isDefault = filter === "전체" && store == null;
 
-  // 카테고리 탭 개수는 현재 스토어 필터 기준으로 다시 집계(선택된 스토어 안에서 몇 건인지)
-  const counts: Record<string, number> = { 전체: storeFiltered.length };
-  for (const t of TABS) if (t !== "전체") counts[t] = 0;
-  for (const d of storeFiltered) counts[d.catGroup] = (counts[d.catGroup] ?? 0) + 1;
-
-  const shown = active === "전체" ? storeFiltered : storeFiltered.filter((d) => d.catGroup === active);
+  // 광고: 섹션 경계에만(카드 사이 금지), 첫 화면 금지(위에 카드 3장+ 있을 때만), 최대 2개.
+  const adAfterLows = isDefault && lows.length >= 3 && others.length > 0;
+  const adAfterOthers = lows.length + others.length >= 6 && flat.length > 0;
+  const list = (items: DealMeta[]) => (
+    <div className="mt-3 space-y-3">
+      {items.map((d) => (
+        <div key={d.id}>{cards[d.id]}</div>
+      ))}
+    </div>
+  );
 
   return (
     <>
-      {/* 스토어 탭 */}
-      <div className="flex flex-wrap gap-1.5 mb-2.5">
-        {STORE_TABS.map((t) => {
-          const isActive = activeStore === t;
-          const n = storeCounts[t] ?? 0;
-          return (
-            <button
-              key={t}
-              type="button"
-              onClick={() => setActiveStore(t)}
-              className={`px-3 py-1.5 rounded-full text-xs font-semibold transition-colors border ${
-                isActive
-                  ? "bg-blue-500 text-white border-blue-500"
-                  : "bg-bg-card text-text-dim border-line hover:text-text hover:border-text-dim"
-              }`}
-            >
-              {t}
-              <span className={`ml-1 ${isActive ? "text-white/70" : "text-text-dim/60"}`}>{n}</span>
-            </button>
-          );
-        })}
-        {lowCount > 0 && (
-          <button
-            type="button"
-            onClick={() => setLowOnly((v) => !v)}
-            aria-pressed={lowOnly}
-            className={`px-3 py-1.5 rounded-full text-xs font-semibold transition-colors border ${
-              lowOnly
-                ? "bg-accent-green text-bg border-accent-green"
-                : "bg-bg-card text-text-dim border-line hover:text-text hover:border-text-dim"
-            }`}
-          >
-            📉 최저가
-            <span className={`ml-1 ${lowOnly ? "text-bg/70" : "text-text-dim/60"}`}>{lowCount}</span>
-          </button>
-        )}
-      </div>
-
-      {/* 카테고리 탭 */}
-      <div className="flex flex-wrap gap-1.5 mb-5">
-        {TABS.map((t) => {
-          const isActive = active === t;
-          const n = counts[t] ?? 0;
-          return (
-            <button
-              key={t}
-              type="button"
-              onClick={() => setActive(t)}
-              className={`px-3 py-1.5 rounded-full text-xs font-semibold transition-colors border ${
-                isActive
-                  ? "bg-orange-500 text-white border-orange-500"
-                  : "bg-bg-card text-text-dim border-line hover:text-text hover:border-text-dim"
-              }`}
-            >
-              {t}
-              <span className={`ml-1 ${isActive ? "text-white/70" : "text-text-dim/60"}`}>{n}</span>
-            </button>
-          );
-        })}
+      {/* sticky 필터 — 헤더 칩 네비(56px) 바로 아래에 붙음 */}
+      <div ref={barRef} aria-hidden="true" />
+      <div className="sticky top-[56px] z-20 -mx-4 px-4 sm:-mx-5 sm:px-5 mt-4 bg-bg/90 backdrop-blur-md">
+        <nav aria-label="딜 필터" className="ds-chipnav ds-fade-right flex gap-2 overflow-x-auto py-2">
+          {FILTERS.map((f) => {
+            const n = counts[f] ?? 0;
+            if (f !== "전체" && n === 0 && filter !== f) return null;
+            const on = filter === f;
+            return (
+              <button key={f} type="button" onClick={() => {
+                  setFilter(f);
+                  toTop();
+                }} aria-pressed={on} className={CHIP}>
+                {f}
+                <span className={`ml-1 num text-[12px] ${on ? "opacity-70" : "text-text-dim"}`}>{n}</span>
+              </button>
+            );
+          })}
+          <span className="flex-none w-px my-1.5 bg-line" aria-hidden="true" />
+          {STORES.map((s) => {
+            const on = store === s;
+            return (
+              <button key={s} type="button" onClick={() => {
+                  setStore(on ? null : s);
+                  toTop();
+                }} aria-pressed={on} className={CHIP}>
+                {s}
+                <span className={`ml-1 num text-[12px] ${on ? "opacity-70" : "text-text-dim"}`}>{storeCounts[s] ?? 0}</span>
+              </button>
+            );
+          })}
+          <span className="flex-none w-4" aria-hidden="true" />
+        </nav>
       </div>
 
       {shown.length === 0 ? (
-        <div className="p-8 rounded-xl bg-bg-card border border-line text-center text-text-dim text-sm">
-          이 카테고리엔 아직 딜이 없어요.
-        </div>
+        <div className="ds-card mt-3 text-center ds-explain">이 조건엔 아직 딜이 없어요.</div>
       ) : (
-        <div className="space-y-3">
-          {shown.map((d) => {
-            const isHot = (d.score ?? 0) >= NOTIFY_SCORE_MIN;
-            // 카드 본체(가장 큰 탭 타깃)를 원문(비수익) 대신 제휴링크로 연결 —
-            // 예전엔 카드 전체가 아르카/퀘이사존 원문으로 가고 구매링크는 하단
-            // 얇은 바 하나뿐이라, 가장 큰 탭 영역이 트래픽을 커뮤니티로 흘려보내고
-            // 있었음(2026-07-31 Fable 분석: 하루 페이지뷰 1.1만인데 구매클릭 13건).
-            // 제휴링크 아직 없는 딜만 예전처럼 원문으로 연결(대체 목적지가 없으므로).
-            const buyHref = d.affiliate_url
-              ? `/shopping/go?url=${encodeURIComponent(d.affiliate_url)}&source=kr-stocks`
-              : d.link;
-            return (
-              <div key={d.id} className="rounded-xl border border-line bg-bg-card overflow-hidden">
-                <a
-                  href={buyHref}
-                  target="_blank"
-                  rel={d.affiliate_url ? "noopener sponsored" : "noopener"}
-                  className="block p-4 hover:bg-white/[0.02] transition-colors"
-                >
-                  <div className="flex flex-wrap items-center gap-2 mb-2">
-                    <span className="text-[10px] font-semibold text-text-dim bg-bg px-1.5 py-0.5 rounded">
-                      {d.catGroup}
-                    </span>
-                    {d.lowest60 && (
-                      <span className="text-[11px] font-bold text-accent-green bg-accent-green/10 border border-accent-green/30 px-2 py-0.5 rounded-full">
-                        📉 {d.badge ?? "최근 2개월 최저가"}
-                      </span>
-                    )}
-                    {d.lowest60 && d.avgDropPct != null && (
-                      <span className="text-[11px] font-bold text-bg bg-accent-green px-2 py-0.5 rounded-full ml-auto tabular">
-                        ▼{d.avgDropPct}%
-                      </span>
-                    )}
-                    {isHot && (
-                      <span className="text-[11px] font-bold text-red-400 bg-red-950/40 px-2 py-0.5 rounded-full animate-pulse">
-                        🚨 가격오류의심 {d.score}
-                      </span>
-                    )}
-                    {d.discount_pct != null && (
-                      <span className="text-[11px] font-bold text-bg bg-accent-green px-2 py-0.5 rounded-full ml-auto tabular">
-                        ▼{d.discount_pct}%
-                      </span>
-                    )}
-                  </div>
-                  {d.lowest60 ? (
-                    <div className="flex gap-3">
-                      {/* 고정 크기 썸네일(쿠팡 CDN) — 이미지 없거나 실패해도 같은 자리 유지 */}
-                      <div className="w-[72px] h-[72px] shrink-0 rounded-lg overflow-hidden bg-bg border border-line/60">
-                        {d.img && (
-                          // eslint-disable-next-line @next/next/no-img-element
-                          <img
-                            src={d.img}
-                            alt=""
-                            width={72}
-                            height={72}
-                            loading="lazy"
-                            decoding="async"
-                            referrerPolicy="no-referrer"
-                            className="w-full h-full object-cover"
-                          />
-                        )}
-                      </div>
-                      <div className="min-w-0 flex-1">
-                        <div className="font-sys text-sm font-semibold text-text leading-snug line-clamp-2">
-                          {d.product || d.title}
-                        </div>
-                        <div className="mt-1.5 flex flex-wrap items-center gap-2 text-xs">
-                          <span className="text-text-dim">{d.store}</span>
-                          {d.price && <span className="text-accent-amber font-bold">{d.price}</span>}
-                          <span className="ml-auto text-text-dim">{d.timeAgoStr}</span>
-                        </div>
-                      </div>
-                    </div>
-                  ) : (
-                    <>
-                      <div className="font-sys text-sm font-semibold text-text leading-snug">{d.product || d.title}</div>
-                      <div className="mt-2 flex flex-wrap items-center gap-2 text-xs">
-                        <span className="text-text-dim">{d.store}</span>
-                        {d.price && <span className="text-accent-amber font-bold">{d.price}</span>}
-                        {d.shipping && (
-                          <span className="text-text-dim bg-bg px-1.5 py-0.5 rounded">{d.shipping}</span>
-                        )}
-                        <span className="ml-auto text-text-dim">{d.timeAgoStr}</span>
-                      </div>
-                    </>
-                  )}
-                  {d.lowest60 && (d.hist || (d.avg60Str && d.avgDropPct != null)) && (
-                    <div className="mt-2.5 pt-2 border-t border-line/50 flex items-center gap-3">
-                      <div className="text-xs tabular min-w-0 flex-1">
-                        {d.avg60Str && d.avgDropPct != null ? (
-                          <>
-                            <span className="text-text-dim">60일 평균 {d.avg60Str} 대비</span>{" "}
-                            <span className="text-accent-green font-bold">-{d.avgDropPct}%</span>
-                          </>
-                        ) : (
-                          <span className="text-text-dim">최근 60일 중 최저가</span>
-                        )}
-                      </div>
-                      {d.hist && <Sparkline values={d.hist} from={d.histFrom} />}
-                    </div>
-                  )}
-                  {d.market_price && d.discount_pct != null && (
-                    <div className="mt-2.5 pt-2 border-t border-line/50 flex items-center gap-2 flex-wrap">
-                      <div className="text-xs tabular">
-                        <span className="text-text-dim line-through decoration-text-dim/50">
-                          {d.price_ref === "toss_original" ? "토스 정가" : "평균 시세"} {d.market_price}
-                        </span>
-                        <span className="text-text-dim mx-1">→</span>
-                        <span className="text-accent-green font-bold">
-                          {d.price} ({d.discount_pct}%↓)
-                        </span>
-                      </div>
-                      {/* 30%+ 할인만 '저점매수'로 강조 — 모든 딜에 붙이면 신뢰도가 떨어짐 */}
-                      {d.discount_pct >= 30 && (
-                        <span className="text-[10px] font-bold text-accent-green bg-accent-green/10 border border-accent-green/30 px-1.5 py-0.5 rounded">
-                          📉 지금이 저점
-                        </span>
-                      )}
-                    </div>
-                  )}
-                </a>
-                {d.affiliate_url && (
-                  <div className="flex items-stretch border-t border-line/60">
-                    <a
-                      href={buyHref}
-                      target="_blank"
-                      rel="noopener sponsored"
-                      className="flex-1 text-center py-2.5 text-sm font-bold text-white bg-orange-500 hover:bg-orange-400 transition-colors"
-                    >
-                      💰 이 가격에 구매하기
-                    </a>
-                    {/* 원문(커뮤니티 게시글) — 댓글로 재고/실황 확인용, 작지만 계속 노출.
-                        폴센트 행은 커뮤니티 원문이 없어(link=제휴링크) 숨김. */}
-                    {!d.lowest60 && (
-                      <a
-                        href={d.link}
-                        target="_blank"
-                        rel="noopener"
-                        className="px-3 flex items-center text-[11px] text-text-dim hover:text-text-muted border-l border-line/60 shrink-0"
-                      >
-                        원문
-                      </a>
-                    )}
-                  </div>
-                )}
-              </div>
-            );
-          })}
-        </div>
+        <>
+          {lows.length > 0 && (
+            <section className="mt-3" aria-labelledby="sec-low">
+              <h2 id="sec-low" className="ds-h2">
+                📉 최근 2개월 최저가
+              </h2>
+              <p className="ds-meta mt-0.5">쿠팡 60일 가격 기록에서 지금이 가장 싼 딜</p>
+              {list(lows)}
+            </section>
+          )}
+
+          {adAfterLows && <AdSlot key="ad-1" {...AD_PROPS} />}
+
+          {others.length > 0 && (
+            <section className={adAfterLows ? "" : lows.length > 0 ? "mt-8" : "mt-3"} aria-labelledby="sec-deal">
+              <h2 id="sec-deal" className="ds-h2">
+                {lows.length > 0 ? "할인 확인된 딜" : "오늘의 딜"}
+              </h2>
+              <p className="ds-meta mt-0.5">평균 시세 또는 토스 정가와 비교해 할인이 확인된 딜</p>
+              {list(others)}
+            </section>
+          )}
+
+          {adAfterOthers && <AdSlot key="ad-2" {...AD_PROPS} />}
+
+          {flat.length > 0 && (
+            <section
+              className={`ds-card ${adAfterOthers ? "" : lows.length + others.length > 0 ? "mt-8" : "mt-3"}`}
+              style={{ paddingTop: 4, paddingBottom: 4 }}
+            >
+              <MoreDetails summary={`평소 가격 수준·비교 시세 없는 딜 ${flat.length}개`} className="!border-t-0 !mt-0">
+                <p className="ds-meta -mt-1">
+                  싸 보이지만 시세와 비교해 확인된 할인이 없거나 {flatMinPct}% 미만인 딜이에요.
+                </p>
+                <div className="pb-1">{list(flat)}</div>
+              </MoreDetails>
+            </section>
+          )}
+        </>
       )}
     </>
   );

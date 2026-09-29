@@ -32,7 +32,7 @@ function fmt(n: number, locale: "ko" | "en" = "ko"): string {
   return n.toLocaleString(locale === "en" ? "en-US" : "ko-KR");
 }
 
-export function StatsBar() {
+export function StatsBar({ compact = false }: { compact?: boolean } = {}) {
   const [stats, setStats] = useState<{ online: number; total: number } | null>(null);
   const pathname = usePathname() || "/";
   const isEn = pathname === "/en" || pathname.startsWith("/en/");
@@ -90,6 +90,16 @@ export function StatsBar() {
   }, []);
 
   if (!stats || (stats.online === 0 && stats.total === 0)) return null;
+
+  if (compact) {
+    return (
+      <span className="tabular whitespace-nowrap">
+        {t.online} <b className="text-text-muted">{fmt(stats.online, locale)}</b>
+        {t.unit} · {t.total} <b className="text-text-muted">{fmt(stats.total, locale)}</b>
+        {t.unit}
+      </span>
+    );
+  }
 
   return (
     <div className="flex items-center gap-2 text-[11px] tabular leading-tight">

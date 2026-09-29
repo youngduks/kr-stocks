@@ -42,8 +42,8 @@ function HistoryCard({ p }: { p: EnrichedPollHistory }) {
           <span
             className={`text-[11px] font-bold px-2 py-0.5 rounded-full ${
               p.correct
-                ? "bg-green-500/15 text-green-500"
-                : "bg-red-500/15 text-red-500"
+                ? "bg-live/15 text-live"
+                : "bg-flat-bg text-flat"
             }`}
           >
             {p.correct ? "✅ 적중" : "❌ 빗나감"}
@@ -64,7 +64,7 @@ function HistoryCard({ p }: { p: EnrichedPollHistory }) {
           </div>
           <div className="w-full h-2 rounded-full bg-bg overflow-hidden">
             <div
-              className="h-full bg-green-500"
+              className="h-full bg-up"
               style={{ width: `${p.yesPct}%` }}
             />
           </div>
@@ -80,7 +80,7 @@ function HistoryCard({ p }: { p: EnrichedPollHistory }) {
           </div>
           <div className="w-full h-2 rounded-full bg-bg overflow-hidden">
             <div
-              className="h-full bg-red-500"
+              className="h-full bg-down"
               style={{ width: `${p.noPct}%` }}
             />
           </div>
@@ -96,9 +96,9 @@ function HistoryCard({ p }: { p: EnrichedPollHistory }) {
           <span
             className={`font-semibold ${
               p.outcome === "up"
-                ? "text-green-500"
+                ? "text-up"
                 : p.outcome === "down"
-                  ? "text-red-500"
+                  ? "text-down"
                   : "text-text-muted"
             }`}
           >
@@ -164,8 +164,8 @@ export default async function PollPage() {
           pollId="market-updown-2026-09-30"
           title="인간지표 — 내일 상승 vs 하락"
           question="9/30(수) 한국 증시, 오를까요 내릴까요?"
-          yesLabel="📈 상승"
-          noLabel="📉 하락"
+          yesLabel="▲ 오른다"
+          noLabel="▼ 내린다"
         />
 
         <h2 className="text-lg font-bold text-text mb-3 mt-2">지난 결과</h2>

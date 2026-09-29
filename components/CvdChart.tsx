@@ -13,6 +13,7 @@ import {
 } from "lightweight-charts";
 import type { CvdPoint, CvdSet } from "@/lib/cvd";
 import { useTheme } from "./ThemeProvider";
+import { CHART_UPDOWN } from "@/lib/colors";
 
 type Range = "1D" | "7D" | "1M";
 
@@ -180,6 +181,7 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
   const [range, setRange] = useState<Range>("7D");
   const { theme } = useTheme();
   const COLOR = useMemo(() => (theme === "light" ? COLOR_LIGHT : COLOR_DARK), [theme]);
+  const COLOR_UD = theme === "light" ? CHART_UPDOWN.light : CHART_UPDOWN.dark;
 
   // datasets가 서버 재검증으로 줄어도 인덱스가 범위를 벗어나지 않게 clamp
   const safeIdx = Math.min(tickerIdx, Math.max(datasets.length - 1, 0));
@@ -199,9 +201,9 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
   }, [shownRange, safeIdx, datasets]);
 
   const trend = useMemo(() => {
-    if (bars.length < 2) return { isUp: true, color: COLOR.green };
+    if (bars.length < 2) return { isUp: true, color: COLOR_UD.up };
     const isUp = bars[bars.length - 1].cvd >= bars[0].cvd;
-    return { isUp, color: isUp ? COLOR.green : COLOR.blue };
+    return { isUp, color: isUp ? COLOR_UD.up : COLOR_UD.down };
   }, [bars, COLOR]);
 
   // 빗썸식 상승/하락 비율 — 실제 체결된 매수·매도 금액(USDT) 비중. 예측이 아니라 실측 체결 비율.
@@ -353,7 +355,7 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
     );
   }
 
-  const trendColorClass = trend.isUp ? "text-accent-green" : "text-accent-blue";
+  const trendColorClass = trend.isUp ? "text-up" : "text-down";
   const trendArrow = trend.isUp ? "▲ 매수 우세" : "▼ 매도 우세";
 
   return (
@@ -403,7 +405,7 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
             가격(좌축)
           </span>
           <span className="inline-flex items-center gap-1">
-            <span className={`inline-block w-3 h-[2px] ${trend.isUp ? "bg-accent-green" : "bg-accent-blue"}`} />
+            <span className={`inline-block w-3 h-[2px] ${trend.isUp ? "bg-up" : "bg-down"}`} />
             CVD(우축)
           </span>
         </div>
@@ -414,18 +416,18 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
         {RANGE_LABEL[shownRange]} 매수·매도 체결 비중 (실측, 예측 아님)
       </div>
       <div className="flex items-center gap-2 mb-3 text-[11px] font-bold tabular">
-        <span className="text-accent-green shrink-0">상승 {ratio.upLabel}%</span>
+        <span className="text-up shrink-0">상승 {ratio.upLabel}%</span>
         <div className="relative flex-1 h-2 bg-line/40 rounded-full overflow-hidden">
           <div
-            className="absolute left-0 top-0 h-full bg-accent-green transition-all"
+            className="absolute left-0 top-0 h-full bg-up transition-all"
             style={{ width: `${ratio.upPct}%` }}
           />
           <div
-            className="absolute right-0 top-0 h-full bg-accent-blue transition-all"
+            className="absolute right-0 top-0 h-full bg-down transition-all"
             style={{ width: `${ratio.downPct}%` }}
           />
         </div>
-        <span className="text-accent-blue shrink-0">하락 {ratio.downLabel}%</span>
+        <span className="text-down shrink-0">하락 {ratio.downLabel}%</span>
       </div>
 
       <div ref={containerRef} className="w-full h-[220px] md:h-[300px]" />

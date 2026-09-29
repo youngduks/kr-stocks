@@ -116,3 +116,17 @@ export async function fetchCandleSet(
   ]);
   return { bars1H, bars4H };
 }
+
+/**
+ * 홈 1줄 종목 리스트용 스파크라인 — 최근 N시간 1h 종가 (Binance USDT-M 소스 종목만).
+ * HL 소스는 body 에 시각이 들어가 fetch 캐시가 안 먹으므로 홈에선 생략(빈 박스 렌더).
+ * 실패 시 [] → Sparkline 이 같은 크기 빈 박스로 대체 (레이아웃 고정).
+ */
+export async function fetchSparkCloses(
+  meta: { source?: string; binance_symbol?: string },
+  bars = 24
+): Promise<number[]> {
+  if (meta.source !== "binance" || !meta.binance_symbol) return [];
+  const candles = await fetchBinanceKlines(meta.binance_symbol, "1h", bars);
+  return candles.map((c) => c.close).filter((v) => Number.isFinite(v) && v > 0);
+}

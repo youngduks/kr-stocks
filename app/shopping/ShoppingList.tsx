@@ -231,7 +231,7 @@ export function ShoppingList({ deals }: { deals: DealView[] }) {
                         )}
                       </div>
                       <div className="min-w-0 flex-1">
-                        <div className="text-sm font-semibold text-text leading-snug line-clamp-2">
+                        <div className="font-sys text-sm font-semibold text-text leading-snug line-clamp-2">
                           {d.product || d.title}
                         </div>
                         <div className="mt-1.5 flex flex-wrap items-center gap-2 text-xs">
@@ -243,7 +243,7 @@ export function ShoppingList({ deals }: { deals: DealView[] }) {
                     </div>
                   ) : (
                     <>
-                      <div className="text-sm font-semibold text-text leading-snug">{d.product || d.title}</div>
+                      <div className="font-sys text-sm font-semibold text-text leading-snug">{d.product || d.title}</div>
                       <div className="mt-2 flex flex-wrap items-center gap-2 text-xs">
                         <span className="text-text-dim">{d.store}</span>
                         {d.price && <span className="text-accent-amber font-bold">{d.price}</span>}

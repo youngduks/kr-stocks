@@ -1,110 +1,69 @@
 "use client";
 
+// 2026-09 리디자인 Phase A — 헤더:
+//  ① 브랜드 + 아이콘 버튼(검색·테마·언어, 44px 탭 타깃)
+//  ② 메타 한 줄: 기준시각(선택) · USD/KRW · 접속자(StatsBar — /api/visit 기록 담당이라 항상 마운트)
+//  ③ sticky 1줄 칩 네비 (가로 스크롤, 더 있으면 오른쪽 페이드 힌트)
+
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
 import { StatsBar } from "./StatsBar";
 import { useTheme } from "./ThemeProvider";
 import { SearchPalette } from "./SearchPalette";
+import { AsOf } from "./ui/AsOf";
+
+function useIsEn() {
+  const pathname = usePathname() || "/";
+  return { pathname, isEn: pathname === "/en" || pathname.startsWith("/en/") };
+}
 
 function ThemeToggle() {
   const { theme, toggle, mounted } = useTheme();
-  const pathname = usePathname() || "/";
-  const isEn = pathname === "/en" || pathname.startsWith("/en/");
-  // mount 전(SSR)엔 dark 아이콘 고정 — hydration mismatch 회피
+  const { isEn } = useIsEn();
   const isDark = mounted ? theme === "dark" : true;
-  // 라벨 + a11y 영어 분기 (형님 5/13 요청)
-  const label = isEn ? "Theme" : "화면모드";
-  const ariaSwitch = isEn
-    ? isDark
-      ? "Switch to light mode"
-      : "Switch to dark mode"
-    : isDark
-      ? "라이트 모드로 전환"
-      : "다크 모드로 전환";
-  const titleAttr = isEn
-    ? isDark
-      ? "Light mode"
-      : "Dark mode"
-    : isDark
-      ? "라이트 모드"
-      : "다크 모드";
+  const aria = isEn
+    ? isDark ? "Switch to light mode" : "Switch to dark mode"
+    : isDark ? "라이트 모드로 전환" : "다크 모드로 전환";
   return (
-    <button
-      type="button"
-      onClick={toggle}
-      aria-label={ariaSwitch}
-      title={titleAttr}
-      className="inline-flex items-center justify-center gap-1 sm:gap-1.5 h-7 sm:h-8 px-2 rounded-md text-text-dim hover:text-text hover:bg-bg-card/70 border border-transparent hover:border-line transition shrink-0"
-    >
-      {/* 라벨: 아이콘만 있으면 무엇인지 모호 → 한국어 '화면모드' / 영어 'Theme' (5/13) */}
-      <span className="text-[10px] sm:text-[11px] leading-none">{label}</span>
-      <span className="text-sm sm:text-base leading-none" aria-hidden="true">
-        {isDark ? "🌙" : "☀️"}
-      </span>
+    <button type="button" onClick={toggle} aria-label={aria} title={aria} className="ds-iconbtn hover:bg-bg-hover transition">
+      {/* 아이콘은 SVG — 특수기호 글리프(◐)가 폰트 청크 1개(11KB)를 추가로 끌어오는 것 방지 */}
+      <svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true">
+        <circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" strokeWidth="2" />
+        <path d="M10 2a8 8 0 0 1 0 16z" fill="currentColor" />
+      </svg>
     </button>
   );
 }
 
 function LangToggle() {
-  const pathname = usePathname() || "/";
-  const isEn = pathname === "/en" || pathname.startsWith("/en/");
-
-  // 현재 path → 반대 locale path 매핑
-  // /  ↔  /en
-  // /guide/hyperliquid-onramp  ↔  /en/guide/hyperliquid-onramp
-  // /korea/samsung 등 종목 상세는 한국어만 유지 (Phase 1) → 영어 클릭 시 /en (홈)으로
-  let koHref = "/";
-  let enHref = "/en";
+  const { pathname, isEn } = useIsEn();
+  // /  ↔  /en, 가이드·컨센서스는 대응 경로, 그 외 → 상대 언어 홈
+  let href = "/en";
   if (isEn) {
-    // /en → /, /en/guide/hyperliquid-onramp → /guide/hyperliquid-onramp
     const rest = pathname.replace(/^\/en/, "");
-    koHref = rest === "" ? "/" : rest;
-  } else {
-    // 영어 동등 경로 — 가이드 + 분석 매핑. 그 외 (/korea/...) → /en 홈
-    if (pathname === "/") enHref = "/en";
-    else if (pathname === "/guide/hyperliquid-onramp") enHref = "/en/guide/hyperliquid-onramp";
-    else if (pathname === "/guide/binance-korea-stocks") enHref = "/en/guide/binance-korea-stocks";
-    else if (pathname === "/consensus") enHref = "/en/consensus";
-    else enHref = "/en";
-  }
-
+    href = rest === "" ? "/" : rest;
+  } else if (pathname === "/guide/hyperliquid-onramp") href = "/en/guide/hyperliquid-onramp";
+  else if (pathname === "/guide/binance-korea-stocks") href = "/en/guide/binance-korea-stocks";
+  else if (pathname === "/consensus") href = "/en/consensus";
   return (
-    <div className="inline-flex items-center text-[10px] sm:text-[11px] tabular text-text-dim shrink-0">
-      <Link
-        href={koHref as any}
-        prefetch={false}
-        className={`px-1 sm:px-1.5 py-0.5 rounded transition ${
-          !isEn ? "text-text font-semibold" : "hover:text-text-muted"
-        }`}
-        aria-current={!isEn ? "page" : undefined}
-      >
-        한국어
-      </Link>
-      <span className="text-text-dim/50">/</span>
-      <Link
-        href={enHref as any}
-        prefetch={false}
-        className={`px-1 sm:px-1.5 py-0.5 rounded transition ${
-          isEn ? "text-text font-semibold" : "hover:text-text-muted"
-        }`}
-        aria-current={isEn ? "page" : undefined}
-      >
-        EN
-      </Link>
-    </div>
+    <Link
+      href={href as any}
+      prefetch={false}
+      hrefLang={isEn ? "ko" : "en"}
+      aria-label={isEn ? "한국어로 보기" : "View in English"}
+      className="ds-iconbtn hover:bg-bg-hover transition text-[14px]"
+    >
+      {isEn ? "한" : "EN"}
+    </Link>
   );
 }
 
-function PageNav() {
-  const pathname = usePathname() || "/";
-  const isEn = pathname === "/en" || pathname.startsWith("/en/");
+function ChipNav() {
+  const { pathname, isEn } = useIsEn();
+  const navRef = useRef<HTMLElement>(null);
+  const [fade, setFade] = useState(false);
 
-  // 현재 페이지가 어느 카테고리?
-  // "주가" = 홈/카드 grid (/, /en, /korea/samsung, /us/tesla 같은 종목 상세)
-  // "분석" = /consensus, /en/consensus
-  // "뉴스" = /news (국제정세 + 삼성/하이닉스/현대차)
-  // "청산맵" = /liquidation
-  // "가이드" = /guide/..., /en/guide/...
   const isConsensus = pathname === "/consensus" || pathname === "/en/consensus";
   const isNews = pathname === "/news" || pathname.startsWith("/news/");
   const isGuide = pathname.includes("/guide/");
@@ -113,99 +72,103 @@ function PageNav() {
   const isBuyback = pathname.startsWith("/korea/hynix/buyback");
   const isShopping = pathname === "/shopping" || pathname.startsWith("/shopping/");
   const isCommunity = pathname === "/community" || pathname.startsWith("/community/");
-  const isPrices =
-    !isConsensus && !isNews && !isGuide && !isPoll && !isLiquidation && !isBuyback && !isShopping && !isCommunity;
-
-  // locale에 맞는 href (뉴스룸·청산맵·쇼핑·커뮤니티는 현재 한국어 only — EN에서도 동일 경로로 fallback)
-  const home = isEn ? "/en" : "/";
-  const consensus = isEn ? "/en/consensus" : "/consensus";
-  const news = "/news";
-  const poll = "/poll";
-  const liquidation = "/liquidation";
-  const buyback = "/korea/hynix/buyback";
-  const shopping = "/shopping";
-  const community = "/community";
-  const guide = isEn ? "/en/guide/binance-korea-stocks" : "/guide/binance-korea-stocks";
+  const isHome = !isConsensus && !isNews && !isGuide && !isPoll && !isLiquidation && !isBuyback && !isShopping && !isCommunity;
 
   const tabs: Array<{ key: string; href: string; ko: string; en: string; active: boolean }> = [
-    { key: "prices", href: home, ko: "주가", en: "Prices", active: isPrices },
-    { key: "consensus", href: consensus, ko: "증권사 분석", en: "Consensus", active: isConsensus },
-    { key: "news", href: news, ko: "뉴스", en: "News", active: isNews },
-    { key: "poll", href: poll, ko: "인간지표", en: "Poll", active: isPoll },
-    { key: "liquidation", href: liquidation, ko: "청산맵", en: "Liq. Map", active: isLiquidation },
-    { key: "buyback", href: buyback, ko: "🏦 자사주매입", en: "🏦 Buyback", active: isBuyback },
-    // 쿠팡 핫딜(줍줍쇼핑) — kr-stocks.com 자체 하위페이지 (7/29 형님 요청, 외부 사이트 → 내부 라우트 전환)
-    { key: "shopping", href: shopping, ko: "🛒 핫딜", en: "🛒 Hot Deals", active: isShopping },
-    // 커뮤니티룸 — 자유게시판, 닉네임+비밀번호만으로 글/댓글 (8/2 형님 요청)
-    { key: "community", href: community, ko: "💬 커뮤니티", en: "💬 Community", active: isCommunity },
-    { key: "guide", href: guide, ko: "가이드", en: "Guide", active: isGuide },
+    { key: "home", href: isEn ? "/en" : "/", ko: "오늘", en: "Today", active: isHome },
+    { key: "consensus", href: isEn ? "/en/consensus" : "/consensus", ko: "증권사 목표가", en: "Consensus", active: isConsensus },
+    { key: "liquidation", href: "/liquidation", ko: "청산맵", en: "Liq. Map", active: isLiquidation },
+    { key: "poll", href: "/poll", ko: "인간지표", en: "Poll", active: isPoll },
+    { key: "news", href: "/news", ko: "뉴스", en: "News", active: isNews },
+    { key: "buyback", href: "/korea/hynix/buyback", ko: "자사주매입", en: "Buyback", active: isBuyback },
+    { key: "shopping", href: "/shopping", ko: "핫딜", en: "Hot Deals", active: isShopping },
+    { key: "community", href: "/community", ko: "커뮤니티", en: "Community", active: isCommunity },
+    {
+      key: "guide",
+      href: isEn ? "/en/guide/binance-korea-stocks" : "/guide/binance-korea-stocks",
+      ko: "가이드",
+      en: "Guide",
+      active: isGuide,
+    },
   ];
 
+  // 활성 칩을 보이게 스크롤 + 오른쪽에 더 있으면 페이드 힌트
+  useEffect(() => {
+    const el = navRef.current;
+    if (!el) return;
+    const active = el.querySelector<HTMLElement>('[aria-current="page"]');
+    if (active && active.offsetLeft + active.offsetWidth > el.clientWidth) {
+      el.scrollLeft = active.offsetLeft - 16;
+    }
+    const update = () => setFade(el.scrollLeft + el.clientWidth < el.scrollWidth - 4);
+    update();
+    el.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    return () => {
+      el.removeEventListener("scroll", update);
+      window.removeEventListener("resize", update);
+    };
+  }, [pathname]);
+
   return (
-    <nav className="flex items-center gap-0.5 sm:gap-1 text-xs sm:text-sm tabular min-w-0 overflow-x-auto">
-      {tabs.map((t, i) => (
-        <span key={t.key} className="flex items-center">
-          <Link
-            href={t.href as any}
-            prefetch={false}
-            aria-current={t.active ? "page" : undefined}
-            className={`px-2 sm:px-2.5 py-1 rounded-md transition font-semibold whitespace-nowrap ${
-              t.active
-                ? "bg-bg-card text-text border border-line"
-                : "text-text-dim hover:text-text hover:bg-bg-card/50 border border-transparent"
-            }`}
-          >
-            {isEn ? t.en : t.ko}
-          </Link>
-          {i < tabs.length - 1 && (
-            <span className="text-text-dim/30 mx-0.5 hidden sm:inline">·</span>
-          )}
-        </span>
+    <nav
+      ref={navRef}
+      aria-label={isEn ? "Main" : "주요 메뉴"}
+      className={`ds-chipnav flex gap-2 overflow-x-auto py-2 -mx-4 px-4 sm:mx-0 sm:px-0 ${fade ? "ds-fade-right" : ""}`}
+    >
+      {tabs.map((t) => (
+        <Link
+          key={t.key}
+          href={t.href as any}
+          prefetch={false}
+          aria-current={t.active ? "page" : undefined}
+          className="ds-chip hover:text-text transition"
+        >
+          {isEn ? t.en : t.ko}
+        </Link>
       ))}
     </nav>
   );
 }
 
-export function Header({ fxRate, fxChange }: { fxRate: number; fxChange: number }) {
+export function Header({ fxRate, fxChange, asOf }: { fxRate: number; fxChange: number; asOf?: string | number }) {
+  const { isEn } = useIsEn();
+  const fxTone = fxChange > 0 ? "text-up" : fxChange < 0 ? "text-down" : "text-text-muted";
   return (
-    <header className="sticky top-0 z-30 backdrop-blur-md bg-bg/80 border-b border-line">
-      <div className="max-w-6xl mx-auto px-5 py-3 sm:py-4">
-        {/* Row 1: 로고 + StatsBar + FX */}
+    <>
+      <header className="max-w-6xl mx-auto px-4 sm:px-5 pt-3">
         <div className="flex items-center justify-between gap-3">
-          <div className="flex items-center gap-3 min-w-0">
-            <div className="w-2.5 h-2.5 rounded-full bg-accent-green animate-pulse-soft shadow-[0_0_12px_rgb(var(--live-glow))] flex-shrink-0" />
-            <div className="min-w-0">
-              <div className="text-base font-bold text-text tracking-tight">KR Stocks</div>
-              <div className="text-[11px] text-text-dim font-medium hidden sm:block">24h Global Markets</div>
+          <Link href={(isEn ? "/en" : "/") as any} prefetch={false} className="min-w-0">
+            <div className="text-[12px] font-extrabold text-live leading-tight">KR Stocks</div>
+            <div className="text-[20px] sm:text-[22px] font-extrabold tracking-tight leading-tight text-text truncate">
+              {isEn ? "24h Korea Market Desk" : "오늘의 주식 관제실"}
             </div>
-          </div>
-
-          <div className="flex items-center gap-4 sm:gap-6 md:gap-8">
-            <StatsBar />
-            <div className="text-right leading-tight">
-              <div className="text-[10px] text-text-dim">USD/KRW</div>
-              <div className="text-xs sm:text-sm font-semibold tabular text-text mt-0.5">
-                ₩{fxRate.toFixed(2)}
-              </div>
-              <div className={`text-[10px] sm:text-[11px] tabular mt-0.5 ${fxChange >= 0 ? "text-accent-green" : "text-accent-red"}`}>
-                {fxChange >= 0 ? "+" : ""}{fxChange.toFixed(2)}%
-              </div>
-            </div>
+          </Link>
+          <div className="flex items-center gap-2 shrink-0">
+            <SearchPalette variant="icon" locale={isEn ? "en" : "ko"} />
+            <ThemeToggle />
+            <LangToggle />
           </div>
         </div>
-
-        {/* Row 2: 페이지 네비 — 한 줄 풀폭 (탭이 두 줄로 깨지지 않게) */}
-        <div className="mt-2">
-          <PageNav />
+        <div className="mt-2 flex items-center gap-x-3 gap-y-1 flex-wrap ds-meta">
+          {asOf && <AsOf at={asOf} locale={isEn ? "en" : "ko"} note={isEn ? "refreshes ~2 min" : "약 2분마다 갱신"} />}
+          {fxRate > 0 && (
+            <span className="tabular whitespace-nowrap">
+              USD/KRW <b className="text-text-muted">₩{fxRate.toLocaleString("ko-KR", { maximumFractionDigits: 2 })}</b>{" "}
+              <span className={`font-bold ${fxTone}`}>
+                {fxChange > 0 ? "+" : fxChange < 0 ? "−" : ""}
+                {Math.abs(fxChange).toFixed(2)}%
+              </span>
+            </span>
+          )}
+          <StatsBar compact />
         </div>
-
-        {/* Row 3: 검색 / 테마 / 언어 토글 — 별도 줄, 우측 정렬 */}
-        <div className="mt-2 flex items-center justify-end gap-1 sm:gap-2">
-          <SearchPalette />
-          <ThemeToggle />
-          <LangToggle />
+      </header>
+      <div className="sticky top-0 z-30 bg-bg/90 backdrop-blur-md">
+        <div className="max-w-6xl mx-auto px-4 sm:px-5">
+          <ChipNav />
         </div>
       </div>
-    </header>
+    </>
   );
 }

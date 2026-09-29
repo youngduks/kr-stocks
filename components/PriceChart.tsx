@@ -12,6 +12,7 @@ import {
 } from "lightweight-charts";
 import type { Candle } from "@/lib/fetchCandles";
 import { useTheme } from "./ThemeProvider";
+import { CHART_UPDOWN } from "@/lib/colors";
 
 type Range = "1D" | "7D" | "1M";
 
@@ -36,6 +37,8 @@ type ChartColors = {
   green: string; blue: string; amber: string; purple: string;
   textMuted: string; textDim: string; bg: string; bgCard: string;
   grid: string; crosshair: string; topGreen: string; topBlue: string;
+  /** 등락 — 한국 관례 상승=빨강 / 하락=파랑 (lib/colors.ts CHART_UPDOWN) */
+  up: string; down: string; topUp: string; topDown: string;
 };
 
 const COLOR_DARK: ChartColors = {
@@ -46,6 +49,8 @@ const COLOR_DARK: ChartColors = {
   crosshair: "rgba(139, 149, 161, 0.35)",
   topGreen: "rgba(31, 174, 111, 0.28)",
   topBlue: "rgba(49, 130, 246, 0.28)",
+  up: CHART_UPDOWN.dark.up, down: CHART_UPDOWN.dark.down,
+  topUp: CHART_UPDOWN.dark.upFill, topDown: CHART_UPDOWN.dark.downFill,
 };
 
 const COLOR_LIGHT: ChartColors = {
@@ -56,6 +61,8 @@ const COLOR_LIGHT: ChartColors = {
   crosshair: "rgba(78, 89, 104, 0.35)",
   topGreen: "rgba(22, 163, 74, 0.18)",
   topBlue: "rgba(49, 130, 246, 0.18)",
+  up: CHART_UPDOWN.light.up, down: CHART_UPDOWN.light.down,
+  topUp: CHART_UPDOWN.light.upFill, topDown: CHART_UPDOWN.light.downFill,
 };
 
 const RANGE_LABEL: Record<Range, string> = {
@@ -132,7 +139,7 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, a
   const periodMeta = useMemo(() => {
     const bars = getDisplayBars(range);
     if (bars.length < 2) {
-      return { changePct: 0, isUp: true, lineColor: COLOR.green, topColor: COLOR.topGreen };
+      return { changePct: 0, isUp: true, lineColor: COLOR.up, topColor: COLOR.topUp };
     }
     const start = bars[0].close;
     const end = bars[bars.length - 1].close;
@@ -141,8 +148,8 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, a
     return {
       changePct,
       isUp,
-      lineColor: isUp ? COLOR.green : COLOR.blue,
-      topColor: isUp ? COLOR.topGreen : COLOR.topBlue,
+      lineColor: isUp ? COLOR.up : COLOR.down,
+      topColor: isUp ? COLOR.topUp : COLOR.topDown,
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [range, display1H, display4H, COLOR]);
@@ -308,7 +315,7 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, a
     );
   }
 
-  const trendColorClass = periodMeta.isUp ? "text-accent-green" : "text-accent-blue";
+  const trendColorClass = periodMeta.isUp ? "text-up" : "text-down";
   const trendArrow = periodMeta.isUp ? "▲" : "▼";
 
   return (

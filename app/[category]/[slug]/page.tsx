@@ -87,7 +87,7 @@ export default async function SymbolPage({ params }: Props) {
   const mainChgLabel = m.main_change_label ?? (isBn ? "Binance 24h" : "HL 24h");
   const isUp = mainChg > 0;
   const isDn = mainChg < 0;
-  const colorClass = isUp ? "text-accent-green" : isDn ? "text-accent-blue" : "text-text-muted";
+  const colorClass = isUp ? "text-up" : isDn ? "text-down" : "text-text-muted";
   const label = CATEGORY_LABELS[row.category];
 
   const jsonLd = {
@@ -405,7 +405,7 @@ export default async function SymbolPage({ params }: Props) {
         {isAdr && m.adr_premium_pct != null && (() => {
           const ratio = row.adr_ratio ?? 1;
           const pct = m.adr_premium_pct;
-          const premColor = pct > 0 ? "text-accent-green" : pct < 0 ? "text-accent-blue" : "text-text-muted";
+          const premColor = pct > 0 ? "text-up" : pct < 0 ? "text-down" : "text-text-muted";
           return (
             <section className="mb-6 p-5 rounded-2xl bg-accent-blue/5 border border-accent-blue/20">
               <div className="flex items-center justify-between gap-3 mb-3">
@@ -538,14 +538,14 @@ export default async function SymbolPage({ params }: Props) {
                     pct = ((m.mark_px_usd - refUsd) / refUsd) * 100;
                     gapText = `${gap > 0 ? "+" : gap < 0 ? "−" : ""}$${Math.abs(gap).toFixed(2)}`;
                   }
-                  const pctColor = pct > 0 ? "text-accent-green" : pct < 0 ? "text-accent-blue" : "text-text-muted";
+                  const pctColor = pct > 0 ? "text-up" : pct < 0 ? "text-down" : "text-text-muted";
                   return (
                     <>
                       <div className={`${row.category === "korea" ? "text-4xl md:text-5xl" : "text-3xl"} font-bold tabular ${pctColor}`}>
                         {pct > 0 ? "▲ +" : pct < 0 ? "▼ " : ""}{Math.abs(pct).toFixed(2)}%
                       </div>
                       {gapText && (
-                        <div className={`text-sm font-semibold tabular mt-1 ${gap > 0 ? "text-accent-green" : gap < 0 ? "text-accent-blue" : "text-text-muted"}`}>
+                        <div className={`text-sm font-semibold tabular mt-1 ${gap > 0 ? "text-up" : gap < 0 ? "text-down" : "text-text-muted"}`}>
                           {gapText}
                         </div>
                       )}

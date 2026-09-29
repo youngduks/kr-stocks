@@ -14,6 +14,7 @@ import {
 } from "lightweight-charts";
 import type { LeverageBar } from "@/lib/leverageEtf";
 import { useTheme } from "./ThemeProvider";
+import { CHART_UPDOWN } from "@/lib/colors";
 
 type Range = "1M" | "3M";
 
@@ -141,13 +142,14 @@ export function LeverageEtfChart({
   const [range, setRange] = useState<Range>("1M");
   const { theme } = useTheme();
   const COLOR = useMemo(() => (theme === "light" ? COLOR_LIGHT : COLOR_DARK), [theme]);
+  const COLOR_UD = theme === "light" ? CHART_UPDOWN.light : CHART_UPDOWN.dark;
 
   const bars = useMemo(() => allBars.slice(-RANGE_DAYS[range]), [allBars, range]);
   const cascades = useMemo(() => findCascades(bars), [bars]);
   const cascadeTimes = useMemo(() => new Set(cascades.map((c) => c.time)), [cascades]);
 
-  // 캐스케이드 발생일 거래대금 막대는 진하고 불투명한 빨강으로 — 평소 초록/파랑과 확실히 구분
-  const volColor = (b: LeverageBar) => (cascadeTimes.has(b.time) ? COLOR.red : b.changePct >= 0 ? COLOR.green + "55" : COLOR.blue + "55");
+  // 캐스케이드 발생일 거래대금 막대는 진하고 불투명한 빨강 — 평소 막대(상승 연빨강/하락 연파랑, 55 alpha)와 불투명도로 구분
+  const volColor = (b: LeverageBar) => (cascadeTimes.has(b.time) ? COLOR.red : b.changePct >= 0 ? COLOR_UD.up + "55" : COLOR_UD.down + "55");
 
   const latest = bars.length > 0 ? bars[bars.length - 1] : null;
   const latestUnderlying = allUnderlyingBars.length > 0 ? allUnderlyingBars[allUnderlyingBars.length - 1] : null;
@@ -347,7 +349,7 @@ export function LeverageEtfChart({
     );
   }
 
-  const periodColorClass = periodChangePct >= 0 ? "text-accent-green" : "text-accent-blue";
+  const periodColorClass = periodChangePct >= 0 ? "text-up" : "text-down";
 
   return (
     <div className="rounded-2xl bg-gradient-to-b from-bg-card to-bg-card/60 border border-line/40 p-4 md:p-5">

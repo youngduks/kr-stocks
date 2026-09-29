@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
  */
 const FRESH_MS = 5 * 60_000;
 
-function fmtKst(iso: string, locale: "ko" | "en") {
+function fmtKst(iso: string | number, locale: "ko" | "en") {
   try {
     const d = new Date(iso);
     const s = d.toLocaleString(locale === "en" ? "en-US" : "ko-KR", {
@@ -32,7 +32,7 @@ export function AsOf({
   className = "",
 }: {
   /** ISO 시각 */
-  at: string;
+  at: string | number;
   locale?: "ko" | "en";
   /** 추가 설명 (예: "약 2분마다 갱신") */
   note?: string;

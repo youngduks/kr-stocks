@@ -127,7 +127,7 @@ function ChipNav() {
   );
 }
 
-export function Header({ fxRate, fxChange, asOf }: { fxRate: number; fxChange: number; asOf?: string }) {
+export function Header({ fxRate, fxChange, asOf }: { fxRate: number; fxChange: number; asOf?: string | number }) {
   const { isEn } = useIsEn();
   const fxTone = fxChange > 0 ? "text-up" : fxChange < 0 ? "text-down" : "text-text-muted";
   return (

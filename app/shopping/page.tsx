@@ -8,7 +8,8 @@ import { ShoppingList, type DealView } from "./ShoppingList";
 // 백엔드(jubjub_shop_fetcher.py, launchd 2분 주기)가 아르카라이브에서 쿠팡 스토어
 // 딜만 골라 deals.json으로 발행 → jubjub-shop.vercel.app에 정적 배포(30분 주기, 변경 시만).
 // 이 페이지는 그 JSON을 그대로 읽어 kr-stocks.com 자체 스타일로 렌더링.
-const DEALS_SOURCE = "https://jubjub-shop.vercel.app/deals.json";
+// JUBJUB_DEALS_URL: 로컬 검증용 오버라이드(미설정 시 운영 URL).
+const DEALS_SOURCE = process.env.JUBJUB_DEALS_URL || "https://jubjub-shop.vercel.app/deals.json";
 export const revalidate = 300;
 
 type Deal = {
@@ -30,6 +31,14 @@ type Deal = {
   price_ref?: "toss_original" | "danawa_avg" | null;
   affiliate_url?: string;
   chips?: string[];
+  // 폴센트 '최근 2개월 최저가' 행(2026-09-29, 배포 스냅샷에서 merge_fallcent.py가 병합)
+  source?: string;
+  badge?: string;
+  price_krw?: number;
+  low60?: number | null;
+  avg60?: number | null;
+  hist?: [string, number][] | null;
+  img?: string | null;
 };
 
 async function fetchDeals(): Promise<Deal[]> {
@@ -90,6 +99,24 @@ const PRIORITY_GROUPS = new Set(["전자제품", "가전"]);
 // 내려가야 매번 같은 딜이 고정 노출되는 걸 막을 수 있음.
 const PRIORITY_FRESH_DAYS = 3;
 
+// 폴센트 행 → 표시용 필드. 평균 대비 하락률은 avg60이 현재가보다 높을 때만(0% 이하는 숨김).
+function fallcentView(d: Deal): Partial<DealView> {
+  const price = d.price_krw ?? 0;
+  const avg = d.avg60 ?? 0;
+  const hist = Array.isArray(d.hist)
+    ? d.hist.filter((p) => Array.isArray(p) && typeof p[1] === "number" && p[1] > 0)
+    : [];
+  return {
+    lowest60: true,
+    badge: d.badge || "최근 2개월 최저가",
+    img: d.img && d.img.startsWith("https://") ? d.img : undefined,
+    avg60Str: avg > 0 ? `${avg.toLocaleString("ko-KR")}원` : undefined,
+    avgDropPct: avg > 0 && price > 0 && avg > price ? Math.round(((avg - price) / avg) * 100) : undefined,
+    hist: hist.length >= 2 ? hist.map((p) => p[1]) : undefined,
+    histFrom: hist.length >= 2 ? hist[0][0] : undefined,
+  };
+}
+
 export default async function ShoppingPage() {
   const [data, deals] = await Promise.all([fetchAllPrices(), fetchDeals()]);
   const nowSec = Date.now() / 1000;
@@ -116,6 +143,7 @@ export default async function ShoppingPage() {
       affiliate_url: d.affiliate_url,
       timeAgoStr: timeAgo(d.ts),
       catGroup: catGroup(d.cat),
+      ...(d.source === "fallcent" ? fallcentView(d) : {}),
     }));
 
   return (
@@ -143,6 +171,7 @@ export default async function ShoppingPage() {
             </p>
             <p className="text-text-dim text-xs mt-3 leading-relaxed">
               💡 30% 이상 싸면 <span className="text-accent-green font-semibold">📉 지금이 저점</span> 배지가,
+              쿠팡 60일 가격이력상 지금이 최저면 <span className="text-accent-green font-semibold">최근 2개월 최저가</span> 배지가,
               가격오류로 의심될 만큼 비정상적으로 싸면 <span className="text-red-400 font-semibold">🚨 가격오류의심</span> 배지가 붙습니다.
             </p>
           </header>
@@ -156,7 +185,7 @@ export default async function ShoppingPage() {
           )}
 
           <p className="text-[10px] text-text-dim mt-6 leading-relaxed">
-            ※ 딜 출처: 아르카라이브·퀘이사존 핫딜 채널(쿠팡), 토스쇼핑 쉐어링크. 가격·재고는 수시로 변동되니 구매 전 꼭 확인하세요.
+            ※ 딜 출처: 아르카라이브·퀘이사존 핫딜 채널(쿠팡), 토스쇼핑 쉐어링크. 최근 2개월 최저가: 폴센트 60일 가격이력 기준. 가격·재고는 수시로 변동되니 구매 전 꼭 확인하세요.
             "이 가격에 구매하기" 링크는 쿠팡 파트너스 또는 토스쇼핑 쉐어링크 제휴 링크로, 이 링크로 구매 시
             해당 플랫폼으로부터 일정액의 수수료를 제공받습니다.
           </p>

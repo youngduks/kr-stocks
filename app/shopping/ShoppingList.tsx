@@ -19,7 +19,52 @@ export type DealView = {
   affiliate_url?: string;
   timeAgoStr: string;
   catGroup: string; // 가전/육아/식품/전자제품/기타
+  // 폴센트 '최근 2개월 최저가' 행 전용(page.tsx fallcentView에서 계산)
+  lowest60?: boolean;
+  badge?: string;
+  img?: string;
+  avg60Str?: string;
+  avgDropPct?: number;
+  hist?: number[]; // 60일 일별 최저가(≤30점, 오래된→최신)
+  histFrom?: string; // 첫 점 날짜 MM-DD
 };
+
+// 60일 최저가 추이 미니 스파크라인 — 차트 라이브러리 없이 고정 크기 SVG(레이아웃 시프트 없음).
+const SPARK_W = 96;
+const SPARK_H = 28;
+function Sparkline({ values, from }: { values: number[]; from?: string }) {
+  const min = Math.min(...values);
+  const max = Math.max(...values);
+  const pad = 3;
+  const span = max - min || 1;
+  const pts = values.map((v, i) => {
+    const x = pad + (i * (SPARK_W - pad * 2)) / (values.length - 1);
+    const y = pad + ((max - v) * (SPARK_H - pad * 2)) / span;
+    return [Math.round(x * 10) / 10, Math.round(y * 10) / 10] as const;
+  });
+  const [lx, ly] = pts[pts.length - 1];
+  return (
+    <svg
+      width={SPARK_W}
+      height={SPARK_H}
+      viewBox={`0 0 ${SPARK_W} ${SPARK_H}`}
+      className="shrink-0 text-accent-green"
+      role="img"
+      aria-label={`최근 60일 최저가 추이${from ? ` (${from}~)` : ""}`}
+    >
+      <polyline
+        points={pts.map((p) => p.join(",")).join(" ")}
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={1.5}
+        strokeLinejoin="round"
+        strokeLinecap="round"
+        opacity={0.85}
+      />
+      <circle cx={lx} cy={ly} r={2.5} fill="currentColor" />
+    </svg>
+  );
+}
 
 const NOTIFY_SCORE_MIN = 4;
 
@@ -36,12 +81,17 @@ const STORE_TABS = ["전체", "쿠팡", "토스쇼핑"] as const;
 export function ShoppingList({ deals }: { deals: DealView[] }) {
   const [active, setActive] = useState<string>("전체");
   const [activeStore, setActiveStore] = useState<string>("전체");
+  // 📉 최저가: 스토어·카테고리와 별개 축의 토글(켜면 폴센트 60일 최저가 딜만)
+  const [lowOnly, setLowOnly] = useState(false);
+  const lowCount = deals.filter((d) => d.lowest60).length;
 
   // 스토어 탭 개수는 항상 전체 기준(카테고리 선택과 무관하게 "쿠팡 총 몇 건" 보이게)
   const storeCounts: Record<string, number> = { 전체: deals.length, 쿠팡: 0, 토스쇼핑: 0 };
   for (const d of deals) storeCounts[d.store] = (storeCounts[d.store] ?? 0) + 1;
 
-  const storeFiltered = activeStore === "전체" ? deals : deals.filter((d) => d.store === activeStore);
+  const storeFiltered = (activeStore === "전체" ? deals : deals.filter((d) => d.store === activeStore)).filter(
+    (d) => !lowOnly || d.lowest60,
+  );
 
   // 카테고리 탭 개수는 현재 스토어 필터 기준으로 다시 집계(선택된 스토어 안에서 몇 건인지)
   const counts: Record<string, number> = { 전체: storeFiltered.length };
@@ -73,6 +123,21 @@ export function ShoppingList({ deals }: { deals: DealView[] }) {
             </button>
           );
         })}
+        {lowCount > 0 && (
+          <button
+            type="button"
+            onClick={() => setLowOnly((v) => !v)}
+            aria-pressed={lowOnly}
+            className={`px-3 py-1.5 rounded-full text-xs font-semibold transition-colors border ${
+              lowOnly
+                ? "bg-accent-green text-bg border-accent-green"
+                : "bg-bg-card text-text-dim border-line hover:text-text hover:border-text-dim"
+            }`}
+          >
+            📉 최저가
+            <span className={`ml-1 ${lowOnly ? "text-bg/70" : "text-text-dim/60"}`}>{lowCount}</span>
+          </button>
+        )}
       </div>
 
       {/* 카테고리 탭 */}
@@ -126,6 +191,16 @@ export function ShoppingList({ deals }: { deals: DealView[] }) {
                     <span className="text-[10px] font-semibold text-text-dim bg-bg px-1.5 py-0.5 rounded">
                       {d.catGroup}
                     </span>
+                    {d.lowest60 && (
+                      <span className="text-[11px] font-bold text-accent-green bg-accent-green/10 border border-accent-green/30 px-2 py-0.5 rounded-full">
+                        📉 {d.badge ?? "최근 2개월 최저가"}
+                      </span>
+                    )}
+                    {d.lowest60 && d.avgDropPct != null && (
+                      <span className="text-[11px] font-bold text-bg bg-accent-green px-2 py-0.5 rounded-full ml-auto tabular">
+                        ▼{d.avgDropPct}%
+                      </span>
+                    )}
                     {isHot && (
                       <span className="text-[11px] font-bold text-red-400 bg-red-950/40 px-2 py-0.5 rounded-full animate-pulse">
                         🚨 가격오류의심 {d.score}
@@ -137,15 +212,63 @@ export function ShoppingList({ deals }: { deals: DealView[] }) {
                       </span>
                     )}
                   </div>
-                  <div className="text-sm font-semibold text-text leading-snug">{d.product || d.title}</div>
-                  <div className="mt-2 flex flex-wrap items-center gap-2 text-xs">
-                    <span className="text-text-dim">{d.store}</span>
-                    {d.price && <span className="text-accent-amber font-bold">{d.price}</span>}
-                    {d.shipping && (
-                      <span className="text-text-dim bg-bg px-1.5 py-0.5 rounded">{d.shipping}</span>
-                    )}
-                    <span className="ml-auto text-text-dim">{d.timeAgoStr}</span>
-                  </div>
+                  {d.lowest60 ? (
+                    <div className="flex gap-3">
+                      {/* 고정 크기 썸네일(쿠팡 CDN) — 이미지 없거나 실패해도 같은 자리 유지 */}
+                      <div className="w-[72px] h-[72px] shrink-0 rounded-lg overflow-hidden bg-bg border border-line/60">
+                        {d.img && (
+                          // eslint-disable-next-line @next/next/no-img-element
+                          <img
+                            src={d.img}
+                            alt=""
+                            width={72}
+                            height={72}
+                            loading="lazy"
+                            decoding="async"
+                            referrerPolicy="no-referrer"
+                            className="w-full h-full object-cover"
+                          />
+                        )}
+                      </div>
+                      <div className="min-w-0 flex-1">
+                        <div className="text-sm font-semibold text-text leading-snug line-clamp-2">
+                          {d.product || d.title}
+                        </div>
+                        <div className="mt-1.5 flex flex-wrap items-center gap-2 text-xs">
+                          <span className="text-text-dim">{d.store}</span>
+                          {d.price && <span className="text-accent-amber font-bold">{d.price}</span>}
+                          <span className="ml-auto text-text-dim">{d.timeAgoStr}</span>
+                        </div>
+                      </div>
+                    </div>
+                  ) : (
+                    <>
+                      <div className="text-sm font-semibold text-text leading-snug">{d.product || d.title}</div>
+                      <div className="mt-2 flex flex-wrap items-center gap-2 text-xs">
+                        <span className="text-text-dim">{d.store}</span>
+                        {d.price && <span className="text-accent-amber font-bold">{d.price}</span>}
+                        {d.shipping && (
+                          <span className="text-text-dim bg-bg px-1.5 py-0.5 rounded">{d.shipping}</span>
+                        )}
+                        <span className="ml-auto text-text-dim">{d.timeAgoStr}</span>
+                      </div>
+                    </>
+                  )}
+                  {d.lowest60 && (d.hist || (d.avg60Str && d.avgDropPct != null)) && (
+                    <div className="mt-2.5 pt-2 border-t border-line/50 flex items-center gap-3">
+                      <div className="text-xs tabular min-w-0 flex-1">
+                        {d.avg60Str && d.avgDropPct != null ? (
+                          <>
+                            <span className="text-text-dim">60일 평균 {d.avg60Str} 대비</span>{" "}
+                            <span className="text-accent-green font-bold">-{d.avgDropPct}%</span>
+                          </>
+                        ) : (
+                          <span className="text-text-dim">최근 60일 중 최저가</span>
+                        )}
+                      </div>
+                      {d.hist && <Sparkline values={d.hist} from={d.histFrom} />}
+                    </div>
+                  )}
                   {d.market_price && d.discount_pct != null && (
                     <div className="mt-2.5 pt-2 border-t border-line/50 flex items-center gap-2 flex-wrap">
                       <div className="text-xs tabular">
@@ -176,15 +299,18 @@ export function ShoppingList({ deals }: { deals: DealView[] }) {
                     >
                       💰 이 가격에 구매하기
                     </a>
-                    {/* 원문(커뮤니티 게시글) — 댓글로 재고/실황 확인용, 작지만 계속 노출 */}
-                    <a
-                      href={d.link}
-                      target="_blank"
-                      rel="noopener"
-                      className="px-3 flex items-center text-[11px] text-text-dim hover:text-text-muted border-l border-line/60 shrink-0"
-                    >
-                      원문
-                    </a>
+                    {/* 원문(커뮤니티 게시글) — 댓글로 재고/실황 확인용, 작지만 계속 노출.
+                        폴센트 행은 커뮤니티 원문이 없어(link=제휴링크) 숨김. */}
+                    {!d.lowest60 && (
+                      <a
+                        href={d.link}
+                        target="_blank"
+                        rel="noopener"
+                        className="px-3 flex items-center text-[11px] text-text-dim hover:text-text-muted border-l border-line/60 shrink-0"
+                      >
+                        원문
+                      </a>
+                    )}
                   </div>
                 )}
               </div>

@@ -164,8 +164,8 @@ export default async function PollPage() {
           pollId="market-updown-2026-09-29"
           title="인간지표 — 내일 상승 vs 하락"
           question="9/29(화) 한국 증시, 오를까요 내릴까요?"
-          yesLabel="📈 상승"
-          noLabel="📉 하락"
+          yesLabel="▲ 오른다"
+          noLabel="▼ 내린다"
         />
 
         <h2 className="text-lg font-bold text-text mb-3 mt-2">지난 결과</h2>

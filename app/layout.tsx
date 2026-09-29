@@ -73,12 +73,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }}
         />
-        {/* Google AdSense 사이트 소유권 확인 + 광고 로더 (client=ca-pub-5171852166925849) */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5171852166925849"
-          crossOrigin="anonymous"
-        />
+        {/* Google AdSense 사이트 소유권 확인 전용 meta — 광고 로더(adsbygoogle.js)는 전역 로드 X.
+            오클릭/무효트래픽 방지(2026-09): 스크립트는 components/AdSlot 이 수동 슬롯 ID + 프로덕션 도메인일 때만 주입. */}
+        <meta name="google-adsense-account" content="ca-pub-5171852166925849" />
       </head>
       <body className="min-h-screen bg-bg text-text">
         <ThemeProvider>{children}</ThemeProvider>

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Pretendard — self-hosted dynamic subset (unicode-range 청크, 필요한 글자 청크만 다운로드).
+   예전: jsdelivr 풀 variable 1개 파일 2MB 로드 → 이제 페이지당 실사용 청크만.
+   생성: scripts/build-font-subsets.py → public/fonts/pretendard/*.woff2 + app/fonts.css
+   (fonts.css 는 app/layout.tsx 에서 import) */
 @font-face {
   font-family: "Pretendard";
   font-weight: 45 920;
@@ -13,61 +17,93 @@
 /* ──────────────────────────────────────────────
    Theme tokens — RGB triplet (Tailwind opacity modifier 지원)
      rgb(var(--bg) / <alpha-value>)  →  bg-bg-card/70 활성
+   2026-09 리디자인 Phase A: krstocks_redesign/mockups/tokens.css 값으로 교체.
+   한국 관례: 상승 = 빨강(--up) / 하락 = 파랑(--down). 초록(--accent-green / --live)은 '실시간/정상' 상태 전용.
    ─────────────────────────────────────────────── */
 
-/* DARK (기본 — Toss-style) */
+/* DARK */
 :root,
 [data-theme="dark"] {
-  --bg:        21 24 29;     /* #15181D */
-  --bg-card:   31 35 43;     /* #1F232B */
-  --bg-hover:  38 43 53;     /* #262B35 */
-  --line:      46 52 63;     /* #2E343F */
-  --text:      230 232 235;  /* #E6E8EB */
-  --text-muted:139 149 161;  /* #8B95A1 */
-  --text-dim:  92 99 112;    /* #5C6370 */
-  --accent-blue:   49 130 246;  /* #3182F6 */
-  --accent-green:  31 174 111;  /* #1FAE6F */
-  --accent-red:    225 75 75;   /* #E14B4B */
+  --bg:        15 17 21;     /* #0F1115 */
+  --bg-card:   24 27 33;     /* #181B21 */
+  --bg-hover:  31 35 42;     /* #1F232A (tile / card2) */
+  --line:      42 47 55;     /* #2A2F37 */
+  --text:      233 235 240;  /* #E9EBF0 */
+  --text-muted:163 171 184;  /* #A3ABB8 (sub) */
+  --text-dim:  107 116 132;  /* #6B7484 */
+  --accent-blue:   91 143 240;  /* #5B8FF0 */
+  --accent-green:  34 197 94;   /* #22C55E — live 전용 */
+  --accent-red:    255 90 85;   /* #FF5A55 */
   --accent-amber:  244 166 35;  /* #F4A623 */
   --accent-purple: 157 125 236; /* #9D7DEC */
+  --up:        255 90 85;    /* #FF5A55 */
+  --up-bg:     43 23 23;     /* #2B1717 */
+  --down:      91 143 240;   /* #5B8FF0 */
+  --down-bg:   21 32 58;     /* #15203A */
+  --flat:      154 163 178;  /* #9AA3B2 */
+  --flat-bg:   35 39 47;     /* #23272F */
+  --hl:        74 62 28;     /* #4A3E1C */
+  --live:      34 197 94;    /* #22C55E */
+  --warn:      244 166 35;   /* #F4A623 */
+  --warn-bg:   46 36 18;     /* #2E2412 */
+  --ink:       233 235 240;  /* #E9EBF0 */
+  --on-ink:    17 19 24;     /* #111318 */
+  --ad-bg:     26 29 35;     /* #1A1D23 */
+  --ad-line:   46 51 60;     /* #2E333C */
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.3);
   --scrollbar-thumb:       46 52 63;
   --scrollbar-thumb-hover: 58 65 80;
-  --live-glow: 31 174 111;
+  --live-glow: 34 197 94;
   color-scheme: dark;
 }
 
-/* LIGHT (한국 retail · 네이버 금융 친화) */
+/* LIGHT */
 [data-theme="light"] {
-  --bg:        247 248 250;  /* #F7F8FA — Toss 라이트 톤 */
+  --bg:        244 245 247;  /* #F4F5F7 */
   --bg-card:   255 255 255;  /* #FFFFFF */
-  --bg-hover:  242 244 246;  /* #F2F4F6 */
-  --line:      229 232 235;  /* #E5E8EB */
-  --text:      25 31 40;     /* #191F28 — Toss black */
-  --text-muted:78 89 104;    /* #4E5968 */
+  --bg-hover:  246 247 249;  /* #F6F7F9 (tile / card2) */
+  --line:      232 234 237;  /* #E8EAED */
+  --text:      21 24 29;     /* #15181D */
+  --text-muted:78 89 104;    /* #4E5968 (sub) */
   --text-dim:  139 149 161;  /* #8B95A1 */
-  --accent-blue:   49 130 246;  /* #3182F6 (Toss blue 유지) */
-  --accent-green:  22 163 74;   /* #16A34A — 라이트 진한 톤 */
-  --accent-red:    220 38 38;   /* #DC2626 */
+  --accent-blue:   47 111 224;  /* #2F6FE0 */
+  --accent-green:  22 163 74;   /* #16A34A — live 전용 */
+  --accent-red:    224 52 47;   /* #E0342F */
   --accent-amber:  217 119 6;   /* #D97706 */
   --accent-purple: 124 58 237;  /* #7C3AED */
+  --up:        224 52 47;    /* #E0342F */
+  --up-bg:     253 238 238;  /* #FDEEEE */
+  --down:      47 111 224;   /* #2F6FE0 */
+  --down-bg:   234 241 253;  /* #EAF1FD */
+  --flat:      107 118 132;  /* #6B7684 */
+  --flat-bg:   238 240 243;  /* #EEF0F3 */
+  --hl:        255 239 184;  /* #FFEFB8 */
+  --live:      22 163 74;    /* #16A34A */
+  --warn:      217 119 6;    /* #D97706 */
+  --warn-bg:   255 244 224;  /* #FFF4E0 */
+  --ink:       21 24 29;     /* #15181D */
+  --on-ink:    255 255 255;  /* #FFFFFF */
+  --ad-bg:     238 240 243;  /* #EEF0F3 */
+  --ad-line:   213 217 223;  /* #D5D9DF */
+  --shadow: 0 1px 2px rgba(17,19,24,.04), 0 6px 18px rgba(17,19,24,.05);
   --scrollbar-thumb:       209 214 219;
   --scrollbar-thumb-hover: 176 184 193;
   --live-glow: 22 163 74;
   color-scheme: light;
 }
 
-/* theme toggle smooth transition (첫 paint 후) */
 html, body {
   background: rgb(var(--bg));
   color: rgb(var(--text));
   font-feature-settings: "tnum" 1, "ss01" 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
   transition: background-color 0.18s ease, color 0.18s ease;
 }
 
 body {
-  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", system-ui, sans-serif;
 }
 
 ::-webkit-scrollbar { width: 8px; height: 8px; }
@@ -75,10 +111,58 @@ body {
 ::-webkit-scrollbar-thumb { background: rgb(var(--scrollbar-thumb)); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: rgb(var(--scrollbar-thumb-hover)); }
 
-.tabular { font-variant-numeric: tabular-nums; }
+.tabular, .num { font-variant-numeric: tabular-nums; }
+.num { letter-spacing: -0.02em; }
 
 /* Toss-style hover lift */
 .card-lift {
   transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
 }
 .card-lift:hover { transform: translateY(-2px); }
+
+/* ── Design system (Phase A) ───────────────────── */
+@layer components {
+  .ds-card { background: rgb(var(--bg-card)); border-radius: 20px; box-shadow: var(--shadow); padding: 20px; }
+  .ds-tile { background: rgb(var(--bg-hover)); border-radius: 14px; padding: 14px; }
+  .ds-eyebrow { font-size: 13px; line-height: 1.4; font-weight: 700; color: rgb(var(--text-muted)); }
+  .ds-status { font-size: 24px; line-height: 1.3; font-weight: 800; letter-spacing: -0.03em; }
+  .ds-h2 { font-size: 19px; line-height: 1.35; font-weight: 800; letter-spacing: -0.02em; }
+  .ds-explain { font-size: 15px; line-height: 1.6; color: rgb(var(--text-muted)); }
+  .ds-meta { font-size: 12px; line-height: 1.5; color: rgb(var(--text-dim)); }
+  .ds-hl { background: linear-gradient(transparent 58%, rgb(var(--hl)) 58%); padding: 0 2px; }
+  .ds-pill { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 700; border-radius: 999px; padding: 4px 10px; white-space: nowrap; }
+  .ds-pill-up { background: rgb(var(--up-bg)); color: rgb(var(--up)); }
+  .ds-pill-down { background: rgb(var(--down-bg)); color: rgb(var(--down)); }
+  .ds-pill-flat { background: rgb(var(--flat-bg)); color: rgb(var(--flat)); }
+  .ds-pill-warn { background: rgb(var(--warn-bg)); color: rgb(var(--warn)); }
+  .ds-chip { flex: none; height: 40px; padding: 0 16px; border-radius: 999px; background: rgb(var(--bg-card)); box-shadow: var(--shadow);
+    display: inline-flex; align-items: center; font-size: 15px; font-weight: 600; color: rgb(var(--text-muted)); white-space: nowrap; }
+  .ds-chip[aria-current="page"] { background: rgb(var(--ink)); color: rgb(var(--on-ink)); }
+  .ds-iconbtn { width: 44px; height: 44px; border-radius: 999px; background: rgb(var(--bg-card)); box-shadow: var(--shadow);
+    display: grid; place-items: center; font-size: 15px; font-weight: 700; color: rgb(var(--text)); flex: none; }
+  .ds-live-dot { width: 8px; height: 8px; border-radius: 99px; display: inline-block; background: rgb(var(--live));
+    box-shadow: 0 0 0 3px rgb(var(--live) / 0.25); flex: none; }
+  .ds-idle-dot { width: 8px; height: 8px; border-radius: 99px; display: inline-block; background: rgb(var(--text-dim)); flex: none; }
+  .ds-row { display: flex; align-items: center; gap: 12px; min-height: 64px; padding: 8px 0; border-bottom: 1px solid rgb(var(--line)); }
+  .ds-row:last-child { border-bottom: 0; }
+
+  /* <details> 기반 '조금 더' */
+  details.ds-more { border-top: 1px solid rgb(var(--line)); margin-top: 16px; }
+  details.ds-more > summary { list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 12px;
+    min-height: 48px; font-size: 15px; font-weight: 700; color: rgb(var(--text)); cursor: pointer; }
+  details.ds-more > summary::-webkit-details-marker { display: none; }
+  details.ds-more > summary::after { content: "+"; font-size: 20px; color: rgb(var(--text-dim)); }
+  details.ds-more[open] > summary::after { content: "−"; }
+
+  /* 가로 스크롤 칩 네비 — 스크롤바 숨김 + 오른쪽 페이드 힌트 */
+  .ds-chipnav { scrollbar-width: none; }
+  .ds-chipnav::-webkit-scrollbar { display: none; }
+  .ds-fade-right { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent);
+    mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); }
+
+  /* 광고 슬롯 — 고정 높이, '광고' 라벨, 상하 32px 완충 + 구분선 */
+  .ds-ad { margin: 32px 0; padding: 10px 0 14px; border-top: 1px solid rgb(var(--ad-line)); border-bottom: 1px solid rgb(var(--ad-line)); }
+  .ds-ad-label { font-size: 11px; font-weight: 600; color: rgb(var(--text-dim)); letter-spacing: .04em; margin-bottom: 8px; }
+  .ds-ad-box { background: rgb(var(--ad-bg)); border: 1px dashed rgb(var(--ad-line)); border-radius: 10px; display: grid; place-items: center;
+    color: rgb(var(--text-dim)); font-size: 12px; overflow: hidden; margin: 0 auto; max-width: 100%; }
+}

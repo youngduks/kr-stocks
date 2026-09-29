@@ -105,107 +105,105 @@ export function PollWidget({
     }
   }
 
-  if (!result) {
-    return (
-      <div className="rounded-xl bg-bg-card border border-line p-4 mb-6 text-sm text-text-dim">
-        🗳️ 투표 위젯 불러오는 중...
-      </div>
-    );
-  }
-
-  const total = result.total;
-  const yesPct = total > 0 ? Math.round((result.yes / total) * 100) : 0;
+  // ── 높이 고정 설계 (2026-09 Phase A) ──
+  // loading / 투표 전 / 투표 후 / 마감 — 모든 상태에서 같은 DOM 골격 + 고정 높이 영역만 내용 교체.
+  //  ① 선택 타일 2개 (h-56): 투표 전 = 버튼, 투표 후·마감 = 같은 크기 결과 타일(%·표)
+  //  ② 분포 바 (h-2): 한 줄 split bar
+  //  ③ 메타 한 줄 (h-[18px], truncate): 마감시각 / 마감 안내 / 에러
+  // → 광고·다른 섹션이 투표 중 밀리지 않음(CLS 0, 오클릭 방지).
+  const loaded = !!result;
+  const total = result?.total ?? 0;
+  const yesPct = total > 0 ? Math.round(((result?.yes ?? 0) / total) * 100) : 0;
   const noPct = total > 0 ? 100 - yesPct : 0;
-  const voted = result.voted;
-  const isClosed = result.isClosed;
-  const showResults = !!voted || isClosed || total > 0;
-  const closeStr = formatCloseDate(result.closedAt);
+  const voted = result?.voted ?? null;
+  const isClosed = result?.isClosed ?? false;
+  const showResults = loaded && (!!voted || isClosed);
+  const closeStr = result ? formatCloseDate(result.closedAt) : "";
+  const canVote = loaded && !voted && !isClosed && !loading;
+
+  const metaLine = err
+    ? err
+    : !loaded
+      ? "투표 불러오는 중…"
+      : isClosed
+        ? "투표 마감 — 결과만 표시 · 장 마감 후 자동 채점"
+        : voted
+          ? `투표 완료${closeStr ? ` · ${closeStr} 마감` : ""} · 결과는 장 마감 후 자동 채점`
+          : `${closeStr ? `${closeStr} 마감 · ` : ""}결과는 장 마감 후 자동 채점`;
+
+  const tile = (choice: PollChoice) => {
+    const isYes = choice === "yes";
+    const label = isYes ? yesLabel : noLabel;
+    const tone = isYes ? "bg-up-bg text-up" : "bg-down-bg text-down";
+    const mine = voted === choice;
+    const pct = isYes ? yesPct : noPct;
+    const cnt = isYes ? result?.yes ?? 0 : result?.no ?? 0;
+    if (showResults) {
+      return (
+        <div
+          className={`h-14 rounded-2xl ${tone} flex items-center justify-between px-4 ${
+            mine ? "ring-2 ring-current" : "opacity-80"
+          }`}
+          aria-label={`${label} ${pct}% ${cnt}표${mine ? " (내 투표)" : ""}`}
+        >
+          <span className="text-[15px] font-extrabold truncate">
+            {label}
+            {mine ? " ✓" : ""}
+          </span>
+          <span className="num text-[15px] font-extrabold shrink-0">
+            {pct}%<span className="text-[12px] font-bold opacity-80 ml-1">{cnt}표</span>
+          </span>
+        </div>
+      );
+    }
+    return (
+      <button
+        type="button"
+        onClick={() => castVote(choice)}
+        disabled={!canVote}
+        className={`h-14 rounded-2xl ${tone} text-[17px] font-extrabold transition disabled:opacity-60`}
+      >
+        {label}
+      </button>
+    );
+  };
 
   return (
-    <div className="rounded-xl bg-bg-card border border-line p-4 mb-6">
-      <div className="mb-3">
-        <div className="flex items-baseline justify-between gap-3 flex-wrap mb-1">
-          <div className="text-base font-bold text-text">🗳️ {title}</div>
-          <div className="text-[11px] text-text-dim">
-            재미로 ㅎ · {total}명 참여
-            {closeStr && !isClosed ? ` · ${closeStr} 마감` : ""}
-          </div>
-        </div>
-        <div className="text-sm text-text-muted">{question}</div>
+    <section className="ds-card mb-6" aria-busy={!loaded}>
+      <div className="flex items-center justify-between gap-3">
+        <div className="ds-eyebrow truncate">{title}</div>
+        <span className="ds-pill ds-pill-flat num shrink-0">{loaded ? `${total}명 참여` : "— 명 참여"}</span>
+      </div>
+      <h2 className="ds-h2 mt-2">{question}</h2>
+
+      <div className="grid grid-cols-2 gap-3 mt-4">
+        {tile("yes")}
+        {tile("no")}
       </div>
 
-      {!voted && !isClosed && (
-        <div className="grid grid-cols-2 gap-3 mb-3">
-          <button
-            onClick={() => castVote("yes")}
-            disabled={loading}
-            className="rounded-lg border border-line bg-bg py-3 text-sm font-bold text-text disabled:opacity-50 hover:border-text-muted transition"
-          >
-            {yesLabel}
-          </button>
-          <button
-            onClick={() => castVote("no")}
-            disabled={loading}
-            className="rounded-lg border border-line bg-bg py-3 text-sm font-bold text-text disabled:opacity-50 hover:border-text-muted transition"
-          >
-            {noLabel}
-          </button>
-        </div>
-      )}
+      {/* 분포 바 — 항상 같은 높이. 투표 전엔 결과를 숨겨 쏠림 방지(회색 바). */}
+      <div className="mt-3 h-2 w-full rounded-full bg-flat-bg overflow-hidden flex" aria-hidden="true">
+        {showResults && total > 0 && (
+          <>
+            <div className="h-full bg-up transition-all" style={{ width: `${yesPct}%` }} />
+            <div className="h-full bg-down transition-all" style={{ width: `${noPct}%` }} />
+          </>
+        )}
+      </div>
 
-      {showResults && (
-        <div className="space-y-2">
-          <div>
-            <div className="flex items-center justify-between text-xs text-text-muted mb-1">
-              <span className={voted === "yes" ? "font-bold text-text" : ""}>
-                {yesLabel}{voted === "yes" ? " (투표함)" : ""}
-              </span>
-              <span>
-                {yesPct}% · {result.yes}표
-              </span>
-            </div>
-            <div className="w-full h-2 rounded-full bg-bg overflow-hidden">
-              <div
-                className="h-full bg-green-500 transition-all"
-                style={{ width: `${yesPct}%` }}
-              />
-            </div>
-          </div>
-          <div>
-            <div className="flex items-center justify-between text-xs text-text-muted mb-1">
-              <span className={voted === "no" ? "font-bold text-text" : ""}>
-                {noLabel}{voted === "no" ? " (투표함)" : ""}
-              </span>
-              <span>
-                {noPct}% · {result.no}표
-              </span>
-            </div>
-            <div className="w-full h-2 rounded-full bg-bg overflow-hidden">
-              <div
-                className="h-full bg-red-500 transition-all"
-                style={{ width: `${noPct}%` }}
-              />
-            </div>
-          </div>
-          {isClosed && (
-            <div className="text-[11px] text-text-dim mt-2">
-              투표 마감 — 결과만 표시
-            </div>
-          )}
-        </div>
-      )}
-
-      {err && <div className="text-[11px] text-red-500 mt-2">{err}</div>}
+      <div className={`mt-2 h-[18px] text-[12px] leading-[18px] truncate ${err ? "text-up" : "text-text-dim"}`}>
+        {metaLine}
+      </div>
 
       {historyHref && (
         <Link
           href={historyHref as any}
           prefetch={false}
-          className="mt-3 inline-block text-[11px] text-text-dim hover:text-text-muted transition"
+          className="mt-3 inline-flex items-center min-h-[32px] text-[13px] font-bold text-text-muted hover:text-text transition"
         >
-          📊 지난 투표 결과 · 적중률 보기 →
+          지난 투표 결과 · 적중률 보기 ›
         </Link>
       )}
-    </div>
+    </section>
   );
 }

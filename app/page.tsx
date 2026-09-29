@@ -11,7 +11,7 @@ import { PersonCardCompact } from "@/components/PersonCard";
 import { getHumanIndicators } from "@/lib/humanIndicators";
 import AffiliateStrip from "@/components/AffiliateStrip";
 import { fetchSemiSignal } from "@/lib/semiSignal";
-import { KakaoAdFit } from "@/components/KakaoAdFit";
+import { AdSlot } from "@/components/AdSlot";
 
 export const revalidate = 120; // ISR 캐시 30s → 120s (Free tier 최적화, 5/25)
 
@@ -72,14 +72,10 @@ export default async function Home() {
           pollId="market-updown-2026-09-29"
           title="인간지표 — 내일 상승 vs 하락"
           question="9/29(화) 한국 증시, 오를까요 내릴까요?"
-          yesLabel="📈 상승"
-          noLabel="📉 하락"
+          yesLabel="▲ 오른다"
+          noLabel="▼ 내린다"
           historyHref="/poll"
         />
-
-        {/* 카카오 AdFit 배너 — 같은 자리에서 모바일/PC 유닛 반응형 전환 */}
-        <KakaoAdFit unit="DAN-sRrDqAryVxJFyyGr" width={320} height={50} className="flex md:hidden" />
-        <KakaoAdFit unit="DAN-1gxi6c73rjhTXT18" width={728} height={90} className="hidden md:flex" />
 
         {grouped.map(({ cat, label, rows }) => (
           <div key={cat}>
@@ -99,6 +95,15 @@ export default async function Home() {
 
             {/* 한국주식 종합 분석 — '한국 주식' 섹션 바로 밑 (형님 지시 7/2) */}
             {cat === "korea" && <HomeHero rows={data.symbols} locale="ko" />}
+
+            {/* 광고 — 섹션 경계(한국주식 분석 ↓), 첫 화면 밖, 투표 위젯과 분리. AdFit 유닛 ID 유지 */}
+            {cat === "korea" && (
+              <AdSlot
+                adsenseSlot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_HOME}
+                adfitMobile={{ unit: "DAN-sRrDqAryVxJFyyGr", width: 320, height: 50 }}
+                adfitDesktop={{ unit: "DAN-1gxi6c73rjhTXT18", width: 728, height: 90 }}
+              />
+            )}
           </div>
         ))}
 

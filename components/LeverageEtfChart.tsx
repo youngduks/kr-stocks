@@ -343,7 +343,7 @@ export function LeverageEtfChart({
 
   if (allBars.length === 0) {
     return (
-      <div className="rounded-2xl bg-bg-card border border-line/40 p-6 text-center">
+      <div className="ds-card text-center">
         <div className="text-sm text-text-dim">{label} 데이터를 불러올 수 없습니다.</div>
       </div>
     );
@@ -352,19 +352,19 @@ export function LeverageEtfChart({
   const periodColorClass = periodChangePct >= 0 ? "text-up" : "text-down";
 
   return (
-    <div className="rounded-2xl bg-gradient-to-b from-bg-card to-bg-card/60 border border-line/40 p-4 md:p-5">
+    <div className="ds-card">
       <div className="flex items-center justify-between mb-3 gap-2 flex-wrap">
         <div className="min-w-0">
           <div className="text-sm font-bold text-text truncate">{label}</div>
-          <div className="text-[10px] text-text-dim">코스피 · 2배 레버리지</div>
+          <div className="text-[12px] text-text-dim">코스피 · 2배 레버리지</div>
         </div>
-        <div className="inline-flex bg-bg-hover/60 rounded-full p-0.5 shrink-0">
+        <div className="inline-flex bg-bg-hover rounded-full p-1 shrink-0">
           {(["1M", "3M"] as Range[]).map((r) => (
             <button
               key={r}
               onClick={() => setRange(r)}
               aria-pressed={range === r}
-              className={`px-3 py-1 rounded-full text-[11px] font-bold transition-all ${
+              className={`px-3.5 min-h-[36px] rounded-full text-[13px] font-bold transition-all ${
                 range === r ? "bg-text text-bg shadow-sm" : "text-text-dim hover:text-text-muted"
               }`}
             >
@@ -385,12 +385,12 @@ export function LeverageEtfChart({
             </span>
           </div>
           {latestUnderlying && (
-            <div className="text-[10px] text-text-dim mt-0.5">
+            <div className="text-[12px] text-text-dim mt-0.5">
               {underlyingLabel} {fmtPrice(latestUnderlying.price)}
             </div>
           )}
         </div>
-        <div className="flex flex-col items-end gap-1 text-[10px] text-text-dim shrink-0">
+        <div className="flex flex-col items-end gap-1 text-[12px] text-text-dim shrink-0">
           <span className="inline-flex items-center gap-1">
             <span className="inline-block w-3 h-[2px]" style={{ backgroundColor: COLOR.amber }} />
             {label}(등락률)
@@ -414,8 +414,8 @@ export function LeverageEtfChart({
       {cascades.length > 0 ? (
         <>
           {/* 발생 시점 강조 — 차트만으론 놓치기 쉬워 날짜를 명시적으로 나열 */}
-          <div className="mt-3 p-3 rounded-xl bg-accent-red/10 border border-accent-red/30">
-            <div className="text-xs font-bold mb-2" style={{ color: COLOR.red }}>
+          <div className="mt-3 ds-tile" style={{ background: "rgb(var(--warn-bg))" }}>
+            <div className="text-[13px] font-bold mb-2 text-warn">
               🚨 패닉셀 캐스케이드 발생 시점
             </div>
             <div className="space-y-1.5">
@@ -423,23 +423,23 @@ export function LeverageEtfChart({
                 .slice()
                 .sort((a, b) => a.time - b.time)
                 .map((c) => (
-                  <div key={c.time} className="flex items-center justify-between gap-2 text-xs">
+                  <div key={c.time} className="flex items-center justify-between gap-2 text-[13px]">
                     <span className="text-text font-semibold tabular">{kstFullDateFormatter(c.time)}</span>
-                    <span className="font-bold tabular shrink-0" style={{ color: COLOR.red }}>
+                    <span className="font-bold tabular shrink-0 text-down">
                       {c.changePct.toFixed(1)}%
                     </span>
                   </div>
                 ))}
             </div>
           </div>
-          <p className="mt-2 text-[10px] text-text-dim leading-relaxed">
+          <p className="mt-2 text-[12px] text-text-dim leading-relaxed">
             하루 만에 {Math.abs(CASCADE_DROP_THRESHOLD_PCT)}% 이상 급락한 날. 2배 레버리지 상품 특성상
             반대매매·손절이 몰렸을 가능성이 높은 실물 증거입니다. 점선(본주)과 실선(ETF)의 등락률 차이가
             레버리지 증폭·괴리 정도입니다. 예측 신호가 아닌 과거 이벤트 표시입니다.
           </p>
         </>
       ) : (
-        <p className="mt-2 text-[10px] text-text-dim leading-relaxed">
+        <p className="mt-2 text-[12px] text-text-dim leading-relaxed">
           이 구간엔 하루 {Math.abs(CASCADE_DROP_THRESHOLD_PCT)}% 이상 급락한 날이 없습니다.
         </p>
       )}

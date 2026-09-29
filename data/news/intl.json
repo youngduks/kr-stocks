@@ -1,8 +1,78 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-29T16:11:24.671Z",
-  "count": 13,
+  "updated_at": "2026-09-29T21:07:26.462Z",
+  "count": 17,
   "items": [
+    {
+      "title": "AI CEO들 소집한 트럼프, 정부 새 규제 선긋고 자율규제에 맡겨",
+      "link": "https://www.yna.co.kr/view/AKR20260930004700071",
+      "source": "연합뉴스 국제",
+      "ts": 1790714792000,
+      "pub": "Wed, 30 Sep 2026 05:46:32 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 인간 통제를 완전히 벗어난 인공지능(AI) 출현 가능성에 대한 경고음에도 불구...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/30/AKR20260930004700071_01_i_P2.jpg"
+    },
+    {
+      "title": "트럼프 \"내가 있는한 김정은 괜찮아…상당한 핵능력 가진 친구\"",
+      "link": "https://www.yna.co.kr/view/AKR20260930006600071",
+      "source": "연합뉴스 국제",
+      "ts": 1790713847000,
+      "pub": "Wed, 30 Sep 2026 05:30:47 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 29일(현지시간) 북한 김정은 국무위원장과의 친분을 강조하면서 북한이 핵능력을...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/30/AKR20260930006600071_01_i_P2.jpg"
+    },
+    {
+      "title": "[속보] 트럼프 \"내가 있는 한 북한 김정은은 괜찮을 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20260930006000071",
+      "source": "연합뉴스 국제",
+      "ts": 1790712041000,
+      "pub": "Wed, 30 Sep 2026 05:00:41 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
+    },
+    {
+      "title": "네타냐후, '하마스 기습 경고 묵살' 보도 언론사 무더기 고소",
+      "link": "https://www.yna.co.kr/view/AKR20260930005500079",
+      "source": "연합뉴스 국제",
+      "ts": 1790710772000,
+      "pub": "Wed, 30 Sep 2026 04:39:32 +0900",
+      "sentiment": "negative",
+      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 2023년 10월 7일 하마스의 기습경고 관련 사전 경고를 받고도 이를 묵살했다는 폭로로 궁지에 몰린 베냐...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/30/AKR20260930005500079_01_i_P2.jpg"
+    },
+    {
+      "title": "하마스·PIJ, 파타당 축출 인사와 '反 아바스' 선거 연대",
+      "link": "https://www.yna.co.kr/view/AKR20260930004200079",
+      "source": "연합뉴스 국제",
+      "ts": 1790708961000,
+      "pub": "Wed, 30 Sep 2026 04:09:21 +0900",
+      "sentiment": "neutral",
+      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 대이스라엘 무장투쟁을 주도해온 팔레스타인 무장정파 하마스와 이슬라믹지하드(PIJ)가 마무드 아바스 팔레스타...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/30/AKR20260930004200079_01_i_P2.jpg"
+    },
+    {
+      "title": "트럼프, 美정부 AI챗봇 출시…\"슈퍼지능 가능성 예고편 불과\"",
+      "link": "https://www.yna.co.kr/view/AKR20260930002000071",
+      "source": "연합뉴스 국제",
+      "ts": 1790702419000,
+      "pub": "Wed, 30 Sep 2026 02:20:19 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 29일(현지시간) 인공지능(AI)을 활용한 미국 연방정부의 챗봇 웹사이트 '아...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/30/AKR20260930002000071_01_i_P2.jpg"
+    },
+    {
+      "title": "크렘린궁 \"시진핑, APEC서 미중러 3자회담 추진할 듯\"",
+      "link": "https://www.yna.co.kr/view/AKR20260930001800108",
+      "source": "연합뉴스 국제",
+      "ts": 1790698725000,
+      "pub": "Wed, 30 Sep 2026 01:18:45 +0900",
+      "sentiment": "neutral",
+      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 시진핑 중국 국가주석이 내달 자국에서 열리는 아시아태평양경제협력체(APEC) 정상회의를 계기로 미국·중국...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/24/PAP20260924268301009_P2.jpg"
+    },
     {
       "title": "트럼프, 7개월 이란전에 또 \"짧은 소풍\"…\"곧 끝나고 유가급락\"",
       "link": "https://www.yna.co.kr/view/AKR20260930000700071",
@@ -102,36 +172,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 임화섭 기자 = 유럽연합(EU) 내부에서 미국의 국제형사재판소(ICC) 제재령에 반기를 들면서 이를 자동 적용하지 못하도록 차...",
       "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/23/PEP20260923134401009_P2.jpg"
-    },
-    {
-      "title": "미 연준 쿡 이사 \"몇달간 인플레이션 압력 지속될 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20260929017000009",
-      "source": "연합뉴스 국제",
-      "ts": 1790639056000,
-      "pub": "Tue, 29 Sep 2026 08:44:16 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 설원태 기자 = 리사 쿡 미국 연방준비제도(Fed·연준) 이사는 인공지능(AI) 관련 수요와 유가 상승으로 인해 앞으로 몇 달...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/29/AKR20260929017000009_01_i_P2.jpg"
-    },
-    {
-      "title": "교황, AI 인류위협론 \"가짜뉴스 아냐\"…트럼프 주장에 정면 반박",
-      "link": "https://www.yna.co.kr/view/AKR20260929016800009",
-      "source": "연합뉴스 국제",
-      "ts": 1790636546000,
-      "pub": "Tue, 29 Sep 2026 08:02:26 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김아람 기자 = 레오 14세 교황이 인공지능(AI)의 안전을 둘러싼 우려가 가짜 뉴스가 아니며 진지하게 대응 방안을 논의해야 ...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/29/PAF20260929063501009_P2.jpg"
-    },
-    {
-      "title": "\"트럼프, 이란이 구체적 '핵양보' 하면 제재 완화 의향\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20260929006151071",
-      "source": "연합뉴스 국제",
-      "ts": 1790632776000,
-      "pub": "Tue, 29 Sep 2026 06:59:36 +0900",
-      "sentiment": "negative",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령은 이란이 핵프로그램과 관련해 구체적인 조치를 내놓으면 제재 완화나 동결자금 해제...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/09/29/PAP20260929072201009_P2.jpg"
     }
   ]
 }

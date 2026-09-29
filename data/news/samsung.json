@@ -1,7 +1,7 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-29T16:11:24.673Z",
-  "count": 8,
+  "updated_at": "2026-09-29T21:07:26.465Z",
+  "count": 6,
   "items": [
     {
       "title": "마이크론 순익 940% 폭증 예상…메모리 '정점론'잠재울까",
@@ -25,14 +25,6 @@
       "source": "한국경제",
       "ts": 1790686281000,
       "pub": "Tue, 29 Sep 2026 21:51:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "이재용·최태원·젠슨 황, 맨해튼서 'AI동맹' 과시",
-      "link": "https://www.hankyung.com/article/2026092928231",
-      "source": "한국경제",
-      "ts": 1790674678000,
-      "pub": "Tue, 29 Sep 2026 18:37:58 +0900",
       "sentiment": "neutral"
     },
     {
@@ -64,16 +56,6 @@
       "sentiment": "neutral",
       "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 젠슨 황 엔비디아 최고경영자(CEO)와 이재용 삼성전자 회장, 최태원 SK그룹 회장이 28일(현지시간) 미국...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/29/AKR20260929050200072_01_i_P2.jpg"
-    },
-    {
-      "title": "젠슨 황, '한미관계 기여' 밴플리트상…이재용·최태원도 한자리",
-      "link": "https://www.yna.co.kr/view/AKR20260929003100072",
-      "source": "연합뉴스 국제",
-      "ts": 1790632802000,
-      "pub": "Tue, 29 Sep 2026 07:00:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 젠슨 황 엔비디아 최고경영자(CEO)가 한미 관계에 기여한 인사들에게 수여하는 '밴 플리트상'을 받았다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2025/08/26/PYH2025082605270001300_P2.jpg"
     }
   ]
 }

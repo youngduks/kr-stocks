@@ -5,6 +5,7 @@ import Link from "next/link";
 import type { ConsensusData } from "@/lib/consensus";
 import { useTheme } from "./ThemeProvider";
 import { CHART_UPDOWN } from "@/lib/colors";
+import { TargetRangeCard } from "./ui/TargetRangeCard";
 
 export type Locale = "ko" | "en";
 
@@ -127,187 +128,87 @@ export function ConsensusView({
     : CHART_UPDOWN[theme === "light" ? "light" : "dark"].down;
 
   return (
-    <div className="space-y-6">
-      {/* 종목 토글 */}
-      <div className="flex flex-wrap gap-2">
+    <div className="space-y-4">
+      {/* 종목 토글 — 칩 */}
+      <div className="flex gap-2 overflow-x-auto ds-chipnav -mx-4 px-4 py-2 -my-2" role="tablist">
         {all.map((cd) => {
           const isActive = cd.slug === activeSlug;
           const label = locale === "en" ? cd.name_en : cd.name_ko;
           return (
             <button
               key={cd.slug}
+              type="button"
+              role="tab"
+              aria-selected={isActive}
+              aria-current={isActive ? "page" : undefined}
               onClick={() => setActiveSlug(cd.slug)}
-              className={`px-4 py-2 rounded-xl border transition text-sm font-semibold ${
-                isActive
-                  ? "bg-text text-bg border-text"
-                  : "bg-bg-card text-text-muted border-line hover:border-accent-blue/40 hover:text-text"
-              }`}
+              className="ds-chip"
             >
               {label}
-              <span className="ml-2 text-[10px] opacity-70 font-medium tabular">
-                {cd.ticker}
-              </span>
+              <span className="ml-2 text-[12px] opacity-70 font-medium num">{cd.ticker}</span>
             </button>
           );
         })}
       </div>
 
-      {/* 메타 헤더 */}
-      <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-2">
-        <div>
-          <h2 className="text-2xl sm:text-3xl font-bold text-text tracking-tight">
-            {displayName}
-          </h2>
-          <p className="text-xs text-text-dim mt-1">
-            {t.source}: {t.naverResearch} · {t.updated} {fmtUpdated(active.updated_at, locale)} KST
-          </p>
+      {/* 상태 카드 — 목표가까지 +N% · 52주 최저~지금~목표가 바 · 쉬운 해석 */}
+      <TargetRangeCard data={active} locale={locale} />
+
+      {/* 평균목표가 추이 — 네이버 스냅샷이 매 평일 쌓은 실측 시계열 */}
+      <div className="ds-card">
+        <div className="ds-eyebrow mb-3">{t.history}</div>
+        <svg viewBox={`0 0 ${SVG_W} ${SVG_H}`} className="w-full h-16" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <linearGradient id={`grad-${active.slug}`} x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%" stopColor={histStrokeColor} stopOpacity="0.28" />
+              <stop offset="100%" stopColor={histStrokeColor} stopOpacity="0" />
+            </linearGradient>
+          </defs>
+          <polygon points={`0,${SVG_H} ${points} ${SVG_W},${SVG_H}`} fill={`url(#grad-${active.slug})`} />
+          <polyline
+            points={points}
+            fill="none"
+            stroke={histStrokeColor}
+            strokeWidth="2"
+            strokeLinejoin="round"
+            strokeLinecap="round"
+          />
+        </svg>
+        <div className="flex justify-between text-[12px] text-text-dim mt-2 num">
+          <span>
+            {active.history[0]?.date.slice(5)} · {t.krwSymbol}
+            {fmtKRW(active.history[0]?.avg_target_krw ?? 0)}
+          </span>
+          <span className={`${histTrend} font-semibold`}>
+            {t.krwSymbol}
+            {fmtKRW(active.history[active.history.length - 1]?.avg_target_krw ?? 0)} ·{" "}
+            {active.history[active.history.length - 1]?.date.slice(5)}
+          </span>
         </div>
-        {c.upside_pct != null && c.current_price_krw != null && (
-          <div className="text-right">
-            {/* 라벨 — "상승여력 (증권사 평균 대비)" reference 명시 (종목 상세 ConsensusSection 과 통일, 5/13) */}
-            <div className="text-[11px] text-text-dim">
-              {t.upside}
-              <span className="ml-1 text-[10px] opacity-80">({t.upsideRef})</span>
-            </div>
-            <div
-              className={`text-2xl sm:text-3xl font-bold tabular ${
-                c.upside_pct > 0
-                  ? "text-up"
-                  : c.upside_pct < 0
-                  ? "text-down"
-                  : "text-text-muted"
-              }`}
-            >
-              {c.upside_pct > 0 ? "▲ +" : c.upside_pct < 0 ? "▼ " : ""}
-              {Math.abs(c.upside_pct).toFixed(2)}%
-            </div>
-            {/* breakdown — "현재 ₩X → 평균 ₩Y" 양쪽 가격 노출 (계산 과정 가시화) */}
-            <div className="text-[10px] text-text-dim tabular mt-0.5 whitespace-nowrap">
-              {t.currentPrice} {t.krwSymbol}{fmtKRW(c.current_price_krw)}
-              {" "}{t.upsideArrow}{" "}
-              {t.krwSymbol}{fmtKRW(c.avg_target_krw)}
-            </div>
-          </div>
-        )}
+        <div className="ds-meta mt-2">
+          {t.source}: {t.naverResearch} · {t.updated} {fmtUpdated(active.updated_at, locale)} KST
+        </div>
       </div>
 
-      {/* 네이버 종합 컨센서스 — 매일 자동 갱신 (brokers 배열과 별도 출처) */}
-      {active.naver_snapshot && (
-        <div className="bg-bg-card border border-accent-purple/30 rounded-xl p-4">
-          <div className="flex items-center justify-between gap-2 flex-wrap mb-2">
-            <div className="text-[11px] font-bold text-accent-purple tracking-wide uppercase">
-              {t.naverSnapshot}
-            </div>
-            <div className="text-[10px] text-text-dim tabular">
-              {fmtUpdated(active.naver_snapshot.fetched_at, locale)} KST
-            </div>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            <div>
-              <div className="text-[10px] text-text-dim">{t.avgTarget}</div>
-              <div className="text-lg sm:text-xl font-bold tabular text-accent-purple mt-1">
-                {t.krwSymbol}{fmtKRW(active.naver_snapshot.avg_target_krw)}
-              </div>
-            </div>
-            <div>
-              <div className="text-[10px] text-text-dim">{t.opinionScore}</div>
-              <div className="text-lg sm:text-xl font-bold tabular text-accent-green mt-1">
-                {active.naver_snapshot.opinion_score.toFixed(2)}
-                <span className="ml-2 text-xs font-semibold text-text-muted">
-                  {active.naver_snapshot.opinion_label}
-                </span>
-              </div>
-            </div>
-            {active.naver_snapshot.high_52w_krw != null && (
-              <div>
-                <div className="text-[10px] text-text-dim">{t.high52w}</div>
-                <div className="text-lg sm:text-xl font-bold tabular text-text mt-1">
-                  {t.krwSymbol}{fmtKRW(active.naver_snapshot.high_52w_krw)}
-                </div>
-              </div>
-            )}
-            {active.naver_snapshot.low_52w_krw != null && (
-              <div>
-                <div className="text-[10px] text-text-dim">{t.low52w}</div>
-                <div className="text-lg sm:text-xl font-bold tabular text-text mt-1">
-                  {t.krwSymbol}{fmtKRW(active.naver_snapshot.low_52w_krw)}
-                </div>
-              </div>
-            )}
-          </div>
-        </div>
-      )}
-
-      {/* Cross-link: 종목 상세 페이지로 (USP 발견율 ↑) */}
+      {/* 종목 상세로 — 한 줄 링크 */}
       <Link
         href={`/korea/${active.slug}` as any}
         prefetch={false}
-        className="group block p-4 rounded-2xl bg-gradient-to-r from-accent-blue/8 via-accent-purple/8 to-accent-green/8 border border-accent-blue/20 hover:border-accent-blue/50 transition-all"
+        className="ds-card flex items-center justify-between gap-3 hover:bg-bg-hover transition"
+        style={{ paddingTop: 14, paddingBottom: 14 }}
       >
-        <div className="flex items-center justify-between gap-3">
-          <div className="min-w-0 flex-1">
-            <div className="text-sm sm:text-base font-bold text-text group-hover:text-accent-blue transition truncate">
-              ▶ {displayName} {t.seeStock}
-            </div>
-            <div className="text-[10px] sm:text-[11px] text-text-dim mt-1 leading-relaxed">
-              {t.seeStockSub}
-            </div>
+        <div className="min-w-0">
+          <div className="text-[15px] font-bold text-text truncate">
+            {displayName} {t.seeStock}
           </div>
-          <div className="text-accent-blue text-2xl group-hover:translate-x-1 transition-transform shrink-0">
-            →
-          </div>
+          <div className="ds-meta truncate">{t.seeStockSub}</div>
         </div>
+        <span className="text-[20px] text-text-dim shrink-0" aria-hidden="true">
+          ›
+        </span>
       </Link>
 
-      {/* 평균목표가 추이 — 네이버 스냅샷이 매 평일 쌓은 실측 시계열 */}
-      <div className="grid grid-cols-1 gap-3">
-        <div className="bg-bg-card border border-line rounded-xl p-5">
-          <div className="text-xs text-text-dim mb-3">{t.history}</div>
-          <svg
-            viewBox={`0 0 ${SVG_W} ${SVG_H}`}
-            className="w-full h-16"
-            preserveAspectRatio="none"
-          >
-            <defs>
-              <linearGradient id={`grad-${active.slug}`} x1="0" x2="0" y1="0" y2="1">
-                <stop offset="0%" stopColor={histStrokeColor} stopOpacity="0.28" />
-                <stop offset="100%" stopColor={histStrokeColor} stopOpacity="0" />
-              </linearGradient>
-            </defs>
-            <polygon
-              points={`0,${SVG_H} ${points} ${SVG_W},${SVG_H}`}
-              fill={`url(#grad-${active.slug})`}
-            />
-            <polyline
-              points={points}
-              fill="none"
-              stroke={histStrokeColor}
-              strokeWidth="2"
-              strokeLinejoin="round"
-              strokeLinecap="round"
-            />
-          </svg>
-          <div className="flex justify-between text-[10px] text-text-dim mt-2 tabular">
-            <span>
-              {active.history[0]?.date.slice(5)} → {t.krwSymbol}
-              {fmtKRW(active.history[0]?.avg_target_krw ?? 0)}
-            </span>
-            <span className={`${histTrend} font-semibold`}>
-              {t.krwSymbol}
-              {fmtKRW(
-                active.history[active.history.length - 1]?.avg_target_krw ?? 0
-              )}{" "}
-              ({active.history[active.history.length - 1]?.date.slice(5)})
-            </span>
-          </div>
-        </div>
-
-      </div>
-
-      {/* Disclaimer */}
-      <p className="text-[10px] text-text-dim leading-relaxed pt-2">
-        {t.disclaimer}
-      </p>
+      <p className="ds-meta pt-1">{t.disclaimer}</p>
     </div>
   );
 }

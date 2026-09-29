@@ -82,8 +82,8 @@ function TomorrowStatusCard({ semi, fxRate, fxChange }: { semi: SemiSignal; fxRa
         summary: "조금 더 — 이 신호는 어떻게 만드나요?",
         content: (
           <>
-            SOXL(미국 반도체 3배 ETF) 등락을 3으로 나눠 반도체지수 변화를 추정해요. 추정치가 ±0.4%를 넘으면
-            약세·강세, ±1.5%를 넘으면 강한 신호로 표시해요. 방향을 맞히는 예측이 아니라 &lsquo;밤사이 분위기&rsquo;
+            SOXL(미국 반도체 3배 ETF) 등락을 3으로 나눠 반도체지수 변화를 추정해요. 추정치가 0.4% 넘게 빠지거나
+            오르면 약세·강세, 1.5%를 넘으면 강한 신호로 표시해요. 방향을 맞히는 예측이 아니라 밤사이 분위기
             요약이에요.
             {semi.nvda && <> 참고로 엔비디아는 {formatPct(semi.nvda.changePct)}예요.</>}
             {asOf && (
@@ -209,7 +209,7 @@ export default async function Home() {
               ))}
             </div>
             <a href="#markets" className="flex items-center justify-center min-h-[48px] text-[15px] font-bold text-down border-t border-line">
-              미국·비상장 {restCount}종목 전체 보기 ›
+              미국·비상장 {restCount}종목 전체 보기 →
             </a>
           </section>
         )}
@@ -240,7 +240,7 @@ export default async function Home() {
                 인물 지표 <span className="ds-meta font-medium">역발상 참고용</span>
               </h2>
               <Link href="/poll" prefetch={false} className="text-[13px] font-bold text-text-muted hover:text-text shrink-0">
-                더보기 ›
+                더보기 →
               </Link>
             </div>
             <div className="space-y-2">
@@ -285,7 +285,7 @@ export default async function Home() {
               prefetch={false}
               className="flex items-center justify-center min-h-[48px] text-[15px] font-bold text-down border-t border-line"
             >
-              핫딜 전체 보기 ›
+              핫딜 전체 보기 →
             </Link>
           </section>
         )}

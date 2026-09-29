@@ -201,7 +201,7 @@ export function PollWidget({
           prefetch={false}
           className="mt-3 inline-flex items-center min-h-[32px] text-[13px] font-bold text-text-muted hover:text-text transition"
         >
-          지난 투표 결과 · 적중률 보기 ›
+          지난 투표 결과 · 적중률 보기 →
         </Link>
       )}
     </section>

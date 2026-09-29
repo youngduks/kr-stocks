@@ -27,7 +27,11 @@ function ThemeToggle() {
     : isDark ? "라이트 모드로 전환" : "다크 모드로 전환";
   return (
     <button type="button" onClick={toggle} aria-label={aria} title={aria} className="ds-iconbtn hover:bg-bg-hover transition">
-      <span aria-hidden="true">◐</span>
+      {/* 아이콘은 SVG — 특수기호 글리프(◐)가 폰트 청크 1개(11KB)를 추가로 끌어오는 것 방지 */}
+      <svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true">
+        <circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" strokeWidth="2" />
+        <path d="M10 2a8 8 0 0 1 0 16z" fill="currentColor" />
+      </svg>
     </button>
   );
 }

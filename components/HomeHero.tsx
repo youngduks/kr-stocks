@@ -268,7 +268,7 @@ export function HomeHero({
                       ₩{fmtKRW(Math.round(item.currentKrw), locale)}
                       {/* Hyperliquid phase 일 때 달러 보조 inline — 형님 5/13 요청 */}
                       {item.phase === "closed" && item.currentUsd != null && (
-                        <span className="text-text-dim/70"> (≈${item.currentUsd.toFixed(2)})</span>
+                        <span className="text-text-dim/70"> (약 ${item.currentUsd.toFixed(2)})</span>
                       )}
                       {" "}→ ₩{fmtKRW(item.avgTargetKrw, locale)}{" "}
                       <span className="text-text-dim/70">{t.avgRef}</span>

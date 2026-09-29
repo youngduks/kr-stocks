@@ -1,14 +1,38 @@
 {
   "category": "samsung",
-  "updated_at": "2026-09-29T09:11:58.968Z",
-  "count": 5,
+  "updated_at": "2026-09-29T16:11:24.673Z",
+  "count": 8,
   "items": [
     {
-      "title": "서학개미 1조 산 美메모리 ETF 한국판 출격",
-      "link": "https://www.hankyung.com/article/2026092927881",
+      "title": "마이크론 순익 940% 폭증 예상…메모리 '정점론'잠재울까",
+      "link": "https://www.hankyung.com/article/202609293017i",
       "source": "한국경제",
-      "ts": 1790671510000,
-      "pub": "Tue, 29 Sep 2026 17:45:10 +0900",
+      "ts": 1790696479000,
+      "pub": "Wed, 30 Sep 2026 00:41:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"90% 더 오른다\" 월가 파격 전망에…삼전닉스 개미들 '두근' [분석+]",
+      "link": "https://www.hankyung.com/article/2026092921426",
+      "source": "한국경제",
+      "ts": 1790686805000,
+      "pub": "Tue, 29 Sep 2026 22:00:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"HBM 판매가 내년 121% 오른다\"…삼전·닉스 메모리 호황 2027년에도",
+      "link": "https://www.hankyung.com/article/202609293035i",
+      "source": "한국경제",
+      "ts": 1790686281000,
+      "pub": "Tue, 29 Sep 2026 21:51:21 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이재용·최태원·젠슨 황, 맨해튼서 'AI동맹' 과시",
+      "link": "https://www.hankyung.com/article/2026092928231",
+      "source": "한국경제",
+      "ts": 1790674678000,
+      "pub": "Tue, 29 Sep 2026 18:37:58 +0900",
       "sentiment": "neutral"
     },
     {

@@ -23,7 +23,7 @@
   --line:      42 47 55;     /* #2A2F37 */
   --text:      233 235 240;  /* #E9EBF0 */
   --text-muted:163 171 184;  /* #A3ABB8 (sub) */
-  --text-dim:  107 116 132;  /* #6B7484 */
+  --text-dim:  132 140 153;  /* #848C99 — WCAG AA 4.5:1 on bg/card/tile (Phase C, 이전 #6B7484 3.4:1) */
   --accent-blue:   91 143 240;  /* #5B8FF0 */
   --accent-green:  34 197 94;   /* #22C55E — live 전용 */
   --accent-red:    255 90 85;   /* #FF5A55 */
@@ -58,21 +58,21 @@
   --line:      232 234 237;  /* #E8EAED */
   --text:      21 24 29;     /* #15181D */
   --text-muted:78 89 104;    /* #4E5968 (sub) */
-  --text-dim:  139 149 161;  /* #8B95A1 */
-  --accent-blue:   47 111 224;  /* #2F6FE0 */
-  --accent-green:  22 163 74;   /* #16A34A — live 전용 */
+  --text-dim:  104 112 121;  /* #687079 — AA (Phase C, 이전 #8B95A1 2.8:1) */
+  --accent-blue:   45 105 213;  /* #2D69D5 — AA (Phase C) */
+  --accent-green:  17 127 58;   /* #117F3A — live 전용, AA (Phase C) */
   --accent-red:    224 52 47;   /* #E0342F */
-  --accent-amber:  217 119 6;   /* #D97706 */
+  --accent-amber:  167 92 5;    /* #A75C05 — AA (Phase C) */
   --accent-purple: 124 58 237;  /* #7C3AED */
-  --up:        224 52 47;    /* #E0342F */
+  --up:        204 47 43;    /* #CC2F2B — AA on bg/card/tile/up-bg (Phase C, 이전 #E0342F) */
   --up-bg:     253 238 238;  /* #FDEEEE */
-  --down:      47 111 224;   /* #2F6FE0 */
+  --down:      44 103 208;   /* #2C67D0 — AA (Phase C, 이전 #2F6FE0) */
   --down-bg:   234 241 253;  /* #EAF1FD */
-  --flat:      107 118 132;  /* #6B7684 */
+  --flat:      98 109 121;   /* #626D79 — AA (Phase C) */
   --flat-bg:   238 240 243;  /* #EEF0F3 */
   --hl:        255 239 184;  /* #FFEFB8 */
-  --live:      22 163 74;    /* #16A34A */
-  --warn:      217 119 6;    /* #D97706 */
+  --live:      17 127 58;    /* #117F3A — AA (Phase C) */
+  --warn:      167 92 5;     /* #A75C05 — AA (Phase C) */
   --warn-bg:   255 244 224;  /* #FFF4E0 */
   --ink:       21 24 29;     /* #15181D */
   --on-ink:    255 255 255;  /* #FFFFFF */
@@ -110,6 +110,21 @@ body {
 .tabular, .num { font-variant-numeric: tabular-nums; }
 .num { letter-spacing: -0.02em; }
 
+/* 키보드 포커스 — 마우스 클릭엔 안 보이고 Tab 이동 시만 (Phase C a11y) */
+:focus-visible { outline: 2px solid rgb(var(--accent-blue)); outline-offset: 2px; border-radius: 6px; }
+.ds-card :focus-visible, .ds-chip:focus-visible, .ds-iconbtn:focus-visible { outline-offset: 3px; }
+details.ds-more > summary:focus-visible { outline-offset: 4px; }
+input:focus-visible, textarea:focus-visible, select:focus-visible { outline-offset: 0; }
+
+/* 움직임 줄이기 설정 존중 — 애니메이션·전환·부드러운 스크롤 끔 */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important; animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important; scroll-behavior: auto !important;
+  }
+  .card-lift:hover { transform: none; }
+}
+
 /* Toss-style hover lift */
 .card-lift {
   transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
@@ -131,7 +146,7 @@ body {
   .ds-pill-down { background: rgb(var(--down-bg)); color: rgb(var(--down)); }
   .ds-pill-flat { background: rgb(var(--flat-bg)); color: rgb(var(--flat)); }
   .ds-pill-warn { background: rgb(var(--warn-bg)); color: rgb(var(--warn)); }
-  .ds-chip { flex: none; height: 40px; padding: 0 16px; border-radius: 999px; background: rgb(var(--bg-card)); box-shadow: var(--shadow);
+  .ds-chip { flex: none; height: 44px; padding: 0 16px; border-radius: 999px; background: rgb(var(--bg-card)); box-shadow: var(--shadow);
     display: inline-flex; align-items: center; font-size: 15px; font-weight: 600; color: rgb(var(--text-muted)); white-space: nowrap; }
   .ds-chip[aria-current="page"] { background: rgb(var(--ink)); color: rgb(var(--on-ink)); }
   .ds-iconbtn { width: 44px; height: 44px; border-radius: 999px; background: rgb(var(--bg-card)); box-shadow: var(--shadow);

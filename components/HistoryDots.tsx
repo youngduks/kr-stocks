@@ -47,7 +47,7 @@ export function HistoryDots({
             <div
               className="flex flex-wrap gap-[5px] mt-2"
               role="img"
-              aria-label={`${summary}. ${dotsLabel ?? "최근 사례"} 중 오름 ${ups}번, 내림 ${downs}번`}
+              aria-label={`${summary}. 최근 ${r.recent.length}번 중 오름 ${ups}번, 내림 ${downs}번`}
             >
               {r.recent.map((x, i) => (
                 <span

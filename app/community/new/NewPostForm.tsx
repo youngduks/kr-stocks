@@ -161,7 +161,8 @@ export function NewPostForm() {
             <button
               type="button"
               onClick={clearImage}
-              className="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-bg-card border border-line text-text-dim hover:text-text text-xs flex items-center justify-center"
+              aria-label="첨부 이미지 삭제"
+              className="absolute -top-4 -right-4 w-11 h-11 rounded-full bg-bg-card border border-line text-text-dim hover:text-text text-xs flex items-center justify-center"
             >
               ✕
             </button>

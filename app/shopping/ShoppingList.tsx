@@ -26,7 +26,7 @@ const AD_PROPS = {
   adfitDesktop: { unit: "DAN-1gxi6c73rjhTXT18", width: 728, height: 90 },
 };
 
-const CHIP = "ds-chip !h-9 !px-3 !text-[14px] hover:text-text transition aria-pressed:!bg-ink aria-pressed:!text-on-ink";
+const CHIP = "ds-chip !h-11 !px-3 !text-[14px] hover:text-text transition aria-pressed:!bg-ink aria-pressed:!text-on-ink";
 
 export function ShoppingList({
   deals,

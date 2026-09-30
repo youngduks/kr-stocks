@@ -13,7 +13,7 @@ export default function NotFound() {
   return (
     <>
       <header className="border-b border-line">
-        <div className="max-w-6xl mx-auto px-5 py-4 flex items-center gap-3">
+        <div className="max-w-3xl mx-auto px-4 sm:px-5 py-4 flex items-center gap-3">
           <div className="w-2.5 h-2.5 rounded-full bg-accent-green animate-pulse-soft" />
           <Link href="/" className="text-base font-bold text-text tracking-tight hover:text-accent-blue transition">
             KR Stocks

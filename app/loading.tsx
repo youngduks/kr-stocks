@@ -5,14 +5,14 @@ export default function Loading() {
   return (
     <div className="min-h-screen bg-bg">
       <header className="border-b border-line">
-        <div className="max-w-6xl mx-auto px-5 py-4 flex items-center gap-3">
+        <div className="max-w-3xl mx-auto px-4 sm:px-5 py-4 flex items-center gap-3">
           <div className="w-2.5 h-2.5 rounded-full bg-accent-green animate-pulse-soft" />
           <div className="text-base font-bold text-text tracking-tight">KR Stocks</div>
           <span className="text-[11px] text-text-dim hidden sm:inline">24h Global Markets</span>
         </div>
       </header>
 
-      <main className="max-w-6xl mx-auto px-5 pt-6 pb-12">
+      <main className="max-w-3xl mx-auto px-4 sm:px-5 pt-6 pb-12">
         <div className="text-center py-12">
           <div className="inline-block w-8 h-8 border-2 border-accent-blue border-t-transparent rounded-full animate-spin mb-4" />
           <div className="text-sm text-text-muted">가격 정보 불러오는 중…</div>
@@ -20,7 +20,7 @@ export default function Loading() {
         </div>
 
         {/* skeleton card grid (시각 안정 — 빈 화면 회피) */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 opacity-30">
+        <div className="grid grid-cols-2 gap-3 opacity-30">
           {Array.from({ length: 8 }).map((_, i) => (
             <div
               key={i}

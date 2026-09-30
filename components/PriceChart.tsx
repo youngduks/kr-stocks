@@ -336,7 +336,8 @@ export function PriceChart({ bars1H, bars4H, regularCloseUsd, regularCloseKrw, a
             <button
               key={r}
               onClick={() => setRange(r)}
-              className={`px-3 py-1 rounded-full text-[11px] font-bold transition-all ${
+              aria-pressed={range === r}
+              className={`px-3 min-h-[44px] min-w-[44px] rounded-full text-[12px] font-bold transition-all ${
                 range === r
                   ? "bg-text text-bg shadow-sm"
                   : "text-text-dim hover:text-text-muted"

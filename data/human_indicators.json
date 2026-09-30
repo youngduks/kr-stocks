@@ -7,39 +7,102 @@
       "channel": "전인구경제연구소",
       "channel_url": "https://www.youtube.com/@moneydo",
       "channel_id": "UCznImSIaxZR7fdLCICLdgaQ",
-      "last_checked_video_id": "STDYTO6It3M",
+      "last_checked_video_id": "I9-UUuC2lqE",
       "tagline": "\"고점 판독기\" — 나무위키에도 등재된 별명. 2023년 이후 증시 전망이 반대로 맞는 걸로 유명",
       "note": "본인 문서(나무위키)에 \"시장 전망 영상 대부분이 틀리는 걸 넘어 반대로 맞히는 예지력\"이라는 비판이 있고, 댓글창에서 \"고점 판독기\"·\"어둠의 고수\"로 불림. 역발상 참고용으로 소개합니다 — 조롱이 목적이 아니라, 실제로 존재하는 밈이라 재미로 트래킹합니다.",
       "opinions": [
         {
-          "date": "2026-09-09",
-          "title": "유가급등에 무너진 코스피, 외국인이 사는 이유",
-          "summary": "후티 반군의 사우디 아람코·공군기지 공격으로 유가 장중 $94(100달러 코앞) 급등. \"역사적으로 유가 100달러 돌파 후 증시가 조정 안 받은 적이 없다\"며, 지금은 반도체·AI 강세가 충격을 가리고 있지만 \"결국 누적돼서 쌓인다\"고 경고. 이번 주 미·일 금리 결정까지 겹쳐 부담 가중 전망.",
-          "summary_short": "유가 $100 돌파하면 증시 조정 온다",
+          "date": "2026-09-30",
+          "title": "삼전닉스 목숨줄을 쥔 마이크론 실적 예상",
+          "summary": "마이크론 실적과 전망에 따라 삼성전자·하이닉스 주가 방향이 결정될 것으로 보며, 외국인 매도 지속 속 자사주 매입이 끝난 후 매수세가 받쳐주지 않으면 위험하다고 봄. 수치상 긍정적 기대는 있으나 결과는 예측 불가하다는 신중한 입장.",
+          "summary_short": "마이크론 실적이 관건, 신중론",
           "stance": "cautious",
-          "video_url": "https://www.youtube.com/watch?v=xQwhfDQlFQg"
+          "video_url": "https://www.youtube.com/watch?v=I9-UUuC2lqE",
+          "published_at": "2026-09-30T08:27:34.000Z"
+        },
+        {
+          "date": "2026-09-29",
+          "title": "치솟는 금리, 강요받는 트럼프 승부수",
+          "summary": "고유가·고물가·고금리 압박에도 AI 투자 지속으로 미국 증시가 하이퍼스케일러 중심으로 버티고 있지만, 지수가 더 오르기엔 리스크가 있어 횡보 국면으로 본다. 주도주 외 AI 인프라 관련 미발굴 섹터나 국내 고성장 섹터로 분산 투자할 필요가 있다고 조언한다.",
+          "summary_short": "고금리 압박, 증시 횡보 전망",
+          "stance": "cautious",
+          "video_url": "https://www.youtube.com/watch?v=STDYTO6It3M",
+          "published_at": "2026-09-29T11:41:09.000Z"
+        },
+        {
+          "date": "2026-09-28",
+          "title": "1,000만 원으로 40억을 벌었습니다(ft.김운아 작가 1부)",
+          "summary": "화자는 미국 시장이 고점처럼 보여도 실제로는 고점이 아니었으며 시간이 지나면 매수가가 저점이 되는 경우가 많다고 말한다. 고점 우려로 투자를 미루면 추세를 영영 놓칠 수 있다며 소액이라도 시작해 비중을 늘려가라고 조언한다.",
+          "summary_short": "미장 고점 우려는 기우",
+          "stance": "bullish",
+          "video_url": "https://www.youtube.com/watch?v=FGgBTrNcv0U",
+          "published_at": "2026-09-28T03:12:19.000Z"
+        },
+        {
+          "date": "2026-09-24",
+          "title": "미국이 경유수출을 금지하려는 이유",
+          "summary": "국채 금리 급등과 인플레이션 우려, 경유 수출 금지 논의로 인한 유가 상승 가능성 등 지정학적 변수가 많아 경기 부양 효과가 떨어지고 물가 상방 압력이 커질 것으로 우려. 채권 금리 상승과 매파적 연준 기조가 증시에 부담 요인이 될 수 있다는 취지의 발언.",
+          "summary_short": "금리·유가발 증시 부담 경고",
+          "stance": "cautious",
+          "video_url": "https://www.youtube.com/watch?v=340aKFGvt08",
+          "published_at": "2026-09-24T06:57:45.000Z"
+        },
+        {
+          "date": "2026-09-23",
+          "title": "환율에 대한 생각과 외인이 몰래 비중늘리는 주식",
+          "summary": "한국 증시는 자사주 매입에 힘입어 7천선에서 횡보 중이며 미국 증시는 AI 트렌드 속 사상 최고치를 경신했다고 언급. 삼성전자·하이닉스 자사주 매입이 9~10월 중 종료되면 수급 우려가 있으나 환율 방향은 예단하기 어렵다고 밝힘.",
+          "summary_short": "한국 횡보, 미국 최고치",
+          "stance": "neutral",
+          "video_url": "https://www.youtube.com/watch?v=Iq333Ibmvk4",
+          "published_at": "2026-09-23T05:21:15.000Z"
+        },
+        {
+          "date": "2026-09-21",
+          "title": "반도체 다음 수혜주는 바로  이겁니다(ft.김장열 센터장 2부)",
+          "summary": "반도체 소부장, 변압기, 연료전지, 2차전지, 화장품, 조선, 금융주 등 AI 관련 섹터별 순환매 및 투자 유망 종목을 논의하며 전반적으로 반도체·AI 관련주에 긍정적 전망을 제시함. 다만 밸류에이션 부담과 수급 문제로 단기 변동성이 있을 수 있다고 언급함.",
+          "summary_short": "AI 관련주 순환매 긍정적",
+          "stance": "bullish",
+          "video_url": "https://www.youtube.com/watch?v=0Xzg877Z8BM",
+          "published_at": "2026-09-21T11:19:25.000Z"
+        },
+        {
+          "date": "2026-09-21",
+          "title": "AI 속도조절론? 오히려 반도체는 더 필요합니다(ft.김장열 센터장 1부)",
+          "summary": "연준의 금리 인상과 AI 속도조절론은 시장이 이미 예상한 수준이며 AI 반도체 수요는 줄지 않고 오히려 추론·모니터링 영역 확대로 더 늘어날 것으로 본다. 펀더멘털은 견고하며 현재 주가 부진은 거시(금리) 요인일 뿐 AI 성장 기대는 무너지지 않았다고 평가한다.",
+          "summary_short": "반도체 수요 견조, 긍정적",
+          "stance": "bullish",
+          "video_url": "https://www.youtube.com/watch?v=NyWr68eJvM0",
+          "published_at": "2026-09-21T07:55:03.000Z"
+        },
+        {
+          "date": "2026-09-20",
+          "title": "하이닉스와 인텔이 합작하는 이유(ft.송종호 대표 2부)",
+          "summary": "밸류에이션이 여전히 싸고 AI 사이클과 메모리 시장 펀더멘털이 꺾이지 않았기 때문에 조정 구간은 오히려 주식을 모아가는 시기라고 평가했다. 내년에도 메모리 시장이 약 50% 성장하고 빅테크 투자가 지속되면 삼성전자·하이닉스 주가도 탄력을 받을 것으로 전망했다.",
+          "summary_short": "메모리 저점 매수 긍정적",
+          "stance": "bullish",
+          "video_url": "https://www.youtube.com/watch?v=HEteS2iwVQ8",
+          "published_at": "2026-09-20T10:49:12.000Z"
+        },
+        {
+          "date": "2026-09-17",
+          "title": "저는 주식 팔고 현금만 들고 있습니다(ft.미국주식인사이더)",
+          "summary": "현재 증시를 강세장도 약세장도 아닌 횡보장으로 보고, 미국 중간선거 결과 불확실성 때문에 현금 비중을 크게 늘려 수비적으로 대응하고 있다고 밝힘. AI·반도체 투자는 아직 유효하지만 단기 과열로 조정 가능성이 있다고 언급함.",
+          "summary_short": "횡보장 판단, 현금 비중 확대",
+          "stance": "cautious",
+          "video_url": "https://www.youtube.com/watch?v=sRILHNf2AsU",
+          "published_at": "2026-09-17T01:22:12.000Z"
+        },
+        {
+          "date": "2026-09-15",
+          "title": "AI속도조절론, 국채5% 돌파, 유가 100달러 보다 나쁜 소식이 있습니다",
+          "summary": "환율 상승, 미국채 10년물 5% 돌파, 유가 100달러 재돌파 등 거시환경이 좋지 않은 가운데 국내 증시는 기타법인(자사주) 매수에 의존해 버티는 취약한 수급 구조를 보이고 있다고 지적. 다만 AI 속도조절론은 실제 투자 축소라기보다 정부 투자 유치 등을 위한 포석일 가능성이 크다며 이번 하락을 반드시 나쁜 뉴스로만 볼 필요는 없다고 평가.",
+          "summary_short": "거시 부담 속 수급 취약, 신중론",
+          "stance": "cautious",
+          "video_url": "https://www.youtube.com/watch?v=iTIjcqsGRwM",
+          "published_at": "2026-09-15T03:41:22.000Z"
         }
       ],
-      "pending": [
-        {
-          "videoId": "iTG81vNsvjk",
-          "title": "내년에도 에너지에 투자를 해야 하는 이유(ft.슈퍼엘니뇨)",
-          "date": "2026-09-27",
-          "attempts": 2
-        },
-        {
-          "videoId": "FGgBTrNcv0U",
-          "title": "1,000만 원으로 40억을 벌었습니다(ft.김운아 작가 1부)",
-          "date": "2026-09-28",
-          "attempts": 2
-        },
-        {
-          "videoId": "STDYTO6It3M",
-          "title": "치솟는 금리, 강요받는 트럼프 승부수",
-          "date": "2026-09-29",
-          "attempts": 1
-        }
-      ]
+      "pending": []
     }
   ]
 }

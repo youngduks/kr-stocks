@@ -34,8 +34,14 @@ export function rowPrice(row: PriceRow): { main: string; chg: number | null } {
   return { main, chg: m.main_change_pct ?? m.change_24h_pct ?? null };
 }
 
-export function phaseLabel(row: PriceRow): string {
+export function phaseLabel(row: PriceRow, locale: "ko" | "en" = "ko"): string {
   const p = row.market?.market_phase;
+  if (locale === "en") {
+    if (row.is_private) return "Private · 24h";
+    if (p === "live") return "Regular session";
+    if (p === "nxt") return "NXT after-hours";
+    return "24h reference";
+  }
   if (row.is_private) return "비상장 · 24시간";
   if (p === "live") return "정규장";
   if (p === "nxt") return "NXT 시간외";
@@ -46,23 +52,25 @@ export function StockRow({
   row,
   sub,
   spark,
+  locale = "ko",
 }: {
   row: PriceRow;
+  locale?: "ko" | "en";
   /** 보조 설명 (ReactNode) — 없으면 시장 상태 라벨 */
   sub?: React.ReactNode;
   /** 스파크라인 값 (undefined = 영역 생략, [] = 같은 크기 빈 칸 → 열 정렬 유지). 색은 등락률 방향과 일치 */
   spark?: number[];
 }) {
-  const name = row.name_ko || row.name_en || row.slug;
+  const name = (locale === "en" ? row.name_en || row.name_ko : row.name_ko || row.name_en) || row.slug;
   const { main, chg } = rowPrice(row);
   return (
     <Link href={`/${row.category}/${row.slug}` as any} prefetch={false} className="ds-row hover:bg-bg-hover/60 -mx-2 px-2 rounded-xl transition">
       <div className="flex-1 min-w-0">
         <div className="text-[16px] font-bold truncate text-text">{name}</div>
-        <div className="text-[12px] truncate mt-[2px] text-text-dim">{sub ?? phaseLabel(row)}</div>
+        <div className="text-[12px] truncate mt-[2px] text-text-dim">{sub ?? phaseLabel(row, locale)}</div>
       </div>
       {spark && (
-        <Sparkline values={spark} width={52} height={26} tone={direction(chg)} ariaLabel={spark.length >= 2 ? `${name} 최근 24시간 흐름` : undefined} />
+        <Sparkline values={spark} width={52} height={26} tone={direction(chg)} ariaLabel={spark.length >= 2 ? (locale === "en" ? `${name} last 24h` : `${name} 최근 24시간 흐름`) : undefined} />
       )}
       <div className="text-right w-[104px] flex-none">
         <div className="num text-[16px] font-bold text-text truncate">{main}</div>

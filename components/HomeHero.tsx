@@ -180,7 +180,7 @@ export function HomeHero({
   if (items.length === 0) return null;
 
   return (
-    <section className="mb-8 p-5 sm:p-6 rounded-2xl bg-gradient-to-br from-accent-blue/8 via-accent-purple/5 to-accent-green/8 border border-line">
+    <section className="ds-card mb-4">
       <div className="flex items-center justify-between mb-4 gap-2 flex-wrap">
         <div className="min-w-0 flex-1">
           <h2 className="text-base sm:text-lg font-bold tracking-tight text-text">

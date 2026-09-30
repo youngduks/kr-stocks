@@ -51,24 +51,24 @@ export default async function HyperliquidOnrampGuideEN() {
   return (
     <>
       <Header fxRate={data.fx.krw_per_usdt} fxChange={data.fx.change_24h_pct} />
-      <main className="max-w-3xl mx-auto px-5 pt-6 pb-12">
-        <Link href={"/en" as any} className="text-xs text-text-dim hover:text-text-muted">
-          ← Home
+      <main className="max-w-3xl mx-auto px-4 sm:px-5 pt-4 pb-12">
+        <Link href={"/en" as any} prefetch={false} aria-label="Home" className="ds-iconbtn hover:bg-bg-hover transition">
+          <svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true"><path d="M12.5 4 6.5 10l6 6" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" /></svg>
         </Link>
 
         <article className="mt-4">
           <header className="mb-8">
-            <div className="text-xs text-accent-blue font-semibold mb-2 tracking-wider">GUIDE · ONRAMP</div>
-            <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-3">
+            <div className="ds-eyebrow mb-2">GUIDE · ONRAMP</div>
+            <h1 className="text-[26px] md:text-[30px] font-extrabold tracking-tight leading-tight mb-3">
               How to Trade Hyperliquid from Korea
             </h1>
-            <p className="text-text-muted text-base leading-relaxed">
+            <p className="ds-explain">
               To trade unlisted OpenAI · SpaceX · Anthropic plus US and Korean stock overnight prices directly from Korea, use the
               Hyperliquid (HL) decentralized exchange. Step-by-step below.
             </p>
           </header>
 
-          <section className="mb-8 p-5 rounded-2xl bg-bg-card border border-line">
+          <section className="mb-4 ds-card">
             <h2 className="text-lg font-bold mb-2">What is Hyperliquid (HL)?</h2>
             <p className="text-sm text-text-muted leading-relaxed">
               Hyperliquid is an Arbitrum-based decentralized perpetual futures exchange. Its HIP-3 builder dexes (<span className="font-mono">xyz</span>, <span className="font-mono">vntl</span>) list unlisted big tech (OpenAI · SpaceX ·
@@ -81,7 +81,7 @@ export default async function HyperliquidOnrampGuideEN() {
             <h2 className="text-xl font-bold mb-4">Step-by-step</h2>
 
             <div className="space-y-4">
-              <div className="p-4 rounded-xl bg-bg-card border border-line">
+              <div className="ds-card">
                 <div className="text-xs text-accent-blue font-semibold mb-1 tracking-wider">STEP 1</div>
                 <h3 className="font-bold text-base mb-2">Get USDT (Binance or Bybit)</h3>
                 <p className="text-sm text-text-muted leading-relaxed mb-3">
@@ -112,7 +112,7 @@ export default async function HyperliquidOnrampGuideEN() {
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl bg-bg-card border border-line">
+              <div className="ds-card">
                 <div className="text-xs text-accent-blue font-semibold mb-1 tracking-wider">STEP 2</div>
                 <h3 className="font-bold text-base mb-2">Install an Arbitrum-compatible wallet</h3>
                 <p className="text-sm text-text-muted leading-relaxed">
@@ -121,7 +121,7 @@ export default async function HyperliquidOnrampGuideEN() {
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl bg-bg-card border border-line">
+              <div className="ds-card">
                 <div className="text-xs text-accent-blue font-semibold mb-1 tracking-wider">STEP 3</div>
                 <h3 className="font-bold text-base mb-2">Open Hyperliquid &amp; connect wallet</h3>
                 <p className="text-sm text-text-muted leading-relaxed">
@@ -134,7 +134,7 @@ export default async function HyperliquidOnrampGuideEN() {
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl bg-bg-card border border-line">
+              <div className="ds-card">
                 <div className="text-xs text-accent-blue font-semibold mb-1 tracking-wider">STEP 4</div>
                 <h3 className="font-bold text-base mb-2">Deposit USDT (HL Bridge)</h3>
                 <p className="text-sm text-text-muted leading-relaxed">
@@ -144,7 +144,7 @@ export default async function HyperliquidOnrampGuideEN() {
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl bg-bg-card border border-line">
+              <div className="ds-card">
                 <div className="text-xs text-accent-blue font-semibold mb-1 tracking-wider">STEP 5</div>
                 <h3 className="font-bold text-base mb-2">Trade private big tech / Korean stock perps</h3>
                 <p className="text-sm text-text-muted leading-relaxed">
@@ -172,7 +172,7 @@ export default async function HyperliquidOnrampGuideEN() {
             </div>
           </section>
 
-          <section className="mb-8 p-5 rounded-xl bg-accent-amber/5 border border-accent-amber/20">
+          <section className="mb-4 ds-card">
             <h2 className="text-sm font-bold text-accent-amber mb-2">⚠️ Notes</h2>
             <ul className="text-xs text-text-muted space-y-1 leading-relaxed">
               <li>• HL perp prices can diverge from regular-session close (premium / discount).</li>
@@ -183,7 +183,7 @@ export default async function HyperliquidOnrampGuideEN() {
             </ul>
           </section>
 
-          <section className="p-5 rounded-xl bg-accent-blue/5 border border-accent-blue/20">
+          <section className="ds-card">
             <h2 className="text-sm font-bold text-accent-blue mb-3">📊 Time your entries with live prices</h2>
             <p className="text-sm text-text-muted leading-relaxed mb-3">
               After signup &amp; deposit, watch live prices and regular-close premium on kr-stocks.com to time entries:

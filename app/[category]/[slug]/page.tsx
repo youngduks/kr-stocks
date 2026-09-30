@@ -4,13 +4,17 @@ import { bySlug, CATEGORY_LABELS } from "@/lib/universe";
 import { getConsensus, hasConsensus, enrichWithCurrentPrice } from "@/lib/consensus";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { ConsensusSection } from "@/components/ConsensusSection";
+import { TargetRangeCard } from "@/components/ui/TargetRangeCard";
 // FundingBar 재도입 (2026-05-13) — retail 친화 "24시간 시장 sentiment" 라벨로 변환,
 // 코인 metric (펀딩%, APR) 제거하고 상승/하락 베팅 비율만 가시화
 import { FundingBar } from "@/components/FundingBar";
 import { TradingFlowCard } from "@/components/TradingFlowCard";
 import { ShareButton } from "@/components/ShareButton";
-import { getTradingFlow, hasTradingFlow } from "@/lib/tradingFlow";
+import { getTradingFlow, hasTradingFlow, formatBigKRW, type TradingFlowData } from "@/lib/tradingFlow";
+import type { Candle } from "@/lib/fetchCandles";
+import { PageTitle } from "@/components/ui/PageTitle";
+import { QuadGrid, type QuadCell } from "@/components/ui/QuadGrid";
+import { MoreDetails } from "@/components/ui/MoreDetails";
 import { getBuyback, hasBuyback } from "@/lib/buyback";
 import nextDynamic from "next/dynamic";
 import { notFound } from "next/navigation";
@@ -21,7 +25,7 @@ import type { Metadata } from "next";
 const PriceChart = nextDynamic(() => import("@/components/PriceChart").then((m) => m.PriceChart), {
   ssr: false,
   loading: () => (
-    <div className="rounded-2xl bg-bg-card border border-line p-6 text-center text-sm text-text-dim">
+    <div className="ds-card text-center text-sm text-text-dim">
       차트 로딩 중…
     </div>
   ),
@@ -89,6 +93,10 @@ export default async function SymbolPage({ params }: Props) {
   const isDn = mainChg < 0;
   const colorClass = isUp ? "text-up" : isDn ? "text-down" : "text-text-muted";
   const label = CATEGORY_LABELS[row.category];
+
+  // 외국인 수급(한국 3종) + 같은 5거래일 가격 변화(선물 4H 캔들) → 2×2
+  const flow: TradingFlowData | null = hasTradingFlow(row.slug) ? getTradingFlow(row.slug) : null;
+  const quad = flow ? buildQuad(flow, candles.bars4H, row.source === "binance" ? "바이낸스 선물" : "하이퍼리퀴드") : null;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -203,21 +211,22 @@ export default async function SymbolPage({ params }: Props) {
       />
       <Header fxRate={data.fx.krw_per_usdt} fxChange={data.fx.change_24h_pct} />
 
-      <main className="max-w-4xl mx-auto px-5 pt-6 pb-12">
-        <Link href="/" className="text-xs text-text-dim hover:text-text-muted">← 홈으로</Link>
-
-        <section className="mt-4 mb-8">
-          <div className="flex items-center gap-2 mb-2">
-            <span className="text-xs px-2 py-1 rounded-md bg-bg-card border border-line text-text-muted">{label.emoji} {label.ko}</span>
-            {row.is_private && <span className="text-xs px-2 py-1 rounded-md bg-accent-purple/15 text-accent-purple font-semibold">비상장 perp</span>}
-            {row.is_index && <span className="text-xs px-2 py-1 rounded-md bg-accent-amber/15 text-accent-amber font-semibold">지수</span>}
-          </div>
-          <div className="flex items-start justify-between gap-3">
-            <div className="min-w-0 flex-1">
-              <h1 className="text-3xl md:text-4xl font-bold tracking-tight">{row.name_ko}</h1>
-              <div className="text-sm text-text-muted mt-1">{row.name_en} · <span className="font-mono text-xs">{row.ticker}</span></div>
-            </div>
-            {/* Share 버튼 — viral 마찰 0 (Web Share API + clipboard fallback, 5/14) */}
+      <main className="max-w-3xl mx-auto px-4 sm:px-5 pt-4 pb-12">
+        <div className="flex items-start justify-between gap-3">
+          <PageTitle
+            className="min-w-0"
+            backHref="/"
+            eyebrow={
+              <>
+                {label.emoji} {label.ko} · <span className="num">{row.krx_code ?? row.ticker}</span>
+                {row.is_private && " · 비상장 perp"}
+                {row.is_index && " · 지수"}
+              </>
+            }
+            title={row.name_ko}
+          />
+          {/* Share 버튼 — viral 마찰 0 (Web Share API + clipboard fallback, 5/14) */}
+          <div className="pt-3 shrink-0">
             <ShareButton
               url={`https://kr-stocks.com/${row.category}/${row.slug}`}
               title={`${row.name_ko} 24시간 시세 — kr-stocks.com`}
@@ -225,9 +234,29 @@ export default async function SymbolPage({ params }: Props) {
               locale="ko"
             />
           </div>
-        </section>
+        </div>
 
-        <section className="bg-bg-card border border-line rounded-2xl p-6 mb-6">
+        {/* ① 상태 카드 (Phase B) — 지금 가격이 어느 쪽으로 움직이는지 + 실측 수급 해석 */}
+        <section className="ds-card mt-4 mb-4">
+          <div className="flex items-center justify-between gap-3 mb-1">
+            <div className="ds-eyebrow">지금 {row.name_ko}{hasJong(row.name_ko ?? "") ? "은" : "는"}</div>
+            <span className={`ds-pill ${isUp ? "ds-pill-up" : isDn ? "ds-pill-down" : "ds-pill-flat"} shrink-0`}>
+              {isUp ? "▲" : isDn ? "▼" : "–"} {Math.abs(mainChg).toFixed(2)}%
+            </span>
+          </div>
+          <h2 className="ds-status mb-3" style={{ fontSize: 22 }}>
+            {isUp ? (
+              <>
+                <span className="ds-hl">오르고 있어요</span>
+              </>
+            ) : isDn ? (
+              <>
+                <span className="ds-hl">내리고 있어요</span>
+              </>
+            ) : (
+              <>거의 움직임이 없어요</>
+            )}
+          </h2>
           {/* 3-phase 라벨 + pill (LIVE 🟢 / NXT 🟠 / Hyperliq 🔵) — 시장 시간 자동 인지 */}
           {(() => {
             const phase = m.market_phase;
@@ -397,17 +426,54 @@ export default async function SymbolPage({ params }: Props) {
             </>
           )}
 
-          <div className={`mt-4 text-lg font-bold tabular ${colorClass}`}>
-            {isUp ? "▲" : isDn ? "▼" : ""} {Math.abs(mainChg).toFixed(2)}% ({mainChgLabel})
+          <div className={`mt-3 text-[17px] font-extrabold num ${colorClass}`}>
+            {isUp ? "▲" : isDn ? "▼" : ""} {Math.abs(mainChg).toFixed(2)}% <span className="ds-meta font-normal">({mainChgLabel})</span>
           </div>
+          {flow && (
+            <>
+              <p className="ds-explain mt-3">
+                최근 5거래일({fmtMD(flow.daily[0]?.date)}~{fmtMD(flow.daily[flow.daily.length - 1]?.date)}) 외국인은{" "}
+                <b className={flow.cumulative_5d.foreign_won >= 0 ? "text-up" : "text-down"}>
+                  {bigKRW(flow.cumulative_5d.foreign_won)}
+                </b>{" "}
+                {flow.cumulative_5d.foreign_won >= 0 ? "순매수" : "순매도"}, 기관은{" "}
+                <b className={flow.cumulative_5d.institutional_won >= 0 ? "text-up" : "text-down"}>
+                  {bigKRW(flow.cumulative_5d.institutional_won)}
+                </b>
+                {flow.cumulative_5d.institutional_won >= 0 ? " 순매수" : " 순매도"}했어요.
+              </p>
+              <MoreDetails summary="조금 더 — 5일 누적 외국인·기관·개인">
+                <div className="grid grid-cols-3 gap-2 pt-1">
+                  {(
+                    [
+                      ["외국인", flow.cumulative_5d.foreign_won],
+                      ["기관", flow.cumulative_5d.institutional_won],
+                      ["개인", flow.cumulative_5d.retail_won],
+                    ] as const
+                  ).map(([k, v]) => (
+                    <div key={k} className="ds-tile" style={{ padding: 10 }}>
+                      <div className="ds-meta">{k}</div>
+                      <div className={`num font-extrabold ${v > 0 ? "text-up" : v < 0 ? "text-down" : "text-text-muted"}`}>{bigKRW(v)}</div>
+                    </div>
+                  ))}
+                </div>
+                <p className="pt-3" style={{ fontSize: 14 }}>
+                  네이버 금융 외국인·기관 순매매량 × 종가로 추정한 금액(±5%)이에요. 개인 = −(외국인+기관)으로 계산했어요.
+                </p>
+              </MoreDetails>
+            </>
+          )}
         </section>
+
+        {/* ② 가격 × 외국인 2×2 — 같은 5거래일 창, 둘 다 실측일 때만 */}
+        {flow && quad && <QuadGrid className="mb-4" {...quad} />}
 
         {isAdr && m.adr_premium_pct != null && (() => {
           const ratio = row.adr_ratio ?? 1;
           const pct = m.adr_premium_pct;
           const premColor = pct > 0 ? "text-up" : pct < 0 ? "text-down" : "text-text-muted";
           return (
-            <section className="mb-6 p-5 rounded-2xl bg-accent-blue/5 border border-accent-blue/20">
+            <section className="ds-card mb-4">
               <div className="flex items-center justify-between gap-3 mb-3">
                 <div className="text-xs text-text-dim">
                   ADR {ratio}주 = 보통주 1주 환산 대비 국내(KRX) 프리미엄
@@ -459,7 +525,7 @@ export default async function SymbolPage({ params }: Props) {
             : "CLOSED";
           const priceLabel = showHL ? srcTag : "정규장 종가";
           return (
-          <section className="mb-6 p-5 rounded-2xl bg-accent-blue/5 border border-accent-blue/20">
+          <section className="ds-card mb-4">
             <div className="flex items-center justify-between gap-3 mb-3">
               <div className="text-xs text-text-dim">{headerLabel}</div>
               <span className="text-[10px] font-semibold tabular text-text-dim shrink-0">{rightTag}</span>
@@ -570,29 +636,32 @@ export default async function SymbolPage({ params }: Props) {
           // 현재가 — 시간대 인지 메인 가격 (장중=KRX 실시간, 그 외=HL 야간 per_share_krw)
           const currentKrw = m.main_display_krw ?? m.regular_close_krw ?? m.per_share_krw ?? m.krw_price ?? null;
           const cdata = enrichWithCurrentPrice(raw, currentKrw);
-          return <ConsensusSection data={cdata} locale="ko" />;
+          return (
+            <div className="mb-4">
+              <TargetRangeCard data={cdata} locale="ko" showName={false} />
+              <Link href="/consensus" prefetch={false} className="inline-block ds-meta mt-2 ml-1 hover:text-text-muted underline">
+                증권사 목표가 전체 보기 →
+              </Link>
+            </div>
+          );
         })()}
 
         {/* 외국인·기관 매매 동향 — 한국주식 3종만 (samsung/hynix/hyundai) */}
-        {hasTradingFlow(row.slug) && (() => {
-          const flow = getTradingFlow(row.slug);
-          if (!flow) return null;
-          return <TradingFlowCard data={flow} locale="ko" />;
-        })()}
+        {flow && <TradingFlowCard data={flow} locale="ko" />}
 
         {/* 자사주 매입(바이백) 진행 현황 — 현재 하이닉스만 진행 중 */}
         {buyback && (
           <Link
             href={`/korea/${row.slug}/buyback`}
-            className="mb-6 p-4 rounded-2xl bg-accent-green/5 border border-accent-green/20 flex items-center justify-between gap-3 hover:bg-accent-green/10 transition"
+            className="ds-card mb-4 flex items-center justify-between gap-3 hover:bg-bg-hover transition"
           >
             <div>
               <div className="text-xs text-text-dim mb-0.5">자사주 매입 진행률</div>
-              <div className="text-lg font-bold tabular text-accent-green">
+              <div className="text-lg font-bold tabular text-text">
                 {buyback.progress.progress_pct.toFixed(1)}%
               </div>
             </div>
-            <span className="text-xs font-semibold text-accent-green shrink-0">바이백 현황 자세히 →</span>
+            <span className="text-xs font-semibold text-text-muted shrink-0">바이백 현황 자세히 →</span>
           </Link>
         )}
 
@@ -603,7 +672,7 @@ export default async function SymbolPage({ params }: Props) {
         )}
 
         {!row.is_fx && (candles.bars1H.length > 0 || candles.bars4H.length > 0) && (
-          <section className="mb-6">
+          <section className="mb-4">
             <PriceChart
               bars1H={candles.bars1H}
               bars4H={candles.bars4H}
@@ -617,7 +686,7 @@ export default async function SymbolPage({ params }: Props) {
           </section>
         )}
 
-        <section className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
+        <section className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-4">
           <Stat
             label={row.is_index ? "24h 시세 (지수)" : isBn ? "24h 시세 (Binance)" : "24h 시세 (HL)"}
             value={row.is_index
@@ -649,14 +718,14 @@ export default async function SymbolPage({ params }: Props) {
         </section>
 
         {row.note && (
-          <section className="mb-6 p-4 rounded-xl bg-bg-card border border-line text-xs text-text-muted leading-6">
+          <section className="ds-card mb-4 text-xs text-text-muted leading-6">
             <span className="font-semibold text-text-dim mr-2">📝 메모:</span>{row.note}
           </section>
         )}
 
         {/* 거래 방법 CTA — 한국주식 3종 (휴장에도 24h 거래 가능: 바이낸스 + HL) */}
         {row.category === "korea" && (
-          <section className="mb-6 p-5 rounded-xl bg-accent-amber/5 border border-accent-amber/20">
+          <section className="ds-card mb-4">
             <div className="font-semibold text-text mb-1 text-sm">💱 {row.name_ko} 24시간 거래하는 법</div>
             <p className="text-xs text-text-muted leading-relaxed mb-3">
               KRX 휴장 시간에도 {row.name_ko}를 long/short 거래할 수 있습니다. 가입부터 진입까지 단계별 안내:
@@ -678,7 +747,7 @@ export default async function SymbolPage({ params }: Props) {
           </section>
         )}
 
-        <section className="p-5 rounded-xl bg-accent-blue/5 border border-accent-blue/20 text-sm text-text-muted">
+        <section className="ds-card text-sm text-text-muted">
           <div className="font-semibold text-text mb-1">📊 데이터 출처</div>
           가격: {row.source === "binance" ? "Binance USDT-M 선물" : "Hyperliquid"} 24시간 시세 ({row.ticker}) · 환율: Upbit KRW/USDT · 업데이트 30초
         </section>
@@ -691,8 +760,8 @@ export default async function SymbolPage({ params }: Props) {
 
 function Stat({ label, value }: { label: string; value: string }) {
   return (
-    <div className="bg-bg-card border border-line rounded-xl p-3">
-      <div className="text-[10px] text-text-dim mb-1 uppercase tracking-wider">{label}</div>
+    <div className="ds-card" style={{ padding: 12 }}>
+      <div className="ds-meta mb-1">{label}</div>
       <div className="text-sm font-semibold tabular text-text">{value}</div>
     </div>
   );
@@ -713,4 +782,65 @@ function fmtBig(n: number): string {
   if (n >= 1e12) return `$${(n/1e12).toFixed(1)}T`;
   if (n >= 1e9) return `$${(n/1e9).toFixed(0)}B`;
   return `$${n.toFixed(0)}`;
+}
+
+/** 받침 있는 이름이면 true (은/는 선택) — 한글 음절 아니면 false */
+function hasJong(name: string): boolean {
+  const c = name.trim().charCodeAt(name.trim().length - 1);
+  if (c < 0xac00 || c > 0xd7a3) return false;
+  return (c - 0xac00) % 28 !== 0;
+}
+
+function fmtMD(date?: string): string {
+  if (!date) return "";
+  const [, mm, dd] = date.split("-");
+  return `${Number(mm)}/${Number(dd)}`;
+}
+
+function bigKRW(won: number): string {
+  const f = formatBigKRW(won);
+  return `${f.sign}${f.display}`;
+}
+
+/**
+ * 가격 × 외국인 2×2 (같은 5거래일 창). 가격 = 선물 4H 캔들에서 창 시작 직전 종가 → 창 마지막 날 15:30 KST 직전 종가.
+ * 창이 캔들 범위 밖이거나 값이 없으면 null (지어낸 숫자 없음).
+ */
+function buildQuad(flow: TradingFlowData, bars: Candle[], srcLabel: string) {
+  if (!flow.daily.length || bars.length < 2) return null;
+  const first = flow.daily[0].date;
+  const last = flow.daily[flow.daily.length - 1].date;
+  const fromSec = Date.parse(`${first}T09:00:00+09:00`) / 1000;
+  const toSec = Date.parse(`${last}T15:30:00+09:00`) / 1000;
+  if (!Number.isFinite(fromSec) || !Number.isFinite(toSec)) return null;
+  const before = bars.filter((b) => b.time + 4 * 3600 <= fromSec);
+  const upto = bars.filter((b) => b.time + 4 * 3600 <= toSec);
+  if (!before.length || !upto.length) return null;
+  const p0 = before[before.length - 1].close;
+  const p1 = upto[upto.length - 1].close;
+  if (!(p0 > 0) || upto[upto.length - 1] === before[before.length - 1]) return null;
+  const pricePct = ((p1 - p0) / p0) * 100;
+  const fw = flow.cumulative_5d.foreign_won;
+  const pUp = pricePct >= 0;
+  const fBuy = fw >= 0;
+  const idx = pUp ? (fBuy ? 0 : 1) : fBuy ? 2 : 3;
+  const titles = ["힘 있는 상승", "개인이 끌어올림", "외국인이 줍는 중", "같이 빠지는 중"];
+  const cells: [QuadCell, QuadCell, QuadCell, QuadCell] = [
+    { axis: "가격 ▲ · 외국인 삼", title: titles[0], desc: "큰손이 같이 사요", tone: "up" },
+    { axis: "가격 ▲ · 외국인 팖", title: titles[1], desc: "오래 못 가는 경우가 잦아요", tone: "warn" },
+    { axis: "가격 ▼ · 외국인 삼", title: titles[2], desc: "바닥 신호일 때가 있어요", tone: "down" },
+    { axis: "가격 ▼ · 외국인 팖", title: titles[3], desc: "조심할 구간이에요", tone: "down" },
+  ];
+  cells[idx] = { ...cells[idx], active: true };
+  const sign = pricePct > 0 ? "+" : pricePct < 0 ? "−" : "";
+  return {
+    eyebrow: "가격과 외국인, 같이 보면",
+    headline: (
+      <>
+        지금은 <span className="ds-hl">‘{titles[idx]}’</span> 칸이에요
+      </>
+    ),
+    cells,
+    footnote: `${fmtMD(first)}~${fmtMD(last)} 5거래일 · 가격 ${sign}${Math.abs(pricePct).toFixed(1)}% (${srcLabel} 4시간봉) · 외국인 ${bigKRW(fw)} (네이버 금융 추정) · 매매 권유 아님`,
+  };
 }

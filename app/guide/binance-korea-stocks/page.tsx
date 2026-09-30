@@ -54,18 +54,18 @@ export default async function BinanceKoreaStocksGuide() {
   return (
     <>
       <Header fxRate={data.fx.krw_per_usdt} fxChange={data.fx.change_24h_pct} />
-      <main className="max-w-3xl mx-auto px-5 pt-6 pb-12">
-        <Link href="/" className="text-xs text-text-dim hover:text-text-muted">
-          ← 홈으로
+      <main className="max-w-3xl mx-auto px-4 sm:px-5 pt-4 pb-12">
+        <Link href="/" prefetch={false} aria-label="홈으로" className="ds-iconbtn hover:bg-bg-hover transition">
+          <svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true"><path d="M12.5 4 6.5 10l6 6" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" /></svg>
         </Link>
 
         <article className="mt-4">
           <header className="mb-8">
-            <div className="text-xs text-accent-amber font-semibold mb-2 tracking-wider">GUIDE · BINANCE</div>
-            <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-3">
+            <div className="ds-eyebrow mb-2">GUIDE · BINANCE</div>
+            <h1 className="text-[26px] md:text-[30px] font-extrabold tracking-tight leading-tight mb-3">
               바이낸스에서 삼성·SK하이닉스·현대차 거래하는 법
             </h1>
-            <p className="text-text-muted text-base leading-relaxed">
+            <p className="ds-explain">
               2026년 6월 2일 바이낸스가 삼성전자·SK하이닉스·현대차 주가를 추종하는
               USDT-M 무기한 선물을 상장했습니다. 한국 주식을 정규장 휴장 시간에도
               24시간 long/short 거래할 수 있습니다. 외부 지갑·블록체인 브릿지 없이
@@ -73,7 +73,7 @@ export default async function BinanceKoreaStocksGuide() {
             </p>
           </header>
 
-          <section className="mb-8 p-5 rounded-xl bg-accent-red/5 border border-accent-red/20">
+          <section className="mb-4 ds-card !bg-warn-bg">
             <h2 className="text-sm font-bold text-accent-red mb-2">🚫 한국 계정은 실거래 불가</h2>
             <p className="text-xs text-text-muted leading-relaxed">
               바이낸스는 한국 IP·한국 신분증 KYC 계정의 SAMSUNGUSDT·SKHYNIXUSDT·HYUNDAIUSDT
@@ -84,7 +84,7 @@ export default async function BinanceKoreaStocksGuide() {
             </p>
           </section>
 
-          <section className="mb-8 p-5 rounded-2xl bg-bg-card border border-line">
+          <section className="mb-4 ds-card">
             <h2 className="text-lg font-bold mb-2">바이낸스 한국주식 선물이란?</h2>
             <p className="text-sm text-text-muted leading-relaxed">
               바이낸스 USDT-M 선물에 상장된 <span className="font-mono text-text">SAMSUNGUSDT</span>,
@@ -99,7 +99,7 @@ export default async function BinanceKoreaStocksGuide() {
             <h2 className="text-xl font-bold mb-4">단계별 거래 방법</h2>
 
             <div className="space-y-4">
-              <div className="p-4 rounded-xl bg-bg-card border border-line">
+              <div className="ds-card">
                 <div className="text-xs text-accent-amber font-semibold mb-1 tracking-wider">STEP 1</div>
                 <h3 className="font-bold text-base mb-2">바이낸스 가입 + 본인인증(KYC)</h3>
                 <p className="text-sm text-text-muted leading-relaxed mb-3">
@@ -124,7 +124,7 @@ export default async function BinanceKoreaStocksGuide() {
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl bg-bg-card border border-line">
+              <div className="ds-card">
                 <div className="text-xs text-accent-amber font-semibold mb-1 tracking-wider">STEP 2</div>
                 <h3 className="font-bold text-base mb-2">USDT 확보</h3>
                 <p className="text-sm text-text-muted leading-relaxed">
@@ -134,7 +134,7 @@ export default async function BinanceKoreaStocksGuide() {
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl bg-bg-card border border-line">
+              <div className="ds-card">
                 <div className="text-xs text-accent-amber font-semibold mb-1 tracking-wider">STEP 3</div>
                 <h3 className="font-bold text-base mb-2">선물(USD-M Futures) 지갑으로 이체</h3>
                 <p className="text-sm text-text-muted leading-relaxed">
@@ -144,7 +144,7 @@ export default async function BinanceKoreaStocksGuide() {
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl bg-bg-card border border-line">
+              <div className="ds-card">
                 <div className="text-xs text-accent-amber font-semibold mb-1 tracking-wider">STEP 4</div>
                 <h3 className="font-bold text-base mb-2">종목 검색 + long/short 진입</h3>
                 <p className="text-sm text-text-muted leading-relaxed">
@@ -164,7 +164,7 @@ export default async function BinanceKoreaStocksGuide() {
           </section>
 
           {/* 바이낸스 vs HL 비교 */}
-          <section className="mb-8 p-5 rounded-2xl bg-bg-card border border-line">
+          <section className="mb-4 ds-card">
             <h2 className="text-lg font-bold mb-3">바이낸스 vs 하이퍼리퀴드 — 뭐가 다른가</h2>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
@@ -214,7 +214,7 @@ export default async function BinanceKoreaStocksGuide() {
             </p>
           </section>
 
-          <section className="mb-8 p-5 rounded-xl bg-accent-amber/5 border border-accent-amber/20">
+          <section className="mb-4 ds-card">
             <h2 className="text-sm font-bold text-accent-amber mb-2">⚠️ 주의 사항</h2>
             <ul className="text-xs text-text-muted space-y-1 leading-relaxed">
               <li>
@@ -228,7 +228,7 @@ export default async function BinanceKoreaStocksGuide() {
             </ul>
           </section>
 
-          <section className="p-5 rounded-xl bg-accent-blue/5 border border-accent-blue/20">
+          <section className="ds-card">
             <h2 className="text-sm font-bold text-accent-blue mb-3">📊 가격 보면서 타이밍 잡기</h2>
             <p className="text-sm text-text-muted leading-relaxed mb-3">
               가입 + 충전 완료 후, kr-stocks.com 카드에서 바이낸스 24h 시세 + 정규장 종가 대비

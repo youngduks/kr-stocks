@@ -137,7 +137,7 @@ export function TradingFlowCard({
   const asOfLabel = lastDate ? fmtAsOf(lastDate, locale) : "";
 
   return (
-    <section className="mb-6 p-5 rounded-2xl bg-accent-green/5 border border-accent-green/20">
+    <section className="ds-card mb-4">
       <div className="flex items-center justify-between mb-3 gap-2 flex-wrap">
         <div className="text-xs text-text-dim">
           {t.title} · <span className="text-text-muted">{t.period}</span>

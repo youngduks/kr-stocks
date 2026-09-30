@@ -69,7 +69,7 @@ export function FundingBar({
     : "text-text-muted";
 
   return (
-    <section className="mb-6 p-4 rounded-2xl bg-bg-card border border-line">
+    <section className="ds-card mb-4">
       <div className="flex items-center justify-between mb-3 gap-2">
         <div className="text-xs text-text-dim">{t.title}</div>
         <div className={`text-xs font-semibold ${labelColor}`}>

@@ -45,15 +45,15 @@ export default async function GuideKoreanOvernightPrices() {
     <>
       <Header fxRate={data.fx.krw_per_usdt} fxChange={data.fx.change_24h_pct} />
 
-      <main className="max-w-3xl mx-auto px-5 pt-6 pb-12">
-        <Link href="/" className="text-xs text-text-dim hover:text-text-muted">
-          ← 홈으로
+      <main className="max-w-3xl mx-auto px-4 sm:px-5 pt-4 pb-12">
+        <Link href="/" prefetch={false} aria-label="홈으로" className="ds-iconbtn hover:bg-bg-hover transition">
+          <svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true"><path d="M12.5 4 6.5 10l6 6" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" /></svg>
         </Link>
 
         <article className="mt-4 space-y-6">
           <header className="mb-2">
             <div className="text-xs text-text-dim mb-2">📖 가이드 · 한국 retail 주식 24h 추적</div>
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight mb-3 leading-tight">
+            <h1 className="text-2xl sm:text-[26px] md:text-[30px] font-extrabold tracking-tight leading-tight mb-3 leading-tight">
               삼성전자 야간 가격 확인하는 법
             </h1>
             <p className="text-base text-text-muted leading-relaxed">
@@ -62,7 +62,7 @@ export default async function GuideKoreanOvernightPrices() {
             </p>
           </header>
 
-          <section className="p-5 rounded-2xl bg-accent-blue/5 border border-accent-blue/20">
+          <section className="ds-card">
             <h2 className="text-lg font-bold mb-3">🌙 왜 한국주식 야간 가격이 궁금한가</h2>
             <p className="text-sm text-text-muted leading-relaxed mb-3">
               한국 retail 투자자가 자주 마주치는 상황:
@@ -87,7 +87,7 @@ export default async function GuideKoreanOvernightPrices() {
             </p>
           </section>
 
-          <section className="p-5 rounded-2xl bg-bg-card border border-line">
+          <section className="ds-card">
             <h2 className="text-lg font-bold mb-3">⏰ 3-phase 시간대 정리 (KST 기준)</h2>
             <div className="space-y-3 text-sm text-text-muted leading-relaxed">
               <div className="flex items-start gap-3">
@@ -124,7 +124,7 @@ export default async function GuideKoreanOvernightPrices() {
             </div>
           </section>
 
-          <section className="p-5 rounded-2xl bg-accent-green/5 border border-accent-green/20">
+          <section className="ds-card">
             <h2 className="text-lg font-bold mb-3">🚀 kr-stocks.com 사용법</h2>
             <ol className="space-y-3 text-sm text-text-muted leading-relaxed ml-4 list-decimal">
               <li>
@@ -155,7 +155,7 @@ export default async function GuideKoreanOvernightPrices() {
             </ol>
           </section>
 
-          <section className="p-5 rounded-2xl bg-bg-card border border-line">
+          <section className="ds-card">
             <h2 className="text-lg font-bold mb-3">💡 직접 추적해보기 (deeplink)</h2>
             <div className="space-y-2">
               <Link
@@ -186,7 +186,7 @@ export default async function GuideKoreanOvernightPrices() {
             </div>
           </section>
 
-          <section className="p-5 rounded-2xl bg-accent-amber/5 border border-accent-amber/20">
+          <section className="ds-card">
             <h2 className="text-lg font-bold mb-3">⚠️ 야간 가격 해석 시 주의</h2>
             <ul className="space-y-2 text-sm text-text-muted leading-relaxed">
               <li>
@@ -208,7 +208,7 @@ export default async function GuideKoreanOvernightPrices() {
             </ul>
           </section>
 
-          <section className="p-5 rounded-2xl bg-bg-card border border-line">
+          <section className="ds-card">
             <h2 className="text-lg font-bold mb-3">❓ 자주 묻는 질문</h2>
             <div className="space-y-4 text-sm text-text-muted leading-relaxed">
               <div>

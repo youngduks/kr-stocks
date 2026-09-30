@@ -1,9 +1,12 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { fetchAllPrices } from "@/lib/fetchPrices";
-import Link from "next/link";
 import type { Metadata } from "next";
-import { ShoppingList, type DealView } from "./ShoppingList";
+import { ShoppingList, type DealMeta } from "./ShoppingList";
+import { DealCard, isVerified, VERIFIED_MIN_PCT, type DealView } from "./DealCard";
+import { PageTitle } from "@/components/ui/PageTitle";
+import { MoreDetails } from "@/components/ui/MoreDetails";
+import { AsOf } from "@/components/ui/AsOf";
 
 // 백엔드(jubjub_shop_fetcher.py, launchd 2분 주기)가 아르카라이브에서 쿠팡 스토어
 // 딜만 골라 deals.json으로 발행 → jubjub-shop.vercel.app에 정적 배포(30분 주기, 변경 시만).
@@ -35,20 +38,23 @@ type Deal = {
   source?: string;
   badge?: string;
   price_krw?: number;
+  is_low60?: boolean;
   low60?: number | null;
   avg60?: number | null;
   hist?: [string, number][] | null;
   img?: string | null;
 };
 
-async function fetchDeals(): Promise<Deal[]> {
+// updated: deals.json 발행 시각(epoch 초) — 상태 카드 'HH:MM 기준'에 사용
+async function fetchDeals(): Promise<{ deals: Deal[]; updated: number | null }> {
   try {
     const res = await fetch(DEALS_SOURCE, { next: { revalidate } });
-    if (!res.ok) return [];
+    if (!res.ok) return { deals: [], updated: null };
     const data = await res.json();
-    return (data.deals ?? []) as Deal[];
+    const updated = typeof data.updated === "number" && data.updated > 0 ? data.updated : null;
+    return { deals: (data.deals ?? []) as Deal[], updated };
   } catch {
-    return [];
+    return { deals: [], updated: null };
   }
 }
 
@@ -76,27 +82,22 @@ function timeAgo(ts: number): string {
   return `${Math.floor(diffH / 24)}일 전`;
 }
 
-// 백엔드 cat을 표시 탭으로 매핑. 생활용품·화장품은 아르카 자체 카테고리에서
-// 실제로 딜이 꾸준히 나와(2026-07-31 실측) '기타'에 묻히지 않게 별도 탭으로 분리.
+// 백엔드 cat → 표시 칩 그룹(2026-09 리디자인 B: 전체/📉 최저가/육아/식품/생활/가전/뷰티(+기타)).
+// 예전 '전자제품'(전자·IT)·'가전'(가전·컴퓨터) 두 탭은 '가전' 하나로 합침.
 function catGroup(cat: string): string {
-  if (cat === "가전·컴퓨터") return "가전";
+  if (cat === "가전·컴퓨터" || cat === "전자·IT") return "가전";
   if (cat === "육아용품") return "육아";
   if (cat === "식품") return "식품";
-  if (cat === "전자·IT") return "전자제품";
-  if (cat === "생활용품") return "생활용품";
-  if (cat === "화장품") return "화장품";
+  if (cat === "생활용품") return "생활";
+  if (cat === "화장품") return "뷰티";
   return "기타";
 }
 
-// 전체 탭에서 가전·전자제품을 상단으로 — 형님 지시(2026-08-01): 식품이 물량 대부분을
+// 전체 탭에서 가전(전자·IT 포함)을 상단으로 — 형님 지시(2026-08-01): 식품이 물량 대부분을
 // 차지해 전자·IT/가전이 아래로 밀려나는데, 오디언스(주식·코인 트레이더) 정합도 높고
-// 객단가도 훨씬 커서(TCL 모니터 ₩42만 등) 매출 기여가 큰 카테고리를 먼저 보여줘야 함
-// (Fable 분석 P1-5와 동일 방향). 카테고리별 탭(전자제품 탭 등)은 이미 단일 카테고리라
-// 이 우선순위와 무관 — '전체' 탭에서만 체감됨.
-const PRIORITY_GROUPS = new Set(["전자제품", "가전"]);
-// 우선순위 신선도 상한 — 형님 지적(2026-08-03): 상단 4칸을 6~12일 된 전자제품이
-// 계속 점유해 "업데이트 안 된다"는 체감을 줌. 전자제품이라도 오래되면 일반 정렬로
-// 내려가야 매번 같은 딜이 고정 노출되는 걸 막을 수 있음.
+// 객단가도 훨씬 커서 매출 기여가 큰 카테고리를 먼저 보여줘야 함.
+const PRIORITY_GROUPS = new Set(["가전"]);
+// 우선순위 신선도 상한 — 형님 지적(2026-08-03): 오래된 전자제품이 상단 고정 노출되는 것 방지.
 const PRIORITY_FRESH_DAYS = 3;
 
 // 폴센트 행 → 표시용 필드. 평균 대비 하락률은 avg60이 현재가보다 높을 때만(0% 이하는 숨김).
@@ -110,6 +111,7 @@ function fallcentView(d: Deal): Partial<DealView> {
     lowest60: true,
     badge: d.badge || "최근 2개월 최저가",
     img: d.img && d.img.startsWith("https://") ? d.img : undefined,
+    avg60: avg > 0 ? avg : undefined,
     avg60Str: avg > 0 ? `${avg.toLocaleString("ko-KR")}원` : undefined,
     avgDropPct: avg > 0 && price > 0 && avg > price ? Math.round(((avg - price) / avg) * 100) : undefined,
     hist: hist.length >= 2 ? hist.map((p) => p[1]) : undefined,
@@ -117,8 +119,17 @@ function fallcentView(d: Deal): Partial<DealView> {
   };
 }
 
+function hhmmKst(sec: number): string {
+  return new Date(sec * 1000).toLocaleTimeString("ko-KR", {
+    timeZone: "Asia/Seoul",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  });
+}
+
 export default async function ShoppingPage() {
-  const [data, deals] = await Promise.all([fetchAllPrices(), fetchDeals()]);
+  const [data, { deals, updated }] = await Promise.all([fetchAllPrices(), fetchDeals()]);
   const nowSec = Date.now() / 1000;
   const isFresh = (ts: number) => nowSec - ts <= PRIORITY_FRESH_DAYS * 86400;
   const views: DealView[] = [...deals]
@@ -146,50 +157,80 @@ export default async function ShoppingPage() {
       ...(d.source === "fallcent" ? fallcentView(d) : {}),
     }));
 
+  const lowCount = views.filter((v) => v.lowest60).length;
+  const babyCount = views.filter((v) => v.catGroup === "육아").length;
+  const asOfSec = updated ?? (deals.length ? Math.max(...deals.map((d) => d.ts || 0)) : null);
+
   return (
     <>
       <Header fxRate={data.fx.krw_per_usdt} fxChange={data.fx.change_24h_pct} />
-      <main className="max-w-3xl mx-auto px-5 pt-6 pb-12">
-        <Link href="/" className="text-xs text-text-dim hover:text-text-muted">
-          ← 홈으로
-        </Link>
+      <main className="max-w-3xl mx-auto px-4 sm:px-5 pt-4 pb-12">
+        {/* 카피는 이 사이트 오디언스(주식·코인 트레이더) 맥락 — "오늘 물렸으면, 여기서 쌀먹" 서사 유지 */}
+        <PageTitle eyebrow="줍줍쇼핑 · 오늘 물렸으면, 여기서 쌀먹 🛒" title="오늘 싸게 담을 것" backHref="/">
+          {asOfSec && <AsOf at={asOfSec * 1000} note="약 30분마다 갱신" />}
+        </PageTitle>
 
-        <article className="mt-4">
-          {/* 카피는 이 사이트 오디언스(주식·코인 트레이더) 맥락에 맞춤 —
-              "주식으로 받은 스트레스, 소비로 푼다 / 잃었으면 쌀먹이라도" 서사.
-              단순 '핫딜 모음'이 아니라 여기 방문자가 공감할 이유를 만들어 유입 전환. */}
-          <header className="mb-8">
-            <div className="text-xs text-orange-400 font-semibold mb-2 tracking-wider">줍줍쇼핑</div>
-            <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-3">
-              🛒 오늘 물렸으면, 여기서 쌀먹
-            </h1>
-            <p className="text-text-muted text-base leading-relaxed">
-              주식은 물타기 하면 안 되지만, 장바구니는 물타기 해도 됩니다.
-              <br className="hidden sm:block" />
-              시세보다 확실히 싼 쿠팡·토스쇼핑 딜만 골라 <span className="text-accent-green font-semibold">평균가 대비 할인율</span>을
-              자동 계산합니다. 주식처럼 <span className="text-text font-semibold">저점에서 담으세요.</span>
-            </p>
-            <p className="text-text-dim text-xs mt-3 leading-relaxed">
-              💡 30% 이상 싸면 <span className="text-accent-green font-semibold">📉 지금이 저점</span> 배지가,
-              쿠팡 60일 가격이력상 지금이 최저면 <span className="text-accent-green font-semibold">최근 2개월 최저가</span> 배지가,
-              가격오류로 의심될 만큼 비정상적으로 싸면 <span className="text-red-400 font-semibold">🚨 가격오류의심</span> 배지가 붙습니다.
-            </p>
-          </header>
+        {/* 제휴 고지 — 공정위 추천·보증 심사지침: 게시물 첫 부분에 눈에 띄게(작은 회색 각주 X) */}
+        <p className="mt-3 ds-tile text-[13px] leading-relaxed text-text-muted" style={{ padding: "10px 14px" }} role="note">
+          <b className="text-text">제휴 고지</b> · 이 페이지는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를
+          제공받습니다(토스쇼핑 쉐어링크 포함).
+        </p>
 
-          {views.length === 0 ? (
-            <div className="p-8 rounded-xl bg-bg-card border border-line text-center text-text-dim text-sm">
-              아직 수집된 딜이 없어요. 잠시 후 다시 열어주세요.
-            </div>
-          ) : (
-            <ShoppingList deals={views} />
-          )}
-
-          <p className="text-[10px] text-text-dim mt-6 leading-relaxed">
-            ※ 딜 출처: 아르카라이브·퀘이사존 핫딜 채널(쿠팡), 토스쇼핑 쉐어링크. 최근 2개월 최저가: 폴센트 60일 가격이력 기준. 가격·재고는 수시로 변동되니 구매 전 꼭 확인하세요.
-            "이 가격에 구매하기" 링크는 쿠팡 파트너스 또는 토스쇼핑 쉐어링크 제휴 링크로, 이 링크로 구매 시
-            해당 플랫폼으로부터 일정액의 수수료를 제공받습니다.
+        {/* 상태 카드 — 실제 집계 숫자만 */}
+        <section className="ds-card mt-3">
+          <div className="ds-eyebrow">그래서 오늘은?</div>
+          <h2 className="ds-status mt-1" style={{ fontSize: 21 }}>
+            {lowCount > 0 ? (
+              <>
+                최근 2개월 최저가가 <span className="ds-hl">{lowCount}개</span> 떴어요
+              </>
+            ) : views.length > 0 ? (
+              <>
+                오늘은 아직 <span className="ds-hl">최저가 확인 딜이 없어요</span>
+              </>
+            ) : (
+              <>아직 수집된 딜이 없어요</>
+            )}
+          </h2>
+          <p className="ds-meta mt-1 num">
+            오늘 확인된 최저가 {lowCount}개 · 육아 {babyCount}개{asOfSec ? ` · ${hhmmKst(asOfSec)} 기준` : ""}
           </p>
-        </article>
+          <p className="ds-explain mt-2" style={{ fontSize: 14 }}>
+            정가 대비 할인율 대신, 쿠팡 60일 가격 기록에서 지금이 가장 싼 딜에만 빨간 배지를 달아요.
+          </p>
+        </section>
+
+        {views.length === 0 ? (
+          <div className="ds-card mt-4 text-center ds-explain">아직 수집된 딜이 없어요. 잠시 후 다시 열어주세요.</div>
+        ) : (
+          <ShoppingList
+            deals={views.map(
+              (v): DealMeta => ({ id: v.id, store: v.store, catGroup: v.catGroup, lowest60: !!v.lowest60, verified: isVerified(v) }),
+            )}
+            cards={Object.fromEntries(views.map((v) => [v.id, <DealCard key={v.id} d={v} />]))}
+            flatMinPct={VERIFIED_MIN_PCT}
+          />
+        )}
+
+        <section className="ds-card mt-6" style={{ paddingTop: 4, paddingBottom: 4 }} aria-label="배지·출처 설명">
+          <MoreDetails summary="배지는 어떻게 붙나요?" className="!border-t-0 !mt-0">
+            <p>
+              <b className="text-up">최근 2개월 최저가</b>: 폴센트가 기록한 쿠팡 60일 가격 중 지금이 가장 쌀 때. 점선은 60일 평균이에요.
+            </p>
+            <p className="mt-2">
+              <b>평균 시세</b>: 다나와 평균가와 비교한 할인율. <b>토스 정가</b>: 토스쇼핑이 표시한 정가 대비 할인율로, 실제 거래 시세가 아니에요.
+            </p>
+            <p className="mt-2">
+              <b className="text-warn">⚠ 가격오류 의심</b>: 평소보다 비정상적으로 싸서 주문이 취소될 수도 있는 딜.
+            </p>
+          </MoreDetails>
+        </section>
+
+        <p className="ds-meta mt-4">
+          ※ 딜 출처: 아르카라이브·퀘이사존 핫딜 채널(쿠팡), 토스쇼핑 쉐어링크. 최근 2개월 최저가: 폴센트 60일 가격이력 기준.
+          가격·재고는 수시로 변동되니 구매 전 꼭 확인하세요. 구매 버튼은 쿠팡 파트너스 또는 토스쇼핑 쉐어링크 제휴 링크로,
+          이 링크로 구매 시 해당 플랫폼으로부터 일정액의 수수료를 제공받습니다.
+        </p>
       </main>
       <Footer />
     </>

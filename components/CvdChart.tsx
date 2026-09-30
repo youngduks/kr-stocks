@@ -349,7 +349,7 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
 
   if (!active || datasets.length === 0) {
     return (
-      <div className="rounded-2xl bg-bg-card border border-line/40 p-6 text-center">
+      <div className="ds-card text-center">
         <div className="text-sm text-text-dim">CVD 데이터를 불러올 수 없습니다.</div>
       </div>
     );
@@ -359,15 +359,15 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
   const trendArrow = trend.isUp ? "▲ 매수 우세" : "▼ 매도 우세";
 
   return (
-    <div className="rounded-2xl bg-gradient-to-b from-bg-card to-bg-card/60 border border-line/40 p-4 md:p-5">
+    <div className="ds-card">
       <div className="flex items-center justify-between mb-3 gap-2 flex-wrap">
-        <div className="inline-flex bg-bg-hover/60 rounded-full p-0.5 shrink-0">
+        <div className="inline-flex bg-bg-hover rounded-full p-1 shrink-0">
           {datasets.map((d, i) => (
             <button
               key={d.symbol}
               onClick={() => setTickerIdx(i)}
               aria-pressed={safeIdx === i}
-              className={`px-3 py-1 rounded-full text-[11px] font-bold transition-all whitespace-nowrap ${
+              className={`px-3.5 min-h-[36px] rounded-full text-[13px] font-bold transition-all whitespace-nowrap ${
                 safeIdx === i ? "bg-text text-bg shadow-sm" : "text-text-dim hover:text-text-muted"
               }`}
             >
@@ -375,14 +375,14 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
             </button>
           ))}
         </div>
-        <div className="inline-flex bg-bg-hover/60 rounded-full p-0.5 shrink-0">
+        <div className="inline-flex bg-bg-hover rounded-full p-1 shrink-0">
           {(["1D", "7D", "1M"] as Range[]).map((r) => (
             <button
               key={r}
               onClick={() => setRange(r)}
               disabled={!rangeAvailable[r]}
               aria-pressed={shownRange === r}
-              className={`px-3 py-1 rounded-full text-[11px] font-bold transition-all disabled:opacity-40 disabled:cursor-not-allowed ${
+              className={`px-3.5 min-h-[36px] rounded-full text-[13px] font-bold transition-all disabled:opacity-40 disabled:cursor-not-allowed ${
                 shownRange === r ? "bg-text text-bg shadow-sm" : "text-text-dim hover:text-text-muted"
               }`}
             >
@@ -394,12 +394,12 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
 
       <div className="flex items-center justify-between gap-2 mb-2 flex-wrap">
         <div className="flex items-baseline gap-2">
-          <div className="text-[10px] text-text-dim font-semibold tracking-[0.12em] uppercase">
+          <div className="text-[12px] text-text-dim font-semibold">
             {RANGE_LABEL[shownRange]} 체결강도 누적(CVD)
           </div>
           <div className={`text-xs font-bold tabular ${trendColorClass}`}>{trendArrow}</div>
         </div>
-        <div className="flex items-center gap-3 text-[10px] text-text-dim">
+        <div className="flex items-center gap-3 text-[12px] text-text-dim">
           <span className="inline-flex items-center gap-1">
             <span className="inline-block w-3 h-[2px]" style={{ backgroundColor: COLOR.amber }} />
             가격(좌축)
@@ -412,7 +412,7 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
       </div>
 
       {/* 빗썸식 상승/하락 비율 — 이 구간 실제 체결된 매수·매도 금액 비중 (예측이 아닌 실측) */}
-      <div className="text-[9px] text-text-dim mb-1">
+      <div className="text-[12px] text-text-dim mb-1">
         {RANGE_LABEL[shownRange]} 매수·매도 체결 비중 (실측, 예측 아님)
       </div>
       <div className="flex items-center gap-2 mb-3 text-[11px] font-bold tabular">
@@ -432,7 +432,7 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
 
       <div ref={containerRef} className="w-full h-[220px] md:h-[300px]" />
       {supportLevels.length > 0 && (
-        <p className="mt-2 text-[10px] text-text-dim leading-relaxed">
+        <p className="mt-2 text-[12px] text-text-dim leading-relaxed">
           <span style={{ color: COLOR.purple }} className="font-semibold">
             ┈┈ 지지선
           </span>{" "}

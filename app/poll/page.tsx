@@ -6,6 +6,9 @@ import { Footer } from "@/components/Footer";
 import { PollWidget } from "@/components/PollWidget";
 import { PersonCard } from "@/components/PersonCard";
 import type { Metadata } from "next";
+import { PageTitle } from "@/components/ui/PageTitle";
+import { StatusCard, StatTile } from "@/components/ui/StatusCard";
+import { MoreDetails } from "@/components/ui/MoreDetails";
 
 export const revalidate = 300;
 
@@ -26,87 +29,53 @@ function outcomeLabel(o: EnrichedPollHistory["outcome"]): string {
   return o === "up" ? "상승" : o === "down" ? "하락" : "보합";
 }
 
-function HistoryCard({ p }: { p: EnrichedPollHistory }) {
-  const crowdLabel =
-    p.crowdPick === "up"
-      ? p.yesLabel
-      : p.crowdPick === "down"
-        ? p.noLabel
-        : "동률";
+const RECENT_N = 5;
 
+/** history.json 라벨의 앞머리 이모지(📈/📉 등) 제거 — 이모지 폰트 의존·시각 소음 줄이기 */
+function cleanLabel(l: string): string {
+  return l.replace(/^[^0-9A-Za-z\uAC00-\uD7A3]+/, "").trim() || l;
+}
+
+function HistoryCard({ p }: { p: EnrichedPollHistory }) {
+  const yesL = cleanLabel(p.yesLabel);
+  const noL = cleanLabel(p.noLabel);
+  const crowdLabel = p.crowdPick === "up" ? yesL : p.crowdPick === "down" ? noL : "동률";
   return (
-    <div className="rounded-xl bg-bg-card border border-line p-4">
-      <div className="flex items-baseline justify-between gap-3 flex-wrap mb-1">
-        <div className="text-base font-bold text-text">{p.dateLabel}</div>
-        {p.correct !== null && (
-          <span
-            className={`text-[11px] font-bold px-2 py-0.5 rounded-full ${
-              p.correct
-                ? "bg-live/15 text-live"
-                : "bg-flat-bg text-flat"
-            }`}
-          >
-            {p.correct ? "✅ 적중" : "❌ 빗나감"}
+    <div className="ds-card" style={{ padding: 16 }}>
+      <div className="flex items-center justify-between gap-3">
+        <div className="text-[15px] font-extrabold text-text">{p.dateLabel}</div>
+        {p.correct !== null ? (
+          <span className={`ds-pill ${p.correct ? "bg-live/15 text-live" : "ds-pill-flat"}`}>
+            {p.correct ? "적중" : "빗나감"}
           </span>
+        ) : (
+          <span className="ds-pill ds-pill-flat">판정 없음</span>
         )}
       </div>
-      <div className="text-sm text-text-muted mb-3">{p.question}</div>
-
-      <div className="space-y-2 mb-3">
-        <div>
-          <div className="flex items-center justify-between text-xs text-text-muted mb-1">
-            <span className={p.crowdPick === "up" ? "font-bold text-text" : ""}>
-              {p.yesLabel}
-            </span>
-            <span>
-              {p.yesPct}% · {p.yes}표
-            </span>
-          </div>
-          <div className="w-full h-2 rounded-full bg-bg overflow-hidden">
-            <div
-              className="h-full bg-up"
-              style={{ width: `${p.yesPct}%` }}
-            />
-          </div>
-        </div>
-        <div>
-          <div className="flex items-center justify-between text-xs text-text-muted mb-1">
-            <span className={p.crowdPick === "down" ? "font-bold text-text" : ""}>
-              {p.noLabel}
-            </span>
-            <span>
-              {p.noPct}% · {p.no}표
-            </span>
-          </div>
-          <div className="w-full h-2 rounded-full bg-bg overflow-hidden">
-            <div
-              className="h-full bg-down"
-              style={{ width: `${p.noPct}%` }}
-            />
-          </div>
-        </div>
-      </div>
-
-      <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-text-dim border-t border-line pt-2">
-        <span>
-          군중 예측 <span className="text-text-muted font-semibold">{crowdLabel}</span>
+      <div className="flex items-center justify-between gap-2 mt-3 text-[13px] font-bold num">
+        <span className={`text-up ${p.crowdPick === "up" ? "" : "opacity-70"}`}>
+          ▲ {yesL} {p.yesPct}%
         </span>
-        <span>
-          실제 결과{" "}
-          <span
-            className={`font-semibold ${
-              p.outcome === "up"
-                ? "text-up"
-                : p.outcome === "down"
-                  ? "text-down"
-                  : "text-text-muted"
-            }`}
-          >
-            {outcomeLabel(p.outcome)}
-          </span>
+        <span className="ds-meta">{p.total}표</span>
+        <span className={`text-down ${p.crowdPick === "down" ? "" : "opacity-70"}`}>
+          ▼ {noL} {p.noPct}%
         </span>
-        <span className="text-text-dim/80">· {p.outcomeDetail}</span>
       </div>
+      <div className="mt-1 h-2 w-full rounded-full bg-flat-bg overflow-hidden flex" aria-hidden="true">
+        {p.total > 0 && (
+          <>
+            <div className="h-full bg-up" style={{ width: `${p.yesPct}%` }} />
+            <div className="h-full bg-down" style={{ width: `${p.noPct}%` }} />
+          </>
+        )}
+      </div>
+      <div className="text-[13px] text-text-muted mt-3">
+        군중 예측 <b className="text-text">{crowdLabel}</b> · 실제 결과{" "}
+        <b className={p.outcome === "up" ? "text-up" : p.outcome === "down" ? "text-down" : "text-text"}>
+          {outcomeLabel(p.outcome)}
+        </b>
+      </div>
+      <div className="ds-meta mt-1">{p.outcomeDetail}</div>
     </div>
   );
 }
@@ -115,51 +84,22 @@ export default async function PollPage() {
   const [prices, people] = await Promise.all([fetchAllPrices(), getHumanIndicators()]);
   const { polls, resolvedCount, correctCount, hitRate } = getPollHistory();
 
+  // 실데이터(data/polls/history.json)에서만 계산
+  const judged = polls.filter((p) => p.correct !== null);
+  const recent = judged.slice(0, 10);
+  const recentHits = recent.filter((p) => p.correct).length;
+  const avgVotes = polls.length > 0 ? Math.round(polls.reduce((n, p) => n + p.total, 0) / polls.length) : null;
+  const head = polls.slice(0, RECENT_N);
+  const rest = polls.slice(RECENT_N);
+
   return (
     <>
       <Header fxRate={prices.fx.krw_per_usdt} fxChange={prices.fx.change_24h_pct} />
 
-      <main className="max-w-3xl mx-auto px-5 pt-6 pb-12">
-        <section className="mb-6">
-          <h1 className="text-2xl sm:text-3xl font-bold tracking-tight mb-2">
-            🗳️ 인간지표
-          </h1>
-          <div className="text-sm text-text-muted leading-relaxed">
-            <div>개미들의 내일 상승/하락 집단예측 vs 실제 시장 결과.</div>
-            <div>군중은 과연 시장을 맞힐까?</div>
-          </div>
-        </section>
+      <main className="max-w-3xl mx-auto px-4 sm:px-5 pt-2 pb-12">
+        <PageTitle eyebrow="재미로 보는 군중 예측 · 인물 지표" title="인간지표" backHref="/" className="mb-4" />
 
-        {people.length > 0 && (
-          <>
-            <h2 className="text-lg font-bold text-text mb-1">🎯 인물 지표 (번외)</h2>
-            <p className="text-xs text-text-dim mb-3">
-              특정 인물의 시장 발언을 역발상 참고용으로 기록합니다 — 실제로 존재하는 별명·평판을
-              근거로 소개하며, 조롱이 목적은 아닙니다.
-            </p>
-            <div className="space-y-3 mb-6">
-              {people.map((p) => (
-                <PersonCard key={p.id} person={p} />
-              ))}
-            </div>
-          </>
-        )}
-
-        {hitRate !== null && (
-          <div className="mb-6 rounded-xl bg-bg-card border border-line p-4 flex items-center justify-between gap-3">
-            <div className="text-sm text-text-muted">
-              지금까지 군중 <span className="font-semibold text-text">적중률</span>
-            </div>
-            <div className="text-right">
-              <div className="text-2xl font-bold tabular text-text">{hitRate}%</div>
-              <div className="text-[11px] text-text-dim">
-                {correctCount}/{resolvedCount} 적중
-              </div>
-            </div>
-          </div>
-        )}
-
-        <h2 className="text-lg font-bold text-text mb-3">지금 투표하기</h2>
+        {/* ① 오늘의 투표 — ⚠ pollId / question 은 scripts/update-poll.mjs 가 정규식으로 매일 교체 — 속성 형태 유지 */}
         <PollWidget
           pollId="market-updown-2026-09-30"
           title="인간지표 — 내일 상승 vs 하락"
@@ -168,24 +108,112 @@ export default async function PollPage() {
           noLabel="▼ 내린다"
         />
 
-        <h2 className="text-lg font-bold text-text mb-3 mt-2">지난 결과</h2>
-        {polls.length === 0 ? (
-          <div className="rounded-xl bg-bg-card border border-line p-4 text-sm text-text-dim">
-            아직 마감된 투표가 없어요. 첫 결과를 기다리는 중 👀
-          </div>
-        ) : (
-          <div className="space-y-3">
-            {polls.map((p) => (
-              <HistoryCard key={p.pollId} p={p} />
-            ))}
-          </div>
+        {/* ② 군중 적중률 상태 카드 — history.json 집계만 */}
+        {hitRate !== null && (
+          <StatusCard
+            className="mb-6"
+            eyebrow="그래서 군중은 잘 맞혔을까?"
+            pill={{
+              tone: hitRate > 50 ? "up" : hitRate < 50 ? "down" : "flat",
+              label: hitRate > 50 ? "반 넘게 맞힘" : hitRate < 50 ? "반도 못 맞힘" : "딱 반",
+            }}
+            headline={
+              <>
+                지금까지 {resolvedCount}번 중
+                <br />
+                <span className="ds-hl">{correctCount}번 맞혔어요</span>
+              </>
+            }
+            explain={
+              <>
+                다수가 고른 방향이 실제 다음 날 결과와 같았던 비율이에요. 동전 던지기(50%)와 비교해 보세요.
+              </>
+            }
+            more={{
+              summary: "조금 더 — 어떻게 채점하나요?",
+              content: (
+                <>
+                  투표는 NXT 프리장 오픈(08:00) 전에 마감되고, 삼성전자(005930) 정규장 종가를 전날 종가와 비교해
+                  상승·하락을 판정해요. 표가 같거나(동률) 보합으로 끝난 날은 채점에서 빼요({polls.length - resolvedCount}번).
+                  재미로 보는 지표예요.
+                </>
+              ),
+            }}
+          >
+            <div className="grid grid-cols-3 gap-2 mt-4">
+              <StatTile label="적중률" value={`${hitRate}%`} sub={`${correctCount}/${resolvedCount}`} />
+              <StatTile
+                label={`최근 ${recent.length}번`}
+                value={`${recentHits}번`}
+                sub="맞힘"
+              />
+              <StatTile label="평균 참여" value={avgVotes != null ? `${avgVotes}명` : "—"} sub="투표당" />
+            </div>
+            {recent.length > 0 && (
+              <div className="mt-4">
+                <div className="text-[13px] font-bold text-text-muted">최근 {recent.length}번 (왼쪽이 최신)</div>
+                <div className="mt-2 flex flex-wrap gap-[6px]" aria-label={`최근 ${recent.length}번 중 ${recentHits}번 적중`}>
+                  {recent.map((p) => (
+                    <span
+                      key={p.pollId}
+                      title={`${p.dateLabel} ${p.correct ? "적중" : "빗나감"}`}
+                      className={`w-[18px] h-[18px] rounded-full ${p.correct ? "bg-ink" : "bg-flat-bg border border-line"}`}
+                    />
+                  ))}
+                </div>
+                <div className="ds-meta mt-2">검은 점 = 맞힘 · 빈 점 = 빗나감</div>
+              </div>
+            )}
+          </StatusCard>
         )}
 
-        <div className="mt-8 p-4 rounded-xl bg-bg-card border border-line text-xs text-text-dim leading-relaxed">
-          <span className="font-semibold text-text-muted">인간지표란?</span> 개미
-          투자자들이 다음 거래일 상승/하락을 미리 투표한 집단예측입니다. 투표는 NXT
-          프리장 오픈(08:00) 전 마감되고, 정규장 종가로 실제 결과를 판정합니다. 재미로
-          보는 지표예요 ㅎ
+        {/* ③ 인물 지표 */}
+        {people.length > 0 && (
+          <section className="mb-8" aria-labelledby="people-h">
+            <h2 id="people-h" className="ds-h2">
+              인물 지표 <span className="ds-meta font-medium">번외 · 역발상 참고용</span>
+            </h2>
+            <p className="ds-meta mt-1 mb-3">
+              특정 인물의 시장 발언을 역발상 참고용으로 기록해요. 실제로 있는 별명·평판을 근거로 소개하며, 조롱이 목적은 아니에요.
+            </p>
+            <div className="space-y-3">
+              {people.map((p) => (
+                <PersonCard key={p.id} person={p} />
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* ④ 지난 결과 — 최신 5개 + 더 보기 */}
+        <section aria-labelledby="history-h">
+          <h2 id="history-h" className="ds-h2 mb-3">
+            지난 결과
+          </h2>
+          {polls.length === 0 ? (
+            <div className="ds-card ds-explain">아직 마감된 투표가 없어요. 첫 결과를 기다리는 중이에요.</div>
+          ) : (
+            <>
+              <div className="space-y-3">
+                {head.map((p) => (
+                  <HistoryCard key={p.pollId} p={p} />
+                ))}
+              </div>
+              {rest.length > 0 && (
+                <MoreDetails summary={`지난 결과 ${rest.length}개 더 보기`} className="mt-4">
+                  <div className="space-y-3 pt-1">
+                    {rest.map((p) => (
+                      <HistoryCard key={p.pollId} p={p} />
+                    ))}
+                  </div>
+                </MoreDetails>
+              )}
+            </>
+          )}
+        </section>
+
+        <div className="ds-card mt-8 ds-explain" style={{ fontSize: 14 }}>
+          <b className="text-text">인간지표란?</b> 개미 투자자들이 다음 거래일 상승·하락을 미리 투표한 집단예측이에요.
+          투표는 NXT 프리장 오픈(08:00) 전 마감되고, 정규장 종가로 실제 결과를 판정해요. 재미로 보는 지표예요.
         </div>
       </main>
 

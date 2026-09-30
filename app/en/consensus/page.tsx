@@ -4,6 +4,8 @@ import { ConsensusView } from "@/components/ConsensusView";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import type { Metadata } from "next";
+import { PageTitle } from "@/components/ui/PageTitle";
+import { MoreDetails } from "@/components/ui/MoreDetails";
 
 export const revalidate = 1800;
 export const dynamic = "force-dynamic";
@@ -63,28 +65,18 @@ export default async function ConsensusPageEN() {
     <>
       <Header fxRate={prices.fx.krw_per_usdt} fxChange={prices.fx.change_24h_pct} />
 
-      <main className="max-w-6xl mx-auto px-5 pt-6 pb-12">
-        <section className="mb-6">
-          <h1 className="text-2xl sm:text-3xl font-bold tracking-tight mb-2">
-            Korean Broker Consensus
-          </h1>
-          <div className="text-sm text-text-muted leading-relaxed">
-            <div>Aggregated analyst price targets from 13~14 major Korean brokers</div>
-            <div>Average target vs current price upside visualization</div>
-          </div>
-        </section>
+      <main className="max-w-3xl mx-auto px-4 sm:px-5 pt-2 pb-12">
+        <PageTitle eyebrow="Naver Finance consensus · updated every weekday" title="Broker price targets" backHref="/en" backLabel="Home" className="mb-4" />
 
         <ConsensusView all={enriched} locale="en" />
 
-        <div className="mt-10 p-4 rounded-xl bg-bg-card border border-line text-xs text-text-dim leading-relaxed">
-          <span className="font-semibold text-text-muted">What is consensus?</span>{" "}
-          The aggregated average of analyst price targets and investment opinions
-          from multiple brokers. When the average target is above the current
-          price, it suggests "upside potential (▲)"; below means "downside risk
-          (▼)". Actual market prices depend on many factors — treat this as a
-          reference only. All figures shown are refreshed automatically every
-          weekday from Naver Finance consensus data.
-        </div>
+        <section className="ds-card mt-6" style={{ paddingTop: 4, paddingBottom: 4 }}>
+          <MoreDetails summary="How to read broker targets" className="!mt-0 !border-t-0">
+            The aggregated average of analyst price targets and opinions from multiple Korean brokers. A target above the
+            current price suggests upside; below suggests the stock may pause. Actual prices depend on many factors — treat
+            this as a reference only. All figures refresh automatically every weekday from Naver Finance consensus data.
+          </MoreDetails>
+        </section>
       </main>
 
       <Footer locale="en" />

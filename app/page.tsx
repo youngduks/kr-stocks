@@ -295,9 +295,9 @@ export default async function Home() {
         {/* ④ 인간지표 — 내일 상승/하락 투표 (NXT 프리장 오픈 전 마감). 지난 결과 → /poll
             ⚠ pollId / question 은 scripts/update-poll.mjs 가 정규식으로 매일 교체 — 속성 형태 유지 */}
         <PollWidget
-          pollId="market-updown-2026-09-30"
+          pollId="market-updown-2026-10-01"
           title="인간지표 · 재미로 보는 군중 예측"
-          question="9/30(수) 한국 증시, 오를까요 내릴까요?"
+          question="10/1(목) 한국 증시, 오를까요 내릴까요?"
           yesLabel="▲ 오른다"
           noLabel="▼ 내린다"
           historyHref="/poll"

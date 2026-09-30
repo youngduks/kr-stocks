@@ -2,8 +2,5 @@
   "name": "human-indicators-updater",
   "private": true,
   "type": "module",
-  "description": "인물 지표 자동 업데이트 전용 — playwright는 여기서만 설치, 루트 package.json(Vercel 빌드)엔 절대 안 섞음.",
-  "dependencies": {
-    "playwright": "^1.48.0"
-  }
+  "description": "인물 지표 자동 업데이트 전용 — 자막은 yt-dlp(시스템 바이너리), 분류는 REST API 또는 로컬 claude CLI 사용. Node 의존성 없음(루트 package.json/Vercel 빌드엔 무관)."
 }

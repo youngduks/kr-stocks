@@ -5,6 +5,12 @@
  */
 import { Sparkline } from "@/components/ui/Sparkline";
 
+/** 쿠팡 CDN 썸네일은 경로에 크기가 들어감(492x492ex·640x640ex) — 84px 표시(최대 3x DPR)엔 230이면 충분.
+ *  실측 220KB → 58KB(PNG), 60KB → 10KB(JPG). 다른 CDN 은 그대로. (Phase C 성능) */
+function thumbSrc(url: string): string {
+  return url.replace(/(thumbnail\d*\.coupangcdn\.com\/thumbnails\/remote\/)\d+x\d+ex\//, "$1230x230ex/");
+}
+
 // 서버(page.tsx)에서 timeAgoStr·catGroup을 미리 계산 — SSR/CSR 시간차 hydration mismatch 회피.
 export type DealView = {
   id: string;
@@ -103,7 +109,7 @@ export function DealCard({ d }: { d: DealView }) {
           {d.img ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img
-              src={d.img}
+              src={thumbSrc(d.img)}
               alt=""
               width={84}
               height={84}

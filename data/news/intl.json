@@ -1,8 +1,216 @@
 {
   "category": "intl",
-  "updated_at": "2026-09-30T18:39:46.601Z",
-  "count": 33,
+  "updated_at": "2026-09-30T22:41:25.055Z",
+  "count": 48,
   "items": [
+    {
+      "title": "\"반세기 숙원 이뤘다\"...韓 합의 없이 '500억달러' 알래스카 투자 못박은 트럼프[이상은의 워싱턴나우]",
+      "link": "https://www.hankyung.com/article/202610016023i",
+      "source": "한국경제",
+      "ts": 1790805129000,
+      "pub": "Thu, 01 Oct 2026 06:52:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "선거 급한 트럼프, 협의 안끝난 韓투자금으로 격전지 표심 공략",
+      "link": "https://www.yna.co.kr/view/AKR20261001011300071",
+      "source": "연합뉴스 국제",
+      "ts": 1790804776000,
+      "pub": "Thu, 1 Oct 2026 06:46:16 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령이 30일(현지시간) 한국의 대미투자 프로젝트를 발표하며 알래스카 액화천연가스(L...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/01/PEP20261001075101009_P2.jpg"
+    },
+    {
+      "title": "뉴욕증시, 美PCE 예상 밑돌았지만 장기금리 부담에 혼조세(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261001006251072",
+      "source": "연합뉴스 국제",
+      "ts": 1790803764000,
+      "pub": "Thu, 1 Oct 2026 06:29:24 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 뉴욕증시의 3대 지수가 30일(현지시간) 혼조세로 마감했다.",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/09/26/PRU20260926018801009_P2.jpg"
+    },
+    {
+      "title": "산업장관 \"美, 어떤 형태든 관세 15% 수준 유지 입장 밝혀\"",
+      "link": "https://www.hankyung.com/article/2026100161257",
+      "source": "한국경제",
+      "ts": 1790803650000,
+      "pub": "Thu, 01 Oct 2026 06:27:30 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 韓 대미투자 '알래스카 LNG·원전 8기' 일방 발표 [종합]",
+      "link": "https://www.hankyung.com/article/2026100161147",
+      "source": "한국경제",
+      "ts": 1790802949000,
+      "pub": "Thu, 01 Oct 2026 06:15:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "산업장관 \"대미투자, 관세 압박 관리 차원…15% 상한선 재확인\"",
+      "link": "https://www.yna.co.kr/view/AKR20260923159400003",
+      "source": "연합뉴스 경제",
+      "ts": 1790802574000,
+      "pub": "Thu, 1 Oct 2026 06:09:34 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 신창용 장보인 기자 = 도널드 트럼프 미국 행정부의 추가 관세 발표가 임박한 가운데 통상 당국이 미국 측으로부터 기존 관세 합...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/09/17/93/PCM20260917000193990_P2.jpg"
+    },
+    {
+      "title": "트럼프, '알래스카 LNG 개발사업에 한국 투자' 일방 발표(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261001006951071",
+      "source": "연합뉴스 국제",
+      "ts": 1790802349000,
+      "pub": "Thu, 1 Oct 2026 06:05:49 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 30일(현지시간) 한국이 알래스카 액화천연가스(LNG) 개발 사업에 투자한다고...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/10/01/PAP20261001081001009_P2.jpg"
+    },
+    {
+      "title": "[일지] 한미 관세 합의부터 전략투자 프로젝트 발표까지",
+      "link": "https://www.yna.co.kr/view/AKR20260923091300003",
+      "source": "연합뉴스 경제",
+      "ts": 1790802170000,
+      "pub": "Thu, 1 Oct 2026 06:02:50 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 장보인 기자 = 한국과 미국 정부의 긴 협상 끝에 1일 첫 대미 전략적 투자 프로젝트가 발표됐다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2025/10/29/PYH2025102919900001300_P2.jpg"
+    },
+    {
+      "title": "[美중간선거 D-30] ① 이란전쟁의 검은 그림자…심판대 오르는 트럼프",
+      "link": "https://www.yna.co.kr/view/AKR20260929188800071",
+      "source": "연합뉴스 국제",
+      "ts": 1790802072000,
+      "pub": "Thu, 1 Oct 2026 06:01:12 +0900",
+      "sentiment": "neutral",
+      "desc": "[※편집자주 = 미국에서는 11월 3일 중간선거가 치러집니다. 향후 2년간의 미국 의회 권력 지형을 결정짓는 선거로, 도널드 트럼프 대통령의 집...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/06/27/PEP20260627082701009_P2.jpg"
+    },
+    {
+      "title": "[속보] 트럼프 정부 장관들 \"동맹국, 美 자원 의존하게 될 것\"",
+      "link": "https://www.hankyung.com/article/202610016070i",
+      "source": "한국경제",
+      "ts": 1790801989000,
+      "pub": "Thu, 01 Oct 2026 05:59:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 정부 \"알래스카 LNG, 500억달러 넘는 자금 투자\"",
+      "link": "https://www.hankyung.com/article/202610016060i",
+      "source": "한국경제",
+      "ts": 1790801654000,
+      "pub": "Thu, 01 Oct 2026 05:54:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"알래스카 주민들 엄청난 승리…즉각 13000개 일자리 창출\"",
+      "link": "https://www.hankyung.com/article/202610016056i",
+      "source": "한국경제",
+      "ts": 1790801318000,
+      "pub": "Thu, 01 Oct 2026 05:48:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"한국, 관세인하 위해 비용 지불…美, 막대한 수익 창출\"",
+      "link": "https://www.hankyung.com/article/202610016053i",
+      "source": "한국경제",
+      "ts": 1790800829000,
+      "pub": "Thu, 01 Oct 2026 05:40:29 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[2보] 트럼프, 韓대미투자 발표…'알래스카 LNG 개발' 포함",
+      "link": "https://www.yna.co.kr/view/AKR20261001006900071",
+      "source": "연합뉴스 국제",
+      "ts": 1790800717000,
+      "pub": "Thu, 1 Oct 2026 05:38:37 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 30일(현지시간) 텍사스 가스발전소 건설, 대형 원자력발전소 8기 건설, 알래...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/10/01/PAP20261001080501009_P2.jpg"
+    },
+    {
+      "title": "[속보] 트럼프 \"韓, 2000억달러 대미투자…알래스카 LNG 개발 포함\"",
+      "link": "https://www.hankyung.com/article/202610016051i",
+      "source": "한국경제",
+      "ts": 1790800526000,
+      "pub": "Thu, 01 Oct 2026 05:35:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"한국 대미투자…텍사스 가스발전·대형 원전 8기\"",
+      "link": "https://www.hankyung.com/article/2026100160507",
+      "source": "한국경제",
+      "ts": 1790800425000,
+      "pub": "Thu, 01 Oct 2026 05:33:45 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프, 韓 대미투자 발표…'알래스카 LNG 개발' 포함",
+      "link": "https://www.hankyung.com/article/2026100160487",
+      "source": "한국경제",
+      "ts": 1790800367000,
+      "pub": "Thu, 01 Oct 2026 05:32:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 트럼프 \"한국 대미투자…텍사스 가스발전·대형 원전 8기\"",
+      "link": "https://www.yna.co.kr/view/AKR20261001006700071",
+      "source": "연합뉴스 국제",
+      "ts": 1790800358000,
+      "pub": "Thu, 1 Oct 2026 05:32:38 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/cms/2026/03/26/78/PCM20260326000078990_P2.jpg"
+    },
+    {
+      "title": "[1보] 트럼프, 韓대미투자 발표…'알래스카 LNG 개발' 포함",
+      "link": "https://www.yna.co.kr/view/AKR20261001006600071",
+      "source": "연합뉴스 국제",
+      "ts": 1790800274000,
+      "pub": "Thu, 1 Oct 2026 05:31:14 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/cms/2026/03/26/76/PCM20260326000076990_P2.jpg"
+    },
+    {
+      "title": "트럼프 \"호르무즈 원유 수송 역대 최다…이란전 곧 승리\"",
+      "link": "https://www.hankyung.com/article/2026100160387",
+      "source": "한국경제",
+      "ts": 1790799253000,
+      "pub": "Thu, 01 Oct 2026 05:14:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"호르무즈서 사흘간 운송된 원유, 어느 때보다 많아\"",
+      "link": "https://www.yna.co.kr/view/AKR20261001004800071",
+      "source": "연합뉴스 국제",
+      "ts": 1790796935000,
+      "pub": "Thu, 1 Oct 2026 04:35:35 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 30일(현지시간) 호르무즈 해협을 통해 최근 빠져나온 원유가 전쟁 전보다 많았...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/01/PRU20261001061401009_P2.jpg"
+    },
+    {
+      "title": "\"이스라엘행 여객기 추락 시도 부조종사는 종교적 극단주의자\"",
+      "link": "https://www.yna.co.kr/view/AKR20261001004600079",
+      "source": "연합뉴스 국제",
+      "ts": 1790795588000,
+      "pub": "Thu, 1 Oct 2026 04:13:08 +0900",
+      "sentiment": "neutral",
+      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 이스라엘인 승객들을 태운 플라이두바이 소속 여객기를 고의로 추락시키려 한 혐의를 받는 오만 국적의 부조종사...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/01/AKR20261001004600079_04_i_P2.jpg"
+    },
+    {
+      "title": "트럼프, 미군 이라크 철수 완료에 \"미국과 이라크의 승리\"",
+      "link": "https://www.yna.co.kr/view/AKR20261001004000071",
+      "source": "연합뉴스 국제",
+      "ts": 1790794465000,
+      "pub": "Thu, 1 Oct 2026 03:54:25 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령은 30일(현지시간) 미군의 이라크 철수 완료가 미국의 승리이자 이라크의 승리라고...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/10/01/PAP20261001043201009_P2.jpg"
+    },
     {
       "title": "트럼프, 우군 폭스뉴스까지 비난…\"민주당 출연시켜 내 험담\"",
       "link": "https://www.yna.co.kr/view/AKR20261001003200071",
@@ -238,86 +446,6 @@
       "sentiment": "positive",
       "desc": "(서울=연합뉴스) 고일환 기자 = 도널드 트럼프 미국 대통령이 급등한 경유 가격을 잡기 위해 수출 금지 방안까지 검토하고 있다고 파이낸셜타임스(...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/09/29/PRU20260929201501009_P2.jpg"
-    },
-    {
-      "title": "트럼프 만찬에 中CEO들 빠진 이유는…\"상호주의·대미투자 이견\"",
-      "link": "https://www.yna.co.kr/view/AKR20260930098000009",
-      "source": "연합뉴스 국제",
-      "ts": 1790737452000,
-      "pub": "Wed, 30 Sep 2026 12:04:12 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 권숙희 기자 = 미국 백악관에서 열린 도널드 트럼프 대통령 주재 국빈 만찬에 중국 기업인들이 초대받지 못한 것은 상호주의와 대...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/09/25/PAP20260925201501009_P2.jpg"
-    },
-    {
-      "title": "[쇼츠] '우크라 공습 주역' 러 Tu-95 추락",
-      "link": "https://www.yna.co.kr/view/AKR20260930096900704",
-      "source": "연합뉴스 국제",
-      "ts": 1790736532000,
-      "pub": "Wed, 30 Sep 2026 11:48:52 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 러시아군의 투폴레프(Tu)-95 전략폭격기가 훈련 비행 도중 추락해 탑승자 6명이 숨지고 1명이 다쳤다고 타스 통신이 29일(...",
-      "image": "https://www.youtube.com/embed/vC0Djz1pGCw"
-    },
-    {
-      "title": "[영상] 멸종위기 바다거북에 올라탄 우크라 인플루언서에 누리꾼 공분",
-      "link": "https://www.yna.co.kr/view/AKR20260930095400704",
-      "source": "연합뉴스 국제",
-      "ts": 1790736104000,
-      "pub": "Wed, 30 Sep 2026 11:41:44 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 중동의 바다거북 보호구역에서 거북이 등에 올라타 장난치는 모습을 찍어 소셜미디어에 올린 인플루언서의 행동이 누리꾼들의 공분을 ...",
-      "image": "https://www.youtube.com/embed/TgV17CRr6R8"
-    },
-    {
-      "title": "美무역수장 \"과잉생산 조사시 기존 무역합의 관세상한 고려\"",
-      "link": "https://www.yna.co.kr/view/AKR20260930094000009",
-      "source": "연합뉴스 국제",
-      "ts": 1790736039000,
-      "pub": "Wed, 30 Sep 2026 11:40:39 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 강훈상 기자 = 제이미슨 그리어 미국 무역대표부(USTR) 대표는 29일(현지시간) 미국 정부가 과잉 산업생산에 대한 관세 부...",
-      "image": "https://img.yna.co.kr/photo/etc/gt/2026/09/26/PGT20260926024801009_P2.jpg"
-    },
-    {
-      "title": "美국토안보부, 선거 앞두고 트럼프 부각 광고에 2천만달러 투입",
-      "link": "https://www.yna.co.kr/view/AKR20260930087900009",
-      "source": "연합뉴스 국제",
-      "ts": 1790734948000,
-      "pub": "Wed, 30 Sep 2026 11:22:28 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 임화섭 기자 = 미국 국토안보부(DHS)가 중간선거를 앞두고 도널드 트럼프 대통령을 찬양하는 선거운동 스타일 광고 비용에 2천...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/09/30/AKR20260930087900009_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프, 내일 韓 대미투자 발표할 듯…알래스카 LNG 포함되나",
-      "link": "https://www.yna.co.kr/view/AKR20260930077400071",
-      "source": "연합뉴스 국제",
-      "ts": 1790734452000,
-      "pub": "Wed, 30 Sep 2026 11:14:12 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령이 30일(현지시간) 한국의 대미투자 프로젝트를 공식 발표할 것으로 보인다.",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/29/PEP20260929045401009_P2.jpg"
-    },
-    {
-      "title": "이스라엘 군경까지 공격한 정착민…네타냐후, 총선 앞 딜레마",
-      "link": "https://www.yna.co.kr/view/AKR20260930080700009",
-      "source": "연합뉴스 국제",
-      "ts": 1790733379000,
-      "pub": "Wed, 30 Sep 2026 10:56:19 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 송진원 기자 = 이스라엘 총선(10월 27일)을 앞두고 요르단강 서안지구 내 이스라엘 점령지에서 폭력 사태가 격화하면서 권좌 ...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/29/PEP20260929193301009_P2.jpg"
-    },
-    {
-      "title": "인도, 방글라산 황마 제품에 톤당 최대 60만원 반덤핑 관세",
-      "link": "https://www.yna.co.kr/view/AKR20260930077200009",
-      "source": "연합뉴스 국제",
-      "ts": 1790732862000,
-      "pub": "Wed, 30 Sep 2026 10:47:42 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 유창엽 기자 = 인도가 자국 황마 산업 보호를 위해 인접국 방글라데시산 황마 제품에 대한 반덤핑 관세를 더 올렸다.",
-      "image": "https://img.yna.co.kr/photo/etc/xi/2026/08/15/PXI20260815000801009_P2.jpg"
     }
   ]
 }

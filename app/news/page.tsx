@@ -116,7 +116,7 @@ export default async function NewsPage() {
   return (
     <>
       <Header fxRate={prices.fx.krw_per_usdt} fxChange={prices.fx.change_24h_pct} />
-      <main className="max-w-6xl mx-auto px-4 sm:px-5 pt-4 pb-12">
+      <main className="max-w-3xl mx-auto px-4 sm:px-5 pt-4 pb-12">
         <PageTitle eyebrow="국제정세 · 삼성전자 · SK하이닉스 · 현대차" title="뉴스룸" backHref="/">
           {latestUpdate ? (
             <AsOf at={latestUpdate} note="1시간마다 갱신 · 한경·머투·연합 키워드 필터" />

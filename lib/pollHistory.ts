@@ -60,3 +60,49 @@ export function getPollHistory(): PollHistorySummary {
     judged.length > 0 ? Math.round((correctCount / judged.length) * 100) : null;
   return { polls, resolvedCount: judged.length, correctCount, hitRate };
 }
+
+/** outcomeDetail("… — 삼성전자 +1.85%, SK하이닉스 +1.65%, 현대차 −0.99%")에서 3종목 평균 등락(%) — 판정 기준과 동일(scripts/update-poll.mjs) */
+function avgPctFromDetail(detail: string): number | null {
+  const vals = [...detail.matchAll(/(?:삼성전자|SK하이닉스|현대차) ([+−-]?\d+(?:\.\d+)?)%/g)].map((m) =>
+    parseFloat(m[1].replace("−", "-")),
+  );
+  if (vals.length === 0 || vals.some((v) => !Number.isFinite(v))) return null;
+  return vals.reduce((a, b) => a + b, 0) / vals.length;
+}
+
+export type CrowdPickGroup = {
+  id: "crowd-up" | "crowd-down" | "all";
+  name: string;
+  n: number;
+  hits: number; // 실제 결과가 '상승'이었던 날
+  meanPct: number | null; // 3종목 평균 등락의 평균
+  periodStart: string | null;
+  periodEnd: string | null;
+  /** 오래된 → 최신, 3종목 평균 등락(%) — 판정 보합(±0.1% 이내)은 0 으로 */
+  recent: number[];
+};
+
+/** 군중이 고른 쪽별로 다음 날 실제 결과 — history.json 실데이터만 */
+export function getCrowdPickGroups(recentN = 30): CrowdPickGroup[] {
+  const { polls } = getPollHistory();
+  const asc = [...polls].reverse(); // 오래된 → 최신
+  const make = (id: CrowdPickGroup["id"], name: string, list: EnrichedPollHistory[]): CrowdPickGroup => {
+    const pcts = list.map((p) => avgPctFromDetail(p.outcomeDetail));
+    const valid = pcts.filter((v): v is number => v != null);
+    return {
+      id,
+      name,
+      n: list.length,
+      hits: list.filter((p) => p.outcome === "up").length,
+      meanPct: valid.length === list.length && valid.length > 0 ? valid.reduce((a, b) => a + b, 0) / valid.length : null,
+      periodStart: list[0]?.date ?? null,
+      periodEnd: list[list.length - 1]?.date ?? null,
+      recent: list.slice(-recentN).map((p) => (p.outcome === "up" ? 1 : p.outcome === "down" ? -1 : 0)),
+    };
+  };
+  return [
+    make("crowd-up", "‘오른다’가 더 많았던 날", asc.filter((p) => p.crowdPick === "up")),
+    make("crowd-down", "‘내린다’가 더 많았던 날", asc.filter((p) => p.crowdPick === "down")),
+    make("all", "전체 (비교용)", asc),
+  ];
+}

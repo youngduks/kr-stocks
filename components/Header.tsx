@@ -136,7 +136,7 @@ export function Header({ fxRate, fxChange, asOf }: { fxRate: number; fxChange: n
   const fxTone = fxChange > 0 ? "text-up" : fxChange < 0 ? "text-down" : "text-text-muted";
   return (
     <>
-      <header className="max-w-6xl mx-auto px-4 sm:px-5 pt-3">
+      <header className="max-w-3xl mx-auto px-4 sm:px-5 pt-3">
         <div className="flex items-center justify-between gap-3">
           <Link href={(isEn ? "/en" : "/") as any} prefetch={false} className="min-w-0">
             <div className="text-[12px] font-extrabold text-live leading-tight">KR Stocks</div>
@@ -165,7 +165,7 @@ export function Header({ fxRate, fxChange, asOf }: { fxRate: number; fxChange: n
         </div>
       </header>
       <div className="sticky top-0 z-30 bg-bg/90 backdrop-blur-md">
-        <div className="max-w-6xl mx-auto px-4 sm:px-5">
+        <div className="max-w-3xl mx-auto px-4 sm:px-5">
           <ChipNav />
         </div>
       </div>

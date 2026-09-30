@@ -16,11 +16,14 @@ import { fetchSparkCloses } from "@/lib/fetchCandles";
 import { getTradingFlow, formatBigKRW } from "@/lib/tradingFlow";
 import { changeTextClass, formatPct } from "@/lib/colors";
 import { fetchDealsPreview } from "@/lib/dealsPreview";
+import { getHistoryStats, bucketForUsPct, HISTORY_MIN_N, ym, type HistoryStats } from "@/lib/historyStats";
+import { HistoryDots } from "@/components/HistoryDots";
+import { MoreDetails } from "@/components/ui/MoreDetails";
 
 export const revalidate = 120; // ISR 캐시 30s → 120s (Free tier 최적화, 5/25)
 
 // ── 상태 카드 문구: SemiSignal.direction(= SOXL÷3, 임계값 ±0.4 / ±1.5 — lib/semiSignal.ts classify) 그대로 번역.
-//    과거 통계(HistoryDots 등)는 실데이터 검증 전까지 넣지 않음 (Phase C).
+//    과거 통계는 아래 HistoryCard — data/history-stats.json(scripts/history-stats.mjs, 실데이터) 기반 (Phase C).
 const SIGNAL_COPY: Record<
   SemiSignal["direction"],
   { tone: StatusTone; pill: string; head: string; hl: string; outlook: string | null }
@@ -125,6 +128,70 @@ function TomorrowStatusCard({ semi, fxRate, fxChange }: { semi: SemiSignal; fxRa
   );
 }
 
+/** 과거 사례 — 지금 미국 반도체 등락과 같은 구간이었던 날, 다음 한국 거래일 삼성전자·SK하이닉스.
+ *  실데이터(data/history-stats.json)만. 표본 n < HISTORY_MIN_N 이면 숨김. */
+function HistoryCard({ stats, usPct }: { stats: HistoryStats | null; usPct: number | null }) {
+  const id = bucketForUsPct(usPct);
+  if (!stats || !id) return null;
+  const rows = ["samsung", "hynix"]
+    .map((slug) => stats.stocks[slug])
+    .filter(Boolean)
+    .map((s) => {
+      const b = s.buckets[id];
+      return {
+        name: s.name,
+        n: b.n,
+        hits: b.hits,
+        meanPct: b.meanPct,
+        periodStart: b.periodStart,
+        periodEnd: b.periodEnd,
+        recent: (b.recent ?? []).map((d) => d.krRet),
+        open: b.open,
+        baseline: s.baseline,
+      };
+    })
+    .filter((r) => r.n >= HISTORY_MIN_N);
+  if (rows.length === 0) return null;
+  const label = stats.stocks.samsung?.buckets[id]?.label ?? "";
+  const dotsN = Math.max(...rows.map((r) => r.recent.length));
+  const computed = stats.computedAt ? stats.computedAt.slice(0, 10).replace(/-/g, ".") : "";
+  return (
+    <section className="ds-card mt-4" aria-labelledby="history-h">
+      <div className="ds-eyebrow">과거엔 어땠나요?</div>
+      <h2 id="history-h" className="ds-h2 mt-2">
+        미국 반도체가 <span className="ds-hl">{label}</span>였던 다음 날
+      </h2>
+      <p className="ds-explain mt-1">최근 약 5년, 다음 한국 거래일 종가가 전날보다 올랐는지 셌어요.</p>
+      <div className="mt-3">
+        <HistoryDots rows={rows} minN={HISTORY_MIN_N} dotsLabel={`점 = 최근 ${dotsN}번`} />
+      </div>
+      <p className="ds-meta mt-2">
+        <span className="text-up font-bold">●</span> 오른 날 · <span className="text-down font-bold">●</span> 내린 날 · 매매 지시가 아니에요
+      </p>
+      <MoreDetails summary="조금 더 — 어떻게 셌나요?">
+        <>
+          필라델피아 반도체지수(^SOX)의 하루 등락이 {label} 구간이었던 날마다, 그다음 한국 거래일의 종가를 전 거래일
+          종가와 비교했어요. 한국 종가는 거래소 공식 종가(네이버 금융), 미국은 Yahoo Finance 일봉이에요. 미국장이 연달아
+          두 번 열리는 한국 연휴 직후나 미국 휴장일은 어느 날의 영향인지 섞이므로 뺐어요. 위 카드의 신호는 SOXL÷3
+          추정치라 실제 지수와 조금 다를 수 있어요.
+          <br />
+          <br />
+          {rows.map((r) => (
+            <span key={r.name} className="block">
+              {r.name}: 시가 기준으로는 {r.open.n}번 중 {r.open.ups}번 높게 시작(평균 {formatPct(r.open.meanPct)}) · 조건
+              없이 전체 {r.baseline.n}일 중 {r.baseline.hits}일 상승(평균 {formatPct(r.baseline.meanPct)})
+            </span>
+          ))}
+          <br />
+          과거에 그랬다고 이번에도 그렇다는 보장은 없어요. 표본 수(n)가 작을수록 우연일 가능성이 커요({HISTORY_MIN_N}번
+          미만이면 표시하지 않아요). 매매 지시가 아니에요. 기간 {ym(rows[0].periodStart)}~{ym(rows[0].periodEnd)}
+          {computed && <> · {computed} 계산 · 매주 갱신</>}
+        </>
+      </MoreDetails>
+    </section>
+  );
+}
+
 /** 한국 주식 행 보조 설명 — 실데이터만: ADR 괴리율 / 외국인 5일 순매수(data/trading_flow) / 시장 상태 */
 function koreaSub(row: PriceRow): React.ReactNode {
   const m = row.market;
@@ -159,11 +226,12 @@ function koreaSub(row: PriceRow): React.ReactNode {
 }
 
 export default async function Home() {
-  const [data, semiSignal, people, deals] = await Promise.all([
+  const [data, semiSignal, people, deals, history] = await Promise.all([
     fetchAllPrices(),
     fetchSemiSignal(),
     getHumanIndicators(),
     fetchDealsPreview(3),
+    getHistoryStats(),
   ]);
 
   // is_fx(원화 환율)는 헤더 환율 위젯과 소스가 달라(HL perp vs 업비트) 숫자가 어긋나 보임 → 리스트 제외
@@ -193,6 +261,9 @@ export default async function Home() {
 
         {/* ① 상태 카드 — 미장 반도체 야간 신호 + 환율 (실데이터만) */}
         <TomorrowStatusCard semi={semiSignal} fxRate={data.fx.krw_per_usdt} fxChange={data.fx.change_24h_pct} />
+
+        {/* ①-b 과거 사례 — 같은 구간이었던 날의 다음 한국 거래일 (실데이터, n<15 숨김) */}
+        <HistoryCard stats={history} usPct={semiSignal.direction === "unknown" ? null : semiSignal.impliedSemiPct} />
 
         {/* ② 한국 주식 — 1줄 = 1종목 */}
         {koreaRows.length > 0 && (

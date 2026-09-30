@@ -74,10 +74,22 @@ export const viewport: Viewport = {
   ],
 };
 
+// 모든 페이지가 쓰는 Pretendard 청크 중 라틴 청크 선로딩 (Phase C 성능):
+//   pv-91 = 라틴·숫자·기호 (30KB) 1개만. 한글 최빈 청크(pv-90/89)까지 넣으면 느린 4G에서 첫 paint 가 ~200ms 늦어져 제외(실측).
+//   폰트가 CSS 파싱 뒤에야 발견돼 늦게 교체되며
+//   생기던 글자 폭 변화(= /en 데스크톱 칩 네비 CLS ~0.009)를 줄임.
+//   ⚠ scripts/build-font-subsets.py 로 청크를 다시 만들면 해시가 바뀜 → app/fonts.css 에서 새 파일명으로 교체.
+const PRELOAD_FONTS = [
+  "/fonts/pretendard/pv-91.cb5098d4.woff2",
+];
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko" data-theme="dark" suppressHydrationWarning>
       <head>
+        {PRELOAD_FONTS.map((href) => (
+          <link key={href} rel="preload" href={href} as="font" type="font/woff2" crossOrigin="anonymous" />
+        ))}
         {/* 첫 paint 전 theme 적용 — flicker 0 */}
         <script
           dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }}

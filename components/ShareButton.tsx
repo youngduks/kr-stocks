@@ -105,7 +105,7 @@ export function ShareButton({
         type="button"
         onClick={handleClick}
         aria-label={t.label}
-        className="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] text-text-dim hover:text-text hover:bg-bg-card/70 border border-transparent hover:border-line transition shrink-0"
+        className="inline-flex items-center gap-1 px-2 min-h-[44px] rounded-md text-[12px] text-text-muted hover:text-text hover:bg-bg-card/70 border border-transparent hover:border-line transition shrink-0"
       >
         <ShareIcon />
         <span>{copied ? t.copied : t.label}</span>
@@ -119,7 +119,7 @@ export function ShareButton({
       type="button"
       onClick={handleClick}
       aria-label={t.label}
-      className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs sm:text-sm font-semibold text-white bg-accent-blue hover:bg-accent-blue/90 border border-accent-blue shadow-sm transition shrink-0"
+      className="inline-flex items-center gap-1.5 px-3 min-h-[44px] rounded-lg text-xs sm:text-sm font-semibold text-white bg-accent-blue hover:bg-accent-blue/90 border border-accent-blue shadow-sm transition shrink-0"
     >
       <ShareIcon />
       <span>{copied ? t.copied : t.label}</span>

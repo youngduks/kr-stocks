@@ -364,7 +364,7 @@ export function LeverageEtfChart({
               key={r}
               onClick={() => setRange(r)}
               aria-pressed={range === r}
-              className={`px-3.5 min-h-[36px] rounded-full text-[13px] font-bold transition-all ${
+              className={`px-3.5 min-h-[44px] rounded-full text-[13px] font-bold transition-all ${
                 range === r ? "bg-text text-bg shadow-sm" : "text-text-dim hover:text-text-muted"
               }`}
             >

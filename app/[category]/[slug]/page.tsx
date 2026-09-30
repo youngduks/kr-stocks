@@ -89,6 +89,22 @@ export default async function SymbolPage({ params }: Props) {
   // phase 인지 변동률 — live/nxt: 전일 대비 / closed: 24h
   const mainChg = m.main_change_pct ?? m.change_24h_pct;
   const mainChgLabel = m.main_change_label ?? (isBn ? "Binance 24h" : "HL 24h");
+  // 24h 기준(HL/Binance perp 24시간 전 가격 대비)인지 — 이때 화면의 '종가' 줄과 기준이 다름
+  const is24hBasis = mainChgLabel === "HL 24h" || mainChgLabel === "Binance 24h";
+  const refVsClose: { label: string; pct: number } | null = (() => {
+    if (row.is_private || row.is_fx) return null;
+    const closed = m.market_phase === "closed";
+    const nxt = m.market_phase === "nxt";
+    if (row.category === "korea") {
+      const price = m.main_display_krw ?? m.per_share_krw ?? m.krw_price;
+      const ref = closed || nxt ? m.regular_close_krw : m.regular_prev_close_krw;
+      const lbl = closed || nxt ? (isAdr ? "ADR 종가" : "KRX 종가") : "전일 종가";
+      return price && ref ? { label: lbl, pct: (price / ref - 1) * 100 } : null;
+    }
+    const price = m.main_display_usd ?? m.mark_px_usd;
+    const ref = closed ? m.regular_close_usd : m.regular_prev_close_usd;
+    return price && ref ? { label: closed ? "정규장 종가" : "전일 종가", pct: (price / ref - 1) * 100 } : null;
+  })();
   const isUp = mainChg > 0;
   const isDn = mainChg < 0;
   const colorClass = isUp ? "text-up" : isDn ? "text-down" : "text-text-muted";
@@ -427,8 +443,23 @@ export default async function SymbolPage({ params }: Props) {
           )}
 
           <div className={`mt-3 text-[17px] font-extrabold num ${colorClass}`}>
-            {isUp ? "▲" : isDn ? "▼" : ""} {Math.abs(mainChg).toFixed(2)}% <span className="ds-meta font-normal">({mainChgLabel})</span>
+            {isUp ? "▲" : isDn ? "▼" : ""} {Math.abs(mainChg).toFixed(2)}%{" "}
+            <span className="ds-meta font-normal">
+              ({mainChgLabel}
+              {is24hBasis ? " · 24시간 전 가격 대비" : ""})
+            </span>
           </div>
+          {/* 24h 기준 변동률 옆에 '전일 종가'가 같이 보이면 기준이 섞여 보임(예: 가격 > 전일 종가인데 ▼) →
+              같은 화면의 종가 기준 변동률을 명시 (Phase C, AAPL 사례) */}
+          {is24hBasis && refVsClose && (
+            <div className="ds-meta mt-1 num">
+              {refVsClose.label} 대비{" "}
+              <b className={refVsClose.pct > 0 ? "text-up" : refVsClose.pct < 0 ? "text-down" : ""}>
+                {refVsClose.pct > 0 ? "+" : refVsClose.pct < 0 ? "−" : ""}
+                {Math.abs(refVsClose.pct).toFixed(2)}%
+              </b>
+            </div>
+          )}
           {flow && (
             <>
               <p className="ds-explain mt-3">

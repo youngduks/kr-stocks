@@ -18,6 +18,7 @@ const I18N = {
     hintShortcut: "⌘K",
     sectionAll: "전체",
     label: "검색",
+    close: "검색 닫기",
   },
   en: {
     placeholder: "Search… (Samsung, NVDA, SpaceX, etc.)",
@@ -26,6 +27,7 @@ const I18N = {
     hintShortcut: "⌘K",
     sectionAll: "All",
     label: "Search",
+    close: "Close search",
   },
 } as const;
 
@@ -162,6 +164,9 @@ export function SearchPalette({ locale = "ko", variant = "text" }: { locale?: Lo
           onClick={() => setOpen(false)}
         >
           <div
+            role="dialog"
+            aria-modal="true"
+            aria-label={t.label}
             className="w-full max-w-xl bg-bg-card border border-line rounded-2xl shadow-2xl overflow-hidden"
             onClick={(e) => e.stopPropagation()}
           >
@@ -178,6 +183,7 @@ export function SearchPalette({ locale = "ko", variant = "text" }: { locale?: Lo
                 }}
                 onKeyDown={onInputKeyDown}
                 placeholder={t.placeholder}
+                aria-label={t.label}
                 className="flex-1 bg-transparent outline-none text-sm text-text placeholder:text-text-dim"
                 autoComplete="off"
                 spellCheck={false}
@@ -185,8 +191,8 @@ export function SearchPalette({ locale = "ko", variant = "text" }: { locale?: Lo
               <button
                 type="button"
                 onClick={() => setOpen(false)}
-                aria-label="close"
-                className="text-text-dim hover:text-text text-xs"
+                aria-label={t.close}
+                className="min-h-[44px] min-w-[44px] -mr-2 rounded-lg text-text-muted hover:text-text text-xs"
               >
                 ESC
               </button>

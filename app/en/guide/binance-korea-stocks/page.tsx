@@ -257,7 +257,7 @@ export default async function BinanceKoreaStocksGuideEN() {
       </main>
 
       <footer className="border-t border-line mt-12">
-        <div className="max-w-6xl mx-auto px-5 py-8 text-xs text-text-dim leading-6">
+        <div className="max-w-3xl mx-auto px-4 sm:px-5 py-8 text-xs text-text-dim leading-6">
           <p>© 2026 KR Stocks. Not investment advice.</p>
           <p className="mt-1">
             <Link href={"/guide/binance-korea-stocks" as any} className="text-accent-blue hover:underline">

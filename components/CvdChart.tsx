@@ -367,7 +367,7 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
               key={d.symbol}
               onClick={() => setTickerIdx(i)}
               aria-pressed={safeIdx === i}
-              className={`px-3.5 min-h-[36px] rounded-full text-[13px] font-bold transition-all whitespace-nowrap ${
+              className={`px-3.5 min-h-[44px] rounded-full text-[13px] font-bold transition-all whitespace-nowrap ${
                 safeIdx === i ? "bg-text text-bg shadow-sm" : "text-text-dim hover:text-text-muted"
               }`}
             >
@@ -382,7 +382,7 @@ export function CvdChart({ datasets }: { datasets: CvdDataset[] }) {
               onClick={() => setRange(r)}
               disabled={!rangeAvailable[r]}
               aria-pressed={shownRange === r}
-              className={`px-3.5 min-h-[36px] rounded-full text-[13px] font-bold transition-all disabled:opacity-40 disabled:cursor-not-allowed ${
+              className={`px-3.5 min-h-[44px] rounded-full text-[13px] font-bold transition-all disabled:opacity-40 disabled:cursor-not-allowed ${
                 shownRange === r ? "bg-text text-bg shadow-sm" : "text-text-dim hover:text-text-muted"
               }`}
             >

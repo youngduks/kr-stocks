@@ -5,7 +5,8 @@
 import { redis } from "./visitorStats";
 
 // youtube 추가(2026-08-23) — 슬기로운의학생활 채널 고정댓글 상품링크 신설.
-const SOURCES = ["kr-stocks", "threads", "youtube", "unknown"] as const;
+// instagram 추가(2026-09-30) — 인스타 스토리 링크 스티커(source=instagram) 클릭 집계.
+const SOURCES = ["kr-stocks", "threads", "youtube", "instagram", "unknown"] as const;
 type Source = (typeof SOURCES)[number];
 
 function isKnownSource(s: string): s is Source {

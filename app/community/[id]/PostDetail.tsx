@@ -163,7 +163,7 @@ export function PostDetail({ post, initialComments }: { post: Post; initialComme
         <button
           type="button"
           onClick={onReport}
-          className="px-3 py-1.5 rounded-lg border border-line text-xs text-text-dim hover:text-text hover:border-text-dim transition"
+          className="px-3 min-h-[44px] rounded-lg border border-line text-xs text-text-muted hover:text-text hover:border-text-dim transition"
         >
           🚨 신고
         </button>
@@ -171,7 +171,7 @@ export function PostDetail({ post, initialComments }: { post: Post; initialComme
           type="button"
           onClick={onDeletePost}
           disabled={deleting}
-          className="px-3 py-1.5 rounded-lg border border-line text-xs text-text-dim hover:text-red-400 hover:border-red-900/50 transition disabled:opacity-50"
+          className="px-3 min-h-[44px] rounded-lg border border-line text-xs text-text-muted hover:text-red-400 hover:border-red-900/50 transition disabled:opacity-50"
         >
           {deleting ? "삭제 중…" : "삭제"}
         </button>
@@ -195,7 +195,7 @@ export function PostDetail({ post, initialComments }: { post: Post; initialComme
                   <button
                     type="button"
                     onClick={() => onDeleteComment(c.id)}
-                    className="text-[10px] text-text-dim hover:text-red-400 transition shrink-0"
+                    className="min-h-[44px] min-w-[44px] -my-3 text-[11px] text-text-muted hover:text-red-400 transition shrink-0"
                   >
                     삭제
                   </button>
@@ -237,7 +237,7 @@ export function PostDetail({ post, initialComments }: { post: Post; initialComme
           <button
             type="submit"
             disabled={cSubmitting}
-            className="px-3 py-1.5 rounded-md bg-accent-blue text-white text-xs font-bold hover:brightness-110 transition disabled:opacity-50"
+            className="px-3 min-h-[44px] rounded-md bg-accent-blue text-white text-xs font-bold hover:brightness-110 transition disabled:opacity-50"
           >
             {cSubmitting ? "등록 중…" : "댓글 등록"}
           </button>

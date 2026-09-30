@@ -85,7 +85,7 @@ export function Footer({ locale = "ko" }: { locale?: Locale } = {}) {
 
   return (
     <footer className="border-t border-line mt-12">
-      <div className="max-w-6xl mx-auto px-5 py-8 text-xs text-text-dim leading-6">
+      <div className="max-w-3xl mx-auto px-4 sm:px-5 py-8 text-xs text-text-dim leading-6">
         <div className="mb-3 text-text-muted font-semibold">{t.dataSources}</div>
         <ul className="space-y-1 mb-6">
           <li>

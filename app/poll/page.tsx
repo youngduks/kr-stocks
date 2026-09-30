@@ -1,5 +1,6 @@
 import { fetchAllPrices } from "@/lib/fetchPrices";
-import { getPollHistory, type EnrichedPollHistory } from "@/lib/pollHistory";
+import { getPollHistory, getCrowdPickGroups, type EnrichedPollHistory } from "@/lib/pollHistory";
+import { HistoryDots } from "@/components/HistoryDots";
 import { getHumanIndicators } from "@/lib/humanIndicators";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -89,6 +90,7 @@ export default async function PollPage() {
   const recent = judged.slice(0, 10);
   const recentHits = recent.filter((p) => p.correct).length;
   const avgVotes = polls.length > 0 ? Math.round(polls.reduce((n, p) => n + p.total, 0) / polls.length) : null;
+  const crowdGroups = getCrowdPickGroups(30);
   const head = polls.slice(0, RECENT_N);
   const rest = polls.slice(RECENT_N);
 
@@ -133,9 +135,9 @@ export default async function PollPage() {
               summary: "조금 더 — 어떻게 채점하나요?",
               content: (
                 <>
-                  투표는 NXT 프리장 오픈(08:00) 전에 마감되고, 삼성전자(005930) 정규장 종가를 전날 종가와 비교해
-                  상승·하락을 판정해요. 표가 같거나(동률) 보합으로 끝난 날은 채점에서 빼요({polls.length - resolvedCount}번).
-                  재미로 보는 지표예요.
+                  투표는 NXT 프리장 오픈(08:00) 전에 마감되고, 삼성전자·SK하이닉스·현대차 세 종목의 정규장 종가
+                  등락(전날 종가 대비)을 평균 내 상승·하락을 판정해요(평균 ±0.1% 이내는 보합). 표가 같거나(동률)
+                  보합으로 끝난 날은 채점에서 빼요({polls.length - resolvedCount}번). 재미로 보는 지표예요.
                 </>
               ),
             }}
@@ -162,6 +164,20 @@ export default async function PollPage() {
                   ))}
                 </div>
                 <div className="ds-meta mt-2">검은 점 = 맞힘 · 빈 점 = 빗나감</div>
+              </div>
+            )}
+            {crowdGroups.some((g) => g.n >= 15) && (
+              <div className="mt-5">
+                <h3 className="text-[15px] font-extrabold">군중이 고른 쪽별 — 실제로 오른 날은?</h3>
+                <p className="ds-meta mt-1 mb-2">
+                  점 = 최근 {Math.max(...crowdGroups.map((g) => g.recent.length))}번 ·{" "}
+                  <span className="text-up font-bold">●</span> 오름 · <span className="text-down font-bold">●</span> 내림 ·
+                  회색 보합 · 평균 = 3종목 평균 등락 · 15번 미만 표본은 숨겨요
+                </p>
+                <HistoryDots rows={crowdGroups} minN={15} />
+                <p className="ds-meta mt-2">
+                  ‘전체’와 비슷하다면 군중 예측보다 그 기간 시장 흐름(대부분 상승) 덕분일 수 있어요. 매매 지시가 아니에요.
+                </p>
               </div>
             )}
           </StatusCard>

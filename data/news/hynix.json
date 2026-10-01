@@ -1,8 +1,26 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-01T07:56:12.929Z",
+  "updated_at": "2026-10-01T14:56:21.658Z",
   "count": 9,
   "items": [
+    {
+      "title": "반도체값 폭등에 삼성폰 가격 또 올라…갤럭시 S26 15만원↑",
+      "link": "https://www.hankyung.com/article/2026100187447",
+      "source": "한국경제",
+      "ts": 1790852243000,
+      "pub": "Thu, 01 Oct 2026 19:57:23 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "마이크론·수출로 확인한 반도체 수요…증시 상승탄력 촉매될까(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261001085451008",
+      "source": "연합뉴스 경제",
+      "ts": 1790841248000,
+      "pub": "Thu, 1 Oct 2026 16:54:08 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 황철환 기 = 미국 마이크론이 '깜짝 호실적'을 내놓으면서 메모리 공급 부족에 따른 반도체 업황 호조가 시장 일각의 우려와 달...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100124550001300_P2.jpg"
+    },
     {
       "title": "'마이크론·반도체 수출' 훈풍에 7천피 턱밑…코스닥 4.48% 급등(종합)",
       "link": "https://www.yna.co.kr/view/AKR20261001150200008",
@@ -54,16 +72,6 @@
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/03/11/PYH2026031106920001300_P2.jpg"
     },
     {
-      "title": "전답·비닐하우스 펼쳐진 235만평…'반도체 도시'로 바뀐다",
-      "link": "https://www.yna.co.kr/view/AKR20261001049400003",
-      "source": "연합뉴스 경제",
-      "ts": 1790823612000,
-      "pub": "Thu, 1 Oct 2026 12:00:12 +0900",
-      "sentiment": "neutral",
-      "desc": "(용인=연합뉴스) 오진송 기자 = 지난달 30일 찾은 경기도 용인시 처인구 이동읍과 남사읍 일원의 용인 첨단시스템반도체 클러스터 국가산업단지에는...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/01/AKR20261001049400003_01_i_P2.jpg"
-    },
-    {
       "title": "中매체 \"美, 동맹 반도체기업에 '지리적 中의존' 축소 요구\"",
       "link": "https://www.yna.co.kr/view/AKR20261001084000089",
       "source": "연합뉴스 국제",
@@ -82,16 +90,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 정주호 기자 = 사상 최대 실적을 낸 미국 메모리 반도체 기업 마이크론이 2030년까지 매출의 3분의 1 이상을 장기공급계약으...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/09/01/PRU20260901214301009_P2.jpg"
-    },
-    {
-      "title": "마이크론, 분기매출 73.5조원 '사상최대'…\"내년 실적 더 강력\"",
-      "link": "https://www.yna.co.kr/view/AKR20261001007400091",
-      "source": "연합뉴스 국제",
-      "ts": 1790801493000,
-      "pub": "Thu, 1 Oct 2026 05:51:33 +0900",
-      "sentiment": "neutral",
-      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 미국 메모리 반도체 기업 마이크론이 인공지능(AI) 열풍에 따른 메모리 수요 폭발에 힘입어 사상 최대...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/17/PAF20260917239501009_P2.jpg"
     }
   ]
 }

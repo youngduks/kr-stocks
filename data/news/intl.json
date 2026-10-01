@@ -1,8 +1,68 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-01T07:56:12.927Z",
-  "count": 24,
+  "updated_at": "2026-10-01T14:56:21.653Z",
+  "count": 17,
   "items": [
+    {
+      "title": "트럼프 \"중간선거후 對이란 폭격 강화 가능\"…또 '전멸' 위협",
+      "link": "https://www.yna.co.kr/view/AKR20261001194500071",
+      "source": "연합뉴스 국제",
+      "ts": 1790858314000,
+      "pub": "Thu, 1 Oct 2026 21:38:34 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 1일(현지시간) 다음 달 3일 치러지는 중간선거를 마친 뒤 이란에 대한 폭격을...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/01/AKR20261001194500071_01_i_P2.jpg"
+    },
+    {
+      "title": "'기장 찌르고 추락 시도' 이스라엘행 여객기 사건 동기·배후는(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261001173351079",
+      "source": "연합뉴스 국제",
+      "ts": 1790858210000,
+      "pub": "Thu, 1 Oct 2026 21:36:50 +0900",
+      "sentiment": "neutral",
+      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 174명의 승객을 태우고 아랍에미리트(UAE) 두바이에서 출발해 이스라엘로 향하던 플라이두바이 여객기 기내...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/01/AKR20261001173351079_01_i_P2.jpg"
+    },
+    {
+      "title": "\"러 파병 북한군 지휘관, 우크라 비정부단체 '위협 인물' 명단에\"",
+      "link": "https://www.yna.co.kr/view/AKR20261001185600109",
+      "source": "연합뉴스 국제",
+      "ts": 1790849279000,
+      "pub": "Thu, 1 Oct 2026 19:07:59 +0900",
+      "sentiment": "neutral",
+      "desc": "(로마=연합뉴스) 민경락 특파원 = 우크라이나와 전쟁 중인 러시아에 파병된 북한군을 지휘한 것으로 알려진 북한군 간부가 우크라이나 비정부단체가 ...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2025/08/22/PYH2025082218930004200_P2.jpg"
+    },
+    {
+      "title": "우크라이나 전역에 대규모 공습…외교부, 안전대책 점검",
+      "link": "https://www.yna.co.kr/view/AKR20261001187100504",
+      "source": "연합뉴스 국제",
+      "ts": 1790848918000,
+      "pub": "Thu, 1 Oct 2026 19:01:58 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 민선희 기자 = 외교부는 1일 우크라이나 현지 정세와 우리 국민 안전대책을 점검했다고 밝혔다.",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/26/PEP20260926142701009_P2.jpg"
+    },
+    {
+      "title": "\"미국, 2028년 이후 중국의 대만 침공 가능성 주시\"",
+      "link": "https://www.yna.co.kr/view/AKR20261001177300009",
+      "source": "연합뉴스 국제",
+      "ts": 1790844756000,
+      "pub": "Thu, 1 Oct 2026 17:52:36 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김아람 기자 = 미국 당국자들이 애초 예상과 달리 내년에 중국이 대만을 침공할 가능성을 점점 낮게 보고 있다고 로이터 통신이 ...",
+      "image": "https://img.yna.co.kr/photo/cms/2024/05/28/29/PCM20240528000029990_P2.jpg"
+    },
+    {
+      "title": "'기장 찌르고 추락 시도' 이스라엘행 여객기 사건 동기·배후는",
+      "link": "https://www.yna.co.kr/view/AKR20261001173300079",
+      "source": "연합뉴스 국제",
+      "ts": 1790842691000,
+      "pub": "Thu, 1 Oct 2026 17:18:11 +0900",
+      "sentiment": "neutral",
+      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 174명의 승객을 태우고 아랍에미리트(UAE) 두바이에서 출발해 이스라엘로 향하던 플라이두바이 여객기 기내...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/01/AKR20261001173300079_01_i_P2.jpg"
+    },
     {
       "title": "트럼프가 극찬한 美정부 AI, 트럼프 주장 반박 하루 뒤 답변 거부",
       "link": "https://www.yna.co.kr/view/AKR20261001139500009",
@@ -112,136 +172,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 임화섭 기자 = 미국 도널드 트럼프 행정부가 \"의료 비용을 절감했다\"며 약 100만명에게 각 500달러(68만원) 수표를 발송...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/10/01/PRU20261001108001009_P2.jpg"
-    },
-    {
-      "title": "트럼프의 알래스카 후보 띄우기…韓투자 발표를 선거지원 무대로",
-      "link": "https://www.yna.co.kr/view/AKR20261001024500071",
-      "source": "연합뉴스 국제",
-      "ts": 1790811022000,
-      "pub": "Thu, 1 Oct 2026 08:30:22 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = \"이 모든 에너지 프로젝트는 내 업적이고, 댄 설리번과 협력해 이 일을 성사시켰다\"",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/01/PAF20261001074301009_P2.jpg"
-    },
-    {
-      "title": "트럼프, '알래스카 LNG에 한국 500억불 투자' 일방 발표(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20261001006952071",
-      "source": "연합뉴스 국제",
-      "ts": 1790808521000,
-      "pub": "Thu, 1 Oct 2026 07:48:41 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 이유미 특파원 = 도널드 트럼프 미국 대통령은 30일(현지시간) 한국이 알래스카 액화천연가스(LNG) 개발 사업에 투...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/01/PAP20261001081001009_P2.jpg"
-    },
-    {
-      "title": "선거 급한 트럼프, 협의 안끝난 韓투자금으로 격전지 표심 공략",
-      "link": "https://www.yna.co.kr/view/AKR20261001011300071",
-      "source": "연합뉴스 국제",
-      "ts": 1790804776000,
-      "pub": "Thu, 1 Oct 2026 06:46:16 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령이 30일(현지시간) 한국의 대미투자 프로젝트를 발표하며 알래스카 액화천연가스(L...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/01/PEP20261001075101009_P2.jpg"
-    },
-    {
-      "title": "뉴욕증시, 美PCE 예상 밑돌았지만 장기금리 부담에 혼조세(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261001006251072",
-      "source": "연합뉴스 국제",
-      "ts": 1790803764000,
-      "pub": "Thu, 1 Oct 2026 06:29:24 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 뉴욕증시의 3대 지수가 30일(현지시간) 혼조세로 마감했다.",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/26/PRU20260926018801009_P2.jpg"
-    },
-    {
-      "title": "트럼프, '알래스카 LNG 개발사업에 한국 투자' 일방 발표(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261001006951071",
-      "source": "연합뉴스 국제",
-      "ts": 1790802349000,
-      "pub": "Thu, 1 Oct 2026 06:05:49 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 30일(현지시간) 한국이 알래스카 액화천연가스(LNG) 개발 사업에 투자한다고...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/01/PAP20261001081001009_P2.jpg"
-    },
-    {
-      "title": "[美중간선거 D-30] ① 이란전쟁의 검은 그림자…심판대 오르는 트럼프",
-      "link": "https://www.yna.co.kr/view/AKR20260929188800071",
-      "source": "연합뉴스 국제",
-      "ts": 1790802072000,
-      "pub": "Thu, 1 Oct 2026 06:01:12 +0900",
-      "sentiment": "neutral",
-      "desc": "[※편집자주 = 미국에서는 11월 3일 중간선거가 치러집니다. 향후 2년간의 미국 의회 권력 지형을 결정짓는 선거로, 도널드 트럼프 대통령의 집...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/06/27/PEP20260627082701009_P2.jpg"
-    },
-    {
-      "title": "[2보] 트럼프, 韓대미투자 발표…'알래스카 LNG 개발' 포함",
-      "link": "https://www.yna.co.kr/view/AKR20261001006900071",
-      "source": "연합뉴스 국제",
-      "ts": 1790800717000,
-      "pub": "Thu, 1 Oct 2026 05:38:37 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 30일(현지시간) 텍사스 가스발전소 건설, 대형 원자력발전소 8기 건설, 알래...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/01/PAP20261001080501009_P2.jpg"
-    },
-    {
-      "title": "[속보] 트럼프 \"한국 대미투자…텍사스 가스발전·대형 원전 8기\"",
-      "link": "https://www.yna.co.kr/view/AKR20261001006700071",
-      "source": "연합뉴스 국제",
-      "ts": 1790800358000,
-      "pub": "Thu, 1 Oct 2026 05:32:38 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/cms/2026/03/26/78/PCM20260326000078990_P2.jpg"
-    },
-    {
-      "title": "[1보] 트럼프, 韓대미투자 발표…'알래스카 LNG 개발' 포함",
-      "link": "https://www.yna.co.kr/view/AKR20261001006600071",
-      "source": "연합뉴스 국제",
-      "ts": 1790800274000,
-      "pub": "Thu, 1 Oct 2026 05:31:14 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/cms/2026/03/26/76/PCM20260326000076990_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"호르무즈서 사흘간 운송된 원유, 어느 때보다 많아\"",
-      "link": "https://www.yna.co.kr/view/AKR20261001004800071",
-      "source": "연합뉴스 국제",
-      "ts": 1790796935000,
-      "pub": "Thu, 1 Oct 2026 04:35:35 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 30일(현지시간) 호르무즈 해협을 통해 최근 빠져나온 원유가 전쟁 전보다 많았...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/01/PRU20261001061401009_P2.jpg"
-    },
-    {
-      "title": "\"이스라엘행 여객기 추락 시도 부조종사는 종교적 극단주의자\"",
-      "link": "https://www.yna.co.kr/view/AKR20261001004600079",
-      "source": "연합뉴스 국제",
-      "ts": 1790795588000,
-      "pub": "Thu, 1 Oct 2026 04:13:08 +0900",
-      "sentiment": "neutral",
-      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 이스라엘인 승객들을 태운 플라이두바이 소속 여객기를 고의로 추락시키려 한 혐의를 받는 오만 국적의 부조종사...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/01/AKR20261001004600079_04_i_P2.jpg"
-    },
-    {
-      "title": "트럼프, 미군 이라크 철수 완료에 \"미국과 이라크의 승리\"",
-      "link": "https://www.yna.co.kr/view/AKR20261001004000071",
-      "source": "연합뉴스 국제",
-      "ts": 1790794465000,
-      "pub": "Thu, 1 Oct 2026 03:54:25 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령은 30일(현지시간) 미군의 이라크 철수 완료가 미국의 승리이자 이라크의 승리라고...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/01/PAP20261001043201009_P2.jpg"
-    },
-    {
-      "title": "트럼프, 우군 폭스뉴스까지 비난…\"민주당 출연시켜 내 험담\"",
-      "link": "https://www.yna.co.kr/view/AKR20261001003200071",
-      "source": "연합뉴스 국제",
-      "ts": 1790792457000,
-      "pub": "Thu, 1 Oct 2026 03:20:57 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령이 자신에게 비판적인 언론들과 갈등을 빚어온 데 이어 이번에는 보수 성향의 폭스뉴...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/01/AKR20261001003200071_01_i_P2.jpg"
     }
   ]
 }

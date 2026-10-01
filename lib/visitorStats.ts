@@ -29,55 +29,48 @@ export function redis(): Redis | null {
 
 export type Stats = { online: number; total: number };
 
+// 2026-10-01 Upstash 명령 수 절감(무료 한도 50만/월 초과로 8·9월 $7.41 과금):
+// 방문 기록 = ZADD 1회(반환값으로 새 세션 판별, ZSCORE·정리·조회 제거) + 새 세션일 때만 INCR 2회.
+// stats 조회는 인스턴스 메모리 60초 캐시 + /api/stats CDN 캐시(s-maxage)로 분당 최대 1회 수준.
+const STATS_CACHE_MS = 60 * 1000;
+let _statsCache: { ts: number; stats: Stats } | null = null;
+
 /** 새 방문 기록 + 현재 stats 반환. sessionId 중복은 INCR하지 않음 (unique 방문만 누적). */
 export async function trackVisit(sessionId: string): Promise<Stats> {
   const r = redis();
   if (!r) return { online: 0, total: 0 };
   try {
     const now = Date.now();
-    // 1) 5분 지난 멤버 정리
-    await r.zremrangebyscore(KEY_ONLINE, 0, now - ONLINE_WINDOW_MS);
-    // 2) ZSET에 이미 있는지 확인 (없으면 새 unique 방문 → INCR)
-    const score = await r.zscore(KEY_ONLINE, sessionId);
-    const isNew = score == null;
-    // 3) ZSET upsert + 누적 카운터
-    if (isNew) {
+    // ZADD는 새 멤버면 1, 기존 멤버 score 갱신이면 0을 반환 → 별도 ZSCORE 불필요
+    const added = await r.zadd(KEY_ONLINE, { score: now, member: sessionId });
+    if (added === 1) {
       const dayKey = KEY_DAILY_PREFIX + kstDay(now);
-      const [, , dayCount] = await Promise.all([
-        r.zadd(KEY_ONLINE, { score: now, member: sessionId }),
-        r.incr(KEY_TOTAL),
-        r.incr(dayKey),
-      ]);
+      const [, dayCount] = await Promise.all([r.incr(KEY_TOTAL), r.incr(dayKey)]);
       if (dayCount === 1) await r.expire(dayKey, DAILY_TTL_SEC);
-    } else {
-      // 같은 세션 — score만 refresh
-      await r.zadd(KEY_ONLINE, { score: now, member: sessionId });
     }
-    // 4) 현재 stats
-    const [online, total] = await Promise.all([
-      r.zcard(KEY_ONLINE),
-      r.get<number>(KEY_TOTAL),
-    ]);
-    return { online: online ?? 0, total: total ?? 0 };
+    return await getStats();
   } catch (e) {
     return { online: 0, total: 0 };
   }
 }
 
-/** 읽기 전용 — 현재 stats 조회. */
+/** 읽기 전용 — 현재 stats 조회(60초 캐시, 만료된 접속자 정리는 캐시 갱신 때만). */
 export async function getStats(): Promise<Stats> {
   const r = redis();
   if (!r) return { online: 0, total: 0 };
+  const now = Date.now();
+  if (_statsCache && now - _statsCache.ts < STATS_CACHE_MS) return _statsCache.stats;
   try {
-    const now = Date.now();
     await r.zremrangebyscore(KEY_ONLINE, 0, now - ONLINE_WINDOW_MS);
     const [online, total] = await Promise.all([
       r.zcard(KEY_ONLINE),
       r.get<number>(KEY_TOTAL),
     ]);
-    return { online: online ?? 0, total: total ?? 0 };
+    const stats = { online: online ?? 0, total: total ?? 0 };
+    _statsCache = { ts: now, stats };
+    return stats;
   } catch {
-    return { online: 0, total: 0 };
+    return _statsCache?.stats ?? { online: 0, total: 0 };
   }
 }
 

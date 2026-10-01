@@ -51,6 +51,8 @@ export function StatsBar({ compact = false }: { compact?: boolean } = {}) {
 
     // visit POST는 4분에 1번만, 나머지는 stats GET (write→read 분리, Vercel invocation 절감)
     const tick = async () => {
+      // 안 보는 탭(백그라운드)은 요청하지 않음 — 열어만 둔 탭이 종일 Redis를 두드리던 것 차단(2026-10-01)
+      if (typeof document !== "undefined" && document.visibilityState === "hidden") return;
       try {
         const now = Date.now();
         const needVisit = now - lastVisitTs >= VISIT_REFRESH_MS;
@@ -70,7 +72,7 @@ export function StatsBar({ compact = false }: { compact?: boolean } = {}) {
             setStats({ online: d.online, total: d.total });
           }
         } else {
-          const r = await fetch("/api/stats", { cache: "no-store" });
+          const r = await fetch("/api/stats");
           const d = await r.json();
           if (alive && d && typeof d.online === "number") {
             setStats({ online: d.online, total: d.total });
@@ -83,9 +85,15 @@ export function StatsBar({ compact = false }: { compact?: boolean } = {}) {
 
     tick(); // 즉시 1회 (visit POST + stats 반영)
     const id = setInterval(tick, POLL_INTERVAL_MS);
+    // 탭으로 돌아오면 바로 1회 갱신(숨김 동안 건너뛴 만큼)
+    const onVisible = () => {
+      if (document.visibilityState === "visible") tick();
+    };
+    document.addEventListener("visibilitychange", onVisible);
     return () => {
       alive = false;
       clearInterval(id);
+      document.removeEventListener("visibilitychange", onVisible);
     };
   }, []);
 

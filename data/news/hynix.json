@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-02T16:00:17.703Z",
+  "updated_at": "2026-10-02T21:04:35.191Z",
   "count": 5,
   "items": [
+    {
+      "title": "엔비디아와 월가, GPU 담보가치에 기싸움[박신영의 개장전 요것만]",
+      "link": "https://www.hankyung.com/article/202610031370i",
+      "source": "한국경제",
+      "ts": 1790959464000,
+      "pub": "Sat, 03 Oct 2026 01:44:24 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "한미일 상장된 메모리 반도체 투자 ETF, 7일 상장",
       "link": "https://www.yna.co.kr/view/AKR20261002147400008",
@@ -42,16 +50,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 고은지 기자 = KB증권은 2일 올해 4분기 메모리 가격이 두자릿수 상승률로 추가로 오르면서 상승 사이클이 가속구간에 진입하겠...",
       "image": "https://img.yna.co.kr/photo/cms/2024/01/13/76/PCM20240113000176003_P2.jpg"
-    },
-    {
-      "title": "엔비디아·소프트뱅크, 오픈AI에 투자 약속한 82조원 모두 납입",
-      "link": "https://www.yna.co.kr/view/AKR20261002059400091",
-      "source": "연합뉴스 국제",
-      "ts": 1790904090000,
-      "pub": "Fri, 2 Oct 2026 10:21:30 +0900",
-      "sentiment": "neutral",
-      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 엔비디아와 손정의 회장이 이끄는 일본 소프트뱅크그룹이 연초 약정했던 오픈AI 투자금 600억 달러(약...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/09/30/PAP20260930074701009_P2.jpg"
     }
   ]
 }

@@ -1,8 +1,140 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-01T23:40:26.923Z",
-  "count": 18,
+  "updated_at": "2026-10-02T02:55:48.475Z",
+  "count": 28,
   "items": [
+    {
+      "title": "[영상] '한낮의 침입자'…선 넘는 이스라엘 정착촌",
+      "link": "https://www.yna.co.kr/view/AKR20261002084000797",
+      "source": "연합뉴스 국제",
+      "ts": 1790908570000,
+      "pub": "Fri, 2 Oct 2026 11:36:10 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 고현실 기자 = 요르단강 서안에서 이스라엘 정착촌을 둘러싼 갈등이 커지고 있습니다.",
+      "image": "https://www.youtube.com/embed/5CaxH6OmWcs"
+    },
+    {
+      "title": "中 \"미중은 AI 대국…군비경쟁 대신 안전장치와 제동장치 필요\"",
+      "link": "https://www.yna.co.kr/view/AKR20261002069600089",
+      "source": "연합뉴스 국제",
+      "ts": 1790906688000,
+      "pub": "Fri, 2 Oct 2026 11:04:48 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 최근 미중 정상회담에서 인공지능(AI) 대화 채널 구축에 합의했지만 AI 규제 등에서 온도 차를 보인 것과...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/02/AKR20261002069600089_01_i_P2.jpg"
+    },
+    {
+      "title": "\"트럼프, 미중회담서 시진핑에 '다카이치와 직접 대화' 촉구\"",
+      "link": "https://www.yna.co.kr/view/AKR20261002069200073",
+      "source": "연합뉴스 국제",
+      "ts": 1790906216000,
+      "pub": "Fri, 2 Oct 2026 10:56:56 +0900",
+      "sentiment": "neutral",
+      "desc": "(도쿄=연합뉴스) 이도연 특파원 = 도널드 트럼프 미국 대통령이 지난달 미중 정상회담에서 시진핑 중국 국가주석에게 다카이치 사나에 일본 총리와 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/02/AKR20261002069200073_01_i_P2.jpg"
+    },
+    {
+      "title": "[속보] 李대통령 \"우크라, 南北군사충돌 임박 운운…한반도전쟁 발발 기도\"",
+      "link": "https://www.hankyung.com/article/2026100298257",
+      "source": "한국경제",
+      "ts": 1790905666000,
+      "pub": "Fri, 02 Oct 2026 10:47:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 李대통령 \"우크라, 상대국 국가원수 거짓말쟁이 만들어\"",
+      "link": "https://www.hankyung.com/article/2026100298197",
+      "source": "한국경제",
+      "ts": 1790905580000,
+      "pub": "Fri, 02 Oct 2026 10:46:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 李 대통령 \"우크라, 공개사과 거부하면 추가조치…묵과 못 해\"",
+      "link": "https://www.hankyung.com/article/2026100298127",
+      "source": "한국경제",
+      "ts": 1790905526000,
+      "pub": "Fri, 02 Oct 2026 10:45:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프가 꺼낸 2000억달러 투자…與 \"국익\" 野 \"외교 참사\"",
+      "link": "https://www.hankyung.com/article/2026100297517",
+      "source": "한국경제",
+      "ts": 1790904767000,
+      "pub": "Fri, 02 Oct 2026 10:32:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "송영길 “李대통령, 우크라에 상당히 분노…사과 없으면 대사 소환”",
+      "link": "https://www.hankyung.com/article/202610029599i",
+      "source": "한국경제",
+      "ts": 1790904492000,
+      "pub": "Fri, 02 Oct 2026 10:28:12 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "워시 대신 Fed 주요 인사 잇따라 '등판'… \"10월보다 12월 인상\" 시사 [심성미의 중앙은행 워치]",
+      "link": "https://www.hankyung.com/article/202610029575i",
+      "source": "한국경제",
+      "ts": 1790903808000,
+      "pub": "Fri, 02 Oct 2026 10:16:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "3500억달러 투자 약속한 한국…美에 \"15% 관세 지켜달라\"",
+      "link": "https://www.hankyung.com/article/2026100296457",
+      "source": "한국경제",
+      "ts": 1790902953000,
+      "pub": "Fri, 02 Oct 2026 10:02:33 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "통상본부장, G20서 USTR 대표 만나 15% 관세합의 존중 요청(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261002037151003",
+      "source": "연합뉴스 경제",
+      "ts": 1790902163000,
+      "pub": "Fri, 2 Oct 2026 09:49:23 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 신창용 기자 = 박정성 산업통상부 통상교섭본부장이 미국 위스콘신주 밀워키에서 열린 주요 20개국(G20) 통상장관회의에 참석해...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082605820001300_P2.jpg"
+    },
+    {
+      "title": "美 약값, 해외와 연동…트럼프 '메디케어 약값 인하' 내년 시행",
+      "link": "https://www.hankyung.com/article/202610029453i",
+      "source": "한국경제",
+      "ts": 1790900959000,
+      "pub": "Fri, 02 Oct 2026 09:29:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "우크라 외무 \"한국 중요해…외교적 오해 진심으로 해결바라\"",
+      "link": "https://www.yna.co.kr/view/AKR20261002039900009",
+      "source": "연합뉴스 국제",
+      "ts": 1790900499000,
+      "pub": "Fri, 2 Oct 2026 09:21:39 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 강훈상 기자 = 볼로디미르 젤렌스키 우크라이나 대통령이 북한 포로의 한국 인도를 돌발적으로 공개해 경색된 양국 관계와 관련, ...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/15/PEP20260915200101009_P2.jpg"
+    },
+    {
+      "title": "美 무역대표 \"과잉생산 용납 못해\"…추가관세 부과 시사",
+      "link": "https://www.hankyung.com/article/202610029400i",
+      "source": "한국경제",
+      "ts": 1790900406000,
+      "pub": "Fri, 02 Oct 2026 09:20:06 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "통상본부장, G20서 USTR 대표 만나 15% 관세합의 존중 요청",
+      "link": "https://www.yna.co.kr/view/AKR20261002037100003",
+      "source": "연합뉴스 경제",
+      "ts": 1790900318000,
+      "pub": "Fri, 2 Oct 2026 09:18:38 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 신창용 기자 = 박정성 산업통상부 통상교섭본부장이 미국 위스콘신주 밀워키에서 열린 주요 20개국(G20) 통상장관회의에 참석해...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082605820001300_P2.jpg"
+    },
     {
       "title": "트럼프, 농구스타 로드먼 소개하며 '김정은과 인연' 언급",
       "link": "https://www.yna.co.kr/view/AKR20261002022100071",
@@ -22,22 +154,6 @@
       "sentiment": "neutral",
       "desc": "(멕시코시티=연합뉴스) 송광호 특파원 = \"트럼프 가족들은 보우소나루가(家) 근처에서는 점잖은 교외 주민처럼 보인다.\"",
       "image": "https://img.yna.co.kr/photo/reuters/2026/09/28/PRU20260928427001009_P2.jpg"
-    },
-    {
-      "title": "여객기 추락 시도 배후에 이란 있나…트럼프, 연루 가능성 제기",
-      "link": "https://www.hankyung.com/article/2026100289947",
-      "source": "한국경제",
-      "ts": 1790890528000,
-      "pub": "Fri, 02 Oct 2026 06:35:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "경윳값 불붙자 유럽 바라본 트럼프…비축 경유 방출 압박",
-      "link": "https://www.hankyung.com/article/2026100289837",
-      "source": "한국경제",
-      "ts": 1790890019000,
-      "pub": "Fri, 02 Oct 2026 06:26:59 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "트럼프, 경윳값 폭등에 \"유럽에 비축경유 방출 요구할 수도\"(종합)",
@@ -148,36 +264,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김아람 기자 = 미국 당국자들이 애초 예상과 달리 내년에 중국이 대만을 침공할 가능성을 점점 낮게 보고 있다고 로이터 통신이 ...",
       "image": "https://img.yna.co.kr/photo/cms/2024/05/28/29/PCM20240528000029990_P2.jpg"
-    },
-    {
-      "title": "'기장 찌르고 추락 시도' 이스라엘행 여객기 사건 동기·배후는",
-      "link": "https://www.yna.co.kr/view/AKR20261001173300079",
-      "source": "연합뉴스 국제",
-      "ts": 1790842691000,
-      "pub": "Thu, 1 Oct 2026 17:18:11 +0900",
-      "sentiment": "neutral",
-      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 174명의 승객을 태우고 아랍에미리트(UAE) 두바이에서 출발해 이스라엘로 향하던 플라이두바이 여객기 기내...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/01/AKR20261001173300079_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프가 극찬한 美정부 AI, 트럼프 주장 반박 하루 뒤 답변 거부",
-      "link": "https://www.yna.co.kr/view/AKR20261001139500009",
-      "source": "연합뉴스 국제",
-      "ts": 1790836027000,
-      "pub": "Thu, 1 Oct 2026 15:27:07 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김아람 기자 = 미국 도널드 트럼프 행정부가 출시한 연방정부 인공지능(AI) 챗봇이 트럼프 대통령의 평소 주장과 배치되는 답변...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/30/PEP20260930017601009_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"시진핑과 정치범 문제 논의…유익한 논의였길\"",
-      "link": "https://www.yna.co.kr/view/AKR20261001097500009",
-      "source": "연합뉴스 국제",
-      "ts": 1790823081000,
-      "pub": "Thu, 1 Oct 2026 11:51:21 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 송진원 기자 = 도널드 트럼프 미국 대통령은 지난주 시진핑 중국 국가주석과의 회담에서 정치범 석방 문제를 논의했다고 밝혔다.",
-      "image": "https://img.yna.co.kr/photo/ap/2026/09/25/PAP20260925102801009_P2.jpg"
     }
   ]
 }

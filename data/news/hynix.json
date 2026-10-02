@@ -1,8 +1,18 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-01T23:40:26.926Z",
-  "count": 10,
+  "updated_at": "2026-10-02T02:55:48.478Z",
+  "count": 3,
   "items": [
+    {
+      "title": "엔비디아·소프트뱅크, 오픈AI에 투자 약속한 82조원 모두 납입",
+      "link": "https://www.yna.co.kr/view/AKR20261002059400091",
+      "source": "연합뉴스 국제",
+      "ts": 1790904090000,
+      "pub": "Fri, 2 Oct 2026 10:21:30 +0900",
+      "sentiment": "neutral",
+      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 엔비디아와 손정의 회장이 이끄는 일본 소프트뱅크그룹이 연초 약정했던 오픈AI 투자금 600억 달러(약...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/30/PAP20260930074701009_P2.jpg"
+    },
     {
       "title": "[마켓뷰] 마이크론 호실적에 반등한 코스피, '7천피' 탈환하나",
       "link": "https://www.yna.co.kr/view/AKR20261002019500008",
@@ -14,22 +24,6 @@
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100124550001300_P2.jpg"
     },
     {
-      "title": "\"압도적 매수 의견\"…'반도체 훈풍' 삼전닉스 투자전략은?",
-      "link": "https://www.hankyung.com/article/202610018177i",
-      "source": "한국경제",
-      "ts": 1790895605000,
-      "pub": "Fri, 02 Oct 2026 08:00:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "금리 깜짝 반전, 왜?…마이크론 비틀거린 3가지 이유 [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202610028919i",
-      "source": "한국경제",
-      "ts": 1790895568000,
-      "pub": "Fri, 02 Oct 2026 07:59:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "뉴욕증시, 마이크론 호실적에도 불안한 투심…하락 출발",
       "link": "https://www.yna.co.kr/view/AKR20261001201400009",
       "source": "연합뉴스 국제",
@@ -38,66 +32,6 @@
       "sentiment": "neutral",
       "desc": "(뉴욕=연합뉴스) 진정호 연합인포맥스 특파원 = 뉴욕증시의 3대 주가지수가 약세를 보이고 있다.",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/01/AKR20261001201400009_01_i_P2.jpg"
-    },
-    {
-      "title": "마이크론·수출로 확인한 반도체 수요…증시 상승탄력 촉매될까(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261001085451008",
-      "source": "연합뉴스 경제",
-      "ts": 1790841248000,
-      "pub": "Thu, 1 Oct 2026 16:54:08 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 황철환 기 = 미국 마이크론이 '깜짝 호실적'을 내놓으면서 메모리 공급 부족에 따른 반도체 업황 호조가 시장 일각의 우려와 달...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100124550001300_P2.jpg"
-    },
-    {
-      "title": "'마이크론·반도체 수출' 훈풍에 7천피 턱밑…코스닥 4.48% 급등(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261001150200008",
-      "source": "연합뉴스 경제",
-      "ts": 1790838716000,
-      "pub": "Thu, 1 Oct 2026 16:11:56 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 1일 코스피가 4거래일 만에 상승, 7,000선 턱밑에서 마감했다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100124280001300_P2.jpg"
-    },
-    {
-      "title": "'마이크론·반도체 수출' 훈풍…코스피 1.95%·코스닥 4.48%↑",
-      "link": "https://www.yna.co.kr/view/AKR20261001143000008",
-      "source": "연합뉴스 경제",
-      "ts": 1790836661000,
-      "pub": "Thu, 1 Oct 2026 15:37:41 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 1일 코스피가 4거래일 만에 상승, 7,000선 턱밑에서 마감했다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100124120001300_P2.jpg"
-    },
-    {
-      "title": "[속보] '마이크론·반도체 수출' 훈풍…코스피 1.95%·코스닥 4.48%↑",
-      "link": "https://www.yna.co.kr/view/AKR20261001142800008",
-      "source": "연합뉴스 경제",
-      "ts": 1790836478000,
-      "pub": "Thu, 1 Oct 2026 15:34:38 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100124120001300_P2.jpg"
-    },
-    {
-      "title": "LH, 호남권 반도체 국가산단 설계 착수…내년 중순 승인 목표",
-      "link": "https://www.yna.co.kr/view/AKR20261001138300003",
-      "source": "연합뉴스 경제",
-      "ts": 1790835559000,
-      "pub": "Thu, 1 Oct 2026 15:19:19 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 오진송 기자 = 한국토지주택공사(LH)가 호남권 반도체 첨단 국가산업단지 후보지 발표 3개월 만에 설계에 착수했다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/01/AKR20261001138300003_01_i_P2.jpg"
-    },
-    {
-      "title": "메모리값 급등에 갤럭시S26도 인상…최대 27만원↑",
-      "link": "https://www.yna.co.kr/view/AKR20261001128100017",
-      "source": "연합뉴스 경제",
-      "ts": 1790833827000,
-      "pub": "Thu, 1 Oct 2026 14:50:27 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 박형빈 기자 = 삼성전자[005930]가 올해 3월 출시한 플래그십 스마트폰 갤럭시 S26 시리즈의 출고가를 1일 인상했다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/03/11/PYH2026031106920001300_P2.jpg"
     }
   ]
 }

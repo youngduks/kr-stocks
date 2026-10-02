@@ -1,43 +1,17 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-01T23:40:26.925Z",
-  "count": 4,
+  "updated_at": "2026-10-02T02:55:48.477Z",
+  "count": 1,
   "items": [
     {
-      "title": "삼전닉스 사둬야 하나…개미들 환호할 '특급 호재' 나왔다 [분석+]",
-      "link": "https://www.hankyung.com/article/2026100290906",
-      "source": "한국경제",
-      "ts": 1790895818000,
-      "pub": "Fri, 02 Oct 2026 08:03:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"압도적 매수 의견\"…'반도체 훈풍' 삼전닉스 투자전략은?",
-      "link": "https://www.hankyung.com/article/202610018177i",
-      "source": "한국경제",
-      "ts": 1790895605000,
-      "pub": "Fri, 02 Oct 2026 08:00:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "외국인은 팔았지만…삼전닉스, 3% 안팎 급등 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261001040451008",
+      "title": "[특징주] 삼전·닉스, 하락 출발후 낙폭 줄여 보합권",
+      "link": "https://www.yna.co.kr/view/AKR20261002043400008",
       "source": "연합뉴스 경제",
-      "ts": 1790837466000,
-      "pub": "Thu, 1 Oct 2026 15:51:06 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 마이크론의 깜짝 호실적과 반도체 수출 호조 등 국내외 호...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
-    },
-    {
-      "title": "메모리값 급등에 갤럭시S26도 인상…최대 27만원↑",
-      "link": "https://www.yna.co.kr/view/AKR20261001128100017",
-      "source": "연합뉴스 경제",
-      "ts": 1790833827000,
-      "pub": "Thu, 1 Oct 2026 14:50:27 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 박형빈 기자 = 삼성전자[005930]가 올해 3월 출시한 플래그십 스마트폰 갤럭시 S26 시리즈의 출고가를 1일 인상했다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/03/11/PYH2026031106920001300_P2.jpg"
+      "ts": 1790901124000,
+      "pub": "Fri, 2 Oct 2026 09:32:04 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 2일 하락 출발 후 빠르게 낙폭을 좁히며 장중 상승 전환...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/02/04/84/PCM20260204000084990_P2.jpg"
     }
   ]
 }

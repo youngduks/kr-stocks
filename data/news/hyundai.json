@@ -1,15 +1,17 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-10-01T23:40:26.926Z",
-  "count": 3,
+  "updated_at": "2026-10-02T02:55:48.478Z",
+  "count": 2,
   "items": [
     {
-      "title": "현대차, 신형 투싼 국내 이어 美 뉴욕서 공개",
-      "link": "https://www.hankyung.com/article/202610029078g",
-      "source": "한국경제",
-      "ts": 1790895600000,
-      "pub": "Fri, 02 Oct 2026 08:00:00 +0900",
-      "sentiment": "neutral"
+      "title": "현대차·기아, 미국 분기판매 첫 50만대…하이브리드가 '효자'(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261002002951075",
+      "source": "연합뉴스 국제",
+      "ts": 1790909022000,
+      "pub": "Fri, 2 Oct 2026 11:43:42 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울·로스앤젤레스=연합뉴스) 장하나 기자 김경윤 특파원 = 현대차와 기아가 3분기 미국 시장에서 분기 기준 첫 50만대 판매를 기록했다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/02/PYH2026100200930001300_P2.jpg"
     },
     {
       "title": "현대차·기아, 9월 美 판매 역대 최대…하이브리드가 견인",
@@ -20,14 +22,6 @@
       "sentiment": "positive",
       "desc": "(로스앤젤레스=연합뉴스) 김경윤 특파원 = 현대차와 기아가 9월 미국 시장에서 판매 증가세를 이어가며 새 기록을 썼다.",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/02/AKR20261002002900075_01_i_P2.jpg"
-    },
-    {
-      "title": "美소비자 \"기름값 무서워 하이브리드로\"…현대차 3분기 포드제쳐",
-      "link": "https://www.hankyung.com/article/202610028887i",
-      "source": "한국경제",
-      "ts": 1790869239000,
-      "pub": "Fri, 02 Oct 2026 00:40:39 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

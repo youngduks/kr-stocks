@@ -1,8 +1,56 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-02T02:55:48.478Z",
-  "count": 3,
+  "updated_at": "2026-10-02T09:08:51.706Z",
+  "count": 6,
   "items": [
+    {
+      "title": "한미일 상장된 메모리 반도체 투자 ETF, 7일 상장",
+      "link": "https://www.yna.co.kr/view/AKR20261002147400008",
+      "source": "연합뉴스 경제",
+      "ts": 1790928255000,
+      "pub": "Fri, 2 Oct 2026 17:04:15 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 한국거래소는 신한자산운용의 상장지수펀드(ETF) 1종목을 오는 7일 유가증권시장에 상장할 것이라고 2일 밝혔다...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/25/83/PCM20260625000183990_P2.jpg"
+    },
+    {
+      "title": "반도체 팔던 외국인, 코스피를 팔기 시작했다",
+      "link": "https://www.hankyung.com/article/202610020777i",
+      "source": "한국경제",
+      "ts": 1790927108000,
+      "pub": "Fri, 02 Oct 2026 16:45:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"中국유자본, '美수출통제 대상' 엔비디아 AI칩 구매 지원\"",
+      "link": "https://www.yna.co.kr/view/AKR20261002135800009",
+      "source": "연합뉴스 국제",
+      "ts": 1790925712000,
+      "pub": "Fri, 2 Oct 2026 16:21:52 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 권숙희 기자 = 중국 지방정부들이 소유한 금융회사가 미국 정부의 수출통제 대상인 엔비디아의 고성능 인공지능(AI) 칩 구매에 ...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/02/PRU20261002224301009_P2.jpg"
+    },
+    {
+      "title": "\"아마존, 엔비디아 칩 활용한 새로운 자금조달 추진\"",
+      "link": "https://www.yna.co.kr/view/AKR20261002114500009",
+      "source": "연합뉴스 국제",
+      "ts": 1790921962000,
+      "pub": "Fri, 2 Oct 2026 15:19:22 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 주종국 기자 = 하이퍼스케일러인 아마존이 특수목적법인(SPV)설립을 통해 장부상 보유 자산을 줄이면서도 외부 자금을 조달하는 ...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/02/PRU20261002224301009_P2.jpg"
+    },
+    {
+      "title": "KB증권 \"4분기 메모리 가격 두자릿수 상승…가속구간 진입\"",
+      "link": "https://www.yna.co.kr/view/AKR20261002089200008",
+      "source": "연합뉴스 경제",
+      "ts": 1790913059000,
+      "pub": "Fri, 2 Oct 2026 12:50:59 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 고은지 기자 = KB증권은 2일 올해 4분기 메모리 가격이 두자릿수 상승률로 추가로 오르면서 상승 사이클이 가속구간에 진입하겠...",
+      "image": "https://img.yna.co.kr/photo/cms/2024/01/13/76/PCM20240113000176003_P2.jpg"
+    },
     {
       "title": "엔비디아·소프트뱅크, 오픈AI에 투자 약속한 82조원 모두 납입",
       "link": "https://www.yna.co.kr/view/AKR20261002059400091",
@@ -12,26 +60,6 @@
       "sentiment": "neutral",
       "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 엔비디아와 손정의 회장이 이끄는 일본 소프트뱅크그룹이 연초 약정했던 오픈AI 투자금 600억 달러(약...",
       "image": "https://img.yna.co.kr/photo/ap/2026/09/30/PAP20260930074701009_P2.jpg"
-    },
-    {
-      "title": "[마켓뷰] 마이크론 호실적에 반등한 코스피, '7천피' 탈환하나",
-      "link": "https://www.yna.co.kr/view/AKR20261002019500008",
-      "source": "연합뉴스 경제",
-      "ts": 1790895754000,
-      "pub": "Fri, 2 Oct 2026 08:02:34 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유아 기자 = '반도체 업계 풍향계'로 불리는 미국 마이크론이 깜짝실적을 기록한 데 이어 간밤 미국 기준금리 인상 속도조절론...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100124550001300_P2.jpg"
-    },
-    {
-      "title": "뉴욕증시, 마이크론 호실적에도 불안한 투심…하락 출발",
-      "link": "https://www.yna.co.kr/view/AKR20261001201400009",
-      "source": "연합뉴스 국제",
-      "ts": 1790865911000,
-      "pub": "Thu, 1 Oct 2026 23:45:11 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 진정호 연합인포맥스 특파원 = 뉴욕증시의 3대 주가지수가 약세를 보이고 있다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/01/AKR20261001201400009_01_i_P2.jpg"
     }
   ]
 }

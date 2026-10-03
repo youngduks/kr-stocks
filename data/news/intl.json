@@ -1,8 +1,18 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-03T14:58:45.709Z",
+  "updated_at": "2026-10-03T18:32:26.922Z",
   "count": 36,
   "items": [
+    {
+      "title": "트럼프 \"알래스카에 인류 역사상 누구보다 많은 것 가져와\"",
+      "link": "https://www.yna.co.kr/view/AKR20261004000900071",
+      "source": "연합뉴스 국제",
+      "ts": 1791045850000,
+      "pub": "Sun, 4 Oct 2026 01:44:10 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령이 3일(현지시간) 자신이 알래스카에 전례 없는 수준의 성과를 가져왔다고 밝혔다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/04/AKR20261004000900071_01_i_P2.jpg"
+    },
     {
       "title": "트럼프 특사-푸틴, 종전안 뒤에서 '러 석유업체 빅딜' 밀담",
       "link": "https://www.yna.co.kr/view/AKR20261003048400009",
@@ -340,16 +350,6 @@
       "sentiment": "neutral",
       "desc": "(로마=연합뉴스) 민경락 특파원 = 우크라이나가 자체 개발한 탄도미사일 '펠리컨'을 처음 실전 배치했다고 밝혔다.",
       "image": "https://img.yna.co.kr/photo/etc/af/2026/10/02/PAF20261002182501009_P2.jpg"
-    },
-    {
-      "title": "[영상] 600㎞ 나는 공격드론 '토르 해머' 공개…우크라 최전선 실전배치",
-      "link": "https://www.yna.co.kr/view/AKR20261002132300704",
-      "source": "연합뉴스 국제",
-      "ts": 1790925062000,
-      "pub": "Fri, 2 Oct 2026 16:11:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 우크라이나 전쟁에서 드론이 '게임 체인저'로 평가받으며 그 역할과 중요성이 갈수록 커지는 가운데 우크라이나의 한 방산업체가 인...",
-      "image": "https://www.youtube.com/embed/wYLOUlN6xP8"
     },
     {
       "title": "관세청장 \"중동산 원유 우회운송 비용 증가분 비과세 특례 검토\"",

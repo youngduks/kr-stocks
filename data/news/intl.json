@@ -1,8 +1,18 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-03T18:32:26.922Z",
-  "count": 36,
+  "updated_at": "2026-10-03T21:53:31.220Z",
+  "count": 34,
   "items": [
+    {
+      "title": "트럼프 압박까지…대미투자, 알래스카 LNG 암초에 산 넘어 산",
+      "link": "https://www.yna.co.kr/view/AKR20260923183200003",
+      "source": "연합뉴스 경제",
+      "ts": 1791060901000,
+      "pub": "Sun, 4 Oct 2026 05:55:01 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 장보인 기자 = 한국의 대미투자가 이달 초 양국의 프로젝트 공식 발표와 함께 본격적으로 시동을 걸었지만 출발부터 암초를 만났다...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/01/PEP20261001074901009_P2.jpg"
+    },
     {
       "title": "트럼프 \"알래스카에 인류 역사상 누구보다 많은 것 가져와\"",
       "link": "https://www.yna.co.kr/view/AKR20261004000900071",
@@ -62,14 +72,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 이지헌 기자 = 도널드 트럼프 행정부의 외교·안보 수뇌부가 2일(현지시간) 대통령 휴양지인 캠프 데이비드에서 극비 회의를 열고...",
       "image": "https://img.yna.co.kr/photo/etc/gt/2026/08/01/PGT20260801020901009_P2.jpg"
-    },
-    {
-      "title": "백악관에 전용 휴게실까지…73세 시진핑 '건강 이상설'",
-      "link": "https://www.hankyung.com/article/2026100317227",
-      "source": "한국경제",
-      "ts": 1791003737000,
-      "pub": "Sat, 03 Oct 2026 14:02:17 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "대만 해안가에 트럼프 옆모습 닮은 기암괴석 '화제'",
@@ -340,26 +342,6 @@
       "sentiment": "neutral",
       "desc": "(브뤼셀=연합뉴스) 현윤경 특파원 = 도널드 트럼프 미국 행정부로부터 비축 경유를 방출하라는 강한 압박을 받고 있는 유럽이 2일(현지시간) 비상...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/02/AKR20261002168400098_02_i_P2.jpg"
-    },
-    {
-      "title": "우크라, 자국산 탄도미사일 '펠리컨' 첫 실전 배치",
-      "link": "https://www.yna.co.kr/view/AKR20261002154200109",
-      "source": "연합뉴스 국제",
-      "ts": 1790929577000,
-      "pub": "Fri, 2 Oct 2026 17:26:17 +0900",
-      "sentiment": "neutral",
-      "desc": "(로마=연합뉴스) 민경락 특파원 = 우크라이나가 자체 개발한 탄도미사일 '펠리컨'을 처음 실전 배치했다고 밝혔다.",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/02/PAF20261002182501009_P2.jpg"
-    },
-    {
-      "title": "관세청장 \"중동산 원유 우회운송 비용 증가분 비과세 특례 검토\"",
-      "link": "https://www.yna.co.kr/view/AKR20261002104100002",
-      "source": "연합뉴스 경제",
-      "ts": 1790917866000,
-      "pub": "Fri, 2 Oct 2026 14:11:06 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 이대희 기자 = 이종욱 관세청장은 2일 \"중동산 원유의 대체 운반에 따른 운임·보험료 증가분을 과세에서 제외하는 특례 방안을 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/02/PYH2026100213630000203_P2.jpg"
     }
   ]
 }

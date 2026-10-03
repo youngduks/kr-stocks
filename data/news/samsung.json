@@ -1,8 +1,18 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-03T18:32:26.924Z",
+  "updated_at": "2026-10-03T21:53:31.221Z",
   "count": 5,
   "items": [
+    {
+      "title": "[마켓인사이트] 삼전 실적발표 앞둔 韓증시…'7천피' 지켜낼까",
+      "link": "https://www.yna.co.kr/view/AKR20261003023000008",
+      "source": "연합뉴스 경제",
+      "ts": 1791061205000,
+      "pub": "Sun, 4 Oct 2026 06:00:05 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 추석 연휴에서 복귀한 국내 주식시장은 지난 한 주간 여러 호재에도 상승 탄력을 받지 못한 채 7,000선을 중...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/02/PYH2026100217620001300_P2.jpg"
+    },
     {
       "title": "원전 파운드리, 반도체 신화 이을까…K기업, 美 심장부 뚫는다 [분석+]",
       "link": "https://www.hankyung.com/article/2026100179916",
@@ -38,16 +48,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]가 2일 장중 내내 등락을 거듭하다 보합으로 정규장 거래를 마무리했다. SK하이닉스는 소...",
       "image": "https://img.yna.co.kr/photo/cms/2025/10/02/07/PCM20251002000007990_P2.jpg"
-    },
-    {
-      "title": "KB증권 \"4분기 메모리 가격 두자릿수 상승…가속구간 진입\"",
-      "link": "https://www.yna.co.kr/view/AKR20261002089200008",
-      "source": "연합뉴스 경제",
-      "ts": 1790913059000,
-      "pub": "Fri, 2 Oct 2026 12:50:59 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 고은지 기자 = KB증권은 2일 올해 4분기 메모리 가격이 두자릿수 상승률로 추가로 오르면서 상승 사이클이 가속구간에 진입하겠...",
-      "image": "https://img.yna.co.kr/photo/cms/2024/01/13/76/PCM20240113000176003_P2.jpg"
     }
   ]
 }

@@ -1,8 +1,26 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-03T18:32:26.925Z",
-  "count": 3,
+  "updated_at": "2026-10-03T21:53:31.221Z",
+  "count": 4,
   "items": [
+    {
+      "title": "반도체 설비투자 확대로 공급 확대? \"내후년 하반기는 돼야\"",
+      "link": "https://www.yna.co.kr/view/AKR20261002179200008",
+      "source": "연합뉴스 경제",
+      "ts": 1791062701000,
+      "pub": "Sun, 4 Oct 2026 06:25:01 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유아 기자 = 마이크론의 대규모 시설투자 확대 계획이 공개된 직후 시장 일각에선 중장기 메모리 업황 호조에 대한 경계감도 감...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/09/11/PRU20260911296901009_P2.jpg"
+    },
+    {
+      "title": "주요 IB, 엔비디아 HPE 등 'AI 인프라' 다시 주목 [월가 업&다운]",
+      "link": "https://www.hankyung.com/article/202610042009i",
+      "source": "한국경제",
+      "ts": 1791061202000,
+      "pub": "Sun, 04 Oct 2026 06:00:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "원전 파운드리, 반도체 신화 이을까…K기업, 美 심장부 뚫는다 [분석+]",
       "link": "https://www.hankyung.com/article/2026100179916",
@@ -20,16 +38,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김유향 기자 = 한국거래소는 신한자산운용의 상장지수펀드(ETF) 1종목을 오는 7일 유가증권시장에 상장할 것이라고 2일 밝혔다...",
       "image": "https://img.yna.co.kr/photo/cms/2026/06/25/83/PCM20260625000183990_P2.jpg"
-    },
-    {
-      "title": "KB증권 \"4분기 메모리 가격 두자릿수 상승…가속구간 진입\"",
-      "link": "https://www.yna.co.kr/view/AKR20261002089200008",
-      "source": "연합뉴스 경제",
-      "ts": 1790913059000,
-      "pub": "Fri, 2 Oct 2026 12:50:59 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 고은지 기자 = KB증권은 2일 올해 4분기 메모리 가격이 두자릿수 상승률로 추가로 오르면서 상승 사이클이 가속구간에 진입하겠...",
-      "image": "https://img.yna.co.kr/photo/cms/2024/01/13/76/PCM20240113000176003_P2.jpg"
     }
   ]
 }

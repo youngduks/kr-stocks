@@ -1,14 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-03T05:52:50.473Z",
-  "count": 4,
+  "updated_at": "2026-10-03T10:46:16.248Z",
+  "count": 5,
   "items": [
     {
-      "title": "\"삼전·하닉 80% 담았는데 어쩌죠?\"…목표주가만 믿었다간",
-      "link": "https://www.hankyung.com/article/2026100315297",
+      "title": "원전 파운드리, 반도체 신화 이을까…K기업, 美 심장부 뚫는다 [분석+]",
+      "link": "https://www.hankyung.com/article/2026100179916",
       "source": "한국경제",
-      "ts": 1790984082000,
-      "pub": "Sat, 03 Oct 2026 08:34:42 +0900",
+      "ts": 1791013431000,
+      "pub": "Sat, 03 Oct 2026 16:43:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "모두 삼전닉스만 볼 때…\"이걸로 돈 벌었어요\" 웃는 개미들 [이수의 ETF줌인]",
+      "link": "https://www.hankyung.com/article/2026100202146",
+      "source": "한국경제",
+      "ts": 1791007207000,
+      "pub": "Sat, 03 Oct 2026 15:00:07 +0900",
       "sentiment": "neutral"
     },
     {

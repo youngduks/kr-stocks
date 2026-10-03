@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-03T05:52:50.474Z",
+  "updated_at": "2026-10-03T10:46:16.248Z",
   "count": 4,
   "items": [
+    {
+      "title": "원전 파운드리, 반도체 신화 이을까…K기업, 美 심장부 뚫는다 [분석+]",
+      "link": "https://www.hankyung.com/article/2026100179916",
+      "source": "한국경제",
+      "ts": 1791013431000,
+      "pub": "Sat, 03 Oct 2026 16:43:51 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "한미일 상장된 메모리 반도체 투자 ETF, 7일 상장",
       "link": "https://www.yna.co.kr/view/AKR20261002147400008",
@@ -21,16 +29,6 @@
       "pub": "Fri, 2 Oct 2026 16:21:52 +0900",
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 권숙희 기자 = 중국 지방정부들이 소유한 금융회사가 미국 정부의 수출통제 대상인 엔비디아의 고성능 인공지능(AI) 칩 구매에 ...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/02/PRU20261002224301009_P2.jpg"
-    },
-    {
-      "title": "\"아마존, 엔비디아 칩 활용한 새로운 자금조달 추진\"",
-      "link": "https://www.yna.co.kr/view/AKR20261002114500009",
-      "source": "연합뉴스 국제",
-      "ts": 1790921962000,
-      "pub": "Fri, 2 Oct 2026 15:19:22 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 주종국 기자 = 하이퍼스케일러인 아마존이 특수목적법인(SPV)설립을 통해 장부상 보유 자산을 줄이면서도 외부 자금을 조달하는 ...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/10/02/PRU20261002224301009_P2.jpg"
     },
     {

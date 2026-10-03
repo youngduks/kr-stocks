@@ -1,17 +1,25 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-10-02T21:04:35.192Z",
-  "count": 1,
+  "updated_at": "2026-10-03T00:47:54.526Z",
+  "count": 2,
   "items": [
     {
-      "title": "현대차·기아, 미국 분기판매 첫 50만대…하이브리드가 '효자'(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261002002951075",
+      "title": "현대차 주가 70만→30만 '뚝'…한달만에 30% 뛴 협력사 있다는데 [대기업 협력사 전수분석]",
+      "link": "https://www.hankyung.com/article/202610020826i",
+      "source": "한국경제",
+      "ts": 1790982002000,
+      "pub": "Sat, 03 Oct 2026 08:00:02 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "현대차 투자한 피지컬AI 기업 필드AI, 1년만에 기업가치 5배↑",
+      "link": "https://www.yna.co.kr/view/AKR20261003009200091",
       "source": "연합뉴스 국제",
-      "ts": 1790909022000,
-      "pub": "Fri, 2 Oct 2026 11:43:42 +0900",
+      "ts": 1790978435000,
+      "pub": "Sat, 3 Oct 2026 07:00:35 +0900",
       "sentiment": "neutral",
-      "desc": "(서울·로스앤젤레스=연합뉴스) 장하나 기자 김경윤 특파원 = 현대차와 기아가 3분기 미국 시장에서 분기 기준 첫 50만대 판매를 기록했다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/02/PYH2026100200930001300_P2.jpg"
+      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 현대자동차 그룹이 투자한 미국의 (피지컬AI(실물AI) 소프트웨어 스타트업 '필드AI'의 기업가치가 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/03/AKR20261003009200091_01_i_P2.jpg"
     }
   ]
 }

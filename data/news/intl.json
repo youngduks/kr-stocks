@@ -1,8 +1,18 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-03T10:46:16.243Z",
-  "count": 38,
+  "updated_at": "2026-10-03T14:58:45.709Z",
+  "count": 36,
   "items": [
+    {
+      "title": "트럼프 특사-푸틴, 종전안 뒤에서 '러 석유업체 빅딜' 밀담",
+      "link": "https://www.yna.co.kr/view/AKR20261003048400009",
+      "source": "연합뉴스 국제",
+      "ts": 1791029737000,
+      "pub": "Sat, 3 Oct 2026 21:15:37 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 임화섭 기자 = 미국 정부 특사들이 우크라이나 전쟁 휴전 가능성을 논의하기 위해 지난달 모스크바에 갔을 때 블라디미르 푸틴 러...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/03/AKR20261003048400009_03_i_P2.jpg"
+    },
     {
       "title": "\"플라이두바이 부기장, 이스라엘 향해 '고의 추락' 의도 시인\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20261003038351009",
@@ -70,14 +80,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김승욱 기자 = 시진핑(73) 중국 국가주석이 지난달 도널드 트럼프 미국 대통령과의 정상회담 기간에 이례적인 휴식 편의를 요청...",
       "image": "https://img.yna.co.kr/photo/ap/2026/09/25/PAP20260925102801009_P2.jpg"
-    },
-    {
-      "title": "트럼프, 김정은과 다시 마주 앉나…美 \"대화 자체는 양보 아냐\"",
-      "link": "https://www.hankyung.com/article/2026100316387",
-      "source": "한국경제",
-      "ts": 1790992037000,
-      "pub": "Sat, 03 Oct 2026 10:47:17 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "트럼프 \"美전략비축유 곧 확충…이란전 끝나면 에너지가격↓\"",
@@ -348,26 +350,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 우크라이나 전쟁에서 드론이 '게임 체인저'로 평가받으며 그 역할과 중요성이 갈수록 커지는 가운데 우크라이나의 한 방산업체가 인...",
       "image": "https://www.youtube.com/embed/wYLOUlN6xP8"
-    },
-    {
-      "title": "'北포로 송환 공개' 문제 외교갈등 비화…우크라 사과 여부 주목",
-      "link": "https://www.yna.co.kr/view/AKR20261002121700504",
-      "source": "연합뉴스 국제",
-      "ts": 1790923412000,
-      "pub": "Fri, 2 Oct 2026 15:43:32 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김지헌 기자 = 우크라이나의 북한군 포로 송환 공개와 비공개 합의 부인을 놓고 이재명 대통령이 사과를 강하게 요구하면서 이 문...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/08/PYH2026070820060001300_P2.jpg"
-    },
-    {
-      "title": "[쇼츠] 트럼프, 선거 후 이란 공습 재개?…세 번째 항모 중동으로",
-      "link": "https://www.yna.co.kr/view/AKR20261002126300704",
-      "source": "연합뉴스 국제",
-      "ts": 1790923140000,
-      "pub": "Fri, 2 Oct 2026 15:39:00 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 미국이 두 척의 항공모함이 있는 중동 지역에 항모와 1만명의 병력을 추가 파견했습니다.",
-      "image": "https://www.youtube.com/embed/RfSx_k-RIBw"
     },
     {
       "title": "관세청장 \"중동산 원유 우회운송 비용 증가분 비과세 특례 검토\"",

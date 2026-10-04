@@ -1,17 +1,33 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-04T00:12:16.522Z",
+  "updated_at": "2026-10-04T06:30:01.585Z",
   "count": 5,
   "items": [
     {
-      "title": "불 붙은 메모리값에 TV시장도 '불똥'...삼성·LG는 여유?",
-      "link": "https://www.mt.co.kr/industry/2026/10/04/2026100213544786348",
-      "source": "머니투데이",
-      "ts": 1791065100000,
-      "pub": "Sun, 04 Oct 2026 07:05:00 +0900",
+      "title": "미중회담 끝나자 美찾는 대만 외교장관…\"TSMC 공장 방문\"",
+      "link": "https://www.yna.co.kr/view/AKR20261004026400089",
+      "source": "연합뉴스 국제",
+      "ts": 1791094213000,
+      "pub": "Sun, 4 Oct 2026 15:10:13 +0900",
       "sentiment": "neutral",
-      "desc": "글로벌 TV 출하량 역성장에도 프리미엄은 9.3%↑…고가 제품 확대·비용 효율화로 원가 부담 대응 올해 글로벌 TV 출하량이 역성장할 것으로 예상되는 가운데 프리미엄 TV 출하량은 성장세를 이어갈 전망이다. 메모리 반도체(이하 메모리) 가격 상승으로 원가 부담이 커지면",
-      "image": "https://thumb.mt.co.kr/06/2026/10/2026100213544786348_1.jpg"
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 중국이 최근 미중 정상회담에서 미국에 '대만 독립 반대' 입장을 요구한 속에 대만 린자룽 외교부장(장관)이...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/04/AKR20261004026400089_01_i_P2.jpg"
+    },
+    {
+      "title": "\"삼전닉스 얼마나 받길래…\" 엔비디아 직원들 술렁인 이유 [시선'칩'중(下)]",
+      "link": "https://www.hankyung.com/article/202610020688g",
+      "source": "한국경제",
+      "ts": 1791093874000,
+      "pub": "Sun, 04 Oct 2026 15:04:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"반도체보다 인프라 병목 더 심각…조정 후 AI기업 옥석 가려질 것\"",
+      "link": "https://www.hankyung.com/article/202610042113i",
+      "source": "한국경제",
+      "ts": 1791081242000,
+      "pub": "Sun, 04 Oct 2026 11:34:02 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "반도체 설비투자 확대로 공급 확대? \"내후년 하반기는 돼야\"",
@@ -22,22 +38,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김유아 기자 = 마이크론의 대규모 시설투자 확대 계획이 공개된 직후 시장 일각에선 중장기 메모리 업황 호조에 대한 경계감도 감...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/09/11/PRU20260911296901009_P2.jpg"
-    },
-    {
-      "title": "주요 IB, 엔비디아 HPE 등 'AI 인프라' 다시 주목 [월가 업&다운]",
-      "link": "https://www.hankyung.com/article/202610042009i",
-      "source": "한국경제",
-      "ts": 1791061202000,
-      "pub": "Sun, 04 Oct 2026 06:00:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "원전 파운드리, 반도체 신화 이을까…K기업, 美 심장부 뚫는다 [분석+]",
-      "link": "https://www.hankyung.com/article/2026100179916",
-      "source": "한국경제",
-      "ts": 1791013431000,
-      "pub": "Sat, 03 Oct 2026 16:43:51 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "한미일 상장된 메모리 반도체 투자 ETF, 7일 상장",

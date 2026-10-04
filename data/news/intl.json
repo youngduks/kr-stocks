@@ -1,8 +1,148 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-04T00:12:16.518Z",
-  "count": 37,
+  "updated_at": "2026-10-04T06:30:01.584Z",
+  "count": 42,
   "items": [
+    {
+      "title": "트럼프, 당내 정책 반대자 전번 공개해 '항의폭탄' 유도",
+      "link": "https://www.yna.co.kr/view/AKR20261004028200009",
+      "source": "연합뉴스 국제",
+      "ts": 1791095092000,
+      "pub": "Sun, 4 Oct 2026 15:24:52 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 오수진 기자 = 도널드 트럼프 대통령이 '서머타임'으로 불리는 일광절약시간제 영구화 이슈를 두고 자신과 의견이 다른 공화당 상...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/04/PRU20261004193901009_P2.jpg"
+    },
+    {
+      "title": "미중회담 끝나자 美찾는 대만 외교장관…\"TSMC 공장 방문\"",
+      "link": "https://www.yna.co.kr/view/AKR20261004026400089",
+      "source": "연합뉴스 국제",
+      "ts": 1791094213000,
+      "pub": "Sun, 4 Oct 2026 15:10:13 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 중국이 최근 미중 정상회담에서 미국에 '대만 독립 반대' 입장을 요구한 속에 대만 린자룽 외교부장(장관)이...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/04/AKR20261004026400089_01_i_P2.jpg"
+    },
+    {
+      "title": "\"8명이 단 며칠 만에 뚝딱\"…AI로 트럼프 조롱하는 이란",
+      "link": "https://www.hankyung.com/article/2026100424217",
+      "source": "한국경제",
+      "ts": 1791089339000,
+      "pub": "Sun, 04 Oct 2026 13:48:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 조롱하는 테헤란 대형벽화…\"비결은 챗gpt 활용\"",
+      "link": "https://www.yna.co.kr/view/AKR20261004019900009",
+      "source": "연합뉴스 국제",
+      "ts": 1791087982000,
+      "pub": "Sun, 4 Oct 2026 13:26:22 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 임화섭 기자 = 최근 몇 달간 이란 수도 테헤란 거리에서는 도널드 트럼프 미국 대통령을 조롱하는 듯한 소재로 그려진 반미 선전...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/08/24/PEP20260824131501009_P2.jpg"
+    },
+    {
+      "title": "트럼프 알래스카 LNG 투자 압박, 한미 안보협의 새 변수 되나",
+      "link": "https://www.yna.co.kr/view/AKR20261004016600504",
+      "source": "연합뉴스 경제",
+      "ts": 1791085639000,
+      "pub": "Sun, 4 Oct 2026 12:47:19 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 민선희 기자 = 한미 대미투자 협상 진전으로 안보 분야 후속 협의에도 속도가 날 것으로 기대됐으나, 도널드 트럼프 미국 대통령...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/01/PEP20261001074901009_P2.jpg"
+    },
+    {
+      "title": "푸틴, 대규모 징집 나서나…18~30세 남성 부동산 거래까지 통제",
+      "link": "https://www.hankyung.com/article/2026100423337",
+      "source": "한국경제",
+      "ts": 1791081504000,
+      "pub": "Sun, 04 Oct 2026 11:38:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "푸틴, 대규모 징집 강행하나…2030男 부동산 거래도 제한",
+      "link": "https://www.yna.co.kr/view/AKR20261004013600009",
+      "source": "연합뉴스 국제",
+      "ts": 1791080468000,
+      "pub": "Sun, 4 Oct 2026 11:21:08 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 임화섭 기자 = 러시아 정부가 징집 기피 억제책으로 18∼30세 청년 남성에 대해 부동산 거래 등에 병역 서류 제출을 요구하는...",
+      "image": "https://img.yna.co.kr/photo/etc/ta/2026/10/03/PTA20261003034001009_P2.jpg"
+    },
+    {
+      "title": "트럼프 \"김정은과 잘지내…핵미사일 112개 있다면 잘지내야\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261004011051071",
+      "source": "연합뉴스 국제",
+      "ts": 1791080365000,
+      "pub": "Sun, 4 Oct 2026 11:19:25 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령은 3일(현지시간) 핵무기를 보유한 국가의 지도자들과 좋은 관계를 유지하는 것이 ...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/10/04/PAP20261004116001009_P2.jpg"
+    },
+    {
+      "title": "트럼프 \"美에 공장 안 지으면 관세 300%까지 부과…1년 반 기회 줄 것\"",
+      "link": "https://www.hankyung.com/article/2026100423117",
+      "source": "한국경제",
+      "ts": 1791080081000,
+      "pub": "Sun, 04 Oct 2026 11:14:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "다음달 中 APEC서 미중러 3자회담 성사될까…\"의제 설정이 관건\"",
+      "link": "https://www.yna.co.kr/view/AKR20261004014700089",
+      "source": "연합뉴스 국제",
+      "ts": 1791079479000,
+      "pub": "Sun, 4 Oct 2026 11:04:39 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 다음 달 중국에서 열리는 아시아태평양경제협력체(APEC) 정상회의 기간 미중러 3자 정상회담이 열릴 가능성...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/04/AKR20261004014700089_01_i_P2.jpg"
+    },
+    {
+      "title": "\"李대통령, 누구 위협할 처지 아냐\"…우크라 전직 장교 발언 논란",
+      "link": "https://www.hankyung.com/article/2026100422787",
+      "source": "한국경제",
+      "ts": 1791078710000,
+      "pub": "Sun, 04 Oct 2026 10:51:50 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "격전지 간 트럼프 \"美에 공장 안 지으면 관세 300%까지 부과\"",
+      "link": "https://www.yna.co.kr/view/AKR20261004013900071",
+      "source": "연합뉴스 국제",
+      "ts": 1791078128000,
+      "pub": "Sun, 4 Oct 2026 10:42:08 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령이 3일(현지시간) 11월 중간선거 격전지 중 하나인 오하이오주를 찾아 관세 정책...",
+      "image": "https://img.yna.co.kr/photo/etc/gt/2026/10/04/PGT20261004257701009_P2.jpg"
+    },
+    {
+      "title": "트럼프 \"김정은과 잘지내…누군가 핵미사일 112개 있다면 잘지내는 것이 좋아\"",
+      "link": "https://www.hankyung.com/article/2026100422467",
+      "source": "한국경제",
+      "ts": 1791075725000,
+      "pub": "Sun, 04 Oct 2026 10:02:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"김정은과 잘지내…누가 핵미사일 112개 있다면 잘지내야\"",
+      "link": "https://www.yna.co.kr/view/AKR20261004011000071",
+      "source": "연합뉴스 국제",
+      "ts": 1791074771000,
+      "pub": "Sun, 4 Oct 2026 09:46:11 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령은 3일(현지시간) 핵무기를 보유한 국가의 지도자들과 좋은 관계를 유지하는 것이 ...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/10/04/PAP20261004116001009_P2.jpg"
+    },
+    {
+      "title": "트럼프 \"이란 관련 결정내릴 것…쉬운 길 아니면 어려운 길\"",
+      "link": "https://www.yna.co.kr/view/AKR20261004010200071",
+      "source": "연합뉴스 국제",
+      "ts": 1791073099000,
+      "pub": "Sun, 4 Oct 2026 09:18:19 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령은 3일(현지시간) 이란전과 관련해 조만간 결정을 내릴 것이라고 거듭 밝혔다.",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/04/PEP20261004072501009_P2.jpg"
+    },
     {
       "title": "젤렌스키 \"푸틴, 겨울 앞두고 키이우 민간표적 허용\" 주장",
       "link": "https://www.yna.co.kr/view/AKR20261004008200009",
@@ -11,25 +151,7 @@
       "pub": "Sun, 4 Oct 2026 08:47:33 +0900",
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 이지헌 기자 = 볼로디미르 젤렌스키 우크라이나 대통령은 러시아가 키이우 등 우크라이나 주요 도시에서 주민들을 떠나게 만드는 것...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/04/AKR20261004008200009_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"알래스카에 역사상 최대 기여\" 자찬… 논란 속 LNG 사업 언급",
-      "link": "https://www.mt.co.kr/world/2026/10/04/2026100407321070320",
-      "source": "머니투데이",
-      "ts": 1791069717000,
-      "pub": "Sun, 04 Oct 2026 08:21:57 +0900",
-      "sentiment": "positive",
-      "desc": "알래스카 에너지 개발 성과 강조하며 투표 독려… 현금성 지원책 등 지지층 결집 나서 도널드 트럼프 미국 대통령이 자신이 알래스카에 인류 역사상 누구보다 많은 발전을 가져왔다고 자평했다. 한국 정부가 공식 확정하지도 않은 대규모 알래스카 액화천연가스(LNG) 프로젝트 투",
-      "image": "https://thumb.mt.co.kr/06/2026/10/2026100407321070320_1.jpg"
-    },
-    {
-      "title": "\"누구도 내 기록 근접 못해\"…트럼프, 알래스카 표심 총력전",
-      "link": "https://www.hankyung.com/article/2026100421167",
-      "source": "한국경제",
-      "ts": 1791068548000,
-      "pub": "Sun, 04 Oct 2026 08:02:28 +0900",
-      "sentiment": "neutral"
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/30/PAF20260930228201009_P2.jpg"
     },
     {
       "title": "워시는 침묵…美연준 인사들 발언에 시장 움직인 이유",
@@ -69,7 +191,7 @@
       "pub": "Sun, 4 Oct 2026 01:44:10 +0900",
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령이 3일(현지시간) 자신이 알래스카에 전례 없는 수준의 성과를 가져왔다고 밝혔다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/04/AKR20261004000900071_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/ap/2026/10/03/PAP20261003081301009_P2.jpg"
     },
     {
       "title": "트럼프 특사-푸틴, 종전안 뒤에서 '러 석유업체 빅딜' 밀담",
@@ -282,16 +404,6 @@
       "image": "https://img.yna.co.kr/photo/ap/2026/10/03/PAP20261003008901009_P2.jpg"
     },
     {
-      "title": "\"알래스카 등 트럼프의 프로젝트, 선거 판도 바꾸기엔 늦어\"",
-      "link": "https://www.yna.co.kr/view/AKR20261002186200071",
-      "source": "연합뉴스 국제",
-      "ts": 1790953503000,
-      "pub": "Sat, 3 Oct 2026 00:05:03 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 한국의 투자참여가 합의되지 않은 알래스카 액화천연가스(LNG) 개발사업 등 초...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/02/AKR20261002186200071_01_i_P2.jpg"
-    },
-    {
       "title": "산업부 \"트럼프 언급 84억불 석유프로젝트, 배경 확인 중\"",
       "link": "https://www.yna.co.kr/view/AKR20261002185600003",
       "source": "연합뉴스 경제",
@@ -300,76 +412,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 신창용 기자 = 도널드 트럼프 미국 대통령이 석유 관련 프로젝트에 한국이 84억 달러를 투자할 것이라고 2일(현지시간) 밝힌 ...",
       "image": "https://img.yna.co.kr/photo/ap/2026/10/02/PAP20261002119301009_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"韓과 협상 좋아져…석유 증산 프로젝트에 84억불\" 주장(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261002182051071",
-      "source": "연합뉴스 국제",
-      "ts": 1790951840000,
-      "pub": "Fri, 2 Oct 2026 23:37:20 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 2일(현지시간) 한미 간 협상으로 한국이 석유 관련 프로젝트에 84억 달러(약...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/02/AKR20261002182051071_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"유럽, 비축 경유 방출하기로 합의…즉시 시작될 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20261002185700071",
-      "source": "연합뉴스 국제",
-      "ts": 1790951507000,
-      "pub": "Fri, 2 Oct 2026 23:31:47 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 2일(현지시간) 유럽이 전략 비축한 경유를 곧바로 방출하기로 합의했다고 말했다...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/02/AKR20261002185700071_01_i_P2.jpg"
-    },
-    {
-      "title": "[속보] 트럼프 \"유럽, 비축 경유 방출하기로 합의…즉시 시작될 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20261002184800071",
-      "source": "연합뉴스 국제",
-      "ts": 1790950358000,
-      "pub": "Fri, 2 Oct 2026 23:12:38 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
-    },
-    {
-      "title": "뉴욕증시, 비농업 고용지표 소화하며 상승 출발",
-      "link": "https://www.yna.co.kr/view/AKR20261002183900009",
-      "source": "연합뉴스 국제",
-      "ts": 1790948883000,
-      "pub": "Fri, 2 Oct 2026 22:48:03 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 윤정원 연합인포맥스 기자 = 뉴욕증시의 3대 주가지수는 9월 비농업 고용지표를 소화하며 상승 출발했다.",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/26/PRU20260926019701009_P2.jpg"
-    },
-    {
-      "title": "우크라 \"美·인도 등 4개국서 휴전안 제안해와\"",
-      "link": "https://www.yna.co.kr/view/AKR20261002182400109",
-      "source": "연합뉴스 국제",
-      "ts": 1790947615000,
-      "pub": "Fri, 2 Oct 2026 22:26:55 +0900",
-      "sentiment": "neutral",
-      "desc": "(로마=연합뉴스) 민경락 특파원 = 우크라이나 당국이 미국과 인도, 튀르키예, 이집트 등 4개국으로부터 러시아와의 부분 휴전안 제안을 받았다고 ...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/09/24/PAP20260924032901009_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"韓과 협상 좋아져…석유 증산 프로젝트에 84억불\" 주장",
-      "link": "https://www.yna.co.kr/view/AKR20261002182000071",
-      "source": "연합뉴스 국제",
-      "ts": 1790946876000,
-      "pub": "Fri, 2 Oct 2026 22:14:36 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 2일(현지시간) 한미 간 협상으로 한국이 석유 관련 프로젝트에 84억 달러(약...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/02/AKR20261002182000071_01_i_P2.jpg"
-    },
-    {
-      "title": "[속보] 트럼프 \"韓과 협상 좋아져…석유 증산 프로젝트에 84억불 투입\"",
-      "link": "https://www.yna.co.kr/view/AKR20261002181000071",
-      "source": "연합뉴스 국제",
-      "ts": 1790945264000,
-      "pub": "Fri, 2 Oct 2026 21:47:44 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/01/PEP20261001075101009_P2.jpg"
     }
   ]
 }

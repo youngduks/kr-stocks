@@ -1,8 +1,28 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-04T20:36:15.401Z",
-  "count": 5,
+  "updated_at": "2026-10-04T23:41:24.194Z",
+  "count": 6,
   "items": [
+    {
+      "title": "[통합시 100일] ③ '800조 반도체' 유치…초광역 산업생태계 구축",
+      "link": "https://www.yna.co.kr/view/AKR20261001175700054",
+      "source": "연합뉴스 경제",
+      "ts": 1791154811000,
+      "pub": "Mon, 5 Oct 2026 08:00:11 +0900",
+      "sentiment": "neutral",
+      "desc": "[※ 편집자 주 = 전남과 광주가 통합해 전남광주통합특별시로 출범한 지 오는 8일로 100일을 맞습니다. 그동안 통합 광역정부의 틀을 갖추고 반...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/13/PYH2026071315940005400_P2.jpg"
+    },
+    {
+      "title": "코스닥 지난달 최악 수익률은 제약…금리·반도체 쏠림에 직격탄",
+      "link": "https://www.yna.co.kr/view/AKR20261003033300008",
+      "source": "연합뉴스 경제",
+      "ts": 1791148801000,
+      "pub": "Mon, 5 Oct 2026 06:20:01 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유아 기자 = 지난달 코스닥 제약 업종지수가 10% 넘게 하락하며 주요 업종 가운데 가장 큰 낙폭을 기록했다.",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/25/83/PCM20260625000183990_P2.jpg"
+    },
     {
       "title": "[포토] 삼성전자, 지역민에 '용인 반도체산단' 미래 모습 소개",
       "link": "https://www.hankyung.com/article/2026100426301",
@@ -38,16 +58,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김유아 기자 = 마이크론의 대규모 시설투자 확대 계획이 공개된 직후 시장 일각에선 중장기 메모리 업황 호조에 대한 경계감도 감...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/09/11/PRU20260911296901009_P2.jpg"
-    },
-    {
-      "title": "한미일 상장된 메모리 반도체 투자 ETF, 7일 상장",
-      "link": "https://www.yna.co.kr/view/AKR20261002147400008",
-      "source": "연합뉴스 경제",
-      "ts": 1790928255000,
-      "pub": "Fri, 2 Oct 2026 17:04:15 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 한국거래소는 신한자산운용의 상장지수펀드(ETF) 1종목을 오는 7일 유가증권시장에 상장할 것이라고 2일 밝혔다...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/25/83/PCM20260625000183990_P2.jpg"
     }
   ]
 }

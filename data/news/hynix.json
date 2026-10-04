@@ -1,8 +1,24 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-04T06:30:01.585Z",
+  "updated_at": "2026-10-04T12:55:54.456Z",
   "count": 5,
   "items": [
+    {
+      "title": "[포토] 삼성전자, 지역민에 '용인 반도체산단' 미래 모습 소개",
+      "link": "https://www.hankyung.com/article/2026100426301",
+      "source": "한국경제",
+      "ts": 1791105334000,
+      "pub": "Sun, 04 Oct 2026 18:15:34 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"엔비디아·테슬라 다 팔았다\"…부자들 새로 베팅한 종목",
+      "link": "https://www.hankyung.com/article/2026100426701",
+      "source": "한국경제",
+      "ts": 1791105229000,
+      "pub": "Sun, 04 Oct 2026 18:13:49 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "미중회담 끝나자 美찾는 대만 외교장관…\"TSMC 공장 방문\"",
       "link": "https://www.yna.co.kr/view/AKR20261004026400089",
@@ -12,22 +28,6 @@
       "sentiment": "neutral",
       "desc": "(상하이=연합뉴스) 차병섭 특파원 = 중국이 최근 미중 정상회담에서 미국에 '대만 독립 반대' 입장을 요구한 속에 대만 린자룽 외교부장(장관)이...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/04/AKR20261004026400089_01_i_P2.jpg"
-    },
-    {
-      "title": "\"삼전닉스 얼마나 받길래…\" 엔비디아 직원들 술렁인 이유 [시선'칩'중(下)]",
-      "link": "https://www.hankyung.com/article/202610020688g",
-      "source": "한국경제",
-      "ts": 1791093874000,
-      "pub": "Sun, 04 Oct 2026 15:04:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"반도체보다 인프라 병목 더 심각…조정 후 AI기업 옥석 가려질 것\"",
-      "link": "https://www.hankyung.com/article/202610042113i",
-      "source": "한국경제",
-      "ts": 1791081242000,
-      "pub": "Sun, 04 Oct 2026 11:34:02 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "반도체 설비투자 확대로 공급 확대? \"내후년 하반기는 돼야\"",

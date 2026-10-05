@@ -1,8 +1,38 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-05T02:48:43.424Z",
-  "count": 37,
+  "updated_at": "2026-10-05T09:45:06.717Z",
+  "count": 32,
   "items": [
+    {
+      "title": "\"EU, '곡창' 우크라 회원 가입시 농업보조금 접근 제한 방침\"",
+      "link": "https://www.yna.co.kr/view/AKR20261005048900098",
+      "source": "연합뉴스 국제",
+      "ts": 1791190890000,
+      "pub": "Mon, 5 Oct 2026 18:01:30 +0900",
+      "sentiment": "neutral",
+      "desc": "(브뤼셀=연합뉴스) 현윤경 특파원 = 유럽연합(EU)이 우크라이나의 회원 가입 시 역내 농산물 시장과 연간 550억 유로(약 83조원) 규모의 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/05/AKR20261005048900098_01_i_P2.jpg"
+    },
+    {
+      "title": "백악관, 러시아 페스트 유출의심 사고에 촉각…\"상황 주시\"",
+      "link": "https://www.yna.co.kr/view/AKR20261005035900009",
+      "source": "연합뉴스 국제",
+      "ts": 1791178207000,
+      "pub": "Mon, 5 Oct 2026 14:30:07 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이지헌 기자 = 러시아 시베리아의 한 페스트 연구소에서 병원체 유출 의심 사고로 연구원 1명이 사망하고 접촉자들이 격리된 것과...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/05/AKR20261005035900009_01_i_P2.jpg"
+    },
+    {
+      "title": "[영상] 獨총리, 지원 보따리 들고 우크라 깜짝방문…러는 공습 지속",
+      "link": "https://www.yna.co.kr/view/AKR20261005034400704",
+      "source": "연합뉴스 국제",
+      "ts": 1791175232000,
+      "pub": "Mon, 5 Oct 2026 13:40:32 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 러시아가 연일 우크라이나 수도 키이우 중심가의 주요 시설들을 강도 높게 타격하고 있는데요.",
+      "image": "https://www.youtube.com/embed/_MlywT42ZsM"
+    },
     {
       "title": "머스크, AI회사명 스페이스XSI로 변경 시사…트럼프 기조 맞추기",
       "link": "https://www.yna.co.kr/view/AKR20261005022600091",
@@ -132,14 +162,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김승욱 기자 = 러시아와 전쟁 중인 우크라이나가 동부 돈바스 전선에서 무인 로봇과 드론을 대거 투입한 작전에 성공하며 러시아에...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/04/AKR20261004041300009_02_i_P2.jpg"
-    },
-    {
-      "title": "우크라 전쟁영웅 \"이재명, 젤렌스키 위협 못해\"…한국 비판",
-      "link": "https://www.hankyung.com/article/2026100427487",
-      "source": "한국경제",
-      "ts": 1791108905000,
-      "pub": "Sun, 04 Oct 2026 19:15:05 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "'北포로 송환 공개' 갈등에 우크라 유명 전직군인 가세…韓비판",
@@ -300,76 +322,6 @@
       "sentiment": "neutral",
       "desc": "(도쿄=연합뉴스) 조성미 이도연 특파원 = 최근 중국과 미국은 경쟁적으로 로봇 관련 첨단 기술의 화려한 발전상을 과시하고 있다.",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/02/AKR20261002071200073_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프 압박까지…대미투자, 알래스카 LNG 암초에 산 넘어 산",
-      "link": "https://www.yna.co.kr/view/AKR20260923183200003",
-      "source": "연합뉴스 경제",
-      "ts": 1791060901000,
-      "pub": "Sun, 4 Oct 2026 05:55:01 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 장보인 기자 = 한국의 대미투자가 이달 초 양국의 프로젝트 공식 발표와 함께 본격적으로 시동을 걸었지만 출발부터 암초를 만났다...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/01/PEP20261001074901009_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"알래스카에 인류 역사상 누구보다 많은 것 가져와\"",
-      "link": "https://www.yna.co.kr/view/AKR20261004000900071",
-      "source": "연합뉴스 국제",
-      "ts": 1791045850000,
-      "pub": "Sun, 4 Oct 2026 01:44:10 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령이 3일(현지시간) 자신이 알래스카에 전례 없는 수준의 성과를 가져왔다고 밝혔다.",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/03/PAP20261003081301009_P2.jpg"
-    },
-    {
-      "title": "트럼프 특사-푸틴, 종전안 뒤에서 '러 석유업체 빅딜' 밀담",
-      "link": "https://www.yna.co.kr/view/AKR20261003048400009",
-      "source": "연합뉴스 국제",
-      "ts": 1791029737000,
-      "pub": "Sat, 3 Oct 2026 21:15:37 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 임화섭 기자 = 미국 정부 특사들이 우크라이나 전쟁 휴전 가능성을 논의하기 위해 지난달 모스크바에 갔을 때 블라디미르 푸틴 러...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/03/AKR20261003048400009_03_i_P2.jpg"
-    },
-    {
-      "title": "\"플라이두바이 부기장, 이스라엘 향해 '고의 추락' 의도 시인\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261003038351009",
-      "source": "연합뉴스 국제",
-      "ts": 1791019084000,
-      "pub": "Sat, 3 Oct 2026 18:18:04 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울·이스탄불=연합뉴스) 이지헌 기자 김동호 특파원 = 이스라엘행 플라이두바이 여객기에서 기장을 흉기로 공격한 부기장이 테러 공격을 시도한 것...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/03/PRU20261003037801009_P2.jpg"
-    },
-    {
-      "title": "젤렌스키 \"트럼프가 '러시아판 스타링크' 제재해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20261003039500009",
-      "source": "연합뉴스 국제",
-      "ts": 1791015779000,
-      "pub": "Sat, 3 Oct 2026 17:22:59 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 임화섭 기자 = 볼로디미르 젤렌스키 우크라이나 대통령은 러시아가 중국 지원으로 개발 중인 자체 위성 인터넷 '라스베트(Rass...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/03/AKR20261003039500009_01_i_P2.jpg"
-    },
-    {
-      "title": "\"플라이두바이 부기장, 이스라엘 향해 '고의 추락' 의도 시인\"",
-      "link": "https://www.yna.co.kr/view/AKR20261003038300009",
-      "source": "연합뉴스 국제",
-      "ts": 1791012861000,
-      "pub": "Sat, 3 Oct 2026 16:34:21 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이지헌 기자 = 이스라엘행 플라이두바이 여객기에서 기장을 흉기로 공격한 부기장이 기체를 고의로 추락시키려는 의도가 있었다고 시...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/03/PRU20261003037801009_P2.jpg"
-    },
-    {
-      "title": "트럼프 사단, 캠프데이비드 극비 회의…대이란 작전 논의",
-      "link": "https://www.yna.co.kr/view/AKR20261003033000009",
-      "source": "연합뉴스 국제",
-      "ts": 1791007366000,
-      "pub": "Sat, 3 Oct 2026 15:02:46 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이지헌 기자 = 도널드 트럼프 행정부의 외교·안보 수뇌부가 2일(현지시간) 대통령 휴양지인 캠프 데이비드에서 극비 회의를 열고...",
-      "image": "https://img.yna.co.kr/photo/etc/gt/2026/08/01/PGT20260801020901009_P2.jpg"
     }
   ]
 }

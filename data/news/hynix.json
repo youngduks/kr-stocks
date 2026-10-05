@@ -1,31 +1,35 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-05T02:48:43.427Z",
+  "updated_at": "2026-10-05T09:45:06.719Z",
   "count": 7,
   "items": [
     {
-      "title": "[단독] \"가뭄 대비용 물인데\"…반도체 공장에 쓰겠다는 정부",
-      "link": "https://www.hankyung.com/article/202610031979i",
+      "title": "AI·반도체 붐에…과기원 수시 대거 몰렸다",
+      "link": "https://www.hankyung.com/article/2026100536901",
       "source": "한국경제",
-      "ts": 1791162196000,
-      "pub": "Mon, 05 Oct 2026 10:03:16 +0900",
+      "ts": 1791189280000,
+      "pub": "Mon, 05 Oct 2026 17:34:40 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "日라피더스, 삼성·TSMC식 설계동맹 생태계 구축",
-      "link": "https://www.hankyung.com/article/202610053180i",
-      "source": "한국경제",
-      "ts": 1791161758000,
-      "pub": "Mon, 05 Oct 2026 09:55:58 +0900",
-      "sentiment": "neutral"
+      "title": "日닛케이지수, 3개월만에 장중 70,000선 회복…AI·반도체 강세",
+      "link": "https://www.yna.co.kr/view/AKR20261005035700073",
+      "source": "연합뉴스 국제",
+      "ts": 1791177196000,
+      "pub": "Mon, 5 Oct 2026 14:13:16 +0900",
+      "sentiment": "neutral",
+      "desc": "(도쿄=연합뉴스) 이도연 특파원 = 일본 증시 대표 지수인 닛케이225평균주가(닛케이지수)가 5일 한때 3개월여만에 70,000선을 회복했다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/05/AKR20261005035700073_01_i_P2.jpg"
     },
     {
-      "title": "\"국채 5%에도 주식이 낫다…반도체 대형주 쥐고 오래 기다려라\"",
-      "link": "https://www.hankyung.com/article/202610042842i",
-      "source": "한국경제",
-      "ts": 1791159213000,
-      "pub": "Mon, 05 Oct 2026 09:13:33 +0900",
-      "sentiment": "neutral"
+      "title": "日라피더스, 도시바 등 17개사와 반도체 설계 '동맹'",
+      "link": "https://www.yna.co.kr/view/AKR20261005031800073",
+      "source": "연합뉴스 국제",
+      "ts": 1791171806000,
+      "pub": "Mon, 5 Oct 2026 12:43:26 +0900",
+      "sentiment": "neutral",
+      "desc": "(도쿄=연합뉴스) 이도연 특파원 = 일본의 반도체 기업 라피더스가 도시바 등 17개 사와 손잡고 고객사의 첨단 반도체 설계를 지원한다고 니혼게이...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/05/AKR20261005031800073_01_i_P2.jpg"
     },
     {
       "title": "[통합시 100일] ③ '800조 반도체' 유치…초광역 산업생태계 구축",

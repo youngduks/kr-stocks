@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { trackClick } from "@/lib/shoppingStats";
+import { trackClick, trackPickClick } from "@/lib/shoppingStats";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -10,25 +10,48 @@ export const dynamic = "force-dynamic";
 // /shopping으로 되튕기는 버그가 있었음(쿠팡만 상정하고 만든 화이트리스트라 놓침).
 // toss.shopping: 2026-09-24 00시부터 쉐어링크 API가 발급하는 shortUrl 도메인이
 // toss.im → toss.shopping으로 바뀌어 같은 되튕김이 재발했음(9/27 발견).
-const ALLOWED_HOSTS = new Set(["link.coupang.com", "www.coupang.com", "toss.im", "toss.shopping"]);
+// 숙소 예약 도메인(2026-10-05, /pick 줍줍파파 숙소 PICK): 쿠팡 트래블(trip/travel.coupang.com —
+// 파트너스 링크 자체는 link.coupang.com), 네이버 예약·호텔·여행·플레이스. 호스트 완전일치만 허용하고
+// 임의 URL 을 대신 열어주는 단축URL 도메인(naver.me 등)은 오픈리다이렉트 우회로가 되므로 넣지 않음.
+const ALLOWED_HOSTS = new Set([
+  "link.coupang.com",
+  "www.coupang.com",
+  "toss.im",
+  "toss.shopping",
+  "trip.coupang.com",
+  "travel.coupang.com",
+  "booking.naver.com",
+  "m.booking.naver.com",
+  "hotels.naver.com",
+  "travel.naver.com",
+  "m.place.naver.com",
+]);
 
 export async function GET(req: NextRequest) {
   const raw = req.nextUrl.searchParams.get("url") || "";
+  // pick=<숙소 번호>: /pick 숙소 카드 클릭 — 숙소별 TOP 집계용. 숫자 외 값은 무시.
+  const pickRaw = req.nextUrl.searchParams.get("pick") || "";
+  const pick = /^[1-9]\d{0,5}$/.test(pickRaw) ? Number(pickRaw) : null;
+  const fallback = new URL(pick ? "/pick" : "/shopping", req.url);
   let dest: URL;
   try {
     dest = new URL(raw);
   } catch {
-    return NextResponse.redirect(new URL("/shopping", req.url));
+    return NextResponse.redirect(fallback);
   }
   if (!ALLOWED_HOSTS.has(dest.hostname)) {
-    return NextResponse.redirect(new URL("/shopping", req.url));
+    return NextResponse.redirect(fallback);
   }
 
   // 채널별 기여도 추적 (2026-08-17) — kr-stocks 자체 페이지는 source 생략 시 기본값,
   // 쓰레드 포스팅은 threads_poster.py가 명시적으로 &source=threads를 붙여서 넘김.
   const source = req.nextUrl.searchParams.get("source") || "kr-stocks";
-  const store = dest.hostname.includes("coupang") ? "쿠팡" : "토스쇼핑";
-  await trackClick(source, store);
+  if (pick) {
+    await trackPickClick(pick, source);
+  } else {
+    const store = dest.hostname.includes("coupang") ? "쿠팡" : dest.hostname.endsWith("naver.com") ? "네이버" : "토스쇼핑";
+    await trackClick(source, store);
+  }
 
   // 2026-07-30: 모바일에서 /re/AFFSDP 인터스티셜이 앱 flow-engine 버그로 엉뚱한
   // 추천화면("고객님을 위한 상품")에 랜딩하는 문제 때문에, 모바일만 /vp/products

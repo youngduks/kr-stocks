@@ -74,6 +74,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "hourly",
       priority: 0.7, // "쿠팡 핫딜" — 트래픽 유입용 신규 카테고리
     },
+    {
+      url: `${base}/pick`,
+      lastModified: now,
+      changeFrequency: "daily",
+      priority: 0.6, // 줍줍파파 숙소 PICK — 인스타 프로필 링크 랜딩
+    },
   ];
 
   // 영어 페이지 — 홈 + 가이드 + 컨센서스

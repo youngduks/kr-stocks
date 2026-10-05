@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-04T23:41:24.194Z",
-  "count": 6,
+  "updated_at": "2026-10-05T02:48:43.427Z",
+  "count": 7,
   "items": [
+    {
+      "title": "[단독] \"가뭄 대비용 물인데\"…반도체 공장에 쓰겠다는 정부",
+      "link": "https://www.hankyung.com/article/202610031979i",
+      "source": "한국경제",
+      "ts": 1791162196000,
+      "pub": "Mon, 05 Oct 2026 10:03:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "日라피더스, 삼성·TSMC식 설계동맹 생태계 구축",
+      "link": "https://www.hankyung.com/article/202610053180i",
+      "source": "한국경제",
+      "ts": 1791161758000,
+      "pub": "Mon, 05 Oct 2026 09:55:58 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"국채 5%에도 주식이 낫다…반도체 대형주 쥐고 오래 기다려라\"",
+      "link": "https://www.hankyung.com/article/202610042842i",
+      "source": "한국경제",
+      "ts": 1791159213000,
+      "pub": "Mon, 05 Oct 2026 09:13:33 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[통합시 100일] ③ '800조 반도체' 유치…초광역 산업생태계 구축",
       "link": "https://www.yna.co.kr/view/AKR20261001175700054",
@@ -22,22 +46,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김유아 기자 = 지난달 코스닥 제약 업종지수가 10% 넘게 하락하며 주요 업종 가운데 가장 큰 낙폭을 기록했다.",
       "image": "https://img.yna.co.kr/photo/cms/2026/06/25/83/PCM20260625000183990_P2.jpg"
-    },
-    {
-      "title": "[포토] 삼성전자, 지역민에 '용인 반도체산단' 미래 모습 소개",
-      "link": "https://www.hankyung.com/article/2026100426301",
-      "source": "한국경제",
-      "ts": 1791105334000,
-      "pub": "Sun, 04 Oct 2026 18:15:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"엔비디아·테슬라 다 팔았다\"…부자들 새로 베팅한 종목",
-      "link": "https://www.hankyung.com/article/2026100426701",
-      "source": "한국경제",
-      "ts": 1791105229000,
-      "pub": "Sun, 04 Oct 2026 18:13:49 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "미중회담 끝나자 美찾는 대만 외교장관…\"TSMC 공장 방문\"",

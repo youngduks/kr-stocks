@@ -1,15 +1,49 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-05T09:45:06.719Z",
-  "count": 7,
+  "updated_at": "2026-10-05T18:56:06.926Z",
+  "count": 10,
   "items": [
     {
-      "title": "AI·반도체 붐에…과기원 수시 대거 몰렸다",
-      "link": "https://www.hankyung.com/article/2026100536901",
+      "title": "美증시,국채금리 올라도 나스닥 사상최고…엔비디아도 최고치 돌파",
+      "link": "https://www.hankyung.com/article/202610064008i",
       "source": "한국경제",
-      "ts": 1791189280000,
-      "pub": "Mon, 05 Oct 2026 17:34:40 +0900",
+      "ts": 1791215737000,
+      "pub": "Tue, 06 Oct 2026 00:55:37 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "머스크 '테라팹'에 TSMC도 참여?…인텔주가 하락",
+      "link": "https://www.hankyung.com/article/202610053989i",
+      "source": "한국경제",
+      "ts": 1791214064000,
+      "pub": "Tue, 06 Oct 2026 00:27:44 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "\"AI반도체주 아직도 싸다?\"…그래도 불안하면 이 종목[박신영의 개장전 요것만]",
+      "link": "https://www.hankyung.com/article/202610053986i",
+      "source": "한국경제",
+      "ts": 1791210479000,
+      "pub": "Mon, 05 Oct 2026 23:27:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"가뭄용 물 20만t, 호남 반도체공장에 쓴다\"",
+      "link": "https://www.hankyung.com/article/2026100536771",
+      "source": "한국경제",
+      "ts": 1791192769000,
+      "pub": "Mon, 05 Oct 2026 18:32:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중국 본토 휴장…AI·반도체 주도로 닛케이 2.4%↑[Asia마감]",
+      "link": "https://www.mt.co.kr/world/2026/10/05/2026100515541229708",
+      "source": "머니투데이",
+      "ts": 1791183773000,
+      "pub": "Mon, 05 Oct 2026 16:02:53 +0900",
+      "sentiment": "neutral",
+      "desc": "5일 중국 본토 증시가 국경절 연휴로 휴장한 가운데 아시아 주요 증시는 대체로 오름세를 보였다. 일본 도쿄증시의 닛케이225지수는 전 거래일 대비 2.4% 급등한 6만9946.86에 거래를 마감했다. 닛케이지수는 7월1일 이후 처음으로 장중 한때 7만선을 돌파하기도 했",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026100515541229708_1.jpg"
     },
     {
       "title": "日닛케이지수, 3개월만에 장중 70,000선 회복…AI·반도체 강세",
@@ -50,16 +84,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김유아 기자 = 지난달 코스닥 제약 업종지수가 10% 넘게 하락하며 주요 업종 가운데 가장 큰 낙폭을 기록했다.",
       "image": "https://img.yna.co.kr/photo/cms/2026/06/25/83/PCM20260625000183990_P2.jpg"
-    },
-    {
-      "title": "미중회담 끝나자 美찾는 대만 외교장관…\"TSMC 공장 방문\"",
-      "link": "https://www.yna.co.kr/view/AKR20261004026400089",
-      "source": "연합뉴스 국제",
-      "ts": 1791094213000,
-      "pub": "Sun, 4 Oct 2026 15:10:13 +0900",
-      "sentiment": "neutral",
-      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 중국이 최근 미중 정상회담에서 미국에 '대만 독립 반대' 입장을 요구한 속에 대만 린자룽 외교부장(장관)이...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/04/AKR20261004026400089_01_i_P2.jpg"
     },
     {
       "title": "반도체 설비투자 확대로 공급 확대? \"내후년 하반기는 돼야\"",

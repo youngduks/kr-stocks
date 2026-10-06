@@ -1,0 +1,13 @@
+{
+  "_comment": "다가오는 일정 (홈 '오늘 한눈에' D-day 칩). 날짜는 KST. 옵션만기는 lib/events.ts 가 매월 둘째 목요일로 계산(krxHolidays 면 직전 거래일). 확정 일정만 넣는다 — 예상일은 넣지 말 것.",
+  "updatedAt": "2026-10-06",
+  "krxHolidays": ["2026-10-09", "2026-12-25", "2026-12-31"],
+  "events": [
+    { "date": "2026-10-09", "title": "한국장 휴장", "note": "한글날", "kind": "holiday", "source": "한국거래소 휴장일" },
+    { "date": "2026-10-29", "title": "FOMC 금리 결정", "note": "새벽 3시 발표", "kind": "macro", "source": "미 연준 2026 FOMC 일정 (10/27~28 회의)" },
+    { "date": "2026-11-26", "title": "미국장 휴장", "note": "추수감사절", "kind": "holiday", "source": "NYSE 휴장일" },
+    { "date": "2026-12-10", "title": "FOMC 금리 결정", "note": "새벽 4시 발표", "kind": "macro", "source": "미 연준 2026 FOMC 일정 (12/8~9 회의)" },
+    { "date": "2026-12-25", "title": "한국·미국장 휴장", "note": "성탄절", "kind": "holiday", "source": "한국거래소·NYSE 휴장일" },
+    { "date": "2026-12-31", "title": "한국장 휴장", "note": "연말 휴장", "kind": "holiday", "source": "한국거래소 휴장일" }
+  ]
+}

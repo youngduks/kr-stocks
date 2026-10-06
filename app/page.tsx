@@ -19,6 +19,9 @@ import { fetchDealsPreview } from "@/lib/dealsPreview";
 import { getHistoryStats, bucketForUsPct, HISTORY_MIN_N, ym, type HistoryStats } from "@/lib/historyStats";
 import { HistoryDots } from "@/components/HistoryDots";
 import { MoreDetails } from "@/components/ui/MoreDetails";
+import { TodayBrief } from "@/components/home/TodayBrief";
+import { getUpcomingEvents } from "@/lib/events";
+import { getSignalScore, SCORE_RECENT_N, type SignalScoreRow } from "@/lib/signalScore";
 
 export const revalidate = 120; // ISR 캐시 30s → 120s (Free tier 최적화, 5/25)
 
@@ -52,7 +55,63 @@ function kstTime(epochSec: number | null): string | null {
   }
 }
 
-function TomorrowStatusCard({ semi, fxRate, fxChange }: { semi: SemiSignal; fxRate: number; fxChange: number }) {
+/** 채점표 — 미국 반도체가 1% 넘게 움직인 날, 다음 한국 거래일 종가 방향이 같았나 (data/history-stats.json) */
+function SignalScoreboard({ rows }: { rows: SignalScoreRow[] }) {
+  if (rows.length === 0) return null;
+  return (
+    <div className="mt-4 pt-3 border-t border-line">
+      <div className="flex items-baseline justify-between gap-2">
+        <h3 className="text-[14px] font-extrabold">
+          이 신호, 과거엔 얼마나 맞았나
+        </h3>
+        <span className="ds-meta shrink-0">● 맞음 · ○ 빗나감</span>
+      </div>
+      <div className="mt-2 space-y-2">
+        {rows.map((r) => {
+          const recentHits = r.recent.filter(Boolean).length;
+          return (
+            <div key={r.name} className="flex items-center gap-3">
+              <div className="text-[14px] font-bold w-[84px] shrink-0 truncate">{r.name}</div>
+              <div className="num text-[18px] font-extrabold w-[52px] shrink-0">{r.hitRatePct}%</div>
+              <div
+                className="flex gap-[4px] flex-wrap"
+                role="img"
+                aria-label={`${r.name} 최근 ${r.recent.length}번 중 ${recentHits}번 방향 맞음`}
+              >
+                {r.recent.map((ok, i) => (
+                  <span
+                    key={i}
+                    aria-hidden="true"
+                    className={`inline-block w-[9px] h-[9px] rounded-full ${ok ? "bg-text" : "border border-text-dim"}`}
+                  />
+                ))}
+              </div>
+              <div className="ds-meta ml-auto shrink-0 hidden sm:block">
+                최근 {r.recent.length}번 중 {recentHits}번
+              </div>
+            </div>
+          );
+        })}
+      </div>
+      <p className="ds-meta mt-2">
+        미국 반도체(^SOX)가 1% 넘게 오르거나 내린 날, 다음 한국 거래일 종가가 같은 방향이었던 비율 ·{" "}
+        {rows.every((r) => r.n === rows[0].n) ? `${rows[0].n}번 기준` : rows.map((r) => `${r.name} ${r.n}번`).join(" · ")} · 점 = 최근 {SCORE_RECENT_N}번(오른쪽이 최신) · 기간 {ym(rows[0].periodStart)}~{ym(rows[0].periodEnd)}
+      </p>
+    </div>
+  );
+}
+
+function TomorrowStatusCard({
+  semi,
+  fxRate,
+  fxChange,
+  score,
+}: {
+  semi: SemiSignal;
+  fxRate: number;
+  fxChange: number;
+  score: SignalScoreRow[];
+}) {
   const c = SIGNAL_COPY[semi.direction];
   const when = semi.direction === "unknown" ? "" : semi.isLive ? "지금 " : "밤사이 ";
   const soxlPct = semi.soxl?.changePct ?? null;
@@ -124,6 +183,7 @@ function TomorrowStatusCard({ semi, fxRate, fxChange }: { semi: SemiSignal; fxRa
           }
         />
       </div>
+      <SignalScoreboard rows={score} />
     </StatusCard>
   );
 }
@@ -259,8 +319,21 @@ export default async function Home() {
           24시간 글로벌 자산 시세 · 한국 정규장 휴장에도 끊기지 않는 실시간 가격 · 비상장 빅테크(SpaceX·OpenAI·Anthropic) 포함
         </h1>
 
-        {/* ① 상태 카드 — 미장 반도체 야간 신호 + 환율 (실데이터만) */}
-        <TomorrowStatusCard semi={semiSignal} fxRate={data.fx.krw_per_usdt} fxChange={data.fx.change_24h_pct} />
+        {/* ⓪ 오늘 한눈에 — 받은 실데이터를 규칙 문장 3줄로 + 다가오는 일정 D-day (새 fetch·Redis 없음) */}
+        <TodayBrief
+          semi={semiSignal}
+          fxRate={data.fx.krw_per_usdt}
+          fxChange={data.fx.change_24h_pct}
+          events={getUpcomingEvents()}
+        />
+
+        {/* ① 상태 카드 — 미장 반도체 야간 신호 + 환율 (실데이터만) + 과거 채점표 */}
+        <TomorrowStatusCard
+          semi={semiSignal}
+          fxRate={data.fx.krw_per_usdt}
+          fxChange={data.fx.change_24h_pct}
+          score={getSignalScore(history)}
+        />
 
         {/* ①-b 과거 사례 — 같은 구간이었던 날의 다음 한국 거래일 (실데이터, n<15 숨김) */}
         <HistoryCard stats={history} usPct={semiSignal.direction === "unknown" ? null : semiSignal.impliedSemiPct} />

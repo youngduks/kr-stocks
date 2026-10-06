@@ -1,8 +1,86 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-06T13:56:02.688Z",
-  "count": 7,
+  "updated_at": "2026-10-06T19:13:20.634Z",
+  "count": 12,
   "items": [
+    {
+      "title": "트럼프 \"LA·샌디에이고 파괴하게 놔둬라\"…이란전 발언 논란",
+      "link": "https://www.yna.co.kr/view/AKR20261006202800071",
+      "source": "연합뉴스 국제",
+      "ts": 1791303830000,
+      "pub": "Wed, 7 Oct 2026 01:23:50 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령이 이란과의 전쟁에 따른 경제적 부담을 감수해야 한다는 주장을 펴는 과정에서 이란...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/06/AKR20261006202800071_01_i_P2.jpg"
+    },
+    {
+      "title": "캐나다 8월 무역흑자 4년만에 최대…관세 앞두고 대미수출 급증",
+      "link": "https://www.yna.co.kr/view/AKR20261007001100072",
+      "source": "연합뉴스 국제",
+      "ts": 1791303340000,
+      "pub": "Wed, 7 Oct 2026 01:15:40 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 지난 8월 캐나다의 무역흑자가 4년여만에 최대치를 기록했다.",
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/13/PAP20260913160701009_P2.jpg"
+    },
+    {
+      "title": "러 신형드론에 우크라 위기감…F-16·탄약 확보 총력(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261006183451109",
+      "source": "연합뉴스 국제",
+      "ts": 1791297754000,
+      "pub": "Tue, 6 Oct 2026 23:42:34 +0900",
+      "sentiment": "negative",
+      "desc": "(로마=연합뉴스) 민경락 특파원 = 러시아가 탄도미사일에 더해 요격이 어려운 제트추진형 드론까지 동원해 공세 수위를 높이면서 우크라이나가 F-1...",
+      "image": "https://img.yna.co.kr/photo/ap/2024/08/04/PAP20240804584601055_P2.jpg"
+    },
+    {
+      "title": "트럼프, 중간선거 '깜짝승리론' 꺼내…\"서프라이즈 지켜봐라\"",
+      "link": "https://www.yna.co.kr/view/AKR20261006201600071",
+      "source": "연합뉴스 국제",
+      "ts": 1791297381000,
+      "pub": "Tue, 6 Oct 2026 23:36:21 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 6일(현지시간) 중간선거 '깜짝 승리론'을 꺼내 들었다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/06/AKR20261006201600071_01_i_P2.jpg"
+    },
+    {
+      "title": "우크라, '한국의 러 석유공급' 기사 인용해 韓 비판(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261006199951109",
+      "source": "연합뉴스 국제",
+      "ts": 1791297079000,
+      "pub": "Tue, 6 Oct 2026 23:31:19 +0900",
+      "sentiment": "neutral",
+      "desc": "(로마=연합뉴스) 민경락 특파원 = 북한군 포로의 한국행의 비공개 합의 여부를 두고 한국 정부와 갈등 중인 우크라이나가 한국이 러시아에 석유제품...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/06/AKR20261006199951109_01_i_P2.jpg"
+    },
+    {
+      "title": "트럼프, 포트후드 총기난사범에 2차대전후 첫 미군 총살형 승인",
+      "link": "https://www.yna.co.kr/view/AKR20261006200100071",
+      "source": "연합뉴스 국제",
+      "ts": 1791296481000,
+      "pub": "Tue, 6 Oct 2026 23:21:21 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 텍사스 포트후드 미군기지 총기난사범에 대한 총살형을 승인했다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/06/AKR20261006200100071_01_i_P2.jpg"
+    },
+    {
+      "title": "우크라, '한국의 러 석유공급' 보도에 韓 비판",
+      "link": "https://www.yna.co.kr/view/AKR20261006199900109",
+      "source": "연합뉴스 국제",
+      "ts": 1791295121000,
+      "pub": "Tue, 6 Oct 2026 22:58:41 +0900",
+      "sentiment": "neutral",
+      "desc": "(로마=연합뉴스) 민경락 특파원 = 우크라이나가 한국이 러시아에 석유제품을 대거 공급했다는 외신을 언급하며 한국의 대러 정책을 비판했다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/06/AKR20261006199900109_01_i_P2.jpg"
+    },
+    {
+      "title": "美 8월 무역적자 142조원…트럼프 관세 폭탄 이후 최대",
+      "link": "https://www.hankyung.com/article/202610066688i",
+      "source": "한국경제",
+      "ts": 1791293821000,
+      "pub": "Tue, 06 Oct 2026 22:37:01 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "러 신형드론에 우크라 위기감…F-16·탄약 확보 총력",
       "link": "https://www.yna.co.kr/view/AKR20261006183400109",
@@ -42,36 +120,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 차대운 기자 = 이스라엘행 플라이두바이 여객기를 납치하려던 부기장이 이스라엘의 핵심 관문인 텔아비브 벤구리온 국제공항을 공격하...",
       "image": "https://img.yna.co.kr/photo/etc/af/2026/10/02/PAF20261002230601009_P2.jpg"
-    },
-    {
-      "title": "트럼프, '세금으로 선거 광고' 논란에 \"내 돈으로 내겠다\"",
-      "link": "https://www.yna.co.kr/view/AKR20261006048700009",
-      "source": "연합뉴스 국제",
-      "ts": 1791247724000,
-      "pub": "Tue, 6 Oct 2026 09:48:44 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 고일환 기자 = 도널드 트럼프 미국 대통령은 중간선거를 앞두고 자신의 국정 성과를 홍보하는 광고에 세금이 투입됐다는 논란이 일...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/06/AKR20261006048700009_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프, 경윳값 낮추려 안간힘…\"면세유 확대 등 행정명령 계획\"",
-      "link": "https://www.yna.co.kr/view/AKR20261006008900071",
-      "source": "연합뉴스 국제",
-      "ts": 1791236448000,
-      "pub": "Tue, 6 Oct 2026 06:40:48 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 중간선거에서 공화당에 큰 악재로 떠오른 미국 내 높은 경윳값을 낮추기 위해 관...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/06/PRU20261006060801009_P2.jpg"
-    },
-    {
-      "title": "'듬성듬성' 트럼프의 유세장…NYT \"예전만 못한 브랜드 파워\"",
-      "link": "https://www.yna.co.kr/view/AKR20261006005600071",
-      "source": "연합뉴스 국제",
-      "ts": 1791233677000,
-      "pub": "Tue, 6 Oct 2026 05:54:37 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령이 '영광의 순간'으로 기억하는 2015년 8월 21일, 미 앨라배마주 모빌에 있...",
-      "image": "https://img.yna.co.kr/photo/etc/gt/2026/09/11/PGT20260911194701009_P2.jpg"
     }
   ]
 }

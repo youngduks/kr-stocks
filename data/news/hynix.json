@@ -1,39 +1,63 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-06T00:29:21.936Z",
-  "count": 12,
+  "updated_at": "2026-10-06T06:59:01.950Z",
+  "count": 8,
   "items": [
     {
-      "title": "기록적 금리 상승에도 나스닥·엔비디아 신고가…\"더 오르겠지만 변동성\" [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202610064183i",
-      "source": "한국경제",
-      "ts": 1791240975000,
-      "pub": "Tue, 06 Oct 2026 07:56:15 +0900",
-      "sentiment": "positive"
+      "title": "엔비디아 고속승진 부사장, 알고보니 '젠슨 황 사위'[글로벌키맨]",
+      "link": "https://www.mt.co.kr/world/2026/10/06/2026100613282481244",
+      "source": "머니투데이",
+      "ts": 1791269614000,
+      "pub": "Tue, 06 Oct 2026 15:53:34 +0900",
+      "sentiment": "neutral",
+      "desc": "[글로벌키맨]니코 카프레즈 세계 최대 반도체 기업 엔비디아의 경영 전면에 젠슨 황 CEO(최고경영자)의 사위가 본격 등장했다. 주인공은 황 CEO의 딸 매디슨 황 수석이사와 최근 하와이에서 백년가약을 맺은 니코 카프레즈(35)다. 카프레즈는 엔비디아 입사 2년 만에 부",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026100613282481244_1.jpg"
     },
     {
-      "title": "\"HPSP, 파운드리 넘어 메모리 반도체까지 확장…목표가↑\"-KB",
-      "link": "https://www.hankyung.com/article/2026100641866",
+      "title": "신한투자증권, 상생·벤처펀드로 반도체·모빌리티 산업 육성",
+      "link": "https://www.hankyung.com/article/2026100647161",
       "source": "한국경제",
-      "ts": 1791240307000,
-      "pub": "Tue, 06 Oct 2026 07:45:07 +0900",
+      "ts": 1791269308000,
+      "pub": "Tue, 06 Oct 2026 15:48:28 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "엔비디아 사상 최고가… 밴스 \"알래스카 LNG 협의 해야\" [오늘 아침, 당신이 알아야 할 7가지]",
-      "link": "https://www.hankyung.com/article/202610064150i",
+      "title": "KB자산운용, 국민성장펀드로 AI·반도체·에너지 인프라 투자",
+      "link": "https://www.hankyung.com/article/2026100647221",
       "source": "한국경제",
-      "ts": 1791240277000,
-      "pub": "Tue, 06 Oct 2026 07:44:37 +0900",
-      "sentiment": "positive"
+      "ts": 1791268877000,
+      "pub": "Tue, 06 Oct 2026 15:41:17 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "\"공급이 못 따라간다\"…수퍼사이클 탄 AI반도체 기판 3인방 비교분석",
-      "link": "https://www.hankyung.com/article/202610053159i",
-      "source": "한국경제",
-      "ts": 1791239561000,
-      "pub": "Tue, 06 Oct 2026 07:32:41 +0900",
-      "sentiment": "neutral"
+      "title": "김정관 산업장관 \"반도체 자료 공개, 민감한 사안…美·中·日 초미의 관심사\"",
+      "link": "https://www.mt.co.kr/economy/2026/10/06/2026100615245124655",
+      "source": "머니투데이",
+      "ts": 1791268574000,
+      "pub": "Tue, 06 Oct 2026 15:36:14 +0900",
+      "sentiment": "neutral",
+      "desc": "김정관 산업통상부 장관이 반도체 관련 자료 공개에 신중해야 한다는 입장을 밝혔다. 중국 등 경쟁국이 국내 반도체 생산시설의 건설 방식과 효율성에 높은 관심을 보이는 만큼 자칫 민감한 정보가 해외로 유출될 수 있다는 우려에서다. 김 장관은 6일 국회 산업통상자원중소벤처기",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026100615245124655_1.jpg"
+    },
+    {
+      "title": "내년 한국 경상수지갭 대폭 확대 예상…\"반도체 특수 반영돼야\"",
+      "link": "https://www.yna.co.kr/view/AKR20261006086500002",
+      "source": "연합뉴스 경제",
+      "ts": 1791255601000,
+      "pub": "Tue, 6 Oct 2026 12:00:01 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 채새롬 기자 = 반도체 수출 호조의 영향으로 올해 대규모 경상수지 흑자가 예상되는 가운데 내년 IMF가 발표하는 한국의 경상수...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/02/03/97/PCM20260203000097990_P2.jpg"
+    },
+    {
+      "title": "모건스탠리 \"전력난에도 엔비디아·브로드컴은 타격 적어\"",
+      "link": "https://www.yna.co.kr/view/AKR20261006049700009",
+      "source": "연합뉴스 국제",
+      "ts": 1791247956000,
+      "pub": "Tue, 6 Oct 2026 09:52:36 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이성한 기자 = 미국 데이터센터의 전력난이 심화하고 있지만 엔비디아와 브로드컴의 2027년 실적 전망을 위협하지는 않을 것이라...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/09/28/03/PCM20260928000103017_P2.jpg"
     },
     {
       "title": "그록 우회인수 엔비디아, 주주권 침해로 피소…\"일반주주 소외\"",
@@ -54,62 +78,6 @@
       "sentiment": "positive",
       "desc": "(서울=연합뉴스) 정주호 기자 = 엔비디아 주가가 이틀 연속 사상 최고치를 경신하면서 시가총액 6조달러 돌파가 가시권에 들어왔다.",
       "image": "https://img.yna.co.kr/photo/reuters/2026/10/02/PRU20261002224301009_P2.jpg"
-    },
-    {
-      "title": "美 증시,국채금리 올라도 나스닥 사상 최고…엔비디아도 최고치 돌파",
-      "link": "https://www.hankyung.com/article/202610064008i",
-      "source": "한국경제",
-      "ts": 1791215737000,
-      "pub": "Tue, 06 Oct 2026 00:55:37 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "머스크 '테라팹'에 TSMC도 참여?…인텔주가 하락",
-      "link": "https://www.hankyung.com/article/202610053989i",
-      "source": "한국경제",
-      "ts": 1791214064000,
-      "pub": "Tue, 06 Oct 2026 00:27:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "日닛케이지수, 3개월만에 장중 70,000선 회복…AI·반도체 강세",
-      "link": "https://www.yna.co.kr/view/AKR20261005035700073",
-      "source": "연합뉴스 국제",
-      "ts": 1791177196000,
-      "pub": "Mon, 5 Oct 2026 14:13:16 +0900",
-      "sentiment": "neutral",
-      "desc": "(도쿄=연합뉴스) 이도연 특파원 = 일본 증시 대표 지수인 닛케이225평균주가(닛케이지수)가 5일 한때 3개월여만에 70,000선을 회복했다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/05/AKR20261005035700073_01_i_P2.jpg"
-    },
-    {
-      "title": "日라피더스, 도시바 등 17개사와 반도체 설계 '동맹'",
-      "link": "https://www.yna.co.kr/view/AKR20261005031800073",
-      "source": "연합뉴스 국제",
-      "ts": 1791171806000,
-      "pub": "Mon, 5 Oct 2026 12:43:26 +0900",
-      "sentiment": "neutral",
-      "desc": "(도쿄=연합뉴스) 이도연 특파원 = 일본의 반도체 기업 라피더스가 도시바 등 17개 사와 손잡고 고객사의 첨단 반도체 설계를 지원한다고 니혼게이...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/05/AKR20261005031800073_01_i_P2.jpg"
-    },
-    {
-      "title": "[통합시 100일] ③ '800조 반도체' 유치…초광역 산업생태계 구축",
-      "link": "https://www.yna.co.kr/view/AKR20261001175700054",
-      "source": "연합뉴스 경제",
-      "ts": 1791154811000,
-      "pub": "Mon, 5 Oct 2026 08:00:11 +0900",
-      "sentiment": "neutral",
-      "desc": "[※ 편집자 주 = 전남과 광주가 통합해 전남광주통합특별시로 출범한 지 오는 8일로 100일을 맞습니다. 그동안 통합 광역정부의 틀을 갖추고 반...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/13/PYH2026071315940005400_P2.jpg"
-    },
-    {
-      "title": "코스닥 지난달 최악 수익률은 제약…금리·반도체 쏠림에 직격탄",
-      "link": "https://www.yna.co.kr/view/AKR20261003033300008",
-      "source": "연합뉴스 경제",
-      "ts": 1791148801000,
-      "pub": "Mon, 5 Oct 2026 06:20:01 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 지난달 코스닥 제약 업종지수가 10% 넘게 하락하며 주요 업종 가운데 가장 큰 낙폭을 기록했다.",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/25/83/PCM20260625000183990_P2.jpg"
     }
   ]
 }

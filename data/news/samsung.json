@@ -1,7 +1,7 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-07T17:35:31.341Z",
-  "count": 5,
+  "updated_at": "2026-10-07T22:23:14.776Z",
+  "count": 2,
   "items": [
     {
       "title": "월가분석가 \"마이크론 PER19배 간다\"…4배인 삼전·SK하이닉스는?",
@@ -9,22 +9,6 @@
       "source": "한국경제",
       "ts": 1791384376000,
       "pub": "Wed, 07 Oct 2026 23:46:16 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"삼성전자, 중국산에 추월당할 수도\"…그야말로 '비상'",
-      "link": "https://www.hankyung.com/article/202610077420g",
-      "source": "한국경제",
-      "ts": 1791370801000,
-      "pub": "Wed, 07 Oct 2026 20:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"우리도 삼전닉스처럼 성과급 달라\"…대만까지 '난리'",
-      "link": "https://www.hankyung.com/article/2026100793847",
-      "source": "한국경제",
-      "ts": 1791368839000,
-      "pub": "Wed, 07 Oct 2026 19:27:19 +0900",
       "sentiment": "neutral"
     },
     {
@@ -36,16 +20,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 황철환 곽윤아 기자 = 삼성전자[005930]가 3분기 잠정 실적 발표를 하루 앞둔 7일 유가증권시장에서 1.29% 하락 마감...",
       "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
-    },
-    {
-      "title": "증권가 \"삼성전자, 3분기 호실적 넘어 내년 메모리 고성장 기대\"",
-      "link": "https://www.yna.co.kr/view/AKR20261007085600008",
-      "source": "연합뉴스 경제",
-      "ts": 1791340860000,
-      "pub": "Wed, 7 Oct 2026 11:41:00 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 오는 8일 삼성전자[005930]의 3분기 잠정 실적 발표를 하루 앞두고 증권가는 당장 시장 전망치를 웃도는 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/03/18/PYH2026031803960001300_P2.jpg"
     }
   ]
 }

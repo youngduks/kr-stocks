@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-07T17:35:31.342Z",
-  "count": 12,
+  "updated_at": "2026-10-07T22:23:14.777Z",
+  "count": 10,
   "items": [
+    {
+      "title": "애플, 마이크론...美 실적 시즌 앞두고 '매수' 의견 확산 [월가 업&다운]",
+      "link": "https://www.hankyung.com/article/202610089596i",
+      "source": "한국경제",
+      "ts": 1791402136000,
+      "pub": "Thu, 08 Oct 2026 04:42:16 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "월가분석가 \"마이크론 PER19배 간다\"…4배인 삼전·SK하이닉스는?",
       "link": "https://www.hankyung.com/article/202610079546i",
@@ -25,14 +33,6 @@
       "source": "한국경제",
       "ts": 1791373640000,
       "pub": "Wed, 07 Oct 2026 20:47:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "BGF, 자회사로 KNW 편입…반도체 소재에 힘준다",
-      "link": "https://www.hankyung.com/article/2026100794091",
-      "source": "한국경제",
-      "ts": 1791370416000,
-      "pub": "Wed, 07 Oct 2026 19:53:36 +0900",
       "sentiment": "neutral"
     },
     {
@@ -94,26 +94,6 @@
       "sentiment": "positive",
       "desc": "(서울=연합뉴스) 한지훈 기자 = 올해 2분기(4∼6월) 반도체 수출 호조에 힘입어 국내 기업의 순자금 운용 규모가 사상 최대를 기록했다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100109850005100_P2.jpg"
-    },
-    {
-      "title": "증권가 \"삼성전자, 3분기 호실적 넘어 내년 메모리 고성장 기대\"",
-      "link": "https://www.yna.co.kr/view/AKR20261007085600008",
-      "source": "연합뉴스 경제",
-      "ts": 1791340860000,
-      "pub": "Wed, 7 Oct 2026 11:41:00 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 오는 8일 삼성전자[005930]의 3분기 잠정 실적 발표를 하루 앞두고 증권가는 당장 시장 전망치를 웃도는 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/03/18/PYH2026031803960001300_P2.jpg"
-    },
-    {
-      "title": "\"스페이스X, 엔비디아 칩 구매용 54조원 조달 추진\"",
-      "link": "https://www.yna.co.kr/view/AKR20261007059100009",
-      "source": "연합뉴스 국제",
-      "ts": 1791335942000,
-      "pub": "Wed, 7 Oct 2026 10:19:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 주종국 기자 = 스페이스X가 엔비디아의 첨단 칩 구매 자금을 마련하기 위해 대출과 회사채 발행 등으로 400억달러(약 53조5...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/02/PRU20261002245201009_P2.jpg"
     }
   ]
 }

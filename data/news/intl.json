@@ -1,8 +1,120 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-07T17:35:31.340Z",
-  "count": 19,
+  "updated_at": "2026-10-07T22:23:14.772Z",
+  "count": 26,
   "items": [
+    {
+      "title": "\"유학생 취업하려면 1억 내라고?\"…트럼프의 새 청구서",
+      "link": "https://www.hankyung.com/article/2026100897027",
+      "source": "한국경제",
+      "ts": 1791411171000,
+      "pub": "Thu, 08 Oct 2026 07:12:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"내가 세계 파괴 막았다…노벨상 안 주면 큰 불명예\"",
+      "link": "https://www.hankyung.com/article/2026100896807",
+      "source": "한국경제",
+      "ts": 1791410715000,
+      "pub": "Thu, 08 Oct 2026 07:05:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "9월 FOMC 의사록 \"연내 한 번 더 인상\"…10월 단행엔 '침묵'",
+      "link": "https://www.hankyung.com/article/2026100896607",
+      "source": "한국경제",
+      "ts": 1791409804000,
+      "pub": "Thu, 08 Oct 2026 06:50:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 한달새 세번째 텍사스행…후보는 \"전쟁·물가에 발목\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261007205551071",
+      "source": "연합뉴스 국제",
+      "ts": 1791409571000,
+      "pub": "Thu, 8 Oct 2026 06:46:11 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령이 7일(현지시간) 한 달 사이 세 번째로 텍사스주를 찾아 공화당 후보 지원 유세...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/02/PEP20261002104401009_P2.jpg"
+    },
+    {
+      "title": "트럼프, 美주담대 급등에 \"연준, 나라 잘 안풀리길 바라는듯\"",
+      "link": "https://www.yna.co.kr/view/AKR20261008009400071",
+      "source": "연합뉴스 경제",
+      "ts": 1791409280000,
+      "pub": "Thu, 8 Oct 2026 06:41:20 +0900",
+      "sentiment": "positive",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령은 7일(현지시간) 장기 주택담보대출 금리가 급등한 것과 관련해 연방준비제도(Fe...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/08/PRU20261008029901009_P2.jpg"
+    },
+    {
+      "title": "9월 FOMC 의사록 \"금리 연내 추가인상 적절\"…시기는 언급 안해",
+      "link": "https://www.yna.co.kr/view/AKR20261008006000072",
+      "source": "연합뉴스 국제",
+      "ts": 1791402656000,
+      "pub": "Thu, 8 Oct 2026 04:50:56 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 미국 연방준비제도(Fed·연준)가 지난 9월 연방공개시장위원회(FOMC)에서 연내 추가 인상 가능성을 열어두...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/17/PEP20260917101401009_P2.jpg"
+    },
+    {
+      "title": "9월 FOMC \"연내 금리 인상 한 번 더\"…인상 근거 놓고는 시각차 [Fed 워치]",
+      "link": "https://www.hankyung.com/article/202610089590i",
+      "source": "한국경제",
+      "ts": 1791400676000,
+      "pub": "Thu, 08 Oct 2026 04:17:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美, 러에 페스트 정보공개 압박…트럼프 \"생물학 무기는 아닌듯\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261008000751071",
+      "source": "연합뉴스 국제",
+      "ts": 1791400410000,
+      "pub": "Thu, 8 Oct 2026 04:13:30 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 러시아에 공식 외교 서한을 보내 페스트 병원체 유출 의심 사고에 대한 추가 정...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/08/AKR20261008000751071_01_i_P2.jpg"
+    },
+    {
+      "title": "푸틴 생일 맞은 러, 대규모 공세…우크라 민간인 25명 숨져(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261007168251109",
+      "source": "연합뉴스 국제",
+      "ts": 1791400339000,
+      "pub": "Thu, 8 Oct 2026 04:12:19 +0900",
+      "sentiment": "neutral",
+      "desc": "(로마=연합뉴스) 민경락 특파원 = 러시아가 7일(현지시간) 요격이 쉽지 않은 탄도미사일과 제트추진형 드론을 동원해 우크라이나를 겨냥한 대규모 ...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/07/PAF20261007195301009_P2.jpg"
+    },
+    {
+      "title": "트럼프, 또 노벨평화상 타령…\"관세로 많은 전쟁 막았다\"",
+      "link": "https://www.yna.co.kr/view/AKR20261008004500071",
+      "source": "연합뉴스 국제",
+      "ts": 1791399116000,
+      "pub": "Thu, 8 Oct 2026 03:51:56 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 올해 노벨평화상 수상자 발표를 이틀 앞둔 7일(현지시간) 도널드 트럼프 미국 대통령이 자신이 상을 받을 충...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/08/PAF20261008032001009_P2.jpg"
+    },
+    {
+      "title": "트럼프, 본인 골프장 대통령 휴양지로 추진…\"軍·경호국 제안\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261008001951071",
+      "source": "연합뉴스 국제",
+      "ts": 1791398594000,
+      "pub": "Thu, 8 Oct 2026 03:43:14 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 플로리다주 팜비치에 있는 자신 소유 '웨스트 팜비치 골프장'을 미국 대통령 전...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2025/10/19/PYH2025101900010007101_P2.jpg"
+    },
+    {
+      "title": "\"트럼프, 본인 골프장을 '美대통령 공식 휴양지'로 추진\"",
+      "link": "https://www.yna.co.kr/view/AKR20261008001900071",
+      "source": "연합뉴스 국제",
+      "ts": 1791394463000,
+      "pub": "Thu, 8 Oct 2026 02:34:23 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 플로리다주 팜비치에 있는 자신 소유 '웨스트 팜비치 골프장'을 미국 대통령 전...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2025/10/19/PYH2025101900010007101_P2.jpg"
+    },
     {
       "title": "트럼프 이민규제 여파…美유학생 대출업체 영업 사실상 중단",
       "link": "https://www.yna.co.kr/view/AKR20261007208200072",
@@ -52,14 +164,6 @@
       "sentiment": "neutral",
       "desc": "(도쿄=연합뉴스) 이도연 특파원 = 다카이치 사나에 총리가 지난달 미일정상회담에서 도널드 트럼프 대통령에게 북미 정상회담이 성사될 시 북일 정상...",
       "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/05/PEP20261005119601009_P2.jpg"
-    },
-    {
-      "title": "우크라 \"韓, 러에 석유제품 공급\"…청와대 \"사실과 달라\" 반박",
-      "link": "https://www.hankyung.com/article/2026100794397",
-      "source": "한국경제",
-      "ts": 1791372135000,
-      "pub": "Wed, 07 Oct 2026 20:22:15 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "靑, '러 석유공급' 우크라 주장에 반박…\"사실과 다르고 부적절\"",
@@ -144,52 +248,12 @@
     {
       "title": "트럼프, 확전·선거철 여론악화 우려해 예멘내전 '뒷짐'",
       "link": "https://www.yna.co.kr/view/AKR20261007084700009",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1791340420000,
       "pub": "Wed, 7 Oct 2026 11:33:40 +0900",
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 이지헌 기자 = 도널드 트럼프 미 행정부가 사우디아라비아 주\n도 연합군의 예멘 후티 반군 공세에 깊숙이 관여하는 것을 꺼리며 ...",
       "image": "https://img.yna.co.kr/photo/etc/af/2026/10/06/PAF20261006232001009_P2.jpg"
-    },
-    {
-      "title": "CNN 운명은…'친트럼프' 새 CEO, 합병 첫날 \"절대 개입안할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20261007065400075",
-      "source": "연합뉴스 국제",
-      "ts": 1791339668000,
-      "pub": "Wed, 7 Oct 2026 11:21:08 +0900",
-      "sentiment": "neutral",
-      "desc": "(로스앤젤레스=연합뉴스) 김경윤 특파원 = '친트럼프' 성향으로 분류되는 데이비드 엘리슨 스카이댄스 최고경영자(CEO)가 워너브러더스 디스커버리...",
-      "image": "https://img.yna.co.kr/photo/ap/2024/10/30/PAP20241030012701009_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"이란이 LA 파괴하게 둬라\" 논란…뉴섬 \"직무 정지해야\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261006202851071",
-      "source": "연합뉴스 국제",
-      "ts": 1791338087000,
-      "pub": "Wed, 7 Oct 2026 10:54:47 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴·샌프란시스코=연합뉴스) 이유미 권영전 특파원 = 도널드 트럼프 미국 대통령이 '이란이 로스앤젤레스(LA)와 샌디에이고를 파괴해도 어쩔 ...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/06/PAF20261006105101009_P2.jpg"
-    },
-    {
-      "title": "\"백악관, LA 이민관련 시위 수사 압박\"…FBI 전 간부 내부고발",
-      "link": "https://www.yna.co.kr/view/AKR20261007054000009",
-      "source": "연합뉴스 국제",
-      "ts": 1791334763000,
-      "pub": "Wed, 7 Oct 2026 09:59:23 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 고일환 기자 = 백악관이 지난해 로스앤젤레스(LA)에서 벌어진 이민세관단속국(ICE) 반대 시위와 관련해 헌법 위반 소지가 있...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/04/PRU20261004041401009_P2.jpg"
-    },
-    {
-      "title": "프랑스 유럽의회 본부에 '벌거벗은 트럼프' 동상",
-      "link": "https://www.yna.co.kr/view/AKR20261007045500009",
-      "source": "연합뉴스 국제",
-      "ts": 1791333528000,
-      "pub": "Wed, 7 Oct 2026 09:38:48 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 곽민서 기자 = 유럽연합(EU)의 입법기구인 유럽의회 본부 건물에 '벌거벗은 트럼프' 동상이 등장했다고 독일 공영방송 도이체벨...",
-      "image": "https://img.yna.co.kr/photo/ap/2025/11/14/PAP20251114079501009_P2.jpg"
     }
   ]
 }

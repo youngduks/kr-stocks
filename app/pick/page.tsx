@@ -7,8 +7,10 @@ import { StaySearch } from "./StaySearch";
 
 // 줍줍파파 인스타 프로필 링크 전용 랜딩 — 헤더 메뉴엔 넣지 않음, 광고(AdSlot) 없음.
 // 숙소 데이터: data/stays.json(GitHub raw 런타임 fetch, lib/stays.ts).
-// TOP 7/20: /shopping/go?pick=<no> 클릭 집계(lib/shoppingStats.ts). Redis 조회는 ISR 5분 + 메모리 5분 캐시.
-export const revalidate = 300;
+// TOP 7/20: /shopping/go?pick=<no> 클릭 집계(lib/shoppingStats.ts).
+// 2026-10-07: ISR(revalidate)과 Upstash의 no-store fetch가 충돌해 재생성이 매번 실패(STALE 고정)하던 문제 →
+// 요청 시 렌더로 전환. Redis는 getPickRanks의 메모리 5분 캐시로 인스턴스당 5분에 2명령 수준, stays.json은 fetch 데이터 캐시 5분.
+export const dynamic = "force-dynamic";
 
 const TITLE = "줍줍파파 숙소 PICK — 아이랑 가기 좋은 숙소";
 const DESC = "줍줍파파가 직접 고른 아이랑 가기 좋은 숙소 모음. 오늘·이번 주 가장 많이 본 숙소와 번호로 찾는 전체 리스트.";

@@ -13,7 +13,7 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "증권사 목표주가 분석 — 삼성전자·하이닉스·현대차",
   description:
-    "한국 13~14개 증권사 애널리스트 목표주가 종합. 평균 목표가 vs 현재가 상승여력 시각화. Hyperliquid 야간 + 정규장 + 증권사 분석 3in1.",
+    "한국 증권사 애널리스트 목표주가 종합(네이버 금융 리서치 기준). 평균 목표가 vs 현재가 상승여력 시각화. Hyperliquid 야간 + 정규장 + 증권사 분석 3in1.",
   keywords: [
     "삼성전자 목표주가",
     "SK하이닉스 목표주가",

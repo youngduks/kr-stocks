@@ -7,13 +7,14 @@ const I18N = {
     dataSources: "데이터 출처",
     pricesLabel: "가격",
     fxLabel: "KRW 환율",
-    refresh: "업데이트 주기: 30초",
+    regularLabel: "정규장 가격",
+    refresh: "갱신: 종목 페이지 약 30초 · 홈 약 2분 간격",
     analysisGuide: "분석 · 가이드",
     consensusTitle: "증권사 목표주가 분석",
     consensusDesc:
-      "삼성전자 · SK하이닉스 · 현대차 13~14개 증권사 평균 목표가 + 상승여력",
+      "삼성전자 · SK하이닉스 · 현대차 증권사 평균 목표가 + 상승여력 (네이버 금융 리서치 기준)",
     newsTitle: "뉴스룸",
-    newsDesc: "국제정세 · 삼성전자 · SK하이닉스 · 현대차 — 한경/머투/연합 30분 단위 필터링",
+    newsDesc: "국제정세 · 삼성전자 · SK하이닉스 · 현대차 — 한경/머투/연합 RSS · 네이버 금융 공시 1시간마다 자동 수집",
     pollTitle: "인간지표 — 개미 투표 vs 실제 결과",
     pollDesc: "내일 상승/하락 집단예측 vs 실제 결과 · 적중률 공개",
     guideTitle: "한국에서 Hyperliquid 거래하는 법",
@@ -25,9 +26,10 @@ const I18N = {
     adResponse: "응답: 평일 24h 이내",
     disclaimer: "면책 (Disclaimer)",
     disclaimerBody:
-      "본 서비스는 정보 제공만을 목적으로 하며, 투자 권유·자문·예측이 아닙니다. 표시 가격은 perp DEX 시세로 정규장 거래소 가격과 차이가 있을 수 있습니다. 비상장 회사 가격은 implied valuation 기반의 추정치입니다.",
+      "본 서비스는 정보 제공만을 목적으로 하며, 투자 권유·자문·예측이 아닙니다. 정규장이 닫힌 시간에 표시되는 가격은 무기한 선물(perp) 시세로 정규장 거래소 가격과 차이가 있을 수 있습니다. 비상장 회사 가격은 implied valuation 기반의 추정치입니다.",
     copyrightSuffix: "Not investment advice.",
     privacyLabel: "개인정보처리방침",
+    aboutLabel: "데이터 원칙·이용법",
     consensusHref: "/consensus",
     newsHref: "/news",
     pollHref: "/poll",
@@ -42,13 +44,14 @@ const I18N = {
     dataSources: "Data Sources",
     pricesLabel: "Prices",
     fxLabel: "KRW FX",
-    refresh: "Refresh: every 30 seconds",
+    regularLabel: "Regular-session prices",
+    refresh: "Refresh: ~30s on symbol pages · ~2 min on home",
     analysisGuide: "Analysis · Guide",
     consensusTitle: "Korean Broker Consensus",
     consensusDesc:
-      "Samsung · SK Hynix · Hyundai — 13~14 Korean broker avg target & upside",
+      "Samsung · SK Hynix · Hyundai — avg Korean broker target & upside (Naver Finance Research)",
     newsTitle: "Newsroom",
-    newsDesc: "Global politics · Samsung · SK Hynix · Hyundai — auto-aggregated from KR media every 30 min",
+    newsDesc: "Global politics · Samsung · SK Hynix · Hyundai — auto-aggregated hourly from KR media RSS and Naver Finance disclosures",
     pollTitle: "Sentiment — Crowd Vote vs Reality",
     pollDesc: "Retail up/down crowd prediction vs actual market result · hit-rate",
     guideTitle: "How to trade Hyperliquid from Korea",
@@ -62,9 +65,10 @@ const I18N = {
     adResponse: "Response: within 24h on weekdays",
     disclaimer: "Disclaimer",
     disclaimerBody:
-      "This service is for informational purposes only and is not investment advice or solicitation. Prices shown are perp DEX quotes and may diverge from regular-session exchange prices. Private company prices are implied-valuation estimates.",
+      "This service is for informational purposes only and is not investment advice or solicitation. Prices shown outside regular sessions are perpetual-futures quotes and may diverge from regular-session exchange prices. Private company prices are implied-valuation estimates.",
     copyrightSuffix: "Not investment advice.",
     privacyLabel: "Privacy Policy",
+    aboutLabel: "Data principles (KR)",
     consensusHref: "/en/consensus",
     newsHref: "/news",
     pollHref: "/poll",
@@ -91,6 +95,15 @@ export function Footer({ locale = "ko" }: { locale?: Locale } = {}) {
           <li>
             • {t.pricesLabel}:{" "}
             <a
+              href="https://www.binance.com"
+              className="text-accent-blue hover:underline"
+              target="_blank"
+              rel="noopener"
+            >
+              Binance USDT-M perp
+            </a>
+            {" · "}
+            <a
               href="https://hyperliquid.xyz"
               className="text-accent-blue hover:underline"
               target="_blank"
@@ -99,6 +112,7 @@ export function Footer({ locale = "ko" }: { locale?: Locale } = {}) {
               Hyperliquid HIP-3 (xyz, vntl) DEX perp
             </a>
           </li>
+          <li>• {t.regularLabel}: Naver Finance (KR) · Yahoo Finance (US)</li>
           <li>
             • {t.fxLabel}:{" "}
             <a
@@ -193,6 +207,10 @@ export function Footer({ locale = "ko" }: { locale?: Locale } = {}) {
           © 2026 KR Stocks. {t.copyrightSuffix}{" "}
           <Link href={t.privacyHref as any} prefetch={false} className="text-accent-blue hover:underline">
             {t.privacyLabel}
+          </Link>
+          {" · "}
+          <Link href="/about" prefetch={false} className="text-accent-blue hover:underline">
+            {t.aboutLabel}
           </Link>
         </p>
       </div>

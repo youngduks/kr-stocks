@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: "%s · KR Stocks",
   },
   description:
-    "삼성전자·SK하이닉스·현대차·테슬라·엔비디아·SpaceX·OpenAI·Anthropic 24시간 실시간 시세. 한국 야간/주말에도 끊김 없이 추적. Hyperliquid HIP-3 + 업비트 KRW/USDT 연동.",
+    "삼성전자·SK하이닉스·현대차·테슬라·엔비디아·SpaceX·OpenAI·Anthropic 24시간 실시간 시세. 한국 야간/주말에도 끊김 없이 추적. 바이낸스·Hyperliquid 무기한 선물 + 업비트 KRW/USDT 연동.",
   keywords: [
     "야간 시세",
     "24시간 시세",

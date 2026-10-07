@@ -39,6 +39,41 @@ const SIGNAL_COPY: Record<
   unknown: { tone: "flat", pill: "신호 대기", head: "미국 반도체 신호를", hl: "아직 못 받았어요", outlook: null },
 };
 
+// 상태 카드 "조금 더" 문답 — 화면 문구와 홈 FAQPage JSON-LD 가 같은 문자열을 쓰도록 상수로 공유
+const SIGNAL_METHOD_Q = "조금 더 — 이 신호는 어떻게 만드나요?";
+const SIGNAL_METHOD_A =
+  "SOXL(미국 반도체 3배 ETF) 등락을 3으로 나눠 반도체지수 변화를 추정해요. 추정치가 0.4% 넘게 빠지거나 오르면 약세·강세, 1.5%를 넘으면 강한 신호로 표시해요. 방향을 맞히는 예측이 아니라 밤사이 분위기 요약이에요.";
+
+// 홈 구조화 데이터 — WebSite·Organization + 화면에 실제로 있는 문답 1건(FAQPage). 정적 값만.
+const HOME_JSON_LD = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "KR Stocks",
+    alternateName: "kr-stocks.com",
+    url: "https://kr-stocks.com",
+    inLanguage: "ko-KR",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "KR Stocks",
+    url: "https://kr-stocks.com",
+    email: "contact@kr-stocks.com",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "이 신호는 어떻게 만드나요?",
+        acceptedAnswer: { "@type": "Answer", text: SIGNAL_METHOD_A },
+      },
+    ],
+  },
+];
+
 function kstTime(epochSec: number | null): string | null {
   if (!epochSec) return null;
   try {
@@ -141,12 +176,10 @@ function TomorrowStatusCard({
         )
       }
       more={{
-        summary: "조금 더 — 이 신호는 어떻게 만드나요?",
+        summary: SIGNAL_METHOD_Q,
         content: (
           <>
-            SOXL(미국 반도체 3배 ETF) 등락을 3으로 나눠 반도체지수 변화를 추정해요. 추정치가 0.4% 넘게 빠지거나
-            오르면 약세·강세, 1.5%를 넘으면 강한 신호로 표시해요. 방향을 맞히는 예측이 아니라 밤사이 분위기
-            요약이에요.
+            {SIGNAL_METHOD_A}
             {semi.nvda && <> 참고로 엔비디아는 {formatPct(semi.nvda.changePct)}예요.</>}
             {asOf && (
               <>
@@ -312,6 +345,9 @@ export default async function Home() {
 
   return (
     <>
+      {HOME_JSON_LD.map((ld) => (
+        <script key={ld["@type"]} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
+      ))}
       <Header fxRate={data.fx.krw_per_usdt} fxChange={data.fx.change_24h_pct} asOf={data.fetched_at} />
 
       <main className="max-w-3xl mx-auto px-4 sm:px-5 pt-2 pb-12">

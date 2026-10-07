@@ -63,6 +63,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8, // "청산맵" — 토큰화 주식 트레이더 키워드
     },
     {
+      url: `${base}/about`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.4, // 데이터 원칙·이용법 — 신뢰 신호 페이지
+    },
+    {
       url: `${base}/privacy`,
       lastModified: now,
       changeFrequency: "monthly",

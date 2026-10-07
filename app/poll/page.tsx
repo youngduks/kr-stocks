@@ -103,9 +103,9 @@ export default async function PollPage() {
 
         {/* ① 오늘의 투표 — ⚠ pollId / question 은 scripts/update-poll.mjs 가 정규식으로 매일 교체 — 속성 형태 유지 */}
         <PollWidget
-          pollId="market-updown-2026-10-07"
+          pollId="market-updown-2026-10-08"
           title="인간지표 — 내일 상승 vs 하락"
-          question="10/7(수) 한국 증시, 오를까요 내릴까요?"
+          question="10/8(목) 한국 증시, 오를까요 내릴까요?"
           yesLabel="▲ 오른다"
           noLabel="▼ 내린다"
         />

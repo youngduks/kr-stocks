@@ -1,14 +1,30 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-07T10:39:40.601Z",
-  "count": 3,
+  "updated_at": "2026-10-07T17:35:31.341Z",
+  "count": 5,
   "items": [
     {
-      "title": "삼성 메모리 성과급 '1인당 7.5억'…내년 주총후 지급",
-      "link": "https://www.hankyung.com/article/2026100792131",
+      "title": "월가분석가 \"마이크론 PER19배 간다\"…4배인 삼전·SK하이닉스는?",
+      "link": "https://www.hankyung.com/article/202610079546i",
       "source": "한국경제",
-      "ts": 1791366055000,
-      "pub": "Wed, 07 Oct 2026 18:40:55 +0900",
+      "ts": 1791384376000,
+      "pub": "Wed, 07 Oct 2026 23:46:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"삼성전자, 중국산에 추월당할 수도\"…그야말로 '비상'",
+      "link": "https://www.hankyung.com/article/202610077420g",
+      "source": "한국경제",
+      "ts": 1791370801000,
+      "pub": "Wed, 07 Oct 2026 20:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"우리도 삼전닉스처럼 성과급 달라\"…대만까지 '난리'",
+      "link": "https://www.hankyung.com/article/2026100793847",
+      "source": "한국경제",
+      "ts": 1791368839000,
+      "pub": "Wed, 07 Oct 2026 19:27:19 +0900",
       "sentiment": "neutral"
     },
     {

@@ -1,17 +1,39 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-07T10:39:40.601Z",
-  "count": 11,
+  "updated_at": "2026-10-07T17:35:31.342Z",
+  "count": 12,
   "items": [
     {
-      "title": "보스반도체, 日 도요타 반도체 계열사에 '칩렛' 기술 공급",
-      "link": "https://www.mt.co.kr/future/2026/10/07/2026100715321389517",
-      "source": "머니투데이",
-      "ts": 1791369000000,
-      "pub": "Wed, 07 Oct 2026 19:30:00 +0900",
-      "sentiment": "neutral",
-      "desc": "[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 ‘데이터랩’에서 볼 수 있습니다.] 피지컬 AI(인공지능) 및 자동차용 반도체 전문 팹리스 기업 보스반도체가 일본 토요타 그룹 계열사 미라이즈테크놀로지의 기술 파트너로 선정돼 칩렛(C",
-      "image": "https://thumb.mt.co.kr/06/2026/10/2026100715321389517_1.jpg"
+      "title": "월가분석가 \"마이크론 PER19배 간다\"…4배인 삼전·SK하이닉스는?",
+      "link": "https://www.hankyung.com/article/202610079546i",
+      "source": "한국경제",
+      "ts": 1791384376000,
+      "pub": "Wed, 07 Oct 2026 23:46:16 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "고금리 누가 이길까…메타 '골든크로스'에 마이크론 목표가 3000달러 [박신영의 개장전 요것만]",
+      "link": "https://www.hankyung.com/article/202610079548i",
+      "source": "한국경제",
+      "ts": 1791383797000,
+      "pub": "Wed, 07 Oct 2026 23:36:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"엔비디아칩 사려고 54조원 빚낸다\"…스페이스X, 400억달러 조달 추진",
+      "link": "https://www.hankyung.com/article/202610079441i",
+      "source": "한국경제",
+      "ts": 1791373640000,
+      "pub": "Wed, 07 Oct 2026 20:47:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "BGF, 자회사로 KNW 편입…반도체 소재에 힘준다",
+      "link": "https://www.hankyung.com/article/2026100794091",
+      "source": "한국경제",
+      "ts": 1791370416000,
+      "pub": "Wed, 07 Oct 2026 19:53:36 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "'이익 15% 분배' 요구 대만마이크론 노조, 파업투표 압도적 찬성",
@@ -22,22 +44,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 권숙희 기자 = 미국 반도체업체 마이크론 테크놀로지의 대만 현지 노조가 영업이익의 15% 배분을 요구하며 추진한 파업 찬반투표...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/07/AKR20261007190600009_01_i_P2.jpg"
-    },
-    {
-      "title": "삼성 메모리 성과급 '1인당 7.5억'…내년 주총후 지급",
-      "link": "https://www.hankyung.com/article/2026100792131",
-      "source": "한국경제",
-      "ts": 1791366055000,
-      "pub": "Wed, 07 Oct 2026 18:40:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 호황에 기업 여윳돈 '최대'",
-      "link": "https://www.hankyung.com/article/2026100792351",
-      "source": "한국경제",
-      "ts": 1791365026000,
-      "pub": "Wed, 07 Oct 2026 18:23:46 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "\"대만 반도체업체 난야, D램 가격 최대 20% 인상 전망\"",

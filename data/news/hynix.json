@@ -1,8 +1,94 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-07T03:05:48.775Z",
-  "count": 12,
+  "updated_at": "2026-10-07T10:39:40.601Z",
+  "count": 11,
   "items": [
+    {
+      "title": "보스반도체, 日 도요타 반도체 계열사에 '칩렛' 기술 공급",
+      "link": "https://www.mt.co.kr/future/2026/10/07/2026100715321389517",
+      "source": "머니투데이",
+      "ts": 1791369000000,
+      "pub": "Wed, 07 Oct 2026 19:30:00 +0900",
+      "sentiment": "neutral",
+      "desc": "[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 ‘데이터랩’에서 볼 수 있습니다.] 피지컬 AI(인공지능) 및 자동차용 반도체 전문 팹리스 기업 보스반도체가 일본 토요타 그룹 계열사 미라이즈테크놀로지의 기술 파트너로 선정돼 칩렛(C",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026100715321389517_1.jpg"
+    },
+    {
+      "title": "'이익 15% 분배' 요구 대만마이크론 노조, 파업투표 압도적 찬성",
+      "link": "https://www.yna.co.kr/view/AKR20261007190600009",
+      "source": "연합뉴스 국제",
+      "ts": 1791366674000,
+      "pub": "Wed, 7 Oct 2026 18:51:14 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 권숙희 기자 = 미국 반도체업체 마이크론 테크놀로지의 대만 현지 노조가 영업이익의 15% 배분을 요구하며 추진한 파업 찬반투표...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/07/AKR20261007190600009_01_i_P2.jpg"
+    },
+    {
+      "title": "삼성 메모리 성과급 '1인당 7.5억'…내년 주총후 지급",
+      "link": "https://www.hankyung.com/article/2026100792131",
+      "source": "한국경제",
+      "ts": 1791366055000,
+      "pub": "Wed, 07 Oct 2026 18:40:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 호황에 기업 여윳돈 '최대'",
+      "link": "https://www.hankyung.com/article/2026100792351",
+      "source": "한국경제",
+      "ts": 1791365026000,
+      "pub": "Wed, 07 Oct 2026 18:23:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"대만 반도체업체 난야, D램 가격 최대 20% 인상 전망\"",
+      "link": "https://www.yna.co.kr/view/AKR20261007154000089",
+      "source": "연합뉴스 국제",
+      "ts": 1791357105000,
+      "pub": "Wed, 7 Oct 2026 16:11:45 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 인공지능(AI) 붐에 따른 반도체 업계 호황 속에 대만 업체 난야테크놀로지가 D램 가격을 최대 20% 인상...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/07/AKR20261007154000089_02_i_P2.jpg"
+    },
+    {
+      "title": "삼성전자, 실적 발표 앞두고 1.29% 하락…하이닉스 2.82%↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261007047051008",
+      "source": "연합뉴스 경제",
+      "ts": 1791356328000,
+      "pub": "Wed, 7 Oct 2026 15:58:48 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 황철환 곽윤아 기자 = 삼성전자[005930]가 3분기 잠정 실적 발표를 하루 앞둔 7일 유가증권시장에서 1.29% 하락 마감...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
+    },
+    {
+      "title": "日 반도체 소부장, 자국 내 생산 강화…경제안보·엔저 영향",
+      "link": "https://www.yna.co.kr/view/AKR20261007121400073",
+      "source": "연합뉴스 국제",
+      "ts": 1791350320000,
+      "pub": "Wed, 7 Oct 2026 14:18:40 +0900",
+      "sentiment": "neutral",
+      "desc": "(도쿄=연합뉴스) 조성미 특파원 = 고객사인 해외 반도체 제조사 가까이에 생산 거점을 유지해왔던 일본 반도체 장비업체가 경제안보 문제와 엔저 추...",
+      "image": "https://img.yna.co.kr/photo/cms/2023/12/12/47/PCM20231212000047990_P2.jpg"
+    },
+    {
+      "title": "[누리호 성공] 치매치료제부터 D램까지…우주로 간 큐브위성",
+      "link": "https://www.yna.co.kr/view/AKR20261006038500017",
+      "source": "연합뉴스 경제",
+      "ts": 1791349815000,
+      "pub": "Wed, 7 Oct 2026 14:10:15 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 신선미 기자 = 국내 기업과 연구기관이 개발한 큐브위성도 7일 누리호 5차 발사를 통해 우주로 향했다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/30/PYH2026093022270001300_P2.jpg"
+    },
+    {
+      "title": "반도체 호황에 기업 여윳돈 사상 최대…가계는 예금 빼 주식으로",
+      "link": "https://www.yna.co.kr/view/AKR20261007079000002",
+      "source": "연합뉴스 경제",
+      "ts": 1791342026000,
+      "pub": "Wed, 7 Oct 2026 12:00:26 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 한지훈 기자 = 올해 2분기(4∼6월) 반도체 수출 호조에 힘입어 국내 기업의 순자금 운용 규모가 사상 최대를 기록했다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100109850005100_P2.jpg"
+    },
     {
       "title": "증권가 \"삼성전자, 3분기 호실적 넘어 내년 메모리 고성장 기대\"",
       "link": "https://www.yna.co.kr/view/AKR20261007085600008",
@@ -14,44 +100,6 @@
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/03/18/PYH2026031803960001300_P2.jpg"
     },
     {
-      "title": "3분기 외투 신고 229억달러…반도체 소부장·AI 투자 이어져",
-      "link": "https://www.mt.co.kr/economy/2026/10/07/2026100710193973252",
-      "source": "머니투데이",
-      "ts": 1791338400000,
-      "pub": "Wed, 07 Oct 2026 11:00:00 +0900",
-      "sentiment": "neutral",
-      "desc": "정부가 반도체 소재·부품·장비와 AI 데이터센터 등 첨단산업을 중심으로 외국인투자 유치에 속도를 내고 있다. 3분기 누적 외국인직접투자 신고액은 229억달러로 전년보다 10.8% 늘었고, 실제 투자 도착액은 역대 최대인 148억7000만달러를 기록했다. 산업통상부는 7",
-      "image": "https://thumb.mt.co.kr/06/2026/10/2026100710193973252_1.jpg"
-    },
-    {
-      "title": "신한운용, 'SOL 글로벌DRAM반도체플러스 ETF' 신규 상장",
-      "link": "https://www.yna.co.kr/view/AKR20261007071800008",
-      "source": "연합뉴스 경제",
-      "ts": 1791337976000,
-      "pub": "Wed, 7 Oct 2026 10:52:56 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정회인 기자 = 신한자산운용은 연금계좌에서도 투자가 가능한 글로벌 메모리 반도체와 관련 장비업체에 투자하는 'SOL 글로벌DR...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/07/AKR20261007071800008_01_i_P2.jpg"
-    },
-    {
-      "title": "신한운용, 'SOL 글로벌DRAM반도체플러스' ETF 상장",
-      "link": "https://www.hankyung.com/article/2026100776866",
-      "source": "한국경제",
-      "ts": 1791337371000,
-      "pub": "Wed, 07 Oct 2026 10:42:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "회계사들 \"4분기도 경기 확장세 지속…반도체 수출 호조 기대\"",
-      "link": "https://www.yna.co.kr/view/AKR20261007062700002",
-      "source": "연합뉴스 경제",
-      "ts": 1791336979000,
-      "pub": "Wed, 7 Oct 2026 10:36:19 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 강수련 기자 = 공인회계사들이 올해 4분기 반도체 수출 호조 등에 힘입어 경기 확장세가 이어질 것으로 전망했다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/07/AKR20261007062700002_01_i_P2.jpg"
-    },
-    {
       "title": "\"스페이스X, 엔비디아 칩 구매용 54조원 조달 추진\"",
       "link": "https://www.yna.co.kr/view/AKR20261007059100009",
       "source": "연합뉴스 국제",
@@ -60,66 +108,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 주종국 기자 = 스페이스X가 엔비디아의 첨단 칩 구매 자금을 마련하기 위해 대출과 회사채 발행 등으로 400억달러(약 53조5...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/10/02/PRU20261002245201009_P2.jpg"
-    },
-    {
-      "title": "키움운용, '미국AI테크하이베타'에 마이크론·스페이스X 편입",
-      "link": "https://www.yna.co.kr/view/AKR20261007053800008",
-      "source": "연합뉴스 경제",
-      "ts": 1791334278000,
-      "pub": "Wed, 7 Oct 2026 09:51:18 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 고은지 기자 = 키움투자자산운용은 'KIWOOM 미국AI테크하이베타' 상장지수펀드(ETF)가 정기 리밸런싱(재조정)을 통해 마...",
-      "image": "https://img.yna.co.kr/photo/cms/2025/07/18/81/PCM20250718000081990_P2.jpg"
-    },
-    {
-      "title": "[특징주] 삼성전자, 장초반 2%대 급등…SK하이닉스는 0.6%↓",
-      "link": "https://www.yna.co.kr/view/AKR20261007047000008",
-      "source": "연합뉴스 경제",
-      "ts": 1791333063000,
-      "pub": "Wed, 7 Oct 2026 09:31:03 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]가 7일 장 초반 상승 전환해 2% 넘게 오르고 있다. SK하이닉스[000660]도 급락...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
-    },
-    {
-      "title": "IBK증권, SK하이닉스 목표가 400만원 유지…\"지나치게 저평가\"",
-      "link": "https://www.yna.co.kr/view/AKR20261007027000008",
-      "source": "연합뉴스 경제",
-      "ts": 1791329228000,
-      "pub": "Wed, 7 Oct 2026 08:27:08 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 황철환 기자 = IBK투자증권은 SK하이닉스[000660]에 대해 목표주가 400만원, 투자의견 '매수'를 유지한다고 7일 밝...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/29/PYH2026072914450006100_P2.jpg"
-    },
-    {
-      "title": "머스크, TSMC와 테라팹 협력 논의 언급…인텔 주가 '흔들'",
-      "link": "https://www.yna.co.kr/view/AKR20261007002700075",
-      "source": "연합뉴스 국제",
-      "ts": 1791310821000,
-      "pub": "Wed, 7 Oct 2026 03:20:21 +0900",
-      "sentiment": "neutral",
-      "desc": "(로스앤젤레스=연합뉴스) 김경윤 특파원 = 일론 머스크의 대형 반도체 공장 프로젝트 '테라팹'에 대만 반도체 기업 TSMC가 참여하는 방안이 논...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/24/PAF20260924141001009_P2.jpg"
-    },
-    {
-      "title": "마이크론, 넷리스트와 특허소송 합의…8천억원 라이선스 계약",
-      "link": "https://www.yna.co.kr/view/AKR20261007002200091",
-      "source": "연합뉴스 국제",
-      "ts": 1791309052000,
-      "pub": "Wed, 7 Oct 2026 02:50:52 +0900",
-      "sentiment": "negative",
-      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 미국 메모리 반도체 기업 마이크론이 넷리스트와의 특허 소송을 8천억원대 합의로 마무리했다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/07/AKR20261007002200091_02_i_P2.jpg"
-    },
-    {
-      "title": "AMD 리사 수, 방한 앞서 대만 방문…TSMC 등 협력업체와 면담",
-      "link": "https://www.yna.co.kr/view/AKR20261006177200089",
-      "source": "연합뉴스 국제",
-      "ts": 1791278380000,
-      "pub": "Tue, 6 Oct 2026 18:19:40 +0900",
-      "sentiment": "neutral",
-      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 엔비디아의 경쟁 상대로 꼽히는 미국 반도체업체 AMD의 리사 수 회장 겸 최고경영자(CEO)가 한국 방문에...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/06/AKR20261006177200089_01_i_P2.jpg"
     }
   ]
 }

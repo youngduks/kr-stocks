@@ -149,7 +149,7 @@ export default async function GuideKoreanOvernightPrices() {
                 "정규장 종가 vs 야간 가격" premium 박스 노출. 갭업/갭다운 % 즉시 확인.
               </li>
               <li>
-                <strong className="text-text">증권사 컨센서스</strong> — 13~14개 한국 증권사 평균
+                <strong className="text-text">증권사 컨센서스</strong> — 한국 증권사 평균(네이버 금융 리서치 기준)
                 목표주가 + 상승여력 + 5일 외인·기관 매매 동향.
               </li>
             </ol>

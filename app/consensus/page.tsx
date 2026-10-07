@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "증권사 목표주가 분석 — kr-stocks.com",
     description:
-      "삼성전자·SK하이닉스·현대차 증권사 평균 목표가 + 상승여력 + 13~14개 증권사 의견 종합.",
+      "삼성전자·SK하이닉스·현대차 증권사 평균 목표가 + 상승여력 + 증권사 투자의견 종합.",
     url: "https://kr-stocks.com/consensus",
     type: "website",
   },

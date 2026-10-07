@@ -13,7 +13,7 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Korean Broker Consensus — Samsung · SK Hynix · Hyundai",
   description:
-    "Aggregated analyst price targets from 13~14 major Korean brokers. Average target vs current price upside. 3in1 view: Hyperliquid overnight + regular close + consensus.",
+    "Aggregated analyst price targets from Korean brokers (Naver Finance Research). Average target vs current price upside. 3in1 view: Hyperliquid overnight + regular close + consensus.",
   keywords: [
     "Samsung Electronics price target",
     "SK Hynix price target",

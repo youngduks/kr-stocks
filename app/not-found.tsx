@@ -60,7 +60,7 @@ export default function NotFound() {
             className="p-4 rounded-2xl bg-accent-purple/5 hover:bg-accent-purple/10 border border-accent-purple/20 transition"
           >
             <div className="text-sm font-semibold text-accent-purple mb-1">📊 증권사 컨센서스</div>
-            <div className="text-xs text-text-dim">한국 13~14개 증권사 평균 목표가</div>
+            <div className="text-xs text-text-dim">증권사 평균 목표가</div>
           </Link>
           <Link
             href="/private/spacex"

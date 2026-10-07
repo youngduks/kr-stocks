@@ -191,7 +191,7 @@ export default async function SymbolPage({ params }: Props) {
               name: `${row.name_ko} 증권사 평균 목표주가는 얼마인가요?`,
               acceptedAnswer: {
                 "@type": "Answer",
-                text: `kr-stocks.com 에서 ${row.name_ko} 종목 상세 페이지를 보면 한국 13~14개 증권사 평균 목표주가 + 상승여력 + 외국인·기관 5일 누적 매매 동향을 한 화면에서 확인할 수 있습니다. 출처: 네이버 금융 리서치.`,
+                text: `kr-stocks.com 에서 ${row.name_ko} 종목 상세 페이지를 보면 한국 증권사 평균 목표주가 + 상승여력 + 외국인·기관 5일 누적 매매 동향을 한 화면에서 확인할 수 있습니다. 출처: 네이버 금융 리서치.`,
               },
             },
           ]

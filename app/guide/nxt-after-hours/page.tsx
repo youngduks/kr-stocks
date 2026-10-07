@@ -248,7 +248,7 @@ export default async function GuideNxtAfterHours() {
                   → 증권사 컨센서스 분석
                 </div>
                 <div className="text-xs text-text-dim mt-0.5">
-                  한국 13~14개 증권사 평균 목표주가 + 상승여력
+                  한국 증권사 평균 목표주가 + 상승여력
                 </div>
               </Link>
             </div>

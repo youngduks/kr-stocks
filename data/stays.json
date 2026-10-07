@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "no": 1,
+    "name": "롯데호텔 월드",
+    "region": "서울 송파구 잠실",
+    "type": "테마파크 연결 호텔",
+    "hook_title": "호텔 1층에 투숙객 전용 롯데월드 입구가 있어요",
+    "summary": "잠실역 연결(시그니엘과 다른 호텔). 원더도어·원더찬스 재입장, 미끄럼틀 유아풀·키즈라운지, 2층 침대 패밀리룸·카카오프렌즈 객실, 타워호수뷰, 라세느 조식",
+    "thumb": "https://img.lottehotel.com/cms/asset/2025/02/12/15221/5386-2000-fac-LTWO.webp",
+    "links": [
+      {
+        "platform": "쿠팡",
+        "url": "https://link.coupang.com/a/hC4EPYtc6e"
+      }
+    ],
+    "added": "2026-10-07"
+  }
+]

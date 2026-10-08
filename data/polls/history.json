@@ -1,6 +1,19 @@
 {
   "polls": [
     {
+      "pollId": "market-updown-2026-10-08",
+      "date": "2026-10-08",
+      "dateLabel": "10/8 (목)",
+      "question": "10/8(목) 한국 증시, 오를까요 내릴까요?",
+      "yesLabel": "📈 상승",
+      "noLabel": "📉 하락",
+      "yes": 2,
+      "no": 1,
+      "outcome": "down",
+      "outcomeDetail": "코스피 하락 — 삼성전자 −2.23%, SK하이닉스 −1.69%, 현대차 −3.57%",
+      "resolvedAt": "2026-10-08T14:03:54.126Z"
+    },
+    {
       "pollId": "market-updown-2026-10-07",
       "date": "2026-10-07",
       "dateLabel": "10/7 (수)",

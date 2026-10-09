@@ -7,10 +7,19 @@
       "channel": "전인구경제연구소",
       "channel_url": "https://www.youtube.com/@moneydo",
       "channel_id": "UCznImSIaxZR7fdLCICLdgaQ",
-      "last_checked_video_id": "1TFyk0wa9LI",
+      "last_checked_video_id": "QnCprtL1ik8",
       "tagline": "\"고점 판독기\" — 나무위키에도 등재된 별명. 2023년 이후 증시 전망이 반대로 맞는 걸로 유명",
       "note": "본인 문서(나무위키)에 \"시장 전망 영상 대부분이 틀리는 걸 넘어 반대로 맞히는 예지력\"이라는 비판이 있고, 댓글창에서 \"고점 판독기\"·\"어둠의 고수\"로 불림. 역발상 참고용으로 소개합니다 — 조롱이 목적이 아니라, 실제로 존재하는 밈이라 재미로 트래킹합니다.",
       "opinions": [
+        {
+          "date": "2026-10-09",
+          "title": "예상보다 30% 적게 나온 오픈AI 매출 쇼크, 진실은 이렇습니다.",
+          "summary": "오픈AI 매출 쇼크는 엔트로픽과 매출 산정 방식 차이에서 비롯된 시장의 오해였으며, 실망감으로 주가가 선반영분을 되돌리는 조정이 나왔다고 설명한다. AI 투자 확대에 따른 적자·자금조달 부담 등 불안 요인이 남아있어 단기 변동성이 지속될 수 있다고 본다.",
+          "summary_short": "AI 매출쇼크는 해석차, 변동성 지속",
+          "stance": "cautious",
+          "video_url": "https://www.youtube.com/watch?v=QnCprtL1ik8",
+          "published_at": "2026-10-09T03:30:05.000Z"
+        },
         {
           "date": "2026-09-30",
           "title": "삼전닉스 목숨줄을 쥔 마이크론 실적 예상",
@@ -91,15 +100,6 @@
           "stance": "cautious",
           "video_url": "https://www.youtube.com/watch?v=sRILHNf2AsU",
           "published_at": "2026-09-17T01:22:12.000Z"
-        },
-        {
-          "date": "2026-09-15",
-          "title": "AI속도조절론, 국채5% 돌파, 유가 100달러 보다 나쁜 소식이 있습니다",
-          "summary": "환율 상승, 미국채 10년물 5% 돌파, 유가 100달러 재돌파 등 거시환경이 좋지 않은 가운데 국내 증시는 기타법인(자사주) 매수에 의존해 버티는 취약한 수급 구조를 보이고 있다고 지적. 다만 AI 속도조절론은 실제 투자 축소라기보다 정부 투자 유치 등을 위한 포석일 가능성이 크다며 이번 하락을 반드시 나쁜 뉴스로만 볼 필요는 없다고 평가.",
-          "summary_short": "거시 부담 속 수급 취약, 신중론",
-          "stance": "cautious",
-          "video_url": "https://www.youtube.com/watch?v=iTIjcqsGRwM",
-          "published_at": "2026-09-15T03:41:22.000Z"
         }
       ],
       "pending": []

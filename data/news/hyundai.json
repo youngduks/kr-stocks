@@ -1,8 +1,26 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-10-08T22:36:15.984Z",
-  "count": 2,
+  "updated_at": "2026-10-09T02:38:42.888Z",
+  "count": 3,
   "items": [
+    {
+      "title": "디자인 보고 현대차 '발칵' 뒤집혔는데…극찬 쏟아진 車 [최수진의 모빌리티톡]",
+      "link": "https://www.hankyung.com/article/202610081261g",
+      "source": "한국경제",
+      "ts": 1791504011000,
+      "pub": "Fri, 09 Oct 2026 09:00:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[시승기] 강인하지만 부드럽다…현대차 '디 올 뉴 투싼'",
+      "link": "https://www.yna.co.kr/view/AKR20261008179100003",
+      "source": "연합뉴스 경제",
+      "ts": 1791504003000,
+      "pub": "Fri, 9 Oct 2026 09:00:03 +0900",
+      "sentiment": "neutral",
+      "desc": "(고양=연합뉴스) 장하나 기자 = \"모든 영역에서 타협 없는 완성도를 추구했습니다.\"",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/08/AKR20261008179100003_01_i_P2.jpg"
+    },
     {
       "title": "[특징주] 현대차·기아, '원화 강세' 실적 우려에 연이틀 하락세(종합)",
       "link": "https://www.yna.co.kr/view/AKR20261008050351008",
@@ -12,16 +30,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 김유향 기자 = 현대차[005380]와 기아[000270] 주가가 전날에 이어 8일에도 하락 마감했다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/07/PYH2026100701580001300_P2.jpg"
-    },
-    {
-      "title": "김재준 군산시장 \"현대차그룹 투자 완성에 전력…지원단 구성\"",
-      "link": "https://www.yna.co.kr/view/AKR20261008086400055",
-      "source": "연합뉴스 경제",
-      "ts": 1791426730000,
-      "pub": "Thu, 8 Oct 2026 11:32:10 +0900",
-      "sentiment": "neutral",
-      "desc": "(군산=연합뉴스) 김진방 기자 = 김재준 전북 군산시장은 8일 \"군산에 찾아온 성장 기회를 앞으로 시민이 체감하는 변화로 완성하겠다\"고 밝혔다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/08/AKR20261008086400055_01_i_P2.jpg"
     }
   ]
 }

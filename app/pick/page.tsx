@@ -2,12 +2,14 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { getStays, type Stay } from "@/lib/stays";
 import { getPickRanks, type PickRank } from "@/lib/shoppingStats";
+import { getStayPriceViews, type StayPriceView } from "@/lib/stayPrices";
 import { StayMiniCard, StayRow } from "./StayCard";
 import { StaySearch } from "./StaySearch";
 
 // 줍줍파파 인스타 프로필 링크 전용 랜딩 — 헤더 메뉴엔 넣지 않음, 광고(AdSlot) 없음.
 // 숙소 데이터: data/stays.json(GitHub raw 런타임 fetch, lib/stays.ts).
 // TOP 7/20: /shopping/go?pick=<no> 클릭 집계(lib/shoppingStats.ts).
+// 카드 가격 줄: data/stay_prices.json(쿠팡트래블 조회 기록 요약, lib/stayPrices.ts).
 // 2026-10-07: ISR(revalidate)과 Upstash의 no-store fetch가 충돌해 재생성이 매번 실패(STALE 고정)하던 문제 →
 // 요청 시 렌더로 전환. Redis는 getPickRanks의 메모리 5분 캐시로 인스턴스당 5분에 2명령 수준, stays.json은 fetch 데이터 캐시 5분.
 export const dynamic = "force-dynamic";
@@ -58,7 +60,9 @@ function SectionTitle({ children, note }: { children: React.ReactNode; note?: st
 
 export default async function PickPage() {
   const stays = await getStays();
-  const ranks = stays.length ? await getPickRanks() : { today: [], week: [] };
+  const [ranks, prices] = stays.length
+    ? await Promise.all([getPickRanks(), getStayPriceViews()])
+    : [{ today: [] as PickRank[], week: [] as PickRank[] }, {} as Record<number, StayPriceView>];
   const top7 = rankWithFallback(ranks.today, stays, 7);
   const top20 = rankWithFallback(ranks.week, stays, 20);
 
@@ -86,24 +90,28 @@ export default async function PickPage() {
           <SectionTitle note={ranks.today.length ? "오늘 클릭 기준" : undefined}>🔥 오늘 가장 많이 본 숙소 TOP 7</SectionTitle>
           <ul className="mt-3 -mx-4 px-4 flex gap-3 overflow-x-auto snap-x snap-mandatory scroll-px-4 ds-chipnav pb-1">
             {top7.map((s, i) => (
-              <StayMiniCard key={s.no} stay={s} rank={i + 1} />
+              <StayMiniCard key={s.no} stay={s} rank={i + 1} price={prices[s.no]} />
             ))}
           </ul>
 
           <SectionTitle note={ranks.week.length ? "최근 7일 클릭 기준" : undefined}>📅 주간 인기 숙소 TOP 20</SectionTitle>
           <ul className="mt-3 space-y-3">
             {top20.map((s, i) => (
-              <StayRow key={s.no} stay={s} rank={i + 1} />
+              <StayRow key={s.no} stay={s} rank={i + 1} price={prices[s.no]} />
             ))}
           </ul>
 
           <SectionTitle note={`총 ${stays.length}곳`}>📚 숙소 리스트</SectionTitle>
-          <StaySearch stays={stays} />
+          <StaySearch stays={stays} prices={prices} />
         </>
       )}
 
       <footer className="mt-10 pt-4 border-t border-line">
         <p className="ds-meta">※ {DISCLOSURE} 가격·객실 상황은 수시로 바뀌니 예약 전 꼭 확인하세요.</p>
+        <p className="ds-meta mt-2">
+          ※ 카드의 가격은 쿠팡트래블에서 조회일에 확인한 성인 2명·객실 1개·1박(체크인 날짜 기준, 세금·봉사료 포함 표기) 금액이에요.
+          다른 곳이 더 쌀 수 있고, 지금 가격과 다를 수 있어요.
+        </p>
         <p className="ds-meta mt-2">
           <Link href="/" prefetch={false} className="underline">
             kr-stocks.com

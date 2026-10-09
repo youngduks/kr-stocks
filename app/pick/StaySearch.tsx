@@ -2,10 +2,11 @@
 
 import { useMemo, useState } from "react";
 import type { Stay } from "@/lib/stays";
+import type { StayPriceView } from "@/lib/stayPrices";
 import { StayRow } from "./StayCard";
 
 /** 📚 숙소 리스트 — 번호 내림차순 전체 + 번호·이름 검색("12" → 12번 우선, 나머지는 이름 포함) */
-export function StaySearch({ stays }: { stays: Stay[] }) {
+export function StaySearch({ stays, prices }: { stays: Stay[]; prices: Record<number, StayPriceView> }) {
   const [q, setQ] = useState("");
   const list = useMemo(() => {
     const t = q.trim().replace(/번$/, "").toLowerCase();
@@ -32,7 +33,7 @@ export function StaySearch({ stays }: { stays: Stay[] }) {
       ) : (
         <ul className="mt-3 space-y-3">
           {list.map((s) => (
-            <StayRow key={s.no} stay={s} />
+            <StayRow key={s.no} stay={s} price={prices[s.no]} />
           ))}
         </ul>
       )}

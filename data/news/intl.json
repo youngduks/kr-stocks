@@ -1,8 +1,58 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-11T09:25:10.305Z",
-  "count": 39,
+  "updated_at": "2026-10-11T16:00:57.640Z",
+  "count": 32,
   "items": [
+    {
+      "title": "트럼프 \"러-우크라, 에너지 휴전\"…젤렌스키 \"처음 듣는 내용\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261011054751071",
+      "source": "연합뉴스 국제",
+      "ts": 1791733477000,
+      "pub": "Mon, 12 Oct 2026 00:44:37 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령은 11일(현지시간) 러시아와 우크라이나가 에너지 부문에 대한 휴전에 합의했다고 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/11/AKR20261011054751071_01_i_P2.jpg"
+    },
+    {
+      "title": "美재무, '푸틴과 경유합의' 비판 속출에 \"美국민에 좋은 일\"",
+      "link": "https://www.yna.co.kr/view/AKR20261012000300071",
+      "source": "연합뉴스 국제",
+      "ts": 1791731672000,
+      "pub": "Mon, 12 Oct 2026 00:14:32 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 스콧 베선트 미국 재무장관은 10일(현지시간) 미국과 러시아 간 경유 합의에 대한 비판을 일축하며 \"미국 ...",
+      "image": "https://img.yna.co.kr/photo/etc/up/2026/10/08/PUP20261008001701009_P2.jpg"
+    },
+    {
+      "title": "젤렌스키 \"푸틴이 60일 완전히 휴전한다면 선거 치르겠다\"",
+      "link": "https://www.yna.co.kr/view/AKR20261011054800108",
+      "source": "연합뉴스 국제",
+      "ts": 1791729248000,
+      "pub": "Sun, 11 Oct 2026 23:34:08 +0900",
+      "sentiment": "neutral",
+      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령은 러시아가 60일간의 휴전에 동의할 경우 우크라이나에서 선거를 치르...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/04/PAF20261004263901009_P2.jpg"
+    },
+    {
+      "title": "트럼프 \"러-우크라, 에너지 부문 휴전 합의…즉각 발효\"",
+      "link": "https://www.yna.co.kr/view/AKR20261011054700071",
+      "source": "연합뉴스 국제",
+      "ts": 1791729116000,
+      "pub": "Sun, 11 Oct 2026 23:31:56 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령은 11일(현지시간) 러시아와 우크라이나가 에너지 부문에 대한 휴전에 합의했다고 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/11/AKR20261011054700071_01_i_P2.jpg"
+    },
+    {
+      "title": "[속보] 트럼프 \"러시아-우크라이나, 에너지 휴전에 합의\"",
+      "link": "https://www.yna.co.kr/view/AKR20261011054400071",
+      "source": "연합뉴스 국제",
+      "ts": 1791728377000,
+      "pub": "Sun, 11 Oct 2026 23:19:37 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
+    },
     {
       "title": "트럼프는 '금발'을 좋아해…새 대변인에 자카리아",
       "link": "https://www.hankyung.com/article/2026101144801",
@@ -17,14 +67,6 @@
       "source": "한국경제",
       "ts": 1791709718000,
       "pub": "Sun, 11 Oct 2026 18:08:38 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뉴욕·상하이 증시, 美 어닝시즌 개막…9월 CPI도 발표",
-      "link": "https://www.hankyung.com/article/2026101145081",
-      "source": "한국경제",
-      "ts": 1791709224000,
-      "pub": "Sun, 11 Oct 2026 18:00:24 +0900",
       "sentiment": "neutral"
     },
     {
@@ -46,14 +88,6 @@
       "sentiment": "neutral",
       "desc": "[백악관인사이드] 중간선거 유세중 태평양이나 대서양 개명 제안 도널드 트럼프 미국 대통령이 대서양이나 태평양 명칭을 아메리카양(洋) 또는 자신의 이름을 딴 트럼프양으로 바꾸면 어떠냐고 말했다. 10일(현지시간) 워싱턴포스트(WP)에 따르면, 트럼프 대통령은 테네시주 클",
       "image": "https://thumb.mt.co.kr/06/2026/10/2026101117360531989_1.jpg"
-    },
-    {
-      "title": "경유값 급등에 표심 흔들…러시아産 들여오는 트럼프",
-      "link": "https://www.hankyung.com/article/2026101144771",
-      "source": "한국경제",
-      "ts": 1791707923000,
-      "pub": "Sun, 11 Oct 2026 17:38:43 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "머스크도 \"우크라 새 지도자 필요\"…러 특사 \"의견 일치\"",
@@ -283,106 +317,6 @@
       "sentiment": "negative",
       "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령은 러시아산 경유를 미국과 세계 시장에 대규모로 공급하기로 블라디미르 푸틴 러시아...",
       "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/02/PEP20261002104401009_P2.jpg"
-    },
-    {
-      "title": "\"카드빚 1.3억 대신 갚아줘\"…트럼프 측근 줄잇는 비리 의혹",
-      "link": "https://www.yna.co.kr/view/AKR20261010005300071",
-      "source": "연합뉴스 국제",
-      "ts": 1791576102000,
-      "pub": "Sat, 10 Oct 2026 05:01:42 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령의 측근들이 줄지어 비리 의혹에 연루되며 중간선거를 앞둔 트럼프 대통령을 궁지에 ...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2025/11/06/PEP20251106221901009_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"푸틴과 방금 협의…러 경유 30만t 즉각 시장에 풀기로\"",
-      "link": "https://www.yna.co.kr/view/AKR20261010004500071",
-      "source": "연합뉴스 국제",
-      "ts": 1791572719000,
-      "pub": "Sat, 10 Oct 2026 04:05:19 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령은 러시아산 경유를 미국과 세계 시장에 대규모로 공급하기로 블라디미르 푸틴 러시아...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/10/AKR20261010004500071_01_i_P2.jpg"
-    },
-    {
-      "title": "[속보] 트럼프 \"푸틴과 방금 통화…러 경유 美·세계시장 공급 합의\"",
-      "link": "https://www.yna.co.kr/view/AKR20261010004100071",
-      "source": "연합뉴스 국제",
-      "ts": 1791571936000,
-      "pub": "Sat, 10 Oct 2026 03:52:16 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"이란전 곧 끝난다…경유 관련 대형 발표 있을 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20261010003900071",
-      "source": "연합뉴스 국제",
-      "ts": 1791571471000,
-      "pub": "Sat, 10 Oct 2026 03:44:31 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령은 9일(현지시간) 경윳값 급등 대책이 곧 발표될 것이라고 밝혔다.",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/10/PEP20261010030501009_P2.jpg"
-    },
-    {
-      "title": "트럼프, 리사 쿡 연준 이사 해임 재시도…백악관에 조사위 설치",
-      "link": "https://www.yna.co.kr/view/AKR20261010003800071",
-      "source": "연합뉴스 국제",
-      "ts": 1791571244000,
-      "pub": "Sat, 10 Oct 2026 03:40:44 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령이 눈엣가시로 여기는 리사 쿡 연방준비제도(Fed·연준) 이사의 해임을 다시 추진...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/10/AKR20261010003800071_01_i_P2.jpg"
-    },
-    {
-      "title": "유럽, 트럼프 ICC 제재에 우려…무력화 방안도 거론(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261010002051082",
-      "source": "연합뉴스 국제",
-      "ts": 1791568666000,
-      "pub": "Sat, 10 Oct 2026 02:57:46 +0900",
-      "sentiment": "negative",
-      "desc": "(베를린=연합뉴스) 김계연 특파원 = 유럽은 9일(현지시간) 도널드 트럼프 미국 행정부의 국제형사재판소(ICC) 제재에 우려를 표명하면서 ICC...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/10/AKR20261010002051082_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프, \"노벨상 위상 훼손\" 위원회·수상자 비난글 SNS 공유",
-      "link": "https://www.yna.co.kr/view/AKR20261010002400071",
-      "source": "연합뉴스 국제",
-      "ts": 1791566772000,
-      "pub": "Sat, 10 Oct 2026 02:26:12 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령이 올해 노벨평화상 수상자로 선정된 나비 필라이와 주최 측인 노벨위원회를 강하게 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/10/AKR20261010002400071_02_i_P2.jpg"
-    },
-    {
-      "title": "플라이두바이 부기장, 9·11에 영감…이스라엘에 기체 추락 시도",
-      "link": "https://www.yna.co.kr/view/AKR20261010002200108",
-      "source": "연합뉴스 국제",
-      "ts": 1791566114000,
-      "pub": "Sat, 10 Oct 2026 02:15:14 +0900",
-      "sentiment": "neutral",
-      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 이스라엘행 플라이두바이 여객기에서 기장을 흉기로 공격한 부기장이 기체를 이스라엘의 국제공항에 추락시키려는...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/01/PEP20261001014401009_P2.jpg"
-    },
-    {
-      "title": "유럽, 트럼프 ICC 제재에 우려…\"대화로 풀자\"",
-      "link": "https://www.yna.co.kr/view/AKR20261010002000082",
-      "source": "연합뉴스 국제",
-      "ts": 1791564803000,
-      "pub": "Sat, 10 Oct 2026 01:53:23 +0900",
-      "sentiment": "negative",
-      "desc": "(베를린=연합뉴스) 김계연 특파원 = 유럽은 9일(현지시간) 도널드 트럼프 미국 행정부의 국제형사재판소(ICC) 제재에 우려를 표명하면서 ICC...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/10/AKR20261010002000082_01_i_P2.jpg"
-    },
-    {
-      "title": "이스라엘, 필라이 노벨평화상에 비난…PA는 환영(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261009060351108",
-      "source": "연합뉴스 국제",
-      "ts": 1791562764000,
-      "pub": "Sat, 10 Oct 2026 01:19:24 +0900",
-      "sentiment": "neutral",
-      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 이스라엘 외무부는 9일(현지시간) 나비 필라이(85) 국제사법재판소(ICJ) 임시 재판관이 노벨평화상을 ...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/09/PAP20261009237501009_P2.jpg"
     }
   ]
 }

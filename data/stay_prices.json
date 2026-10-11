@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-11T15:39:54+09:00",
- "basis_date": "2026-10-11",
+ "generated_at": "2026-10-12T04:34:24+09:00",
+ "basis_date": "2026-10-12",
  "note": "쿠팡트래블 성인2·객실1·1박 체크인 기준, 세금/봉사료 포함 표기 금액. 상태 '확정'인 날만 사용.",
  "stale_after_days": 8,
  "stays": {
@@ -11,7 +11,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-10-10",
-   "age_days": 1,
+   "age_days": 2,
    "stale": false,
    "range_start": "2026-10-10",
    "range_end": "2026-12-08",
@@ -285,15 +285,15 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-10-08",
-   "age_days": 3,
+   "age_days": 4,
    "stale": false,
    "range_start": "2026-10-08",
    "range_end": "2026-12-06",
    "range_days": 60,
    "confirmed_days": 51,
    "week_lowest": {
-    "date": "2026-10-11",
-    "weekday": "일",
+    "date": "2026-10-12",
+    "weekday": "월",
     "price_krw": 166200,
     "room_name": "S20_스테이_심플스테이(룸온리)"
    },
@@ -520,7 +520,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-10-08",
-   "age_days": 3,
+   "age_days": 4,
    "stale": false,
    "range_start": "2026-10-08",
    "range_end": "2026-12-06",
@@ -711,17 +711,17 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-10-08",
-   "age_days": 3,
+   "age_days": 4,
    "stale": false,
    "range_start": "2026-10-08",
    "range_end": "2026-12-06",
    "range_days": 60,
    "confirmed_days": 60,
    "week_lowest": {
-    "date": "2026-10-11",
-    "weekday": "일",
-    "price_krw": 206094,
-    "room_name": "디럭스 더블(초강력특가★18시 체크인 10시 체크아웃 (연박불가))"
+    "date": "2026-10-14",
+    "weekday": "수",
+    "price_krw": 214000,
+    "room_name": "디럭스 더블 (초강력특가 ★)"
    },
    "range_lowest": {
     "date": "2026-10-28",
@@ -982,7 +982,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-10-09",
-   "age_days": 2,
+   "age_days": 3,
    "stale": false,
    "range_start": "2026-10-09",
    "range_end": "2026-12-07",
@@ -1249,17 +1249,17 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-10-09",
-   "age_days": 2,
+   "age_days": 3,
    "stale": false,
    "range_start": "2026-10-09",
    "range_end": "2026-12-07",
    "range_days": 60,
    "confirmed_days": 57,
    "week_lowest": {
-    "date": "2026-10-12",
-    "weekday": "월",
-    "price_krw": 953700,
-    "room_name": "디럭스 풀"
+    "date": "2026-10-18",
+    "weekday": "일",
+    "price_krw": 879368,
+    "room_name": "Banyan Pool Deluxe Room, 1 King Bed"
    },
    "range_lowest": {
     "date": "2026-11-24",
@@ -1507,13 +1507,13 @@
    "pid": "30000002630349",
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
-   "collected_on": "2026-10-09",
-   "age_days": 2,
+   "collected_on": "2026-10-12",
+   "age_days": 0,
    "stale": false,
-   "range_start": "2026-10-09",
-   "range_end": "2026-12-07",
+   "range_start": "2026-10-12",
+   "range_end": "2026-12-10",
    "range_days": 60,
-   "confirmed_days": 31,
+   "confirmed_days": 34,
    "week_lowest": null,
    "range_lowest": {
     "date": "2026-12-06",
@@ -1522,8 +1522,15 @@
     "room_name": "프리미어 킹(Room only)",
     "same_price_days": 1
    },
-   "range_mean_krw": 1158371,
-   "change_vs_prev": null,
+   "range_mean_krw": 1142932,
+   "change_vs_prev": {
+    "prev_collected_on": "2026-10-09",
+    "compared_days": 31,
+    "up_days": 0,
+    "down_days": 0,
+    "same_days": 31,
+    "avg_change_pct": 0.0
+   },
    "days": [
     [
      "2026-11-01",
@@ -1648,6 +1655,18 @@
     [
      "2026-12-07",
      990000
+    ],
+    [
+     "2026-12-08",
+     980100
+    ],
+    [
+     "2026-12-09",
+     980100
+    ],
+    [
+     "2026-12-10",
+     990000
     ]
    ]
   },
@@ -1658,7 +1677,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-10-11",
-   "age_days": 0,
+   "age_days": 1,
    "stale": false,
    "range_start": "2026-10-11",
    "range_end": "2026-12-09",
@@ -1908,7 +1927,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-10-09",
-   "age_days": 2,
+   "age_days": 3,
    "stale": false,
    "range_start": "2026-10-09",
    "range_end": "2026-12-07",
@@ -2135,7 +2154,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-10-09",
-   "age_days": 2,
+   "age_days": 3,
    "stale": false,
    "range_start": "2026-10-09",
    "range_end": "2026-12-07",
@@ -2305,7 +2324,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-10-10",
-   "age_days": 1,
+   "age_days": 2,
    "stale": false,
    "range_start": "2026-10-10",
    "range_end": "2026-12-08",
@@ -2568,7 +2587,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-10-10",
-   "age_days": 1,
+   "age_days": 2,
    "stale": false,
    "range_start": "2026-10-10",
    "range_end": "2026-12-08",
@@ -2835,7 +2854,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-10-10",
-   "age_days": 1,
+   "age_days": 2,
    "stale": false,
    "range_start": "2026-10-10",
    "range_end": "2026-12-08",

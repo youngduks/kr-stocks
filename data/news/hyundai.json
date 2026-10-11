@@ -1,8 +1,18 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-10-11T16:00:58.119Z",
+  "updated_at": "2026-10-11T20:39:50.808Z",
   "count": 2,
   "items": [
+    {
+      "title": "로봇·AI로… 현대차 진화, 경계를 넘다",
+      "link": "https://www.mt.co.kr/industry/2026/10/12/2026101119372011709",
+      "source": "머니투데이",
+      "ts": 1791741600000,
+      "pub": "Mon, 12 Oct 2026 03:00:00 +0900",
+      "sentiment": "neutral",
+      "desc": "정의선 회장 취임 6주년 '아틀라스' 美 실전배치 총력 새만금에 혁신성장거점 구축 작년 車글로벌판매 727만대 전사 DX·AX 추진 경쟁력 ↑ \"로보틱스, UAM(도심항공교통), 스마트시티 같은 상상 속 미래 모습을 더욱 빠르게 현실화해 인류에게 한 차원 높은 삶의 경",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026101119372011709_1.jpg"
+    },
     {
       "title": "현대차, 인도 누적 판매 1000만대 눈앞",
       "link": "https://www.hankyung.com/article/2026101144321",
@@ -10,16 +20,6 @@
       "ts": 1791709665000,
       "pub": "Sun, 11 Oct 2026 18:07:45 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "[시승기] 강인하지만 부드럽다…현대차 '디 올 뉴 투싼'",
-      "link": "https://www.yna.co.kr/view/AKR20261008179100003",
-      "source": "연합뉴스 경제",
-      "ts": 1791504003000,
-      "pub": "Fri, 9 Oct 2026 09:00:03 +0900",
-      "sentiment": "neutral",
-      "desc": "(고양=연합뉴스) 장하나 기자 = \"모든 영역에서 타협 없는 완성도를 추구했습니다.\"",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/08/AKR20261008179100003_01_i_P2.jpg"
     }
   ]
 }

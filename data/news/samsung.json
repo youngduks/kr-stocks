@@ -1,8 +1,18 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-12T16:14:54.269Z",
+  "updated_at": "2026-10-12T23:19:14.320Z",
   "count": 9,
   "items": [
+    {
+      "title": "삼성전자, 새 메모리 전략 공개…속도·확장성·영속성 초점",
+      "link": "https://www.yna.co.kr/view/AKR20261013015800091",
+      "source": "연합뉴스 국제",
+      "ts": 1791845505000,
+      "pub": "Tue, 13 Oct 2026 07:51:45 +0900",
+      "sentiment": "neutral",
+      "desc": "(새너제이=연합뉴스) 권영전 특파원 = 삼성전자가 미국 실리콘밸리에서 열린 글로벌 정보기술(IT) 인프라 행사에서 속도와 확장성, 영속성에 초점...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/13/AKR20261013015800091_02_i_P2.jpg"
+    },
     {
       "title": "\"삼전닉스 보유하고도 B급 취급\"…외국인 떠나는 진짜 이유 [분석+]",
       "link": "https://www.hankyung.com/article/2026101271706",
@@ -80,16 +90,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 곽윤아 기자 = 코스피 지수가 12일 장중 2% 넘게 급락해 결국 한 달 반 만에 6,500선까지 내줬다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/12/PYH2026101202210001300_P2.jpg"
-    },
-    {
-      "title": "코스피·코스닥, 삼전닉스 약세에 2~3%대 급락…외국인 '팔자'",
-      "link": "https://www.yna.co.kr/view/AKR20261012030552008",
-      "source": "연합뉴스 경제",
-      "ts": 1791769415000,
-      "pub": "Mon, 12 Oct 2026 10:43:35 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 한글날 연휴에서 돌아온 코스피는 12일 장중 낙폭을 키워 2∼3%대의 급락세를 보이고 있다. 이날까지 4거래일...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/12/PYH2026101202170001300_P2.jpg"
     }
   ]
 }

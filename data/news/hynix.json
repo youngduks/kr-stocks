@@ -1,10 +1,74 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-12T16:14:54.269Z",
-  "count": 10,
+  "updated_at": "2026-10-12T23:19:14.320Z",
+  "count": 14,
   "items": [
     {
-      "title": "\"엔비디아칩 독주 저지\"…MS,\"자체 AI칩 내년 백만개이상 투입\"",
+      "title": "[마켓뷰] 美반도체 약세에 추가 하락? 반발매수?…코스피 향배는",
+      "link": "https://www.yna.co.kr/view/AKR20261013022900008",
+      "source": "연합뉴스 경제",
+      "ts": 1791846695000,
+      "pub": "Tue, 13 Oct 2026 08:11:35 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 곽윤아 기자 = 전날 급락한 코스피가 13일 낙폭 과대 인식에 따른 반발 매수세에 반등을 시도할지 주목된다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/12/PYH2026101217180001300_P2.jpg"
+    },
+    {
+      "title": "삼성전자, 새 메모리 전략 공개…속도·확장성·영속성 초점",
+      "link": "https://www.yna.co.kr/view/AKR20261013015800091",
+      "source": "연합뉴스 국제",
+      "ts": 1791845505000,
+      "pub": "Tue, 13 Oct 2026 07:51:45 +0900",
+      "sentiment": "neutral",
+      "desc": "(새너제이=연합뉴스) 권영전 특파원 = 삼성전자가 미국 실리콘밸리에서 열린 글로벌 정보기술(IT) 인프라 행사에서 속도와 확장성, 영속성에 초점...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/13/AKR20261013015800091_02_i_P2.jpg"
+    },
+    {
+      "title": "미 반도체 지수 급락…다시 긴장 커지는 중동 [오늘 아침, 당신이 알아야 할 7가지]",
+      "link": "https://www.hankyung.com/article/202610137458i",
+      "source": "한국경제",
+      "ts": 1791844342000,
+      "pub": "Tue, 13 Oct 2026 07:32:22 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "中 \"D램 기술 진전\" 주장에 반도체주 약세…국제유가도 급등 [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026101375226",
+      "source": "한국경제",
+      "ts": 1791843441000,
+      "pub": "Tue, 13 Oct 2026 07:17:21 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "유가 상승·반도체 약세 속 뉴욕증시 혼조…다우 홀로 상승(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261013007451072",
+      "source": "연합뉴스 국제",
+      "ts": 1791839760000,
+      "pub": "Tue, 13 Oct 2026 06:16:00 +0900",
+      "sentiment": "negative",
+      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 12일(현지시간) 미국 뉴욕증시 3대 지수가 혼조세로 마감했다.",
+      "image": "https://img.yna.co.kr/photo/etc/up/2026/10/13/PUP20261013000401009_P2.jpg"
+    },
+    {
+      "title": "반도체 슈퍼호황이 연 4만달러 시대…개혁의 절박함 지우고 있다 [여기는 논설실]",
+      "link": "https://www.hankyung.com/article/202610127076i",
+      "source": "한국경제",
+      "ts": 1791838807000,
+      "pub": "Tue, 13 Oct 2026 06:00:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "유가 상승·반도체 약세 속 뉴욕증시 혼조…다우 홀로 상승",
+      "link": "https://www.yna.co.kr/view/AKR20261013007400072",
+      "source": "연합뉴스 국제",
+      "ts": 1791836615000,
+      "pub": "Tue, 13 Oct 2026 05:23:35 +0900",
+      "sentiment": "negative",
+      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 12일(현지시간) 미국 뉴욕증시 3대 지수가 혼조세로 마감했다.",
+      "image": "https://img.yna.co.kr/photo/etc/up/2026/10/13/PUP20261013000401009_P2.jpg"
+    },
+    {
+      "title": "'엔비디아칩 독주 저지'…MS \"자체 AI칩 내년 백만개 이상 투입\"",
       "link": "https://www.hankyung.com/article/202610127317i",
       "source": "한국경제",
       "ts": 1791817312000,
@@ -20,14 +84,6 @@
       "sentiment": "neutral",
       "desc": "(상하이=연합뉴스) 차병섭 특파원 = 중국 반도체 자립의 '첨병'으로 꼽히는 창신메모리(CXMT)가 D램 메모리 기술에서 새로운 진전을 이뤘다며...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/12/AKR20261012142351089_01_i_P2.jpg"
-    },
-    {
-      "title": "\"반도체도 전력도 아니다\"…AI붐 다음번 위기는 '자금난'",
-      "link": "https://www.hankyung.com/article/202610127164i",
-      "source": "한국경제",
-      "ts": 1791801583000,
-      "pub": "Mon, 12 Oct 2026 19:39:43 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "반도체고 입학 하늘의 별 따기?…교내 입학설명회장마다 '북적'",
@@ -78,26 +134,6 @@
       "sentiment": "positive",
       "desc": "(서울=연합뉴스) 김유아 기자 = 최태원 SK그룹 회장이 지난주 호남 반도체 클러스터 부지를 방문해 투자 속도전 의지를 밝히면서 12일 관련 테...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/09/PYH2026100906660005400_P2.jpg"
-    },
-    {
-      "title": "대만 학자 \"中 선전 APEC 정상회의 대표로 TSMC 회장 보내야\"",
-      "link": "https://www.yna.co.kr/view/AKR20261012106200009",
-      "source": "연합뉴스 국제",
-      "ts": 1791782715000,
-      "pub": "Mon, 12 Oct 2026 14:25:15 +0900",
-      "sentiment": "neutral",
-      "desc": "(타이베이=연합뉴스) 김철문 통신원 = 다음 달 18∼19일 중국 선전에서 열리는 아시아태평양경제협력체(APEC) 정상회의에 세계 최대 파운드리...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/12/AKR20261012106200009_01_i_P2.jpg"
-    },
-    {
-      "title": "\"TSMC, 핵심부품 미국서 조달…미국내 AI칩 공급망 완성 다가서\"",
-      "link": "https://www.yna.co.kr/view/AKR20261012020600009",
-      "source": "연합뉴스 국제",
-      "ts": 1791763538000,
-      "pub": "Mon, 12 Oct 2026 09:05:38 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 대만 TSMC가 인공지능(AI) 칩 생산의 핵심 부품인 실리콘 인터포저를 미국에서 조달하기로 했다고 야후파이낸...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/12/AKR20261012020600009_01_i_P2.jpg"
     }
   ]
 }

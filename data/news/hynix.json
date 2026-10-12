@@ -1,63 +1,81 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-12T00:03:56.024Z",
-  "count": 6,
+  "updated_at": "2026-10-12T06:42:06.816Z",
+  "count": 8,
   "items": [
     {
-      "title": "메리츠증권, SK하이닉스 목표가↑…\"3분기 영업익 80조원 전망\"",
-      "link": "https://www.yna.co.kr/view/AKR20261012019300008",
-      "source": "연합뉴스 경제",
-      "ts": 1791761281000,
-      "pub": "Mon, 12 Oct 2026 08:28:01 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 메리츠증권은 12일 SK하이닉스[000660]의 3분기 영업이익이 전 분기 대비 32% 증가한 80조원을 달할...",
-      "image": "https://img.yna.co.kr/photo/cms/2020/02/20/30/PCM20200220000130990_P2.jpg"
-    },
-    {
-      "title": "\"삼성전자, 이제 세계 1위 이익 기업…HBM4으로 내년 더 뛴다\" [종목+]",
-      "link": "https://www.hankyung.com/article/2026101249176",
+      "title": "삼성·SK '차세대 칩' 총동원…'반도체 인재' 현장 면접도",
+      "link": "https://www.hankyung.com/article/202610126250g",
       "source": "한국경제",
-      "ts": 1791759242000,
-      "pub": "Mon, 12 Oct 2026 07:54:02 +0900",
+      "ts": 1791784276000,
+      "pub": "Mon, 12 Oct 2026 14:51:16 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "뜨거운 반도체 소부장…이번주도 달릴까 [오늘 아침, 당신이 알아야 할 7가지]",
-      "link": "https://www.hankyung.com/article/202610114705i",
+      "title": "\"반도체 호황에 달러 쏟아졌다\"…원·달러 환율, 2년 만에 최저 [분석+]",
+      "link": "https://www.hankyung.com/article/2026101262046",
       "source": "한국경제",
-      "ts": 1791757996000,
-      "pub": "Mon, 12 Oct 2026 07:33:16 +0900",
+      "ts": 1791783131000,
+      "pub": "Mon, 12 Oct 2026 14:32:11 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "\"호남 반도체 국가산단 사업비 9조…인근 분양가 2배 이상\"",
-      "link": "https://www.yna.co.kr/view/AKR20261011036100003",
-      "source": "연합뉴스 경제",
-      "ts": 1791753301000,
-      "pub": "Mon, 12 Oct 2026 06:15:01 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 오진송 기자 = 광주 군공항 부지에 조성되는 호남 반도체 국가산업단지의 총사업비가 약 9조원, 평당 조성원가가 514만원에 이...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/13/PYH2026071315920005400_P2.jpg"
-    },
-    {
-      "title": "반도체 호황에도 중기엔 그늘…올들어 생산 줄고 수출비중 축소",
-      "link": "https://www.yna.co.kr/view/AKR20261010026900002",
-      "source": "연합뉴스 경제",
-      "ts": 1791665221000,
-      "pub": "Sun, 11 Oct 2026 05:47:01 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 안채원 송정은 기자 = 반도체 대기업이 한국 경제 성장을 이끄는 사이 중소기업은 제조업 생산이 뒷걸음질하고 수출 비중도 줄어드...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
-    },
-    {
-      "title": "\"엔비디아, AI 스타트업 리플렉션에 추가 투자·인수 협상중\"",
-      "link": "https://www.yna.co.kr/view/AKR20261011003100072",
+      "title": "대만 학자 \"中 선전 APEC 정상회의 대표로 TSMC 회장 보내야\"",
+      "link": "https://www.yna.co.kr/view/AKR20261012106200009",
       "source": "연합뉴스 국제",
-      "ts": 1791663229000,
-      "pub": "Sun, 11 Oct 2026 05:13:49 +0900",
+      "ts": 1791782715000,
+      "pub": "Mon, 12 Oct 2026 14:25:15 +0900",
       "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 엔비디아가 인공지능(AI) 스타트업 리플렉션 AI에 대한 추가 투자 또는 인수를 논의 중이라고 영국 일간 파...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/11/AKR20261011003100072_01_i_P2.jpg"
+      "desc": "(타이베이=연합뉴스) 김철문 통신원 = 다음 달 18∼19일 중국 선전에서 열리는 아시아태평양경제협력체(APEC) 정상회의에 세계 최대 파운드리...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/12/AKR20261012106200009_01_i_P2.jpg"
+    },
+    {
+      "title": "호남 반도체 전력망 1.4조 청구서…삼전닉스가 80% 떠안는다",
+      "link": "https://www.hankyung.com/article/2026101261377",
+      "source": "한국경제",
+      "ts": 1791780847000,
+      "pub": "Mon, 12 Oct 2026 13:54:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 업고 이달초 수출 261억달러…2배로 뛰며 역대 최대(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261012028651002",
+      "source": "연합뉴스 경제",
+      "ts": 1791765020000,
+      "pub": "Mon, 12 Oct 2026 09:30:20 +0900",
+      "sentiment": "positive",
+      "desc": "(세종=연합뉴스) 안채원 기자 = 반도체 수출 고공행진에 힘입어 이달 초 수출액이 두 배로 뛰며 동기 기준 역대 최대치를 기록했다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/24/PYH2026072405380006100_P2.jpg"
+    },
+    {
+      "title": "[특징주] 최태원 광주 방문에…금호전기 등 호남 반도체 관련주 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261012039800008",
+      "source": "연합뉴스 경제",
+      "ts": 1791764961000,
+      "pub": "Mon, 12 Oct 2026 09:29:21 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 김유아 기자 = 최태원 SK그룹 회장이 지난주 호남 반도체 클러스터 부지를 방문해 투자 속도전 의지를 밝히면서 12일 장 초반...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/09/PYH2026100906660005400_P2.jpg"
+    },
+    {
+      "title": "[특징주] SK하이닉스, 장 초반 2.6% 급락…삼전도 0.9%↓",
+      "link": "https://www.yna.co.kr/view/AKR20261012038700008",
+      "source": "연합뉴스 경제",
+      "ts": 1791764805000,
+      "pub": "Mon, 12 Oct 2026 09:26:45 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 한글날 연휴 이후 첫 거래일인 12일 장 초반 삼성전자[005930]와 SK하이닉스[000660]가 동반 약세...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/22/81/PCM20260622000081990_P2.jpg"
+    },
+    {
+      "title": "\"TSMC, 핵심부품 미국서 조달…미국내 AI칩 공급망 완성 다가서\"",
+      "link": "https://www.yna.co.kr/view/AKR20261012020600009",
+      "source": "연합뉴스 국제",
+      "ts": 1791763538000,
+      "pub": "Mon, 12 Oct 2026 09:05:38 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 대만 TSMC가 인공지능(AI) 칩 생산의 핵심 부품인 실리콘 인터포저를 미국에서 조달하기로 했다고 야후파이낸...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/12/AKR20261012020600009_01_i_P2.jpg"
     }
   ]
 }

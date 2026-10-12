@@ -1,6 +1,17 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-10-12T06:42:06.817Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-10-12T16:14:54.270Z",
+  "count": 1,
+  "items": [
+    {
+      "title": "노동부, 현대차에 이수기업 노동자 29명 직접고용 시정지시",
+      "link": "https://www.yna.co.kr/view/AKR20261012155400057",
+      "source": "연합뉴스 경제",
+      "ts": 1791794016000,
+      "pub": "Mon, 12 Oct 2026 17:33:36 +0900",
+      "sentiment": "neutral",
+      "desc": "(울산=연합뉴스) 장지현 기자 = 현대자동차가 사내하청업체 이수기업 소속으로 일했던 노동자 29명을 직접 고용해야 한다는 노동 당국 판단이 나왔...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/05/28/98/PCM20260528000098990_P2.jpg"
+    }
+  ]
 }

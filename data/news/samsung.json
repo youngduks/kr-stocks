@@ -1,15 +1,75 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-12T06:42:06.815Z",
-  "count": 5,
+  "updated_at": "2026-10-12T16:14:54.269Z",
+  "count": 9,
   "items": [
     {
-      "title": "호남 반도체 전력망 1.4조 청구서…삼전닉스가 80% 떠안는다",
-      "link": "https://www.hankyung.com/article/2026101261377",
+      "title": "\"삼전닉스 보유하고도 B급 취급\"…외국인 떠나는 진짜 이유 [분석+]",
+      "link": "https://www.hankyung.com/article/2026101271706",
       "source": "한국경제",
-      "ts": 1791780847000,
-      "pub": "Mon, 12 Oct 2026 13:54:07 +0900",
+      "ts": 1791810001000,
+      "pub": "Mon, 12 Oct 2026 22:00:01 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "中 CXMT, 차세대 D램 기술 진전…\"삼전닉스에 도전\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261012142351089",
+      "source": "연합뉴스 국제",
+      "ts": 1791805771000,
+      "pub": "Mon, 12 Oct 2026 20:49:31 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 중국 반도체 자립의 '첨병'으로 꼽히는 창신메모리(CXMT)가 D램 메모리 기술에서 새로운 진전을 이뤘다며...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/12/AKR20261012142351089_01_i_P2.jpg"
+    },
+    {
+      "title": "中CXMT, 차세대 D램기술 진전…\"삼전닉스에 서버용 메모리 도전\"",
+      "link": "https://www.yna.co.kr/view/AKR20261012142300089",
+      "source": "연합뉴스 국제",
+      "ts": 1791791105000,
+      "pub": "Mon, 12 Oct 2026 16:45:05 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 중국 반도체 자립의 '첨병'으로 꼽히는 창신메모리(CXMT)가 D램 메모리 기술에서 새로운 진전을 이뤘다고...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/12/AKR20261012142300089_01_i_P2.jpg"
+    },
+    {
+      "title": "코스피, 삼전 역대급 실적에도 3.7% 급락…코스닥도 4.8%↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261012129251008",
+      "source": "연합뉴스 경제",
+      "ts": 1791789258000,
+      "pub": "Mon, 12 Oct 2026 16:14:18 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 한글날 연휴에서 돌아온 코스피가 12일 급락세를 보이며 4거래일 연속 내림세를 이어갔다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/12/PYH2026101216920001300_P2.jpg"
+    },
+    {
+      "title": "삼성전자, 외인 매도에 4.4% 급락마감…하이닉스도 4.5%↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261012038751008",
+      "source": "연합뉴스 경제",
+      "ts": 1791788009000,
+      "pub": "Mon, 12 Oct 2026 15:53:29 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 한글날 연휴 이후 첫 거래일인 12일 삼성전자[005930]와 SK하이닉스[000660]가 4% 넘게 급락한 ...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/02/04/84/PCM20260204000084990_P2.jpg"
+    },
+    {
+      "title": "코스피, 삼전 역대급 실적에도 3.7% 급락…코스닥도 4.8%↓",
+      "link": "https://www.yna.co.kr/view/AKR20261012129200008",
+      "source": "연합뉴스 경제",
+      "ts": 1791787212000,
+      "pub": "Mon, 12 Oct 2026 15:40:12 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 12일 한글날 연휴에서 돌아온 코스피는 하락 마감하며 4거래일 연속 내림세를 이어갔다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/12/PYH2026101216780001300_P2.jpg"
+    },
+    {
+      "title": "[속보] 코스피, 삼전 역대급 실적에도 3.7% 급락…코스닥도 4.8%↓",
+      "link": "https://www.yna.co.kr/view/AKR20261012128200008",
+      "source": "연합뉴스 경제",
+      "ts": 1791786847000,
+      "pub": "Mon, 12 Oct 2026 15:34:07 +0900",
+      "sentiment": "negative",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/12/PYH2026101216770001300_P2.jpg"
     },
     {
       "title": "반등 활로 못 찾는 코스피…역대급 삼전 실적에도 오히려 낙폭 확대",
@@ -30,26 +90,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 김유향 기자 = 한글날 연휴에서 돌아온 코스피는 12일 장중 낙폭을 키워 2∼3%대의 급락세를 보이고 있다. 이날까지 4거래일...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/12/PYH2026101202170001300_P2.jpg"
-    },
-    {
-      "title": "삼성전자, 청년SW·AI아카데미 역대 최대규모 모집…AI교육 강화",
-      "link": "https://www.yna.co.kr/view/AKR20261012057400003",
-      "source": "연합뉴스 경제",
-      "ts": 1791767754000,
-      "pub": "Mon, 12 Oct 2026 10:15:54 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 강태우 기자 = 삼성전자는 오는 26일부터 다음 달 9일까지 '삼성청년SW·AI아카데미(SSAFY)' 17기 교육생을 모집한다...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/12/AKR20261012057400003_01_i_P2.jpg"
-    },
-    {
-      "title": "[특징주] SK하이닉스, 장 초반 2.6% 급락…삼전도 0.9%↓",
-      "link": "https://www.yna.co.kr/view/AKR20261012038700008",
-      "source": "연합뉴스 경제",
-      "ts": 1791764805000,
-      "pub": "Mon, 12 Oct 2026 09:26:45 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 한글날 연휴 이후 첫 거래일인 12일 장 초반 삼성전자[005930]와 SK하이닉스[000660]가 동반 약세...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/22/81/PCM20260622000081990_P2.jpg"
     }
   ]
 }

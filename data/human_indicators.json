@@ -7,10 +7,19 @@
       "channel": "전인구경제연구소",
       "channel_url": "https://www.youtube.com/@moneydo",
       "channel_id": "UCznImSIaxZR7fdLCICLdgaQ",
-      "last_checked_video_id": "z1E7W9LEFYQ",
+      "last_checked_video_id": "knp_R4GaF4I",
       "tagline": "\"고점 판독기\" — 나무위키에도 등재된 별명. 2023년 이후 증시 전망이 반대로 맞는 걸로 유명",
       "note": "본인 문서(나무위키)에 \"시장 전망 영상 대부분이 틀리는 걸 넘어 반대로 맞히는 예지력\"이라는 비판이 있고, 댓글창에서 \"고점 판독기\"·\"어둠의 고수\"로 불림. 역발상 참고용으로 소개합니다 — 조롱이 목적이 아니라, 실제로 존재하는 밈이라 재미로 트래킹합니다.",
       "opinions": [
+        {
+          "date": "2026-10-13",
+          "title": "코스피 6000 붕괴, 사이드카가 두달만에 울린 이유",
+          "summary": "코스피가 하루 6% 넘게 급락해 6천이 붕괴된 배경으로 외국인의 지속적 매도, 삼성전자·하이닉스 자사주 매입 종료 임박, 창신메모리의 신형 메모리 발표, 금리 상승과 AI 투자 수익성 의심을 꼽았다. 앞으로 더 내릴지 반등할지는 예측하기 어렵다며, 계단식 하락 시 개인 피해 가능성을 경고하고 수비·중간·공격형으로 포트폴리오를 분산해 리스크를 헤지하라고 조언했다.",
+          "summary_short": "급락 원인 분석, 신중론",
+          "stance": "cautious",
+          "video_url": "https://www.youtube.com/watch?v=1ab1O1erpEw",
+          "published_at": "2026-10-13T03:05:40.000Z"
+        },
         {
           "date": "2026-10-11",
           "title": "잘 생각해보면 남의 일이 아닌 프랑스 혼란(시위, 금리, 정치)",
@@ -91,15 +100,6 @@
           "stance": "bullish",
           "video_url": "https://www.youtube.com/watch?v=NyWr68eJvM0",
           "published_at": "2026-09-21T07:55:03.000Z"
-        },
-        {
-          "date": "2026-09-20",
-          "title": "하이닉스와 인텔이 합작하는 이유(ft.송종호 대표 2부)",
-          "summary": "밸류에이션이 여전히 싸고 AI 사이클과 메모리 시장 펀더멘털이 꺾이지 않았기 때문에 조정 구간은 오히려 주식을 모아가는 시기라고 평가했다. 내년에도 메모리 시장이 약 50% 성장하고 빅테크 투자가 지속되면 삼성전자·하이닉스 주가도 탄력을 받을 것으로 전망했다.",
-          "summary_short": "메모리 저점 매수 긍정적",
-          "stance": "bullish",
-          "video_url": "https://www.youtube.com/watch?v=HEteS2iwVQ8",
-          "published_at": "2026-09-20T10:49:12.000Z"
         }
       ],
       "pending": []

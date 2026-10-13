@@ -1,15 +1,103 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-13T04:18:58.083Z",
-  "count": 15,
+  "updated_at": "2026-10-13T12:16:44.509Z",
+  "count": 12,
   "items": [
     {
-      "title": "\"삼성전자 당분간은…\" 충격 전망에 '반도체 돈잔치' 딜레마",
-      "link": "https://www.hankyung.com/article/202610138492g",
+      "title": "삼전·닉스 급락…中 반도체 굴기에 글로벌 반도체주 '휘청'",
+      "link": "https://www.hankyung.com/article/202610139776i",
       "source": "한국경제",
-      "ts": 1791860863000,
-      "pub": "Tue, 13 Oct 2026 12:07:43 +0900",
+      "ts": 1791886897000,
+      "pub": "Tue, 13 Oct 2026 19:21:37 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "삼성전자, 반도체 협력사 임직원에 커피차",
+      "link": "https://www.hankyung.com/article/2026101396551",
+      "source": "한국경제",
+      "ts": 1791883494000,
+      "pub": "Tue, 13 Oct 2026 18:24:54 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "용인시장, 국토부 장관에 반도체클러스터 교통망 확충 요청",
+      "link": "https://www.yna.co.kr/view/AKR20261013171600061",
+      "source": "연합뉴스 경제",
+      "ts": 1791881123000,
+      "pub": "Tue, 13 Oct 2026 17:45:23 +0900",
+      "sentiment": "neutral",
+      "desc": "(용인=연합뉴스) 김광호 기자 = 경기 용인시는 이상일 시장이 13일 홍지선 국토교통부 장관에게 서한문을 보내 경기남부광역철도 신설과 경강선 연...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/13/AKR20261013171600061_01_i_P2.jpg"
+    },
+    {
+      "title": "사상최대 반도체 실적인데 왜…'검은 화요일' 코스피 추락에 악소리(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261013089251008",
+      "source": "연합뉴스 경제",
+      "ts": 1791877689000,
+      "pub": "Tue, 13 Oct 2026 16:48:09 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 인공지능(AI) 인프라 투자 둔화 우려가 재점화한 가운데 코스피가 불과 5거래일 만에 1천 포인트 가까이 빠지...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/13/PYH2026101317430001300_P2.jpg"
+    },
+    {
+      "title": "日 닛케이지수, 美 반도체주 하락 영향에 1.8% 하락 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261013101051009",
+      "source": "연합뉴스 국제",
+      "ts": 1791875772000,
+      "pub": "Tue, 13 Oct 2026 16:16:12 +0900",
+      "sentiment": "negative",
+      "desc": "(서울·도쿄=연합뉴스) 김병규 기자 이도연 특파원= 미국 반도체주 하락 등의 영향으로 13일 일본 도쿄증시의 닛케이225평균주가(닛케이지수)가 ...",
+      "image": "https://img.yna.co.kr/photo/cms/2020/03/09/83/PCM20200309000183990_P2.jpg"
+    },
+    {
+      "title": "하이닉스, 10% 폭락해 '140만 닉스' 마감…삼전도 7.4%↓(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20261013042152008",
+      "source": "연합뉴스 경제",
+      "ts": 1791874778000,
+      "pub": "Tue, 13 Oct 2026 15:59:38 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 13일 각각 7%와 10%대의 낙폭을 기록한 채 정규장 ...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/02/04/84/PCM20260204000084990_P2.jpg"
+    },
+    {
+      "title": "엔비디아, 화웨이 약진으로 中 점유율 34%로 추락",
+      "link": "https://www.yna.co.kr/view/AKR20261013130600009",
+      "source": "연합뉴스 국제",
+      "ts": 1791872419000,
+      "pub": "Tue, 13 Oct 2026 15:20:19 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이성한 기자 = 미국 정부의 첨단 인공지능(AI) 칩의 중국 수출금지 여파로 엔비디아의 중국 시장 점유율이 34%로 급락했다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/22/PYH2026062215850008300_P2.jpg"
+    },
+    {
+      "title": "IMF, 올해 韓성장률 3.3% 전망·0.7%p↑…\"반도체가 전쟁 상쇄\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261013066051002",
+      "source": "연합뉴스 경제",
+      "ts": 1791872380000,
+      "pub": "Tue, 13 Oct 2026 15:19:40 +0900",
+      "sentiment": "neutral",
+      "desc": "(세종=연합뉴스) 안채원 기자 = 국제통화기금(IMF)이 올해 한국 경제 성장률 전망치를 석 달 새 0.7%포인트(p) 올려 잡았다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/31/PYH2026073103250001300_P2.jpg"
+    },
+    {
+      "title": "[특징주] 하이닉스, 10%대 폭락 '140만닉스'…삼전 8%대↓(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261013042151008",
+      "source": "연합뉴스 경제",
+      "ts": 1791867452000,
+      "pub": "Tue, 13 Oct 2026 13:57:32 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 13일 개장후 낙폭을 지속적으로 확대해 각각 8%와 10...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/02/04/84/PCM20260204000084990_P2.jpg"
+    },
+    {
+      "title": "日 닛케이지수 2.14% ↓…\"美 반도체주 하락 영향\"",
+      "link": "https://www.yna.co.kr/view/AKR20261013101000009",
+      "source": "연합뉴스 국제",
+      "ts": 1791865553000,
+      "pub": "Tue, 13 Oct 2026 13:25:53 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김병규 기자 = 미국 반도체주 하락 등의 영향으로 13일 일본 도쿄증시의 닛케이225평균주가(닛케이지수)가 이날 오후 1시 1...",
+      "image": "https://img.yna.co.kr/photo/cms/2020/03/09/83/PCM20200309000183990_P2.jpg"
     },
     {
       "title": "부트캠프 학생들, 서울 코엑스서 반도체·미래차 산업현장 경험",
@@ -22,98 +110,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/13/AKR20261013050000530_01_i_P2.jpg"
     },
     {
-      "title": "코스피 급락에 초고수 '반도체' 팔자 행렬…자금 옮겨간 곳은?",
-      "link": "https://www.hankyung.com/article/202610138312i",
-      "source": "한국경제",
-      "ts": 1791858871000,
-      "pub": "Tue, 13 Oct 2026 11:34:31 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "IMF, 올해 韓성장률 3.3% 전망·0.7%p↑…\"반도체가 전쟁 상쇄\"",
-      "link": "https://www.yna.co.kr/view/AKR20261013066000002",
-      "source": "연합뉴스 경제",
-      "ts": 1791856802000,
-      "pub": "Tue, 13 Oct 2026 11:00:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 안채원 기자 = 국제통화기금(IMF)이 올해 한국 경제 성장률 전망치를 석 달 새 0.7%포인트(p) 올려 잡았다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/31/PYH2026073103250001300_P2.jpg"
-    },
-    {
-      "title": "삼성·SK, 글로벌 장비 1위 어플라이드머티리얼즈와 손잡고 AI반도체 공정 확 당긴다",
-      "link": "https://www.hankyung.com/article/202610138056i",
-      "source": "한국경제",
-      "ts": 1791856773000,
-      "pub": "Tue, 13 Oct 2026 10:59:33 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "'반도체, 여기까지 쫓아왔나'…中 공세에 삼전닉스 '초비상' [분석+]",
-      "link": "https://www.hankyung.com/article/2026101383026",
-      "source": "한국경제",
-      "ts": 1791856662000,
-      "pub": "Tue, 13 Oct 2026 10:57:42 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "키움운용, '삼성전자&SK하이닉스채권혼합50' 이달 분배금 146원",
-      "link": "https://www.yna.co.kr/view/AKR20261013068700008",
-      "source": "연합뉴스 경제",
-      "ts": 1791855238000,
-      "pub": "Tue, 13 Oct 2026 10:33:58 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 고은지 기자 = 키움투자자산운용은 'KIWOOM 삼성전자&amp;SK하이닉스채권혼합50' 상장지수펀드(ETF) 10월 월중 분...",
-      "image": "https://img.yna.co.kr/photo/cms/2025/07/18/81/PCM20250718000081990_P2.jpg"
-    },
-    {
-      "title": "1% 초고수들, 주가 4% 빠지자 줍줍… '반도체 불패 신화'에 베팅",
-      "link": "https://www.hankyung.com/article/202610137859i",
-      "source": "한국경제",
-      "ts": 1791853319000,
-      "pub": "Tue, 13 Oct 2026 10:01:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "세계 최대 반도체 R&D 공동 거점 '에픽센터'에 삼성·SK 참여",
-      "link": "https://www.yna.co.kr/view/AKR20261013052800003",
-      "source": "연합뉴스 경제",
-      "ts": 1791852735000,
-      "pub": "Tue, 13 Oct 2026 09:52:15 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 강태우 기자 = 글로벌 반도체 장비업체 어플라이드 머티어리얼즈(AMAT)는 12일(현지시간) 미국 캘리포니아주 서니베일에서 삼...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/13/AKR20261013052800003_01_i_P2.jpg"
-    },
-    {
-      "title": "메모리값 상승에 저가폰 직격탄…2030년 출하량 40% 급감 전망",
-      "link": "https://www.yna.co.kr/view/AKR20261013050100017",
-      "source": "연합뉴스 경제",
-      "ts": 1791852513000,
-      "pub": "Tue, 13 Oct 2026 09:48:33 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 박형빈 기자 = 메모리 반도체 가격 상승으로 제조 원가 부담이 커지면서 2030년까지 글로벌 저가 스마트폰 출하량이 2억3천만...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/13/AKR20261013050100017_01_i_P2.jpg"
-    },
-    {
-      "title": "\"강원 반도체 기술력 한눈에\"…도내 기업 3곳, 서울 코엑스 출격",
-      "link": "https://www.yna.co.kr/view/AKR20261013034400062",
-      "source": "연합뉴스 경제",
-      "ts": 1791850144000,
-      "pub": "Tue, 13 Oct 2026 09:09:04 +0900",
-      "sentiment": "neutral",
-      "desc": "(춘천=연합뉴스) 이재현 기자 = 강원특별자치도가 국내 최대 규모의 반도체 전문 전시회에 참가해 도내 기업의 기술력을 알리고 투자유치에 나선다....",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/13/AKR20261013034400062_01_i_P2.jpg"
-    },
-    {
-      "title": "[마켓뷰] 美반도체 약세에 추가 하락? 반발매수?…코스피 향배는",
-      "link": "https://www.yna.co.kr/view/AKR20261013022900008",
-      "source": "연합뉴스 경제",
-      "ts": 1791846695000,
-      "pub": "Tue, 13 Oct 2026 08:11:35 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 곽윤아 기자 = 전날 급락한 코스피가 13일 낙폭 과대 인식에 따른 반발 매수세에 반등을 시도할지 주목된다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/12/PYH2026101217180001300_P2.jpg"
-    },
-    {
       "title": "삼성전자, 새 메모리 전략 공개…속도·확장성·영속성 초점",
       "link": "https://www.yna.co.kr/view/AKR20261013015800091",
       "source": "연합뉴스 국제",
@@ -122,26 +118,6 @@
       "sentiment": "neutral",
       "desc": "(새너제이=연합뉴스) 권영전 특파원 = 삼성전자가 미국 실리콘밸리에서 열린 글로벌 정보기술(IT) 인프라 행사에서 속도와 확장성, 영속성에 초점...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/13/AKR20261013015800091_02_i_P2.jpg"
-    },
-    {
-      "title": "유가 상승·반도체 약세 속 뉴욕증시 혼조…다우 홀로 상승(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261013007451072",
-      "source": "연합뉴스 국제",
-      "ts": 1791839760000,
-      "pub": "Tue, 13 Oct 2026 06:16:00 +0900",
-      "sentiment": "negative",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 12일(현지시간) 미국 뉴욕증시 3대 지수가 혼조세로 마감했다.",
-      "image": "https://img.yna.co.kr/photo/etc/up/2026/10/13/PUP20261013000401009_P2.jpg"
-    },
-    {
-      "title": "유가 상승·반도체 약세 속 뉴욕증시 혼조…다우 홀로 상승",
-      "link": "https://www.yna.co.kr/view/AKR20261013007400072",
-      "source": "연합뉴스 국제",
-      "ts": 1791836615000,
-      "pub": "Tue, 13 Oct 2026 05:23:35 +0900",
-      "sentiment": "negative",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 12일(현지시간) 미국 뉴욕증시 3대 지수가 혼조세로 마감했다.",
-      "image": "https://img.yna.co.kr/photo/etc/up/2026/10/13/PUP20261013000401009_P2.jpg"
     }
   ]
 }

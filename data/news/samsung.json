@@ -1,31 +1,33 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-13T12:16:44.509Z",
-  "count": 8,
+  "updated_at": "2026-10-13T19:36:30.767Z",
+  "count": 7,
   "items": [
     {
-      "title": "삼전·닉스 급락…中 반도체 굴기에 글로벌 반도체주 '휘청'",
+      "title": "삼성전자 'S·M·P' 3색 카드 꺼냈다",
+      "link": "https://www.mt.co.kr/industry/2026/10/14/2026101319525039507",
+      "source": "머니투데이",
+      "ts": 1791917400000,
+      "pub": "Wed, 14 Oct 2026 03:50:00 +0900",
+      "sentiment": "neutral",
+      "desc": "美 OCP 글로벌서밋서 HBM·CXLSSD 등 차세대 기술 공개 '속도·확장성·영속성' 3대 전략방향 제시… AMD와 공동 시연 등 빅테크와 협업 소개도 삼성전자가 미국 실리콘밸리에서 HBM5(8세대 고대역폭메모리) 등 차세대 메모리 기술과 글로벌 테크기업과의 협업성과",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026101319525039507_1.jpg"
+    },
+    {
+      "title": "\"이번엔 심상치 않다는데\"…삼전닉스 개미들 '파랗게' 질렸다 [분석+]",
+      "link": "https://www.hankyung.com/article/2026101396276",
+      "source": "한국경제",
+      "ts": 1791896401000,
+      "pub": "Tue, 13 Oct 2026 22:00:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'삼전닉스' 급락…中 반도체 굴기에 글로벌 반도체주 '휘청'",
       "link": "https://www.hankyung.com/article/202610139776i",
       "source": "한국경제",
       "ts": 1791886897000,
       "pub": "Tue, 13 Oct 2026 19:21:37 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "삼성전자, 반도체 협력사 임직원에 커피차",
-      "link": "https://www.hankyung.com/article/2026101396551",
-      "source": "한국경제",
-      "ts": 1791883494000,
-      "pub": "Tue, 13 Oct 2026 18:24:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 차세대 AI 인프라 공략 강화",
-      "link": "https://www.hankyung.com/article/2026101394841",
-      "source": "한국경제",
-      "ts": 1791882581000,
-      "pub": "Tue, 13 Oct 2026 18:09:41 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "하이닉스, 10% 폭락해 '140만 닉스' 마감…삼전도 7.4%↓(종합2보)",
@@ -66,16 +68,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 김유향 기자 = 코스피가 13일 6%대의 급락세를 보이며 크게 출렁이고 있다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/13/PYH2026101310790001300_P2.jpg"
-    },
-    {
-      "title": "삼성전자, 새 메모리 전략 공개…속도·확장성·영속성 초점",
-      "link": "https://www.yna.co.kr/view/AKR20261013015800091",
-      "source": "연합뉴스 국제",
-      "ts": 1791845505000,
-      "pub": "Tue, 13 Oct 2026 07:51:45 +0900",
-      "sentiment": "neutral",
-      "desc": "(새너제이=연합뉴스) 권영전 특파원 = 삼성전자가 미국 실리콘밸리에서 열린 글로벌 정보기술(IT) 인프라 행사에서 속도와 확장성, 영속성에 초점...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/13/AKR20261013015800091_02_i_P2.jpg"
     }
   ]
 }

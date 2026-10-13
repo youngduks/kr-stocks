@@ -1,23 +1,15 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-13T12:16:44.509Z",
-  "count": 12,
+  "updated_at": "2026-10-13T19:36:30.768Z",
+  "count": 10,
   "items": [
     {
-      "title": "삼전·닉스 급락…中 반도체 굴기에 글로벌 반도체주 '휘청'",
+      "title": "'삼전닉스' 급락…中 반도체 굴기에 글로벌 반도체주 '휘청'",
       "link": "https://www.hankyung.com/article/202610139776i",
       "source": "한국경제",
       "ts": 1791886897000,
       "pub": "Tue, 13 Oct 2026 19:21:37 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "삼성전자, 반도체 협력사 임직원에 커피차",
-      "link": "https://www.hankyung.com/article/2026101396551",
-      "source": "한국경제",
-      "ts": 1791883494000,
-      "pub": "Tue, 13 Oct 2026 18:24:54 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "용인시장, 국토부 장관에 반도체클러스터 교통망 확충 요청",
@@ -108,16 +100,6 @@
       "sentiment": "neutral",
       "desc": "(세종=연합뉴스) 고상민 기자 = 교육부와 한국산업기술진흥원은 14일부터 16일까지 서울 코엑스에서 '2026년 반도체·미래차 분야 첨단산업 인...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/13/AKR20261013050000530_01_i_P2.jpg"
-    },
-    {
-      "title": "삼성전자, 새 메모리 전략 공개…속도·확장성·영속성 초점",
-      "link": "https://www.yna.co.kr/view/AKR20261013015800091",
-      "source": "연합뉴스 국제",
-      "ts": 1791845505000,
-      "pub": "Tue, 13 Oct 2026 07:51:45 +0900",
-      "sentiment": "neutral",
-      "desc": "(새너제이=연합뉴스) 권영전 특파원 = 삼성전자가 미국 실리콘밸리에서 열린 글로벌 정보기술(IT) 인프라 행사에서 속도와 확장성, 영속성에 초점...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/13/AKR20261013015800091_02_i_P2.jpg"
     }
   ]
 }

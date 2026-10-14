@@ -1,8 +1,38 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-14T14:07:58.213Z",
-  "count": 8,
+  "updated_at": "2026-10-14T19:00:49.348Z",
+  "count": 9,
   "items": [
+    {
+      "title": "\"더 잘하겠습니다\"… K반도체 '양강' 출동",
+      "link": "https://www.mt.co.kr/industry/2026/10/15/2026101419572561050",
+      "source": "머니투데이",
+      "ts": 1792004280000,
+      "pub": "Thu, 15 Oct 2026 03:58:00 +0900",
+      "sentiment": "neutral",
+      "desc": "SEDEX 2026 삼성전자·SK하이닉스 참가 HBM 비롯 차세대 제품 전시 \"저희가 더 잘하겠습니다.\" 14일 서울 강남구 코엑스에서 열린 '제28회 반도체대전(SEDEX 2026)'에서 송재혁 한국반도체산업협회장 겸 삼성전자 DS(디바이스솔루션)부문 사장이 한 말이",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026101419572561050_1.jpg"
+    },
+    {
+      "title": "트럼프 \"뉴욕주에 반도체 공장 2곳 신설\"…日 210억달러 투자",
+      "link": "https://www.mt.co.kr/world/2026/10/15/2026101501535178931",
+      "source": "머니투데이",
+      "ts": 1791997989000,
+      "pub": "Thu, 15 Oct 2026 02:13:09 +0900",
+      "sentiment": "neutral",
+      "desc": "글로벌파운드리 위탁 운영… 미 상무부, 지분 획득 통한 '수익형 보조금' 모델 강조 도널드 트럼프 미국 대통령이 뉴욕주에 210억 달러(약 28조원) 규모의 반도체 공장 2곳을 신규 건설한다고 발표했다. 투자금은 일본이 조달하고 미국 반도체 위탁생산(파운드리) 기업인 ",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026101501535178931_1.jpg"
+    },
+    {
+      "title": "[속보] 트럼프 \"뉴욕주에 반도체 공장 2개 건설…日, 210억불 투자\"",
+      "link": "https://www.yna.co.kr/view/AKR20261015001500071",
+      "source": "연합뉴스 국제",
+      "ts": 1791996346000,
+      "pub": "Thu, 15 Oct 2026 01:45:46 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
+    },
     {
       "title": "\"메모리 공급부족 곧 끝나?\"…JP모건 \"2028년까지도 부족\"",
       "link": "https://www.hankyung.com/article/202610142408i",
@@ -17,22 +47,6 @@
       "source": "한국경제",
       "ts": 1791971068000,
       "pub": "Wed, 14 Oct 2026 18:44:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "최태원, 앤디 김 상원의원과 회동…'반도체 美 생산 압박' 해법 찾나",
-      "link": "https://www.hankyung.com/article/2026101422681",
-      "source": "한국경제",
-      "ts": 1791969996000,
-      "pub": "Wed, 14 Oct 2026 18:26:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하이닉스 \"AI 병목 깰 HBF, 내년 1월 규격 마련\"",
-      "link": "https://www.hankyung.com/article/2026101422761",
-      "source": "한국경제",
-      "ts": 1791969928000,
-      "pub": "Wed, 14 Oct 2026 18:25:28 +0900",
       "sentiment": "neutral"
     },
     {

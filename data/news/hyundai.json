@@ -1,8 +1,46 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-10-14T02:29:54.321Z",
-  "count": 2,
+  "updated_at": "2026-10-14T08:06:39.216Z",
+  "count": 5,
   "items": [
+    {
+      "title": "'제2도약' 현대차 푸네에 신공장…인도서 연간 100만대 생산체제",
+      "link": "https://www.yna.co.kr/view/AKR20261014005700003",
+      "source": "연합뉴스 경제",
+      "ts": 1791964803000,
+      "pub": "Wed, 14 Oct 2026 17:00:03 +0900",
+      "sentiment": "neutral",
+      "desc": "(푸네[인도]=연합뉴스) 장하나 기자 = 현대차가 인도 진출 30주년을 맞아 미래 성장을 위한 교두보로 새로운 현지 생산 거점을 확보하고 '제2...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/14/AKR20261014005700003_05_i_P2.jpg"
+    },
+    {
+      "title": "주러대사 \"현대차·기아, 러시아 시장 재진출 모색\"",
+      "link": "https://www.yna.co.kr/view/AKR20261014156200108",
+      "source": "연합뉴스 국제",
+      "ts": 1791964803000,
+      "pub": "Wed, 14 Oct 2026 17:00:03 +0900",
+      "sentiment": "neutral",
+      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 이석배 주러시아 한국대사가 현대차·기아가 러시아 시장 재진출을 검토하고 있다고 언급했다고 일간 이즈베스티...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2022/03/16/PEP20220316201001009_P2.jpg"
+    },
+    {
+      "title": "인도서 21조 투자하는 현대차그룹…국내 부품사 기회도 커질 듯",
+      "link": "https://www.yna.co.kr/view/AKR20261014134900003",
+      "source": "연합뉴스 경제",
+      "ts": 1791964802000,
+      "pub": "Wed, 14 Oct 2026 17:00:02 +0900",
+      "sentiment": "neutral",
+      "desc": "(푸네[인도]=연합뉴스) 장하나 기자 = 현대차그룹이 세계 3위 자동차 시장인 인도에 새로운 생산 거점을 확보한 데 이어 오는 2032년까지 2...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/14/AKR20261014134900003_01_i_P2.jpg"
+    },
+    {
+      "title": "현대차 주가 뚝 떨어졌는데…한온시스템 '나홀로 질주' 왜",
+      "link": "https://www.hankyung.com/article/202610141674i",
+      "source": "한국경제",
+      "ts": 1791960396000,
+      "pub": "Wed, 14 Oct 2026 15:46:36 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "모디 총리 만난 정의선 \"향후 7년간 인도에 155억달러 투자\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20261014000551104",
@@ -11,16 +49,6 @@
       "pub": "Wed, 14 Oct 2026 07:00:01 +0900",
       "sentiment": "neutral",
       "desc": "(뉴델리·자카르타=연합뉴스) 장하나 기자 손현규 특파원 = 현대차그룹이 미래 성장의 핵심 축인 인도에 오는 2032년까지 20조원 넘게 투자해 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/14/PYH2026101400810000301_P2.jpg"
-    },
-    {
-      "title": "현대차, 2032년까지 인도서 20조8천억원 투자…전담법인 설립",
-      "link": "https://www.yna.co.kr/view/AKR20261014000500104",
-      "source": "연합뉴스 국제",
-      "ts": 1791905468000,
-      "pub": "Wed, 14 Oct 2026 00:31:08 +0900",
-      "sentiment": "neutral",
-      "desc": "(자카르타=연합뉴스) 손현규 특파원 = 현대자동차그룹이 2032년까지 20조원 넘게 투자해 인도에서 차량 생산 시설을 늘리고 연구개발(R&amp...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/14/PYH2026101400810000301_P2.jpg"
     }
   ]

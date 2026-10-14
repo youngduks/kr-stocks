@@ -1,8 +1,36 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-14T02:29:54.318Z",
-  "count": 7,
+  "updated_at": "2026-10-14T08:06:39.215Z",
+  "count": 4,
   "items": [
+    {
+      "title": "삼전닉스 흔든 CXMT 차세대 D램 기술…삼성전자도 \"개발 중\"",
+      "link": "https://www.hankyung.com/article/2026101417757",
+      "source": "한국경제",
+      "ts": 1791960920000,
+      "pub": "Wed, 14 Oct 2026 15:55:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "기후부, 삼성전자·LG전자 모듈러 주택과 K-GX 연계 모색(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261014085151003",
+      "source": "연합뉴스 경제",
+      "ts": 1791960035000,
+      "pub": "Wed, 14 Oct 2026 15:40:35 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 조성흠 기자 = 김성환 기후에너지환경부 장관이 삼성전자와 LG전자의 모듈려 주택 현장을 연이어 방문하며 한국형 녹색전환(K-G...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/14/AKR20261014085151003_01_i_P2.jpg"
+    },
+    {
+      "title": "삼성전자, 기후부 장관에 고효율·저탄소 주거 솔루션 제시",
+      "link": "https://www.yna.co.kr/view/AKR20261014085100003",
+      "source": "연합뉴스 경제",
+      "ts": 1791945073000,
+      "pub": "Wed, 14 Oct 2026 11:31:13 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 조성흠 기자 = 삼성전자는 14일 김성환 기후에너지환경부 장관에게 히트펌프 방식의 냉난방 솔루션과 인공지능(AI) 기반 에너지...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/14/AKR20261014085100003_01_i_P2.jpg"
+    },
     {
       "title": "삼전닉스 주가 뒤흔든 중국 CXMT…실질적 위협 단계까지 왔나",
       "link": "https://www.yna.co.kr/view/AKR20261014076400003",
@@ -12,58 +40,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 박초롱 임성호 김민지 기자 = 중국 최대 반도체 기업인 창신메모리테크놀로지(CXMT)가 차세대 서버용 D램 출시를 예고하며 삼...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/10/PYH2026081000380008900_P2.jpg"
-    },
-    {
-      "title": "HBM4E부터 용인 산단까지…삼성, AI 반도체 청사진 공개",
-      "link": "https://www.hankyung.com/article/202610140735g",
-      "source": "한국경제",
-      "ts": 1791939875000,
-      "pub": "Wed, 14 Oct 2026 10:04:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "광주은행·갤럭시아머니트리, 디지털자산 무역송금 MOU",
-      "link": "https://www.yna.co.kr/view/AKR20261014055900054",
-      "source": "연합뉴스 경제",
-      "ts": 1791939581000,
-      "pub": "Wed, 14 Oct 2026 09:59:41 +0900",
-      "sentiment": "neutral",
-      "desc": "(전남광주=연합뉴스) 전승현 기자 = 광주은행은 갤럭시아머니트리와 서울 갤러시아머니트리 본사에서 디지털자산 기반 무역송금 분야의 협력을 위한 업...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/14/AKR20261014055900054_01_i_P2.jpg"
-    },
-    {
-      "title": "삼전닉스, 급락 딛고 반등…삼성전자 3%·하이닉스 2%대 상승",
-      "link": "https://www.hankyung.com/article/2026101407036",
-      "source": "한국경제",
-      "ts": 1791939240000,
-      "pub": "Wed, 14 Oct 2026 09:54:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[특징주] 삼전·닉스, 전날 급락 딛고 장초반 2∼3%대 상승",
-      "link": "https://www.yna.co.kr/view/AKR20261014041200008",
-      "source": "연합뉴스 경제",
-      "ts": 1791937226000,
-      "pub": "Wed, 14 Oct 2026 09:20:26 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 연일 급락의 충격에서 벗어나 14일 장 초반 2∼3%대의...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/24/43/PCM20260624000043990_P2.jpg"
-    },
-    {
-      "title": "코스피, 상승 출발해 6100선 회복…삼전닉스 동반 강세",
-      "link": "https://www.hankyung.com/article/2026101403456",
-      "source": "한국경제",
-      "ts": 1791936746000,
-      "pub": "Wed, 14 Oct 2026 09:12:26 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "투자원금 1000만원 초고수…급락한 삼성전자 담았다",
-      "link": "https://www.hankyung.com/article/202610140188i",
-      "source": "한국경제",
-      "ts": 1791936017000,
-      "pub": "Wed, 14 Oct 2026 09:00:17 +0900",
-      "sentiment": "negative"
     }
   ]
 }

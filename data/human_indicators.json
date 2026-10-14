@@ -7,10 +7,19 @@
       "channel": "전인구경제연구소",
       "channel_url": "https://www.youtube.com/@moneydo",
       "channel_id": "UCznImSIaxZR7fdLCICLdgaQ",
-      "last_checked_video_id": "knp_R4GaF4I",
+      "last_checked_video_id": "kDzWAZTeoTk",
       "tagline": "\"고점 판독기\" — 나무위키에도 등재된 별명. 2023년 이후 증시 전망이 반대로 맞는 걸로 유명",
       "note": "본인 문서(나무위키)에 \"시장 전망 영상 대부분이 틀리는 걸 넘어 반대로 맞히는 예지력\"이라는 비판이 있고, 댓글창에서 \"고점 판독기\"·\"어둠의 고수\"로 불림. 역발상 참고용으로 소개합니다 — 조롱이 목적이 아니라, 실제로 존재하는 밈이라 재미로 트래킹합니다.",
       "opinions": [
+        {
+          "date": "2026-10-14",
+          "title": "반등에 실패한 코스피 진짜 문제는 자사주 종료가 아니다",
+          "summary": "코스피가 6거래일 연속 하락하며 약 1,000포인트 빠졌고, 외국인의 대규모 순매도와 자사주 매입 감소(주당 6조→3조)로 반등에 실패했다고 진단한다. 미국 증시와 AI 투자 흐름에 따라 메모리 중심의 한국 증시 변동성이 더 커질 수 있다며, 분할 매도 등 리스크를 줄이는 접근을 시사한다.",
+          "summary_short": "외국인 매도에 반등 실패",
+          "stance": "cautious",
+          "video_url": "https://www.youtube.com/watch?v=3pAgtfybuQY",
+          "published_at": "2026-10-14T09:13:52.000Z"
+        },
         {
           "date": "2026-10-13",
           "title": "코스피 6000 붕괴, 사이드카가 두달만에 울린 이유",
@@ -91,15 +100,6 @@
           "stance": "bullish",
           "video_url": "https://www.youtube.com/watch?v=0Xzg877Z8BM",
           "published_at": "2026-09-21T11:19:25.000Z"
-        },
-        {
-          "date": "2026-09-21",
-          "title": "AI 속도조절론? 오히려 반도체는 더 필요합니다(ft.김장열 센터장 1부)",
-          "summary": "연준의 금리 인상과 AI 속도조절론은 시장이 이미 예상한 수준이며 AI 반도체 수요는 줄지 않고 오히려 추론·모니터링 영역 확대로 더 늘어날 것으로 본다. 펀더멘털은 견고하며 현재 주가 부진은 거시(금리) 요인일 뿐 AI 성장 기대는 무너지지 않았다고 평가한다.",
-          "summary_short": "반도체 수요 견조, 긍정적",
-          "stance": "bullish",
-          "video_url": "https://www.youtube.com/watch?v=NyWr68eJvM0",
-          "published_at": "2026-09-21T07:55:03.000Z"
         }
       ],
       "pending": []

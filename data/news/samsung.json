@@ -1,14 +1,22 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-14T08:06:39.215Z",
-  "count": 4,
+  "updated_at": "2026-10-14T14:07:58.213Z",
+  "count": 5,
   "items": [
     {
-      "title": "삼전닉스 흔든 CXMT 차세대 D램 기술…삼성전자도 \"개발 중\"",
-      "link": "https://www.hankyung.com/article/2026101417757",
+      "title": "\"메모리 공급부족 곧 끝나?\"…JP모건 \"2028년까지도 부족\"",
+      "link": "https://www.hankyung.com/article/202610142408i",
       "source": "한국경제",
-      "ts": 1791960920000,
-      "pub": "Wed, 14 Oct 2026 15:55:20 +0900",
+      "ts": 1791976148000,
+      "pub": "Wed, 14 Oct 2026 20:09:08 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "이재용 日 체류 중 삼성 경영진 총출동…\"매우 이례적\" 술렁",
+      "link": "https://www.hankyung.com/article/2026101422711",
+      "source": "한국경제",
+      "ts": 1791970067000,
+      "pub": "Wed, 14 Oct 2026 18:27:47 +0900",
       "sentiment": "neutral"
     },
     {
@@ -18,7 +26,7 @@
       "ts": 1791960035000,
       "pub": "Wed, 14 Oct 2026 15:40:35 +0900",
       "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 조성흠 기자 = 김성환 기후에너지환경부 장관이 삼성전자와 LG전자의 모듈려 주택 현장을 연이어 방문하며 한국형 녹색전환(K-G...",
+      "desc": "(서울=연합뉴스) 조성흠 기자 = 김성환 기후에너지환경부 장관이 삼성전자와 LG전자의 모듈러 주택 현장을 연이어 방문하며 한국형 녹색전환(K-G...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/14/AKR20261014085151003_01_i_P2.jpg"
     },
     {

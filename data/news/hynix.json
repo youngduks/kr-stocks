@@ -1,22 +1,38 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-14T08:06:39.215Z",
-  "count": 9,
+  "updated_at": "2026-10-14T14:07:58.213Z",
+  "count": 8,
   "items": [
     {
-      "title": "반도체 소부장·전력 인프라·로봇株…'천스닥' 기대 이어간다",
-      "link": "https://www.hankyung.com/article/2026101405581",
+      "title": "\"메모리 공급부족 곧 끝나?\"…JP모건 \"2028년까지도 부족\"",
+      "link": "https://www.hankyung.com/article/202610142408i",
       "source": "한국경제",
-      "ts": 1791962153000,
-      "pub": "Wed, 14 Oct 2026 16:15:53 +0900",
+      "ts": 1791976148000,
+      "pub": "Wed, 14 Oct 2026 20:09:08 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "몸 갖기 시작한 AI…이젠 반도체가 소비재",
-      "link": "https://www.hankyung.com/article/2026101405601",
+      "title": "[포토] 반도체 대전 2026",
+      "link": "https://www.hankyung.com/article/202610142349i",
       "source": "한국경제",
-      "ts": 1791962003000,
-      "pub": "Wed, 14 Oct 2026 16:13:23 +0900",
+      "ts": 1791971068000,
+      "pub": "Wed, 14 Oct 2026 18:44:28 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "최태원, 앤디 김 상원의원과 회동…'반도체 美 생산 압박' 해법 찾나",
+      "link": "https://www.hankyung.com/article/2026101422681",
+      "source": "한국경제",
+      "ts": 1791969996000,
+      "pub": "Wed, 14 Oct 2026 18:26:36 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 \"AI 병목 깰 HBF, 내년 1월 규격 마련\"",
+      "link": "https://www.hankyung.com/article/2026101422761",
+      "source": "한국경제",
+      "ts": 1791969928000,
+      "pub": "Wed, 14 Oct 2026 18:25:28 +0900",
       "sentiment": "neutral"
     },
     {
@@ -28,14 +44,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 황철환 기자 = SK하이닉스[000660]가 14일 2% 가까이 내리며 6거래일 연속 하락한 채 정규장 거래를 종료했다.",
       "image": "https://img.yna.co.kr/photo/cms/2026/02/04/84/PCM20260204000084990_P2.jpg"
-    },
-    {
-      "title": "삼전닉스 흔든 CXMT 차세대 D램 기술…삼성전자도 \"개발 중\"",
-      "link": "https://www.hankyung.com/article/2026101417757",
-      "source": "한국경제",
-      "ts": 1791960920000,
-      "pub": "Wed, 14 Oct 2026 15:55:20 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "반도체산단 입지 용인 처인지역 '사통팔달' 도로망 구축 잰걸음",
@@ -66,26 +74,6 @@
       "sentiment": "neutral",
       "desc": "(대전=연합뉴스) 김준호 기자 = 지식재산처와 대전지방공소청은 반도체 검사 핵심기술을 빼돌려 해외 생산에 사용한 혐의(부정경쟁방지법위반 및 산업...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/14/AKR20261014072900063_02_i_P2.jpg"
-    },
-    {
-      "title": "뉴욕증시, 기대 못채운 美은행 실적·반도체 약세에 일제히 하락(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261014006851072",
-      "source": "연합뉴스 국제",
-      "ts": 1791929141000,
-      "pub": "Wed, 14 Oct 2026 07:05:41 +0900",
-      "sentiment": "negative",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 13일(현지시간) 미국 뉴욕증시 3대 지수가 일제히 하락했다.",
-      "image": "https://img.yna.co.kr/photo/etc/up/2026/10/13/PUP20261013000401009_P2.jpg"
-    },
-    {
-      "title": "뉴욕증시, 美은행 실적 혼조·반도체 약세에 일제히 하락",
-      "link": "https://www.yna.co.kr/view/AKR20261014006800072",
-      "source": "연합뉴스 국제",
-      "ts": 1791923333000,
-      "pub": "Wed, 14 Oct 2026 05:28:53 +0900",
-      "sentiment": "negative",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 13일(현지시간) 미국 뉴욕증시 3대 지수가 일제히 하락했다.",
-      "image": "https://img.yna.co.kr/photo/etc/up/2026/10/13/PUP20261013000401009_P2.jpg"
     }
   ]
 }

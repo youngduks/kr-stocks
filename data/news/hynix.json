@@ -1,8 +1,76 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-15T01:02:51.792Z",
-  "count": 18,
+  "updated_at": "2026-10-15T06:38:44.755Z",
+  "count": 15,
   "items": [
+    {
+      "title": "TSMC, 3분기 순이익 68.7% 늘어…6분기 연속 신기록",
+      "link": "https://www.yna.co.kr/view/AKR20261015124300089",
+      "source": "연합뉴스 국제",
+      "ts": 1792044302000,
+      "pub": "Thu, 15 Oct 2026 15:05:02 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 세계 최대 파운드리(반도체 위탁생산) 업체인 대만 TSMC가 인공지능(AI) 붐에 힘입어 올해 3분기에 사...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/04/16/PEP20260416144501009_P2.jpg"
+    },
+    {
+      "title": "\"반도체에 올인했다가 반토막\"…ETF 줄줄이 곤두박질",
+      "link": "https://www.hankyung.com/article/202610153972i",
+      "source": "한국경제",
+      "ts": 1792041960000,
+      "pub": "Thu, 15 Oct 2026 14:26:00 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "로이터 \"SK하이닉스, 美공장 조건으로 中다롄 장비 반입 요청\"",
+      "link": "https://www.yna.co.kr/view/AKR20261015103600009",
+      "source": "연합뉴스 국제",
+      "ts": 1792039665000,
+      "pub": "Thu, 15 Oct 2026 13:47:45 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = SK하이닉스가 미국에 공장을 짓는 조건으로 중국 다롄 공장의 생산 확대를 위한 미국산 반도체 장비 반입 허가를...",
+      "image": "https://img.yna.co.kr/photo/ap/2022/10/26/PAP20221026159701009_P2.jpg"
+    },
+    {
+      "title": "\"'日투자' 美뉴욕 공장서 통신·자동차용 로직 반도체 생산\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261015028551073",
+      "source": "연합뉴스 국제",
+      "ts": 1792038866000,
+      "pub": "Thu, 15 Oct 2026 13:34:26 +0900",
+      "sentiment": "neutral",
+      "desc": "(도쿄=연합뉴스) 조성미 특파원 = 일본 정부가 도널드 트럼프 미국 대통령이 14일(현지시간) 일본의 새 대미 투자 대상으로 발표한 뉴욕 반도체...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/14/PRU20261014202401009_P2.jpg"
+    },
+    {
+      "title": "中지방정부 \"반도체는 국가안보 전략적 산업…CXMT 전폭 지지\"",
+      "link": "https://www.yna.co.kr/view/AKR20261015093400089",
+      "source": "연합뉴스 국제",
+      "ts": 1792035457000,
+      "pub": "Thu, 15 Oct 2026 12:37:37 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 반도체 산업 주도권을 둘러싼 경쟁 격화 속에, 중국 공업정보화부장(장관) 출신인 리러청 안후이성 신임 당서...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/15/AKR20261015093400089_01_i_P2.jpg"
+    },
+    {
+      "title": "日닛케이지수, 4% 가까이 하락…美물가 충격·반도체 약세 여파",
+      "link": "https://www.yna.co.kr/view/AKR20261015063600073",
+      "source": "연합뉴스 국제",
+      "ts": 1792027687000,
+      "pub": "Thu, 15 Oct 2026 10:28:07 +0900",
+      "sentiment": "negative",
+      "desc": "(도쿄=연합뉴스) 조성미 특파원 = 미국 반도체주 하락과 유가 상승 등 여파로 15일 일본 도쿄증시의 닛케이225평균주가(닛케이지수)가 전날 종...",
+      "image": "https://img.yna.co.kr/photo/cms/2020/03/09/83/PCM20200309000183990_P2.jpg"
+    },
+    {
+      "title": "반도체 호황에 1∼8월 나라살림 적자 43조원…8년 만에 최소",
+      "link": "https://www.yna.co.kr/view/AKR20261015048200002",
+      "source": "연합뉴스 경제",
+      "ts": 1792026001000,
+      "pub": "Thu, 15 Oct 2026 10:00:01 +0900",
+      "sentiment": "negative",
+      "desc": "(세종=연합뉴스) 이대희 기자 = 반도체발 법인세 예납으로 세수가 큰 폭으로 늘어나면서 올해 8월까지 나라살림 적자 규모가 8년 만에 가장 작았...",
+      "image": "https://img.yna.co.kr/photo/cms/2021/11/18/26/PCM20211118000026990_P2.jpg"
+    },
     {
       "title": "'반도체 투톱' 급락에 코스피, 장 초반 5∼6% 내려 5,600대(종합)",
       "link": "https://www.yna.co.kr/view/AKR20261015034551008",
@@ -24,26 +92,6 @@
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101502530001300_P2.jpg"
     },
     {
-      "title": "반도체 공정 기업 '멜콘', 코스닥 상장 첫날 70%대 급등",
-      "link": "https://www.mt.co.kr/stock/2026/10/15/2026101509083518973",
-      "source": "머니투데이",
-      "ts": 1792023794000,
-      "pub": "Thu, 15 Oct 2026 09:23:14 +0900",
-      "sentiment": "positive",
-      "desc": "[특징주] 반도체 공정 기업인 멜콘이 코스닥 상장 첫날 공모가 대비 70%를 상회하는 주가를 나타내고 있다. 이날 오전 9시21분 현재 코스닥 시장에서 멜콘은 공모가 대비 9400원(71.95%) 오른 2만1550원원에 거래 중이다. 2003년 설립된 멜콘은 반도체 핵",
-      "image": "https://thumb.mt.co.kr/06/2026/10/2026101509083518973_1.jpg"
-    },
-    {
-      "title": "'반도체 투톱' 급락에 코스피, 장 초반 5% 내려 5,600대",
-      "link": "https://www.yna.co.kr/view/AKR20261015034500008",
-      "source": "연합뉴스 경제",
-      "ts": 1792022741000,
-      "pub": "Thu, 15 Oct 2026 09:05:41 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 인공지능(AI) 투자 수익성 논란이 다시 부각된 가운데 코스피가 15일 장 초반 반도체 대형주 중심으로 급락 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101502640001300_P2.jpg"
-    },
-    {
       "title": "엔비디아, 유럽 AI에 2조7천억원 투자",
       "link": "https://www.yna.co.kr/view/AKR20261015025700009",
       "source": "연합뉴스 국제",
@@ -51,15 +99,7 @@
       "pub": "Thu, 15 Oct 2026 09:02:17 +0900",
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 주종국 기자 = 젠슨 황 엔비디아 최고경영자(CEO)가 앞으로 유럽지역 국가들의 인공지능(AI) 산업 육성에 총 20억달러(약...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/15/AKR20261015025700009_01_i_P2.jpg"
-    },
-    {
-      "title": "[기고]AI 추론의 시대, 한국 시스템반도체 도약의 골든타임",
-      "link": "https://www.hankyung.com/article/202610153018i",
-      "source": "한국경제",
-      "ts": 1792022051000,
-      "pub": "Thu, 15 Oct 2026 08:54:11 +0900",
-      "sentiment": "neutral"
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/14/PAF20261014060101009_P2.jpg"
     },
     {
       "title": "\"'日투자' 美뉴욕 반도체공장, 통신·자동차용 생산\"",
@@ -70,58 +110,6 @@
       "sentiment": "neutral",
       "desc": "(도쿄=연합뉴스) 조성미 특파원 = 도널드 트럼프 미국 대통령이 14일(현지시간) 일본의 새 대미 투자 대상으로 발표한 뉴욕 반도체 공장에서는 ...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/10/14/PRU20261014202401009_P2.jpg"
-    },
-    {
-      "title": "CXMT 추격은 착시…\"삼성전자 기술 진입장벽 높다\"-KB",
-      "link": "https://www.mt.co.kr/stock/2026/10/15/2026101508284577628",
-      "source": "머니투데이",
-      "ts": 1792021924000,
-      "pub": "Thu, 15 Oct 2026 08:52:04 +0900",
-      "sentiment": "neutral",
-      "desc": "중국 대표 메모리 반도체 업체인 창신메모리테크놀로지(CXMT)가 차세대 서버용 D램 출시 계획을 밝히며 기술 추격에 나섰으나 삼성전자와의 기술 격차는 5~7년에 달한다는 분석이 나온다. 삼성전자의 기술 진입장벽이 높아 중국의 기술 추격에 대한 시장의 우려는 과도하다는 ",
-      "image": "https://thumb.mt.co.kr/06/2026/10/2026101508284577628_1.jpg"
-    },
-    {
-      "title": "초고수의 선택은 SK하이닉스…삼성전자·LG엔솔은 순매도",
-      "link": "https://www.hankyung.com/article/202610152923i",
-      "source": "한국경제",
-      "ts": 1792021881000,
-      "pub": "Thu, 15 Oct 2026 08:51:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "日, 美 반도체 공장건설에 28조원 투자…글로벌파운드리 주가↑ [이상은의 워싱턴나우]",
-      "link": "https://www.hankyung.com/article/202610152731i",
-      "source": "한국경제",
-      "ts": 1792019436000,
-      "pub": "Thu, 15 Oct 2026 08:10:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "화웨이의 반도체 굴기…'로직폴딩'으로 EUV 벽 넘는다",
-      "link": "https://www.hankyung.com/article/202610141879i",
-      "source": "한국경제",
-      "ts": 1792018802000,
-      "pub": "Thu, 15 Oct 2026 08:00:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[마켓뷰] 또 고개 든 AI 수익성 논란…설상가상 반도체주",
-      "link": "https://www.yna.co.kr/view/AKR20261015018100008",
-      "source": "연합뉴스 경제",
-      "ts": 1792018649000,
-      "pub": "Thu, 15 Oct 2026 07:57:29 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 인공지능(AI) 투자 수익성 논란이 또다시 고개를 들면서 14일(현지시간) 글로벌 빅테크와 주요 반도체 기업 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/14/PYH2026101419140001300_P2.jpg"
-    },
-    {
-      "title": "\"삼성전자, CXMT와 기술격차 최대 7년…시장 우려 과도\"",
-      "link": "https://www.hankyung.com/article/2026101528166",
-      "source": "한국경제",
-      "ts": 1792018539000,
-      "pub": "Thu, 15 Oct 2026 07:55:39 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "애플 시총 5조달러 첫 돌파 마감…엔비디아 이어 역대 두번째",
@@ -162,16 +150,6 @@
       "sentiment": "neutral",
       "desc": "(",
       "image": "https://img.yna.co.kr/photo/ap/2026/10/15/PAP20261015088901009_P2.jpg"
-    },
-    {
-      "title": "SK하이닉스, 반등 실패 후 1.7% 하락 마감…6거래일 연속 내려(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261014041251008",
-      "source": "연합뉴스 경제",
-      "ts": 1791961781000,
-      "pub": "Wed, 14 Oct 2026 16:09:41 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 황철환 기자 = SK하이닉스[000660]가 14일 2% 가까이 내리며 6거래일 연속 하락한 채 정규장 거래를 종료했다.",
-      "image": "https://img.yna.co.kr/photo/cms/2026/02/04/84/PCM20260204000084990_P2.jpg"
     }
   ]
 }

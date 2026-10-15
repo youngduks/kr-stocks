@@ -1,8 +1,58 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-15T06:38:44.755Z",
-  "count": 15,
+  "updated_at": "2026-10-15T12:14:21.996Z",
+  "count": 12,
   "items": [
+    {
+      "title": "TSMC, 3분기 순이익 68.7%↑…AI붐에 6분기 연속 신기록(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261015124351089",
+      "source": "연합뉴스 국제",
+      "ts": 1792055550000,
+      "pub": "Thu, 15 Oct 2026 18:12:30 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 세계 최대 파운드리(반도체 위탁생산) 업체인 대만 TSMC가 인공지능(AI) 붐에 힘입어 올해 3분기에 사...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/04/16/PEP20260416144501009_P2.jpg"
+    },
+    {
+      "title": "광주 군공항 간 국토장관 \"반도체 산단 유례없는 속도로 조성\"",
+      "link": "https://www.yna.co.kr/view/AKR20261015156100003",
+      "source": "연합뉴스 경제",
+      "ts": 1792052090000,
+      "pub": "Thu, 15 Oct 2026 17:14:50 +0900",
+      "sentiment": "neutral",
+      "desc": "(세종=연합뉴스) 오진송 기자 = 홍지선 국토교통부 장관이 15일 광주 군공항을 방문해 호남권 반도체 첨단 국가산업단지 조성사업의 추진 상황을 ...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101519550001300_P2.jpg"
+    },
+    {
+      "title": "최태원 이어 산업·국방·국토장관 군공항행…호남 반도체 점검",
+      "link": "https://www.yna.co.kr/view/AKR20261015151000054",
+      "source": "연합뉴스 경제",
+      "ts": 1792050603000,
+      "pub": "Thu, 15 Oct 2026 16:50:03 +0900",
+      "sentiment": "neutral",
+      "desc": "(전남광주=연합뉴스) 장덕종 기자 = 호남 반도체 클러스터 예정지인 광주 군공항에 최태원 SK그룹 회장에 이어 정부 관계부처 장관들의 발길이 이...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101519590001300_P2.jpg"
+    },
+    {
+      "title": "日닛케이지수, 4.9% 급락…AI·반도체 약세 등 여파(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261015063651073",
+      "source": "연합뉴스 국제",
+      "ts": 1792050556000,
+      "pub": "Thu, 15 Oct 2026 16:49:16 +0900",
+      "sentiment": "negative",
+      "desc": "(도쿄=연합뉴스) 조성미 이도연 특파원 = 미국 반도체주 하락과 유가 상승 등 여파로 15일 일본 도쿄증시의 닛케이225평균주가(닛케이지수)가 ...",
+      "image": "https://img.yna.co.kr/photo/cms/2020/03/09/83/PCM20200309000183990_P2.jpg"
+    },
+    {
+      "title": "하이닉스 11% 폭락, 삼성전자 9%↓…7월 말 이후 낙폭 최대(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261015045351008",
+      "source": "연합뉴스 경제",
+      "ts": 1792048003000,
+      "pub": "Thu, 15 Oct 2026 16:06:43 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 김유아 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 15일 국내 증시에서 10% 안팎 급락세로 마감했다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101517030001301_P2.jpg"
+    },
     {
       "title": "TSMC, 3분기 순이익 68.7% 늘어…6분기 연속 신기록",
       "link": "https://www.yna.co.kr/view/AKR20261015124300089",
@@ -12,14 +62,6 @@
       "sentiment": "neutral",
       "desc": "(상하이=연합뉴스) 차병섭 특파원 = 세계 최대 파운드리(반도체 위탁생산) 업체인 대만 TSMC가 인공지능(AI) 붐에 힘입어 올해 3분기에 사...",
       "image": "https://img.yna.co.kr/photo/etc/epa/2026/04/16/PEP20260416144501009_P2.jpg"
-    },
-    {
-      "title": "\"반도체에 올인했다가 반토막\"…ETF 줄줄이 곤두박질",
-      "link": "https://www.hankyung.com/article/202610153972i",
-      "source": "한국경제",
-      "ts": 1792041960000,
-      "pub": "Thu, 15 Oct 2026 14:26:00 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "로이터 \"SK하이닉스, 美공장 조건으로 中다롄 장비 반입 요청\"",
@@ -62,36 +104,6 @@
       "image": "https://img.yna.co.kr/photo/cms/2020/03/09/83/PCM20200309000183990_P2.jpg"
     },
     {
-      "title": "반도체 호황에 1∼8월 나라살림 적자 43조원…8년 만에 최소",
-      "link": "https://www.yna.co.kr/view/AKR20261015048200002",
-      "source": "연합뉴스 경제",
-      "ts": 1792026001000,
-      "pub": "Thu, 15 Oct 2026 10:00:01 +0900",
-      "sentiment": "negative",
-      "desc": "(세종=연합뉴스) 이대희 기자 = 반도체발 법인세 예납으로 세수가 큰 폭으로 늘어나면서 올해 8월까지 나라살림 적자 규모가 8년 만에 가장 작았...",
-      "image": "https://img.yna.co.kr/photo/cms/2021/11/18/26/PCM20211118000026990_P2.jpg"
-    },
-    {
-      "title": "'반도체 투톱' 급락에 코스피, 장 초반 5∼6% 내려 5,600대(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261015034551008",
-      "source": "연합뉴스 경제",
-      "ts": 1792024859000,
-      "pub": "Thu, 15 Oct 2026 09:40:59 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 인공지능(AI) 투자 수익성 논란이 다시 부각된 가운데 코스피가 15일 장 초반 반도체 대형주 중심으로 급락 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101502590001300_P2.jpg"
-    },
-    {
-      "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 7∼8% 하락세",
-      "link": "https://www.yna.co.kr/view/AKR20261015045300008",
-      "source": "연합뉴스 경제",
-      "ts": 1792024469000,
-      "pub": "Thu, 15 Oct 2026 09:34:29 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 15일 국내 증시에서 장 초반 7∼8% 하락률을 보인다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101502530001300_P2.jpg"
-    },
-    {
       "title": "엔비디아, 유럽 AI에 2조7천억원 투자",
       "link": "https://www.yna.co.kr/view/AKR20261015025700009",
       "source": "연합뉴스 국제",
@@ -110,46 +122,6 @@
       "sentiment": "neutral",
       "desc": "(도쿄=연합뉴스) 조성미 특파원 = 도널드 트럼프 미국 대통령이 14일(현지시간) 일본의 새 대미 투자 대상으로 발표한 뉴욕 반도체 공장에서는 ...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/10/14/PRU20261014202401009_P2.jpg"
-    },
-    {
-      "title": "애플 시총 5조달러 첫 돌파 마감…엔비디아 이어 역대 두번째",
-      "link": "https://www.yna.co.kr/view/AKR20261015014600072",
-      "source": "연합뉴스 국제",
-      "ts": 1792017592000,
-      "pub": "Thu, 15 Oct 2026 07:39:52 +0900",
-      "sentiment": "positive",
-      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 미국 빅테크 애플이 사상 처음으로 시가총액 5조달러(약 6천712조원)를 넘어섰다.",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/09/PRU20261009056301009_P2.jpg"
-    },
-    {
-      "title": "뉴욕증시, 물가 충격·반도체 약세에 하락…나스닥 1.9%↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261015006351072",
-      "source": "연합뉴스 국제",
-      "ts": 1792012870000,
-      "pub": "Thu, 15 Oct 2026 06:21:10 +0900",
-      "sentiment": "negative",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 14일(현지시간) 미국 뉴욕 증시는 예상을 웃돈 미 9월 소비자물가지수(CPI) 상승률에 인플레이션 우려가 ...",
-      "image": "https://img.yna.co.kr/photo/etc/up/2026/10/13/PUP20261013000101009_P2.jpg"
-    },
-    {
-      "title": "뉴욕증시, 물가 충격·반도체 약세에 하락…나스닥 1.9%↓",
-      "link": "https://www.yna.co.kr/view/AKR20261015006300072",
-      "source": "연합뉴스 국제",
-      "ts": 1792009561000,
-      "pub": "Thu, 15 Oct 2026 05:26:01 +0900",
-      "sentiment": "negative",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 14일(현지시간) 미국 뉴욕 증시는 예상을 웃돈 미 9월 소비자물가지수(CPI) 상승률에 인플레이션 우려가 ...",
-      "image": "https://img.yna.co.kr/photo/etc/up/2026/10/13/PUP20261013000101009_P2.jpg"
-    },
-    {
-      "title": "[속보] 트럼프 \"뉴욕주에 반도체 공장 2개 건설…日, 210억불 투자\"",
-      "link": "https://www.yna.co.kr/view/AKR20261015001500071",
-      "source": "연합뉴스 국제",
-      "ts": 1791996346000,
-      "pub": "Thu, 15 Oct 2026 01:45:46 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/15/PAP20261015088901009_P2.jpg"
     }
   ]
 }

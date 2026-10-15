@@ -1,33 +1,17 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-15T06:38:44.755Z",
-  "count": 3,
+  "updated_at": "2026-10-15T12:14:21.996Z",
+  "count": 1,
   "items": [
     {
-      "title": "'아직 멀었다' 무시했던 中 이럴 줄은…삼전닉스도 '초긴장' [테크로그]",
-      "link": "https://www.hankyung.com/article/202610152951g",
-      "source": "한국경제",
-      "ts": 1792037695000,
-      "pub": "Thu, 15 Oct 2026 13:14:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 팔고 '이 종목' 샀다…급락장서 초고수들의 선택은",
-      "link": "https://www.hankyung.com/article/202610153772i",
-      "source": "한국경제",
-      "ts": 1792034929000,
-      "pub": "Thu, 15 Oct 2026 12:28:49 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[특징주] 삼성전자·SK하이닉스, 장 초반 7∼8% 하락세",
-      "link": "https://www.yna.co.kr/view/AKR20261015045300008",
+      "title": "하이닉스 11% 폭락, 삼성전자 9%↓…7월 말 이후 낙폭 최대(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261015045351008",
       "source": "연합뉴스 경제",
-      "ts": 1792024469000,
-      "pub": "Thu, 15 Oct 2026 09:34:29 +0900",
+      "ts": 1792048003000,
+      "pub": "Thu, 15 Oct 2026 16:06:43 +0900",
       "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 15일 국내 증시에서 장 초반 7∼8% 하락률을 보인다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101502530001300_P2.jpg"
+      "desc": "(서울=연합뉴스) 김유아 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 15일 국내 증시에서 10% 안팎 급락세로 마감했다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101517030001301_P2.jpg"
     }
   ]
 }

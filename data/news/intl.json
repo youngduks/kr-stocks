@@ -1,8 +1,62 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-15T20:38:37.276Z",
-  "count": 29,
+  "updated_at": "2026-10-15T23:22:56.244Z",
+  "count": 31,
   "items": [
+    {
+      "title": "\"시험 떨어졌지만 변호사 맞다\"…백악관 대변인 황당 해명",
+      "link": "https://www.hankyung.com/article/2026101652657",
+      "source": "한국경제",
+      "ts": 1792102788000,
+      "pub": "Fri, 16 Oct 2026 07:19:48 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[글로컬] 알래스카 LNG 투자, '트럼프 압박' 넘어서야",
+      "link": "https://www.yna.co.kr/view/AKR20261015148400546",
+      "source": "연합뉴스 경제",
+      "ts": 1792102020000,
+      "pub": "Fri, 16 Oct 2026 07:07:00 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 한승호 선임기자 = 도널드 트럼프 미국 대통령이 한국의 알래스카 액화천연가스(LNG) 개발사업 투자 참여 문제가 확정된 것처럼...",
+      "image": "https://img.yna.co.kr/photo/cms/2024/04/03/33/PCM20240403000033003_P2.jpg"
+    },
+    {
+      "title": "물가 최고치 찍었는데 증시 반등…시장 여전히 'Fed 금리동결'에 무게",
+      "link": "https://www.hankyung.com/article/202610165216i",
+      "source": "한국경제",
+      "ts": 1792100458000,
+      "pub": "Fri, 16 Oct 2026 06:40:58 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "허위 경력 논란 백악관 대변인 \"변호사 시험 불합격 중요한가\"",
+      "link": "https://www.yna.co.kr/view/AKR20261016009700071",
+      "source": "연합뉴스 국제",
+      "ts": 1792100128000,
+      "pub": "Fri, 16 Oct 2026 06:35:28 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 변호사로 스스로를 소개해온 신임 백악관 대변인이 변호사 시험에 합격하지 못했다는 미 언론 보도로 허위 경력...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/15/PRU20261015152701009_P2.jpg"
+    },
+    {
+      "title": "공화 접전지 후보들의 입장 선회…선거 이후 관세정책 제동걸까",
+      "link": "https://www.yna.co.kr/view/AKR20261016009100071",
+      "source": "연합뉴스 국제",
+      "ts": 1792099765000,
+      "pub": "Fri, 16 Oct 2026 06:29:25 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 미국 11월 중간선거에서 박빙 승부가 전개되는 경합지의 공화당 후보들이 관세 정책에 대한 '조심스러운 반대...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/09/17/PRU20260917138901009_P2.jpg"
+    },
+    {
+      "title": "젤렌스키 한마디에 꼬인 韓 외교…\"대북·대러 전략 훼손\"",
+      "link": "https://www.hankyung.com/article/2026101652037",
+      "source": "한국경제",
+      "ts": 1792099202000,
+      "pub": "Fri, 16 Oct 2026 06:20:02 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "트럼프, 또 '사형' 언급…소방관 살해범도 사형 구형 지시",
       "link": "https://www.yna.co.kr/view/AKR20261016004000071",
@@ -11,7 +65,7 @@
       "pub": "Fri, 16 Oct 2026 04:50:08 +0900",
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 15일(현지시간) 소방관을 살해한 자에게 사형을 구형하겠다고 밝혔다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/16/AKR20261016004000071_02_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/etc/up/2026/10/16/PUP20261016002801009_P2.jpg"
     },
     {
       "title": "젤렌스키의 트럼프 날선 비판에 유럽 당혹…\"수위조절 요구\"(종합)",
@@ -51,7 +105,7 @@
       "pub": "Fri, 16 Oct 2026 02:48:28 +0900",
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 적극 추진하는 백악관 연회장(ballroom) 건설에 3억3천만 달러(약 4천...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/16/AKR20261016001900071_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/16/PRU20261016008401009_P2.jpg"
     },
     {
       "title": "\"우크라, 北포로송환 공개해 韓 대북·대러 접근법 훼손\"",
@@ -81,7 +135,7 @@
       "pub": "Fri, 16 Oct 2026 01:17:09 +0900",
       "sentiment": "neutral",
       "desc": "(카이로=연합뉴스) 김상훈 특파원 = 이스라엘 총선(27일)이 열흘여 앞으로 다가온 가운데 야권 선두 주자인 군참모총장 출신 가디 아이젠코트의 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/16/AKR20261016001300079_03_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/06/PEP20261006082901009_P2.jpg"
     },
     {
       "title": "트럼프 \"총살형 생중계 않겠다\"…중간선거앞 여론역풍에 접어",
@@ -91,7 +145,7 @@
       "pub": "Fri, 16 Oct 2026 00:04:52 +0900",
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 15일(현지시간) 미군 기지 총기 난사범에 대한 총살형을 집행하겠지만 이를 생...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/15/AKR20261015182600071_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/13/PRU20261013043201009_P2.jpg"
     },
     {
       "title": "[속보] 트럼프 \"미군기지 난사범 총살형 생중계되지 않을 것\"",
@@ -127,23 +181,7 @@
       "pub": "Thu, 15 Oct 2026 22:40:08 +0900",
       "sentiment": "neutral",
       "desc": "(브뤼셀=연합뉴스) 현윤경 특파원 = 세계 최대 규모를 자랑하는 노르웨이 국부펀드에 핵무기 제조 기업 투자 금지라는 족쇄를 풀어야 한다는 권고가...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/15/AKR20261015180800098_01_i_P2.jpg"
-    },
-    {
-      "title": "\"기름값 때문에\"…9월 CPI이어 PPI도 급등 쇼크",
-      "link": "https://www.hankyung.com/article/202610155072i",
-      "source": "한국경제",
-      "ts": 1792070302000,
-      "pub": "Thu, 15 Oct 2026 22:18:22 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"한국 500억달러 투자\" 또 언급…트럼프, 알래스카서 '진땀'",
-      "link": "https://www.hankyung.com/article/2026101550427",
-      "source": "한국경제",
-      "ts": 1792068173000,
-      "pub": "Thu, 15 Oct 2026 21:42:53 +0900",
-      "sentiment": "neutral"
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/15/PRU20261015162601009_P2.jpg"
     },
     {
       "title": "\"관세청이 송치한 1천582건 처리는?\"…공소청 \"순차 처리\"(종합)",
@@ -264,26 +302,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 박성민 이유미 특파원 = 도널드 트럼프 미국 대통령은 14일(현지시간) 자신과 공화당에 대한 지지세가 강한 지역을 찾아 11...",
       "image": "https://img.yna.co.kr/photo/etc/af/2026/10/15/PAF20261015135801009_P2.jpg"
-    },
-    {
-      "title": "우크라 생명줄 된 스타링크…일부 제한만으로도 전쟁수행 '비상'",
-      "link": "https://www.yna.co.kr/view/AKR20261015084700009",
-      "source": "연합뉴스 국제",
-      "ts": 1792031954000,
-      "pub": "Thu, 15 Oct 2026 11:39:14 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김용래 기자 = 미국의 위성 인터넷 서비스 스타링크의 군사용 버전인 '스타실드'에 갑작스럽게 속도 제한이 걸리면서 우크라이나군...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/14/PAP20261014194201009_P2.jpg"
-    },
-    {
-      "title": "유럽, 트럼프 압박받는 젤렌스키 지지…'美 대체 불가' 지적도",
-      "link": "https://www.yna.co.kr/view/AKR20261015075900009",
-      "source": "연합뉴스 국제",
-      "ts": 1792030814000,
-      "pub": "Thu, 15 Oct 2026 11:20:14 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이신영 기자 = 유럽 각국이 러시아와 전쟁 중인 우크라이나에 대한 지원을 강화하겠다고 나섰다.",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/15/PAF20261015016501009_P2.jpg"
     }
   ]
 }

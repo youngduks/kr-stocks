@@ -1,8 +1,44 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-15T20:38:37.278Z",
-  "count": 12,
+  "updated_at": "2026-10-15T23:22:56.247Z",
+  "count": 16,
   "items": [
+    {
+      "title": "\"AI 슈퍼사이클 끝났나\"…반도체 시총 나흘 만에 1조달러 증발",
+      "link": "https://www.hankyung.com/article/2026101653047",
+      "source": "한국경제",
+      "ts": 1792105231000,
+      "pub": "Fri, 16 Oct 2026 08:00:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI·반도체주 4일간 시총 1조달러 증발",
+      "link": "https://www.yna.co.kr/view/AKR20261016015200009",
+      "source": "연합뉴스 국제",
+      "ts": 1792104155000,
+      "pub": "Fri, 16 Oct 2026 07:42:35 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 금리 인상 우려와 인공지능(AI) 투자 부담 우려, 중국 메모리 업체의 추격 전망이 한꺼번에 겹치면서 세계 A...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/10/PYH2026081000380008900_P2.jpg"
+    },
+    {
+      "title": "\"메모리 절대적 위기\"…애플, 아이폰에 中 반도체 사용 검토",
+      "link": "https://www.hankyung.com/article/2026101652367",
+      "source": "한국경제",
+      "ts": 1792101821000,
+      "pub": "Fri, 16 Oct 2026 07:03:41 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "삼성전기 8조 투자 이어 SK 반도체 소재기업 세종공장 확장 추진",
+      "link": "https://www.yna.co.kr/view/AKR20261015156600063",
+      "source": "연합뉴스 경제",
+      "ts": 1792098006000,
+      "pub": "Fri, 16 Oct 2026 06:00:06 +0900",
+      "sentiment": "neutral",
+      "desc": "(세종=연합뉴스) 양영석 기자 = 삼성전기가 세종시 명학산단에 대규모 투자 계획을 발표한 데 이어 SK 그룹 반도체 소재 기업도 같은 지역에 추...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/15/AKR20261015156600063_01_i_P2.jpg"
+    },
     {
       "title": "애플 CEO \"메모리 위기에 모든 선택지 고려\"…중국산 사용 시사",
       "link": "https://www.yna.co.kr/view/AKR20261016003100091",
@@ -21,7 +57,7 @@
       "pub": "Fri, 16 Oct 2026 02:48:28 +0900",
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 적극 추진하는 백악관 연회장(ballroom) 건설에 3억3천만 달러(약 4천...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/16/AKR20261016001900071_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/16/PRU20261016008401009_P2.jpg"
     },
     {
       "title": "TSMC, 6분기 연속 순이익 신기록…美텍사스 투자 검토(종합2보)",

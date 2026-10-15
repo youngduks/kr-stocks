@@ -1,8 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-15T20:38:37.278Z",
-  "count": 4,
+  "updated_at": "2026-10-15T23:22:56.246Z",
+  "count": 5,
   "items": [
+    {
+      "title": "\"폭락한 삼전닉스, 일시적 가격 왜곡…지금은 투자 기회\"",
+      "link": "https://www.hankyung.com/article/2026101652956",
+      "source": "한국경제",
+      "ts": 1792104123000,
+      "pub": "Fri, 16 Oct 2026 07:42:03 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"메모리 절대적 위기\"…애플, 아이폰에 中 반도체 사용 검토",
+      "link": "https://www.hankyung.com/article/2026101652367",
+      "source": "한국경제",
+      "ts": 1792101821000,
+      "pub": "Fri, 16 Oct 2026 07:03:41 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "애플 CEO \"메모리 위기에 모든 선택지 고려\"…중국산 사용 시사",
       "link": "https://www.yna.co.kr/view/AKR20261016003100091",
@@ -20,14 +36,6 @@
       "ts": 1792071150000,
       "pub": "Thu, 15 Oct 2026 22:32:30 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "\"삼전닉스 턱밑까지 추격\" 초긴장…몸집 불리는 中 기업 정체",
-      "link": "https://www.hankyung.com/article/202610155055g",
-      "source": "한국경제",
-      "ts": 1792068182000,
-      "pub": "Thu, 15 Oct 2026 21:43:02 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "하이닉스 11% 폭락, 삼성전자 9%↓…7월 말 이후 낙폭 최대(종합)",

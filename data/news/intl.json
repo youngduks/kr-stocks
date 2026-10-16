@@ -1,14 +1,70 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-15T23:22:56.244Z",
-  "count": 31,
+  "updated_at": "2026-10-16T02:01:26.608Z",
+  "count": 28,
   "items": [
     {
-      "title": "\"시험 떨어졌지만 변호사 맞다\"…백악관 대변인 황당 해명",
-      "link": "https://www.hankyung.com/article/2026101652657",
+      "title": "트럼프, 러·이란 '그림자 선단' 제재 푸나…경유가격 잡기 안간힘",
+      "link": "https://www.mt.co.kr/world/2026/10/16/2026101609111665045",
+      "source": "머니투데이",
+      "ts": 1792111181000,
+      "pub": "Fri, 16 Oct 2026 09:39:41 +0900",
+      "sentiment": "negative",
+      "desc": "[미국-이란 전쟁] 미국이 11월 중간선거를 앞두고 치솟는 경유 가격을 안정시키기 위해 러시아·이란과 연계된 '그림자 선단' 유조선에 대한 제재 완화를 검토하고 있다.  그림자 선단은 러시아·이란 등의 원유와 석유제품을 서방 제재를 우회해 운송하는 선박들이다. 15일(",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026101609111665045_1.jpg"
+    },
+    {
+      "title": "英, 우크라 지원 심혈…스톰섀도 또 보내고 美에 계속 지지 촉구",
+      "link": "https://www.yna.co.kr/view/AKR20261016040400009",
+      "source": "연합뉴스 경제",
+      "ts": 1792111004000,
+      "pub": "Fri, 16 Oct 2026 09:36:44 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 임화섭 기자 = 영국 정부가 우크라이나 지원을 위해 발벗고 나섰다.",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/15/PEP20261015056601009_P2.jpg"
+    },
+    {
+      "title": "트럼프, 사형수 총살형 '생중계' 철회…\"유족 참관은 허용\"",
+      "link": "https://www.hankyung.com/article/202610165657H",
       "source": "한국경제",
-      "ts": 1792102788000,
-      "pub": "Fri, 16 Oct 2026 07:19:48 +0900",
+      "ts": 1792110941000,
+      "pub": "Fri, 16 Oct 2026 09:35:41 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키, 트럼프에 반기 들었다…러 정유시설 공습 재개",
+      "link": "https://www.hankyung.com/article/2026101656707",
+      "source": "한국경제",
+      "ts": 1792110504000,
+      "pub": "Fri, 16 Oct 2026 09:28:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젤렌스키, 트럼프 맞서지만…\"미국지원 없으면 우크라 못버텨\"",
+      "link": "https://www.yna.co.kr/view/AKR20261016034600009",
+      "source": "연합뉴스 국제",
+      "ts": 1792109921000,
+      "pub": "Fri, 16 Oct 2026 09:18:41 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김승욱 기자 = 우크라이나가 독자적인 무기 개발과 유럽의 지원 확대를 통해 미국의 군사적 지원 의존도를 낮춰왔으나 스타링크 위...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/15/PAF20261015019701009_P2.jpg"
+    },
+    {
+      "title": "트럼프 '에너지 휴전' 붕괴…젤렌스키, 러 정유시설 공습 재개",
+      "link": "https://www.yna.co.kr/view/AKR20261016029900009",
+      "source": "연합뉴스 국제",
+      "ts": 1792109039000,
+      "pub": "Fri, 16 Oct 2026 09:03:59 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이신영 기자 = 우크라이나가 15일(현지시간) 도널드 트럼프 미국 행정부의 압박에도 불구하고 러시아 정유시설에 대한 공습을 재...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2025/03/01/PEP20250301028801009_P2.jpg"
+    },
+    {
+      "title": "우크라 드론 '눈과 귀' 묶인 직후…머스크 \"젤렌스키 물러날 때\"",
+      "link": "https://www.hankyung.com/article/2026101653687",
+      "source": "한국경제",
+      "ts": 1792106464000,
+      "pub": "Fri, 16 Oct 2026 08:21:04 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,14 +76,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 한승호 선임기자 = 도널드 트럼프 미국 대통령이 한국의 알래스카 액화천연가스(LNG) 개발사업 투자 참여 문제가 확정된 것처럼...",
       "image": "https://img.yna.co.kr/photo/cms/2024/04/03/33/PCM20240403000033003_P2.jpg"
-    },
-    {
-      "title": "물가 최고치 찍었는데 증시 반등…시장 여전히 'Fed 금리동결'에 무게",
-      "link": "https://www.hankyung.com/article/202610165216i",
-      "source": "한국경제",
-      "ts": 1792100458000,
-      "pub": "Fri, 16 Oct 2026 06:40:58 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "허위 경력 논란 백악관 대변인 \"변호사 시험 불합격 중요한가\"",
@@ -50,14 +98,6 @@
       "image": "https://img.yna.co.kr/photo/reuters/2026/09/17/PRU20260917138901009_P2.jpg"
     },
     {
-      "title": "젤렌스키 한마디에 꼬인 韓 외교…\"대북·대러 전략 훼손\"",
-      "link": "https://www.hankyung.com/article/2026101652037",
-      "source": "한국경제",
-      "ts": 1792099202000,
-      "pub": "Fri, 16 Oct 2026 06:20:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "트럼프, 또 '사형' 언급…소방관 살해범도 사형 구형 지시",
       "link": "https://www.yna.co.kr/view/AKR20261016004000071",
       "source": "연합뉴스 국제",
@@ -75,7 +115,7 @@
       "pub": "Fri, 16 Oct 2026 04:38:41 +0900",
       "sentiment": "neutral",
       "desc": "(브뤼셀=연합뉴스) 현윤경 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령이 최근 트럼프 대통령을 향해 대놓고 날선 비판을 이어가자 당혹한 유럽...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/16/AKR20261016001451098_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/23/PAF20260923088701009_P2.jpg"
     },
     {
       "title": "\"우크라, 미국산 패트리엇 고갈…마지막 요격 미사일도 소진\"",
@@ -149,14 +189,6 @@
     },
     {
       "title": "[속보] 트럼프 \"미군기지 난사범 총살형 생중계되지 않을 것\"",
-      "link": "https://www.hankyung.com/article/2026101551177",
-      "source": "한국경제",
-      "ts": 1792074501000,
-      "pub": "Thu, 15 Oct 2026 23:28:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"미군기지 난사범 총살형 생중계되지 않을 것\"",
       "link": "https://www.yna.co.kr/view/AKR20261015181900071",
       "source": "연합뉴스 국제",
       "ts": 1792073486000,
@@ -164,14 +196,6 @@
       "sentiment": "neutral",
       "desc": "(",
       "image": "https://img.yna.co.kr/photo/etc/af/2026/10/15/PAF20261015254301009_P2.jpg"
-    },
-    {
-      "title": "美 9월 생산자물가 1.3% 급등…무게 실리는 Fed 금리 인상",
-      "link": "https://www.hankyung.com/article/2026101550921",
-      "source": "한국경제",
-      "ts": 1792071717000,
-      "pub": "Thu, 15 Oct 2026 22:41:57 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "세계 최대 노르웨이 국부펀드, 핵무기 제조사 투자 가능해지나",
@@ -214,16 +238,6 @@
       "image": "https://img.yna.co.kr/photo/etc/af/2026/10/13/PAF20261013009601009_P2.jpg"
     },
     {
-      "title": "농식품부 \"브라질산 계란 구매가보다 운임·관세 비용 커\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261015078651030",
-      "source": "연합뉴스 경제",
-      "ts": 1792048388000,
-      "pub": "Thu, 15 Oct 2026 16:13:08 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김세린 기자 = 농림축산식품부는 15일 브라질산 계란을 고가에 수입해 재정을 낭비했다는 논란과 관련해 높은 수입단가는 계란 구...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/10/PYH2026091010810001300_P2.jpg"
-    },
-    {
       "title": "\"우크라 위성통신 장애 뒤엔 유가상승 둘러싼 트럼프 불만\"",
       "link": "https://www.yna.co.kr/view/AKR20261015139000009",
       "source": "연합뉴스 국제",
@@ -262,46 +276,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 이지헌 기자 = 도널드 트럼프 미국 대통령 주도로 만들어진 가자 평화위원회가 이스라엘의 불허로 가자지구 내 임무지원 기지 건립...",
       "image": "https://img.yna.co.kr/photo/etc/epa/2026/08/15/PEP20260815033901009_P2.jpg"
-    },
-    {
-      "title": "트럼프 지지율 폭스뉴스 조사 36%…1·2기 통틀어 최저",
-      "link": "https://www.yna.co.kr/view/AKR20261015121200009",
-      "source": "연합뉴스 국제",
-      "ts": 1792044537000,
-      "pub": "Thu, 15 Oct 2026 15:08:57 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 임화섭 기자 = 우파·친(親)공화당 성향 미국 뉴스채널 폭스뉴스에서 도널드 트럼프 미국 대통령의 국정 수행 지지율이 트럼프 집...",
-      "image": "https://img.yna.co.kr/photo/etc/gt/2026/10/15/PGT20261015142701009_P2.jpg"
-    },
-    {
-      "title": "관세청장 \"세관 '수사심사과' 신설 추진…공소청과 많은 협력\"",
-      "link": "https://www.yna.co.kr/view/AKR20261015112900002",
-      "source": "연합뉴스 경제",
-      "ts": 1792044271000,
-      "pub": "Thu, 15 Oct 2026 15:04:31 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종·대전=연합뉴스) 안채원 송정은 기자 = 이종욱 관세청장은 검찰청 폐지 후 특별사법경찰관(특사경) 수사 시스템을 보완하도록 \"수사 심사과 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101510080006300_P2.jpg"
-    },
-    {
-      "title": "트럼프 새 대변인, 美변호사시험 불합격 확인…경력 논란 확산",
-      "link": "https://www.yna.co.kr/view/AKR20261015117600009",
-      "source": "연합뉴스 국제",
-      "ts": 1792043103000,
-      "pub": "Thu, 15 Oct 2026 14:45:03 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 고일환 기자 = 변호사 경력을 내세우고 활동했던 케이티 재커라이어 백악관 대변인이 미국 변호사시험에 합격하지 못한 것으로 확인...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/15/PRU20261015152701009_P2.jpg"
-    },
-    {
-      "title": "트럼프, 애리조나 유세 도중 \"정보 유출자는 총살해야\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20261015014352071",
-      "source": "연합뉴스 국제",
-      "ts": 1792034555000,
-      "pub": "Thu, 15 Oct 2026 12:22:35 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 이유미 특파원 = 도널드 트럼프 미국 대통령은 14일(현지시간) 자신과 공화당에 대한 지지세가 강한 지역을 찾아 11...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/15/PAF20261015135801009_P2.jpg"
     }
   ]
 }

@@ -1,15 +1,17 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-10-15T23:22:56.247Z",
+  "updated_at": "2026-10-16T02:01:26.610Z",
   "count": 1,
   "items": [
     {
-      "title": "\"휴젤, 美 판매체제 전환에 3분기 실적 부진…목표가↓\"-현대차",
-      "link": "https://www.hankyung.com/article/2026101653636",
-      "source": "한국경제",
-      "ts": 1792105506000,
-      "pub": "Fri, 16 Oct 2026 08:05:06 +0900",
-      "sentiment": "negative"
+      "title": "구직자가 뽑은 관심기업 1위 SK하이닉스…현대차 2위",
+      "link": "https://www.yna.co.kr/view/AKR20261016021500003",
+      "source": "연합뉴스 경제",
+      "ts": 1792106454000,
+      "pub": "Fri, 16 Oct 2026 08:20:54 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김민지 기자 = 인크루트는 최근 1년간(2025년 9월∼2026년 9월) 구직자가 설정한 관심 기업 데이터를 분석한 결과, S...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/16/AKR20261016021500003_01_i_P2.jpg"
     }
   ]
 }

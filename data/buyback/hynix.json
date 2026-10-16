@@ -3,7 +3,7 @@
   "ticker": "000660",
   "name_ko": "SK하이닉스",
   "name_en": "SK Hynix",
-  "updated_at": "2026-10-15 17:05:03+09:00",
+  "updated_at": "2026-10-16 17:05:02+09:00",
   "source": "krx_kind_treasurystk",
   "source_url": "https://kind.krx.co.kr/corpgeneral/treasurystk.do?method=loadInitPage",
   "note": "당일 체결은 다음날 저녁 KIND 공시로 확정 — 실시간 아님. 신청수량=체결수량 100%면 그날 한도 전량 소진.",
@@ -19,18 +19,18 @@
     "daily_limit_qty": 2407000
   },
   "progress": {
-    "cum_executed_qty": 21300000,
-    "cum_amount_krw": 36974390025000,
-    "avg_price_krw": 1735887,
-    "progress_pct": 88.49,
-    "schedule_elapsed_pct": 61.54,
-    "ahead_pct": 26.95,
-    "remaining_qty": 2770000,
-    "remaining_biz_days": 26,
-    "needed_daily_avg_qty": 106539,
+    "cum_executed_qty": 21750000,
+    "cum_amount_krw": 37545893928500,
+    "avg_price_krw": 1726248,
+    "progress_pct": 90.36,
+    "schedule_elapsed_pct": 62.64,
+    "ahead_pct": 27.72,
+    "remaining_qty": 2320000,
+    "remaining_biz_days": 25,
+    "needed_daily_avg_qty": 92800,
     "on_track": true,
     "eta_date": "2026-10-25",
-    "recent5_avg_qty": 410000
+    "recent5_avg_qty": 420000
   },
   "daily": [
     {
@@ -245,6 +245,12 @@
     },
     {
       "date": "2026-10-14",
+      "applied_qty": 450000,
+      "executed_qty": 450000,
+      "execution_rate_pct": 100
+    },
+    {
+      "date": "2026-10-15",
       "applied_qty": 450000,
       "executed_qty": 450000,
       "execution_rate_pct": 100

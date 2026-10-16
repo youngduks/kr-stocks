@@ -1,8 +1,56 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-16T20:11:10.273Z",
-  "count": 27,
+  "updated_at": "2026-10-16T23:05:31.055Z",
+  "count": 31,
   "items": [
+    {
+      "title": "유럽, 우크라 돕겠다는데…당장 미국 스타링크부터 대체불가",
+      "link": "https://www.yna.co.kr/view/AKR20261017010500009",
+      "source": "연합뉴스 국제",
+      "ts": 1792190477000,
+      "pub": "Sat, 17 Oct 2026 07:41:17 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 송진원 기자 = 유럽이 변덕스러운 미국에 대한 우크라이나의 군사적 의존을 완화하겠다는 방침이지만 당장 위성 인터넷 서비스부터 ...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/16/PRU20261016320801009_P2.jpg"
+    },
+    {
+      "title": "트럼프 \"현대, 조지아주에 7천486억 투자 방금 발표\"",
+      "link": "https://www.yna.co.kr/view/AKR20261017009000071",
+      "source": "연합뉴스 국제",
+      "ts": 1792187448000,
+      "pub": "Sat, 17 Oct 2026 06:50:48 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 16일(현지시간) \"현대가 조지아주 웨스트포인트에 있는 공장을 확장하기 위해 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/17/AKR20261017009000071_01_i_P2.jpg"
+    },
+    {
+      "title": "EU, 중국 의식해 무역전쟁 발발시 시장접근 신속제한 추진",
+      "link": "https://www.yna.co.kr/view/AKR20261017007200009",
+      "source": "연합뉴스 국제",
+      "ts": 1792186516000,
+      "pub": "Sat, 17 Oct 2026 06:35:16 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 임화섭 기자 = 유럽연합(EU)이 무역전쟁 발생 시 EU 역내 시장에 대한 접근을 \"신속하고 즉각적으로\" 차단할 수 있는 수단...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/17/AKR20261017007200009_01_i_P2.jpg"
+    },
+    {
+      "title": "트럼프·시진핑의 공허한 악수, '닉슨 인 차이나'는 알고 있었다 [오페라 사회학]",
+      "link": "https://www.hankyung.com/article/202610166132i",
+      "source": "한국경제",
+      "ts": 1792184404000,
+      "pub": "Sat, 17 Oct 2026 06:00:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 손절에 '최단명 대변인' 오명…데뷔전이 마지막 브리핑돼",
+      "link": "https://www.yna.co.kr/view/AKR20261017005300071",
+      "source": "연합뉴스 국제",
+      "ts": 1792183501000,
+      "pub": "Sat, 17 Oct 2026 05:45:01 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 취임부터 본연의 업무보다 개인적 논란 해명에 바빴던 케이티 재커라이어 백악관 대변인이 '최단명 백악관 대변...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/17/PRU20261017039901009_P2.jpg"
+    },
     {
       "title": "중동도 우크라도 불안…브렌트유 109달러대, 5개월만에 최고",
       "link": "https://www.yna.co.kr/view/AKR20261017004900072",
@@ -260,16 +308,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 우크라이나가 장거리 순항미사일로 러시아 영토 깊숙한 군 비행장을 공격해 Su-34 전폭기 4대를 파괴하고 2대를 추가 타격했다...",
       "image": "https://www.youtube.com/embed/pCZ_Rgj1h-A"
-    },
-    {
-      "title": "英, 우크라 지원 심혈…스톰섀도 또 보내고 美에 계속 지지 촉구",
-      "link": "https://www.yna.co.kr/view/AKR20261016040400009",
-      "source": "연합뉴스 경제",
-      "ts": 1792111004000,
-      "pub": "Fri, 16 Oct 2026 09:36:44 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 임화섭 기자 = 영국 정부가 우크라이나 지원을 위해 발벗고 나섰다.",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/15/PEP20261015056601009_P2.jpg"
     }
   ]
 }

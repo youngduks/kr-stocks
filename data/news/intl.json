@@ -1,17 +1,97 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-16T02:01:26.608Z",
-  "count": 28,
+  "updated_at": "2026-10-16T07:36:38.597Z",
+  "count": 25,
   "items": [
     {
-      "title": "트럼프, 러·이란 '그림자 선단' 제재 푸나…경유가격 잡기 안간힘",
-      "link": "https://www.mt.co.kr/world/2026/10/16/2026101609111665045",
-      "source": "머니투데이",
-      "ts": 1792111181000,
-      "pub": "Fri, 16 Oct 2026 09:39:41 +0900",
+      "title": "트럼프 \"수치스러운 일\"…러 공격 재개 젤렌스키와 정면충돌(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261016122800009",
+      "source": "연합뉴스 국제",
+      "ts": 1792133682000,
+      "pub": "Fri, 16 Oct 2026 15:54:42 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이신영 김승욱 기자 = 우크라이나가 15일(현지시간) 도널드 트럼프 미국 행정부의 압박에도 불구하고 러시아 정유시설에 대한 공...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/14/PEP20261014010801009_P2.jpg"
+    },
+    {
+      "title": "[영상] 트럼프 머스크 합작품?…우크라 드론 최대 위기",
+      "link": "https://www.yna.co.kr/view/AKR20261016117300797",
+      "source": "연합뉴스 국제",
+      "ts": 1792132251000,
+      "pub": "Fri, 16 Oct 2026 15:30:51 +0900",
       "sentiment": "negative",
-      "desc": "[미국-이란 전쟁] 미국이 11월 중간선거를 앞두고 치솟는 경유 가격을 안정시키기 위해 러시아·이란과 연계된 '그림자 선단' 유조선에 대한 제재 완화를 검토하고 있다.  그림자 선단은 러시아·이란 등의 원유와 석유제품을 서방 제재를 우회해 운송하는 선박들이다. 15일(",
-      "image": "https://thumb.mt.co.kr/06/2026/10/2026101609111665045_1.jpg"
+      "desc": "(서울=연합뉴스) 이정진 기자 = 도널드 트럼프 미국 대통령이 블라디미르 푸틴 러시아 대통령과 이른바 '경유딜'에 합의한 후폭풍이 계속되고 있습...",
+      "image": "https://www.youtube.com/embed/watch?v=FkE_VMmJ6Kg"
+    },
+    {
+      "title": "FOMC 위원 \"우려하는 건 물가상승 압력 지속 기대심리\"",
+      "link": "https://www.yna.co.kr/view/AKR20261016107000009",
+      "source": "연합뉴스 국제",
+      "ts": 1792129643000,
+      "pub": "Fri, 16 Oct 2026 14:47:23 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 이성한 기자 = 베스 해맥 클리블랜드 연방준비은행(연은) 총재는 \"우려하는 것은 물가 상승 압력이 점점 더 지속될 것이라는 인...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925063901009_P2.jpg"
+    },
+    {
+      "title": "\"공화당 지면 선거 조작 주장할 수도\"…트럼프 불복 우려 확산",
+      "link": "https://www.yna.co.kr/view/AKR20261016064500009",
+      "source": "연합뉴스 국제",
+      "ts": 1792118887000,
+      "pub": "Fri, 16 Oct 2026 11:48:07 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 이신영 기자 = 도널드 트럼프 미국 대통령이 오는 11월 치러질 중간선거에서 패배할 경우 선거 조작 카드를 또다시 꺼내 들 수...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/16/AKR20261016064500009_01_i_P2.jpg"
+    },
+    {
+      "title": "[쇼츠] 러 Su-34 전폭기 6대 잿더미…우크라 '롱 넵튠' 비행장 기습",
+      "link": "https://www.yna.co.kr/view/AKR20261016075800704",
+      "source": "연합뉴스 국제",
+      "ts": 1792118393000,
+      "pub": "Fri, 16 Oct 2026 11:39:53 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 우크라이나가 장거리 순항미사일로 러시아 영토 깊숙한 군 비행장을 공격해 Su-34 전폭기 4대를 파괴하고 2대를 추가 타격했다...",
+      "image": "https://www.youtube.com/embed/2v4wDF38hR8"
+    },
+    {
+      "title": "[영상] \"변호사 시험 불합격이 중요한가\"…트럼프 새 대변인, 황당 해명",
+      "link": "https://www.yna.co.kr/view/AKR20261016074200704",
+      "source": "연합뉴스 국제",
+      "ts": 1792118283000,
+      "pub": "Fri, 16 Oct 2026 11:38:03 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 도널드 트럼프 미국 대통령이 새로 임명한 백악관 대변인 케이티 재커라이어가 변호사 자격 논란에 휩싸였습니다.",
+      "image": "https://www.youtube.com/embed/oSHAYDYw7Zk"
+    },
+    {
+      "title": "美상원의원, 우크라 스타링크 장애 조사촉구…공화의원도 가세",
+      "link": "https://www.yna.co.kr/view/AKR20261016071400009",
+      "source": "연합뉴스 국제",
+      "ts": 1792118270000,
+      "pub": "Fri, 16 Oct 2026 11:37:50 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이지헌 기자 = 미국 스페이스X가 우크라이나군에 제공하는 위성 인터넷 서비스가 일시적으로 제한된 사태와 관련해 미 연방의회 여...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/06/27/PEP20260627200801009_P2.jpg"
+    },
+    {
+      "title": "트럼프 \"중러와 핵군축 논의하고 있다…중, 5년내 따라잡을 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20261016069700071",
+      "source": "연합뉴스 국제",
+      "ts": 1792117590000,
+      "pub": "Fri, 16 Oct 2026 11:26:30 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령이 중국·러시아와 핵군축을 논의하고 있다고 밝혔다.",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/14/PEP20261014010801009_P2.jpg"
+    },
+    {
+      "title": "[영상] 러 본토 날아간 '롱넵튠'…우크라 \"전폭기 4대 파괴·2대 타격\"",
+      "link": "https://www.yna.co.kr/view/AKR20261016071500704",
+      "source": "연합뉴스 국제",
+      "ts": 1792117388000,
+      "pub": "Fri, 16 Oct 2026 11:23:08 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 우크라이나가 장거리 순항미사일로 러시아 영토 깊숙한 군 비행장을 공격해 Su-34 전폭기 4대를 파괴하고 2대를 추가 타격했다...",
+      "image": "https://www.youtube.com/embed/pCZ_Rgj1h-A"
     },
     {
       "title": "英, 우크라 지원 심혈…스톰섀도 또 보내고 美에 계속 지지 촉구",
@@ -22,22 +102,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 임화섭 기자 = 영국 정부가 우크라이나 지원을 위해 발벗고 나섰다.",
       "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/15/PEP20261015056601009_P2.jpg"
-    },
-    {
-      "title": "트럼프, 사형수 총살형 '생중계' 철회…\"유족 참관은 허용\"",
-      "link": "https://www.hankyung.com/article/202610165657H",
-      "source": "한국경제",
-      "ts": 1792110941000,
-      "pub": "Fri, 16 Oct 2026 09:35:41 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "젤렌스키, 트럼프에 반기 들었다…러 정유시설 공습 재개",
-      "link": "https://www.hankyung.com/article/2026101656707",
-      "source": "한국경제",
-      "ts": 1792110504000,
-      "pub": "Fri, 16 Oct 2026 09:28:24 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "젤렌스키, 트럼프 맞서지만…\"미국지원 없으면 우크라 못버텨\"",
@@ -60,17 +124,9 @@
       "image": "https://img.yna.co.kr/photo/etc/epa/2025/03/01/PEP20250301028801009_P2.jpg"
     },
     {
-      "title": "우크라 드론 '눈과 귀' 묶인 직후…머스크 \"젤렌스키 물러날 때\"",
-      "link": "https://www.hankyung.com/article/2026101653687",
-      "source": "한국경제",
-      "ts": 1792106464000,
-      "pub": "Fri, 16 Oct 2026 08:21:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[글로컬] 알래스카 LNG 투자, '트럼프 압박' 넘어서야",
       "link": "https://www.yna.co.kr/view/AKR20261015148400546",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1792102020000,
       "pub": "Fri, 16 Oct 2026 07:07:00 +0900",
       "sentiment": "neutral",
@@ -196,86 +252,6 @@
       "sentiment": "neutral",
       "desc": "(",
       "image": "https://img.yna.co.kr/photo/etc/af/2026/10/15/PAF20261015254301009_P2.jpg"
-    },
-    {
-      "title": "세계 최대 노르웨이 국부펀드, 핵무기 제조사 투자 가능해지나",
-      "link": "https://www.yna.co.kr/view/AKR20261015180800098",
-      "source": "연합뉴스 국제",
-      "ts": 1792071608000,
-      "pub": "Thu, 15 Oct 2026 22:40:08 +0900",
-      "sentiment": "neutral",
-      "desc": "(브뤼셀=연합뉴스) 현윤경 특파원 = 세계 최대 규모를 자랑하는 노르웨이 국부펀드에 핵무기 제조 기업 투자 금지라는 족쇄를 풀어야 한다는 권고가...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/15/PRU20261015162601009_P2.jpg"
-    },
-    {
-      "title": "\"관세청이 송치한 1천582건 처리는?\"…공소청 \"순차 처리\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261014168151002",
-      "source": "연합뉴스 경제",
-      "ts": 1792054836000,
-      "pub": "Thu, 15 Oct 2026 18:00:36 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 이대희 정윤주 기자 = 형사소송법 개정으로 이달 2일 검찰청이 폐지되고 공소청이 출범한 뒤 관세청 특별사법경찰(특사경)이 송치...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100127380001300_P2.jpg"
-    },
-    {
-      "title": "관세청장 \"세관 '수사심사과' 신설 추진…공소청과 많은 협력\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261015112951002",
-      "source": "연합뉴스 경제",
-      "ts": 1792051049000,
-      "pub": "Thu, 15 Oct 2026 16:57:29 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종·대전=연합뉴스) 안채원 송정은 기자 = 이종욱 관세청장은 검찰청 폐지 후 특별사법경찰관(특사경) 수사 시스템을 보완하도록 \"수사 심사과 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101510080006300_P2.jpg"
-    },
-    {
-      "title": "프랑스 극우 르펜 \"대통령 되면 6개월 내 우크라 지원 중단\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261015131151009",
-      "source": "연합뉴스 국제",
-      "ts": 1792050387000,
-      "pub": "Thu, 15 Oct 2026 16:46:27 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울·런던=연합뉴스) 신재우 기자 김지연 특파원 = 프랑스의 유력 대선 후보인 극우 국민연합(RN)의 마린 르펜 의원이 당선되면 프랑스가 유럽...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/13/PAF20261013009601009_P2.jpg"
-    },
-    {
-      "title": "\"우크라 위성통신 장애 뒤엔 유가상승 둘러싼 트럼프 불만\"",
-      "link": "https://www.yna.co.kr/view/AKR20261015139000009",
-      "source": "연합뉴스 국제",
-      "ts": 1792048276000,
-      "pub": "Thu, 15 Oct 2026 16:11:16 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 곽민서 기자 = 미국 스페이스X가 우크라이나군에 제공하는 위성 인터넷 서비스가 제한된 배경에 도널드 트럼프 미국 대통령의 '격...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/06/PRU20261006105801009_P2.jpg"
-    },
-    {
-      "title": "'당나귀 한 마리 4천만원'…전쟁 치른 가자지구 가축 가격 급등",
-      "link": "https://www.yna.co.kr/view/AKR20261015140300009",
-      "source": "연합뉴스 국제",
-      "ts": 1792048120000,
-      "pub": "Thu, 15 Oct 2026 16:08:40 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 현영복 기자 = '당나귀는 4천만원, 말은 3천900만원, 양은 1천만원…'",
-      "image": "https://img.yna.co.kr/photo/ap/2026/03/14/PAP20260314186301009_P2.jpg"
-    },
-    {
-      "title": "젤렌스키 \"러 정유시설 공격 재개\"…트럼프 압박 정면돌파 시사",
-      "link": "https://www.yna.co.kr/view/AKR20261015138100009",
-      "source": "연합뉴스 국제",
-      "ts": 1792047715000,
-      "pub": "Thu, 15 Oct 2026 16:01:55 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 김용래 기자 = 볼로디미르 젤렌스키 우크라이나 대통령이 미국 트럼프 행정부의 압박에도 러시아의 정유시설에 대한 공격을 재개한다...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/15/PAF20261015019701009_P2.jpg"
-    },
-    {
-      "title": "'트럼프 구상' 가자 다국적군기지, 이스라엘 불허에 첫삽도 못떠",
-      "link": "https://www.yna.co.kr/view/AKR20261015136500009",
-      "source": "연합뉴스 국제",
-      "ts": 1792046875000,
-      "pub": "Thu, 15 Oct 2026 15:47:55 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이지헌 기자 = 도널드 트럼프 미국 대통령 주도로 만들어진 가자 평화위원회가 이스라엘의 불허로 가자지구 내 임무지원 기지 건립...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/08/15/PEP20260815033901009_P2.jpg"
     }
   ]
 }

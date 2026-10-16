@@ -1,17 +1,57 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-16T02:01:26.609Z",
-  "count": 9,
+  "updated_at": "2026-10-16T07:36:38.599Z",
+  "count": 10,
   "items": [
     {
-      "title": "삼성전자가 5등?...구직자가 뽑은 관심 기업, 1위 어디길래",
-      "link": "https://www.mt.co.kr/living/2026/10/16/2026101609445016504",
-      "source": "머니투데이",
-      "ts": 1792112720000,
-      "pub": "Fri, 16 Oct 2026 10:05:20 +0900",
+      "title": "삼전 2.6%·하닉 0.8% 상승…8~9거래일만에 반등(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261016036351008",
+      "source": "연합뉴스 경제",
+      "ts": 1792134661000,
+      "pub": "Fri, 16 Oct 2026 16:11:01 +0900",
       "sentiment": "neutral",
-      "desc": "인크루트, 최근 1년간 구직자가 설정한 관심기업 순위 공개 2026년 하반기 공채 열기가 뜨거운 가운데 최근 1년 동안 구직자들이 가장 많은 관심을 보인 기업은 SK하이닉스인 것으로 조사됐다. 2위는 현대차였고, 삼성전자는 5위를 기록했다. 인크루트가 최근 1년(202",
-      "image": "https://thumb.mt.co.kr/06/2026/10/2026101609445016504_1.jpg"
+      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 16일 연일 이어지던 급락세에서 벗어나 반등에 성공한 채...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
+    },
+    {
+      "title": "\"이러다 삼전닉스도 잡겠다\"…세계 3위 오른 中 기업의 정체",
+      "link": "https://www.hankyung.com/article/202610166723i",
+      "source": "한국경제",
+      "ts": 1792133975000,
+      "pub": "Fri, 16 Oct 2026 15:59:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자 노조와 닮았네…대만서 벌어진 '뜻밖의 사태' [김대영의 노무스쿨]",
+      "link": "https://www.hankyung.com/article/202610165150g",
+      "source": "한국경제",
+      "ts": 1792131897000,
+      "pub": "Fri, 16 Oct 2026 15:24:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"에이전트AI 시대, 메모리 효율 높일 핵심은 CXL과 SOM\"",
+      "link": "https://www.hankyung.com/article/202610141988i",
+      "source": "한국경제",
+      "ts": 1792131003000,
+      "pub": "Fri, 16 Oct 2026 15:10:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스, 754조원 번다는데…시장은 왜 못 믿나",
+      "link": "https://www.hankyung.com/article/202610166311i",
+      "source": "한국경제",
+      "ts": 1792130881000,
+      "pub": "Fri, 16 Oct 2026 15:08:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전 담고 하이닉스 던졌다…초고수 엇갈린 '반도체 베팅'",
+      "link": "https://www.hankyung.com/article/202610166482i",
+      "source": "한국경제",
+      "ts": 1792128797000,
+      "pub": "Fri, 16 Oct 2026 14:33:17 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "[특징주] 삼성전자, 장 초반 1.7% 상승 중…하닉도 0.9%↑",
@@ -24,32 +64,6 @@
       "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
     },
     {
-      "title": "\"코어위브 구제 필요 없다\" 美 반도체 낙폭 만회… 삼전닉스도 '방긋'",
-      "link": "https://www.mt.co.kr/stock/2026/10/16/2026101609054127274",
-      "source": "머니투데이",
-      "ts": 1792109957000,
-      "pub": "Fri, 16 Oct 2026 09:19:17 +0900",
-      "sentiment": "negative",
-      "desc": "[특징주] 반도체 대형주인 삼성전자와 SK하이닉스가 16일 장 초반 반등에 나서고 있다. 클라우드 서비스 기업 코어위브의 부채 부담과 신용 위험 우려로 AI(인공지능) 인프라 투자 심리가 크게 위축됐으나, 젠슨 황 엔비디아 CEO(최고경영자)의 발언에 미국 반도체주가 ",
-      "image": "https://thumb.mt.co.kr/06/2026/10/2026101609054127274_1.jpg"
-    },
-    {
-      "title": "\"서버 한 대 값이 4배로\"…AI가 메모리 싹쓸이했다",
-      "link": "https://www.hankyung.com/article/2026101655637",
-      "source": "한국경제",
-      "ts": 1792109074000,
-      "pub": "Fri, 16 Oct 2026 09:04:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"카지노 도박 같아\"…삼전닉스 역대급 실적에도 '서늘한 경고' [테크로그]",
-      "link": "https://www.hankyung.com/article/202610165137g",
-      "source": "한국경제",
-      "ts": 1792108810000,
-      "pub": "Fri, 16 Oct 2026 09:00:10 +0900",
-      "sentiment": "negative"
-    },
-    {
       "title": "SK증권 \"메모리 업황 펀더멘털 여전히 강세…매수 적기\"",
       "link": "https://www.yna.co.kr/view/AKR20261016024500008",
       "source": "연합뉴스 경제",
@@ -58,14 +72,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 곽윤아 기자 = 최근 삼성전자[005930]와 SK하이닉스[000660]의 주가가 급락한 가운데 SK증권[001510]은 16...",
       "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
-    },
-    {
-      "title": "'급락 후 무조건 올랐다'…월가 \"코스피·메모리 저가매수 기회\"",
-      "link": "https://www.hankyung.com/article/202610165257i",
-      "source": "한국경제",
-      "ts": 1792107039000,
-      "pub": "Fri, 16 Oct 2026 08:30:39 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "KB증권 \"삼성전자·SK하이닉스 급락 과도…실적은 오히려 개선\"",

@@ -1,8 +1,46 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-16T07:36:38.600Z",
-  "count": 13,
+  "updated_at": "2026-10-16T12:47:32.353Z",
+  "count": 8,
   "items": [
+    {
+      "title": "엔비디아, AI PC 'RTX 스파크' 국내 출시…\"에이전트 AI 시대 가속화\"",
+      "link": "https://www.hankyung.com/article/202610166871i",
+      "source": "한국경제",
+      "ts": 1792152518000,
+      "pub": "Fri, 16 Oct 2026 21:08:38 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "남보라 \"엔비디아 수익률 300%, 매도 완료…경제 천재 되고파\"",
+      "link": "https://www.mt.co.kr/entertainment/2026/10/16/2026101617280390314",
+      "source": "머니투데이",
+      "ts": 1792141262000,
+      "pub": "Fri, 16 Oct 2026 18:01:02 +0900",
+      "sentiment": "neutral",
+      "desc": "배우 남보라가 엔비디아 주식에 투자해 300%의 수익률을 기록했지만 보유 수량은 단 1주였다고 밝혀 웃음을 자아냈다. 지난 15일 유튜브 채널 '채널크크 및 채널K by 키움증권'에는 웹 예능 '돈쭐청문회' 남보라 편이 공개됐다. 영상에서 남보라는 개그맨 박영진, 남현",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026101617280390314_1.jpg"
+    },
+    {
+      "title": "엑시나, 'OCP 글로벌 서밋'서 CXL 메모리 기반 AI 추론 기술 시연",
+      "link": "https://www.mt.co.kr/future/2026/10/16/2026101609474885020",
+      "source": "머니투데이",
+      "ts": 1792141200000,
+      "pub": "Fri, 16 Oct 2026 18:00:00 +0900",
+      "sentiment": "neutral",
+      "desc": "[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 ‘데이터랩’에서 볼 수 있습니다.] 인공지능(AI) 메모리 인프라 반도체 팹리스 기업 엑시나가 지난 12~15일(현지시간) 미국 캘리포니아주 산호세 컨벤션센터에서 열린 'OCP 글로벌",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026101609474885020_1.jpg"
+    },
+    {
+      "title": "반도체 투톱 반등에도 'AI 빚' 그늘…가격 왜곡 가능성은",
+      "link": "https://www.mt.co.kr/stock/2026/10/16/2026101616570227023",
+      "source": "머니투데이",
+      "ts": 1792139829000,
+      "pub": "Fri, 16 Oct 2026 17:37:09 +0900",
+      "sentiment": "neutral",
+      "desc": "[오늘의 포인트] 삼성전자와 SK하이닉스가 반등했다. 하지만 지난 7거래일 동안 하락 상황은 완전히 회복되지 않았다. AI(인공지능) 투자를 위한 빚 부담이 금리 상승으로 확대될 것이란 전망이 제기되면서 투자심리가 위축된 모습이다. 증권가에서는 반도체 업종의 저가 매력",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026101616570227023_1.jpg"
+    },
     {
       "title": "반도체 소부장·금융채 투자 등 ETF 7종 20일 신규 상장",
       "link": "https://www.yna.co.kr/view/AKR20261016134900008",
@@ -12,14 +50,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김유아 기자 = 한국거래소는 KB·삼성·DB·한국·미래에셋·하나 자산운용의 상장지수펀드(ETF) 7종목을 오는 20일 유가증권...",
       "image": "https://img.yna.co.kr/photo/cms/2026/06/25/83/PCM20260625000183990_P2.jpg"
-    },
-    {
-      "title": "\"오락가락 반도체 대신 '여기'\"…거래량 급등에 주가 7% 뛴 종목",
-      "link": "https://www.hankyung.com/article/202610166722i",
-      "source": "한국경제",
-      "ts": 1792134070000,
-      "pub": "Fri, 16 Oct 2026 16:01:10 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "마이크론, 대만 타이중에 최신 패키징공장 가동 개시",
@@ -32,30 +62,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/16/AKR20261016122300009_01_i_P2.jpg"
     },
     {
-      "title": "애플, 중국산 반도체 도입 '만지작'…삼성·SK 영향 주목",
-      "link": "https://www.hankyung.com/article/202610166647i",
-      "source": "한국경제",
-      "ts": 1792132203000,
-      "pub": "Fri, 16 Oct 2026 15:30:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"에이전트AI 시대, 메모리 효율 높일 핵심은 CXL과 SOM\"",
-      "link": "https://www.hankyung.com/article/202610141988i",
-      "source": "한국경제",
-      "ts": 1792131003000,
-      "pub": "Fri, 16 Oct 2026 15:10:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전 담고 하이닉스 던졌다…초고수 엇갈린 '반도체 베팅'",
-      "link": "https://www.hankyung.com/article/202610166482i",
-      "source": "한국경제",
-      "ts": 1792128797000,
-      "pub": "Fri, 16 Oct 2026 14:33:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "월가 \"CXMT 추격론 과도\"…\"발표와 양산은 별개\"",
       "link": "https://www.yna.co.kr/view/AKR20261016056400009",
       "source": "연합뉴스 국제",
@@ -66,36 +72,6 @@
       "image": "https://img.yna.co.kr/photo/etc/gt/2026/10/14/PGT20261014121001009_P2.jpg"
     },
     {
-      "title": "SK증권 \"메모리 업황 펀더멘털 여전히 강세…매수 적기\"",
-      "link": "https://www.yna.co.kr/view/AKR20261016024500008",
-      "source": "연합뉴스 경제",
-      "ts": 1792107260000,
-      "pub": "Fri, 16 Oct 2026 08:34:20 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 곽윤아 기자 = 최근 삼성전자[005930]와 SK하이닉스[000660]의 주가가 급락한 가운데 SK증권[001510]은 16...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
-    },
-    {
-      "title": "KB증권 \"삼성전자·SK하이닉스 급락 과도…실적은 오히려 개선\"",
-      "link": "https://www.yna.co.kr/view/AKR20261016022900008",
-      "source": "연합뉴스 경제",
-      "ts": 1792106748000,
-      "pub": "Fri, 16 Oct 2026 08:25:48 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 정회인 기자 = KB증권은 16일 최근 삼성전자[005930]와 SK하이닉스[000660]의 주가 급락이 실적 악화보다는 국내...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
-    },
-    {
-      "title": "구직자가 뽑은 관심기업 1위 SK하이닉스…현대차 2위",
-      "link": "https://www.yna.co.kr/view/AKR20261016021500003",
-      "source": "연합뉴스 경제",
-      "ts": 1792106454000,
-      "pub": "Fri, 16 Oct 2026 08:20:54 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김민지 기자 = 인크루트는 최근 1년간(2025년 9월∼2026년 9월) 구직자가 설정한 관심 기업 데이터를 분석한 결과, S...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/16/AKR20261016021500003_01_i_P2.jpg"
-    },
-    {
       "title": "AI·반도체주 4일간 시총 1조달러 증발",
       "link": "https://www.yna.co.kr/view/AKR20261016015200009",
       "source": "연합뉴스 국제",
@@ -104,26 +80,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 정주호 기자 = 금리 인상 우려와 인공지능(AI) 투자 부담 우려, 중국 메모리 업체의 추격 전망이 한꺼번에 겹치면서 세계 A...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/10/PYH2026081000380008900_P2.jpg"
-    },
-    {
-      "title": "애플 CEO \"메모리 위기에 모든 선택지 고려\"…중국산 사용 시사",
-      "link": "https://www.yna.co.kr/view/AKR20261016003100091",
-      "source": "연합뉴스 국제",
-      "ts": 1792090407000,
-      "pub": "Fri, 16 Oct 2026 03:53:27 +0900",
-      "sentiment": "negative",
-      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 존 터너스 애플 최고경영자(CEO)가 메모리 품귀를 '절대적 위기'로 진단하면서 중국산 제품의 사용 ...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/19/PRU20260919002901009_P2.jpg"
-    },
-    {
-      "title": "엔비디아·애플 각각 330억원…트럼프 쏙 빠진 연회장 기부명단",
-      "link": "https://www.yna.co.kr/view/AKR20261016001900071",
-      "source": "연합뉴스 국제",
-      "ts": 1792086508000,
-      "pub": "Fri, 16 Oct 2026 02:48:28 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 적극 추진하는 백악관 연회장(ballroom) 건설에 3억3천만 달러(약 4천...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/16/PRU20261016008401009_P2.jpg"
     }
   ]
 }

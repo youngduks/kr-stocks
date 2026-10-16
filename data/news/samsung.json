@@ -1,8 +1,18 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-16T07:36:38.599Z",
-  "count": 10,
+  "updated_at": "2026-10-16T12:47:32.353Z",
+  "count": 3,
   "items": [
+    {
+      "title": "엑시나, 'OCP 글로벌 서밋'서 CXL 메모리 기반 AI 추론 기술 시연",
+      "link": "https://www.mt.co.kr/future/2026/10/16/2026101609474885020",
+      "source": "머니투데이",
+      "ts": 1792141200000,
+      "pub": "Fri, 16 Oct 2026 18:00:00 +0900",
+      "sentiment": "neutral",
+      "desc": "[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 ‘데이터랩’에서 볼 수 있습니다.] 인공지능(AI) 메모리 인프라 반도체 팹리스 기업 엑시나가 지난 12~15일(현지시간) 미국 캘리포니아주 산호세 컨벤션센터에서 열린 'OCP 글로벌",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026101609474885020_1.jpg"
+    },
     {
       "title": "삼전 2.6%·하닉 0.8% 상승…8~9거래일만에 반등(종합)",
       "link": "https://www.yna.co.kr/view/AKR20261016036351008",
@@ -14,46 +24,6 @@
       "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
     },
     {
-      "title": "\"이러다 삼전닉스도 잡겠다\"…세계 3위 오른 中 기업의 정체",
-      "link": "https://www.hankyung.com/article/202610166723i",
-      "source": "한국경제",
-      "ts": 1792133975000,
-      "pub": "Fri, 16 Oct 2026 15:59:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 노조와 닮았네…대만서 벌어진 '뜻밖의 사태' [김대영의 노무스쿨]",
-      "link": "https://www.hankyung.com/article/202610165150g",
-      "source": "한국경제",
-      "ts": 1792131897000,
-      "pub": "Fri, 16 Oct 2026 15:24:57 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"에이전트AI 시대, 메모리 효율 높일 핵심은 CXL과 SOM\"",
-      "link": "https://www.hankyung.com/article/202610141988i",
-      "source": "한국경제",
-      "ts": 1792131003000,
-      "pub": "Fri, 16 Oct 2026 15:10:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스, 754조원 번다는데…시장은 왜 못 믿나",
-      "link": "https://www.hankyung.com/article/202610166311i",
-      "source": "한국경제",
-      "ts": 1792130881000,
-      "pub": "Fri, 16 Oct 2026 15:08:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전 담고 하이닉스 던졌다…초고수 엇갈린 '반도체 베팅'",
-      "link": "https://www.hankyung.com/article/202610166482i",
-      "source": "한국경제",
-      "ts": 1792128797000,
-      "pub": "Fri, 16 Oct 2026 14:33:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[특징주] 삼성전자, 장 초반 1.7% 상승 중…하닉도 0.9%↑",
       "link": "https://www.yna.co.kr/view/AKR20261016036300008",
       "source": "연합뉴스 경제",
@@ -62,36 +32,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 16일 연일 이어지던 급락에서 벗어나 장 초반 1% 안팎...",
       "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
-    },
-    {
-      "title": "SK증권 \"메모리 업황 펀더멘털 여전히 강세…매수 적기\"",
-      "link": "https://www.yna.co.kr/view/AKR20261016024500008",
-      "source": "연합뉴스 경제",
-      "ts": 1792107260000,
-      "pub": "Fri, 16 Oct 2026 08:34:20 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 곽윤아 기자 = 최근 삼성전자[005930]와 SK하이닉스[000660]의 주가가 급락한 가운데 SK증권[001510]은 16...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
-    },
-    {
-      "title": "KB증권 \"삼성전자·SK하이닉스 급락 과도…실적은 오히려 개선\"",
-      "link": "https://www.yna.co.kr/view/AKR20261016022900008",
-      "source": "연합뉴스 경제",
-      "ts": 1792106748000,
-      "pub": "Fri, 16 Oct 2026 08:25:48 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 정회인 기자 = KB증권은 16일 최근 삼성전자[005930]와 SK하이닉스[000660]의 주가 급락이 실적 악화보다는 국내...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
-    },
-    {
-      "title": "애플 CEO \"메모리 위기에 모든 선택지 고려\"…중국산 사용 시사",
-      "link": "https://www.yna.co.kr/view/AKR20261016003100091",
-      "source": "연합뉴스 국제",
-      "ts": 1792090407000,
-      "pub": "Fri, 16 Oct 2026 03:53:27 +0900",
-      "sentiment": "negative",
-      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 존 터너스 애플 최고경영자(CEO)가 메모리 품귀를 '절대적 위기'로 진단하면서 중국산 제품의 사용 ...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/19/PRU20260919002901009_P2.jpg"
     }
   ]
 }

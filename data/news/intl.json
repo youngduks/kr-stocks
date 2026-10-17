@@ -1,8 +1,18 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-17T11:14:38.508Z",
+  "updated_at": "2026-10-17T14:33:47.186Z",
   "count": 26,
   "items": [
+    {
+      "title": "젤렌스키 \"G20 정상회의 기간에 美·러와 3자 회담 희망\"",
+      "link": "https://www.yna.co.kr/view/AKR20261017047700079",
+      "source": "연합뉴스 국제",
+      "ts": 1792242490000,
+      "pub": "Sat, 17 Oct 2026 22:08:10 +0900",
+      "sentiment": "neutral",
+      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령은 미국에서 열리는 주요 20개국(G20) 정상회의 기간 중 우크라이나...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/17/AKR20261017047700079_01_i_P2.jpg"
+    },
     {
       "title": "EU, 우크라 회원국 합류 공동 TF 출범…\"가입 절차에 속도\"",
       "link": "https://www.yna.co.kr/view/AKR20261017044600098",
@@ -252,16 +262,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 러시아가 우크라이나 남부 상업 시설을 자폭 드론으로 타격해 4명이 다치는 피해가 발생했습니다.",
       "image": "https://www.youtube.com/embed/J75CuqSf6RA"
-    },
-    {
-      "title": "트럼프 \"수치스러운 일\"…러 공격 재개 젤렌스키와 정면충돌(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261016122800009",
-      "source": "연합뉴스 국제",
-      "ts": 1792133682000,
-      "pub": "Fri, 16 Oct 2026 15:54:42 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이신영 김승욱 기자 = 우크라이나가 15일(현지시간) 도널드 트럼프 미국 행정부의 압박에도 불구하고 러시아 정유시설에 대한 공...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/14/PEP20261014010801009_P2.jpg"
     }
   ]
 }

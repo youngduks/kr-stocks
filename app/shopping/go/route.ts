@@ -25,6 +25,7 @@ const ALLOWED_HOSTS = new Set([
   "hotels.naver.com",
   "travel.naver.com",
   "m.place.naver.com",
+  "kr.trip.com",   // 2026-10-17 트립닷컴 제휴(Allianceid 포함 호텔 상세 링크)
 ]);
 
 export async function GET(req: NextRequest) {

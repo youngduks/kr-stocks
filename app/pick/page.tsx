@@ -16,7 +16,7 @@ export const dynamic = "force-dynamic";
 
 const TITLE = "줍줍파파 숙소 PICK — 아이랑 가기 좋은 숙소";
 const DESC = "줍줍파파가 직접 고른 아이랑 가기 좋은 숙소 모음. 오늘·이번 주 가장 많이 본 숙소와 번호로 찾는 전체 리스트.";
-const DISCLOSURE = "이 페이지의 링크는 제휴 링크로, 예약 시 일정액의 수수료를 받을 수 있어요.";
+const DISCLOSURE = "이 페이지의 링크는 쿠팡 파트너스·트립닷컴 제휴 링크로, 예약 시 일정액의 수수료를 받을 수 있어요.";
 
 export const metadata: Metadata = {
   title: TITLE,

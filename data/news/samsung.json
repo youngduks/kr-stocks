@@ -1,8 +1,32 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-16T23:05:31.058Z",
-  "count": 3,
+  "updated_at": "2026-10-17T01:56:04.217Z",
+  "count": 6,
   "items": [
+    {
+      "title": "\"반도체는 워싱턴서 결정\"…SK가 HBM 만큼 공들이는 것 [강경주의 테크X]",
+      "link": "https://www.hankyung.com/article/2026101667266",
+      "source": "한국경제",
+      "ts": 1792197001000,
+      "pub": "Sat, 17 Oct 2026 09:30:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"비싸도 좋으니 물량만 달라\"…거품 경고에도 삼전닉스 '반전' [홍민성의 테토남]",
+      "link": "https://www.hankyung.com/article/202610166229g",
+      "source": "한국경제",
+      "ts": 1792195202000,
+      "pub": "Sat, 17 Oct 2026 09:00:02 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "확 꺾인 삼전닉스 수익률…현 시점 대응 전략은?",
+      "link": "https://www.hankyung.com/article/202610166888i",
+      "source": "한국경제",
+      "ts": 1792191612000,
+      "pub": "Sat, 17 Oct 2026 08:00:12 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "외국인이 8.8조 던진 삼전·하이닉스…한 주 새 각각 17%·24% 뚝",
       "link": "https://www.hankyung.com/article/2026101673987",

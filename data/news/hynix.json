@@ -1,14 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-17T01:56:04.217Z",
-  "count": 8,
+  "updated_at": "2026-10-17T06:23:34.217Z",
+  "count": 7,
   "items": [
+    {
+      "title": "CXMT, 3분기 매출 600%대 급증 전망…최대 4천억원 자사주 매입",
+      "link": "https://www.yna.co.kr/view/AKR20261017027300089",
+      "source": "연합뉴스 국제",
+      "ts": 1792210022000,
+      "pub": "Sat, 17 Oct 2026 13:07:02 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 삼성전자·SK하이닉스 주도의 D램 메모리 시장에 도전 중인 중국 창신메모리(CXMT)가 인공지능(AI) 붐...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/17/AKR20261017027300089_01_i_P2.jpg"
+    },
     {
       "title": "\"반도체는 워싱턴서 결정\"…SK가 HBM 만큼 공들이는 것 [강경주의 테크X]",
       "link": "https://www.hankyung.com/article/2026101667266",
       "source": "한국경제",
       "ts": 1792197001000,
       "pub": "Sat, 17 Oct 2026 09:30:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"유독 하이닉스 주가만 더 빠진다\"…개미들 분통 터진 까닭 [분석+]",
+      "link": "https://www.hankyung.com/article/2026101775157",
+      "source": "한국경제",
+      "ts": 1792191982000,
+      "pub": "Sat, 17 Oct 2026 08:06:22 +0900",
       "sentiment": "neutral"
     },
     {
@@ -20,16 +38,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "젠슨 황 약발도 하루…'AI 채무 공포'에 반도체·기술주 비명[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/10/17/2026101706381236563",
-      "source": "머니투데이",
-      "ts": 1792186824000,
-      "pub": "Sat, 17 Oct 2026 06:40:24 +0900",
-      "sentiment": "neutral",
-      "desc": "뉴욕 증시의 3대 지수가 16일(현지시간) 일제히 하락했다. 전날 젠슨 황 엔비디아 최고경영자(CEO)의 발언으로 잦아드는 듯했던 인공지능(AI) 인프라(기반시설) 투자 우려가 다시 불거지면서 기술주 전반에 그림자가 드리웠다. 국제유가도 증시를 끌어내렸다. 기술주 중심",
-      "image": "https://thumb.mt.co.kr/06/2026/10/2026101706381236563_1.jpg"
-    },
-    {
       "title": "AI 경고등에 유가 급등까지…반도체 급락, 나스닥 2.2%↓(종합)",
       "link": "https://www.yna.co.kr/view/AKR20261017005151072",
       "source": "연합뉴스 국제",
@@ -38,22 +46,6 @@
       "sentiment": "negative",
       "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 16일(현지시간) 미국 뉴욕 증시의 주요 지수가 일제히 하락했다.",
       "image": "https://img.yna.co.kr/photo/reuters/2026/09/29/PRU20260929016001009_P2.jpg"
-    },
-    {
-      "title": "외국인이 8.8조 던진 삼전·하이닉스…한 주 새 각각 17%·24% 뚝",
-      "link": "https://www.hankyung.com/article/2026101673987",
-      "source": "한국경제",
-      "ts": 1792158805000,
-      "pub": "Fri, 16 Oct 2026 22:53:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아, AI PC 'RTX 스파크' 국내 출시…\"에이전트 AI 시대 가속화\"",
-      "link": "https://www.hankyung.com/article/202610166871i",
-      "source": "한국경제",
-      "ts": 1792152518000,
-      "pub": "Fri, 16 Oct 2026 21:08:38 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "반도체 소부장·금융채 투자 등 ETF 7종 20일 신규 상장",

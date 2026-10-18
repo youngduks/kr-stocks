@@ -129,9 +129,15 @@ export function StayRow({ stay, rank, price }: { stay: Stay; rank?: number; pric
               }`}
             >
               {l.platform ? `${l.platform}에서 보기` : "예약 보기"}
+              {l.platform && stay.priceCheck?.cheaper === l.platform && (
+                <span className="ml-2 rounded-md px-1.5 py-0.5 text-[11px] font-bold bg-up text-white">이 날짜 더 저렴</span>
+              )}
             </a>
           ))}
         </div>
+      )}
+      {stay.links.length > 0 && stay.priceCheck && (
+        <div className="ds-meta mt-1.5 num">{stay.priceCheck.line}</div>
       )}
     </li>
   );

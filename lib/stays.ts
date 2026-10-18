@@ -13,6 +13,14 @@ export const STAYS_REVALIDATE = 300;
 
 export type StayLink = { platform: string; url: string };
 
+/** 링크 버튼 아래 같은 날짜 가격 비교 줄(서버에서 문구까지 만들어 넘김) */
+export type StayPriceCheckView = {
+  /** "10/24(토) 1박·성인2 기준 쿠팡 18.2만원 · 트립닷컴 19.5만원 (10/19 확인)" */
+  line: string;
+  /** 이 날짜 더 싼 플랫폼 — 두 곳 모두 세금 포함 금액으로 읽혔을 때만 */
+  cheaper?: string;
+};
+
 export type Stay = {
   no: number;
   name: string;
@@ -23,6 +31,7 @@ export type Stay = {
   thumb: string;
   links: StayLink[];
   added: string;
+  priceCheck?: StayPriceCheckView;
 };
 
 function rawUrls(): string[] {
@@ -38,8 +47,53 @@ function rawUrls(): string[] {
 
 const str = (v: unknown, max = 300) => (typeof v === "string" ? v.trim().slice(0, max) : "");
 
+const WEEKDAYS = ["일", "월", "화", "수", "목", "금", "토"];
+const isDate = (v: unknown): v is string => typeof v === "string" && /^\d{4}-\d{2}-\d{2}$/.test(v);
+
+function kstToday(): string {
+  return new Date(Date.now() + 9 * 3600_000).toISOString().slice(0, 10);
+}
+
+/** "10/24(토)" */
+function md(date: string, withWeekday = true): string {
+  const [, m, d] = date.split("-").map(Number);
+  const wd = WEEKDAYS[new Date(`${date}T00:00:00Z`).getUTCDay()];
+  return withWeekday ? `${m}/${d}(${wd})` : `${m}/${d}`;
+}
+
+/** 18.2만원 — 천원 자리 반올림 */
+const man1 = (krw: number) => `${(Math.round(krw / 1000) / 10).toLocaleString("ko-KR")}만원`;
+
+/**
+ * data/stays.json price_check(~/.claude-bot/ops/price_compare.py, 주 1회) → 비교 줄.
+ * 체크인 날짜가 지났으면 표시 안 함. 읽은 금액만 그대로 — "최저가" 같은 단정 없이 기준 날짜·확인 날짜·금액만.
+ */
+function priceCheckView(pc: any, today: string): StayPriceCheckView | undefined {
+  if (!pc || !isDate(pc.date) || !isDate(pc.checked) || pc.date < today) return undefined;
+  // flag("이상값" 등)가 붙은 기록은 가격 줄·배지 모두 표시하지 않음(수집기 규칙: 300만원 초과 또는 두 곳 비율 1.8 초과)
+  if (pc.flag) return undefined;
+  const prices = pc.prices && typeof pc.prices === "object" ? pc.prices : {};
+  const parts: string[] = [];
+  const packages: string[] = [];
+  for (const [platform, p] of Object.entries<any>(prices)) {
+    const name = str(platform, 20);
+    if (!name || !p) continue;
+    if (p.kind === "package") packages.push(`${name}: 패키지 상품`);
+    else if (typeof p.krw === "number" && Number.isFinite(p.krw) && p.krw > 0)
+      parts.push(`${name} ${man1(p.krw)}${p.tax === "포함" ? "" : p.tax === "별도" ? "(세금 별도)" : "(세금 포함 여부 불명)"}`);
+  }
+  if (!parts.length && !packages.length) return undefined;
+  const nights = Number(pc.nights) || 1;
+  const adults = Number(pc.adults) || 2;
+  const segs: string[] = [];
+  if (parts.length) segs.push(`${md(pc.date)} ${nights}박·성인${adults} 기준 ${parts.join(" · ")} (${md(pc.checked, false)} 확인)`);
+  segs.push(...packages);
+  const cheaper = parts.length >= 2 && typeof pc.cheaper === "string" && pc.cheaper in prices ? pc.cheaper : undefined;
+  return { line: segs.join(" · "), cheaper };
+}
+
 /** 수기 입력 데이터라 필드 누락·오타에 관대하게 — no·name 없는 행만 버림. 썸네일·링크는 https 만. */
-function normalize(row: any): Stay | null {
+function normalize(row: any, today: string): Stay | null {
   const no = Number(row?.no);
   const name = str(row?.name, 80);
   if (!Number.isInteger(no) || no <= 0 || !name) return null;
@@ -59,6 +113,7 @@ function normalize(row: any): Stay | null {
     thumb: thumb.startsWith("https://") ? thumb : "",
     links,
     added: str(row?.added, 20),
+    priceCheck: priceCheckView(row?.price_check, today),
   };
 }
 
@@ -71,9 +126,10 @@ export async function getStays(): Promise<Stay[]> {
       const data = await res.json();
       if (!Array.isArray(data)) continue;
       const seen = new Set<number>();
+      const today = kstToday();
       const stays: Stay[] = [];
       for (const row of data) {
-        const s = normalize(row);
+        const s = normalize(row, today);
         if (s && !seen.has(s.no)) {
           seen.add(s.no);
           stays.push(s);

@@ -113,6 +113,10 @@ export default async function PickPage() {
           다른 곳이 더 쌀 수 있고, 지금 가격과 다를 수 있어요.
         </p>
         <p className="ds-meta mt-2">
+          ※ 예약 버튼 아래 금액은 주 1회 같은 체크인 날짜·성인 2명·객실 1개·1박 조건으로 쿠팡과 트립닷컴에서 확인일에 본 가장 싼 객실
+          금액이에요. ‘이 날짜 더 저렴’은 두 곳 모두 세금 포함 금액으로 확인됐을 때 그 날짜에만 해당해요.
+        </p>
+        <p className="ds-meta mt-2">
           <Link href="/" prefetch={false} className="underline">
             kr-stocks.com
           </Link>

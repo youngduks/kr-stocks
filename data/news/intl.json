@@ -1,8 +1,54 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-18T21:08:52.326Z",
-  "count": 38,
+  "updated_at": "2026-10-18T23:46:21.610Z",
+  "count": 41,
   "items": [
+    {
+      "title": "하나증권, 금호타이어 목표가↓…\"환율·관세 영향에 실적부진\"",
+      "link": "https://www.yna.co.kr/view/AKR20261019020400008",
+      "source": "연합뉴스 경제",
+      "ts": 1792366376000,
+      "pub": "Mon, 19 Oct 2026 08:32:56 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유아 기자 = 하나증권은 금호타이어[073240]의 올해 3분기 실적이 시장 기대치를 밑돌 것으로 예상된다며 19일 목표주가...",
+      "image": "https://img.yna.co.kr/photo/cms/2023/12/30/60/PCM20231230000260003_P2.jpg"
+    },
+    {
+      "title": "Fed 금리인상 우려 줄었는데…금값은 유가에 발목",
+      "link": "https://www.hankyung.com/article/202610199339i",
+      "source": "한국경제",
+      "ts": 1792363670000,
+      "pub": "Mon, 19 Oct 2026 07:47:50 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "이스라엘발 유럽행 여객기 폭탄위협 신고에 비상착륙",
+      "link": "https://www.yna.co.kr/view/AKR20261019013100009",
+      "source": "연합뉴스 국제",
+      "ts": 1792363410000,
+      "pub": "Mon, 19 Oct 2026 07:43:30 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이지헌 기자 = 이스라엘에서 오스트리아 빈으로 향하던 오스트리아항공 여객기가 18일(현지시간) 폭탄 위협 신고를 받고 불가리아...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2020/03/19/PEP20200319231501848_P2.jpg"
+    },
+    {
+      "title": "\"한미, 이혼 아닌 부부상담\"…트럼프 최측근 입에서 나온 말",
+      "link": "https://www.hankyung.com/article/202610199308H",
+      "source": "한국경제",
+      "ts": 1792362423000,
+      "pub": "Mon, 19 Oct 2026 07:27:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 \"내 대러 결정은 간단…종전협상서 러 떠나길 원치 않아\"",
+      "link": "https://www.yna.co.kr/view/AKR20261019007500071",
+      "source": "연합뉴스 국제",
+      "ts": 1792361998000,
+      "pub": "Mon, 19 Oct 2026 07:19:58 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 18일(현지시간) 자신의 대러 제재 보류 및 러시아 경유 판매 허용 결정이 러...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/23/PAF20260923212601009_P2.jpg"
+    },
     {
       "title": "트럼프 측근 美의원 \"한미관계 재설정 중…이혼 아닌 부부상담\"",
       "link": "https://www.yna.co.kr/view/AKR20261019003400071",
@@ -11,7 +57,7 @@
       "pub": "Mon, 19 Oct 2026 05:12:01 +0900",
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령의 측근인 데이브 매코믹 연방 상원의원(공화·펜실베이니아)이 한미 관계가 '재설정...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/19/AKR20261019003400071_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/08/PYH2026100819620001300_P2.jpg"
     },
     {
       "title": "트럼프 '러 에너지 유화책'에 공화 반발기류…美여권 내분 양상(종합)",
@@ -51,7 +97,7 @@
       "pub": "Mon, 19 Oct 2026 01:22:12 +0900",
       "sentiment": "neutral",
       "desc": "(바르샤바=연합뉴스) 김계연 특파원 = 한국과 우크라이나 정부가 북한군 포로 송환을 협의하는 과정에서 외부에 최대한 오래 공개하지 않는다는 공감...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/18/AKR20261018056951082_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/18/AKR20261018056951082_03_i_P2.jpg"
     },
     {
       "title": "트럼프, 이스라엘 총선 9일 앞 네타냐후 지지…\"위대한 전사\"",
@@ -61,7 +107,7 @@
       "pub": "Mon, 19 Oct 2026 01:20:25 +0900",
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 이스라엘 총선(10월 27일)을 9일 앞둔 18일(현지시간) 베냐민 네타냐후 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/19/AKR20261019001300071_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/etc/epa/2025/09/30/PEP20250930051401009_P2.jpg"
     },
     {
       "title": "젤렌스키 \"美 정보공유 재개에 감사…美 푸틴 편들면 역사적 실수\"",
@@ -71,7 +117,7 @@
       "pub": "Mon, 19 Oct 2026 00:57:52 +0900",
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 블라디미르 푸틴 러시아 대통령과 합의한 '경유딜'을 작심 비판해오던 볼로디미르...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/19/AKR20261019000500071_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/ap/2026/07/14/PAP20260714051201009_P2.jpg"
     },
     {
       "title": "중간선거앞 트럼프 지지율 잇단 최저치…경제정책 반대 70%",
@@ -126,14 +172,6 @@
       "ts": 1792313705000,
       "pub": "Sun, 18 Oct 2026 17:55:05 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "美 백악관 대변인, 임명 나흘 만에 경질",
-      "link": "https://www.hankyung.com/article/2026101888741",
-      "source": "한국경제",
-      "ts": 1792313592000,
-      "pub": "Sun, 18 Oct 2026 17:53:12 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "젤렌스키 \"美, 푸틴과 3자회담 제안…G20 회의 때 열릴 수도\"",
@@ -354,16 +392,6 @@
       "sentiment": "neutral",
       "desc": "(서울·상하이=연합뉴스) 임화섭 기자 차병섭 특파원 = 유럽연합(EU)이 무역전쟁 발생 시 EU 역내 시장에 대한 접근을 \"신속하고 즉각적으로\"...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/10/17/PRU20261017041501009_P2.jpg"
-    },
-    {
-      "title": "트럼프, '그레이엄법' 대러제재·고율관세 시행 않고 면제 발표",
-      "link": "https://www.yna.co.kr/view/AKR20261017023100009",
-      "source": "연합뉴스 국제",
-      "ts": 1792202979000,
-      "pub": "Sat, 17 Oct 2026 11:09:39 +0900",
-      "sentiment": "negative",
-      "desc": "(서울-연합뉴스) 임화섭 기자 = 도널드 트럼프 미국 대통령이 러시아산 에너지 구매국 등에 고율 관세를 부과하는 등 내용을 담은 대(對)러시아 ...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/12/PAF20261012078201009_P2.jpg"
     },
     {
       "title": "중동도 우크라도 불안…브렌트유 109달러대, 5개월만에 최고",

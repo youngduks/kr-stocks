@@ -1,15 +1,25 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-18T06:45:46.896Z",
+  "updated_at": "2026-10-18T11:51:12.732Z",
   "count": 6,
   "items": [
     {
-      "title": "연금개미, 국내 반도체 ETF 팔고 미국 대표지수 샀다",
-      "link": "https://www.hankyung.com/article/202610167004i",
+      "title": "중국 CXMT 차세대 D램 위협인가 [한경 프리미엄9 TODAY]",
+      "link": "https://www.hankyung.com/article/2026101889251",
       "source": "한국경제",
-      "ts": 1792305356000,
-      "pub": "Sun, 18 Oct 2026 15:35:56 +0900",
+      "ts": 1792314007000,
+      "pub": "Sun, 18 Oct 2026 18:00:07 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "\"억대 성과급, 인생 달겠다\"…SK하이닉스 직원에 이미주가 한 말",
+      "link": "https://www.mt.co.kr/entertainment/2026/10/18/2026101815593465180",
+      "source": "머니투데이",
+      "ts": 1792307648000,
+      "pub": "Sun, 18 Oct 2026 16:14:08 +0900",
+      "sentiment": "neutral",
+      "desc": "방송인 이미주가 SK하이닉스 직원들의 억대 성과급 소식에 부러움을 드러냈다. 18일 방송된 SBS 교양 프로그램 '다시 쓰는 성공 방정식 - 영크크는 출근 중'에선 대학 진학 대신 일찍 기술을 익혀 대기업 취업 등에 성공한 직업계고 출신 청년들의 사연이 소개됐다. 이날",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026101815593465180_1.jpg"
     },
     {
       "title": "日, 방위비 증액 위해 AI·반도체기업 등 법인세 올리나",
@@ -40,16 +50,6 @@
       "sentiment": "neutral",
       "desc": "(상하이=연합뉴스) 차병섭 특파원 = 삼성전자·SK하이닉스 주도의 D램 메모리 시장에 도전 중인 중국 창신메모리(CXMT)가 인공지능(AI) 붐...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/17/AKR20261017027300089_01_i_P2.jpg"
-    },
-    {
-      "title": "AI 경고등에 유가 급등까지…반도체 급락, 나스닥 2.2%↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261017005151072",
-      "source": "연합뉴스 국제",
-      "ts": 1792185965000,
-      "pub": "Sat, 17 Oct 2026 06:26:05 +0900",
-      "sentiment": "negative",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 16일(현지시간) 미국 뉴욕 증시의 주요 지수가 일제히 하락했다.",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/09/29/PRU20260929016001009_P2.jpg"
     },
     {
       "title": "반도체 소부장·금융채 투자 등 ETF 7종 20일 신규 상장",

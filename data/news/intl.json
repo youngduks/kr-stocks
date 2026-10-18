@@ -1,8 +1,28 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-17T23:35:44.432Z",
-  "count": 33,
+  "updated_at": "2026-10-18T01:54:47.082Z",
+  "count": 34,
   "items": [
+    {
+      "title": "\"트럼프 특사, 유럽에 러시아산 천연가스 수입재개 제안\"",
+      "link": "https://www.yna.co.kr/view/AKR20261018013400009",
+      "source": "연합뉴스 국제",
+      "ts": 1792284989000,
+      "pub": "Sun, 18 Oct 2026 09:56:29 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이지헌 기자 = 도널드 트럼프 미 행정부가 교착 상태에 빠진 우크라이나 평화협상을 끌어내려는 방안으로 유럽의 러시아산 가스 구...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/18/AKR20261018013400009_01_i_P2.jpg"
+    },
+    {
+      "title": "중간선거 앞 경제지표 악재 속출에 트럼프·공화당 궁지",
+      "link": "https://www.yna.co.kr/view/AKR20261018012700009",
+      "source": "연합뉴스 국제",
+      "ts": 1792283893000,
+      "pub": "Sun, 18 Oct 2026 09:38:13 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 김아람 기자 = 미국에서 물가 상승세가 가팔라지고 이란 전쟁으로 에너지 가격도 급등하면서 오는 11월 중간선거를 앞둔 도널드 ...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/18/PRU20261018139001009_P2.jpg"
+    },
     {
       "title": "젤렌스키, 트럼프 대러제재 유예에 \"푸틴만 돕는 오판\"",
       "link": "https://www.yna.co.kr/view/AKR20261018004300009",
@@ -322,16 +342,6 @@
       "sentiment": "neutral",
       "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 우크라이나 수도 키이우에 16일(현지시간) 대규모 정전이 발생했다.",
       "image": "https://img.yna.co.kr/photo/reuters/2026/10/16/PRU20261016288001009_P2.jpg"
-    },
-    {
-      "title": "\"우크라軍 스타실드 장애, 의도된 것이었다…백악관이 지시\"",
-      "link": "https://www.yna.co.kr/view/AKR20261016177200071",
-      "source": "연합뉴스 국제",
-      "ts": 1792159801000,
-      "pub": "Fri, 16 Oct 2026 23:10:01 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 러시아에 대한 우크라이나의 드론 공격·방어에 필수적인 스타실드의 접속 장애는 의도된 것이었으며, 이는 미국...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/16/PRU20261016153901009_P2.jpg"
     }
   ]
 }

@@ -31,16 +31,21 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "WhatsApp", allow: "/" },
       { userAgent: "TelegramBot", allow: "/" },
 
+      // === AI 검색·실시간 열람 봇 — 허용 (2026-10-19 대표님 결정: 인용 유입은 받고 학습용 수집은 계속 차단) ===
+      // 사용자가 ChatGPT·Perplexity·Claude에서 질문할 때 페이지를 읽고 출처로 링크하는 봇. 학습 데이터 수집용 아님.
+      { userAgent: "OAI-SearchBot", allow: "/", disallow: ["/api/"] },    // ChatGPT 검색
+      { userAgent: "ChatGPT-User", allow: "/", disallow: ["/api/"] },     // ChatGPT 사용자 요청 열람
+      { userAgent: "PerplexityBot", allow: "/", disallow: ["/api/"] },    // Perplexity 검색 색인
+      { userAgent: "Perplexity-User", allow: "/", disallow: ["/api/"] },  // Perplexity 사용자 요청 열람
+      { userAgent: "Claude-SearchBot", allow: "/", disallow: ["/api/"] }, // Claude 검색
+      { userAgent: "Claude-User", allow: "/", disallow: ["/api/"] },      // Claude 사용자 요청 열람
+
       // === AI 학습 봇 — 전체 차단 ===
       { userAgent: "GPTBot", disallow: "/" },                             // OpenAI
-      { userAgent: "ChatGPT-User", disallow: "/" },
-      { userAgent: "OAI-SearchBot", disallow: "/" },
       { userAgent: "ClaudeBot", disallow: "/" },                          // Anthropic
       { userAgent: "anthropic-ai", disallow: "/" },
       { userAgent: "Claude-Web", disallow: "/" },
       { userAgent: "Google-Extended", disallow: "/" },                    // Bard/Gemini 학습
-      { userAgent: "PerplexityBot", disallow: "/" },
-      { userAgent: "Perplexity-User", disallow: "/" },
       { userAgent: "CCBot", disallow: "/" },                              // Common Crawl (대형 AI 학습 원천)
       { userAgent: "Bytespider", disallow: "/" },                         // ByteDance / TikTok
       { userAgent: "Amazonbot", disallow: "/" },                          // Alexa AI

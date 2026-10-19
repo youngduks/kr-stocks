@@ -1,8 +1,86 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-19T02:11:48.022Z",
-  "count": 35,
+  "updated_at": "2026-10-19T08:12:42.042Z",
+  "count": 27,
   "items": [
+    {
+      "title": "[영상] 이스라엘 정착민, 외교관·기자 무차별 공격…美 \"비열한 테러\"",
+      "link": "https://www.yna.co.kr/view/AKR20261019148700704",
+      "source": "연합뉴스 국제",
+      "ts": 1792396821000,
+      "pub": "Mon, 19 Oct 2026 17:00:21 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 팔레스타인 요르단강 서안에서 이스라엘 정착민들이 유럽 외교관들과 미국 기자를 공격하는 사건이 발생했습니다.",
+      "image": "https://www.youtube.com/embed/OKfVrJC4mxI"
+    },
+    {
+      "title": "관세와 인증 사이, 브라질 K뷰티 시장을 읽는 법",
+      "link": "https://www.hankyung.com/article/2026101998651",
+      "source": "한국경제",
+      "ts": 1792393634000,
+      "pub": "Mon, 19 Oct 2026 16:07:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[쇼츠] 우크라, '푸틴 고향' 석유·물류 시설 타격",
+      "link": "https://www.yna.co.kr/view/AKR20261019135000704",
+      "source": "연합뉴스 국제",
+      "ts": 1792392771000,
+      "pub": "Mon, 19 Oct 2026 15:52:51 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 우크라이나가 18일 새벽(현지시간) 상트페테르부르크의 터미널과 유류 저장소 등 에너지 인프라 시설 등을 장거리 자폭 드론으로 ...",
+      "image": "https://www.youtube.com/embed/lPuaAQpYkGw"
+    },
+    {
+      "title": "트럼프의 푸틴 유화책에 접전지 공화당 후보들 '거리두기'",
+      "link": "https://www.yna.co.kr/view/AKR20261019124500009",
+      "source": "연합뉴스 경제",
+      "ts": 1792390650000,
+      "pub": "Mon, 19 Oct 2026 15:17:30 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 임화섭 기자 = 도널드 트럼프 미국 대통령이 러시아 측과 경유 거래에 합의하고 제재를 보류·면제해주기로 하면서 중간선거에 나선...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/18/PRU20261018139501009_P2.jpg"
+    },
+    {
+      "title": "루비오 美국무장관 \"젤렌스키, 전쟁 종식에 집중해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20261019118900009",
+      "source": "연합뉴스 국제",
+      "ts": 1792389300000,
+      "pub": "Mon, 19 Oct 2026 14:55:00 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 강훈상 기자 = 마코 루비오 미국 국무장관은 19일(현지시간) 볼로디미르 젤렌스키 우크라이나 대통령에게 전쟁 종식에 집중해야 ...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/19/PAF20261019137701009_P2.jpg"
+    },
+    {
+      "title": "트럼프 전 특사 \"중간선거 앞두고 행정부 인사들 대탈출\"",
+      "link": "https://www.yna.co.kr/view/AKR20261019112200009",
+      "source": "연합뉴스 국제",
+      "ts": 1792387646000,
+      "pub": "Mon, 19 Oct 2026 14:27:26 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 고일환 기자 = 도널드 트럼프 미국 대통령에게 해임된 특사가 중간선거에 앞서 행정부 인사들의 탈출이 이어지고 있다고 주장했다.",
+      "image": "https://img.yna.co.kr/photo/ap/2026/04/11/PAP20260411221501009_P2.jpg"
+    },
+    {
+      "title": "[영상] 우크라, 장거리 드론으로 '푸틴 고향' 석유·물류 인프라 타격",
+      "link": "https://www.yna.co.kr/view/AKR20261019100000704",
+      "source": "연합뉴스 국제",
+      "ts": 1792386767000,
+      "pub": "Mon, 19 Oct 2026 14:12:47 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 우크라이나가 도널드 트럼프 미국 대통령의 거듭된 반대에도 러시아 석유 시설을 겨냥한 대규모 공습을 이어가고 있습니다.",
+      "image": "https://www.youtube.com/embed/DBNlocf9TdI"
+    },
+    {
+      "title": "反트럼프 시위 도중 '노킹스' 인스타 90분간 차단",
+      "link": "https://www.yna.co.kr/view/AKR20261019074900009",
+      "source": "연합뉴스 국제",
+      "ts": 1792378152000,
+      "pub": "Mon, 19 Oct 2026 11:49:12 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이성한 기자 = 메타플랫폼이 미국 전역에서 대규모 시위가 한창인 지난 주말 반트럼프 단체 '노킹스 연합'(No Kings Co...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/08/PRU20261008024001009_P2.jpg"
+    },
     {
       "title": "우크라, 트럼프 만류에도 푸틴 고향 인프라 역대급 공습",
       "link": "https://www.yna.co.kr/view/AKR20261019065100009",
@@ -34,16 +112,6 @@
       "image": "https://img.yna.co.kr/photo/ap/2026/09/24/PAP20260924268301009_P2.jpg"
     },
     {
-      "title": "[게시판] 관세청 9월 마약단속왕 정예진 주무관 선정",
-      "link": "https://www.yna.co.kr/view/AKR20261019040100002",
-      "source": "연합뉴스 경제",
-      "ts": 1792370157000,
-      "pub": "Mon, 19 Oct 2026 09:35:57 +0900",
-      "sentiment": "neutral",
-      "desc": "▲ 관세청은 올해 9월의 마약단속왕으로 인천공항세관 정예진 주무관을 선정했다고 19일 밝혔다. 정 주무관은 국내외 마약 적발 사례 연구를 통해 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/19/AKR20261019040100002_01_i_P2.jpg"
-    },
-    {
       "title": "젤렌스키, 미·우크라 갈등 속 윗코프·쿠슈너와 통화",
       "link": "https://www.yna.co.kr/view/AKR20261019024300009",
       "source": "연합뉴스 국제",
@@ -52,16 +120,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 강훈상 기자 = 볼로디미르 젤렌스키 우크라이나 대통령이 18일(현지시간) 백악관 특사 스티브 윗코프, 도널드 트럼프 대통령의 ...",
       "image": "https://img.yna.co.kr/photo/etc/af/2026/10/16/PAF20261016238501009_P2.jpg"
-    },
-    {
-      "title": "하나증권, 금호타이어 목표가↓…\"환율·관세 영향에 실적부진\"",
-      "link": "https://www.yna.co.kr/view/AKR20261019020400008",
-      "source": "연합뉴스 경제",
-      "ts": 1792366376000,
-      "pub": "Mon, 19 Oct 2026 08:32:56 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 하나증권은 금호타이어[073240]의 올해 3분기 실적이 시장 기대치를 밑돌 것으로 예상된다며 19일 목표주가...",
-      "image": "https://img.yna.co.kr/photo/cms/2023/12/30/60/PCM20231230000260003_P2.jpg"
     },
     {
       "title": "이스라엘발 유럽행 여객기 폭탄위협 신고에 비상착륙",
@@ -131,7 +189,7 @@
       "pub": "Mon, 19 Oct 2026 01:22:12 +0900",
       "sentiment": "neutral",
       "desc": "(바르샤바=연합뉴스) 김계연 특파원 = 한국과 우크라이나 정부가 북한군 포로 송환을 협의하는 과정에서 외부에 최대한 오래 공개하지 않는다는 공감...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/18/AKR20261018056951082_03_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/18/PYH2026101809890008201_P2.jpg"
     },
     {
       "title": "트럼프, 이스라엘 총선 9일 앞 네타냐후 지지…\"위대한 전사\"",
@@ -212,146 +270,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 김아람 김승욱 기자 = 도널드 트럼프 미국 대통령이 대러시아 제재와 관련해 세계에 이로운 결정이 있을 것이라고 예고했다.",
       "image": "https://img.yna.co.kr/photo/ap/2026/10/18/PAP20261018108401009_P2.jpg"
-    },
-    {
-      "title": "이스라엘 정착민 폭력에 미국도 \"비열한 테러\" 맹비난",
-      "link": "https://www.yna.co.kr/view/AKR20261018028700009",
-      "source": "연합뉴스 국제",
-      "ts": 1792298259000,
-      "pub": "Sun, 18 Oct 2026 13:37:39 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이지헌 기자 = 팔레스타인 서안지구에서 미국인 사진기자와 유럽 외교관 일행이 잇따라 이스라엘 정착민들의 공격을 받자 외교당국자...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/18/AKR20261018028700009_01_i_P2.jpg"
-    },
-    {
-      "title": "\"트럼프, 중간선거 패색 참모진 탓 돌려 백악관 내홍 기류\"",
-      "link": "https://www.yna.co.kr/view/AKR20261018026900009",
-      "source": "연합뉴스 국제",
-      "ts": 1792296766000,
-      "pub": "Sun, 18 Oct 2026 13:12:46 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김아람 기자 = 미국 중간선거를 앞두고 공화당의 패색이 짙어지자 도널드 트럼프 대통령이 선거 전략 부진의 책임을 참모들과 정치...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/18/PRU20261018154701009_P2.jpg"
-    },
-    {
-      "title": "美국무 \"아무도 우크라군 위성통신 감속 지시한 적 없다\"",
-      "link": "https://www.yna.co.kr/view/AKR20261018021300009",
-      "source": "연합뉴스 국제",
-      "ts": 1792291557000,
-      "pub": "Sun, 18 Oct 2026 11:45:57 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이지헌 기자 = 마코 루비오 미 국무장관은 17일(현지시간) 우크라이나가 미군용 위성통신 시스템인 스타실드에 접근 권한을 갖고...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/18/AKR20261018021300009_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프, 대러제재 관련해 \"미국·세계에 좋은 결정 있을 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20261018019900009",
-      "source": "연합뉴스 국제",
-      "ts": 1792289823000,
-      "pub": "Sun, 18 Oct 2026 11:17:03 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 김아람 기자 = 도널드 트럼프 미국 대통령이 대러시아 제재와 관련해 세계에 이로운 결정이 있을 것이라고 예고했다.",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/18/PAP20261018108401009_P2.jpg"
-    },
-    {
-      "title": "\"트럼프 특사, 유럽에 러시아산 천연가스 수입재개 제안\"",
-      "link": "https://www.yna.co.kr/view/AKR20261018013400009",
-      "source": "연합뉴스 국제",
-      "ts": 1792284989000,
-      "pub": "Sun, 18 Oct 2026 09:56:29 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이지헌 기자 = 도널드 트럼프 미 행정부가 교착 상태에 빠진 우크라이나 평화협상을 끌어내려는 방안으로 유럽의 러시아산 가스 구...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/18/AKR20261018013400009_01_i_P2.jpg"
-    },
-    {
-      "title": "중간선거 앞 경제지표 악재 속출에 트럼프·공화당 궁지",
-      "link": "https://www.yna.co.kr/view/AKR20261018012700009",
-      "source": "연합뉴스 국제",
-      "ts": 1792283893000,
-      "pub": "Sun, 18 Oct 2026 09:38:13 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 김아람 기자 = 미국에서 물가 상승세가 가팔라지고 이란 전쟁으로 에너지 가격도 급등하면서 오는 11월 중간선거를 앞둔 도널드 ...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/18/PRU20261018139001009_P2.jpg"
-    },
-    {
-      "title": "젤렌스키, 트럼프 대러제재 유예에 \"푸틴만 돕는 오판\"",
-      "link": "https://www.yna.co.kr/view/AKR20261018004300009",
-      "source": "연합뉴스 국제",
-      "ts": 1792273795000,
-      "pub": "Sun, 18 Oct 2026 06:49:55 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 이지헌 기자 = 볼로디미르 젤렌스키 우크라이나 대통령은 도널드 트럼프 미 대통령이 대러시아 신규 제재의 시행을 유예하기로 결정...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/18/AKR20261018004300009_01_i_P2.jpg"
-    },
-    {
-      "title": "\"우리에게 왕은 없다…투표로 트럼프 심판을\" 美전역서 시위",
-      "link": "https://www.yna.co.kr/view/AKR20261018003600071",
-      "source": "연합뉴스 국제",
-      "ts": 1792272875000,
-      "pub": "Sun, 18 Oct 2026 06:34:35 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 토요일인 17일(현지시간) 미국 전역에서 도널드 트럼프 행정부의 일방통행에 반대하는 '노 킹스(No Kin...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/06/PAF20261006024501009_P2.jpg"
-    },
-    {
-      "title": "中선전 APEC 한달 앞으로…미중러 3자 회담·북미 접촉 주목",
-      "link": "https://www.yna.co.kr/view/AKR20261017035600083",
-      "source": "연합뉴스 국제",
-      "ts": 1792271461000,
-      "pub": "Sun, 18 Oct 2026 06:11:01 +0900",
-      "sentiment": "neutral",
-      "desc": "(베이징=연합뉴스) 정성조 특파원 = 한국·미국·중국·일본·러시아 등 주요국이 한자리에 모이는 중국 선전(深圳) 아시아태평양경제협력체(APEC)...",
-      "image": "https://img.yna.co.kr/photo/cms/2025/10/24/60/PCM20251024000060990_P2.jpg"
-    },
-    {
-      "title": "보름여 남은 중간선거…트럼프, 주말에도 지원유세로 결집 호소",
-      "link": "https://www.yna.co.kr/view/AKR20261018002400071",
-      "source": "연합뉴스 국제",
-      "ts": 1792270038000,
-      "pub": "Sun, 18 Oct 2026 05:47:18 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령은 중간선거를 보름여 앞두고 토요일인 17일(현지시간)에도 공화당의 텃밭인 켄터키...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/18/PAP20261018075601009_P2.jpg"
-    },
-    {
-      "title": "이스라엘 정착촌 주민, 서안서 유럽 외교관 공격…피해국 격앙(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20261017049552079",
-      "source": "연합뉴스 국제",
-      "ts": 1792266885000,
-      "pub": "Sun, 18 Oct 2026 04:54:45 +0900",
-      "sentiment": "neutral",
-      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 팔레스타인 요르단강 서안에서 올리브 수확 현장을 방문한 유럽 외교관들이 이스라엘 정착민들에게 공격받는 사건...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/17/AKR20261017049552079_04_i_P2.jpg"
-    },
-    {
-      "title": "\"푸틴에 굴복\"…트럼프 대러제재 면제에 여당서도 비난 빗발",
-      "link": "https://www.yna.co.kr/view/AKR20261018001000071",
-      "source": "연합뉴스 국제",
-      "ts": 1792256761000,
-      "pub": "Sun, 18 Oct 2026 02:06:01 +0900",
-      "sentiment": "negative",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령이 대러시아 제재법의 시행을 유예하자 여당인 공화당에서도 비난이 빗발쳤다.",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/17/PRU20261017105201009_P2.jpg"
-    },
-    {
-      "title": "이스라엘 정착촌 주민, 서안서 유럽 외교관 공격…피해국 격앙(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261017049551079",
-      "source": "연합뉴스 국제",
-      "ts": 1792254255000,
-      "pub": "Sun, 18 Oct 2026 01:24:15 +0900",
-      "sentiment": "neutral",
-      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 팔레스타인 요르단강 서안에서 올리브 수확 현장을 방문한 유럽 외교관들이 이스라엘 정착민들에게 공격받는 사건...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/17/AKR20261017049551079_04_i_P2.jpg"
-    },
-    {
-      "title": "'최단명' 백악관 대변인, 위기의 비서실장이 놓은 덫에 걸렸나",
-      "link": "https://www.yna.co.kr/view/AKR20261018000300071",
-      "source": "연합뉴스 국제",
-      "ts": 1792251334000,
-      "pub": "Sun, 18 Oct 2026 00:35:34 +0900",
-      "sentiment": "negative",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 신임 백악관 대변인으로 업무를 시작하고 사흘 뒤인 15일(현지시간) 밤 케이티 재커라이어는 폭스뉴스에 출연...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/07/PAF20261007067501009_P2.jpg"
     }
   ]
 }

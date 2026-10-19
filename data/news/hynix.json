@@ -1,8 +1,34 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-19T15:58:17.693Z",
-  "count": 6,
+  "updated_at": "2026-10-19T20:51:48.634Z",
+  "count": 9,
   "items": [
+    {
+      "title": "뉴욕증시, 반도체·AI주 반등 속 혼조…나스닥 1.11%↑",
+      "link": "https://www.yna.co.kr/view/AKR20261020006000072",
+      "source": "연합뉴스 국제",
+      "ts": 1792441652000,
+      "pub": "Tue, 20 Oct 2026 05:27:32 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 뉴욕증시가 19일(현지시간) 기술주 반등세 속에 혼조세로 마감했다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/20/AKR20261020006000072_01_i_P2.jpg"
+    },
+    {
+      "title": "아마존 목표가 350달러…엔비디아도 비중확대 유지 [월가 업&다운]",
+      "link": "https://www.hankyung.com/article/202610201850i",
+      "source": "한국경제",
+      "ts": 1792435379000,
+      "pub": "Tue, 20 Oct 2026 03:42:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"엔비디아의 진짜 해자 CUDA에 도전\"…아마존,AI칩 소프트웨어 공개",
+      "link": "https://www.hankyung.com/article/202610191823i",
+      "source": "한국경제",
+      "ts": 1792422664000,
+      "pub": "Tue, 20 Oct 2026 00:11:04 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "빅테크에 반도체 기판…삼성전기 3600억 수주",
       "link": "https://www.hankyung.com/article/2026101916931",

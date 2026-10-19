@@ -7,10 +7,19 @@
       "channel": "전인구경제연구소",
       "channel_url": "https://www.youtube.com/@moneydo",
       "channel_id": "UCznImSIaxZR7fdLCICLdgaQ",
-      "last_checked_video_id": "1ZzkFUTXDCg",
+      "last_checked_video_id": "QFmkNcRdk0g",
       "tagline": "\"고점 판독기\" — 나무위키에도 등재된 별명. 2023년 이후 증시 전망이 반대로 맞는 걸로 유명",
       "note": "본인 문서(나무위키)에 \"시장 전망 영상 대부분이 틀리는 걸 넘어 반대로 맞히는 예지력\"이라는 비판이 있고, 댓글창에서 \"고점 판독기\"·\"어둠의 고수\"로 불림. 역발상 참고용으로 소개합니다 — 조롱이 목적이 아니라, 실제로 존재하는 밈이라 재미로 트래킹합니다.",
       "opinions": [
+        {
+          "date": "2026-10-18",
+          "title": "검은월요일, 코스피는 얼마나 떨어질까?(ft.딥시크, 코워위브)",
+          "summary": "코어위브 CDS 프리미엄 급등으로 AI 인프라 투자 회수 우려가 커지고, 유가 100달러 돌파와 딥시크 신모델의 저가 공세가 악재로 작용해 시장 분위기가 좋지 않다고 봤다. 고객예탁금은 줄고 신용잔고는 늘며 외국인 매도가 이어지는 점을 들어 검은 월요일 여부는 단정할 수 없으나 하락 압력이 크다고 진단했다.",
+          "summary_short": "악재 겹쳐 하락 압력 우려",
+          "stance": "bearish",
+          "video_url": "https://www.youtube.com/watch?v=ZRcF6P2y9Bo",
+          "published_at": "2026-10-18T12:26:28.000Z"
+        },
         {
           "date": "2026-10-18",
           "title": "국민연금은 하락장에 얼마잃었는지 계산해본 결과",
@@ -91,15 +100,6 @@
           "stance": "cautious",
           "video_url": "https://www.youtube.com/watch?v=I9-UUuC2lqE",
           "published_at": "2026-09-30T08:27:34.000Z"
-        },
-        {
-          "date": "2026-09-29",
-          "title": "치솟는 금리, 강요받는 트럼프 승부수",
-          "summary": "고유가·고물가·고금리 압박에도 AI 투자 지속으로 미국 증시가 하이퍼스케일러 중심으로 버티고 있지만, 지수가 더 오르기엔 리스크가 있어 횡보 국면으로 본다. 주도주 외 AI 인프라 관련 미발굴 섹터나 국내 고성장 섹터로 분산 투자할 필요가 있다고 조언한다.",
-          "summary_short": "고금리 압박, 증시 횡보 전망",
-          "stance": "cautious",
-          "video_url": "https://www.youtube.com/watch?v=STDYTO6It3M",
-          "published_at": "2026-09-29T11:41:09.000Z"
         }
       ],
       "pending": []

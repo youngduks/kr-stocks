@@ -1,15 +1,55 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-18T23:46:21.612Z",
-  "count": 4,
+  "updated_at": "2026-10-19T02:11:48.024Z",
+  "count": 6,
   "items": [
     {
-      "title": "중국 CXMT 차세대 D램 위협인가 [한경 프리미엄9 TODAY]",
-      "link": "https://www.hankyung.com/article/2026101889251",
+      "title": "앰코, 광주공장 3조원 증축 착공…서남권 반도체 첫 신호탄",
+      "link": "https://www.yna.co.kr/view/AKR20261018038500003",
+      "source": "연합뉴스 경제",
+      "ts": 1792375207000,
+      "pub": "Mon, 19 Oct 2026 11:00:07 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 신창용 기자 = 글로벌 반도체 후공정 기업인 앰코테크놀로지가 총 3조원을 투자해 광주 후공정 생산라인 증설에 들어간다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/30/PYH2026063015970001300_P2.jpg"
+    },
+    {
+      "title": "한미반도체, 美 실리콘밸리에 '한미USA' 개소…북미시장 공략 강화",
+      "link": "https://www.mt.co.kr/industry/2026/10/19/2026101909433422474",
+      "source": "머니투데이",
+      "ts": 1792371348000,
+      "pub": "Mon, 19 Oct 2026 09:55:48 +0900",
+      "sentiment": "neutral",
+      "desc": "한미반도체가 지난 16일(현지시간) 미국 캘리포니아주 산호세에서 한미USA 오피스에서 개소식을 진행했다고 19일 밝혔다. 이날 행사에는 곽동신 한미반도체 회장을 비롯한 주요 임직원이 참석했다. 한미USA 설립은 '한미' 사명에 담긴 창업정신을 창립 46년 만에 실현했다",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026101909433422474_1.jpg"
+    },
+    {
+      "title": "[AI픽] 국산 AI 반도체부터 모델까지…5개사, 통합 인프라 개발",
+      "link": "https://www.yna.co.kr/view/AKR20261019036000017",
+      "source": "연합뉴스 경제",
+      "ts": 1792369416000,
+      "pub": "Mon, 19 Oct 2026 09:23:36 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 오지은 기자 = 국내 인공지능(AI) 반도체, 대규모 언어모델(LLM), 클라우드, 서버 및 데이터센터 인프라 분야를 대표하는...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/19/AKR20261019036000017_01_i_P2.jpg"
+    },
+    {
+      "title": "[특징주] 삼성전자·하이닉스, 장초반 급락후 낙폭 줄여 1%·2%대↓",
+      "link": "https://www.yna.co.kr/view/AKR20261019036500008",
+      "source": "연합뉴스 경제",
+      "ts": 1792369307000,
+      "pub": "Mon, 19 Oct 2026 09:21:47 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 국내 반도체 '투톱'의 주가가 19일 장 초반 각각 1%와 2%대 하락 중이다.",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
+    },
+    {
+      "title": "코스피, 장 초반 1%대 하락…삼전·하이닉스 동반 약세",
+      "link": "https://www.hankyung.com/article/2026101996926",
       "source": "한국경제",
-      "ts": 1792314007000,
-      "pub": "Sun, 18 Oct 2026 18:00:07 +0900",
-      "sentiment": "neutral"
+      "ts": 1792368681000,
+      "pub": "Mon, 19 Oct 2026 09:11:21 +0900",
+      "sentiment": "negative"
     },
     {
       "title": "日, 방위비 증액 위해 AI·반도체기업 등 법인세 올리나",
@@ -20,26 +60,6 @@
       "sentiment": "neutral",
       "desc": "(도쿄=연합뉴스) 조성미 특파원 = 방위비를 대폭 증액하려는 일본 정부에서 법인세를 올려 재원을 충당하려는 방안이 부상하고 있다고 산케이신문이 ...",
       "image": "https://img.yna.co.kr/photo/cms/2026/09/29/83/PCM20260929000083990_P2.jpg"
-    },
-    {
-      "title": "\"중국이 D램 쏟아낼 것\"…머스크는 왜 2028년을 콕 집었나",
-      "link": "https://www.yna.co.kr/view/AKR20261016074300003",
-      "source": "연합뉴스 경제",
-      "ts": 1792272180000,
-      "pub": "Sun, 18 Oct 2026 06:23:00 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 박초롱 기자 = 일론 머스크 테슬라 최고경영자(CEO)가 최근 메모리 반도체 공급 부족과 가격 급등에 불만을 드러낸 데 이어 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2024/09/09/PYH2024090901700034000_P2.jpg"
-    },
-    {
-      "title": "CXMT, 3분기 매출 600%대 급증 전망…최대 4천억원 자사주 매입",
-      "link": "https://www.yna.co.kr/view/AKR20261017027300089",
-      "source": "연합뉴스 국제",
-      "ts": 1792210022000,
-      "pub": "Sat, 17 Oct 2026 13:07:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 삼성전자·SK하이닉스 주도의 D램 메모리 시장에 도전 중인 중국 창신메모리(CXMT)가 인공지능(AI) 붐...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/17/AKR20261017027300089_01_i_P2.jpg"
     }
   ]
 }

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { getStays, type Stay } from "@/lib/stays";
 import { getPickRanks, type PickRank } from "@/lib/shoppingStats";
 import { getStayPriceViews, type StayPriceView } from "@/lib/stayPrices";
-import { StayMiniCard, StayRow } from "./StayCard";
+import { StayMiniCard, StayRow, intro } from "./StayCard";
 import { StaySearch } from "./StaySearch";
 
 // 줍줍파파 인스타 프로필 링크 전용 랜딩 — 헤더 메뉴엔 넣지 않음, 광고(AdSlot) 없음.
@@ -14,24 +14,77 @@ import { StaySearch } from "./StaySearch";
 // 요청 시 렌더로 전환. Redis는 getPickRanks의 메모리 5분 캐시로 인스턴스당 5분에 2명령 수준, stays.json은 fetch 데이터 캐시 5분.
 export const dynamic = "force-dynamic";
 
+const PICK_URL = "https://kr-stocks.com/pick";
+// TITLE = 화면 h1 문구 그대로(검색 결과 제목 = 페이지 제목). 사이트 접미사 "· KR Stocks"는 주식 브랜드라 붙이지 않음.
 const TITLE = "줍줍파파 숙소 PICK — 아이랑 가기 좋은 숙소";
-const DESC = "줍줍파파가 직접 고른 아이랑 가기 좋은 숙소 모음. 오늘·이번 주 가장 많이 본 숙소와 번호로 찾는 전체 리스트.";
+const LEAD = "직접 고른 아이랑 가기 좋은 숙소만 모았어요. 영상 번호로 찾아보세요.";
+// 설명은 화면에 실제로 있는 것만: TOP 7/20 순위, 번호·이름 검색, 예약 버튼(쿠팡·트립닷컴), 버튼 아래 같은 날짜 가격 확인 줄
+const DESC =
+  "줍줍파파가 직접 고른 아이랑 가기 좋은 숙소 모음. 오늘·이번 주 가장 많이 본 숙소 순위, 번호·이름 검색, 숙소별 쿠팡·트립닷컴 예약 링크와 같은 날짜 가격 확인 기록을 한 페이지에서 볼 수 있어요.";
 const DISCLOSURE = "이 페이지의 링크는 쿠팡 파트너스·트립닷컴 제휴 링크로, 예약 시 일정액의 수수료를 받을 수 있어요.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: { absolute: TITLE },
   description: DESC,
   keywords: ["줍줍파파", "아이랑 숙소", "아이와 가볼만한 숙소", "키즈 펜션", "가족 여행 숙소", "숙소 추천"],
+  // openGraph·twitter는 루트 값을 통째로 덮으므로 siteName·locale을 다시 적고, 트위터 카드도 주식 문구가 새지 않게 지정.
+  // OG 이미지는 아직 없음(루트 이미지는 주식 화면이라 상속 안 함) — 전용 이미지는 별도 작업.
   openGraph: {
     title: TITLE,
     description: DESC,
-    url: "https://kr-stocks.com/pick",
+    url: PICK_URL,
     type: "website",
+    siteName: "KR Stocks",
+    locale: "ko_KR",
+  },
+  twitter: {
+    card: "summary",
+    title: TITLE,
+    description: DESC,
   },
   alternates: {
-    canonical: "https://kr-stocks.com/pick",
+    canonical: PICK_URL,
   },
 };
+
+/**
+ * 구조화 데이터 — 화면의 "📚 숙소 리스트"(번호 내림차순 전체)와 같은 순서·같은 문구만.
+ * name = 카드 숙소 이름, description = 카드 한 줄 소개(intro), image = 카드 썸네일, url = 리스트 행 앵커(#stay-N).
+ * 가격·평점·리뷰·주소는 넣지 않음(가격 줄은 조건·확인일이 숙소마다 달라 화면 문구와 1:1로 맞추기 어렵고, 평점·주소는 화면에 없음).
+ * 제휴 링크도 넣지 않음. publisher/isPartOf 는 홈(app/page.tsx)에서 선언한 전역 @id 참조.
+ */
+function pickJsonLd(stays: Stay[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${PICK_URL}#page`,
+    url: PICK_URL,
+    name: TITLE,
+    description: LEAD,
+    inLanguage: "ko-KR",
+    isPartOf: { "@id": "https://kr-stocks.com/#website" },
+    publisher: { "@id": "https://kr-stocks.com/#organization" },
+    mainEntity: {
+      "@type": "ItemList",
+      name: "숙소 리스트",
+      numberOfItems: stays.length,
+      itemListElement: stays.map((s, i) => {
+        const description = intro(s);
+        return {
+          "@type": "ListItem",
+          position: i + 1,
+          item: {
+            "@type": "LodgingBusiness",
+            name: s.name,
+            ...(description ? { description } : {}),
+            ...(s.thumb ? { image: s.thumb } : {}),
+            url: `${PICK_URL}#stay-${s.no}`,
+          },
+        };
+      }),
+    },
+  };
+}
 
 /** 클릭 순위 → 숙소. 집계가 모자라면(또는 없으면) 번호 내림차순으로 채움. */
 function rankWithFallback(ranks: PickRank[], stays: Stay[], n: number): Stay[] {
@@ -72,7 +125,14 @@ export default async function PickPage() {
         줍줍파파 숙소 PICK
         <span className="block text-[17px] font-bold text-text-muted mt-1">— 아이랑 가기 좋은 숙소</span>
       </h1>
-      <p className="ds-explain mt-1">직접 고른 아이랑 가기 좋은 숙소만 모았어요. 영상 번호로 찾아보세요.</p>
+      <p className="ds-explain mt-1">{LEAD}</p>
+      {stays.length > 0 && (
+        <script
+          type="application/ld+json"
+          // 숙소 이름·소개에 "<"가 들어가도 script 태그가 닫히지 않게 이스케이프
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(pickJsonLd(stays)).replace(/</g, "\\u003c") }}
+        />
+      )}
 
       {/* 제휴 고지 — 공정위 추천·보증 심사지침: 게시물 첫 부분에 눈에 띄게 */}
       <p className="mt-3 ds-tile text-[13px] leading-relaxed text-text-muted" style={{ padding: "10px 14px" }} role="note">

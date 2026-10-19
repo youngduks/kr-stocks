@@ -49,6 +49,7 @@ const HOME_JSON_LD = [
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": "https://kr-stocks.com/#website", // 다른 페이지 JSON-LD(isPartOf)가 이 @id를 참조 — 바꾸지 말 것
     name: "KR Stocks",
     alternateName: "kr-stocks.com",
     url: "https://kr-stocks.com",
@@ -57,6 +58,7 @@ const HOME_JSON_LD = [
   {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": "https://kr-stocks.com/#organization", // 다른 페이지 JSON-LD(publisher)가 이 @id를 참조 — 바꾸지 말 것
     name: "KR Stocks",
     url: "https://kr-stocks.com",
     email: "contact@kr-stocks.com",

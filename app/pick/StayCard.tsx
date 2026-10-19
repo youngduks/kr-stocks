@@ -40,7 +40,8 @@ function Title({ stay, className = "" }: { stay: Stay; className?: string }) {
   );
 }
 
-function intro(stay: Stay): string {
+/** 카드 한 줄 소개 — page.tsx JSON-LD description도 같은 문자열을 쓴다(화면 = 구조화 데이터) */
+export function intro(stay: Stay): string {
   return stay.summary || stay.hook_title || [stay.region, stay.type].filter(Boolean).join(" · ");
 }
 

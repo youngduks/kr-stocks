@@ -1,8 +1,63 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-20T00:01:08.484Z",
-  "count": 13,
+  "updated_at": "2026-10-20T05:29:00.611Z",
+  "count": 10,
   "items": [
+    {
+      "title": "[오늘 이 종목] 관세 · 비만약 사업 기대 삼성바이오로직스 · AI 경쟁력 TSMC '주목'",
+      "link": "https://www.mt.co.kr/stock/2026/10/20/2026102011217081923",
+      "source": "머니투데이",
+      "ts": 1792464077000,
+      "pub": "Tue, 20 Oct 2026 11:41:17 +0900",
+      "sentiment": "neutral",
+      "desc": "주가라는 숫자 이면에 숨겨진 재료와 실적, 차트를 분석해 기업의 가치를 발굴하는 에 유영화 KB증권 디지털콘텐츠팀 차장이 출연했다. 유 차장은 미국 관세 영향과 펩타이드 사업 확대 가능성을 살펴볼 삼성바이오로직스, 인공지능(AI) 시장의 불확실성 속에서도 기술 경쟁력이"
+    },
+    {
+      "title": "KB운용, 'RISE 반도체소부장액티브' ETF 신규 상장",
+      "link": "https://www.mt.co.kr/stock/2026/10/20/2026102008444872114",
+      "source": "머니투데이",
+      "ts": 1792463144000,
+      "pub": "Tue, 20 Oct 2026 11:25:44 +0900",
+      "sentiment": "neutral",
+      "desc": "KB자산운용이 국내 반도체 소재·부품·장비(소부장) 기업에 투자하는 'RISE 반도체소부장액티브' ETF(상장지수펀드)를 신규 상장했다고 20일 밝혔다. RISE 반도체소부장액티브 ETF는 국내 반도체 소부장 산업 내 핵심 종목을 선별해 투자하는 상품이다. 전공정·후공",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026102008444872114_1.jpg"
+    },
+    {
+      "title": "CXMT \"D램 시장 장기적 발전에 자신…초미세화 영역 선도할 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20261020073400089",
+      "source": "연합뉴스 국제",
+      "ts": 1792462823000,
+      "pub": "Tue, 20 Oct 2026 11:20:23 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 삼성전자·SK하이닉스 주도의 D램 반도체 산업에 도전하고 있는 중국 창신메모리(CXMT)가 D램 시장의 장...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/20/AKR20261020073400089_01_i_P2.jpg"
+    },
+    {
+      "title": "한국반도체마이스터고, 'K반도체' 인재 찾는다",
+      "link": "https://www.hankyung.com/article/202610202674i",
+      "source": "한국경제",
+      "ts": 1792460099000,
+      "pub": "Tue, 20 Oct 2026 10:34:59 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "SKHY 4.67% 올랐는데…SK하이닉스는 왜 6% 하락이죠?",
+      "link": "https://www.hankyung.com/article/202610202620i",
+      "source": "한국경제",
+      "ts": 1792458617000,
+      "pub": "Tue, 20 Oct 2026 10:10:17 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[특징주] SK하이닉스, 장초반 3.8% 급락…삼성전자도 0.8%↓",
+      "link": "https://www.yna.co.kr/view/AKR20261020043000008",
+      "source": "연합뉴스 경제",
+      "ts": 1792455870000,
+      "pub": "Tue, 20 Oct 2026 09:24:30 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 황철환 기자 = SK하이닉스[000660]가 20일 장 초반 4% 가까이 급락하고 있다.",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/22/81/PCM20260622000081990_P2.jpg"
+    },
     {
       "title": "AI·반도체주 반등…필리 지수 9거래일만에 반등(종합)",
       "link": "https://www.yna.co.kr/view/AKR20261020010851009",
@@ -12,22 +67,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 정주호 기자 = 미국 증시에서 인공지능(AI) 관련주와 반도체주가 지난주의 급락세에서 벗어나 반등했다.",
       "image": "https://img.yna.co.kr/photo/reuters/2026/10/17/PRU20261017027201009_P2.jpg"
-    },
-    {
-      "title": "TSMC \"3나노 공장 또 짓는다\"…삼성, 'GAA 2나노' 승부수로 맞불",
-      "link": "https://www.hankyung.com/article/202610191471i",
-      "source": "한국경제",
-      "ts": 1792450804000,
-      "pub": "Tue, 20 Oct 2026 08:00:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "저가매수 유입에 반도체·AI주 상승…나스닥 1.11%↑ [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026102019676",
-      "source": "한국경제",
-      "ts": 1792447695000,
-      "pub": "Tue, 20 Oct 2026 07:08:15 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "AI·반도체주 반등…필리 지수 9거래일만에 반등",
@@ -50,24 +89,6 @@
       "image": "https://img.yna.co.kr/photo/etc/up/2026/10/20/PUP20261020005901009_P2.jpg"
     },
     {
-      "title": "반도체주 반등에 한숨 돌렸다…'AI 빚투' 우려는 지속[뉴욕마감]",
-      "link": "https://www.mt.co.kr/world/2026/10/20/2026102005584753440",
-      "source": "머니투데이",
-      "ts": 1792443659000,
-      "pub": "Tue, 20 Oct 2026 06:00:59 +0900",
-      "sentiment": "negative",
-      "desc": "뉴욕증시 3대 지수가 19일(현지시간) 반도체·인공지능(AI) 관련주 반등 속에 뚜렷한 방향성을 잡지 못한 채 엇갈렸다. 이날 뉴욕증권거래소에서 S&P500지수는 전거래일보다 31.29포인트(0.41%) 오른 7690.73, 기술주 중심의 나스닥종합지수는 290.85포",
-      "image": "https://thumb.mt.co.kr/06/2026/10/2026102005584753440_1.jpg"
-    },
-    {
-      "title": "소부장 늘렸더니...하이닉스 25% 빠질 때 -9% '선방'한 반도체 ETF",
-      "link": "https://www.hankyung.com/article/202610190958i",
-      "source": "한국경제",
-      "ts": 1792443610000,
-      "pub": "Tue, 20 Oct 2026 06:00:10 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "뉴욕증시, 반도체·AI주 반등 속 혼조…나스닥 1.11%↑",
       "link": "https://www.yna.co.kr/view/AKR20261020006000072",
       "source": "연합뉴스 국제",
@@ -76,52 +97,6 @@
       "sentiment": "neutral",
       "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 뉴욕증시가 19일(현지시간) 기술주 반등세 속에 혼조세로 마감했다.",
       "image": "https://img.yna.co.kr/photo/etc/up/2026/10/20/PUP20261020005901009_P2.jpg"
-    },
-    {
-      "title": "아마존 목표가 350달러…엔비디아도 비중확대 유지 [월가 업&다운]",
-      "link": "https://www.hankyung.com/article/202610201850i",
-      "source": "한국경제",
-      "ts": 1792435379000,
-      "pub": "Tue, 20 Oct 2026 03:42:59 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"엔비디아의 진짜 해자 CUDA에 도전\"…아마존,AI칩 소프트웨어 공개",
-      "link": "https://www.hankyung.com/article/202610191823i",
-      "source": "한국경제",
-      "ts": 1792422664000,
-      "pub": "Tue, 20 Oct 2026 00:11:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 상승전환해 1%대 강세 마감…SK하이닉스도 0.4%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261019036551008",
-      "source": "연합뉴스 경제",
-      "ts": 1792393896000,
-      "pub": "Mon, 19 Oct 2026 16:11:36 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 19일 급락세로 개장한 국내 반도체 '투톱'이 상승전환에 성공한 채 정규장 거래를 마무리했다. 전 거래일에 이...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
-    },
-    {
-      "title": "코스피, 저가매수에 반등 '선방'…반도체주 투심 여전히 '신중'(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261019083551008",
-      "source": "연합뉴스 경제",
-      "ts": 1792393881000,
-      "pub": "Mon, 19 Oct 2026 16:11:21 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 곽윤아 기자 = 코스피 지수가 주말 사이 재부각된 인공지능(AI) 투자 수익성 우려에도 19일 상승 마감하자 시장은 일단 안도...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/19/PYH2026101918750001300_P2.jpg"
-    },
-    {
-      "title": "정부·SK하이닉스, 반도체 협력사에 2조원 보증 지원",
-      "link": "https://www.yna.co.kr/view/AKR20261019072200003",
-      "source": "연합뉴스 경제",
-      "ts": 1792389602000,
-      "pub": "Mon, 19 Oct 2026 15:00:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 박초롱 기자 = 정부가 SK하이닉스와 손잡고 반도체 소재·부품·장비(소부장) 기업에 2조원 규모의 보증 지원에 나선다.",
-      "image": "https://img.yna.co.kr/photo/cms/2026/07/03/10/PCM20260703000110061_P2.jpg"
     }
   ]
 }

@@ -1,8 +1,72 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-19T20:51:48.634Z",
-  "count": 9,
+  "updated_at": "2026-10-20T00:01:08.484Z",
+  "count": 13,
   "items": [
+    {
+      "title": "AI·반도체주 반등…필리 지수 9거래일만에 반등(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261020010851009",
+      "source": "연합뉴스 국제",
+      "ts": 1792452238000,
+      "pub": "Tue, 20 Oct 2026 08:23:58 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 미국 증시에서 인공지능(AI) 관련주와 반도체주가 지난주의 급락세에서 벗어나 반등했다.",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/17/PRU20261017027201009_P2.jpg"
+    },
+    {
+      "title": "TSMC \"3나노 공장 또 짓는다\"…삼성, 'GAA 2나노' 승부수로 맞불",
+      "link": "https://www.hankyung.com/article/202610191471i",
+      "source": "한국경제",
+      "ts": 1792450804000,
+      "pub": "Tue, 20 Oct 2026 08:00:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "저가매수 유입에 반도체·AI주 상승…나스닥 1.11%↑ [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026102019676",
+      "source": "한국경제",
+      "ts": 1792447695000,
+      "pub": "Tue, 20 Oct 2026 07:08:15 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI·반도체주 반등…필리 지수 9거래일만에 반등",
+      "link": "https://www.yna.co.kr/view/AKR20261020010800009",
+      "source": "연합뉴스 국제",
+      "ts": 1792446855000,
+      "pub": "Tue, 20 Oct 2026 06:54:15 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 미국 증시에서 인공지능(AI) 관련주와 반도체주가 지난주의 급락세에서 벗어나 반등했다.",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/17/PRU20261017027201009_P2.jpg"
+    },
+    {
+      "title": "뉴욕증시, 반도체·AI주 반등 속 혼조…나스닥 1.11%↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261020006051072",
+      "source": "연합뉴스 국제",
+      "ts": 1792446031000,
+      "pub": "Tue, 20 Oct 2026 06:40:31 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 뉴욕증시가 19일(현지시간) 기술주 반등세 속에 혼조세로 마감했다.",
+      "image": "https://img.yna.co.kr/photo/etc/up/2026/10/20/PUP20261020005901009_P2.jpg"
+    },
+    {
+      "title": "반도체주 반등에 한숨 돌렸다…'AI 빚투' 우려는 지속[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/10/20/2026102005584753440",
+      "source": "머니투데이",
+      "ts": 1792443659000,
+      "pub": "Tue, 20 Oct 2026 06:00:59 +0900",
+      "sentiment": "negative",
+      "desc": "뉴욕증시 3대 지수가 19일(현지시간) 반도체·인공지능(AI) 관련주 반등 속에 뚜렷한 방향성을 잡지 못한 채 엇갈렸다. 이날 뉴욕증권거래소에서 S&P500지수는 전거래일보다 31.29포인트(0.41%) 오른 7690.73, 기술주 중심의 나스닥종합지수는 290.85포",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026102005584753440_1.jpg"
+    },
+    {
+      "title": "소부장 늘렸더니...하이닉스 25% 빠질 때 -9% '선방'한 반도체 ETF",
+      "link": "https://www.hankyung.com/article/202610190958i",
+      "source": "한국경제",
+      "ts": 1792443610000,
+      "pub": "Tue, 20 Oct 2026 06:00:10 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "뉴욕증시, 반도체·AI주 반등 속 혼조…나스닥 1.11%↑",
       "link": "https://www.yna.co.kr/view/AKR20261020006000072",
@@ -11,7 +75,7 @@
       "pub": "Tue, 20 Oct 2026 05:27:32 +0900",
       "sentiment": "neutral",
       "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 뉴욕증시가 19일(현지시간) 기술주 반등세 속에 혼조세로 마감했다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/20/AKR20261020006000072_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/etc/up/2026/10/20/PUP20261020005901009_P2.jpg"
     },
     {
       "title": "아마존 목표가 350달러…엔비디아도 비중확대 유지 [월가 업&다운]",
@@ -28,14 +92,6 @@
       "ts": 1792422664000,
       "pub": "Tue, 20 Oct 2026 00:11:04 +0900",
       "sentiment": "neutral"
-    },
-    {
-      "title": "빅테크에 반도체 기판…삼성전기 3600억 수주",
-      "link": "https://www.hankyung.com/article/2026101916931",
-      "source": "한국경제",
-      "ts": 1792405581000,
-      "pub": "Mon, 19 Oct 2026 19:26:21 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "삼성전자, 상승전환해 1%대 강세 마감…SK하이닉스도 0.4%↑(종합)",
@@ -66,26 +122,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 박초롱 기자 = 정부가 SK하이닉스와 손잡고 반도체 소재·부품·장비(소부장) 기업에 2조원 규모의 보증 지원에 나선다.",
       "image": "https://img.yna.co.kr/photo/cms/2026/07/03/10/PCM20260703000110061_P2.jpg"
-    },
-    {
-      "title": "TSMC, 대만 남부에 3나노 공장 추가 건설…\"2028년 양산\"",
-      "link": "https://www.yna.co.kr/view/AKR20261019069400009",
-      "source": "연합뉴스 국제",
-      "ts": 1792375834000,
-      "pub": "Mon, 19 Oct 2026 11:10:34 +0900",
-      "sentiment": "neutral",
-      "desc": "(타이베이=연합뉴스) 김철문 통신원 = 세계 최대 파운드리(반도체 위탁생산) 업체인 대만 TSMC가 대만 남부 지역에 3나노(㎚·10억분의 1m...",
-      "image": "https://img.yna.co.kr/photo/cms/2024/07/02/84/PCM20240702000084009_P2.jpg"
-    },
-    {
-      "title": "앰코, 광주공장 3조원 증축 착공…서남권 반도체 첫 신호탄",
-      "link": "https://www.yna.co.kr/view/AKR20261018038500003",
-      "source": "연합뉴스 경제",
-      "ts": 1792375207000,
-      "pub": "Mon, 19 Oct 2026 11:00:07 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 신창용 기자 = 글로벌 반도체 후공정 기업인 앰코테크놀로지가 총 3조원을 투자해 광주 후공정 생산라인 증설에 들어간다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/19/PYH2026101911680005400_P2.jpg"
     }
   ]
 }

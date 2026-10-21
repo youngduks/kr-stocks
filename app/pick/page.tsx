@@ -16,19 +16,19 @@ export const dynamic = "force-dynamic";
 
 const PICK_URL = "https://kr-stocks.com/pick";
 // TITLE = 화면 h1 문구 그대로(검색 결과 제목 = 페이지 제목). 사이트 접미사 "· KR Stocks"는 주식 브랜드라 붙이지 않음.
-const TITLE = "줍줍파파 숙소 PICK — 아이랑 가기 좋은 숙소";
+const TITLE = "아이랑 숙소 PICK — 줍줍스테이·줍줍파파";  // 10/21 대표님 B안: 인스타(줍줍스테이)·유튜브/블로그(줍줍파파) 함께
 const LEAD = "직접 고른 아이랑 가기 좋은 숙소만 모았어요. 영상 번호로 찾아보세요.";
 // 설명은 화면에 실제로 있는 것만: TOP 7/20 순위, 번호·이름 검색, 예약 버튼(쿠팡·트립닷컴), 버튼 아래 같은 날짜 가격 확인 줄
 const DESC =
-  "줍줍파파가 직접 고른 아이랑 가기 좋은 숙소 모음. 오늘·이번 주 가장 많이 본 숙소 순위, 번호·이름 검색, 숙소별 쿠팡·트립닷컴 예약 링크와 같은 날짜 가격 확인 기록을 한 페이지에서 볼 수 있어요.";
+  "줍줍스테이·줍줍파파가 직접 고른 아이랑 가기 좋은 숙소 모음. 오늘·이번 주 가장 많이 본 숙소 순위, 번호·이름 검색, 숙소별 쿠팡·트립닷컴 예약 링크와 같은 날짜 가격 확인 기록을 한 페이지에서 볼 수 있어요.";
 const DISCLOSURE = "이 페이지의 링크는 쿠팡 파트너스·트립닷컴 제휴 링크로, 예약 시 일정액의 수수료를 받을 수 있어요.";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESC,
-  keywords: ["줍줍파파", "아이랑 숙소", "아이와 가볼만한 숙소", "키즈 펜션", "가족 여행 숙소", "숙소 추천"],
+  keywords: ["줍줍스테이", "줍줍파파", "아이랑 숙소", "아이와 가볼만한 숙소", "키즈 펜션", "가족 여행 숙소", "숙소 추천"],
   // openGraph·twitter는 루트 값을 통째로 덮으므로 siteName·locale을 다시 적고, 트위터 카드도 주식 문구가 새지 않게 지정.
-  // OG 이미지는 아직 없음(루트 이미지는 주식 화면이라 상속 안 함) — 전용 이미지는 별도 작업.
+  // OG 이미지: public/og/pick.png(1200x630, 10/21 — 루트 주식 이미지 상속 안 함)
   openGraph: {
     title: TITLE,
     description: DESC,
@@ -36,11 +36,13 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "KR Stocks",
     locale: "ko_KR",
+    images: [{ url: "https://kr-stocks.com/og/pick.png", width: 1200, height: 630, alt: "아이랑 숙소 PICK — 키즈풀·조식·객실까지 확인한 숙소, 같은 날짜 쿠팡·트립닷컴 가격 비교" }],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: TITLE,
     description: DESC,
+    images: ["https://kr-stocks.com/og/pick.png"],
   },
   alternates: {
     canonical: PICK_URL,
@@ -122,8 +124,8 @@ export default async function PickPage() {
   return (
     <main className="max-w-3xl mx-auto px-4 sm:px-5 pt-5 pb-12">
       <h1 className="text-[24px] font-extrabold tracking-tight leading-tight">
-        줍줍파파 숙소 PICK
-        <span className="block text-[17px] font-bold text-text-muted mt-1">— 아이랑 가기 좋은 숙소</span>
+        아이랑 숙소 PICK
+        <span className="block text-[17px] font-bold text-text-muted mt-1">— 줍줍스테이·줍줍파파</span>
       </h1>
       <p className="ds-explain mt-1">{LEAD}</p>
       {stays.length > 0 && (

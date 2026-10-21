@@ -199,7 +199,7 @@
       },
       {
         "platform": "트립닷컴",
-        "url": "https://kr.trip.com/hotels/detail/?hotelId=988584&Allianceid=11030363&SID=333717644&trip_sub1=pick7&trip_sub3=D20264946"
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=3644044&Allianceid=11030363&SID=333717644&trip_sub1=pick7&trip_sub3=D20406521"
       }
     ],
     "added": "2026-10-09",
@@ -208,13 +208,9 @@
       "nights": 1,
       "adults": 2,
       "checked": "2026-10-19",
-      "prices": {
-        "트립닷컴": {
-          "krw": 1671028,
-          "tax": "포함"
-        }
-      },
-      "cheaper": null
+      "prices": {},
+      "cheaper": null,
+      "note": "10/21 트립닷컴 가격은 잘못된 호텔(신라) 값이라 삭제"
     }
   },
   {

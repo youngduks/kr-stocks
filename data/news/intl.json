@@ -1,8 +1,98 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-21T01:04:53.001Z",
-  "count": 25,
+  "updated_at": "2026-10-21T06:43:12.293Z",
+  "count": 19,
   "items": [
+    {
+      "title": "\"네타냐후, 이란 대규모 폭격하려다 트럼프 반대에 보류\"",
+      "link": "https://www.yna.co.kr/view/AKR20261021108900009",
+      "source": "연합뉴스 국제",
+      "ts": 1792560677000,
+      "pub": "Wed, 21 Oct 2026 14:31:17 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 강훈상 기자 = 베냐민 네타냐후 이스라엘 총리가 이달 초 이란을 대규모로 공습하는 작전을 계획을 세웠으나 도널드 트럼프 미 대...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/19/PRU20261019022001009_P2.jpg"
+    },
+    {
+      "title": "[쇼츠] 전파교란 뚫고 300km 비행…우크라 정찰드론 '머큐리'",
+      "link": "https://www.yna.co.kr/view/AKR20261021106600704",
+      "source": "연합뉴스 국제",
+      "ts": 1792560627000,
+      "pub": "Wed, 21 Oct 2026 14:30:27 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 우크라이나 무인기 제작사 ANT(Aviation New Technologies)가 비행 시간과 항속 거리, 전자전 대응 능력을...",
+      "image": "https://www.youtube.com/embed/ybOfKueERa4"
+    },
+    {
+      "title": "내달 필리핀서 '쿼드' 정상회의…트럼프 재집권 후 처음",
+      "link": "https://www.yna.co.kr/view/AKR20261021103400009",
+      "source": "연합뉴스 국제",
+      "ts": 1792558951000,
+      "pub": "Wed, 21 Oct 2026 14:02:31 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김병규 기자 = 미국과 일본, 호주, 인도의 안보협의체 '쿼드(Quad)'의 정상회의가 내달 열릴 예정이라고 일본 공영방송 N...",
+      "image": "https://img.yna.co.kr/photo/cms/2021/03/29/12/PCM20210329000112990_P2.jpg"
+    },
+    {
+      "title": "[영상] 5시간 체공·300㎞ 정찰…우크라 신형 수직이착륙 드론 공개",
+      "link": "https://www.yna.co.kr/view/AKR20261021095000704",
+      "source": "연합뉴스 국제",
+      "ts": 1792557972000,
+      "pub": "Wed, 21 Oct 2026 13:46:12 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 우크라이나 무인기 제작사 ANT(Aviation New Technologies)가 비행 시간과 항속 거리, 전자전 대응 능력을...",
+      "image": "https://www.youtube.com/embed/gCZzlDXOn8Y"
+    },
+    {
+      "title": "美중간선거 참패 우려에…트럼프 백악관 내부 분열 격화",
+      "link": "https://www.yna.co.kr/view/AKR20261021085900009",
+      "source": "연합뉴스 국제",
+      "ts": 1792551228000,
+      "pub": "Wed, 21 Oct 2026 11:53:48 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 곽민서 기자 = 미국 공화당이 다음 달 중간선거에서 참패할 것이란 전망이 이어지면서 백악관의 내부 갈등도 점점 더 심해지고 있...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/21/PRU20261021183101009_P2.jpg"
+    },
+    {
+      "title": "이스라엘 초정통파 '불만 표심' 네타냐후 정권 끝낼까",
+      "link": "https://www.yna.co.kr/view/AKR20261021077700009",
+      "source": "연합뉴스 국제",
+      "ts": 1792549405000,
+      "pub": "Wed, 21 Oct 2026 11:23:25 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 강훈상 기자 = 이스라엘의 초정통파 표심이 27일(현지시간) 총선에서 베냐민 네타냐후 정권의 운명을 가를 수 있다고 영국 더타...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/18/PEP20261018127301009_P2.jpg"
+    },
+    {
+      "title": "트럼프, 대러 유화책 비판 속 푸틴에 구금 미국인 석방 요청",
+      "link": "https://www.yna.co.kr/view/AKR20261021067000009",
+      "source": "연합뉴스 국제",
+      "ts": 1792548757000,
+      "pub": "Wed, 21 Oct 2026 11:12:37 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이신영 기자 = 도널드 트럼프 미국 대통령은 20일(현지시간) 블라디미르 푸틴 러시아 대통령에게 우크라이나 용병으로 활동한 혐...",
+      "image": "https://img.yna.co.kr/photo/ap/2025/04/11/PAP20250411008301009_P2.jpg"
+    },
+    {
+      "title": "[게시판] 관세청, 내달 초 '코리아 커스텀즈 위크'…관세·통상현안 논의",
+      "link": "https://www.yna.co.kr/view/AKR20261021069900002",
+      "source": "연합뉴스 경제",
+      "ts": 1792547364000,
+      "pub": "Wed, 21 Oct 2026 10:49:24 +0900",
+      "sentiment": "neutral",
+      "desc": "▲ 관세청은 다음달 2일부터 4일까지 서울 롯데호텔 월드에서 '코리아 커스텀즈 위크(Korea Customs Week) 2006'을 연다고 밝혔...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/21/AKR20261021069900002_01_i_P2.jpg"
+    },
+    {
+      "title": "트럼프 \"인도와 무역협상 거의 다 됐다\"…루비오 \"99% 끝나\"",
+      "link": "https://www.yna.co.kr/view/AKR20261021051000104",
+      "source": "연합뉴스 국제",
+      "ts": 1792544453000,
+      "pub": "Wed, 21 Oct 2026 10:00:53 +0900",
+      "sentiment": "neutral",
+      "desc": "(자카르타=연합뉴스) 손현규 특파원 = 도널드 트럼프 미국 대통령이 올해 2월 잠정 합의하고도 최종 타결하지 못한 인도와의 무역 협상이 거의 마...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/10/20/PAP20261020137401009_P2.jpg"
+    },
     {
       "title": "젤렌스키, 트럼프에 공개 반발 이유는…\"침묵이 더 위험 판단\"",
       "link": "https://www.yna.co.kr/view/AKR20261021039700009",
@@ -12,42 +102,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 고일환 기자 = 볼로디미르 젤렌스키 우크라이나 대통령이 최근 도널드 트럼프 미국 대통령을 향해 공개적으로 불만을 터뜨린 것은 ...",
       "image": "https://img.yna.co.kr/photo/ap/2026/09/23/PAP20260923173701009_P2.jpg"
-    },
-    {
-      "title": "野정점식 \"'우크라 철수' 이재명정부, 서방세계서 이탈…북중러와 결착\"",
-      "link": "https://www.mt.co.kr/politics/2026/10/21/2026102109155766411",
-      "source": "머니투데이",
-      "ts": 1792542896000,
-      "pub": "Wed, 21 Oct 2026 09:34:56 +0900",
-      "sentiment": "neutral",
-      "desc": "[the300] 정점식 국민의힘 원내대표가 정부의 우크라이나 공관원 추가 철수를 감정적 대응이라고 비판하며 이같은 외교 노선이 유럽 등 서방세계와의 관계에도 악영향을 미칠 것이라고 경고했다. 정 원내대표는 21일 SNS(소셜미디어)를 통해 \"정부가 우크라이나 공관원 추",
-      "image": "https://thumb.mt.co.kr/06/2026/10/2026102109155766411_1.jpg"
-    },
-    {
-      "title": "野윤상현 \"정부, 우크라이나와 연대해야…자존심보다 국익이 먼저\"",
-      "link": "https://www.mt.co.kr/politics/2026/10/21/2026102108521838713",
-      "source": "머니투데이",
-      "ts": 1792540530000,
-      "pub": "Wed, 21 Oct 2026 08:55:30 +0900",
-      "sentiment": "neutral",
-      "desc": "[the300] 윤상현 국민의힘 의원이 우크라이나 현지 공관원 절반가량의 철수를 결정한 정부를 향해 \"감정적 대응을 거두고 대한민국 안보와 국익을 중심에 놓는 외교로 돌아와야 한다\"고 밝혔다. 윤 의원은 21일 SNS(소셜미디어)를 통해 \"외교는 자존심보다 국익이 먼저",
-      "image": "https://thumb.mt.co.kr/06/2026/10/2026102108521838713_1.jpg"
-    },
-    {
-      "title": "Fed 추가 금리 인상 우려에 금값 하락…4000달러 지지선 주목",
-      "link": "https://www.hankyung.com/article/202610214657i",
-      "source": "한국경제",
-      "ts": 1792537345000,
-      "pub": "Wed, 21 Oct 2026 08:02:25 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "트럼프에 밀착한 다카이치 1년…중국인 관광객은 반토막",
-      "link": "https://www.hankyung.com/article/202610214694i",
-      "source": "한국경제",
-      "ts": 1792536997000,
-      "pub": "Wed, 21 Oct 2026 07:56:37 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "\"우크라 스타실드 속도제한, 머스크가 지시…트럼프와 협의설도\"",
@@ -138,116 +192,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 스콧 베선트 미국 재무장관은 20일(현지시간) 중간선거 이후 민주당이 주도하는 의회가 들어서더라도 도널드 ...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/10/12/PRU20261012010801009_P2.jpg"
-    },
-    {
-      "title": "밴스, 트럼프와 차별화하나…\"네타냐후 지지도 반대도 안해\"",
-      "link": "https://www.yna.co.kr/view/AKR20261020178500071",
-      "source": "연합뉴스 국제",
-      "ts": 1792506326000,
-      "pub": "Tue, 20 Oct 2026 23:25:26 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 행정부의 2인자인 JD 밴스 부통령이 미국의 주요 대내외 정책에서 트럼프 대통령과 차별...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/20/PRU20261020107901009_P2.jpg"
-    },
-    {
-      "title": "\"이란, 중간선거 앞둔 트럼프에 타격 주려 종전협상 지연\"",
-      "link": "https://www.yna.co.kr/view/AKR20261020178400071",
-      "source": "연합뉴스 국제",
-      "ts": 1792505549000,
-      "pub": "Tue, 20 Oct 2026 23:12:29 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 이란이 다음 달 3일 미국 중간선거를 앞두고 도널드 트럼프 미국 대통령에게 정치적 타격을 주기 위해 미국과...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/20/AKR20261020178400071_01_i_P2.jpg"
-    },
-    {
-      "title": "\"미국인 10명 중 7명, 트럼프 중간선거 결과 수용 확신못해\"",
-      "link": "https://www.yna.co.kr/view/AKR20261020172400009",
-      "source": "연합뉴스 국제",
-      "ts": 1792495572000,
-      "pub": "Tue, 20 Oct 2026 20:26:12 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김아람 기자 = 미국인 10명 중 7명은 오는 11월 중간선거에서 공화당이 패배하면 도널드 트럼프 대통령이 결과를 수용할 것으...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/20/PAP20261020137401009_P2.jpg"
-    },
-    {
-      "title": "日정부, 미중러 3자 회담 여부에 \"주시 중\"",
-      "link": "https://www.yna.co.kr/view/AKR20261020171800073",
-      "source": "연합뉴스 국제",
-      "ts": 1792495408000,
-      "pub": "Tue, 20 Oct 2026 20:23:28 +0900",
-      "sentiment": "neutral",
-      "desc": "(도쿄=연합뉴스) 조성미 특파원 = 일본 정부는 도널드 트럼프 미국 대통령이 의욕을 보인 미중러 3개국 정상회담에 대해 실제 성사 여부를 포함해...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/05/17/09/PCM20260517000009990_P2.jpg"
-    },
-    {
-      "title": "정보·방공망 뚫린 우크라…러 공격에 민간인 사상 잇따라",
-      "link": "https://www.yna.co.kr/view/AKR20261020153200109",
-      "source": "연합뉴스 국제",
-      "ts": 1792487016000,
-      "pub": "Tue, 20 Oct 2026 18:03:36 +0900",
-      "sentiment": "neutral",
-      "desc": "(로마=연합뉴스) 민경락 특파원 = 미국과의 갈등으로 방공망과 군사정보 취약점을 노출한 우크라이나에서 러시아의 공격으로 민간인 피해가 잇달았다.",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/20/PAF20261020125001009_P2.jpg"
-    },
-    {
-      "title": "트럼프 압박받는 젤렌스키, 윗코프 美특사와 종전방안 논의",
-      "link": "https://www.yna.co.kr/view/AKR20261020154700082",
-      "source": "연합뉴스 국제",
-      "ts": 1792485967000,
-      "pub": "Tue, 20 Oct 2026 17:46:07 +0900",
-      "sentiment": "neutral",
-      "desc": "(베를린=연합뉴스) 김계연 특파원 = 최근 도널드 트럼프 미국 대통령에게서 거센 압박을 받고 있는 볼로디미르 젤렌스키 우크라이나 대통령이 20일...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/08/PRU20261008158201009_P2.jpg"
-    },
-    {
-      "title": "트럼프 지지율 31%, 집권 통틀어 최저…민주, 공화에 12%p 우세",
-      "link": "https://www.yna.co.kr/view/AKR20261020148500009",
-      "source": "연합뉴스 국제",
-      "ts": 1792485117000,
-      "pub": "Tue, 20 Oct 2026 17:31:57 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김아람 기자 = 오는 11월 3일 미국 중간선거를 앞두고 도널드 트럼프 대통령의 지지율이 그의 재임 기간을 통틀어 최저치로 떨...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/20/PAP20261020140801009_P2.jpg"
-    },
-    {
-      "title": "트럼프, 연방기관서 中딥시크 퇴출…中 \"과학기술 정치화\" 반발(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261020000551071",
-      "source": "연합뉴스 국제",
-      "ts": 1792483352000,
-      "pub": "Tue, 20 Oct 2026 17:02:32 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴·베이징=연합뉴스) 백나리 김현정 특파원 = 도널드 트럼프 미국 행정부가 19일(현지시간) 연방 정부 기관에 중국 인공지능(AI) 기업 ...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/18/PAP20261018108401009_P2.jpg"
-    },
-    {
-      "title": "[쇼츠] 우크라군, 대형 헥사콥터로 부상병 공중 후송 성공!",
-      "link": "https://www.yna.co.kr/view/AKR20261020144800704",
-      "source": "연합뉴스 국제",
-      "ts": 1792483199000,
-      "pub": "Tue, 20 Oct 2026 16:59:59 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 우크라이나군이 세계 최초로 대형 드론인  6개 로터가 장착된 대형 헥사콥터를 활용해 적진에 고립된 부상병을 공중 후송하는 데 ...",
-      "image": "https://www.youtube.com/embed/Q7IvBdVtgEY"
-    },
-    {
-      "title": "멜라니아 백악관서 이례적 공개 브리핑…중간선거 트럼프 구하기",
-      "link": "https://www.yna.co.kr/view/AKR20261020132300009",
-      "source": "연합뉴스 국제",
-      "ts": 1792479820000,
-      "pub": "Tue, 20 Oct 2026 16:03:40 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이지헌 기자 = 도널드 트럼프 미 대통령의 부인 멜라니아 트럼프 여사가 이례적으로 백악관 로즈가든 공개행사에 참석해 여성 건강...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/20/AKR20261020132300009_02_i_P2.jpg"
-    },
-    {
-      "title": "美 국무부, 케냐 여행경보 격상…\"에볼라로 건강 위험\"",
-      "link": "https://www.yna.co.kr/view/AKR20261020121400009",
-      "source": "연합뉴스 국제",
-      "ts": 1792478390000,
-      "pub": "Tue, 20 Oct 2026 15:39:50 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 현영복 기자 = 미국 국무부는 에볼라 확진자가 늘고 있는 아프리카의 케냐 여행을 자제해 줄 것을 자국민들에게 당부하면서 케냐에...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/13/PAF20261013021801009_P2.jpg"
     }
   ]
 }

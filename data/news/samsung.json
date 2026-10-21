@@ -1,8 +1,36 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-21T01:04:53.002Z",
-  "count": 6,
+  "updated_at": "2026-10-21T06:43:12.296Z",
+  "count": 4,
   "items": [
+    {
+      "title": "로이터 \"삼전·닉스, 중국공장 낸드 첨단공정 전환 추진\"",
+      "link": "https://www.yna.co.kr/view/AKR20261021112400009",
+      "source": "연합뉴스 국제",
+      "ts": 1792561663000,
+      "pub": "Wed, 21 Oct 2026 14:47:43 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 삼성전자와 SK하이닉스가 중국 공장을 업그레이드해 더 앞선 낸드플래시를 생산하려 한다고 로이터 통신이 소식통 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/21/AKR20261021112400009_01_i_P2.jpg"
+    },
+    {
+      "title": "'삼전닉스' 급등 이유 봤더니…\"외국인이 다시 사기 시작했다\"",
+      "link": "https://www.hankyung.com/article/202610215836i",
+      "source": "한국경제",
+      "ts": 1792558864000,
+      "pub": "Wed, 21 Oct 2026 14:01:04 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "공정 바꾸고 대체품까지…'금값' AI메모리에 빅테크 대응 몸부림",
+      "link": "https://www.yna.co.kr/view/AKR20261021091900003",
+      "source": "연합뉴스 경제",
+      "ts": 1792557127000,
+      "pub": "Wed, 21 Oct 2026 13:32:07 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 박초롱 기자 = 인공지능(AI) 확산으로 메모리 반도체 수요가 급증하고 가격이 치솟자 글로벌 빅테크들이 메모리 조달 전략을 다...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/29/PYH2026092917180007200_P2.jpg"
+    },
     {
       "title": "[특징주] 삼성전자, 장초반 4%대 반등 중…SK하이닉스도 5.6%↑",
       "link": "https://www.yna.co.kr/view/AKR20261021039300008",
@@ -11,50 +39,6 @@
       "pub": "Wed, 21 Oct 2026 09:36:40 +0900",
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 21일 장 초반 각각 4%와 5%대의 상승률을 보이며 급...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
-    },
-    {
-      "title": "삼전닉스 3%대 동반 상승…매크로 환경 개선에 투심↑",
-      "link": "https://www.mt.co.kr/stock/2026/10/21/2026102109121824324",
-      "source": "머니투데이",
-      "ts": 1792541568000,
-      "pub": "Wed, 21 Oct 2026 09:12:48 +0900",
-      "sentiment": "neutral",
-      "desc": "특징주 삼성전자와 SK하이닉스가 장 초반 3%대로 오르고 있다. 간밤 미-이란 협상 등 대내외 환경이 개선된 데다 저가 매수세가 유입된 영향으로 풀이된다. 21일 오전 9시4분 현재 코스피 시장에서 삼성전자는 전 거래일 대비 6500원(3.07%) 오른 21만8000원",
-      "image": "https://thumb.mt.co.kr/06/2026/10/2026102109121824324_1.jpg"
-    },
-    {
-      "title": "\"삼전닉스처럼 '영업익 N%' 성과급 달라\"…마이크론 대만 공장 '파업 초읽기'",
-      "link": "https://www.hankyung.com/article/202610214773g",
-      "source": "한국경제",
-      "ts": 1792540680000,
-      "pub": "Wed, 21 Oct 2026 08:58:00 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"삼전닉스 밀려도 웃었다\"…급락장서 선방한 제약·바이오주 [분석+]",
-      "link": "https://www.hankyung.com/article/2026102146356",
-      "source": "한국경제",
-      "ts": 1792539434000,
-      "pub": "Wed, 21 Oct 2026 08:37:14 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"마이크론 파업 예고…삼성·SK, 메모리 공급 주도권 커진다\"-KB",
-      "link": "https://www.hankyung.com/article/2026102147966",
-      "source": "한국경제",
-      "ts": 1792538899000,
-      "pub": "Wed, 21 Oct 2026 08:28:19 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "삼성전자, 낙폭 키워 3% 하락 마감…SK하이닉스도 4.2%↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261020043051008",
-      "source": "연합뉴스 경제",
-      "ts": 1792481524000,
-      "pub": "Tue, 20 Oct 2026 16:32:04 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 각각 3%와 4%가량 하락한 채 20일 정규장 거래를 마...",
       "image": "https://img.yna.co.kr/photo/cms/2026/04/13/48/PCM20260413000048990_P2.jpg"
     }
   ]

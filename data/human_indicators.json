@@ -7,10 +7,19 @@
       "channel": "전인구경제연구소",
       "channel_url": "https://www.youtube.com/@moneydo",
       "channel_id": "UCznImSIaxZR7fdLCICLdgaQ",
-      "last_checked_video_id": "jsmszHQPf9c",
+      "last_checked_video_id": "cXzjftHNDb8",
       "tagline": "\"고점 판독기\" — 나무위키에도 등재된 별명. 2023년 이후 증시 전망이 반대로 맞는 걸로 유명",
       "note": "본인 문서(나무위키)에 \"시장 전망 영상 대부분이 틀리는 걸 넘어 반대로 맞히는 예지력\"이라는 비판이 있고, 댓글창에서 \"고점 판독기\"·\"어둠의 고수\"로 불림. 역발상 참고용으로 소개합니다 — 조롱이 목적이 아니라, 실제로 존재하는 밈이라 재미로 트래킹합니다.",
       "opinions": [
+        {
+          "date": "2026-10-22",
+          "title": "지금 부자들은 '이 채권' 사느라 난리 났습니다(ft.마경환 대표 2부)",
+          "summary": "AI 랠리가 후반부(레이트 사이클)에 와 있다는 것이 해외 주식 자료들의 거의 동일한 견해라고 전하며, 경제가 나빠질 경우에 대비해 주식과 반대로 움직이는 국채로 헤지할 필요가 있다고 말한다. 또한 한국과 미국 모두 K자 경제이며 AI 기업 실적이 아래쪽 약세를 가리고 있어 버블이 터지면 크게 하락할 수 있고, 최근 주식·채권의 헤지 기능이 복원되는 신호가 보인다고 해석한다.",
+          "summary_short": "AI 랠리 후반, 국채 헤지",
+          "stance": "cautious",
+          "video_url": "https://www.youtube.com/watch?v=Q0CL-MW9xv4",
+          "published_at": "2026-10-22T02:04:36.000Z"
+        },
         {
           "date": "2026-10-18",
           "title": "검은월요일, 코스피는 얼마나 떨어질까?(ft.딥시크, 코워위브)",
@@ -91,15 +100,6 @@
           "stance": "cautious",
           "video_url": "https://www.youtube.com/watch?v=QnCprtL1ik8",
           "published_at": "2026-10-09T03:30:05.000Z"
-        },
-        {
-          "date": "2026-09-30",
-          "title": "삼전닉스 목숨줄을 쥔 마이크론 실적 예상",
-          "summary": "마이크론 실적과 전망에 따라 삼성전자·하이닉스 주가 방향이 결정될 것으로 보며, 외국인 매도 지속 속 자사주 매입이 끝난 후 매수세가 받쳐주지 않으면 위험하다고 봄. 수치상 긍정적 기대는 있으나 결과는 예측 불가하다는 신중한 입장.",
-          "summary_short": "마이크론 실적이 관건, 신중론",
-          "stance": "cautious",
-          "video_url": "https://www.youtube.com/watch?v=I9-UUuC2lqE",
-          "published_at": "2026-09-30T08:27:34.000Z"
         }
       ],
       "pending": []

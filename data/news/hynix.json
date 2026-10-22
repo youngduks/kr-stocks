@@ -1,8 +1,44 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-22T08:03:11.492Z",
+  "updated_at": "2026-10-22T14:10:38.694Z",
   "count": 8,
   "items": [
+    {
+      "title": "\"중국 희토류 없이 반도체 만든다\"…TSMC,희토류없는 모터 찾기",
+      "link": "https://www.hankyung.com/article/202610229710i",
+      "source": "한국경제",
+      "ts": 1792667711000,
+      "pub": "Thu, 22 Oct 2026 20:15:11 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中 CXMT에 기술유출 삼성 前직원 징역 5년",
+      "link": "https://www.hankyung.com/article/2026102297011",
+      "source": "한국경제",
+      "ts": 1792665811000,
+      "pub": "Thu, 22 Oct 2026 19:43:31 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 이어 부품·설비 품귀에 빅테크 장기공급계약 '뉴 노멀'로",
+      "link": "https://www.mt.co.kr/industry/2026/10/22/2026102213550671106",
+      "source": "머니투데이",
+      "ts": 1792662146000,
+      "pub": "Thu, 22 Oct 2026 18:42:26 +0900",
+      "sentiment": "neutral",
+      "desc": "기판 생산라인 증설 지원에 배전반·변압기 등으로 장기계약 확산 메모리 반도체(이하 메모리)를 중심으로 이뤄졌던 장기공급계약(LTA)이 반도체 부품을 넘어 전력 기기 등 전력 인프라 분야까지 확산되고 있다. AI(인공지능) 투자 확대에 따른 공급 부족과 빅테크 기업들의 ",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026102213550671106_1.jpg"
+    },
+    {
+      "title": "대만노조 요구에 美마이크론, 이익연동 성과급 분기별 지급",
+      "link": "https://www.yna.co.kr/view/AKR20261022178500083",
+      "source": "연합뉴스 국제",
+      "ts": 1792660459000,
+      "pub": "Thu, 22 Oct 2026 18:14:19 +0900",
+      "sentiment": "neutral",
+      "desc": "(베이징=연합뉴스) 김현정 특파원 = 미국 메모리 반도체 기업 마이크론이 대만 노동조합의 요구를 받아들여 분기별 이익연동 성과급을 신설하고, 이...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/22/PAF20261022180001009_P2.jpg"
+    },
     {
       "title": "이억원 \"솔리다임 중복상장 규제대상…SK하이닉스 등 의무 발생\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20261022083551002",
@@ -12,22 +48,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 배영경 강수련 김지연 강류나 기자 = 이억원 금융위원장은 22일 SK하이닉스[000660]의 미국 자회사 솔리다임 상장 추진이...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/22/PYH2026102210590001300_P2.jpg"
-    },
-    {
-      "title": "삼성 D램 기술 유출 가담한 中 CXMT 前 직원, 2심서 감형",
-      "link": "https://www.hankyung.com/article/202610229138i",
-      "source": "한국경제",
-      "ts": 1792653470000,
-      "pub": "Thu, 22 Oct 2026 16:17:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아 호재 터졌지만 주가 하락…삼성전기 전망은?",
-      "link": "https://www.hankyung.com/article/202610228557i",
-      "source": "한국경제",
-      "ts": 1792652876000,
-      "pub": "Thu, 22 Oct 2026 16:07:56 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "[특징주] 삼성전기, 엔비디아발 호재에도 2% 하락 전환 마감(종합)",
@@ -58,26 +78,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 한지훈 기자 = 반도체 경기 호조가 여러 경로로 가계 소비 여력을 개선하는 '낙수효과'로 민간소비 회복세에 힘을 보탤 것이라는...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/17/PYH2026081705110001300_P2.jpg"
-    },
-    {
-      "title": "이억원 \"솔리다임 중복상장 규제대상…SK하이닉스 등 의무 발생\"",
-      "link": "https://www.yna.co.kr/view/AKR20261022083500002",
-      "source": "연합뉴스 경제",
-      "ts": 1792635007000,
-      "pub": "Thu, 22 Oct 2026 11:10:07 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 배영경 강수련 김지연 기자 = 이억원 금융위원장은 22일 SK하이닉스[000660]의 미국 자회사 솔리다임 상장 추진이 현행 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/22/PYH2026102210590001300_P2.jpg"
-    },
-    {
-      "title": "토스증권 \"日 반도체 소부장, 대체 어려운 경쟁력 보유\"",
-      "link": "https://www.yna.co.kr/view/AKR20261022077900008",
-      "source": "연합뉴스 경제",
-      "ts": 1792634140000,
-      "pub": "Thu, 22 Oct 2026 10:55:40 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 토스증권 리서치센터는 일본 반도체 소재·부품·장비(소부장) 산업의 경쟁력과 역할을 분석한 보고서 '다녀왔습니다...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/22/AKR20261022077900008_01_i_P2.jpg"
     }
   ]
 }

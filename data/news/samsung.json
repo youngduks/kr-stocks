@@ -1,15 +1,25 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-22T02:15:33.421Z",
-  "count": 1,
+  "updated_at": "2026-10-22T08:03:11.491Z",
+  "count": 2,
   "items": [
     {
-      "title": "삼전닉스 던진 '수익률 1% 초고수'…'이 종목'에 베팅했다",
-      "link": "https://www.hankyung.com/article/202610227638i",
+      "title": "코스피, 3% 넘게 하락해 5500선 후퇴…삼전닉스 4~5% 급락",
+      "link": "https://www.hankyung.com/article/2026102290026",
       "source": "한국경제",
-      "ts": 1792627370000,
-      "pub": "Thu, 22 Oct 2026 09:02:50 +0900",
-      "sentiment": "neutral"
+      "ts": 1792651360000,
+      "pub": "Thu, 22 Oct 2026 15:42:40 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "코스피, 2% 넘게 내리며 5,600선 공방…삼전 닉스 3%대 하락",
+      "link": "https://www.yna.co.kr/view/AKR20261022088400008",
+      "source": "연합뉴스 경제",
+      "ts": 1792635951000,
+      "pub": "Thu, 22 Oct 2026 11:25:51 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유아 기자 = 22일 코스피가 거듭 하방 압력에 밀리는 모습을 보이고 있다.",
+      "image": "https://img.yna.co.kr/photo/cms/2026/10/22/10/PCM20261022000010990_P2.jpg"
     }
   ]
 }

@@ -7,10 +7,19 @@
       "channel": "전인구경제연구소",
       "channel_url": "https://www.youtube.com/@moneydo",
       "channel_id": "UCznImSIaxZR7fdLCICLdgaQ",
-      "last_checked_video_id": "cXzjftHNDb8",
+      "last_checked_video_id": "HnCvxsvJxFs",
       "tagline": "\"고점 판독기\" — 나무위키에도 등재된 별명. 2023년 이후 증시 전망이 반대로 맞는 걸로 유명",
       "note": "본인 문서(나무위키)에 \"시장 전망 영상 대부분이 틀리는 걸 넘어 반대로 맞히는 예지력\"이라는 비판이 있고, 댓글창에서 \"고점 판독기\"·\"어둠의 고수\"로 불림. 역발상 참고용으로 소개합니다 — 조롱이 목적이 아니라, 실제로 존재하는 밈이라 재미로 트래킹합니다.",
       "opinions": [
+        {
+          "date": "2026-10-23",
+          "title": "적자에 신주발행하는 메타, 투자비 공포에 질린 증시",
+          "summary": "메타의 AI 지출 약정 급증과 FCF 적자 전환, 우선주 발행, 엔트로픽 성장 둔화 우려 등으로 유동성이 시장에서 빠지고 있다고 진단한다. 국채 금리 하락과 방어주 강세로 안전자산 선호가 뚜렷하며, 환율 부담 속에 코스피가 5,300선에서 불안하게 움직이는 만큼 5,000선 지지와 반등을 바란다고 말한다.",
+          "summary_short": "유동성 이탈, 증시 약세 우려",
+          "stance": "bearish",
+          "video_url": "https://www.youtube.com/watch?v=HnCvxsvJxFs",
+          "published_at": "2026-10-23T00:39:08.000Z"
+        },
         {
           "date": "2026-10-22",
           "title": "지금 부자들은 '이 채권' 사느라 난리 났습니다(ft.마경환 대표 2부)",
@@ -91,15 +100,6 @@
           "stance": "cautious",
           "video_url": "https://www.youtube.com/watch?v=z1E7W9LEFYQ",
           "published_at": "2026-10-11T12:55:03.000Z"
-        },
-        {
-          "date": "2026-10-09",
-          "title": "예상보다 30% 적게 나온 오픈AI 매출 쇼크, 진실은 이렇습니다.",
-          "summary": "오픈AI 매출 쇼크는 엔트로픽과 매출 산정 방식 차이에서 비롯된 시장의 오해였으며, 실망감으로 주가가 선반영분을 되돌리는 조정이 나왔다고 설명한다. AI 투자 확대에 따른 적자·자금조달 부담 등 불안 요인이 남아있어 단기 변동성이 지속될 수 있다고 본다.",
-          "summary_short": "AI 매출쇼크는 해석차, 변동성 지속",
-          "stance": "cautious",
-          "video_url": "https://www.youtube.com/watch?v=QnCprtL1ik8",
-          "published_at": "2026-10-09T03:30:05.000Z"
         }
       ],
       "pending": []

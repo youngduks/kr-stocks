@@ -1,7 +1,7 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-23T10:38:52.608Z",
-  "count": 3,
+  "updated_at": "2026-10-23T15:30:53.450Z",
+  "count": 2,
   "items": [
     {
       "title": "美 금리 결정에 구글·아마존·삼전닉스 실적까지...코스피 운명가를 슈퍼위크[다음주 변수 미리보기]",
@@ -12,20 +12,14 @@
       "sentiment": "neutral"
     },
     {
-      "title": "UAE서 귀국 직후 父 선영으로 달려간 이재용 회장",
-      "link": "https://www.hankyung.com/article/2026102317441",
-      "source": "한국경제",
-      "ts": 1792746397000,
-      "pub": "Fri, 23 Oct 2026 18:06:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "투자 유치? 증자?…하이닉스, 美 낸드공장 자금줄 새로 찾는다",
-      "link": "https://www.hankyung.com/article/2026102318411",
-      "source": "한국경제",
-      "ts": 1792746164000,
-      "pub": "Fri, 23 Oct 2026 18:02:44 +0900",
-      "sentiment": "neutral"
+      "title": "취업난 속 삼전닉스 호황에 반도체고 경쟁률 '쑥'",
+      "link": "https://www.yna.co.kr/view/AKR20261023102700530",
+      "source": "연합뉴스 경제",
+      "ts": 1792732498000,
+      "pub": "Fri, 23 Oct 2026 14:14:58 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 노재현 기자 = 국내 반도체 업계의 호황이 이어지는 상황에서 전국 반도체고의 입학 경쟁도 한층 뜨거워졌다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/10/PYH2026071015250006400_P2.jpg"
     }
   ]
 }

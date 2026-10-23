@@ -159,8 +159,34 @@ export default async function PrivacyPage() {
               </p>
             </section>
 
+            <section id="social-auto-reply">
+              <h2 className="text-lg font-bold text-text mb-2">9. 인스타그램·스레드 댓글 자동 응답</h2>
+              <p>
+                운영자가 관리하는 인스타그램·스레드 계정(예: @jubjub.stay, @wise.medical_life)은 Meta 공식 API로
+                게시물에 달린 댓글을 확인하고, 숙소·정보 링크를 요청한 분께 1회 DM(비공개 답장)을 보냅니다. 이때
+                처리하는 정보는 댓글 ID·댓글 내용·작성 시각·인스타그램 사용자 이름이며, 같은 댓글에 중복으로
+                답장하지 않기 위해 댓글 ID만 보관합니다. 사용자 이름·댓글 내용은 별도로 저장하거나 제3자에게
+                제공하지 않으며, 광고 타기팅에 사용하지 않습니다.
+              </p>
+            </section>
+
+            <section id="data-deletion">
+              <h2 className="text-lg font-bold text-text mb-2">10. 데이터 삭제 요청</h2>
+              <p>
+                자동 응답 과정에서 보관된 댓글 ID 등 본인과 관련된 기록의 삭제를 원하시면 인스타그램 계정 이름을
+                적어 아래 문의처로 요청해 주세요. 확인 후 7일 이내에 삭제하고 결과를 회신합니다. 인스타그램에서
+                해당 앱 연결을 해제하려면 인스타그램 설정 → 웹사이트 권한 → 앱 및 웹사이트에서 제거할 수 있습니다.
+              </p>
+              <p className="mt-2">
+                삭제 요청:{" "}
+                <a href="mailto:contact@kr-stocks.com?subject=%5B%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AD%EC%A0%9C%5D" className="text-accent-blue hover:underline">
+                  contact@kr-stocks.com
+                </a>
+              </p>
+            </section>
+
             <section>
-              <h2 className="text-lg font-bold text-text mb-2">8. 방침 변경</h2>
+              <h2 className="text-lg font-bold text-text mb-2">11. 방침 변경</h2>
               <p>
                 본 방침은 법령·서비스 변경에 따라 개정될 수 있으며, 변경 시 본 페이지를 통해 공지합니다.
               </p>

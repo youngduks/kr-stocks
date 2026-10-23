@@ -1,97 +1,31 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-23T05:31:59.509Z",
-  "count": 9,
+  "updated_at": "2026-10-23T10:38:52.609Z",
+  "count": 3,
   "items": [
     {
-      "title": "취업난 속 삼전닉스 호황에 반도체고 경쟁률 '쑥'",
-      "link": "https://www.yna.co.kr/view/AKR20261023102700530",
-      "source": "연합뉴스 경제",
-      "ts": 1792732498000,
-      "pub": "Fri, 23 Oct 2026 14:14:58 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 노재현 기자 = 국내 반도체 업계의 호황이 이어지는 상황에서 전국 반도체고의 입학 경쟁도 한층 뜨거워졌다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/23/AKR20261023102700530_01_i_P2.jpg"
+      "title": "\"韓英, 반도체공급망 최적 파트너\"",
+      "link": "https://www.hankyung.com/article/2026102318101",
+      "source": "한국경제",
+      "ts": 1792746509000,
+      "pub": "Fri, 23 Oct 2026 18:08:29 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "AI 신용우려에 코스피 '벌벌'…하이닉스 호재에도 속수무책",
-      "link": "https://www.yna.co.kr/view/AKR20261023079300008",
-      "source": "연합뉴스 경제",
-      "ts": 1792722730000,
-      "pub": "Fri, 23 Oct 2026 11:32:10 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 곽윤아 기자 = 코스피가 하루하루 저점을 낮춰가는 가운데 23일에는 장 초반 5,300선까지 밀렸다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102302810001300_P2.jpg"
+      "title": "투자 유치? 증자?…하이닉스, 美 낸드공장 자금줄 새로 찾는다",
+      "link": "https://www.hankyung.com/article/2026102318411",
+      "source": "한국경제",
+      "ts": 1792746164000,
+      "pub": "Fri, 23 Oct 2026 18:02:44 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "재경부, 디지털 이코노미 포럼…\"반도체 다음 먹거리 발굴\"",
-      "link": "https://www.yna.co.kr/view/AKR20261023057900002",
-      "source": "연합뉴스 경제",
-      "ts": 1792720801000,
-      "pub": "Fri, 23 Oct 2026 11:00:01 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 송정은 기자 = 재정경제부는 23일 그랜드 하얏트 서울에서 재경부 주최, 코리아스타트업포럼 주관으로 '제9회 디지털 이코노미 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102305720001300_P2.jpg"
-    },
-    {
-      "title": "\"솔리다임 상장검토 중단, 반도체 투심 회복 기여할 듯\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261023030451008",
-      "source": "연합뉴스 경제",
-      "ts": 1792719553000,
-      "pub": "Fri, 23 Oct 2026 10:39:13 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유향 기자 = SK하이닉스[000660]의 손자회사 솔리다임이 미국 증시 상장 검토를 중단했다는 소식에 반도체 관련 투자심리...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/10/18/01/PCM20261018000001990_P2.jpg"
-    },
-    {
-      "title": "코스피, 美AI·반도체 급락에 2%대 하락출발후 낙폭 확대(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261023046000008",
-      "source": "연합뉴스 경제",
-      "ts": 1792715868000,
-      "pub": "Fri, 23 Oct 2026 09:37:48 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 23일 코스피와 코스닥이 나란히 급락 출발한 뒤 낙폭을 확대했다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102302810001300_P2.jpg"
-    },
-    {
-      "title": "\"솔리다임 상장검토 중단, 반도체 투심 회복 기여할 듯\"",
-      "link": "https://www.yna.co.kr/view/AKR20261023030400008",
-      "source": "연합뉴스 경제",
-      "ts": 1792712388000,
-      "pub": "Fri, 23 Oct 2026 08:39:48 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유향 기자 = SK하이닉스[000660]의 손자회사 솔리다임이 미국 증시 상장 검토를 중단했다는 소식에 반도체 관련 투자심리...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/10/18/01/PCM20261018000001990_P2.jpg"
-    },
-    {
-      "title": "램리서치, 눈높이 미달에 급락…반도체 매도 촉발",
-      "link": "https://www.yna.co.kr/view/AKR20261023019500009",
-      "source": "연합뉴스 국제",
-      "ts": 1792709734000,
-      "pub": "Fri, 23 Oct 2026 07:55:34 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 미국 반도체 장비업체 램리서치가 제시한 매출 전망치가 시장의 높아진 눈높이를 충족하지 못했다는 평가 속에 주가...",
-      "image": "https://img.yna.co.kr/photo/etc/gt/2026/10/21/PGT20261021122901009_P2.jpg"
-    },
-    {
-      "title": "뉴욕증시, AI투자 불안에 나스닥 2.6%↓…반도체지수 6.7% 급락(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261023007651072",
-      "source": "연합뉴스 국제",
-      "ts": 1792704947000,
-      "pub": "Fri, 23 Oct 2026 06:35:47 +0900",
-      "sentiment": "negative",
-      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 뉴욕증시가 22일(현지시간) 인공지능(AI) 투자에 대한 회의론이 다시 불거지면서 기술주를 중심으로 급락했다...",
-      "image": "https://img.yna.co.kr/photo/etc/up/2026/10/13/PUP20261013000401009_P2.jpg"
-    },
-    {
-      "title": "젠슨황 \"2029년 메모리 공급과잉 없다…메모리는 다다익선\"",
-      "link": "https://www.yna.co.kr/view/AKR20261023004200091",
-      "source": "연합뉴스 국제",
-      "ts": 1792690279000,
-      "pub": "Fri, 23 Oct 2026 02:31:19 +0900",
-      "sentiment": "neutral",
-      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 젠슨 황 엔비디아 최고경영자(CEO)가 일각에서 제기된 2029년 메모리 공급과잉 우려를 일축했다.",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/21/PAP20261021227201009_P2.jpg"
+      "title": "시장선 \"리스크 털었다\" SK하이닉스 주가 반등",
+      "link": "https://www.hankyung.com/article/2026102318421",
+      "source": "한국경제",
+      "ts": 1792746047000,
+      "pub": "Fri, 23 Oct 2026 18:00:47 +0900",
+      "sentiment": "neutral"
     }
   ]
 }

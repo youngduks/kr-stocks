@@ -1,8 +1,58 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-23T00:23:48.213Z",
-  "count": 15,
+  "updated_at": "2026-10-23T05:31:59.509Z",
+  "count": 9,
   "items": [
+    {
+      "title": "취업난 속 삼전닉스 호황에 반도체고 경쟁률 '쑥'",
+      "link": "https://www.yna.co.kr/view/AKR20261023102700530",
+      "source": "연합뉴스 경제",
+      "ts": 1792732498000,
+      "pub": "Fri, 23 Oct 2026 14:14:58 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 노재현 기자 = 국내 반도체 업계의 호황이 이어지는 상황에서 전국 반도체고의 입학 경쟁도 한층 뜨거워졌다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/23/AKR20261023102700530_01_i_P2.jpg"
+    },
+    {
+      "title": "AI 신용우려에 코스피 '벌벌'…하이닉스 호재에도 속수무책",
+      "link": "https://www.yna.co.kr/view/AKR20261023079300008",
+      "source": "연합뉴스 경제",
+      "ts": 1792722730000,
+      "pub": "Fri, 23 Oct 2026 11:32:10 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 곽윤아 기자 = 코스피가 하루하루 저점을 낮춰가는 가운데 23일에는 장 초반 5,300선까지 밀렸다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102302810001300_P2.jpg"
+    },
+    {
+      "title": "재경부, 디지털 이코노미 포럼…\"반도체 다음 먹거리 발굴\"",
+      "link": "https://www.yna.co.kr/view/AKR20261023057900002",
+      "source": "연합뉴스 경제",
+      "ts": 1792720801000,
+      "pub": "Fri, 23 Oct 2026 11:00:01 +0900",
+      "sentiment": "neutral",
+      "desc": "(세종=연합뉴스) 송정은 기자 = 재정경제부는 23일 그랜드 하얏트 서울에서 재경부 주최, 코리아스타트업포럼 주관으로 '제9회 디지털 이코노미 ...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102305720001300_P2.jpg"
+    },
+    {
+      "title": "\"솔리다임 상장검토 중단, 반도체 투심 회복 기여할 듯\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261023030451008",
+      "source": "연합뉴스 경제",
+      "ts": 1792719553000,
+      "pub": "Fri, 23 Oct 2026 10:39:13 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유향 기자 = SK하이닉스[000660]의 손자회사 솔리다임이 미국 증시 상장 검토를 중단했다는 소식에 반도체 관련 투자심리...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/10/18/01/PCM20261018000001990_P2.jpg"
+    },
+    {
+      "title": "코스피, 美AI·반도체 급락에 2%대 하락출발후 낙폭 확대(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261023046000008",
+      "source": "연합뉴스 경제",
+      "ts": 1792715868000,
+      "pub": "Fri, 23 Oct 2026 09:37:48 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 김유아 기자 = 23일 코스피와 코스닥이 나란히 급락 출발한 뒤 낙폭을 확대했다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102302810001300_P2.jpg"
+    },
     {
       "title": "\"솔리다임 상장검토 중단, 반도체 투심 회복 기여할 듯\"",
       "link": "https://www.yna.co.kr/view/AKR20261023030400008",
@@ -14,14 +64,6 @@
       "image": "https://img.yna.co.kr/photo/cms/2026/10/18/01/PCM20261018000001990_P2.jpg"
     },
     {
-      "title": "SK하이닉스, 솔리다임 IPO 검토 중단에도…프리장서 120만원 붕괴",
-      "link": "https://www.hankyung.com/article/2026102300706",
-      "source": "한국경제",
-      "ts": 1792711189000,
-      "pub": "Fri, 23 Oct 2026 08:19:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "램리서치, 눈높이 미달에 급락…반도체 매도 촉발",
       "link": "https://www.yna.co.kr/view/AKR20261023019500009",
       "source": "연합뉴스 국제",
@@ -30,46 +72,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 정주호 기자 = 미국 반도체 장비업체 램리서치가 제시한 매출 전망치가 시장의 높아진 눈높이를 충족하지 못했다는 평가 속에 주가...",
       "image": "https://img.yna.co.kr/photo/etc/gt/2026/10/21/PGT20261021122901009_P2.jpg"
-    },
-    {
-      "title": "SK하이닉스 \"자회사 솔리다임 상장 검토 중단\" [종합]",
-      "link": "https://www.hankyung.com/article/202610239998g",
-      "source": "한국경제",
-      "ts": 1792709614000,
-      "pub": "Fri, 23 Oct 2026 07:53:34 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] SK하이닉스, 솔리다임 프리IPO·IPO 검토 중단",
-      "link": "https://www.hankyung.com/article/2026102399877",
-      "source": "한국경제",
-      "ts": 1792708578000,
-      "pub": "Fri, 23 Oct 2026 07:36:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] SK하이닉스, 美 솔리다임 상장 철회",
-      "link": "https://www.hankyung.com/article/202610239983i",
-      "source": "한국경제",
-      "ts": 1792708536000,
-      "pub": "Fri, 23 Oct 2026 07:35:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "도경완 \"하이닉스 레버리지까지 들어갔는데…마이너스 40%\"",
-      "link": "https://www.hankyung.com/article/2026102399627",
-      "source": "한국경제",
-      "ts": 1792708236000,
-      "pub": "Fri, 23 Oct 2026 07:30:36 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI 투자 불안에 나스닥 2.6% 급락…반도체지수 6.7%↓ [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026102399666",
-      "source": "한국경제",
-      "ts": 1792707408000,
-      "pub": "Fri, 23 Oct 2026 07:16:48 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "뉴욕증시, AI투자 불안에 나스닥 2.6%↓…반도체지수 6.7% 급락(종합)",
@@ -90,56 +92,6 @@
       "sentiment": "neutral",
       "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 젠슨 황 엔비디아 최고경영자(CEO)가 일각에서 제기된 2029년 메모리 공급과잉 우려를 일축했다.",
       "image": "https://img.yna.co.kr/photo/ap/2026/10/21/PAP20261021227201009_P2.jpg"
-    },
-    {
-      "title": "대만노조 요구에 美마이크론, 이익연동 성과급 분기별 지급",
-      "link": "https://www.yna.co.kr/view/AKR20261022178500083",
-      "source": "연합뉴스 국제",
-      "ts": 1792660459000,
-      "pub": "Thu, 22 Oct 2026 18:14:19 +0900",
-      "sentiment": "neutral",
-      "desc": "(베이징=연합뉴스) 김현정 특파원 = 미국 메모리 반도체 기업 마이크론이 대만 노동조합의 요구를 받아들여 분기별 이익연동 성과급을 신설하고, 이...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/22/PAF20261022180001009_P2.jpg"
-    },
-    {
-      "title": "이억원 \"솔리다임 중복상장 규제대상…SK하이닉스 등 의무 발생\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261022083551002",
-      "source": "연합뉴스 경제",
-      "ts": 1792654854000,
-      "pub": "Thu, 22 Oct 2026 16:40:54 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 배영경 강수련 김지연 강류나 기자 = 이억원 금융위원장은 22일 SK하이닉스[000660]의 미국 자회사 솔리다임 상장 추진이...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/22/PYH2026102210590001300_P2.jpg"
-    },
-    {
-      "title": "[특징주] 삼성전기, 엔비디아발 호재에도 2% 하락 전환 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261022040851008",
-      "source": "연합뉴스 경제",
-      "ts": 1792651945000,
-      "pub": "Thu, 22 Oct 2026 15:52:25 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 22일 장 초반 6% 가까이 급등했던 삼성전기[009150]가 이후 하락전환해 2% 가까이 내린 채 정규장 거...",
-      "image": "https://img.yna.co.kr/etc/graphic/YH/2026/10/21/GYH2026102100090004400_P2.jpg"
-    },
-    {
-      "title": "대만, AI 붐에 9월 반도체산업 전력 사용량 역대 최고",
-      "link": "https://www.yna.co.kr/view/AKR20261022136100009",
-      "source": "연합뉴스 국제",
-      "ts": 1792650031000,
-      "pub": "Thu, 22 Oct 2026 15:20:31 +0900",
-      "sentiment": "positive",
-      "desc": "(타이베이=연합뉴스) 김철문 통신원 = 세계적인 인공지능(AI) 붐에 따라 대만의 지난달 반도체 산업 전력 사용량이 역대 최고치에 달한 것으로 ...",
-      "image": "https://img.yna.co.kr/photo/cms/2024/07/02/84/PCM20240702000084009_P2.jpg"
-    },
-    {
-      "title": "한은 \"반도체 호황에 소비 회복세 확대\"…'낙수효과' 기대",
-      "link": "https://www.yna.co.kr/view/AKR20261022124000002",
-      "source": "연합뉴스 경제",
-      "ts": 1792648801000,
-      "pub": "Thu, 22 Oct 2026 15:00:01 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 한지훈 기자 = 반도체 경기 호조가 여러 경로로 가계 소비 여력을 개선하는 '낙수효과'로 민간소비 회복세에 힘을 보탤 것이라는...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/17/PYH2026081705110001300_P2.jpg"
     }
   ]
 }

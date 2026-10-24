@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-23T22:43:06.745Z",
+  "updated_at": "2026-10-24T01:13:14.497Z",
   "count": 12,
   "items": [
+    {
+      "title": "\"결국 엔비디아가 돈 댄다\"…중간 선거 끝나면 또 전쟁?[월가 백브리핑]",
+      "link": "https://www.hankyung.com/article/202610242082i",
+      "source": "한국경제",
+      "ts": 1792797592000,
+      "pub": "Sat, 24 Oct 2026 08:19:52 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"엔비디아, 경쟁심화 우려\"…스페이스X 재평가 본격화[월가 업&다운]",
       "link": "https://www.hankyung.com/article/202610232075i",
@@ -108,16 +116,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김유향 기자 = SK하이닉스[000660]의 손자회사 솔리다임이 미국 증시 상장 검토를 중단했다는 소식에 반도체 관련 투자심리...",
       "image": "https://img.yna.co.kr/photo/cms/2026/10/18/01/PCM20261018000001990_P2.jpg"
-    },
-    {
-      "title": "코스피, 美AI·반도체 급락에 2%대 하락출발후 낙폭 확대(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261023046000008",
-      "source": "연합뉴스 경제",
-      "ts": 1792715868000,
-      "pub": "Fri, 23 Oct 2026 09:37:48 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 23일 코스피와 코스닥이 나란히 급락 출발한 뒤 낙폭을 확대했다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102302810001300_P2.jpg"
     }
   ]
 }

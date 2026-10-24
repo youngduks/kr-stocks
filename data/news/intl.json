@@ -1,8 +1,64 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-24T01:13:14.494Z",
-  "count": 29,
+  "updated_at": "2026-10-24T06:37:42.512Z",
+  "count": 32,
   "items": [
+    {
+      "title": "미국 주식시장은 트럼프 1기 때를 닮아가고 있다 [조윤남의 사이클투자]",
+      "link": "https://www.hankyung.com/article/202610191057i",
+      "source": "한국경제",
+      "ts": 1792818007000,
+      "pub": "Sat, 24 Oct 2026 14:00:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중동 다시 D-데이…트럼프 \"재타격할수도\" 이란 \"레드라인 없다\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261024021551009",
+      "source": "연합뉴스 국제",
+      "ts": 1792814790000,
+      "pub": "Sat, 24 Oct 2026 13:06:30 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 오수진 기자 = 미국과 이란이 호르무즈 해협을 맞불 봉쇄한 채로 한동안 직접 대화도 충돌도 없는 대치 상황을 이어가다가 다음달...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/24/PAF20261024101401009_P2.jpg"
+    },
+    {
+      "title": "美국무부장관 \"日 3대 안보문서, 미국 전략과 일치돼야\"",
+      "link": "https://www.yna.co.kr/view/AKR20261024024900073",
+      "source": "연합뉴스 국제",
+      "ts": 1792808670000,
+      "pub": "Sat, 24 Oct 2026 11:24:30 +0900",
+      "sentiment": "neutral",
+      "desc": "(도쿄=연합뉴스) 조성미 특파원 = 크리스토퍼 랜도 미국 국무부 부장관이 일본 정부가 방위력 강화를 골자로 연내 개정을 추진 중인 '3대 안보 ...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/23/PRU20261023153501009_P2.jpg"
+    },
+    {
+      "title": "중동 다시 D-데이…트럼프 \"재타격 할수도\" 이란 \"레드라인없다\"",
+      "link": "https://www.yna.co.kr/view/AKR20261024021500009",
+      "source": "연합뉴스 국제",
+      "ts": 1792807504000,
+      "pub": "Sat, 24 Oct 2026 11:05:04 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 오수진 기자 = 중동 호르무즈 해협을 맞불 봉쇄한 채로 미국과 이란이 한동안 직접적으로는 대화도 충돌도 없는 대치 상황을 이어...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/24/PAF20261024101401009_P2.jpg"
+    },
+    {
+      "title": "美, EU '빅테크 규제' 어깃장…\"유럽산 철강 관세 못내려\" 위협",
+      "link": "https://www.yna.co.kr/view/AKR20261024020200009",
+      "source": "연합뉴스 국제",
+      "ts": 1792804412000,
+      "pub": "Sat, 24 Oct 2026 10:13:32 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 신재우 기자 = 미국 도널드 트럼프 행정부가 유럽연합(EU)에 미국 빅테크 기업에 대한 규제를 완화하지 않으면 유럽산 철강 등...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/24/AKR20261024020200009_02_i_P2.jpg"
+    },
+    {
+      "title": "선거 앞둔 트럼프, 캐나다 관세 품목 조정…밸브·카펫으로 대체 부과",
+      "link": "https://www.hankyung.com/article/2026102422997",
+      "source": "한국경제",
+      "ts": 1792803873000,
+      "pub": "Sat, 24 Oct 2026 10:04:33 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "또 헤지펀드 청산이었나…재미없을 FOMC, 흥미로울 빅테크 실적 [김현석의 월스트리트나우]",
       "link": "https://www.hankyung.com/article/202610242192i",
@@ -47,7 +103,7 @@
       "pub": "Sat, 24 Oct 2026 05:20:32 +0900",
       "sentiment": "negative",
       "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 행정부가 11·3 중간선거에서 알래스카주 연방 상원의원 선거에 출마한 민주당 후보가 근...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/24/AKR20261024001851071_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/01/PAF20261001074301009_P2.jpg"
     },
     {
       "title": "트럼프 \"이란 상대 또 한번 작은 '장대한 분노' 작전 할수도\"",
@@ -257,36 +313,6 @@
       "sentiment": "neutral",
       "desc": "▲ 이종욱 관세청장은 23일 서울세관에서 폰고드 에드윈 누바가 카메룬 관세청장과 면담을 했다고 관세청이 밝혔다. 면담에서는 카메룬의 한국형 전자...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102309420001300_P2.jpg"
-    },
-    {
-      "title": "日방위상, '日제조사 드론 우크라 납품' 비판 러시아에 반박",
-      "link": "https://www.yna.co.kr/view/AKR20261023089500073",
-      "source": "연합뉴스 국제",
-      "ts": 1792727556000,
-      "pub": "Fri, 23 Oct 2026 12:52:36 +0900",
-      "sentiment": "neutral",
-      "desc": "(도쿄=연합뉴스) 조성미 특파원 = 일본 정부가 자국 기업의 요격용 드론 우크라이나 납품을 러시아 정부가 '적대 행위'라고 비난한 데 대해 \"법...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/01/08/PYH2026010805400001300_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"국방생산법 활용해 美 정유능력 확대\"…연일 農心 구애",
-      "link": "https://www.yna.co.kr/view/AKR20261023082800071",
-      "source": "연합뉴스 국제",
-      "ts": 1792725145000,
-      "pub": "Fri, 23 Oct 2026 12:12:25 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 22일(현지시간) \"미 행정부는 국방생산법을 활용해 1억5천만 달러(약 1천9...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/23/PRU20261023235301009_P2.jpg"
-    },
-    {
-      "title": "[영상] 지름 1.2m 가스관서 맞붙은 러·우크라…\"세계 첫 전면 지하전\"",
-      "link": "https://www.yna.co.kr/view/AKR20261023077100704",
-      "source": "연합뉴스 국제",
-      "ts": 1792722440000,
-      "pub": "Fri, 23 Oct 2026 11:27:20 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 우크라이나군과 러시아군이 적진 후방 침투를 위해 지름 약 1.2m에 불과한 지하 가스관으로 진입해 지하작전을 펼치고 있습니다....",
-      "image": "https://www.youtube.com/embed/5XYDfL5w0nk"
     }
   ]
 }

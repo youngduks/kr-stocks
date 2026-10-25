@@ -1,8 +1,46 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-25T00:39:05.746Z",
-  "count": 37,
+  "updated_at": "2026-10-25T05:27:55.406Z",
+  "count": 32,
   "items": [
+    {
+      "title": "美 증시는 Fed 입에, 中 증시는 시진핑 입에…글로벌 증시 촉각",
+      "link": "https://www.hankyung.com/article/202610253076i",
+      "source": "한국경제",
+      "ts": 1792902592000,
+      "pub": "Sun, 25 Oct 2026 13:29:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "중동 포화 속 이스라엘 총선…'전쟁 총리' 네타냐후 운명은",
+      "link": "https://www.yna.co.kr/view/AKR20261021176400079",
+      "source": "연합뉴스 국제",
+      "ts": 1792900862000,
+      "pub": "Sun, 25 Oct 2026 13:01:02 +0900",
+      "sentiment": "neutral",
+      "desc": "(텔아비브=연합뉴스) 김상훈 특파원 = 이스라엘의 차기 지도자와 정부를 선출하는 제26대 총선이 이틀 앞으로 다가왔다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/21/AKR20261021176400079_01_i_P2.jpg"
+    },
+    {
+      "title": "오바마 \"유례없는 무능\"·트럼프 \"유세장 텅 비어\"…맞불 유세(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261025002851071",
+      "source": "연합뉴스 국제",
+      "ts": 1792895512000,
+      "pub": "Sun, 25 Oct 2026 11:31:52 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 미국 11·3 중간선거가 열흘 앞으로 다가온 24일(현지시간) 도널드 트럼프 대통령과 버락 오바마 전 대통...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/25/AKR20261025002851071_05_i_P2.jpg"
+    },
+    {
+      "title": "트럼프, 조지아 유세서 아우디 '5.6조원 투자' 계획 발표",
+      "link": "https://www.yna.co.kr/view/AKR20261025019400071",
+      "source": "연합뉴스 국제",
+      "ts": 1792893631000,
+      "pub": "Sun, 25 Oct 2026 11:00:31 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령은 24일(현지시간) 조지아주 중간선거 지원 유세에서 독일 자동차업체 아우디가 이...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/25/AKR20261025019400071_01_i_P2.jpg"
+    },
     {
       "title": "백악관·美의회, AI기업 CEO에 \"입다물고 제품이나 잘 만들어야\"",
       "link": "https://www.yna.co.kr/view/AKR20261025010800009",
@@ -11,7 +49,7 @@
       "pub": "Sun, 25 Oct 2026 08:50:18 +0900",
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 이지헌 기자 = 미국 워싱턴 정가와 백악관 참모들은 인공지능(AI) 분야 선도 기업 경영진들이 AI의 잠재적 역기능에 대해 정...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/25/AKR20261025010800009_03_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/09/30/PAF20260930084101009_P2.jpg"
     },
     {
       "title": "트럼프, 러 알래스카 LNG 투자 질문에 \"전쟁끝나면 러와도 거래\"",
@@ -21,7 +59,7 @@
       "pub": "Sun, 25 Oct 2026 08:11:25 +0900",
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령은 24일(현지시간) 러시아의 미국 알래스카 액화천연가스(LNG) 사업 투자 가능...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/25/AKR20261025007700071_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/ap/2026/10/25/PAP20261025113201009_P2.jpg"
     },
     {
       "title": "코스피, 바닥 다지기 나설까…美 FOMC·삼전닉스 실적 주목 [주간전망]",
@@ -99,7 +137,7 @@
       "pub": "Sun, 25 Oct 2026 06:18:09 +0900",
       "sentiment": "neutral",
       "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 일론 머스크 스페이스X 최고경영자(CEO)가 24일(현지시간) 우크라이나군이 위성통신 서비스 스타링크를 공격...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/25/AKR20261025003300072_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/22/PRU20261022200501009_P2.jpg"
     },
     {
       "title": "중간선거 D-10, 오바마·트럼프 맞불 유세…격전지서 표심 경쟁",
@@ -272,76 +310,6 @@
       "image": "https://img.yna.co.kr/photo/reuters/2026/10/24/PRU20261024085001009_P2.jpg"
     },
     {
-      "title": "이란 외무 \"페제시키안 대통령 내주 방러…푸틴과 회동\"",
-      "link": "https://www.yna.co.kr/view/AKR20261024003700079",
-      "source": "연합뉴스 국제",
-      "ts": 1792780969000,
-      "pub": "Sat, 24 Oct 2026 03:42:49 +0900",
-      "sentiment": "neutral",
-      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 아바스 아라그치 이란 외무장관은 마수드 페제시키안 대통령이 다음 주 모스크바를 방문해 블라디미르 푸틴 러시...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/24/AKR20261024003700079_01_i_P2.jpg"
-    },
-    {
-      "title": "\"트럼프, 캐나다 관세 일부 철폐 추진…공화당 선거 지원 포석\"",
-      "link": "https://www.yna.co.kr/view/AKR20261024003600072",
-      "source": "연합뉴스 국제",
-      "ts": 1792780345000,
-      "pub": "Sat, 24 Oct 2026 03:32:25 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 도널드 트럼프 미국 행정부가 중간선거에서 재선에 도전하는 공화당 소속 수전 콜린스 메인주 상원의원을 지원하기...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/24/AKR20261024003600072_01_i_P2.jpg"
-    },
-    {
-      "title": "美민주당 전국위원장 \"의회 탈환하면 트럼프 관세 뒤집을 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20261024002500009",
-      "source": "연합뉴스 국제",
-      "ts": 1792778306000,
-      "pub": "Sat, 24 Oct 2026 02:58:26 +0900",
-      "sentiment": "neutral",
-      "desc": "(애틀랜타=연합뉴스) 이종원 통신원 = 미국 민주당 전국위원장이 조지아주 한국인 구금사태를 거론하며 11월 중간선거에서 민주당이 승리하면 도널드...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/24/AKR20261024002500009_01_i_P2.jpg"
-    },
-    {
-      "title": "선거 불복 판 까나…트럼프 정부 \"알래스카 결과확정 보류\" 소송",
-      "link": "https://www.yna.co.kr/view/AKR20261024001800071",
-      "source": "연합뉴스 국제",
-      "ts": 1792776393000,
-      "pub": "Sat, 24 Oct 2026 02:26:33 +0900",
-      "sentiment": "negative",
-      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 행정부가 11·3 중간선거에서 알래스카주 연방 상원의원 선거에 출마한 민주당 후보가 근...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/24/AKR20261024001800071_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프, 우크라 스타실드 제한에 \"문제 있다면 내가 바로잡겠다\"",
-      "link": "https://www.yna.co.kr/view/AKR20261024002200071",
-      "source": "연합뉴스 국제",
-      "ts": 1792774771000,
-      "pub": "Sat, 24 Oct 2026 01:59:31 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령은 23일(현지시간) 우크라이나의 드론 작전에 필수적인 군용 위성통신 시스템 '스...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/24/PEP20261024017701009_P2.jpg"
-    },
-    {
-      "title": "젤렌스키 \"내달 초 아부다비서 美 중재 3자 종전협상\"",
-      "link": "https://www.yna.co.kr/view/AKR20261024001000109",
-      "source": "연합뉴스 국제",
-      "ts": 1792772579000,
-      "pub": "Sat, 24 Oct 2026 01:22:59 +0900",
-      "sentiment": "neutral",
-      "desc": "(로마=연합뉴스) 민경락 특파원 = 러시아와 우크라이나가 백악관이 발표한 우크라이나 남부 헤르손주 올레시키 지역의 휴전 발표에 호응하면서 긴장 ...",
-      "image": "https://img.yna.co.kr/photo/cms/2025/08/19/39/PCM20250819000039990_P2.jpg"
-    },
-    {
-      "title": "트럼프, '엄마의 딸 저격' 주지사선거 광고논란에 \"정당한 공격\"",
-      "link": "https://www.yna.co.kr/view/AKR20261024001100071",
-      "source": "연합뉴스 국제",
-      "ts": 1792772093000,
-      "pub": "Sat, 24 Oct 2026 01:14:53 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령은 23일(현지시간) 오하이오 주지사 선거의 민주당 후보를 모친이 공개 저격하는 ...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/24/PEP20261024013801009_P2.jpg"
-    },
-    {
       "title": "무역위원회, 중국산 아연도금냉연에 최대 33.67％ 덤핑방지관세",
       "link": "https://www.yna.co.kr/view/AKR20261023157600003",
       "source": "연합뉴스 경제",
@@ -350,25 +318,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 장보인 기자 = 정부가 중국산 아연 및 아연합금 표면처리 냉간압연제품(아연도금냉연)에 최대 33.67%의 덤핑방지관세를 부과한...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/23/AKR20261023157600003_01_i_P2.jpg"
-    },
-    {
-      "title": "[인사] 관세청",
-      "link": "https://www.yna.co.kr/view/AKR20261023124700002",
-      "source": "연합뉴스 경제",
-      "ts": 1792736170000,
-      "pub": "Fri, 23 Oct 2026 15:16:10 +0900",
-      "sentiment": "neutral",
-      "desc": "◇ 부이사관 승진"
-    },
-    {
-      "title": "[동정] 이종욱 관세청장, 카메룬 청장 면담…협력 방안 논의",
-      "link": "https://www.yna.co.kr/view/AKR20261023100800002",
-      "source": "연합뉴스 경제",
-      "ts": 1792732380000,
-      "pub": "Fri, 23 Oct 2026 14:13:00 +0900",
-      "sentiment": "neutral",
-      "desc": "▲ 이종욱 관세청장은 23일 서울세관에서 폰고드 에드윈 누바가 카메룬 관세청장과 면담을 했다고 관세청이 밝혔다. 면담에서는 카메룬의 한국형 전자...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102309420001300_P2.jpg"
     }
   ]
 }

@@ -7,10 +7,19 @@
       "channel": "전인구경제연구소",
       "channel_url": "https://www.youtube.com/@moneydo",
       "channel_id": "UCznImSIaxZR7fdLCICLdgaQ",
-      "last_checked_video_id": "y_PRi4bYzwI",
+      "last_checked_video_id": "lULj5-ljyoI",
       "tagline": "\"고점 판독기\" — 나무위키에도 등재된 별명. 2023년 이후 증시 전망이 반대로 맞는 걸로 유명",
       "note": "본인 문서(나무위키)에 \"시장 전망 영상 대부분이 틀리는 걸 넘어 반대로 맞히는 예지력\"이라는 비판이 있고, 댓글창에서 \"고점 판독기\"·\"어둠의 고수\"로 불림. 역발상 참고용으로 소개합니다 — 조롱이 목적이 아니라, 실제로 존재하는 밈이라 재미로 트래킹합니다.",
       "opinions": [
+        {
+          "date": "2026-10-25",
+          "title": "삼전, 하이닉스 지금 자리가 정말 중요합니다(ft.김장열 센터장 1부)",
+          "summary": "화자는 삼성전자·SK하이닉스 실적(이번 분기 영업이익 107조·75~80조 등)은 다음 분기까지 상승이 거의 확정적이라고 보지만, 코어위브 등 약한 고리 우려, 빅테크의 메모리 가격 압박, 중국 CXMT·YMTC 공급 위험, 취약한 국내 수급이 겹쳐 주가가 크게 눌렸다고 설명한다. 영업이익 200조·100조 기준 삼성전자 20만 원·하이닉스 80만 원대가 바닥 구간이나 수급이 나쁘면 더 밀릴 수 있으며, 빅테크 실적 발표에서 회수 기간 코멘트가 나쁘면 매도 가능성이 있다고 말한다.",
+          "summary_short": "실적 좋지만 악재 겹쳐 바닥 탐색",
+          "stance": "cautious",
+          "video_url": "https://www.youtube.com/watch?v=lULj5-ljyoI",
+          "published_at": "2026-10-25T04:16:14.000Z"
+        },
         {
           "date": "2026-10-23",
           "title": "적자에 신주발행하는 메타, 투자비 공포에 질린 증시",
@@ -91,15 +100,6 @@
           "stance": "cautious",
           "video_url": "https://www.youtube.com/watch?v=1ab1O1erpEw",
           "published_at": "2026-10-13T03:05:40.000Z"
-        },
-        {
-          "date": "2026-10-11",
-          "title": "잘 생각해보면 남의 일이 아닌 프랑스 혼란(시위, 금리, 정치)",
-          "summary": "프랑스 재정·정치 불안과 유가 급등으로 미국·독일·일본 국채금리가 오르고 있어, 내년에는 긴축 국면이 와 거시적으로 증시에 좋은 환경이 아니라고 봄. 다만 AI 인프라처럼 성장성이 확인된 분야를 골라 투자해야 하며 아무거나 사서 돈 버는 시대는 내년에 어려울 수 있다고 말함.",
-          "summary_short": "긴축·금리 우려, 선별투자",
-          "stance": "cautious",
-          "video_url": "https://www.youtube.com/watch?v=z1E7W9LEFYQ",
-          "published_at": "2026-10-11T12:55:03.000Z"
         }
       ],
       "pending": []

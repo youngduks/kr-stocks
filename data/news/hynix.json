@@ -1,8 +1,52 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-26T00:49:31.861Z",
+  "updated_at": "2026-10-26T05:32:39.229Z",
   "count": 7,
   "items": [
+    {
+      "title": "삼성·SK하이닉스 곁으로…도쿄오카, 시총 스미토모화학 제쳤다",
+      "link": "https://www.hankyung.com/article/202610264899i",
+      "source": "한국경제",
+      "ts": 1792983607000,
+      "pub": "Mon, 26 Oct 2026 12:00:07 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "3분기 中企 수출 334억달러 '역대 최대'…K뷰티·반도체 호조",
+      "link": "https://www.yna.co.kr/view/AKR20261026047000030",
+      "source": "연합뉴스 경제",
+      "ts": 1792983607000,
+      "pub": "Mon, 26 Oct 2026 12:00:07 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 구정모 기자 = 올해 3분기 중소기업 수출이 화장품과 반도체 수출 호조에 힘입어 지난해 같은 기간보다 8.8% 증가한 334억...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082100830007200_P2.jpg"
+    },
+    {
+      "title": "'역대 최대' 중소기업 수출…뷰티·반도체 '초호황', 車 '먹구름'",
+      "link": "https://www.hankyung.com/article/202610264868i",
+      "source": "한국경제",
+      "ts": 1792983604000,
+      "pub": "Mon, 26 Oct 2026 12:00:04 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "한은 \"반도체 호황·AI 확산에 청년 일자리 질 나빠진다\"",
+      "link": "https://www.yna.co.kr/view/AKR20261026078600002",
+      "source": "연합뉴스 경제",
+      "ts": 1792983602000,
+      "pub": "Mon, 26 Oct 2026 12:00:02 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 한지훈 기자 = 최근 반도체 중심의 경제 성장 구조, 인공지능(AI) 기술 확산 등에 청년 고용의 질이 악화하고 있다고 한국은...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/09/PYH2026090912480001300_P2.jpg"
+    },
+    {
+      "title": "[마켓라이브]코스피 낙폭 확대 속 반도체株도 하락… 루닛은 상한가 유지",
+      "link": "https://www.hankyung.com/article/202610264253i",
+      "source": "한국경제",
+      "ts": 1792977558000,
+      "pub": "Mon, 26 Oct 2026 10:19:18 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "한투운용, '中 운용사와 개발' 반도체 ETF 홍콩 증시 첫 상장",
       "link": "https://www.yna.co.kr/view/AKR20261026031300008",
@@ -14,34 +58,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/26/AKR20261026031300008_01_i_P2.jpg"
     },
     {
-      "title": "\"16조 특별배당 푼다\" 들썩…'중복상장 일단락' SK하이닉스, 2% 쑥",
-      "link": "https://www.mt.co.kr/stock/2026/10/26/2026102609123356635",
-      "source": "머니투데이",
-      "ts": 1792973635000,
-      "pub": "Mon, 26 Oct 2026 09:13:55 +0900",
-      "sentiment": "neutral",
-      "desc": "[특징주] SK하이닉스가 26일 장 초반 상승 중이다. 손자회사 솔리다임 중복상장 문제가 일단락되고, SK하이닉스가 특별 배당에 나설 것이란 보도가 나오면서 투자심리가 개선된 것으로 보인다. 이날 오전 9시11분 현재 SK하이닉스는 전 거래일 대비 2만8000원(2.1",
-      "image": "https://thumb.mt.co.kr/06/2026/10/2026102609123356635_1.jpg"
-    },
-    {
-      "title": "'배터리 검사 1위' 이노메트리의 진화, 배터리서 유리기판·HBM까지",
-      "link": "https://www.mt.co.kr/stock/2026/10/26/2026102608383993791",
-      "source": "머니투데이",
-      "ts": 1792972360000,
-      "pub": "Mon, 26 Oct 2026 08:52:40 +0900",
-      "sentiment": "neutral",
-      "desc": "스몰인사이트리서치는 26일 이노메트리에 대해 전기차 배터리 생산라인의 ESS(에너지저장자치) 전환과 46파이 원통형 배터리 확대에 따른 검사장비 수요 증가로 본업의 매출이 회복되는 가운데, 유리기판과 고대역폭메모리(HBM) 등 반도체 분야로 사업영역을 넓히고 있다고 분",
-      "image": "https://thumb.mt.co.kr/06/2026/10/2026102608383993791_1.jpg"
-    },
-    {
-      "title": "\"SK하이닉스, 솔리다임 IPO 철회로 주주환원 강화 기대\"-메리츠",
-      "link": "https://www.hankyung.com/article/2026102639586",
-      "source": "한국경제",
-      "ts": 1792968405000,
-      "pub": "Mon, 26 Oct 2026 07:46:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "美 S&P500 3분기 순익 30%↑전망…엔비디아·마이크론이 ⅓ 차지",
       "link": "https://www.yna.co.kr/view/AKR20261026000700072",
       "source": "연합뉴스 국제",
@@ -50,26 +66,6 @@
       "sentiment": "neutral",
       "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 미국 상장기업들의 3분기 순이익이 대폭 증가할 것으로 예상되지만, 이익 성장의 상당 부분이 소수의 인공지능(...",
       "image": "https://img.yna.co.kr/photo/etc/gt/2025/11/21/PGT20251121017901009_P2.jpg"
-    },
-    {
-      "title": "메모리값 뛰자 PC 교체 미룬다…글로벌 출하량 21% 급감",
-      "link": "https://www.yna.co.kr/view/AKR20261025020100017",
-      "source": "연합뉴스 경제",
-      "ts": 1792893744000,
-      "pub": "Sun, 25 Oct 2026 11:02:24 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 박형빈 기자 = 메모리 등 주요 부품 가격 상승으로 PC 가격 부담이 커지면서 올해 3분기 글로벌 PC 출하량이 전년 동기 대...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/25/AKR20261025020100017_01_i_P2.jpg"
-    },
-    {
-      "title": "호남반도체 산단 속도전…그린벨트 예외 절차 정비",
-      "link": "https://www.yna.co.kr/view/AKR20261023080500054",
-      "source": "연합뉴스 경제",
-      "ts": 1792884001000,
-      "pub": "Sun, 25 Oct 2026 08:20:01 +0900",
-      "sentiment": "neutral",
-      "desc": "(전남광주=연합뉴스) 박철홍 기자 = 호남 반도체 국가산업단지 조성에 속도를 내기 위해 개발제한구역(그린벨트) 해제총량 예외 적용과 관련한 광역...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/23/AKR20261023080500054_01_i_P2.jpg"
     }
   ]
 }

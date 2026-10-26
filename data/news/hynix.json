@@ -1,15 +1,25 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-26T05:32:39.229Z",
-  "count": 7,
+  "updated_at": "2026-10-26T11:45:32.120Z",
+  "count": 4,
   "items": [
     {
-      "title": "삼성·SK하이닉스 곁으로…도쿄오카, 시총 스미토모화학 제쳤다",
-      "link": "https://www.hankyung.com/article/202610264899i",
+      "title": "뜻밖의 반도체 호황…'자원의 저주' 피하는 법",
+      "link": "https://www.hankyung.com/article/2026102660781",
       "source": "한국경제",
-      "ts": 1792983607000,
-      "pub": "Mon, 26 Oct 2026 12:00:07 +0900",
+      "ts": 1793004807000,
+      "pub": "Mon, 26 Oct 2026 17:53:27 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "SK하이닉스 레버리지 ETF, 美 상장 석달만에 청산",
+      "link": "https://www.yna.co.kr/view/AKR20261026113000009",
+      "source": "연합뉴스 국제",
+      "ts": 1792993946000,
+      "pub": "Mon, 26 Oct 2026 14:52:26 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = SK하이닉스 주가에 연동된 미국 상장 레버리지 상장지수펀드(ETF) 2종이 상장 3개월여 만에 청산된다.",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/08/28/PEP20260828217701009_P2.jpg"
     },
     {
       "title": "3분기 中企 수출 334억달러 '역대 최대'…K뷰티·반도체 호조",
@@ -22,14 +32,6 @@
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/21/PYH2026082100830007200_P2.jpg"
     },
     {
-      "title": "'역대 최대' 중소기업 수출…뷰티·반도체 '초호황', 車 '먹구름'",
-      "link": "https://www.hankyung.com/article/202610264868i",
-      "source": "한국경제",
-      "ts": 1792983604000,
-      "pub": "Mon, 26 Oct 2026 12:00:04 +0900",
-      "sentiment": "positive"
-    },
-    {
       "title": "한은 \"반도체 호황·AI 확산에 청년 일자리 질 나빠진다\"",
       "link": "https://www.yna.co.kr/view/AKR20261026078600002",
       "source": "연합뉴스 경제",
@@ -38,34 +40,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 한지훈 기자 = 최근 반도체 중심의 경제 성장 구조, 인공지능(AI) 기술 확산 등에 청년 고용의 질이 악화하고 있다고 한국은...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/09/PYH2026090912480001300_P2.jpg"
-    },
-    {
-      "title": "[마켓라이브]코스피 낙폭 확대 속 반도체株도 하락… 루닛은 상한가 유지",
-      "link": "https://www.hankyung.com/article/202610264253i",
-      "source": "한국경제",
-      "ts": 1792977558000,
-      "pub": "Mon, 26 Oct 2026 10:19:18 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "한투운용, '中 운용사와 개발' 반도체 ETF 홍콩 증시 첫 상장",
-      "link": "https://www.yna.co.kr/view/AKR20261026031300008",
-      "source": "연합뉴스 경제",
-      "ts": 1792973674000,
-      "pub": "Mon, 26 Oct 2026 09:14:34 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 강수지 기자 = 한국투자신탁운용은 중국 자산운용사와 협력 개발한 반도체 상장지수펀드(ETF)가 지난 23일 홍콩 증시에 상장됐...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/26/AKR20261026031300008_01_i_P2.jpg"
-    },
-    {
-      "title": "美 S&P500 3분기 순익 30%↑전망…엔비디아·마이크론이 ⅓ 차지",
-      "link": "https://www.yna.co.kr/view/AKR20261026000700072",
-      "source": "연합뉴스 국제",
-      "ts": 1792943605000,
-      "pub": "Mon, 26 Oct 2026 00:53:25 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 미국 상장기업들의 3분기 순이익이 대폭 증가할 것으로 예상되지만, 이익 성장의 상당 부분이 소수의 인공지능(...",
-      "image": "https://img.yna.co.kr/photo/etc/gt/2025/11/21/PGT20251121017901009_P2.jpg"
     }
   ]
 }

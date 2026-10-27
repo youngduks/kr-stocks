@@ -1,6 +1,49 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-26T22:01:20.930Z",
-  "count": 0,
-  "items": []
+  "updated_at": "2026-10-27T01:40:24.042Z",
+  "count": 5,
+  "items": [
+    {
+      "title": "'삼전닉스' 없으면 안되는 엔트로픽…코스피 '매수 사이드카'",
+      "link": "https://www.hankyung.com/article/202610277001i",
+      "source": "한국경제",
+      "ts": 1793062218000,
+      "pub": "Tue, 27 Oct 2026 09:50:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "앤트로픽 AI 수익화 우려 불식…삼전닉스 동반 급등",
+      "link": "https://www.hankyung.com/article/2026102769946",
+      "source": "한국경제",
+      "ts": 1793061007000,
+      "pub": "Tue, 27 Oct 2026 09:30:07 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[마켓라이브] 앤트로픽 IPO에 삼전닉스 급등… '아틀라스 눈' 캠시스 상한가",
+      "link": "https://www.hankyung.com/article/202610276934i",
+      "source": "한국경제",
+      "ts": 1793060747000,
+      "pub": "Tue, 27 Oct 2026 09:25:47 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "코스피, 앤트로픽發 훈풍에 장 초반 3%대 강세…삼전닉스 4~6%↑",
+      "link": "https://www.hankyung.com/article/2026102768606",
+      "source": "한국경제",
+      "ts": 1793059657000,
+      "pub": "Tue, 27 Oct 2026 09:07:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "KB증권 \"'삼전닉스', 총 120조 추가 주주환원 기대…저평가 해소 계기\"",
+      "link": "https://www.yna.co.kr/view/AKR20261027024600008",
+      "source": "연합뉴스 경제",
+      "ts": 1793057066000,
+      "pub": "Tue, 27 Oct 2026 08:24:26 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 고은지 기자 = KB증권은 27일 \"삼성전자[005930]와 SK하이닉스[000660]가 사상 최대 규모의 주주환원이 가능할 ...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
+    }
+  ]
 }

@@ -7,10 +7,28 @@
       "channel": "전인구경제연구소",
       "channel_url": "https://www.youtube.com/@moneydo",
       "channel_id": "UCznImSIaxZR7fdLCICLdgaQ",
-      "last_checked_video_id": "TEeeyiMAF6E",
+      "last_checked_video_id": "1ZSyodWZJ7o",
       "tagline": "\"고점 판독기\" — 나무위키에도 등재된 별명. 2023년 이후 증시 전망이 반대로 맞는 걸로 유명",
       "note": "본인 문서(나무위키)에 \"시장 전망 영상 대부분이 틀리는 걸 넘어 반대로 맞히는 예지력\"이라는 비판이 있고, 댓글창에서 \"고점 판독기\"·\"어둠의 고수\"로 불림. 역발상 참고용으로 소개합니다 — 조롱이 목적이 아니라, 실제로 존재하는 밈이라 재미로 트래킹합니다.",
       "opinions": [
+        {
+          "date": "2026-10-27",
+          "title": "코스피를 4% 올린 앤트로픽 상장 신고서에 담겨진 비밀",
+          "summary": "앤트로픽 상장 신청서에서 재무 안정성과 유동성이 확인되어 AI 투자 지속 기대감에 반도체·빅테크 주가가 반등했다고 설명한다. 다만 상장 후 앤트로픽 주가 하락 시 AI 관련주 동반 하락, 네오클라우드·자금조달 우려, 금리·물가 변수는 계속 지켜봐야 한다고 본다.",
+          "summary_short": "AI 반등, 우려는 지속",
+          "stance": "cautious",
+          "video_url": "https://www.youtube.com/watch?v=DGFnZBWFVjg",
+          "published_at": "2026-10-27T01:30:02.000Z"
+        },
+        {
+          "date": "2026-10-27",
+          "title": "2차전지 방향성 이것에 따라 움직입니다(ft.김장열 센터장 2부)",
+          "summary": "2차전지는 ESS 성장 등 호재가 이미 주가에 상당 부분 반영돼 있어 추격 매수보다 트레이딩 관점의 접근이 필요하다고 보며, 삼성전자·하이닉스가 회복되지 않으면 한국장이 어렵고 내년 영업이익 확인 전까지 전고점 회복은 쉽지 않다고 말한다. 달러 강세 가능성을 언급하며 미국 빅테크를 일부 병행해 비중을 분산하는 것도 나쁘지 않다고 제안한다.",
+          "summary_short": "호재 반영, 선별·분산 접근",
+          "stance": "cautious",
+          "video_url": "https://www.youtube.com/watch?v=M0SVCLYF4LA",
+          "published_at": "2026-10-26T23:53:59.000Z"
+        },
         {
           "date": "2026-10-26",
           "title": "코스피 7개월만에 최저치, 이 문제가 해결되야 오릅니다",
@@ -82,24 +100,6 @@
           "stance": "cautious",
           "video_url": "https://www.youtube.com/watch?v=GegwvHasjoE",
           "published_at": "2026-10-17T02:51:49.000Z"
-        },
-        {
-          "date": "2026-10-15",
-          "title": "코스피 7% 폭락, 외인 30분만에 1조 순매도, 무언가 수상합니다",
-          "summary": "유동성 부족과 외국인 매도로 코스피가 7거래일 연속 하락했으며, 기업 가치 대비 과도하게 빠져 이상하다고 봅니다. V자 반등 기대는 있지만 외국인 매수 없이는 자신감이 안 나올 수 있고, 과거보다 높은 지점에서 저점이 형성될 수도 있다는 조심스러운 기대를 밝힙니다.",
-          "summary_short": "과매도 의심, 조심스러운 반등 기대",
-          "stance": "cautious",
-          "video_url": "https://www.youtube.com/watch?v=hGApFhkLSDw",
-          "published_at": "2026-10-15T01:02:32.000Z"
-        },
-        {
-          "date": "2026-10-14",
-          "title": "반등에 실패한 코스피 진짜 문제는 자사주 종료가 아니다",
-          "summary": "코스피가 6거래일 연속 하락하며 약 1,000포인트 빠졌고, 외국인의 대규모 순매도와 자사주 매입 감소(주당 6조→3조)로 반등에 실패했다고 진단한다. 미국 증시와 AI 투자 흐름에 따라 메모리 중심의 한국 증시 변동성이 더 커질 수 있다며, 분할 매도 등 리스크를 줄이는 접근을 시사한다.",
-          "summary_short": "외국인 매도에 반등 실패",
-          "stance": "cautious",
-          "video_url": "https://www.youtube.com/watch?v=3pAgtfybuQY",
-          "published_at": "2026-10-14T09:13:52.000Z"
         }
       ],
       "pending": []

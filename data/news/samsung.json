@@ -1,49 +1,65 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-27T01:40:24.042Z",
-  "count": 5,
+  "updated_at": "2026-10-27T06:58:08.262Z",
+  "count": 6,
   "items": [
     {
-      "title": "'삼전닉스' 없으면 안되는 엔트로픽…코스피 '매수 사이드카'",
-      "link": "https://www.hankyung.com/article/202610277001i",
-      "source": "한국경제",
-      "ts": 1793062218000,
-      "pub": "Tue, 27 Oct 2026 09:50:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "앤트로픽 AI 수익화 우려 불식…삼전닉스 동반 급등",
-      "link": "https://www.hankyung.com/article/2026102769946",
-      "source": "한국경제",
-      "ts": 1793061007000,
-      "pub": "Tue, 27 Oct 2026 09:30:07 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[마켓라이브] 앤트로픽 IPO에 삼전닉스 급등… '아틀라스 눈' 캠시스 상한가",
-      "link": "https://www.hankyung.com/article/202610276934i",
-      "source": "한국경제",
-      "ts": 1793060747000,
-      "pub": "Tue, 27 Oct 2026 09:25:47 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "코스피, 앤트로픽發 훈풍에 장 초반 3%대 강세…삼전닉스 4~6%↑",
-      "link": "https://www.hankyung.com/article/2026102768606",
-      "source": "한국경제",
-      "ts": 1793059657000,
-      "pub": "Tue, 27 Oct 2026 09:07:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "KB증권 \"'삼전닉스', 총 120조 추가 주주환원 기대…저평가 해소 계기\"",
-      "link": "https://www.yna.co.kr/view/AKR20261027024600008",
-      "source": "연합뉴스 경제",
-      "ts": 1793057066000,
-      "pub": "Tue, 27 Oct 2026 08:24:26 +0900",
+      "title": "앤트로픽 \"메모리 3사 HBM 병목…TSMC 집중도 위험요인\"",
+      "link": "https://www.yna.co.kr/view/AKR20261027124900009",
+      "source": "연합뉴스 국제",
+      "ts": 1793080277000,
+      "pub": "Tue, 27 Oct 2026 14:51:17 +0900",
       "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 고은지 기자 = KB증권은 27일 \"삼성전자[005930]와 SK하이닉스[000660]가 사상 최대 규모의 주주환원이 가능할 ...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
+      "desc": "(서울=연합뉴스) 정주호 기자 = 앤트로픽이 상장신청서에서 대만 TSMC 제조 수요 집중과 함께 고대역폭메모리(HBM) 공급이 수요를 따라가지 ...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/10/27/PAP20261027098801009_P2.jpg"
+    },
+    {
+      "title": "S21·S22·탭S8 게임하기 좋다더니 버벅…삼성전자 과징금 200억(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261027087701002",
+      "source": "연합뉴스 경제",
+      "ts": 1793077449000,
+      "pub": "Tue, 27 Oct 2026 14:04:09 +0900",
+      "sentiment": "negative",
+      "desc": "(세종·서울=연합뉴스) 김수현 박형빈 기자 = 삼성전자㈜가 스마트폰 갤럭시 S21·S22 등을 광고하면서 고사양 게임 실행 즉시 스마트기기의 최...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2022/03/08/PYH2022030809940001300_P2.jpg"
+    },
+    {
+      "title": "'삼성전자 기밀유출' 안승호 前 부사장 2심도 징역 3년…법정 구속",
+      "link": "https://www.hankyung.com/article/202610277678i",
+      "source": "한국경제",
+      "ts": 1793075637000,
+      "pub": "Tue, 27 Oct 2026 13:33:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, GOS 200억 과징금 불복…\"소송 등 법적 대응\"",
+      "link": "https://www.yna.co.kr/view/AKR20261027093500017",
+      "source": "연합뉴스 경제",
+      "ts": 1793070900000,
+      "pub": "Tue, 27 Oct 2026 12:15:00 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 박형빈 기자 = 삼성전자[005930]가 갤럭시 스마트폰의 게임옵티마이징서비스(GOS) 관련 부당 광고 행위로 공정거래위원회로...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2022/03/08/PYH2022030809950001300_P2.jpg"
+    },
+    {
+      "title": "S21·S22·탭S8 게임하기 좋다더니 버벅…삼성전자 과징금 200억",
+      "link": "https://www.yna.co.kr/view/AKR20261027087700002",
+      "source": "연합뉴스 경제",
+      "ts": 1793070003000,
+      "pub": "Tue, 27 Oct 2026 12:00:03 +0900",
+      "sentiment": "negative",
+      "desc": "(세종=연합뉴스) 김수현 기자 = 삼성전자㈜가 스마트폰 갤럭시 S21·S22 등을 광고하면서 고사양 게임 실행 즉시 스마트기기의 최대 성능이 제...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2022/03/08/PYH2022030809940001300_P2.jpg"
+    },
+    {
+      "title": "'삼성전자 기밀유출' 안승호 前부사장 2심 징역 3년…법정구속",
+      "link": "https://www.yna.co.kr/view/AKR20261027079900004",
+      "source": "연합뉴스 경제",
+      "ts": 1793066550000,
+      "pub": "Tue, 27 Oct 2026 11:02:30 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김빛나 기자 = 삼성전자 내부 자료를 빼돌려 미국 특허침해 소송에 활용한 혐의로 기소된 안승호 전 삼성전자 부사장(IP센터장)...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/27/AKR20261027079900004_01_i_P2.jpg"
     }
   ]
 }

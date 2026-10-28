@@ -1,15 +1,23 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-28T07:40:04.698Z",
-  "count": 5,
+  "updated_at": "2026-10-28T14:38:19.189Z",
+  "count": 3,
   "items": [
     {
-      "title": "[속보] 코스피, 6.6% 급등해 6000선 탈환…삼전닉스 '폭등'",
-      "link": "https://www.hankyung.com/article/2026102809866",
+      "title": "이재용, 故이건희 6주기 추모음악회 참석…삼성家·경영진 한자리에",
+      "link": "https://www.hankyung.com/article/2026102817097",
       "source": "한국경제",
-      "ts": 1793169284000,
-      "pub": "Wed, 28 Oct 2026 15:34:44 +0900",
-      "sentiment": "positive"
+      "ts": 1793188103000,
+      "pub": "Wed, 28 Oct 2026 20:48:23 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中CXMT, HBM3E 생산 강행…수율 25%,양산 빠르면 2028년?",
+      "link": "https://www.hankyung.com/article/202610281647i",
+      "source": "한국경제",
+      "ts": 1793183686000,
+      "pub": "Wed, 28 Oct 2026 19:34:46 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "로이터 \"CXMT, 20~30% 수율에도 두달내 HBM3E 생산 착수\"",
@@ -20,34 +28,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 정주호 기자 = 중국 메모리 반도체 업체 창신메모리테크놀로지스(CXMT)가 20~30%의 낮은 수율에도 첨단 고대역폭메모리(H...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/10/28/PRU20261028211201009_P2.jpg"
-    },
-    {
-      "title": "젠슨 황과 치맥, 대통령엔 폴더인사…'밈스타' 된 이재용 [오너 브랜딩 시대]",
-      "link": "https://www.hankyung.com/article/202610264980g",
-      "source": "한국경제",
-      "ts": 1793164086000,
-      "pub": "Wed, 28 Oct 2026 14:08:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "블룸버그 \"솔리다임, 미국에 60조원 낸드공장 추진\"",
-      "link": "https://www.yna.co.kr/view/AKR20261028011300009",
-      "source": "연합뉴스 국제",
-      "ts": 1793137852000,
-      "pub": "Wed, 28 Oct 2026 06:50:52 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정주호 기자 = SK하이닉스의 미국 손자회사 솔리다임이 미국 상무부와 450억달러(약 60조원)를 투자해 미국에 낸드플래시 공...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/28/AKR20261028011300009_01_i_P2.jpg"
-    },
-    {
-      "title": "왓츠앱으로 브라질 대선 뒤집은 룰라…첫 '개인폰'은 갤럭시 S26(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261027076451009",
-      "source": "연합뉴스 국제",
-      "ts": 1793126121000,
-      "pub": "Wed, 28 Oct 2026 03:35:21 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울·로스앤젤레스=연합뉴스) 곽민서 기자 김경윤 특파원 = 브라질 대선에서 극적인 역전승을 일군 루이스 이나시우 룰라 다시우바 대통령(81)의...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/20/PRU20261020106501009_P2.jpg"
     }
   ]
 }

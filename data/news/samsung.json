@@ -1,51 +1,33 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-28T01:53:15.675Z",
-  "count": 7,
+  "updated_at": "2026-10-28T07:40:04.698Z",
+  "count": 5,
   "items": [
     {
-      "title": "[속보] SK하이닉스 \"2029년까지 3년간 D램·HBM 사실상 모두 완판\"",
-      "link": "https://www.hankyung.com/article/2026102898837",
+      "title": "[속보] 코스피, 6.6% 급등해 6000선 탈환…삼전닉스 '폭등'",
+      "link": "https://www.hankyung.com/article/2026102809866",
       "source": "한국경제",
-      "ts": 1793148408000,
-      "pub": "Wed, 28 Oct 2026 09:46:48 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, 한국품질만족지수 18년 연속 최다 1위 기록",
-      "link": "https://www.yna.co.kr/view/AKR20261028044400003",
-      "source": "연합뉴스 경제",
-      "ts": 1793147633000,
-      "pub": "Wed, 28 Oct 2026 09:33:53 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 임성호 기자 = 삼성전자는 한국표준협회(KSA)가 주관하는 '2026 한국품질만족지수'(KS-QEI) 조사에서 18년 연속 최...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/28/AKR20261028044400003_01_i_P2.jpg"
-    },
-    {
-      "title": "삼전 110조·하이닉스 100조…통큰 주주환원에 주가도 '훨훨'",
-      "link": "https://www.hankyung.com/article/2026102896986",
-      "source": "한국경제",
-      "ts": 1793146979000,
-      "pub": "Wed, 28 Oct 2026 09:22:59 +0900",
+      "ts": 1793169284000,
+      "pub": "Wed, 28 Oct 2026 15:34:44 +0900",
       "sentiment": "positive"
     },
     {
-      "title": "코스피, 2%대 상승해 5700선 회복…삼전닉스 동반 강세",
-      "link": "https://www.hankyung.com/article/2026102896116",
-      "source": "한국경제",
-      "ts": 1793146240000,
-      "pub": "Wed, 28 Oct 2026 09:10:40 +0900",
-      "sentiment": "neutral"
+      "title": "로이터 \"CXMT, 20~30% 수율에도 두달내 HBM3E 생산 착수\"",
+      "link": "https://www.yna.co.kr/view/AKR20261028130300009",
+      "source": "연합뉴스 국제",
+      "ts": 1793167787000,
+      "pub": "Wed, 28 Oct 2026 15:09:47 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 중국 메모리 반도체 업체 창신메모리테크놀로지스(CXMT)가 20~30%의 낮은 수율에도 첨단 고대역폭메모리(H...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/28/PRU20261028211201009_P2.jpg"
     },
     {
-      "title": "한화증권 \"내년 삼전닉스 실적 성장세 더 강화…목표가 유지\"",
-      "link": "https://www.yna.co.kr/view/AKR20261028028500008",
-      "source": "연합뉴스 경제",
-      "ts": 1793143971000,
-      "pub": "Wed, 28 Oct 2026 08:32:51 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 곽윤아 기자 = 한화투자증권[003530]은 6세대 고대역폭메모리(HBM4)가 내년 메모리 산업의 성장 동력이 될 것이라며 국...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
+      "title": "젠슨 황과 치맥, 대통령엔 폴더인사…'밈스타' 된 이재용 [오너 브랜딩 시대]",
+      "link": "https://www.hankyung.com/article/202610264980g",
+      "source": "한국경제",
+      "ts": 1793164086000,
+      "pub": "Wed, 28 Oct 2026 14:08:06 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "블룸버그 \"솔리다임, 미국에 60조원 낸드공장 추진\"",

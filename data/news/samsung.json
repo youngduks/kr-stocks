@@ -1,33 +1,45 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-28T19:57:57.854Z",
-  "count": 3,
+  "updated_at": "2026-10-28T23:51:23.309Z",
+  "count": 4,
   "items": [
     {
-      "title": "이재용, 故이건희 6주기 추모음악회 참석…삼성家·경영진 한자리에",
-      "link": "https://www.hankyung.com/article/2026102817097",
-      "source": "한국경제",
-      "ts": 1793188103000,
-      "pub": "Wed, 28 Oct 2026 20:48:23 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "中CXMT, HBM3E 생산 강행…수율 25%,양산 빠르면 2028년?",
-      "link": "https://www.hankyung.com/article/202610281647i",
-      "source": "한국경제",
-      "ts": 1793183686000,
-      "pub": "Wed, 28 Oct 2026 19:34:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "로이터 \"CXMT, 20~30% 수율에도 두달내 HBM3E 생산 착수\"",
-      "link": "https://www.yna.co.kr/view/AKR20261028130300009",
-      "source": "연합뉴스 국제",
-      "ts": 1793167787000,
-      "pub": "Wed, 28 Oct 2026 15:09:47 +0900",
+      "title": "삼전닉스 호황에 中 승부수…PC 끌어오고 수율 20%에도 HBM 강행 [IT썰]",
+      "link": "https://www.mt.co.kr/tech/2026/10/29/2026102823194711412",
+      "source": "머니투데이",
+      "ts": 1793229471000,
+      "pub": "Thu, 29 Oct 2026 08:17:51 +0900",
       "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 중국 메모리 반도체 업체 창신메모리테크놀로지스(CXMT)가 20~30%의 낮은 수율에도 첨단 고대역폭메모리(H...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/28/PRU20261028211201009_P2.jpg"
+      "desc": "AI(인공지능)발 메모리 공급난 속에 중국이 PC 생산과 첨단 메모리 공급망에서 입지 확대를 노린다. 글로벌 PC 업체들은 비용 절감을 위해 일부 생산을 중국으로 되돌리고, 중국 메모리 업체는 낮은 수율에도 HBM(고대역폭메모리) 생산을 추진한다. 삼성전자와 SK하이닉",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026102823194711412_1.jpg"
+    },
+    {
+      "title": "\"AI반도체, 슈퍼사이클 넘어 메가사이클\"…삼전닉스 공급사 자신 [도쿄나우]",
+      "link": "https://www.hankyung.com/article/202610292082i",
+      "source": "한국경제",
+      "ts": 1793229226000,
+      "pub": "Thu, 29 Oct 2026 08:13:46 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[마켓뷰] 삼전 주주환원 기대…코스피, 추가 상승 이어가나",
+      "link": "https://www.yna.co.kr/view/AKR20261029028700008",
+      "source": "연합뉴스 경제",
+      "ts": 1793229017000,
+      "pub": "Thu, 29 Oct 2026 08:10:17 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유아 기자 = 간밤 미국이 기준금리를 동결하고 뉴욕증시 3대 지수는 일제히 오름세를 지속한 가운데 29일 코스피가 전날에 이...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/28/PYH2026102820210001300_P2.jpg"
+    },
+    {
+      "title": "[알림] 오늘 코엑스에 '삼전닉스'와 현대차·LG전자·포스코 모인다",
+      "link": "https://www.mt.co.kr/industry/2026/10/29/2026102903464464873",
+      "source": "머니투데이",
+      "ts": 1793224800000,
+      "pub": "Thu, 29 Oct 2026 07:00:00 +0900",
+      "sentiment": "neutral",
+      "desc": "[SEP 2026] 29일에는 '스마트 에너지 플러스(SMART ENERGY PLUS·SEP) 2026'의 이틀차 행사가 진행된다. 서울 삼성동 코엑스 B홀에서 열리는 'SEP 2026'은 머니투데이와 코엑스가 공동 주관하고 국회수소경제포럼이 주최한다. 행사 이틀차인 ",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026102903464464873_1.jpg"
     }
   ]
 }

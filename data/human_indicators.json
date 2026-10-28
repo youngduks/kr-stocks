@@ -7,10 +7,28 @@
       "channel": "전인구경제연구소",
       "channel_url": "https://www.youtube.com/@moneydo",
       "channel_id": "UCznImSIaxZR7fdLCICLdgaQ",
-      "last_checked_video_id": "1ZSyodWZJ7o",
+      "last_checked_video_id": "LY1HZbJpA90",
       "tagline": "\"고점 판독기\" — 나무위키에도 등재된 별명. 2023년 이후 증시 전망이 반대로 맞는 걸로 유명",
       "note": "본인 문서(나무위키)에 \"시장 전망 영상 대부분이 틀리는 걸 넘어 반대로 맞히는 예지력\"이라는 비판이 있고, 댓글창에서 \"고점 판독기\"·\"어둠의 고수\"로 불림. 역발상 참고용으로 소개합니다 — 조롱이 목적이 아니라, 실제로 존재하는 밈이라 재미로 트래킹합니다.",
       "opinions": [
+        {
+          "date": "2026-10-28",
+          "title": "지금은 이런 바이오 기업을 사야합니다(ft.강하나 박사  1부)",
+          "summary": "금리 인하 시 가장 눌려 있는 성장주인 바이오의 반등 여력이 크고 밸류에이션도 역사적 하단이라, 지금이 분할 매수하기 좋은 구간이라고 본다. 다만 한 번에 몰빵은 안 되며 현금흐름·데이터 우수 기업 위주로 선별해야 한다고 말한다.",
+          "summary_short": "바이오 분할매수 적기",
+          "stance": "bullish",
+          "video_url": "https://www.youtube.com/watch?v=LY1HZbJpA90",
+          "published_at": "2026-10-28T06:56:55.000Z"
+        },
+        {
+          "date": "2026-10-28",
+          "title": "SK하이닉스 실적 대박, 주주환원 100조, 숨겨진 호재까지",
+          "summary": "SK하이닉스 실적이 예상을 크게 웃는 어닝 서프라이즈이며 환율 하락에도 이 성과가 나왔고, 향후 실적 상향과 약 100조 규모 주주환원으로 긍정적인 뉴스라고 평가했다. 다만 앞으로 주가가 얼마나 오를지는 알 수 없고, 솔리다임 미국 공장 투자 재원 등 불확실성과 엔비디아 관련 악재 가능성은 변수로 언급했다.",
+          "summary_short": "하이닉스 어닝 서프라이즈, 긍정적",
+          "stance": "bullish",
+          "video_url": "https://www.youtube.com/watch?v=gkleSMwnyjw",
+          "published_at": "2026-10-28T00:29:52.000Z"
+        },
         {
           "date": "2026-10-27",
           "title": "코스피를 4% 올린 앤트로픽 상장 신고서에 담겨진 비밀",
@@ -82,24 +100,6 @@
           "stance": "cautious",
           "video_url": "https://www.youtube.com/watch?v=UamsPjo4pL0",
           "published_at": "2026-10-18T01:14:58.000Z"
-        },
-        {
-          "date": "2026-10-17",
-          "title": "지금 채권을 사야하는 이유(ft.마경환 대표 1부)",
-          "summary": "화자는 미국 10년 국채금리가 5%대로 오른 것을 두고, 한국·미국 금리 모두 '89분 능선'에 와 있어 점진적 분할 매수를 권하며 채권은 상방 대비 손실이 제한된 비대칭 투자라고 말한다. 주식시장은 금리 6% 이상이면 부담이 될 것이라 언급하고, 미국 금리는 AI 투자 붐이 꺾여야 본격 하락할 것이라고 본다.",
-          "summary_short": "채권 분할매수, 증시 경계",
-          "stance": "cautious",
-          "video_url": "https://www.youtube.com/watch?v=rwhiG0ratQc",
-          "published_at": "2026-10-17T08:23:30.000Z"
-        },
-        {
-          "date": "2026-10-17",
-          "title": "나스닥 급락, AI투자자들이 도망치고 있습니다",
-          "summary": "AI 인프라(네오클라우드) 투자 수익성 우려와 코어위브 채권·CDS 급등, 반도체 8거래일 연속 하락을 근거로 시장이 좋지 않은 신호를 보인다고 설명한다. 국채·헬스케어·금융주로 자금이 이동하는 점을 들어 대규모·안전 운용자는 비중 축소나 안전자산 확대를 고려하고, 단기 저점매수는 가능하나 월요일 코스피 조정 가능성도 있다고 말한다.",
-          "summary_short": "AI 우려 속 비중 조절 권고",
-          "stance": "cautious",
-          "video_url": "https://www.youtube.com/watch?v=GegwvHasjoE",
-          "published_at": "2026-10-17T02:51:49.000Z"
         }
       ],
       "pending": []

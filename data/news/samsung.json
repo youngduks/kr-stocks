@@ -1,25 +1,51 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-27T22:43:32.830Z",
-  "count": 10,
+  "updated_at": "2026-10-28T01:53:15.675Z",
+  "count": 7,
   "items": [
     {
-      "title": "외신 \"솔리다임, 미국에 60조 낸드공장 건설 검토\"",
-      "link": "https://www.hankyung.com/article/2026102892347",
+      "title": "[속보] SK하이닉스 \"2029년까지 3년간 D램·HBM 사실상 모두 완판\"",
+      "link": "https://www.hankyung.com/article/2026102898837",
       "source": "한국경제",
-      "ts": 1793138925000,
-      "pub": "Wed, 28 Oct 2026 07:08:45 +0900",
+      "ts": 1793148408000,
+      "pub": "Wed, 28 Oct 2026 09:46:48 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "HBM 없이도 엔비디아 제꼈다…하이퍼엑셀, 네이버와 AI칩 검증",
-      "link": "https://www.mt.co.kr/future/2026/10/28/2026102717094898578",
-      "source": "머니투데이",
-      "ts": 1793138400000,
-      "pub": "Wed, 28 Oct 2026 07:00:00 +0900",
+      "title": "삼성전자, 한국품질만족지수 18년 연속 최다 1위 기록",
+      "link": "https://www.yna.co.kr/view/AKR20261028044400003",
+      "source": "연합뉴스 경제",
+      "ts": 1793147633000,
+      "pub": "Wed, 28 Oct 2026 09:33:53 +0900",
       "sentiment": "neutral",
-      "desc": "[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 ‘데이터랩’에서 볼 수 있습니다.] LLM(거대언어모델) 추론 특화 반도체 팹리스 하이퍼엑셀이 네이버클라우드와 1세대 반도체 '베르다(Bertha)'의 본격적인 PoC(기술검증)에 들",
-      "image": "https://thumb.mt.co.kr/06/2026/10/2026102717094898578_1.jpg"
+      "desc": "(서울=연합뉴스) 임성호 기자 = 삼성전자는 한국표준협회(KSA)가 주관하는 '2026 한국품질만족지수'(KS-QEI) 조사에서 18년 연속 최...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/28/AKR20261028044400003_01_i_P2.jpg"
+    },
+    {
+      "title": "삼전 110조·하이닉스 100조…통큰 주주환원에 주가도 '훨훨'",
+      "link": "https://www.hankyung.com/article/2026102896986",
+      "source": "한국경제",
+      "ts": 1793146979000,
+      "pub": "Wed, 28 Oct 2026 09:22:59 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "코스피, 2%대 상승해 5700선 회복…삼전닉스 동반 강세",
+      "link": "https://www.hankyung.com/article/2026102896116",
+      "source": "한국경제",
+      "ts": 1793146240000,
+      "pub": "Wed, 28 Oct 2026 09:10:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "한화증권 \"내년 삼전닉스 실적 성장세 더 강화…목표가 유지\"",
+      "link": "https://www.yna.co.kr/view/AKR20261028028500008",
+      "source": "연합뉴스 경제",
+      "ts": 1793143971000,
+      "pub": "Wed, 28 Oct 2026 08:32:51 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 곽윤아 기자 = 한화투자증권[003530]은 6세대 고대역폭메모리(HBM4)가 내년 메모리 산업의 성장 동력이 될 것이라며 국...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/29/57/PCM20260629000557990_P2.jpg"
     },
     {
       "title": "블룸버그 \"솔리다임, 미국에 60조원 낸드공장 추진\"",
@@ -32,14 +58,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/28/AKR20261028011300009_01_i_P2.jpg"
     },
     {
-      "title": "\"코스피 7500 간다는데\"…외국인이 '삼전닉스' 던지는 이유 [분석+]",
-      "link": "https://www.hankyung.com/article/2026102784946",
-      "source": "한국경제",
-      "ts": 1793136608000,
-      "pub": "Wed, 28 Oct 2026 06:30:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "왓츠앱으로 브라질 대선 뒤집은 룰라…첫 '개인폰'은 갤럭시 S26(종합)",
       "link": "https://www.yna.co.kr/view/AKR20261027076451009",
       "source": "연합뉴스 국제",
@@ -48,56 +66,6 @@
       "sentiment": "neutral",
       "desc": "(서울·로스앤젤레스=연합뉴스) 곽민서 기자 김경윤 특파원 = 브라질 대선에서 극적인 역전승을 일군 루이스 이나시우 룰라 다시우바 대통령(81)의...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/10/20/PRU20261020106501009_P2.jpg"
-    },
-    {
-      "title": "기념식 대신… 로봇 '손' 보러간 이재용",
-      "link": "https://www.mt.co.kr/industry/2026/10/28/2026102719174186385",
-      "source": "머니투데이",
-      "ts": 1793124000000,
-      "pub": "Wed, 28 Oct 2026 03:00:00 +0900",
-      "sentiment": "neutral",
-      "desc": "취임 4주년 맞아 RX추진실 방문, 휴머노이드 기술 점검 美서 열리는 CES 2027 대비 개발성과·준비상황 확인 정밀조작 기술 확보 주력… 자체 생산시설서 검증 계획 이재용 삼성전자 회장(사진)이 27일 취임 4주년을 맞고도 별도의 기념식을 열지 않고 미래 성장동력으",
-      "image": "https://thumb.mt.co.kr/06/2026/10/2026102719174186385_1.jpg"
-    },
-    {
-      "title": "코스피, 3% 급반등해 5,638 마감…삼전닉스 4∼5%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261027146100008",
-      "source": "연합뉴스 경제",
-      "ts": 1793084732000,
-      "pub": "Tue, 27 Oct 2026 16:05:32 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 27일 국내 증시가 반등 마감했다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/27/PYH2026102717010001300_P2.jpg"
-    },
-    {
-      "title": "앤트로픽 \"메모리 3사 HBM 병목…TSMC 집중도 위험요인\"",
-      "link": "https://www.yna.co.kr/view/AKR20261027124900009",
-      "source": "연합뉴스 국제",
-      "ts": 1793080277000,
-      "pub": "Tue, 27 Oct 2026 14:51:17 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 앤트로픽이 상장신청서에서 대만 TSMC 제조 수요 집중과 함께 고대역폭메모리(HBM) 공급이 수요를 따라가지 ...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/27/PAP20261027098801009_P2.jpg"
-    },
-    {
-      "title": "S21·S22·탭S8 게임하기 좋다더니 버벅…삼성전자 과징금 200억(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261027087701002",
-      "source": "연합뉴스 경제",
-      "ts": 1793077449000,
-      "pub": "Tue, 27 Oct 2026 14:04:09 +0900",
-      "sentiment": "negative",
-      "desc": "(세종·서울=연합뉴스) 김수현 박형빈 기자 = 삼성전자㈜가 스마트폰 갤럭시 S21·S22 등을 광고하면서 고사양 게임 실행 즉시 스마트기기의 최...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2022/03/08/PYH2022030809940001300_P2.jpg"
-    },
-    {
-      "title": "삼성전자, GOS 200억 과징금 불복…\"소송 등 법적 대응\"",
-      "link": "https://www.yna.co.kr/view/AKR20261027093500017",
-      "source": "연합뉴스 경제",
-      "ts": 1793070900000,
-      "pub": "Tue, 27 Oct 2026 12:15:00 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 박형빈 기자 = 삼성전자[005930]가 갤럭시 스마트폰의 게임옵티마이징서비스(GOS) 관련 부당 광고 행위로 공정거래위원회로...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2022/03/08/PYH2022030809950001300_P2.jpg"
     }
   ]
 }

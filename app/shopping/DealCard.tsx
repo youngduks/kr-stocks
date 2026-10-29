@@ -36,6 +36,8 @@ export type DealView = {
   avgDropPct?: number;
   hist?: number[]; // 60일 일별 최저가(≤30점, 오래된→최신)
   histFrom?: string; // 첫 점 날짜 MM-DD
+  // 우리 가격 기록 중 최저 — 기록 일수(page.tsx, own_low.days). 폴센트 배지와 문구·색 구분
+  ownLowDays?: number;
 };
 
 export const NOTIFY_SCORE_MIN = 4;
@@ -43,7 +45,7 @@ export const NOTIFY_SCORE_MIN = 4;
 export const VERIFIED_MIN_PCT = 5;
 
 export function isVerified(d: DealView): boolean {
-  return !!d.lowest60 || (d.discount_pct ?? 0) >= VERIFIED_MIN_PCT;
+  return !!d.lowest60 || !!d.ownLowDays || (d.discount_pct ?? 0) >= VERIFIED_MIN_PCT;
 }
 
 // 이미지 없는 카드의 중립 타일 — 카테고리 이모지(고정 크기, 네트워크 0)
@@ -127,6 +129,11 @@ export function DealCard({ d }: { d: DealView }) {
             {d.lowest60 && (
               <span className="text-[12px] font-extrabold rounded-lg px-2 py-0.5 bg-up text-white">
                 {d.badge ?? "최근 2개월 최저가"}
+              </span>
+            )}
+            {!d.lowest60 && d.ownLowDays && (
+              <span className="text-[12px] font-extrabold rounded-lg px-2 py-0.5 border border-accent-purple text-accent-purple">
+                우리 기록 {d.ownLowDays}일 중 최저
               </span>
             )}
             {isHot && (

@@ -43,6 +43,8 @@ type Deal = {
   avg60?: number | null;
   hist?: [string, number][] | null;
   img?: string | null;
+  // 우리 가격 기록(price_history.json) 중 최저(2026-10-29, 배포 스냅샷에서 mark_own_low.py가 표시)
+  own_low?: { days: number; n: number; since: string } | null;
 };
 
 // updated: deals.json 발행 시각(epoch 초) — 상태 카드 'HH:MM 기준'에 사용
@@ -154,6 +156,7 @@ export default async function ShoppingPage() {
       affiliate_url: d.affiliate_url,
       timeAgoStr: timeAgo(d.ts),
       catGroup: catGroup(d.cat),
+      ownLowDays: d.source !== "fallcent" && d.own_low && d.own_low.days >= 14 ? d.own_low.days : undefined,
       ...(d.source === "fallcent" ? fallcentView(d) : {}),
     }));
 
@@ -219,6 +222,10 @@ export default async function ShoppingPage() {
           <MoreDetails summary="배지는 어떻게 붙나요?" className="!border-t-0 !mt-0">
             <p>
               <b className="text-up">최근 2개월 최저가</b>: 폴센트가 기록한 쿠팡 60일 가격 중 지금이 가장 쌀 때. 가격 그래프가 있으면 점선이 60일 평균이에요.
+            </p>
+            <p className="mt-2">
+              <b className="text-accent-purple">우리 기록 N일 중 최저</b>: 줍줍쇼핑이 직접 모은 가격 기록(가격이 바뀔 때마다 1번)이
+              3번 이상, 14일 이상 쌓인 상품 중 지금 가격이 그 기록에서 가장 쌀 때. 폴센트 기록과는 별개예요.
             </p>
             <p className="mt-2">
               <b>평균 시세</b>: 다나와 평균가와 비교한 할인율. <b>토스 정가</b>: 토스쇼핑이 표시한 정가 대비 할인율로, 실제 거래 시세가 아니에요.

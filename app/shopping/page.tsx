@@ -197,6 +197,9 @@ export default async function ShoppingPage() {
           </p>
           <p className="ds-explain mt-2" style={{ fontSize: 14 }}>
             정가 대비 할인율 대신, 쿠팡 60일 가격 기록에서 지금이 가장 싼 딜에만 빨간 배지를 달아요.
+            {lowCount === 0 && views.length > 0 && (
+              <> 최저가 확인은 하루 한 번(오전 8시) 해요. 오늘은 확인을 마친 딜이 없어서 배지를 달지 않았어요.</>
+            )}
           </p>
         </section>
 
@@ -215,7 +218,7 @@ export default async function ShoppingPage() {
         <section className="ds-card mt-6" style={{ paddingTop: 4, paddingBottom: 4 }} aria-label="배지·출처 설명">
           <MoreDetails summary="배지는 어떻게 붙나요?" className="!border-t-0 !mt-0">
             <p>
-              <b className="text-up">최근 2개월 최저가</b>: 폴센트가 기록한 쿠팡 60일 가격 중 지금이 가장 쌀 때. 점선은 60일 평균이에요.
+              <b className="text-up">최근 2개월 최저가</b>: 폴센트가 기록한 쿠팡 60일 가격 중 지금이 가장 쌀 때. 가격 그래프가 있으면 점선이 60일 평균이에요.
             </p>
             <p className="mt-2">
               <b>평균 시세</b>: 다나와 평균가와 비교한 할인율. <b>토스 정가</b>: 토스쇼핑이 표시한 정가 대비 할인율로, 실제 거래 시세가 아니에요.

@@ -1,17 +1,25 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-29T03:16:21.907Z",
-  "count": 27,
+  "updated_at": "2026-10-29T10:31:22.348Z",
+  "count": 13,
   "items": [
     {
-      "title": "갈 곳 많고 시간 없고…트럼프 '전화연결' 목소리 선거유세 나선다",
-      "link": "https://www.mt.co.kr/world/2026/10/29/2026102910082935425",
-      "source": "머니투데이",
-      "ts": 1793241228000,
-      "pub": "Thu, 29 Oct 2026 11:33:48 +0900",
+      "title": "미국 Fed 의장은 왜 한국 반도체를 들여다보나 [여기는 논설실]",
+      "link": "https://www.hankyung.com/article/202610294542i",
+      "source": "한국경제",
+      "ts": 1793267109000,
+      "pub": "Thu, 29 Oct 2026 18:45:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "국고채 금리, 美 금리 연동하며 하락…완화적 FOMC 소화(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261029173951008",
+      "source": "연합뉴스 경제",
+      "ts": 1793260614000,
+      "pub": "Thu, 29 Oct 2026 16:56:54 +0900",
       "sentiment": "neutral",
-      "desc": "[백악관인사이드]텔레랠리 상표권도 등록 도널드 트럼프 미국 대통령이 오는 11월 3일 중간선거를 하루 앞두고 대규모 전화 유세에 나선다. 직접 유세 현장을 찾는 대신 전화로 공화당 후보들을 지원하는 이른바 '텔레랠리'다. 트럼프 대통령은 28일(현지시간) 트루스소셜을 ",
-      "image": "https://thumb.mt.co.kr/06/2026/10/2026102910082935425_1.jpg"
+      "desc": "(서울=연합뉴스) 강수지 기자 = 29일 국고채 금리는 일제히 하락했다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/29/AKR20261029173951008_01_i_P2.jpg"
     },
     {
       "title": "美법무부 '트럼프 정적 수사' 가속…\"중간선거 전 성과 압박\"",
@@ -44,16 +52,6 @@
       "image": "https://img.yna.co.kr/photo/etc/epa/2021/05/22/PEP20210522126901055_P2.jpg"
     },
     {
-      "title": "[게시판] 관세청, 전자통관시스템 '유니패스' 21년 연속 국제 인증 유지",
-      "link": "https://www.yna.co.kr/view/AKR20261029046900002",
-      "source": "연합뉴스 경제",
-      "ts": 1793233240000,
-      "pub": "Thu, 29 Oct 2026 09:20:40 +0900",
-      "sentiment": "neutral",
-      "desc": "▲ 관세청은 국가 전자통관시스템 '유니패스(UNI-PASS)'가 국제표준인 'ISO 20000' 인증을 21년 연속으로 유지했다고 29일 밝혔다...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/29/AKR20261029046900002_01_i_P2.jpg"
-    },
-    {
       "title": "\"이스라엘 야권, 네타냐후 축출 역사적 기회 놓친 듯\"",
       "link": "https://www.yna.co.kr/view/AKR20261029038800009",
       "source": "연합뉴스 국제",
@@ -72,16 +70,6 @@
       "sentiment": "neutral",
       "desc": "(이스탄불·브뤼셀·서울=연합뉴스) 김동호 현윤경 특파원 류미나 기자 = 볼로디미르 젤렌스키 우크라이나 대통령은 종전안 논의를 위한 미국·러시아·...",
       "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/29/PEP20261029007201009_P2.jpg"
-    },
-    {
-      "title": "증권가, 美 연준 금리 동결에 \"긴축 종료 아닌 숨 고르기\"",
-      "link": "https://www.yna.co.kr/view/AKR20261029037000008",
-      "source": "연합뉴스 경제",
-      "ts": 1793231614000,
-      "pub": "Thu, 29 Oct 2026 08:53:34 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 강수지 기자 = 국내 증권사들은 29일 미국 연방준비제도(Fed)가 10월 연방공개시장위원회(FOMC)에서 기준금리를 동결하자...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/29/PRU20261029171001009_P2.jpg"
     },
     {
       "title": "연준, 선거 앞두고 일단 '정중동'…월가 \"12월 인상 유력\"(종합)",
@@ -142,136 +130,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 엿새 뒤 치러지는 미국 중간선거의 알래스카주 상원의원 선거에서 동명이인 후보가 등장하는 과정에 일찌감치 민...",
       "image": "https://img.yna.co.kr/photo/ap/2026/10/28/PAP20261028144501009_P2.jpg"
-    },
-    {
-      "title": "뉴욕증시, 연준 금리 동결 속 일제히 상승…오라클 11%↑",
-      "link": "https://www.yna.co.kr/view/AKR20261029010700072",
-      "source": "연합뉴스 국제",
-      "ts": 1793219012000,
-      "pub": "Thu, 29 Oct 2026 05:23:32 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 28일(현지시간) 미국 뉴욕 증시는 연방준비제도(Fed·연준)의 기준금리 동결 결정과 케빈 워시 연준 의장의...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/29/PRU20261029095901009_P2.jpg"
-    },
-    {
-      "title": "美연준, 중간선거 앞두고 일단 '정중동'…월가 \"12월 인상 유력\"",
-      "link": "https://www.yna.co.kr/view/AKR20261029009300072",
-      "source": "연합뉴스 국제",
-      "ts": 1793217425000,
-      "pub": "Thu, 29 Oct 2026 04:57:05 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 미국 연방준비제도(Fed·연준)가 28일(현지시간) 통화정책 결정 회의체인 연방공개시장위원회(FOMC) 회의...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/29/AKR20261029009300072_01_i_P2.jpg"
-    },
-    {
-      "title": "이스라엘 총선·美 이란 공격 가능성 주시…국제유가 상승",
-      "link": "https://www.yna.co.kr/view/AKR20261029009000072",
-      "source": "연합뉴스 국제",
-      "ts": 1793217162000,
-      "pub": "Thu, 29 Oct 2026 04:52:42 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 최근 이틀 연속 하락했던 국제유가가 28일(현지시간) 중동 지역 지정학적 긴장 고조와 미국 중간선거 이후의 ...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/27/PRU20261027175501009_P2.jpg"
-    },
-    {
-      "title": "워시 \"내년 기준금리 결정 FOMC는 7번만…내후년은 6번\"",
-      "link": "https://www.yna.co.kr/view/AKR20261029007800072",
-      "source": "연합뉴스 국제",
-      "ts": 1793215115000,
-      "pub": "Thu, 29 Oct 2026 04:18:35 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 케빈 워시 미국 연방준비제도(Fed·연준) 의장은 내년부터 기준금리 결정을 위한 연방공개시장위원회(FOMC)...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/29/PAP20261029041601009_P2.jpg"
-    },
-    {
-      "title": "[속보] 워시 \"내년 기준금리 결정 FOMC 연 8회서 7회로 축소\"",
-      "link": "https://www.yna.co.kr/view/AKR20261029007000072",
-      "source": "연합뉴스 국제",
-      "ts": 1793213239000,
-      "pub": "Thu, 29 Oct 2026 03:47:19 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
-    },
-    {
-      "title": "[1보] 美연준, 기준금리 동결…3.75∼4.00% 유지",
-      "link": "https://www.yna.co.kr/view/AKR20261029002800071",
-      "source": "연합뉴스 국제",
-      "ts": 1793210550000,
-      "pub": "Thu, 29 Oct 2026 03:02:30 +0900",
-      "sentiment": "neutral",
-      "desc": "yumi@yna.co.kr\n(끝)",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/29/AKR20261029002800071_01_i_P2.jpg"
-    },
-    {
-      "title": "美중간선거 저울추는…\"불만 한가득 공화 지지자 '업셋 트럼프'\"",
-      "link": "https://www.yna.co.kr/view/AKR20261029001800071",
-      "source": "연합뉴스 국제",
-      "ts": 1793209491000,
-      "pub": "Thu, 29 Oct 2026 02:44:51 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 다음 주 치러지는 미국 중간선거는 무당파나 중도층이 좌우해온 기존 선거와 다르게 도널드 트럼프 대통령에게 ...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/29/PAP20261029087501009_P2.jpg"
-    },
-    {
-      "title": "젤렌스키 \"3자 회담, 내달 6∼10일 내 열어야\"…크렘린은 신중(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261029002451108",
-      "source": "연합뉴스 국제",
-      "ts": 1793207700000,
-      "pub": "Thu, 29 Oct 2026 02:15:00 +0900",
-      "sentiment": "neutral",
-      "desc": "(이스탄불·브뤼셀=연합뉴스) 김동호 현윤경 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령은 종전안 논의를 위해 미국, 러시아, 우크라이나가 참...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/29/PEP20261029007201009_P2.jpg"
-    },
-    {
-      "title": "젤렌스키 \"3자 회담, 내달 6∼10일 내 열어야\"…크렘린은 신중",
-      "link": "https://www.yna.co.kr/view/AKR20261029002400108",
-      "source": "연합뉴스 국제",
-      "ts": 1793205573000,
-      "pub": "Thu, 29 Oct 2026 01:39:33 +0900",
-      "sentiment": "neutral",
-      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령은 종전안 논의를 위해 미국, 러시아, 우크라이나가 참여하는 3자 회...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/29/PEP20261029007201009_P2.jpg"
-    },
-    {
-      "title": "뉴욕증시, FOMC 대기하며 상승 출발",
-      "link": "https://www.yna.co.kr/view/AKR20261028196200009",
-      "source": "연합뉴스 국제",
-      "ts": 1793195082000,
-      "pub": "Wed, 28 Oct 2026 22:44:42 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 윤정원 연합인포맥스 기자 = 뉴욕증시의 3대 주가지수는 연방공개시장위원회(FOMC)를 대기하며 상승 출발했다.",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/27/PRU20261027009601009_P2.jpg"
-    },
-    {
-      "title": "中, 美기업에 첨단제조업 투자 확대 요청…\"미중정상 합의 이행\"",
-      "link": "https://www.yna.co.kr/view/AKR20261028191500083",
-      "source": "연합뉴스 국제",
-      "ts": 1793189694000,
-      "pub": "Wed, 28 Oct 2026 21:14:54 +0900",
-      "sentiment": "neutral",
-      "desc": "(베이징=연합뉴스) 김현정 특파원 = 중국 정부가 미국 기업들에 중국 내 첨단제조업 분야 투자를 확대하고 중국 기업과 실질적인 협력을 강화할 것...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/09/PRU20261009223001009_P2.jpg"
-    },
-    {
-      "title": "젤렌스키 \"트럼프와 종전 수단 달라…우리가 러시아 더 잘 알아\"",
-      "link": "https://www.yna.co.kr/view/AKR20261028191600108",
-      "source": "연합뉴스 국제",
-      "ts": 1793188572000,
-      "pub": "Wed, 28 Oct 2026 20:56:12 +0900",
-      "sentiment": "neutral",
-      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령은 최근 종전 협상을 위해 미국이 참여하는 3자 협상 재개를 앞두고 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/28/AKR20261028191600108_01_i_P2.jpg"
-    },
-    {
-      "title": "러·우크라 올레시키 휴전 이틀째…위반 사례 0건",
-      "link": "https://www.yna.co.kr/view/AKR20261028191100108",
-      "source": "연합뉴스 국제",
-      "ts": 1793187568000,
-      "pub": "Wed, 28 Oct 2026 20:39:28 +0900",
-      "sentiment": "neutral",
-      "desc": "(이스탄불=연합뉴스) 김동호 특파원 = 러시아 점령지인 우크라이나 남부 올레시키에서 발효한 휴전이 이틀째 별다른 위반 사례 없이 이어지고 있다고...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/28/PAP20261028005401009_P2.jpg"
     }
   ]
 }

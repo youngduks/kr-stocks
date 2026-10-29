@@ -260,7 +260,8 @@ export default async function LiquidationPage() {
 
           {/* 광고 — 섹션 경계(레버리지 차트 하단 텍스트 ↔ 설명 제목 사이). 첫 화면 밖, 버튼·링크 그리드와 비인접. 페이지당 1개 */}
           <AdSlot
-            adsenseSlot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_HOME}
+            // AdSense 는 홈 1자리만(2026-10-29 재개) — 별도 변수(미설정 = AdFit 유지)
+            adsenseSlot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_LIQUIDATION}
             adfitMobile={{ unit: "DAN-sRrDqAryVxJFyyGr", width: 320, height: 50 }}
             adfitDesktop={{ unit: "DAN-1gxi6c73rjhTXT18", width: 728, height: 90 }}
           />

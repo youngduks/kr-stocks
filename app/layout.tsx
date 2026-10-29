@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./fonts.css";
 import "./globals.css";
 import { ThemeProvider, THEME_INIT_SCRIPT } from "@/components/ThemeProvider";
+import { NOADS_INIT_SCRIPT } from "@/lib/noads";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://kr-stocks.com"),
@@ -90,6 +91,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {PRELOAD_FONTS.map((href) => (
           <link key={href} rel="preload" href={href} as="font" type="font/woff2" crossOrigin="anonymous" />
         ))}
+        {/* 내부 방문자 광고 차단(?noads=1/0 → 쿠키·localStorage krs_noads) — 광고 코드보다 먼저 실행. lib/noads.ts */}
+        <script
+          dangerouslySetInnerHTML={{ __html: NOADS_INIT_SCRIPT }}
+        />
         {/* 첫 paint 전 theme 적용 — flicker 0 */}
         <script
           dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }}

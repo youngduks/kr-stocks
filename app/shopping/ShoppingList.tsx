@@ -20,8 +20,9 @@ const FILTERS = ["전체", "📉 최저가", "육아", "식품", "생활", "가�
 // 8/20: 토스쇼핑 딜이 20%+ → 스토어 축 필터(토글: 다시 누르면 해제)
 const STORES = ["쿠팡", "토스쇼핑"] as const;
 
+// AdSense 는 홈 1자리만(2026-10-29 재개) — 이 페이지는 별도 변수(미설정 = AdFit 유지).
 const AD_PROPS = {
-  adsenseSlot: process.env.NEXT_PUBLIC_ADSENSE_SLOT_HOME,
+  adsenseSlot: process.env.NEXT_PUBLIC_ADSENSE_SLOT_SHOPPING,
   adfitMobile: { unit: "DAN-sRrDqAryVxJFyyGr", width: 320, height: 50 },
   adfitDesktop: { unit: "DAN-1gxi6c73rjhTXT18", width: 728, height: 90 },
 };

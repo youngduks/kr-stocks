@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { applyNoadsParam, isInternalVisitor } from "@/lib/noads";
 
 /**
  * 광고 슬롯 (2026-09 Phase A — 오클릭 방지 설계).
@@ -10,6 +11,7 @@ import { useEffect, useRef, useState } from "react";
  *  - 슬롯 ID 는 NEXT_PUBLIC_ADSENSE_SLOT_* 환경변수 (미설정 = AdSense 미로드).
  *  - 봇/프리뷰/로컬에서는 어떤 광고 스크립트도 로드하지 않음:
  *      navigator.webdriver, 비-프로덕션 빌드(VERCEL_ENV !== 'production'), *.vercel.app, localhost.
+ *  - 내부 방문자(쿠키/localStorage krs_noads=1, ?noads=1 로 설정) 도 AdSense·AdFit 모두 미로드 — lib/noads.ts (2026-10-29).
  *  - 고정 높이(모바일 100 / 데스크톱 90) → CLS 0. '광고' 라벨 + 상하 32px 여백 + 구분선.
  *  - 섹션 경계에만 배치, 첫 화면(first viewport) 금지, 모바일 페이지당 최대 2개 (배치 규칙 — 호출부 책임).
  *  - 뷰포트 근처에 오기 전엔 로드하지 않음(IntersectionObserver) + 첫 화면 안에서 마운트되면 스크롤 전까지 보류.
@@ -40,6 +42,9 @@ export type AdSlotProps = {
 /** 광고 스크립트를 로드해도 되는 환경인가? (클라이언트 전용) */
 export function adsAllowed(): boolean {
   if (typeof window === "undefined") return false;
+  // 내부 방문자 차단 — 다른 판정보다 먼저 ?noads 처리 (webdriver 브라우저에서도 쿠키 저장되도록)
+  applyNoadsParam();
+  if (isInternalVisitor()) return false;
   if (DEPLOY_ENV !== "production") return false;
   try {
     if (navigator.webdriver) return false;

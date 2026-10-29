@@ -1,8 +1,76 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-29T10:31:22.348Z",
-  "count": 13,
+  "updated_at": "2026-10-29T17:09:56.129Z",
+  "count": 11,
   "items": [
+    {
+      "title": "미 연준 이어 ECB도 금리 동결…\"인플레·경기둔화 위험 여전\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261029208552082",
+      "source": "연합뉴스 경제",
+      "ts": 1793286946000,
+      "pub": "Fri, 30 Oct 2026 00:15:46 +0900",
+      "sentiment": "neutral",
+      "desc": "(베를린=연합뉴스) 김계연 특파원 = 유럽중앙은행(ECB)이 29일(현지시간) 3대 정책금리를 동결했다.",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/29/PRU20261029399301009_P2.jpg"
+    },
+    {
+      "title": "아프리카 48개국 러시아로 부른 푸틴…영향력 확대 나서",
+      "link": "https://www.yna.co.kr/view/AKR20261029211800099",
+      "source": "연합뉴스 국제",
+      "ts": 1793286654000,
+      "pub": "Fri, 30 Oct 2026 00:10:54 +0900",
+      "sentiment": "neutral",
+      "desc": "(요하네스버그=연합뉴스) 나확진 특파원 = 블라디미르 푸틴 러시아 대통령이 아프리카 정상 22명을 포함해 48개국 대표단을 자국으로 초청해 러시...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/29/AKR20261029211800099_02_i_P2.jpg"
+    },
+    {
+      "title": "美국무부, 진성준 비자 거부에 \"트럼프 행정부, 美이익 우선\"",
+      "link": "https://www.yna.co.kr/view/AKR20261029211300071",
+      "source": "연합뉴스 국제",
+      "ts": 1793284479000,
+      "pub": "Thu, 29 Oct 2026 23:34:39 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 장동우 특파원 = 미국 국무부는 국회 국방위원장인 더불어민주당 진성준 의원이 미국 비자를 받지 못한 데 대해 개별적 ...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/28/PRU20261028094601009_P2.jpg"
+    },
+    {
+      "title": "미 9월 PCE 물가 전년대비 3.6%↑…예상치 소폭 하회(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261029206952072",
+      "source": "연합뉴스 국제",
+      "ts": 1793282275000,
+      "pub": "Thu, 29 Oct 2026 22:57:55 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 미국 상무부는 9월 개인소비지출(PCE) 가격지수가 전년 동월 대비 3.6% 상승했다고 29일(현지시간) 밝...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/29/AKR20261029206952072_02_i_P2.jpg"
+    },
+    {
+      "title": "미 9월 PCE 물가 전년대비 3.6%↑…예상치 소폭 하회",
+      "link": "https://www.yna.co.kr/view/AKR20261029206951072",
+      "source": "연합뉴스 국제",
+      "ts": 1793277998000,
+      "pub": "Thu, 29 Oct 2026 21:46:38 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 미국 상무부는 9월 개인소비지출(PCE) 가격지수가 전년 동월 대비 3.6% 상승했다고 29일(현지시간) 밝...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/29/AKR20261029206951072_02_i_P2.jpg"
+    },
+    {
+      "title": "[속보] 美 9월 PCE 물가 전년대비 3.6% 상승…예상치 소폭 하회",
+      "link": "https://www.hankyung.com/article/2026102946807",
+      "source": "한국경제",
+      "ts": 1793277963000,
+      "pub": "Thu, 29 Oct 2026 21:46:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 미 9월 PCE 물가 전년대비 3.6%↑…예상치 소폭 하회",
+      "link": "https://www.yna.co.kr/view/AKR20261029206900072",
+      "source": "연합뉴스 국제",
+      "ts": 1793277549000,
+      "pub": "Thu, 29 Oct 2026 21:39:09 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/29/AKR20261029206900072_01_i_P2.jpg"
+    },
     {
       "title": "미국 Fed 의장은 왜 한국 반도체를 들여다보나 [여기는 논설실]",
       "link": "https://www.hankyung.com/article/202610294542i",
@@ -40,96 +108,6 @@
       "sentiment": "negative",
       "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령이 11·3 중간선거를 엿새 앞두고 경합지 민주당 후보들을 겨냥한 공격 수위를 끌...",
       "image": "https://img.yna.co.kr/photo/ap/2026/10/28/PAP20261028114001009_P2.jpg"
-    },
-    {
-      "title": "'스타실드 먹통' 우크라 비웃듯…푸틴 \"미스터 머스크는 천재\"",
-      "link": "https://www.yna.co.kr/view/AKR20261029047100009",
-      "source": "연합뉴스 국제",
-      "ts": 1793234471000,
-      "pub": "Thu, 29 Oct 2026 09:41:11 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 신유리 기자 = 블라디미르 푸틴 대통령은 28일(현지시간) 일론 머스크에 대해 \"진정한 천재\"라면서 위성 인터넷 사업과 관련해...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2021/05/22/PEP20210522126901055_P2.jpg"
-    },
-    {
-      "title": "\"이스라엘 야권, 네타냐후 축출 역사적 기회 놓친 듯\"",
-      "link": "https://www.yna.co.kr/view/AKR20261029038800009",
-      "source": "연합뉴스 국제",
-      "ts": 1793231938000,
-      "pub": "Thu, 29 Oct 2026 08:58:58 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 강훈상 기자 = 이스라엘 총선에서 야권이 베냐민 네타냐후 정권을 축출할 수 있는 '역사적' 기회를 놓치게 됐다는 우려가 나온다...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/28/PRU20261028181101009_P2.jpg"
-    },
-    {
-      "title": "젤렌스키 \"3자회담, 내달 6∼10일 열자\"…러 \"4일 이후\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20261029002452108",
-      "source": "연합뉴스 국제",
-      "ts": 1793231644000,
-      "pub": "Thu, 29 Oct 2026 08:54:04 +0900",
-      "sentiment": "neutral",
-      "desc": "(이스탄불·브뤼셀·서울=연합뉴스) 김동호 현윤경 특파원 류미나 기자 = 볼로디미르 젤렌스키 우크라이나 대통령은 종전안 논의를 위한 미국·러시아·...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/29/PEP20261029007201009_P2.jpg"
-    },
-    {
-      "title": "연준, 선거 앞두고 일단 '정중동'…월가 \"12월 인상 유력\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261029009351072",
-      "source": "연합뉴스 국제",
-      "ts": 1793227147000,
-      "pub": "Thu, 29 Oct 2026 07:39:07 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 미국 연방준비제도(Fed·연준)가 28일(현지시간) 통화정책 결정 회의체인 연방공개시장위원회(FOMC) 회의...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/29/PRU20261029084001009_P2.jpg"
-    },
-    {
-      "title": "뉴욕증시, 이변없는 FOMC에 상승…오라클 11%·SK하이닉스 13%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261029010751072",
-      "source": "연합뉴스 국제",
-      "ts": 1793226817000,
-      "pub": "Thu, 29 Oct 2026 07:33:37 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 28일(현지시간) 미국 뉴욕 증시가 3거래일 연속 상승했다.",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/29/PRU20261029095901009_P2.jpg"
-    },
-    {
-      "title": "WSJ \"美부통령, 트럼프 지시로 이란 강경파에 협상재개 서한\"",
-      "link": "https://www.yna.co.kr/view/AKR20261029019100071",
-      "source": "연합뉴스 국제",
-      "ts": 1793226542000,
-      "pub": "Thu, 29 Oct 2026 07:29:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = JD 밴스 미국 부통령이 도널드 트럼프 대통령의 지시로 이란의 강경파 안보 수장에 협상 재개를 위한 접촉을...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/21/PRU20261021044601009_P2.jpg"
-    },
-    {
-      "title": "워시 \"내년 금리 결정 FOMC는 7번만…내후년은 6번\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261029007851072",
-      "source": "연합뉴스 국제",
-      "ts": 1793224138000,
-      "pub": "Thu, 29 Oct 2026 06:48:58 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 케빈 워시 미국 연방준비제도(Fed·연준) 의장은 내년부터 기준금리 결정을 위한 연방공개시장위원회(FOMC)...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/29/PAP20261029041601009_P2.jpg"
-    },
-    {
-      "title": "트럼프, 로봇·산업기계 수입 안보위협 판단…교역국과 협상지시",
-      "link": "https://www.yna.co.kr/view/AKR20261029016100071",
-      "source": "연합뉴스 국제",
-      "ts": 1793223367000,
-      "pub": "Thu, 29 Oct 2026 06:36:07 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령은 28일(현지시간) 로봇과 산업용 기계, 관련 부품의 수입이 미국의 국가안보를 ...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/29/PAP20261029083201009_P2.jpg"
-    },
-    {
-      "title": "트럼프 의심 맞았나…\"알래스카 동명이인 후보 배후에 민주당\"",
-      "link": "https://www.yna.co.kr/view/AKR20261029013600071",
-      "source": "연합뉴스 국제",
-      "ts": 1793223006000,
-      "pub": "Thu, 29 Oct 2026 06:30:06 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 엿새 뒤 치러지는 미국 중간선거의 알래스카주 상원의원 선거에서 동명이인 후보가 등장하는 과정에 일찌감치 민...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/28/PAP20261028144501009_P2.jpg"
     }
   ]
 }

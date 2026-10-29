@@ -1,8 +1,18 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-29T10:31:22.350Z",
-  "count": 10,
+  "updated_at": "2026-10-29T17:09:56.131Z",
+  "count": 5,
   "items": [
+    {
+      "title": "임광현, 초광역특구법 '하이닉스 특혜' 지적에 \"반도체공장 유치에 규제완화 필요\"",
+      "link": "https://www.mt.co.kr/politics/2026/10/29/2026102920101498643",
+      "source": "머니투데이",
+      "ts": 1793272543000,
+      "pub": "Thu, 29 Oct 2026 20:15:43 +0900",
+      "sentiment": "neutral",
+      "desc": "[the300] [2026 국정감사] 임광현 대통령비서실장이 이른바 '초광역특구법안'의 기업 규제 완화 조항과 관련해 \"지역균형발전과 지역에 반도체 공장을 유치하기 위해 기업에 어느 정도의 규제 완화 측면은 필요하다고 생각한다\"며 \"그런 점을 감안을 해서 결정이 이뤄진",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026102920101498643_1.jpg"
+    },
     {
       "title": "국민성장펀드, 국내 최대 태양광 발전소·반도체 밸류체인 투자",
       "link": "https://www.yna.co.kr/view/AKR20261029196900002",
@@ -19,38 +29,6 @@
       "source": "한국경제",
       "ts": 1793267109000,
       "pub": "Thu, 29 Oct 2026 18:45:09 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "고려아연, 반도체 황산 마이크론·인텔 공급 추진",
-      "link": "https://www.hankyung.com/article/2026102944371",
-      "source": "한국경제",
-      "ts": 1793265625000,
-      "pub": "Thu, 29 Oct 2026 18:20:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자 \"HBM4 매출 3배 급증…장기계약 20社로 확대\"",
-      "link": "https://www.hankyung.com/article/2026102944281",
-      "source": "한국경제",
-      "ts": 1793264657000,
-      "pub": "Thu, 29 Oct 2026 18:04:17 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "올해 반도체 설비에만 77조 쏟아붓는다",
-      "link": "https://www.hankyung.com/article/2026102944271",
-      "source": "한국경제",
-      "ts": 1793264585000,
-      "pub": "Thu, 29 Oct 2026 18:03:05 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK스퀘어, 티맵 떼내고 AI·반도체 집중",
-      "link": "https://www.hankyung.com/article/2026102943851",
-      "source": "한국경제",
-      "ts": 1793264381000,
-      "pub": "Thu, 29 Oct 2026 17:59:41 +0900",
       "sentiment": "neutral"
     },
     {
@@ -72,26 +50,6 @@
       "sentiment": "neutral",
       "desc": "(타이베이=연합뉴스) 김철문 통신원 = 세계 최대 파운드리(반도체 위탁생산) 업체인 대만 TSMC가 미국 방산업체 안두릴과 퀄컴이 공동 개발하는...",
       "image": "https://img.yna.co.kr/photo/cms/2023/08/11/53/PCM20230811000053009_P2.jpg"
-    },
-    {
-      "title": "\"미 법무부, 엔비디아의 허깅페이스 인수 조사\"",
-      "link": "https://www.yna.co.kr/view/AKR20261029020700009",
-      "source": "연합뉴스 국제",
-      "ts": 1793227872000,
-      "pub": "Thu, 29 Oct 2026 07:51:12 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 미국 법무부가 엔비디아의 허깅페이스 인수가 인공지능(AI) 경쟁에 미칠 영향을 비롯해 엔비디아의 운영 방식에 ...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/04/PEP20260904036501009_P2.jpg"
-    },
-    {
-      "title": "뉴욕증시, 이변없는 FOMC에 상승…오라클 11%·SK하이닉스 13%↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261029010751072",
-      "source": "연합뉴스 국제",
-      "ts": 1793226817000,
-      "pub": "Thu, 29 Oct 2026 07:33:37 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 28일(현지시간) 미국 뉴욕 증시가 3거래일 연속 상승했다.",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/29/PRU20261029095901009_P2.jpg"
     }
   ]
 }

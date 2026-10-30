@@ -1,8 +1,26 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-10-30T02:14:09.607Z",
-  "count": 9,
+  "updated_at": "2026-10-30T09:13:10.884Z",
+  "count": 4,
   "items": [
+    {
+      "title": "\"역대 최대 실적인데, 왜?\"...현대차그룹 주가 '주르륵'",
+      "link": "https://www.hankyung.com/article/202610306070i",
+      "source": "한국경제",
+      "ts": 1793346875000,
+      "pub": "Fri, 30 Oct 2026 16:54:35 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "[특징주] '6년만의 분기매출 감소' 현대차, 3%대 약세 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261030046451008",
+      "source": "연합뉴스 경제",
+      "ts": 1793343086000,
+      "pub": "Fri, 30 Oct 2026 15:51:26 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 현대차[005380] 주가가 30일 3% 넘게 하락한 채로 마감했다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/29/PYH2026102907820001300_P2.jpg"
+    },
     {
       "title": "현대차그룹, AI 데이터센터 건립 본격 착수…내달 법인 2개 설립(종합)",
       "link": "https://www.yna.co.kr/view/AKR20261030038751055",
@@ -22,70 +40,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 코스피 상장사 현대오토에버[307950]는 그래픽처리장치 서비스 업체 HMG AI 팩토리의 주식 114만6천80주를 약 1천1...",
       "image": "https://img.yna.co.kr/photo/cms/2024/12/12/42/PCM20241212000042017_P2.jpg"
-    },
-    {
-      "title": "현대모비스, 3분기 영업익 9141억원…전년비 17.2%↑",
-      "link": "https://www.hankyung.com/article/202610305405g",
-      "source": "한국경제",
-      "ts": 1793322013000,
-      "pub": "Fri, 30 Oct 2026 10:00:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "현대차그룹, 새만금사무소 개소…데이터센터 등 9조 투자 시동",
-      "link": "https://www.yna.co.kr/view/AKR20261030038700055",
-      "source": "연합뉴스 경제",
-      "ts": 1793322001000,
-      "pub": "Fri, 30 Oct 2026 10:00:01 +0900",
-      "sentiment": "neutral",
-      "desc": "(군산=연합뉴스) 김진방 기자 = 현대자동차그룹은 30일 전북 군산 자동차융합기술원 미래모빌리티테크센터에서 새만금사무소 개소식을 열고 '새만금 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/29/PYH2026102919560005500_P2.jpg"
-    },
-    {
-      "title": "[오늘의 증권가 콜] 삼성SDI, 삼성전자, 현대차, 한화에어로스페이스, 두산에너빌, 한화솔루션, 아모레퍼시픽 등",
-      "link": "https://www.hankyung.com/article/202610305391i",
-      "source": "한국경제",
-      "ts": 1793321865000,
-      "pub": "Fri, 30 Oct 2026 09:57:45 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"새 차 산 기분이네\"…플레오스 커넥트 업데이트로 확 바뀐 그랜저",
-      "link": "https://www.hankyung.com/article/202610305319g",
-      "source": "한국경제",
-      "ts": 1793320971000,
-      "pub": "Fri, 30 Oct 2026 09:42:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[특징주] '6년만의 분기매출 감소' 현대차, 장초반 약세",
-      "link": "https://www.yna.co.kr/view/AKR20261030046400008",
-      "source": "연합뉴스 경제",
-      "ts": 1793320660000,
-      "pub": "Fri, 30 Oct 2026 09:37:40 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 현대차[005380] 주가가 30일 장 초반 1∼2% 하락 중이다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/29/PYH2026102907820001300_P2.jpg"
-    },
-    {
-      "title": "증권가, '판매·이익률 목표 하향' 현대차 목표가 줄하향",
-      "link": "https://www.yna.co.kr/view/AKR20261030030600008",
-      "source": "연합뉴스 경제",
-      "ts": 1793319489000,
-      "pub": "Fri, 30 Oct 2026 09:18:09 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 강수지 기자 = 현대차[005380]가 지난 3분기 영업이익 감소를 방어했지만, 증권사들은 실적 개선의 상당 부분이 환율에 따...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/30/AKR20261030030600008_01_i_P2.jpg"
-    },
-    {
-      "title": "새만금 찾은 김민석 \"현대차 중심 투자 잘되면 피지컬AI 넘버원\"",
-      "link": "https://www.yna.co.kr/view/AKR20261029166700001",
-      "source": "연합뉴스 경제",
-      "ts": 1793260805000,
-      "pub": "Thu, 29 Oct 2026 17:00:05 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울·군산=연합뉴스) 박경준 정연솔 기자 = 더불어민주당 김민석 대표는 29일 당 소속 메가성장특별위원회와 새만금에너지산업융복합단지 종합지원센...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/29/PYH2026102914670005500_P2.jpg"
     }
   ]
 }

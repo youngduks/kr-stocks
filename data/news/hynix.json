@@ -1,8 +1,66 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-30T02:14:09.606Z",
-  "count": 14,
+  "updated_at": "2026-10-30T09:13:10.884Z",
+  "count": 13,
   "items": [
+    {
+      "title": "中, 엔비디아 관련 스파이 의혹 부인…\"근거 없는 모함\"",
+      "link": "https://www.yna.co.kr/view/AKR20261030153600083",
+      "source": "연합뉴스 국제",
+      "ts": 1793347587000,
+      "pub": "Fri, 30 Oct 2026 17:06:27 +0900",
+      "sentiment": "neutral",
+      "desc": "(베이징=연합뉴스) 김현정 특파원 = 중국 정부가 미국 인공지능(AI) 반도체 기업 엔비디아의 최고경영자(CEO) 젠슨 황과 가까운 중국인 여성...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2025/12/15/PEP20251215163101009_P2.jpg"
+    },
+    {
+      "title": "\"반도체 온 日 구마모토, 임대료 37.5% 뛰었다\"",
+      "link": "https://www.hankyung.com/article/202610306735i",
+      "source": "한국경제",
+      "ts": 1793347303000,
+      "pub": "Fri, 30 Oct 2026 17:01:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "10월 D램 가격 5.8%↑…낸드는 21개월 연속 상승세 멈춰",
+      "link": "https://www.yna.co.kr/view/AKR20261030141900003",
+      "source": "연합뉴스 경제",
+      "ts": 1793345253000,
+      "pub": "Fri, 30 Oct 2026 16:27:33 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 강태우 기자 = 메모리 반도체 공급 제약이 이어지는 가운데 10월 D램 가격이 상승세를 지속하며 역대 최고치를 경신했다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/05/01/PYH2026050106720001300_P2.jpg"
+    },
+    {
+      "title": "메모리반도체 투자 등 ETF 2종, 내달 3일 신규 상장",
+      "link": "https://www.yna.co.kr/view/AKR20261030137800008",
+      "source": "연합뉴스 경제",
+      "ts": 1793343584000,
+      "pub": "Fri, 30 Oct 2026 15:59:44 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유아 기자 = 한국거래소는 DB자산운용과 한국투자신탁운용의 상장지수펀드(ETF) 2종목을 내달 3일 유가증권시장에 상장한다고...",
+      "image": "https://img.yna.co.kr/photo/cms/2024/09/16/19/PCM20240916000019990_P2.jpg"
+    },
+    {
+      "title": "TSMC, LCD패널 AUO 타이중공장 1조5천억원에 인수",
+      "link": "https://www.yna.co.kr/view/AKR20261030094100009",
+      "source": "연합뉴스 국제",
+      "ts": 1793334540000,
+      "pub": "Fri, 30 Oct 2026 13:29:00 +0900",
+      "sentiment": "neutral",
+      "desc": "(타이베이=연합뉴스) 김철문 통신원 = 세계 최대 파운드리(반도체 수탁생산) 기업인 대만 TSMC가 액정표시장치(LCD) 패널 기업 AUO(友達...",
+      "image": "https://img.yna.co.kr/photo/cms/2023/03/23/52/PCM20230323000052009_P2.jpg"
+    },
+    {
+      "title": "中 GPU업체 \"제품 성능 실측서 엔비디아 H200 앞서\" 주장",
+      "link": "https://www.yna.co.kr/view/AKR20261030094000089",
+      "source": "연합뉴스 국제",
+      "ts": 1793333225000,
+      "pub": "Fri, 30 Oct 2026 13:07:05 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 중국의 한 인공지능(AI) 반도체 제조사가 실측 결과 자사 그래픽처리장치(GPU) 성능이 미국 엔비디아 H...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/30/AKR20261030094000089_01_i_P2.jpg"
+    },
     {
       "title": "반도체 유임·에너지 쇄신…SK그룹 사장단 인사(종합)",
       "link": "https://www.yna.co.kr/view/AKR20261030048452003",
@@ -54,42 +112,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/30/AKR20261030052200061_01_i_P2.jpg"
     },
     {
-      "title": "비아트론, 소부장 으뜸기업 선정…120억원 규모 차세대 반도체 장비 개발",
-      "link": "https://www.hankyung.com/article/202610305427i",
-      "source": "한국경제",
-      "ts": 1793321689000,
-      "pub": "Fri, 30 Oct 2026 09:54:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] SK그룹 사장단 인사…하이닉스 곽노정 유임·이노 정승일 발탁",
-      "link": "https://www.hankyung.com/article/2026103054007",
-      "source": "한국경제",
-      "ts": 1793321042000,
-      "pub": "Fri, 30 Oct 2026 09:44:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK, 이노 정승일 발탁·곽노정 유임…반도체 안정·에너지 쇄신",
-      "link": "https://www.yna.co.kr/view/AKR20261030048400003",
-      "source": "연합뉴스 경제",
-      "ts": 1793320865000,
-      "pub": "Fri, 30 Oct 2026 09:41:05 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 박초롱 김민지 기자 = SK그룹이 역대급 실적을 낸 SK하이닉스 등 주요 계열사 최고경영자(CEO)를 유임하고 에너지 계열 경...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/04/28/57/PCM20260428000257011_P2.jpg"
-    },
-    {
-      "title": "반도체 끌고 자동차 밀고…생산·소비·투자, 석달만에 트리플↑(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261030021451002",
-      "source": "연합뉴스 경제",
-      "ts": 1793319071000,
-      "pub": "Fri, 30 Oct 2026 09:11:11 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 김수현 안채원 송정은 기자 = 9월 국내 생산, 소비, 투자가 반도체 호조와 자동차 파업 종료, 신차 출시 효과 등의 영향으로...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100109800005100_P2.jpg"
-    },
-    {
       "title": "아마존, 자체칩 '트레이니엄' 외부에 판다…엔비디아에 도전장",
       "link": "https://www.yna.co.kr/view/AKR20261030030400091",
       "source": "연합뉴스 국제",
@@ -100,16 +122,6 @@
       "image": "https://img.yna.co.kr/photo/ap/2026/08/19/PAP20260819161901009_P2.jpg"
     },
     {
-      "title": "엔비디아, 네이버에 1조4천억원 투자 내달 납입…3대 주주된다",
-      "link": "https://www.yna.co.kr/view/AKR20261030026400017",
-      "source": "연합뉴스 경제",
-      "ts": 1793316134000,
-      "pub": "Fri, 30 Oct 2026 08:22:14 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 한상용 기자 = 엔비디아가 네이버에 10억달러(약 1조3천500억원)를 투자해 3대 주주로 합류한다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/25/PYH2026072501750001300_P2.jpg"
-    },
-    {
       "title": "\"젠슨황과 술자리 중국 女기업인, 엔비디아 정보수집 中스파이\"",
       "link": "https://www.yna.co.kr/view/AKR20261030004800091",
       "source": "연합뉴스 국제",
@@ -118,26 +130,6 @@
       "sentiment": "neutral",
       "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 중국 정부의 스파이가 젠슨 황 엔비디아 최고경영자(CEO)에게 접근해 정보를 수집했으며, 도널드 트럼...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/30/AKR20261030004800091_02_i_P2.jpg"
-    },
-    {
-      "title": "국민성장펀드, 국내 최대 태양광 발전소·반도체 밸류체인 투자",
-      "link": "https://www.yna.co.kr/view/AKR20261029196900002",
-      "source": "연합뉴스 경제",
-      "ts": 1793267310000,
-      "pub": "Thu, 29 Oct 2026 18:48:30 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김지연 기자 = 금융당국이 29일 국민성장펀드를 통한 태양광 발전 인프라와 반도체 전공정 설비 확대 등 1조원 규모 사업을 승...",
-      "image": "https://img.yna.co.kr/photo/cms/2021/04/14/69/PCM20210414000069990_P2.jpg"
-    },
-    {
-      "title": "WSJ \"1센트까지 쥐어짠 애플에 '복수'하는 메모리 공급사들\"",
-      "link": "https://www.yna.co.kr/view/AKR20261029144700009",
-      "source": "연합뉴스 국제",
-      "ts": 1793258050000,
-      "pub": "Thu, 29 Oct 2026 16:14:10 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 인공지능(AI) 데이터센터 수요가 급증하면서 그동안 애플에 끌려다니던 플래시 메모리 업체들이 협상력을 쥐게 됐...",
-      "image": "https://img.yna.co.kr/photo/etc/gt/2024/06/11/PGT20240611074301009_P2.jpg"
     }
   ]
 }

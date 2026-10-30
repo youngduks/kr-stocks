@@ -1,8 +1,106 @@
 {
   "category": "intl",
-  "updated_at": "2026-10-30T02:14:09.603Z",
-  "count": 17,
+  "updated_at": "2026-10-30T09:13:10.882Z",
+  "count": 23,
   "items": [
+    {
+      "title": "[영상] AI가 추적하고 원격으로 쏜다…이스라엘 대드론 무기 亞 수출",
+      "link": "https://www.yna.co.kr/view/AKR20261030162500704",
+      "source": "연합뉴스 국제",
+      "ts": 1793349525000,
+      "pub": "Fri, 30 Oct 2026 17:38:45 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이스라엘 방산업체가 개발한 인공지능(AI) 기반 대(對)드론 '원격 무기 관제 시스템'이 처음으로 아시아 국가의 군대에 전격 ...",
+      "image": "https://www.youtube.com/embed/PJ9AVrG1JPc"
+    },
+    {
+      "title": "사흘 뒤 美 중간선거…트럼프, '수퍼 레임덕' 맞이하나 [이상은의 워싱턴나우]",
+      "link": "https://www.hankyung.com/article/202610306775i",
+      "source": "한국경제",
+      "ts": 1793348637000,
+      "pub": "Fri, 30 Oct 2026 17:23:57 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프 친러 행보에 불안한 유럽…우크라 종전협상 소외 우려",
+      "link": "https://www.yna.co.kr/view/AKR20261030143000009",
+      "source": "연합뉴스 국제",
+      "ts": 1793344869000,
+      "pub": "Fri, 30 Oct 2026 16:21:09 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 신재우 기자 = 도널드 트럼프 미국 대통령이 러시아에 대한 제재를 완화하고 우크라이나에 종전 합의를 압박하면서 유럽 각국에서 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/30/AKR20261030143000009_01_i_P2.jpg"
+    },
+    {
+      "title": "한일 관세당국, 위조상품 단속·마약 밀수 대응 등 협력 강화",
+      "link": "https://www.yna.co.kr/view/AKR20261030129000002",
+      "source": "연합뉴스 경제",
+      "ts": 1793342028000,
+      "pub": "Fri, 30 Oct 2026 15:33:48 +0900",
+      "sentiment": "neutral",
+      "desc": "(세종=연합뉴스) 안채원 기자 = 이종욱 관세청장이 일본을 방문해 일본 관세당국과 지식재산권 보호와 마약류 밀수 대응, 역직구 수출 확대 등 3...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/30/PYH2026103012620001300_P2.jpg"
+    },
+    {
+      "title": "[영상] 중간선거 뒤 트럼프에 세계가 떨고 있는 이유",
+      "link": "https://www.yna.co.kr/view/AKR20261030125700797",
+      "source": "연합뉴스 국제",
+      "ts": 1793340954000,
+      "pub": "Fri, 30 Oct 2026 15:15:54 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이정진 기자 = 도널드 트럼프 미국 대통령의 운명을 가를 미국 중간선거가 11월 3일(현지시간) 열립니다.",
+      "image": "https://www.youtube.com/embed/watch?v=W64Hf23Wv9g"
+    },
+    {
+      "title": "트럼프, 중간선거 막판 현장 유세 취소…원격 유세로 전환",
+      "link": "https://www.yna.co.kr/view/AKR20261030116000009",
+      "source": "연합뉴스 국제",
+      "ts": 1793340877000,
+      "pub": "Fri, 30 Oct 2026 15:14:37 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 고일환 기자 = 도널드 트럼프 미국 대통령이 중간선거를 앞두고 일부 현장 유세를 취소하고 원격 유세로 전환한다.",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/28/PAF20261028209201009_P2.jpg"
+    },
+    {
+      "title": "국민 지지받는 마차도, 트럼프 지지받는 정권에 정면도전 공식화",
+      "link": "https://www.yna.co.kr/view/AKR20261030089100009",
+      "source": "연합뉴스 국제",
+      "ts": 1793332394000,
+      "pub": "Fri, 30 Oct 2026 12:53:14 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 오수진 기자 = 베네수엘라에서 노벨평화상을 받은 민주주의 투사와 마두로 독재정권 핵심인사의 권력투쟁이 공식화했다.",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/30/PEP20261030054201009_P2.jpg"
+    },
+    {
+      "title": "우크라 환경단체, 美정치권에 \"러 경유 유조선 입항 막아달라\"",
+      "link": "https://www.yna.co.kr/view/AKR20261030086200009",
+      "source": "연합뉴스 국제",
+      "ts": 1793328463000,
+      "pub": "Fri, 30 Oct 2026 11:47:43 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 류미나 기자 = 국제환경단체 그린피스의 우크라이나 지부가 미국 의회와 지역 당국에 러시아산 경유를 실은 유조선의 입항을 막아달...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/23/PAF20261023002801009_P2.jpg"
+    },
+    {
+      "title": "노르웨이, 트럼프 비난을 관광 홍보로…\"똥통을 다시 위대하게\"",
+      "link": "https://www.yna.co.kr/view/AKR20261030085400009",
+      "source": "연합뉴스 국제",
+      "ts": 1793327425000,
+      "pub": "Fri, 30 Oct 2026 11:30:25 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김아람 기자 = 도널드 트럼프 미국 대통령이 노벨평화상 수상 불발에 노르웨이를 '똥통 같은 나라'라고 비하하자 노르웨이 관광청...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/30/AKR20261030085400009_01_i_P2.jpg"
+    },
+    {
+      "title": "미, 르완다 신규 제재…\"트럼프 중재한 평화협정 위반\"",
+      "link": "https://www.yna.co.kr/view/AKR20261030081100009",
+      "source": "연합뉴스 국제",
+      "ts": 1793326389000,
+      "pub": "Fri, 30 Oct 2026 11:13:09 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 이지헌 특파원 = 도널드 트럼프 미국 대통령의 중재로 지난해 체결된 르완다와 콩고민주공화국(민주콩고) 간 평화협정을 지키지 않...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/21/PAP20260921304801009_P2.jpg"
+    },
     {
       "title": "우크라, 트럼프 압박에 美중간선거까지 러 정유소 공습 중단",
       "link": "https://www.yna.co.kr/view/AKR20261030067100009",
@@ -116,7 +214,7 @@
     {
       "title": "미 연준 이어 ECB도 금리 동결…\"인플레·경기둔화 위험 여전\"(종합)",
       "link": "https://www.yna.co.kr/view/AKR20261029208552082",
-      "source": "연합뉴스 경제",
+      "source": "연합뉴스 국제",
       "ts": 1793286946000,
       "pub": "Fri, 30 Oct 2026 00:15:46 +0900",
       "sentiment": "neutral",
@@ -132,46 +230,6 @@
       "sentiment": "neutral",
       "desc": "(요하네스버그=연합뉴스) 나확진 특파원 = 블라디미르 푸틴 러시아 대통령이 아프리카 정상 22명을 포함해 48개국 대표단을 자국으로 초청해 러시...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/29/AKR20261029211800099_02_i_P2.jpg"
-    },
-    {
-      "title": "美국무부, 진성준 비자 거부에 \"트럼프 행정부, 美이익 우선\"",
-      "link": "https://www.yna.co.kr/view/AKR20261029211300071",
-      "source": "연합뉴스 국제",
-      "ts": 1793284479000,
-      "pub": "Thu, 29 Oct 2026 23:34:39 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 장동우 특파원 = 미국 국무부는 국회 국방위원장인 더불어민주당 진성준 의원이 미국 비자를 받지 못한 데 대해 개별적 ...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/28/PRU20261028094601009_P2.jpg"
-    },
-    {
-      "title": "미 9월 PCE 물가 전년대비 3.6%↑…예상치 소폭 하회(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261029206952072",
-      "source": "연합뉴스 국제",
-      "ts": 1793282275000,
-      "pub": "Thu, 29 Oct 2026 22:57:55 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 미국 상무부는 9월 개인소비지출(PCE) 가격지수가 전년 동월 대비 3.6% 상승했다고 29일(현지시간) 밝...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/29/AKR20261029206952072_02_i_P2.jpg"
-    },
-    {
-      "title": "미 9월 PCE 물가 전년대비 3.6%↑…예상치 소폭 하회",
-      "link": "https://www.yna.co.kr/view/AKR20261029206951072",
-      "source": "연합뉴스 국제",
-      "ts": 1793277998000,
-      "pub": "Thu, 29 Oct 2026 21:46:38 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 미국 상무부는 9월 개인소비지출(PCE) 가격지수가 전년 동월 대비 3.6% 상승했다고 29일(현지시간) 밝...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/29/AKR20261029206951072_02_i_P2.jpg"
-    },
-    {
-      "title": "[속보] 미 9월 PCE 물가 전년대비 3.6%↑…예상치 소폭 하회",
-      "link": "https://www.yna.co.kr/view/AKR20261029206900072",
-      "source": "연합뉴스 국제",
-      "ts": 1793277549000,
-      "pub": "Thu, 29 Oct 2026 21:39:09 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/29/AKR20261029206900072_01_i_P2.jpg"
     }
   ]
 }

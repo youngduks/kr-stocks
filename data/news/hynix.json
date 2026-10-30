@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-30T16:20:26.075Z",
-  "count": 13,
+  "updated_at": "2026-10-30T21:11:43.631Z",
+  "count": 11,
   "items": [
     {
       "title": "\"11월 증시, 그래도 반도체? 전력기기 건설주?\"…증권사들이 꼽은 유망주는",
@@ -25,14 +25,6 @@
       "source": "한국경제",
       "ts": 1793350938000,
       "pub": "Fri, 30 Oct 2026 18:02:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"반도체·자동차가 해냈다\"…15년 만에 나온 놀라운 기록",
-      "link": "https://www.hankyung.com/article/2026103068981",
-      "source": "한국경제",
-      "ts": 1793350650000,
-      "pub": "Fri, 30 Oct 2026 17:57:30 +0900",
       "sentiment": "neutral"
     },
     {
@@ -114,16 +106,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 박초롱 김민지 기자 = SK하이닉스가 사장급 임원인 '미주총괄'을 신설해 미국 현지 빅테크 고객사와 네트워크 강화를 통한 수주...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/14/PYH2026101410290001300_P2.jpg"
-    },
-    {
-      "title": "아마존, 자체칩 '트레이니엄' 외부에 판다…엔비디아에 도전장",
-      "link": "https://www.yna.co.kr/view/AKR20261030030400091",
-      "source": "연합뉴스 국제",
-      "ts": 1793317936000,
-      "pub": "Fri, 30 Oct 2026 08:52:16 +0900",
-      "sentiment": "neutral",
-      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 아마존이 자체 인공지능(AI) 반도체 '트레이니엄'(Trainium)을 기존 그래픽처리장치(GPU)처...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/08/19/PAP20260819161901009_P2.jpg"
     }
   ]
 }

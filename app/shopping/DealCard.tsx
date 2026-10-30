@@ -36,6 +36,7 @@ export type DealView = {
   avgDropPct?: number;
   hist?: number[]; // 60일 일별 최저가(≤30점, 오래된→최신)
   histFrom?: string; // 첫 점 날짜 MM-DD
+  checkedStr?: string; // 폴센트 확인 시각 "10/30 08:13 확인"(확인 후 최대 36시간 노출)
   // 우리 가격 기록 중 최저 — 기록 일수(page.tsx, own_low.days). 폴센트 배지와 문구·색 구분
   ownLowDays?: number;
 };
@@ -146,7 +147,7 @@ export function DealCard({ d }: { d: DealView }) {
                 평소 가격
               </span>
             )}
-            <span className="ds-meta">{d.timeAgoStr}</span>
+            <span className="ds-meta">{d.lowest60 && d.checkedStr ? d.checkedStr : d.timeAgoStr}</span>
           </div>
           <div className="font-sys text-[15px] font-bold mt-1 leading-snug line-clamp-2 group-hover:underline decoration-text-dim/40">
             {d.product || d.title}
@@ -173,6 +174,7 @@ export function DealCard({ d }: { d: DealView }) {
         {d.affiliate_url ? `${d.store}에서 보기` : "원문에서 보기"}
       </a>
       <div className="ds-meta mt-2 text-center">
+        {d.lowest60 && d.checkedStr && <div>확인 뒤 쿠팡 가격이 바뀌었을 수 있어요</div>}
         {d.affiliate_url ? "제휴 링크 · 구매 시 수수료를 받을 수 있어요" : "제휴 링크 아님"}
         {showOrig && (
           <>

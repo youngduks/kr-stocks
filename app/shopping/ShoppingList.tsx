@@ -10,12 +10,15 @@ export type DealMeta = {
   store: string;
   catGroup: string; // 가전/육아/식품/생활/뷰티/기타
   lowest60: boolean;
+  /** 우리 가격 기록 N일 중 최저(2026-10-31: '📉 최저가' 칩에도 포함) */
+  ownLow?: boolean;
   /** 폴센트 최저가 or 확인된 할인 ≥ VERIFIED_MIN_PCT */
   verified: boolean;
 };
 
 // 2026-09 리디자인 B: 전체/📉 최저가/육아/식품/생활/가전/뷰티(+기타) — 한 줄 가로 스크롤 칩.
-// '📉 최저가'는 폴센트 60일 최저가 딜만(카테고리와 같은 축의 단일 선택).
+// '📉 최저가'는 폴센트 60일 최저가 + 우리 기록 최저 딜(카테고리와 같은 축의 단일 선택).
+// 섹션(lows)은 폴센트 행만 — 우리 기록 최저는 '확인된 할인' 섹션에 그대로 둠.
 const FILTERS = ["전체", "📉 최저가", "육아", "식품", "생활", "가전", "뷰티", "기타"] as const;
 // 8/20: 토스쇼핑 딜이 20%+ → 스토어 축 필터(토글: 다시 누르면 해제)
 const STORES = ["쿠팡", "토스쇼핑"] as const;
@@ -55,13 +58,13 @@ export function ShoppingList({
   const counts: Record<string, number> = { 전체: byStore.length, "📉 최저가": 0 };
   for (const d of byStore) {
     counts[d.catGroup] = (counts[d.catGroup] ?? 0) + 1;
-    if (d.lowest60) counts["📉 최저가"] += 1;
+    if (d.lowest60 || d.ownLow) counts["📉 최저가"] += 1;
   }
   const storeCounts: Record<string, number> = {};
   for (const d of deals) storeCounts[d.store] = (storeCounts[d.store] ?? 0) + 1;
 
   const shown = byStore.filter((d) =>
-    filter === "전체" ? true : filter === "📉 최저가" ? d.lowest60 : d.catGroup === filter,
+    filter === "전체" ? true : filter === "📉 최저가" ? d.lowest60 || !!d.ownLow : d.catGroup === filter,
   );
   const lows = shown.filter((d) => d.lowest60);
   const others = shown.filter((d) => !d.lowest60 && d.verified);

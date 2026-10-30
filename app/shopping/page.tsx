@@ -43,6 +43,8 @@ type Deal = {
   avg60?: number | null;
   hist?: [string, number][] | null;
   img?: string | null;
+  // 폴센트 확인 시각(ISO, merge_fallcent.py) — 2026-10-31부터 확인 후 최대 36시간 유지하므로 시각을 노출
+  checked_at?: string;
   // 우리 가격 기록(price_history.json) 중 최저(2026-10-29, 배포 스냅샷에서 mark_own_low.py가 표시)
   own_low?: { days: number; n: number; since: string } | null;
 };
@@ -104,6 +106,7 @@ const PRIORITY_FRESH_DAYS = 3;
 
 // 폴센트 행 → 표시용 필드. 평균 대비 하락률은 avg60이 현재가보다 높을 때만(0% 이하는 숨김).
 function fallcentView(d: Deal): Partial<DealView> {
+  const checkedSec = d.checked_at ? Date.parse(d.checked_at) / 1000 : NaN;
   const price = d.price_krw ?? 0;
   const avg = d.avg60 ?? 0;
   const hist = Array.isArray(d.hist)
@@ -118,7 +121,24 @@ function fallcentView(d: Deal): Partial<DealView> {
     avgDropPct: avg > 0 && price > 0 && avg > price ? Math.round(((avg - price) / avg) * 100) : undefined,
     hist: hist.length >= 2 ? hist.map((p) => p[1]) : undefined,
     histFrom: hist.length >= 2 ? hist[0][0] : undefined,
+    checkedStr: Number.isFinite(checkedSec) ? `${mdhhmmKst(checkedSec)} 확인` : undefined,
   };
+}
+
+function mdhhmmKst(sec: number): string {
+  const p = Object.fromEntries(
+    new Intl.DateTimeFormat("ko-KR", {
+      timeZone: "Asia/Seoul",
+      month: "numeric",
+      day: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+    })
+      .formatToParts(new Date(sec * 1000))
+      .map((x) => [x.type, x.value]),
+  );
+  return `${p.month}/${p.day} ${p.hour}:${p.minute}`;
 }
 
 function hhmmKst(sec: number): string {
@@ -160,7 +180,15 @@ export default async function ShoppingPage() {
       ...(d.source === "fallcent" ? fallcentView(d) : {}),
     }));
 
-  const lowCount = views.filter((v) => v.lowest60).length;
+  // 최저가 확인 = 폴센트 '최근 2개월 최저가' + '우리 기록 N일 중 최저'(2026-10-31, 둘 다 셈)
+  const fcLowCount = views.filter((v) => v.lowest60).length;
+  const ownLowCount = views.filter((v) => !v.lowest60 && v.ownLowDays).length;
+  const lowCount = fcLowCount + ownLowCount;
+  const fcCheckedSec = deals
+    .filter((d) => d.source === "fallcent" && d.checked_at)
+    .map((d) => Date.parse(d.checked_at as string) / 1000)
+    .filter(Number.isFinite)
+    .reduce((m, x) => Math.max(m, x), 0);
   const babyCount = views.filter((v) => v.catGroup === "육아").length;
   const asOfSec = updated ?? (deals.length ? Math.max(...deals.map((d) => d.ts || 0)) : null);
 
@@ -185,7 +213,7 @@ export default async function ShoppingPage() {
           <h2 className="ds-status mt-1" style={{ fontSize: 21 }}>
             {lowCount > 0 ? (
               <>
-                최근 2개월 최저가가 <span className="ds-hl">{lowCount}개</span> 떴어요
+                최저가 확인 딜이 <span className="ds-hl">{lowCount}개</span> 있어요
               </>
             ) : views.length > 0 ? (
               <>
@@ -196,10 +224,18 @@ export default async function ShoppingPage() {
             )}
           </h2>
           <p className="ds-meta mt-1 num">
-            오늘 확인된 최저가 {lowCount}개 · 육아 {babyCount}개{asOfSec ? ` · ${hhmmKst(asOfSec)} 기준` : ""}
+            최저가 확인 {lowCount}개 · 폴센트 2개월 최저 {fcLowCount} · 우리 기록 최저 {ownLowCount} · 육아 {babyCount}개
+            {asOfSec ? ` · ${hhmmKst(asOfSec)} 기준` : ""}
           </p>
           <p className="ds-explain mt-2" style={{ fontSize: 14 }}>
-            정가 대비 할인율 대신, 쿠팡 60일 가격 기록에서 지금이 가장 싼 딜에만 빨간 배지를 달아요.
+            정가 대비 할인율 대신, 가격 기록에서 지금이 가장 싼 딜에만 배지를 달아요(빨강: 폴센트 60일 기록, 보라: 우리 기록).
+            {fcLowCount > 0 && fcCheckedSec > 0 && (
+              <>
+                {" "}
+                폴센트 최저가는 하루 한 번(오전 8시) 확인하고, 이번 확인은 {mdhhmmKst(fcCheckedSec)}이에요. 확인 뒤 쿠팡 가격이
+                바뀌었을 수 있으니 구매 전 꼭 확인하세요.
+              </>
+            )}
             {lowCount === 0 && views.length > 0 && (
               <> 최저가 확인은 하루 한 번(오전 8시) 해요. 오늘은 확인을 마친 딜이 없어서 배지를 달지 않았어요.</>
             )}
@@ -211,7 +247,7 @@ export default async function ShoppingPage() {
         ) : (
           <ShoppingList
             deals={views.map(
-              (v): DealMeta => ({ id: v.id, store: v.store, catGroup: v.catGroup, lowest60: !!v.lowest60, verified: isVerified(v) }),
+              (v): DealMeta => ({ id: v.id, store: v.store, catGroup: v.catGroup, lowest60: !!v.lowest60, ownLow: !v.lowest60 && !!v.ownLowDays, verified: isVerified(v) }),
             )}
             cards={Object.fromEntries(views.map((v) => [v.id, <DealCard key={v.id} d={v} />]))}
             flatMinPct={VERIFIED_MIN_PCT}
@@ -222,6 +258,7 @@ export default async function ShoppingPage() {
           <MoreDetails summary="배지는 어떻게 붙나요?" className="!border-t-0 !mt-0">
             <p>
               <b className="text-up">최근 2개월 최저가</b>: 폴센트가 기록한 쿠팡 60일 가격 중 지금이 가장 쌀 때. 가격 그래프가 있으면 점선이 60일 평균이에요.
+              하루 한 번(오전 8시) 확인하고, 카드에 확인 시각을 적어 최대 36시간 보여 줘요.
             </p>
             <p className="mt-2">
               <b className="text-accent-purple">우리 기록 N일 중 최저</b>: 줍줍쇼핑이 직접 모은 가격 기록(가격이 바뀔 때마다 1번)이

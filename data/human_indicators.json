@@ -7,10 +7,19 @@
       "channel": "전인구경제연구소",
       "channel_url": "https://www.youtube.com/@moneydo",
       "channel_id": "UCznImSIaxZR7fdLCICLdgaQ",
-      "last_checked_video_id": "LY1HZbJpA90",
+      "last_checked_video_id": "nqroqpodsaU",
       "tagline": "\"고점 판독기\" — 나무위키에도 등재된 별명. 2023년 이후 증시 전망이 반대로 맞는 걸로 유명",
       "note": "본인 문서(나무위키)에 \"시장 전망 영상 대부분이 틀리는 걸 넘어 반대로 맞히는 예지력\"이라는 비판이 있고, 댓글창에서 \"고점 판독기\"·\"어둠의 고수\"로 불림. 역발상 참고용으로 소개합니다 — 조롱이 목적이 아니라, 실제로 존재하는 밈이라 재미로 트래킹합니다.",
       "opinions": [
+        {
+          "date": "2026-10-30",
+          "title": "해외에서 노리는 국내 바이오 회사들(ft.강하나 박사 2부)",
+          "summary": "한국 바이오 섹터는 악재 없이 크게 빠진 종목이 많고 시장 자체가 건강하지 않다고 보면서, 남들이 관심 없는 지금이 오히려 매수 기회일 수 있다고 말한다. 비만·RNA·AI 바이오 분야는 글로벌 투자가 늘어 계속 갈 섹터로 보지만, 급하게 사지는 말라고 하며 내년 결과는 모른다고 덧붙인다.",
+          "summary_short": "바이오 역발상 접근, 신중",
+          "stance": "cautious",
+          "video_url": "https://www.youtube.com/watch?v=nqroqpodsaU",
+          "published_at": "2026-10-30T09:05:34.000Z"
+        },
         {
           "date": "2026-10-28",
           "title": "지금은 이런 바이오 기업을 사야합니다(ft.강하나 박사  1부)",
@@ -91,15 +100,6 @@
           "stance": "bearish",
           "video_url": "https://www.youtube.com/watch?v=ZRcF6P2y9Bo",
           "published_at": "2026-10-18T12:26:28.000Z"
-        },
-        {
-          "date": "2026-10-18",
-          "title": "국민연금은 하락장에 얼마잃었는지 계산해본 결과",
-          "summary": "월요일 증시가 금요일 미국 증시 하락의 영향으로 더 하락할 가능성이 있고 코스피가 5,200~5,600선까지 내려갈 수 있다고 언급했다. 하락장 다음엔 상승장이 오고 그 반대도 마찬가지라며, 대중 심리와 반대로 장기 투자하라고 조언했다.",
-          "summary_short": "단기 추가 하락 가능성 경계",
-          "stance": "cautious",
-          "video_url": "https://www.youtube.com/watch?v=UamsPjo4pL0",
-          "published_at": "2026-10-18T01:14:58.000Z"
         }
       ],
       "pending": []

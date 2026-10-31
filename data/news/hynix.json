@@ -1,31 +1,43 @@
 {
   "category": "hynix",
-  "updated_at": "2026-10-30T21:11:43.631Z",
-  "count": 11,
+  "updated_at": "2026-10-31T01:11:01.247Z",
+  "count": 12,
   "items": [
     {
-      "title": "\"11월 증시, 그래도 반도체? 전력기기 건설주?\"…증권사들이 꼽은 유망주는",
-      "link": "https://www.hankyung.com/article/202610306989i",
+      "title": "인텔 투매, 30% 추락…메모리의 복수, 애플도 쇼크? \"선거 뒤를 기다려라\" [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202610317321i",
       "source": "한국경제",
-      "ts": 1793353750000,
-      "pub": "Fri, 30 Oct 2026 18:49:10 +0900",
+      "ts": 1793402871000,
+      "pub": "Sat, 31 Oct 2026 08:27:51 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "AI 투자 공포…美 반도체주 7곳서 하루 새 860조 증발 [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026103172407",
+      "source": "한국경제",
+      "ts": 1793398158000,
+      "pub": "Sat, 31 Oct 2026 07:09:18 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "AI 돈줄 마른다…반도체 성장 의구심에 韓주식 던진 외국인",
-      "link": "https://www.hankyung.com/article/2026103068781",
-      "source": "한국경제",
-      "ts": 1793350955000,
-      "pub": "Fri, 30 Oct 2026 18:02:35 +0900",
-      "sentiment": "neutral"
+      "title": "AI 빅테크 실망스러운 실적에…애플, 또 엔비디아 꺾고 시총 1위",
+      "link": "https://www.yna.co.kr/view/AKR20261031009500091",
+      "source": "연합뉴스 국제",
+      "ts": 1793396218000,
+      "pub": "Sat, 31 Oct 2026 06:36:58 +0900",
+      "sentiment": "neutral",
+      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 거대 기술기업의 인공지능(AI) 인프라에 대한 과잉 투자 우려가 커지면서 애플이 석 달 만에 세계에서...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/05/14/PAP20260514277701009_P2.jpg"
     },
     {
-      "title": "반도체가 떠받친 경기…양극화는 더 짙어졌다",
-      "link": "https://www.hankyung.com/article/2026103069201",
-      "source": "한국경제",
-      "ts": 1793350938000,
-      "pub": "Fri, 30 Oct 2026 18:02:18 +0900",
-      "sentiment": "neutral"
+      "title": "인텔 실적 쇼크 '28% 폭락'...AI 투자 불안 반도체지수 7%↓[뉴욕마감]",
+      "link": "https://www.mt.co.kr/world/2026/10/31/2026103106132489524",
+      "source": "머니투데이",
+      "ts": 1793395921000,
+      "pub": "Sat, 31 Oct 2026 06:32:01 +0900",
+      "sentiment": "negative",
+      "desc": "뉴욕증시 3대 지수가 30일(현지시간) 일제히 하락했다. 구글 모회사 알파벳에 이어 아마존과 인텔의 실적 발표 이후 인공지능(AI) 인프라 투자 수익성 우려가 급부상하면서 기술주를 중심으로 매도세가 확대됐다. S&P500지수는 전장보다 140.32포인트(1.82%) 하",
+      "image": "https://thumb.mt.co.kr/06/2026/10/2026103106132489524_1.jpg"
     },
     {
       "title": "中, 엔비디아 관련 스파이 의혹 부인…\"근거 없는 모함\"",

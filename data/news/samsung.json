@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-30T21:11:43.630Z",
+  "updated_at": "2026-10-31T01:11:01.247Z",
   "count": 4,
   "items": [
+    {
+      "title": "인텔 투매, 30% 추락…메모리의 복수, 애플도 쇼크? \"선거 뒤를 기다려라\" [김현석의 월스트리트나우]",
+      "link": "https://www.hankyung.com/article/202610317321i",
+      "source": "한국경제",
+      "ts": 1793402871000,
+      "pub": "Sat, 31 Oct 2026 08:27:51 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "10월 D램 가격 5.8%↑…낸드는 21개월 연속 상승세 멈춰",
       "link": "https://www.yna.co.kr/view/AKR20261030141900003",
@@ -32,16 +40,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 박초롱 김민지 기자 = SK하이닉스가 사장급 임원인 '미주총괄'을 신설해 미국 현지 빅테크 고객사와 네트워크 강화를 통한 수주...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/14/PYH2026101410290001300_P2.jpg"
-    },
-    {
-      "title": "마운자로 일라이릴리, 삼전 제치고 세계 시총 12위",
-      "link": "https://www.yna.co.kr/view/AKR20261030052300009",
-      "source": "연합뉴스 국제",
-      "ts": 1793322251000,
-      "pub": "Fri, 30 Oct 2026 10:04:11 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 미국 제약사 일라이릴리가 비만 치료제 수요 급증에 힘입어 3분기 매출이 39% 늘었다고 29일(현지시간) 발표...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/29/PRU20261029362201009_P2.jpg"
     }
   ]
 }

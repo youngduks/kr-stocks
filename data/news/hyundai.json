@@ -1,8 +1,18 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-10-30T21:11:43.631Z",
+  "updated_at": "2026-10-31T01:11:01.248Z",
   "count": 3,
   "items": [
+    {
+      "title": "[시승기] 정숙함과 연비를 더했다…제네시스 GV80 하이브리드",
+      "link": "https://www.yna.co.kr/view/AKR20261030163600003",
+      "source": "연합뉴스 경제",
+      "ts": 1793399461000,
+      "pub": "Sat, 31 Oct 2026 07:31:01 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 장하나 기자 = GV80의 고급스러움에 정숙함과 연비를 더했다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/30/AKR20261030163600003_01_i_P2.jpg"
+    },
     {
       "title": "[특징주] '6년만의 분기매출 감소' 현대차, 3%대 약세 마감(종합)",
       "link": "https://www.yna.co.kr/view/AKR20261030046451008",
@@ -22,16 +32,6 @@
       "sentiment": "neutral",
       "desc": "(서울·군산=연합뉴스) 장하나 김진방 기자 = 현대차그룹이 피지컬 인공지능(AI) 역량 고도화의 핵심인 AI 데이터센터 건립에 본격 착수하며 9...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/29/PYH2026102919560005500_P2.jpg"
-    },
-    {
-      "title": "현대오토에버 \"HMG AI 팩토리 주식 1천146억원에 취득\"",
-      "link": "https://www.yna.co.kr/view/AKR20261030066700008",
-      "source": "연합뉴스 경제",
-      "ts": 1793323806000,
-      "pub": "Fri, 30 Oct 2026 10:30:06 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 코스피 상장사 현대오토에버[307950]는 그래픽처리장치 서비스 업체 HMG AI 팩토리의 주식 114만6천80주를 약 1천1...",
-      "image": "https://img.yna.co.kr/photo/cms/2024/12/12/42/PCM20241212000042017_P2.jpg"
     }
   ]
 }

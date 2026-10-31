@@ -1,15 +1,25 @@
 {
   "category": "samsung",
-  "updated_at": "2026-10-31T01:11:01.247Z",
-  "count": 4,
+  "updated_at": "2026-10-31T07:40:02.605Z",
+  "count": 5,
   "items": [
     {
-      "title": "인텔 투매, 30% 추락…메모리의 복수, 애플도 쇼크? \"선거 뒤를 기다려라\" [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202610317321i",
+      "title": "키옥시아, AI발 낸드 수요 폭발에 역대 최대 실적…순이익 37배",
+      "link": "https://www.yna.co.kr/view/AKR20261031026600073",
+      "source": "연합뉴스 국제",
+      "ts": 1793415585000,
+      "pub": "Sat, 31 Oct 2026 11:59:45 +0900",
+      "sentiment": "negative",
+      "desc": "(도쿄=연합뉴스) 이도연 특파원 = 인공지능(AI) 보급으로 낸드플래시 수요가 늘어난 덕분에 일본 반도체 기업 키옥시아 홀딩스가 역대 최대 반기...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/31/AKR20261031026600073_01_i_P2.jpg"
+    },
+    {
+      "title": "\"후회말고 삼성전자 사라\"…100조 '뉴노멀'에 개미도 들썩 [강경주의 테크X]",
+      "link": "https://www.hankyung.com/article/2026103064846",
       "source": "한국경제",
-      "ts": 1793402871000,
-      "pub": "Sat, 31 Oct 2026 08:27:51 +0900",
-      "sentiment": "negative"
+      "ts": 1793406603000,
+      "pub": "Sat, 31 Oct 2026 09:30:03 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "10월 D램 가격 5.8%↑…낸드는 21개월 연속 상승세 멈춰",

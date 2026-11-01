@@ -19,13 +19,13 @@
     ],
     "added": "2026-10-07",
     "price_check": {
-      "date": "2026-10-31",
+      "date": "2026-11-07",
       "nights": 1,
       "adults": 2,
-      "checked": "2026-10-26",
+      "checked": "2026-11-02",
       "prices": {
         "쿠팡": {
-          "krw": 1027745,
+          "krw": 764377,
           "tax": "포함"
         }
       },
@@ -92,17 +92,17 @@
     ],
     "added": "2026-10-08",
     "price_check": {
-      "date": "2026-10-31",
+      "date": "2026-11-07",
       "nights": 1,
       "adults": 2,
-      "checked": "2026-10-26",
+      "checked": "2026-11-02",
       "prices": {
         "쿠팡": {
-          "krw": 359094,
+          "krw": 384000,
           "tax": "포함"
         },
         "트립닷컴": {
-          "krw": 505210,
+          "krw": 384405,
           "tax": "포함"
         }
       },
@@ -129,21 +129,21 @@
     ],
     "added": "2026-10-09",
     "price_check": {
-      "date": "2026-10-31",
+      "date": "2026-11-07",
       "nights": 1,
       "adults": 2,
-      "checked": "2026-10-26",
+      "checked": "2026-11-02",
       "prices": {
         "쿠팡": {
-          "krw": 1346818,
+          "krw": 871602,
           "tax": "포함"
         },
         "트립닷컴": {
-          "krw": 1369720,
+          "krw": 858065,
           "tax": "포함"
         }
       },
-      "cheaper": "쿠팡"
+      "cheaper": "트립닷컴"
     }
   },
   {
@@ -269,17 +269,17 @@
     ],
     "added": "2026-10-09",
     "price_check": {
-      "date": "2026-10-31",
+      "date": "2026-11-07",
       "nights": 1,
       "adults": 2,
-      "checked": "2026-10-26",
+      "checked": "2026-11-02",
       "prices": {
         "쿠팡": {
-          "krw": 370230,
+          "krw": 325600,
           "tax": "포함"
         },
         "트립닷컴": {
-          "krw": 252249,
+          "krw": 251147,
           "tax": "포함"
         }
       },
@@ -306,13 +306,13 @@
     ],
     "added": "2026-10-10",
     "price_check": {
-      "date": "2026-10-24",
+      "date": "2026-11-07",
       "nights": 1,
       "adults": 2,
-      "checked": "2026-10-19",
+      "checked": "2026-11-02",
       "prices": {
         "트립닷컴": {
-          "krw": 422013,
+          "krw": 405458,
           "tax": "포함"
         }
       },
@@ -339,17 +339,17 @@
     ],
     "added": "2026-10-10",
     "price_check": {
-      "date": "2026-10-31",
+      "date": "2026-11-07",
       "nights": 1,
       "adults": 2,
-      "checked": "2026-10-26",
+      "checked": "2026-11-02",
       "prices": {
         "쿠팡": {
-          "krw": 783524,
+          "krw": 791780,
           "tax": "포함"
         },
         "트립닷컴": {
-          "krw": 660059,
+          "krw": 678115,
           "tax": "포함"
         }
       },
@@ -413,17 +413,17 @@
     ],
     "added": "2026-10-11",
     "price_check": {
-      "date": "2026-10-31",
+      "date": "2026-11-07",
       "nights": 1,
       "adults": 2,
-      "checked": "2026-10-26",
+      "checked": "2026-11-02",
       "prices": {
         "쿠팡": {
-          "krw": 1109888,
+          "krw": 1278945,
           "tax": "포함"
         },
         "트립닷컴": {
-          "krw": 1210000,
+          "krw": 1427800,
           "tax": "포함"
         }
       },
@@ -448,7 +448,24 @@
         "url": "https://kr.trip.com/hotels/detail/?hotelId=988259&Allianceid=11030363&SID=333717644&trip_sub1=pick14&trip_sub3=D20676987"
       }
     ],
-    "added": "2026-10-27"
+    "added": "2026-10-27",
+    "price_check": {
+      "date": "2026-11-07",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-11-02",
+      "prices": {
+        "쿠팡": {
+          "krw": 935000,
+          "tax": "포함"
+        },
+        "트립닷컴": {
+          "krw": 840666,
+          "tax": "포함"
+        }
+      },
+      "cheaper": "트립닷컴"
+    }
   },
   {
     "no": 15,
@@ -470,21 +487,21 @@
     ],
     "added": "2026-10-18",
     "price_check": {
-      "date": "2026-10-31",
+      "date": "2026-11-07",
       "nights": 1,
       "adults": 2,
-      "checked": "2026-10-26",
+      "checked": "2026-11-02",
       "prices": {
         "쿠팡": {
-          "krw": 283742,
+          "krw": 283920,
           "tax": "포함"
         },
         "트립닷컴": {
-          "krw": 284253,
+          "krw": 283858,
           "tax": "포함"
         }
       },
-      "cheaper": "쿠팡"
+      "cheaper": "트립닷컴"
     }
   },
   {
@@ -507,18 +524,18 @@
     ],
     "added": "2026-10-18",
     "price_check": {
-      "date": "2026-10-31",
+      "date": "2026-11-07",
       "nights": 1,
       "adults": 2,
-      "checked": "2026-10-26",
+      "checked": "2026-11-02",
       "prices": {
         "쿠팡": {
           "kind": "package"
         },
         "트립닷컴": {
-          "krw": 505731,
+          "krw": 480380,
           "tax": "별도",
-          "tax_krw": 81823
+          "tax_krw": 82347
         }
       },
       "cheaper": null
@@ -538,7 +555,20 @@
         "url": "https://kr.trip.com/hotels/detail/?hotelId=988329&Allianceid=11030363&SID=333717644&trip_sub1=pick18&trip_sub3=D20687550"
       }
     ],
-    "added": "2026-10-28"
+    "added": "2026-10-28",
+    "price_check": {
+      "date": "2026-11-07",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-11-02",
+      "prices": {
+        "트립닷컴": {
+          "krw": 396000,
+          "tax": "포함"
+        }
+      },
+      "cheaper": null
+    }
   },
   {
     "no": 19,
@@ -554,7 +584,20 @@
         "url": "https://kr.trip.com/hotels/detail/?hotelId=846307&Allianceid=11030363&SID=333717644&trip_sub1=pick19&trip_sub3=D20686885"
       }
     ],
-    "added": "2026-10-28"
+    "added": "2026-10-28",
+    "price_check": {
+      "date": "2026-11-07",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-11-02",
+      "prices": {
+        "트립닷컴": {
+          "krw": 218574,
+          "tax": "포함"
+        }
+      },
+      "cheaper": null
+    }
   },
   {
     "no": 20,
@@ -570,7 +613,20 @@
         "url": "https://kr.trip.com/hotels/detail/?hotelId=4957718&Allianceid=11030363&SID=333717644&trip_sub1=pick20&trip_sub3=D20727282"
       }
     ],
-    "added": "2026-10-29"
+    "added": "2026-10-29",
+    "price_check": {
+      "date": "2026-11-07",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-11-02",
+      "prices": {
+        "트립닷컴": {
+          "krw": 174498,
+          "tax": "포함"
+        }
+      },
+      "cheaper": null
+    }
   },
   {
     "no": 21,
@@ -586,6 +642,19 @@
         "url": "https://kr.trip.com/hotels/detail/?hotelId=117185967&Allianceid=11030363&SID=333717644&trip_sub1=pick21&trip_sub3=D20824393"
       }
     ],
-    "added": "2026-11-01"
+    "added": "2026-11-01",
+    "price_check": {
+      "date": "2026-11-07",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-11-02",
+      "prices": {
+        "트립닷컴": {
+          "krw": 303829,
+          "tax": "포함"
+        }
+      },
+      "cheaper": null
+    }
   }
 ]

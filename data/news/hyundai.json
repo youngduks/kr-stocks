@@ -1,8 +1,16 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-11-01T00:46:08.358Z",
+  "updated_at": "2026-11-01T06:58:26.601Z",
   "count": 2,
   "items": [
+    {
+      "title": "\"쏘렌토 최대 550만원 할인\"…싼타페 최대 60개월 무이자 할부도",
+      "link": "https://www.hankyung.com/article/2026110181217",
+      "source": "한국경제",
+      "ts": 1793498185000,
+      "pub": "Sun, 01 Nov 2026 10:56:25 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "[시승기] 정숙함과 연비를 더했다…제네시스 GV80 하이브리드",
       "link": "https://www.yna.co.kr/view/AKR20261030163600003",
@@ -12,16 +20,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 장하나 기자 = GV80의 고급스러움에 정숙함과 연비를 더했다.",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/30/AKR20261030163600003_01_i_P2.jpg"
-    },
-    {
-      "title": "[특징주] '6년만의 분기매출 감소' 현대차, 3%대 약세 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261030046451008",
-      "source": "연합뉴스 경제",
-      "ts": 1793343086000,
-      "pub": "Fri, 30 Oct 2026 15:51:26 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 김유향 기자 = 현대차[005380] 주가가 30일 3% 넘게 하락한 채로 마감했다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/29/PYH2026102907820001300_P2.jpg"
     }
   ]
 }

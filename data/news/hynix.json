@@ -1,8 +1,44 @@
 {
   "category": "hynix",
-  "updated_at": "2026-11-01T06:58:26.600Z",
+  "updated_at": "2026-11-01T14:01:17.847Z",
   "count": 10,
   "items": [
+    {
+      "title": "中 CXMT \"차세대 D램 시제품 검증\"",
+      "link": "https://www.hankyung.com/article/2026110185291",
+      "source": "한국경제",
+      "ts": 1793524405000,
+      "pub": "Sun, 01 Nov 2026 18:13:25 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "샘 올트먼, 1박2일 깜짝방한…최태원과 HBM 공급 논의",
+      "link": "https://www.hankyung.com/article/2026110185881",
+      "source": "한국경제",
+      "ts": 1793524044000,
+      "pub": "Sun, 01 Nov 2026 18:07:24 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中 CXMT \"차세대 D램 기술 4F² 샘플 검증 완료\"",
+      "link": "https://www.mt.co.kr/world/2026/11/01/2026110116494637609",
+      "source": "머니투데이",
+      "ts": 1793521527000,
+      "pub": "Sun, 01 Nov 2026 17:25:27 +0900",
+      "sentiment": "neutral",
+      "desc": "중국 메모리 반도체회사 창신메모리(CXMT)가 차세대 D램 셀 설계 기술인 '4F²(포에프스퀘어)'와 관련해 주요 기술 검증을 마쳤다고 밝혔다. 31일 펑파이 등 중국 매체들에 따르면 CXMT는 30일 3분기 실적 설명회에서 4F² 수직 채널 D램을 기반으로 한 6세대",
+      "image": "https://thumb.mt.co.kr/06/2026/11/2026110116494637609_1.jpg"
+    },
+    {
+      "title": "이재용 회장, 일본 패키징 연구거점 방문…AI 반도체 총력전",
+      "link": "https://www.mt.co.kr/industry/2026/11/01/2026110115134118496",
+      "source": "머니투데이",
+      "ts": 1793516400000,
+      "pub": "Sun, 01 Nov 2026 16:00:00 +0900",
+      "sentiment": "neutral",
+      "desc": "삼성전자 \"요코하마 APL, 일본 소부장 기업과 연구협력 허브로 발전 계획\" 이재용 삼성전자 회장이 일본의 반도체 연구거점을 찾아 개발 상황을 챙겼다. 차세대 AI(인공지능) 반도체 성능 강화의 핵심으로 꼽히는 패키징(후공정) 기술을 직접 점검하는 한편 일본 현지의 뛰",
+      "image": "https://thumb.mt.co.kr/06/2026/11/2026110115134118496_1.jpg"
+    },
     {
       "title": "中CXMT \"4F²기반 6세대 D램 시제품 검증 완료…점진적 양산\"",
       "link": "https://www.yna.co.kr/view/AKR20261101023300089",
@@ -12,22 +48,6 @@
       "sentiment": "neutral",
       "desc": "(상하이=연합뉴스) 차병섭 특파원 = 삼성전자·SK하이닉스 주도의 D램 메모리 시장에 도전 중인 중국업체 창신메모리(CXMT)가 최근 관심을 모...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/01/AKR20261101023300089_01_i_P2.jpg"
-    },
-    {
-      "title": "연금 고수들, 美 지수 대신 코스피200·반도체 담았다",
-      "link": "https://www.hankyung.com/article/202611018112i",
-      "source": "한국경제",
-      "ts": 1793497291000,
-      "pub": "Sun, 01 Nov 2026 10:41:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"11월 중 수출 1조달러 돌파 확실\"…반도체 터지자 '잭팟'",
-      "link": "https://www.hankyung.com/article/202611018045i",
-      "source": "한국경제",
-      "ts": 1793493188000,
-      "pub": "Sun, 01 Nov 2026 09:33:08 +0900",
-      "sentiment": "positive"
     },
     {
       "title": "[속보] 반도체 10월 수출 564억달러…2개월 연속 500억달러대",
@@ -70,16 +90,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/10/31/AKR20261031026600073_01_i_P2.jpg"
     },
     {
-      "title": "AI 빅테크 실망스러운 실적에…애플, 또 엔비디아 꺾고 시총 1위",
-      "link": "https://www.yna.co.kr/view/AKR20261031009500091",
-      "source": "연합뉴스 국제",
-      "ts": 1793396218000,
-      "pub": "Sat, 31 Oct 2026 06:36:58 +0900",
-      "sentiment": "neutral",
-      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 거대 기술기업의 인공지능(AI) 인프라에 대한 과잉 투자 우려가 커지면서 애플이 석 달 만에 세계에서...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/05/14/PAP20260514277701009_P2.jpg"
-    },
-    {
       "title": "10월 D램 가격 5.8%↑…낸드는 21개월 연속 상승세 멈춰",
       "link": "https://www.yna.co.kr/view/AKR20261030141900003",
       "source": "연합뉴스 경제",
@@ -88,16 +98,6 @@
       "sentiment": "positive",
       "desc": "(서울=연합뉴스) 강태우 기자 = 메모리 반도체 공급 제약이 이어지는 가운데 10월 D램 가격이 상승세를 지속하며 역대 최고치를 경신했다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/05/01/PYH2026050106720001300_P2.jpg"
-    },
-    {
-      "title": "메모리반도체 투자 등 ETF 2종, 내달 3일 신규 상장",
-      "link": "https://www.yna.co.kr/view/AKR20261030137800008",
-      "source": "연합뉴스 경제",
-      "ts": 1793343584000,
-      "pub": "Fri, 30 Oct 2026 15:59:44 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 한국거래소는 DB자산운용과 한국투자신탁운용의 상장지수펀드(ETF) 2종목을 내달 3일 유가증권시장에 상장한다고...",
-      "image": "https://img.yna.co.kr/photo/cms/2024/09/16/19/PCM20240916000019990_P2.jpg"
     }
   ]
 }

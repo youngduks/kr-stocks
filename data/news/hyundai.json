@@ -1,14 +1,24 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-11-02T03:06:52.992Z",
-  "count": 1,
+  "updated_at": "2026-11-02T11:46:02.450Z",
+  "count": 2,
   "items": [
     {
-      "title": "[오늘의 증권가 콜] 기아, 현대모비스, 한화에어로, LG CNS, 에이피알, 효성중공업, 대덕전자, 카카오게임즈 등",
-      "link": "https://www.hankyung.com/article/202611029477i",
+      "title": "정의선 만난 이형일…생산세액공제 등 전기차 경쟁력 강화 논의(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261102126151002",
+      "source": "연합뉴스 경제",
+      "ts": 1793612263000,
+      "pub": "Mon, 2 Nov 2026 18:37:43 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울·세종=연합뉴스) 장하나 김수현 기자 = 이형일 부총리 겸 재정경제부 장관이 정의선 현대차그룹 회장을 만나 전기차 경쟁력 강화방안 등을 논...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/02/PYH2026110218650001300_P2.jpg"
+    },
+    {
+      "title": "정의선 회장 만난 李 부총리 \"전기차 생산세액공제 논의할 것\"",
+      "link": "https://www.hankyung.com/article/2026110211521",
       "source": "한국경제",
-      "ts": 1793581874000,
-      "pub": "Mon, 02 Nov 2026 10:11:14 +0900",
+      "ts": 1793611753000,
+      "pub": "Mon, 02 Nov 2026 18:29:13 +0900",
       "sentiment": "neutral"
     }
   ]

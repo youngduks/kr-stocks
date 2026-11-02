@@ -1,676 +1,676 @@
 [
- {
-  "no": 1,
-  "name": "롯데호텔 월드",
-  "region": "서울 송파구 잠실",
-  "type": "테마파크 연결 호텔",
-  "hook_title": "호텔 1층에 투숙객 전용 롯데월드 입구가 있어요",
-  "summary": "잠실역 연결(시그니엘과 다른 호텔). 원더도어·원더찬스 재입장, 미끄럼틀 유아풀·키즈라운지, 2층 침대 패밀리룸·카카오프렌즈 객실, 타워호수뷰, 라세느 조식",
-  "thumb": "https://img.lottehotel.com/cms/asset/2025/02/12/15221/5386-2000-fac-LTWO.webp",
-  "links": [
-   {
-    "platform": "쿠팡",
-    "url": "https://link.coupang.com/a/hC4EPYtc6e"
-   },
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=988393&Allianceid=11030363&SID=333717644&trip_sub1=pick1&trip_sub3=D20264946"
-   }
-  ],
-  "added": "2026-10-07",
-  "price_check": {
-   "date": "2026-11-07",
-   "nights": 1,
-   "adults": 2,
-   "checked": "2026-11-02",
-   "prices": {
-    "쿠팡": {
-     "krw": 764377,
-     "tax": "포함"
+  {
+    "no": 1,
+    "name": "롯데호텔 월드",
+    "region": "서울 송파구 잠실",
+    "type": "테마파크 연결 호텔",
+    "hook_title": "호텔 1층에 투숙객 전용 롯데월드 입구가 있어요",
+    "summary": "잠실역 연결(시그니엘과 다른 호텔). 원더도어·원더찬스 재입장, 미끄럼틀 유아풀·키즈라운지, 2층 침대 패밀리룸·카카오프렌즈 객실, 타워호수뷰, 라세느 조식",
+    "thumb": "https://img.lottehotel.com/cms/asset/2025/02/12/15221/5386-2000-fac-LTWO.webp",
+    "links": [
+      {
+        "platform": "쿠팡",
+        "url": "https://link.coupang.com/a/hC4EPYtc6e"
+      },
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=988393&Allianceid=11030363&SID=333717644&trip_sub1=pick1&trip_sub3=D20264946"
+      }
+    ],
+    "added": "2026-10-07",
+    "price_check": {
+      "date": "2026-11-07",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-11-02",
+      "prices": {
+        "쿠팡": {
+          "krw": 764377,
+          "tax": "포함"
+        }
+      },
+      "cheaper": null
     }
-   },
-   "cheaper": null
-  }
- },
- {
-  "no": 2,
-  "name": "스플라스 리솜",
-  "region": "충남 예산 덕산",
-  "type": "온천 워터파크 리조트",
-  "hook_title": "수심 40cm 온천 키디풀, 가을 겨울에도 따뜻한 물놀이",
-  "summary": "워터파크·스파 전 시설 덕산 온천수, 실내 온천 키디풀(최대 40cm·7세 미만 보호자 동반), 전 객실 온천수·유아 욕조 무료 대여, 조식 키즈코너·0~7세 조식 무료(가족 개인고객). 워터파크 이용료는 숙박과 별도",
-  "thumb": "https://www.resom.co.kr/img/File/L2026090214325398570.jpg",
-  "links": [
-   {
-    "platform": "쿠팡",
-    "url": "https://link.coupang.com/a/hFx7wf0fKe"
-   },
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=112894520&Allianceid=11030363&SID=333717644&trip_sub1=pick2&trip_sub3=D20264946"
-   }
-  ],
-  "added": "2026-10-08"
- },
- {
-  "no": 3,
-  "name": "리솜 포레스트",
-  "region": "충북 제천 백운면",
-  "type": "숲속 빌라·타워 리조트(노천 스파)",
-  "hook_title": "해발 500m 숲속 노천 스파, 가을 겨울 아이랑 숲캉스",
-  "summary": "숲속 빌라동(포레스트)·호텔형 타워(레스트리) 한 단지. 해브나인 야외 인피니티풀·노천 스파(이용료 별도, 투숙객 할인), 실내 아쿠아플레이존 키즈슬라이드·유수풀, 몬도키친 조식 7세 이하 무료(증빙). 객실 취사 불가, 빌라동은 언덕길(전동카트 유료)",
-  "thumb": "https://www.resom.co.kr/forest/images/img/img_main_slide_20240612_2_m.jpg",
-  "links": [
-   {
-    "platform": "쿠팡",
-    "url": "https://link.coupang.com/a/hERSL9jZCe"
-   },
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=117010371&Allianceid=11030363&SID=333717644&trip_sub1=pick3&trip_sub3=D20264946"
-   }
-  ],
-  "added": "2026-10-08"
- },
- {
-  "no": 4,
-  "name": "롯데리조트 속초",
-  "region": "강원 속초 대포항",
-  "type": "오션뷰 리조트(실내 워터파크)",
-  "hook_title": "11월까지 투숙객 실내 워터파크 무료, 전 객실 오션뷰",
-  "summary": "9/1~11/30 투숙객 실내 워터파크·찜질방·미니골프 무료(정원+미취학 1명, 예약번호 확인). 실내 키즈풀 수심 30cm·유수풀·파도풀, 라라키즈 키즈카페, 조식 마키노차야 바다뷰 뷔페 07:00~11:00. 실외 워터파크 12월 중순·인피니티풀 연말까지 공사로 미운영",
-  "thumb": "",
-  "links": [
-   {
-    "platform": "쿠팡",
-    "url": "https://link.coupang.com/a/hF00YPOycu"
-   },
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=12041327&Allianceid=11030363&SID=333717644&trip_sub1=pick4&trip_sub3=D20264946"
-   }
-  ],
-  "added": "2026-10-08",
-  "price_check": {
-   "date": "2026-11-07",
-   "nights": 1,
-   "adults": 2,
-   "checked": "2026-11-02",
-   "prices": {
-    "쿠팡": {
-     "krw": 384000,
-     "tax": "포함"
-    },
-    "트립닷컴": {
-     "krw": 384405,
-     "tax": "포함"
+  },
+  {
+    "no": 2,
+    "name": "스플라스 리솜",
+    "region": "충남 예산 덕산",
+    "type": "온천 워터파크 리조트",
+    "hook_title": "수심 40cm 온천 키디풀, 가을 겨울에도 따뜻한 물놀이",
+    "summary": "워터파크·스파 전 시설 덕산 온천수, 실내 온천 키디풀(최대 40cm·7세 미만 보호자 동반), 전 객실 온천수·유아 욕조 무료 대여, 조식 키즈코너·0~7세 조식 무료(가족 개인고객). 워터파크 이용료는 숙박과 별도",
+    "thumb": "https://www.resom.co.kr/img/File/L2026090214325398570.jpg",
+    "links": [
+      {
+        "platform": "쿠팡",
+        "url": "https://link.coupang.com/a/hFx7wf0fKe"
+      },
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=112894520&Allianceid=11030363&SID=333717644&trip_sub1=pick2&trip_sub3=D20264946"
+      }
+    ],
+    "added": "2026-10-08"
+  },
+  {
+    "no": 3,
+    "name": "리솜 포레스트",
+    "region": "충북 제천 백운면",
+    "type": "숲속 빌라·타워 리조트(노천 스파)",
+    "hook_title": "해발 500m 숲속 노천 스파, 가을 겨울 아이랑 숲캉스",
+    "summary": "숲속 빌라동(포레스트)·호텔형 타워(레스트리) 한 단지. 해브나인 야외 인피니티풀·노천 스파(이용료 별도, 투숙객 할인), 실내 아쿠아플레이존 키즈슬라이드·유수풀, 몬도키친 조식 7세 이하 무료(증빙). 객실 취사 불가, 빌라동은 언덕길(전동카트 유료)",
+    "thumb": "https://www.resom.co.kr/forest/images/img/img_main_slide_20240612_2_m.jpg",
+    "links": [
+      {
+        "platform": "쿠팡",
+        "url": "https://link.coupang.com/a/hERSL9jZCe"
+      },
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=117010371&Allianceid=11030363&SID=333717644&trip_sub1=pick3&trip_sub3=D20264946"
+      }
+    ],
+    "added": "2026-10-08"
+  },
+  {
+    "no": 4,
+    "name": "롯데리조트 속초",
+    "region": "강원 속초 대포항",
+    "type": "오션뷰 리조트(실내 워터파크)",
+    "hook_title": "11월까지 투숙객 실내 워터파크 무료, 전 객실 오션뷰",
+    "summary": "9/1~11/30 투숙객 실내 워터파크·찜질방·미니골프 무료(정원+미취학 1명, 예약번호 확인). 실내 키즈풀 수심 30cm·유수풀·파도풀, 라라키즈 키즈카페, 조식 마키노차야 바다뷰 뷔페 07:00~11:00. 실외 워터파크 12월 중순·인피니티풀 연말까지 공사로 미운영",
+    "thumb": "",
+    "links": [
+      {
+        "platform": "쿠팡",
+        "url": "https://link.coupang.com/a/hF00YPOycu"
+      },
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=12041327&Allianceid=11030363&SID=333717644&trip_sub1=pick4&trip_sub3=D20264946"
+      }
+    ],
+    "added": "2026-10-08",
+    "price_check": {
+      "date": "2026-11-07",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-11-02",
+      "prices": {
+        "쿠팡": {
+          "krw": 384000,
+          "tax": "포함"
+        },
+        "트립닷컴": {
+          "krw": 384405,
+          "tax": "포함"
+        }
+      },
+      "cheaper": "쿠팡"
     }
-   },
-   "cheaper": "쿠팡"
-  }
- },
- {
-  "no": 5,
-  "name": "그랜드 하얏트 서울",
-  "region": "서울 용산구 남산(소월로)",
-  "type": "5성급 호텔(야외 아이스링크·실내 수영장)",
-  "hook_title": "아이스링크 있는 남산 호텔, 아기랑 서울 5성급 호캉스",
-  "summary": "남산 자락 서울 시내 전망, 겨울 야외 아이스링크(예년 12월 초 개장, 개장일은 확인 필요), 투숙객 전용 실내 수영장, 아기 침대·욕조는 사전 요청 시 대여",
-  "thumb": "",
-  "links": [
-   {
-    "platform": "쿠팡",
-    "url": "https://link.coupang.com/a/hGnR2zTw96"
-   },
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=988623&Allianceid=11030363&SID=333717644&trip_sub1=pick5&trip_sub3=D20264946"
-   }
-  ],
-  "added": "2026-10-09",
-  "price_check": {
-   "date": "2026-11-07",
-   "nights": 1,
-   "adults": 2,
-   "checked": "2026-11-02",
-   "prices": {
-    "쿠팡": {
-     "krw": 871602,
-     "tax": "포함"
-    },
-    "트립닷컴": {
-     "krw": 858065,
-     "tax": "포함"
+  },
+  {
+    "no": 5,
+    "name": "그랜드 하얏트 서울",
+    "region": "서울 용산구 남산(소월로)",
+    "type": "5성급 호텔(야외 아이스링크·실내 수영장)",
+    "hook_title": "아이스링크 있는 남산 호텔, 아기랑 서울 5성급 호캉스",
+    "summary": "남산 자락 서울 시내 전망, 겨울 야외 아이스링크(예년 12월 초 개장, 개장일은 확인 필요), 투숙객 전용 실내 수영장, 아기 침대·욕조는 사전 요청 시 대여",
+    "thumb": "",
+    "links": [
+      {
+        "platform": "쿠팡",
+        "url": "https://link.coupang.com/a/hGnR2zTw96"
+      },
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=988623&Allianceid=11030363&SID=333717644&trip_sub1=pick5&trip_sub3=D20264946"
+      }
+    ],
+    "added": "2026-10-09",
+    "price_check": {
+      "date": "2026-11-07",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-11-02",
+      "prices": {
+        "쿠팡": {
+          "krw": 871602,
+          "tax": "포함"
+        },
+        "트립닷컴": {
+          "krw": 858065,
+          "tax": "포함"
+        }
+      },
+      "cheaper": "트립닷컴"
     }
-   },
-   "cheaper": "트립닷컴"
-  }
- },
- {
-  "no": 6,
-  "name": "반얀트리 클럽 앤 스파 서울",
-  "region": "서울 중구 장충동(남산)",
-  "type": "5성급 도심 리조트 호텔(객실 내 릴랙세이션 풀)",
-  "hook_title": "방 안에서 물놀이하는 호텔, 아기랑 서울 5성급 호캉스",
-  "summary": "객실 대부분에 개별 릴랙세이션 풀, 남산 숲·N서울타워 전망, 실내 수영장(유아풀·영아풀 별도), 아기 침대·욕조·소독기 요청 시 대여(투숙객 기준, 세부 조건은 예약 시 확인)",
-  "thumb": "",
-  "links": [
-   {
-    "platform": "쿠팡",
-    "url": "https://link.coupang.com/a/hHaxUFz2yW"
-   },
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=988402&Allianceid=11030363&SID=333717644&trip_sub1=pick6&trip_sub3=D20264946"
-   }
-  ],
-  "added": "2026-10-09",
-  "price_check": {
-   "date": "2026-10-31",
-   "nights": 1,
-   "adults": 2,
-   "checked": "2026-10-26",
-   "prices": {
-    "쿠팡": {
-     "krw": 1037850,
-     "tax": "포함"
-    },
-    "트립닷컴": {
-     "krw": 1221000,
-     "tax": "포함"
+  },
+  {
+    "no": 6,
+    "name": "반얀트리 클럽 앤 스파 서울",
+    "region": "서울 중구 장충동(남산)",
+    "type": "5성급 도심 리조트 호텔(객실 내 릴랙세이션 풀)",
+    "hook_title": "방 안에서 물놀이하는 호텔, 아기랑 서울 5성급 호캉스",
+    "summary": "객실 대부분에 개별 릴랙세이션 풀, 남산 숲·N서울타워 전망, 실내 수영장(유아풀·영아풀 별도), 아기 침대·욕조·소독기 요청 시 대여(투숙객 기준, 세부 조건은 예약 시 확인)",
+    "thumb": "",
+    "links": [
+      {
+        "platform": "쿠팡",
+        "url": "https://link.coupang.com/a/hHaxUFz2yW"
+      },
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=988402&Allianceid=11030363&SID=333717644&trip_sub1=pick6&trip_sub3=D20264946"
+      }
+    ],
+    "added": "2026-10-09",
+    "price_check": {
+      "date": "2026-10-31",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-10-26",
+      "prices": {
+        "쿠팡": {
+          "krw": 1037850,
+          "tax": "포함"
+        },
+        "트립닷컴": {
+          "krw": 1221000,
+          "tax": "포함"
+        }
+      },
+      "cheaper": "쿠팡"
     }
-   },
-   "cheaper": "쿠팡"
-  }
- },
- {
-  "no": 7,
-  "name": "포시즌스 호텔 서울",
-  "region": "서울 종로구 광화문",
-  "type": "5성급 호텔(9층 실내 수영장·키즈풀)",
-  "hook_title": "광화문 한복판, 경복궁이 내려다보이는 5성급 키즈풀 호텔",
-  "summary": "팰리스 뷰 객실·스위트에서 경복궁 전망, 9층 실내 수영장 수심 0.5m 키즈풀(투숙객 무료, 어린이 20:30까지), 주말·공휴일 키즈 라운지(가족 투숙객 무료), 아기 침대·욕조·하이체어 사전 요청",
-  "thumb": "",
-  "links": [
-   {
-    "platform": "쿠팡",
-    "url": "https://link.coupang.com/a/hHoKShy6O4"
-   },
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=3644044&Allianceid=11030363&SID=333717644&trip_sub1=pick7&trip_sub3=D20406521"
-   }
-  ],
-  "added": "2026-10-09",
-  "price_check": {
-   "date": "2026-10-24",
-   "nights": 1,
-   "adults": 2,
-   "checked": "2026-10-19",
-   "prices": {},
-   "cheaper": null,
-   "note": "10/21 트립닷컴 가격은 잘못된 호텔(신라) 값이라 삭제"
-  }
- },
- {
-  "no": 8,
-  "name": "파라다이스 시티",
-  "region": "인천 영종도(인천공항 셔틀 약 10분)",
-  "type": "5성급 복합 리조트(실내 놀이공원·스파)",
-  "hook_title": "공항 10분 놀이공원 호텔, 아이랑·부모님이랑 3대 호캉스",
-  "summary": "아이: 실내 놀이공원(요금 별도), 키즈존(만 7세까지·투숙객 무료, 36개월까지 무료 기준은 시설별 확인) / 부모님: 노천탕·찜질 스파(요금 별도, 패키지 유리) / 실내·야외 수영장. 세부 조건은 예약 전 확인",
-  "thumb": "",
-  "links": [
-   {
-    "platform": "쿠팡",
-    "url": "https://link.coupang.com/a/hHrtWOgkYS"
-   },
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=7240662&Allianceid=11030363&SID=333717644&trip_sub1=pick8&trip_sub3=D20264946"
-   }
-  ],
-  "added": "2026-10-09",
-  "price_check": {
-   "date": "2026-10-31",
-   "nights": 1,
-   "adults": 2,
-   "checked": "2026-10-26",
-   "prices": {
-    "쿠팡": {
-     "krw": 676755,
-     "tax": "포함"
-    },
-    "트립닷컴": {
-     "krw": 637816,
-     "tax": "포함"
+  },
+  {
+    "no": 7,
+    "name": "포시즌스 호텔 서울",
+    "region": "서울 종로구 광화문",
+    "type": "5성급 호텔(9층 실내 수영장·키즈풀)",
+    "hook_title": "광화문 한복판, 경복궁이 내려다보이는 5성급 키즈풀 호텔",
+    "summary": "팰리스 뷰 객실·스위트에서 경복궁 전망, 9층 실내 수영장 수심 0.5m 키즈풀(투숙객 무료, 어린이 20:30까지), 주말·공휴일 키즈 라운지(가족 투숙객 무료), 아기 침대·욕조·하이체어 사전 요청",
+    "thumb": "",
+    "links": [
+      {
+        "platform": "쿠팡",
+        "url": "https://link.coupang.com/a/hHoKShy6O4"
+      },
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=3644044&Allianceid=11030363&SID=333717644&trip_sub1=pick7&trip_sub3=D20406521"
+      }
+    ],
+    "added": "2026-10-09",
+    "price_check": {
+      "date": "2026-10-24",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-10-19",
+      "prices": {},
+      "cheaper": null,
+      "note": "10/21 트립닷컴 가격은 잘못된 호텔(신라) 값이라 삭제"
     }
-   },
-   "cheaper": "트립닷컴"
-  }
- },
- {
-  "no": 9,
-  "name": "한화리조트 설악 쏘라노",
-  "region": "강원 속초 설악",
-  "type": "온천 리조트(노천 온천·워터파크)",
-  "hook_title": "설악 단풍 + 노천온천, 아이랑·부모님이랑 3대 호캉스",
-  "summary": "설악산 울산바위 전망, 지하 680m 49도 천연 온천수·노천탕 16개(부모님), 유아풀·파도풀(아이, 워터파크 요금 별도), 설악산 케이블카 가까움. 세부 조건은 예약 전 확인",
-  "thumb": "",
-  "links": [
-   {
-    "platform": "쿠팡",
-    "url": "https://link.coupang.com/a/hHQPih7Zn2"
-   },
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=1015097&Allianceid=11030363&SID=333717644&trip_sub1=pick9&trip_sub3=D20264946"
-   }
-  ],
-  "added": "2026-10-09",
-  "price_check": {
-   "date": "2026-11-07",
-   "nights": 1,
-   "adults": 2,
-   "checked": "2026-11-02",
-   "prices": {
-    "쿠팡": {
-     "krw": 325600,
-     "tax": "포함"
-    },
-    "트립닷컴": {
-     "krw": 251147,
-     "tax": "포함"
+  },
+  {
+    "no": 8,
+    "name": "파라다이스 시티",
+    "region": "인천 영종도(인천공항 셔틀 약 10분)",
+    "type": "5성급 복합 리조트(실내 놀이공원·스파)",
+    "hook_title": "공항 10분 놀이공원 호텔, 아이랑·부모님이랑 3대 호캉스",
+    "summary": "아이: 실내 놀이공원(요금 별도), 키즈존(만 7세까지·투숙객 무료, 36개월까지 무료 기준은 시설별 확인) / 부모님: 노천탕·찜질 스파(요금 별도, 패키지 유리) / 실내·야외 수영장. 세부 조건은 예약 전 확인",
+    "thumb": "",
+    "links": [
+      {
+        "platform": "쿠팡",
+        "url": "https://link.coupang.com/a/hHrtWOgkYS"
+      },
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=7240662&Allianceid=11030363&SID=333717644&trip_sub1=pick8&trip_sub3=D20264946"
+      }
+    ],
+    "added": "2026-10-09",
+    "price_check": {
+      "date": "2026-10-31",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-10-26",
+      "prices": {
+        "쿠팡": {
+          "krw": 676755,
+          "tax": "포함"
+        },
+        "트립닷컴": {
+          "krw": 637816,
+          "tax": "포함"
+        }
+      },
+      "cheaper": "트립닷컴"
     }
-   },
-   "cheaper": "트립닷컴"
-  }
- },
- {
-  "no": 10,
-  "name": "켄싱턴호텔 여의도",
-  "region": "서울 영등포구 여의도(한강공원 도보 5분)",
-  "type": "서울 가성비 호텔(가족실)",
-  "hook_title": "서울 한강 앞 호텔, 1박 10만원대인 날도",
-  "summary": "가족실(더블+싱글, 최대 3인), 욕조 객실, 여의도 한강공원 도보 약 5분. 쿠팡 기준 11월 평일 10만원대 날 다수(날짜별 상이)",
-  "thumb": "",
-  "links": [
-   {
-    "platform": "쿠팡",
-    "url": "https://link.coupang.com/a/hIbnZsc4po"
-   },
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=988663&Allianceid=11030363&SID=333717644&trip_sub1=pick10&trip_sub3=D20264946"
-   }
-  ],
-  "added": "2026-10-10",
-  "price_check": {
-   "date": "2026-11-07",
-   "nights": 1,
-   "adults": 2,
-   "checked": "2026-11-02",
-   "prices": {
-    "트립닷컴": {
-     "krw": 405458,
-     "tax": "포함"
+  },
+  {
+    "no": 9,
+    "name": "한화리조트 설악 쏘라노",
+    "region": "강원 속초 설악",
+    "type": "온천 리조트(노천 온천·워터파크)",
+    "hook_title": "설악 단풍 + 노천온천, 아이랑·부모님이랑 3대 호캉스",
+    "summary": "설악산 울산바위 전망, 지하 680m 49도 천연 온천수·노천탕 16개(부모님), 유아풀·파도풀(아이, 워터파크 요금 별도), 설악산 케이블카 가까움. 세부 조건은 예약 전 확인",
+    "thumb": "",
+    "links": [
+      {
+        "platform": "쿠팡",
+        "url": "https://link.coupang.com/a/hHQPih7Zn2"
+      },
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=1015097&Allianceid=11030363&SID=333717644&trip_sub1=pick9&trip_sub3=D20264946"
+      }
+    ],
+    "added": "2026-10-09",
+    "price_check": {
+      "date": "2026-11-07",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-11-02",
+      "prices": {
+        "쿠팡": {
+          "krw": 325600,
+          "tax": "포함"
+        },
+        "트립닷컴": {
+          "krw": 251147,
+          "tax": "포함"
+        }
+      },
+      "cheaper": "트립닷컴"
     }
-   },
-   "cheaper": null
-  }
- },
- {
-  "no": 11,
-  "name": "아난티 앳 부산 코브",
-  "region": "부산 기장군 기장읍(바닷가)",
-  "type": "부산 바닷가 리조트형 호텔(온천 수영장)",
-  "hook_title": "온천 수영장 시설만 2천 평, 투숙객은 무료",
-  "summary": "워터하우스(천연 온천수, 전체 약 2,000평) 투숙객 이용 가능·횟수 제한 없음(객실 정원 내, 운영시간 확인), 아이는 보호자 동반, 바다 보이는 객실, 해안 산책로. 쿠팡 기준 11월 평일 30만원 안팎인 날 있음(날짜별 상이)",
-  "thumb": "",
-  "links": [
-   {
-    "platform": "쿠팡",
-    "url": "https://link.coupang.com/a/hJn3cA3Rf2"
-   },
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=8810122&Allianceid=11030363&SID=333717644&trip_sub1=pick11&trip_sub3=D20264946"
-   }
-  ],
-  "added": "2026-10-10",
-  "price_check": {
-   "date": "2026-11-07",
-   "nights": 1,
-   "adults": 2,
-   "checked": "2026-11-02",
-   "prices": {
-    "쿠팡": {
-     "krw": 791780,
-     "tax": "포함"
-    },
-    "트립닷컴": {
-     "krw": 678115,
-     "tax": "포함"
+  },
+  {
+    "no": 10,
+    "name": "켄싱턴호텔 여의도",
+    "region": "서울 영등포구 여의도(한강공원 도보 5분)",
+    "type": "서울 가성비 호텔(가족실)",
+    "hook_title": "서울 한강 앞 호텔, 1박 10만원대인 날도",
+    "summary": "가족실(더블+싱글, 최대 3인), 욕조 객실, 여의도 한강공원 도보 약 5분. 쿠팡 기준 11월 평일 10만원대 날 다수(날짜별 상이)",
+    "thumb": "",
+    "links": [
+      {
+        "platform": "쿠팡",
+        "url": "https://link.coupang.com/a/hIbnZsc4po"
+      },
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=988663&Allianceid=11030363&SID=333717644&trip_sub1=pick10&trip_sub3=D20264946"
+      }
+    ],
+    "added": "2026-10-10",
+    "price_check": {
+      "date": "2026-11-07",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-11-02",
+      "prices": {
+        "트립닷컴": {
+          "krw": 405458,
+          "tax": "포함"
+        }
+      },
+      "cheaper": null
     }
-   },
-   "cheaper": "트립닷컴"
-  }
- },
- {
-  "no": 12,
-  "name": "인스파이어 엔터테인먼트 리조트",
-  "region": "인천 중구 영종도(인천공항 옆)",
-  "type": "공항 옆 리조트형 호텔(유리 돔 실내 워터파크)",
-  "hook_title": "객실 1,275개 리조트 안에 유리 돔 워터파크",
-  "summary": "유리 돔 실내 워터파크(물벼락 놀이터·키즈 미끄럼틀, 워터파크 포함 패키지로 예약해야 이용), 라이브 스테이션 6개 조식 뷔페, 주말 키즈 프로그램, 패밀리룸 2층 침대, 150m LED 천장 거리, 인천공항 무료 셔틀. 쿠팡 기준 11월 평일 30만원대 초반인 날 있음(날짜별 상이)",
-  "thumb": "",
-  "links": [
-   {
-    "platform": "쿠팡",
-    "url": "https://link.coupang.com/a/hJBlTNmnzo"
-   },
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=113752459&Allianceid=11030363&SID=333717644&trip_sub1=pick12&trip_sub3=D20264946"
-   }
-  ],
-  "added": "2026-10-11",
-  "price_check": {
-   "date": "2026-10-31",
-   "nights": 1,
-   "adults": 2,
-   "checked": "2026-10-26",
-   "prices": {
-    "쿠팡": {
-     "krw": 638000,
-     "tax": "포함"
-    },
-    "트립닷컴": {
-     "krw": 584401,
-     "tax": "포함"
+  },
+  {
+    "no": 11,
+    "name": "아난티 앳 부산 코브",
+    "region": "부산 기장군 기장읍(바닷가)",
+    "type": "부산 바닷가 리조트형 호텔(온천 수영장)",
+    "hook_title": "온천 수영장 시설만 2천 평, 투숙객은 무료",
+    "summary": "워터하우스(천연 온천수, 전체 약 2,000평) 투숙객 이용 가능·횟수 제한 없음(객실 정원 내, 운영시간 확인), 아이는 보호자 동반, 바다 보이는 객실, 해안 산책로. 쿠팡 기준 11월 평일 30만원 안팎인 날 있음(날짜별 상이)",
+    "thumb": "",
+    "links": [
+      {
+        "platform": "쿠팡",
+        "url": "https://link.coupang.com/a/hJn3cA3Rf2"
+      },
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=8810122&Allianceid=11030363&SID=333717644&trip_sub1=pick11&trip_sub3=D20264946"
+      }
+    ],
+    "added": "2026-10-10",
+    "price_check": {
+      "date": "2026-11-07",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-11-02",
+      "prices": {
+        "쿠팡": {
+          "krw": 791780,
+          "tax": "포함"
+        },
+        "트립닷컴": {
+          "krw": 678115,
+          "tax": "포함"
+        }
+      },
+      "cheaper": "트립닷컴"
     }
-   },
-   "cheaper": "트립닷컴"
-  }
- },
- {
-  "no": 13,
-  "name": "시그니엘 서울",
-  "region": "서울 송파구 잠실(롯데월드타워 76~101층)",
-  "type": "서울 초고층 전망 호텔(부모님 모시고·아이랑)",
-  "hook_title": "85층 한강 전망 수영장, 투숙객은 무료",
-  "summary": "85층 실내 수영장(투숙객 무료, 만 13세 미만 보호자 동반, 유아풀은 공식 안내에 없음), 81층 미쉐린 스타 셰프 레스토랑 조식 뷔페(조식 포함 상품 있음), 키즈 텐트 가족 패키지, 79층 투숙객 라운지(만 13세 이상), 쇼핑몰·전망대 같은 건물, 객실 전부 76층 위 통창. 가격대 높은 편(쿠팡 기준 70만원대부터인 날 있음, 날짜별 상이)",
-  "thumb": "",
-  "links": [
-   {
-    "platform": "쿠팡",
-    "url": "https://link.coupang.com/a/hJBrylneXk"
-   },
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=19624480&Allianceid=11030363&SID=333717644&trip_sub1=pick13&trip_sub3=D20264946"
-   }
-  ],
-  "added": "2026-10-11",
-  "price_check": {
-   "date": "2026-11-07",
-   "nights": 1,
-   "adults": 2,
-   "checked": "2026-11-02",
-   "prices": {
-    "쿠팡": {
-     "krw": 1278945,
-     "tax": "포함"
-    },
-    "트립닷컴": {
-     "krw": 1427800,
-     "tax": "포함"
+  },
+  {
+    "no": 12,
+    "name": "인스파이어 엔터테인먼트 리조트",
+    "region": "인천 중구 영종도(인천공항 옆)",
+    "type": "공항 옆 리조트형 호텔(유리 돔 실내 워터파크)",
+    "hook_title": "객실 1,275개 리조트 안에 유리 돔 워터파크",
+    "summary": "유리 돔 실내 워터파크(물벼락 놀이터·키즈 미끄럼틀, 워터파크 포함 패키지로 예약해야 이용), 라이브 스테이션 6개 조식 뷔페, 주말 키즈 프로그램, 패밀리룸 2층 침대, 150m LED 천장 거리, 인천공항 무료 셔틀. 쿠팡 기준 11월 평일 30만원대 초반인 날 있음(날짜별 상이)",
+    "thumb": "",
+    "links": [
+      {
+        "platform": "쿠팡",
+        "url": "https://link.coupang.com/a/hJBlTNmnzo"
+      },
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=113752459&Allianceid=11030363&SID=333717644&trip_sub1=pick12&trip_sub3=D20264946"
+      }
+    ],
+    "added": "2026-10-11",
+    "price_check": {
+      "date": "2026-10-31",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-10-26",
+      "prices": {
+        "쿠팡": {
+          "krw": 638000,
+          "tax": "포함"
+        },
+        "트립닷컴": {
+          "krw": 584401,
+          "tax": "포함"
+        }
+      },
+      "cheaper": "트립닷컴"
     }
-   },
-   "cheaper": "쿠팡"
-  }
- },
- {
-  "no": 14,
-  "name": "그랜드 하얏트 인천",
-  "region": "인천 영종도(인천공항 T1 약 5분)",
-  "type": "공항 옆 호텔(사계절 실내 수영장)",
-  "hook_title": "수온 29~30℃ 실내 수영장, 씨메르까지 걸어서 10분",
-  "summary": "실내 수영장(수온 29~30℃, 투숙객 무료, 만 14세 미만 보호자 동반, 유아풀은 공식 안내에 없음), 파라다이스시티 씨메르 도보 약 10분(요금 별도), 레스토랑 8 조식 뷔페, 패밀리룸 최대 4인(성인 최대 3), 아기 침대·아기 텐트 대여(사전 요청), 인천공항 T1 약 5분·무료 셔틀, 투숙객 주차 무료",
-  "thumb": "",
-  "links": [
-   {
-    "platform": "쿠팡",
-    "url": "https://link.coupang.com/a/hJBpjoI4nk"
-   },
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=988259&Allianceid=11030363&SID=333717644&trip_sub1=pick14&trip_sub3=D20676987"
-   }
-  ],
-  "added": "2026-10-27",
-  "price_check": {
-   "date": "2026-11-07",
-   "nights": 1,
-   "adults": 2,
-   "checked": "2026-11-02",
-   "prices": {
-    "쿠팡": {
-     "krw": 935000,
-     "tax": "포함"
-    },
-    "트립닷컴": {
-     "krw": 840666,
-     "tax": "포함"
+  },
+  {
+    "no": 13,
+    "name": "시그니엘 서울",
+    "region": "서울 송파구 잠실(롯데월드타워 76~101층)",
+    "type": "서울 초고층 전망 호텔(부모님 모시고·아이랑)",
+    "hook_title": "85층 한강 전망 수영장, 투숙객은 무료",
+    "summary": "85층 실내 수영장(투숙객 무료, 만 13세 미만 보호자 동반, 유아풀은 공식 안내에 없음), 81층 미쉐린 스타 셰프 레스토랑 조식 뷔페(조식 포함 상품 있음), 키즈 텐트 가족 패키지, 79층 투숙객 라운지(만 13세 이상), 쇼핑몰·전망대 같은 건물, 객실 전부 76층 위 통창. 가격대 높은 편(쿠팡 기준 70만원대부터인 날 있음, 날짜별 상이)",
+    "thumb": "",
+    "links": [
+      {
+        "platform": "쿠팡",
+        "url": "https://link.coupang.com/a/hJBrylneXk"
+      },
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=19624480&Allianceid=11030363&SID=333717644&trip_sub1=pick13&trip_sub3=D20264946"
+      }
+    ],
+    "added": "2026-10-11",
+    "price_check": {
+      "date": "2026-11-07",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-11-02",
+      "prices": {
+        "쿠팡": {
+          "krw": 1278945,
+          "tax": "포함"
+        },
+        "트립닷컴": {
+          "krw": 1427800,
+          "tax": "포함"
+        }
+      },
+      "cheaper": "쿠팡"
     }
-   },
-   "cheaper": "트립닷컴"
-  }
- },
- {
-  "no": 15,
-  "name": "웨스틴 리조트 괌",
-  "region": "괌 투몬(공항 약 4.5km)",
-  "type": "괌 투몬 해변 앞 가족 리조트",
-  "hook_title": "투몬 바다가 수영장 바로 앞, 괌 리조트",
-  "summary": "투몬 해변 바로 앞, 바위 동굴 수영장·라군형 풀, 오션뷰 객실(발코니), 키즈클럽, 한국어 가능 직원, 공항 약 4.5km. 조식은 만 5세 이하 무료(트립닷컴 정책 기준), 그 외 유료. 인천 직항 약 4시간대.",
-  "thumb": "",
-  "links": [
-   {
-    "platform": "쿠팡",
-    "url": "https://link.coupang.com/a/h1Ykt699Ma"
-   },
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=1570374&Allianceid=11030363&SID=333717644&trip_sub1=pick15&trip_sub3=D20272338"
-   }
-  ],
-  "added": "2026-10-18",
-  "price_check": {
-   "date": "2026-11-07",
-   "nights": 1,
-   "adults": 2,
-   "checked": "2026-11-02",
-   "prices": {
-    "쿠팡": {
-     "krw": 283920,
-     "tax": "포함"
-    },
-    "트립닷컴": {
-     "krw": 283858,
-     "tax": "포함"
+  },
+  {
+    "no": 14,
+    "name": "그랜드 하얏트 인천",
+    "region": "인천 영종도(인천공항 T1 약 5분)",
+    "type": "공항 옆 호텔(사계절 실내 수영장)",
+    "hook_title": "수온 29~30℃ 실내 수영장, 씨메르까지 걸어서 10분",
+    "summary": "실내 수영장(수온 29~30℃, 투숙객 무료, 만 14세 미만 보호자 동반, 유아풀은 공식 안내에 없음), 파라다이스시티 씨메르 도보 약 10분(요금 별도), 레스토랑 8 조식 뷔페, 패밀리룸 최대 4인(성인 최대 3), 아기 침대·아기 텐트 대여(사전 요청), 인천공항 T1 약 5분·무료 셔틀, 투숙객 주차 무료",
+    "thumb": "",
+    "links": [
+      {
+        "platform": "쿠팡",
+        "url": "https://link.coupang.com/a/hJBpjoI4nk"
+      },
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=988259&Allianceid=11030363&SID=333717644&trip_sub1=pick14&trip_sub3=D20676987"
+      }
+    ],
+    "added": "2026-10-27",
+    "price_check": {
+      "date": "2026-11-07",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-11-02",
+      "prices": {
+        "쿠팡": {
+          "krw": 935000,
+          "tax": "포함"
+        },
+        "트립닷컴": {
+          "krw": 840666,
+          "tax": "포함"
+        }
+      },
+      "cheaper": "트립닷컴"
     }
-   },
-   "cheaper": "트립닷컴"
-  }
- },
- {
-  "no": 16,
-  "name": "쉐라톤 와이키키 비치 리조트",
-  "region": "미국 하와이 호놀룰루 와이키키(공항 차로 약 25분)",
-  "type": "와이키키 해변 앞 가족 리조트",
-  "hook_title": "와이키키 바다랑 수영장이 이어지는 하와이 리조트",
-  "summary": "와이키키 해변 바로 앞(수영장에서 해변 출입구 2곳). 가족 수영장(높이 4.5m·길이 21m 미끄럼틀, 어린아이용 작은 미끄럼틀, 유아 전용 얕은 풀은 공식 안내에 없음), 인피니티풀은 16세 이상. 키즈 프로그램·베이비시팅(3개월~12세, 예약제). 오션프런트 조식 뷔페(06:30~10:30). 오션프런트·다이아몬드헤드 뷰·패밀리룸·커넥팅룸. 로열 하와이안 센터 걸어서 이동. 리조트 이용료 별도. 인천 직항 약 8시간대. 쿠팡 링크는 하나투어 하와이 6일 패키지(오션프론트룸 업그레이드).",
-  "thumb": "",
-  "links": [
-   {
-    "platform": "쿠팡",
-    "url": "https://link.coupang.com/a/hWvu6wjN12"
-   },
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=1504760&Allianceid=11030363&SID=333717644&trip_sub1=pick16&trip_sub3=D20279779"
-   }
-  ],
-  "added": "2026-10-18",
-  "price_check": {
-   "date": "2026-11-07",
-   "nights": 1,
-   "adults": 2,
-   "checked": "2026-11-02",
-   "prices": {
-    "쿠팡": {
-     "kind": "package"
-    },
-    "트립닷컴": {
-     "krw": 480380,
-     "tax": "별도",
-     "tax_krw": 82347
+  },
+  {
+    "no": 15,
+    "name": "웨스틴 리조트 괌",
+    "region": "괌 투몬(공항 약 4.5km)",
+    "type": "괌 투몬 해변 앞 가족 리조트",
+    "hook_title": "투몬 바다가 수영장 바로 앞, 괌 리조트",
+    "summary": "투몬 해변 바로 앞, 바위 동굴 수영장·라군형 풀, 오션뷰 객실(발코니), 키즈클럽, 한국어 가능 직원, 공항 약 4.5km. 조식은 만 5세 이하 무료(트립닷컴 정책 기준), 그 외 유료. 인천 직항 약 4시간대.",
+    "thumb": "",
+    "links": [
+      {
+        "platform": "쿠팡",
+        "url": "https://link.coupang.com/a/h1Ykt699Ma"
+      },
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=1570374&Allianceid=11030363&SID=333717644&trip_sub1=pick15&trip_sub3=D20272338"
+      }
+    ],
+    "added": "2026-10-18",
+    "price_check": {
+      "date": "2026-11-07",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-11-02",
+      "prices": {
+        "쿠팡": {
+          "krw": 283920,
+          "tax": "포함"
+        },
+        "트립닷컴": {
+          "krw": 283858,
+          "tax": "포함"
+        }
+      },
+      "cheaper": "트립닷컴"
     }
-   },
-   "cheaper": null
-  }
- },
- {
-  "no": 18,
-  "name": "해비치 호텔 제주",
-  "region": "제주 서귀포 표선(제주공항 차로 약 1시간)",
-  "type": "표선 바다 전망 호텔(온수 풀)",
-  "hook_title": "사계절 온수 트윈 풀·키즈존 무료, 표선 바다 전망 호텔",
-  "summary": "★10/26~11/8 트윈 풀(실내·야외) 공사로 미운영, 그 기간 리조트 야외 풀 '더 써드풀'을 가족 풀로 운영(09:00~22:00). 평소 트윈 풀은 사계절 온수, 유아풀 수심 0.6m, 투숙객 무료. 미취학 키즈존 '놀멍' 투숙객 무료. 바다 전망 조식 뷔페 36개월 이하 무료. 패밀리 스위트 93㎡ 최대 5인. 공항 무료 셔틀(사전 예약).",
-  "thumb": "",
-  "links": [
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=988329&Allianceid=11030363&SID=333717644&trip_sub1=pick18&trip_sub3=D20687550"
-   }
-  ],
-  "added": "2026-10-28",
-  "price_check": {
-   "date": "2026-11-07",
-   "nights": 1,
-   "adults": 2,
-   "checked": "2026-11-02",
-   "prices": {
-    "트립닷컴": {
-     "krw": 396000,
-     "tax": "포함"
+  },
+  {
+    "no": 16,
+    "name": "쉐라톤 와이키키 비치 리조트",
+    "region": "미국 하와이 호놀룰루 와이키키(공항 차로 약 25분)",
+    "type": "와이키키 해변 앞 가족 리조트",
+    "hook_title": "와이키키 바다랑 수영장이 이어지는 하와이 리조트",
+    "summary": "와이키키 해변 바로 앞(수영장에서 해변 출입구 2곳). 가족 수영장(높이 4.5m·길이 21m 미끄럼틀, 어린아이용 작은 미끄럼틀, 유아 전용 얕은 풀은 공식 안내에 없음), 인피니티풀은 16세 이상. 키즈 프로그램·베이비시팅(3개월~12세, 예약제). 오션프런트 조식 뷔페(06:30~10:30). 오션프런트·다이아몬드헤드 뷰·패밀리룸·커넥팅룸. 로열 하와이안 센터 걸어서 이동. 리조트 이용료 별도. 인천 직항 약 8시간대. 쿠팡 링크는 하나투어 하와이 6일 패키지(오션프론트룸 업그레이드).",
+    "thumb": "",
+    "links": [
+      {
+        "platform": "쿠팡",
+        "url": "https://link.coupang.com/a/hWvu6wjN12"
+      },
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=1504760&Allianceid=11030363&SID=333717644&trip_sub1=pick16&trip_sub3=D20279779"
+      }
+    ],
+    "added": "2026-10-18",
+    "price_check": {
+      "date": "2026-11-07",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-11-02",
+      "prices": {
+        "쿠팡": {
+          "kind": "package"
+        },
+        "트립닷컴": {
+          "krw": 480380,
+          "tax": "별도",
+          "tax_krw": 82347
+        }
+      },
+      "cheaper": null
     }
-   },
-   "cheaper": null
-  }
- },
- {
-  "no": 19,
-  "name": "제이파크 아일랜드 리조트 & 워터파크 세부",
-  "region": "필리핀 세부 막탄(공항 차로 약 20분)",
-  "type": "막탄 워터파크 가족 리조트",
-  "hook_title": "수영장 7개·슬라이드 3개, 해적선 키즈풀 있는 세부 워터파크 리조트",
-  "summary": "수영장 7개·워터슬라이드 3개 워터파크, 객실만 예약해도 이용 포함. 해적선 키즈풀·유아풀 수심 약 50cm. 메인 아일랜드 풀은 물을 데워 밤수영 가능. 조식 뷔페(06:00~10:00) 만 6세 이하 무료. 실내 뽀로로 파크(이용료 별도 여부는 예약 때 확인). 전용 해변. 인천 직항 약 4시간 반.",
-  "thumb": "",
-  "links": [
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=846307&Allianceid=11030363&SID=333717644&trip_sub1=pick19&trip_sub3=D20686885"
-   }
-  ],
-  "added": "2026-10-28",
-  "price_check": {
-   "date": "2026-11-07",
-   "nights": 1,
-   "adults": 2,
-   "checked": "2026-11-02",
-   "prices": {
-    "트립닷컴": {
-     "krw": 218574,
-     "tax": "포함"
+  },
+  {
+    "no": 18,
+    "name": "해비치 호텔 제주",
+    "region": "제주 서귀포 표선(제주공항 차로 약 1시간)",
+    "type": "표선 바다 전망 호텔(온수 풀)",
+    "hook_title": "사계절 온수 트윈 풀·키즈존 무료, 표선 바다 전망 호텔",
+    "summary": "★10/26~11/8 트윈 풀(실내·야외) 공사로 미운영, 그 기간 리조트 야외 풀 '더 써드풀'을 가족 풀로 운영(09:00~22:00). 평소 트윈 풀은 사계절 온수, 유아풀 수심 0.6m, 투숙객 무료. 미취학 키즈존 '놀멍' 투숙객 무료. 바다 전망 조식 뷔페 36개월 이하 무료. 패밀리 스위트 93㎡ 최대 5인. 공항 무료 셔틀(사전 예약).",
+    "thumb": "",
+    "links": [
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=988329&Allianceid=11030363&SID=333717644&trip_sub1=pick18&trip_sub3=D20687550"
+      }
+    ],
+    "added": "2026-10-28",
+    "price_check": {
+      "date": "2026-11-07",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-11-02",
+      "prices": {
+        "트립닷컴": {
+          "krw": 396000,
+          "tax": "포함"
+        }
+      },
+      "cheaper": null
     }
-   },
-   "cheaper": null
-  }
- },
- {
-  "no": 20,
-  "name": "노보텔 푸꾸옥 리조트",
-  "region": "베트남 푸꾸옥 즈엉바오/롱비치",
-  "type": "롱비치 해변 앞 가족 리조트",
-  "hook_title": "수영장 2곳 모두 아이 구역, 키즈클럽 매일 여는 푸꾸옥 롱비치 리조트",
-  "summary": "롱비치 해변 앞. 야외 수영장 2곳(정원 인피니티 풀·해변 오션 풀) 모두 아이 전용 구역, 매일 06:00~21:00. 키즈클럽 매일 09:00~18:00(일부 활동 유료). 조식 뷔페 06:30~10:30, 아이 무료는 트립닷컴 정책 기준 만 5세 이하. 공항 약 10분, 무료 셔틀(24시간 전 예약). 개인 수영장 방갈로 객실 있음.",
-  "thumb": "",
-  "links": [
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=4957718&Allianceid=11030363&SID=333717644&trip_sub1=pick20&trip_sub3=D20727282"
-   }
-  ],
-  "added": "2026-10-29",
-  "price_check": {
-   "date": "2026-11-07",
-   "nights": 1,
-   "adults": 2,
-   "checked": "2026-11-02",
-   "prices": {
-    "트립닷컴": {
-     "krw": 174498,
-     "tax": "포함"
+  },
+  {
+    "no": 19,
+    "name": "제이파크 아일랜드 리조트 & 워터파크 세부",
+    "region": "필리핀 세부 막탄(공항 차로 약 20분)",
+    "type": "막탄 워터파크 가족 리조트",
+    "hook_title": "수영장 7개·슬라이드 3개, 해적선 키즈풀 있는 세부 워터파크 리조트",
+    "summary": "수영장 7개·워터슬라이드 3개 워터파크, 객실만 예약해도 이용 포함. 해적선 키즈풀·유아풀 수심 약 50cm. 메인 아일랜드 풀은 물을 데워 밤수영 가능. 조식 뷔페(06:00~10:00) 만 6세 이하 무료. 실내 뽀로로 파크(이용료 별도 여부는 예약 때 확인). 전용 해변. 인천 직항 약 4시간 반.",
+    "thumb": "",
+    "links": [
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=846307&Allianceid=11030363&SID=333717644&trip_sub1=pick19&trip_sub3=D20686885"
+      }
+    ],
+    "added": "2026-10-28",
+    "price_check": {
+      "date": "2026-11-07",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-11-02",
+      "prices": {
+        "트립닷컴": {
+          "krw": 218574,
+          "tax": "포함"
+        }
+      },
+      "cheaper": null
     }
-   },
-   "cheaper": null
-  }
- },
- {
-  "no": 21,
-  "name": "카시아 속초",
-  "region": "강원 속초 대포항",
-  "type": "대포항 바다 전망 가족 호텔",
-  "hook_title": "겨울에도 여는 인피니티 풀, 실내 수영장·키즈풀은 사계절 운영하는 속초 대포항 호텔",
-  "summary": "실외 오션뷰 인피니티 풀은 동절기(11/23~3/31) 10:00~18:00로 단축 운영, 기상에 따라 이용 제한될 수 있음. 실내 수영장·키즈풀 사계절 운영(유료, 투숙객 20% 할인). 키즈카페·슬라임 만들기 등 키즈 시설. 바다 전망 노천탕(만 12세 이상). 바다 전망 조식 뷔페. 4인 패밀리 클럽 객실. 대포항 바로 뒤, 속초해변·설악산 가까움.",
-  "thumb": "",
-  "links": [
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=117185967&Allianceid=11030363&SID=333717644&trip_sub1=pick21&trip_sub3=D20824393"
-   }
-  ],
-  "added": "2026-11-01",
-  "price_check": {
-   "date": "2026-11-07",
-   "nights": 1,
-   "adults": 2,
-   "checked": "2026-11-02",
-   "prices": {
-    "트립닷컴": {
-     "krw": 303829,
-     "tax": "포함"
+  },
+  {
+    "no": 20,
+    "name": "노보텔 푸꾸옥 리조트",
+    "region": "베트남 푸꾸옥 즈엉바오/롱비치",
+    "type": "롱비치 해변 앞 가족 리조트",
+    "hook_title": "수영장 2곳 모두 아이 구역, 키즈클럽 매일 여는 푸꾸옥 롱비치 리조트",
+    "summary": "롱비치 해변 앞. 야외 수영장 2곳(정원 인피니티 풀·해변 오션 풀) 모두 아이 전용 구역, 매일 06:00~21:00. 키즈클럽 매일 09:00~18:00(일부 활동 유료). 조식 뷔페 06:30~10:30, 아이 무료는 트립닷컴 정책 기준 만 5세 이하. 공항 약 10분, 무료 셔틀(24시간 전 예약). 개인 수영장 방갈로 객실 있음.",
+    "thumb": "",
+    "links": [
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=4957718&Allianceid=11030363&SID=333717644&trip_sub1=pick20&trip_sub3=D20727282"
+      }
+    ],
+    "added": "2026-10-29",
+    "price_check": {
+      "date": "2026-11-07",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-11-02",
+      "prices": {
+        "트립닷컴": {
+          "krw": 174498,
+          "tax": "포함"
+        }
+      },
+      "cheaper": null
     }
-   },
-   "cheaper": null
+  },
+  {
+    "no": 21,
+    "name": "카시아 속초",
+    "region": "강원 속초 대포항",
+    "type": "대포항 바다 전망 가족 호텔",
+    "hook_title": "겨울에도 여는 인피니티 풀, 실내 수영장·키즈풀은 사계절 운영하는 속초 대포항 호텔",
+    "summary": "실외 오션뷰 인피니티 풀은 동절기(11/23~3/31) 10:00~18:00로 단축 운영, 기상에 따라 이용 제한될 수 있음. 실내 수영장·키즈풀 사계절 운영(유료, 투숙객 20% 할인). 키즈카페·슬라임 만들기 등 키즈 시설. 바다 전망 노천탕(만 12세 이상). 바다 전망 조식 뷔페. 4인 패밀리 클럽 객실. 대포항 바로 뒤, 속초해변·설악산 가까움.",
+    "thumb": "",
+    "links": [
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=117185967&Allianceid=11030363&SID=333717644&trip_sub1=pick21&trip_sub3=D20824393"
+      }
+    ],
+    "added": "2026-11-01",
+    "price_check": {
+      "date": "2026-11-07",
+      "nights": 1,
+      "adults": 2,
+      "checked": "2026-11-02",
+      "prices": {
+        "트립닷컴": {
+          "krw": 303829,
+          "tax": "포함"
+        }
+      },
+      "cheaper": null
+    }
+  },
+  {
+    "no": 22,
+    "name": "라마다 강원 속초",
+    "region": "강원 속초 대포항",
+    "type": "대포항 바다 전망 호텔(윈덤 그룹 라마다 브랜드)",
+    "hook_title": "창문 열면 바로 바다, 대포항 코앞 속초 호텔",
+    "summary": "바다 전망 객실 요청 가능, 전용 발코니, 패밀리 트윈·패밀리 스위트. 2층 뷔페 레스토랑 통창 바다 전망 조식(36개월 미만 무료, 예약 사이트 안내). 호텔 수영장·유아풀·키즈 시설은 공식 안내에 없음(예전 아쿠아 패밀리풀은 운영 중단 안내). 투숙객 무료 주차(진입로 좁음), 대포항 맛집거리·빨간 등대 도보, 엑스트라 베드 불가.",
+    "thumb": "",
+    "links": [
+      {
+        "platform": "트립닷컴",
+        "url": "https://kr.trip.com/hotels/detail/?hotelId=6107210&Allianceid=11030363&SID=333717644&trip_sub1=pick22&trip_sub3=D20860674"
+      }
+    ],
+    "added": "2026-11-03"
   }
- },
- {
-  "no": 22,
-  "name": "라마다 강원 속초",
-  "region": "강원 속초 대포항",
-  "type": "대포항 바다 전망 호텔(윈덤 그룹 라마다 브랜드)",
-  "hook_title": "창문 열면 바로 바다, 대포항 코앞 속초 호텔",
-  "summary": "바다 전망 객실 요청 가능, 전용 발코니, 패밀리 트윈·패밀리 스위트. 2층 뷔페 레스토랑 통창 바다 전망 조식(36개월 미만 무료, 예약 사이트 안내). 호텔 수영장·유아풀·키즈 시설은 공식 안내에 없음(예전 아쿠아 패밀리풀은 운영 중단 안내). 투숙객 무료 주차(진입로 좁음), 대포항 맛집거리·빨간 등대 도보, 엑스트라 베드 불가.",
-  "thumb": "",
-  "links": [
-   {
-    "platform": "트립닷컴",
-    "url": "https://kr.trip.com/hotels/detail/?hotelId=6107210&Allianceid=11030363&SID=333717644&trip_sub1=pick22&trip_sub3=D20860674"
-   }
-  ],
-  "added": "2026-11-03"
- }
 ]

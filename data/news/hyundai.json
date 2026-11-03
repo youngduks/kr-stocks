@@ -1,25 +1,43 @@
 {
   "category": "hyundai",
-  "updated_at": "2026-11-02T20:58:06.436Z",
-  "count": 2,
+  "updated_at": "2026-11-03T02:44:51.214Z",
+  "count": 4,
   "items": [
     {
-      "title": "정의선 만난 이형일…생산세액공제 등 전기차 경쟁력 강화 논의(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261102126151002",
-      "source": "연합뉴스 경제",
-      "ts": 1793612263000,
-      "pub": "Mon, 2 Nov 2026 18:37:43 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울·세종=연합뉴스) 장하나 김수현 기자 = 이형일 부총리 겸 재정경제부 장관이 정의선 현대차그룹 회장을 만나 전기차 경쟁력 강화방안 등을 논...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/02/PYH2026110218650001300_P2.jpg"
+      "title": "\"한국서 무섭게 팔리더니\"…'이러다 큰일' 현대차도 심상찮다 [이슈+]",
+      "link": "https://www.hankyung.com/article/202611032191g",
+      "source": "한국경제",
+      "ts": 1793672042000,
+      "pub": "Tue, 03 Nov 2026 11:14:02 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "정의선 회장 만난 李 부총리…\"전기차 생산세액공제 논의할 것\"",
-      "link": "https://www.hankyung.com/article/2026110211521",
+      "title": "베이징, 2030년까지 수소차 1만2천대 보급·충전소 40곳 구축",
+      "link": "https://www.yna.co.kr/view/AKR20261103081300083",
+      "source": "연합뉴스 국제",
+      "ts": 1793671855000,
+      "pub": "Tue, 3 Nov 2026 11:10:55 +0900",
+      "sentiment": "neutral",
+      "desc": "(베이징=연합뉴스) 김현정 특파원 = 중국 수도 베이징시가 오는 2030년까지 수소연료전지차(수소차)를 1만2천대 이상 보급하고 수소충전소를 4...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2025/09/11/PEP20250911130001009_P2.jpg"
+    },
+    {
+      "title": "현대차, 대형·고급 정비거점 '그랜드 블루핸즈' 확대…29년까지 30곳 구축",
+      "link": "https://www.hankyung.com/article/202611032384g",
       "source": "한국경제",
-      "ts": 1793611753000,
-      "pub": "Mon, 02 Nov 2026 18:29:13 +0900",
+      "ts": 1793670862000,
+      "pub": "Tue, 03 Nov 2026 10:54:22 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "현대차 제네시스 이틀째 생산 중단…노사 마찰 지속",
+      "link": "https://www.yna.co.kr/view/AKR20261103033700057",
+      "source": "연합뉴스 경제",
+      "ts": 1793664093000,
+      "pub": "Tue, 3 Nov 2026 09:01:33 +0900",
+      "sentiment": "neutral",
+      "desc": "(울산=연합뉴스) 김근주 기자 = 현대자동차 제네시스 생산이 신차 투입을 둘러싼 노사 마찰로 이틀째 중단되고 있다.",
+      "image": "https://img.yna.co.kr/photo/cms/2024/09/10/13/PCM20240910000313003_P2.jpg"
     }
   ]
 }

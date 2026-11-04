@@ -1,8 +1,46 @@
 {
   "category": "samsung",
-  "updated_at": "2026-11-03T23:45:04.583Z",
-  "count": 6,
+  "updated_at": "2026-11-04T03:42:38.324Z",
+  "count": 5,
   "items": [
+    {
+      "title": "\"지금은 잘 나가지만…\" 삼전닉스 호황 속 커지는 '경고음' [테크로그]",
+      "link": "https://www.hankyung.com/article/202611044106g",
+      "source": "한국경제",
+      "ts": 1793755876000,
+      "pub": "Wed, 04 Nov 2026 10:31:16 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "KB증권, 코스피200·삼성전자 연계 '수익 참조 상승형' ELB 모집",
+      "link": "https://www.yna.co.kr/view/AKR20261104059300008",
+      "source": "연합뉴스 경제",
+      "ts": 1793754696000,
+      "pub": "Wed, 4 Nov 2026 10:11:36 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 고은지 기자 = KB증권은 코스피200과 삼성전자[005930]를 기초자산으로 하는 만기 1년의 '수익 참조 상승형 주가연계파...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/04/AKR20261104059300008_01_i_P2.jpg"
+    },
+    {
+      "title": "[특징주] 삼성전자, 장 초반 3%대 급등…SK하이닉스도 4.8%↑",
+      "link": "https://www.yna.co.kr/view/AKR20261104038800008",
+      "source": "연합뉴스 경제",
+      "ts": 1793751364000,
+      "pub": "Wed, 4 Nov 2026 09:16:04 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 4일 장 초반 각각 3%와 4%대의 상승률을 보이며 동반...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/10/29/28/PCM20261029000028990_P2.jpg"
+    },
+    {
+      "title": "하나證 \"비용부담 커진 애플, 비메모리 업체 판가압박 가능성\"",
+      "link": "https://www.yna.co.kr/view/AKR20261104025700008",
+      "source": "연합뉴스 경제",
+      "ts": 1793750153000,
+      "pub": "Wed, 4 Nov 2026 08:55:53 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유아 기자 = 하나증권은 미국 스마트폰 제조업체 애플이 메모리 가격 상승 부담을 이유로 비용 절감에 나설 경우 비메모리 납품...",
+      "image": "https://img.yna.co.kr/photo/cms/2016/12/23/01/C0A8CAE2000001592920AE7C000002D5_P2.jpg"
+    },
     {
       "title": "삼성전자 TV, 미국 컨슈머리포트 평가서 크기별 전 부문 1위",
       "link": "https://www.yna.co.kr/view/AKR20261103158800003",
@@ -12,50 +50,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 강태우 기자 = 삼성전자[005930] TV가 미국 소비자 전문매체 컨슈머리포트의 평가에서 초대형부터 소형까지 모든 크기별 부...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/25/PYH2026062500940001300_P2.jpg"
-    },
-    {
-      "title": "\"애플, 메모리값 뛰자 부품사 '가격 인하' 압박 우려\"-하나",
-      "link": "https://www.hankyung.com/article/2026110442496",
-      "source": "한국경제",
-      "ts": 1793745527000,
-      "pub": "Wed, 04 Nov 2026 07:38:47 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"주가 흔들려도 걱정 없다?\"…삼전닉스 '역대급 전망'에 깜짝 [종목+]",
-      "link": "https://www.hankyung.com/article/2026110442246",
-      "source": "한국경제",
-      "ts": 1793744461000,
-      "pub": "Wed, 04 Nov 2026 07:21:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"이런 메모리값 처음\"…애플 새CEO \"내년에도 메모리 구매비 오를 것\"",
-      "link": "https://www.hankyung.com/article/202611044103i",
-      "source": "한국경제",
-      "ts": 1793721766000,
-      "pub": "Wed, 04 Nov 2026 01:02:46 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전·닉스, 美반도체 약세·중간선거 경계감에 4∼5%대 급락(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261103043751008",
-      "source": "연합뉴스 경제",
-      "ts": 1793688713000,
-      "pub": "Tue, 3 Nov 2026 15:51:53 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 3일 각각 4%와 5%대의 낙폭을 기록한 채 정규장 거래...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/03/PYH2026110318100001300_P2.jpg"
-    },
-    {
-      "title": "밀수업자들이 한국산 HBM을 중국에 빼돌리는 방법",
-      "link": "https://www.yna.co.kr/view/AKR20261103123500009",
-      "source": "연합뉴스 국제",
-      "ts": 1793686582000,
-      "pub": "Tue, 3 Nov 2026 15:16:22 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 주종국 기자 = 미국의 대중 수출금지 조치에도 밀수업자들이 규정의 허점을 이용해 삼성전자와 SK하이닉스가 만든 첨단 고대역폭 ...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/24/85/PCM20260624000085990_P2.jpg"
     }
   ]
 }

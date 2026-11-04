@@ -1,55 +1,33 @@
 {
   "category": "samsung",
-  "updated_at": "2026-11-04T03:42:38.324Z",
-  "count": 5,
+  "updated_at": "2026-11-04T11:41:13.373Z",
+  "count": 3,
   "items": [
     {
-      "title": "\"지금은 잘 나가지만…\" 삼전닉스 호황 속 커지는 '경고음' [테크로그]",
-      "link": "https://www.hankyung.com/article/202611044106g",
+      "title": "中 창신메모리, 자사주 매입 1조원까지 두 배 늘려…13% 폭등",
+      "link": "https://www.hankyung.com/article/202611046488i",
       "source": "한국경제",
-      "ts": 1793755876000,
-      "pub": "Wed, 04 Nov 2026 10:31:16 +0900",
-      "sentiment": "negative"
+      "ts": 1793786575000,
+      "pub": "Wed, 04 Nov 2026 19:02:55 +0900",
+      "sentiment": "positive"
     },
     {
-      "title": "KB증권, 코스피200·삼성전자 연계 '수익 참조 상승형' ELB 모집",
-      "link": "https://www.yna.co.kr/view/AKR20261104059300008",
-      "source": "연합뉴스 경제",
-      "ts": 1793754696000,
-      "pub": "Wed, 4 Nov 2026 10:11:36 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 고은지 기자 = KB증권은 코스피200과 삼성전자[005930]를 기초자산으로 하는 만기 1년의 '수익 참조 상승형 주가연계파...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/04/AKR20261104059300008_01_i_P2.jpg"
+      "title": "삼성전자 TV, 美 소비자 평가서 전 부문 1위",
+      "link": "https://www.hankyung.com/article/2026110464001",
+      "source": "한국경제",
+      "ts": 1793784130000,
+      "pub": "Wed, 04 Nov 2026 18:22:10 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "[특징주] 삼성전자, 장 초반 3%대 급등…SK하이닉스도 4.8%↑",
-      "link": "https://www.yna.co.kr/view/AKR20261104038800008",
+      "title": "장중 급등락하며 '출렁'…삼전닉스, 약보합 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261104038851008",
       "source": "연합뉴스 경제",
-      "ts": 1793751364000,
-      "pub": "Wed, 4 Nov 2026 09:16:04 +0900",
+      "ts": 1793775285000,
+      "pub": "Wed, 4 Nov 2026 15:54:45 +0900",
       "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 4일 장 초반 각각 3%와 4%대의 상승률을 보이며 동반...",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 4일 장중 급등락을 반복한 끝에 소폭 하락한 채 정규장을...",
       "image": "https://img.yna.co.kr/photo/cms/2026/10/29/28/PCM20261029000028990_P2.jpg"
-    },
-    {
-      "title": "하나證 \"비용부담 커진 애플, 비메모리 업체 판가압박 가능성\"",
-      "link": "https://www.yna.co.kr/view/AKR20261104025700008",
-      "source": "연합뉴스 경제",
-      "ts": 1793750153000,
-      "pub": "Wed, 4 Nov 2026 08:55:53 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 하나증권은 미국 스마트폰 제조업체 애플이 메모리 가격 상승 부담을 이유로 비용 절감에 나설 경우 비메모리 납품...",
-      "image": "https://img.yna.co.kr/photo/cms/2016/12/23/01/C0A8CAE2000001592920AE7C000002D5_P2.jpg"
-    },
-    {
-      "title": "삼성전자 TV, 미국 컨슈머리포트 평가서 크기별 전 부문 1위",
-      "link": "https://www.yna.co.kr/view/AKR20261103158800003",
-      "source": "연합뉴스 경제",
-      "ts": 1793746860000,
-      "pub": "Wed, 4 Nov 2026 08:01:00 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 강태우 기자 = 삼성전자[005930] TV가 미국 소비자 전문매체 컨슈머리포트의 평가에서 초대형부터 소형까지 모든 크기별 부...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/06/25/PYH2026062500940001300_P2.jpg"
     }
   ]
 }

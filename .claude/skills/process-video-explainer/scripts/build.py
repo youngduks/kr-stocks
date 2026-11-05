@@ -11,7 +11,7 @@ Usage: python3 build.py <project_dir> <out.html>
 import html, json, pathlib, re, sys
 
 SKILL = pathlib.Path(__file__).resolve().parent.parent
-UNIT_RE = re.compile(r'(\d|~|≥|≤) (μm|nm|mm|cm|m|℃|°C|kOe|kA/m|g/cm³|kg|t|h|T|%|MPa|GPa|kV|kA|V|A|wt%|at%|ppm)(?=[\s<,.)·/]|$)')
+UNIT_RE = re.compile(r'(\d|~|≥|≤) (μm|nm|mm|cm|m|℃|°C|kOe|kA/m|g/cm³|W/kg|kWh|kW|kHz|Hz|spm|rpm|kN|kg|t|h|T|%|MPa|GPa|kV|kA|V|A|W|wt%|at%|ppm)(?=[\s<,.)·/]|$)')
 
 
 def main():

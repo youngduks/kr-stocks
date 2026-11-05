@@ -249,6 +249,11 @@ function along(p,L,u){const d=u*L[L.length-1];let i=1;while(i<L.length-1&&L[i]<d
 function bg(){ctx.fillStyle=C.bg;ctx.fillRect(0,0,W,H);ctx.strokeStyle=C.grid;ctx.lineWidth=1;ctx.beginPath();for(let x=40;x<W;x+=40){ctx.moveTo(x+.5,0);ctx.lineTo(x+.5,H);}for(let y=40;y<H;y+=40){ctx.moveTo(0,y+.5);ctx.lineTo(W,y+.5);}ctx.stroke();}
 function hexPath(x,y,r){ctx.beginPath();for(let k=0;k<6;k++){const a=-Math.PI/2+k*Math.PI/3;const px=x+r*Math.cos(a),py=y+r*Math.sin(a);k?ctx.lineTo(px,py):ctx.moveTo(px,py);}ctx.closePath();}
 function metalGrad(x0,y0,x1,y1){const g=ctx.createLinearGradient(x0,y0,x1,y1);g.addColorStop(0,'#e3e8ef');g.addColorStop(.45,'#9aa4b4');g.addColorStop(.7,'#c9d0da');g.addColorStop(1,'#6c7686');return g;}
+/* 금속·소재 공정용 공통 도구: 코일 단면, 압연 롤, 원통 적층체, 온도색 */
+function coilFace(x,y,R,r,col){if(R<=r)return;circle(x,y,R);ctx.fillStyle=col;ctx.fill();ctx.strokeStyle='rgba(0,0,0,.22)';ctx.lineWidth=1;for(let k=r+4;k<R;k+=5){circle(x,y,k);ctx.stroke();}circle(x,y,r);ctx.fillStyle=C.bg;ctx.fill();ctx.strokeStyle=C.steel;ctx.lineWidth=1.5;ctx.stroke();circle(x,y,R);ctx.stroke();}
+function rollC(x,y,r,ang,col){ctx.save();ctx.translate(x,y);circle(0,0,r);const g=ctx.createRadialGradient(-r*.3,-r*.3,1,0,0,r);g.addColorStop(0,'#b7c0ce');g.addColorStop(1,col||'#454d5c');ctx.fillStyle=g;ctx.fill();ctx.strokeStyle='#1e2430';ctx.lineWidth=1.5;ctx.stroke();ctx.rotate(ang);ctx.strokeStyle='rgba(20,24,32,.6)';ctx.beginPath();ctx.moveTo(-r*.7,0);ctx.lineTo(r*.7,0);ctx.stroke();ctx.restore();}
+function heat(u){return u<.5?mixc('#ffd08a','#e0702a',u*2):mixc('#e0702a','#5a4a4a',(u-.5)*2);}
+function cylStack(x,y,rx,h,col,face){const ry=rx*.36;ctx.fillStyle=col;ctx.fillRect(x-rx,y,rx*2,h);ctx.beginPath();ctx.ellipse(x,y+h,rx,ry,0,0,Math.PI);ctx.fill();ctx.strokeStyle='rgba(20,24,32,.35)';ctx.lineWidth=1;for(let k=4;k<h;k+=4){ctx.beginPath();ctx.ellipse(x,y+k,rx,ry,0,0,Math.PI);ctx.stroke();}ctx.strokeStyle=C.steel;ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(x-rx,y);ctx.lineTo(x-rx,y+h);ctx.ellipse(x,y+h,rx,ry,0,Math.PI,0,true);ctx.lineTo(x+rx,y);ctx.stroke();if(face){ctx.save();ctx.translate(x,y);ctx.scale(1,.36);face();ctx.restore();}}
 
 /*{{SCENES}}*/
 const starts=[];let tot=0;S.forEach(s=>{starts.push(tot);tot+=s.d;});
@@ -352,7 +357,7 @@ document.addEventListener('keydown',e=>{const tg=e.target;if(tg&&(tg.tagName==='
 
 setPlayIcon();
 /* test hook used by scripts/check.js */
-window.__pv={count:S.length,show:(i,f)=>{playing=false;atEnd=false;cur=starts[i]+S[i].d*f;idx=-1;setPlayIcon();},state:()=>({cur,playing,atEnd,step:S[sceneAt(cur)].no})};
+window.__pv={count:S.length,durs:S.map(s=>s.d),show:(i,f)=>{playing=false;atEnd=false;cur=starts[i]+S[i].d*f;idx=-1;setPlayIcon();},state:()=>({cur,playing,atEnd,step:S[sceneAt(cur)].no})};
 requestAnimationFrame(frame);
 })();
 </script>

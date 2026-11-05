@@ -7,10 +7,28 @@
       "channel": "전인구경제연구소",
       "channel_url": "https://www.youtube.com/@moneydo",
       "channel_id": "UCznImSIaxZR7fdLCICLdgaQ",
-      "last_checked_video_id": "4uDM5vrNKSA",
+      "last_checked_video_id": "wtyGtSNDDT4",
       "tagline": "\"고점 판독기\" — 나무위키에도 등재된 별명. 2023년 이후 증시 전망이 반대로 맞는 걸로 유명",
       "note": "본인 문서(나무위키)에 \"시장 전망 영상 대부분이 틀리는 걸 넘어 반대로 맞히는 예지력\"이라는 비판이 있고, 댓글창에서 \"고점 판독기\"·\"어둠의 고수\"로 불림. 역발상 참고용으로 소개합니다 — 조롱이 목적이 아니라, 실제로 존재하는 밈이라 재미로 트래킹합니다.",
       "opinions": [
+        {
+          "date": "2026-11-05",
+          "title": "CPI가 뭐길래 내 통장까지 털어갈까?",
+          "summary": "CPI가 시장 예상보다 높게 나오면 중앙은행이 금리를 더 올리거나 높은 금리를 유지해 대출 부담과 소비가 늘고 기업 투자·실적 전망이 나빠져 주가가 떨어질 수 있다고 설명한다. 특히 미래 가치가 중요한 기술주가 큰 타격을 받는다고 말한다.",
+          "summary_short": "CPI 상회 시 주가 하락 위험",
+          "stance": "cautious",
+          "video_url": "https://www.youtube.com/watch?v=wtyGtSNDDT4",
+          "published_at": "2026-11-05T10:30:30.000Z"
+        },
+        {
+          "date": "2026-11-05",
+          "title": "블루웨이브가 현실이 됐습니다. 돈의 흐름이 여기로 바뀝니다",
+          "summary": "민주당 블루웨이브 이후 유가 하락(104→88달러)과 금리 하락 기대로 빅테크·금융·바이오·태양광이 오르고 방산·테슬라·엔비디아 등은 떨어졌다고 설명하며, 시장 전체 평균은 크게 달라지지 않을 수 있어 지수보다 수혜 업종을 보라고 말한다. 다만 부채한도 협상 난항과 데이터센터 규제 이슈로 증시가 흔들릴 수 있다고 보며, 이것이 큰 흐름일지 작은 파동일지는 더 분석이 필요하다고 한다.",
+          "summary_short": "블루웨이브, 업종별 차별화",
+          "stance": "cautious",
+          "video_url": "https://www.youtube.com/watch?v=At99FKgj9rM",
+          "published_at": "2026-11-04T21:40:36.000Z"
+        },
         {
           "date": "2026-11-01",
           "title": "인텔발 검은 월요일, 현실적인 월요일 대처방법",
@@ -82,24 +100,6 @@
           "stance": "cautious",
           "video_url": "https://www.youtube.com/watch?v=lULj5-ljyoI",
           "published_at": "2026-10-25T04:16:14.000Z"
-        },
-        {
-          "date": "2026-10-23",
-          "title": "적자에 신주발행하는 메타, 투자비 공포에 질린 증시",
-          "summary": "메타의 AI 지출 약정 급증과 FCF 적자 전환, 우선주 발행, 엔트로픽 성장 둔화 우려 등으로 유동성이 시장에서 빠지고 있다고 진단한다. 국채 금리 하락과 방어주 강세로 안전자산 선호가 뚜렷하며, 환율 부담 속에 코스피가 5,300선에서 불안하게 움직이는 만큼 5,000선 지지와 반등을 바란다고 말한다.",
-          "summary_short": "유동성 이탈, 증시 약세 우려",
-          "stance": "bearish",
-          "video_url": "https://www.youtube.com/watch?v=HnCvxsvJxFs",
-          "published_at": "2026-10-23T00:39:08.000Z"
-        },
-        {
-          "date": "2026-10-22",
-          "title": "지금 부자들은 '이 채권' 사느라 난리 났습니다(ft.마경환 대표 2부)",
-          "summary": "AI 랠리가 후반부(레이트 사이클)에 와 있다는 것이 해외 주식 자료들의 거의 동일한 견해라고 전하며, 경제가 나빠질 경우에 대비해 주식과 반대로 움직이는 국채로 헤지할 필요가 있다고 말한다. 또한 한국과 미국 모두 K자 경제이며 AI 기업 실적이 아래쪽 약세를 가리고 있어 버블이 터지면 크게 하락할 수 있고, 최근 주식·채권의 헤지 기능이 복원되는 신호가 보인다고 해석한다.",
-          "summary_short": "AI 랠리 후반, 국채 헤지",
-          "stance": "cautious",
-          "video_url": "https://www.youtube.com/watch?v=Q0CL-MW9xv4",
-          "published_at": "2026-10-22T02:04:36.000Z"
         }
       ],
       "pending": []

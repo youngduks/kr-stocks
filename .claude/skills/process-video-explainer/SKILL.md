@@ -15,7 +15,7 @@ description: 부품·소재가 원료에서 완제품이 되기까지의 제조 
 | `scenes.js` | 장면 그리기 함수들 + 공정 데이터 배열 `const S=[...]` |
 | `sections.html` | 단계 목록 아래의 "설비 검토" 섹션들(설비표, 방식 비교, 검토 의견, 참고 자료) |
 
-완성 예제(EV 구동모터용 NdFeB 영구자석, 15개 장면)가 `references/example-ndfeb/`에 있다. 처음 만들 때는 예제의 `scenes.js` 앞부분과 `S` 배열, `sections.html` 구조를 먼저 훑어보고 시작하면 빠르다.
+완성 예제(EV 구동모터용 NdFeB 영구자석, 15개 장면, 자석 중량·원가 계산기 포함)가 `references/example-ndfeb/`에 있다. 처음 만들 때는 예제의 `scenes.js` 앞부분과 `S` 배열, `sections.html` 구조를 먼저 훑어보고 시작하면 빠르다.
 
 ## 작업 순서
 
@@ -77,4 +77,4 @@ Artifact 도구로 게시한다. 첫 게시 때는 `icon`(예: "factory")과 한
 ## 참고 파일
 - `references/scene-cookbook.md`: 캔버스 좌표계, 헬퍼 API, 레이아웃 금지 구역, 장면 패턴(단일 공정, 단계 칩, 분할 비교, 방식 격자, 요약 체인)과 예제 장면 위치
 - `references/content-guide.md`: 원자재 형태·설비·관리 포인트 작성법, 설비표·비교표·장단점 카드·검토 의견 마크업, 단위·문체 규칙
-- `references/example-ndfeb/`: 완성 예제 프로젝트(그대로 빌드 가능)
+- `references/example-ndfeb/`: 완성 예제 프로젝트(그대로 빌드 가능). `sections.html` 맨 앞에 계산기 섹션 예가 있다

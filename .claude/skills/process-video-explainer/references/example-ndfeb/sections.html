@@ -1,3 +1,259 @@
+  <style>
+  :root{--c-prnd:#6a4fbf;--c-dy:#b07a12;--c-tb:#b8457a;--c-oth:#7d8799;--c-proc:#3f7f8c;--warn-bg:#fbf1e2;--warn-ink:#7a4a12;--field:#ffffff}
+  @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--c-prnd:#b9a3f0;--c-dy:#e8b34a;--c-tb:#ec8fb8;--c-oth:#9aa2b5;--c-proc:#7fd6e8;--warn-bg:#2a2216;--warn-ink:#f0c98a;--field:#0e1219}}
+  :root[data-theme="dark"]{--c-prnd:#b9a3f0;--c-dy:#e8b34a;--c-tb:#ec8fb8;--c-oth:#9aa2b5;--c-proc:#7fd6e8;--warn-bg:#2a2216;--warn-ink:#f0c98a;--field:#0e1219}
+  .calc-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:16px;align-items:start}
+  @media (max-width:860px){.calc-grid{grid-template-columns:minmax(0,1fr)}}
+  .calc-in{display:grid;gap:12px;min-width:0}
+  .calc-in fieldset,.calc-in details{border:1px solid var(--rule);border-radius:10px;background:var(--card);padding:12px 14px;margin:0;min-width:0}
+  .calc-in legend{font-weight:700;font-size:14px;padding:0 4px}
+  .calc-in summary{font-weight:700;font-size:14px;cursor:pointer}
+  .calc-in summary span{font-weight:400;color:var(--muted);font-size:12.5px}
+  .fgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px 12px;margin-top:6px}
+  .fld{display:grid;gap:3px;min-width:0}
+  .fld label{font-size:12.5px;color:var(--muted)}
+  .fld .hint{font-size:11.5px;color:var(--muted);line-height:1.35}
+  .inp{display:flex;align-items:center;border:1px solid var(--rule);border-radius:8px;background:var(--field);overflow:hidden}
+  .inp:focus-within{outline:2px solid var(--accent);outline-offset:1px}
+  .inp input,.inp select{flex:1;min-width:0;border:0;background:transparent;color:var(--ink);font:500 14px var(--f-mono);padding:7px 9px;font-variant-numeric:tabular-nums}
+  .inp input:focus,.inp select:focus{outline:none}
+  .inp .u{font-size:12px;color:var(--muted);padding:0 9px;white-space:nowrap}
+  .inp select{flex:none;width:auto;font-family:var(--f-body);font-size:13px;color:var(--muted);padding-right:6px}
+  @media (max-width:480px){.kpis{grid-template-columns:minmax(0,1fr)}}
+  select.full{width:100%;border:1px solid var(--rule);border-radius:8px;background:var(--field);color:var(--ink);font:500 14px var(--f-body);padding:7px 9px}
+  .seg-r{display:inline-flex;border:1px solid var(--rule);border-radius:999px;overflow:hidden;margin-top:4px}
+  .seg-r label{font-size:13px;padding:5px 12px;cursor:pointer;color:var(--muted)}
+  .seg-r input{position:absolute;opacity:0;pointer-events:none}
+  .seg-r input:checked+span{color:var(--accent);font-weight:700}
+  .seg-r label:has(input:focus-visible){outline:2px solid var(--accent);outline-offset:-2px}
+  .btn-reset{justify-self:start;font:600 13px var(--f-body);border:1px solid var(--rule);background:var(--card);color:var(--ink);border-radius:8px;padding:7px 12px;cursor:pointer}
+  .btn-reset:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .calc-out{display:grid;gap:12px;min-width:0;position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px)}
+  @media (max-width:860px){.calc-out{position:static}}
+  .kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .kpi{border:1px solid var(--rule);border-radius:10px;background:var(--card);padding:12px 14px;min-width:0}
+  .kpi .lab{font-size:12.5px;color:var(--muted)}
+  .kpi .val{font:600 clamp(20px,2.6vw,26px)/1.2 var(--f-mono);font-variant-numeric:tabular-nums;margin-top:2px;overflow-wrap:anywhere}
+  .kpi .sub{font:12.5px var(--f-mono);color:var(--muted);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+  .kpi.main{border-color:var(--accent)}
+  .stack{display:flex;height:16px;border-radius:5px;overflow:hidden;background:var(--rule)}
+  .stack i{display:block;height:100%}
+  .lg{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:var(--muted);margin-top:6px}
+  .lg span{display:inline-flex;align-items:center;gap:5px}
+  .lg b{width:10px;height:10px;border-radius:2px;display:inline-block}
+  .box{border:1px solid var(--rule);border-radius:10px;background:var(--card);padding:12px 14px;display:grid;gap:8px;min-width:0}
+  .box h3{margin:0;font-size:14px}
+  .kv{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;font-size:13.5px;margin:0}
+  .kv dt{color:var(--muted)}
+  .kv dd{margin:0;text-align:right;font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+  .warns{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+  .warns li{background:var(--warn-bg);color:var(--warn-ink);border-radius:8px;padding:8px 10px;font-size:13px}
+  .sens{width:100%;border-collapse:collapse;font-size:13px}
+  .sens th,.sens td{padding:5px 6px;border-bottom:1px solid var(--rule);text-align:right;font-variant-numeric:tabular-nums}
+  .sens th:first-child,.sens td:first-child{text-align:left}
+  .sens td{font-family:var(--f-mono);font-size:12.5px}
+  .sens tr:last-child td{border-bottom:0}
+  .mtbl{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:8px}
+  .mtbl th,.mtbl td{border-bottom:1px solid var(--rule);padding:4px 6px;text-align:right;font-family:var(--f-mono)}
+  .mtbl th:first-child,.mtbl td:first-child{text-align:left;font-family:var(--f-body)}
+  </style>
+
+  <section class="deep calc" aria-labelledby="calcTitle">
+    <p class="eyebrow">원가 계산</p>
+    <h2 id="calcTitle">자석 중량·원가 계산기</h2>
+    <p>자석 치수, 잔류자속밀도(Br), 보자력(Hcj), 모터 1대당 사용 개수(USG)를 넣으면 중량을 계산하고 원가를 추정합니다. 원가는 원료 시세에 등급별 중희토(Dy·Tb) 함량 추정치, 가공 수율, 가공비를 더한 추정값입니다. 단가와 가정은 아래 ‘단가·공정 가정’에서 바꿀 수 있습니다.</p>
+    <div class="calc-grid">
+      <form class="calc-in" id="calcForm" autocomplete="off">
+        <fieldset>
+          <legend>자석 형상</legend>
+          <div class="seg-r" role="radiogroup" aria-label="형상">
+            <label><input type="radio" name="shape" id="shRect" value="rect" checked><span>직육면체</span></label>
+            <label><input type="radio" name="shape" id="shArc" value="arc"><span>아크 세그먼트</span></label>
+          </div>
+          <div class="fgrid" id="rectF">
+            <div class="fld"><label for="cL">길이 L (축 방향)</label><div class="inp"><input id="cL" type="number" step="0.1" min="0"><span class="u">mm</span></div></div>
+            <div class="fld"><label for="cW">폭 W</label><div class="inp"><input id="cW" type="number" step="0.1" min="0"><span class="u">mm</span></div></div>
+            <div class="fld"><label for="cT">두께 T (자화 방향)</label><div class="inp"><input id="cT" type="number" step="0.1" min="0"><span class="u">mm</span></div></div>
+          </div>
+          <div class="fgrid" id="arcF" hidden>
+            <div class="fld"><label for="cRo">바깥 반지름 Ro</label><div class="inp"><input id="cRo" type="number" step="0.1" min="0"><span class="u">mm</span></div></div>
+            <div class="fld"><label for="cRi">안쪽 반지름 Ri</label><div class="inp"><input id="cRi" type="number" step="0.1" min="0"><span class="u">mm</span></div></div>
+            <div class="fld"><label for="cAng">중심각</label><div class="inp"><input id="cAng" type="number" step="0.5" min="0" max="360"><span class="u">°</span></div></div>
+            <div class="fld"><label for="cLa">길이 L (축 방향)</label><div class="inp"><input id="cLa" type="number" step="0.1" min="0"><span class="u">mm</span></div></div>
+          </div>
+          <div class="fgrid">
+            <div class="fld"><label for="cDen">밀도</label><div class="inp"><input id="cDen" type="number" step="0.01" min="0"><span class="u">g/cm³</span></div><span class="hint">소결 NdFeB 일반값 7.5–7.6</span></div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>자기 특성과 공법</legend>
+          <div class="fgrid">
+            <div class="fld"><label for="cBr">잔류자속밀도 Br</label><div class="inp"><input id="cBr" type="number" step="0.01" min="0"><select id="cBrU" aria-label="Br 단위"><option value="T">T</option><option value="kG">kG</option></select></div></div>
+            <div class="fld"><label for="cHcj">보자력 Hcj</label><div class="inp"><input id="cHcj" type="number" step="0.5" min="0"><span class="u">kOe</span></div><span class="hint" id="hcjKam"></span></div>
+          </div>
+          <div class="fld" style="margin-top:10px"><label for="cRoute">보자력 확보 방식</label>
+            <select class="full" id="cRoute">
+              <option value="conv">Dy 합금 첨가 (기존 방식)</option>
+              <option value="low">Dy 저감 합금 (결정립 미세화 등)</option>
+              <option value="gbd">Tb 입계확산 (GBD)</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>사용량</legend>
+          <div class="fgrid">
+            <div class="fld"><label for="cUsg">모터 1대당 개수 (USG)</label><div class="inp"><input id="cUsg" type="number" step="1" min="0"><span class="u">개/대</span></div></div>
+            <div class="fld"><label for="cAnn">연간 모터 생산</label><div class="inp"><input id="cAnn" type="number" step="1000" min="0"><span class="u">대/년</span></div></div>
+          </div>
+        </fieldset>
+
+        <details>
+          <summary>단가·공정 가정 <span>(시세 기준 2026년 9–10월, 중국 내수)</span></summary>
+          <div class="fgrid">
+            <div class="fld"><label for="pPrNd">PrNd 산화물</label><div class="inp"><input id="pPrNd" type="number" step="1" min="0"><span class="u">$/kg</span></div><span class="hint">2026-10 중국 내수 $103–106</span></div>
+            <div class="fld"><label for="pMet">금속화 비용 (전해)</label><div class="inp"><input id="pMet" type="number" step="0.5" min="0"><span class="u">$/kg</span></div><span class="hint">가정값</span></div>
+            <div class="fld"><label for="pDy">Dy 금속</label><div class="inp"><input id="pDy" type="number" step="1" min="0"><span class="u">$/kg</span></div><span class="hint">2026-09 중국 내수 ~$236</span></div>
+            <div class="fld"><label for="pTb">Tb 금속</label><div class="inp"><input id="pTb" type="number" step="1" min="0"><span class="u">$/kg</span></div><span class="hint">2026-09 중국 내수 ~$1,091</span></div>
+            <div class="fld"><label for="pOth">기타 합금 원료 (Fe·B·Co 등)</label><div class="inp"><input id="pOth" type="number" step="0.5" min="0"><span class="u">$/kg</span></div><span class="hint">가정값</span></div>
+            <div class="fld"><label for="pTre">총 희토류 함량 (TRE)</label><div class="inp"><input id="pTre" type="number" step="0.5" min="0" max="100"><span class="u">wt%</span></div><span class="hint">일반 범위 ~28–32</span></div>
+            <div class="fld"><label for="pYld">가공 수율 (블록 → 완성품)</label><div class="inp"><input id="pYld" type="number" step="1" min="1" max="100"><span class="u">%</span></div><span class="hint">공개 자료 55–70</span></div>
+            <div class="fld"><label for="pProc">가공비 (완성품 kg당)</label><div class="inp"><input id="pProc" type="number" step="0.5" min="0"><span class="u">$/kg</span></div><span class="hint">가정값: 용해–소결–가공–코팅</span></div>
+            <div class="fld"><label for="pGbd">GBD 추가 공정비</label><div class="inp"><input id="pGbd" type="number" step="0.5" min="0"><span class="u">$/kg</span></div><span class="hint">가정값</span></div>
+            <div class="fld"><label for="pTbU">Tb 이용률</label><div class="inp"><input id="pTbU" type="number" step="1" min="1" max="100"><span class="u">%</span></div><span class="hint">가정값: 도포·세척 손실 반영</span></div>
+            <div class="fld"><label for="pFx">환율</label><div class="inp"><input id="pFx" type="number" step="10" min="0"><span class="u">₩/$</span></div><span class="hint">가정값</span></div>
+          </div>
+        </details>
+
+        <details>
+          <summary>중희토 함량 추정 모델 <span>(Hcj → Dy·Tb wt%)</span></summary>
+          <p class="note" style="margin-top:6px">Dy 첨가 방식은 등급별 Dy 함량 공개값을 직선으로 이어 Hcj에서 Dy 함량을 읽습니다. GBD는 Dy 없는 모재(기본 보자력)에서 Tb 1 wt%당 보자력 증가량으로 Tb를 계산하고, 확산만으로 올릴 수 있는 한도를 넘는 부분은 모재에 Dy를 넣는 것으로 봅니다.</p>
+          <table class="mtbl" aria-label="Dy 함량 기준점">
+            <thead><tr><th>Hcj 기준</th><th>12</th><th>20 (SH)</th><th>25 (UH)</th><th>30 (EH)</th><th>35 (AH)</th></tr></thead>
+            <tbody>
+              <tr><td>Dy 첨가 (기존) wt%</td><td>0</td><td>4.2</td><td>6.5</td><td>8.5</td><td>11</td></tr>
+              <tr><td>Dy 저감 합금 wt%</td><td>0 (14)</td><td>2</td><td>~3</td><td>4</td><td>5</td></tr>
+            </tbody>
+          </table>
+          <div class="fgrid">
+            <div class="fld"><label for="mK">Tb 1 wt%당 Hcj 증가</label><div class="inp"><input id="mK" type="number" step="0.1" min="0.1"><span class="u">kOe</span></div><span class="hint">합금 확산원 보고 5.9–7.2</span></div>
+            <div class="fld"><label for="mBase">GBD 모재 Hcj (Dy 없음)</label><div class="inp"><input id="mBase" type="number" step="0.5" min="0"><span class="u">kOe</span></div><span class="hint">가정값</span></div>
+            <div class="fld"><label for="mMax">확산만으로 올릴 수 있는 Hcj</label><div class="inp"><input id="mMax" type="number" step="0.5" min="0"><span class="u">kOe</span></div><span class="hint">5 mm 자석 보고 8.2–11.5</span></div>
+            <div class="fld"><label for="mBr0">Dy 없는 최고 Br</label><div class="inp"><input id="mBr0" type="number" step="0.01" min="0"><span class="u">T</span></div><span class="hint">가정값 (N52급)</span></div>
+            <div class="fld"><label for="mSl">Dy 1 wt%당 Br 감소</label><div class="inp"><input id="mSl" type="number" step="0.005" min="0"><span class="u">T</span></div><span class="hint">물성값·상용 등급 기반 추정</span></div>
+            <div class="fld"><label for="mGbr">GBD에 따른 Br 감소</label><div class="inp"><input id="mGbr" type="number" step="0.005" min="0"><span class="u">T</span></div><span class="hint">보고 ~0.005–0.04</span></div>
+          </div>
+        </details>
+        <button type="button" class="btn-reset" id="calcReset">기본값으로 되돌리기</button>
+      </form>
+
+      <div class="calc-out" aria-live="polite">
+        <div class="kpis">
+          <div class="kpi"><div class="lab">대당 자석 중량</div><div class="val" id="oKg">–</div><div class="sub" id="oPiece">–</div></div>
+          <div class="kpi main"><div class="lab">대당 자석 원가 (추정)</div><div class="val" id="oCost">–</div><div class="sub" id="oCostW">–</div></div>
+          <div class="kpi"><div class="lab">완성 자석 kg당 단가</div><div class="val" id="oPerKg">–</div><div class="sub" id="oPerKgW">–</div></div>
+          <div class="kpi"><div class="lab">추정 등급 · 중희토 함량</div><div class="val" id="oGrade">–</div><div class="sub" id="oHre">–</div></div>
+        </div>
+        <div class="box">
+          <h3>kg당 단가 구성</h3>
+          <div class="stack" id="oStack" role="img" aria-label="kg당 단가 구성"></div>
+          <div class="lg" id="oLg"></div>
+        </div>
+        <ul class="warns" id="oWarn"></ul>
+        <div class="box">
+          <h3>계산 내역</h3>
+          <dl class="kv" id="oKv"></dl>
+        </div>
+        <div class="box">
+          <h3>원료 시세 민감도 (대당 원가)</h3>
+          <table class="sens"><thead><tr><th>원료</th><th>−30%</th><th>기준</th><th>+30%</th></tr></thead><tbody id="oSens"></tbody></table>
+        </div>
+      </div>
+    </div>
+    <p class="note">중량은 치수와 밀도로 계산한 값입니다. 원가는 공개 시세와 가정값으로 만든 추정치로, 실제 견적과 다를 수 있습니다. 가공 스크랩 회수 가치, 코팅 종류별 차이, 물류·관세·마진, 착자 비용은 넣지 않았습니다. 중희토 함량은 등급과 제조사마다 다르므로, 실제 조성을 알면 모델 값을 바꿔서 쓰세요. 추정 등급명은 (BH)max ≈ Br²/4 근사(Br은 kG 단위)로 붙인 참고용입니다.</p>
+  </section>
+
+  <script>
+  (function(){
+    var NB=' ';
+    var DEF={shape:'rect',cL:50,cW:20,cT:5,cRo:40,cRi:35,cAng:30,cLa:50,cDen:7.55,cBr:1.30,cBrU:'T',cHcj:25,cRoute:'conv',cUsg:48,cAnn:100000,
+      pPrNd:103,pMet:6,pDy:236,pTb:1091,pOth:3,pTre:31,pYld:65,pProc:15,pGbd:3,pTbU:70,pFx:1400,
+      mK:7,mBase:15,mMax:11,mBr0:1.47,mSl:0.025,mGbr:0.02};
+    var CONV=[[12,0],[20,4.2],[25,6.5],[30,8.5],[35,11]], LOW=[[14,0],[20,2],[30,4],[35,5]];
+    var KEY='ndfebCalcV1', ids=Object.keys(DEF).filter(function(k){return k!=='shape';});
+    function $(i){return document.getElementById(i);}
+    function curve(c,h){if(h<=c[0][0])return 0;for(var i=1;i<c.length;i++){if(h<=c[i][0]){var a=c[i-1],b=c[i];return a[1]+(b[1]-a[1])*(h-a[0])/(b[0]-a[0]);}}var p=c[c.length-2],q=c[c.length-1];return q[1]+(q[1]-p[1])*(h-q[0])/(q[0]-p[0]);}
+    function read(){var v={};ids.forEach(function(k){var e=$(k);v[k]=e.tagName==='SELECT'?e.value:parseFloat(e.value);});v.shape=$('shArc').checked?'arc':'rect';return v;}
+    function write(v){ids.forEach(function(k){$(k).value=v[k];});$(v.shape==='arc'?'shArc':'shRect').checked=true;}
+    function n(x){return isFinite(x)?x:0;}
+    function compute(v){
+      var r={};
+      if(v.shape==='arc'){r.vol=n(v.cAng)/360*Math.PI*Math.max(0,n(v.cRo)*n(v.cRo)-n(v.cRi)*n(v.cRi))*n(v.cLa)/1000;r.tm=n(v.cRo)-n(v.cRi);}
+      else{r.vol=n(v.cL)*n(v.cW)*n(v.cT)/1000;r.tm=n(v.cT);}
+      r.g=r.vol*n(v.cDen);r.kg=r.g*n(v.cUsg)/1000;r.annT=r.kg*n(v.cAnn)/1000;
+      r.br=v.cBrU==='kG'?n(v.cBr)/10:n(v.cBr);var H=n(v.cHcj);
+      r.dy=0;r.tb=0;
+      if(v.cRoute==='conv')r.dy=curve(CONV,H);
+      else if(v.cRoute==='low')r.dy=curve(LOW,H);
+      else{var gain=Math.max(0,H-n(v.mBase)),g1=Math.min(gain,n(v.mMax));r.tb=n(v.mK)>0?g1/v.mK:0;var rest=H-g1;r.dy=Math.max(0,curve(LOW,rest)-curve(LOW,n(v.mBase)));}
+      r.brMax=n(v.mBr0)-n(v.mSl)*r.dy-(r.tb>0?n(v.mGbr):0);
+      var prndMetal=n(v.pPrNd)/0.85+n(v.pMet),tre=n(v.pTre),y=Math.max(1,n(v.pYld))/100;
+      r.prndPct=Math.max(0,tre-r.dy);r.othPct=Math.max(0,100-tre);
+      r.cPrNd=r.prndPct/100*prndMetal/y;r.cDy=r.dy/100*n(v.pDy)/y;r.cOth=r.othPct/100*n(v.pOth)/y;
+      r.cTb=r.tb/100*n(v.pTb)/(Math.max(1,n(v.pTbU))/100);
+      r.cProc=n(v.pProc)+(r.tb>0?n(v.pGbd):0);
+      r.perKg=r.cPrNd+r.cDy+r.cOth+r.cTb+r.cProc;r.matShare=r.perKg>0?(r.perKg-r.cProc)/r.perKg:0;
+      r.piece=r.perKg*r.g/1000;r.motor=r.perKg*r.kg;r.annual=r.motor*n(v.cAnn);r.prndMetal=prndMetal;r.alloyKg=y>0?1/y:0;
+      return r;}
+    function f(x,d){return n(x).toLocaleString('ko-KR',{minimumFractionDigits:d,maximumFractionDigits:d});}
+    function won(x){x=n(x);if(Math.abs(x)>=1e8)return f(x/1e8,1)+'억'+NB+'원';if(Math.abs(x)>=1e4)return f(x/1e4,1)+'만'+NB+'원';return f(x,0)+NB+'원';}
+    function grade(br,H){var kg=br*10,bh=Math.round(kg*kg/4);var s=H<12?'':H<14?'':H<17?'M':H<20?'H':H<25?'SH':H<30?'UH':H<35?'EH':'AH';return 'N'+bh+s;}
+    function render(){
+      var v=read(),r=compute(v);
+      $('rectF').hidden=v.shape==='arc';$('arcF').hidden=v.shape!=='arc';
+      $('hcjKam').textContent='≈'+NB+f(n(v.cHcj)*79.577,0)+NB+'kA/m';
+      $('oKg').textContent=f(r.kg,3)+NB+'kg';
+      $('oPiece').textContent='개당 '+f(r.g,1)+NB+'g · '+f(r.vol,2)+NB+'cm³ × '+f(n(v.cUsg),0)+'개';
+      $('oCost').textContent='$'+f(r.motor,2);
+      $('oCostW').textContent=won(r.motor*n(v.pFx))+' · 개당 $'+f(r.piece,3);
+      $('oPerKg').textContent='$'+f(r.perKg,1)+'/kg';
+      $('oPerKgW').textContent=won(r.perKg*n(v.pFx))+'/kg · 원료 비중 '+f(r.matShare*100,0)+'%';
+      $('oGrade').textContent='≈ '+grade(r.br,n(v.cHcj));
+      $('oHre').textContent='Dy '+f(r.dy,2)+'% · Tb '+f(r.tb,2)+'% (wt)';
+      var parts=[['PrNd','var(--c-prnd)',r.cPrNd],['Dy','var(--c-dy)',r.cDy],['Tb','var(--c-tb)',r.cTb],['기타 원료','var(--c-oth)',r.cOth],['가공비','var(--c-proc)',r.cProc]];
+      var st=$('oStack'),lg=$('oLg');st.textContent='';lg.textContent='';
+      parts.forEach(function(p){if(p[2]<=0)return;var i=document.createElement('i');i.style.width=(p[2]/r.perKg*100)+'%';i.style.background=p[1];i.title=p[0];st.appendChild(i);
+        var s=document.createElement('span');var b=document.createElement('b');b.style.background=p[1];s.appendChild(b);s.appendChild(document.createTextNode(p[0]+' $'+f(p[2],1)));lg.appendChild(s);});
+      var kv=[['자석 1개 부피',f(r.vol,3)+NB+'cm³'],['자석 1개 중량',f(r.g,2)+NB+'g'],['자화 방향 두께',f(r.tm,1)+NB+'mm'],['대당 중량',f(r.kg,3)+NB+'kg'],['연간 사용량',f(r.annT,1)+NB+'t'],
+        ['PrNd 금속 환산 단가','$'+f(r.prndMetal,1)+'/kg'],['조성 (PrNd / Dy / Tb)',f(r.prndPct,1)+' / '+f(r.dy,2)+' / '+f(r.tb,2)+NB+'wt%'],['완성품 1 kg당 합금 투입',f(r.alloyKg,2)+NB+'kg'],
+        ['개당 원가','$'+f(r.piece,3)],['대당 원가','$'+f(r.motor,2)+' ('+won(r.motor*n(v.pFx))+')'],['연간 원가','$'+f(r.annual/1e6,2)+'M ('+won(r.annual*n(v.pFx))+')']];
+      var dl=$('oKv');dl.textContent='';kv.forEach(function(p){var t=document.createElement('dt');t.textContent=p[0];var d=document.createElement('dd');d.textContent=p[1];dl.appendChild(t);dl.appendChild(d);});
+      var w=[];
+      if(n(v.cHcj)<12)w.push('Hcj가 12'+NB+'kOe 미만입니다. 일반 소결 NdFeB 등급(N, Hcj ≥12'+NB+'kOe)보다 낮은 값입니다.');
+      if(r.br>r.brMax+1e-9)w.push('입력 Br '+f(r.br,2)+NB+'T가 이 공법의 추정 상한 '+f(r.brMax,2)+NB+'T보다 높습니다. 이 Br·Hcj 조합은 Dy를 첨가하는 방식으로는 어렵고, GBD나 Dy 저감 합금을 검토해야 할 수 있습니다.');
+      if(r.tb>0&&r.tm>6)w.push('자화 방향 두께가 '+f(r.tm,1)+NB+'mm입니다. 입계확산 깊이는 수'+NB+'mm 수준이라 두꺼운 자석은 중심부 보자력이 낮아질 수 있습니다.');
+      if(v.cRoute==='gbd'&&n(v.cHcj)-n(v.mBase)>n(v.mMax))w.push('목표 Hcj가 확산만으로 올릴 수 있는 범위를 넘어, 넘는 만큼 모재에 Dy가 들어가는 것으로 계산했습니다.');
+      if(r.dy>11)w.push('Dy 함량 추정치가 '+f(r.dy,1)+'%로 공개 범위(AH급 ~11%)를 넘습니다. 목표 특성을 다시 확인하세요.');
+      if(v.shape==='arc'&&n(v.cRi)>=n(v.cRo))w.push('안쪽 반지름이 바깥 반지름보다 크거나 같습니다.');
+      if(r.matShare<0.45||r.matShare>0.85)w.push('원료 비중이 '+f(r.matShare*100,0)+'%입니다. 공개 자료의 원가 구성(원료 약 50–70%, 일부 자료 70% 이상)과 차이가 크니 가공비 가정을 확인하세요.');
+      var ul=$('oWarn');ul.textContent='';w.forEach(function(s){var li=document.createElement('li');li.textContent=s;ul.appendChild(li);});ul.hidden=!w.length;
+      var sb=$('oSens');sb.textContent='';
+      [['PrNd 산화물','pPrNd'],['Dy 금속','pDy'],['Tb 금속','pTb']].forEach(function(p){var tr=document.createElement('tr');var th=document.createElement('td');th.textContent=p[0];tr.appendChild(th);
+        [-0.3,0,0.3].forEach(function(k){var v2=Object.assign({},v);v2[p[1]]=v[p[1]]*(1+k);var c=compute(v2).motor;var td=document.createElement('td');td.textContent='$'+f(c,2);tr.appendChild(td);});sb.appendChild(tr);});
+      try{localStorage.setItem(KEY,JSON.stringify(v));}catch(e){}
+    }
+    var saved=null;try{saved=JSON.parse(localStorage.getItem(KEY)||'null');}catch(e){}
+    write(Object.assign({},DEF,saved||{}));
+    $('calcForm').addEventListener('input',render);$('calcForm').addEventListener('change',render);
+    $('calcForm').addEventListener('submit',function(e){e.preventDefault();});
+    $('calcReset').addEventListener('click',function(){write(DEF);render();});
+    render();
+    window.__calc={compute:compute,DEF:DEF};
+  })();
+  </script>
+
+
   <section class="deep" aria-labelledby="eqTitle">
     <p class="eyebrow">설비 검토 ①</p>
     <h2 id="eqTitle">공정별 주요 설비</h2>
@@ -189,6 +445,17 @@
   <section class="deep sources" aria-labelledby="srcTitle">
     <h2 id="srcTitle">참고 자료</h2>
     <ul>
+      <li><a href="https://rareearthexchanges.com/rare-earth-prices/" target="_blank" rel="noopener">Rare Earth Exchanges: 희토류 가격 (2026년 10월, NdPr 산화물 중국 $103–106/kg)</a></li>
+      <li><a href="https://www.openpr.com/news/4643067/rare-earth-element-prices-september-2026-ndpr-oxide" target="_blank" rel="noopener">2026년 9월 희토류 가격 (Dy 금속 ~$236/kg, Tb 금속 ~$1,091/kg, 중국 내수)</a></li>
+      <li><a href="https://critical-minerals-news.com/rare-earths-price/" target="_blank" rel="noopener">Critical Minerals News: SMM 기준 NdPr·Dy·Tb 산화물 가격 (2026년 9월 말)</a></li>
+      <li><a href="https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Important-Role-of-Dysprosium-in-Modern-Permanent-Magnets-150906.pdf" target="_blank" rel="noopener">Arnold Magnetics: 영구자석에서 Dy의 역할 (SH 4%+ → ~2%, 8–11% 등급 → 4–5%)</a></li>
+      <li><a href="https://actuatorlist.com/metals" target="_blank" rel="noopener">Actuatorlist: 등급별 Dy 함량 (SH 4.2%, UH 6.5%, EH/AH 8.5–11%)</a></li>
+      <li><a href="https://www.couragemagnet.com/magnet-faqs/865.html" target="_blank" rel="noopener">Courage Magnet: 등급별 Dy 범위 (SH 1–4.5%, UH 3–6%, EH 4–10%, 경험값)</a></li>
+      <li><a href="https://www.advancedmagnets.com/?p=1694" target="_blank" rel="noopener">소결 NdFeB 등급 체계 (접미사별 Hcj 하한: M 14 · H 17 · SH 20 · UH 25 · EH 30 · AH 35&nbsp;kOe)</a></li>
+      <li><a href="https://link.springer.com/article/10.1007/s00339-022-06048-0" target="_blank" rel="noopener">Tb-Ce-Cu 확산원 GBD: Tb 1 wt%당 Hcj 증가 5.9–7.2&nbsp;kOe, 5&nbsp;mm 자석 ΔHcj 8.2–11.5&nbsp;kOe</a></li>
+      <li><a href="https://radialmagnet.com/magnet-should-cost-model/" target="_blank" rel="noopener">Radial Magnets: 자석 원가 모델 (소결 NdFeB 가공 수율 55–70%)</a></li>
+      <li><a href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11373802" target="_blank" rel="noopener">US 11373802: 소결 자석 절단·가공 손실 (수율 약 55–75%)</a></li>
+      <li><a href="https://hsmagnet.com/2026/05/07/rare-earth-permanent-magnet-supply-cost-analysis/" target="_blank" rel="noopener">희토류 영구자석 원가 구성 분석 (원료 비중, 업체 자료)</a></li>
       <li><a href="https://scholar.dgist.ac.kr/handle/20.500.11750/47530" target="_blank" rel="noopener">Dependence of magnetic performance on coating method in GBD-processed Nd-Fe-B magnets (Materials Today Communications, 2024)</a></li>
       <li><a href="https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_journals_2732559472" target="_blank" rel="noopener">Sputtered vs. adhesive Tb-Cu coating for GBD (Journal of Alloys and Compounds, 2022)</a></li>
       <li><a href="https://scholar.dgist.ac.kr/bitstream/20.500.11750/59276/2/Dong%20Hyun%20Lee%20J.%20Mater.%20Res.%20Tech.%202026%2041%20128.pdf" target="_blank" rel="noopener">GBD 확산원 공급 방식 개관 (J. Mater. Res. Technol., 2026)</a></li>

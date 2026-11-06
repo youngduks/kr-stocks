@@ -1,8 +1,28 @@
 {
   "category": "hynix",
-  "updated_at": "2026-11-06T08:41:47.202Z",
-  "count": 11,
+  "updated_at": "2026-11-06T16:26:16.371Z",
+  "count": 12,
   "items": [
+    {
+      "title": "'반도체 부품 제조' 동원파츠 코스닥 신규상장…10일부터 거래",
+      "link": "https://www.yna.co.kr/view/AKR20261106175700008",
+      "source": "연합뉴스 경제",
+      "ts": 1793958779000,
+      "pub": "Fri, 6 Nov 2026 18:52:59 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 한국거래소는 동원파츠의 코스닥 시장 신규상장을 승인했다고 6일 밝혔다.",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/25/83/PCM20260625000183990_P2.jpg"
+    },
+    {
+      "title": "中YMTC, 신규 낸드공장 장비 최대 70% 국산화 추진",
+      "link": "https://www.yna.co.kr/view/AKR20261106166800083",
+      "source": "연합뉴스 국제",
+      "ts": 1793955402000,
+      "pub": "Fri, 6 Nov 2026 17:56:42 +0900",
+      "sentiment": "neutral",
+      "desc": "(베이징=연합뉴스) 김현정 특파원 = 중국 낸드플래시 업체인 양쯔메모리테크놀로지(YMTC)가 신규 공장에 도입할 반도체 제조 장비의 최대 70%...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/06/PRU20261106226801009_P2.jpg"
+    },
     {
       "title": "단일 레버리지 우수수 추락…SK하이닉스 ETF 고점대비 90% 폭락",
       "link": "https://www.yna.co.kr/view/AKR20261106155400008",
@@ -102,16 +122,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 이성한 기자 = 미국 반도체 기업 마이크론 테크놀로지가 대만 현지 공장 노사간 임금 갈등으로 현지 메모리 반도체 공장 건설을 ...",
       "image": "https://img.yna.co.kr/photo/etc/af/2026/10/22/PAF20261022180001009_P2.jpg"
-    },
-    {
-      "title": "반도체지수 6년여만에 최대 폭락…AI 투매 쇼크",
-      "link": "https://www.yna.co.kr/view/AKR20261106019300009",
-      "source": "연합뉴스 국제",
-      "ts": 1793918977000,
-      "pub": "Fri, 6 Nov 2026 07:49:37 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 5일(현지시간) 미국 뉴욕증시에서 반도체와 데이터센터, 클라우드 등 인공지능(AI) 관련주 투매가 극에 달했다...",
-      "image": "https://img.yna.co.kr/photo/etc/up/2026/11/06/PUP20261106011401009_P2.jpg"
     }
   ]
 }

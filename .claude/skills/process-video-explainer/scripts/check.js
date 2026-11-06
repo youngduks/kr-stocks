@@ -28,12 +28,12 @@ const fs = require('fs'), path = require('path');
     const tag = String(i + 1).padStart(2, '0');
     await d.evaluate(([i, f]) => window.__pv.show(i, f), [i, frac]);
     await d.waitForTimeout(120);
-    await d.locator('canvas').screenshot({ path: path.join(outDir, `scene-${tag}.png`) });
+    await d.locator('#stage').screenshot({ path: path.join(outDir, `scene-${tag}.png`) });
     const dur = durs[i] || 9, stopF = Math.max(0, (dur - 0.35) / dur);
     await d.evaluate(([i, f]) => window.__pv.show(i, f), [i, stopF]);
     await d.waitForTimeout(120);
     const f = path.join(outDir, `scene-${tag}-stop.png`);
-    await d.locator('canvas').screenshot({ path: f });
+    await d.locator('#stage').screenshot({ path: f });
     stops.push(f);
   }
   await d.locator('.player').screenshot({ path: path.join(outDir, 'player.png') });

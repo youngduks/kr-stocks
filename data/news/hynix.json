@@ -1,8 +1,16 @@
 {
   "category": "hynix",
-  "updated_at": "2026-11-06T16:26:16.371Z",
+  "updated_at": "2026-11-06T21:50:50.900Z",
   "count": 12,
   "items": [
+    {
+      "title": "엔비디아 살까, 말까…앤트로픽 IPO 고비 넘겨야[박신영의 개장전 요것만]",
+      "link": "https://www.hankyung.com/article/202611071864i",
+      "source": "한국경제",
+      "ts": 1793988218000,
+      "pub": "Sat, 07 Nov 2026 03:03:38 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "'반도체 부품 제조' 동원파츠 코스닥 신규상장…10일부터 거래",
       "link": "https://www.yna.co.kr/view/AKR20261106175700008",
@@ -112,16 +120,6 @@
       "sentiment": "negative",
       "desc": "(상하이=연합뉴스) 차병섭 특파원 = 인공지능(AI) 산업에 규제 입장을 보여온 미국 민주당의 중간선거 압승과 그에 따른 미 증시 약세 속에 중...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/10/15/PRU20261015073601009_P2.jpg"
-    },
-    {
-      "title": "\"마이크론, 대만 신공장 건설 중단…노사간 보상갈등\"",
-      "link": "https://www.yna.co.kr/view/AKR20261106064700009",
-      "source": "연합뉴스 국제",
-      "ts": 1793928550000,
-      "pub": "Fri, 6 Nov 2026 10:29:10 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이성한 기자 = 미국 반도체 기업 마이크론 테크놀로지가 대만 현지 공장 노사간 임금 갈등으로 현지 메모리 반도체 공장 건설을 ...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/22/PAF20261022180001009_P2.jpg"
     }
   ]
 }

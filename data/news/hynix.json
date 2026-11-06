@@ -1,8 +1,98 @@
 {
   "category": "hynix",
-  "updated_at": "2026-11-06T01:52:35.829Z",
+  "updated_at": "2026-11-06T08:41:47.202Z",
   "count": 11,
   "items": [
+    {
+      "title": "단일 레버리지 우수수 추락…SK하이닉스 ETF 고점대비 90% 폭락",
+      "link": "https://www.yna.co.kr/view/AKR20261106155400008",
+      "source": "연합뉴스 경제",
+      "ts": 1793952511000,
+      "pub": "Fri, 6 Nov 2026 17:08:31 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 고은지 기자 = 반도체 대형주가 연이틀 급락하면서 SK하이닉스 단일종목 레버리지가 고점 대비 10분의 1토막으로 쪼그라들었다.",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/23/20/PCM20260623000020990_P2.jpg"
+    },
+    {
+      "title": "[쇼츠] 흔적도 없이 사라진 엔비디아칩…154억원어치 트럭째 증발",
+      "link": "https://www.yna.co.kr/view/AKR20261106142600704",
+      "source": "연합뉴스 국제",
+      "ts": 1793950214000,
+      "pub": "Fri, 6 Nov 2026 16:30:14 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 미국 실리콘밸리에서 1천140만 달러(약 154억원) 상당의 엔비디아 반도체가 운송 도중 사라져 현지 경찰이 수사에 나섰습니다...",
+      "image": "https://www.youtube.com/embed/c1G6PCelndY"
+    },
+    {
+      "title": "AI·반도체 호황 벌써 끝?…美 '블루웨이브 쇼크' 일파만파(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261106084551008",
+      "source": "연합뉴스 경제",
+      "ts": 1793947497000,
+      "pub": "Fri, 6 Nov 2026 15:44:57 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 미국 기술주가 최악의 하루를 맞은 데 이어 국내 증시마저 거세게 흔들리면서 그간 글로벌 주식시장을 선도해 온 ...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110612450001300_P2.jpg"
+    },
+    {
+      "title": "재경부, 반도체 전문가 간담회…\"당분간 수요 기반 안정적 유지\"",
+      "link": "https://www.yna.co.kr/view/AKR20261106126900002",
+      "source": "연합뉴스 경제",
+      "ts": 1793946818000,
+      "pub": "Fri, 6 Nov 2026 15:33:38 +0900",
+      "sentiment": "neutral",
+      "desc": "(세종=연합뉴스) 안채원 기자 = 미국 중간선거 이후 인공지능(AI)데이터센터 규제 우려가 부각되며 증시가 출렁인 가운데, 재정경제부가 반도체 ...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/08/PYH2026040816180001300_P2.jpg"
+    },
+    {
+      "title": "AI 쇼크에 아시아 증시 급락…TSMC 한때 하한가",
+      "link": "https://www.yna.co.kr/view/AKR20261106111400009",
+      "source": "연합뉴스 국제",
+      "ts": 1793943336000,
+      "pub": "Fri, 6 Nov 2026 14:35:36 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 6일 아시아 증시가 간밤 뉴욕증시의 인공지능(AI) 관련주 투매 여파로 일제히 급락세를 보이고 있다.",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/06/PAF20261106168401009_P2.jpg"
+    },
+    {
+      "title": "\"中당국 수입 승인보류에 엔비디아칩 60만장 홍콩서 대기\"",
+      "link": "https://www.yna.co.kr/view/AKR20261106091500089",
+      "source": "연합뉴스 국제",
+      "ts": 1793934062000,
+      "pub": "Fri, 6 Nov 2026 12:01:02 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 중국 당국의 수입 승인 보류 때문에 중국 본토로 들어가려던 수십만장 규모의 엔비디아 칩이 홍콩에서 대기 중...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/06/AKR20261106091500089_01_i_P2.jpg"
+    },
+    {
+      "title": "실리콘밸리서 사라진 150억원어치 엔비디아칩…트럭 도난 수사중",
+      "link": "https://www.yna.co.kr/view/AKR20261106088900091",
+      "source": "연합뉴스 국제",
+      "ts": 1793933342000,
+      "pub": "Fri, 6 Nov 2026 11:49:02 +0900",
+      "sentiment": "neutral",
+      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 미국 실리콘밸리에서 엔비디아의 고가 반도체가 운송 도중 사라져 경찰이 수사에 나섰다.",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2025/02/28/PEP20250228018301009_P2.jpg"
+    },
+    {
+      "title": "AI·반도체 호황 벌써 끝?…美 '블루웨이브 쇼크' 일파만파",
+      "link": "https://www.yna.co.kr/view/AKR20261106084500008",
+      "source": "연합뉴스 경제",
+      "ts": 1793932352000,
+      "pub": "Fri, 6 Nov 2026 11:32:32 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 미국 기술주가 최악의 하루를 맞은 데 이어 국내 증시마저 거세게 흔들리면서 그간 글로벌 주식시장을 선도해 온 ...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110604000001302_P2.jpg"
+    },
+    {
+      "title": "중화권 증시도 '블루웨이브 충격'…반도체주 CXMT·TSMC 급락",
+      "link": "https://www.yna.co.kr/view/AKR20261106073700089",
+      "source": "연합뉴스 국제",
+      "ts": 1793929949000,
+      "pub": "Fri, 6 Nov 2026 10:52:29 +0900",
+      "sentiment": "negative",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 인공지능(AI) 산업에 규제 입장을 보여온 미국 민주당의 중간선거 압승과 그에 따른 미 증시 약세 속에 중...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/15/PRU20261015073601009_P2.jpg"
+    },
     {
       "title": "\"마이크론, 대만 신공장 건설 중단…노사간 보상갈등\"",
       "link": "https://www.yna.co.kr/view/AKR20261106064700009",
@@ -14,58 +104,6 @@
       "image": "https://img.yna.co.kr/photo/etc/af/2026/10/22/PAF20261022180001009_P2.jpg"
     },
     {
-      "title": "[마켓라이브] 오천피 붕괴·서킷브레이커…美 반도체 쇼크에 '검은 금요일'",
-      "link": "https://www.hankyung.com/article/202611069919i",
-      "source": "한국경제",
-      "ts": 1793923923000,
-      "pub": "Fri, 06 Nov 2026 09:12:03 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[속보] 삼성전자 9%·SK하이닉스 11%대 급락",
-      "link": "https://www.hankyung.com/article/2026110600016",
-      "source": "한국경제",
-      "ts": 1793923814000,
-      "pub": "Fri, 06 Nov 2026 09:10:14 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[속보] 반도체주 추락…삼성전자 9%·SK하이닉스 11%대 급락",
-      "link": "https://www.yna.co.kr/view/AKR20261106038700008",
-      "source": "연합뉴스 경제",
-      "ts": 1793923740000,
-      "pub": "Fri, 6 Nov 2026 09:09:00 +0900",
-      "sentiment": "negative",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110601880001300_P2.jpg"
-    },
-    {
-      "title": "한화증권 \"외국인 매도 정점은 지났다…반도체 비중 확대 권고\"",
-      "link": "https://www.yna.co.kr/view/AKR20261106030400008",
-      "source": "연합뉴스 경제",
-      "ts": 1793921984000,
-      "pub": "Fri, 6 Nov 2026 08:39:44 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 곽윤아 기자 = 한화투자증권[003530]은 6일 국내 증시에서 외국인 매도세의 정점은 지났다며, 앤트로픽의 나스닥 상장을 기...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/05/PYH2026110515140001300_P2.jpg"
-    },
-    {
-      "title": "AI 반도체 급락에 짐 쌌다…투자자들 대거 몰린 종목",
-      "link": "https://www.hankyung.com/article/202611069857i",
-      "source": "한국경제",
-      "ts": 1793921931000,
-      "pub": "Fri, 06 Nov 2026 08:38:51 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "나스닥 -5.5% 골드만 \"매수세 안 보여\"…반도체 고점은 6월이었다? [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202611069813i",
-      "source": "한국경제",
-      "ts": 1793921900000,
-      "pub": "Fri, 06 Nov 2026 08:38:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "반도체지수 6년여만에 최대 폭락…AI 투매 쇼크",
       "link": "https://www.yna.co.kr/view/AKR20261106019300009",
       "source": "연합뉴스 국제",
@@ -74,36 +112,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 정주호 기자 = 5일(현지시간) 미국 뉴욕증시에서 반도체와 데이터센터, 클라우드 등 인공지능(AI) 관련주 투매가 극에 달했다...",
       "image": "https://img.yna.co.kr/photo/etc/up/2026/11/06/PUP20261106011401009_P2.jpg"
-    },
-    {
-      "title": "[르포] 삼전닉스·마이크론, 중국 수입박람회서 '메모리 모듈' 경쟁",
-      "link": "https://www.yna.co.kr/view/AKR20261105177700089",
-      "source": "연합뉴스 국제",
-      "ts": 1793879404000,
-      "pub": "Thu, 5 Nov 2026 20:50:04 +0900",
-      "sentiment": "neutral",
-      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 5일(현지시간) 중국 상하이 국가전시컨벤션센터의 제9회 중국국제수입박람회 전시장.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/05/AKR20261105177700089_01_i_P2.jpg"
-    },
-    {
-      "title": "이형일, 피치에 \"AI·반도체 호황, 잠재성장률 반등 기대\"",
-      "link": "https://www.yna.co.kr/view/AKR20261105158300002",
-      "source": "연합뉴스 경제",
-      "ts": 1793867057000,
-      "pub": "Thu, 5 Nov 2026 17:24:17 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 송정은 기자 = 이형일 부총리 겸 재정경제부 장관은 5일 국제 신용평가사 피치(Fitch) 연례협의단을 만나 최근 한국경제 상...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/05/PYH2026110512120001300_P2.jpg"
-    },
-    {
-      "title": "반도체 이을 성장엔진으로 바이오 육성…투자·규제 혁신 논의",
-      "link": "https://www.yna.co.kr/view/AKR20261105126500017",
-      "source": "연합뉴스 경제",
-      "ts": 1793862009000,
-      "pub": "Thu, 5 Nov 2026 16:00:09 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 신선미 기자 = 국내 바이오 생태계 육성 방안을 논의하는 자리가 마련됐다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/05/AKR20261105126500017_01_i_P2.jpg"
     }
   ]
 }

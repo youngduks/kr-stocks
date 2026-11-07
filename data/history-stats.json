@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "computedAt": "2026-10-31T02:53:17.059Z",
+  "computedAt": "2026-11-07T03:23:16.451Z",
   "method": {
     "usSeries": "^SOX",
     "krSeries": [
@@ -38,8 +38,8 @@
     "symbol": "^SOX",
     "label": "미국 반도체지수(^SOX)",
     "sessions": 1255,
-    "firstDate": "2021-11-01",
-    "lastDate": "2026-10-30"
+    "firstDate": "2021-11-08",
+    "lastDate": "2026-11-06"
   },
   "stocks": {
     "samsung": {
@@ -49,64 +49,40 @@
       "baseline": {
         "label": "전체 (조건 없음)",
         "n": 1127,
-        "hits": 554,
-        "downs": 528,
+        "hits": 553,
+        "downs": 529,
         "flats": 45,
-        "hitRatePct": 49.2,
-        "meanPct": 0.13,
+        "hitRatePct": 49.1,
+        "meanPct": 0.12,
         "medianPct": 0,
         "open": {
           "n": 1127,
-          "ups": 584,
-          "meanPct": 0.16,
+          "ups": 581,
+          "meanPct": 0.15,
           "medianPct": 0.14
         },
-        "periodStart": "2021-11-03",
-        "periodEnd": "2026-10-30"
+        "periodStart": "2021-11-10",
+        "periodEnd": "2026-11-06"
       },
       "buckets": {
         "le_-2": {
           "label": "−2% 이하",
-          "n": 194,
-          "hits": 47,
-          "downs": 144,
+          "n": 198,
+          "hits": 48,
+          "downs": 147,
           "flats": 3,
           "hitRatePct": 24.2,
-          "meanPct": -1.35,
-          "medianPct": -1.04,
+          "meanPct": -1.39,
+          "medianPct": -1.05,
           "open": {
-            "n": 194,
+            "n": 198,
             "ups": 20,
-            "meanPct": -1.45,
+            "meanPct": -1.52,
             "medianPct": -0.98
           },
           "periodStart": "2021-11-11",
-          "periodEnd": "2026-10-23",
+          "periodEnd": "2026-11-06",
           "recent": [
-            {
-              "us": "2026-05-12",
-              "kr": "2026-05-13",
-              "usRet": -3.01,
-              "krRet": 1.79
-            },
-            {
-              "us": "2026-05-15",
-              "kr": "2026-05-18",
-              "usRet": -4.02,
-              "krRet": 3.88
-            },
-            {
-              "us": "2026-05-18",
-              "kr": "2026-05-19",
-              "usRet": -2.47,
-              "krRet": -1.96
-            },
-            {
-              "us": "2026-06-04",
-              "kr": "2026-06-05",
-              "usRet": -2.15,
-              "krRet": -6.4
-            },
             {
               "us": "2026-06-05",
               "kr": "2026-06-08",
@@ -262,6 +238,30 @@
               "kr": "2026-10-23",
               "usRet": -6.72,
               "krRet": -0.47
+            },
+            {
+              "us": "2026-10-30",
+              "kr": "2026-11-02",
+              "usRet": -7.2,
+              "krRet": 4.31
+            },
+            {
+              "us": "2026-11-02",
+              "kr": "2026-11-03",
+              "usRet": -3.37,
+              "krRet": -3.48
+            },
+            {
+              "us": "2026-11-04",
+              "kr": "2026-11-05",
+              "usRet": -3.13,
+              "krRet": -9.03
+            },
+            {
+              "us": "2026-11-05",
+              "kr": "2026-11-06",
+              "usRet": -12.25,
+              "krRet": -3.97
             }
           ]
         },
@@ -667,20 +667,20 @@
         },
         "1_2": {
           "label": "+1% ~ +2%",
-          "n": 166,
-          "hits": 97,
-          "downs": 58,
+          "n": 162,
+          "hits": 95,
+          "downs": 56,
           "flats": 11,
-          "hitRatePct": 58.4,
-          "meanPct": 0.53,
-          "medianPct": 0.29,
+          "hitRatePct": 58.6,
+          "meanPct": 0.55,
+          "medianPct": 0.3,
           "open": {
-            "n": 166,
-            "ups": 118,
-            "meanPct": 0.73,
+            "n": 162,
+            "ups": 115,
+            "meanPct": 0.74,
             "medianPct": 0.43
           },
-          "periodStart": "2021-11-03",
+          "periodStart": "2021-11-12",
           "periodEnd": "2026-10-29",
           "recent": [
             {
@@ -880,15 +880,9 @@
             "meanPct": 1.52,
             "medianPct": 1.04
           },
-          "periodStart": "2021-11-05",
-          "periodEnd": "2026-10-28",
+          "periodStart": "2021-11-30",
+          "periodEnd": "2026-11-04",
           "recent": [
-            {
-              "us": "2026-05-08",
-              "kr": "2026-05-11",
-              "usRet": 5.51,
-              "krRet": 6.33
-            },
             {
               "us": "2026-05-11",
               "kr": "2026-05-12",
@@ -1062,6 +1056,12 @@
               "kr": "2026-10-28",
               "usRet": 3.6,
               "krRet": 8.89
+            },
+            {
+              "us": "2026-11-03",
+              "kr": "2026-11-04",
+              "usRet": 2.63,
+              "krRet": -0.23
             }
           ]
         }
@@ -1077,7 +1077,7 @@
         "fromNaver": 1223,
         "fromYahoo": 0,
         "yahooStaleOrEmpty": 12,
-        "yahooCloseDiffOver05pct": 19,
+        "yahooCloseDiffOver05pct": 22,
         "invalid": 0,
         "naverOnlyDates": 2
       }
@@ -1089,64 +1089,40 @@
       "baseline": {
         "label": "전체 (조건 없음)",
         "n": 1127,
-        "hits": 555,
-        "downs": 535,
+        "hits": 553,
+        "downs": 537,
         "flats": 37,
-        "hitRatePct": 49.2,
-        "meanPct": 0.24,
+        "hitRatePct": 49.1,
+        "meanPct": 0.23,
         "medianPct": 0,
         "open": {
           "n": 1127,
-          "ups": 557,
-          "meanPct": 0.21,
+          "ups": 555,
+          "meanPct": 0.18,
           "medianPct": 0
         },
-        "periodStart": "2021-11-03",
-        "periodEnd": "2026-10-30"
+        "periodStart": "2021-11-10",
+        "periodEnd": "2026-11-06"
       },
       "buckets": {
         "le_-2": {
           "label": "−2% 이하",
-          "n": 194,
-          "hits": 46,
-          "downs": 145,
+          "n": 198,
+          "hits": 47,
+          "downs": 148,
           "flats": 3,
           "hitRatePct": 23.7,
-          "meanPct": -2,
-          "medianPct": -1.69,
+          "meanPct": -2.04,
+          "medianPct": -1.72,
           "open": {
-            "n": 194,
-            "ups": 21,
-            "meanPct": -2.25,
-            "medianPct": -2
+            "n": 198,
+            "ups": 22,
+            "meanPct": -2.33,
+            "medianPct": -2.03
           },
           "periodStart": "2021-11-11",
-          "periodEnd": "2026-10-23",
+          "periodEnd": "2026-11-06",
           "recent": [
-            {
-              "us": "2026-05-12",
-              "kr": "2026-05-13",
-              "usRet": -3.01,
-              "krRet": 7.68
-            },
-            {
-              "us": "2026-05-15",
-              "kr": "2026-05-18",
-              "usRet": -4.02,
-              "krRet": 1.15
-            },
-            {
-              "us": "2026-05-18",
-              "kr": "2026-05-19",
-              "usRet": -2.47,
-              "krRet": -5.16
-            },
-            {
-              "us": "2026-06-04",
-              "kr": "2026-06-05",
-              "usRet": -2.15,
-              "krRet": -9.92
-            },
             {
               "us": "2026-06-05",
               "kr": "2026-06-08",
@@ -1302,6 +1278,30 @@
               "kr": "2026-10-23",
               "usRet": -6.72,
               "krRet": 2.35
+            },
+            {
+              "us": "2026-10-30",
+              "kr": "2026-11-02",
+              "usRet": -7.2,
+              "krRet": 6.4
+            },
+            {
+              "us": "2026-11-02",
+              "kr": "2026-11-03",
+              "usRet": -3.37,
+              "krRet": -4.46
+            },
+            {
+              "us": "2026-11-04",
+              "kr": "2026-11-05",
+              "usRet": -3.13,
+              "krRet": -11.13
+            },
+            {
+              "us": "2026-11-05",
+              "kr": "2026-11-06",
+              "usRet": -12.25,
+              "krRet": -6.81
             }
           ]
         },
@@ -1707,20 +1707,20 @@
         },
         "1_2": {
           "label": "+1% ~ +2%",
-          "n": 166,
-          "hits": 96,
-          "downs": 66,
+          "n": 162,
+          "hits": 93,
+          "downs": 65,
           "flats": 4,
-          "hitRatePct": 57.8,
-          "meanPct": 1,
-          "medianPct": 0.57,
+          "hitRatePct": 57.4,
+          "meanPct": 1.02,
+          "medianPct": 0.59,
           "open": {
-            "n": 166,
-            "ups": 118,
-            "meanPct": 1.1,
+            "n": 162,
+            "ups": 115,
+            "meanPct": 1.11,
             "medianPct": 0.86
           },
-          "periodStart": "2021-11-03",
+          "periodStart": "2021-11-12",
           "periodEnd": "2026-10-29",
           "recent": [
             {
@@ -1912,23 +1912,17 @@
           "downs": 56,
           "flats": 8,
           "hitRatePct": 70,
-          "meanPct": 1.92,
+          "meanPct": 1.91,
           "medianPct": 1.44,
           "open": {
             "n": 213,
             "ups": 188,
-            "meanPct": 2.42,
+            "meanPct": 2.43,
             "medianPct": 1.85
           },
-          "periodStart": "2021-11-05",
-          "periodEnd": "2026-10-28",
+          "periodStart": "2021-11-30",
+          "periodEnd": "2026-11-04",
           "recent": [
-            {
-              "us": "2026-05-08",
-              "kr": "2026-05-11",
-              "usRet": 5.51,
-              "krRet": 11.51
-            },
             {
               "us": "2026-05-11",
               "kr": "2026-05-12",
@@ -2102,6 +2096,12 @@
               "kr": "2026-10-28",
               "usRet": 3.6,
               "krRet": 9.75
+            },
+            {
+              "us": "2026-11-03",
+              "kr": "2026-11-04",
+              "usRet": 2.63,
+              "krRet": 0.42
             }
           ]
         }
@@ -2117,7 +2117,7 @@
         "fromNaver": 1223,
         "fromYahoo": 0,
         "yahooStaleOrEmpty": 15,
-        "yahooCloseDiffOver05pct": 26,
+        "yahooCloseDiffOver05pct": 30,
         "invalid": 0,
         "naverOnlyDates": 2
       }

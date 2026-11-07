@@ -1,8 +1,18 @@
 {
   "category": "hynix",
-  "updated_at": "2026-11-07T19:09:22.485Z",
+  "updated_at": "2026-11-07T23:11:41.662Z",
   "count": 6,
   "items": [
+    {
+      "title": "반도체 호황에 기업 여윳돈 넘쳐…고액 예금 1천조 육박",
+      "link": "https://www.yna.co.kr/view/AKR20261107039500002",
+      "source": "연합뉴스 경제",
+      "ts": 1794084420000,
+      "pub": "Sun, 8 Nov 2026 05:47:00 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 한지훈 채새롬 기자 = 올해 상반기 말 국내 은행에서 잔액이 10억원을 초과하는 고액 예금 잔액이 총 1천조원에 육박하며 역대...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/31/PYH2026073103150001300_P2.jpg"
+    },
     {
       "title": "\"호남반도체 방해하는 미군 박살\"…기지 난입 대학생들 항소",
       "link": "https://www.hankyung.com/article/2026110722597",
@@ -50,16 +60,6 @@
       "sentiment": "neutral",
       "desc": "(세종=연합뉴스) 안채원 기자 = 미국 중간선거 이후 인공지능(AI)데이터센터 규제 우려가 부각되며 증시가 출렁인 가운데, 재정경제부가 반도체 ...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/08/PYH2026040816180001300_P2.jpg"
-    },
-    {
-      "title": "AI·반도체 호황 벌써 끝?…美 '블루웨이브 쇼크' 일파만파",
-      "link": "https://www.yna.co.kr/view/AKR20261106084500008",
-      "source": "연합뉴스 경제",
-      "ts": 1793932352000,
-      "pub": "Fri, 6 Nov 2026 11:32:32 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 미국 기술주가 최악의 하루를 맞은 데 이어 국내 증시마저 거세게 흔들리면서 그간 글로벌 주식시장을 선도해 온 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110604000001302_P2.jpg"
     }
   ]
 }

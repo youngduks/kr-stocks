@@ -1,7 +1,7 @@
 {
   "category": "hynix",
-  "updated_at": "2026-11-06T21:50:50.900Z",
-  "count": 12,
+  "updated_at": "2026-11-07T01:24:08.391Z",
+  "count": 9,
   "items": [
     {
       "title": "엔비디아 살까, 말까…앤트로픽 IPO 고비 넘겨야[박신영의 개장전 요것만]",
@@ -82,26 +82,6 @@
       "image": "https://img.yna.co.kr/photo/etc/af/2026/11/06/PAF20261106168401009_P2.jpg"
     },
     {
-      "title": "\"中당국 수입 승인보류에 엔비디아칩 60만장 홍콩서 대기\"",
-      "link": "https://www.yna.co.kr/view/AKR20261106091500089",
-      "source": "연합뉴스 국제",
-      "ts": 1793934062000,
-      "pub": "Fri, 6 Nov 2026 12:01:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 중국 당국의 수입 승인 보류 때문에 중국 본토로 들어가려던 수십만장 규모의 엔비디아 칩이 홍콩에서 대기 중...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/06/AKR20261106091500089_01_i_P2.jpg"
-    },
-    {
-      "title": "실리콘밸리서 사라진 150억원어치 엔비디아칩…트럭 도난 수사중",
-      "link": "https://www.yna.co.kr/view/AKR20261106088900091",
-      "source": "연합뉴스 국제",
-      "ts": 1793933342000,
-      "pub": "Fri, 6 Nov 2026 11:49:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 미국 실리콘밸리에서 엔비디아의 고가 반도체가 운송 도중 사라져 경찰이 수사에 나섰다.",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2025/02/28/PEP20250228018301009_P2.jpg"
-    },
-    {
       "title": "AI·반도체 호황 벌써 끝?…美 '블루웨이브 쇼크' 일파만파",
       "link": "https://www.yna.co.kr/view/AKR20261106084500008",
       "source": "연합뉴스 경제",
@@ -110,16 +90,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 황철환 기자 = 미국 기술주가 최악의 하루를 맞은 데 이어 국내 증시마저 거세게 흔들리면서 그간 글로벌 주식시장을 선도해 온 ...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110604000001302_P2.jpg"
-    },
-    {
-      "title": "중화권 증시도 '블루웨이브 충격'…반도체주 CXMT·TSMC 급락",
-      "link": "https://www.yna.co.kr/view/AKR20261106073700089",
-      "source": "연합뉴스 국제",
-      "ts": 1793929949000,
-      "pub": "Fri, 6 Nov 2026 10:52:29 +0900",
-      "sentiment": "negative",
-      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 인공지능(AI) 산업에 규제 입장을 보여온 미국 민주당의 중간선거 압승과 그에 따른 미 증시 약세 속에 중...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/15/PRU20261015073601009_P2.jpg"
     }
   ]
 }

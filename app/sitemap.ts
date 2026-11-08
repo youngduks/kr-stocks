@@ -27,6 +27,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const guides: MetadataRoute.Sitemap = [
     {
+      url: `${base}/korea/kospi-night`,
+      lastModified: now,
+      changeFrequency: "hourly",
+      priority: 0.9, // "코스피 야간선물"(네이버 월 18.8만) — EWY 24h 대용 지표 (2026-11-08)
+    },
+    {
       url: `${base}/guide/hyperliquid-onramp`,
       lastModified: now,
       changeFrequency: "weekly",

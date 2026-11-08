@@ -183,6 +183,15 @@ export default async function GuideKoreanOvernightPrices() {
                 <div className="text-sm font-semibold text-accent-blue">→ 현대차 (005380) 24h 시세</div>
                 <div className="text-xs text-text-dim mt-0.5">동일 정보</div>
               </Link>
+              <Link
+                href="/korea/kospi-night"
+                className="block p-3 rounded-xl bg-accent-blue/5 hover:bg-accent-blue/10 border border-accent-blue/20 transition"
+              >
+                <div className="text-sm font-semibold text-accent-blue">→ 코스피 야간선물 대신 보는 한국 ETF(EWY) 24시간 시세</div>
+                <div className="text-xs text-text-dim mt-0.5">
+                  실제 KRX 야간선물이 아닌 대용 지표 · 미국 종가 대비 등락률(%)
+                </div>
+              </Link>
             </div>
           </section>
 

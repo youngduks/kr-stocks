@@ -390,6 +390,14 @@ export default async function Home() {
                 <StockRow key={row.slug} row={row} sub={koreaSub(row)} spark={sparks[i]} />
               ))}
             </div>
+            <Link
+              href="/korea/kospi-night"
+              prefetch={false}
+              className="flex items-center justify-between gap-3 min-h-[48px] text-[14px] font-semibold text-text-muted hover:text-text border-t border-line"
+            >
+              <span className="truncate">코스피 야간선물 대신 보는 한국 ETF(EWY) 24시간 시세</span>
+              <span className="shrink-0">→</span>
+            </Link>
             <a href="#markets" className="flex items-center justify-center min-h-[48px] text-[15px] font-bold text-down border-t border-line">
               미국·비상장 {restCount}종목 전체 보기 →
             </a>

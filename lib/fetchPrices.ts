@@ -77,7 +77,7 @@ export type PriceRow = SymbolMeta & {
 // 못 막는데, 이 재시도는 캐시와 무관하게 단발 blip을 그 자리에서 메움 → 콜드스타트+blip
 // 동시 케이스(유일한 잔여 결번 경로)까지 대부분 커버. 백그라운드 ISR 재생성에서 도는
 // 코드라 사용자 응답 지연엔 영향 없음(stale-while-revalidate가 즉시 stale 서빙).
-async function withRetry<T>(fn: () => Promise<T>, attempts = 2, baseDelayMs = 300): Promise<T> {
+export async function withRetry<T>(fn: () => Promise<T>, attempts = 2, baseDelayMs = 300): Promise<T> {
   let lastErr: unknown;
   for (let i = 0; i < attempts; i++) {
     try {
@@ -95,7 +95,7 @@ async function withRetry<T>(fn: () => Promise<T>, attempts = 2, baseDelayMs = 30
   throw lastErr;
 }
 
-async function fetchHlDex(dex: string): Promise<Map<string, HlAssetCtx>> {
+export async function fetchHlDex(dex: string): Promise<Map<string, HlAssetCtx>> {
   const r = await fetch(HL_API, {
     method: "POST",
     headers: { "Content-Type": "application/json" },

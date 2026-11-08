@@ -1,7 +1,7 @@
-import { fetchAllPrices } from "@/lib/fetchPrices";
+import { fetchAllPrices, type PriceRow } from "@/lib/fetchPrices";
 import { fetchCandleSet } from "@/lib/fetchCandles";
 import { bySlug, CATEGORY_LABELS } from "@/lib/universe";
-import { getConsensus, hasConsensus, enrichWithCurrentPrice } from "@/lib/consensus";
+import { getConsensus, hasConsensus, enrichWithCurrentPrice, type ConsensusData } from "@/lib/consensus";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { TargetRangeCard } from "@/components/ui/TargetRangeCard";
@@ -163,8 +163,25 @@ export default async function SymbolPage({ params }: Props) {
     ],
   };
 
-  // FAQPage Schema — 종목별 retail Q&A (5/14)
-  const faqLd = {
+  // 한국 종목(삼성/하이닉스/현대차 + 하이닉스 ADR) — 서버 HTML 요약 문장 + 화면에 보이는 FAQ (2026-11-08)
+  // 이미 받은 데이터(가격·KRX 종가·data/consensus)만 사용. 화면 FAQ와 FAQPage JSON-LD는 같은 배열.
+  const isKoreaStock = row.category === "korea" && !row.is_fx;
+  const consensusRaw = isKoreaStock && hasConsensus(row.slug) ? getConsensus(row.slug) : null;
+  const summaryText = isKoreaStock ? buildKoreaSummary(row, m, refVsClose, consensusRaw, data.fetched_at, isAdr) : null;
+  const koreaFaq = isKoreaStock ? buildKoreaFaq(row, consensusRaw, isAdr) : null;
+
+  // FAQPage Schema — 종목별 retail Q&A (5/14). 한국 종목은 화면 FAQ(koreaFaq)와 동일 문구로 대체.
+  const faqLd = koreaFaq
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: koreaFaq.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+      }
+    : {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: [
@@ -251,6 +268,9 @@ export default async function SymbolPage({ params }: Props) {
             />
           </div>
         </div>
+
+        {/* 서버 HTML 요약 문장 — 기준 시각 + 가격 + KRX 종가 대비 + 목표가 (한국 종목만) */}
+        {summaryText && <p className="ds-explain mt-3">{summaryText}</p>}
 
         {/* ① 상태 카드 (Phase B) — 지금 가격이 어느 쪽으로 움직이는지 + 실측 수급 해석 */}
         <section className="ds-card mt-4 mb-4">
@@ -778,6 +798,30 @@ export default async function SymbolPage({ params }: Props) {
           </section>
         )}
 
+        {/* 자주 묻는 질문 — 한국 종목만, FAQPage JSON-LD 와 같은 문구 */}
+        {koreaFaq && (
+          <section className="ds-card mb-4" aria-labelledby="stock-faq">
+            <h2 id="stock-faq" className="text-[17px] font-extrabold mb-3">
+              자주 묻는 질문
+            </h2>
+            <div className="space-y-4">
+              {koreaFaq.map((f) => (
+                <div key={f.q}>
+                  <h3 className="font-semibold text-text mb-1 text-[15px]">Q. {f.q}</h3>
+                  <p className="ds-explain">{f.a}</p>
+                </div>
+              ))}
+            </div>
+            <Link
+              href="/korea/kospi-night"
+              prefetch={false}
+              className="inline-block mt-4 text-sm font-semibold text-accent-blue hover:underline"
+            >
+              코스피 야간선물 대신 보는 한국 ETF(EWY) 24시간 시세 →
+            </Link>
+          </section>
+        )}
+
         <section className="ds-card text-sm text-text-muted">
           <div className="font-semibold text-text mb-1">📊 데이터 출처</div>
           가격: {row.source === "binance" ? "Binance USDT-M 선물" : "Hyperliquid"} 24시간 시세 ({row.ticker}) · 환율: Upbit KRW/USDT · 업데이트 30초
@@ -874,4 +918,143 @@ function buildQuad(flow: TradingFlowData, bars: Candle[], srcLabel: string) {
     cells,
     footnote: `${fmtMD(first)}~${fmtMD(last)} 5거래일 · 가격 ${sign}${Math.abs(pricePct).toFixed(1)}% (${srcLabel} 4시간봉) · 외국인 ${bigKRW(fw)} (네이버 금융 추정) · 매매 권유 아님`,
   };
+}
+
+// ── 한국 종목 요약 문장 / FAQ (2026-11-08) ─────────────────────────────────────
+type MarketData = NonNullable<PriceRow["market"]>;
+
+/** 문장용 원화 표기 — "210,500원" (조사가 항상 받침 있는 '원' 뒤에 붙도록) */
+function won(n: number): string {
+  return `${Math.round(n).toLocaleString("ko-KR")}원`;
+}
+
+function signedPct(n: number): string {
+  const s = n > 0 ? "+" : n < 0 ? "−" : "";
+  return `${s}${Math.abs(n).toFixed(2)}%`;
+}
+
+/** epoch ms → "11월 8일 19:20" (KST) */
+function fmtKstMin(ms: number): string {
+  const parts = new Intl.DateTimeFormat("ko-KR", {
+    timeZone: "Asia/Seoul",
+    month: "numeric",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).formatToParts(new Date(ms));
+  const get = (t: string) => parts.find((p) => p.type === t)?.value ?? "";
+  return `${get("month")}월 ${get("day")}일 ${get("hour")}:${get("minute")}`;
+}
+
+/** ISO → "11월 6일" (KST) */
+function fmtKstDate(iso: string | undefined): string | null {
+  if (!iso) return null;
+  const t = Date.parse(iso);
+  if (!Number.isFinite(t)) return null;
+  const parts = new Intl.DateTimeFormat("ko-KR", { timeZone: "Asia/Seoul", month: "numeric", day: "numeric" }).formatToParts(new Date(t));
+  const get = (k: string) => parts.find((p) => p.type === k)?.value ?? "";
+  return `${get("month")}월 ${get("day")}일`;
+}
+
+function consensusLine(c: ConsensusData | null): { avg: number; date: string | null } | null {
+  if (!c || !(c.consensus.avg_target_krw > 0)) return null;
+  return { avg: c.consensus.avg_target_krw, date: fmtKstDate(c.naver_snapshot?.fetched_at ?? c.updated_at) };
+}
+
+function buildKoreaSummary(
+  row: PriceRow,
+  m: MarketData,
+  refVsClose: { label: string; pct: number } | null,
+  consensus: ConsensusData | null,
+  fetchedAt: number,
+  isAdr: boolean,
+): string {
+  const t = fmtKstMin(fetchedAt);
+  const name = row.name_ko ?? row.slug;
+  if (isAdr) {
+    const tk = row.ticker.split(":").pop();
+    const priceUsd = m.main_display_usd ?? m.mark_px_usd;
+    const priceKrw = m.main_display_krw ?? m.krw_price;
+    const what = m.market_phase === "live" ? "나스닥 장중가는" : "나스닥 마지막 종가는";
+    let s = `${t} 기준 ${name}(나스닥 ${tk}) ${what} $${priceUsd.toFixed(2)}(약 ${won(priceKrw)})로 전일 종가 대비 ${signedPct(m.main_change_pct)}예요.`;
+    if (m.adr_premium_pct != null) {
+      s += ` ADR ${row.adr_ratio ?? 1}주를 보통주 1주로 환산하면 국내 KRX 종가 대비 ${signedPct(m.adr_premium_pct)}예요.`;
+    }
+    return s;
+  }
+  const main = m.main_display_krw ?? m.per_share_krw ?? m.krw_price;
+  const perp = m.per_share_krw ?? m.krw_price;
+  const what =
+    m.market_phase === "live"
+      ? "KRX 장중가는"
+      : m.market_phase === "nxt"
+        ? "NXT 시간외 가격은"
+        : "24시간 시세(바이낸스 선물, 원화 환산)는";
+  let s = `${t} 기준 ${name} ${what} ${won(main)}`;
+  s += refVsClose ? `으로 ${refVsClose.label} 대비 ${signedPct(refVsClose.pct)}예요.` : `이에요.`;
+  if (m.market_phase !== "closed") s += ` 바이낸스 선물 24시간 시세는 원화로 환산하면 약 ${won(perp)}이에요.`;
+  const c = consensusLine(consensus);
+  if (c) {
+    // TargetRangeCard 와 같은 현재가 기준 (main_display_krw 우선)
+    const cur = m.main_display_krw ?? m.regular_close_krw ?? m.per_share_krw ?? m.krw_price;
+    const up = cur > 0 ? ((c.avg - cur) / cur) * 100 : null;
+    s += ` 증권사 평균 목표주가는 ${won(c.avg)}(네이버 금융 종합${c.date ? `, ${c.date} 갱신` : ""})`;
+    s += up != null ? `으로 지금 가격보다 ${Math.abs(up).toFixed(1)}% ${up >= 0 ? "높아요" : "낮아요"}.` : `이에요.`;
+  }
+  return s;
+}
+
+const KOSPI_NIGHT_FAQ = {
+  q: "코스피 야간선물 시세도 볼 수 있나요?",
+  a: "KRX 코스피200 야간선물 시세 자체는 제공하지 않아요. 대신 24시간 거래되는 한국 ETF(EWY) 무기한 선물의 등락률을 kr-stocks.com 코스피 야간선물 페이지(/korea/kospi-night)에서 대용 지표로 볼 수 있어요.",
+};
+
+function buildKoreaFaq(row: PriceRow, consensus: ConsensusData | null, isAdr: boolean): { q: string; a: string }[] {
+  const name = row.name_ko ?? row.slug;
+  if (isAdr) {
+    const base = row.adr_ref_slug ? bySlug(row.adr_ref_slug)?.name_ko ?? "국내 보통주" : "국내 보통주";
+    const ratio = row.adr_ratio ?? 1;
+    return [
+      {
+        q: `${name} 가격은 언제 움직이나요?`,
+        a: `나스닥 정규장(뉴욕 시간 오전 9시 30분~오후 4시, 한국 시간으로 서머타임 기간 밤 10시 30분~오전 5시, 그 밖의 기간 밤 11시 30분~오전 6시)에 거래돼요. 이 페이지는 장중에는 거래가를, 장이 닫히면 마지막 종가를 보여줘요.`,
+      },
+      {
+        q: `${name} 1주는 ${base} 몇 주인가요?`,
+        a: `ADR ${ratio}주가 ${base} 보통주 1주예요(SEC 제출 서류의 공식 비율). 이 페이지의 프리미엄은 ADR 가격 × ${ratio} × 환율로 환산한 값을 국내 KRX 종가와 비교한 거예요.`,
+      },
+      {
+        q: `주말에도 ${name} 가격이 움직이나요?`,
+        a: `아니요. 나스닥이 쉬는 주말과 미국 휴일에는 마지막 종가가 그대로 보여요. 주말에도 움직이는 가격은 ${base} 24시간 시세 페이지(바이낸스 선물 기준)에서 볼 수 있어요.`,
+      },
+      KOSPI_NIGHT_FAQ,
+    ];
+  }
+  const sym = row.binance_symbol ?? row.ticker;
+  const out: { q: string; a: string }[] = [
+    {
+      q: `${name} 야간 시세는 어디서 보나요?`,
+      a: `kr-stocks.com ${name} 페이지에서 24시간 볼 수 있어요. KRX 정규장(09:00~15:30)에는 장중가, NXT 시간외 거래 시간(프리마켓 08:00~08:50, 애프터마켓 15:30~20:00)에는 NXT 가격, 그 밖의 밤·새벽·주말에는 바이낸스 ${sym} 무기한 선물 가격을 원화로 환산해 보여줘요. 시간대에 맞춰 자동으로 바뀌어요.`,
+    },
+    {
+      q: `주말에도 ${name} 가격이 움직이나요?`,
+      a: `KRX와 NXT는 주말에 쉬지만 바이낸스 ${sym} 무기한 선물은 주말에도 거래돼 가격이 움직여요. 실제 주식이 아니라 주가를 따라가는 선물 계약이고 거래가 적을 때가 있어, 월요일 KRX 시초가와 차이가 날 수 있어요.`,
+    },
+  ];
+  const c = consensusLine(consensus);
+  if (c) {
+    out.push({
+      q: `${name} 목표주가는 얼마인가요?`,
+      a: `네이버 금융 종합 기준 증권사 평균 목표주가는 ${won(c.avg)}이에요${c.date ? `(${c.date} 갱신)` : ""}. 목표주가는 증권사 전망치일 뿐 앞으로의 가격을 보장하지 않아요.`,
+    });
+  }
+  out.push(
+    {
+      q: `${name} 실시간 시세는 정확한가요?`,
+      a: `정규장·NXT 가격은 네이버 금융 시세, 야간·주말 가격은 바이낸스 선물 시세를 업비트 USDT 원화 시세로 환산한 값이에요. 선물 가격은 KRX 시초가와 다를 수 있어 참고용으로 봐 주세요. 페이지는 약 30초마다 새로 불러와요.`,
+    },
+    KOSPI_NIGHT_FAQ,
+  );
+  return out;
 }

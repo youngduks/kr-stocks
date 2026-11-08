@@ -1,43 +1,50 @@
 name: Warm ISR after deploy (배포 직후 종목 페이지 미리 열기)
 
-# 왜: Vercel 빌드 환경에서 바이낸스 fapi 가 막혀(지역 차단) 삼성·하이닉스·현대차 페이지가
-# 빌드 때 "시세를 불러오지 못했어요" 안내 페이지로 만들어짐. 첫 요청이 icn1(서울) 재생성을
-# 일으키면 정상 페이지로 바뀌므로, 배포 성공 직후 한 번씩 열어 실제 방문자가 안내 페이지를 보지 않게 함.
+# 왜: Vercel 빌드 환경에서 바이낸스 fapi 가 막혀(지역 차단) 바이낸스 소스 종목
+# (삼성·하이닉스·현대차, 미국 블루칩 26종, OpenAI·Anthropic 등) 페이지가 빌드 때
+# "시세를 불러오지 못했어요" 안내 페이지로 만들어짐. 첫 요청이 icn1(서울) 재생성을 일으키면
+# 정상 페이지로 바뀌므로, 배포 성공 직후 사이트맵의 종목 주소를 전부 한 번씩 열어 둠.
 # 트리거: Vercel GitHub 연동이 보내는 deployment_status (Production · success). 2026-11-08
 on:
   deployment_status:
+  workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
   warm:
-    if: github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production'
+    if: github.event_name == 'workflow_dispatch' || (github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production')
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - name: Warm pages
         env:
           # Cloudflare 가 기본 curl UA 를 403 처리 → 브라우저 UA
           UA: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+          MARK: "시세를 불러오지 못했어요"
         run: |
           set -u
-          paths="/korea/samsung /korea/hynix /korea/hyundai /korea/kospi-night"
+          base="https://kr-stocks.com"
+          # 사이트맵에서 종목·야간선물 주소만 추출 (/korea|us|global|private|themes/<slug>)
+          urls=$(curl -s -A "$UA" "$base/sitemap.xml" | grep -o '<loc>[^<]*</loc>' | sed 's#<loc>##; s#</loc>##' \
+            | grep -E "^$base/(korea|us|global|private|themes)/[^/]+$" | sort -u)
+          n=$(echo "$urls" | grep -c . || true)
+          echo "대상 $n개"
+          [ "$n" -gt 0 ] || { echo "::warning::사이트맵에서 주소를 못 읽음"; exit 0; }
           # 1차: 재생성 유도 (stale 응답 + 백그라운드 재생성)
-          for p in $paths; do
-            code=$(curl -s -o /dev/null -w "%{http_code}" -A "$UA" "https://kr-stocks.com$p")
-            echo "1st $p $code"
-          done
-          # 2차: 정상 페이지(자주 묻는 질문 섹션)가 나올 때까지 최대 6회 확인
-          fail=0
-          for p in $paths; do
-            ok=0
-            for i in 1 2 3 4 5 6; do
-              sleep 10
-              if curl -s -A "$UA" "https://kr-stocks.com$p" | grep -q "자주 묻는 질문"; then ok=1; break; fi
+          for u in $urls; do curl -s -o /dev/null -A "$UA" "$u"; done
+          # 2차: 안내 페이지가 남은 주소만 다시 열기 (최대 4회)
+          left="$urls"
+          for round in 1 2 3 4; do
+            sleep 15
+            next=""
+            for u in $left; do
+              if curl -s -A "$UA" "$u" | grep -q "$MARK"; then next="$next $u"; fi
             done
-            echo "warm $p ok=$ok"
-            [ "$ok" = 1 ] || fail=1
+            left=$(echo $next)
+            echo "round $round 남은 안내 페이지: $(echo $left | wc -w)"
+            [ -z "$left" ] && break
           done
           # 실패해도 배포 자체엔 영향 없음 — 로그로만 남김
-          [ "$fail" = 0 ] || echo "::warning::일부 페이지가 아직 안내 페이지 상태입니다"
+          [ -z "$left" ] || echo "::warning::아직 안내 페이지: $left"

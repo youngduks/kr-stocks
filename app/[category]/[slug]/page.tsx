@@ -1,6 +1,6 @@
 import { fetchAllPrices, type PriceRow } from "@/lib/fetchPrices";
 import { fetchCandleSet } from "@/lib/fetchCandles";
-import { bySlug, CATEGORY_LABELS } from "@/lib/universe";
+import { bySlug, CATEGORY_LABELS, SYMBOLS, type SymbolMeta } from "@/lib/universe";
 import { getConsensus, hasConsensus, enrichWithCurrentPrice, type ConsensusData } from "@/lib/consensus";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -31,8 +31,20 @@ const PriceChart = nextDynamic(() => import("@/components/PriceChart").then((m) 
   ),
 });
 
+// ISR (2026-11-08) — force-dynamic 이면 루트 loading.tsx 폴백("가격 정보 불러오는 중…")이 먼저 나가고
+// 본문은 <div hidden id="S:0"> 스트리밍 영역에 들어가 JS 미실행 수집기엔 안 보였음.
+// ISR 은 완성된 HTML을 캐시해 그대로 내보냄 → 요약·FAQ가 HTML에 바로 보임.
 export const revalidate = 30;
-export const dynamic = "force-dynamic";
+// universe_map 에 있는 (category, slug) 만 생성 — 없는 주소는 진짜 404 (이전엔 스트리밍 중 notFound → 200 soft-404)
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return SYMBOLS.map((s) => ({ category: s.category, slug: s.slug }));
+}
+
+// 빌드(prerender) 중 외부 API 실패로 빌드가 깨지지 않게 — 빌드 때만 안내 페이지로 렌더.
+// 런타임 재생성 중 실패는 throw → ISR 이 직전 정상 페이지를 계속 서빙(안내 페이지로 덮어쓰지 않음).
+const IS_BUILD = process.env.NEXT_PHASE === "phase-production-build";
 
 type Props = { params: { category: string; slug: string } };
 
@@ -74,12 +86,21 @@ export default async function SymbolPage({ params }: Props) {
           source: meta.source === "binance" ? "binance" : "hl",
           binanceSymbol: meta.binance_symbol,
         });
-  const [data, candles] = await Promise.all([
-    fetchAllPrices(),
-    candlesPromise,
-  ]);
-  const row = data.symbols.find((r) => r.slug === params.slug);
-  if (!row || !row.market) notFound();
+  let data: Awaited<ReturnType<typeof fetchAllPrices>>;
+  let candles: Awaited<typeof candlesPromise>;
+  try {
+    [data, candles] = await Promise.all([fetchAllPrices(), candlesPromise]);
+  } catch (e) {
+    if (!IS_BUILD) throw e;
+    console.error(`[symbol page] 빌드 중 시세 실패 → 안내 페이지 (${params.slug}):`, e);
+    return <PriceUnavailable meta={meta} />;
+  }
+  const found = data.symbols.find((r) => r.slug === params.slug);
+  if (!found || !found.market) {
+    if (!IS_BUILD) throw new Error(`시세 없음: ${params.slug} — 직전 정상 페이지 유지`);
+    return <PriceUnavailable meta={meta} fxRate={data.fx.krw_per_usdt} fxChange={data.fx.change_24h_pct} />;
+  }
+  const row = found as PriceRow & { market: MarketData };
   const buyback = hasBuyback(row.slug) ? await getBuyback(row.slug) : null;
 
   const m = row.market;
@@ -138,6 +159,7 @@ export default async function SymbolPage({ params }: Props) {
   };
 
   // BreadcrumbList Schema — Google rich snippet (5/14)
+  // 2026-11-08: 2단계 /{category} 주소(/korea·/us·/global·/private·/themes)는 페이지가 없어 404 → 홈 → 종목 2단계로.
   const breadcrumbLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -151,13 +173,7 @@ export default async function SymbolPage({ params }: Props) {
       {
         "@type": "ListItem",
         position: 2,
-        name: label.ko,
-        item: `https://kr-stocks.com/${row.category}`,
-      },
-      {
-        "@type": "ListItem",
-        position: 3,
-        name: row.name_ko,
+        name: row.name_ko ?? row.name_en ?? row.slug,
         item: `https://kr-stocks.com/${row.category}/${row.slug}`,
       },
     ],
@@ -918,6 +934,37 @@ function buildQuad(flow: TradingFlowData, bars: Candle[], srcLabel: string) {
     cells,
     footnote: `${fmtMD(first)}~${fmtMD(last)} 5거래일 · 가격 ${sign}${Math.abs(pricePct).toFixed(1)}% (${srcLabel} 4시간봉) · 외국인 ${bigKRW(fw)} (네이버 금융 추정) · 매매 권유 아님`,
   };
+}
+
+/** 시세를 못 받았을 때(빌드 prerender 중 외부 API 실패 등) 안내 페이지 — 다음 ISR 재생성에서 정상 페이지로 교체됨 */
+function PriceUnavailable({ meta, fxRate = 0, fxChange = 0 }: { meta: SymbolMeta; fxRate?: number; fxChange?: number }) {
+  const name = meta.name_ko || meta.name_en || meta.slug;
+  const label = CATEGORY_LABELS[meta.category];
+  return (
+    <>
+      <Header fxRate={fxRate} fxChange={fxChange} />
+      <main className="max-w-3xl mx-auto px-4 sm:px-5 pt-4 pb-12">
+        <PageTitle
+          backHref="/"
+          eyebrow={
+            <>
+              {label.emoji} {label.ko} · <span className="num">{meta.krx_code ?? meta.ticker}</span>
+            </>
+          }
+          title={name}
+        />
+        <section className="ds-card mt-4 mb-4">
+          <p className="ds-explain">
+            지금 {name} 시세를 불러오지 못했어요. 잠시 후 다시 확인해 주세요. (자료 출처 일시 오류)
+          </p>
+          <Link href="/" prefetch={false} className="inline-block mt-3 text-sm font-semibold text-accent-blue hover:underline">
+            홈에서 다른 종목 보기 →
+          </Link>
+        </section>
+      </main>
+      <Footer />
+    </>
+  );
 }
 
 // ── 한국 종목 요약 문장 / FAQ (2026-11-08) ─────────────────────────────────────

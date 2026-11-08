@@ -184,64 +184,18 @@ export default async function SymbolPage({ params }: Props) {
   const isKoreaStock = row.category === "korea" && !row.is_fx;
   const consensusRaw = isKoreaStock && hasConsensus(row.slug) ? getConsensus(row.slug) : null;
   const summaryText = isKoreaStock ? buildKoreaSummary(row, m, refVsClose, consensusRaw, data.fetched_at, isAdr) : null;
-  const koreaFaq = isKoreaStock ? buildKoreaFaq(row, consensusRaw, isAdr) : null;
+  // 화면 FAQ 와 FAQPage JSON-LD 는 같은 배열 — 한국 종목 / 그 외(미국·지수·비상장) (2026-11-08)
+  const faqItems = isKoreaStock ? buildKoreaFaq(row, consensusRaw, isAdr) : buildOtherFaq(row, m);
 
-  // FAQPage Schema — 종목별 retail Q&A (5/14). 한국 종목은 화면 FAQ(koreaFaq)와 동일 문구로 대체.
-  const faqLd = koreaFaq
-    ? {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        mainEntity: koreaFaq.map((f) => ({
-          "@type": "Question",
-          name: f.q,
-          acceptedAnswer: { "@type": "Answer", text: f.a },
-        })),
-      }
-    : {
+  // FAQPage Schema — 종목별 retail Q&A (5/14 도입, 11/08 화면 문구와 통일)
+  const faqLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: `${row.name_ko} 야간 가격은 어떻게 확인하나요?`,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: `${row.name_ko}는 KRX 정규장 (09:00~15:30 KST) 마감 후 NXT 시간외 (15:30~20:00 KST) + Hyperliquid HIP-3 perp (20:00~익일 08:00) 로 24시간 가격 추적이 가능합니다. kr-stocks.com 은 세 phase 를 자동 전환해서 메인 가격으로 표시합니다.`,
-        },
-      },
-      {
-        "@type": "Question",
-        name: `${row.name_ko} 실시간 시세는 정확한가요?`,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: `정규장·NXT 시간외 가격은 네이버 금융 (KRX 공식 데이터) 기준이며 30초마다 갱신됩니다. 야간 Hyperliquid 가격은 글로벌 perp 시장 가격으로 정규장 시초가와 차이날 수 있으며 참고용입니다.`,
-        },
-      },
-      ...(row.category === "korea"
-        ? [
-            {
-              "@type": "Question",
-              name: `${row.name_ko} 증권사 평균 목표주가는 얼마인가요?`,
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: `kr-stocks.com 에서 ${row.name_ko} 종목 상세 페이지를 보면 한국 증권사 평균 목표주가 + 상승여력 + 외국인·기관 5일 누적 매매 동향을 한 화면에서 확인할 수 있습니다. 출처: 네이버 금융 리서치.`,
-              },
-            },
-          ]
-        : []),
-      ...(row.is_private
-        ? [
-            {
-              "@type": "Question",
-              name: `${row.name_ko} 비상장 주가는 어떻게 추정되나요?`,
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: `${row.name_ko}는 비상장 회사로 implied valuation 기반의 추정 가격입니다. Hyperliquid HIP-3 perp 가격을 share 단위로 환산한 값이며, 정식 거래 가격이 아닌 참고용입니다.`,
-              },
-            },
-          ]
-        : []),
-    ],
+    mainEntity: faqItems.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
   };
 
   return (
@@ -814,27 +768,29 @@ export default async function SymbolPage({ params }: Props) {
           </section>
         )}
 
-        {/* 자주 묻는 질문 — 한국 종목만, FAQPage JSON-LD 와 같은 문구 */}
-        {koreaFaq && (
+        {/* 자주 묻는 질문 — FAQPage JSON-LD 와 같은 문구 (전 종목) */}
+        {faqItems.length > 0 && (
           <section className="ds-card mb-4" aria-labelledby="stock-faq">
             <h2 id="stock-faq" className="text-[17px] font-extrabold mb-3">
               자주 묻는 질문
             </h2>
             <div className="space-y-4">
-              {koreaFaq.map((f) => (
+              {faqItems.map((f) => (
                 <div key={f.q}>
                   <h3 className="font-semibold text-text mb-1 text-[15px]">Q. {f.q}</h3>
                   <p className="ds-explain">{f.a}</p>
                 </div>
               ))}
             </div>
-            <Link
-              href="/korea/kospi-night"
-              prefetch={false}
-              className="inline-block mt-4 text-sm font-semibold text-accent-blue hover:underline"
-            >
-              코스피 야간선물 대신 보는 한국 ETF(EWY) 24시간 시세 →
-            </Link>
+            {isKoreaStock && (
+              <Link
+                href="/korea/kospi-night"
+                prefetch={false}
+                className="inline-block mt-4 text-sm font-semibold text-accent-blue hover:underline"
+              >
+                코스피 야간선물 대신 보는 한국 ETF(EWY) 24시간 시세 →
+              </Link>
+            )}
           </section>
         )}
 
@@ -1050,6 +1006,78 @@ function buildKoreaSummary(
     s += up != null ? `으로 지금 가격보다 ${Math.abs(up).toFixed(1)}% ${up >= 0 ? "높아요" : "낮아요"}.` : `이에요.`;
   }
   return s;
+}
+
+const US_HOURS =
+  "뉴욕 시간 오전 9시 30분~오후 4시, 한국 시간으로 서머타임 기간 밤 10시 30분~오전 5시·그 밖의 기간 밤 11시 30분~오전 6시";
+
+/** 미국·글로벌 지수·비상장 FAQ — 코드에서 실제로 하는 동작(소스·환산·phase 전환)만 설명 */
+function buildOtherFaq(row: PriceRow, m: MarketData): { q: string; a: string }[] {
+  const name = row.name_ko ?? row.name_en ?? row.slug;
+  const src =
+    row.source === "binance"
+      ? `바이낸스 ${row.binance_symbol ?? row.ticker}`
+      : `하이퍼리퀴드 ${row.ticker}`;
+  const hasRegular = m.regular_source === "yahoo";
+  const josa = hasJong(name) ? "은" : "는";
+
+  if (row.is_private) {
+    return [
+      {
+        q: `${name}${josa} 비상장인데 어떻게 가격이 있나요?`,
+        a: `${name}${josa} 증권거래소에 상장되지 않은 회사예요. 이 페이지의 가격은 ${src} 무기한 선물(상장 전 기업 가치를 거래하는 계약) 가격이에요. 회사 주식이 실제로 거래된 가격이나 공모가가 아니라 거래자들의 기대가 반영된 계약 가격이라 참고용으로만 봐 주세요.`,
+      },
+      {
+        q: `주말에도 ${name} 가격이 움직이나요?`,
+        a: `네. ${src} 무기한 선물은 주말에도 24시간 거래돼 가격이 움직여요. 거래가 적을 때는 몇 건의 거래에도 크게 흔들릴 수 있어요.`,
+      },
+      {
+        q: `${name} 원화 가격은 어떻게 계산하나요?`,
+        a: `달러(USDT) 가격에 업비트 USDT 원화 시세를 곱해 환산해요. 은행 원/달러 환율과는 조금 다를 수 있어요.`,
+      },
+    ];
+  }
+
+  if (row.is_index) {
+    return [
+      {
+        q: `${name} 24시간 시세는 어디서 보나요?`,
+        a: hasRegular
+          ? `정규장 시간에는 야후 파이낸스의 정규장 지수 값을, 정규장이 닫힌 시간에는 ${src} 무기한 선물 가격을 보여줘요. 다만 무기한 선물 거래가 없어(미결제약정·거래량 0) 가격이 멈춰 있을 때는 정규장 종가를 대신 보여줘요.`
+          : `${src} 무기한 선물 가격을 24시간 보여줘요.`,
+      },
+      {
+        q: `${name} 숫자의 단위는 무엇인가요?`,
+        a: `지수 포인트예요. 원화나 달러 가격이 아니에요.`,
+      },
+      {
+        q: `${name} 실시간 시세는 정확한가요?`,
+        a: `무기한 선물 가격은 실제 지수와 차이가 날 수 있어 참고용이에요. 페이지는 약 30초마다 새로 만들어요.`,
+      },
+    ];
+  }
+
+  // 미국 주식 (그 외 카테고리도 동일 구조)
+  return [
+    {
+      q: `${name} 24시간 시세는 어디서 보나요?`,
+      a: hasRegular
+        ? `미국 정규장(${US_HOURS}) 동안에는 야후 파이낸스 정규장 거래가를, 장이 닫힌 밤·새벽·주말에는 ${src} 무기한 선물 가격을 보여줘요. 시간대에 맞춰 자동으로 바뀌어요.`
+        : `${src} 무기한 선물 가격을 24시간 보여줘요.`,
+    },
+    {
+      q: `주말에도 ${name} 가격이 움직이나요?`,
+      a: `미국 주식시장은 주말에 쉬지만 ${src} 무기한 선물은 주말에도 거래돼 가격이 움직여요. 실제 주식이 아니라 주가를 따라가는 선물 계약이라 월요일 정규장 시작 가격과 다를 수 있어요.`,
+    },
+    {
+      q: `${name} 원화 가격은 어떻게 계산하나요?`,
+      a: `달러 가격에 업비트 USDT 원화 시세를 곱해 환산해요. 은행 원/달러 환율과는 조금 다를 수 있어요.`,
+    },
+    {
+      q: `${name} 실시간 시세는 정확한가요?`,
+      a: `${hasRegular ? "정규장 가격은 야후 파이낸스, 그 밖의 시간 가격은" : "가격은"} ${src} 무기한 선물 시세라 정규장 가격과 차이가 날 수 있어 참고용이에요. 페이지는 약 30초마다 새로 만들어요.`,
+    },
+  ];
 }
 
 const KOSPI_NIGHT_FAQ = {

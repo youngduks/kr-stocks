@@ -1,0 +1,54 @@
+name: Signal Log (개장 전 신호 기록 + 마감 후 채점)
+
+# "그래서 내일 아침 한국장은?" 신호를 한국 정규장 개장 전에 실제로 기록하고, 장 마감 후 종가로 채점.
+# 기록 시간창(평일 06:30~09:00 KST)·덮어쓰기 금지·재구성 금지 규칙은 scripts/signal-log.mjs 가 강제.
+# GitHub 예약 실행은 수십 분 늦을 수 있어 기록은 07:00·08:00 두 번 시도(이미 기록됐으면 건너뜀).
+# 커밋 제목 "chore(data): auto-update signal log" → vercel.json ignoreCommand 로 재빌드 생략.
+on:
+  schedule:
+    - cron: "0 22 * * 0-4"  # UTC 일~목 22:00 = KST 월~금 07:00 (기록)
+    - cron: "0 23 * * 0-4"  # UTC 일~목 23:00 = KST 월~금 08:00 (기록 재시도)
+    - cron: "30 7 * * 1-5"  # UTC 월~금 07:30 = KST 월~금 16:30 (채점)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: signal-log
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Record / grade
+        run: node scripts/signal-log.mjs auto
+
+      - name: Check for changes
+        id: diff
+        run: |
+          if git diff --quiet -- data/signal-log.json; then echo "changed=false" >> "$GITHUB_OUTPUT"
+          else echo "changed=true" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Commit & push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "youngduks"
+          git config user.email "130581659+youngduks@users.noreply.github.com"
+          git add data/signal-log.json
+          git commit -m "chore(data): auto-update signal log $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M') KST"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && break
+            sleep 5
+          done

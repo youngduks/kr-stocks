@@ -22,6 +22,7 @@ import { MoreDetails } from "@/components/ui/MoreDetails";
 import { TodayBrief } from "@/components/home/TodayBrief";
 import { getUpcomingEvents } from "@/lib/events";
 import { getSignalScore, SCORE_RECENT_N, type SignalScoreRow } from "@/lib/signalScore";
+import { getSignalLog, summarizeSignalLog, SIGNAL_LOG_MIN_N, type SignalLogSummary, type SignalRecord } from "@/lib/signalLog";
 
 export const revalidate = 120; // ISR 캐시 30s → 120s (Free tier 최적화, 5/25)
 
@@ -92,6 +93,81 @@ function kstTime(epochSec: number | null): string | null {
   }
 }
 
+const DIR_LABEL: Record<SignalRecord["direction"], string> = {
+  strong_up: "▲ 강한 강세",
+  up: "▲ 강세",
+  flat: "― 보합",
+  down: "▼ 약세",
+  strong_down: "▼ 강한 약세",
+};
+
+function kstYmd(iso: string): string {
+  return new Date(Date.parse(iso) + 9 * 3600 * 1000).toISOString().slice(0, 10);
+}
+
+function mdw(ymd: string): string {
+  const d = new Date(`${ymd}T12:00:00+09:00`);
+  const w = d.toLocaleDateString("ko-KR", { timeZone: "Asia/Seoul", weekday: "short" });
+  return `${Number(ymd.slice(5, 7))}/${Number(ymd.slice(8, 10))}(${w})`;
+}
+
+/** 개장 전 실제 기록 + 마감 후 채점 (data/signal-log.json, 재구성 없음) — 2026-11-08 시작 */
+function SignalRecordBlock({ s }: { s: SignalLogSummary | null }) {
+  if (!s) return null;
+  const started = s.startedAt ? mdw(kstYmd(s.startedAt)) : null;
+  const few = s.stocks.every((x) => x.graded < SIGNAL_LOG_MIN_N);
+  return (
+    <div className="mt-4 pt-3 border-t border-line">
+      <div className="flex items-baseline justify-between gap-2">
+        <h3 className="text-[14px] font-extrabold">이 신호의 실제 기록</h3>
+        {few && <span className="ds-meta shrink-0">기록 쌓는 중</span>}
+      </div>
+      <p className="ds-meta mt-1">
+        {started
+          ? `기록 시작 ${started} · 매 거래일 한국 장 시작 전에 기록하고, 장 마감 후 종가로 채점해요`
+          : "다음 한국 거래일부터 장 시작 전 신호를 기록하고, 장 마감 후 종가로 채점해요"}
+      </p>
+      <div className="mt-2 space-y-1">
+        {s.stocks.map((x) => (
+          <div key={x.slug} className="flex items-center gap-3 text-[14px]">
+            <span className="font-bold w-[84px] shrink-0 truncate">{x.name}</span>
+            <span className="num">
+              맞음 <b>{x.hits}</b> / 채점 <b>{x.graded}</b>
+            </span>
+          </div>
+        ))}
+      </div>
+      {s.recent.length > 0 && (
+        <ul className="mt-2 space-y-1 text-[13px] text-text-muted">
+          {s.recent.map((r) => (
+            <li key={r.krDate} className="num">
+              <b className="text-text">{mdw(r.krDate)}</b> {DIR_LABEL[r.direction]} ·{" "}
+              {r.status === "pending"
+                ? "채점 대기"
+                : r.status === "no_session"
+                  ? "휴장"
+                  : r.call === "none"
+                    ? "보합 신호라 채점 안 함"
+                    : (["samsung", "hynix"] as const)
+                        .map((k) => {
+                          const v = r.results[k];
+                          if (!v) return null;
+                          const nm = k === "samsung" ? "삼성" : "하이닉스";
+                          return `${nm} ${v.pct > 0 ? "+" : v.pct < 0 ? "−" : ""}${Math.abs(v.pct).toFixed(1)}% ${v.hit ? "맞음" : "틀림"}`;
+                        })
+                        .filter(Boolean)
+                        .join(" · ")}
+            </li>
+          ))}
+        </ul>
+      )}
+      <p className="ds-meta mt-2">
+        강세 신호에 그날 종가가 전날보다 오르면, 약세 신호에 내리면 맞음 · 틀린 기록도 지우지 않아요 · 매매 권유가 아니에요
+      </p>
+    </div>
+  );
+}
+
 /** 채점표 — 미국 반도체가 1% 넘게 움직인 날, 다음 한국 거래일 종가 방향이 같았나 (data/history-stats.json) */
 function SignalScoreboard({ rows }: { rows: SignalScoreRow[] }) {
   if (rows.length === 0) return null;
@@ -99,7 +175,7 @@ function SignalScoreboard({ rows }: { rows: SignalScoreRow[] }) {
     <div className="mt-4 pt-3 border-t border-line">
       <div className="flex items-baseline justify-between gap-2">
         <h3 className="text-[14px] font-extrabold">
-          이 신호, 과거엔 얼마나 맞았나
+          참고: 과거 일봉으로 다시 계산한 통계
         </h3>
         <span className="ds-meta shrink-0">● 맞음 · ○ 빗나감</span>
       </div>
@@ -143,11 +219,13 @@ function TomorrowStatusCard({
   fxRate,
   fxChange,
   score,
+  record,
 }: {
   semi: SemiSignal;
   fxRate: number;
   fxChange: number;
   score: SignalScoreRow[];
+  record: SignalLogSummary | null;
 }) {
   const c = SIGNAL_COPY[semi.direction];
   const when = semi.direction === "unknown" ? "" : semi.isLive ? "지금 " : "밤사이 ";
@@ -218,6 +296,7 @@ function TomorrowStatusCard({
           }
         />
       </div>
+      <SignalRecordBlock s={record} />
       <SignalScoreboard rows={score} />
     </StatusCard>
   );
@@ -321,12 +400,13 @@ function koreaSub(row: PriceRow): React.ReactNode {
 }
 
 export default async function Home() {
-  const [data, semiSignal, people, deals, history] = await Promise.all([
+  const [data, semiSignal, people, deals, history, signalLog] = await Promise.all([
     fetchAllPrices(),
     fetchSemiSignal(),
     getHumanIndicators(),
     fetchDealsPreview(3),
     getHistoryStats(),
+    getSignalLog(),
   ]);
 
   // is_fx(원화 환율)는 헤더 환율 위젯과 소스가 달라(HL perp vs 업비트) 숫자가 어긋나 보임 → 리스트 제외
@@ -371,6 +451,7 @@ export default async function Home() {
           fxRate={data.fx.krw_per_usdt}
           fxChange={data.fx.change_24h_pct}
           score={getSignalScore(history)}
+          record={summarizeSignalLog(signalLog)}
         />
 
         {/* ①-b 과거 사례 — 같은 구간이었던 날의 다음 한국 거래일 (실데이터, n<15 숨김) */}

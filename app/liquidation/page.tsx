@@ -307,6 +307,10 @@ export default async function LiquidationPage() {
             )}
           </section>
 
+          <Link href="/guide/liquidation-map" prefetch={false} className="inline-block ds-meta mb-4 underline hover:text-text-muted">
+            청산맵 보는 법 가이드 →
+          </Link>
+
           <section aria-labelledby="liq-links-h">
             <h2 id="liq-links-h" className="ds-h2 mb-1">
               종목별 청산맵 바로가기

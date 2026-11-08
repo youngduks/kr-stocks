@@ -32,6 +32,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "hourly",
       priority: 0.9, // "코스피 야간선물"(네이버 월 18.8만) — EWY 24h 대용 지표 (2026-11-08)
     },
+    // 해설 가이드 (2026-11-08, 네이버 월간 검색량 기준 선정)
+    { url: `${base}/guide/vix-index`, lastModified: now, changeFrequency: "monthly", priority: 0.85 }, // VIX지수 62,610
+    { url: `${base}/guide/kospi-night-futures-hours`, lastModified: now, changeFrequency: "monthly", priority: 0.85 }, // 코스피200야간선물 50,340
+    { url: `${base}/guide/fear-greed-index`, lastModified: now, changeFrequency: "monthly", priority: 0.8 }, // CNN공포탐욕지수 16,530
+    { url: `${base}/guide/liquidation-map`, lastModified: now, changeFrequency: "monthly", priority: 0.75 }, // 청산맵 3,320
     {
       url: `${base}/guide/hyperliquid-onramp`,
       lastModified: now,

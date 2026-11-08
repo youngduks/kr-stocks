@@ -105,6 +105,9 @@ export default async function SymbolPage({ params }: Props) {
 
   const m = row.market;
   const isBn = row.source === "binance"; // 한국주식 3종 = Binance 선물 소스 (그 외 = Hyperliquid)
+  // 미결제약정·거래대금 0 = 거래 없는 선물(예: xyz:VIX 20.00 고정). 그 가격으로 만든 프리미엄·심리·선물 수치는 숨김
+  // (2026-11-08: VIX 페이지에 "▼22% 야간 매도세 강함 — 갭다운 가능성"이 고정가 기준으로 잘못 표시되던 문제)
+  const perpDead = row.source !== "adr" && m.open_interest === 0 && m.day_volume_usd === 0;
   // 한국 카테고리라도 정규장 종가 소스가 Yahoo면 KRX가 아니라 해외 상장 ADR (예: 하이닉스 ADR)
   const isAdr = row.category === "korea" && m.regular_source === "yahoo";
   // phase 인지 변동률 — live/nxt: 전일 대비 / closed: 24h
@@ -293,6 +296,14 @@ export default async function SymbolPage({ params }: Props) {
                 ? {
                     label: "나스닥 정규장 마감 — 마지막 종가",
                     pill: "나스닥 마감",
+                    pillColor: "text-text-dim",
+                    dotColor: "bg-text-dim",
+                    pulse: false,
+                  }
+                : perpDead && m.main_source === "regular_live"
+                ? {
+                    label: "정규장 마감 — 마지막 종가 (24시간 선물 거래 없음)",
+                    pill: "마감",
                     pillColor: "text-text-dim",
                     dotColor: "bg-text-dim",
                     pulse: false,
@@ -528,7 +539,7 @@ export default async function SymbolPage({ params }: Props) {
           );
         })()}
 
-        {m.hl_premium_pct != null && m.regular_close_krw != null && (() => {
+        {!perpDead && m.hl_premium_pct != null && m.regular_close_krw != null && (() => {
           // 박스 2 phase 3-way 분기 :
           //   live  → "HL 24h 시세 vs 장중 프리미엄" + HL 가격 표시
           //   nxt   → "HL 24h 시세 vs NXT 프리미엄" + HL 가격 표시
@@ -688,7 +699,7 @@ export default async function SymbolPage({ params }: Props) {
 
         {/* 24시간 시장 sentiment — HL 거래자 포지션 기반 (코인 metric 숨김, 상승/하락 베팅 비율만 표시) */}
         {/* ADR은 perp 없어 funding 무의미 → sentiment hide */}
-        {!row.is_fx && !isAdr && m.funding != null && (
+        {!row.is_fx && !isAdr && !perpDead && m.funding != null && (
           <FundingBar funding={m.funding} locale="ko" source={row.source === "binance" ? "binance" : "hl"} />
         )}
 
@@ -708,20 +719,24 @@ export default async function SymbolPage({ params }: Props) {
         )}
 
         <section className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-4">
-          <Stat
-            label={row.is_index ? "24h 시세 (지수)" : isBn ? "24h 시세 (Binance)" : "24h 시세 (HL)"}
-            value={row.is_index
-              ? m.mark_px_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
-              : `$${m.mark_px_usd.toFixed(2)}`}
-          />
-          <Stat
-            label={isBn ? "Binance 전일 종가" : "HL 전일 종가"}
-            value={row.is_index
-              ? m.prev_day_px_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
-              : `$${m.prev_day_px_usd.toFixed(2)}`}
-          />
-          <Stat label={isBn ? "Binance 24h 거래대금" : "HL 24h 거래대금"} value={fmtVol(m.day_volume_usd)} />
-          <Stat label={isBn ? "Binance 미결제 약정" : "HL 미결제 약정"} value={fmtNum(m.open_interest)} />
+          {!perpDead && (
+            <>
+              <Stat
+                label={row.is_index ? "24h 시세 (지수)" : isBn ? "24h 시세 (Binance)" : "24h 시세 (HL)"}
+                value={row.is_index
+                  ? m.mark_px_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+                  : `$${m.mark_px_usd.toFixed(2)}`}
+              />
+              <Stat
+                label={isBn ? "Binance 전일 종가" : "HL 전일 종가"}
+                value={row.is_index
+                  ? m.prev_day_px_usd.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+                  : `$${m.prev_day_px_usd.toFixed(2)}`}
+              />
+              <Stat label={isBn ? "Binance 24h 거래대금" : "HL 24h 거래대금"} value={fmtVol(m.day_volume_usd)} />
+              <Stat label={isBn ? "Binance 미결제 약정" : "HL 미결제 약정"} value={fmtNum(m.open_interest)} />
+            </>
+          )}
           {/* Funding Rate tile 제거 (2026-05-13) — 주식 retail 타겟에 코인 metric 잡음 */}
           {m.regular_close_krw != null && (
             <Stat
@@ -782,6 +797,15 @@ export default async function SymbolPage({ params }: Props) {
                 </div>
               ))}
             </div>
+            {row.slug === "vix" && (
+              <Link
+                href="/guide/vix-index"
+                prefetch={false}
+                className="inline-block mt-4 text-sm font-semibold text-accent-blue hover:underline"
+              >
+                VIX지수(빅스지수) 뜻과 보는 법 →
+              </Link>
+            )}
             {isKoreaStock && (
               <Link
                 href="/korea/kospi-night"

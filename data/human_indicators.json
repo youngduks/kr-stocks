@@ -7,10 +7,19 @@
       "channel": "전인구경제연구소",
       "channel_url": "https://www.youtube.com/@moneydo",
       "channel_id": "UCznImSIaxZR7fdLCICLdgaQ",
-      "last_checked_video_id": "VgqGqQ30dv8",
+      "last_checked_video_id": "mTym-LZTtNQ",
       "tagline": "\"고점 판독기\" — 나무위키에도 등재된 별명. 2023년 이후 증시 전망이 반대로 맞는 걸로 유명",
       "note": "본인 문서(나무위키)에 \"시장 전망 영상 대부분이 틀리는 걸 넘어 반대로 맞히는 예지력\"이라는 비판이 있고, 댓글창에서 \"고점 판독기\"·\"어둠의 고수\"로 불림. 역발상 참고용으로 소개합니다 — 조롱이 목적이 아니라, 실제로 존재하는 밈이라 재미로 트래킹합니다.",
       "opinions": [
+        {
+          "date": "2026-11-08",
+          "title": "검은월요일 보다 여기로 돈이 흐를 가능성이 있습니다",
+          "summary": "중간선거 이후 민주당 상·하원 승리로 AI 데이터센터 규제 리스크가 커져 칩 기업 중심으로 코스피가 일주일 만에 6,000에서 5,000선까지 하락했다고 진단했다. 규제는 금지보다 비용 증가와 공사 지연 형태가 될 가능성이 크다고 보며, 신재생·전력기기·액침냉각, 국내 AI 데이터센터 관련주 등 돈의 흐름 변화를 살피라고 했고 월요일 반등을 기대한다고 밝혔다.",
+          "summary_short": "AI규제 리스크, 자금흐름 주목",
+          "stance": "cautious",
+          "video_url": "https://www.youtube.com/watch?v=mTym-LZTtNQ",
+          "published_at": "2026-11-08T10:34:02.000Z"
+        },
         {
           "date": "2026-11-06",
           "title": "AI규제가 시작됩니다, 코스피 5000 위기",
@@ -91,15 +100,6 @@
           "stance": "cautious",
           "video_url": "https://www.youtube.com/watch?v=M0SVCLYF4LA",
           "published_at": "2026-10-26T23:53:59.000Z"
-        },
-        {
-          "date": "2026-10-26",
-          "title": "코스피 7개월만에 최저치, 이 문제가 해결되야 오릅니다",
-          "summary": "중간선거, 자사주 매입 소진, 외국인 매도, 유가 100달러 돌파 등 불안 이벤트가 많아 증시가 불안정하다고 보며, 환율 하락은 악재가 아니라 오히려 매수 기회로 평가했다. 좋은 기업은 결국 제 가치를 찾는다며 AI 외 종목 위주로 이번 주, 선거 당일, 다음 주로 나눠 분할 매수할 계획이라고 밝혔다.",
-          "summary_short": "불안 이벤트 많아 분할매수 대응",
-          "stance": "cautious",
-          "video_url": "https://www.youtube.com/watch?v=TEeeyiMAF6E",
-          "published_at": "2026-10-26T08:46:02.000Z"
         }
       ],
       "pending": []

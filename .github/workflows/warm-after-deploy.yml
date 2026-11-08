@@ -25,22 +25,25 @@ jobs:
           MARK: "시세를 불러오지 못했어요"
         run: |
           set -u
+          set +e  # 개별 curl 연결 오류(예: exit 35 SSL)로 전체가 멈추지 않게 (2026-11-08 실측)
+          C="curl -s --retry 2 --retry-delay 2 --max-time 25 -A"
           base="https://kr-stocks.com"
           # 사이트맵에서 종목·야간선물 주소만 추출 (/korea|us|global|private|themes/<slug>)
-          urls=$(curl -s -A "$UA" "$base/sitemap.xml" | grep -o '<loc>[^<]*</loc>' | sed 's#<loc>##; s#</loc>##' \
+          urls=$($C "$UA" "$base/sitemap.xml" | grep -o '<loc>[^<]*</loc>' | sed 's#<loc>##; s#</loc>##' \
             | grep -E "^$base/(korea|us|global|private|themes)/[^/]+$" | sort -u)
           n=$(echo "$urls" | grep -c . || true)
           echo "대상 $n개"
           [ "$n" -gt 0 ] || { echo "::warning::사이트맵에서 주소를 못 읽음"; exit 0; }
           # 1차: 재생성 유도 (stale 응답 + 백그라운드 재생성)
-          for u in $urls; do curl -s -o /dev/null -A "$UA" "$u"; done
+          for u in $urls; do $C "$UA" -o /dev/null "$u" || echo "연결 실패(1차): $u"; done
           # 2차: 안내 페이지가 남은 주소만 다시 열기 (최대 4회)
           left="$urls"
           for round in 1 2 3 4; do
             sleep 15
             next=""
             for u in $left; do
-              if curl -s -A "$UA" "$u" | grep -q "$MARK"; then next="$next $u"; fi
+              body=$($C "$UA" "$u") || { next="$next $u"; continue; }
+              if echo "$body" | grep -q "$MARK"; then next="$next $u"; fi
             done
             left=$(echo $next)
             echo "round $round 남은 안내 페이지: $(echo $left | wc -w)"
@@ -48,3 +51,4 @@ jobs:
           done
           # 실패해도 배포 자체엔 영향 없음 — 로그로만 남김
           [ -z "$left" ] || echo "::warning::아직 안내 페이지: $left"
+          exit 0

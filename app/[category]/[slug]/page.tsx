@@ -806,6 +806,15 @@ export default async function SymbolPage({ params }: Props) {
                 VIX지수(빅스지수) 뜻과 보는 법 →
               </Link>
             )}
+            {(row.slug === "samsung" || row.slug === "hynix") && (
+              <Link
+                href="/research/binance-samsung-overnight-open"
+                prefetch={false}
+                className="block mt-4 text-sm font-semibold text-accent-blue hover:underline"
+              >
+                검증: 밤사이 바이낸스 등락이 다음 날 시가 방향을 맞혔나 →
+              </Link>
+            )}
             {isKoreaStock && (
               <Link
                 href="/korea/kospi-night"

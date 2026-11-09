@@ -31,6 +31,7 @@ export function GuideShell({
   related,
   fx,
   children,
+  disclaimer,
 }: {
   url: string;
   /** h1 + Article headline */
@@ -45,6 +46,8 @@ export function GuideShell({
   related: GuideLink[];
   fx: { krw_per_usdt: number; change_24h_pct: number };
   children: React.ReactNode;
+  /** 맨 아래 면책 문구 (기본: 가이드용) */
+  disclaimer?: string;
 }) {
   const ld = [
     {
@@ -141,7 +144,7 @@ export function GuideShell({
         )}
 
         <p className="ds-meta pt-4">
-          본 가이드는 정보 제공만을 목적으로 하며 투자 권유·자문이 아닙니다. 지표는 앞으로의 가격을 예측하거나 보장하지 않습니다.
+          {disclaimer ?? "본 가이드는 정보 제공만을 목적으로 하며 투자 권유·자문이 아닙니다. 지표는 앞으로의 가격을 예측하거나 보장하지 않습니다."}
         </p>
       </main>
       <Footer />

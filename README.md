@@ -113,6 +113,15 @@ Vercel 프로젝트 → Settings → Domains → `kr-stocks.com` 추가
 
 정리 항목: 개요 · 배경 · 주요 논의 · 결정 사항 · 향후 계획(할 일·담당·기한 / 일정) · 미결 사항 · 키워드.
 
+**아이폰·아이패드**
+- 웹(Safari): 자막·녹음·규칙 정리 + **‘아이폰 AI로 정리’** — 단축어 앱의 ‘모델 사용’(Apple Intelligence)으로
+  회의록을 만든다(무료). Safari엔 웹용 번역 API가 없어 실시간 번역은 외부 무료 번역(선택)만 된다.
+- 전용 앱: [`ios/VoiceNote.swiftpm`](ios/README.md) — 기기 내 음성 인식·실시간 번역·AI 회의록 전부 무료.
+  아이패드는 Swift Playgrounds로 바로 실행, 아이폰은 Mac(Xcode)으로 설치.
+
+규칙 엔진은 `public/voicenote/rules.js` 한 곳에 있고, 아이폰 앱이 그 사본을 JavaScriptCore로 실행한다.
+고친 뒤 `scripts/sync-voicenote-rules.sh`로 사본을 맞출 것.
+
 ### 구현하면서 확인한 브라우저 동작 (Chromium 153)
 
 설계에 직접 영향을 준 것들이다. 같은 문제를 다시 밟지 않도록 남긴다.

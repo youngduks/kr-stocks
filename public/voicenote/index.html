@@ -1961,7 +1961,7 @@ const UI = {
         return;
       }
       box.replaceChildren(...this.summaryNodes(s.ai), h("div", { class: "sum-note" },
-        `${s.ai._engine === "shortcut" ? "아이폰 단축어(Apple Intelligence)" : "기기 내 AI(Gemini Nano)"}가 ${s.aiAt ? fmtDate(s.aiAt) : ""}에 정리했습니다. ${s.ai._lang === "en" ? "한국어 번역기를 쓸 수 없어 영어로 남겼습니다. " : ""}AI 정리에도 오류가 있을 수 있으니 중요한 내용은 자막과 대조해 주세요.`));
+        `${({ shortcut: "아이폰 단축어(Apple Intelligence)", "apple-intelligence": "아이폰 앱(Apple Intelligence)" })[s.ai._engine] || "기기 내 AI(Gemini Nano)"}가 ${s.aiAt ? fmtDate(s.aiAt) : ""}에 정리했습니다. ${s.ai._lang === "en" ? "한국어 번역기를 쓸 수 없어 영어로 남겼습니다. " : ""}AI 정리에도 오류가 있을 수 있으니 중요한 내용은 자막과 대조해 주세요.`));
       return;
     }
 

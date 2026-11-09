@@ -96,7 +96,7 @@ export default async function HomeEN() {
           </div>
         ))}
 
-        <AsOf at={data.fetched_at} locale="en" note="auto-refresh every 30s" className="mt-6" />
+        <AsOf at={data.fetched_at} locale="en" note="auto-refresh every 30s" className="mt-6" autoRefresh />
 
         <p className="mt-4 ds-meta">
           For the Korean version, click{" "}

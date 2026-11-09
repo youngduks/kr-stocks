@@ -208,7 +208,7 @@ export default async function KospiNightPage() {
             <div className="text-lg font-semibold text-text-muted">시세를 불러오지 못했어요</div>
           )}
           <p className="ds-explain mt-3">{summary}</p>
-          <AsOf at={ewy.fetchedAt} className="mt-2" note="약 1분마다 갱신" />
+          <AsOf at={ewy.fetchedAt} className="mt-2" note="약 1분마다 갱신" autoRefresh />
         </section>
 
         {/* ② 소스별 시세 — 달러 단위만 */}

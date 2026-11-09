@@ -151,7 +151,7 @@ export function Header({ fxRate, fxChange, asOf }: { fxRate: number; fxChange: n
           </div>
         </div>
         <div className="mt-2 flex items-center gap-x-3 gap-y-1 flex-wrap ds-meta">
-          {asOf && <AsOf at={asOf} locale={isEn ? "en" : "ko"} note={isEn ? "refreshes ~2 min" : "약 2분마다 갱신"} />}
+          {asOf && <AsOf at={asOf} locale={isEn ? "en" : "ko"} note={isEn ? "refreshes ~2 min" : "약 2분마다 갱신"} autoRefresh />}
           {fxRate > 0 && (
             <span className="tabular whitespace-nowrap">
               USD/KRW <b className="text-text-muted">₩{fxRate.toLocaleString("ko-KR", { maximumFractionDigits: 2 })}</b>{" "}

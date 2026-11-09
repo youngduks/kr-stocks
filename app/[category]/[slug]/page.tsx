@@ -8,6 +8,8 @@ import { TargetRangeCard } from "@/components/ui/TargetRangeCard";
 // FundingBar 재도입 (2026-05-13) — retail 친화 "24시간 시장 sentiment" 라벨로 변환,
 // 코인 metric (펀딩%, APR) 제거하고 상승/하락 베팅 비율만 가시화
 import { FundingBar } from "@/components/FundingBar";
+import { LongShortCard } from "@/components/LongShortCard";
+import { fetchLongShort } from "@/lib/longShort";
 import { TradingFlowCard } from "@/components/TradingFlowCard";
 import { ShareButton } from "@/components/ShareButton";
 import { getTradingFlow, hasTradingFlow, formatBigKRW, type TradingFlowData } from "@/lib/tradingFlow";
@@ -101,7 +103,13 @@ export default async function SymbolPage({ params }: Props) {
     return <PriceUnavailable meta={meta} fxRate={data.fx.krw_per_usdt} fxChange={data.fx.change_24h_pct} />;
   }
   const row = found as PriceRow & { market: MarketData };
-  const buyback = hasBuyback(row.slug) ? await getBuyback(row.slug) : null;
+  // 큰손 롱·숏 비율 — 바이낸스 한국 종목(삼성·하이닉스·현대차)만 (2026-11-09 실측 제공 확인)
+  const [buyback, longShort] = await Promise.all([
+    hasBuyback(row.slug) ? getBuyback(row.slug) : Promise.resolve(null),
+    row.category === "korea" && row.source === "binance" && row.binance_symbol
+      ? fetchLongShort(row.binance_symbol)
+      : Promise.resolve(null),
+  ]);
 
   const m = row.market;
   const isBn = row.source === "binance"; // 한국주식 3종 = Binance 선물 소스 (그 외 = Hyperliquid)
@@ -702,6 +710,7 @@ export default async function SymbolPage({ params }: Props) {
         {!row.is_fx && !isAdr && !perpDead && m.funding != null && (
           <FundingBar funding={m.funding} locale="ko" source={row.source === "binance" ? "binance" : "hl"} />
         )}
+        {longShort && <LongShortCard data={longShort} symbol={row.binance_symbol ?? row.ticker} />}
 
         {!row.is_fx && (candles.bars1H.length > 0 || candles.bars4H.length > 0) && (
           <section className="mb-4">

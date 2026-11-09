@@ -16,6 +16,8 @@ import { AsOf } from "@/components/ui/AsOf";
 import { fetchAllPrices } from "@/lib/fetchPrices";
 import { fetchEwy, type EwySnapshot, type EwyPerp } from "@/lib/ewy";
 import Link from "next/link";
+import { LongShortCard } from "@/components/LongShortCard";
+import { fetchLongShort } from "@/lib/longShort";
 import type { Metadata } from "next";
 
 export const revalidate = 60;
@@ -131,12 +133,13 @@ function buildSummary(s: EwySnapshot): string {
 }
 
 export default async function KospiNightPage() {
-  const [ewy, fx] = await Promise.all([
+  const [ewy, fx, longShort] = await Promise.all([
     fetchEwy(),
     // 헤더 환율 위젯용 — 실패해도 페이지는 그대로 (환율 줄만 숨김)
     fetchAllPrices()
       .then((d) => d.fx)
       .catch(() => ({ krw_per_usdt: 0, change_24h_pct: 0 })),
+    fetchLongShort("EWYUSDT"),
   ]);
 
   const summary = buildSummary(ewy);
@@ -261,6 +264,8 @@ export default async function KospiNightPage() {
             USDT-M 선물 · Hyperliquid · Yahoo Finance.
           </p>
         </section>
+
+        <LongShortCard data={longShort} symbol="EWYUSDT" />
 
         {/* ③ 코스피 야간선물 vs 이 페이지 */}
         <section className="ds-card mb-4" aria-labelledby="ewy-diff">

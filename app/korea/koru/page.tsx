@@ -16,6 +16,8 @@ import { AsOf } from "@/components/ui/AsOf";
 import { fetchAllPrices } from "@/lib/fetchPrices";
 import { fetchEtfPerp, KORU_CFG, EWY_CFG, type EwySnapshot, type EwyPerp } from "@/lib/ewy";
 import Link from "next/link";
+import { LongShortCard } from "@/components/LongShortCard";
+import { fetchLongShort } from "@/lib/longShort";
 import type { Metadata } from "next";
 
 export const revalidate = 60;
@@ -105,12 +107,13 @@ function buildSummary(s: EwySnapshot, ewy: EwySnapshot | null): string {
 }
 
 export default async function KoruPage() {
-  const [koru, ewy, fx] = await Promise.all([
+  const [koru, ewy, fx, longShort] = await Promise.all([
     fetchEtfPerp(KORU_CFG),
     fetchEtfPerp(EWY_CFG).catch(() => null),
     fetchAllPrices()
       .then((d) => d.fx)
       .catch(() => ({ krw_per_usdt: 0, change_24h_pct: 0 })),
+    fetchLongShort("KORUUSDT"),
   ]);
 
   const summary = buildSummary(koru, ewy);
@@ -231,6 +234,8 @@ export default async function KoruPage() {
             USDT-M 선물 · Hyperliquid · Yahoo Finance.
           </p>
         </section>
+
+        <LongShortCard data={longShort} symbol="KORUUSDT" />
 
         <section className="ds-card mb-4" aria-labelledby="koru-what">
           <h2 id="koru-what" className="text-[17px] font-extrabold mb-2">

@@ -22,6 +22,7 @@ import { MoreDetails } from "@/components/ui/MoreDetails";
 import { TodayBrief } from "@/components/home/TodayBrief";
 import { getUpcomingEvents } from "@/lib/events";
 import { getSignalScore, SCORE_RECENT_N, type SignalScoreRow } from "@/lib/signalScore";
+import { fetchSuddenMoves, SUDDEN_MULT, SUDDEN_FLOOR_PCT, SUDDEN_WINDOW_H, type SuddenResult } from "@/lib/suddenMoves";
 import { getSignalLog, summarizeSignalLog, SIGNAL_LOG_MIN_N, type SignalLogSummary, type SignalRecord } from "@/lib/signalLog";
 
 export const revalidate = 120; // ISR 캐시 30s → 120s (Free tier 최적화, 5/25)
@@ -109,6 +110,40 @@ function mdw(ymd: string): string {
   const d = new Date(`${ymd}T12:00:00+09:00`);
   const w = d.toLocaleDateString("ko-KR", { timeZone: "Asia/Seoul", weekday: "short" });
   return `${Number(ymd.slice(5, 7))}/${Number(ymd.slice(8, 10))}(${w})`;
+}
+
+/** 최근 급변 카드 — 실데이터만, 없으면 '없음'이라고 표시. 받은 데이터가 없으면 카드 숨김 */
+function SuddenMovesCard({ s }: { s: SuddenResult | null }) {
+  if (!s) return null;
+  const t = (ms: number) =>
+    new Date(ms).toLocaleString("ko-KR", { timeZone: "Asia/Seoul", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit", hour12: false });
+  return (
+    <section className="ds-card mt-4" style={{ padding: "8px 20px" }} aria-labelledby="sudden-h">
+      <div className="flex items-center justify-between gap-3 pt-3 pb-1">
+        <h2 id="sudden-h" className="text-[17px] font-extrabold">
+          최근 {SUDDEN_WINDOW_H}시간 급변
+        </h2>
+        <span className="ds-meta shrink-0">바이낸스 5분봉</span>
+      </div>
+      {s.events.length === 0 ? (
+        <p className="ds-explain py-2">최근 {SUDDEN_WINDOW_H}시간 동안 기준을 넘은 5분 급변이 없어요.</p>
+      ) : (
+        s.events.map((e) => (
+          <Link key={`${e.symbol}-${e.at}`} href={e.href} prefetch={false} className="ds-row hover:bg-bg-hover/60 -mx-2 px-2 rounded-xl transition">
+            <div className="flex-1 min-w-0">
+              <div className="font-sys text-[15px] font-semibold truncate text-text">{e.name}</div>
+              <div className="text-[12px] text-text-dim num">{t(e.at)}부터 5분</div>
+            </div>
+            <div className={`num text-[15px] font-bold ${changeTextClass(e.pct)}`}>{formatPct(e.pct)}</div>
+          </Link>
+        ))
+      )}
+      <p className="ds-meta pb-3 pt-1">
+        기준: 5분 등락이 그 상품의 최근 24시간 평소 5분 움직임(중앙값)의 {SUDDEN_MULT}배 이상, 최소 ±{SUDDEN_FLOOR_PCT}% · 지금 기준{" "}
+        {s.thresholds.map((x) => `${x.name} ±${x.pct.toFixed(2)}%`).join(" · ")} · 매매 권유가 아니에요
+      </p>
+    </section>
+  );
 }
 
 /** 개장 전 실제 기록 + 마감 후 채점 (data/signal-log.json, 재구성 없음) — 2026-11-08 시작 */
@@ -400,13 +435,14 @@ function koreaSub(row: PriceRow): React.ReactNode {
 }
 
 export default async function Home() {
-  const [data, semiSignal, people, deals, history, signalLog] = await Promise.all([
+  const [data, semiSignal, people, deals, history, signalLog, sudden] = await Promise.all([
     fetchAllPrices(),
     fetchSemiSignal(),
     getHumanIndicators(),
     fetchDealsPreview(3),
     getHistoryStats(),
     getSignalLog(),
+    fetchSuddenMoves().catch(() => null),
   ]);
 
   // is_fx(원화 환율)는 헤더 환율 위젯과 소스가 달라(HL perp vs 업비트) 숫자가 어긋나 보임 → 리스트 제외
@@ -444,6 +480,9 @@ export default async function Home() {
           fxChange={data.fx.change_24h_pct}
           events={getUpcomingEvents()}
         />
+
+        {/* ⓪-b 최근 급변 — 바이낸스 5분봉, 상품별 변동성 기준 (lib/suddenMoves.ts) */}
+        <SuddenMovesCard s={sudden} />
 
         {/* ① 상태 카드 — 미장 반도체 야간 신호 + 환율 (실데이터만) + 과거 채점표 */}
         <TomorrowStatusCard

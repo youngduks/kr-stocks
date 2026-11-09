@@ -1,8 +1,36 @@
 {
   "category": "samsung",
-  "updated_at": "2026-11-09T07:21:54.771Z",
-  "count": 4,
+  "updated_at": "2026-11-09T17:55:07.009Z",
+  "count": 5,
   "items": [
+    {
+      "title": "역사적 폭락에 공포 덮쳤는데…골드만이 본 '삼전닉스 미래'",
+      "link": "https://www.hankyung.com/article/2026110950316",
+      "source": "한국경제",
+      "ts": 1794229206000,
+      "pub": "Mon, 09 Nov 2026 22:00:06 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "메모리도 LCD도 '줄인상'…삼성·LG전자 TV사업 '이중고'",
+      "link": "https://www.mt.co.kr/industry/2026/11/09/2026110914544548900",
+      "source": "머니투데이",
+      "ts": 1794213600000,
+      "pub": "Mon, 09 Nov 2026 17:40:00 +0900",
+      "sentiment": "neutral",
+      "desc": "중국 패널 업체 감산·가격 인상에 제조원가 상승 우려…원가 경쟁력 확보 주력 중국 LCD(액정표시장치) 제조사들이 가격 인상을 추진하면서 삼성전자와 LG전자의 원가 부담이 한층 확대될 전망이다. 국내 디스플레이 기업들의 LCD 사업 철수로 중국발 가격 인상 여파를 피하",
+      "image": "https://thumb.mt.co.kr/06/2026/11/2026110914544548900_1.jpg"
+    },
+    {
+      "title": "삼전닉스 반등에도 코스피는 0.8% 또 하락…'5천피'는 사수(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261109117751008",
+      "source": "연합뉴스 경제",
+      "ts": 1794208705000,
+      "pub": "Mon, 9 Nov 2026 16:18:25 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 지난주 연일 급락한 코스피는 9일 장중 반등을 시도했지만 결국 하락세를 이어갔다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/09/PYH2026110917260001300_P2.jpg"
+    },
     {
       "title": "지난주 이틀간 10%이상 폭락했던 삼전닉스, 널뛰기 끝에 소폭 반등(종합)",
       "link": "https://www.yna.co.kr/view/AKR20261109033751008",
@@ -22,26 +50,6 @@
       "sentiment": "neutral",
       "desc": "(",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/09/PYH2026110902280001300_P2.jpg"
-    },
-    {
-      "title": "지난주 이틀간 10%이상 폭락했던 삼전닉스, 보합권서 방향성 탐색",
-      "link": "https://www.yna.co.kr/view/AKR20261109033700008",
-      "source": "연합뉴스 경제",
-      "ts": 1794183883000,
-      "pub": "Mon, 9 Nov 2026 09:24:43 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 9일 장 초반 등락을 거듭하며 방향성을 탐색하는 흐름을 ...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/10/29/28/PCM20261029000028990_P2.jpg"
-    },
-    {
-      "title": "\"TSMC, 메모리 진출 검토\"…TSMC \"파운드리에 집중\"",
-      "link": "https://www.yna.co.kr/view/AKR20261109013800009",
-      "source": "연합뉴스 국제",
-      "ts": 1794178767000,
-      "pub": "Mon, 9 Nov 2026 07:59:27 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 세계 최대 파운드리(반도체 위탁생산) 업체인 대만 TSMC가 첨단 메모리 반도체 제조로 사업 영역을 넓히는 방...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/16/PAP20261016008301009_P2.jpg"
     }
   ]
 }

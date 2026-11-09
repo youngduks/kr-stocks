@@ -238,6 +238,11 @@ dialog::backdrop { background: rgb(0 0 0 / 40%); }
 .menu { position: absolute; z-index: 20; min-width: 200px; padding: 6px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-sm); box-shadow: 0 8px 24px rgb(0 0 0 / 18%); }
 .menu button { display: block; width: 100%; text-align: left; border: 0; background: transparent; padding: 9px 10px; border-radius: 6px; font-size: 14px; }
 .menu button:hover:not(:disabled) { background: var(--card-2); }
+.steps { margin: 0; padding-left: 20px; display: grid; gap: 8px; font-size: 14px; }
+.steps code, .code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12.5px; background: var(--card-2); border-radius: 5px; padding: 1px 5px; }
+.paste-box { width: 100%; min-height: 120px; margin-top: 8px; padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--line); background: var(--card-2); font: 13px/1.5 ui-monospace, Menlo, monospace; color: var(--text); }
+.dlg-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+a.btn { text-decoration: none; }
 .toast { position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom)); transform: translateX(-50%); z-index: 50; background: var(--text); color: var(--bg); padding: 10px 16px; border-radius: 999px; font-size: 14px; font-weight: 600; box-shadow: 0 8px 24px rgb(0 0 0 / 20%); }
 
 /* ───────────────────────── 반응형 ───────────────────────── */
@@ -331,6 +336,7 @@ dialog::backdrop { background: rgb(0 0 0 / 40%); }
       <div class="pane-body" id="summary"></div>
       <div class="pane-foot">
         <button class="btn small primary" id="btnAi" type="button">AI로 정리하기</button>
+        <button class="btn small primary" id="btnShortcut" type="button" hidden>아이폰 AI로 정리</button>
         <button class="btn small" id="btnCopy" type="button">요약 복사</button>
         <button class="btn small" id="btnExport" type="button" aria-haspopup="menu">내보내기 ▾</button>
       </div>
@@ -371,6 +377,22 @@ dialog::backdrop { background: rgb(0 0 0 / 40%); }
       </div>
     </label>
     <div class="setting">
+      <div style="flex:1">
+        <div class="setting-title">아이폰·아이패드 AI 회의록 (단축어)</div>
+        <div class="setting-desc">아이폰 Safari에는 웹용 AI가 없어서, 단축어 앱의 ‘모델 사용’(Apple Intelligence)으로 회의록을 만듭니다. 무료입니다. iPhone 15 Pro 이상 또는 M1 이상 iPad, iOS 26 이상, Apple Intelligence가 켜져 있어야 합니다.</div>
+        <label class="setting-desc" style="display:block;margin-top:8px">단축어 이름
+          <input class="text-input" id="setShortcutName" type="text" maxlength="40" autocomplete="off">
+        </label>
+        <label class="setting-desc" style="display:block;margin-top:8px">단축어에서 고른 모델
+          <select id="setShortcutModel" style="display:block;margin-top:6px">
+            <option value="pcc">Private Cloud Compute — 긴 회의도 가능 (Apple 서버, 저장 안 됨)</option>
+            <option value="device">기기 내 — 완전 오프라인, 짧은 회의만 (약 5분)</option>
+          </select>
+        </label>
+        <button class="btn small" id="btnShortcutGuide" type="button" style="margin-top:10px">단축어 만드는 법 보기</button>
+      </div>
+    </div>
+    <div class="setting">
       <div>
         <div class="setting-title">이 브라우저의 기능 지원 현황</div>
         <div class="setting-desc" id="capReport">확인 중…</div>
@@ -379,6 +401,12 @@ dialog::backdrop { background: rgb(0 0 0 / 40%); }
   </div>
 </dialog>
 
+<dialog id="dlgShortcut" aria-labelledby="dlgShortcutTitle">
+  <div class="dlg-head"><h2 id="dlgShortcutTitle">아이폰 AI로 정리</h2><button class="btn ghost small" type="button" data-close>닫기</button></div>
+  <div class="dlg-body" id="shortcutBody"></div>
+</dialog>
+
+<script src="/voicenote/rules.js"></script>
 <script>
 "use strict";
 
@@ -425,12 +453,6 @@ function h(tag, attrs, ...children) {
   return el;
 }
 
-function fmtClock(ms) {
-  const t = Math.max(0, Math.floor(ms / 1000));
-  const hh = Math.floor(t / 3600), mm = Math.floor((t % 3600) / 60), ss = t % 60;
-  const p = (n) => String(n).padStart(2, "0");
-  return hh ? `${hh}:${p(mm)}:${p(ss)}` : `${p(mm)}:${p(ss)}`;
-}
 function fmtDuration(ms) {
   const m = Math.round(ms / 60000);
   if (ms < 60000) return `${Math.round(ms / 1000)}초`;
@@ -495,7 +517,7 @@ const Settings = {
   KEY: "voicenote.settings.v1",
   // localSpeech는 기본 꺼짐 — SpeechRecognition.available()이 Chromium 153 헤드리스에서
   // 탭을 크래시시키는 것을 확인했다. 실기기에서 안전하다는 확인 전까지는 실험 옵션으로 둔다.
-  v: { saveAudio: true, localSpeech: false, external: false, email: "", speechLang: "ko", targetLang: "en" },
+  v: { saveAudio: true, localSpeech: false, external: false, email: "", speechLang: "ko", targetLang: "en", shortcutName: "보이스노트 정리", shortcutModel: "pcc" },
   load() {
     try { Object.assign(this.v, JSON.parse(localStorage.getItem(this.KEY) || "{}")); } catch {}
   },
@@ -570,311 +592,6 @@ const Audio_ = {
   },
 };
 
-/* ═════════════════════════════════════════════════════════════════
-   규칙 기반 회의 정리
-   ─────────────────────────────────────────────────────────────────
-   LLM 없이 자막에서 바로 만든다. 녹음 중 화면은 이걸로 채운다(지연 0).
-   이건 "추출"이지 "재서술"이 아니다 — 말한 문장을 골라 분류할 뿐이다.
-
-   패턴은 넉넉함보다 좁게 잡았다. 놓치는 건 괜찮지만 엉뚱한 문장을
-   결정사항이라고 우기면 안 된다. 실제로 "오늘 회의 시작하겠습니다"가
-   할 일로 잡히던 문제 때문에 회의 진행 상용구(boiler)를 따로 막는다.
-   ═════════════════════════════════════════════════════════════════ */
-
-const WORK_KO = "확인|정리|공유|준비|검토|수정|반영|전달|보완|처리|작성|조사|연락|요청|정하|결정|테스트|배포|수집|모집|계산|산정|보고|발표|제출|업데이트|세팅|설정|예약|섭외";
-
-const RULES = {
-  ko: {
-    split: /(?<=[.!?…])\s+/,
-    filler: /^(네|예|아|어|음|응|그쵸|그죠|맞아요?|그렇죠|알겠습니다|감사합니다|안녕하세요|좋습니다|그래요|오케이|넵)[.!?~\s]*$/,
-    boiler: /(회의|오늘|이만|여기까지|자리)[\s를은는]*(시작|마치|끝내|종료|진행|하겠|합니다)|수고(하셨|했)|고생(하셨|했)|안녕하[세십]|잘\s?부탁/,
-    question: [/\?\s*$/, /(인가요|일까요|나요|까요|은가요|던가요|ㄹ까요)[.?]?\s*$/],
-    decision: [
-      /(하는|가는|쓰는|넣는|빼는|진행하는|유지하는)\s?걸로\s?(하|합|했|가|정|확정)/,
-      /로\s?(하죠|하시죠|갑시다|가시죠|합시다|가죠)/,
-      /(결정|확정|채택|승인|합의)(했|됐|되었|입니다|하겠|하는|된|함)/,
-      /결론(은|적으로)/,
-      /최종(적으로|은)?\s?(결정|확정)/,
-    ],
-    action: [
-      /하기로\s*(했|하|합)/,
-      new RegExp(`(${WORK_KO})\\S*(하겠|할게|해야|해서|해\\s?주|하고|할|해\\s?드릴)`),
-      /해\s?(주|드리)(세요|시겠|겠|실\s?수)/,
-      /부탁(드립|합니다|드려요)/,
-      /(보내|올리|만들|잡|돌리)(아\s?주|어\s?주|주세요|드리겠|어야|겠습니다)/,
-      /알아보(고|겠|자|기로)/,
-      /까지\s?\S*(하|끝|완료|보내|드리|주)/,
-    ],
-    background: /(배경|목적|취지|현황|문제는|이슈는|원인|지난\s?(주|달|번|회의|분기)|그동안|요즘|최근|때문에|상황이|발생하고|발생했)/,
-    plan: /(향후|앞으로|다음\s?(주|달|단계|회의|분기|번)|계획|예정|일정|로드맵|목표|마일스톤|이후에|단계적으로)/,
-    open: /(다음\s?회의에서|추후|보류|미정|검토가?\s?필요|다시\s?논의|확인이?\s?필요|아직\s?(정하지|결정|모르)|못\s?정)/,
-    emphasis: /(결론|핵심|중요한|정리하면|요약하면|문제는|관건은|포인트는|제일|가장)/,
-    density: 40,
-  },
-  en: {
-    split: /(?<=[.!?])\s+/,
-    filler: /^(ok(ay)?|yeah|yes|yep|right|uh+|um+|hmm+|sure|thanks?( you)?|got it|i see|alright|hello|hi)[.!?,\s]*$/i,
-    boiler: /\b(let'?s (get )?start(ed)?|that'?s (all|it) for today|thanks?,? (everyone|all)|see you|good (morning|afternoon)|welcome)\b/i,
-    question: [/\?\s*$/],
-    decision: [/\b(we('ve| have)? decided|decided to|we agreed|agreed (to|on)|let'?s go with|we'?ll go with|approved|final decision|in conclusion|it'?s settled|confirmed)\b/i],
-    action: [/\b(i'?ll|i will|we'?ll|we will|(you|he|she|they) will|going to|need to|needs to|has to|have to|should|action item|follow up|take care of|can you|could you|please)\b/i, /\bby (monday|tuesday|wednesday|thursday|friday|tomorrow|next week|end of)/i],
-    background: /\b(background|context|because|currently|recently|last (week|month|quarter|time)|the (problem|issue) is|the goal is|so far)\b/i,
-    plan: /\b(next (week|month|quarter|step|steps|meeting|phase)|plan(ning)?|roadmap|schedule|timeline|going forward|from now on|milestone|later this)\b/i,
-    open: /\b(tbd|open question|not sure|pending|on hold|revisit|next meeting|later|undecided|still need to decide)\b/i,
-    emphasis: /\b(key|important|main point|bottom line|in short|to sum up|most|critical)\b/i,
-    density: 80,
-  },
-  ja: {
-    split: /(?<=[。！？!?])\s*/,
-    filler: /^(はい|ええ|うん|なるほど|そうですね|了解です|ありがとうございます|お疲れ様です|あの|えっと)[。、！？!?\s]*$/,
-    boiler: /(会議を(始め|終わり|終了)|本日は以上|お疲れ様でした|よろしくお願いします)/,
-    question: [/[？?]\s*$/, /(ですか|でしょうか|ますか|ませんか)[。]?\s*$/],
-    decision: [/(決定|決まり|にしましょう|で行きましょう|でいきましょう|合意|承認|確定)/],
-    action: [/(しておきます|やっておきます|対応します|確認して|お願いします|お願いできますか|までに|担当します|進めます)/],
-    background: /(背景|目的|現状|課題|問題は|原因|先週|前回|最近|ため|これまで)/,
-    plan: /(今後|来週|来月|次回|予定|計画|スケジュール|ロードマップ|目標|次のステップ)/,
-    open: /(保留|未定|次回検討|要検討|持ち帰|まだ決まって)/,
-    emphasis: /(結論|ポイント|重要|一番|要するに|まとめると)/,
-    density: 25,
-  },
-  zh: {
-    split: /(?<=[。！？!?])\s*/,
-    filler: /^(好的?|嗯+|对|是的?|明白|谢谢|没问题|那个|就是)[。，！？!?\s]*$/,
-    boiler: /(会议(开始|结束)|今天就到这|辛苦了|大家好)/,
-    question: [/[？?]\s*$/, /(吗|呢|是不是|要不要)[。]?\s*$/],
-    decision: [/(决定|确定|就这么定|同意|通过|批准|定下来|达成一致)/],
-    action: [/(负责|跟进|我来|我去|需要|请.{0,8}(确认|处理|准备|发)|之前完成|落实|安排一下)/],
-    background: /(背景|目的|现状|问题是|原因|上周|上个月|之前|最近|因为)/,
-    plan: /(下周|下个月|下一步|计划|安排|日程|今后|接下来|目标|里程碑)/,
-    open: /(待定|再议|下次讨论|未决|还没定|需要再确认)/,
-    emphasis: /(结论|关键|重要|最|总之|总结一下)/,
-    density: 25,
-  },
-};
-
-/* 한국어 조사 — 명사 끝 글자와 겹치는 정도에 따라 요구 어간 길이를 다르게 둔다.
-   "재시도"에서 '도'를 떼어 "재시"가 되던 사고를 막기 위해서다. */
-// 서술격 조사("입니다" 등)도 같이 벗긴다 — 안 그러면 "예산입니다"와 "예산"이 다른 단어로 세어진다.
-const KO_LONG_P = ["입니다", "이에요", "에서는", "에게서", "이라고", "으로는", "이라는", "이었", "예요", "이고", "이며", "인데", "라고", "로는", "에서", "에게", "께서", "부터", "까지", "마다", "처럼", "보다", "이나", "으로", "라는", "한테"];
-const KO_SAFE_P = ["은", "는", "을", "를", "의", "에"];
-const KO_RISKY_P = ["도", "만", "와", "과", "이", "가", "로"];
-const KO_STOP = new Set(("그리고 그래서 하지만 그런데 근데 그러면 그럼 그러니까 이거 저거 그거 이제 지금 우리 저희 여기 거기 부분 경우 정도 생각 얘기 이야기 말씀 느낌 상황 진짜 조금 되게 약간 그냥 사실 일단 아무래도 혹시 같아요 있는 하는 되는 이런 저런 그런 무슨 어떤 때문 이렇게 저렇게 그렇게 다시 먼저 다음 이번 네네 예예 맞아요 그렇죠 알겠습니다 감사합니다 주세요 합니다 습니다 해서 하고 오늘 저는 제가 있습니다 없습니다 했습니다 하겠습니다 같습니다 있어요 해요 거예요 겁니다 건데 그게 이게 저게 거의 계속 많이 너무 아주 정말 이미 아직 요즘 최근 관련 회의").split(" "));
-const EN_STOP = new Set("the a an and or but so to of in on at for with from by is are was were be been being it this that these those we you they he she i our your their there here have has had do does did will would can could should just really very also about into than then them what which who when where why how all any some more most other such only own same too not no yes okay ok yeah like get got going gonna want need think know let make sure one two thing things lot let's lets next still instead maybe okay".split(" "));
-
-function stripKoParticle(w) {
-  for (const p of KO_LONG_P) if (w.length >= p.length + 2 && w.endsWith(p)) return w.slice(0, -p.length);
-  for (const p of KO_SAFE_P) if (w.length >= 3 && w.endsWith(p)) return w.slice(0, -1);
-  for (const p of KO_RISKY_P) if (w.length >= 4 && w.endsWith(p)) return w.slice(0, -1);
-  return w;
-}
-
-/** 키워드 후보 토큰. 형태소 분석기 없이 언어별로 근사한다. */
-function tokens(text, lang) {
-  if (lang === "ko") {
-    // 한국어 회의에도 "API", "PR" 같은 영어가 섞인다. 영어 토큰엔 영어 불용어를 적용한다.
-    return text.replace(/[^가-힣a-zA-Z0-9\s]/g, " ").split(/\s+/).map(stripKoParticle)
-      .filter((w) => w.length >= 2 && !KO_STOP.has(w) && !(/^[a-zA-Z]+$/.test(w) && EN_STOP.has(w.toLowerCase())));
-  }
-  if (lang === "en") {
-    return text.toLowerCase().replace(/[^a-z0-9\s'-]/g, " ").split(/\s+/).map((w) => w.replace(/^'+|'+$/g, "")).filter((w) => w.length >= 3 && !EN_STOP.has(w) && !/^\d+$/.test(w));
-  }
-  if (lang === "ja") {
-    // 가타카나 외래어 · 한자 복합어 · 영숫자 덩어리
-    return text.match(/[゠-ヿ]{2,}|[一-鿿]{2,4}|[A-Za-z][A-Za-z0-9]+/g) || [];
-  }
-  // zh — 띄어쓰기가 없으므로 한자 bigram으로 근사
-  const out = [];
-  for (const run of text.match(/[一-鿿]+/g) || []) {
-    for (let i = 0; i + 2 <= run.length; i++) out.push(run.slice(i, i + 2));
-  }
-  return out.concat(text.match(/[A-Za-z][A-Za-z0-9]+/g) || []);
-}
-
-function topKeywords(items, n, exclude = new Set()) {
-  const count = new Map();
-  for (const it of items) for (const w of tokens(it.text, it.lang)) count.set(w, (count.get(w) || 0) + 1);
-  // "예산이"처럼 3글자 + 위험 조사인 어절은 규칙상 그대로 남는다("어린이"→"어린" 방지).
-  // 같은 회의에 "예산"이 따로 나왔다면 그때만 합친다 — 사전 대신 데이터로 판단.
-  for (const [w, c] of [...count]) {
-    if (w.length === 3 && KO_RISKY_P.includes(w.slice(-1)) && count.has(w.slice(0, -1))) {
-      count.set(w.slice(0, -1), count.get(w.slice(0, -1)) + c);
-      count.delete(w);
-    }
-  }
-  return [...count.entries()].filter(([w, c]) => c >= 2 && !exclude.has(w)).sort((a, b) => b[1] - a[1] || b[0].length - a[0].length).slice(0, n).map(([w]) => w);
-}
-
-const trimTail = (s) => s.replace(/\s*[.。·,，、]+\s*$/, "").trim();
-
-function splitSentences(text, lang) {
-  return text.split(RULES[lang].split).map((s) => s.trim()).filter(Boolean);
-}
-
-function classify(text, lang) {
-  const R = RULES[lang];
-  if (R.question.some((r) => r.test(text))) return "question";
-  if (R.boiler.test(text)) return "plain";
-  if (R.decision.some((r) => r.test(text))) return "decision";
-  if (R.action.some((r) => r.test(text))) return "action";
-  return "plain";
-}
-
-function score(text, lang, kws) {
-  const R = RULES[lang];
-  if (R.filler.test(text) || R.boiler.test(text) || text.length < 3) return 0;
-  let s = Math.min(text.length / R.density, 1.5);
-  if (/\d/.test(text)) s += 0.8;
-  if (R.emphasis.test(text)) s += 1.2;
-  s += Math.min(kws.filter((k) => text.toLowerCase().includes(k.toLowerCase())).length, 3) * 0.6;
-  return s;
-}
-
-const TITLE_KO = "대리|과장|부장|팀장|차장|사원|매니저|책임|선임|수석|실장|이사|대표|본부장|파트장|프로|님|씨";
-function findOwner(text, lang) {
-  if (lang === "ko") {
-    const m = text.match(new RegExp(`([가-힣]{1,4}\\s?(?:${TITLE_KO})(?:님)?)(?=이|가|께서|은|는|한테|에게|\\s)`));
-    if (m) return m[1].replace(/\s+/g, "");
-    const team = text.match(/([가-힣A-Za-z]{1,8}\s?팀)(?:에서|이|가|은|는)/);
-    if (team) return team[1];
-    if (/(^|\s)(제가|저희가|저희\s?쪽에서|제\s?쪽에서)/.test(text)) return "발언자";
-    return "";
-  }
-  if (lang === "en") {
-    if (/\b(I'?ll|I will|I can|I'm going to)\b/i.test(text)) return "발언자";
-    const m = text.match(/\b([A-Z][a-z]{1,15})(?:,)? (?:will|is going to|can you|could you|to handle|to take)\b/);
-    return m ? m[1] : "";
-  }
-  if (lang === "ja") {
-    const m = text.match(/([一-鿿゠-ヿ]{1,5}(?:さん|様|課長|部長|チーム))(?:が|は|に|で)/);
-    if (m) return m[1];
-    return /(私が|僕が|こちらで)/.test(text) ? "발언자" : "";
-  }
-  const m = text.match(/([一-鿿]{1,3}(?:总|经理|老师|组))(?:负责|来|去|跟进)/);
-  if (m) return m[1];
-  return /(我来|我负责|我去)/.test(text) ? "발언자" : "";
-}
-
-function findDue(text, lang) {
-  let m;
-  if (lang === "ko") m = text.match(/((?:오늘|내일|모레|이번\s?주|다음\s?주|금주|차주|이번\s?달|다음\s?달|월말|연말|분기\s?말|\d{1,2}\s?월\s?\d{1,2}\s?일|\d{1,2}\s?일|[월화수목금토일]요일)(?:\s?(?:오전|오후)?\s?\d{1,2}\s?시)?)\s?(?:까지|중으로|중에|안에|내로|전까지)/);
-  else if (lang === "en") m = text.match(/\bby ((?:the )?end of (?:the )?(?:day|week|month|quarter)|eod|eow|today|tonight|tomorrow|next (?:week|month|monday|tuesday|wednesday|thursday|friday)|monday|tuesday|wednesday|thursday|friday|saturday|sunday|(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.? \d{1,2})/i);
-  else if (lang === "ja") m = text.match(/((?:今日|明日|明後日|今週|来週|今月|来月|月末|\d{1,2}月\d{1,2}日|[月火水木金土日]曜日?)(?:中)?)(?:まで|中に)/);
-  else m = text.match(/((?:今天|明天|后天|本周|下周|这周|月底|\d{1,2}月\d{1,2}[日号]|周[一二三四五六日]|星期[一二三四五六日天]))(?:之前|前|内)/);
-  return m ? m[1].replace(/\s+/g, " ").trim() : "";
-}
-
-function dedupe(list, limit, keyOf = (x) => x) {
-  const seen = new Set(), out = [];
-  for (const it of list) {
-    // 앞부분이 같으면 같은 말의 반복으로 본다. STT는 같은 문장을 겹쳐 내는 일이 잦다.
-    const k = keyOf(it).replace(/\s+/g, "").slice(0, 14);
-    if (!k || seen.has(k)) continue;
-    seen.add(k);
-    out.push(it);
-    if (out.length >= limit) break;
-  }
-  return out;
-}
-
-const EMPTY_SUMMARY = () => ({ title: "", overview: "", background: [], discussion: [], decisions: [], actions: [], plans: [], issues: [], keywords: [] });
-
-/** 정리에 쓸 텍스트를 고른다 — 한국어가 있으면 한국어로(원문이든 번역이든). */
-function summaryItems(session) {
-  const items = [];
-  for (const s of session.segments) {
-    const ko = s.lang === "ko" ? s.text : s.trLang === "ko" && s.tr ? s.tr : null;
-    const text = ko ?? s.text;
-    const lang = ko ? "ko" : s.lang;
-    for (const sent of splitSentences(text, lang)) {
-      // idx — 한 자막 조각이 여러 문장으로 나뉘면 atMs가 같아서, 원래 순서를 따로 기억한다.
-      if (!RULES[lang].filler.test(sent) && sent.length >= 3) items.push({ text: sent, lang, atMs: s.atMs, idx: items.length });
-    }
-  }
-  return items;
-}
-
-function ruleSummary(session) {
-  const items = summaryItems(session);
-  if (!items.length) return EMPTY_SUMMARY();
-
-  const kw = topKeywords(items, 12);
-  for (const it of items) {
-    const R = RULES[it.lang];
-    it.kind = classify(it.text, it.lang);
-    it.score = score(it.text, it.lang, kw);
-    it.isBg = R.background.test(it.text) && !R.boiler.test(it.text);
-    it.isPlan = R.plan.test(it.text) && !R.boiler.test(it.text);
-    it.isOpen = R.open.test(it.text);
-  }
-  const used = new Set();
-  const take = (arr) => { arr.forEach((it) => used.add(it)); return arr; };
-  const byScore = (a, b) => b.score - a.score;
-  const total = Math.max(session.durationMs || 0, items[items.length - 1].atMs + 1, 1);
-
-  // 결정 · 할 일 — 가장 확실한 신호부터 확정한다.
-  const decisions = take(dedupe(items.filter((i) => i.kind === "decision"), 8, (i) => i.text));
-  // 할 일인데 담당자도 기한도 없고 계획 표현이 있으면, 개인 할 일이 아니라 "계획"이다.
-  // ("다음 달에 단계적으로 배포할 계획입니다"가 할 일로 잡히던 문제)
-  const actionCands = items.filter((i) => i.kind === "action" && !used.has(i)).map((i) => ({ it: i, owner: findOwner(i.text, i.lang), due: findDue(i.text, i.lang) }));
-  const asPlan = actionCands.filter((c) => c.it.isPlan && !c.owner && !c.due).map((c) => c.it);
-  const actionPicked = dedupe(actionCands.filter((c) => !asPlan.includes(c.it)), 12, (c) => c.it.text);
-  take(actionPicked.map((c) => c.it));
-  const actions = actionPicked.map((c) => ({ task: trimTail(c.it.text), owner: c.owner, due: c.due }));
-
-  // 미결 — 답이 안 나온 질문, 미룬 안건
-  const issues = take(dedupe(items.filter((i) => !used.has(i) && (i.kind === "question" || i.isOpen)), 8, (i) => i.text));
-
-  // 향후 계획 — 할 일로 잡히지 않은 계획·일정 문장
-  const plans = take(dedupe([...asPlan, ...items.filter((i) => !used.has(i) && i.isPlan && i.kind === "plain")].filter((i) => !used.has(i)), 6, (i) => i.text));
-
-  // 배경 — 표지어가 있는 문장이 우선. 부족할 때만 회의 앞부분(20%)에서 보충한다.
-  const marked = dedupe(items.filter((i) => !used.has(i) && i.isBg && i.kind === "plain"), 3, (i) => i.text);
-  const early = marked.length >= 2 ? [] : items.filter((i) => !used.has(i) && !marked.includes(i) && i.atMs <= total * 0.2 && i.kind === "plain" && i.score > 0.6).sort(byScore).slice(0, 2 - marked.length);
-  const background = take([...marked, ...early].sort((a, z) => a.idx - z.idx));
-
-  // 주요 논의 — 5분 단위 시간 블록. 다른 칸에 이미 나온 문장은 다시 쓰지 않는다.
-  const blocks = Math.max(1, Math.min(8, Math.ceil(total / 60000 / 5)));
-  const span = total / blocks;
-  const buckets = Array.from({ length: blocks }, () => []);
-  for (const it of items) buckets[Math.min(blocks - 1, Math.floor(it.atMs / span))].push(it);
-  const titled = new Set(); // 앞 구간 제목에 쓴 단어 — 구간마다 다른 단어가 제목이 되게 한다
-  const discussion = buckets.map((b, i) => {
-    const fresh = b.filter((it) => !used.has(it) && it.kind !== "question" && it.score > 0.4).sort(byScore);
-    const chosen = dedupe(fresh, 3, (it) => it.text);
-    if (!chosen.length) return null;
-    // 제목 — 그 구간에서 두 번 이상 나온 단어(앞 구간 제목과 겹치지 않게).
-    // 없으면 전체 키워드 중 그 구간에 나오는 것.
-    let bk = topKeywords(b, 2, titled);
-    if (!bk.length) {
-      const bt = new Set(b.flatMap((it) => tokens(it.text, it.lang)));
-      bk = kw.filter((k) => bt.has(k) && !titled.has(k)).slice(0, 2);
-    }
-    bk.forEach((k) => titled.add(k));
-    return { topic: bk.length ? bk.join(" · ") : `${fmtClock(i * span)}~ 구간`, points: chosen.sort((a, z) => a.idx - z.idx).map((it) => trimTail(it.text)) };
-  }).filter(Boolean);
-
-  const keywords = kw.slice(0, 6);
-  // 개요 — 문장 하나를 고르는 대신, 무엇이 얼마나 정해졌는지를 요약한다.
-  // 규칙 기반은 문장을 다시 쓸 수 없으니 "아무 문장이나 대표로 내세우는 것"보다 정직하다.
-  const topicWords = [...new Set(discussion.flatMap((d) => d.topic.split(" · ")))].filter((t) => !/구간$/.test(t)).slice(0, 4);
-  const counts = [decisions.length && `결정 ${decisions.length}건`, actions.length && `할 일 ${actions.length}건`, issues.length && `미결 ${issues.length}건`].filter(Boolean);
-  const overview = [topicWords.length ? `${topicWords.join(", ")} 논의` : "", counts.join(" · ")].filter(Boolean).join(" — ");
-  return {
-    title: keywords.length ? `${keywords.slice(0, 2).join(" · ")} 회의` : "",
-    overview,
-    background: background.map((i) => trimTail(i.text)),
-    discussion,
-    decisions: decisions.map((i) => trimTail(i.text)),
-    actions,
-    plans: plans.map((i) => trimTail(i.text)),
-    issues: issues.map((i) => trimTail(i.text)),
-    keywords,
-  };
-}
-
-function isEmptySummary(s) {
-  return !s || (!s.overview && !s.background.length && !s.discussion.length && !s.decisions.length && !s.actions.length && !s.plans.length && !s.issues.length);
-}
 
 /* ═════════════════════════════════════════════════════════════════
    번역
@@ -1227,6 +944,152 @@ const Caps = {
   aiUsable() { return AI.has() && this.ai !== "unavailable"; },
 };
 
+/* ═════════════════════════════════════════════════════════════════
+   아이폰·아이패드 AI 회의록 — 단축어(Shortcuts) 연동
+   ─────────────────────────────────────────────────────────────────
+   iOS Safari에는 웹용 AI API가 없다. 대신 iOS 26 단축어의 ‘모델 사용’
+   (Apple Intelligence)을 무료로 쓸 수 있다. 흐름:
+
+     ① 이 페이지: 요청문+자막을 클립보드에 복사 → 단축어 실행 링크
+     ② 단축어:   클립보드 가져오기 → 모델 사용 → 클립보드에 복사 → 출력
+     ③ 이 페이지: x-success 로 돌아옴 → result 파라미터 또는 클립보드에서 결과 읽기
+
+   Safari는 비동기 처리 뒤 다른 앱을 여는 것을 막을 수 있어서,
+   복사와 실행을 두 번의 탭으로 나눴다.
+   ═════════════════════════════════════════════════════════════════ */
+
+const Shortcut = {
+  PENDING: "voicenote.shortcut.pending",
+
+  /** 단축어 모델별로 넣을 자막 분량. 기기 내 모델은 4,096토큰이라 짧게 잡는다. */
+  limit() { return Settings.v.shortcutModel === "device" ? 2200 : 24000; },
+
+  /** 모델에 넘길 요청문. 회의가 길면 중요도 낮은 발언부터 덜어낸다. */
+  buildPrompt(session) {
+    const segs = session.segments;
+    const koCover = segs.filter((s) => s.lang === "ko" || (s.trLang === "ko" && s.tr)).length / Math.max(1, segs.length);
+    const useKo = koCover >= 0.8;
+    let lines = segs.map((s, i) => ({
+      i, atMs: s.atMs,
+      lang: useKo ? "ko" : s.lang,
+      text: (useKo ? (s.lang === "ko" ? s.text : s.tr) : s.text) || "",
+    })).filter((l) => l.text.trim() && !RULES[l.lang].filler.test(l.text.trim()));
+
+    const fmt = (ls) => ls.map((l) => `[${fmtClock(l.atMs)}] ${l.text}`).join("\n");
+    let dropped = 0;
+    const limit = this.limit();
+    if (fmt(lines).length > limit) {
+      const kws = topKeywords(lines, 12);
+      const ranked = [...lines].sort((a, b) => score(b.text, b.lang, kws) - score(a.text, a.lang, kws));
+      const keep = new Set();
+      let budget = limit;
+      for (const l of ranked) {
+        const cost = l.text.length + 10;
+        if (cost > budget) continue;
+        budget -= cost;
+        keep.add(l);
+      }
+      dropped = lines.length - keep.size;
+      lines = lines.filter((l) => keep.has(l));
+    }
+
+    const prompt = `너는 꼼꼼한 회의 서기다. 아래 회의 자막을 회의록으로 정리해라.
+자막은 음성 인식 결과라 오탈자가 있고 화자 구분이 없다. 명백한 오인식만 조용히 고치고, 자막에 없는 내용은 절대 지어내지 마라.
+자막이 외국어여도 모든 값은 한국어로 써라.
+반드시 아래 형식의 JSON 하나만 출력하고 다른 말은 쓰지 마라. 해당 내용이 없으면 [] 또는 "" 로 둬라.
+
+{"title":"회의 제목","overview":"회의 전체를 한 문장으로","background":["회의 배경·현황·문제"],"discussion":[{"topic":"주제","points":["요점"]}],"decisions":["명확히 결정된 것만"],"actions":[{"task":"할 일","owner":"담당자(없으면 빈칸)","due":"기한(없으면 빈칸)"}],"plans":["향후 일정·방향"],"issues":["결론 없이 남은 것"],"keywords":["키워드 5개 이내"]}
+
+<자막${dropped ? ` 비고="분량이 많아 덜 중요한 발언 ${dropped}개를 뺐음"` : ""}>
+${fmt(lines)}
+</자막>`;
+    return { prompt, dropped, chars: prompt.length };
+  },
+
+  url(name) {
+    const back = location.origin + location.pathname;
+    const q = (k) => encodeURIComponent(`${back}?sc=${k}`);
+    return `shortcuts://x-callback-url/run-shortcut?name=${encodeURIComponent(name)}&x-success=${q("ok")}&x-cancel=${q("cancel")}&x-error=${q("error")}`;
+  },
+
+  /** 1단계 — 클립보드에 복사하고, 실행 링크를 보여 준다. */
+  async start(session) {
+    const { prompt, dropped } = this.buildPrompt(session);
+    let copied = false;
+    try { await navigator.clipboard.writeText(prompt); copied = true; } catch {}
+    try { localStorage.setItem(this.PENDING, JSON.stringify({ id: session.id, at: Date.now() })); } catch {}
+    UI.shortcutDialog(copied ? "run" : "manual", { prompt, dropped });
+  },
+
+  /** 단축어에서 돌아왔을 때 — 앱 시작 시 한 번 부른다. */
+  handleReturn() {
+    const q = new URLSearchParams(location.search);
+    const sc = q.get("sc");
+    if (!sc) return;
+    history.replaceState(null, "", location.pathname);
+    let pending = null;
+    try { pending = JSON.parse(localStorage.getItem(this.PENDING) || "null"); } catch {}
+    if (pending?.id && pending.id !== App.session.id && Store.get(pending.id)) App.load(Store.get(pending.id));
+
+    if (sc === "ok") {
+      const result = q.get("result");
+      if (result && this.apply(result)) return;
+      UI.shortcutDialog("paste");
+    } else if (sc === "cancel") {
+      toast("단축어 실행을 취소했습니다");
+    } else {
+      UI.banner(`단축어 실행 중 오류가 났습니다: ${q.get("errorMessage") || "알 수 없는 오류"}. 설정의 ‘단축어 만드는 법’을 확인해 주세요.`, "error", "shortcut");
+    }
+  },
+
+  /** 모델 출력을 회의록으로 적용한다. JSON이 깨져 있어도 최대한 살린다. */
+  apply(raw) {
+    raw = String(raw || "").trim();
+    if (!raw) return false;
+    const s = App.session;
+    let result = null;
+    const json = parseLooseJson(raw);
+    if (json && typeof json === "object") result = normalizeSummary(json);
+    if (!result || isEmptySummary(result)) {
+      // JSON이 아니면 글 그대로라도 남긴다.
+      result = { ...EMPTY_SUMMARY(), discussion: [{ topic: "AI 정리 결과", points: raw.split(/\n+/).map((l) => l.replace(/^[-*•\s]+/, "").trim()).filter(Boolean).slice(0, 60) }] };
+    }
+    result._lang = "ko";
+    result._engine = "shortcut";
+    s.ai = result;
+    s.aiAt = Date.now();
+    try { localStorage.removeItem(this.PENDING); } catch {}
+    App.view = "ai";
+    App.persist();
+    UI.renderAll();
+    UI.setTab("summary");
+    toast("아이폰 AI 회의록을 적용했습니다");
+    return true;
+  },
+};
+
+/** 모델이 코드블록·앞뒤 설명·둥근 따옴표를 섞어 써도 JSON을 꺼낸다. */
+function parseLooseJson(text) {
+  let t = text.replace(/```(?:json)?/gi, "").replace(/[“”]/g, '"').replace(/[‘’]/g, "'");
+  const start = t.indexOf("{");
+  if (start < 0) return null;
+  // 바깥쪽 중괄호의 짝을 문자열 안쪽은 건너뛰며 찾는다.
+  let depth = 0, inStr = false, esc = false;
+  for (let i = start; i < t.length; i++) {
+    const c = t[i];
+    if (inStr) { if (esc) esc = false; else if (c === "\\") esc = true; else if (c === '"') inStr = false; continue; }
+    if (c === '"') inStr = true;
+    else if (c === "{") depth++;
+    else if (c === "}" && --depth === 0) {
+      const body = t.slice(start, i + 1);
+      try { return JSON.parse(body); } catch {}
+      try { return JSON.parse(body.replace(/,\s*([}\]])/g, "$1")); } catch {} // 끝 쉼표 허용
+      return null;
+    }
+  }
+  return null;
+}
+
 function packLines(lines, maxChars) {
   const out = [];
   let cur = "";
@@ -1282,6 +1145,9 @@ async function translateSummary(s, src, tgt) {
 
 const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
 
+/** 아이폰·아이패드(iPadOS는 데스크톱 Safari로 위장하므로 터치 지점으로 구분). */
+const IS_IOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+
 class Listener {
   constructor(handlers) {
     this.h = handlers;
@@ -1323,12 +1189,29 @@ class Listener {
     // 자막이 뒤늦게 도착하는데, this.lang을 쓰면 그 줄이 새 언어로 잘못 붙는다.
     const lang = this.lang;
     r.lang = LANGS[lang].bcp;
-    r.continuous = true;
+    // iOS Safari는 연속 모드가 깨져 있다(텍스트가 안 오거나 몇 초 만에 끊긴다는 보고가 많다).
+    // 그래서 iOS에서는 한 마디씩 짧게 인식하고 끝날 때마다 바로 다시 시작한다.
+    r.continuous = !IS_IOS;
     r.interimResults = true;
     r.maxAlternatives = 1;
     if (this.local) { try { r.processLocally = true; } catch {} }
+    this.gotResult = false;
+    this.lastEventAt = Date.now();
+
+    // iOS 감시견 — 오류도 결과도 없이 멈춰 버린 세션을 끊고 다시 시작한다.
+    clearInterval(this.watchdog);
+    if (IS_IOS) {
+      this.watchdog = setInterval(() => {
+        if (this.rec === r && this.wants && Date.now() - this.lastEventAt > 12000) {
+          this.lastEventAt = Date.now();
+          try { r.abort(); } catch {}
+        }
+      }, 2000);
+    }
 
     r.onresult = (e) => {
+      this.gotResult = true;
+      this.lastEventAt = Date.now();
       let interim = "";
       for (let i = e.resultIndex; i < e.results.length; i++) {
         const res = e.results[i];
@@ -1362,8 +1245,11 @@ class Listener {
     };
     r.onend = () => {
       this.h.onInterim("");
+      if (this.rec === r) clearInterval(this.watchdog);
       if (!this.wants) { this.h.onStopped?.(); return; }
-      this.fastFails = Date.now() - this.startedAt < 1000 ? this.fastFails + 1 : 0;
+      // 결과를 받고 끝난 세션은 정상이다(iOS는 한 마디마다 끝난다). 결과 없이 1초 안에
+      // 끝난 경우만 "즉시 실패"로 센다.
+      this.fastFails = !this.gotResult && Date.now() - this.startedAt < 1000 ? this.fastFails + 1 : 0;
       if (this.fastFails >= 5) {
         this.wants = false;
         this.h.onError("음성 인식이 계속 중단됩니다. 잠시 후 다시 시작해 주세요.", true);
@@ -1381,12 +1267,14 @@ class Listener {
   stop() {
     this.wants = false;
     clearTimeout(this.timer);
+    clearInterval(this.watchdog);
     try { this.rec?.stop(); } catch {}
   }
 
   abort() {
     this.wants = false;
     clearTimeout(this.timer);
+    clearInterval(this.watchdog);
     try { this.rec?.abort(); } catch {}
   }
 
@@ -1499,6 +1387,7 @@ const App = {
     const last = Store.list()[0];
     // 마지막 회의가 비어 있지 않으면 그걸 열어 둔다. (새로고침해도 내용이 그대로)
     this.load(last ? Store.get(last.id) : null);
+    Shortcut.handleReturn(); // 단축어에서 돌아온 경우 결과를 받는다
     Caps.refresh();
     setInterval(() => this.tick(), 250);
     setInterval(() => this.refreshRule(), 1500);
@@ -1530,8 +1419,26 @@ const App = {
 
   tick() {
     if (this.state === "recording" || this.state === "paused") {
+      const level = this.state === "recording" ? this.audio?.level() || 0 : 0;
       UI.renderClock();
-      UI.renderMeter(this.state === "recording" ? this.audio?.level() || 0 : 0);
+      UI.renderMeter(level);
+      this.checkMicConflict(level);
+    }
+  },
+
+  /**
+   * 마이크 충돌 진단. 녹음 파일용 마이크 스트림과 음성 인식이 마이크를 동시에 못 쓰는
+   * 기기(일부 아이폰·안드로이드)에서는 "소리는 들어오는데 자막이 안 나온다".
+   * 그 증상을 감지하면 녹음 파일 저장을 끄라고 안내한다.
+   */
+  checkMicConflict(level) {
+    if (this.state !== "recording" || this.micWarned || !this.audio?.mr) return;
+    if (level > 0.08) this.loudMs = (this.loudMs || 0) + 250;
+    const sinceStart = Date.now() - (this.recStartedAt || Date.now());
+    // 15초 동안 소리가 4초 넘게 들렸는데 자막이 한 줄도 없으면 정상이 아니다.
+    if (sinceStart > 15000 && this.loudMs >= 4000 && this.session.segments.length === this.segsAtStart && !this.interim) {
+      this.micWarned = true;
+      UI.banner("소리는 들어오는데 자막이 나오지 않습니다. 이 기기는 녹음 파일 저장과 음성 인식이 마이크를 동시에 못 쓰는 것 같습니다. 녹음을 종료하고 설정에서 ‘녹음 파일 저장’을 끈 뒤 다시 시작해 주세요.", "warn", "mic-conflict");
     }
   },
 
@@ -1584,6 +1491,10 @@ const App = {
     });
     this.state = "recording";
     this.segStart = Date.now();
+    this.recStartedAt = Date.now();
+    this.segsAtStart = s.segments.length;
+    this.loudMs = 0;
+    this.micWarned = false;
     await this.listener.start(s.speechLang);
     this.lockScreen();
     UI.renderAll();
@@ -1633,6 +1544,8 @@ const App = {
     s.rule = ruleSummary(s);
     this.persist();
     UI.renderAll();
+    // 휴대폰에서는 녹음이 끝나면 정리 탭으로 넘겨 준다. 거기에 AI 정리 버튼이 있다.
+    if (s.segments.length) UI.setTab("summary");
 
     if (!s.segments.length) {
       UI.banner("인식된 말이 없습니다. 마이크가 켜져 있는지, 말하는 언어가 맞는지 확인해 주세요.", "warn", "empty");
@@ -1799,6 +1712,7 @@ const App = {
     s.rule = ruleSummary(s);
     this.load(s);
     Store.save(s);
+    UI.setTab("summary"); // 샘플은 정리 결과를 보여 주려는 것이므로
     // 이 버튼 클릭이 사용자 동작이라 번역 모델 준비가 허용된다.
     Translate.prepare("ko", s.targetLang).then((eng) => { if (eng && eng.type !== "none") this.retranslate(); }).catch(() => {});
     toast("샘플 회의를 불러왔습니다");
@@ -1838,12 +1752,13 @@ const UI = {
     });
 
     document.querySelectorAll(".seg-toggle button").forEach((b) => b.addEventListener("click", () => { App.view = b.dataset.view; this.renderSummary(); this.renderFoot(); }));
-    document.querySelectorAll(".tabs-mobile [data-tab]").forEach((b) => b.addEventListener("click", () => {
-      $("#grid").dataset.tab = b.dataset.tab;
-      document.querySelectorAll(".tabs-mobile [data-tab]").forEach((x) => x.setAttribute("aria-selected", String(x === b)));
-    }));
+    document.querySelectorAll(".tabs-mobile [data-tab]").forEach((b) => b.addEventListener("click", () => this.setTab(b.dataset.tab)));
 
     $("#btnAi").addEventListener("click", () => App.runAi());
+    $("#btnShortcut").addEventListener("click", () => Shortcut.start(App.session));
+    $("#btnShortcutGuide").addEventListener("click", () => { $("#dlgSettings").close(); this.shortcutDialog("guide"); });
+    $("#setShortcutName").addEventListener("change", (e) => { Settings.v.shortcutName = e.target.value.trim() || "보이스노트 정리"; Settings.save(); });
+    $("#setShortcutModel").addEventListener("change", (e) => { Settings.v.shortcutModel = e.target.value; Settings.save(); });
     $("#btnCopy").addEventListener("click", async () => {
       const md = Export.summaryMarkdown(App.session, this.currentSummary());
       try { await navigator.clipboard.writeText(md); toast("요약을 복사했습니다"); }
@@ -1857,6 +1772,12 @@ const UI = {
     bindCheck("#setLocalSpeech", "localSpeech");
     bindCheck("#setExternal", "external", () => { Translate.reset(); this.renderChips(); if (Settings.v.external) App.retranslate(); });
     $("#setEmail").addEventListener("change", (e) => { Settings.v.email = e.target.value.trim(); Settings.save(); });
+  },
+
+  /** 휴대폰 화면의 자막/정리 탭 전환. */
+  setTab(tab) {
+    $("#grid").dataset.tab = tab;
+    document.querySelectorAll(".tabs-mobile [data-tab]").forEach((x) => x.setAttribute("aria-selected", String(x.dataset.tab === tab)));
   },
 
   currentSummary() {
@@ -1920,7 +1841,9 @@ const UI = {
       const key = `${speechLang}>${targetLang}`;
       const st = Translate.status[key];
       const pair = `${LANGS[speechLang].short}↔${LANGS[targetLang].short}`;
-      const noBuiltin = Settings.v.external ? ["ok", `번역 ${pair} · 외부 무료(MyMemory) — 문장이 외부로 전송됨`] : ["warn", `번역 ${pair} · 이 브라우저엔 기기 내 번역이 없음 — 설정에서 외부 번역을 켤 수 있음`];
+      const noBuiltin = Settings.v.external ? ["ok", `번역 ${pair} · 외부 무료(MyMemory) — 문장이 외부로 전송됨`]
+        : IS_IOS ? ["warn", `번역 ${pair} · 아이폰 웹에는 기기 내 번역이 없음 — 아이폰 앱을 쓰거나 설정에서 외부 번역을 켤 수 있음`]
+        : ["warn", `번역 ${pair} · 이 브라우저엔 기기 내 번역이 없음 — 설정에서 외부 번역을 켤 수 있음`];
       if (st?.state === "downloading") chips.push(["busy", `번역 언어 팩 내려받는 중 ${Math.round((st.progress || 0) * 100)}%`]);
       else if (st?.state === "ready") chips.push(st.type === "external" ? noBuiltin : ["ok", `번역 ${pair} · 기기 내`]);
       else if (st?.state === "needs-click") chips.push(["warn", "번역 언어 팩을 받으려면 화면을 한 번 눌러 주세요"]);
@@ -1934,7 +1857,8 @@ const UI = {
     }
     // AI
     const ai = Caps.ai;
-    if (ai == null && AI.has()) chips.push(["busy", "AI 정리 · 확인 중"]);
+    if (IS_IOS && !Caps.aiUsable()) chips.push(["ok", "AI 정리 · 아이폰 단축어 (Apple Intelligence)"]);
+    else if (ai == null && AI.has()) chips.push(["busy", "AI 정리 · 확인 중"]);
     else if (ai === "available") chips.push(["ok", "AI 정리 · 기기 내 (Gemini Nano)"]);
     else if (ai === "downloadable" || ai === "downloading") chips.push(["ok", "AI 정리 · 기기 내 (첫 사용 시 모델 내려받기)"]);
     else chips.push(["off", "AI 정리 미지원 → 규칙 기반 정리"]);
@@ -2026,7 +1950,9 @@ const UI = {
         return;
       }
       if (!s.ai) {
-        const why = App.aiState.error || (Caps.ai === "available"
+        const why = App.aiState.error || (IS_IOS && !Caps.aiUsable()
+          ? "아이폰·아이패드에서는 단축어 앱의 Apple Intelligence로 회의록을 만듭니다(무료). 아래 ‘아이폰 AI로 정리’를 누르세요. 처음이면 단축어를 한 번 만들어야 합니다."
+          : Caps.ai === "available"
           ? "녹음을 마치면 자동으로 정리합니다. 지금 바로 정리하려면 아래 ‘AI로 정리하기’를 누르세요."
           : Caps.aiUsable()
             ? "처음 한 번은 기기 내 AI 모델(수 GB)을 내려받아야 합니다. 아래 ‘AI로 정리하기’를 누르면 시작합니다. 이후로는 녹음을 마칠 때 자동으로 정리합니다."
@@ -2035,7 +1961,7 @@ const UI = {
         return;
       }
       box.replaceChildren(...this.summaryNodes(s.ai), h("div", { class: "sum-note" },
-        `기기 내 AI(Gemini Nano)가 ${s.aiAt ? fmtDate(s.aiAt) : ""}에 정리했습니다. ${s.ai._lang === "en" ? "한국어 번역기를 쓸 수 없어 영어로 남겼습니다. " : ""}AI 정리에도 오류가 있을 수 있으니 중요한 내용은 자막과 대조해 주세요.`));
+        `${s.ai._engine === "shortcut" ? "아이폰 단축어(Apple Intelligence)" : "기기 내 AI(Gemini Nano)"}가 ${s.aiAt ? fmtDate(s.aiAt) : ""}에 정리했습니다. ${s.ai._lang === "en" ? "한국어 번역기를 쓸 수 없어 영어로 남겼습니다. " : ""}AI 정리에도 오류가 있을 수 있으니 중요한 내용은 자막과 대조해 주세요.`));
       return;
     }
 
@@ -2048,7 +1974,9 @@ const UI = {
     }
     box.replaceChildren(...this.summaryNodes(sum), h("div", { class: "sum-note" },
       "실시간 정리는 말한 문장을 규칙으로 골라 분류한 것이라 문장이 다듬어져 있지 않습니다. " +
-      (Caps.ai === "available" ? "녹음을 마치면 기기 내 AI가 다시 정리합니다." : Caps.aiUsable() ? "‘AI 정리’ 탭에서 기기 내 AI로 다듬을 수 있습니다." : "")));
+      (Caps.ai === "available" ? "녹음을 마치면 기기 내 AI가 다시 정리합니다."
+        : Caps.aiUsable() ? "‘AI 정리’ 탭에서 기기 내 AI로 다듬을 수 있습니다."
+        : IS_IOS ? "아래 ‘아이폰 AI로 정리’로 Apple Intelligence가 다듬을 수 있습니다." : "")));
   },
 
   summaryNodes(sum) {
@@ -2080,6 +2008,10 @@ const UI = {
     const s = App.session;
     const has = s.segments.length > 0;
     $("#btnAi").hidden = !Caps.aiUsable();
+    // 아이폰·아이패드는 단축어 경로. (iPadOS의 Chrome 등에서 기기 내 AI가 생겨도 둘 다 보여 준다)
+    $("#btnShortcut").hidden = !IS_IOS;
+    $("#btnShortcut").disabled = !has || App.state !== "idle";
+    $("#btnShortcut").textContent = s.ai?._engine === "shortcut" ? "아이폰 AI로 다시 정리" : "아이폰 AI로 정리";
     $("#btnAi").disabled = !has || App.aiState.running || App.state !== "idle";
     $("#btnAi").textContent = s.ai ? "AI로 다시 정리" : "AI로 정리하기";
     $("#btnCopy").disabled = !has;
@@ -2087,22 +2019,31 @@ const UI = {
   },
 
   async renderAudio() {
+    // renderAll이 연달아 불리면 이 비동기 렌더가 겹쳐서 플레이어가 중복으로 붙었다.
+    // 세대 번호로 마지막 호출만 화면에 반영하고, 이전 URL은 해제한다.
+    const gen = (this.audioGen = (this.audioGen || 0) + 1);
     const box = $("#audioBox");
     const s = App.session;
     if (!s.audioParts || App.state !== "idle") { box.hidden = true; return; }
-    box.hidden = false;
-    box.replaceChildren(h("strong", { style: "font-size:14px" }, "녹음 파일"));
+    const nodes = [h("strong", { style: "font-size:14px" }, "녹음 파일")];
+    const urls = [];
     for (let i = 0; i < s.audioParts; i++) {
       try {
         const blob = await Audio_.get(s.id, i);
-        if (!blob || App.session.id !== s.id) continue;
+        if (!blob) continue;
         const url = URL.createObjectURL(blob);
+        urls.push(url);
         const ext = blob.type.includes("mp4") ? "m4a" : "webm";
-        box.append(
+        nodes.push(
           h("audio", { controls: true, src: url, preload: "metadata" }),
           h("button", { class: "btn small", type: "button", onclick: () => download(`${safeFilename(autoTitleOrUser())}${s.audioParts > 1 ? `-${i + 1}` : ""}.${ext}`, blob) }, s.audioParts > 1 ? `${i + 1}번 내려받기` : "내려받기"));
       } catch {}
     }
+    if (gen !== this.audioGen || App.session.id !== s.id) { urls.forEach((u) => URL.revokeObjectURL(u)); return; }
+    (this.audioUrls || []).forEach((u) => URL.revokeObjectURL(u));
+    this.audioUrls = urls;
+    box.hidden = false;
+    box.replaceChildren(...nodes);
   },
 
   exportMenu(anchor) {
@@ -2141,7 +2082,63 @@ const UI = {
     );
   },
 
+  /** 단축어 대화상자. mode: run(복사됨) · manual(복사 실패) · paste(돌아옴) · guide(만드는 법) */
+  shortcutDialog(mode, data = {}) {
+    const box = $("#shortcutBody");
+    // replaceChildren은 null을 "null" 글자로 넣는다 — 조건부 항목은 걸러서 넘긴다
+    const set = (...nodes) => box.replaceChildren(...nodes.filter(Boolean));
+    const name = Settings.v.shortcutName || "보이스노트 정리";
+    const runLink = h("a", { class: "btn primary", href: Shortcut.url(name) }, "단축어 실행 ▸");
+    const guideBtn = h("button", { class: "btn", type: "button", onclick: () => this.shortcutDialog("guide") }, "처음이라면: 단축어 만드는 법");
+    const droppedNote = data.dropped ? h("p", { class: "setting-desc" }, `회의가 길어 덜 중요한 발언 ${data.dropped}개를 빼고 보냅니다. (설정에서 모델을 ‘Private Cloud Compute’로 고르면 더 많이 보낼 수 있습니다)`) : null;
+    const pasteArea = h("textarea", { class: "paste-box", placeholder: "결과가 자동으로 들어오지 않으면 여기에 붙여넣으세요" });
+
+    if (mode === "run") {
+      set(
+        h("p", null, "✅ 회의 자막과 요청문을 클립보드에 복사했습니다."),
+        h("p", { class: "setting-desc" }, `아래 버튼을 누르면 ‘${name}’ 단축어가 Apple Intelligence로 회의록을 쓰고 이 페이지로 돌아옵니다.`),
+        droppedNote,
+        h("div", { class: "dlg-actions" }, runLink, guideBtn));
+    } else if (mode === "manual") {
+      const ta = h("textarea", { class: "paste-box", readonly: true }, data.prompt || "");
+      set(
+        h("p", null, "클립보드 복사가 막혔습니다. 아래 내용을 길게 눌러 전체 선택 → 복사한 뒤 단축어를 실행해 주세요."),
+        ta, droppedNote,
+        h("div", { class: "dlg-actions" }, runLink, guideBtn));
+    } else if (mode === "paste") {
+      set(
+        h("p", null, "단축어가 회의록을 클립보드에 넣어 두었습니다. 아래 버튼을 누르고 ‘붙여넣기’를 눌러 주세요."),
+        h("div", { class: "dlg-actions" },
+          h("button", { class: "btn primary", type: "button", onclick: async () => {
+            try {
+              const t = await navigator.clipboard.readText();
+              if (Shortcut.apply(t)) $("#dlgShortcut").close();
+              else toast("클립보드가 비어 있습니다");
+            } catch { toast("붙여넣기가 막혔습니다. 아래 칸에 직접 붙여넣어 주세요"); pasteArea.focus(); }
+          } }, "결과 붙여넣기")),
+        pasteArea,
+        h("div", { class: "dlg-actions" }, h("button", { class: "btn", type: "button", onclick: () => { if (Shortcut.apply(pasteArea.value)) $("#dlgShortcut").close(); else toast("붙여넣은 내용이 없습니다"); } }, "직접 붙여넣은 내용 적용")));
+    } else {
+      set(
+        h("p", null, "처음 한 번만 만들면 됩니다. 아이폰의 ‘단축어’ 앱에서:"),
+        h("ol", { class: "steps" },
+          h("li", null, "오른쪽 위 ", h("b", null, "+"), " → 이름을 ", h("code", null, name), " 으로 정합니다. (설정에서 이름을 바꿨다면 그 이름)"),
+          h("li", null, "동작 추가 → ", h("b", null, "클립보드 가져오기")),
+          h("li", null, "동작 추가 → ", h("b", null, "모델 사용"), " (Apple Intelligence). 모델은 ", h("b", null, "Private Cloud Compute"), " (긴 회의) 또는 ", h("b", null, "기기 내"), " (짧은 회의, 완전 오프라인). 요청 칸에는 ", h("b", null, "클립보드"), " 변수를 넣고, ‘후속 질문’은 끕니다."),
+          h("li", null, "동작 추가 → ", h("b", null, "클립보드에 복사"), " — 내용은 ", h("b", null, "응답"), " 변수"),
+          h("li", null, "동작 추가 → ", h("b", null, "출력 중단"), " (Stop and Output) — 출력은 ", h("b", null, "응답"), " 변수"),
+        ),
+        h("p", { class: "setting-desc", style: "margin-top:12px" }, "설정의 ‘단축어에서 고른 모델’도 같은 것으로 맞춰 주세요. 기기 내 모델은 한 번에 읽을 수 있는 분량이 작아서, 그에 맞춰 보낼 자막을 줄입니다. 두 모델 모두 무료입니다."),
+        h("p", { class: "setting-desc" }, "필요 조건: iPhone 15 Pro 이상 또는 M1 이상 iPad, iOS 26 이상, 설정 > Apple Intelligence 켜짐."),
+        h("div", { class: "dlg-actions" }, App.session.segments.length ? h("button", { class: "btn primary", type: "button", onclick: () => Shortcut.start(App.session) }, "다 만들었어요 — 지금 정리하기") : null));
+    }
+    const dlg = $("#dlgShortcut");
+    if (!dlg.open) dlg.showModal();
+  },
+
   renderSettings() {
+    $("#setShortcutName").value = Settings.v.shortcutName || "보이스노트 정리";
+    $("#setShortcutModel").value = Settings.v.shortcutModel || "pcc";
     $("#setSaveAudio").checked = Settings.v.saveAudio;
     $("#setLocalSpeech").checked = Settings.v.localSpeech;
     $("#setExternal").checked = Settings.v.external;

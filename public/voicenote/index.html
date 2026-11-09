@@ -234,15 +234,9 @@ dialog::backdrop { background: rgb(0 0 0 / 40%); }
 .setting input[type="checkbox"] { width: 18px; height: 18px; margin-top: 3px; accent-color: var(--accent); flex: none; }
 .setting-title { font-weight: 650; }
 .setting-desc { font-size: 13px; color: var(--sub); margin-top: 2px; }
-.text-input { width: 100%; min-height: 36px; margin-top: 8px; padding: 0 10px; border-radius: var(--radius-sm); border: 1px solid var(--line); background: var(--card-2); }
 .menu { position: absolute; z-index: 20; min-width: 200px; padding: 6px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-sm); box-shadow: 0 8px 24px rgb(0 0 0 / 18%); }
 .menu button { display: block; width: 100%; text-align: left; border: 0; background: transparent; padding: 9px 10px; border-radius: 6px; font-size: 14px; }
 .menu button:hover:not(:disabled) { background: var(--card-2); }
-.steps { margin: 0; padding-left: 20px; display: grid; gap: 8px; font-size: 14px; }
-.steps code, .code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12.5px; background: var(--card-2); border-radius: 5px; padding: 1px 5px; }
-.paste-box { width: 100%; min-height: 120px; margin-top: 8px; padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--line); background: var(--card-2); font: 13px/1.5 ui-monospace, Menlo, monospace; color: var(--text); }
-.dlg-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
-a.btn { text-decoration: none; }
 .toast { position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom)); transform: translateX(-50%); z-index: 50; background: var(--text); color: var(--bg); padding: 10px 16px; border-radius: 999px; font-size: 14px; font-weight: 600; box-shadow: 0 8px 24px rgb(0 0 0 / 20%); }
 
 /* ───────────────────────── 반응형 ───────────────────────── */
@@ -273,6 +267,13 @@ a.btn { text-decoration: none; }
   .pane-body { overflow: visible; }
   #paneSummary { break-after: page; }
 }
+.setup { padding: 18px; display: grid; gap: 12px; border-color: var(--accent); }
+.setup h2 { margin: 0; font-size: 17px; }
+.key-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.key-row input { flex: 1; min-width: 220px; min-height: 40px; padding: 0 12px; border-radius: var(--radius-sm); border: 1px solid var(--line); background: var(--card-2); }
+.steps { margin: 0; padding-left: 20px; display: grid; gap: 6px; font-size: 14px; }
+.steps a, .setting-desc a { color: var(--accent); font-weight: 600; }
+a.btn { text-decoration: none; }
 </style>
 </head>
 <body>
@@ -281,7 +282,7 @@ a.btn { text-decoration: none; }
   <div class="brand"><span class="brand-dot" aria-hidden="true"></span>보이스노트</div>
   <div class="head-actions">
     <button class="btn ghost" id="btnSessions" type="button">회의 목록</button>
-    <button class="btn ghost" id="btnNew" type="button"><span>새 회의</span></button>
+    <button class="btn ghost" id="btnNew" type="button">새 회의</button>
     <button class="btn ghost icon" id="btnSettings" type="button" aria-label="설정" title="설정">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
     </button>
@@ -289,15 +290,26 @@ a.btn { text-decoration: none; }
 </header>
 
 <main id="app">
-  <section class="card controls" aria-label="녹음 설정">
+  <section class="card setup" id="setupCard" hidden aria-label="처음 설정">
+    <h2>처음 한 번만 — Gemini 무료 키 넣기</h2>
+    <ol class="steps">
+      <li><a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google AI Studio</a>를 열고 구글 계정으로 로그인 → <b>API 키 만들기</b></li>
+      <li>만들어진 키(AIza…)를 복사해서 아래에 붙여넣고 <b>저장</b></li>
+    </ol>
+    <div class="key-row">
+      <input id="keyInput" type="password" placeholder="AIza로 시작하는 키" autocomplete="off" spellcheck="false" aria-label="Gemini API 키">
+      <button class="btn primary" id="btnSaveKey" type="button">저장</button>
+    </div>
+    <p class="setting-desc" style="margin:0">키는 이 브라우저에만 저장됩니다. 녹음은 Google Gemini로 보내져 받아쓰기·번역·회의록에 쓰입니다. 무료 키는 Google이 보낸 내용을 서비스 개선에 쓸 수 있으니 민감한 회의는 주의하세요.</p>
+    <div><button class="btn small ghost" id="btnNoKey" type="button">키 없이 녹음만 하기</button></div>
+  </section>
+
+  <section class="card controls" aria-label="녹음">
     <input class="title-input" id="title" type="text" maxlength="80" placeholder="회의 제목 (비워 두면 자동으로 붙습니다)" aria-label="회의 제목">
     <div class="control-row">
       <div class="lang-box">
-        <label>말하는 언어 <select id="speechLang" aria-label="말하는 언어"></select></label>
-        <button class="btn icon small" id="btnSwap" type="button" aria-label="두 언어 바꾸기" title="두 언어 바꾸기 (상대가 말할 차례일 때)">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4 3 8l4 4"/><path d="M3 8h14"/><path d="m17 20 4-4-4-4"/><path d="M21 16H7"/></svg>
-        </button>
-        <label>번역 <select id="targetLang" aria-label="번역 언어"></select></label>
+        <label id="foreignBox">상대 언어 <select id="foreign" aria-label="상대 언어"></select></label>
+        <label id="speechBox" hidden>말하는 언어 <select id="speechLang" aria-label="말하는 언어"></select></label>
       </div>
       <div class="rec-box">
         <div class="clock"><span class="rec-dot" aria-hidden="true"></span><span id="clock">00:00</span></div>
@@ -317,9 +329,9 @@ a.btn { text-decoration: none; }
   </div>
 
   <div class="grid" id="grid" data-tab="transcript">
-    <section class="card pane" id="paneTranscript" aria-label="실시간 자막">
+    <section class="card pane" id="paneTranscript" aria-label="자막">
       <div class="pane-head">
-        <h2>실시간 자막</h2>
+        <h2>자막 · 번역</h2>
         <span class="pane-meta" id="segCount"></span>
       </div>
       <div class="pane-body" id="transcript"></div>
@@ -330,13 +342,13 @@ a.btn { text-decoration: none; }
         <h2>회의 정리</h2>
         <div class="seg-toggle" role="group" aria-label="정리 방식">
           <button type="button" data-view="rule" aria-pressed="true">실시간</button>
-          <button type="button" data-view="ai" aria-pressed="false">AI 정리</button>
+          <button type="button" data-view="ai" aria-pressed="false">AI 회의록</button>
         </div>
       </div>
       <div class="pane-body" id="summary"></div>
       <div class="pane-foot">
-        <button class="btn small primary" id="btnAi" type="button">AI로 정리하기</button>
-        <button class="btn small primary" id="btnShortcut" type="button" hidden>아이폰 AI로 정리</button>
+        <button class="btn small primary" id="btnAi" type="button">AI 회의록 만들기</button>
+        <button class="btn small" id="btnRetry" type="button" hidden>못 받아쓴 구간 다시</button>
         <button class="btn small" id="btnCopy" type="button">요약 복사</button>
         <button class="btn small" id="btnExport" type="button" aria-haspopup="menu">내보내기 ▾</button>
       </div>
@@ -354,56 +366,33 @@ a.btn { text-decoration: none; }
 <dialog id="dlgSettings" aria-labelledby="dlgSettingsTitle">
   <div class="dlg-head"><h2 id="dlgSettingsTitle">설정</h2><button class="btn ghost small" type="button" data-close>닫기</button></div>
   <div class="dlg-body">
+    <div class="setting">
+      <div style="flex:1">
+        <div class="setting-title">Gemini 키</div>
+        <div class="setting-desc">무료 키는 <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google AI Studio</a>에서 만들 수 있습니다. 이 브라우저에만 저장됩니다.</div>
+        <div class="key-row" style="margin-top:8px">
+          <input id="setKey" type="password" placeholder="AIza…" autocomplete="off" spellcheck="false" aria-label="Gemini API 키">
+          <button class="btn small primary" id="btnSetKey" type="button">저장 후 연결 확인</button>
+        </div>
+        <div class="setting-desc" id="keyStatus" style="margin-top:6px"></div>
+        <button class="btn small ghost" id="btnClearKey" type="button" style="margin-top:6px">키 지우기</button>
+      </div>
+    </div>
     <label class="setting">
       <input type="checkbox" id="setSaveAudio">
       <div>
         <div class="setting-title">녹음 파일 저장</div>
-        <div class="setting-desc">음성을 파일로도 남깁니다(이 브라우저 안에만 저장). 일부 안드로이드 기기는 녹음과 음성 인식이 마이크를 동시에 못 쓰는데, 자막이 안 나오면 이걸 꺼 보세요.</div>
-      </div>
-    </label>
-    <label class="setting">
-      <input type="checkbox" id="setLocalSpeech">
-      <div>
-        <div class="setting-title">기기 내 음성 인식 (실험적)</div>
-        <div class="setting-desc">브라우저가 지원하면 음성을 기기 안에서 인식합니다. 꺼 두면 브라우저 기본 방식(Chrome은 Google 서버)으로 처리됩니다. 일부 Chrome 버전에서 이 기능을 확인하다 탭이 멈춘 사례가 있어 기본으로 꺼 두었습니다.</div>
-      </div>
-    </label>
-    <label class="setting">
-      <input type="checkbox" id="setExternal">
-      <div>
-        <div class="setting-title">외부 무료 번역 사용 (MyMemory)</div>
-        <div class="setting-desc">브라우저에 기기 내 번역이 없을 때(모바일, Safari, Firefox 등)만 씁니다. <b>자막 문장이 MyMemory 서버로 전송됩니다.</b> 무료 한도는 하루 약 5,000자이고, 아래에 이메일을 넣으면 약 50,000자로 늘어납니다.</div>
-        <input class="text-input" id="setEmail" type="email" placeholder="이메일 (선택 · 한도 확장용)" autocomplete="email">
+        <div class="setting-desc">음성을 파일로도 남깁니다(이 브라우저 안에만 저장, 내려받기 가능).</div>
       </div>
     </label>
     <div class="setting">
-      <div style="flex:1">
-        <div class="setting-title">아이폰·아이패드 AI 회의록 (단축어)</div>
-        <div class="setting-desc">아이폰 Safari에는 웹용 AI가 없어서, 단축어 앱의 ‘모델 사용’(Apple Intelligence)으로 회의록을 만듭니다. 무료입니다. iPhone 15 Pro 이상 또는 M1 이상 iPad, iOS 26 이상, Apple Intelligence가 켜져 있어야 합니다.</div>
-        <label class="setting-desc" style="display:block;margin-top:8px">단축어 이름
-          <input class="text-input" id="setShortcutName" type="text" maxlength="40" autocomplete="off">
-        </label>
-        <label class="setting-desc" style="display:block;margin-top:8px">단축어에서 고른 모델
-          <select id="setShortcutModel" style="display:block;margin-top:6px">
-            <option value="pcc">Private Cloud Compute — 긴 회의도 가능 (Apple 서버, 저장 안 됨)</option>
-            <option value="device">기기 내 — 완전 오프라인, 짧은 회의만 (약 5분)</option>
-          </select>
-        </label>
-        <button class="btn small" id="btnShortcutGuide" type="button" style="margin-top:10px">단축어 만드는 법 보기</button>
-      </div>
-    </div>
-    <div class="setting">
       <div>
-        <div class="setting-title">이 브라우저의 기능 지원 현황</div>
-        <div class="setting-desc" id="capReport">확인 중…</div>
+        <div class="setting-title">무엇이 어디로 가나요</div>
+        <div class="setting-desc">받아쓰기·번역·회의록은 녹음을 Google Gemini로 보내서 만듭니다. 무료 키는 Google이 보낸 내용을 서비스 개선에 쓸 수 있습니다. 회의 내용과 녹음 파일은 이 브라우저에만 저장됩니다.</div>
+        <div class="setting-desc" id="modelInfo" style="margin-top:6px"></div>
       </div>
     </div>
   </div>
-</dialog>
-
-<dialog id="dlgShortcut" aria-labelledby="dlgShortcutTitle">
-  <div class="dlg-head"><h2 id="dlgShortcutTitle">아이폰 AI로 정리</h2><button class="btn ghost small" type="button" data-close>닫기</button></div>
-  <div class="dlg-body" id="shortcutBody"></div>
 </dialog>
 
 <script src="/voicenote/rules.js"></script>
@@ -411,21 +400,25 @@ a.btn { text-decoration: none; }
 "use strict";
 
 /* ═════════════════════════════════════════════════════════════════
-   보이스노트 — 음성 녹음 · 실시간 번역 · 회의 정리
-   서버도 API 키도 없다. 브라우저가 제공하는 기능만으로 동작한다.
+   보이스노트 — 음성 녹음 · 실시간 번역 · 회의록
+   ─────────────────────────────────────────────────────────────────
+   Gemini 무료 키 하나로 아이폰·아이패드·안드로이드·PC 어디서나 같게 동작한다.
 
-   음성 인식  Web Speech API (기기 내 처리를 지원하면 우선 사용)
-   번역       Chrome 기기 내 Translator API → (선택) MyMemory 무료 API
-   회의 정리  ① 규칙 기반 — 녹음 중 즉시, 모든 브라우저
-              ② 기기 내 AI — Chrome Prompt API(Gemini Nano)가 있을 때 종료 후
-   저장       localStorage(텍스트) + IndexedDB(녹음 파일). 전부 이 브라우저 안.
+     마이크 ─┬─ 녹음 파일 (MediaRecorder → 이 브라우저 IndexedDB)
+             └─ 7~14초 음성 조각 (말이 끊기는 곳에서 자름)
+                  → Gemini: 받아쓰기 + 언어 감지 + 번역을 한 번에
+     녹음 중 정리: 규칙 기반 (rules.js, 지연 0, 무료)
+     녹음 종료:   Gemini가 회의록 작성
+
+   브라우저 음성 인식(Web Speech)은 아이폰 Safari에서 불안정해서 쓰지 않는다.
+   키가 없을 때만 "녹음 + 자막" 용도로 남겨 둔다.
    ═════════════════════════════════════════════════════════════════ */
 
 const LANGS = {
-  ko: { label: "한국어", short: "KO", bcp: "ko-KR", mm: "ko" },
-  en: { label: "영어", short: "EN", bcp: "en-US", mm: "en" },
-  ja: { label: "일본어", short: "JA", bcp: "ja-JP", mm: "ja" },
-  zh: { label: "중국어", short: "ZH", bcp: "zh-CN", mm: "zh-CN" },
+  ko: { label: "한국어", short: "KO", bcp: "ko-KR" },
+  en: { label: "영어", short: "EN", bcp: "en-US" },
+  ja: { label: "일본어", short: "JA", bcp: "ja-JP" },
+  zh: { label: "중국어", short: "ZH", bcp: "zh-CN" },
 };
 const FOREIGN = ["en", "ja", "zh"];
 
@@ -440,7 +433,6 @@ function h(tag, attrs, ...children) {
     for (const [k, v] of Object.entries(attrs)) {
       if (v == null || v === false) continue;
       if (k === "class") el.className = v;
-      else if (k === "text") el.textContent = v;
       else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
       else if (k === "dataset") Object.assign(el.dataset, v);
       else el.setAttribute(k, v === true ? "" : String(v));
@@ -454,8 +446,8 @@ function h(tag, attrs, ...children) {
 }
 
 function fmtDuration(ms) {
-  const m = Math.round(ms / 60000);
   if (ms < 60000) return `${Math.round(ms / 1000)}초`;
+  const m = Math.round(ms / 60000);
   return m < 60 ? `${m}분` : `${Math.floor(m / 60)}시간 ${m % 60}분`;
 }
 function fmtDate(ts) {
@@ -465,11 +457,6 @@ function fmtDate(ts) {
 const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-/**
- * 브라우저 내장 AI API는 응답 없이 멈추는 일이 있다 (Chromium 153에서
- * Translator.availability()가 끝나지 않는 것을 확인). 기다리는 쪽이 번역 큐나
- * 종료 처리라서, 멈추면 앱 전체가 멈춘다. 그래서 모든 호출에 시한을 건다.
- */
 function withTimeout(promise, ms, label = "응답 시간 초과") {
   let t;
   return Promise.race([
@@ -478,23 +465,10 @@ function withTimeout(promise, ms, label = "응답 시간 초과") {
   ]).finally(() => clearTimeout(t));
 }
 
-/**
- * 모델 다운로드처럼 오래 걸리는 작업용 — 진행 이벤트가 끊긴 채 idleMs가 지나면 실패.
- * start(onActivity)는 진행 이벤트마다 onActivity()를 불러야 한다.
- */
-function withIdleTimeout(start, idleMs, label = "응답이 없어 중단했습니다") {
-  return new Promise((resolve, reject) => {
-    let t;
-    const arm = () => { clearTimeout(t); t = setTimeout(() => reject(Object.assign(new Error(label), { name: "TimeoutError" })), idleMs); };
-    arm();
-    start(arm).then((v) => { clearTimeout(t); resolve(v); }, (e) => { clearTimeout(t); reject(e); });
-  });
-}
-
 let toastTimer;
 function toast(msg) {
   document.querySelector(".toast")?.remove();
-  const el = h("div", { class: "toast", role: "status", text: msg });
+  const el = h("div", { class: "toast", role: "status" }, msg);
   document.body.append(el);
   clearTimeout(toastTimer);
   toastTimer = setTimeout(() => el.remove(), 2400);
@@ -511,24 +485,35 @@ function download(filename, blobOrText, type = "text/plain;charset=utf-8") {
 }
 const safeFilename = (s) => (s || "회의").replace(/[\\/:*?"<>|]+/g, " ").trim().slice(0, 60) || "회의";
 
+function blobToBase64(blob) {
+  return new Promise((resolve, reject) => {
+    const r = new FileReader();
+    r.onload = () => resolve(String(r.result).split(",")[1] || "");
+    r.onerror = () => reject(r.error);
+    r.readAsDataURL(blob);
+  });
+}
+
+/** 아이폰·아이패드(iPadOS는 데스크톱 Safari로 위장하므로 터치 지점으로 구분). */
+const IS_IOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+
 /* ───────────────────────── 설정 ───────────────────────── */
 
 const Settings = {
-  KEY: "voicenote.settings.v1",
-  // localSpeech는 기본 꺼짐 — SpeechRecognition.available()이 Chromium 153 헤드리스에서
-  // 탭을 크래시시키는 것을 확인했다. 실기기에서 안전하다는 확인 전까지는 실험 옵션으로 둔다.
-  v: { saveAudio: true, localSpeech: false, external: false, email: "", speechLang: "ko", targetLang: "en", shortcutName: "보이스노트 정리", shortcutModel: "pcc" },
+  KEY: "voicenote.settings.v2",
+  v: { geminiKey: "", noKeyMode: false, saveAudio: true, foreign: "en", speechLang: "ko", models: {} },
   load() {
     try { Object.assign(this.v, JSON.parse(localStorage.getItem(this.KEY) || "{}")); } catch {}
+    if (!this.v.models || typeof this.v.models !== "object") this.v.models = {};
+    if (!FOREIGN.includes(this.v.foreign) && this.v.foreign !== "off") this.v.foreign = "en";
+    if (!LANGS[this.v.speechLang]) this.v.speechLang = "ko";
   },
-  save() {
-    try { localStorage.setItem(this.KEY, JSON.stringify(this.v)); } catch {}
-  },
+  save() { try { localStorage.setItem(this.KEY, JSON.stringify(this.v)); } catch {} },
+  hasKey() { return !!this.v.geminiKey; },
 };
 
 /* ───────────────────────── 저장소 ─────────────────────────
-   텍스트(자막·정리)는 localStorage, 녹음 파일은 IndexedDB.
-   목록은 가벼운 인덱스만 따로 둬서 회의가 쌓여도 목록이 느려지지 않게 한다. */
+   텍스트(자막·정리)는 localStorage, 녹음 파일은 IndexedDB. 전부 이 브라우저 안. */
 
 const Store = {
   INDEX: "voicenote.index.v1",
@@ -548,22 +533,20 @@ const Store = {
       idx.push(meta);
       localStorage.setItem(this.INDEX, JSON.stringify(idx));
       return true;
-    } catch (e) {
-      // 용량 초과 — 녹음은 계속되고, 사용자에게만 알린다.
+    } catch {
       UI.banner("저장 공간이 부족해 회의 내용을 저장하지 못했습니다. 오래된 회의를 지우거나 내보내기로 백업해 주세요.", "error", "quota");
       return false;
     }
   },
   remove(id) {
-    const parts = this.list().find((m) => m.id === id)?.audioParts || 0; // 인덱스에서 지우기 전에 읽는다
+    const parts = this.list().find((m) => m.id === id)?.audioParts || 0;
     localStorage.removeItem(this.key(id));
     localStorage.setItem(this.INDEX, JSON.stringify(this.list().filter((m) => m.id !== id)));
-    Audio_.removeAll(id, parts).catch(() => {});
+    AudioDB.removeAll(id, parts).catch(() => {});
   },
 };
 
-/** 녹음 파일 — IndexedDB. 회의 하나에 여러 조각(이어서 녹음)을 담을 수 있다. */
-const Audio_ = {
+const AudioDB = {
   db: null,
   open() {
     if (this.db) return Promise.resolve(this.db);
@@ -592,613 +575,395 @@ const Audio_ = {
   },
 };
 
-
 /* ═════════════════════════════════════════════════════════════════
-   번역
+   Gemini
    ─────────────────────────────────────────────────────────────────
-   1순위  Chrome 기기 내 Translator API — 무료, 오프라인, 텍스트가 밖으로 안 나감
-   2순위  MyMemory 무료 API — 설정에서 켠 경우에만. 텍스트가 외부로 나간다.
-   번역은 순서를 지키도록 한 줄로 직렬화한다.
+   브라우저에서 Gemini REST API를 바로 부른다(서버 없음). 키는 헤더로만 보낸다.
+
+   모델은 별칭(…-latest)을 먼저 쓰고, 없으면 다음 후보로 넘어간다.
+   쓸 수 있었던 모델은 기억해 두고 다음부터 그걸 먼저 쓴다.
+   (Gemini 3.5부터 thinkingBudget을 보내면 오류라서 사고 설정은 보내지 않는다)
    ═════════════════════════════════════════════════════════════════ */
 
-const Translate = {
-  engines: new Map(),   // "en>ko" → Promise<{type, t?}>
-  queue: Promise.resolve(),
-  externalBlockedUntil: 0,
-  status: {},           // UI용: "en>ko" → {state, progress}
+class GeminiError extends Error {
+  constructor(code, message, retryMs = 0) {
+    super(message);
+    this.name = "GeminiError";
+    this.code = code;       // key | rate | daily | model | server | network | blocked | other
+    this.retryMs = retryMs;
+  }
+}
 
-  hasBuiltin: () => "Translator" in self,
-
-  /** 사용자 동작(클릭) 직후에 불러야 모델 다운로드가 허용된다. */
-  prepare(src, tgt) {
-    if (!src || !tgt || src === tgt) return Promise.resolve(null);
-    const key = `${src}>${tgt}`;
-    if (!this.engines.has(key)) {
-      const p = this._create(src, tgt, key).catch((e) => { this.engines.delete(key); throw e; });
-      this.engines.set(key, p);
-    }
-    return this.engines.get(key);
+const STT_SCHEMA = {
+  type: "OBJECT",
+  properties: {
+    segments: {
+      type: "ARRAY",
+      items: {
+        type: "OBJECT",
+        properties: {
+          text: { type: "STRING" },
+          lang: { type: "STRING", enum: ["ko", "en", "ja", "zh"] },
+          translation: { type: "STRING" },
+        },
+        required: ["text", "lang", "translation"],
+      },
+    },
   },
-
-  /** 내장 번역기 지원 여부. 응답이 없으면 지원하지 않는 것으로 본다. */
-  async availability(src, tgt) {
-    if (!this.hasBuiltin()) return "unavailable";
-    try { return await withTimeout(Translator.availability({ sourceLanguage: src, targetLanguage: tgt }), 5000); }
-    catch { return "unavailable"; }
-  },
-
-  async _create(src, tgt, key) {
-    if (this.hasBuiltin()) {
-      // create()는 사용자 동작이 살아 있을 때 불러야 한다. availability()를 먼저
-      // 기다리면 그 사이 동작이 만료될 수 있어서, 둘을 동시에 시작한다.
-      let create = null;
-      const startCreate = () => {
-        create ??= withIdleTimeout((ping) => Translator.create({
-          sourceLanguage: src,
-          targetLanguage: tgt,
-          monitor: (m) => m.addEventListener("downloadprogress", (e) => {
-            ping();
-            this.status[key] = { state: "downloading", progress: e.loaded };
-            UI.renderChips();
-          }),
-        }), 30000, "번역 모델 준비 시간 초과");
-        return create;
-      };
-      startCreate().catch(() => {}); // 실패는 아래에서 다시 받는다
-      const avail = await this.availability(src, tgt);
-      if (avail !== "unavailable") {
-        this.status[key] = { state: avail === "available" ? "ready" : "downloading", progress: 0 };
-        UI.renderChips();
-        try {
-          const t = await startCreate();
-          this.status[key] = { state: "ready", type: "builtin" };
-          UI.renderChips();
-          return { type: "builtin", t };
-        } catch (e) {
-          // NotAllowedError — 사용자 동작 없이 다운로드를 시작하려 한 경우. 다음 클릭에서 재시도.
-          this.status[key] = { state: e?.name === "NotAllowedError" ? "needs-click" : "unavailable", error: e?.name };
-          UI.renderChips();
-          if (!Settings.v.external) throw e;
-        }
-      }
-    }
-    if (Settings.v.external) {
-      this.status[key] = { state: "ready", type: "external" };
-      UI.renderChips();
-      return { type: "external" };
-    }
-    this.status[key] = { state: "unavailable" };
-    UI.renderChips();
-    return { type: "none" };
-  },
-
-  reset() { this.engines.clear(); this.status = {}; },
-
-  async translate(text, src, tgt) {
-    const eng = await this.prepare(src, tgt);
-    if (!eng || eng.type === "none") throw new Error("번역 엔진 없음");
-    if (eng.type === "builtin") return withTimeout(eng.t.translate(text), 20000, "번역 시간 초과");
-    return this._mymemory(text, src, tgt);
-  },
-
-  async _mymemory(text, src, tgt) {
-    if (Date.now() < this.externalBlockedUntil) throw new Error("외부 번역 한도 초과");
-    const out = [];
-    for (const chunk of byteChunks(text, 480)) {
-      const q = new URLSearchParams({ q: chunk, langpair: `${LANGS[src].mm}|${LANGS[tgt].mm}` });
-      if (Settings.v.email) q.set("de", Settings.v.email);
-      const res = await withTimeout(fetch(`https://api.mymemory.translated.net/get?${q}`), 15000, "외부 번역 시간 초과");
-      if (!res.ok) throw new Error(`외부 번역 오류 (${res.status})`);
-      const j = await res.json();
-      const t = j?.responseData?.translatedText || "";
-      if (Number(j?.responseStatus) !== 200 || /MYMEMORY WARNING|QUERY LENGTH LIMIT/i.test(t)) {
-        if (Number(j?.responseStatus) === 429 || /WARNING/i.test(t)) {
-          this.externalBlockedUntil = Date.now() + 60 * 60 * 1000;
-          UI.banner("외부 무료 번역의 하루 한도를 넘었습니다. 설정에서 이메일을 넣으면 한도가 늘어납니다.", "warn", "mm-quota");
-        }
-        throw new Error("외부 번역 실패");
-      }
-      out.push(decodeEntities(t));
-    }
-    return out.join(" ");
-  },
-
-  /** 순서 보장 큐에 넣는다. */
-  enqueue(fn) {
-    this.queue = this.queue.then(fn, fn);
-    return this.queue;
-  },
+  required: ["segments"],
 };
 
-function byteChunks(text, maxBytes) {
-  const enc = new TextEncoder();
-  if (enc.encode(text).length <= maxBytes) return [text];
-  const parts = text.split(/(?<=[.!?。！？])\s*/);
-  const out = [];
-  let cur = "";
-  for (const p of parts) {
-    if (enc.encode(cur + p).length > maxBytes && cur) { out.push(cur); cur = ""; }
-    if (enc.encode(p).length > maxBytes) {
-      // 문장 하나가 너무 길면 글자 단위로 자른다.
-      let piece = "";
-      for (const ch of p) {
-        if (enc.encode(piece + ch).length > maxBytes) { out.push(piece); piece = ""; }
-        piece += ch;
-      }
-      cur = piece;
-    } else cur += (cur ? " " : "") + p;
-  }
-  if (cur) out.push(cur);
-  return out;
-}
-function decodeEntities(s) {
-  const t = document.createElement("textarea");
-  t.innerHTML = s;
-  return t.value;
-}
-
-/* ═════════════════════════════════════════════════════════════════
-   기기 내 AI 정리 — Chrome Prompt API (Gemini Nano)
-   ─────────────────────────────────────────────────────────────────
-   비용 0, 네트워크 0. 단, 두 가지 제약이 있다.
-   1) 모델이 지원하는 언어가 적다(한국어가 빠져 있을 수 있음)
-      → 지원하지 않으면 번역기로 영어를 거쳐 정리하고, 결과를 다시 한국어로.
-   2) 한 번에 넣을 수 있는 분량이 작다
-      → 긴 회의는 구간별로 노트를 만든 뒤(map) 한 번에 합친다(reduce).
-   ═════════════════════════════════════════════════════════════════ */
-
-const AI_SCHEMA = {
-  type: "object",
+const MINUTES_SCHEMA = {
+  type: "OBJECT",
   properties: {
-    title: { type: "string" },
-    overview: { type: "string" },
-    background: { type: "array", items: { type: "string" } },
-    discussion: { type: "array", items: { type: "object", properties: { topic: { type: "string" }, points: { type: "array", items: { type: "string" } } }, required: ["topic", "points"] } },
-    decisions: { type: "array", items: { type: "string" } },
-    actions: { type: "array", items: { type: "object", properties: { task: { type: "string" }, owner: { type: "string" }, due: { type: "string" } }, required: ["task", "owner", "due"] } },
-    plans: { type: "array", items: { type: "string" } },
-    issues: { type: "array", items: { type: "string" } },
-    keywords: { type: "array", items: { type: "string" } },
+    title: { type: "STRING" },
+    overview: { type: "STRING" },
+    background: { type: "ARRAY", items: { type: "STRING" } },
+    discussion: { type: "ARRAY", items: { type: "OBJECT", properties: { topic: { type: "STRING" }, points: { type: "ARRAY", items: { type: "STRING" } } }, required: ["topic", "points"] } },
+    decisions: { type: "ARRAY", items: { type: "STRING" } },
+    actions: { type: "ARRAY", items: { type: "OBJECT", properties: { task: { type: "STRING" }, owner: { type: "STRING" }, due: { type: "STRING" } }, required: ["task", "owner", "due"] } },
+    plans: { type: "ARRAY", items: { type: "STRING" } },
+    issues: { type: "ARRAY", items: { type: "STRING" } },
+    keywords: { type: "ARRAY", items: { type: "STRING" } },
   },
   required: ["title", "overview", "background", "discussion", "decisions", "actions", "plans", "issues", "keywords"],
 };
 
-const AI = {
-  has: () => "LanguageModel" in self,
-
-  async availability(inLangs, outLang) {
-    if (!this.has()) return "unavailable";
-    try {
-      return await withTimeout(LanguageModel.availability({
-        expectedInputs: [{ type: "text", languages: inLangs }],
-        expectedOutputs: [{ type: "text", languages: [outLang] }],
-      }), 5000);
-    } catch { return "unavailable"; }
+const Gemini = {
+  BASE: "https://generativelanguage.googleapis.com/v1beta/models/",
+  MODELS: {
+    // 받아쓰기는 자주 부르므로 하루 무료 한도가 넉넉한 Lite를 먼저
+    stt: ["gemini-flash-lite-latest", "gemini-flash-latest", "gemini-3.8-flash", "gemini-2.5-flash"],
+    sum: ["gemini-flash-latest", "gemini-3.8-flash", "gemini-2.5-flash"],
   },
 
-  /** 기본 상태(언어 무관). 칩 표시용. */
-  async baseStatus() {
-    if (!this.has()) return "unavailable";
-    try { return await withTimeout(LanguageModel.availability(), 5000); } catch { return "unavailable"; }
-  },
-
-  system(outLang) {
-    return `You are a meticulous meeting secretary. You turn raw speech-recognition transcripts into structured meeting minutes.
-The transcript has recognition errors, no speaker labels and broken sentence boundaries.
-Silently fix obvious recognition errors. Never invent facts that are not in the transcript.
-If a section has no content, return an empty array or empty string.
-Write every value in ${outLang === "ko" ? "Korean (한국어)" : "English"}. Use short, bullet-style phrases.`;
-  },
-
-  instructions() {
-    return `Fields:
-- title: a short meeting title
-- overview: one sentence summarizing the whole meeting
-- background: why this meeting happened — context, current situation, problems
-- discussion: the main topics in order, each with its key points
-- decisions: only what was explicitly agreed or decided
-- actions: concrete tasks with owner and due date exactly as stated (empty string if not stated)
-- plans: future plans, schedules and next steps that are not individual tasks
-- issues: unresolved questions and items deferred to later
-- keywords: up to 5 keywords`;
-  },
-
-  /** 어떤 언어로 넣고 어떤 언어로 받을지 정한다. */
-  async plan(srcLangs) {
-    // 1) 원문 그대로 넣고 한국어로 받기
-    if ((await this.availability(srcLangs, "ko")) !== "unavailable") return { inPivot: false, outLang: "ko" };
-    // 2) 원문 그대로 넣고 영어로 받은 뒤 한국어로 번역
-    if ((await this.availability(srcLangs, "en")) !== "unavailable") return { inPivot: false, outLang: "en" };
-    // 3) 원문을 영어로 번역해서 넣고 영어로 받기
-    if ((await this.availability(["en"], "en")) !== "unavailable") return { inPivot: true, outLang: "en" };
-    return null;
-  },
-
-  async summarize(session, onProgress) {
-    // 정리 대상 텍스트 — 한국어 커버리지가 높으면 한국어로 통일
-    const segs = session.segments;
-    const koCover = segs.filter((s) => s.lang === "ko" || (s.trLang === "ko" && s.tr)).length / Math.max(1, segs.length);
-    const useKo = koCover >= 0.8;
-    let lines = segs.map((s) => ({
-      atMs: s.atMs,
-      lang: useKo ? "ko" : s.lang,
-      text: useKo ? (s.lang === "ko" ? s.text : s.tr) : s.text,
-    })).filter((l) => l.text && !RULES[l.lang].filler.test(l.text.trim()));
-    if (!lines.length) throw new Error("정리할 자막이 없습니다.");
-
-    const srcLangs = [...new Set(lines.map((l) => l.lang))];
-    onProgress?.(0.02, "AI 모델 확인 중");
-    const plan = await this.plan(srcLangs);
-    if (!plan) throw new Error("이 브라우저의 기기 내 AI가 회의 언어를 지원하지 않습니다.");
-
-    // 입력 피벗 — 원문을 영어로
-    if (plan.inPivot) {
-      const need = srcLangs.filter((l) => l !== "en");
-      for (const l of need) await Translate.prepare(l, "en");
-      const out = [];
-      for (let i = 0; i < lines.length; i++) {
-        const l = lines[i];
-        out.push(l.lang === "en" ? l : { ...l, lang: "en", text: await Translate.translate(l.text, l.lang, "en") });
-        if (i % 10 === 0) onProgress?.(0.05 + 0.25 * (i / lines.length), "AI가 읽을 수 있게 영어로 옮기는 중");
+  async generate(kind, body, timeoutMs = 90000) {
+    if (!Settings.hasKey()) throw new GeminiError("key", "Gemini 키가 없습니다. 설정에서 키를 넣어 주세요.");
+    const known = Settings.v.models[kind];
+    const list = known ? [known, ...this.MODELS[kind].filter((m) => m !== known)] : this.MODELS[kind];
+    let lastErr = null;
+    for (const model of list) {
+      let res;
+      try {
+        res = await withTimeout(fetch(`${this.BASE}${model}:generateContent`, {
+          method: "POST",
+          headers: { "content-type": "application/json", "x-goog-api-key": Settings.v.geminiKey },
+          body: JSON.stringify(body),
+        }), timeoutMs, "Gemini 응답 시간 초과");
+      } catch (e) {
+        throw new GeminiError("network", e?.name === "TimeoutError" ? "Gemini 응답이 너무 늦습니다." : "네트워크에 연결할 수 없습니다.");
       }
-      lines = out;
-    }
-    const inLangs = [...new Set(lines.map((l) => l.lang))];
-    const outLang = plan.outLang;
-
-    const base = await withIdleTimeout((ping) => LanguageModel.create({
-      expectedInputs: [{ type: "text", languages: inLangs }],
-      expectedOutputs: [{ type: "text", languages: [outLang] }],
-      initialPrompts: [{ role: "system", content: this.system(outLang) }],
-      monitor: (m) => m.addEventListener("downloadprogress", (e) => { ping(); onProgress?.(0.05 * e.loaded, `AI 모델 내려받는 중 ${Math.round(e.loaded * 100)}%`); }),
-    }), 60000, "AI 모델 준비가 멈췄습니다");
-
-    const fresh = () => withTimeout(typeof base.clone === "function" ? base.clone() : LanguageModel.create({
-      expectedInputs: [{ type: "text", languages: inLangs }],
-      expectedOutputs: [{ type: "text", languages: [outLang] }],
-      initialPrompts: [{ role: "system", content: this.system(outLang) }],
-    }), 30000);
-    const ask = (session, text, opts) => withTimeout(session.prompt(text, opts), 180000, "AI 응답 시간 초과");
-
-    try {
-      const transcript = lines.map((l) => `[${fmtClock(l.atMs)}] ${l.text}`);
-      let chunkChars = 2400;
-      let result = null;
-
-      for (let attempt = 0; attempt < 3 && !result; attempt++) {
-        try {
-          const chunks = packLines(transcript, chunkChars);
-          let body;
-          if (chunks.length === 1) {
-            body = `Meeting transcript ([mm:ss] timestamps):\n<transcript>\n${chunks[0]}\n</transcript>`;
-          } else {
-            const notes = [];
-            for (let i = 0; i < chunks.length; i++) {
-              onProgress?.(0.3 + 0.5 * (i / chunks.length), `회의 내용 읽는 중 (${i + 1}/${chunks.length})`);
-              const s = await fresh();
-              try {
-                notes.push(await ask(s, `This is part ${i + 1} of ${chunks.length} of one meeting transcript.
-Write concise notes covering only what is in this part. Prefix every bullet with one tag:
-[BACKGROUND] [DISCUSSION] [DECISION] [TASK] (include owner/due if stated) [PLAN] [OPEN]
-<transcript>
-${chunks[i]}
-</transcript>`));
-              } finally { s.destroy?.(); }
-            }
-            body = `Notes from consecutive parts of one meeting:\n<notes>\n${notes.map((n, i) => `## Part ${i + 1}\n${n}`).join("\n\n")}\n</notes>`;
-          }
-          onProgress?.(0.82, "회의록 작성 중");
-          const s = await fresh();
-          try {
-            const raw = await ask(s, `${body}\n\nWrite the meeting minutes as JSON.\n${this.instructions()}`, { responseConstraint: AI_SCHEMA });
-            result = normalizeSummary(JSON.parse(raw));
-          } finally { s.destroy?.(); }
-        } catch (e) {
-          // 분량 초과면 구간을 잘게 나눠 다시 시도한다.
-          if (e?.name === "QuotaExceededError" || /quota|too large|exceed/i.test(e?.message || "")) { chunkChars = Math.floor(chunkChars / 2); continue; }
-          throw e;
+      if (res.ok) {
+        const j = await res.json();
+        if (Settings.v.models[kind] !== model) { Settings.v.models[kind] = model; Settings.save(); }
+        const cand = j?.candidates?.[0];
+        const text = (cand?.content?.parts || []).map((p) => p.text || "").join("");
+        if (!text) {
+          const blocked = cand?.finishReason === "SAFETY" || j?.promptFeedback?.blockReason;
+          throw new GeminiError(blocked ? "blocked" : "other", blocked ? "Gemini가 이 내용을 처리하지 않았습니다(안전 정책)." : "Gemini가 빈 응답을 보냈습니다.");
         }
+        return text;
       }
-      if (!result) throw new Error("회의가 너무 길어 기기 내 AI로 정리하지 못했습니다.");
-
-      // 출력 피벗 — 영어 결과를 한국어로
-      if (outLang !== "ko") {
-        onProgress?.(0.9, "한국어로 옮기는 중");
-        try {
-          await Translate.prepare("en", "ko");
-          result = await translateSummary(result, "en", "ko");
-          result._lang = "ko";
-        } catch {
-          result._lang = "en"; // 번역기가 없으면 영어로 남긴다.
-        }
-      } else result._lang = "ko";
-      onProgress?.(1, "완료");
-      return result;
-    } finally {
-      base.destroy?.();
+      const err = await this.toError(res);
+      if (err.code === "model") { lastErr = err; continue; } // 다음 모델로
+      throw err;
     }
+    throw lastErr || new GeminiError("model", "쓸 수 있는 Gemini 모델을 찾지 못했습니다.");
+  },
+
+  async toError(res) {
+    let msg = "", retryMs = 0;
+    try {
+      const j = await res.json();
+      msg = j?.error?.message || "";
+      const delay = (j?.error?.details || []).find((d) => d?.retryDelay)?.retryDelay; // "17s"
+      if (delay) retryMs = Math.ceil(parseFloat(delay) * 1000);
+    } catch {}
+    if (res.status === 404 || /is not found|not supported for generateContent|unknown model/i.test(msg)) return new GeminiError("model", msg);
+    if (res.status === 401 || (res.status === 400 && /api key|API_KEY/i.test(msg))) return new GeminiError("key", "Gemini 키가 올바르지 않습니다. 설정에서 키를 다시 넣어 주세요.");
+    if (res.status === 403) return new GeminiError("key", "이 키로는 Gemini를 쓸 수 없습니다(권한 또는 지역 제한). 키를 확인해 주세요.");
+    if (res.status === 429) {
+      const daily = /per ?day|PerDay|daily/i.test(msg);
+      return new GeminiError(daily ? "daily" : "rate", daily ? "오늘 Gemini 무료 사용량을 다 썼습니다. 내일 다시 쓰거나, 녹음 파일은 남아 있으니 나중에 ‘못 받아쓴 구간 다시’를 누르세요." : "요청이 많아 잠깐 기다렸다가 이어서 받아씁니다.", retryMs || 15000);
+    }
+    if (res.status >= 500) return new GeminiError("server", "Gemini 서버가 잠시 응답하지 않습니다.", 5000);
+    return new GeminiError("other", `Gemini 오류 (${res.status}) ${msg.slice(0, 160)}`);
+  },
+
+  /** 음성 조각 → [{text, lang, translation}] */
+  async transcribe(wavBase64, foreign) {
+    const tr = foreign === "off"
+      ? "translation은 빈 문자열로 둔다."
+      : `한국어로 말한 문장은 ${LANGS[foreign].label}로, 한국어가 아닌 문장은 한국어로 자연스럽게 번역해 translation에 넣는다.`;
+    const text = await this.generate("stt", {
+      systemInstruction: { parts: [{ text: "너는 회의 속기사다. 오디오에서 실제로 들린 말만 그대로 받아 적는다. 들리지 않은 말을 지어내거나 요약하지 않는다. 말소리가 없거나 알아들을 수 없으면 segments를 빈 배열로 둔다." }] },
+      contents: [{
+        role: "user",
+        parts: [
+          { inlineData: { mimeType: "audio/wav", data: wavBase64 } },
+          { text: `회의 녹음의 한 구간이다. 말한 내용을 문장 단위로 받아 적어라. 각 문장의 언어를 ko(한국어)·en(영어)·ja(일본어)·zh(중국어) 중 하나로 표시한다. ${tr}` },
+        ],
+      }],
+      generationConfig: { temperature: 0, responseMimeType: "application/json", responseSchema: STT_SCHEMA },
+    }, 60000);
+    let j;
+    try { j = JSON.parse(text); } catch { throw new GeminiError("other", "Gemini 받아쓰기 결과를 읽지 못했습니다."); }
+    return (Array.isArray(j?.segments) ? j.segments : [])
+      .map((s) => ({ text: String(s?.text || "").trim(), lang: LANGS[s?.lang] ? s.lang : "ko", translation: String(s?.translation || "").trim() }))
+      .filter((s) => s.text);
+  },
+
+  /** 회의 전체 → 회의록. Gemini는 컨텍스트가 넉넉해서 녹취록을 한 번에 넣는다. */
+  async minutes(session) {
+    const lines = session.segments.map((g) => {
+      const ko = g.lang !== "ko" && g.trLang === "ko" && g.tr ? ` (한국어: ${g.tr})` : "";
+      return `[${fmtClock(g.atMs)}] ${g.text}${ko}`;
+    }).join("\n");
+    const text = await this.generate("sum", {
+      systemInstruction: { parts: [{ text: `너는 꼼꼼한 회의 서기다. 회의 녹취록을 회의록으로 정리한다.
+녹취록은 자동 받아쓰기라 오탈자가 있고 화자 구분이 없다. 명백한 오인식만 조용히 고치고, 녹취록에 없는 내용은 절대 지어내지 않는다.
+녹취록이 외국어여도 모든 값은 한국어로 쓴다. 개조식으로 짧게 쓴다. 해당 내용이 없으면 빈 배열이나 빈 문자열로 둔다.` }] },
+      contents: [{
+        role: "user",
+        parts: [{ text: `회의 녹취록 ([분:초] 표시):
+<녹취록>
+${lines}
+</녹취록>
+
+다음 항목으로 회의록을 써라.
+- title: 짧은 회의 제목
+- overview: 회의 전체를 한 문장으로
+- background: 회의를 연 배경·현황·문제
+- discussion: 이야기된 순서대로 주요 주제와 요점
+- decisions: 명확히 결정된 것만 ("논의했다"는 결정이 아니다)
+- actions: 구체적인 할 일. 담당자(owner)와 기한(due)이 나오면 적고, 없으면 빈 문자열
+- plans: 개인 할 일이 아닌 향후 일정·방향
+- issues: 결론 없이 남은 질문이나 다음으로 미룬 안건
+- keywords: 핵심 키워드 5개 이내` }],
+      }],
+      generationConfig: { temperature: 0.2, responseMimeType: "application/json", responseSchema: MINUTES_SCHEMA },
+    }, 180000);
+    let j;
+    try { j = JSON.parse(text); } catch { throw new GeminiError("other", "Gemini 회의록 결과를 읽지 못했습니다."); }
+    const m = normalizeSummary(j);
+    m._engine = "gemini";
+    m._lang = "ko";
+    return m;
+  },
+
+  /** 키 확인용 짧은 요청 */
+  async ping() {
+    await this.generate("sum", { contents: [{ role: "user", parts: [{ text: "OK라고만 답해." }] }], generationConfig: { temperature: 0 } }, 30000);
   },
 };
-
-/**
- * 실제 사용 가능 여부. API가 "있다"와 "쓸 수 있다"는 다르다 — Chromium 153 헤드리스는
- * LanguageModel이 있지만 모델이 없어 "downloadable"이고, 한국어는 "unavailable"이다.
- */
-const Caps = {
-  ai: null,      // available | downloadable | downloading | unavailable
-  tr: {},        // "ko>en" → 같은 값
-  async refresh() {
-    const { speechLang, targetLang } = Settings.v;
-    const jobs = [AI.baseStatus().then((v) => { this.ai = v; })];
-    if (targetLang !== "off") {
-      for (const [a, b] of [[speechLang, targetLang], [targetLang, speechLang]]) {
-        const key = `${a}>${b}`;
-        if (!(key in this.tr)) jobs.push(Translate.availability(a, b).then((v) => { this.tr[key] = v; }));
-      }
-    }
-    await Promise.all(jobs);
-    UI.renderChips();
-    UI.renderFoot();
-    if (App.view === "ai") UI.renderSummary();
-  },
-  aiUsable() { return AI.has() && this.ai !== "unavailable"; },
-};
-
-/* ═════════════════════════════════════════════════════════════════
-   아이폰·아이패드 AI 회의록 — 단축어(Shortcuts) 연동
-   ─────────────────────────────────────────────────────────────────
-   iOS Safari에는 웹용 AI API가 없다. 대신 iOS 26 단축어의 ‘모델 사용’
-   (Apple Intelligence)을 무료로 쓸 수 있다. 흐름:
-
-     ① 이 페이지: 요청문+자막을 클립보드에 복사 → 단축어 실행 링크
-     ② 단축어:   클립보드 가져오기 → 모델 사용 → 클립보드에 복사 → 출력
-     ③ 이 페이지: x-success 로 돌아옴 → result 파라미터 또는 클립보드에서 결과 읽기
-
-   Safari는 비동기 처리 뒤 다른 앱을 여는 것을 막을 수 있어서,
-   복사와 실행을 두 번의 탭으로 나눴다.
-   ═════════════════════════════════════════════════════════════════ */
-
-const Shortcut = {
-  PENDING: "voicenote.shortcut.pending",
-
-  /** 단축어 모델별로 넣을 자막 분량. 기기 내 모델은 4,096토큰이라 짧게 잡는다. */
-  limit() { return Settings.v.shortcutModel === "device" ? 2200 : 24000; },
-
-  /** 모델에 넘길 요청문. 회의가 길면 중요도 낮은 발언부터 덜어낸다. */
-  buildPrompt(session) {
-    const segs = session.segments;
-    const koCover = segs.filter((s) => s.lang === "ko" || (s.trLang === "ko" && s.tr)).length / Math.max(1, segs.length);
-    const useKo = koCover >= 0.8;
-    let lines = segs.map((s, i) => ({
-      i, atMs: s.atMs,
-      lang: useKo ? "ko" : s.lang,
-      text: (useKo ? (s.lang === "ko" ? s.text : s.tr) : s.text) || "",
-    })).filter((l) => l.text.trim() && !RULES[l.lang].filler.test(l.text.trim()));
-
-    const fmt = (ls) => ls.map((l) => `[${fmtClock(l.atMs)}] ${l.text}`).join("\n");
-    let dropped = 0;
-    const limit = this.limit();
-    if (fmt(lines).length > limit) {
-      const kws = topKeywords(lines, 12);
-      const ranked = [...lines].sort((a, b) => score(b.text, b.lang, kws) - score(a.text, a.lang, kws));
-      const keep = new Set();
-      let budget = limit;
-      for (const l of ranked) {
-        const cost = l.text.length + 10;
-        if (cost > budget) continue;
-        budget -= cost;
-        keep.add(l);
-      }
-      dropped = lines.length - keep.size;
-      lines = lines.filter((l) => keep.has(l));
-    }
-
-    const prompt = `너는 꼼꼼한 회의 서기다. 아래 회의 자막을 회의록으로 정리해라.
-자막은 음성 인식 결과라 오탈자가 있고 화자 구분이 없다. 명백한 오인식만 조용히 고치고, 자막에 없는 내용은 절대 지어내지 마라.
-자막이 외국어여도 모든 값은 한국어로 써라.
-반드시 아래 형식의 JSON 하나만 출력하고 다른 말은 쓰지 마라. 해당 내용이 없으면 [] 또는 "" 로 둬라.
-
-{"title":"회의 제목","overview":"회의 전체를 한 문장으로","background":["회의 배경·현황·문제"],"discussion":[{"topic":"주제","points":["요점"]}],"decisions":["명확히 결정된 것만"],"actions":[{"task":"할 일","owner":"담당자(없으면 빈칸)","due":"기한(없으면 빈칸)"}],"plans":["향후 일정·방향"],"issues":["결론 없이 남은 것"],"keywords":["키워드 5개 이내"]}
-
-<자막${dropped ? ` 비고="분량이 많아 덜 중요한 발언 ${dropped}개를 뺐음"` : ""}>
-${fmt(lines)}
-</자막>`;
-    return { prompt, dropped, chars: prompt.length };
-  },
-
-  url(name) {
-    const back = location.origin + location.pathname;
-    const q = (k) => encodeURIComponent(`${back}?sc=${k}`);
-    return `shortcuts://x-callback-url/run-shortcut?name=${encodeURIComponent(name)}&x-success=${q("ok")}&x-cancel=${q("cancel")}&x-error=${q("error")}`;
-  },
-
-  /** 1단계 — 클립보드에 복사하고, 실행 링크를 보여 준다. */
-  async start(session) {
-    const { prompt, dropped } = this.buildPrompt(session);
-    let copied = false;
-    try { await navigator.clipboard.writeText(prompt); copied = true; } catch {}
-    try { localStorage.setItem(this.PENDING, JSON.stringify({ id: session.id, at: Date.now() })); } catch {}
-    UI.shortcutDialog(copied ? "run" : "manual", { prompt, dropped });
-  },
-
-  /** 단축어에서 돌아왔을 때 — 앱 시작 시 한 번 부른다. */
-  handleReturn() {
-    const q = new URLSearchParams(location.search);
-    const sc = q.get("sc");
-    if (!sc) return;
-    history.replaceState(null, "", location.pathname);
-    let pending = null;
-    try { pending = JSON.parse(localStorage.getItem(this.PENDING) || "null"); } catch {}
-    if (pending?.id && pending.id !== App.session.id && Store.get(pending.id)) App.load(Store.get(pending.id));
-
-    if (sc === "ok") {
-      const result = q.get("result");
-      if (result && this.apply(result)) return;
-      UI.shortcutDialog("paste");
-    } else if (sc === "cancel") {
-      toast("단축어 실행을 취소했습니다");
-    } else {
-      UI.banner(`단축어 실행 중 오류가 났습니다: ${q.get("errorMessage") || "알 수 없는 오류"}. 설정의 ‘단축어 만드는 법’을 확인해 주세요.`, "error", "shortcut");
-    }
-  },
-
-  /** 모델 출력을 회의록으로 적용한다. JSON이 깨져 있어도 최대한 살린다. */
-  apply(raw) {
-    raw = String(raw || "").trim();
-    if (!raw) return false;
-    const s = App.session;
-    let result = null;
-    const json = parseLooseJson(raw);
-    if (json && typeof json === "object") result = normalizeSummary(json);
-    if (!result || isEmptySummary(result)) {
-      // JSON이 아니면 글 그대로라도 남긴다.
-      result = { ...EMPTY_SUMMARY(), discussion: [{ topic: "AI 정리 결과", points: raw.split(/\n+/).map((l) => l.replace(/^[-*•\s]+/, "").trim()).filter(Boolean).slice(0, 60) }] };
-    }
-    result._lang = "ko";
-    result._engine = "shortcut";
-    s.ai = result;
-    s.aiAt = Date.now();
-    try { localStorage.removeItem(this.PENDING); } catch {}
-    App.view = "ai";
-    App.persist();
-    UI.renderAll();
-    UI.setTab("summary");
-    toast("아이폰 AI 회의록을 적용했습니다");
-    return true;
-  },
-};
-
-/** 모델이 코드블록·앞뒤 설명·둥근 따옴표를 섞어 써도 JSON을 꺼낸다. */
-function parseLooseJson(text) {
-  let t = text.replace(/```(?:json)?/gi, "").replace(/[“”]/g, '"').replace(/[‘’]/g, "'");
-  const start = t.indexOf("{");
-  if (start < 0) return null;
-  // 바깥쪽 중괄호의 짝을 문자열 안쪽은 건너뛰며 찾는다.
-  let depth = 0, inStr = false, esc = false;
-  for (let i = start; i < t.length; i++) {
-    const c = t[i];
-    if (inStr) { if (esc) esc = false; else if (c === "\\") esc = true; else if (c === '"') inStr = false; continue; }
-    if (c === '"') inStr = true;
-    else if (c === "{") depth++;
-    else if (c === "}" && --depth === 0) {
-      const body = t.slice(start, i + 1);
-      try { return JSON.parse(body); } catch {}
-      try { return JSON.parse(body.replace(/,\s*([}\]])/g, "$1")); } catch {} // 끝 쉼표 허용
-      return null;
-    }
-  }
-  return null;
-}
-
-function packLines(lines, maxChars) {
-  const out = [];
-  let cur = "";
-  for (const l of lines) {
-    if (cur.length + l.length + 1 > maxChars && cur) { out.push(cur); cur = l; }
-    else cur = cur ? `${cur}\n${l}` : l;
-  }
-  if (cur) out.push(cur);
-  return out;
-}
 
 function normalizeSummary(j) {
-  const arr = (v) => (Array.isArray(v) ? v : []).map((x) => (typeof x === "string" ? x.trim() : x)).filter(Boolean);
   const str = (v) => (typeof v === "string" ? v.trim() : "");
+  const strs = (v) => (Array.isArray(v) ? v : []).map(str).filter(Boolean);
+  const objs = (v) => (Array.isArray(v) ? v : []).filter((x) => x && typeof x === "object");
   return {
-    title: str(j.title),
-    overview: str(j.overview),
-    background: arr(j.background).filter((x) => typeof x === "string"),
-    discussion: arr(j.discussion).filter((d) => d && typeof d === "object").map((d) => ({ topic: str(d.topic), points: arr(d.points).filter((x) => typeof x === "string") })).filter((d) => d.topic || d.points.length),
-    decisions: arr(j.decisions).filter((x) => typeof x === "string"),
-    actions: arr(j.actions).filter((a) => a && typeof a === "object").map((a) => ({ task: str(a.task), owner: str(a.owner), due: str(a.due) })).filter((a) => a.task),
-    plans: arr(j.plans).filter((x) => typeof x === "string"),
-    issues: arr(j.issues).filter((x) => typeof x === "string"),
-    keywords: arr(j.keywords).filter((x) => typeof x === "string").slice(0, 6),
-  };
-}
-
-async function translateSummary(s, src, tgt) {
-  const t = (x) => (x ? Translate.translate(x, src, tgt) : "");
-  const all = (xs) => Promise.all(xs.map(t));
-  return {
-    title: await t(s.title),
-    overview: await t(s.overview),
-    background: await all(s.background),
-    discussion: await Promise.all(s.discussion.map(async (d) => ({ topic: await t(d.topic), points: await all(d.points) }))),
-    decisions: await all(s.decisions),
-    actions: await Promise.all(s.actions.map(async (a) => ({ task: await t(a.task), owner: a.owner && /^[A-Za-z\s]+$/.test(a.owner) ? a.owner : await t(a.owner), due: await t(a.due) }))),
-    plans: await all(s.plans),
-    issues: await all(s.issues),
-    keywords: await all(s.keywords),
+    title: str(j?.title),
+    overview: str(j?.overview),
+    background: strs(j?.background),
+    discussion: objs(j?.discussion).map((d) => ({ topic: str(d.topic), points: strs(d.points) })).filter((d) => d.topic || d.points.length),
+    decisions: strs(j?.decisions),
+    actions: objs(j?.actions).map((a) => ({ task: str(a.task), owner: str(a.owner), due: str(a.due) })).filter((a) => a.task),
+    plans: strs(j?.plans),
+    issues: strs(j?.issues),
+    keywords: strs(j?.keywords).slice(0, 6),
   };
 }
 
 /* ═════════════════════════════════════════════════════════════════
-   음성 인식 — Web Speech API
+   마이크 — 녹음 파일 + 받아쓰기용 음성 조각을 한 스트림에서 같이 만든다
    ─────────────────────────────────────────────────────────────────
-   실제 브라우저에서 부딪히는 문제들을 여기서 흡수한다.
-   - continuous여도 침묵이 길면 세션이 끝난다 → end에서 되살린다.
-   - "no-speech"는 오류가 아니라 정상적인 침묵이다 → 조용히 재시작.
-   - 재시작이 즉시 실패하며 반복되면 무한루프다 → 5회 연속이면 포기.
-   - stop() 직후에 마지막 확정 자막이 도착한다 → 종료 시 잠깐 기다린다.
+   음성 조각은 16kHz 모노 WAV. 단어 중간에서 끊기지 않도록 7초가 지난 뒤
+   말이 0.35초 끊기는 곳에서 자르고, 길어도 14초에서는 자른다.
+   조용한 조각(말소리가 거의 없는)은 보내지 않는다 — 무료 사용량 절약 +
+   조용한 오디오에서 AI가 말을 지어내는 것 방지.
+   ═════════════════════════════════════════════════════════════════ */
+
+class Mic {
+  constructor({ chunking = false, onChunk = null } = {}) {
+    this.chunking = chunking;
+    this.onChunk = onChunk;
+    this.paused = false;
+  }
+
+  static MIN_MS = 7000;
+  static MAX_MS = 14000;
+  static RATE = 16000;
+
+  async start(baseMs) {
+    this.stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true } });
+    this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+    try { await this.ctx.resume(); } catch {}
+    const src = this.ctx.createMediaStreamSource(this.stream);
+    this.analyser = this.ctx.createAnalyser();
+    this.analyser.fftSize = 512;
+    this.buf = new Uint8Array(this.analyser.fftSize);
+    src.connect(this.analyser);
+
+    if (this.chunking) {
+      this.clockMs = baseMs || 0;   // 녹음 기준 시각(일시정지 제외)
+      this.resetChunk();
+      this.floor = null;
+      this.ratio = this.ctx.sampleRate / Mic.RATE;
+      this.phase = 0;
+      this.proc = this.ctx.createScriptProcessor(4096, 1, 1);
+      const mute = this.ctx.createGain();
+      mute.gain.value = 0; // 스피커로는 내보내지 않는다(일부 브라우저는 destination에 이어야 처리가 돈다)
+      src.connect(this.proc);
+      this.proc.connect(mute);
+      mute.connect(this.ctx.destination);
+      this.proc.onaudioprocess = (e) => this.onAudio(e.inputBuffer.getChannelData(0));
+    }
+
+    if (Settings.v.saveAudio && "MediaRecorder" in window) {
+      const type = ["audio/webm;codecs=opus", "audio/mp4", "audio/webm"].find((t) => MediaRecorder.isTypeSupported?.(t));
+      try {
+        this.mr = new MediaRecorder(this.stream, { ...(type ? { mimeType: type } : {}), audioBitsPerSecond: 32000 });
+        this.parts = [];
+        this.mr.ondataavailable = (e) => e.data.size && this.parts.push(e.data);
+        this.mr.start(1000);
+      } catch { this.mr = null; }
+    }
+  }
+
+  resetChunk() {
+    this.blocks = [];
+    this.chunkMs = 0;
+    this.voicedMs = 0;
+    this.silentRun = 0;
+    this.chunkStart = this.clockMs;
+  }
+
+  onAudio(input) {
+    if (this.paused) return;
+    const blockMs = (input.length / this.ctx.sampleRate) * 1000;
+
+    // 16kHz로 줄인다(구간 평균)
+    const r = this.ratio, out = [];
+    let t = this.phase;
+    for (; t < input.length; t += r) {
+      const a = Math.floor(t), b = Math.min(input.length, Math.max(a + 1, Math.floor(t + r)));
+      let s = 0;
+      for (let k = a; k < b; k++) s += input[k];
+      out.push(s / (b - a));
+    }
+    this.phase = t - input.length;
+    this.blocks.push(Float32Array.from(out));
+
+    // 말소리 판정 — 주변 소음 수준(floor)을 따라가며 그보다 충분히 크면 말소리로 본다.
+    let sum = 0;
+    for (let i = 0; i < input.length; i++) sum += input[i] * input[i];
+    const rms = Math.sqrt(sum / input.length);
+    this.floor = this.floor == null ? rms : Math.min(rms, this.floor * 1.002 + 0.00002);
+    const silent = rms < Math.max(this.floor * 2.5, 0.004);
+
+    this.clockMs += blockMs;
+    this.chunkMs += blockMs;
+    if (!silent) this.voicedMs += blockMs;
+    this.silentRun = silent ? this.silentRun + blockMs : 0;
+
+    if ((this.chunkMs >= Mic.MIN_MS && this.silentRun >= 350) || this.chunkMs >= Mic.MAX_MS) this.emit();
+  }
+
+  /** 지금까지 모인 조각을 내보낸다. 말소리가 거의 없으면 버린다. */
+  emit() {
+    if (!this.chunking || !this.blocks?.length) return;
+    const voiced = this.voicedMs, start = this.chunkStart, dur = this.chunkMs;
+    const blocks = this.blocks;
+    this.resetChunk();
+    if (voiced < 500) return;
+    this.onChunk?.({ blob: encodeWav(blocks, Mic.RATE), startMs: start, durMs: dur });
+  }
+
+  level() {
+    if (!this.analyser || this.paused) return 0;
+    this.analyser.getByteTimeDomainData(this.buf);
+    let sum = 0;
+    for (const v of this.buf) { const x = (v - 128) / 128; sum += x * x; }
+    return Math.min(1, Math.sqrt(sum / this.buf.length) * 4);
+  }
+
+  pause() {
+    this.emit(); // 말하던 부분은 먼저 보낸다
+    this.paused = true;
+    try { this.mr?.state === "recording" && this.mr.pause(); } catch {}
+  }
+
+  resume() {
+    this.paused = false;
+    this.resetChunk();
+    try { this.mr?.state === "paused" && this.mr.resume(); } catch {}
+  }
+
+  /** 끝낸다. 남은 조각을 보내고 녹음 파일(Blob)을 돌려준다. */
+  async stop() {
+    if (!this.paused) this.emit();
+    this.paused = true;
+    let blob = null;
+    if (this.mr && this.mr.state !== "inactive") {
+      blob = await new Promise((resolve) => {
+        this.mr.onstop = () => resolve(new Blob(this.parts, { type: this.mr.mimeType || "audio/webm" }));
+        this.mr.stop();
+      });
+    }
+    try { this.proc && (this.proc.onaudioprocess = null); } catch {}
+    this.stream?.getTracks().forEach((t) => t.stop());
+    try { await this.ctx?.close(); } catch {}
+    return blob && blob.size ? blob : null;
+  }
+}
+
+/** Float32 조각들 → 16bit PCM WAV Blob */
+function encodeWav(blocks, rate) {
+  const n = blocks.reduce((a, b) => a + b.length, 0);
+  const buf = new ArrayBuffer(44 + n * 2);
+  const v = new DataView(buf);
+  const w = (o, s) => { for (let i = 0; i < s.length; i++) v.setUint8(o + i, s.charCodeAt(i)); };
+  w(0, "RIFF"); v.setUint32(4, 36 + n * 2, true); w(8, "WAVE");
+  w(12, "fmt "); v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+  v.setUint32(24, rate, true); v.setUint32(28, rate * 2, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true);
+  w(36, "data"); v.setUint32(40, n * 2, true);
+  let o = 44;
+  for (const b of blocks) {
+    for (let i = 0; i < b.length; i++, o += 2) {
+      const s = Math.max(-1, Math.min(1, b[i]));
+      v.setInt16(o, s < 0 ? s * 0x8000 : s * 0x7fff, true);
+    }
+  }
+  return new Blob([buf], { type: "audio/wav" });
+}
+
+/* ═════════════════════════════════════════════════════════════════
+   키가 없을 때만 쓰는 브라우저 음성 인식 (Web Speech)
+   아이폰 Safari에서는 연속 모드가 깨져 있어 한 마디씩 이어 붙인다.
    ═════════════════════════════════════════════════════════════════ */
 
 const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
 
-/** 아이폰·아이패드(iPadOS는 데스크톱 Safari로 위장하므로 터치 지점으로 구분). */
-const IS_IOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
-
 class Listener {
-  constructor(handlers) {
-    this.h = handlers;
-    this.wants = false;
-    this.rec = null;
-    this.lang = "ko";
-    this.local = false;
-    this.fastFails = 0;
-    this.startedAt = 0;
-    this.timer = null;
-  }
+  constructor(handlers) { this.h = handlers; this.wants = false; this.fastFails = 0; }
 
-  /** 기기 내 인식이 바로 쓸 수 있으면 true. 내려받기가 필요하면 백그라운드로 받아 두고 이번엔 false. */
-  async canLocal(lang) {
-    if (!Settings.v.localSpeech || !SR || typeof SR.available !== "function") return false;
-    try {
-      const a = await SR.available({ langs: [LANGS[lang].bcp], processLocally: true });
-      if (a === "available") return true;
-      if ((a === "downloadable" || a === "downloading") && typeof SR.install === "function") {
-        SR.install({ langs: [LANGS[lang].bcp], processLocally: true }).catch(() => {});
-        App.speechNote = "기기 내 음성 인식 모델을 내려받는 중 — 다음 녹음부터 적용";
-      }
-    } catch {}
-    return false;
-  }
-
-  async start(lang) {
+  start(lang) {
     this.lang = lang;
     this.wants = true;
     this.fastFails = 0;
-    this.local = await this.canLocal(lang);
     this._begin();
   }
 
   _begin() {
     if (!this.wants) return;
     const r = new SR();
-    // 인식기마다 언어를 고정해 둔다. 녹음 중 언어를 바꾸면 이전 인식기의 마지막
-    // 자막이 뒤늦게 도착하는데, this.lang을 쓰면 그 줄이 새 언어로 잘못 붙는다.
     const lang = this.lang;
     r.lang = LANGS[lang].bcp;
-    // iOS Safari는 연속 모드가 깨져 있다(텍스트가 안 오거나 몇 초 만에 끊긴다는 보고가 많다).
-    // 그래서 iOS에서는 한 마디씩 짧게 인식하고 끝날 때마다 바로 다시 시작한다.
     r.continuous = !IS_IOS;
     r.interimResults = true;
     r.maxAlternatives = 1;
-    if (this.local) { try { r.processLocally = true; } catch {} }
     this.gotResult = false;
     this.lastEventAt = Date.now();
-
-    // iOS 감시견 — 오류도 결과도 없이 멈춰 버린 세션을 끊고 다시 시작한다.
     clearInterval(this.watchdog);
     if (IS_IOS) {
       this.watchdog = setInterval(() => {
@@ -1208,7 +973,6 @@ class Listener {
         }
       }, 2000);
     }
-
     r.onresult = (e) => {
       this.gotResult = true;
       this.lastEventAt = Date.now();
@@ -1223,32 +987,20 @@ class Listener {
       this.h.onInterim(interim);
     };
     r.onerror = (e) => {
-      const err = e.error;
-      if (err === "no-speech" || err === "aborted") return;
-      if (this.local && (err === "language-not-supported" || err === "service-not-allowed")) {
-        this.local = false; // 기기 내 처리가 안 되면 기본 방식으로 다시
-        return;
-      }
-      if (err === "not-allowed" || err === "service-not-allowed") {
+      if (e.error === "no-speech" || e.error === "aborted") return;
+      if (e.error === "not-allowed" || e.error === "service-not-allowed") {
         this.wants = false;
-        this.h.onError("마이크 사용이 거부되었습니다. 주소창의 자물쇠 아이콘에서 마이크를 허용한 뒤 다시 시도해 주세요.", true);
-      } else if (err === "network") {
-        this.h.onError("음성 인식 서버에 연결할 수 없습니다. 네트워크를 확인해 주세요. 자동으로 다시 시도합니다.", false);
-      } else if (err === "audio-capture") {
-        this.h.onError("마이크를 쓸 수 없습니다. 다른 앱이 쓰고 있거나, 기기가 녹음과 음성 인식을 동시에 못 하는 경우입니다. 설정에서 ‘녹음 파일 저장’을 끄고 다시 시도해 보세요.", false);
-      } else if (err === "language-not-supported") {
-        this.wants = false;
-        this.h.onError(`이 브라우저는 ${LANGS[lang].label} 음성 인식을 지원하지 않습니다.`, true);
+        this.h.onError("마이크 사용이 거부되었습니다. 주소창의 자물쇠(aA) 메뉴에서 마이크를 허용해 주세요.", true);
+      } else if (e.error === "network") {
+        this.h.onError("음성 인식 서버에 연결할 수 없습니다. 자동으로 다시 시도합니다.", false);
       } else {
-        this.h.onError(`음성 인식 오류: ${err}`, false);
+        this.h.onError(`음성 인식 오류: ${e.error}`, false);
       }
     };
     r.onend = () => {
       this.h.onInterim("");
       if (this.rec === r) clearInterval(this.watchdog);
-      if (!this.wants) { this.h.onStopped?.(); return; }
-      // 결과를 받고 끝난 세션은 정상이다(iOS는 한 마디마다 끝난다). 결과 없이 1초 안에
-      // 끝난 경우만 "즉시 실패"로 센다.
+      if (!this.wants) return;
       this.fastFails = !this.gotResult && Date.now() - this.startedAt < 1000 ? this.fastFails + 1 : 0;
       if (this.fastFails >= 5) {
         this.wants = false;
@@ -1257,83 +1009,13 @@ class Listener {
       }
       this.timer = setTimeout(() => this._begin(), this.fastFails ? 1500 : 150);
     };
-
     this.rec = r;
     this.startedAt = Date.now();
     try { r.start(); } catch (e) { this.h.onError(`음성 인식을 시작하지 못했습니다: ${e.message}`, false); }
   }
 
-  /** 마지막 확정 자막을 받을 수 있게 stop()으로 끝낸다. */
-  stop() {
-    this.wants = false;
-    clearTimeout(this.timer);
-    clearInterval(this.watchdog);
-    try { this.rec?.stop(); } catch {}
-  }
-
-  abort() {
-    this.wants = false;
-    clearTimeout(this.timer);
-    clearInterval(this.watchdog);
-    try { this.rec?.abort(); } catch {}
-  }
-
-  /** 녹음 중 언어를 바꾼다(통역 회의에서 화자가 바뀔 때). */
-  switchLang(lang) {
-    if (!this.wants) { this.lang = lang; return; }
-    this.lang = lang;
-    try { this.rec?.stop(); } catch {} // onend에서 새 언어로 다시 시작된다
-  }
-}
-
-/* ───────────────────────── 녹음 파일 ───────────────────────── */
-
-class AudioRecorder {
-  constructor() { this.stream = null; this.mr = null; this.chunks = []; this.analyser = null; this.ctx = null; }
-
-  async start() {
-    this.stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true } });
-    try {
-      this.ctx = new (window.AudioContext || window.webkitAudioContext)();
-      const src = this.ctx.createMediaStreamSource(this.stream);
-      this.analyser = this.ctx.createAnalyser();
-      this.analyser.fftSize = 512;
-      src.connect(this.analyser);
-      this.buf = new Uint8Array(this.analyser.fftSize);
-    } catch {}
-    if (Settings.v.saveAudio && "MediaRecorder" in window) {
-      const type = ["audio/webm;codecs=opus", "audio/mp4", "audio/webm"].find((t) => MediaRecorder.isTypeSupported?.(t));
-      this.mr = new MediaRecorder(this.stream, { ...(type ? { mimeType: type } : {}), audioBitsPerSecond: 32000 });
-      this.chunks = [];
-      this.mr.ondataavailable = (e) => e.data.size && this.chunks.push(e.data);
-      this.mr.start(1000);
-    }
-  }
-
-  level() {
-    if (!this.analyser) return 0;
-    this.analyser.getByteTimeDomainData(this.buf);
-    let sum = 0;
-    for (const v of this.buf) { const x = (v - 128) / 128; sum += x * x; }
-    return Math.min(1, Math.sqrt(sum / this.buf.length) * 4);
-  }
-
-  pause() { try { this.mr?.state === "recording" && this.mr.pause(); } catch {} }
-  resume() { try { this.mr?.state === "paused" && this.mr.resume(); } catch {} }
-
-  async stop() {
-    let blob = null;
-    if (this.mr && this.mr.state !== "inactive") {
-      blob = await new Promise((resolve) => {
-        this.mr.onstop = () => resolve(new Blob(this.chunks, { type: this.mr.mimeType || "audio/webm" }));
-        this.mr.stop();
-      });
-    }
-    this.stream?.getTracks().forEach((t) => t.stop());
-    try { await this.ctx?.close(); } catch {}
-    this.stream = this.mr = this.analyser = this.ctx = null;
-    return blob && blob.size ? blob : null;
-  }
+  stop() { this.wants = false; clearTimeout(this.timer); clearInterval(this.watchdog); try { this.rec?.stop(); } catch {} }
+  abort() { this.wants = false; clearTimeout(this.timer); clearInterval(this.watchdog); try { this.rec?.abort(); } catch {} }
 }
 
 /* ═════════════════════════════════════════════════════════════════
@@ -1342,41 +1024,32 @@ class AudioRecorder {
 
 function newSession() {
   return {
-    id: uid(),
-    title: "",
-    createdAt: Date.now(),
-    durationMs: 0,
-    speechLang: Settings.v.speechLang,
-    targetLang: Settings.v.targetLang,
-    segments: [],
-    rule: null,
-    ai: null,
-    audioParts: 0,
+    id: uid(), title: "", createdAt: Date.now(), durationMs: 0,
+    speechLang: Settings.v.speechLang, targetLang: Settings.v.foreign,
+    segments: [], rule: null, ai: null, audioParts: 0,
   };
-}
-/** 번역 짝은 {한국어, 영어·일본어·중국어 중 하나}만 허용한다. */
-function sanitizeLangs() {
-  const v = Settings.v;
-  if (!LANGS[v.speechLang]) v.speechLang = "ko";
-  if (v.speechLang === "ko") { if (v.targetLang !== "off" && !FOREIGN.includes(v.targetLang)) v.targetLang = "en"; }
-  else if (v.targetLang !== "off") v.targetLang = "ko";
 }
 function autoTitle(s) {
   return s.ai?.title || s.rule?.title || `${fmtDate(s.createdAt).slice(0, 10)} 회의`;
 }
+function autoTitleOrUser() { return App.session.title || autoTitle(App.session); }
 
 const App = {
   session: null,
   state: "idle",          // idle | recording | paused | finishing
-  view: "rule",           // rule | ai
+  mode: "gemini",         // gemini | browser — 녹음을 시작할 때 정해진다
+  view: "rule",
   interim: "",
   accMs: 0,
   segStart: 0,
+  mic: null,
   listener: null,
-  audio: null,
   wakeLock: null,
-  speechNote: "",
-  aiState: { running: false, progress: 0, label: "", error: "" },
+  sttQueue: Promise.resolve(),
+  pendingChunks: 0,
+  failedChunks: [],       // 받아쓰기에 실패한 음성 조각 — 이 페이지를 닫기 전까지 다시 시도할 수 있다
+  sttBlockedUntil: 0,
+  aiState: { running: false, error: "" },
   dirty: false,
 
   elapsed() { return this.accMs + (this.state === "recording" ? Date.now() - this.segStart : 0); },
@@ -1385,60 +1058,33 @@ const App = {
     Settings.load();
     UI.bind();
     const last = Store.list()[0];
-    // 마지막 회의가 비어 있지 않으면 그걸 열어 둔다. (새로고침해도 내용이 그대로)
     this.load(last ? Store.get(last.id) : null);
-    Shortcut.handleReturn(); // 단축어에서 돌아온 경우 결과를 받는다
-    Caps.refresh();
     setInterval(() => this.tick(), 250);
     setInterval(() => this.refreshRule(), 1500);
     window.addEventListener("beforeunload", (e) => {
-      if (this.state === "recording" || this.state === "paused") { e.preventDefault(); e.returnValue = ""; }
+      if (this.state !== "idle" || this.pendingChunks > 0) { e.preventDefault(); e.returnValue = ""; }
     });
     document.addEventListener("visibilitychange", () => {
       if (document.visibilityState === "visible" && this.state === "recording") this.lockScreen();
     });
-    document.addEventListener("click", () => {
-      if (this.retryOnClick) { this.retryOnClick = false; this.retranslate(); }
-    }, true);
   },
 
   load(session) {
     this.session = session || newSession();
     const s = this.session;
-    // 저장된 회의를 열면 그 회의의 언어 설정을 따른다(이어서 녹음할 때 맞도록).
-    if (s.segments.length) { Settings.v.speechLang = s.speechLang; Settings.v.targetLang = s.targetLang; }
-    sanitizeLangs();
-    s.speechLang = Settings.v.speechLang;
-    s.targetLang = Settings.v.targetLang;
-    this.accMs = this.session.durationMs || 0;
-    this.view = this.session.ai ? "ai" : "rule";
-    this.aiState = { running: false, progress: 0, label: "", error: "" };
-    if (!this.session.rule && this.session.segments.length) this.session.rule = ruleSummary(this.session);
+    if (s.segments.length && (FOREIGN.includes(s.targetLang) || s.targetLang === "off")) Settings.v.foreign = s.targetLang;
+    this.accMs = s.durationMs || 0;
+    this.view = s.ai ? "ai" : "rule";
+    this.aiState = { running: false, error: "" };
+    this.failedChunks = [];
+    if (!s.rule && s.segments.length) s.rule = ruleSummary(s);
     UI.renderAll();
   },
 
   tick() {
     if (this.state === "recording" || this.state === "paused") {
-      const level = this.state === "recording" ? this.audio?.level() || 0 : 0;
       UI.renderClock();
-      UI.renderMeter(level);
-      this.checkMicConflict(level);
-    }
-  },
-
-  /**
-   * 마이크 충돌 진단. 녹음 파일용 마이크 스트림과 음성 인식이 마이크를 동시에 못 쓰는
-   * 기기(일부 아이폰·안드로이드)에서는 "소리는 들어오는데 자막이 안 나온다".
-   * 그 증상을 감지하면 녹음 파일 저장을 끄라고 안내한다.
-   */
-  checkMicConflict(level) {
-    if (this.state !== "recording" || this.micWarned || !this.audio?.mr) return;
-    if (level > 0.08) this.loudMs = (this.loudMs || 0) + 250;
-    const sinceStart = Date.now() - (this.recStartedAt || Date.now());
-    // 15초 동안 소리가 4초 넘게 들렸는데 자막이 한 줄도 없으면 정상이 아니다.
-    if (sinceStart > 15000 && this.loudMs >= 4000 && this.session.segments.length === this.segsAtStart && !this.interim) {
-      this.micWarned = true;
-      UI.banner("소리는 들어오는데 자막이 나오지 않습니다. 이 기기는 녹음 파일 저장과 음성 인식이 마이크를 동시에 못 쓰는 것 같습니다. 녹음을 종료하고 설정에서 ‘녹음 파일 저장’을 끈 뒤 다시 시작해 주세요.", "warn", "mic-conflict");
+      UI.renderMeter(this.state === "recording" ? this.mic?.level() || 0 : 0);
     }
   },
 
@@ -1458,44 +1104,38 @@ const App = {
   /* ───────── 녹음 ───────── */
 
   async start() {
-    if (!SR) {
-      UI.banner("이 브라우저는 음성 인식을 지원하지 않습니다. 데스크톱 Chrome·Edge나 iPhone/Mac의 Safari에서 열어 주세요.", "error", "no-sr");
+    if (!Settings.hasKey() && !Settings.v.noKeyMode) { UI.showSetup(true); $("#keyInput").focus(); return; }
+    this.mode = Settings.hasKey() ? "gemini" : "browser";
+    if (this.mode === "browser" && !SR) {
+      UI.banner("Gemini 키가 없으면 브라우저 음성 인식을 쓰는데, 이 브라우저는 지원하지 않습니다. 설정에서 Gemini 키를 넣어 주세요.", "error", "no-sr");
       return;
     }
     const s = this.session;
+    s.targetLang = Settings.v.foreign;
     s.speechLang = Settings.v.speechLang;
-    s.targetLang = Settings.v.targetLang;
-    // 사용자 클릭 직후에 번역 모델을 준비해야 다운로드가 허용된다.
-    if (s.targetLang !== "off") Translate.prepare(s.speechLang, s.targetLang).catch(() => {});
-
     UI.clearBanner();
-    this.audio = new AudioRecorder();
+
+    this.mic = new Mic({ chunking: this.mode === "gemini", onChunk: (c) => this.enqueueChunk(c) });
     try {
-      await this.audio.start();
+      await this.mic.start(this.accMs);
     } catch (e) {
-      this.audio = null;
-      if (e?.name === "NotAllowedError") {
-        UI.banner("마이크 사용이 거부되었습니다. 주소창의 자물쇠 아이콘에서 마이크를 허용한 뒤 다시 시도해 주세요.", "error", "mic");
-        return;
-      }
-      // 마이크 스트림을 못 열어도 음성 인식은 따로 시도한다.
+      this.mic = null;
+      UI.banner(e?.name === "NotAllowedError"
+        ? "마이크 사용이 거부되었습니다. 주소창의 자물쇠(아이폰은 aA) 메뉴에서 마이크를 허용한 뒤 다시 시도해 주세요."
+        : `마이크를 열지 못했습니다: ${e?.message || e}`, "error", "mic");
+      return;
     }
 
-    this.listener = new Listener({
-      onFinal: (text, lang) => this.addSegment(text, lang),
-      onInterim: (t) => { this.interim = t; UI.renderInterim(); },
-      onError: (msg, fatal) => {
-        UI.banner(msg, fatal ? "error" : "warn", "sr");
-        if (fatal) this.finish();
-      },
-    });
+    if (this.mode === "browser") {
+      this.listener = new Listener({
+        onFinal: (text, lang) => this.addSegments([{ text, lang, translation: "" }], this.elapsed()),
+        onInterim: (t) => { this.interim = t; UI.renderInterim(); },
+        onError: (msg, fatal) => { UI.banner(msg, fatal ? "error" : "warn", "sr"); if (fatal) this.finish(); },
+      });
+      this.listener.start(s.speechLang);
+    }
     this.state = "recording";
     this.segStart = Date.now();
-    this.recStartedAt = Date.now();
-    this.segsAtStart = s.segments.length;
-    this.loudMs = 0;
-    this.micWarned = false;
-    await this.listener.start(s.speechLang);
     this.lockScreen();
     UI.renderAll();
   },
@@ -1504,17 +1144,17 @@ const App = {
     if (this.state !== "recording") return;
     this.accMs = this.elapsed();
     this.state = "paused";
+    this.mic?.pause();
     this.listener?.stop();
-    this.audio?.pause();
     UI.renderAll();
   },
 
-  async resume() {
+  resume() {
     if (this.state !== "paused") return;
     this.state = "recording";
     this.segStart = Date.now();
-    this.audio?.resume();
-    await this.listener.start(Settings.v.speechLang);
+    this.mic?.resume();
+    if (this.mode === "browser") this.listener?.start(this.session.speechLang);
     UI.renderAll();
   },
 
@@ -1524,136 +1164,129 @@ const App = {
     this.state = "finishing";
     this.listener?.stop();
     UI.renderAll();
-    await sleep(1200); // stop() 뒤에 오는 마지막 확정 자막을 기다린다
-    this.listener?.abort();
-    this.interim = "";
+    if (this.mode === "browser") { await sleep(1200); this.listener?.abort(); this.interim = ""; }
 
-    const blob = await this.audio?.stop();
-    this.audio = null;
+    const blob = await this.mic?.stop(); // 남은 음성 조각도 여기서 보내진다
+    this.mic = null;
     this.releaseScreen();
     const s = this.session;
     if (blob) {
-      try { await Audio_.put(s.id, s.audioParts || 0, blob); s.audioParts = (s.audioParts || 0) + 1; }
+      try { await AudioDB.put(s.id, s.audioParts || 0, blob); s.audioParts = (s.audioParts || 0) + 1; }
       catch { UI.banner("녹음 파일을 저장하지 못했습니다(저장 공간 부족일 수 있음).", "warn", "audio"); }
     }
-
-    this.state = "idle";
     s.durationMs = this.accMs;
-    // 남은 번역을 잠깐 기다리되, 번역이 멈춰도 종료는 반드시 끝나야 한다.
-    await withTimeout(Translate.queue, 8000).catch(() => {});
+    this.persist();
+
+    // 받아쓰기가 남아 있으면 끝날 때까지 기다린다(화면에 진행 표시)
+    if (this.pendingChunks > 0) {
+      UI.renderChips();
+      await withTimeout(this.sttQueue, 180000).catch(() => {});
+    }
+    this.state = "idle";
     s.rule = ruleSummary(s);
     this.persist();
     UI.renderAll();
-    // 휴대폰에서는 녹음이 끝나면 정리 탭으로 넘겨 준다. 거기에 AI 정리 버튼이 있다.
-    if (s.segments.length) UI.setTab("summary");
 
     if (!s.segments.length) {
-      UI.banner("인식된 말이 없습니다. 마이크가 켜져 있는지, 말하는 언어가 맞는지 확인해 주세요.", "warn", "empty");
+      UI.banner(this.failedChunks.length
+        ? "받아쓰기를 하지 못했습니다. 아래 ‘못 받아쓴 구간 다시’를 눌러 주세요."
+        : "인식된 말이 없습니다. 마이크가 켜져 있는지 확인해 주세요.", "warn", "empty");
       return;
     }
-    // 기기 내 AI가 바로 쓸 수 있으면 자동으로 정리한다. (모델 다운로드가 필요하면 사용자가 직접 누르게 둔다)
-    if ((await AI.baseStatus()) === "available") this.runAi();
+    UI.setTab("summary");
+    if (Settings.hasKey()) this.runAi();
   },
 
-  /** 번역 짝은 언제나 {한국어, 외국어 하나}. 줄의 언어를 보고 반대편으로 옮긴다. */
-  targetFor(lang) {
-    const s = this.session;
-    if (s.targetLang === "off") return "";
-    const foreign = s.speechLang === "ko" ? s.targetLang : s.speechLang;
-    return lang === "ko" ? foreign : "ko";
-  },
+  /* ───────── 받아쓰기 (Gemini) ───────── */
 
-  addSegment(text, lang) {
-    const s = this.session;
-    const seg = { id: uid(), atMs: this.elapsed(), text, lang, tr: "", trLang: "", trStatus: "" };
-    const tgt = this.targetFor(lang);
-    if (tgt) seg.trStatus = "pending";
-    s.segments.push(seg);
-    UI.appendSegment(seg);
-    this.dirty = true;
-    if (tgt) Translate.enqueue(() => this.translateSeg(seg, tgt));
-  },
-
-  async translateSeg(seg, tgt) {
-    try {
-      seg.tr = await Translate.translate(seg.text, seg.lang, tgt);
-      seg.trLang = tgt;
-      seg.trStatus = "done";
-    } catch (e) {
-      seg.trStatus = "error";
-      const needsClick = Translate.status[`${seg.lang}>${tgt}`]?.state === "needs-click";
-      seg.trError = needsClick ? "번역 모델을 받으려면 화면을 한 번 눌러 주세요" : "번역 실패";
-      // 모델 다운로드는 사용자 동작이 있어야 시작된다. 다음 클릭에서 다시 시도한다.
-      if (needsClick) this.retryOnClick = true;
-    }
-    UI.updateSegment(seg);
-    this.dirty = true;
-  },
-
-  /** 번역이 실패했거나 빠진 줄을 다시 번역한다. 클릭 핸들러 안에서 불러야 모델 다운로드가 허용된다. */
-  retranslate() {
-    const todo = [];
-    for (const seg of this.session.segments) {
-      const tgt = this.targetFor(seg.lang);
-      if (!tgt || (seg.trStatus === "done" && seg.trLang === tgt)) continue;
-      todo.push([seg, tgt]);
-    }
-    // 사용자 동작이 살아 있을 때 짝마다 번역기를 먼저 만든다.
-    for (const key of new Set(todo.map(([g, t]) => `${g.lang}>${t}`))) {
-      const [a, b] = key.split(">");
-      Translate.prepare(a, b).catch(() => {});
-    }
-    for (const [seg, tgt] of todo) {
-      seg.trStatus = "pending";
-      UI.updateSegment(seg);
-      Translate.enqueue(() => this.translateSeg(seg, tgt));
-    }
-  },
-
-  setLangs(speech, target) {
-    Settings.v.speechLang = speech;
-    Settings.v.targetLang = target;
-    Settings.save();
-    const s = this.session;
-    s.speechLang = speech;
-    s.targetLang = target;
-    if (target !== "off") Translate.prepare(speech, target).catch(() => {});
-    if (this.state === "recording") this.listener?.switchLang(speech);
-    UI.renderLangs();
+  enqueueChunk(chunk) {
+    this.pendingChunks++;
     UI.renderChips();
-    Caps.refresh();
+    this.sttQueue = this.sttQueue.then(() => this.processChunk(chunk)).catch(() => {});
   },
 
-  async lockScreen() {
-    try { this.wakeLock = await navigator.wakeLock?.request("screen"); } catch {}
+  async processChunk(chunk, attempt = 0) {
+    try {
+      // 하루 사용량을 다 쓴 뒤에는 보내지 않고 모아 둔다
+      if (Date.now() < this.sttBlockedUntil) { this.failedChunks.push(chunk); return; }
+      const b64 = await blobToBase64(chunk.blob);
+      const segs = await Gemini.transcribe(b64, this.session.targetLang || "off");
+      this.addSegments(segs, chunk.startMs);
+      UI.clearBanner("stt");
+    } catch (e) {
+      const code = e?.code;
+      if ((code === "rate" || code === "server" || code === "network") && attempt < 3) {
+        if (code === "rate") UI.banner(e.message, "warn", "stt");
+        await sleep(e.retryMs || 4000 * (attempt + 1));
+        return await this.processChunk(chunk, attempt + 1); // await: 재시도가 끝난 뒤에야 finally가 돌도록
+      }
+      this.failedChunks.push(chunk);
+      if (code === "daily") this.sttBlockedUntil = Date.now() + 60 * 60 * 1000;
+      UI.banner(e?.message || "받아쓰기에 실패했습니다.", code === "key" ? "error" : "warn", "stt");
+    } finally {
+      if (attempt === 0) {
+        this.pendingChunks--;
+        UI.renderChips();
+        UI.renderFoot();
+      }
+    }
   },
+
+  /** 실패한 음성 조각을 다시 받아쓴다. 시간 순서대로 끼워 넣는다. */
+  retryFailed() {
+    const list = this.failedChunks.splice(0);
+    this.sttBlockedUntil = 0;
+    list.sort((a, b) => a.startMs - b.startMs).forEach((c) => this.enqueueChunk(c));
+    UI.renderFoot();
+  },
+
+  addSegments(segs, startMs) {
+    if (!segs.length) return;
+    const s = this.session;
+    segs.forEach((g, i) => {
+      const seg = {
+        id: uid(), atMs: startMs + i * 10, text: g.text, lang: g.lang,
+        tr: g.translation || "", trLang: g.translation ? (g.lang === "ko" ? s.targetLang : "ko") : "", trStatus: g.translation ? "done" : "",
+      };
+      // 다시 받아쓴 구간이 앞 시간대일 수 있으니 시간 순서를 지킨다
+      let at = s.segments.length;
+      while (at > 0 && s.segments[at - 1].atMs > seg.atMs) at--;
+      s.segments.splice(at, 0, seg);
+      if (at === s.segments.length - 1) UI.appendSegment(seg);
+      else UI.renderTranscript();
+    });
+    this.dirty = true;
+    this.persist();
+  },
+
+  setForeign(code) {
+    Settings.v.foreign = code;
+    Settings.save();
+    this.session.targetLang = code; // 다음 음성 조각부터 적용
+    UI.renderChips();
+  },
+
+  async lockScreen() { try { this.wakeLock = await navigator.wakeLock?.request("screen"); } catch {} },
   releaseScreen() { try { this.wakeLock?.release(); } catch {} this.wakeLock = null; },
 
-  /* ───────── AI 정리 ───────── */
+  /* ───────── AI 회의록 ───────── */
 
   async runAi() {
     const s = this.session;
     if (this.aiState.running || !s.segments.length) return;
+    if (!Settings.hasKey()) { UI.showSetup(true); return; }
     this.view = "ai";
-    this.aiState = { running: true, progress: 0, label: "준비 중", error: "" };
+    this.aiState = { running: true, error: "" };
     UI.renderSummary();
     UI.renderFoot();
     try {
-      const result = await AI.summarize(s, (p, label) => {
-        this.aiState.progress = p;
-        this.aiState.label = label;
-        UI.renderSummary();
-      });
-      s.ai = result;
+      s.ai = await Gemini.minutes(s);
       s.aiAt = Date.now();
-      this.aiState = { running: false, progress: 1, label: "", error: "" };
       this.persist();
     } catch (e) {
-      const msg = e?.name === "NotAllowedError"
-        ? "AI 모델을 처음 받으려면 버튼을 직접 눌러야 합니다. ‘AI로 정리하기’를 눌러 주세요."
-        : e?.message || "AI 정리에 실패했습니다.";
-      this.aiState = { running: false, progress: 0, label: "", error: msg };
+      this.aiState.error = e?.message || "회의록을 만들지 못했습니다.";
     }
+    this.aiState.running = false;
     UI.renderAll();
   },
 
@@ -1677,44 +1310,33 @@ const App = {
     UI.renderSessions();
   },
 
-  /** 마이크 없이 써 볼 수 있는 샘플 회의 */
+  /** 마이크 없이 써 볼 수 있는 샘플 회의 (번역이 붙은 상태) */
   loadDemo() {
-    const lines = [
-      "네 그럼 오늘 회의 시작하겠습니다.",
-      "이번 회의 목적은 결제 오류 대응 방안과 신규 화면 디자인을 정하는 겁니다.",
-      "지난주부터 결제 모듈에서 타임아웃이 계속 발생하고 있습니다.",
-      "로그를 보니까 하루에 40건 정도이고 PG사 응답이 3초를 넘으면 실패하는 구조입니다.",
-      "타임아웃을 5초로 늘리는 건 어떤가요?",
-      "그건 근본 해결은 아닌 것 같습니다.",
-      "일단 재시도 로직을 넣는 걸로 하죠.",
-      "김대리가 이번 주 금요일까지 재시도 로직 확인해서 공유해 주세요.",
-      "네 알겠습니다.",
-      "다음은 신규 화면 디자인 건입니다.",
-      "시안이 두 개 나왔는데 A안이 더 깔끔하다는 의견이 많았습니다.",
-      "저는 B안이 정보 밀도가 높아서 더 낫다고 봅니다.",
-      "사용자 테스트를 5명 정도 해보고 정하는 게 어떨까요?",
-      "좋습니다. A안으로 가되 테스트 결과를 보고 조정하는 걸로 확정하겠습니다.",
-      "박과장님이 다음 주 월요일까지 테스트 참가자 모집해 주세요.",
-      "마지막으로 예산입니다. 이번 분기 남은 예산이 1200만원입니다.",
-      "서버 증설에 800만원 정도 들 것 같습니다.",
-      "나머지 400만원은 어디에 쓸지 아직 정하지 못했습니다.",
-      "그건 다음 회의에서 다시 논의하죠.",
-      "앞으로 결제 안정화가 끝나면 다음 달에 신규 화면을 단계적으로 배포할 계획입니다.",
-      "네 오늘은 여기까지 하겠습니다. 수고하셨습니다.",
-    ];
     if (this.state !== "idle") return;
+    const lines = [
+      ["네 그럼 오늘 회의 시작하겠습니다.", "Okay, let's start today's meeting."],
+      ["이번 회의 목적은 결제 오류 대응 방안과 신규 화면 디자인을 정하는 겁니다.", "The purpose of this meeting is to decide how to handle payment errors and the new screen design."],
+      ["지난주부터 결제 모듈에서 타임아웃이 계속 발생하고 있습니다.", "Since last week, the payment module has kept timing out."],
+      ["로그를 보니까 하루에 40건 정도이고 PG사 응답이 3초를 넘으면 실패하는 구조입니다.", "The logs show about 40 a day; it fails whenever the payment gateway takes more than 3 seconds."],
+      ["타임아웃을 5초로 늘리는 건 어떤가요?", "How about raising the timeout to 5 seconds?"],
+      ["일단 재시도 로직을 넣는 걸로 하죠.", "Let's add retry logic for now."],
+      ["김대리가 이번 주 금요일까지 재시도 로직 확인해서 공유해 주세요.", "Kim, please check the retry logic and share it by this Friday."],
+      ["시안이 두 개 나왔는데 A안이 더 깔끔하다는 의견이 많았습니다.", "We have two drafts, and many felt draft A is cleaner."],
+      ["좋습니다. A안으로 가되 테스트 결과를 보고 조정하는 걸로 확정하겠습니다.", "Good. We'll go with draft A and adjust based on test results."],
+      ["박과장님이 다음 주 월요일까지 테스트 참가자 모집해 주세요.", "Mr. Park, please recruit test participants by next Monday."],
+      ["나머지 400만원은 어디에 쓸지 아직 정하지 못했습니다.", "We haven't decided how to use the remaining 4 million won."],
+      ["그건 다음 회의에서 다시 논의하죠.", "Let's discuss that again at the next meeting."],
+      ["앞으로 결제 안정화가 끝나면 다음 달에 신규 화면을 단계적으로 배포할 계획입니다.", "Once payments are stable, we plan to roll out the new screen gradually next month."],
+    ];
     const s = newSession();
     s.title = "샘플 — 결제 오류·신규 화면 회의";
-    s.speechLang = "ko";
-    s.targetLang = Settings.v.targetLang === "off" || Settings.v.speechLang !== "ko" ? "en" : Settings.v.targetLang;
-    s.segments = lines.map((text, i) => ({ id: uid(), atMs: i * 41000, text, lang: "ko", tr: "", trLang: "", trStatus: "" }));
-    s.durationMs = lines.length * 41000;
+    s.targetLang = "en";
+    s.segments = lines.map(([text, tr], i) => ({ id: uid(), atMs: i * 45000, text, lang: "ko", tr, trLang: "en", trStatus: "done" }));
+    s.durationMs = lines.length * 45000;
     s.rule = ruleSummary(s);
     this.load(s);
     Store.save(s);
-    UI.setTab("summary"); // 샘플은 정리 결과를 보여 주려는 것이므로
-    // 이 버튼 클릭이 사용자 동작이라 번역 모델 준비가 허용된다.
-    Translate.prepare("ko", s.targetLang).then((eng) => { if (eng && eng.type !== "none") this.retranslate(); }).catch(() => {});
+    UI.setTab("summary");
     toast("샘플 회의를 불러왔습니다");
   },
 };
@@ -1730,51 +1352,63 @@ const UI = {
     $("#btnStop").addEventListener("click", () => App.finish());
     $("#btnNew").addEventListener("click", () => App.newMeeting());
     $("#btnSessions").addEventListener("click", () => { this.renderSessions(); $("#dlgSessions").showModal(); });
-    $("#btnSettings").addEventListener("click", () => { this.renderSettings(); this.renderCaps(); $("#dlgSettings").showModal(); });
+    $("#btnSettings").addEventListener("click", () => { this.renderSettings(); $("#dlgSettings").showModal(); });
     document.querySelectorAll("dialog [data-close]").forEach((b) => b.addEventListener("click", () => b.closest("dialog").close()));
     document.querySelectorAll("dialog").forEach((d) => d.addEventListener("click", (e) => { if (e.target === d) d.close(); }));
 
     $("#title").addEventListener("input", (e) => { App.session.title = e.target.value; if (App.session.segments.length) Store.save(App.session); });
+    $("#foreign").addEventListener("change", (e) => App.setForeign(e.target.value));
+    $("#speechLang").addEventListener("change", (e) => { Settings.v.speechLang = e.target.value; Settings.save(); });
 
-    $("#speechLang").addEventListener("change", (e) => {
-      const sp = e.target.value;
-      let tg = Settings.v.targetLang;
-      if (sp === "ko") { if (!FOREIGN.includes(tg)) tg = "en"; }
-      else if (tg !== "off") tg = "ko";
-      App.setLangs(sp, tg);
+    // 처음 설정
+    const saveKey = async (input, statusEl) => {
+      const key = input.value.trim();
+      if (!key) { toast("키를 붙여넣어 주세요"); return false; }
+      Settings.v.geminiKey = key;
+      Settings.v.noKeyMode = false;
+      Settings.save();
+      if (statusEl) statusEl.textContent = "연결 확인 중…";
+      try {
+        await Gemini.ping();
+        if (statusEl) statusEl.textContent = "✅ 연결되었습니다.";
+        toast("Gemini에 연결되었습니다");
+        return true;
+      } catch (e) {
+        if (e?.code === "key") { Settings.v.geminiKey = ""; Settings.save(); }
+        const msg = e?.message || "연결하지 못했습니다.";
+        if (statusEl) statusEl.textContent = `❌ ${msg}`;
+        else UI.banner(msg, "error", "key");
+        return false;
+      } finally {
+        this.renderAll();
+      }
+    };
+    $("#btnSaveKey").addEventListener("click", async () => { if (await saveKey($("#keyInput"))) this.showSetup(false); });
+    $("#keyInput").addEventListener("keydown", (e) => { if (e.key === "Enter") $("#btnSaveKey").click(); });
+    $("#btnNoKey").addEventListener("click", () => { Settings.v.noKeyMode = true; Settings.save(); this.showSetup(false); this.renderAll(); });
+    $("#btnSetKey").addEventListener("click", () => saveKey($("#setKey"), $("#keyStatus")));
+    $("#btnClearKey").addEventListener("click", () => {
+      Settings.v.geminiKey = ""; Settings.v.models = {}; Settings.save();
+      $("#setKey").value = ""; $("#keyStatus").textContent = "키를 지웠습니다.";
+      this.renderAll();
     });
-    $("#targetLang").addEventListener("change", (e) => App.setLangs(Settings.v.speechLang, e.target.value));
-    $("#btnSwap").addEventListener("click", () => {
-      const { speechLang: sp, targetLang: tg } = Settings.v;
-      if (tg === "off") return toast("번역 언어를 먼저 고르세요");
-      App.setLangs(tg, sp);
-      toast(`${LANGS[tg].label} → ${LANGS[sp].label}`);
-    });
+    $("#setSaveAudio").addEventListener("change", (e) => { Settings.v.saveAudio = e.target.checked; Settings.save(); });
 
     document.querySelectorAll(".seg-toggle button").forEach((b) => b.addEventListener("click", () => { App.view = b.dataset.view; this.renderSummary(); this.renderFoot(); }));
     document.querySelectorAll(".tabs-mobile [data-tab]").forEach((b) => b.addEventListener("click", () => this.setTab(b.dataset.tab)));
 
     $("#btnAi").addEventListener("click", () => App.runAi());
-    $("#btnShortcut").addEventListener("click", () => Shortcut.start(App.session));
-    $("#btnShortcutGuide").addEventListener("click", () => { $("#dlgSettings").close(); this.shortcutDialog("guide"); });
-    $("#setShortcutName").addEventListener("change", (e) => { Settings.v.shortcutName = e.target.value.trim() || "보이스노트 정리"; Settings.save(); });
-    $("#setShortcutModel").addEventListener("change", (e) => { Settings.v.shortcutModel = e.target.value; Settings.save(); });
+    $("#btnRetry").addEventListener("click", () => App.retryFailed());
     $("#btnCopy").addEventListener("click", async () => {
       const md = Export.summaryMarkdown(App.session, this.currentSummary());
       try { await navigator.clipboard.writeText(md); toast("요약을 복사했습니다"); }
       catch { download(`${safeFilename(autoTitleOrUser())}.md`, md); toast("복사가 막혀 파일로 내려받았습니다"); }
     });
     $("#btnExport").addEventListener("click", (e) => this.exportMenu(e.currentTarget));
-
-    // 설정
-    const bindCheck = (id, key, after) => $(id).addEventListener("change", (e) => { Settings.v[key] = e.target.checked; Settings.save(); after?.(); });
-    bindCheck("#setSaveAudio", "saveAudio");
-    bindCheck("#setLocalSpeech", "localSpeech");
-    bindCheck("#setExternal", "external", () => { Translate.reset(); this.renderChips(); if (Settings.v.external) App.retranslate(); });
-    $("#setEmail").addEventListener("change", (e) => { Settings.v.email = e.target.value.trim(); Settings.save(); });
   },
 
-  /** 휴대폰 화면의 자막/정리 탭 전환. */
+  showSetup(show) { $("#setupCard").hidden = !show; },
+
   setTab(tab) {
     $("#grid").dataset.tab = tab;
     document.querySelectorAll(".tabs-mobile [data-tab]").forEach((x) => x.setAttribute("aria-selected", String(x.dataset.tab === tab)));
@@ -1787,17 +1421,17 @@ const UI = {
 
   renderAll() {
     const s = App.session;
-    const rec = App.state === "recording" || App.state === "paused" || App.state === "finishing";
+    const rec = App.state !== "idle";
     document.body.classList.toggle("is-recording", App.state === "recording");
+    this.showSetup(!Settings.hasKey() && !Settings.v.noKeyMode);
     $("#title").value = s.title || "";
     $("#title").placeholder = s.segments.length ? autoTitle(s) : "회의 제목 (비워 두면 자동으로 붙습니다)";
     $("#btnRecord").hidden = App.state === "recording" || App.state === "finishing";
-    $("#btnRecord").textContent = App.state === "paused" ? "● 이어서 녹음" : s.segments.length ? "● 이어서 녹음" : "● 녹음 시작";
-    $("#btnRecord").disabled = App.state === "finishing";
+    $("#btnRecord").textContent = App.state === "paused" || s.segments.length ? "● 이어서 녹음" : "● 녹음 시작";
     $("#btnPause").hidden = App.state !== "recording";
     $("#btnStop").hidden = !rec;
     $("#btnStop").disabled = App.state === "finishing";
-    $("#btnStop").textContent = App.state === "finishing" ? "정리 중…" : "■ 종료";
+    $("#btnStop").textContent = App.state === "finishing" ? "마무리 중…" : "■ 종료";
     $("#btnNew").disabled = rec;
     this.renderLangs();
     this.renderClock();
@@ -1810,58 +1444,30 @@ const UI = {
   },
 
   renderLangs() {
-    const sp = $("#speechLang"), tg = $("#targetLang");
-    const { speechLang, targetLang } = Settings.v;
-    sp.replaceChildren(...Object.entries(LANGS).map(([k, v]) => h("option", { value: k, selected: k === speechLang }, v.label)));
-    const targets = speechLang === "ko" ? FOREIGN : ["ko"];
-    tg.replaceChildren(
-      ...targets.map((k) => h("option", { value: k, selected: k === targetLang }, LANGS[k].label)),
-      h("option", { value: "off", selected: targetLang === "off" }, "번역 안 함"),
-    );
-    $("#btnSwap").disabled = targetLang === "off";
+    const keyMode = Settings.hasKey();
+    $("#foreignBox").hidden = !keyMode;
+    $("#speechBox").hidden = keyMode;
+    $("#foreign").replaceChildren(
+      ...FOREIGN.map((k) => h("option", { value: k, selected: k === Settings.v.foreign }, LANGS[k].label)),
+      h("option", { value: "off", selected: Settings.v.foreign === "off" }, "번역 안 함"));
+    $("#speechLang").replaceChildren(...Object.entries(LANGS).map(([k, v]) => h("option", { value: k, selected: k === Settings.v.speechLang }, v.label)));
+    $("#speechLang").disabled = App.state !== "idle";
   },
 
-  renderClock() {
-    const ms = App.state === "idle" ? App.session.durationMs || 0 : App.elapsed();
-    $("#clock").textContent = fmtClock(ms);
-  },
+  renderClock() { $("#clock").textContent = fmtClock(App.state === "idle" ? App.session.durationMs || 0 : App.elapsed()); },
   renderMeter(v) { $("#meterBar").style.width = `${Math.round(v * 100)}%`; },
 
   renderChips() {
     const chips = [];
-    // 음성 인식
-    if (!SR) chips.push(["warn", "음성 인식 미지원 브라우저"]);
-    else if (App.listener?.local) chips.push(["ok", "음성 인식 · 기기 내 처리"]);
-    else chips.push(["ok", /Chrome|CriOS|Edg/.test(navigator.userAgent) ? "음성 인식 · 브라우저 기본 (Chrome은 Google 서버에서 처리)" : "음성 인식 · 브라우저 기본"]);
-    if (App.speechNote) chips.push(["busy", App.speechNote]);
-    // 번역 — 실제로 만든 번역기 상태가 있으면 그걸, 없으면 사전 확인 결과를 보여 준다.
-    const { speechLang, targetLang } = Settings.v;
-    if (targetLang === "off") chips.push(["off", "번역 꺼짐"]);
-    else {
-      const key = `${speechLang}>${targetLang}`;
-      const st = Translate.status[key];
-      const pair = `${LANGS[speechLang].short}↔${LANGS[targetLang].short}`;
-      const noBuiltin = Settings.v.external ? ["ok", `번역 ${pair} · 외부 무료(MyMemory) — 문장이 외부로 전송됨`]
-        : IS_IOS ? ["warn", `번역 ${pair} · 아이폰 웹에는 기기 내 번역이 없음 — 아이폰 앱을 쓰거나 설정에서 외부 번역을 켤 수 있음`]
-        : ["warn", `번역 ${pair} · 이 브라우저엔 기기 내 번역이 없음 — 설정에서 외부 번역을 켤 수 있음`];
-      if (st?.state === "downloading") chips.push(["busy", `번역 언어 팩 내려받는 중 ${Math.round((st.progress || 0) * 100)}%`]);
-      else if (st?.state === "ready") chips.push(st.type === "external" ? noBuiltin : ["ok", `번역 ${pair} · 기기 내`]);
-      else if (st?.state === "needs-click") chips.push(["warn", "번역 언어 팩을 받으려면 화면을 한 번 눌러 주세요"]);
-      else {
-        const a = Caps.tr[key];
-        if (a == null) chips.push(["busy", `번역 ${pair} · 확인 중`]);
-        else if (a === "available") chips.push(["ok", `번역 ${pair} · 기기 내`]);
-        else if (a === "downloadable" || a === "downloading") chips.push(["ok", `번역 ${pair} · 기기 내 (첫 사용 시 언어 팩 내려받기)`]);
-        else chips.push(noBuiltin);
-      }
+    if (Settings.hasKey()) {
+      const f = Settings.v.foreign;
+      chips.push(["ok", f === "off" ? "Gemini · 받아쓰기·회의록" : `Gemini · 받아쓰기 · 한국어↔${LANGS[f].label} 번역 · 회의록`]);
+      if (App.pendingChunks > 0) chips.push(["busy", `받아쓰는 중 ${App.pendingChunks}구간`]);
+      else if (App.state === "recording") chips.push(["busy", "말이 끊기는 곳마다 약 10초 단위로 자막이 붙습니다"]);
+      if (App.failedChunks.length) chips.push(["warn", `못 받아쓴 구간 ${App.failedChunks.length}개`]);
+    } else {
+      chips.push(["warn", "Gemini 키 없음 — 녹음과 자막만 (번역·AI 회의록은 설정에서 키를 넣으면 됩니다)"]);
     }
-    // AI
-    const ai = Caps.ai;
-    if (IS_IOS && !Caps.aiUsable()) chips.push(["ok", "AI 정리 · 아이폰 단축어 (Apple Intelligence)"]);
-    else if (ai == null && AI.has()) chips.push(["busy", "AI 정리 · 확인 중"]);
-    else if (ai === "available") chips.push(["ok", "AI 정리 · 기기 내 (Gemini Nano)"]);
-    else if (ai === "downloadable" || ai === "downloading") chips.push(["ok", "AI 정리 · 기기 내 (첫 사용 시 모델 내려받기)"]);
-    else chips.push(["off", "AI 정리 미지원 → 규칙 기반 정리"]);
     $("#chips").replaceChildren(...chips.map(([cls, text]) => h("span", { class: `chip ${cls}` }, text)));
   },
 
@@ -1872,31 +1478,34 @@ const UI = {
       h("span", null, msg),
       h("button", { class: "x", type: "button", "aria-label": "닫기", onclick: (e) => e.currentTarget.parentElement.remove() }, "×")));
   },
-  clearBanner() { $("#banners").replaceChildren(); },
+  clearBanner(key) {
+    if (key) $("#banners").querySelector(`[data-key="${key}"]`)?.remove();
+    else $("#banners").replaceChildren();
+  },
 
   /* ───────── 자막 ───────── */
 
   segNode(seg) {
-    const tr = seg.trStatus === "pending" ? h("div", { class: "line-tr pending" }, "번역 중…")
-      : seg.trStatus === "error" ? h("div", { class: "line-tr error" }, seg.trError || "번역 실패")
-      : seg.tr ? h("div", { class: "line-tr", lang: seg.trLang }, seg.tr) : null;
     return h("div", { class: "line", dataset: { id: seg.id } },
       h("div", { class: "line-time" }, fmtClock(seg.atMs)),
-      h("div", { class: "line-text", lang: seg.lang }, h("span", { class: "line-lang" }, LANGS[seg.lang].short), seg.text),
-      tr);
+      h("div", { class: "line-text", lang: seg.lang }, h("span", { class: "line-lang" }, LANGS[seg.lang]?.short || ""), seg.text),
+      seg.tr ? h("div", { class: "line-tr", lang: seg.trLang }, seg.tr) : null);
   },
 
   renderTranscript() {
     const box = $("#transcript");
     const segs = App.session.segments;
     if (!segs.length && !App.interim) {
+      const recording = App.state === "recording";
       box.replaceChildren(h("div", { class: "empty" },
-        h("strong", null, App.state === "recording" ? "듣고 있습니다…" : "녹음을 시작하면 여기에 자막이 나타납니다"),
-        App.state === "recording" ? "말을 시작해 보세요." : "말하는 언어를 고르고 ‘녹음 시작’을 누르세요. 번역 언어를 고르면 자막 아래에 번역이 함께 붙습니다.",
+        h("strong", null, recording ? "듣고 있습니다…" : "녹음을 시작하면 여기에 자막이 나타납니다"),
+        recording
+          ? (App.mode === "gemini" ? "말이 끊기는 곳마다 약 10초 단위로 자막과 번역이 붙습니다." : "말을 시작해 보세요.")
+          : "한국어와 상대 언어를 섞어 말해도 알아서 구분해 서로 번역합니다.",
         App.state === "idle" ? h("div", null, h("button", { class: "btn small", type: "button", onclick: () => App.loadDemo() }, "샘플 회의로 먼저 보기")) : null));
     } else {
       box.replaceChildren(...segs.map((s) => this.segNode(s)));
-      this.renderInterim(true);
+      this.renderInterim();
     }
     $("#segCount").textContent = segs.length ? `${segs.length}줄` : "";
   },
@@ -1907,17 +1516,12 @@ const UI = {
     const nearBottom = box.scrollHeight - box.scrollTop - box.clientHeight < 80;
     box.querySelector(".line.interim")?.remove();
     box.append(this.segNode(seg));
-    this.renderInterim(true);
+    this.renderInterim();
     if (nearBottom) box.scrollTop = box.scrollHeight;
     $("#segCount").textContent = `${App.session.segments.length}줄`;
   },
 
-  updateSegment(seg) {
-    const old = $(`#transcript [data-id="${seg.id}"]`);
-    if (old) old.replaceWith(this.segNode(seg));
-  },
-
-  renderInterim(skipScroll) {
+  renderInterim() {
     const box = $("#transcript");
     let node = box.querySelector(".line.interim");
     if (!App.interim) { node?.remove(); return; }
@@ -1927,10 +1531,6 @@ const UI = {
       box.append(node);
     }
     node.querySelector(".line-text").textContent = App.interim;
-    if (!skipScroll) {
-      const nearBottom = box.scrollHeight - box.scrollTop - box.clientHeight < 120;
-      if (nearBottom) box.scrollTop = box.scrollHeight;
-    }
   },
 
   /* ───────── 정리 ───────── */
@@ -1943,25 +1543,20 @@ const UI = {
     if (App.view === "ai") {
       if (App.aiState.running) {
         box.replaceChildren(h("div", { class: "empty" },
-          h("strong", null, "기기 안의 AI가 회의록을 쓰고 있습니다"),
-          App.aiState.label || "",
-          h("div", { class: "progress" }, h("div", { style: `width:${Math.round(App.aiState.progress * 100)}%` })),
-          h("div", { style: "font-size:12px" }, "회의 내용은 이 기기 밖으로 나가지 않습니다.")));
+          h("strong", null, "Gemini가 회의록을 쓰고 있습니다"),
+          "회의 길이에 따라 10초~1분쯤 걸립니다.",
+          h("div", { class: "progress" }, h("div", { style: "width:60%" }))));
         return;
       }
       if (!s.ai) {
-        const why = App.aiState.error || (IS_IOS && !Caps.aiUsable()
-          ? "아이폰·아이패드에서는 단축어 앱의 Apple Intelligence로 회의록을 만듭니다(무료). 아래 ‘아이폰 AI로 정리’를 누르세요. 처음이면 단축어를 한 번 만들어야 합니다."
-          : Caps.ai === "available"
-          ? "녹음을 마치면 자동으로 정리합니다. 지금 바로 정리하려면 아래 ‘AI로 정리하기’를 누르세요."
-          : Caps.aiUsable()
-            ? "처음 한 번은 기기 내 AI 모델(수 GB)을 내려받아야 합니다. 아래 ‘AI로 정리하기’를 누르면 시작합니다. 이후로는 녹음을 마칠 때 자동으로 정리합니다."
-            : "이 브라우저에는 기기 내 AI가 없습니다. 데스크톱 Chrome(Gemini Nano 지원 기기)에서 쓸 수 있습니다. ‘실시간’ 탭의 규칙 기반 정리는 언제나 쓸 수 있습니다.");
-        box.replaceChildren(h("div", { class: "empty" }, h("strong", null, App.aiState.error ? "AI 정리를 하지 못했습니다" : "AI 정리가 아직 없습니다"), why));
+        const why = App.aiState.error || (Settings.hasKey()
+          ? "녹음을 마치면 자동으로 만들어집니다. 지금 바로 만들려면 아래 ‘AI 회의록 만들기’를 누르세요."
+          : "AI 회의록은 Gemini 무료 키가 있어야 만들 수 있습니다. 설정(⚙)에서 키를 넣어 주세요.");
+        box.replaceChildren(h("div", { class: "empty" }, h("strong", null, App.aiState.error ? "회의록을 만들지 못했습니다" : "AI 회의록이 아직 없습니다"), why));
         return;
       }
       box.replaceChildren(...this.summaryNodes(s.ai), h("div", { class: "sum-note" },
-        `${({ shortcut: "아이폰 단축어(Apple Intelligence)", "apple-intelligence": "아이폰 앱(Apple Intelligence)" })[s.ai._engine] || "기기 내 AI(Gemini Nano)"}가 ${s.aiAt ? fmtDate(s.aiAt) : ""}에 정리했습니다. ${s.ai._lang === "en" ? "한국어 번역기를 쓸 수 없어 영어로 남겼습니다. " : ""}AI 정리에도 오류가 있을 수 있으니 중요한 내용은 자막과 대조해 주세요.`));
+        `${s.ai._engine === "gemini" ? "Gemini" : "AI"}가 ${s.aiAt ? fmtDate(s.aiAt) : ""}에 정리했습니다. AI 정리에도 오류가 있을 수 있으니 중요한 내용은 자막과 대조해 주세요.`));
       return;
     }
 
@@ -1969,21 +1564,17 @@ const UI = {
     if (isEmptySummary(sum)) {
       box.replaceChildren(h("div", { class: "empty" },
         h("strong", null, "말을 시작하면 바로 정리됩니다"),
-        "배경 · 주요 논의 · 결정 사항 · 향후 계획 · 미결 사항으로 나눠 실시간으로 채워집니다."));
+        "배경 · 주요 논의 · 결정 사항 · 향후 계획 · 미결 사항으로 나눠 녹음 중에 채워집니다. 녹음을 마치면 Gemini가 회의록을 다시 씁니다."));
       return;
     }
     box.replaceChildren(...this.summaryNodes(sum), h("div", { class: "sum-note" },
-      "실시간 정리는 말한 문장을 규칙으로 골라 분류한 것이라 문장이 다듬어져 있지 않습니다. " +
-      (Caps.ai === "available" ? "녹음을 마치면 기기 내 AI가 다시 정리합니다."
-        : Caps.aiUsable() ? "‘AI 정리’ 탭에서 기기 내 AI로 다듬을 수 있습니다."
-        : IS_IOS ? "아래 ‘아이폰 AI로 정리’로 Apple Intelligence가 다듬을 수 있습니다." : "")));
+      "실시간 정리는 말한 문장을 규칙으로 골라 분류한 것이라 문장이 다듬어져 있지 않습니다. 녹음을 마치면 ‘AI 회의록’ 탭에 Gemini가 쓴 회의록이 생깁니다."));
   },
 
   summaryNodes(sum) {
     const out = [];
     const section = (title, n, ...body) => h("div", { class: "sum-section" }, h("h3", null, title, n ? h("span", { class: "n" }, n) : null), ...body);
     const list = (items, cls = "") => h("ul", { class: `sum-list ${cls}` }, items.map((t) => h("li", null, t)));
-
     if (sum.overview) out.push(h("div", { class: "overview" }, sum.overview));
     if (sum.background.length) out.push(section("배경", "", list(sum.background)));
     if (sum.discussion.length) out.push(section("주요 논의", "", ...sum.discussion.map((d) =>
@@ -2007,20 +1598,16 @@ const UI = {
   renderFoot() {
     const s = App.session;
     const has = s.segments.length > 0;
-    $("#btnAi").hidden = !Caps.aiUsable();
-    // 아이폰·아이패드는 단축어 경로. (iPadOS의 Chrome 등에서 기기 내 AI가 생겨도 둘 다 보여 준다)
-    $("#btnShortcut").hidden = !IS_IOS;
-    $("#btnShortcut").disabled = !has || App.state !== "idle";
-    $("#btnShortcut").textContent = s.ai?._engine === "shortcut" ? "아이폰 AI로 다시 정리" : "아이폰 AI로 정리";
     $("#btnAi").disabled = !has || App.aiState.running || App.state !== "idle";
-    $("#btnAi").textContent = s.ai ? "AI로 다시 정리" : "AI로 정리하기";
+    $("#btnAi").textContent = s.ai ? "AI 회의록 다시 만들기" : "AI 회의록 만들기";
+    $("#btnRetry").hidden = !App.failedChunks.length;
+    $("#btnRetry").textContent = `못 받아쓴 구간 다시 (${App.failedChunks.length})`;
     $("#btnCopy").disabled = !has;
     $("#btnExport").disabled = !has;
   },
 
   async renderAudio() {
-    // renderAll이 연달아 불리면 이 비동기 렌더가 겹쳐서 플레이어가 중복으로 붙었다.
-    // 세대 번호로 마지막 호출만 화면에 반영하고, 이전 URL은 해제한다.
+    // 연달아 불리면 비동기 렌더가 겹친다 — 세대 번호로 마지막 호출만 반영하고 이전 URL은 해제
     const gen = (this.audioGen = (this.audioGen || 0) + 1);
     const box = $("#audioBox");
     const s = App.session;
@@ -2029,7 +1616,7 @@ const UI = {
     const urls = [];
     for (let i = 0; i < s.audioParts; i++) {
       try {
-        const blob = await Audio_.get(s.id, i);
+        const blob = await AudioDB.get(s.id, i);
         if (!blob) continue;
         const url = URL.createObjectURL(blob);
         urls.push(url);
@@ -2051,12 +1638,12 @@ const UI = {
     const s = App.session;
     const name = safeFilename(autoTitleOrUser());
     const close = () => menu.remove();
-    const item = (label, fn, disabled) => h("button", { type: "button", role: "menuitem", disabled, onclick: () => { close(); fn(); } }, label);
+    const item = (label, fn) => h("button", { type: "button", role: "menuitem", onclick: () => { close(); fn(); } }, label);
     const menu = h("div", { class: "menu", role: "menu" },
       item("회의록 (.md) — 요약 + 전체 자막", () => download(`${name}.md`, Export.fullMarkdown(s, this.currentSummary()), "text/markdown;charset=utf-8")),
       item("자막만 (.txt) — 원문 + 번역", () => download(`${name}-자막.txt`, Export.transcriptText(s))),
       item("인쇄 / PDF로 저장", () => window.print()),
-      item("백업 (.json) — 다른 브라우저로 옮기기", () => download(`${name}.json`, JSON.stringify(s, null, 2), "application/json")),
+      item("백업 (.json) — 다른 기기로 옮기기", () => download(`${name}.json`, JSON.stringify(s, null, 2), "application/json")),
     );
     const r = anchor.getBoundingClientRect();
     menu.style.left = `${Math.max(8, Math.min(r.left + window.scrollX, window.innerWidth - 230))}px`;
@@ -2067,8 +1654,7 @@ const UI = {
 
   renderSessions() {
     const box = $("#sessionList");
-    const list = Store.list();
-    const rows = list.map((m) => h("div", { class: "session-row" },
+    const rows = Store.list().map((m) => h("div", { class: "session-row" },
       h("div", { class: "session-info" },
         h("div", { class: "session-title" }, m.title || "제목 없음", m.id === App.session.id ? " · 열림" : ""),
         h("div", { class: "session-meta" }, `${fmtDate(m.createdAt)} · ${fmtDuration(m.durationMs || 0)} · ${m.count}줄${m.audioParts ? " · 녹음 있음" : ""}`)),
@@ -2076,97 +1662,29 @@ const UI = {
       h("button", { class: "btn small ghost", type: "button", onclick: () => { if (confirm(`"${m.title || "제목 없음"}" 회의를 지울까요? 되돌릴 수 없습니다.`)) App.remove(m.id); } }, "삭제")));
     box.replaceChildren(
       ...(rows.length ? rows : [h("div", { class: "empty" }, "저장된 회의가 없습니다.")]),
-      h("div", { style: "margin-top:14px; display:flex; gap:8px; flex-wrap:wrap" },
+      h("div", { style: "margin-top:14px" },
         h("label", { class: "btn small" }, "백업 파일(.json) 불러오기",
-          h("input", { type: "file", accept: "application/json,.json", hidden: true, onchange: (e) => Export.importJson(e.target.files[0]) }))),
-    );
-  },
-
-  /** 단축어 대화상자. mode: run(복사됨) · manual(복사 실패) · paste(돌아옴) · guide(만드는 법) */
-  shortcutDialog(mode, data = {}) {
-    const box = $("#shortcutBody");
-    // replaceChildren은 null을 "null" 글자로 넣는다 — 조건부 항목은 걸러서 넘긴다
-    const set = (...nodes) => box.replaceChildren(...nodes.filter(Boolean));
-    const name = Settings.v.shortcutName || "보이스노트 정리";
-    const runLink = h("a", { class: "btn primary", href: Shortcut.url(name) }, "단축어 실행 ▸");
-    const guideBtn = h("button", { class: "btn", type: "button", onclick: () => this.shortcutDialog("guide") }, "처음이라면: 단축어 만드는 법");
-    const droppedNote = data.dropped ? h("p", { class: "setting-desc" }, `회의가 길어 덜 중요한 발언 ${data.dropped}개를 빼고 보냅니다. (설정에서 모델을 ‘Private Cloud Compute’로 고르면 더 많이 보낼 수 있습니다)`) : null;
-    const pasteArea = h("textarea", { class: "paste-box", placeholder: "결과가 자동으로 들어오지 않으면 여기에 붙여넣으세요" });
-
-    if (mode === "run") {
-      set(
-        h("p", null, "✅ 회의 자막과 요청문을 클립보드에 복사했습니다."),
-        h("p", { class: "setting-desc" }, `아래 버튼을 누르면 ‘${name}’ 단축어가 Apple Intelligence로 회의록을 쓰고 이 페이지로 돌아옵니다.`),
-        droppedNote,
-        h("div", { class: "dlg-actions" }, runLink, guideBtn));
-    } else if (mode === "manual") {
-      const ta = h("textarea", { class: "paste-box", readonly: true }, data.prompt || "");
-      set(
-        h("p", null, "클립보드 복사가 막혔습니다. 아래 내용을 길게 눌러 전체 선택 → 복사한 뒤 단축어를 실행해 주세요."),
-        ta, droppedNote,
-        h("div", { class: "dlg-actions" }, runLink, guideBtn));
-    } else if (mode === "paste") {
-      set(
-        h("p", null, "단축어가 회의록을 클립보드에 넣어 두었습니다. 아래 버튼을 누르고 ‘붙여넣기’를 눌러 주세요."),
-        h("div", { class: "dlg-actions" },
-          h("button", { class: "btn primary", type: "button", onclick: async () => {
-            try {
-              const t = await navigator.clipboard.readText();
-              if (Shortcut.apply(t)) $("#dlgShortcut").close();
-              else toast("클립보드가 비어 있습니다");
-            } catch { toast("붙여넣기가 막혔습니다. 아래 칸에 직접 붙여넣어 주세요"); pasteArea.focus(); }
-          } }, "결과 붙여넣기")),
-        pasteArea,
-        h("div", { class: "dlg-actions" }, h("button", { class: "btn", type: "button", onclick: () => { if (Shortcut.apply(pasteArea.value)) $("#dlgShortcut").close(); else toast("붙여넣은 내용이 없습니다"); } }, "직접 붙여넣은 내용 적용")));
-    } else {
-      set(
-        h("p", null, "처음 한 번만 만들면 됩니다. 아이폰의 ‘단축어’ 앱에서:"),
-        h("ol", { class: "steps" },
-          h("li", null, "오른쪽 위 ", h("b", null, "+"), " → 이름을 ", h("code", null, name), " 으로 정합니다. (설정에서 이름을 바꿨다면 그 이름)"),
-          h("li", null, "동작 추가 → ", h("b", null, "클립보드 가져오기")),
-          h("li", null, "동작 추가 → ", h("b", null, "모델 사용"), " (Apple Intelligence). 모델은 ", h("b", null, "Private Cloud Compute"), " (긴 회의) 또는 ", h("b", null, "기기 내"), " (짧은 회의, 완전 오프라인). 요청 칸에는 ", h("b", null, "클립보드"), " 변수를 넣고, ‘후속 질문’은 끕니다."),
-          h("li", null, "동작 추가 → ", h("b", null, "클립보드에 복사"), " — 내용은 ", h("b", null, "응답"), " 변수"),
-          h("li", null, "동작 추가 → ", h("b", null, "출력 중단"), " (Stop and Output) — 출력은 ", h("b", null, "응답"), " 변수"),
-        ),
-        h("p", { class: "setting-desc", style: "margin-top:12px" }, "설정의 ‘단축어에서 고른 모델’도 같은 것으로 맞춰 주세요. 기기 내 모델은 한 번에 읽을 수 있는 분량이 작아서, 그에 맞춰 보낼 자막을 줄입니다. 두 모델 모두 무료입니다."),
-        h("p", { class: "setting-desc" }, "필요 조건: iPhone 15 Pro 이상 또는 M1 이상 iPad, iOS 26 이상, 설정 > Apple Intelligence 켜짐."),
-        h("div", { class: "dlg-actions" }, App.session.segments.length ? h("button", { class: "btn primary", type: "button", onclick: () => Shortcut.start(App.session) }, "다 만들었어요 — 지금 정리하기") : null));
-    }
-    const dlg = $("#dlgShortcut");
-    if (!dlg.open) dlg.showModal();
+          h("input", { type: "file", accept: "application/json,.json", hidden: true, onchange: (e) => Export.importJson(e.target.files[0]) }))));
   },
 
   renderSettings() {
-    $("#setShortcutName").value = Settings.v.shortcutName || "보이스노트 정리";
-    $("#setShortcutModel").value = Settings.v.shortcutModel || "pcc";
+    $("#setKey").value = Settings.v.geminiKey || "";
+    $("#keyStatus").textContent = Settings.hasKey() ? "키가 저장되어 있습니다." : "키가 없습니다.";
     $("#setSaveAudio").checked = Settings.v.saveAudio;
-    $("#setLocalSpeech").checked = Settings.v.localSpeech;
-    $("#setExternal").checked = Settings.v.external;
-    $("#setEmail").value = Settings.v.email || "";
-  },
-
-  async renderCaps() {
-    const rows = [
-      ["음성 인식", SR ? "지원" : "미지원 — Chrome·Edge·Safari에서 열어 주세요"],
-      ["기기 내 음성 인식", SR && typeof SR.available === "function" ? "지원" : "미지원 (브라우저 기본 방식 사용)"],
-      ["기기 내 번역", !Translate.hasBuiltin() ? "미지원 — 외부 무료 번역을 켜면 번역 가능" : `현재 언어 짝: ${({ available: "바로 사용 가능", downloadable: "첫 사용 시 언어 팩 내려받기", downloading: "내려받는 중", unavailable: "사용 불가" })[Caps.tr[`${Settings.v.speechLang}>${Settings.v.targetLang}`]] || "확인 중"}`],
-      ["기기 내 AI 정리", !AI.has() ? "미지원 — 규칙 기반 정리만 사용" : ({ available: "바로 사용 가능", downloadable: "첫 사용 시 모델 내려받기 (수 GB)", downloading: "내려받는 중", unavailable: "이 기기에서 사용 불가 — 규칙 기반 정리만 사용" })[Caps.ai] || "확인 중"],
-      ["녹음 파일", "MediaRecorder" in window ? "지원" : "미지원"],
-    ];
-    $("#capReport").replaceChildren(...rows.map(([k, v]) => h("div", null, h("b", null, `${k}: `), v)));
+    const m = Settings.v.models;
+    $("#modelInfo").textContent = m.stt || m.sum ? `사용 중인 모델 — 받아쓰기: ${m.stt || "-"} · 회의록: ${m.sum || "-"}` : "";
   },
 };
 
-function autoTitleOrUser() { return App.session.title || autoTitle(App.session); }
-
 /* ───────────────────────── 내보내기 ───────────────────────── */
+
+const md = (x) => (x || "").replace(/\|/g, "\\|");
 
 const Export = {
   summaryMarkdown(s, sum) {
-    const L = [];
-    L.push(`# ${s.title || autoTitle(s)}`, "");
-    const langs = s.targetLang && s.targetLang !== "off" ? `${LANGS[s.speechLang]?.label} → ${LANGS[s.targetLang]?.label}` : LANGS[s.speechLang]?.label;
-    L.push(`- 일시: ${fmtDate(s.createdAt)}`, `- 길이: ${fmtDuration(s.durationMs || 0)}`, `- 언어: ${langs}`, `- 정리: ${sum === s.ai ? "기기 내 AI" : "규칙 기반(실시간)"}`, "");
+    const L = [`# ${s.title || autoTitle(s)}`, ""];
+    const langs = s.targetLang && s.targetLang !== "off" ? `한국어 ↔ ${LANGS[s.targetLang]?.label}` : "번역 없음";
+    L.push(`- 일시: ${fmtDate(s.createdAt)}`, `- 길이: ${fmtDuration(s.durationMs || 0)}`, `- 언어: ${langs}`, `- 정리: ${sum === s.ai ? "Gemini" : "규칙 기반(실시간)"}`, "");
     if (sum.overview) L.push("## 개요", sum.overview, "");
     if (sum.background.length) L.push("## 배경", ...sum.background.map((x) => `- ${x}`), "");
     if (sum.discussion.length) {
@@ -2195,7 +1713,7 @@ const Export = {
 
   transcriptText(s) {
     return `${s.title || autoTitle(s)}\n${fmtDate(s.createdAt)} · ${fmtDuration(s.durationMs || 0)}\n\n` +
-      s.segments.map((g) => `[${fmtClock(g.atMs)}] (${LANGS[g.lang].short}) ${g.text}${g.tr ? `\n          (${LANGS[g.trLang]?.short || ""}) ${g.tr}` : ""}`).join("\n") + "\n";
+      s.segments.map((g) => `[${fmtClock(g.atMs)}] (${LANGS[g.lang]?.short || ""}) ${g.text}${g.tr ? `\n          (${LANGS[g.trLang]?.short || ""}) ${g.tr}` : ""}`).join("\n") + "\n";
   },
 
   async importJson(file) {
@@ -2213,7 +1731,6 @@ const Export = {
     } catch { toast("올바른 백업 파일이 아닙니다"); }
   },
 };
-const md = (x) => (x || "").replace(/\|/g, "\\|");
 
 App.init();
 </script>

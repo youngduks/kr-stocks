@@ -1,10 +1,7 @@
 /* ═════════════════════════════════════════════════════════════════
-   보이스노트 규칙 엔진 — 웹(index.html)과 아이폰 앱(ios/VoiceNote.swiftpm)이 함께 쓴다.
-   아이폰 앱은 이 파일을 JavaScriptCore로 실행한다. 그래서 DOM·브라우저 API를
-   쓰면 안 된다. 순수 계산만 둔다.
-
-   아이폰 앱에는 이 파일의 사본(ios/VoiceNote.swiftpm/Resources/rules.js)이 들어간다.
-   고친 뒤에는 scripts/sync-voicenote-rules.sh 로 사본을 맞출 것.
+   보이스노트 규칙 엔진 — 녹음 중에 자막만으로 바로 회의를 정리한다(지연 0, 무료).
+   녹음을 마치면 Gemini가 회의록을 다시 쓰고, 이 정리는 ‘실시간’ 탭에 남는다.
+   DOM을 쓰지 않는 순수 계산이라 브라우저 밖(node)에서도 그대로 돌릴 수 있다.
    ═════════════════════════════════════════════════════════════════ */
 "use strict";
 
@@ -321,6 +318,3 @@ function isEmptySummary(s) {
   return !s || (!s.overview && !s.background.length && !s.discussion.length && !s.decisions.length && !s.actions.length && !s.plans.length && !s.issues.length);
 }
 
-/* ── 아이폰 앱(JavaScriptCore)용 다리 ──
-   세션 JSON 문자열을 받아 정리 결과 JSON 문자열을 돌려준다. */
-globalThis.voicenoteRuleSummaryJSON = (sessionJson) => JSON.stringify(ruleSummary(JSON.parse(sessionJson)));

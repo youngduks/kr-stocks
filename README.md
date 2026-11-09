@@ -95,45 +95,35 @@ Vercel 프로젝트 → Settings → Domains → `kr-stocks.com` 추가
 
 ## 보이스노트 (`/voicenote`)
 
-회의를 녹음하면서 실시간으로 자막·번역·회의록을 만드는 **단일 HTML 앱**.
+회의를 녹음하면서 실시간으로 **자막 · 번역(한국어 ↔ 영어·일본어·중국어) · 회의록**을 만드는 단일 HTML 앱.
 주식 사이트와 코드를 공유하지 않는 독립 도구이고, 이 사이트는 HTTPS 호스팅만 빌려준다
-(마이크와 브라우저 내장 AI는 HTTPS에서만 동작한다). 검색 노출은 막아 두었다.
+(마이크는 HTTPS에서만 열린다). 검색 노출은 막아 두었다.
 
-- 파일: `public/voicenote/index.html` — 외부 라이브러리 없음, 이 파일 하나가 전부
+- 파일: `public/voicenote/index.html` + `rules.js` — 외부 라이브러리 없음
 - 주소: `/voicenote` (`next.config.mjs`의 rewrite)
-- **서버도 API 키도 쓰지 않는다. 운영 비용 0원.**
+- **서버 없음. 사용자가 자기 Gemini 무료 키를 한 번 넣으면 브라우저가 Gemini를 바로 부른다.** 운영 비용 0원.
+  키는 그 브라우저(localStorage)에만 저장되고 `x-goog-api-key` 헤더로만 나간다.
+- PC 크롬, 아이폰·아이패드 Safari, 안드로이드 모두 같은 방식으로 동작한다.
 
-| 기능 | 방식 | 비고 |
-|---|---|---|
-| 음성 인식 | Web Speech API | Chrome은 Google 서버에서 처리(무료). Safari는 Apple |
-| 녹음 파일 | MediaRecorder → IndexedDB | 이 브라우저 안에만 저장, 내려받기 가능 |
-| 실시간 번역 | Chrome 기기 내 Translator API | 한국어 ↔ 영어·일본어·중국어. 없으면 MyMemory 무료 API(선택, 외부 전송) |
-| 회의 정리 (녹음 중) | 규칙 기반 | 한·영·일·중 어미/표현 패턴. 지연 0, 모든 브라우저 |
-| 회의 정리 (종료 후) | Chrome 기기 내 Prompt API (Gemini Nano) | 한국어 미지원이라 번역기로 영어를 거쳐 정리한 뒤 한국어로 되돌림 |
+### 쓰는 법
 
-정리 항목: 개요 · 배경 · 주요 논의 · 결정 사항 · 향후 계획(할 일·담당·기한 / 일정) · 미결 사항 · 키워드.
+1. https://aistudio.google.com/apikey 에서 구글 로그인 → API 키 만들기 → 복사
+2. `/voicenote` 첫 화면 칸에 붙여넣고 저장 (처음 한 번만)
+3. 상대 언어(영어·일본어·중국어) 고르고 **녹음 시작** → 끝나면 **종료** → Gemini가 회의록을 쓴다
 
-**아이폰·아이패드**
-- 웹(Safari): 자막·녹음·규칙 정리 + **‘아이폰 AI로 정리’** — 단축어 앱의 ‘모델 사용’(Apple Intelligence)으로
-  회의록을 만든다(무료). Safari엔 웹용 번역 API가 없어 실시간 번역은 외부 무료 번역(선택)만 된다.
-- 전용 앱: [`ios/VoiceNote.swiftpm`](ios/README.md) — 기기 내 음성 인식·실시간 번역·AI 회의록 전부 무료.
-  아이패드는 Swift Playgrounds로 바로 실행, 아이폰은 Mac(Xcode)으로 설치.
+### 동작 방식
 
-규칙 엔진은 `public/voicenote/rules.js` 한 곳에 있고, 아이폰 앱이 그 사본을 JavaScriptCore로 실행한다.
-고친 뒤 `scripts/sync-voicenote-rules.sh`로 사본을 맞출 것.
+| 단계 | 방식 |
+|---|---|
+| 녹음 | 마이크 하나를 MediaRecorder(녹음 파일 → IndexedDB)와 음성 조각 추출이 같이 쓴다 |
+| 받아쓰기 + 번역 | 7초가 지난 뒤 말이 0.35초 끊기는 곳(최대 14초)에서 16kHz WAV 조각을 잘라 Gemini에 보낸다. 한 번의 호출로 받아쓰기·언어 판별·번역을 JSON으로 받는다. 말소리가 거의 없는 조각은 보내지 않는다 |
+| 녹음 중 정리 | 규칙 기반(`rules.js`) — 배경·주요 논의·결정·할 일·계획·미결. 지연 0 |
+| 회의록 | 종료하면 녹취록 전체를 Gemini에 한 번 보내 개요·배경·주요 논의·결정 사항·향후 계획(할 일·담당·기한 / 일정)·미결 사항·키워드를 받는다 |
+| 키가 없을 때 | 브라우저 음성 인식(Web Speech)으로 녹음·자막만 |
 
-### 구현하면서 확인한 브라우저 동작 (Chromium 153)
-
-설계에 직접 영향을 준 것들이다. 같은 문제를 다시 밟지 않도록 남긴다.
-
-- `Translator.availability()`가 **응답 없이 멈추는** 경우가 있다. 번역 큐와 종료 처리가
-  이걸 기다리면 앱 전체가 멈추므로, 내장 AI 호출에는 전부 시한을 건다(`withTimeout`).
-- `LanguageModel.availability()`는 한국어 입출력에 `"unavailable"`을 준다.
-  그래서 AI 정리는 ko→en 번역 → 영어로 정리 → en→ko 번역 경로를 탄다.
-- `SpeechRecognition.available({ processLocally: true })`가 **탭을 크래시**시켰다.
-  기기 내 음성 인식은 설정의 실험 옵션(기본 꺼짐)으로만 둔다.
-- 기기 내 모델은 **사용자 클릭 직후에만** 내려받기를 시작할 수 있다. 녹음 시작·언어 전환·
-  "AI로 정리하기" 클릭 핸들러 안에서 번역기/AI를 준비한다.
+- 모델은 `gemini-flash-lite-latest`(받아쓰기) · `gemini-flash-latest`(회의록) 별칭을 먼저 쓰고, 없으면(404) 다음 후보로 넘어가며 성공한 모델을 기억한다.
+- 429(분당 한도)는 `retryDelay`만큼 기다렸다 같은 조각을 다시 보낸다. 하루 한도를 넘기면 조각을 모아 두고 ‘못 받아쓴 구간 다시’ 버튼으로 나중에 보낸다.
+- 무료 키는 Google이 보낸 내용을 서비스 개선에 쓸 수 있다 — 화면에 안내되어 있다. 민감한 회의는 유료 결제 키를 쓰거나 키 없이 녹음만 할 것.
 
 ## 향후 추가 기능 (Phase 2~3)
 

@@ -12,7 +12,17 @@
 import { fetchHlDex, withRetry } from "./fetchPrices";
 
 const BINANCE_FAPI = "https://fapi.binance.com/fapi/v1";
-const YAHOO_CHART = "https://query1.finance.yahoo.com/v8/finance/chart/EWY?range=5d&interval=1d";
+// 2026-11-09: KORU(/korea/koru)도 같은 방식 → 심볼을 매개변수로 (fetchEtfPerp). fetchEwy 는 래퍼.
+export type EtfPerpConfig = {
+  binanceSymbol: string;
+  hlName: string;
+  yahooSymbol: string;
+  /** 미국 종가 대비 이 % 넘게 벌어지면 데이터 이상으로 보고 숨김 (3배 상품은 크게) */
+  sanityPct?: number;
+};
+export const EWY_CFG: EtfPerpConfig = { binanceSymbol: "EWYUSDT", hlName: "xyz:EWY", yahooSymbol: "EWY" };
+export const KORU_CFG: EtfPerpConfig = { binanceSymbol: "KORUUSDT", hlName: "xyz:KORU", yahooSymbol: "KORU", sanityPct: 90 };
+const yahooChart = (sym: string) => `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(sym)}?range=5d&interval=1d`;
 const UA = "Mozilla/5.0 (compatible; kr-stocks/1.0)";
 
 export type EwyPerp = {
@@ -51,18 +61,18 @@ export type EwySnapshot = {
   vsUsClosePct: number | null;
 };
 
-async function fetchBinanceEwy(): Promise<EwyPerp | null> {
+async function fetchBinanceEwy(cfg: EtfPerpConfig): Promise<EwyPerp | null> {
   try {
     return await withRetry(async () => {
-      const r = await fetch(`${BINANCE_FAPI}/ticker/24hr?symbol=EWYUSDT`, {
+      const r = await fetch(`${BINANCE_FAPI}/ticker/24hr?symbol=${cfg.binanceSymbol}`, {
         headers: { "User-Agent": "Mozilla/5.0" },
         next: { revalidate: 30 },
       });
-      if (!r.ok) throw new Error(`Binance EWYUSDT ${r.status}`);
+      if (!r.ok) throw new Error(`Binance ${cfg.binanceSymbol} ${r.status}`);
       const t: any = await r.json();
       const price = Number(t?.lastPrice);
       const open = Number(t?.openPrice);
-      if (!(price > 0) || !(open > 0)) throw new Error("Binance EWYUSDT 값 없음");
+      if (!(price > 0) || !(open > 0)) throw new Error(`Binance ${cfg.binanceSymbol} 값 없음`);
       return {
         price,
         price24hAgo: open,
@@ -76,10 +86,10 @@ async function fetchBinanceEwy(): Promise<EwyPerp | null> {
   }
 }
 
-async function fetchHlEwy(): Promise<EwyPerp | null> {
+async function fetchHlEwy(cfg: EtfPerpConfig): Promise<EwyPerp | null> {
   try {
     const m = await withRetry(() => fetchHlDex("xyz"));
-    const c = m.get("xyz:EWY");
+    const c = m.get(cfg.hlName);
     if (!c) return null;
     const price = Number(c.markPx);
     const prev = Number(c.prevDayPx);
@@ -101,9 +111,9 @@ function nyDate(epochSec: number): string {
   return new Date(epochSec * 1000).toLocaleDateString("en-CA", { timeZone: "America/New_York" });
 }
 
-async function fetchUsClose(): Promise<EwyUsClose | null> {
+async function fetchUsClose(cfg: EtfPerpConfig): Promise<EwyUsClose | null> {
   try {
-    const r = await fetch(YAHOO_CHART, { headers: { "User-Agent": UA }, next: { revalidate: 60 } });
+    const r = await fetch(yahooChart(cfg.yahooSymbol), { headers: { "User-Agent": UA }, next: { revalidate: 60 } });
     if (!r.ok) return null;
     const d: any = await r.json();
     const res = d?.chart?.result?.[0];
@@ -142,11 +152,16 @@ async function fetchUsClose(): Promise<EwyUsClose | null> {
 // 웜 인스턴스 last-known-good — 업스트림이 전부 깜빡여도 '시각 표시한 마지막 값'을 보여주기 위함.
 // 너무 오래된 값은 실시간처럼 보이면 안 되므로 6시간까지만.
 const LKG_TTL_MS = 6 * 60 * 60 * 1000;
-let lkg: EwySnapshot | null = null;
+const lkgMap = new Map<string, EwySnapshot>();
 
-export async function fetchEwy(): Promise<EwySnapshot> {
+export function fetchEwy(): Promise<EwySnapshot> {
+  return fetchEtfPerp(EWY_CFG);
+}
+
+export async function fetchEtfPerp(cfg: EtfPerpConfig): Promise<EwySnapshot> {
   const now = Date.now();
-  const [binance, hl, us] = await Promise.all([fetchBinanceEwy(), fetchHlEwy(), fetchUsClose()]);
+  const [binance, hl, us] = await Promise.all([fetchBinanceEwy(cfg), fetchHlEwy(cfg), fetchUsClose(cfg)]);
+  const lkg = lkgMap.get(cfg.binanceSymbol) ?? null;
 
   if (!binance && !hl) {
     if (lkg && now - lkg.fetchedAt <= LKG_TTL_MS) return { ...lkg, stale: true };
@@ -159,9 +174,9 @@ export async function fetchEwy(): Promise<EwySnapshot> {
   if (us && us.close > 0) {
     const raw = ((p - us.close) / us.close) * 100;
     // sanity — 30% 넘게 벌어지면 데이터 이상(티커 변경·분할 등)으로 보고 숨김
-    vsUsClosePct = Math.abs(raw) <= 30 ? raw : null;
+    vsUsClosePct = Math.abs(raw) <= (cfg.sanityPct ?? 30) ? raw : null;
   }
   const snap: EwySnapshot = { fetchedAt: now, stale: false, binance, hl, us, primary, vsUsClosePct };
-  lkg = snap;
+  lkgMap.set(cfg.binanceSymbol, snap);
   return snap;
 }

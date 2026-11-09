@@ -68,6 +68,7 @@ export default async function GuideKospiNightHours() {
       fx={fx}
       related={[
         { href: "/korea/kospi-night", label: "코스피 야간선물 대신 보는 한국 ETF(EWY) 24시간 시세", desc: "미국 정규장 종가 대비 등락률 · 대용 지표" },
+        { href: "/korea/koru", label: "KORU(코루) 24시간 시세", desc: "한국 3배 레버리지 ETF · 미국 종가 대비 등락률" },
         { href: "/korea/samsung", label: "삼성전자 24시간 시세 (야간·주말)" },
         { href: "/guide/korean-overnight-prices", label: "한국 주식 야간 가격 확인하는 법" },
       ]}

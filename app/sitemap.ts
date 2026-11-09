@@ -32,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "hourly",
       priority: 0.9, // "코스피 야간선물"(네이버 월 18.8만) — EWY 24h 대용 지표 (2026-11-08)
     },
+    { url: `${base}/korea/koru`, lastModified: now, changeFrequency: "hourly", priority: 0.88 }, // KORU 34,150 · 코루 6,280 (2026-11-09)
     // 해설 가이드 (2026-11-08, 네이버 월간 검색량 기준 선정)
     { url: `${base}/guide/vix-index`, lastModified: now, changeFrequency: "monthly", priority: 0.85 }, // VIX지수 62,610
     { url: `${base}/guide/kospi-night-futures-hours`, lastModified: now, changeFrequency: "monthly", priority: 0.85 }, // 코스피200야간선물 50,340

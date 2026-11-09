@@ -327,6 +327,9 @@ export default async function KospiNightPage() {
             <Link href="/korea/hynix" prefetch={false} className="block font-semibold text-accent-blue hover:underline">
               → SK하이닉스 24시간 시세 (야간·주말)
             </Link>
+            <Link href="/korea/koru" prefetch={false} className="block font-semibold text-accent-blue hover:underline">
+              → KORU(코루) 한국 3배 레버리지 ETF 24시간 시세
+            </Link>
             <Link href="/guide/kospi-night-futures-hours" prefetch={false} className="block font-semibold text-accent-blue hover:underline">
               → 코스피200 야간선물 거래시간 정리
             </Link>

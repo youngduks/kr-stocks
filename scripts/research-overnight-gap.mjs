@@ -181,6 +181,11 @@ async function runStock(s) {
 }
 
 async function main() {
+  // ⚠ 바이낸스 5분봉을 대량 호출 — 2026-11-09 맥 IP 차단 사고(lib/binanceGuard.ts). 사람이 판단해 KRS_ALLOW_BINANCE=1 일 때만 실행.
+  if (process.env.KRS_ALLOW_BINANCE !== "1") {
+    console.error("바이낸스 호출 차단: KRS_ALLOW_BINANCE=1 일 때만 실행 (같은 IP의 다른 작업까지 막힐 수 있음)");
+    process.exit(2);
+  }
   const stocks = [];
   for (const s of STOCKS) {
     console.log(`[${s.name}] 계산 중…`);

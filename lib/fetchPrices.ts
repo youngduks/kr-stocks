@@ -4,6 +4,7 @@ import { fetchAllRegularCloses, type RegularClose } from "./regularClose";
 
 const HL_API = "https://api.hyperliquid.xyz/info";
 const UPBIT_API = "https://api.upbit.com/v1/ticker?markets=KRW-USDT";
+import { binanceAllowed } from "./binanceGuard";
 const BINANCE_FAPI = "https://fapi.binance.com/fapi/v1";
 
 type HlAssetCtx = {
@@ -160,6 +161,7 @@ async function fetchBinanceOne(symbol: string): Promise<[string, HlAssetCtx] | n
 async function fetchBinanceStocks(symbols: string[]): Promise<Map<string, HlAssetCtx>> {
   const out = new Map<string, HlAssetCtx>();
   if (symbols.length === 0) return out;
+  if (!binanceAllowed()) return out;
   const results = await Promise.all(symbols.map(fetchBinanceOne));
   for (const r of results) if (r) out.set(r[0], r[1]);
   return out;

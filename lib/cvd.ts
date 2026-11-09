@@ -9,6 +9,7 @@
 // 한국 토큰화 주식(삼성전자/SK하이닉스/현대차)은 바이낸스 선물로 상장돼 있어 계산 가능.
 // Hyperliquid 상장 종목(NVDA/DRAM 등)은 캔들에 taker buy/sell 분해가 없어 계산 불가.
 
+import { binanceAllowed } from "./binanceGuard";
 const BINANCE_FAPI = "https://fapi.binance.com/fapi/v1";
 
 export type CvdPoint = {
@@ -34,6 +35,7 @@ async function fetchCvdKlines(
   interval: "1h" | "4h",
   limit: number
 ): Promise<CvdPoint[]> {
+  if (!binanceAllowed()) return [];
   try {
     const r = await fetch(
       `${BINANCE_FAPI}/klines?symbol=${symbol}&interval=${interval}&limit=${limit}`,

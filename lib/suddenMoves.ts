@@ -7,6 +7,7 @@
 //   - 최근 6시간 안의 5분봉만 목록에 올림.
 // 데이터: 바이낸스 USDT-M 5분봉 (공개, limit 288 → 요청 가중치 2)
 
+import { binanceAllowed } from "./binanceGuard";
 const FAPI = "https://fapi.binance.com/fapi/v1/klines";
 
 export const SUDDEN_PRODUCTS = [
@@ -41,6 +42,7 @@ export function detectSudden(
 }
 
 export async function fetchSuddenMoves(maxEvents = 6): Promise<SuddenResult | null> {
+  if (!binanceAllowed()) return null;
   const now = Date.now();
   const results = await Promise.all(
     SUDDEN_PRODUCTS.map(async (p) => {

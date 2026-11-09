@@ -41,6 +41,9 @@ export const revalidate = 30;
 export const dynamicParams = false;
 
 export function generateStaticParams() {
+  // 로컬(맥) 빌드에서는 종목 페이지 사전 생성 생략 — 바이낸스 호출 0 (lib/binanceGuard.ts, 2026-11-09 IP 차단).
+  // ⚠ dynamicParams=false 라 로컬 next start 에서는 종목 주소가 404. 운영(Vercel) 빌드는 그대로 전 종목 생성.
+  if (!process.env.VERCEL && process.env.KRS_ALLOW_BINANCE !== "1") return [];
   return SYMBOLS.map((s) => ({ category: s.category, slug: s.slug }));
 }
 

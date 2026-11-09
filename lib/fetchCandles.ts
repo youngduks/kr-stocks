@@ -3,6 +3,7 @@
 //   t: open ms, T: close ms, o/h/l/c: string price (USD), v: volume
 
 const HL_API = "https://api.hyperliquid.xyz/info";
+import { binanceAllowed } from "./binanceGuard";
 const BINANCE_FAPI = "https://fapi.binance.com/fapi/v1";
 
 export type Candle = {
@@ -68,6 +69,7 @@ async function fetchBinanceKlines(
   interval: "1h" | "4h",
   limit: number
 ): Promise<Candle[]> {
+  if (!binanceAllowed()) return [];
   try {
     const r = await fetch(
       `${BINANCE_FAPI}/klines?symbol=${symbol}&interval=${interval}&limit=${limit}`,

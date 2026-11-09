@@ -6,12 +6,14 @@
 //   - globalLongShortAccountRatio: 그 종목 포지션을 가진 전체 계좌 중 순롱·순숏 계좌 비중
 // 1시간 단위 값. 페이지 ISR 주기와 별개로 5분 캐시(과도한 요청 방지).
 
+import { binanceAllowed } from "./binanceGuard";
 const BASE = "https://fapi.binance.com/futures/data";
 
 export type LongShortPoint = { longPct: number; shortPct: number; ratio: number; timestamp: number };
 export type LongShortData = { top: LongShortPoint | null; global: LongShortPoint | null };
 
 async function one(endpoint: string, symbol: string): Promise<LongShortPoint | null> {
+  if (!binanceAllowed()) return null;
   try {
     const r = await fetch(`${BASE}/${endpoint}?symbol=${symbol}&period=1h&limit=1`, {
       headers: { "User-Agent": "Mozilla/5.0" },

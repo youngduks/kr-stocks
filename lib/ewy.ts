@@ -11,6 +11,7 @@
 
 import { fetchHlDex, withRetry } from "./fetchPrices";
 
+import { binanceAllowed } from "./binanceGuard";
 const BINANCE_FAPI = "https://fapi.binance.com/fapi/v1";
 // 2026-11-09: KORU(/korea/koru)도 같은 방식 → 심볼을 매개변수로 (fetchEtfPerp). fetchEwy 는 래퍼.
 export type EtfPerpConfig = {
@@ -62,6 +63,7 @@ export type EwySnapshot = {
 };
 
 async function fetchBinanceEwy(cfg: EtfPerpConfig): Promise<EwyPerp | null> {
+  if (!binanceAllowed()) return null;
   try {
     return await withRetry(async () => {
       const r = await fetch(`${BINANCE_FAPI}/ticker/24hr?symbol=${cfg.binanceSymbol}`, {

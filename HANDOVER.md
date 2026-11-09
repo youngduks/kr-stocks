@@ -91,6 +91,11 @@ Vercel 프로젝트 환경변수에 설정됨. **키 이름만**:
 - **Cloudflare가 기본 curl UA를 403** → 검증 curl엔 브라우저 UA 헤더를 붙일 것.
 - **프로덕션 시각 캐비엇**: 샌드박스 `date`가 틀릴 때 있음(하루 어긋남 등). 시각·마감 계산은 라이브 `https://kr-stocks.com/api/prices`의 `fetched_at`(ms)으로 확인.
 - **캐시 계층**: 홈 ISR revalidate=120, 상세 force-dynamic+30, /poll ISR=300, /api/prices=30. 검증 시 `?_=$(date +%s)`로 캐시버스트.
+  - (2026-11-08 갱신) 종목 상세 `/[category]/[slug]`는 이제 **ISR revalidate=30 + generateStaticParams + dynamicParams=false** (force-dynamic 아님). 배포 직후 `.github/workflows/warm-after-deploy.yml`이 사이트맵 종목 주소를 미리 열어 빌드 때 만든 안내 페이지를 교체.
+- **⚠ 로컬(맥)에서 바이낸스 호출 금지 (2026-11-09 IP 차단 사고)**: 맥 IP가 바이낸스 fapi에서 차단됨(-1003 → 418). 로컬 `next build` 1회가 종목 페이지 63개를 미리 만들며 바이낸스를 수십~백여 번 호출했고, 하루 15회 빌드 + 리서치 스크립트 + 맥의 다른 바이낸스 작업(`binance_pos_alert.py` 등)이 같은 IP에 몰린 것이 원인. 같은 IP의 다른 작업까지 막힘.
+  - 조치: `lib/binanceGuard.ts` — `VERCEL` 환경 변수가 없으면(로컬 빌드·로컬 서버) 바이낸스 호출을 건너뜀. 로컬 빌드는 종목 페이지 사전 생성도 생략(로컬 `next start`에서 종목 주소는 404, 정상). 운영(Vercel) 빌드·런타임은 그대로.
+  - 예외는 `KRS_ALLOW_BINANCE=1` (사람이 판단해서만). `scripts/research-overnight-gap.mjs`도 이 값 없이는 실행 거부.
+  - 바이낸스가 필요한 화면 확인은 로컬 대신 운영(Vercel 서울 리전) 주소로.
 
 ## 11. 현재 상태 / 다음 작업
 

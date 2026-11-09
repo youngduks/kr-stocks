@@ -1,0 +1,2224 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="light dark">
+<title>보이스노트</title>
+<meta name="description" content="회의를 녹음하면서 실시간으로 자막·번역·요약을 만드는 브라우저 앱. 서버도 API 키도 쓰지 않습니다.">
+<style>
+/* ───────────────────────── 디자인 토큰 ───────────────────────── */
+:root {
+  --bg: #f6f7f9;
+  --card: #ffffff;
+  --card-2: #f0f2f5;
+  --line: #e3e6eb;
+  --text: #15191f;
+  --sub: #5b6573;
+  --dim: #8b95a3;
+  --accent: #2f6fed;
+  --accent-soft: #e6eefe;
+  --rec: #e5484d;
+  --rec-soft: #fdecec;
+  --ok: #1f9d55;
+  --ok-soft: #e5f6ec;
+  --warn: #b7791f;
+  --warn-soft: #fdf3e1;
+  --radius: 14px;
+  --radius-sm: 9px;
+  --shadow: 0 1px 2px rgb(16 24 40 / 6%), 0 1px 3px rgb(16 24 40 / 6%);
+  --font: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", "Malgun Gothic", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d1014;
+    --card: #161b21;
+    --card-2: #1d242c;
+    --line: #262e38;
+    --text: #e8edf3;
+    --sub: #9aa6b4;
+    --dim: #6b7685;
+    --accent: #5b8ff9;
+    --accent-soft: #1b2a44;
+    --rec: #ff5c61;
+    --rec-soft: #3a1d20;
+    --ok: #3ccf7f;
+    --ok-soft: #14301f;
+    --warn: #e3a948;
+    --warn-soft: #382c16;
+    --shadow: none;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0d1014; --card: #161b21; --card-2: #1d242c; --line: #262e38;
+  --text: #e8edf3; --sub: #9aa6b4; --dim: #6b7685; --accent: #5b8ff9;
+  --accent-soft: #1b2a44; --rec: #ff5c61; --rec-soft: #3a1d20; --ok: #3ccf7f;
+  --ok-soft: #14301f; --warn: #e3a948; --warn-soft: #382c16; --shadow: none;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.55 var(--font);
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+button, input, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: .45; }
+[hidden] { display: none !important; }
+
+/* ───────────────────────── 레이아웃 ───────────────────────── */
+.app-head {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 12px 16px;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.brand { display: flex; align-items: center; gap: 8px; font-weight: 750; font-size: 17px; }
+.brand-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--rec); }
+.head-actions { display: flex; gap: 6px; }
+
+main { max-width: 1240px; margin: 0 auto; padding: 16px; display: grid; gap: 14px; }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+/* ───────────────────────── 버튼 ───────────────────────── */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  min-height: 38px; padding: 0 14px;
+  border-radius: 999px; border: 1px solid var(--line);
+  background: var(--card); font-weight: 600; font-size: 14px; white-space: nowrap;
+}
+.btn:hover:not(:disabled) { background: var(--card-2); }
+.btn.ghost { border-color: transparent; background: transparent; }
+.btn.ghost:hover:not(:disabled) { background: var(--card-2); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn.primary:hover:not(:disabled) { filter: brightness(1.06); background: var(--accent); }
+.btn.rec { background: var(--rec); border-color: var(--rec); color: #fff; min-height: 46px; padding: 0 22px; font-size: 15px; }
+.btn.rec:hover:not(:disabled) { filter: brightness(1.06); background: var(--rec); }
+.btn.small { min-height: 30px; padding: 0 11px; font-size: 13px; }
+.btn.icon { width: 38px; padding: 0; }
+
+/* ───────────────────────── 컨트롤 패널 ───────────────────────── */
+.controls { padding: 16px; display: grid; gap: 14px; }
+.title-input {
+  width: 100%; border: 0; background: transparent; outline: none;
+  font-size: 20px; font-weight: 700; padding: 2px 0;
+}
+.title-input::placeholder { color: var(--dim); font-weight: 600; }
+.control-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.lang-box { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.lang-box label { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--sub); }
+select {
+  min-height: 36px; padding: 0 30px 0 12px; border-radius: var(--radius-sm);
+  border: 1px solid var(--line); background: var(--card-2);
+  appearance: none; -webkit-appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, var(--sub) 50%), linear-gradient(135deg, var(--sub) 50%, transparent 50%);
+  background-position: calc(100% - 15px) 52%, calc(100% - 10px) 52%;
+  background-size: 5px 5px; background-repeat: no-repeat;
+  color: var(--text); font-weight: 600; font-size: 14px;
+}
+.rec-box { display: flex; align-items: center; gap: 10px; margin-left: auto; flex-wrap: wrap; }
+.clock { display: flex; align-items: center; gap: 8px; font-variant-numeric: tabular-nums; font-size: 22px; font-weight: 750; min-width: 96px; }
+.rec-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--dim); }
+.is-recording .rec-dot { background: var(--rec); animation: blink 1.2s ease-in-out infinite; }
+@keyframes blink { 50% { opacity: .25; } }
+@media (prefers-reduced-motion: reduce) { .is-recording .rec-dot { animation: none; } }
+.meter { width: 70px; height: 6px; border-radius: 3px; background: var(--card-2); overflow: hidden; }
+.meter-bar { height: 100%; width: 0; background: var(--ok); transition: width .1s linear; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 12px; padding: 4px 10px; border-radius: 999px;
+  background: var(--card-2); color: var(--sub);
+}
+.chip::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--dim); }
+.chip.ok::before { background: var(--ok); }
+.chip.warn::before { background: var(--warn); }
+.chip.off::before { background: var(--dim); }
+.chip.busy::before { background: var(--accent); }
+
+.banner { padding: 10px 12px; border-radius: var(--radius-sm); font-size: 13px; line-height: 1.5; background: var(--warn-soft); color: var(--text); display: flex; gap: 10px; align-items: flex-start; }
+.banner.error { background: var(--rec-soft); }
+.banner .x { margin-left: auto; border: 0; background: transparent; color: var(--sub); font-size: 16px; line-height: 1; padding: 0 2px; }
+
+/* ───────────────────────── 본문 두 칸 ───────────────────────── */
+.tabs-mobile { display: none; gap: 6px; }
+.tabs-mobile .btn[aria-selected="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+.grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 14px; align-items: start; }
+.pane { display: flex; flex-direction: column; min-height: 420px; max-height: calc(100vh - 290px); max-height: calc(100dvh - 290px); }
+.pane-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 14px 16px 10px; border-bottom: 1px solid var(--line); }
+.pane-head h2 { margin: 0; font-size: 15px; }
+.pane-meta { font-size: 12px; color: var(--dim); }
+.pane-body { flex: 1; overflow-y: auto; padding: 14px 16px; overscroll-behavior: contain; }
+.pane-foot { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px 12px; border-top: 1px solid var(--line); }
+
+.seg-toggle { display: inline-flex; background: var(--card-2); border-radius: 999px; padding: 3px; }
+.seg-toggle button { border: 0; background: transparent; border-radius: 999px; padding: 4px 12px; font-size: 13px; font-weight: 600; color: var(--sub); }
+.seg-toggle button[aria-pressed="true"] { background: var(--card); color: var(--text); box-shadow: var(--shadow); }
+
+/* 자막 */
+.line { display: grid; grid-template-columns: 46px minmax(0, 1fr); gap: 4px 8px; padding: 6px 0; }
+.line + .line { border-top: 1px dashed var(--line); }
+.line-time { font-size: 11px; color: var(--dim); font-variant-numeric: tabular-nums; padding-top: 3px; }
+.line-text { word-break: keep-all; overflow-wrap: anywhere; }
+.line-tr { grid-column: 2; font-size: 14px; color: var(--accent); word-break: keep-all; overflow-wrap: anywhere; }
+.line-tr.pending { color: var(--dim); font-style: italic; }
+.line-tr.error { color: var(--warn); font-size: 12px; }
+.line-lang { font-size: 10px; font-weight: 700; color: var(--dim); margin-right: 6px; letter-spacing: .3px; }
+.line.interim .line-text { color: var(--sub); font-style: italic; }
+
+.empty { text-align: center; color: var(--dim); padding: 36px 12px; font-size: 14px; line-height: 1.7; }
+.empty strong { display: block; color: var(--text); font-size: 15px; margin-bottom: 4px; }
+.empty .btn { margin-top: 14px; }
+
+/* 정리 */
+.sum-section { margin-bottom: 18px; }
+.sum-section:last-child { margin-bottom: 0; }
+.sum-section h3 { margin: 0 0 8px; font-size: 12px; font-weight: 750; letter-spacing: .4px; color: var(--sub); display: flex; align-items: center; gap: 6px; }
+.sum-section h3 .n { font-weight: 600; color: var(--dim); }
+.overview { background: var(--accent-soft); border-radius: var(--radius-sm); padding: 12px 14px; font-weight: 600; margin-bottom: 18px; word-break: keep-all; }
+.sum-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.sum-list li { position: relative; padding-left: 14px; word-break: keep-all; overflow-wrap: anywhere; }
+.sum-list li::before { content: ""; position: absolute; left: 2px; top: .7em; width: 5px; height: 5px; border-radius: 50%; background: var(--dim); }
+.sum-list.decision li::before { background: var(--ok); }
+.sum-list.plan li::before { background: var(--accent); }
+.sum-list.issue li::before { background: var(--warn); }
+.topic { margin-bottom: 10px; }
+.topic-title { font-weight: 700; font-size: 14px; margin-bottom: 4px; }
+.actions { display: grid; gap: 6px; }
+.action { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 10px; padding: 9px 11px; border-radius: var(--radius-sm); background: var(--card-2); }
+.action-task { word-break: keep-all; overflow-wrap: anywhere; }
+.action-meta { display: flex; gap: 6px; align-items: start; justify-content: flex-end; flex-wrap: wrap; }
+.tag { font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 6px; background: var(--card); color: var(--sub); white-space: nowrap; }
+.tag.due { color: var(--warn); }
+.keywords { display: flex; flex-wrap: wrap; gap: 6px; }
+.keywords span { font-size: 12px; padding: 3px 10px; border-radius: 999px; background: var(--card-2); color: var(--sub); }
+.sum-note { font-size: 12px; color: var(--dim); border-top: 1px solid var(--line); padding-top: 10px; margin-top: 4px; line-height: 1.6; }
+.progress { height: 4px; border-radius: 2px; background: var(--card-2); overflow: hidden; margin: 10px 0 4px; }
+.progress > div { height: 100%; background: var(--accent); width: 0; transition: width .3s; }
+
+/* 녹음 파일 */
+.audio-box { padding: 12px 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.audio-box audio { flex: 1; min-width: 240px; height: 40px; }
+
+/* ───────────────────────── 다이얼로그 ───────────────────────── */
+dialog {
+  width: min(560px, calc(100vw - 32px));
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--card); color: var(--text); padding: 0;
+}
+dialog::backdrop { background: rgb(0 0 0 / 40%); }
+.dlg-head { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; border-bottom: 1px solid var(--line); }
+.dlg-head h2 { margin: 0; font-size: 16px; }
+.dlg-body { padding: 14px 16px; max-height: 65vh; overflow-y: auto; }
+.session-row { display: flex; align-items: center; gap: 10px; padding: 10px 0; }
+.session-row + .session-row { border-top: 1px solid var(--line); }
+.session-info { flex: 1; min-width: 0; }
+.session-title { font-weight: 650; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.session-meta { font-size: 12px; color: var(--dim); }
+.setting { display: flex; gap: 12px; padding: 12px 0; align-items: flex-start; }
+.setting + .setting { border-top: 1px solid var(--line); }
+.setting input[type="checkbox"] { width: 18px; height: 18px; margin-top: 3px; accent-color: var(--accent); flex: none; }
+.setting-title { font-weight: 650; }
+.setting-desc { font-size: 13px; color: var(--sub); margin-top: 2px; }
+.text-input { width: 100%; min-height: 36px; margin-top: 8px; padding: 0 10px; border-radius: var(--radius-sm); border: 1px solid var(--line); background: var(--card-2); }
+.menu { position: absolute; z-index: 20; min-width: 200px; padding: 6px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-sm); box-shadow: 0 8px 24px rgb(0 0 0 / 18%); }
+.menu button { display: block; width: 100%; text-align: left; border: 0; background: transparent; padding: 9px 10px; border-radius: 6px; font-size: 14px; }
+.menu button:hover:not(:disabled) { background: var(--card-2); }
+.toast { position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom)); transform: translateX(-50%); z-index: 50; background: var(--text); color: var(--bg); padding: 10px 16px; border-radius: 999px; font-size: 14px; font-weight: 600; box-shadow: 0 8px 24px rgb(0 0 0 / 20%); }
+
+/* ───────────────────────── 반응형 ───────────────────────── */
+@media (max-width: 900px) {
+  .grid { grid-template-columns: minmax(0, 1fr); }
+  .tabs-mobile { display: flex; }
+  .grid[data-tab="transcript"] #paneSummary,
+  .grid[data-tab="summary"] #paneTranscript { display: none; }
+  .pane { max-height: none; min-height: 55vh; }
+  .rec-box { margin-left: 0; width: 100%; }
+  .rec-box .clock { margin-right: auto; }
+}
+@media (max-width: 520px) {
+  main { padding: 12px; gap: 10px; }
+  .controls { padding: 14px; }
+  .title-input { font-size: 18px; }
+  .head-actions .label-long { display: none; }
+}
+
+/* ───────────────────────── 인쇄 ───────────────────────── */
+@media print {
+  .app-head, .controls, .tabs-mobile, .pane-foot, .audio-box, .seg-toggle, .toast { display: none !important; }
+  body { background: #fff; color: #000; }
+  main { padding: 0; }
+  .grid { display: block; }
+  .grid #paneSummary, .grid #paneTranscript { display: block !important; }
+  .pane { max-height: none; border: 0; box-shadow: none; break-inside: auto; }
+  .pane-body { overflow: visible; }
+  #paneSummary { break-after: page; }
+}
+</style>
+</head>
+<body>
+
+<header class="app-head">
+  <div class="brand"><span class="brand-dot" aria-hidden="true"></span>보이스노트</div>
+  <div class="head-actions">
+    <button class="btn ghost" id="btnSessions" type="button">회의 목록</button>
+    <button class="btn ghost" id="btnNew" type="button"><span>새 회의</span></button>
+    <button class="btn ghost icon" id="btnSettings" type="button" aria-label="설정" title="설정">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="app">
+  <section class="card controls" aria-label="녹음 설정">
+    <input class="title-input" id="title" type="text" maxlength="80" placeholder="회의 제목 (비워 두면 자동으로 붙습니다)" aria-label="회의 제목">
+    <div class="control-row">
+      <div class="lang-box">
+        <label>말하는 언어 <select id="speechLang" aria-label="말하는 언어"></select></label>
+        <button class="btn icon small" id="btnSwap" type="button" aria-label="두 언어 바꾸기" title="두 언어 바꾸기 (상대가 말할 차례일 때)">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4 3 8l4 4"/><path d="M3 8h14"/><path d="m17 20 4-4-4-4"/><path d="M21 16H7"/></svg>
+        </button>
+        <label>번역 <select id="targetLang" aria-label="번역 언어"></select></label>
+      </div>
+      <div class="rec-box">
+        <div class="clock"><span class="rec-dot" aria-hidden="true"></span><span id="clock">00:00</span></div>
+        <div class="meter" aria-hidden="true"><div class="meter-bar" id="meterBar"></div></div>
+        <button class="btn rec" id="btnRecord" type="button">● 녹음 시작</button>
+        <button class="btn" id="btnPause" type="button" hidden>일시정지</button>
+        <button class="btn" id="btnStop" type="button" hidden>■ 종료</button>
+      </div>
+    </div>
+    <div class="chips" id="chips" aria-live="polite"></div>
+    <div id="banners"></div>
+  </section>
+
+  <div class="tabs-mobile" role="tablist">
+    <button class="btn small" role="tab" data-tab="transcript" aria-selected="true" type="button">자막·번역</button>
+    <button class="btn small" role="tab" data-tab="summary" aria-selected="false" type="button">회의 정리</button>
+  </div>
+
+  <div class="grid" id="grid" data-tab="transcript">
+    <section class="card pane" id="paneTranscript" aria-label="실시간 자막">
+      <div class="pane-head">
+        <h2>실시간 자막</h2>
+        <span class="pane-meta" id="segCount"></span>
+      </div>
+      <div class="pane-body" id="transcript"></div>
+    </section>
+
+    <section class="card pane" id="paneSummary" aria-label="회의 정리">
+      <div class="pane-head">
+        <h2>회의 정리</h2>
+        <div class="seg-toggle" role="group" aria-label="정리 방식">
+          <button type="button" data-view="rule" aria-pressed="true">실시간</button>
+          <button type="button" data-view="ai" aria-pressed="false">AI 정리</button>
+        </div>
+      </div>
+      <div class="pane-body" id="summary"></div>
+      <div class="pane-foot">
+        <button class="btn small primary" id="btnAi" type="button">AI로 정리하기</button>
+        <button class="btn small" id="btnCopy" type="button">요약 복사</button>
+        <button class="btn small" id="btnExport" type="button" aria-haspopup="menu">내보내기 ▾</button>
+      </div>
+    </section>
+  </div>
+
+  <section class="card audio-box" id="audioBox" hidden aria-label="녹음 파일"></section>
+</main>
+
+<dialog id="dlgSessions" aria-labelledby="dlgSessionsTitle">
+  <div class="dlg-head"><h2 id="dlgSessionsTitle">회의 목록</h2><button class="btn ghost small" type="button" data-close>닫기</button></div>
+  <div class="dlg-body" id="sessionList"></div>
+</dialog>
+
+<dialog id="dlgSettings" aria-labelledby="dlgSettingsTitle">
+  <div class="dlg-head"><h2 id="dlgSettingsTitle">설정</h2><button class="btn ghost small" type="button" data-close>닫기</button></div>
+  <div class="dlg-body">
+    <label class="setting">
+      <input type="checkbox" id="setSaveAudio">
+      <div>
+        <div class="setting-title">녹음 파일 저장</div>
+        <div class="setting-desc">음성을 파일로도 남깁니다(이 브라우저 안에만 저장). 일부 안드로이드 기기는 녹음과 음성 인식이 마이크를 동시에 못 쓰는데, 자막이 안 나오면 이걸 꺼 보세요.</div>
+      </div>
+    </label>
+    <label class="setting">
+      <input type="checkbox" id="setLocalSpeech">
+      <div>
+        <div class="setting-title">기기 내 음성 인식 (실험적)</div>
+        <div class="setting-desc">브라우저가 지원하면 음성을 기기 안에서 인식합니다. 꺼 두면 브라우저 기본 방식(Chrome은 Google 서버)으로 처리됩니다. 일부 Chrome 버전에서 이 기능을 확인하다 탭이 멈춘 사례가 있어 기본으로 꺼 두었습니다.</div>
+      </div>
+    </label>
+    <label class="setting">
+      <input type="checkbox" id="setExternal">
+      <div>
+        <div class="setting-title">외부 무료 번역 사용 (MyMemory)</div>
+        <div class="setting-desc">브라우저에 기기 내 번역이 없을 때(모바일, Safari, Firefox 등)만 씁니다. <b>자막 문장이 MyMemory 서버로 전송됩니다.</b> 무료 한도는 하루 약 5,000자이고, 아래에 이메일을 넣으면 약 50,000자로 늘어납니다.</div>
+        <input class="text-input" id="setEmail" type="email" placeholder="이메일 (선택 · 한도 확장용)" autocomplete="email">
+      </div>
+    </label>
+    <div class="setting">
+      <div>
+        <div class="setting-title">이 브라우저의 기능 지원 현황</div>
+        <div class="setting-desc" id="capReport">확인 중…</div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script>
+"use strict";
+
+/* ═════════════════════════════════════════════════════════════════
+   보이스노트 — 음성 녹음 · 실시간 번역 · 회의 정리
+   서버도 API 키도 없다. 브라우저가 제공하는 기능만으로 동작한다.
+
+   음성 인식  Web Speech API (기기 내 처리를 지원하면 우선 사용)
+   번역       Chrome 기기 내 Translator API → (선택) MyMemory 무료 API
+   회의 정리  ① 규칙 기반 — 녹음 중 즉시, 모든 브라우저
+              ② 기기 내 AI — Chrome Prompt API(Gemini Nano)가 있을 때 종료 후
+   저장       localStorage(텍스트) + IndexedDB(녹음 파일). 전부 이 브라우저 안.
+   ═════════════════════════════════════════════════════════════════ */
+
+const LANGS = {
+  ko: { label: "한국어", short: "KO", bcp: "ko-KR", mm: "ko" },
+  en: { label: "영어", short: "EN", bcp: "en-US", mm: "en" },
+  ja: { label: "일본어", short: "JA", bcp: "ja-JP", mm: "ja" },
+  zh: { label: "중국어", short: "ZH", bcp: "zh-CN", mm: "zh-CN" },
+};
+const FOREIGN = ["en", "ja", "zh"];
+
+/* ───────────────────────── 작은 도구 ───────────────────────── */
+
+const $ = (sel, root = document) => root.querySelector(sel);
+
+/** 안전한 DOM 생성기. 사용자 텍스트는 언제나 textContent로만 들어간다. */
+function h(tag, attrs, ...children) {
+  const el = document.createElement(tag);
+  if (attrs) {
+    for (const [k, v] of Object.entries(attrs)) {
+      if (v == null || v === false) continue;
+      if (k === "class") el.className = v;
+      else if (k === "text") el.textContent = v;
+      else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+      else if (k === "dataset") Object.assign(el.dataset, v);
+      else el.setAttribute(k, v === true ? "" : String(v));
+    }
+  }
+  for (const c of children.flat()) {
+    if (c == null || c === false) continue;
+    el.append(c instanceof Node ? c : document.createTextNode(String(c)));
+  }
+  return el;
+}
+
+function fmtClock(ms) {
+  const t = Math.max(0, Math.floor(ms / 1000));
+  const hh = Math.floor(t / 3600), mm = Math.floor((t % 3600) / 60), ss = t % 60;
+  const p = (n) => String(n).padStart(2, "0");
+  return hh ? `${hh}:${p(mm)}:${p(ss)}` : `${p(mm)}:${p(ss)}`;
+}
+function fmtDuration(ms) {
+  const m = Math.round(ms / 60000);
+  if (ms < 60000) return `${Math.round(ms / 1000)}초`;
+  return m < 60 ? `${m}분` : `${Math.floor(m / 60)}시간 ${m % 60}분`;
+}
+function fmtDate(ts) {
+  const d = new Date(ts), p = (n) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}.${p(d.getMonth() + 1)}.${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
+}
+const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/**
+ * 브라우저 내장 AI API는 응답 없이 멈추는 일이 있다 (Chromium 153에서
+ * Translator.availability()가 끝나지 않는 것을 확인). 기다리는 쪽이 번역 큐나
+ * 종료 처리라서, 멈추면 앱 전체가 멈춘다. 그래서 모든 호출에 시한을 건다.
+ */
+function withTimeout(promise, ms, label = "응답 시간 초과") {
+  let t;
+  return Promise.race([
+    promise,
+    new Promise((_, reject) => { t = setTimeout(() => reject(Object.assign(new Error(label), { name: "TimeoutError" })), ms); }),
+  ]).finally(() => clearTimeout(t));
+}
+
+/**
+ * 모델 다운로드처럼 오래 걸리는 작업용 — 진행 이벤트가 끊긴 채 idleMs가 지나면 실패.
+ * start(onActivity)는 진행 이벤트마다 onActivity()를 불러야 한다.
+ */
+function withIdleTimeout(start, idleMs, label = "응답이 없어 중단했습니다") {
+  return new Promise((resolve, reject) => {
+    let t;
+    const arm = () => { clearTimeout(t); t = setTimeout(() => reject(Object.assign(new Error(label), { name: "TimeoutError" })), idleMs); };
+    arm();
+    start(arm).then((v) => { clearTimeout(t); resolve(v); }, (e) => { clearTimeout(t); reject(e); });
+  });
+}
+
+let toastTimer;
+function toast(msg) {
+  document.querySelector(".toast")?.remove();
+  const el = h("div", { class: "toast", role: "status", text: msg });
+  document.body.append(el);
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.remove(), 2400);
+}
+
+function download(filename, blobOrText, type = "text/plain;charset=utf-8") {
+  const blob = blobOrText instanceof Blob ? blobOrText : new Blob([blobOrText], { type });
+  const url = URL.createObjectURL(blob);
+  const a = h("a", { href: url, download: filename });
+  document.body.append(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 4000);
+}
+const safeFilename = (s) => (s || "회의").replace(/[\\/:*?"<>|]+/g, " ").trim().slice(0, 60) || "회의";
+
+/* ───────────────────────── 설정 ───────────────────────── */
+
+const Settings = {
+  KEY: "voicenote.settings.v1",
+  // localSpeech는 기본 꺼짐 — SpeechRecognition.available()이 Chromium 153 헤드리스에서
+  // 탭을 크래시시키는 것을 확인했다. 실기기에서 안전하다는 확인 전까지는 실험 옵션으로 둔다.
+  v: { saveAudio: true, localSpeech: false, external: false, email: "", speechLang: "ko", targetLang: "en" },
+  load() {
+    try { Object.assign(this.v, JSON.parse(localStorage.getItem(this.KEY) || "{}")); } catch {}
+  },
+  save() {
+    try { localStorage.setItem(this.KEY, JSON.stringify(this.v)); } catch {}
+  },
+};
+
+/* ───────────────────────── 저장소 ─────────────────────────
+   텍스트(자막·정리)는 localStorage, 녹음 파일은 IndexedDB.
+   목록은 가벼운 인덱스만 따로 둬서 회의가 쌓여도 목록이 느려지지 않게 한다. */
+
+const Store = {
+  INDEX: "voicenote.index.v1",
+  key: (id) => `voicenote.session.${id}`,
+  list() {
+    try { return JSON.parse(localStorage.getItem(this.INDEX) || "[]").sort((a, b) => b.createdAt - a.createdAt); }
+    catch { return []; }
+  },
+  get(id) {
+    try { return JSON.parse(localStorage.getItem(this.key(id)) || "null"); } catch { return null; }
+  },
+  save(s) {
+    const meta = { id: s.id, title: s.title || autoTitle(s), createdAt: s.createdAt, durationMs: s.durationMs, count: s.segments.length, audioParts: s.audioParts || 0 };
+    try {
+      localStorage.setItem(this.key(s.id), JSON.stringify(s));
+      const idx = this.list().filter((m) => m.id !== s.id);
+      idx.push(meta);
+      localStorage.setItem(this.INDEX, JSON.stringify(idx));
+      return true;
+    } catch (e) {
+      // 용량 초과 — 녹음은 계속되고, 사용자에게만 알린다.
+      UI.banner("저장 공간이 부족해 회의 내용을 저장하지 못했습니다. 오래된 회의를 지우거나 내보내기로 백업해 주세요.", "error", "quota");
+      return false;
+    }
+  },
+  remove(id) {
+    const parts = this.list().find((m) => m.id === id)?.audioParts || 0; // 인덱스에서 지우기 전에 읽는다
+    localStorage.removeItem(this.key(id));
+    localStorage.setItem(this.INDEX, JSON.stringify(this.list().filter((m) => m.id !== id)));
+    Audio_.removeAll(id, parts).catch(() => {});
+  },
+};
+
+/** 녹음 파일 — IndexedDB. 회의 하나에 여러 조각(이어서 녹음)을 담을 수 있다. */
+const Audio_ = {
+  db: null,
+  open() {
+    if (this.db) return Promise.resolve(this.db);
+    return new Promise((resolve, reject) => {
+      if (!("indexedDB" in window)) return reject(new Error("no idb"));
+      const req = indexedDB.open("voicenote", 1);
+      req.onupgradeneeded = () => req.result.createObjectStore("audio");
+      req.onsuccess = () => resolve((this.db = req.result));
+      req.onerror = () => reject(req.error);
+    });
+  },
+  async tx(mode, fn) {
+    const db = await this.open();
+    return new Promise((resolve, reject) => {
+      const t = db.transaction("audio", mode);
+      const r = fn(t.objectStore("audio"));
+      t.oncomplete = () => resolve(r?.result);
+      t.onerror = () => reject(t.error);
+    });
+  },
+  put(id, part, blob) { return this.tx("readwrite", (s) => s.put(blob, `${id}:${part}`)); },
+  get(id, part) { return this.tx("readonly", (s) => s.get(`${id}:${part}`)); },
+  async removeAll(id, parts) {
+    const n = Math.max(parts || 0, 1);
+    await this.tx("readwrite", (s) => { for (let i = 0; i < n; i++) s.delete(`${id}:${i}`); });
+  },
+};
+
+/* ═════════════════════════════════════════════════════════════════
+   규칙 기반 회의 정리
+   ─────────────────────────────────────────────────────────────────
+   LLM 없이 자막에서 바로 만든다. 녹음 중 화면은 이걸로 채운다(지연 0).
+   이건 "추출"이지 "재서술"이 아니다 — 말한 문장을 골라 분류할 뿐이다.
+
+   패턴은 넉넉함보다 좁게 잡았다. 놓치는 건 괜찮지만 엉뚱한 문장을
+   결정사항이라고 우기면 안 된다. 실제로 "오늘 회의 시작하겠습니다"가
+   할 일로 잡히던 문제 때문에 회의 진행 상용구(boiler)를 따로 막는다.
+   ═════════════════════════════════════════════════════════════════ */
+
+const WORK_KO = "확인|정리|공유|준비|검토|수정|반영|전달|보완|처리|작성|조사|연락|요청|정하|결정|테스트|배포|수집|모집|계산|산정|보고|발표|제출|업데이트|세팅|설정|예약|섭외";
+
+const RULES = {
+  ko: {
+    split: /(?<=[.!?…])\s+/,
+    filler: /^(네|예|아|어|음|응|그쵸|그죠|맞아요?|그렇죠|알겠습니다|감사합니다|안녕하세요|좋습니다|그래요|오케이|넵)[.!?~\s]*$/,
+    boiler: /(회의|오늘|이만|여기까지|자리)[\s를은는]*(시작|마치|끝내|종료|진행|하겠|합니다)|수고(하셨|했)|고생(하셨|했)|안녕하[세십]|잘\s?부탁/,
+    question: [/\?\s*$/, /(인가요|일까요|나요|까요|은가요|던가요|ㄹ까요)[.?]?\s*$/],
+    decision: [
+      /(하는|가는|쓰는|넣는|빼는|진행하는|유지하는)\s?걸로\s?(하|합|했|가|정|확정)/,
+      /로\s?(하죠|하시죠|갑시다|가시죠|합시다|가죠)/,
+      /(결정|확정|채택|승인|합의)(했|됐|되었|입니다|하겠|하는|된|함)/,
+      /결론(은|적으로)/,
+      /최종(적으로|은)?\s?(결정|확정)/,
+    ],
+    action: [
+      /하기로\s*(했|하|합)/,
+      new RegExp(`(${WORK_KO})\\S*(하겠|할게|해야|해서|해\\s?주|하고|할|해\\s?드릴)`),
+      /해\s?(주|드리)(세요|시겠|겠|실\s?수)/,
+      /부탁(드립|합니다|드려요)/,
+      /(보내|올리|만들|잡|돌리)(아\s?주|어\s?주|주세요|드리겠|어야|겠습니다)/,
+      /알아보(고|겠|자|기로)/,
+      /까지\s?\S*(하|끝|완료|보내|드리|주)/,
+    ],
+    background: /(배경|목적|취지|현황|문제는|이슈는|원인|지난\s?(주|달|번|회의|분기)|그동안|요즘|최근|때문에|상황이|발생하고|발생했)/,
+    plan: /(향후|앞으로|다음\s?(주|달|단계|회의|분기|번)|계획|예정|일정|로드맵|목표|마일스톤|이후에|단계적으로)/,
+    open: /(다음\s?회의에서|추후|보류|미정|검토가?\s?필요|다시\s?논의|확인이?\s?필요|아직\s?(정하지|결정|모르)|못\s?정)/,
+    emphasis: /(결론|핵심|중요한|정리하면|요약하면|문제는|관건은|포인트는|제일|가장)/,
+    density: 40,
+  },
+  en: {
+    split: /(?<=[.!?])\s+/,
+    filler: /^(ok(ay)?|yeah|yes|yep|right|uh+|um+|hmm+|sure|thanks?( you)?|got it|i see|alright|hello|hi)[.!?,\s]*$/i,
+    boiler: /\b(let'?s (get )?start(ed)?|that'?s (all|it) for today|thanks?,? (everyone|all)|see you|good (morning|afternoon)|welcome)\b/i,
+    question: [/\?\s*$/],
+    decision: [/\b(we('ve| have)? decided|decided to|we agreed|agreed (to|on)|let'?s go with|we'?ll go with|approved|final decision|in conclusion|it'?s settled|confirmed)\b/i],
+    action: [/\b(i'?ll|i will|we'?ll|we will|(you|he|she|they) will|going to|need to|needs to|has to|have to|should|action item|follow up|take care of|can you|could you|please)\b/i, /\bby (monday|tuesday|wednesday|thursday|friday|tomorrow|next week|end of)/i],
+    background: /\b(background|context|because|currently|recently|last (week|month|quarter|time)|the (problem|issue) is|the goal is|so far)\b/i,
+    plan: /\b(next (week|month|quarter|step|steps|meeting|phase)|plan(ning)?|roadmap|schedule|timeline|going forward|from now on|milestone|later this)\b/i,
+    open: /\b(tbd|open question|not sure|pending|on hold|revisit|next meeting|later|undecided|still need to decide)\b/i,
+    emphasis: /\b(key|important|main point|bottom line|in short|to sum up|most|critical)\b/i,
+    density: 80,
+  },
+  ja: {
+    split: /(?<=[。！？!?])\s*/,
+    filler: /^(はい|ええ|うん|なるほど|そうですね|了解です|ありがとうございます|お疲れ様です|あの|えっと)[。、！？!?\s]*$/,
+    boiler: /(会議を(始め|終わり|終了)|本日は以上|お疲れ様でした|よろしくお願いします)/,
+    question: [/[？?]\s*$/, /(ですか|でしょうか|ますか|ませんか)[。]?\s*$/],
+    decision: [/(決定|決まり|にしましょう|で行きましょう|でいきましょう|合意|承認|確定)/],
+    action: [/(しておきます|やっておきます|対応します|確認して|お願いします|お願いできますか|までに|担当します|進めます)/],
+    background: /(背景|目的|現状|課題|問題は|原因|先週|前回|最近|ため|これまで)/,
+    plan: /(今後|来週|来月|次回|予定|計画|スケジュール|ロードマップ|目標|次のステップ)/,
+    open: /(保留|未定|次回検討|要検討|持ち帰|まだ決まって)/,
+    emphasis: /(結論|ポイント|重要|一番|要するに|まとめると)/,
+    density: 25,
+  },
+  zh: {
+    split: /(?<=[。！？!?])\s*/,
+    filler: /^(好的?|嗯+|对|是的?|明白|谢谢|没问题|那个|就是)[。，！？!?\s]*$/,
+    boiler: /(会议(开始|结束)|今天就到这|辛苦了|大家好)/,
+    question: [/[？?]\s*$/, /(吗|呢|是不是|要不要)[。]?\s*$/],
+    decision: [/(决定|确定|就这么定|同意|通过|批准|定下来|达成一致)/],
+    action: [/(负责|跟进|我来|我去|需要|请.{0,8}(确认|处理|准备|发)|之前完成|落实|安排一下)/],
+    background: /(背景|目的|现状|问题是|原因|上周|上个月|之前|最近|因为)/,
+    plan: /(下周|下个月|下一步|计划|安排|日程|今后|接下来|目标|里程碑)/,
+    open: /(待定|再议|下次讨论|未决|还没定|需要再确认)/,
+    emphasis: /(结论|关键|重要|最|总之|总结一下)/,
+    density: 25,
+  },
+};
+
+/* 한국어 조사 — 명사 끝 글자와 겹치는 정도에 따라 요구 어간 길이를 다르게 둔다.
+   "재시도"에서 '도'를 떼어 "재시"가 되던 사고를 막기 위해서다. */
+// 서술격 조사("입니다" 등)도 같이 벗긴다 — 안 그러면 "예산입니다"와 "예산"이 다른 단어로 세어진다.
+const KO_LONG_P = ["입니다", "이에요", "에서는", "에게서", "이라고", "으로는", "이라는", "이었", "예요", "이고", "이며", "인데", "라고", "로는", "에서", "에게", "께서", "부터", "까지", "마다", "처럼", "보다", "이나", "으로", "라는", "한테"];
+const KO_SAFE_P = ["은", "는", "을", "를", "의", "에"];
+const KO_RISKY_P = ["도", "만", "와", "과", "이", "가", "로"];
+const KO_STOP = new Set(("그리고 그래서 하지만 그런데 근데 그러면 그럼 그러니까 이거 저거 그거 이제 지금 우리 저희 여기 거기 부분 경우 정도 생각 얘기 이야기 말씀 느낌 상황 진짜 조금 되게 약간 그냥 사실 일단 아무래도 혹시 같아요 있는 하는 되는 이런 저런 그런 무슨 어떤 때문 이렇게 저렇게 그렇게 다시 먼저 다음 이번 네네 예예 맞아요 그렇죠 알겠습니다 감사합니다 주세요 합니다 습니다 해서 하고 오늘 저는 제가 있습니다 없습니다 했습니다 하겠습니다 같습니다 있어요 해요 거예요 겁니다 건데 그게 이게 저게 거의 계속 많이 너무 아주 정말 이미 아직 요즘 최근 관련 회의").split(" "));
+const EN_STOP = new Set("the a an and or but so to of in on at for with from by is are was were be been being it this that these those we you they he she i our your their there here have has had do does did will would can could should just really very also about into than then them what which who when where why how all any some more most other such only own same too not no yes okay ok yeah like get got going gonna want need think know let make sure one two thing things lot let's lets next still instead maybe okay".split(" "));
+
+function stripKoParticle(w) {
+  for (const p of KO_LONG_P) if (w.length >= p.length + 2 && w.endsWith(p)) return w.slice(0, -p.length);
+  for (const p of KO_SAFE_P) if (w.length >= 3 && w.endsWith(p)) return w.slice(0, -1);
+  for (const p of KO_RISKY_P) if (w.length >= 4 && w.endsWith(p)) return w.slice(0, -1);
+  return w;
+}
+
+/** 키워드 후보 토큰. 형태소 분석기 없이 언어별로 근사한다. */
+function tokens(text, lang) {
+  if (lang === "ko") {
+    // 한국어 회의에도 "API", "PR" 같은 영어가 섞인다. 영어 토큰엔 영어 불용어를 적용한다.
+    return text.replace(/[^가-힣a-zA-Z0-9\s]/g, " ").split(/\s+/).map(stripKoParticle)
+      .filter((w) => w.length >= 2 && !KO_STOP.has(w) && !(/^[a-zA-Z]+$/.test(w) && EN_STOP.has(w.toLowerCase())));
+  }
+  if (lang === "en") {
+    return text.toLowerCase().replace(/[^a-z0-9\s'-]/g, " ").split(/\s+/).map((w) => w.replace(/^'+|'+$/g, "")).filter((w) => w.length >= 3 && !EN_STOP.has(w) && !/^\d+$/.test(w));
+  }
+  if (lang === "ja") {
+    // 가타카나 외래어 · 한자 복합어 · 영숫자 덩어리
+    return text.match(/[゠-ヿ]{2,}|[一-鿿]{2,4}|[A-Za-z][A-Za-z0-9]+/g) || [];
+  }
+  // zh — 띄어쓰기가 없으므로 한자 bigram으로 근사
+  const out = [];
+  for (const run of text.match(/[一-鿿]+/g) || []) {
+    for (let i = 0; i + 2 <= run.length; i++) out.push(run.slice(i, i + 2));
+  }
+  return out.concat(text.match(/[A-Za-z][A-Za-z0-9]+/g) || []);
+}
+
+function topKeywords(items, n, exclude = new Set()) {
+  const count = new Map();
+  for (const it of items) for (const w of tokens(it.text, it.lang)) count.set(w, (count.get(w) || 0) + 1);
+  // "예산이"처럼 3글자 + 위험 조사인 어절은 규칙상 그대로 남는다("어린이"→"어린" 방지).
+  // 같은 회의에 "예산"이 따로 나왔다면 그때만 합친다 — 사전 대신 데이터로 판단.
+  for (const [w, c] of [...count]) {
+    if (w.length === 3 && KO_RISKY_P.includes(w.slice(-1)) && count.has(w.slice(0, -1))) {
+      count.set(w.slice(0, -1), count.get(w.slice(0, -1)) + c);
+      count.delete(w);
+    }
+  }
+  return [...count.entries()].filter(([w, c]) => c >= 2 && !exclude.has(w)).sort((a, b) => b[1] - a[1] || b[0].length - a[0].length).slice(0, n).map(([w]) => w);
+}
+
+const trimTail = (s) => s.replace(/\s*[.。·,，、]+\s*$/, "").trim();
+
+function splitSentences(text, lang) {
+  return text.split(RULES[lang].split).map((s) => s.trim()).filter(Boolean);
+}
+
+function classify(text, lang) {
+  const R = RULES[lang];
+  if (R.question.some((r) => r.test(text))) return "question";
+  if (R.boiler.test(text)) return "plain";
+  if (R.decision.some((r) => r.test(text))) return "decision";
+  if (R.action.some((r) => r.test(text))) return "action";
+  return "plain";
+}
+
+function score(text, lang, kws) {
+  const R = RULES[lang];
+  if (R.filler.test(text) || R.boiler.test(text) || text.length < 3) return 0;
+  let s = Math.min(text.length / R.density, 1.5);
+  if (/\d/.test(text)) s += 0.8;
+  if (R.emphasis.test(text)) s += 1.2;
+  s += Math.min(kws.filter((k) => text.toLowerCase().includes(k.toLowerCase())).length, 3) * 0.6;
+  return s;
+}
+
+const TITLE_KO = "대리|과장|부장|팀장|차장|사원|매니저|책임|선임|수석|실장|이사|대표|본부장|파트장|프로|님|씨";
+function findOwner(text, lang) {
+  if (lang === "ko") {
+    const m = text.match(new RegExp(`([가-힣]{1,4}\\s?(?:${TITLE_KO})(?:님)?)(?=이|가|께서|은|는|한테|에게|\\s)`));
+    if (m) return m[1].replace(/\s+/g, "");
+    const team = text.match(/([가-힣A-Za-z]{1,8}\s?팀)(?:에서|이|가|은|는)/);
+    if (team) return team[1];
+    if (/(^|\s)(제가|저희가|저희\s?쪽에서|제\s?쪽에서)/.test(text)) return "발언자";
+    return "";
+  }
+  if (lang === "en") {
+    if (/\b(I'?ll|I will|I can|I'm going to)\b/i.test(text)) return "발언자";
+    const m = text.match(/\b([A-Z][a-z]{1,15})(?:,)? (?:will|is going to|can you|could you|to handle|to take)\b/);
+    return m ? m[1] : "";
+  }
+  if (lang === "ja") {
+    const m = text.match(/([一-鿿゠-ヿ]{1,5}(?:さん|様|課長|部長|チーム))(?:が|は|に|で)/);
+    if (m) return m[1];
+    return /(私が|僕が|こちらで)/.test(text) ? "발언자" : "";
+  }
+  const m = text.match(/([一-鿿]{1,3}(?:总|经理|老师|组))(?:负责|来|去|跟进)/);
+  if (m) return m[1];
+  return /(我来|我负责|我去)/.test(text) ? "발언자" : "";
+}
+
+function findDue(text, lang) {
+  let m;
+  if (lang === "ko") m = text.match(/((?:오늘|내일|모레|이번\s?주|다음\s?주|금주|차주|이번\s?달|다음\s?달|월말|연말|분기\s?말|\d{1,2}\s?월\s?\d{1,2}\s?일|\d{1,2}\s?일|[월화수목금토일]요일)(?:\s?(?:오전|오후)?\s?\d{1,2}\s?시)?)\s?(?:까지|중으로|중에|안에|내로|전까지)/);
+  else if (lang === "en") m = text.match(/\bby ((?:the )?end of (?:the )?(?:day|week|month|quarter)|eod|eow|today|tonight|tomorrow|next (?:week|month|monday|tuesday|wednesday|thursday|friday)|monday|tuesday|wednesday|thursday|friday|saturday|sunday|(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.? \d{1,2})/i);
+  else if (lang === "ja") m = text.match(/((?:今日|明日|明後日|今週|来週|今月|来月|月末|\d{1,2}月\d{1,2}日|[月火水木金土日]曜日?)(?:中)?)(?:まで|中に)/);
+  else m = text.match(/((?:今天|明天|后天|本周|下周|这周|月底|\d{1,2}月\d{1,2}[日号]|周[一二三四五六日]|星期[一二三四五六日天]))(?:之前|前|内)/);
+  return m ? m[1].replace(/\s+/g, " ").trim() : "";
+}
+
+function dedupe(list, limit, keyOf = (x) => x) {
+  const seen = new Set(), out = [];
+  for (const it of list) {
+    // 앞부분이 같으면 같은 말의 반복으로 본다. STT는 같은 문장을 겹쳐 내는 일이 잦다.
+    const k = keyOf(it).replace(/\s+/g, "").slice(0, 14);
+    if (!k || seen.has(k)) continue;
+    seen.add(k);
+    out.push(it);
+    if (out.length >= limit) break;
+  }
+  return out;
+}
+
+const EMPTY_SUMMARY = () => ({ title: "", overview: "", background: [], discussion: [], decisions: [], actions: [], plans: [], issues: [], keywords: [] });
+
+/** 정리에 쓸 텍스트를 고른다 — 한국어가 있으면 한국어로(원문이든 번역이든). */
+function summaryItems(session) {
+  const items = [];
+  for (const s of session.segments) {
+    const ko = s.lang === "ko" ? s.text : s.trLang === "ko" && s.tr ? s.tr : null;
+    const text = ko ?? s.text;
+    const lang = ko ? "ko" : s.lang;
+    for (const sent of splitSentences(text, lang)) {
+      // idx — 한 자막 조각이 여러 문장으로 나뉘면 atMs가 같아서, 원래 순서를 따로 기억한다.
+      if (!RULES[lang].filler.test(sent) && sent.length >= 3) items.push({ text: sent, lang, atMs: s.atMs, idx: items.length });
+    }
+  }
+  return items;
+}
+
+function ruleSummary(session) {
+  const items = summaryItems(session);
+  if (!items.length) return EMPTY_SUMMARY();
+
+  const kw = topKeywords(items, 12);
+  for (const it of items) {
+    const R = RULES[it.lang];
+    it.kind = classify(it.text, it.lang);
+    it.score = score(it.text, it.lang, kw);
+    it.isBg = R.background.test(it.text) && !R.boiler.test(it.text);
+    it.isPlan = R.plan.test(it.text) && !R.boiler.test(it.text);
+    it.isOpen = R.open.test(it.text);
+  }
+  const used = new Set();
+  const take = (arr) => { arr.forEach((it) => used.add(it)); return arr; };
+  const byScore = (a, b) => b.score - a.score;
+  const total = Math.max(session.durationMs || 0, items[items.length - 1].atMs + 1, 1);
+
+  // 결정 · 할 일 — 가장 확실한 신호부터 확정한다.
+  const decisions = take(dedupe(items.filter((i) => i.kind === "decision"), 8, (i) => i.text));
+  // 할 일인데 담당자도 기한도 없고 계획 표현이 있으면, 개인 할 일이 아니라 "계획"이다.
+  // ("다음 달에 단계적으로 배포할 계획입니다"가 할 일로 잡히던 문제)
+  const actionCands = items.filter((i) => i.kind === "action" && !used.has(i)).map((i) => ({ it: i, owner: findOwner(i.text, i.lang), due: findDue(i.text, i.lang) }));
+  const asPlan = actionCands.filter((c) => c.it.isPlan && !c.owner && !c.due).map((c) => c.it);
+  const actionPicked = dedupe(actionCands.filter((c) => !asPlan.includes(c.it)), 12, (c) => c.it.text);
+  take(actionPicked.map((c) => c.it));
+  const actions = actionPicked.map((c) => ({ task: trimTail(c.it.text), owner: c.owner, due: c.due }));
+
+  // 미결 — 답이 안 나온 질문, 미룬 안건
+  const issues = take(dedupe(items.filter((i) => !used.has(i) && (i.kind === "question" || i.isOpen)), 8, (i) => i.text));
+
+  // 향후 계획 — 할 일로 잡히지 않은 계획·일정 문장
+  const plans = take(dedupe([...asPlan, ...items.filter((i) => !used.has(i) && i.isPlan && i.kind === "plain")].filter((i) => !used.has(i)), 6, (i) => i.text));
+
+  // 배경 — 표지어가 있는 문장이 우선. 부족할 때만 회의 앞부분(20%)에서 보충한다.
+  const marked = dedupe(items.filter((i) => !used.has(i) && i.isBg && i.kind === "plain"), 3, (i) => i.text);
+  const early = marked.length >= 2 ? [] : items.filter((i) => !used.has(i) && !marked.includes(i) && i.atMs <= total * 0.2 && i.kind === "plain" && i.score > 0.6).sort(byScore).slice(0, 2 - marked.length);
+  const background = take([...marked, ...early].sort((a, z) => a.idx - z.idx));
+
+  // 주요 논의 — 5분 단위 시간 블록. 다른 칸에 이미 나온 문장은 다시 쓰지 않는다.
+  const blocks = Math.max(1, Math.min(8, Math.ceil(total / 60000 / 5)));
+  const span = total / blocks;
+  const buckets = Array.from({ length: blocks }, () => []);
+  for (const it of items) buckets[Math.min(blocks - 1, Math.floor(it.atMs / span))].push(it);
+  const titled = new Set(); // 앞 구간 제목에 쓴 단어 — 구간마다 다른 단어가 제목이 되게 한다
+  const discussion = buckets.map((b, i) => {
+    const fresh = b.filter((it) => !used.has(it) && it.kind !== "question" && it.score > 0.4).sort(byScore);
+    const chosen = dedupe(fresh, 3, (it) => it.text);
+    if (!chosen.length) return null;
+    // 제목 — 그 구간에서 두 번 이상 나온 단어(앞 구간 제목과 겹치지 않게).
+    // 없으면 전체 키워드 중 그 구간에 나오는 것.
+    let bk = topKeywords(b, 2, titled);
+    if (!bk.length) {
+      const bt = new Set(b.flatMap((it) => tokens(it.text, it.lang)));
+      bk = kw.filter((k) => bt.has(k) && !titled.has(k)).slice(0, 2);
+    }
+    bk.forEach((k) => titled.add(k));
+    return { topic: bk.length ? bk.join(" · ") : `${fmtClock(i * span)}~ 구간`, points: chosen.sort((a, z) => a.idx - z.idx).map((it) => trimTail(it.text)) };
+  }).filter(Boolean);
+
+  const keywords = kw.slice(0, 6);
+  // 개요 — 문장 하나를 고르는 대신, 무엇이 얼마나 정해졌는지를 요약한다.
+  // 규칙 기반은 문장을 다시 쓸 수 없으니 "아무 문장이나 대표로 내세우는 것"보다 정직하다.
+  const topicWords = [...new Set(discussion.flatMap((d) => d.topic.split(" · ")))].filter((t) => !/구간$/.test(t)).slice(0, 4);
+  const counts = [decisions.length && `결정 ${decisions.length}건`, actions.length && `할 일 ${actions.length}건`, issues.length && `미결 ${issues.length}건`].filter(Boolean);
+  const overview = [topicWords.length ? `${topicWords.join(", ")} 논의` : "", counts.join(" · ")].filter(Boolean).join(" — ");
+  return {
+    title: keywords.length ? `${keywords.slice(0, 2).join(" · ")} 회의` : "",
+    overview,
+    background: background.map((i) => trimTail(i.text)),
+    discussion,
+    decisions: decisions.map((i) => trimTail(i.text)),
+    actions,
+    plans: plans.map((i) => trimTail(i.text)),
+    issues: issues.map((i) => trimTail(i.text)),
+    keywords,
+  };
+}
+
+function isEmptySummary(s) {
+  return !s || (!s.overview && !s.background.length && !s.discussion.length && !s.decisions.length && !s.actions.length && !s.plans.length && !s.issues.length);
+}
+
+/* ═════════════════════════════════════════════════════════════════
+   번역
+   ─────────────────────────────────────────────────────────────────
+   1순위  Chrome 기기 내 Translator API — 무료, 오프라인, 텍스트가 밖으로 안 나감
+   2순위  MyMemory 무료 API — 설정에서 켠 경우에만. 텍스트가 외부로 나간다.
+   번역은 순서를 지키도록 한 줄로 직렬화한다.
+   ═════════════════════════════════════════════════════════════════ */
+
+const Translate = {
+  engines: new Map(),   // "en>ko" → Promise<{type, t?}>
+  queue: Promise.resolve(),
+  externalBlockedUntil: 0,
+  status: {},           // UI용: "en>ko" → {state, progress}
+
+  hasBuiltin: () => "Translator" in self,
+
+  /** 사용자 동작(클릭) 직후에 불러야 모델 다운로드가 허용된다. */
+  prepare(src, tgt) {
+    if (!src || !tgt || src === tgt) return Promise.resolve(null);
+    const key = `${src}>${tgt}`;
+    if (!this.engines.has(key)) {
+      const p = this._create(src, tgt, key).catch((e) => { this.engines.delete(key); throw e; });
+      this.engines.set(key, p);
+    }
+    return this.engines.get(key);
+  },
+
+  /** 내장 번역기 지원 여부. 응답이 없으면 지원하지 않는 것으로 본다. */
+  async availability(src, tgt) {
+    if (!this.hasBuiltin()) return "unavailable";
+    try { return await withTimeout(Translator.availability({ sourceLanguage: src, targetLanguage: tgt }), 5000); }
+    catch { return "unavailable"; }
+  },
+
+  async _create(src, tgt, key) {
+    if (this.hasBuiltin()) {
+      // create()는 사용자 동작이 살아 있을 때 불러야 한다. availability()를 먼저
+      // 기다리면 그 사이 동작이 만료될 수 있어서, 둘을 동시에 시작한다.
+      let create = null;
+      const startCreate = () => {
+        create ??= withIdleTimeout((ping) => Translator.create({
+          sourceLanguage: src,
+          targetLanguage: tgt,
+          monitor: (m) => m.addEventListener("downloadprogress", (e) => {
+            ping();
+            this.status[key] = { state: "downloading", progress: e.loaded };
+            UI.renderChips();
+          }),
+        }), 30000, "번역 모델 준비 시간 초과");
+        return create;
+      };
+      startCreate().catch(() => {}); // 실패는 아래에서 다시 받는다
+      const avail = await this.availability(src, tgt);
+      if (avail !== "unavailable") {
+        this.status[key] = { state: avail === "available" ? "ready" : "downloading", progress: 0 };
+        UI.renderChips();
+        try {
+          const t = await startCreate();
+          this.status[key] = { state: "ready", type: "builtin" };
+          UI.renderChips();
+          return { type: "builtin", t };
+        } catch (e) {
+          // NotAllowedError — 사용자 동작 없이 다운로드를 시작하려 한 경우. 다음 클릭에서 재시도.
+          this.status[key] = { state: e?.name === "NotAllowedError" ? "needs-click" : "unavailable", error: e?.name };
+          UI.renderChips();
+          if (!Settings.v.external) throw e;
+        }
+      }
+    }
+    if (Settings.v.external) {
+      this.status[key] = { state: "ready", type: "external" };
+      UI.renderChips();
+      return { type: "external" };
+    }
+    this.status[key] = { state: "unavailable" };
+    UI.renderChips();
+    return { type: "none" };
+  },
+
+  reset() { this.engines.clear(); this.status = {}; },
+
+  async translate(text, src, tgt) {
+    const eng = await this.prepare(src, tgt);
+    if (!eng || eng.type === "none") throw new Error("번역 엔진 없음");
+    if (eng.type === "builtin") return withTimeout(eng.t.translate(text), 20000, "번역 시간 초과");
+    return this._mymemory(text, src, tgt);
+  },
+
+  async _mymemory(text, src, tgt) {
+    if (Date.now() < this.externalBlockedUntil) throw new Error("외부 번역 한도 초과");
+    const out = [];
+    for (const chunk of byteChunks(text, 480)) {
+      const q = new URLSearchParams({ q: chunk, langpair: `${LANGS[src].mm}|${LANGS[tgt].mm}` });
+      if (Settings.v.email) q.set("de", Settings.v.email);
+      const res = await withTimeout(fetch(`https://api.mymemory.translated.net/get?${q}`), 15000, "외부 번역 시간 초과");
+      if (!res.ok) throw new Error(`외부 번역 오류 (${res.status})`);
+      const j = await res.json();
+      const t = j?.responseData?.translatedText || "";
+      if (Number(j?.responseStatus) !== 200 || /MYMEMORY WARNING|QUERY LENGTH LIMIT/i.test(t)) {
+        if (Number(j?.responseStatus) === 429 || /WARNING/i.test(t)) {
+          this.externalBlockedUntil = Date.now() + 60 * 60 * 1000;
+          UI.banner("외부 무료 번역의 하루 한도를 넘었습니다. 설정에서 이메일을 넣으면 한도가 늘어납니다.", "warn", "mm-quota");
+        }
+        throw new Error("외부 번역 실패");
+      }
+      out.push(decodeEntities(t));
+    }
+    return out.join(" ");
+  },
+
+  /** 순서 보장 큐에 넣는다. */
+  enqueue(fn) {
+    this.queue = this.queue.then(fn, fn);
+    return this.queue;
+  },
+};
+
+function byteChunks(text, maxBytes) {
+  const enc = new TextEncoder();
+  if (enc.encode(text).length <= maxBytes) return [text];
+  const parts = text.split(/(?<=[.!?。！？])\s*/);
+  const out = [];
+  let cur = "";
+  for (const p of parts) {
+    if (enc.encode(cur + p).length > maxBytes && cur) { out.push(cur); cur = ""; }
+    if (enc.encode(p).length > maxBytes) {
+      // 문장 하나가 너무 길면 글자 단위로 자른다.
+      let piece = "";
+      for (const ch of p) {
+        if (enc.encode(piece + ch).length > maxBytes) { out.push(piece); piece = ""; }
+        piece += ch;
+      }
+      cur = piece;
+    } else cur += (cur ? " " : "") + p;
+  }
+  if (cur) out.push(cur);
+  return out;
+}
+function decodeEntities(s) {
+  const t = document.createElement("textarea");
+  t.innerHTML = s;
+  return t.value;
+}
+
+/* ═════════════════════════════════════════════════════════════════
+   기기 내 AI 정리 — Chrome Prompt API (Gemini Nano)
+   ─────────────────────────────────────────────────────────────────
+   비용 0, 네트워크 0. 단, 두 가지 제약이 있다.
+   1) 모델이 지원하는 언어가 적다(한국어가 빠져 있을 수 있음)
+      → 지원하지 않으면 번역기로 영어를 거쳐 정리하고, 결과를 다시 한국어로.
+   2) 한 번에 넣을 수 있는 분량이 작다
+      → 긴 회의는 구간별로 노트를 만든 뒤(map) 한 번에 합친다(reduce).
+   ═════════════════════════════════════════════════════════════════ */
+
+const AI_SCHEMA = {
+  type: "object",
+  properties: {
+    title: { type: "string" },
+    overview: { type: "string" },
+    background: { type: "array", items: { type: "string" } },
+    discussion: { type: "array", items: { type: "object", properties: { topic: { type: "string" }, points: { type: "array", items: { type: "string" } } }, required: ["topic", "points"] } },
+    decisions: { type: "array", items: { type: "string" } },
+    actions: { type: "array", items: { type: "object", properties: { task: { type: "string" }, owner: { type: "string" }, due: { type: "string" } }, required: ["task", "owner", "due"] } },
+    plans: { type: "array", items: { type: "string" } },
+    issues: { type: "array", items: { type: "string" } },
+    keywords: { type: "array", items: { type: "string" } },
+  },
+  required: ["title", "overview", "background", "discussion", "decisions", "actions", "plans", "issues", "keywords"],
+};
+
+const AI = {
+  has: () => "LanguageModel" in self,
+
+  async availability(inLangs, outLang) {
+    if (!this.has()) return "unavailable";
+    try {
+      return await withTimeout(LanguageModel.availability({
+        expectedInputs: [{ type: "text", languages: inLangs }],
+        expectedOutputs: [{ type: "text", languages: [outLang] }],
+      }), 5000);
+    } catch { return "unavailable"; }
+  },
+
+  /** 기본 상태(언어 무관). 칩 표시용. */
+  async baseStatus() {
+    if (!this.has()) return "unavailable";
+    try { return await withTimeout(LanguageModel.availability(), 5000); } catch { return "unavailable"; }
+  },
+
+  system(outLang) {
+    return `You are a meticulous meeting secretary. You turn raw speech-recognition transcripts into structured meeting minutes.
+The transcript has recognition errors, no speaker labels and broken sentence boundaries.
+Silently fix obvious recognition errors. Never invent facts that are not in the transcript.
+If a section has no content, return an empty array or empty string.
+Write every value in ${outLang === "ko" ? "Korean (한국어)" : "English"}. Use short, bullet-style phrases.`;
+  },
+
+  instructions() {
+    return `Fields:
+- title: a short meeting title
+- overview: one sentence summarizing the whole meeting
+- background: why this meeting happened — context, current situation, problems
+- discussion: the main topics in order, each with its key points
+- decisions: only what was explicitly agreed or decided
+- actions: concrete tasks with owner and due date exactly as stated (empty string if not stated)
+- plans: future plans, schedules and next steps that are not individual tasks
+- issues: unresolved questions and items deferred to later
+- keywords: up to 5 keywords`;
+  },
+
+  /** 어떤 언어로 넣고 어떤 언어로 받을지 정한다. */
+  async plan(srcLangs) {
+    // 1) 원문 그대로 넣고 한국어로 받기
+    if ((await this.availability(srcLangs, "ko")) !== "unavailable") return { inPivot: false, outLang: "ko" };
+    // 2) 원문 그대로 넣고 영어로 받은 뒤 한국어로 번역
+    if ((await this.availability(srcLangs, "en")) !== "unavailable") return { inPivot: false, outLang: "en" };
+    // 3) 원문을 영어로 번역해서 넣고 영어로 받기
+    if ((await this.availability(["en"], "en")) !== "unavailable") return { inPivot: true, outLang: "en" };
+    return null;
+  },
+
+  async summarize(session, onProgress) {
+    // 정리 대상 텍스트 — 한국어 커버리지가 높으면 한국어로 통일
+    const segs = session.segments;
+    const koCover = segs.filter((s) => s.lang === "ko" || (s.trLang === "ko" && s.tr)).length / Math.max(1, segs.length);
+    const useKo = koCover >= 0.8;
+    let lines = segs.map((s) => ({
+      atMs: s.atMs,
+      lang: useKo ? "ko" : s.lang,
+      text: useKo ? (s.lang === "ko" ? s.text : s.tr) : s.text,
+    })).filter((l) => l.text && !RULES[l.lang].filler.test(l.text.trim()));
+    if (!lines.length) throw new Error("정리할 자막이 없습니다.");
+
+    const srcLangs = [...new Set(lines.map((l) => l.lang))];
+    onProgress?.(0.02, "AI 모델 확인 중");
+    const plan = await this.plan(srcLangs);
+    if (!plan) throw new Error("이 브라우저의 기기 내 AI가 회의 언어를 지원하지 않습니다.");
+
+    // 입력 피벗 — 원문을 영어로
+    if (plan.inPivot) {
+      const need = srcLangs.filter((l) => l !== "en");
+      for (const l of need) await Translate.prepare(l, "en");
+      const out = [];
+      for (let i = 0; i < lines.length; i++) {
+        const l = lines[i];
+        out.push(l.lang === "en" ? l : { ...l, lang: "en", text: await Translate.translate(l.text, l.lang, "en") });
+        if (i % 10 === 0) onProgress?.(0.05 + 0.25 * (i / lines.length), "AI가 읽을 수 있게 영어로 옮기는 중");
+      }
+      lines = out;
+    }
+    const inLangs = [...new Set(lines.map((l) => l.lang))];
+    const outLang = plan.outLang;
+
+    const base = await withIdleTimeout((ping) => LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: inLangs }],
+      expectedOutputs: [{ type: "text", languages: [outLang] }],
+      initialPrompts: [{ role: "system", content: this.system(outLang) }],
+      monitor: (m) => m.addEventListener("downloadprogress", (e) => { ping(); onProgress?.(0.05 * e.loaded, `AI 모델 내려받는 중 ${Math.round(e.loaded * 100)}%`); }),
+    }), 60000, "AI 모델 준비가 멈췄습니다");
+
+    const fresh = () => withTimeout(typeof base.clone === "function" ? base.clone() : LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: inLangs }],
+      expectedOutputs: [{ type: "text", languages: [outLang] }],
+      initialPrompts: [{ role: "system", content: this.system(outLang) }],
+    }), 30000);
+    const ask = (session, text, opts) => withTimeout(session.prompt(text, opts), 180000, "AI 응답 시간 초과");
+
+    try {
+      const transcript = lines.map((l) => `[${fmtClock(l.atMs)}] ${l.text}`);
+      let chunkChars = 2400;
+      let result = null;
+
+      for (let attempt = 0; attempt < 3 && !result; attempt++) {
+        try {
+          const chunks = packLines(transcript, chunkChars);
+          let body;
+          if (chunks.length === 1) {
+            body = `Meeting transcript ([mm:ss] timestamps):\n<transcript>\n${chunks[0]}\n</transcript>`;
+          } else {
+            const notes = [];
+            for (let i = 0; i < chunks.length; i++) {
+              onProgress?.(0.3 + 0.5 * (i / chunks.length), `회의 내용 읽는 중 (${i + 1}/${chunks.length})`);
+              const s = await fresh();
+              try {
+                notes.push(await ask(s, `This is part ${i + 1} of ${chunks.length} of one meeting transcript.
+Write concise notes covering only what is in this part. Prefix every bullet with one tag:
+[BACKGROUND] [DISCUSSION] [DECISION] [TASK] (include owner/due if stated) [PLAN] [OPEN]
+<transcript>
+${chunks[i]}
+</transcript>`));
+              } finally { s.destroy?.(); }
+            }
+            body = `Notes from consecutive parts of one meeting:\n<notes>\n${notes.map((n, i) => `## Part ${i + 1}\n${n}`).join("\n\n")}\n</notes>`;
+          }
+          onProgress?.(0.82, "회의록 작성 중");
+          const s = await fresh();
+          try {
+            const raw = await ask(s, `${body}\n\nWrite the meeting minutes as JSON.\n${this.instructions()}`, { responseConstraint: AI_SCHEMA });
+            result = normalizeSummary(JSON.parse(raw));
+          } finally { s.destroy?.(); }
+        } catch (e) {
+          // 분량 초과면 구간을 잘게 나눠 다시 시도한다.
+          if (e?.name === "QuotaExceededError" || /quota|too large|exceed/i.test(e?.message || "")) { chunkChars = Math.floor(chunkChars / 2); continue; }
+          throw e;
+        }
+      }
+      if (!result) throw new Error("회의가 너무 길어 기기 내 AI로 정리하지 못했습니다.");
+
+      // 출력 피벗 — 영어 결과를 한국어로
+      if (outLang !== "ko") {
+        onProgress?.(0.9, "한국어로 옮기는 중");
+        try {
+          await Translate.prepare("en", "ko");
+          result = await translateSummary(result, "en", "ko");
+          result._lang = "ko";
+        } catch {
+          result._lang = "en"; // 번역기가 없으면 영어로 남긴다.
+        }
+      } else result._lang = "ko";
+      onProgress?.(1, "완료");
+      return result;
+    } finally {
+      base.destroy?.();
+    }
+  },
+};
+
+/**
+ * 실제 사용 가능 여부. API가 "있다"와 "쓸 수 있다"는 다르다 — Chromium 153 헤드리스는
+ * LanguageModel이 있지만 모델이 없어 "downloadable"이고, 한국어는 "unavailable"이다.
+ */
+const Caps = {
+  ai: null,      // available | downloadable | downloading | unavailable
+  tr: {},        // "ko>en" → 같은 값
+  async refresh() {
+    const { speechLang, targetLang } = Settings.v;
+    const jobs = [AI.baseStatus().then((v) => { this.ai = v; })];
+    if (targetLang !== "off") {
+      for (const [a, b] of [[speechLang, targetLang], [targetLang, speechLang]]) {
+        const key = `${a}>${b}`;
+        if (!(key in this.tr)) jobs.push(Translate.availability(a, b).then((v) => { this.tr[key] = v; }));
+      }
+    }
+    await Promise.all(jobs);
+    UI.renderChips();
+    UI.renderFoot();
+    if (App.view === "ai") UI.renderSummary();
+  },
+  aiUsable() { return AI.has() && this.ai !== "unavailable"; },
+};
+
+function packLines(lines, maxChars) {
+  const out = [];
+  let cur = "";
+  for (const l of lines) {
+    if (cur.length + l.length + 1 > maxChars && cur) { out.push(cur); cur = l; }
+    else cur = cur ? `${cur}\n${l}` : l;
+  }
+  if (cur) out.push(cur);
+  return out;
+}
+
+function normalizeSummary(j) {
+  const arr = (v) => (Array.isArray(v) ? v : []).map((x) => (typeof x === "string" ? x.trim() : x)).filter(Boolean);
+  const str = (v) => (typeof v === "string" ? v.trim() : "");
+  return {
+    title: str(j.title),
+    overview: str(j.overview),
+    background: arr(j.background).filter((x) => typeof x === "string"),
+    discussion: arr(j.discussion).filter((d) => d && typeof d === "object").map((d) => ({ topic: str(d.topic), points: arr(d.points).filter((x) => typeof x === "string") })).filter((d) => d.topic || d.points.length),
+    decisions: arr(j.decisions).filter((x) => typeof x === "string"),
+    actions: arr(j.actions).filter((a) => a && typeof a === "object").map((a) => ({ task: str(a.task), owner: str(a.owner), due: str(a.due) })).filter((a) => a.task),
+    plans: arr(j.plans).filter((x) => typeof x === "string"),
+    issues: arr(j.issues).filter((x) => typeof x === "string"),
+    keywords: arr(j.keywords).filter((x) => typeof x === "string").slice(0, 6),
+  };
+}
+
+async function translateSummary(s, src, tgt) {
+  const t = (x) => (x ? Translate.translate(x, src, tgt) : "");
+  const all = (xs) => Promise.all(xs.map(t));
+  return {
+    title: await t(s.title),
+    overview: await t(s.overview),
+    background: await all(s.background),
+    discussion: await Promise.all(s.discussion.map(async (d) => ({ topic: await t(d.topic), points: await all(d.points) }))),
+    decisions: await all(s.decisions),
+    actions: await Promise.all(s.actions.map(async (a) => ({ task: await t(a.task), owner: a.owner && /^[A-Za-z\s]+$/.test(a.owner) ? a.owner : await t(a.owner), due: await t(a.due) }))),
+    plans: await all(s.plans),
+    issues: await all(s.issues),
+    keywords: await all(s.keywords),
+  };
+}
+
+/* ═════════════════════════════════════════════════════════════════
+   음성 인식 — Web Speech API
+   ─────────────────────────────────────────────────────────────────
+   실제 브라우저에서 부딪히는 문제들을 여기서 흡수한다.
+   - continuous여도 침묵이 길면 세션이 끝난다 → end에서 되살린다.
+   - "no-speech"는 오류가 아니라 정상적인 침묵이다 → 조용히 재시작.
+   - 재시작이 즉시 실패하며 반복되면 무한루프다 → 5회 연속이면 포기.
+   - stop() 직후에 마지막 확정 자막이 도착한다 → 종료 시 잠깐 기다린다.
+   ═════════════════════════════════════════════════════════════════ */
+
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+class Listener {
+  constructor(handlers) {
+    this.h = handlers;
+    this.wants = false;
+    this.rec = null;
+    this.lang = "ko";
+    this.local = false;
+    this.fastFails = 0;
+    this.startedAt = 0;
+    this.timer = null;
+  }
+
+  /** 기기 내 인식이 바로 쓸 수 있으면 true. 내려받기가 필요하면 백그라운드로 받아 두고 이번엔 false. */
+  async canLocal(lang) {
+    if (!Settings.v.localSpeech || !SR || typeof SR.available !== "function") return false;
+    try {
+      const a = await SR.available({ langs: [LANGS[lang].bcp], processLocally: true });
+      if (a === "available") return true;
+      if ((a === "downloadable" || a === "downloading") && typeof SR.install === "function") {
+        SR.install({ langs: [LANGS[lang].bcp], processLocally: true }).catch(() => {});
+        App.speechNote = "기기 내 음성 인식 모델을 내려받는 중 — 다음 녹음부터 적용";
+      }
+    } catch {}
+    return false;
+  }
+
+  async start(lang) {
+    this.lang = lang;
+    this.wants = true;
+    this.fastFails = 0;
+    this.local = await this.canLocal(lang);
+    this._begin();
+  }
+
+  _begin() {
+    if (!this.wants) return;
+    const r = new SR();
+    // 인식기마다 언어를 고정해 둔다. 녹음 중 언어를 바꾸면 이전 인식기의 마지막
+    // 자막이 뒤늦게 도착하는데, this.lang을 쓰면 그 줄이 새 언어로 잘못 붙는다.
+    const lang = this.lang;
+    r.lang = LANGS[lang].bcp;
+    r.continuous = true;
+    r.interimResults = true;
+    r.maxAlternatives = 1;
+    if (this.local) { try { r.processLocally = true; } catch {} }
+
+    r.onresult = (e) => {
+      let interim = "";
+      for (let i = e.resultIndex; i < e.results.length; i++) {
+        const res = e.results[i];
+        const text = res[0]?.transcript?.trim();
+        if (!text) continue;
+        if (res.isFinal) this.h.onFinal(text, lang);
+        else interim += (interim ? " " : "") + text;
+      }
+      this.h.onInterim(interim);
+    };
+    r.onerror = (e) => {
+      const err = e.error;
+      if (err === "no-speech" || err === "aborted") return;
+      if (this.local && (err === "language-not-supported" || err === "service-not-allowed")) {
+        this.local = false; // 기기 내 처리가 안 되면 기본 방식으로 다시
+        return;
+      }
+      if (err === "not-allowed" || err === "service-not-allowed") {
+        this.wants = false;
+        this.h.onError("마이크 사용이 거부되었습니다. 주소창의 자물쇠 아이콘에서 마이크를 허용한 뒤 다시 시도해 주세요.", true);
+      } else if (err === "network") {
+        this.h.onError("음성 인식 서버에 연결할 수 없습니다. 네트워크를 확인해 주세요. 자동으로 다시 시도합니다.", false);
+      } else if (err === "audio-capture") {
+        this.h.onError("마이크를 쓸 수 없습니다. 다른 앱이 쓰고 있거나, 기기가 녹음과 음성 인식을 동시에 못 하는 경우입니다. 설정에서 ‘녹음 파일 저장’을 끄고 다시 시도해 보세요.", false);
+      } else if (err === "language-not-supported") {
+        this.wants = false;
+        this.h.onError(`이 브라우저는 ${LANGS[lang].label} 음성 인식을 지원하지 않습니다.`, true);
+      } else {
+        this.h.onError(`음성 인식 오류: ${err}`, false);
+      }
+    };
+    r.onend = () => {
+      this.h.onInterim("");
+      if (!this.wants) { this.h.onStopped?.(); return; }
+      this.fastFails = Date.now() - this.startedAt < 1000 ? this.fastFails + 1 : 0;
+      if (this.fastFails >= 5) {
+        this.wants = false;
+        this.h.onError("음성 인식이 계속 중단됩니다. 잠시 후 다시 시작해 주세요.", true);
+        return;
+      }
+      this.timer = setTimeout(() => this._begin(), this.fastFails ? 1500 : 150);
+    };
+
+    this.rec = r;
+    this.startedAt = Date.now();
+    try { r.start(); } catch (e) { this.h.onError(`음성 인식을 시작하지 못했습니다: ${e.message}`, false); }
+  }
+
+  /** 마지막 확정 자막을 받을 수 있게 stop()으로 끝낸다. */
+  stop() {
+    this.wants = false;
+    clearTimeout(this.timer);
+    try { this.rec?.stop(); } catch {}
+  }
+
+  abort() {
+    this.wants = false;
+    clearTimeout(this.timer);
+    try { this.rec?.abort(); } catch {}
+  }
+
+  /** 녹음 중 언어를 바꾼다(통역 회의에서 화자가 바뀔 때). */
+  switchLang(lang) {
+    if (!this.wants) { this.lang = lang; return; }
+    this.lang = lang;
+    try { this.rec?.stop(); } catch {} // onend에서 새 언어로 다시 시작된다
+  }
+}
+
+/* ───────────────────────── 녹음 파일 ───────────────────────── */
+
+class AudioRecorder {
+  constructor() { this.stream = null; this.mr = null; this.chunks = []; this.analyser = null; this.ctx = null; }
+
+  async start() {
+    this.stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true } });
+    try {
+      this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+      const src = this.ctx.createMediaStreamSource(this.stream);
+      this.analyser = this.ctx.createAnalyser();
+      this.analyser.fftSize = 512;
+      src.connect(this.analyser);
+      this.buf = new Uint8Array(this.analyser.fftSize);
+    } catch {}
+    if (Settings.v.saveAudio && "MediaRecorder" in window) {
+      const type = ["audio/webm;codecs=opus", "audio/mp4", "audio/webm"].find((t) => MediaRecorder.isTypeSupported?.(t));
+      this.mr = new MediaRecorder(this.stream, { ...(type ? { mimeType: type } : {}), audioBitsPerSecond: 32000 });
+      this.chunks = [];
+      this.mr.ondataavailable = (e) => e.data.size && this.chunks.push(e.data);
+      this.mr.start(1000);
+    }
+  }
+
+  level() {
+    if (!this.analyser) return 0;
+    this.analyser.getByteTimeDomainData(this.buf);
+    let sum = 0;
+    for (const v of this.buf) { const x = (v - 128) / 128; sum += x * x; }
+    return Math.min(1, Math.sqrt(sum / this.buf.length) * 4);
+  }
+
+  pause() { try { this.mr?.state === "recording" && this.mr.pause(); } catch {} }
+  resume() { try { this.mr?.state === "paused" && this.mr.resume(); } catch {} }
+
+  async stop() {
+    let blob = null;
+    if (this.mr && this.mr.state !== "inactive") {
+      blob = await new Promise((resolve) => {
+        this.mr.onstop = () => resolve(new Blob(this.chunks, { type: this.mr.mimeType || "audio/webm" }));
+        this.mr.stop();
+      });
+    }
+    this.stream?.getTracks().forEach((t) => t.stop());
+    try { await this.ctx?.close(); } catch {}
+    this.stream = this.mr = this.analyser = this.ctx = null;
+    return blob && blob.size ? blob : null;
+  }
+}
+
+/* ═════════════════════════════════════════════════════════════════
+   앱
+   ═════════════════════════════════════════════════════════════════ */
+
+function newSession() {
+  return {
+    id: uid(),
+    title: "",
+    createdAt: Date.now(),
+    durationMs: 0,
+    speechLang: Settings.v.speechLang,
+    targetLang: Settings.v.targetLang,
+    segments: [],
+    rule: null,
+    ai: null,
+    audioParts: 0,
+  };
+}
+/** 번역 짝은 {한국어, 영어·일본어·중국어 중 하나}만 허용한다. */
+function sanitizeLangs() {
+  const v = Settings.v;
+  if (!LANGS[v.speechLang]) v.speechLang = "ko";
+  if (v.speechLang === "ko") { if (v.targetLang !== "off" && !FOREIGN.includes(v.targetLang)) v.targetLang = "en"; }
+  else if (v.targetLang !== "off") v.targetLang = "ko";
+}
+function autoTitle(s) {
+  return s.ai?.title || s.rule?.title || `${fmtDate(s.createdAt).slice(0, 10)} 회의`;
+}
+
+const App = {
+  session: null,
+  state: "idle",          // idle | recording | paused | finishing
+  view: "rule",           // rule | ai
+  interim: "",
+  accMs: 0,
+  segStart: 0,
+  listener: null,
+  audio: null,
+  wakeLock: null,
+  speechNote: "",
+  aiState: { running: false, progress: 0, label: "", error: "" },
+  dirty: false,
+
+  elapsed() { return this.accMs + (this.state === "recording" ? Date.now() - this.segStart : 0); },
+
+  init() {
+    Settings.load();
+    UI.bind();
+    const last = Store.list()[0];
+    // 마지막 회의가 비어 있지 않으면 그걸 열어 둔다. (새로고침해도 내용이 그대로)
+    this.load(last ? Store.get(last.id) : null);
+    Caps.refresh();
+    setInterval(() => this.tick(), 250);
+    setInterval(() => this.refreshRule(), 1500);
+    window.addEventListener("beforeunload", (e) => {
+      if (this.state === "recording" || this.state === "paused") { e.preventDefault(); e.returnValue = ""; }
+    });
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "visible" && this.state === "recording") this.lockScreen();
+    });
+    document.addEventListener("click", () => {
+      if (this.retryOnClick) { this.retryOnClick = false; this.retranslate(); }
+    }, true);
+  },
+
+  load(session) {
+    this.session = session || newSession();
+    const s = this.session;
+    // 저장된 회의를 열면 그 회의의 언어 설정을 따른다(이어서 녹음할 때 맞도록).
+    if (s.segments.length) { Settings.v.speechLang = s.speechLang; Settings.v.targetLang = s.targetLang; }
+    sanitizeLangs();
+    s.speechLang = Settings.v.speechLang;
+    s.targetLang = Settings.v.targetLang;
+    this.accMs = this.session.durationMs || 0;
+    this.view = this.session.ai ? "ai" : "rule";
+    this.aiState = { running: false, progress: 0, label: "", error: "" };
+    if (!this.session.rule && this.session.segments.length) this.session.rule = ruleSummary(this.session);
+    UI.renderAll();
+  },
+
+  tick() {
+    if (this.state === "recording" || this.state === "paused") {
+      UI.renderClock();
+      UI.renderMeter(this.state === "recording" ? this.audio?.level() || 0 : 0);
+    }
+  },
+
+  refreshRule() {
+    if (!this.dirty) return;
+    this.dirty = false;
+    this.session.rule = ruleSummary(this.session);
+    if (this.view === "rule") UI.renderSummary();
+    this.persist();
+  },
+
+  persist() {
+    this.session.durationMs = this.elapsed();
+    if (this.session.segments.length) Store.save(this.session);
+  },
+
+  /* ───────── 녹음 ───────── */
+
+  async start() {
+    if (!SR) {
+      UI.banner("이 브라우저는 음성 인식을 지원하지 않습니다. 데스크톱 Chrome·Edge나 iPhone/Mac의 Safari에서 열어 주세요.", "error", "no-sr");
+      return;
+    }
+    const s = this.session;
+    s.speechLang = Settings.v.speechLang;
+    s.targetLang = Settings.v.targetLang;
+    // 사용자 클릭 직후에 번역 모델을 준비해야 다운로드가 허용된다.
+    if (s.targetLang !== "off") Translate.prepare(s.speechLang, s.targetLang).catch(() => {});
+
+    UI.clearBanner();
+    this.audio = new AudioRecorder();
+    try {
+      await this.audio.start();
+    } catch (e) {
+      this.audio = null;
+      if (e?.name === "NotAllowedError") {
+        UI.banner("마이크 사용이 거부되었습니다. 주소창의 자물쇠 아이콘에서 마이크를 허용한 뒤 다시 시도해 주세요.", "error", "mic");
+        return;
+      }
+      // 마이크 스트림을 못 열어도 음성 인식은 따로 시도한다.
+    }
+
+    this.listener = new Listener({
+      onFinal: (text, lang) => this.addSegment(text, lang),
+      onInterim: (t) => { this.interim = t; UI.renderInterim(); },
+      onError: (msg, fatal) => {
+        UI.banner(msg, fatal ? "error" : "warn", "sr");
+        if (fatal) this.finish();
+      },
+    });
+    this.state = "recording";
+    this.segStart = Date.now();
+    await this.listener.start(s.speechLang);
+    this.lockScreen();
+    UI.renderAll();
+  },
+
+  pause() {
+    if (this.state !== "recording") return;
+    this.accMs = this.elapsed();
+    this.state = "paused";
+    this.listener?.stop();
+    this.audio?.pause();
+    UI.renderAll();
+  },
+
+  async resume() {
+    if (this.state !== "paused") return;
+    this.state = "recording";
+    this.segStart = Date.now();
+    this.audio?.resume();
+    await this.listener.start(Settings.v.speechLang);
+    UI.renderAll();
+  },
+
+  async finish() {
+    if (this.state !== "recording" && this.state !== "paused") return;
+    this.accMs = this.elapsed();
+    this.state = "finishing";
+    this.listener?.stop();
+    UI.renderAll();
+    await sleep(1200); // stop() 뒤에 오는 마지막 확정 자막을 기다린다
+    this.listener?.abort();
+    this.interim = "";
+
+    const blob = await this.audio?.stop();
+    this.audio = null;
+    this.releaseScreen();
+    const s = this.session;
+    if (blob) {
+      try { await Audio_.put(s.id, s.audioParts || 0, blob); s.audioParts = (s.audioParts || 0) + 1; }
+      catch { UI.banner("녹음 파일을 저장하지 못했습니다(저장 공간 부족일 수 있음).", "warn", "audio"); }
+    }
+
+    this.state = "idle";
+    s.durationMs = this.accMs;
+    // 남은 번역을 잠깐 기다리되, 번역이 멈춰도 종료는 반드시 끝나야 한다.
+    await withTimeout(Translate.queue, 8000).catch(() => {});
+    s.rule = ruleSummary(s);
+    this.persist();
+    UI.renderAll();
+
+    if (!s.segments.length) {
+      UI.banner("인식된 말이 없습니다. 마이크가 켜져 있는지, 말하는 언어가 맞는지 확인해 주세요.", "warn", "empty");
+      return;
+    }
+    // 기기 내 AI가 바로 쓸 수 있으면 자동으로 정리한다. (모델 다운로드가 필요하면 사용자가 직접 누르게 둔다)
+    if ((await AI.baseStatus()) === "available") this.runAi();
+  },
+
+  /** 번역 짝은 언제나 {한국어, 외국어 하나}. 줄의 언어를 보고 반대편으로 옮긴다. */
+  targetFor(lang) {
+    const s = this.session;
+    if (s.targetLang === "off") return "";
+    const foreign = s.speechLang === "ko" ? s.targetLang : s.speechLang;
+    return lang === "ko" ? foreign : "ko";
+  },
+
+  addSegment(text, lang) {
+    const s = this.session;
+    const seg = { id: uid(), atMs: this.elapsed(), text, lang, tr: "", trLang: "", trStatus: "" };
+    const tgt = this.targetFor(lang);
+    if (tgt) seg.trStatus = "pending";
+    s.segments.push(seg);
+    UI.appendSegment(seg);
+    this.dirty = true;
+    if (tgt) Translate.enqueue(() => this.translateSeg(seg, tgt));
+  },
+
+  async translateSeg(seg, tgt) {
+    try {
+      seg.tr = await Translate.translate(seg.text, seg.lang, tgt);
+      seg.trLang = tgt;
+      seg.trStatus = "done";
+    } catch (e) {
+      seg.trStatus = "error";
+      const needsClick = Translate.status[`${seg.lang}>${tgt}`]?.state === "needs-click";
+      seg.trError = needsClick ? "번역 모델을 받으려면 화면을 한 번 눌러 주세요" : "번역 실패";
+      // 모델 다운로드는 사용자 동작이 있어야 시작된다. 다음 클릭에서 다시 시도한다.
+      if (needsClick) this.retryOnClick = true;
+    }
+    UI.updateSegment(seg);
+    this.dirty = true;
+  },
+
+  /** 번역이 실패했거나 빠진 줄을 다시 번역한다. 클릭 핸들러 안에서 불러야 모델 다운로드가 허용된다. */
+  retranslate() {
+    const todo = [];
+    for (const seg of this.session.segments) {
+      const tgt = this.targetFor(seg.lang);
+      if (!tgt || (seg.trStatus === "done" && seg.trLang === tgt)) continue;
+      todo.push([seg, tgt]);
+    }
+    // 사용자 동작이 살아 있을 때 짝마다 번역기를 먼저 만든다.
+    for (const key of new Set(todo.map(([g, t]) => `${g.lang}>${t}`))) {
+      const [a, b] = key.split(">");
+      Translate.prepare(a, b).catch(() => {});
+    }
+    for (const [seg, tgt] of todo) {
+      seg.trStatus = "pending";
+      UI.updateSegment(seg);
+      Translate.enqueue(() => this.translateSeg(seg, tgt));
+    }
+  },
+
+  setLangs(speech, target) {
+    Settings.v.speechLang = speech;
+    Settings.v.targetLang = target;
+    Settings.save();
+    const s = this.session;
+    s.speechLang = speech;
+    s.targetLang = target;
+    if (target !== "off") Translate.prepare(speech, target).catch(() => {});
+    if (this.state === "recording") this.listener?.switchLang(speech);
+    UI.renderLangs();
+    UI.renderChips();
+    Caps.refresh();
+  },
+
+  async lockScreen() {
+    try { this.wakeLock = await navigator.wakeLock?.request("screen"); } catch {}
+  },
+  releaseScreen() { try { this.wakeLock?.release(); } catch {} this.wakeLock = null; },
+
+  /* ───────── AI 정리 ───────── */
+
+  async runAi() {
+    const s = this.session;
+    if (this.aiState.running || !s.segments.length) return;
+    this.view = "ai";
+    this.aiState = { running: true, progress: 0, label: "준비 중", error: "" };
+    UI.renderSummary();
+    UI.renderFoot();
+    try {
+      const result = await AI.summarize(s, (p, label) => {
+        this.aiState.progress = p;
+        this.aiState.label = label;
+        UI.renderSummary();
+      });
+      s.ai = result;
+      s.aiAt = Date.now();
+      this.aiState = { running: false, progress: 1, label: "", error: "" };
+      this.persist();
+    } catch (e) {
+      const msg = e?.name === "NotAllowedError"
+        ? "AI 모델을 처음 받으려면 버튼을 직접 눌러야 합니다. ‘AI로 정리하기’를 눌러 주세요."
+        : e?.message || "AI 정리에 실패했습니다.";
+      this.aiState = { running: false, progress: 0, label: "", error: msg };
+    }
+    UI.renderAll();
+  },
+
+  newMeeting() {
+    if (this.state !== "idle") return toast("녹음을 먼저 종료해 주세요.");
+    this.load(null);
+    UI.clearBanner();
+  },
+
+  open(id) {
+    if (this.state !== "idle") return toast("녹음을 먼저 종료해 주세요.");
+    const s = Store.get(id);
+    if (!s) return toast("회의를 불러오지 못했습니다.");
+    this.load(s);
+    UI.clearBanner();
+  },
+
+  remove(id) {
+    Store.remove(id);
+    if (this.session.id === id) this.load(null);
+    UI.renderSessions();
+  },
+
+  /** 마이크 없이 써 볼 수 있는 샘플 회의 */
+  loadDemo() {
+    const lines = [
+      "네 그럼 오늘 회의 시작하겠습니다.",
+      "이번 회의 목적은 결제 오류 대응 방안과 신규 화면 디자인을 정하는 겁니다.",
+      "지난주부터 결제 모듈에서 타임아웃이 계속 발생하고 있습니다.",
+      "로그를 보니까 하루에 40건 정도이고 PG사 응답이 3초를 넘으면 실패하는 구조입니다.",
+      "타임아웃을 5초로 늘리는 건 어떤가요?",
+      "그건 근본 해결은 아닌 것 같습니다.",
+      "일단 재시도 로직을 넣는 걸로 하죠.",
+      "김대리가 이번 주 금요일까지 재시도 로직 확인해서 공유해 주세요.",
+      "네 알겠습니다.",
+      "다음은 신규 화면 디자인 건입니다.",
+      "시안이 두 개 나왔는데 A안이 더 깔끔하다는 의견이 많았습니다.",
+      "저는 B안이 정보 밀도가 높아서 더 낫다고 봅니다.",
+      "사용자 테스트를 5명 정도 해보고 정하는 게 어떨까요?",
+      "좋습니다. A안으로 가되 테스트 결과를 보고 조정하는 걸로 확정하겠습니다.",
+      "박과장님이 다음 주 월요일까지 테스트 참가자 모집해 주세요.",
+      "마지막으로 예산입니다. 이번 분기 남은 예산이 1200만원입니다.",
+      "서버 증설에 800만원 정도 들 것 같습니다.",
+      "나머지 400만원은 어디에 쓸지 아직 정하지 못했습니다.",
+      "그건 다음 회의에서 다시 논의하죠.",
+      "앞으로 결제 안정화가 끝나면 다음 달에 신규 화면을 단계적으로 배포할 계획입니다.",
+      "네 오늘은 여기까지 하겠습니다. 수고하셨습니다.",
+    ];
+    if (this.state !== "idle") return;
+    const s = newSession();
+    s.title = "샘플 — 결제 오류·신규 화면 회의";
+    s.speechLang = "ko";
+    s.targetLang = Settings.v.targetLang === "off" || Settings.v.speechLang !== "ko" ? "en" : Settings.v.targetLang;
+    s.segments = lines.map((text, i) => ({ id: uid(), atMs: i * 41000, text, lang: "ko", tr: "", trLang: "", trStatus: "" }));
+    s.durationMs = lines.length * 41000;
+    s.rule = ruleSummary(s);
+    this.load(s);
+    Store.save(s);
+    // 이 버튼 클릭이 사용자 동작이라 번역 모델 준비가 허용된다.
+    Translate.prepare("ko", s.targetLang).then((eng) => { if (eng && eng.type !== "none") this.retranslate(); }).catch(() => {});
+    toast("샘플 회의를 불러왔습니다");
+  },
+};
+
+/* ═════════════════════════════════════════════════════════════════
+   화면
+   ═════════════════════════════════════════════════════════════════ */
+
+const UI = {
+  bind() {
+    $("#btnRecord").addEventListener("click", () => (App.state === "paused" ? App.resume() : App.start()));
+    $("#btnPause").addEventListener("click", () => App.pause());
+    $("#btnStop").addEventListener("click", () => App.finish());
+    $("#btnNew").addEventListener("click", () => App.newMeeting());
+    $("#btnSessions").addEventListener("click", () => { this.renderSessions(); $("#dlgSessions").showModal(); });
+    $("#btnSettings").addEventListener("click", () => { this.renderSettings(); this.renderCaps(); $("#dlgSettings").showModal(); });
+    document.querySelectorAll("dialog [data-close]").forEach((b) => b.addEventListener("click", () => b.closest("dialog").close()));
+    document.querySelectorAll("dialog").forEach((d) => d.addEventListener("click", (e) => { if (e.target === d) d.close(); }));
+
+    $("#title").addEventListener("input", (e) => { App.session.title = e.target.value; if (App.session.segments.length) Store.save(App.session); });
+
+    $("#speechLang").addEventListener("change", (e) => {
+      const sp = e.target.value;
+      let tg = Settings.v.targetLang;
+      if (sp === "ko") { if (!FOREIGN.includes(tg)) tg = "en"; }
+      else if (tg !== "off") tg = "ko";
+      App.setLangs(sp, tg);
+    });
+    $("#targetLang").addEventListener("change", (e) => App.setLangs(Settings.v.speechLang, e.target.value));
+    $("#btnSwap").addEventListener("click", () => {
+      const { speechLang: sp, targetLang: tg } = Settings.v;
+      if (tg === "off") return toast("번역 언어를 먼저 고르세요");
+      App.setLangs(tg, sp);
+      toast(`${LANGS[tg].label} → ${LANGS[sp].label}`);
+    });
+
+    document.querySelectorAll(".seg-toggle button").forEach((b) => b.addEventListener("click", () => { App.view = b.dataset.view; this.renderSummary(); this.renderFoot(); }));
+    document.querySelectorAll(".tabs-mobile [data-tab]").forEach((b) => b.addEventListener("click", () => {
+      $("#grid").dataset.tab = b.dataset.tab;
+      document.querySelectorAll(".tabs-mobile [data-tab]").forEach((x) => x.setAttribute("aria-selected", String(x === b)));
+    }));
+
+    $("#btnAi").addEventListener("click", () => App.runAi());
+    $("#btnCopy").addEventListener("click", async () => {
+      const md = Export.summaryMarkdown(App.session, this.currentSummary());
+      try { await navigator.clipboard.writeText(md); toast("요약을 복사했습니다"); }
+      catch { download(`${safeFilename(autoTitleOrUser())}.md`, md); toast("복사가 막혀 파일로 내려받았습니다"); }
+    });
+    $("#btnExport").addEventListener("click", (e) => this.exportMenu(e.currentTarget));
+
+    // 설정
+    const bindCheck = (id, key, after) => $(id).addEventListener("change", (e) => { Settings.v[key] = e.target.checked; Settings.save(); after?.(); });
+    bindCheck("#setSaveAudio", "saveAudio");
+    bindCheck("#setLocalSpeech", "localSpeech");
+    bindCheck("#setExternal", "external", () => { Translate.reset(); this.renderChips(); if (Settings.v.external) App.retranslate(); });
+    $("#setEmail").addEventListener("change", (e) => { Settings.v.email = e.target.value.trim(); Settings.save(); });
+  },
+
+  currentSummary() {
+    const s = App.session;
+    return App.view === "ai" && s.ai ? s.ai : s.rule || EMPTY_SUMMARY();
+  },
+
+  renderAll() {
+    const s = App.session;
+    const rec = App.state === "recording" || App.state === "paused" || App.state === "finishing";
+    document.body.classList.toggle("is-recording", App.state === "recording");
+    $("#title").value = s.title || "";
+    $("#title").placeholder = s.segments.length ? autoTitle(s) : "회의 제목 (비워 두면 자동으로 붙습니다)";
+    $("#btnRecord").hidden = App.state === "recording" || App.state === "finishing";
+    $("#btnRecord").textContent = App.state === "paused" ? "● 이어서 녹음" : s.segments.length ? "● 이어서 녹음" : "● 녹음 시작";
+    $("#btnRecord").disabled = App.state === "finishing";
+    $("#btnPause").hidden = App.state !== "recording";
+    $("#btnStop").hidden = !rec;
+    $("#btnStop").disabled = App.state === "finishing";
+    $("#btnStop").textContent = App.state === "finishing" ? "정리 중…" : "■ 종료";
+    $("#btnNew").disabled = rec;
+    this.renderLangs();
+    this.renderClock();
+    this.renderMeter(0);
+    this.renderChips();
+    this.renderTranscript();
+    this.renderSummary();
+    this.renderFoot();
+    this.renderAudio();
+  },
+
+  renderLangs() {
+    const sp = $("#speechLang"), tg = $("#targetLang");
+    const { speechLang, targetLang } = Settings.v;
+    sp.replaceChildren(...Object.entries(LANGS).map(([k, v]) => h("option", { value: k, selected: k === speechLang }, v.label)));
+    const targets = speechLang === "ko" ? FOREIGN : ["ko"];
+    tg.replaceChildren(
+      ...targets.map((k) => h("option", { value: k, selected: k === targetLang }, LANGS[k].label)),
+      h("option", { value: "off", selected: targetLang === "off" }, "번역 안 함"),
+    );
+    $("#btnSwap").disabled = targetLang === "off";
+  },
+
+  renderClock() {
+    const ms = App.state === "idle" ? App.session.durationMs || 0 : App.elapsed();
+    $("#clock").textContent = fmtClock(ms);
+  },
+  renderMeter(v) { $("#meterBar").style.width = `${Math.round(v * 100)}%`; },
+
+  renderChips() {
+    const chips = [];
+    // 음성 인식
+    if (!SR) chips.push(["warn", "음성 인식 미지원 브라우저"]);
+    else if (App.listener?.local) chips.push(["ok", "음성 인식 · 기기 내 처리"]);
+    else chips.push(["ok", /Chrome|CriOS|Edg/.test(navigator.userAgent) ? "음성 인식 · 브라우저 기본 (Chrome은 Google 서버에서 처리)" : "음성 인식 · 브라우저 기본"]);
+    if (App.speechNote) chips.push(["busy", App.speechNote]);
+    // 번역 — 실제로 만든 번역기 상태가 있으면 그걸, 없으면 사전 확인 결과를 보여 준다.
+    const { speechLang, targetLang } = Settings.v;
+    if (targetLang === "off") chips.push(["off", "번역 꺼짐"]);
+    else {
+      const key = `${speechLang}>${targetLang}`;
+      const st = Translate.status[key];
+      const pair = `${LANGS[speechLang].short}↔${LANGS[targetLang].short}`;
+      const noBuiltin = Settings.v.external ? ["ok", `번역 ${pair} · 외부 무료(MyMemory) — 문장이 외부로 전송됨`] : ["warn", `번역 ${pair} · 이 브라우저엔 기기 내 번역이 없음 — 설정에서 외부 번역을 켤 수 있음`];
+      if (st?.state === "downloading") chips.push(["busy", `번역 언어 팩 내려받는 중 ${Math.round((st.progress || 0) * 100)}%`]);
+      else if (st?.state === "ready") chips.push(st.type === "external" ? noBuiltin : ["ok", `번역 ${pair} · 기기 내`]);
+      else if (st?.state === "needs-click") chips.push(["warn", "번역 언어 팩을 받으려면 화면을 한 번 눌러 주세요"]);
+      else {
+        const a = Caps.tr[key];
+        if (a == null) chips.push(["busy", `번역 ${pair} · 확인 중`]);
+        else if (a === "available") chips.push(["ok", `번역 ${pair} · 기기 내`]);
+        else if (a === "downloadable" || a === "downloading") chips.push(["ok", `번역 ${pair} · 기기 내 (첫 사용 시 언어 팩 내려받기)`]);
+        else chips.push(noBuiltin);
+      }
+    }
+    // AI
+    const ai = Caps.ai;
+    if (ai == null && AI.has()) chips.push(["busy", "AI 정리 · 확인 중"]);
+    else if (ai === "available") chips.push(["ok", "AI 정리 · 기기 내 (Gemini Nano)"]);
+    else if (ai === "downloadable" || ai === "downloading") chips.push(["ok", "AI 정리 · 기기 내 (첫 사용 시 모델 내려받기)"]);
+    else chips.push(["off", "AI 정리 미지원 → 규칙 기반 정리"]);
+    $("#chips").replaceChildren(...chips.map(([cls, text]) => h("span", { class: `chip ${cls}` }, text)));
+  },
+
+  banner(msg, kind = "warn", key = "") {
+    const box = $("#banners");
+    if (key) box.querySelector(`[data-key="${key}"]`)?.remove();
+    box.append(h("div", { class: `banner ${kind === "error" ? "error" : ""}`, role: kind === "error" ? "alert" : "status", dataset: { key } },
+      h("span", null, msg),
+      h("button", { class: "x", type: "button", "aria-label": "닫기", onclick: (e) => e.currentTarget.parentElement.remove() }, "×")));
+  },
+  clearBanner() { $("#banners").replaceChildren(); },
+
+  /* ───────── 자막 ───────── */
+
+  segNode(seg) {
+    const tr = seg.trStatus === "pending" ? h("div", { class: "line-tr pending" }, "번역 중…")
+      : seg.trStatus === "error" ? h("div", { class: "line-tr error" }, seg.trError || "번역 실패")
+      : seg.tr ? h("div", { class: "line-tr", lang: seg.trLang }, seg.tr) : null;
+    return h("div", { class: "line", dataset: { id: seg.id } },
+      h("div", { class: "line-time" }, fmtClock(seg.atMs)),
+      h("div", { class: "line-text", lang: seg.lang }, h("span", { class: "line-lang" }, LANGS[seg.lang].short), seg.text),
+      tr);
+  },
+
+  renderTranscript() {
+    const box = $("#transcript");
+    const segs = App.session.segments;
+    if (!segs.length && !App.interim) {
+      box.replaceChildren(h("div", { class: "empty" },
+        h("strong", null, App.state === "recording" ? "듣고 있습니다…" : "녹음을 시작하면 여기에 자막이 나타납니다"),
+        App.state === "recording" ? "말을 시작해 보세요." : "말하는 언어를 고르고 ‘녹음 시작’을 누르세요. 번역 언어를 고르면 자막 아래에 번역이 함께 붙습니다.",
+        App.state === "idle" ? h("div", null, h("button", { class: "btn small", type: "button", onclick: () => App.loadDemo() }, "샘플 회의로 먼저 보기")) : null));
+    } else {
+      box.replaceChildren(...segs.map((s) => this.segNode(s)));
+      this.renderInterim(true);
+    }
+    $("#segCount").textContent = segs.length ? `${segs.length}줄` : "";
+  },
+
+  appendSegment(seg) {
+    const box = $("#transcript");
+    if (box.querySelector(".empty")) box.replaceChildren();
+    const nearBottom = box.scrollHeight - box.scrollTop - box.clientHeight < 80;
+    box.querySelector(".line.interim")?.remove();
+    box.append(this.segNode(seg));
+    this.renderInterim(true);
+    if (nearBottom) box.scrollTop = box.scrollHeight;
+    $("#segCount").textContent = `${App.session.segments.length}줄`;
+  },
+
+  updateSegment(seg) {
+    const old = $(`#transcript [data-id="${seg.id}"]`);
+    if (old) old.replaceWith(this.segNode(seg));
+  },
+
+  renderInterim(skipScroll) {
+    const box = $("#transcript");
+    let node = box.querySelector(".line.interim");
+    if (!App.interim) { node?.remove(); return; }
+    if (box.querySelector(".empty")) box.replaceChildren();
+    if (!node) {
+      node = h("div", { class: "line interim" }, h("div", { class: "line-time" }, "···"), h("div", { class: "line-text" }));
+      box.append(node);
+    }
+    node.querySelector(".line-text").textContent = App.interim;
+    if (!skipScroll) {
+      const nearBottom = box.scrollHeight - box.scrollTop - box.clientHeight < 120;
+      if (nearBottom) box.scrollTop = box.scrollHeight;
+    }
+  },
+
+  /* ───────── 정리 ───────── */
+
+  renderSummary() {
+    const box = $("#summary");
+    const s = App.session;
+    document.querySelectorAll(".seg-toggle button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === App.view)));
+
+    if (App.view === "ai") {
+      if (App.aiState.running) {
+        box.replaceChildren(h("div", { class: "empty" },
+          h("strong", null, "기기 안의 AI가 회의록을 쓰고 있습니다"),
+          App.aiState.label || "",
+          h("div", { class: "progress" }, h("div", { style: `width:${Math.round(App.aiState.progress * 100)}%` })),
+          h("div", { style: "font-size:12px" }, "회의 내용은 이 기기 밖으로 나가지 않습니다.")));
+        return;
+      }
+      if (!s.ai) {
+        const why = App.aiState.error || (Caps.ai === "available"
+          ? "녹음을 마치면 자동으로 정리합니다. 지금 바로 정리하려면 아래 ‘AI로 정리하기’를 누르세요."
+          : Caps.aiUsable()
+            ? "처음 한 번은 기기 내 AI 모델(수 GB)을 내려받아야 합니다. 아래 ‘AI로 정리하기’를 누르면 시작합니다. 이후로는 녹음을 마칠 때 자동으로 정리합니다."
+            : "이 브라우저에는 기기 내 AI가 없습니다. 데스크톱 Chrome(Gemini Nano 지원 기기)에서 쓸 수 있습니다. ‘실시간’ 탭의 규칙 기반 정리는 언제나 쓸 수 있습니다.");
+        box.replaceChildren(h("div", { class: "empty" }, h("strong", null, App.aiState.error ? "AI 정리를 하지 못했습니다" : "AI 정리가 아직 없습니다"), why));
+        return;
+      }
+      box.replaceChildren(...this.summaryNodes(s.ai), h("div", { class: "sum-note" },
+        `기기 내 AI(Gemini Nano)가 ${s.aiAt ? fmtDate(s.aiAt) : ""}에 정리했습니다. ${s.ai._lang === "en" ? "한국어 번역기를 쓸 수 없어 영어로 남겼습니다. " : ""}AI 정리에도 오류가 있을 수 있으니 중요한 내용은 자막과 대조해 주세요.`));
+      return;
+    }
+
+    const sum = s.rule;
+    if (isEmptySummary(sum)) {
+      box.replaceChildren(h("div", { class: "empty" },
+        h("strong", null, "말을 시작하면 바로 정리됩니다"),
+        "배경 · 주요 논의 · 결정 사항 · 향후 계획 · 미결 사항으로 나눠 실시간으로 채워집니다."));
+      return;
+    }
+    box.replaceChildren(...this.summaryNodes(sum), h("div", { class: "sum-note" },
+      "실시간 정리는 말한 문장을 규칙으로 골라 분류한 것이라 문장이 다듬어져 있지 않습니다. " +
+      (Caps.ai === "available" ? "녹음을 마치면 기기 내 AI가 다시 정리합니다." : Caps.aiUsable() ? "‘AI 정리’ 탭에서 기기 내 AI로 다듬을 수 있습니다." : "")));
+  },
+
+  summaryNodes(sum) {
+    const out = [];
+    const section = (title, n, ...body) => h("div", { class: "sum-section" }, h("h3", null, title, n ? h("span", { class: "n" }, n) : null), ...body);
+    const list = (items, cls = "") => h("ul", { class: `sum-list ${cls}` }, items.map((t) => h("li", null, t)));
+
+    if (sum.overview) out.push(h("div", { class: "overview" }, sum.overview));
+    if (sum.background.length) out.push(section("배경", "", list(sum.background)));
+    if (sum.discussion.length) out.push(section("주요 논의", "", ...sum.discussion.map((d) =>
+      h("div", { class: "topic" }, h("div", { class: "topic-title" }, d.topic), list(d.points)))));
+    if (sum.decisions.length) out.push(section("결정 사항", sum.decisions.length, list(sum.decisions, "decision")));
+    if (sum.actions.length || sum.plans.length) {
+      out.push(section("향후 계획", "",
+        sum.actions.length ? h("div", { class: "actions" }, sum.actions.map((a) =>
+          h("div", { class: "action" },
+            h("div", { class: "action-task" }, a.task),
+            h("div", { class: "action-meta" },
+              a.owner ? h("span", { class: "tag" }, a.owner) : null,
+              a.due ? h("span", { class: "tag due" }, a.due) : null)))) : null,
+        sum.plans.length ? h("div", { style: sum.actions.length ? "margin-top:10px" : "" }, list(sum.plans, "plan")) : null));
+    }
+    if (sum.issues.length) out.push(section("미결 사항", sum.issues.length, list(sum.issues, "issue")));
+    if (sum.keywords.length) out.push(section("키워드", "", h("div", { class: "keywords" }, sum.keywords.map((k) => h("span", null, k)))));
+    return out;
+  },
+
+  renderFoot() {
+    const s = App.session;
+    const has = s.segments.length > 0;
+    $("#btnAi").hidden = !Caps.aiUsable();
+    $("#btnAi").disabled = !has || App.aiState.running || App.state !== "idle";
+    $("#btnAi").textContent = s.ai ? "AI로 다시 정리" : "AI로 정리하기";
+    $("#btnCopy").disabled = !has;
+    $("#btnExport").disabled = !has;
+  },
+
+  async renderAudio() {
+    const box = $("#audioBox");
+    const s = App.session;
+    if (!s.audioParts || App.state !== "idle") { box.hidden = true; return; }
+    box.hidden = false;
+    box.replaceChildren(h("strong", { style: "font-size:14px" }, "녹음 파일"));
+    for (let i = 0; i < s.audioParts; i++) {
+      try {
+        const blob = await Audio_.get(s.id, i);
+        if (!blob || App.session.id !== s.id) continue;
+        const url = URL.createObjectURL(blob);
+        const ext = blob.type.includes("mp4") ? "m4a" : "webm";
+        box.append(
+          h("audio", { controls: true, src: url, preload: "metadata" }),
+          h("button", { class: "btn small", type: "button", onclick: () => download(`${safeFilename(autoTitleOrUser())}${s.audioParts > 1 ? `-${i + 1}` : ""}.${ext}`, blob) }, s.audioParts > 1 ? `${i + 1}번 내려받기` : "내려받기"));
+      } catch {}
+    }
+  },
+
+  exportMenu(anchor) {
+    document.querySelector(".menu")?.remove();
+    const s = App.session;
+    const name = safeFilename(autoTitleOrUser());
+    const close = () => menu.remove();
+    const item = (label, fn, disabled) => h("button", { type: "button", role: "menuitem", disabled, onclick: () => { close(); fn(); } }, label);
+    const menu = h("div", { class: "menu", role: "menu" },
+      item("회의록 (.md) — 요약 + 전체 자막", () => download(`${name}.md`, Export.fullMarkdown(s, this.currentSummary()), "text/markdown;charset=utf-8")),
+      item("자막만 (.txt) — 원문 + 번역", () => download(`${name}-자막.txt`, Export.transcriptText(s))),
+      item("인쇄 / PDF로 저장", () => window.print()),
+      item("백업 (.json) — 다른 브라우저로 옮기기", () => download(`${name}.json`, JSON.stringify(s, null, 2), "application/json")),
+    );
+    const r = anchor.getBoundingClientRect();
+    menu.style.left = `${Math.max(8, Math.min(r.left + window.scrollX, window.innerWidth - 230))}px`;
+    menu.style.top = `${r.bottom + window.scrollY + 6}px`;
+    document.body.append(menu);
+    setTimeout(() => document.addEventListener("click", function off(e) { if (!menu.contains(e.target)) { close(); document.removeEventListener("click", off); } }), 0);
+  },
+
+  renderSessions() {
+    const box = $("#sessionList");
+    const list = Store.list();
+    const rows = list.map((m) => h("div", { class: "session-row" },
+      h("div", { class: "session-info" },
+        h("div", { class: "session-title" }, m.title || "제목 없음", m.id === App.session.id ? " · 열림" : ""),
+        h("div", { class: "session-meta" }, `${fmtDate(m.createdAt)} · ${fmtDuration(m.durationMs || 0)} · ${m.count}줄${m.audioParts ? " · 녹음 있음" : ""}`)),
+      h("button", { class: "btn small", type: "button", onclick: () => { App.open(m.id); $("#dlgSessions").close(); } }, "열기"),
+      h("button", { class: "btn small ghost", type: "button", onclick: () => { if (confirm(`"${m.title || "제목 없음"}" 회의를 지울까요? 되돌릴 수 없습니다.`)) App.remove(m.id); } }, "삭제")));
+    box.replaceChildren(
+      ...(rows.length ? rows : [h("div", { class: "empty" }, "저장된 회의가 없습니다.")]),
+      h("div", { style: "margin-top:14px; display:flex; gap:8px; flex-wrap:wrap" },
+        h("label", { class: "btn small" }, "백업 파일(.json) 불러오기",
+          h("input", { type: "file", accept: "application/json,.json", hidden: true, onchange: (e) => Export.importJson(e.target.files[0]) }))),
+    );
+  },
+
+  renderSettings() {
+    $("#setSaveAudio").checked = Settings.v.saveAudio;
+    $("#setLocalSpeech").checked = Settings.v.localSpeech;
+    $("#setExternal").checked = Settings.v.external;
+    $("#setEmail").value = Settings.v.email || "";
+  },
+
+  async renderCaps() {
+    const rows = [
+      ["음성 인식", SR ? "지원" : "미지원 — Chrome·Edge·Safari에서 열어 주세요"],
+      ["기기 내 음성 인식", SR && typeof SR.available === "function" ? "지원" : "미지원 (브라우저 기본 방식 사용)"],
+      ["기기 내 번역", !Translate.hasBuiltin() ? "미지원 — 외부 무료 번역을 켜면 번역 가능" : `현재 언어 짝: ${({ available: "바로 사용 가능", downloadable: "첫 사용 시 언어 팩 내려받기", downloading: "내려받는 중", unavailable: "사용 불가" })[Caps.tr[`${Settings.v.speechLang}>${Settings.v.targetLang}`]] || "확인 중"}`],
+      ["기기 내 AI 정리", !AI.has() ? "미지원 — 규칙 기반 정리만 사용" : ({ available: "바로 사용 가능", downloadable: "첫 사용 시 모델 내려받기 (수 GB)", downloading: "내려받는 중", unavailable: "이 기기에서 사용 불가 — 규칙 기반 정리만 사용" })[Caps.ai] || "확인 중"],
+      ["녹음 파일", "MediaRecorder" in window ? "지원" : "미지원"],
+    ];
+    $("#capReport").replaceChildren(...rows.map(([k, v]) => h("div", null, h("b", null, `${k}: `), v)));
+  },
+};
+
+function autoTitleOrUser() { return App.session.title || autoTitle(App.session); }
+
+/* ───────────────────────── 내보내기 ───────────────────────── */
+
+const Export = {
+  summaryMarkdown(s, sum) {
+    const L = [];
+    L.push(`# ${s.title || autoTitle(s)}`, "");
+    const langs = s.targetLang && s.targetLang !== "off" ? `${LANGS[s.speechLang]?.label} → ${LANGS[s.targetLang]?.label}` : LANGS[s.speechLang]?.label;
+    L.push(`- 일시: ${fmtDate(s.createdAt)}`, `- 길이: ${fmtDuration(s.durationMs || 0)}`, `- 언어: ${langs}`, `- 정리: ${sum === s.ai ? "기기 내 AI" : "규칙 기반(실시간)"}`, "");
+    if (sum.overview) L.push("## 개요", sum.overview, "");
+    if (sum.background.length) L.push("## 배경", ...sum.background.map((x) => `- ${x}`), "");
+    if (sum.discussion.length) {
+      L.push("## 주요 논의");
+      for (const d of sum.discussion) L.push(`### ${d.topic}`, ...d.points.map((p) => `- ${p}`), "");
+    }
+    if (sum.decisions.length) L.push("## 결정 사항", ...sum.decisions.map((x) => `- ${x}`), "");
+    if (sum.actions.length || sum.plans.length) {
+      L.push("## 향후 계획");
+      if (sum.actions.length) {
+        L.push("| 할 일 | 담당 | 기한 |", "| --- | --- | --- |");
+        for (const a of sum.actions) L.push(`| ${md(a.task)} | ${md(a.owner) || "-"} | ${md(a.due) || "-"} |`);
+        L.push("");
+      }
+      if (sum.plans.length) L.push(...sum.plans.map((x) => `- ${x}`), "");
+    }
+    if (sum.issues.length) L.push("## 미결 사항", ...sum.issues.map((x) => `- ${x}`), "");
+    if (sum.keywords.length) L.push(`키워드: ${sum.keywords.join(", ")}`, "");
+    return L.join("\n").trim() + "\n";
+  },
+
+  fullMarkdown(s, sum) {
+    return `${this.summaryMarkdown(s, sum)}\n---\n\n## 전체 자막\n\n${s.segments.map((g) =>
+      `**[${fmtClock(g.atMs)}]** ${g.text}${g.tr ? `  \n→ ${g.tr}` : ""}`).join("\n\n")}\n`;
+  },
+
+  transcriptText(s) {
+    return `${s.title || autoTitle(s)}\n${fmtDate(s.createdAt)} · ${fmtDuration(s.durationMs || 0)}\n\n` +
+      s.segments.map((g) => `[${fmtClock(g.atMs)}] (${LANGS[g.lang].short}) ${g.text}${g.tr ? `\n          (${LANGS[g.trLang]?.short || ""}) ${g.tr}` : ""}`).join("\n") + "\n";
+  },
+
+  async importJson(file) {
+    if (!file) return;
+    try {
+      const s = JSON.parse(await file.text());
+      if (!s || !Array.isArray(s.segments) || !s.id) throw new Error();
+      s.segments = s.segments.filter((g) => g && typeof g.text === "string" && LANGS[g.lang]);
+      s.audioParts = 0;
+      if (Store.get(s.id)) s.id = uid();
+      Store.save(s);
+      App.open(s.id);
+      $("#dlgSessions").close();
+      toast("회의를 불러왔습니다");
+    } catch { toast("올바른 백업 파일이 아닙니다"); }
+  },
+};
+const md = (x) => (x || "").replace(/\|/g, "\\|");
+
+App.init();
+</script>
+</body>
+</html>

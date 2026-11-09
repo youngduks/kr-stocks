@@ -93,18 +93,38 @@ Vercel 프로젝트 → Settings → Domains → `kr-stocks.com` 추가
 /api/prices        통합 가격 JSON (캐시 30s)
 ```
 
-## 보이스노트 (모바일 앱)
+## 보이스노트 (`/voicenote`)
 
-`mobile/` — 녹음하면서 실시간으로 내용을 정리해 주는 Expo(React Native) 앱.
-**이 사이트와는 코드를 공유하지 않는 독립 앱이다.** 서버도 API 키도 쓰지 않아
-운영 비용이 0원이고, 녹음 내용이 기기 밖으로 나가지 않는다.
+회의를 녹음하면서 실시간으로 자막·번역·회의록을 만드는 **단일 HTML 앱**.
+주식 사이트와 코드를 공유하지 않는 독립 도구이고, 이 사이트는 HTTPS 호스팅만 빌려준다
+(마이크와 브라우저 내장 AI는 HTTPS에서만 동작한다). 검색 노출은 막아 두었다.
 
-- 음성 인식: 기기 내장 STT
-- 녹음 중 정리: 한국어 어미 패턴 기반 규칙 엔진 (지연 0)
-- 최종 정리: Apple Foundation Models 온디바이스 LLM (iOS 26+)
+- 파일: `public/voicenote/index.html` — 외부 라이브러리 없음, 이 파일 하나가 전부
+- 주소: `/voicenote` (`next.config.mjs`의 rewrite)
+- **서버도 API 키도 쓰지 않는다. 운영 비용 0원.**
 
-앱 실행 방법과 설계 노트는 [`mobile/README.md`](mobile/README.md) 참고.
-네이티브 모듈을 쓰므로 **Expo Go로는 실행되지 않고 개발 빌드가 필요**하다.
+| 기능 | 방식 | 비고 |
+|---|---|---|
+| 음성 인식 | Web Speech API | Chrome은 Google 서버에서 처리(무료). Safari는 Apple |
+| 녹음 파일 | MediaRecorder → IndexedDB | 이 브라우저 안에만 저장, 내려받기 가능 |
+| 실시간 번역 | Chrome 기기 내 Translator API | 한국어 ↔ 영어·일본어·중국어. 없으면 MyMemory 무료 API(선택, 외부 전송) |
+| 회의 정리 (녹음 중) | 규칙 기반 | 한·영·일·중 어미/표현 패턴. 지연 0, 모든 브라우저 |
+| 회의 정리 (종료 후) | Chrome 기기 내 Prompt API (Gemini Nano) | 한국어 미지원이라 번역기로 영어를 거쳐 정리한 뒤 한국어로 되돌림 |
+
+정리 항목: 개요 · 배경 · 주요 논의 · 결정 사항 · 향후 계획(할 일·담당·기한 / 일정) · 미결 사항 · 키워드.
+
+### 구현하면서 확인한 브라우저 동작 (Chromium 153)
+
+설계에 직접 영향을 준 것들이다. 같은 문제를 다시 밟지 않도록 남긴다.
+
+- `Translator.availability()`가 **응답 없이 멈추는** 경우가 있다. 번역 큐와 종료 처리가
+  이걸 기다리면 앱 전체가 멈추므로, 내장 AI 호출에는 전부 시한을 건다(`withTimeout`).
+- `LanguageModel.availability()`는 한국어 입출력에 `"unavailable"`을 준다.
+  그래서 AI 정리는 ko→en 번역 → 영어로 정리 → en→ko 번역 경로를 탄다.
+- `SpeechRecognition.available({ processLocally: true })`가 **탭을 크래시**시켰다.
+  기기 내 음성 인식은 설정의 실험 옵션(기본 꺼짐)으로만 둔다.
+- 기기 내 모델은 **사용자 클릭 직후에만** 내려받기를 시작할 수 있다. 녹음 시작·언어 전환·
+  "AI로 정리하기" 클릭 핸들러 안에서 번역기/AI를 준비한다.
 
 ## 향후 추가 기능 (Phase 2~3)
 

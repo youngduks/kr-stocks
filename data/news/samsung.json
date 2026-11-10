@@ -1,25 +1,27 @@
 {
   "category": "samsung",
-  "updated_at": "2026-11-09T17:55:07.009Z",
-  "count": 5,
+  "updated_at": "2026-11-10T00:56:52.612Z",
+  "count": 4,
   "items": [
     {
-      "title": "역사적 폭락에 공포 덮쳤는데…골드만이 본 '삼전닉스 미래'",
-      "link": "https://www.hankyung.com/article/2026110950316",
-      "source": "한국경제",
-      "ts": 1794229206000,
-      "pub": "Mon, 09 Nov 2026 22:00:06 +0900",
-      "sentiment": "negative"
+      "title": "[특징주] 반도체주 강세…삼성전자 5%·SK하이닉스 8% 상승",
+      "link": "https://www.yna.co.kr/view/AKR20261110046100008",
+      "source": "연합뉴스 경제",
+      "ts": 1794270610000,
+      "pub": "Tue, 10 Nov 2026 09:30:10 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유아 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 투심 회복에 힘입어 10일 장 초반 5∼8%대 급등 중이...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/10/29/29/PCM20261029000029990_P2.jpg"
     },
     {
-      "title": "메모리도 LCD도 '줄인상'…삼성·LG전자 TV사업 '이중고'",
-      "link": "https://www.mt.co.kr/industry/2026/11/09/2026110914544548900",
-      "source": "머니투데이",
-      "ts": 1794213600000,
-      "pub": "Mon, 09 Nov 2026 17:40:00 +0900",
-      "sentiment": "neutral",
-      "desc": "중국 패널 업체 감산·가격 인상에 제조원가 상승 우려…원가 경쟁력 확보 주력 중국 LCD(액정표시장치) 제조사들이 가격 인상을 추진하면서 삼성전자와 LG전자의 원가 부담이 한층 확대될 전망이다. 국내 디스플레이 기업들의 LCD 사업 철수로 중국발 가격 인상 여파를 피하",
-      "image": "https://thumb.mt.co.kr/06/2026/11/2026110914544548900_1.jpg"
+      "title": "[속보] 반도체주 강세…삼전닉스 5~8% 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261110038300008",
+      "source": "연합뉴스 경제",
+      "ts": 1794269331000,
+      "pub": "Tue, 10 Nov 2026 09:08:51 +0900",
+      "sentiment": "positive",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/10/PYH2026111002410001300_P2.jpg"
     },
     {
       "title": "삼전닉스 반등에도 코스피는 0.8% 또 하락…'5천피'는 사수(종합)",
@@ -40,16 +42,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 9일 장 중 한때 3∼5%대의 급등세를 보이다 오름폭을 ...",
       "image": "https://img.yna.co.kr/photo/cms/2026/10/29/28/PCM20261029000028990_P2.jpg"
-    },
-    {
-      "title": "[속보] 코스피, 1%대 오름세로 상승탄력 강화…삼전닉스 3∼5%↑",
-      "link": "https://www.yna.co.kr/view/AKR20261109061800008",
-      "source": "연합뉴스 경제",
-      "ts": 1794189134000,
-      "pub": "Mon, 9 Nov 2026 10:52:14 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/09/PYH2026110902280001300_P2.jpg"
     }
   ]
 }

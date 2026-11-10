@@ -1,8 +1,108 @@
 {
   "category": "intl",
-  "updated_at": "2026-11-10T00:56:52.610Z",
-  "count": 37,
+  "updated_at": "2026-11-10T07:55:32.335Z",
+  "count": 27,
   "items": [
+    {
+      "title": "'언론 자유' 외침남기고…러 독립매체, 푸틴 탄압속 33년만 폐간",
+      "link": "https://www.yna.co.kr/view/AKR20261110132900009",
+      "source": "연합뉴스 국제",
+      "ts": 1794294174000,
+      "pub": "Tue, 10 Nov 2026 16:02:54 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 박성진 기자 = \"우리는 살아남을 것이다. 그리고 끔찍한 시대에 붙잡힌 이 나라가 언젠가는 일어설 것이며, 그때 우리도 돌아오...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/10/AKR20261110132900009_01_i_P2.jpg"
+    },
+    {
+      "title": "\"각본대로만 하자\"…시진핑, 정상회담 때 트럼프 애드립 꺼린다",
+      "link": "https://www.yna.co.kr/view/AKR20261110136400009",
+      "source": "연합뉴스 국제",
+      "ts": 1794293869000,
+      "pub": "Tue, 10 Nov 2026 15:57:49 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 장재은 기자 = 도널드 트럼프 미국 대통령과 시진핑 중국 국가주석이 다음주 예정된 정상회담 방식을 두고 기 싸움에 들어갔다.",
+      "image": "https://img.yna.co.kr/photo/etc/gt/2026/09/26/PGT20260926019301009_P2.jpg"
+    },
+    {
+      "title": "[특징주] 재건주, 트럼프 \"분쟁 종식 긍정적 모멘텀\" 발언에 강세(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261110047251008",
+      "source": "연합뉴스 국제",
+      "ts": 1794292936000,
+      "pub": "Tue, 10 Nov 2026 15:42:16 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 임은진 기자 = 건설주 등 전후 재건 관련주가 10일 중동 지역의 군사적 긴장 완화 기대감에 강세를 보였다.",
+      "image": "https://img.yna.co.kr/photo/cms/2026/04/02/69/PCM20260402000069990_P2.jpg"
+    },
+    {
+      "title": "[쇼츠] 차량 돌진에 담장 넘은 괴한까지…트럼프 있던 백악관 '발칵'",
+      "link": "https://www.yna.co.kr/view/AKR20261110102800704",
+      "source": "연합뉴스 국제",
+      "ts": 1794285925000,
+      "pub": "Tue, 10 Nov 2026 13:45:25 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 미국 백악관 인근에서 승용차가 보도 위로 돌진해 운전자가 체포되고, 보안 차단벽을 넘어간 남성이 붙잡히는 일이 벌어졌습니다.",
+      "image": "https://www.youtube.com/embed/lLV2_y_TRUI"
+    },
+    {
+      "title": "[영상] 백악관 인근 차량 돌진 운전자 체포…차단벽 넘던 남성도 조사",
+      "link": "https://www.yna.co.kr/view/AKR20261110094400704",
+      "source": "연합뉴스 국제",
+      "ts": 1794284866000,
+      "pub": "Tue, 10 Nov 2026 13:27:46 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 미국 백악관 인근에서 승용차가 보도 위로 돌진해 운전자가 체포되고, 보안 차단벽을 넘어간 남성이 붙잡히는 일이 벌어졌습니다.",
+      "image": "https://www.youtube.com/embed/aEllt5JEjmY"
+    },
+    {
+      "title": "카타르 총리, 트럼프 만나 \"긍정적 논의\"…아랍 정상들 연쇄통화",
+      "link": "https://www.yna.co.kr/view/AKR20261110084400009",
+      "source": "연합뉴스 국제",
+      "ts": 1794279534000,
+      "pub": "Tue, 10 Nov 2026 11:58:54 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 류미나 기자 = 중동 중재국으로 나선 카타르 총리가 도널드 트럼프 미국 대통령을 만나 이란전 종전 합의를 위한 긍정적 논의를 ...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/16/PEP20261016235101009_P2.jpg"
+    },
+    {
+      "title": "젤렌스키, 3자협상 여론전…\"러, 교량 끊어 우크라 두동강 시도\"",
+      "link": "https://www.yna.co.kr/view/AKR20261110064100009",
+      "source": "연합뉴스 국제",
+      "ts": 1794279244000,
+      "pub": "Tue, 10 Nov 2026 11:54:04 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 박성진 기자 = 볼로디미르 젤렌스키 우크라이나 대통령이 미국이 중재하는 러시아와의 3자 휴전 협상을 앞두고 \"러시아가 우크라이...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/10/21/PRU20261021232901009_P2.jpg"
+    },
+    {
+      "title": "바이든, 회고록서 \"트럼프가 한 거짓말 무덤까지 쫓아다닐 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20261110080400009",
+      "source": "연합뉴스 국제",
+      "ts": 1794278777000,
+      "pub": "Tue, 10 Nov 2026 11:46:17 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이신영 기자 = 조 바이든 전 미국 대통령이 도널드 트럼프 대통령을 향해 \"제도를 무너뜨리고 증오를 부추기는\" 행정부를 통해 ...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/07/21/PAP20260721142401009_P2.jpg"
+    },
+    {
+      "title": "트럼프 중간선거 참패에 기대감…중미 이주민 행렬 美향해 북상",
+      "link": "https://www.yna.co.kr/view/AKR20261110074500009",
+      "source": "연합뉴스 국제",
+      "ts": 1794275946000,
+      "pub": "Tue, 10 Nov 2026 10:59:06 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 고일환 기자 = 도널드 트럼프 미국 대통령의 공화당이 중간선거에서 참패한 뒤 미국행을 원하는 중미 이주민들 사이에서 기대감이 ...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/09/PRU20261109107601009_P2.jpg"
+    },
+    {
+      "title": "트럼프, '美서 제품 생산' 억만장자 기업인 제조업 특사로 지명",
+      "link": "https://www.yna.co.kr/view/AKR20261110055600071",
+      "source": "연합뉴스 국제",
+      "ts": 1794272568000,
+      "pub": "Tue, 10 Nov 2026 10:02:48 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령은 9일(현지시간) '미국우선주의'를 주장해온 기업인을 제조업 특사로 지명했다.",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/10/PRU20261110095701009_P2.jpg"
+    },
     {
       "title": "모디, 3자 종전협상 앞둔 젤렌스키와 통화…\"지금 전쟁 끝내야\"",
       "link": "https://www.yna.co.kr/view/AKR20261110048800104",
@@ -32,30 +132,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령은 9일(현지시간) 중국 스파이로 의심되는 여성과의 외도 의혹을 시인한 젠슨 황 ...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/11/09/PRU20261109356801009_P2.jpg"
-    },
-    {
-      "title": "\"농담\"이라더니…트럼프, UFC 회장과 백악관 브리핑룸 등장",
-      "link": "https://www.hankyung.com/article/2026111064987",
-      "source": "한국경제",
-      "ts": 1794268201000,
-      "pub": "Tue, 10 Nov 2026 08:50:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "\"100년만의 대승리\" 美 민주 환호에.. 트럼프는 \"대통령은 아직 나\" [워싱턴나우+]",
-      "link": "https://www.hankyung.com/article/202611106219i",
-      "source": "한국경제",
-      "ts": 1794268084000,
-      "pub": "Tue, 10 Nov 2026 08:48:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "민주당 상원 장악…트럼프의 '중앙은행 장악 구상' 제동",
-      "link": "https://www.hankyung.com/article/202611106514i",
-      "source": "한국경제",
-      "ts": 1794268068000,
-      "pub": "Tue, 10 Nov 2026 08:47:48 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "트럼프 \"이란戰 종식 긍정적 모멘텀…공격재개 가능성 작아\"(종합2보)",
@@ -99,14 +175,6 @@
     },
     {
       "title": "[속보] 트럼프 \"헤그세스 국방장관 탄핵돼도 계속 지지하겠다\"",
-      "link": "https://www.hankyung.com/article/2026111062627",
-      "source": "한국경제",
-      "ts": 1794262851000,
-      "pub": "Tue, 10 Nov 2026 07:20:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"헤그세스 국방장관 탄핵돼도 계속 지지하겠다\"",
       "link": "https://www.yna.co.kr/view/AKR20261110015800071",
       "source": "연합뉴스 국제",
       "ts": 1794262771000,
@@ -114,22 +182,6 @@
       "sentiment": "neutral",
       "desc": "(",
       "image": "https://img.yna.co.kr/photo/etc/af/2026/10/22/PAF20261022075701009_P2.jpg"
-    },
-    {
-      "title": "\"결과 수용\" 엿새 만에…트럼프 \"선거 공정했다고 믿는가\"",
-      "link": "https://www.hankyung.com/article/2026111062457",
-      "source": "한국경제",
-      "ts": 1794262622000,
-      "pub": "Tue, 10 Nov 2026 07:17:02 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"젠슨 황, 스파이인 줄 몰랐다 해…그를 믿는다\"",
-      "link": "https://www.hankyung.com/article/2026111062517",
-      "source": "한국경제",
-      "ts": 1794261970000,
-      "pub": "Tue, 10 Nov 2026 07:06:10 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "[속보] 트럼프 \"젠슨 황과 통화…문제의 인물 스파이인줄 몰랐다 한다\"",
@@ -143,14 +195,6 @@
     },
     {
       "title": "[속보] 트럼프 \"젠슨 황 괜찮을 것…FBI가 들여다보고 있다\"",
-      "link": "https://www.hankyung.com/article/2026111062387",
-      "source": "한국경제",
-      "ts": 1794261673000,
-      "pub": "Tue, 10 Nov 2026 07:01:13 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 트럼프 \"젠슨 황 괜찮을 것…FBI가 들여다보고 있다\"",
       "link": "https://www.yna.co.kr/view/AKR20261110013900071",
       "source": "연합뉴스 국제",
       "ts": 1794261574000,
@@ -158,22 +202,6 @@
       "sentiment": "neutral",
       "desc": "(",
       "image": "https://img.yna.co.kr/photo/ap/2026/10/09/PAP20261009056101009_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"이란 전쟁 종식 긍정적 모멘텀…공격 재개 가능성 작아\"",
-      "link": "https://www.hankyung.com/article/2026111062067",
-      "source": "한국경제",
-      "ts": 1794260387000,
-      "pub": "Tue, 10 Nov 2026 06:39:47 +0900",
-      "sentiment": "positive"
-    },
-    {
-      "title": "트럼프 \"나는 준비돼 있다\"…이란 공격 재개 가능성 열어둬",
-      "link": "https://www.hankyung.com/article/2026111061957",
-      "source": "한국경제",
-      "ts": 1794260356000,
-      "pub": "Tue, 10 Nov 2026 06:39:16 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "[속보] 트럼프 \"이란戰 종식 긍정적 모멘텀…공격 재개 가능성 작아\"",
@@ -244,116 +272,6 @@
       "sentiment": "neutral",
       "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령이 공화당의 차기 대권주자로 떠오른 JD 밴스 부통령에 대해 유보적 태도를 보였다...",
       "image": "https://img.yna.co.kr/photo/etc/af/2026/11/05/PAF20261105026201009_P2.jpg"
-    },
-    {
-      "title": "빅터차 \"北, 중간선거 참패해 약해진 트럼프와 접촉 원할 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20261110001300071",
-      "source": "연합뉴스 국제",
-      "ts": 1794242788000,
-      "pub": "Tue, 10 Nov 2026 01:46:28 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 이달 중순 필리핀과 중국 등 아시아 방문 기간 북한 김정은 국무위원장과 만날 ...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110607290001300_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"중간선거 공정했다고 믿나\"…결국 부정선거론 꺼내",
-      "link": "https://www.yna.co.kr/view/AKR20261110001400071",
-      "source": "연합뉴스 국제",
-      "ts": 1794241915000,
-      "pub": "Tue, 10 Nov 2026 01:31:55 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 결국 중간선거 부정선거론을 꺼내 들었다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/10/AKR20261110001400071_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"원수를 용서해야 천국 간다면 내 대답은 '노'\"",
-      "link": "https://www.yna.co.kr/view/AKR20261110001000071",
-      "source": "연합뉴스 국제",
-      "ts": 1794241721000,
-      "pub": "Tue, 10 Nov 2026 01:28:41 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령이 '원수를 용서하느니 천국행을 포기하겠다'는 취지로 말해 눈길을 끈다.",
-      "image": "https://img.yna.co.kr/photo/ap/2025/10/15/PAP20251015101701009_P2.jpg"
-    },
-    {
-      "title": "젠슨황 감싼 트럼프도 시험대…中첩자와 불륜 묵인 의혹 커지나",
-      "link": "https://www.yna.co.kr/view/AKR20261110000800071",
-      "source": "연합뉴스 국제",
-      "ts": 1794239730000,
-      "pub": "Tue, 10 Nov 2026 00:55:30 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령이 중국 스파이 의심 여성과 불륜을 저지른 젠슨 황 엔비디아 최고경영자(CEO)를...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/09/PRU20261109358601009_P2.jpg"
-    },
-    {
-      "title": "트럼프의 '황금함대·골든돔' 구상, 중간선거 패배로 좌초 위기",
-      "link": "https://www.yna.co.kr/view/AKR20261109160200071",
-      "source": "연합뉴스 국제",
-      "ts": 1794236554000,
-      "pub": "Tue, 10 Nov 2026 00:02:34 +0900",
-      "sentiment": "negative",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령의 '황금함대'(Golden Fleet)와 '골든돔'(Golden Dome) 구상...",
-      "image": "https://img.yna.co.kr/photo/etc/gt/2025/12/23/PGT20251223018201009_P2.jpg"
-    },
-    {
-      "title": "러, '종전협상 유럽 참여' 거부…\"미·러·우크라 3자회담\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261109150351109",
-      "source": "연합뉴스 국제",
-      "ts": 1794226291000,
-      "pub": "Mon, 9 Nov 2026 21:11:31 +0900",
-      "sentiment": "neutral",
-      "desc": "(로마=연합뉴스) 민경락 특파원 = 러시아가 우크라이나와의 종전협상에 유럽 측도 참여할 것이라는 프랑스 정부 발표를 일축했다.",
-      "image": "https://img.yna.co.kr/photo/etc/ta/2026/11/05/PTA20261105009901009_P2.jpg"
-    },
-    {
-      "title": "러, '종전협상 유럽 참여' 거부…\"미·러·우크라 3자회담\"",
-      "link": "https://www.yna.co.kr/view/AKR20261109150300109",
-      "source": "연합뉴스 국제",
-      "ts": 1794218898000,
-      "pub": "Mon, 9 Nov 2026 19:08:18 +0900",
-      "sentiment": "neutral",
-      "desc": "(로마=연합뉴스) 민경락 특파원 = 러시아가 우크라이나와의 종전협상에 유럽 측도 참여할 것이라는 프랑스 정부 발표를 일축했다.",
-      "image": "https://img.yna.co.kr/photo/etc/ta/2026/11/05/PTA20261105009901009_P2.jpg"
-    },
-    {
-      "title": "中, 대미 24% 추가관세·희토류 통제강화 유예 2개월 연장(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261109087351083",
-      "source": "연합뉴스 국제",
-      "ts": 1794217580000,
-      "pub": "Mon, 9 Nov 2026 18:46:20 +0900",
-      "sentiment": "neutral",
-      "desc": "(베이징=연합뉴스) 한종구 정성조 특파원 = 중국이 미국산 수입품에 대한 24% 추가관세 부과 유예 조치를 내년 1월까지 2개월 연장한다고 발표...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/09/AKR20261109087351083_01_i_P2.jpg"
-    },
-    {
-      "title": "중동 출구 찾으려는 트럼프…9일 카타르 총리와 회담",
-      "link": "https://www.yna.co.kr/view/AKR20261109147100009",
-      "source": "연합뉴스 국제",
-      "ts": 1794214456000,
-      "pub": "Mon, 9 Nov 2026 17:54:16 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 곽민서 기자 = 도널드 트럼프 미국 대통령이 9일(현지시간) 중동 지역의 중재자로 나선 카타르 총리와 만나 이란 전쟁 해법을 ...",
-      "image": "https://img.yna.co.kr/photo/etc/gt/2026/11/09/PGT20261109198001009_P2.jpg"
-    },
-    {
-      "title": "美 고용지표 영향에 국고채 금리 일제히↑…3년물 연 3.639%(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261109131651008",
-      "source": "연합뉴스 경제",
-      "ts": 1794211032000,
-      "pub": "Mon, 9 Nov 2026 16:57:12 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김태종 기자 = 미국 고용지표의 영향으로 9일 국고채가 일제히 약세(금리 상승)로 마감했다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/09/AKR20261109131651008_01_i_P2.jpg"
-    },
-    {
-      "title": "트럼프 어떻게 변할까…G7 외교장관회의서 윤곽 나온다",
-      "link": "https://www.yna.co.kr/view/AKR20261109112100009",
-      "source": "연합뉴스 국제",
-      "ts": 1794205312000,
-      "pub": "Mon, 9 Nov 2026 15:21:52 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 임화섭 기자 = 9∼10일(현지시간) 파리에서 열리는 주요 7개국(G7) 외교장관회의는 도널드 트럼프 미국 대통령이 속한 집권...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/11/09/PEP20261109157201009_P2.jpg"
     }
   ]
 }

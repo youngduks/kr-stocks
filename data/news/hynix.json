@@ -1,17 +1,57 @@
 {
   "category": "hynix",
-  "updated_at": "2026-11-10T00:56:52.613Z",
-  "count": 19,
+  "updated_at": "2026-11-10T07:55:32.337Z",
+  "count": 12,
   "items": [
     {
-      "title": "[특징주] 반도체주 강세…삼성전자 5%·SK하이닉스 8% 상승",
-      "link": "https://www.yna.co.kr/view/AKR20261110046100008",
+      "title": "[특징주] 삼성전자 4%·SK하이닉스 6%대 급등…시총 합산 2천조 회복(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261110046151008",
       "source": "연합뉴스 경제",
-      "ts": 1794270610000,
-      "pub": "Tue, 10 Nov 2026 09:30:10 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 투심 회복에 힘입어 10일 장 초반 5∼8%대 급등 중이...",
+      "ts": 1794294975000,
+      "pub": "Tue, 10 Nov 2026 16:16:15 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 김유아 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 10일 각각 4%와 6%대 급등 마감하며 3거래일 만에 ...",
       "image": "https://img.yna.co.kr/photo/cms/2026/10/29/29/PCM20261029000029990_P2.jpg"
+    },
+    {
+      "title": "엔비디아, 2세대 로봇두뇌 공개…\"시연 5번에 95% 성공\"",
+      "link": "https://www.yna.co.kr/view/AKR20261110119900009",
+      "source": "연합뉴스 국제",
+      "ts": 1794291502000,
+      "pub": "Tue, 10 Nov 2026 15:18:22 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 엔비디아가 로봇이 기어 맞추기나 케이블 연결 같은 정밀 손작업을 익히도록 돕는 2세대 로봇 인공지능(AI) 모...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/01/06/PAP20260106064701009_P2.jpg"
+    },
+    {
+      "title": "'반도체 날개' 대기업 수출 2배로…'톱10' 기업 비중 60% 돌파",
+      "link": "https://www.yna.co.kr/view/AKR20261110061100002",
+      "source": "연합뉴스 경제",
+      "ts": 1794279608000,
+      "pub": "Tue, 10 Nov 2026 12:00:08 +0900",
+      "sentiment": "positive",
+      "desc": "(세종=연합뉴스) 안채원 기자 = 반도체 수출 호조에 힘입어 올해 3분기 대기업 수출액이 전년 동기 대비 두 배 이상으로 불어났다. 전체 수출에...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/10/29/29/PCM20261029000029990_P2.jpg"
+    },
+    {
+      "title": "반도체 록스타에서 불륜남으로…젠슨황 3년만에 최대위기",
+      "link": "https://www.yna.co.kr/view/AKR20261110078800009",
+      "source": "연합뉴스 국제",
+      "ts": 1794277995000,
+      "pub": "Tue, 10 Nov 2026 11:33:15 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 곽민서 기자 = 최근 3년 사이 반도체 업계의 '록스타'로 떠오른 젠슨황 엔비디아 최고경영자(CEO)가 중국 간첩 의혹에 연루...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/10/PRU20261110040001009_P2.jpg"
+    },
+    {
+      "title": "모건스탠리 '반도체 저승사자', 삼전닉스 30만9천원·160만원으로 하향",
+      "link": "https://www.yna.co.kr/view/AKR20261110080700008",
+      "source": "연합뉴스 경제",
+      "ts": 1794277802000,
+      "pub": "Tue, 10 Nov 2026 11:30:02 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 정회인 기자 = 글로벌 투자은행(IB) 모건스탠리가 삼성전자[005930]와 SK하이닉스[000660]의 내년 실적 전망치를 ...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/10/29/28/PCM20261029000028990_P2.jpg"
     },
     {
       "title": "\"'젠슨황 스캔들' 여성, 中 투자자들에 '엔비디아 친분' 과시\"",
@@ -24,16 +64,6 @@
       "image": "https://img.yna.co.kr/photo/reuters/2026/11/10/PRU20261110040001009_P2.jpg"
     },
     {
-      "title": "[속보] 반도체주 강세…삼전닉스 5~8% 급등",
-      "link": "https://www.yna.co.kr/view/AKR20261110038300008",
-      "source": "연합뉴스 경제",
-      "ts": 1794269331000,
-      "pub": "Tue, 10 Nov 2026 09:08:51 +0900",
-      "sentiment": "positive",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/10/PYH2026111002410001300_P2.jpg"
-    },
-    {
       "title": "엔비디아 美주주들, 젠슨 황에 소송…\"주가 급락 손해배상하라\"",
       "link": "https://www.yna.co.kr/view/AKR20261110030200091",
       "source": "연합뉴스 국제",
@@ -41,23 +71,7 @@
       "pub": "Tue, 10 Nov 2026 08:56:32 +0900",
       "sentiment": "negative",
       "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 중국 스파이로 지목된 여성과의 외도 사실을 시인한 젠슨 황 엔비디아 최고경영자(CEO)가 주주들에게 ...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/10/09/PAP20261009048101009_P2.jpg"
-    },
-    {
-      "title": "[밤 사이 해외 뉴스] 엔비디아, '스파이와 불륜'에 시총 3500억달러 증발",
-      "link": "https://www.hankyung.com/article/202611106310i",
-      "source": "한국경제",
-      "ts": 1794265369000,
-      "pub": "Tue, 10 Nov 2026 08:02:49 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "조나단 코헨 엔비디아 부사장 \"비용절감·보안 강화한 에이전트 AI, 차세대 AI 서비스 될 것\"",
-      "link": "https://www.hankyung.com/article/202611094928i",
-      "source": "한국경제",
-      "ts": 1794265209000,
-      "pub": "Tue, 10 Nov 2026 08:00:09 +0900",
-      "sentiment": "neutral"
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/09/PRU20261109348101009_P2.jpg"
     },
     {
       "title": "'젠슨황 리스크' 엔비디아 시총 258조원 증발…나홀로 급락",
@@ -67,15 +81,7 @@
       "pub": "Tue, 10 Nov 2026 07:39:39 +0900",
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 정주호 기자 = 미국 증시에서 기술주들이 일제히 반등한 가운데 엔비디아 주가가 젠슨 황 최고경영자(CEO)에 대한 이사회 조사...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/09/PRU20261109347701009_P2.jpg"
-    },
-    {
-      "title": "엔비디아만 급락…젠슨 황 스캔들, 美·中 반도체 전쟁으로 번지나 [오늘 아침 당신이 알아야 할 7가지]",
-      "link": "https://www.hankyung.com/article/202611106255i",
-      "source": "한국경제",
-      "ts": 1794263667000,
-      "pub": "Tue, 10 Nov 2026 07:34:27 +0900",
-      "sentiment": "negative"
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/10/PYH2026111006940001300_P2.jpg"
     },
     {
       "title": "엔비디아 4%대 나홀로 급락…뉴욕증시, AI주 저가매수에 반등(종합)",
@@ -86,14 +92,6 @@
       "sentiment": "negative",
       "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 미국 뉴욕증시의 3대 주가지수가 9일(현지시간) 국제유가 급락과 기술주 저가 매수세에 힘입어 일제히 급등했다...",
       "image": "https://img.yna.co.kr/photo/etc/epa/2026/11/09/PEP20261109182901009_P2.jpg"
-    },
-    {
-      "title": "반도체주 일제히 반등…엔비디아 홀로 4%대 급락 [뉴욕증시 브리핑]",
-      "link": "https://www.hankyung.com/article/2026111062276",
-      "source": "한국경제",
-      "ts": 1794261628000,
-      "pub": "Tue, 10 Nov 2026 07:00:28 +0900",
-      "sentiment": "negative"
     },
     {
       "title": "뉴욕증시, AI주 급락 충격 딛고 반등…엔비디아만 4%대 급락",
@@ -124,66 +122,6 @@
       "sentiment": "negative",
       "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 젠슨 황 엔비디아 최고경영자(CEO)가 중국 스파이 의혹을 받는 여성과의 추문으로 이사회 조사를 받게...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/11/09/PRU20261109325201009_P2.jpg"
-    },
-    {
-      "title": "엔비디아, 젠슨황 '中스파이 불륜' 의혹에 장중 8%대 급락(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261109160151072",
-      "source": "연합뉴스 국제",
-      "ts": 1794240563000,
-      "pub": "Tue, 10 Nov 2026 01:09:23 +0900",
-      "sentiment": "negative",
-      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 젠슨 황 엔비디아 최고경영자(CEO)가 중국 정보기관과 연계된 스파이로 의심받는 여성 기업인과의 불륜을 인정...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/09/PAF20261109219801009_P2.jpg"
-    },
-    {
-      "title": "엔비디아, 젠슨 황 '中스파이 불륜' 의혹에 장중 8%대 급락",
-      "link": "https://www.yna.co.kr/view/AKR20261109160100072",
-      "source": "연합뉴스 국제",
-      "ts": 1794236135000,
-      "pub": "Mon, 9 Nov 2026 23:55:35 +0900",
-      "sentiment": "negative",
-      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 젠슨 황 엔비디아 최고경영자(CEO)가 중국 정보기관과 연계된 스파이로 의심받는 여성 기업인과의 불륜을 인정...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/09/AKR20261109160100072_02_i_P2.jpg"
-    },
-    {
-      "title": "엔비디아, 업스테이지 등 국내 AI 스타트업 4사 투자한다",
-      "link": "https://www.yna.co.kr/view/AKR20261109146400017",
-      "source": "연합뉴스 경제",
-      "ts": 1794214667000,
-      "pub": "Mon, 9 Nov 2026 17:57:47 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 권하영 기자 = 엔비디아가 국내 인공지능(AI) 스타트업 포인트투테크놀로지에 대한 투자를 발표했다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/09/PYH2026110909960001300_P2.jpg"
-    },
-    {
-      "title": "日미쓰이화학, 반도체소재 기업 JSR 인수…日화학업계 최대 M&A",
-      "link": "https://www.yna.co.kr/view/AKR20261109145600073",
-      "source": "연합뉴스 국제",
-      "ts": 1794214098000,
-      "pub": "Mon, 9 Nov 2026 17:48:18 +0900",
-      "sentiment": "neutral",
-      "desc": "(도쿄=연합뉴스) 이도연 특파원 = 일본의 종합 화학 대기업인 미쓰이화학이 반도체 소재 대기업 JSR을 인수한다고 9일 밝혔다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/09/AKR20261109145600073_01_i_P2.jpg"
-    },
-    {
-      "title": "中, '엔비디아 젠슨황 추문'에 \"中간첩설은 뜬구름 잡는 소리\"",
-      "link": "https://www.yna.co.kr/view/AKR20261109132700083",
-      "source": "연합뉴스 국제",
-      "ts": 1794211257000,
-      "pub": "Mon, 9 Nov 2026 17:00:57 +0900",
-      "sentiment": "neutral",
-      "desc": "(베이징=연합뉴스) 정성조 특파원 = 젠슨 황 엔비디아 최고경영자(CEO)가 중국 정보기관의 첩자로 의심받는 여성 기업인과의 불륜 관계를 시인한...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/09/PAF20261109219801009_P2.jpg"
-    },
-    {
-      "title": "젠슨황 불륜 시인에 로빈후드서 엔비디아 주가 4%대 하락세",
-      "link": "https://www.yna.co.kr/view/AKR20261109110500009",
-      "source": "연합뉴스 국제",
-      "ts": 1794204766000,
-      "pub": "Mon, 9 Nov 2026 15:12:46 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 주종국 기자 = 젠슨 황 엔비디아 최고경영자(CEO)의 불륜 스캔들이 터진 이후 엔비디아 주가가 8일(현지시간) 밤 미국 온라...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/09/PAF20261109190001009_P2.jpg"
     }
   ]
 }

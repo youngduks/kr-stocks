@@ -1,8 +1,16 @@
 {
   "category": "samsung",
-  "updated_at": "2026-11-10T07:55:32.336Z",
-  "count": 5,
+  "updated_at": "2026-11-10T15:54:51.429Z",
+  "count": 4,
   "items": [
+    {
+      "title": "\"반도체 돈잔치 끝이 보인다\"…삼전닉스에 날아든 경고장 [분석+]",
+      "link": "https://www.hankyung.com/article/2026111079756",
+      "source": "한국경제",
+      "ts": 1794315602000,
+      "pub": "Tue, 10 Nov 2026 22:00:02 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "[특징주] 삼성전자 4%·SK하이닉스 6%대 급등…시총 합산 2천조 회복(종합)",
       "link": "https://www.yna.co.kr/view/AKR20261110046151008",
@@ -22,22 +30,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 박수현 기자 = 김형년 두나무 부회장은 10일 \"우리나라 대표 주식인 삼성전자와 하이닉스가 해외 거래소에서 거래된다는 것 자체...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/10/AKR20261110126200002_05_i_P2.jpg"
-    },
-    {
-      "title": "삼성전자 배당금 얼마나 받을까…ETF 운용사마다 다르다",
-      "link": "https://www.hankyung.com/article/2026111067501",
-      "source": "한국경제",
-      "ts": 1794292299000,
-      "pub": "Tue, 10 Nov 2026 15:31:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 털어낸 외국인, 실적·배당주 담았다",
-      "link": "https://www.hankyung.com/article/2026111067461",
-      "source": "한국경제",
-      "ts": 1794292194000,
-      "pub": "Tue, 10 Nov 2026 15:29:54 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "모건스탠리 '반도체 저승사자', 삼전닉스 30만9천원·160만원으로 하향",

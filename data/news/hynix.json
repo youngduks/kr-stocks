@@ -1,8 +1,36 @@
 {
   "category": "hynix",
-  "updated_at": "2026-11-11T08:34:34.260Z",
-  "count": 12,
+  "updated_at": "2026-11-11T16:43:54.685Z",
+  "count": 11,
   "items": [
+    {
+      "title": "\"'삼전닉스에 도전' 中낸드 YMTC, 이르면 내년 1분기 IPO 목표\"",
+      "link": "https://www.yna.co.kr/view/AKR20261111177700089",
+      "source": "연합뉴스 국제",
+      "ts": 1794397075000,
+      "pub": "Wed, 11 Nov 2026 20:37:55 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 낸드 플래시 메모리 분야에서 삼성전자·SK하이닉스에 도전 중인 중국 양쯔메모리(YMTC)가 이르면 내년 1...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/11/AKR20261111177700089_01_i_P2.jpg"
+    },
+    {
+      "title": "젠슨황 퇴진하면 엔비디아 누가 이끄나?…AMD 리사수까지 등장",
+      "link": "https://www.hankyung.com/article/202611111197i",
+      "source": "한국경제",
+      "ts": 1794396986000,
+      "pub": "Wed, 11 Nov 2026 20:36:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"젠슨황 연인 앨리스황, 10조원 엔비디아 AI칩 中 판매 도왔다\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261111006551091",
+      "source": "연합뉴스 국제",
+      "ts": 1794386024000,
+      "pub": "Wed, 11 Nov 2026 17:33:44 +0900",
+      "sentiment": "neutral",
+      "desc": "(샌프란시스코·서울=연합뉴스) 권영전 특파원 이지헌 기자 = 중국 스파이 의혹을 받는 앨리스 황(중국명 황러)이 젠슨 황 엔비디아 최고경영자(C...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/10/PRU20261110119301009_P2.jpg"
+    },
     {
       "title": "저가폰 부품원가 절반 넘은 메모리…가격 인상 압박",
       "link": "https://www.yna.co.kr/view/AKR20261111160200017",
@@ -12,30 +40,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 박형빈 기자 = 인공지능(AI) 수요 확대에 따른 메모리 반도체 가격 급등으로 저가형 스마트폰의 부품 원가에서 메모리가 차지하...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/11/AKR20261111160200017_01_i_P2.jpg"
-    },
-    {
-      "title": "패스트캠퍼스·엔비디아 공동 AI 해커톤…의약품 연구 AI 개발팀 우승",
-      "link": "https://www.hankyung.com/article/202611110671g",
-      "source": "한국경제",
-      "ts": 1794382168000,
-      "pub": "Wed, 11 Nov 2026 16:29:28 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[단독] \"엔비디아 GPU에 딥엑스 NPU 결합\"…김녹원 대표, 내달 美 본사 찾는다",
-      "link": "https://www.hankyung.com/article/202611110565i",
-      "source": "한국경제",
-      "ts": 1794379957000,
-      "pub": "Wed, 11 Nov 2026 15:52:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼성전자, AMD와 반도체 테스트 인프라 고도화 협력",
-      "link": "https://www.hankyung.com/article/202611110169i",
-      "source": "한국경제",
-      "ts": 1794378903000,
-      "pub": "Wed, 11 Nov 2026 15:35:03 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "\"미 블랙리스트 중국 군연계 대학, 엔비디아 H200 구매\"",
@@ -106,16 +110,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 주종국 기자 = 엔비디아 주가의 향후 강세 전망은 젠슨 황 최고경영자(CEO)가 자리를 지킬지 여부에 달렸다고 블룸버그 통신은...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/11/11/PRU20261111075801009_P2.jpg"
-    },
-    {
-      "title": "앤트로픽 가치 최대 1.4조달러…엔비디아·구글도 13조원씩 투자",
-      "link": "https://www.yna.co.kr/view/AKR20261111018100009",
-      "source": "연합뉴스 국제",
-      "ts": 1794350945000,
-      "pub": "Wed, 11 Nov 2026 07:49:05 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 앤트로픽의 기업공개(IPO)에 엔비디아와 구글이 각각 100억달러(약 13조4천억원)를 투자하는 등 인공지능(...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/11/PRU20261111095001009_P2.jpg"
     }
   ]
 }

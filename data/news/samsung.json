@@ -1,8 +1,18 @@
 {
   "category": "samsung",
-  "updated_at": "2026-11-11T08:34:34.260Z",
+  "updated_at": "2026-11-11T16:43:54.685Z",
   "count": 3,
   "items": [
+    {
+      "title": "\"'삼전닉스에 도전' 中낸드 YMTC, 이르면 내년 1분기 IPO 목표\"",
+      "link": "https://www.yna.co.kr/view/AKR20261111177700089",
+      "source": "연합뉴스 국제",
+      "ts": 1794397075000,
+      "pub": "Wed, 11 Nov 2026 20:37:55 +0900",
+      "sentiment": "neutral",
+      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 낸드 플래시 메모리 분야에서 삼성전자·SK하이닉스에 도전 중인 중국 양쯔메모리(YMTC)가 이르면 내년 1...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/11/AKR20261111177700089_01_i_P2.jpg"
+    },
     {
       "title": "저가폰 부품원가 절반 넘은 메모리…가격 인상 압박",
       "link": "https://www.yna.co.kr/view/AKR20261111160200017",
@@ -22,14 +32,6 @@
       "sentiment": "positive",
       "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 11일 각각 3%와 5%대의 상승률을 기록한 채 정규장 ...",
       "image": "https://img.yna.co.kr/photo/cms/2026/10/29/28/PCM20261029000028990_P2.jpg"
-    },
-    {
-      "title": "삼성전자, AMD와 반도체 테스트 인프라 고도화 협력",
-      "link": "https://www.hankyung.com/article/202611110169i",
-      "source": "한국경제",
-      "ts": 1794378903000,
-      "pub": "Wed, 11 Nov 2026 15:35:03 +0900",
-      "sentiment": "neutral"
     }
   ]
 }

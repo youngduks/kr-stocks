@@ -1,45 +1,111 @@
 {
   "category": "hynix",
-  "updated_at": "2026-11-11T01:33:40.354Z",
-  "count": 11,
+  "updated_at": "2026-11-11T08:34:34.260Z",
+  "count": 12,
   "items": [
     {
-      "title": "키움운용 \"'삼성전자&SK하이닉스채권혼합50' 주당 160원 월분배금\"",
-      "link": "https://www.yna.co.kr/view/AKR20261111056000008",
+      "title": "저가폰 부품원가 절반 넘은 메모리…가격 인상 압박",
+      "link": "https://www.yna.co.kr/view/AKR20261111160200017",
       "source": "연합뉴스 경제",
-      "ts": 1794358767000,
-      "pub": "Wed, 11 Nov 2026 09:59:27 +0900",
+      "ts": 1794385795000,
+      "pub": "Wed, 11 Nov 2026 17:29:55 +0900",
       "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 고은지 기자 = 키움투자자산운용은 'KIWOOM 삼성전자&amp;SK하이닉스채권혼합50' 상장지수펀드(ETF)가 이달 월중 분...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/11/AKR20261111056000008_01_i_P2.jpg"
+      "desc": "(서울=연합뉴스) 박형빈 기자 = 인공지능(AI) 수요 확대에 따른 메모리 반도체 가격 급등으로 저가형 스마트폰의 부품 원가에서 메모리가 차지하...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/11/AKR20261111160200017_01_i_P2.jpg"
     },
     {
-      "title": "반도체 수출 4배로 껑충…'1조 달러' 곧 달성 전망(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261111035651002",
-      "source": "연합뉴스 경제",
-      "ts": 1794357086000,
-      "pub": "Wed, 11 Nov 2026 09:31:26 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 안채원 기자 = 이달 초 반도체 수출이 작년 동기 대비 4배 이상으로 급증하면서 전체 수출액도 두 배 이상으로 늘었다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/24/PYH2026072405380006100_P2.jpg"
-    },
-    {
-      "title": "기후장관 \"호남 반도체 전력·용수 차질없이 공급\"…2029년 가동 목표",
-      "link": "https://www.mt.co.kr/economy/2026/11/11/2026111109071617969",
-      "source": "머니투데이",
-      "ts": 1794357000000,
-      "pub": "Wed, 11 Nov 2026 09:30:00 +0900",
-      "sentiment": "neutral",
-      "desc": "김성환 기후에너지환경부 장관이 2029년 호남 반도체 산업단지 적기 가동을 위해 전력 용수·현장 점검에 나섰다. 기후부는 11일 김 장관이 전남광주 광산구·서구에 있는 호남권 반도체 산단 전력공급선로 경과지와 변전소 후보지를 점검한다고 밝혔다. 이번 방문은 호남권 반도",
-      "image": "https://thumb.mt.co.kr/06/2026/11/2026111109071617969_1.jpg"
-    },
-    {
-      "title": "[마켓라이브] 미국 물가 부담에 반도체 대형주 주춤…보안·바이오·클라우드는 강세",
-      "link": "https://www.hankyung.com/article/202611119266i",
+      "title": "패스트캠퍼스·엔비디아 공동 AI 해커톤…의약품 연구 AI 개발팀 우승",
+      "link": "https://www.hankyung.com/article/202611110671g",
       "source": "한국경제",
-      "ts": 1794356371000,
-      "pub": "Wed, 11 Nov 2026 09:19:31 +0900",
+      "ts": 1794382168000,
+      "pub": "Wed, 11 Nov 2026 16:29:28 +0900",
       "sentiment": "neutral"
+    },
+    {
+      "title": "[단독] \"엔비디아 GPU에 딥엑스 NPU 결합\"…김녹원 대표, 내달 美 본사 찾는다",
+      "link": "https://www.hankyung.com/article/202611110565i",
+      "source": "한국경제",
+      "ts": 1794379957000,
+      "pub": "Wed, 11 Nov 2026 15:52:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼성전자, AMD와 반도체 테스트 인프라 고도화 협력",
+      "link": "https://www.hankyung.com/article/202611110169i",
+      "source": "한국경제",
+      "ts": 1794378903000,
+      "pub": "Wed, 11 Nov 2026 15:35:03 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"미 블랙리스트 중국 군연계 대학, 엔비디아 H200 구매\"",
+      "link": "https://www.yna.co.kr/view/AKR20261111128800009",
+      "source": "연합뉴스 국제",
+      "ts": 1794378267000,
+      "pub": "Wed, 11 Nov 2026 15:24:27 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 임화섭 기자 = 중국 군부와의 연계로 미국의 수출 통제 대상에 포함된 중국의 한 대학이 비록 소량이지만 엔비디아의 고성능 H2...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/11/PRU20261111164001009_P2.jpg"
+    },
+    {
+      "title": "박홍근 \"증시 조정, 반도체 편중된 韓경제에 신호…엄중히 인식\"",
+      "link": "https://www.yna.co.kr/view/AKR20261111122100002",
+      "source": "연합뉴스 경제",
+      "ts": 1794376667000,
+      "pub": "Wed, 11 Nov 2026 14:57:47 +0900",
+      "sentiment": "neutral",
+      "desc": "(세종=연합뉴스) 이세원 기자 = 박홍근 기획예산처 장관은 최근 증시 조정은 반도체에 편중된 한국 경제 구조에 보내는 신호로 엄중하게 인식할 필...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/11/PYH2026111111800001300_P2.jpg"
+    },
+    {
+      "title": "\"차기 엔비디아 수장 후보로 리사 수 AMD CEO도 거론\"",
+      "link": "https://www.yna.co.kr/view/AKR20261111110900009",
+      "source": "연합뉴스 국제",
+      "ts": 1794376366000,
+      "pub": "Wed, 11 Nov 2026 14:52:46 +0900",
+      "sentiment": "neutral",
+      "desc": "(타이베이=연합뉴스) 김철문 통신원 = 젠슨 황 엔비디아 최고경영자(CEO)가 불륜 파문으로 자리에서 물러날 가능성이 거론되는 가운데 차기 수장...",
+      "image": "https://img.yna.co.kr/photo/etc/gt/2026/10/09/PGT20261009002901009_P2.jpg"
+    },
+    {
+      "title": "TSMC, 앤트로픽·오픈AI에 각각 최대 5억달러 투자",
+      "link": "https://www.yna.co.kr/view/AKR20261111087300009",
+      "source": "연합뉴스 국제",
+      "ts": 1794373107000,
+      "pub": "Wed, 11 Nov 2026 13:58:27 +0900",
+      "sentiment": "neutral",
+      "desc": "(타이베이=연합뉴스) 김철문 통신원 = 세계 최대 파운드리(반도체 위탁생산) 업체인 대만 TSMC가 앤트로픽과 오픈AI에 각각 최대 5억 달러(...",
+      "image": "https://img.yna.co.kr/photo/cms/2022/09/09/37/PCM20220909000037009_P2.jpg"
+    },
+    {
+      "title": "中알리바바 반도체 자회사, 홍콩IPO 신청…데이터센터 확대 겨냥",
+      "link": "https://www.yna.co.kr/view/AKR20261111101700083",
+      "source": "연합뉴스 국제",
+      "ts": 1794372955000,
+      "pub": "Wed, 11 Nov 2026 13:55:55 +0900",
+      "sentiment": "neutral",
+      "desc": "(베이징=연합뉴스) 정성조 특파원 = 중국 빅테크(거대 정보기술기업) 알리바바의 반도체 설계 자회사 티헤드(T-Head)가 홍콩 증시 기업공개(...",
+      "image": "https://img.yna.co.kr/photo/cms/2024/09/13/68/PCM20240913000168030_P2.jpg"
+    },
+    {
+      "title": "[영상] \"엔비디아 AI칩 24만개 중국행…앨리스황, 모호함으로 추적피해\"",
+      "link": "https://www.yna.co.kr/view/AKR20261111088600704",
+      "source": "연합뉴스 국제",
+      "ts": 1794364881000,
+      "pub": "Wed, 11 Nov 2026 11:41:21 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 엔비디아의 젠슨 황 최고경영자(CEO)가 중국 스파이로 의심받는 여성과의 불륜을 인정하면서 개인적 스캔들이 미국의 국가안보와 ...",
+      "image": "https://www.youtube.com/embed/nYTUuiJ6PZ4"
+    },
+    {
+      "title": "블룸버그 \"엔비디아 주가, 젠슨 황 자리 지킬지에 달려\"",
+      "link": "https://www.yna.co.kr/view/AKR20261111064500009",
+      "source": "연합뉴스 국제",
+      "ts": 1794363584000,
+      "pub": "Wed, 11 Nov 2026 11:19:44 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 주종국 기자 = 엔비디아 주가의 향후 강세 전망은 젠슨 황 최고경영자(CEO)가 자리를 지킬지 여부에 달렸다고 블룸버그 통신은...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/11/PRU20261111075801009_P2.jpg"
     },
     {
       "title": "앤트로픽 가치 최대 1.4조달러…엔비디아·구글도 13조원씩 투자",
@@ -50,66 +116,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 정주호 기자 = 앤트로픽의 기업공개(IPO)에 엔비디아와 구글이 각각 100억달러(약 13조4천억원)를 투자하는 등 인공지능(...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/11/11/PRU20261111095001009_P2.jpg"
-    },
-    {
-      "title": "\"젠슨황 연인 앨리스황, 10조원 엔비디아 AI칩 중국으로 밀반입\"",
-      "link": "https://www.yna.co.kr/view/AKR20261111006500091",
-      "source": "연합뉴스 국제",
-      "ts": 1794344383000,
-      "pub": "Wed, 11 Nov 2026 05:59:43 +0900",
-      "sentiment": "neutral",
-      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 중국 스파이 의혹을 받는 앨리스 황(중국명 황러)은 젠슨 황 엔비디아 최고경영자(CEO)와의 관계를 ...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/10/PRU20261110119301009_P2.jpg"
-    },
-    {
-      "title": "엔비디아 '젠슨황 스캔들' 독립조사 한국계 前연방검사가 맡는다",
-      "link": "https://www.yna.co.kr/view/AKR20261111007300072",
-      "source": "연합뉴스 국제",
-      "ts": 1794343859000,
-      "pub": "Wed, 11 Nov 2026 05:50:59 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 엔비디아가 젠슨 황 최고경영자(CEO)를 둘러싼 중국 정보기관 연계 의혹에 대한 독립 조사를 주도할 책임자로...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/11/AKR20261111007300072_02_i_P2.jpg"
-    },
-    {
-      "title": "엔비디아, 젠슨황 파장에 장중 시총 3위로 밀려…4조달러 '흔들'",
-      "link": "https://www.yna.co.kr/view/AKR20261111004400091",
-      "source": "연합뉴스 국제",
-      "ts": 1794339157000,
-      "pub": "Wed, 11 Nov 2026 04:32:37 +0900",
-      "sentiment": "neutral",
-      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 엔비디아가 젠슨 황 최고경영자(CEO)의 '중국 간첩 불륜' 스캔들 사태로 주가가 급락해 한때 전 세...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/11/10/PAP20261110027401009_P2.jpg"
-    },
-    {
-      "title": "'AI 수혜' TSMC 10월 매출 60% 증가…사상 최고치 새로 써",
-      "link": "https://www.yna.co.kr/view/AKR20261110169900089",
-      "source": "연합뉴스 국제",
-      "ts": 1794304641000,
-      "pub": "Tue, 10 Nov 2026 18:57:21 +0900",
-      "sentiment": "positive",
-      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 인공지능(AI) 붐에 힘입어 세계 최대 파운드리(반도체 위탁생산) 업체인 대만 TSMC의 10월 매출(연결...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/22/PRU20261022225001009_P2.jpg"
-    },
-    {
-      "title": "반도체 록스타에서 불륜남으로…젠슨황 3년만에 최대위기(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261110164200009",
-      "source": "연합뉴스 국제",
-      "ts": 1794300602000,
-      "pub": "Tue, 10 Nov 2026 17:50:02 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 곽민서 김승욱 기자 = 최근 3년 사이 반도체 업계의 '록스타'로 떠오른 젠슨황 엔비디아 최고경영자(CEO)가 중국 간첩 의혹...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/09/PRU20261109316901009_P2.jpg"
-    },
-    {
-      "title": "[특징주] 삼성전자 4%·SK하이닉스 6%대 급등…시총 합산 2천조 회복(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261110046151008",
-      "source": "연합뉴스 경제",
-      "ts": 1794294975000,
-      "pub": "Tue, 10 Nov 2026 16:16:15 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 10일 각각 4%와 6%대 급등 마감하며 3거래일 만에 ...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/10/29/29/PCM20261029000029990_P2.jpg"
     }
   ]
 }

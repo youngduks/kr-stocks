@@ -1,8 +1,26 @@
 {
   "category": "samsung",
-  "updated_at": "2026-11-11T16:43:54.685Z",
-  "count": 3,
+  "updated_at": "2026-11-11T23:11:20.211Z",
+  "count": 5,
   "items": [
+    {
+      "title": "'삼전닉스 들어갈까요?' 고민 NO…하락장에도 끄떡없는 비결 [인터뷰+]",
+      "link": "https://www.hankyung.com/article/2026111105136",
+      "source": "한국경제",
+      "ts": 1794432601000,
+      "pub": "Thu, 12 Nov 2026 06:30:01 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 장기호황 확신?… TSMC 55조 베팅, 삼전닉스 미소",
+      "link": "https://www.mt.co.kr/industry/2026/11/12/2026111119515668397",
+      "source": "머니투데이",
+      "ts": 1794423000000,
+      "pub": "Thu, 12 Nov 2026 03:50:00 +0900",
+      "sentiment": "neutral",
+      "desc": "TSMC 10월 매출 23.8조원 역대 최대, 작년대비 60% 급증 실적 힘입어 오픈AI 5억弗 등 투입… 투자 영역 확대 '주목' AI가속기 생산 늘면 메모리·첨단공정 등 국내기업에 수혜 세계 최대 파운드리(반도체 위탁생산) 기업인 대만 TSMC가 역대 최대 월매출을",
+      "image": "https://thumb.mt.co.kr/06/2026/11/2026111119515668397_1.jpg"
+    },
     {
       "title": "\"'삼전닉스에 도전' 中낸드 YMTC, 이르면 내년 1분기 IPO 목표\"",
       "link": "https://www.yna.co.kr/view/AKR20261111177700089",

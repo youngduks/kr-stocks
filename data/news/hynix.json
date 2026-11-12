@@ -1,42 +1,228 @@
 {
   "category": "hynix",
-  "updated_at": "2026-11-12T13:24:31.603Z",
-  "count": 18,
+  "updated_at": "2026-11-12T21:12:52.437Z",
+  "count": 30,
   "items": [
     {
-      "title": "메가스피드 \"엔비디아 스캔들 이후 칩 수출통제 준수 여부 조사\"",
-      "link": "https://www.mt.co.kr/world/2026/11/12/2026111219501778729",
-      "source": "머니투데이",
-      "ts": 1794485622000,
-      "pub": "Thu, 12 Nov 2026 21:13:42 +0900",
+      "title": "美민주, 트럼프 '엔비디아 中수출승인' 조사…러트닉 먼저 조준",
+      "link": "https://www.yna.co.kr/view/AKR20261113008300071",
+      "source": "연합뉴스 국제",
+      "ts": 1794515402000,
+      "pub": "Fri, 13 Nov 2026 05:30:02 +0900",
       "sentiment": "neutral",
-      "desc": "젠슨 황 엔비디아 최고경영자(CEO)를 둘러싼 스캔들의 중심에 선 싱가포르 기업 메가스피드가 자사의 반도체 수출통제 준수 여부에 대한 내부 조사에 착수했다. 12일(현지시간) AFP통신에 따르면 메가스피드는 미국 수출통제 규정을 준수해왔는지 확인하기 위해 조사 작업을 ",
-      "image": "https://thumb.mt.co.kr/06/2026/11/2026111219501778729_1.jpg"
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 젠슨 황 엔비디아 전 최고경영자(CEO) 스캔들의 불똥이 도널드 트럼프 행정부 책임론으로 급속히 번지는 모...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/13/AKR20261113008300071_01_i_P2.jpg"
     },
     {
-      "title": "'젠슨 황 역풍' 우려에…中 AI 기업, 해외 엔비디아 칩 확보 추진",
-      "link": "https://www.mt.co.kr/world/2026/11/12/2026111216274321759",
-      "source": "머니투데이",
-      "ts": 1794475513000,
-      "pub": "Thu, 12 Nov 2026 18:25:13 +0900",
-      "sentiment": "negative",
-      "desc": "중국 인공지능(AI) 기업들이 해외 데이터센터에서 엔비디아의 첨단 칩을 이용할 수 있는 연산 자원을 확보하려는 움직임이 감지된다. 젠슨 황 엔비디아 최고경영자(CEO)를 둘러싼 논란이 미국의 대중 수출통제를 강화하는 계기가 돼 해외 클라우드를 통한 원격 칩 이용까지 제",
-      "image": "https://thumb.mt.co.kr/06/2026/11/2026111216274321759_1.jpg"
+      "title": "엔비디아 임시 CEO \"지금 극도로 힘든 시기\"…전사회의 소집",
+      "link": "https://www.yna.co.kr/view/AKR20261113003100091",
+      "source": "연합뉴스 국제",
+      "ts": 1794501905000,
+      "pub": "Fri, 13 Nov 2026 01:45:05 +0900",
+      "sentiment": "neutral",
+      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 젠슨 황이 자리에서 물러나면서 엔비디아의 임시 최고경영자(CEO)를 맡은 콜레트 크레스 CFO가 직원...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/13/PRU20261113011901009_P2.jpg"
     },
     {
-      "title": "반도체 초호황에도 살아나지 않는 소비",
-      "link": "https://www.hankyung.com/article/2026111236301",
+      "title": "젠슨황 엔비디아 CEO 퇴진…불륜 파문에 33년만에 쫓겨나(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20261112185952071",
+      "source": "연합뉴스 국제",
+      "ts": 1794501263000,
+      "pub": "Fri, 13 Nov 2026 01:34:23 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 미국 인공지능(AI) 반도체 기업 엔비디아의 젠슨 황 최고경영자(CEO)가 중국 스파이 연루 의혹 등 잇단...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/12/PAF20261112278601009_P2.jpg"
+    },
+    {
+      "title": "엔비디아 첫 이사회 의장에 하비 존스…실리콘밸리 원로경영인",
+      "link": "https://www.yna.co.kr/view/AKR20261113002400072",
+      "source": "연합뉴스 국제",
+      "ts": 1794500924000,
+      "pub": "Fri, 13 Nov 2026 01:28:44 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 엔비디아는 12일(현지시간) 젠슨 황 최고경영자(CEO) 사임에 따라 하비 존스를 자사 최초의 이사회 의장으...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/13/AKR20261113002400072_01_i_P2.jpg"
+    },
+    {
+      "title": "트럼프-젠슨황 거래적 긴밀 관계…거액 기부에 엔비디아 혜택",
+      "link": "https://www.yna.co.kr/view/AKR20261113001900071",
+      "source": "연합뉴스 국제",
+      "ts": 1794500427000,
+      "pub": "Fri, 13 Nov 2026 01:20:27 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 젠슨 황 엔비디아 전 최고경영자(CEO)가 12일(현지시간) 사실상 전격 해임되면서 도널드 트럼프 미국 대...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/13/AKR20261113001900071_01_i_P2.jpg"
+    },
+    {
+      "title": "젠슨 황 퇴진, AI 선장을 잃다…엔비디아 33년 만에 리더십 교체",
+      "link": "https://www.hankyung.com/article/2026111339411",
       "source": "한국경제",
-      "ts": 1794473962000,
-      "pub": "Thu, 12 Nov 2026 17:59:22 +0900",
+      "ts": 1794498761000,
+      "pub": "Fri, 13 Nov 2026 00:52:41 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "'반도체 수출통제' 목소리 거세진 美의회",
-      "link": "https://www.hankyung.com/article/2026111236691",
+      "title": "젠슨황 퇴진에 엔비디아 주가 13% 급락 출발…목표주가도 줄하향(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261112186951072",
+      "source": "연합뉴스 국제",
+      "ts": 1794498522000,
+      "pub": "Fri, 13 Nov 2026 00:48:42 +0900",
+      "sentiment": "negative",
+      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 33년간 엔비디아를 이끌어 온 젠슨 황 최고경영자(CEO)가 12일(현지시간) 자리에서 물러나면서 엔비디아의...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/12/PAF20261112287401009_P2.jpg"
+    },
+    {
+      "title": "\"엔비디아 성장 이어갈 수 있나\"…월가, 줄줄이 목표가 낮춰",
+      "link": "https://www.hankyung.com/article/2026111339431",
       "source": "한국경제",
-      "ts": 1794473804000,
-      "pub": "Thu, 12 Nov 2026 17:56:44 +0900",
+      "ts": 1794498347000,
+      "pub": "Fri, 13 Nov 2026 00:45:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "젠슨황 없는 'AI중앙은행' 엔비디아 최대위기…AI산업 대혼돈 예고(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261112115651091",
+      "source": "연합뉴스 국제",
+      "ts": 1794498280000,
+      "pub": "Fri, 13 Nov 2026 00:44:40 +0900",
+      "sentiment": "negative",
+      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 젠슨 황 엔비디아 최고경영자(CEO)가 중국 스파이까지 연루된 잇단 불륜 의혹으로 12일(현지시간) ...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/11/10/PEP20261110126901009_P2.jpg"
+    },
+    {
+      "title": "젠슨 황, 엔비디아 전격 사임…美 반도체 규제 강화하나 [박신영의 개장전 요것만]",
+      "link": "https://www.hankyung.com/article/202611133936i",
+      "source": "한국경제",
+      "ts": 1794497020000,
+      "pub": "Fri, 13 Nov 2026 00:23:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "위기의 엔비디아 이끌 임시CEO 크레스는 재무통 베테랑 임원",
+      "link": "https://www.yna.co.kr/view/AKR20261112187300071",
+      "source": "연합뉴스 국제",
+      "ts": 1794496314000,
+      "pub": "Fri, 13 Nov 2026 00:11:54 +0900",
+      "sentiment": "negative",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 젠슨 황 최고경영자(CEO)가 12일(현지시간) 전격 사임하면서 위기에 빠진 엔비디아를 이끌 콜레트 크레스...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/12/AKR20261112187300071_01_i_P2.jpg"
+    },
+    {
+      "title": "젠슨 황 없는 엔비디아 주가 13% 급락 출발…목표주가도 줄하향",
+      "link": "https://www.yna.co.kr/view/AKR20261112186900072",
+      "source": "연합뉴스 국제",
+      "ts": 1794495735000,
+      "pub": "Fri, 13 Nov 2026 00:02:15 +0900",
+      "sentiment": "negative",
+      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 33년간 엔비디아를 이끌어 온 젠슨 황 최고경영자(CEO)가 12일(현지시간) 물러나면서 엔비디아의 주가가 ...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/12/PAF20261112287401009_P2.jpg"
+    },
+    {
+      "title": "'스캔들 파문' 젠슨황 엔비디아 CEO 사실상 해임…33년만에 퇴진(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261112185951071",
+      "source": "연합뉴스 국제",
+      "ts": 1794495531000,
+      "pub": "Thu, 12 Nov 2026 23:58:51 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 미국 인공지능(AI) 반도체 기업 엔비디아의 젠슨 황 최고경영자(CEO)가 중국 스파이 연루 의혹 등 잇단...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/12/PAF20261112278601009_P2.jpg"
+    },
+    {
+      "title": "뉴욕증시, 젠슨 황 엔비디아 CEO 사임 속 혼조 출발",
+      "link": "https://www.yna.co.kr/view/AKR20261112187200009",
+      "source": "연합뉴스 국제",
+      "ts": 1794495302000,
+      "pub": "Thu, 12 Nov 2026 23:55:02 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 윤정원 연합인포맥스 기자 = 뉴욕증시의 3대 주가지수는 젠슨 황 엔비디아 최고경영자(CEO) 사임 소식을 소화하며 혼조세로 출...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/11/PRU20261111032301009_P2.jpg"
+    },
+    {
+      "title": "월가, AMD '매수' 의견…엔비디아 일부 대체 기대[월가 업&다운]",
+      "link": "https://www.hankyung.com/article/202611123926i",
+      "source": "한국경제",
+      "ts": 1794494899000,
+      "pub": "Thu, 12 Nov 2026 23:48:19 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 엔비디아, 젠슨 황 사임에 뉴욕증시서 13% 급락 출발",
+      "link": "https://www.hankyung.com/article/2026111239037",
+      "source": "한국경제",
+      "ts": 1794494383000,
+      "pub": "Thu, 12 Nov 2026 23:39:43 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "젠슨 황 엔비디아 CEO 퇴진...엔비디아 주가 '급락'",
+      "link": "https://www.hankyung.com/article/202611123920i",
+      "source": "한국경제",
+      "ts": 1794494309000,
+      "pub": "Thu, 12 Nov 2026 23:38:29 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "[속보] 엔비디아, 젠슨 황 사임에 뉴욕증시서 13% 급락 출발",
+      "link": "https://www.yna.co.kr/view/AKR20261112186600072",
+      "source": "연합뉴스 국제",
+      "ts": 1794494284000,
+      "pub": "Thu, 12 Nov 2026 23:38:04 +0900",
+      "sentiment": "negative",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/11/12/PEP20261112233401009_P2.jpg"
+    },
+    {
+      "title": "'中 스파이 스캔들' 젠슨황 엔비디아 CEO 사임…CFO가 임시경영",
+      "link": "https://www.yna.co.kr/view/AKR20261112185900071",
+      "source": "연합뉴스 국제",
+      "ts": 1794492416000,
+      "pub": "Thu, 12 Nov 2026 23:06:56 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 미국 인공지능(AI) 반도체 기업 엔비디아는 12일(현지시간) 중국 스파이 연루 의혹 등에 휩싸인 젠슨 황...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/12/PAF20261112278601009_P2.jpg"
+    },
+    {
+      "title": "젠슨 황, 엔비디아 CEO 사임…크레스 CFO가 임시수장 맡는다",
+      "link": "https://www.hankyung.com/article/2026111239027",
+      "source": "한국경제",
+      "ts": 1794491936000,
+      "pub": "Thu, 12 Nov 2026 22:58:56 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 엔비디아, 임시 CEO에 콜레트 크레스 CFO 임명",
+      "link": "https://www.yna.co.kr/view/AKR20261112185400071",
+      "source": "연합뉴스 국제",
+      "ts": 1794491870000,
+      "pub": "Thu, 12 Nov 2026 22:57:50 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/12/PRU20261112245501009_P2.jpg"
+    },
+    {
+      "title": "[속보] 젠슨 황, 엔비디아 CEO 사퇴 [로이터]",
+      "link": "https://www.hankyung.com/article/2026111238997",
+      "source": "한국경제",
+      "ts": 1794491803000,
+      "pub": "Thu, 12 Nov 2026 22:56:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 젠슨황, 엔비디아 CEO 사퇴",
+      "link": "https://www.yna.co.kr/view/AKR20261112184900071",
+      "source": "연합뉴스 국제",
+      "ts": 1794491696000,
+      "pub": "Thu, 12 Nov 2026 22:54:56 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/12/PRU20261112268201009_P2.jpg"
+    },
+    {
+      "title": "\"젠슨 황 없으면 어쩌나\"…대만 반도체 업계도 긴장한 이유",
+      "link": "https://www.hankyung.com/article/2026111238657",
+      "source": "한국경제",
+      "ts": 1794488360000,
+      "pub": "Thu, 12 Nov 2026 21:59:20 +0900",
       "sentiment": "neutral"
     },
     {
@@ -48,15 +234,6 @@
       "sentiment": "neutral",
       "desc": "(베이징=연합뉴스) 정성조 특파원 = 젠슨 황 미국 엔비디아 최고경영자(CEO)의 불륜 스캔들 상대로 지목된 이가 중국 정보기관 연계 인물이라는...",
       "image": "https://img.yna.co.kr/photo/cms/2026/10/08/89/PCM20261008000089011_P2.jpg"
-    },
-    {
-      "title": "[더벨]ISC, AI 반도체 테스트 핵심 거점 구축 본격화",
-      "link": "https://www.mt.co.kr/stock/2026/11/12/2026111217089695514",
-      "source": "머니투데이",
-      "ts": 1794471082000,
-      "pub": "Thu, 12 Nov 2026 17:11:22 +0900",
-      "sentiment": "neutral",
-      "desc": "더벨|이 기사는 11월12일(17:05) 자본시장 미디어 '머니투데이 thebell'에 출고된 기사입니다. 반도체 테스트 솔루션 기업 아이에스시(ISC)는 약 350억원을 투자해 인천 송도에 국내 생산과 연구개발 기능을 집적한 신공장을 건립한다. 인공지능(AI)·고성능"
     },
     {
       "title": "외국인 삼전 사고, 하이닉스 팔고…삼전 0.9%↑·하닉 1.80%↓(종합)",
@@ -107,76 +284,6 @@
       "sentiment": "negative",
       "desc": "(세종=연합뉴스) 김수현 기자 = 올해 민간 소비 개선세가 더딘 것은 반도체 호황의 파급이 점진적으로 이뤄지고 있으나 중동 분쟁에 따른 국제 유...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/12/PYH2026111211030001300_P2.jpg"
-    },
-    {
-      "title": "젠슨황 '사내불륜' 추가 폭로…NYT \"엔비디아 임원과 혼외관계\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261112021651009",
-      "source": "연합뉴스 국제",
-      "ts": 1794448422000,
-      "pub": "Thu, 12 Nov 2026 10:53:42 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김승욱 기자 = 중국 스파이로 지목된 여성과의 외도로 이미 곤경에 처한 젠슨 황(63) 엔비디아 최고경영자(CEO)가 자사의 ...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/12/PRU20261112110501009_P2.jpg"
-    },
-    {
-      "title": "엔비디아 주가 시간외 8.6%↓…시총 MS에 밀려 3위(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261112021351009",
-      "source": "연합뉴스 국제",
-      "ts": 1794447225000,
-      "pub": "Thu, 12 Nov 2026 10:33:45 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 엔비디아 이사회가 젠슨 황 최고경영자(CEO) 해임을 준비하고 있다는 보도에 엔비디아 주가가 시간외 거래에서 ...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/11/09/PAP20261109157401009_P2.jpg"
-    },
-    {
-      "title": "\"엔비디아 이사회, 젠슨황 거취결정 회의…후임 CEO 찾는 중\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20261112020753072",
-      "source": "연합뉴스 국제",
-      "ts": 1794446161000,
-      "pub": "Thu, 12 Nov 2026 10:16:01 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕·샌프란시스코=연합뉴스) 임수정 권영전 특파원 = 젠슨 황 엔비디아 최고경영자(CEO)가 외도 사실을 시인한 지 불과 3일 만에 이사회가 ...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/30/PEP20260930089001009_P2.jpg"
-    },
-    {
-      "title": "\"엔비디아 이사회, 젠슨황 해임 준비…거취결정 회의 예정\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261112020752072",
-      "source": "연합뉴스 국제",
-      "ts": 1794440607000,
-      "pub": "Thu, 12 Nov 2026 08:43:27 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕·샌프란시스코=연합뉴스) 임수정 권영전 특파원 = 젠슨 황 엔비디아 최고경영자(CEO)가 외도 사실을 시인한 지 불과 3일 만에 이사회가 ...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/30/PEP20260930089001009_P2.jpg"
-    },
-    {
-      "title": "엔비디아 주가, 시간외 8% 급락…'해임 준비' 보도에",
-      "link": "https://www.yna.co.kr/view/AKR20261112021300009",
-      "source": "연합뉴스 국제",
-      "ts": 1794437599000,
-      "pub": "Thu, 12 Nov 2026 07:53:19 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 엔비디아 주가가 11일(현지시간) 이사회가 젠슨 황 최고경영자(CEO) 해임을 준비하고 있다는 보도에 시간외 ...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/11/09/PAP20261109157401009_P2.jpg"
-    },
-    {
-      "title": "젠슨황 '사내불륜' 추가 폭로…NYT \"엔비디아 임원과 혼외관계\"",
-      "link": "https://www.yna.co.kr/view/AKR20261112021600009",
-      "source": "연합뉴스 국제",
-      "ts": 1794437480000,
-      "pub": "Thu, 12 Nov 2026 07:51:20 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김승욱 기자 = 중국 스파이로 지목된 여성과의 외도로 이미 곤경에 처한 젠슨 황(63) 엔비디아 최고경영자(CEO)가 자사의 ...",
-      "image": "https://img.yna.co.kr/photo/etc/gt/2026/10/08/PGT20261008005301009_P2.jpg"
-    },
-    {
-      "title": "\"엔비디아 이사회, 젠슨황 해임 준비…이르면 오늘 회의\"",
-      "link": "https://www.yna.co.kr/view/AKR20261112020751072",
-      "source": "연합뉴스 국제",
-      "ts": 1794437476000,
-      "pub": "Thu, 12 Nov 2026 07:51:16 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 엔비디아 이사회가 젠슨 황 최고경영자(CEO)의 해임을 준비하고 있다고 월스트리트저널(WSJ)이 11일(현지...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/30/PEP20260930089001009_P2.jpg"
     }
   ]
 }

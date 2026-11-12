@@ -1,0 +1,2018 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="light dark">
+<title>보이스노트</title>
+<meta name="description" content="회의를 녹음하면서 실시간으로 자막·번역·요약을 만드는 브라우저 앱. 서버도 API 키도 쓰지 않습니다.">
+<style>
+/* ───────────────────────── 디자인 토큰 ───────────────────────── */
+:root {
+  --bg: #f6f7f9;
+  --card: #ffffff;
+  --card-2: #f0f2f5;
+  --line: #e3e6eb;
+  --text: #15191f;
+  --sub: #5b6573;
+  --dim: #8b95a3;
+  --accent: #2f6fed;
+  --accent-soft: #e6eefe;
+  --rec: #e5484d;
+  --rec-soft: #fdecec;
+  --ok: #1f9d55;
+  --ok-soft: #e5f6ec;
+  --warn: #b7791f;
+  --warn-soft: #fdf3e1;
+  --radius: 14px;
+  --radius-sm: 9px;
+  --shadow: 0 1px 2px rgb(16 24 40 / 6%), 0 1px 3px rgb(16 24 40 / 6%);
+  --font: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", "Malgun Gothic", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d1014;
+    --card: #161b21;
+    --card-2: #1d242c;
+    --line: #262e38;
+    --text: #e8edf3;
+    --sub: #9aa6b4;
+    --dim: #6b7685;
+    --accent: #5b8ff9;
+    --accent-soft: #1b2a44;
+    --rec: #ff5c61;
+    --rec-soft: #3a1d20;
+    --ok: #3ccf7f;
+    --ok-soft: #14301f;
+    --warn: #e3a948;
+    --warn-soft: #382c16;
+    --shadow: none;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0d1014; --card: #161b21; --card-2: #1d242c; --line: #262e38;
+  --text: #e8edf3; --sub: #9aa6b4; --dim: #6b7685; --accent: #5b8ff9;
+  --accent-soft: #1b2a44; --rec: #ff5c61; --rec-soft: #3a1d20; --ok: #3ccf7f;
+  --ok-soft: #14301f; --warn: #e3a948; --warn-soft: #382c16; --shadow: none;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.55 var(--font);
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+button, input, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: .45; }
+[hidden] { display: none !important; }
+
+/* ───────────────────────── 레이아웃 ───────────────────────── */
+.app-head {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 12px 16px;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.brand { display: flex; align-items: center; gap: 8px; font-weight: 750; font-size: 17px; }
+.brand-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--rec); }
+.head-actions { display: flex; gap: 6px; }
+
+main { max-width: 1240px; margin: 0 auto; padding: 16px; display: grid; gap: 14px; }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+/* ───────────────────────── 버튼 ───────────────────────── */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  min-height: 38px; padding: 0 14px;
+  border-radius: 999px; border: 1px solid var(--line);
+  background: var(--card); font-weight: 600; font-size: 14px; white-space: nowrap;
+}
+.btn:hover:not(:disabled) { background: var(--card-2); }
+.btn.ghost { border-color: transparent; background: transparent; }
+.btn.ghost:hover:not(:disabled) { background: var(--card-2); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn.primary:hover:not(:disabled) { filter: brightness(1.06); background: var(--accent); }
+.btn.rec { background: var(--rec); border-color: var(--rec); color: #fff; min-height: 46px; padding: 0 22px; font-size: 15px; }
+.btn.rec:hover:not(:disabled) { filter: brightness(1.06); background: var(--rec); }
+.btn.small { min-height: 30px; padding: 0 11px; font-size: 13px; }
+.btn.icon { width: 38px; padding: 0; }
+
+/* ───────────────────────── 컨트롤 패널 ───────────────────────── */
+.controls { padding: 16px; display: grid; gap: 14px; }
+.title-input {
+  width: 100%; border: 0; background: transparent; outline: none;
+  font-size: 20px; font-weight: 700; padding: 2px 0;
+}
+.title-input::placeholder { color: var(--dim); font-weight: 600; }
+.control-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.lang-box { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.lang-box label { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--sub); }
+select {
+  min-height: 36px; padding: 0 30px 0 12px; border-radius: var(--radius-sm);
+  border: 1px solid var(--line); background: var(--card-2);
+  appearance: none; -webkit-appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, var(--sub) 50%), linear-gradient(135deg, var(--sub) 50%, transparent 50%);
+  background-position: calc(100% - 15px) 52%, calc(100% - 10px) 52%;
+  background-size: 5px 5px; background-repeat: no-repeat;
+  color: var(--text); font-weight: 600; font-size: 14px;
+}
+.rec-box { display: flex; align-items: center; gap: 10px; margin-left: auto; flex-wrap: wrap; }
+.clock { display: flex; align-items: center; gap: 8px; font-variant-numeric: tabular-nums; font-size: 22px; font-weight: 750; min-width: 96px; }
+.rec-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--dim); }
+.is-recording .rec-dot { background: var(--rec); animation: blink 1.2s ease-in-out infinite; }
+@keyframes blink { 50% { opacity: .25; } }
+@media (prefers-reduced-motion: reduce) { .is-recording .rec-dot { animation: none; } }
+.meter { width: 70px; height: 6px; border-radius: 3px; background: var(--card-2); overflow: hidden; }
+.meter-bar { height: 100%; width: 0; background: var(--ok); transition: width .1s linear; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 12px; padding: 4px 10px; border-radius: 999px;
+  background: var(--card-2); color: var(--sub);
+}
+.chip::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--dim); }
+.chip.ok::before { background: var(--ok); }
+.chip.warn::before { background: var(--warn); }
+.chip.off::before { background: var(--dim); }
+.chip.busy::before { background: var(--accent); }
+
+.banner { padding: 10px 12px; border-radius: var(--radius-sm); font-size: 13px; line-height: 1.5; background: var(--warn-soft); color: var(--text); display: flex; gap: 10px; align-items: flex-start; }
+.banner.error { background: var(--rec-soft); }
+.banner .x { margin-left: auto; border: 0; background: transparent; color: var(--sub); font-size: 16px; line-height: 1; padding: 0 2px; }
+
+/* ───────────────────────── 본문 두 칸 ───────────────────────── */
+.tabs-mobile { display: none; gap: 6px; }
+.tabs-mobile .btn[aria-selected="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+.grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 14px; align-items: start; }
+.pane { display: flex; flex-direction: column; min-height: 420px; max-height: calc(100vh - 290px); max-height: calc(100dvh - 290px); }
+.pane-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 14px 16px 10px; border-bottom: 1px solid var(--line); }
+.pane-head h2 { margin: 0; font-size: 15px; }
+.pane-meta { font-size: 12px; color: var(--dim); }
+.pane-body { flex: 1; overflow-y: auto; padding: 14px 16px; overscroll-behavior: contain; }
+.pane-foot { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px 12px; border-top: 1px solid var(--line); }
+
+.seg-toggle { display: inline-flex; background: var(--card-2); border-radius: 999px; padding: 3px; }
+.seg-toggle button { border: 0; background: transparent; border-radius: 999px; padding: 4px 12px; font-size: 13px; font-weight: 600; color: var(--sub); }
+.seg-toggle button[aria-pressed="true"] { background: var(--card); color: var(--text); box-shadow: var(--shadow); }
+
+/* 자막 */
+.line { display: grid; grid-template-columns: 46px minmax(0, 1fr); gap: 4px 8px; padding: 6px 0; }
+.line + .line { border-top: 1px dashed var(--line); }
+.line-time { font-size: 11px; color: var(--dim); font-variant-numeric: tabular-nums; padding-top: 3px; }
+.line-text { word-break: keep-all; overflow-wrap: anywhere; }
+.line-tr { grid-column: 2; font-size: 14px; color: var(--accent); word-break: keep-all; overflow-wrap: anywhere; }
+.line-tr.pending { color: var(--dim); font-style: italic; }
+.line-tr.error { color: var(--warn); font-size: 12px; }
+.line-lang { font-size: 10px; font-weight: 700; color: var(--dim); margin-right: 6px; letter-spacing: .3px; }
+.line.interim .line-text { color: var(--sub); font-style: italic; }
+
+.empty { text-align: center; color: var(--dim); padding: 36px 12px; font-size: 14px; line-height: 1.7; }
+.empty strong { display: block; color: var(--text); font-size: 15px; margin-bottom: 4px; }
+.empty .btn { margin-top: 14px; }
+
+/* 정리 */
+.sum-section { margin-bottom: 18px; }
+.sum-section:last-child { margin-bottom: 0; }
+.sum-section h3 { margin: 0 0 8px; font-size: 12px; font-weight: 750; letter-spacing: .4px; color: var(--sub); display: flex; align-items: center; gap: 6px; }
+.sum-section h3 .n { font-weight: 600; color: var(--dim); }
+.overview { background: var(--accent-soft); border-radius: var(--radius-sm); padding: 12px 14px; font-weight: 600; margin-bottom: 18px; word-break: keep-all; }
+.sum-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.sum-list li { position: relative; padding-left: 14px; word-break: keep-all; overflow-wrap: anywhere; }
+.sum-list li::before { content: ""; position: absolute; left: 2px; top: .7em; width: 5px; height: 5px; border-radius: 50%; background: var(--dim); }
+.sum-list.decision li::before { background: var(--ok); }
+.sum-list.plan li::before { background: var(--accent); }
+.sum-list.issue li::before { background: var(--warn); }
+.topic { margin-bottom: 10px; }
+.topic-title { font-weight: 700; font-size: 14px; margin-bottom: 4px; }
+.actions { display: grid; gap: 6px; }
+.action { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 10px; padding: 9px 11px; border-radius: var(--radius-sm); background: var(--card-2); }
+.action-task { word-break: keep-all; overflow-wrap: anywhere; }
+.action-meta { display: flex; gap: 6px; align-items: start; justify-content: flex-end; flex-wrap: wrap; }
+.tag { font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 6px; background: var(--card); color: var(--sub); white-space: nowrap; }
+.tag.due { color: var(--warn); }
+.keywords { display: flex; flex-wrap: wrap; gap: 6px; }
+.keywords span { font-size: 12px; padding: 3px 10px; border-radius: 999px; background: var(--card-2); color: var(--sub); }
+.sum-note { font-size: 12px; color: var(--dim); border-top: 1px solid var(--line); padding-top: 10px; margin-top: 4px; line-height: 1.6; }
+.progress { height: 4px; border-radius: 2px; background: var(--card-2); overflow: hidden; margin: 10px 0 4px; }
+.progress > div { height: 100%; background: var(--accent); width: 0; transition: width .3s; }
+
+/* 녹음 파일 */
+.audio-box { padding: 12px 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.audio-box audio { flex: 1; min-width: 240px; height: 40px; }
+
+/* ───────────────────────── 다이얼로그 ───────────────────────── */
+dialog {
+  width: min(560px, calc(100vw - 32px));
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--card); color: var(--text); padding: 0;
+}
+dialog::backdrop { background: rgb(0 0 0 / 40%); }
+.dlg-head { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; border-bottom: 1px solid var(--line); }
+.dlg-head h2 { margin: 0; font-size: 16px; }
+.dlg-body { padding: 14px 16px; max-height: 65vh; overflow-y: auto; }
+.session-row { display: flex; align-items: center; gap: 10px; padding: 10px 0; }
+.session-row + .session-row { border-top: 1px solid var(--line); }
+.session-info { flex: 1; min-width: 0; }
+.session-title { font-weight: 650; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.session-meta { font-size: 12px; color: var(--dim); }
+.setting { display: flex; gap: 12px; padding: 12px 0; align-items: flex-start; }
+.setting + .setting { border-top: 1px solid var(--line); }
+.setting input[type="checkbox"] { width: 18px; height: 18px; margin-top: 3px; accent-color: var(--accent); flex: none; }
+.setting-title { font-weight: 650; }
+.setting-desc { font-size: 13px; color: var(--sub); margin-top: 2px; }
+.menu { position: absolute; z-index: 20; min-width: 200px; padding: 6px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-sm); box-shadow: 0 8px 24px rgb(0 0 0 / 18%); }
+.menu button { display: block; width: 100%; text-align: left; border: 0; background: transparent; padding: 9px 10px; border-radius: 6px; font-size: 14px; }
+.menu button:hover:not(:disabled) { background: var(--card-2); }
+.toast { position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom)); transform: translateX(-50%); z-index: 50; background: var(--text); color: var(--bg); padding: 10px 16px; border-radius: 999px; font-size: 14px; font-weight: 600; box-shadow: 0 8px 24px rgb(0 0 0 / 20%); }
+
+/* ───────────────────────── 반응형 ───────────────────────── */
+@media (max-width: 900px) {
+  .grid { grid-template-columns: minmax(0, 1fr); }
+  .tabs-mobile { display: flex; }
+  .grid[data-tab="transcript"] #paneSummary,
+  .grid[data-tab="summary"] #paneTranscript { display: none; }
+  .pane { max-height: none; min-height: 55vh; }
+  .rec-box { margin-left: 0; width: 100%; }
+  .rec-box .clock { margin-right: auto; }
+}
+@media (max-width: 520px) {
+  main { padding: 12px; gap: 10px; }
+  .controls { padding: 14px; }
+  .title-input { font-size: 18px; }
+  .head-actions .label-long { display: none; }
+}
+
+/* ───────────────────────── 인쇄 ───────────────────────── */
+@media print {
+  .app-head, .controls, .tabs-mobile, .pane-foot, .audio-box, .seg-toggle, .toast { display: none !important; }
+  body { background: #fff; color: #000; }
+  main { padding: 0; }
+  .grid { display: block; }
+  .grid #paneSummary, .grid #paneTranscript { display: block !important; }
+  .pane { max-height: none; border: 0; box-shadow: none; break-inside: auto; }
+  .pane-body { overflow: visible; }
+  #paneSummary { break-after: page; }
+}
+.setup { padding: 18px; display: grid; gap: 12px; border-color: var(--accent); }
+.setup h2 { margin: 0; font-size: 17px; }
+.key-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.key-row input { flex: 1; min-width: 220px; min-height: 40px; padding: 0 12px; border-radius: var(--radius-sm); border: 1px solid var(--line); background: var(--card-2); }
+.steps { margin: 0; padding-left: 20px; display: grid; gap: 6px; font-size: 14px; }
+.steps a, .setting-desc a { color: var(--accent); font-weight: 600; }
+a.btn { text-decoration: none; }
+</style>
+</head>
+<body>
+
+<header class="app-head">
+  <div class="brand"><span class="brand-dot" aria-hidden="true"></span>보이스노트</div>
+  <div class="head-actions">
+    <button class="btn ghost" id="btnSessions" type="button">회의 목록</button>
+    <button class="btn ghost" id="btnNew" type="button">새 회의</button>
+    <button class="btn ghost icon" id="btnSettings" type="button" aria-label="설정" title="설정">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="app">
+  <section class="card setup" id="setupCard" hidden aria-label="처음 설정">
+    <h2>처음 한 번만 — Gemini 무료 키 넣기</h2>
+    <ol class="steps">
+      <li><a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google AI Studio</a>를 열고 구글 계정으로 로그인 → <b>API 키 만들기</b></li>
+      <li>만들어진 키(AIza…)를 복사해서 아래에 붙여넣고 <b>저장</b></li>
+    </ol>
+    <div class="key-row">
+      <input id="keyInput" type="password" placeholder="AIza로 시작하는 키" autocomplete="off" spellcheck="false" aria-label="Gemini API 키">
+      <button class="btn primary" id="btnSaveKey" type="button">저장</button>
+    </div>
+    <p class="setting-desc" style="margin:0">키는 이 브라우저에만 저장됩니다. 녹음은 Google Gemini로 보내져 받아쓰기·번역·회의록에 쓰입니다. 무료 키는 Google이 보낸 내용을 서비스 개선에 쓸 수 있으니 민감한 회의는 주의하세요.</p>
+    <div><button class="btn small ghost" id="btnNoKey" type="button">키 없이 녹음만 하기</button></div>
+  </section>
+
+  <section class="card controls" aria-label="녹음">
+    <input class="title-input" id="title" type="text" maxlength="80" placeholder="회의 제목 (비워 두면 자동으로 붙습니다)" aria-label="회의 제목">
+    <div class="control-row">
+      <div class="lang-box">
+        <label id="foreignBox">상대 언어 <select id="foreign" aria-label="상대 언어"></select></label>
+        <label id="speechBox" hidden>말하는 언어 <select id="speechLang" aria-label="말하는 언어"></select></label>
+      </div>
+      <div class="rec-box">
+        <div class="clock"><span class="rec-dot" aria-hidden="true"></span><span id="clock">00:00</span></div>
+        <div class="meter" aria-hidden="true"><div class="meter-bar" id="meterBar"></div></div>
+        <button class="btn rec" id="btnRecord" type="button">● 녹음 시작</button>
+        <button class="btn" id="btnPause" type="button" hidden>일시정지</button>
+        <button class="btn" id="btnStop" type="button" hidden>■ 종료</button>
+      </div>
+    </div>
+    <div class="chips" id="chips" aria-live="polite"></div>
+    <div id="banners"></div>
+  </section>
+
+  <div class="tabs-mobile" role="tablist">
+    <button class="btn small" role="tab" data-tab="transcript" aria-selected="true" type="button">자막·번역</button>
+    <button class="btn small" role="tab" data-tab="summary" aria-selected="false" type="button">회의 정리</button>
+  </div>
+
+  <div class="grid" id="grid" data-tab="transcript">
+    <section class="card pane" id="paneTranscript" aria-label="자막">
+      <div class="pane-head">
+        <h2>자막 · 번역</h2>
+        <span class="pane-meta" id="segCount"></span>
+      </div>
+      <div class="pane-body" id="transcript"></div>
+    </section>
+
+    <section class="card pane" id="paneSummary" aria-label="회의 정리">
+      <div class="pane-head">
+        <h2>회의 정리</h2>
+        <div class="seg-toggle" role="group" aria-label="정리 방식">
+          <button type="button" data-view="rule" aria-pressed="true">실시간</button>
+          <button type="button" data-view="ai" aria-pressed="false">AI 회의록</button>
+        </div>
+      </div>
+      <div class="pane-body" id="summary"></div>
+      <div class="pane-foot">
+        <button class="btn small primary" id="btnAi" type="button">AI 회의록 만들기</button>
+        <button class="btn small" id="btnRetry" type="button" hidden>못 받아쓴 구간 다시</button>
+        <button class="btn small" id="btnCopy" type="button">요약 복사</button>
+        <button class="btn small" id="btnExport" type="button" aria-haspopup="menu">내보내기 ▾</button>
+      </div>
+    </section>
+  </div>
+
+  <section class="card audio-box" id="audioBox" hidden aria-label="녹음 파일"></section>
+</main>
+
+<dialog id="dlgSessions" aria-labelledby="dlgSessionsTitle">
+  <div class="dlg-head"><h2 id="dlgSessionsTitle">회의 목록</h2><button class="btn ghost small" type="button" data-close>닫기</button></div>
+  <div class="dlg-body" id="sessionList"></div>
+</dialog>
+
+<dialog id="dlgSettings" aria-labelledby="dlgSettingsTitle">
+  <div class="dlg-head"><h2 id="dlgSettingsTitle">설정</h2><button class="btn ghost small" type="button" data-close>닫기</button></div>
+  <div class="dlg-body">
+    <div class="setting">
+      <div style="flex:1">
+        <div class="setting-title">Gemini 키</div>
+        <div class="setting-desc">무료 키는 <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google AI Studio</a>에서 만들 수 있습니다. 이 브라우저에만 저장됩니다.</div>
+        <div class="key-row" style="margin-top:8px">
+          <input id="setKey" type="password" placeholder="AIza…" autocomplete="off" spellcheck="false" aria-label="Gemini API 키">
+          <button class="btn small primary" id="btnSetKey" type="button">저장 후 연결 확인</button>
+        </div>
+        <div class="setting-desc" id="keyStatus" style="margin-top:6px"></div>
+        <button class="btn small ghost" id="btnClearKey" type="button" style="margin-top:6px">키 지우기</button>
+      </div>
+    </div>
+    <label class="setting">
+      <input type="checkbox" id="setSaveAudio">
+      <div>
+        <div class="setting-title">녹음 파일 저장</div>
+        <div class="setting-desc">음성을 파일로도 남깁니다(이 브라우저 안에만 저장, 내려받기 가능).</div>
+      </div>
+    </label>
+    <div class="setting">
+      <div style="flex:1">
+        <div class="setting-title">자막 간격 <select id="setPace" aria-label="자막 간격" style="margin-left:6px"></select></div>
+        <div class="setting-desc">짧을수록 자막이 빨리 붙지만 무료 사용량을 빨리 씁니다. 무료 한도는 하루 요청 횟수로 정해져 있어서(받아쓰기용 모델 기준 하루 수백 회 수준, Google이 수시로 바꿉니다), ‘보통’이면 1시간 회의에 약 200회를 씁니다. 다음 녹음부터 적용됩니다.</div>
+        <div class="setting-desc" id="usageInfo" style="margin-top:6px"></div>
+      </div>
+    </div>
+    <label class="setting">
+      <input type="checkbox" id="setLiveDraft">
+      <div>
+        <div class="setting-title">녹음 중 AI 초안</div>
+        <div class="setting-desc">녹음하는 동안 2~3분마다 Gemini가 지금까지의 내용을 정리해 ‘실시간’ 탭에 보여 줍니다(1시간에 약 25회 사용). 끄면 규칙 기반 정리만 나옵니다.</div>
+      </div>
+    </label>
+    <div class="setting">
+      <div>
+        <div class="setting-title">무엇이 어디로 가나요</div>
+        <div class="setting-desc">받아쓰기·번역·회의록은 녹음을 Google Gemini로 보내서 만듭니다. 무료 키는 Google이 보낸 내용을 서비스 개선에 쓸 수 있습니다. 회의 내용과 녹음 파일은 이 브라우저에만 저장됩니다.</div>
+        <div class="setting-desc" id="modelInfo" style="margin-top:6px"></div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script src="/voicenote/rules.js"></script>
+<script>
+"use strict";
+
+/* ═════════════════════════════════════════════════════════════════
+   보이스노트 — 음성 녹음 · 실시간 번역 · 회의록
+   ─────────────────────────────────────────────────────────────────
+   Gemini 무료 키 하나로 아이폰·아이패드·안드로이드·PC 어디서나 같게 동작한다.
+
+     마이크 ─┬─ 녹음 파일 (MediaRecorder → 이 브라우저 IndexedDB, 15초마다 내려 적음)
+             └─ 약 20초 음성 조각 (말이 끊기는 곳에서 자름, 길이는 설정의 ‘자막 간격’)
+                  → Gemini: 받아쓰기 + 언어 감지 + 번역을 한 번에
+     녹음 중 정리: 규칙 기반(rules.js, 지연 0) → 몇 분마다 Gemini 초안으로 바뀜
+     녹음 종료:   Gemini가 회의록 작성
+
+   무료 한도가 "모델별 하루 요청 횟수"라서, 요청 수를 아끼고 한도가 끝나도
+   녹음과 못 받아쓴 음성이 남도록 만드는 데 설계의 대부분을 썼다(Gemini 절 참고).
+
+   브라우저 음성 인식(Web Speech)은 아이폰 Safari에서 불안정해서 쓰지 않는다.
+   키가 없을 때만 "녹음 + 자막" 용도로 남겨 둔다.
+   ═════════════════════════════════════════════════════════════════ */
+
+const LANGS = {
+  ko: { label: "한국어", short: "KO", bcp: "ko-KR" },
+  en: { label: "영어", short: "EN", bcp: "en-US" },
+  ja: { label: "일본어", short: "JA", bcp: "ja-JP" },
+  zh: { label: "중국어", short: "ZH", bcp: "zh-CN" },
+};
+const FOREIGN = ["en", "ja", "zh"];
+
+/** 자막 간격 — 음성 조각의 [최소, 최대] 길이(ms). 최소가 지난 뒤 말이 끊기는 곳에서 자른다.
+    무료 한도는 "하루 요청 횟수"라서 조각이 길수록 오래 쓸 수 있다. */
+const PACE = {
+  fast: { label: "빠르게 (약 10초)", about: 10, range: [7000, 14000] },
+  normal: { label: "보통 (약 20초)", about: 20, range: [15000, 25000] },
+  slow: { label: "절약 (약 30초)", about: 30, range: [25000, 40000] },
+};
+
+/** Gemini 무료 한도는 하루 단위이고 미국 태평양 시간 자정(한국 오후 4~5시)에 초기화된다. */
+function quotaDay() {
+  try { return new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles" }).format(new Date()); }
+  catch { return new Date().toISOString().slice(0, 10); }
+}
+
+/* ───────────────────────── 작은 도구 ───────────────────────── */
+
+const $ = (sel, root = document) => root.querySelector(sel);
+
+/** 안전한 DOM 생성기. 사용자 텍스트는 언제나 textContent로만 들어간다. */
+function h(tag, attrs, ...children) {
+  const el = document.createElement(tag);
+  if (attrs) {
+    for (const [k, v] of Object.entries(attrs)) {
+      if (v == null || v === false) continue;
+      if (k === "class") el.className = v;
+      else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+      else if (k === "dataset") Object.assign(el.dataset, v);
+      else el.setAttribute(k, v === true ? "" : String(v));
+    }
+  }
+  for (const c of children.flat()) {
+    if (c == null || c === false) continue;
+    el.append(c instanceof Node ? c : document.createTextNode(String(c)));
+  }
+  return el;
+}
+
+function fmtDuration(ms) {
+  if (ms < 60000) return `${Math.round(ms / 1000)}초`;
+  const m = Math.round(ms / 60000);
+  return m < 60 ? `${m}분` : `${Math.floor(m / 60)}시간 ${m % 60}분`;
+}
+function fmtDate(ts) {
+  const d = new Date(ts), p = (n) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}.${p(d.getMonth() + 1)}.${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
+}
+const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+function withTimeout(promise, ms, label = "응답 시간 초과") {
+  let t;
+  return Promise.race([
+    promise,
+    new Promise((_, reject) => { t = setTimeout(() => reject(Object.assign(new Error(label), { name: "TimeoutError" })), ms); }),
+  ]).finally(() => clearTimeout(t));
+}
+
+let toastTimer;
+function toast(msg) {
+  document.querySelector(".toast")?.remove();
+  const el = h("div", { class: "toast", role: "status" }, msg);
+  document.body.append(el);
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.remove(), 2400);
+}
+
+function download(filename, blobOrText, type = "text/plain;charset=utf-8") {
+  const blob = blobOrText instanceof Blob ? blobOrText : new Blob([blobOrText], { type });
+  const url = URL.createObjectURL(blob);
+  const a = h("a", { href: url, download: filename });
+  document.body.append(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 4000);
+}
+const safeFilename = (s) => (s || "회의").replace(/[\\/:*?"<>|]+/g, " ").trim().slice(0, 60) || "회의";
+
+function blobToBase64(blob) {
+  return new Promise((resolve, reject) => {
+    const r = new FileReader();
+    r.onload = () => resolve(String(r.result).split(",")[1] || "");
+    r.onerror = () => reject(r.error);
+    r.readAsDataURL(blob);
+  });
+}
+
+/** 아이폰·아이패드(iPadOS는 데스크톱 Safari로 위장하므로 터치 지점으로 구분). */
+const IS_IOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+
+/* ───────────────────────── 설정 ───────────────────────── */
+
+const Settings = {
+  KEY: "voicenote.settings.v2",
+  v: {
+    geminiKey: "", noKeyMode: false, saveAudio: true, foreign: "en", speechLang: "ko",
+    pace: "normal",      // 자막 간격: fast | normal | slow
+    liveDraft: true,     // 녹음 중 AI 초안
+    models: {},          // { lite: [...], flash: [...], at } — 이 키로 쓸 수 있는 모델(연결 확인 때 받아 온다)
+    spent: {},           // { 모델: 한도를 다 쓴 날 }
+    usage: {},           // { day, stt, draft, sum } — 오늘 보낸 횟수
+  },
+  load() {
+    try { Object.assign(this.v, JSON.parse(localStorage.getItem(this.KEY) || "{}")); } catch {}
+    const obj = (x) => x && typeof x === "object" && !Array.isArray(x);
+    if (!obj(this.v.models) || !Array.isArray(this.v.models.lite) || !Array.isArray(this.v.models.flash)) this.v.models = {};
+    if (!obj(this.v.spent)) this.v.spent = {};
+    if (!obj(this.v.usage)) this.v.usage = {};
+    const today = quotaDay();
+    for (const m of Object.keys(this.v.spent)) if (this.v.spent[m] !== today) delete this.v.spent[m];
+    if (!PACE[this.v.pace]) this.v.pace = "normal";
+    if (!FOREIGN.includes(this.v.foreign) && this.v.foreign !== "off") this.v.foreign = "en";
+    if (!LANGS[this.v.speechLang]) this.v.speechLang = "ko";
+  },
+  save() { try { localStorage.setItem(this.KEY, JSON.stringify(this.v)); } catch {} },
+  hasKey() { return !!this.v.geminiKey; },
+};
+
+/* ───────────────────────── 저장소 ─────────────────────────
+   텍스트(자막·정리)는 localStorage, 녹음 파일은 IndexedDB. 전부 이 브라우저 안. */
+
+const Store = {
+  INDEX: "voicenote.index.v1",
+  key: (id) => `voicenote.session.${id}`,
+  list() {
+    try { return JSON.parse(localStorage.getItem(this.INDEX) || "[]").sort((a, b) => b.createdAt - a.createdAt); }
+    catch { return []; }
+  },
+  get(id) {
+    try { return JSON.parse(localStorage.getItem(this.key(id)) || "null"); } catch { return null; }
+  },
+  save(s) {
+    const meta = { id: s.id, title: s.title || autoTitle(s), createdAt: s.createdAt, durationMs: s.durationMs, count: s.segments.length, audioParts: s.audioParts || 0 };
+    try {
+      localStorage.setItem(this.key(s.id), JSON.stringify(s));
+      const idx = this.list().filter((m) => m.id !== s.id);
+      idx.push(meta);
+      localStorage.setItem(this.INDEX, JSON.stringify(idx));
+      return true;
+    } catch {
+      UI.banner("저장 공간이 부족해 회의 내용을 저장하지 못했습니다. 오래된 회의를 지우거나 내보내기로 백업해 주세요.", "error", "quota");
+      return false;
+    }
+  },
+  remove(id) {
+    const parts = this.list().find((m) => m.id === id)?.audioParts || 0;
+    localStorage.removeItem(this.key(id));
+    localStorage.setItem(this.INDEX, JSON.stringify(this.list().filter((m) => m.id !== id)));
+    AudioDB.removeAll(id, parts).catch(() => {});
+  },
+};
+
+const AudioDB = {
+  db: null,
+  open() {
+    if (this.db) return Promise.resolve(this.db);
+    return new Promise((resolve, reject) => {
+      if (!("indexedDB" in window)) return reject(new Error("no idb"));
+      const req = indexedDB.open("voicenote", 1);
+      req.onupgradeneeded = () => req.result.createObjectStore("audio");
+      req.onsuccess = () => resolve((this.db = req.result));
+      req.onerror = () => reject(req.error);
+    });
+  },
+  async tx(mode, fn) {
+    const db = await this.open();
+    return new Promise((resolve, reject) => {
+      const t = db.transaction("audio", mode);
+      const r = fn(t.objectStore("audio"));
+      t.oncomplete = () => resolve(r?.result);
+      t.onerror = () => reject(t.error);
+    });
+  },
+  /* 키 모양
+       <회의>:<n>            n번째 녹음 파일(완성본)
+       <회의>:<n>~<순번>     녹음 중 15초마다 쌓는 조각 — 탭이 죽어도 여기까지는 남는다
+       <회의>:f~<시작ms>~<길이ms>  받아쓰지 못한 음성 조각 — 한도가 풀린 뒤 다시 보낸다 */
+  range: (prefix) => IDBKeyRange.bound(prefix, prefix + "￿"),
+  put(id, part, blob) { return this.tx("readwrite", (s) => s.put(blob, `${id}:${part}`)); },
+  get(id, part) { return this.tx("readonly", (s) => s.get(`${id}:${part}`)); },
+  getKey(key) { return this.tx("readonly", (s) => s.get(key)); },
+  delKey(key) { return this.tx("readwrite", (s) => s.delete(key)); },
+  removeAll(id) { return this.tx("readwrite", (s) => s.delete(this.range(`${id}:`))); },
+
+  putPiece(id, part, seq, blob) { return this.tx("readwrite", (s) => s.put(blob, `${id}:${part}~${String(seq).padStart(6, "0")}`)); },
+  pieces(id, part) { return this.tx("readonly", (s) => s.getAll(this.range(`${id}:${part}~`))); },
+  dropPieces(id, part) { return this.tx("readwrite", (s) => s.delete(this.range(`${id}:${part}~`))); },
+
+  async putFail(id, chunk) {
+    const key = `${id}:f~${String(Math.round(chunk.startMs)).padStart(9, "0")}~${Math.round(chunk.durMs)}`;
+    await this.tx("readwrite", (s) => s.put(chunk.blob, key));
+    return key;
+  },
+  async fails(id) {
+    const keys = await this.tx("readonly", (s) => s.getAllKeys(this.range(`${id}:f~`)));
+    return (keys || []).map((key) => {
+      const [, start, dur] = String(key).split("~");
+      return { key, startMs: Number(start) || 0, durMs: Number(dur) || 0 };
+    });
+  },
+};
+
+/* ═════════════════════════════════════════════════════════════════
+   Gemini
+   ─────────────────────────────────────────────────────────────────
+   브라우저에서 Gemini REST API를 바로 부른다(서버 없음). 키는 헤더로만 보낸다.
+
+   무료 한도에 맞춘 설계 — 한도는 "모델마다 따로, 하루 요청 횟수"로 걸린다.
+   Flash-Lite 계열은 하루 수백 회, Flash 계열은 하루 수십 회 수준이다(수시로 바뀐다).
+     · 받아쓰기·녹음 중 초안  → Flash-Lite 계열만 쓴다 (자주 부르니까)
+     · 종료 후 회의록         → Flash 먼저, 한도가 없으면 Flash-Lite
+     · 어떤 모델이 하루 한도를 다 쓰면 그날은 건너뛰고 다음 모델로 넘어간다
+     · 키 확인은 모델 목록 조회로 한다 — 생성 한도를 쓰지 않고, 모델 이름도 여기서 받아 온다
+   (Gemini 3.5부터 thinkingBudget을 보내면 오류라서 사고 설정은 보내지 않는다)
+   ═════════════════════════════════════════════════════════════════ */
+
+class GeminiError extends Error {
+  constructor(code, message, retryMs = 0) {
+    super(message);
+    this.name = "GeminiError";
+    this.code = code;       // key | rate | daily | model | server | network | blocked | other
+    this.retryMs = retryMs;
+  }
+}
+
+const STT_SCHEMA = {
+  type: "OBJECT",
+  properties: {
+    segments: {
+      type: "ARRAY",
+      items: {
+        type: "OBJECT",
+        properties: {
+          text: { type: "STRING" },
+          lang: { type: "STRING", enum: ["ko", "en", "ja", "zh"] },
+          translation: { type: "STRING" },
+        },
+        required: ["text", "lang", "translation"],
+      },
+    },
+  },
+  required: ["segments"],
+};
+
+const MINUTES_SCHEMA = {
+  type: "OBJECT",
+  properties: {
+    title: { type: "STRING" },
+    overview: { type: "STRING" },
+    background: { type: "ARRAY", items: { type: "STRING" } },
+    discussion: { type: "ARRAY", items: { type: "OBJECT", properties: { topic: { type: "STRING" }, points: { type: "ARRAY", items: { type: "STRING" } } }, required: ["topic", "points"] } },
+    decisions: { type: "ARRAY", items: { type: "STRING" } },
+    actions: { type: "ARRAY", items: { type: "OBJECT", properties: { task: { type: "STRING" }, owner: { type: "STRING" }, due: { type: "STRING" } }, required: ["task", "owner", "due"] } },
+    plans: { type: "ARRAY", items: { type: "STRING" } },
+    issues: { type: "ARRAY", items: { type: "STRING" } },
+    keywords: { type: "ARRAY", items: { type: "STRING" } },
+  },
+  required: ["title", "overview", "background", "discussion", "decisions", "actions", "plans", "issues", "keywords"],
+};
+
+const DAILY_MSG = "오늘 Gemini 무료 사용량을 다 썼습니다. 녹음은 계속되고, 못 받아쓴 구간은 저장해 두었다가 한도가 풀린 뒤(한국 시간 오후 4~5시) ‘못 받아쓴 구간 다시’로 받아쓸 수 있습니다.";
+
+const Gemini = {
+  BASE: "https://generativelanguage.googleapis.com/v1beta/models",
+  // 모델 목록을 받아 오지 못했을 때만 쓰는 기본값
+  DEFAULTS: {
+    lite: ["gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-2.5-flash-lite"],
+    flash: ["gemini-flash-latest", "gemini-3.8-flash", "gemini-2.5-flash"],
+  },
+  missing: new Set(),   // 이번에 404가 난 모델
+  last: {},             // { stt, draft, sum } 마지막으로 성공한 모델(설정 화면 표시용)
+
+  /** 용도별 후보 모델(앞이 우선). stt·draft는 Lite만 — Flash의 적은 하루 한도는 회의록 몫으로 남긴다. */
+  candidates(kind) {
+    const m = Settings.v.models;
+    const lite = m.lite?.length ? m.lite : this.DEFAULTS.lite;
+    const flash = m.flash?.length ? m.flash : this.DEFAULTS.flash;
+    return (kind === "sum" ? [...flash, ...lite] : lite).filter((x) => !this.missing.has(x));
+  },
+  spentToday(model) { return Settings.v.spent[model] === quotaDay(); },
+  allSpent(kind) { const c = this.candidates(kind); return c.length > 0 && c.every((m) => this.spentToday(m)); },
+  forgetSpent() { Settings.v.spent = {}; Settings.save(); },
+
+  count(kind) {
+    const u = Settings.v.usage, day = quotaDay();
+    if (u.day !== day) Settings.v.usage = { day };
+    Settings.v.usage[kind] = (Settings.v.usage[kind] || 0) + 1;
+    Settings.save();
+  },
+
+  /** 이 키로 쓸 수 있는 모델을 받아 온다. 키가 맞는지 확인하는 용도도 겸한다(생성 한도를 쓰지 않는다). */
+  async discover() {
+    if (!Settings.hasKey()) throw new GeminiError("key", "Gemini 키가 없습니다. 설정에서 키를 넣어 주세요.");
+    let res;
+    try {
+      res = await withTimeout(fetch(`${this.BASE}?pageSize=1000`, { headers: { "x-goog-api-key": Settings.v.geminiKey } }), 20000);
+    } catch {
+      throw new GeminiError("network", "네트워크에 연결할 수 없습니다.");
+    }
+    if (!res.ok) throw await this.toError(res);
+    let j = null;
+    try { j = await res.json(); } catch {}
+    const names = (j?.models || [])
+      .filter((m) => (m.supportedGenerationMethods || []).includes("generateContent"))
+      .map((m) => String(m.name || "").replace(/^models\//, ""))
+      .filter((n) => !/tts|image|audio|live|native|exp|embedding|robotics|computer/i.test(n));
+    // 별칭(-latest) → 정식 버전(새 것부터) → 날짜 붙은 것 → 미리보기 순
+    const rank = (family) => {
+      const alias = `gemini-${family}-latest`;
+      const re = new RegExp(`^gemini-(\\d+(?:\\.\\d+)?)-${family}(-\\d{3}|-preview[\\w-]*)?$`);
+      return names
+        .map((n) => {
+          if (n === alias) return { n, tier: 0, ver: 0 };
+          const m = re.exec(n);
+          return m ? { n, tier: !m[2] ? 1 : /^-\d/.test(m[2]) ? 2 : 3, ver: parseFloat(m[1]) } : null;
+        })
+        .filter(Boolean)
+        .sort((a, b) => a.tier - b.tier || b.ver - a.ver)
+        .slice(0, 6)
+        .map((x) => x.n);
+    };
+    const lite = rank("flash-lite"), flash = rank("flash");
+    if (lite.length || flash.length) {
+      Settings.v.models = { lite, flash, at: Date.now() };
+      this.missing.clear();
+      Settings.save();
+    }
+    return Settings.v.models;
+  },
+
+  async generate(kind, body, timeoutMs = 90000) {
+    if (!Settings.hasKey()) throw new GeminiError("key", "Gemini 키가 없습니다. 설정에서 키를 넣어 주세요.");
+    const open = this.candidates(kind).filter((m) => !this.spentToday(m));
+    let sawDaily = open.length === 0, lastErr = null;
+    for (const model of open) {
+      let res;
+      try {
+        res = await withTimeout(fetch(`${this.BASE}/${model}:generateContent`, {
+          method: "POST",
+          headers: { "content-type": "application/json", "x-goog-api-key": Settings.v.geminiKey },
+          body: JSON.stringify(body),
+        }), timeoutMs, "Gemini 응답 시간 초과");
+      } catch (e) {
+        throw new GeminiError("network", e?.name === "TimeoutError" ? "Gemini 응답이 너무 늦습니다." : "네트워크에 연결할 수 없습니다.");
+      }
+      if (res.ok) {
+        const j = await res.json();
+        this.last[kind] = model;
+        this.count(kind);
+        const cand = j?.candidates?.[0];
+        const text = (cand?.content?.parts || []).map((p) => p.text || "").join("");
+        if (!text) {
+          const blocked = cand?.finishReason === "SAFETY" || j?.promptFeedback?.blockReason;
+          throw new GeminiError(blocked ? "blocked" : "other", blocked ? "Gemini가 이 내용을 처리하지 않았습니다(안전 정책)." : "Gemini가 빈 응답을 보냈습니다.");
+        }
+        return text;
+      }
+      const err = await this.toError(res);
+      if (err.code === "model") { this.missing.add(model); lastErr = err; continue; }                              // 없는 모델 → 다음
+      if (err.code === "daily") { Settings.v.spent[model] = quotaDay(); Settings.save(); sawDaily = true; continue; } // 오늘 몫 소진 → 다음
+      throw err;
+    }
+    if (sawDaily) throw new GeminiError("daily", DAILY_MSG);
+    throw new GeminiError("model", `쓸 수 있는 Gemini 모델을 찾지 못했습니다. 설정에서 ‘저장 후 연결 확인’을 다시 눌러 주세요. ${lastErr?.message || ""}`.trim());
+  },
+
+  async toError(res) {
+    let msg = "", raw = "", retryMs = 0;
+    try {
+      const j = await res.json();
+      msg = j?.error?.message || "";
+      raw = JSON.stringify(j?.error || {});
+      const delay = (j?.error?.details || []).find((d) => d?.retryDelay)?.retryDelay // "17s"
+        || /retry in ([\d.]+)s/i.exec(msg)?.[1];
+      if (delay) retryMs = Math.ceil(parseFloat(delay) * 1000);
+    } catch {}
+    if (res.status === 404 || /is not found|not supported for generateContent|unknown model/i.test(msg)) return new GeminiError("model", msg);
+    if (res.status === 401 || (res.status === 400 && /api key|API_KEY/i.test(msg))) return new GeminiError("key", "Gemini 키가 올바르지 않습니다. 설정에서 키를 다시 넣어 주세요.");
+    if (res.status === 403) return new GeminiError("key", "이 키로는 Gemini를 쓸 수 없습니다(권한 또는 지역 제한). 키를 확인해 주세요.");
+    if (res.status === 429) {
+      // 하루 한도는 quotaId에 PerDay가 들어 있다. "limit: 0"은 이 모델이 무료로 열려 있지 않다는 뜻 — 둘 다 기다려도 소용없다.
+      const daily = /PerDay|per day|daily/i.test(raw) || /limit: 0(?![\d.])/.test(raw);
+      return daily
+        ? new GeminiError("daily", DAILY_MSG)
+        : new GeminiError("rate", "요청이 많아 잠깐 기다렸다가 이어서 받아씁니다.", Math.min(retryMs || 15000, 65000));
+    }
+    if (res.status >= 500) return new GeminiError("server", "Gemini 서버가 잠시 응답하지 않습니다.", 5000);
+    return new GeminiError("other", `Gemini 오류 (${res.status}) ${msg.slice(0, 160)}`);
+  },
+
+  /** 음성 조각 → [{text, lang, translation}] */
+  async transcribe(wavBase64, foreign) {
+    const tr = foreign === "off"
+      ? "translation은 빈 문자열로 둔다."
+      : `한국어로 말한 문장은 ${LANGS[foreign].label}로, 한국어가 아닌 문장은 한국어로 자연스럽게 번역해 translation에 넣는다.`;
+    const text = await this.generate("stt", {
+      systemInstruction: { parts: [{ text: "너는 회의 속기사다. 오디오에서 실제로 들린 말만 그대로 받아 적는다. 들리지 않은 말을 지어내거나 요약하지 않는다. 말소리가 없거나 알아들을 수 없으면 segments를 빈 배열로 둔다." }] },
+      contents: [{
+        role: "user",
+        parts: [
+          { inlineData: { mimeType: "audio/wav", data: wavBase64 } },
+          { text: `회의 녹음의 한 구간이다. 말한 내용을 문장 단위로 받아 적어라. 각 문장의 언어를 ko(한국어)·en(영어)·ja(일본어)·zh(중국어) 중 하나로 표시한다. ${tr}` },
+        ],
+      }],
+      generationConfig: { temperature: 0, responseMimeType: "application/json", responseSchema: STT_SCHEMA },
+    }, 60000);
+    let j;
+    try { j = JSON.parse(text); } catch { throw new GeminiError("other", "Gemini 받아쓰기 결과를 읽지 못했습니다."); }
+    return (Array.isArray(j?.segments) ? j.segments : [])
+      .map((s) => ({ text: String(s?.text || "").trim(), lang: LANGS[s?.lang] ? s.lang : "ko", translation: String(s?.translation || "").trim() }))
+      .filter((s) => s.text);
+  },
+
+  /** 회의 전체 → 회의록. Gemini는 컨텍스트가 넉넉해서 녹취록을 한 번에 넣는다.
+      draft: 녹음 중 초안 — 지금까지의 내용만으로, 한도가 넉넉한 Lite 모델로 만든다. */
+  async minutes(session, { draft = false } = {}) {
+    const lines = session.segments.map((g) => {
+      const ko = g.lang !== "ko" && g.trLang === "ko" && g.tr ? ` (한국어: ${g.tr})` : "";
+      return `[${fmtClock(g.atMs)}] ${g.text}${ko}`;
+    }).join("\n");
+    const text = await this.generate(draft ? "draft" : "sum", {
+      systemInstruction: { parts: [{ text: `너는 꼼꼼한 회의 서기다. 회의 녹취록을 회의록으로 정리한다.
+녹취록은 자동 받아쓰기라 오탈자가 있고 화자 구분이 없다. 명백한 오인식만 조용히 고치고, 녹취록에 없는 내용은 절대 지어내지 않는다.
+녹취록이 외국어여도 모든 값은 한국어로 쓴다. 개조식으로 짧게 쓴다. 해당 내용이 없으면 빈 배열이나 빈 문자열로 둔다.` }] },
+      contents: [{
+        role: "user",
+        parts: [{ text: `${draft ? "회의가 아직 진행 중이다. 지금까지의 녹취록만으로 정리한다.\n" : ""}회의 녹취록 ([분:초] 표시):
+<녹취록>
+${lines}
+</녹취록>
+
+다음 항목으로 회의록을 써라.
+- title: 짧은 회의 제목
+- overview: 회의 전체를 한 문장으로
+- background: 회의를 연 배경·현황·문제
+- discussion: 이야기된 순서대로 주요 주제와 요점
+- decisions: 명확히 결정된 것만 ("논의했다"는 결정이 아니다)
+- actions: 구체적인 할 일. 담당자(owner)와 기한(due)이 나오면 적고, 없으면 빈 문자열
+- plans: 개인 할 일이 아닌 향후 일정·방향
+- issues: 결론 없이 남은 질문이나 다음으로 미룬 안건
+- keywords: 핵심 키워드 5개 이내` }],
+      }],
+      generationConfig: { temperature: 0.2, responseMimeType: "application/json", responseSchema: MINUTES_SCHEMA },
+    }, 180000);
+    let j;
+    try { j = JSON.parse(text); } catch { throw new GeminiError("other", "Gemini 회의록 결과를 읽지 못했습니다."); }
+    const m = normalizeSummary(j);
+    m._engine = "gemini";
+    m._lang = "ko";
+    if (draft) m._draft = true;
+    return m;
+  },
+};
+
+function normalizeSummary(j) {
+  const str = (v) => (typeof v === "string" ? v.trim() : "");
+  const strs = (v) => (Array.isArray(v) ? v : []).map(str).filter(Boolean);
+  const objs = (v) => (Array.isArray(v) ? v : []).filter((x) => x && typeof x === "object");
+  return {
+    title: str(j?.title),
+    overview: str(j?.overview),
+    background: strs(j?.background),
+    discussion: objs(j?.discussion).map((d) => ({ topic: str(d.topic), points: strs(d.points) })).filter((d) => d.topic || d.points.length),
+    decisions: strs(j?.decisions),
+    actions: objs(j?.actions).map((a) => ({ task: str(a.task), owner: str(a.owner), due: str(a.due) })).filter((a) => a.task),
+    plans: strs(j?.plans),
+    issues: strs(j?.issues),
+    keywords: strs(j?.keywords).slice(0, 6),
+  };
+}
+
+/* ═════════════════════════════════════════════════════════════════
+   마이크 — 녹음 파일 + 받아쓰기용 음성 조각을 한 스트림에서 같이 만든다
+   ─────────────────────────────────────────────────────────────────
+   음성 조각은 16kHz 모노 WAV. 단어 중간에서 끊기지 않도록 최소 길이가 지난 뒤
+   말이 0.35초 끊기는 곳에서 자르고, 최대 길이에서는 그냥 자른다(길이는 PACE).
+   조용한 조각(말소리가 거의 없는)은 보내지 않는다 — 무료 사용량 절약 +
+   조용한 오디오에서 AI가 말을 지어내는 것 방지.
+   ═════════════════════════════════════════════════════════════════ */
+
+class Mic {
+  constructor({ chunking = false, onChunk = null } = {}) {
+    this.chunking = chunking;
+    this.onChunk = onChunk;
+    this.paused = false;
+  }
+
+  static RATE = 16000;
+
+  async start(baseMs) {
+    this.stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true } });
+    this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+    try { await this.ctx.resume(); } catch {}
+    const src = this.ctx.createMediaStreamSource(this.stream);
+    this.analyser = this.ctx.createAnalyser();
+    this.analyser.fftSize = 512;
+    this.buf = new Uint8Array(this.analyser.fftSize);
+    src.connect(this.analyser);
+
+    if (this.chunking) {
+      [this.minMs, this.maxMs] = (PACE[Settings.v.pace] || PACE.normal).range;
+      this.clockMs = baseMs || 0;   // 녹음 기준 시각(일시정지 제외)
+      this.resetChunk();
+      this.floor = null;
+      this.ratio = this.ctx.sampleRate / Mic.RATE;
+      this.phase = 0;
+      this.proc = this.ctx.createScriptProcessor(4096, 1, 1);
+      const mute = this.ctx.createGain();
+      mute.gain.value = 0; // 스피커로는 내보내지 않는다(일부 브라우저는 destination에 이어야 처리가 돈다)
+      src.connect(this.proc);
+      this.proc.connect(mute);
+      mute.connect(this.ctx.destination);
+      this.proc.onaudioprocess = (e) => this.onAudio(e.inputBuffer.getChannelData(0));
+    }
+
+    if (Settings.v.saveAudio && "MediaRecorder" in window) {
+      const type = ["audio/webm;codecs=opus", "audio/mp4", "audio/webm"].find((t) => MediaRecorder.isTypeSupported?.(t));
+      try {
+        this.mr = new MediaRecorder(this.stream, { ...(type ? { mimeType: type } : {}), audioBitsPerSecond: 32000 });
+        this.parts = [];
+        this.savedParts = 0;
+        this.mr.ondataavailable = (e) => e.data.size && this.parts.push(e.data);
+        this.mr.start(1000);
+      } catch { this.mr = null; }
+    }
+  }
+
+  resetChunk() {
+    this.blocks = [];
+    this.chunkMs = 0;
+    this.voicedMs = 0;
+    this.silentRun = 0;
+    this.chunkStart = this.clockMs;
+  }
+
+  onAudio(input) {
+    if (this.paused) return;
+    const blockMs = (input.length / this.ctx.sampleRate) * 1000;
+
+    // 16kHz로 줄인다(구간 평균)
+    const r = this.ratio, out = [];
+    let t = this.phase;
+    for (; t < input.length; t += r) {
+      const a = Math.floor(t), b = Math.min(input.length, Math.max(a + 1, Math.floor(t + r)));
+      let s = 0;
+      for (let k = a; k < b; k++) s += input[k];
+      out.push(s / (b - a));
+    }
+    this.phase = t - input.length;
+    this.blocks.push(Float32Array.from(out));
+
+    // 말소리 판정 — 주변 소음 수준(floor)을 따라가며 그보다 충분히 크면 말소리로 본다.
+    let sum = 0;
+    for (let i = 0; i < input.length; i++) sum += input[i] * input[i];
+    const rms = Math.sqrt(sum / input.length);
+    this.floor = this.floor == null ? rms : Math.min(rms, this.floor * 1.002 + 0.00002);
+    const silent = rms < Math.max(this.floor * 2.5, 0.004);
+
+    this.clockMs += blockMs;
+    this.chunkMs += blockMs;
+    if (!silent) this.voicedMs += blockMs;
+    this.silentRun = silent ? this.silentRun + blockMs : 0;
+
+    if ((this.chunkMs >= this.minMs && this.silentRun >= 350) || this.chunkMs >= this.maxMs) this.emit();
+  }
+
+  /** 지금까지 모인 조각을 내보낸다. 말소리가 거의 없으면 버린다. */
+  emit() {
+    if (!this.chunking || !this.blocks?.length) return;
+    const voiced = this.voicedMs, start = this.chunkStart, dur = this.chunkMs;
+    const blocks = this.blocks;
+    this.resetChunk();
+    if (voiced < 500) return;
+    this.onChunk?.({ blob: encodeWav(blocks, Mic.RATE), startMs: start, durMs: dur });
+  }
+
+  /** 지난번 호출 뒤로 쌓인 녹음 조각(없으면 null). 녹음 중간중간 디스크에 내려 적는 데 쓴다. */
+  takeNewParts() {
+    if (!this.mr || !this.parts || this.parts.length <= this.savedParts) return null;
+    const blob = new Blob(this.parts.slice(this.savedParts), { type: this.mr.mimeType || "audio/webm" });
+    this.savedParts = this.parts.length;
+    return blob;
+  }
+
+  level() {
+    if (!this.analyser || this.paused) return 0;
+    this.analyser.getByteTimeDomainData(this.buf);
+    let sum = 0;
+    for (const v of this.buf) { const x = (v - 128) / 128; sum += x * x; }
+    return Math.min(1, Math.sqrt(sum / this.buf.length) * 4);
+  }
+
+  pause() {
+    this.emit(); // 말하던 부분은 먼저 보낸다
+    this.paused = true;
+    try { this.mr?.state === "recording" && this.mr.pause(); } catch {}
+  }
+
+  resume() {
+    this.paused = false;
+    this.resetChunk();
+    try { this.mr?.state === "paused" && this.mr.resume(); } catch {}
+  }
+
+  /** 끝낸다. 남은 조각을 보내고 녹음 파일(Blob)을 돌려준다. */
+  async stop() {
+    if (!this.paused) this.emit();
+    this.paused = true;
+    let blob = null;
+    if (this.mr && this.mr.state !== "inactive") {
+      blob = await new Promise((resolve) => {
+        this.mr.onstop = () => resolve(new Blob(this.parts, { type: this.mr.mimeType || "audio/webm" }));
+        this.mr.stop();
+      });
+    }
+    try { this.proc && (this.proc.onaudioprocess = null); } catch {}
+    this.stream?.getTracks().forEach((t) => t.stop());
+    try { await this.ctx?.close(); } catch {}
+    return blob && blob.size ? blob : null;
+  }
+}
+
+/** Float32 조각들 → 16bit PCM WAV Blob */
+function encodeWav(blocks, rate) {
+  const n = blocks.reduce((a, b) => a + b.length, 0);
+  const buf = new ArrayBuffer(44 + n * 2);
+  const v = new DataView(buf);
+  const w = (o, s) => { for (let i = 0; i < s.length; i++) v.setUint8(o + i, s.charCodeAt(i)); };
+  w(0, "RIFF"); v.setUint32(4, 36 + n * 2, true); w(8, "WAVE");
+  w(12, "fmt "); v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+  v.setUint32(24, rate, true); v.setUint32(28, rate * 2, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true);
+  w(36, "data"); v.setUint32(40, n * 2, true);
+  let o = 44;
+  for (const b of blocks) {
+    for (let i = 0; i < b.length; i++, o += 2) {
+      const s = Math.max(-1, Math.min(1, b[i]));
+      v.setInt16(o, s < 0 ? s * 0x8000 : s * 0x7fff, true);
+    }
+  }
+  return new Blob([buf], { type: "audio/wav" });
+}
+
+/* ═════════════════════════════════════════════════════════════════
+   키가 없을 때만 쓰는 브라우저 음성 인식 (Web Speech)
+   아이폰 Safari에서는 연속 모드가 깨져 있어 한 마디씩 이어 붙인다.
+   ═════════════════════════════════════════════════════════════════ */
+
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+class Listener {
+  constructor(handlers) { this.h = handlers; this.wants = false; this.fastFails = 0; }
+
+  start(lang) {
+    this.lang = lang;
+    this.wants = true;
+    this.fastFails = 0;
+    this._begin();
+  }
+
+  _begin() {
+    if (!this.wants) return;
+    const r = new SR();
+    const lang = this.lang;
+    r.lang = LANGS[lang].bcp;
+    r.continuous = !IS_IOS;
+    r.interimResults = true;
+    r.maxAlternatives = 1;
+    this.gotResult = false;
+    this.lastEventAt = Date.now();
+    clearInterval(this.watchdog);
+    if (IS_IOS) {
+      this.watchdog = setInterval(() => {
+        if (this.rec === r && this.wants && Date.now() - this.lastEventAt > 12000) {
+          this.lastEventAt = Date.now();
+          try { r.abort(); } catch {}
+        }
+      }, 2000);
+    }
+    r.onresult = (e) => {
+      this.gotResult = true;
+      this.lastEventAt = Date.now();
+      let interim = "";
+      for (let i = e.resultIndex; i < e.results.length; i++) {
+        const res = e.results[i];
+        const text = res[0]?.transcript?.trim();
+        if (!text) continue;
+        if (res.isFinal) this.h.onFinal(text, lang);
+        else interim += (interim ? " " : "") + text;
+      }
+      this.h.onInterim(interim);
+    };
+    r.onerror = (e) => {
+      if (e.error === "no-speech" || e.error === "aborted") return;
+      if (e.error === "not-allowed" || e.error === "service-not-allowed") {
+        this.wants = false;
+        this.h.onError("마이크 사용이 거부되었습니다. 주소창의 자물쇠(aA) 메뉴에서 마이크를 허용해 주세요.", true);
+      } else if (e.error === "network") {
+        this.h.onError("음성 인식 서버에 연결할 수 없습니다. 자동으로 다시 시도합니다.", false);
+      } else {
+        this.h.onError(`음성 인식 오류: ${e.error}`, false);
+      }
+    };
+    r.onend = () => {
+      this.h.onInterim("");
+      if (this.rec === r) clearInterval(this.watchdog);
+      if (!this.wants) return;
+      this.fastFails = !this.gotResult && Date.now() - this.startedAt < 1000 ? this.fastFails + 1 : 0;
+      if (this.fastFails >= 5) {
+        this.wants = false;
+        this.h.onError("음성 인식이 계속 중단됩니다. 잠시 후 다시 시작해 주세요.", true);
+        return;
+      }
+      this.timer = setTimeout(() => this._begin(), this.fastFails ? 1500 : 150);
+    };
+    this.rec = r;
+    this.startedAt = Date.now();
+    try { r.start(); } catch (e) { this.h.onError(`음성 인식을 시작하지 못했습니다: ${e.message}`, false); }
+  }
+
+  stop() { this.wants = false; clearTimeout(this.timer); clearInterval(this.watchdog); try { this.rec?.stop(); } catch {} }
+  abort() { this.wants = false; clearTimeout(this.timer); clearInterval(this.watchdog); try { this.rec?.abort(); } catch {} }
+}
+
+/* ═════════════════════════════════════════════════════════════════
+   앱
+   ═════════════════════════════════════════════════════════════════ */
+
+function newSession() {
+  return {
+    id: uid(), title: "", createdAt: Date.now(), durationMs: 0,
+    speechLang: Settings.v.speechLang, targetLang: Settings.v.foreign,
+    segments: [], rule: null, ai: null, audioParts: 0,
+  };
+}
+function autoTitle(s) {
+  return s.ai?.title || s.draft?.title || s.rule?.title || `${fmtDate(s.createdAt).slice(0, 10)} 회의`;
+}
+function autoTitleOrUser() { return App.session.title || autoTitle(App.session); }
+
+const App = {
+  session: null,
+  state: "idle",          // idle | recording | paused | finishing
+  mode: "gemini",         // gemini | browser — 녹음을 시작할 때 정해진다
+  view: "rule",
+  interim: "",
+  accMs: 0,
+  segStart: 0,
+  mic: null,
+  listener: null,
+  wakeLock: null,
+  sttQueue: Promise.resolve(),
+  pendingChunks: 0,
+  failedChunks: [],       // 받아쓰지 못한 음성 조각 { key, startMs, durMs } — 음성은 IndexedDB에 있어 나중에도 다시 보낼 수 있다
+  draft: { running: false, lastAt: 0, lastCount: 0, off: false },
+  recSeq: 0,
+  aiState: { running: false, error: "" },
+  dirty: false,
+
+  elapsed() { return this.accMs + (this.state === "recording" ? Date.now() - this.segStart : 0); },
+
+  init() {
+    Settings.load();
+    UI.bind();
+    const last = Store.list()[0];
+    this.load(last ? Store.get(last.id) : null);
+    setInterval(() => this.tick(), 250);
+    setInterval(() => { this.refreshRule(); this.maybeDraft(); }, 1500);
+    setInterval(() => this.saveRecPiece(), App.REC_SAVE_MS);
+    window.addEventListener("beforeunload", (e) => {
+      if (this.state !== "idle" || this.pendingChunks > 0) { e.preventDefault(); e.returnValue = ""; }
+    });
+    // 탭이 뒤로 가거나 닫히기 직전에 한 번 더 내려 적는다(아이폰은 뒤로 간 탭을 예고 없이 정리한다)
+    document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") this.saveRecPiece(); });
+    window.addEventListener("pagehide", () => this.saveRecPiece());
+    // 모델 목록은 가끔 새로 받아 온다(새 모델·이름 변경 대응). 실패해도 기존 목록으로 계속 쓴다.
+    if (Settings.hasKey() && Date.now() - (Settings.v.models.at || 0) > 7 * 86400000) Gemini.discover().catch(() => {});
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "visible" && this.state === "recording") this.lockScreen();
+    });
+  },
+
+  load(session) {
+    this.session = session || newSession();
+    const s = this.session;
+    if (s.segments.length && (FOREIGN.includes(s.targetLang) || s.targetLang === "off")) Settings.v.foreign = s.targetLang;
+    this.accMs = s.durationMs || 0;
+    this.view = s.ai ? "ai" : "rule";
+    this.aiState = { running: false, error: "" };
+    this.failedChunks = [];
+    this.interim = "";
+    if (!s.rule && s.segments.length) s.rule = ruleSummary(s);
+    UI.renderAll();
+    if (session) this.restore(s);
+  },
+
+  /** 지난번에 남은 것들을 되살린다: ① 도중에 끊긴 녹음 ② 받아쓰지 못한 구간 */
+  async restore(s) {
+    try {
+      const part = s.audioParts || 0;
+      const pieces = await AudioDB.pieces(s.id, part);
+      if (pieces?.length && this.state === "idle") {
+        await AudioDB.put(s.id, part, new Blob(pieces, { type: pieces[0].type || "audio/webm" }));
+        await AudioDB.dropPieces(s.id, part);
+        s.audioParts = part + 1;
+        Store.save(s);
+        if (this.session === s) {
+          UI.banner("지난번 녹음이 도중에 끊겼습니다. 끊기기 직전까지의 녹음 파일과 자막을 살려 두었습니다.", "warn", "restore");
+          UI.renderAudio();
+        }
+      }
+    } catch {}
+    try {
+      const fails = await AudioDB.fails(s.id);
+      if (fails.length && this.session === s && !this.failedChunks.length) {
+        this.failedChunks = fails;
+        UI.renderChips();
+        UI.renderFoot();
+      }
+    } catch {}
+  },
+
+  /** 녹음을 15초마다 디스크에 내려 적는다 — 탭이 죽거나 새로고침돼도 거기까지는 남는다. */
+  REC_SAVE_MS: 15000,
+  saveRecPiece() {
+    if (this.state !== "recording" && this.state !== "paused") return;
+    const blob = this.mic?.takeNewParts();
+    if (!blob) return;
+    const s = this.session;
+    AudioDB.putPiece(s.id, s.audioParts || 0, this.recSeq++, blob).catch(() => {});
+  },
+
+  tick() {
+    if (this.state === "recording" || this.state === "paused") {
+      UI.renderClock();
+      UI.renderMeter(this.state === "recording" ? this.mic?.level() || 0 : 0);
+    }
+    // Gemini 방식은 자막이 조각 단위로 늦게 붙으므로, 그 사이 "듣는 중"을 맨 아래 줄에 보여 준다
+    if (this.mode === "gemini") {
+      const msg = this.pendingChunks > 0 ? "받아쓰는 중…" : this.state === "recording" ? "듣는 중…" : "";
+      if (msg !== this.interim) { this.interim = msg; UI.renderInterim(); }
+    }
+  },
+
+  refreshRule() {
+    if (!this.dirty) return;
+    this.dirty = false;
+    this.session.rule = ruleSummary(this.session);
+    if (this.view === "rule") UI.renderSummary();
+    this.persist();
+  },
+
+  persist() {
+    this.session.durationMs = this.elapsed();
+    if (this.session.segments.length) Store.save(this.session);
+  },
+
+  /* ───────── 녹음 ───────── */
+
+  async start() {
+    if (!Settings.hasKey() && !Settings.v.noKeyMode) { UI.showSetup(true); $("#keyInput").focus(); return; }
+    this.mode = Settings.hasKey() ? "gemini" : "browser";
+    if (this.mode === "browser" && !SR) {
+      UI.banner("Gemini 키가 없으면 브라우저 음성 인식을 쓰는데, 이 브라우저는 지원하지 않습니다. 설정에서 Gemini 키를 넣어 주세요.", "error", "no-sr");
+      return;
+    }
+    const s = this.session;
+    s.targetLang = Settings.v.foreign;
+    s.speechLang = Settings.v.speechLang;
+    UI.clearBanner();
+
+    this.mic = new Mic({ chunking: this.mode === "gemini", onChunk: (c) => this.enqueueChunk(c) });
+    try {
+      await this.mic.start(this.accMs);
+    } catch (e) {
+      this.mic = null;
+      UI.banner(e?.name === "NotAllowedError"
+        ? "마이크 사용이 거부되었습니다. 주소창의 자물쇠(아이폰은 aA) 메뉴에서 마이크를 허용한 뒤 다시 시도해 주세요."
+        : `마이크를 열지 못했습니다: ${e?.message || e}`, "error", "mic");
+      return;
+    }
+
+    if (this.mode === "browser") {
+      this.listener = new Listener({
+        onFinal: (text, lang) => this.addSegments(s, [{ text, lang, translation: "" }], this.elapsed()),
+        onInterim: (t) => { this.interim = t; UI.renderInterim(); },
+        onError: (msg, fatal) => { UI.banner(msg, fatal ? "error" : "warn", "sr"); if (fatal) this.finish(); },
+      });
+      this.listener.start(s.speechLang);
+    }
+    this.state = "recording";
+    this.segStart = Date.now();
+    this.recSeq = 0;
+    this.draft = { running: false, lastAt: this.accMs, lastCount: s.draft?._lines || 0, off: false };
+    Store.save(s); // 자막이 붙기 전이라도 회의를 남겨 둔다 — 도중에 끊겨도 녹음을 되살릴 수 있게
+    this.lockScreen();
+    UI.renderAll();
+  },
+
+  pause() {
+    if (this.state !== "recording") return;
+    this.accMs = this.elapsed();
+    this.state = "paused";
+    this.mic?.pause();
+    this.listener?.stop();
+    UI.renderAll();
+  },
+
+  resume() {
+    if (this.state !== "paused") return;
+    this.state = "recording";
+    this.segStart = Date.now();
+    this.mic?.resume();
+    if (this.mode === "browser") this.listener?.start(this.session.speechLang);
+    UI.renderAll();
+  },
+
+  async finish() {
+    if (this.state !== "recording" && this.state !== "paused") return;
+    this.accMs = this.elapsed();
+    this.state = "finishing";
+    this.listener?.stop();
+    UI.renderAll();
+    if (this.mode === "browser") { await sleep(1200); this.listener?.abort(); }
+    this.interim = "";
+
+    const blob = await this.mic?.stop(); // 남은 음성 조각도 여기서 보내진다
+    this.mic = null;
+    this.releaseScreen();
+    const s = this.session;
+    if (blob) {
+      const part = s.audioParts || 0;
+      try {
+        await AudioDB.put(s.id, part, blob);
+        s.audioParts = part + 1;
+        AudioDB.dropPieces(s.id, part).catch(() => {}); // 완성본이 생겼으니 중간 조각은 지운다
+      } catch { UI.banner("녹음 파일을 저장하지 못했습니다(저장 공간 부족일 수 있음).", "warn", "audio"); }
+    }
+    s.durationMs = this.accMs;
+    this.persist();
+
+    // 받아쓰기가 남아 있으면 끝날 때까지 기다린다(화면에 진행 표시)
+    if (this.pendingChunks > 0) {
+      UI.renderChips();
+      await withTimeout(this.sttQueue, 180000).catch(() => {});
+    }
+    this.state = "idle";
+    s.rule = ruleSummary(s);
+    this.persist();
+    UI.renderAll();
+
+    if (!s.segments.length) {
+      if (!this.failedChunks.length) UI.banner("인식된 말이 없습니다. 마이크가 켜져 있는지 확인해 주세요.", "warn", "empty");
+      return;
+    }
+    UI.setTab("summary");
+    if (Settings.hasKey()) this.runAi();
+  },
+
+  /* ───────── 받아쓰기 (Gemini) ───────── */
+
+  enqueueChunk(chunk) {
+    chunk.session = chunk.session || this.session; // 받아쓰는 사이 다른 회의를 열어도 제자리에 붙도록
+    this.pendingChunks++;
+    UI.renderChips();
+    this.sttQueue = this.sttQueue.then(() => this.processChunk(chunk)).catch(() => {});
+  },
+
+  async processChunk(chunk, attempt = 0) {
+    const s = chunk.session;
+    try {
+      // 오늘 한도를 다 쓴 뒤에는 보내지 않고 바로 보관한다
+      if (Gemini.allSpent("stt")) throw new GeminiError("daily", DAILY_MSG);
+      const blob = chunk.blob || await AudioDB.getKey(chunk.key);
+      if (!blob) return; // 보관해 둔 음성이 사라졌다(회의 삭제 등)
+      const segs = await Gemini.transcribe(await blobToBase64(blob), s.targetLang || "off");
+      if (chunk.key) AudioDB.delKey(chunk.key).catch(() => {});
+      this.addSegments(s, segs, chunk.startMs, chunk.durMs);
+      UI.clearBanner("stt");
+    } catch (e) {
+      const code = e?.code;
+      if ((code === "rate" || code === "server" || code === "network") && attempt < 3) {
+        if (code === "rate") UI.banner(e.message, "warn", "stt");
+        await sleep(e.retryMs || 4000 * (attempt + 1));
+        return await this.processChunk(chunk, attempt + 1); // await: 재시도가 끝난 뒤에야 finally가 돌도록
+      }
+      await this.shelve(chunk);
+      UI.banner(e?.message || "받아쓰기에 실패했습니다.", code === "key" ? "error" : "warn", "stt");
+    } finally {
+      if (attempt === 0) {
+        this.pendingChunks--;
+        UI.renderChips();
+        UI.renderFoot();
+      }
+    }
+  },
+
+  /** 받아쓰지 못한 조각을 보관한다. 음성은 IndexedDB로 내려서 메모리를 비우고, 새로고침 뒤에도 남게 한다. */
+  async shelve(chunk) {
+    const s = chunk.session;
+    const item = { key: chunk.key, startMs: chunk.startMs, durMs: chunk.durMs };
+    if (!item.key) {
+      try { item.key = await AudioDB.putFail(s.id, chunk); }
+      catch { item.blob = chunk.blob; } // 디스크에 못 적으면 이 페이지가 열려 있는 동안만 들고 있는다
+    }
+    if (s === this.session) this.failedChunks.push(item);
+  },
+
+  /** 못 받아쓴 구간을 다시 보낸다. 시간 순서대로 제자리에 끼워 넣는다. */
+  retryFailed() {
+    const list = this.failedChunks.splice(0);
+    Gemini.forgetSpent(); // 사용자가 직접 눌렀으니 한도가 풀렸는지 실제로 확인해 본다
+    list.sort((a, b) => a.startMs - b.startMs).forEach((c) => this.enqueueChunk(c));
+    UI.renderFoot();
+  },
+
+  /** 받아쓴 문장들을 회의에 넣는다. 한 조각 안의 문장은 글자 수 비율로 시각을 나눠 준다. */
+  addSegments(s, segs, startMs, durMs = 0) {
+    if (!segs.length) return;
+    const shown = s === this.session;
+    const total = segs.reduce((n, g) => n + g.text.length, 0) || 1;
+    let before = 0;
+    segs.forEach((g, i) => {
+      const seg = {
+        id: uid(), atMs: Math.round(startMs + (durMs ? (durMs * before) / total : i * 10)), text: g.text, lang: g.lang,
+        tr: g.translation || "", trLang: g.translation ? (g.lang === "ko" ? s.targetLang : "ko") : "", trStatus: g.translation ? "done" : "",
+      };
+      before += g.text.length;
+      // 다시 받아쓴 구간이 앞 시간대일 수 있으니 시간 순서를 지킨다
+      let at = s.segments.length;
+      while (at > 0 && s.segments[at - 1].atMs > seg.atMs) at--;
+      s.segments.splice(at, 0, seg);
+      if (!shown) return;
+      if (at === s.segments.length - 1) UI.appendSegment(seg);
+      else UI.renderTranscript();
+    });
+    if (shown) { this.dirty = true; this.persist(); }
+    else { s.rule = ruleSummary(s); Store.save(s); }
+  },
+
+  /* ───────── 녹음 중 AI 초안 ─────────
+     규칙 기반 정리는 말한 문장을 그대로 고른 것이라 거칠다. 녹음 중에도 몇 분마다
+     Gemini(Lite)에게 지금까지의 내용을 정리시켜 ‘실시간’ 탭에 보여 준다. */
+  DRAFT_FIRST_MS: 60000,
+  DRAFT_EVERY_MS: 150000,
+  DRAFT_MIN_LINES: 4,
+
+  maybeDraft() {
+    const s = this.session, d = this.draft;
+    if (this.state !== "recording" || this.mode !== "gemini" || !Settings.v.liveDraft || d.running || d.off) return;
+    if (s.segments.length - d.lastCount < this.DRAFT_MIN_LINES) return;
+    if (this.elapsed() - d.lastAt < (s.draft ? this.DRAFT_EVERY_MS : this.DRAFT_FIRST_MS)) return;
+    this.runDraft();
+  },
+
+  async runDraft() {
+    const s = this.session, d = this.draft;
+    d.running = true;
+    d.lastAt = this.elapsed();
+    const lines = s.segments.length;
+    try {
+      const m = await Gemini.minutes(s, { draft: true });
+      m._lines = lines;
+      m._upToMs = s.segments[lines - 1]?.atMs || 0;
+      s.draft = m;
+      d.lastCount = lines;
+      if (s !== this.session) { Store.save(s); return; }
+      this.persist();
+      if (this.view === "rule") UI.renderSummary();
+    } catch (e) {
+      // 한도를 다 썼거나 키 문제면 초안은 그만둔다 — 남은 몫은 받아쓰기에 쓴다. 그 밖의 오류는 다음 차례에 다시.
+      if (e?.code === "daily" || e?.code === "key") d.off = true;
+    } finally {
+      d.running = false;
+    }
+  },
+
+  setForeign(code) {
+    Settings.v.foreign = code;
+    Settings.save();
+    this.session.targetLang = code; // 다음 음성 조각부터 적용
+    UI.renderChips();
+  },
+
+  async lockScreen() { try { this.wakeLock = await navigator.wakeLock?.request("screen"); } catch {} },
+  releaseScreen() { try { this.wakeLock?.release(); } catch {} this.wakeLock = null; },
+
+  /* ───────── AI 회의록 ───────── */
+
+  async runAi() {
+    const s = this.session;
+    if (this.aiState.running || !s.segments.length) return;
+    if (!Settings.hasKey()) { UI.showSetup(true); return; }
+    this.view = "ai";
+    this.aiState = { running: true, error: "" };
+    UI.renderSummary();
+    UI.renderFoot();
+    try {
+      s.ai = await Gemini.minutes(s);
+      s.aiAt = Date.now();
+      this.persist();
+    } catch (e) {
+      this.aiState.error = (e?.message || "회의록을 만들지 못했습니다.") + (s.draft ? " ‘실시간’ 탭에 녹음 중에 만든 초안이 있습니다." : "");
+    }
+    this.aiState.running = false;
+    UI.renderAll();
+  },
+
+  newMeeting() {
+    if (this.state !== "idle") return toast("녹음을 먼저 종료해 주세요.");
+    this.load(null);
+    UI.clearBanner();
+  },
+
+  open(id) {
+    if (this.state !== "idle") return toast("녹음을 먼저 종료해 주세요.");
+    const s = Store.get(id);
+    if (!s) return toast("회의를 불러오지 못했습니다.");
+    this.load(s);
+    UI.clearBanner();
+  },
+
+  remove(id) {
+    Store.remove(id);
+    if (this.session.id === id) this.load(null);
+    UI.renderSessions();
+  },
+
+  /** 마이크 없이 써 볼 수 있는 샘플 회의 (번역이 붙은 상태) */
+  loadDemo() {
+    if (this.state !== "idle") return;
+    const lines = [
+      ["네 그럼 오늘 회의 시작하겠습니다.", "Okay, let's start today's meeting."],
+      ["이번 회의 목적은 결제 오류 대응 방안과 신규 화면 디자인을 정하는 겁니다.", "The purpose of this meeting is to decide how to handle payment errors and the new screen design."],
+      ["지난주부터 결제 모듈에서 타임아웃이 계속 발생하고 있습니다.", "Since last week, the payment module has kept timing out."],
+      ["로그를 보니까 하루에 40건 정도이고 PG사 응답이 3초를 넘으면 실패하는 구조입니다.", "The logs show about 40 a day; it fails whenever the payment gateway takes more than 3 seconds."],
+      ["타임아웃을 5초로 늘리는 건 어떤가요?", "How about raising the timeout to 5 seconds?"],
+      ["일단 재시도 로직을 넣는 걸로 하죠.", "Let's add retry logic for now."],
+      ["김대리가 이번 주 금요일까지 재시도 로직 확인해서 공유해 주세요.", "Kim, please check the retry logic and share it by this Friday."],
+      ["시안이 두 개 나왔는데 A안이 더 깔끔하다는 의견이 많았습니다.", "We have two drafts, and many felt draft A is cleaner."],
+      ["좋습니다. A안으로 가되 테스트 결과를 보고 조정하는 걸로 확정하겠습니다.", "Good. We'll go with draft A and adjust based on test results."],
+      ["박과장님이 다음 주 월요일까지 테스트 참가자 모집해 주세요.", "Mr. Park, please recruit test participants by next Monday."],
+      ["나머지 400만원은 어디에 쓸지 아직 정하지 못했습니다.", "We haven't decided how to use the remaining 4 million won."],
+      ["그건 다음 회의에서 다시 논의하죠.", "Let's discuss that again at the next meeting."],
+      ["앞으로 결제 안정화가 끝나면 다음 달에 신규 화면을 단계적으로 배포할 계획입니다.", "Once payments are stable, we plan to roll out the new screen gradually next month."],
+    ];
+    const s = newSession();
+    s.title = "샘플 — 결제 오류·신규 화면 회의";
+    s.targetLang = "en";
+    s.segments = lines.map(([text, tr], i) => ({ id: uid(), atMs: i * 45000, text, lang: "ko", tr, trLang: "en", trStatus: "done" }));
+    s.durationMs = lines.length * 45000;
+    s.rule = ruleSummary(s);
+    this.load(s);
+    Store.save(s);
+    UI.setTab("summary");
+    toast("샘플 회의를 불러왔습니다");
+  },
+};
+
+/* ═════════════════════════════════════════════════════════════════
+   화면
+   ═════════════════════════════════════════════════════════════════ */
+
+const UI = {
+  bind() {
+    $("#btnRecord").addEventListener("click", () => (App.state === "paused" ? App.resume() : App.start()));
+    $("#btnPause").addEventListener("click", () => App.pause());
+    $("#btnStop").addEventListener("click", () => App.finish());
+    $("#btnNew").addEventListener("click", () => App.newMeeting());
+    $("#btnSessions").addEventListener("click", () => { this.renderSessions(); $("#dlgSessions").showModal(); });
+    $("#btnSettings").addEventListener("click", () => { this.renderSettings(); $("#dlgSettings").showModal(); });
+    document.querySelectorAll("dialog [data-close]").forEach((b) => b.addEventListener("click", () => b.closest("dialog").close()));
+    document.querySelectorAll("dialog").forEach((d) => d.addEventListener("click", (e) => { if (e.target === d) d.close(); }));
+
+    $("#title").addEventListener("input", (e) => { App.session.title = e.target.value; if (App.session.segments.length) Store.save(App.session); });
+    $("#foreign").addEventListener("change", (e) => App.setForeign(e.target.value));
+    $("#speechLang").addEventListener("change", (e) => { Settings.v.speechLang = e.target.value; Settings.save(); });
+
+    // 처음 설정
+    const saveKey = async (input, statusEl) => {
+      const key = input.value.trim();
+      if (!key) { toast("키를 붙여넣어 주세요"); return false; }
+      Settings.v.geminiKey = key;
+      Settings.v.noKeyMode = false;
+      Settings.save();
+      if (statusEl) statusEl.textContent = "연결 확인 중…";
+      try {
+        Settings.v.models = {};
+        Settings.v.spent = {};
+        await Gemini.discover();
+        if (statusEl) statusEl.textContent = "✅ 연결되었습니다.";
+        toast("Gemini에 연결되었습니다");
+        return true;
+      } catch (e) {
+        if (e?.code === "key") { Settings.v.geminiKey = ""; Settings.save(); }
+        const msg = e?.code === "network"
+          ? "지금은 Gemini에 연결하지 못했습니다. 키는 저장해 두었으니 인터넷 연결을 확인한 뒤 녹음해 보세요."
+          : e?.message || "연결하지 못했습니다.";
+        if (statusEl) statusEl.textContent = `❌ ${msg}`;
+        else UI.banner(msg, "error", "key");
+        return false;
+      } finally {
+        this.renderAll();
+      }
+    };
+    $("#btnSaveKey").addEventListener("click", async () => { if (await saveKey($("#keyInput"))) this.showSetup(false); });
+    $("#keyInput").addEventListener("keydown", (e) => { if (e.key === "Enter") $("#btnSaveKey").click(); });
+    $("#btnNoKey").addEventListener("click", () => { Settings.v.noKeyMode = true; Settings.save(); this.showSetup(false); this.renderAll(); });
+    $("#btnSetKey").addEventListener("click", () => saveKey($("#setKey"), $("#keyStatus")));
+    $("#btnClearKey").addEventListener("click", () => {
+      Settings.v.geminiKey = ""; Settings.v.models = {}; Settings.v.spent = {}; Settings.save();
+      $("#setKey").value = ""; $("#keyStatus").textContent = "키를 지웠습니다.";
+      this.renderAll();
+    });
+    $("#setSaveAudio").addEventListener("change", (e) => { Settings.v.saveAudio = e.target.checked; Settings.save(); });
+    $("#setLiveDraft").addEventListener("change", (e) => { Settings.v.liveDraft = e.target.checked; Settings.save(); });
+    $("#setPace").addEventListener("change", (e) => { Settings.v.pace = e.target.value; Settings.save(); this.renderAll(); });
+
+    document.querySelectorAll(".seg-toggle button").forEach((b) => b.addEventListener("click", () => { App.view = b.dataset.view; this.renderSummary(); this.renderFoot(); }));
+    document.querySelectorAll(".tabs-mobile [data-tab]").forEach((b) => b.addEventListener("click", () => this.setTab(b.dataset.tab)));
+
+    $("#btnAi").addEventListener("click", () => App.runAi());
+    $("#btnRetry").addEventListener("click", () => App.retryFailed());
+    $("#btnCopy").addEventListener("click", async () => {
+      const md = Export.summaryMarkdown(App.session, this.currentSummary());
+      try { await navigator.clipboard.writeText(md); toast("요약을 복사했습니다"); }
+      catch { download(`${safeFilename(autoTitleOrUser())}.md`, md); toast("복사가 막혀 파일로 내려받았습니다"); }
+    });
+    $("#btnExport").addEventListener("click", (e) => this.exportMenu(e.currentTarget));
+  },
+
+  showSetup(show) { $("#setupCard").hidden = !show; },
+
+  setTab(tab) {
+    $("#grid").dataset.tab = tab;
+    document.querySelectorAll(".tabs-mobile [data-tab]").forEach((x) => x.setAttribute("aria-selected", String(x.dataset.tab === tab)));
+  },
+
+  currentSummary() {
+    const s = App.session;
+    return App.view === "ai" && s.ai ? s.ai : this.liveSummary(s) || EMPTY_SUMMARY();
+  },
+
+  /** ‘실시간’ 탭에 보일 정리 — Gemini 초안이 있으면 그것, 없으면 규칙 기반 */
+  liveSummary(s) {
+    return s.draft && !isEmptySummary(s.draft) ? s.draft : s.rule;
+  },
+
+  renderAll() {
+    const s = App.session;
+    const rec = App.state !== "idle";
+    document.body.classList.toggle("is-recording", App.state === "recording");
+    this.showSetup(!Settings.hasKey() && !Settings.v.noKeyMode);
+    $("#title").value = s.title || "";
+    $("#title").placeholder = s.segments.length ? autoTitle(s) : "회의 제목 (비워 두면 자동으로 붙습니다)";
+    $("#btnRecord").hidden = App.state === "recording" || App.state === "finishing";
+    $("#btnRecord").textContent = App.state === "paused" || s.segments.length ? "● 이어서 녹음" : "● 녹음 시작";
+    $("#btnPause").hidden = App.state !== "recording";
+    $("#btnStop").hidden = !rec;
+    $("#btnStop").disabled = App.state === "finishing";
+    $("#btnStop").textContent = App.state === "finishing" ? "마무리 중…" : "■ 종료";
+    $("#btnNew").disabled = rec;
+    this.renderLangs();
+    this.renderClock();
+    this.renderMeter(0);
+    this.renderChips();
+    this.renderTranscript();
+    this.renderSummary();
+    this.renderFoot();
+    this.renderAudio();
+  },
+
+  renderLangs() {
+    const keyMode = Settings.hasKey();
+    $("#foreignBox").hidden = !keyMode;
+    $("#speechBox").hidden = keyMode;
+    $("#foreign").replaceChildren(
+      ...FOREIGN.map((k) => h("option", { value: k, selected: k === Settings.v.foreign }, LANGS[k].label)),
+      h("option", { value: "off", selected: Settings.v.foreign === "off" }, "번역 안 함"));
+    $("#speechLang").replaceChildren(...Object.entries(LANGS).map(([k, v]) => h("option", { value: k, selected: k === Settings.v.speechLang }, v.label)));
+    $("#speechLang").disabled = App.state !== "idle";
+  },
+
+  renderClock() { $("#clock").textContent = fmtClock(App.state === "idle" ? App.session.durationMs || 0 : App.elapsed()); },
+  renderMeter(v) { $("#meterBar").style.width = `${Math.round(v * 100)}%`; },
+
+  renderChips() {
+    const chips = [];
+    if (Settings.hasKey()) {
+      const f = Settings.v.foreign;
+      chips.push(["ok", f === "off" ? "Gemini · 받아쓰기·회의록" : `Gemini · 받아쓰기 · 한국어↔${LANGS[f].label} 번역 · 회의록`]);
+      if (App.pendingChunks > 0) chips.push(["busy", `받아쓰는 중 ${App.pendingChunks}구간`]);
+      else if (App.state === "recording") chips.push(["busy", `약 ${PACE[Settings.v.pace].about}초마다 자막이 붙습니다`]);
+      if (Gemini.allSpent("stt")) chips.push(["warn", "오늘 무료 받아쓰기 한도 소진 — 녹음은 계속 저장됩니다"]);
+      if (App.failedChunks.length) chips.push(["warn", `못 받아쓴 구간 ${App.failedChunks.length}개 (보관 중)`]);
+    } else {
+      chips.push(["warn", "Gemini 키 없음 — 녹음과 자막만 (번역·AI 회의록은 설정에서 키를 넣으면 됩니다)"]);
+    }
+    $("#chips").replaceChildren(...chips.map(([cls, text]) => h("span", { class: `chip ${cls}` }, text)));
+  },
+
+  banner(msg, kind = "warn", key = "") {
+    const box = $("#banners");
+    if (key) box.querySelector(`[data-key="${key}"]`)?.remove();
+    box.append(h("div", { class: `banner ${kind === "error" ? "error" : ""}`, role: kind === "error" ? "alert" : "status", dataset: { key } },
+      h("span", null, msg),
+      h("button", { class: "x", type: "button", "aria-label": "닫기", onclick: (e) => e.currentTarget.parentElement.remove() }, "×")));
+  },
+  clearBanner(key) {
+    if (key) $("#banners").querySelector(`[data-key="${key}"]`)?.remove();
+    else $("#banners").replaceChildren();
+  },
+
+  /* ───────── 자막 ───────── */
+
+  segNode(seg) {
+    return h("div", { class: "line", dataset: { id: seg.id } },
+      h("div", { class: "line-time" }, fmtClock(seg.atMs)),
+      h("div", { class: "line-text", lang: seg.lang }, h("span", { class: "line-lang" }, LANGS[seg.lang]?.short || ""), seg.text),
+      seg.tr ? h("div", { class: "line-tr", lang: seg.trLang }, seg.tr) : null);
+  },
+
+  renderTranscript() {
+    const box = $("#transcript");
+    const segs = App.session.segments;
+    if (!segs.length && (!App.interim || App.mode === "gemini")) {
+      const recording = App.state === "recording";
+      box.replaceChildren(h("div", { class: "empty" },
+        h("strong", null, recording ? "듣고 있습니다…" : "녹음을 시작하면 여기에 자막이 나타납니다"),
+        recording
+          ? (App.mode === "gemini" ? `약 ${PACE[Settings.v.pace].about}초마다, 말이 끊기는 곳에서 자막과 번역이 붙습니다.` : "말을 시작해 보세요.")
+          : "한국어와 상대 언어를 섞어 말해도 알아서 구분해 서로 번역합니다.",
+        App.state === "idle" ? h("div", null, h("button", { class: "btn small", type: "button", onclick: () => App.loadDemo() }, "샘플 회의로 먼저 보기")) : null));
+    } else {
+      box.replaceChildren(...segs.map((s) => this.segNode(s)));
+      this.renderInterim();
+    }
+    $("#segCount").textContent = segs.length ? `${segs.length}줄` : "";
+  },
+
+  appendSegment(seg) {
+    const box = $("#transcript");
+    if (box.querySelector(".empty")) box.replaceChildren();
+    const nearBottom = box.scrollHeight - box.scrollTop - box.clientHeight < 80;
+    box.querySelector(".line.interim")?.remove();
+    box.append(this.segNode(seg));
+    this.renderInterim();
+    if (nearBottom) box.scrollTop = box.scrollHeight;
+    $("#segCount").textContent = `${App.session.segments.length}줄`;
+  },
+
+  renderInterim() {
+    const box = $("#transcript");
+    let node = box.querySelector(".line.interim");
+    // Gemini 방식의 "듣는 중…" 줄은 첫 자막이 붙은 뒤부터 보인다(그 전에는 안내문이 있다)
+    if (!App.interim || (App.mode === "gemini" && !App.session.segments.length)) { node?.remove(); return; }
+    if (box.querySelector(".empty")) box.replaceChildren();
+    if (!node) {
+      node = h("div", { class: "line interim" }, h("div", { class: "line-time" }, "···"), h("div", { class: "line-text" }));
+      box.append(node);
+    }
+    node.querySelector(".line-text").textContent = App.interim;
+  },
+
+  /* ───────── 정리 ───────── */
+
+  renderSummary() {
+    const box = $("#summary");
+    const s = App.session;
+    document.querySelectorAll(".seg-toggle button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === App.view)));
+
+    if (App.view === "ai") {
+      if (App.aiState.running) {
+        box.replaceChildren(h("div", { class: "empty" },
+          h("strong", null, "Gemini가 회의록을 쓰고 있습니다"),
+          "회의 길이에 따라 10초~1분쯤 걸립니다.",
+          h("div", { class: "progress" }, h("div", { style: "width:60%" }))));
+        return;
+      }
+      if (!s.ai) {
+        const why = App.aiState.error || (Settings.hasKey()
+          ? "녹음을 마치면 자동으로 만들어집니다. 지금 바로 만들려면 아래 ‘AI 회의록 만들기’를 누르세요."
+          : "AI 회의록은 Gemini 무료 키가 있어야 만들 수 있습니다. 설정(⚙)에서 키를 넣어 주세요.");
+        box.replaceChildren(h("div", { class: "empty" }, h("strong", null, App.aiState.error ? "회의록을 만들지 못했습니다" : "AI 회의록이 아직 없습니다"), why));
+        return;
+      }
+      box.replaceChildren(...this.summaryNodes(s.ai), h("div", { class: "sum-note" },
+        `${s.ai._engine === "gemini" ? "Gemini" : "AI"}가 ${s.aiAt ? fmtDate(s.aiAt) : ""}에 정리했습니다. AI 정리에도 오류가 있을 수 있으니 중요한 내용은 자막과 대조해 주세요.`));
+      return;
+    }
+
+    const sum = this.liveSummary(s);
+    if (isEmptySummary(sum)) {
+      box.replaceChildren(h("div", { class: "empty" },
+        h("strong", null, "말을 시작하면 바로 정리됩니다"),
+        "배경 · 주요 논의 · 결정 사항 · 향후 계획 · 미결 사항으로 나눠 녹음 중에 채워집니다. 녹음을 마치면 Gemini가 회의록을 다시 씁니다."));
+      return;
+    }
+    const note = sum === s.draft
+      ? `Gemini가 ${fmtClock(sum._upToMs || 0)}까지의 내용을 정리한 초안입니다.${s.segments.length > (sum._lines || 0) ? ` 그 뒤 자막 ${s.segments.length - sum._lines}줄은 아직 반영되지 않았습니다.` : ""}${App.state === "recording" ? " 녹음 중에는 2~3분마다 새로 고쳐지고, 종료하면 전체를 다시 정리합니다." : ""}`
+      : Settings.hasKey() && Settings.v.liveDraft && App.state === "recording"
+        ? "지금은 말한 문장을 규칙으로 골라 분류한 것입니다. 1분쯤 지나면 Gemini가 정리한 초안으로 바뀌고, 그 뒤 2~3분마다 새로 고쳐집니다."
+        : "말한 문장을 규칙으로 골라 분류한 것이라 문장이 다듬어져 있지 않습니다. 녹음을 마치면 ‘AI 회의록’ 탭에 Gemini가 쓴 회의록이 생깁니다.";
+    box.replaceChildren(...this.summaryNodes(sum), h("div", { class: "sum-note" }, note));
+  },
+
+  summaryNodes(sum) {
+    const out = [];
+    const section = (title, n, ...body) => h("div", { class: "sum-section" }, h("h3", null, title, n ? h("span", { class: "n" }, n) : null), ...body);
+    const list = (items, cls = "") => h("ul", { class: `sum-list ${cls}` }, items.map((t) => h("li", null, t)));
+    if (sum.overview) out.push(h("div", { class: "overview" }, sum.overview));
+    if (sum.background.length) out.push(section("배경", "", list(sum.background)));
+    if (sum.discussion.length) out.push(section("주요 논의", "", ...sum.discussion.map((d) =>
+      h("div", { class: "topic" }, h("div", { class: "topic-title" }, d.topic), list(d.points)))));
+    if (sum.decisions.length) out.push(section("결정 사항", sum.decisions.length, list(sum.decisions, "decision")));
+    if (sum.actions.length || sum.plans.length) {
+      out.push(section("향후 계획", "",
+        sum.actions.length ? h("div", { class: "actions" }, sum.actions.map((a) =>
+          h("div", { class: "action" },
+            h("div", { class: "action-task" }, a.task),
+            h("div", { class: "action-meta" },
+              a.owner ? h("span", { class: "tag" }, a.owner) : null,
+              a.due ? h("span", { class: "tag due" }, a.due) : null)))) : null,
+        sum.plans.length ? h("div", { style: sum.actions.length ? "margin-top:10px" : "" }, list(sum.plans, "plan")) : null));
+    }
+    if (sum.issues.length) out.push(section("미결 사항", sum.issues.length, list(sum.issues, "issue")));
+    if (sum.keywords.length) out.push(section("키워드", "", h("div", { class: "keywords" }, sum.keywords.map((k) => h("span", null, k)))));
+    return out;
+  },
+
+  renderFoot() {
+    const s = App.session;
+    const has = s.segments.length > 0;
+    $("#btnAi").disabled = !has || App.aiState.running || App.state !== "idle";
+    $("#btnAi").textContent = s.ai ? "AI 회의록 다시 만들기" : "AI 회의록 만들기";
+    $("#btnRetry").hidden = !App.failedChunks.length;
+    $("#btnRetry").textContent = `못 받아쓴 구간 다시 (${App.failedChunks.length})`;
+    $("#btnCopy").disabled = !has;
+    $("#btnExport").disabled = !has;
+  },
+
+  async renderAudio() {
+    // 연달아 불리면 비동기 렌더가 겹친다 — 세대 번호로 마지막 호출만 반영하고 이전 URL은 해제
+    const gen = (this.audioGen = (this.audioGen || 0) + 1);
+    const box = $("#audioBox");
+    const s = App.session;
+    if (!s.audioParts || App.state !== "idle") { box.hidden = true; return; }
+    const nodes = [h("strong", { style: "font-size:14px" }, "녹음 파일")];
+    const urls = [];
+    for (let i = 0; i < s.audioParts; i++) {
+      try {
+        const blob = await AudioDB.get(s.id, i);
+        if (!blob) continue;
+        const url = URL.createObjectURL(blob);
+        urls.push(url);
+        const ext = blob.type.includes("mp4") ? "m4a" : "webm";
+        nodes.push(
+          h("audio", { controls: true, src: url, preload: "metadata" }),
+          h("button", { class: "btn small", type: "button", onclick: () => download(`${safeFilename(autoTitleOrUser())}${s.audioParts > 1 ? `-${i + 1}` : ""}.${ext}`, blob) }, s.audioParts > 1 ? `${i + 1}번 내려받기` : "내려받기"));
+      } catch {}
+    }
+    if (gen !== this.audioGen || App.session.id !== s.id) { urls.forEach((u) => URL.revokeObjectURL(u)); return; }
+    (this.audioUrls || []).forEach((u) => URL.revokeObjectURL(u));
+    this.audioUrls = urls;
+    box.hidden = false;
+    box.replaceChildren(...nodes);
+  },
+
+  exportMenu(anchor) {
+    document.querySelector(".menu")?.remove();
+    const s = App.session;
+    const name = safeFilename(autoTitleOrUser());
+    const close = () => menu.remove();
+    const item = (label, fn) => h("button", { type: "button", role: "menuitem", onclick: () => { close(); fn(); } }, label);
+    const menu = h("div", { class: "menu", role: "menu" },
+      item("회의록 (.md) — 요약 + 전체 자막", () => download(`${name}.md`, Export.fullMarkdown(s, this.currentSummary()), "text/markdown;charset=utf-8")),
+      item("자막만 (.txt) — 원문 + 번역", () => download(`${name}-자막.txt`, Export.transcriptText(s))),
+      item("인쇄 / PDF로 저장", () => window.print()),
+      item("백업 (.json) — 다른 기기로 옮기기", () => download(`${name}.json`, JSON.stringify(s, null, 2), "application/json")),
+    );
+    const r = anchor.getBoundingClientRect();
+    menu.style.left = `${Math.max(8, Math.min(r.left + window.scrollX, window.innerWidth - 230))}px`;
+    menu.style.top = `${r.bottom + window.scrollY + 6}px`;
+    document.body.append(menu);
+    setTimeout(() => document.addEventListener("click", function off(e) { if (!menu.contains(e.target)) { close(); document.removeEventListener("click", off); } }), 0);
+  },
+
+  renderSessions() {
+    const box = $("#sessionList");
+    const rows = Store.list().map((m) => h("div", { class: "session-row" },
+      h("div", { class: "session-info" },
+        h("div", { class: "session-title" }, m.title || "제목 없음", m.id === App.session.id ? " · 열림" : ""),
+        h("div", { class: "session-meta" }, `${fmtDate(m.createdAt)} · ${fmtDuration(m.durationMs || 0)} · ${m.count}줄${m.audioParts ? " · 녹음 있음" : ""}`)),
+      h("button", { class: "btn small", type: "button", onclick: () => { App.open(m.id); $("#dlgSessions").close(); } }, "열기"),
+      h("button", { class: "btn small ghost", type: "button", onclick: () => { if (confirm(`"${m.title || "제목 없음"}" 회의를 지울까요? 되돌릴 수 없습니다.`)) App.remove(m.id); } }, "삭제")));
+    box.replaceChildren(
+      ...(rows.length ? rows : [h("div", { class: "empty" }, "저장된 회의가 없습니다.")]),
+      h("div", { style: "margin-top:14px" },
+        h("label", { class: "btn small" }, "백업 파일(.json) 불러오기",
+          h("input", { type: "file", accept: "application/json,.json", hidden: true, onchange: (e) => Export.importJson(e.target.files[0]) }))));
+  },
+
+  renderSettings() {
+    $("#setKey").value = Settings.v.geminiKey || "";
+    $("#keyStatus").textContent = Settings.hasKey() ? "키가 저장되어 있습니다." : "키가 없습니다.";
+    $("#setSaveAudio").checked = Settings.v.saveAudio;
+    $("#setLiveDraft").checked = Settings.v.liveDraft;
+    $("#setPace").replaceChildren(...Object.entries(PACE).map(([k, v]) => h("option", { value: k, selected: k === Settings.v.pace }, v.label)));
+    const u = Settings.v.usage.day === quotaDay() ? Settings.v.usage : {};
+    const spent = Object.keys(Settings.v.spent).filter((m) => Gemini.spentToday(m));
+    $("#usageInfo").textContent = Settings.hasKey()
+      ? `오늘 사용 — 받아쓰기 ${u.stt || 0}회 · 녹음 중 초안 ${u.draft || 0}회 · 회의록 ${u.sum || 0}회.${spent.length ? ` 오늘 한도를 다 쓴 모델: ${spent.join(", ")}.` : ""}`
+      : "";
+    $("#modelInfo").textContent = Settings.hasKey()
+      ? `모델 — 받아쓰기·초안: ${Gemini.last.stt || Gemini.candidates("stt")[0] || "-"} · 회의록: ${Gemini.last.sum || Gemini.candidates("sum")[0] || "-"}`
+      : "";
+  },
+};
+
+/* ───────────────────────── 내보내기 ───────────────────────── */
+
+const md = (x) => (x || "").replace(/\|/g, "\\|");
+
+const Export = {
+  summaryMarkdown(s, sum) {
+    const L = [`# ${s.title || autoTitle(s)}`, ""];
+    const langs = s.targetLang && s.targetLang !== "off" ? `한국어 ↔ ${LANGS[s.targetLang]?.label}` : "번역 없음";
+    L.push(`- 일시: ${fmtDate(s.createdAt)}`, `- 길이: ${fmtDuration(s.durationMs || 0)}`, `- 언어: ${langs}`, `- 정리: ${sum === s.ai ? "Gemini" : sum === s.draft ? "Gemini (녹음 중 초안)" : "규칙 기반(실시간)"}`, "");
+    if (sum.overview) L.push("## 개요", sum.overview, "");
+    if (sum.background.length) L.push("## 배경", ...sum.background.map((x) => `- ${x}`), "");
+    if (sum.discussion.length) {
+      L.push("## 주요 논의");
+      for (const d of sum.discussion) L.push(`### ${d.topic}`, ...d.points.map((p) => `- ${p}`), "");
+    }
+    if (sum.decisions.length) L.push("## 결정 사항", ...sum.decisions.map((x) => `- ${x}`), "");
+    if (sum.actions.length || sum.plans.length) {
+      L.push("## 향후 계획");
+      if (sum.actions.length) {
+        L.push("| 할 일 | 담당 | 기한 |", "| --- | --- | --- |");
+        for (const a of sum.actions) L.push(`| ${md(a.task)} | ${md(a.owner) || "-"} | ${md(a.due) || "-"} |`);
+        L.push("");
+      }
+      if (sum.plans.length) L.push(...sum.plans.map((x) => `- ${x}`), "");
+    }
+    if (sum.issues.length) L.push("## 미결 사항", ...sum.issues.map((x) => `- ${x}`), "");
+    if (sum.keywords.length) L.push(`키워드: ${sum.keywords.join(", ")}`, "");
+    return L.join("\n").trim() + "\n";
+  },
+
+  fullMarkdown(s, sum) {
+    return `${this.summaryMarkdown(s, sum)}\n---\n\n## 전체 자막\n\n${s.segments.map((g) =>
+      `**[${fmtClock(g.atMs)}]** ${g.text}${g.tr ? `  \n→ ${g.tr}` : ""}`).join("\n\n")}\n`;
+  },
+
+  transcriptText(s) {
+    return `${s.title || autoTitle(s)}\n${fmtDate(s.createdAt)} · ${fmtDuration(s.durationMs || 0)}\n\n` +
+      s.segments.map((g) => `[${fmtClock(g.atMs)}] (${LANGS[g.lang]?.short || ""}) ${g.text}${g.tr ? `\n          (${LANGS[g.trLang]?.short || ""}) ${g.tr}` : ""}`).join("\n") + "\n";
+  },
+
+  async importJson(file) {
+    if (!file) return;
+    try {
+      const s = JSON.parse(await file.text());
+      if (!s || !Array.isArray(s.segments) || !s.id) throw new Error();
+      s.segments = s.segments.filter((g) => g && typeof g.text === "string" && LANGS[g.lang]);
+      s.audioParts = 0;
+      if (Store.get(s.id)) s.id = uid();
+      Store.save(s);
+      App.open(s.id);
+      $("#dlgSessions").close();
+      toast("회의를 불러왔습니다");
+    } catch { toast("올바른 백업 파일이 아닙니다"); }
+  },
+};
+
+App.init();
+</script>
+</body>
+</html>

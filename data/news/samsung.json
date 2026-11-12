@@ -1,55 +1,33 @@
 {
   "category": "samsung",
-  "updated_at": "2026-11-11T23:11:20.211Z",
-  "count": 5,
+  "updated_at": "2026-11-12T04:43:19.947Z",
+  "count": 3,
   "items": [
     {
-      "title": "'삼전닉스 들어갈까요?' 고민 NO…하락장에도 끄떡없는 비결 [인터뷰+]",
-      "link": "https://www.hankyung.com/article/2026111105136",
+      "title": "젠슨 황 해임 위기에 K반도체도 긴장…삼전닉스에 악재일까",
+      "link": "https://www.hankyung.com/article/202611122331i",
       "source": "한국경제",
-      "ts": 1794432601000,
-      "pub": "Thu, 12 Nov 2026 06:30:01 +0900",
+      "ts": 1794448496000,
+      "pub": "Thu, 12 Nov 2026 10:54:56 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "코스피, 개인 매수세 속 5400선 공방…삼성전자 2%대 강세",
+      "link": "https://www.hankyung.com/article/2026111223646",
+      "source": "한국경제",
+      "ts": 1794448397000,
+      "pub": "Thu, 12 Nov 2026 10:53:17 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "반도체 장기호황 확신?… TSMC 55조 베팅, 삼전닉스 미소",
-      "link": "https://www.mt.co.kr/industry/2026/11/12/2026111119515668397",
-      "source": "머니투데이",
-      "ts": 1794423000000,
-      "pub": "Thu, 12 Nov 2026 03:50:00 +0900",
-      "sentiment": "neutral",
-      "desc": "TSMC 10월 매출 23.8조원 역대 최대, 작년대비 60% 급증 실적 힘입어 오픈AI 5억弗 등 투입… 투자 영역 확대 '주목' AI가속기 생산 늘면 메모리·첨단공정 등 국내기업에 수혜 세계 최대 파운드리(반도체 위탁생산) 기업인 대만 TSMC가 역대 최대 월매출을",
-      "image": "https://thumb.mt.co.kr/06/2026/11/2026111119515668397_1.jpg"
-    },
-    {
-      "title": "\"'삼전닉스에 도전' 中낸드 YMTC, 이르면 내년 1분기 IPO 목표\"",
-      "link": "https://www.yna.co.kr/view/AKR20261111177700089",
-      "source": "연합뉴스 국제",
-      "ts": 1794397075000,
-      "pub": "Wed, 11 Nov 2026 20:37:55 +0900",
-      "sentiment": "neutral",
-      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 낸드 플래시 메모리 분야에서 삼성전자·SK하이닉스에 도전 중인 중국 양쯔메모리(YMTC)가 이르면 내년 1...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/11/AKR20261111177700089_01_i_P2.jpg"
-    },
-    {
-      "title": "저가폰 부품원가 절반 넘은 메모리…가격 인상 압박",
-      "link": "https://www.yna.co.kr/view/AKR20261111160200017",
+      "title": "[특징주] 美반도체 강세에 삼전, 2%대 상승…하이닉스 강보합",
+      "link": "https://www.yna.co.kr/view/AKR20261112046000008",
       "source": "연합뉴스 경제",
-      "ts": 1794385795000,
-      "pub": "Wed, 11 Nov 2026 17:29:55 +0900",
+      "ts": 1794443645000,
+      "pub": "Thu, 12 Nov 2026 09:34:05 +0900",
       "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 박형빈 기자 = 인공지능(AI) 수요 확대에 따른 메모리 반도체 가격 급등으로 저가형 스마트폰의 부품 원가에서 메모리가 차지하...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/11/AKR20261111160200017_01_i_P2.jpg"
-    },
-    {
-      "title": "삼전·닉스, 코어위브·앤트로픽발 훈풍에 3∼5%대 급등 마감(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261111046151008",
-      "source": "연합뉴스 경제",
-      "ts": 1794379803000,
-      "pub": "Wed, 11 Nov 2026 15:50:03 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 11일 각각 3%와 5%대의 상승률을 기록한 채 정규장 ...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/10/29/28/PCM20261029000028990_P2.jpg"
+      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 12일 장 초반 동반 상승 중이다.",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/12/PYH2026111202760001300_P2.jpg"
     }
   ]
 }

@@ -386,6 +386,20 @@ a.btn { text-decoration: none; }
       </div>
     </label>
     <div class="setting">
+      <div style="flex:1">
+        <div class="setting-title">자막 간격 <select id="setPace" aria-label="자막 간격" style="margin-left:6px"></select></div>
+        <div class="setting-desc">짧을수록 자막이 빨리 붙지만 무료 사용량을 빨리 씁니다. 무료 한도는 하루 요청 횟수로 정해져 있어서(받아쓰기용 모델 기준 하루 수백 회 수준, Google이 수시로 바꿉니다), ‘보통’이면 1시간 회의에 약 200회를 씁니다. 다음 녹음부터 적용됩니다.</div>
+        <div class="setting-desc" id="usageInfo" style="margin-top:6px"></div>
+      </div>
+    </div>
+    <label class="setting">
+      <input type="checkbox" id="setLiveDraft">
+      <div>
+        <div class="setting-title">녹음 중 AI 초안</div>
+        <div class="setting-desc">녹음하는 동안 2~3분마다 Gemini가 지금까지의 내용을 정리해 ‘실시간’ 탭에 보여 줍니다(1시간에 약 25회 사용). 끄면 규칙 기반 정리만 나옵니다.</div>
+      </div>
+    </label>
+    <div class="setting">
       <div>
         <div class="setting-title">무엇이 어디로 가나요</div>
         <div class="setting-desc">받아쓰기·번역·회의록은 녹음을 Google Gemini로 보내서 만듭니다. 무료 키는 Google이 보낸 내용을 서비스 개선에 쓸 수 있습니다. 회의 내용과 녹음 파일은 이 브라우저에만 저장됩니다.</div>
@@ -404,11 +418,14 @@ a.btn { text-decoration: none; }
    ─────────────────────────────────────────────────────────────────
    Gemini 무료 키 하나로 아이폰·아이패드·안드로이드·PC 어디서나 같게 동작한다.
 
-     마이크 ─┬─ 녹음 파일 (MediaRecorder → 이 브라우저 IndexedDB)
-             └─ 7~14초 음성 조각 (말이 끊기는 곳에서 자름)
+     마이크 ─┬─ 녹음 파일 (MediaRecorder → 이 브라우저 IndexedDB, 15초마다 내려 적음)
+             └─ 약 20초 음성 조각 (말이 끊기는 곳에서 자름, 길이는 설정의 ‘자막 간격’)
                   → Gemini: 받아쓰기 + 언어 감지 + 번역을 한 번에
-     녹음 중 정리: 규칙 기반 (rules.js, 지연 0, 무료)
+     녹음 중 정리: 규칙 기반(rules.js, 지연 0) → 몇 분마다 Gemini 초안으로 바뀜
      녹음 종료:   Gemini가 회의록 작성
+
+   무료 한도가 "모델별 하루 요청 횟수"라서, 요청 수를 아끼고 한도가 끝나도
+   녹음과 못 받아쓴 음성이 남도록 만드는 데 설계의 대부분을 썼다(Gemini 절 참고).
 
    브라우저 음성 인식(Web Speech)은 아이폰 Safari에서 불안정해서 쓰지 않는다.
    키가 없을 때만 "녹음 + 자막" 용도로 남겨 둔다.
@@ -421,6 +438,20 @@ const LANGS = {
   zh: { label: "중국어", short: "ZH", bcp: "zh-CN" },
 };
 const FOREIGN = ["en", "ja", "zh"];
+
+/** 자막 간격 — 음성 조각의 [최소, 최대] 길이(ms). 최소가 지난 뒤 말이 끊기는 곳에서 자른다.
+    무료 한도는 "하루 요청 횟수"라서 조각이 길수록 오래 쓸 수 있다. */
+const PACE = {
+  fast: { label: "빠르게 (약 10초)", about: 10, range: [7000, 14000] },
+  normal: { label: "보통 (약 20초)", about: 20, range: [15000, 25000] },
+  slow: { label: "절약 (약 30초)", about: 30, range: [25000, 40000] },
+};
+
+/** Gemini 무료 한도는 하루 단위이고 미국 태평양 시간 자정(한국 오후 4~5시)에 초기화된다. */
+function quotaDay() {
+  try { return new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles" }).format(new Date()); }
+  catch { return new Date().toISOString().slice(0, 10); }
+}
 
 /* ───────────────────────── 작은 도구 ───────────────────────── */
 
@@ -501,10 +532,23 @@ const IS_IOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platfo
 
 const Settings = {
   KEY: "voicenote.settings.v2",
-  v: { geminiKey: "", noKeyMode: false, saveAudio: true, foreign: "en", speechLang: "ko", models: {} },
+  v: {
+    geminiKey: "", noKeyMode: false, saveAudio: true, foreign: "en", speechLang: "ko",
+    pace: "normal",      // 자막 간격: fast | normal | slow
+    liveDraft: true,     // 녹음 중 AI 초안
+    models: {},          // { lite: [...], flash: [...], at } — 이 키로 쓸 수 있는 모델(연결 확인 때 받아 온다)
+    spent: {},           // { 모델: 한도를 다 쓴 날 }
+    usage: {},           // { day, stt, draft, sum } — 오늘 보낸 횟수
+  },
   load() {
     try { Object.assign(this.v, JSON.parse(localStorage.getItem(this.KEY) || "{}")); } catch {}
-    if (!this.v.models || typeof this.v.models !== "object") this.v.models = {};
+    const obj = (x) => x && typeof x === "object" && !Array.isArray(x);
+    if (!obj(this.v.models) || !Array.isArray(this.v.models.lite) || !Array.isArray(this.v.models.flash)) this.v.models = {};
+    if (!obj(this.v.spent)) this.v.spent = {};
+    if (!obj(this.v.usage)) this.v.usage = {};
+    const today = quotaDay();
+    for (const m of Object.keys(this.v.spent)) if (this.v.spent[m] !== today) delete this.v.spent[m];
+    if (!PACE[this.v.pace]) this.v.pace = "normal";
     if (!FOREIGN.includes(this.v.foreign) && this.v.foreign !== "off") this.v.foreign = "en";
     if (!LANGS[this.v.speechLang]) this.v.speechLang = "ko";
   },
@@ -567,11 +611,32 @@ const AudioDB = {
       t.onerror = () => reject(t.error);
     });
   },
+  /* 키 모양
+       <회의>:<n>            n번째 녹음 파일(완성본)
+       <회의>:<n>~<순번>     녹음 중 15초마다 쌓는 조각 — 탭이 죽어도 여기까지는 남는다
+       <회의>:f~<시작ms>~<길이ms>  받아쓰지 못한 음성 조각 — 한도가 풀린 뒤 다시 보낸다 */
+  range: (prefix) => IDBKeyRange.bound(prefix, prefix + "￿"),
   put(id, part, blob) { return this.tx("readwrite", (s) => s.put(blob, `${id}:${part}`)); },
   get(id, part) { return this.tx("readonly", (s) => s.get(`${id}:${part}`)); },
-  async removeAll(id, parts) {
-    const n = Math.max(parts || 0, 1);
-    await this.tx("readwrite", (s) => { for (let i = 0; i < n; i++) s.delete(`${id}:${i}`); });
+  getKey(key) { return this.tx("readonly", (s) => s.get(key)); },
+  delKey(key) { return this.tx("readwrite", (s) => s.delete(key)); },
+  removeAll(id) { return this.tx("readwrite", (s) => s.delete(this.range(`${id}:`))); },
+
+  putPiece(id, part, seq, blob) { return this.tx("readwrite", (s) => s.put(blob, `${id}:${part}~${String(seq).padStart(6, "0")}`)); },
+  pieces(id, part) { return this.tx("readonly", (s) => s.getAll(this.range(`${id}:${part}~`))); },
+  dropPieces(id, part) { return this.tx("readwrite", (s) => s.delete(this.range(`${id}:${part}~`))); },
+
+  async putFail(id, chunk) {
+    const key = `${id}:f~${String(Math.round(chunk.startMs)).padStart(9, "0")}~${Math.round(chunk.durMs)}`;
+    await this.tx("readwrite", (s) => s.put(chunk.blob, key));
+    return key;
+  },
+  async fails(id) {
+    const keys = await this.tx("readonly", (s) => s.getAllKeys(this.range(`${id}:f~`)));
+    return (keys || []).map((key) => {
+      const [, start, dur] = String(key).split("~");
+      return { key, startMs: Number(start) || 0, durMs: Number(dur) || 0 };
+    });
   },
 };
 
@@ -580,8 +645,12 @@ const AudioDB = {
    ─────────────────────────────────────────────────────────────────
    브라우저에서 Gemini REST API를 바로 부른다(서버 없음). 키는 헤더로만 보낸다.
 
-   모델은 별칭(…-latest)을 먼저 쓰고, 없으면 다음 후보로 넘어간다.
-   쓸 수 있었던 모델은 기억해 두고 다음부터 그걸 먼저 쓴다.
+   무료 한도에 맞춘 설계 — 한도는 "모델마다 따로, 하루 요청 횟수"로 걸린다.
+   Flash-Lite 계열은 하루 수백 회, Flash 계열은 하루 수십 회 수준이다(수시로 바뀐다).
+     · 받아쓰기·녹음 중 초안  → Flash-Lite 계열만 쓴다 (자주 부르니까)
+     · 종료 후 회의록         → Flash 먼저, 한도가 없으면 Flash-Lite
+     · 어떤 모델이 하루 한도를 다 쓰면 그날은 건너뛰고 다음 모델로 넘어간다
+     · 키 확인은 모델 목록 조회로 한다 — 생성 한도를 쓰지 않고, 모델 이름도 여기서 받아 온다
    (Gemini 3.5부터 thinkingBudget을 보내면 오류라서 사고 설정은 보내지 않는다)
    ═════════════════════════════════════════════════════════════════ */
 
@@ -629,23 +698,84 @@ const MINUTES_SCHEMA = {
   required: ["title", "overview", "background", "discussion", "decisions", "actions", "plans", "issues", "keywords"],
 };
 
+const DAILY_MSG = "오늘 Gemini 무료 사용량을 다 썼습니다. 녹음은 계속되고, 못 받아쓴 구간은 저장해 두었다가 한도가 풀린 뒤(한국 시간 오후 4~5시) ‘못 받아쓴 구간 다시’로 받아쓸 수 있습니다.";
+
 const Gemini = {
-  BASE: "https://generativelanguage.googleapis.com/v1beta/models/",
-  MODELS: {
-    // 받아쓰기는 자주 부르므로 하루 무료 한도가 넉넉한 Lite를 먼저
-    stt: ["gemini-flash-lite-latest", "gemini-flash-latest", "gemini-3.8-flash", "gemini-2.5-flash"],
-    sum: ["gemini-flash-latest", "gemini-3.8-flash", "gemini-2.5-flash"],
+  BASE: "https://generativelanguage.googleapis.com/v1beta/models",
+  // 모델 목록을 받아 오지 못했을 때만 쓰는 기본값
+  DEFAULTS: {
+    lite: ["gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-2.5-flash-lite"],
+    flash: ["gemini-flash-latest", "gemini-3.8-flash", "gemini-2.5-flash"],
+  },
+  missing: new Set(),   // 이번에 404가 난 모델
+  last: {},             // { stt, draft, sum } 마지막으로 성공한 모델(설정 화면 표시용)
+
+  /** 용도별 후보 모델(앞이 우선). stt·draft는 Lite만 — Flash의 적은 하루 한도는 회의록 몫으로 남긴다. */
+  candidates(kind) {
+    const m = Settings.v.models;
+    const lite = m.lite?.length ? m.lite : this.DEFAULTS.lite;
+    const flash = m.flash?.length ? m.flash : this.DEFAULTS.flash;
+    return (kind === "sum" ? [...flash, ...lite] : lite).filter((x) => !this.missing.has(x));
+  },
+  spentToday(model) { return Settings.v.spent[model] === quotaDay(); },
+  allSpent(kind) { const c = this.candidates(kind); return c.length > 0 && c.every((m) => this.spentToday(m)); },
+  forgetSpent() { Settings.v.spent = {}; Settings.save(); },
+
+  count(kind) {
+    const u = Settings.v.usage, day = quotaDay();
+    if (u.day !== day) Settings.v.usage = { day };
+    Settings.v.usage[kind] = (Settings.v.usage[kind] || 0) + 1;
+    Settings.save();
+  },
+
+  /** 이 키로 쓸 수 있는 모델을 받아 온다. 키가 맞는지 확인하는 용도도 겸한다(생성 한도를 쓰지 않는다). */
+  async discover() {
+    if (!Settings.hasKey()) throw new GeminiError("key", "Gemini 키가 없습니다. 설정에서 키를 넣어 주세요.");
+    let res;
+    try {
+      res = await withTimeout(fetch(`${this.BASE}?pageSize=1000`, { headers: { "x-goog-api-key": Settings.v.geminiKey } }), 20000);
+    } catch {
+      throw new GeminiError("network", "네트워크에 연결할 수 없습니다.");
+    }
+    if (!res.ok) throw await this.toError(res);
+    let j = null;
+    try { j = await res.json(); } catch {}
+    const names = (j?.models || [])
+      .filter((m) => (m.supportedGenerationMethods || []).includes("generateContent"))
+      .map((m) => String(m.name || "").replace(/^models\//, ""))
+      .filter((n) => !/tts|image|audio|live|native|exp|embedding|robotics|computer/i.test(n));
+    // 별칭(-latest) → 정식 버전(새 것부터) → 날짜 붙은 것 → 미리보기 순
+    const rank = (family) => {
+      const alias = `gemini-${family}-latest`;
+      const re = new RegExp(`^gemini-(\\d+(?:\\.\\d+)?)-${family}(-\\d{3}|-preview[\\w-]*)?$`);
+      return names
+        .map((n) => {
+          if (n === alias) return { n, tier: 0, ver: 0 };
+          const m = re.exec(n);
+          return m ? { n, tier: !m[2] ? 1 : /^-\d/.test(m[2]) ? 2 : 3, ver: parseFloat(m[1]) } : null;
+        })
+        .filter(Boolean)
+        .sort((a, b) => a.tier - b.tier || b.ver - a.ver)
+        .slice(0, 6)
+        .map((x) => x.n);
+    };
+    const lite = rank("flash-lite"), flash = rank("flash");
+    if (lite.length || flash.length) {
+      Settings.v.models = { lite, flash, at: Date.now() };
+      this.missing.clear();
+      Settings.save();
+    }
+    return Settings.v.models;
   },
 
   async generate(kind, body, timeoutMs = 90000) {
     if (!Settings.hasKey()) throw new GeminiError("key", "Gemini 키가 없습니다. 설정에서 키를 넣어 주세요.");
-    const known = Settings.v.models[kind];
-    const list = known ? [known, ...this.MODELS[kind].filter((m) => m !== known)] : this.MODELS[kind];
-    let lastErr = null;
-    for (const model of list) {
+    const open = this.candidates(kind).filter((m) => !this.spentToday(m));
+    let sawDaily = open.length === 0, lastErr = null;
+    for (const model of open) {
       let res;
       try {
-        res = await withTimeout(fetch(`${this.BASE}${model}:generateContent`, {
+        res = await withTimeout(fetch(`${this.BASE}/${model}:generateContent`, {
           method: "POST",
           headers: { "content-type": "application/json", "x-goog-api-key": Settings.v.geminiKey },
           body: JSON.stringify(body),
@@ -655,7 +785,8 @@ const Gemini = {
       }
       if (res.ok) {
         const j = await res.json();
-        if (Settings.v.models[kind] !== model) { Settings.v.models[kind] = model; Settings.save(); }
+        this.last[kind] = model;
+        this.count(kind);
         const cand = j?.candidates?.[0];
         const text = (cand?.content?.parts || []).map((p) => p.text || "").join("");
         if (!text) {
@@ -665,26 +796,33 @@ const Gemini = {
         return text;
       }
       const err = await this.toError(res);
-      if (err.code === "model") { lastErr = err; continue; } // 다음 모델로
+      if (err.code === "model") { this.missing.add(model); lastErr = err; continue; }                              // 없는 모델 → 다음
+      if (err.code === "daily") { Settings.v.spent[model] = quotaDay(); Settings.save(); sawDaily = true; continue; } // 오늘 몫 소진 → 다음
       throw err;
     }
-    throw lastErr || new GeminiError("model", "쓸 수 있는 Gemini 모델을 찾지 못했습니다.");
+    if (sawDaily) throw new GeminiError("daily", DAILY_MSG);
+    throw new GeminiError("model", `쓸 수 있는 Gemini 모델을 찾지 못했습니다. 설정에서 ‘저장 후 연결 확인’을 다시 눌러 주세요. ${lastErr?.message || ""}`.trim());
   },
 
   async toError(res) {
-    let msg = "", retryMs = 0;
+    let msg = "", raw = "", retryMs = 0;
     try {
       const j = await res.json();
       msg = j?.error?.message || "";
-      const delay = (j?.error?.details || []).find((d) => d?.retryDelay)?.retryDelay; // "17s"
+      raw = JSON.stringify(j?.error || {});
+      const delay = (j?.error?.details || []).find((d) => d?.retryDelay)?.retryDelay // "17s"
+        || /retry in ([\d.]+)s/i.exec(msg)?.[1];
       if (delay) retryMs = Math.ceil(parseFloat(delay) * 1000);
     } catch {}
     if (res.status === 404 || /is not found|not supported for generateContent|unknown model/i.test(msg)) return new GeminiError("model", msg);
     if (res.status === 401 || (res.status === 400 && /api key|API_KEY/i.test(msg))) return new GeminiError("key", "Gemini 키가 올바르지 않습니다. 설정에서 키를 다시 넣어 주세요.");
     if (res.status === 403) return new GeminiError("key", "이 키로는 Gemini를 쓸 수 없습니다(권한 또는 지역 제한). 키를 확인해 주세요.");
     if (res.status === 429) {
-      const daily = /per ?day|PerDay|daily/i.test(msg);
-      return new GeminiError(daily ? "daily" : "rate", daily ? "오늘 Gemini 무료 사용량을 다 썼습니다. 내일 다시 쓰거나, 녹음 파일은 남아 있으니 나중에 ‘못 받아쓴 구간 다시’를 누르세요." : "요청이 많아 잠깐 기다렸다가 이어서 받아씁니다.", retryMs || 15000);
+      // 하루 한도는 quotaId에 PerDay가 들어 있다. "limit: 0"은 이 모델이 무료로 열려 있지 않다는 뜻 — 둘 다 기다려도 소용없다.
+      const daily = /PerDay|per day|daily/i.test(raw) || /limit: 0(?![\d.])/.test(raw);
+      return daily
+        ? new GeminiError("daily", DAILY_MSG)
+        : new GeminiError("rate", "요청이 많아 잠깐 기다렸다가 이어서 받아씁니다.", Math.min(retryMs || 15000, 65000));
     }
     if (res.status >= 500) return new GeminiError("server", "Gemini 서버가 잠시 응답하지 않습니다.", 5000);
     return new GeminiError("other", `Gemini 오류 (${res.status}) ${msg.slice(0, 160)}`);
@@ -713,19 +851,20 @@ const Gemini = {
       .filter((s) => s.text);
   },
 
-  /** 회의 전체 → 회의록. Gemini는 컨텍스트가 넉넉해서 녹취록을 한 번에 넣는다. */
-  async minutes(session) {
+  /** 회의 전체 → 회의록. Gemini는 컨텍스트가 넉넉해서 녹취록을 한 번에 넣는다.
+      draft: 녹음 중 초안 — 지금까지의 내용만으로, 한도가 넉넉한 Lite 모델로 만든다. */
+  async minutes(session, { draft = false } = {}) {
     const lines = session.segments.map((g) => {
       const ko = g.lang !== "ko" && g.trLang === "ko" && g.tr ? ` (한국어: ${g.tr})` : "";
       return `[${fmtClock(g.atMs)}] ${g.text}${ko}`;
     }).join("\n");
-    const text = await this.generate("sum", {
+    const text = await this.generate(draft ? "draft" : "sum", {
       systemInstruction: { parts: [{ text: `너는 꼼꼼한 회의 서기다. 회의 녹취록을 회의록으로 정리한다.
 녹취록은 자동 받아쓰기라 오탈자가 있고 화자 구분이 없다. 명백한 오인식만 조용히 고치고, 녹취록에 없는 내용은 절대 지어내지 않는다.
 녹취록이 외국어여도 모든 값은 한국어로 쓴다. 개조식으로 짧게 쓴다. 해당 내용이 없으면 빈 배열이나 빈 문자열로 둔다.` }] },
       contents: [{
         role: "user",
-        parts: [{ text: `회의 녹취록 ([분:초] 표시):
+        parts: [{ text: `${draft ? "회의가 아직 진행 중이다. 지금까지의 녹취록만으로 정리한다.\n" : ""}회의 녹취록 ([분:초] 표시):
 <녹취록>
 ${lines}
 </녹취록>
@@ -748,12 +887,8 @@ ${lines}
     const m = normalizeSummary(j);
     m._engine = "gemini";
     m._lang = "ko";
+    if (draft) m._draft = true;
     return m;
-  },
-
-  /** 키 확인용 짧은 요청 */
-  async ping() {
-    await this.generate("sum", { contents: [{ role: "user", parts: [{ text: "OK라고만 답해." }] }], generationConfig: { temperature: 0 } }, 30000);
   },
 };
 
@@ -777,8 +912,8 @@ function normalizeSummary(j) {
 /* ═════════════════════════════════════════════════════════════════
    마이크 — 녹음 파일 + 받아쓰기용 음성 조각을 한 스트림에서 같이 만든다
    ─────────────────────────────────────────────────────────────────
-   음성 조각은 16kHz 모노 WAV. 단어 중간에서 끊기지 않도록 7초가 지난 뒤
-   말이 0.35초 끊기는 곳에서 자르고, 길어도 14초에서는 자른다.
+   음성 조각은 16kHz 모노 WAV. 단어 중간에서 끊기지 않도록 최소 길이가 지난 뒤
+   말이 0.35초 끊기는 곳에서 자르고, 최대 길이에서는 그냥 자른다(길이는 PACE).
    조용한 조각(말소리가 거의 없는)은 보내지 않는다 — 무료 사용량 절약 +
    조용한 오디오에서 AI가 말을 지어내는 것 방지.
    ═════════════════════════════════════════════════════════════════ */
@@ -790,8 +925,6 @@ class Mic {
     this.paused = false;
   }
 
-  static MIN_MS = 7000;
-  static MAX_MS = 14000;
   static RATE = 16000;
 
   async start(baseMs) {
@@ -805,6 +938,7 @@ class Mic {
     src.connect(this.analyser);
 
     if (this.chunking) {
+      [this.minMs, this.maxMs] = (PACE[Settings.v.pace] || PACE.normal).range;
       this.clockMs = baseMs || 0;   // 녹음 기준 시각(일시정지 제외)
       this.resetChunk();
       this.floor = null;
@@ -824,6 +958,7 @@ class Mic {
       try {
         this.mr = new MediaRecorder(this.stream, { ...(type ? { mimeType: type } : {}), audioBitsPerSecond: 32000 });
         this.parts = [];
+        this.savedParts = 0;
         this.mr.ondataavailable = (e) => e.data.size && this.parts.push(e.data);
         this.mr.start(1000);
       } catch { this.mr = null; }
@@ -866,7 +1001,7 @@ class Mic {
     if (!silent) this.voicedMs += blockMs;
     this.silentRun = silent ? this.silentRun + blockMs : 0;
 
-    if ((this.chunkMs >= Mic.MIN_MS && this.silentRun >= 350) || this.chunkMs >= Mic.MAX_MS) this.emit();
+    if ((this.chunkMs >= this.minMs && this.silentRun >= 350) || this.chunkMs >= this.maxMs) this.emit();
   }
 
   /** 지금까지 모인 조각을 내보낸다. 말소리가 거의 없으면 버린다. */
@@ -877,6 +1012,14 @@ class Mic {
     this.resetChunk();
     if (voiced < 500) return;
     this.onChunk?.({ blob: encodeWav(blocks, Mic.RATE), startMs: start, durMs: dur });
+  }
+
+  /** 지난번 호출 뒤로 쌓인 녹음 조각(없으면 null). 녹음 중간중간 디스크에 내려 적는 데 쓴다. */
+  takeNewParts() {
+    if (!this.mr || !this.parts || this.parts.length <= this.savedParts) return null;
+    const blob = new Blob(this.parts.slice(this.savedParts), { type: this.mr.mimeType || "audio/webm" });
+    this.savedParts = this.parts.length;
+    return blob;
   }
 
   level() {
@@ -1030,7 +1173,7 @@ function newSession() {
   };
 }
 function autoTitle(s) {
-  return s.ai?.title || s.rule?.title || `${fmtDate(s.createdAt).slice(0, 10)} 회의`;
+  return s.ai?.title || s.draft?.title || s.rule?.title || `${fmtDate(s.createdAt).slice(0, 10)} 회의`;
 }
 function autoTitleOrUser() { return App.session.title || autoTitle(App.session); }
 
@@ -1047,8 +1190,9 @@ const App = {
   wakeLock: null,
   sttQueue: Promise.resolve(),
   pendingChunks: 0,
-  failedChunks: [],       // 받아쓰기에 실패한 음성 조각 — 이 페이지를 닫기 전까지 다시 시도할 수 있다
-  sttBlockedUntil: 0,
+  failedChunks: [],       // 받아쓰지 못한 음성 조각 { key, startMs, durMs } — 음성은 IndexedDB에 있어 나중에도 다시 보낼 수 있다
+  draft: { running: false, lastAt: 0, lastCount: 0, off: false },
+  recSeq: 0,
   aiState: { running: false, error: "" },
   dirty: false,
 
@@ -1060,10 +1204,16 @@ const App = {
     const last = Store.list()[0];
     this.load(last ? Store.get(last.id) : null);
     setInterval(() => this.tick(), 250);
-    setInterval(() => this.refreshRule(), 1500);
+    setInterval(() => { this.refreshRule(); this.maybeDraft(); }, 1500);
+    setInterval(() => this.saveRecPiece(), App.REC_SAVE_MS);
     window.addEventListener("beforeunload", (e) => {
       if (this.state !== "idle" || this.pendingChunks > 0) { e.preventDefault(); e.returnValue = ""; }
     });
+    // 탭이 뒤로 가거나 닫히기 직전에 한 번 더 내려 적는다(아이폰은 뒤로 간 탭을 예고 없이 정리한다)
+    document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") this.saveRecPiece(); });
+    window.addEventListener("pagehide", () => this.saveRecPiece());
+    // 모델 목록은 가끔 새로 받아 온다(새 모델·이름 변경 대응). 실패해도 기존 목록으로 계속 쓴다.
+    if (Settings.hasKey() && Date.now() - (Settings.v.models.at || 0) > 7 * 86400000) Gemini.discover().catch(() => {});
     document.addEventListener("visibilitychange", () => {
       if (document.visibilityState === "visible" && this.state === "recording") this.lockScreen();
     });
@@ -1077,14 +1227,57 @@ const App = {
     this.view = s.ai ? "ai" : "rule";
     this.aiState = { running: false, error: "" };
     this.failedChunks = [];
+    this.interim = "";
     if (!s.rule && s.segments.length) s.rule = ruleSummary(s);
     UI.renderAll();
+    if (session) this.restore(s);
+  },
+
+  /** 지난번에 남은 것들을 되살린다: ① 도중에 끊긴 녹음 ② 받아쓰지 못한 구간 */
+  async restore(s) {
+    try {
+      const part = s.audioParts || 0;
+      const pieces = await AudioDB.pieces(s.id, part);
+      if (pieces?.length && this.state === "idle") {
+        await AudioDB.put(s.id, part, new Blob(pieces, { type: pieces[0].type || "audio/webm" }));
+        await AudioDB.dropPieces(s.id, part);
+        s.audioParts = part + 1;
+        Store.save(s);
+        if (this.session === s) {
+          UI.banner("지난번 녹음이 도중에 끊겼습니다. 끊기기 직전까지의 녹음 파일과 자막을 살려 두었습니다.", "warn", "restore");
+          UI.renderAudio();
+        }
+      }
+    } catch {}
+    try {
+      const fails = await AudioDB.fails(s.id);
+      if (fails.length && this.session === s && !this.failedChunks.length) {
+        this.failedChunks = fails;
+        UI.renderChips();
+        UI.renderFoot();
+      }
+    } catch {}
+  },
+
+  /** 녹음을 15초마다 디스크에 내려 적는다 — 탭이 죽거나 새로고침돼도 거기까지는 남는다. */
+  REC_SAVE_MS: 15000,
+  saveRecPiece() {
+    if (this.state !== "recording" && this.state !== "paused") return;
+    const blob = this.mic?.takeNewParts();
+    if (!blob) return;
+    const s = this.session;
+    AudioDB.putPiece(s.id, s.audioParts || 0, this.recSeq++, blob).catch(() => {});
   },
 
   tick() {
     if (this.state === "recording" || this.state === "paused") {
       UI.renderClock();
       UI.renderMeter(this.state === "recording" ? this.mic?.level() || 0 : 0);
+    }
+    // Gemini 방식은 자막이 조각 단위로 늦게 붙으므로, 그 사이 "듣는 중"을 맨 아래 줄에 보여 준다
+    if (this.mode === "gemini") {
+      const msg = this.pendingChunks > 0 ? "받아쓰는 중…" : this.state === "recording" ? "듣는 중…" : "";
+      if (msg !== this.interim) { this.interim = msg; UI.renderInterim(); }
     }
   },
 
@@ -1128,7 +1321,7 @@ const App = {
 
     if (this.mode === "browser") {
       this.listener = new Listener({
-        onFinal: (text, lang) => this.addSegments([{ text, lang, translation: "" }], this.elapsed()),
+        onFinal: (text, lang) => this.addSegments(s, [{ text, lang, translation: "" }], this.elapsed()),
         onInterim: (t) => { this.interim = t; UI.renderInterim(); },
         onError: (msg, fatal) => { UI.banner(msg, fatal ? "error" : "warn", "sr"); if (fatal) this.finish(); },
       });
@@ -1136,6 +1329,9 @@ const App = {
     }
     this.state = "recording";
     this.segStart = Date.now();
+    this.recSeq = 0;
+    this.draft = { running: false, lastAt: this.accMs, lastCount: s.draft?._lines || 0, off: false };
+    Store.save(s); // 자막이 붙기 전이라도 회의를 남겨 둔다 — 도중에 끊겨도 녹음을 되살릴 수 있게
     this.lockScreen();
     UI.renderAll();
   },
@@ -1164,15 +1360,20 @@ const App = {
     this.state = "finishing";
     this.listener?.stop();
     UI.renderAll();
-    if (this.mode === "browser") { await sleep(1200); this.listener?.abort(); this.interim = ""; }
+    if (this.mode === "browser") { await sleep(1200); this.listener?.abort(); }
+    this.interim = "";
 
     const blob = await this.mic?.stop(); // 남은 음성 조각도 여기서 보내진다
     this.mic = null;
     this.releaseScreen();
     const s = this.session;
     if (blob) {
-      try { await AudioDB.put(s.id, s.audioParts || 0, blob); s.audioParts = (s.audioParts || 0) + 1; }
-      catch { UI.banner("녹음 파일을 저장하지 못했습니다(저장 공간 부족일 수 있음).", "warn", "audio"); }
+      const part = s.audioParts || 0;
+      try {
+        await AudioDB.put(s.id, part, blob);
+        s.audioParts = part + 1;
+        AudioDB.dropPieces(s.id, part).catch(() => {}); // 완성본이 생겼으니 중간 조각은 지운다
+      } catch { UI.banner("녹음 파일을 저장하지 못했습니다(저장 공간 부족일 수 있음).", "warn", "audio"); }
     }
     s.durationMs = this.accMs;
     this.persist();
@@ -1188,9 +1389,7 @@ const App = {
     UI.renderAll();
 
     if (!s.segments.length) {
-      UI.banner(this.failedChunks.length
-        ? "받아쓰기를 하지 못했습니다. 아래 ‘못 받아쓴 구간 다시’를 눌러 주세요."
-        : "인식된 말이 없습니다. 마이크가 켜져 있는지 확인해 주세요.", "warn", "empty");
+      if (!this.failedChunks.length) UI.banner("인식된 말이 없습니다. 마이크가 켜져 있는지 확인해 주세요.", "warn", "empty");
       return;
     }
     UI.setTab("summary");
@@ -1200,18 +1399,22 @@ const App = {
   /* ───────── 받아쓰기 (Gemini) ───────── */
 
   enqueueChunk(chunk) {
+    chunk.session = chunk.session || this.session; // 받아쓰는 사이 다른 회의를 열어도 제자리에 붙도록
     this.pendingChunks++;
     UI.renderChips();
     this.sttQueue = this.sttQueue.then(() => this.processChunk(chunk)).catch(() => {});
   },
 
   async processChunk(chunk, attempt = 0) {
+    const s = chunk.session;
     try {
-      // 하루 사용량을 다 쓴 뒤에는 보내지 않고 모아 둔다
-      if (Date.now() < this.sttBlockedUntil) { this.failedChunks.push(chunk); return; }
-      const b64 = await blobToBase64(chunk.blob);
-      const segs = await Gemini.transcribe(b64, this.session.targetLang || "off");
-      this.addSegments(segs, chunk.startMs);
+      // 오늘 한도를 다 쓴 뒤에는 보내지 않고 바로 보관한다
+      if (Gemini.allSpent("stt")) throw new GeminiError("daily", DAILY_MSG);
+      const blob = chunk.blob || await AudioDB.getKey(chunk.key);
+      if (!blob) return; // 보관해 둔 음성이 사라졌다(회의 삭제 등)
+      const segs = await Gemini.transcribe(await blobToBase64(blob), s.targetLang || "off");
+      if (chunk.key) AudioDB.delKey(chunk.key).catch(() => {});
+      this.addSegments(s, segs, chunk.startMs, chunk.durMs);
       UI.clearBanner("stt");
     } catch (e) {
       const code = e?.code;
@@ -1220,8 +1423,7 @@ const App = {
         await sleep(e.retryMs || 4000 * (attempt + 1));
         return await this.processChunk(chunk, attempt + 1); // await: 재시도가 끝난 뒤에야 finally가 돌도록
       }
-      this.failedChunks.push(chunk);
-      if (code === "daily") this.sttBlockedUntil = Date.now() + 60 * 60 * 1000;
+      await this.shelve(chunk);
       UI.banner(e?.message || "받아쓰기에 실패했습니다.", code === "key" ? "error" : "warn", "stt");
     } finally {
       if (attempt === 0) {
@@ -1232,31 +1434,84 @@ const App = {
     }
   },
 
-  /** 실패한 음성 조각을 다시 받아쓴다. 시간 순서대로 끼워 넣는다. */
+  /** 받아쓰지 못한 조각을 보관한다. 음성은 IndexedDB로 내려서 메모리를 비우고, 새로고침 뒤에도 남게 한다. */
+  async shelve(chunk) {
+    const s = chunk.session;
+    const item = { key: chunk.key, startMs: chunk.startMs, durMs: chunk.durMs };
+    if (!item.key) {
+      try { item.key = await AudioDB.putFail(s.id, chunk); }
+      catch { item.blob = chunk.blob; } // 디스크에 못 적으면 이 페이지가 열려 있는 동안만 들고 있는다
+    }
+    if (s === this.session) this.failedChunks.push(item);
+  },
+
+  /** 못 받아쓴 구간을 다시 보낸다. 시간 순서대로 제자리에 끼워 넣는다. */
   retryFailed() {
     const list = this.failedChunks.splice(0);
-    this.sttBlockedUntil = 0;
+    Gemini.forgetSpent(); // 사용자가 직접 눌렀으니 한도가 풀렸는지 실제로 확인해 본다
     list.sort((a, b) => a.startMs - b.startMs).forEach((c) => this.enqueueChunk(c));
     UI.renderFoot();
   },
 
-  addSegments(segs, startMs) {
+  /** 받아쓴 문장들을 회의에 넣는다. 한 조각 안의 문장은 글자 수 비율로 시각을 나눠 준다. */
+  addSegments(s, segs, startMs, durMs = 0) {
     if (!segs.length) return;
-    const s = this.session;
+    const shown = s === this.session;
+    const total = segs.reduce((n, g) => n + g.text.length, 0) || 1;
+    let before = 0;
     segs.forEach((g, i) => {
       const seg = {
-        id: uid(), atMs: startMs + i * 10, text: g.text, lang: g.lang,
+        id: uid(), atMs: Math.round(startMs + (durMs ? (durMs * before) / total : i * 10)), text: g.text, lang: g.lang,
         tr: g.translation || "", trLang: g.translation ? (g.lang === "ko" ? s.targetLang : "ko") : "", trStatus: g.translation ? "done" : "",
       };
+      before += g.text.length;
       // 다시 받아쓴 구간이 앞 시간대일 수 있으니 시간 순서를 지킨다
       let at = s.segments.length;
       while (at > 0 && s.segments[at - 1].atMs > seg.atMs) at--;
       s.segments.splice(at, 0, seg);
+      if (!shown) return;
       if (at === s.segments.length - 1) UI.appendSegment(seg);
       else UI.renderTranscript();
     });
-    this.dirty = true;
-    this.persist();
+    if (shown) { this.dirty = true; this.persist(); }
+    else { s.rule = ruleSummary(s); Store.save(s); }
+  },
+
+  /* ───────── 녹음 중 AI 초안 ─────────
+     규칙 기반 정리는 말한 문장을 그대로 고른 것이라 거칠다. 녹음 중에도 몇 분마다
+     Gemini(Lite)에게 지금까지의 내용을 정리시켜 ‘실시간’ 탭에 보여 준다. */
+  DRAFT_FIRST_MS: 60000,
+  DRAFT_EVERY_MS: 150000,
+  DRAFT_MIN_LINES: 4,
+
+  maybeDraft() {
+    const s = this.session, d = this.draft;
+    if (this.state !== "recording" || this.mode !== "gemini" || !Settings.v.liveDraft || d.running || d.off) return;
+    if (s.segments.length - d.lastCount < this.DRAFT_MIN_LINES) return;
+    if (this.elapsed() - d.lastAt < (s.draft ? this.DRAFT_EVERY_MS : this.DRAFT_FIRST_MS)) return;
+    this.runDraft();
+  },
+
+  async runDraft() {
+    const s = this.session, d = this.draft;
+    d.running = true;
+    d.lastAt = this.elapsed();
+    const lines = s.segments.length;
+    try {
+      const m = await Gemini.minutes(s, { draft: true });
+      m._lines = lines;
+      m._upToMs = s.segments[lines - 1]?.atMs || 0;
+      s.draft = m;
+      d.lastCount = lines;
+      if (s !== this.session) { Store.save(s); return; }
+      this.persist();
+      if (this.view === "rule") UI.renderSummary();
+    } catch (e) {
+      // 한도를 다 썼거나 키 문제면 초안은 그만둔다 — 남은 몫은 받아쓰기에 쓴다. 그 밖의 오류는 다음 차례에 다시.
+      if (e?.code === "daily" || e?.code === "key") d.off = true;
+    } finally {
+      d.running = false;
+    }
   },
 
   setForeign(code) {
@@ -1284,7 +1539,7 @@ const App = {
       s.aiAt = Date.now();
       this.persist();
     } catch (e) {
-      this.aiState.error = e?.message || "회의록을 만들지 못했습니다.";
+      this.aiState.error = (e?.message || "회의록을 만들지 못했습니다.") + (s.draft ? " ‘실시간’ 탭에 녹음 중에 만든 초안이 있습니다." : "");
     }
     this.aiState.running = false;
     UI.renderAll();
@@ -1369,13 +1624,17 @@ const UI = {
       Settings.save();
       if (statusEl) statusEl.textContent = "연결 확인 중…";
       try {
-        await Gemini.ping();
+        Settings.v.models = {};
+        Settings.v.spent = {};
+        await Gemini.discover();
         if (statusEl) statusEl.textContent = "✅ 연결되었습니다.";
         toast("Gemini에 연결되었습니다");
         return true;
       } catch (e) {
         if (e?.code === "key") { Settings.v.geminiKey = ""; Settings.save(); }
-        const msg = e?.message || "연결하지 못했습니다.";
+        const msg = e?.code === "network"
+          ? "지금은 Gemini에 연결하지 못했습니다. 키는 저장해 두었으니 인터넷 연결을 확인한 뒤 녹음해 보세요."
+          : e?.message || "연결하지 못했습니다.";
         if (statusEl) statusEl.textContent = `❌ ${msg}`;
         else UI.banner(msg, "error", "key");
         return false;
@@ -1388,11 +1647,13 @@ const UI = {
     $("#btnNoKey").addEventListener("click", () => { Settings.v.noKeyMode = true; Settings.save(); this.showSetup(false); this.renderAll(); });
     $("#btnSetKey").addEventListener("click", () => saveKey($("#setKey"), $("#keyStatus")));
     $("#btnClearKey").addEventListener("click", () => {
-      Settings.v.geminiKey = ""; Settings.v.models = {}; Settings.save();
+      Settings.v.geminiKey = ""; Settings.v.models = {}; Settings.v.spent = {}; Settings.save();
       $("#setKey").value = ""; $("#keyStatus").textContent = "키를 지웠습니다.";
       this.renderAll();
     });
     $("#setSaveAudio").addEventListener("change", (e) => { Settings.v.saveAudio = e.target.checked; Settings.save(); });
+    $("#setLiveDraft").addEventListener("change", (e) => { Settings.v.liveDraft = e.target.checked; Settings.save(); });
+    $("#setPace").addEventListener("change", (e) => { Settings.v.pace = e.target.value; Settings.save(); this.renderAll(); });
 
     document.querySelectorAll(".seg-toggle button").forEach((b) => b.addEventListener("click", () => { App.view = b.dataset.view; this.renderSummary(); this.renderFoot(); }));
     document.querySelectorAll(".tabs-mobile [data-tab]").forEach((b) => b.addEventListener("click", () => this.setTab(b.dataset.tab)));
@@ -1416,7 +1677,12 @@ const UI = {
 
   currentSummary() {
     const s = App.session;
-    return App.view === "ai" && s.ai ? s.ai : s.rule || EMPTY_SUMMARY();
+    return App.view === "ai" && s.ai ? s.ai : this.liveSummary(s) || EMPTY_SUMMARY();
+  },
+
+  /** ‘실시간’ 탭에 보일 정리 — Gemini 초안이 있으면 그것, 없으면 규칙 기반 */
+  liveSummary(s) {
+    return s.draft && !isEmptySummary(s.draft) ? s.draft : s.rule;
   },
 
   renderAll() {
@@ -1463,8 +1729,9 @@ const UI = {
       const f = Settings.v.foreign;
       chips.push(["ok", f === "off" ? "Gemini · 받아쓰기·회의록" : `Gemini · 받아쓰기 · 한국어↔${LANGS[f].label} 번역 · 회의록`]);
       if (App.pendingChunks > 0) chips.push(["busy", `받아쓰는 중 ${App.pendingChunks}구간`]);
-      else if (App.state === "recording") chips.push(["busy", "말이 끊기는 곳마다 약 10초 단위로 자막이 붙습니다"]);
-      if (App.failedChunks.length) chips.push(["warn", `못 받아쓴 구간 ${App.failedChunks.length}개`]);
+      else if (App.state === "recording") chips.push(["busy", `약 ${PACE[Settings.v.pace].about}초마다 자막이 붙습니다`]);
+      if (Gemini.allSpent("stt")) chips.push(["warn", "오늘 무료 받아쓰기 한도 소진 — 녹음은 계속 저장됩니다"]);
+      if (App.failedChunks.length) chips.push(["warn", `못 받아쓴 구간 ${App.failedChunks.length}개 (보관 중)`]);
     } else {
       chips.push(["warn", "Gemini 키 없음 — 녹음과 자막만 (번역·AI 회의록은 설정에서 키를 넣으면 됩니다)"]);
     }
@@ -1495,12 +1762,12 @@ const UI = {
   renderTranscript() {
     const box = $("#transcript");
     const segs = App.session.segments;
-    if (!segs.length && !App.interim) {
+    if (!segs.length && (!App.interim || App.mode === "gemini")) {
       const recording = App.state === "recording";
       box.replaceChildren(h("div", { class: "empty" },
         h("strong", null, recording ? "듣고 있습니다…" : "녹음을 시작하면 여기에 자막이 나타납니다"),
         recording
-          ? (App.mode === "gemini" ? "말이 끊기는 곳마다 약 10초 단위로 자막과 번역이 붙습니다." : "말을 시작해 보세요.")
+          ? (App.mode === "gemini" ? `약 ${PACE[Settings.v.pace].about}초마다, 말이 끊기는 곳에서 자막과 번역이 붙습니다.` : "말을 시작해 보세요.")
           : "한국어와 상대 언어를 섞어 말해도 알아서 구분해 서로 번역합니다.",
         App.state === "idle" ? h("div", null, h("button", { class: "btn small", type: "button", onclick: () => App.loadDemo() }, "샘플 회의로 먼저 보기")) : null));
     } else {
@@ -1524,7 +1791,8 @@ const UI = {
   renderInterim() {
     const box = $("#transcript");
     let node = box.querySelector(".line.interim");
-    if (!App.interim) { node?.remove(); return; }
+    // Gemini 방식의 "듣는 중…" 줄은 첫 자막이 붙은 뒤부터 보인다(그 전에는 안내문이 있다)
+    if (!App.interim || (App.mode === "gemini" && !App.session.segments.length)) { node?.remove(); return; }
     if (box.querySelector(".empty")) box.replaceChildren();
     if (!node) {
       node = h("div", { class: "line interim" }, h("div", { class: "line-time" }, "···"), h("div", { class: "line-text" }));
@@ -1560,15 +1828,19 @@ const UI = {
       return;
     }
 
-    const sum = s.rule;
+    const sum = this.liveSummary(s);
     if (isEmptySummary(sum)) {
       box.replaceChildren(h("div", { class: "empty" },
         h("strong", null, "말을 시작하면 바로 정리됩니다"),
         "배경 · 주요 논의 · 결정 사항 · 향후 계획 · 미결 사항으로 나눠 녹음 중에 채워집니다. 녹음을 마치면 Gemini가 회의록을 다시 씁니다."));
       return;
     }
-    box.replaceChildren(...this.summaryNodes(sum), h("div", { class: "sum-note" },
-      "실시간 정리는 말한 문장을 규칙으로 골라 분류한 것이라 문장이 다듬어져 있지 않습니다. 녹음을 마치면 ‘AI 회의록’ 탭에 Gemini가 쓴 회의록이 생깁니다."));
+    const note = sum === s.draft
+      ? `Gemini가 ${fmtClock(sum._upToMs || 0)}까지의 내용을 정리한 초안입니다.${s.segments.length > (sum._lines || 0) ? ` 그 뒤 자막 ${s.segments.length - sum._lines}줄은 아직 반영되지 않았습니다.` : ""}${App.state === "recording" ? " 녹음 중에는 2~3분마다 새로 고쳐지고, 종료하면 전체를 다시 정리합니다." : ""}`
+      : Settings.hasKey() && Settings.v.liveDraft && App.state === "recording"
+        ? "지금은 말한 문장을 규칙으로 골라 분류한 것입니다. 1분쯤 지나면 Gemini가 정리한 초안으로 바뀌고, 그 뒤 2~3분마다 새로 고쳐집니다."
+        : "말한 문장을 규칙으로 골라 분류한 것이라 문장이 다듬어져 있지 않습니다. 녹음을 마치면 ‘AI 회의록’ 탭에 Gemini가 쓴 회의록이 생깁니다.";
+    box.replaceChildren(...this.summaryNodes(sum), h("div", { class: "sum-note" }, note));
   },
 
   summaryNodes(sum) {
@@ -1671,8 +1943,16 @@ const UI = {
     $("#setKey").value = Settings.v.geminiKey || "";
     $("#keyStatus").textContent = Settings.hasKey() ? "키가 저장되어 있습니다." : "키가 없습니다.";
     $("#setSaveAudio").checked = Settings.v.saveAudio;
-    const m = Settings.v.models;
-    $("#modelInfo").textContent = m.stt || m.sum ? `사용 중인 모델 — 받아쓰기: ${m.stt || "-"} · 회의록: ${m.sum || "-"}` : "";
+    $("#setLiveDraft").checked = Settings.v.liveDraft;
+    $("#setPace").replaceChildren(...Object.entries(PACE).map(([k, v]) => h("option", { value: k, selected: k === Settings.v.pace }, v.label)));
+    const u = Settings.v.usage.day === quotaDay() ? Settings.v.usage : {};
+    const spent = Object.keys(Settings.v.spent).filter((m) => Gemini.spentToday(m));
+    $("#usageInfo").textContent = Settings.hasKey()
+      ? `오늘 사용 — 받아쓰기 ${u.stt || 0}회 · 녹음 중 초안 ${u.draft || 0}회 · 회의록 ${u.sum || 0}회.${spent.length ? ` 오늘 한도를 다 쓴 모델: ${spent.join(", ")}.` : ""}`
+      : "";
+    $("#modelInfo").textContent = Settings.hasKey()
+      ? `모델 — 받아쓰기·초안: ${Gemini.last.stt || Gemini.candidates("stt")[0] || "-"} · 회의록: ${Gemini.last.sum || Gemini.candidates("sum")[0] || "-"}`
+      : "";
   },
 };
 
@@ -1684,7 +1964,7 @@ const Export = {
   summaryMarkdown(s, sum) {
     const L = [`# ${s.title || autoTitle(s)}`, ""];
     const langs = s.targetLang && s.targetLang !== "off" ? `한국어 ↔ ${LANGS[s.targetLang]?.label}` : "번역 없음";
-    L.push(`- 일시: ${fmtDate(s.createdAt)}`, `- 길이: ${fmtDuration(s.durationMs || 0)}`, `- 언어: ${langs}`, `- 정리: ${sum === s.ai ? "Gemini" : "규칙 기반(실시간)"}`, "");
+    L.push(`- 일시: ${fmtDate(s.createdAt)}`, `- 길이: ${fmtDuration(s.durationMs || 0)}`, `- 언어: ${langs}`, `- 정리: ${sum === s.ai ? "Gemini" : sum === s.draft ? "Gemini (녹음 중 초안)" : "규칙 기반(실시간)"}`, "");
     if (sum.overview) L.push("## 개요", sum.overview, "");
     if (sum.background.length) L.push("## 배경", ...sum.background.map((x) => `- ${x}`), "");
     if (sum.discussion.length) {

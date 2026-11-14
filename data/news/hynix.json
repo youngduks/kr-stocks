@@ -1,8 +1,36 @@
 {
   "category": "hynix",
-  "updated_at": "2026-11-14T05:16:39.681Z",
-  "count": 20,
+  "updated_at": "2026-11-14T12:38:57.804Z",
+  "count": 17,
   "items": [
+    {
+      "title": "젠슨 황 복귀 안 하면 집단 퇴사?…엔비디아 발칵 뒤집은 '가짜 서한'",
+      "link": "https://www.mt.co.kr/world/2026/11/14/2026111417451961022",
+      "source": "머니투데이",
+      "ts": 1794647595000,
+      "pub": "Sat, 14 Nov 2026 18:13:15 +0900",
+      "sentiment": "neutral",
+      "desc": "젠슨 황 전 엔비디아 최고경영자(CEO)의 복귀를 요구하며 집단 퇴사까지 예고한 엔비디아 임원들의 서한이 온라인에서 확산했지만 가짜 문서인 것으로 확인됐다. 14일 미국 정보기술(IT) 전문 매체 Wccftech 등에 따르면 엔비디아 응용 딥러닝 연구 부문 부사장인 브",
+      "image": "https://thumb.mt.co.kr/06/2026/11/2026111417451961022_1.jpg"
+    },
+    {
+      "title": "\"트럼프, AI 반도체 수출통제 풀며 엔비디아 주식 샀다\"",
+      "link": "https://www.yna.co.kr/view/AKR20261114040400009",
+      "source": "연합뉴스 국제",
+      "ts": 1794644961000,
+      "pub": "Sat, 14 Nov 2026 17:29:21 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 오수진 기자 = 도널드 트럼프 미국 대통령이 첨단 인공지능(AI) 반도체에 대한 수출통제를 완화하면서 직접 수혜를 보는 AI ...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/14/PRU20261114151201009_P2.jpg"
+    },
+    {
+      "title": "트럼프 방중 앞두고…美 \"엔비디아 문제 회담서 다루지 않을 듯\"",
+      "link": "https://www.hankyung.com/article/2026111464937",
+      "source": "한국경제",
+      "ts": 1794637083000,
+      "pub": "Sat, 14 Nov 2026 15:18:03 +0900",
+      "sentiment": "neutral"
+    },
     {
       "title": "\"젠슨 황, 엔비디아 임원진에 '불륜 관계' 아니라 거짓말\"",
       "link": "https://www.hankyung.com/article/2026111464287",
@@ -30,14 +58,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "분명 수출 통제했는데…중국, 엔비디아 칩 의존 '4.6조' 이상",
-      "link": "https://www.hankyung.com/article/2026111463697",
-      "source": "한국경제",
-      "ts": 1794622825000,
-      "pub": "Sat, 14 Nov 2026 11:20:25 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "로이터 \"'엔비디아칩 의존' 中 AI프로젝트 규모 4조6천억 이상\"",
       "link": "https://www.yna.co.kr/view/AKR20261114026400089",
       "source": "연합뉴스 국제",
@@ -46,14 +66,6 @@
       "sentiment": "neutral",
       "desc": "(상하이=연합뉴스) 차병섭 특파원 = 젠슨 황 엔비디아 전 최고경영자(CEO)의 사임으로 대중국 반도체 수출 규제의 향방에 관심이 쏠리는 가운데...",
       "image": "https://img.yna.co.kr/photo/etc/xi/2026/06/05/PXI20260605025601009_P2.jpg"
-    },
-    {
-      "title": "\"젠슨 황 복귀시켜라\" 엔비디아 발칵 뒤집혔는데…'대반전'",
-      "link": "https://www.hankyung.com/article/2026111463467",
-      "source": "한국경제",
-      "ts": 1794619534000,
-      "pub": "Sat, 14 Nov 2026 10:25:34 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "엔비디아 임원들 연명했다는 '젠슨 황 복귀 촉구 서한'은 가짜",
@@ -66,30 +78,6 @@
       "image": "https://img.yna.co.kr/photo/reuters/2026/11/13/PRU20261113056001009_P2.jpg"
     },
     {
-      "title": "엔비디아 봐준 美 상무부 실세... 러트닉의 오른팔에 쏠리는 눈길[워싱턴나우+]",
-      "link": "https://www.hankyung.com/article/202611135841i",
-      "source": "한국경제",
-      "ts": 1794614011000,
-      "pub": "Sat, 14 Nov 2026 08:53:31 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 뜻 따랐다는 러트닉…엔비디아 스캔들에 '경질' 위기",
-      "link": "https://www.hankyung.com/article/2026111461827",
-      "source": "한국경제",
-      "ts": 1794612968000,
-      "pub": "Sat, 14 Nov 2026 08:36:08 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "엔비디아, Arm CEO 접촉설에 선 그어…\"공식 연락 안해\"",
-      "link": "https://www.hankyung.com/article/2026111462027",
-      "source": "한국경제",
-      "ts": 1794610359000,
-      "pub": "Sat, 14 Nov 2026 07:52:39 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "뉴욕증시, 다우지수만 0.1% 상승…엔비디아 2%↓, 하락 지속(종합)",
       "link": "https://www.yna.co.kr/view/AKR20261114009551072",
       "source": "연합뉴스 국제",
@@ -98,14 +86,6 @@
       "sentiment": "neutral",
       "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 13일(현지시간) 미국 뉴욕증시는 젠슨 황 엔비디아 전 최고경영자(CEO) 스캔들의 여파가 이어지면서 주요 ...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/11/14/PRU20261114028601009_P2.jpg"
-    },
-    {
-      "title": "엔비디아 경쟁자라더니…삼전닉스가 눈독 들인 유망주 정체",
-      "link": "https://www.hankyung.com/article/202611122613i",
-      "source": "한국경제",
-      "ts": 1794607207000,
-      "pub": "Sat, 14 Nov 2026 07:00:07 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "엔비디아, Arm CEO 접촉설에 \"아직 누구와도 공식 연락 안해\"(종합)",

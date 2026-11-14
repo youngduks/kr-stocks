@@ -1,8 +1,18 @@
 {
   "category": "hynix",
-  "updated_at": "2026-11-14T12:38:57.804Z",
-  "count": 17,
+  "updated_at": "2026-11-14T18:34:09.044Z",
+  "count": 15,
   "items": [
+    {
+      "title": "머스크 \"젠슨 황 없는 엔비디아, 공급망 핵심 계약 잃을 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20261115000300072",
+      "source": "연합뉴스 국제",
+      "ts": 1794670031000,
+      "pub": "Sun, 15 Nov 2026 00:27:11 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 일론 머스크 테슬라 최고경영자(CEO)는 14일(현지시간) 젠슨 황 전 CEO의 부재가 엔비디아의 공급망 장...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/09/30/PAP20260930100501009_P2.jpg"
+    },
     {
       "title": "젠슨 황 복귀 안 하면 집단 퇴사?…엔비디아 발칵 뒤집은 '가짜 서한'",
       "link": "https://www.mt.co.kr/world/2026/11/14/2026111417451961022",
@@ -32,14 +42,6 @@
       "sentiment": "neutral"
     },
     {
-      "title": "\"젠슨 황, 엔비디아 임원진에 '불륜 관계' 아니라 거짓말\"",
-      "link": "https://www.hankyung.com/article/2026111464287",
-      "source": "한국경제",
-      "ts": 1794628522000,
-      "pub": "Sat, 14 Nov 2026 12:55:22 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "\"젠슨황, 엔비디아 임원진에 '앨리스와 적절한 관계' 거짓말\"",
       "link": "https://www.yna.co.kr/view/AKR20261114030500009",
       "source": "연합뉴스 국제",
@@ -48,14 +50,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 임화섭 기자 = '불륜 파문'에 휩싸인 젠슨 황이 엔비디아 최고경영자(CEO)에서 물러나기 전에 내연녀 앨리스 황과 관계에 대...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/11/14/PRU20261114151301009_P2.jpg"
-    },
-    {
-      "title": "엔비디아 실적 발표·앤트로픽 IPO…빅 이벤트 이어진다 [다음주 주요 변수 미리보기]",
-      "link": "https://www.hankyung.com/article/202611146383i",
-      "source": "한국경제",
-      "ts": 1794625204000,
-      "pub": "Sat, 14 Nov 2026 12:00:04 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "로이터 \"'엔비디아칩 의존' 中 AI프로젝트 규모 4조6천억 이상\"",
@@ -146,16 +140,6 @@
       "sentiment": "neutral",
       "desc": "(타이베이=연합뉴스) 김철문 통신원 = 세계 최대 파운드리(반도체 위탁생산) 업체인 대만 TSMC의 전·현직 직원 개인정보가 유출됐으며, 해커는...",
       "image": "https://img.yna.co.kr/photo/cms/2024/07/02/84/PCM20240702000084009_P2.jpg"
-    },
-    {
-      "title": "엔비디아 직원들 \"젠슨 돌려달라\" 복귀 청원…눈물·꽃다발도(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261113012351075",
-      "source": "연합뉴스 국제",
-      "ts": 1794555614000,
-      "pub": "Fri, 13 Nov 2026 16:40:14 +0900",
-      "sentiment": "neutral",
-      "desc": "(로스앤젤레스·서울=연합뉴스) 김경윤 특파원 류미나 기자 = 엔비디아 창업자 젠슨 황이 불륜 스캔들로 최고경영자(CEO) 자리를 내려놓으면서 사...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/13/PRU20261113061601009_P2.jpg"
     },
     {
       "title": "'젠슨황 사임' 여파 지속?…하이닉스, 3% 급락…삼전도 0.96%↓(종합)",

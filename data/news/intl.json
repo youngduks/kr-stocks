@@ -1,8 +1,46 @@
 {
   "category": "intl",
-  "updated_at": "2026-11-13T23:59:38.929Z",
-  "count": 16,
+  "updated_at": "2026-11-14T05:16:39.678Z",
+  "count": 19,
   "items": [
+    {
+      "title": "'미중러' 정상회담 열린다…\"트럼프-김정은 회담예정 없어\"",
+      "link": "https://www.hankyung.com/article/2026111464197",
+      "source": "한국경제",
+      "ts": 1794626465000,
+      "pub": "Sat, 14 Nov 2026 12:21:05 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "트럼프, 아세안 정상회의서 '팍스 실리카' 참여 촉구할 듯",
+      "link": "https://www.yna.co.kr/view/AKR20261114029200104",
+      "source": "연합뉴스 국제",
+      "ts": 1794624183000,
+      "pub": "Sat, 14 Nov 2026 11:43:03 +0900",
+      "sentiment": "neutral",
+      "desc": "(자카르타=연합뉴스) 손현규 특파원 = 도널드 트럼프 미국 대통령이 다음 주 필리핀에서 열리는 동남아시아국가연합(ASEAN) 정상회의에 참석해 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/14/AKR20261114029200104_02_i_P2.jpg"
+    },
+    {
+      "title": "美, 19일 미중러 정상회담 발표…\"트럼프-김정은 회담예정 없어\"",
+      "link": "https://www.yna.co.kr/view/AKR20261114024600009",
+      "source": "연합뉴스 국제",
+      "ts": 1794622053000,
+      "pub": "Sat, 14 Nov 2026 11:07:33 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김승욱 기자 = 도널드 트럼프 미국 대통령과 시진핑 중국 국가주석, 블라디미르 푸틴 러시아 대통령이 19일 중국 선전에서 사상...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/08/19/02/PCM20260819000002990_P2.jpg"
+    },
+    {
+      "title": "역주행하는 푸틴…美에 '나토 동진 중단' 강경론 다시 제기",
+      "link": "https://www.yna.co.kr/view/AKR20261114021100009",
+      "source": "연합뉴스 국제",
+      "ts": 1794614839000,
+      "pub": "Sat, 14 Nov 2026 09:07:19 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김승욱 기자 = 러시아가 미국 중재로 재개된 우크라이나 종전 협상에서 북대서양조약기구(NATO·나토)의 동유럽 철수를 요구하며...",
+      "image": "https://img.yna.co.kr/photo/etc/xi/2026/11/13/PXI20261113001301009_P2.jpg"
+    },
     {
       "title": "트럼프 뜻 따랐다는 러트닉…엔비디아 스캔들에 '경질' 위기",
       "link": "https://www.hankyung.com/article/2026111461827",
@@ -39,7 +77,7 @@
       "pub": "Sat, 14 Nov 2026 07:46:24 +0900",
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 이지헌 기자 = 도널드 트럼프 미국 대통령이 국내 항구 간 운송권을 자국 선박에만 주는 '존스법'의 적용 유예 기간을 90일 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/14/AKR20261114014100009_01_i_P2.jpg"
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/14/AKR20261114014100009_02_i_P2.jpg"
     },
     {
       "title": "\"APEC 계기 미중러 정상회담 19일 개최…북한 논의 가능성\"",
@@ -150,16 +188,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 권숙희 기자 = 젠슨 황이 엔비디아 최고경영자(CEO) 자리에서 물러나면서 미중 기술 패권 경쟁 심화 속 양국을 잇는 가교 역...",
       "image": "https://img.yna.co.kr/photo/ap/2026/10/09/PAP20261009067901009_P2.jpg"
-    },
-    {
-      "title": "'주일미군 분담금 4배' 불렀던 트럼프…\"이번엔 3배 증액 요구\"",
-      "link": "https://www.yna.co.kr/view/AKR20261113080600073",
-      "source": "연합뉴스 국제",
-      "ts": 1794537625000,
-      "pub": "Fri, 13 Nov 2026 11:40:25 +0900",
-      "sentiment": "neutral",
-      "desc": "(도쿄=연합뉴스) 조성미 특파원 = 주일미군 주둔비 분담금 책정에서 도널드 트럼프 1기 행정부 당시 4배 인상을 요구했던 미국 정부가 이번에는 ...",
-      "image": "https://img.yna.co.kr/photo/cms/2021/06/06/70/PCM20210606000070990_P2.jpg"
     }
   ]
 }

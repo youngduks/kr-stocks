@@ -1,8 +1,68 @@
 {
   "category": "hynix",
-  "updated_at": "2026-11-15T02:13:56.314Z",
-  "count": 24,
+  "updated_at": "2026-11-15T10:04:46.911Z",
+  "count": 20,
   "items": [
+    {
+      "title": "반도체 패권 전쟁…한국의 길 찾는다",
+      "link": "https://www.hankyung.com/article/2026111575401",
+      "source": "한국경제",
+      "ts": 1794732746000,
+      "pub": "Sun, 15 Nov 2026 17:52:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'오락가락 美반도체 규제' 뒤엔 젠슨 황 그녀?",
+      "link": "https://www.hankyung.com/article/2026111575531",
+      "source": "한국경제",
+      "ts": 1794732695000,
+      "pub": "Sun, 15 Nov 2026 17:51:35 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "뱀 잡아 팔던 나라가 반도체 강국으로…80년 만에 벌어진 일",
+      "link": "https://www.hankyung.com/article/2026111575161",
+      "source": "한국경제",
+      "ts": 1794732651000,
+      "pub": "Sun, 15 Nov 2026 17:50:51 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체 소부장 '날개'…급락 후 저가매수 몰려",
+      "link": "https://www.hankyung.com/article/2026111574731",
+      "source": "한국경제",
+      "ts": 1794731978000,
+      "pub": "Sun, 15 Nov 2026 17:39:38 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"모기 하나가 반도체 공장도 멈춰 세워\"…한국 덮친 복병",
+      "link": "https://www.hankyung.com/article/2026111575081",
+      "source": "한국경제",
+      "ts": 1794731953000,
+      "pub": "Sun, 15 Nov 2026 17:39:13 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "반도체설계자동화SW 입찰서 20년 담합한 9개 업체…과징금 2억원",
+      "link": "https://www.yna.co.kr/view/AKR20261113101100002",
+      "source": "연합뉴스 경제",
+      "ts": 1794711608000,
+      "pub": "Sun, 15 Nov 2026 12:00:08 +0900",
+      "sentiment": "negative",
+      "desc": "(세종=연합뉴스) 김수현 기자 = 한국전자통신연구원 등의 반도체 설계 자동화(EDA) 소프트웨어와 관련 품목 입찰에서 짬짜미를 벌인 9개 사업자...",
+      "image": "https://img.yna.co.kr/photo/cms/2018/12/13/52/PCM20181213009552990_P2.jpg"
+    },
+    {
+      "title": "젠슨황 추문에 '엔비디아 발상지' 명판 뗀 美식당…\"재설치할것\"",
+      "link": "https://www.yna.co.kr/view/AKR20261115020300091",
+      "source": "연합뉴스 국제",
+      "ts": 1794708588000,
+      "pub": "Sun, 15 Nov 2026 11:09:48 +0900",
+      "sentiment": "neutral",
+      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 젠슨 황이 불륜 스캔들로 물러나자 엔비디아의 발상지인 미국 식당 데니스가 매장 내 '엔비디아 발상지'...",
+      "image": "https://img.yna.co.kr/photo/ap/2023/09/27/PAP20230927033001009_P2.jpg"
+    },
     {
       "title": "비반도체 수출도 두자릿수 성장…호주 1위·네덜란드 2위",
       "link": "https://www.yna.co.kr/view/AKR20261115018000003",
@@ -12,76 +72,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 신창용 기자 = 올해 1∼9월 우리나라의 30대 수출대상국 가운데 비(非)반도체 수출 증가율이 가장 높은 국가는 호주(71.9...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/15/AKR20261115018000003_02_i_P2.jpg"
-    },
-    {
-      "title": "\"구글 AI칩, 엔비디아 못지않다\"…젠슨 황 퇴진에 판 뒤집히나 [IT썰]",
-      "link": "https://www.mt.co.kr/tech/2026/11/15/2026111509154458019",
-      "source": "머니투데이",
-      "ts": 1794707866000,
-      "pub": "Sun, 15 Nov 2026 10:57:46 +0900",
-      "sentiment": "neutral",
-      "desc": "젠슨 황 엔비디아 CEO(최고경영자)의 갑작스러운 퇴진으로 글로벌 AI(인공지능) 반도체 시장의 경쟁 구도가 달라질 수 있다는 전망이 나왔다. 구글의 자체 AI 반도체인 TPU(텐서처리장치)가 엔비디아 GPU(그래픽처리장치)에 버금가는 성능을 확보한 만큼 젠슨 황의 공",
-      "image": "https://thumb.mt.co.kr/06/2026/11/2026111509154458019_1.jpg"
-    },
-    {
-      "title": "\"믿을 건 대표지수뿐\"...연금개미, 반도체 팔고 S&P500 샀다",
-      "link": "https://www.hankyung.com/article/202611135506i",
-      "source": "한국경제",
-      "ts": 1794705183000,
-      "pub": "Sun, 15 Nov 2026 10:13:03 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "與 \"반도체 성과, 국민 삶으로 이어져야…법정시한 내 예산 처리\"",
-      "link": "https://www.mt.co.kr/politics/2026/11/15/2026111509304689983",
-      "source": "머니투데이",
-      "ts": 1794703414000,
-      "pub": "Sun, 15 Nov 2026 09:43:34 +0900",
-      "sentiment": "neutral",
-      "desc": "[the300] 16일부터 예산안조정소위 가동…세부 사업별 증·감액 심사 더불어민주당이 예산안조정소위원회를 앞두고 내년도 예산안을 법정처리 시한 내 처리하겠다고 강조했다. 이주희 민주당 원내대변인은 15일 서면브리핑을 통해 \"민주당은 법정처리 시한인 12월 2일까지 민",
-      "image": "https://thumb.mt.co.kr/06/2026/11/2026111509304689983_1.jpg"
-    },
-    {
-      "title": "오징어 수출하던 나라가 반도체 중심국으로…수출 1조달러의 역사",
-      "link": "https://www.mt.co.kr/economy/2026/11/15/2026111307540237263",
-      "source": "머니투데이",
-      "ts": 1794698100000,
-      "pub": "Sun, 15 Nov 2026 08:15:00 +0900",
-      "sentiment": "neutral",
-      "desc": "[수출 1조 달러 시대]② 1956년 무역 통계 집계 이후 70년. 대한민국 수출이 미국, 중국, 독일에 이어 전세계에서 4번째로 '1조 달러' 돌파를 앞두고 있다. 자원이 전혀 나지 않는 척박한 땅에서 글로벌 무역 강국으로 도약하기까지 수출이 걸어온 발자취를 돌아본다",
-      "image": "https://thumb.mt.co.kr/06/2026/11/2026111307540237263_2.jpg"
-    },
-    {
-      "title": "美연구소 \"中딥시크·키미, 엔비디아 최첨단 칩으로 훈련\"",
-      "link": "https://www.hankyung.com/article/2026111568077",
-      "source": "한국경제",
-      "ts": 1794697806000,
-      "pub": "Sun, 15 Nov 2026 08:10:06 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "변동성 장세 지속…'젠슨 황 퇴진' 엔비디아 실적에 쏠리는 눈 [주간전망]",
-      "link": "https://www.hankyung.com/article/2026111355876",
-      "source": "한국경제",
-      "ts": 1794697208000,
-      "pub": "Sun, 15 Nov 2026 08:00:08 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아 투자자, 젠슨황 복귀 요구 서한…\"AI산업 후퇴 우려\"",
-      "link": "https://www.hankyung.com/article/2026111567957",
-      "source": "한국경제",
-      "ts": 1794696272000,
-      "pub": "Sun, 15 Nov 2026 07:44:32 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "머스크 \"젠슨 황 없는 엔비디아, 공급망 장악력 약화\"",
-      "link": "https://www.hankyung.com/article/2026111567777",
-      "source": "한국경제",
-      "ts": 1794694429000,
-      "pub": "Sun, 15 Nov 2026 07:13:49 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "[뉴욕증시-주간전망] 엔비디아 실적에 앤트로픽 상장…'AI 빅위크'",
@@ -202,36 +192,6 @@
       "sentiment": "neutral",
       "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 젠슨 황을 대신할 차기 수장을 물색 중인 엔비디아가 러네이 하스 암(Arm) CEO와 접촉했다는 보도...",
       "image": "https://img.yna.co.kr/photo/etc/up/2026/09/30/PUP20260930018301009_P2.jpg"
-    },
-    {
-      "title": "뉴욕증시 혼조 마감…엔비디아 하락세 계속, 2%↓",
-      "link": "https://www.yna.co.kr/view/AKR20261114009500072",
-      "source": "연합뉴스 국제",
-      "ts": 1794604700000,
-      "pub": "Sat, 14 Nov 2026 06:18:20 +0900",
-      "sentiment": "negative",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 13일(현지시간) 미국 뉴욕증시는 젠슨 황 엔비디아 전 최고경영자(CEO) 스캔들의 여파가 이어지면서 주요 ...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/14/PRU20261114028601009_P2.jpg"
-    },
-    {
-      "title": "\"엔비디아, 차기 수장 후보로 英 반도체기업 Arm CEO 접촉\"",
-      "link": "https://www.yna.co.kr/view/AKR20261114004700091",
-      "source": "연합뉴스 국제",
-      "ts": 1794597043000,
-      "pub": "Sat, 14 Nov 2026 04:10:43 +0900",
-      "sentiment": "neutral",
-      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 젠슨 황의 후임을 물색하고 있는 엔비디아 이사회가 차기 수장 후보로 자사 출신 인사인 러네이 하스 암...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/14/PRU20261114039001009_P2.jpg"
-    },
-    {
-      "title": "'젠슨황 사임' 여파 지속?…하이닉스, 3% 급락…삼전도 0.96%↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261113040151008",
-      "source": "연합뉴스 경제",
-      "ts": 1794552955000,
-      "pub": "Fri, 13 Nov 2026 15:55:55 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 황철환 기자 = SK하이닉스[000660]가 13일 급등 출발 후 하락전환해 결국 전장보다 3% 이상 떨어진 가격으로 정규장 ...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/06/24/43/PCM20260624000043990_P2.jpg"
     }
   ]
 }

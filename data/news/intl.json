@@ -1,15 +1,65 @@
 {
   "category": "intl",
-  "updated_at": "2026-11-15T10:04:46.908Z",
-  "count": 22,
+  "updated_at": "2026-11-15T17:29:04.377Z",
+  "count": 21,
   "items": [
     {
-      "title": "[사설] 美 Fed도 'AI발 금융위험' 경고…위기 가능성 대비할 때",
-      "link": "https://www.hankyung.com/article/2026111575031",
+      "title": "트럼프·민주, 美항공사태 네탓 공방…예산 갈등으로 번져",
+      "link": "https://www.yna.co.kr/view/AKR20261116000800071",
+      "source": "연합뉴스 국제",
+      "ts": 1794759676000,
+      "pub": "Mon, 16 Nov 2026 01:21:16 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 지난 13일(현지시간) 미국 전역에서 발생한 항공기 이륙 전면 중단 사태가 미 정치권의 네 탓 공방으로 번...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/16/AKR20261116000800071_01_i_P2.jpg"
+    },
+    {
+      "title": "젤렌스키 \"스타실드 속도 제한에 러 드론 못 따라잡아\"",
+      "link": "https://www.yna.co.kr/view/AKR20261116000300099",
+      "source": "연합뉴스 국제",
+      "ts": 1794757637000,
+      "pub": "Mon, 16 Nov 2026 00:47:17 +0900",
+      "sentiment": "neutral",
+      "desc": "(요하네스버그=연합뉴스) 나확진 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령이 군사용 위성통신 시스템 스타실드의 속도 제한으로 러시아 드론에...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/13/PAF20261113112901009_P2.jpg"
+    },
+    {
+      "title": "이틀만에 美항공사태 입 연 트럼프…\"바이든 재앙\" 前정부 탓",
+      "link": "https://www.yna.co.kr/view/AKR20261115056600071",
+      "source": "연합뉴스 국제",
+      "ts": 1794755474000,
+      "pub": "Mon, 16 Nov 2026 00:11:14 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 미 전역에서 발생한 항공교통 전면 중단 사태가 발생한 지 이틀만인 15일(현지...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/15/AKR20261115056600071_01_i_P2.jpg"
+    },
+    {
+      "title": "'남미 트럼프' 밀레이, 재선가도 흔들…월가, 승률 50%미만 예상",
+      "link": "https://www.yna.co.kr/view/AKR20261115054900009",
+      "source": "연합뉴스 국제",
+      "ts": 1794751467000,
+      "pub": "Sun, 15 Nov 2026 23:04:27 +0900",
+      "sentiment": "neutral",
+      "desc": "(부에노스아이레스=연합뉴스) 김선정 통신원 = 하비에르 밀레이 아르헨티나 대통령이 2027년 재선을 앞두고 정치적 시험대에 올랐다.",
+      "image": "https://img.yna.co.kr/photo/ap/2025/01/19/PAP20250119237501009_P2.jpg"
+    },
+    {
+      "title": "\"러, 우크라 종전협상 유럽 참여에 전향적 입장으로 선회\"",
+      "link": "https://www.yna.co.kr/view/AKR20261115051800098",
+      "source": "연합뉴스 국제",
+      "ts": 1794742097000,
+      "pub": "Sun, 15 Nov 2026 20:28:17 +0900",
+      "sentiment": "neutral",
+      "desc": "(브뤼셀=연합뉴스) 현윤경 특파원 = 우크라이나 평화협상에 유럽이 참여하는 것에 대해 부정적인 견해를 줄곧 밝혀온 러시아가 전향적인 입장으로 돌...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/15/AKR20261115051800098_01_i_P2.jpg"
+    },
+    {
+      "title": "빅터 차 \"트럼프, 전작권 전환…주한미군 감축 수단으로 본다\"",
+      "link": "https://www.hankyung.com/article/2026111575571",
       "source": "한국경제",
-      "ts": 1794733101000,
-      "pub": "Sun, 15 Nov 2026 17:58:21 +0900",
-      "sentiment": "negative"
+      "ts": 1794734822000,
+      "pub": "Sun, 15 Nov 2026 18:27:02 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "트럼프 '궤멸' 주장에도…美, 이란 미사일 보유량 2천500기 추정",
@@ -20,22 +70,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김승욱 기자 = 미국 정보당국은 이란이 여전히 최대 2천500기의 미사일을 보유하고 있는 것으로 추산한다고 월스트리트저널(WS...",
       "image": "https://img.yna.co.kr/photo/ap/2026/11/10/PAP20261110061001009_P2.jpg"
-    },
-    {
-      "title": "나토 가입·돈바스 철수 맞교환…美, 우크라에 종전안 타진",
-      "link": "https://www.hankyung.com/article/2026111575231",
-      "source": "한국경제",
-      "ts": 1794732164000,
-      "pub": "Sun, 15 Nov 2026 17:42:44 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "올해 마지막 연준 회의…'빅스텝' 확률 얼마나 되나 [한상춘의 국제경제 읽기]",
-      "link": "https://www.hankyung.com/article/2026111574491",
-      "source": "한국경제",
-      "ts": 1794731416000,
-      "pub": "Sun, 15 Nov 2026 17:30:16 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "美연준, AI발 금융위험 경고…자산가치 고평가·부채급증 우려",
@@ -176,46 +210,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 김승욱 기자 = 도널드 트럼프 미국 대통령과 시진핑 중국 국가주석, 블라디미르 푸틴 러시아 대통령이 19일 중국 선전에서 사상...",
       "image": "https://img.yna.co.kr/photo/cms/2026/08/19/02/PCM20260819000002990_P2.jpg"
-    },
-    {
-      "title": "역주행하는 푸틴…美에 '나토 동진 중단' 강경론 다시 제기",
-      "link": "https://www.yna.co.kr/view/AKR20261114021100009",
-      "source": "연합뉴스 국제",
-      "ts": 1794614839000,
-      "pub": "Sat, 14 Nov 2026 09:07:19 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김승욱 기자 = 러시아가 미국 중재로 재개된 우크라이나 종전 협상에서 북대서양조약기구(NATO·나토)의 동유럽 철수를 요구하며...",
-      "image": "https://img.yna.co.kr/photo/etc/xi/2026/11/13/PXI20261113001301009_P2.jpg"
-    },
-    {
-      "title": "\"APEC 계기 미중러 정상회담 19일 개최…북한 논의 가능성\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261114011551071",
-      "source": "연합뉴스 국제",
-      "ts": 1794612674000,
-      "pub": "Sat, 14 Nov 2026 08:31:14 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 미국과 중국, 러시아 정상이 19일(현지시간) 아시아태평양경제협력체(APEC) 정상회의를 계기로 만나 3자...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/09/24/PAP20260924268301009_P2.jpg"
-    },
-    {
-      "title": "중간선거 참패 후 아시아 찾는 트럼프…미중·미중러회담 주목",
-      "link": "https://www.yna.co.kr/view/AKR20261114007700071",
-      "source": "연합뉴스 국제",
-      "ts": 1794611496000,
-      "pub": "Sat, 14 Nov 2026 08:11:36 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령이 다음주 필리판에서 열리는 동남아시아국가연합(ASEAN) 정상회의와 중국에서 열...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/05/PRU20261105068501009_P2.jpg"
-    },
-    {
-      "title": "트럼프 '외국 선박도 美항구 간 운송' 재연장…유가상승 대응",
-      "link": "https://www.yna.co.kr/view/AKR20261114014100009",
-      "source": "연합뉴스 국제",
-      "ts": 1794609984000,
-      "pub": "Sat, 14 Nov 2026 07:46:24 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이지헌 기자 = 도널드 트럼프 미국 대통령이 국내 항구 간 운송권을 자국 선박에만 주는 '존스법'의 적용 유예 기간을 90일 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/14/AKR20261114014100009_02_i_P2.jpg"
     }
   ]
 }

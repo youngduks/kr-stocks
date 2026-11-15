@@ -1,46 +1,42 @@
 {
   "category": "hynix",
-  "updated_at": "2026-11-15T10:04:46.911Z",
-  "count": 20,
+  "updated_at": "2026-11-15T17:29:04.379Z",
+  "count": 17,
   "items": [
     {
-      "title": "반도체 패권 전쟁…한국의 길 찾는다",
-      "link": "https://www.hankyung.com/article/2026111575401",
+      "title": "\"러트닉, 가족 회사와 연관된 반도체 수출규제 완화 추진\"",
+      "link": "https://www.yna.co.kr/view/AKR20261116001300071",
+      "source": "연합뉴스 국제",
+      "ts": 1794763011000,
+      "pub": "Mon, 16 Nov 2026 02:16:51 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 박성민 특파원 = 하워드 러트닉 미국 상무장관이 설립한 투자회사가 미국의 규제를 우회해 중국에 최첨단 인공지능(AI) 반도체...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/16/AKR20261116001300071_01_i_P2.jpg"
+    },
+    {
+      "title": "젠슨황 명판 떼버린 식당…엔비디아 내부선 '갑질·독설' 폭로(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261115050200009",
+      "source": "연합뉴스 국제",
+      "ts": 1794740212000,
+      "pub": "Sun, 15 Nov 2026 19:56:52 +0900",
+      "sentiment": "neutral",
+      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 젠슨 황이 불륜 스캔들로 물러나자 엔비디아의 발상지인 미국 식당 데니스가 매장 내 '엔비디아 발상지'...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2024/10/24/PEP20241024012701009_P2.jpg"
+    },
+    {
+      "title": "'대체불가' 삼전닉스 AI 반도체…세계 4위 수출대국 견인",
+      "link": "https://www.hankyung.com/article/2026111575141",
       "source": "한국경제",
-      "ts": 1794732746000,
-      "pub": "Sun, 15 Nov 2026 17:52:26 +0900",
+      "ts": 1794734968000,
+      "pub": "Sun, 15 Nov 2026 18:29:28 +0900",
       "sentiment": "neutral"
     },
     {
-      "title": "'오락가락 美반도체 규제' 뒤엔 젠슨 황 그녀?",
-      "link": "https://www.hankyung.com/article/2026111575531",
+      "title": "'면비디아' '검은 반도체'…K소비재도 승승장구",
+      "link": "https://www.hankyung.com/article/2026111575171",
       "source": "한국경제",
-      "ts": 1794732695000,
-      "pub": "Sun, 15 Nov 2026 17:51:35 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "뱀 잡아 팔던 나라가 반도체 강국으로…80년 만에 벌어진 일",
-      "link": "https://www.hankyung.com/article/2026111575161",
-      "source": "한국경제",
-      "ts": 1794732651000,
-      "pub": "Sun, 15 Nov 2026 17:50:51 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "반도체 소부장 '날개'…급락 후 저가매수 몰려",
-      "link": "https://www.hankyung.com/article/2026111574731",
-      "source": "한국경제",
-      "ts": 1794731978000,
-      "pub": "Sun, 15 Nov 2026 17:39:38 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "\"모기 하나가 반도체 공장도 멈춰 세워\"…한국 덮친 복병",
-      "link": "https://www.hankyung.com/article/2026111575081",
-      "source": "한국경제",
-      "ts": 1794731953000,
-      "pub": "Sun, 15 Nov 2026 17:39:13 +0900",
+      "ts": 1794734962000,
+      "pub": "Sun, 15 Nov 2026 18:29:22 +0900",
       "sentiment": "neutral"
     },
     {
@@ -172,26 +168,6 @@
       "sentiment": "neutral",
       "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = \"우리 서명자들은 엔비디아를 사임하고 젠슨 황과 일론 머스크의 지도하에 진행되는 스페이스X 테라팹 프...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/11/13/PRU20261113056001009_P2.jpg"
-    },
-    {
-      "title": "뉴욕증시, 다우지수만 0.1% 상승…엔비디아 2%↓, 하락 지속(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261114009551072",
-      "source": "연합뉴스 국제",
-      "ts": 1794608086000,
-      "pub": "Sat, 14 Nov 2026 07:14:46 +0900",
-      "sentiment": "neutral",
-      "desc": "(뉴욕=연합뉴스) 김연숙 특파원 = 13일(현지시간) 미국 뉴욕증시는 젠슨 황 엔비디아 전 최고경영자(CEO) 스캔들의 여파가 이어지면서 주요 ...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/14/PRU20261114028601009_P2.jpg"
-    },
-    {
-      "title": "엔비디아, Arm CEO 접촉설에 \"아직 누구와도 공식 연락 안해\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261114004751091",
-      "source": "연합뉴스 국제",
-      "ts": 1794606905000,
-      "pub": "Sat, 14 Nov 2026 06:55:05 +0900",
-      "sentiment": "neutral",
-      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 젠슨 황을 대신할 차기 수장을 물색 중인 엔비디아가 러네이 하스 암(Arm) CEO와 접촉했다는 보도...",
-      "image": "https://img.yna.co.kr/photo/etc/up/2026/09/30/PUP20260930018301009_P2.jpg"
     }
   ]
 }

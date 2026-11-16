@@ -34,6 +34,26 @@
 - 동적: `/[category]/[slug]/` (뉴스 상세)
 - API: `/api/prices` | `/api/stats` | `/api/visit` | `/api/poll`
 
+### 4-1. 정보 구조 (2026-11-16 재정비)
+
+카테고리 6개 — 정의는 `lib/nav.ts` 한 곳 (헤더 칩·하위 탭·푸터 사이트 맵·홈 입구 카드가 함께 씀). 모바일 하단 탭은 없앰(2026-11-16) — 상단 6칸 메뉴가 화면 위에 붙어 따라다님.
+
+| 카테고리 | 허브 | 하위 페이지 |
+|---|---|---|
+| 오늘 | `/` | 오늘 한눈에 · 반도체 신호 요약 · 한국 주식 · 투표 · 오늘의 핫딜 · 카테고리 입구 · 전체 종목 링크 |
+| 시세 | `/markets` | 종목 상세 `/[category]/[slug]` · `/korea/kospi-night` · `/korea/koru` |
+| 신호 | `/signals` | `/liquidation` · `/poll` |
+| 분석 | `/analysis` | `/consensus` · `/news` · `/korea/hynix/buyback` · `/research/*` |
+| 핫딜 | `/shopping` | (단독 — 다른 것과 묶지 않음) |
+| 가이드 | `/guide` | `/guide/*` (목록 데이터 `lib/guides.ts`) · `/community/*` |
+
+- 홈에서 옮긴 섹션: 최근 급변·신호 실제 기록·채점표·과거 사례·인물 지표 → `/signals`, 한국주식 종합 분석 → `/analysis`, 비상장·미국·글로벌 종목 목록 → `/markets`.
+- ⚠ 홈 아래 '전체 종목'(`components/markets/AllStocksIndex.tsx`)은 검색 유입 보호용 — 홈에서 전 종목 상세로 가는 일반 링크. `data/universe_map.json` 정적 목록이라 종목을 추가하면 자동 반영. 지우거나 클라이언트 렌더링으로 바꾸지 말 것.
+- 홈 '오늘의 핫딜'(`components/home/DealsPreviewCard.tsx`)은 따로 둔다 — 입구 카드에 묶지 않음.
+- 짧은 주소 리디렉트(`next.config.mjs`): `/samsung`·`/hynix`·`/hyundai` → 종목 상세, `/private`·`/korea`·`/us`·`/global` → `/markets#…`.
+- ⚠ 투표 위젯(`PollWidget`)은 `app/page.tsx`와 `app/poll/page.tsx` 두 곳에만 둔다 — `scripts/update-poll.mjs`가 이 두 파일만 고친다. 다른 페이지에 위젯을 추가하면 스크립트에도 그 파일을 추가할 것.
+- `/pick`은 인스타 프로필 전용 랜딩이라 메뉴에 넣지 않는다.
+
 ## 5. 환경변수 / 자격증명
 
 Vercel 프로젝트 환경변수에 설정됨. **키 이름만**:

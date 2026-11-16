@@ -3,7 +3,6 @@ import "./fonts.css";
 import "./globals.css";
 import { ThemeProvider, THEME_INIT_SCRIPT } from "@/components/ThemeProvider";
 import { NOADS_INIT_SCRIPT } from "@/lib/noads";
-import { BottomTabs } from "@/components/BottomTabs";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://kr-stocks.com"),
@@ -107,8 +106,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-screen bg-bg text-text">
         <ThemeProvider>
           {children}
-          {/* 모바일 전용 하단 고정 탭 (md 이상 숨김) — 2026-11-08 */}
-          <BottomTabs />
         </ThemeProvider>
       </body>
     </html>

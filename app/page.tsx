@@ -1,50 +1,32 @@
 import Link from "next/link";
-import { fetchAllPrices, type PriceRow } from "@/lib/fetchPrices";
-import { CATEGORY_LABELS, type SymbolMeta } from "@/lib/universe";
+import { fetchAllPrices } from "@/lib/fetchPrices";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { HomeHero } from "@/components/HomeHero";
 import { PollWidget } from "@/components/PollWidget";
-import { PersonCardCompact } from "@/components/PersonCard";
-import { getHumanIndicators } from "@/lib/humanIndicators";
 import AffiliateStrip from "@/components/AffiliateStrip";
-import { fetchSemiSignal, type SemiSignal } from "@/lib/semiSignal";
+import { fetchSemiSignal } from "@/lib/semiSignal";
 import { AdSlot } from "@/components/AdSlot";
-import { StatusCard, StatTile, type StatusTone } from "@/components/ui/StatusCard";
-import { StockRow } from "@/components/home/StockRow";
 import { fetchSparkCloses } from "@/lib/fetchCandles";
-import { getTradingFlow, formatBigKRW } from "@/lib/tradingFlow";
-import { changeTextClass, formatPct } from "@/lib/colors";
 import { fetchDealsPreview } from "@/lib/dealsPreview";
-import { getHistoryStats, bucketForUsPct, HISTORY_MIN_N, ym, type HistoryStats } from "@/lib/historyStats";
-import { HistoryDots } from "@/components/HistoryDots";
-import { MoreDetails } from "@/components/ui/MoreDetails";
 import { TodayBrief } from "@/components/home/TodayBrief";
+import { HomeEntries } from "@/components/home/HomeEntries";
+import { DealsPreviewCard } from "@/components/home/DealsPreviewCard";
+import { AllStocksIndex } from "@/components/markets/AllStocksIndex";
 import { getUpcomingEvents } from "@/lib/events";
-import { getSignalScore, SCORE_RECENT_N, type SignalScoreRow } from "@/lib/signalScore";
-import { fetchSuddenMoves, SUDDEN_MULT, SUDDEN_FLOOR_PCT, SUDDEN_WINDOW_H, type SuddenResult } from "@/lib/suddenMoves";
-import { getSignalLog, summarizeSignalLog, SIGNAL_LOG_MIN_N, type SignalLogSummary, type SignalRecord } from "@/lib/signalLog";
+import { TomorrowStatusCard, SIGNAL_METHOD_A } from "@/components/signals/SignalCards";
+import { KoreaStocksCard, groupRest } from "@/components/markets/MarketLists";
 
 export const revalidate = 120; // ISR 캐시 30s → 120s (Free tier 최적화, 5/25)
 
-// ── 상태 카드 문구: SemiSignal.direction(= SOXL÷3, 임계값 ±0.4 / ±1.5 — lib/semiSignal.ts classify) 그대로 번역.
-//    과거 통계는 아래 HistoryCard — data/history-stats.json(scripts/history-stats.mjs, 실데이터) 기반 (Phase C).
-const SIGNAL_COPY: Record<
-  SemiSignal["direction"],
-  { tone: StatusTone; pill: string; head: string; hl: string; outlook: string | null }
-> = {
-  strong_down: { tone: "down", pill: "▼ 강한 약세 신호", head: "미국 반도체가", hl: "많이 약해요", outlook: "약하게 시작할 가능성" },
-  down: { tone: "down", pill: "▼ 약세 신호", head: "미국 반도체가", hl: "조금 약해요", outlook: "약하게 시작할 가능성" },
-  flat: { tone: "flat", pill: "― 보합", head: "미국 반도체가", hl: "평소와 비슷해요", outlook: null },
-  up: { tone: "up", pill: "▲ 강세 신호", head: "미국 반도체가", hl: "조금 강해요", outlook: "강하게 시작할 가능성" },
-  strong_up: { tone: "up", pill: "▲ 강한 강세 신호", head: "미국 반도체가", hl: "많이 강해요", outlook: "강하게 시작할 가능성" },
-  unknown: { tone: "flat", pill: "신호 대기", head: "미국 반도체 신호를", hl: "아직 못 받았어요", outlook: null },
-};
-
-// 상태 카드 "조금 더" 문답 — 화면 문구와 홈 FAQPage JSON-LD 가 같은 문자열을 쓰도록 상수로 공유
-const SIGNAL_METHOD_Q = "조금 더 — 이 신호는 어떻게 만드나요?";
-const SIGNAL_METHOD_A =
-  "SOXL(미국 반도체 3배 ETF) 등락을 3으로 나눠 반도체지수 변화를 추정해요. 추정치가 0.4% 넘게 빠지거나 오르면 약세·강세, 1.5%를 넘으면 강한 신호로 표시해요. 방향을 맞히는 예측이 아니라 밤사이 분위기 요약이에요.";
+// ── 2026-11-16 정보 구조 재정비 ──
+// 홈 = "지금 상태 요약 + 카테고리 입구". 예전에 홈에 쌓여 있던 섹션은 지우지 않고 카테고리 허브로 옮김:
+//   최근 급변 · 신호 실제 기록 · 채점표 · 과거 사례 · 인물 지표 → /signals (components/signals/SignalCards.tsx)
+//   한국주식 종합 분석(HomeHero)                               → /analysis
+//   비상장·미국·ETF·글로벌 종목 목록(가격 포함)                  → /markets (components/markets/MarketLists.tsx)
+// 같은 날 대표님 피드백으로 되돌린 것:
+//   오늘의 핫딜 3줄 미리보기 → 홈에 별도 섹션으로 유지 (components/home/DealsPreviewCard.tsx)
+//   전 종목 상세 링크       → 홈 아래 '전체 종목' 이름 링크 목록 (components/markets/AllStocksIndex.tsx, 검색 유입 보호)
+// 카테고리 정의는 lib/nav.ts.
 
 // 홈 구조화 데이터 — WebSite·Organization + 화면에 실제로 있는 문답 1건(FAQPage). 정적 값만.
 const HOME_JSON_LD = [
@@ -78,388 +60,13 @@ const HOME_JSON_LD = [
   },
 ];
 
-function kstTime(epochSec: number | null): string | null {
-  if (!epochSec) return null;
-  try {
-    return new Date(epochSec * 1000).toLocaleString("ko-KR", {
-      timeZone: "Asia/Seoul",
-      month: "numeric",
-      day: "numeric",
-      hour: "2-digit",
-      minute: "2-digit",
-      hour12: false,
-    });
-  } catch {
-    return null;
-  }
-}
-
-const DIR_LABEL: Record<SignalRecord["direction"], string> = {
-  strong_up: "▲ 강한 강세",
-  up: "▲ 강세",
-  flat: "― 보합",
-  down: "▼ 약세",
-  strong_down: "▼ 강한 약세",
-};
-
-function kstYmd(iso: string): string {
-  return new Date(Date.parse(iso) + 9 * 3600 * 1000).toISOString().slice(0, 10);
-}
-
-function mdw(ymd: string): string {
-  const d = new Date(`${ymd}T12:00:00+09:00`);
-  const w = d.toLocaleDateString("ko-KR", { timeZone: "Asia/Seoul", weekday: "short" });
-  return `${Number(ymd.slice(5, 7))}/${Number(ymd.slice(8, 10))}(${w})`;
-}
-
-/** 최근 급변 카드 — 실데이터만, 없으면 '없음'이라고 표시. 받은 데이터가 없으면 카드 숨김 */
-function SuddenMovesCard({ s }: { s: SuddenResult | null }) {
-  if (!s) return null;
-  const t = (ms: number) =>
-    new Date(ms).toLocaleString("ko-KR", { timeZone: "Asia/Seoul", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit", hour12: false });
-  return (
-    <section className="ds-card mt-4" style={{ padding: "8px 20px" }} aria-labelledby="sudden-h">
-      <div className="flex items-center justify-between gap-3 pt-3 pb-1">
-        <h2 id="sudden-h" className="text-[17px] font-extrabold">
-          최근 {SUDDEN_WINDOW_H}시간 급변
-        </h2>
-        <span className="ds-meta shrink-0">바이낸스 5분봉</span>
-      </div>
-      {s.events.length === 0 ? (
-        <p className="ds-explain py-2">최근 {SUDDEN_WINDOW_H}시간 동안 기준을 넘은 5분 급변이 없어요.</p>
-      ) : (
-        s.events.map((e) => (
-          <Link key={`${e.symbol}-${e.at}`} href={e.href} prefetch={false} className="ds-row hover:bg-bg-hover/60 -mx-2 px-2 rounded-xl transition">
-            <div className="flex-1 min-w-0">
-              <div className="font-sys text-[15px] font-semibold truncate text-text">{e.name}</div>
-              <div className="text-[12px] text-text-dim num">{t(e.at)}부터 5분</div>
-            </div>
-            <div className={`num text-[15px] font-bold ${changeTextClass(e.pct)}`}>{formatPct(e.pct)}</div>
-          </Link>
-        ))
-      )}
-      <p className="ds-meta pb-3 pt-1">
-        기준: 5분 등락이 그 상품의 최근 24시간 평소 5분 움직임(중앙값)의 {SUDDEN_MULT}배 이상, 최소 ±{SUDDEN_FLOOR_PCT}% · 지금 기준{" "}
-        {s.thresholds.map((x) => `${x.name} ±${x.pct.toFixed(2)}%`).join(" · ")} · 매매 권유가 아니에요
-      </p>
-    </section>
-  );
-}
-
-/** 개장 전 실제 기록 + 마감 후 채점 (data/signal-log.json, 재구성 없음) — 2026-11-08 시작 */
-function SignalRecordBlock({ s }: { s: SignalLogSummary | null }) {
-  if (!s) return null;
-  const started = s.startedAt ? mdw(kstYmd(s.startedAt)) : null;
-  const few = s.stocks.every((x) => x.graded < SIGNAL_LOG_MIN_N);
-  return (
-    <div className="mt-4 pt-3 border-t border-line">
-      <div className="flex items-baseline justify-between gap-2">
-        <h3 className="text-[14px] font-extrabold">이 신호의 실제 기록</h3>
-        {few && <span className="ds-meta shrink-0">기록 쌓는 중</span>}
-      </div>
-      <p className="ds-meta mt-1">
-        {started
-          ? `기록 시작 ${started} · 매 거래일 한국 장 시작 전에 기록하고, 장 마감 후 종가로 채점해요`
-          : "다음 한국 거래일부터 장 시작 전 신호를 기록하고, 장 마감 후 종가로 채점해요"}
-      </p>
-      <div className="mt-2 space-y-1">
-        {s.stocks.map((x) => (
-          <div key={x.slug} className="flex items-center gap-3 text-[14px]">
-            <span className="font-bold w-[84px] shrink-0 truncate">{x.name}</span>
-            <span className="num">
-              맞음 <b>{x.hits}</b> / 채점 <b>{x.graded}</b>
-            </span>
-          </div>
-        ))}
-      </div>
-      {s.recent.length > 0 && (
-        <ul className="mt-2 space-y-1 text-[13px] text-text-muted">
-          {s.recent.map((r) => (
-            <li key={r.krDate} className="num">
-              <b className="text-text">{mdw(r.krDate)}</b> {DIR_LABEL[r.direction]} ·{" "}
-              {r.status === "pending"
-                ? "채점 대기"
-                : r.status === "no_session"
-                  ? "휴장"
-                  : r.call === "none"
-                    ? "보합 신호라 채점 안 함"
-                    : (["samsung", "hynix"] as const)
-                        .map((k) => {
-                          const v = r.results[k];
-                          if (!v) return null;
-                          const nm = k === "samsung" ? "삼성" : "하이닉스";
-                          return `${nm} ${v.pct > 0 ? "+" : v.pct < 0 ? "−" : ""}${Math.abs(v.pct).toFixed(1)}% ${v.hit ? "맞음" : "틀림"}`;
-                        })
-                        .filter(Boolean)
-                        .join(" · ")}
-            </li>
-          ))}
-        </ul>
-      )}
-      <p className="ds-meta mt-2">
-        강세 신호에 그날 종가가 전날보다 오르면, 약세 신호에 내리면 맞음 · 틀린 기록도 지우지 않아요 · 매매 권유가 아니에요
-      </p>
-    </div>
-  );
-}
-
-/** 채점표 — 미국 반도체가 1% 넘게 움직인 날, 다음 한국 거래일 종가 방향이 같았나 (data/history-stats.json) */
-function SignalScoreboard({ rows }: { rows: SignalScoreRow[] }) {
-  if (rows.length === 0) return null;
-  return (
-    <div className="mt-4 pt-3 border-t border-line">
-      <div className="flex items-baseline justify-between gap-2">
-        <h3 className="text-[14px] font-extrabold">
-          참고: 과거 일봉으로 다시 계산한 통계
-        </h3>
-        <span className="ds-meta shrink-0">● 맞음 · ○ 빗나감</span>
-      </div>
-      <div className="mt-2 space-y-2">
-        {rows.map((r) => {
-          const recentHits = r.recent.filter(Boolean).length;
-          return (
-            <div key={r.name} className="flex items-center gap-3">
-              <div className="text-[14px] font-bold w-[84px] shrink-0 truncate">{r.name}</div>
-              <div className="num text-[18px] font-extrabold w-[52px] shrink-0">{r.hitRatePct}%</div>
-              <div
-                className="flex gap-[4px] flex-wrap"
-                role="img"
-                aria-label={`${r.name} 최근 ${r.recent.length}번 중 ${recentHits}번 방향 맞음`}
-              >
-                {r.recent.map((ok, i) => (
-                  <span
-                    key={i}
-                    aria-hidden="true"
-                    className={`inline-block w-[9px] h-[9px] rounded-full ${ok ? "bg-text" : "border border-text-dim"}`}
-                  />
-                ))}
-              </div>
-              <div className="ds-meta ml-auto shrink-0 hidden sm:block">
-                최근 {r.recent.length}번 중 {recentHits}번
-              </div>
-            </div>
-          );
-        })}
-      </div>
-      <p className="ds-meta mt-2">
-        미국 반도체(^SOX)가 1% 넘게 오르거나 내린 날, 다음 한국 거래일 종가가 같은 방향이었던 비율 ·{" "}
-        {rows.every((r) => r.n === rows[0].n) ? `${rows[0].n}번 기준` : rows.map((r) => `${r.name} ${r.n}번`).join(" · ")} · 점 = 최근 {SCORE_RECENT_N}번(오른쪽이 최신) · 기간 {ym(rows[0].periodStart)}~{ym(rows[0].periodEnd)}
-      </p>
-    </div>
-  );
-}
-
-function TomorrowStatusCard({
-  semi,
-  fxRate,
-  fxChange,
-  score,
-  record,
-}: {
-  semi: SemiSignal;
-  fxRate: number;
-  fxChange: number;
-  score: SignalScoreRow[];
-  record: SignalLogSummary | null;
-}) {
-  const c = SIGNAL_COPY[semi.direction];
-  const when = semi.direction === "unknown" ? "" : semi.isLive ? "지금 " : "밤사이 ";
-  const soxlPct = semi.soxl?.changePct ?? null;
-  const asOf = kstTime(semi.asOf);
-  return (
-    <StatusCard
-      eyebrow="그래서 내일 아침 한국장은?"
-      pill={{ tone: c.tone, label: c.pill }}
-      headline={
-        <>
-          {when}
-          {c.head}
-          <br />
-          <span className="ds-hl">{semi.isLive || semi.direction === "unknown" ? c.hl : c.hl.replace(/해요$/, "했어요")}</span>
-        </>
-      }
-      explain={
-        semi.direction === "unknown" ? (
-          <>미국 반도체 ETF 시세를 불러오지 못했어요. 잠시 후 다시 확인해 주세요.</>
-        ) : c.outlook ? (
-          <>
-            반도체 3배 ETF(SOXL)가 {formatPct(soxlPct)} 움직였어요. 삼성전자·SK하이닉스는 내일 아침{" "}
-            <b className="text-text">{c.outlook}</b>이 있어요.
-          </>
-        ) : (
-          <>반도체 3배 ETF(SOXL) 변화가 작아요({formatPct(soxlPct)}). 내일 아침 반도체 쪽 큰 방향 신호는 없어요.</>
-        )
-      }
-      more={{
-        summary: SIGNAL_METHOD_Q,
-        content: (
-          <>
-            {SIGNAL_METHOD_A}
-            {semi.nvda && <> 참고로 엔비디아는 {formatPct(semi.nvda.changePct)}예요.</>}
-            {asOf && (
-              <>
-                {" "}
-                (미국 시세 기준: {asOf} KST{semi.isLive ? ", 미국 정규장 거래 중" : ""})
-              </>
-            )}
-          </>
-        ),
-      }}
-    >
-      <div className="grid grid-cols-2 gap-3 mt-4">
-        <StatTile
-          label="SOXL (반도체 3배)"
-          value={formatPct(soxlPct)}
-          valueClass={changeTextClass(soxlPct)}
-          sub={
-            semi.impliedSemiPct != null ? (
-              <>
-                반도체지수 환산 <b className={changeTextClass(semi.impliedSemiPct)}>{formatPct(semi.impliedSemiPct)}</b>
-              </>
-            ) : (
-              "—"
-            )
-          }
-        />
-        <StatTile
-          label="원·달러 환율"
-          value={fxRate > 0 ? `₩${fxRate.toLocaleString("ko-KR", { maximumFractionDigits: 0 })}` : "—"}
-          sub={
-            <>
-              <b className={changeTextClass(fxChange)}>{formatPct(fxChange)}</b> · 업비트 USDT 24시간
-            </>
-          }
-        />
-      </div>
-      <SignalRecordBlock s={record} />
-      <SignalScoreboard rows={score} />
-    </StatusCard>
-  );
-}
-
-/** 과거 사례 — 지금 미국 반도체 등락과 같은 구간이었던 날, 다음 한국 거래일 삼성전자·SK하이닉스.
- *  실데이터(data/history-stats.json)만. 표본 n < HISTORY_MIN_N 이면 숨김. */
-function HistoryCard({ stats, usPct }: { stats: HistoryStats | null; usPct: number | null }) {
-  const id = bucketForUsPct(usPct);
-  if (!stats || !id) return null;
-  const rows = ["samsung", "hynix"]
-    .map((slug) => stats.stocks[slug])
-    .filter(Boolean)
-    .map((s) => {
-      const b = s.buckets[id];
-      return {
-        name: s.name,
-        n: b.n,
-        hits: b.hits,
-        meanPct: b.meanPct,
-        periodStart: b.periodStart,
-        periodEnd: b.periodEnd,
-        recent: (b.recent ?? []).map((d) => d.krRet),
-        open: b.open,
-        baseline: s.baseline,
-      };
-    })
-    .filter((r) => r.n >= HISTORY_MIN_N);
-  if (rows.length === 0) return null;
-  const label = stats.stocks.samsung?.buckets[id]?.label ?? "";
-  const dotsN = Math.max(...rows.map((r) => r.recent.length));
-  const computed = stats.computedAt ? stats.computedAt.slice(0, 10).replace(/-/g, ".") : "";
-  return (
-    <section className="ds-card mt-4" aria-labelledby="history-h">
-      <div className="ds-eyebrow">과거엔 어땠나요?</div>
-      <h2 id="history-h" className="ds-h2 mt-2">
-        미국 반도체가 <span className="ds-hl">{label}</span>였던 다음 날
-      </h2>
-      <p className="ds-explain mt-1">최근 약 5년, 다음 한국 거래일 종가가 전날보다 올랐는지 셌어요.</p>
-      <div className="mt-3">
-        <HistoryDots rows={rows} minN={HISTORY_MIN_N} dotsLabel={`점 = 최근 ${dotsN}번`} />
-      </div>
-      <p className="ds-meta mt-2">
-        <span className="text-up font-bold">●</span> 오른 날 · <span className="text-down font-bold">●</span> 내린 날 · 매매 지시가 아니에요
-      </p>
-      <MoreDetails summary="조금 더 — 어떻게 셌나요?">
-        <>
-          필라델피아 반도체지수(^SOX)의 하루 등락이 {label} 구간이었던 날마다, 그다음 한국 거래일의 종가를 전 거래일
-          종가와 비교했어요. 한국 종가는 거래소 공식 종가(네이버 금융), 미국은 Yahoo Finance 일봉이에요. 미국장이 연달아
-          두 번 열리는 한국 연휴 직후나 미국 휴장일은 어느 날의 영향인지 섞이므로 뺐어요. 위 카드의 신호는 SOXL÷3
-          추정치라 실제 지수와 조금 다를 수 있어요.
-          <br />
-          <br />
-          {rows.map((r) => (
-            <span key={r.name} className="block">
-              {r.name}: 시가 기준으로는 {r.open.n}번 중 {r.open.ups}번 높게 시작(평균 {formatPct(r.open.meanPct)}) · 조건
-              없이 전체 {r.baseline.n}일 중 {r.baseline.hits}일 상승(평균 {formatPct(r.baseline.meanPct)})
-            </span>
-          ))}
-          <br />
-          과거에 그랬다고 이번에도 그렇다는 보장은 없어요. 표본 수(n)가 작을수록 우연일 가능성이 커요({HISTORY_MIN_N}번
-          미만이면 표시하지 않아요). 매매 지시가 아니에요. 기간 {ym(rows[0].periodStart)}~{ym(rows[0].periodEnd)}
-          {computed && <> · {computed} 계산 · 매주 갱신</>}
-        </>
-      </MoreDetails>
-    </section>
-  );
-}
-
-/** 한국 주식 행 보조 설명 — 실데이터만: ADR 괴리율 / 외국인 5일 순매수(data/trading_flow) / 시장 상태 */
-function koreaSub(row: PriceRow): React.ReactNode {
-  const m = row.market;
-  if (row.is_adr && m?.adr_premium_pct != null) {
-    const p = m.adr_premium_pct;
-    return (
-      <>
-        <span className={`font-bold ${Math.abs(p) >= 5 ? "text-warn" : "text-flat"}`}>
-          본주 대비 {p > 0 ? "+" : p < 0 ? "−" : ""}
-          {Math.abs(p).toFixed(1)}%
-        </span>
-        <span> · 미국 ADR</span>
-      </>
-    );
-  }
-  const phase = m?.market_phase === "live" ? "정규장" : m?.market_phase === "nxt" ? "NXT 시간외" : "24시간 참조가";
-  const flow = getTradingFlow(row.slug);
-  if (flow) {
-    const w = flow.cumulative_5d.foreign_won;
-    const { display, sign } = formatBigKRW(w);
-    return (
-      <>
-        <span className={`font-bold ${changeTextClass(w)}`}>
-          외국인 5일 {sign}
-          {display}
-        </span>
-        <span> · {phase}</span>
-      </>
-    );
-  }
-  return phase;
-}
-
 export default async function Home() {
-  const [data, semiSignal, people, deals, history, signalLog, sudden] = await Promise.all([
-    fetchAllPrices(),
-    fetchSemiSignal(),
-    getHumanIndicators(),
-    fetchDealsPreview(3),
-    getHistoryStats(),
-    getSignalLog(),
-    fetchSuddenMoves().catch(() => null),
-  ]);
+  const [data, semiSignal, deals] = await Promise.all([fetchAllPrices(), fetchSemiSignal(), fetchDealsPreview(3)]);
 
   // is_fx(원화 환율)는 헤더 환율 위젯과 소스가 달라(HL perp vs 업비트) 숫자가 어긋나 보임 → 리스트 제외
   const koreaRows = data.symbols.filter((r) => r.category === "korea" && !r.is_fx);
   const sparks = await Promise.all(koreaRows.map((r) => fetchSparkCloses(r)));
-
-  // 나머지 카테고리 순서 (형님 명시): 비상장 → 미국주식 → ETF(테마) → 글로벌 지수
-  const order: SymbolMeta["category"][] = ["private", "us", "themes", "global"];
-  const grouped = order
-    .map((cat) => ({
-      cat,
-      label: CATEGORY_LABELS[cat],
-      rows: data.symbols.filter((r) => r.category === cat && !r.is_fx),
-    }))
-    // 카테고리 전멸 시 빈 섹션 방지
-    .filter((g) => g.rows.length > 0);
-  const restCount = grouped.reduce((n, g) => n + g.rows.length, 0);
+  const restRows = groupRest(data.symbols).flatMap((g) => g.rows);
 
   return (
     <>
@@ -473,7 +80,7 @@ export default async function Home() {
           24시간 글로벌 자산 시세 · 한국 정규장 휴장에도 끊기지 않는 실시간 가격 · 비상장 빅테크(SpaceX·OpenAI·Anthropic) 포함
         </h1>
 
-        {/* ⓪ 오늘 한눈에 — 받은 실데이터를 규칙 문장 3줄로 + 다가오는 일정 D-day (새 fetch·Redis 없음) */}
+        {/* ① 오늘 한눈에 — 받은 실데이터를 규칙 문장 3줄로 + 다가오는 일정 D-day (새 fetch·Redis 없음) */}
         <TodayBrief
           semi={semiSignal}
           fxRate={data.fx.krw_per_usdt}
@@ -481,141 +88,60 @@ export default async function Home() {
           events={getUpcomingEvents()}
         />
 
-        {/* ⓪-b 최근 급변 — 바이낸스 5분봉, 상품별 변동성 기준 (lib/suddenMoves.ts) */}
-        <SuddenMovesCard s={sudden} />
-
-        {/* ① 상태 카드 — 미장 반도체 야간 신호 + 환율 (실데이터만) + 과거 채점표 */}
+        {/* ② 상태 카드(요약) — 미장 반도체 야간 신호 + 환율. 실제 기록·채점표·과거 사례·최근 급변은 /signals */}
         <TomorrowStatusCard
           semi={semiSignal}
           fxRate={data.fx.krw_per_usdt}
           fxChange={data.fx.change_24h_pct}
-          score={getSignalScore(history)}
-          record={summarizeSignalLog(signalLog)}
+          moreHref="/signals"
         />
 
-        {/* ①-b 과거 사례 — 같은 구간이었던 날의 다음 한국 거래일 (실데이터, n<15 숨김) */}
-        <HistoryCard stats={history} usPct={semiSignal.direction === "unknown" ? null : semiSignal.impliedSemiPct} />
-
-        {/* ② 한국 주식 — 1줄 = 1종목 */}
-        {koreaRows.length > 0 && (
-          <section className="ds-card mt-4" style={{ padding: "8px 20px" }} aria-labelledby="kr-stocks-h">
-            <div className="flex items-center justify-between gap-3 pt-3 pb-1">
-              <h2 id="kr-stocks-h" className="text-[17px] font-extrabold">
-                한국 주식
-              </h2>
-              <span className="ds-meta truncate">선 = 최근 24시간</span>
-            </div>
-            <div>
-              {koreaRows.map((row, i) => (
-                <StockRow key={row.slug} row={row} sub={koreaSub(row)} spark={sparks[i]} />
-              ))}
-            </div>
+        {/* ③ 한국 주식 — 1줄 = 1종목. 나머지 종목은 /markets */}
+        <KoreaStocksCard
+          rows={koreaRows}
+          sparks={sparks}
+          footer={
             <Link
-              href="/korea/kospi-night"
+              href="/markets"
               prefetch={false}
-              className="flex items-center justify-between gap-3 min-h-[48px] text-[14px] font-semibold text-text-muted hover:text-text border-t border-line"
+              className="flex items-center justify-center min-h-[48px] text-[15px] font-bold text-down border-t border-line"
             >
-              <span className="truncate">코스피 야간선물 대신 보는 한국 ETF(EWY) 24시간 시세</span>
-              <span className="shrink-0">→</span>
+              미국·비상장·지수 {restRows.length}종목 전체 시세 보기 →
             </Link>
-            <a href="#markets" className="flex items-center justify-center min-h-[48px] text-[15px] font-bold text-down border-t border-line">
-              미국·비상장 {restCount}종목 전체 보기 →
-            </a>
-          </section>
-        )}
+          }
+        />
 
-        {/* ③ 광고 — 섹션 경계, 첫 화면 밖, 투표 버튼과 32px+ 분리. 모바일 페이지당 1개. AdFit 유닛 ID 유지 */}
+        {/* ④ 인간지표 — 내일 상승/하락 투표 (NXT 프리장 오픈 전 마감). 지난 결과 → /poll
+            ⚠ pollId / question 은 scripts/update-poll.mjs 가 정규식으로 매일 교체 — 이 파일(app/page.tsx)·속성 형태 유지 */}
+        <div className="mt-4">
+          <PollWidget
+            pollId="market-updown-2026-11-16"
+            title="인간지표 · 재미로 보는 군중 예측"
+            question="11/16(월) 한국 증시, 오를까요 내릴까요?"
+            yesLabel="▲ 오른다"
+            noLabel="▼ 내린다"
+            historyHref="/poll"
+          />
+        </div>
+
+        {/* ⑤ 오늘의 핫딜 — 3줄 미리보기(실데이터, /shopping 과 같은 소스). 다른 카테고리와 묶지 않고 따로 둔다 */}
+        <DealsPreviewCard deals={deals} />
+
+        {/* ⑥ 카테고리 입구 — 홈에서 빠진 섹션이 있는 곳으로 안내 (이미 받은 데이터로 한 줄 요약, 새 fetch 없음) */}
+        <div className="mt-4">
+          <HomeEntries rows={data.symbols} restRows={restRows} semi={semiSignal} />
+        </div>
+
+        {/* ⑦ 전체 종목 — 전 종목 상세로 가는 이름 링크(가격 없음, 정적 목록 → 서버 HTML에 항상 포함). 검색 유입 보호 */}
+        <AllStocksIndex />
+
+        {/* ⑧ 광고 — 페이지 끝 섹션 경계, 첫 화면 밖(위치는 그대로). 투표 버튼과는 핫딜·입구·전체 종목 블록만큼 떨어져 있음.
+            모바일 페이지당 1개. AdFit 유닛 ID 유지 */}
         <AdSlot
           adsenseSlot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_HOME}
           adfitMobile={{ unit: "DAN-sRrDqAryVxJFyyGr", width: 320, height: 50 }}
           adfitDesktop={{ unit: "DAN-1gxi6c73rjhTXT18", width: 728, height: 90 }}
         />
-
-        {/* ④ 인간지표 — 내일 상승/하락 투표 (NXT 프리장 오픈 전 마감). 지난 결과 → /poll
-            ⚠ pollId / question 은 scripts/update-poll.mjs 가 정규식으로 매일 교체 — 속성 형태 유지 */}
-        <PollWidget
-          pollId="market-updown-2026-11-16"
-          title="인간지표 · 재미로 보는 군중 예측"
-          question="11/16(월) 한국 증시, 오를까요 내릴까요?"
-          yesLabel="▲ 오른다"
-          noLabel="▼ 내린다"
-          historyHref="/poll"
-        />
-
-        {/* ⑤ 인물 지표(번외) — 얇은 카드, 상세는 /poll */}
-        {people.length > 0 && (
-          <section className="mb-6" aria-labelledby="people-h">
-            <div className="flex items-baseline justify-between gap-2 mb-2">
-              <h2 id="people-h" className="text-[17px] font-extrabold">
-                인물 지표 <span className="ds-meta font-medium">역발상 참고용</span>
-              </h2>
-              <Link href="/poll" prefetch={false} className="text-[13px] font-bold text-text-muted hover:text-text shrink-0">
-                더보기 →
-              </Link>
-            </div>
-            <div className="space-y-2">
-              {people.map((p) => (
-                <PersonCardCompact key={p.id} person={p} />
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* ⑥ 한국주식 종합 분석 (기존 컴포넌트 유지) */}
-        <HomeHero rows={data.symbols} locale="ko" />
-
-        {/* ⑦ 핫딜 미리보기 — 실데이터(/shopping 과 같은 소스). 항목은 /shopping 으로만 이동(외부·제휴 링크 X) */}
-        {deals.length > 0 && (
-          <section className="ds-card mb-8" style={{ padding: "8px 20px" }} aria-labelledby="deals-h">
-            <div className="flex items-center justify-between pt-3 pb-1">
-              <h2 id="deals-h" className="text-[17px] font-extrabold">
-                오늘의 핫딜
-              </h2>
-              <span className="ds-meta">줍줍쇼핑</span>
-            </div>
-            {deals.map((d) => (
-              <Link key={d.id} href="/shopping" prefetch={false} className="ds-row hover:bg-bg-hover/60 -mx-2 px-2 rounded-xl transition">
-                <div className="flex-1 min-w-0">
-                  <div className="font-sys text-[15px] font-semibold truncate text-text">{d.product}</div>
-                  <div className="text-[12px] truncate mt-[2px] text-text-dim">
-                    {d.lowest60 ? <span className="font-bold text-up">최근 2개월 최저가 · </span> : null}
-                    {d.store}
-                  </div>
-                </div>
-                <div className="text-right flex-none max-w-[45%]">
-                  <div className="num text-[15px] font-bold text-text truncate">{d.price}</div>
-                  {d.discountPct != null && d.discountPct > 0 && (
-                    <div className="num text-[13px] font-bold text-up">−{d.discountPct}%</div>
-                  )}
-                </div>
-              </Link>
-            ))}
-            <Link
-              href="/shopping"
-              prefetch={false}
-              className="flex items-center justify-center min-h-[48px] text-[15px] font-bold text-down border-t border-line"
-            >
-              핫딜 전체 보기 →
-            </Link>
-          </section>
-        )}
-
-        {/* ⑧ 미국·비상장·ETF·글로벌 — 1줄 = 1종목 */}
-        <div id="markets" className="scroll-mt-20">
-          {grouped.map(({ cat, label, rows }) => (
-            <section key={cat} className="ds-card mb-4" style={{ padding: "8px 20px" }} aria-labelledby={`cat-${cat}`}>
-              <div className="flex items-center justify-between pt-3 pb-1">
-                <h2 id={`cat-${cat}`} className="text-[17px] font-extrabold">
-                  {label.ko}
-                </h2>
-                <span className="ds-meta">{rows.length}종목</span>
-              </div>
-              {rows.map((row) => (
-                <StockRow key={row.slug} row={row} />
-              ))}
-            </section>
-          ))}
-        </div>
 
         <AffiliateStrip />
       </main>

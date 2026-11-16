@@ -1,6 +1,37 @@
 import Link from "next/link";
 
+import { CATEGORIES } from "@/lib/nav";
+
 export type Locale = "ko" | "en";
+
+// 한국어 푸터 사이트 맵 — 카테고리별 페이지 링크. 가이드는 대표 글 + 커뮤니티를 직접 적는다.
+const SITEMAP_KO: { label: string; links: { href: string; label: string }[] }[] = CATEGORIES.filter((c) => c.key !== "home").map((c) => ({
+  label: c.ko,
+  links:
+    c.key === "guide"
+      ? [
+          { href: "/guide", label: "가이드 전체" },
+          { href: "/guide/korean-overnight-prices", label: "삼성전자 야간 가격 보는 법" },
+          { href: "/guide/binance-korea-stocks", label: "바이낸스에서 한국주식 거래하는 법" },
+          { href: "/guide/hyperliquid-onramp", label: "한국에서 Hyperliquid 거래하는 법" },
+          { href: "/community", label: "커뮤니티" },
+        ]
+      : c.key === "analysis"
+        ? [
+            { href: "/analysis", label: "분석 모음" },
+            { href: "/consensus", label: "증권사 목표주가 분석" },
+            { href: "/news", label: "뉴스룸" },
+            { href: "/korea/hynix/buyback", label: "SK하이닉스 자사주매입" },
+            { href: "/research", label: "리서치" },
+          ]
+        : c.key === "signals"
+          ? [
+              { href: "/signals", label: "신호 모음" },
+              { href: "/liquidation", label: "청산맵 · 체결강도" },
+              { href: "/poll", label: "인간지표 — 개미 투표 vs 실제 결과" },
+            ]
+          : c.tabs.map((t) => ({ href: t.href, label: t.label })),
+}));
 
 const I18N = {
   ko: {
@@ -127,64 +158,88 @@ export function Footer({ locale = "ko" }: { locale?: Locale } = {}) {
           <li>• {t.refresh}</li>
         </ul>
 
-        <div className="mb-3 text-text-muted font-semibold">{t.analysisGuide}</div>
-        <ul className="space-y-1 mb-6">
-          <li>
-            •{" "}
-            <Link
-              href={t.consensusHref as any}
-              prefetch={false}
-              className="text-accent-blue hover:underline"
-            >
-              {t.consensusTitle}
-            </Link>{" "}
-            — {t.consensusDesc}
-          </li>
-          <li>
-            •{" "}
-            <Link
-              href={t.newsHref as any}
-              prefetch={false}
-              className="text-accent-blue hover:underline"
-            >
-              {t.newsTitle}
-            </Link>{" "}
-            — {t.newsDesc}
-          </li>
-          <li>
-            •{" "}
-            <Link
-              href={t.pollHref as any}
-              prefetch={false}
-              className="text-accent-blue hover:underline"
-            >
-              {t.pollTitle}
-            </Link>{" "}
-            — {t.pollDesc}
-          </li>
-          <li>
-            •{" "}
-            <Link
-              href={t.guideBinanceHref as any}
-              prefetch={false}
-              className="text-accent-blue hover:underline"
-            >
-              {t.guideBinanceTitle}
-            </Link>{" "}
-            — {t.guideBinanceDesc}
-          </li>
-          <li>
-            •{" "}
-            <Link
-              href={t.guideHref as any}
-              prefetch={false}
-              className="text-accent-blue hover:underline"
-            >
-              {t.guideTitle}
-            </Link>{" "}
-            — {t.guideDesc}
-          </li>
-        </ul>
+        {locale === "ko" ? (
+          <>
+            {/* 사이트 맵 — 헤더와 같은 카테고리(lib/nav.ts). 2026-11-16 정보 구조 재정비 */}
+            <div className="mb-3 text-text-muted font-semibold">사이트 맵</div>
+            <ul className="space-y-1 mb-6">
+              {SITEMAP_KO.map((row) => (
+                <li key={row.label}>
+                  • <span className="text-text-muted font-semibold">{row.label}</span>:{" "}
+                  {row.links.map((l, i) => (
+                    <span key={l.href}>
+                      {i > 0 && " · "}
+                      <Link href={l.href as any} prefetch={false} className="text-accent-blue hover:underline">
+                        {l.label}
+                      </Link>
+                    </span>
+                  ))}
+                </li>
+              ))}
+            </ul>
+          </>
+        ) : (
+          <>
+            <div className="mb-3 text-text-muted font-semibold">{t.analysisGuide}</div>
+            <ul className="space-y-1 mb-6">
+              <li>
+                •{" "}
+                <Link
+                  href={t.consensusHref as any}
+                  prefetch={false}
+                  className="text-accent-blue hover:underline"
+                >
+                  {t.consensusTitle}
+                </Link>{" "}
+                — {t.consensusDesc}
+              </li>
+              <li>
+                •{" "}
+                <Link
+                  href={t.newsHref as any}
+                  prefetch={false}
+                  className="text-accent-blue hover:underline"
+                >
+                  {t.newsTitle}
+                </Link>{" "}
+                — {t.newsDesc}
+              </li>
+              <li>
+                •{" "}
+                <Link
+                  href={t.pollHref as any}
+                  prefetch={false}
+                  className="text-accent-blue hover:underline"
+                >
+                  {t.pollTitle}
+                </Link>{" "}
+                — {t.pollDesc}
+              </li>
+              <li>
+                •{" "}
+                <Link
+                  href={t.guideBinanceHref as any}
+                  prefetch={false}
+                  className="text-accent-blue hover:underline"
+                >
+                  {t.guideBinanceTitle}
+                </Link>{" "}
+                — {t.guideBinanceDesc}
+              </li>
+              <li>
+                •{" "}
+                <Link
+                  href={t.guideHref as any}
+                  prefetch={false}
+                  className="text-accent-blue hover:underline"
+                >
+                  {t.guideTitle}
+                </Link>{" "}
+                — {t.guideDesc}
+              </li>
+            </ul>
+          </>
+        )}
 
         <div className="mb-3 text-text-muted font-semibold">{t.adTitle}</div>
         <ul className="space-y-1 mb-6">

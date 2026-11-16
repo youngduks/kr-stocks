@@ -26,6 +26,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       : 0.5,
   }));
 
+  // 카테고리 허브 (2026-11-16 정보 구조 재정비) — 홈에서 옮긴 섹션이 있는 곳
+  const hubs: MetadataRoute.Sitemap = [
+    { url: `${base}/markets`, lastModified: now, changeFrequency: "hourly", priority: 0.9 }, // 전 종목 시세 목록
+    { url: `${base}/signals`, lastModified: now, changeFrequency: "hourly", priority: 0.85 }, // 반도체 야간 신호·급변
+    { url: `${base}/analysis`, lastModified: now, changeFrequency: "daily", priority: 0.8 },
+    { url: `${base}/guide`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
+    // 헤더 메뉴에는 있었지만 사이트맵에 빠져 있던 페이지
+    { url: `${base}/poll`, lastModified: now, changeFrequency: "daily", priority: 0.7 },
+    { url: `${base}/news`, lastModified: now, changeFrequency: "hourly", priority: 0.7 },
+    { url: `${base}/korea/hynix/buyback`, lastModified: now, changeFrequency: "daily", priority: 0.7 },
+  ];
+
   const guides: MetadataRoute.Sitemap = [
     {
       url: `${base}/korea/kospi-night`,
@@ -132,5 +144,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  return [home, ...symbolPages, ...guides, ...enPages];
+  return [home, ...hubs, ...symbolPages, ...guides, ...enPages];
 }

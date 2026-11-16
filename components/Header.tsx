@@ -3,15 +3,16 @@
 // 2026-09 리디자인 Phase A — 헤더:
 //  ① 브랜드 + 아이콘 버튼(검색·테마·언어, 44px 탭 타깃)
 //  ② 메타 한 줄: 기준시각(선택) · USD/KRW · 접속자(StatsBar — /api/visit 기록 담당이라 항상 마운트)
-//  ③ sticky 1줄 칩 네비 (가로 스크롤, 더 있으면 오른쪽 페이드 힌트)
+//  ③ sticky 카테고리 내비 — 6칸 고정 한 줄, 가로 스크롤 없음 (2026-11-16 정보 구조 재정비, lib/nav.ts)
+//  ④ 하위 탭 — 같은 카테고리 안 페이지 이동 (sticky 아님)
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
 import { StatsBar } from "./StatsBar";
 import { useTheme } from "./ThemeProvider";
 import { SearchPalette } from "./SearchPalette";
 import { AsOf } from "./ui/AsOf";
+import { CATEGORIES, categoryOf } from "@/lib/nav";
 
 function useIsEn() {
   const pathname = usePathname() || "/";
@@ -59,72 +60,44 @@ function LangToggle() {
   );
 }
 
-function ChipNav() {
+/** 카테고리 내비 — 6칸 고정 한 줄(가로 스크롤 없음). 정의는 lib/nav.ts */
+function CategoryNav() {
   const { pathname, isEn } = useIsEn();
-  const navRef = useRef<HTMLElement>(null);
-  const [fade, setFade] = useState(false);
-
-  const isConsensus = pathname === "/consensus" || pathname === "/en/consensus";
-  const isNews = pathname === "/news" || pathname.startsWith("/news/");
-  const isGuide = pathname.includes("/guide/");
-  const isPoll = pathname === "/poll" || pathname.startsWith("/poll/") || pathname === "/en/poll";
-  const isLiquidation = pathname === "/liquidation" || pathname.startsWith("/liquidation/");
-  const isBuyback = pathname.startsWith("/korea/hynix/buyback");
-  const isShopping = pathname === "/shopping" || pathname.startsWith("/shopping/");
-  const isCommunity = pathname === "/community" || pathname.startsWith("/community/");
-  const isHome = !isConsensus && !isNews && !isGuide && !isPoll && !isLiquidation && !isBuyback && !isShopping && !isCommunity;
-
-  const tabs: Array<{ key: string; href: string; ko: string; en: string; active: boolean }> = [
-    { key: "home", href: isEn ? "/en" : "/", ko: "오늘", en: "Today", active: isHome },
-    { key: "consensus", href: isEn ? "/en/consensus" : "/consensus", ko: "증권사 목표가", en: "Consensus", active: isConsensus },
-    { key: "liquidation", href: "/liquidation", ko: "청산맵", en: "Liq. Map", active: isLiquidation },
-    { key: "poll", href: "/poll", ko: "인간지표", en: "Poll", active: isPoll },
-    { key: "news", href: "/news", ko: "뉴스", en: "News", active: isNews },
-    { key: "buyback", href: "/korea/hynix/buyback", ko: "자사주매입", en: "Buyback", active: isBuyback },
-    { key: "shopping", href: "/shopping", ko: "핫딜", en: "Hot Deals", active: isShopping },
-    { key: "community", href: "/community", ko: "커뮤니티", en: "Community", active: isCommunity },
-    {
-      key: "guide",
-      href: isEn ? "/en/guide/binance-korea-stocks" : "/guide/binance-korea-stocks",
-      ko: "가이드",
-      en: "Guide",
-      active: isGuide,
-    },
-  ];
-
-  // 활성 칩을 보이게 스크롤 + 오른쪽에 더 있으면 페이드 힌트
-  useEffect(() => {
-    const el = navRef.current;
-    if (!el) return;
-    const active = el.querySelector<HTMLElement>('[aria-current="page"]');
-    if (active && active.offsetLeft + active.offsetWidth > el.clientWidth) {
-      el.scrollLeft = active.offsetLeft - 16;
-    }
-    const update = () => setFade(el.scrollLeft + el.clientWidth < el.scrollWidth - 4);
-    update();
-    el.addEventListener("scroll", update, { passive: true });
-    window.addEventListener("resize", update);
-    return () => {
-      el.removeEventListener("scroll", update);
-      window.removeEventListener("resize", update);
-    };
-  }, [pathname]);
-
+  const current = categoryOf(pathname);
   return (
-    <nav
-      ref={navRef}
-      aria-label={isEn ? "Main" : "주요 메뉴"}
-      className={`ds-chipnav flex gap-2 overflow-x-auto py-2 -mx-4 px-4 sm:mx-0 sm:px-0 ${fade ? "ds-fade-right" : ""}`}
-    >
-      {tabs.map((t) => (
+    <nav aria-label={isEn ? "Main" : "주요 메뉴"} className={`ds-catnav py-2 ${isEn ? "ds-catnav-en" : ""}`}>
+      {CATEGORIES.map((c) => (
         <Link
-          key={t.key}
-          href={t.href as any}
+          key={c.key}
+          href={(isEn ? c.enHref : c.href) as any}
           prefetch={false}
-          aria-current={t.active ? "page" : undefined}
+          aria-current={current === c.key ? "page" : undefined}
           className="ds-chip hover:text-text transition"
         >
-          {isEn ? t.en : t.ko}
+          {isEn ? c.en : c.ko}
+        </Link>
+      ))}
+    </nav>
+  );
+}
+
+/** 하위 탭 — 지금 카테고리 안의 페이지들 (한국어 페이지만). 카테고리에 페이지가 하나뿐이면 표시 안 함. */
+function SubTabs() {
+  const { pathname, isEn } = useIsEn();
+  const key = categoryOf(pathname);
+  const cat = key ? CATEGORIES.find((c) => c.key === key) : null;
+  if (isEn || !cat || cat.tabs.length < 2) return null;
+  return (
+    <nav aria-label={`${cat.ko} 메뉴`} className="ds-subtabs ds-chipnav max-w-3xl mx-auto px-4 sm:px-5">
+      {cat.tabs.map((t) => (
+        <Link
+          key={t.href}
+          href={t.href as any}
+          prefetch={false}
+          aria-current={t.match(pathname) ? "page" : undefined}
+          className="ds-subtab hover:text-text transition"
+        >
+          {t.label}
         </Link>
       ))}
     </nav>
@@ -166,9 +139,10 @@ export function Header({ fxRate, fxChange, asOf }: { fxRate: number; fxChange: n
       </header>
       <div className="sticky top-0 z-30 bg-bg/90 backdrop-blur-md">
         <div className="max-w-3xl mx-auto px-4 sm:px-5">
-          <ChipNav />
+          <CategoryNav />
         </div>
       </div>
+      <SubTabs />
     </>
   );
 }

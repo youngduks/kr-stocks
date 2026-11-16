@@ -114,6 +114,8 @@ export default async function ResearchOvernightOpen() {
   const recent = S.rows.slice(-10).reverse();
   return (
     <GuideShell
+      backHref="/research"
+      backLabel="리서치 목록으로"
       url={URL}
       title={TITLE}
       description={DESC}

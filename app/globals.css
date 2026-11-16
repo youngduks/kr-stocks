@@ -171,12 +171,18 @@ input:focus-visible, textarea:focus-visible, select:focus-visible { outline-offs
   .ds-fade-right { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent);
     mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); }
 
-  /* 카테고리 내비 (2026-11-16) — 6칸 고정 한 줄. 모바일은 화면 폭을 6등분(가로 스크롤 없음), 넓은 화면은 칩 크기 그대로 */
-  .ds-catnav { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)) minmax(0, 1.25fr); gap: 6px; }
-  .ds-catnav .ds-chip { padding: 0 2px; justify-content: center; font-size: 14px; min-width: 0; }
+  /* 카테고리 내비 (2026-11-16) — 6칸 고정 한 줄. 모바일은 화면 폭을 나눠 채움(가로 스크롤 없음, 글자 긴 칸이 조금 더 넓음),
+     넓은 화면은 칩 크기 그대로. 영어판(.ds-catnav-en)은 글자가 길어 모바일에서 한 단계 작게. */
+  .ds-catnav { display: flex; gap: 6px; }
+  .ds-catnav .ds-chip { flex: 1 1 auto; padding: 0 4px; justify-content: center; font-size: 14px; min-width: 0; }
+  .ds-catnav-en .ds-chip { font-size: 13px; letter-spacing: -0.01em; padding: 0 3px; }
+  @media (max-width: 359px) {
+    .ds-catnav { gap: 4px; }
+    .ds-catnav-en .ds-chip { font-size: 12px; padding: 0 2px; }
+  }
   @media (min-width: 640px) {
-    .ds-catnav { display: flex; gap: 8px; }
-    .ds-catnav .ds-chip { padding: 0 18px; font-size: 15px; }
+    .ds-catnav { gap: 8px; }
+    .ds-catnav .ds-chip { flex: none; padding: 0 18px; font-size: 15px; letter-spacing: 0; }
   }
   /* 하위 탭 — 밑줄 탭. 넘치면 가로 스크롤(보조 메뉴) */
   .ds-subtabs { display: flex; gap: 4px; overflow-x: auto; border-bottom: 1px solid rgb(var(--line)); }

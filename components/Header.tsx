@@ -65,7 +65,7 @@ function CategoryNav() {
   const { pathname, isEn } = useIsEn();
   const current = categoryOf(pathname);
   return (
-    <nav aria-label={isEn ? "Main" : "주요 메뉴"} className="ds-catnav py-2">
+    <nav aria-label={isEn ? "Main" : "주요 메뉴"} className={`ds-catnav py-2 ${isEn ? "ds-catnav-en" : ""}`}>
       {CATEGORIES.map((c) => (
         <Link
           key={c.key}

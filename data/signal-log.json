@@ -157,8 +157,26 @@
       "impliedSemiPct": -3.668,
       "direction": "strong_down",
       "call": "down",
-      "status": "pending",
-      "results": {}
+      "status": "graded",
+      "results": {
+        "samsung": {
+          "prevDate": "2026-11-13",
+          "prevClose": 209000,
+          "close": 196600,
+          "pct": -5.933,
+          "outcome": "down",
+          "hit": true
+        },
+        "hynix": {
+          "prevDate": "2026-11-13",
+          "prevClose": 1233000,
+          "close": 1126000,
+          "pct": -8.678,
+          "outcome": "down",
+          "hit": true
+        }
+      },
+      "gradedAt": "2026-11-16T07:39:47.507Z"
     }
   ]
 }

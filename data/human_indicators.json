@@ -7,10 +7,19 @@
       "channel": "전인구경제연구소",
       "channel_url": "https://www.youtube.com/@moneydo",
       "channel_id": "UCznImSIaxZR7fdLCICLdgaQ",
-      "last_checked_video_id": "Jn91NmZyGBg",
+      "last_checked_video_id": "kYLW8f4wzy8",
       "tagline": "\"고점 판독기\" — 나무위키에도 등재된 별명. 2023년 이후 증시 전망이 반대로 맞는 걸로 유명",
       "note": "본인 문서(나무위키)에 \"시장 전망 영상 대부분이 틀리는 걸 넘어 반대로 맞히는 예지력\"이라는 비판이 있고, 댓글창에서 \"고점 판독기\"·\"어둠의 고수\"로 불림. 역발상 참고용으로 소개합니다 — 조롱이 목적이 아니라, 실제로 존재하는 밈이라 재미로 트래킹합니다.",
       "opinions": [
+        {
+          "date": "2026-11-16",
+          "title": "겁먹은 코스피, 이번주 두가지 고비가 옵니다",
+          "summary": "외국인의 대규모 순매도와 개인·기관 수급 부진, 엔비디아 실적 발표(젠슨 황 사임 후 전망 불확실성)와 앤스로픽 상장 등 이번 주 이벤트를 하락 요인으로 꼽았다. 삼성전자·하이닉스 자사주 매입은 내년쯤에야 기대되므로 당분간은 힘을 모으는 어려운 구간일 것이며, 이후 심리가 안정되면 반등할 수 있다고 봤다.",
+          "summary_short": "수급 부진, 당분간 힘든 구간",
+          "stance": "cautious",
+          "video_url": "https://www.youtube.com/watch?v=9MXwHlep8wQ",
+          "published_at": "2026-11-16T02:32:07.000Z"
+        },
         {
           "date": "2026-11-15",
           "title": "비트코인이 지금 폭락하는 이유(ft.젠슨황)",
@@ -91,15 +100,6 @@
           "stance": "cautious",
           "video_url": "https://www.youtube.com/watch?v=nqroqpodsaU",
           "published_at": "2026-10-30T09:05:34.000Z"
-        },
-        {
-          "date": "2026-10-28",
-          "title": "지금은 이런 바이오 기업을 사야합니다(ft.강하나 박사  1부)",
-          "summary": "금리 인하 시 가장 눌려 있는 성장주인 바이오의 반등 여력이 크고 밸류에이션도 역사적 하단이라, 지금이 분할 매수하기 좋은 구간이라고 본다. 다만 한 번에 몰빵은 안 되며 현금흐름·데이터 우수 기업 위주로 선별해야 한다고 말한다.",
-          "summary_short": "바이오 분할매수 적기",
-          "stance": "bullish",
-          "video_url": "https://www.youtube.com/watch?v=LY1HZbJpA90",
-          "published_at": "2026-10-28T06:56:55.000Z"
         }
       ],
       "pending": []

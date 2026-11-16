@@ -51,13 +51,16 @@ export function AllStocksIndex({ className = "mt-4" }: { className?: string }) {
       </div>
       {groups.map((g) =>
         g.items.length > FOLD_OVER ? (
-          <details key={g.cat} className="border-t border-line">
+          <details key={g.cat} className="group border-t border-line">
             <summary className="flex items-center justify-between gap-3 min-h-[44px] cursor-pointer text-[13px] font-bold text-text">
               <span>
                 {g.label} <span className="ds-meta font-medium num">{g.items.length}</span>
               </span>
-              <span className="ds-meta" aria-hidden="true">
+              <span className="ds-meta group-open:hidden" aria-hidden="true">
                 펼치기 ▾
+              </span>
+              <span className="ds-meta hidden group-open:inline" aria-hidden="true">
+                접기 ▴
               </span>
             </summary>
             <div className="pb-2">

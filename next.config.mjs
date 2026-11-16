@@ -4,6 +4,21 @@ const nextConfig = {
   experimental: {
     typedRoutes: false,
   },
+  // 짧은 주소 → 실제 페이지 (2026-11-16 정보 구조 재정비). 전부 예전엔 404 였던 주소라 기존 페이지에는 영향 없음.
+  //   /samsung 등 종목 짧은 주소 → 종목 상세, /private·/korea·/us·/global → 시세 허브의 해당 카드
+  async redirects() {
+    return [
+      { source: "/samsung", destination: "/korea/samsung", permanent: true },
+      { source: "/hynix", destination: "/korea/hynix", permanent: true },
+      { source: "/hyundai", destination: "/korea/hyundai", permanent: true },
+      { source: "/private", destination: "/markets#private", permanent: false },
+      { source: "/korea", destination: "/markets#korea", permanent: false },
+      { source: "/us", destination: "/markets#us", permanent: false },
+      { source: "/global", destination: "/markets#global", permanent: false },
+      // SpaceX 는 상장 후 us 카테고리로 옮겨져 예전 주소가 404 — 404 안내 페이지·외부 링크 보호
+      { source: "/private/spacex", destination: "/us/spacex", permanent: true },
+    ];
+  },
   async headers() {
     return [
       {

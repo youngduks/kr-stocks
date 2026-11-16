@@ -39,7 +39,7 @@ export default function NotFound() {
             className="p-4 rounded-2xl bg-accent-blue/5 hover:bg-accent-blue/10 border border-accent-blue/20 transition"
           >
             <div className="text-sm font-semibold text-accent-blue mb-1">🏠 홈으로</div>
-            <div className="text-xs text-text-dim">42 종목 24h 시세 한 화면</div>
+            <div className="text-xs text-text-dim">지금 시장 상태 한눈에</div>
           </Link>
           <Link
             href="/korea/samsung"
@@ -63,11 +63,11 @@ export default function NotFound() {
             <div className="text-xs text-text-dim">증권사 평균 목표가</div>
           </Link>
           <Link
-            href="/private/spacex"
+            href="/us/spacex"
             className="p-4 rounded-2xl bg-accent-green/5 hover:bg-accent-green/10 border border-accent-green/20 transition"
           >
-            <div className="text-sm font-semibold text-accent-green mb-1">🚀 SpaceX (비상장)</div>
-            <div className="text-xs text-text-dim">implied valuation 24h 추적</div>
+            <div className="text-sm font-semibold text-accent-green mb-1">🚀 SpaceX</div>
+            <div className="text-xs text-text-dim">24시간 시세 추적</div>
           </Link>
           <Link
             href="/guide/korean-overnight-prices"

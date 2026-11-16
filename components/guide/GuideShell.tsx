@@ -32,6 +32,8 @@ export function GuideShell({
   fx,
   children,
   disclaimer,
+  backHref = "/guide",
+  backLabel = "가이드 목록으로",
 }: {
   url: string;
   /** h1 + Article headline */
@@ -48,6 +50,9 @@ export function GuideShell({
   children: React.ReactNode;
   /** 맨 아래 면책 문구 (기본: 가이드용) */
   disclaimer?: string;
+  /** 뒤로 버튼 — 기본은 가이드 목록(/guide). 리서치 글은 /research 를 넘긴다. */
+  backHref?: string;
+  backLabel?: string;
 }) {
   const ld = [
     {
@@ -90,7 +95,7 @@ export function GuideShell({
       ))}
       <Header fxRate={fx.krw_per_usdt} fxChange={fx.change_24h_pct} />
       <main className="max-w-3xl mx-auto px-4 sm:px-5 pt-4 pb-12">
-        <PageTitle backHref="/" eyebrow={eyebrow} title={title} />
+        <PageTitle backHref={backHref} backLabel={backLabel} eyebrow={eyebrow} title={title} />
         <div className="ds-explain mt-3 mb-4">{intro}</div>
 
         <article className="space-y-4">{children}</article>

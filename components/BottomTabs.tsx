@@ -11,25 +11,25 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { CATEGORIES, categoryOf, type CategoryKey } from "@/lib/nav";
 
 const BAR_H = 56;
 const AD_GAP = 48;
 
-const TABS = [
-  { href: "/", label: "오늘", match: (p: string) => p === "/" },
-  { href: "/consensus", label: "목표가", match: (p: string) => p === "/consensus" },
-  { href: "/liquidation", label: "청산맵", match: (p: string) => p.startsWith("/liquidation") },
-  { href: "/korea/kospi-night", label: "야간선물", match: (p: string) => p === "/korea/kospi-night" },
-] as const;
+// 2026-11-16 정보 구조 재정비: 헤더와 같은 카테고리(lib/nav.ts)로 맞춤 — 오늘·시세·신호·분석 + 더보기.
+const TAB_KEYS: CategoryKey[] = ["home", "markets", "signals", "analysis"];
+const TABS = TAB_KEYS.map((k) => CATEGORIES.find((c) => c.key === k)!);
 
+// 더보기 = 나머지 카테고리(핫딜·가이드) + 자주 찾는 페이지 바로가기
 const MORE = [
-  { href: "/poll", label: "인간지표" },
-  { href: "/news", label: "뉴스" },
-  { href: "/korea/hynix/buyback", label: "자사주매입" },
   { href: "/shopping", label: "핫딜" },
   { href: "/community", label: "커뮤니티" },
-  { href: "/guide/korean-overnight-prices", label: "야간 가격 가이드" },
-  { href: "/guide/vix-index", label: "VIX지수 가이드" },
+  { href: "/guide", label: "가이드" },
+  { href: "/consensus", label: "증권사 목표가" },
+  { href: "/liquidation", label: "청산맵" },
+  { href: "/korea/kospi-night", label: "코스피 야간" },
+  { href: "/poll", label: "인간지표" },
+  { href: "/news", label: "뉴스" },
 ] as const;
 
 export function BottomTabs() {
@@ -71,7 +71,9 @@ export function BottomTabs() {
   // 영어 페이지는 라벨이 한국어라 표시하지 않음
   if (pathname.startsWith("/en")) return null;
 
-  const moreActive = MORE.some((m) => pathname.startsWith(m.href));
+  const current = categoryOf(pathname);
+  // 더보기 강조: 하단 4칸에 없는 카테고리(핫딜·가이드)에 있을 때
+  const moreActive = current === "deals" || current === "guide";
   const hidden = hideForAd && !moreOpen;
 
   return (
@@ -112,17 +114,17 @@ export function BottomTabs() {
       >
         <div className="grid grid-cols-5" style={{ height: BAR_H }}>
           {TABS.map((t) => {
-            const active = t.match(pathname);
+            const active = current === t.key;
             return (
               <Link
-                key={t.href}
+                key={t.key}
                 href={t.href}
                 prefetch={false}
                 tabIndex={hidden ? -1 : undefined}
                 aria-current={active ? "page" : undefined}
                 className={`flex items-center justify-center text-[13px] font-bold ${active ? "text-text" : "text-text-dim"}`}
               >
-                {t.label}
+                {t.ko}
               </Link>
             );
           })}

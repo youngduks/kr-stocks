@@ -232,7 +232,8 @@ export default async function SymbolPage({ params }: Props) {
         <div className="flex items-start justify-between gap-3">
           <PageTitle
             className="min-w-0"
-            backHref="/"
+            backHref="/markets"
+            backLabel="시세 목록으로"
             eyebrow={
               <>
                 {label.emoji} {label.ko} · <span className="num">{row.krx_code ?? row.ticker}</span>
@@ -946,7 +947,8 @@ function PriceUnavailable({ meta, fxRate = 0, fxChange = 0 }: { meta: SymbolMeta
       <Header fxRate={fxRate} fxChange={fxChange} />
       <main className="max-w-3xl mx-auto px-4 sm:px-5 pt-4 pb-12">
         <PageTitle
-          backHref="/"
+          backHref="/markets"
+          backLabel="시세 목록으로"
           eyebrow={
             <>
               {label.emoji} {label.ko} · <span className="num">{meta.krx_code ?? meta.ticker}</span>
@@ -958,8 +960,8 @@ function PriceUnavailable({ meta, fxRate = 0, fxChange = 0 }: { meta: SymbolMeta
           <p className="ds-explain">
             지금 {name} 시세를 불러오지 못했어요. 잠시 후 다시 확인해 주세요. (자료 출처 일시 오류)
           </p>
-          <Link href="/" prefetch={false} className="inline-block mt-3 text-sm font-semibold text-accent-blue hover:underline">
-            홈에서 다른 종목 보기 →
+          <Link href="/markets" prefetch={false} className="inline-block mt-3 text-sm font-semibold text-accent-blue hover:underline">
+            시세에서 다른 종목 보기 →
           </Link>
         </section>
       </main>

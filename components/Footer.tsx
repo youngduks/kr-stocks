@@ -4,7 +4,7 @@ import { CATEGORIES } from "@/lib/nav";
 
 export type Locale = "ko" | "en";
 
-// 한국어 푸터 사이트 맵 — 카테고리별 페이지 링크. 하위 탭이 없는 카테고리(가이드)는 대표 글을 직접 적는다.
+// 한국어 푸터 사이트 맵 — 카테고리별 페이지 링크. 가이드는 대표 글 + 커뮤니티를 직접 적는다.
 const SITEMAP_KO: { label: string; links: { href: string; label: string }[] }[] = CATEGORIES.filter((c) => c.key !== "home").map((c) => ({
   label: c.ko,
   links:
@@ -14,6 +14,7 @@ const SITEMAP_KO: { label: string; links: { href: string; label: string }[] }[] 
           { href: "/guide/korean-overnight-prices", label: "삼성전자 야간 가격 보는 법" },
           { href: "/guide/binance-korea-stocks", label: "바이낸스에서 한국주식 거래하는 법" },
           { href: "/guide/hyperliquid-onramp", label: "한국에서 Hyperliquid 거래하는 법" },
+          { href: "/community", label: "커뮤니티" },
         ]
       : c.key === "analysis"
         ? [

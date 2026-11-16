@@ -10,6 +10,8 @@ import { fetchSparkCloses } from "@/lib/fetchCandles";
 import { fetchDealsPreview } from "@/lib/dealsPreview";
 import { TodayBrief } from "@/components/home/TodayBrief";
 import { HomeEntries } from "@/components/home/HomeEntries";
+import { DealsPreviewCard } from "@/components/home/DealsPreviewCard";
+import { AllStocksIndex } from "@/components/markets/AllStocksIndex";
 import { getUpcomingEvents } from "@/lib/events";
 import { TomorrowStatusCard, SIGNAL_METHOD_A } from "@/components/signals/SignalCards";
 import { KoreaStocksCard, groupRest } from "@/components/markets/MarketLists";
@@ -20,11 +22,12 @@ export const revalidate = 120; // ISR 캐시 30s → 120s (Free tier 최적화, 
 // 홈 = "지금 상태 요약 + 카테고리 입구". 예전에 홈에 쌓여 있던 섹션은 지우지 않고 카테고리 허브로 옮김:
 //   최근 급변 · 신호 실제 기록 · 채점표 · 과거 사례 · 인물 지표 → /signals (components/signals/SignalCards.tsx)
 //   한국주식 종합 분석(HomeHero)                               → /analysis
-//   비상장·미국·ETF·글로벌 종목 목록                            → /markets (components/markets/MarketLists.tsx)
-//   핫딜 미리보기 3줄                                          → 입구 카드 한 줄(전체는 /shopping)
+//   비상장·미국·ETF·글로벌 종목 목록(가격 포함)                  → /markets (components/markets/MarketLists.tsx)
+// 같은 날 대표님 피드백으로 되돌린 것:
+//   오늘의 핫딜 3줄 미리보기 → 홈에 별도 섹션으로 유지 (components/home/DealsPreviewCard.tsx)
+//   전 종목 상세 링크       → 홈 아래 '전체 종목' 이름 링크 목록 (components/markets/AllStocksIndex.tsx, 검색 유입 보호)
 // 카테고리 정의는 lib/nav.ts.
 
-// 홈 구조화 데이터 — WebSite·Organization + 화면에 실제로 있는 문답 1건(FAQPage). 정적 값만.
 // 홈 구조화 데이터 — WebSite·Organization + 화면에 실제로 있는 문답 1건(FAQPage). 정적 값만.
 const HOME_JSON_LD = [
   {
@@ -58,7 +61,7 @@ const HOME_JSON_LD = [
 ];
 
 export default async function Home() {
-  const [data, semiSignal, deals] = await Promise.all([fetchAllPrices(), fetchSemiSignal(), fetchDealsPreview(1)]);
+  const [data, semiSignal, deals] = await Promise.all([fetchAllPrices(), fetchSemiSignal(), fetchDealsPreview(3)]);
 
   // is_fx(원화 환율)는 헤더 환율 위젯과 소스가 달라(HL perp vs 업비트) 숫자가 어긋나 보임 → 리스트 제외
   const koreaRows = data.symbols.filter((r) => r.category === "korea" && !r.is_fx);
@@ -121,10 +124,18 @@ export default async function Home() {
           />
         </div>
 
-        {/* ⑤ 카테고리 입구 — 홈에서 빠진 섹션이 있는 곳으로 안내 (이미 받은 데이터로 한 줄 요약, 새 fetch 없음) */}
-        <HomeEntries rows={data.symbols} restRows={restRows} semi={semiSignal} deal={deals[0] ?? null} />
+        {/* ⑤ 오늘의 핫딜 — 3줄 미리보기(실데이터, /shopping 과 같은 소스). 다른 카테고리와 묶지 않고 따로 둔다 */}
+        <DealsPreviewCard deals={deals} />
 
-        {/* ⑥ 광고 — 페이지 끝 섹션 경계, 첫 화면 밖. 투표 버튼과는 입구 카드 블록(300px+)만큼 떨어져 있음.
+        {/* ⑥ 카테고리 입구 — 홈에서 빠진 섹션이 있는 곳으로 안내 (이미 받은 데이터로 한 줄 요약, 새 fetch 없음) */}
+        <div className="mt-4">
+          <HomeEntries rows={data.symbols} restRows={restRows} semi={semiSignal} />
+        </div>
+
+        {/* ⑦ 전체 종목 — 전 종목 상세로 가는 이름 링크(가격 없음, 정적 목록 → 서버 HTML에 항상 포함). 검색 유입 보호 */}
+        <AllStocksIndex />
+
+        {/* ⑧ 광고 — 페이지 끝 섹션 경계, 첫 화면 밖(위치는 그대로). 투표 버튼과는 핫딜·입구·전체 종목 블록만큼 떨어져 있음.
             모바일 페이지당 1개. AdFit 유닛 ID 유지 */}
         <AdSlot
           adsenseSlot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_HOME}

@@ -1,4 +1,5 @@
-// 사이트 정보 구조 (2026-11-16 재정비) — 헤더 칩·모바일 하단 탭·하위 탭·푸터·홈 입구 카드가 모두 이 정의를 쓴다.
+// 사이트 정보 구조 (2026-11-16 재정비) — 헤더 칩·하위 탭·푸터·홈 입구 카드가 모두 이 정의를 쓴다.
+// (모바일 하단 탭은 2026-11-16 대표님 결정으로 없앰 — 상단 6칸 메뉴가 화면 위에 붙어 따라다닌다.)
 //
 // 카테고리 6개: 오늘(홈) · 시세 · 신호 · 분석 · 핫딜 · 가이드
 //   - 헤더에는 카테고리만 한 줄로(모바일에서 넘치지 않게 6칸 고정).
@@ -83,11 +84,9 @@ export const CATEGORIES: Category[] = [
     ko: "핫딜",
     en: "Deals",
     enHref: "/shopping",
-    desc: "쿠팡·토스쇼핑 핫딜 · 커뮤니티",
-    tabs: [
-      { href: "/shopping", label: "핫딜", match: under("/shopping") },
-      { href: "/community", label: "커뮤니티", match: under("/community") },
-    ],
+    desc: "쿠팡·토스쇼핑 핫딜",
+    // 핫딜은 다른 것과 묶지 않는다(대표님 결정 2026-11-16) — 탭 1개라 하위 탭 줄은 표시되지 않음. 커뮤니티는 가이드 아래.
+    tabs: [{ href: "/shopping", label: "핫딜", match: under("/shopping") }],
   },
   {
     key: "guide",
@@ -95,8 +94,11 @@ export const CATEGORIES: Category[] = [
     ko: "가이드",
     en: "Guide",
     enHref: "/en/guide/binance-korea-stocks",
-    desc: "야간 시세·지표 읽는 법",
-    tabs: [],
+    desc: "야간 시세·지표 읽는 법 · 커뮤니티",
+    tabs: [
+      { href: "/guide", label: "가이드", match: (p) => under("/guide")(p) || p.startsWith("/en/guide/") },
+      { href: "/community", label: "커뮤니티", match: under("/community") },
+    ],
   },
 ];
 
@@ -104,7 +106,6 @@ export const CATEGORIES: Category[] = [
 export function categoryOf(pathname: string): CategoryKey | null {
   const p = pathname.replace(/\/+$/, "") || "/";
   if (p === "/" || p === "/en") return "home";
-  if (p === "/guide" || p.startsWith("/guide/") || p.startsWith("/en/guide/")) return "guide";
   for (const c of CATEGORIES) {
     if (c.tabs.some((t) => t.match(p))) return c.key;
   }

@@ -6,7 +6,6 @@
 import Link from "next/link";
 import type { PriceRow } from "@/lib/fetchPrices";
 import type { SemiSignal } from "@/lib/semiSignal";
-import type { DealPreview } from "@/lib/dealsPreview";
 import { getConsensus } from "@/lib/consensus";
 import { changeTextClass, formatPct } from "@/lib/colors";
 import { CATEGORIES, type CategoryKey } from "@/lib/nav";
@@ -63,35 +62,25 @@ function analysisLine(rows: PriceRow[]): React.ReactNode {
   );
 }
 
-function dealsLine(deal: DealPreview | null): React.ReactNode {
-  if (!deal) return "쿠팡·토스쇼핑 핫딜 · 커뮤니티";
-  return (
-    <>
-      {deal.product}
-      {deal.discountPct != null && deal.discountPct > 0 && <b className="num text-up"> −{deal.discountPct}%</b>}
-    </>
-  );
-}
+type EntryKey = Exclude<CategoryKey, "home" | "deals">;
 
 export function HomeEntries({
   rows,
   restRows,
   semi,
-  deal,
 }: {
   rows: PriceRow[];
   restRows: PriceRow[];
   semi: SemiSignal;
-  deal: DealPreview | null;
 }) {
-  const live: Record<Exclude<CategoryKey, "home">, { note: string; line: React.ReactNode }> = {
+  const live: Record<EntryKey, { note: string; line: React.ReactNode }> = {
     markets: { note: `${restRows.length + rows.filter((r) => r.category === "korea" && !r.is_fx).length}종목`, line: marketsLine(restRows) },
     signals: { note: "밤사이 분위기", line: signalsLine(semi) },
     analysis: { note: "목표가 · 뉴스", line: analysisLine(rows) },
-    deals: { note: "줍줍쇼핑", line: dealsLine(deal) },
-    guide: { note: `${GUIDES.length}편`, line: "야간 시세 · 청산맵 · VIX · 공포탐욕지수 읽는 법" },
+    guide: { note: `${GUIDES.length}편`, line: "야간 시세 · 청산맵 · VIX · 공포탐욕지수 읽는 법 · 커뮤니티" },
   };
-  const cats = CATEGORIES.filter((c) => c.key !== "home");
+  // 핫딜은 입구 줄로 묶지 않고 홈에 '오늘의 핫딜' 섹션으로 따로 둔다(대표님 결정 2026-11-16) — components/home/DealsPreviewCard.tsx
+  const cats = CATEGORIES.filter((c) => c.key !== "home" && c.key !== "deals");
 
   return (
     <section className="ds-card" style={{ padding: "8px 20px" }} aria-labelledby="entries-h">
@@ -108,7 +97,7 @@ export function HomeEntries({
         />
       </div>
       {cats.map((c) => {
-        const l = live[c.key as Exclude<CategoryKey, "home">];
+        const l = live[c.key as EntryKey];
         return (
           <Link key={c.key} href={c.href} prefetch={false} className="ds-row hover:bg-bg-hover/60 -mx-2 px-2 rounded-xl transition">
             <div className="flex-1 min-w-0">

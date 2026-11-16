@@ -80,6 +80,7 @@ export default async function GuideIndex() {
           </div>
           <LinkRow href="/about" title="데이터 원칙·이용법" desc="데이터 출처와 갱신 주기, 알아두어야 할 한계" />
           <LinkRow href="/research" title="리서치" desc="지표가 실제로 맞았는지 숫자로 검증한 글" />
+          <LinkRow href="/community" title="커뮤니티" desc="닉네임만으로 쓰는 자유게시판 — 수익인증·잡담·정보 공유" />
         </section>
 
         <p className="ds-meta pt-4">

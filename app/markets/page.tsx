@@ -5,6 +5,7 @@ import { fetchAllPrices } from "@/lib/fetchPrices";
 import { fetchSparkCloses } from "@/lib/fetchCandles";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { AdSlot } from "@/components/AdSlot";
 import { PageTitle } from "@/components/ui/PageTitle";
 import { LinkRow } from "@/components/ui/LinkRow";
 import AffiliateStrip from "@/components/AffiliateStrip";
@@ -68,6 +69,12 @@ export default async function MarketsPage() {
         </section>
 
         <CategoryStockCards groups={groups} />
+
+        {/* 광고 — 페이지 끝 섹션 경계, 첫 화면 밖, 페이지당 1개(11/18 대표님 결정판 d10). AdSense 는 홈 1자리만 → AdFit 만 */}
+        <AdSlot
+          adfitMobile={{ unit: "DAN-sRrDqAryVxJFyyGr", width: 320, height: 50 }}
+          adfitDesktop={{ unit: "DAN-1gxi6c73rjhTXT18", width: 728, height: 90 }}
+        />
 
         <AffiliateStrip />
 

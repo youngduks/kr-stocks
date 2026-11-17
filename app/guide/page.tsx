@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { AdSlot } from "@/components/AdSlot";
 import { PageTitle } from "@/components/ui/PageTitle";
 import { LinkRow } from "@/components/ui/LinkRow";
 import { getGuideFx } from "@/components/guide/GuideShell";
@@ -82,6 +83,12 @@ export default async function GuideIndex() {
           <LinkRow href="/research" title="리서치" desc="지표가 실제로 맞았는지 숫자로 검증한 글" />
           <LinkRow href="/community" title="커뮤니티" desc="닉네임만으로 쓰는 자유게시판 — 수익인증·잡담·정보 공유" />
         </section>
+
+        {/* 광고 — 페이지 끝 섹션 경계, 첫 화면 밖, 페이지당 1개(11/18 대표님 결정판 d10). AdSense 는 홈 1자리만 → AdFit 만 */}
+        <AdSlot
+          adfitMobile={{ unit: "DAN-sRrDqAryVxJFyyGr", width: 320, height: 50 }}
+          adfitDesktop={{ unit: "DAN-1gxi6c73rjhTXT18", width: 728, height: 90 }}
+        />
 
         <p className="ds-meta pt-4">
           English guides:{" "}

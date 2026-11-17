@@ -14,6 +14,7 @@ import { getSignalLog, summarizeSignalLog } from "@/lib/signalLog";
 import { getPollHistory } from "@/lib/pollHistory";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { AdSlot } from "@/components/AdSlot";
 import { PageTitle } from "@/components/ui/PageTitle";
 import { LinkRow } from "@/components/ui/LinkRow";
 import { PersonCardCompact } from "@/components/PersonCard";
@@ -106,6 +107,12 @@ export default async function SignalsPage() {
             </div>
           </section>
         )}
+
+        {/* 광고 — 페이지 끝 섹션 경계, 첫 화면 밖, 페이지당 1개(11/18 대표님 결정판 d10). AdSense 는 홈 1자리만 → AdFit 만 */}
+        <AdSlot
+          adfitMobile={{ unit: "DAN-sRrDqAryVxJFyyGr", width: 320, height: 50 }}
+          adfitDesktop={{ unit: "DAN-1gxi6c73rjhTXT18", width: 728, height: 90 }}
+        />
 
         <p className="ds-meta pt-6">
           신호는 방향을 맞히는 예측이 아니라 지금까지의 숫자를 규칙대로 정리한 요약이에요. 과거에 그랬다고 이번에도 그렇다는 보장은

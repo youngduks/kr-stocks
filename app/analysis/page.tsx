@@ -6,6 +6,7 @@ import { getAllConsensus } from "@/lib/consensus";
 import { RESEARCH } from "@/lib/research";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { AdSlot } from "@/components/AdSlot";
 import { HomeHero } from "@/components/HomeHero";
 import { PageTitle } from "@/components/ui/PageTitle";
 import { LinkRow } from "@/components/ui/LinkRow";
@@ -69,6 +70,12 @@ export default async function AnalysisPage() {
           ))}
           <LinkRow href="/research" title="리서치 전체 보기" />
         </section>
+
+        {/* 광고 — 페이지 끝 섹션 경계, 첫 화면 밖, 페이지당 1개(11/18 대표님 결정판 d10). AdSense 는 홈 1자리만 → AdFit 만 */}
+        <AdSlot
+          adfitMobile={{ unit: "DAN-sRrDqAryVxJFyyGr", width: 320, height: 50 }}
+          adfitDesktop={{ unit: "DAN-1gxi6c73rjhTXT18", width: 728, height: 90 }}
+        />
 
         <p className="ds-meta pt-4">정보 제공용이며 투자 권유·자문이 아닙니다. 목표가는 증권사 의견의 평균일 뿐 가격을 보장하지 않습니다.</p>
       </main>

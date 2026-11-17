@@ -115,9 +115,9 @@ export default async function Home() {
             ⚠ pollId / question 은 scripts/update-poll.mjs 가 정규식으로 매일 교체 — 이 파일(app/page.tsx)·속성 형태 유지 */}
         <div className="mt-4">
           <PollWidget
-            pollId="market-updown-2026-11-18"
+            pollId="market-updown-2026-11-19"
             title="인간지표 · 재미로 보는 군중 예측"
-            question="11/18(수) 한국 증시, 오를까요 내릴까요?"
+            question="11/19(목) 한국 증시, 오를까요 내릴까요?"
             yesLabel="▲ 오른다"
             noLabel="▼ 내린다"
             historyHref="/poll"

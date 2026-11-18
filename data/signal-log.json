@@ -245,6 +245,22 @@
         }
       },
       "gradedAt": "2026-11-18T07:38:46.457Z"
+    },
+    {
+      "krDate": "2026-11-19",
+      "recordedAt": "2026-11-18T21:43:40.658Z",
+      "us": {
+        "session": "2026-11-18",
+        "prevSession": "2026-11-17",
+        "soxlClose": 49.2599983215332,
+        "soxlPrevClose": 49.06999969482422,
+        "soxlPct": 0.387
+      },
+      "impliedSemiPct": 0.129,
+      "direction": "flat",
+      "call": "none",
+      "status": "pending",
+      "results": {}
     }
   ]
 }

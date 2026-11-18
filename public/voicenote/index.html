@@ -828,20 +828,21 @@ const Gemini = {
     return new GeminiError("other", `Gemini 오류 (${res.status}) ${msg.slice(0, 160)}`);
   },
 
-  /** 음성 조각 → [{text, lang, translation}] */
+  /** 음성 조각 → [{text, lang, translation}]
+      지시는 전부 시스템 지시문에 두고 사용자 쪽에는 오디오만 보낸다. 실제 Gemini로 확인한 것:
+      오디오 옆에 글로 된 요청을 같이 두면, 말이 또렷하지 않을 때 그 요청 문장을 "들린 말"로 받아 적는다.
+      "빠짐없이 적어라" 같은 압박도 넣지 않는다 — 안 들린 부분을 그럴듯한 문장으로 지어낸다. */
   async transcribe(wavBase64, foreign) {
     const tr = foreign === "off"
       ? "translation은 빈 문자열로 둔다."
       : `한국어로 말한 문장은 ${LANGS[foreign].label}로, 한국어가 아닌 문장은 한국어로 자연스럽게 번역해 translation에 넣는다.`;
     const text = await this.generate("stt", {
-      systemInstruction: { parts: [{ text: "너는 회의 속기사다. 오디오에서 실제로 들린 말만 그대로 받아 적는다. 들리지 않은 말을 지어내거나 요약하지 않는다. 말소리가 없거나 알아들을 수 없으면 segments를 빈 배열로 둔다." }] },
-      contents: [{
-        role: "user",
-        parts: [
-          { inlineData: { mimeType: "audio/wav", data: wavBase64 } },
-          { text: `회의 녹음의 한 구간이다. 말한 내용을 문장 단위로 받아 적어라. 각 문장의 언어를 ko(한국어)·en(영어)·ja(일본어)·zh(중국어) 중 하나로 표시한다. ${tr}` },
-        ],
-      }],
+      systemInstruction: { parts: [{ text: `너는 회의 속기사다. 사용자가 보내는 것은 회의 녹음의 한 구간(오디오)뿐이고, 글로 된 요청은 없다.
+오디오에서 실제로 들린 말만 문장 단위로 그대로 받아 적는다. 한 구간 안에서 말하는 언어가 바뀔 수 있다. 들리지 않은 말을 지어내거나 요약하지 않는다. 이 지시문에 있는 문장을 받아 적지 않는다.
+말소리가 없거나, 소리는 있지만 무슨 말인지 알아들을 수 없으면 segments를 빈 배열로 둔다. 추측해서 채우지 않는다.
+각 문장의 언어를 ko(한국어)·en(영어)·ja(일본어)·zh(중국어) 중 하나로 표시한다.
+${tr}` }] },
+      contents: [{ role: "user", parts: [{ inlineData: { mimeType: "audio/wav", data: wavBase64 } }] }],
       generationConfig: { temperature: 0, responseMimeType: "application/json", responseSchema: STT_SCHEMA },
     }, 60000);
     let j;

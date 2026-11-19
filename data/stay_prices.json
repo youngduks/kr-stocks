@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-19T04:34:33+09:00",
- "basis_date": "2026-11-19",
+ "generated_at": "2026-11-20T04:34:19+09:00",
+ "basis_date": "2026-11-20",
  "note": "쿠팡트래블 성인2·객실1·1박 체크인 기준, 세금/봉사료 포함 표기 금액. 상태 '확정'인 날만 사용.",
  "stale_after_days": 8,
  "stays": {
@@ -11,7 +11,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-11-01",
-   "age_days": 18,
+   "age_days": 19,
    "stale": true,
    "range_start": "2026-11-01",
    "range_end": "2026-12-30",
@@ -285,15 +285,15 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-11-02",
-   "age_days": 17,
+   "age_days": 18,
    "stale": true,
    "range_start": "2026-11-02",
    "range_end": "2026-12-31",
    "range_days": 60,
    "confirmed_days": 47,
    "week_lowest": {
-    "date": "2026-11-19",
-    "weekday": "목",
+    "date": "2026-11-23",
+    "weekday": "월",
     "price_krw": 229400,
     "room_name": "S20_스테이_클린A_워터파크 2인"
    },
@@ -511,16 +511,16 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-11-03",
-   "age_days": 16,
+   "age_days": 17,
    "stale": true,
    "range_start": "2026-11-03",
    "range_end": "2027-01-01",
    "range_days": 60,
    "confirmed_days": 39,
    "week_lowest": {
-    "date": "2026-11-25",
-    "weekday": "수",
-    "price_krw": 248800,
+    "date": "2026-11-26",
+    "weekday": "목",
+    "price_krw": 243900,
     "room_name": "S20 타워 클린 - 레스트리(초강력특가 룸온니)"
    },
    "range_lowest": {
@@ -705,7 +705,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-11-18",
-   "age_days": 1,
+   "age_days": 2,
    "stale": false,
    "range_start": "2026-11-18",
    "range_end": "2027-01-16",
@@ -979,7 +979,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-11-05",
-   "age_days": 14,
+   "age_days": 15,
    "stale": true,
    "range_start": "2026-11-05",
    "range_end": "2027-01-03",
@@ -1249,7 +1249,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-11-06",
-   "age_days": 13,
+   "age_days": 14,
    "stale": true,
    "range_start": "2026-11-06",
    "range_end": "2027-01-04",
@@ -1511,7 +1511,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-11-14",
-   "age_days": 5,
+   "age_days": 6,
    "stale": false,
    "range_start": "2026-11-14",
    "range_end": "2027-01-12",
@@ -1701,7 +1701,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-11-15",
-   "age_days": 4,
+   "age_days": 5,
    "stale": false,
    "range_start": "2026-11-15",
    "range_end": "2027-01-13",
@@ -1915,7 +1915,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-11-16",
-   "age_days": 3,
+   "age_days": 4,
    "stale": false,
    "range_start": "2026-11-16",
    "range_end": "2027-01-14",
@@ -2181,15 +2181,15 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-10-09",
-   "age_days": 41,
+   "age_days": 42,
    "stale": true,
    "range_start": "2026-10-09",
    "range_end": "2026-12-07",
    "range_days": 60,
    "confirmed_days": 36,
    "week_lowest": {
-    "date": "2026-11-19",
-    "weekday": "목",
+    "date": "2026-11-22",
+    "weekday": "일",
     "price_krw": 129000,
     "room_name": "디럭스 더블"
    },
@@ -2356,17 +2356,17 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-10-16",
-   "age_days": 34,
+   "age_days": 35,
    "stale": true,
    "range_start": "2026-10-16",
    "range_end": "2026-12-14",
    "range_days": 60,
    "confirmed_days": 59,
    "week_lowest": {
-    "date": "2026-11-23",
-    "weekday": "월",
-    "price_krw": 339908,
-    "room_name": "디럭스 트윈 룸 마운틴뷰"
+    "date": "2026-11-26",
+    "weekday": "목",
+    "price_krw": 336789,
+    "room_name": "디럭스 킹 룸 마운틴뷰"
    },
    "range_lowest": {
     "date": "2026-11-26",
@@ -2630,7 +2630,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-10-30",
-   "age_days": 20,
+   "age_days": 21,
    "stale": true,
    "range_start": "2026-10-30",
    "range_end": "2026-12-28",
@@ -2896,7 +2896,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-10-31",
-   "age_days": 19,
+   "age_days": 20,
    "stale": true,
    "range_start": "2026-10-31",
    "range_end": "2026-12-29",
@@ -3167,6 +3167,172 @@
     ]
    ]
   },
+  "27": {
+   "no": 27,
+   "name": "롯데호텔 제주",
+   "pid": "30000011202808",
+   "source": "쿠팡트래블",
+   "query": "성인2·객실1·1박, 체크인 기준",
+   "collected_on": "2026-11-20",
+   "age_days": 0,
+   "stale": false,
+   "range_start": "2026-11-20",
+   "range_end": "2027-01-18",
+   "range_days": 60,
+   "confirmed_days": 35,
+   "week_lowest": null,
+   "range_lowest": {
+    "date": "2026-11-29",
+    "weekday": "일",
+    "price_krw": 288000,
+    "room_name": "디럭스 더블 or 트윈(마운틴뷰)",
+    "same_price_days": 19
+   },
+   "range_mean_krw": 325486,
+   "change_vs_prev": null,
+   "days": [
+    [
+     "2026-11-27",
+     322000
+    ],
+    [
+     "2026-11-28",
+     322000
+    ],
+    [
+     "2026-11-29",
+     288000
+    ],
+    [
+     "2026-11-30",
+     288000
+    ],
+    [
+     "2026-12-01",
+     288000
+    ],
+    [
+     "2026-12-02",
+     288000
+    ],
+    [
+     "2026-12-03",
+     288000
+    ],
+    [
+     "2026-12-04",
+     322000
+    ],
+    [
+     "2026-12-05",
+     322000
+    ],
+    [
+     "2026-12-06",
+     288000
+    ],
+    [
+     "2026-12-07",
+     288000
+    ],
+    [
+     "2026-12-08",
+     288000
+    ],
+    [
+     "2026-12-09",
+     288000
+    ],
+    [
+     "2026-12-10",
+     288000
+    ],
+    [
+     "2026-12-11",
+     322000
+    ],
+    [
+     "2026-12-12",
+     322000
+    ],
+    [
+     "2026-12-13",
+     288000
+    ],
+    [
+     "2026-12-14",
+     288000
+    ],
+    [
+     "2026-12-15",
+     288000
+    ],
+    [
+     "2026-12-16",
+     288000
+    ],
+    [
+     "2026-12-17",
+     288000
+    ],
+    [
+     "2026-12-18",
+     322000
+    ],
+    [
+     "2026-12-19",
+     322000
+    ],
+    [
+     "2026-12-20",
+     288000
+    ],
+    [
+     "2026-12-21",
+     288000
+    ],
+    [
+     "2026-12-22",
+     288000
+    ],
+    [
+     "2026-12-23",
+     288000
+    ],
+    [
+     "2026-12-24",
+     418000
+    ],
+    [
+     "2026-12-25",
+     418000
+    ],
+    [
+     "2026-12-26",
+     418000
+    ],
+    [
+     "2026-12-27",
+     418000
+    ],
+    [
+     "2026-12-28",
+     418000
+    ],
+    [
+     "2026-12-29",
+     418000
+    ],
+    [
+     "2026-12-30",
+     418000
+    ],
+    [
+     "2026-12-31",
+     418000
+    ]
+   ]
+  },
   "25": {
    "no": 25,
    "name": "마이다스 호텔&리조트",
@@ -3174,7 +3340,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-11-19",
-   "age_days": 0,
+   "age_days": 1,
    "stale": false,
    "range_start": "2026-11-19",
    "range_end": "2027-01-17",
@@ -3441,15 +3607,15 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-11-12",
-   "age_days": 7,
+   "age_days": 8,
    "stale": false,
    "range_start": "2026-11-12",
    "range_end": "2027-01-10",
    "range_days": 60,
    "confirmed_days": 35,
    "week_lowest": {
-    "date": "2026-11-19",
-    "weekday": "목",
+    "date": "2026-11-22",
+    "weekday": "일",
     "price_krw": 70000,
     "room_name": "호텔 수페리어 트윈룸"
    },
@@ -3612,15 +3778,15 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-11-02",
-   "age_days": 17,
+   "age_days": 18,
    "stale": true,
    "range_start": "2026-11-02",
    "range_end": "2026-12-31",
    "range_days": 60,
    "confirmed_days": 47,
    "week_lowest": {
-    "date": "2026-11-19",
-    "weekday": "목",
+    "date": "2026-11-23",
+    "weekday": "월",
     "price_krw": 229400,
     "room_name": "S20_스테이_클린A_워터파크 2인"
    },
@@ -3838,7 +4004,7 @@
    "source": "쿠팡트래블",
    "query": "성인2·객실1·1박, 체크인 기준",
    "collected_on": "2026-11-16",
-   "age_days": 3,
+   "age_days": 4,
    "stale": false,
    "range_start": "2026-11-16",
    "range_end": "2027-01-14",

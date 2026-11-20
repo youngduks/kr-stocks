@@ -1,25 +1,25 @@
 {
   "category": "hynix",
-  "updated_at": "2026-11-20T09:20:25.065Z",
-  "count": 14,
+  "updated_at": "2026-11-20T18:05:12.635Z",
+  "count": 11,
   "items": [
     {
-      "title": "삼성 메모리 수장 황상준…모바일은 최원준",
-      "link": "https://www.hankyung.com/article/2026112007261",
-      "source": "한국경제",
-      "ts": 1795164664000,
-      "pub": "Fri, 20 Nov 2026 17:51:04 +0900",
-      "sentiment": "neutral"
+      "title": "美재무 \"'엔비디아 H200 中 판매 허용' 정책 변화 없어\"",
+      "link": "https://www.yna.co.kr/view/AKR20261121001600071",
+      "source": "연합뉴스 국제",
+      "ts": 1795191798000,
+      "pub": "Sat, 21 Nov 2026 01:23:18 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 스콧 베선트 미국 재무부 장관은 20일(현지시간) \"적절한 반도체 (수출) 제한 조치가 시행되고 원격 접근...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/11/18/PAP20261118242801009_P2.jpg"
     },
     {
-      "title": "SK하이닉스, 키옥시아 전환사채 주식 전환…지분 14.1% 보유",
-      "link": "https://www.mt.co.kr/industry/2026/11/20/2026112016350353841",
-      "source": "머니투데이",
-      "ts": 1795160424000,
-      "pub": "Fri, 20 Nov 2026 16:40:24 +0900",
-      "sentiment": "neutral",
-      "desc": "SK하이닉스 \"지분의 추가 매입이나 매각 계획은 없다...키옥시아, 독립 경영 존중\" SK하이닉스가 일본 낸드플래시 기업 키옥시아에 투자하며 확보한 특수목적법인(SPC)의 CB를 주식으로 전환한다. SK하이닉스는 SPC를 통해 키옥시아지분 14.1%를 간접 보유한다. ",
-      "image": "https://thumb.mt.co.kr/06/2026/11/2026112016350353841_1.jpg"
+      "title": "삼성, 역대급 실적 반도체서만 사장 3명 승진",
+      "link": "https://www.hankyung.com/article/2026112006631",
+      "source": "한국경제",
+      "ts": 1795166853000,
+      "pub": "Fri, 20 Nov 2026 18:27:33 +0900",
+      "sentiment": "neutral"
     },
     {
       "title": "제주반도체 \"종속회사 H에 260억원 출자\"",
@@ -109,36 +109,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 설원태 기자 = 중국군이 인공지능(AI) 무기에 사용할 엔비디아의 첨단 칩을 확보하려 한다고 미 의회 산하 미·중 경제안보검토...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/11/20/PRU20261120116601009_P2.jpg"
-    },
-    {
-      "title": "中문샷AI, 엔비디아 첨단칩 우회 확보 2천억원 계약 취소",
-      "link": "https://www.yna.co.kr/view/AKR20261120024100009",
-      "source": "연합뉴스 국제",
-      "ts": 1795130429000,
-      "pub": "Fri, 20 Nov 2026 08:20:29 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 주종국 기자 = 인공지능(AI) 모델 '키미 K3' 개발로 유명해진 중국의 문샷AI가 인도네시아의 데이터센터를 통해 엔비디아 ...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/21/PAF20261021300201009_P2.jpg"
-    },
-    {
-      "title": "FT \"삼성전자·TSMC, 중국에 일부 칩 출하 중단\"",
-      "link": "https://www.yna.co.kr/view/AKR20261120012400009",
-      "source": "연합뉴스 국제",
-      "ts": 1795124462000,
-      "pub": "Fri, 20 Nov 2026 06:41:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 삼성전자와 TSMC가 미국의 신규 수출통제에 따라 중국 고객사에 대한 일부 칩 출하를 중단했다고 파이낸셜타임스...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/29/PRU20261029211601009_P2.jpg"
-    },
-    {
-      "title": "엔비디아 이어 AMD도 '중국리스크'…제재기업에 기술유출 의혹",
-      "link": "https://www.yna.co.kr/view/AKR20261120009000091",
-      "source": "연합뉴스 국제",
-      "ts": 1795123575000,
-      "pub": "Fri, 20 Nov 2026 06:26:15 +0900",
-      "sentiment": "negative",
-      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 엔비디아에 이어 AMD도 중국 관련 제재 위험에 노출됐다는 의혹이 제기됐다.",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/05/PRU20261105211101009_P2.jpg"
     }
   ]
 }

@@ -1,39 +1,31 @@
 {
   "category": "samsung",
-  "updated_at": "2026-11-20T09:20:25.065Z",
-  "count": 10,
+  "updated_at": "2026-11-20T18:05:12.634Z",
+  "count": 7,
   "items": [
     {
-      "title": "인텔, 1.8나노급 파운드리 수주 [한경 프리미엄9 TODAY]",
-      "link": "https://www.hankyung.com/article/2026112007361",
+      "title": "\"월요일엔 또 무슨 악몽이\"…삼전닉스 개미들 멘탈도 '바닥' [분석+]",
+      "link": "https://www.hankyung.com/article/2026112004446",
       "source": "한국경제",
-      "ts": 1795165412000,
-      "pub": "Fri, 20 Nov 2026 18:03:32 +0900",
-      "sentiment": "positive"
+      "ts": 1795179601000,
+      "pub": "Fri, 20 Nov 2026 22:00:01 +0900",
+      "sentiment": "neutral"
     },
     {
-      "title": "주가 폭락에도 1.5조 담았다…삼전닉스 또 베팅한 개미들",
-      "link": "https://www.hankyung.com/article/2026112007727",
+      "title": "삼전닉스 'PER 2배' 극단적 저평가…1000조 벌어도 못 믿는다",
+      "link": "https://www.hankyung.com/article/2026112007211",
       "source": "한국경제",
-      "ts": 1795164748000,
-      "pub": "Fri, 20 Nov 2026 17:52:28 +0900",
+      "ts": 1795166147000,
+      "pub": "Fri, 20 Nov 2026 18:15:47 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "삼전닉스 주주 1100만명…절반 이상이 '손실'",
+      "link": "https://www.hankyung.com/article/2026112007191",
+      "source": "한국경제",
+      "ts": 1795165995000,
+      "pub": "Fri, 20 Nov 2026 18:13:15 +0900",
       "sentiment": "negative"
-    },
-    {
-      "title": "삼성 메모리 수장 황상준…모바일은 최원준",
-      "link": "https://www.hankyung.com/article/2026112007261",
-      "source": "한국경제",
-      "ts": 1795164664000,
-      "pub": "Fri, 20 Nov 2026 17:51:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "결혼자금도 노후자금도 '반토막'…삼전닉스 개미의 '눈물'",
-      "link": "https://www.hankyung.com/article/2026112007251",
-      "source": "한국경제",
-      "ts": 1795163957000,
-      "pub": "Fri, 20 Nov 2026 17:39:17 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "삼전 中에 칩 출하 중단? 7% 급락…하이닉스도 5.9%↓(종합)",
@@ -74,26 +66,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 박초롱 강태우 기자 = 삼성전자가 반도체와 스마트폰· 가전사업을 이끄는 전영현·노태문 '투톱' 체제를 유지하며 조직 안정에 방...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/20/AKR20261120040151003_04_i_P2.jpg"
-    },
-    {
-      "title": "인텔, 파운드리 18A 제조 공정 첫 외부 고객사 확보",
-      "link": "https://www.yna.co.kr/view/AKR20261120022500009",
-      "source": "연합뉴스 국제",
-      "ts": 1795129716000,
-      "pub": "Fri, 20 Nov 2026 08:08:36 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이성한 기자 = 인텔이 차세대 파운드리(반도체 위탁 생산) 18A 공정에서 처음으로 외부 고객과 계약했다고 립 부 탄 최고경영...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/19/PRU20261119028201009_P2.jpg"
-    },
-    {
-      "title": "FT \"삼성전자·TSMC, 중국에 일부 칩 출하 중단\"",
-      "link": "https://www.yna.co.kr/view/AKR20261120012400009",
-      "source": "연합뉴스 국제",
-      "ts": 1795124462000,
-      "pub": "Fri, 20 Nov 2026 06:41:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 삼성전자와 TSMC가 미국의 신규 수출통제에 따라 중국 고객사에 대한 일부 칩 출하를 중단했다고 파이낸셜타임스...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/10/29/PRU20261029211601009_P2.jpg"
     }
   ]
 }

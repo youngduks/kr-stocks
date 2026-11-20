@@ -183,6 +183,13 @@ select {
 .line-tr.error { color: var(--warn); font-size: 12px; }
 .line-lang { font-size: 10px; font-weight: 700; color: var(--dim); margin-right: 6px; letter-spacing: .3px; }
 .line.interim .line-text { color: var(--sub); font-style: italic; }
+.sp { --h: 215; display: inline-block; font: inherit; font-size: 12px; font-weight: 700; line-height: 1.5; padding: 0 8px; margin-right: 6px; border: 0; border-radius: 999px; cursor: pointer; background: hsl(var(--h) 75% 92%); color: hsl(var(--h) 65% 28%); vertical-align: 1px; }
+.sp:hover { filter: brightness(.96); }
+@media (prefers-color-scheme: dark) { .sp { background: hsl(var(--h) 35% 24%); color: hsl(var(--h) 75% 84%); } }
+.pane-sub { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; padding: 8px 14px; border-bottom: 1px solid var(--line); font-size: 13px; color: var(--sub); }
+.pane-sub .spin { width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--line); border-top-color: var(--accent); animation: vn-spin .8s linear infinite; }
+@keyframes vn-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .pane-sub .spin { animation: none; } }
 
 .empty { text-align: center; color: var(--dim); padding: 36px 12px; font-size: 14px; line-height: 1.7; }
 .empty strong { display: block; color: var(--text); font-size: 15px; margin-bottom: 4px; }
@@ -339,7 +346,9 @@ a.btn { text-decoration: none; }
       <div class="pane-head">
         <h2 id="transcriptTitle">자막 · 번역</h2>
         <span class="pane-meta" id="segCount"></span>
+        <button class="btn small" id="btnPrecise" type="button" hidden>정밀 받아쓰기</button>
       </div>
+      <div class="pane-sub" id="preciseBar" hidden></div>
       <div class="pane-body" id="transcript"></div>
     </section>
 
@@ -399,6 +408,20 @@ a.btn { text-decoration: none; }
       </div>
     </div>
     <label class="setting">
+      <input type="checkbox" id="setAutoPrecise">
+      <div>
+        <div class="setting-title">녹음을 마치면 정밀 받아쓰기 (화자 구분)</div>
+        <div class="setting-desc">녹음 중 자막은 약 20초씩 끊어 듣기 때문에 거칩니다. 종료하면 Gemini가 녹음 전체를 한 번에 다시 듣고 더 정확하게 받아쓰며, 목소리로 사람을 구분해 ‘화자 1, 화자 2…’를 붙입니다(회의 하나에 1~2회 사용, 1시간 녹음에 몇 분). ‘녹음 파일 저장’이 켜져 있어야 합니다.</div>
+      </div>
+    </label>
+    <label class="setting">
+      <input type="checkbox" id="setNoiseSuppress">
+      <div>
+        <div class="setting-title">마이크 소음 억제</div>
+        <div class="setting-desc">꺼 두는 것을 권합니다. 켜면 브라우저가 주변 소리를 깎아 내는데, 회의실에서는 멀리 앉은 사람 목소리까지 깎여 받아쓰기가 나빠집니다. 시끄러운 곳에서 혼자 가까이 대고 말할 때만 켜세요. 다음 녹음부터 적용됩니다.</div>
+      </div>
+    </label>
+    <label class="setting">
       <input type="checkbox" id="setLiveDraft">
       <div>
         <div class="setting-title">녹음 중 AI 초안</div>
@@ -428,7 +451,7 @@ a.btn { text-decoration: none; }
              └─ 약 20초 음성 조각 (말이 끊기는 곳에서 자름, 길이는 설정의 ‘자막 간격’)
                   → Gemini: 받아쓰기 + 언어 감지 + 번역을 한 번에
      녹음 중 정리: 규칙 기반(rules.js, 지연 0) → 몇 분마다 Gemini 초안으로 바뀜
-     녹음 종료:   Gemini가 회의록 작성
+     녹음 종료:   녹음 파일 전체를 Gemini(Flash)가 다시 듣는다 → 더 정확한 자막 + 화자 구분 → 회의록 작성
 
    무료 한도가 "모델별 하루 요청 횟수"라서, 요청 수를 아끼고 한도가 끝나도
    녹음과 못 받아쓴 음성이 남도록 만드는 데 설계의 대부분을 썼다(Gemini 절 참고).
@@ -543,6 +566,8 @@ const Settings = {
     lastTerms: "",       // 지난 회의의 참석자·용어 — 새 회의에 미리 채워 준다(같은 사람들과 다시 만나는 일이 많다)
     pace: "normal",      // 자막 간격: fast | normal | slow
     liveDraft: true,     // 녹음 중 AI 초안
+    autoPrecise: true,   // 녹음을 마치면 정밀 받아쓰기(녹음 전체를 다시 듣고 화자를 구분)
+    noiseSuppress: false, // 브라우저 소음 억제·반향 제거(회의실에서는 끄는 편이 낫다)
     models: {},          // { lite: [...], flash: [...], at } — 이 키로 쓸 수 있는 모델(연결 확인 때 받아 온다)
     spent: {},           // { 모델: 한도를 다 쓴 날 }
     usage: {},           // { day, stt, draft, sum } — 오늘 보낸 횟수
@@ -709,20 +734,40 @@ const DAILY_MSG = "오늘 Gemini 무료 사용량을 다 썼습니다. 녹음은
 
 const Gemini = {
   BASE: "https://generativelanguage.googleapis.com/v1beta/models",
+  FILES: "https://generativelanguage.googleapis.com/upload/v1beta/files",
+  ROOT: "https://generativelanguage.googleapis.com/v1beta",
   // 모델 목록을 받아 오지 못했을 때만 쓰는 기본값
   DEFAULTS: {
-    lite: ["gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-2.5-flash-lite"],
-    flash: ["gemini-flash-latest", "gemini-3.8-flash", "gemini-2.5-flash"],
+    lite: ["gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite"],
+    flash: ["gemini-flash-latest", "gemini-3.8-flash", "gemini-3.6-flash", "gemini-3.5-flash"],
+  },
+  /* 음성을 듣는 일에 먼저 쓸 모델. "최신이 낫겠지"가 아니라 실제 호출로 잰 결과다(2026-11, 3인 한국어 회의 95초):
+       gemini-3.1-flash-lite  글자 오류율 20초 조각 13% · 100초 4%
+       gemini-3.5-flash-lite  20초 조각 40% · 100초 28%   ← 별칭 flash-lite-latest가 가리키는 모델
+       gemini-3.6-flash       녹음 전체 5%, 화자 구분 94% 정확 / gemini-3.5-flash 6%, 85%
+       gemini-3.7·3.8-flash   음성 입력에는 빈 응답(finishReason OTHER)
+     목록에 없는 이름은 건너뛴다. 새 모델이 나오면 다시 재서 고칠 것. */
+  PREFER: {
+    stt: ["gemini-3.1-flash-lite"],
+    precise: ["gemini-3.6-flash", "gemini-3.5-flash", "gemini-3.1-flash-lite"],
   },
   missing: new Set(),   // 이번에 404가 난 모델
-  last: {},             // { stt, draft, sum } 마지막으로 성공한 모델(설정 화면 표시용)
+  last: {},             // { stt, draft, sum, precise } 마지막으로 성공한 모델(설정 화면 표시용)
 
-  /** 용도별 후보 모델(앞이 우선). stt·draft는 Lite만 — Flash의 적은 하루 한도는 회의록 몫으로 남긴다. */
+  /** 용도별 후보 모델(앞이 우선).
+      stt(실시간 자막)·draft(녹음 중 초안)는 Lite만 — 하루 한도가 넉넉하다. 초안은 받아쓰기와 다른 Lite 모델부터 써서 한도를 나눠 쓴다.
+      precise(종료 후 정밀 받아쓰기)는 Flash — 회의 하나에 한두 번이라 하루 수십 회 한도로 충분하다.
+      sum(회의록)은 글만 다루므로 최신 Flash부터. */
   candidates(kind) {
     const m = Settings.v.models;
     const lite = m.lite?.length ? m.lite : this.DEFAULTS.lite;
     const flash = m.flash?.length ? m.flash : this.DEFAULTS.flash;
-    return (kind === "sum" ? [...flash, ...lite] : lite).filter((x) => !this.missing.has(x));
+    const first = (list, names) => [...names.filter((n) => list.includes(n)), ...list.filter((n) => !names.includes(n))];
+    const list = kind === "sum" ? [...flash, ...lite]
+      : kind === "precise" ? first([...flash, ...lite], this.PREFER.precise)
+      : kind === "stt" ? first(lite, this.PREFER.stt)
+      : lite;
+    return list.filter((x) => !this.missing.has(x));
   },
   spentToday(model) { return Settings.v.spent[model] === quotaDay(); },
   allSpent(kind) { const c = this.candidates(kind); return c.length > 0 && c.every((m) => this.spentToday(m)); },
@@ -776,9 +821,15 @@ const Gemini = {
   },
 
   async generate(kind, body, timeoutMs = 90000) {
+    return (await this.request(kind, body, timeoutMs)).text;
+  },
+
+  /** 한 번 호출 → { text, finish, model }. 후보 모델을 차례로 써 본다:
+      없는 모델 · 오늘 한도 소진 · 과부하(503) · 빈 응답이면 다음 모델로 넘어간다. */
+  async request(kind, body, timeoutMs = 90000) {
     if (!Settings.hasKey()) throw new GeminiError("key", "Gemini 키가 없습니다. 설정에서 키를 넣어 주세요.");
     const open = this.candidates(kind).filter((m) => !this.spentToday(m));
-    let sawDaily = open.length === 0, lastErr = null;
+    let sawDaily = open.length === 0, lastErr = null, missing = null;
     for (const model of open) {
       let res;
       try {
@@ -791,24 +842,25 @@ const Gemini = {
         throw new GeminiError("network", e?.name === "TimeoutError" ? "Gemini 응답이 너무 늦습니다." : "네트워크에 연결할 수 없습니다.");
       }
       if (res.ok) {
-        const j = await res.json();
-        this.last[kind] = model;
+        let j = null;
+        try { j = await res.json(); } catch {}
         this.count(kind);
         const cand = j?.candidates?.[0];
         const text = (cand?.content?.parts || []).map((p) => p.text || "").join("");
-        if (!text) {
-          const blocked = cand?.finishReason === "SAFETY" || j?.promptFeedback?.blockReason;
-          throw new GeminiError(blocked ? "blocked" : "other", blocked ? "Gemini가 이 내용을 처리하지 않았습니다(안전 정책)." : "Gemini가 빈 응답을 보냈습니다.");
-        }
-        return text;
+        if (text) { this.last[kind] = model; return { text, finish: cand?.finishReason || "", model }; }
+        const blocked = cand?.finishReason === "SAFETY" || j?.promptFeedback?.blockReason;
+        lastErr = new GeminiError(blocked ? "blocked" : "empty", blocked ? "Gemini가 이 내용을 처리하지 않았습니다(안전 정책)." : "Gemini가 빈 응답을 보냈습니다.");
+        continue;
       }
       const err = await this.toError(res);
-      if (err.code === "model") { this.missing.add(model); lastErr = err; continue; }                              // 없는 모델 → 다음
-      if (err.code === "daily") { Settings.v.spent[model] = quotaDay(); Settings.save(); sawDaily = true; continue; } // 오늘 몫 소진 → 다음
+      if (err.code === "model") { this.missing.add(model); missing = err; continue; }
+      if (err.code === "daily") { Settings.v.spent[model] = quotaDay(); Settings.save(); sawDaily = true; continue; }
+      if (err.code === "server") { lastErr = err; continue; } // 한 모델이 붐벼도 다른 모델은 되는 일이 많다
       throw err;
     }
+    if (lastErr) throw lastErr;
     if (sawDaily) throw new GeminiError("daily", DAILY_MSG);
-    throw new GeminiError("model", `쓸 수 있는 Gemini 모델을 찾지 못했습니다. 설정에서 ‘저장 후 연결 확인’을 다시 눌러 주세요. ${lastErr?.message || ""}`.trim());
+    throw new GeminiError("model", `쓸 수 있는 Gemini 모델을 찾지 못했습니다. 설정에서 ‘저장 후 연결 확인’을 다시 눌러 주세요. ${missing?.message || ""}`.trim());
   },
 
   async toError(res) {
@@ -821,7 +873,8 @@ const Gemini = {
         || /retry in ([\d.]+)s/i.exec(msg)?.[1];
       if (delay) retryMs = Math.ceil(parseFloat(delay) * 1000);
     } catch {}
-    if (res.status === 404 || /is not found|not supported for generateContent|unknown model/i.test(msg)) return new GeminiError("model", msg);
+    if (res.status === 404 || /is not found|not supported for generateContent|unknown model|no longer available/i.test(msg)) return new GeminiError("model", msg);
+    if (res.status === 400 && /mime|unsupported (file|audio|media)|audio format/i.test(msg)) return new GeminiError("mime", `Gemini가 이 녹음 형식을 읽지 못했습니다. ${msg.slice(0, 120)}`);
     if (res.status === 401 || (res.status === 400 && /api key|API_KEY/i.test(msg))) return new GeminiError("key", "Gemini 키가 올바르지 않습니다. 설정에서 키를 다시 넣어 주세요.");
     if (res.status === 403) return new GeminiError("key", "이 키로는 Gemini를 쓸 수 없습니다(권한 또는 지역 제한). 키를 확인해 주세요.");
     if (res.status === 429) {
@@ -849,16 +902,91 @@ const Gemini = {
       .filter((s) => s.text);
   },
 
+  /** 정밀 받아쓰기 — 녹음 파일 하나를 통째로 다시 듣고 화자를 구분해 받아쓴다 → [{ atMs(파일 처음부터), sp, text, tr }]
+      실시간 자막은 20초씩 끊어 듣는 탓에 문맥이 없고 조각마다 목소리를 새로 구분해야 한다. 통째로 들으면 둘 다 풀린다.
+      출력은 JSON이 아니라 "[분:초] 화자N: 말" 줄 형식 — 길어서 중간에 끊겨도 받은 줄까지는 쓸 수 있고,
+      끊긴 곳부터 "앞에서 쓴 화자 번호 그대로" 이어 받게 할 수 있다(실제 호출로 확인). */
+  INLINE_MAX: 13 * 1024 * 1024, // 요청 하나에 실을 수 있는 크기(약 20MB)에서 base64로 늘어나는 몫을 뺀 값
+  async precise(blob, { foreign = "off", terms = "", onProgress = null } = {}) {
+    const mime = (blob.type || "audio/webm").split(";")[0];
+    let part;
+    if (blob.size <= this.INLINE_MAX) {
+      part = { inlineData: { mimeType: mime, data: await blobToBase64(blob) } };
+    } else {
+      onProgress?.("녹음 파일을 Gemini에 올리는 중…");
+      part = { fileData: { mimeType: mime, fileUri: await this.upload(blob, mime) } };
+    }
+    const lines = [];
+    let relabeled = false;
+    for (let round = 0; round < 10; round++) {
+      onProgress?.(lines.length ? `이어서 받아쓰는 중… (${fmtClock(lines.at(-1).atMs)} 이후)` : "Gemini가 녹음 전체를 다시 듣는 중…");
+      let res;
+      try {
+        res = await this.request("precise", {
+          systemInstruction: { parts: [{ text: preciseInstruction(foreign, terms, lines.slice(-12)) }] },
+          contents: [{ role: "user", parts: [part] }],
+          generationConfig: { temperature: 0 },
+        }, 15 * 60000);
+      } catch (e) {
+        // 형식 이름 때문에 거절되면 한 번만 이름을 바꿔 다시 보낸다 — Gemini는 webm·m4a 내용을 이름과 상관없이 읽어 낸다(실제 확인)
+        if (e?.code === "mime" && part.inlineData && !relabeled) { relabeled = true; part = { inlineData: { ...part.inlineData, mimeType: "audio/wav" } }; round--; continue; }
+        throw e;
+      }
+      const got = parsePreciseLines(res.text);
+      const cutOff = res.finish === "MAX_TOKENS";
+      if (cutOff) got.pop(); // 끊긴 마지막 줄은 다음 차례에 다시 받는다
+      const lastMs = lines.length ? lines.at(-1).atMs : -1;
+      const fresh = got.filter((g) => g.atMs > lastMs);
+      lines.push(...fresh);
+      if (!cutOff || !fresh.length) break;
+    }
+    return lines;
+  },
+
+  /** 큰 녹음 파일은 Files API로 올린 뒤 주소로 넘긴다(올린 파일은 Google이 48시간 뒤 지운다). */
+  async upload(blob, mime) {
+    const key = Settings.v.geminiKey;
+    let start;
+    try {
+      start = await withTimeout(fetch(this.FILES, {
+        method: "POST",
+        headers: {
+          "x-goog-api-key": key, "content-type": "application/json",
+          "x-goog-upload-protocol": "resumable", "x-goog-upload-command": "start",
+          "x-goog-upload-header-content-length": String(blob.size), "x-goog-upload-header-content-type": mime,
+        },
+        body: JSON.stringify({ file: { display_name: "voicenote" } }),
+      }), 30000);
+    } catch { throw new GeminiError("network", "녹음 파일을 올리지 못했습니다(네트워크)."); }
+    if (!start.ok) throw await this.toError(start);
+    const url = start.headers.get("x-goog-upload-url");
+    if (!url) throw new GeminiError("other", "녹음 파일을 올릴 주소를 받지 못했습니다.");
+    let up;
+    try {
+      up = await withTimeout(fetch(url, { method: "POST", headers: { "x-goog-upload-offset": "0", "x-goog-upload-command": "upload, finalize" }, body: blob }), 10 * 60000);
+    } catch { throw new GeminiError("network", "녹음 파일을 올리다가 끊겼습니다."); }
+    if (!up.ok) throw await this.toError(up);
+    let file = (await up.json().catch(() => null))?.file;
+    for (let i = 0; file?.state === "PROCESSING" && i < 60; i++) { // 긴 파일은 준비에 시간이 걸린다
+      await sleep(2000);
+      const r = await fetch(`${this.ROOT}/${file.name}`, { headers: { "x-goog-api-key": key } }).catch(() => null);
+      if (r?.ok) file = await r.json().catch(() => file);
+    }
+    if (!file?.uri) throw new GeminiError("other", "올린 녹음 파일을 Gemini가 준비하지 못했습니다.");
+    return file.uri;
+  },
+
   /** 회의 전체 → 회의록. Gemini는 컨텍스트가 넉넉해서 녹취록을 한 번에 넣는다.
       draft: 녹음 중 초안 — 지금까지의 내용만으로, 한도가 넉넉한 Lite 모델로 만든다. */
   async minutes(session, { draft = false } = {}) {
+    const named = session.segments.some((g) => g.sp);
     const lines = session.segments.map((g) => {
       const ko = g.lang !== "ko" && g.trLang === "ko" && g.tr ? ` (한국어: ${g.tr})` : "";
-      return `[${fmtClock(g.atMs)}] ${g.text}${ko}`;
+      return `[${fmtClock(g.atMs)}] ${g.sp ? `${speakerName(session, g.sp)}: ` : ""}${g.text}${ko}`;
     }).join("\n");
     const text = await this.generate(draft ? "draft" : "sum", {
       systemInstruction: { parts: [{ text: `너는 꼼꼼한 회의 서기다. 회의 녹취록을 회의록으로 정리한다.
-녹취록은 자동 받아쓰기라 오탈자가 있고 화자 구분이 없다. 명백한 오인식만 조용히 고치고, 녹취록에 없는 내용은 절대 지어내지 않는다.
+녹취록은 자동 받아쓰기라 오탈자가 있다. ${named ? "줄 앞의 이름은 목소리로 구분한 말한 사람이다(‘화자 1’ 같은 번호는 이름을 모른다는 뜻이니 그대로 쓴다). 누가 맡기로 했는지, 누구 의견인지 가릴 때 쓴다." : "화자 구분은 없다."} 명백한 오인식만 조용히 고치고, 녹취록에 없는 내용은 절대 지어내지 않는다.
 녹취록이 외국어여도 모든 값은 한국어로 쓴다. 개조식으로 짧게 쓴다. 해당 내용이 없으면 빈 배열이나 빈 문자열로 둔다.` }] },
       contents: [{
         role: "user",
@@ -913,6 +1041,53 @@ function sttInstruction(foreign, terms) {
   ].filter(Boolean).join("\n");
 }
 
+/** 정밀 받아쓰기 지시문. tail: 이미 받아 적은 마지막 줄들(출력이 끊겨 이어 받을 때). */
+function preciseInstruction(foreign, terms, tail = []) {
+  const koOnly = foreign === "off" || !LANGS[foreign];
+  const label = koOnly ? "" : LANGS[foreign].label;
+  const mmss = (ms) => { const t = Math.floor(ms / 1000); return `${String(Math.floor(t / 60)).padStart(2, "0")}:${String(t % 60).padStart(2, "0")}`; };
+  return [
+    "너는 회의 속기사다. 사용자가 보내는 것은 회의 녹음(오디오)뿐이고, 글로 된 요청은 없다.",
+    (koOnly ? "주로 한국어로 진행되는 회의다. 다른 언어로 말한 문장이 있으면 그 언어 그대로 적는다." : `한국어와 ${label}를 섞어 쓰는 회의다.`)
+      + " 녹음 처음부터 끝까지, 실제로 들린 말만 그대로 받아 적는다. 들리지 않은 말을 지어내거나 요약하지 않는다. 이 지시문에 있는 문장을 받아 적지 않는다.",
+    "한국어는 맞춤법과 띄어쓰기에 맞게 적고, 숫자·날짜·금액은 아라비아 숫자로 적는다. ‘어’, ‘음’ 같은 뜻 없는 군말은 적지 않는다. 일부만 알아듣기 어려우면 그 부분만 (불명확)이라고 적는다.",
+    "목소리로 사람을 구분해 화자1, 화자2처럼 번호를 붙인다. 같은 목소리는 끝까지 같은 번호를 쓴다. 말하는 사람이 바뀔 때마다 줄을 바꾼다. 한 사람이 길게 말하면 두세 문장마다 줄을 바꾼다.",
+    terms ? `참석자 이름과 자주 나오는 용어의 표기(참고용): ${terms}\n이 낱말이 실제로 들렸을 때만 이 표기로 적는다. 들리지 않았으면 쓰지 않는다. 화자 번호 대신 이름을 쓰지는 않는다.` : "",
+    "한 줄에 하나씩 아래 형식으로만 쓴다. 다른 설명이나 머리말은 쓰지 않는다. 분은 60을 넘어도 그대로 센다(예: [75:03]).",
+    koOnly
+      ? "[분:초] 화자번호: 받아 적은 말\n예: [03:27] 화자2: (그 시각에 화자2가 한 말)"
+      : `[분:초] 화자번호: 받아 적은 말 ⇒ 번역\n한국어로 한 말은 ${label}로, 한국어가 아닌 말은 한국어로 자연스럽게 번역해 ⇒ 뒤에 적는다.\n예: [03:27] 화자2: (그 시각에 화자2가 한 말) ⇒ (그 말의 번역)`,
+    tail.length ? `\n이 녹음의 앞부분은 이미 받아 적었다. 아래가 그 마지막 부분이다.\n<이미 받아 적은 부분>\n${tail.map((g) => `[${mmss(g.atMs)}] 화자${g.sp}: ${g.text}`).join("\n")}\n</이미 받아 적은 부분>\n[${mmss(tail.at(-1).atMs)}] 줄 다음에 나오는 말부터 녹음 끝까지 이어서 받아 적는다. 이미 받아 적은 줄은 다시 쓰지 않는다. 같은 목소리에는 위에서 쓴 화자 번호를 그대로 쓴다.` : "",
+  ].filter(Boolean).join("\n");
+}
+
+/** "[분:초] 화자N: 말 ⇒ 번역" 줄들 → [{ atMs, sp, text, tr }]. 형식에 안 맞는 줄은 버린다. */
+function parsePreciseLines(text) {
+  const out = [];
+  for (const line of String(text || "").split("\n")) {
+    const m = /^\s*\[(\d+):(\d{1,2})(?::(\d{2}))?\]\s*화자\s*(\d+)\s*[:：]\s*(.+)$/.exec(line);
+    if (!m) continue;
+    const sec = m[3] != null ? +m[1] * 3600 + +m[2] * 60 + +m[3] : +m[1] * 60 + +m[2];
+    const [body, ...rest] = m[5].split("⇒");
+    const t = body.trim();
+    if (t) out.push({ atMs: sec * 1000, sp: String(+m[4]), text: t, tr: rest.join("⇒").trim() });
+  }
+  return out;
+}
+
+/** 글자만 보고 언어를 가린다(정밀 받아쓰기는 줄 형식이라 언어 표시를 따로 받지 않는다) */
+function detectLang(text) {
+  const n = (re) => (text.match(re) || []).length;
+  const ko = n(/[\uac00-\ud7a3]/g), ja = n(/[\u3040-\u30ff]/g), zh = n(/[\u4e00-\u9fff]/g), en = n(/[A-Za-z]/g);
+  if (ko >= 2 && ko >= ja) return "ko";
+  if (ja >= 2) return "ja";
+  if (zh >= 2) return "zh";
+  return en > ko ? "en" : "ko";
+}
+
+/** 화자 이름표 — 사용자가 붙인 이름이 있으면 그것, 없으면 ‘화자 N’ */
+const speakerName = (session, sp) => session.speakers?.[sp] || `화자 ${sp}`;
+
 /** 참석자·용어 입력값 다듬기 — 한 줄, 300자까지 */
 const cleanTerms = (v) => String(v || "").replace(/\s+/g, " ").trim().slice(0, 300);
 
@@ -952,7 +1127,9 @@ class Mic {
   static RATE = 16000;
 
   async start(baseMs) {
-    this.stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true } });
+    // 회의실에서는 브라우저의 소음 억제·반향 제거가 멀리 앉은 사람 목소리까지 깎아 낸다 — 기본은 끄고 음량 자동 조절만 켠다.
+    const clean = !!Settings.v.noiseSuppress;
+    this.stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: clean, noiseSuppression: clean, autoGainControl: true, channelCount: 1 } });
     this.ctx = new (window.AudioContext || window.webkitAudioContext)();
     try { await this.ctx.resume(); } catch {}
     const src = this.ctx.createMediaStreamSource(this.stream);
@@ -968,19 +1145,30 @@ class Mic {
       this.floor = null;
       this.ratio = this.ctx.sampleRate / Mic.RATE;
       this.phase = 0;
-      this.proc = this.ctx.createScriptProcessor(4096, 1, 1);
       const mute = this.ctx.createGain();
       mute.gain.value = 0; // 스피커로는 내보내지 않는다(일부 브라우저는 destination에 이어야 처리가 돈다)
+      mute.connect(this.ctx.destination);
+      // 소리는 오디오 전용 스레드(AudioWorklet)에서 받는다. 예전 방식(ScriptProcessor)은 화면 스레드에서 돌아서,
+      // 화면이 바쁘면 소리 덩어리를 통째로 놓친다 — 받아쓰기가 뭉개지는 원인이 된다. 못 쓰는 브라우저에서만 예전 방식.
+      try {
+        const url = URL.createObjectURL(new Blob([TAP_WORKLET], { type: "application/javascript" }));
+        try { await this.ctx.audioWorklet.addModule(url); } finally { URL.revokeObjectURL(url); }
+        this.proc = new AudioWorkletNode(this.ctx, "vn-tap", { numberOfInputs: 1, numberOfOutputs: 1, channelCount: 1, channelCountMode: "explicit" });
+        this.proc.port.onmessage = (e) => this.onAudio(e.data);
+        this.capture = "worklet";
+      } catch {
+        this.proc = this.ctx.createScriptProcessor(4096, 1, 1);
+        this.proc.onaudioprocess = (e) => this.onAudio(e.inputBuffer.getChannelData(0));
+        this.capture = "script";
+      }
       src.connect(this.proc);
       this.proc.connect(mute);
-      mute.connect(this.ctx.destination);
-      this.proc.onaudioprocess = (e) => this.onAudio(e.inputBuffer.getChannelData(0));
     }
 
     if (Settings.v.saveAudio && "MediaRecorder" in window) {
       const type = ["audio/webm;codecs=opus", "audio/mp4", "audio/webm"].find((t) => MediaRecorder.isTypeSupported?.(t));
       try {
-        this.mr = new MediaRecorder(this.stream, { ...(type ? { mimeType: type } : {}), audioBitsPerSecond: 32000 });
+        this.mr = new MediaRecorder(this.stream, { ...(type ? { mimeType: type } : {}), audioBitsPerSecond: 24000 }); // 말소리엔 충분하고, 1시간이 약 11MB라 정밀 받아쓰기 때 한 번에 보낼 수 있다
         this.parts = [];
         this.savedParts = 0;
         this.mr.ondataavailable = (e) => e.data.size && this.parts.push(e.data);
@@ -1013,12 +1201,14 @@ class Mic {
     this.phase = t - input.length;
     this.blocks.push(Float32Array.from(out));
 
-    // 말소리 판정 — 주변 소음 수준(floor)을 따라가며 그보다 충분히 크면 말소리로 본다.
+    // 말소리 판정 — 주변 소음 수준(floor)을 따라가며 그보다 크면 말소리로 본다.
+    // 문턱은 낮게 잡는다: 멀리 앉은 사람의 작은 목소리를 '조용함'으로 보고 조각째 버리면 그 말은 영영 사라진다.
+    // (말이 없는 조각을 보내도 Gemini는 빈 결과를 준다 — 실제로 확인)
     let sum = 0;
     for (let i = 0; i < input.length; i++) sum += input[i] * input[i];
     const rms = Math.sqrt(sum / input.length);
     this.floor = this.floor == null ? rms : Math.min(rms, this.floor * 1.002 + 0.00002);
-    const silent = rms < Math.max(this.floor * 2.5, 0.004);
+    const silent = rms < Math.max(this.floor * 1.8, 0.0025);
 
     this.clockMs += blockMs;
     this.chunkMs += blockMs;
@@ -1034,8 +1224,8 @@ class Mic {
     const voiced = this.voicedMs, start = this.chunkStart, dur = this.chunkMs;
     const blocks = this.blocks;
     this.resetChunk();
-    if (voiced < 500) return;
-    this.onChunk?.({ blob: encodeWav(blocks, Mic.RATE), startMs: start, durMs: dur });
+    if (voiced < 350) return;
+    this.onChunk?.({ pcm: toPcm16(blocks), startMs: start, durMs: dur });
   }
 
   /** 지난번 호출 뒤로 쌓인 녹음 조각(없으면 null). 녹음 중간중간 디스크에 내려 적는 데 쓴다. */
@@ -1077,31 +1267,63 @@ class Mic {
         this.mr.stop();
       });
     }
-    try { this.proc && (this.proc.onaudioprocess = null); } catch {}
+    try { if (this.proc) { this.proc.onaudioprocess = null; if (this.proc.port) this.proc.port.onmessage = null; this.proc.disconnect(); } } catch {}
     this.stream?.getTracks().forEach((t) => t.stop());
     try { await this.ctx?.close(); } catch {}
     return blob && blob.size ? blob : null;
   }
 }
 
-/** Float32 조각들 → 16bit PCM WAV Blob */
-function encodeWav(blocks, rate) {
+/** 오디오 스레드에서 도는 수집기 — 약 0.1초어치씩 모아 화면 스레드로 넘긴다. */
+const TAP_WORKLET = `
+class VnTap extends AudioWorkletProcessor {
+  constructor() { super(); this.buf = []; this.n = 0; }
+  process(inputs) {
+    const ch = inputs[0] && inputs[0][0];
+    if (ch && ch.length) {
+      this.buf.push(ch.slice(0));
+      this.n += ch.length;
+      if (this.n >= 4096) {
+        const out = new Float32Array(this.n);
+        let o = 0;
+        for (const b of this.buf) { out.set(b, o); o += b.length; }
+        this.port.postMessage(out, [out.buffer]);
+        this.buf = []; this.n = 0;
+      }
+    }
+    return true;
+  }
+}
+registerProcessor("vn-tap", VnTap);
+`;
+
+/** Float32 조각들 → 16bit PCM. 소리가 작게 잡힌 조각은 키워서 보낸다(최대 10배) — 멀리서 말한 소리는 작게 들어온다. */
+function toPcm16(blocks) {
   const n = blocks.reduce((a, b) => a + b.length, 0);
-  const buf = new ArrayBuffer(44 + n * 2);
-  const v = new DataView(buf);
-  const w = (o, s) => { for (let i = 0; i < s.length; i++) v.setUint8(o + i, s.charCodeAt(i)); };
-  w(0, "RIFF"); v.setUint32(4, 36 + n * 2, true); w(8, "WAVE");
-  w(12, "fmt "); v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
-  v.setUint32(24, rate, true); v.setUint32(28, rate * 2, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true);
-  w(36, "data"); v.setUint32(40, n * 2, true);
-  let o = 44;
+  let peak = 0;
+  for (const b of blocks) for (let i = 0; i < b.length; i++) { const v = b[i] < 0 ? -b[i] : b[i]; if (v > peak) peak = v; }
+  const gain = peak > 0.001 && peak < 0.5 ? Math.min(0.8 / peak, 10) : 1;
+  const out = new Int16Array(n);
+  let o = 0;
   for (const b of blocks) {
-    for (let i = 0; i < b.length; i++, o += 2) {
-      const s = Math.max(-1, Math.min(1, b[i]));
-      v.setInt16(o, s < 0 ? s * 0x8000 : s * 0x7fff, true);
+    for (let i = 0; i < b.length; i++, o++) {
+      const v = Math.max(-1, Math.min(1, b[i] * gain));
+      out[o] = v < 0 ? v * 0x8000 : v * 0x7fff;
     }
   }
-  return new Blob([buf], { type: "audio/wav" });
+  return out;
+}
+
+/** 16bit PCM 조각들을 이어 붙여 WAV Blob으로 */
+function wavBlob(pcms, rate = Mic.RATE) {
+  const n = pcms.reduce((a, p) => a + p.length, 0);
+  const head = new DataView(new ArrayBuffer(44));
+  const w = (o, t) => { for (let i = 0; i < t.length; i++) head.setUint8(o + i, t.charCodeAt(i)); };
+  w(0, "RIFF"); head.setUint32(4, 36 + n * 2, true); w(8, "WAVE");
+  w(12, "fmt "); head.setUint32(16, 16, true); head.setUint16(20, 1, true); head.setUint16(22, 1, true);
+  head.setUint32(24, rate, true); head.setUint32(28, rate * 2, true); head.setUint16(32, 2, true); head.setUint16(34, 16, true);
+  w(36, "data"); head.setUint32(40, n * 2, true);
+  return new Blob([head, ...pcms], { type: "audio/wav" });
 }
 
 /* ═════════════════════════════════════════════════════════════════
@@ -1216,6 +1438,8 @@ const App = {
   pendingChunks: 0,
   failedChunks: [],       // 받아쓰지 못한 음성 조각 { key, startMs, durMs } — 음성은 IndexedDB에 있어 나중에도 다시 보낼 수 있다
   draft: { running: false, lastAt: 0, lastCount: 0, off: false },
+  recent: [],             // 방금 받아쓴 조각들 { startMs, durMs, pcm, session } — 다음 조각을 보낼 때 문맥으로 같이 보낸다
+  preciseState: { running: false, msg: "", error: "" },
   recSeq: 0,
   aiState: { running: false, error: "" },
   dirty: false,
@@ -1250,7 +1474,9 @@ const App = {
     this.accMs = s.durationMs || 0;
     this.view = s.ai ? "ai" : "rule";
     this.aiState = { running: false, error: "" };
+    this.preciseState = { running: false, msg: "", error: "" };
     this.failedChunks = [];
+    this.recent = [];
     this.interim = "";
     if (!s.rule && s.segments.length) s.rule = ruleSummary(s);
     UI.renderAll();
@@ -1268,8 +1494,9 @@ const App = {
         s.audioParts = part + 1;
         Store.save(s);
         if (this.session === s) {
-          UI.banner("지난번 녹음이 도중에 끊겼습니다. 끊기기 직전까지의 녹음 파일과 자막을 살려 두었습니다.", "warn", "restore");
+          UI.banner("지난번 녹음이 도중에 끊겼습니다. 끊기기 직전까지의 녹음 파일과 자막을 살려 두었습니다. 자막 위 ‘정밀 받아쓰기’를 누르면 살아난 녹음으로 자막을 다시 만들 수 있습니다.", "warn", "restore");
           UI.renderAudio();
+          UI.renderPrecise();
         }
       }
     } catch {}
@@ -1315,7 +1542,7 @@ const App = {
 
   persist() {
     this.session.durationMs = this.elapsed();
-    if (this.session.segments.length) Store.save(this.session);
+    if (this.session.segments.length || this.session.audioParts) Store.save(this.session);
   },
 
   /* ───────── 녹음 ───────── */
@@ -1354,6 +1581,10 @@ const App = {
     this.state = "recording";
     this.segStart = Date.now();
     this.recSeq = 0;
+    this.recent = [];
+    // 이번 녹음 파일이 회의 시간의 어디서 시작하는지 — 정밀 받아쓰기 결과를 제자리에 넣을 때 쓴다
+    s.partStarts = Array.isArray(s.partStarts) ? s.partStarts : [];
+    s.partStarts[s.audioParts || 0] = this.accMs;
     this.draft = { running: false, lastAt: this.accMs, lastCount: s.draft?._lines || 0, off: false };
     Store.save(s); // 자막이 붙기 전이라도 회의를 남겨 둔다 — 도중에 끊겨도 녹음을 되살릴 수 있게
     this.lockScreen();
@@ -1373,6 +1604,7 @@ const App = {
     if (this.state !== "paused") return;
     this.state = "recording";
     this.segStart = Date.now();
+    this.recent = []; // 쉬었다 이어 말하면 앞 조각은 문맥이 아니다
     this.mic?.resume();
     if (this.mode === "browser") this.listener?.start(this.session.speechLang);
     UI.renderAll();
@@ -1412,12 +1644,98 @@ const App = {
     this.persist();
     UI.renderAll();
 
+    // 녹음 전체를 다시 듣고 화자를 구분한다. 실패해도 실시간 자막은 그대로 남는다.
+    if (Settings.hasKey() && Settings.v.autoPrecise && blob) await this.runPrecise({ auto: true });
+    if (this.session !== s) return;
     if (!s.segments.length) {
       if (!this.failedChunks.length) UI.banner("인식된 말이 없습니다. 마이크가 켜져 있는지 확인해 주세요.", "warn", "empty");
       return;
     }
     UI.setTab("summary");
     if (Settings.hasKey()) this.runAi();
+  },
+
+  /* ───────── 정밀 받아쓰기 (녹음 전체 + 화자 구분) ───────── */
+
+  /** 녹음 파일 i번이 회의 시간의 어디서 시작하는가 */
+  partStart(s, i) {
+    if (i <= 0) return 0;
+    const v = s.partStarts?.[i];
+    return typeof v === "number" ? v : null;
+  },
+
+  /** auto: 녹음 종료 직후 — 아직 정밀하게 받아쓰지 않은 녹음만. 버튼으로 부르면 전부 다시. */
+  async runPrecise({ auto = false } = {}) {
+    const s = this.session;
+    if (this.preciseState.running || this.state !== "idle") return false;
+    if (!Settings.hasKey()) { UI.showSetup(true); return false; }
+    if (!s.audioParts) { if (!auto) toast("녹음 파일이 있어야 합니다. 설정에서 ‘녹음 파일 저장’을 켜고 녹음해 주세요."); return false; }
+    const say = (msg) => { this.preciseState.msg = msg; if (this.session === s) UI.renderPrecise(); };
+    this.preciseState = { running: true, msg: "준비 중…", error: "" };
+    UI.renderAll();
+    let done = 0;
+    try {
+      for (let i = auto ? (s.preciseParts || 0) : 0; i < s.audioParts; i++) {
+        const blob = await AudioDB.get(s.id, i).catch(() => null);
+        if (!blob) continue;
+        const head = s.audioParts > 1 ? `녹음 ${i + 1}/${s.audioParts} · ` : "";
+        const lines = await Gemini.precise(blob, { foreign: s.targetLang || "off", terms: cleanTerms(s.terms), onProgress: (m) => say(head + m) });
+        if (!lines.length) continue;
+        // 이 녹음이 차지하는 시간 구간의 자막을 통째로 바꾼다
+        let from = this.partStart(s, i);
+        if (from == null) from = (s.segments.filter((g) => g.sp).at(-1)?.atMs ?? -1000) + 1000; // 예전 회의에는 시작 시각 기록이 없다
+        const next = this.partStart(s, i + 1);
+        const to = i + 1 < s.audioParts && next != null ? next : Infinity;
+        const before = s.segments.filter((g) => g.atMs < from), after = s.segments.filter((g) => g.atMs >= to);
+        const replaced = s.segments.filter((g) => g.atMs >= from && g.atMs < to && !g.sp);
+        if (replaced.length) s.liveSegments = [...(s.liveSegments || []), ...replaced]; // 실시간 자막 원본은 남겨 둔다(백업 파일에 들어간다)
+        // 이어서 녹음한 파일은 화자 번호가 1부터 다시 매겨지므로 앞 번호 뒤로 민다
+        const base = before.reduce((n, g) => Math.max(n, Number(g.sp) || 0), 0);
+        const tl = s.targetLang && s.targetLang !== "off" ? s.targetLang : "";
+        s.segments = [...before, ...lines.map((g) => {
+          const lang = detectLang(g.text), tr = tl ? g.tr : "";
+          return { id: uid(), atMs: from + g.atMs, text: g.text, lang, sp: String(base + Number(g.sp)), tr, trLang: tr ? (lang === "ko" ? tl : "ko") : "", trStatus: tr ? "done" : "" };
+        }), ...after];
+        s.preciseParts = Math.max(s.preciseParts || 0, i + 1);
+        s.preciseAt = Date.now();
+        // 이 구간에서 못 받아써 보관해 둔 조각은 이제 필요 없다(녹음 전체를 다시 받아썼다)
+        const inRange = (c) => c.startMs >= from && c.startMs < to;
+        for (const c of await AudioDB.fails(s.id).catch(() => [])) if (inRange(c)) AudioDB.delKey(c.key).catch(() => {});
+        if (this.session === s) this.failedChunks = this.failedChunks.filter((c) => !inRange(c));
+        done++;
+        s.rule = ruleSummary(s);
+        Store.save(s);
+        if (this.session === s) UI.renderAll();
+      }
+    } catch (e) {
+      this.preciseState.error = e?.message || "정밀 받아쓰기를 하지 못했습니다.";
+      if (this.session === s) UI.banner(`정밀 받아쓰기를 하지 못했습니다 — ${this.preciseState.error} 실시간 자막은 그대로 남아 있고, 자막 위 ‘정밀 받아쓰기’ 버튼으로 다시 할 수 있습니다.`, "warn", "precise");
+    }
+    this.preciseState.running = false;
+    if (this.session === s) UI.renderAll();
+    return done > 0;
+  },
+
+  renameSpeaker(sp) {
+    const s = this.session;
+    const before = speakerName(s, sp);
+    const name = prompt(`${before}의 이름을 적어 주세요.\n(비워 두면 ‘화자 ${sp}’로 돌아갑니다. 다른 화자와 같은 이름을 붙이면 같은 사람으로 표시됩니다.)`, s.speakers?.[sp] || "");
+    if (name == null) return;
+    const v = name.replace(/\s+/g, " ").trim().slice(0, 30);
+    s.speakers = s.speakers || {};
+    if (v) s.speakers[sp] = v; else delete s.speakers[sp];
+    const after = speakerName(s, sp);
+    if (after !== before) {
+      // 이미 만든 회의록·초안에 적힌 이름표도 같이 바꾼다
+      const esc = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      const re = before === `화자 ${sp}` ? new RegExp(`화자\\s?${sp}(?!\\d)`, "g") : new RegExp(esc(JSON.stringify(before).slice(1, -1)), "g");
+      for (const k of ["ai", "draft"]) {
+        if (!s[k]) continue;
+        try { s[k] = JSON.parse(JSON.stringify(s[k]).replace(re, () => JSON.stringify(after).slice(1, -1))); } catch {}
+      }
+    }
+    Store.save(s);
+    UI.renderAll();
   },
 
   /* ───────── 받아쓰기 (Gemini) ───────── */
@@ -1429,16 +1747,50 @@ const App = {
     this.sttQueue = this.sttQueue.then(() => this.processChunk(chunk)).catch(() => {});
   },
 
+  /* 실시간 자막의 문맥 창 — 새 조각을 보낼 때 바로 앞 조각들의 음성도 같이 보내고, 그 구간의 자막을 새 결과로 통째로 바꾼다.
+     실제 Gemini로 잰 글자 오류율: 20초 조각만 13% → 45초 6% → 100초 4%. 길게 들을수록 정확한데, 길게 모았다 보내면 자막이 늦다.
+     그래서 조각은 짧게 자르되 앞 음성을 덧붙여 보낸다 — 요청 수는 그대로다. 화면에서는 방금 붙은 자막이 한 번 더 다듬어진다. */
+  CONTEXT_MS: 45000,
+
   async processChunk(chunk, attempt = 0) {
     const s = chunk.session;
     try {
       // 오늘 한도를 다 쓴 뒤에는 보내지 않고 바로 보관한다
       if (Gemini.allSpent("stt")) throw new GeminiError("daily", DAILY_MSG);
-      const blob = chunk.blob || await AudioDB.getKey(chunk.key);
-      if (!blob) return; // 보관해 둔 음성이 사라졌다(회의 삭제 등)
-      const segs = await Gemini.transcribe(await blobToBase64(blob), s.targetLang || "off", cleanTerms(s.terms));
-      if (chunk.key) AudioDB.delKey(chunk.key).catch(() => {});
-      this.addSegments(s, segs, chunk.startMs, chunk.durMs);
+      const stt = async (blob) => Gemini.transcribe(await blobToBase64(blob), s.targetLang || "off", cleanTerms(s.terms));
+      const end = chunk.startMs + chunk.durMs;
+      if (chunk.pcm) {
+        // 바로 앞에 이어진 조각들(사이가 3초 넘게 비면 거기서 끊는다)
+        const ctx = [];
+        let total = 0, head = chunk.startMs;
+        for (let i = this.recent.length - 1; i >= 0; i--) {
+          const c = this.recent[i];
+          if (c.session !== s || head - (c.startMs + c.durMs) > 3000 || total + c.durMs > this.CONTEXT_MS) break;
+          ctx.unshift(c); total += c.durMs; head = c.startMs;
+        }
+        let segs = await stt(wavBlob([...ctx.map((c) => c.pcm), chunk.pcm]));
+        let from = head;
+        if (ctx.length) {
+          // 다시 받아쓴 결과가 앞 구간을 뭉텅 빠뜨렸으면(이미 있던 글의 절반도 안 되면) 믿지 않고, 이번 조각만 따로 받아쓴다
+          const had = s.segments.filter((g) => !g.sp && g.atMs >= head && g.atMs < chunk.startMs).reduce((n, g) => n + g.text.length, 0);
+          const got = segs.reduce((n, g) => n + g.text.length, 0);
+          if (!segs.length || got < had * 0.5) { segs = await stt(wavBlob([chunk.pcm])); from = chunk.startMs; }
+        }
+        if (segs.length) {
+          s.segments = s.segments.filter((g) => g.sp || g.atMs < from || g.atMs >= end);
+          this.addSegments(s, segs, from, end - from);
+          if (s === this.session) UI.renderTranscript();
+        }
+        this.recent.push({ startMs: chunk.startMs, durMs: chunk.durMs, pcm: chunk.pcm, session: s });
+        while (this.recent.length > 4) this.recent.shift();
+      } else {
+        // 보관해 두었던 조각(음성은 IndexedDB에 있다) — 앞뒤 문맥 없이 그 조각만 받아쓴다
+        const blob = chunk.blob || await AudioDB.getKey(chunk.key);
+        if (!blob) return; // 보관해 둔 음성이 사라졌다(회의 삭제 등)
+        const segs = await stt(blob);
+        if (chunk.key) AudioDB.delKey(chunk.key).catch(() => {});
+        this.addSegments(s, segs, chunk.startMs, chunk.durMs);
+      }
       UI.clearBanner("stt");
     } catch (e) {
       const code = e?.code;
@@ -1447,6 +1799,7 @@ const App = {
         await sleep(e.retryMs || 4000 * (attempt + 1));
         return await this.processChunk(chunk, attempt + 1); // await: 재시도가 끝난 뒤에야 finally가 돌도록
       }
+      if (code === "empty" || code === "blocked") return; // 모델이 아무 말도 못 들었다 — 다시 보내도 같다
       await this.shelve(chunk);
       UI.banner(e?.message || "받아쓰기에 실패했습니다.", code === "key" ? "error" : "warn", "stt");
     } finally {
@@ -1463,6 +1816,7 @@ const App = {
     const s = chunk.session;
     const item = { key: chunk.key, startMs: chunk.startMs, durMs: chunk.durMs };
     if (!item.key) {
+      if (!chunk.blob && chunk.pcm) chunk.blob = wavBlob([chunk.pcm]);
       try { item.key = await AudioDB.putFail(s.id, chunk); }
       catch { item.blob = chunk.blob; } // 디스크에 못 적으면 이 페이지가 열려 있는 동안만 들고 있는다
     }
@@ -1685,6 +2039,9 @@ const UI = {
     });
     $("#setSaveAudio").addEventListener("change", (e) => { Settings.v.saveAudio = e.target.checked; Settings.save(); });
     $("#setLiveDraft").addEventListener("change", (e) => { Settings.v.liveDraft = e.target.checked; Settings.save(); });
+    $("#setAutoPrecise").addEventListener("change", (e) => { Settings.v.autoPrecise = e.target.checked; Settings.save(); });
+    $("#setNoiseSuppress").addEventListener("change", (e) => { Settings.v.noiseSuppress = e.target.checked; Settings.save(); });
+    $("#btnPrecise").addEventListener("click", async () => { if (await App.runPrecise()) App.runAi(); });
     $("#setPace").addEventListener("change", (e) => { Settings.v.pace = e.target.value; Settings.save(); this.renderAll(); });
 
     document.querySelectorAll(".seg-toggle button").forEach((b) => b.addEventListener("click", () => { App.view = b.dataset.view; this.renderSummary(); this.renderFoot(); }));
@@ -1728,6 +2085,7 @@ const UI = {
     if (document.activeElement !== $("#terms")) $("#terms").value = s.terms || "";
     $("#btnRecord").hidden = App.state === "recording" || App.state === "finishing";
     $("#btnRecord").textContent = App.state === "paused" || s.segments.length ? "● 이어서 녹음" : "● 녹음 시작";
+    $("#btnRecord").disabled = App.preciseState.running; // 녹음 전체를 다시 듣는 동안에는 새로 녹음하지 않는다
     $("#btnPause").hidden = App.state !== "recording";
     $("#btnStop").hidden = !rec;
     $("#btnStop").disabled = App.state === "finishing";
@@ -1740,7 +2098,35 @@ const UI = {
     this.renderTranscript();
     this.renderSummary();
     this.renderFoot();
+    this.renderPrecise();
     this.renderAudio();
+  },
+
+  /** 자막 위 한 줄 — 정밀 받아쓰기 진행 상황, 끝난 뒤에는 구분된 화자들(눌러서 이름을 붙인다) */
+  HUES: [215, 150, 25, 280, 340, 190, 95, 55],
+  spNode(sp) {
+    const s = App.session;
+    return h("button", { class: "sp", type: "button", style: `--h:${this.HUES[(Number(sp) - 1) % this.HUES.length] ?? 215}`, title: "눌러서 이름 바꾸기", onclick: () => App.renameSpeaker(sp) }, speakerName(s, sp));
+  },
+  renderPrecise() {
+    const s = App.session, p = App.preciseState, bar = $("#preciseBar"), btn = $("#btnPrecise");
+    const can = Settings.hasKey() && App.state === "idle" && (s.audioParts || 0) > 0;
+    btn.hidden = !can || p.running;
+    btn.textContent = s.preciseParts ? "다시 정밀 받아쓰기" : "정밀 받아쓰기 (화자 구분)";
+    const sps = [...new Set(s.segments.map((g) => g.sp).filter(Boolean))].sort((a, b) => a - b);
+    if (p.running) {
+      bar.hidden = false;
+      bar.replaceChildren(h("span", { class: "spin", "aria-hidden": "true" }), h("span", { role: "status" }, `정밀 받아쓰기 — ${p.msg} 1시간 녹음이면 몇 분 걸립니다. 이 화면을 열어 두세요.`));
+    } else if (sps.length) {
+      bar.hidden = false;
+      bar.replaceChildren(h("span", null, "말한 사람"), ...sps.map((sp) => this.spNode(sp)), h("span", null, "— 이름표를 누르면 이름을 붙일 수 있습니다"));
+    } else if (App.state === "recording" && Settings.hasKey() && Settings.v.autoPrecise && Settings.v.saveAudio) {
+      bar.hidden = false;
+      bar.replaceChildren(h("span", null, "지금 자막은 빠르게 받아쓴 것입니다. 종료하면 녹음 전체를 다시 듣고 더 정확하게 고치며 말한 사람을 구분합니다."));
+    } else {
+      bar.hidden = true;
+      bar.replaceChildren();
+    }
   },
 
   renderLangs() {
@@ -1799,7 +2185,9 @@ const UI = {
     return h("div", { class: "line", dataset: { id: seg.id } },
       h("div", { class: "line-time" }, fmtClock(seg.atMs)),
       // 한국어로만 하는 회의에서는 줄마다 붙는 KO 표시가 군더더기라 뺀다(다른 언어로 말한 줄에만 표시)
-      h("div", { class: "line-text", lang: seg.lang }, seg.lang === "ko" && !this.showsTranslation() ? null : h("span", { class: "line-lang" }, LANGS[seg.lang]?.short || ""), seg.text),
+      h("div", { class: "line-text", lang: seg.lang },
+        seg.sp ? this.spNode(seg.sp) : null,
+        seg.lang === "ko" && !this.showsTranslation() ? null : h("span", { class: "line-lang" }, LANGS[seg.lang]?.short || ""), seg.text),
       seg.tr ? h("div", { class: "line-tr", lang: seg.trLang }, seg.tr) : null);
   },
 
@@ -1916,7 +2304,7 @@ const UI = {
   renderFoot() {
     const s = App.session;
     const has = s.segments.length > 0;
-    $("#btnAi").disabled = !has || App.aiState.running || App.state !== "idle";
+    $("#btnAi").disabled = !has || App.aiState.running || App.preciseState.running || App.state !== "idle";
     $("#btnAi").textContent = s.ai ? "AI 회의록 다시 만들기" : "AI 회의록 만들기";
     $("#btnRetry").hidden = !App.failedChunks.length;
     $("#btnRetry").textContent = `못 받아쓴 구간 다시 (${App.failedChunks.length})`;
@@ -1990,14 +2378,16 @@ const UI = {
     $("#keyStatus").textContent = Settings.hasKey() ? "키가 저장되어 있습니다." : "키가 없습니다.";
     $("#setSaveAudio").checked = Settings.v.saveAudio;
     $("#setLiveDraft").checked = Settings.v.liveDraft;
+    $("#setAutoPrecise").checked = Settings.v.autoPrecise;
+    $("#setNoiseSuppress").checked = Settings.v.noiseSuppress;
     $("#setPace").replaceChildren(...Object.entries(PACE).map(([k, v]) => h("option", { value: k, selected: k === Settings.v.pace }, v.label)));
     const u = Settings.v.usage.day === quotaDay() ? Settings.v.usage : {};
     const spent = Object.keys(Settings.v.spent).filter((m) => Gemini.spentToday(m));
     $("#usageInfo").textContent = Settings.hasKey()
-      ? `오늘 사용 — 받아쓰기 ${u.stt || 0}회 · 녹음 중 초안 ${u.draft || 0}회 · 회의록 ${u.sum || 0}회.${spent.length ? ` 오늘 한도를 다 쓴 모델: ${spent.join(", ")}.` : ""}`
+      ? `오늘 사용 — 실시간 자막 ${u.stt || 0}회 · 녹음 중 초안 ${u.draft || 0}회 · 정밀 받아쓰기 ${u.precise || 0}회 · 회의록 ${u.sum || 0}회.${spent.length ? ` 오늘 한도를 다 쓴 모델: ${spent.join(", ")}.` : ""}`
       : "";
     $("#modelInfo").textContent = Settings.hasKey()
-      ? `모델 — 받아쓰기·초안: ${Gemini.last.stt || Gemini.candidates("stt")[0] || "-"} · 회의록: ${Gemini.last.sum || Gemini.candidates("sum")[0] || "-"}`
+      ? `모델 — 실시간 자막: ${Gemini.last.stt || Gemini.candidates("stt")[0] || "-"} · 정밀 받아쓰기: ${Gemini.last.precise || Gemini.candidates("precise")[0] || "-"} · 회의록: ${Gemini.last.sum || Gemini.candidates("sum")[0] || "-"}`
       : "";
   },
 };
@@ -2010,7 +2400,7 @@ const Export = {
   summaryMarkdown(s, sum) {
     const L = [`# ${s.title || autoTitle(s)}`, ""];
     const langs = s.targetLang && s.targetLang !== "off" ? `한국어 ↔ ${LANGS[s.targetLang]?.label}` : s.segments.some((g) => g.lang !== "ko") ? "한국어 외 (번역 없음)" : "한국어";
-    L.push(`- 일시: ${fmtDate(s.createdAt)}`, `- 길이: ${fmtDuration(s.durationMs || 0)}`, `- 언어: ${langs}`, `- 정리: ${sum === s.ai ? "Gemini" : sum === s.draft ? "Gemini (녹음 중 초안)" : "규칙 기반(실시간)"}`, "");
+    L.push(`- 일시: ${fmtDate(s.createdAt)}`, `- 길이: ${fmtDuration(s.durationMs || 0)}`, `- 언어: ${langs}`, `- 받아쓰기: ${s.preciseParts ? "정밀(녹음 전체, 화자 구분)" : "실시간 자막"}`, `- 정리: ${sum === s.ai ? "Gemini" : sum === s.draft ? "Gemini (녹음 중 초안)" : "규칙 기반(실시간)"}`, "");
     if (sum.overview) L.push("## 개요", sum.overview, "");
     if (sum.background.length) L.push("## 배경", ...sum.background.map((x) => `- ${x}`), "");
     if (sum.discussion.length) {
@@ -2034,12 +2424,12 @@ const Export = {
 
   fullMarkdown(s, sum) {
     return `${this.summaryMarkdown(s, sum)}\n---\n\n## 전체 자막\n\n${s.segments.map((g) =>
-      `**[${fmtClock(g.atMs)}]** ${g.text}${g.tr ? `  \n→ ${g.tr}` : ""}`).join("\n\n")}\n`;
+      `**[${fmtClock(g.atMs)}]** ${g.sp ? `**${speakerName(s, g.sp)}:** ` : ""}${g.text}${g.tr ? `  \n→ ${g.tr}` : ""}`).join("\n\n")}\n`;
   },
 
   transcriptText(s) {
     return `${s.title || autoTitle(s)}\n${fmtDate(s.createdAt)} · ${fmtDuration(s.durationMs || 0)}\n\n` +
-      s.segments.map((g) => `[${fmtClock(g.atMs)}] (${LANGS[g.lang]?.short || ""}) ${g.text}${g.tr ? `\n          (${LANGS[g.trLang]?.short || ""}) ${g.tr}` : ""}`).join("\n") + "\n";
+      s.segments.map((g) => `[${fmtClock(g.atMs)}] ${g.sp ? `${speakerName(s, g.sp)}: ` : `(${LANGS[g.lang]?.short || ""}) `}${g.text}${g.tr ? `\n          (${LANGS[g.trLang]?.short || ""}) ${g.tr}` : ""}`).join("\n") + "\n";
   },
 
   async importJson(file) {

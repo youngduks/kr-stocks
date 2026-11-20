@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex, nofollow">
 <meta name="color-scheme" content="light dark">
 <title>보이스노트</title>
-<meta name="description" content="회의를 녹음하면서 실시간으로 자막·번역·요약을 만드는 브라우저 앱. 서버도 API 키도 쓰지 않습니다.">
+<meta name="description" content="회의를 녹음하면서 실시간으로 자막·번역·회의록을 만드는 브라우저 앱. 한국어 회의와 한국어↔영어·일본어·중국어 회의를 지원합니다.">
 <style>
 /* ───────────────────────── 디자인 토큰 ───────────────────────── */
 :root {
@@ -117,6 +117,10 @@ main { max-width: 1240px; margin: 0 auto; padding: 16px; display: grid; gap: 14p
   font-size: 20px; font-weight: 700; padding: 2px 0;
 }
 .title-input::placeholder { color: var(--dim); font-weight: 600; }
+.terms-row { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--sub); white-space: nowrap; }
+.terms-input { flex: 1; min-width: 0; border: 0; border-bottom: 1px dashed var(--line); background: transparent; padding: 6px 2px; font-size: 14px; color: var(--text); }
+.terms-input::placeholder { color: var(--dim); }
+.terms-input:focus { outline: none; border-bottom-color: var(--accent); }
 .control-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
 .lang-box { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .lang-box label { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--sub); }
@@ -306,9 +310,11 @@ a.btn { text-decoration: none; }
 
   <section class="card controls" aria-label="녹음">
     <input class="title-input" id="title" type="text" maxlength="80" placeholder="회의 제목 (비워 두면 자동으로 붙습니다)" aria-label="회의 제목">
+    <label class="terms-row" id="termsBox" hidden><span>참석자·용어</span>
+      <input class="terms-input" id="terms" type="text" maxlength="300" placeholder="(선택) 이름·용어를 적어 두면 더 정확히 받아씁니다 — 예: 김민수 대리, 박지영 과장, PG사"></label>
     <div class="control-row">
       <div class="lang-box">
-        <label id="foreignBox">상대 언어 <select id="foreign" aria-label="상대 언어"></select></label>
+        <label id="foreignBox">회의 언어 <select id="foreign" aria-label="회의 언어"></select></label>
         <label id="speechBox" hidden>말하는 언어 <select id="speechLang" aria-label="말하는 언어"></select></label>
       </div>
       <div class="rec-box">
@@ -324,14 +330,14 @@ a.btn { text-decoration: none; }
   </section>
 
   <div class="tabs-mobile" role="tablist">
-    <button class="btn small" role="tab" data-tab="transcript" aria-selected="true" type="button">자막·번역</button>
+    <button class="btn small" role="tab" data-tab="transcript" aria-selected="true" type="button" id="tabTranscript">자막·번역</button>
     <button class="btn small" role="tab" data-tab="summary" aria-selected="false" type="button">회의 정리</button>
   </div>
 
   <div class="grid" id="grid" data-tab="transcript">
     <section class="card pane" id="paneTranscript" aria-label="자막">
       <div class="pane-head">
-        <h2>자막 · 번역</h2>
+        <h2 id="transcriptTitle">자막 · 번역</h2>
         <span class="pane-meta" id="segCount"></span>
       </div>
       <div class="pane-body" id="transcript"></div>
@@ -534,6 +540,7 @@ const Settings = {
   KEY: "voicenote.settings.v2",
   v: {
     geminiKey: "", noKeyMode: false, saveAudio: true, foreign: "en", speechLang: "ko",
+    lastTerms: "",       // 지난 회의의 참석자·용어 — 새 회의에 미리 채워 준다(같은 사람들과 다시 만나는 일이 많다)
     pace: "normal",      // 자막 간격: fast | normal | slow
     liveDraft: true,     // 녹음 중 AI 초안
     models: {},          // { lite: [...], flash: [...], at } — 이 키로 쓸 수 있는 모델(연결 확인 때 받아 온다)
@@ -828,20 +835,10 @@ const Gemini = {
     return new GeminiError("other", `Gemini 오류 (${res.status}) ${msg.slice(0, 160)}`);
   },
 
-  /** 음성 조각 → [{text, lang, translation}]
-      지시는 전부 시스템 지시문에 두고 사용자 쪽에는 오디오만 보낸다. 실제 Gemini로 확인한 것:
-      오디오 옆에 글로 된 요청을 같이 두면, 말이 또렷하지 않을 때 그 요청 문장을 "들린 말"로 받아 적는다.
-      "빠짐없이 적어라" 같은 압박도 넣지 않는다 — 안 들린 부분을 그럴듯한 문장으로 지어낸다. */
-  async transcribe(wavBase64, foreign) {
-    const tr = foreign === "off"
-      ? "translation은 빈 문자열로 둔다."
-      : `한국어로 말한 문장은 ${LANGS[foreign].label}로, 한국어가 아닌 문장은 한국어로 자연스럽게 번역해 translation에 넣는다.`;
+  /** 음성 조각 → [{text, lang, translation}]. 지시문은 sttInstruction 참고. */
+  async transcribe(wavBase64, foreign, terms = "") {
     const text = await this.generate("stt", {
-      systemInstruction: { parts: [{ text: `너는 회의 속기사다. 사용자가 보내는 것은 회의 녹음의 한 구간(오디오)뿐이고, 글로 된 요청은 없다.
-오디오에서 실제로 들린 말만 문장 단위로 그대로 받아 적는다. 한 구간 안에서 말하는 언어가 바뀔 수 있다. 들리지 않은 말을 지어내거나 요약하지 않는다. 이 지시문에 있는 문장을 받아 적지 않는다.
-말소리가 없거나, 소리는 있지만 무슨 말인지 알아들을 수 없으면 segments를 빈 배열로 둔다. 추측해서 채우지 않는다.
-각 문장의 언어를 ko(한국어)·en(영어)·ja(일본어)·zh(중국어) 중 하나로 표시한다.
-${tr}` }] },
+      systemInstruction: { parts: [{ text: sttInstruction(foreign, terms) }] },
       contents: [{ role: "user", parts: [{ inlineData: { mimeType: "audio/wav", data: wavBase64 } }] }],
       generationConfig: { temperature: 0, responseMimeType: "application/json", responseSchema: STT_SCHEMA },
     }, 60000);
@@ -865,7 +862,7 @@ ${tr}` }] },
 녹취록이 외국어여도 모든 값은 한국어로 쓴다. 개조식으로 짧게 쓴다. 해당 내용이 없으면 빈 배열이나 빈 문자열로 둔다.` }] },
       contents: [{
         role: "user",
-        parts: [{ text: `${draft ? "회의가 아직 진행 중이다. 지금까지의 녹취록만으로 정리한다.\n" : ""}회의 녹취록 ([분:초] 표시):
+        parts: [{ text: `${draft ? "회의가 아직 진행 중이다. 지금까지의 녹취록만으로 정리한다.\n" : ""}${session.terms ? `참석자 이름과 용어의 표기(참고용 — 녹취록의 오인식을 바로잡을 때만 쓴다): ${cleanTerms(session.terms)}\n` : ""}회의 녹취록 ([분:초] 표시):
 <녹취록>
 ${lines}
 </녹취록>
@@ -892,6 +889,32 @@ ${lines}
     return m;
   },
 };
+
+/** 받아쓰기 시스템 지시문.
+    foreign: "off"(한국어로만 하는 회의) | en | ja | zh(한국어와 그 언어를 섞어 쓰는 회의), terms: 참석자·용어 표기.
+
+    실제 Gemini로 확인하고 정한 것:
+    · 지시는 전부 여기(시스템 지시문)에 두고 사용자 쪽에는 오디오만 보낸다. 오디오 옆에 글로 된 요청을 같이 두면,
+      말이 또렷하지 않을 때 그 요청 문장을 "들린 말"로 받아 적는다.
+    · "빠짐없이 적어라" 같은 압박은 넣지 않는다 — 안 들린 부분을 그럴듯한 문장으로 지어낸다. */
+function sttInstruction(foreign, terms) {
+  const koOnly = foreign === "off" || !LANGS[foreign];
+  return [
+    "너는 회의 속기사다. 사용자가 보내는 것은 회의 녹음의 한 구간(오디오)뿐이고, 글로 된 요청은 없다.",
+    (koOnly ? "주로 한국어로 진행되는 회의다. " : `한국어와 ${LANGS[foreign].label}를 섞어 쓰는 회의다. `) + "오디오에서 실제로 들린 말만 문장 단위로 그대로 받아 적는다."
+      + (koOnly ? " 다른 언어로 말한 문장이 있으면 그 언어 그대로 적는다." : " 한 구간 안에서 말하는 언어가 바뀔 수 있다.")
+      + " 들리지 않은 말을 지어내거나 요약하지 않는다. 이 지시문에 있는 문장을 받아 적지 않는다.",
+    "말소리가 없거나, 소리는 있지만 무슨 말인지 알아들을 수 없으면 segments를 빈 배열로 둔다. 추측해서 채우지 않는다. 문장의 일부만 알아듣기 어려우면 그 부분만 (불명확)이라고 적는다.",
+    "한국어는 맞춤법과 띄어쓰기에 맞게 적고, 숫자·날짜·금액은 아라비아 숫자로 적는다. ‘어’, ‘음’ 같은 뜻 없는 군말은 적지 않는다.",
+    koOnly
+      ? "각 문장의 lang은 ko로 표시한다. 영어 단어나 약어가 섞여 있어도 한국어 문장이면 ko다. 문장 전체를 다른 언어로 말했을 때만 en(영어)·ja(일본어)·zh(중국어)로 표시한다.\ntranslation은 빈 문자열로 둔다."
+      : `각 문장의 언어를 ko(한국어)·en(영어)·ja(일본어)·zh(중국어) 중 하나로 표시한다.\n한국어로 말한 문장은 ${LANGS[foreign].label}로, 한국어가 아닌 문장은 한국어로 자연스럽게 번역해 translation에 넣는다.`,
+    terms ? `참석자 이름과 자주 나오는 용어의 표기(참고용): ${terms}\n이 낱말이 실제로 들렸을 때만 이 표기로 적는다. 들리지 않았으면 쓰지 않는다.` : "",
+  ].filter(Boolean).join("\n");
+}
+
+/** 참석자·용어 입력값 다듬기 — 한 줄, 300자까지 */
+const cleanTerms = (v) => String(v || "").replace(/\s+/g, " ").trim().slice(0, 300);
 
 function normalizeSummary(j) {
   const str = (v) => (typeof v === "string" ? v.trim() : "");
@@ -1169,7 +1192,7 @@ class Listener {
 function newSession() {
   return {
     id: uid(), title: "", createdAt: Date.now(), durationMs: 0,
-    speechLang: Settings.v.speechLang, targetLang: Settings.v.foreign,
+    speechLang: Settings.v.speechLang, targetLang: Settings.v.foreign, terms: Settings.v.lastTerms || "",
     segments: [], rule: null, ai: null, audioParts: 0,
   };
 }
@@ -1413,7 +1436,7 @@ const App = {
       if (Gemini.allSpent("stt")) throw new GeminiError("daily", DAILY_MSG);
       const blob = chunk.blob || await AudioDB.getKey(chunk.key);
       if (!blob) return; // 보관해 둔 음성이 사라졌다(회의 삭제 등)
-      const segs = await Gemini.transcribe(await blobToBase64(blob), s.targetLang || "off");
+      const segs = await Gemini.transcribe(await blobToBase64(blob), s.targetLang || "off", cleanTerms(s.terms));
       if (chunk.key) AudioDB.delKey(chunk.key).catch(() => {});
       this.addSegments(s, segs, chunk.startMs, chunk.durMs);
       UI.clearBanner("stt");
@@ -1519,7 +1542,9 @@ const App = {
     Settings.v.foreign = code;
     Settings.save();
     this.session.targetLang = code; // 다음 음성 조각부터 적용
+    UI.renderLangs();
     UI.renderChips();
+    UI.renderTranscript();
   },
 
   async lockScreen() { try { this.wakeLock = await navigator.wakeLock?.request("screen"); } catch {} },
@@ -1614,6 +1639,12 @@ const UI = {
 
     $("#title").addEventListener("input", (e) => { App.session.title = e.target.value; if (App.session.segments.length) Store.save(App.session); });
     $("#foreign").addEventListener("change", (e) => App.setForeign(e.target.value));
+    $("#terms").addEventListener("input", (e) => {
+      App.session.terms = e.target.value; // 다음 음성 조각부터 적용
+      Settings.v.lastTerms = cleanTerms(e.target.value);
+      Settings.save();
+      if (App.session.segments.length) Store.save(App.session);
+    });
     $("#speechLang").addEventListener("change", (e) => { Settings.v.speechLang = e.target.value; Settings.save(); });
 
     // 처음 설정
@@ -1693,6 +1724,8 @@ const UI = {
     this.showSetup(!Settings.hasKey() && !Settings.v.noKeyMode);
     $("#title").value = s.title || "";
     $("#title").placeholder = s.segments.length ? autoTitle(s) : "회의 제목 (비워 두면 자동으로 붙습니다)";
+    $("#termsBox").hidden = !Settings.hasKey();
+    if (document.activeElement !== $("#terms")) $("#terms").value = s.terms || "";
     $("#btnRecord").hidden = App.state === "recording" || App.state === "finishing";
     $("#btnRecord").textContent = App.state === "paused" || s.segments.length ? "● 이어서 녹음" : "● 녹음 시작";
     $("#btnPause").hidden = App.state !== "recording";
@@ -1715,10 +1748,19 @@ const UI = {
     $("#foreignBox").hidden = !keyMode;
     $("#speechBox").hidden = keyMode;
     $("#foreign").replaceChildren(
-      ...FOREIGN.map((k) => h("option", { value: k, selected: k === Settings.v.foreign }, LANGS[k].label)),
-      h("option", { value: "off", selected: Settings.v.foreign === "off" }, "번역 안 함"));
+      h("option", { value: "off", selected: Settings.v.foreign === "off" }, "한국어만"),
+      ...FOREIGN.map((k) => h("option", { value: k, selected: k === Settings.v.foreign }, `한국어 ↔ ${LANGS[k].label}`)));
+    // 번역이 없는 회의에서는 ‘번역’이라는 말을 화면에서 뺀다
+    const tr = this.showsTranslation();
+    $("#transcriptTitle").textContent = tr ? "자막 · 번역" : "자막";
+    $("#tabTranscript").textContent = tr ? "자막·번역" : "자막";
     $("#speechLang").replaceChildren(...Object.entries(LANGS).map(([k, v]) => h("option", { value: k, selected: k === Settings.v.speechLang }, v.label)));
     $("#speechLang").disabled = App.state !== "idle";
+  },
+
+  /** 지금 화면에 번역이 나오는 회의인가 — 번역을 켰거나, 이미 번역이 붙은 자막이 있을 때 */
+  showsTranslation() {
+    return (Settings.hasKey() && Settings.v.foreign !== "off") || App.session.segments.some((g) => g.tr);
   },
 
   renderClock() { $("#clock").textContent = fmtClock(App.state === "idle" ? App.session.durationMs || 0 : App.elapsed()); },
@@ -1728,7 +1770,7 @@ const UI = {
     const chips = [];
     if (Settings.hasKey()) {
       const f = Settings.v.foreign;
-      chips.push(["ok", f === "off" ? "Gemini · 받아쓰기·회의록" : `Gemini · 받아쓰기 · 한국어↔${LANGS[f].label} 번역 · 회의록`]);
+      chips.push(["ok", f === "off" ? "Gemini · 한국어 받아쓰기 · 회의록" : `Gemini · 받아쓰기 · 한국어↔${LANGS[f].label} 번역 · 회의록`]);
       if (App.pendingChunks > 0) chips.push(["busy", `받아쓰는 중 ${App.pendingChunks}구간`]);
       else if (App.state === "recording") chips.push(["busy", `약 ${PACE[Settings.v.pace].about}초마다 자막이 붙습니다`]);
       if (Gemini.allSpent("stt")) chips.push(["warn", "오늘 무료 받아쓰기 한도 소진 — 녹음은 계속 저장됩니다"]);
@@ -1756,7 +1798,8 @@ const UI = {
   segNode(seg) {
     return h("div", { class: "line", dataset: { id: seg.id } },
       h("div", { class: "line-time" }, fmtClock(seg.atMs)),
-      h("div", { class: "line-text", lang: seg.lang }, h("span", { class: "line-lang" }, LANGS[seg.lang]?.short || ""), seg.text),
+      // 한국어로만 하는 회의에서는 줄마다 붙는 KO 표시가 군더더기라 뺀다(다른 언어로 말한 줄에만 표시)
+      h("div", { class: "line-text", lang: seg.lang }, seg.lang === "ko" && !this.showsTranslation() ? null : h("span", { class: "line-lang" }, LANGS[seg.lang]?.short || ""), seg.text),
       seg.tr ? h("div", { class: "line-tr", lang: seg.trLang }, seg.tr) : null);
   },
 
@@ -1768,8 +1811,10 @@ const UI = {
       box.replaceChildren(h("div", { class: "empty" },
         h("strong", null, recording ? "듣고 있습니다…" : "녹음을 시작하면 여기에 자막이 나타납니다"),
         recording
-          ? (App.mode === "gemini" ? `약 ${PACE[Settings.v.pace].about}초마다, 말이 끊기는 곳에서 자막과 번역이 붙습니다.` : "말을 시작해 보세요.")
-          : "한국어와 상대 언어를 섞어 말해도 알아서 구분해 서로 번역합니다.",
+          ? (App.mode === "gemini" ? `약 ${PACE[Settings.v.pace].about}초마다, 말이 끊기는 곳에서 ${this.showsTranslation() ? "자막과 번역이" : "자막이"} 붙습니다.` : "말을 시작해 보세요.")
+          : !Settings.hasKey() ? "녹음하면서 말한 내용을 받아 적습니다."
+          : Settings.v.foreign === "off" ? "한국어 회의를 받아 적고, 끝나면 회의록으로 정리합니다. 외국어가 섞이는 회의라면 위 ‘회의 언어’를 바꾸세요."
+          : `한국어와 ${LANGS[Settings.v.foreign].label}를 섞어 말해도 알아서 구분해 서로 번역합니다. 한국어로만 하는 회의라면 위 ‘회의 언어’에서 ‘한국어만’을 고르세요.`,
         App.state === "idle" ? h("div", null, h("button", { class: "btn small", type: "button", onclick: () => App.loadDemo() }, "샘플 회의로 먼저 보기")) : null));
     } else {
       box.replaceChildren(...segs.map((s) => this.segNode(s)));
@@ -1964,7 +2009,7 @@ const md = (x) => (x || "").replace(/\|/g, "\\|");
 const Export = {
   summaryMarkdown(s, sum) {
     const L = [`# ${s.title || autoTitle(s)}`, ""];
-    const langs = s.targetLang && s.targetLang !== "off" ? `한국어 ↔ ${LANGS[s.targetLang]?.label}` : "번역 없음";
+    const langs = s.targetLang && s.targetLang !== "off" ? `한국어 ↔ ${LANGS[s.targetLang]?.label}` : s.segments.some((g) => g.lang !== "ko") ? "한국어 외 (번역 없음)" : "한국어";
     L.push(`- 일시: ${fmtDate(s.createdAt)}`, `- 길이: ${fmtDuration(s.durationMs || 0)}`, `- 언어: ${langs}`, `- 정리: ${sum === s.ai ? "Gemini" : sum === s.draft ? "Gemini (녹음 중 초안)" : "규칙 기반(실시간)"}`, "");
     if (sum.overview) L.push("## 개요", sum.overview, "");
     if (sum.background.length) L.push("## 배경", ...sum.background.map((x) => `- ${x}`), "");

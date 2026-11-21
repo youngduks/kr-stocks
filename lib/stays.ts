@@ -107,7 +107,7 @@ function normalize(row: any, today: string): Stay | null {
     no,
     name,
     region: str(row?.region, 40),
-    type: str(row?.type, 20),
+    type: str(row?.type, 80), // 테마 칩(lib/stayCategory.ts)이 type 글자로 분류 — 20자에선 뒷부분 키워드가 잘림
     hook_title: str(row?.hook_title, 120),
     summary: str(row?.summary, 200),
     thumb: thumb.startsWith("https://") ? thumb : "",

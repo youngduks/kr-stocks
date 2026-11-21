@@ -1,31 +1,17 @@
 {
   "category": "samsung",
-  "updated_at": "2026-11-20T18:05:12.634Z",
-  "count": 7,
+  "updated_at": "2026-11-21T00:25:44.770Z",
+  "count": 4,
   "items": [
     {
-      "title": "\"월요일엔 또 무슨 악몽이\"…삼전닉스 개미들 멘탈도 '바닥' [분석+]",
-      "link": "https://www.hankyung.com/article/2026112004446",
-      "source": "한국경제",
-      "ts": 1795179601000,
-      "pub": "Fri, 20 Nov 2026 22:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 'PER 2배' 극단적 저평가…1000조 벌어도 못 믿는다",
-      "link": "https://www.hankyung.com/article/2026112007211",
-      "source": "한국경제",
-      "ts": 1795166147000,
-      "pub": "Fri, 20 Nov 2026 18:15:47 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "삼전닉스 주주 1100만명…절반 이상이 '손실'",
-      "link": "https://www.hankyung.com/article/2026112007191",
-      "source": "한국경제",
-      "ts": 1795165995000,
-      "pub": "Fri, 20 Nov 2026 18:13:15 +0900",
-      "sentiment": "negative"
+      "title": "'갤럭시 S27 탑재' 엑시노스 2700 성능 유출…퀄컴 넘어서나 [IT썰]",
+      "link": "https://www.mt.co.kr/tech/2026/11/21/2026112017132061217",
+      "source": "머니투데이",
+      "ts": 1795212000000,
+      "pub": "Sat, 21 Nov 2026 07:00:00 +0900",
+      "sentiment": "neutral",
+      "desc": "삼성전자 차세대 AP(애플리케이션프로세서) '엑시노스 2700'의 성능 측정 결과가 유출됐다. 내년 출시될 갤럭시 S27 시리즈에 탑재될 것으로 예상되는 칩으로, 퀄컴의 최신 스냅드래곤을 탑재한 스마트폰보다 높은 벤치마크 점수를 기록해 관심을 끈다. 21일 IT 업계에",
+      "image": "https://thumb.mt.co.kr/06/2026/11/2026112017132061217_1.jpg"
     },
     {
       "title": "삼전 中에 칩 출하 중단? 7% 급락…하이닉스도 5.9%↓(종합)",
@@ -56,16 +42,6 @@
       "sentiment": "negative",
       "desc": "(서울=연합뉴스) 김유아 기자 = 20일 코스피가 4%대의 급락세를 이어가고 있다.",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/20/PYH2026112001920001300_P2.jpg"
-    },
-    {
-      "title": "삼성전자, 메모리·갤럭시에 새 사령탑…황상준·최원준 전면에(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261120040151003",
-      "source": "연합뉴스 경제",
-      "ts": 1795136520000,
-      "pub": "Fri, 20 Nov 2026 10:02:00 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 박초롱 강태우 기자 = 삼성전자가 반도체와 스마트폰· 가전사업을 이끄는 전영현·노태문 '투톱' 체제를 유지하며 조직 안정에 방...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/20/AKR20261120040151003_04_i_P2.jpg"
     }
   ]
 }

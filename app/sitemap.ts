@@ -91,6 +91,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8, // "청산맵" — 토큰화 주식 트레이더 키워드
     },
     {
+      url: `${base}/smart-money`,
+      lastModified: now,
+      changeFrequency: "hourly",
+      priority: 0.75, // 고수 지갑 vs 손실 지갑 — 하이퍼리퀴드 코인별 롱·숏 (2026-11-21)
+    },
+    {
       url: `${base}/about`,
       lastModified: now,
       changeFrequency: "monthly",

@@ -56,11 +56,12 @@ export const CATEGORIES: Category[] = [
     ko: "신호",
     en: "Signals",
     enHref: "/signals",
-    desc: "반도체 야간 신호 · 급변 · 청산맵 · 인간지표",
+    desc: "반도체 야간 신호 · 급변 · 청산맵 · 인간지표 · 고수 지갑",
     tabs: [
       { href: "/signals", label: "신호 모음", match: eq("/signals") },
       { href: "/liquidation", label: "청산맵", match: under("/liquidation") },
       { href: "/poll", label: "인간지표", match: under("/poll") },
+      { href: "/smart-money", label: "고수 지갑", match: under("/smart-money") },
     ],
   },
   {

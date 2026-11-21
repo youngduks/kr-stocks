@@ -50,7 +50,7 @@ export const metadata: Metadata = {
 };
 
 /**
- * 구조화 데이터 — 화면의 "📚 숙소 리스트"(번호 내림차순 전체)와 같은 순서·같은 문구만.
+ * 구조화 데이터 — 화면의 "📚 숙소 리스트"(번호 오름차순 전체)와 같은 순서·같은 문구만.
  * name = 카드 숙소 이름, description = 카드 한 줄 소개(intro), image = 카드 썸네일, url = 리스트 행 앵커(#stay-N).
  * 가격·평점·리뷰·주소는 넣지 않음(가격 줄은 조건·확인일이 숙소마다 달라 화면 문구와 1:1로 맞추기 어렵고, 평점·주소는 화면에 없음).
  * 제휴 링크도 넣지 않음. publisher/isPartOf 는 홈(app/page.tsx)에서 선언한 전역 @id 참조.
@@ -132,7 +132,7 @@ export default async function PickPage() {
         <script
           type="application/ld+json"
           // 숙소 이름·소개에 "<"가 들어가도 script 태그가 닫히지 않게 이스케이프
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(pickJsonLd(stays)).replace(/</g, "\\u003c") }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(pickJsonLd([...stays].sort((a, b) => a.no - b.no))).replace(/</g, "\\u003c") }}
         />
       )}
 

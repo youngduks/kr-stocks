@@ -74,7 +74,7 @@ export function regionCategory(region: string): RegionCategory {
 
 const THEME_KEYWORDS: Record<ThemeTag, string[]> = {
   "🏊 수영장·워터파크": ["수영장", "풀", "워터파크", "물놀이"],
-  "♨️ 온천": ["온천", "노천", "료칸", "대욕장", "스파"],
+  "♨️ 온천": ["온천", "노천", "료칸", "대욕장"],
   "🎄 크리스마스": ["크리스마스", "산타"],
 };
 

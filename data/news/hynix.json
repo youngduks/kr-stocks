@@ -1,8 +1,32 @@
 {
   "category": "hynix",
-  "updated_at": "2026-11-21T07:48:34.078Z",
+  "updated_at": "2026-11-21T15:43:19.764Z",
   "count": 15,
   "items": [
+    {
+      "title": "지지선 붕괴된 엔비디아…\"100달러 밑으로 갈수도\"",
+      "link": "https://www.hankyung.com/article/202611211619i",
+      "source": "한국경제",
+      "ts": 1795263532000,
+      "pub": "Sat, 21 Nov 2026 21:18:52 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "'역대급'으로 커진 공포…\"AI 투자 축소, 반도체 주문 취소 이어질 수도\"",
+      "link": "https://www.hankyung.com/article/202611211616i",
+      "source": "한국경제",
+      "ts": 1795262860000,
+      "pub": "Sat, 21 Nov 2026 21:07:40 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "시장 급락 초래한 엔비디아 'SEC 조사'...\"AI 순환 금융도 주시\"",
+      "link": "https://www.hankyung.com/article/202611211609i",
+      "source": "한국경제",
+      "ts": 1795260843000,
+      "pub": "Sat, 21 Nov 2026 20:34:03 +0900",
+      "sentiment": "negative"
+    },
     {
       "title": "\"소프트뱅크 손정의, 한때 SK하이닉스 1조달러 인수 구상했다\"",
       "link": "https://www.mt.co.kr/industry/2026/11/21/2026112115051047649",
@@ -22,32 +46,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 송진원 기자 = 손정의 소프트뱅크그룹 회장이 SK하이닉스를 인수하기 위해 최근 월가 금융기관들에 자금 조달 방안을 문의했다는 ...",
       "image": "https://img.yna.co.kr/photo/etc/epa/2026/07/14/PEP20260714096501009_P2.jpg"
-    },
-    {
-      "title": "반토막 났는데 \"주가 더 빠진다\"…하이닉스 결국 터졌다 [종목+]",
-      "link": "https://www.hankyung.com/article/2026112113316",
-      "source": "한국경제",
-      "ts": 1795230530000,
-      "pub": "Sat, 21 Nov 2026 12:08:50 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "베선트 \"제한 이미 마련\"…中 엔비디아 칩 수출, 추가 규제 불필요 입장",
-      "link": "https://www.mt.co.kr/world/2026/11/21/2026112109553588682",
-      "source": "머니투데이",
-      "ts": 1795224806000,
-      "pub": "Sat, 21 Nov 2026 10:33:26 +0900",
-      "sentiment": "neutral",
-      "desc": "\"원격 접속도 제한됐다\"…하원 보고서 \"중국 연계 기업에 칩 88만 개 승인\" 스콧 베선트 미국 재무장관이 중국에 대한 엔비디아 구형 칩 수출에 추가 제한은 필요 없다는 입장을 밝혔다. 20일(현지시간) AP통신에 따르면 베선트 장관은 트럼프 대통령과 아시아 순방을 마",
-      "image": "https://thumb.mt.co.kr/06/2026/11/2026112109553588682_1.jpg"
-    },
-    {
-      "title": "이재용의 원픽…\"될 사람이 됐다\" 엔비디아 뚫은 30년 삼성맨 [강경주의 테크X]",
-      "link": "https://www.hankyung.com/article/2026112004536",
-      "source": "한국경제",
-      "ts": 1795221003000,
-      "pub": "Sat, 21 Nov 2026 09:30:03 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "\"반도체 호황에도 파급 미미…10억원당 취업유발 2.4명\"",

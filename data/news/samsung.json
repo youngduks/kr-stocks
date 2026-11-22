@@ -1,22 +1,24 @@
 {
   "category": "samsung",
-  "updated_at": "2026-11-22T16:52:23.764Z",
-  "count": 4,
+  "updated_at": "2026-11-22T22:12:27.430Z",
+  "count": 3,
   "items": [
+    {
+      "title": "\"메모리값 급등 전가…계약 뒤에도 AI 서버값 인상\"",
+      "link": "https://www.yna.co.kr/view/AKR20261123007000009",
+      "source": "연합뉴스 국제",
+      "ts": 1795383652000,
+      "pub": "Mon, 23 Nov 2026 06:40:52 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 메모리 가격 급등의 여파로 계약 체결 수개월 뒤에도 인공지능(AI) 서버 가격이 최대 45% 오르는 사례가 나...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/17/PRU20261117016001009_P2.jpg"
+    },
     {
       "title": "'삼전닉스 폭락은 양반'…대박 터지고도 개미들 울린 종목 [한경우의 돈 되는 데이터]",
       "link": "https://www.hankyung.com/article/2026112002456",
       "source": "한국경제",
       "ts": 1795345202000,
       "pub": "Sun, 22 Nov 2026 20:00:02 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'겹악재' 삼전닉스, 시험대 올랐다",
-      "link": "https://www.hankyung.com/article/2026112224991",
-      "source": "한국경제",
-      "ts": 1795338765000,
-      "pub": "Sun, 22 Nov 2026 18:12:45 +0900",
       "sentiment": "negative"
     },
     {
@@ -28,16 +30,6 @@
       "sentiment": "neutral",
       "desc": "(도쿄=연합뉴스) 조성미 특파원 = MBK파트너스가 일본의 디지털 펜 제조사 와콤을 1조원대에 인수하는 것으로 전해졌다.",
       "image": "https://img.yna.co.kr/photo/cms/2024/09/25/36/PCM20240925000236003_P2.jpg"
-    },
-    {
-      "title": "삼전 中에 칩 출하 중단? 7% 급락…하이닉스도 5.9%↓(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261120039251008",
-      "source": "연합뉴스 경제",
-      "ts": 1795157174000,
-      "pub": "Fri, 20 Nov 2026 15:46:14 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 20일 각각 7%와 6%의 낙폭을 기록하며 정규장 거래를...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/20/PYH2026112014030001300_P2.jpg"
     }
   ]
 }

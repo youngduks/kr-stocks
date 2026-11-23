@@ -7,10 +7,37 @@
       "channel": "전인구경제연구소",
       "channel_url": "https://www.youtube.com/@moneydo",
       "channel_id": "UCznImSIaxZR7fdLCICLdgaQ",
-      "last_checked_video_id": "BgTV0Hy4y7o",
+      "last_checked_video_id": "DQv9N_UeY0k",
       "tagline": "\"고점 판독기\" — 나무위키에도 등재된 별명. 2023년 이후 증시 전망이 반대로 맞는 걸로 유명",
       "note": "본인 문서(나무위키)에 \"시장 전망 영상 대부분이 틀리는 걸 넘어 반대로 맞히는 예지력\"이라는 비판이 있고, 댓글창에서 \"고점 판독기\"·\"어둠의 고수\"로 불림. 역발상 참고용으로 소개합니다 — 조롱이 목적이 아니라, 실제로 존재하는 밈이라 재미로 트래킹합니다.",
       "opinions": [
+        {
+          "date": "2026-11-23",
+          "title": "반도체 투자 지금 괜찮을까?😰",
+          "summary": "연준의 12월 일정과 공포 지수 급등, 엔비디아 호실적 후 차익 실현, 미국의 대중 칩 규제 강화, 반도체 가격 담합 집단소송 등 반도체 업종의 부정적 요인들을 나열했다. 마지막에 '여러분은 어떻게 보시나요?'라고 물으며 명확한 방향 결론은 내리지 않았다.",
+          "summary_short": "반도체 악재 점검",
+          "stance": "cautious",
+          "video_url": "https://www.youtube.com/watch?v=DQv9N_UeY0k",
+          "published_at": "2026-11-23T10:00:11.000Z"
+        },
+        {
+          "date": "2026-11-23",
+          "title": "4년 만에 17억 만든 비법. 저는 이때만 투자합니다(ft.신현욱 작가 1부)",
+          "summary": "화자는 현재 국장이 5,000피도 깨지며 유동성이 죽은 하락장이라 시도하면 오히려 피해를 볼 수 있는 시장이라고 보고, 거래대금을 10분의 1로 줄였다고 말한다. 다만 박스권 장세가 올 것으로 보고 앞으로 1~2년은 중소형주 중심으로 대응하겠다고 하며, 장이 돌아오면 살아날 자신감은 잃지 않았다고 한다.",
+          "summary_short": "하락장 관망, 박스권 대비",
+          "stance": "cautious",
+          "video_url": "https://www.youtube.com/watch?v=xqJaSkWIQiM",
+          "published_at": "2026-11-23T08:35:20.000Z"
+        },
+        {
+          "date": "2026-11-23",
+          "title": "요즘 AI 주식 투자자들이 가장 숨죽이고 지켜보는 이유🥶",
+          "summary": "AI 수요 급증으로 등장한 네오클라우드(코어위브 등)가 미래 수익만 믿고 회사채로 데이터센터를 지어 연간 현금 창출액의 9배가 넘는 빚을 안았고, 고금리 여파로 지난달 회사채 최고 금리가 15%까지 올랐다고 지적한다. 고객사 하나만 파산해도 연쇄 부도로 이어질 수 있다며 현재 AI 투자가 안전한지 의문을 제기한다.",
+          "summary_short": "AI 투자 약한 고리 경계",
+          "stance": "cautious",
+          "video_url": "https://www.youtube.com/watch?v=DrhAL9oZuDo",
+          "published_at": "2026-11-23T02:21:07.000Z"
+        },
         {
           "date": "2026-11-22",
           "title": "증안펀드 금액을 40조로 늘려야 하는 이유",
@@ -73,33 +100,6 @@
           "stance": "cautious",
           "video_url": "https://www.youtube.com/watch?v=bYGImu0Xhag",
           "published_at": "2026-11-18T10:02:42.000Z"
-        },
-        {
-          "date": "2026-11-16",
-          "title": "겁먹은 코스피, 이번주 두가지 고비가 옵니다",
-          "summary": "외국인의 대규모 순매도와 개인·기관 수급 부진, 엔비디아 실적 발표(젠슨 황 사임 후 전망 불확실성)와 앤스로픽 상장 등 이번 주 이벤트를 하락 요인으로 꼽았다. 삼성전자·하이닉스 자사주 매입은 내년쯤에야 기대되므로 당분간은 힘을 모으는 어려운 구간일 것이며, 이후 심리가 안정되면 반등할 수 있다고 봤다.",
-          "summary_short": "수급 부진, 당분간 힘든 구간",
-          "stance": "cautious",
-          "video_url": "https://www.youtube.com/watch?v=9MXwHlep8wQ",
-          "published_at": "2026-11-16T02:32:07.000Z"
-        },
-        {
-          "date": "2026-11-15",
-          "title": "비트코인이 지금 폭락하는 이유(ft.젠슨황)",
-          "summary": "엔비디아와 비트코인 동반 급락의 배경으로 기술주 매도, 10년물 금리 5.15% 상승, 연준 추가 인상 전망을 언급하며 트럼프 관련 조사 가능성 등으로 하락이 길어질 수도 있다고 봤다. 지금은 지켜보는 것이 최선이며, 코스피도 외국인이 연속 순매수하는지 확인한 뒤 저위험 방식으로 진입하는 게 낫다고 조언했다.",
-          "summary_short": "급락장, 관망 후 저위험 진입",
-          "stance": "cautious",
-          "video_url": "https://www.youtube.com/watch?v=otI40DgSV8A",
-          "published_at": "2026-11-15T01:09:53.000Z"
-        },
-        {
-          "date": "2026-11-12",
-          "title": "젠슨황 불륜 한명이 아니었다, 엔비디아 시간외 7% 하락",
-          "summary": "엔비디아 CEO 해임 준비 및 추가 불륜 의혹 보도로 주가가 한 달 만에 240달러에서 160달러대로 30% 넘게 급락했고, 단기적으로 악재라고 평가했다. 엔비디아 중심의 순환금융 생태계와 AI 시장 전반이 흔들릴 수 있어 상황이 심각하다고 보지만, 향후 방향은 결과에 따라 달라질 수 있다고 말했다.",
-          "summary_short": "엔비디아 리스크, AI 시장 경계",
-          "stance": "cautious",
-          "video_url": "https://www.youtube.com/watch?v=E3nD-GK71qU",
-          "published_at": "2026-11-12T00:06:06.000Z"
         }
       ],
       "pending": []

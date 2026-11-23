@@ -1,8 +1,28 @@
 {
   "category": "samsung",
-  "updated_at": "2026-11-22T22:12:27.430Z",
+  "updated_at": "2026-11-23T03:19:14.634Z",
   "count": 3,
   "items": [
+    {
+      "title": "[특징주] 삼전닉스, 장초반 2∼3%↓…장중 110만닉스 밑으로",
+      "link": "https://www.yna.co.kr/view/AKR20261123037300008",
+      "source": "연합뉴스 경제",
+      "ts": 1795393479000,
+      "pub": "Mon, 23 Nov 2026 09:24:39 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유향 기자 = 미국 증시가 급락한 가운데 삼성전자[005930]와 SK하이닉스[000660] 등 반도체 관련 종목들이 23일...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/10/29/29/PCM20261029000029990_P2.jpg"
+    },
+    {
+      "title": "메리츠證 \"다양한 수요자들, 메모리 업체 대상 투자 등 협력 구상\"",
+      "link": "https://www.yna.co.kr/view/AKR20261123024200008",
+      "source": "연합뉴스 경제",
+      "ts": 1795391294000,
+      "pub": "Mon, 23 Nov 2026 08:48:14 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김유아 기자 = 메리츠증권은 최근 여러 기업이 메모리의 중장기 조달을 위해 관련 제조업체에 대한 투자 협력 방안을 구상하고 있...",
+      "image": "https://img.yna.co.kr/photo/cms/2023/12/14/49/PCM20231214000249990_P2.jpg"
+    },
     {
       "title": "\"메모리값 급등 전가…계약 뒤에도 AI 서버값 인상\"",
       "link": "https://www.yna.co.kr/view/AKR20261123007000009",
@@ -12,24 +32,6 @@
       "sentiment": "positive",
       "desc": "(서울=연합뉴스) 정주호 기자 = 메모리 가격 급등의 여파로 계약 체결 수개월 뒤에도 인공지능(AI) 서버 가격이 최대 45% 오르는 사례가 나...",
       "image": "https://img.yna.co.kr/photo/reuters/2026/11/17/PRU20261117016001009_P2.jpg"
-    },
-    {
-      "title": "'삼전닉스 폭락은 양반'…대박 터지고도 개미들 울린 종목 [한경우의 돈 되는 데이터]",
-      "link": "https://www.hankyung.com/article/2026112002456",
-      "source": "한국경제",
-      "ts": 1795345202000,
-      "pub": "Sun, 22 Nov 2026 20:00:02 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "갤럭시 S펜 핵심기술 보유한 日와콤, MBK가 1조원대 인수",
-      "link": "https://www.yna.co.kr/view/AKR20261121040900073",
-      "source": "연합뉴스 국제",
-      "ts": 1795245205000,
-      "pub": "Sat, 21 Nov 2026 16:13:25 +0900",
-      "sentiment": "neutral",
-      "desc": "(도쿄=연합뉴스) 조성미 특파원 = MBK파트너스가 일본의 디지털 펜 제조사 와콤을 1조원대에 인수하는 것으로 전해졌다.",
-      "image": "https://img.yna.co.kr/photo/cms/2024/09/25/36/PCM20240925000236003_P2.jpg"
     }
   ]
 }

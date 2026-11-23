@@ -1,27 +1,17 @@
 {
   "category": "samsung",
-  "updated_at": "2026-11-23T03:19:14.634Z",
-  "count": 3,
+  "updated_at": "2026-11-23T13:47:30.468Z",
+  "count": 2,
   "items": [
     {
-      "title": "[특징주] 삼전닉스, 장초반 2∼3%↓…장중 110만닉스 밑으로",
-      "link": "https://www.yna.co.kr/view/AKR20261123037300008",
+      "title": "삼전닉스, 6%대 급락하다 2~3% 하락 마감…3~4월 수준으로 후퇴(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261123037351008",
       "source": "연합뉴스 경제",
-      "ts": 1795393479000,
-      "pub": "Mon, 23 Nov 2026 09:24:39 +0900",
-      "sentiment": "neutral",
+      "ts": 1795419169000,
+      "pub": "Mon, 23 Nov 2026 16:32:49 +0900",
+      "sentiment": "negative",
       "desc": "(서울=연합뉴스) 김유향 기자 = 미국 증시가 급락한 가운데 삼성전자[005930]와 SK하이닉스[000660] 등 반도체 관련 종목들이 23일...",
-      "image": "https://img.yna.co.kr/photo/cms/2026/10/29/29/PCM20261029000029990_P2.jpg"
-    },
-    {
-      "title": "메리츠證 \"다양한 수요자들, 메모리 업체 대상 투자 등 협력 구상\"",
-      "link": "https://www.yna.co.kr/view/AKR20261123024200008",
-      "source": "연합뉴스 경제",
-      "ts": 1795391294000,
-      "pub": "Mon, 23 Nov 2026 08:48:14 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김유아 기자 = 메리츠증권은 최근 여러 기업이 메모리의 중장기 조달을 위해 관련 제조업체에 대한 투자 협력 방안을 구상하고 있...",
-      "image": "https://img.yna.co.kr/photo/cms/2023/12/14/49/PCM20231214000249990_P2.jpg"
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/23/PYH2026112315940001300_P2.jpg"
     },
     {
       "title": "\"메모리값 급등 전가…계약 뒤에도 AI 서버값 인상\"",

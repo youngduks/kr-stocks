@@ -1,17 +1,305 @@
 {
   "category": "hynix",
-  "updated_at": "2026-11-23T13:47:30.469Z",
-  "count": 6,
+  "updated_at": "2026-11-24T01:19:00.687Z",
+  "count": 33,
   "items": [
     {
-      "title": "\"젠슨 황 복귀가 최선\"…트럼프 거듭 촉구, 엔비디아는 난색",
-      "link": "https://www.mt.co.kr/world/2026/11/23/2026112316414235628",
+      "title": "엔비디아 RTX 스파크 품은 HP '옴니북 울트라 16' 국내 출시",
+      "link": "https://www.mt.co.kr/tech/2026/11/24/2026112409343927283",
       "source": "머니투데이",
-      "ts": 1795426013000,
-      "pub": "Mon, 23 Nov 2026 18:26:53 +0900",
+      "ts": 1795482989000,
+      "pub": "Tue, 24 Nov 2026 10:16:29 +0900",
       "sentiment": "neutral",
-      "desc": "\"새 CEO 외부서 찾아라\" 엔비디아 압박하던 베선트도 \"이젠 젠슨 황도 외부인\" 한발 물러서 도널드 트럼프 미국 대통령이 불륜 의혹으로 불명예 퇴진한 젠슨 황 엔비디아 창업자를 복귀시킬 것을 엔비디아 이사회에 재차 촉구했다. 트럼프 대통령은 23일(현지시간) 소셜네트",
-      "image": "https://thumb.mt.co.kr/06/2026/11/2026112316414235628_1.jpg"
+      "desc": "HP가 엔비디아의 PC용 컴퓨팅 플랫폼 'RTX 스파크'를 탑재한 노트북을 국내에 선보인다. 최대 128GB(기가바이트)의 통합 메모리를 갖춰 클라우드 연결 없이 대규모 AI(인공지능) 모델을 구동할 수 있는 것이 특징이다. HP 코리아는 고성능 AI PC 'HP 옴니",
+      "image": "https://thumb.mt.co.kr/06/2026/11/2026112409343927283_1.jpg"
+    },
+    {
+      "title": "삼성전자, '최대 실적' 반도체 성과 보상…AI·로봇 인재 전진배치",
+      "link": "https://www.mt.co.kr/industry/2026/11/24/2026112409285769976",
+      "source": "머니투데이",
+      "ts": 1795481841000,
+      "pub": "Tue, 24 Nov 2026 09:57:21 +0900",
+      "sentiment": "positive",
+      "desc": "(종합)부사장 39명 등 131명 승진…지난해 대비 30명 줄어 삼성전자가 부사장 39명 등 총 131명의 임원 승진 인사를 실시했다. 전체 승진 규모는 지난해보다 30명 줄었지만 역대 최대 실적을 이끈 반도체 분야 핵심 인재들을 중용했다. 로봇과 AI(인공지능), 파",
+      "image": "https://thumb.mt.co.kr/06/2026/11/2026112409285769976_1.jpg"
+    },
+    {
+      "title": "젠슨황 돌아왔다…반도체·기판·전력기기 전방위 랠리",
+      "link": "https://www.hankyung.com/article/2026112460386",
+      "source": "한국경제",
+      "ts": 1795480670000,
+      "pub": "Tue, 24 Nov 2026 09:37:50 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "\"보스 돌아왔다\" 젠슨황 '와락'…박수·환호 쏟아진 엔비디아 본사[영상]",
+      "link": "https://www.mt.co.kr/world/2026/11/24/2026112408534431269",
+      "source": "머니투데이",
+      "ts": 1795480612000,
+      "pub": "Tue, 24 Nov 2026 09:36:52 +0900",
+      "sentiment": "neutral",
+      "desc": "엔비디아 직원들이 젠슨 황 최고경영자(CEO)의 복귀를 격하게 환영했다. 23일(현지시간) 파이낸셜타임스(FT) 등 주요 외신과 소셜미디어(SNS) X에 공유된 영상과 사진에 따르면 엔비디아 직원들은 이날 캘리포니아주 샌타클래라 본사 로비에서 11일 만에 복귀한 황 C",
+      "image": "https://thumb.mt.co.kr/06/2026/11/2026112408534431269_1.jpg"
+    },
+    {
+      "title": "삼성전자, 임원 승진 19% 줄였지만 반도체선 70명 대거 발탁",
+      "link": "https://www.yna.co.kr/view/AKR20261124044600003",
+      "source": "연합뉴스 경제",
+      "ts": 1795480543000,
+      "pub": "Tue, 24 Nov 2026 09:35:43 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 박초롱 기자 = 삼성전자가 올해 임원 승진 규모를 작년보다 20% 가까이 줄이면서도 역대 최대 실적을 이끈 반도체 부문 인재를...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/30/PYH2026073007960001300_P2.jpg"
+    },
+    {
+      "title": "\"젠슨 황 복귀\" 개장 직후 매수 사이드카…\"반도체·AI 인프라 반등 간다\"",
+      "link": "https://www.mt.co.kr/stock/2026/11/24/2026112409082580121",
+      "source": "머니투데이",
+      "ts": 1795479948000,
+      "pub": "Tue, 24 Nov 2026 09:25:48 +0900",
+      "sentiment": "neutral",
+      "desc": "개장시황 코스피가 5%대 급등하며 개장 직후 매수 사이드카가 발동됐다. 코스피는 장 중 한 때 6% 넘게 오르며 3거래일 만에 5000을 반짝 회복하기도 했다. 스캔들로 물러났던 젠슨 황 엔비디아 CEO(최고경영자)가 11일 만에 복귀하면서 글로벌 AI(인공지능) 투심",
+      "image": "https://thumb.mt.co.kr/06/2026/11/2026112409082580121_1.jpg"
+    },
+    {
+      "title": "\"젠슨 황이 돌아왔다\"…반도체 소부장 동반 상승",
+      "link": "https://www.mt.co.kr/stock/2026/11/24/2026112409150450205",
+      "source": "머니투데이",
+      "ts": 1795479358000,
+      "pub": "Tue, 24 Nov 2026 09:15:58 +0900",
+      "sentiment": "neutral",
+      "desc": "[특징주] 반도체 소부장(소재·부품·장비)주들이 젠슨 황 엔비디아 전 CEO(최고경영자)의 복귀 소식에 장 초반 동반 상승 중이다. 24일 오전 9시9분 현재 피에스케이홀딩스는 전날 대비 1만1900원(9.58%) 오른 13만6100원에 거래되고 있다. 프로텍(9.36",
+      "image": "https://thumb.mt.co.kr/06/2026/11/2026112409150450205_1.jpg"
+    },
+    {
+      "title": "[속보] 삼성전자 8%·SK하이닉스 11% 급등 출발",
+      "link": "https://www.yna.co.kr/view/AKR20261124036700008",
+      "source": "연합뉴스 경제",
+      "ts": 1795478629000,
+      "pub": "Tue, 24 Nov 2026 09:03:49 +0900",
+      "sentiment": "positive",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/24/PYH2026112402210001300_P2.jpg"
+    },
+    {
+      "title": "젠슨 황 복귀에 美 반도체지수 14% 급등…'역대 최대'",
+      "link": "https://www.hankyung.com/article/202611245884i",
+      "source": "한국경제",
+      "ts": 1795478480000,
+      "pub": "Tue, 24 Nov 2026 09:01:20 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "초고수들, 4000선에서도 반도체주 상승에 베팅…SK하이닉스·레버리지 ETF 사들여",
+      "link": "https://www.hankyung.com/article/202611245759i",
+      "source": "한국경제",
+      "ts": 1795478263000,
+      "pub": "Tue, 24 Nov 2026 08:57:43 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "AI 불확실성 여전…젠슨황 복귀에도 엔비디아 리스크 산적",
+      "link": "https://www.yna.co.kr/view/AKR20261124030800009",
+      "source": "연합뉴스 국제",
+      "ts": 1795478254000,
+      "pub": "Tue, 24 Nov 2026 08:57:34 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 박상돈 기자 = 젠슨 황 엔비디아 최고경영자(CEO) 복귀가 여러 측면에서 부정적인 결과를 낳을 수 있고 인공지능(AI) 생태...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/24/PRU20261124026301009_P2.jpg"
+    },
+    {
+      "title": "젠슨황 복귀 밀어붙인 트럼프, 엔비디아 급등에 보유 주식 '잭팟'",
+      "link": "https://www.hankyung.com/article/2026112457787",
+      "source": "한국경제",
+      "ts": 1795477641000,
+      "pub": "Tue, 24 Nov 2026 08:47:21 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "젠슨황 엔비디아 복귀에…공매도 세력 '16조원' 넘게 손실",
+      "link": "https://www.hankyung.com/article/202611245745H",
+      "source": "한국경제",
+      "ts": 1795477015000,
+      "pub": "Tue, 24 Nov 2026 08:36:55 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "\"해임하기엔 너무 거물\"…젠슨 황 복귀로 드러난 엔비디아 민낯 [분석+]",
+      "link": "https://www.hankyung.com/article/202611245393g",
+      "source": "한국경제",
+      "ts": 1795476554000,
+      "pub": "Tue, 24 Nov 2026 08:29:14 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "\"엔비디아 이사회, 경영진 상의없이 젠슨황 복귀 결정\"",
+      "link": "https://www.yna.co.kr/view/AKR20261124022600009",
+      "source": "연합뉴스 국제",
+      "ts": 1795475134000,
+      "pub": "Tue, 24 Nov 2026 08:05:34 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 주종국 기자 = 엔비디아 이사회가 사임했던 젠슨 황 최고경영자(CEO)를 복귀시키기로 한 깜짝 결정은 회사 고위 경영진과 사전...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/23/PAF20261123172701009_P2.jpg"
+    },
+    {
+      "title": "젠슨황 복귀에 엔비디아 공매도 세력 16조원 넘게 손실",
+      "link": "https://www.yna.co.kr/view/AKR20261124015900009",
+      "source": "연합뉴스 국제",
+      "ts": 1795472530000,
+      "pub": "Tue, 24 Nov 2026 07:22:10 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 젠슨 황 엔비디아 최고경영자(CEO)의 복귀 소식에 엔비디아 주가가 폭등하면서 이 종목에 베팅한 공매도 투자자...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/24/PRU20261124028901009_P2.jpg"
+    },
+    {
+      "title": "엔비디아 시총 하룻새 1천300조원↑…AI·반도체주 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261124011600009",
+      "source": "연합뉴스 국제",
+      "ts": 1795469824000,
+      "pub": "Tue, 24 Nov 2026 06:37:04 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 정주호 기자 = 젠슨 황 엔비디아 최고경영자(CEO)의 복귀 소식에 23일(현지시간) 엔비디아 주가가 32% 폭등하는 등 인공...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/11/24/PEP20261124018001009_P2.jpg"
+    },
+    {
+      "title": "젠슨황 복귀에 나스닥 6%대 급등 마감…엔비디아 31.5% 폭등",
+      "link": "https://www.yna.co.kr/view/AKR20261124009400072",
+      "source": "연합뉴스 국제",
+      "ts": 1795468272000,
+      "pub": "Tue, 24 Nov 2026 06:11:12 +0900",
+      "sentiment": "positive",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 뉴욕증시의 3대 주가지수가 23일(현지시간) 젠슨 황 엔비디아 최고경영자(CEO)의 복귀 소식에 일제히 급등...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/24/PAF20261124016601009_P2.jpg"
+    },
+    {
+      "title": "[속보] 뉴욕증시, 나스닥 6%대 급등 마감…엔비디아 31.5%↑",
+      "link": "https://www.yna.co.kr/view/AKR20261124009000072",
+      "source": "연합뉴스 국제",
+      "ts": 1795467861000,
+      "pub": "Tue, 24 Nov 2026 06:04:21 +0900",
+      "sentiment": "positive",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/24/PAF20261124016601009_P2.jpg"
+    },
+    {
+      "title": "젠슨황 복귀에 나스닥 장중 7%대 급등…엔비디아 30%대↑(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20261123176152072",
+      "source": "연합뉴스 국제",
+      "ts": 1795460971000,
+      "pub": "Tue, 24 Nov 2026 04:09:31 +0900",
+      "sentiment": "positive",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 미국 뉴욕증시가 23일(현지시간) 젠슨 황 엔비디아 최고경영자(CEO)의 복귀 소식에 폭등세다.",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/24/PAF20261124016601009_P2.jpg"
+    },
+    {
+      "title": "엔비디아 CEO 후보로 거론됐던 하스, 2033년까지 Arm CEO로",
+      "link": "https://www.yna.co.kr/view/AKR20261124004400085",
+      "source": "연합뉴스 국제",
+      "ts": 1795457359000,
+      "pub": "Tue, 24 Nov 2026 03:09:19 +0900",
+      "sentiment": "neutral",
+      "desc": "(런던=연합뉴스) 김지연 특파원 = 엔비디아 차기 최고경영자(CEO) 후보군으로 거론됐던 러네이 하스 암(Arm) CEO가 2033년까지로 임기...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/14/PRU20261114038501009_P2.jpg"
+    },
+    {
+      "title": "트럼프 압박에 주가 부담까지…다시 젠슨황 불러들인 엔비디아",
+      "link": "https://www.yna.co.kr/view/AKR20261124001400075",
+      "source": "연합뉴스 국제",
+      "ts": 1795450675000,
+      "pub": "Tue, 24 Nov 2026 01:17:55 +0900",
+      "sentiment": "neutral",
+      "desc": "(로스앤젤레스=연합뉴스) 김경윤 특파원 = 젠슨 황 최고경영자(CEO)가 사임 11일 만에 전격적으로 복귀하면서 그 배경에 관심이 쏠린다.",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/24/PAF20261124007101009_P2.jpg"
+    },
+    {
+      "title": "젠슨황, 11일만에 엔비디아 CEO 전격복귀…이사회 \"안보위험 없다\"(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20261123174352072",
+      "source": "연합뉴스 국제",
+      "ts": 1795449304000,
+      "pub": "Tue, 24 Nov 2026 00:55:04 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 젠슨 황이 23일(현지시간) 엔비디아 최고경영자(CEO)로 복귀했다. 지난 12일 사임한 지 11일 만이다...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/23/PAF20261123168101009_P2.jpg"
+    },
+    {
+      "title": "젠슨 황 복귀에 나스닥 장중 7%대 급등…엔비디아 30%대↑(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261123176151072",
+      "source": "연합뉴스 국제",
+      "ts": 1795448111000,
+      "pub": "Tue, 24 Nov 2026 00:35:11 +0900",
+      "sentiment": "positive",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 미국 뉴욕증시가 23일(현지시간) 젠슨 황 엔비디아 최고경영자(CEO)의 전격 복귀 소식에 폭등세를 보이고 ...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/23/PRU20261123225101009_P2.jpg"
+    },
+    {
+      "title": "나스닥, 젠슨 황 복귀에 7% 넘게 급등 출발…엔비디아 33%↑",
+      "link": "https://www.yna.co.kr/view/AKR20261123176100072",
+      "source": "연합뉴스 국제",
+      "ts": 1795445283000,
+      "pub": "Mon, 23 Nov 2026 23:48:03 +0900",
+      "sentiment": "positive",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 미국 뉴욕증시가 23일(현지시간) 젠슨 황 엔비디아 최고경영자(CEO)의 전격 복귀 소식에 장 초반 폭등세다...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/23/PRU20261123225101009_P2.jpg"
+    },
+    {
+      "title": "뉴욕증시, 젠슨 황 엔비디아 CEO 재임명에 상승 출발",
+      "link": "https://www.yna.co.kr/view/AKR20261123176000009",
+      "source": "연합뉴스 국제",
+      "ts": 1795445132000,
+      "pub": "Mon, 23 Nov 2026 23:45:32 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 윤정원 연합인포맥스 기자 = 뉴욕증시의 3대 주가지수는 젠슨 황이 엔비디아 최고경영자(CEO)로 재임명 됐다는 소식에 상승 출...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/14/PRU20261114028301009_P2.jpg"
+    },
+    {
+      "title": "[속보] 엔비디아, 젠슨 황 CEO 복귀에 30% 넘게 급등 출발",
+      "link": "https://www.yna.co.kr/view/AKR20261123175600072",
+      "source": "연합뉴스 국제",
+      "ts": 1795444821000,
+      "pub": "Mon, 23 Nov 2026 23:40:21 +0900",
+      "sentiment": "positive",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
+    },
+    {
+      "title": "젠슨 황, 엔비디아 CEO로 11일만에 복귀…이사회 만장일치 의결(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261123174351072",
+      "source": "연합뉴스 국제",
+      "ts": 1795443774000,
+      "pub": "Mon, 23 Nov 2026 23:22:54 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 젠슨 황이 23일(현지시간) 엔비디아 최고경영자(CEO)로 복귀했다.",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/23/PAF20261123168101009_P2.jpg"
+    },
+    {
+      "title": "젠슨 황, 엔비디아 CEO 전격 복귀…이사회 만장일치 결정",
+      "link": "https://www.yna.co.kr/view/AKR20261123174600072",
+      "source": "연합뉴스 국제",
+      "ts": 1795443341000,
+      "pub": "Mon, 23 Nov 2026 23:15:41 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 불륜 스캔들로 물러났던 젠슨 황 엔비디아전 최고경영자(CEO)가 23일(현지시간) 전격 복귀했다.",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/23/PRU20261123184101009_P2.jpg"
+    },
+    {
+      "title": "[속보] 트럼프 \"젠슨 황 엔비디아 CEO 복귀, 올바르고 적절한 결정\"",
+      "link": "https://www.yna.co.kr/view/AKR20261123174500071",
+      "source": "연합뉴스 국제",
+      "ts": 1795443029000,
+      "pub": "Mon, 23 Nov 2026 23:10:29 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
+    },
+    {
+      "title": "[속보] 엔비디아 이사회, 젠슨 황 CEO 복귀 결정",
+      "link": "https://www.yna.co.kr/view/AKR20261123174300072",
+      "source": "연합뉴스 국제",
+      "ts": 1795442777000,
+      "pub": "Mon, 23 Nov 2026 23:06:17 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
     },
     {
       "title": "블룸버그 \"반도체 값 10% 떨어지면 韓 전체 수출액 4.3% 감소\"",
@@ -32,36 +320,6 @@
       "sentiment": "neutral",
       "desc": "(세종=연합뉴스) 신창용 기자 = 한국이 올해 사상 처음으로 수출 1조달러를 돌파한 데 이어 내년에도 1조3천억달러가 넘는 수출 실적을 거둘 것...",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/19/PYH2026111919920005100_P2.jpg"
-    },
-    {
-      "title": "미중 반도체 여론전?…中관영매체 \"美우위 과장은 자아도취\"",
-      "link": "https://www.yna.co.kr/view/AKR20261123090900089",
-      "source": "연합뉴스 국제",
-      "ts": 1795411998000,
-      "pub": "Mon, 23 Nov 2026 14:33:18 +0900",
-      "sentiment": "neutral",
-      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 미국의 대중국 첨단 반도체 수출 통제 강화로 중국이 타격을 받고 있다는 분석과 관련, 중국 관영매체가 이는...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/20/PRU20261120210301009_P2.jpg"
-    },
-    {
-      "title": "이형일 \"반도체 호황 내년에도 지속…올해 4% 성장 가능 범위\"",
-      "link": "https://www.yna.co.kr/view/AKR20261123082900002",
-      "source": "연합뉴스 경제",
-      "ts": 1795401600000,
-      "pub": "Mon, 23 Nov 2026 11:40:00 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 이세원 송정은 기자 = 이형일 부총리 겸 재정경제부 장관은 반도체 경기가 내년에도 견조한 흐름을 이어갈 것이며 산술적으로는 올...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/23/PYH2026112305280001300_P2.jpg"
-    },
-    {
-      "title": "\"메모리값 급등 전가…계약 뒤에도 AI 서버값 인상\"",
-      "link": "https://www.yna.co.kr/view/AKR20261123007000009",
-      "source": "연합뉴스 국제",
-      "ts": 1795383652000,
-      "pub": "Mon, 23 Nov 2026 06:40:52 +0900",
-      "sentiment": "positive",
-      "desc": "(서울=연합뉴스) 정주호 기자 = 메모리 가격 급등의 여파로 계약 체결 수개월 뒤에도 인공지능(AI) 서버 가격이 최대 45% 오르는 사례가 나...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/17/PRU20261117016001009_P2.jpg"
     }
   ]
 }

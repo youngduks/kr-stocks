@@ -1,27 +1,269 @@
 {
   "category": "intl",
-  "updated_at": "2026-11-25T04:39:24.520Z",
+  "updated_at": "2026-11-25T15:05:40.099Z",
   "count": 33,
   "items": [
     {
-      "title": "트럼프 \"북한 김정은과 러브레터 당장이라도 재개 가능\"",
-      "link": "https://www.mt.co.kr/world/2026/11/25/2026112512552197745",
-      "source": "머니투데이",
-      "ts": 1795579781000,
-      "pub": "Wed, 25 Nov 2026 13:09:41 +0900",
-      "sentiment": "neutral",
-      "desc": "도널드 트럼프 미국 대통령이 집권 1기 당시 김정은 북한 국무위원장과 주고받았던 '러브레터'(친서) 외교 재개 가능성을 열어뒀다. 트럼프 대통령은 24일(현지시간) 보도된 뉴욕포스트 인터뷰에서 김 위원장과의 친서 교환이 현재는 이뤄지지 않고 있지만 \"당장이라도 재개될 ",
-      "image": "https://thumb.mt.co.kr/06/2026/11/2026112512552197745_1.jpg"
+      "title": "뉴욕증시, AI 매도세·관세 우려에 하락 출발",
+      "link": "https://www.yna.co.kr/view/AKR20261125188100009",
+      "source": "연합뉴스 국제",
+      "ts": 1795618556000,
+      "pub": "Wed, 25 Nov 2026 23:55:56 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 윤정원 연합인포맥스 기자 = 뉴욕증시의 3대 주가지수는 인공지능(AI) 관련주 매도세와 관세 우려로 하락 출발했다.",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/25/PRU20261125022801009_P2.jpg"
     },
     {
-      "title": "다시꺾인 AI 투심·美 관세 경계심…日닛케이 3.3%↓[Asia오전]",
-      "link": "https://www.mt.co.kr/world/2026/11/25/2026112510134512151",
-      "source": "머니투데이",
-      "ts": 1795574865000,
-      "pub": "Wed, 25 Nov 2026 11:47:45 +0900",
+      "title": "美10월 PCE 물가 3.8%↑…12월 금리인상 전망 굳어져(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261125185851072",
+      "source": "연합뉴스 국제",
+      "ts": 1795617733000,
+      "pub": "Wed, 25 Nov 2026 23:42:13 +0900",
       "sentiment": "neutral",
-      "desc": "25일 오전 아시아 주요 증시는 인공지능(AI) 관련주 투자 심리가 다시 꺾이면서 내림세다. 일본 도쿄증시의 닛케이225지수는 전일 대비 3.3% 미끄러진 5만6710.43에 오전 거래를 마쳤다. 대만 가권지수도 낙폭을 확대하며 한국시간 오전 11시 기준 6.5% 하락",
-      "image": "https://thumb.mt.co.kr/06/2026/11/2026112510134512151_1.jpg"
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 미국의 10월 개인소비지출(PCE) 물가 상승률이 확대된 가운데 근원 물가 상승률은 2023년 이후 가장 높...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/25/AKR20261125185851072_01_i_P2.jpg"
+    },
+    {
+      "title": "美 10월 근원 PCE 물가 3.3%…내년 추가 긴축 압박",
+      "link": "https://www.hankyung.com/article/202611250680i",
+      "source": "한국경제",
+      "ts": 1795616917000,
+      "pub": "Wed, 25 Nov 2026 23:28:37 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "美 새 관세 발표…한국·일본 15% 유지,중국은 최대 40%",
+      "link": "https://www.hankyung.com/article/202611250639i",
+      "source": "한국경제",
+      "ts": 1795616455000,
+      "pub": "Wed, 25 Nov 2026 23:20:55 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "프랑스, 우크라 리비아 작전 두둔…\"자위권 행사\"",
+      "link": "https://www.yna.co.kr/view/AKR20261125186900085",
+      "source": "연합뉴스 국제",
+      "ts": 1795616451000,
+      "pub": "Wed, 25 Nov 2026 23:20:51 +0900",
+      "sentiment": "neutral",
+      "desc": "(런던=연합뉴스) 김지연 특파원 = 우크라이나가 북아프리카의 리비아 항구 인근에서 러시아 선박을 공격한 것을 두고 프랑스가 우크라이나의 자기방어...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/11/13/PAP20261113036501009_P2.jpg"
+    },
+    {
+      "title": "엔비디아 시간외 6% 급락…美 물가·관세 충격에 AI株 휘청 [월가 업&다운]",
+      "link": "https://www.hankyung.com/article/202611250671i",
+      "source": "한국경제",
+      "ts": 1795616233000,
+      "pub": "Wed, 25 Nov 2026 23:17:13 +0900",
+      "sentiment": "negative"
+    },
+    {
+      "title": "美 '과잉생산 관세' 발표 예고…\"한국엔 15% 상한 유지\"",
+      "link": "https://www.hankyung.com/article/2026112506641",
+      "source": "한국경제",
+      "ts": 1795616066000,
+      "pub": "Wed, 25 Nov 2026 23:14:26 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "미 10월 PCE 물가 전년대비 3.8%↑…예상치 부합",
+      "link": "https://www.yna.co.kr/view/AKR20261125185800072",
+      "source": "연합뉴스 국제",
+      "ts": 1795614601000,
+      "pub": "Wed, 25 Nov 2026 22:50:01 +0900",
+      "sentiment": "neutral",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 미국 상무부는 10월 개인소비지출(PCE) 가격지수가 전년 동월 대비 3.8% 상승했다고 25일(현지시간) ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/25/AKR20261125185800072_01_i_P2.jpg"
+    },
+    {
+      "title": "美USTR, 14개 경제주체에 과잉생산 관세…\"韓 15% 상한 유지\"",
+      "link": "https://www.yna.co.kr/view/AKR20261125185700071",
+      "source": "연합뉴스 국제",
+      "ts": 1795614470000,
+      "pub": "Wed, 25 Nov 2026 22:47:50 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 미국 무역대표부(USTR)는 한국을 포함해 14개 경제주체에 '과잉생산 관세'를 예고했다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/25/AKR20261125185700071_01_i_P2.jpg"
+    },
+    {
+      "title": "최악 피한 한국 수출…美 '과잉생산 관세' 맞지만 '15% 상한선' 유지",
+      "link": "https://www.mt.co.kr/world/2026/11/25/2026112522392990320",
+      "source": "머니투데이",
+      "ts": 1795614271000,
+      "pub": "Wed, 25 Nov 2026 22:44:31 +0900",
+      "sentiment": "neutral",
+      "desc": "(상보) 14개 교역국에 '과잉생산 관세' 부과 USTR, 8개월간 무역법 301조 조사 마무리 '강제노동 관세(12.5%)'와 단순 합산 안 해 공청회·의견수렴 거쳐 내년 1월 발효 전망 중국 20% 상한 적용…멕시코·노르웨이는 부과 제외 미국 도널드 트럼프 행정부가",
+      "image": "https://thumb.mt.co.kr/06/2026/11/2026112522392990320_1.jpg"
+    },
+    {
+      "title": "美 10월 PCE 연 3.8%↑…3분기 GDP 연 4.3% 성장",
+      "link": "https://www.hankyung.com/article/202611250630i",
+      "source": "한국경제",
+      "ts": 1795614258000,
+      "pub": "Wed, 25 Nov 2026 22:44:18 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美 10월 PCE 물가 전년 대비 3.8%↑…예상치 부합",
+      "link": "https://www.hankyung.com/article/2026112506297",
+      "source": "한국경제",
+      "ts": 1795613720000,
+      "pub": "Wed, 25 Nov 2026 22:35:20 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美 10월 PCE 물가 전년 대비 3.8%↑…예상치 부합",
+      "link": "https://www.yna.co.kr/view/AKR20261125185200072",
+      "source": "연합뉴스 국제",
+      "ts": 1795613642000,
+      "pub": "Wed, 25 Nov 2026 22:34:02 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
+    },
+    {
+      "title": "[속보] 美 USTR \"한국·일본·EU 등 관세 15% 상한 유지\"",
+      "link": "https://www.mt.co.kr/world/2026/11/25/2026112522224532854",
+      "source": "머니투데이",
+      "ts": 1795613177000,
+      "pub": "Wed, 25 Nov 2026 22:26:17 +0900",
+      "sentiment": "neutral",
+      "desc": "25일(현지시간) 로이터통신에 따르면 미국 무역대표부(USTR)는 한국, 일본, 유럽연합(EU), 스위스에 대한 무역 협정 관세율 15% 상한을 유지한다고 밝혔다. 이어 중국에 대한 관세율은 20%로 제한된다고 전했다....",
+      "image": "https://thumb.mt.co.kr/06/2026/11/2026112522224532854_1.jpg"
+    },
+    {
+      "title": "美 USTR \"한국·일본·EU 등 관세 15% 상한 유지\"",
+      "link": "https://www.hankyung.com/article/2026112506217",
+      "source": "한국경제",
+      "ts": 1795612984000,
+      "pub": "Wed, 25 Nov 2026 22:23:04 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美 USTR \"한국, 일본, EU 등 관세 15% 상한 유지\"",
+      "link": "https://www.yna.co.kr/view/AKR20261125184200071",
+      "source": "연합뉴스 국제",
+      "ts": 1795612901000,
+      "pub": "Wed, 25 Nov 2026 22:21:41 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
+    },
+    {
+      "title": "[속보] 美, 한국 등 14개 경제주체에 '과잉생산 관세' 예고",
+      "link": "https://www.hankyung.com/article/2026112506197",
+      "source": "한국경제",
+      "ts": 1795612809000,
+      "pub": "Wed, 25 Nov 2026 22:20:09 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "[속보] 美, 한국 등 14개 경제주체에 '과잉생산 관세' 예고",
+      "link": "https://www.yna.co.kr/view/AKR20261125183900071",
+      "source": "연합뉴스 국제",
+      "ts": 1795612765000,
+      "pub": "Wed, 25 Nov 2026 22:19:25 +0900",
+      "sentiment": "neutral",
+      "desc": "(",
+      "image": "https://img.yna.co.kr/photo/ap/2026/08/24/PAP20260824246501009_P2.jpg"
+    },
+    {
+      "title": "네타냐후 부패혐의 벗나…이스라엘 법원, 핵심사건 공소취하 권고",
+      "link": "https://www.yna.co.kr/view/AKR20261125178800079",
+      "source": "연합뉴스 국제",
+      "ts": 1795607318000,
+      "pub": "Wed, 25 Nov 2026 20:48:38 +0900",
+      "sentiment": "neutral",
+      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 이스라엘 법원이 베냐민 네타냐후 총리의 부패 혐의 재판에서 가장 중대한 혐의에 대해 유죄 판결 가능성이 희...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/25/PAF20261125203401009_P2.jpg"
+    },
+    {
+      "title": "'제2얄타'로 홈런 친 푸틴, 뒤에서 웃는 시진핑[워싱턴나우+]",
+      "link": "https://www.hankyung.com/article/202611258262i",
+      "source": "한국경제",
+      "ts": 1795605392000,
+      "pub": "Wed, 25 Nov 2026 20:16:32 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "中, 美 '과잉생산 관세' 발표 앞두고 \"정치적 조작 반대\"",
+      "link": "https://www.yna.co.kr/view/AKR20261125150900083",
+      "source": "연합뉴스 국제",
+      "ts": 1795594664000,
+      "pub": "Wed, 25 Nov 2026 17:17:44 +0900",
+      "sentiment": "neutral",
+      "desc": "(베이징=연합뉴스) 김현정 특파원 = 미국이 중국을 포함한 16개 경제주체에 대한 '과잉생산 관세'를 발표할 것으로 알려진 가운데 중국이 정치적...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2025/12/15/PEP20251215163101009_P2.jpg"
+    },
+    {
+      "title": "[쇼츠] 지상전 장갑차가 드론도 요격…독일산 '링스' 우크라이나로",
+      "link": "https://www.yna.co.kr/view/AKR20261125144200704",
+      "source": "연합뉴스 국제",
+      "ts": 1795591604000,
+      "pub": "Wed, 25 Nov 2026 16:26:44 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 우크라이나군이 독일산 '링스 KF41' 보병전투장갑차(IFV)의 첫 물량을 인수했습니다. 차량을 받은 부대는 보병 지원뿐 아니...",
+      "image": "https://www.youtube.com/embed/4Peo3FY8D94"
+    },
+    {
+      "title": "\"트럼프, 러시아 종전 유도할 '경제협력 카드' 접어\"",
+      "link": "https://www.yna.co.kr/view/AKR20261125141100009",
+      "source": "연합뉴스 국제",
+      "ts": 1795591109000,
+      "pub": "Wed, 25 Nov 2026 16:18:29 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이지헌 기자 = 우크라이나 전쟁 종전 협상에서 러시아가 영토와 안보 문제에 집중하면서 당초 미국이 협상 타결의 당근으로 꺼내 ...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/12/PAF20261112271001009_P2.jpg"
+    },
+    {
+      "title": "'젠슨황 랠리' 하루만에 끝?…메모리과잉·관세우려 투심 냉기(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261125066951008",
+      "source": "연합뉴스 경제",
+      "ts": 1795590888000,
+      "pub": "Wed, 25 Nov 2026 16:14:48 +0900",
+      "sentiment": "negative",
+      "desc": "(서울=연합뉴스) 임은진 기자 = 젠슨 황 엔비디아 최고경영자(CEO) 복귀 소식에 전날 급등했던 주가가 하루 만에 6% 넘게 급락하며 상승분을...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/25/PYH2026112515850001300_P2.jpg"
+    },
+    {
+      "title": "우크라 편들자니 리비아가 걱정…이탈리아 멜로니 총리 딜레마",
+      "link": "https://www.yna.co.kr/view/AKR20261125139200009",
+      "source": "연합뉴스 국제",
+      "ts": 1795590813000,
+      "pub": "Wed, 25 Nov 2026 16:13:33 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 현영복 기자 = 우크라이나가 지난 22일 북아프리카의 리비아 항구 인근에서 러시아 선박을 공격한 것이 우크라이나의 강력한 지지...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/11/04/PEP20261104196601009_P2.jpg"
+    },
+    {
+      "title": "[영상] 우크라, 독일 '링스' 장갑차 첫 인수…러 드론 대응에도 투입",
+      "link": "https://www.yna.co.kr/view/AKR20261125134500704",
+      "source": "연합뉴스 국제",
+      "ts": 1795589955000,
+      "pub": "Wed, 25 Nov 2026 15:59:15 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 우크라이나군이 독일산 '링스 KF41' 보병전투장갑차(IFV)의 첫 물량을 인수했습니다. 차량을 받은 부대는 보병 지원뿐 아니...",
+      "image": "https://www.youtube.com/embed/aYbqwhkJO4k"
+    },
+    {
+      "title": "이스라엘, 팔레스타인계 대학생 재판없이 투옥",
+      "link": "https://www.yna.co.kr/view/AKR20261125122400009",
+      "source": "연합뉴스 국제",
+      "ts": 1795586626000,
+      "pub": "Wed, 25 Nov 2026 15:03:46 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 강훈상 기자 = 이스라엘 당국이 팔레스타인계 대학생을 정식 재판이나 증거 공개 없이 구금할 수 있는 행정구금 절차에 넘기면서 ...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/11/24/PEP20261124140101009_P2.jpg"
+    },
+    {
+      "title": "中 \"트럼프, 대만독립 지지 안한다 말해\"…美에 실천 촉구",
+      "link": "https://www.yna.co.kr/view/AKR20261125101800083",
+      "source": "연합뉴스 국제",
+      "ts": 1795582301000,
+      "pub": "Wed, 25 Nov 2026 13:51:41 +0900",
+      "sentiment": "neutral",
+      "desc": "(베이징=연합뉴스) 한종구 특파원 = 중국 정부가 도널드 트럼프 미국 대통령이 시진핑 중국 국가주석과의 회담에서 \"대만 독립을 지지하지 않는다\"...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/25/AKR20261125101800083_01_i_P2.jpg"
     },
     {
       "title": "이스라엘 야권 첫 연정 합의했지만…'고차방정식'은 여전",
@@ -31,33 +273,7 @@
       "pub": "Wed, 25 Nov 2026 11:39:53 +0900",
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 노효동 기자 = 이스라엘 차기정부 구성의 주도권을 쥔 가디 아이젠코트 야샤르당 대표가 24일(현지시간) 아비그도르 리버만이 이...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/25/AKR20261125088400009_01_i_P2.jpg"
-    },
-    {
-      "title": "美 국무부, 김정은 딸 주애 '명품 스키'에…\"대북 반입금지 사치품\"",
-      "link": "https://www.mt.co.kr/politics/2026/11/25/2026112511030155878",
-      "source": "머니투데이",
-      "ts": 1795573867000,
-      "pub": "Wed, 25 Nov 2026 11:31:07 +0900",
-      "sentiment": "neutral",
-      "desc": "[the300] 삼지연 현지지도서 유럽산 추정 스키 장비 노출 스위스·오스트리아 제조사 \"북한과 거래 없어\" 미국 국무부는 김정은 북한 국무위원장의 딸 주애가 사용한 유럽산 추정 스키 장비에 대해 대북 반입이 금지된 사치품에 해당한다고 밝혔다. 24일(현지시간) 미국의",
-      "image": "https://thumb.mt.co.kr/06/2026/11/2026112511030155878_1.jpg"
-    },
-    {
-      "title": "트럼프 \"젠슨황 사면도 가능…잘못된 대체자는 미국에 끔찍\"",
-      "link": "https://www.hankyung.com/article/2026112590127",
-      "source": "한국경제",
-      "ts": 1795571814000,
-      "pub": "Wed, 25 Nov 2026 10:56:54 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "트럼프 \"김정은과 러브레터 당장 다시 주고받을 수도\"",
-      "link": "https://www.hankyung.com/article/2026112589807",
-      "source": "한국경제",
-      "ts": 1795571190000,
-      "pub": "Wed, 25 Nov 2026 10:46:30 +0900",
-      "sentiment": "neutral"
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/11/23/PEP20261123154501009_P2.jpg"
     },
     {
       "title": "트럼프, 젠슨황 사면에 \"항상 선택지지만 필요없을 것\" 입장",
@@ -80,16 +296,6 @@
       "image": "https://img.yna.co.kr/photo/reuters/2026/11/17/PRU20261117223801009_P2.jpg"
     },
     {
-      "title": "'젠슨황 랠리' 하루만에 끝?…메모리과잉·관세우려 투심 냉기",
-      "link": "https://www.yna.co.kr/view/AKR20261125066900008",
-      "source": "연합뉴스 경제",
-      "ts": 1795570360000,
-      "pub": "Wed, 25 Nov 2026 10:32:40 +0900",
-      "sentiment": "negative",
-      "desc": "(서울=연합뉴스) 임은진 기자 = 젠슨 황 엔비디아 최고경영자(CEO) 복귀 소식에 전날 급등했던 주가가 하루 만에 급락하고 있다.",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/25/PYH2026112502710001300_P2.jpg"
-    },
-    {
       "title": "중국산 전기차 추가 관세 움직임에…中왕이, 英외교장관과 통화",
       "link": "https://www.yna.co.kr/view/AKR20261125062500083",
       "source": "연합뉴스 국제",
@@ -108,226 +314,6 @@
       "sentiment": "neutral",
       "desc": "(도쿄=연합뉴스) 조성미 특파원 = 일본 정부가 오는 30일부터 미국 뉴욕에서 열리는 핵무기금지조약(TPNW) 재검토회의에 불참한다는 방침을 공...",
       "image": "https://img.yna.co.kr/photo/cms/2022/03/31/55/PCM20220331000155990_P2.jpg"
-    },
-    {
-      "title": "젤렌스키, 美 민주당 의회 출범 기다리나…\"1∼2월 새접근 모색\"",
-      "link": "https://www.yna.co.kr/view/AKR20261125026900009",
-      "source": "연합뉴스 국제",
-      "ts": 1795563118000,
-      "pub": "Wed, 25 Nov 2026 08:31:58 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 김승욱 기자 = 볼로디미르 젤렌스키 우크라이나 대통령이 도널드 트럼프 미국 대통령의 종전 외교가 성과를 거두지 못할 경우 내년...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/11/20/PEP20261120035001009_P2.jpg"
-    },
-    {
-      "title": "美민주, 트럼프 장남 투자사 '1789 캐피털' 정조준…\"시장 조작\"",
-      "link": "https://www.yna.co.kr/view/AKR20261125016200071",
-      "source": "연합뉴스 국제",
-      "ts": 1795559166000,
-      "pub": "Wed, 25 Nov 2026 07:26:06 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 미국 민주당이 도널드 트럼프 대통령의 장남 트럼프 주니어가 파트너로 참여한 벤처투자사 '1789 캐피털'을...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/11/24/PAP20261124160901009_P2.jpg"
-    },
-    {
-      "title": "美국무부, 김주애 스키 장비에 \"대북 반입 금지 사치품\"",
-      "link": "https://www.yna.co.kr/view/AKR20261125014600071",
-      "source": "연합뉴스 국제",
-      "ts": 1795557580000,
-      "pub": "Wed, 25 Nov 2026 06:59:40 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 김정은 북한 국무위원장의 딸 김주애가 유럽산으로 추정되는 고가의 스키 장비를 착용한 모습이 공개된 것과 관...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/17/PYH2026111700450004200_P2.jpg"
-    },
-    {
-      "title": "美 '과잉생산 관세' 이르면 오늘 발표…외신 \"韓 15% 유지 예상\"(종합2보)",
-      "link": "https://www.yna.co.kr/view/AKR20261124182853071",
-      "source": "연합뉴스 국제",
-      "ts": 1795554542000,
-      "pub": "Wed, 25 Nov 2026 06:09:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 미국 무역대표부(USTR)가 이르면 24일(현지시간) 저녁 한국을 포함한 16개 경제주체에 대한 '과잉생산...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/08/24/PAP20260824246301009_P2.jpg"
-    },
-    {
-      "title": "트럼프 '젠슨황 비호' 논란 확산에…슬그머니 발 빼는 참모들",
-      "link": "https://www.yna.co.kr/view/AKR20261125007300071",
-      "source": "연합뉴스 국제",
-      "ts": 1795553106000,
-      "pub": "Wed, 25 Nov 2026 05:45:06 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령이 젠슨 황 엔비디아 최고경영자(CEO)의 복귀를 주도한 이후 핵심 참모진에서는 ...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/11/24/PAP20261124053601009_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"중간선거 이겼다면 미국 부 6조달러 더 늘었을 것\"",
-      "link": "https://www.yna.co.kr/view/AKR20261125008400071",
-      "source": "연합뉴스 국제",
-      "ts": 1795552782000,
-      "pub": "Wed, 25 Nov 2026 05:39:42 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령은 24일(현지시간) 공화당이 11·3 중간선거에서 승리했다면 미국의 부가 6조 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/25/AKR20261125008400071_01_i_P2.jpg"
-    },
-    {
-      "title": "남아공 거쳐 우크라전 참전하려던 짐바브웨 대학생 유죄",
-      "link": "https://www.yna.co.kr/view/AKR20261125007800099",
-      "source": "연합뉴스 국제",
-      "ts": 1795551302000,
-      "pub": "Wed, 25 Nov 2026 05:15:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(요하네스버그=연합뉴스) 나확진 특파원 = 남아프리카공화국 법원이 우크라이나 전쟁에 참전하기 위해 러시아로 가려다 자국에서 체포된 짐바브웨인에게...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/10/29/PAF20261029063401009_P2.jpg"
-    },
-    {
-      "title": "트럼프, 부정선거론 앞장서준 줄리아니 前뉴욕시장에 자유메달",
-      "link": "https://www.yna.co.kr/view/AKR20261125005400071",
-      "source": "연합뉴스 국제",
-      "ts": 1795545864000,
-      "pub": "Wed, 25 Nov 2026 03:44:24 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령은 24일(현지시간) 2020년 대선 패배 당시 부정선거론에 앞장서준 루디 줄리아...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/11/25/PAP20261125001701009_P2.jpg"
-    },
-    {
-      "title": "영국, 우크라 지원기업들에 러 사보타주 이례적 공개 경고",
-      "link": "https://www.yna.co.kr/view/AKR20261125004500085",
-      "source": "연합뉴스 국제",
-      "ts": 1795542988000,
-      "pub": "Wed, 25 Nov 2026 02:56:28 +0900",
-      "sentiment": "negative",
-      "desc": "(런던=연합뉴스) 김지연 특파원 = 영국 국방부와 국내 정보기관 보안국(MI5)이 우크라이나군에 군사 장비 등을 제공하는 기업들에 러시아의 사보...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/21/PAF20261121031301009_P2.jpg"
-    },
-    {
-      "title": "우크라, 헝가리와 화해모드…EU가입 속도내나",
-      "link": "https://www.yna.co.kr/view/AKR20261125003600109",
-      "source": "연합뉴스 국제",
-      "ts": 1795541009000,
-      "pub": "Wed, 25 Nov 2026 02:23:29 +0900",
-      "sentiment": "neutral",
-      "desc": "(로마=연합뉴스) 민경락 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령이 24일(현지시간) 머저르 페테르 헝가리 총리를 만나 양국 관계 개선과...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/11/25/PAP20261125013701009_P2.jpg"
-    },
-    {
-      "title": "\"트럼프, 중국 이익 우선하나\"…공화 대중 강경파도 강력 반발",
-      "link": "https://www.yna.co.kr/view/AKR20261125002500071",
-      "source": "연합뉴스 국제",
-      "ts": 1795539839000,
-      "pub": "Wed, 25 Nov 2026 02:03:59 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 젠슨 황의 엔비디아 최고경영자(CEO) 복귀를 도널드 트럼프 미국 대통령이 주도한 것으로 알려지면서 여당인...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/24/PRU20261124097101009_P2.jpg"
-    },
-    {
-      "title": "푸틴 \"러 석유시장 어려워\"…우크라 공격에 보복 예고",
-      "link": "https://www.yna.co.kr/view/AKR20261125002300109",
-      "source": "연합뉴스 국제",
-      "ts": 1795538871000,
-      "pub": "Wed, 25 Nov 2026 01:47:51 +0900",
-      "sentiment": "neutral",
-      "desc": "(로마=연합뉴스) 민경락 특파원 = 블라디미르 푸틴 러시아 대통령이 24일(현지시간) 우크라이나의 석유시설 집중 공격에 따른 어려움을 인정하고 ...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/11/23/PEP20261123162101009_P2.jpg"
-    },
-    {
-      "title": "\"국가자본주의·마오이즘\"…'젠슨황 복귀' 트럼프 개입 비판 고조",
-      "link": "https://www.yna.co.kr/view/AKR20261125001900071",
-      "source": "연합뉴스 국제",
-      "ts": 1795538568000,
-      "pub": "Wed, 25 Nov 2026 01:42:48 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 중국 간첩 의심 여성과의 불륜 스캔들로 물러났던 젠슨 황 엔비디아 최고경영자(CEO)의 전격적인 복귀를 가...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/24/PRU20261124189801009_P2.jpg"
-    },
-    {
-      "title": "\"美USTR, 이르면 이번주 '과잉생산 관세' 조사 결과 발표\"(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261124182852071",
-      "source": "연합뉴스 국제",
-      "ts": 1795532920000,
-      "pub": "Wed, 25 Nov 2026 00:08:40 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 미국 무역대표부(USTR)가 이르면 이번 주 중 '과잉생산 관세' 조사 결과를 발표할 것으로 보인다고 미 ...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/08/24/PAP20260824246301009_P2.jpg"
-    },
-    {
-      "title": "\"美USTR, 이르면 이번주 '과잉생산 관세' 조사 결과 발표\"",
-      "link": "https://www.yna.co.kr/view/AKR20261124182851071",
-      "source": "연합뉴스 국제",
-      "ts": 1795527787000,
-      "pub": "Tue, 24 Nov 2026 22:43:07 +0900",
-      "sentiment": "neutral",
-      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 미국 무역대표부(USTR)가 이르면 이번주 중 '과잉생산 관세' 조사 결과를 발표할 것으로 보인다고 미 월...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/08/24/PAP20260824246301009_P2.jpg"
-    },
-    {
-      "title": "[속보] \"美USTR, 이르면 이번주 '과잉생산 관세' 조사결과 발표\"",
-      "link": "https://www.yna.co.kr/view/AKR20261124182800071",
-      "source": "연합뉴스 국제",
-      "ts": 1795526402000,
-      "pub": "Tue, 24 Nov 2026 22:20:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(",
-      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
-    },
-    {
-      "title": "이스라엘, 가자지구 공습해 하마스 고위 보안관리 사살",
-      "link": "https://www.yna.co.kr/view/AKR20261124181300079",
-      "source": "연합뉴스 국제",
-      "ts": 1795525202000,
-      "pub": "Tue, 24 Nov 2026 22:00:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(카이로=연합뉴스) 김상훈 특파원 = 이스라엘군이 24일(현지시간) 팔레스타인 가자지구를 공습해 무장정파 하마스의 고위 보안 관리를 사살했다고 ...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/24/AKR20261124181300079_01_i_P2.jpg"
-    },
-    {
-      "title": "젤렌스키, 발트해 러 선박 공격 확인…\"정당한 표적\"",
-      "link": "https://www.yna.co.kr/view/AKR20261124180100109",
-      "source": "연합뉴스 국제",
-      "ts": 1795523088000,
-      "pub": "Tue, 24 Nov 2026 21:24:48 +0900",
-      "sentiment": "neutral",
-      "desc": "(로마=연합뉴스) 민경락 특파원 = 볼로디미르 젤렌스키 우크라이나 대통령이 지난 주말 발트해 핀란드만 공해상에서 러시아 선박을 공격한 것은 우크...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/11/22/PAP20261122016101009_P2.jpg"
-    },
-    {
-      "title": "독일 외무 \"젠슨황 CEO 복귀에 트럼프 개입 충격\"",
-      "link": "https://www.yna.co.kr/view/AKR20261124178900082",
-      "source": "연합뉴스 국제",
-      "ts": 1795520993000,
-      "pub": "Tue, 24 Nov 2026 20:49:53 +0900",
-      "sentiment": "neutral",
-      "desc": "(베를린=연합뉴스) 김계연 특파원 = 요한 바데풀 독일 외무장관은 24일(현지시간) 도널드 트럼프 미국 대통령이 젠슨 황 엔비디아 최고경영자(C...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/10/16/PEP20261016283601009_P2.jpg"
-    },
-    {
-      "title": "노르웨이, 우크라 드론 잇단 침범에 \"지역 안정 요구 존중해야\"",
-      "link": "https://www.yna.co.kr/view/AKR20261124176900098",
-      "source": "연합뉴스 국제",
-      "ts": 1795518521000,
-      "pub": "Tue, 24 Nov 2026 20:08:41 +0900",
-      "sentiment": "neutral",
-      "desc": "(브뤼셀=연합뉴스) 현윤경 특파원 = 최근 러시아를 겨눈 우크라이나의 드론 반격이 러시아 국경을 넘어 북유럽의 북대서양조약기구(NATO·나토) ...",
-      "image": "https://img.yna.co.kr/photo/ap/2026/11/22/PAP20261122016101009_P2.jpg"
-    },
-    {
-      "title": "크림반도 죄는 우크라…전력공급 차질까지",
-      "link": "https://www.yna.co.kr/view/AKR20261124176600109",
-      "source": "연합뉴스 국제",
-      "ts": 1795518173000,
-      "pub": "Tue, 24 Nov 2026 20:02:53 +0900",
-      "sentiment": "neutral",
-      "desc": "(로마=연합뉴스) 민경락 특파원 = 우크라이나가 러시아가 강제 병합한 크림반도를 겨냥한 공세 수위를 높이면서 크림반도 전역에 전력 공급이 차질을...",
-      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/24/PAF20261124131201009_P2.jpg"
-    },
-    {
-      "title": "내달부터 EU행 한국산 하이브리드차 무관세 6만7천924대로 제한(종합)",
-      "link": "https://www.yna.co.kr/view/AKR20261124170651098",
-      "source": "연합뉴스 국제",
-      "ts": 1795514932000,
-      "pub": "Tue, 24 Nov 2026 19:08:52 +0900",
-      "sentiment": "neutral",
-      "desc": "(브뤼셀·서울=연합뉴스) 현윤경 특파원 장보인 기자 = 내달부터 내년 6월 18일까지 200일간 유럽연합(EU)에 무관세로 수출할 수 있는 한국...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/16/PYH2026111610760006100_P2.jpg"
     }
   ]
 }

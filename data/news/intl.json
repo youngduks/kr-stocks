@@ -1,8 +1,158 @@
 {
   "category": "intl",
-  "updated_at": "2026-11-25T15:05:40.099Z",
-  "count": 33,
+  "updated_at": "2026-11-25T23:51:04.477Z",
+  "count": 32,
   "items": [
+    {
+      "title": "푸틴, 160억원대 횡령 혐의 북극권 주지사 해임",
+      "link": "https://www.yna.co.kr/view/AKR20261126027700009",
+      "source": "연합뉴스 국제",
+      "ts": 1795649569000,
+      "pub": "Thu, 26 Nov 2026 08:32:49 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 김승욱 기자 = 블라디미르 푸틴 러시아 대통령이 거액의 부패 혐의로 구금된 북극권 주지사를 해임했다.",
+      "image": "https://img.yna.co.kr/photo/etc/ta/2026/11/25/PTA20261125053501009_P2.jpg"
+    },
+    {
+      "title": "美, 인도에 무역합의 압박…\"관세 17% 협정 안 맺으면 25% 부과\"",
+      "link": "https://www.yna.co.kr/view/AKR20261126025300009",
+      "source": "연합뉴스 국제",
+      "ts": 1795648709000,
+      "pub": "Thu, 26 Nov 2026 08:18:29 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 이성한 기자 = 미국 정부가 25일(현지시간) 과잉생산을 문제삼아 인도에 최대 25% 관세를 예고하면서 양국간 조속한 무역협정...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/17/PRU20261117291801009_P2.jpg"
+    },
+    {
+      "title": "美연준 베이지북 \"물가 상승 압력 지속…임금 상승세 확대\"",
+      "link": "https://www.yna.co.kr/view/AKR20261126018300072",
+      "source": "연합뉴스 국제",
+      "ts": 1795646382000,
+      "pub": "Thu, 26 Nov 2026 07:39:42 +0900",
+      "sentiment": "positive",
+      "desc": "(뉴욕=연합뉴스) 임수정 특파원 = 미국의 경제활동이 완만한 성장세를 이어가는 가운데 물가 상승 압력이 지속되고 임금 상승세도 확대됐다는 미 연...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/26/AKR20261126018300072_01_i_P2.jpg"
+    },
+    {
+      "title": "관세로 美증시 부담 주더니…트럼프, 주가하락 또 중간선거탓",
+      "link": "https://www.yna.co.kr/view/AKR20261126012700071",
+      "source": "연합뉴스 국제",
+      "ts": 1795646144000,
+      "pub": "Thu, 26 Nov 2026 07:35:44 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령은 25일(현지시간) 최근의 주가 하락이 11·3 중간선거에서 민주당이 승리한 탓...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/26/AKR20261126012700071_01_i_P2.jpg"
+    },
+    {
+      "title": "美, 15% 관세 상한 지켰지만…'25% 인상' 카드 쥐고 한국 압박",
+      "link": "https://www.mt.co.kr/world/2026/11/26/2026112605160435749",
+      "source": "머니투데이",
+      "ts": 1795642163000,
+      "pub": "Thu, 26 Nov 2026 06:29:23 +0900",
+      "sentiment": "neutral",
+      "desc": "미국 무역대표부(USTR)가 '과잉생산 관세' 조사 결과를 발표하면서 한국의 전략산업 육성 정책 등을 불합리한 관행으로 지적했다. 한국에 제시한 관세는 한미 무역 합의에 따라 최대 15%로 제한했지만 향후 25%까지 올릴 수 있다는 여지도 남겼다. USTR은 이날 한국",
+      "image": "https://thumb.mt.co.kr/06/2026/11/2026112605160435749_1.jpg"
+    },
+    {
+      "title": "트럼프, 선거 져도 '관세 마이웨이'…中에 '40% 때릴수도' 압박",
+      "link": "https://www.yna.co.kr/view/AKR20261126006900071",
+      "source": "연합뉴스 국제",
+      "ts": 1795638905000,
+      "pub": "Thu, 26 Nov 2026 05:35:05 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령이 중간선거 패배에도 관세 정책을 고수하며 연방대법원 판결로 무너진 관세장벽 재건...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/26/AKR20261126006900071_01_i_P2.jpg"
+    },
+    {
+      "title": "美, '韓과잉생산' 반도체·車 조준…'관세 25% 인상여지' 으름장",
+      "link": "https://www.yna.co.kr/view/AKR20261126005200071",
+      "source": "연합뉴스 국제",
+      "ts": 1795635889000,
+      "pub": "Thu, 26 Nov 2026 04:44:49 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 미국 무역대표부(USTR)가 25일(현지시간) 내놓은 과잉생산 관세 예고 보고서에는 한국의 전략산업 육성 ...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/25/PYH2026112514070006100_P2.jpg"
+    },
+    {
+      "title": "폴란드, 우크라 접경에 비행금지구역 설정…러 도발 대응",
+      "link": "https://www.yna.co.kr/view/AKR20261126004200082",
+      "source": "연합뉴스 국제",
+      "ts": 1795630870000,
+      "pub": "Thu, 26 Nov 2026 03:21:10 +0900",
+      "sentiment": "neutral",
+      "desc": "(베를린=연합뉴스) 김계연 특파원 = 폴란드가 러시아의 공중 도발에 대비해 동부 국경 지대에 비행금지구역을 설정하기로 했다고 로이터통신이 25일...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/11/21/PEP20261121009601009_P2.jpg"
+    },
+    {
+      "title": "'트럼프 이민정책 비판 상징' 엘살바도르인, 스페인 도착",
+      "link": "https://www.yna.co.kr/view/AKR20261126003900085",
+      "source": "연합뉴스 국제",
+      "ts": 1795628848000,
+      "pub": "Thu, 26 Nov 2026 02:47:28 +0900",
+      "sentiment": "neutral",
+      "desc": "(런던=연합뉴스) 김지연 특파원 = 도널드 트럼프 미국 행정부의 행정 착오로 본국으로 추방됐다가 미국으로 돌아갔던 30대 엘살바도르인이 미국을 ...",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/11/25/PEP20261125232701009_P2.jpg"
+    },
+    {
+      "title": "美무역대표, 젠슨황 복귀에 \"트럼프, 경제·안보 균형 맞춰\"",
+      "link": "https://www.yna.co.kr/view/AKR20261126002900071",
+      "source": "연합뉴스 국제",
+      "ts": 1795626783000,
+      "pub": "Thu, 26 Nov 2026 02:13:03 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = '엔비디아 사태'를 앞두고 미국 행정부 내 치열한 논쟁이 있었으며, 도널드 트럼프 대통령이 엇갈린 주장 사...",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/11/16/PAF20261116065001009_P2.jpg"
+    },
+    {
+      "title": "역대급 대미흑자 관세 부메랑 피했다…15% 사수에 일단 안도",
+      "link": "https://www.yna.co.kr/view/AKR20261126002000003",
+      "source": "연합뉴스 경제",
+      "ts": 1795623989000,
+      "pub": "Thu, 26 Nov 2026 01:26:29 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 신창용 기자 = 미국이 강제노동 관세에 이어 과잉생산 관세까지 부과하기로 했지만 한국에 적용되는 관세 상한은 기존 한미 합의대...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/25/PYH2026112514250006100_P2.jpg"
+    },
+    {
+      "title": "EU, 새 美관세에 \"유럽, 과잉생산 원천 아냐…15% 상한 준수돼야\"",
+      "link": "https://www.yna.co.kr/view/AKR20261126001700098",
+      "source": "연합뉴스 국제",
+      "ts": 1795623094000,
+      "pub": "Thu, 26 Nov 2026 01:11:34 +0900",
+      "sentiment": "neutral",
+      "desc": "(브뤼셀=연합뉴스) 현윤경 특파원 = 미국이 24일(현지시간) 무역법 301조를 근거로 새 관세를 제시하자 유럽연합(EU)이 신규 관세 근거에 ...",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/26/AKR20261126001700098_01_i_P2.jpg"
+    },
+    {
+      "title": "美, 중국 등 14개 경제주체에 과잉생산 관세…韓 15% 상한 유지(종합2보)",
+      "link": "https://www.yna.co.kr/view/AKR20261125185752071",
+      "source": "연합뉴스 국제",
+      "ts": 1795622972000,
+      "pub": "Thu, 26 Nov 2026 01:09:32 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 미국이 무역법 301조에 따른 조사를 거쳐 한국을 포함해 14개 경제주체에 과잉생산을 문제 삼는 관세를 예...",
+      "image": "https://img.yna.co.kr/photo/ap/2026/08/24/PAP20260824246501009_P2.jpg"
+    },
+    {
+      "title": "美무역대표, '과잉생산 관세' 근거로 \"韓 정부지원·인프라계획\"",
+      "link": "https://www.yna.co.kr/view/AKR20261126000800071",
+      "source": "연합뉴스 국제",
+      "ts": 1795620920000,
+      "pub": "Thu, 26 Nov 2026 00:35:20 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 홍정규 특파원 = 제이미슨 그리어 미국 무역대표부(USTR) 대표는 한국에 대한 관세율을 2.5%포인트(p) 상향한 '과잉생...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/18/PRU20261118333101009_P2.jpg"
+    },
+    {
+      "title": "美USTR, 14개 경제주체에 과잉생산 관세…韓 15% 상한 유지(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261125185751071",
+      "source": "연합뉴스 국제",
+      "ts": 1795619312000,
+      "pub": "Thu, 26 Nov 2026 00:08:32 +0900",
+      "sentiment": "neutral",
+      "desc": "(워싱턴=연합뉴스) 백나리 특파원 = 미국이 한국을 포함해 14개 경제주체에 과잉생산을 문제 삼는 관세를 예고했다.",
+      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/25/AKR20261125185751071_01_i_P2.jpg"
+    },
     {
       "title": "뉴욕증시, AI 매도세·관세 우려에 하락 출발",
       "link": "https://www.yna.co.kr/view/AKR20261125188100009",
@@ -24,22 +174,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/25/AKR20261125185851072_01_i_P2.jpg"
     },
     {
-      "title": "美 10월 근원 PCE 물가 3.3%…내년 추가 긴축 압박",
-      "link": "https://www.hankyung.com/article/202611250680i",
-      "source": "한국경제",
-      "ts": 1795616917000,
-      "pub": "Wed, 25 Nov 2026 23:28:37 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "美 새 관세 발표…한국·일본 15% 유지,중국은 최대 40%",
-      "link": "https://www.hankyung.com/article/202611250639i",
-      "source": "한국경제",
-      "ts": 1795616455000,
-      "pub": "Wed, 25 Nov 2026 23:20:55 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "프랑스, 우크라 리비아 작전 두둔…\"자위권 행사\"",
       "link": "https://www.yna.co.kr/view/AKR20261125186900085",
       "source": "연합뉴스 국제",
@@ -48,22 +182,6 @@
       "sentiment": "neutral",
       "desc": "(런던=연합뉴스) 김지연 특파원 = 우크라이나가 북아프리카의 리비아 항구 인근에서 러시아 선박을 공격한 것을 두고 프랑스가 우크라이나의 자기방어...",
       "image": "https://img.yna.co.kr/photo/ap/2026/11/13/PAP20261113036501009_P2.jpg"
-    },
-    {
-      "title": "엔비디아 시간외 6% 급락…美 물가·관세 충격에 AI株 휘청 [월가 업&다운]",
-      "link": "https://www.hankyung.com/article/202611250671i",
-      "source": "한국경제",
-      "ts": 1795616233000,
-      "pub": "Wed, 25 Nov 2026 23:17:13 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "美 '과잉생산 관세' 발표 예고…\"한국엔 15% 상한 유지\"",
-      "link": "https://www.hankyung.com/article/2026112506641",
-      "source": "한국경제",
-      "ts": 1795616066000,
-      "pub": "Wed, 25 Nov 2026 23:14:26 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "미 10월 PCE 물가 전년대비 3.8%↑…예상치 부합",
@@ -86,32 +204,6 @@
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/25/AKR20261125185700071_01_i_P2.jpg"
     },
     {
-      "title": "최악 피한 한국 수출…美 '과잉생산 관세' 맞지만 '15% 상한선' 유지",
-      "link": "https://www.mt.co.kr/world/2026/11/25/2026112522392990320",
-      "source": "머니투데이",
-      "ts": 1795614271000,
-      "pub": "Wed, 25 Nov 2026 22:44:31 +0900",
-      "sentiment": "neutral",
-      "desc": "(상보) 14개 교역국에 '과잉생산 관세' 부과 USTR, 8개월간 무역법 301조 조사 마무리 '강제노동 관세(12.5%)'와 단순 합산 안 해 공청회·의견수렴 거쳐 내년 1월 발효 전망 중국 20% 상한 적용…멕시코·노르웨이는 부과 제외 미국 도널드 트럼프 행정부가",
-      "image": "https://thumb.mt.co.kr/06/2026/11/2026112522392990320_1.jpg"
-    },
-    {
-      "title": "美 10월 PCE 연 3.8%↑…3분기 GDP 연 4.3% 성장",
-      "link": "https://www.hankyung.com/article/202611250630i",
-      "source": "한국경제",
-      "ts": 1795614258000,
-      "pub": "Wed, 25 Nov 2026 22:44:18 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "[속보] 美 10월 PCE 물가 전년 대비 3.8%↑…예상치 부합",
-      "link": "https://www.hankyung.com/article/2026112506297",
-      "source": "한국경제",
-      "ts": 1795613720000,
-      "pub": "Wed, 25 Nov 2026 22:35:20 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] 美 10월 PCE 물가 전년 대비 3.8%↑…예상치 부합",
       "link": "https://www.yna.co.kr/view/AKR20261125185200072",
       "source": "연합뉴스 국제",
@@ -122,24 +214,6 @@
       "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
     },
     {
-      "title": "[속보] 美 USTR \"한국·일본·EU 등 관세 15% 상한 유지\"",
-      "link": "https://www.mt.co.kr/world/2026/11/25/2026112522224532854",
-      "source": "머니투데이",
-      "ts": 1795613177000,
-      "pub": "Wed, 25 Nov 2026 22:26:17 +0900",
-      "sentiment": "neutral",
-      "desc": "25일(현지시간) 로이터통신에 따르면 미국 무역대표부(USTR)는 한국, 일본, 유럽연합(EU), 스위스에 대한 무역 협정 관세율 15% 상한을 유지한다고 밝혔다. 이어 중국에 대한 관세율은 20%로 제한된다고 전했다....",
-      "image": "https://thumb.mt.co.kr/06/2026/11/2026112522224532854_1.jpg"
-    },
-    {
-      "title": "美 USTR \"한국·일본·EU 등 관세 15% 상한 유지\"",
-      "link": "https://www.hankyung.com/article/2026112506217",
-      "source": "한국경제",
-      "ts": 1795612984000,
-      "pub": "Wed, 25 Nov 2026 22:23:04 +0900",
-      "sentiment": "neutral"
-    },
-    {
       "title": "[속보] 美 USTR \"한국, 일본, EU 등 관세 15% 상한 유지\"",
       "link": "https://www.yna.co.kr/view/AKR20261125184200071",
       "source": "연합뉴스 국제",
@@ -148,14 +222,6 @@
       "sentiment": "neutral",
       "desc": "(",
       "image": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg"
-    },
-    {
-      "title": "[속보] 美, 한국 등 14개 경제주체에 '과잉생산 관세' 예고",
-      "link": "https://www.hankyung.com/article/2026112506197",
-      "source": "한국경제",
-      "ts": 1795612809000,
-      "pub": "Wed, 25 Nov 2026 22:20:09 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "[속보] 美, 한국 등 14개 경제주체에 '과잉생산 관세' 예고",
@@ -176,14 +242,6 @@
       "sentiment": "neutral",
       "desc": "(카이로=연합뉴스) 김상훈 특파원 = 이스라엘 법원이 베냐민 네타냐후 총리의 부패 혐의 재판에서 가장 중대한 혐의에 대해 유죄 판결 가능성이 희...",
       "image": "https://img.yna.co.kr/photo/etc/af/2026/11/25/PAF20261125203401009_P2.jpg"
-    },
-    {
-      "title": "'제2얄타'로 홈런 친 푸틴, 뒤에서 웃는 시진핑[워싱턴나우+]",
-      "link": "https://www.hankyung.com/article/202611258262i",
-      "source": "한국경제",
-      "ts": 1795605392000,
-      "pub": "Wed, 25 Nov 2026 20:16:32 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "中, 美 '과잉생산 관세' 발표 앞두고 \"정치적 조작 반대\"",
@@ -264,56 +322,6 @@
       "sentiment": "neutral",
       "desc": "(베이징=연합뉴스) 한종구 특파원 = 중국 정부가 도널드 트럼프 미국 대통령이 시진핑 중국 국가주석과의 회담에서 \"대만 독립을 지지하지 않는다\"...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/25/AKR20261125101800083_01_i_P2.jpg"
-    },
-    {
-      "title": "이스라엘 야권 첫 연정 합의했지만…'고차방정식'은 여전",
-      "link": "https://www.yna.co.kr/view/AKR20261125088400009",
-      "source": "연합뉴스 국제",
-      "ts": 1795574393000,
-      "pub": "Wed, 25 Nov 2026 11:39:53 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 노효동 기자 = 이스라엘 차기정부 구성의 주도권을 쥔 가디 아이젠코트 야샤르당 대표가 24일(현지시간) 아비그도르 리버만이 이...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/11/23/PEP20261123154501009_P2.jpg"
-    },
-    {
-      "title": "트럼프, 젠슨황 사면에 \"항상 선택지지만 필요없을 것\" 입장",
-      "link": "https://www.yna.co.kr/view/AKR20261125066800009",
-      "source": "연합뉴스 국제",
-      "ts": 1795571140000,
-      "pub": "Wed, 25 Nov 2026 10:45:40 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이성한 기자 = 도널드 트럼프 미국 대통령이 엔비디아 최고경영자(CEO)로 복귀한 젠슨 황이 의회에서 사실대로 증언하기를 바라...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/24/PRU20261124189801009_P2.jpg"
-    },
-    {
-      "title": "트럼프 \"김정은과 러브레터 당장 다시 시작할 수도\"",
-      "link": "https://www.yna.co.kr/view/AKR20261125069300009",
-      "source": "연합뉴스 국제",
-      "ts": 1795570533000,
-      "pub": "Wed, 25 Nov 2026 10:35:33 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 강훈상 기자 = 도널드 트럼프 미국 대통령이 집권 1기 당시 김정은 북한 국무위원장과 주고받았던 이른바 '러브레터'(친서) 외...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/17/PRU20261117223801009_P2.jpg"
-    },
-    {
-      "title": "중국산 전기차 추가 관세 움직임에…中왕이, 英외교장관과 통화",
-      "link": "https://www.yna.co.kr/view/AKR20261125062500083",
-      "source": "연합뉴스 국제",
-      "ts": 1795569620000,
-      "pub": "Wed, 25 Nov 2026 10:20:20 +0900",
-      "sentiment": "neutral",
-      "desc": "(베이징=연합뉴스) 김현정 특파원 = 영국이 중국산 전기차에 대해 추가 관세 부과 방안을 검토하는 가운데 왕이 중국공산당 중앙외사판공실 주임 겸...",
-      "image": "https://img.yna.co.kr/photo/etc/xi/2026/07/23/PXI20260723009301009_P2.jpg"
-    },
-    {
-      "title": "日, '핵반입금지 재검토' 여지 속 핵무기금지조약 불참 공식화",
-      "link": "https://www.yna.co.kr/view/AKR20261125034300073",
-      "source": "연합뉴스 국제",
-      "ts": 1795565392000,
-      "pub": "Wed, 25 Nov 2026 09:09:52 +0900",
-      "sentiment": "neutral",
-      "desc": "(도쿄=연합뉴스) 조성미 특파원 = 일본 정부가 오는 30일부터 미국 뉴욕에서 열리는 핵무기금지조약(TPNW) 재검토회의에 불참한다는 방침을 공...",
-      "image": "https://img.yna.co.kr/photo/cms/2022/03/31/55/PCM20220331000155990_P2.jpg"
     }
   ]
 }

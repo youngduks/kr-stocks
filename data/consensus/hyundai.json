@@ -3,9 +3,9 @@
   "ticker": "005380",
   "name_ko": "현대차",
   "name_en": "Hyundai Motor",
-  "updated_at": "2026-11-25T17:50:23.873Z",
+  "updated_at": "2026-11-26T17:34:44.390Z",
   "consensus": {
-    "avg_target_krw": 501667
+    "avg_target_krw": 496400
   },
   "history": [
     {
@@ -203,15 +203,19 @@
     {
       "date": "2026-11-25",
       "avg_target_krw": 501667
+    },
+    {
+      "date": "2026-11-26",
+      "avg_target_krw": 496400
     }
   ],
   "naver_snapshot": {
     "opinion_score": 4,
     "opinion_label": "매수",
-    "avg_target_krw": 501667,
+    "avg_target_krw": 496400,
     "high_52w_krw": 787000,
     "low_52w_krw": 240500,
     "source": "m.stock.naver.com",
-    "fetched_at": "2026-11-25T17:50:23.873Z"
+    "fetched_at": "2026-11-26T17:34:44.390Z"
   }
 }

@@ -1,8 +1,94 @@
 {
   "category": "hynix",
-  "updated_at": "2026-11-27T00:12:09.334Z",
-  "count": 23,
+  "updated_at": "2026-11-27T09:13:06.229Z",
+  "count": 13,
   "items": [
+    {
+      "title": "증안펀드 기대에 코스닥 8.13% 급등…바이오·로봇이 이끌고 2차전지·반도체가 밀었다",
+      "link": "https://www.hankyung.com/article/202611275241i",
+      "source": "한국경제",
+      "ts": 1795766305000,
+      "pub": "Fri, 27 Nov 2026 16:58:25 +0900",
+      "sentiment": "positive"
+    },
+    {
+      "title": "엔비디아발 'AI 조정' 잦아드나…코스피·코스닥, 급등 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261127078351008",
+      "source": "연합뉴스 경제",
+      "ts": 1795764956000,
+      "pub": "Fri, 27 Nov 2026 16:35:56 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 젠슨 황 엔비디아 최고경영자(CEO)의 불륜 스캔들과 사퇴, 복귀로 촉발된 글로벌 증시 급락의 여파가 다소 진...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/27/PYH2026112712560001300_P2.jpg"
+    },
+    {
+      "title": "[특징주] 삼성전자 4.6%·SK하이닉스 5.4% 급등 마감(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261127032851008",
+      "source": "연합뉴스 경제",
+      "ts": 1795762435000,
+      "pub": "Fri, 27 Nov 2026 15:53:55 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 27일 각각 4%와 5% 넘게 급등한 채 정규장 거래를 ...",
+      "image": "https://img.yna.co.kr/photo/cms/2026/06/24/43/PCM20260624000043990_P2.jpg"
+    },
+    {
+      "title": "엔비디아와 트럼프의 국가자본주의(Nvidia and Trump's State Capitalism) [이번주 WSJ]",
+      "link": "https://www.hankyung.com/article/202611274984i",
+      "source": "한국경제",
+      "ts": 1795761229000,
+      "pub": "Fri, 27 Nov 2026 15:33:49 +0900",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "산업연구원 \"쏠림 줄이려면 초과세수 비반도체에 투입해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20261127098500003",
+      "source": "연합뉴스 경제",
+      "ts": 1795757077000,
+      "pub": "Fri, 27 Nov 2026 14:24:37 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 신창용 기자 = 1조달러를 돌파한 한국 수출의 상승세를 이어가려면 반도체 호황으로 거둔 초과세수를 비반도체 투자로 연결해야 한...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/19/PYH2026111919940005100_P2.jpg"
+    },
+    {
+      "title": "엔비디아발 'AI 조정' 잦아드나…코스피·코스닥 일제히 급등",
+      "link": "https://www.yna.co.kr/view/AKR20261127078300008",
+      "source": "연합뉴스 경제",
+      "ts": 1795750754000,
+      "pub": "Fri, 27 Nov 2026 12:39:14 +0900",
+      "sentiment": "positive",
+      "desc": "(서울=연합뉴스) 황철환 기자 = 젠슨 황 엔비디아 최고경영자(CEO)의 불륜 스캔들과 사퇴, 복귀로 촉발된 글로벌 증시 급락의 여파가 다소 진...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/27/PYH2026112702590001300_P2.jpg"
+    },
+    {
+      "title": "F4 \"반도체 경기·금융시장 연계성 확대…대응태세 유지\"",
+      "link": "https://www.yna.co.kr/view/AKR20261127064100002",
+      "source": "연합뉴스 경제",
+      "ts": 1795744443000,
+      "pub": "Fri, 27 Nov 2026 10:54:03 +0900",
+      "sentiment": "neutral",
+      "desc": "(세종=연합뉴스) 송정은 기자 = 경제·금융 수장들은 27일 반도체 경기와 금융시장 간 연계성이 높아지고 있는 만큼 실물경제와 금융시장 간 위험...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/27/PYH2026112701260001300_P2.jpg"
+    },
+    {
+      "title": "\"젠슨황 사태로 中 반도체 자립 가속…美규제 강경해질 것\"",
+      "link": "https://www.yna.co.kr/view/AKR20261127053000083",
+      "source": "연합뉴스 국제",
+      "ts": 1795743336000,
+      "pub": "Fri, 27 Nov 2026 10:35:36 +0900",
+      "sentiment": "neutral",
+      "desc": "(베이징=연합뉴스) 김현정 특파원 = 젠슨 황 엔비디아 최고경영자(CEO)의 퇴진과 복귀 사태를 계기로 미국의 대(對)중국 기술 규제가 한층 강...",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/11/25/PRU20261125265601009_P2.jpg"
+    },
+    {
+      "title": "패트로달러 아닌 칩달러…반도체, 세계수출서 원유 넘어섰다",
+      "link": "https://www.yna.co.kr/view/AKR20261127037400009",
+      "source": "연합뉴스 국제",
+      "ts": 1795739864000,
+      "pub": "Fri, 27 Nov 2026 09:37:44 +0900",
+      "sentiment": "neutral",
+      "desc": "(서울=연합뉴스) 황정우 기자 = 인공지능(AI) 붐에 힘입어 반도체가 수십년 간 세계 무역의 주요 원자재였던 원유·가스 수출액을 처음으로 넘어...",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/14/PYH2026101411280001300_P2.jpg"
+    },
     {
       "title": "메모리 가격 상승에 美 스마트폰 출하량 9% 감소",
       "link": "https://www.yna.co.kr/view/AKR20261127025800009",
@@ -12,46 +98,6 @@
       "sentiment": "neutral",
       "desc": "(서울=연합뉴스) 이성한 기자 = 메모리 반도체 가격 상승이 보급형 안드로이드 스마트폰 제조사들을 압박하면서 3분기 미국 스마트폰 출하량이 전년...",
       "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/27/AKR20261127025800009_01_i_P2.jpg"
-    },
-    {
-      "title": "수익률 나홀로 질주…무너진 반도체에 대피처로 뜬 '이 나라' [투자톡]",
-      "link": "https://www.hankyung.com/article/2026112737396",
-      "source": "한국경제",
-      "ts": 1795736231000,
-      "pub": "Fri, 27 Nov 2026 08:37:11 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "낸드 업황 우려에 반토막 난 파두…대규모 수주에 반등 시도할까",
-      "link": "https://www.hankyung.com/article/202611262697i",
-      "source": "한국경제",
-      "ts": 1795735802000,
-      "pub": "Fri, 27 Nov 2026 08:30:02 +0900",
-      "sentiment": "negative"
-    },
-    {
-      "title": "[밤 사이 해외뉴스 영상] \"우회로마저 막았다\" 엔비디아, 동남아 서버 출하 전격 중단",
-      "link": "https://www.hankyung.com/article/202611273726i",
-      "source": "한국경제",
-      "ts": 1795734441000,
-      "pub": "Fri, 27 Nov 2026 08:07:21 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "SK하닉 주주환원도 '역대급'…엔비디아보다 '45조' 더 쏜다",
-      "link": "https://www.hankyung.com/article/202611262967g",
-      "source": "한국경제",
-      "ts": 1795730401000,
-      "pub": "Fri, 27 Nov 2026 07:00:01 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "엔비디아칩 쓸어담은 美 회사…소유주 정체 드러나자 '깜짝'",
-      "link": "https://www.hankyung.com/article/2026112735537",
-      "source": "한국경제",
-      "ts": 1795729596000,
-      "pub": "Fri, 27 Nov 2026 06:46:36 +0900",
-      "sentiment": "neutral"
     },
     {
       "title": "엔비디아칩 대량구매 실리콘밸리 업체 2곳…알고 보니 中 소유",
@@ -64,34 +110,6 @@
       "image": "https://img.yna.co.kr/photo/reuters/2026/11/26/PRU20261126224901009_P2.jpg"
     },
     {
-      "title": "\"1%라도 빌려주면 안 팔아\"…엔비디아 판매상, 中 연결 클라우드 손절",
-      "link": "https://www.mt.co.kr/world/2026/11/27/2026112704311972226",
-      "source": "머니투데이",
-      "ts": 1795728054000,
-      "pub": "Fri, 27 Nov 2026 06:20:54 +0900",
-      "sentiment": "neutral",
-      "desc": "엔비디아의 인공지능(AI) 반도체 판매상들이 중국 기업에 연산 자원을 일부라도 임대하는 클라우드 업체에는 칩을 공급하지 않기로 통보했다고 미 경제방송 CNBC가 복수의 소식통을 인용해 26일(현지시간) 보도했다. 엔비디아가 그래픽처리장치(GPU) 연산 용량의 50% 이",
-      "image": "https://thumb.mt.co.kr/06/2026/11/2026112704311972226_1.jpg"
-    },
-    {
-      "title": "\"中에 1%라도 임대하면…\" 엔비디아 판매상 '초강수' 꺼냈다",
-      "link": "https://www.hankyung.com/article/2026112735397",
-      "source": "한국경제",
-      "ts": 1795727580000,
-      "pub": "Fri, 27 Nov 2026 06:13:00 +0900",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "AI 반도체 호황인데…TSMC와 더 멀어진 삼성의 승부수",
-      "link": "https://www.mt.co.kr/industry/2026/11/27/2026112614411974849",
-      "source": "머니투데이",
-      "ts": 1795726200000,
-      "pub": "Fri, 27 Nov 2026 05:50:00 +0900",
-      "sentiment": "neutral",
-      "desc": "TSMC 점유율 75%…양사 격차 한 분기 새 2.5%p 확대 빅테크 고객군 확대…내년 HPC 매출 비중 50% 초과 전망 AI(인공지능) 반도체 수요가 급증하면서 글로벌 파운드리(반도체 위탁생산) 시장이 가파르게 성장하고 있지만 대만 TSMC와 삼성전자의 점유율 격차",
-      "image": "https://thumb.mt.co.kr/06/2026/11/2026112614411974849_1.jpg"
-    },
-    {
       "title": "트럼프, 내달 4일 애리조나 TSMC 반도체공장 기공식 참석",
       "link": "https://www.yna.co.kr/view/AKR20261127003800071",
       "source": "연합뉴스 국제",
@@ -102,16 +120,6 @@
       "image": "https://img.yna.co.kr/photo/ap/2026/11/25/PAP20261125148801009_P2.jpg"
     },
     {
-      "title": "[사설]반도체 호황 속 금리 인상, 부작용 관리를",
-      "link": "https://www.mt.co.kr/opinion/2026/11/27/2026112616014643257",
-      "source": "머니투데이",
-      "ts": 1795719900000,
-      "pub": "Fri, 27 Nov 2026 04:05:00 +0900",
-      "sentiment": "neutral",
-      "desc": "한국은행이 26일 기준금리를 연 3.0%에서 3.25%로 0.25%p 올렸다. 7·8월에 이어 올해 세 번째로 누적 인상폭은 0.75%p다. 소비자물가 상승률은 10월 2.8%로 낮아졌지만 목표치 2%를 웃돈다. 근원물가는 2%대 후반에 머물러 있다. 여기에 한은이 내",
-      "image": "https://thumb.mt.co.kr/06/2026/11/2026112616014643257_1.jpg"
-    },
-    {
       "title": "\"中에 1%라도 임대하면 칩 못팔아\"…엔비디아 판매상 강경방침",
       "link": "https://www.yna.co.kr/view/AKR20261127002700091",
       "source": "연합뉴스 국제",
@@ -120,106 +128,6 @@
       "sentiment": "neutral",
       "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 엔비디아의 인공지능(AI) 반도체 판매상들이 중국 기업에 연산 자원을 조금이라도 임대하는 클라우드 업...",
       "image": "https://img.yna.co.kr/photo/etc/af/2026/11/26/PAF20261126196101009_P2.jpg"
-    },
-    {
-      "title": "\"이재용, '반도체 장기구매할게' 머스크에 '그럼 뭘 해줄건데'\"",
-      "link": "https://www.yna.co.kr/view/AKR20261126188000009",
-      "source": "연합뉴스 국제",
-      "ts": 1795688422000,
-      "pub": "Thu, 26 Nov 2026 19:20:22 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이지헌 기자 = 인공지능(AI) 인프라 투자 붐으로 메모리 반도체가 극심한 공급난을 겪으면서 글로벌 전자 업계가 메모리 칩 확...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/26/AKR20261126188000009_06_i_P2.jpg"
-    },
-    {
-      "title": "中 반도체업계, 삼전닉스 추격에 고삐…HBM·낸드 기술 진전",
-      "link": "https://www.yna.co.kr/view/AKR20261126175800089",
-      "source": "연합뉴스 국제",
-      "ts": 1795684442000,
-      "pub": "Thu, 26 Nov 2026 18:14:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(상하이=연합뉴스) 차병섭 특파원 = 미중 기술 경쟁 격화와 이에 따른 중국의 반도체 자립 움직임 속에 중국 반도체 업계가 삼성전자·SK하이닉스...",
-      "image": "https://img.yna.co.kr/photo/ap/2023/02/27/PAP20230227271501009_P2.jpg"
-    },
-    {
-      "title": "日키옥시아, 엔비디아와 AI 메모리 검증…韓 아성에 도전장",
-      "link": "https://www.yna.co.kr/view/AKR20261126158900073",
-      "source": "연합뉴스 국제",
-      "ts": 1795678907000,
-      "pub": "Thu, 26 Nov 2026 16:41:47 +0900",
-      "sentiment": "neutral",
-      "desc": "(도쿄=연합뉴스) 이도연 특파원 = 일본의 낸드플래시 제조사 키옥시아가 미국 엔비디아와 협력해 자사의 반도체 메모리를 인공지능(AI) 연산에 활...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/26/AKR20261126158900073_01_i_P2.jpg"
-    },
-    {
-      "title": "수은, 두산 반도체 중국 생산거점 구축에 1천800억원 지원",
-      "link": "https://www.yna.co.kr/view/AKR20261126143400002",
-      "source": "연합뉴스 경제",
-      "ts": 1795675094000,
-      "pub": "Thu, 26 Nov 2026 15:38:14 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이도흔 기자 = 한국수출입은행은 두산[000150]의 AI 반도체 핵심 소재인 고성능 동박적층판(CCL) 중국 생산거점 구축을...",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/26/AKR20261126143400002_01_i_P2.jpg"
-    },
-    {
-      "title": "국토장관 \"용인 반도체 첫 팹 일정 맞춰 기반시설 적기 공급\"",
-      "link": "https://www.yna.co.kr/view/AKR20261126138000003",
-      "source": "연합뉴스 경제",
-      "ts": 1795673695000,
-      "pub": "Thu, 26 Nov 2026 15:14:55 +0900",
-      "sentiment": "neutral",
-      "desc": "(세종=연합뉴스) 오진송 기자 = 홍지선 국토교통부 장관은 26일 경기 용인 반도체 국가산업단지 조성 현장을 찾아 기업의 투자 일정에 맞춰 기반...",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/11/26/PYH2026112617630001300_P2.jpg"
-    },
-    {
-      "title": "엔비디아, 동남아행 칩 출하 중단…'中 우회 접근 차단'",
-      "link": "https://www.yna.co.kr/view/AKR20261126136000009",
-      "source": "연합뉴스 국제",
-      "ts": 1795673490000,
-      "pub": "Thu, 26 Nov 2026 15:11:30 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이성한 기자 = 엔비디아가 인공지능(AI) 컴퓨팅 자원에 대한 중국의 접근을 차단하려는 미국 정부의 정책에 따라 주요 제조 파...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/26/PRU20261126224901009_P2.jpg"
-    },
-    {
-      "title": "엔비디아 임원 또 스캔들…'中밀수출 의혹' 여성과 교제 논란",
-      "link": "https://www.yna.co.kr/view/AKR20261126130800009",
-      "source": "연합뉴스 국제",
-      "ts": 1795672966000,
-      "pub": "Thu, 26 Nov 2026 15:02:46 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 고일환 기자 = 젠슨 황 엔비디아 최고경영자(CEO)의 혼외관계 파문에 이어 엔비디아의 또 다른 핵심 경영진과 중국 명문대 출...",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/11/23/PRU20261123184201009_P2.jpg"
-    },
-    {
-      "title": "중국 화웨이, 삼성·하이닉스 따라잡을 새 HBM 공개 준비",
-      "link": "https://www.yna.co.kr/view/AKR20261126127200009",
-      "source": "연합뉴스 국제",
-      "ts": 1795671763000,
-      "pub": "Thu, 26 Nov 2026 14:42:43 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 주종국 기자 = 중국 통신장비 기업 화웨이가 삼성전자와 SK하이닉스 제품에 도전할만한 새 고대역폭 메모리(HBM) 칩을 개발해...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/04/25/PEP20260425131401009_P2.jpg"
-    },
-    {
-      "title": "트럼프, 내달 4일 TSMC 애리조나 공장 증설 착공식 참석",
-      "link": "https://www.yna.co.kr/view/AKR20261126123600009",
-      "source": "연합뉴스 국제",
-      "ts": 1795670882000,
-      "pub": "Thu, 26 Nov 2026 14:28:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(서울=연합뉴스) 이성한 기자 = 도널드 트럼프 미국 대통령이 다음 달 4일 애리조나주 피닉스의 TSMC 공장 증설 착공식에 직접 참석한다.",
-      "image": "https://img.yna.co.kr/etc/inner/KR/2026/11/26/AKR20261126123600009_01_i_P2.jpg"
-    },
-    {
-      "title": "젠슨황 복귀일에 엔비디아 본사 방문한 머스크…친분·의리 과시",
-      "link": "https://www.yna.co.kr/view/AKR20261126108500091",
-      "source": "연합뉴스 국제",
-      "ts": 1795668782000,
-      "pub": "Thu, 26 Nov 2026 13:53:02 +0900",
-      "sentiment": "neutral",
-      "desc": "(샌프란시스코=연합뉴스) 권영전 특파원 = 스캔들로 사임했다가 재선임된 젠슨 황 엔비디아 최고경영자(CEO)의 회사 복귀 현장을 일론 머스크 스...",
-      "image": "https://img.yna.co.kr/photo/etc/epa/2026/09/30/PEP20260930085801009_P2.jpg"
     }
   ]
 }

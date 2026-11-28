@@ -17,6 +17,8 @@ const nextConfig = {
       { source: "/global", destination: "/markets#global", permanent: false },
       // SpaceX 는 상장 후 us 카테고리로 옮겨져 예전 주소가 404 — 404 안내 페이지·외부 링크 보호
       { source: "/private/spacex", destination: "/us/spacex", permanent: true },
+      // Anthropic 도 2026-11-19 나스닥 상장 → us 카테고리 (트래픽 핵심 주소라 보호)
+      { source: "/private/anthropic", destination: "/us/anthropic", permanent: true },
     ];
   },
   async headers() {

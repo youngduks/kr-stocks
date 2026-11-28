@@ -195,7 +195,7 @@ export default async function HyperliquidOnrampGuide() {
               HL premium 확인하며 거래 타이밍 잡기:
             </p>
             <div className="flex flex-col gap-1.5">
-              <Link href="/private/anthropic" className="text-accent-blue hover:underline font-semibold text-sm">
+              <Link href="/us/anthropic" className="text-accent-blue hover:underline font-semibold text-sm">
                 → Anthropic 24h 가격
               </Link>
               <Link href="/private/spacex" className="text-accent-blue hover:underline font-semibold text-sm">

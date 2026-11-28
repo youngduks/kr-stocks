@@ -346,17 +346,16 @@
     },
     {
       "slug": "anthropic",
-      "ticker": "binance:ANTHROPIC",
-      "dex": "vntl",
-      "source": "binance",
-      "binance_symbol": "ANTHROPICUSDT",
+      "ticker": "xyz:ANT",
+      "dex": "xyz",
       "name_ko": "앤트로픽",
-      "name_en": "Anthropic (Private)",
-      "category": "private",
+      "name_en": "Anthropic",
+      "category": "us",
       "tier": 1,
-      "is_private": true,
-      "implied_valuation_usd": 170000000000,
-      "note": "비상장 — Binance 선물(ANTHROPICUSDT). HL Ventuals dex perp가 거래량0 죽은 시장이라 2026-08-02 교체"
+      "is_private": false,
+      "share_ratio": 1.0,
+      "regular_market": "NASDAQ",
+      "note": "2026-11-19 나스닥 상장(ANT, Anthropic, PBC). 시세는 Hyperliquid HIP-3 xyz:ANT(주당 가격). 바이낸스 ANTHROPICUSDT는 2026-11-17 ANTUSDT로 개명·단위 변경(기업가치→주당 가격)되어 2026-11-28 교체"
     },
     {
       "slug": "sp500",

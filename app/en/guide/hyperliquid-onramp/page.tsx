@@ -189,7 +189,7 @@ export default async function HyperliquidOnrampGuideEN() {
               After signup &amp; deposit, watch live prices and regular-close premium on kr-stocks.com to time entries:
             </p>
             <div className="flex flex-col gap-1.5">
-              <Link href={"/private/anthropic" as any} className="text-accent-blue hover:underline font-semibold text-sm">
+              <Link href={"/us/anthropic" as any} className="text-accent-blue hover:underline font-semibold text-sm">
                 → Anthropic 24h price
               </Link>
               <Link href={"/private/spacex" as any} className="text-accent-blue hover:underline font-semibold text-sm">

@@ -1,5 +1,5 @@
 // 정규장 종가 fetch — Naver (한국) + Yahoo Finance (미국/글로벌)
-// HL 가격 vs 정규장 종가 비교용. 비상장(SpaceX/OpenAI/Anthropic)은 매핑 없음.
+// HL 가격 vs 정규장 종가 비교용. 비상장(OpenAI)은 매핑 없음. (SpaceX 2026-06, Anthropic 2026-11-19 상장)
 
 type RegularSource =
   | { source: "naver"; code: string }
@@ -45,6 +45,7 @@ const MAPPING: Record<string, RegularSource> = {
   rocketlab: { source: "yahoo", symbol: "RKLB" },
   draftkings: { source: "yahoo", symbol: "DKNG" },
   spacex: { source: "yahoo", symbol: "SPCX" },
+  anthropic: { source: "yahoo", symbol: "ANT" }, // 2026-11-19 나스닥 상장
 
   // 미국 블루칩 26종 (바이낸스 TRADIFI_PERPETUAL 확장분, 2026-08-25 추가)
   broadcom: { source: "yahoo", symbol: "AVGO" },
@@ -77,7 +78,6 @@ const MAPPING: Record<string, RegularSource> = {
 
   // 비상장 — 정규장 없음
   openai: null,
-  anthropic: null,
 
   // 글로벌 지수
   sp500: { source: "yahoo", symbol: "^GSPC" },

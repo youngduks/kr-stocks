@@ -134,7 +134,7 @@ export default async function AboutPage() {
                   따라가는 파생상품이라 다음 날 정규장 시작 가격과 차이가 날 수 있습니다.
                 </li>
                 <li>
-                  비상장 회사(OpenAI·Anthropic 등) 가격은 상장 주식 가격이 아니라 선물 시장에서 형성된 기업가치
+                  비상장 회사(OpenAI 등) 가격은 상장 주식 가격이 아니라 선물 시장에서 형성된 기업가치
                   추정치(implied valuation)입니다.
                 </li>
                 <li>

@@ -246,7 +246,7 @@ export default async function BinanceKoreaStocksGuide() {
               </Link>
             </div>
             <p className="text-sm text-text-muted leading-relaxed mt-4">
-              OpenAI·SpaceX 같은 비상장 빅테크나 미국주식 야간 거래는{" "}
+              OpenAI 같은 비상장 빅테크나 SpaceX·Anthropic 등 미국주식 야간 거래는{" "}
               <Link href="/guide/hyperliquid-onramp" className="text-accent-blue hover:underline font-semibold">
                 하이퍼리퀴드 거래 가이드
               </Link>

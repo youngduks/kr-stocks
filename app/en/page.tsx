@@ -16,11 +16,11 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "24h Global Asset Prices — Korean stocks, Private Big Tech, US",
   description:
-    "Live 24-hour prices for Korean stocks, US stocks, and unlisted private big tech (OpenAI · SpaceX · Anthropic). Hyperliquid HIP-3 perp + Upbit KRW/USDT FX feed.",
+    "Live 24-hour prices for Korean stocks, US stocks, newly listed SpaceX · Anthropic, and unlisted private big tech (OpenAI). Hyperliquid HIP-3 perp + Upbit KRW/USDT FX feed.",
   keywords: [
     "Hyperliquid Korea",
     "OpenAI stock price",
-    "SpaceX valuation",
+    "SpaceX stock price",
     "Anthropic stock price",
     "HIP-3 perp",
     "24h Korean stock",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "24h Global Asset Prices — kr-stocks.com",
     description:
-      "Korean stocks · US stocks · Private big tech (OpenAI · SpaceX · Anthropic) — live 24h price feed.",
+      "Korean stocks · US stocks (incl. SpaceX · Anthropic) · Private big tech (OpenAI) — live 24h price feed.",
     url: "https://kr-stocks.com/en",
     type: "website",
   },

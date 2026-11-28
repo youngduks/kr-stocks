@@ -13,7 +13,7 @@ const BYBIT_REF = "https://www.bybit.com/invite?ref=OKWEGE";
 export const metadata: Metadata = {
   title: "한국에서 Hyperliquid 거래하는 법 — 비상장 빅테크 24h 가이드",
   description:
-    "OpenAI · SpaceX · Anthropic 비상장 빅테크와 한국 주식 야간시세를 한국에서 직접 거래하는 단계별 안내. Binance USDT 충전 → Hyperliquid Bridge → HIP-3 perp 거래.",
+    "OpenAI 비상장 빅테크, SpaceX · Anthropic 상장 주식과 한국 주식 야간시세를 한국에서 직접 거래하는 단계별 안내. Binance USDT 충전 → Hyperliquid Bridge → HIP-3 perp 거래.",
   keywords: [
     "Hyperliquid 한국",
     "Hyperliquid 가입",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "한국에서 Hyperliquid 거래하는 법",
-    description: "OpenAI · SpaceX · Anthropic 비상장 빅테크 24h 거래 단계별 가이드",
+    description: "OpenAI 비상장 · SpaceX · Anthropic 상장 주식 24h 거래 단계별 가이드",
     url: "https://kr-stocks.com/guide/hyperliquid-onramp",
     type: "article",
   },
@@ -68,7 +68,7 @@ export default async function HyperliquidOnrampGuide() {
               한국에서 Hyperliquid 거래하는 법
             </h1>
             <p className="ds-explain">
-              비상장 OpenAI · SpaceX · Anthropic + 미국주식 + 한국주식 야간 시세를
+              비상장 OpenAI + SpaceX · Anthropic 등 미국주식 + 한국주식 야간 시세를
               한국에서 직접 거래하려면 Hyperliquid (HL) 분산형 거래소를 사용합니다.
               단계별 안내.
             </p>
@@ -78,8 +78,8 @@ export default async function HyperliquidOnrampGuide() {
             <h2 className="text-lg font-bold mb-2">Hyperliquid (HL) 는 무엇?</h2>
             <p className="text-sm text-text-muted leading-relaxed">
               Hyperliquid는 Arbitrum 기반 분산형 perpetual futures 거래소입니다.
-              HIP-3 builder dex (xyz, vntl)에서 비상장 빅테크 (OpenAI · SpaceX · Anthropic) 의
-              implied valuation 을 24/7 거래할 수 있고, 삼성전자 · SK하이닉스 같은
+              HIP-3 builder dex (xyz, vntl)에서 비상장 빅테크 (OpenAI) 의
+              implied valuation 과 상장한 SpaceX · Anthropic 주식을 24/7 거래할 수 있고, 삼성전자 · SK하이닉스 같은
               한국 주식 perp 도 거래됩니다. 정규장 휴장 시간에도 가격 변동.
             </p>
           </section>
@@ -158,7 +158,8 @@ export default async function HyperliquidOnrampGuide() {
                   종목 검색:
                 </p>
                 <ul className="text-sm text-text-muted leading-relaxed mt-2 space-y-1">
-                  <li>• 비상장: <span className="font-mono text-text">OPENAI</span>, <span className="font-mono text-text">SPACEX</span>, <span className="font-mono text-text">ANTHROPIC</span> (vntl dex)</li>
+                  <li>• 비상장: <span className="font-mono text-text">OPENAI</span> (vntl dex)</li>
+                  <li>• 상장 빅테크: <span className="font-mono text-text">SPCX</span> (SpaceX), <span className="font-mono text-text">ANT</span> (Anthropic) (xyz dex)</li>
                   <li>• 한국주식: <span className="font-mono text-text">SMSN</span>, <span className="font-mono text-text">SKHX</span>, <span className="font-mono text-text">HYUNDAI</span> (xyz dex)</li>
                   <li>• 미국주식: <span className="font-mono text-text">TSLA</span>, <span className="font-mono text-text">NVDA</span>, <span className="font-mono text-text">AAPL</span>, <span className="font-mono text-text">MSFT</span> 등 (xyz dex)</li>
                 </ul>
@@ -198,7 +199,7 @@ export default async function HyperliquidOnrampGuide() {
               <Link href="/us/anthropic" className="text-accent-blue hover:underline font-semibold text-sm">
                 → Anthropic 24h 가격
               </Link>
-              <Link href="/private/spacex" className="text-accent-blue hover:underline font-semibold text-sm">
+              <Link href="/us/spacex" className="text-accent-blue hover:underline font-semibold text-sm">
                 → SpaceX 24h 가격
               </Link>
               <Link href="/private/openai" className="text-accent-blue hover:underline font-semibold text-sm">

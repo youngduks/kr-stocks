@@ -63,7 +63,7 @@ export default async function HyperliquidOnrampGuideEN() {
               How to Trade Hyperliquid from Korea
             </h1>
             <p className="ds-explain">
-              To trade unlisted OpenAI · SpaceX · Anthropic plus US and Korean stock overnight prices directly from Korea, use the
+              To trade unlisted OpenAI, newly listed SpaceX · Anthropic plus US and Korean stock overnight prices directly from Korea, use the
               Hyperliquid (HL) decentralized exchange. Step-by-step below.
             </p>
           </header>
@@ -71,8 +71,8 @@ export default async function HyperliquidOnrampGuideEN() {
           <section className="mb-4 ds-card">
             <h2 className="text-lg font-bold mb-2">What is Hyperliquid (HL)?</h2>
             <p className="text-sm text-text-muted leading-relaxed">
-              Hyperliquid is an Arbitrum-based decentralized perpetual futures exchange. Its HIP-3 builder dexes (<span className="font-mono">xyz</span>, <span className="font-mono">vntl</span>) list unlisted big tech (OpenAI · SpaceX ·
-              Anthropic) implied valuation 24/7 and Korean stocks like Samsung · SK Hynix as perps — even when regular sessions are
+              Hyperliquid is an Arbitrum-based decentralized perpetual futures exchange. Its HIP-3 builder dexes (<span className="font-mono">xyz</span>, <span className="font-mono">vntl</span>) list unlisted big tech (OpenAI) implied valuation, newly listed SpaceX ·
+              Anthropic shares 24/7 and Korean stocks like Samsung · SK Hynix as perps — even when regular sessions are
               closed.
             </p>
           </section>
@@ -153,8 +153,11 @@ export default async function HyperliquidOnrampGuideEN() {
                 </p>
                 <ul className="text-sm text-text-muted leading-relaxed mt-2 space-y-1">
                   <li>
-                    • Private: <span className="font-mono text-text">OPENAI</span>,{" "}
-                    <span className="font-mono text-text">SPACEX</span>, <span className="font-mono text-text">ANTHROPIC</span> (vntl dex)
+                    • Private: <span className="font-mono text-text">OPENAI</span> (vntl dex)
+                  </li>
+                  <li>
+                    • Listed big tech: <span className="font-mono text-text">SPCX</span> (SpaceX),{" "}
+                    <span className="font-mono text-text">ANT</span> (Anthropic) (xyz dex)
                   </li>
                   <li>
                     • Korean stocks: <span className="font-mono text-text">SMSN</span>,{" "}
@@ -192,7 +195,7 @@ export default async function HyperliquidOnrampGuideEN() {
               <Link href={"/us/anthropic" as any} className="text-accent-blue hover:underline font-semibold text-sm">
                 → Anthropic 24h price
               </Link>
-              <Link href={"/private/spacex" as any} className="text-accent-blue hover:underline font-semibold text-sm">
+              <Link href={"/us/spacex" as any} className="text-accent-blue hover:underline font-semibold text-sm">
                 → SpaceX 24h price
               </Link>
               <Link href={"/private/openai" as any} className="text-accent-blue hover:underline font-semibold text-sm">

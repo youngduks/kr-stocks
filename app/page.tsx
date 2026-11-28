@@ -77,7 +77,7 @@ export default async function Home() {
 
       <main className="max-w-3xl mx-auto px-4 sm:px-5 pt-2 pb-12">
         <h1 className="ds-meta mb-3">
-          24시간 글로벌 자산 시세 · 한국 정규장 휴장에도 끊기지 않는 실시간 가격 · 비상장 빅테크(SpaceX·OpenAI·Anthropic) 포함
+          24시간 글로벌 자산 시세 · 한국 정규장 휴장에도 끊기지 않는 실시간 가격 · SpaceX·Anthropic 상장 주식 · OpenAI 비상장 포함
         </h1>
 
         {/* ① 오늘 한눈에 — 받은 실데이터를 규칙 문장 3줄로 + 다가오는 일정 D-day (새 fetch·Redis 없음) */}

@@ -76,7 +76,7 @@ export default async function OGImage() {
             fontWeight: 600,
           }}
         >
-          🚀 SpaceX · OpenAI · Anthropic 비상장 perp
+          🚀 SpaceX · Anthropic 상장 · OpenAI 비상장 perp
         </div>
 
         <div

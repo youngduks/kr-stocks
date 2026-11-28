@@ -16,7 +16,7 @@ export const revalidate = 120; // 홈과 같은 주기 — 같은 fetch 캐시�
 const URL = "https://kr-stocks.com/markets";
 const TITLE = "24시간 시세 — 한국·미국·비상장·글로벌 지수";
 const DESC =
-  "삼성전자·SK하이닉스·현대차, 미국 주식, 비상장 빅테크(OpenAI·Anthropic), 글로벌 지수 시세를 한 화면에서. 한국 정규장이 닫힌 밤·주말에도 24시간 참조가로 이어서 볼 수 있어요.";
+  "삼성전자·SK하이닉스·현대차, 미국 주식(SpaceX·Anthropic 포함), 비상장 빅테크(OpenAI), 글로벌 지수 시세를 한 화면에서. 한국 정규장이 닫힌 밤·주말에도 24시간 참조가로 이어서 볼 수 있어요.";
 
 export const metadata: Metadata = {
   title: TITLE,

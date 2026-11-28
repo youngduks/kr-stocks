@@ -246,7 +246,7 @@ export default async function BinanceKoreaStocksGuideEN() {
               </Link>
             </div>
             <p className="text-sm text-text-muted leading-relaxed mt-4">
-              For private big tech like OpenAI · SpaceX or US-stock overnight trading, see the{" "}
+              For private big tech like OpenAI or US-stock overnight trading (incl. SpaceX · Anthropic), see the{" "}
               <Link href={"/en/guide/hyperliquid-onramp" as any} className="text-accent-blue hover:underline font-semibold">
                 Hyperliquid trading guide
               </Link>

@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: "KR Stocks",
     title: "KR Stocks · 24시간 글로벌 자산 시세",
     description:
-      "한국·미국·비상장 (SpaceX/OpenAI/Anthropic) 39종목 24시간 실시간. 야간·주말 끊김 없이 추적.",
+      "한국·미국(SpaceX/Anthropic)·비상장(OpenAI) 39종목 24시간 실시간. 야간·주말 끊김 없이 추적.",
     url: "https://kr-stocks.com",
     locale: "ko_KR",
   },
